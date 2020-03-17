@@ -1,0 +1,85 @@
+---
+title: Använda utlösare i kampanj
+description: null
+page-status-flag: never-activated
+uuid: d844d013-b38a-4e69-9df5-0edc01fa9c6e
+contentOwner: sauviat
+products: SG_CAMPAIGN/STANDARD
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-triggers
+discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+
+---
+
+
+# Använda utlösare i kampanj{#using-triggers-in-campaign}
+
+## Skapa en mappad utlösare i Campaign {#creating-a-mapped-trigger-in-campaign}
+
+Du bör se till att definiera de beteenden som du vill övervaka i förväg i Adobe Experience Cloud ( **[!UICONTROL Triggers]** bastjänst). Mer information finns i dokumentationen [för](https://marketing.adobe.com/resources/help/en_US/mcloud/triggers.html)Adobe Experience Cloud. Observera att när du definierar utlösaren måste du aktivera aliasen. För varje beteende (surfning/formulärborttagning, tillägg/borttagning av produkter, session har gått ut osv.) måste en ny utlösare läggas till i Adobe Experience Cloud.
+
+Nu måste du skapa en utlösande händelse i Adobe Campaign baserat på en befintlig Adobe Experience Cloud-utlösare.
+
+I den här [videon](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) får du hjälp att förstå hur utlösare konfigureras i Adobe Campaign.
+
+Stegen för att implementera detta är:
+
+1. Klicka på **[!UICONTROL Adobe Campaign]** logotypen i det övre vänstra hörnet och välj sedan **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud Triggers]**.
+
+   ![](assets/remarketing_1.png)
+
+1. Klicka på **[!UICONTROL Create]** knappen. Guiden Skapa som öppnas visar en lista över alla utlösare som definierats i Adobe Experience Cloud. I **[!UICONTROL Fired by Analytics]** kolumnen visas antalet händelser som skickas av Adobe Experience Cloud-utlösaren till Campaign. Detta är mappning av utlösare som har skapats i Experience Cloud-gränssnittet.
+
+   ![](assets/remarketing_2.png)
+
+1. Välj den Adobe Experience Cloud-utlösare som du vill använda och klicka på **[!UICONTROL Next]**.
+1. Konfigurera de allmänna egenskaperna för utlösaren. I det här steget i guiden anger du även kanal- och måldimensionen som ska användas för utlösaren (se [Måldimensioner och resurser](../../automating/using/query.md#targeting-dimensions-and-resources)). Bekräfta sedan utlösaren.
+1. Klicka på knappen till höger om **[!UICONTROL Event content and enrichment]** fältet för att visa nyttolastens innehåll. På den här skärmen kan du även utöka händelsedata med profildata som lagras i Adobe Campaign-databasen. Anrikningen utförs på samma sätt som för ett vanligt transaktionsmeddelande.
+
+   ![](assets/remarketing_3.png)
+
+1. I **[!UICONTROL Transactional message validity duration]** fältet anger du hur länge meddelandet ska vara giltigt efter att händelsen har skickats av Analytics. Om en varaktighet på två dagar har angetts skickas meddelandet inte längre när den tiden har gått. Om du spärrar flera meddelanden ser det till att meddelandena inte skickas om du återupptar dem efter en viss tid.
+
+   ![](assets/remarketing_4.png)
+
+1. Om en prioritetsbedömning definieras i Analytics (se [Experience Cloud-dokumentationen](https://marketing.adobe.com/resources/help/en_US/insight/client/c_visitor_propensity.html)) kan du välja att inte skicka meddelandet om kunden har stor sannolikhet att komma tillbaka till webbplatsen inom den närmaste framtiden. Innehållet i poängen och tröskelvärdet är tillgängligt i nyttolastens innehåll så att du kan använda dessa värden för att anpassa meddelandet. Markera rutan längst ned på skärmen om du vill använda det här alternativet. De kunder som har stor sannolikhet att komma tillbaka till webbplatsen inom en snar framtid kommer inte att få något meddelande.
+1. Klicka på **[!UICONTROL Publish]** knappen för att börja publicera utlösarhändelsen.
+1. Om du behöver göra en ändring i utlösarschemat även efter att du har publicerat utlösarhändelsen klickar du på **[!UICONTROL Update schema]** knappen för att hämta de senaste ändringarna.
+
+   Observera att den här åtgärden avpublicerar utlösaren och transaktionsmeddelandet. Du måste publicera om dem efteråt.
+
+   ![](assets/remarketing_11.png)
+
+Med knappen **[!UICONTROL Show Trigger in Experience Cloud]** kan du visa utlösardefinitionen i Adobe Experience Cloud.
+
+När händelsen har publicerats skapas sedan en transaktionsmall som är länkad till den nya händelsen automatiskt. Sedan måste du ändra och publicera mallen som skapades. Mer information finns i avsnittet [Redigera mallen](../../start/using/marketing-activity-templates.md) .
+
+## Redigera transaktionsmeddelandemallen {#editing-the-transactional-message-template}
+
+När du har skapat och publicerat utlösarhändelsen skapas motsvarande transaktionsmall automatiskt. Mer information finns i avsnittet [Skapa en mappad utlösare i Campaign](#creating-a-mapped-trigger-in-campaign) .
+
+För att händelsen ska kunna utlösa att ett transaktionsmeddelande skickas måste du anpassa mallen, testa den och publicera den. De här stegen är samma som för ett vanligt transaktionsmeddelande. Mer information finns i avsnittet [Transactional template](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message) (Transaktionsmall).
+
+>[!NOTE]
+>
+>Om du avpublicerar mallen avpubliceras utlösarhändelsen automatiskt.
+
+När du redigerar innehåll kan du lägga till ett anpassningsfält baserat på den information som skickas av Analytics-utlösaren. Om du förbättrar händelsedata med Adobe Campaign-profildata kan du anpassa meddelandet baserat på den här informationen. Om du vill anpassa meddelandet väljer du **[!UICONTROL Transactional event]** > **[!UICONTROL Event context]** och väljer ett fält.
+
+![](assets/remarketing_8.png)
+
+## Åtkomst till rapporter {#accessing-the-reports}
+
+Om du vill visa den dedikerade utlösarrapporten i Adobe Campaign öppnar du den utlösarhändelse som du skapade tidigare och klickar på **[!UICONTROL Show trigger report]**.
+
+![](assets/remarketing_9.png)
+
+Rapporten visar antalet bearbetade händelser jämfört med antalet händelser som skickats av Analytics. Den visar också en lista över alla senaste utlösare.
+
+![](assets/trigger_uc_browse_14.png)
+
