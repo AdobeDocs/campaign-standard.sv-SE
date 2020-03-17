@@ -1,0 +1,135 @@
+---
+title: Provisionering och konfigurering av integrering med Audience Manager eller People core Service
+description: 'Lär dig hur du konfigurerar integreringen av huvudtjänsten Audience Manager / People för att börja dela målgrupper eller segment med de olika Adobe Experience Cloud-lösningarna. '
+page-status-flag: never-activated
+uuid: e7329644-0033-4729-b4a7-61bef137f4b5
+contentOwner: sauviat
+products: SG_CAMPAIGN/STANDARD
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
+discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 7e887fff76660dcb0369d4222e1ab3ac391c3a2d
+
+---
+
+
+# Provisionering och konfigurering av integrering med Audience Manager eller People core Service{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
+
+Etablering och konfigurering av Audience Manager och People core i Adobe Campaign i två steg: Skicka [begäran till Adobe](#submitting-request-to-adobe) och [konfigurera sedan integreringen i Adobe Campaign](#configuring-the-integration-in-adobe-campaign).
+
+## Skicka begäran till Adobe {#submitting-request-to-adobe}
+
+Tack vare integreringen med Audience Manager (AAM) eller People core Service kan du importera och exportera målgrupper eller segment i Adobe Campaign.
+
+Den här integreringen måste först konfigureras. Om du vill begära provisionering av den här integreringen skriver du ett e-postmeddelande till [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) med följande information:
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td> <strong>Typ av begäran:</strong><br /> </td> 
+   <td> Konfigurera integrering av AAM/People-bastjänst-Campaign </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Organisationsnamn:</strong><br /> </td> 
+   <td> Organisationens namn </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>IMS-organisations-ID</strong><br /> </td> 
+   <td> Ditt IMS-organisations-ID. <br> Du hittar ditt IMS-organisations-ID på Experience Cloud på menyn Administration. Det ingår också när du först ansluter till Adobe Experience Cloud. </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Miljö:</strong><br /> </td> 
+   <td> Exempel: Produktion </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>AAM eller People Service</strong><br /> </td> 
+   <td> Exempel: Adobe Audience Manager. Se till att tala om för provisioneringsteamet om ni äger Audience Manager-licensen eller inte.</td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Deklarerat ID eller besökar-ID</strong><br /> </td> 
+   <td> Exempel: Deklarerat ID </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Ytterligare information</strong><br /> </td> 
+   <td> All användbar information eller kommentarer som du kan ha </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Konfigurera integreringen i Adobe Campaign {#configuring-the-integration-in-adobe-campaign}
+
+När du har skickat in den här begäran fortsätter Adobe att distribuera integreringen åt dig och kontaktar dig för att ange information och information som du måste slutföra konfigurationen:
+
+* [Steg 1: Konfigurera eller kontrollera externa konton i Adobe Campaign](#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)
+* [Steg 2: Konfigurera datakällor](#step-2--configure-the-data-sources)
+* [Steg 3: Konfigurera kampanjspårningsserver](#step-3--configure-campaign-tracking-server)
+* [Steg 4: Konfigurera besökar-ID-tjänsten](#step-4--configure-the-visitor-id-service)
+
+### Steg 1: Konfigurera eller kontrollera externa konton i Adobe Campaign {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
+
+Först måste vi konfigurera eller kontrollera externa konton i Adobe Campaign. Dessa konton borde ha konfigurerats av Adobe och den nödvändiga informationen borde ha skickats till dig.
+
+Så här gör du:
+
+1. På den avancerade menyn väljer du **Administration > Programinställningar > Externa konton**.
+
+   Välj ett av följande externa konton som är tillgängliga för den här integreringen:
+
+   ![](assets/integration_aam_1.png)
+
+1. Ange **[!UICONTROL Receiver server]** i följande format
+1. Ange **[!UICONTROL AWS Access Key ID]**, **[!UICONTROL Secret Access Key]** och **[!UICONTROL AWS Region]**.
+
+Dina externa konton har nu konfigurerats för den här integreringen.
+
+### Steg 2: Konfigurera datakällor {#step-2--configure-the-data-sources}
+
+De två följande datakällorna skapas i Audience Manager: Adobe Campaign (MID) och Adobe Campaign (DeclaredId). Samtidigt finns dessa två datakällor i Adobe Campaign:
+
+* **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**: Detta är en användbar datakälla som konfigurerats som standard för besökar-ID. Segment som skapas från Campaign kommer att ingå i den här datakällan.
+* **Deklarerad ID** -datakälla: Den här datakällan måste skapas och mappas med definitionen av datakälla från Audience Manager **[!UICONTROL DeclaredId]** .
+
+Observera att Adobe Campaign inte stöder avstämning baserad på ECID för flera webbplatser med olika domäner.
+
+Så här konfigurerar du **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]** datakällan:
+
+1. In **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**, select **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**.
+
+   ![](assets/integration_aam_2.png)
+
+1. Välj **[!UICONTROL Adobe Campaign]** i **[!UICONTROL Data Source/ Alias]** listrutan.
+1. Ange **[!UICONTROL AAM Destination ID]** information från Adobe.
+
+   ![](assets/integration_aam_3.png)
+
+1. I **[!UICONTROL Reconciliation process]** kategorin rekommenderar vi att du inte ändrar avstämningskriterierna och alltid använder **[!UICONTROL Visitor ID]**.
+1. Klicka på **[!UICONTROL Save]**.
+
+Så här skapar du **[!UICONTROL Declared ID]** datakällan:
+
+1. Klicka på **[!UICONTROL Administration]** knappen i **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**> **[!UICONTROL Create]** .
+1. Redigera **[!UICONTROL Label]** datakällans utseende.
+1. I den **[!UICONTROL Data Source/ Alias]** nedrullningsbara listan väljer du datakällan som motsvarar **[!UICONTROL DeclaredID]** datakällan i Audience Manager.
+1. Konfigurera datakällan genom att ange **[!UICONTROL Data Source / Alias]** och **[!UICONTROL AAM Destination ID]** få information från Adobe.
+1. Ange **[!UICONTROL Reconciliation process]** efter behov.
+1. Klicka på **[!UICONTROL Save]**.
+
+>[!NOTE]
+>
+>Fältet är inte obligatoriskt om du konfigurerar den delade datakällan för **[!UICONTROL AAM Destination ID]** Campaign-Triggers-integreringen [](../../integrating/using/configuring-triggers-in-experience-cloud.md). **[!UICONTROL Priority]** behövs bara när du konfigurerar utlösare - Campaign-integrering. Prioriteten avgör vilken datakälla som konfigureras först. Prioriteten kan vara vilket tal som helst, till exempel 1 eller 100. Ju högre prioritet, desto högre inställning under avstämning.
+
+### Steg 3: Konfigurera kampanjspårningsserver {#step-3--configure-campaign-tracking-server}
+
+För konfigurationen av integreringen med tjänsten People Core eller Audience Manager måste vi även konfigurera Campaign Tracking-servern.
+
+Här måste du se till att Campaign Tracking Server är registrerad på domänen (CNAME). Mer information om delegering av domännamn finns i [den här artikeln](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/Technotes/AdobeCampaign_Deliverability_Sub_Domain_Delegation.pdf).
+
+### Steg 4: Konfigurera besökar-ID-tjänsten {#step-4--configure-the-visitor-id-service}
+
+Om din Visitor ID-tjänst aldrig har konfigurerats på dina webbegenskaper eller webbplatser kan du läsa följande [dokument](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-aam-analytics.html) och lära dig hur du konfigurerar tjänsten eller följande [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
+
+Din konfiguration och etablering är färdiga, och integreringen kan nu användas för att importera och exportera målgrupper eller segment.
