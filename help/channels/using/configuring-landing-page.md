@@ -1,0 +1,121 @@
+---
+title: Konfigurera en landningssida
+description: Lär dig hur du konfigurerar egenskaperna för en landningssida.
+page-status-flag: never-activated
+uuid: 5b222ea2-6628-457f-a618-bfc0e5eb93dd
+contentOwner: lemaitre
+products: SG_CAMPAIGN/STANDARD
+audience: channels
+content-type: reference
+topic-tags: landing-pages
+discoiquuid: 899c7152-f415-4df9-b4b4-5ff3470a4e32
+context-tags: landingPage,main
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+
+---
+
+
+# Konfigurera en landningssida {#configuring-landing-page}
+
+## Bekräfta inskickning av landningssida {#confirm-a-landing-page-submission}
+
+När en landningssida skickas av en besökare kan du konfigurera de åtgärder som utlöses. Så här gör du:
+
+1. Redigera landningssidans egenskaper som du kommer åt via ![](assets/edit_darkgrey-24px.png) ikonen på kontrollpanelen för landningssidan och visa **[!UICONTROL Job]** parametrarna.
+
+   ![](assets/lp_edit_properties_button.png)
+
+1. Under **[!UICONTROL Specific actions]** avsnittet väljer du **[!UICONTROL Start sending message]** för att bestämma om ett automatiskt meddelande ska skickas, t.ex. för att bekräfta en prenumeration på en tjänst. Sedan måste du välja en e-postleveransmall.
+
+   Observera att om ett bekräftelsemeddelande redan har konfigurerats på tjänstnivå bör du inte välja ett meddelande på den här skärmen för att undvika att skicka flera bekräftelsemeddelanden. Se [Konfigurera en tjänst](../../audiences/using/creating-a-service.md).
+
+1. Skapa **[!UICONTROL Additional data]** för att göra det möjligt att lagra ytterligare data när landningssidan skickas. Dessa data är inte synliga för personer som besöker sidan. Endast konstanta värden beaktas.
+
+   ![](assets/lp_parameters_6.png)
+
+## Länka en landningssida till en tjänst {#linking-a-landing-page-to-a-service}
+
+Du kan länka ett formulär till en tjänst så att profiler kan prenumerera på en viss tjänst när du validerar landningssidorna.
+
+Med parametrarna för länkning av en landningssida kan du ange vilken typ av åtgärd som har utförts och om landningssidan är specifikt kopplad till en enskild tjänst eller om den är generisk.
+
+För att kunna välja vilken tjänst som ska länkas måste du:
+
+1. Redigera landningssidans egenskaper som du kommer åt via ![](assets/edit_darkgrey-24px.png) ikonen på kontrollpanelen för landningssidan och visa **[!UICONTROL Job]** parametrarna.
+
+   ![](assets/lp_edit_properties_button.png)
+
+1. Välj **[!UICONTROL Subscription]** i **[!UICONTROL Specific actions]** listrutan.
+
+   ![](assets/lp_parameters_5.png)
+
+1. Välj **[!UICONTROL Specific service]** om du vill länka landningssidan till en tjänst. Välj inte det här alternativet om du vill använda flera tjänster med landningssidan.
+
+   Använd alternativet **[!UICONTROL Specified service in the URL]** för att tillåta att landningssidan kan användas för flera tjänster. Du måste därför referera till landningssidan när du konfigurerar tjänsten.
+
+## Ställa in behörigheter och läsa in data i förväg {#setting-permissions-and-pre-loading-data}
+
+Åtkomsten till en landningssida kan begränsas till identifierade besökare som kommer från en länk i ett meddelande som skickas av Campaign, till exempel, eller till en viss organisationsenhet.
+När det gäller identifierade besökare kan du förhandsladda deras data på landningssidan. Så här gör du:
+
+1. Redigera landningssidans egenskaper som du kommer åt via ![](assets/edit_darkgrey-24px.png) ikonen på kontrollpanelen för landningssidan och visa **[!UICONTROL Access & loading]** parametrarna.
+
+   ![](assets/lp_edit_properties_button.png)
+
+1. Välj **[!UICONTROL Preload visitor data]**.
+
+   Om en besökare på sidan motsvarar en profil i databasen, visas deras data i formulärets fält som mappas med databasdata och landningssidans anpassningselement tas med i beräkningen.
+
+   ![](assets/lp_parameters_3.png)
+
+Du kan också:
+
+* Använd URL-parametrarna för att identifiera besökarna med hjälp av **[!UICONTROL Authorize visitor identification via URL parameters]** alternativet: måste du välja inläsningsnyckeln och mappa filterparametrarna med parametrarna för motsvarande URL.
+* Ge alla besökare behörighet att komma åt landningssidan med hjälp av **[!UICONTROL Authorize unidentified visitors]** alternativet.
+
+Landningssidor kan även länkas till en organisationsenhet. Detta definierar användarnas åtkomst till de olika landningssidorna. Så här tilldelar du en organisationsenhet:
+
+1. Gå till landningssidans egenskaper via **[!UICONTROL Edit properties]** ikonen .
+
+   ![](assets/lp_parameters_google3.png)
+
+1. Ge liv åt **[!UICONTROL Access authorization]** filmen.
+
+1. Klicka på listrutan och välj en organisationsenhet. Mer information om hur du skapar organisationsenheter finns på den här [sidan](../../administration/using/organizational-units.md).
+
+   ![](assets/lp_org_unit_2.png)
+
+1. Fälten **[!UICONTROL Created by]**, **[!UICONTROL Created]**, **[!UICONTROL Access authorization]** och **[!UICONTROL Last modified]** fylls i automatiskt.
+
+1. Klicka **[!UICONTROL Confirm]** då **[!UICONTROL Save]**.
+
+Din landningssida kan nu bara nås och hanteras av användare inom den valda organisationsenheten.
+
+![](assets/lp_org_unit_3.png)
+
+## Ange Google reCAPTCHA {#setting-google-recaptcha}
+
+Du kan konfigurera Google reCAPTCHA V3 med din landningssida för att skydda den mot skräppost och missbruk som orsakas av stötar. För att kunna använda den med landningssidan måste du först skapa ett externt konto. Mer information om hur du konfigurerar det finns i det här [avsnittet](../../administration/using/external-accounts.md#google-recaptcha-external-account).
+
+När ditt externa Google reCAPTCHA V3-konto har konfigurerats kan du lägga till det på din startsida:
+
+1. Innan du publicerar din landningssida ska du gå till de sidegenskaper som du kommer åt via ![](assets/edit_darkgrey-24px.png) ikonen på kontrollpanelen för landningssidan.
+
+   ![](assets/lp_parameters_google3.png)
+
+1. Öppna **[!UICONTROL Access & loading]** menyn.
+1. Markera **[!UICONTROL Use reCAPTCHA to protect your site from spam and abuse]** alternativet.
+1. Välj ditt tidigare skapade externa Google reCAPTCHA-konto.
+
+   ![](assets/lp_parameters_google.png)
+
+1. Klicka på **[!UICONTROL Confirm]**.
+
+Din landningssida är nu konfigurerad med Google reCAPTCHA som visas längst ned på sidan.
+
+![](assets/lp_parameters_google2.png)
+
+Google reCAPTCHA returnerar sedan ett poängvärde baserat på användarnas interaktioner med din sida. Anslut till din [Google Admin Console](https://g.co/recaptcha/admin)för att kontrollera resultatet.
