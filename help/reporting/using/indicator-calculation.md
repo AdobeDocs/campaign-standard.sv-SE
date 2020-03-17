@@ -1,0 +1,377 @@
+---
+title: Indikatorberäkning
+description: Förstå resultaten av dina rapporter med en lista över varje metrisk formel.
+page-status-flag: never-activated
+uuid: dfbc9d7e-62db-4e77-bb8e-0ac826ec7333
+contentOwner: sauviat
+products: SG_CAMPAIGN/STANDARD
+audience: reporting
+content-type: reference
+topic-tags: about-reporting
+discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 6291862737c71b63d8107b03245d5207b6151e96
+
+---
+
+
+# Indikatorberäkning{#indicator-calculation}
+
+>[!NOTE]
+>
+>För att kunna bearbeta och hantera stora volymer och realtidsanalyser på ett bättre sätt använder dynamisk rapportering ungefärliga aggregeringar för distinkta räkningsberäkningar. Ungefärlig aggregering erbjuder begränsad minnesanvändning och är ofta snabbare än exakta beräkningar.
+
+Tabellerna nedan visar en lista över indikatorer som används i de olika rapporterna och deras beräkningsformel beroende på leveranstyp.
+
+## E-postleverans {#email-delivery}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Etikett</strong><br /> </th> 
+   <th> <strong>Fältnamn</strong><br /> </th> 
+   <th> <strong>Beräkningsformel</strong> för indikator <br /> </th> 
+   <th> <strong>Kommentarer</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> Kontot är inaktiverat<br /> </td> 
+   <td> @disabled<br /> </td> 
+   <td> count(@errorReason=4)<br /> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> Svartlistad<br /> </td> 
+   <td> @svartlistad<br /> </td> 
+   <td> count(@errorReason=8, @errorType=2)<br /> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> Svartlistefrekvens<br /> </td> 
+   <td> @rateBlacklisted<br /> </td> 
+   <td> @svartlistad/@skickad<br /> </td> 
+   <td> Nämnaren för tariffberäkning baseras på antalet skickade (Levererade + studsar).<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> studsar + fel<br /> </td> 
+   <td> @bounces<br /> </td> 
+   <td> count(@status=2)<br /> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> Studsa + Felfrekvens<br /> </td> 
+   <td> @rateBounces<br /> </td> 
+   <td> @bounces/@sent<br /> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> Klicka på<br /> </td> 
+   <td> @klickningar<br /> </td> 
+   <td> count(@trackingUrlType=1, 10 eller 11)<br /> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> Klicka igenom hastigheten<br /> </td> 
+   <td> @clickthrough<br /> </td> 
+   <td> @uniqueclicks/@levererad<br /> </td> 
+   <td> Nämnaren för tariffberäkning baseras endast på Levererad.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Levererat<br /> </td> 
+   <td> @levererad<br /> </td> 
+   <td> count(@status=1)<br /> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> Levererad ränta<br /> </td> 
+   <td> @rateDelived<br /> </td> 
+   <td> @levererad/@skickad<br /> </td> 
+   <td> Nämnaren för tariffberäkning baseras på antalet skickade (Levererade + studsar).<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Hårda studsar<br /> </td> 
+   <td> @hardBounces<br /> </td> 
+   <td> count(@errorType=2 OCH @errorReason=8)<br /> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> Hård studentfrekvens<br /> </td> 
+   <td> @rateHardBounces<br /> </td> 
+   <td> @hardBounces/@sent<br /> </td> 
+   <td> Nämnaren för tariffberäkning baseras på antalet skickade (Levererade + studsar).<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Ogiltig domän<br /> </td> 
+   <td> @invalidDomain<br /> </td> 
+   <td> count(@errorReason=2)<br /> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> Postlådan är full<br /> </td> 
+   <td> @mailBoxFull<br /> </td> 
+   <td> count(@errorReason=5)<br /> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> Spegelsida<br /> </td> 
+   <td> @mirrorPage<br /> </td> 
+   <td> count(@trackingUrlType=6)<br /> </td> 
+   <td> Nämnaren för tariffberäkning baseras endast på Levererad.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Spegelsidhastighet<br /> </td> 
+   <td> @rateMirrorPage<br /> </td> 
+   <td> @mirrorPage/@levererad<br /> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> Inte ansluten<br /> </td> 
+   <td> @notConnected<br /> </td> 
+   <td> count(@errorReason=6)<br /> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> Öppna<br /> </td> 
+   <td> @uniqueOpen<br /> </td> 
+   <td> count(@trackingUrlType=2 + unique(@trackingUrlType=1,2,3,6,10,11) - unique(@trackingUrlType=2))<br /> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> Öppen kurs<br /> </td> 
+   <td> @rateOpen<br /> </td> 
+   <td> @opens/@deliver<br /> </td> 
+   <td> Nämnaren för tariffberäkning baseras endast på Levererad.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Karantän<br /> </td> 
+   <td> @karantän<br /> </td> 
+   <td> isQuarantine=true<br /> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> Karantänsats<br /> </td> 
+   <td> @rateQuarantine<br /> </td> 
+   <td> @karantän/@skickad<br /> </td> 
+   <td> Nämnaren för tariffberäkning baseras på antalet skickade (Levererade + studsar).<br /> </td> 
+  </tr>
+  <tr> 
+   <td> Avvisad<br /> </td> 
+   <td> @avvisad<br /> </td> 
+   <td> count(@errorReason=20, @errorType=2)<br /> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> Avvisad ränta<br /> </td> 
+   <td> @rateRejected<br /> </td> 
+   <td> @avvisad/@skickad<br /> </td> 
+   <td> Nämnaren för tariffberäkning baseras på antalet skickade (Levererade + studsar).<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Behandlad/skickad<br /> </td> 
+   <td> @skickat<br /> </td> 
+   <td> @deliver + @bounces<br /> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> Mjuk studsa<br /> </td> 
+   <td> @softBounces<br /> </td> 
+   <td> count(@errorType=1)<br /> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> Mjuk studsfrekvens<br /> </td> 
+   <td> @rateSoftBounces<br /> </td> 
+   <td> @softBounces/@sent<br /> </td> 
+   <td> Nämnaren för tariffberäkning baseras på antalet skickade (Levererade + studsar).<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Unika klick<br /> </td> 
+   <td> @uniqueclicks<br /> </td> 
+   <td> Unika klick beräknas med ThetaSketch-koncept.<br /> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> Unika öppningar<br /> </td> 
+   <td> @uniqueopens<br /> </td> 
+   <td> unique(@trackingUrlType=1,2,3,6,10,11)<br /> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> Onåbar <br /> </td> 
+   <td> @ej nåbar<br /> </td> 
+   <td> count(@errorReason=3)<br /> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> Avbeställ<br /> </td> 
+   <td> @unsubscribe<br /> </td> 
+   <td> count(@trackingUrlType=3)<br /> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> Avbeställningsfrekvens<br /> </td> 
+   <td> @rateUnsubscribe<br /> </td> 
+   <td> @unsubscribe/@deliver<br /> </td> 
+   <td> Nämnaren för tariffberäkning baseras endast på Levererad.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Okänd användare<br /> </td> 
+   <td> @unknownUser<br /> </td> 
+   <td> count(@errorReason=1)<br /> </td> 
+   <td> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Leverans av push-meddelanden {#push-notification-delivery}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Etikett</strong><br /> </th> 
+   <th> <strong>Fältnamn</strong><br /> </th> 
+   <th> <strong>Beräkningsformel</strong> för indikator <br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> Behandlad/skickad<br /> </td> 
+   <td> @skickat<br /> </td> 
+   <td> @count(status=skickat)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Levererat<br /> </td> 
+   <td> @levererad<br /> </td> 
+   <td> @count(status=levererad)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Levererad ränta<br /> </td> 
+   <td> @rateDelived<br /> </td> 
+   <td> (@deliver/@sent)*100<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Studsa + Felfrekvens<br /> </td> 
+   <td> @rateBounces<br /> </td> 
+   <td> (@deliver/@sent)*100<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Öppna<br /> </td> 
+   <td> @opens<br /> </td> 
+   <td> @count(status=open)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Öppen kurs<br /> </td> 
+   <td> @rateOpen<br /> </td> 
+   <td> (@opens/@deliver)*100<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Unika öppningar<br /> </td> 
+   <td> @uniqueopens<br /> </td> 
+   <td> Unika öppningar beräknas med ThetaSketch-koncept för unika RecipientIds.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Impressions<br /> </td> 
+   <td> @imponations<br /> </td> 
+   <td> @count(status=levererad)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Unika intryck<br /> </td> 
+   <td> @uniqueimponations<br /> </td> 
+   <td> @unique(@count(status=vy))<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Klicka på<br /> </td> 
+   <td> @klickningar<br /> </td> 
+   <td> @count(status=interact)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Unika klick<br /> </td> 
+   <td> @uniqueclicks<br /> </td> 
+   <td> Unika klick beräknas med ThetaSketch-koncept.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Klicka igenom hastigheten<br /> </td> 
+   <td> @clickthrough<br /> </td> 
+   <td> (@interact/@levererad)*100<br /> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Leverans i appen {#in-app-delivery}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Etikett</strong><br /> </th> 
+   <th> <strong>Fältnamn</strong><br /> </th> 
+   <th> <strong>Beräkningsformel</strong> för indikator <br /> </th> 
+   <th> <strong>Kommentarer</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> Behandlad/skickad<br /> </td> 
+   <td> @skickat<br /> </td> 
+   <td> @count(status=skickat)<br /> </td> 
+   <td> skickat=levererat<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Levererat<br /> </td> 
+   <td> @levererad<br /> </td> 
+   <td> @count(status=levererad)<br /> </td> 
+   <td> levererad=skickad<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Impressions<br /> </td> 
+   <td> @imponations<br /> </td> 
+   <td> @count(status=vy) eller @count(status=knapp 1 klicka + knapp 2 klicka + avvisa)<br /> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> Unika intryck<br /> </td> 
+   <td> @uniqueimponations<br /> </td> 
+   <td> @unique(@count(status=vy))<br /> </td> 
+   <td> För <span class="uicontrol">målanvändare baserat på deras Campaign-profil (inAppProfile)</span> -mall, user = mottagar-ID.<br /> För <span class="uicontrol">alla användare av en mobilapp (inAppBroadcast)</span> och <span class="uicontrol">Target-användare baserat på deras mallar för mobilprofilen (inApp)</span> , user = MC Id eller motsvarande som representerar en unik kombination av användare, mobilapp och enhet.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Klicka i appen <br /> </td> 
+   <td> @inappclicks<br /> </td> 
+   <td> @count (status=klicka)<br /> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> Unika klick i appen<br /> </td> 
+   <td> @uniqueinapp<br /> </td> 
+   <td> @unique(@count (status=klickningar))<br /> </td> 
+   <td> För <span class="uicontrol">målanvändare baserat på deras Campaign-profil (inAppProfile)</span> -mall, user = mottagar-ID.<br /> För <span class="uicontrol">alla användare av en mobilapp (inAppBroadcast)</span> och <span class="uicontrol">Target-användare baserat på deras mallar för mobilprofilen (inApp)</span> , user = MC Id eller motsvarande som representerar en unik kombination av användare, mobilapp och enhet.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Klickfrekvens i appen<br /> </td> 
+   <td> @inappclickthrough<br /> </td> 
+   <td> Totalt antal klick på tryck på Button 1 eller Button 2/totalt antal*100<br /> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> Inaktivering i appen<br /> </td> 
+   <td> @dissaknar<br /> </td> 
+   <td> @count (status=close)<br /> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> Unika rabatter i appen<br /> </td> 
+   <td> @uniquedismissal<br /> </td> 
+   <td> @unique(@count (status=close))<br /> </td> 
+   <td> För <span class="uicontrol">målanvändare baserat på deras Campaign-profil (inAppProfile)</span> -mall, user = mottagar-ID.<br /> För <span class="uicontrol">alla användare av en mobilapp (inAppBroadcast)</span> och <span class="uicontrol">Target-användare baserat på deras mallar för mobilprofilen (inApp)</span> , user = MC Id eller motsvarande som representerar en unik kombination av användare, mobilapp och enhet.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Avdragsfrekvens i appen<br /> </td> 
+   <td> @dismissalrate<br /> </td> 
+   <td> Totalt antal närbilder*100<br /> </td> 
+   <td> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
