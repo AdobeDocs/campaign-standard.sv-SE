@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e8302a8d3ba914781bd332bc318b65d88afc6d94
+source-git-commit: b71d19672efe24040d676bbcff3f90177b3fbcae
 
 ---
 
@@ -108,7 +108,7 @@ Knappen ![](assets/pause_darkgrey-24px.png) pausar körningen. Arbetsflödet få
 
 **Stoppa**
 
-Knappen ![](assets/stop_darkgrey-24px.png) stoppar ett arbetsflöde som körs, som sedan får statusen **Färdigt** (grönt). De pågående åtgärderna avbryts om det är möjligt och import- eller SQL-frågor avbryts omedelbart. Du kan inte återuppta arbetsflödet från samma plats som det stoppades.
+Knappen ![](assets/stop_darkgrey-24px.png) stoppar ett arbetsflöde som körs, som sedan får statusen **Färdigt** (grönt). De pågående åtgärderna avbryts om det är möjligt, och import- eller SQL-frågor avbryts omedelbart. Du kan inte återuppta arbetsflödet från samma plats som det stoppades.
 
 **Starta om**
 
@@ -209,9 +209,9 @@ Möjliga alternativ är:
 
 * **[!UICONTROL Save SQL queries in the log]**: Med kan du spara SQL-frågor från arbetsflödet i loggarna.
 
-* ***[!UICONTROL Keep interim results]**: Markera det här alternativet om du vill kunna se detaljerna i övergångarna. Varning: om du markerar det här alternativet kan arbetsflödets körning bli avsevärt långsammare.
+* **[!UICONTROL Keep interim results]**: Markera det här alternativet om du vill kunna se detaljerna i övergångarna. Varning: om du markerar det här alternativet kan arbetsflödets körning bli avsevärt långsammare.
 
-* **[!UICONTROL Execute in the engine (do not use in production)]**: gör att du kan köra arbetsflödet lokalt, i syfte att testa utvecklingsmiljön.
+* **[!UICONTROL Execute in the engine (do not use in production)]**: gör att du kan köra arbetsflödet lokalt, för testning i utvecklingsmiljön.
 
 * **[!UICONTROL Severity]**: Med kan du ange en prioritetsnivå för att köra arbetsflöden i Adobe Campaign-instansen. Kritiska arbetsflöden körs först.
 
