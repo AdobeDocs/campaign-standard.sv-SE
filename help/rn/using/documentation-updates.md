@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f49668c8ad878764b2a15c53efdcab797dd91724
+source-git-commit: ffe6b34ec8d7a31ffcce1e725364a6ecf00f70a8
 
 ---
 
@@ -27,7 +27,7 @@ Du kan även läsa [versionsinformationen](../../rn/using/release-notes.md)för 
 
 ## Dokumentationsuppdateringar - mars 2020 {#doc-updates-march-2020}
 
-Mer detaljerad information om Förbättrad MTA har lagts till i den centrala dokumentationen, särskilt vad gäller regler för e-postbearbetning och studentgodkännande [Läs mer](../../administration/using/configuring-email-channel.md#email-processing-rules)
+Mer detaljerad information om Förbättrad MTA har lagts till i den centrala dokumentationen, särskilt när det gäller regler för e-postbearbetning och studentgodkännande. [Läs mer](../../administration/using/configuring-email-channel.md#email-processing-rules)
 
 Avsnittet som är avsett för arkivering med e-postkopia har flyttats och uppdaterats. [Läs mer](../../sending/using/archiving.md)
 
