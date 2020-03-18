@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: accc382ca1543d648e60d53cab338537fd9ea3ef
+source-git-commit: e8302a8d3ba914781bd332bc318b65d88afc6d94
 
 ---
 
@@ -54,11 +54,7 @@ Som standard går det bara att komma åt information om den senaste övergången
 
 När en övergång är öppen kan du redigera den **[!UICONTROL Label]** eller länka en övergång **[!UICONTROL Segment code]** till den. Om du vill göra det redigerar du motsvarande fält och bekräftar ändringarna.
 
-## Styra ett arbetsflöde från REST API {#controlling-a-workflow-from-the-rest-api}
-
-Med REST API kan du **starta**, **pausa**, **återuppta** och **stoppa** ett arbetsflöde.
-
-Mer information och exempel på REST-anrop finns i [API-dokumentationen.](../../api/using/controlling-a-workflow.md)
+Med Campaign Standard REST API:er kan du **starta**, **pausa**, **återuppta** och **stoppa** ett arbetsflöde. Mer information och exempel på REST-anrop finns i [API-dokumentationen.](../../api/using/controlling-a-workflow.md)
 
 ## Livscykel {#life-cycle}
 
@@ -174,37 +170,52 @@ I det här fallet avbryts den felaktiga aktiviteten. Det här läget passar sär
 >
 >Du kan använda den här konfigurationen separat för varje aktivitet. Det gör du genom att markera en aktivitet och öppna den med snabbåtgärden ![](assets/edit_darkgrey-24px.png). Välj sedan felhanteringsläget på fliken **Körningsalternativ** . Se Alternativ för [aktivitetskörning](#activity-execution-options).
 
-I avsnittet **[!UICONTROL Execution]** i arbetsflödesegenskaperna kan du även definiera ett antal **[!UICONTROL Consecutive errors]** som är auktoriserade innan arbetsflödeskörningen pausas automatiskt. Så länge som det här antalet inte nås, ignoreras de felaktiga elementen och de andra arbetsflödesgrenarna körs normalt. Om det här numret nås pausas arbetsflödet och arbetsflödets ansvariga meddelas automatiskt (e-post och meddelanden i appen). Se [Arbetsflödesegenskaper](#workflow-properties) och [Adobe Campaign-meddelanden](../../administration/using/sending-internal-notifications.md).
+Ytterligare alternativ för felhantering finns tillgängliga i [arbetsflödets egenskaper](#workflow-properties).
 
-Övervakarna kan också definieras i arbetsflödets körningsegenskaper.
+![](assets/wkf_execution_error.png)
+
+Möjliga alternativ är:
+
+* **[!UICONTROL Supervisors]**: Med kan du definiera gruppen med personer som ska meddelas (e-post och meddelanden i appen) om arbetsflödet stöter på ett fel. Om ingen grupp är definierad meddelas ingen. Mer information om Adobe Campaign-meddelanden finns i [Adobe Campaign-meddelanden](../../administration/using/sending-internal-notifications.md).
+
+* **[!UICONTROL In case of error]**: gör att du kan ange vilken åtgärd som ska utföras om aktiviteten stöter på ett fel. Det finns två alternativ:
+
+   * **Gör uppehåll i processen**: arbetsflödet pausas automatiskt. Arbetsflödets status är sedan **Felaktig** och den färg som är associerad blir röd. Starta om arbetsflödet när problemet är löst.
+   * **Ignorera**: aktiviteten inte utförs och därför är ingen av de aktiviteter som följer den (i samma gren). Detta kan vara användbart för återkommande uppgifter. Om grenen har en schemaläggare placerad uppströms ska detta utlösas på nästa körningsdatum.
+
+* **[!UICONTROL Consecutive errors]** : gör att du kan definiera ett antal på varandra följande fel som är auktoriserade innan arbetsflödets körning pausas automatiskt.
+
+   * Om det angivna antalet är **[!UICONTROL 0]**, eller om det angivna antalet inte nås, ignoreras aktiviteter som påträffar fel. De andra arbetsflödesgrenarna körs normalt.
+
+   * Om det angivna antalet nås, kommer hela arbetsflödet att pausas och bli **[!UICONTROL Erroneous]**. Om granskarna har definierats meddelas de automatiskt via e-post. Se [Adobe Campaign-meddelanden](../../administration/using/sending-internal-notifications.md).
 
 ## Egenskaper för arbetsflöde {#workflow-properties}
 
 Om du vill ändra ett arbetsflödes körningsalternativ använder du knappen för att komma åt arbetsflödesegenskaperna och väljer ![](assets/edit_darkgrey-24px.png) **[!UICONTROL Execution]** avsnittet.
 
-I **[!UICONTROL Default affinity]** fältet kan du tvinga ett arbetsflöde eller en arbetsflödesaktivitet att köras på en viss dator.
-
-I **[!UICONTROL History in days]** fältet anger du efter hur lång tid historiken måste rensas.
-
-Du kan markera alternativen **[!UICONTROL Save SQL queries in the log]** och **[!UICONTROL Execute in the engine (do not use in production)]** om det behövs.
-
-Markera det här alternativet om du vill **[!UICONTROL Keep interim results]** kunna se detaljerna i övergångarna. Varning: om du markerar det här alternativet kan arbetsflödets körning bli avsevärt långsammare.
-
-I **[!UICONTROL Severity]** fältet kan du ange en prioritetsnivå för att köra arbetsflöden i Adobe Campaign-instansen. Kritiska arbetsflöden körs först.
-
-I **[!UICONTROL Supervisors]** fältet kan du definiera gruppen med personer som ska meddelas (e-post och meddelanden i programmet) om arbetsflödet stöter på ett fel. Om ingen grupp är definierad meddelas ingen. Mer information om Adobe Campaign-meddelanden finns i [Adobe Campaign-meddelanden](../../administration/using/sending-internal-notifications.md).
-
-I **[!UICONTROL In case of error]** fältet kan du ange vilken åtgärd som ska utföras om aktiviteten stöter på ett fel. Det finns två alternativ:
-
-* **Gör uppehåll i processen**: arbetsflödet pausas automatiskt. Arbetsflödets status är sedan **Felaktig** och den färg som är associerad blir röd. Starta om arbetsflödet när problemet är löst.
-* **Ignorera**: aktiviteten inte utförs och därför är ingen av de aktiviteter som följer den (i samma gren). Detta kan vara användbart för återkommande uppgifter. Om grenen har en schemaläggare placerad uppströms ska detta utlösas på nästa körningsdatum.
-
-   Om du väljer det här alternativet kan du även definiera ett antal **[!UICONTROL Consecutive errors]** som är behöriga:
-
-   * Om det angivna antalet är **[!UICONTROL 0]**, eller om det angivna antalet inte nås, ignoreras aktiviteter som påträffar fel. De andra arbetsflödesgrenarna körs normalt.
-   * Om det angivna antalet nås, kommer hela arbetsflödet att pausas och bli **[!UICONTROL Erroneous]**. Om granskarna har definierats meddelas de automatiskt via e-post.
-
 ![](assets/wkf_execution_6.png)
+
+Möjliga alternativ är:
+
+* **[!UICONTROL Default affinity]**: I det här fältet kan du tvinga ett arbetsflöde eller en arbetsflödesaktivitet att köras på en viss dator.
+
+* **[!UICONTROL History in days]**: Anger antalet dagar efter vilka historiken måste rensas. Historiken består av alla element som är relaterade till loggar, uppgifter och händelser. Standardvärdet är 30 dagar för färdiga arbetsflödesmallar.
+
+   Historiken rensas av det tekniska arbetsflödet för databasrensning som utförs som standard varje dag (se [Lista över tekniska arbetsflöden](../../administration/using/technical-workflows.md)).
+
+   >[!IMPORTANT]
+   >
+   >Om **[!UICONTROL History in days]** fältet lämnas tomt betraktas dess värde som &quot;1&quot;, vilket innebär att historiken rensas efter 1 dag.
+
+* **[!UICONTROL Save SQL queries in the log]**: Med kan du spara SQL-frågor från arbetsflödet i loggarna.
+
+* ***[!UICONTROL Keep interim results]**: Markera det här alternativet om du vill kunna se detaljerna i övergångarna. Varning: om du markerar det här alternativet kan arbetsflödets körning bli avsevärt långsammare.
+
+* **[!UICONTROL Execute in the engine (do not use in production)]**: gör att du kan köra arbetsflödet lokalt, i syfte att testa utvecklingsmiljön.
+
+* **[!UICONTROL Severity]**: Med kan du ange en prioritetsnivå för att köra arbetsflöden i Adobe Campaign-instansen. Kritiska arbetsflöden körs först.
+
+I avsnittet finns ytterligare alternativ som du kan använda för att hantera hur arbetsflöden fungerar vid fel. **[!UICONTROL Error management]** Dessa alternativ beskrivs i avsnittet [Felhantering](#error-management) .
 
 ## Aktivitetsegenskaper {#activity-properties}
 
