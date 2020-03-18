@@ -13,7 +13,7 @@ context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 41ba6fa44807541dd749f4effca44ae2b4d147ae
+source-git-commit: e04b70012188b455382406df167328f963d577da
 
 ---
 
@@ -62,7 +62,8 @@ I avsnittet [Skapa marknadsföringsaktiviteter](../../start/using/marketing-acti
 
 **Relaterat ämne:**
 
-[Skapa en arbetsflödesvideo](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.html)
+* [Skapa en arbetsflödesvideo](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.html)
+* [Egenskaper för arbetsflöde](../../automating/using/executing-a-workflow.md#workflow-properties)
 
 ## Lägga till och länka aktiviteter {#adding-and-linking-activities}
 
@@ -74,16 +75,16 @@ Du måste nu definiera de olika aktiviteterna och länka samman dem i diagrammet
 
 Aktiviteter grupperas efter kategori i de olika avsnitten på paletten.
 
-* Det första avsnittet innehåller målinriktade aktiviteter.
-* Det andra avsnittet innehåller de genomförandeåtgärder som huvudsakligen används för att samordna andra verksamheter.
-* Det tredje avsnittet innehåller aktiviteter som kan användas för att skicka meddelanden i olika kanaler. Aktiviteterna i det här avsnittet kan variera beroende på vilka kanaler som är aktiverade på din instans.
-* Det fjärde avsnittet innehåller filhantering och datahanteringsaktiviteter.
+* Det första avsnittet innehåller [målinriktningsaktiviteter](../../automating/using/about-targeting-activities.md)
+* Det andra avsnittet innehåller de [genomförandeåtgärder](../../automating/using/about-execution-activities.md)som huvudsakligen används för att samordna andra verksamheter.
+* Det tredje avsnittet innehåller aktiviteter som kan användas för att skicka meddelanden i olika [kanaler](../../automating/using/about-channel-activities.md). Aktiviteterna i det här avsnittet kan variera beroende på vilka kanaler som är aktiverade på din instans.
+* Det fjärde avsnittet innehåller [filhantering och datahanteringsaktiviteter](../../automating/using/about-data-management-activities.md).
 
 Så här skapar du diagrammet:
 
 1. Lägg till en aktivitet genom att dra den från paletten och släppa den i diagrammet.
 
-   Du kan till exempel lägga till en **Start** -aktivitet och sedan en **E-postleveransaktivitet** i diagrammet.
+   Du kan till exempel lägga till en **[Start](../../automating/using/start-and-end.md)**-aktivitet och sedan en**[ E-postleveransaktivitet](../../automating/using/email-delivery.md)** i diagrammet.
 
 1. Länka samman aktiviteterna genom att dra övergången **Start** -aktivitet och släppa den i aktiviteten **E-postleverans** .
 
