@@ -12,7 +12,7 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
+source-git-commit: 4ca603abd9b4ef1a9272a89acb62dee545b76114
 
 ---
 
@@ -24,9 +24,13 @@ source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 Du kan samla in data från en fil för att bearbeta den och/eller importera den till Adobe Campaign-databasen.
 
 * Med den här **[!UICONTROL Load file]** aktiviteten kan du importera data i ett strukturerat formulär och använda dessa data i Adobe Campaign. Data importeras tillfälligt och en annan aktivitet krävs för att den ska kunna integreras slutgiltigt i Adobe Campaign-databasen.
-* Med den här **[!UICONTROL Transfer file]** aktiviteten kan du ta emot eller skicka filer, testa om det finns filer eller listfiler i Adobe Campaign.
 
-   Du kan använda den här aktiviteten före en **[!UICONTROL Load file]** om du behöver hämta filen från en extern källa.
+   Mer information om hur du använder den här aktiviteten finns i [det här avsnittet](../../automating/using/load-file.md).
+
+* Med den här **[!UICONTROL Transfer file]** aktiviteten kan du ta emot eller skicka filer, testa om det finns filer eller listfiler i Adobe Campaign.
+Du kan använda den här aktiviteten före en **[!UICONTROL Load file]** om du behöver hämta filen från en extern källa.
+
+   Mer information om hur du använder den här aktiviteten finns i [det här avsnittet](../../automating/using/transfer-file.md).
 
 ## Importera metodtips {#import-best-practices}
 
@@ -47,6 +51,14 @@ Ett exempel på en allmän arbetsflödesmall som utformats för import av data f
 >[!NOTE]
 >
 >Du kan också använda [importmallar](../../automating/using/importing-data-with-import-templates.md). De är arbetsflödesmallar som har definierats av en administratör och som när de har aktiverats endast ger möjlighet att ange filen som innehåller de data som ska importeras.
+
+**Relaterade ämnen:**
+
+* [Läs in filaktivitet](../../automating/using/load-file.md)
+* [Avstämningsaktivitet](../../automating/using/reconciliation.md)
+* [Segmenteringsaktivitet](../../automating/using/segmentation.md)
+* [Dedupliceringsaktivitet](../../automating/using/deduplication.md)
+* [Uppdatera dataaktivitet](../../automating/using/update-data.md)
 
 ### Använda platta filformat {#using-flat-file-formats}
 
@@ -72,6 +84,11 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 ### Använda komprimering {#using-compression}
 
 Använd zippade filer för import och export när det är möjligt. GZIP stöds som standard. Du kan lägga till förbearbetning när du importerar filer eller efterbearbetning när du extraherar data i arbetsflödesuppgifterna **[!UICONTROL Load file]** och **[!UICONTROL Extract file]** .
+
+**Relaterade ämnen:**
+
+* [Läs in filaktivitet](../../automating/using/load-file.md)
+* [Filaktivitet för Extract](../../automating/using/extract-file.md)
 
 ### Importera i Delta-läge {#importing-in-delta-mode}
 
@@ -105,11 +122,16 @@ Om du till exempel vill dekryptera en fil med PGP blir kommandot:
    <path-to_pgp_if-not_global_or_server/>pgp.exe --decrypt --input nl6/var/vp/import/filename.pgp --passphrase "your password" --recipient recipient @email.com --verbose --output nl6/var/vp/import/filename
    ```
 
-När begäran har bearbetats är krypterings-/dekrypteringskommandona tillgängliga i **!UICONTROL Pre-processing stage]** fältet från **[!UICONTROL Data loading (file)]** och **[!UICONTROL Extracting data (file)]** aktiviteterna. Du kan använda dem för att dekryptera eller kryptera de filer som du vill importera eller exportera.
+När begäran har bearbetats är krypterings-/dekrypteringskommandona tillgängliga i **!UICONTROL Pre-processing stage]** fältet från **[!UICONTROL Load file]** och **[!UICONTROL Extract file]** aktiviteterna. Du kan använda dem för att dekryptera eller kryptera de filer som du vill importera eller exportera.
 
 ![](assets/preprocessing-encryption.png)
 
-## Exempel: Importera arbetsflödesmall {#example--import-workflow-template}
+**Relaterade ämnen:**
+
+* [Läs in fil](../../automating/using/load-file.md)
+* [Extrahera fil](../../automating/using/extract-file.md)
+
+## Skapa arbetsflödesmall för import av data {#example--import-workflow-template}
 
 Det är bäst att använda en importmall om du behöver importera filer med samma struktur regelbundet.
 
@@ -184,7 +206,7 @@ I det här exemplet visas hur du anger ett förinställt arbetsflöde som kan å
 
       >[!NOTE]
       >
-      >Om du planerar att skicka direktreklam till dessa profiler måste du ange en postadress eftersom informationen är viktig för direktreklamleverantören. Kontrollera även att **[!UICONTROL Address specified]** rutan i profilinformationen är markerad. Om du vill uppdatera det här alternativet från ett arbetsflöde lägger du bara till ett element i de fält som ska uppdateras, anger **1** som **[!UICONTROL Source]** och väljer **`postalAddress/@addrDefined`** fältet som **[!UICONTROL Destination]**. Mer information om direktreklam och hur du använder **[!UICONTROL Address specified]** alternativet finns i [det här dokumentet](../../channels/using/about-direct-mail.md#recommendations).
+      >Om du planerar att skicka direktreklam till dessa profiler måste du ange en postadress eftersom informationen är viktig för direktreklamleverantören. Kontrollera även att **[!UICONTROL Address specified]** rutan i profilinformationen är markerad. Om du vill uppdatera det här alternativet från ett arbetsflöde lägger du bara till ett element i de fält som ska uppdateras, anger **1** som **[!UICONTROL Source]** och väljer `postalAddress/@addrDefined` fältet som **[!UICONTROL Destination]**. Mer information om direktreklam och hur du använder **[!UICONTROL Address specified]** alternativet finns i [det här dokumentet](../../channels/using/about-direct-mail.md#recommendations).
 
 1. Konfigurera den **[!UICONTROL Deduplication]** aktivitet som finns efter övergången och som innehåller ej avstämda profiler:
 
