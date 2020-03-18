@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 09a41719e7c857c87607a29a08bc819752d88fd2
+source-git-commit: f49668c8ad878764b2a15c53efdcab797dd91724
 
 ---
 
@@ -27,6 +27,10 @@ Du kan även läsa [versionsinformationen](../../rn/using/release-notes.md)för 
 
 ## Dokumentationsuppdateringar - mars 2020 {#doc-updates-march-2020}
 
+Mer detaljerad information om Förbättrad MTA har lagts till i den centrala dokumentationen, särskilt vad gäller regler för e-postbearbetning och studentgodkännande [Läs mer](../../administration/using/configuring-email-channel.md#email-processing-rules)
+
+Avsnittet som är avsett för arkivering med e-postkopia har flyttats och uppdaterats. [Läs mer](../../sending/using/archiving.md)
+
 Konfigurationen av en mobilprogramdokumentation och relaterade sidor har uppdaterats för att återspegla SDK V4-avskrivning. [Läs mer](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)
 
 Integreringsdokumentationen för Adobe Campaign Standard/Adobe Experience Manager har uppdaterats och förbättrats. [Läs mer](../../integrating/using/configure-experience-manager.md)
@@ -36,6 +40,8 @@ E-postdesignerdokumentationen för Campaign och tillhörande sidor har uppdatera
 Nu finns ett nytt avsnitt om de effektivaste strategierna med Campaign Standard-datamodellen. [Läs mer](../../developing/using/data-model-best-practices.md)
 
 Information har lagts till till till höger **[!UICONTROL Workflow]** i körklart läge. [Läs mer](../../administration/using/list-of-roles.md)
+
+Information har lagts till om de **[!UICONTROL History in days field]** tillgängliga egenskaperna för arbetsflöden. [Läs mer](../../automating/using/executing-a-workflow.md)
 
 ## Version 20.1 - februari 2019 {#release-20-1---february-2020}
 
@@ -191,7 +197,7 @@ Det finns nu en ny artikel med tips som förenklar marknadsföringskampanjer, bl
 
 En felsökning har lagts till för dynamisk rapportering. [Läs mer](../../reporting/using/troubleshooting.md)
 
-Ett diagram som förklarar hur de olika mallarna i appen hanterar personlig information har lagts till. [Läs mer](../../channels/using/preparing-and-sending-an-in-app-message.md)
+Ett diagram som förklarar hur olika mallar i appen hanterar personlig information har lagts till. [Läs mer](../../channels/using/preparing-and-sending-an-in-app-message.md)
 
 Avsnittet om hur du sparar e-postinnehåll som ett fragment i e-postdesignern har uppdaterats. [Läs mer](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)
 
