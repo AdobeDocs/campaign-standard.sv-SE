@@ -12,7 +12,7 @@ discoiquuid: de3a50b6-ea8f-4521-996b-c49cc1f3c946
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: f7e361d10d039718c421a3684c518347af2be951
 
 ---
 
@@ -81,7 +81,7 @@ Adobe Campaign hanterar karantän utifrån typ av leveransfel och orsaken som ti
 
 * **Ignorerat fel**: ignorerade fel skickar ingen adress till karantän.
 * **Hårt fel**: motsvarande e-postadress omedelbart skickas till karantänen.
-* **Mjukt fel**: Mjuka fel skickar inte en adress till karantän omedelbart, men de ökar en felräknare. När felräknaren når gränsvärdet sätts adressen i karantän. I standardkonfigurationen anges tröskelvärdet till fem fel, där två fel är viktiga om de inträffar med minst 24 timmars mellanrum. Adressen sätts i karantän vid det sjätte felet. Tröskelvärdet för felräknare kan ändras. Mer information finns på den här [sidan](../../administration/using/configuring-email-channel.md#email-channel-parameters).
+* **Mjukt fel**: Mjuka fel skickar inte en adress till karantän omedelbart, men de ökar en felräknare. När felräknaren når gränsvärdet sätts adressen i karantän. I standardkonfigurationen anges tröskelvärdet till fem fel, där två fel är viktiga om de inträffar med minst 24 timmars mellanrum. Adressen sätts i karantän vid det femte felet. Tröskelvärdet för felräknare kan ändras. Mer information finns på den här [sidan](../../administration/using/configuring-email-channel.md#email-channel-parameters).
 
    När en leverans lyckas efter ett nytt försök initieras felräknaren för den adress som var före den karantänen om. Adressstatusen ändras till **[!UICONTROL Valid]** och tas bort från listan över karantäner efter två dagar i **[!UICONTROL Database cleanup]** arbetsflödet.
 
