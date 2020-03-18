@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 941ecc3acf1478dfea25f0e85059a3421888ae29
+source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
 
 ---
 
@@ -152,6 +152,7 @@ source-git-commit: 941ecc3acf1478dfea25f0e85059a3421888ae29
    + Skicka och spåra meddelanden {#sending-and-tracking-messages}
       + [Bekräfta sändningen](sending/using/confirming-the-send.md)
       + [Spåra meddelanden](sending/using/tracking-messages.md)
+      + [Arkivering med e-postkopia](sending/using/archiving.md)
    + Övervaka meddelanden {#monitoring-messages}
       + [Övervaka leverans](sending/using/monitoring-a-delivery.md)
       + [Få aviseringar när fel uppstår](sending/using/receiving-alerts-when-failures-happen.md)
