@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9163a375a4d2345e94a62e38475cb90bd203ce48
+source-git-commit: 04709dd9a754ea616f3e695ada072137b9ecce6a
 
 ---
 
@@ -78,84 +78,86 @@ Standardreglerna är följande:
 
 ### Studsa meddelanden {#bounce-mails}
 
-När ett e-postmeddelande misslyckas returnerar fjärrmeddelandeservern ett studsfelmeddelande till den adress som anges i programinställningarna.
+För synkrona felmeddelanden vid leveransfel fastställer Förbättrat MTA avhoppstypen och kvalificeringen och skickar tillbaka informationen till Campaign. Mer information om Adobe Campaign Enhanced MTA finns i det här [dokumentet](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
-I Adobe Campaign jämförs innehållet i varje studsmeddelande med strängarna i listan över regler och sedan tilldelas det en av de tre feltyperna.
-
->[!IMPORTANT]
->
->När du har uppgraderat till Förbättrat MTA används inte längre studskvalifikationerna i Campaign- **[!UICONTROL Message qualification]** tabellen. För synkrona felmeddelanden vid leveransfel fastställer Förbättrat MTA avhoppstypen och kvalificeringen och skickar tillbaka informationen till Campaign. Asynkrona studsar är fortfarande kvalificerade av inMail-processen.
->
->Mer information om Adobe Campaign Enhanced MTA finns i det här [dokumentet](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
-
-Användaren kan skapa egna regler.
+Asynkrona studsar är fortfarande kvalificerade av Campaign-processen i Mail via **[!UICONTROL Bounce mails]** regeln.
 
 >[!IMPORTANT]
 >
->När du importerar ett paket och uppdaterar data via arbetsflödet **Uppdatera för leverans** , skrivs de regler som användaren har skapat över.
+>När du har uppgraderat till Förbättrat MTA används inte längre studskvalifikationerna i Campaign- **[!UICONTROL Message qualification]** tabellen. Mer information om studentkvalifikationer finns i det här [avsnittet](../../sending/using/understanding-delivery-failures.md).
 
-### Hantera e-postdomäner {#managing-email-domains}
-
-Domänhanteringsreglerna används för att reglera flödet av utgående e-post för en viss domän. De samplar studsmeddelandena och blockerar sändningarna där så är lämpligt.
-
-Meddelandeservern för Adobe Campaign tillämpar regler som är specifika för domänerna och sedan reglerna för det allmänna fallet som representeras av en asterisk i listan med regler.
+<!--The user can create his own rules.
 
 >[!IMPORTANT]
 >
->När du har uppgraderat till det förbättrade MTA-avtalet signerar DKIM-e-postautentisering (DomainKeys Identified Mail) via det förbättrade MTA-avtalet. DKIM-signering av den inbyggda Campaign MTA inaktiveras i **[!UICONTROL Domain management]** tabellen som en del av den förbättrade MTA-uppgraderingen.
+>When importing a package and when updating data via the **Update for deliverability** workflow, the user-created rules are overwritten.-->
+
+### Hantering av e-postdomäner {#managing-email-domains}
+
+<!--The Adobe Campaign messaging server applies rules specific to the domains, and then the rules for the general case represented by an asterisk in the list of rules.
+
+The **SMTP parameters** act as filters applied for a blocking rule.
+
+* You can choose whether or not to activate certain identification standards and encryption keys to check the domain name, such as **Sender ID**, **DomainKeys**, **DKIM**, and **S/MIME**.
+* **SMTP relay**: lets you configure the IP address and the port of a relay server for a particular domain.-->
+
+>[!IMPORTANT]
 >
->Mer information om Adobe Campaign Enhanced MTA finns i det här [dokumentet](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+>När Adobe Campaign- **[!UICONTROL Domain management]** reglerna uppgraderats till det förbättrade MTA-avtalet används de inte längre.
 
-Om du vill konfigurera regler för domänhantering anger du bara ett tröskelvärde och väljer vissa SMTP-parametrar. Ett **tröskelvärde** är en gräns som beräknas som ett felprocentvärde över vilket alla meddelanden till en viss domän blockeras.
+**DKIM-signering (DomainKeys Identified Mail)** för e-postautentisering görs av den utökade MTA:n för alla meddelanden med alla domäner. Det signerar inte med **avsändar-ID**, **DomainKeys**, **DKIM** eller **S/MIME** om inte annat anges på den utökade MTA-nivån.
 
-SMTP- **parametrarna** fungerar som filter för en blockeringsregel.
-
-* Du kan välja om du vill aktivera vissa identifieringsstandarder och krypteringsnycklar för att kontrollera domännamnet, till exempel **avsändar-ID**, **DomainKeys**, **DKIM** och **S/MIME**.
-* **SMTP-relä**: I kan du konfigurera IP-adressen och porten för en reläserver för en viss domän.
+Mer information om Adobe Campaign Enhanced MTA finns i det här [dokumentet](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 ### MX-hantering {#mx-management}
 
-Varje regel definierar en adressmask för MX. Alla MX vars namn matchar masken är därför giltiga. Masken kan innehålla &quot;*&quot; och &quot;?&quot; generiska tecken.
+<!--The MX management rules are used to regulate the flow of outgoing emails for a specific domain. They sample the bounce messages and block sending where appropriate.
 
-Följande adresser:
+The Adobe Campaign messaging server applies rules specific to the domains, and then the rules for the general case represented by an asterisk in the list of rules.
 
-* a.mx.yahoo.com
-* b.mx.yahoo.com
+To configure MX management rules, simply set a threshold and select certain SMTP parameters. A **threshold** is a limit calculated as an error percentage beyond which all messages towards a specific domain are blocked.-->
+
+>[!IMPORTANT]
+>
+>När ni har uppgraderat till den förbättrade MTA-versionen används inte längre reglerna för **[!UICONTROL MX management]** leveransflöde i Adobe Campaign.
+
+Den utökade MTA-servern använder sina egna MX-regler som gör att den kan anpassa din genomströmning efter domän baserat på ditt eget historiska e-postrykte och på realtidsfeedback som kommer från de domäner där du skickar e-post.
+
+Mer information om Adobe Campaign Enhanced MTA finns i det här [dokumentet](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+
+<!--Each rule defines an address mask for the MX. Any MX whose name matches this mask is therefore eligible. The mask can contain "&#42;" and "?" generic characters.
+
+For example, the following addresses:
+
+* a.mx.yahoo.com 
+* b.mx.yahoo.com 
 * c.mx.yahoo.com
 
-är kompatibla med följande masker:
+are compatible with the following masks:
 
-* *.yahoo.com
+* &#42;.yahoo.com
 * ?.mx.yahoo.com
 
-Dessa regler tillämpas i sekvens: den första regeln vars MX-mask är kompatibel med MX-målfilen används.
+These rules are applied in sequence: the first rule whose MX mask is compatible with the targeted MX is applied.
+
+The following parameters are available for each rule:
+
+* **[!UICONTROL Range of IDs]**: this option lets you indicate the ranges of identifiers (publicId) for which the rule applies. You can specify:
+
+    * A number: the rule will only apply to this publicId.
+    * A range of numbers (number1-number2): the rule will apply to all publicIds between these two numbers.
+
+  If the field is empty, the rule applies to all IDs.
+
+* **[!UICONTROL Shared]**: this option indicates that the highest number of messages per hour and of connections applies to all MXs linked to this rule. 
+* **[!UICONTROL Maximum number of connections]**: maximum number of simultaneous connections to an MX from a given address. 
+* **Maximum number of messages**: maximum number of messages that can be sent by one connection. After this amount, the connection is closed and a new one is reopened. 
+* **[!UICONTROL Messages per hour]**: maximum number of messages that can be sent in one hour for an MX via a given address.
 
 >[!IMPORTANT]
 >
->När Adobe Campaign **MX Management** MX uppgraderats till Enhanced MTA används inte längre leveransreglerna. Den utökade MTA-servern använder sina egna MX-regler som gör att den kan anpassa din genomströmning efter domän baserat på ditt eget historiska e-postrykte och på realtidsfeedback som kommer från de domäner där du skickar e-post.
->
->Mer information om Adobe Campaign Enhanced MTA finns i det här [dokumentet](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
-
-Följande parametrar är tillgängliga för varje regel:
-
-* **[!UICONTROL Range of IDs]**: Med det här alternativet kan du ange de intervall med identifierare (publicId) som regeln gäller för. Du kan ange:
-
-   * Ett tal: regeln gäller bara för detta publicId.
-   * Ett nummerintervall (tal1-tal2): regeln gäller för alla publika ID:n mellan dessa två tal.
-   Om fältet är tomt gäller regeln alla ID:n.
-
-* **[!UICONTROL Shared]**: det här alternativet anger att det högsta antalet meddelanden per timme och anslutningar gäller för alla MX som är länkade till den här regeln.
-* **[!UICONTROL Maximum number of connections]**: maximalt antal samtidiga anslutningar till en MX från en angiven adress.
-* **Maximalt antal meddelanden**: maximalt antal meddelanden som kan skickas med en anslutning. Efter den här mängden stängs anslutningen och en ny öppnas igen.
-* **[!UICONTROL Messages per hour]**: maximalt antal meddelanden som kan skickas på en timme för ett MX via en angiven adress.
-
->[!IMPORTANT]
->
->* Leveransservern (MTA) måste startas om om om parametrarna har ändrats.
->* Ändringen eller skapandet av hanteringsregler är endast till för expertanvändare.
->
-
-
+>* The delivery server (MTA) must be restarted if the parameters have been changed. 
+>* The modification or creation of management rules is for expert users only. -->
 
 ## Lista över e-postegenskaper {#list-of-email-properties}
 
@@ -331,37 +333,3 @@ Avsnittet **[!UICONTROL Access authorization]** innehåller följande parametrar
    >Du kan konfigurera organisationsenheter via menyn **Administration** > **Användare och säkerhet** .
 
 * Fälten **[!UICONTROL Created by]**, **[!UICONTROL Created]**, **[!UICONTROL Modified by]** och **[!UICONTROL Last modified]** fylls i automatiskt.
-
-## Arkivera e-post {#archiving-emails}
-
-Du kan konfigurera Adobe Campaign så att det behåller en kopia av e-postmeddelanden som skickas från din plattform.
-
-Men Adobe Campaign hanterar inte själva arkiverade filer. Det gör att du kan skicka meddelanden till en dedikerad adress, varifrån de kan bearbetas och arkiveras i ett externt system.
-
-När den här funktionen aktiveras i leveransmallen kan du skicka en exakt kopia av motsvarande skickade meddelanden till en e-postadress (osynlig för leveransmottagarna) som du måste ange.
-
-### Rekommendationer och begränsningar {#recommendations-and-limitations}
-
-* Den här funktionen är valfri. Kontrollera licensavtalet och kontakta er kontoansvarige för att aktivera det.
-* Den valfria BCC-adressen måste skickas till Adobe-teamet som konfigurerar den åt dig.
-* Du kan bara använda en e-postadress för hemlig kopia.
-* Endast skickad e-post beaktas. Det är inte studsar.
-* Av sekretesskäl måste e-post från innehållsförteckningen behandlas av ett arkiveringssystem som kan lagra säkert personligt identifierbar information (PII).
-* När du skapar en ny leveransmall är e-postkopia inte aktiverat som standard, även om alternativet har köpts. Du måste aktivera det manuellt i varje leveransmall där du vill använda det.
-
-### Aktivera e-postarkivering {#activating-email-archiving}
-
-Hemlig kopia via e-post aktiveras i [e-postmallen](../../start/using/marketing-activity-templates.md)med ett dedikerat alternativ:
-
-1. Gå till **Resources** > **Templates** > **Delivery templates**.
-1. Duplicera den färdiga **[!UICONTROL Send via email]** mallen.
-1. Markera den duplicerade mallen.
-1. Klicka på **[!UICONTROL Edit properties]** knappen om du vill redigera mallens egenskaper.
-1. Expandera avsnittet **[!UICONTROL Send]**.
-1. Markera **[!UICONTROL Archive emails]** rutan om du vill behålla en kopia av alla skickade meddelanden för varje leverans baserat på den här mallen.
-
-   ![](assets/email_archiving.png)
-
->[!NOTE]
->
->Om e-postmeddelanden som skickas till BCC-adressen öppnas och klickas igenom, kommer detta att beaktas i **[!UICONTROL Total opens]** och **[!UICONTROL Clicks]** från sändningsanalysen, vilket kan orsaka vissa felberäkningar.
