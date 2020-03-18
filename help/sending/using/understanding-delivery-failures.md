@@ -12,7 +12,7 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3c45cbbb261f18252689d0fc4f332b9f45137c85
+source-git-commit: 3be170b5e1560e0b48db02de4eeb5ea96b794b04
 
 ---
 
@@ -93,31 +93,29 @@ En leverans kan misslyckas omedelbart (synkront fel), eller senare, efter att de
 
 ## E-poststudsar {#bounce-mail-qualification}
 
-Felmeddelanden vid leveransfel (eller&quot;SMTP-studssvar&quot;) hämtas upp av Adobe Campaign-plattformen och bearbetas sedan och kvalificeras som **Hård**, **Mjuk** eller **Ignorerad** med **[!UICONTROL Delivery log qualification]** databasen.
+<!--Delivery failure error messages (or "SMTP bounce responses") are picked up by the Adobe Campaign platform and then processed and qualified as **Hard**, **Soft**, or **Ignored** using the **[!UICONTROL Delivery log qualification]** database.
 
-<!--Delivery failure error messages (or "bounces") are picked up by the Adobe Campaign platform and qualified by the inMail process to enrich the list of email management rules.(applies to asynchronous (out-of-band) bounces)-->
+//Delivery failure error messages (or "bounces") are picked up by the Adobe Campaign platform and qualified by the inMail process to enrich the list of email management rules.(applies to asynchronous (out-of-band) bounces)
 
-Den här listan är endast tillgänglig för administratörer och innehåller alla regler som används av Adobe Campaign för att kvalificera leveransfel.
-
-Klicka på **[!UICONTROL Adobe Campaign]** logotypen längst upp till vänster och välj sedan **[!UICONTROL Administration > Channels > Email > Email processing rules]**.
-
-For more on this, refer to this [section](../../administration/using/configuring-email-channel.md#email-processing-rules).
+This list is available to administrators only and contains all the rules used by Adobe Campaign to qualify delivery failures.-->
 
 >[!IMPORTANT]
 >
->När du har uppgraderat till Förbättrat MTA används inte längre studskvalifikationerna i Campaign- **[!UICONTROL Message qualification]** tabellen. För synkrona felmeddelanden vid leveransfel fastställer Förbättrat MTA avhoppstypen och kvalificeringen och skickar tillbaka informationen till Campaign. Asynkrona studsar är fortfarande kvalificerade av inMail-processen.
->
->Mer information om Adobe Campaign Enhanced MTA finns i det här [dokumentet](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+>När du har uppgraderat till Förbättrat MTA används inte längre studskvalifikationerna i Campaign- **[!UICONTROL Message qualification]** tabellen.
 
-Satser kan ha följande kvalificeringsstatus:
+För synkrona felmeddelanden vid leveransfel fastställer Förbättrat MTA avhoppstypen och kvalificeringen och skickar tillbaka informationen till Campaign. Mer information om Adobe Campaign Enhanced MTA finns i det här [dokumentet](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
-* **[!UICONTROL To qualify]**: studsposten måste kvalificeras. Kvalificering måste utföras av Deliverability-teamet för att säkerställa att plattformens leveransbarhet fungerar korrekt. Så länge som det inte är kvalificerat används studsmeddelandet inte för att utöka listan med regler för e-postbearbetning.
-* **[!UICONTROL Keep]**: studsmeddelandet har kvalificerats och kommer att användas av arbetsflödet **Update for deliverability** som ska jämföras med befintliga regler för e-postbearbetning och berika listan.
-* **[!UICONTROL Ignore]**: studsmeddelandet har kvalificerats, men kommer inte att användas av arbetsflödet **Uppdatera för leverans** . Det skickas alltså inte till klientinstanserna.
+Asynkrona studsar är fortfarande kvalificerade av inMail-processen via **[!UICONTROL Inbound email]** reglerna. Du kommer åt reglerna genom att klicka på **[!UICONTROL Adobe Campaign]** logotypen längst upp till vänster och sedan markera **[!UICONTROL Administration > Channels > Email > Email processing rules]** och markera **[!UICONTROL Bounce mails]**. Mer information om den här regeln finns i det här [avsnittet](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
-Om du vill visa en lista över de olika gränserna och tillhörande feltyper och orsaker klickar du på logotypen i det övre vänstra hörnet och väljer sedan **[!UICONTROL Adobe Campaign]** **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
+<!--Bounces can have the following qualification statuses:
 
-![](assets/qualification.png)
+* **[!UICONTROL To qualify]**: the bounce mail needs to be qualified. Qualification must be done by the Deliverability team to ensure that the platform deliverability functions correctly. As long as it is not qualified, the bounce mail is not used to enrich the list of email processing rules.
+* **[!UICONTROL Keep]**: the bounce mail was qualified and will be used by the **Update for deliverability** workflow to be compared to existing email processing rules and enrich the list.
+* **[!UICONTROL Ignore]**: the bounce mail was qualified but will not be used by the **Update for deliverability** workflow. So it will not be sent to the client instances.
+
+To list the various bounces and their associated error types et reasons, click the **[!UICONTROL Adobe Campaign]** logo, in the top left, then select **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
+
+![](assets/qualification.png)-->
 
 ## Optimera e-postleveransen med en mekanism för dubbel anmälan {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
 
