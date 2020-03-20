@@ -10,7 +10,7 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
+source-git-commit: 8f3c8f9a167f11ba5ded2be34a50b52edeeb6412
 
 ---
 
@@ -41,8 +41,8 @@ De viktigaste egenskaperna för denna verksamhet är:
 
 Följande skyddsutkast har införts för den här aktiviteten:
 
-* Storleksgräns för http-svarsdata på 5 MB
-* Tidsgränsen för begäran är 60 sekunder
+* 50 MB http response data size limit
+* Tidsgränsen för begäran är 10 minuter
 * HTTP-omdirigeringar tillåts inte
 * URL:er som inte är HTTPS nekas
 * &quot;Acceptera: application/json-begärandehuvud och Content-Type: application/json&quot;-svarshuvud tillåts
