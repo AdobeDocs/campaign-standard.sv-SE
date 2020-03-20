@@ -12,7 +12,7 @@ discoiquuid: 7cbca5fb-a99b-43ea-b629-6236cf2a5ef4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: abe529fca5e3631f42a454dfb20a85b60cd3b6e0
 
 ---
 
@@ -23,12 +23,12 @@ Få kundernas uppmärksamhet och förbättra svarsfrekvensen genom att använda 
 
 Personaliserade meddelanden är avgörande för att skicka relevant innehåll, erbjuda personaliserade upplevelser och öka öppnings- och konverteringsgraden. Flerkanalsmeddelanden från Adobe Campaign kan personaliseras på flera olika sätt. De här sätten kan kombineras med villkor beroende på profilerna. Du kan:
 
-* Infoga [dynamiska anpassningsfält](../../designing/using/personalization.md#inserting-a-personalization-field) i dina meddelanden
-* Infoga [fördefinierade personaliseringsblock](../../designing/using/personalization.md#adding-a-content-block)
-* [Anpassa avsändaren](../../designing/using/subject-line.md) av ett e-postmeddelande eller ett SMS
-* [Anpassa ämnesraden](../../designing/using/subject-line.md) i ett e-postmeddelande eller använd [Predictive subject line](../../designing/using/subject-line.md#predictive-subject-line) för att optimera det
-* Skapa [villkorsstyrt innehåll i ett e-postmeddelande](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) eller [på en landningssida](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
-* Infoga [dynamisk text](../../channels/using/defining-dynamic-text.md) i ett SMS-meddelande eller ett push-meddelande
+* Infoga [dynamiska personaliseringsfält](../../designing/using/personalization.md#inserting-a-personalization-field) i dina meddelanden.
+* Infoga [fördefinierade personaliseringsblock](../../designing/using/personalization.md#adding-a-content-block).
+* [Anpassa avsändaren](../../designing/using/subject-line.md) av ett e-postmeddelande eller ett SMS.
+* [Anpassa ämnesraden](../../designing/using/subject-line.md) i ett e-postmeddelande eller använd [funktionen för ämnesrad](../../sending/using/testing-subject-line-email.md#about-predictive-subject-line) för att optimera det.
+* Skapa [villkorsstyrt innehåll i ett e-postmeddelande](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) eller [på en landningssida](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page).
+* Infoga [dynamisk text](../../channels/using/defining-dynamic-text.md) i ett SMS-meddelande eller ett push-meddelande.
 
 ![](assets/delivery_content_43.png)
 
