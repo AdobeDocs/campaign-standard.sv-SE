@@ -12,7 +12,7 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3be170b5e1560e0b48db02de4eeb5ea96b794b04
+source-git-commit: bee7ea0f1728da2a96c1f225b91b13a7903be660
 
 ---
 
@@ -56,7 +56,7 @@ Möjliga orsaker till leveransfel är:
 
 * **[!UICONTROL User unknown]** (Hård text): adressen finns inte. Inga fler leveransförsök kommer att göras för den här profilen.
 * **[!UICONTROL Quarantined address]** (Hård text): adressen placerades i karantän.
-* **[!UICONTROL Unreachable]** (Mjuk/hård text): ett fel har inträffat i meddelandeleveranskedjan (incident i SMTP-relä, domän som inte går att nå temporärt, osv.). Enligt det fel som returnerats av leverantören skickas adressen direkt till karantänen eller så provas leveransen igen tills Campaign får ett fel som motiverar karantänstatusen eller tills antalet fel når 5.
+* **[!UICONTROL Unreachable]** (Mjuk/hård text): ett fel har uppstått i meddelandeleveranskedjan (t.ex. en domän som inte kan nås temporärt). Enligt det fel som returnerats av leverantören skickas adressen direkt till karantänen eller så provas leveransen igen tills Campaign får ett fel som motiverar karantänstatusen eller tills antalet fel når 5.
 * **[!UICONTROL Address empty]** (Hård text): adressen är inte definierad.
 * **[!UICONTROL Mailbox full]** (Mjuk text): den här användarens postlåda är full och kan inte ta emot fler meddelanden. Den här adressen kan tas bort från karantänlistan för att göra ett nytt försök. Den tas bort automatiskt efter 30 dagar.
 
