@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 6f89b420f0f98c13da1bfff8f9b1b29e015aef89
 
 ---
 
@@ -24,7 +24,7 @@ Innehållet i och visningen av meddelanden från Adobe Campaign kan personaliser
 * Infoga dynamiska anpassningsfält. Se [Infoga ett personaliseringsfält](#inserting-a-personalization-field).
 * Infoga fördefinierade personaliseringsblock. Se [Lägga till ett innehållsblock](#adding-a-content-block).
 * Anpassa avsändaren av ett e-postmeddelande. Se [Anpassa avsändaren](#personalizing-the-sender).
-* Anpassa ämnet för ett e-postmeddelande. Se [Anpassa ämnesraden i ett e-postmeddelande](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
+* Anpassa ämnet för ett e-postmeddelande. Se [Anpassa ämnesraden i ett e-postmeddelande](../../designing/using/subject-line.md#subject-line).
 * Skapa villkorsstyrt innehåll. Se [Definiera dynamiskt innehåll i ett e-postmeddelande](#defining-dynamic-content-in-an-email).
 
 ## Anpassa avsändaren {#personalizing-the-sender}
