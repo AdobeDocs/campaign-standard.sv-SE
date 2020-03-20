@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 490908e5fe0810c0a07c73fef5040ddb42983019
+source-git-commit: d8ad3801dba50e357c21a7551e897e0e2c5aedc5
 
 ---
 
@@ -78,7 +78,7 @@ Kunderna rekommenderas att granska om de använder funktionen/funktionen i den a
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Från och med Campaign 19.4 är användningen av Campaign-API:t och gränssnittet för begäran om åtkomst och borttagning föråldrad. Använd <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobes bastjänst</a>för sekretess.</p></br>
+   <td> <p>Från och med Campaign 19.4 är användningen av Campaign-API:t och gränssnittet för begäran om åtkomst och borttagning föråldrad. Det går inte att ta bort profiler i två steg. Använd <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobes bastjänst</a>för sekretess.</p></br>
    <p>Se även <a href="https://helpx.adobe.com/campaign/kb/acs-privacy.html">Integritetshantering i Campaign Standard</a>.</p>
   <p> Datum för målborttagning: Juli 2020 - Campaign 20.5-utgåvan</p>
    </td> 
