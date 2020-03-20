@@ -12,7 +12,7 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 33d4704d664a809073790e47ab6bb84e9c2b07d5
+source-git-commit: 6a34cc1a8848b21ea01b9a20b9deb9be5b5e3895
 
 ---
 
@@ -270,7 +270,7 @@ _Arbetsflöden_
   </tr> 
   <tr> 
    <td> BCC för e-post<br /> </td> 
-   <td> Tack vare BCC för e-post kan unika e-postmeddelanden som skickas till enskilda mottagare sparas, vilket gör att varumärket kan arkivera dessa meddelanden. Genom att lägga till en e-postadress för hemlig kopia till alla e-postmeddelanden kan Adobe Campaign Standard-kunder behålla en exakt kopia av varje e-postmeddelande med den här funktionen. Detta är ett vanligt juridiskt krav för finanssektorn och är till hjälp för kundtjänstcenter att lösa konflikter i realtid.<br /> Mer information finns i den <a href="../../administration/using/configuring-email-channel.md#archiving-emails">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Tack vare BCC för e-post kan unika e-postmeddelanden som skickas till enskilda mottagare sparas, vilket gör att varumärket kan arkivera dessa meddelanden. Genom att lägga till en e-postadress för hemlig kopia till alla e-postmeddelanden kan Adobe Campaign Standard-kunder behålla en exakt kopia av varje e-postmeddelande med den här funktionen. Detta är ett vanligt juridiskt krav för finanssektorn och är till hjälp för kundtjänstcenter att lösa konflikter i realtid.<br /> Mer information finns i den <a href="../../sending/using/archiving.md">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -292,7 +292,7 @@ _Arbetsflöden_
 _Rapporter_
 
 * Beräkningarna **[!UICONTROL Spam]** och **[!UICONTROL Spam rate]** indikatorn har ändrats.
-* Mätvärdena har förbättrats för att få ett mer exakt resultat. **[!UICONTROL Bounce]**
+* Mätvärdena har förbättrats för att få ett mer exakt resultat **[!UICONTROL Bounce]** .
 
 _Push-meddelanden_
 
