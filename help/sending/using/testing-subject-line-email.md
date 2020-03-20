@@ -12,18 +12,33 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7e61796376a14c279d38107905275172be0dd12d
+source-git-commit: 6f89b420f0f98c13da1bfff8f9b1b29e015aef89
 
 ---
 
 # Testa ämnesraden i ett e-postmeddelande {#testing-a-subject}
+
+
+## Om prediktiv ämnesrad {#about-predictive-subject-line}
+
+När du redigerar ett e-postmeddelande kan du testa olika ämnesrader och få en uppskattning av öppningsfrekvensen innan du skickar det.
+
+Den här funktionen är inaktiverad som standard. Den aktiveras när den första modellen importeras. En modell är resultatet av utbildning av data som är specifika för en viss bransch. Med hjälp av modeller kan systemet förutsäga öppningsfrekvensen för e-postmeddelanden när en ny ämnesrad skickas.
+
+>[!NOTE]
+>
+>Den här funktionen är tillgänglig för e-postmeddelanden och för databaser som endast innehåller engelskt innehåll. Den tränade modellen blir inkonsekvent och ger felaktiga resultat om instansen innehåller e-post på andra språk. Alternativet som gör att du kan testa ett ämne är bara synligt om det redan finns en modell på din instans.
+
+Mer information om hur du importerar modeller finns i det här [avsnittet](#importing-models).
+
+## Testa ämnesraden {#testing-subject-line}
 
 Följ stegen nedan för att testa ämnesraden:
 
 1. Skapa eller öppna din e-post.
 1. Öppna innehållet och ange ämnet för e-postmeddelandet i motsvarande inmatningsfält.
 1. Klicka på **[!UICONTROL Test subject]** knappen för att öppna **[!UICONTROL Test your subject line]** fönstret. Du kan fortfarande redigera ämnet från det här fönstret.
-1. Välj rätt modell som ska beaktas för den öppna tariffförutsägelsen. Flera modeller finns tillgängliga, var och en för en viss bransch.
+1. Välj rätt modell som ska beaktas för den öppna tariffförutsägelsen. Flera modeller finns tillgängliga, var och en för en viss bransch. Mer information om hur du använder modeller finns i det här [avsnittet](#importing-models).
 1. Klicka på **[!UICONTROL Test]**.
 
 Därefter analyseras ditt ämne.
@@ -49,30 +64,30 @@ Flera indikatorer beräknas och en uppsättning verktyg visas som hjälp:
 
 Som standard körs ingen modell på Adobe Campaign-servern. Det finns två sätt att hämta en modell och aktivera funktionen:
 
-* Du kan utbilda en lokal modell från data i dina tidigare e-postmeddelanden:
+* Du kan utbilda en lokal modell från data i dina tidigare e-postmeddelanden.
+* Du kan importera förutbildade modeller som är specifika för vissa branscher (medicinska, etc.) med [paketimportfunktionen](../../automating/using/managing-packages.md) .
 
-   * Om du redan använder Adobe Campaign kommer den lokala modellen automatiskt att utbildas i de meddelanden som du redan har skickat.
-   * Om du inte har använt Adobe Campaign tidigare kan du extrahera en CSV-fil från ditt tidigare system/ESP som innehåller fyra kolumner: datum, ämne, öppning, skickat. Det gör du genom att gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email]** > **[!UICONTROL Subject Line Import]** och följa instruktionerna på efterföljande skärmar. När ämnesöverföringen är klar importerar du en lokal modell enligt beskrivningen nedan. Den lokala modellen utbildas automatiskt med de data du överförde.
-   * Om du inte har använt Adobe Campaign tidigare och inte kan hämta en CSV-fil enligt beskrivningen ovan kan du använda en förtränad modell eller vänta tills du har tillräckligt med leveransdata i systemet för att utbilda en lokal modell. Systemet avgör automatiskt om din aktuella datauppsättning innehåller tillräckligt med data för att identifiera mönster och utbilda modellen.
+### Utbilda en lokal modell {#training-local-model}
 
-      >[!NOTE]
-      >
-      >Det finns inget definierat antal ämnesrader som behövs för att utbilda din egen modell. För att kunna utbilda den måste ämnesraderna vara olika och inte ha några dubbletter. Om det inte finns tillräckligt med data för att bearbeta modellen kommer systemet inte att kunna utbilda modellen. Du kan bara ha en tränad modell i din instans.
-   Om du vill utbilda en lokal modell hämtar du subjectLineTraining.xml [här](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) och använder funktionen för [paketimport](../../automating/using/managing-packages.md) för att överföra den till Adobe Campaign-instansen. Ett tekniskt arbetsflöde gör automatiskt utbildningen åt dig.
-
-   Första gången du vill utbilda en modell kan en administratör tvinga fram en start från menyn **[!UICONTROL SubjectLine Training workflow]** > **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** **[!UICONTROL Workflows]** .
-
-   När en modell har överförts och tränats aktiveras funktionen automatiskt och ett nytt alternativ visas bredvid ämnesraden i dina meddelanden.
-
-   Sedan fortsätter det tekniska arbetsflödet automatiskt att utbilda din modell varje vecka.
-
-* Du kan importera förutbildade modeller som är specifika för vissa branscher (medicinska, etc.) med [paketimportfunktionen](../../automating/using/managing-packages.md) . Om du vill få tillgång till de här modellerna klickar du [här](https://support.neolane.net/webApp/extranetLogin) och går till **[Hämtningscenter]**. Dessa modeller kan inte tränas.
-
-   När en modell har överförts aktiveras funktionen automatiskt och ett nytt alternativ visas bredvid ämnesraden i dina meddelanden.
+* Om du redan använder Adobe Campaign kommer den lokala modellen automatiskt att utbildas i de meddelanden som du redan har skickat.
+* Om du inte har använt Adobe Campaign tidigare kan du extrahera en CSV-fil från ditt tidigare system/ESP som innehåller fyra kolumner: datum, ämne, öppning, skickat. Det gör du genom att gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email]** > **[!UICONTROL Subject Line Import]** och följa instruktionerna på efterföljande skärmar. När ämnesöverföringen är klar importerar du en lokal modell enligt beskrivningen nedan. Den lokala modellen utbildas automatiskt med de data du överförde.
+* Om du inte har använt Adobe Campaign tidigare och inte kan hämta en CSV-fil enligt beskrivningen ovan kan du använda en [förtränad modell](#pre-trained-models) eller vänta tills du har tillräckligt med leveransdata i systemet för att utbilda en lokal modell. Systemet avgör automatiskt om din aktuella datauppsättning innehåller tillräckligt med data för att identifiera mönster och utbilda modellen.
 
 >[!NOTE]
 >
->Import och generering av utbildade modeller kan endast utföras av en administratör.
+>Det finns inget definierat antal ämnesrader som behövs för att utbilda din egen modell. Mer information finns i [Felsökning](#troubleshooting).
+>
+>Du kan bara ha en tränad modell i din instans.
+
+Så här utbildar du en lokal modell:
+1. Hämta subjectLineTraining.xml [här](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) och använd funktionen för [paketimport](../../automating/using/managing-packages.md) för att överföra den till Adobe Campaign-instansen. Ett tekniskt arbetsflöde gör automatiskt utbildningen åt dig.
+1. Första gången du vill utbilda en modell kan en administratör tvinga fram en start från menyn **[!UICONTROL SubjectLine Training workflow]** > **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** **[!UICONTROL Workflows]** .
+1. När en modell har överförts och tränats aktiveras funktionen automatiskt och ett nytt alternativ visas bredvid ämnesraden i dina meddelanden.
+1. Sedan fortsätter det tekniska arbetsflödet automatiskt att utbilda din modell varje vecka.
+
+### Importera förutbildade modeller {#pre-trained-models}
+
+Klicka [här](https://support.neolane.net/webApp/extranetLogin) och gå till de här modellerna **[!UICONTROL Download Center]**. Använd [paketimportfunktionen](../../automating/using/managing-packages.md) för att överföra en modell till din Adobe Campaign-instans.
 
 De modeller som är tillgängliga för användning är:
 
@@ -80,3 +95,35 @@ De modeller som är tillgängliga för användning är:
 * Stormarknadsindustrin: subjectInsightSupermarket.xml
 * Medicinsk industri: subjectInsightMedical.xml
 * Förlaga till tåg: subjectlineTraining.xml.
+
+Dessa modeller kan inte tränas.
+
+När en modell har överförts aktiveras funktionen automatiskt och ett nytt alternativ visas bredvid ämnesraden i dina meddelanden.
+
+>[!NOTE]
+>
+>Import och generering av utbildade modeller kan endast utföras av en administratör.
+
+## Felsökning {#troubleshooting}
+
+Prediktiv ämnesrad är en maskininlärningsprocess som tar hänsyn till alla ämnesrader som du har överfört med sina öppna frekvenser. På så sätt kan systemet förutsäga öppningsfrekvensen för ett e-postmeddelande när en ny ämnesrad skickas.
+
+Om du vill kunna utbilda din egen modell måste ämnesraderna vara olika och får inte innehålla dubbletter, oavsett hur många ämnesrader som används för att utbilda din modell.
+
+Kvaliteten på ämnesraderna är mycket viktig. Om det inte finns tillräckligt med kvalitetsdata för att bearbeta, eller om alla föregående ämnesrader är för lika, kommer systemet inte att kunna utbilda modellen och du kan få ett felmeddelande. Det innebär att din befintliga uppsättning med poster inte kan ge ett tillförlitligt prediktivt förslag.
+
+I det här fallet bör du granska de data du överför och se till att ämnesraderna är tillräckligt varierade för att effektivt kunna utbilda din modell.
+
+<!--Some clients have reported this issue: I have had the subject line training workflow running for about a year now.  It has trained on 883 records and I am still seeing the message "The existing dataset is not enough to generate a model."  I do get an error in the workflow every time it runs "XML-110009 Unable to find the element 'runwf' of path '/' (document with schema 'serverConf')".
+
+For this, campaign takes the subject line as training data and tries to come up with significant enough model to predict open rate with 95% confidence.
+
+The 400 subject line number is mention with at least and is only indicative, model generation will also depend on quality of these lines.
+
+It may happen that even 10k subject lines don't lead to model generation if they are too similar.
+
+It means that it can be case that you don't have enough subject lines to generate the model and it is giving this error.
+
+If you are getting an error/warning message, it means that your existing set of records is not enough for the predictive subject module to give a high confidence suggestion.
+
+Adobe recommends reviewing the data you are uploading as the similarity of the subject lines might be the issue.-->
