@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
+source-git-commit: ddccab05af415fe3ddab7b75db7118fa94552565
 
 ---
 
@@ -16,6 +16,7 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
 + Versionsinformation {#release-notes}
    + [Senaste versionen](rn/using/release-notes.md)
    + Tidigare versioner {#previous-releases}
+      + [Versionsinformation 2020](rn/using/release-notes-2020.md)
       + [Versionsinformation 2019](rn/using/release-notes-2019.md)
       + [Versionsinformation 2018](rn/using/release-notes-2018.md)
       + [Versionsinformation 2017](rn/using/release-notes-2017.md)
@@ -32,7 +33,6 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
    + Identifiera gränssnittet {#discovering-the-interface}
       + [Om gränssnittet](start/using/about-the-interface.md)
       + [Gränssnittsbeskrivning](start/using/interface-description.md)
-      + [Kompatibla webbläsare](start/using/compatible-browsers.md)
       + [Anpassa listor](start/using/customizing-lists.md)
    + Marknadsplaner {#marketing-plans}
       + [Program och kampanjer](start/using/programs-and-campaigns.md)
@@ -141,6 +141,7 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
       + [Förhandsgranska meddelanden](sending/using/previewing-messages.md)
       + [Förbereder sändningen](sending/using/preparing-the-send.md)
       + [Skicka korrektur](sending/using/sending-proofs.md)
+      + [Testa e-postmeddelanden med målprofiler](sending/using/testing-messages-using-target.md)
       + [Testa ämnesraden i ett e-postmeddelande](sending/using/testing-subject-line-email.md)
       + [E-poståtergivning](sending/using/email-rendering.md)
       + [Använda svällningar](sending/using/using-traps.md)
@@ -342,6 +343,10 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
       + [Besökare](developing/using/datamodel-visitor.md)
 + Administrerar {#administrating}
    + [Om att administrera Adobe Campaign](administration/using/about-administrating-adobe-campaign.md)
+   + Konfigurationsriktlinjer {#configuration-guidelines}
+      + [Om konfigurationsriktlinjer](administration/using/about-configuration-guidelines.md)
+      + [Kompatibla webbläsare](administration/using/compatible-browsers.md)
+      + [Nätverksslutpunkter för Campaign Standard](administration/using/campaign-standard-network-endpoints.md)
    + Användare och säkerhet {#users-and-security}
       + [Om åtkomsthantering](administration/using/about-access-management.md)
       + [Hantering av användare](administration/using/users-management.md)
