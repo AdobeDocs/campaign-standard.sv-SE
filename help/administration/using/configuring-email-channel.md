@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 04709dd9a754ea616f3e695ada072137b9ecce6a
+source-git-commit: 130eaa44dc89a3b013038660d8e3790f05299136
 
 ---
 
@@ -309,6 +309,10 @@ Förberedelser av meddelanden beskrivs i avsnittet [Godkännandemeddelanden](../
    Det går också att anpassa leveransetiketten med händelsevariabler som har deklarerats i arbetsflödets externa signalaktivitet. For more on this, refer to [this section](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
 * **[!UICONTROL Save SQL queries in the log]**: Med det här alternativet kan du lägga till SQL-frågeloggar i journalen under förberedelsefasen.
+
+#### Korrekturinställningar {#proof-settings}
+
+I det här avsnittet kan du konfigurera standardprefixet som ska användas i korrekturets ämnesrad. For more in this, refer to [this section](../../sending/using/sending-proofs.md).
 
 ### Lista över SMTP-parametrar för e-post {#list-of-email-smtp-parameters}
 
