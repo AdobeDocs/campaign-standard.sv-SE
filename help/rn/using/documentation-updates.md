@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ffe6b34ec8d7a31ffcce1e725364a6ecf00f70a8
+source-git-commit: 73fd120c79130c3a4eff43bb080bde8dabe58032
 
 ---
 
@@ -24,6 +24,34 @@ Läs om alla de senaste uppdateringarna av dokumentationen för Adobe Campaign S
 På den här sidan visas alla nya funktioner och dokumentationsuppdateringar för varje release av Adobe Campaign Standard.
 
 Du kan även läsa [versionsinformationen](../../rn/using/release-notes.md)för Adobe Campaign.
+
+## Version 20.2 - mars 2020 {#release-20-2---march-2020}
+
+**Nya funktioner i releasen**
+
+Azure Blob Integration - [läs mer](../../administration/using/external-accounts.md#microsoft-azure-external-account)
+
+Enhetligt Experience Cloud-gränssnitt och enhetlig domän - [Läs mer](../../start/using/interface-description.md#top-bar)
+
+E-posttestning med riktade profiler - [Läs mer](../../sending/using/testing-messages-using-target.md)
+
+**Andra dokumentationsuppdateringar som följer med releasen**
+
+Begränsning har lagts till i meddelandeåtergivningen i appen. [Läs mer](../../channels/using/customizing-an-in-app-message.md)
+
+Information har lagts till om hur aggregat används i en **[!UICONTROL Query]** aktivitet. [Läs mer](../../automating/using/query.md#adding-an-aggregate)
+
+En begränsning har lagts till med MCPNS när ett mobilprogram konfigureras. [Läs mer](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
+
+Ett nytt avsnitt med riktlinjer för konfiguration har lagts till i handboken Administrera. Avsnittet om kompatibla webbläsare och operativsystem har flyttats från guiden Komma igång till det här avsnittet. TechNote på Campaign Standard-nätverksslutpunkter har också lagts till i det här avsnittet. [Läs mer](../../administration/using/about-configuration-guidelines.md)
+
+Det finns nu ett nytt avsnitt som beskriver hur du tar bort en händelsekonfiguration. [Läs mer](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
+
+Sidan som beskriver hur du testar ämnesraden i ett e-postmeddelande för att förutsäga dess öppningshastighet har uppdaterats och förbättrats, inklusive ett nytt [felsökningsavsnitt](../../sending/using/testing-subject-line-email.md#troubleshooting) . [Läs mer](../../sending/using/testing-subject-line-email.md#troubleshooting)
+
+Avsnitten för transaktionsmeddelanden har uppdaterats för att återspegla små uppdateringar och förbättringar i det flerspråkiga användargränssnittet. [Läs mer](../../channels/using/about-transactional-messaging.md)
+
+Information om externa API-aktivitetsskyddare har uppdaterats. [Läs mer](../../automating/using/external-api.md)
 
 ## Dokumentationsuppdateringar - mars 2020 {#doc-updates-march-2020}
 
@@ -43,7 +71,7 @@ Information har lagts till till till höger **[!UICONTROL Workflow]** i körklar
 
 Information har lagts till om de **[!UICONTROL History in days field]** tillgängliga egenskaperna för arbetsflöden. [Läs mer](../../automating/using/executing-a-workflow.md)
 
-## Version 20.1 - februari 2019 {#release-20-1---february-2020}
+## Version 20.1 - februari 2020 {#release-20-1---february-2020}
 
 **Nya funktioner i releasen**
 
@@ -197,7 +225,7 @@ Det finns nu en ny artikel med tips som förenklar marknadsföringskampanjer, bl
 
 En felsökning har lagts till för dynamisk rapportering. [Läs mer](../../reporting/using/troubleshooting.md)
 
-Ett diagram som förklarar hur olika mallar i appen hanterar personlig information har lagts till. [Läs mer](../../channels/using/preparing-and-sending-an-in-app-message.md)
+Ett diagram som förklarar hur de olika mallarna i appen hanterar personlig information har lagts till. [Läs mer](../../channels/using/preparing-and-sending-an-in-app-message.md)
 
 Avsnittet om hur du sparar e-postinnehåll som ett fragment i e-postdesignern har uppdaterats. [Läs mer](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)
 
@@ -281,7 +309,7 @@ Ett nytt avsnitt har lagts till som beskriver processen för att försöka utfö
 
 Publiceringen av en resurs med API-tillägg har klargjorts och uppdaterats med de senaste gränssnittsändringarna. [Läs mer](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
 
-Avsnittet Arkivering av e-post har bytt namn och ordnats om. [Läs mer](../../administration/using/configuring-email-channel.md#archiving-emails)
+Avsnittet Arkivering av e-post har bytt namn och ordnats om. [Läs mer](../../sending/using/archiving.md)
 
 Avsnittet Skapa ett e-postmeddelande har uppdaterats för att återspegla de senaste gränssnittsändringarna. [Läs mer](../../channels/using/creating-an-email.md)
 
@@ -315,7 +343,7 @@ Ett nytt avsnitt som jämför de olika alternativen för e-postredigering i Adob
 
 Avsnittet Skapa anpassade innehållsblock har förbättrats med information om måldimensioner. [Läs mer](../../designing/using/personalization.md#creating-custom-content-blocks)
 
-En varning som anger att e-postdesignern inte stöder Internet Explorer 11 har lagts till. [Läs mer](../../start/using/compatible-browsers.md)
+En varning som anger att e-postdesignern inte stöder Internet Explorer 11 har lagts till. [Läs mer](../../administration/using/compatible-browsers.md)
 
 Varningar om effekten av omformulering har lagts till i avsnittet Ta bort en resurs. [Läs mer](../../developing/using/deleting-a-resource.md)
 
@@ -377,7 +405,7 @@ Tillagd information om det nya fältet i aktiviteten Uppdatera data som gör att
 
 Importeringen av [innehåll från en URL](../../designing/using/using-existing-content.md#importing-content-from-a-url) -dokumentation med information om e-postdesignern har uppdaterats.
 
-Microsoft Edge (den senaste versionen) lades till i listan över kompatibla webbläsare för datorer. [Läs mer](../../start/using/compatible-browsers.md)
+Microsoft Edge (den senaste versionen) lades till i listan över kompatibla webbläsare för datorer. [Läs mer](../../administration/using/compatible-browsers.md)
 
 Lagt till information om det nya alternativet i filaktiviteten Extract som förhindrar att en fil genereras om den inkommande övergången är tom. [Läs mer](../../automating/using/extract-file.md)
 
