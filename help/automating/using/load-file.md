@@ -13,7 +13,7 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
+source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 ---
 
@@ -32,7 +32,7 @@ Det sätt som data extraheras på definieras när aktiviteten konfigureras. File
 
 >[!CAUTION]
 >
->Endast de &quot;platta&quot; strukturfilerna beaktas, t.ex. .txt-, .csv-filer.
+>Endast &quot;platta&quot; strukturfiler beaktas, t.ex. .txt-, .csv-filer.
 
 Du kan:
 
@@ -105,7 +105,7 @@ Aktivitetskonfigurationen omfattar två steg. Först måste du definiera den fö
 
 1. Bekräfta aktivitetens konfiguration och spara arbetsflödet.
 
-Om något fel inträffar med aktiviteten efter att arbetsflödet har körts finns mer information om felaktiga värden i filen i loggarna. For more on workflows logs, refer to [this section](../../automating/using/executing-a-workflow.md#monitoring)
+Om något fel inträffar med aktiviteten efter att arbetsflödet har körts finns mer information om felaktiga värden i filen i loggarna. For more on workflows logs, refer to [this section](../../automating/using/executing-a-workflow.md#monitoring).
 
 ## Kolumnformat {#column-format}
 
