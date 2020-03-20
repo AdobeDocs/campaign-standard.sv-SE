@@ -13,7 +13,7 @@ context-tags: recipient,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
 
 ---
 
@@ -31,4 +31,3 @@ Med Adobe Campaign kan ni hantera kontakter under hela deras livscykel: skapa, i
 När ni skapar kampanjer kan ni definiera målet för leveranserna genom att välja profiler enligt enkla eller avancerade kriterier. Tekniskt sett är en profil en post i databasen som innehåller all information som krävs för att aktivera, kvalificera och spåra beteenden.
 
 En profil kan vara: en kund, en potentiell kund, en enskild person som prenumererar på ett nyhetsbrev, en mottagare, en användare eller någon annan benämning beroende på din organisation. Om du vill definiera olika typer av profiler använder du [måldimensioner](../../automating/using/query.md#targeting-dimensions-and-resources).
-
