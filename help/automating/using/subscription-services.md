@@ -13,7 +13,7 @@ context-tags: setOfService,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 ---
 
@@ -57,7 +57,7 @@ Om den anges i en fil via dedikerade kolumner kan du med den här aktiviteten ä
 
       I den här kolumnen måste åtgärden anges som ett booleskt värde eller heltal. Använd **0** för att avbeställa en post och **1** för att prenumerera.
 
-      Om värdena i en importerad fil inte matchar ovanstående krav kan du fortfarande använda alternativet [Ändra värden](../../automating/using/load-file.md#column-format) som är tillgängligt i **[!UICONTROL Load file]** aktiviteten
+      Om värdena i en importerad fil inte matchar ovanstående krav kan du fortfarande använda alternativet [Ändra värden](../../automating/using/load-file.md#column-format) som är tillgängligt i **[!UICONTROL Load file]** aktiviteten.
 
 1. Om inkommande data innehåller en kolumn som motsvarar prenumerationsdatumet för profilen för tjänsten markerar du den. Du kan lämna det tomt men inget prenumerationsdatum anges när arbetsflödet körs.
 1. Definiera prenumerationens ursprung. Du kan ställa in den på ett av fälten för inkommande data eller på ett konstant värde genom att markera **[!UICONTROL Set a constant as origin]** alternativet. Du kan lämna det tomt men inget ursprung anges när arbetsflödet körs.
