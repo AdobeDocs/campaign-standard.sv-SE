@@ -13,7 +13,7 @@ context-tags: query,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 6e61fe77c66f77178b47abeb4c45a6a636f87c1d
 
 ---
 
@@ -159,6 +159,12 @@ Genom att lägga till ett enkelt fält som ytterligare data blir det fältet dir
 ### Lägga till en sammanställning {#adding-an-aggregate}
 
 Aggregat tillåter att värden beräknas från fält i måldimensionen eller från fält med dimensioner som är kopplade till måldimensionen. Till exempel: det genomsnittliga belopp som köpts av en profil.
+När du använder sammanställning med fråga kan dess funktion återgå till noll, vilket sedan betraktas som NULL. Använd fliken **[!UICONTROL Output filtering]** i frågan för att filtrera det aggregerade värdet:
+
+* om du vill ha nollvärden ska du filtrera på **[!UICONTROL is null]**.
+* om du inte vill ha ett nollvärdesfilter på **[!UICONTROL is not null]**.
+
+Observera, att om du behöver använda sortering på din mängd bör du filtrera bort nollvärden, annars visas NULL-värdet som det största talet.
 
 1. Lägg till ett nytt element på **[!UICONTROL Additional data]** fliken.
 1. I det fönster som öppnas väljer du den samling som du vill använda för att skapa sammanställningen i **[!UICONTROL Expression]** fältet.
