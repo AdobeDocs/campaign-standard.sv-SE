@@ -13,7 +13,7 @@ context-tags: fileTransfer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
+source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 ---
 
@@ -44,52 +44,12 @@ Du kan använda den här aktiviteten för att återställa data som sedan strukt
    * **Filöverföring**: gör att du kan överföra en fil. När du överför en fil från Adobe Campaign-filen genereras en loggpost på **[!UICONTROL Export audits]** menyn. Mer information om exportgranskningar finns i avsnittet [Granska export](../../administration/using/auditing-export-logs.md) .
    * **Testa om filen finns**: gör att du kan kontrollera om det finns en fil.
    * **Fillista**: gör att du kan lista filer som finns i Adobe Campaign.
-   Beroende på vilken åtgärd som har valts är ett eller flera protokoll tillgängliga:
-
-   * **HTTP**: Med det här protokollet kan du börja ladda ned en fil från ett externt konto eller från en URL.
-
-      * Klicka på **[!UICONTROL Use connection parameters defined in an external account]** alternativet, markera det konto du vill ha och ange sökvägen till filen som ska hämtas.
-
-         ![](assets/wkf_file_transfer_03.png)
-
-      * Klicka på **[!UICONTROL Quick configuration]** alternativet och ange sedan webbadressen i fältet som visas.
-
-         ![](assets/wkf_file_transfer_04.png)
-   * **S3**: Med det här protokollet kan du börja ladda ned en fil från en URL eller ett externt konto via Amazon Simple Storage Service (S3).
-
-      * Välj det externa kontot och ange sökvägen till filen som ska hämtas.
-
-         ![](assets/wkf_file_transfer_08.png)
-   * **SFTP**: Med det här protokollet kan du börja ladda ned en fil från en URL eller ett externt konto.
-
-      * Klicka på **[!UICONTROL Use connection parameters defined in an external account]** alternativet, markera det konto du vill ha och ange sökvägen till filen som ska hämtas.
-
-         ![](assets/wkf_file_transfer_07.png)
-
-         >[!CAUTION]
-         >
-         >Jokertecken stöds.
-
-      * Klicka på **[!UICONTROL Quick configuration]** alternativet och ange sedan webbadressen i fältet som visas.
-      * Om du vill sortera de importerade filerna väljer du **[!UICONTROL Sort alphanumerically]** alternativet i **[!UICONTROL Additional options]** avsnittet. Filerna bearbetas sedan i sekventiell ordning.
-
-         ![](assets/wkf_file_transfer_sort.png)
-   * **Fil(er) på Adobe Campaign-servern**: det här protokollet motsvarar databasen som innehåller de filer som ska återställas.
-
-      Metatecken eller jokertecken (till exempel * eller ?) kan användas för att filtrera filer.
-
-      Fyll i det här fältet och bekräfta din aktivitet för att använda det här protokollet.
-
-      >[!NOTE]
-      >
-      >Sökvägen måste vara relativ till Adobe Campaign-serverns lagringsutrymmeskatalog. Filerna finns i katalogen **sftp&lt;dininstancename>/** . Du kan inte heller bläddra bland katalogerna ovanför lagringsutrymmet. Exempel:
-
-      >**user&lt;dininstancename>/my_recipients.csv** är korrekt.
-      **../hello/my_recipients.csv** är felaktigt.
-      **/myserver/hello/myrecipients.csv** är felaktigt.
-   Välj ditt protokoll och fyll i de associerade fälten.
-
-   Med **[!UICONTROL Use a dynamic file path]** alternativet, som är tillgängligt för varje protokoll, kan du använda ett standarduttryck och händelsevariabler för att anpassa namnet på filen som ska överföras. Mer information finns i avsnittet [Anpassa aktiviteter med händelsevariabler](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) .
+1. Välj det protokoll som du vill använda:
+   * [HTTP](#HTTP-configuration-wf)
+   * [SFTP](#SFTP-configuration-wf)
+   * [Amazon S3](#S3-configuration-wf)
+   * [Microsoft Azure Blob Storage](#azure-blob-configuration-wf)
+   * [Fil(er) på Adobe Campaign-servern](#files-server-configuration-wf)
 
 1. Med **[!UICONTROL Additional options]** avsnittet, som är tillgängligt beroende på vilket protokoll som har valts, kan du lägga till parametrar i protokollet. Du kan:
 
@@ -104,6 +64,80 @@ Du kan använda den här aktiviteten för att återställa data som sedan strukt
    ![](assets/wkf_file_transfer_09.png)
 
 1. Bekräfta aktivitetens konfiguration och spara arbetsflödet.
+
+### Konfiguration med HTTP {#HTTP-configuration-wf}
+
+Med HTTP-protokollet kan du börja ladda ned en fil från ett externt konto eller från en URL.
+
+Med det här verktyget kan du välja **[!UICONTROL Use connection parameters defined in an external account]** alternativ. I så fall väljer du det konto du vill ha och anger sökvägen till filen som ska hämtas.
+![](assets/wkf_file_transfer_03.png)
+
+Du kan också välja **[!UICONTROL Quick configuration]** alternativet. Du behöver bara ange URL-adressen i fältet URL.
+![](assets/wkf_file_transfer_04.png)
+
+### Konfiguration med SFTP {#SFTP-configuration-wf}
+
+Med SFTP-protokollet kan du börja hämta en fil från en URL eller ett externt konto.
+
+Med det här verktyget kan du välja **[!UICONTROL Use connection parameters defined in an external account]** alternativ, markera det konto du vill ha och ange sökvägen till filen som ska hämtas.
+![](assets/wkf_file_transfer_07.png)
+
+>[!CAUTION]
+>
+>Jokertecken stöds.
+
+Du kan också välja **[!UICONTROL Quick configuration]** alternativet. Du behöver bara ange URL-adressen i fältet URL.
+
+### Konfiguration med Amazon S3 {#S3-configuration-wf}
+
+Med protokollet Amazon S3 kan du börja ladda ned en fil från en URL eller ett externt konto via Amazon Simple Storage Service (S3).
+
+1. Välj ett externt Amazon S3-konto. Mer information finns på den här [sidan](../../administration/using/external-accounts.md#amazon-s3-external-account).
+
+2. Välj om du vill **[!UICONTROL Define a file path]** eller **[!UICONTROL Use a dynamic file path]**.
+
+3. Ange sökvägen till filen som ska hämtas.
+
+   ![](assets/wkf_file_transfer_08.png)
+
+4. Om du vill ta bort dina källfiler när överföringen är slutförd kontrollerar du **[!UICONTROL Delete the source files after transfer]**.
+
+### Konfiguration med Microsoft Azure Blob Storage {#azure-blob-configuration-wf}
+
+Med protokollet Microsoft Azure Blob kan du komma åt blob som finns på ett Microsoft Azure Blob Storage-konto.
+
+1. Välj ett **[!UICONTROL Microsoft Azure Blob]** externt konto. Mer information finns på den här [sidan](../../administration/using/external-accounts.md#microsoft-azure-external-account).
+
+1. Välj om du vill **[!UICONTROL Define a file path]** eller **[!UICONTROL Use a dynamic file path]**.
+
+   ![](assets/wkf_file_transfer_10.png)
+
+1. Ange sökvägen till filen som ska laddas ned. Den kan matcha flera bloggar. I så fall kommer aktiviteten att aktivera den utgående övergången **[!UICONTROL File transfer]** när en blob hittas. De bearbetas sedan i alfabetisk ordning.
+
+   >[!CAUTION]
+   >
+   >Jokertecken stöds inte för att matcha flera filnamn. Du måste i stället ange ett prefix. Alla blobnamn som matchar det prefixet är giltiga.
+
+   Nedan finns en lista med exempel på filsökvägar:
+
+   * **&quot;campaign/&quot;**: matchar alla blobbar i Campaign-mappen som finns i behållarens rot.
+   * **&quot;campaign/new-&quot;**: matchar alla blobbar med ett filnamn som börjar med&quot;new-&quot; och som finns under Campaign-mappen.
+   * **&quot;&quot;**: Om du lägger till en tom sökväg kan du matcha alla blober som finns i behållaren.
+
+### Konfiguration med filer som finns på Adobe Campaign-servern {#files-server-configuration-wf}
+
+Protokollet motsvarar den databas som innehåller de filer som ska återställas. **[!UICONTROL File(s) present on the Adobe Campaign server]** 
+Metatecken eller jokertecken (till exempel * eller ?) kan användas för att filtrera filer.
+
+Välj om du vill **[!UICONTROL Define a file path]** eller **[!UICONTROL Use a dynamic file path]** alternativet **[!UICONTROL Use a dynamic file path]** Med kan du använda ett standarduttryck och händelsemariabler för att anpassa namnet på filen som ska överföras. Mer information finns i avsnittet [Anpassa aktiviteter med händelsevariabler](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) .
+
+Observera att sökvägen måste vara relativ till Adobe Campaign-serverns lagringsutrymmeskatalog. Filerna finns i katalogen **sftp&lt;dininstancename>/** . Du kan inte heller bläddra bland katalogerna ovanför lagringsutrymmet. Exempel:
+
+    >**user&amp;lt;yourinstancename>/my_recipients.csv** är korrekt.
+    >
+    >**../hello/my_recipients.csv** är felaktigt.
+    >
+    >**//myserver/hello/myrecipients.csv* är felaktigt.
 
 ## Historikinställningar {#historization-settings}
 
@@ -120,7 +154,8 @@ Varje gång aktiviteten körs kontrolleras mappen enligt följande:
 * Om den totala storleken på de filer som tas med i beräkningen är större än värdet på **[!UICONTROL Maximum size (in MB)]** parametern tas de äldsta filerna bort tills den **[!UICONTROL Maximum size (in MB)]** tillåtna storleken nås.
 
 >[!NOTE]
-Om aktiviteten inte körs igen kontrolleras eller rensas inte dess mapp. Var därför försiktig när du överför stora filer.
+>
+>Om aktiviteten inte körs igen kontrolleras eller rensas inte dess mapp. Var därför försiktig när du överför stora filer.
 
 ## Exempel {#example}
 
