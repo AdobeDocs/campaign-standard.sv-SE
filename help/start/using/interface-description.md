@@ -12,7 +12,7 @@ discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: e1e9f1f69a23a2510bf91b101a74434f759fdb95
 
 ---
 
@@ -60,12 +60,25 @@ Navigeringsprinciperna är:
 * Med hjälp av **[!UICONTROL Home]** länken kan du visa hemsidan för Adobe Campaign.
 * Med länkarna **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]** och **[!UICONTROL Audiences]** **[!UICONTROL Reports]** kan du komma åt de vyer som är länkade till dessa funktioner.
 * Knappen **[!UICONTROL Help]** ger tillgång till produktdokumentation och sammanhangsbaserad hjälp, versionsinformation, versionsnummer, juridiska meddelanden samt länkar till Adobe Experience Cloud-communityn och kundtjänst.
-
-   ![](assets/ux_help.png)
-
-* Med ikonen **Välj lösning** kan du växla till en annan Adobe Experience Cloud-lösning samt till profilinställningarna.
+* Organisationsknappen
+* Med **lösningens väljarikon** kan du växla till en annan Adobe Experience Cloud-lösning samt till profilinställningarna.
 * Ikonen **Meddelanden** visar de senaste varningarna eller informationen.
 * Med ikonen **Användare** kan du visa information som är länkad till din profil. Den ger åtkomst till **[!UICONTROL Sign out]** knappen.
+
+### Hjälp {#help}
+
+* **[!UICONTROL Search]** gör att du kan hämta dokumentation, artiklar och videoklipp och filtrera innehåll efter lösning
+
+* **[!UICONTROL Help]** tab
+   * Länkar ger dig snabb åtkomst till artiklar, dokumentation och videoklipp som rör den sida du bläddrar på
+   * **[!UICONTROL Learning]** den här länken ger dig tillgång till Experience League.
+   * **[!UICONTROL Community]** Med den här länken kan du komma åt forumet som är dedikerat till dina frågor om ACS.
+
+* **[!UICONTROL Support]** kan du skapa en supportanmälan och kontakta oss via telefon eller Twitter.
+
+* **[!UICONTROL Feedback ]** kan du dela problem och idéer om lösningen.
+
+   ![](assets/ux_help.png)
 
 ## Avancerad meny {#advanced-menu}
 
@@ -142,4 +155,3 @@ Det här fältet innehåller inte bara vanliga åtgärder som sökning och filtr
 * För åtgärder som rör **skärmar av typen arbetsyta** , se antingen [Åtgärdsfältet](../../automating/using/workflow-interface.md#action-bar) för arbetsflödena.
 * Mer information om åtgärder som rör **kontrollpanelskärmar** finns i avsnittet [Meddelandekontrollpanel](../../channels/using/message-dashboard.md) .
 * Åtgärder som rör skärmar av **listtyp** finns i avsnittet [Anpassa listor](../../start/using/customizing-lists.md) nedan.
-
