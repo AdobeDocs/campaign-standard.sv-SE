@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff9d0c3ca42606f097a34b1835d285541061e57b
+source-git-commit: 767d4233236019213003961aae1abb317198e581
 
 ---
 
@@ -28,13 +28,13 @@ Du kan hantera dina testprofiler på den avancerade menyn **[!UICONTROL Profiles
 
 En testprofil innehåller fiktiv kontaktinformation, eller kontaktinformation som styrs av avsändaren, som sedan kan användas i ett meddelande i följande sammanhang:
 
-* För att skicka **korrektur**: korrekturet är ett specifikt meddelande som används för att kontrollera meddelandet innan den slutliga leveransen skickas till mottagarna. En provprofil för korrektur ansvarar för att kontrollera leveransen med avseende på dess innehåll och format. Se [Skicka korrektur](../../sending/using/sending-proofs.md).
+* För att skicka **korrektur**: Korrekturmeddelandet är ett specifikt meddelande som används för att kontrollera meddelandet innan den slutliga leveransen skickas till mottagarna. En provprofil för korrektur ansvarar för att kontrollera leveransen med avseende på dess innehåll och format. Se [Skicka korrektur](../../sending/using/sending-proofs.md).
 * För **e-poståtergivning**: Testprofilen för e-poståtergivning används för att kontrollera hur ett meddelande visas enligt den meddelandeinkorg som tar emot det. Exempel: webbpost, meddelandetjänst, mobil osv. Se [E-poståtergivning](../../sending/using/email-rendering.md).
 
    Användningen av **e-poståtergivning** är skrivskyddad. Testprofiler med den här användningen är bara tillgängliga i Adobe Campaign.
 
-* Som en **svällning**: meddelandet skickas till testprofilen på samma sätt som det skickas till huvudmålet. Se [Använda svällningar](../../sending/using/using-traps.md).
-* Så här **förhandsgranskar** du meddelanden: en testprofil kan väljas när du förhandsgranskar ett meddelande för att testa personaliseringselementen. Se [Förhandsvisa meddelanden](/help/sending/using/previewing-messages.md).
+* Som en **svällning**: Meddelandet skickas till testprofilen på samma sätt som det skickas till huvudmålet. Se [Använda svällningar](../../sending/using/using-traps.md).
+* Så här **förhandsgranskar** du meddelanden: Du kan välja en testprofil när du förhandsgranskar ett meddelande för att testa personaliseringselementen. Se [Förhandsvisa meddelanden](/help/sending/using/previewing-messages.md).
 
 ![](assets/test_profile.png)
 
