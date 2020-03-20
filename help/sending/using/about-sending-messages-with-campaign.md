@@ -12,14 +12,14 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 6e605f1046ddcbad9b4e6f369ea5ecf7202f3def
 
 ---
 
 
 # Om att skicka meddelanden med Campaign{#about-sending-messages-with-campaign}
 
-När du har definierat målet och skapat innehållet i ett meddelande måste du testa det och godkänna det innan du skickar det till huvudmålet. Så här gör du:
+När du har definierat målet och skapat innehållet i ett meddelande måste du testa och godkänna det innan du skickar meddelandet till huvudmålet. Så här gör du:
 
 * Förhandsgranska leveransen med en testprofil.
 * Schemalägg sändning: ange när meddelandet ska skickas.
