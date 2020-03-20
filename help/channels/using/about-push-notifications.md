@@ -13,7 +13,7 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
+source-git-commit: 5ed46987a3778dfa100639de8be9b6d5ac5348b4
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 Med Adobe Campaign kan ni skicka personaliserade och segmenterade push-meddelanden till iOS- och Android-mobilenheter.
 
-Dessa meddelanden tas emot i mobilprogram som du konfigurerar i Adobe Campaign genom att utnyttja Experience Cloud Mobile SDK V4 eller Experience Platform SDK. Mer information finns i [Konfigurera ett mobilprogram med SDK V4](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) och [Konfigurera ett mobilprogram med SDK](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)för Adobe Experience Platform.
+Dessa meddelanden tas emot i mobilappar som du har skapat i Adobe Campaign genom att utnyttja Experience Platform SDK. Mer information finns i [Konfigurera ett mobilprogram med SDK:er för Adobe Experience Platform](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
 I Adobe Campaign lagras data för mobilprofilattribut som skickas från mobila enheter i resursen **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**, vilket gör att du kan definiera de data som du vill samla in från programprenumeranterna.
 
@@ -61,7 +61,7 @@ Om du är en expertanvändare och vill definiera dessa specifika konfigurationer
 >Om du vill använda funktionen för push-meddelanden från Campaign måste du tillhandahålla ett giltigt push-certifikat i .pem-format utan lösenord.
 Om du har ett giltigt p12-certifikat kan du enkelt konvertera det till en .pem-fil med hjälp av onlineresurser.
 
-För att kunna börja skicka push-meddelanden måste du först konfigurera ditt mobilprogram med SDK V4. Du kan också konfigurera ditt mobilprogram med Experience Platform SDK:er. Mer information finns på den här [sidan](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+För att kunna börja skicka push-meddelanden måste du först konfigurera ditt mobilprogram med Experience Platform SDK:er. Mer information finns på den här [sidan](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
 Innan du skickar push-meddelanden bör du:
 
