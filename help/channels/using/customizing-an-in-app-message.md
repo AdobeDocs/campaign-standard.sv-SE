@@ -13,7 +13,7 @@ context-tags: delivery,inAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 1269ee2041e0857b077424ba7f50fbfa9519ae7b
 
 ---
 
@@ -28,6 +28,10 @@ Med innehållsredigeraren i appen kan du välja mellan två meddelandelägen i a
 * [Anpassat meddelande](#customizing-with-a-custom-html-message): Med den här mallen kan du importera egen HTML-kod.
 
 ![](assets/inapp_customize_1.png)
+
+>[!NOTE]
+>
+> Meddelanderendering i appen stöds bara för Android API 19 och senare versioner.
 
 **Relaterade ämnen:**
 
