@@ -12,14 +12,20 @@ discoiquuid: 8428f8ac-8ef5-46cd-9d93-10ec0ecd3ded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 92f6a176a5c0e712170c7d7ef5a993af18d77295
 
 ---
 
 
-# Förhandsgranska meddelanden{#previewing-messages}
+# Förhandsgranska meddelanden {#previewing-messages}
 
-När du har lagt till testprofiler i **[!UICONTROL Audience]** fönstret kan du förhandsgranska meddelandet för att kontrollera hur det är anpassat och hur mottagarna ser leveransen.
+Med Campaign Standard kan ni förhandsgranska meddelanden innan de skickas, för att kontrollera deras personalisering och hur mottagarna ser dem.
+
+Förhandsgranskning av meddelanden utförs med **testprofiler** som du lägger till i meddelandets mål.
+
+För **e-postmeddelanden** kan ni med Campaign Standard förhandsgranska meddelanden med målprofiler i stället för testprofiler. På så sätt kan du få en exakt representation av meddelandet som en viss profil får. Mer information finns i [Testa e-postmeddelanden med målprofiler](../../sending/using/testing-messages-using-target.md).
+
+Så här förhandsgranskar du ett meddelande med testprofiler:
 
 1. Klicka på [knappen i](../../designing/using/designing-content-in-adobe-campaign.md)e-postdesignern **[!UICONTROL Preview]** .
 
@@ -39,3 +45,8 @@ När du har lagt till testprofiler i **[!UICONTROL Audience]** fönstret kan du 
 
    ![](assets/sending_preview_edit.png)
 
+**Relaterade ämnen**
+
+* [Hantera testprofiler](../../audiences/using/managing-test-profiles.md)
+* [Testa e-postmeddelanden med målprofiler](../../sending/using/testing-messages-using-target.md)
+* [Skicka korrektur](../../sending/using/sending-proofs.md)
