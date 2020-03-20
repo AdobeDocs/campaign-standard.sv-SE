@@ -12,7 +12,7 @@ discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 ---
 
@@ -114,7 +114,7 @@ När du använder en variabel i en aktivitet får du hjälp att anropa den i gr�
 
 ![](assets/extsignal_callparameter.png)
 
-* ![](assets/extsignal_picker.png): välj händelsemariabeln bland alla variabler som är tillgängliga i arbetsflödet (se ).
+* ![](assets/extsignal_picker.png): välj händelsvariabeln bland alla variabler som är tillgängliga i arbetsflödet.
 
    ![](assets/wkf_test_activity_variables.png)
 
