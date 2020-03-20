@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff9d0c3ca42606f097a34b1835d285541061e57b
+source-git-commit: a7c2d444b7d971124b676fa2392b51aab40e5629
 
 ---
 
@@ -59,6 +59,8 @@ När du definierar målgruppen för ett meddelande:
    ![](assets/trap_confirm.png)
 
 Meddelandet skickas till huvudmålet och till testprofilen.
+
+Du kan använda svällning när du skickar transaktionsmeddelanden. I det här fallet får testprofilen ett meddelande per händelsekonfiguration. Mer information om transaktionsmeddelanden finns i det här [avsnittet](../../channels/using/about-transactional-messaging.md).
 
 >[!NOTE]
 >
