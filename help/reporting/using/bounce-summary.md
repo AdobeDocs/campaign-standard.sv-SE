@@ -13,7 +13,7 @@ context-tags: bounceReport,main;campaignCirculationReport,main;programCirculatio
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: bee7ea0f1728da2a96c1f225b91b13a7903be660
 
 ---
 
@@ -32,7 +32,7 @@ Tabellen **Studsorsaker** innehåller tillgängliga data för de typer av fel so
 
 * **[!UICONTROL User unknown]**: Den typ av fel som genereras när en leverans skickas till en ogiltig e-postadress.
 * **[!UICONTROL Invalid domain]**: Den typ av fel som genereras när en leverans skickas till en e-postadress vars domän är felaktig eller inte längre finns.
-* **[!UICONTROL Unreachable]**: Den typ av fel som påträffades i meddelandeleveranssträngen. Exempel: SMTP-reläincident, domän som inte går att nå temporärt, osv.
+* **[!UICONTROL Unreachable]**: Den typ av fel som påträffades i meddelandeleveranssträngen, t.ex. en domän som inte kan nås tillfälligt.
 * **[!UICONTROL Account disabled]**: Den typ av fel som genereras när en leverans skickas till en e-postadress som inte längre finns.
 * **[!UICONTROL Mailbox full]**: Den typ av fel som genereras när mottagarens inkorg är full. Det görs fem försök att leverera meddelandet innan det här felet genereras.
 * **[!UICONTROL Not connected]**: Den typ av fel som genereras när mottagarens mobiltelefon är avstängd eller inte är ansluten till ett nätverk när meddelandet skickas.
