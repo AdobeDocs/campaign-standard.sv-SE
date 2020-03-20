@@ -12,7 +12,7 @@ discoiquuid: 36750524-eb54-47e8-aa1b-ae0b94f58cb1
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 80f6a384e99a7cebbe5c570f3273eceb393fd9b0
 
 ---
 
@@ -25,8 +25,8 @@ Du kan övervaka prenumerationer och avbeställningar på flera olika sätt:
 
 * Visa en lista över personer som för närvarande prenumererar på din tjänst från kontrollpanelen för tjänster. Se [Tjänstinstrumentpanel](#service-dashboard).
 * Information om prenumerationshistorik och avbrutna prenumerationer finns på fliken **Prenumerationshistorik** på kontrollpanelen för tjänster. Se [Prenumerationshistorik](#subscription-history).
-* visa en rapport som beskriver utvecklingen av prenumerationer och avbeställningar i **servicerapporterna**. Se [Servicerapporter](#service-reports).
-* finns en lista över tjänster som en person har prenumererat på i sin **profil**. Se [Händelsehistorik som är länkad till en profil](#history-of-events-linked-to-a-profile).
+* Visa en rapport som beskriver utvecklingen av prenumerationer och avbeställningar i **servicerapporterna**. Se [Servicerapporter](#service-reports).
+* Hitta en lista över tjänster som en person har prenumererat på i sin **profil**. Se [Händelsehistorik som är länkad till en profil](#history-of-events-linked-to-a-profile).
 
 ## Instrumentpanel för tjänst {#service-dashboard}
 
