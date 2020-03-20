@@ -13,7 +13,7 @@ context-tags: delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 80f6a384e99a7cebbe5c570f3273eceb393fd9b0
 
 ---
 
@@ -96,7 +96,7 @@ Nedan visas en lista med meddelanden som kan visas:
 
    Om det här meddelandet visas uppstår ett problem på definitionsnivån för IP-tillhörighet eller på överföringsprocessnivån. Kontakta din Adobe-administratör.
 
-* *&quot;Det här transaktionsmeddelandet är en körklar mall för transaktionsmeddelanden. Om du vill ändra den måste du duplicera den och arbeta med kopian.&quot;*
+* *&quot;Det här är en körklar mall för transaktionsmeddelanden. Om du vill ändra den måste du duplicera den och arbeta med kopian.&quot;*
 
    Vissa av dessa färdiga mallar för transaktionsmeddelanden är inbyggda mallar för landningssidor. Mer information finns i [det här avsnittet](../../channels/using/landing-page-templates.md).
 
