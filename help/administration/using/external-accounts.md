@@ -13,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
+source-git-commit: 7d31d92197a6bf26b7530b8e8ff42c0dc7f25359
 
 ---
 
@@ -31,6 +31,7 @@ Du kan ställa in följande typer av externa konton:
 * Adobe Experience Manager. For more on this, refer to [this section](#adobe-experience-manager-external-account).
 * Adobe Analytics. For more on this, refer to [this section](../../integrating/using/configure-campaign-analytics-integration.md).
 * Google reCAPTCHA. For more on this, refer to [this section](#google-recaptcha-external-account).
+* Microsoft Azure Blob-lagring. For more on this, refer to [this section](#microsoft-azure-external-account).
 
 >[!NOTE]
 >
@@ -150,3 +151,53 @@ Ange följande information för ett externt Google reCAPTCHA V3-konto:
    Värdet 0,0 **[!UICONTROL Threshold]** innebär att det troligtvis är en bot och 1,0 troligtvis en bra interaktion. Som standard kan du använda ett tröskelvärde på 0,5.
 
 ![](assets/external_accounts_3.png)
+
+## Externt konto för Microsoft Azure Blob Storage {#microsoft-azure-external-account}
+
+>[!NOTE]
+>
+>Information som behövs för att konfigurera ditt externa konto i Adobe Campaign Standard finns i Azure Portal genom att välja **[!UICONTROL Settings]** > **[!UICONTROL Access keys]**.
+
+Ange följande information för ett externt Microsoft Azure Blob Storage-konto:
+
+* A **[!UICONTROL Label]** och **[!UICONTROL ID]** A för ditt externa konto
+* **[!UICONTROL Type]**: Microsoft Azure Blob Storage
+* Ditt **[!UICONTROL Account name]** och **[!UICONTROL Account key]**. Om du vill veta var du hittar kontonamn och nyckel kan du gå till den här [sidan](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
+* Din **[!UICONTROL Endpoint suffix]**. Den finns på din **[!UICONTROL Connection string]** av **[!UICONTROL Access keys]** menyn i Azure Portal. Mer information finns på den här [sidan](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
+* Ditt **[!UICONTROL Container]** namn. Om du planerar att använda mer än en behållare måste du skapa så många externa konton som behållare.
+* Med det här **[!UICONTROL Concurrency]** alternativet kan du finjustera hastigheten på filöverföringar.
+
+![](assets/external_accounts_4.png)
+
+När konfigurationen är klar klickar du på **[!UICONTROL Test connection]** för att länka Adobe Campaign till Microsoft Azure Blob Storage.
+
+### Rekommendationer för Microsoft Azure Blob-lagring {#azure-blob-recommendations}
+
+**Kryptering**
+
+Adobe Campaign använder en säker anslutning (HTTPS) för att komma åt ditt Microsoft Azure Blob-lagringskonto.
+
+**Kontonyckel**
+
+När du konfigurerar ditt externa konto måste du använda något av de **[!UICONTROL Account key]** tillgängliga alternativen i Azure Portal. Mer information om var du hittar dina kontonycklar finns på den här [sidan](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage#view-access-keys-and-connection-string).
+
+**Optimera filöverföringshastigheten**
+
+Med det här **[!UICONTROL Concurrency]** alternativet kan du finjustera hastigheten på filöverföringar.
+Det representerar antalet trådar som ska användas för att utföra filöverföringen. Var och en av dessa trådar laddar ned ungefär 1 MB från blobben. De köas sedan för att skrivas till disk. Observera att genom att öka antalet trådar ökar du även belastningen på de resurser som används av programmet under filöverföringen.
+
+När filöverföringen är klar hittar du prestandamått i arbetsflödesloggarna.
+
+**Försök igen**
+
+Som standard har filöverföringen för Azure Blob upp till fyra försök.  Om Azure Storage-tjänsten returnerar en felkod som 503 (servern är upptagen) eller 500 (timeout för åtgärden), kan det tyda på att du närmar dig eller överskrider skalbarheten för ditt lagringskonto. Det här kan hända om du använder ett nytt konto eller utför tester.
+
+Om felet kvarstår kan du öka antalet försök genom att skapa ett alternativ under den avancerade menyn **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**.
+
+Om det implementeras måste alternativet skapas på följande sätt:
+
+```
+ID:        AzureBlob_Max_Retries
+Date type: Integer
+Default:   <the number of retries needed>
+```
