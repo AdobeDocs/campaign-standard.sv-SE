@@ -12,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
+source-git-commit: e62fdfba531bcfe18c147e7035c79e1ac6bca979
 
 ---
 
@@ -119,13 +119,17 @@ Mer information om att skapa och publicera resurser finns på [den här sidan](.
 
    ![](assets/message-center_enrichment-join-fields.png)
 
-   Du kan också utöka transaktionsmeddelandets innehåll med **[!UICONTROL Service]** resursen. Mer information finns i .
+   Du kan också utöka transaktionsmeddelandets innehåll med **[!UICONTROL Service]** resursen. Mer information om tjänster finns i det här [avsnittet](../../audiences/using/creating-a-service.md).
 
-1. I **[!UICONTROL Targeting enrichment]** avsnittet väljer du den anrikning som ska användas som meddelandemål under leveranskörningen. I det här exemplet väljer du **[!UICONTROL Profile]**. Det är obligatoriskt att välja en målgruppsanpassning för profilbaserade händelser.
+1. Om du skapar eller redigerar en profilbaserad händelse väljer du den anrikning som ska användas som meddelandemål under leveranskörningen i **[!UICONTROL Targeting enrichment]** avsnittet.
 
    ![](assets/message-center_marketing_targeting_enrichment.png)
 
-När händelsen och meddelandet har publicerats kan du utöka innehållet i transaktionsmeddelandet med hjälp av länken med **[!UICONTROL Profile]** resursen.
+   >[!NOTE]
+   >
+   >För profilbaserade händelser är det obligatoriskt att välja en målgruppsanpassning baserat på **[!UICONTROL Profile]** resursen.
+
+När händelsen och meddelandet har publicerats kan du med den här länken utöka innehållet i transaktionsmeddelandet.
 
 **Relaterade ämnen:**
 
@@ -148,11 +152,10 @@ Innan du kan använda händelsen måste du förhandsgranska och publicera den.
 
    ![](assets/message-center_pub.png)
 
-1. Du kan visa publikationsloggarna genom att välja motsvarande flik.
+1. Du kan visa publikationsloggarna på motsvarande flik.
 
    ![](assets/message-center_logs.png)
 
-   Du kan även läsa tidigare publikationer genom att klicka på fliken.
 
 >[!NOTE]
 >
@@ -166,6 +169,9 @@ Du kommer åt transaktionsmeddelandet som skapades direkt från länken i det v�
 
 Du måste även integrera den här utlösande händelsen på din webbplats. Se [Integrera händelseutlösaren på en webbplats](#integrating-the-triggering-of-the-event-in-a-website).
 
+<!-->>[!NOTE]
+>Om du vill läsa tidigare publikationer klickar du på **[!UICONTROL Latest transactional events]** länken under **[!UICONTROL History]** avsnittet till vänster.—>
+>
 ### Avpublicera en händelse {#unpublishing-an-event}
 
 Med **[!UICONTROL Unpublish]** knappen kan du avbryta publiceringen av händelsen, vilket innebär att den resurs som motsvarar händelsen som du skapade tas bort från REST-API:t. Även om händelsen utlöses via din webbplats skickas inte längre motsvarande meddelanden och de lagras inte i databasen.
@@ -173,10 +179,28 @@ Med **[!UICONTROL Unpublish]** knappen kan du avbryta publiceringen av händelse
 ![](assets/message-center_unpublish.png)
 
 >[!NOTE]
->
->Om du redan har publicerat motsvarande transaktionsmeddelande avbryts även publikationen för transaktionsmeddelandet. Se [Avpublicera ett transaktionsmeddelande](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message).
+Om du redan har publicerat motsvarande transaktionsmeddelande avbryts även publikationen för transaktionsmeddelandet. Se [Avpublicera ett transaktionsmeddelande](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message).
 
 Klicka på **[!UICONTROL Publish]** knappen för att generera ett nytt REST API.
+
+### Ta bort en händelse {#deleting-an-event}
+
+När en händelse har avpublicerats, eller om en händelse inte har publicerats ännu, kan du ta bort den från händelsekonfigurationslistan. Så här gör du:
+
+1. Klicka på **[!UICONTROL Adobe Campaign]** logotypen i det övre vänstra hörnet och välj sedan **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. Håll muspekaren över den händelsekonfiguration du vill använda och välj **[!UICONTROL Delete element]** knappen.
+
+   ![](assets/message-center_delete-button.png)
+
+   >[!NOTE]
+   Kontrollera att händelsekonfigurationen har **[!UICONTROL Draft]** status, annars kan du inte ta bort den. Statusen gäller för en händelse som ännu inte har publicerats eller som har **[!UICONTROL Draft]** avpublicerats [](#unpublishing-an-event).
+
+1. Klicka på **[!UICONTROL Confirm]** knappen.
+
+   ![](assets/message-center_delete-confirm.png)
+
+>[!IMPORTANT]
+Om du tar bort en händelsekonfiguration som har publicerats och redan använts tas även motsvarande transaktionsmeddelande(n) och dess avsändande och spårningsloggar bort.
 
 ## Integrera händelseutlösaren på en webbplats {#integrating-the-triggering-of-the-event-in-a-website}
 
@@ -202,8 +226,7 @@ Mer information finns i [Engaging with transactional messaging](https://helpx.ad
 1. Fyll i transaktionens meddelandeinnehåll om du vill använda ytterligare information från Adobe Campaign-databasen (se [Förbättra transaktionens meddelandeinnehåll](#enriching-the-transactional-message-content)).
 
    >[!NOTE]
-   >
-   >Händelsebaserade transaktionsmeddelanden ska bara använda de data som finns i den skickade händelsen för att definiera mottagaren och meddelandets innehållspersonalisering. Ni kan dock utöka innehållet i transaktionsmeddelandet med information från Adobe Campaign-databasen.
+   Händelsebaserade transaktionsmeddelanden ska bara använda de data som finns i den skickade händelsen för att definiera mottagaren och meddelandets innehållspersonalisering. Ni kan dock utöka innehållet i transaktionsmeddelandet med information från Adobe Campaign-databasen.
 
 1. Förhandsgranska och publicera händelsen (se [Förhandsgranska och publicera händelsen](#previewing-and-publishing-the-event)).
 
@@ -245,8 +268,7 @@ Händelsen måste innehålla följande tre element:
 1. Fyll i transaktionens meddelandeinnehåll om du vill använda ytterligare information från Adobe Campaign-databasen (se [Förbättra transaktionens meddelandeinnehåll](#enriching-the-transactional-message-content)).
 
    >[!NOTE]
-   >
-   >Händelsebaserade transaktionsmeddelanden ska bara använda de data som finns i den skickade händelsen för att definiera mottagaren och meddelandets innehållspersonalisering. Ni kan dock utöka innehållet i transaktionsmeddelandet med information från Adobe Campaign-databasen.
+   Händelsebaserade transaktionsmeddelanden ska bara använda de data som finns i den skickade händelsen för att definiera mottagaren och meddelandets innehållspersonalisering. Ni kan dock utöka innehållet i transaktionsmeddelandet med information från Adobe Campaign-databasen.
 
 1. Förhandsgranska och publicera händelsen (se [Förhandsgranska och publicera händelsen](#previewing-and-publishing-the-event)).
 
@@ -271,8 +293,7 @@ Om du vill skicka ett transaktionsmeddelande till de Adobe Campaign-profiler som
 1. Lägg till fält i händelsen om du vill anpassa transaktionsmeddelandet (se [Definiera händelseattribut](#defining-the-event-attributes)).
 
    >[!NOTE]
-   >
-   >Du måste lägga till minst ett fält för att skapa en anrikning. Du behöver inte skapa andra fält som **Förnamn** och **Efternamn** eftersom du kan använda anpassningsfält från Adobe Campaign-databasen.
+   Du måste lägga till minst ett fält för att skapa en anrikning. Du behöver inte skapa andra fält som **Förnamn** och **Efternamn** eftersom du kan använda anpassningsfält från Adobe Campaign-databasen.
 
 1. Skapa en berikning för att länka händelsen till **[!UICONTROL Profile]** resursen (se [Förbättra transaktionens meddelandeinnehåll](#enriching-the-transactional-message-content)). Det är obligatoriskt att skapa en berikning när du använder en **[!UICONTROL Profile]** målinriktningsdimension.
 1. Förhandsgranska och publicera händelsen (se [Förhandsgranska och publicera händelsen](#previewing-and-publishing-the-event)).
