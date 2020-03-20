@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Produktdokumentation för Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 3fa3fac1ae34c5e53195ad1605be5d4e25f11318
+source-git-commit: 14f3ce8641785e88fc2b566c62089833713aa82e
 
 ---
 
@@ -15,11 +15,9 @@ source-git-commit: 3fa3fac1ae34c5e53195ad1605be5d4e25f11318
 
 ## Nyheter
 
+* **[Testa e-post med målprofiler](sending/using/testing-messages-using-target.md)**Lär dig hur du testar e-postmeddelanden med riktiga målprofiler.
+
 * **[Integritetshantering](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>Läs mer om verktygen i Adobe Campaign som hjälper er att följa reglerna för integritetsskydd.
-
-* **[Bästa praxis](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>för leverans Läs mer om de bästa metoderna för leveransdesign och -sändning.
-
-* **[E-postdesigner](designing/using/designing-content-in-adobe-campaign.md)**<br/>Läs den omorganiserade e-postdesignerdokumentationen.
 
 * **[Campaign Standard Mobile Guide](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>Läs mer om allmänna riktlinjer för mobila leveranser.
 
