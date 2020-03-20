@@ -12,7 +12,7 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b71d19672efe24040d676bbcff3f90177b3fbcae
+source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 ---
 
@@ -206,7 +206,7 @@ I det här exemplet visas hur du anger ett förinställt arbetsflöde som kan å
 
       >[!NOTE]
       >
-      >Om du planerar att skicka direktreklam till dessa profiler måste du ange en postadress eftersom informationen är viktig för direktreklamleverantören. Kontrollera även att **[!UICONTROL Address specified]** rutan i profilinformationen är markerad. Om du vill uppdatera det här alternativet från ett arbetsflöde lägger du bara till ett element i de fält som ska uppdateras, anger **1** som **[!UICONTROL Source]** och väljer fältet **mailAddress/@addrDefined** som **[!UICONTROL Destination]**. Mer information om direktreklam och hur du använder **[!UICONTROL Address specified]** alternativet finns i [det här dokumentet](../../channels/using/about-direct-mail.md#recommendations).
+      >Om du planerar att skicka direktreklam till dessa profiler måste du ange en postadress eftersom informationen är viktig för direktreklamleverantören. Kontrollera även att **[!UICONTROL Address specified]** rutan i profilinformationen är markerad. Om du vill uppdatera det här alternativet från ett arbetsflöde lägger du bara till ett element i de fält som ska uppdateras, anger **1** som **[!UICONTROL Source]** och väljer `postalAddress/@addrDefined` fältet som **[!UICONTROL Destination]**. Mer information om direktreklam och hur du använder **[!UICONTROL Address specified]** alternativet finns i [det här dokumentet](../../channels/using/about-direct-mail.md#recommendations).
 
 1. Konfigurera den **[!UICONTROL Deduplication]** aktivitet som finns efter övergången och som innehåller ej avstämda profiler:
 
