@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b22d6ae9e7ccd305d437d5d4390e1d95393e6344
+source-git-commit: 65a902acd672248339ea871fd73c0d3455b1471d
 
 ---
 
@@ -43,12 +43,12 @@ source-git-commit: b22d6ae9e7ccd305d437d5d4390e1d95393e6344
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Enhetligt Experience Cloud-gränssnitt och enhetlig domän</strong><br /> </th> 
+   <th> <strong>Enhetligt Experience Cloud-gränssnitt</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Gränssnittets övre fält har förbättrats för att förbättra upplevelsen i alla Experience Cloud-program. Tillgång till lösningar har förenats med följande URL: experience.adobe.com/&lt;programnamn&gt;. Med sidhuvudet kan du nu växla enklare mellan olika lösningar och visa förbättrad hjälp och meddelanden.</p>
+   <td> <p>Gränssnittets övre fält har förbättrats för att förbättra upplevelsen i alla Experience Cloud-program. Med sidhuvudet kan du nu växla enklare mellan olika lösningar och visa förbättrad hjälp och meddelanden.</p>
     <p>Mer information finns i den <a href="../../start/using/interface-description.md#top-bar">detaljerade dokumentationen</a>. </p>
    </td> 
   </tr> 
