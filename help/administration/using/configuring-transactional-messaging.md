@@ -170,8 +170,8 @@ Du kommer åt transaktionsmeddelandet som skapades direkt från länken i det v�
 Du måste även integrera den här utlösande händelsen på din webbplats. Se [Integrera händelseutlösaren på en webbplats](#integrating-the-triggering-of-the-event-in-a-website).
 
 <!-->>[!NOTE]
->Om du vill läsa tidigare publikationer klickar du på **[!UICONTROL Latest transactional events]** länken under **[!UICONTROL History]** avsnittet till vänster.—>
->
+>Om du vill läsa tidigare publikationer klickar du på **[!UICONTROL Latest transactional events]** länken under **[!UICONTROL History]** avsnittet till vänster.-->
+
 ### Avpublicera en händelse {#unpublishing-an-event}
 
 Med **[!UICONTROL Unpublish]** knappen kan du avbryta publiceringen av händelsen, vilket innebär att den resurs som motsvarar händelsen som du skapade tas bort från REST-API:t. Även om händelsen utlöses via din webbplats skickas inte längre motsvarande meddelanden och de lagras inte i databasen.
