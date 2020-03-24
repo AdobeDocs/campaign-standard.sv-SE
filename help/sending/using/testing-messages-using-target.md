@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7f90991ed4c7323e3a2f8ac7d38da9ff165ef76
+source-git-commit: a6e81927aad7bf06eca6d0dc7436c4dc2a1c21c5
 
 ---
 
@@ -36,6 +36,8 @@ De huvudsakliga stegen är följande:
 1. (valfritt) För varje profil definierar du ett **prefix** som ska läggas till på korrekturämnesraden.
 1. **Förhandsgranska** i e-postdesignern hur meddelandet visas för profilerna.
 1. Skicka korrektur.
+
+Mer information om den globala processen finns i självstudiekursen som finns [här](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html).
 
 >[!IMPORTANT]
 >
@@ -254,6 +256,6 @@ De viktigaste stegen för detta är följande:
 
    ![](assets/substitution_uc_sendproof.png)
 
-1. Korrektur skickas enligt inställningarna på fliken **[!UICONTROL-[profilersättningar ]**.
+1. Korrektur skickas enligt inställningarna på **[!UICONTROL Profile substitutions]** fliken.
 
    ![](assets/substitution_uc_proofs.png)
