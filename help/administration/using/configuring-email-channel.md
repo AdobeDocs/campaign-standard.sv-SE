@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 130eaa44dc89a3b013038660d8e3790f05299136
+source-git-commit: b85633e278e3824a58390ee538b4a6e6954785af
 
 ---
 
@@ -105,7 +105,7 @@ The **SMTP parameters** act as filters applied for a blocking rule.
 >
 >När Adobe Campaign- **[!UICONTROL Domain management]** reglerna uppgraderats till det förbättrade MTA-avtalet används de inte längre.
 
-**DKIM-signering (DomainKeys Identified Mail)** för e-postautentisering görs av den utökade MTA:n för alla meddelanden med alla domäner. Det signerar inte med **avsändar-ID**, **DomainKeys**, **DKIM** eller **S/MIME** om inte annat anges på den utökade MTA-nivån.
+**DKIM-signering (DomainKeys Identified Mail)** för e-postautentisering görs av den utökade MTA:n för alla meddelanden med alla domäner. Det signerar inte med **avsändar-ID**, **DomainKeys** eller **S/MIME** om inte annat anges på den förbättrade MTA-nivån.
 
 Mer information om Adobe Campaign Enhanced MTA finns i det här [dokumentet](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
