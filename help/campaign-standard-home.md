@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Produktdokumentation för Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 14f3ce8641785e88fc2b566c62089833713aa82e
+source-git-commit: a6e81927aad7bf06eca6d0dc7436c4dc2a1c21c5
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 14f3ce8641785e88fc2b566c62089833713aa82e
 
 ## Nyheter
 
-* **[Testa e-post med målprofiler](sending/using/testing-messages-using-target.md)**Lär dig hur du testar e-postmeddelanden med riktiga målprofiler.
+* **[Testa e-post med målprofiler](sending/using/testing-messages-using-target.md)**<br/>Lär dig hur du testar e-postmeddelanden med riktiga målprofiler.
 
 * **[Integritetshantering](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>Läs mer om verktygen i Adobe Campaign som hjälper er att följa reglerna för integritetsskydd.
 
