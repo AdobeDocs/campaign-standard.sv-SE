@@ -43,7 +43,7 @@ Miljöuppdateringar sker i vågor under de angivna tidsramarna nedan. Detaljerad
  <tbody> 
   <tr> 
    <td> Scen<br /> </td> 
-   <td> 1-2 april 2020<br /> </td> 
+   <td> 31 mars-1 april 2020<br /> </td> 
   </tr> 
   <tr> 
    <td> Produktion<br /> </td> 
