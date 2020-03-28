@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 73fd120c79130c3a4eff43bb080bde8dabe58032
+source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
 
 ---
 
@@ -30,8 +30,6 @@ Du kan även läsa [versionsinformationen](../../rn/using/release-notes.md)för 
 **Nya funktioner i releasen**
 
 Azure Blob Integration - [läs mer](../../administration/using/external-accounts.md#microsoft-azure-external-account)
-
-Enhetligt Experience Cloud-gränssnitt och enhetlig domän - [Läs mer](../../start/using/interface-description.md#top-bar)
 
 E-posttestning med riktade profiler - [Läs mer](../../sending/using/testing-messages-using-target.md)
 
