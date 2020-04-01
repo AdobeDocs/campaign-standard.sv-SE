@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 77ceb5e5ca05fc3ee350d8e50fe0c957dec6ea26
+source-git-commit: e1fa546313e8d543685ef30a072ae2d97c5bf236
 
 ---
 
@@ -24,11 +24,14 @@ source-git-commit: 77ceb5e5ca05fc3ee350d8e50fe0c957dec6ea26
 >
 >Målgruppstjänsten är för närvarande i betaversion, som kan uppdateras ofta utan föregående meddelande. Kunderna måste vara värdbaserade på Azure (för närvarande endast betaversioner för Nordamerika) för att få tillgång till dessa funktioner. Kontakta Adobes kundtjänst om du vill ha tillgång till tjänsten.
 
-Stärk era kundupplevelser genom att utnyttja [Adobe Experience Platform](https://www.adobe.io/apis/experienceplatform/home.html) för att skapa extremt målgrupper baserat på stora, komplexa datauppsättningar. Adobe Experience Platform konsoliderar profil-, beteende- och multientitetsdata över både online- och offlinekällor, inklusive Adobe Analytics, för att hjälpa er att skapa en helhetsbild av era kunder, så att ni effektivt kan hantera era kundupplevelser.
+Stärk era kundupplevelser genom att utnyttja [Adobe Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/landing/home.html) för att skapa extremt målgrupper baserat på stora, komplexa datauppsättningar. Adobe Experience Platform konsoliderar profil-, beteende- och multientitetsdata över både online- och offlinekällor, inklusive Adobe Analytics, för att hjälpa er att skapa en helhetsbild av era kunder, så att ni effektivt kan hantera era kundupplevelser.
 
 Adobe Campaign Standard kommer sedan att använda tjänsten **Audience Destinations** för att hämta en samling profiler, så kallade **målgrupper**, från Adobe Experience Platform för flerstegs- och/eller kanalövergripande kampanjprogram.
 
-**Målgrupper** skapas genom att man först bygger **segment**, som i huvudsak är en uppsättning regler som baseras på praktiskt taget alla variabler (t.ex. profil, händelse, multientitetsdata) i en kundprofil från Adobe Experience Platform för att skapa ett flerdimensionellt mål. Det finns referenser till globala koncept för enhetliga profiler och segmenteringstjänster i [dessa dedikerade dokument](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html).
+**Målgrupper** skapas genom att man först bygger **segment**, som i huvudsak är en uppsättning regler som baseras på praktiskt taget alla variabler (t.ex. profil, händelse, multientitetsdata) i en kundprofil från Adobe Experience Platform för att skapa ett flerdimensionellt mål. Det finns referenser till globala koncept för enhetliga profiler och segmenteringstjänster i dessa dedikerade dokument:
+
+* [Översikt över kundprofiler i realtid](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
+* [Översikt över segmenteringstjänsten](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)
 
 När ett segment har skapats kan du sedan aktivera det som en målgrupp för leverans i [Campaign Standard-arbetsflöden](../../automating/using/aep-targeting-audiences.md). Dessutom kan ni använda sammanhangsbaserade data från Adobe Experience Platform för att [personalisera](../../automating/using/aep-personalizing-campaigns.md) och lägga till dynamiskt innehåll i era kampanjer.
 
