@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 127c8d9ddc63077cb78b75bb1883f81fecd6febe
+source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
 
 ---
 
@@ -56,7 +56,7 @@ source-git-commit: 127c8d9ddc63077cb78b75bb1883f81fecd6febe
   <tr> 
    <td> 
     <p>Integrationen mellan Adobe Campaign Standard och Microsoft Dynamics 365 är nu tillgänglig. Du kan överföra dina kontakter och anpassade enhetsposter från Dynamics 365 till Campaign och få tillbaka händelsedata via e-post från Campaign till Dynamics 365 för bättre sälj- och marknadsföringsanpassning.</p>
-    <p>Se den <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">detaljerade dokumentationen</a> för att konfigurera integreringen och se videon <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html">med</a>instruktioner.</p>
+    <p>Se den <a href="../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md">detaljerade dokumentationen</a> för att konfigurera integreringen och se videon <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html">med</a>instruktioner.</p>
   </td>
   </tr> 
  </tbody> 
@@ -68,7 +68,7 @@ source-git-commit: 127c8d9ddc63077cb78b75bb1883f81fecd6febe
 * Ett problem som visade felaktiga kontaktdatum när leveransmeddelanden togs emot har korrigerats.
 * När en händelse för transaktionsmeddelanden skickas med en okänd kontextparameter returnerar Campaign nu felmeddelandet&quot;400&quot; i stället för&quot;500&quot;. (CAMP-28632)
 * Ett nytt **Uteslut korrektur** -segment har lagts till i dynamisk rapportering. Det här segmentet är nu markerat som standard för att filtrera rapporter. [Läs mer](../../reporting/using/list-of-components-.md#segments)
-* Alternativet **Meddelandets förfallodatum** har lagts till för push-meddelanden. Du kan ange ett förfallodatum när meddelandet inte längre skickas av Apple (APNS) eller Android (FCM). [Läs mer](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
+* Alternativet **Meddelandets förfallodatum** har lagts till för push-meddelanden. Du kan ange ett förfallodatum när meddelandet inte längre ska skickas av Apple (APNS) eller Android (FCM). [Läs mer](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
 * Förbättringar har gjorts i aktiviteten **Läs in fil** : arbetsflödesloggar har gjorts tydligare och mer detaljerade om det fel som inträffar när en fil inte kan läsas in. Den utgående övergång som genererades när **Behåll avvisen i en fil** aktiverades har bytt namn till **Avvisade**. [Läs mer](../../automating/using/load-file.md)
 * Flerspråkiga relaterade loggar har lagts till i de sändande loggarna för att bättre förstå hur fel skickas på grund av att språk saknas i de överförda CSV-filerna.
 
