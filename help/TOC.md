@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: ddccab05af415fe3ddab7b75db7118fa94552565
+source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
 
 ---
 
@@ -198,37 +198,47 @@ source-git-commit: ddccab05af415fe3ddab7b75db7118fa94552565
       + [Lägga till komponenter](reporting/using/adding-components.md)
       + [Skapa en anpassad profildimension](reporting/using/creating-a-custom-profile-dimension.md)
       + [Skapa en rapport baserad på arbetsflödessegment](reporting/using/creating-a-report-workflow-segment.md)
-+ Integrera med Adobe Cloud {#integrating-with-adobe-cloud}
++ Integrera med andra lösningar {#integrating-with-adobe-cloud}
    + [Om Campaign-integreringar](integrating/using/about-campaign-integrations.md)
-   + Arbeta med Campaign och Experience Manager {#working-with-campaign-and-experience-manager}
+   + Campaign och Experience Manager {#working-with-campaign-and-experience-manager}
       + [Om integrering mellan Campaign och Experience Manager](integrating/using/integrating-with-experience-manager.md)
       + [Konfigurera integreringen mellan Campaign och Experience Manager](integrating/using/configure-experience-manager.md)
       + [Skapa ett e-postinnehåll i Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
       + [Skapa ett Campaign-formulär i Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
-   + Arbeta med Campaign och Target {#working-with-campaign-and-target}
+   + Campaign och Target {#working-with-campaign-and-target}
       + [Om Campaign-Target-integrering](integrating/using/about-campaign-target-integration.md)
       + [Konfigurera integrering av Campaign-Target](integrating/using/configuring-the-campaign-target-integration.md)
       + [Lägga till dynamiskt målinnehåll](integrating/using/adding-target-dynamic-content.md)
-   + Arbeta med Campaign och Analytics {#working-with-campaign-and-analytics}
+   + Kampanj och analys {#working-with-campaign-and-analytics}
       + [Om integrering med Campaign-Analytics](integrating/using/about-campaign-analytics-integration.md)
       + [Konfigurera integrering med Campaign-Analytics](integrating/using/configure-campaign-analytics-integration.md)
       + [Kampanjdimensioner och mätvärden i Analytics](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
-   + Arbeta med Campaign och Audience Manager eller People core service {#working-with-campaign-and-audience-manager-or-people-core-service}
+   + Campaign and Audience Manager or People core service {#working-with-campaign-and-audience-manager-or-people-core-service}
       + [Om integrering av Campaign-Audience Manager eller People core Service](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
       + [Provisionering och konfigurering av integrering med Audience Manager eller People core Service](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
       + [Felsökning](integrating/using/troubleshooting.md)
       + [Dela målgrupper med Audience Manager eller People core service](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
       + [Arbeta med huvudtjänsten Campaign and Assets](integrating/using/working-with-campaign-and-assets-core-service.md)
-   + Arbeta med Campaign och Analytics för mobilen {#working-with-campaign-and-analytics-for-mobile}
+   + Kampanj och analys för mobilen {#working-with-campaign-and-analytics-for-mobile}
       + [Om integrering av Campaign-Points-data](integrating/using/about-campaign-points-of-interest-data-integration.md)
       + [Konfigurera integrering av Campaign-Points-data](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
       + [Anpassa kampanjmeddelanden med intressepunktsdata](integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)
-   + Arbeta med Campaign och Triggers {#working-with-campaign-and-triggers}
+   + Kampanj och utlösare {#working-with-campaign-and-triggers}
       + [Om Adobe Experience Cloud-utlösare](integrating/using/about-adobe-experience-cloud-triggers.md)
       + [Konfigurera utlösare i Experience Cloud](integrating/using/configuring-triggers-in-experience-cloud.md)
       + [Använda utlösare i kampanj](integrating/using/using-triggers-in-campaign.md)
       + [Testa utlösarna](integrating/using/testing-your-triggers.md)
       + [Användningsexempel för utlösare för övergåenden](integrating/using/abandonment-triggers-use-cases.md)
+   + Campaign och Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
+      + [Konfigurera integrering med Adobe IO för Microsoft Dynamics 365](integrating/using/configure-adobe-io-for-ms-dynamic.md)
+      + [Arbeta med Campaign Standard och Microsoft Dynamics 365]{#configuring-acs-ms-dynamics}
+         + [Arbeta med Campaign Standard och Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+         + [Meddelanden och rekommendationer](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
+         + [Begära och konfigurera Microsoft Dynamics 365 med Campaign Standard-integrering](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
+         + [Använda Microsoft Dynamics 365 med Campaign Standard-integrering](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+      + [Konfigurera Microsoft Dynamics 365 för Campaign-integrering](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
+      + [Konfigurera Unifi för Microsoft Dynamics 365-integrering](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
+      + [Mappa anpassade resurser för Campaign och anpassade Dynamics 365-entiteter](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
 + Hantera processer och data {#managing-processes-and-data}
    + Om arbetsflöden och datahantering {#about-workflows-and-data-management}
       + [Arbetsflödesdata och -processer](automating/using/workflow-data-and-processes.md)
