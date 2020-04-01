@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b85633e278e3824a58390ee538b4a6e6954785af
+source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
 
 ---
 
@@ -119,7 +119,7 @@ To configure MX management rules, simply set a threshold and select certain SMTP
 
 >[!IMPORTANT]
 >
->När ni har uppgraderat till den förbättrade MTA-versionen används inte längre reglerna för **[!UICONTROL MX management]** leveransflöde i Adobe Campaign.
+>När Adobe Campaign- **[!UICONTROL MX management]** leveransreglerna uppgraderats till Förbättrat MTA används inte längre leveransreglerna.
 
 Den utökade MTA-servern använder sina egna MX-regler som gör att den kan anpassa din genomströmning efter domän baserat på ditt eget historiska e-postrykte och på realtidsfeedback som kommer från de domäner där du skickar e-post.
 
@@ -251,7 +251,7 @@ Avsnittet **[!UICONTROL Validity period]** innehåller följande parametrar:
 
    >[!IMPORTANT]
    >
-   >Ett HTML-innehåll måste ha definierats för e-postmeddelandet för den spegelsida som ska skapas.
+   >HTML-innehåll måste ha definierats för e-postmeddelandet för den spegelsida som ska skapas.
 
    * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]** (standardläge): spegelsidan genereras om länken infogas i postinnehållet.
    * **Framtvinga generering av spegelsidan**: även om ingen länk till spegelsidan infogas i meddelandena, skapas spegelsidan.
