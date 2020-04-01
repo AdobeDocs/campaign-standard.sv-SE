@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Produktdokumentation för Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: a6e81927aad7bf06eca6d0dc7436c4dc2a1c21c5
+source-git-commit: 7e7bd906982e71e8ba29339998fa3bf8c65c620b
 
 ---
 
@@ -58,19 +58,13 @@ source-git-commit: a6e81927aad7bf06eca6d0dc7436c4dc2a1c21c5
 </tr>
 </table>
 
-
 ## Ytterligare resurser
 
-* [Versionsinformation](rn/using/release-notes.md)
-
-* [Kontrollpanelen](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
-
-* [Instruktionsvideor](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
-
-* [Planeringsguide för lansering](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
-
-* [Föråldrade och borttagna funktioner](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
-
-* [Tekniska anteckningar](https://helpx.adobe.com/campaign/kb/acs-article-list.html)
-
-* [Implementeringshandbok för Adobe Campaign Standard](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
+| Användbara sidor | Resurser för utvecklare |
+|---|---|
+| [Versionsinformation](rn/using/release-notes.md) | [Implementeringsguide](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) |
+| [Dokumentation för kontrollpanelen](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [API:er - dokumentation](api/using/about-campaign-standard-apis.md) |
+| [Instruktionsvideor](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) | [Lista över felmeddelanden](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
+| [Planeringsguide för lansering](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Datamodell för Campaign Standard](developing/using/datamodel-introduction.md) |
+| [Föråldrade och borttagna funktioner](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) | [Kampanjintegreringar](integrating/using/about-campaign-integrations.md) |
+| [Komma igång med Campaign Standard](start/using/campaign-orchestration.md) | [Tekniska anteckningar](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
