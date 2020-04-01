@@ -13,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 7d31d92197a6bf26b7530b8e8ff42c0dc7f25359
+source-git-commit: 5b53f210bc8fc211b1f48f5b6ff8694bcaf41622
 
 ---
 
@@ -157,6 +157,8 @@ Ange följande information för ett externt Google reCAPTCHA V3-konto:
 >[!NOTE]
 >
 >Information som behövs för att konfigurera ditt externa konto i Adobe Campaign Standard finns i Azure Portal genom att välja **[!UICONTROL Settings]** > **[!UICONTROL Access keys]**.
+
+Azure Blob Storage Connector kan användas för att importera eller exportera data till Adobe Campaign med hjälp av en **[!UICONTROLTöverföringsfils]** arbetsflödesaktivitet. For more on this, refer to this [section](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
 
 Ange följande information för ett externt Microsoft Azure Blob Storage-konto:
 
