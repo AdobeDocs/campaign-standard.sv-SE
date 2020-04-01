@@ -12,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ce55c5193e7944c65e0d9e6cc791ed2bc13b3509
+source-git-commit: 34f4bbf7b7913cfb1833379c963b590961f7de73
 
 ---
 
@@ -156,24 +156,25 @@ Innan du kan använda händelsen måste du förhandsgranska och publicera den.
 
    ![](assets/message-center_logs.png)
 
+   >[!IMPORTANT]
+   >
+   >Varje gång du ändrar händelsen måste du klicka **[!UICONTROL Publish]** igen för att generera det uppdaterade REST API som kommer att användas av webbplatsutvecklaren.
 
->[!NOTE]
->
->Varje gång du ändrar händelsen måste du klicka **[!UICONTROL Publish]** igen för att generera det uppdaterade REST API som kommer att användas av webbplatsutvecklaren.
+   När händelsen har publicerats skapas automatiskt ett transaktionsmeddelande som är länkat till den nya händelsen.
 
-När händelsen har publicerats skapas automatiskt ett transaktionsmeddelande som är länkat till den nya händelsen. För att den här händelsen ska kunna utlösa att ett transaktionsmeddelande skickas måste du ändra och publicera det meddelande som precis skapades. Se [Transaktionsmeddelanden](../../channels/using/event-transactional-messages.md)för händelser.
+1. Du kan komma åt det här transaktionsmeddelandet direkt via länken i det vänstra området.
 
-Du kommer åt transaktionsmeddelandet som skapades direkt från länken i det vänstra området.
+   ![](assets/message-center_messagegeneration.png)
 
-![](assets/message-center_messagegeneration.png)
+För att händelsen ska kunna utlösa att ett transaktionsmeddelande skickas måste du ändra och publicera det meddelande som precis skapades. Se [Transaktionsmeddelanden](../../channels/using/event-transactional-messages.md)för händelser.
 
 Du måste även integrera den här utlösande händelsen på din webbplats. Se [Integrera händelseutlösaren på en webbplats](#integrating-the-triggering-of-the-event-in-a-website).
 
-<!--
->[!NOTE]
->
->To consult the previous publications if any, click the **[!UICONTROL Latest transactional events]** link under the **[!UICONTROL History]** section in the left-hand side area.
--->
+När Adobe Campaign börjar ta emot händelser relaterade till den här händelsekonfigurationen kan du med hjälp av länken under **[!UICONTROL Latest transactional events]** **[!UICONTROL History]** avsnittet få tillgång till de senaste händelser som skickats av din tredjepartstjänst och bearbetats av Adobe Campaign.
+
+![](assets/message-center_latest-events.png)
+
+Händelserna (i JSON-format) listas från den senaste till den äldsta. Med den här listan kan du kontrollera data som innehåll eller status för en händelse för kontroll- och felsökningsändamål.
 
 ### Avpublicera en händelse {#unpublishing-an-event}
 
@@ -345,7 +346,7 @@ Mer information om att skapa och publicera resurser finns på [den här sidan](.
 
    ![](assets/message-center_usecase2.png)
 
-1. Skapa ett kopplingsvillkor mellan fältet&quot;Produktidentifierare&quot; som tidigare lades till i meddelandet och motsvarande fält från **[!UICONTROL Purchase]** resursen
+1. Skapa ett kopplingsvillkor mellan fältet&quot;Produktidentifierare&quot; som tidigare lades till i meddelandet och motsvarande fält från **[!UICONTROL Purchase]** resursen.
 
    ![](assets/message-center_usecase3.png)
 
