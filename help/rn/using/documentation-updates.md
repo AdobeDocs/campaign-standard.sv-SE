@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
+source-git-commit: 34a478b73ba458d0509639dfbb4641bc63b2aa1a
 
 ---
 
@@ -24,6 +24,17 @@ Läs om alla de senaste uppdateringarna av dokumentationen för Adobe Campaign S
 På den här sidan visas alla nya funktioner och dokumentationsuppdateringar för varje release av Adobe Campaign Standard.
 
 Du kan även läsa [versionsinformationen](../../rn/using/release-notes.md)för Adobe Campaign.
+
+## Dokumentationsuppdateringar - april 2020 {#doc-updates-april-2020}
+
+Integreringen av Microsoft Dynamics 365 med Adobe Campaign Standard-dokumentationen har integrerats i kärndokumentationen i Integrering med andra lösningar. [Läs mer](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+
+Ytterligare resurser har lagts till på dokumentationsstartsidan. [Läs mer](../../campaign-standard-home.md)
+
+Information om Experience CLoud ID Service (ECID) har lagts till i dokumentationen för Adobe Experience Platform Data Connector. [Läs mer](../../administration/using/aep-about-data-connector.md#key-concepts)
+
+Avsnittet Configuring transactional messaging har förbättrats med information om hur man får tillgång till de senaste transaktionshändelserna och uppdaterade skärmbilder. [Läs mer](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
+
 
 ## Version 20.2 - mars 2020 {#release-20-2---march-2020}
 
@@ -45,7 +56,7 @@ Ett nytt avsnitt med riktlinjer för konfiguration har lagts till i handboken Ad
 
 Det finns nu ett nytt avsnitt som beskriver hur du tar bort en händelsekonfiguration. [Läs mer](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
 
-Sidan som beskriver hur du testar ämnesraden i ett e-postmeddelande för att förutsäga dess öppningshastighet har uppdaterats och förbättrats, inklusive ett nytt [felsökningsavsnitt](../../sending/using/testing-subject-line-email.md#troubleshooting) . [Läs mer](../../sending/using/testing-subject-line-email.md#troubleshooting)
+Sidan som beskriver hur du testar ämnesraden i ett e-postmeddelande för att förutsäga dess öppningshastighet har uppdaterats och förbättrats, inklusive ett nytt [felsökningsavsnitt](../../sending/using/testing-subject-line-email.md#troubleshooting) . [Läs mer](../../sending/using/testing-subject-line-email.md)
 
 Avsnitten för transaktionsmeddelanden har uppdaterats för att återspegla små uppdateringar och förbättringar i det flerspråkiga användargränssnittet. [Läs mer](../../channels/using/about-transactional-messaging.md)
 
@@ -147,7 +158,7 @@ Den nya API-slutpunkten **/customResources** har lagts till i API-dokumentatione
 
 California Consumer Privacy Act (CCPA) - [Läs mer](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa)
 
-Integrering av Microsoft Dynamics 365 (GA) - [Läs mer](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+Integrering av Microsoft Dynamics 365 (GA) - [Läs mer](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 **Andra dokumentationsuppdateringar som följer med releasen**
 
@@ -211,7 +222,7 @@ Rapport om arbetsflödessegment - [Läs mer](../../reporting/using/creating-a-re
 
 Implementeringshandboken för Campaign Standard finns nu tillgänglig.[Läs mer](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
 
-En uppsättning nya hjälpartiklar har skapats om implementering och användning av Microsoft Dynamics 365-anslutningsprogrammet. Observera att den här funktionen för närvarande är begränsad.[Läs mer](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+En uppsättning nya hjälpartiklar har skapats om implementering och användning av Microsoft Dynamics 365-anslutningsprogrammet. Observera att den här funktionen för närvarande är begränsad.[Läs mer](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 En anteckning har lagts till i [Anropa ett arbetsflöde med parameteravsnittet](../../automating/using/calling-a-workflow-with-external-parameters.md) om leveransförberedelse och deras aggregeringsperiod.
 
@@ -223,7 +234,7 @@ Det finns nu en ny artikel med tips som förenklar marknadsföringskampanjer, bl
 
 En felsökning har lagts till för dynamisk rapportering. [Läs mer](../../reporting/using/troubleshooting.md)
 
-Ett diagram som förklarar hur de olika mallarna i appen hanterar personlig information har lagts till. [Läs mer](../../channels/using/preparing-and-sending-an-in-app-message.md)
+Ett diagram som förklarar hur olika mallar i appen hanterar personlig information har lagts till. [Läs mer](../../channels/using/preparing-and-sending-an-in-app-message.md)
 
 Avsnittet om hur du sparar e-postinnehåll som ett fragment i e-postdesignern har uppdaterats. [Läs mer](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)
 
