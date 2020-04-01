@@ -13,14 +13,16 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 33d4704d664a809073790e47ab6bb84e9c2b07d5
+source-git-commit: b4ba56e5cd639c547a7060be9c60985f5564160d
 
 ---
 
 
 # Felsökning{#troubleshooting}
 
-Har du något leveransproblem? Du kan hitta lösningen här..
+Har du något leveransproblem? Du kan hitta lösningen här.
+
+## Samma felmeddelande för en Internet-leverantör {#same-error-for-an-isp}
 
 **Varför får jag alltid samma felmeddelande för en viss Internet-leverantör?**
 
@@ -31,35 +33,40 @@ Om du alltid får samma felmeddelande för en Internet-leverantör, kan din e-po
 
 Om problemet kvarstår kontaktar du de kommersiella tjänsterna, leveranstjänsterna eller Adobe Campaign-supporten.
 
-**Vad är skillnaden mellan en svartlistad e-postadress och en e-postadress i karantän?**
+## Svartlistning kontra karantän {#blacklisting-versus-quarantine}
 
-Statusen **[!UICONTROL Blacklisted]** är ett resultat av en feedbackslinga (när en person rapporterar ett meddelande som skräppost).
+* **Vad är skillnaden mellan en svartlistad e-postadress och en e-postadress i karantän?**
 
-Statusen **[!UICONTROL Quarantined]** är ett resultat av en mjuk eller hård studsa.
+   * Statusen **[!UICONTROL Blacklisted]** är ett resultat av en feedbackslinga (när en person rapporterar ett meddelande som skräppost).
 
-**Vad betyder de olika anledningarna till karantänfel?**
+   * Statusen **[!UICONTROL Quarantined]** är ett resultat av en mjuk eller hård studsa. Mer information finns i det här [avsnittet](../../sending/using/understanding-quarantine-management.md).
 
-Här följer tio möjliga orsaker: inte definierad, okänd användare, ogiltig domän, svartlistad adress, nekad, fel ignorerad, ej tillgänglig, konto inaktiverat, postlåda full, inte ansluten.
+* **Vad betyder de olika anledningarna till karantänfel?**
 
-Mer information finns i [Om karantänhantering](../../sending/using/understanding-quarantine-management.md).
+   Här följer tio möjliga orsaker: inte definierad, okänd användare, ogiltig domän, svartlistad adress, nekad, fel ignorerad, ej tillgänglig, konto inaktiverat, postlåda full, inte ansluten.
 
-**En av mina mottagare blev svartlistad av misstag. Hur avlistar jag dem så att jag kan börja skicka dem igen?**
+   Mer information finns i [Om karantänhantering](../../sending/using/understanding-quarantine-management.md).
 
-* Gå till **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
-* I informationen för motsvarande post anger du värdet för **[!UICONTROL Status]** fältet till **[!UICONTROL Valid]**.
-* Spara posten.
+## Osvartlistning {#unblacklisting}
 
-**Hur kan jag ta reda på om en av mina IP-medlemmar är svartlistad? Hur avsvartlistar jag mina IP-adresser?**
+* **En av mina mottagare blev svartlistad av misstag. Hur avlistar jag dem så att jag kan börja skicka dem igen?**
 
-Om du vill kontrollera om din IP-adress är svartlistad kan du använda olika webbplatser för att verifiera den:
-* https://mxtoolbox.com/
-* https://whatismyipaddress.com/blacklist-check
-* https://www.blacklistalert.org/
+   * Gå till **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
+   * I informationen för motsvarande post anger du värdet för **[!UICONTROL Status]** fältet till **[!UICONTROL Valid]**.
+   * Spara posten.
 
-I allmänhet returnerar resultatet av IP-adresskontrollen en lista som innehåller information om svartlistan och även namnet på den webbplats som svartlistade IP-adressen.
+* **Hur kan jag ta reda på om en av mina IP-adresser är svartlistad? Hur avsvartlistar jag mina IP-adresser?**
 
-Genom att klicka på länken kan du komma åt webbplatsinformationen.
+   Om du vill kontrollera om din IP-adress är svartlistad kan du använda olika webbplatser för att verifiera den:
+   * https://mxtoolbox.com/
+   * https://whatismyipaddress.com/blacklist-check
+   * https://www.blacklistalert.org/
+   I allmänhet returnerar resultatet av IP-adresskontrollen en lista som innehåller information om svartlistan och även namnet på den webbplats som svartlistade IP-adressen.
 
-Sedan kan du begära att din webbplats avlistas från den webbplats som svartlistade IP-adressen.
+   Genom att klicka på motsvarande länk kan du komma åt webbplatsinformationen.
 
-Borttagningsprocessen kan variera beroende på webbplatsen. Vissa webbplatser kräver att du skapar ett konto, medan andra bara behöver du ange IP-adressen.
+   Sedan kan du begära att din webbplats avlistas från den webbplats som svartlistade IP-adressen.
+
+   >[!NOTE]
+   >
+   >Borttagningsprocessen kan variera beroende på webbplatsen. Vissa webbplatser kräver att du skapar ett konto, medan andra bara behöver du ange IP-adressen.
