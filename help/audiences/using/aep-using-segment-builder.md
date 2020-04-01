@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
+source-git-commit: e1fa546313e8d543685ef30a072ae2d97c5bf236
 
 ---
 
@@ -24,9 +24,9 @@ source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
 >
 >Målgruppstjänsten är för närvarande i betaversion, som kan uppdateras ofta utan föregående meddelande. Kunderna måste vara värdbaserade på Azure (för närvarande endast betaversioner för Nordamerika) för att få tillgång till dessa funktioner. Kontakta Adobes kundtjänst om du vill ha tillgång till tjänsten.
 
-Med Unified Segment Builder kan ni skapa målgrupper genom att definiera regler som baseras på data från [Unified Profile Service](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html).
+Med Unified Segment Builder kan ni skapa målgrupper genom att definiera regler som baseras på data från [Unified Profile Service](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html).
 
-I det här avsnittet beskrivs globala koncept när du skapar ett segment. Mer information om verktyget Enhetligt segment finns i användarhandboken [för](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)Segment Builder.
+I det här avsnittet beskrivs globala koncept när du skapar ett segment. Mer information om verktyget Enhetligt segment finns i användarhandboken [för](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)Segment Builder.
 
 Gränssnittet i Unified Segment Builder består av följande:
 
@@ -48,7 +48,7 @@ Enhetlig segmentbyggare bör nu visas på arbetsytan. Med det kan ni skapa ett s
 
 1. Se till att den sammanfogningsprincip du vill använda är markerad i inställningspanelen.
 
-   Mer information om kopplingsprofiler finns i det dedikerade avsnittet i användarhandboken för [Segment Builder](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md).
+   Mer information om kopplingsprofiler finns i det dedikerade avsnittet i användarhandboken för [Segment Builder](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -82,7 +82,7 @@ Fälten är ordnade i flikar:
 >
 >**Med segmentering** av flera enheter kan ni utöka profildata med ytterligare data baserade på produkter, butiker eller andra icke-profilklasser. När de är anslutna blir data från ytterligare klasser tillgängliga som om de vore inbyggda i profilschemat.
 >
->Mer information finns i den [dedikerade dokumentationen](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/tutorials/segmentation/multi_entity_segmentation.md).
+>Mer information finns i den [dedikerade dokumentationen](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html).
 
 Som standard visar verktyget för enhetliga segment fält där data redan finns. Om du vill visa det fullständiga schemat, inklusive fält för vilka data inte finns, aktiverar du alternativet från inställningarna **[!UICONTROL Show full XDM schema]** .
 
@@ -96,7 +96,7 @@ Symbolen i slutet av varje fält innehåller ytterligare information om attribut
 
 >[!NOTE]
 >
->Avsnittet nedan innehåller global information om regeldefinition. Mer information finns i användarhandboken för [Segment Builder](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md).
+>Avsnittet nedan innehåller global information om regeldefinition. Mer information finns i användarhandboken för [Segment Builder](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
 
 Så här skapar du en regel:
 
