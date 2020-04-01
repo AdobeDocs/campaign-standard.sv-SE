@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8ea3340e9ffb8b438c781aeff1a8554c9160474f
+source-git-commit: 2d4140982ee772eda9eecb01a55748c1d439150e
 
 ---
 
@@ -46,11 +46,7 @@ Det finns även instruktionsvideor på [den här sidan](https://docs.adobe.com/c
 
 * Utdatamappning är bara tillgängligt för fält som anges i Campaign Standard som standard. För att kunna inhämta alla anpassade fält och resurser måste varje kund definiera sin egen mappning.
 
-* Adobe Experience Platform Data Connector skickar profildata via plattformen med regelbundna intervall. &#x200B; Intervallets varaktighet är 15 mn. Detta värde kan inte ändras.
-
-   >[!NOTE]
-   >
-   >Den här tidslängden kan ändras med API:er för [Adobe Experience Platform](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md).
+* Adobe Experience Platform Data Connector skickar profildata via plattformen med regelbundna intervall. &#x200B; Intervallets varaktighet är 15 mn. Värdet kan ändras med API:er för [Adobe Experience Platform](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md).
 
 * Datateknikern kan publicera, ändra och pausa mappningen från Campaign till Adobe Experience Platform.
 
@@ -61,6 +57,14 @@ Det finns även instruktionsvideor på [den här sidan](https://docs.adobe.com/c
 * Alla ändringar i Adobe Campaign Standard eller XDM-scheman måste mappas om manuellt. &#x200B;
 
 * Spårningslogg och Broadlog-data hämtas automatiskt till Adobe Experience Platform som Experience Events. Det här intrycket strömmas i realtid till Adobe Experience Platform.
+
+* Experience Cloud ID Service (ECID) är en enhets-ID som skickas som standard med Experience Events.
+
+   Det är ett unikt och beständigt ID som tilldelats en besökare och som kan användas av Platform Identity Service för att identifiera samma besökare och deras data i olika Experience Cloud-lösningar. Mer information finns i hjälpen [för](https://docs.adobe.com/content/help/en/id-service/using/home.html)Experience Cloud Identity Service.
+
+   >[!NOTE]
+   >
+   >Observera att om två eller flera profiler delar samma enhet skulle ECID vara samma för dessa båda profiler i tjänsten för enhetlig identitet.
 
 ## Begränsningar {#limitations}
 
