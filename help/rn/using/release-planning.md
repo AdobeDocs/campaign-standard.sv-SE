@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7cd5f11ab22d0bb3b6864670cd61007e39ebf543
+source-git-commit: 451c7d15bfe206912fd1f8db8bf8c3d7ec83616d
 
 ---
 
@@ -27,7 +27,7 @@ Uppgraderingar distribueras i två faser. För det första uppgraderas Stage-ins
 
 Alla releasedatum kan ändras: rekommenderar vi att du regelbundet går till den här sidan för att kontrollera om det finns uppdateringar.
 
-Prenumerera för att [få releasemeddelanden](https://www.adobe.com/subscription/priority-product-update.html) för att få information om de senaste Adobe Experience Cloud-versionerna direkt i din inkorg.
+Prenumerera för att [få releasemeddelanden](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) för att få information om de senaste Adobe Experience Cloud-versionerna direkt i din inkorg.
 
 ## Version 20.2.1 - aprilversion {#release-20-2-april-release}
 
