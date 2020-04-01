@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
 
 ---
 
@@ -166,11 +166,11 @@ Mer information om hur du konverterar ett befintligt e-postmeddelande till ett e
 * [Introduktionsvideo till e-postdesignern](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=swe)
 * [Designa ett e-postinnehåll från grunden](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
-## Konvertera ett HTML-innehåll {#converting-an-html-content}
+## Konverterar HTML-innehåll {#converting-an-html-content}
 
 Om du vill skapa ett ramverk med modulära mallar och fragment som kan kombineras för återanvändning i flera e-postmeddelanden bör du överväga att konvertera din e-post-HTML till en e-postdesignermall.
 
-Det här är ett snabbt sätt att konvertera ett HTML-e-postmeddelande till e-postdesignerkomponenter.
+Det här är ett snabbt sätt att konvertera HTML-e-post till e-postdesignerkomponenter.
 
 >[!CAUTION]
 >
