@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
+source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
 
 ---
 
@@ -137,9 +137,9 @@ De olika mallarna innehåller olika kombinationer av olika typer av element. Mal
 
 Om du vill skapa ett ramverk med modulära mallar och fragment som kan kombineras för återanvändning i flera e-postmeddelanden bör du överväga att konvertera din e-post-HTML till en e-postdesignermall.
 
-### Konvertera ett HTML-innehåll {#converting-an-html-content}
+### Konverterar HTML-innehåll {#converting-an-html-content}
 
-Det här är ett snabbt sätt att konvertera ett HTML-e-postmeddelande till e-postdesignerkomponenter.
+Det här är ett snabbt sätt att konvertera HTML-e-post till e-postdesignerkomponenter.
 
 >[!CAUTION]
 >
