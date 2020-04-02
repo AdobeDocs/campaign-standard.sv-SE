@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 67223cf8eed46e2431c03674bd837262e37c7473
+source-git-commit: 327d0e4f862b39c60fb3943d1128f4f42828bc0d
 
 ---
 
@@ -43,7 +43,7 @@ För att kunna utföra den här uppgiften måste du:
 
 >[!NOTE]
 >
->För att en batch ska kunna hämtas till kundprofil eller identitetstjänst i realtid måste datauppsättningen [aktiveras för kundprofil](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/data_ingestion_tutorial/data_ingestion_tutorial.md)i realtid.
+>För att en batch ska kunna hämtas till kundprofil eller identitetstjänst i realtid måste datauppsättningen [aktiveras för kundprofil](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/intro/get-started.html)i realtid.
 >
 >Om den datauppsättning du väljer redan används i en befintlig datamappning visas en varning om att dina data kan skrivas över på Adobe Experience Platform. Detta kan inträffa när det finns vissa vanliga mottagare i datamappningar som använder samma datamängd.
 
@@ -63,7 +63,7 @@ De utökade resurser som definieras i Campaign Standard mappas som alla inbyggda
 
 Du kan anpassa XDM-tillägget via API:t och definiera ett eget tillägg så att du får bättre kontroll över mappningen.
 
-Mer information om XDM API finns i [Schemaregistrets API-självstudiekurs](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/tutorials/schema_registry_api_tutorial/schema_registry_api_tutorial.md) .
+Mer information om XDM API finns i [Schemaregistrets API-självstudiekurs](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html) .
 
 Om du vill mappa ett uppräkningsfält måste du använda uttrycksredigeraren för att definiera varje uppräkningsvärde som motsvarar XDM-värdet. Fältet för postadress måste till exempel definieras som:
 
