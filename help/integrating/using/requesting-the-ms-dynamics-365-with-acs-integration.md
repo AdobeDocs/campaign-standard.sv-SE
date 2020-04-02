@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
 
 ---
 
@@ -34,17 +34,16 @@ Information om flödesschema (mappas till steg ovan):
 1. Läs den här artikeln och kontrollera meddelanden och konfigurationssteg.
 
 1. Skicka en kontoförfrågan till adobe-support@unifisoftware.com; Unifi kräver följande information när du begär ett konto:
-* Användarens förnamn
-* Användarens efternamn
-* E-postadress
-* Företag
-* Regionen (Nordamerika, EMEA eller APAC)
-* Användningstyp:  Kundtyp (kundanvändare som kommer att använda sina produktionsdata i den här integreringen), eller partnertyp (partnerkonsulter som testar integreringen för att få en bättre förståelse så att de kan hjälpa sina Campaign-kunder) eller intern typ (interna Adobe-användare som testar integreringen för att få en bättre förståelse för lösningen)
-* Status för Campaign Standard-data (som börjar med en ren databas eller för att integrera befintliga data)
-* Klient-ID för kampanj (se Konfigurera Campaign-integrering, steg 3 för att hämta ditt klient-ID)
-* URL för kampanjinstans
-
-Unifi förväntade svarstid: 1 timme under kontorstid i USA (9.00 till 17.00 PST, må-fre, exklusive helgdagar).
+   * Användarens förnamn
+   * Användarens efternamn
+   * E-postadress
+   * Företag
+   * Regionen (Nordamerika, EMEA eller APAC)
+   * Användningstyp:  Kundtyp (kundanvändare som kommer att använda sina produktionsdata i den här integreringen), eller partnertyp (partnerkonsulter som testar integreringen för att få en bättre förståelse så att de kan hjälpa sina Campaign-kunder) eller intern typ (interna Adobe-användare som testar integreringen för att få en bättre förståelse för lösningen)
+   * Status för Campaign Standard-data (som börjar med en ren databas eller för att integrera befintliga data)
+   * Klient-ID för kampanj (se Konfigurera Campaign-integrering, steg 3 för att hämta ditt klient-ID)
+   * URL för kampanjinstans
+   Unifi förväntade svarstid: 1 timme under kontorstid i USA (9.00 till 17.00 PST, må-fre, exklusive helgdagar).
 
 1. Slutför efteretableringen av Microsoft Dynamics 365 och Campaign Standard.
 Skicka dessutom en anmälan till Adobes kundtjänst (antingen direkt eller via din Adobe-kontakt) så att signeringsflaggan aktiveras i Campaign-instansen. Partners bör kontakta sin Adobe-partner i sandlådeformat, i stället för att kontakta Adobes kundtjänst, för att aktivera funktionsflaggan.
