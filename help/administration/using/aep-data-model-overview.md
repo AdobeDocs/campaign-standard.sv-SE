@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 67223cf8eed46e2431c03674bd837262e37c7473
+source-git-commit: 327d0e4f862b39c60fb3943d1128f4f42828bc0d
 
 ---
 
@@ -33,7 +33,7 @@ Med XDM Workspace kan du visa, skapa och utöka datascheman.
 
 Öppna Adobe Experience Platform för att få åtkomst till XDM-användargränssnittet. Navigera till datamodellfönstret för att skapa eller utöka ett XDM-schema.
 
-Läs den fullständiga dokumentationen för [XDM Workspace](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/xdm_system/xdm_system_in_experience_platform.md).
+Läs den fullständiga dokumentationen för [XDM Workspace](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html).
 
 ![](assets/aep_xdmworkspace.png)
 
@@ -48,4 +48,4 @@ Du kan utföra följande åtgärder via XDM Schema API:
 * Visa schemabeskrivningar
 * Skapa, uppdatera och ta bort schemabeskrivningar
 
-All information om hur du hanterar API-anrop finns i [Utvecklarhandbok](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md).
+All information om hur du hanterar API-anrop finns i [Utvecklarhandbok](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html).
