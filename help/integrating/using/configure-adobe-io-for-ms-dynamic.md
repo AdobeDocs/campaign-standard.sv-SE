@@ -12,7 +12,7 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
 
 ---
 
@@ -129,8 +129,8 @@ När informationen har angetts skapas två filer: **[!UICONTROL certificate_pub.
 
 1. Välj den produktprofil som har rubriken:
 
-* Organisations-ID för Campaign-instansen
-* **[!UICONTROL Administrators]**
+   * Organisations-ID för Campaign-instansen
+   * **[!UICONTROL Administrators]**
 
 Exempel:  Campaign Standard - ditt kampanjorganisations-ID - Administratörer
 
