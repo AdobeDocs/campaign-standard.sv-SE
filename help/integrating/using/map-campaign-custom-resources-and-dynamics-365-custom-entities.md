@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
 
 ---
 
@@ -60,21 +60,21 @@ Kunden har ett anpassat enhetsfordon fördefinierat i Dynamics 365 och ett motsv
 
 Kundens anpassade enheter i Dynamics 365 kan visas på kontrollpanelen Försäljning genom att klicka på listrutan bredvid Dynamics 365.  Kundens anpassade enheter grupperas under **[!UICONTROL Extensions]**.
 
-(../assets/SalesDashboard.png)
+![](assets/SalesDashboard.png)
 
 Fordonsuppgifter kan visas genom att klicka på den **[!UICONTROL vehicle]** anpassade enheten.  Se listan över fordon nedan.
 
-(../assets/VehicleCustomEntity.png)
+![](assets/VehicleCustomEntity.png)
 
 Förhållandet mellan **[!UICONTROL vehicle]** enheten och **[!UICONTROL Contact]** enheten framgår nedan. **[!UICONTROL Parental]** har valts för **[!UICONTROL Type of Behavior]**.
 
-(../assets/ContactToVehicle.png)
+![](assets/ContactToVehicle.png)
 
 ### Konfiguration i Campaign Standard
 
 I Campaign kan kundens anpassade resurser visas genom att klicka **[!UICONTROL Adobe Campaign]** i det övre vänstra hörnet och sedan välja **[!UICONTROL Client data]**.
 
-(../assets/ClientDataMenu.png)
+![](assets/ClientDataMenu.png)
 
 ### Mappa anpassade resurser och anpassade entiteter
 
@@ -82,14 +82,14 @@ Den **[!UICONTROL vehicle]** anpassade resursen ska tidigare ha fördefinierats 
 
 Klicka på **[!UICONTROL Adobe Campaign]** i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Administration > Development > Custom Resources]**.
 
-(../assets/CustomRes.png)
+![](assets/CustomRes.png)
 
 1. Klicka på **[!UICONTROL Custom Resources]**.
 1. Klicka på **[!UICONTROL Create]** knappen.  Då öppnas ett popup-fönster.
 1. Markera **[!UICONTROL Create a new resource]** och ange **[!UICONTROL Vehicle]** som etikett och ID.
 1. Klicka på **[!UICONTROL Create]**.
 
-(../assets/CreateAcusRes.png)
+![](assets/CreateAcusRes.png)
 
 Kampanjen visar sedan datastrukturer och länksida.  Du ser att flera fält har lagts till.
 
@@ -97,23 +97,23 @@ Kampanjen visar sedan datastrukturer och länksida.  Du ser att flera fält har 
 * Associerad profil är ID för profilen som fordonsposten är kopplad till. när den är länkad länkas den till **[!UICONTROL externalId]** fältet i profiltabellen.
 * VIN och fordonets namn är fält för att samla in information om fordonet.
 
-(../assets/CusResConfig.png)
+![](assets/CusResConfig.png)
 
 >[!CAUTION]
 >
 >Varje anpassad resurs måste ha ett unikt fält med ID:t externalId (exakt).  Det här fältet mappas till ID-fältet för den anpassade resursen i Dynamics 365 (se nedan).
 
-(../assets/FieldsInDynamics.png)
+![](assets/FieldsInDynamics.png)
 
 ### Definiera identifieringsnycklarna
 
 Nästa steg är att definiera identifieringsnycklarna.  Skapa först identifieringsnycklarna enligt nedan.
 
-(../assets/IDkeys.png)
+![](assets/IDkeys.png)
 
 Markera **[!UICONTROL externalId]** fältet på skärmen Nyckeldefinition.
 
-(../assets/KeyDefinition.png)
+![](assets/KeyDefinition.png)
 
 >[!CAUTION]
 >
@@ -127,11 +127,11 @@ Under **[!UICONTROL Filter Definition]**, klicka **[!UICONTROL Add an element]**
 Ge etiketten och ID namnet **[!UICONTROL ExternalId]**.
 Klicka på **[!UICONTROL Add]**.
 
-(../assets/FilterDefinition.png)
+![](assets/FilterDefinition.png)
 
 Klicka nu på redigera för det nya filterelementet och konfigurera filtret enligt bilden nedan.  Om du skriver **[!UICONTROL externalId]** i **[!UICONTROL Parameters]** fältet och klickar på plustecknet **[!UICONTROL externalId_parameter]** visas det.  Välj det här som parameter.
 
-(../assets/EditArule.png)
+![](assets/EditArule.png)
 
 ### Definiera länken
 
@@ -143,13 +143,13 @@ Därefter anger vi länkningen för den anpassade resursen.  I det här fallet v
 1. I **[!UICONTROL Join Definitions]** väljer du **[!UICONTROL Define specific join conditions]**.
 1. Klicka sedan på **[!UICONTROL Add an element]**.
 
-(../assets/LinkConfiguration.png)
+![](assets/LinkConfiguration.png)
 
 För kopplingsdefinitionen anger vi värdena nedan.
 
 Observera att **[!UICONTROL @externalId]** posten är fältet externalId i profiltabellen och att posten är ID för motsvarande fält i den anpassade resursen för fordon **[!UICONTROL ProfileExternalId]** .  När en profilposts externalId-värde anges i fältet **[!UICONTROL ProfileExternalId]** för en fordonspost kopplas de två posterna ihop.
 
-(../assets/JoinDefinition.png)
+![](assets/JoinDefinition.png)
 
 Bekräfta ändringarna och spara den anpassade enheten.
 
@@ -161,21 +161,21 @@ Det sista steget är att publicera den anpassade resursen.
 1. Behåll standardalternativet: **[!UICONTROL Determine modifications since the last publication]**.
 1. Klicka **[!UICONTROL Prepare Publication]** och vänta tills den är klar.
 
-(../assets/PublishModifications.png)
+![](assets/PublishModifications.png)
 
 Klicka sedan **[!UICONTROL Publish]** och vänta tills det är klart.
 
-(../assets/Publish.png)
+![](assets/Publish.png)
 
 ### Unifi ingress-schema
 
 Förutsatt att kunden redan har fyllt i den anpassade enheten för fordon i Dynamics 365 och Unifi har ställt in sina anpassade enhetsjobb och scheman för fordon med, bör kunden kunna starta pressschemat för fordonsenheten.
 
-(../assets/Schedule.png)
+![](assets/Schedule.png)
 
 När ingressjobbet har slutförts kan fordonsdata nu visas i den nyligen ifyllda anpassade **[!UICONTROL Vehicle]** resursen i Campaign.
 
-(../assets/ACSUpdate.png)
+![](assets/ACSUpdate.png)
 
 **Relaterade ämnen**
 
