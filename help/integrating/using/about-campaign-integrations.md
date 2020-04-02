@@ -12,7 +12,7 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 03009c47a66aa1a62c05f632e2a60141a98639d8
 
 ---
 
@@ -65,7 +65,7 @@ Om du vill integrera dataflöden från andra system med Adobe Campaign kan du ta
    <td> Analytics<br /> Standard, Premium <br /> </td> 
    <td> Gör att ni kan spåra hur väl era e-postleveranser fungerar direkt i Adobe Analytics.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-analytics-integration.md">Dela Campaign-data med Analytics</a><br/>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Dela nyckeltal för integrerad videorapportering</a> (steg 1)
+    <a href="../../integrating/using/about-campaign-analytics-integration.md">Dela Campaign-data med Analytics</a><br/>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Dela KPI:er för integrerad videorapportering</a> (steg 1)
     </td> 
   </tr> 
   <tr> 
