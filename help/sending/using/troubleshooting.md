@@ -13,7 +13,7 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b4ba56e5cd639c547a7060be9c60985f5564160d
+source-git-commit: 87168dca3604073d8a540c579448ab65f07cd976
 
 ---
 
@@ -39,7 +39,8 @@ Om problemet kvarstår kontaktar du de kommersiella tjänsterna, leveranstjänst
 
    * Statusen **[!UICONTROL Blacklisted]** är ett resultat av en feedbackslinga (när en person rapporterar ett meddelande som skräppost).
 
-   * Statusen **[!UICONTROL Quarantined]** är ett resultat av en mjuk eller hård studsa. Mer information finns i det här [avsnittet](../../sending/using/understanding-quarantine-management.md).
+   * Statusen **[!UICONTROL Quarantined]** är ett resultat av en mjuk eller hård studsa.
+   Mer information finns i det här [avsnittet](../../sending/using/understanding-quarantine-management.md#quarantine-vs-blacklisting).
 
 * **Vad betyder de olika anledningarna till karantänfel?**
 
