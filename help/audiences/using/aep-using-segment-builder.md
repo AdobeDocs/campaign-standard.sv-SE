@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e1fa546313e8d543685ef30a072ae2d97c5bf236
+source-git-commit: 573131986d52bb4415cca59600048fd7dc5ba0db
 
 ---
 
@@ -66,7 +66,7 @@ Enhetlig segmentbyggare bör nu visas på arbetsytan. Med det kan ni skapa ett s
 
 I den vänstra rutan visas alla attribut, händelser och målgrupper som är tillgängliga för att skapa regler.
 
-Fälten i listan är attribut som hämtats av ditt företag och har gjorts tillgängliga via XDM-systemet ( [Experience Data Model)](https://www.adobe.io/apis/experienceplatform/home/xdm.html).
+Fälten i listan är attribut som hämtats av ditt företag och har gjorts tillgängliga via XDM-systemet ( [Experience Data Model)](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html).
 
 Fälten är ordnade i flikar:
 
