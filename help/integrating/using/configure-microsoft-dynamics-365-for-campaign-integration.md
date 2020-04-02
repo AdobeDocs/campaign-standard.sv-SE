@@ -12,7 +12,7 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
 
 ---
 
@@ -45,7 +45,7 @@ Med en OAuth-åtkomsttoken kan Unifi autentisera med din Microsoft Dynamics 365-
 
 De viktigaste stegen beskrivs i följande video:
 
-** VIDEO**
+>[!VIDEO](https://video.tv.adobe.com/v/27637)
 
 Följ stegen nedan för att generera OAuth-åtkomsttoken.
 
@@ -57,12 +57,12 @@ Följ stegen nedan för att generera OAuth-åtkomsttoken.
 
 1. Klicka **[!UICONTROL New registration]** längst upp på skärmen.
 
-![](assets/MSdynACSIntegration-7.png)
+   ![](assets/MSdynACSIntegration-7.png)
 
-Fyll i appregistreringsskärmen:
+1. Fyll i appregistreringsskärmen:
 
-* Namn: adobe campaign
-* Kontotyp som stöds: **[!UICONTROL Accounts in this organizational directory only]** (standardvärde)
+   * Namn: adobe campaign
+   * Kontotyp som stöds: **[!UICONTROL Accounts in this organizational directory only]** (standardvärde)
 
 Mer information om hur du skapar ett nytt program finns i [det här avsnittet](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app).
 
@@ -104,25 +104,24 @@ Den nya användaren är en allmän användare. Det kommer att användas av progr
 
 1. Navigera till din Dynamics 365-instans och logga in som administratör.
 
-1. Klicka på kugghjulsikonen i det övre högra hörnet och klicka på **[!UICONTROL Advanced Setting]**s. Klicka på listrutan bredvid i den övre banderollen **[!UICONTROL Settings]** och klicka på **[!UICONTROL Security > Users]**.
+1. Klicka på kugghjulsikonen i det övre högra hörnet och klicka på **[!UICONTROL Advanced Settings]**. Klicka på listrutan bredvid i den övre banderollen **[!UICONTROL Settings]** och klicka på **[!UICONTROL Security > Users]**.
 
 1. Klicka på den nedrullningsbara menyn **[!UICONTROL Application Users]**. Klicka på **[!UICONTROL New]**.
 
 1. Se till att listrutan visas bredvid användarikonen **[!UICONTROL USER:APPLICATION USER]**.
 
-Fyll i skärmen för den nya användaren.  Parameterförslag:
+   Fyll i skärmen för den nya användaren.  Parameterförslag:
 
-* **[!UICONTROL User Name]** (e-post): adobeapi@`<hostname>`, där `<hostname>` är värdnamnet för Dynamics 365-instansen
-* **[!UICONTROL Application ID]**: ID för det program du registrerade i Azure AD (detta är obligatoriskt)
-* Du kan lämna tomt **[!UICONTROL Application ID URI]** och **[!UICONTROL Azure AD Object ID]**
-* **[!UICONTROL Full Name]**: Adobe API
-* **[!UICONTROL Email]**: samma som **[!UICONTROL User Name]** (eller administratörens e-postadress om du vill)
-
-Mer information om hur du skapar appanvändare finns i [det här avsnittet](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
+   * **[!UICONTROL User Name]** (e-post): adobeapi@`<hostname>`, där `<hostname>` är värdnamnet för Dynamics 365-instansen
+   * **[!UICONTROL Application ID]**: ID för det program du registrerade i Azure AD (detta är obligatoriskt)
+   * Du kan lämna tomt **[!UICONTROL Application ID URI]** och **[!UICONTROL Azure AD Object ID]**
+   * **[!UICONTROL Full Name]**: Adobe API
+   * **[!UICONTROL Email]**: samma som **[!UICONTROL User Name]** (eller administratörens e-postadress om du vill)
+   Mer information om hur du skapar appanvändare finns i [det här avsnittet](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
 
 1. Klicka på användarikonen och ladda upp en Adobe Campaign-ikon; Det här är ikonen som visas i tidslinjevyn när nya Adobe-händelser visas i Dynamics 365.
 
-***getfile***
+<!-- ***getfile*** adobe campaign logo-->
 
 1. Öppna listan med användarroller genom att klicka **[!UICONTROL MANAGE ROLES]** i det övre menyfliksområdet.
 
