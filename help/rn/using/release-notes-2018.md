@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d1ec5dddcf4c1aa3fe6338d35b381986ba32a28d
+source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
 ---
 
@@ -108,7 +108,7 @@ Se de senaste [dokumentationsuppdateringarna](../../rn/using/documentation-updat
   </tr> 
   <tr> 
    <td> Typologifilter för mobilappsprenumerationer<br /> </td> 
-   <td> Stöd för prenumerationer i typologifilter - När du anger filtervillkoren för en typologiregel kan du välja programprenumerationer som filtrerings- och måldimensioner, vilket ger möjlighet att filtrera på attribut för användare med eller utan en profil. <br /> Mer information finns i den <a href="../../administration/using/about-typology-rules.md#typology-rules">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Stöd för prenumerationer i typologifilter - När du anger filtervillkoren för en typologiregel kan du välja programprenumerationer som filtrerings- och måldimensioner, vilket ger möjlighet att filtrera på attribut för användare med eller utan en profil. <br /> Mer information finns i den <a href="../../sending/using/about-typology-rules.md#typology-rules">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Automatisk innehållsimport från en URL under meddelandeförberedelse<br /> </td> 
@@ -256,7 +256,7 @@ Se de senaste [dokumentationsuppdateringarna](../../rn/using/documentation-updat
 * Korrigerade ett fel som kan uppstå när en ZIP-fil importeras via en filinläsningsaktivitet. (CAMP-24309)
 * Ett problem som ledde till ett PostgreSQL-fel när en återkommande leverans skickades har åtgärdats. (CAMP-23613)
 * Korrigerade ett problem som visade ett felmeddelande när en REST API-begäran med ett tomt JSON-attribut skickades. (CAMP-23506)
-* Korrigerade ett fel i profiler som är inställda på versaler för tecknen efter &quot;ß&quot;-tecknet. (CAMP-23136)
+* Korrigerade ett problem i profiler som är inställda på versaler för tecknen efter &quot;ß&quot;-tecknet. (CAMP-23136)
 * Ett problem har korrigerats när leveranser som används med personalisering eller det dynamiska innehållsblockets villkor för behörighet skickades när attribut från ett länkat profilschema användes. (CAMP-22751)
 * Ett problem som hindrade från att ta bort tjänster har korrigerats. (CAMP-22050)
 * Korrigerade ett fel som förhindrade att värden för land eller delstat ändrades i en testprofil. (CAMP-20426)
@@ -457,7 +457,7 @@ Vissa problem kan uppstå när sammanhangsberoende hjälplänkar från gränssni
  <tbody> 
   <tr> 
    <td> Rapportering om trötthetshantering<br /> </td> 
-   <td> Rapportering för trötthetshantering är en dedikerad, konfigurerbar rapport som visar hur utmattningsreglerna påverkar leveranser i kanalerna för e-post, push, SMS och direktreklam inom ett angivet datumintervall före sändning. Med den nya insikten att snabbt kunna se alla kampanjer i konflikt i en enda vy kan marknadsförarna planera marknadsföringskampanjer enligt trötthetsreglerna mer effektivt och prioritera kommunikation.<br /> Mer information finns i den <a href="../../administration/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Rapportering för trötthetshantering är en dedikerad, konfigurerbar rapport som visar hur utmattningsreglerna påverkar leveranser i kanalerna för e-post, push, SMS och direktreklam inom ett angivet datumintervall före sändning. Med den nya insikten att snabbt kunna se alla kampanjer i konflikt i en enda vy kan marknadsförarna planera marknadsföringskampanjer enligt trötthetsreglerna mer effektivt och prioritera kommunikation.<br /> Mer information finns i den <a href="../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Rapportdelning<br /> </td> 
