@@ -12,7 +12,7 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Ni kan skicka transaktionsmeddelanden baserat på kundmarknadsföringsprofiler, som gör att ni kan:
 
-* Använd typologiregler för marknadsföring som **[!UICONTROL Blacklisted address]** eller [trötthetsregler](../../administration/using/fatigue-rules.md).
+* Använd typologiregler för marknadsföring som **[!UICONTROL Blacklisted address]** eller [trötthetsregler](../../sending/using/fatigue-rules.md).
 * Inkludera länken för avprenumeration i meddelandena.
 * Lägg till transaktionsmeddelandena i den globala leveransrapporten.
 * Utnyttja transaktionsbudskapen i kundresan.
@@ -36,7 +36,7 @@ För att händelsen ska kunna utlösa att ett transaktionsmeddelande skickas må
 >
 >För att få åtkomst till transaktionsmeddelanden måste du vara en del av **[!UICONTROL Administrators (all units)]** säkerhetsgruppen.
 >
->Trötthetsregler är kompatibla med profiltransaktionsmeddelanden. Se [Trötthetsregler](../../administration/using/fatigue-rules.md).
+>Trötthetsregler är kompatibla med profiltransaktionsmeddelanden. Se [Trötthetsregler](../../sending/using/fatigue-rules.md).
 
 ## Skicka ett transaktionsmeddelande för en profil {#sending-a-profile-transactional-message}
 
@@ -84,5 +84,5 @@ Den här regeln ingår i en specifik typologi som gäller för alla transaktions
 **Relaterade ämnen**:
 
 * [Webbplatsintegrering](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)
-* [Typologier](../../administration/using/about-typology-rules.md)
+* [Typologier](../../sending/using/about-typology-rules.md)
 
