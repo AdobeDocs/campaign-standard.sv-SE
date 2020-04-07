@@ -12,7 +12,7 @@ discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
 
 ---
 
@@ -76,7 +76,7 @@ Du kan skapa ett e-postmeddelande från en [kampanj](../../start/using/marketing
 
    >[!NOTE]
    >
-   >Ni kan ange globala regler för flerkanalströtthet som automatiskt utesluter överdimensionerade profiler från kampanjer. Mer information finns i [Trötthetsregler](../../administration/using/fatigue-rules.md).
+   >Ni kan ange globala regler för flerkanalströtthet som automatiskt utesluter överdimensionerade profiler från kampanjer. Mer information finns i [Trötthetsregler](../../sending/using/fatigue-rules.md).
 
 1. Skicka korrektur för att kontrollera och validera meddelandet och övervaka inkorgens återgivning. Se [Skicka korrektur](../../sending/using/sending-proofs.md).
 
