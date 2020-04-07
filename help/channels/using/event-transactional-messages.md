@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: be6751f2f966f99d2b986aeba0b3720d2e8c4599
 
 ---
 
@@ -32,7 +32,7 @@ För att händelsen ska kunna utlösa att ett transaktionsmeddelande skickas må
 >
 >För att få åtkomst till transaktionsmeddelanden måste du vara en del av **[!UICONTROL Administrators (all units)]** säkerhetsgruppen.
 >
->Händelsetransaktionsmeddelanden innehåller ingen profilinformation och är därför inte kompatibla med trötthetsregler (även om det gäller en anrikning med profiler). Se [Trötthetsregler](../../administration/using/fatigue-rules.md#choosing-the-channel).
+>Händelsetransaktionsmeddelanden innehåller ingen profilinformation och är därför inte kompatibla med trötthetsregler (även när det gäller en anrikning med profiler). Se [Trötthetsregler](../../sending/using/fatigue-rules.md#choosing-the-channel).
 
 ## Definiera en testprofil i ett transaktionsmeddelande {#defining-a-test-profile-in-a-transactional-message}
 
@@ -119,7 +119,7 @@ Följ stegen nedan för att konfigurera personalisering i ett transaktionsmeddel
 
 Du kan skapa produktlistor som refererar till en eller flera datainsamlingar i innehållet i ett transaktionsmeddelande. I ett e-postmeddelande om att kunden överger en kundvagn kan du till exempel inkludera en lista över alla produkter som fanns i kundvagnen när de lämnade webbplatsen, med en bild, priset och en länk till varje produkt.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Produktlistor är bara tillgängliga när du redigerar transaktionsmeddelanden via [e-postdesignerns](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) gränssnitt.
 
@@ -209,7 +209,7 @@ Mer information om hur du skapar en samling och relaterade fält när du konfigu
 
    Öppna noden som motsvarar den samling du skapade (här **[!UICONTROL Context]** ) i noden **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** > **[!UICONTROL Product list]** och markera URL-fältet som du skapade (här **[!UICONTROL Product URL]** ). Klicka på **[!UICONTROL Save]**.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Av säkerhetsskäl måste du infoga anpassningsfältet i en länk som börjar med ett korrekt statiskt domännamn.
 
@@ -266,35 +266,43 @@ När du klickar på **[!UICONTROL Resume]** den här åtgärden bearbetas alla h
 
 ## Avpublicera ett transaktionsmeddelande {#unpublishing-a-transactional-message}
 
-Om du klickar **[!UICONTROL Unpublish]** kan du avbryta publikationen för transaktionsmeddelandet, men även publikationen för motsvarande händelse, som tar bort resursen som motsvarar händelsen som du skapade från REST-API:t. Även om händelsen utlöses via din webbplats skickas inte längre motsvarande meddelanden och de lagras inte i databasen.
+Om du klickar **[!UICONTROL Unpublish]** kan du avbryta publikationen för transaktionsmeddelandet, men även publikationen för motsvarande händelse, som tar bort resursen som motsvarar händelsen som du skapade från REST-API:t.
 
 ![](assets/message-center_unpublish-template.png)
+
+Även om händelsen utlöses via din webbplats skickas inte längre motsvarande meddelanden och de lagras inte i databasen.
 
 >[!NOTE]
 >
 >Om du vill publicera meddelandet igen måste du gå tillbaka till motsvarande händelsekonfiguration, publicera det och sedan publicera meddelandet. Mer information finns i [Publicera ett transaktionsmeddelande](#publishing-a-transactional-message).
 
-Om du avpublicerar ett pausat transaktionsmeddelande kan du behöva vänta upp till 24 timmar innan du kan publicera det igen. Detta gör att alla händelser som skickades till kön kan rensas i arbetsflödet. **[!UICONTROL Database cleanup]** Stegen för att pausa ett meddelande finns i avsnittet [Pausa ett transaktionspublikationsmeddelande](#suspending-a-transactional-message-publication) .
+Om du avpublicerar ett pausat transaktionsmeddelande kan du behöva vänta upp till 24 timmar innan du kan publicera det igen. Detta gör att alla händelser som skickades till kön kan rensas i arbetsflödet. **[!UICONTROL Database cleanup]**
+
+Stegen för att pausa ett meddelande finns i avsnittet [Pausa ett transaktionspublikationsmeddelande](#suspending-a-transactional-message-publication) .
 
 Arbetsflödet, som körs varje dag kl. 4, är tillgängligt via **[!UICONTROL Database cleanup]** > **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** **[!UICONTROL Workflows]**.
 
 ## Ta bort ett transaktionsmeddelande {#deleting-a-transactional-message}
 
+När ett transaktionsmeddelande har avpublicerats, eller om ett transaktionsmeddelande inte har publicerats ännu, kan du ta bort det från transaktionsmeddelandelistan. Så här gör du:
+
+1. Klicka på **[!UICONTROL Adobe Campaign]** logotypen i det övre vänstra hörnet och välj sedan **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
+1. Håll muspekaren över det meddelande du vill.
+1. Klicka på **[!UICONTROL Delete element]** knappen.
+
 ![](assets/message-center_delete-template.png)
 
-Genom att markera ett transaktionsmeddelande kan du ta bort det med **[!UICONTROL Delete element]** knappen även om det redan har publicerats. Du kan bara ta bort ett transaktionsmeddelande under vissa förhållanden:
+Du kan bara ta bort ett transaktionsmeddelande under vissa förhållanden:
 
-* **Transaktionsmeddelanden**: Om du vill ta bort ett transaktionsmeddelande ska det avpubliceras och inte pausas.
+* Kontrollera att transaktionsmeddelandet har **[!UICONTROL Draft]** statusen, annars kan du inte ta bort det. Statusen gäller för ett meddelande som ännu inte har publicerats eller som har **[!UICONTROL Draft]** avpublicerats [(och inte](#unpublishing-a-transactional-message) pausats [](#suspending-a-transactional-message-publication)).
 
-   Om transaktionsmeddelandet är opublicerat måste händelsekonfigurationen också avpubliceras för att ditt transaktionsmeddelande ska kunna tas bort, såvida inte ett annat transaktionsmeddelande är länkat till motsvarande händelse. Mer information om hur du avpublicerar ett transaktionsmeddelande finns i det här [avsnittet](#unpublishing-a-transactional-message).
+* **Transaktionsmeddelanden**: Om inte ett annat transaktionsmeddelande är länkat till motsvarande händelse måste även händelskonfigurationen avpubliceras om transaktionsmeddelandet inte har publicerats för att ditt transaktionsmeddelande ska kunna tas bort. Mer information finns i [Avpublicera en händelse](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event).
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Om du tar bort ett transaktionsmeddelande som redan har skickat meddelanden tas även dess loggar för sändning och spårning bort.
 
-* **Transaktionsmeddelanden från en färdig händelsemall (interna transaktionsmeddelanden)**: Om du vill ta bort ett internt transaktionsmeddelande ska det avpubliceras och inte pausas.
-
-   Det ska inte heller vara det enda transaktionsmeddelandet i händelsen, andra meddelanden måste länkas till motsvarande händelse.
+* **Transaktionsmeddelanden från en färdig händelsemall (interna transaktionsmeddelanden)**: Om ett internt transaktionsmeddelande är det enda som är associerat med motsvarande interna händelse kan det inte tas bort. Du måste först skapa ett annat transaktionsmeddelande genom att duplicera det eller via menyn **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Transactional message templates]** .
 
 ## Återförsöksprocess för transaktionsmeddelande {#transactional-message-retry-process}
 
