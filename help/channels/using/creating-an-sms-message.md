@@ -13,7 +13,7 @@ delivercontext-tags: deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
 
 ---
 
@@ -65,7 +65,7 @@ Om du vill skapa och skicka SMS-meddelanden till en mobiltelefon behöver du:
 
    >[!NOTE]
    >
-   >Ni kan ange globala regler för flerkanalströtthet som automatiskt utesluter överdimensionerade profiler från kampanjer. Se [Trötthetsregler](../../administration/using/fatigue-rules.md).
+   >Ni kan ange globala regler för flerkanalströtthet som automatiskt utesluter överdimensionerade profiler från kampanjer. Se [Trötthetsregler](../../sending/using/fatigue-rules.md).
 
 1. Skicka korrektur för att kontrollera och validera meddelandet och övervaka inkorgens återgivning. Se avsnittet [Skicka korrektur](../../sending/using/sending-proofs.md) .
 1. Bekräfta att meddelandet har skickats. Sändningen börjar enligt det schema som du har definierat.
