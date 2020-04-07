@@ -13,7 +13,7 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5ed46987a3778dfa100639de8be9b6d5ac5348b4
+source-git-commit: 8111dfd2fd3cf254f73d0b01917d606b0a70aa84
 
 ---
 
@@ -61,21 +61,18 @@ Om du är en expertanvändare och vill definiera dessa specifika konfigurationer
 >Om du vill använda funktionen för push-meddelanden från Campaign måste du tillhandahålla ett giltigt push-certifikat i .pem-format utan lösenord.
 Om du har ett giltigt p12-certifikat kan du enkelt konvertera det till en .pem-fil med hjälp av onlineresurser.
 
-För att kunna börja skicka push-meddelanden måste du först konfigurera ditt mobilprogram med Experience Platform SDK:er. Mer information finns på den här [sidan](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
-
 Innan du skickar push-meddelanden bör du:
 
-1. Se till att ni har tillgång till **[!UICONTROL Mobile app]** kanalen i Adobe Campaign.
-1. Konfigurera ditt mobilprogram i:
+1. Kontrollera att du har åtkomst till **[!UICONTROL Push notification]** kanalen i Adobe Campaign. Om du inte har tillgång till de här kanalerna kontaktar du kontoteamet.
 
-   * Adobe Campaign
-   * Adobes gränssnitt för mobiltjänster
+1. Kontrollera att användaren har de behörigheter som krävs i Adobe Campaign Standard och Experience Platform Launch.
 
-1. Utför den specifika konfigurationen för mobilprogrammet:
+1. Skapa en mobil egenskap i Experience Platform Launch. Mer information finns i [Konfigurera en mobil egenskap](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property).
 
-   * Paketera konfigurationsfilen som hämtas från Adobe Mobile Services-gränssnittet med mobilprogrammet.
-   * Integrera Experience Cloud Mobile SDK i er mobilapplikation.
+1. Installera **[!UICONTROL Adobe Campaign Standard]** tillägget i Experience Platform Launch.
 
-1. Definiera de data som du vill samla in från programmets prenumeranter. Mobilprogrammets prenumeranter som har en profil i Adobe Campaign-databasen kontrolleras utifrån de kriterier som du har definierat.
+1. Konfigurera den mobila egenskap som du skapade i Experience Platform Launch i Adobe Campaign Standard. Mer information finns i [Konfigurera programmet Experience Platform Launch i Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeExperiencePlatformLaunchapplicationinAdobeCampaign).
 
-När du har konfigurerat ditt mobilprogram kan du nu börja förbereda och skicka meddelanden i appen. Mer information finns i [Förbereda och skicka ett push-meddelande](../../channels/using/preparing-and-sending-a-push-notification.md).
+1. Lägg till den kanalspecifika konfigurationen i konfigurationen för mobilprogrammet. Mer information finns i [Kanalspecifik programkonfiguration i Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
+
+1. Information om stöd för implementering av mobilanvändningsfall finns i detaljerade instruktioner om tillägg, regler för Experience Platform Launch och SDK-implementering i [mobilanvändningsfall som stöds i Adobe Campaign Standard med hjälp av SDK:er](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html)för Adobe Experience Platform.
