@@ -12,7 +12,7 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
 ---
 
@@ -96,9 +96,9 @@ Bekräftelsemeddelandet är ett [transaktionsmeddelande](../../channels/using/ab
 
 Händelsen är klar. Nu kan du utforma e-postmallen. Den här mallen måste innehålla en länk till **BEKRÄFTELSEstartsidan** som skapats tidigare. Mer information finns i [Utforma bekräftelsemeddelandet](#design-the-confirmation-message).
 
-### Skapa typologiregeln {#create-the-typology-rule}
+### Skapa typologin {#create-the-typology-rule}
 
-Du måste skapa en specifik [typologiregel](../../administration/using/about-typology-rules.md)genom att duplicera en regel som inte finns i kartongen. Den här regeln tillåter att meddelanden skickas till profiler som inte har bekräftat sitt avtal än och fortfarande är svartlistade. Som standard utesluter typologiregler avanmälningsprofiler (dvs. svartlistade). Så här skapar du den här typologiregeln:
+Du måste skapa en specifik [typologi](../../sending/using/about-typology-rules.md)genom att duplicera en. Typologin gör det möjligt att skicka meddelanden till profiler som ännu inte har bekräftat sitt avtal och fortfarande är svartlistade. Som standard utesluter typologier avanmälningsprofiler (dvs. svartlistade). Så här skapar du en typologi:
 
 1. I Adobe Campaign-logotypen väljer du **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** och klickar på **[!UICONTROL Typologies]**.
 1. Duplicera den färdiga typologin **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**.
