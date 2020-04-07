@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
+source-git-commit: b0bc6c45127f58b00ba89f66da159c8f212db80a
 
 ---
 
@@ -137,7 +137,7 @@ Klicka nu på redigera för det nya filterelementet och konfigurera filtret enli
 
 Därefter anger vi länkningen för den anpassade resursen.  I det här fallet valde vi att länka från den **[!UICONTROL Vehicles]** anpassade entiteten (källan) till profilentiteten (målet) med hjälp av en **[!UICONTROL 1 cardinality simple link]**.
 
-(../assets/DefineTheLink.png)
+![](assets/DefineTheLink.png)
 
 1. Välj borttagningsalternativet på **[!UICONTROL Link definitions]** skärmen: **[!UICONTROL Deleting the target record implies deleting records referenced by the link]**. Vi väljer det här alternativet så att alla poster som är länkade till en profil också tas bort när en profil tas bort. **[!UICONTROL Vehicle]**
 1. I **[!UICONTROL Join Definitions]** väljer du **[!UICONTROL Define specific join conditions]**.
