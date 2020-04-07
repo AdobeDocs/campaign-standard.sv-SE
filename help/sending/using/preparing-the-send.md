@@ -12,7 +12,7 @@ discoiquuid: 003abc83-7f07-471f-ab2f-1d352d22c26f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
 ---
 
@@ -57,7 +57,7 @@ När färdigställandet är klart är ditt meddelande klart att skickas. Mer inf
 
 **Typologiregler**
 
-Adobe Campaign innehåller ett antal inbyggda typologiregler som tillämpas under meddelandeförberedelsen. De används för att kontrollera om ett meddelande är giltigt och uppfyller dina kvalitetskriterier. Se [Typologier](../../administration/using/about-typology-rules.md). Ni kan definiera egna typologiregler, till exempel, och ange globala regler för flerkanalströtthet som automatiskt utesluter överdimensionerade profiler från kampanjer. Se [Trötthetsregler](../../administration/using/fatigue-rules.md).
+Adobe Campaign innehåller ett antal inbyggda typologiregler som tillämpas under meddelandeförberedelsen. De används för att kontrollera om ett meddelande är giltigt och uppfyller dina kvalitetskriterier. Se [Typologier](../../sending/using/about-typology-rules.md). Ni kan definiera egna typologiregler, till exempel, och ange globala regler för flerkanalströtthet som automatiskt utesluter överdimensionerade profiler från kampanjer. Se [Trötthetsregler](../../sending/using/fatigue-rules.md).
 
 **SMS-meddelandekontroll**
 
