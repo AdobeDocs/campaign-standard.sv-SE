@@ -12,7 +12,7 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a34cc1a8848b21ea01b9a20b9deb9be5b5e3895
+source-git-commit: c21a6fb4916430deb76d5d01b379453e398f6f25
 
 ---
 
@@ -39,7 +39,7 @@ Se de senaste [dokumentationsuppdateringarna](../../rn/using/documentation-updat
  <tbody> 
   <tr> 
    <td> Trötthetshantering<br /> </td> 
-   <td> Med Trötthetshantering kan ni skapa trötthetsregler för att hantera överkommunikation med profiler. Trötthetsregler är enkla att bygga, men de är extremt flexibla med funktioner som att räkna meddelanden över flera kanaler (inklusive transaktionsmeddelanden), endast räkna specifika leveranser eller tillämpa regler för specifika profiler.<br /> Mer information finns i den <a href="../../administration/using/fatigue-rules.md">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Med Trötthetshantering kan ni skapa trötthetsregler för att hantera överkommunikation med profiler. Trötthetsregler är enkla att bygga, men de är extremt flexibla med funktioner som att räkna meddelanden över flera kanaler (inklusive transaktionsmeddelanden), endast räkna specifika leveranser eller tillämpa regler för specifika profiler.<br /> Mer information finns i den <a href="../../sending/using/fatigue-rules.md">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Skapa innehåll: Importera från en URL<br /> </td> 
