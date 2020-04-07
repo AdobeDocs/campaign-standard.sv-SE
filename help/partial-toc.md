@@ -2,7 +2,7 @@
 cloud: experience-cloud
 product: adobe-campaign-standard
 audience: all
-user-guide-title: Campaign Standard User Guide
+user-guide-title: Användarhandbok för Campaign Standard
 user-guide-url: https://www.adobe.com
 solution-title: Campaign Standard
 solution-hub-url: https://helpx.adobe.com/support/campaign/standard.html
@@ -15,7 +15,7 @@ other-title: Tutorials2
 other-url: https://helpx.adobe.com/campaign/tutorials.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/campaign-standard.en
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
 ---
 
@@ -23,10 +23,10 @@ source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 # Campaign-Standard-TOC {#campaign-standard}
 
 + Administration{#administration}
-   + [Trötthetsregler](administration/using/fatigue-rules.md)
-   + [Om typologiregler](administration/using/about-typology-rules.md)
-   + [Om typologiregler - Lista](administration/using/about-typology-rules.md#typology-rules)
+   + [Trötthetsregler](sending/using/fatigue-rules.md)
+   + [Om typologiregler](sending/using/about-typology-rules.md)
+   + [Om typologiregler - Lista](sending/using/about-typology-rules.md#typology-rules)
    + [Konfigurera e-postkanal](administration/using/configuring-email-channel.md)
-   + [Filtreringsregler](administration/using/filtering-rules.md)
+   + [Filtreringsregler](sending/using/filtering-rules.md)
 + Startar{#starting}
    + [Om gränssnittet](start/using/about-the-interface.md)
