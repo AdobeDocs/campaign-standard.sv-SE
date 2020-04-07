@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 34a478b73ba458d0509639dfbb4641bc63b2aa1a
+source-git-commit: 240e8738fab8f0eaa8398de1b74e22d292536908
 
 ---
 
@@ -35,6 +35,13 @@ Information om Experience CLoud ID Service (ECID) har lagts till i dokumentation
 
 Avsnittet Configuring transactional messaging har förbättrats med information om hur man får tillgång till de senaste transaktionshändelserna och uppdaterade skärmbilder. [Läs mer](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 
+Avsnittet om typologier och typologiregler har förbättrats och uppdaterats med ytterligare information om typologiregler som är klara att användas. [Läs mer](../../sending/using/about-typology-rules.md)
+
+Information har lagts till om **[!UICONTROL Transfer file]** aktivitetens **!UICONTROL File listing]** åtgärd. [Läs mer](../../automating/using/transfer-file.md)
+
+Dokumentationen om återförsök efter ett tillfälligt leveransfel har uppdaterats med mer information om hur återförsök hanteras när de har uppgraderats till det förbättrade MTA-avtalet. [Läs mer](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
+
+Avsnittet Ta bort ett transaktionsmeddelande har förbättrats och klargjorts. [Läs mer](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
 
 ## Version 20.2 - mars 2020 {#release-20-2---march-2020}
 
@@ -234,7 +241,7 @@ Det finns nu en ny artikel med tips som förenklar marknadsföringskampanjer, bl
 
 En felsökning har lagts till för dynamisk rapportering. [Läs mer](../../reporting/using/troubleshooting.md)
 
-Ett diagram som förklarar hur olika mallar i appen hanterar personlig information har lagts till. [Läs mer](../../channels/using/preparing-and-sending-an-in-app-message.md)
+Ett diagram som förklarar hur de olika mallarna i appen hanterar personlig information har lagts till. [Läs mer](../../channels/using/preparing-and-sending-an-in-app-message.md)
 
 Avsnittet om hur du sparar e-postinnehåll som ett fragment i e-postdesignern har uppdaterats. [Läs mer](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)
 
@@ -432,7 +439,7 @@ Avsnittet Typ av användare har uppdaterats. [Läs mer](../../administration/usi
 
 Meddelanden i appen (beta) - [Läs mer](../../channels/using/about-in-app-messaging.md)
 
-Adobe Launch-integrering för mobilappar (beta) - [Läs mer](../../administration/using/about-typology-rules.md#typology-rules)
+Adobe Launch-integrering för mobilappar (beta) - [Läs mer](../../sending/using/about-typology-rules.md#typology-rules)
 
 **Andra dokumentationsuppdateringar som följer med releasen**
 
@@ -446,7 +453,7 @@ Updated Push notification out-of-the-box report section. [Läs mer](../../report
 
 **Nya funktioner i releasen**
 
-[Flagga](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) och [typologifilter](../../administration/using/about-typology-rules.md#typology-rules) med hög prioritet för mobilappsprenumeranter.
+[Flagga](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) och [typologifilter](../../sending/using/about-typology-rules.md#typology-rules) med hög prioritet för mobilappsprenumeranter.
 
 Automatiserad innehållsimport från en URL vid förberedelsetillfället. [Läs mer](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
@@ -570,7 +577,7 @@ Tillagd information om hur du förbereder ett meddelande i en leverans [Läs mer
 
 Versionsinformationen har ordnats om på flera sidor så att du får en mer global vy över alla olika versioner.
 
-Avsnittet **[!UICONTROL Working with typologies]** har uppdaterats för att bli synligare. [Läs mer](../../administration/using/about-typology-rules.md)
+Avsnittet **[!UICONTROL Working with typologies]** har uppdaterats för att bli synligare. [Läs mer](../../sending/using/about-typology-rules.md)
 
 Det finns nu ett nytt alternativ som gör att du kan få bättre prestanda när du definierar många ytterligare data i en **[!UICONTROL Query]** bild. [Läs mer](../../automating/using/query.md)
 
@@ -600,7 +607,7 @@ Nya avsnitt som är dedikerade till [målmappningar](../../administration/using/
 
 **Nya funktioner i releasen**
 
-Rapportering för trötthetshantering - [Läs mer](../../administration/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report)
+Rapportering för trötthetshantering - [Läs mer](../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report)
 
 Rapportdelning - [läs mer](../../reporting/using/reporting-interface.md#share-tab)
 
@@ -628,7 +635,7 @@ Instruktionerna för att konfigurera integreringen med Audience Manager eller Pe
 
 **Nya funktioner i releasen**
 
-Trötthetshantering - [Läs mer](../../administration/using/fatigue-rules.md)
+Trötthetshantering - [Läs mer](../../sending/using/fatigue-rules.md)
 
 Skapa innehåll: Importera från en URL - [läs mer](../../designing/using/using-existing-content.md#importing-content-from-a-url)
 
