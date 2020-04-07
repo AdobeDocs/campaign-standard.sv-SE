@@ -12,7 +12,7 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bee7ea0f1728da2a96c1f225b91b13a7903be660
+source-git-commit: f1db8c886e560fe3f57d589b7fc2f2c2c1656f76
 
 ---
 
@@ -25,7 +25,7 @@ När en leverans inte kan skickas till en profil skickar fjärrservern automatis
 
 >[!NOTE]
 >
->**E-postfelmeddelanden** (eller &quot;studsar&quot;) kvalificeras av inMail-processen. **SMS** -felmeddelanden (eller SR för Statusrapport) kvalificeras av MTA-processen.
+>**E-postfelmeddelanden** (eller &quot;bounces&quot;) kvalificeras av Enhanced MTA (synchronous bounces) eller av inMail-processen (asynkrona bounces). **SMS** -felmeddelanden (eller SR för Statusrapport) kvalificeras av MTA-processen.
 
 Meddelanden kan också uteslutas under färdigställandet av leveransen om en adress sätts i karantän eller om en profil är svartlistad. Exkluderade meddelanden visas på fliken **[!UICONTROL Exclusion logs]** i kontrollpanelen för leveranser (se [det här avsnittet](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
 
@@ -80,9 +80,21 @@ Möjliga orsaker till leveransfel är:
 
 Om ett meddelande misslyckas på grund av ett tillfälligt fel av typen **Ignorerad** , kommer nya försök att utföras under leveransens varaktighet. Mer information om olika typer av fel finns i [Leveransfeltyper och orsaker](#delivery-failure-types-and-reasons).
 
-Om du vill ändra varaktigheten för en leverans går du till de avancerade parametrarna för leverans- eller leveransmallen och anger önskad varaktighet i motsvarande fält. De avancerade leveransegenskaperna visas i [det här avsnittet](../../administration/using/configuring-email-channel.md#validity-period-parameters).
+När du har uppgraderat till [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)ignoreras inställningarna för **återförsök** i Campaign. Antalet återförsök (hur många återförsök som ska utföras dagen efter att sändningen har startats) och den minsta fördröjningen mellan återförsök hanteras av den förbättrade MTA-metoden, baserat på hur bra en IP-adress fungerar både historiskt och för närvarande på en viss domän.
 
-Standardkonfigurationen tillåter fem försök med en timmes intervall, följt av ett nytt försök per dag i fyra dagar. Antalet försök kan ändras globalt (kontakta Adobes tekniska administratör) eller för varje leverans- eller leveransmall (se [det här avsnittet](../../administration/using/configuring-email-channel.md#sending-parameters)).
+Om du vill ändra varaktigheten för en leverans går du till de avancerade parametrarna för leverans- eller leveransmallen och redigerar fältet **[!UICONTROL Delivery duration]** i avsnittet [Giltighetsperiod](../../administration/using/configuring-email-channel.md#validity-period-parameters) .
+
+>[!IMPORTANT]
+>
+>När du har uppgraderat till [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)används parametern **[!UICONTROL Delivery duration]** i Campaign-leveranserna endast om den är inställd på 3,5 dagar eller mindre. Om du anger ett värde som är högre än 3,5 dagar kommer det inte att tas med i beräkningen.
+
+Om du till exempel vill att återförsök för en leverans ska stoppas efter en dag kan du ange leveranstiden till **1d**, och den förbättrade MTA-inställningen kommer att efterleva den inställningen genom att meddelanden i återförsökskön tas bort efter en dag.
+
+>[!NOTE]
+>
+>När ett meddelande har varit i den förbättrade MTA-kön i 3,5 dagar och inte kunnat levereras, kommer det att gå ut och status uppdateras från **[!UICONTROL Sent]** till **[!UICONTROL Failed]** i [leveransloggarna](../../sending/using/monitoring-a-delivery.md#delivery-logs).
+
+<!--The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
 
 ## Synkrona och asynkrona fel {#synchronous-and-asynchronous-errors}
 
