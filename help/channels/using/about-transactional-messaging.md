@@ -12,7 +12,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3c45cbbb261f18252689d0fc4f332b9f45137c85
+source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
 
 ---
 
@@ -97,13 +97,13 @@ Hur du kan anpassa ett meddelandeinnehåll beror på typen av transaktionsmeddel
 * Personaliseringsinformationen hämtas från data som finns i själva händelsen. Se [Transaktionsmeddelanden](../../channels/using/event-transactional-messages.md)för händelser.
 * Du kan inte använda **Avprenumerera på** länkinnehållsblock i ett händelsetransaktionsmeddelande.
 * Händelsebaserade transaktionsmeddelanden ska bara använda de data som finns i den skickade händelsen för att definiera mottagaren och meddelandets innehållspersonalisering. Ni kan dock utöka innehållet i transaktionsmeddelandet med information från Adobe Campaign-databasen. Se [Förbättra transaktionens meddelandeinnehåll](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content).
-* Eftersom transaktionsmeddelanden inte innehåller någon profilinformation är de inte kompatibla med trötthetsregler, även om det finns en anrikning med profiler. Se [Trötthetsregler](../../administration/using/fatigue-rules.md).
+* Eftersom transaktionsmeddelanden inte innehåller någon profilinformation är de inte kompatibla med trötthetsregler, även om det finns en anrikning med profiler. Se [Trötthetsregler](../../sending/using/fatigue-rules.md).
 
 **Profilbaserade transaktionsmeddelanden**:
 
 * Personaliseringsinformationen kan hämtas från data som finns i händelsen eller från den avstämda profilposten. Se [Profiltransaktionsmeddelanden](../../channels/using/profile-transactional-messages.md).
 * Du kan använda **Avbeställ länkning** av innehållsblock i ett profiltransaktionsmeddelande. Se [Lägga till ett innehållsblock](../../designing/using/personalization.md#adding-a-content-block).
-* Trötthetsregler är kompatibla med profiltransaktionsmeddelanden. Se [Trötthetsregler](../../administration/using/fatigue-rules.md).
+* Trötthetsregler är kompatibla med profiltransaktionsmeddelanden. Se [Trötthetsregler](../../sending/using/fatigue-rules.md).
 
 Observera att produktlistor endast är tillgängliga i transaktionsmeddelanden via e-post. Se [Använda produktlistor i ett transaktionsmeddelande](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message).
 
