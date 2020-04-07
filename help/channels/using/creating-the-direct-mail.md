@@ -13,7 +13,7 @@ context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
 
 ---
 
@@ -74,7 +74,7 @@ Att skapa direktreklam påminner mycket om att skapa ett vanligt e-postmeddeland
 
    >[!NOTE]
    >
-   >Ni kan ange globala regler för flerkanalströtthet som automatiskt utesluter överdimensionerade profiler från kampanjer. Se [Trötthetsregler](../../administration/using/fatigue-rules.md).
+   >Ni kan ange globala regler för flerkanalströtthet som automatiskt utesluter överdimensionerade profiler från kampanjer. Se [Trötthetsregler](../../sending/using/fatigue-rules.md).
 
 1. Klicka på **[!UICONTROL Explore file]** för att förhandsgranska de första 100 raderna i filen.
 
