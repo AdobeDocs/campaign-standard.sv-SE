@@ -1,10 +1,10 @@
 ---
 product: adobe campaign
-sub-product: adobe campaign standard
+sub-product: adobe kampanjstandard
 audience: end-user
-user-guide-title: Adobe Campaign Standard Help
+user-guide-title: Hjälp om Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
+source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
 
 ---
 
@@ -168,6 +168,13 @@ source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
       + [Tekniska rekommendationer](sending/using/technical-recommendations.md)
       + [Övervaka leveransen](sending/using/monitor-deliverability.md)
       + [Felsökning](sending/using/troubleshooting.md)
+   + Arbeta med typologiregler {#working-with-typology-rules}
+      + [Om typologier och typologiregler](sending/using/about-typology-rules.md)
+      + [Hantera typologier](sending/using/managing-typologies.md)
+      + [Hantera typologiregler](sending/using/managing-typology-rules.md)
+      + [Filtreringsregler](sending/using/filtering-rules.md)
+      + [Trötthetsregler](sending/using/fatigue-rules.md)
+      + [Kontrollregler](sending/using/control-rules.md)
 + Rapportering {#reporting}
    + Om rapportering {#about-reporting}
       + [Om dynamiska rapporter](reporting/using/about-dynamic-reports.md)
@@ -230,12 +237,12 @@ source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
       + [Testa utlösarna](integrating/using/testing-your-triggers.md)
       + [Användningsexempel för utlösare för övergåenden](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign och Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Konfigurera integrering med Adobe IO för Microsoft Dynamics 365](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + Arbeta med Campaign Standard och Microsoft Dynamics 365 {#working-with-campaign-standard-and-ms-dynamics}
          + [Arbeta med Campaign Standard och Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
          + [Meddelanden och rekommendationer](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
          + [Begära och konfigurera Microsoft Dynamics 365 med Campaign Standard-integrering](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
          + [Använda Microsoft Dynamics 365 med Campaign Standard-integrering](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+      + [Konfigurera integrering med Adobe IO för Microsoft Dynamics 365](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + [Konfigurera Microsoft Dynamics 365 för Campaign-integrering](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
       + [Konfigurera Unifi för Microsoft Dynamics 365-integrering](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
       + [Mappa anpassade resurser för Campaign och anpassade Dynamics 365-entiteter](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
@@ -371,11 +378,6 @@ source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
       + [Konfigurera SMS-kanal](administration/using/configuring-sms-channel.md)
       + [Konfigurera ett mobilprogram](administration/using/configuring-a-mobile-application.md)
       + [Konfigurera transaktionsmeddelanden](administration/using/configuring-transactional-messaging.md)
-   + Arbeta med typologiregler {#working-with-typology-rules}
-      + [Om typologiregler](administration/using/about-typology-rules.md)
-      + [Filtreringsregler](administration/using/filtering-rules.md)
-      + [Trötthetsregler](administration/using/fatigue-rules.md)
-      + [Kontrollregler](administration/using/control-rules.md)
    + Programinställningar {#application-settings}
       + [Om Campaign Standard-inställningar](administration/using/about-campaign-standard-settings.md)
       + [Externa konton](administration/using/external-accounts.md)
