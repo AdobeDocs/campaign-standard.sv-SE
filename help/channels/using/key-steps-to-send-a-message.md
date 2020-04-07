@@ -12,7 +12,7 @@ discoiquuid: a51351ee-e3b6-4996-9e68-b7d5157b8207
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
 
 ---
 
@@ -30,7 +30,7 @@ Så här skapar och skickar du meddelanden:
 
    >[!NOTE]
    >
-   >Ni kan ange globala regler för flerkanalströtthet som automatiskt utesluter överdimensionerade profiler från kampanjer. Se [Trötthetsregler](../../administration/using/fatigue-rules.md).
+   >Ni kan ange globala regler för flerkanalströtthet som automatiskt utesluter överdimensionerade profiler från kampanjer. Se [Trötthetsregler](../../sending/using/fatigue-rules.md).
 
 1. Skicka korrektur. Se [Skicka korrektur](../../sending/using/sending-proofs.md).
 1. Skicka meddelandet och kontrollera leveransen. Se [Skicka meddelanden](../../sending/using/confirming-the-send.md).
