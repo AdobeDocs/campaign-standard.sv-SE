@@ -12,7 +12,7 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
 
 ---
 
@@ -69,7 +69,7 @@ I Adobe Campaign-gränssnittet kan ni
 
 * Få åtkomst till historiken för alla skickade aviseringar för varje instrumentpanel.
 
-   När du väljer en kontrollpanel visas den senast skickade aviseringen för den här instrumentpanelen som standard. Alla skickade aviseringar visas till vänster på skärmen. Klicka på ett objekt i **[!UICONTROL History]** listan för att komma åt motsvarande aviseringar.
+   När du väljer en kontrollpanel visas den senaste skickade varningen för den här instrumentpanelen som standard. Alla skickade aviseringar visas till vänster på skärmen. Klicka på ett objekt i **[!UICONTROL History]** listan för att komma åt motsvarande aviseringar.
 
 ![](assets/delivery-alerting_dashboard.png)
 
@@ -245,7 +245,7 @@ Här är några möjliga orsaker till att du får varningsmeddelanden enligt de 
    * Det finns en felaktig syntax i personaliseringsfälten.
    * Målet saknas.
    * Leveransen överskrider storleksgränsen.
-   Mer information finns i [Förbereda sändningen](../../sending/using/preparing-the-send.md). Dessa fel upptäcks dock vanligtvis under meddelandeanalysen. Se [Kontrollregler](../../administration/using/control-rules.md).
+   Mer information finns i [Förbereda sändningen](../../sending/using/preparing-the-send.md). Dessa fel upptäcks dock vanligtvis under meddelandeanalysen. Se [Kontrollregler](../../sending/using/control-rules.md).
 
 * Möjliga orsaker till en **[!UICONTROL Delivery with bad error ratio for soft bounces]** varning kan vara:
 
@@ -261,7 +261,7 @@ Här är några möjliga orsaker till att du får varningsmeddelanden enligt de 
    * Mottagarens server blockerar leveransen.
    Följ de bästa metoderna nedan för att undvika mjuka och hårda studsfel:
 
-   * Bygg filtreringstypologiregler för att exkludera en del av meddelandemålet under leveransanalysen, till exempel mottagare i karantän. Se [Skapa en filtreringsregel](../../administration/using/filtering-rules.md).
+   * Bygg filtreringstypologiregler för att exkludera en del av meddelandemålet under leveransanalysen, till exempel mottagare i karantän. Se [Skapa en filtreringsregel](../../sending/using/filtering-rules.md).
    * Uppdatera regelbundet kunddatabasen för att upprätthålla goda karantänhanteringsprocesser. Se [Om karantäner](../../sending/using/understanding-quarantine-management.md#about-quarantines).
    * Generellt sett kan du förbättra slutresultatet så bra som möjligt. Läs den detaljerade dokumentationen om Adobe Campaign- [leveransen](../../sending/using/about-deliverability.md) och kontakta Adobe Campaign-administratören för att få hjälp.
 
