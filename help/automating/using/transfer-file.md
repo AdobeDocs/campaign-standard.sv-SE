@@ -13,7 +13,7 @@ context-tags: fileTransfer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
+source-git-commit: 7f203ff0e635faf802a5577f761dc308dae4ab66
 
 ---
 
@@ -43,7 +43,8 @@ Du kan använda den här aktiviteten för att återställa data som sedan strukt
    * **Filhämtning**: Med kan du hämta en fil.
    * **Filöverföring**: gör att du kan överföra en fil. När du överför en fil från Adobe Campaign-filen genereras en loggpost på **[!UICONTROL Export audits]** menyn. Mer information om exportgranskningar finns i avsnittet [Granska export](../../administration/using/auditing-export-logs.md) .
    * **Testa om filen finns**: gör att du kan kontrollera om det finns en fil.
-   * **Fillista**: gör att du kan lista filer som finns i Adobe Campaign.
+   * **Fillista**: gör att du kan lista filer som finns på servern som är definierad på **[!UICONTROL Protocol]** fliken. Den här åtgärden används främst för felsökning, för att kontrollera om aktiviteten är konfigurerad efter dina behov innan du hämtar filerna från fjärrservern.
+
 1. Välj det protokoll som du vill använda:
    * [HTTP](#HTTP-configuration-wf)
    * [SFTP](#SFTP-configuration-wf)
@@ -55,7 +56,7 @@ Du kan använda den här aktiviteten för att återställa data som sedan strukt
 
    * **[!UICONTROL Delete the source files after transfer]**
    * **[!UICONTROL Disable passive mode]**
-   * **[!UICONTROL List all files]**: det här alternativet är tillgängligt när du väljer **[!UICONTROL File listing]** åtgärd. Du kan indexera alla filer som finns på servern i **variabeln vars.filenames** där filnamnen avgränsas med **&#39;n&#39;** -tecken.
+   * **[!UICONTROL List all files]**: det här alternativet är tillgängligt när du väljer **[!UICONTROL File listing]** åtgärden.på **[!UICONTROL General]** fliken. Du kan indexera alla filer som finns på servern i **variabeln vars.filenames** där filnamnen avgränsas med **&#39;n&#39;** -tecken.
 
 1. I **[!UICONTROL If no files are found]** -avsnittet på **[!UICONTROL Advanced options]** fliken kan du konfigurera specifika åtgärder om fel eller obefintliga filer upptäcks när aktiviteten startas.
 
