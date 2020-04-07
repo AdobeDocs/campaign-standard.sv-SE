@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 13430243e8f2840ca85e557798168f6380a7b0fa
+source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
 ---
 
@@ -65,6 +65,6 @@ Om du vill implementera trötthetsregler definierar du ett maximalt antal meddel
 
 **Relaterade ämnen:**
 
-* Lär dig hur du [utformar trötthetsregler](../../administration/using/fatigue-rules.md#examples) med hjälp av en uppsättning exempel
-* Lär dig hur du skapar [typologiregler](../../administration/using/about-typology-rules.md)
-* Använd [filterregler](../../administration/using/filtering-rules.md) för att förfina publikationen i dina meddelanden
+* Lär dig hur du [utformar trötthetsregler](../../sending/using/fatigue-rules.md#examples) med hjälp av en uppsättning exempel
+* Lär dig hur du skapar [typologiregler](../../sending/using/about-typology-rules.md)
+* Använd [filterregler](../../sending/using/filtering-rules.md) för att förfina publikationen i dina meddelanden
