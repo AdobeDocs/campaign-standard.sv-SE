@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
+source-git-commit: f5c91f886335e43940caac4d3b18924c020a2d2b
 
 ---
 
@@ -479,7 +479,7 @@ Vissa problem kan uppstå när sammanhangsberoende hjälplänkar från gränssni
   </tr> 
   <tr> 
    <td> API-signalaktivitet som utlöser<br /> </td> 
-   <td> Nu kan du aktivera en signalaktivitet för dina arbetsflöden direkt från Adobe Campaign Standard API.<br /> Mer information finns i den <a class="anchorLink" href="../../api/using/triggering-a-signal-activity.md">detaljerade dokumentationen</a> .<br /> </td> 
+   <td> Nu kan du aktivera en signalaktivitet för dina arbetsflöden direkt från Adobe Campaign Standard API.<br /> Mer information finns i den <a href="/help/api/using/triggering-a-signal-activity.md">detaljerade dokumentationen</a> .<br /> </td> 
   </tr> 
  </tbody> 
 </table>
