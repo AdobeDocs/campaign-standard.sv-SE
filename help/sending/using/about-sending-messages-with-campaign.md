@@ -12,7 +12,7 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e6c43770755e59bf2a2d49540a052ac0bd2a2438
+source-git-commit: c49fcd793cbb13d26ccf3a47af145de7acd697e7
 
 ---
 
@@ -43,7 +43,6 @@ Då kan du:
 | Användbara sidor | Ytterligare resurser |
 |---|---|
 | [Optimera leveransen](../../sending/using/about-deliverability.md) | [Trötthetshantering](../../sending/using/fatigue-rules.md) |
-| [Övervaka leverans](../../audiences/using/creating-profiles.md) | [Utforma A/B-testmeddelanden](../../channels/using/designing-an-a-b-test-email.md) |
+| [Kontrollera leveransflöde](../../reporting/using/delivery-throughput.md) | [Utforma A/B-testmeddelanden](../../channels/using/designing-an-a-b-test-email.md) |
 | [Få ett meddelande när ett fel inträffar](../../sending/using/receiving-alerts-when-failures-happen.md) | [Övervaka leverans](../../sending/using/monitoring-a-delivery.md) |
-| [Bygga en kontrollgrupp](../../automating/using/workflow-control-group.md) | [Få ett meddelande när ett fel inträffar](../../sending/using/receiving-alerts-when-failures-happen.md) |
-| [Kontrollera leveransflöde](../../reporting/using/delivery-throughput.md) | [Övervaka leverans](../../sending/using/monitoring-a-delivery.md) |
+| [Bygga en kontrollgrupp](../../automating/using/workflow-control-group.md) | [Skicka uppföljningsmeddelanden](../../channels/using/follow-up-messages.md) |
