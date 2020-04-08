@@ -13,7 +13,7 @@ context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a9c0e3cc4609e747bbfebeb90049862f29c9d8d9
+source-git-commit: 396084934a41d103eecd6fe141c700c118000f75
 
 ---
 
@@ -32,5 +32,5 @@ Stegen för att skapa och tillämpa en typologi på meddelanden är:
 
 1. Skapa typologiregler (se [det här avsnittet](../../sending/using/managing-typology-rules.md#creating-a-typology-rule)).
 1. Skapa en typologi och referera till reglerna som du skapade i den (se [det här avsnittet](../../sending/using/managing-typologies.md#creating-a-typology)).
-1. Konfigurera leveransen så att den använder den typologi du skapade (se [det här avsnittet](../../sending/using/managing-typologies.md#applying-typologies-to-messages)).
+1. Konfigurera leveransen så att den använder den typologi som du skapade (se [det här avsnittet](../../sending/using/managing-typologies.md#applying-typologies-to-messages)).
 1. Under meddelandeförberedelsen utesluts profiler när villkoret är uppfyllt. Du kan kontrollera loggar för att övervaka undantag.
