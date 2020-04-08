@@ -12,7 +12,7 @@ discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ec0af8c06e36f51ddaf6e3d4190fa6acd56d2da6
+source-git-commit: 396084934a41d103eecd6fe141c700c118000f75
 
 ---
 
@@ -26,7 +26,7 @@ Med filtreringsregler kan du utesluta en del av meddelandemålet enligt villkor 
 Tabellen nedan innehåller information om de färdiga filtreringsreglerna och deras relaterade kanaler.
 
 | Etikett | Kanal | Beskrivning |
----------|----------|---------|---------
+---------|----------|---------
 | **[!UICONTROL Address not specified]** | Alla | Utesluter målpopulationen utan angiven adress (e-postadress, postadress osv.) enligt den valda kanalen). |
 | **[!UICONTROL Blacklisted address]** | Alla | Exkluderar svartlistade adresser. |
 | **[!UICONTROL Duplicate]** | Alla | Exkluderar dubbletter som baseras på **[!UICONTROL Address]** målpopulationsfältet. |
