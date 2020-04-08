@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 240e8738fab8f0eaa8398de1b74e22d292536908
+source-git-commit: 876f12d5256ef991741c35b17eff666dedc99d73
 
 ---
 
@@ -31,13 +31,13 @@ Integreringen av Microsoft Dynamics 365 med Adobe Campaign Standard-dokumentatio
 
 Ytterligare resurser har lagts till på dokumentationsstartsidan. [Läs mer](../../campaign-standard-home.md)
 
-Information om Experience CLoud ID Service (ECID) har lagts till i dokumentationen för Adobe Experience Platform Data Connector. [Läs mer](../../administration/using/aep-about-data-connector.md#key-concepts)
+Information om Experience Cloud ID Service (ECID) har lagts till i dokumentationen för Adobe Experience Platform Data Connector. [Läs mer](../../administration/using/aep-about-data-connector.md#key-concepts)
 
 Avsnittet Configuring transactional messaging har förbättrats med information om hur man får tillgång till de senaste transaktionshändelserna och uppdaterade skärmbilder. [Läs mer](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 
 Avsnittet om typologier och typologiregler har förbättrats och uppdaterats med ytterligare information om typologiregler som är klara att användas. [Läs mer](../../sending/using/about-typology-rules.md)
 
-Information har lagts till om **[!UICONTROL Transfer file]** aktivitetens **!UICONTROL File listing]** åtgärd. [Läs mer](../../automating/using/transfer-file.md)
+Information har lagts till om **[!UICONTROL Transfer file]** aktivitetens **[!UICONTROL File listing]** åtgärd. [Läs mer](../../automating/using/transfer-file.md)
 
 Dokumentationen om återförsök efter ett tillfälligt leveransfel har uppdaterats med mer information om hur återförsök hanteras när de har uppgraderats till det förbättrade MTA-avtalet. [Läs mer](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
 
