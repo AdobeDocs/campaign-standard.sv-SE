@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 876f12d5256ef991741c35b17eff666dedc99d73
+source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
 
 ---
 
@@ -43,7 +43,7 @@ Dokumentationen om återförsök efter ett tillfälligt leveransfel har uppdater
 
 Avsnittet Ta bort ett transaktionsmeddelande har förbättrats och klargjorts. [Läs mer](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
 
-## Version 20.2 - mars 2020 {#release-20-2---march-2020}
+## Version 20.2 - april 2020 {#release-20-2---april-2020}
 
 **Nya funktioner i releasen**
 
