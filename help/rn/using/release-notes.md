@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
+source-git-commit: 66e480e957d12275d2ce5575c99b0808462588f9
 
 ---
 
@@ -106,3 +106,4 @@ source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
 * Ett problem som uppstod när en sekretessbegäran skulle tas bort manuellt i Campaign efter att den hade bearbetats har korrigerats, vilket gjorde att data som är kopplade till begäran inte kunde tas bort även efter rensning.
 * Korrigerade ett problem som kunde inträffa vid förhandsgranskning eller sändning av meddelanden som innehöll specialtecken från Adobe Experience Manager.
 * Korrigerade ett problem som kan uppstå i arbetsflöden när en aktivitet med flera inkommande övergångar körs.
+* Korrigerade ett problem som förhindrade standardanvändare från att använda Prenumerationer på ett program som måldimension i en arbetsflödesfråga eller leverans. (CAMP-37618)
