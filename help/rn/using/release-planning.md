@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 451c7d15bfe206912fd1f8db8bf8c3d7ec83616d
+source-git-commit: a71af00e606d78c4ff8b39da1b9f032c0dcf0fc6
 
 ---
 
@@ -27,9 +27,9 @@ Uppgraderingar distribueras i två faser. För det första uppgraderas Stage-ins
 
 Alla releasedatum kan ändras: rekommenderar vi att du regelbundet går till den här sidan för att kontrollera om det finns uppdateringar.
 
-Prenumerera för att [få releasemeddelanden](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) för att få information om de senaste Adobe Experience Cloud-versionerna direkt i din inkorg.
+**NYHET!** Prenumerera på [](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) Campaign Standard och få information om kommande releaser direkt i din inkorg.
 
-## Version 20.2.1 - aprilversion {#release-20-2-april-release}
+## Version 20.3.1 - majversionen {#release-20-3-may-release}
 
 Miljöuppdateringar sker i vågor under de angivna tidsramarna nedan. Detaljerad information om den här versionen finns i [versionsinformationen](../../rn/using/release-notes.md). Kontakta [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin)om du har ytterligare frågor.
 
@@ -43,11 +43,11 @@ Miljöuppdateringar sker i vågor under de angivna tidsramarna nedan. Detaljerad
  <tbody> 
   <tr> 
    <td> Scen<br /> </td> 
-   <td> 31 mars-1 april 2020<br /> </td> 
+   <td> 27-28 april 2020<br /> </td> 
   </tr> 
   <tr> 
    <td> Produktion<br /> </td> 
-   <td> 6-9 april 2020<br /> </td> 
+   <td> 4-11 maj 2020<br /> </td> 
   </tr> 
  </tbody> 
 </table>
