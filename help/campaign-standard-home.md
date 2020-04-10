@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Produktdokumentation för Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 7e7bd906982e71e8ba29339998fa3bf8c65c620b
+source-git-commit: 7d359430748eea1210b04c151b4a89b6e99f0c11
 
 ---
 
@@ -17,9 +17,9 @@ source-git-commit: 7e7bd906982e71e8ba29339998fa3bf8c65c620b
 
 * **[Testa e-post med målprofiler](sending/using/testing-messages-using-target.md)**<br/>Lär dig hur du testar e-postmeddelanden med riktiga målprofiler.
 
-* **[Integritetshantering](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>Läs mer om verktygen i Adobe Campaign som hjälper er att följa reglerna för integritetsskydd.
+* **[Integritetshantering](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/> Läs mer om verktygen i Adobe Campaign som hjälper er att följa reglerna för integritetsskydd.
 
-* **[Campaign Standard Mobile Guide](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>Läs mer om allmänna riktlinjer för mobila leveranser.
+* **[Campaign Standard Mobile Guide](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/> Läs mer om allmänna riktlinjer för mobila leveranser.
 
 [Klicka här för fler uppdateringar](rn/using/documentation-updates.md)
 
@@ -63,8 +63,8 @@ source-git-commit: 7e7bd906982e71e8ba29339998fa3bf8c65c620b
 | Användbara sidor | Resurser för utvecklare |
 |---|---|
 | [Versionsinformation](rn/using/release-notes.md) | [Implementeringsguide](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) |
-| [Dokumentation för kontrollpanelen](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [API:er - dokumentation](api/using/about-campaign-standard-apis.md) |
+| [Dokumentation för kontrollpanelen](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [Kampanj-API:er](api/using/about-campaign-standard-apis.md) |
 | [Instruktionsvideor](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) | [Lista över felmeddelanden](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
-| [Planeringsguide för lansering](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Datamodell för Campaign Standard](developing/using/datamodel-introduction.md) |
-| [Föråldrade och borttagna funktioner](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) | [Kampanjintegreringar](integrating/using/about-campaign-integrations.md) |
-| [Komma igång med Campaign Standard](start/using/campaign-orchestration.md) | [Tekniska anteckningar](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
+| [Versionsplanering](rn/using/release-planning.md) | [Kampanjdatamodell](developing/using/datamodel-introduction.md) |
+| [Föråldrade och borttagna funktioner](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) | [Guide för flera lösningar](integrating/using/about-campaign-integrations.md) |
+| [Kom igång med Campaign Standard](start/using/campaign-orchestration.md) | [Tekniska anteckningar](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
