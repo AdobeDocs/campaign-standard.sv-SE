@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d8ad3801dba50e357c21a7551e897e0e2c5aedc5
+source-git-commit: c35468d7c9a3177d755dad2a9ab2e09510d680fa
 
 ---
 
@@ -50,23 +50,9 @@ Kunderna rekommenderas att granska om de använder funktionen/funktionen i den a
   <tr> 
    <td> <p> Från och med version 20.1 är SDK v4 föråldrat. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Läs mer</a>.</p><br/>
    <p>SDK <a href="https://aep-sdks.gitbook.io/docs/">för</a> Adobe Experience Platform Mobile (tidigare kallat v5) har exklusiv support för kommande Adobe Experience Cloud-funktioner.</p></br>
-     <p>Datum för målborttagning: 30 september 2020</p>
+     <p>
+     <em>Datum för målborttagning: 30 september 2020</em></p>
      </td> 
-  </tr> 
- </tbody> 
-</table>
-
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>Creative SDK for Campaign Standard</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>Adobe Creative SDK har avvecklats. Som en följd av detta har en utgåva som bygger på Creative SDK i e-postmeddelanden i Campaign Standard tagits bort från och med version 20.1.</p></br>
-  <p> Datum för målborttagning: Mars 2020 - Campaign 20.2-utgåvan</p>
-   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,7 +66,8 @@ Kunderna rekommenderas att granska om de använder funktionen/funktionen i den a
   <tr> 
    <td> <p>Från och med Campaign 19.4 är användningen av Campaign-API:t och gränssnittet för begäran om åtkomst och borttagning föråldrad. Det går inte att ta bort profiler i två steg. Använd <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobes bastjänst</a>för sekretess.</p></br>
    <p>Se även <a href="https://helpx.adobe.com/campaign/kb/acs-privacy.html">Integritetshantering i Campaign Standard</a>.</p>
-  <p> Datum för målborttagning: Juli 2020 - Campaign 20.5-utgåvan</p>
+  <p> 
+  <em>Datum för målborttagning: Juli 2020 - Campaign 20.5-utgåvan </em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -96,7 +83,8 @@ Kunderna rekommenderas att granska om de använder funktionen/funktionen i den a
   <tr> 
    <td> <p>Från och med Campaign 19.0 är den gamla e-postredigeraren föråldrad. Använd <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">den nya e-postdesignern</a> för att skapa och anpassa ditt e-postinnehåll. </p></br>
    <p>Läs igenom <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">det här avsnittet</a> och lär dig hur du anpassar e-postmallarna för den nya redigeraren.</p></br>
-  <p> Datum för målborttagning: Oktober 2020 - Campaign 20.6-utgåvan</p>
+  <p> 
+  <em>Datum för målborttagning: Oktober 2020 - Campaign 20.6-utgåvan </em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -116,6 +104,23 @@ Kunderna rekommenderas att granska om de använder funktionen/funktionen i den a
  </tbody> 
 </table>
 
+## Borttagna funktioner {#removed-features}
+
+I det här avsnittet visas funktioner som har tagits bort från Campaign Standard.
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Creative SDK for Campaign Standard</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>Adobe Creative SDK har avvecklats. Som en följd av detta är en utgåva som bygger på Creative SDK i e-postmeddelanden i Campaign Standard inte längre tillgänglig från och med Campaign 20.2.</p></br>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 ## Kompatibilitetsslut {#end-of-compatibility}
 
