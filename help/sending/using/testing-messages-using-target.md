@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4a8fa27d816dade8a7eb26bb5b66e3ebfbec4b51
+source-git-commit: b7894637d184c16221e03c909f3c356fbb6c5e79
 
 ---
 
@@ -125,11 +125,11 @@ Så här importerar du profiler som ska användas för testning från en målgru
 
 1. Klicka på **[!UICONTROL Import]** knappen. Profilerna från målgruppen som motsvarar meddelandemålet läggs till på **[!UICONTROL Profile substitution]** fliken, samt tillhörande ersättningsadresser och prefix.
 
-   ![](assets/substitution_audience_added.png)
+![](assets/substitution_audience_imported.png)
 
-   >[!NOTE]
-   >
-   >Om du importerar samma målgrupp en gång till, med olika ersättningsadresser och/eller prefix, läggs profilerna till i listan utöver de som fanns vid den tidigare importen.
+>[!NOTE]
+>
+>Om du importerar samma målgrupp en gång till, med olika ersättningsadresser och/eller prefix, läggs profilerna till i listan utöver de som fanns vid den tidigare importen.
 
 ## Förhandsgranska meddelandet med målprofiler
 
