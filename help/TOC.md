@@ -4,7 +4,7 @@ sub-product: adobe kampanjstandard
 audience: end-user
 user-guide-title: Hjälp om Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
+source-git-commit: 79dcfb4f2e58314f3c2eafb9443d5e3da2028203
 
 ---
 
@@ -138,7 +138,7 @@ source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
 + Testa och skicka {#testing-and-sending}
    + [Om att skicka meddelanden med Campaign](sending/using/about-sending-messages-with-campaign.md)
    + Förbereda och testa meddelanden {#preparing-and-testing-messages}
-      + [Förhandsgranska meddelanden](sending/using/previewing-messages.md)
+      + [Förhandsgranska leveranser](sending/using/previewing-messages.md)
       + [Förbereder sändningen](sending/using/preparing-the-send.md)
       + [Skicka korrektur](sending/using/sending-proofs.md)
       + [Testa e-postmeddelanden med målprofiler](sending/using/testing-messages-using-target.md)
