@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 023159c1c2d3334fd79e9ed9bf628758d84111eb
 
 ---
 
@@ -87,7 +87,7 @@ Här är en lista över tillgängliga komponenter i e-postdesignern:
 
    Du kan också spara knappar i fragment som kan återanvändas. Mer information finns i [Skapa ett innehållsfragment](../../designing/using/using-reusable-content.md#creating-a-content-fragment) och [Spara innehåll som ett fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
 
-1. Välj **[!UICONTROL Fallback view]** om du vill visa reservbilden i e-postdesignern.
+Välj **[!UICONTROL Fallback view]** om du vill visa reservbilden i e-postdesignern.
 
 - **[!UICONTROL Text]**
 
