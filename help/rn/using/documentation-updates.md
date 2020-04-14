@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
+source-git-commit: a09d82ae6fa77bb94550e533aa8fb63b463cd28c
 
 ---
 
@@ -42,6 +42,8 @@ Information har lagts till om **[!UICONTROL Transfer file]** aktivitetens **[!UI
 Dokumentationen om återförsök efter ett tillfälligt leveransfel har uppdaterats med mer information om hur återförsök hanteras när de har uppgraderats till det förbättrade MTA-avtalet. [Läs mer](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
 
 Avsnittet Ta bort ett transaktionsmeddelande har förbättrats och klargjorts. [Läs mer](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
+
+Avsnittet **Förhandsgranska leveranser** har uppdaterats med exempel på mobila leveranser.[Läs mer](../../sending/using/previewing-messages.md)
 
 ## Version 20.2 - april 2020 {#release-20-2---april-2020}
 
