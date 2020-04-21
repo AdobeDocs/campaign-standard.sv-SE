@@ -13,7 +13,7 @@ context-tags: deliveryThroughputReport,main;campaignThroughputReport,main;progra
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3c45cbbb261f18252689d0fc4f332b9f45137c85
+source-git-commit: 32cb3c8039e813143d45276958001b79e54c173c
 
 ---
 
@@ -27,8 +27,6 @@ Den här rapporten innehåller data som relaterar till leveransflödet för en s
 
 ![](assets/delivery_reports_1.png)
 
->[!IMPORTANT]
+>[!NOTE]
 >
->När du har uppgraderat till det förbättrade MTA-avtalet visas inte längre dataflödet till dina e-postmottagare på **[!UICONTROL Delivery throughput]** sidan. Den visar dataöverföringshastigheten för vidarebefordran av meddelanden från Campaign till det förbättrade MTA-avtalet.
->
->Mer information om Adobe Campaign Enhanced MTA finns i det här [dokumentet](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+>På **[!UICONTROL Delivery throughput]** sidan visas dataöverföringshastigheten för vidarebefordran av meddelanden från Campaign till Adobe Campaign Enhanced MTA.
