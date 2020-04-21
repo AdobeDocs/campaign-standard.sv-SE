@@ -12,7 +12,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
+source-git-commit: 72366d56e21933bcd79e907e5f8d5a9ad5281725
 
 ---
 
@@ -48,7 +48,7 @@ Transactional messaging finns också i Adobe Campaign Standard API. Mer informat
 
 >[!IMPORTANT]
 >
->När du har uppgraderat till [Förbättrad MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)skickas alla transaktionsmeddelanden med Adobe Campaign Enhanced MTA för förbättrad leverans, genomströmning och studshantering. Alla effekter är desamma som för vanliga marknadsföringsmeddelanden och de beskrivs i dokumentet Förbättrat MTA [för](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) Adobe Campaign.
+>Alla transaktionsmeddelanden skickas nu med Adobe Campaign Enhanced MTA för förbättrad leverans, genomströmning och studshantering. Alla effekter är desamma som för vanliga marknadsföringsmeddelanden.
 
 ## Transactional messaging operating policy policy {#transactional-messaging-operating-principle}
 
