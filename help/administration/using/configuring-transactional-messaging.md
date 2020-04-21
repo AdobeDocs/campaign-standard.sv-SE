@@ -12,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 34f4bbf7b7913cfb1833379c963b590961f7de73
+source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
 
 ---
 
@@ -30,6 +30,10 @@ När händelsen har publicerats skapas motsvarande transaktionsmeddelande automa
 ## Skapa en händelse {#creating-an-event}
 
 Börja med att skapa den händelse som passar dina behov.
+
+>[!NOTE]
+>
+>Antalet skapade realtidshändelser kan påverka din plattform. För att få bästa möjliga prestanda bör du ta bort händelser i realtid som du inte längre behöver. Se [Ta bort en händelse](../../administration/using/configuring-transactional-messaging.md#deleting-an-event).
 
 1. Klicka på **[!UICONTROL Adobe Campaign]** logotypen i det övre vänstra hörnet och välj sedan **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Klicka på **[!UICONTROL Create]** knappen.
@@ -95,7 +99,7 @@ Här är API-förhandsvisningen för det här exemplet:
 
 Genom att förbättra transaktionsmeddelandets innehåll med information från Adobe Campaign-databasen kan ni personalisera era meddelanden. Från efternamnet eller CRM-ID:t för var och en av mottagarna kan du till exempel återställa data som adress eller födelsedatum eller andra anpassade fält som lagts till i profiltabellen, för att anpassa informationen som skickas till dem.
 
-Det går att utöka transaktionsmeddelandets innehåll med information från utökade **[!UICONTROL Profile]** resurser eller **[!UICONTROL Service]** resurser.
+Det går att utöka transaktionsmeddelandets innehåll med information från utökat **[!UICONTROL Profile and services Ext API]**. Mer information finns i [Utöka API: Publicera tillägget](../../developing/using/step-2--publish-the-extension.md)
 
 Den här informationen kan också lagras i nya resurser. I så fall måste resursen länkas till **[!UICONTROL Profile]** eller **[!UICONTROL Service]** resurser antingen direkt eller via en annan tabell. I konfigurationen nedan är det till exempel möjligt att utöka transaktionsmeddelandeinnehållet med information från **[!UICONTROL Product]** resursen, som produktkategorin eller ID, om **[!UICONTROL Product]** resursen är länkad till **[!UICONTROL Profile]** resursen.
 
