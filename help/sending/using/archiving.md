@@ -12,7 +12,7 @@ discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
+source-git-commit: 72366d56e21933bcd79e907e5f8d5a9ad5281725
 
 ---
 
@@ -40,7 +40,7 @@ När den är aktiverad måste du aktivera e-postkopia från alternativet **[!UIC
 
 >[!NOTE]
 >
->För närvarande går det inte att skicka arkiverade e-postmeddelanden med [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html), även om du redan har uppgraderat till Enhanced MTA (Förbättrat MTA).
+>För närvarande går det inte att skicka arkiverade e-postmeddelanden med Adobe Campaign Enhanced MTA, även om du redan har uppgraderat till Enhanced MTA.
 
 ## Aktivera e-postarkivering {#activating-email-archiving}
 
