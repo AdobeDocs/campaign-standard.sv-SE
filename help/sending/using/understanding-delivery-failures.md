@@ -12,7 +12,7 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f1db8c886e560fe3f57d589b7fc2f2c2c1656f76
+source-git-commit: c1287a360cdd1750996b47a27b85a11e90b29df0
 
 ---
 
@@ -25,7 +25,9 @@ När en leverans inte kan skickas till en profil skickar fjärrservern automatis
 
 >[!NOTE]
 >
->**E-postfelmeddelanden** (eller &quot;bounces&quot;) kvalificeras av Enhanced MTA (synchronous bounces) eller av inMail-processen (asynkrona bounces). **SMS** -felmeddelanden (eller SR för Statusrapport) kvalificeras av MTA-processen.
+>**E-postfelmeddelanden** (eller &quot;bounces&quot;) kvalificeras av Enhanced MTA (synchronous bounces) eller av inMail-processen (asynkrona bounces).
+>
+>**SMS** -felmeddelanden (eller SR för Statusrapport) kvalificeras av MTA-processen.
 
 Meddelanden kan också uteslutas under färdigställandet av leveransen om en adress sätts i karantän eller om en profil är svartlistad. Exkluderade meddelanden visas på fliken **[!UICONTROL Exclusion logs]** i kontrollpanelen för leveranser (se [det här avsnittet](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
 
@@ -80,13 +82,13 @@ Möjliga orsaker till leveransfel är:
 
 Om ett meddelande misslyckas på grund av ett tillfälligt fel av typen **Ignorerad** , kommer nya försök att utföras under leveransens varaktighet. Mer information om olika typer av fel finns i [Leveransfeltyper och orsaker](#delivery-failure-types-and-reasons).
 
-När du har uppgraderat till [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)ignoreras inställningarna för **återförsök** i Campaign. Antalet återförsök (hur många återförsök som ska utföras dagen efter att sändningen har startats) och den minsta fördröjningen mellan återförsök hanteras av den förbättrade MTA-metoden, baserat på hur bra en IP-adress fungerar både historiskt och för närvarande på en viss domän.
+Antalet återförsök (hur många återförsök som ska utföras dagen efter att sändningen har startats) och den minsta fördröjningen mellan återförsök hanteras nu av Adobe Campaign Enhanced MTA, baserat på hur bra ett IP-värde fungerar både historiskt och för närvarande på en viss domän. Inställningarna för **återförsök** i Campaign ignoreras.
 
 Om du vill ändra varaktigheten för en leverans går du till de avancerade parametrarna för leverans- eller leveransmallen och redigerar fältet **[!UICONTROL Delivery duration]** i avsnittet [Giltighetsperiod](../../administration/using/configuring-email-channel.md#validity-period-parameters) .
 
 >[!IMPORTANT]
 >
->När du har uppgraderat till [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)används parametern **[!UICONTROL Delivery duration]** i Campaign-leveranserna endast om den är inställd på 3,5 dagar eller mindre. Om du anger ett värde som är högre än 3,5 dagar kommer det inte att tas med i beräkningen.
+>**Parametern **[!UICONTROL Delivery duration]**i era Campaign-leveranser används nu bara om den är inställd på 3,5 dagar eller mindre.** Om du definierar ett värde som är högre än 3,5 dagar beaktas det inte eftersom det nu hanteras av Adobe Campaign Enhanced MTA.
 
 Om du till exempel vill att återförsök för en leverans ska stoppas efter en dag kan du ange leveranstiden till **1d**, och den förbättrade MTA-inställningen kommer att efterleva den inställningen genom att meddelanden i återförsökskön tas bort efter en dag.
 
@@ -105,19 +107,13 @@ En leverans kan misslyckas omedelbart (synkront fel), eller senare, efter att de
 
 ## E-poststudsar {#bounce-mail-qualification}
 
-<!--Delivery failure error messages (or "SMTP bounce responses") are picked up by the Adobe Campaign platform and then processed and qualified as **Hard**, **Soft**, or **Ignored** using the **[!UICONTROL Delivery log qualification]** database.
-
-//Delivery failure error messages (or "bounces") are picked up by the Adobe Campaign platform and qualified by the inMail process to enrich the list of email management rules.(applies to asynchronous (out-of-band) bounces)
-
-This list is available to administrators only and contains all the rules used by Adobe Campaign to qualify delivery failures.-->
-
->[!IMPORTANT]
->
->När du har uppgraderat till Förbättrat MTA används inte längre studskvalifikationerna i Campaign- **[!UICONTROL Message qualification]** tabellen.
-
-För synkrona felmeddelanden vid leveransfel fastställer Förbättrat MTA avhoppstypen och kvalificeringen och skickar tillbaka informationen till Campaign. Mer information om Adobe Campaign Enhanced MTA finns i det här [dokumentet](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+För synkrona felmeddelanden vid leveransfel fastställer Förbättrat MTA avhoppstypen och kvalificeringen och skickar tillbaka informationen till Campaign.
 
 Asynkrona studsar är fortfarande kvalificerade av inMail-processen via **[!UICONTROL Inbound email]** reglerna. Du kommer åt reglerna genom att klicka på **[!UICONTROL Adobe Campaign]** logotypen längst upp till vänster och sedan markera **[!UICONTROL Administration > Channels > Email > Email processing rules]** och markera **[!UICONTROL Bounce mails]**. Mer information om den här regeln finns i det här [avsnittet](../../administration/using/configuring-email-channel.md#email-processing-rules).
+
+>[!NOTE]
+>
+>Studentgodkännande av e-post hanteras nu av Adobe Campaign Enhanced MTA. Studskompetensen i Campaign- **[!UICONTROL Message qualification]** tabellen används inte längre.
 
 <!--Bounces can have the following qualification statuses:
 
