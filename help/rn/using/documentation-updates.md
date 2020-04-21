@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a09d82ae6fa77bb94550e533aa8fb63b463cd28c
+source-git-commit: 09c7f365969fe415f1bcdcc57e7cfbb9ed99b521
 
 ---
 
@@ -44,6 +44,10 @@ Dokumentationen om återförsök efter ett tillfälligt leveransfel har uppdater
 Avsnittet Ta bort ett transaktionsmeddelande har förbättrats och klargjorts. [Läs mer](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
 
 Avsnittet **Förhandsgranska leveranser** har uppdaterats med exempel på mobila leveranser.[Läs mer](../../sending/using/previewing-messages.md)
+
+Bästa praxis har lagts till när det gäller transaktionsmeddelanden och borttagning av oanvända realtidshändelser. [Läs mer](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
+
+Avsnittet Konfigurera e-postkanal har uppdaterats med information om alla e-postinställningar som nu hanteras av Adobe Campaign Enhanced MTA. [Läs mer](../../administration/using/configuring-email-channel.md)
 
 ## Version 20.2 - april 2020 {#release-20-2---april-2020}
 
