@@ -12,7 +12,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 72366d56e21933bcd79e907e5f8d5a9ad5281725
+source-git-commit: f0f7441f06b51f9bd2d5a1b3c26f031d4eb1e4c1
 
 ---
 
@@ -46,9 +46,9 @@ Meddelandetypen definieras när händelsen som ska omvandlas till ett transaktio
 
 Transactional messaging finns också i Adobe Campaign Standard API. Mer information finns i den [dedikerade dokumentationen](../../api/using/managing-transactional-messages.md).
 
->[!IMPORTANT]
+>[!NOTE]
 >
->Alla transaktionsmeddelanden skickas nu med Adobe Campaign Enhanced MTA för förbättrad leverans, genomströmning och studshantering. Alla effekter är desamma som för vanliga marknadsföringsmeddelanden.
+>Alla transaktionsmeddelanden skickas nu med Adobe Campaign Enhanced MTA för förbättrad leverans, genomströmning och studshantering. Alla effekter är desamma som för vanliga marknadsföringsmeddelanden. Mer information finns i det här [avsnittet](../../administration/using/configuring-email-channel.md).
 
 ## Transactional messaging operating policy policy {#transactional-messaging-operating-principle}
 
