@@ -12,7 +12,7 @@ discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
+source-git-commit: bebe6df66c9a87db882d03b36c72ebdae3085245
 
 ---
 
@@ -32,8 +32,8 @@ Om du vill implementera trötthetsregler definierar du ett maximalt antal meddel
 Relaterade ämnen:
 
 * [Förberedelse](../../administration/using/configuring-email-channel.md#preparation)
-* [Hantera typologier](../../sending/using/about-typology-rules.md#managing-typologies)
-* [Typologiregler](../../sending/using/about-typology-rules.md#typology-rules)
+* [Hantera typologier](../../sending/using/managing-typologies.md)
+* [Typologiregler](../../sending/using/managing-typology-rules.md)
 * [Optimera kommunikationsfrekvensen för att förhindra kontakttrötthet](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
 
 ## Skapa en utmattningsregel {#creating-a-fatigue-rule}
@@ -225,7 +225,7 @@ Det finns många möjligheter när det gäller genomförandet av trötthetshante
 
    Låt oss säga att du skapar en flerkanalsregel med ett konstant tröskelvärde på 3 under en glidande period på 7 dagar.
 
-   Förra veckan fick dina premiumprofiler ett e-postmeddelande om erbjudanden och ett e-postmeddelande om transaktionsåtermarknadsföring. Du har också schemalagt ett SMS som ska skickas nästa vecka. Idag bestämmer du dig för att skicka ett push-meddelande för alla dina profiler. Premiumprofilerna kommer inte att ingå i dagens push-process eftersom deras högsta antal meddelanden under en tvåveckorsperiod redan har uppnåtts.
+   Förra veckan fick dina premiumprofiler ett e-postmeddelande om erbjudanden och ett e-postmeddelande om transaktionsåtermarknadsföring. Du har också schemalagt ett SMS som ska skickas nästa vecka. Idag bestämmer du dig för att skicka ett push-meddelande för alla dina profiler. Premiumprofilerna kommer inte att ingå i dagens push-process eftersom det maximala antalet meddelanden under en tvåveckorsperiod redan har uppnåtts.
 
    ![](assets/fatigue23.png)
 
