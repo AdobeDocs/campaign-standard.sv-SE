@@ -13,7 +13,7 @@ context-tags: cusResource,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
@@ -53,11 +53,11 @@ I avsnittet **[!UICONTROL List configuration]** i skärmdefinitionen kan du defi
 
 1. I **[!UICONTROL Simple search]** avsnittet markerar du **[!UICONTROL Specify the fields to be taken into account in the search]** för att definiera vilka fält som ska ingå i sökningen.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Den här konfigurationen ersätter de fält som används i standardsökningen.
 
-1. I **[!UICONTROL Advanced filtering]** avsnittet markerar du **[!UICONTROL Add search fields]** rutan för att lägga till fler fält utöver det enkla sökfältet. Om du t.ex. väljer datumfältet i de fält som du har skapat, kan användaren göra en sökning som bara refererar till datumet.
+1. I **[!UICONTROL Advanced filtering]** avsnittet markerar du **[!UICONTROL Add search fields]** rutan för att lägga till fler fält utanför det enkla sökfältet. Om du t.ex. väljer datumfältet i de fält som du har skapat, kan användaren göra en sökning som bara refererar till datumet.
 1. Du kan ändra fältordningen för de två söktyperna.
 1. Om du vill göra en avancerad sökning kan du lägga till fält som länkar till en länkad resurs. Dessa filter visas på den genererade skärmens **[!UICONTROL Search]** meny.
 
@@ -103,4 +103,3 @@ Med de här inställningarna kan du visa ett kontrollfält på den anpassade res
 
 * **[!UICONTROL Authorize duplicating]**: Med det här alternativet kan du aktivera dubblettposter som är länkade till den anpassade resursen.
 * **[!UICONTROL Authorize deleting]**: Med det här alternativet kan du aktivera borttagning av poster som är länkade till den anpassade resursen.
-
