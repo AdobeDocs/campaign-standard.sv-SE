@@ -12,7 +12,7 @@ discoiquuid: e9f147bd-6a5b-4b82-b9bb-311e38e22c62
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b4cbc56973a57cde8af6cefa9ff89c7d29ab7b79
 
 ---
 
@@ -97,6 +97,12 @@ Tekniska arbetsflöden används för att hantera självutlösande bakgrunds- och
    <td> <span class="uicontrol">kpiSharing</span><br /> </td> 
    <td> Det här arbetsflödet överför KPI-data var 15:e minut från Adobe Campaign Standard till Adobe Analytics.<br /> </td> 
   </tr> 
+    </tr> 
+   <tr> 
+   <td> <span class="uicontrol">Synkronisera med Launch</span><br /> </td> 
+   <td> <span class="uicontrol">SyncWithLaunch</span><br /> </td> 
+   <td> Det här arbetsflödet synkroniserar de mobila Adobe Launch-egenskaper som importerats i Adobe Campaign Standard. Det börjar var 15:e minut.<br /> </td> 
+  </tr>
   <tr> 
    <td> <span class="uicontrol">Uppdatera leveranskörning</span><br /> </td> 
    <td> <span class="uicontrol">updateDeliveryExecInfo</span><br /> </td> 
