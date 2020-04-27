@@ -12,7 +12,7 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 546c79b4b9a2b1fdeeee69aee2ed85fa00279609
+source-git-commit: 50991e9b376be5e706d2e8d8dcfa8c3677651281
 
 ---
 
@@ -49,7 +49,7 @@ Genom att tillhandahålla länkar för att ta bort prenumerationen i dina meddel
 
 ## Integritetsefterlevnad
 
-Adobe Campaign erbjuder en uppsättning verktyg som hjälper dig att följa sekretesskraven för GDPR, CCPA och andra integritetslagar. Läs mer i den här [artikeln](https://helpx.adobe.com/campaign/kb/campaign-privacy.html) om sekretesshantering och de funktioner vi tillhandahåller för att hantera behörighet till åtkomst, rätt att bli glömd, samtycke, datalagring och användarroller. Du hittar också bästa praxis som hjälper dig att följa din sekretesspraxis när du använder vår tjänst.
+Adobe Campaign erbjuder en uppsättning verktyg som hjälper dig att följa sekretesskraven för GDPR, CCPA och andra integritetslagar. Läs mer i den här [artikeln](https://helpx.adobe.com/campaign/kb/campaign-privacy.html) om sekretesshantering och de funktioner vi tillhandahåller för att hantera behörighet till åtkomst, rätt att bli glömd, samtycke, datalagring och användarroller. Du hittar även bästa praxis som hjälper dig att följa din sekretesspraxis när du använder vår tjänst.
 
 ## Relaterade ämnen
 
