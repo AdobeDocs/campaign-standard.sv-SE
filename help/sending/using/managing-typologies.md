@@ -13,7 +13,7 @@ context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ec0af8c06e36f51ddaf6e3d4190fa6acd56d2da6
+source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
 
 ---
 
@@ -44,7 +44,7 @@ Så här skapar du en ny typologi:
 
 1. Listan över typologier visas. Klicka på **[!UICONTROL Create]** knappen.
 
-   ![](assets/typologies-list.png)
+   ![](assets/typologies-create.png)
 
 1. Definiera typologin **[!UICONTROL Label]** och klicka sedan på **[!UICONTROL Add an element]** knappen för att välja de typologiregler som du vill ta med i den. For more on typology rules, refer to [this section](../../sending/using/managing-typology-rules.md).
 
