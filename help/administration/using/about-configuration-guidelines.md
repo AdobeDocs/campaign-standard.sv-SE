@@ -12,7 +12,7 @@ discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d5a77a681a20d5e7bea73b52c994137d4a61f78d
+source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 ---
 
@@ -21,6 +21,6 @@ source-git-commit: d5a77a681a20d5e7bea73b52c994137d4a61f78d
 
 I det här avsnittet grupperas de olika konfigurationsriktlinjerna för Adobe Campaign Standard.
 
-Ta reda på vilka webbläsare som är kompatibla med Campaign Standard och vilka operativsystem som stöds för surfplattor.
+Ta reda på vilka webbläsare som är kompatibla med Campaign Standard och vilka operativsystem som stöds för surfplattor. Mer information finns i [det här avsnittet](../../administration/using/compatible-browsers.md).
 
-Lär dig även om de olika slutpunkterna som används i Campaign Standard.
+Lär dig även om de olika slutpunkterna som används i Campaign Standard. Mer information finns i [det här avsnittet](../../administration/using/campaign-standard-network-endpoints.md).
