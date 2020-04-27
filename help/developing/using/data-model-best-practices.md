@@ -13,7 +13,7 @@ context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 34a58e0ec028feacf928f9048378c3255a04a33d
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
@@ -27,7 +27,7 @@ I det här dokumentet beskrivs viktiga rekommendationer när du utformar din Ado
 >
 >Mer information om hur du skapar och ändrar resurser för att utöka den fördefinierade datamodellen för Adobe Campaign finns i [det här avsnittet](../../developing/using/key-steps-to-add-a-resource.md).
 >
->Du hittar en datamodellrepresentation av de färdiga resurserna [här](../../developing/using/datamodel-introduction.md).
+>Du hittar en datamodellrepresentation av de inbyggda resurserna på [den här sidan](../../developing/using/datamodel-introduction.md).
 
 ## Översikt {#overview}
 
