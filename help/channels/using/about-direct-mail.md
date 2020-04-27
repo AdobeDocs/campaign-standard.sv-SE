@@ -13,7 +13,7 @@ context-tags: delivery,directMailContent,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
 
 ---
 
@@ -54,7 +54,7 @@ När du lägger till de fält som ska inkluderas i extraheringsfilen är postadr
 
 Adobe Campaign innehåller en uppsättning fördefinierade beräknade fält som följer de vanligaste normaliseringarna av postadresser. Fälten är tillgängliga i **[!UICONTROL Postal address]** noden.
 
-En adress kan som standard innehålla upp till sex rader: det första beräknade fältet ( **[!UICONTROL Line 1]** innehåller förnamn och efternamn, de följande raderna innehåller postadressen (väg, osv.) och den sista raden innehåller postnumret och ort eller stad.
+En adress kan som standard innehålla upp till sex rader: det första beräknade fältet (**[!UICONTROL Line 1]** innehåller förnamn och efternamn, de följande raderna innehåller postadressen (väg, osv.) och den sista raden innehåller postnumret och ort eller stad.
 
 ![](assets/direct_mail_23.png)
 
