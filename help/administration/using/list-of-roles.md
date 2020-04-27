@@ -13,7 +13,7 @@ context-tags: role,overview;role,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 88d0f67683c5209ccf25d1ceae1ab23b3ac14e06
+source-git-commit: 18db1b8cade7d88294ef2609dd4fad95c55fbd37
 
 ---
 
@@ -34,15 +34,10 @@ Standardrättigheterna är:
 
 * **[!UICONTROL Administration]**: Allmän administrationsrätt.
 * **[!UICONTROL Datamodel]**: Rätt att köra publikationer och skapa anpassade resurser.
-* **[!UICONTROL Export]**: Rätt att exportera data.
 * **[!UICONTROL Generic import]**: Rätt att köra en generisk import av data. För att detta ska fungera måste du länka **[!UICONTROL Generic import]** rollen till **[!UICONTROL Workflow]** rollen.
 * **[!UICONTROL Prepare deliveries]**: Rätt att skapa, ändra, förbereda och ta bort leveranser. Användare med den här rollen kan förbereda leveransen men inte skicka den.
 * **[!UICONTROL Start deliveries]**: Rätt att skapa, ändra, förbereda, skicka och ta bort leveranser.
 * **[!UICONTROL Workflow]**: Rätt att hantera körningen av arbetsflöden (starta, stoppa, pausa osv.). Användare med den här rollen kan inte skicka en leverans ens i ett arbetsflöde.
-
->[!IMPORTANT]
->
->Rollerna **[!UICONTROL Deliverability]**, **[!UICONTROL Command execution]**, **[!UICONTROL Export]** och **[!UICONTROL File access]** **[!UICONTROL Message Center push]** är endast avsedda för Adobes administratörer internt. De bör inte beviljas en användare.
 
 **Relaterade ämnen:**
 
