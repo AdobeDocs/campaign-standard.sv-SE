@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 86302762a46a814ecc9b14a5fe1bfe1a4a4e0437
+source-git-commit: b4cbc56973a57cde8af6cefa9ff89c7d29ab7b79
 
 ---
 
@@ -70,6 +70,9 @@ source-git-commit: 86302762a46a814ecc9b14a5fe1bfe1a4a4e0437
 
 * Antalet tecken som kan användas i fältet **Prefix** för att [testa meddelanden med målprofiler](../../sending/using/testing-messages-using-target.md) har ökat från 32 till 500 tecken.
 * Det maximala antalet realtidshändelser som kan publiceras på en instans har ökat från 350 till 2000. (CAMP-41608)
+* Synkroniseringen mellan Adobe Launch och Campaign Standard har förbättrats med hjälp av det tekniska arbetsflödet syncWithLaunch. Med det här arbetsflödet kan alla mobilegenskaper i Adobe Launch importeras automatiskt till Adobe Campaign Standard. Mer information finns på [den här sidan](../../administration/using/technical-workflows.md).
+
+   Du måste skicka in en anmälan till Adobes kundtjänst (antingen direkt eller via din Adobe-kontakt) för att det tekniska arbetsflödet syncWithLaunch ska aktiveras i Campaign-instansen. (CAMP-40082)
 
 **Förbättringar av e-postdesignern**
 
