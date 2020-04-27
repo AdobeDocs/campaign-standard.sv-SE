@@ -13,7 +13,7 @@ context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1deeead4ad311fd3ba3a5e9d27a67d3a1dadf3d2
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
@@ -30,14 +30,14 @@ Med menyn **[!UICONTROL Administration]** > **[!UICONTROL Development]** , som d
 
 De data som används av Adobe Campaign definieras med hjälp av olika resurser. Du kan **utöka datamallen** som tillhandahålls genom att skapa egna anpassade resurser, som köp- eller produktregister.
 
-Det går inte att ändra färdiga resurser (till exempel kampanjer, e-post eller målgrupper). Anpassade resurser kan dock utökas för att lägga till nya fält.
+Inbyggda resurser (som kampanjer, e-post eller målgrupper) kan inte ändras. Anpassade resurser kan dock utökas för att lägga till nya fält.
 
-Tilläggsfält genereras med ett prefix så att de aldrig hamnar i konflikt med de körklara fälten.
+Tilläggsfält genereras med ett prefix så att de aldrig hamnar i konflikt med de inbyggda fälten.
 
 >[!NOTE]
 >
->Du hittar en datamodellrepresentation för de färdiga resurserna [här](../../developing/using/datamodel-introduction.md).
+>Du hittar en datamodellrepresentation för de inbyggda resurserna på [den här sidan](../../developing/using/datamodel-introduction.md).
 
-Du kan också **konfigurera navigeringen** på skärmar som motsvarar den skapade resursen.
+Du kan också [konfigurera navigeringen](configuring-the-screen-definition.md) på skärmar som motsvarar den skapade resursen.
 
 Det går att **exportera och importera** anpassade resurser, till exempel från en utveckling till en produktionsmiljö. Mer information finns i det här [stegvisa användningsexemplet](../../automating/using/exporting-importing-custom-resources.md).
