@@ -12,22 +12,32 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 09c7f365969fe415f1bcdcc57e7cfbb9ed99b521
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
 
 # Dokumentationsuppdateringar{#documentation-updates}
 
-Läs om alla de senaste uppdateringarna av dokumentationen för Adobe Campaign Standard.
+Förutom [versionsinformationen](../../rn/using/release-notes.md)för Adobe Campaign listas alla nya uppdateringar i dokumentationen för Adobe Campaign Standard på den här sidan.
 
-På den här sidan visas alla nya funktioner och dokumentationsuppdateringar för varje release av Adobe Campaign Standard.
+## Version 20.3 - maj 2020 {#release-20-3---may-2020}
 
-Du kan även läsa [versionsinformationen](../../rn/using/release-notes.md)för Adobe Campaign.
+**Nya funktioner i releasen**
+
+Thailand&#39;s Personal Data Protection Act (PDPA) - [Läs mer](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html)
+
+Extern API-aktivitet (GA) - [Läs mer](../../automating/using/external-api.md)
+
+**Andra dokumentationsuppdateringar som följer med releasen**
+
+* Information har lagts till i **[!UICONTROL History in days]** fältet i arbetsflödesegenskaperna som nu innehåller filer som hämtats av **[!UICONTROL Transfer file]** aktiviteten. [Läs mer](../../automating/using/executing-a-workflow.md)
+
+* Information om gränsen på 500 tecken för ämnesradprefixet har lagts till i avsnittet om profiländring. [Läs mer](../../sending/using/testing-messages-using-target.md)
 
 ## Dokumentationsuppdateringar - april 2020 {#doc-updates-april-2020}
 
-Integreringen av Microsoft Dynamics 365 med Adobe Campaign Standard-dokumentationen har integrerats i kärndokumentationen i Integrering med andra lösningar. [Läs mer](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+Integreringen av Microsoft Dynamics 365 med Adobe Campaign Standard-dokumentationen finns nu tillgänglig i huvuddokumentationen. [Läs mer](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 Ytterligare resurser har lagts till på dokumentationsstartsidan. [Läs mer](../../campaign-standard-home.md)
 
@@ -35,7 +45,7 @@ Information om Experience Cloud ID Service (ECID) har lagts till i dokumentation
 
 Avsnittet Configuring transactional messaging har förbättrats med information om hur man får tillgång till de senaste transaktionshändelserna och uppdaterade skärmbilder. [Läs mer](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 
-Avsnittet om typologier och typologiregler har förbättrats och uppdaterats med ytterligare information om typologiregler som är klara att användas. [Läs mer](../../sending/using/about-typology-rules.md)
+Dokumentationen om typologier och typologiregler har förbättrats och uppdaterats med ytterligare information om inbyggda typologiregler. [Läs mer](../../sending/using/about-typology-rules.md)
 
 Information har lagts till om **[!UICONTROL Transfer file]** aktivitetens **[!UICONTROL File listing]** åtgärd. [Läs mer](../../automating/using/transfer-file.md)
 
@@ -48,6 +58,8 @@ Avsnittet **Förhandsgranska leveranser** har uppdaterats med exempel på mobila
 Bästa praxis har lagts till när det gäller transaktionsmeddelanden och borttagning av oanvända realtidshändelser. [Läs mer](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
 
 Avsnittet Konfigurera e-postkanal har uppdaterats med information om alla e-postinställningar som nu hanteras av Adobe Campaign Enhanced MTA. [Läs mer](../../administration/using/configuring-email-channel.md)
+
+Avsnittet Configuring transactional messaging har uppdaterats med ytterligare information om vilka rättigheter som krävs för att redigera händelsekonfigurationer och hur man förbättrar samlingar i transaktionsmeddelanden. [Läs mer](../../administration/using/configuring-transactional-messaging.md).
 
 ## Version 20.2 - april 2020 {#release-20-2---april-2020}
 
@@ -89,7 +101,7 @@ E-postdesignerdokumentationen för Campaign och tillhörande sidor har uppdatera
 
 Nu finns ett nytt avsnitt om de effektivaste strategierna med Campaign Standard-datamodellen. [Läs mer](../../developing/using/data-model-best-practices.md)
 
-Information har lagts till till till höger **[!UICONTROL Workflow]** i körklart läge. [Läs mer](../../administration/using/list-of-roles.md)
+Information har lagts till i den **[!UICONTROL Workflow]** inbyggda rättigheten. [Läs mer](../../administration/using/list-of-roles.md)
 
 Information har lagts till om de **[!UICONTROL History in days field]** tillgängliga egenskaperna för arbetsflöden. [Läs mer](../../automating/using/executing-a-workflow.md)
 
@@ -247,7 +259,7 @@ Det finns nu en ny artikel med tips som förenklar marknadsföringskampanjer, bl
 
 En felsökning har lagts till för dynamisk rapportering. [Läs mer](../../reporting/using/troubleshooting.md)
 
-Ett diagram som förklarar hur de olika mallarna i appen hanterar personlig information har lagts till. [Läs mer](../../channels/using/preparing-and-sending-an-in-app-message.md)
+Ett diagram som förklarar hur olika mallar i appen hanterar personlig information har lagts till. [Läs mer](../../channels/using/preparing-and-sending-an-in-app-message.md)
 
 Avsnittet om hur du sparar e-postinnehåll som ett fragment i e-postdesignern har uppdaterats. [Läs mer](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)
 
@@ -453,7 +465,7 @@ Uppdaterad guide för push-meddelanden med gränssnittsändringar. [Läs mer](..
 
 Lagt till information om hur du tar bort en målgrupp. [Läs mer](../../audiences/using/creating-audiences.md#deleting-audiences)
 
-Updated Push notification out-of-the-box report section. [Läs mer](../../reporting/using/push-notification-report.md)
+Uppdaterat inbyggt rapportavsnitt för push-meddelanden. [Läs mer](../../reporting/using/push-notification-report.md)
 
 ## Version 18.7 - juli 2018 {#release-18-7---july-2018}
 
@@ -577,7 +589,7 @@ Anrikningsaktivitet - berika data baserat på tidigare övergångar - [Läs mer]
 
 De flesta URL:er för integreringar med Campaign och Adobe-lösningar har ändrats! Kontrollera bokmärkena! [Läs mer](../../integrating/using/about-campaign-integrations.md)
 
-Datamodel v1 är nu tillgänglig med SQL-strukturen för körklara resurser - [Läs mer](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html)
+Datamodel v1 är nu tillgänglig med SQL-strukturen för inbyggda resurser - [Läs mer](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html)
 
 Tillagd information om hur du förbereder ett meddelande i en leverans [Läs mer](../../sending/using/preparing-the-send.md)
 
@@ -653,7 +665,7 @@ Ny teknik om hur du skapar eller uppdaterar profildata när en mobilapp skickar&
 
 Avsnittet innehåller information om nya funktioner för exportspårning. [Läs mer](../../administration/using/auditing-export-logs.md)
 
-Avancerade funktioner för paketexport. [Läs mer](../../automating/using/managing-packages.md)
+Ytterligare preciseringar om inbyggd paketexport. [Läs mer](../../automating/using/managing-packages.md)
 
 Den externa kontodefinitionen och exemplen har uppdaterats. [Läs mer](../../administration/using/external-accounts.md)
 
