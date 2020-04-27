@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Produktdokumentation för Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 5b6eff73d0abd9601b7ac1ca4d63bd8e78d8493b
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
@@ -15,11 +15,11 @@ source-git-commit: 5b6eff73d0abd9601b7ac1ca4d63bd8e78d8493b
 
 ## Nyheter
 
-* **[Testa e-post med målprofiler](sending/using/testing-messages-using-target.md)**<br/>Lär dig hur du testar e-postmeddelanden med riktiga målprofiler.
+* **[Testa e-post med målprofiler](sending/using/testing-messages-using-target.md)**<br/>Lär dig hur du testar e-postmeddelanden med riktiga målprofiler
 
-* **[Integritetshantering](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/> Läs mer om verktygen i Adobe Campaign som hjälper er att följa reglerna för integritetsskydd.
+* **[Sekretesshantering](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/> Läs mer om verktygen i Adobe Campaign som hjälper dig att följa din sekretesspolicy
 
-* **[Campaign Standard Mobile Guide](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/> Läs mer om allmänna riktlinjer för mobila leveranser.
+* **[Campaign Standard Mobile Guide](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/> Läs mer om allmänna riktlinjer för mobila leveranser
 
 [Klicka här för fler uppdateringar](rn/using/documentation-updates.md)
 
@@ -34,8 +34,7 @@ source-git-commit: 5b6eff73d0abd9601b7ac1ca4d63bd8e78d8493b
     <div>
     <a href="administration/using/about-access-management.md"><strong>Roller och säkerhetsgrupper</strong></a>
     </div>
-    <em>Lär dig hur du definierar behörigheter och tilldelar roller till Campaign-användare.</em>
-    <br>
+    <em>Lär dig hur du definierar behörigheter och tilldelar roller till Campaign-användare</em><br>
   </td>
   <td valign="top">
     <a href="designing/using/designing-content-in-adobe-campaign.md">
@@ -51,7 +50,7 @@ source-git-commit: 5b6eff73d0abd9601b7ac1ca4d63bd8e78d8493b
     <div><a href="https://helpx.adobe.com/campaign/kb/ac-support.html">
     <strong>Få support</strong></a>
     </div>
-    <p><em>Få tillgång till vanliga frågor, bästa praxis, hjälpresurser och kontakt med Campaign-experter.</em></p>
+    <p><em>Få tillgång till Frågor och svar, bästa praxis, hjälpresurser och kontakt med experterna</em></p>
     <br>
   </td>
 </tr>
