@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: be6751f2f966f99d2b986aeba0b3720d2e8c4599
+source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
 
 ---
 
@@ -32,7 +32,7 @@ För att händelsen ska kunna utlösa att ett transaktionsmeddelande skickas må
 >
 >För att få åtkomst till transaktionsmeddelanden måste du vara en del av **[!UICONTROL Administrators (all units)]** säkerhetsgruppen.
 >
->Händelsetransaktionsmeddelanden innehåller ingen profilinformation och är därför inte kompatibla med trötthetsregler (även när det gäller en anrikning med profiler). Se [Trötthetsregler](../../sending/using/fatigue-rules.md#choosing-the-channel).
+>Händelsetransaktionsmeddelanden innehåller ingen profilinformation och är därför inte kompatibla med trötthetsregler (även om det gäller en anrikning med profiler). Se [Trötthetsregler](../../sending/using/fatigue-rules.md#choosing-the-channel).
 
 ## Definiera en testprofil i ett transaktionsmeddelande {#defining-a-test-profile-in-a-transactional-message}
 
