@@ -12,14 +12,14 @@ discoiquuid: 064c5c4a-f579-4bab-adf3-51c92eb4518f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
+source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
 
 ---
 
 
 # Mallar för flerspråkiga meddelanden {#multilingual-messages-template}
 
-En flerspråkig mall är en specifik mall för hantering av flerspråkiga meddelanden. Den här typen av mall är tillgänglig för ****E-post** och **SMS-meddelanden** och kan användas i fristående läge, i ett arbetsflöde eller i en återkommande leverans.
+En flerspråkig mall är en specifik mall för hantering av flerspråkiga meddelanden. Den här typen av mall är tillgänglig för **e-post** - och **SMS-meddelanden** och kan användas i fristående läge, i ett arbetsflöde eller i en återkommande leverans.
 
 I de flerspråkiga funktionsmallarna baseras språkhanteringen på varianter. **Varje variant representerar ett språk**. Adobe Campaign Standard kan konfigurera maximalt 40 varianter.
 
