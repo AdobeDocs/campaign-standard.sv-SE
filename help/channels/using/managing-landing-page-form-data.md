@@ -13,7 +13,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 8c24e048c698f7ad699e83a753c114fcfd25f6a0
 
 ---
 
@@ -38,15 +38,12 @@ Indatafält används för att lagra eller uppdatera data i Campaign-databasen. D
 
    ![](assets/editing_lp_content_4.png)
 
-1. Välj ett databasfält som ska länkas till formulärfältet i **[!UICONTROL Field]** urvalszonen.
+1. Välj ett databasfält som ska länkas till formulärfältet i **[!UICONTROL Field]** urvalszonen. Det går bara att mappa landningssidor med **profiler**.
 
-   När **[!UICONTROL Mandatory]** alternativet är markerat kan sidan bara skickas om användaren har fyllt i det här fältet. Om ett obligatoriskt fält inte har fyllts i visas ett felmeddelande när användaren validerar sidan.
-
-   >[!NOTE]
-   >
-   >Det går bara att mappa landningssidor med **profiler**.
+1. Markera **[!UICONTROL Mandatory]** alternativet om det behövs. Sidan kan bara skickas om användaren har fyllt i det här fältet. Om ett obligatoriskt fält inte har fyllts i visas ett felmeddelande när användaren validerar sidan.
 
 1. Definiera fälttypen genom att t.ex. välja **[!UICONTROL Text]**, **[!UICONTROL Number]** eller **[!UICONTROL Date]** i **[!UICONTROL HTML type of the field]** markeringsområdet.
+Om du väljer ett obligatoriskt alternativ **[!UICONTROL Checkbox]** kontrollerar du att det är av **[!UICONTROL Field]** typen.
 
 >[!NOTE]
 >
