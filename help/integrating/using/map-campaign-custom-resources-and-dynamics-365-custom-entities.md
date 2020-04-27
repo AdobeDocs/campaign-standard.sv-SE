@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b0bc6c45127f58b00ba89f66da159c8f212db80a
+source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
 
 ---
 
@@ -35,7 +35,7 @@ En mer utförlig översikt över anpassade resurser för Campaign finns [på den
 
 Om du vill konfigurera integreringen för anpassade entiteter kan du kontakta [adobe-support@unifisoftware.com](mailto:adobe-support@unifisoftware.com) för att få detta gjort.  Unifi kräver namnen på de anpassade entitetstabellerna i båda systemen samt de attribut som önskas.  Unifi skapar sedan motsvarande jobb och scheman.
 
-Ett exempel på hur stöd för anpassade entiteter används finns i avsnittet [](../../integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md#UC)Användningsfall.
+Ett exempel på hur stöd för anpassade entiteter används visas nedan.
 
 >[!CAUTION]
 >
@@ -44,7 +44,6 @@ Ett exempel på hur stöd för anpassade entiteter används finns i avsnittet []
 
 
 ## Använd skiftläge
-
 
 ### Startläge
 
@@ -179,5 +178,5 @@ När ingressjobbet har slutförts kan fordonsdata nu visas i den nyligen ifyllda
 
 **Relaterade ämnen**
 
-* Arbeta med Adobe Campaign Standard - Microsoft Dynamics 365
-* Viktiga steg för att lägga till en anpassad resurs i Campaign
+* [Arbeta med Adobe Campaign Standard - Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+* [Viktiga steg för att lägga till en anpassad resurs i Campaign](../../developing/using/key-steps-to-add-a-resource.md)
