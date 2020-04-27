@@ -12,16 +12,16 @@ discoiquuid: 8dc45c37-6908-407e-8e41-4a4188cba2b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
 
 # Skapa eller utöka resursen{#creating-or-extending-the-resource}
 
-Administratörer kan skapa en ny resurs från grunden eller skapa ett tillägg till en befintlig resurs om du behöver arbeta med data som inte är en del av datamodellen som inte finns i systemet.
+Administratörer kan skapa en ny resurs från grunden eller skapa ett tillägg till en befintlig resurs om du behöver arbeta med data som inte ingår i den inbyggda datamodellen.
 
-Endast följande färdiga resurser kan utökas:
+Endast följande inbyggda resurser kan utökas:
 
 * **[!UICONTROL Campaign (campaign)]**
 * **[!UICONTROL Deliveries (delivery)]**
@@ -44,7 +44,7 @@ Så här skapar eller utökar du en resurs:
 
       >[!NOTE]
       >
-      >Vi rekommenderar att du använder högst 30 tecken.
+      >Använd högst 30 tecken.
 
    * **[!UICONTROL Extend an existing resource]**: Välj den resurs som du vill utöka.
 
