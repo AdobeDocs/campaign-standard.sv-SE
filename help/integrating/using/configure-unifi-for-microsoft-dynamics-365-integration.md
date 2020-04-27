@@ -12,7 +12,7 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
 
 ---
 
@@ -139,7 +139,7 @@ Följande frekvens rekommenderas för olika användningsfall:
 >
 >Som standard filtreras SEND-marknadsföringshändelser bort från adressjobbet.  Om du vill se SEND-marknadsföringshändelser i Dynamics 365, måste du ändra filtret (steg 5) för utpressningsjobbet i Unifi.
 
-Det finns två separata roller i Unifi, en ägaranvändare och en skrivskyddad analytikeranvändare. En ägaranvändare kan ändra jobb och scheman, men den skrivskyddade analytikern kan det inte.  Det kan bara finnas en ägaranvändare för en viss kundinstans.  Om kunden behöver ändra den person som tilldelats som ägaranvändare kan han/hon skicka ett e-postmeddelande till [adobe-support@unifisoftware.com](mailto: adobe-support@unifisoftware.com) med den begärda ändringen.
+Det finns två separata roller i Unifi, en ägaranvändare och en skrivskyddad analytikeranvändare. En ägaranvändare kan ändra jobb och scheman, men den skrivskyddade analytikern kan det inte.  Det kan bara finnas en ägaranvändare för en viss kundinstans.  Om kunden behöver ändra den person som tilldelats som ägaranvändare kan de skicka ett e-postmeddelande till [adobe-support@unifisoftware.com](mailto:adobe-support@unifisoftware.com) med den begärda ändringen.
 
 Unifi-konfiguration, jobbinformation, konfiguration och övervakning visas i videorna nedan.
 
