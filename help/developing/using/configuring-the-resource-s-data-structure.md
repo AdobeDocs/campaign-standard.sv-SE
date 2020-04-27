@@ -13,7 +13,7 @@ context-tags: cusResource,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bd83bb520a9822ffa9669076f90e6dc3397c6480
+source-git-commit: 6cf00f9b9bafdd54d8424a353b33dc689c0f59aa
 
 ---
 
@@ -159,7 +159,7 @@ En länk visar associationen som en tabell har med andra tabeller.
    >
    >Använd högst 30 tecken.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Det går inte att byta namn på en länk när den har skapats. Om du vill byta namn på en länk måste du ta bort den och skapa den igen.
 
@@ -254,7 +254,7 @@ Från Dynamic Reporting kan du dra och släppa den anpassade fältdimensionen i 
 
 Mer information om dynamisk rapportering finns i [Komponentlistan](../../reporting/using/list-of-components-.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Antalet fält som skickas till Dynamic Reporting är begränsat till 20.
 
