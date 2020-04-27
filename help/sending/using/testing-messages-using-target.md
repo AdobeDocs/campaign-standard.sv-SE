@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d5476cc6a93aac9805a3b471923bfffa8043a876
+source-git-commit: b44e4e7e6b48ebc5c618b014eacfc9909bc2661e
 
 ---
 
@@ -69,6 +69,10 @@ Om du vill använda målprofiler för testning måste du först markera dem och 
 
    Om du vill lägga till ett specifikt prefix till korrekturens ämnesrad fyller du i **[!UICONTROL Subject line prefix]** fältet.
 
+   >[!NOTE]
+   >
+   >Ämnesradens prefix kan innehålla upp till 500 tecken.
+
    ![](assets/substitution_address.png)
 
    Prefixet visas enligt nedan:
@@ -116,6 +120,10 @@ Så här importerar du profiler som ska användas för testning från en målgru
    ![](assets/substitution_audience_import.png)
 
 1. Välj den målgrupp som ska användas och ange sedan ersättningsadressen och det prefix som ska användas för korrekturet som skickas till målgruppen.
+
+   >[!NOTE]
+   >
+   >Ämnesradens prefix kan innehålla upp till 500 tecken.
 
    ![](assets/substitution_audience_define.png)
 
