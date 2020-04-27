@@ -4,7 +4,7 @@ sub-product: adobe kampanjstandard
 audience: end-user
 user-guide-title: Hjälp om Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 79dcfb4f2e58314f3c2eafb9443d5e3da2028203
+source-git-commit: e92cb80e6a3a37578899081d601654eb64a6dfed
 
 ---
 
@@ -96,6 +96,9 @@ source-git-commit: 79dcfb4f2e58314f3c2eafb9443d5e3da2028203
       + [Skapa ett flerspråkigt push-meddelande](channels/using/creating-a-multilingual-push-notification.md)
       + [Generera en CSV-fil för flerspråkiga push-meddelanden](channels/using/generating-csv-multilingual-push.md)
       + [Skapa och uppdatera profilinformation baserat på mobilprogramdata](channels/using/updating-profile-with-mobile-app-data.md)
+      + [Implementera penselspårning](channels/using/push-tracking.md)
+      + [Visa en bild från ett push-meddelande för Adobe Campaign Standard](channels/using/image-push-notification.md)
+      + [Förstå nyttolaststrukturen för push-meddelanden i Campaign Standard](channels/using/push-payload.md)
    + Meddelanden i appen {#in-app-messaging}
       + [Om meddelanden i appen](channels/using/about-in-app-messaging.md)
       + [Förbereda och skicka ett meddelande i appen](channels/using/preparing-and-sending-an-in-app-message.md)
