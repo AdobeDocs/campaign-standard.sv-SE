@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5c1a540475b7d93c18c957243ee2a403b8154aa3
+source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
 
 ---
 
@@ -41,25 +41,26 @@ Adobe Campaign Standard är kompatibelt med Adobe Experience Manager 6.1, 6.2, 6
 
    Genom att konfigurera Externalizer när du implementerar Experience Manager för Adobe Campaign Standard kan du omvandla en resurssökväg till en URL. På så sätt kan du göra bilderna synliga på sidan. Om Externalizer inte är korrekt konfigurerad kommer dina e-postmeddelanden att innehålla trasiga bilder.
 
-   Mer information om hur du konfigurerar externaliseraren finns på den här [sidan](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/externalizer.html)
+   Mer information om hur du konfigurerar externaliseraren finns på den här [sidan](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/externalizer.html).
 
 * **Ordna e-postmallarna för att undvika missbruk.**
 
    Genom att hålla mallarna organiserade kan du vara säker på att rätt mallar finns i rätt mappar och inte välja fel av misstag. Under implementeringen bör sökvägar skapas för att spara mallar på rätt plats.
 
-   Mer information om mallar finns på den här [sidan](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/templates.html#template-availability)
+   Mer information om mallar finns på den här [sidan](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/templates.html#template-availability).
 
 * **Kom igång snabbt med färdiga komponenter.**
 
    Med färdiga komponenter i Adobe Experience Manager för Adobe Campaign Standard kan ni snabbt komma igång om mallarna inte är komplexa.
 Det finns sju färdiga komponenter i Experience Manager som du kan börja använda:
-   1. Rubrik
-   1. Bild
-   1. Länk
-   1. Scene7 Image Template
-   1. Riktad referens
-   1. Text och bild
-   1. Text och personalisering
+
+   * Rubrik
+   * Bild
+   * Länk
+   * Scene7 Image Template
+   * Riktad referens
+   * Text och bild
+   * Text och personalisering
 
 * **HTML för e-post skiljer sig från HTML för webben**
 
