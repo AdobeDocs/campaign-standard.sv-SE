@@ -12,20 +12,20 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 6bf67d05ec8f5b4024df29c7ee7df7fc15e95e0a
 
 ---
 
 
 # Om dynamiska rapporter{#about-dynamic-reports}
 
+Dynamic Reporting ger helt anpassningsbara rapporter i realtid. Det ger åtkomst till profildata, vilket möjliggör demografiska analyser efter profildimensioner som kön, ort och ålder, utöver funktionella e-postkampanjdata som öppningar och klick. Med dra-och-släpp-gränssnittet kan ni utforska data, avgöra hur era e-postkampanjer har genomförts mot era viktigaste kundsegment och mäta deras påverkan på mottagarna.
+
 >[!NOTE]
 >
 >Endast användare med administrationsbehörighet eller organisationsenheter inställda på **Alla** kan skapa eller spara en ny rapport. For more on this, refer to this [section](../../administration/using/users-management.md).
 
 ![](assets/dynamic_report_intro.png)
-
-Dynamic Reporting ger helt anpassningsbara rapporter i realtid. Det ger åtkomst till profildata, vilket möjliggör demografiska analyser efter profildimensioner som kön, ort och ålder, utöver funktionella e-postkampanjdata som öppningar och klick. Med dra-och-släpp-gränssnittet kan ni utforska data, avgöra hur era e-postkampanjer har genomförts mot era viktigaste kundsegment och mäta deras påverkan på mottagarna.
 
 Tack vare dra-och-släpp-menyn och anpassningsbara visualiseringar kan du med funktionen för dynamiska rapporter kombinera mått, mätvärden och tidsintervall i valfri kombination, med obegränsade uppdelningar och jämförelser.
 
