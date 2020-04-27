@@ -12,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
+source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 ---
 
@@ -21,9 +21,11 @@ source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
 
 Om du vill skicka ett transaktionsmeddelande med Adobe Campaign måste du först beskriva strukturen för händelsedata.
 
-Händelsekonfigurationen måste utföras av en **administratör** enligt följande steg:
+Händelsekonfigurationen måste utföras av en [administratör](../../administration/using/users-management.md#functional-administrators) enligt stegen nedan.
 
-Konfigurationen kan variera beroende på vilken typ av transaktionsmeddelande du vill skicka. Mer information om detta finns i [Transactional Event-specifika konfigurationer](#transactional-event-specific-configurations)
+>[!NOTE]
+>
+>Konfigurationen kan variera beroende på vilken typ av transaktionsmeddelande du vill skicka. Mer information finns i [Transactional Event-specifika konfigurationer](#transactional-event-specific-configurations).
 
 När händelsen har publicerats skapas motsvarande transaktionsmeddelande automatiskt. Mer information om transaktionsmeddelanden finns på [den här sidan](../../channels/using/about-transactional-messaging.md).
 
@@ -33,7 +35,7 @@ Börja med att skapa den händelse som passar dina behov.
 
 >[!NOTE]
 >
->Antalet skapade realtidshändelser kan påverka din plattform. För att få bästa möjliga prestanda bör du ta bort händelser i realtid som du inte längre behöver. Se [Ta bort en händelse](../../administration/using/configuring-transactional-messaging.md#deleting-an-event).
+>Endast användare som har rollen och är en del av **[!UICONTROL Administration]** organisationsenheten **[!UICONTROL All]** [](../../administration/using/organizational-units.md) har rätt behörighet att skapa en händelsekonfiguration.
 
 1. Klicka på **[!UICONTROL Adobe Campaign]** logotypen i det övre vänstra hörnet och välj sedan **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Klicka på **[!UICONTROL Create]** knappen.
@@ -55,6 +57,10 @@ Börja med att skapa den händelse som passar dina behov.
 
    Händelsebaserade transaktionsmeddelanden måldata i själva händelsen, medan profilbaserade transaktionsmeddelanden måldata i Adobe Campaign-databasen. Mer information finns i [Transactional Event-specifika konfigurationer](#transactional-event-specific-configurations).
 
+>[!NOTE]
+>
+>Antalet skapade realtidshändelser kan påverka din plattform. För att få bästa möjliga prestanda bör du ta bort händelser i realtid som du inte längre behöver. Se [Ta bort en händelse](#deleting-an-event).
+
 ## Definiera händelseattributen {#defining-the-event-attributes}
 
 I **[!UICONTROL Fields]** avsnittet definierar du de attribut som ska integreras i händelseinnehållet och sedan kan användas för att anpassa transaktionsmeddelandet.
@@ -71,7 +77,7 @@ Stegen för att lägga till och ändra fält är desamma som för [anpassade res
 
 Du kan lägga till en samling element i händelseinnehållet, där varje element innehåller flera attribut.
 
-Den här samlingen kan användas i ett transaktionsmejl för att lägga till produktlistor till innehållet i meddelandet, till exempel en lista med produkter - med pris, referensnummer, kvantitet osv. för varje produkt i listan.
+Den här samlingen kan användas i ett transaktionsmejl för att lägga till [produktlistor](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message) i innehållet i meddelandet, till exempel en lista över produkter - med pris, referensnummer, kvantitet osv. för varje produkt i listan.
 
 1. Klicka på **[!UICONTROL Collections]** knappen i **[!UICONTROL Create element]** avsnittet.
 
@@ -84,6 +90,12 @@ Den här samlingen kan användas i ett transaktionsmejl för att lägga till pro
 
    ![](assets/message-center_collection_fields.png)
 
+1. På fliken **[!UICONTROL Enrichment]** kan du berika varje objekt i samlingen. På så sätt kan du anpassa elementen i motsvarande produktlista med information från Adobe Campaign-databasen eller från andra resurser som du har skapat.
+
+>[!NOTE]
+>
+>Stegen för att förbättra elementen i en samling är desamma som beskrivs i avsnittet [Förbättra händelsen](#enriching-the-transactional-message-content) . Observera att du inte kan utöka en samling genom att berika händelsen: du behöver lägga till en berikning i själva samlingen i **[!UICONTROL Collections]** -avsnittet.
+
 När händelsen och meddelandet har publicerats kan du använda den här samlingen i ditt transaktionsmeddelande.
 
 Här är API-förhandsvisningen för det här exemplet:
@@ -95,9 +107,9 @@ Här är API-förhandsvisningen för det här exemplet:
 * [Förhandsgranska och publicera evenemanget](#previewing-and-publishing-the-event)
 * [Använda produktlistor i ett transaktionsmeddelande](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
-## Förbättra transaktionens meddelandeinnehåll {#enriching-the-transactional-message-content}
+## Förbättra händelsen {#enriching-the-transactional-message-content}
 
-Genom att förbättra transaktionsmeddelandets innehåll med information från Adobe Campaign-databasen kan ni personalisera era meddelanden. Från efternamnet eller CRM-ID:t för var och en av mottagarna kan du till exempel återställa data som adress eller födelsedatum eller andra anpassade fält som lagts till i profiltabellen, för att anpassa informationen som skickas till dem.
+Ni kan utöka transaktionsmeddelandets innehåll med information från Adobe Campaign-databasen för att personalisera era meddelanden. Från efternamnet eller CRM-ID:t för var och en av mottagarna kan du till exempel återställa data som adress eller födelsedatum eller andra anpassade fält som lagts till i profiltabellen, för att anpassa informationen som skickas till dem.
 
 Det går att utöka transaktionsmeddelandets innehåll med information från utökat **[!UICONTROL Profile and services Ext API]**. Mer information finns i [Utöka API: Publicera tillägget](../../developing/using/step-2--publish-the-extension.md)
 
