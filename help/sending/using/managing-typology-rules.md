@@ -13,7 +13,7 @@ context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c5b1882e143924f94530c166b6af61a1bce30d72
+source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
 
 ---
 
@@ -42,21 +42,21 @@ De viktigaste stegen för att skapa en typologiregel är följande:
 
 1. Gå till **[!UICONTROL Administration]** / **[!UICONTROL Channels]** / **[!UICONTROL Typologies]** / **[!UICONTROL Typology rules]** och klicka sedan på **[!UICONTROL Create]**.
 
-![](assets/typology_create-rule.png)
+   ![](assets/typology_create-rule.png)
 
 1. Ange typologin **[!UICONTROL Label]** och ange **[!UICONTROL Channel]** till vilken regel ska gälla.
 
-![](assets/typology-rule-label.png)
+   ![](assets/typology-rule-label.png)
 
 1. Ange typologiregeln **[!UICONTROL Type]** och konfigurera den efter dina behov. Observera att typologiregelkonfigurationen varierar beroende på vilken typ de har. Mer information finns i avsnitten **[Filtreringsregler](../../sending/using/filtering-rules.md)**och**[ Trötthetsregler](../../sending/using/fatigue-rules.md)** .
 
 1. Markera de typologier som du vill inkludera den nya regeln i. Det gör du genom att markera **[!UICONTROL Typologies]** fliken och sedan klicka på **[!UICONTROL Create element]** knappen.
 
-![](assets/typology-typologies-tab.png)
+   ![](assets/typology-typologies-tab.png)
 
 1. Välj önskad typologi och klicka sedan på **[!UICONTROL Confirm]**.
 
-![](assets/typology-link.png)
+   ![](assets/typology-link.png)
 
 1. När du har valt alla typologier klickar du **[!UICONTROL Create]** för att bekräfta att du har skapat typologiregeln.
 
