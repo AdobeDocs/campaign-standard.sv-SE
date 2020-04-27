@@ -13,14 +13,14 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9b632bdd9d2546b40fd00cc4ef8800dd88fa55de
+source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 ---
 
 
 # Konfigurera e-postkanal{#configuring-email-channel}
 
-Som [kampanjadministratör](../../administration/using/about-administrating-adobe-campaign.md)kan du konfigurera inställningar för e-postkanaler. Dessa avancerade inställningar omfattar allmänna parametrar för e-postkanal, e-postroutningskonton, regler för e-postbearbetning och e-postegenskaper. På den här sidan får du lära dig hur du redigerar standardvärdena för den allmänna e-postadressen och skickar parametrar.
+Som [kampanjadministratör](../../administration/using/users-management.md#functional-administrators)kan du konfigurera inställningar för e-postkanaler. Dessa avancerade inställningar omfattar allmänna parametrar för e-postkanal, e-postroutningskonton, regler för e-postbearbetning och e-postegenskaper. På den här sidan får du lära dig hur du redigerar standardvärdena för den allmänna e-postadressen och skickar parametrar.
 
 Observera att vissa e-postinställningar nu hanteras av Adobe Campaign Enhanced MTA. Därför:
 * Vissa konfigurationer i gränssnittet för Campaign används inte längre:
@@ -273,7 +273,7 @@ Förberedelser av meddelanden beskrivs i avsnittet [Godkännandemeddelanden](../
 
    >[!NOTE]
    >
-   >Typologier, som du kommer åt via **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** -menyn, presenteras i avsnittet [Typologier](../../sending/using/about-typology-rules.md) .
+   >Typologier, som du kommer åt via **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** -menyn, presenteras i [det här avsnittet](../../sending/using/about-typology-rules.md).
 
 * **[!UICONTROL Compute the label during delivery preparation]**: gör att du kan beräkna etikettvärdet för e-postmeddelandet under meddelandets förberedelsefas med hjälp av anpassningsfält, innehållsblock och dynamisk text.
 
