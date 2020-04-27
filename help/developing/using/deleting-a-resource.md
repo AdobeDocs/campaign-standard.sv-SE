@@ -12,7 +12,7 @@ discoiquuid: 0130733d-4e3f-40cd-b959-56381f2c8f44
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
+source-git-commit: 6cf00f9b9bafdd54d8424a353b33dc689c0f59aa
 
 ---
 
@@ -24,7 +24,7 @@ Om du vill ta bort en resurs måste den aktuella resursen vara en **[!UICONTROL 
 * Den har precis skapats och har ännu inte publicerats.
 * Om den redan har publicerats måste resursen omarbetas.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Att skriva om och ta bort en anpassad resurs är känsliga åtgärder som kan påverka andra resurser. Dessa åtgärder får endast utföras av en expertanvändare.
 
