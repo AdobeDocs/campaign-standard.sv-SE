@@ -13,7 +13,7 @@ context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
 
 ---
 
@@ -43,7 +43,7 @@ I det specifika sammanhanget för ett A/B-test:
 
    >[!NOTE]
    >
-   >Uppföljnings- och A/B-testmallar är dolda som standard. Markera A/B-testrutan till vänster ( **[!UICONTROL Filter]** sidopanelen) för att visa dem.
+   >Uppföljnings- och A/B-testmallar är dolda som standard. Markera A/B-testrutan till vänster (**[!UICONTROL Filter]** sidopanelen) för att visa dem.
 
 1. Definiera de allmänna egenskaperna och målgruppen för e-postmeddelandet, precis som för ett vanligt e-postmeddelande. Se avsnittet [Skapa målgrupper](../../audiences/using/creating-audiences.md) .
 1. Definiera A/B-testparametrarna i det fjärde steget i guiden Skapa:
@@ -71,7 +71,7 @@ I det specifika sammanhanget för ett A/B-test:
 1. Innan du skickar A/B-testet bör du kontrollera din e-post genom att skicka korrektur.
 1. När beredningen är klar, bekräfta att testet har skickats. När A/B-testparametrarna har bekräftats kan de inte ändras.
 
-   A/B-testet startar på det datum som anges i **[!UICONTROL Schedule]**.Du kan följa förloppet med hjälp av **[!UICONTROL A/B test]** blocken och **[!UICONTROL Deployment]** .
+   A/B-testet startar på det datum som anges i **[!UICONTROL Schedule]**. Du kan följa förloppet med hjälp av **[!UICONTROL A/B test]** - och **[!UICONTROL Deployment]** -blocken.
 
    Du kan när som helst välja vinnande variant manuellt om du vill korta testperioden.
 
