@@ -12,7 +12,7 @@ discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 396084934a41d103eecd6fe141c700c118000f75
+source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
 
 ---
 
@@ -60,7 +60,7 @@ Följ de här stegen för att skapa en filtreringstypologiregel:
 
 1. Välj **[!UICONTROL Filtering]** regeltyp och ange sedan önskad kanal.
 
-1. Välj prenumerationerna i **[!UICONTROkategorin på fliken]** Filtreringsvillkor **[!UICONTROL Subscription]** .
+1. På **[!UICONTROL Filtering criteria]** fliken väljer du prenumerationerna i **[!UICONTROL Subscription]** kategorin.
 
    ![](assets/typology_create-rule-subscription.png)
 
