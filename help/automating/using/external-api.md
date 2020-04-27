@@ -10,7 +10,7 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8f3c8f9a167f11ba5ded2be34a50b52edeeb6412
+source-git-commit: e545e0ffba80f6165242f6974adf0e4c4abafff4
 
 ---
 
@@ -21,23 +21,35 @@ source-git-commit: 8f3c8f9a167f11ba5ded2be34a50b52edeeb6412
 
 ![](assets/wf_externalAPI.png)
 
-Aktiviteten hämtar data till arbetsflödet från ett **[!UICONTROL External API]** externt system **via ett** REST API **** -anrop.
+Aktiviteten hämtar data till arbetsflödet från ett **[!UICONTROL External API]** externt system **via ett** HTTP API **** -anrop.
 
-REST-slutpunkterna kan vara ett kundhanteringssystem, en [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html) -instans eller en Experience Cloud REST-slutpunkt (Data Platform, Target, Analytics, Campaign, etc.).
+De externa systemslutpunkterna kan vara offentliga API-slutpunkter, kundhanteringssystem eller serverlösa programinstanser (t.ex. [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html)), för att nämna några kategorier.
 
 >[!NOTE]
 >
 >Av säkerhetsskäl stöds inte JSSP:er i Campaign Standard. Om du behöver köra kod kan du anropa en Adobe I/O Runtime-instans via aktiviteten External API.
-
->[!IMPORTANT]
->
->Den här funktionen är för närvarande i betaversion. Du måste godkänna användningsavtalet innan du börjar använda aktiviteten Externt API. Observera att eftersom denna betafunktion ännu inte har lanserats kommersiellt av Adobe så stöds den inte av Adobe Client Care, eftersom den kan innehålla fel och kanske inte fungerar som den ska med andra funktioner.
 
 De viktigaste egenskaperna för denna verksamhet är:
 
 * Möjlighet att skicka data i ett JSON-format till en REST API-slutpunkt från tredje part
 * Möjlighet att få ett JSON-svar tillbaka, mappa det till utdatatabeller och skicka det vidare till andra arbetsflödesaktiviteter.
 * Felhantering med en utgående specifik övergång
+
+### Övergång från betaversion till GA {#from-beta-to-ga}
+
+Med Campaign Standard 20.3 har funktionerna för externa API gått från betaversion till allmän tillgänglighet (GA).
+
+Om du använder externa API-betaaktiviteter måste du därför ersätta dem med externa API-aktiviteter för GA i alla arbetsflöden.  Arbetsflöden som använder betaversionen av det externa API:t slutar fungera med version 20.3.
+
+När du ersätter externa API-aktiviteter lägger du till den nya externa API-aktiviteten i arbetsflödet, kopierar manuellt över konfigurationsinformationen och tar sedan bort den gamla aktiviteten.
+
+>[!NOTE]
+>
+>Du kan inte kopiera över rubrikvärden eftersom de är maskerade i aktiviteten.
+
+Därefter konfigurerar du om andra aktiviteter i arbetsflödet som pekar på och/eller använder data från den externa betaversionen av API-aktiviteten till att peka på och/eller använda data från den nya externa API-aktiviteten i stället. Exempel på aktiviteter: e-postleverans (anpassningsfält), anrikningsaktivitet osv.
+
+### Begränsningar och skyddsräcken {#guardrails}
 
 Följande skyddsutkast har införts för den här aktiviteten:
 
@@ -49,7 +61,21 @@ Följande skyddsutkast har införts för den här aktiviteten:
 
 >[!CAUTION]
 >
->Observera att aktiviteten är avsedd för hämtning av kampanjomfattande data (senaste uppsättningen erbjudanden, senaste resultat osv.) inte för att hämta specifik information för varje profil eftersom detta kan leda till att stora mängder data överförs. Om användningsfallet kräver detta bör aktiviteten [Överför fil](../../automating/using/transfer-file.md) användas.
+>Observera att aktiviteten är avsedd för att hämta kampanjomfattande data (senaste erbjudanden, senaste poängen osv.), inte för att hämta specifik information för varje profil eftersom det kan leda till att stora mängder data överförs. Om användningsfallet kräver detta bör aktiviteten [Överför fil](../../automating/using/transfer-file.md) användas.
+
+
+Särskilda skyddsräcken har införts för JSON:
+
+* **Högsta JSON-djup**: begränsa det maximala djupet för en anpassad kapslad JSON som kan bearbetas till 10 nivåer.
+* **JSON-maxnyckellängd**: begränsa maxlängden för den interna nyckel som genereras till 255. Den här nyckeln är kopplad till kolumn-ID:t.
+* **Högsta tillåtna** JSON-dubblettnycklar:  begränsa det maximala antalet dubblerade JSON-egenskapsnamn, som används som kolumn-ID, till 150.
+
+
+Aktiviteten stöds inte i JSON-strukturen som:
+
+* Kombinera arrayobjekt med andra icke-arrayelement
+* JSON-arrayobjektet kapslas inom ett eller flera mellanliggande arrayobjekt.
+
 
 ## Konfiguration {#configuration}
 
@@ -64,7 +90,7 @@ Utifrån den här tillfälliga tabellen kan användaren ändra inkommande data.
 
 I listrutan **Inkommande resurs** kan du välja den frågeaktivitet som ska skapa det tillfälliga registret.
 
-Kryssrutan **Lägg till räkningsparameter** anger ett räkningsvärde för varje rad som kommer från den temporära tabellen. Observera att den här kryssrutan endast är tillgänglig om den inkommande aktiviteten genererar en tillfällig tabell.
+Kryssrutan **Lägg till räkningsparameter** lägger till ett räkningsvärde för varje rad som kommer från den temporära tabellen. Observera att den här kryssrutan endast är tillgänglig om den inkommande aktiviteten genererar en tillfällig tabell.
 
 I avsnittet **Inkommande kolumner** kan användaren lägga till fält från den inkommande övergångstabellen. De markerade kolumnerna är nycklarna i dataobjektet. Dataobjektet i JSON blir en arraylista som innehåller data för markerade kolumner från varje rad i tabellen för inkommande övergångar.
 
@@ -76,17 +102,26 @@ På den här fliken kan du definiera exempelstrukturen för **JSON** som returne
 
 ![](assets/externalAPI-outbound.png)
 
-JSON-strukturmönstret är: `{“data”:[{“key”:“value”}, {“key”:“value”},...]}`
+JSON-parsern är utformad för att rymma JSON-standardstrukturmönstertyper, med några undantag. Ett exempel på ett standardmönster är:`{“data”:[{“key”:“value”}, {“key”:“value”},...]}`
 
 JSON-exempeldefinitionen måste ha **följande egenskaper**:
 
-* **data** är ett obligatoriskt egenskapsnamn i JSON. Innehållet i data är en JSON-array.
 * **Arrayelement** måste innehålla egenskaper på första nivån (djupare nivåer stöds inte).
    **Egenskapsnamn** blir till kolumnnamn för utdatabadet i den temporära utdatatabellen.
+* **JSON-element** som ska hämtas måste vara på 10 eller färre kapslingsnivåer inom JSON-svaret.
 * **Kolumnnamnsdefinitionen** baseras på det första elementet i arrayen &quot;data&quot;.
 Kolumndefinition (lägg till/ta bort) och egenskapens typvärde kan redigeras på fliken **Kolumndefinition** .
 
-Om **tolkningen valideras** visas ett meddelande som bjuder in dig att anpassa datamappningen på fliken Kolumndefinition. I andra fall visas ett felmeddelande.
+**Förenkla kryssrutebeteende** :
+
+Kryssrutan Förenkla (standard: unchecked) anges för att ange om JSON ska förenklas till en nyckel/värdekarta eller inte.
+
+* När **kryssrutan är inaktiverad** (avmarkerad) tolkas JSON-exempelfilen så att den söker efter ett arrayobjekt. Användaren måste ange en trimmad version av JSON-formatet för API-svarsexemplet så att Adobe Campaign kan avgöra exakt vilken array som användaren är intresserad av att använda. Vid redigering av arbetsflödet bestäms och registreras sökvägen till det kapslade arrayobjektet så att den kan användas vid körning för att komma åt det arrayobjektet från JSON-svarstexten som tas emot från API-anropet.
+
+* När **kryssrutan är aktiverad** (markerad) förenklas JSON-exempelfilen och alla egenskaper som anges i det angivna exemplet JSON används för att skapa kolumner i den temporära utdatatabellen och visas på fliken Kolumndefinitioner. Observera att om det finns ett arrayobjekt i JSON-exempelfilen, kommer även alla element i dessa arrayobjekt att förenklas.
+
+
+Om **tolkningen valideras** visas ett meddelande som uppmanar dig att anpassa datamappningen på fliken Kolumndefinition. I andra fall visas ett felmeddelande.
 
 ### Körning
 
