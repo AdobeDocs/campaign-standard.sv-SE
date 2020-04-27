@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b71d19672efe24040d676bbcff3f90177b3fbcae
+source-git-commit: e5c21e1398d5fbe39761ab00ada24263317e6742
 
 ---
 
@@ -108,7 +108,7 @@ Knappen ![](assets/pause_darkgrey-24px.png) pausar körningen. Arbetsflödet få
 
 **Stoppa**
 
-Knappen ![](assets/stop_darkgrey-24px.png) stoppar ett arbetsflöde som körs, som sedan får statusen **Färdigt** (grönt). De pågående åtgärderna avbryts om det är möjligt, och import- eller SQL-frågor avbryts omedelbart. Du kan inte återuppta arbetsflödet från samma plats som det stoppades.
+Knappen ![](assets/stop_darkgrey-24px.png) stoppar ett arbetsflöde som körs, som sedan får statusen **Färdigt** (grönt). De pågående åtgärderna avbryts om det är möjligt och import- eller SQL-frågor avbryts omedelbart. Du kan inte återuppta arbetsflödet från samma plats som det stoppades.
 
 **Starta om**
 
@@ -199,7 +199,7 @@ Möjliga alternativ är:
 
 * **[!UICONTROL Default affinity]**: I det här fältet kan du tvinga ett arbetsflöde eller en arbetsflödesaktivitet att köras på en viss dator.
 
-* **[!UICONTROL History in days]**: Anger antalet dagar efter vilka historiken måste rensas. Historiken består av alla element som är relaterade till loggar, uppgifter och händelser. Standardvärdet är 30 dagar för färdiga arbetsflödesmallar.
+* **[!UICONTROL History in days]**: Anger antalet dagar efter vilka historiken måste rensas. Historiken innehåller element som är relaterade till arbetsflödet: loggar, uppgifter, händelser (tekniska objekt som är länkade till arbetsflödesåtgärden) samt filer som hämtats av **[!UICONTROL Transfer file]** aktiviteten. Standardvärdet är 30 dagar för färdiga arbetsflödesmallar.
 
    Historiken rensas av det tekniska arbetsflödet för databasrensning som utförs som standard varje dag (se [Lista över tekniska arbetsflöden](../../administration/using/technical-workflows.md)).
 
