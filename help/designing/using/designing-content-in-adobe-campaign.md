@@ -12,7 +12,7 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: eb7758c6d2b19bb7a302649626acead97497da9a
 
 ---
 
@@ -111,7 +111,7 @@ För att kunna använda e-postdesignern på rätt sätt och skapa de bästa e-po
 
 * Om du importerar ZIP-filer som innehåller ditt HTML-innehåll ska du använda vanlig CSS. SCSS-formatmallar stöds inte.
 
-* Ordna er varumärkesprofilering enkelt genom att skapa och återanvända innehållsfragment för att få enhetliga marknadsföringskampanjer.
+* Ordna er varumärke enkelt genom att skapa och återanvända innehållsfragment för att få enhetliga marknadsföringskampanjer.
 
    Se [Skapa ett innehållsfragment](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
 
@@ -152,7 +152,7 @@ Observera följande när det gäller fragment:
 * När du redigerar format är bara de webbteckensnitt som officiellt stöds av de flesta e-postklienter tillgängliga.
 * Det går inte att spara format som ett tema för framtida återanvändning. CSS-formatet kan dock sparas i en innehållsmall eller i ett e-postmeddelande. Mer information om format finns i [det här avsnittet](../../designing/using/styles.md).
 
-**Relaterade ämnen**:
+**Relaterade ämnen**
 
 * [Skapa ett e-postmeddelande](../../channels/using/creating-an-email.md)
 * [Utforma en landningssida](../../channels/using/designing-a-landing-page.md)
