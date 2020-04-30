@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 327d0e4f862b39c60fb3943d1128f4f42828bc0d
+source-git-commit: 9388df151eabbc6f63461e854d0276c14d9ef93d
 
 ---
 
@@ -70,7 +70,7 @@ Det finns även instruktionsvideor på [den här sidan](https://docs.adobe.com/c
 
 * Det går inte att överföra prenumerationshändelser direkt. Om du vill överföra prenumerationshändelser kan du skapa motsvarande XDM och datauppsättning på Adobe Experience Platform och sedan konfigurera en anpassad datamappning för dessa data.
 
-* När det gäller förfrågningar om integritet måste kunderna göra separata förfrågningar för Campaigns centrala integritetstjänst och Adobe Experience Platform för både åtkomst- och borttagningsåtgärder.
+* När det gäller förfrågningar om sekretess (både åtkomst- och borttagningsåtgärder) måste kunderna göra separata förfrågningar: en för Campaign via integreringen med bastjänsten för sekretess (se [detta avsnitt](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess)) och en för Adobe Experience Platform via [Integritetstjänsten](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa). Mer information om begäranden om åtkomst och borttagning finns på [den här sidan](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess).
 
 * För varje XDM-fält måste DULE-etiketteringen göras i Adobe Experience Platform. Det är kundens ansvar att använda DULE-etiketter.
 
