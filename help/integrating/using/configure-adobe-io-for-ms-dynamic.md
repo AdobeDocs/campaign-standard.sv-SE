@@ -12,7 +12,7 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
+source-git-commit: 4e05dafb087c43a13c60d6bb2f54d0e44455ea8d
 
 ---
 
@@ -136,7 +136,7 @@ Exempel:  Campaign Standard - ditt kampanjorganisations-ID - Administratörer
 
 Klicka på **[!UICONTROL Create Integration]**.
 
-![](assets/MSdynACSIntegration-4B.png)
+![](assets/do-not-localize/MSdynACSIntegration-4B.png)
 
 ### Ställ in integreringsinformation
 
@@ -144,13 +144,13 @@ Klicka på **[!UICONTROL Create Integration]**.
 
 Granska integreringsinformationen.  Du måste referera tillbaka till dem när du kör Unifi efter etableringen.
 
-![](assets/MSdynACSIntegration-5.png)
+![](assets/do-not-localize/MSdynACSIntegration-5.png)
 
 1. Klicka över till **[!UICONTROL Services]** fliken och lägg till **[!UICONTROL I/O Events]** och **[!UICONTROL I/O Management API]** tjänster.  Om du vill lägga till tjänsten klickar du på alternativknappen och sedan **[!UICONTROL Add service]**.  Du gör detta för varje tjänst separat.
 
 När du är klar bör dina tjänster visas högst upp som bilden nedan. Du behöver inte slutföra avsnittsgenereringen som en JWT och åtkomsttoken.
 
-![](assets/MSdynACSIntegration-6.png)
+![](assets/do-not-localize/MSdynACSIntegration-6.png)
 
 Publiceringen i Campaign är nu klar.  Fortsätt till [stegen efter etablering för Microsoft Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md).
 
