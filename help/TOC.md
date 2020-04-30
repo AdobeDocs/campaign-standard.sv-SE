@@ -4,7 +4,7 @@ sub-product: adobe kampanjstandard
 audience: end-user
 user-guide-title: Hjälp om Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: e92cb80e6a3a37578899081d601654eb64a6dfed
+source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
 
 ---
 
@@ -25,6 +25,7 @@ source-git-commit: e92cb80e6a3a37578899081d601654eb64a6dfed
 + Komma igång {#getting-started}
    + Om Adobe Campaign {#about-adobe-campaign}
       + [Kampanjsamordning](start/using/campaign-orchestration.md)
+      + [Sekretess och samtycke](start/using/privacy.md)
       + [Segmentering och målinriktning](start/using/segmentation-and-targeting.md)
       + [Dynamiskt och personaliserat innehåll](start/using/dynamic-and-personalized-content.md)
       + [Spåra, övervaka och rapportera](start/using/tracking--monitoring-and-reporting.md)
@@ -134,10 +135,12 @@ source-git-commit: e92cb80e6a3a37578899081d601654eb64a6dfed
       + [Arbeta med återanvändbart innehåll](designing/using/using-reusable-content.md)
       + [Använda integreringar med flera lösningar](designing/using/using-integrations.md)
       + [Redigera oformaterad text, HTML och mobilmejl](designing/using/plain-text-html-modes.md)
+      + [Konvertera e-postmeddelanden från äldre redigerare till e-postdesignern](designing/using/converting-emails-from-legacy-editor.md)
    + [Anpassa e-postinnehåll](designing/using/personalization.md)
    + [Hantera e-postformat](designing/using/styles.md)
    + [Hantera länkar](designing/using/links.md)
    + [Hantera bilder](designing/using/images.md)
+   + [Frågor och svar](designing/using/faq-email-designer.md)
 + Testa och skicka {#testing-and-sending}
    + [Om att skicka meddelanden med Campaign](sending/using/about-sending-messages-with-campaign.md)
    + Förbereda och testa meddelanden {#preparing-and-testing-messages}
@@ -241,10 +244,10 @@ source-git-commit: e92cb80e6a3a37578899081d601654eb64a6dfed
       + [Användningsexempel för utlösare för övergåenden](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign och Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + Arbeta med Campaign Standard och Microsoft Dynamics 365 {#working-with-campaign-standard-and-ms-dynamics}
-         + [Arbeta med Campaign Standard och Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-         + [Meddelanden och rekommendationer](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
-         + [Begära och konfigurera Microsoft Dynamics 365 med Campaign Standard-integrering](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
-         + [Använda Microsoft Dynamics 365 med Campaign Standard-integrering](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+         + [Kom igång med Microsoft Dynamics 365-integrering](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+         + [Om Microsoft Dynamics 365-integrering](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
+         + [Begär och konfigurera Microsoft Dynamics 365-integreringen](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
+         + [Använda integreringen med Microsoft Dynamics 365](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
       + [Konfigurera integrering med Adobe IO för Microsoft Dynamics 365](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + [Konfigurera Microsoft Dynamics 365 för Campaign-integrering](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
       + [Konfigurera Unifi för Microsoft Dynamics 365-integrering](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
