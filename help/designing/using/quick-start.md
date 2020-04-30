@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
+source-git-commit: 6aa48a9f36e0716b036288862d1a0064e489be92
 
 ---
 
@@ -22,14 +22,14 @@ E-postdesignern har fyra sätt att skapa e-postmeddelanden.
 
 Du kan skapa ett e-postmeddelande [som börjar om i e-postdesignern](#without-existing-content):
 
-* Du kan skapa ett e-postmeddelande från en tom arbetsyta genom att enkelt lägga till struktur- och innehållskomponenter och anpassa deras innehåll för att skicka en leverans snabbt. Du kan också hantera formatelement helt. Mer information [finns i den](#from-scratch-email) fullständiga dokumentationen [](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+1. Du kan **skapa ett e-postmeddelande från en tom arbetsyta** genom att enkelt lägga till struktur- och innehållskomponenter och anpassa deras innehåll för att skicka en leverans snabbt. Du kan också hantera formatelement helt. Mer information [finns i den](#from-scratch-email) fullständiga dokumentationen [](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
-* Du kan skapa ett e-postmeddelande från en färdig mall genom att välja en mall och bygga ditt nya e-postinnehåll härifrån. [Läs mer](#building-content-from-an-out-of-the-box-template)
+1. Du kan **skapa ett e-postmeddelande från en färdig mall** genom att välja en mall och bygga ditt nya e-postinnehåll härifrån. [Läs mer](#building-content-from-an-out-of-the-box-template)
 
 Du kan också skapa ett e-postmeddelande [med befintligt innehåll](#with-existing-content):
 
-* Du kan konvertera ett befintligt HTML-innehåll (som har skapats externt eller i den äldre redigeraren). [Läs mer](#converting-an-html-content)
-* Du kan importera ett befintligt HTML-innehåll direkt i kompatibilitetsläge. [Läs mer](#compatibility-mode)
+1. Du kan **konvertera ett befintligt HTML-innehåll** (som har skapats externt eller i den äldre redigeraren). [Läs mer](#converting-an-html-content)
+1. Du kan **importera ett befintligt HTML-innehåll** direkt i kompatibilitetsläge. [Läs mer](#compatibility-mode)
 
 | Utan innehåll | Med innehåll |
 |---|---|
@@ -139,7 +139,7 @@ Om du vill skapa ett ramverk med modulära mallar och fragment som kan kombinera
 
 ### Konverterar HTML-innehåll {#converting-an-html-content}
 
-Det här är ett snabbt sätt att konvertera HTML-e-post till e-postdesignerkomponenter.
+Det här är ett snabbt sätt att konvertera HTML-e-post till e-postdesignerkomponenter. Mer information finns i [Konvertera HTML-innehåll](../../designing/using/using-existing-content.md#converting-an-html-content).
 
 >[!CAUTION]
 >
@@ -149,84 +149,9 @@ Det här är ett snabbt sätt att konvertera HTML-e-post till e-postdesignerkomp
 >
 >Precis som kompatibilitetsläget är en HTML-komponent redigerbar med begränsade alternativ: kan du bara utföra en utgåva på plats.
 
-Utanför e-postdesignern ser du till att den ursprungliga HTML-koden är uppdelad i återanvändbara avsnitt.
-
-1. Öppna e-postdesignern för att skapa ett tomt e-postinnehåll.
-1. Ange attributen för innehållsnivå: bakgrundsfärger, bredd osv. Mer information finns i [Redigera e-postformat](../../designing/using/styles.md).
-
-Om så inte är fallet klipper du ut de olika blocken från HTML-koden. Här följer till exempel ett tydligt identifierat avsnitt:
-
-```
-<!-- 3 COLUMN w/CTA (SCALED) -->
-<table width="100%" align="center" cellspacing="0" cellpadding="0" border="0" role="presentation" style="max-width:680px;">
-<tbody>
-<tr>
-<td class="padh10" align="center" valign="top" style="padding:0 5px 20px 5px;">
-<table width="100%" cellspacing="0" cellpadding="0" border="0" role="presentation">
-<tbody>
-<tr>
-...
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-<!-- //3 COLUMN w/CTA (SCALED) -->
-```
-
-När du har identifierat alla blocken i e-postdesignern upprepar du följande procedur för varje avsnitt i ditt befintliga e-postmeddelande:
-
-1. Lägg till en strukturkomponent. Mer information finns i [Redigera e-poststrukturen](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
-1. Lägg till en HTML-komponent. Mer information finns i [Lägga till fragment och komponenter](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
-1. Kopiera och klistra in HTML-koden i den komponenten.
-1. Växla till mobilvyn. Mer information finns i [det här avsnittet](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
-
-   Den responsiva vyn är bruten eftersom CSS saknas.
-
-1. Du åtgärdar detta genom att växla till källkodsläge och kopiera och klistra in formatavsnittet i ett nytt formatavsnitt. Exempel:
-
-   ```
-   <style type="text/css">
-   a {text-decoration:none;}
-   body {min-width:100% !important; margin:0 auto !important; padding:0 !important;}
-   img {line-height:100%; text-decoration:none; -ms-interpolation-mode:bicubic;}
-   ...
-   </style>
-   ```
-
-   >[!NOTE]
-   >
-   >Se till att du lägger till formatet efter detta i en annan anpassad formattagg.
-   >
-   >Ändra inte CSS som genererats av e-postdesignern:
-   >
-   >* `<style data-name="default" type="text/css">(##)</style>`
-   >* `<style data-name="supportIOS10" type="text/css">(##)</style>`
-   >* `<style data-name="mediaIOS8" type="text/css">(##)</style>`
-   >* `<style data-name="media-default-max-width-500px" type="text/css">(##)</style>`
-   >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
-
-
-1. Gå tillbaka till mobilvyn för att kontrollera att ditt innehåll visas korrekt och spara ändringarna.
 
 ### Importera och redigera ett HTML-e-postmeddelande {#compatibility-mode}
 
 När du överför ett innehåll måste det innehålla specifik taggning för att vara helt kompatibelt och redigerbart med WYSIWYG-redigeraren i e-postdesignern.
 
-Om hela eller delar av den överförda HTML-koden inte är kompatibel med den förväntade taggningen, läses innehållet in i kompatibilitetsläge, vilket begränsar utgåvans möjligheter via gränssnittet.
-
-När ett innehåll läses in i kompatibilitetsläge kan du fortfarande utföra följande ändringar via gränssnittet (otillgängliga åtgärder är dolda):
-
-* Ändra texten eller ändra en bild
-* Infoga länkar och anpassningsfält
-* Redigera vissa formatalternativ för det markerade HTML-blocket
-* Definiera villkorligt innehåll
-
-![](assets/email_designer_compatibility.png)
-
-Andra ändringar som att lägga till nya avsnitt i e-postmeddelandet eller avancerad formatering måste göras direkt i e-postens källkod via HTML-läget.
-Kompatibilitetsläget tillåter inte att du drar och släpper, men det garanterar samma uppsättning funktioner som den äldre redigeraren.
-
-Mer information om hur du konverterar ett befintligt e-postmeddelande till ett e-postdesignerkompatibelt e-postmeddelande finns i [det här avsnittet](../../designing/using/using-existing-content.md).
+Mer information om hur du konverterar ett befintligt e-postmeddelande till ett e-postdesignerkompatibelt e-postmeddelande finns i [det här avsnittet](../../designing/using/using-existing-content.md#compatibility-mode).
