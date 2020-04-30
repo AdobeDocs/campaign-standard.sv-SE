@@ -1,5 +1,5 @@
 ---
-title: Använda Microsoft Dynamics 365 med Campaign Standard-integrering
+title: Använda integreringen med Microsoft Dynamics 365
 description: Lär dig hur du använder Microsoft Dynamics 365 med Campaign Standard-integrering
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -12,12 +12,12 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bff3b8f8f58c491e4010d24132b0fa3e93c3a7ab
+source-git-commit: de048c06ea2af0c988e97a37ebf945906069935e
 
 ---
 
 
-# Använda Microsoft Dynamics 365 med Campaign Standard-integrering
+# Använda integreringen med Microsoft Dynamics 365
 
 Det finns flera jobb som den här integreringen utför:
 
@@ -90,23 +90,23 @@ Om du vill visa en kontakts tidslinje går du till din kontaktlista genom att kl
 
 Här nedan ser du en ögonblicksbild av kontaktskärmen för&quot;Dynamics-användare&quot;.  I tidslinjevyn kommer du att märka att Dynamics-användaren har fått ett e-postmeddelande som är kopplat till kampanjnamnet&quot;2019LoyaltyCamp&quot; och leveransnamnet&quot;DM190&quot;.  Dynamics-användaren öppnade e-postmeddelandet och klickade också på en URL i e-postmeddelandet. båda dessa åtgärder skapade händelser som också visas nedan.  Om du tittar till höger kommer du att se kortet för Relationship Assistant (RA); för närvarande innehåller det en uppgift att följa upp den klickade URL:en.
 
-![](assets/MSdynamicsACS-usage4.png)
+![](assets/do-not-localize/MSdynamicsACS-usage4.png)
 
 Nedan finns en stängning av tidslinjevyn för Dynamics-användare.
 
-![](assets/MSdynamicsACS-usage5.png)
+![](assets/do-not-localize/MSdynamicsACS-usage5.png)
 
 Nedan finns en närbild på RA-kortet (Relationship Assistant).  AppSource-appen innehåller ett arbetsflöde som söker efter en klickningshändelse för Adobe-e-post.  När den här händelsen inträffar skapas en uppgift och ett förfallodatum anges.  Detta gör att aktiviteten kan visas i RA-kortet, vilket ger den extra synlighet.  Det finns ett liknande arbetsflöde för Adobe Email Bounce-händelser, som lägger till en uppgift för att stämma av den ogiltiga e-postadressen.  Dessa arbetsflöden kan stängas av i lösningen.
 
-![](assets/MSdynamicsACS-usage6.png)
+![](assets/do-not-localize/MSdynamicsACS-usage6.png)
 
 Om du klickar på ämnet för sändningshändelsen visas ett formulär som liknar det nedan.  Formulären för öppnings- och studshändelser liknar varandra.
 
-![](assets/mirror_page_url_send.png)
+![](assets/do-not-localize/mirror_page_url_send.png)
 
 Formuläret för klickningshändelser för e-post-URL lägger till ett extra attribut för den URL som du klickade på:
 
-![](assets/mirror_page_url_click.png)
+![](assets/do-not-localize/mirror_page_url_click.png)
 
 Här följer en lista över attributen och en beskrivning:
 
