@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
+source-git-commit: 4e05dafb087c43a13c60d6bb2f54d0e44455ea8d
 
 ---
 
@@ -59,15 +59,15 @@ Kunden har ett anpassat enhetsfordon fördefinierat i Dynamics 365 och ett motsv
 
 Kundens anpassade enheter i Dynamics 365 kan visas på kontrollpanelen Försäljning genom att klicka på listrutan bredvid Dynamics 365.  Kundens anpassade enheter grupperas under **[!UICONTROL Extensions]**.
 
-![](assets/SalesDashboard.png)
+![](assets/do-not-localize/SalesDashboard.png)
 
 Fordonsuppgifter kan visas genom att klicka på den **[!UICONTROL vehicle]** anpassade enheten.  Se listan över fordon nedan.
 
-![](assets/VehicleCustomEntity.png)
+![](assets/do-not-localize/VehicleCustomEntity.png)
 
 Förhållandet mellan **[!UICONTROL vehicle]** enheten och **[!UICONTROL Contact]** enheten framgår nedan. **[!UICONTROL Parental]** har valts för **[!UICONTROL Type of Behavior]**.
 
-![](assets/ContactToVehicle.png)
+![](assets/do-not-localize/ContactToVehicle.png)
 
 ### Konfiguration i Campaign Standard
 
@@ -102,7 +102,7 @@ Kampanjen visar sedan datastrukturer och länksida.  Du ser att flera fält har 
 >
 >Varje anpassad resurs måste ha ett unikt fält med ID:t externalId (exakt).  Det här fältet mappas till ID-fältet för den anpassade resursen i Dynamics 365 (se nedan).
 
-![](assets/FieldsInDynamics.png)
+![](assets/do-not-localize/FieldsInDynamics.png)
 
 ### Definiera identifieringsnycklarna
 
@@ -170,7 +170,7 @@ Klicka sedan **[!UICONTROL Publish]** och vänta tills det är klart.
 
 Förutsatt att kunden redan har fyllt i den anpassade enheten för fordon i Dynamics 365 och Unifi har ställt in sina anpassade enhetsjobb och scheman för fordon med, bör kunden kunna starta pressschemat för fordonsenheten.
 
-![](assets/Schedule.png)
+![](assets/do-not-localize/Schedule.png)
 
 När ingressjobbet har slutförts kan fordonsdata nu visas i den nyligen ifyllda anpassade **[!UICONTROL Vehicle]** resursen i Campaign.
 
