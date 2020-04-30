@@ -1,5 +1,5 @@
 ---
-title: '"Arbeta med Campaign Standard och Microsoft Dynamics 365: Meddelanden och rekommendationer"'
+title: Om Microsoft Dynamics 365-integrering
 description: Läs meddelanden och rekommendationer om hur du arbetar med Campaign Standard och Microsoft Dynamics 365
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -12,12 +12,12 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 620be6615d162672948c3dccdae2752b8c999c47
+source-git-commit: 277663c4cf0e810f691eeebfade17bf8dd73698e
 
 ---
 
 
-# Arbeta med Campaign Standard och Microsoft Dynamics 365: Meddelanden och rekommendationer
+# Om Microsoft Dynamics 365-integrering
 
 ## Regionstöd
 
