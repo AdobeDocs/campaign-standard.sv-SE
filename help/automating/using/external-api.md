@@ -10,7 +10,7 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e545e0ffba80f6165242f6974adf0e4c4abafff4
+source-git-commit: c59faa935663bf803ed97f30e45f9b4276b448b8
 
 ---
 
@@ -39,7 +39,9 @@ De viktigaste egenskaperna för denna verksamhet är:
 
 Med Campaign Standard 20.3 har funktionerna för externa API gått från betaversion till allmän tillgänglighet (GA).
 
-Om du använder externa API-betaaktiviteter måste du därför ersätta dem med externa API-aktiviteter för GA i alla arbetsflöden.  Arbetsflöden som använder betaversionen av det externa API:t slutar fungera med version 20.3.
+>[!CAUTION]
+>
+>Om du använder externa API-betaaktiviteter måste du därför ersätta dem med externa API-aktiviteter för GA i alla arbetsflöden.  Arbetsflöden som använder betaversionen av det externa API:t slutar fungera med version 20.3.
 
 När du ersätter externa API-aktiviteter lägger du till den nya externa API-aktiviteten i arbetsflödet, kopierar manuellt över konfigurationsinformationen och tar sedan bort den gamla aktiviteten.
 
