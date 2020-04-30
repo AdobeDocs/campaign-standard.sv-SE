@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
+source-git-commit: 5d4560a26c0f5c6d3e8710caf51d4a82fbf80174
 
 ---
 
@@ -31,9 +31,15 @@ Extern API-aktivitet (GA) - [Läs mer](../../automating/using/external-api.md)
 
 **Andra dokumentationsuppdateringar som följer med releasen**
 
-* Information har lagts till i **[!UICONTROL History in days]** fältet i arbetsflödesegenskaperna som nu innehåller filer som hämtats av **[!UICONTROL Transfer file]** aktiviteten. [Läs mer](../../automating/using/executing-a-workflow.md)
+Information har lagts till i **[!UICONTROL History in days]** fältet i arbetsflödesegenskaperna som nu innehåller filer som hämtats av **[!UICONTROL Transfer file]** aktiviteten. [Läs mer](../../automating/using/executing-a-workflow.md)
 
-* Information om gränsen på 500 tecken för ämnesradprefixet har lagts till i avsnittet om profiländring. [Läs mer](../../sending/using/testing-messages-using-target.md)
+Information om gränsen på 500 tecken för ämnesradprefixet har lagts till i avsnittet om profiländring. [Läs mer](../../sending/using/testing-messages-using-target.md)
+
+Ett nytt avsnitt som handlar om sekretess och samtycke har lagts till i huvuddokumentationen. [Läs mer](../../start/using/privacy.md)
+
+* Ett användningsexempel har lagts till så att du kan konvertera äldre redigeringsmeddelanden till e-postdesignern. [Läs mer](../../designing/using/converting-emails-from-legacy-editor.md)
+
+* Ett ofta ställt frågeavsnitt har lagts till om e-postdesignern. [Läs mer](../../designing/using/faq-email-designer.md)
 
 ## Dokumentationsuppdateringar - april 2020 {#doc-updates-april-2020}
 
@@ -259,7 +265,7 @@ Det finns nu en ny artikel med tips som förenklar marknadsföringskampanjer, bl
 
 En felsökning har lagts till för dynamisk rapportering. [Läs mer](../../reporting/using/troubleshooting.md)
 
-Ett diagram som förklarar hur olika mallar i appen hanterar personlig information har lagts till. [Läs mer](../../channels/using/preparing-and-sending-an-in-app-message.md)
+Ett diagram som förklarar hur de olika mallarna i appen hanterar personlig information har lagts till. [Läs mer](../../channels/using/preparing-and-sending-an-in-app-message.md)
 
 Avsnittet om hur du sparar e-postinnehåll som ett fragment i e-postdesignern har uppdaterats. [Läs mer](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)
 
