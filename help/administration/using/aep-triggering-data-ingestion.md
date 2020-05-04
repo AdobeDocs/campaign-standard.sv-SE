@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 57b87896281efa7dd1e6a612926f59061a0fdcb8
+source-git-commit: adfeb1c83d9ef4ce9f483c134a0fd230fbc6636c
 
 ---
 
@@ -125,7 +125,7 @@ Möjliga svar på GET-åtgärden är:
    "requestId": 3520,
    "status": "Success"
    }
-   ````
+   ```
 
 * Ingest-begäran misslyckades med 0 inkapslade poster:
 
@@ -141,7 +141,7 @@ Möjliga svar på GET-åtgärden är:
 
 * Ingest request failed, with some record uploaded under a batch:
 
-   ````
+   ```
    {
    "batchId": "<value>",
    "info": "Mapping Id: <value>. ACP-880096 Sync Job failed to upload. Please check the error in the Platform UI.",
@@ -150,7 +150,7 @@ Möjliga svar på GET-åtgärden är:
    "status": "Failed"
    }
    ```
-   
+
 * Ingest-begäran avbröts efter att vissa poster har importerats (detta kan inträffa i kraschscenarier):
 
    ```
