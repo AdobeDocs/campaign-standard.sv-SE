@@ -12,7 +12,7 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aeaddca2188e2bdeda71bd35299ccd14398f3c52
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -61,7 +61,7 @@ Läs mer:
 
 <img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-Med Campaign Standard-API:er skapar du integreringar för Adobe Campaign Standard och bygger ett eget ekosystem genom att interagera Campaign med den panel med tekniker som ni använder. [Kom igång med Campaign Standard REST API:er](../../api/using/about-campaign-standard-apis.md)
+Med Campaign Standard-API:er skapar du integreringar för Adobe Campaign Standard och bygger ett eget ekosystem genom att interagera Campaign med den panel med tekniker som ni använder. [Kom igång med Campaign Standard REST API:er](../../api/using/get-started-apis.md)
 
 ## Ytterligare resurser
 
