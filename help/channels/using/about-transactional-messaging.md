@@ -12,7 +12,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f0f7441f06b51f9bd2d5a1b3c26f031d4eb1e4c1
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -83,7 +83,7 @@ Mer information om händelsekonfigurationsstegen finns i Konfiguration [av](../.
 Eftersom du utformar och publicerar transaktionsmeddelanden går det inte att ångra vissa av de steg du måste utföra. Du måste vara medveten om följande begränsningar:
 
 * Endast en kanal kan användas för varje händelsekonfiguration. Se [Skapa en händelse](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
-* När händelsen har skapats kan du inte ändra kanalen. Om ett meddelande inte kan skickas måste du utforma en mekanism som gör det möjligt att skicka det från en annan kanal via ett arbetsflöde. Se [Arbetsflödesdata och processer](../../automating/using/workflow-data-and-processes.md).
+* När händelsen har skapats kan du inte ändra kanalen. Om ett meddelande inte kan skickas måste du utforma en mekanism som gör det möjligt att skicka det från en annan kanal via ett arbetsflöde. Se [Arbetsflödesdata och processer](../../automating/using/get-started-workflows.md).
 * Du kan inte ändra målinriktningsdimensionen ( **[!UICONTROL Real-time event]** eller **[!UICONTROL Profile]** ) efter att händelsen har skapats. Se [Skapa en händelse](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
 * Det går inte att återställa en publikation, men du kan avpublicera en händelse: den här åtgärden gör händelsen och det tillhörande transaktionsmeddelandet otillgängliga. Se [Avpublicera en händelse](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event).
 * Det enda transaktionsmeddelande som kan kopplas till en händelse är det meddelande som skapas automatiskt när händelsen publiceras. Se [Förhandsgranska och publicera händelsen](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event).
