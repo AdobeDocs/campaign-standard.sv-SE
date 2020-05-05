@@ -12,7 +12,7 @@ discoiquuid: fb511bb8-6be7-43f6-86ab-94d5cfa3efc9
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Genom att importera data kan ni samla in data för att mata in Campaigns databas.
 
-I stället för [arbetsflöden](../../automating/using/discovering-workflows.md)erbjuder Adobe Campaign en förenklad importfunktion som gör att användaren kan hantera vissa typer av import som definierats av en administratör.
+I stället för [arbetsflöden](../../automating/using/get-started-workflows.md)erbjuder Adobe Campaign en förenklad importfunktion som gör att användaren kan hantera vissa typer av import som definierats av en administratör.
 
 Följande princip gäller: en **administratör** definierar och hanterar importmallar (se [Definiera importmallar](../../automating/using/defining-import-templates.md)). Dessa importmallar är sedan tillgängliga för användare med förenklade vyer på menyn **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Imports]** .
 
