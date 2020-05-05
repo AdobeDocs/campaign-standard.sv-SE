@@ -12,7 +12,7 @@ discoiquuid: ca8a95d8-523f-4085-a2fc-e1d8262cfbae
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5ec3497161e89bad4d2ef1ef8a80a87df69860b6
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -77,4 +77,4 @@ Du kan nu köra arbetsflödet och hämta utdatafilen på den externa servern.
 
 **Relaterat ämne:**
 
-[Arbetsflöden](../../automating/using/discovering-workflows.md)
+[Arbetsflöden](../../automating/using/get-started-workflows.md)
