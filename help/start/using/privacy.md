@@ -1,6 +1,6 @@
 ---
-title: Sekretess och rekommendationer i Adobe Campaign Standard
-description: Det här avsnittet handlar om sekretesshantering i Adobe Campaign Standard.
+title: Integritet och samtycke i Adobe Campaign Standard
+description: I det här avsnittet finns en översikt över sekretess, personuppgifter och samtyckeshantering i Adobe Campaign Standard, samt de verktyg som finns för att hantera dessa.
 page-status-flag: never-activated
 uuid: ed9e631c-5ad1-49f1-be1e-b710bc64dc91
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0d7dc73afb2e3b69f461d0e389451c9deabc1f23
+source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
 
 ---
 
@@ -81,7 +81,7 @@ De [viktigaste lagstiftningarna](#privacy-regulations) avser de olika enheter so
 * En **dataprocessor** är en person eller part som samlar in, använder eller delar personuppgifter enligt den personuppgiftsansvariges anvisningar.
 * En **registrerad** är en levande person vars personuppgifter samlas in, används eller delas och som direkt eller indirekt kan identifieras genom hänvisning till dessa personuppgifter.
 
-Som företag som samlar in och delar personuppgifter är ni därför Data Controller, era kunder är de registrerade och Adobe Campaign fungerar som databehandlare när ni hanterar deras personuppgifter. Observera att det är ditt ansvar som personuppgiftsansvariga att hantera relationen till de registrerade, t.ex. vid hantering av [sekretessförfrågningar](#privacy-requests).
+Därför är ni, som ett företag som samlar in och delar personuppgifter, personuppgiftsansvariga, era kunder de registrerade och Adobe Campaign fungerar som databehandlare när ni hanterar deras personuppgifter enligt era anvisningar. Observera att det är ditt ansvar som personuppgiftsansvariga att hantera relationen till de registrerade, t.ex. vid hantering av [sekretessförfrågningar](#privacy-requests).
 
 När ni integrerar Campaign med andra Experience Cloud-lösningar där målgrupper kan överföras från ett system till ett annat, till exempel [målgruppstjänsten](../../audiences/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager eller People core Service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md), eller med andra lösningar som [Microsoft Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md), måste ni vara extra noga med att skydda personuppgifter.
 
