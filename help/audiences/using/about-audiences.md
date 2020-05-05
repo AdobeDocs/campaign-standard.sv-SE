@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1059b840d9a2d0c89a6cbd1808b645862747a76c
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -29,7 +29,7 @@ Med Adobe Campaign kan ni skapa era målgrupper manuellt med hjälp av frågor e
 Ni kan ändra olika typer av målgrupper i Adobe Campaign. Typ av publik motsvarar hur den skapades:
 
 * **[!UICONTROL Query]**: anger att målgruppen skapades från en [fråga](../../automating/using/editing-queries.md#about-query-editor) om data från Adobe Campaign-databasen från listan över målgrupper. Målgrupper som definieras av en fråga beräknas om vid varje ytterligare användning.
-* **[!UICONTROL List]**: anger att målgruppen är en fast lista med profiler. De här listorna skapas i ett [arbetsflöde](../../automating/using/discovering-workflows.md)där datamängden är känd när målgruppen sparas. Till exempel efter målaktiviteter (särskilt **[!UICONTROL Query]** ) eller efter avstämning av data som importerats från en fil.
+* **[!UICONTROL List]**: anger att målgruppen är en fast lista med profiler. De här listorna skapas i ett [arbetsflöde](../../automating/using/get-started-workflows.md)där datamängden är känd när målgruppen sparas. Till exempel efter målaktiviteter (särskilt **[!UICONTROL Query]** ) eller efter avstämning av data som importerats från en fil.
 * **[!UICONTROL File]**: anger att målgruppen har skapats direkt från ett arbetsflöde för [filimport](../../automating/using/load-file.md) och att datadimensionen var okänd när målgruppen sparades.
 * **[!UICONTROL Experience Cloud]**: anger att målgruppen importerades från Adobe Experience Cloud. Det här alternativet är bara tillgängligt om målgruppsdelningsfunktionen har konfigurerats. Mer information finns i [Importera en publik från Adobe Experience Cloud](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md#importing-an-audience).
 
