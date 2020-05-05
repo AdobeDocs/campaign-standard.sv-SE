@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Produktdokumentation för Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
+source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
 
 ---
 
@@ -34,7 +34,8 @@ source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
     <div>
     <a href="administration/using/about-access-management.md"><strong>Roller och säkerhetsgrupper</strong></a>
     </div>
-    <em>Lär dig hur du definierar behörigheter och tilldelar roller till Campaign-användare</em><br>
+    <em>Lär dig hur du definierar behörigheter och tilldelar roller till Campaign-användare</em>
+    <br>
   </td>
   <td valign="top">
     <a href="designing/using/designing-content-in-adobe-campaign.md">
@@ -43,7 +44,8 @@ source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
     <div>
     <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>Designa ett e-postmeddelande</strong></a>
     </div>
-    <em>Lär dig hur du använder e-postdesignern för att skapa responsiva och personaliserade e-postmeddelanden</em><br>
+    <em>Lär dig hur du använder e-postdesignern för att skapa responsiva och personaliserade e-postmeddelanden</em>
+    <br>
   </td>
   <td valign="top">
        <img alt="Support" src="start/using/assets/do-not-localize/help.jpeg" />
@@ -64,5 +66,5 @@ source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 | [Dokumentation för kontrollpanelen](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [Kampanj-API:er](api/using/about-campaign-standard-apis.md) |
 | [Implementeringsguide](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) | [Lista över felmeddelanden](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Versionsplanering](rn/using/release-planning.md) | [Kampanjdatamodell](developing/using/datamodel-introduction.md) |
-| [Föråldrade och borttagna funktioner](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) | [Guide för flera lösningar](integrating/using/about-campaign-integrations.md) |
-| [Kom igång med Campaign Standard](start/using/campaign-orchestration.md) | [Tekniska anteckningar](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
+| [Föråldrade och borttagna funktioner](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) | [Guide för flera lösningar](integrating/using/get-started-campaign-integrations.md) |
+| [Kom igång med Campaign Standard](start/using/about-campaign-standard.md) | [Tekniska anteckningar](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
