@@ -13,7 +13,7 @@ context-tags: workflow,use-case,query,wait,delivery
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f959441647d1fea41ecce2fc41e3cad3cb536bac
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -28,8 +28,8 @@ Målet här är att välja en målgrupp bland mottagarna av databasen och segmen
 
 Mer information om arbetsflöden och de olika kanaler som är tillgängliga i Adobe Campaign finns i följande dokument:
 
-* [Identifiera arbetsflöden](../../automating/using/discovering-workflows.md)
-* [Identifiera kommunikationskanaler](../../channels/using/discovering-communication-channels.md)
+* [Identifiera arbetsflöden](../../automating/using/get-started-workflows.md)
+* [Identifiera kommunikationskanaler](../../channels/using/get-started-communication-channels.md)
 
 ## Skapa ett arbetsflöde {#creating-workflow}
 
