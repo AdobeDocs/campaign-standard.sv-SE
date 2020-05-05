@@ -4,7 +4,7 @@ sub-product: adobe kampanjstandard
 audience: end-user
 user-guide-title: Hjälp om Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
+source-git-commit: 381803b39527e175efc9a0d0ef8f4a427697db2d
 
 ---
 
@@ -23,28 +23,19 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
    + [Frisläppningsplanering](rn/using/release-planning.md)
    + [Föråldrade funktioner](rn/using/deprecated-features.md)
 + Komma igång {#getting-started}
-   + Om Adobe Campaign {#about-adobe-campaign}
-      + [Kampanjsamordning](start/using/campaign-orchestration.md)
-      + [Sekretess och samtycke](start/using/privacy.md)
-      + [Segmentering och målinriktning](start/using/segmentation-and-targeting.md)
-      + [Dynamiskt och personaliserat innehåll](start/using/dynamic-and-personalized-content.md)
-      + [Spåra, övervaka och rapportera](start/using/tracking--monitoring-and-reporting.md)
-      + [Integrera med Adobes lösningar](start/using/integrating-with-adobe-solutions.md)
-      + [Förbättrar Campaign-databasen](start/using/enriching-campaign-database.md)
+   + [Om Adobe Campaign Standard](start/using/about-campaign-standard.md)
+   + [Sekretess och samtycke](start/using/privacy.md)
    + Identifiera gränssnittet {#discovering-the-interface}
       + [Om gränssnittet](start/using/about-the-interface.md)
       + [Gränssnittsbeskrivning](start/using/interface-description.md)
       + [Anpassa listor](start/using/customizing-lists.md)
-   + Marknadsplaner {#marketing-plans}
+   + Arbeta med marknadsföringsaktiviteter {#marketing-plans}
       + [Program och kampanjer](start/using/programs-and-campaigns.md)
       + [Marknadsföring](start/using/marketing-activities.md)
       + [Mallar för marknadsföringsaktiviteter](start/using/marketing-activity-templates.md)
       + [Tidslinje](start/using/timeline.md)
-   + Självstudiekurser {#tutorials}
-      + [Stegvisa guider](start/using/step-by-step-guides.md)
-      + [Instruktionsvideor](start/using/how-to-videos.md)
 + Profiler och målgrupper {#profiles-and-audiences}
-   + [Om profiler och målgrupper](audiences/using/about-profiles-and-audiences.md)
+   + [Kom igång med profiler och målgrupper](audiences/using/get-started-profiles-and-audiences.md)
    + Hantera profiler {#managing-profiles}
       + [Om profiler](audiences/using/about-profiles.md)
       + [Skapa profiler](audiences/using/creating-profiles.md)
@@ -52,6 +43,7 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Integrerad kundprofil](audiences/using/integrated-customer-profile.md)
       + [Aktiva profiler](audiences/using/active-profiles.md)
       + [Hantera testprofiler](audiences/using/managing-test-profiles.md)
+      + [Förbättrar Campaign-databasen](audiences/using/enriching-campaign-database.md)
    + Hantera målgrupper {#managing-audiences}
       + [Om målgrupper](audiences/using/about-audiences.md)
       + [Skapa målgrupper](audiences/using/creating-audiences.md)
@@ -71,8 +63,8 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Hantera Adobe Experience Platform-målgrupper](audiences/using/aep-managing-audiences.md)
       + [Använda verktyget Enhetligt segment](audiences/using/aep-using-segment-builder.md)
 + Kommunikationskanaler {#communication-channels}
+   + [Kom igång med kommunikationskanaler](channels/using/get-started-communication-channels.md)
    + Kommunikationskanaler {#about-communication-channels}
-      + [Identifiera kommunikationskanaler](channels/using/discovering-communication-channels.md)
       + [Viktiga steg för att skicka ett meddelande](channels/using/key-steps-to-send-a-message.md)
       + [Åtkomst till meddelanden](channels/using/accessing-messages.md)
       + [Kontrollpanel för meddelanden](channels/using/message-dashboard.md)
@@ -142,7 +134,7 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
    + [Hantera bilder](designing/using/images.md)
    + [Frågor och svar](designing/using/faq-email-designer.md)
 + Testa och skicka {#testing-and-sending}
-   + [Om att skicka meddelanden med Campaign](sending/using/about-sending-messages-with-campaign.md)
+   + [Kom igång med testning och sändning](sending/using/get-started-sending-messages.md)
    + Förbereda och testa meddelanden {#preparing-and-testing-messages}
       + [Förhandsgranska leveranser](sending/using/previewing-messages.md)
       + [Förbereder sändningen](sending/using/preparing-the-send.md)
@@ -182,6 +174,7 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Trötthetsregler](sending/using/fatigue-rules.md)
       + [Kontrollregler](sending/using/control-rules.md)
 + Rapportering {#reporting}
+   + [Kom igång med dynamiska rapporter](reporting/using/get-started-reporting.md)
    + Om rapportering {#about-reporting}
       + [Om dynamiska rapporter](reporting/using/about-dynamic-reports.md)
       + [Rapportgränssnitt](reporting/using/reporting-interface.md)
@@ -212,7 +205,7 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Skapa en anpassad profildimension](reporting/using/creating-a-custom-profile-dimension.md)
       + [Skapa en rapport baserad på arbetsflödessegment](reporting/using/creating-a-report-workflow-segment.md)
 + Integrera med andra lösningar {#integrating-with-adobe-cloud}
-   + [Om Campaign-integreringar](integrating/using/about-campaign-integrations.md)
+   + [Kom igång med Campaign-integreringar](integrating/using/get-started-campaign-integrations.md)
    + Campaign och Experience Manager {#working-with-campaign-and-experience-manager}
       + [Om integrering mellan Campaign och Experience Manager](integrating/using/integrating-with-experience-manager.md)
       + [Konfigurera integreringen mellan Campaign och Experience Manager](integrating/using/configure-experience-manager.md)
@@ -243,6 +236,7 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Testa utlösarna](integrating/using/testing-your-triggers.md)
       + [Användningsexempel för utlösare för övergåenden](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign och Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
+      + [Konfigurera integrering med Adobe IO för Microsoft Dynamics 365](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + Arbeta med Campaign Standard och Microsoft Dynamics 365 {#working-with-campaign-standard-and-ms-dynamics}
          + [Kom igång med Microsoft Dynamics 365-integrering](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
          + [Om Microsoft Dynamics 365-integrering](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
@@ -253,19 +247,16 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Konfigurera Unifi för Microsoft Dynamics 365-integrering](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
       + [Mappa anpassade resurser för Campaign och anpassade Dynamics 365-entiteter](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
 + Hantera processer och data {#managing-processes-and-data}
-   + Om arbetsflöden och datahantering {#about-workflows-and-data-management}
-      + [Arbetsflödesdata och -processer](automating/using/workflow-data-and-processes.md)
-      + [Identifiera arbetsflöden](automating/using/discovering-workflows.md)
-      + [Principer för arbetsflödesoperation](automating/using/workflow-operating-principles.md)
-      + [Arbetsflödesgränssnitt](automating/using/workflow-interface.md)
+   + [Kom igång med data- och processhantering](automating/using/get-started-workflows.md)
    + Allmänt om arbetsflöde {#workflow-general-operation}
+      + [Arbetsflödesgränssnitt](automating/using/workflow-interface.md)
       + [Bygga ett arbetsflöde](automating/using/building-a-workflow.md)
       + [Måldata](automating/using/targeting-data.md)
       + [Importera data](automating/using/importing-data.md)
       + [Använda arbetsflödesdata](automating/using/using-workflow-data.md)
       + [Köra ett arbetsflöde](automating/using/executing-a-workflow.md)
-      + [Anropa ett arbetsflöde med externa parametrar](automating/using/calling-a-workflow-with-external-parameters.md)
       + [Bästa arbetsflöden](automating/using/best-practices-workflows.md)
+   + [Anropa ett arbetsflöde med externa parametrar](automating/using/calling-a-workflow-with-external-parameters.md)
    + Verksamheter som riktar sig till {#targeting-activities}
       + [Om målinriktade aktiviteter](automating/using/about-targeting-activities.md)
       + [Fråga](automating/using/query.md)
@@ -327,6 +318,7 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Målgrupper med Adobe Experience Platform](automating/using/aep-targeting-audiences.md)
       + [Anpassa kampanjer med Adobe Experience Platform-attribut](automating/using/aep-personalizing-campaigns.md)
 + Utvecklar {#developing}
+   + [Kom igång med datamodellen Campaign Standard](developing/using/get-started-data-model.md)
    + Om anpassade resurser {#about-custom-resources}
       + [Datamodeller](developing/using/data-model-concepts.md)
       + [Resursstatus](developing/using/resource-statuses.md)
@@ -364,12 +356,15 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Spårningsloggar](developing/using/datamodel-tracking.md)
       + [Avprenumerationshändelse](developing/using/datamodel-unsubscription.md)
       + [Besökare](developing/using/datamodel-visitor.md)
+   + Adobe Experience Platform Data Connector {#mapping-campaign-and-aep-data}
+      + [Om Adobe Experience Platform Data Connector](developing/using/aep-about-data-connector.md)
+      + [Experience Platform Datamodell - översikt](developing/using/aep-data-model-overview.md)
+      + [Mappningsdefinition](developing/using/aep-mapping-definition.md)
+      + [Aktivera mappning](developing/using/aep-mapping-activation.md)
+      + [Utlösa datainmatning via API:er](developing/using/aep-triggering-data-ingestion.md)
 + Administrerar {#administrating}
-   + [Om att administrera Adobe Campaign](administration/using/about-administrating-adobe-campaign.md)
-   + Konfigurationsriktlinjer {#configuration-guidelines}
-      + [Om konfigurationsriktlinjer](administration/using/about-configuration-guidelines.md)
-      + [Kompatibla webbläsare](administration/using/compatible-browsers.md)
-      + [Nätverksslutpunkter för Campaign Standard](administration/using/campaign-standard-network-endpoints.md)
+   + [Kom igång med Campaign Standard-administration](administration/using/get-started-campaign-administration.md)
+   + [Konfigurationsriktlinjer](administration/using/about-configuration-guidelines.md)
    + Användare och säkerhet {#users-and-security}
       + [Om åtkomsthantering](administration/using/about-access-management.md)
       + [Hantering av användare](administration/using/users-management.md)
@@ -393,15 +388,9 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Skicka interna meddelanden](administration/using/sending-internal-notifications.md)
       + [Datalagring](administration/using/data-retention.md)
       + [Uppdateringar och underhållsåtgärder](administration/using/updates-and-maintenance-operations.md)
-   + Adobe Experience Platform Data Connector {#mapping-campaign-and-aep-data}
-      + [Om Adobe Experience Platform Data Connector](administration/using/aep-about-data-connector.md)
-      + [Experience Platform Datamodell - översikt](administration/using/aep-data-model-overview.md)
-      + [Mappningsdefinition](administration/using/aep-mapping-definition.md)
-      + [Aktivera mappning](administration/using/aep-mapping-activation.md)
-      + [Utlösa datainmatning via API:er](administration/using/aep-triggering-data-ingestion.md)
 + Arbeta med API:er {#working-with-apis}
+   + [Kom igång med Campaign Standard-API:er](api/using/about-campaign-standard-apis.md)
    + Om Campaign Standard-API:er {#about-campaign-standard-apis}
-      + [Översikt](api/using/about-campaign-standard-apis.md)
       + [Varför använda Campaign Standard-API:er](api/using/why-using-campaign-standard-apis.md)
       + [Konfigurera API-åtkomst](api/using/setting-up-api-access.md)
    + Globala begrepp {#global-concepts}
