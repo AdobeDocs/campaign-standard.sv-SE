@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d62c8cdac83789cfdffb7fd5e0d6c086e81300b1
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -66,7 +66,7 @@ Mer information om den här integreringen finns i den [dedikerade dokumentatione
 
 Med API:er för Campaign Standard kan du utföra åtgärder för att uppdatera databasen, t.ex. när profiler eller tjänster skapas, uppdateras eller tas bort.
 
-Mer information om hur du använder API:erna finns i den [dedikerade dokumentationen](../../api/using/about-campaign-standard-apis.md).
+Mer information om hur du använder API:erna finns i den [dedikerade dokumentationen](../../api/using/get-started-apis.md).
 
 >[!CAUTION]
 >
