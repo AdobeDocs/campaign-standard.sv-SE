@@ -12,7 +12,7 @@ discoiquuid: 85d13147-fb31-446a-8476-f112c841fb82
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -83,7 +83,7 @@ Importmallen är nu tillgänglig för användarna och kan användas för att öv
 
 **Relaterade ämnen:**
 
-* [Arbetsflöden](../../automating/using/discovering-workflows.md)
+* [Arbetsflöden](../../automating/using/get-started-workflows.md)
 * [Importera data](../../automating/using/importing-data.md)
 * [Exempel: Importera arbetsflödesmall](../../automating/using/importing-data.md#example--import-workflow-template)
 
