@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
+source-git-commit: 7af424d2b2ce29811dc0deb015113de2de0124c0
 
 ---
 
@@ -38,13 +38,18 @@ På skärmen för e-postkonfiguration kan du definiera parametrar för e-postkan
 
 ![](assets/channels_1.png)
 
-* **Huvudparametrar för skickade e-postmeddelanden**
+* **Auktoriserade maskfält**
 
-   I det här avsnittet kan du ange **[!UICONTROL masks]** behörighet för avsändaradressen och feladressen. Om flera masker används måste de separeras med kommatecken. När dessa fält är ifyllda kontrollerar Adobe Campaign att de angivna adresserna är giltiga under meddelandeförberedelsefasen. Det här operativläget ser till att inga adresser används som kan utlösa leveransproblem. Både avsändar- och feladresser konfigureras av Adobe. Du måste kontakta Adobes kundtjänst för att uppdatera dem.
+   I listan **[!UICONTROL Header parameters of sent emails]** visas de auktoriserade e-postadresser som du kan använda för att skicka e-postmeddelanden till dina mottagare (avsändaradress) och för att meddela dem om det finns fel (feladress).  Adobe Campaign kontrollerar att de angivna adresserna är giltiga under meddelandeförberedelsefasen. Det här operativläget ser till att inga adresser används som kan utlösa leveransproblem.
+   * Både avsändar- och feladresser konfigureras av Adobe. Dessa fält får inte vara tomma.
+   * Du kan inte redigera dessa fält. Om du vill uppdatera en adress kontaktar du Adobes kundtjänstteam.
+   * Om du vill lägga till ytterligare en adress kan du använda [Kontrollpanelen](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) för att konfigurera en ny underdomän eller kontakta Adobes kundtjänstteam. Observera att om flera masker används, kommer de att avgränsas med kommatecken.
+   * Det är en god vana att ange adresser med en stjärna som **@dindomain.com*: gör att du kan använda alla adresser som slutar med ditt underdomännamn.
 
 * **Leverans**
 
-   Detta ID tillhandahålls av Adobes kundtjänstteam. Leveransrapporter måste fungera korrekt.
+   Dokumentet **[!UICONTROL Delivery reports ID]** tillhandahålls av Adobes kundtjänstteam. Den identifierar varje instans med ett leverans-ID som används i de tekniska leveransrapporterna.
+   <!--The Technical Deliverability report is not accessible through the UI in ACS. It will be replaced with 250ok in the future (project starting).-->
 
 * **Leveransparametrar**
 
@@ -71,6 +76,7 @@ På skärmen för e-postkonfiguration kan du definiera parametrar för e-postkan
    I **[!UICONTROL Time between two significant errors]** fältet anger du ett värde som anger när programmet väntar innan räknaren ökas om fel uppstår. Standardvärdet är **&quot;1d&quot;**, för 1 dag.
 
    När **[!UICONTROL Maximum number of errors before quarantine]** värdet nås sätts e-postadressen i karantän. Standardvärdet är **&quot;5&quot;**: adressen sätts i karantän på det femte felet. Detta innebär att kontakten automatiskt utesluts från efterföljande leveranser.
+   <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
 
    Mer information om karantäner finns i [Mer om karantänhantering](../../sending/using/understanding-quarantine-management.md).
 
