@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Produktdokumentation för Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -63,7 +63,7 @@ source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
 | Användbara sidor | Resurser för utvecklare |
 |---|---|
 | [Versionsinformation](rn/using/release-notes.md) | [Experience Cloud-utlösare](integrating/using/about-adobe-experience-cloud-triggers.md) |
-| [Dokumentation för kontrollpanelen](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [Kampanj-API:er](api/using/about-campaign-standard-apis.md) |
+| [Dokumentation för kontrollpanelen](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [Kampanj-API:er](api/using/get-started-apis.md) |
 | [Implementeringsguide](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) | [Lista över felmeddelanden](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Versionsplanering](rn/using/release-planning.md) | [Kampanjdatamodell](developing/using/datamodel-introduction.md) |
 | [Föråldrade och borttagna funktioner](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) | [Guide för flera lösningar](integrating/using/get-started-campaign-integrations.md) |
