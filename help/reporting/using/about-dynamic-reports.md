@@ -1,5 +1,5 @@
 ---
-title: Om dynamiska rapporter
+title: Kom igång med dynamiska rapporter
 description: Med dynamiska rapporter kan du dra och släppa variabler och dimensioner i frihandsmiljön och analysera hur framgångsrika era kampanjer är.
 page-status-flag: never-activated
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
@@ -12,29 +12,18 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6bf67d05ec8f5b4024df29c7ee7df7fc15e95e0a
+source-git-commit: d62c8cdac83789cfdffb7fd5e0d6c086e81300b1
 
 ---
 
 
-# Om dynamiska rapporter{#about-dynamic-reports}
+# Kom igång med dynamiska rapporter {#about-dynamic-reports}
 
 Dynamic Reporting ger helt anpassningsbara rapporter i realtid. Det ger åtkomst till profildata, vilket möjliggör demografiska analyser efter profildimensioner som kön, ort och ålder, utöver funktionella e-postkampanjdata som öppningar och klick. Med dra-och-släpp-gränssnittet kan ni utforska data, avgöra hur era e-postkampanjer har genomförts mot era viktigaste kundsegment och mäta deras påverkan på mottagarna.
 
 >[!NOTE]
 >
 >Endast användare med administrationsbehörighet eller organisationsenheter inställda på **Alla** kan skapa eller spara en ny rapport. For more on this, refer to this [section](../../administration/using/users-management.md).
-
-![](assets/dynamic_report_intro.png)
-
-Tack vare dra-och-släpp-menyn och anpassningsbara visualiseringar kan du med funktionen för dynamiska rapporter kombinera mått, mätvärden och tidsintervall i valfri kombination, med obegränsade uppdelningar och jämförelser.
-
-
-**Relaterade ämnen:**
-
-* [Rapportlista](../../reporting/using/defining-the-report-period.md)
-* [Organisationsenheter](../../administration/using/organizational-units.md)
-* [Video om dynamiska rapporter](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/creating-a-dynamic-report.html)
 
 ## Åtkomst till dynamiska rapporter {#accessing-dynamic-reports}
 
