@@ -1,5 +1,5 @@
 ---
-title: Om konfigurationsriktlinjer
+title: Konfigurationsriktlinjer
 description: Läs mer om riktlinjerna för konfiguration av Campaign Standard.
 page-status-flag: never-activated
 uuid: 64c34729-5c98-4db0-9131-af6dd0e78fb4
@@ -12,15 +12,45 @@ discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
+source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
 
 ---
 
 
-# Om konfigurationsriktlinjer{#about-configuration-guidelines}
+# Konfigurationsriktlinjer {#about-configuration-guidelines}
 
-I det här avsnittet grupperas de olika konfigurationsriktlinjerna för Adobe Campaign Standard.
+## Kompatibla webbläsare{#compatible-browsers}
 
-Ta reda på vilka webbläsare som är kompatibla med Campaign Standard och vilka operativsystem som stöds för surfplattor. Mer information finns i [det här avsnittet](../../administration/using/compatible-browsers.md).
+Adobe Campaign Standard är kompatibelt med de flesta webbläsare för datorer och de huvudsakliga operativsystemen för surfplattor.
 
-Lär dig även om de olika slutpunkterna som används i Campaign Standard. Mer information finns i [det här avsnittet](../../administration/using/campaign-standard-network-endpoints.md).
+Adobe Campaign Standard har bara stöd för liggande som visningsläge på surfplattor.
+
+Här är en lista över webbläsare som är kompatibla med Adobe Campaign Standard:
+
+**Dator:**
+
+* Krom (senaste versionen)
+* Firefox (senaste versionen)
+* Safari (senaste versionen)
+* Microsoft Edge (senaste versionen)
+
+**Surfplatta:**
+
+* iOS (version 7 och senare)
+* Android (version 4.4 och senare)
+
+## Nätverksslutpunkter för Campaign Standard {#campaign-standard-network-endpoints}
+
+Här är de olika slutpunkterna som används i Campaign Standard.
+
+| Kontext | URL |
+|--- |--- |
+| Kampanjinstanser | `https://*.experiencecloud.adobe.com` (klient-ID * + klientdomän)<br>`https://*.campaign.adobe.com` (Campaign Instance tenant) |
+| IMS | `https://adobeid-na1.services.adobe.com`<br>`https://*.adobelogin.com` |
+| Experience Cloud | `https://experiencecloud.adobe.com` |
+| Spårning | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net` |
+| Creative SDK for image editor | `https://dme0ih8comzn4.cloudfront.net`<br>`https://d42hh4005hpu.cloudfront.net/`<br>`https://cdn-creativesdk.adobe.io/`<br>`https://api-ag.aviary.com/`<br>`https://feather-client-files-aviary-prod-us-east-1.s3.amazonaws.com/` |
+| Resursintegrering | `https://*.marketing-assets.adobe.com` |
+| Adobes interna tjänster | `https://*.adobe.io` |
+| Undersökningar | `https://adobe.allegiancetech.com` |
+| URL för standardprofilering (före klientkonfiguration) | `https://*.adobe-campaign.com` |
