@@ -4,7 +4,7 @@ sub-product: adobe kampanjstandard
 audience: end-user
 user-guide-title: Hjälp om Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 381803b39527e175efc9a0d0ef8f4a427697db2d
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -389,7 +389,7 @@ source-git-commit: 381803b39527e175efc9a0d0ef8f4a427697db2d
       + [Datalagring](administration/using/data-retention.md)
       + [Uppdateringar och underhållsåtgärder](administration/using/updates-and-maintenance-operations.md)
 + Arbeta med API:er {#working-with-apis}
-   + [Kom igång med Campaign Standard-API:er](api/using/about-campaign-standard-apis.md)
+   + [Kom igång med Campaign Standard-API:er](api/using/get-started-apis.md)
    + Om Campaign Standard-API:er {#about-campaign-standard-apis}
       + [Varför använda Campaign Standard-API:er](api/using/why-using-campaign-standard-apis.md)
       + [Konfigurera API-åtkomst](api/using/setting-up-api-access.md)
