@@ -12,7 +12,7 @@ discoiquuid: f9bb2235-d388-4025-9ace-734beb0c1961
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 Anpassa innehållet i push-meddelanden genom att skicka meddelanden baserat på de språk och regioner användarna föredrar. Du kan importera innehållsvarianter för flerspråkiga push-meddelanden direkt i innehållsredigeraren och skicka ett flerspråkigt push-meddelande i en enda leverans.
 
-Den här funktionen utnyttjar antingen önskade språk som anges i mottagarnas profiler eller systemspråkinställningen för mobilappsprenumeranter beroende på leveransmallen som används för push-meddelanden. Om språkinställningen inte fylls i för en viss användare använder systemet standardvarianten som definieras när ett flerspråkigt push-meddelande skapas. Mer information om hur du hanterar dina profiler och prenumeranter finns i den här [handboken](../../audiences/using/about-profiles-and-audiences.md).
+Den här funktionen utnyttjar antingen önskade språk som anges i mottagarnas profiler eller systemspråkinställningen för mobilappsprenumeranter beroende på leveransmallen som används för push-meddelanden. Om språkinställningen inte fylls i för en viss användare använder systemet standardvarianten som definieras när ett flerspråkigt push-meddelande skapas. Mer information om hur du hanterar dina profiler och prenumeranter finns i den här [handboken](../../audiences/using/get-started-profiles-and-audiences.md).
 
 ![](assets/multivariant_push_1.png)
 
