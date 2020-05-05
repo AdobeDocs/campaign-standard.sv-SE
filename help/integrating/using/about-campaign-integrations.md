@@ -1,5 +1,5 @@
 ---
-title: Om Campaign-integreringar
+title: Kom igång med Campaign-integreringar
 description: Med Adobe Campaign kan ni använda andra Adobe-lösningar och kombinera deras olika funktioner.
 page-status-flag: never-activated
 uuid: 59d7cd99-a6f7-47f1-9b5c-c50e27a2bef8
@@ -7,17 +7,17 @@ contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
-topic-tags: about-campaign-integrations
+topic-tags: get-started-campaign-integrations
 discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 640286c66da3f216cac6264ab6c61652bba209ce
+source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
 
 ---
 
 
-# Om Campaign-integreringar{#about-campaign-integrations}
+# Om Campaign-integreringar{#get-started-campaign-integrations}
 
 I det här avsnittet beskrivs de funktionella integreringar som är tillgängliga mellan den aktuella versionen av Adobe Campaign och andra lösningar och tjänster.
 
