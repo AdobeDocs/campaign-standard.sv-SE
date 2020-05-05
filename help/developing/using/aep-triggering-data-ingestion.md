@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: dd7e50abbb73bf89ea39f6488083180bcee5163d
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: dd7e50abbb73bf89ea39f6488083180bcee5163d
 
 Med Adobe Campaign Standard kan ni utlösa direkt inmatning av datamappningar via API:er och hämta status för era önskemål om inmatning.
 
-Den här sidan beskriver hur du aktiverar och hämtar inmatningsstatus för dina datamappningar. Global information om Campaign Standard API:er finns i [det här avsnittet](../../api/using/about-campaign-standard-apis.md).
+Den här sidan beskriver hur du aktiverar och hämtar inmatningsstatus för dina datamappningar. Global information om Campaign Standard API:er finns i [det här avsnittet](../../api/using/get-started-apis.md).
 
 ## Förutsättningar {#prerequisites}
 
