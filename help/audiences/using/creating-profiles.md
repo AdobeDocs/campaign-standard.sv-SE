@@ -12,7 +12,7 @@ discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -25,7 +25,7 @@ Om du vill skapa eller uppdatera en profil i Campaign kan du:
 
 * Importera en profillista från en fil via ett [arbetsflöde](../../automating/using/importing-data.md#example--import-workflow-template)
 * Samla in data online via [landningssidor](../../channels/using/getting-started-with-landing-pages.md)
-* Skapa bulk via [REST API](../../api/using/about-campaign-standard-apis.md)
+* Skapa bulk via [REST API](../../api/using/get-started-apis.md)
 * Synkronisera profiler från [Microsoft Dynamics](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 * Ange data med hjälp av de grafiska gränssnittsskärmarna, vilket förklaras nedan
 
