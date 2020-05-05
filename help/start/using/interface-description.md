@@ -12,7 +12,7 @@ discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 260312a461d02c32683e1eb8a90bbaa282800668
+source-git-commit: 40bb454d13de14658bfc30a6454a1a896bf3ad70
 
 ---
 
@@ -101,7 +101,7 @@ Med **[!UICONTROL Resources]** ikonen får du tillgång till följande funktione
 
 ### Administration {#administration}
 
-Med **[!UICONTROL Administration]** ikonen får du tillgång till avancerade funktioner som bara kan utföras av en funktionell administratör. Mer information finns i avsnittet [Administration](../../administration/using/about-administrating-adobe-campaign.md) .
+Med **[!UICONTROL Administration]** ikonen får du tillgång till avancerade funktioner som bara kan utföras av en funktionell administratör. Mer information finns i avsnittet [Administration](../../administration/using/get-started-campaign-administration.md) .
 
 ## Centralzon {#central-zone}
 
