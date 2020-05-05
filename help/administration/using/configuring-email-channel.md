@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7af424d2b2ce29811dc0deb015113de2de0124c0
+source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
 
 ---
 
@@ -44,7 +44,7 @@ På skärmen för e-postkonfiguration kan du definiera parametrar för e-postkan
    * Både avsändar- och feladresser konfigureras av Adobe. Dessa fält får inte vara tomma.
    * Du kan inte redigera dessa fält. Om du vill uppdatera en adress kontaktar du Adobes kundtjänstteam.
    * Om du vill lägga till ytterligare en adress kan du använda [Kontrollpanelen](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) för att konfigurera en ny underdomän eller kontakta Adobes kundtjänstteam. Observera att om flera masker används, kommer de att avgränsas med kommatecken.
-   * Det är en god vana att ange adresser med en stjärna som **@dindomain.com*: gör att du kan använda alla adresser som slutar med ditt underdomännamn.
+   * Det är en god vana att ange adresser med en stjärna som *@dindomain.com: gör att du kan använda alla adresser som slutar med ditt underdomännamn.
 
 * **Leverans**
 
