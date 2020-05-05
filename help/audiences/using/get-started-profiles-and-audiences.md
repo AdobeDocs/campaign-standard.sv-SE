@@ -1,0 +1,95 @@
+---
+title: Kom igång med profiler och målgrupper
+description: '"Läs om profiler och målgruppshantering i Adobe Campaign: definiera målgrupper, välja målgrupper, filtrera mottagare, samla in data och uppdatera profiler."'
+page-status-flag: never-activated
+uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
+contentOwner: sauviat
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
+content-type: reference
+topic-tags: about-profiles-and-audiences
+discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 381803b39527e175efc9a0d0ef8f4a427697db2d
+
+---
+
+
+# Kom igång med profiler och målgrupper{#about-profiles-and-audiences}
+
+<table>
+<tr>
+<td><img src="assets/do-not-localize/icon_segment.svg" width="60px"><p><a href="#segmenting-targeting">Segmentering och målinriktning</a></p></td>
+<td><img src="assets/do-not-localize/icon_permission.svg" width="60px"><p><a href="#permission">Tillstånd och samtycke</a></p></td>
+<td><img src="assets/do-not-localize/icon_privacy.svg" width="60px"><p><a href="#privacy">Integritetsefterlevnad</a></p></td></tr>
+</table>
+
+Med kampanjintegrerade kundprofiler kan ni spåra alla interaktioner med kunder i alla kanaler i en enda vy, så att ni kan leverera relevanta och personaliserade meddelanden till era kunder.
+
+Segmentera er databas i målgrupper för att optimera målsättningen för era marknadsföringskampanjer.
+
+Hantera kundernas tillstånd och samtycke med hjälp av tjänster och landningssidor för att enkelt konfigurera mekanismer för anmälan och avanmälan.
+
+## Segmentering och målinriktning {#segmenting-targeting}
+
+<img src="assets/do-not-localize/icon_segment.svg" width="60px">
+
+När du skapar kampanjer eller meddelanden kan du ange leveransmålet genom att välja bland kontakter i Campaign-databasen, använda enkla eller avancerade kriterier eller välja målgrupper.
+
+Identifiera kunder effektivare i alla kanaler med **integrerade kundprofiler** och **anpassade segment**. När ni känner era kunder, intressen, demografiska önskemål och kanalönskemål är det enklare att skapa personaliserade upplevelser som sticker ut.
+
+Adobe Campaign skapar innehållsrika kundprofiler i realtid, så att ni kan leverera mer relevanta och personaliserade erbjudanden i takt med att kundens önskemål förändras. Adobe Campaign integrerar dessutom avancerade funktioner för analys, datahantering och målinriktning för att skapa målgrupper.
+
+**Profiler** är enskilda kontakter som lagras i databasen. Varje profil motsvarar en post i databasen som innehåller den information som krävs för att den profilen ska kunna användas, kvalificeras och spåras individuellt: Adobe Campaign kan spåra alla interaktioner från både online- och offlinekanaler och slå samman dem till en enda profil.
+
+**Målgrupper** är listor med profiler som bygger på ett specifikt villkor eller en uppsättning kriterier. Med hjälp av arbetsflöden och frågeredigeraren kan ni skapa målgrupper som ska vara inriktade på era marknadsföringskampanjer, beroende på vilken information ni har om dem, deras aktiviteter och deras marknadsföringshistorik. På så sätt kan du filtrera prenumererade profiler, sampla eller skapa målgrupper utifrån ett obegränsat antal kriterier.
+
+Läs mer:
+
+* [Om profiler](../../audiences/using/about-profiles.md)
+* [Aktiva profiler](../../audiences/using/active-profiles.md)
+* [Hantera testprofiler](../../audiences/using/managing-test-profiles.md)
+* [Förbättrar Campaign-databasen](../../audiences/using/enriching-campaign-database.md)
+* [Om målgrupper](../../audiences/using/about-audiences.md)
+* [Välja en målgrupp i ett meddelande](../../audiences/using/selecting-an-audience-in-a-message.md)
+
+## Tillstånd och samtycke {#permission}
+
+<img src="assets/do-not-localize/icon_permission.svg"  width="60px">
+
+Innan du börjar skicka meddelanden till en kontakt måste du se till att du får deras tillstånd. Annars kan dina e-postmeddelanden markeras som skräppost vilket påverkar plattformens leveransförmåga. För att vara säker på att du skapar en felfri profildatabas måste du först skydda behörigheten.
+
+Med Campaign rekommenderar vi att ni använder **enkla anmälnings- och avanmälningsmekanismer** via [tjänster](../../audiences/using/creating-a-service.md)och [landningssidor](../../channels/using/getting-started-with-landing-pages.md) för att uppdatera kontaktinformationen och utöka databasen.
+
+Genom att tillhandahålla **länkar** för att ta bort prenumerationen i dina meddelanden kan profiler svartlistas vid behov och därmed förbättra din plattformsleverans. Mer information om svartlistning finns i [Om deltagande och avanmälan i Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+
+>[!IMPORTANT]
+>
+>Du måste följa [Adobe Campaigns policy](https://www.adobe.com/legal/terms/aup.html)för godtagbar användning.
+
+Läs mer:
+
+* [Om prenumerationer](../../audiences/using/about-subscriptions.md)
+* [Om anmälan och avanmälan i Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+
+## Integritetsefterlevnad {#privacy}
+
+<img src="assets/do-not-localize/icon_privacy.svg" width="60px">
+
+Adobe Campaign erbjuder en uppsättning verktyg som hjälper dig med **integritetsefterlevnaden** för GDPR, CCPA och andra integritetslagar.
+
+Läs mer i den här [artikeln](https://helpx.adobe.com/campaign/kb/campaign-privacy.html) om sekretesshantering och de funktioner vi tillhandahåller för att hantera behörighet till åtkomst, rätt att bli glömd, samtycke, datalagring och användarroller.
+
+Integritet och samtycke i Campaign och hur ni hanterar dem presenteras i [det här avsnittet](../../start/using/privacy.md).
+
+Du hittar också bästa praxis som hjälper dig att följa din sekretesspraxis när du använder vår tjänst.
+
+## Ytterligare resurser
+
+* [Arbeta med målgruppstjänst](../../audiences/using/aep-about-audience-destinations-service.md)
+* [Arbeta med Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+* [Delade Adobe-målgrupper](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
+* [Importera profiler med arbetsflöden](../../automating/using/importing-data.md)
+* [Profiler och målgrupper - videor](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
