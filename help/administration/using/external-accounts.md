@@ -13,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 5b53f210bc8fc211b1f48f5b6ff8694bcaf41622
+source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
 
 ---
 
@@ -124,7 +124,7 @@ Vi rekommenderar att du följer dessa rekommendationer för att hjälpa dig att 
 
 Externa konton för Adobe Experience Manager används när ni integrerar Campaign med Experience Manager.
 
-Processer och krav som rör den här integreringen är tillgängliga i [det här dokumentet](../../integrating/using/about-campaign-integrations.md).
+Processer och krav som rör den här integreringen är tillgängliga i [det här dokumentet](../../integrating/using/get-started-campaign-integrations.md).
 
 När du konfigurerar det nya externa kontot måste du ange följande information:
 
