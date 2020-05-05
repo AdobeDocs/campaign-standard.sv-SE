@@ -12,7 +12,7 @@ discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 40bb454d13de14658bfc30a6454a1a896bf3ad70
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -78,7 +78,7 @@ Använd funktionen för leveransvarningar för att hålla reda på leveransframg
 
 **Utöka datamodellen** Campaign Standard med era egna fält och resurser och övervaka alla datamodellsändringar i en enda vy. [Kom igång med datamodellen Campaign Standard](../../developing/using/get-started-data-model.md)
 
-**Utnyttja REST API:er** för att utföra olika åtgärder och integrera Campaign Standard med ert eget ekosystem. [Kom igång med Campaign Standard REST API:er](../../api/using/about-campaign-standard-apis.md)
+**Utnyttja REST API:er** för att utföra olika åtgärder och integrera Campaign Standard med ert eget ekosystem. [Kom igång med Campaign Standard REST API:er](../../api/using/get-started-apis.md)
 
 **Administrera kampanj** från en enda vy: övervaka instansen, hantera användarnas behörigheter. Konfigurera externa servrar för att ansluta till din instans och konfigurera parametrar för dina kommunikationskanaler. [Kom igång med Campaign Standard-administration](../../administration/using/get-started-campaign-administration.md)
 
