@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1de0f5362f3c77fec4b66e330a2d2723f4a0f212
+source-git-commit: caab111b583534cc2e52aa9e45d9fd37c770783c
 
 ---
 
@@ -21,11 +21,11 @@ source-git-commit: 1de0f5362f3c77fec4b66e330a2d2723f4a0f212
 
 Börja arbeta med e-postdesignern och skapa återanvändbara mallar och fragment från din e-post-HTML som skapats i den äldre redigeraren.
 
-I det här exemplet kan du skapa en e-postdesignermall genom att använda ett HTML-e-postmeddelande och dela upp den i HTML-komponenter i e-postdesignern.
-
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Det här avsnittet är avsett för avancerade användare som känner till HTML-kod.
+
+I det här exemplet kan du skapa en e-postdesignermall genom att använda ett HTML-e-postmeddelande och dela upp den i HTML-komponenter i e-postdesignern.
 
 >[!NOTE]
 >
@@ -96,21 +96,21 @@ Om du vill visa HTML-versionen av e-postmeddelandet klickar du på **[!UICONTROL
 
 ### Skapa e-postmallen och dess struktur
 
-1. Dra-och-släpp **[!UICONTROL Structure Components]** som återspeglar layouten för vårt e-postmeddelande.
+1. Dra-och-släpp **[!UICONTROL Structure components]** som återspeglar layouten för vårt e-postmeddelande.
 
-Vi måste skapa 11 strukturkomponenter.
+1. Upprepa så många gånger som behövs. Vi måste skapa 11 strukturkomponenter.
 
-![](assets/structure-components-migration.png)
+   ![](assets/structure-components-migration.png)
 
 ### Infoga HTML-innehållskomponenter
 
-1. Infoga en **[!UICONTROL HTML component]** i varje **[!UICONTROL structure component]** .
+1. Infoga en **[!UICONTROL HTML component]** i varje **[!UICONTROL Structure component]** .
 
-![](assets/html-components.png)
+   ![](assets/html-components.png)
 
 1. För varje avsnitt klickar du på **[!UICONTROL Show source code]** .
 
-![](assets/show-source-code.png)
+   ![](assets/show-source-code.png)
 
 1. Infoga HTML-avsnittet.
 
@@ -122,7 +122,7 @@ Nu kan du kontrollera återgivningen av ditt e-postmeddelande.
 
 ### Hantera format för att passa mobilvyn
 
-Infoga CSS-element för att säkerställa att din e-post är lämplig för mobilvyn.
+1. Infoga CSS-element för att säkerställa att din e-post är lämplig för mobilvyn.
 
 1. Växla till källkod och kopiera och klistra in stilavsnittet i ett nytt stilavsnitt.
 
