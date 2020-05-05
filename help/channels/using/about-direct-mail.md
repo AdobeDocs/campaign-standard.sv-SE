@@ -13,7 +13,7 @@ context-tags: delivery,directMailContent,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -28,7 +28,7 @@ Direktreklam är en offlinekanal som gör att du kan anpassa och generera den fi
 
 Med onlinekanaler kan du skapa meddelanden (e-post, SMS, mobilappsleverans osv.) och skicka dem till er målgrupp direkt från Adobe Campaign. Med offlinekanaler är det annorlunda. När du förbereder en direktutskick genererar Adobe Campaign en fil som innehåller alla målprofiler och den valda kontaktinformationen (till exempel postadress). Du kan sedan skicka den här filen till din direktreklamleverantör som tar hand om själva sändningen.
 
-I följande avsnitt beskrivs hur du skapar och genererar direktreklam i ett enda steg. Du kan även inkludera en direktreklamaktivitet i ett arbetsflöde för att samordna kampanjer som kombinerar online- och offlinekanaler. Mer information finns i handboken [Arbetsflöden](../../automating/using/workflow-data-and-processes.md) .
+I följande avsnitt beskrivs hur du skapar och genererar direktreklam i ett enda steg. Du kan även inkludera en direktreklamaktivitet i ett arbetsflöde för att samordna kampanjer som kombinerar online- och offlinekanaler. Mer information finns i handboken [Arbetsflöden](../../automating/using/get-started-workflows.md) .
 
 Användarprocessen i Adobe Campaign är följande:
 
