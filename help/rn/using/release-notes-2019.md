@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -368,7 +368,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
 * När du exporterar ett paket med säkerhetsgrupper innehåller det nu de roller som tilldelas varje grupp. (CAMP-32960)
 * I aktiviteten Läs in fil kan du med ett nytt alternativ kontrollera att kolumnerna i filen som du överför matchar kolumndefinitionen. Mer information finns i den [detaljerade dokumentationen](../../automating/using/load-file.md). (CAMP-3229)
 * Arbetsflöden kan nu startas med en nyttolast, vilket gör att du kan använda och dela externa parametrar mellan aktiviteter i arbetsflödet. Mer information finns i den [detaljerade dokumentationen](../../automating/using/calling-a-workflow-with-external-parameters.md). (CAMP-29412 &amp; CAMP-29413)
-* Med Campaign Standard-API:er kan du nu uppdatera profilernas geografiska och organisatoriska enheter med hjälp av en nyttolast. Mer information finns i den [detaljerade dokumentationen](../../api/using/about-campaign-standard-apis.md).
+* Med Campaign Standard-API:er kan du nu uppdatera profilernas geografiska och organisatoriska enheter med hjälp av en nyttolast. Mer information finns i den [detaljerade dokumentationen](../../api/using/get-started-apis.md).
 * Felmeddelanden när ett objekt från databasen inte är tillgängligt har blivit tydligare.
 * I filaktiviteten Extract har Javascript-funktioner uppdaterats när namnet på en fil som ska exporteras definierades. Endast funktionen formatDate är nu tillgänglig för användning i utdatafältet. Mer information finns i den [detaljerade dokumentationen](../../automating/using/extract-file.md).
 * Automatisk generering av sekvens-ID har förbättrats för anpassade resurser. Primärnycklar för nya anpassade resurser är nu som standard 64 bitar.
@@ -438,7 +438,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
    <td> Förbättrat arbetsflöde<br /> </td> 
    <td> <p>Följande arbetsflödesfunktioner har lagts till:</p> 
     <ul> 
-     <li> Nu kan du kopiera och klistra in aktiviteter i ett arbetsflöde eller ett annat arbetsflöde från samma Campaign-instans. På så sätt kan du enkelt duplicera ett helt arbetsflöde eller specifika aktiviteter och behålla de inställningar som ursprungligen definierades. Mer information finns i den <a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">detaljerade dokumentationen</a>. (CAMP-2014) </li> 
+     <li> Nu kan du kopiera och klistra in aktiviteter i ett arbetsflöde eller i ett annat arbetsflöde från samma Campaign-instans. På så sätt kan du enkelt duplicera ett helt arbetsflöde eller specifika aktiviteter och behålla de inställningar som ursprungligen definierades. Mer information finns i den <a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">detaljerade dokumentationen</a>. (CAMP-2014) </li> 
      <li> När du använder aktiviteten <strong>Läs in fil</strong> kan du nu lägga till en tidsstämpel till namnet på filen som innehåller de avvisade posterna. Mer information finns i den <a href="../../automating/using/load-file.md#configuration">detaljerade dokumentationen</a>. </li> 
      <li> <strong>Fråge</strong> - och <strong>segmenteringsaktiviteter</strong> gör nu att du kan aktivera en utgående övergång om aktiviteterna inte hämtar några data. </li> 
     </ul> </td> 
