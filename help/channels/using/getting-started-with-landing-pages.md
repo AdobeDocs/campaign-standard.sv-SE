@@ -13,18 +13,12 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
+source-git-commit: 0dd69cbad3e05a5a7eb36da80264e6eb6aae0e34
 
 ---
 
 
 # Komma igång med landningssidor {#getting-started-with-landing-pages}
-
-## Om landningssidor {#about-landing-pages}
-
-Campaign innehåller landningssidor som är webbformulär som kan användas för att samla in information om era målgrupper, erbjuda prenumerationer på en tjänst, visa data och utöka databasen. Landningssidor kan också användas för att hämta eller uppdatera befintliga profiler.
-
-Landningssidor kan också användas för att konfigurera en mekanism för dubbel anmälan, vilket gör att du kan skydda plattformen från fel eller ogiltiga e-postadresser eller skräppost. Mer information finns i det [dedikerade användningsexemplet](../../channels/using/setting-up-a-double-opt-in-process.md).
 
 De viktigaste stegen när du ställer in landningssidor är följande:
 
