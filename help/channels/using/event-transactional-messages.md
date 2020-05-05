@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -258,7 +258,7 @@ Använd **[!UICONTROL Reports]** knappen för att få åtkomst till rapporter om
 
 Du kan göra uppehåll i publiceringen av ditt transaktionsmeddelande genom att använda **[!UICONTROL Pause]** -knappen för att t.ex. ändra data i meddelandet. Händelserna behandlas därför inte längre utan hålls i en kö i Adobe Campaign-databasen.
 
-Händelserna som står i kö behålls under en tidsperiod som definieras i REST API (se [REST API-dokumentationen](../../api/using/about-campaign-standard-apis.md)) eller i utlösarhändelsen om du använder huvudtjänsten Triggers (se [Arbeta med Campaign och Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
+Händelserna som står i kö behålls under en tidsperiod som definieras i REST API (se [REST API-dokumentationen](../../api/using/get-started-apis.md)) eller i utlösarhändelsen om du använder huvudtjänsten Triggers (se [Arbeta med Campaign och Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
 ![](assets/message-center_pause.png)
 
