@@ -13,18 +13,27 @@ context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e04b70012188b455382406df167328f963d577da
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
 
 # Bygga ett arbetsflöde{#building-a-workflow}
 
-I det här avsnittet beskrivs de viktigaste principerna och de bästa sätten att skapa ett nytt arbetsflöde:
+I det här avsnittet beskrivs de viktigaste principerna och de bästa sätten att skapa ett nytt arbetsflöde.
 
-* Skapa ett arbetsflöde.
-* Lägga till och länka aktiviteter.
-* Konfigurerar aktiviteter.
+## Principer för arbetsflödesoperation{#workflow-operating-principles}
+
+Ett arbetsflöde är en **sekvens med konfigurerbara aktiviteter**. Varje aktivitet har en specifik roll i processen. Resultatet av varje aktivitet vidarebefordras till följande aktivitet med en **övergång**, som representeras av en pil.
+
+Den typ av data som utbyts mellan olika aktiviteter kan påverka hur följande aktiviteter konfigureras. Om en ifyllnad till exempel har upprättats före e-postleveransaktiviteten kan den fungera som mål för e-postmeddelandet i fråga.
+
+Du kan öppna aktiviteter för att kontrollera eller redigera parametrar före eller efter att arbetsflödet har körts.
+
+Du kan öppna övergångar för att kontrollera att skickade data är korrekta under eller efter arbetsflödets körning. Om du vill få åtkomst till detaljvyn för övergångarna måste du markera **[!UICONTROL Keep interim results]** alternativet i avsnittet **[!UICONTROL Execution]** i arbetsflödesegenskaperna.
+
+![](assets/workflow_overview.png)
+
 
 ## Skapa ett arbetsflöde {#creating-a-workflow}
 
