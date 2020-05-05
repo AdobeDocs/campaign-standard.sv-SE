@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0dde3a445c7047d97c3612b284b9bad36f71539
+source-git-commit: f4c6b74d9b80d80befed65d853cf82b32084c49d
 
 ---
 
@@ -89,7 +89,7 @@ source-git-commit: d0dde3a445c7047d97c3612b284b9bad36f71539
 
 >[!NOTE]
 >
->Adobe Experience Platform-funktionerna i Campaign Standard är för närvarande betaversioner, som kan komma att uppdateras ofta utan föregående meddelande. Mer information finns i den detaljerade dokumentationen: [Experience Platform Data Connector](../../administration/using/aep-about-data-connector.md), [målgruppsmål](../../audiences/using/aep-about-audience-destinations-service.md)
+>Adobe Experience Platform-funktionerna i Campaign Standard är för närvarande betaversioner, som kan komma att uppdateras ofta utan föregående meddelande. Mer information finns i den detaljerade dokumentationen: [Experience Platform Data Connector](../../developing/using/aep-about-data-connector.md), [målgruppsmål](../../audiences/using/aep-about-audience-destinations-service.md)
 
 * I arbetsflödesloggar visas nu antalet poster som redan har bearbetats av jobbet som körs var 10:e minut.
 * Ett problem som kunde inträffa vid import av en Adobe Experience Platform-profil som har tagits bort från databasen har korrigerats.
@@ -136,7 +136,7 @@ source-git-commit: d0dde3a445c7047d97c3612b284b9bad36f71539
  <tbody> 
   <tr> 
    <td> <p>Adobe Experience Platform Data Connector är nu integrerad med Adobe Campaign Standard. Ni kan göra era Campaign-data tillgängliga på Adobe Experience Platform genom att mappa XTK-data (data som importerats i Campaign) till Adobe Experience Platform Data Model (XDM). </p>
-    <p>Observera att den här funktionen endast är tillgänglig för kunder som har Azure som värd. Mer information om den här funktionen och villkoren för att aktivera den finns i den <a href="../../administration/using/aep-about-data-connector.md">detaljerade dokumentationen</a> och videon <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">med</a>anvisningar.</p>
+    <p>Observera att den här funktionen endast är tillgänglig för kunder som har Azure som värd. Mer information om den här funktionen och villkoren för att aktivera den finns i den <a href="../../developing/using/aep-about-data-connector.md">detaljerade dokumentationen</a> och videon <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">med</a>anvisningar.</p>
    </td> 
   </tr> 
  </tbody> 
