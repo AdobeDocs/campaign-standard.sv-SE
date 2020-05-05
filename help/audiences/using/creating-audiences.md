@@ -13,7 +13,7 @@ context-tags: readAudience,main;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## Skapa frågemålgrupper {#creating-query-audiences}
 
-I det här avsnittet beskrivs hur du skapar en **frågepublik** . Du kan också skapa målgrupper genom att importera en fil eller målinrikta i ett [arbetsflöde](../../automating/using/discovering-workflows.md).
+I det här avsnittet beskrivs hur du skapar en **frågepublik** . Du kan också skapa målgrupper genom att importera en fil eller målinrikta i ett [arbetsflöde](../../automating/using/get-started-workflows.md).
 
 Från målgruppslistan kan ni skapa målgrupper genom att utföra frågor i Adobe Campaign-profiler eller importera en Adobe Experience Cloud-målgrupp.
 
@@ -49,7 +49,7 @@ Från målgruppslistan kan ni skapa målgrupper genom att utföra frågor i Adob
 
 ## Skapa listmålgrupper {#creating-list-audiences}
 
-I det här avsnittet beskrivs hur du skapar en **List** -målgrupp efter målgruppsanpassning i ett arbetsflöde. Du kan också skapa målgrupper genom att importera en fil till ett [arbetsflöde](../../automating/using/discovering-workflows.md) eller via en fråga på **[!UICONTROL Audiences]** menyn.
+I det här avsnittet beskrivs hur du skapar en **List** -målgrupp efter målgruppsanpassning i ett arbetsflöde. Du kan också skapa målgrupper genom att importera en fil till ett [arbetsflöde](../../automating/using/get-started-workflows.md) eller via en fråga på **[!UICONTROL Audiences]** menyn.
 
 Så här skapar du en **List** -målgrupp:
 
@@ -79,7 +79,7 @@ Så här skapar du en **List** -målgrupp:
 
 ## Skapa filmålgrupper {#creating-file-audiences}
 
-I det här avsnittet beskrivs hur du skapar en **filmålgrupp** genom att importera en fil till ett arbetsflöde. Du kan också skapa målgrupper från en målinriktningsaktivitet i ett [arbetsflöde](../../automating/using/discovering-workflows.md) eller via en fråga på **[!UICONTROL Audiences]** menyn.
+I det här avsnittet beskrivs hur du skapar en **filmålgrupp** genom att importera en fil till ett arbetsflöde. Du kan också skapa målgrupper från en målinriktningsaktivitet i ett [arbetsflöde](../../automating/using/get-started-workflows.md) eller via en fråga på **[!UICONTROL Audiences]** menyn.
 
 Så här skapar du en publik med **filer** :
 
