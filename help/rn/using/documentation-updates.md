@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5d4560a26c0f5c6d3e8710caf51d4a82fbf80174
+source-git-commit: 62b1f9bb452c229b879f735830b330d0fda5ea3c
 
 ---
 
@@ -20,6 +20,12 @@ source-git-commit: 5d4560a26c0f5c6d3e8710caf51d4a82fbf80174
 # Dokumentationsuppdateringar{#documentation-updates}
 
 Förutom [versionsinformationen](../../rn/using/release-notes.md)för Adobe Campaign listas alla nya uppdateringar i dokumentationen för Adobe Campaign Standard på den här sidan.
+
+## Dokumentationsuppdateringar - maj 2020 {#doc-updates-may-2020}
+
+Översiktssidan för Campaign Standard har berikats och omorganiserats i tematiska ämnen. [Läs mer](../../start/using/about-campaign-standard.md)
+
+Avsnittet med e-postkanalsparametrar har klargjorts med ytterligare information om de godkända maskfälten och leveransrapport-ID:t. [Läs mer](../../administration/using/configuring-email-channel.md)
 
 ## Version 20.3 - maj 2020 {#release-20-3---may-2020}
 
@@ -37,9 +43,9 @@ Information om gränsen på 500 tecken för ämnesradprefixet har lagts till i a
 
 Ett nytt avsnitt som handlar om sekretess och samtycke har lagts till i huvuddokumentationen. [Läs mer](../../start/using/privacy.md)
 
-* Ett användningsexempel har lagts till så att du kan konvertera äldre redigeringsmeddelanden till e-postdesignern. [Läs mer](../../designing/using/converting-emails-from-legacy-editor.md)
+Ett användningsexempel har lagts till så att du kan konvertera äldre redigeringsmeddelanden till e-postdesignern. [Läs mer](../../designing/using/converting-emails-from-legacy-editor.md)
 
-* Ett ofta ställt frågeavsnitt har lagts till om e-postdesignern. [Läs mer](../../designing/using/faq-email-designer.md)
+Ett ofta ställt frågeavsnitt har lagts till om e-postdesignern. [Läs mer](../../designing/using/faq-email-designer.md)
 
 ## Dokumentationsuppdateringar - april 2020 {#doc-updates-april-2020}
 
@@ -47,7 +53,7 @@ Integreringen av Microsoft Dynamics 365 med Adobe Campaign Standard-dokumentatio
 
 Ytterligare resurser har lagts till på dokumentationsstartsidan. [Läs mer](../../campaign-standard-home.md)
 
-Information om Experience Cloud ID Service (ECID) har lagts till i dokumentationen för Adobe Experience Platform Data Connector. [Läs mer](../../administration/using/aep-about-data-connector.md#key-concepts)
+Information om Experience Cloud ID Service (ECID) har lagts till i dokumentationen för Adobe Experience Platform Data Connector. [Läs mer](../../developing/using/aep-about-data-connector.md#key-concepts)
 
 Avsnittet Configuring transactional messaging har förbättrats med information om hur man får tillgång till de senaste transaktionshändelserna och uppdaterade skärmbilder. [Läs mer](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 
@@ -115,7 +121,7 @@ Information har lagts till om de **[!UICONTROL History in days field]** tillgän
 
 **Nya funktioner i releasen**
 
-Adobe Experience Platform Data Connector (beta) - [läs mer](../../administration/using/aep-about-data-connector.md)
+Adobe Experience Platform Data Connector (beta) - [läs mer](../../developing/using/aep-about-data-connector.md)
 
 Målgrupper (beta) - [Läs mer](../../audiences/using/aep-about-audience-destinations-service.md)
 
@@ -201,7 +207,7 @@ Ett nytt diagram som presenterar processen för transaktionsmeddelanden har lagt
 
 Guiden Komma igång med bästa leveransmetoder har flyttats och uppdaterats. [Läs mer](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
-Ett nytt avsnitt har lagts till. Den ger en översikt över de olika metoder som gör att ni kan utöka Campaign Standard-databasen. [Läs mer](../../start/using/enriching-campaign-database.md)
+Ett nytt avsnitt har lagts till. Den ger en översikt över de olika metoder som gör att ni kan utöka Campaign Standard-databasen. [Läs mer](../../audiences/using/enriching-campaign-database.md)
 
 Ett nytt avsnitt har lagts till som beskriver hur du formaterar länkar med e-postdesignern. [Läs mer](../../designing/using/styles.md#about-styling-links)
 
@@ -265,7 +271,7 @@ Det finns nu en ny artikel med tips som förenklar marknadsföringskampanjer, bl
 
 En felsökning har lagts till för dynamisk rapportering. [Läs mer](../../reporting/using/troubleshooting.md)
 
-Ett diagram som förklarar hur de olika mallarna i appen hanterar personlig information har lagts till. [Läs mer](../../channels/using/preparing-and-sending-an-in-app-message.md)
+Ett diagram som förklarar hur olika mallar i appen hanterar personlig information har lagts till. [Läs mer](../../channels/using/preparing-and-sending-an-in-app-message.md)
 
 Avsnittet om hur du sparar e-postinnehåll som ett fragment i e-postdesignern har uppdaterats. [Läs mer](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)
 
@@ -355,7 +361,7 @@ Avsnittet Skapa ett e-postmeddelande har uppdaterats för att återspegla de sen
 
 Artikeln i kunskapsbasen för [SMS-anslutningsprotokollet och inställningarna](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) har uppdaterats med det nya alternativet som lagts till i det externa SMS-kontot för att begränsa antalet MTA-instanser som tillåts ansluta till SMPP-providern.
 
-Guiden Kom igång har förbättrats och organiserats om. [Läs mer](../../start/using/campaign-orchestration.md)
+Guiden Kom igång har förbättrats och organiserats om. [Läs mer](../../start/using/about-campaign-standard.md)
 
 Sidan med borttagna och borttagna funktioner har uppdaterats. [Läs mer](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
@@ -383,7 +389,7 @@ Ett nytt avsnitt som jämför de olika alternativen för e-postredigering i Adob
 
 Avsnittet Skapa anpassade innehållsblock har förbättrats med information om måldimensioner. [Läs mer](../../designing/using/personalization.md#creating-custom-content-blocks)
 
-En varning som anger att e-postdesignern inte stöder Internet Explorer 11 har lagts till. [Läs mer](../../administration/using/compatible-browsers.md)
+En varning som anger att e-postdesignern inte stöder Internet Explorer 11 har lagts till. [Läs mer](../../administration/using/about-configuration-guidelines.md)
 
 Varningar om effekten av omformulering har lagts till i avsnittet Ta bort en resurs. [Läs mer](../../developing/using/deleting-a-resource.md)
 
@@ -445,7 +451,7 @@ Tillagd information om det nya fältet i aktiviteten Uppdatera data som gör att
 
 Importeringen av [innehåll från en URL](../../designing/using/using-existing-content.md#importing-content-from-a-url) -dokumentation med information om e-postdesignern har uppdaterats.
 
-Microsoft Edge (den senaste versionen) lades till i listan över kompatibla webbläsare för datorer. [Läs mer](../../administration/using/compatible-browsers.md)
+Microsoft Edge (den senaste versionen) lades till i listan över kompatibla webbläsare för datorer. [Läs mer](../../administration/using/about-configuration-guidelines.md)
 
 Lagt till information om det nya alternativet i filaktiviteten Extract som förhindrar att en fil genereras om den inkommande övergången är tom. [Läs mer](../../automating/using/extract-file.md)
 
@@ -579,7 +585,7 @@ Den tekniska arbetsflödeslistan har uppdaterats. [Läs mer](../../administratio
 
 Avsnittet för schemaläggaraktivitet har uppdaterats. [Läs mer](../../automating/using/scheduler.md)
 
-Uppdaterade listan med hjälpmaterial om integrering av Campaign och Adobe-lösningar. [Läs mer](../../integrating/using/about-campaign-integrations.md).
+Uppdaterade listan med hjälpmaterial om integrering av Campaign och Adobe-lösningar. [Läs mer](../../integrating/using/get-started-campaign-integrations.md).
 
 Uppdaterad sammanhangsbaserad hjälp för Campaign Standard.
 
@@ -593,7 +599,7 @@ Anrikningsaktivitet - berika data baserat på tidigare övergångar - [Läs mer]
 
 **Andra dokumentationsuppdateringar som följer med releasen**
 
-De flesta URL:er för integreringar med Campaign och Adobe-lösningar har ändrats! Kontrollera bokmärkena! [Läs mer](../../integrating/using/about-campaign-integrations.md)
+De flesta URL:er för integreringar med Campaign och Adobe-lösningar har ändrats! Kontrollera bokmärkena! [Läs mer](../../integrating/using/get-started-campaign-integrations.md)
 
 Datamodel v1 är nu tillgänglig med SQL-strukturen för inbyggda resurser - [Läs mer](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html)
 
@@ -777,13 +783,13 @@ Hemlig kopia av e-post - [läs mer](../../administration/using/configuring-email
 
 **Andra dokumentationsuppdateringar som följer med releasen**
 
-Guiden &quot;Leveranser&quot; har ordnats om och namnet &quot;Kanaler&quot; har ändrats. [Läs mer](../../channels/using/discovering-communication-channels.md)
+Guiden &quot;Leveranser&quot; har ordnats om och namnet &quot;Kanaler&quot; har ändrats. [Läs mer](../../channels/using/get-started-communication-channels.md)
 
 Många skärmbilder har uppdaterats för att återspegla gränssnittsändringar.
 
 Nu finns en ny teknik: &quot;Integrera Adobe Mobile SDK med mobilappen&quot;. [Läs mer](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
-Instruktionerna för att konfigurera People core service eller Audience Manager-integrering med Adobe Campaign har uppdaterats. [Läs mer](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+Instruktioner för att konfigurera People core service eller Audience Manager-integrering med Adobe Campaign-started-communication-channel.mdegrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 Behörighetstabellen har reviderats för att göra vissa rollers funktion tydligare. [Läs mer](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
@@ -867,5 +873,5 @@ URL-ändring: Bastjänst för resurser - [läs mer](../../integrating/using/work
 
 URL-ändring: Bastjänst för människor - [Läs mer](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
-Profiler och målgruppsguiden har omstrukturerats. [Läs mer](../../audiences/using/about-profiles-and-audiences.md)
+Profiler och målgruppsguiden har omstrukturerats. [Läs mer](../../audiences/using/get-started-profiles-and-audiences.md)
 
