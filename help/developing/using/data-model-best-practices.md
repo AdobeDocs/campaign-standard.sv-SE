@@ -13,7 +13,7 @@ context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -97,7 +97,7 @@ I följande tabell beskrivs dessa identifierare och deras syfte.
 
 | Visningsnamn | Tekniskt namn | Beskrivning | God praxis |
 |--- |--- |--- |--- |
-|  | PKey | <ul><li>PKey är den fysiska primärnyckeln för en Adobe Campaign-tabell.</li><li>Den här identifieraren är vanligtvis unik för en viss Adobe Campaign-instans.</li><li>I Adobe Campaign Standard är det här värdet inte synligt för slutanvändaren (förutom i URL:er).</li></ul> | <ul><li>Via [API-systemet](../../api/using/about-campaign-standard-apis.md)är det möjligt att hämta ett PKey-värde (som är ett genererat/hash-värde, inte den fysiska nyckeln).</li><li>Du bör inte använda den för något annat än att hämta, uppdatera eller ta bort poster via API.</li></ul> |
+|  | PKey | <ul><li>PKey är den fysiska primärnyckeln för en Adobe Campaign-tabell.</li><li>Den här identifieraren är vanligtvis unik för en viss Adobe Campaign-instans.</li><li>I Adobe Campaign Standard är det här värdet inte synligt för slutanvändaren (förutom i URL:er).</li></ul> | <ul><li>Via [API-systemet](../../api/using/get-started-apis.md)är det möjligt att hämta ett PKey-värde (som är ett genererat/hash-värde, inte den fysiska nyckeln).</li><li>Du bör inte använda den för något annat än att hämta, uppdatera eller ta bort poster via API.</li></ul> |
 | ID | name eller internalName | <ul><li>Den här informationen är en unik identifierare för en post i en tabell. Det här värdet kan uppdateras manuellt.</li><li>Den här identifieraren behåller sitt värde när den distribueras i en annan instans av Adobe Campaign. Det måste ha ett annat namn än det genererade värdet som kan exporteras via ett paket.</li><li>Detta är inte den faktiska primärnyckeln för tabellen.</li></ul> | <ul><li>Använd inte specialtecken som blanksteg&quot;, halvkolumn &quot;:&quot; eller bindestreck &quot;-&quot;.</li><li>Alla dessa tecken ersätts med understrecket&quot;_&quot; (tillåtet tecken). &quot;abc-def&quot; och &quot;abc:def&quot; skulle till exempel lagras som &quot;abc_def&quot; och skrivas över varandra.</li></ul> |
 | Etikett | label | <ul><li>Etiketten är affärsidentifieraren för ett objekt eller en post i Adobe Campaign.</li><li>Det här objektet tillåter mellanslag och specialtecken.</li><li>Det garanterar inte att ett register är unikt.</li></ul> | <ul><li>Vi rekommenderar att du bestämmer en struktur för objektetiketterna.</li><li>Detta är den mest användarvänliga lösningen för att identifiera en post eller ett objekt för en Adobe Campaign-användare.</li></ul> |
 | ACS-ID | acsId | <ul><li>Ytterligare en identifierare kan genereras: ACS- [ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).</li><li>Eftersom PKey inte kan användas i Adobe Campaign-användargränssnittet är detta en lösning för att få ett unikt värde som genereras när en profilpost infogas.</li><li>Värdet kan bara genereras automatiskt om alternativet är aktiverat i resursen innan en post infogas i Adobe Campaign.</li></ul> | <ul><li>Detta UUID kan användas som en avstämningsnyckel.</li><li>Ett automatiskt genererat ACS-ID kan inte användas som referens i ett arbetsflöde eller i en paketdefinition.</li><li>Värdet är specifikt för en Adobe Campaign-instans.</li></ul> |
