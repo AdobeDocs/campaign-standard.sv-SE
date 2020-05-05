@@ -12,7 +12,7 @@ discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -57,6 +57,6 @@ För att göra detta måste du lägga till följande attribut i **[!UICONTROL Re
 
 Mer information om hur du skapar och anpassar leveranser finns i dokumentationen för Campaign Standard:
 
-* [Identifiera kommunikationskanaler](../../channels/using/discovering-communication-channels.md)
+* [Identifiera kommunikationskanaler](../../channels/using/get-started-communication-channels.md)
 * [Om kanalaktiviteter](../../automating/using/about-channel-activities.md)
 * [Anpassa leveranser](../../designing/using/personalization.md)
