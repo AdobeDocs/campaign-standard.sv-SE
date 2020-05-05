@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3c80adb087be0cf420503169f7edf06bd8ae33e0
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -34,4 +34,4 @@ Stegen för att visa utökade fält i det offentliga API:t är följande:
 **Relaterade ämnen:**
 
 * [Om anpassade resurser](../../developing/using/data-model-concepts.md)
-* [API-dokumentation](../../api/using/about-campaign-standard-apis.md)
+* [API-dokumentation](../../api/using/get-started-apis.md)
