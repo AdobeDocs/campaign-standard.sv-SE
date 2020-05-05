@@ -13,7 +13,7 @@ context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 54612511de07edc3e6f3eea34ef095c26b35f4af
+source-git-commit: e18407ab4bf70caa417b16bbc645fd2c6ba1818b
 
 ---
 
@@ -36,7 +36,9 @@ Huvudprincipen för att konfigurera och använda varumärken är att
 
 >[!IMPORTANT]
 >
->Varumärken kan inte skapas eller ändras av slutanvändare: dessa åtgärder måste utföras av den tekniska administratören för Adobe Campaign. Kontakta Adobes kundtjänst om du har frågor. Det går inte att använda flera varumärken i samband med transaktionsmeddelanden. Mer information finns i [Transactional messages and branding](../../channels/using/about-transactional-messaging.md#permissions-and-branding).
+>Varumärken kan inte skapas eller ändras av slutanvändare: dessa åtgärder måste utföras av den tekniska administratören för Adobe Campaign. Kontakta Adobes kundtjänst om du har frågor.
+>
+>Det går inte att använda flera varumärken i samband med transaktionsmeddelanden. Mer information finns i [Transactional messages and branding](../../channels/using/about-transactional-messaging.md#permissions-and-branding).
 
 Varumärken finns på **[!UICONTROL Administration > Instance settings > Brand configuration]** menyn.
 
