@@ -12,7 +12,7 @@ discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -47,7 +47,7 @@ Så här aktiverar du en Adobe Experience Platform-användare i dina arbetsflöd
 
    ![](assets/aep_wkf_readaudience_namespace.png)
 
-   Den här listan innehåller alla XDM-mappningar (Experience Data Model) som har konfigurerats på din instans. Mer information om Adobe Experience Platform Data Connector finns i [det här dedikerade dokumentet](../../administration/using/aep-about-data-connector.md).
+   Den här listan innehåller alla XDM-mappningar (Experience Data Model) som har konfigurerats på din instans. Mer information om Adobe Experience Platform Data Connector finns i [det här dedikerade dokumentet](../../developing/using/aep-about-data-connector.md).
 
    ![](assets/aep_wkf_readaudience_namespace2.png)
 
@@ -65,7 +65,7 @@ Du kan nu konfigurera ditt arbetsflöde med andra aktiviteter. Du kan till exemp
 
 Mer information om hur du använder arbetsflöden och leveranser finns i följande avsnitt:
 
-* [Identifiera arbetsflöden](../../automating/using/discovering-workflows.md)
+* [Identifiera arbetsflöden](../../automating/using/get-started-workflows.md)
 * [Bygga ett arbetsflöde](../../automating/using/building-a-workflow.md)
-* [Identifiera kommunikationskanaler](../../channels/using/discovering-communication-channels.md)
+* [Identifiera kommunikationskanaler](../../channels/using/get-started-communication-channels.md)
 * [Om kanalaktiviteter](../../automating/using/about-channel-activities.md)
