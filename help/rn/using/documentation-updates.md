@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 62b1f9bb452c229b879f735830b330d0fda5ea3c
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -157,7 +157,7 @@ En ny sida om allmänna riktlinjer för mobila leveranser i Adobe Campaign Stand
 
 Arbetet med Campaign och Experience Manager-dokumentationen har uppdaterats med ett nytt **avsnitt med tips om hur du använder Campaign-Experience Manager-integrering**. [Läs mer](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
 
-Hemsidan för API:er-dokumentationen har förbättrats med omdirigeringar till de olika avsnitten. [Läs mer](../../api/using/about-campaign-standard-apis.md)
+Hemsidan för API:er-dokumentationen har förbättrats med omdirigeringar till de olika avsnitten. [Läs mer](../../api/using/get-started-apis.md)
 
 ## Dokumentationsuppdateringar - december 2019 {#doc-updates-december-2019}
 
@@ -179,7 +179,7 @@ Kontrollpanelens dokumentation har integrerats i den nya dokumentationsuppsättn
 
 Beräkningstabellen för **indikatorn** har uppdaterats. [Läs mer](../../reporting/using/indicator-calculation.md)
 
-API:ernas dokumentationsuppsättning har integrerats i dokumentationen för Campaign Standard.[Läs mer](../../api/using/about-campaign-standard-apis.md)
+API:ernas dokumentationsuppsättning har integrerats i dokumentationen för Campaign Standard.[Läs mer](../../api/using/get-started-apis.md)
 
 Guiden Skapa en anpassad e-postguide för att komma igång har flyttats och uppdaterats. [Läs mer](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
 
@@ -271,7 +271,7 @@ Det finns nu en ny artikel med tips som förenklar marknadsföringskampanjer, bl
 
 En felsökning har lagts till för dynamisk rapportering. [Läs mer](../../reporting/using/troubleshooting.md)
 
-Ett diagram som förklarar hur olika mallar i appen hanterar personlig information har lagts till. [Läs mer](../../channels/using/preparing-and-sending-an-in-app-message.md)
+Ett diagram som förklarar hur de olika mallarna i appen hanterar personlig information har lagts till. [Läs mer](../../channels/using/preparing-and-sending-an-in-app-message.md)
 
 Avsnittet om hur du sparar e-postinnehåll som ett fragment i e-postdesignern har uppdaterats. [Läs mer](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)
 
@@ -327,7 +327,7 @@ Ett avsnitt om uppdateringar och underhållsåtgärder har lagts till. [Läs mer
 
 Information lades till om det nya sorteringsalternativet i aktiviteten **Överför fil** . [Läs mer](../../automating/using/transfer-file.md)
 
-Dokumentationen för [REST API](../../api/using/about-campaign-standard-apis.md) uppdaterades:
+Dokumentationen för [REST API](../../api/using/get-started-apis.md) uppdaterades:
 
 * Ett nytt avsnitt lades till, med allmän information om varför du använder REST-API:er för Campaign Standard.
 * En samling fördesignade API-begäranden har gjorts tillgängliga som representerar vanliga användningsfall.
@@ -697,7 +697,7 @@ SMS-dokumentationen har uppdaterats med ett visst förtydligande i avsnittet [SM
 
 Nytt avsnitt som är dedikerat till arbetsflödeshantering via API:t. [Läs mer](../../api/using/controlling-a-workflow.md)
 
-Nytt avsnitt som är dedikerat till primärnycklar och användningen av ett företags-ID som nyckel i API:t. [Läs mer](../../api/using/about-campaign-standard-apis.md)
+Nytt avsnitt som är dedikerat till primärnycklar och användningen av ett företags-ID som nyckel i API:t. [Läs mer](../../api/using/get-started-apis.md)
 
 Information som lagts till om enkel och flera filtreringar i API:t. [Läs mer](../../api/using/filtering.md)
 
@@ -849,7 +849,7 @@ Länkade resurser i REST API:er - [läs mer](../../developing/using/updating-the
 
 Integrering av utlösare: två användningsfall har lagts till. [Läs mer](../../integrating/using/abandonment-triggers-use-cases.md)
 
-Vi har omdesignat programmeringsgränssnittets dokumentation med ny information och kodfragment för en förbättrad användarupplevelse. [Läs mer](../../api/using/about-campaign-standard-apis.md)
+Vi har omdesignat programmeringsgränssnittets dokumentation med ny information och kodfragment för en förbättrad användarupplevelse. [Läs mer](../../api/using/get-started-apis.md)
 
 Upptäck exempel på de nya aktiviteterna för [läsmålgrupper](../../automating/using/read-audience.md) och [externa signaturer](../../automating/using/external-signal.md) .
 
@@ -859,7 +859,7 @@ Upptäck exempel på de nya aktiviteterna för [läsmålgrupper](../../automatin
 
 Loggexport för extern rapportering - [Läs mer](../../automating/using/exporting-logs.md)
 
-Transactional Messaging API - [läs mer](../../api/using/about-campaign-standard-apis.md)
+Transactional Messaging API - [läs mer](../../api/using/get-started-apis.md)
 
 Marknadsföringsfunktioner för transaktionsmeddelanden - [läs mer](../../channels/using/profile-transactional-messages.md)
 
