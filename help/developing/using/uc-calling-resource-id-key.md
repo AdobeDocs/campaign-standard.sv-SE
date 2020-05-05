@@ -2,7 +2,7 @@
 title: Anropa en resurs med en sammansatt identifieringsnyckel
 description: Lär dig hur du anropar en resurs med en sammansatt identifieringsnyckel
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -23,7 +23,7 @@ Relaterade ämnen:
 
 * [Skapa eller utöka resursen](../../developing/using/creating-or-extending-the-resource.md)
 * [Definiera identifieringsnycklar](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
-* [REST API:er för Campaign Standard](../../api/using/about-campaign-standard-apis.md)
+* [REST API:er för Campaign Standard](../../api/using/get-started-apis.md)
 
 ## Steg 1: Konfigurera identifieringsnyckeln{#step-1-configure-the-identification-key}
 
