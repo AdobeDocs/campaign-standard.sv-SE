@@ -3,6 +3,9 @@ title: Anropa en resurs med en sammansatt identifieringsnyckel
 description: Lär dig hur du anropar en resurs med en sammansatt identifieringsnyckel
 translation-type: tm+mt
 source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+workflow-type: tm+mt
+source-wordcount: '589'
+ht-degree: 0%
 
 ---
 
