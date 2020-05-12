@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c91c22bf181607ae35297532562e20b63771e4a
+source-git-commit: 72d27b33d6e69af47b34cc6bfeae7b34911e8d10
 workflow-type: tm+mt
-source-wordcount: '5775'
+source-wordcount: '5807'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ Förutom [versionsinformationen](../../rn/using/release-notes.md)för Adobe Camp
 Översiktssidan för Campaign Standard har berikats och omorganiserats i tematiska ämnen. [Läs mer](../../start/using/about-campaign-standard.md)
 
 Avsnittet med e-postkanalsparametrar har klargjorts med ytterligare information om de godkända maskfälten och leveransrapport-ID:t. [Läs mer](../../administration/using/configuring-email-channel.md)
+
+Konfigurationen av en mobilapplikation med Adobe Experience Platform SDK:er finns nu i huvuddokumentationen med ytterligare information om Sync Mobile-appen AEPSDK från det tekniska arbetsflödet i Launch. [Läs mer](../../administration/using/configuring-a-mobile-application.md)
 
 ## Version 20.3 - maj 2020 {#release-20-3---may-2020}
 
@@ -274,7 +276,7 @@ Det finns nu en ny artikel med tips som förenklar marknadsföringskampanjer, bl
 
 En felsökning har lagts till för dynamisk rapportering. [Läs mer](../../reporting/using/troubleshooting.md)
 
-Ett diagram som förklarar hur olika mallar i appen hanterar personlig information har lagts till. [Läs mer](../../channels/using/preparing-and-sending-an-in-app-message.md)
+Ett diagram som förklarar hur de olika mallarna i appen hanterar personlig information har lagts till. [Läs mer](../../channels/using/preparing-and-sending-an-in-app-message.md)
 
 Avsnittet om hur du sparar e-postinnehåll som ett fragment i e-postdesignern har uppdaterats. [Läs mer](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)
 
