@@ -12,7 +12,10 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 001fc2df11e32bdcc31dfe917884460b4d3de541
+source-git-commit: a894e72bb02fbecb86d43c6d2a13adf7ab10f73e
+workflow-type: tm+mt
+source-wordcount: '665'
+ht-degree: 4%
 
 ---
 
@@ -36,9 +39,9 @@ Här visas en visuell representation av profilernas interaktion med det skickade
 <table> 
  <thead> 
   <tr> 
-   <th align="center"> <strong>Dag</strong><br /> </th> 
-   <th align="center"> <strong>Öppnar</strong><br /> </th> 
-   <th align="center"> <strong>Unika öppningar</strong><br /> </th> 
+   <th align="center"> <strong>Dag</strong> <br /> </th> 
+   <th align="center"> <strong>Öppnar</strong> <br /> </th> 
+   <th align="center"> <strong>Unika öppningar</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -64,9 +67,9 @@ Detta resulterar i följande tabell:
 <table> 
  <thead> 
   <tr> 
-   <th align="center"> <strong>Dag</strong><br /> </th> 
-   <th align="center"> <strong>Öppnar</strong><br /> </th> 
-   <th align="center"> <strong>Unika öppningar</strong><br /> </th> 
+   <th align="center"> <strong>Dag</strong> <br /> </th> 
+   <th align="center"> <strong>Öppnar</strong> <br /> </th> 
+   <th align="center"> <strong>Unika öppningar</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -100,6 +103,57 @@ Sådana händelser läggs till som **&quot;ett e-postklick innebär att ett e-po
 >[!NOTE]
 >
 >Eftersom antalet är unikt och bygger på en HLL-baserad skiss, kan mindre avvikelser mellan räkningarna upplevas.
+
+## Hur beräknas antalet återkommande/transaktionsbaserade leveranser? {#counts-recurring-deliveries}
+
+Vid arbete med återkommande och transaktionsrelaterade leveranser tillskrivs antalet både överordnade och underordnade leveranser.
+Vi kan ta exemplet med en återkommande leverans som heter **R1** som är inställd att köras varje dag på dag 1 (RC1), dag 2 (RC2) och dag 3 (RC3).
+Låt oss anta att bara en person har öppnat alla underordnade leveranser flera gånger. I det här fallet visas antalet enskilda återkommande underordnade leveranser som 1 för varje. **[!UICONTROL Open]** 
+Men eftersom samma person klickade på alla leveranser har den överordnade återkommande leveransen också **[!UICONTROL Unique open]** värdet 1.
+
+Rapporterna ska se ut så här:
+
+<table> 
+ <thead> 
+  <tr> 
+   <th align="center"> <strong>Leverans</strong> <br /> </th> 
+   <th align="center"> <strong>Skickat</strong> <br /> </th> 
+   <th align="center"> <strong>Levererat</strong> <br /> </th>
+   <th align="center"> <strong>Öppnar</strong> <br /> </th> 
+   <th align="center"> <strong>Unika öppningar</strong> <br /> </th>
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td align="center"> <strong>R1<br/> </td> 
+   <td align="center"> <strong>100<br/> </td> 
+   <td align="center"> <strong>90<br/> </td> 
+   <td align="center"> <strong>10<br/> </td> 
+   <td align="center"> <strong>3<br/> </td> 
+  </tr> 
+  <tr> 
+   <td align="center"> RC1<br/> </td> 
+   <td align="center"> 20<br /> </td> 
+   <td align="center"> 20<br /> </td> 
+   <td align="center"> 6<br /> </td> 
+   <td align="center"> 1<br /> </td> 
+  </tr>
+    <tr> 
+   <td align="center"> RC2<br /> </td> 
+   <td align="center"> 40<br /> </td> 
+   <td align="center"> 30<br /> </td> 
+   <td align="center"> 2<br /> </td> 
+   <td align="center"> 1<br /> </td> 
+  </tr> 
+    <tr> 
+   <td align="center"> RC3<br /> </td> 
+   <td align="center"> 40<br /> </td> 
+   <td align="center"> 40<br /> </td> 
+   <td align="center"> 2<br /> </td> 
+   <td align="center"> 1<br /> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 ## Vad betyder färgerna i min rapporttabell? {#reports-color-signification}
 
