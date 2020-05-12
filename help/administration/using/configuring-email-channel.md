@@ -13,7 +13,10 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
+source-git-commit: e2303055b3370efab204adbdb1b9f567a555a23f
+workflow-type: tm+mt
+source-wordcount: '2331'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +43,7 @@ På skärmen för e-postkonfiguration kan du definiera parametrar för e-postkan
 
 * **Auktoriserade maskfält**
 
-   I listan **[!UICONTROL Header parameters of sent emails]** visas de auktoriserade e-postadresser som du kan använda för att skicka e-postmeddelanden till dina mottagare (avsändaradress) och för att meddela dem om det finns fel (feladress).  Adobe Campaign kontrollerar att de angivna adresserna är giltiga under meddelandeförberedelsefasen. Det här operativläget ser till att inga adresser används som kan utlösa leveransproblem.
+   I **[!UICONTROL Header parameters of sent emails]** avsnittet visas de auktoriserade e-postadresser som du kan använda för att skicka e-post till dina mottagare (avsändaradress) och för att de ska kunna skicka tillbaka automatiska svar som asynkrona studsar, frånvaromeddelanden osv. (feladress).  Adobe Campaign kontrollerar att de angivna adresserna är giltiga under meddelandeförberedelsefasen. Det här operativläget ser till att inga adresser används som kan utlösa leveransproblem.
    * Både avsändar- och feladresser konfigureras av Adobe. Dessa fält får inte vara tomma.
    * Du kan inte redigera dessa fält. Om du vill uppdatera en adress kontaktar du Adobes kundtjänstteam.
    * Om du vill lägga till ytterligare en adress kan du använda [Kontrollpanelen](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) för att konfigurera en ny underdomän eller kontakta Adobes kundtjänstteam. Observera att om flera masker används, kommer de att avgränsas med kommatecken.
@@ -53,7 +56,7 @@ På skärmen för e-postkonfiguration kan du definiera parametrar för e-postkan
 
 * **Leveransparametrar**
 
-   Adobe Campaign skickar meddelanden som börjar på startdatumet. I **[!UICONTROL Message delivery duration]** fältet kan du ange hur länge meddelanden kan skickas.
+   Adobe Campaign skickar meddelanden som börjar på startdatumet. I **[!UICONTROL Message delivery duration]** fältet kan du ange den tidsram i vilken ett meddelande i leveransen som påträffar ett tillfälligt fel eller en mjuk avhoppning kommer att provas igen.
 
    >[!IMPORTANT]
    >
@@ -73,7 +76,7 @@ På skärmen för e-postkonfiguration kan du definiera parametrar för e-postkan
 
 * **E-postkarantänsparametrar**
 
-   I **[!UICONTROL Time between two significant errors]** fältet anger du ett värde som anger när programmet väntar innan räknaren ökas om fel uppstår. Standardvärdet är **&quot;1d&quot;**, för 1 dag.
+   I **[!UICONTROL Time between two significant errors]** fältet anger du ett värde som anger hur lång tid programmet väntar innan felräknaren ökas om ett felmeddelande visas på skärmen. Standardvärdet är **&quot;1d&quot;**, för 1 dag.
 
    När **[!UICONTROL Maximum number of errors before quarantine]** värdet nås sätts e-postadressen i karantän. Standardvärdet är **&quot;5&quot;**: adressen sätts i karantän på det femte felet. Detta innebär att kontakten automatiskt utesluts från efterföljande leveranser.
    <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
@@ -102,9 +105,9 @@ Observera att e-postdomänerna och MX-reglerna nu hanteras av Adobe Campaign Enh
 
 ### Studsa meddelanden {#bounce-mails}
 
-Asynkrona studsar är fortfarande kvalificerade av Campaign-processen i Mail via **[!UICONTROL Bounce mails]** regeln.
+Asynkrona studsar är fortfarande kvalificerade av Campaign in Mail-processen enligt **[!UICONTROL Bounce mails]** reglerna.
 
-Den här regeln innehåller en lista med teckensträngar som kan returneras av fjärrservrar och som gör att du kan kvalificera felet (**Hård**, **Mjuk** eller **Ignorerad**).
+Dessa regler innehåller en lista med teckensträngar som kan returneras av fjärrservrar och som gör att du kan kvalificera felet (**Hård**, **Mjuk** eller **Ignorerad**).
 
 >[!NOTE]
 >
