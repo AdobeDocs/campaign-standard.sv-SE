@@ -12,7 +12,10 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '2026'
+ht-degree: 0%
 
 ---
 
@@ -237,7 +240,7 @@ Här är några möjliga orsaker till att du får varningsmeddelanden enligt de 
    * En timeout för anslutningen mellan Adobe Campaign-leveransservern och den mottagande servern
    * Ett leveransproblem
    * Ett felaktigt arbetsflöde
-   Om leveransen har utlösts med ett arbetsflöde kontrollerar du om arbetsflödet har startats korrekt. Mer information finns i [Köra ett arbetsflöde](../../automating/using/executing-a-workflow.md). Annars kontaktar du administratören för Adobe Campaign för att lösa problemet.
+   Om leveransen har utlösts med ett arbetsflöde kontrollerar du om arbetsflödet har startats korrekt. Mer information finns i [Köra ett arbetsflöde](../../automating/using/about-workflow-execution.md). Annars kontaktar du administratören för Adobe Campaign för att lösa problemet.
 
 * **[!UICONTROL Deliveries with preparation failed]**: Ett fel kan uppstå under färdigställande av leveransen i följande fall:
 
