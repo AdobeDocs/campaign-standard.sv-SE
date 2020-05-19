@@ -12,7 +12,10 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b4cbc56973a57cde8af6cefa9ff89c7d29ab7b79
+source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
+workflow-type: tm+mt
+source-wordcount: '1007'
+ht-degree: 0%
 
 ---
 
@@ -91,7 +94,7 @@ source-git-commit: b4cbc56973a57cde8af6cefa9ff89c7d29ab7b79
 * Kryssrutor kan nu vara obligatoriska på en landningssida.
 * När du hämtar CSV-filen för en dynamisk rapport har begränsningen på 200 rader tagits bort. Nu kan du inkludera alla rader i rapporten. (CAMP-40810)
 * Språket ES-US har lagts till i listan med färdiga språk för flerspråkiga e-postmeddelanden. (CAMP-42279)
-* Filer som har laddats ned med en överföringsfilaktivitet tas nu bort efter X dagar, där X bestäms av fältet **Historik i dagar** på menyn **Körning** i arbetsflödesegenskaperna. [Läs mer](../../automating/using/executing-a-workflow.md#workflow-properties)
+* Filer som har laddats ned med en överföringsfilaktivitet tas nu bort efter X dagar, där X bestäms av fältet **Historik i dagar** på menyn **Körning** i arbetsflödesegenskaperna. [Läs mer](../../automating/using/managing-execution-options.md)
 
 **Experience Platform-integreringar**
 
