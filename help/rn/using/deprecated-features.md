@@ -12,7 +12,10 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c35468d7c9a3177d755dad2a9ab2e09510d680fa
+source-git-commit: f8c8dd5ec3dcff557d17e92591748cb1b6694122
+workflow-type: tm+mt
+source-wordcount: '591'
+ht-degree: 0%
 
 ---
 
@@ -23,8 +26,8 @@ Adobe utvärderar ständigt produktfunktioner för att identifiera äldre funkti
 
 Följande regler gäller för att informera om den förestående borttagningen/ersättningen av funktionerna i Campaign Standard:
 
-* Föråldringsanmälan kommer först. Funktioner som inte längre används kan fortfarande vara tillgängliga för befintliga användare, men de kommer inte att förbättras ytterligare eller dokumenteras.
-* Borttagning av föråldrade funktioner sker tidigast i följande version. Faktiskt måldatum för borttagning visas på den här sidan.
+* Föråldringsanmälan kommer först. While deprecated capabilities can still be available for existing users, they will not be further enhanced, nor documented.
+* Removal of deprecated capabilities will occur in the following release at the earliest. Faktiskt måldatum för borttagning visas på den här sidan.
 
 Den här processen ger kunderna minst en releasecykel för att anpassa implementeringen till en ny version eller en efterföljare till en borttagningsfunktion, innan den faktiska borttagningen.
 
@@ -36,9 +39,9 @@ Den här processen ger kunderna minst en releasecykel för att anpassa implement
 
 I det här avsnittet visas funktioner som har markerats som borttagna i de senaste Campaign Standard-versionerna.
 
-I allmänhet är funktioner som ska tas bort i en framtida version först inaktuella, med ett alternativ. Dessa funktioner är inte längre tillgängliga för nya kunder med Campaign Standard eller ska inte användas för nya implementeringar. De tas också bort från produktdokumentationen.
+Generally, features that are planned to be removed in a future release are set to deprecated first, with an alternative provided. These features and capabilities are either no longer available for new Campaign Standard customers, or should not be used for any new implementation. De tas också bort från produktdokumentationen.
 
-Kunderna rekommenderas att granska om de använder funktionen/funktionen i den aktuella distributionen och planera för att ändra implementeringen så att den använder det alternativ som finns. Se målets borttagningsdatum för att planera miljön och projektuppdateringarna utifrån detta.
+Kunderna rekommenderas att granska om de använder funktionen/funktionen i den aktuella distributionen och planera för att ändra implementeringen så att den använder det alternativ som finns. Se målborttagningsversionen för att planera miljön och projektuppdateringarna utifrån detta.
 
 <table> 
  <thead> 
@@ -59,7 +62,7 @@ Kunderna rekommenderas att granska om de använder funktionen/funktionen i den a
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Sekretessförfrågningar - Campaign API och gränssnitt</strong><br /> </th> 
+   <th> <strong>Privacy requests - Campaign API and interface</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -67,7 +70,7 @@ Kunderna rekommenderas att granska om de använder funktionen/funktionen i den a
    <td> <p>Från och med Campaign 19.4 är användningen av Campaign-API:t och gränssnittet för begäran om åtkomst och borttagning föråldrad. Det går inte att ta bort profiler i två steg. Använd <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobes bastjänst</a>för sekretess.</p></br>
    <p>Se även <a href="https://helpx.adobe.com/campaign/kb/acs-privacy.html">Integritetshantering i Campaign Standard</a>.</p>
   <p> 
-  <em>Datum för målborttagning: Juli 2020 - Campaign 20.5-utgåvan </em></p>
+  <em>Målborttagningsversion: Campaign 20.4-utgåvan</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -76,15 +79,15 @@ Kunderna rekommenderas att granska om de använder funktionen/funktionen i den a
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>E-postdesign - äldre e-postredigerare</strong><br /> </th> 
+   <th> <strong>Email Design - Legacy email editor</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Från och med Campaign 19.0 är den gamla e-postredigeraren föråldrad. Använd <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">den nya e-postdesignern</a> för att skapa och anpassa ditt e-postinnehåll. </p></br>
+   <td> <p>Starting Campaign 19.0 release, the legacy email editor is deprecated. Använd <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">den nya e-postdesignern</a> för att skapa och anpassa ditt e-postinnehåll. </p></br>
    <p>Läs igenom <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">det här avsnittet</a> och lär dig hur du anpassar e-postmallarna för den nya redigeraren.</p></br>
   <p> 
-  <em>Datum för målborttagning: Oktober 2020 - Campaign 20.6-utgåvan </em></p>
+  <em>Målborttagningsversion: Campaign 20.4-utgåvan</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -93,18 +96,18 @@ Kunderna rekommenderas att granska om de använder funktionen/funktionen i den a
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Användare och säkerhet - geografiska enheter</strong><br /> </th> 
+   <th> <strong>Users &amp; Security - Geographical units</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Från och med version 18.7 är de geografiska enheterna föråldrade. Organisationsenheter och geografiska enheter är identiska konstruktioner i Campaign. Användare bör använda organisationsenheter ensamt för att bygga upp hierarkin för användarbehörighet/dataåtkomst. <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html">Läs mer</a>. Observera att nya Campaign Standard-instanser, liksom befintliga instanser utan geografiska enheter, inte kan implementera den här funktionen från och med version 18.7.</p>
+   <td> <p>Från och med version 18.7 är de geografiska enheterna föråldrade. Organizational and Geographical units are identical constructs in Campaign. Användare bör använda organisationsenheter ensamt för att bygga upp hierarkin för användarbehörighet/dataåtkomst. <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html">Läs mer</a>. Please note that new Campaign Standard instances, as well as existing instances with no geographical units created, cannot have this capability implemented starting 18.7 release.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Borttagna funktioner {#removed-features}
+## Removed Features {#removed-features}
 
 I det här avsnittet visas funktioner som har tagits bort från Campaign Standard.
 
