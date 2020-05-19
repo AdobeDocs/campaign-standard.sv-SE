@@ -1,0 +1,50 @@
+---
+title: Hantera körningsalternativ
+description: Lär dig hur du hanterar körningsalternativ för arbetsflöden.
+page-status-flag: never-activated
+uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
+contentOwner: sauviat
+products: SG_CAMPAIGN/STANDARD
+audience: automating
+content-type: reference
+topic-tags: workflow-general-operation
+discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
+context-tags: workflow,overview;workflow,main
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
+workflow-type: tm+mt
+source-wordcount: '241'
+ht-degree: 0%
+
+---
+
+
+# Managing execution options {#managing-execution-options}
+
+Om du vill ändra ett arbetsflödes körningsalternativ använder du knappen för att komma åt arbetsflödesegenskaperna och väljer ![](assets/edit_darkgrey-24px.png) **[!UICONTROL Execution]** avsnittet.
+
+![](assets/wkf_execution_6.png)
+
+Möjliga alternativ är:
+
+* **[!UICONTROL Default affinity]**: I det här fältet kan du tvinga ett arbetsflöde eller en arbetsflödesaktivitet att köras på en viss dator.
+
+* **[!UICONTROL History in days]**: Anger antalet dagar efter vilka historiken måste rensas. Historiken innehåller element som är relaterade till arbetsflödet: loggar, uppgifter, händelser (tekniska objekt som är länkade till arbetsflödesåtgärden) samt filer som hämtats av **[!UICONTROL Transfer file]** aktiviteten. Default value is 30 days for out-of-the-box workflow templates.
+
+   Purge of the history is performed by the Database cleanup technical workfow, which is executed by default everyday (see [List of technical workflows](../../administration/using/technical-workflows.md).)
+
+   >[!IMPORTANT]
+   >
+   >If the **[!UICONTROL History in days]** field is left blank, its value will be considered as &quot;1&quot;, meaning that the history will purged after 1 day.
+
+* **[!UICONTROL Save SQL queries in the log]**: Med kan du spara SQL-frågor från arbetsflödet i loggarna.
+
+* **[!UICONTROL Keep interim results]**: Markera det här alternativet om du vill kunna se detaljerna i övergångarna. Varning: om du markerar det här alternativet kan arbetsflödets körning bli avsevärt långsammare.
+
+* **[!UICONTROL Execute in the engine (do not use in production)]**: gör att du kan köra arbetsflödet lokalt, för testning i utvecklingsmiljön.
+
+* **[!UICONTROL Severity]**: Med kan du ange en prioritetsnivå för att köra arbetsflöden i Adobe Campaign-instansen. Kritiska arbetsflöden körs först.
+
+I avsnittet finns ytterligare alternativ som du kan använda för att hantera hur arbetsflöden fungerar vid fel. **[!UICONTROL Error management]** Dessa alternativ beskrivs i avsnittet [Felhantering](#error-management) .
