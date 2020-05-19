@@ -12,7 +12,10 @@ discoiquuid: 7a107d6b-edc3-44c3-bbb7-ba3dec8e43f9
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +44,7 @@ Aktiviteten används i allmänhet för att utföra ytterligare filtrering på po
    * **[!UICONTROL A selection of columns]**: Välj det här alternativet om du vill definiera listan med kolumner som datavstämningen ska användas på. Du måste först markera den primära uppsättningen (den som innehåller källdata) och sedan ange de fält som ska användas för kopplingen.
 
 1. Markera **[!UICONTROL Use common additional data only]** rutan om du bara vill behålla de ytterligare data som finns i alla inkommande övergångar.
-1. Hantera vid behov aktivitetens [övergångar](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) för att komma åt de avancerade alternativen för den utgående populationen.
+1. Hantera vid behov aktivitetens [övergångar](../../automating/using/activity-properties.md) för att komma åt de avancerade alternativen för den utgående populationen.
 1. Bekräfta aktivitetens konfiguration och spara arbetsflödet.
 
 ## Exempel {#example}
