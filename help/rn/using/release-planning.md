@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b032807bc0a6572691d6f6d2e49ce7a1a58dd21a
+source-git-commit: 292f4f65f2e0597ff4dc36ab3222551ab40cbafb
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
@@ -46,11 +46,11 @@ Miljöuppdateringar sker i vågor under de angivna tidsramarna nedan. Detaljerad
  <tbody>
   <tr>
    <td>Scen<br /> </td>
-   <td>13-14 maj 2020<br /> </td>
+   <td>25-26 maj 2020<br /> </td>
   </tr>
   <tr>
    <td> Produktion<br /> </td>
-   <td>18 maj-1 juni 2020<br /> </td>
+   <td>28 maj-1 juni 2020<br /> </td>
   </tr>
  </tbody>
 </table>
