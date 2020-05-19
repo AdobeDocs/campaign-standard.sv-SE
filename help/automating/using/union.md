@@ -13,7 +13,10 @@ context-tags: union,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '368'
+ht-degree: 0%
 
 ---
 
@@ -47,7 +50,7 @@ Aktiviteten används för att kombinera populationer från inkommande övergång
 
 1. Markera **[!UICONTROL Use common additional data only]** rutan om du bara vill behålla de ytterligare data som finns i alla inkommande övergångar.
 1. Om du vill begränsa storleken på den slutliga populationen markerar du **[!UICONTROL Limit size of generated population]** rutan. Storleken kan anges i **[!UICONTROL Maximum number of records]** fältet.
-1. Hantera vid behov aktivitetens [övergångar](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) för att komma åt de avancerade alternativen för den beräknade populationen.
+1. Hantera vid behov aktivitetens [övergångar](../../automating/using/activity-properties.md) för att komma åt de avancerade alternativen för den beräknade populationen.
 1. Bekräfta aktivitetens konfiguration och spara arbetsflödet.
 
 ## Exempel {#example}
