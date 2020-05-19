@@ -12,7 +12,10 @@ discoiquuid: 4d51229a-745a-4f24-b1c2-22fa203b499c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
+workflow-type: tm+mt
+source-wordcount: '264'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +32,6 @@ Du kan konfigurera meddelanden för följande objekt:
 
    ![](assets/pulse_2.png)
 
-* **[!UICONTROL Workflows]**: varje medlem i den valda säkerhetsgruppen meddelas (e-post och meddelanden i appen) när ett arbetsflöde är felaktigt. Om du klickar på meddelandet eller på e-postlänken visas motsvarande arbetsflöde. Meddelanden inaktiveras som standard i den färdiga arbetsflödesmallen. Om du vill aktivera dem redigerar du egenskaperna för arbetsflödes- eller arbetsflödesmallen och lägger till en säkerhetsgrupp under **Allmänt > Körning > Felhantering > Tillsynsorgan**. Mer information om säkerhetsgrupper finns i [Hantera grupper och användare](../../administration/using/managing-groups-and-users.md). Mer information om arbetsflödesegenskaper finns i [Arbetsflödesegenskaper](../../automating/using/executing-a-workflow.md#workflow-properties).
+* **[!UICONTROL Workflows]**: varje medlem i den valda säkerhetsgruppen meddelas (e-post och meddelanden i appen) när ett arbetsflöde är felaktigt. Om du klickar på meddelandet eller på e-postlänken visas motsvarande arbetsflöde. Meddelanden inaktiveras som standard i den färdiga arbetsflödesmallen. Om du vill aktivera dem redigerar du egenskaperna för arbetsflödes- eller arbetsflödesmallen och lägger till en säkerhetsgrupp under **Allmänt > Körning > Felhantering > Tillsynsorgan**. Mer information om säkerhetsgrupper finns i [Hantera grupper och användare](../../administration/using/managing-groups-and-users.md). Mer information om arbetsflödesegenskaper finns i [Arbetsflödesegenskaper](../../automating/using/managing-execution-options.md).
 
    ![](assets/pulse_1.png)
-
