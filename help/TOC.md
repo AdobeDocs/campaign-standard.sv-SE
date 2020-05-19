@@ -4,9 +4,9 @@ sub-product: adobe kampanjstandard
 audience: end-user
 user-guide-title: Hjälp om Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 9a8b9f522e5f9ea5d7ea59701cd03878599d97c1
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1451'
 ht-degree: 0%
 
 ---
@@ -239,7 +239,6 @@ ht-degree: 0%
       + [Testa utlösarna](integrating/using/testing-your-triggers.md)
       + [Användningsexempel för utlösare för övergåenden](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign och Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Konfigurera integrering med Adobe IO för Microsoft Dynamics 365](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + Arbeta med Campaign Standard och Microsoft Dynamics 365 {#working-with-campaign-standard-and-ms-dynamics}
          + [Kom igång med Microsoft Dynamics 365-integrering](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
          + [Om Microsoft Dynamics 365-integrering](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
@@ -257,8 +256,14 @@ ht-degree: 0%
       + [Måldata](automating/using/targeting-data.md)
       + [Importera data](automating/using/importing-data.md)
       + [Använda arbetsflödesdata](automating/using/using-workflow-data.md)
-      + [Köra ett arbetsflöde](automating/using/executing-a-workflow.md)
       + [Bästa arbetsflöden](automating/using/best-practices-workflows.md)
+   + [Köra ett arbetsflöde]{#executing-a-workflow}
+      + [Om arbetsflödeskörning](automating/using/about-workflow-execution.md)
+      + [Arbetsflödets livscykel](automating/using/workflow-life-cycle.md)
+      + [Körningskommandon](automating/using/execution-commands.md)
+      + [Övervaka körning av arbetsflöde](automating/using/monitoring-workflow-execution.md)
+      + [Hantera körningsalternativ](automating/using/managing-execution-options.md)
+      + [Hantera aktiviteters egenskaper](automating/using/activity-properties.md)
    + [Anropa ett arbetsflöde med externa parametrar](automating/using/calling-a-workflow-with-external-parameters.md)
    + Verksamheter som riktar sig till {#targeting-activities}
       + [Om målinriktade aktiviteter](automating/using/about-targeting-activities.md)
@@ -421,7 +426,7 @@ ht-degree: 0%
    + Integritetshantering {#privacy-management}
       + [Skapa en sekretessförfrågan](api/using/creating-a-privacy-request.md)
       + [Övervaka en sekretessförfrågan](api/using/monitoring-a-privacy-request.md)
-      + [Hämtar sekretessdatafiler](api/using/retrieving-privacy-data-files.md)
+      + [Retrieving privacy data files](api/using/retrieving-privacy-data-files.md)
       + [Hantera avanmälan av CCPA](api/using/managing-ccpa-opt-out.md)
    + [Hantera transaktionsmeddelanden](api/using/managing-transactional-messages.md)
    + Hantera arbetsflöden {#managing-workflows}
