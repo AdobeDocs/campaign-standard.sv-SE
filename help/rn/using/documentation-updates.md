@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 72d27b33d6e69af47b34cc6bfeae7b34911e8d10
+source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
 workflow-type: tm+mt
 source-wordcount: '5807'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Extern API-aktivitet (GA) - [Läs mer](../../automating/using/external-api.md)
 
 **Andra dokumentationsuppdateringar som följer med releasen**
 
-Information har lagts till i **[!UICONTROL History in days]** fältet i arbetsflödesegenskaperna som nu innehåller filer som hämtats av **[!UICONTROL Transfer file]** aktiviteten. [Läs mer](../../automating/using/executing-a-workflow.md)
+Information har lagts till i **[!UICONTROL History in days]** fältet i arbetsflödesegenskaperna som nu innehåller filer som hämtats av **[!UICONTROL Transfer file]** aktiviteten. [Läs mer](../../automating/using/managing-execution-options.md)
 
 Information om gränsen på 500 tecken för ämnesradprefixet har lagts till i avsnittet om profiländring. [Läs mer](../../sending/using/testing-messages-using-target.md)
 
@@ -120,7 +120,7 @@ Nu finns ett nytt avsnitt om de effektivaste strategierna med Campaign Standard-
 
 Information har lagts till i den **[!UICONTROL Workflow]** inbyggda rättigheten. [Läs mer](../../administration/using/list-of-roles.md)
 
-Information har lagts till om de **[!UICONTROL History in days field]** tillgängliga egenskaperna för arbetsflöden. [Läs mer](../../automating/using/executing-a-workflow.md)
+Information har lagts till om de **[!UICONTROL History in days field]** tillgängliga egenskaperna för arbetsflöden. [Läs mer](../../automating/using/about-workflow-execution.md)
 
 ## Version 20.1 - februari 2020 {#release-20-1---february-2020}
 
@@ -340,7 +340,7 @@ Dokumentationen för [REST API](../../api/using/get-started-apis.md) uppdaterade
 * Information om hur du skapar en tjänst har lagts till.
 * Information om hur du anropar ett arbetsflöde med parametrar har lagts till.
 
-Information lades till om den nya **testaktiviteten** . [Läs mer](../../automating/using/test.md)
+Information was added on the new **Test** activity. [Läs mer](../../automating/using/test.md)
 
 Automatiseringsguiden har uppdaterats med länkar till relaterade arbetsflödesaktiviteter. [Läs mer](../../automating/using/workflow-interface.md#palette)
 
@@ -818,7 +818,7 @@ Dreamweaver-integration live - [Läs mer](https://docs.adobe.com/content/help/en
 
 Avsnitt som lagts till för olika typer av Adobe Campaign-användare. [Läs mer](../../administration/using/users-management.md)
 
-Handboken för arbetsflöde har organiserats om och utökats. Hitta enkelt hur du [bygger](../../automating/using/building-a-workflow.md) och [kör](../../automating/using/executing-a-workflow.md) ett arbetsflöde, hur du [målar](../../automating/using/targeting-data.md) och [hanterar](../../automating/using/targeting-data.md#enriching-data) data, hur du [importerar](../../automating/using/importing-data.md) [](../../automating/using/using-workflow-data.md) data och hur du använder arbetsflödesdata¥ för att uppdatera databasen eller skicka leveranser.
+Handboken för arbetsflöde har organiserats om och utökats. Hitta enkelt hur du [bygger](../../automating/using/building-a-workflow.md) och [kör](../../automating/using/about-workflow-execution.md) ett arbetsflöde, hur du [målar](../../automating/using/targeting-data.md) och [hanterar](../../automating/using/targeting-data.md#enriching-data) data, hur du [importerar](../../automating/using/importing-data.md) [](../../automating/using/using-workflow-data.md) data och hur du använder arbetsflödesdata¥ för att uppdatera databasen eller skicka leveranser.
 
 Beräkning av rapportindikator är nu tillgängligt för dynamiska rapporter, inklusive fullständig beskrivning och beräkningsformel. [Läs mer](../../reporting/using/indicator-calculation.md)
 
