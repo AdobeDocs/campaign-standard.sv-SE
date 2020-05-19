@@ -4,7 +4,7 @@ sub-product: adobe kampanjstandard
 audience: end-user
 user-guide-title: Hjälp om Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 9a8b9f522e5f9ea5d7ea59701cd03878599d97c1
+source-git-commit: 4e5bb76be743fb44a464ebedb466927b87e21584
 workflow-type: tm+mt
 source-wordcount: '1451'
 ht-degree: 0%
@@ -257,7 +257,7 @@ ht-degree: 0%
       + [Importera data](automating/using/importing-data.md)
       + [Använda arbetsflödesdata](automating/using/using-workflow-data.md)
       + [Bästa arbetsflöden](automating/using/best-practices-workflows.md)
-   + [Köra ett arbetsflöde]{#executing-a-workflow}
+   + Köra ett arbetsflöde {#executing-a-workflow}
       + [Om arbetsflödeskörning](automating/using/about-workflow-execution.md)
       + [Arbetsflödets livscykel](automating/using/workflow-life-cycle.md)
       + [Körningskommandon](automating/using/execution-commands.md)
@@ -426,7 +426,7 @@ ht-degree: 0%
    + Integritetshantering {#privacy-management}
       + [Skapa en sekretessförfrågan](api/using/creating-a-privacy-request.md)
       + [Övervaka en sekretessförfrågan](api/using/monitoring-a-privacy-request.md)
-      + [Retrieving privacy data files](api/using/retrieving-privacy-data-files.md)
+      + [Hämtar sekretessdatafiler](api/using/retrieving-privacy-data-files.md)
       + [Hantera avanmälan av CCPA](api/using/managing-ccpa-opt-out.md)
    + [Hantera transaktionsmeddelanden](api/using/managing-transactional-messages.md)
    + Hantera arbetsflöden {#managing-workflows}
