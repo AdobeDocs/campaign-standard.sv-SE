@@ -12,7 +12,10 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
+source-git-commit: e22a2fcfd36adc1d4c9b62b1fd336e553c69b5af
+workflow-type: tm+mt
+source-wordcount: '1961'
+ht-degree: 0%
 
 ---
 
@@ -38,7 +41,7 @@ Genom att vara försiktig och följa de få enkla regler som beskrivs nedan kan 
 
 ### Använda importmallar {#using-import-templates}
 
-De flesta importarbetsflöden bör innehålla följande aktiviteter: **[!UICONTROL Load file]**, **[!UICONTROL Reconciliation]**, **[!UICONTROL Segmentation]**, **[!UICONTROL Deduplication]**, **[!UICONTROL Update data]**..
+De flesta importarbetsflöden bör innehålla följande aktiviteter: **[!UICONTROL Load file]**, **[!UICONTROL Reconciliation]**, **[!UICONTROL Segmentation]**, **[!UICONTROL Deduplication]**, **[!UICONTROL Update data]**.
 
 Med importmallar är det mycket bekvämt att förbereda liknande importer och säkerställa att data är konsekventa i databasen.
 
@@ -122,7 +125,7 @@ Om du till exempel vill dekryptera en fil med PGP blir kommandot:
    <path-to_pgp_if-not_global_or_server/>pgp.exe --decrypt --input nl6/var/vp/import/filename.pgp --passphrase "your password" --recipient recipient @email.com --verbose --output nl6/var/vp/import/filename
    ```
 
-När begäran har bearbetats är krypterings-/dekrypteringskommandona tillgängliga i **!UICONTROL Pre-processing stage]** fältet från **[!UICONTROL Load file]** och **[!UICONTROL Extract file]** aktiviteterna. Du kan använda dem för att dekryptera eller kryptera de filer som du vill importera eller exportera.
+När begäran har bearbetats är krypterings-/dekrypteringskommandona tillgängliga i **[!UICONTROL Pre-processing stage]** fältet från **[!UICONTROL Load file]** och **[!UICONTROL Extract file]** aktiviteterna. Du kan använda dem för att dekryptera eller kryptera de filer som du vill importera eller exportera.
 
 ![](assets/preprocessing-encryption.png)
 
