@@ -13,7 +13,10 @@ context-tags: writer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '517'
+ht-degree: 0%
 
 ---
 
@@ -63,7 +66,7 @@ Aktiviteten **Uppdatera data** kan användas efter att en fil har importerats f�
    >
    >**Hantera uppdateringar** Fälten **[!UICONTROL lastModified]**, **[!UICONTROL modifiedBy]** och **[!UICONTROL created]** **[!UICONTROL createdBy]** uppdateras automatiskt när en uppdateringsdataaktivitet körs, såvida inte deras konfiguration uttryckligen utförs i fältet uppdateringsregister. Uppdateringen utförs endast på poster där minst en skillnad har påvisats. Om värdena är desamma görs ingen uppdatering.
 
-1. Hantera vid behov aktivitetens [övergångar](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) för att komma åt de avancerade alternativen för den utgående populationen.
+1. Hantera vid behov aktivitetens [övergångar](../../automating/using/activity-properties.md) för att komma åt de avancerade alternativen för den utgående populationen.
 
    Om du har markerat **[!UICONTROL Insert only]** och de importerade data kan innehålla poster som redan finns i databasen, bör du markera **[!UICONTROL Generate an outbound transition for the rejects]** rutan för att undvika eventuella fel.
 
