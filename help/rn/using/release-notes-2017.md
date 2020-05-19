@@ -12,7 +12,10 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c21a6fb4916430deb76d5d01b379453e398f6f25
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '4623'
+ht-degree: 0%
 
 ---
 
@@ -247,7 +250,7 @@ _Rapporter_
 
 _Arbetsflöden_
 
-* Du kan nu filtrera arbetsflödesloggar (tidsperiod och textsökning). Mer information finns i den [detaljerade dokumentationen](../../automating/using/executing-a-workflow.md#monitoring).
+* Du kan nu filtrera arbetsflödesloggar (tidsperiod och textsökning). Mer information finns i den [detaljerade dokumentationen](../../automating/using/monitoring-workflow-execution.md).
 * Det finns nu ett alternativ i arbetsflödesleveranser för att inaktivera bekräftelsen före sändningen.
 * Ett problem som gjorde att du inte kunde ange en utgående övergång i guiden Skapa återkommande leverans har korrigerats.
 * Korrigerade ett problem som uppstod när en arbetsflödesfrågeaktivitet som baseras på ett anpassat resursfält med en uppräkning som hade många värden användes
@@ -292,7 +295,7 @@ _Arbetsflöden_
 _Rapporter_
 
 * Beräkningarna **[!UICONTROL Spam]** och **[!UICONTROL Spam rate]** indikatorn har ändrats.
-* Mätvärdena har förbättrats för att få ett mer exakt resultat **[!UICONTROL Bounce]** .
+* Mätvärdena har förbättrats för att få ett mer exakt resultat. **[!UICONTROL Bounce]**
 
 _Push-meddelanden_
 
