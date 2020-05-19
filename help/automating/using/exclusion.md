@@ -13,7 +13,10 @@ context-tags: exclusion,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '249'
+ht-degree: 0%
 
 ---
 
@@ -42,7 +45,7 @@ En primär uppsättning definieras bland inkommande övergångar. Medlemmar i an
    >
    >De inkommande övergångarna måste innehålla samma typ av population. Om den primära uppsättningen till exempel innehåller testprofiler måste de andra övergångarna även innehålla testprofiler.
 
-1. Hantera vid behov aktivitetens [övergångar](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) för att komma åt de avancerade alternativen för den utgående populationen.
+1. Hantera vid behov aktivitetens [övergångar](../../automating/using/activity-properties.md) för att komma åt de avancerade alternativen för den utgående populationen.
 1. Bekräfta aktivitetens konfiguration och spara arbetsflödet.
 
 ## Exempel {#example}
