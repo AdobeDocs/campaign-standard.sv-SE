@@ -12,7 +12,10 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: accc382ca1543d648e60d53cab338537fd9ea3ef
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '1046'
+ht-degree: 0%
 
 ---
 
@@ -64,7 +67,7 @@ Arbetsflöden som har pausats eller misslyckats i mer än 7 dagar stoppas för a
 
 Ett arbetsflöde som innehåller oavslutade övergångar kan fortfarande köras: ett varningsmeddelande genereras och arbetsflödet pausas när övergången är klar, men det genererar inget fel. Du kan också påbörja ett arbetsflöde utan att ha en färdig design och slutföra det medan du arbetar.
 
-Mer information finns i [Köra arbetsflöden](../../automating/using//executing-a-workflow.md).
+Mer information finns i [Köra arbetsflöden](../../automating/using/about-workflow-execution.md).
 
 ### Tidszon
 
@@ -130,7 +133,7 @@ I Adobe Campaign finns olika loggar för att bättre förstå era arbetsflödesf
 
 Du kan komma åt arbetsflödesloggar för att övervaka utförandet av dina aktiviteter. Den indexerar de åtgärder som utförts och körningsfel i kronologisk ordning. Fliken Loggar består av historiken för körningen av alla eller vissa valda aktiviteter.
 Fliken Åtgärder innehåller information om aktiviteternas körningssekvens. Klicka på en aktivitet om du vill ha mer information om en aktivitet.
-Mer information finns i [Övervaka arbetsflödeskörning](../../automating/using/executing-a-workflow.md#monitoring).
+Mer information finns i [Övervaka arbetsflödeskörning](../../automating/using/monitoring-workflow-execution.md).
 
 #### Felsöka datahanteringsaktiviteter{#troubleshooting-data-management-activities}
 
@@ -158,4 +161,4 @@ Mer information finns i [Leveransvarning](../../sending/using/receiving-alerts-w
 
 **Relaterade ämnen:**
 
-* [Felhantering](../../automating/using/executing-a-workflow.md#error-management)
+* [Felhantering](../../automating/using/monitoring-workflow-execution.md)
