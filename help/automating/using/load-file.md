@@ -13,7 +13,10 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '1771'
+ht-degree: 0%
 
 ---
 
@@ -105,7 +108,7 @@ Aktivitetskonfigurationen omfattar två steg. Först måste du definiera den fö
 
 1. Bekräfta aktivitetens konfiguration och spara arbetsflödet.
 
-Om något fel inträffar med aktiviteten efter att arbetsflödet har körts finns mer information om felaktiga värden i filen i loggarna. For more on workflows logs, refer to [this section](../../automating/using/executing-a-workflow.md#monitoring).
+Om något fel inträffar med aktiviteten efter att arbetsflödet har körts finns mer information om felaktiga värden i filen i loggarna. For more on workflows logs, refer to [this section](../../automating/using/monitoring-workflow-execution.md).
 
 ## Kolumnformat {#column-format}
 
