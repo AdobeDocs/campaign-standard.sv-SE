@@ -12,9 +12,9 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
+source-git-commit: e59562bd4f258c4259b8e8e5d9648397d5718792
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,10 @@ ht-degree: 0%
 </tr> 
 </tbody> 
 </table>
+
+>[!NOTE]
+>
+>Certifikatförnyelse för CNAME-underdomäner släpps på Kontrollpanelen i Campaign i maj. Mer information finns i [Versionsinformation](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)för Kontrollpanelen.
 
 **Förbättringar**
 
