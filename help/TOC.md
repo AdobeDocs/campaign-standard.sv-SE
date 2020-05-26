@@ -4,9 +4,9 @@ sub-product: adobe kampanjstandard
 audience: end-user
 user-guide-title: Hjälp om Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 4e5bb76be743fb44a464ebedb466927b87e21584
+source-git-commit: a9a6fc70fe8fe4ffa3560c725b7753b001d8e928
 workflow-type: tm+mt
-source-wordcount: '1451'
+source-wordcount: '1453'
 ht-degree: 0%
 
 ---
@@ -253,9 +253,6 @@ ht-degree: 0%
    + Allmänt om arbetsflöde {#workflow-general-operation}
       + [Arbetsflödesgränssnitt](automating/using/workflow-interface.md)
       + [Bygga ett arbetsflöde](automating/using/building-a-workflow.md)
-      + [Måldata](automating/using/targeting-data.md)
-      + [Importera data](automating/using/importing-data.md)
-      + [Använda arbetsflödesdata](automating/using/using-workflow-data.md)
       + [Bästa arbetsflöden](automating/using/best-practices-workflows.md)
    + Köra ett arbetsflöde {#executing-a-workflow}
       + [Om arbetsflödeskörning](automating/using/about-workflow-execution.md)
@@ -308,8 +305,10 @@ ht-degree: 0%
       + [Lista över funktioner](automating/using/list-of-functions.md)
    + Importera och exportera data {#importing-and-exporting-data}
       + [Om import och export av data](automating/using/about-data-import-and-export.md)
+      + [Importera metodtips](automating/using/import-best-practices.md)
       + [Importera data med importmallar](automating/using/importing-data-with-import-templates.md)
-      + [Definiera importmallar](automating/using/defining-import-templates.md)
+      + [Skapa arbetsflödesmallar för import av data](automating/using/creating-import-workflow-templates.md)
+      + [Hantera krypterade data](automating/using/managing-encrypted-data.md)
       + [Exporterar loggar](automating/using/exporting-logs.md)
       + [Hantera paket](automating/using/managing-packages.md)
       + [Exporterar listor](automating/using/exporting-lists.md)
