@@ -12,7 +12,10 @@ discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: 3aa987c423181180a5c20bcca04cde04a2bf6086
+workflow-type: tm+mt
+source-wordcount: '655'
+ht-degree: 0%
 
 ---
 
@@ -47,7 +50,6 @@ Stegen för att implementera detta är:
 
    ![](assets/remarketing_4.png)
 
-1. Om en prioritetsbedömning definieras i Analytics (se [Experience Cloud-dokumentationen](https://marketing.adobe.com/resources/help/en_US/insight/client/c_visitor_propensity.html)) kan du välja att inte skicka meddelandet om kunden har stor sannolikhet att komma tillbaka till webbplatsen inom den närmaste framtiden. Innehållet i poängen och tröskelvärdet är tillgängligt i nyttolastens innehåll så att du kan använda dessa värden för att anpassa meddelandet. Markera rutan längst ned på skärmen om du vill använda det här alternativet. De kunder som har stor sannolikhet att komma tillbaka till webbplatsen inom en snar framtid kommer inte att få något meddelande.
 1. Klicka på **[!UICONTROL Publish]** knappen för att börja publicera utlösarhändelsen.
 1. Om du behöver göra en ändring i utlösarschemat även efter att du har publicerat utlösarhändelsen klickar du på **[!UICONTROL Update schema]** knappen för att hämta de senaste ändringarna.
 
