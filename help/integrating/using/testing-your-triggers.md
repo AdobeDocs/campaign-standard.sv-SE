@@ -12,7 +12,10 @@ discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 3aa987c423181180a5c20bcca04cde04a2bf6086
+workflow-type: tm+mt
+source-wordcount: '444'
+ht-degree: 0%
 
 ---
 
@@ -74,7 +77,6 @@ Om så är fallet följer du de här stödlinjerna:
 Om inte, gå vidare till nästa steg. Om så är fallet följer du de här stödlinjerna:
 
 * Kontrollera att transaktionsmallen är publicerad.
-* Om tröskelvärdet för propensityScore är aktiverat för Campaign kontrollerar du utlösarens benägenhetspoäng från pipeline.
 * Kontrollera att profilen inte är svartlistad.
 * Kontrollera tillämpningen av typologiregler.
 * Kontrollera transaktionsmeddelandets loggar.
