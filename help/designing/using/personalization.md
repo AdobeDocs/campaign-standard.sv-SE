@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 96a1812ce8775f4bfb3db64a824a9fdc8185ac6b
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+workflow-type: tm+mt
+source-wordcount: '2536'
+ht-degree: 0%
 
 ---
 
@@ -83,7 +86,7 @@ När personaliseringen har genererats (när du till exempel förhandsgranskar oc
 
 >[!NOTE]
 >
->Om e-postmeddelandet skapas från ett arbetsflöde är de ytterligare data som beräknas i arbetsflödet även tillgängliga i anpassningsfälten. Mer information om hur du lägger till ytterligare data från ett arbetsflöde finns i avsnittet [Förbättra data](../../automating/using/targeting-data.md#enriching-data) .
+>Om e-postmeddelandet skapas från ett arbetsflöde är de ytterligare data som beräknas i arbetsflödet även tillgängliga i anpassningsfälten. Mer information om hur du lägger till ytterligare data från ett arbetsflöde finns i avsnittet [Förbättra data](../../automating/using/about-targeting-activities.md#enriching-data) .
 
 ## Lägga till ett innehållsblock{#adding-a-content-block}
 
