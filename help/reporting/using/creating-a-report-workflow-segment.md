@@ -12,7 +12,10 @@ discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+workflow-type: tm+mt
+source-wordcount: '617'
+ht-degree: 0%
 
 ---
 
@@ -69,7 +72,7 @@ Du måste först skapa ett arbetsflöde med olika målgrupper. Här vill vi skic
 
    ![](assets/report_segment_1.png)
 
-1. Lägg till en **[!UICONTROL Segmentation]** aktivitet för att dela dina frågeresultat i två målpopulationer. Mer information om segmentering finns på den här [sidan](../../automating/using/targeting-data.md#segmenting-data).
+1. Lägg till en **[!UICONTROL Segmentation]** aktivitet för att dela dina frågeresultat i två målpopulationer. Mer information om segmentering finns på den här [sidan](../../automating/using/segmentation.md).
 
 1. Dubbelklicka på **[!UICONTROL Segmentation]** aktiviteten för att konfigurera den. Redigera det första segmentet genom att klicka **[!UICONTROL Edit properties]**.
 
