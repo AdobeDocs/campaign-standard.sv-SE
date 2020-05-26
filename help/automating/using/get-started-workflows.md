@@ -12,9 +12,9 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -89,8 +89,7 @@ Slutligen kan du med [exportlistor](../../automating/using/exporting-lists.md) e
 
 Läs mer:
 
-* [Importera data](../../automating/using/importing-data.md)
-* [Använda arbetsflödesdata](../../automating/using/using-workflow-data.md)
+* [Importera och exportera data](../../automating/using/about-data-import-and-export.md)
 * [Användningsfall: Exportera/importera anpassade resurser](../../automating/using/exporting-importing-custom-resources.md)
 
 ## Ytterligare resurser
