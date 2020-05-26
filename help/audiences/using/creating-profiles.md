@@ -12,7 +12,7 @@ discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
@@ -26,7 +26,7 @@ I Adobe Campaign används profiler som standard för att definiera meddelandets 
 
 Om du vill skapa eller uppdatera en profil i Campaign kan du:
 
-* Importera en profillista från en fil via ett [arbetsflöde](../../automating/using/importing-data.md#example--import-workflow-template)
+* Importera en profillista från en fil via ett [arbetsflöde](../../automating/using/creating-import-workflow-templates.md)
 * Samla in data online via [landningssidor](../../channels/using/getting-started-with-landing-pages.md)
 * Skapa bulk via [REST API](../../api/using/get-started-apis.md)
 * Synkronisera profiler från [Microsoft Dynamics](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
