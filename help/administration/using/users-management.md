@@ -12,7 +12,10 @@ discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+workflow-type: tm+mt
+source-wordcount: '1144'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 Med Adobe Campaign kan ni tilldela en uppsättning roller till era användare för att definiera vilken del av gränssnittet de kan komma åt.
 
-De specifika rollerna och motsvarande behörigheter beskrivs i följande avsnitt: [förstå roller](../../administration/using/list-of-roles.md) och [auktoriseringar](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
+De specifika rollerna och motsvarande behörigheter beskrivs i följande avsnitt: [förstå roller](../../administration/using/list-of-roles.md) och [behörigheter](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
 
 Administratörer kan hantera användare från Admin Console. Användarna synkroniseras sedan automatiskt med Adobe Campaign. Mer information finns i dokumentationen till [Admin Console](https://helpx.adobe.com/enterprise/using/users.html) .
 
@@ -69,7 +72,7 @@ Här är de viktigaste uppgifterna de kan utföra:
 * [Utveckla nya funktioner för att förbättra färdiga funktioner](../../developing/using/data-model-concepts.md): hantera anpassade resurser och få tillgång till diagnostikverktyg.
 * [Ställ in instansparametrarna](../../administration/using/branding.md): definiera dina olika varumärken och konfigurera deras inställningar (logotyp, hantera spårning, URL-domän för att komma åt landningssidorna osv.).
 * [Exportera och importera datapaket](../../automating/using/managing-packages.md): utbyta resurser mellan olika instanser av Adobe Campaign via strukturerade XML-filer.
-* [Exportera loggar](../../automating/using/exporting-logs.md) och [definiera importmallar](../../automating/using/defining-import-templates.md).
+* [Exportera loggar](../../automating/using/exporting-logs.md) och [definiera importmallar](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates).
 
 ### Avancerade användare {#advanced-users}
 
