@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
 workflow-type: tm+mt
-source-wordcount: '5807'
+source-wordcount: '5809'
 ht-degree: 0%
 
 ---
@@ -340,7 +340,7 @@ Dokumentationen för [REST API](../../api/using/get-started-apis.md) uppdaterade
 * Information om hur du skapar en tjänst har lagts till.
 * Information om hur du anropar ett arbetsflöde med parametrar har lagts till.
 
-Information was added on the new **Test** activity. [Läs mer](../../automating/using/test.md)
+Information lades till om den nya **testaktiviteten** . [Läs mer](../../automating/using/test.md)
 
 Automatiseringsguiden har uppdaterats med länkar till relaterade arbetsflödesaktiviteter. [Läs mer](../../automating/using/workflow-interface.md#palette)
 
@@ -584,7 +584,7 @@ Avsnittet [Configuring transactional messaging](../../administration/using/confi
 
 En ny teknik har lagts till för att lära dig hur du skapar en flerspråkig CSV-fil som kan användas för push-meddelanden. [Läs mer](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
 
-Lagt till information om importmallen **Update Direct-postkantlinjer och leveransloggar** . [Läs mer](../../automating/using/defining-import-templates.md)
+Lagt till information om importmallen **Update Direct-postkantlinjer och leveransloggar** . [Läs mer](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)
 
 Den tekniska arbetsflödeslistan har uppdaterats. [Läs mer](../../administration/using/technical-workflows.md)
 
@@ -616,7 +616,7 @@ Avsnittet **[!UICONTROL Working with typologies]** har uppdaterats för att bli 
 
 Det finns nu ett nytt alternativ som gör att du kan få bättre prestanda när du definierar många ytterligare data i en **[!UICONTROL Query]** bild. [Läs mer](../../automating/using/query.md)
 
-Exemplet på profilimport har uppdaterats med några tips så att dina profiler kan ta emot direktreklam. [Läs mer](../../automating/using/importing-data.md)
+Exemplet på profilimport har uppdaterats med några tips så att dina profiler kan ta emot direktreklam. [Läs mer](../../automating/using/about-data-import-and-export.md)
 
 En ny aktivitet är tillgänglig i arbetsflöden: aktiviteten **[!UICONTROL Enrichment]** . [Läs mer](../../automating/using/enrichment.md)
 
@@ -818,7 +818,7 @@ Dreamweaver-integration live - [Läs mer](https://docs.adobe.com/content/help/en
 
 Avsnitt som lagts till för olika typer av Adobe Campaign-användare. [Läs mer](../../administration/using/users-management.md)
 
-Handboken för arbetsflöde har organiserats om och utökats. Hitta enkelt hur du [bygger](../../automating/using/building-a-workflow.md) och [kör](../../automating/using/about-workflow-execution.md) ett arbetsflöde, hur du [målar](../../automating/using/targeting-data.md) och [hanterar](../../automating/using/targeting-data.md#enriching-data) data, hur du [importerar](../../automating/using/importing-data.md) [](../../automating/using/using-workflow-data.md) data och hur du använder arbetsflödesdata¥ för att uppdatera databasen eller skicka leveranser.
+Handboken för arbetsflöde har organiserats om och utökats. Hitta enkelt hur du [bygger](../../automating/using/building-a-workflow.md) och [kör](../../automating/using/about-workflow-execution.md) ett arbetsflöde, hur du [målstyr](../../automating/using/about-targeting-activities.md) och [hanterar](../../automating/using/about-targeting-activities.md#enriching-data) data, hur du [importerar och exporterar](../../automating/using/about-data-import-and-export.md) data och hur du använder arbetsflödesdata för att uppdatera databasen eller skicka leveranser.
 
 Beräkning av rapportindikator är nu tillgängligt för dynamiska rapporter, inklusive fullständig beskrivning och beräkningsformel. [Läs mer](../../reporting/using/indicator-calculation.md)
 
