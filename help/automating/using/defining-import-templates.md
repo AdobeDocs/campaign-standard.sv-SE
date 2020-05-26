@@ -12,7 +12,10 @@ discoiquuid: 85d13147-fb31-446a-8476-f112c841fb82
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+workflow-type: tm+mt
+source-wordcount: '787'
+ht-degree: 0%
 
 ---
 
@@ -53,7 +56,7 @@ Standardmallarna är skrivskyddade och visas inte för standardanvändare. Så h
 
 1. Go to the **[!UICONTROL Workflow]** tab. Härifrån kan du förbättra arbetsflödet som erbjuds som standard genom att lägga till nya aktiviteter efter dina behov.
 
-   Mer information om hur du konfigurerar arbetsflödesaktiviteter finns i användningsexemplet som beskrivs i det här avsnittet: [Exempel: Importera arbetsflödesmall](../../automating/using/importing-data.md#example--import-workflow-template). Det här användningsexemplet hjälper dig att skapa ett arbetsflöde som kan återanvändas för att importera profiler från en CRM i Adobe Campaign-databasen.
+   Mer information om hur du konfigurerar arbetsflödesaktiviteter finns i användningsexemplet som beskrivs i det här avsnittet: [Exempel: Importera arbetsflödesmall](../../automating/using/creating-import-workflow-templates.md). Det här användningsexemplet hjälper dig att skapa ett arbetsflöde som kan återanvändas för att importera profiler från en CRM i Adobe Campaign-databasen.
 
 1. Spara mallen så att arbetsflödets konfiguration beaktas korrekt.
 1. Överför en exempelfil från **[!UICONTROL Properties]** fliken. Den överförda filen kan bara innehålla kolumner som är nödvändiga för framtida import eller exempeldata. Med data i exempelfilen kan du testa den förenklade importen när arbetsflödet har definierats.
@@ -84,6 +87,6 @@ Importmallen är nu tillgänglig för användarna och kan användas för att öv
 **Relaterade ämnen:**
 
 * [Arbetsflöden](../../automating/using/get-started-workflows.md)
-* [Importera data](../../automating/using/importing-data.md)
-* [Exempel: Importera arbetsflödesmall](../../automating/using/importing-data.md#example--import-workflow-template)
+* [Importera och exportera data](../../automating/using/about-data-import-and-export.md)
+* [Exempel: Importera arbetsflödesmall](../../automating/using/creating-import-workflow-templates.md)
 
