@@ -12,7 +12,10 @@ discoiquuid: 5f20ff3f-8242-4735-8c60-c57610edff52
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+workflow-type: tm+mt
+source-wordcount: '212'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +30,7 @@ För att den här funktionen ska fungera innehåller standardmallen för leveran
 
 ![](assets/direct_mail_return_sender_1.png)
 
-En importmall finns under **[!UICONTROL Adobe Campaign > Resources > Templates > Import templates > Update Direct Mail quarantines and delivery logs]**. Duplicera den här mallen för att skapa en egen mall. Mer information om hur du använder importmallar finns i [Använda importmallar](../../automating/using/defining-import-templates.md).
+En importmall finns under **[!UICONTROL Adobe Campaign > Resources > Templates > Import templates > Update Direct Mail quarantines and delivery logs]**. Duplicera den här mallen för att skapa en egen mall. Mer information om hur du använder importmallar finns i [Använda importmallar](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates).
 
 ![](assets/direct_mail_return_sender_2.png)
 
