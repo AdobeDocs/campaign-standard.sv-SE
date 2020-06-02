@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e89218b584f0d621ca700d4ee2a4866555d00679
+source-git-commit: 15570e42a345e0b8df2fe59d5ce06877e2ac7cf3
 workflow-type: tm+mt
 source-wordcount: '5842'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Förutom [versionsinformationen](../../rn/using/release-notes.md)för Adobe Camp
 
 ## Dokumentationsuppdateringar - juni 2020 {#doc-updates-june-2020}
 
-Campaign Standard - Integreringen av Microsoft Dynamics 365 är inte tillgänglig just nu. En ny koppling utvecklas och kommer att finnas tillgänglig i framtiden. Kontakta din Adobe-återförsäljare om du vill ha mer information.
+Campaign Standard - Integreringen av Microsoft Dynamics 365 är inte tillgänglig just nu. En ny koppling utvecklas och kommer att finnas tillgänglig i framtiden. De relaterade hjälpsidorna har tagits bort. [Läs mer](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 ## Dokumentationsuppdateringar - maj 2020 {#doc-updates-may-2020}
 
