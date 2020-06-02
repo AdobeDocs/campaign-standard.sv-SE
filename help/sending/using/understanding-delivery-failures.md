@@ -12,7 +12,10 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1287a360cdd1750996b47a27b85a11e90b29df0
+source-git-commit: d05d2692607117e056c360e81d85b7d64c4077a3
+workflow-type: tm+mt
+source-wordcount: '1279'
+ht-degree: 1%
 
 ---
 
@@ -56,27 +59,23 @@ Det finns tre typer av fel när en leverans misslyckas:
 
 Möjliga orsaker till leveransfel är:
 
-* **[!UICONTROL User unknown]** (Hård text): adressen finns inte. Inga fler leveransförsök kommer att göras för den här profilen.
-* **[!UICONTROL Quarantined address]** (Hård text): adressen placerades i karantän.
-* **[!UICONTROL Unreachable]** (Mjuk/hård text): ett fel har uppstått i meddelandeleveranskedjan (t.ex. en domän som inte kan nås temporärt). Enligt det fel som returnerats av leverantören skickas adressen direkt till karantänen eller så provas leveransen igen tills Campaign får ett fel som motiverar karantänstatusen eller tills antalet fel når 5.
-* **[!UICONTROL Address empty]** (Hård text): adressen är inte definierad.
-* **[!UICONTROL Mailbox full]** (Mjuk text): den här användarens postlåda är full och kan inte ta emot fler meddelanden. Den här adressen kan tas bort från karantänlistan för att göra ett nytt försök. Den tas bort automatiskt efter 30 dagar.
-
-   För att adressen automatiskt ska tas bort från listan över adresser i karantän måste det tekniska arbetsflödet **[!UICONTROL Database cleanup]** startas.
-
-* **[!UICONTROL Refused]** (Mjuk/hård text): adressen har placerats i karantän på grund av säkerhetsfeedback som en skräppostrapport. Enligt det fel som returnerats av leverantören skickas adressen direkt till karantänen eller så provas leveransen igen tills Campaign får ett fel som motiverar karantänstatusen eller tills antalet fel når 5.
-* **[!UICONTROL Duplicate]**: adressen redan har identifierats i segmenteringen.
-* **[!UICONTROL Not defined]** (Mjuk text): adressen är i kvalificeringsläge eftersom fel ännu inte har ökats.
-
-   Den här typen av fel inträffar när ett nytt felmeddelande skickas av servern: det kan vara ett isolerat fel, men om det inträffar igen ökar felräknaren, som varnar de tekniska teamen.
-
-* **[!UICONTROL Error ignored]**: adressen finns i vitlistan och ett e-postmeddelande skickas i vilket fall som helst.
-* **[!UICONTROL Blacklisted address]**: adressen var svartlistad när den skickades.
-* **[!UICONTROL Account disabled]** (Mjuk/hård text): När IAP (Internet Access Provider) upptäcker en lång inaktivitetsperiod kan han eller hon avsluta användarens konto: det blir då omöjligt att leverera till användarens adress. Mjuk eller Hård typ beror på vilken typ av fel som tas emot: Om kontot tillfälligt inaktiveras på grund av sex månaders inaktivitet och fortfarande kan aktiveras, **[!UICONTROL Erroneous]** tilldelas statusen och leveransen provas igen. Om felet får signaler om att kontot är permanent inaktiverat skickas det direkt till karantän.
-* **[!UICONTROL Not connected]**: profilens mobiltelefon är avstängd eller inte ansluten till nätverket när meddelandet skickas.
-* **[!UICONTROL Invalid domain]** (Mjuk text): domänen för e-postadressen är felaktig eller finns inte längre. Den här profilen används igen tills felantalet är 5. Därefter anges posten till Karantänstatus och inga nya försök följer.
-* **[!UICONTROL Text too long]**: antalet tecken i SMS-meddelandet överskrider gränsen. Mer information finns i [SMS-kodning, längd och transkribering](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
-* **[!UICONTROL Character not supported by encoding]**: SMS-meddelandet innehåller ett eller flera tecken som inte stöds av kodningen. &amp;Mer information finns i [Teckentabell - GSM-standard](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard).
+| Feletikett | Feltyp | Beskrivning |
+---------|----------|---------
+| **[!UICONTROL User unknown]** | Hård | Adressen finns inte. Inga fler leveransförsök kommer att göras för den här profilen. |
+| **[!UICONTROL Quarantined address]** | Hård | Adressen placerades i karantän. |
+| **[!UICONTROL Unreachable]** | Mjuk/Hård | Ett fel har uppstått i meddelandeleveranskedjan (t.ex. en domän som inte kan nås temporärt). Enligt det fel som returnerats av leverantören skickas adressen direkt till karantänen eller så provas leveransen igen tills Campaign får ett fel som motiverar karantänstatusen eller tills antalet fel når 5. |
+| **[!UICONTROL Address empty]** | Hård | Adressen är inte definierad. |
+| **[!UICONTROL Mailbox full]** | Mjuk | Den här användarens postlåda är full och kan inte ta emot fler meddelanden. Den här adressen kan tas bort från karantänlistan för att göra ett nytt försök. Den tas bort automatiskt efter 30 dagar. För att adressen automatiskt ska tas bort från listan över adresser i karantän måste det tekniska arbetsflödet **[!UICONTROL Database cleanup]** startas. |
+| **[!UICONTROL Refused]** | Mjuk/Hård | Adressen har placerats i karantän på grund av säkerhetsfeedback som en skräppostrapport. Enligt det fel som returnerats av leverantören skickas adressen direkt till karantänen eller så provas leveransen igen tills Campaign får ett fel som motiverar karantänstatusen eller tills antalet fel når 5. |
+| **[!UICONTROL Duplicate]** | Ignorerad | Adressen har redan identifierats i segmenteringen. |
+| **[!UICONTROL Not defined]** | Mjuk | adressen är i kvalificeringsläge eftersom fel ännu inte har ökats. Den här typen av fel inträffar när ett nytt felmeddelande skickas av servern: det kan vara ett isolerat fel, men om det inträffar igen ökar felräknaren, som varnar de tekniska teamen. |
+| **[!UICONTROL Error ignored]** | Ignorerad | Adressen finns i vitlistan och ett e-postmeddelande kommer att skickas till den i vilket fall som helst. |
+| **[!UICONTROL Blacklisted address]** | Hård | adressen var svartlistad när den skickades. |
+| **[!UICONTROL Account disabled]** | Mjuk/Hård | När IAP (Internet Access Provider) upptäcker en lång inaktivitetsperiod kan den stänga användarens konto: det blir då omöjligt att leverera till användarens adress. Mjuk eller Hård typ beror på vilken typ av fel som tas emot: Om kontot tillfälligt inaktiveras på grund av sex månaders inaktivitet och fortfarande kan aktiveras, **[!UICONTROL Erroneous]** tilldelas statusen och leveransen provas igen. Om felet får signaler om att kontot är permanent inaktiverat skickas det direkt till karantän. |
+| **[!UICONTROL Not connected]** | Ignorerad | Profilens mobiltelefon är avstängd eller inte ansluten till nätverket när meddelandet skickas. |
+| **[!UICONTROL Invalid domain]** | Mjuk | Domänen för e-postadressen är felaktig eller finns inte längre. Den här profilen används igen tills felantalet är 5. Därefter anges posten till Karantänstatus och inga nya försök följer. |
+| **[!UICONTROL Text too long]** | Ignorerad | Antalet tecken i SMS-meddelandet överskrider gränsen. Mer information finns i [SMS-kodning, längd och transkribering](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration). |
+| **[!UICONTROL Character not supported by encoding]** | Ignorerad | SMS-meddelandet innehåller ett eller flera tecken som inte stöds av kodningen. &amp;Mer information finns i [Teckentabell - GSM-standard](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard). |
 
 ## Försök igen efter ett tillfälligt leveransfel {#retries-after-a-delivery-temporary-failure}
 
