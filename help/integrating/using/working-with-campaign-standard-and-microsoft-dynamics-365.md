@@ -7,17 +7,24 @@ contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
-topic-tags: working-with-campaign-and-experience-manager
+topic-tags: working-with-campaign-and-microsoft-dynamics-365
 discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 277663c4cf0e810f691eeebfade17bf8dd73698e
+source-git-commit: 21135f27fd1d8297edd3dd067446d09c39de9f4f
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 0%
 
 ---
 
 
 # Kom igång med Microsoft Dynamics 365-integrering
+
+>[!IMPORTANT]
+>
+>Den här integreringen är inte tillgänglig just nu. En ny koppling utvecklas och kommer att finnas tillgänglig i framtiden. Kontakta din Adobe-återförsäljare om du vill ha mer information.
 
 Aktivera dina CRM-data för kommunikation över flera kanaler: Lär dig hur du skickar kontakter från Microsoft Dynamics 365 till Adobe Campaign och delar kampanjresultatdata (skickar, öppnar, klickar och studsar) tillbaka från Adobe Campaign till Microsoft Dynamics 365.
 
@@ -25,9 +32,7 @@ Aktivera dina CRM-data för kommunikation över flera kanaler: Lär dig hur du s
 >
 >Integreringen av Microsoft Dynamics 365/Adobe Campaign Standard stöder endast försäljningsappen **för** Microsoft Dynamics 365.
 
-## Fördelar och användningsområden
-
-### Principer
+## Principer
 
 Integreringen av Adobe Campaign och Microsoft Dynamics 365 möjliggör synkronisering av alla tillgängliga kontaktdata i CRM-systemet, vilket gör alla relevanta kontaktdata tillgängliga för kampanjaktiviteter.
 
@@ -41,9 +46,7 @@ Den här integreringen är utformad för tre huvudsakliga användningsområden:
 1. Skicka e-postmarknadsföringshändelser (skickar, öppnar, klickar, studsar) från Campaign till Dynamics 365 för att visa dem i säljdatabasen i Dynamics 365-gränssnittet
 1. Synkronisera anpassade enheter från Dynamics 365 till Campaign så att de kan användas för segmentering och personalisering
 
-Titta på videon om integreringsfunktionen i Dynamics 365-Campaign Standard [här](https://helpx.adobe.com/campaign/kt/acs/using/acs-ms-dynamics-crm-connector-tutorial.html).
-
-### Viktiga fördelar
+## Viktiga fördelar
 
 * Enhetliga meddelanden mellan försäljning och marknadsföring
 
