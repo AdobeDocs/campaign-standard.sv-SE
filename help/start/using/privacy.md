@@ -12,7 +12,10 @@ discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
+source-git-commit: 26760a118f87676afe3d359c8db3513c1a190d35
+workflow-type: tm+mt
+source-wordcount: '1479'
+ht-degree: 0%
 
 ---
 
@@ -83,7 +86,7 @@ De [viktigaste lagstiftningarna](#privacy-regulations) avser de olika enheter so
 
 Därför är ni, som ett företag som samlar in och delar personuppgifter, personuppgiftsansvariga, era kunder de registrerade och Adobe Campaign fungerar som databehandlare när ni hanterar deras personuppgifter enligt era anvisningar. Observera att det är ditt ansvar som personuppgiftsansvariga att hantera relationen till de registrerade, t.ex. vid hantering av [sekretessförfrågningar](#privacy-requests).
 
-När ni integrerar Campaign med andra Experience Cloud-lösningar där målgrupper kan överföras från ett system till ett annat, till exempel [målgruppstjänsten](../../audiences/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager eller People core Service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md), eller med andra lösningar som [Microsoft Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md), måste ni vara extra noga med att skydda personuppgifter.
+När ni integrerar Campaign med andra Experience Cloud-lösningar där målgrupper kan överföras från ett system till ett annat, till exempel [målgruppstjänsten](../../audiences/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager eller People core Service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md), eller med andra lösningar som [Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md), måste ni vara extra noga med att skydda personuppgifter.
 
 ## Datainsamling {#data-acquisition}
 
