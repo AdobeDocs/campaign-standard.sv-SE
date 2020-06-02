@@ -4,9 +4,9 @@ sub-product: adobe kampanjstandard
 audience: end-user
 user-guide-title: Hjälp om Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: a9a6fc70fe8fe4ffa3560c725b7753b001d8e928
+source-git-commit: c7bac40fc736c107dcdbc910ab35b9eb53a915f6
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1403'
 ht-degree: 0%
 
 ---
@@ -239,15 +239,7 @@ ht-degree: 0%
       + [Testa utlösarna](integrating/using/testing-your-triggers.md)
       + [Användningsexempel för utlösare för övergåenden](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign och Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + Arbeta med Campaign Standard och Microsoft Dynamics 365 {#working-with-campaign-standard-and-ms-dynamics}
-         + [Kom igång med Microsoft Dynamics 365-integrering](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-         + [Om Microsoft Dynamics 365-integrering](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
-         + [Begär och konfigurera Microsoft Dynamics 365-integreringen](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
-         + [Använda integreringen med Microsoft Dynamics 365](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
-      + [Konfigurera integrering med Adobe IO för Microsoft Dynamics 365](integrating/using/configure-adobe-io-for-ms-dynamic.md)
-      + [Konfigurera Microsoft Dynamics 365 för Campaign-integrering](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
-      + [Konfigurera Unifi för Microsoft Dynamics 365-integrering](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
-      + [Mappa anpassade resurser för Campaign och anpassade Dynamics 365-entiteter](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
+      + [Kom igång med Microsoft Dynamics 365-integrering](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 + Hantera processer och data {#managing-processes-and-data}
    + [Kom igång med data- och processhantering](automating/using/get-started-workflows.md)
    + Allmänt om arbetsflöde {#workflow-general-operation}
