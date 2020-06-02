@@ -13,7 +13,10 @@ context-tags: delivery,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 6e87dc8f299f0c9fbb33e5e56c0a76cfef0aa9a6
+workflow-type: tm+mt
+source-wordcount: '993'
+ht-degree: 0%
 
 ---
 
@@ -57,6 +60,9 @@ Meddelandeförberedelsen utlöses enligt arbetsflödets körningsparametrar. På
    * **[!UICONTROL Recurring email]**: e-postmeddelandet skickas flera gånger, enligt den frekvens som definieras i en **[!UICONTROL Scheduler]** aktivitet. Välj aggregeringsperioden för utskicken. Detta gör att du kan gruppera om alla meddelanden som inträffar under den angivna perioden i ett enda e-postmeddelande som också kallas **återkommande körning** och som kan nås från programmets lista över marknadsföringsaktiviteter.
 
       Om du till exempel har en återkommande födelsedag, som skickas varje dag, kan du välja att samla in varje månad. Detta gör att du kan få rapporter om leveransen månadsvis, även om e-postmeddelandet skickas varje dag.
+   >[!NOTE]
+   >
+   >Återkommande leveranser förbereds baserat på **aggregeringsperioden**. Om t.ex. aggregeringsperioden är &quot;per dag&quot; förbereds leveransen endast en gång per dag. Om du planerar att anropa det här arbetsflödet flera gånger om dagen kan du använda [!UICONTROL No aggregation].
 
 1. Välj en e-posttyp. E-posttyperna kommer från e-postmallar som definieras på menyn **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** .
 1. Ange de allmänna egenskaperna för e-postmeddelandet. Du kan även bifoga den till en befintlig kampanj. Etiketten för arbetsflödets leveransaktivitet uppdateras med e-postetiketten.
