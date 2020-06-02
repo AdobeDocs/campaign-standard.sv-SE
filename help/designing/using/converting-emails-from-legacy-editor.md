@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: caab111b583534cc2e52aa9e45d9fd37c770783c
+source-git-commit: bb83fb3b24af0102dc3745517e8604fdac82ee19
+workflow-type: tm+mt
+source-wordcount: '438'
+ht-degree: 0%
 
 ---
 
@@ -21,15 +24,15 @@ source-git-commit: caab111b583534cc2e52aa9e45d9fd37c770783c
 
 Börja arbeta med e-postdesignern och skapa återanvändbara mallar och fragment från din e-post-HTML som skapats i den äldre redigeraren.
 
->[!IMPORTANT]
->
->Det här avsnittet är avsett för avancerade användare som känner till HTML-kod.
-
 I det här exemplet kan du skapa en e-postdesignermall genom att använda ett HTML-e-postmeddelande och dela upp den i HTML-komponenter i e-postdesignern.
 
 >[!NOTE]
 >
 >Precis som kompatibilitetsläget är en HTML-komponent redigerbar med begränsade alternativ: kan du bara utföra en utgåva på plats.
+
+>[!IMPORTANT]
+>
+>Det här avsnittet är avsett för avancerade användare som känner till HTML-kod.
 
 ## Förbereda ditt e-postinnehåll
 
