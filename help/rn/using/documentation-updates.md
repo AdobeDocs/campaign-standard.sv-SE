@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 15570e42a345e0b8df2fe59d5ce06877e2ac7cf3
+source-git-commit: babbf78d91d3cab9569eab3b15da50f64a91a560
 workflow-type: tm+mt
-source-wordcount: '5842'
+source-wordcount: '5876'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,10 @@ ht-degree: 0%
 Förutom [versionsinformationen](../../rn/using/release-notes.md)för Adobe Campaign listas alla nya uppdateringar i dokumentationen för Adobe Campaign Standard på den här sidan.
 
 ## Dokumentationsuppdateringar - juni 2020 {#doc-updates-june-2020}
+
+Referenser till den tidigare supportwebbplatsen har ersatts av den nya URL:en. [Läs mer](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
+
+Konfigurationen av det anpassade kontot Litmus har tagits bort från återgivningsfunktionen i Inkorgen. [Läs mer](../../sending/using/email-rendering.md)
 
 Campaign Standard - Integreringen av Microsoft Dynamics 365 är inte tillgänglig just nu. En ny koppling utvecklas och kommer att finnas tillgänglig i framtiden. De relaterade hjälpsidorna har tagits bort. [Läs mer](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
@@ -684,11 +688,11 @@ A/B-testexemplet har uppdaterats. [Läs mer](../../channels/using/designing-an-a
 
 Ny teknik om hur du skapar eller uppdaterar profildata när en mobilapp skickar&quot;Samla in PII&quot;-data. [Läs mer](https://helpx.adobe.com/campaign/kb/acs-updating-profile-based-on-subscription.html)
 
-Avsnittet innehåller information om nya funktioner för exportspårning. [Läs mer](../../administration/using/auditing-export-logs.md)
+Section added about new export tracking capabilities. [Läs mer](../../administration/using/auditing-export-logs.md)
 
-Ytterligare preciseringar om inbyggd paketexport. [Läs mer](../../automating/using/managing-packages.md)
+Added precisions about built-in package export. [Läs mer](../../automating/using/managing-packages.md)
 
-Den externa kontodefinitionen och exemplen har uppdaterats. [Läs mer](../../administration/using/external-accounts.md)
+Updated external account definition and samples. [Läs mer](../../administration/using/external-accounts.md)
 
 Flera skärmbilder har uppdaterats för att återspegla ändringarna i frågeredigeringskategorierna.
 
@@ -696,11 +700,11 @@ Avsnittet [Leveransvarning](../../sending/using/receiving-alerts-when-failures-h
 
 Avsnittet Anpassade resurser har klargjorts med en mer detaljerad procedur för hur du [definierar filter](../../developing/using/configuring-filter-definition.md).
 
-Uppdaterade och klargjorde [tekniken](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) för hur Adobe Marketing Cloud Mobile SDK ska integreras med en mobilapp för att få push-meddelanden om Adobe Campaign Standard.
+Updated and clarified the [technote](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) on how to integrate the Adobe Marketing Cloud Mobile SDK with a mobile app to receive Adobe Campaign Standard push notifications.
 
-Tech Note har lagts till som förklarar strukturen för den nyttolast som tas emot i en mobilapp. [Läs mer.](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)
+Added a technote explaining the structure of the payload received in a mobile app. [Read more.](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)
 
-Konfigurationsavsnittet [för push-kanaler har](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) uppdaterats med nya nyttolastdata i OS-versionen som ska läggas till när återanslag definieras i gränssnittet för Adobe Mobile Services.
+The Push channel configuration [section](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) has been updated with new payload data on OS version to add when defining postbacks in the Adobe Mobile Services interface.
 
 SMS-dokumentationen har uppdaterats med ett visst förtydligande i avsnittet [SMS-automatiska svar](../../channels/using/managing-incoming-sms.md#managing-stop-sms) .
 
@@ -710,29 +714,29 @@ Nytt avsnitt som är dedikerat till primärnycklar och användningen av ett för
 
 Information som lagts till om enkel och flera filtreringar i API:t. [Läs mer](../../api/using/filtering.md)
 
-## Version 17.9 - september 2017 {#release-17-9---september-2017}
+## Release 17.9 - September 2017 {#release-17-9---september-2017}
 
 **Nya funktioner i releasen**
 
-Bibliotek med e-postmallar - [läs mer](../../designing/using/using-reusable-content.md#content-templates)
+Library of Email templates - [Read more](../../designing/using/using-reusable-content.md#content-templates)
 
-Dynamisk rapportering med profildata - [Läs mer](../../reporting/using/about-dynamic-reports.md)
+Dynamic reporting with profile data - [Read more](../../reporting/using/about-dynamic-reports.md)
 
-Förbättring av massprenumeration - [Läs mer](../../automating/using/subscription-services.md)
+Enhancement on Mass subscription - [Read more](../../automating/using/subscription-services.md)
 
 **Andra dokumentationsuppdateringar som följer med releasen**
 
-Detaljerad lista över alla komponenter som är tillgängliga i dynamiska rapporter och vissa förändringar i formler. [Läs mer](../../reporting/using/list-of-components-.md)
+Detailed list of every components available in Dynamic Reports and some changes in formulas. [Läs mer](../../reporting/using/list-of-components-.md)
 
 Detaljerad lista över nyckeltal som delas med Adobe Analytics. [Läs mer](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 
 Ny video med dynamiska rapporter.
 
-Rekommendationer för S3-konto har lagts till. [Läs mer](../../administration/using/external-accounts.md#amazon-s3-account-recommendations)
+Added S3 account recommendations. [Läs mer](../../administration/using/external-accounts.md#amazon-s3-account-recommendations)
 
-Avsnittet om de olika typerna av användare har uppdaterats. [Läs mer](../../administration/using/users-management.md)
+Updated the section about the different types of users. [Läs mer](../../administration/using/users-management.md)
 
-Avsnittet om anpassning av bildkälla har uppdaterats. [Läs mer](../../designing/using/personalization.md#personalizing-an-image-source)
+Updated the section about image source personalization. [Läs mer](../../designing/using/personalization.md#personalizing-an-image-source)
 
 Dokumentation har lagts till i rapporten för aktiva profiler. [Läs mer](../../audiences/using/active-profiles.md)
 
@@ -744,7 +748,7 @@ Dokumentationen för uppföljningsmeddelanden har uppdaterats med ett förbättr
 
 Dokumentation har lagts till på ACS-ID. [Läs mer](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)
 
-Nya funktioner för kryptering och hashning har lagts till med exempel. [Läs mer](../../automating/using/list-of-functions.md)
+New encryption and hashing functions added with examples. [Läs mer](../../automating/using/list-of-functions.md)
 
 Uppdaterat avsnitt om arbetsflödesaktiviteten Överför fil. [Läs mer](../../automating/using/transfer-file.md)
 
@@ -768,9 +772,9 @@ Direkt e-postkanal - Återgå till avsändare, [läs mer](../../channels/using/r
 
 **Andra dokumentationsuppdateringar som följer med releasen**
 
-Komma igång-guiderna och instruktionsvideor har grupperats om i ett särskilt avsnitt.
+The getting started guides and how-to videos have been regrouped in a dedicated section.
 
-Dokumentationen för e-poståtergivning har uppdaterats. [Läs mer](../../sending/using/email-rendering.md)
+The Email rendering documentation has been updated. [Läs mer](../../sending/using/email-rendering.md)
 
 Beräkningstabellen för rapportindikatorn har uppdaterats. [Läs mer](../../reporting/using/indicator-calculation.md)
 
@@ -788,7 +792,7 @@ Listan med roller har uppdaterats. [Läs mer](../../administration/using/list-of
 
 Direktreklam - [Läs mer](../../channels/using/about-direct-mail.md)
 
-Hemlig kopia av e-post - [läs mer](../../administration/using/configuring-email-channel.md#archiving-emails)
+Email BCC - [Read more](../../administration/using/configuring-email-channel.md#archiving-emails)
 
 **Andra dokumentationsuppdateringar som följer med releasen**
 
