@@ -12,7 +12,10 @@ discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: b43e6be265ff2d8ce357ef44672a755028e2e5af
+workflow-type: tm+mt
+source-wordcount: '435'
+ht-degree: 0%
 
 ---
 
@@ -74,7 +77,7 @@ I den här rapporten visas e-poståtergivningarna så som de visas för mottagar
 
 >[!NOTE]
 >
->Antalet tillgängliga återgivningar visas i licensavtalet. Varje leverans med **e-poståtergivning** aktiverat minskar antalet tillgängliga återgivningar (så kallade tokens) med ett. Om du är en Litmus-klient kan du använda ditt eget Litmus-konto för att etablera och använda e-poståtergivning i Adobe Campaign. Kontakta er kontoansvarige på Adobe om du vill veta mer.
+>Antalet tillgängliga återgivningar visas i licensavtalet. Varje leverans med **e-poståtergivning** aktiverat minskar antalet tillgängliga återgivningar (så kallade tokens) med ett.
 
 Rapportsammanfattningen visar antalet mottagna, oönskade (skräppost), ej mottagna eller väntande mottagningar.
 
