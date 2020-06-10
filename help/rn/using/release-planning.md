@@ -12,9 +12,9 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fb865ae08a4b0db42b71e58895976a973a2ed6b7
+source-git-commit: c7ed307e982e3fe41b2e3a7d0de7de356338bc08
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -32,9 +32,9 @@ Alla releasedatum kan ändras: rekommenderar vi att du regelbundet går till den
 
 **NYHET!** Prenumerera på [](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) Campaign Standard och få information om kommande releaser direkt i din inkorg.
 
-## Version 20.3.1 - majversionen {#release-20-3-may-release}
+## Version 20.4 - Oktober-versionen {#release-20-4-oct-release}
 
-Miljöuppdateringar sker i vågor under de angivna tidsramarna nedan. Detaljerad information om den här versionen finns i [versionsinformationen](../../rn/using/release-notes.md). Kontakta [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin)om du har ytterligare frågor.
+Miljöuppdateringar sker i vågor under de angivna tidsramarna nedan. Detaljerad information om den här versionen finns i [versionsinformationen](../../rn/using/release-notes.md). Kontakta [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)om du har ytterligare frågor.
 
 <table>
  <thead>
@@ -46,11 +46,11 @@ Miljöuppdateringar sker i vågor under de angivna tidsramarna nedan. Detaljerad
  <tbody>
   <tr>
    <td>Scen<br /> </td>
-   <td>26-27 maj 2020<br /> </td>
+   <td>21-22 sept 2020<br /> </td>
   </tr>
   <tr>
    <td> Produktion<br /> </td>
-   <td>28 maj-1 juni 2020<br /> </td>
+   <td>28 sept. 5 okt 2020<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -65,7 +65,7 @@ S: Ändringar visas i [versionsinformationen](../../rn/using/release-notes.md), 
 
 **F: Hur ser valideringsprocessen ut?**
 
-S: När ni uppgraderar er mellanlagringsinstans rekommenderar Adobe att ni validerar era processer och att era användningsfall fungerar som de ska med den nya versionen och rapporterar eventuella problem till [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin).
+S: När ni uppgraderar er mellanlagringsinstans rekommenderar Adobe att ni validerar era processer och att era användningsfall fungerar som de ska med den nya versionen och rapporterar eventuella problem till [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
 
 **F: Kommer du att få åtkomst till instansen under uppgraderingsprocessen?**
 
@@ -87,4 +87,4 @@ S: Ja, de kommer att arbeta. Det går inte att skicka nya e-postmeddelanden unde
 
 S: När du loggar in på Campaign visas ett popup-fönster med ett meddelande om lansering med den senaste versionen.
 
-Kontakta [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin)om du har frågor.
+Kontakta [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)om du har frågor.
