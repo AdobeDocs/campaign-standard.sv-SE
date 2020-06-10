@@ -13,9 +13,9 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: fef25718906ba52158ebe4d53bbadc799cd5dd88
+source-git-commit: 343ea01229779a32919bd68fd15e0c7ff6863353
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1554'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ För att undvika sådana problem rekommenderar Adobe att du följer god praxis n
 * Det kan hända att du loggar in på SFTP för att direkt kontrollera vad som finns där.
 * Kom ihåg att SFTP-diskhantering i första hand är ditt ansvar.
 
-Observera också att de offentliga IP-adresserna som du försöker initiera SFTP-anslutningen från måste vitlistas i Campaign-instansen. Vitlistning av IP-adresser kan begäras via en [supportanmälan](https://support.neolane.net), tillsammans med den offentliga nyckeln som ska användas för autentisering.
+Observera också att de offentliga IP-adresserna som du försöker initiera SFTP-anslutningen från måste vitlistas i Campaign-instansen. Vitlistning av IP-adresser kan begäras via en [supportanmälan](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html), tillsammans med den offentliga nyckeln som ska användas för autentisering.
 
 SFTP-servrar kan hanteras från Kontrollpanelen. Mer information finns i dokumentationen för [Kontrollpanelen](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html).
 
