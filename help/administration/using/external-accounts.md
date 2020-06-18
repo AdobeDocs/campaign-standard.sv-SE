@@ -13,9 +13,9 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 343ea01229779a32919bd68fd15e0c7ff6863353
+source-git-commit: 017e1e80657a3145a97c6ab62a577a9a2164cc99
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1561'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 # Externa konton{#external-accounts}
 
-Ett externt konto är en konfiguration som gör att du kan konfigurera och testa åtkomsten till en server utanför Adobe Campaign.
+Ett externt konto är en konfiguration som gör att du kan konfigurera och testa åtkomsten till en server som ligger utanför Adobe Campaign.
 
 Dessa externa konton kan användas i Campaign-arbetsflöden för att få tillgång till och hantera data.
 
@@ -44,9 +44,9 @@ Externa konton kan konfigureras av administratörer på **[!UICONTROL Administra
 
 ## Skapa ett externt konto {#creating-an-external-account}
 
-Adobe Campaign innehåller en uppsättning fördefinierade externa konton. Om du vill skapa anslutningar till externa system, t.ex. FTP-servrar som används för filöverföringar, kan du skapa egna externa konton.
+Adobe Campaign har en uppsättning fördefinierade externa konton. Om du vill skapa anslutningar till externa system, t.ex. FTP-servrar som används för filöverföringar, kan du skapa egna externa konton.
 
-Externa konton används av tekniska processer som tekniska arbetsflöden eller kampanjarbetsflöden. När du konfigurerar en filöverföring i ett arbetsflöde eller ett datautbyte med något annat program (Adobe Target, Experience Manager osv.) måste du välja ett externt konto.
+Externa konton används av tekniska processer som tekniska arbetsflöden eller kampanjarbetsflöden. När du konfigurerar en filöverföring i ett arbetsflöde eller ett datautbyte med något annat program (Adobe Target, Experience Manager, osv.) måste du välja ett externt konto.
 
 1. Klicka på **[!UICONTROL Create]** knappen.
 1. Ange en etikett. Etiketten och ID:t används när du väljer externa konton i arbetsflöden.
@@ -86,7 +86,7 @@ För att undvika sådana problem rekommenderar Adobe att du följer god praxis n
 * Det kan hända att du loggar in på SFTP för att direkt kontrollera vad som finns där.
 * Kom ihåg att SFTP-diskhantering i första hand är ditt ansvar.
 
-Observera också att de offentliga IP-adresserna som du försöker initiera SFTP-anslutningen från måste vitlistas i Campaign-instansen. Vitlistning av IP-adresser kan begäras via en [supportanmälan](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html), tillsammans med den offentliga nyckeln som ska användas för autentisering.
+Observera också att de offentliga IP-adresser som du försöker initiera SFTP-anslutningen från måste läggas till i listan över tillåtna i Campaign-instansen. Du kan begära att få lägga till IP-adresser i listan över tillåtna användare via en [supportanmälan](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html), tillsammans med den offentliga nyckeln som ska användas för autentisering.
 
 SFTP-servrar kan hanteras från Kontrollpanelen. Mer information finns i dokumentationen för [Kontrollpanelen](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html).
 
@@ -123,16 +123,16 @@ Vi rekommenderar att du följer dessa rekommendationer för att hjälpa dig att 
 * När du skapar ett externt konto aktiverar du krypteringen för att lagra känsliga data i S3-bucket genom att markera **[!UICONTROL Keep files in S3 encrypted]** rutan.
 * Bevilja bucket-behörigheter för att ange vem som får åtkomst till objektet i en bucket. Mer information om bucket-behörighet finns i [Amazon S3-dokumentationen](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html).
 
-## Externt Adobe Experience Manager-konto {#adobe-experience-manager-external-account}
+## Adobe Experience Manager external account {#adobe-experience-manager-external-account}
 
-Externa konton för Adobe Experience Manager används när ni integrerar Campaign med Experience Manager.
+Adobe Experience Manager externa konton används när Campaign integreras med Experience Manager.
 
 Processer och krav som rör den här integreringen är tillgängliga i [det här dokumentet](../../integrating/using/get-started-campaign-integrations.md).
 
 När du konfigurerar det nya externa kontot måste du ange följande information:
 
 * Server: Ange webbadressen till Adobe Experience Manager-servern. Till exempel **http://aem.domain.com:4502**.
-* Autentiseringsuppgifter för AEM-konto: använd det konto som kommer att få åtkomst till Adobe Experience Manager-instansen. Det ska vara ett konto i kampanjfjärrgruppen i Experience Manager.
+* Autentiseringsuppgifter för AEM-konto: använd det konto som kommer att få åtkomst till instansen Adobe Experience Manager. Det ska vara ett konto i kampanjfjärrgruppen i Experience Manager.
 
 ## Externt Google reCAPTCHA-konto {#google-recaptcha-external-account}
 
@@ -161,7 +161,7 @@ Ange följande information för ett externt Google reCAPTCHA V3-konto:
 >
 >Information som behövs för att konfigurera ditt externa konto i Adobe Campaign Standard finns i Azure Portal genom att välja **[!UICONTROL Settings]** > **[!UICONTROL Access keys]**.
 
-Azure Blob Storage Connector kan användas för att importera eller exportera data till Adobe Campaign med hjälp av en **[!UICONTROL Transfer file]** arbetsflödesaktivitet. For more on this, refer to this [section](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
+Azure Blob-lagringskopplingen kan användas för att importera eller exportera data till Adobe Campaign med hjälp av en **[!UICONTROL Transfer file]** arbetsflödesaktivitet. For more on this, refer to this [section](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
 
 Ange följande information för ett externt Microsoft Azure Blob Storage-konto:
 
