@@ -1,6 +1,6 @@
 ---
 title: Övervaka leveransen i Adobe Campaign Standard
-description: Använd verktygen i Adobe Campaign Standard för att övervaka plattformens leveransbarhet.
+description: Använd de verktyg som Adobe Campaign Standarden erbjuder för att övervaka plattformens leveransbarhet.
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -13,21 +13,24 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1d5bb21ab16df87e268b9eabe92965be1b052556
+source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 0%
 
 ---
 
 
 # Övervaka leveransen{#monitor-deliverability}
 
-Nedan hittar du information om **[!UICONTROL Delivery throughput]** rapporten och de olika övervakningsverktygen i Adobe Campaign. Här följer ytterligare riktlinjer för leveransövervakning:
+Här nedan hittar du information om **[!UICONTROL Delivery throughput]** rapporten samt de olika övervakningsverktyg som Adobe Campaign erbjuder. Här följer ytterligare riktlinjer för leveransövervakning:
 * Kontrollera regelbundet leveransflödet för hela plattformen för att kontrollera om det stämmer överens med den ursprungliga konfigurationen.
 * Kontrollera att återförsök har konfigurerats korrekt (30 minuter för återförsöksperiod och mer än 20 återförsök) i leveransmallar.
 * Kontrollera regelbundet att studspostlådan är tillgänglig och att kontot inte håller på att förfalla.
 * Kontrollera varje leveransflöde för att säkerställa att det stämmer överens med leveransinnehållets giltighet (t.ex. &quot;flash sales&quot; ska levereras på några minuter, inte dagar).
 * När du använder vågor måste du kontrollera att varje våg har tillräckligt med tid för att slutföra innan nästa våg aktiveras.
 * Kontrollera att antalet fel och nya karantän stämmer överens med andra leveranser.
-* Titta noga i leveransloggarna för att kontrollera vilka typer av fel som är markerade (grå eller svartlistning, DNS-problem, antispam-regler osv.).
+* Kontrollera noga i leveransloggarna vilka fel som är markerade (blocklistor, DNS-problem, skräppostregler osv.).
 
 ## Leveransflöde {#delivery-throughput}
 
@@ -65,6 +68,6 @@ Signal Spam ger också direkta klagomål som slutanvändarna loggar via ett dedi
 
 ## 250ok {#solution-250ok}
 
-250ok är en övervakningslösning som ger indikatorer för IP, domänsvärta och anseende.
+250ok är en övervakningslösning som tillhandahåller IP- och domänblockslistor samt anseendeindikatorer.
 
 Den information som tillhandahålls är i realtid, vilket möjliggör en proaktiv hjälp. 250ok som komplement till Adobes interna verktyg för slutprodukt.
