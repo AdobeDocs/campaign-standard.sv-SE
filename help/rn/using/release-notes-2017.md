@@ -1,6 +1,6 @@
 ---
 title: Versionsinformation 2017
-description: Den här sidan innehåller alla 2017-utgåvor av Adobe Campaign Standard.
+description: På den här sidan visas alla versioner av Adobe Campaign Standard från 2017.
 page-status-flag: never-activated
 uuid: d73f8186-e309-441b-969d-71d0a1c33cf4
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: 50c3188e1bc0eb92fd52637988834ce8538335a3
 workflow-type: tm+mt
-source-wordcount: '4623'
+source-wordcount: '4631'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 # Versionsinformation 2017{#release-notes}
 
-Letar du efter en specifik version 2017 av Adobe Campaign Standard?
+Söker du en specifik version av Adobe Campaign Standarden för 2017?
 
 Varje release innehåller nya funktioner och patchar. Klicka på en release för att visa dess innehåll.
 
@@ -53,7 +53,7 @@ Se de senaste [dokumentationsuppdateringarna](../../rn/using/documentation-updat
 
 **Patchar**
 
-_Plattform_
+_Platform_
 
 * Ett problem som kunde förhindra att stora zippade filer packades upp korrekt har åtgärdats.
 * Säkerheten inom varumärkeshantering har förbättrats. Att ändra ett varumärkes namn och avsändaradress är nu reserverat för Adobes tekniska administratörer.
@@ -71,16 +71,16 @@ _E-post, SMS-meddelanden och direktreklam_
 _Push-meddelanden_
 
 * När du konfigurerar push-meddelandekanalen bör push-providerplattformen för iOS vara **apns** och Android **gcm**.
-* Ett fel som gjorde att iOS-mobilappen inte kunde läggas till i Adobe Campaign-gränssnittet har korrigerats.
+* Ett fel som gjorde att iOS-mobilappen inte kunde läggas till i Adobe Campaign-gränssnittet har åtgärdats.
 * Push-meddelanden stöds nu på både GCM- och FCM-aktiverade Android-mobilprogram.
 * Korrigerade ett fel som förhindrade att innehåll sparades när en mall för push-meddelanden skulle dupliceras.
 * Nu går det att skapa eller uppdatera en profil från Adobe Campaign-databasen genom att stämma av mobilprogramanvändarnas data.
-* Adobe Campaign prioriterar nu bearbetning av push-meddelanden för transaktioner jämfört med vanliga push-meddelanden.
+* Adobe Campaign prioriterar nu bearbetning av transaktionspush-meddelanden framför vanliga push-meddelanden.
 
 _Rapporter_
 
 * Korrigerade ett problem som gjorde att snabbklicksprocenten inte kunde visas i e-postinnehållet.
-* Korrigerade ett problem med svartlistningsmåttet som räknades som ett hårt studs i stället för ett studs.
+* Korrigerade ett problem med blockeringslistemätningen som räknades som ett hårt studsvärde i stället för ett studs.
 * Korrigerade ett problem som ledde till att negativa tal visades i sammanfattningsdata.
 * Ett problem som räknade profiler i fel ålderssegment har korrigerats.
 * Beräkningsformlerna för mjuka och hårda studs har ändrats.
@@ -129,16 +129,16 @@ _Anpassade resurser_
   </tr> 
   <tr> 
    <td> Massprenumeration med ursprung och datum<br /> </td> 
-   <td> Med den här förbättringen av Mass-prenumerationen kan du nu lagra prenumerationsinformation (ursprung och datum) direkt i Adobe Campaign Standard-databasen via prenumerationstjänstens aktivitet i ett arbetsflöde.<br /> Mer information finns i den <a href="../../automating/using/subscription-services.md">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Med den här massprenumerationsförbättringen kan du nu lagra prenumerationsinformation (ursprung och datum) direkt i Adobe Campaign Standardens databas via prenumerationstjänstens aktivitet i ett arbetsflöde.<br /> Mer information finns i den <a href="../../automating/using/subscription-services.md">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Patchar**
 
-_Plattform_
+_Platform_
 
-* Vissa kunder måste kunna utnyttja ett ID som kommer från Adobe Campaign Standard eftersom de inte hanterar en unik nyckel för att identifiera sina egna register. Detta ID (**ACS ID**) kan exporteras och användas som en avstämningsnyckel när data uppdateras. Mer information finns i den [detaljerade dokumentationen](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
+* Vissa kunder måste kunna utnyttja ett ID som kommer från Adobe Campaign Standarden eftersom de inte hanterar en unik nyckel för att identifiera sina egna poster. Detta ID (**ACS ID**) kan exporteras och användas som en avstämningsnyckel när data uppdateras. Mer information finns i den [detaljerade dokumentationen](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
 * FTP-protokollet har tagits bort. Du bör nu använda SFTP i stället. Befintliga FTP-konfigurationer fungerar fortfarande som tidigare för att inte blockera befintliga implementeringar, men alternativet visas inte för nya aktiviteter.
 
 _E-post, SMS-meddelanden och direktreklam_
@@ -171,12 +171,12 @@ _Arbetsflöden_
 
 _Integreringar_
 
-* eVars och events stöds nu för integreringen med Analytics &amp; Campaign.
+* eVars och events stöds nu för integrering med Analytics &amp; Campaign.
 * När du skickar ett e-postmeddelande med innehållet i den övergivna vagnen är nyttolastparametern för element som tagits bort från vagnen nu valfri.
 
 _Profiler och målgrupper_
 
-* Adobe Campaign innehåller nu en rapport som visar antalet aktiva profiler. Den här rapporten är bara informativ, den har ingen direkt inverkan på faktureringen. Mer information finns i den [detaljerade dokumentationen](../../audiences/using/active-profiles.md).
+* Adobe Campaign tillhandahåller nu en rapport som visar antalet aktiva profiler. Den här rapporten är bara informativ, den har ingen direkt inverkan på faktureringen. Mer information finns i den [detaljerade dokumentationen](../../audiences/using/active-profiles.md).
 * Korrigerade ett problem som förhindrade profiler från att prenumerera på en tjänst när API:t Profiler och tjänster användes.
 
 ## Version 17.7 - juli 2017 {#release-17-7---july-2017}
@@ -197,19 +197,19 @@ _Profiler och målgrupper_
   </tr> 
   <tr> 
    <td> Adobe Campaign-meddelanden<br /> </td> 
-   <td> Få meddelanden om viktiga systemaktiviteter direkt i Adobe Campaign Standard. Du kommer till exempel att meddelas om förloppet för pågående leveranser eller när ett arbetsflöde är fel.<br /> Realtidsmeddelanden håller berörda intressenter informerade och ger användarna möjlighet att direkt agera på aktivitetsmeddelanden inifrån programmet. Resultatet för teamen är avancerad flexibilitet, effektivitet och smidigare genomförande av kampanjer. Mer information finns i den <a href="../../administration/using/sending-internal-notifications.md">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Få meddelanden om viktiga systemaktiviteter direkt i Adobe Campaign Standarden. Du kommer till exempel att meddelas om förloppet för pågående leveranser eller när ett arbetsflöde är fel.<br /> Realtidsmeddelanden håller berörda intressenter informerade och ger användarna möjlighet att direkt agera på aktivitetsmeddelanden inifrån programmet. Resultatet för teamen är avancerad flexibilitet, effektivitet och smidigare genomförande av kampanjer. Mer information finns i den <a href="../../administration/using/sending-internal-notifications.md">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Leveransvarning<br /> </td> 
-   <td> Förutom att visa meddelanden direkt i Adobe Campaign Standard har Adobe Campaign nu även ett e-postvarningssystem som utlöser e-postvarningar till användare eller externa intressenter för viktiga systemaktiviteter. Skapa, hantera och ta emot anpassningsbara aviseringar och kontrollpaneler för att hålla reda på leveransframgångar eller misslyckanden.<br /> Adobe Campaign Delivery Alerting ökar effektiviteten genom att alla inblandade Adobe Campaign-användare i ett företag automatiskt informeras om leveransstatus via e-post och kontrollpanel. Mer information finns i den <a href="../../sending/using/receiving-alerts-when-failures-happen.md">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Förutom att visa meddelanden direkt i Adobe Campaign Standarden har Adobe Campaign nu även ett e-postvarningssystem som utlöser e-postvarningar till användare eller externa intressenter för viktiga systemaktiviteter. Skapa, hantera och ta emot anpassningsbara aviseringar och kontrollpaneler för att hålla reda på leveransframgångar eller misslyckanden.<br /> Adobe Campaign Delivery Alerting ökar effektiviteten genom att alla inblandade Adobe Campaign-användare i ett företag automatiskt informeras om leveransstatus via e-post och kontrollpanel. Mer information finns i den <a href="../../sending/using/receiving-alerts-when-failures-happen.md">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Krypterat deklarerat ID i datakällor<br /> </td> 
-   <td> Skicka utlösare för e-post och SMS utan att behöva använda en befintlig profil i Campaign genom att använda krypterad kontaktinformation (e-postadress eller telefonnummer) som deklarerat ID. Eftersom krypterade deklarerade ID:n kan avkodas med Adobe Campaign Standard kan Campaign nu skapa nya marknadsföringsbara profiler när målgrupper tas emot från andra Experience Cloud-lösningar som innehåller tidigare okända kontakter.<br /> Rikta kunderna och okända presumtiva kunder i realtid via både e-post och SMS för att förbättra lojaliteten i er befintliga kundbas och skaffa nya kunder. Få ut mesta möjliga av era egna cookie-data (från Adobe Audience Manager*) när presumtiva kunder autentiserar sig och utnyttjar dessa insikter i Adobe Campaign. <br /> *Adobe Audience Manager krävs. Mer information finns i den <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Skicka utlösare för e-post och SMS utan att behöva använda en befintlig profil i Campaign genom att använda krypterad kontaktinformation (e-postadress eller telefonnummer) som deklarerat ID. Eftersom krypterade deklarerade ID:n kan avkodas som Adobe Campaign Standard, kan Campaign nu skapa nya marknadsföringsbara profiler när målgrupper tas emot från andra Experience Cloud-lösningar som innehåller tidigare okända kontakter.<br /> Target-kunder och okända presumtiva kunder i realtid via både e-post och SMS för att förbättra lojaliteten i er befintliga kundbas och skaffa nya kunder. Få ut mesta möjliga av era egna cookie-data (från Adobe Audience Manager*) när presumtiva kunder autentiserar sig och utnyttjar dessa insikter i Adobe Campaign. <br /> *Adobe Audience Manager krävs. Mer information finns i den <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> KPI-delning från Campaign till Analytics<br /> </td> 
-   <td> Dela kampanjdata med Adobe Analytics för att mäta e-postmarknadsföringsstatistik från Campaign tillsammans med andra marknadsförings- och annonsinsatser genom konvertering, vilket ger ett enhetligt beteende före och efter klickning.<br /> Spåra övergripande resultat direkt och identifiera synergier med externa program i Analytics. Använd inlärningen från den här samlade vyn i era kampanjer; i slutänden förbättra öppnings-, klicknings- och konverteringsgraden, vilket ökar intäkterna och kampanjresultatet. <br /> Adobe Analytics krävs. Mer information finns i den <a href="../../integrating/using/about-campaign-analytics-integration.md">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Dela kampanjdata med Adobe Analytics för att mäta marknadsföringsstatistik för e-post från Campaign tillsammans med andra marknadsförings- och annonsinsatser genom konvertering, vilket ger ett enhetligt beteende för- och efterklick.<br /> Spåra övergripande resultat direkt och identifiera synergier med externa program i Analytics. Använd inlärningen från den här samlade vyn i era kampanjer; i slutänden förbättra öppnings-, klicknings- och konverteringsgraden, vilket ökar intäkterna och kampanjresultatet. <br /> Adobe Analytics krävs. Mer information finns i den <a href="../../integrating/using/about-campaign-analytics-integration.md">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Direkt e-postkanal - återgå till avsändare<br /> </td> 
@@ -269,11 +269,11 @@ _Arbetsflöden_
  <tbody> 
   <tr> 
    <td> Direktreklam<br /> </td> 
-   <td> Ta dig igenom den digitala barriären och koppla upp dig mot den fysiska världen med Adobe Campaign Standard:s första offlinekanal, Direct Mail. Med den här funktionen kan ni personalisera och generera den fil som direktreklamleverantörer behöver som en del av era flerkanalskampanjer. Använd Direct Mail för att återengagera kunder eller förbättra kundupplevelsen med en övertygande kontaktyta som lockar kunderna till er app, webbplats eller butik.<br /> Mer information finns i den <a href="../../channels/using/about-direct-mail.md">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Ta dig igenom den digitala barriären och koppla upp dig mot den fysiska världen med Adobe Campaign Standardens första offlinekanal, Direct Mail. Med den här funktionen kan ni personalisera och generera den fil som direktreklamleverantörer behöver som en del av era flerkanalskampanjer. Använd Direct Mail för att återengagera kunder eller förbättra kundupplevelsen med en övertygande kontaktyta som lockar kunderna till er app, webbplats eller butik.<br /> Mer information finns i den <a href="../../channels/using/about-direct-mail.md">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> BCC för e-post<br /> </td> 
-   <td> Tack vare BCC för e-post kan unika e-postmeddelanden som skickas till enskilda mottagare sparas, vilket gör att varumärket kan arkivera dessa meddelanden. Genom att lägga till en e-postadress för hemlig kopia till alla e-postmeddelanden kan Adobe Campaign Standard-kunder behålla en exakt kopia av varje e-postmeddelande med den här funktionen. Detta är ett vanligt juridiskt krav för finanssektorn och är till hjälp för kundtjänstcenter att lösa konflikter i realtid.<br /> Mer information finns i den <a href="../../sending/using/archiving.md">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Tack vare BCC för e-post kan unika e-postmeddelanden som skickas till enskilda mottagare sparas, vilket gör att varumärket kan arkivera dessa meddelanden. Genom att lägga till en e-postadress för hemlig kopia till alla e-postmeddelanden kan Adobe Campaign Standarderna behålla en exakt kopia av varje e-postmeddelande med den här funktionen. Detta är ett vanligt juridiskt krav för finanssektorn och är till hjälp för kundtjänstcenter att lösa konflikter i realtid.<br /> Mer information finns i den <a href="../../sending/using/archiving.md">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -320,7 +320,7 @@ _Push-meddelanden_
   </tr> 
   <tr> 
    <td> Transaktionspush-meddelanden<br /> </td> 
-   <td> Mobilappskanalen har lagts till i Adobe Campaigns transaktionsmeddelandefunktioner. Tre kanaler stöds nu för transaktionsmeddelanden: e-post, SMS och push-meddelanden.<br /> Mer information finns i den <a href="../../channels/using/transactional-push-notifications.md">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Programkanalen för mobilen har lagts till i Adobe Campaign transaktionsfunktioner. Tre kanaler stöds nu för transaktionsmeddelanden: e-post, SMS och push-meddelanden.<br /> Mer information finns i den <a href="../../channels/using/transactional-push-notifications.md">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Återkommande push-meddelanden<br /> </td> 
@@ -328,18 +328,18 @@ _Push-meddelanden_
   </tr> 
   <tr> 
    <td> Amazon Simple Storage Service (S3)-anslutning<br /> </td> 
-   <td> Kopplingen till Amazon Simple Storage Service (S3) kan nu användas för att importera eller exportera data till Adobe Campaign. Den kan konfigureras i en arbetsflödesaktivitet. Konfigurationen görs i ett externt konto.<br /> Mer information finns i den <a href="../../administration/using/external-accounts.md">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Konnektorn för Amazon Simple Storage Service (S3) kan nu användas för att importera eller exportera data till Adobe Campaign. Den kan konfigureras i en arbetsflödesaktivitet. Konfigurationen görs i ett externt konto.<br /> Mer information finns i den <a href="../../administration/using/external-accounts.md">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Dreamweaver-integration live<br /> </td> 
-   <td> Integrationen mellan Adobe Campaign och Dreamweaver är nu klar. Det fungerar nu med den senaste officiella versionen av Dreamweaver (17.0.2).<br /> Detta kräver installation av Adobe Campaign Integration-tillägget härifrån: <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_addon</a><br /> Mer information finns i den här <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">videon</a>.<br /> </td> 
+   <td> Integrationen mellan Adobe Campaign och Dreamweaver är nu klar. Det fungerar nu med den senaste officiella versionen av Dreamweaver (17.0.2).<br /> Detta kräver installation av tillägget Adobe Campaign Integration härifrån: <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_addon</a><br /> Mer information finns i den här <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">videon</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Patchar**
 
-_Plattform_
+_Platform_
 
 * Korrigerade ett minnesförbrukningsproblem.
 
@@ -405,7 +405,7 @@ _Push-meddelanden_
   </tr> 
   <tr> 
    <td> Dreamweaver-integrering (Labs)<br /> </td> 
-   <td> Tack vare integreringen mellan Adobe Campaign och Dreamweaver har ni nu en integrerad process för att skapa e-postkampanjer med Adobes lösningar.<br /> Du kan redigera Adobe Campaign-e-postmeddelanden i Dreamweaver och synkronisera innehållet sömlöst mellan båda lösningarna.<br /> För den första versionen är integreringen tillgänglig som en"Labs"-funktion och fungerar endast med betaversionen av Dreamweaver Pre Release. Om du vill aktivera den kan du kontakta AC-DW-integration@adobe.com.<br /> Mer information finns i den här <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">videon</a>.<br /> </td> 
+   <td> Tack vare integreringen mellan Adobe Campaign och Dreamweaver har ni nu en integrerad process för att skapa e-postkampanjer med Adobes lösningar.<br /> Du kan redigera Adobe Campaign-e-post i Dreamweaver och synkronisera innehållet sömlöst mellan båda lösningarna.<br /> För den första versionen är integreringen tillgänglig som en"Labs"-funktion och fungerar endast med betaversionen av Dreamweaver Pre Release. Om du vill aktivera den kan du kontakta AC-DW-integration@adobe.com.<br /> Mer information finns i den här <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">videon</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Manuell optimering av sändningstid<br /> </td> 
@@ -440,7 +440,7 @@ _Push-meddelanden_
   </tr> 
   <tr> 
    <td> Intressepunktsdata<br /> </td> 
-   <td> Intressepunktsdata integrerar Adobe Campaign med Adobe Analytics för mobiler. Ett varumärke kan samla in data från användarnas mobila platser - så kallade <strong>intressepunkter</strong> - när användarna öppnar varumärkesappen. På så sätt kan varumärket utnyttja arbetsflödena i Adobe Campaign för att skicka personaliserade meddelanden baserat på användarnas platser. Den här kanalen utnyttjar SDK:n för Mobile Core-tjänsten.<br /> Observera att den här funktionen kräver Analytics for Mobile, som är en betald lösning.<br /> Mer information finns i den <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Intressepunktsdata integreras Adobe Campaign med Adobe Analytics för mobiler. Ett varumärke kan samla in data från användarnas mobila platser - så kallade <strong>intressepunkter</strong> - när användarna öppnar varumärkesappen. På så sätt kan varumärket utnyttja arbetsflödena i Adobe Campaign för att skicka personaliserade meddelanden baserat på användarnas platser. Den här kanalen utnyttjar SDK:n för Mobile Core-tjänsten.<br /> Observera att Analytics för mobilen, som är en betald lösning, krävs för att använda den här funktionen.<br /> Mer information finns i den <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> REST API:er<br /> </td> 
@@ -494,7 +494,7 @@ _Arbetsflöden_
    <td> Marknadsföringsfunktioner för transaktionsmeddelanden<br /> </td> 
    <td> Marknadsförarna kan nu skicka transaktionsmeddelanden baserat på kundens marknadsföringsprofiler. Detta gör att de kan:<br /> 
     <ul> 
-     <li> Använd typologiregler för marknadsföring, till exempel <span class="uicontrol">svartlistad adress</span> . </li> 
+     <li> Använd typologiregler för marknadsföring, till exempel <span class="uicontrol">adress i blocklista</span> . </li> 
      <li> Inkludera länken för avprenumeration i meddelandena. </li> 
      <li> Lägg till transaktionsmeddelandena i den globala leveransrapporten. </li> 
      <li> Utnyttja transaktionsbudskapen i kundresan. </li> 
@@ -505,7 +505,7 @@ _Arbetsflöden_
    <td> API:t för transaktionsmeddelanden är nu tillgängligt via <a href="https://docs.campaign.adobe.com/doc/standard/en/adobeio.html">adobe.io</a>, vilket gör det enklare att använda och övervaka:<br /> 
     <ul> 
      <li> Du kan dra nytta av funktionerna för rapportering och övervakning i adobe.io-plattformen. </li> 
-     <li> Autentisering utförs nu med tokenbaserad autentisering i adobe.io i stället för vitlistning av IP, vilket förenklar säkerhetsprocessen. </li> 
+     <li> Autentisering utförs nu med tokenbaserad autentisering i adobe.io i stället för IP-listan över tillåtna, vilket förenklar säkerhetsprocessen. </li> 
      <li> Alla API:er är nu integrerade på en enda plattform, vilket gör det enklare än någonsin att lägga till funktioner för transaktionsmeddelanden i integreringen om du redan har stöd för profil- och Services-API:t. </li> 
     </ul> </td> 
   </tr> 
@@ -527,10 +527,10 @@ _E-postmeddelanden och SMS-meddelanden_
 
 _Push-meddelanden_
 
-* Korrigerade ett problem som kan ha förhindrat återanslående från ett program till Adobe Campaign-servern.
+* Korrigerade ett fel som kan ha förhindrat återanslående från ett program till Adobe Campaign-servern.
 * Korrigerade ett fel som kan ha förhindrats **[!UICONTROL Play a sound]** och **[!UICONTROL Custom fields]** ska beaktas för Android.
 * Korrigerade ett fel som kan ha orsakat att ett extra escape-tecken lades till i Unicode-tecken som används för Emojis.
-* När en prenumerations registreringstoken blir svartlistad uppdateras nu motsvarande status omedelbart i programmets lista över prenumeranter i Adobe Campaign.
+* När en prenumerants registreringstoken läggs till i blocklistan uppdateras nu motsvarande status omedelbart i programmets lista över prenumeranter i Adobe Campaign.
 
 _Arbetsflöden_
 
@@ -543,6 +543,6 @@ _Arbetsflöden_
 _Integreringar_
 
 * Korrigerade ett problem som kan ha orsakat ett fel när en händelseutlösare distribuerades i Adobe Campaign. Detta fel uppstod när metadata för Sannolikhet att returneras om 30 dagar hade lagts till i utlösaren för övergivande i Adobe Marketing Cloud.
-* Ett problem som kan ha gjort att det tekniska arbetsflödet rensade fältet Måldimension när målgrupper importerades från huvudtjänsten Personer har åtgärdats. Efterföljande frågor kunde inte hämta de importerade målgrupperna.
+* Ett problem som kan ha gjort att det tekniska arbetsflödet rensade fältet Target Dimension när målgrupper importerades från huvudtjänsten People har åtgärdats. Efterföljande frågor kunde inte hämta de importerade målgrupperna.
 * Korrigerade ett problem som kan ha gjort att en arbetsflödesaktivitet **[!UICONTROL Save audience]** misslyckades när alternativet **[!UICONTROL Share in Adobe Marketing Cloud]** markerades.
 
