@@ -13,14 +13,17 @@ context-tags: deliveryDomainBreakdownReport,main;campaignDomainBreakdownReport,m
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 0%
 
 ---
 
 
 # Uppdelning efter domäner{#breakdown-by-domains}
 
-Den här rapporten innehåller prestandadata för varje domän som representeras i målgruppen för en e-postleverans. Om det är en kampanj- eller programrapport är resultatdata tillgängliga för flera målgrupper. Med dessa data kan du analysera beteendet för varje domän som reaktion på specifika händelser. Exempel: länkvisning, URL-svartlista osv.
+Den här rapporten innehåller prestandadata för varje domän som representeras i målgruppen för en e-postleverans. Om det är en kampanj- eller programrapport är resultatdata tillgängliga för flera målgrupper. Med dessa data kan du analysera beteendet för varje domän som reaktion på specifika händelser. Till exempel länkvisning, URL i blocklista, osv.
 
 ![](assets/delivery_reports_6.png)
 
@@ -39,5 +42,5 @@ Den andra tabellen, **Spårningsstatistik**, innehåller tillgängliga data för
 * **Klicka**: Antalet gånger som innehållet klickades på i en leverans.
 * **Avbeställ**: Antal klick på prenumerationslänken.
 * **Spegelsida**: Antalet klick på länken för spegelsidan.
-* **Svartlistad**: Antalet mottagare som har deklarerat ett e-postmeddelande som skräppost (se [Hantera svartlistning i Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+* **Blockerad**: Antalet mottagare som har deklarerat ett e-postmeddelande som skräppost eller skräppost (se Hantera [blockeringslistor i Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
 
