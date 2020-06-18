@@ -12,7 +12,10 @@ discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
+source-git-commit: 7f5bc442b1dae467a6b6de3e048531940f75031f
+workflow-type: tm+mt
+source-wordcount: '656'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +31,7 @@ Tabellen nedan innehåller information om de färdiga filtreringsreglerna och de
 | Etikett | Kanal | Beskrivning |
 ---------|----------|---------
 | **[!UICONTROL Address not specified]** | Alla | Utesluter målpopulationen utan angiven adress (e-postadress, postadress osv.) enligt den valda kanalen). |
-| **[!UICONTROL Blacklisted address]** | Alla | Exkluderar svartlistade adresser. |
+| **[!UICONTROL Blocklisted address]** | Alla | Exkluderar adresser som finns i blockeringslistan. |
 | **[!UICONTROL Duplicate]** | Alla | Exkluderar dubbletter som baseras på **[!UICONTROL Address]** målpopulationsfältet. |
 | **[!UICONTROL Exclude mobile applications]** | Mobilapplikation | Utesluter appprenumerationer som inte matchar mobilappen som definieras i meddelandet. |
 | **[!UICONTROL Exclude mobile applications for In-App]** | I appen | Utesluter appprenumerationer som inte matchar det mobilprogram som definieras i meddelandet (mall i appen). |
@@ -44,7 +47,7 @@ Utöver dessa standardfiltreringsregler finns två undantagsregler:
 
 Under e-postanalysen jämför dessa regler mottagarnas e-postadresser med de förbjudna adresserna eller domännamnen i en krypterad global undertryckningslista som hanteras i leveransinstansen. Om det finns en matchning skickas inte meddelandet till den mottagaren.
 
-Detta för att undvika att bli svartlistad på grund av skadlig aktivitet, särskilt användning av en svampfälla. Om en svällning till exempel används för att prenumerera via ett av dina webbformulär, skickas ett bekräftelsemeddelande via e-post till den svällningen, vilket gör att din adress automatiskt blir svartlistad.
+Detta för att undvika att läggas till i blockeringslistan på grund av skadlig aktivitet, särskilt användning av en svällning. Om en svällning till exempel används för att prenumerera via ett av dina webbformulär, skickas ett bekräftelsemeddelande via e-post till den svällningen, vilket gör att din adress automatiskt läggs till i blocklistan.
 
 >[!NOTE]
 >
@@ -84,7 +87,7 @@ När den här regeln används i ett meddelande, kommer de abonnenter som betrakt
 
 ## Konfigurera filterregelns målkontext {#configuring-filtering-rules-targeting-context}
 
-Med Campaign Standard kan ni konfigurera dimensionerna **Målinriktning** och **Filtrering** så att de används beroende på vilka data ni vill ha som mål.
+Med Campaign Standard kan du konfigurera **Målinriktning** och **filtrering** som ska användas beroende på vilka data du vill ha som mål.
 
 Det gör du genom att öppna typologiregelns egenskaper och sedan gå till **[!UICONTROL Advanced information]** avsnittet.
 
