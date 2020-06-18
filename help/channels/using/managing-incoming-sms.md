@@ -13,7 +13,10 @@ delivercontext-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '599'
+ht-degree: 0%
 
 ---
 
@@ -54,7 +57,7 @@ Så här gör du:
    * Åtgärden sätter automatiskt i karantän för profilens telefonnummer. **[!UICONTROL Send to quarantine]**
    * Åtgärden **[!UICONTROL Remove from quarantine]** tar bort profilens telefonnummer från karantänen.
    * Med **[!UICONTROL None]** åtgärden kan du bara skicka meddelandet till mottagarna utan att utföra någon åtgärd.
-   Om mottagarna i konfigurationen nedan skickar nyckelordet &quot;STOP&quot; får de automatiskt en bekräftelse om att prenumerationen har avbrutits och deras telefonnummer skickas till karantän med **[!UICONTROL Blacklisted]** statusen. Den här statusen avser endast telefonnumret, profilen är inte svartlistad så att användaren fortsätter att ta emot e-postmeddelanden.
+   Om mottagarna i konfigurationen nedan skickar nyckelordet &quot;STOP&quot; får de automatiskt en bekräftelse om att prenumerationen har avbrutits och deras telefonnummer skickas till karantän med **[!UICONTROL On block list]** statusen. Den här statusen avser endast telefonnumret. Profilen läggs inte till i blockeringslistan så att användaren fortsätter att ta emot e-postmeddelanden.
 
    ![](assets/sms_mo.png)
 
