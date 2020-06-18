@@ -12,9 +12,9 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d05d2692607117e056c360e81d85b7d64c4077a3
+source-git-commit: ecb57ccc4cafa609f7ddccb5f934aa3ab2368dde
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1289'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ## Om leveransfel {#about-delivery-failures}
 
-När en leverans inte kan skickas till en profil skickar fjärrservern automatiskt ett felmeddelande som hämtas av Adobe Campaign-plattformen och kvalificeras för att avgöra om e-postadressen eller telefonnumret ska placeras i karantän eller inte. Se [Studsa e-postkvalifikationer](#bounce-mail-qualification).
+När en leverans inte kan skickas till en profil skickar fjärrservern automatiskt ett felmeddelande som hämtas av Adobe Campaign-plattformen och kvalificeras för att avgöra om e-postadressen eller telefonnumret ska sättas i karantän eller inte. Se [Studsa e-postkvalifikationer](#bounce-mail-qualification).
 
 >[!NOTE]
 >
@@ -32,14 +32,14 @@ När en leverans inte kan skickas till en profil skickar fjärrservern automatis
 >
 >**SMS** -felmeddelanden (eller SR för Statusrapport) kvalificeras av MTA-processen.
 
-Meddelanden kan också uteslutas under färdigställandet av leveransen om en adress sätts i karantän eller om en profil är svartlistad. Exkluderade meddelanden visas på fliken **[!UICONTROL Exclusion logs]** i kontrollpanelen för leveranser (se [det här avsnittet](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
+Meddelanden kan också uteslutas under färdigställandet av leveransen om en adress sätts i karantän eller om en profil finns i blocklistan. Exkluderade meddelanden visas på fliken **[!UICONTROL Exclusion logs]** i kontrollpanelen för leveranser (se [det här avsnittet](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
 
 ![](assets/exclusion_logs.png)
 
 **Relaterade ämnen:**
 
 * [Om karantänhantering](../../sending/using/understanding-quarantine-management.md)
-* [Hantera svartlistning i Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [Om anmälan och avanmälan i Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 ## Identifiera leveransfel för ett meddelande {#identifying-delivery-failures-for-a-message}
 
@@ -69,8 +69,8 @@ Möjliga orsaker till leveransfel är:
 | **[!UICONTROL Refused]** | Mjuk/Hård | Adressen har placerats i karantän på grund av säkerhetsfeedback som en skräppostrapport. Enligt det fel som returnerats av leverantören skickas adressen direkt till karantänen eller så provas leveransen igen tills Campaign får ett fel som motiverar karantänstatusen eller tills antalet fel når 5. |
 | **[!UICONTROL Duplicate]** | Ignorerad | Adressen har redan identifierats i segmenteringen. |
 | **[!UICONTROL Not defined]** | Mjuk | adressen är i kvalificeringsläge eftersom fel ännu inte har ökats. Den här typen av fel inträffar när ett nytt felmeddelande skickas av servern: det kan vara ett isolerat fel, men om det inträffar igen ökar felräknaren, som varnar de tekniska teamen. |
-| **[!UICONTROL Error ignored]** | Ignorerad | Adressen finns i vitlistan och ett e-postmeddelande kommer att skickas till den i vilket fall som helst. |
-| **[!UICONTROL Blacklisted address]** | Hård | adressen var svartlistad när den skickades. |
+| **[!UICONTROL Error ignored]** | Ignorerad | Adressen finns i listan över tillåtna och ett e-postmeddelande skickas i alla fall till den. |
+| **[!UICONTROL Address on block list]** | Hård | Adressen lades till i blockeringslistan när den skickades. |
 | **[!UICONTROL Account disabled]** | Mjuk/Hård | När IAP (Internet Access Provider) upptäcker en lång inaktivitetsperiod kan den stänga användarens konto: det blir då omöjligt att leverera till användarens adress. Mjuk eller Hård typ beror på vilken typ av fel som tas emot: Om kontot tillfälligt inaktiveras på grund av sex månaders inaktivitet och fortfarande kan aktiveras, **[!UICONTROL Erroneous]** tilldelas statusen och leveransen provas igen. Om felet får signaler om att kontot är permanent inaktiverat skickas det direkt till karantän. |
 | **[!UICONTROL Not connected]** | Ignorerad | Profilens mobiltelefon är avstängd eller inte ansluten till nätverket när meddelandet skickas. |
 | **[!UICONTROL Invalid domain]** | Mjuk | Domänen för e-postadressen är felaktig eller finns inte längre. Den här profilen används igen tills felantalet är 5. Därefter anges posten till Karantänstatus och inga nya försök följer. |
@@ -81,13 +81,13 @@ Möjliga orsaker till leveransfel är:
 
 Om ett meddelande misslyckas på grund av ett tillfälligt fel av typen **Ignorerad** , kommer nya försök att utföras under leveransens varaktighet. Mer information om olika typer av fel finns i [Leveransfeltyper och orsaker](#delivery-failure-types-and-reasons).
 
-Antalet återförsök (hur många återförsök som ska utföras dagen efter att sändningen har startats) och den minsta fördröjningen mellan återförsök hanteras nu av Adobe Campaign Enhanced MTA, baserat på hur bra ett IP-värde fungerar både historiskt och för närvarande på en viss domän. Inställningarna för **återförsök** i Campaign ignoreras.
+Antalet återförsök (hur många återförsök som ska utföras dagen efter att sändningen har startats) och den minsta fördröjningen mellan återförsök hanteras nu av den förbättrade MTA-metoden för Adobe Campaign, baserat på hur bra en IP-adress fungerar både historiskt och för närvarande på en viss domän. Inställningarna för **återförsök** i Campaign ignoreras.
 
 Om du vill ändra varaktigheten för en leverans går du till de avancerade parametrarna för leverans- eller leveransmallen och redigerar fältet **[!UICONTROL Delivery duration]** i avsnittet [Giltighetsperiod](../../administration/using/configuring-email-channel.md#validity-period-parameters) .
 
 >[!IMPORTANT]
 >
->**Parametern **[!UICONTROL Delivery duration]**i era Campaign-leveranser används nu bara om den är inställd på 3,5 dagar eller mindre.** Om du definierar ett värde som är högre än 3,5 dagar beaktas det inte eftersom det nu hanteras av Adobe Campaign Enhanced MTA.
+>**Parametern **[!UICONTROL Delivery duration]**i era Campaign-leveranser används nu bara om den är inställd på 3,5 dagar eller mindre.** Om du definierar ett värde som är högre än 3,5 dagar kommer det inte att beaktas eftersom det nu hanteras av den förbättrade MTA-metoden för Adobe Campaign.
 
 Om du till exempel vill att återförsök för en leverans ska stoppas efter en dag kan du ange leveranstiden till **1d**, och den förbättrade MTA-inställningen kommer att efterleva den inställningen genom att meddelanden i återförsökskön tas bort efter en dag.
 
@@ -112,7 +112,7 @@ Asynkrona studsar är fortfarande kvalificerade av inMail-processen via **[!UICO
 
 >[!NOTE]
 >
->Studentgodkännande av e-post hanteras nu av Adobe Campaign Enhanced MTA. Studskompetensen i Campaign- **[!UICONTROL Message qualification]** tabellen används inte längre.
+>Studentgodkännande av e-post hanteras nu av Adobe Campaign Förbättrat MTA. Studskompetensen i Campaign- **[!UICONTROL Message qualification]** tabellen används inte längre.
 
 <!--Bounces can have the following qualification statuses:
 
