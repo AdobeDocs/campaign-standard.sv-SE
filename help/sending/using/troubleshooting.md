@@ -1,5 +1,5 @@
 ---
-title: Felsöka leveransproblem i Adobe Campaign Standard
+title: Felsökning av leveransproblem i Adobe Campaign Standard
 description: Lär dig vad du ska göra när du får leveransproblem med Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
@@ -13,7 +13,10 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 87168dca3604073d8a540c579448ab65f07cd976
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '473'
+ht-degree: 0%
 
 ---
 
@@ -31,42 +34,41 @@ Om du alltid får samma felmeddelande för en Internet-leverantör, kan din e-po
 * Uppdatera dina prenumerationsformulär för att upptäcka eventuella fel i de angivna domännamnen (till exempel: gmaul.com eller yaho.com).
 * Om du märker fel som anger att dina meddelanden har deklarerats som skräppost, eller att dina meddelanden alltid är blockerade, kan du försöka utesluta mottagare som inte har öppnat eller klickat i något av dina meddelanden de senaste 12 månaderna från målet.
 
-Om problemet kvarstår kontaktar du de kommersiella tjänsterna, leveranstjänsterna eller Adobe Campaign-supporten.
+Om problemet kvarstår kontaktar du den kommersiella tjänsten, leveransservice eller Adobe Campaign support.
 
-## Svartlistning kontra karantän {#blacklisting-versus-quarantine}
+## Blocklista kontra karantän {#block-list-versus-quarantine}
 
-* **Vad är skillnaden mellan en svartlistad e-postadress och en e-postadress i karantän?**
+* **Vad är skillnaden mellan en e-postadress i en blocklista och en e-postadress i karantän?**
 
-   * Statusen **[!UICONTROL Blacklisted]** är ett resultat av en feedbackslinga (när en person rapporterar ett meddelande som skräppost).
+   * Statusen **[!UICONTROL On block list]** är ett resultat av en feedbackslinga (när en person rapporterar ett meddelande som skräppost).
 
    * Statusen **[!UICONTROL Quarantined]** är ett resultat av en mjuk eller hård studsa.
-   Mer information finns i det här [avsnittet](../../sending/using/understanding-quarantine-management.md#quarantine-vs-blacklisting).
+   Mer information finns i det här [avsnittet](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list).
 
 * **Vad betyder de olika anledningarna till karantänfel?**
 
-   Här följer tio möjliga orsaker: inte definierad, okänd användare, ogiltig domän, svartlistad adress, nekad, fel ignorerad, ej tillgänglig, konto inaktiverat, postlåda full, inte ansluten.
+   Här följer tio möjliga orsaker: inte definierad, okänd användare, ogiltig domän, adress i blocklista, nekad, fel ignorerad, ej tillgänglig, konto inaktiverat, postlåda full, inte ansluten.
 
    Mer information finns i [Om karantänhantering](../../sending/using/understanding-quarantine-management.md).
 
-## Osvartlistning {#unblacklisting}
+## Tar bort från blockeringslistan {#removing-from-block-list}
 
-* **En av mina mottagare blev svartlistad av misstag. Hur avlistar jag dem så att jag kan börja skicka dem igen?**
+* **En av mina mottagare lades till i blockeringslistan av misstag. Hur tar jag bort dem från blockeringslistan så att jag kan börja skicka dem igen?**
 
    * Gå till **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
    * I informationen för motsvarande post anger du värdet för **[!UICONTROL Status]** fältet till **[!UICONTROL Valid]**.
    * Spara posten.
 
-* **Hur kan jag ta reda på om en av mina IP-adresser är svartlistad? Hur avsvartlistar jag mina IP-adresser?**
+* **Hur kan jag ta reda på om en av mina IP-adresser finns med i en blockeringslista? Hur tar jag bort mina IP-adresser från en blockeringslista?**
 
-   Om du vill kontrollera om din IP-adress är svartlistad kan du använda olika webbplatser för att verifiera den:
-   * https://mxtoolbox.com/
-   * https://whatismyipaddress.com/blacklist-check
-   * https://www.blacklistalert.org/
-   I allmänhet returnerar resultatet av IP-adresskontrollen en lista som innehåller information om svartlistan och även namnet på den webbplats som svartlistade IP-adressen.
+   Om du vill kontrollera om din IP-adress finns i en blockeringslista kan du använda olika webbplatser för att verifiera den, till exempel:
+   * [MX Toolbox](https://mxtoolbox.com/)
+   * [Vad är min IP-adress?](https://whatismyipaddress.com)
+   I allmänhet returnerar resultatet av IP-adresskontrollen en lista som innehåller information om blockeringslistan och även namnet på den webbplats som blockerade IP-adressen.
 
    Genom att klicka på motsvarande länk kan du komma åt webbplatsinformationen.
 
-   Sedan kan du begära att din webbplats avlistas från den webbplats som svartlistade IP-adressen.
+   Sedan kan du begära att din webbplats tas bort från den webbplats som lade till IP-adressen i sin blockeringslista.
 
    >[!NOTE]
    >
