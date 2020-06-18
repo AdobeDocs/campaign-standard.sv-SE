@@ -12,7 +12,10 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '386'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
 Ni kan skicka transaktionsmeddelanden baserat på kundmarknadsföringsprofiler, som gör att ni kan:
 
-* Använd typologiregler för marknadsföring som **[!UICONTROL Blacklisted address]** eller [trötthetsregler](../../sending/using/fatigue-rules.md).
+* Använd typologiregler för marknadsföring som **[!UICONTROL Address on block list]** eller [trötthetsregler](../../sending/using/fatigue-rules.md).
 * Inkludera länken för avprenumeration i meddelandena.
 * Lägg till transaktionsmeddelandena i den globala leveransrapporten.
 * Utnyttja transaktionsbudskapen i kundresan.
@@ -71,11 +74,11 @@ När meddelandet har publicerats och webbplatsintegreringen är klar kan du öve
 
    ![](assets/message-center_marketing_sending_logs.png)
 
-1. Välj fliken **[!UICONTROL Exclusions logs]** om du vill visa mottagare som har uteslutits från meddelandemålet, till exempel svartlistade adresser.
+1. Välj fliken **[!UICONTROL Exclusions logs]** om du vill visa mottagare som har uteslutits från meddelandemålet, till exempel adresser i blockeringslistan.
 
    ![](assets/message-center_marketing_exclusion_logs.png)
 
-För alla profiler som har avanmält sig exkluderades motsvarande mottagare av typologiregeln **[!UICONTROL Blacklisted address]** .
+För alla profiler som har avanmält sig exkluderades motsvarande mottagare av typologiregeln **[!UICONTROL Address on block list]** .
 
 Den här regeln ingår i en specifik typologi som gäller för alla transaktionsmeddelanden som baseras på **[!UICONTROL Profile]** tabellen.
 
