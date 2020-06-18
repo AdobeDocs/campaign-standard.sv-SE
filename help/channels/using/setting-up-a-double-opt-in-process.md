@@ -12,7 +12,10 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '1157'
+ht-degree: 0%
 
 ---
 
@@ -29,11 +32,11 @@ Principen är att skicka ett e-postmeddelande som bekräftar besökarens samtyck
 
 För att göra detta måste du:
 
-1. Skapa och publicera en landningssida så att besökarna kan registrera sig och prenumerera. Denna landningssida kommer att vara tillgänglig från en webbplats. Besökare som fyller i och skickar in landningssidan lagras i databasen, men&quot;svartlistad&quot;, för att inte få någon kommunikation före den slutliga valideringen (se [Hantera svartlistning i Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+1. Skapa och publicera en landningssida så att besökarna kan registrera sig och prenumerera. Denna landningssida kommer att vara tillgänglig från en webbplats. Besökare som fyller i och skickar den här landningssidan lagras i databasen men läggs till i blocklistan, så att de inte kan ta emot någon kommunikation före den slutliga valideringen (se Hantera [blockeringslistor i Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
 1. Skapa och skicka automatiskt e-postmeddelandet om deltagande med en bekräftelselänk. Det här e-postmeddelandet riktar sig till den målgrupp som skickade landningssidan. Den kommer att baseras på en e-postmall som gör det möjligt att rikta in sig på&quot;avanmälningsprofiler&quot;.
 1. Omdirigering till en bekräftelsestartsida. Den sista landningssidan ska innehålla en bekräftelseknapp: besökarna måste klicka på den. Du kan utforma ett välkomstmeddelande som ska skickas när du har bekräftat, och du kan till exempel lägga till ett specialerbjudande i e-postmeddelandet för nya mottagare.
 
-Dessa steg måste konfigureras i Adobe Campaign i en specifik ordning för att alla parametrar ska aktiveras korrekt.
+Dessa steg måste ställas in i Adobe Campaign i en viss ordning för att alla parametrar ska vara korrekt aktiverade.
 
 ## Steg 1: Skapa bekräftelsestartsidan {#step-1--create-the-confirmation-landing-page}
 
@@ -51,13 +54,13 @@ Om du vill skapa och konfigurera den här landningssidan måste du:
 
 1. Klicka på **[!UICONTROL Job]** och ange följande kontextsökväg i avsnittet **[!UICONTROL Additional data]** > **[!UICONTROL Add an element]** :
 
-   /context/profile/blackList
+   /context/profile/blockList
 
    Ställ in värdet på **false** och klicka **[!UICONTROL Add]**.
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   Det här sammanhanget tar bort svartlistningsfältet för att kunna skicka e-post. Vi kommer senare att se att den första landningssidan ställde in det här fältet till **true** före bekräftelsen för att förhindra att e-post skickas till obekräftade profiler. Mer information finns i [steg 3: Skapa sidan](#step-3--create-the-acquisition-landing-page)för kundvärvning.
+   Den här kontexten tar bort fältet &quot;I blocklista&quot; för att kunna skicka e-post. Vi kommer senare att se att den första landningssidan ställde in det här fältet till **true** före bekräftelsen för att förhindra att e-post skickas till obekräftade profiler. Mer information finns i [steg 3: Skapa sidan](#step-3--create-the-acquisition-landing-page)för kundvärvning.
 
 1. Anpassa innehållet på landningssidan: kan du visa anpassade data och ändra bekräftelseknappens etikett till&quot;Klicka här för att bekräfta min prenumeration&quot;, till exempel.
 
@@ -79,7 +82,7 @@ Steg för att skapa dessa element beskrivs nedan. Du måste följa dem innan du 
 
 Bekräftelsemeddelandet är ett [transaktionsmeddelande](../../channels/using/about-transactional-messaging.md) när det reagerar på en händelse: validering av formuläret. Du måste först skapa händelsen och sedan skapa mallen för transaktionsmeddelandet.
 
-1. Skapa en händelse från menyn **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** som du kommer åt från Adobe Campaign-logotypen och ange etiketten **CONFIRM**.
+1. Skapa en händelse från **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** -menyn som du kommer åt från Adobe Campaign-logotypen och ange etiketten **CONFIRM**.
 1. Välj dimensionen för **[!UICONTROL Profile]** målinriktning och klicka **[!UICONTROL Create]**.
 
    ![](assets/optin_eventcreate.png)
@@ -98,12 +101,12 @@ Händelsen är klar. Nu kan du utforma e-postmallen. Den här mallen måste inne
 
 ### Skapa typologin {#create-the-typology-rule}
 
-Du måste skapa en specifik [typologi](../../sending/using/about-typology-rules.md)genom att duplicera en. Typologin gör det möjligt att skicka meddelanden till profiler som ännu inte har bekräftat sitt avtal och fortfarande är svartlistade. Som standard utesluter typologier avanmälningsprofiler (dvs. svartlistade). Så här skapar du en typologi:
+Du måste skapa en specifik [typologi](../../sending/using/about-typology-rules.md)genom att duplicera en. Typologin tillåter att meddelanden skickas till profiler som ännu inte har bekräftat sitt avtal och som fortfarande finns med i blocklistan. Som standard utesluter typologier profiler för att avanmäla sig (dvs. på blockeringslistan). Så här skapar du en typologi:
 
-1. I Adobe Campaign-logotypen väljer du **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** och klickar på **[!UICONTROL Typologies]**.
+1. I logotypen för Adobe Campaign väljer du **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** och klickar på **[!UICONTROL Typologies]**.
 1. Duplicera den färdiga typologin **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**.
 1. När dupliceringen har bekräftats redigerar du den nya typologin och anger etiketten **TYPOLOGY_PROFILE**.
-1. Ta bort den **svartlistade adressregeln** .
+1. Ta bort regeln **Adress för** blockeringslista.
 1. Klicka på **[!UICONTROL Save]**.
 
 Den här typologin kan nu kopplas till bekräftelsemeddelandet via e-post.
@@ -112,7 +115,7 @@ Den här typologin kan nu kopplas till bekräftelsemeddelandet via e-post.
 
 Bekräftelsemeddelandet är ett transaktionsmeddelande baserat på den händelse som skapades tidigare. Skapa det här meddelandet genom att följa stegen nedan:
 
-1. Välj **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** och klicka på Adobe Campaign-logotypen **[!UICONTROL Transactional messages]**.
+1. I logotypen för Adobe Campaign väljer du **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** och klickar **[!UICONTROL Transactional messages]**.
 1. Redigera e-postmallen **CONFIRM** och anpassa den. Du kan överföra ett befintligt innehåll eller använda en mall som inte är installerad.
 1. Lägg till en länk på **BEKRÄFTELSEsidan** och klicka på **[!UICONTROL Confirm]** för att spara ändringarna.
 
@@ -130,11 +133,11 @@ Om du vill skapa och konfigurera den här landningssidan måste du:
 1. Utforma en [ny landningssida](../../channels/using/getting-started-with-landing-pages.md) som bygger på **[!UICONTROL Profile acquisition (acquisition)]** mallen. Ange etiketten &#39;**FÖRVÄRV**&#39;.
 1. Redigera egenskaperna för landningssidan: i **[!UICONTROL Job]** > **[!UICONTROL Additional data]** klickar du på **[!UICONTROL Add an element]** och anger följande kontextsökväg:
 
-   /context/profile/blackList
+   /context/profile/blockList
 
    och ange värdet till **true**.
 
-   Detta är obligatoriskt för att tvinga fram en svart lista och undvika att skicka meddelanden till besökare som inte bekräftat sin överenskommelse. Valideringen av startsidan för CONFIRMATION anger att fältet ska vara **falskt** efter bekräftelsen. Mer information finns i [steg 1: Skapa bekräftelsestartsidan](#step-1--create-the-confirmation-landing-page).
+   Detta är obligatoriskt om du vill framtvinga tillägg till blockeringslistan och undvika att skicka meddelanden till besökare som inte bekräftat sitt avtal. Valideringen av startsidan för CONFIRMATION anger att fältet ska vara **falskt** efter bekräftelsen. Mer information finns i [steg 1: Skapa bekräftelsestartsidan](#step-1--create-the-confirmation-landing-page).
 
 1. Välj alternativet i **[!UICONTROL Job]** > **[!UICONTROL Specific actions]** -avsnittet **[!UICONTROL Start sending messages]**.
 1. I den associerade nedrullningsbara listan väljer du den **CONFIRM** -mall för transaktionsmeddelanden som du har skapat.
