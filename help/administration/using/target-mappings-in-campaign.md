@@ -12,14 +12,17 @@ discoiquuid: 73d06242-a02f-4a8d-85e9-73efffb5eda1
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: ef4082d4d5a0c3a57b7a36a43b47edde07c4c7bb
+workflow-type: tm+mt
+source-wordcount: '102'
+ht-degree: 0%
 
 ---
 
 
 # Målmappningar i Campaign{#target-mappings-in-campaign}
 
-Målmappningar är tekniska objekt som används av Campaign för att leverera meddelanden. De innehåller alla tekniska inställningar som krävs för att skicka leveranser (adresser, telefonnummer, svartlistningsindikatorer, ytterligare identifierare...).
+Målmappningar är tekniska objekt som används av Campaign för att leverera meddelanden. De innehåller alla tekniska inställningar som krävs för att skicka leveranser (adresser, telefonnummer, blocklisteindikatorer, ytterligare identifierare...).
 
 Administratörer har åtkomst till målmappningar på **[!UICONTROL Administration > Application settings > Target mappings]** menyn.
 
