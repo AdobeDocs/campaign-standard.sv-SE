@@ -13,7 +13,10 @@ context-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '1727'
+ht-degree: 0%
 
 ---
 
@@ -428,7 +431,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
          <td>uppräkning (byte) </td>
          <td>
             <ul>
-               <li>Blacklist - blackList - 3</li>
+               <li>Blocklista - blocklista - 3</li>
                <li>Ingen specifik åtgärd - ingen - 0</li>
                <li>Unsubscription - unsubscription - 2</li>
                <li>OGILTIGT VÄRDE - __Invalid_value__ - __Invalid_value__</li>
@@ -633,7 +636,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
             <ul>
                <li>Allmän - allmän - 0</li>
                <li>Avbeställ en tjänst - avbeprenumeration - 3</li>
-               <li>Blacklist - blackList - 4</li>
+               <li>Blocklista - blocklista - 4</li>
                <li>OGILTIGT VÄRDE - __Invalid_value__ - __Invalid_value__</li>
                <li>Anskaffning - förvärv - 1</li>
                <li>Prenumeration på en tjänst - prenumeration - 2</li>
