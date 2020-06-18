@@ -1,6 +1,6 @@
 ---
-title: Leveransbarhet i Adobe Campaign Standard
-description: Lär dig mer om koncept och bästa metoder för att leverera samt de verktyg som Adobe Campaign Standard erbjuder för att optimera leveransen.
+title: Leverans inom Adobe Campaign Standard
+description: Lär dig mer om koncept och bästa metoder för att leverera samt de verktyg som Adobe Campaign Standarden erbjuder för att optimera leveransen.
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -13,7 +13,10 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 02b8d847d4506eca96abfa27db1e2efadc2a68d2
+source-git-commit: 121ec37cef6193d3a7085b6d0296b6a2e7cafa06
+workflow-type: tm+mt
+source-wordcount: '663'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +37,7 @@ Leveransgraden beror på flera faktorer, särskilt:
 
 ## Viktiga punkter att kontrollera {#deliverability-key-points}
 
-För att optimera leveransen av era Adobe Campaign-e-postmeddelanden rekommenderar vi att du använder de bästa metoderna nedan. Leveransproblem är i allmänhet kopplade till skyddsåtgärder mot skräppost som genomförs av internetleverantörer och e-postserveradministratörer.
+För att optimera leveransen av dina Adobe Campaign-e-postmeddelanden rekommenderar vi att du använder de bästa metoderna som listas nedan. Leveransproblem är i allmänhet kopplade till skyddsåtgärder mot skräppost som genomförs av internetleverantörer och e-postserveradministratörer.
 
 E-postleverans är en uppsättning egenskaper som avgör hur ett meddelande kan nå sin destination via en personlig e-postadress inom en kort tid och med den förväntade kvaliteten i fråga om innehåll och format. Dessa egenskaper kan delas in i fyra huvudkategorier: datakvalitet, meddelande och innehåll, utskick av infrastruktur och anseende. Tillsammans utgör de grunden för ett framgångsrikt program för e-postleverans.
 
@@ -43,7 +46,7 @@ Här är en lista över de viktigaste punkterna som ska kontrolleras för att s�
 
 ## Leveransverktyg {#deliverability-tools}
 
-Börja med att läsa dokumentationen om de leveransverktyg som ingår i Campaign Standard:
+Börja med att läsa dokumentationen om de leveransverktyg som ingår i Campaign Standarden:
 * [Bästa praxis](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 * [Anpassa avsändarens namn](../../designing/using/personalization.md#personalizing-the-sender)
 * [Testa ämnesraden i ett e-postmeddelande](../../sending/using/testing-subject-line-email.md)
@@ -54,7 +57,7 @@ Börja med att läsa dokumentationen om de leveransverktyg som ingår i Campaign
 * [Få aviseringar när fel uppstår](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Om leveransfel](../../sending/using/understanding-delivery-failures.md)
 * [Om karantänhantering](../../sending/using/understanding-quarantine-management.md)
-* [Karantän jämfört med svartlistning](../../sending/using/understanding-quarantine-management.md#quarantine-vs-blacklisting)
+* [Karantän mot blocklista](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list)
 * [Dynamiska rapporter](../../reporting/using/about-dynamic-reports.md)
 
 ## Kontrollerar nätverkskonfiguration {#network-configuration}
