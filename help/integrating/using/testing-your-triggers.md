@@ -12,9 +12,9 @@ discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3aa987c423181180a5c20bcca04cde04a2bf6086
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Om utlösaren skapas går du vidare till nästa steg. Annars innebär det att sl
 
 * Företagsnamn för Marketing Cloud
 * IMS-ORG-ID
-* Analytics-inloggningsföretag (kan vara samma som Marketing Cloud-företagets namn)
+* Analytics inloggningsföretag (kan vara samma som Marketing Cloud-företagets namn)
 
 **Prova att publicera utlösaren**
 
@@ -56,7 +56,7 @@ Om utlösaren tas emot av Analytics går du vidare till nästa steg. Om inte, ko
 
 * Utlösaren är aktiverad för Analytics
 * Den webbplats som används för MCID och Analytics är aktiverad i DTM
-* Den korrekta rapportsviten för Analytics används när utlösare skapas
+* Rätt Analytics-rapportsvit används när utlösare skapas
 
 **Tar Campaign emot utlösaren?**
 
@@ -77,7 +77,7 @@ Om så är fallet följer du de här stödlinjerna:
 Om inte, gå vidare till nästa steg. Om så är fallet följer du de här stödlinjerna:
 
 * Kontrollera att transaktionsmallen är publicerad.
-* Kontrollera att profilen inte är svartlistad.
+* Kontrollera att profilen inte finns i blockeringslistan.
 * Kontrollera tillämpningen av typologiregler.
 * Kontrollera transaktionsmeddelandets loggar.
 
