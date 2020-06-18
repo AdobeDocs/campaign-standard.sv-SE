@@ -12,7 +12,10 @@ discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '1277'
+ht-degree: 0%
 
 ---
 
@@ -80,8 +83,8 @@ Tabellen nedan visar en lista över de dimensioner som används i rapporter och 
    <td> Mobilprogrammets namn<br /> </td> 
   </tr> 
   <tr> 
-   <td> Plattform<br /> </td> 
-   <td> Plattform för den enhet som meddelandet öppnades/visades/klickades på från.<br /> </td> 
+   <td> Platform<br /> </td> 
+   <td> Platform för den enhet som meddelandet öppnades/visades/klickades på.<br /> </td> 
   </tr> 
   <tr> 
    <td> Profiler<br /> </td> 
@@ -89,7 +92,7 @@ Tabellen nedan visar en lista över de dimensioner som används i rapporter och 
   </tr> 
   <tr> 
    <td> Push-plattform<br /> </td> 
-   <td> Plattform för enheten som push-meddelandet öppnades från, till exempel iOS eller Android.<br /> </td> 
+   <td> Platform för den enhet som push-meddelandet öppnades från, till exempel iOS eller Android.<br /> </td> 
   </tr> 
   <tr> 
    <td> Mottagardomän<br /> </td> 
@@ -149,12 +152,12 @@ Tabellerna nedan ger dig en lista över de mätvärden som används i rapporter 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Svartlistad<br /> </td> 
+   <td> På blocklista<br /> </td> 
    <td> Antal mottagare som har deklarerat ett e-postmeddelande som skräppost eller skräppost.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Svartlistefrekvens<br /> </td> 
-   <td> Procentandel leveranser som markerats som svartlistade.<br /> </td> 
+   <td> Blocklistefrekvens<br /> </td> 
+   <td> Procentandel leveranser som är markerade i blocklistan.<br /> </td> 
   </tr> 
   <tr> 
    <td> studsar + fel<br /> </td> 
@@ -303,7 +306,7 @@ Tabellerna nedan ger dig en lista över de mätvärden som används i rapporter 
   </tr> 
   <tr> 
    <td> Öppna<br /> </td> 
-   <td> Totalt antal push-meddelanden som levererats till enheten och användaren klickat på för att öppna appen. Detta liknar kommandot Push Click, men Push Open aktiveras inte om meddelandet stängs.<br /> </td> 
+   <td> Totalt antal push-meddelanden som levererats till enheten och användaren klickat på för att öppna appen. Det här liknar kommandot Push Click (Push-klicka), förutom att Push Open (Push Open) inte aktiveras om meddelandet stängs.<br /> </td> 
   </tr> 
   <tr> 
    <td> Öppen kurs<br /> </td> 
