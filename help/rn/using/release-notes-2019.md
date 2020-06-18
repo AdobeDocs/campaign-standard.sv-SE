@@ -1,6 +1,6 @@
 ---
 title: Versionsinformation 2019
-description: Den här sidan innehåller alla 2019-utgåvor av Adobe Campaign Standard.
+description: Den här sidan innehåller alla 2019 års utgåvor av Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: 99f92a54-4b3d-48b9-b08d-e98b24e75f62
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 50c3188e1bc0eb92fd52637988834ce8538335a3
 workflow-type: tm+mt
-source-wordcount: '7621'
+source-wordcount: '7626'
 ht-degree: 0%
 
 ---
@@ -36,12 +36,12 @@ ht-degree: 0%
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>CCPA är delstaten Kaliforniens nya integritetslagstiftning som harmoniserar och moderniserar dataskyddskraven som träder i kraft den 1 januari 2020. CCPA gäller Adobe Campaign-kunder som lagrar data för registrerade i Kalifornien.</p>
-   <p>Förutom de sekretessfunktioner som redan finns i Adobe Campaign (inklusive samtyckeshantering, datalagringsinställningar och användarroller) tar vi tillfället i akt att inkludera ytterligare funktioner för att underlätta er beredskap för CCPA:</p>
+   <td> <p>CCPA är delstaten Kaliforniens nya integritetslagstiftning som harmoniserar och moderniserar dataskyddskraven som träder i kraft den 1 januari 2020. CCPA gäller för Adobe Campaign-kunder som lagrar data för registrerade i Kalifornien.</p>
+   <p>Förutom de sekretessfunktioner som redan finns i Adobe Campaign (inklusive samtyckeshantering, datalagringsinställningar och användarroller) tar vi tillfället i akt att inkludera ytterligare funktioner för att underlätta din beredskap för CCPA:</p>
    <ul>
     <li>Rätt till åtkomst och rätt att ta bort: vi utnyttjar de funktioner som tillkommit för GDPR. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">Läs mer</a> </li>
     <li><p>När en sekretessförfrågan skapas har regeltypen (GDPR eller CCPA) lagts till i bastjänsten för sekretess. Det är den här metoden du bör använda för alla begäranden om åtkomst och borttagning. Användningen av Campaign-API:t och gränssnittet för begäranden om åtkomst och borttagning är föråldrad.  Se artikeln <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html"></a>Borttagna och borttagna funktioner.</p></li>
-    <li>Ett <strong>CCPA-avanmälningsfält</strong> har lagts till i profilresursen så att Adobe Campaign-användare kan spåra om en konsument har avanmält sig från försäljning av personlig information. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa">Läs mer</a>.</li>
+    <li>Ett <strong>CCPA-avanmälningsfält</strong> har lagts till i profilresursen så att Adobe Campaign-användare kan spåra om en konsument har avanmält sig från försäljningen av personlig information. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa">Läs mer</a>.</li>
   </ul>
     <p>Se <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">instruktionsvideon</a>.</p>
 </td> 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 **Förbättringar**
 
-* Popup-fönstret för godkännande av dynamisk rapportering har uppdaterats så att det innehåller integrering mellan Adobe Campaign Standard och Microsoft Dynamics 365. Genom att acceptera villkoren inkluderas profildata när Adobe Campaign Standard-/Microsoft Dynamics 365-integrering och Dynamic Reporting används. [Läs mer](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
+* Popup-fönstret för godkännande av dynamisk rapportering har uppdaterats med integrering av Adobe Campaign Standard och Microsoft Dynamics 365. Genom att acceptera villkoren inkluderas profildata när Adobe Campaign Standard-/Microsoft Dynamics 365-integrering och dynamisk rapportering används. [Läs mer](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * Ett problem som visade felaktiga kontaktdatum när leveransmeddelanden togs emot har korrigerats.
 * När en händelse för transaktionsmeddelanden skickas med en okänd kontextparameter returnerar Campaign nu felmeddelandet&quot;400&quot; i stället för&quot;500&quot;. (CAMP-28632)
 * Ett nytt **Uteslut korrektur** -segment har lagts till i dynamisk rapportering. Det här segmentet är nu markerat som standard för att filtrera rapporter. [Läs mer](../../reporting/using/list-of-components-.md#segments)
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 * Korrigerade ett problem som förhindrade att länkar till avprenumerationer, prenumerationer och landningssidor spårades när de infogades i ett e-postmeddelande. (CAMP-37809)
 * Korrigerade ett problem som kunde leda till fel när ett nytt e-postmeddelande skapades och en mall valdes. (CAMP-38000)
-* När du redigerar en länk med hjälp av e-postdesignern kan du nu använda alternativet **Understruken länk** . Dessutom har en **Target** -egenskap lagts till med standardvärdet **None**. [Läs mer](../../designing/using/styles.md#about-styling-links)
+* När du redigerar en länk med hjälp av e-postdesignern kan du nu använda alternativet **Understruken länk** . Dessutom har en **Target** -egenskap lagts till med standardvärdet **Ingen**. [Läs mer](../../designing/using/styles.md#about-styling-links)
 * Korrigerade ett färgproblem med länkar i textkomponenter i brödtexten i ett e-postmeddelande. (CAMP-37330)
 * Korrigerade ett problem som förhindrade att associerade länkar togs bort när en bild togs bort. (CAMP-37234)
 * Ett problem som gjorde att det inte gick att spara ändringar i **orderinställningarna** för dynamiskt innehåll har korrigerats. (CAMP-36883)
@@ -120,7 +120,7 @@ ht-degree: 0%
 * Ett felmeddelande visas nu när en aktivitet i **schemaläggaren** för ett arbetsflöde som är ansluten till sig själv körs, antingen direkt eller via flera aktiviteter, eftersom det kan leda till att instansens arbetsflödesserver fastnar.
 * Förbättringar har gjorts för att hjälpa till att felsöka transaktionsmeddelanden: Om länken &quot;Data&quot; har bytt namn till &quot;Last transactional events&quot; i händelsekonfigurationsfönstret, visas nu de mottagna händelserna sorterade i fallande ordning. Dessutom har en ny status för transaktionshändelser skapats: &quot;targetingFailed&quot;. När transaktionsmeddelandemodulen inte kan utöka en länk som används för meddelandemål, kommer transaktionshändelsen nu att vara i det nya läget (i stället för statusen&quot;routingFailed&quot;).
 * Gränssnittet har förbättrats när det gäller att begränsa åtkomsten till landningssidor till särskilda geografiska eller organisatoriska enheter. Syftet är att varna för att landningssidan kan vara föremål för synlighetsvillkor: Det är nu obligatoriskt att välja en geografisk och organisatorisk enhet när en landningssida skapas. En banderoll med relaterad information visas nu när en enhet har valts. Felmeddelandet som visas när landningssidan testas har blivit tydligare.
-* I API:er för Campaign Standard kan inte anpassade nycklar ändras med en PATCH-åtgärd om nyckelvärdet skiljer sig från ursprungsnyckeln, eller om du använder din egen affärsnyckel som URI i stället för den som tillhandahålls av Adobe.
+* I Campaign Standard-API:er kan inte anpassade nycklar ändras med en PATCH-åtgärd om nyckelvärdet skiljer sig från ursprungsnyckeln, eller om du använder din egen affärsnyckel som URI i stället för den som tillhandahålls av Adobe.
 * Språket&quot;Albanska - Makedonien&quot; har lagts till i den önskade språklistan. (CAMP-35396)
 
 **Patchar**
@@ -128,7 +128,7 @@ ht-degree: 0%
 * Ett problem som gjorde att schemalagda rapporter inte kunde sorteras eller sökas har åtgärdats.
 * Korrigerade ett problem med utlösarregler som gjorde att AND- och OR-reglerna blandades.
 * Korrigerade ett problem som visade egenskapen Mobile som Deleted i Launch. (CAMP-35382)
-* Ett problem som gjorde att mobila egenskaper för Adobe Launch inte kunde synkroniseras i Adobe Campaign har korrigerats. (CAMP-35411, CAMP-35089, CAMP-35014, CAMP-35487)
+* Ett problem som gjorde att mobila egenskaper för Adobe Launch inte kunde synkroniseras i Adobe Campaign har åtgärdats. (CAMP-35411, CAMP-35089, CAMP-35014, CAMP-35487)
 * Korrigerade ett problem där transaktionspush-meddelanden misslyckades när händelser berikades med profildata. (CAMP-34385)
 * Ett problem med att mobila egenskaper inte synkroniseras i flera miljöer har åtgärdats. (CAMP-37060)
 * Korrigerade ett problem när en mall som använder en kontaktdatumformel valdes i ett push-meddelande. (CAMP-35300)
@@ -206,7 +206,7 @@ ht-degree: 0%
 
 **Andra förbättringar**
 
-* Genom integrationen med Adobe Experience Platform Location Services är Adobe Campaign nu kompatibelt med att skicka platsbaserade marknadsföringsmeddelanden till era mobilprogramprenumeranter via Experience Platform SDK. Mer information finns i den [detaljerade dokumentationen](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md).
+* Tack vare integreringen med Adobe Experience Platform Location Services är Adobe Campaign nu kompatibelt med att skicka platsbaserade marknadsföringsmeddelanden till prenumeranter på mobilappen via Experience Platform SDK. Mer information finns i den [detaljerade dokumentationen](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md).
 * Rapportfunktionen har förbättrats för en bättre upplevelse. Om du vill använda den här funktionen måste du godkänna användningsavtalet för dynamisk rapportering. Mer information finns i den [detaljerade dokumentationen](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 * I arbetsflöden har ett nytt alternativ lagts till för att förhandsgranska nästa tio körningar av ett arbetsflöde. Mer information finns i den [detaljerade dokumentationen](../../automating/using/scheduler.md).
 * I aktiviteten Schemaläggare kan du med ett nytt alternativ välja en viss veckodag för månatliga leveranser. Mer information finns i den [detaljerade dokumentationen](../../automating/using/scheduler.md).
@@ -293,7 +293,7 @@ En serie förbättringar och korrigeringar introducerades för att optimera frag
 * Alternativet&quot;Launch_URL_Campaign&quot; har lagts till i Campaign för att hantera egenskaper för mobilprogram som skapats med Adobe Experience Platform Mobile SDK.
 * Korrigerade ett fel som ledde till att alternativet för sandlådemiljö avmarkerades efter att certifikatet för en nyligen skapad mobil egenskap har överförts och egenskapssidan för mobilprogrammet har avslutats.
 * Korrigerade ett problem som förhindrade dig från att anrika ett transaktionsmeddelandeinnehåll med information från tjänstresursen. (CAMP-33707)
-* Korrigerade ett fel på Blacklist-landningssidor som inträffade när profiler skulle avbeställas från en tjänst.
+* Korrigerade ett problem i blocklistan med landningssidor som inträffade när profiler skulle avbeställas från en tjänst.
 
 ## Version 19.2 - maj 2019 {#release-19-2---may-2019}
 
@@ -382,11 +382,11 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
 
 * Ett problem som kunde orsaka minnesläckage till MTA när SMS-inställningarna lästes in på nytt har åtgärdats.
 * Korrigerade ett problem som kunde förhindra publicering av databasuppdateringar i reparationsläge.
-* Korrigerade ett problem som orsakade bristande överensstämmelse mellan Adobe Analytics-rapporter och Adobe Campaign Dynamic Reporting. (CAMP-25393)
+* Korrigerade ett problem som orsakade diskrepans mellan Adobe Analytics-rapporter och Adobe Campaign Dynamic Reporting. (CAMP-25393)
 * Korrigerade ett fel som gjorde att arbetsflödet för rapportdelning misslyckades.
 * Korrigerade ett fel som hindrade användare från att skicka meddelanden i appen med bara medie-URL:en.
 * Korrigerade ett problem som visade en mobilapp även om dess certifikat inte överfördes till instansen.
-* Korrigerade ett fel som förhindrade att personaliseringsfält fungerade när **Target användes för alla användare i en mall för mobilappar** .
+* Korrigerade ett fel som förhindrade att personaliseringsfält fungerade när **Target användes för alla användare av en mall för mobilappar** .
 * Nya Campaign Standard-instanser etablerades. (CAMP-32635 och CAMP-32344)
 * Korrigerade ett fel som förhindrade anpassning av datumformeln i ett arbetsflöde. (CAMP-30336)
 * Ett problem har korrigerats vid definiering av en anpassad datumformel som kan förhindra att fälten&quot;Ytterligare data&quot; och&quot;Segmentkod&quot; är tillgängliga i listrutan. (CAMP-32383)
@@ -431,7 +431,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
   </tr> 
   <tr> 
    <td> Starta integrering för mobilappar<br /> </td> 
-   <td> <p>Den här versionen innehåller integreringen av Adobe Campaign med GA-versionerna av Android- och iOS-tillägg för Adobe Campaign Standard i Adobe Experience Platform Launch och Mobile SDK:er. Dessa tillägg har stöd för push-meddelanden, meddelanden i appen och profiluppdateringar för mobilappar.</p><p> Mer information finns i den <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">detaljerade dokumentationen</a>.</p> </td> 
+   <td> <p>Den här versionen innehåller integreringen av Adobe Campaign med GA-versionerna av Android- och iOS-tilläggen för Adobe Campaign Standard i Adobe Experience Platform Launch och Mobile SDK:er. Dessa tillägg har stöd för push-meddelanden, meddelanden i appen och profiluppdateringar för mobilappar.</p><p> Mer information finns i den <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">detaljerade dokumentationen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Meddelanden i appar för mobiler<br /> </td> 
@@ -441,7 +441,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
    <td> Förbättrat arbetsflöde<br /> </td> 
    <td> <p>Följande arbetsflödesfunktioner har lagts till:</p> 
     <ul> 
-     <li> Nu kan du kopiera och klistra in aktiviteter i ett arbetsflöde eller i ett annat arbetsflöde från samma Campaign-instans. På så sätt kan du enkelt duplicera ett helt arbetsflöde eller specifika aktiviteter och behålla de inställningar som ursprungligen definierades. Mer information finns i den <a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">detaljerade dokumentationen</a>. (CAMP-2014) </li> 
+     <li> Nu kan du kopiera och klistra in aktiviteter i ett arbetsflöde eller ett annat arbetsflöde från samma Campaign-instans. På så sätt kan du enkelt duplicera ett helt arbetsflöde eller specifika aktiviteter och behålla de inställningar som ursprungligen definierades. Mer information finns i den <a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">detaljerade dokumentationen</a>. (CAMP-2014) </li> 
      <li> När du använder aktiviteten <strong>Läs in fil</strong> kan du nu lägga till en tidsstämpel till namnet på filen som innehåller de avvisade posterna. Mer information finns i den <a href="../../automating/using/load-file.md#configuration">detaljerade dokumentationen</a>. </li> 
      <li> <strong>Fråge</strong> - och <strong>segmenteringsaktiviteter</strong> gör nu att du kan aktivera en utgående övergång om aktiviteterna inte hämtar några data. </li> 
     </ul> </td> 
@@ -473,8 +473,8 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
 
 * Du kan nu lägga till anpassade sociala kanaler i din e-postmall ovanpå de som redan är tillgängliga.
 * Korrigerade ett fel som förhindrade rullning nedåt på strukturmenyn när fler än 18 strukturer användes. (CAMP-31173)
-* Korrigerade ett problem som visade förrubriken ovanpå innehållet när ett e-postmeddelande som innehåller en förrubrik som skickats med Adobe Campaign vidarebefordrades. (CAMP-30736)
-* Ett problem som gjorde att ämnesraden inte kunde uppdateras när du klickade på alternativet **Uppdatera AEM-innehåll** efter att du ändrat ämnet i Adobe Experience Manager har åtgärdats. (CAMP-2984)
+* Korrigerade ett fel som visade förrubriken ovanpå innehållet när ett e-postmeddelande med en förrubrik som skickats med Adobe Campaign vidarebefordrades. (CAMP-30736)
+* Ett problem som gjorde att ämnesraden inte kunde uppdateras när du klickade på alternativet **Uppdatera AEM-innehåll** efter att motivet i Adobe Experience Manager ändrades har åtgärdats. (CAMP-2984)
 * Korrigerade flera problem som förhindrade användningen av dynamiska bilder från Adobe Target.
 * Korrigerade ett fel som förhindrade att förhandsvisningen uppdaterades när innehåll hämtades vid förberedelsetillfället om innehållet tidigare importerats från en URL.
 * YouTube-ikonen har lagts till i komponenten **socialt** innehåll.
@@ -575,7 +575,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
 
 **E-postdesigner**
 
-* Korrigerade ett problem som aktiverade funktionen för geografiska enheter för en e-postmall eller ett innehållsavbrott som skapats med e-postdesignern, även om den här funktionen inaktiverades i Adobe Campaign, vilket gjorde mallen eller fragmentet otillgängliga när du försökte komma åt den igen. (CAMP-28174)
+* Korrigerade ett problem som aktiverade funktionen för geografiska enheter för en e-postmall eller ett innehållsavgränsare som skapats med e-postdesignern, även om den här funktionen inaktiverades i Adobe Campaign, vilket gjorde att mallen eller fragmentet inte var tillgängliga när du försökte komma åt den igen. (CAMP-28174)
 * Korrigerade ett problem som förhindrade att dynamiska innehållsvillkor sparades när innehåll redigerades med e-postdesignern. (CAMP-27905)
 * Ett problem som tog bort HTML-versionen från e-postinnehållet efter att ha redigerat den oformaterade textversionen av ett meddelande och brutit HTML-synkroniseringen i e-postdesignern har åtgärdats. (CAMP-28507)
 * Ett problem som gjorde att e-postdesignergränssnittet inte kunde öppnas när Internet Explorer 11 användes har åtgärdats. (CAMP-28273)
@@ -603,7 +603,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
 * Korrigerade ett problem som kunde inträffa vid export av anpassade resurstabeller med fler än 100 kB-poster. (CAMP-28150)
 * Korrigerade ett problem som förhindrade att transaktionsmeddelanden som är länkade till utlösare togs bort. (CAMP-28385)
 * Lösenord som inte visades på ett säkert sätt i vissa SMS-loggar har tagits bort.
-* Korrigerade ett problem som gjorde att anslutningarna till SMPP-simulatorn misslyckades på grund av ett tomt lösenord som skickats av Adobe Campaign.
+* Korrigerade ett problem som gjorde att anslutningarna till SMPP-simulatorn misslyckades på grund av ett tomt lösenord som skickades av Adobe Campaign.
 * Korrigerade ett problem som förhindrade att kampanjer skickades när SMS-anslutningar är instabila.
 * Ett problem som visade borttagna leveranser i dynamisk rapportering har korrigerats.
 * Korrigerade ett problem som kunde förhindra att ytterligare data hämtades från leveransloggar, spårningsloggar och exkluderade loggtabeller när en anrikningsaktivitet användes i ett arbetsflöde.
@@ -617,7 +617,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
 * Ett problem med kopplingsvillkoret mellan sändnings- och spårningsloggen för rtEvent har korrigerats i frågeredigeraren. (CAMP-28780)
 * Korrigerade ett problem som förhindrade att ändringar av landningssidans alternativ för&quot;specifik åtgärd&quot; sparades. (CAMP-29422)
 * Ett problem som hindrade från att exportera en händelses nyttolast i ett arbetsflöde har korrigerats. (CAMP-29029)
-* Korrigerade ett problem som förhindrade att svartlistade SMS-nummer exkluderades i ett SMS-meddelande. (CAMP-28898)
+* Korrigerade ett problem som förhindrade att SMS-nummer i blocklistan uteslöts i ett SMS-meddelande. (CAMP-28898)
 * Korrigerade ett problem som kunde förhindra SMPP-leverantörer från att meddelas om ett fel uppstod vid bearbetning av inkommande meddelanden. (CAMP-29804)
 * Korrigerade ett problem som medgav att externa konton med tillhörande leveranser kunde tas bort. (CAMP-29738)
 * Sändningsgenomströmningen har förbättrats och stabiliserats för SMS-meddelanden.
