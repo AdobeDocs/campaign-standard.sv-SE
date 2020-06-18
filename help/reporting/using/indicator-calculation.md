@@ -12,7 +12,10 @@ discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6291862737c71b63d8107b03245d5207b6151e96
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '674'
+ht-degree: 0%
 
 ---
 
@@ -30,9 +33,9 @@ Tabellerna nedan visar en lista över indikatorer som används i de olika rappor
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Etikett</strong><br /> </th> 
-   <th> <strong>Fältnamn</strong><br /> </th> 
-   <th> <strong>Beräkningsformel</strong> för indikator <br /> </th> 
+   <th> <strong>Etikett</strong> <br /> </th> 
+   <th> <strong>Fältnamn</strong> <br /> </th> 
+   <th> <strong>Beräkningsformel för indikator</strong> <br /> </th> 
    <th> <strong>Kommentarer</strong><br /> </th> 
   </tr> 
  </thead> 
@@ -44,15 +47,15 @@ Tabellerna nedan visar en lista över indikatorer som används i de olika rappor
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Svartlistad<br /> </td> 
-   <td> @svartlistad<br /> </td> 
+   <td> Blockerad<br /> </td> 
+   <td> @blocklisted<br /> </td> 
    <td> count(@errorReason=8, @errorType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Svartlistefrekvens<br /> </td> 
-   <td> @rateBlacklisted<br /> </td> 
-   <td> @svartlistad/@skickad<br /> </td> 
+   <td> Frekvens för blockerad lista<br /> </td> 
+   <td> @rateBlocklisted<br /> </td> 
+   <td> @blocklisted/@sent<br /> </td> 
    <td> Nämnaren för tariffberäkning baseras på antalet skickade (Levererade + studsar).<br /> </td> 
   </tr> 
   <tr> 
@@ -231,9 +234,9 @@ Tabellerna nedan visar en lista över indikatorer som används i de olika rappor
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Etikett</strong><br /> </th> 
-   <th> <strong>Fältnamn</strong><br /> </th> 
-   <th> <strong>Beräkningsformel</strong> för indikator <br /> </th> 
+   <th> <strong>Etikett</strong> <br /> </th> 
+   <th> <strong>Fältnamn</strong> <br /> </th> 
+   <th> <strong>Beräkningsformel för indikator</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -305,9 +308,9 @@ Tabellerna nedan visar en lista över indikatorer som används i de olika rappor
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Etikett</strong><br /> </th> 
-   <th> <strong>Fältnamn</strong><br /> </th> 
-   <th> <strong>Beräkningsformel</strong> för indikator <br /> </th> 
+   <th> <strong>Etikett</strong> <br /> </th> 
+   <th> <strong>Fältnamn</strong> <br /> </th> 
+   <th> <strong>Beräkningsformel för indikator</strong> <br /> </th> 
    <th> <strong>Kommentarer</strong><br /> </th> 
   </tr> 
  </thead> 
@@ -334,7 +337,7 @@ Tabellerna nedan visar en lista över indikatorer som används i de olika rappor
    <td> Unika intryck<br /> </td> 
    <td> @uniqueimponations<br /> </td> 
    <td> @unique(@count(status=vy))<br /> </td> 
-   <td> För <span class="uicontrol">målanvändare baserat på deras Campaign-profil (inAppProfile)</span> -mall, user = mottagar-ID.<br /> För <span class="uicontrol">alla användare av en mobilapp (inAppBroadcast)</span> och <span class="uicontrol">Target-användare baserat på deras mallar för mobilprofilen (inApp)</span> , user = MC Id eller motsvarande som representerar en unik kombination av användare, mobilapp och enhet.<br /> </td> 
+   <td> För <span class="uicontrol">Target-användare baserat på deras Campaign-profil (inAppProfile)</span> -mall, user = mottagar-ID.<br /> För <span class="uicontrol">Target alla användare av en mobilapp (inAppBroadcast)</span> och <span class="uicontrol">Target baserat på deras mallar för mobilprofilen (inApp)</span> , user = MC Id eller motsvarande som representerar en unik kombination av användare, mobilapp och enhet.<br /> </td> 
   </tr> 
   <tr> 
    <td> Klicka i appen <br /> </td> 
@@ -346,7 +349,7 @@ Tabellerna nedan visar en lista över indikatorer som används i de olika rappor
    <td> Unika klick i appen<br /> </td> 
    <td> @uniqueinapp<br /> </td> 
    <td> @unique(@count (status=klickningar))<br /> </td> 
-   <td> För <span class="uicontrol">målanvändare baserat på deras Campaign-profil (inAppProfile)</span> -mall, user = mottagar-ID.<br /> För <span class="uicontrol">alla användare av en mobilapp (inAppBroadcast)</span> och <span class="uicontrol">Target-användare baserat på deras mallar för mobilprofilen (inApp)</span> , user = MC Id eller motsvarande som representerar en unik kombination av användare, mobilapp och enhet.<br /> </td> 
+   <td> För <span class="uicontrol">Target-användare baserat på deras Campaign-profil (inAppProfile)</span> -mall, user = mottagar-ID.<br /> För <span class="uicontrol">Target alla användare av en mobilapp (inAppBroadcast)</span> och <span class="uicontrol">Target baserat på deras mallar för mobilprofilen (inApp)</span> , user = MC Id eller motsvarande som representerar en unik kombination av användare, mobilapp och enhet.<br /> </td> 
   </tr> 
   <tr> 
    <td> Klickfrekvens i appen<br /> </td> 
@@ -364,7 +367,7 @@ Tabellerna nedan visar en lista över indikatorer som används i de olika rappor
    <td> Unika rabatter i appen<br /> </td> 
    <td> @uniquedismissal<br /> </td> 
    <td> @unique(@count (status=close))<br /> </td> 
-   <td> För <span class="uicontrol">målanvändare baserat på deras Campaign-profil (inAppProfile)</span> -mall, user = mottagar-ID.<br /> För <span class="uicontrol">alla användare av en mobilapp (inAppBroadcast)</span> och <span class="uicontrol">Target-användare baserat på deras mallar för mobilprofilen (inApp)</span> , user = MC Id eller motsvarande som representerar en unik kombination av användare, mobilapp och enhet.<br /> </td> 
+   <td> För <span class="uicontrol">Target-användare baserat på deras Campaign-profil (inAppProfile)</span> -mall, user = mottagar-ID.<br /> För <span class="uicontrol">Target alla användare av en mobilapp (inAppBroadcast)</span> och <span class="uicontrol">Target baserat på deras mallar för mobilprofilen (inApp)</span> , user = MC Id eller motsvarande som representerar en unik kombination av användare, mobilapp och enhet.<br /> </td> 
   </tr> 
   <tr> 
    <td> Avdragsfrekvens i appen<br /> </td> 
