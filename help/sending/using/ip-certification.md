@@ -1,6 +1,6 @@
 ---
-title: Vitalister i Adobe Campaign Standard
-description: Lär dig optimera vitlistor med Adobe Campaign Standard.
+title: Tillåt listor i Adobe Campaign Standard
+description: Lär dig hur du optimerar tillåtna listor med Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -13,18 +13,21 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
+source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
+workflow-type: tm+mt
+source-wordcount: '330'
+ht-degree: 0%
 
 ---
 
 
 # IP-certifiering {#ip-certification}
 
-IP-certifiering är ett program för vitlistning och sändningsmetoder som hjälper till att säkerställa att e-post tas emot utan att blockeras av antispamfilter eller andra e-postblockeringssystem.
+IP-certifiering är ett program för att skicka beprövade metoder som hjälper till att säkerställa att e-postmeddelanden tas emot utan att blockeras av antispamfilter eller andra e-postblockeringssystem.
 
 För närvarande erbjuder två leverantörer IP-certifiering: Return Path och Certified Senders Alliance.
 
-Certifierade avsändare läggs till i e-postvitlistor som används av globala postlådeproviders och e-postsäkerhetsföretag. Dessa kommersiella vitlistor är baserade på ett system som gör att avsändaren kan kringgå skräppostfilter helt eller delvis eller tilldelas inkrementella punkter när de kommer in i systemet.
+Certifierade avsändare läggs till i e-postlistor som tillåts av globala postlådeproviders och e-postsäkerhetsföretag. Dessa kommersiella tillståndslistor är baserade på ett system som gör det möjligt för avsändaren att kringgå skräppostfilter helt och hållet eller tilldelas inkrementella punkter när de kommer in i systemet.
 
 Programmet [Return Path Certification](https://www.validity.com/products/returnpath/certification/) har flera fördelar:
 * En mätbar ökning av inkorgplaceringen hos de främsta postlådeleverantörerna som Microsoft, AOL, Yahoo, Gmail, Comcast, Orange, Mail.ru med flera
@@ -39,6 +42,6 @@ Certifieringen [Certified Senders Alliance](https://certified-senders.org/certif
 * Skydd mot juridiska och ekonomiska risker genom att till fullo följa rättsliga normer
 * Skydda anseendet genom tidiga varningar från CSA:s anmälningskontor och dagliga rapporter om skräppostfällor
 
-Internetleverantörer får använda dessa tjänster och antalet internetleverantörer kan variera beroende på vitlistan.
+Internetleverantörer får använda dessa tjänster och antalet internetleverantörer kan variera beroende på listan över tillåtna leverantörer.
 
 Men eftersom allt fler Internet-leverantörer bygger sina antispamfilter baserat på varje inkorgsägares beteende i stället för att analysera själva meddelandeinnehållet, kan IP-certifiering inte vara en garanti för inkorgsplacering eller till och med leverans.
