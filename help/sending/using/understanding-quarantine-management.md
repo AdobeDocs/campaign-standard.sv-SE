@@ -12,7 +12,10 @@ discoiquuid: de3a50b6-ea8f-4521-996b-c49cc1f3c946
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7e361d10d039718c421a3684c518347af2be951
+source-git-commit: 121ec37cef6193d3a7085b6d0296b6a2e7cafa06
+workflow-type: tm+mt
+source-wordcount: '801'
+ht-degree: 0%
 
 ---
 
@@ -29,23 +32,23 @@ Under alla omständigheter uppfyller karantänförfarandet de särskilda regler 
 
 De profiler vars e-postadresser eller telefonnummer är i karantän exkluderas automatiskt vid meddelandeförberedelsen (se [Identifiera karantänadresser för en leverans](#identifying-quarantined-addresses-for-a-delivery)). Detta snabbar upp leveranserna eftersom felfrekvensen påverkar leveranshastigheten avsevärt.
 
-Vissa leverantörer av internetåtkomst betraktar automatiskt e-post som skräppost om antalet ogiltiga adresser är för högt. Karantän gör att ni kan undvika att dessa leverantörer blir svarta.
+Vissa leverantörer av internetåtkomst betraktar automatiskt e-post som skräppost om antalet ogiltiga adresser är för högt. Med karantän kan du därför undvika att läggas till i en blockeringslista av dessa leverantörer.
 
 Dessutom bidrar karantäner till att minska SMS-sändningskostnaderna genom att utesluta felaktiga telefonnummer från leveranser.
 
 Mer information om de bästa sätten att skydda och optimera leveranser finns på [den här sidan](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
 
-### Karantän jämfört med svartlistning {#quarantine-vs-blacklisting}
+### Karantän mot blocklista {#quarantine-vs-block-list}
 
 **Karantän** gäller bara en adress, inte själva profilen. Det innebär att om två profiler har samma e-postadress påverkas båda om adressen sätts i karantän.
 
 På samma sätt kan en profil vars e-postadress sätts i karantän uppdatera profilen och ange en ny adress. Den kan sedan användas av leveransåtgärder igen.
 
-**Svartlistning**&#x200B;å andra sidan resulterar i att profilen inte längre används av någon leverans, t.ex. efter en avanmälan (avanmälan). Mer information om svartlistningsprocessen finns i [Hantera svartlistning i Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Å andra sidan finns i **blockeringslistan**, vilket innebär att profilen inte längre används som mål för någon leverans, till exempel efter en avanmälan (avanmälan). Mer information om blockeringslistprocessen finns i [Om deltagande och avanmälan i Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!NOTE]
 >
->När en användare svarar på ett SMS-meddelande med ett nyckelord som&quot;STOP&quot; för att avanmäla sig från SMS-leveranser är profilen inte svartlistad som i processen för avanmälan via e-post. Profilens telefonnummer skickas till karantän med **[!UICONTROL Blacklisted]** status. Den här statusen avser endast telefonnumret, profilen är inte svartlistad så att användaren fortsätter att ta emot e-postmeddelanden. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
+>När en användare svarar på ett SMS-meddelande med ett nyckelord som&quot;STOP&quot; för att avanmäla sig från SMS-leveranser, läggs denna profil inte till i blocklistan som i e-postavanmälningsprocessen. Profilens telefonnummer skickas till karantän med **[!UICONTROL On block list]** status. Denna status avser endast telefonnumret, profilen finns inte i blocklistan så att användaren fortsätter att ta emot e-postmeddelanden. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
 ## Identifiera adresser i karantän {#identifying-quarantined-addresses}
 
@@ -77,7 +80,7 @@ Administratörer kan lista adresserna i karantän för hela plattformen på **[!
 
 ## Villkor för att skicka en adress till karantän {#conditions-for-sending-an-address-to-quarantine}
 
-Adobe Campaign hanterar karantän utifrån typ av leveransfel och orsaken som tilldelats under kvalificeringen av felmeddelanden (se [Leveransfel, orsaker](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) och [studentlegitimation](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)).
+Adobe Campaign hanterar karantän enligt typ av leveransfel och den orsak som tilldelats vid kvalificering av felmeddelanden (se [Leveransfel, orsaker](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) och [studentlegitimation](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)).
 
 * **Ignorerat fel**: ignorerade fel skickar ingen adress till karantän.
 * **Hårt fel**: motsvarande e-postadress omedelbart skickas till karantänen.
@@ -85,10 +88,10 @@ Adobe Campaign hanterar karantän utifrån typ av leveransfel och orsaken som ti
 
    När en leverans lyckas efter ett nytt försök initieras felräknaren för den adress som var före den karantänen om. Adressstatusen ändras till **[!UICONTROL Valid]** och tas bort från listan över karantäner efter två dagar i **[!UICONTROL Database cleanup]** arbetsflödet.
 
-Om en användare kvalificerar ett e-postmeddelande som en skräppost (**feedbackslinga**) dirigeras meddelandet automatiskt om till en teknisk postlåda som hanteras av Campaign. Användarens e-postadress skickas sedan automatiskt till karantänen med **[!UICONTROL Blacklisted]** statusen. Den här statusen avser endast adressen, profilen är inte svartlistad så att användaren fortsätter att ta emot SMS-meddelanden och push-meddelanden.
+Om en användare kvalificerar ett e-postmeddelande som en skräppost (**feedbackslinga**) dirigeras meddelandet automatiskt om till en teknisk postlåda som hanteras av Campaign. Användarens e-postadress skickas sedan automatiskt till karantänen med **[!UICONTROL On block list]** statusen. Den här statusen avser endast adressen, profilen finns inte i blockeringslistan, så att användaren fortsätter att ta emot SMS-meddelanden och push-meddelanden.
 
 >[!NOTE]
-Karantän i Adobe Campaign är skiftlägeskänsligt. Se till att importera e-postadresser i gemener så att de inte återdirigeras senare.
+Karantän i Adobe Campaign är skiftlägeskänslig. Se till att importera e-postadresser i gemener så att de inte återdirigeras senare.
 
 I listan över adresser i karantän (se [Identifiera adresser i karantän för hela plattformen](#identifying-quarantined-addresses-for-the-entire-platform)) anger **[!UICONTROL Error reason]** fältet varför den valda adressen placerades i karantän.
 
