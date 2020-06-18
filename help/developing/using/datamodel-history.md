@@ -10,7 +10,10 @@ discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '1204'
+ht-degree: 0%
 
 ---
 
@@ -45,43 +48,43 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackList</td>
+                  <td>blockList</td>
                   <td>Inte längre kontakt (via någon kanal)</td>
                   <td>boolesk </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListEmail</td>
+                  <td>blockListEmail</td>
                   <td>Kontakta inte längre via e-post</td>
                   <td>boolesk </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListFax</td>
+                  <td>blockListFax</td>
                   <td>Inte längre kontakt via fax</td>
                   <td>boolesk </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListMobile</td>
+                  <td>blockListMobile</td>
                   <td>Kontakta inte längre SMS</td>
                   <td>boolesk </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListPhone</td>
+                  <td>blockListPhone</td>
                   <td>Kontakten tas inte längre via telefon</td>
                   <td>boolesk </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListPostalMail</td>
+                  <td>blockListPostalMail</td>
                   <td>Inte längre kontakt via direktreklam</td>
                   <td>boolesk </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListPushnotification</td>
+                  <td>blockListPushnotification</td>
                   <td>Kontakta inte längre via push-meddelanden</td>
                   <td>boolesk </td>
                   <td> </td>
@@ -210,7 +213,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>middleName</td>
                   <td>Mellannamn</td>
-                  <td>sträng (30)</td>
+                  <td>sträng (50)</td>
                   <td> </td>
                </tr>
                <tr>
