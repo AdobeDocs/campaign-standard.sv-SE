@@ -1,6 +1,6 @@
 ---
 title: Skapa direktreklam
-description: Följ de här stegen för att skapa direktreklam i Adobe Campaign.
+description: Följ de här stegen för att skapa en direktutskick i Adobe Campaign.
 page-status-flag: never-activated
 uuid: 3b1365c4-4ea1-4434-818b-05ff0c9b42c1
 contentOwner: sauviat
@@ -13,7 +13,10 @@ context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '598'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
 
 Att skapa direktreklam påminner mycket om att skapa ett vanligt e-postmeddelande. I följande steg beskrivs konfigurationen som är specifik för den här kanalen. Mer information om andra alternativ finns i [Skapa ett e-postmeddelande](../../channels/using/creating-an-email.md) .
 
-1. Skapa en ny direktutskick. Du kan skapa en från Adobe Campaigns [hemsida](../../start/using/interface-description.md#home-page), i en [kampanj](../../start/using/marketing-activities.md#creating-a-marketing-activity) eller i en [marknadsföringsaktivitetslista](../../start/using/programs-and-campaigns.md#creating-a-campaign).
+1. Skapa en ny direktutskick. Du kan skapa en från [startsidan](../../start/using/interface-description.md#home-page)för Adobe Campaign, i en [kampanj](../../start/using/marketing-activities.md#creating-a-marketing-activity) eller i en [marknadsföringsaktivitetslista](../../start/using/programs-and-campaigns.md#creating-a-campaign).
 
    >[!NOTE]
    >
@@ -60,7 +63,7 @@ Att skapa direktreklam påminner mycket om att skapa ett vanligt e-postmeddeland
 
    >[!NOTE]
    >
-   >Rollen krävs för att Adobe Campaign ska kunna exportera filen och göra den tillgänglig för hämtning. **[!UICONTROL Export]** Kontakta administratören.
+   >Rollen krävs för att Adobe Campaign ska kunna exportera filen och göra den tillgänglig för nedladdning. **[!UICONTROL Export]** Kontakta administratören.
 
    ![](assets/direct_mail_19.png)
 
@@ -84,7 +87,7 @@ Att skapa direktreklam påminner mycket om att skapa ett vanligt e-postmeddeland
 
    >[!NOTE]
    >
-   >Rollen krävs för att Adobe Campaign ska kunna exportera filen och göra den tillgänglig för hämtning. **[!UICONTROL Export]** Kontakta administratören.
+   >Rollen krävs för att Adobe Campaign ska kunna exportera filen och göra den tillgänglig för nedladdning. **[!UICONTROL Export]** Kontakta administratören.
 
    Om du behöver ändra leveransinnehållet behöver du bara klicka på **[!UICONTROL Regenerate file]** knappen för att ta hänsyn till ändringen. Du behöver inte gå igenom beredningen igen.
 
@@ -99,4 +102,4 @@ Du kan nu skicka extraheringsfilen till din direktutskick. Det finns flera alter
 * Skicka det via vanlig e-post, med filen bifogad
 * Skicka via Campaign: utföra din direktreklam i ett [kampanjarbetsflöde](../../automating/using/direct-mail-delivery.md) och lägga till en **[!UICONTROL Transfer file]** som kan skicka filen via till exempel FTP. Se [Överför fil](../../automating/using/transfer-file.md).
 
-Leverantören hämtar listan över felaktiga adresser och skickar informationen till Adobe Campaign, som automatiskt svartlistar de felaktiga adresserna. Se [Återgå till avsändaren](../../channels/using/return-to-sender.md).
+Providern hämtar listan över felaktiga adresser och skickar den här informationen till Adobe Campaign som automatiskt lägger till felaktiga adresser i blockeringslistan. Se [Återgå till avsändaren](../../channels/using/return-to-sender.md).
