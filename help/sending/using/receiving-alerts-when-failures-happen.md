@@ -12,9 +12,9 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
 workflow-type: tm+mt
-source-wordcount: '2026'
+source-wordcount: '2031'
 ht-degree: 0%
 
 ---
@@ -36,9 +36,9 @@ De skickade meddelandena innehåller en rapport som är baserad på följande kr
 * Leveranser med låg genomströmning
 * Pågående leveranser
 
-Mottagarna av varningarna kan övervaka leveranser som behandlas av Adobe Campaign och vidta lämpliga åtgärder när det uppstår problem i samband med att de körs.
+Mottagarna av varningarna kan övervaka leveranser som bearbetas av Adobe Campaign och vidta lämpliga åtgärder när det uppstår problem i samband med att de verkställs.
 
-Dessa varningsmeddelanden kan anpassas beroende på specifika varningsvillkor som definieras via en kontrollpanel i Adobe Campaign-gränssnittet.
+Dessa varningsmeddelanden kan anpassas beroende på särskilda varningsvillkor som definieras via en kontrollpanel i Adobe Campaign.
 
 >[!NOTE]
 >
@@ -59,9 +59,9 @@ Om du vill hantera meddelandenas mottagare, ange aviseringskriterier och komma �
 
 >[!NOTE]
 >
->Om du vill få åtkomst till och konfigurera kontrollpanelerna och varningsvillkoren måste du ha administratörsbehörighet eller visas i säkerhetsgruppen **Leveransansvariga** . Standardanvändare har inte tillgång till kontrollpanelerna i Adobe Campaign-gränssnittet. De kan bara ta emot varningsmeddelanden. Mer information om användare och säkerhet i Adobe Campaign finns i [Typer av användare](../../administration/using/users-management.md) och [Om säkerhetsgrupper](../../administration/using/managing-groups-and-users.md#about-security-groups).
+>Om du vill få åtkomst till och konfigurera kontrollpanelerna och varningsvillkoren måste du ha administratörsbehörighet eller visas i säkerhetsgruppen **Leveransansvariga** . Standardanvändare har inte åtkomst till kontrollpanelerna i Adobe Campaign. De kan bara ta emot varningsmeddelanden. Mer information om användare och säkerhet i Adobe Campaign finns i [Typer av användare](../../administration/using/users-management.md) och [Om säkerhetsgrupper](../../administration/using/managing-groups-and-users.md#about-security-groups).
 
-I Adobe Campaign-gränssnittet kan ni
+I gränssnittet Adobe Campaign kan du:
 
 * Skapa och hantera kontrollpaneler för leveransvarningar. Se [Skapa en kontrollpanel för leveransvarningar](#creating-a-delivery-alerting-dashboard).
 * Definiera och hantera leveransaviseringskriterier för varje kontrollpanel. Du kan t.ex. skapa varningar baserade på leveranser med misslyckade förberedelser eller leveranser med ett lågt dataflöde. Se [Varningsvillkor](#about-alerting-criteria).
@@ -72,7 +72,7 @@ I Adobe Campaign-gränssnittet kan ni
 
 * Få åtkomst till historiken för alla skickade aviseringar för varje instrumentpanel.
 
-   När du väljer en kontrollpanel visas den senaste skickade varningen för den här instrumentpanelen som standard. Alla skickade aviseringar visas till vänster på skärmen. Klicka på ett objekt i **[!UICONTROL History]** listan för att komma åt motsvarande aviseringar.
+   När du väljer en kontrollpanel visas den senast skickade aviseringen för den här instrumentpanelen som standard. Alla skickade aviseringar visas till vänster på skärmen. Klicka på ett objekt i **[!UICONTROL History]** listan för att komma åt motsvarande aviseringar.
 
 ![](assets/delivery-alerting_dashboard.png)
 
@@ -224,7 +224,7 @@ Du kan ändra den här inställningen via **[!UICONTROL Administration]** > **[!
 
 ## Orsaker till leveransvarningar {#delivery-alerting-reasons}
 
-Funktionen **Leveransvarning** håller alla inblandade Adobe Campaign-användare automatiskt informerade om leveransstatus via e-post och kontrollpanel.
+Funktionen **Leveransvarning** håller alla berörda Adobe Campaign-användare automatiskt informerade om leveransstatus via e-post och kontrollpanel.
 
 När du får ett leveransvarningsmeddelande får du några tips om vad du kan göra.
 
@@ -240,7 +240,7 @@ Här är några möjliga orsaker till att du får varningsmeddelanden enligt de 
    * En timeout för anslutningen mellan Adobe Campaign-leveransservern och den mottagande servern
    * Ett leveransproblem
    * Ett felaktigt arbetsflöde
-   Om leveransen har utlösts med ett arbetsflöde kontrollerar du om arbetsflödet har startats korrekt. Mer information finns i [Köra ett arbetsflöde](../../automating/using/about-workflow-execution.md). Annars kontaktar du administratören för Adobe Campaign för att lösa problemet.
+   Om leveransen har utlösts med ett arbetsflöde kontrollerar du om arbetsflödet har startats korrekt. Mer information finns i [Köra ett arbetsflöde](../../automating/using/about-workflow-execution.md). Annars kontaktar du Adobe Campaign-administratören för att lösa problemet.
 
 * **[!UICONTROL Deliveries with preparation failed]**: Ett fel kan uppstå under färdigställande av leveransen i följande fall:
 
@@ -258,7 +258,7 @@ Här är några möjliga orsaker till att du får varningsmeddelanden enligt de 
 
    Möjliga orsaker till en **[!UICONTROL Delivery with bad error ratio for hard bounces]** varning kan vara:
 
-   * Mottagaren är svartlistad, vilket innebär att han/hon inte längre vill bli kontaktad.
+   * Mottagaren finns i blockeringslistan, vilket innebär att han/hon inte längre vill bli kontaktad.
    * Mottagarens e-postadress finns inte.
    * Mottagarens domän finns inte.
    * Mottagarens server blockerar leveransen.
@@ -266,7 +266,7 @@ Här är några möjliga orsaker till att du får varningsmeddelanden enligt de 
 
    * Bygg filtreringstypologiregler för att exkludera en del av meddelandemålet under leveransanalysen, till exempel mottagare i karantän. Se [Skapa en filtreringsregel](../../sending/using/filtering-rules.md).
    * Uppdatera regelbundet kunddatabasen för att upprätthålla goda karantänhanteringsprocesser. Se [Om karantäner](../../sending/using/understanding-quarantine-management.md#about-quarantines).
-   * Generellt sett kan du förbättra slutresultatet så bra som möjligt. Läs den detaljerade dokumentationen om Adobe Campaign- [leveransen](../../sending/using/about-deliverability.md) och kontakta Adobe Campaign-administratören för att få hjälp.
+   * Generellt sett kan du förbättra slutresultatet så bra som möjligt. Se den detaljerade dokumentationen för Adobe Campaign [Deliverability](../../sending/using/about-deliverability.md) och kontakta Adobe Campaign-administratören för att få hjälp.
 
 
 
@@ -280,5 +280,5 @@ Här är några möjliga orsaker till att du får varningsmeddelanden enligt de 
 
 * [Om leveransfel](../../sending/using/understanding-delivery-failures.md)
 * [Om karantänhantering](../../sending/using/understanding-quarantine-management.md)
-* [Hantera svartlistning i Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [Om anmälan och avanmälan i Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
