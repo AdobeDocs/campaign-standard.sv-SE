@@ -12,9 +12,9 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: adc5e92183b891a70cac4aa7a6ed96148d104a20
+source-git-commit: 26f8f7855a30fe90dbfee4bb2b5ee55c7bf4e02b
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,13 @@ ht-degree: 0%
 
 I vissa fall kan data som du vill importera Campaign-servrar behöva krypteras, till exempel om de innehåller PII-data.
 
-Om du vill kunna importera eller exportera krypterade filer måste du först kontakta Adobes kundtjänst så att de ger instansen de krypterings-/dekrypteringskommandon som behövs.
+För att kunna kryptera utgående data eller dekryptera inkommande data måste du hantera GPG-nycklar med [Kontrollpanelen](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html).
 
-Om du vill göra det skickar du en förfrågan med följande uppgifter:
+>[!NOTE]
+>
+>Kontrollpanelen är tillgänglig för alla kunder som har AWS som värd (med undantag för kunder som har sina marknadsföringsinstanser på plats).
+
+Om du inte är berättigad att använda Kontrollpanelen måste du kontakta Adobes kundtjänst så att de kan ge din instans de krypterings-/dekrypteringskommandon som behövs. Om du vill göra det skickar du en förfrågan med följande uppgifter:
 
 * Den **etikett** som ska visas i Campaign-gränssnittet för att använda kommandot. Till exempel&quot;Kryptera fil&quot;.
 * Det **kommando** som ska installeras på instansen.
@@ -36,12 +40,6 @@ Om du vill göra det skickar du en förfrågan med följande uppgifter:
 När begäran har bearbetats är krypterings-/dekrypteringskommandona tillgängliga i **[!UICONTROL Pre-processing stage]** fältet från **[!UICONTROL Load file]** och **[!UICONTROL Extract file]** aktiviteterna. Du kan använda dem för att dekryptera eller kryptera de filer som du vill importera eller exportera.
 
 ![](assets/preprocessing-encryption.png)
-
->[!NOTE]
->
->Observera att GPG-nycklar kan läggas till i din instans med Kontrollpanelen, som är tillgänglig för alla kunder som har AWS som värd (förutom för kunder som har sina marknadsföringsinstanser som lokala).
->
->Mer information finns i dokumentationen [för](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)Kontrollpanelen.
 
 **Relaterade ämnen:**
 
