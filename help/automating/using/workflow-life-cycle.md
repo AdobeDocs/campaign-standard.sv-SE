@@ -1,6 +1,6 @@
 ---
 title: Arbetsflödets livscykel
-description: Learn more about workflow life cycle
+description: Läs mer om arbetsflödets livscykel
 page-status-flag: never-activated
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
 contentOwner: sauviat
@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3ed78fd610b0d134cd1e60f34c93161cb1e5c50f
+source-git-commit: b4d0aa1a9f116f022890d5eccd87730a7a513103
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 # Arbetsflödets livscykel {#life-cycle}
 
-A workflow&#39;s life cycle includes three main steps and each step is linked to a status and a color:
+Arbetsflödets livscykel består av tre huvudsteg och varje steg är länkat till en status och en färg:
 
 * **Redigering** (grå)
 
@@ -33,7 +33,7 @@ A workflow&#39;s life cycle includes three main steps and each step is linked to
 
    När den inledande designfasen är klar kan arbetsflödet startas och hanteras av servern.
 
-* **Finished** (green)
+* **Slutförd** (grön)
 
    Ett arbetsflöde avslutas när det inte längre finns några pågående uppgifter eller när en operator uttryckligen har stoppat instansen.
 
@@ -45,7 +45,7 @@ När arbetsflödet har startats kan det även ha två andra statusar:
 
 * **Fel** (röd)
 
-   Ett fel uppstod när ett arbetsflöde kördes. Arbetsflödet stoppades och användaren måste utföra en åtgärd. Om du vill veta mer om det här felet använder du knappen för att komma åt arbetsflödesloggen (se ![](assets/printpreview_darkgrey-24px.png) Övervakning [](#monitoring)).
+   Ett fel uppstod när ett arbetsflöde kördes. Arbetsflödet stoppades och användaren måste utföra en åtgärd. Om du vill veta mer om det här felet använder du knappen för att komma åt arbetsflödesloggen (se ![](assets/printpreview_darkgrey-24px.png) Övervakning [](../../automating/using/monitoring-workflow-execution.md)).
 
 Med listan över marknadsföringsaktiviteter kan du visa alla arbetsflöden och deras status. Mer information finns i [Hantera marknadsföringsaktiviteter](../../start/using/marketing-activities.md#about-marketing-activities).
 
