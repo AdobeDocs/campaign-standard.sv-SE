@@ -12,9 +12,9 @@ discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3aa987c423181180a5c20bcca04cde04a2bf6086
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 ## Skapa en mappad utlösare i Campaign {#creating-a-mapped-trigger-in-campaign}
 
-Du bör se till att definiera de beteenden som du vill övervaka i förväg i Adobe Experience Cloud ( **[!UICONTROL Triggers]** bastjänst). Mer information finns i dokumentationen [för](https://marketing.adobe.com/resources/help/en_US/mcloud/triggers.html)Adobe Experience Cloud. Observera att när du definierar utlösaren måste du aktivera aliasen. För varje beteende (surfning/formulärborttagning, tillägg/borttagning av produkter, session har gått ut osv.) måste en ny utlösare läggas till i Adobe Experience Cloud.
+Du bör se till att definiera de beteenden som du vill övervaka i förväg i Adobe Experience Cloud ( **[!UICONTROL Triggers]** bastjänst). Mer information finns i dokumentationen [för](https://docs.adobe.com/content/help/en/core-services/interface/activation/triggers.html)Adobe Experience Cloud. Observera att när du definierar utlösaren måste du aktivera aliasen. För varje beteende (surfning/formulärborttagning, tillägg/borttagning av produkter, session har gått ut osv.) måste en ny utlösare läggas till i Adobe Experience Cloud.
 
-Nu måste du skapa en utlösande händelse i Adobe Campaign baserat på en befintlig Adobe Experience Cloud-utlösare.
+Nu måste du skapa en utlösande händelse i Adobe Campaign utifrån en befintlig Adobe Experience Cloud-utlösare.
 
-I den här [videon](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) får du hjälp att förstå hur utlösare konfigureras i Adobe Campaign.
+Du kan titta på den här [videon](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) för att få en förståelse för hur utlösare ställs in i Adobe Campaign.
 
 Stegen för att implementera detta är:
 
