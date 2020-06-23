@@ -1,6 +1,6 @@
 ---
-title: Målgrupper med Adobe Experience Platform
-description: Lär dig att rikta in er på Adobe Experience PLate-målgrupper i arbetsflöden.
+title: Målgrupper i Adobe Experience Platform
+description: Lär dig att rikta in er på Adobe Experience Platform i arbetsflöden.
 page-status-flag: never-activated
 uuid: 528d9472-e447-47af-a6b2-3181aa5fb5ad
 contentOwner: sauviat
@@ -12,20 +12,23 @@ discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: be7ab90583e9c6472fd2c86082e832432d0a32b9
+workflow-type: tm+mt
+source-wordcount: '404'
+ht-degree: 0%
 
 ---
 
 
-# Målgrupper med Adobe Experience Platform {#targeting-aep-audiences}
+# Målgrupper i Adobe Experience Platform {#targeting-aep-audiences}
 
 >[!IMPORTANT]
 >
 >Målgruppstjänsten är för närvarande i betaversion, som kan uppdateras ofta utan föregående meddelande. Kunderna måste vara värdbaserade på Azure (för närvarande endast betaversioner för Nordamerika) för att få tillgång till dessa funktioner. Kontakta Adobes kundtjänst om du vill ha tillgång till tjänsten.
 
-När ni har skapat en publik [på](../../audiences/using/aep-about-audience-destinations-service.md) Adobe Experience Platform med segmentverktyget för enhetlig profil kan ni använda det på samma sätt som ni skulle göra för en Campaign-målgrupp inom arbetsflöden att personalisera och skicka meddelanden.
+När ni har skapat en [Adobe Experience Platform-målgrupp](../../audiences/using/aep-about-audience-destinations-service.md) med segmentbyggaren kan ni använda den på samma sätt som ni skulle göra för en Campaign-målgrupp inom arbetsflöden att personalisera och skicka meddelanden.
 
-Så här aktiverar du en Adobe Experience Platform-användare i dina arbetsflöden:
+Så här aktiverar du en Adobe Experience Platform-målgrupp i dina arbetsflöden:
 
 1. Lägg till en **[!UICONTROL Read audience]** aktivitet i arbetsflödet och öppna den.
 
@@ -35,9 +38,9 @@ Så här aktiverar du en Adobe Experience Platform-användare i dina arbetsflöd
 
 1. (Valfritt) När målgruppen har valts kan du klicka på ögonknappen för att granska och/eller redigera segmentdefinitionen (se till att spara ändringarna igen).
 
-   Om du klickar på ögonknappen dirigeras du till verktyget Enhetligt segment (på en annan flik) som är kopplat till den valda målgruppen i Campaign.
+   Om du klickar på ögonknappen dirigeras du till segmentbyggaren (på en annan flik) som är kopplad till den valda målgruppen i Campaign.
 
-1. Välj ett **[!UICONTROL Platform data mapping]** element för att ange önskad måldimension för den valda Adobe Experience Platform-publiken.
+1. Markera ett **[!UICONTROL Platform data mapping]** element för att ange önskad måldimension för den valda målgruppen i Adobe Experience Platform.
 
    Som standard är primärnyckeln (t.ex. iRecipientID för profiltabellen, iAppSubscriptionID för AppSubscription-tabellen) som används för avstämning automatiskt tillgänglig i listrutan. Om du vill ange ett mål utanför primärnyckeln måste du skapa ett anpassat **namnutrymme**.
 
