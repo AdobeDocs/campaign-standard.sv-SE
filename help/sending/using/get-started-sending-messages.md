@@ -12,7 +12,10 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1b7d2210647a87693d93e325a4c888cb23e5f3a
+source-git-commit: 2df909256b910e5e26e0fdac7e150edd0603c8ab
+workflow-type: tm+mt
+source-wordcount: '576'
+ht-degree: 0%
 
 ---
 
@@ -30,17 +33,17 @@ När du har definierat målet och skapat innehållet i ett meddelande måste du 
 
 När marknadsföringskampanjer har slutförts och de olika meddelandena har skickats, ska du övervaka dem med hjälp av loggar för att kontrollera kampanjens framgång och hämta spårningsinformation om mottagarna.
 
-Slutligen kan ni utnyttja riktlinjer och verktyg för leveransbarhet som finns i Campaign Standard för att förbättra antalet levererade meddelanden och säkerställa framgångsrika marknadsföringskampanjer.
+Slutligen kan ni utnyttja riktlinjer och verktyg för leverans i Campaign Standard för att förbättra antalet levererade meddelanden och säkerställa framgångsrika marknadsföringskampanjer.
 
 ## Förbered och testa {#prepare-test-send}
 
 <img src="assets/do-not-localize/icon_prepare.svg" width="60px">
 
-I Campaign Standard- **meddelandeförberedelsen** analyseras meddelandets mål, personalisering och giltighet. Fel som upptäcks under det här steget måste åtgärdas innan du kan fortsätta.
+Campaign Standardens **meddelandeförberedelse** analyserar målet, personaliseringen och meddelandets giltighet. Fel som upptäcks under det här steget måste åtgärdas innan du kan fortsätta.
 
 **Förgranska och testa** dina meddelanden med olika funktioner: skicka korrektur för att testa profiler eller taggade profiler, testa ämnesraden i dina e-postmeddelanden och kontrollera återgivningen av dina meddelanden för att se till att de visas på ett optimalt sätt på olika webbklienter, webbmejl och enheter.
 
-Använd schemaläggningsfunktionerna$$ för att definiera när meddelanden ska skickas. Du kan till exempel anpassa sändning vid mottagarens tidszon, optimera sändningstiden eller beräkna sändningsdatumet.
+Utnyttja funktionerna för kampanjplanering för att definiera när meddelanden ska skickas. Du kan till exempel anpassa sändning vid mottagarens tidszon, optimera sändningstiden eller beräkna sändningsdatumet.
 
 Använd **typologier** för att kontrollera om ditt meddelande är giltigt och uppfyller dina kvalitetskriterier med hjälp av regler för utmattning, kontroll och målinriktning. Om du till exempel vill kontrollera att dina e-postmeddelanden alltid innehåller en ämnesrad, eller om du vill utesluta att prenumeranter avvisas från meddelandets mottagare.
 
@@ -57,11 +60,11 @@ Läs mer:
 
 <img src="assets/do-not-localize/icon_send.svg"  width="60px">
 
-När meddelandet är klart kan du bekräfta överförings- och åtkomstloggarna och rapporterna för att **övervaka leveransen** och mäta kampanjens framgångar. Adobe Campaign har också ett e-postlarmsystem som håller reda på leveransframgångar eller leveransfel, samt funktioner för karantänhantering.
+När meddelandet är klart kan du bekräfta överförings- och åtkomstloggarna och rapporterna för att **övervaka leveransen** och mäta kampanjens framgångar. Adobe Campaign tillhandahåller också ett e-postvarningssystem som håller reda på leveransframgångar eller misslyckanden samt karantänhanteringsfunktioner.
 
 **Spåra beteendet** för meddelandemottagarna genom att använda sessioner och permanenta cookies för att hämta spårningsinformation (klickade URL:er, spegelsidor, öppnade meddelanden..).
 
-Slutligen kan ni konfigurera Adobe Campaign så att den **behåller en kopia av e-postmeddelanden** som skickas från er plattform via e-post-BCC. Om din organisation behöver arkivera alla utgående e-postmeddelanden för att uppfylla kraven kan du aktivera den funktionen.
+Slutligen kan du konfigurera Adobe Campaign så att det **behåller en kopia av e-postmeddelanden** som skickas från din plattform via e-post-BCC. Om din organisation behöver arkivera alla utgående e-postmeddelanden för att uppfylla kraven kan du aktivera den funktionen.
 
 Läs mer:
 
