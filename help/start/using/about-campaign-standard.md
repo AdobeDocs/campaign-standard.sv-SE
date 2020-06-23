@@ -1,6 +1,6 @@
 ---
 title: Kom igång med Campaign Standard
-description: Adobe Campaign är ett kraftfullt verktyg för kanalövergripande kampanjhantering som kan hjälpa er att anpassa era online- och offlinestrategier för att skapa personaliserade kundupplevelser.
+description: Adobe Campaign är ett kraftfullt verktyg för kanalövergripande kampanjhantering som hjälper er att anpassa era online- och offlinestrategier för att skapa personaliserade kundupplevelser.
 page-status-flag: never-activated
 uuid: 027f6787-d2ef-44ae-a40a-8facdfe2ae77
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: d7846c33f0bc3730fc63a8659c8afc1c868064e0
 workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 # Kom igång med Campaign Standard {#about-campaign-standard}
 
-Adobe Campaign Standard är ett kraftfullt verktyg för kanalövergripande kampanjhantering som hjälper er att anpassa era online- och offlinestrategier för att skapa personaliserade kundupplevelser.
+Adobe Campaign Standard är ett kraftfullt kanalövergripande kampanjhanteringsverktyg som kan hjälpa er att anpassa era online- och offlinestrategier för att skapa personaliserade kundupplevelser.
 
 Styr hela processen med att skapa, köra och spåra flerkanalskampanjer samt skicka meddelanden som är personaliserade utifrån kundens profil, beteende, preferenser och behov. Ni kan enkelt samordna, förbättra och automatisera hela marknadsföringsprocessen och integrera den med andra Adobe-lösningar.
 
@@ -56,7 +56,7 @@ Planera, samordna och samordna flerkanalskampanjer.
 
 Designa och skicka meddelanden i online- och offlinekanaler, inklusive optimering av e-postleveranser för flera enheter genom testning och responsiva designstrategier.
 
-**Utnyttja kommunikationskanalerna** i Campaign för att leverera era marknadsföringskampanjer på rätt plats: e-post, SMS, push-meddelanden, meddelande i appen, direktreklam, landningssidor. Få tid och enhetlighet i er meddelandestrategi genom att skapa mallar för alla typer av meddelanden (transaktionsmeddelanden, återkommande flerspråkiga meddelanden). Gör A/B-tester och fånga publikens intresse med personalisering och dynamiska innehållsfunktioner. [Kom igång med kommunikationskanaler](../../channels/using/get-started-communication-channels.md)
+**Utnyttja kommunikationskanalerna** i Campaign för att leverera era marknadsföringskampanjer på rätt plats: e-post, SMS, push-meddelanden, meddelande i appen, direktreklam, landningssidor. Få tid och enhetlighet i er meddelandestrategi genom att skapa mallar för alla typer av meddelanden (transaktionsmeddelanden, återkommande flerspråkiga meddelanden). Utför A/B-tester och fånga publikens intresse med personalisering och dynamiska innehållsfunktioner. [Kom igång med kommunikationskanaler](../../channels/using/get-started-communication-channels.md)
 
 **Använd Campaign Email Designer** för att skapa engagerande, individuellt anpassade e-postmeddelanden. Börja från scratch eller använd inbyggda innehållsfragment eller mallar för att utforma e-postmeddelanden med HTML-format som är optimerat för responsiv design. [Kom igång med design av e-postinnehåll](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -79,12 +79,12 @@ Använd funktionen för leveransvarningar för att hålla reda på leveransframg
 
 <img width="60px" alt="villkor" src="assets/icon_admin.svg"/>
 
-**Utöka datamodellen** Campaign Standard med era egna fält och resurser och övervaka alla datamodellsändringar i en enda vy. [Kom igång med datamodellen Campaign Standard](../../developing/using/get-started-data-model.md)
+**Utöka Campaign Standardens datamodell** med egna fält och resurser och övervaka alla datamodellsändringar i en enda vy. [Kom igång med Campaign Standardens datamodell](../../developing/using/get-started-data-model.md)
 
-**Utnyttja REST API:er** för att utföra olika åtgärder och integrera Campaign Standard med ert eget ekosystem. [Kom igång med Campaign Standard REST API:er](../../api/using/get-started-apis.md)
+**Utnyttja REST API:er** för att utföra olika åtgärder och integrera Campaign Standard med ditt eget ekosystem. [Kom igång med Campaign Standard REST API:er](../../api/using/get-started-apis.md)
 
-**Administrera kampanj** från en enda vy: övervaka instansen, hantera användarnas behörigheter. Konfigurera externa servrar för att ansluta till din instans och konfigurera parametrar för dina kommunikationskanaler. [Kom igång med Campaign Standard-administration](../../administration/using/get-started-campaign-administration.md)
+**Administrera kampanj** från en enda vy: övervaka instansen, hantera användarnas behörigheter. Konfigurera externa servrar för att ansluta till din instans och konfigurera parametrar för dina kommunikationskanaler. [Kom igång med Campaign Standard administration](../../administration/using/get-started-campaign-administration.md)
 
-**Importera och exportera data** enkelt med hjälp av datahanteringsfunktionerna i Campaign Standard. [Kom igång med processer och datahantering](../../automating/using/get-started-workflows.md)
+**Importera och exportera data** enkelt med Campaign Standardens datahanteringsfunktioner. [Kom igång med processer och datahantering](../../automating/using/get-started-workflows.md)
 
-**Kombinera Campaign-funktioner med andra lösningar** för att hjälpa er att skapa optimala marknadsföringskampanjer. [Kom igång med integreringar med Campaign Standard](../../integrating/using/get-started-campaign-integrations.md)
+**Kombinera Campaign-funktioner med andra lösningar** för att hjälpa er att skapa optimala marknadsföringskampanjer. [Kom igång med integreringar av Campaign Standarder](../../integrating/using/get-started-campaign-integrations.md)
