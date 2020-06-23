@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 50c3188e1bc0eb92fd52637988834ce8538335a3
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
 workflow-type: tm+mt
-source-wordcount: '5399'
+source-wordcount: '5401'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,7 @@ Se de senaste [dokumentationsuppdateringarna](../../rn/using/documentation-updat
 
 **Förbättringar**
 
-* Tack vare integreringen mellan Adobe Campaign och Adobe Target kan du nu utnyttja Target [behörighetsfunktion](https://marketing.adobe.com/resources/help/en_US/target/target/properties-overview.html) . När du inkluderar en dynamisk bild från Adobe Target i ett e-postmeddelande kan du nu ange en Target-egenskap (at_property-kod).
+* Tack vare integreringen mellan Adobe Campaign och Adobe Target kan du nu utnyttja Target [behörighetsfunktion](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html) . När du inkluderar en dynamisk bild från Adobe Target i ett e-postmeddelande kan du nu ange en Target-egenskap (at_property-kod).
 * Anpassade resurser som har en egen kopieringslänk till profilresursen beaktas nu av förfrågningar om åtkomst/borttagning av sekretess i GDPR. För 1 enkel kardinalitetslänkar och N kardinalitetssamlingslänkar måste du välja&quot;Att ta bort/duplicera målposten innebär att de poster som länken refererar till tas bort/dupliceras&quot; i den anpassade resursen. För enkla länkar med 0 eller 1 kardinalitet väljer du&quot;Om du tar bort/duplicerar posten innebär det att målposten som länken refererar till tas bort/dupliceras&quot;.
 
 **Andra ändringar**
