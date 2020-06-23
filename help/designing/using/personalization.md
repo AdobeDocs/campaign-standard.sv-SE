@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
 workflow-type: tm+mt
 source-wordcount: '2536'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 # Anpassa e-postinnehåll {#personalization}
 
-Innehållet i och visningen av meddelanden från Adobe Campaign kan personaliseras på flera olika sätt. Dessa sätt kan kombineras enligt villkor beroende på profilerna. I allmänhet kan ni med Adobe Campaign
+Innehållet i och visningen av meddelanden från Adobe Campaign kan personaliseras på flera olika sätt. Dessa sätt kan kombineras enligt villkor beroende på profilerna. I allmänhet kan du med Adobe Campaign:
 
 * Infoga dynamiska anpassningsfält. Se [Infoga ett personaliseringsfält](#inserting-a-personalization-field).
 * Infoga fördefinierade personaliseringsblock. Se [Lägga till ett innehållsblock](#adding-a-content-block).
@@ -44,7 +44,7 @@ Det här fältet kan anpassas. Om du vill göra det kan du lägga till anpassnin
 
 ## Anpassa URL:er{#personalizing-urls}
 
-Med Adobe Campaign kan ni personalisera en eller flera URL-adresser i meddelandet genom att lägga till fält för personalisering, innehållsblock eller dynamiskt innehåll till dem. Så här gör du:
+Med Adobe Campaign kan du anpassa en eller flera URL-adresser i meddelandet genom att lägga till fält för anpassning, innehållsblock eller dynamiskt innehåll. Så här gör du:
 
 1. Infoga en extern URL och ange dess parametrar. Se [Infoga en länk](../../designing/using/links.md#inserting-a-link).
 1. Om den inte visas klickar du på pennan bredvid den valda URL:en i inställningspanelen för att få tillgång till anpassningsalternativen.
@@ -60,7 +60,7 @@ Med Adobe Campaign kan ni personalisera en eller flera URL-adresser i meddelande
 
 ## Infoga ett anpassningsfält{#inserting-a-personalization-field}
 
-Med Adobe Campaign kan du infoga ett fält från databasen på din sida, till exempel profilens förnamn.
+Med Adobe Campaign kan du infoga ett fält från databasen på sidan, t.ex. profilens förnamn.
 
 >[!NOTE]
 >
@@ -90,7 +90,7 @@ När personaliseringen har genererats (när du till exempel förhandsgranskar oc
 
 ## Lägga till ett innehållsblock{#adding-a-content-block}
 
-Adobe Campaign innehåller en lista med förkonfigurerade innehållsblock. Dessa innehållsblock är dynamiska, personaliserade och har en specifik rendering. Du kan till exempel lägga till en hälsning eller en länk till spegelsidan.
+Adobe Campaign erbjuder en lista med förkonfigurerade innehållsblock. Dessa innehållsblock är dynamiska, personaliserade och har en specifik rendering. Du kan till exempel lägga till en hälsning eller en länk till spegelsidan.
 
 >[!NOTE]
 >
@@ -185,7 +185,7 @@ Mer information finns i [Målinställningar och resurser](../../automating/using
 
 ## Anpassa en bildkälla{#personalizing-an-image-source}
 
-Med Adobe Campaign kan ni personalisera en eller flera bilder i meddelandet utifrån ett visst kriterium eller använda spårning. Detta görs genom att infoga anpassningsfält, innehållsblock eller dynamiskt innehåll i bildkällan. Så här gör du:
+Med Adobe Campaign kan du anpassa en eller flera bilder i meddelandet efter ett visst kriterium eller använda spårning. Detta görs genom att infoga anpassningsfält, innehållsblock eller dynamiskt innehåll i bildkällan. Så här gör du:
 
 1. Infoga en bild i innehållet i meddelandet eller markera en bild som redan finns.
 1. Markera **[!UICONTROL Enable personalization]** alternativet på paletten Bildegenskaper.
@@ -201,7 +201,7 @@ Med Adobe Campaign kan ni personalisera en eller flera bilder i meddelandet utif
 
    >[!NOTE]
    >
-   >Domännamnet (http://mydomain.com) kan inte anpassas, det måste anges manuellt. Resten av URL-adressen kan personaliseras. Till exempel: http://mydomain.com/`[Gender]`.jpg
+   >Domännamnet (http://mydomain.com) kan inte anpassas, det måste anges manuellt. Resten av URL-adressen kan personaliseras. Till exempel: http://mydomain.com/ `[Gender]` .jpg
 
 1. Bekräfta ändringarna.
 
