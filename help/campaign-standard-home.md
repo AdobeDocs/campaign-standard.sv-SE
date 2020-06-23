@@ -1,12 +1,12 @@
 ---
 keywords: Campaign Standard;home;popular topics
 solution: Campaign Standard
-title: Produktdokumentation för Adobe Campaign Standard
+title: Adobe Campaign Standardens produktdokumentation
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 01fed9b50964ae15a2127a1a2f9a3ebca944d6b1
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 ## Nyheter
 
-* **[Testa e-post med målprofiler](sending/using/testing-messages-using-target.md)**<br/>Lär dig hur du testar e-postmeddelanden med riktiga målprofiler
+* Både&quot;vitlista&quot; och&quot;svartlista&quot; har tagits bort från Adobe Campaign dokumentation. [Läs mer](rn/using/documentation-updates.md)
 
-* **[Sekretesshantering](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/> Läs mer om verktygen i Adobe Campaign som hjälper dig att följa din sekretesspolicy
+* **[Integritetshantering](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/> Läs mer om verktygen från Adobe Campaign som hjälper dig att följa din sekretesspolicy
 
 * **[Campaign Standard Mobile Guide](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/> Läs mer om allmänna riktlinjer för mobila leveranser
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 | Användbara sidor | Resurser för utvecklare |
 |---|---|
-| [Versionsinformation](rn/using/release-notes.md) | [Experience Cloud-utlösare](integrating/using/about-adobe-experience-cloud-triggers.md) |
+| [Versionsinformation](rn/using/release-notes.md) | [Experience Cloud triggers](integrating/using/about-adobe-experience-cloud-triggers.md) |
 | [Dokumentation för kontrollpanelen](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [Kampanj-API:er](api/using/get-started-apis.md) |
 | [Implementeringsguide](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) | [Lista över felmeddelanden](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Versionsplanering](rn/using/release-planning.md) | [Kampanjdatamodell](developing/using/datamodel-introduction.md) |
