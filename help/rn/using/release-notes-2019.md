@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 50c3188e1bc0eb92fd52637988834ce8538335a3
+source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
 workflow-type: tm+mt
 source-wordcount: '7626'
 ht-degree: 0%
@@ -59,7 +59,7 @@ ht-degree: 0%
   <tr> 
    <td> 
     <p>Integrationen mellan Adobe Campaign Standard och Microsoft Dynamics 365 är nu tillgänglig. Du kan överföra dina kontakter och anpassade enhetsposter från Dynamics 365 till Campaign och få tillbaka händelsedata via e-post från Campaign till Dynamics 365 för bättre sälj- och marknadsföringsanpassning.</p>
-    <p>Se den <a href="../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md">detaljerade dokumentationen</a> för att konfigurera integreringen och se videon <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html">med</a>instruktioner.</p>
+    <p>Se den <a href="../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md">detaljerade dokumentationen</a> för att konfigurera integreringen och se videon <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/campaign-and-microsoft-dynamics-365/working-with-campaign-standard-and-microsoft-dynamics-365.html">med</a>instruktioner.</p>
   </td>
   </tr> 
  </tbody> 
@@ -441,7 +441,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
    <td> Förbättrat arbetsflöde<br /> </td> 
    <td> <p>Följande arbetsflödesfunktioner har lagts till:</p> 
     <ul> 
-     <li> Nu kan du kopiera och klistra in aktiviteter i ett arbetsflöde eller ett annat arbetsflöde från samma Campaign-instans. På så sätt kan du enkelt duplicera ett helt arbetsflöde eller specifika aktiviteter och behålla de inställningar som ursprungligen definierades. Mer information finns i den <a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">detaljerade dokumentationen</a>. (CAMP-2014) </li> 
+     <li> Nu kan du kopiera och klistra in aktiviteter i ett arbetsflöde eller i ett annat arbetsflöde från samma Campaign-instans. På så sätt kan du enkelt duplicera ett helt arbetsflöde eller specifika aktiviteter och behålla de inställningar som ursprungligen definierades. Mer information finns i den <a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">detaljerade dokumentationen</a>. (CAMP-2014) </li> 
      <li> När du använder aktiviteten <strong>Läs in fil</strong> kan du nu lägga till en tidsstämpel till namnet på filen som innehåller de avvisade posterna. Mer information finns i den <a href="../../automating/using/load-file.md#configuration">detaljerade dokumentationen</a>. </li> 
      <li> <strong>Fråge</strong> - och <strong>segmenteringsaktiviteter</strong> gör nu att du kan aktivera en utgående övergång om aktiviteterna inte hämtar några data. </li> 
     </ul> </td> 
