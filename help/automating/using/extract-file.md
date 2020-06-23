@@ -1,6 +1,6 @@
 ---
 title: Extrahera fil
-description: Filaktiviteten Extrahera gör att du kan exportera data från Adobe Campaign i form av en extern fil.
+description: Med filaktiviteten Extrahera kan du exportera data från Adobe Campaign i form av en extern fil.
 page-status-flag: never-activated
 uuid: 631f0fbd-9e8d-4f77-a338-fcb7f4fc1774
 contentOwner: sauviat
@@ -13,7 +13,10 @@ context-tags: fileExport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 2a8cb9aa0d018fec9d5b256beba079c5ec3afaf0
+workflow-type: tm+mt
+source-wordcount: '577'
+ht-degree: 0%
 
 ---
 
@@ -48,6 +51,9 @@ Det sätt på vilket data extraheras definieras när aktiviteten konfigureras.
    >Det går att använda funktionen i det här fältet för att ange filnamnet **[!UICONTROL formatDate]** .
 
 1. Om du vill kan du komprimera utdatafilen genom att välja **[!UICONTROL Compression]** i **[!UICONTROL Add a pre-processing step]** fältet. Utdatafilen komprimeras till en GZIP-fil (.gz).
+
+   I **[!UICONTROL Add a pre-processing step]** fältet kan du även kryptera en fil innan du extraherar den. Mer information om hur du arbetar med krypterade filer finns i [det här avsnittet](../../automating/using/managing-encrypted-data.md)
+
 1. Klicka på ![](assets/add_darkgrey-24px.png) - eller **[!UICONTROL Add an element]** -knappen för att lägga till en utdatakolumn.
 
    ![](assets/wkf_data_export2.png)
