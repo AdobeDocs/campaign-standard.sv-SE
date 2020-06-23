@@ -12,7 +12,10 @@ discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bebe6df66c9a87db882d03b36c72ebdae3085245
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+workflow-type: tm+mt
+source-wordcount: '2342'
+ht-degree: 0%
 
 ---
 
@@ -70,7 +73,7 @@ Så här skapar och konfigurerar du en **[!UICONTROL Fatigue]** typologiregel:
 
    ![](assets/fatigue20.png)
 
-1. Markera fliken och länka din typologiregel till den typologi som används för dina leveranser. **[!UICONTROL Typologies]** Se [Hantera typologier](../../sending/using/about-typology-rules.md#managing-typologies) och [typologiregler](../../sending/using/about-typology-rules.md#typology-rules).
+1. Markera fliken och länka din typologiregel till den typologi som används för dina leveranser. **[!UICONTROL Typologies]** Se [Hantera typologier](../../sending/using/managing-typologies.md) och [typologiregler](../../sending/using/managing-typology-rules.md).
 
    ![](assets/fatigue12.png)
 
@@ -111,7 +114,7 @@ Följande kanaler är tillgängliga:
 
 Trötthetsregler är kompatibla med alla leveranstyper: engångsleveranser, återkommande leveranser, arbetsflöden och transaktionsmeddelanden.
 
-**Transaktionsmeddelanden** kan användas för att skicka tjänstmeddelanden som riktar sig mot en händelse (rtEvent) samt marknadsföringsmeddelanden (målprofiler), till exempel ett återmarknadsföringsmeddelande. Trötthetsregler är endast kompatibla med marknadsföringsmeddelanden (målgruppsprofiler). Händelsetransaktionsmeddelanden innehåller ingen profilinformation och är därför inte kompatibla med trötthetsregler (även om det gäller en anrikning med profiler). Tack vare stöd för marknadsföringsmeddelanden i transaktionsmeddelanden kan ni **tillämpa en trötthetsregel på alla kanaler, inklusive marknadsföringsmeddelanden**.
+**Transaktionsmeddelanden** kan användas för att skicka tjänstmeddelanden som riktar sig mot en händelse (rtEvent) samt marknadsföringsmeddelanden (målprofiler), till exempel ett återmarknadsföringsmeddelande. Trötthetsregler är endast kompatibla med marknadsföringsmeddelanden (målgruppsprofiler). Händelsetransaktionsmeddelanden innehåller ingen profilinformation och är därför inte kompatibla med trötthetsregler (även när det gäller en anrikning med profiler). Tack vare stöd för marknadsföringsmeddelanden i transaktionsmeddelanden kan ni **tillämpa en trötthetsregel på alla kanaler, inklusive marknadsföringsmeddelanden**.
 
 ## Definiera tröskelvärdet {#defining-the-threshold}
 
@@ -190,7 +193,7 @@ Det finns tre flikar som visar information om resultaten av trötthetskörningen
 
 ## Visa sammanfattningsrapporten om trötthetsregler {#viewing-the-fatigue-rule-summary-report}
 
-Adobe Campaign innehåller en dedikerad rapport om trötthetsregler som hjälper er att förstå hur de tillämpas på era kampanjer. På så sätt kan ni lära er hur era kampanjer påverkar varandra och göra rätt justeringar.
+Adobe Campaign har en särskild rapport om trötthetsregler som hjälper er att förstå hur de tillämpas på era kampanjer. På så sätt kan ni lära er hur era kampanjer påverkar varandra och göra rätt justeringar.
 
 Du kommer åt **[!UICONTROL Fatigue rules summary]** rapporten med hjälp av **[!UICONTROL Reports]** knappen längst upp till höger i varje program, kampanj och meddelande.
 
