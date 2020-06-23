@@ -13,9 +13,9 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 017e1e80657a3145a97c6ab62a577a9a2164cc99
+source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
 workflow-type: tm+mt
-source-wordcount: '1561'
+source-wordcount: '1559'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,10 @@ Processer och krav som rör den här integreringen är tillgängliga i [det här
 
 När du konfigurerar det nya externa kontot måste du ange följande information:
 
-* Server: Ange webbadressen till Adobe Experience Manager-servern. Till exempel **http://aem.domain.com:4502**.
+* Server: Ange webbadressen till Adobe Experience Manager-servern. Exempel:
+
+   ``` http://aem.domain.com:4502 ```
+
 * Autentiseringsuppgifter för AEM-konto: använd det konto som kommer att få åtkomst till instansen Adobe Experience Manager. Det ska vara ett konto i kampanjfjärrgruppen i Experience Manager.
 
 ## Externt Google reCAPTCHA-konto {#google-recaptcha-external-account}
