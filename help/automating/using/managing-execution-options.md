@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 ---
 
 
-# Managing execution options {#managing-execution-options}
+# Hantera körningsalternativ {#managing-execution-options}
 
 Om du vill ändra ett arbetsflödes körningsalternativ använder du knappen för att komma åt arbetsflödesegenskaperna och väljer ![](assets/edit_darkgrey-24px.png) **[!UICONTROL Execution]** avsnittet.
 
@@ -31,13 +31,13 @@ Möjliga alternativ är:
 
 * **[!UICONTROL Default affinity]**: I det här fältet kan du tvinga ett arbetsflöde eller en arbetsflödesaktivitet att köras på en viss dator.
 
-* **[!UICONTROL History in days]**: Anger antalet dagar efter vilka historiken måste rensas. Historiken innehåller element som är relaterade till arbetsflödet: loggar, uppgifter, händelser (tekniska objekt som är länkade till arbetsflödesåtgärden) samt filer som hämtats av **[!UICONTROL Transfer file]** aktiviteten. Default value is 30 days for out-of-the-box workflow templates.
+* **[!UICONTROL History in days]**: Anger antalet dagar efter vilka historiken måste rensas. Historiken innehåller element som är relaterade till arbetsflödet: loggar, uppgifter, händelser (tekniska objekt som är länkade till arbetsflödesåtgärden) samt filer som hämtats av **[!UICONTROL Transfer file]** aktiviteten. Standardvärdet är 30 dagar för färdiga arbetsflödesmallar.
 
-   Purge of the history is performed by the Database cleanup technical workfow, which is executed by default everyday (see [List of technical workflows](../../administration/using/technical-workflows.md).)
+   Historiken rensas av det tekniska arbetsflödet för databasrensning som utförs som standard varje dag (se [Lista över tekniska arbetsflöden](../../administration/using/technical-workflows.md)).
 
    >[!IMPORTANT]
    >
-   >If the **[!UICONTROL History in days]** field is left blank, its value will be considered as &quot;1&quot;, meaning that the history will purged after 1 day.
+   >Om **[!UICONTROL History in days]** fältet lämnas tomt betraktas dess värde som &quot;1&quot;, vilket innebär att historiken rensas efter 1 dag.
 
 * **[!UICONTROL Save SQL queries in the log]**: Med kan du spara SQL-frågor från arbetsflödet i loggarna.
 
@@ -45,6 +45,6 @@ Möjliga alternativ är:
 
 * **[!UICONTROL Execute in the engine (do not use in production)]**: gör att du kan köra arbetsflödet lokalt, för testning i utvecklingsmiljön.
 
-* **[!UICONTROL Severity]**: Med kan du ange en prioritetsnivå för att köra arbetsflöden i Adobe Campaign-instansen. Kritiska arbetsflöden körs först.
+* **[!UICONTROL Severity]**: I kan du ange en prioritetsnivå för att köra arbetsflöden i din Adobe Campaign-instans. Kritiska arbetsflöden körs först.
 
-I avsnittet finns ytterligare alternativ som du kan använda för att hantera hur arbetsflöden fungerar vid fel. **[!UICONTROL Error management]** Dessa alternativ beskrivs i avsnittet [Felhantering](#error-management) .
+I avsnittet finns ytterligare alternativ som du kan använda för att hantera hur arbetsflöden fungerar vid fel. **[!UICONTROL Error management]** Dessa alternativ beskrivs i avsnittet [Felhantering](../../automating/using/monitoring-workflow-execution.md#error-management) .
