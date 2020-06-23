@@ -1,5 +1,5 @@
 ---
-title: Kom igång med Campaign Standard-API:er
+title: Kom igång med Campaign Standards-API:er
 description: Läs mer om programmeringsgränssnitt för Campaing Standard.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -12,19 +12,19 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
 
 
-# Kom igång med Campaign Standard-API:er {#get-started-apis}
+# Kom igång med Campaign Standards-API:er {#get-started-apis}
 
-API:er för Campaign Standard är avsedda att göra det möjligt att **skapa integreringar** för Adobe Campaign Standard och **bygga ett eget ekosystem** genom att interagera med Adobe Campaign Standard med den panel med tekniker som ni använder.
+Campaign Standard-API:er är avsedda att göra det möjligt att **skapa integreringar** för Adobe Campaign Standard och **bygga ett eget ekosystem** genom att interagera Adobe Campaign Standard med den panel med tekniker som du använder.
 
-Med API:erna i Adobe Campaign Standard får du tillgång till följande funktioner:
+Med Adobe Campaign Standard-API:erna får du tillgång till följande funktioner:
 
 <table><tr>
  <td valign="top"><a href="../../api/using/retrieving-profiles.md"><img width="60px" alt="villkor" src="assets/icon_profile.svg"/></a><p><a href="../../api/using/retrieving-profiles.md">Profiler</a></p></td>
@@ -54,4 +54,4 @@ De API:er vi tillhandahåller använder **standardkoncept** med ett REST-gränss
 
 Alla slutpunkter beskrivs ingående i den här dokumentationen med de allmänna synpunkterna som du bör känna till när du hanterar API:t, den fullständiga API-referensen, kodexempel och snabbstartguider.
 
-Om något saknas eller verkar vara felaktigt, fråga [communityn](https://help-forums.adobe.com/content/adobeforums/en/campaign-forum/adobe-campaign.html).
+Om något saknas eller verkar vara felaktigt, fråga [communityn](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community).
