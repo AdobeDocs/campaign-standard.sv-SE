@@ -4,9 +4,9 @@ sub-product: adobe kampanjstandard
 audience: end-user
 user-guide-title: Hjälp om Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: c7bac40fc736c107dcdbc910ab35b9eb53a915f6
+source-git-commit: d487600fc4f3004804e93347b83edfe4e01cceeb
 workflow-type: tm+mt
-source-wordcount: '1403'
+source-wordcount: '1402'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
       + [Om profiler](audiences/using/about-profiles.md)
       + [Skapa profiler](audiences/using/creating-profiles.md)
       + [Redigera profiler](audiences/using/editing-profiles.md)
-      + [Integrerad kundprofil](audiences/using/integrated-customer-profile.md)
+      + [Integrated customer profile](audiences/using/integrated-customer-profile.md)
       + [Aktiva profiler](audiences/using/active-profiles.md)
       + [Hantera testprofiler](audiences/using/managing-test-profiles.md)
       + [Förbättrar Campaign-databasen](audiences/using/enriching-campaign-database.md)
@@ -64,7 +64,7 @@ ht-degree: 0%
    + Arbeta med Adobe Experience Platform {#working-with-adobe-experience-platform}
       + [Om tjänsten Målgrupper](audiences/using/aep-about-audience-destinations-service.md)
       + [Hantera Adobe Experience Platform-målgrupper](audiences/using/aep-managing-audiences.md)
-      + [Använda verktyget Enhetligt segment](audiences/using/aep-using-segment-builder.md)
+      + [Använda Segment Builder](audiences/using/aep-using-segment-builder.md)
 + Kommunikationskanaler {#communication-channels}
    + [Kom igång med kommunikationskanaler](channels/using/get-started-communication-channels.md)
    + Kommunikationskanaler {#about-communication-channels}
@@ -93,8 +93,8 @@ ht-degree: 0%
       + [Generera en CSV-fil för flerspråkiga push-meddelanden](channels/using/generating-csv-multilingual-push.md)
       + [Skapa och uppdatera profilinformation baserat på mobilprogramdata](channels/using/updating-profile-with-mobile-app-data.md)
       + [Implementera penselspårning](channels/using/push-tracking.md)
-      + [Visa en bild från ett push-meddelande för Adobe Campaign Standard](channels/using/image-push-notification.md)
-      + [Förstå nyttolaststrukturen för push-meddelanden i Campaign Standard](channels/using/push-payload.md)
+      + [Visa en bild från ett push-meddelande för en Adobe Campaign Standard](channels/using/image-push-notification.md)
+      + [Förstå nyttolaststrukturen för push-meddelanden för Campaign Standard](channels/using/push-payload.md)
    + Meddelanden i appen {#in-app-messaging}
       + [Om meddelanden i appen](channels/using/about-in-app-messaging.md)
       + [Förbereda och skicka ett meddelande i appen](channels/using/preparing-and-sending-an-in-app-message.md)
@@ -215,20 +215,20 @@ ht-degree: 0%
       + [Skapa ett e-postinnehåll i Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
       + [Skapa ett Campaign-formulär i Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
    + Campaign och Target {#working-with-campaign-and-target}
-      + [Om Campaign-Target-integrering](integrating/using/about-campaign-target-integration.md)
-      + [Konfigurera integrering av Campaign-Target](integrating/using/configuring-the-campaign-target-integration.md)
-      + [Lägga till dynamiskt målinnehåll](integrating/using/adding-target-dynamic-content.md)
-   + Kampanj och analys {#working-with-campaign-and-analytics}
-      + [Om integrering med Campaign-Analytics](integrating/using/about-campaign-analytics-integration.md)
-      + [Konfigurera integrering med Campaign-Analytics](integrating/using/configure-campaign-analytics-integration.md)
+      + [Om integrering mellan Campaign och Target](integrating/using/about-campaign-target-integration.md)
+      + [Konfigurera integreringen mellan Campaign och Target](integrating/using/configuring-the-campaign-target-integration.md)
+      + [Lägga till dynamiskt innehåll från Target](integrating/using/adding-target-dynamic-content.md)
+   + Campaign och Analytics {#working-with-campaign-and-analytics}
+      + [Om integrering mellan Campaign och Analytics](integrating/using/about-campaign-analytics-integration.md)
+      + [Konfigurera integrering mellan Campaign och Analytics](integrating/using/configure-campaign-analytics-integration.md)
       + [Kampanjdimensioner och mätvärden i Analytics](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
-   + Campaign and Audience Manager or People core service {#working-with-campaign-and-audience-manager-or-people-core-service}
-      + [Om integrering av Campaign-Audience Manager eller People core Service](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
-      + [Provisionering och konfigurering av integrering med Audience Manager eller People core Service](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+   + Kärntjänsten Campaign och Audience Manager eller People {#working-with-campaign-and-audience-manager-or-people-core-service}
+      + [Om integrering av huvudtjänsten Campaign-Audience Manager eller People](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
+      + [Provisionering och konfigurering av integrering med huvudtjänsten Audience Manager eller People](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
       + [Felsökning](integrating/using/troubleshooting.md)
       + [Dela målgrupper med Audience Manager eller People core service](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
       + [Arbeta med huvudtjänsten Campaign and Assets](integrating/using/working-with-campaign-and-assets-core-service.md)
-   + Kampanj och analys för mobilen {#working-with-campaign-and-analytics-for-mobile}
+   + Campaign och Analytics for Mobile {#working-with-campaign-and-analytics-for-mobile}
       + [Om integrering av Campaign-Points-data](integrating/using/about-campaign-points-of-interest-data-integration.md)
       + [Konfigurera integrering av Campaign-Points-data](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
       + [Anpassa kampanjmeddelanden med intressepunktsdata](integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)
@@ -314,10 +314,10 @@ ht-degree: 0%
       + [Bygga en kontrollgrupp](automating/using/workflow-control-group.md)
       + [Skapa en flerkanalsleverans](automating/using/workflow-cross-channel-delivery.md)
    + Arbeta med Adobe Experience Platform-målgrupper {#working-with-aep-audiences}
-      + [Målgrupper med Adobe Experience Platform](automating/using/aep-targeting-audiences.md)
+      + [Målgrupper i Adobe Experience Platform](automating/using/aep-targeting-audiences.md)
       + [Anpassa kampanjer med Adobe Experience Platform-attribut](automating/using/aep-personalizing-campaigns.md)
 + Utvecklar {#developing}
-   + [Kom igång med datamodellen Campaign Standard](developing/using/get-started-data-model.md)
+   + [Kom igång med Campaign Standardens datamodell](developing/using/get-started-data-model.md)
    + Om anpassade resurser {#about-custom-resources}
       + [Datamodeller](developing/using/data-model-concepts.md)
       + [Resursstatus](developing/using/resource-statuses.md)
@@ -357,12 +357,12 @@ ht-degree: 0%
       + [Besökare](developing/using/datamodel-visitor.md)
    + Adobe Experience Platform Data Connector {#mapping-campaign-and-aep-data}
       + [Om Adobe Experience Platform Data Connector](developing/using/aep-about-data-connector.md)
-      + [Experience Platform Datamodell - översikt](developing/using/aep-data-model-overview.md)
+      + [Experience Platform Datamodel - översikt](developing/using/aep-data-model-overview.md)
       + [Mappningsdefinition](developing/using/aep-mapping-definition.md)
       + [Aktivera mappning](developing/using/aep-mapping-activation.md)
       + [Utlösa datainmatning via API:er](developing/using/aep-triggering-data-ingestion.md)
 + Administrerar {#administrating}
-   + [Kom igång med Campaign Standard-administration](administration/using/get-started-campaign-administration.md)
+   + [Kom igång med Campaign Standard administration](administration/using/get-started-campaign-administration.md)
    + [Konfigurationsriktlinjer](administration/using/about-configuration-guidelines.md)
    + Användare och säkerhet {#users-and-security}
       + [Om åtkomsthantering](administration/using/about-access-management.md)
@@ -379,7 +379,7 @@ ht-degree: 0%
       + [Konfigurera ett mobilprogram](administration/using/configuring-a-mobile-application.md)
       + [Konfigurera transaktionsmeddelanden](administration/using/configuring-transactional-messaging.md)
    + Programinställningar {#application-settings}
-      + [Om Campaign Standard-inställningar](administration/using/about-campaign-standard-settings.md)
+      + [Om Campaign Standarder](administration/using/about-campaign-standard-settings.md)
       + [Externa konton](administration/using/external-accounts.md)
       + [Målmappningar i Campaign](administration/using/target-mappings-in-campaign.md)
       + [Tekniska arbetsflöden](administration/using/technical-workflows.md)
@@ -388,7 +388,7 @@ ht-degree: 0%
       + [Datalagring](administration/using/data-retention.md)
       + [Uppdateringar och underhållsåtgärder](administration/using/updates-and-maintenance-operations.md)
 + Arbeta med API:er {#working-with-apis}
-   + [Kom igång med Campaign Standard-API:er](api/using/get-started-apis.md)
+   + [Kom igång med Campaign Standards-API:er](api/using/get-started-apis.md)
    + Om Campaign Standard-API:er {#about-campaign-standard-apis}
       + [Varför använda Campaign Standard-API:er](api/using/why-using-campaign-standard-apis.md)
       + [Konfigurera API-åtkomst](api/using/setting-up-api-access.md)
