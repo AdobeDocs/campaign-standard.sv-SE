@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3ed78fd610b0d134cd1e60f34c93161cb1e5c50f
+source-git-commit: 4cda0d3a3e65959091cd24bec8af434ab07519f6
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 0%
@@ -27,9 +27,9 @@ ht-degree: 0%
 
 Ikonen ![](assets/printpreview_darkgrey-24px.png) öppnar arbetsflödesloggen och aktivitetsmenyn.
 
-The workflow history is saved for the duration specified in the workflow execution options (refer to [Workflow properties](#workflow-properties)). Under den här perioden sparas alla meddelanden, även efter en omstart. If you do not want to save the messages from a previous execution, you have to purge the history by clicking the ![](assets/delete_darkgrey-24px.png) button.
+Arbetsflödeshistoriken sparas så länge som anges i alternativen för arbetsflödeskörning (se [Arbetsflödesegenskaper](../../automating/using/managing-execution-options.md)). Under den här perioden sparas alla meddelanden, även efter en omstart. Om du inte vill spara meddelandena från en tidigare körning måste du rensa historiken genom att klicka på ![](assets/delete_darkgrey-24px.png) knappen.
 
-Fliken innehåller **[!UICONTROL Log]** körningshistoriken för alla aktiviteter eller valda aktiviteter. It indexes the operations carried out and execution errors by chronological order.
+Fliken innehåller **[!UICONTROL Log]** körningshistoriken för alla aktiviteter eller valda aktiviteter. Den indexerar de åtgärder som utförts och körningsfel i kronologisk ordning.
 
 ![](assets/wkf_execution_4.png)
 
@@ -43,7 +43,7 @@ I dessa två listor:
 * Med **[!UICONTROL Configure list]** knappen kan du välja vilken information som ska visas, definiera kolumnordningen och sortera listan.
 * Du kan använda filter för att hitta den information du behöver snabbare. Använd sökfältet för att söka efter en viss text i aktivitetsnamnen för arbetsflödet (till exempel: &quot;query&quot;) och loggar.
 
-## Error management {#error-management}
+## Felhantering {#error-management}
 
 När ett fel inträffar pausas arbetsflödet och aktiviteten som kördes när felet påträffades blinkar till rött.
 
@@ -55,22 +55,22 @@ I det här fallet avbryts den felaktiga aktiviteten. Det här läget passar sär
 
 >[!NOTE]
 >
->Du kan använda den här konfigurationen separat för varje aktivitet. Det gör du genom att markera en aktivitet och öppna den med snabbåtgärden ![](assets/edit_darkgrey-24px.png). Välj sedan felhanteringsläget på fliken **Körningsalternativ** . Se Alternativ för [aktivitetskörning](#activity-execution-options).
+>Du kan använda den här konfigurationen separat för varje aktivitet. Det gör du genom att markera en aktivitet och öppna den med snabbåtgärden ![](assets/edit_darkgrey-24px.png). Välj sedan felhanteringsläget på fliken **Körningsalternativ** . Se Alternativ för [aktivitetskörning](../../automating/using/activity-properties.md).
 
-Ytterligare alternativ för felhantering finns tillgängliga i [arbetsflödets egenskaper](#workflow-properties).
+Ytterligare alternativ för felhantering finns tillgängliga i [arbetsflödets egenskaper](../../automating/using/managing-execution-options.md).
 
 ![](assets/wkf_execution_error.png)
 
 Möjliga alternativ är:
 
-* **[!UICONTROL Supervisors]**: Med kan du definiera gruppen med personer som ska meddelas (e-post och meddelanden i appen) om arbetsflödet stöter på ett fel. Om ingen grupp är definierad meddelas ingen. Mer information om Adobe Campaign-meddelanden finns i [Adobe Campaign-meddelanden](../../administration/using/sending-internal-notifications.md).
+* **[!UICONTROL Supervisors]**: Med kan du definiera gruppen med personer som ska meddelas (e-post och meddelanden i appen) om arbetsflödet stöter på ett fel. Om ingen grupp är definierad meddelas ingen. Mer information om meddelanden från Adobe Campaign finns i [Adobe Campaign-meddelanden](../../administration/using/sending-internal-notifications.md).
 
 * **[!UICONTROL In case of error]**: gör att du kan ange vilken åtgärd som ska utföras om aktiviteten stöter på ett fel. Det finns två alternativ:
 
-   * **Suspend the process**: the workflow is automatically suspended. Arbetsflödets status är sedan **Felaktig** och den färg som är associerad blir röd. Starta om arbetsflödet när problemet är löst.
-   * **Ignore**: the activity is not executed, and as a result neither are any of the activities that follow it (in the same branch). This may prove useful for recurring tasks. Om grenen har en schemaläggare placerad uppströms ska detta utlösas på nästa körningsdatum.
+   * **Gör uppehåll i processen**: arbetsflödet pausas automatiskt. Arbetsflödets status är sedan **Felaktig** och den färg som är associerad blir röd. Starta om arbetsflödet när problemet är löst.
+   * **Ignorera**: aktiviteten inte utförs och därför är ingen av de aktiviteter som följer den (i samma gren). Detta kan vara användbart för återkommande uppgifter. Om grenen har en schemaläggare placerad uppströms ska detta utlösas på nästa körningsdatum.
 
-* **[!UICONTROL Consecutive errors]** : allows you to define a number of consecutive errors that are authorized before the workflow execution is automatically suspended.
+* **[!UICONTROL Consecutive errors]** : gör att du kan definiera ett antal på varandra följande fel som är auktoriserade innan arbetsflödets körning pausas automatiskt.
 
    * Om det angivna antalet är **[!UICONTROL 0]**, eller om det angivna antalet inte nås, ignoreras aktiviteter som påträffar fel. De andra arbetsflödesgrenarna körs normalt.
 
