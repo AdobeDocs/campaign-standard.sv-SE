@@ -12,7 +12,10 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +37,7 @@ Fyra körningskommandon finns för att styra ett arbetsflöde:
 * Återuppta
 * Stoppa
 
-Mer information om körningskommandona finns i dokumentationen [för](https://helpx.adobe.com/campaign/standard/automating/using/executing-a-workflow.html)Campaign.
+Mer information om körningskommandona finns i dokumentationen [för](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html)Campaign.
 
 <br/>
 
