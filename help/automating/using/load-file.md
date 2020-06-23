@@ -13,9 +13,9 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: 2a8cb9aa0d018fec9d5b256beba079c5ec3afaf0
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1799'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ![](assets/data_loading.png)
 
-Med den här **[!UICONTROL Load file]** aktiviteten kan du importera data i ett strukturerat formulär och använda dessa data i Adobe Campaign. Data importeras tillfälligt och en annan aktivitet krävs för att den ska kunna integreras slutgiltigt i Adobe Campaign-databasen.
+Med den här **[!UICONTROL Load file]** aktiviteten kan du importera data i ett strukturerat formulär och använda dessa data i Adobe Campaign. Data importeras tillfälligt och en annan aktivitet är nödvändig för att den ska kunna integreras slutgiltigt i Adobe Campaign-databasen.
 
 ## Kontext för användning {#context-of-use}
 
@@ -98,6 +98,9 @@ Aktivitetskonfigurationen omfattar två steg. Först måste du definiera den fö
       ![](assets/wkf_file_loading1.png)
 
 1. Om filen som du vill läsa in data från är komprimerad till en GZIP-fil (.gz) väljer du **[!UICONTROL Decompression]** alternativet i **[!UICONTROL Add a pre-processing step]** fältet. På så sätt kan du packa upp filen innan du läser in data. Det här alternativet är bara tillgängligt om filen kommer från aktivitetens ingående övergång.
+
+   I **[!UICONTROL Add a pre-processing step]** fältet kan du även dekryptera en fil innan du importerar den till databasen. Mer information om hur du arbetar med krypterade filer finns i [det här avsnittet](../../automating/using/managing-encrypted-data.md)
+
 1. Med det här **[!UICONTROL Keep the rejects in a file]** alternativet kan du hämta en fil som innehåller fel som inträffade under importen och använda den i ett steg efter bearbetningen. När alternativet är aktiverat får den utgående övergången namnet&quot;Avvisa&quot;.
 
    >[!NOTE]
@@ -159,7 +162,7 @@ Med kolumnformateringen kan du definiera värdebearbetningen för varje kolumn:
 
 Inläsningsfilaktiviteten strukturerar huvudsakligen data från en överföringsfilaktivitet för att integrera dem i befintliga data.
 
-I följande exempel visas resultatet av en automatiskt nedladdad filaktivitet via en överföringsfilaktivitet, följt av en uppdateringsdataaktivitet. Det här arbetsflödet syftar till att förbättra Adobe Campaign-databasen med nya profiler eller att uppdatera befintliga profiler med hjälp av data som har återställts från den importerade filen.
+I följande exempel visas resultatet av en automatiskt nedladdad filaktivitet via en överföringsfilaktivitet, följt av en uppdateringsdataaktivitet. Det här arbetsflödet syftar till att förbättra Adobe Campaign-databasen med nya profiler eller att uppdatera befintliga profiler med data som har återställts från den importerade filen.
 
 ![](assets/load_file_workflow_ex1.png)
 
