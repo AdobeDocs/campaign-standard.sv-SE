@@ -13,7 +13,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+workflow-type: tm+mt
+source-wordcount: '1274'
+ht-degree: 10%
 
 ---
 
@@ -22,16 +25,16 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 >[!NOTE]
 >
->Anpassning i appen bygger på ett länkningsfält som vanligtvis är ett CRM-ID och/eller inloggnings-ID för mobilapp. Du ansvarar själv för att säkra det här länkningsfältet när det används i samband med Adobe Campaign. Om du inte skyddar länkningsfälten kan ditt personliga meddelande bli sårbart. Adobe ansvarar inte för skador som uppstår på grund av obehörig åtkomst eller användning av profildata om du inte följer säkra metoder för att länka fältdisposition, hantering och skydd.
+>Anpassning i appen bygger på ett länkningsfält som vanligtvis är ett CRM-ID och/eller inloggnings-ID för mobilapp. Du ansvarar själv för att skydda det här länkningsfältet när det används i anslutning till Adobe Campaign. Om du inte skyddar länkningsfälten kan ditt personliga meddelande bli sårbart. Adobe ansvarar inte för skador som uppstår på grund av obehörig åtkomst eller användning av profildata om du inte följer säkra metoder för att länka fältdisposition, hantering och skydd.
 
-Det finns tre typer av meddelanden i appen i Adobe Campaign:
+Tre typer av meddelanden i appen finns i Adobe Campaign:
 
 * **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**: Den här meddelandetypen gör att du kan ange Adobe Campaign-profiler (CRM-profiler) som prenumererar på ditt mobilprogram som mål. Den här meddelandetypen kan anpassas med alla tillgängliga profilattribut i Adobe Campaign, men kräver en säker handskakning mellan Mobile SDK och Campaigns meddelandetjänst i appen för att säkerställa att meddelanden med personlig och känslig information endast används av behöriga användare.
 
    Om du vill hämta den här meddelandetypen på användarnas enheter måste Mobile SDK skicka länkningsfält som används för att ansluta en mobilprofil till en CRM-profil i Adobe Campaign. Mer information om SDK-API:er som krävs för att stödja appar finns på den här [sidan](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference).
 
 * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**: Med den här meddelandetypen kan du skicka meddelanden till alla användare (nuvarande eller framtida) av ditt mobilprogram, även om de inte har en befintlig profil i Adobe Campaign. Personalisering är därför inte möjligt när du anpassar meddelandena eftersom användarprofilen kanske inte ens finns i Adobe Campaign.
-* **[!UICONTROL Target users based on their Mobile profile (inApp)]**: Den här meddelandetypen gör att du kan rikta dig till alla kända eller anonyma användare av en mobilapp som har en mobilprofil i Adobe Campaign. Den här meddelandetypen kan endast anpassas med icke-personliga och icke-känsliga attribut och kräver ingen säker handskakning mellan Mobile SDK och Adobe Campaigns meddelandetjänst i appen.
+* **[!UICONTROL Target users based on their Mobile profile (inApp)]**: Den här meddelandetypen gör att du kan rikta dig till alla kända eller anonyma användare av en mobilapp som har en mobilprofil i Adobe Campaign. Den här meddelandetypen kan endast anpassas med icke-personliga och icke-känsliga attribut och kräver inte säker handskakning mellan Mobile SDK och meddelandetjänsten Adobe Campaign In-App.
 
    Mer information om hur du hanterar personliga och känsliga data finns i [Hantera mobilprofilsfält med personliga och känsliga data](#handling-mobile-profile-fields-with-personal-and-sensitive-data).
 
@@ -63,7 +66,7 @@ Stegen för att skapa ett fristående meddelande i appen med Adobe Campaign är:
 
    Du kan också skapa en app från fliken **Marknadsföringsaktiviteter** genom att klicka på **[!UICONTROL Create]** knappen.
 
-   Observera att ett meddelande i appen också kan skapas från en kampanj, från hemsidan för Adobe Campaign eller i ett arbetsflöde.
+   Observera att ett meddelande i appen också kan skapas från en kampanj, från Adobe Campaign hemsida eller i ett arbetsflöde.
 
 1. Välj **meddelande** i appen.
 
@@ -99,26 +102,26 @@ Stegen för att skapa ett fristående meddelande i appen med Adobe Campaign är:
 
    * **[!UICONTROL Life Cycle events]**: Körklara livscykelhändelser som stöds av Adobe Mobile SDK.
 
-      Mer information om livscykelhändelser finns på den här [sidan](https://marketing.adobe.com/resources/help/en_US/mobile/android/metrics.html).
+      Mer information om livscykelhändelser finns på den här [sidan](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html).
 
    * **[!UICONTROL Analytics Events]**: Följande tre kategorier stöds beroende på vad som finns i din mobilapp: Adobe Analytics, Context data eller View.
 
-      Observera att dessa händelser endast är tillgängliga om du har en Adobe Analytics-licens.
+      Observera att dessa evenemang endast är tillgängliga om du har en Adobe Analytics-licens.
 
    * **[!UICONTROL Places]**: Följande tre kategorier utnyttjar platsdata i realtid för att leverera innehållsmässigt relevanta mobilupplevelser: Placerar kontextdata, placerar anpassade metadata eller händelsetypen Platser.
 
       Mer information om Adobe Platser finns i [Platsdokumentationen](https://placesdocs.com/).
    ![](assets/inapp_creating_4.png)
 
-1. Om du använder ett **[!UICONTROL Analytics Events]** program fylls Adobe Analytics- och View-tillståndshändelser i automatiskt baserat på de rapportsviter som konfigurerats i Analytics-tillägget i Adobe Experience Platform Launch, medan kontextdatahändelser måste läggas till manuellt.
+1. Om du använder en **[!UICONTROL Analytics Events]** statushändelse i Adobe Analytics och View fylls i automatiskt baserat på de rapportsviter som konfigurerats i Analytics-tillägget i Adobe Experience Platform Launch, medan kontextdatahändelser måste läggas till manuellt.
 
-   Observera att dessa händelser endast är tillgängliga om du har en Adobe Analytics-licens.
+   Observera att dessa evenemang endast är tillgängliga om du har en Adobe Analytics-licens.
 
    ![](assets/inapp_creating_7.png)
 
 1. Om du använder en **[!UICONTROL Places]** utlösare fylls kontextdata, anpassade metadata eller händelsetypen Platser automatiskt i baserat på alla bibliotek och deras intressepunkter som skapats i Adobe Platser.
 
-   Observera att den här utlösaren endast används på enheten för de intressepunkter från bibliotek som valts i Platser-tillägget i Experience Platform Launch. Mer information om Platstillägget och hur du installerar det finns i den här [dokumentationen](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
+   Observera att den här utlösaren endast används på enheten för de intressepunkter från Bibliotek som valts i tillägget Platser i Experience Platform Launch. Mer information om Platstillägget och hur du installerar det finns i den här [dokumentationen](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
 
 1. På **[!UICONTROL Frequency & duration]** fliken väljer du frekvens för utlösaren, start- och slutdatum, veckodag och tidpunkt på dagen då ditt In-App-meddelande ska vara aktivt.
 
