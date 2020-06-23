@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017e1e80657a3145a97c6ab62a577a9a2164cc99
+source-git-commit: 58c69b6f6efdac8be5d05fe723bbf9ff54d186ee
 workflow-type: tm+mt
-source-wordcount: '5923'
+source-wordcount: '5941'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 0%
 Förutom [versionsinformationen](../../rn/using/release-notes.md)för Adobe Campaign visas alla nya uppdateringar i Adobe Campaign Standardens dokumentation.
 
 ## Dokumentationsuppdateringar - juni 2020 {#doc-updates-june-2020}
+
+Användningsexempel har lagts till om hur du [krypterar](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) och [dekrypterar](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) data med arbetsflödena på Kontrollpanelen och Campaign.
 
 Både&quot;vitlista&quot; och&quot;svartlista&quot; har tagits bort från Adobe Campaign dokumentation. Vissa förekomster av dessa termer kan fortfarande förekomma i produktgränssnittet, alternativnamn och intern kod, men kommer att ersättas i kommande Campaign-versioner med blocklist och allowlist.
 
@@ -484,7 +486,7 @@ Avsnittet Typ av användare har uppdaterats. [Läs mer](../../administration/usi
 
 Meddelanden i appen (beta) - [Läs mer](../../channels/using/about-in-app-messaging.md)
 
-Adobe Launch-integrering för mobilappar (beta) - [Läs mer](../../sending/using/about-typology-rules.md#typology-rules)
+Adobe Launch-integrering för mobilappar (beta) - [Läs mer](../../sending/using/managing-typologies.md)
 
 **Andra dokumentationsuppdateringar som följer med releasen**
 
@@ -498,7 +500,7 @@ Uppdaterat inbyggt rapportavsnitt för push-meddelanden. [Läs mer](../../report
 
 **Nya funktioner i releasen**
 
-[Flagga](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) och [typologifilter](../../sending/using/about-typology-rules.md#typology-rules) med hög prioritet för mobilappsprenumeranter.
+[Flagga](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) och [typologifilter](../../sending/using/managing-typologies.md) med hög prioritet för mobilappsprenumeranter.
 
 Automatiserad innehållsimport från en URL vid förberedelsetillfället. [Läs mer](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
@@ -794,7 +796,7 @@ Listan med roller har uppdaterats. [Läs mer](../../administration/using/list-of
 
 Direktreklam - [Läs mer](../../channels/using/about-direct-mail.md)
 
-Hemlig kopia av e-post - [läs mer](../../administration/using/configuring-email-channel.md#archiving-emails)
+Hemlig kopia av e-post - [läs mer](../../sending/using/archiving.md)
 
 **Andra dokumentationsuppdateringar som följer med releasen**
 
