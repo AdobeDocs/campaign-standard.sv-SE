@@ -12,9 +12,9 @@ discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -89,8 +89,8 @@ Mer information om landningssidor finns i den [särskilda dokumentationen](../..
 
 ### Synkroniserar profiler från Microsoft Dynamics 365
 
-Med Campaign Standard-integrering med Microsoft Dynamics 365 kan du skicka kontaktdata från Microsoft Dynamics 365 till Campaign-databasen.
-Kontakterna visas sedan i profillistan och kan användas i marknadsföringskampanjer. Mer information om den här integreringen finns i den [dedikerade dokumentationen](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html).
+Tack vare integreringen av Campaign Standarder med Microsoft Dynamics 365 kan du skicka kontaktdata från Microsoft Dynamics 365 till Campaign-databasen.
+Kontakterna visas sedan i profillistan och kan användas i marknadsföringskampanjer. Mer information om den här integreringen finns i den [dedikerade dokumentationen](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
 
 >[!NOTE]
 >
@@ -103,7 +103,7 @@ Kontakterna visas sedan i profillistan och kan användas i marknadsföringskampa
 
 ### Importera data via API-anrop
 
-Med API:er för Campaign Standard kan du utföra åtgärder för att uppdatera databasen, t.ex. när profiler eller tjänster skapas, uppdateras eller tas bort. Mer information om hur du använder API:erna finns i den [dedikerade dokumentationen](../../api/using/get-started-apis.md).
+Med Campaign Standard-API:er kan du utföra åtgärder för att uppdatera databasen, som att skapa, uppdatera eller ta bort profiler eller tjänster. Mer information om hur du använder API:erna finns i den [dedikerade dokumentationen](../../api/using/get-started-apis.md).
 
 >[!CAUTION]
 >
@@ -119,7 +119,7 @@ Med API:er för Campaign Standard kan du utföra åtgärder för att uppdatera d
 
 <img width="60px" alt="villkor" src="assets/icon_audience.svg"/>
 
-Adobe Campaign integrerar avancerade funktioner för analys och målinriktning för att ni ska kunna leverera relevanta och effektiva meddelanden och engagera era kunder effektivt.
+För att ni ska kunna leverera relevanta och effektiva meddelanden och engagera era kunder effektivt integrerar Adobe Campaign avancerade analys- och målgruppsfunktioner.
 
 Tack vare arbetsflödena och frågeredigeraren kan ni skapa målgrupper som målgruppsanpassas av olika kampanjer, beroende på vilken information ni har om dem, deras aktiviteter, språk, önskemål eller marknadsföringshistorik. På så sätt kan du till exempel filtrera prenumerationsprofiler eller skapa målgrupper enligt ett obegränsat antal villkor.
 
@@ -132,9 +132,9 @@ Tack vare arbetsflödena och frågeredigeraren kan ni skapa målgrupper som mål
 
 <img width="60px" alt="villkor" src="assets/icon_privacy.svg"/>
 
-GDPR är EU:s (EU) nya integritetslagstiftning som harmoniserar och moderniserar kraven på skydd av personuppgifter. GDPR gäller för Adobe Campaign-kunder som lagrar data för registrerade i EU. Förutom de sekretessfunktioner som redan finns i Adobe Campaign (inklusive samtyckeshantering, datalagringsinställningar och användarroller) tar vi denna möjlighet i vår roll som dataprocessor för att inkludera ytterligare funktioner som hjälper dig att bli redo som Data Controller för vissa GDPR-förfrågningar.
+GDPR är EU:s (EU) nya integritetslagstiftning som harmoniserar och moderniserar kraven på skydd av personuppgifter. GDPR gäller för Adobe Campaign-kunder som innehar uppgifter för registrerade i EU. Förutom de sekretessfunktioner som redan finns i Adobe Campaign (inklusive samtyckeshantering, datalagringsinställningar och användarroller) tar vi denna möjlighet i vår roll som dataprocessor för att inkludera ytterligare funktioner som hjälper dig att bli redo som Data Controller för vissa GDPR-förfrågningar.
 
-Läs den här [guiden](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html) om du vill veta mer om de verktyg och funktioner som Adobe Campaign tillhandahåller för att hjälpa er att bli GDPR-kompatibla.
+Läs den här [handboken](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html) om du vill veta mer om de verktyg och funktioner som Adobe Campaign tillhandahåller för att hjälpa dig att bli GDPR-kompatibel.
 
 **Läs mer**
 
