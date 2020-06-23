@@ -13,7 +13,10 @@ context-tags: segmentation,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 740de9fe4666bf12fc97cfa434414668d9394504
+workflow-type: tm+mt
+source-wordcount: '993'
+ht-degree: 0%
 
 ---
 
@@ -38,7 +41,7 @@ Aktiviteten placeras **[!UICONTROL Segmentation]** vanligtvis efter målaktivite
 
 1. Dra och släpp en **[!UICONTROL Segmentation]** aktivitet i arbetsflödet.
 1. Markera aktiviteten och öppna den sedan med knappen ![](assets/edit_darkgrey-24px.png) bland de snabbåtgärder som visas.
-1. Välj den **[!UICONTROL Resource type]** som segmenteringen ska utföras på:
+1. På **[!UICONTROL General]** fliken väljer du den **[!UICONTROL Resource type]** som segmenteringen ska utföras på:
 
    * **[!UICONTROL Database resource]** om segmenteringen utförs på data som redan finns i databasen. Markera **[!UICONTROL Filtering dimension]** beroende på vilka data du vill segmentera. Som standard segmenteras **profilerna**.
    * **[!UICONTROL Temporary resource]** Om segmenteringen utförs på arbetsflödets tillfälliga data: Markera den **[!UICONTROL Targeted set]** som innehåller de data som ska segmenteras. Detta kan inträffa när du har importerat en fil eller när data i databasen har berikats.
