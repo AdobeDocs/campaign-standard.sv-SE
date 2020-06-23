@@ -1,6 +1,6 @@
 ---
-title: Provisionering och konfigurering av integrering med Audience Manager eller People core Service
-description: 'Lär dig hur du konfigurerar integreringen av huvudtjänsten Audience Manager / People för att börja dela målgrupper eller segment med de olika Adobe Experience Cloud-lösningarna. '
+title: Provisionering och konfigurering av integrering med huvudtjänsten Audience Manager eller People
+description: 'Lär dig hur du konfigurerar integreringen av bastjänsterna Audience Manager/Folk för att börja dela målgrupper eller segment med olika Adobe Experience Cloud-lösningar. '
 page-status-flag: never-activated
 uuid: e7329644-0033-4729-b4a7-61bef137f4b5
 contentOwner: sauviat
@@ -12,18 +12,21 @@ discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7e887fff76660dcb0369d4222e1ab3ac391c3a2d
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+workflow-type: tm+mt
+source-wordcount: '726'
+ht-degree: 3%
 
 ---
 
 
-# Provisionering och konfigurering av integrering med Audience Manager eller People core Service{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
+# Provisionering och konfigurering av integrering med huvudtjänsten Audience Manager eller People{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
 
-Etablering och konfigurering av Audience Manager och People core i Adobe Campaign i två steg: Skicka [begäran till Adobe](#submitting-request-to-adobe) och [konfigurera sedan integreringen i Adobe Campaign](#configuring-the-integration-in-adobe-campaign).
+Etablering och konfigurering av kärnan Audience Manager och People i Adobe Campaign utför två steg: [Skicka begäran till Adobe](#submitting-request-to-adobe) och sedan [Konfigurera integreringen i Adobe Campaign](#configuring-the-integration-in-adobe-campaign).
 
 ## Skicka begäran till Adobe {#submitting-request-to-adobe}
 
-Tack vare integreringen med Audience Manager (AAM) eller People core Service kan du importera och exportera målgrupper eller segment i Adobe Campaign.
+Med integreringen av bastjänsterna Audience Manager (AAM) och People kan du importera och exportera målgrupper eller segment i Adobe Campaign.
 
 Den här integreringen måste först konfigureras. Om du vill begära provisionering av den här integreringen skriver du ett e-postmeddelande till [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) med följande information:
 
@@ -47,7 +50,7 @@ Den här integreringen måste först konfigureras. Om du vill begära provisione
   </tr> 
   <tr> 
    <td> <strong>AAM eller People Service</strong><br /> </td> 
-   <td> Exempel: Adobe Audience Manager. Se till att tala om för provisioneringsteamet om ni äger Audience Manager-licensen eller inte.</td> 
+   <td> Exempel: Adobe Audience Manager. Se till att tala om för provisioneringsteamet om du äger Audience Manager-licens eller inte.</td> 
   </tr> 
   <tr> 
    <td> <strong>Deklarerat ID eller besökar-ID</strong><br /> </td> 
@@ -91,7 +94,7 @@ Dina externa konton har nu konfigurerats för den här integreringen.
 De två följande datakällorna skapas i Audience Manager: Adobe Campaign (MID) och Adobe Campaign (DeclaredId). Samtidigt finns dessa två datakällor i Adobe Campaign:
 
 * **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**: Detta är en användbar datakälla som konfigurerats som standard för besökar-ID. Segment som skapas från Campaign kommer att ingå i den här datakällan.
-* **Deklarerad ID** -datakälla: Den här datakällan måste skapas och mappas med definitionen av datakälla från Audience Manager **[!UICONTROL DeclaredId]** .
+* **Deklarerad ID** -datakälla: Den här datakällan måste skapas och mappas med definitionen av datakälla från **[!UICONTROL DeclaredId]** Audience Manager.
 
 Observera att Adobe Campaign inte stöder avstämning baserad på ECID för flera webbplatser med olika domäner.
 
@@ -113,7 +116,7 @@ Så här skapar du **[!UICONTROL Declared ID]** datakällan:
 
 1. Klicka på **[!UICONTROL Administration]** knappen i **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**> **[!UICONTROL Create]** .
 1. Redigera **[!UICONTROL Label]** datakällans utseende.
-1. I den **[!UICONTROL Data Source/ Alias]** nedrullningsbara listan väljer du datakällan som motsvarar **[!UICONTROL DeclaredID]** datakällan i Audience Manager.
+1. I den **[!UICONTROL Data Source/ Alias]** nedrullningsbara listrutan väljer du den datakälla som motsvarar datakällan i Audience Manager från **[!UICONTROL DeclaredID]** .
 1. Konfigurera datakällan genom att ange **[!UICONTROL Data Source / Alias]** och **[!UICONTROL AAM Destination ID]** få information från Adobe.
 1. Ange **[!UICONTROL Reconciliation process]** efter behov.
 1. Klicka på **[!UICONTROL Save]**.
@@ -130,6 +133,6 @@ Här måste du se till att Campaign Tracking Server är registrerad på domänen
 
 ### Steg 4: Konfigurera besökar-ID-tjänsten {#step-4--configure-the-visitor-id-service}
 
-Om din Visitor ID-tjänst aldrig har konfigurerats på dina webbegenskaper eller webbplatser kan du läsa följande [dokument](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-aam-analytics.html) och lära dig hur du konfigurerar tjänsten eller följande [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
+Om din Visitor ID-tjänst aldrig har konfigurerats på dina webbegenskaper eller webbplatser kan du läsa följande [dokument](https://docs.adobe.com/content/help/en/id-service/using/implementation/setup-aam-analytics.html) och lära dig hur du konfigurerar tjänsten eller följande [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
 
 Din konfiguration och etablering är färdiga, och integreringen kan nu användas för att importera och exportera målgrupper eller segment.
