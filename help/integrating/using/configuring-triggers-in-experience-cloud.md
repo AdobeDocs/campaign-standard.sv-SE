@@ -12,7 +12,10 @@ discoiquuid: 4163dc0c-8103-4425-b8bf-7aa45c4d3a06
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+workflow-type: tm+mt
+source-wordcount: '860'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +30,7 @@ Adobe-teamet behöver följande information för att aktivera utlösare:
 
 * Företagsnamn för Marketing Cloud
 * IMS-ORG-ID
-* Analytics-inloggningsföretag (kan vara samma som Marketing Cloud-företagets namn)
+* Analytics inloggningsföretag (kan vara samma som Marketing Cloud-företagets namn)
 
 ## Konfigurera lösningar och tjänster {#configuring-solutions-and-services}
 
@@ -35,15 +38,15 @@ Om du vill använda den här funktionen måste du ha tillgång till följande l�
 
 * Adobe Campaign
 * Adobe Analytics Ultimate, Premium, Foundation, OD, Select, Prime, Mobile Apps, Select eller Standard.
-* Bastjänsten Experience Cloud-utlösare
+* Experience Cloud-utlösarens bastjänst
 
    ![](assets/trigger_uc_prereq_1.png)
 
-* Bastjänsten Experience Cloud DTM
+* Experience Cloud DTM Core Service
 
    ![](assets/trigger_uc_prereq_2.png)
 
-* Experience Cloud Visitor ID och Experience Cloud People - bastjänst
+* Experience Cloud Visitor ID och Experience Cloud People Core Service
 
    ![](assets/trigger_uc_prereq_3.png)
 
@@ -53,23 +56,23 @@ Du måste också ha en fungerande webbplats.
 
 >[!CAUTION]
 >
->Delegering till underdomäner är ett leveransnyckelelement. Se till att e-postmeddelanden från Adobe Campaign skickas från samma domän som de som används på webbplatsen.
+>Delegering till underdomäner är ett leveransnyckelelement. Se till att Adobe Campaign e-postmeddelanden skickas från samma domän som den som används på webbplatsen.
 
 Du måste konfigurera [Experience Cloud DTM Core Service](#configuring-experience-cloud-dtm-core-service), [Experience Cloud People Core Service](#configuring-experience-cloud-people-core-service) och [Campaign](#configuring-triggers-and-aliases-in-campaign) för att köra dessa användningsfall.
 
-### Konfigurera Experience Cloud DTM Core Service {#configuring-experience-cloud-dtm-core-service}
+### Konfigurerar Experience Cloud DTM Core Service {#configuring-experience-cloud-dtm-core-service}
 
-1. I Experience Cloud DTM Core Service (Dynamic Tag Management) aktiverar du Experience Cloud ID och Adobe Analytics för webbplatssidorna.
+1. I Experience Cloud DTM Core Service (Dynamic Tag Management) aktiverar du Experience Cloud ID och Adobe Analytics för dina webbplatssidor.
 
    ![](assets/trigger_uc_conf_1.png)
 
-1. ID-avstämning mellan webbplatsen, Adobe Analytics och Adobe Campaign kräver att alias används. Skapa till exempel ett alias,&quot;visitorid&quot;.
+1. ID-avstämning mellan webbplatsen kräver Adobe Analytics och Adobe Campaign att alias används. Skapa till exempel ett alias,&quot;visitorid&quot;.
 
    ![](assets/trigger_uc_conf_2.png)
 
-### Konfigurera Experience Cloud People Core Service {#configuring-experience-cloud-people-core-service}
+### Konfigurerar Experience Cloud People Core Service {#configuring-experience-cloud-people-core-service}
 
-Det alias som tidigare refererats i DTM måste skapas i Experience Cloud People Core Service via ett kundattribut. Se till att du skapar ett nytt och refererar till samma DTM-alias i integreringskoden (till exempel&quot;visitorid&quot;).
+Aliaset som tidigare refererats i DTM måste skapas i Experience Cloud People Core Service via ett kundattribut. Se till att du skapar ett nytt och refererar till samma DTM-alias i integreringskoden (till exempel&quot;visitorid&quot;).
 
 ![](assets/trigger_uc_conf_3.png)
 
@@ -79,7 +82,7 @@ Det alias som tidigare refererats i DTM måste skapas i Experience Cloud People 
 
 ### Konfigurera utlösare och alias i Campaign {#configuring-triggers-and-aliases-in-campaign}
 
-1. Se till att du är **[!UICONTROL Experience Cloud triggers]** synlig i Adobe Campaign Standard-instansen. Om du inte gör det kontaktar du Adobe Campaign-administratörerna.
+1. Kontrollera att Adobe Campaign Standarden är **[!UICONTROL Experience Cloud triggers]** synlig. Om du inte gör det kontaktar du Adobe Campaign-administratörerna.
 
    ![](assets/remarketing_1.png)
 
@@ -95,15 +98,15 @@ Det alias som tidigare refererats i DTM måste skapas i Experience Cloud People 
 
 En Adobe Experience Cloud-utlösare måste skapas så att ni kan använda den i Campaign.
 
-Skapa en ny utlösare i Experience Cloud och se till att du väljer den rapportserie som används på din webbplats. Se till att du väljer rätt dimension så att utlösaren aktiveras.
+Skapa en ny utlösare i Experience Cloud och se till att du väljer den rapportsvit som används på webbplatsen. Se till att du väljer rätt dimension så att utlösaren aktiveras.
 
-Titta på [Adobe Experience Cloud-dokumentationen](https://marketing.adobe.com/resources/help/en_US/mcloud/triggers.html) och se den här [videon](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
+Titta på [Adobe Experience Cloud-dokumentationen](https://docs.adobe.com/content/help/en/core-services/interface/activation/triggers.html) och se den här [videon](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
 
 ## Utlöser bästa praxis och begränsningar {#triggers-best-practices-and-limitations}
 
 Här följer en lista över bästa praxis och begränsningar för användningen av Campaign - integrering av utlösare:
 
-* Om du har flera instanser av Campaign Standard kan utlösare tas emot av alla instanser så länge de finns i samma IMS-organisation-ID. Analyserna måste också finnas på samma IMS-organisations-ID.
+* Om du har flera instanser av Campaign Standard kan utlösare tas emot av alla instanser så länge de finns i samma IMS-org-ID. Analytics måste också finnas på samma IMS-org-ID.
 * Du kan inte skapa en utlösare i Trigger Core Service med händelser från två olika rapportsviter.
 * Utlösare baseras på transaktionsmeddelanden. Transaktionsmeddelanden används när du måste skicka ett meddelande mycket snabbt. Du kan inte placera transaktionsmeddelanden i kö och sedan slinga dem i grupp.
 * Utlösare är inte deterministiska till sin natur. När en utlösare genereras skickas alla alias som är kopplade till cookien, så när det gäller delade webbläsare som kioskdatorer, bibliotek, cyber cafes eller delade enheter hemma (man och fru loggar in från samma enhet) går det inte att mappa till rätt ID. Alla ID:n som används för att logga in med webbläsaren skickas till Campaign som skickar ett meddelande baserat på den första avstämningen. Om det finns flera e-post-ID:n som är berättigade för avstämning skickar Campaign inget e-postmeddelande. Det finns inget sätt för Campaign att veta vilket e-post-ID som är rätt om det inte hämtas och skickas av Analytics.
