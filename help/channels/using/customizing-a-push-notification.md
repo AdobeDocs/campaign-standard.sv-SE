@@ -13,16 +13,19 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 78800930d78179c1e390313c35f70627b5df0769
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+workflow-type: tm+mt
+source-wordcount: '1494'
+ht-degree: 0%
 
 ---
 
 
 # Anpassa ett push-meddelande{#customizing-a-push-notification}
 
-Med Adobe Campaign kan ni finjustera push-meddelanden och få tillgång till en uppsättning avancerade alternativ när ni utformar ett push-meddelande.
+Om du vill finjustera push-meddelanden kan du använda Adobe Campaign för att få tillgång till en uppsättning avancerade alternativ när du utformar ett push-meddelande.
 
-Om du är expertanvändare och vill konfigurera mobilprogram i Adobe Campaign ska du läsa följande Tech [Understanding Campaign Standard Push Notifications Payload Structure](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html).
+Om du är en expertanvändare och vill konfigurera mobilprogram i Adobe Campaign ska du läsa följande [Tech Understanding Campaign Standard Push Notifications Payload Structure](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html).
 
 ![](assets/push_notif_advanced.png)
 
@@ -40,7 +43,7 @@ Ett ljud kommer att varna användarna om ett push-meddelande och ge det mer synl
 1. Öppna push-meddelandet och gå till **[!UICONTROL Advanced options]** avsnittet.
 1. I **[!UICONTROL Play a sound]** fältet anger du filnamnet på ljudfilen, utan tillägget, som ska spelas upp av den mobila enheten när meddelandet tas emot.
 
-   Mer information om vilka medieformat som stöds finns i [Apple](https://support.apple.com/kb/PH16864?locale=en_US) - och [Android](https://developer.android.com/guide/topics/media/media-formats.html) -dokumentationen.
+   Mer information om vilka medieformat som stöds finns i [Apple](https://support.apple.com/kb/PH16864?locale=en_US) - och [Android](https://developer.android.com/guide/topics/media/media-formats) -dokumentationen.
 
    ![](assets/push_notif_advanced_7.png)
 
@@ -153,7 +156,7 @@ Så här inkluderar du multimedia i push-meddelanden:
 1. Öppna push-meddelandet och gå till **[!UICONTROL Advanced options]** avsnittet.
 1. Ange URL-adressen till filen i **[!UICONTROL Rich media content URL]** fältet för varje format: iOS och Android.
 
-   För iOS 10 eller senare kan du infoga bild-, gif-, ljud- och videofiler. I tidigare iOS-versioner visas push-meddelandet utan omfattande innehåll. Detaljerade steg för hur du visar en bild från ett push-meddelande för Adobe Campaign på en iOS-enhet finns på den här [sidan](https://helpx.adobe.com/campaign/kb/display-image-push.html).
+   För iOS 10 eller senare kan du infoga bild-, gif-, ljud- och videofiler. I tidigare iOS-versioner visas push-meddelandet utan omfattande innehåll. Detaljerade anvisningar om hur du visar en bild från ett push-meddelande för Adobe Campaign på en iOS-enhet finns på den här [sidan](https://helpx.adobe.com/campaign/kb/display-image-push.html).
 
    För Android kan du bara inkludera bilder.
 
@@ -171,7 +174,7 @@ För iOS 10 eller senare finns ytterligare två alternativ i avsnittet med push-
 
 När **[!UICONTROL Mutable content]** alternativet är markerat och/eller en URL för multimediainnehåll läggs till, skickas flaggan för mutable-content i push-nyttolasten och tillåter att push-meddelandeinnehållet ändras med ett meddelandetjänsttillägg som finns i iOS SDK. Mer information finns i [Apples dokumentation](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)för utvecklare.
 
-Sedan kan ni utnyttja era mobilappstillägg för att ytterligare ändra innehållet eller presentationen av inkommande push-meddelanden som skickas från Adobe Campaign. Användare kan till exempel utnyttja det här alternativet för att:
+Du kan sedan utnyttja dina mobilappstillägg för att ytterligare ändra innehållet i eller presentationen av inkommande push-meddelanden som skickas från Adobe Campaign. Användare kan till exempel utnyttja det här alternativet för att:
 
 * Dekryptera data som levererats i krypterat format
 * Hämta bilder eller andra mediefiler och lägg till dem som bilagor i ett meddelande
