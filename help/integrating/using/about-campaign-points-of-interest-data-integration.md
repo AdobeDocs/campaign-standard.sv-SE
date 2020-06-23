@@ -12,7 +12,10 @@ discoiquuid: bc10c650-80cd-4146-ae82-c5981fc62bec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+workflow-type: tm+mt
+source-wordcount: '198'
+ht-degree: 0%
 
 ---
 
@@ -21,9 +24,9 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Förutom att spåra kundernas närvaro online kan du också utnyttja deras fysiska platser. Genom integrationen med Adobe Analytics for Mobile kan ni använda Adobe Campaign för att skicka platsbaserade marknadsföringsmeddelanden till era mobilappsprenumeranter.
 
-Intressepunkter består av en latitud, en longitud och en radie som är kopplad till en etikett. De definieras i gränssnittet för [Adobe Mobile Services](https://marketing.adobe.com/resources/help/en_US/mobile/home.html) .
+Intressepunkter består av en latitud, en longitud och en radie som är kopplad till en etikett. De definieras i gränssnittet för [Adobe Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) .
 
-När en prenumerant öppnar ditt mobilprogram hämtar Adobe Campaign data via Experience Cloud Mobile SDK om platsen matchar en punkt i intresse. Du kan använda den här informationen för att skicka personliga meddelanden baserat på användarens plats (till exempel e-post, push-meddelanden, SMS-meddelanden).
+När en prenumerant öppnar ditt mobilprogram hämtar Adobe Campaign data via Experience Cloud Mobile SDK, om platsen matchar en Intressepunkt. Du kan använda den här informationen för att skicka personliga meddelanden baserat på användarens plats (till exempel e-post, push-meddelanden, SMS-meddelanden).
 
 Du kan t.ex. skicka ett 10-procentigt rabatterbjudande till kunder som använder programmet och har besökt en av dina butiker i Boston de senaste två veckorna.
 
