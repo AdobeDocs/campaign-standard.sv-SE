@@ -12,7 +12,7 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: b4d0aa1a9f116f022890d5eccd87730a7a513103
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 0%
@@ -32,9 +32,9 @@ Med importmallar är det mycket bekvämt att förbereda liknande importer och s�
 
 I många projekt byggs importen utan **[!UICONTROL Deduplication]** aktivitet eftersom filerna som används i projektet inte har några dubbletter. Det kan ibland visas dubbletter när du importerar olika filer. Det är då svårt att deduplicera. Därför är ett borttagningssteg en bra försiktighetsåtgärd i alla importarbetsflöden.
 
-Ta det lugnt om du utgår ifrån att inkommande data är konsekventa och korrekta, eller att IT-avdelningen eller Adobe Campaign-administratören kommer att ta hand om dem. Under projektet bör du tänka på datarensningen. Ta bort dubbletter, stämma av och bibehåll enhetligheten när du importerar data.
+Förutsätt inte att inkommande data är konsekventa och korrekta, eller att IT-avdelningen eller Adobe Campaign-administratören kommer att ta hand om dem. Under projektet bör du tänka på datarensningen. Ta bort dubbletter, stämma av och bibehåll enhetligheten när du importerar data.
 
-Ett exempel på en allmän arbetsflödesmall som utformats för import av data finns i [exemplet: Importera arbetsflödesmallavsnitt](#example--import-workflow-template) .
+Ett exempel på en allmän arbetsflödesmall som utformats för import av data finns i [exemplet: Importera arbetsflödesmallavsnitt](../../automating/using/creating-import-workflow-templates.md) .
 
 >[!NOTE]
 >
@@ -80,16 +80,16 @@ Använd zippade filer för import och export när det är möjligt. GZIP stöds 
 
 ## Importera i Delta-läge {#importing-in-delta-mode}
 
-Vanlig import måste ske i deltaläge. Det innebär att bara ändrade eller nya data skickas till Adobe Campaign, i stället för hela tabellen varje gång.
+Vanlig import måste ske i deltaläge. Det innebär att endast ändrade eller nya data skickas till Adobe Campaign, i stället för till hela tabellen varje gång.
 
 Full import bör endast användas för inledande last.
 
 ## Bevara konsekvensen {#maintaining-consistency}
 
-Följ nedanstående principer för att upprätthålla konsekvensen i Adobe Campaign-databasen:
+Följ nedanstående principer för att upprätthålla datakonsekvensen i Adobe Campaign-databasen:
 
-* Om importerade data matchar en referenstabell i Adobe Campaign bör de stämma överens med den tabellen i arbetsflödet. Poster som inte matchar bör avvisas.
-* Se till att importerade data alltid är **&quot;normaliserade&quot;** (e-post, telefonnummer, e-postadress) och att normaliseringen är tillförlitlig och inte förändras under årens lopp. Om så inte är fallet kommer vissa dubbletter sannolikt att visas i databasen, och eftersom Adobe Campaign inte har verktyg för&quot;otydlig&quot; matchning kommer det att vara mycket svårt att hantera och ta bort dem.
+* Om de importerade data matchar en referenstabell i Adobe Campaign bör den stämma av med den tabellen i arbetsflödet. Poster som inte matchar bör avvisas.
+* Se till att importerade data alltid är **&quot;normaliserade&quot;** (e-post, telefonnummer, e-postadress) och att normaliseringen är tillförlitlig och inte förändras under årens lopp. Om så inte är fallet kommer vissa dubbletter sannolikt att visas i databasen, och eftersom Adobe Campaign inte har verktyg för&quot;otydlig&quot; matchning är det mycket svårt att hantera och ta bort dem.
 * Transaktionsdata ska ha en avstämningsnyckel och stämma av med befintliga data för att undvika att skapa dubbletter.
 * **Importera relaterade filer i rätt ordning**. Om importen består av flera filer som är beroende av varandra, bör arbetsflödet se till att filerna importeras i rätt ordning. När en fil misslyckas importeras inte de andra filerna.
 * **Ta bort dubbletter**, stämma av och bibehåll konsekvens när du importerar data.
