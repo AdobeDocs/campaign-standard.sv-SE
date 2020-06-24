@@ -4,9 +4,9 @@ solution: Campaign Standard
 title: Adobe Campaign Standardens produktdokumentation
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 01fed9b50964ae15a2127a1a2f9a3ebca944d6b1
+source-git-commit: 7ceca9dbdd33d3186f476be8ecb5871e5c1d9c9c
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 ## Nyheter
 
-* Både&quot;vitlista&quot; och&quot;svartlista&quot; har tagits bort från Adobe Campaign dokumentation. [Läs mer](rn/using/documentation-updates.md)
-
 * **[Integritetshantering](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/> Läs mer om verktygen från Adobe Campaign som hjälper dig att följa din sekretesspolicy
+
+* **[Externt API](automating/using/external-api.md)**<br/>Använd aktiviteten Externt API för att hämta data till arbetsflödet från ett externt system
 
 * **[Campaign Standard Mobile Guide](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/> Läs mer om allmänna riktlinjer för mobila leveranser
 
