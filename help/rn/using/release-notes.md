@@ -12,9 +12,9 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c70d7172af12c2ccad0468f0afdba87bcf4ac839
+source-git-commit: 04bc32a9abb2939823f18165e1fe46d9f2315cce
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1054'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 [Frisläppningsplanering](../../rn/using/release-planning.md) | [Kontrollpanelsversioner](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [Dokumentationsuppdateringar](../../rn/using/documentation-updates.md) | [Tidigare versionsinformation](../../rn/using/release-notes-2020.md) | [Föråldrade funktioner](../../rn/using/deprecated-features.md)
 
-![](assets/do-not-localize/cp-icon.png) **Den nya Kontrollpanelen i juni** med övervakning av aktiva profiler, granskning av deldomänsleveranser och hantering av GPG-nycklar. Se [Versionsinformation](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)på Kontrollpanelen.
+![](assets/do-not-localize/cp-icon.png) **Den nya Kontrollpanelen i juni** med övervakning av aktiva profiler, granskning av deldomänsleveranser och hantering av GPG-nycklar. [Läs mer](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 ## Version 20.3 - maj 2020 {#release-20-3---may-2020}
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 </tbody> 
 </table>
 
-![](assets/do-not-localize/cp-icon.png) **Den nya Kontrollpanelen kan släppas** med certifikatförnyelse för CNAME-underdomäner. Se [Versionsinformation](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)på Kontrollpanelen.
+![](assets/do-not-localize/cp-icon.png) **Den nya Kontrollpanelen kan släppas** med certifikatförnyelse för CNAME-underdomäner. [Läs mer](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 **Förbättringar**
 
