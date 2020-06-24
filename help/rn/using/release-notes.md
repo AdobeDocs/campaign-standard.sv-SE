@@ -12,9 +12,9 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e59562bd4f258c4259b8e8e5d9648397d5718792
+source-git-commit: c70d7172af12c2ccad0468f0afdba87bcf4ac839
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 0%
 # Senaste versionen{#latest-release}
 
 [Frisläppningsplanering](../../rn/using/release-planning.md) | [Kontrollpanelsversioner](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [Dokumentationsuppdateringar](../../rn/using/documentation-updates.md) | [Tidigare versionsinformation](../../rn/using/release-notes-2020.md) | [Föråldrade funktioner](../../rn/using/deprecated-features.md)
+
+![](assets/do-not-localize/cp-icon.png) **Den nya Kontrollpanelen i juni** med övervakning av aktiva profiler, granskning av deldomänsleveranser och hantering av GPG-nycklar. Se [Versionsinformation](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)på Kontrollpanelen.
 
 ## Version 20.3 - maj 2020 {#release-20-3---may-2020}
 
@@ -36,8 +38,8 @@ ht-degree: 0%
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Thailand's Personal Data Protection Act (PDPA) är den nya integritetslagen som harmoniserar och moderniserar dataskyddskraven för Thailand. Den här förordningen gäller Adobe Campaign-kunder som lagrar data för registrerade i det här landet.</p>
-<p>Förutom de sekretessfunktioner som redan finns i Adobe Campaign (inklusive samtyckeshantering, datalagringsinställningar och användarroller) tar vi tillfället i akt att inkludera ytterligare funktioner för att underlätta beredskapen för PDPA:</p>
+<td> <p>Thailand's Personal Data Protection Act (PDPA) är den nya integritetslagen som harmoniserar och moderniserar dataskyddskraven för Thailand. Denna förordning gäller för Adobe Campaign-kunder som innehar uppgifter för registrerade i detta land.</p>
+<p>Förutom de sekretessfunktioner som redan finns i Adobe Campaign (inklusive samtyckeshantering, datalagringsinställningar och användarroller) tar vi tillfället i akt att inkludera ytterligare funktioner för att underlätta din beredskap för PDPA:</p>
 <ul>
 <li>Rätt till åtkomst och rätt att ta bort: vi utnyttjar de funktioner som tillkommit för GDPR och CCPA. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">Läs mer</a> </li>
 <li><p>När en sekretessförfrågan skapas har PDPA-regeltypen lagts till i Privacy Core-tjänsten. Det är den här metoden du bör använda för alla begäranden om åtkomst och borttagning. Användningen av Campaign-API:t och gränssnittet för begäranden om åtkomst och borttagning är föråldrad.  Se artikeln <a href="../../rn/using/deprecated-features.md"></a>Borttagna och borttagna funktioner.</p></li>
@@ -69,15 +71,13 @@ ht-degree: 0%
 </tbody> 
 </table>
 
->[!NOTE]
->
->Certifikatförnyelse för CNAME-underdomäner släpps på Kontrollpanelen i Campaign i maj. Mer information finns i [Versionsinformation](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)för Kontrollpanelen.
+![](assets/do-not-localize/cp-icon.png) **Den nya Kontrollpanelen kan släppas** med certifikatförnyelse för CNAME-underdomäner. Se [Versionsinformation](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)på Kontrollpanelen.
 
 **Förbättringar**
 
 * Antalet tecken som kan användas i fältet **Prefix** för att [testa meddelanden med målprofiler](../../sending/using/testing-messages-using-target.md) har ökat från 32 till 500 tecken.
 * Det maximala antalet realtidshändelser som kan publiceras på en instans har ökat från 350 till 2000. (CAMP-41608)
-* Synkroniseringen mellan Adobe Launch och Campaign Standard har förbättrats med hjälp av det tekniska arbetsflödet syncWithLaunch. Med det här arbetsflödet kan alla mobilegenskaper i Adobe Launch importeras automatiskt till Adobe Campaign Standard. Mer information finns på [den här sidan](../../administration/using/technical-workflows.md).
+* Synkroniseringen mellan Adobe Launch och Campaign Standard har förbättrats med hjälp av det tekniska arbetsflödet syncWithLaunch. Med det här arbetsflödet kan alla mobilegenskaper i Adobe Launch importeras automatiskt till Adobe Campaign Standarden. Mer information finns på [den här sidan](../../administration/using/technical-workflows.md).
 
    Du måste skicka in en anmälan till Adobes kundtjänst (antingen direkt eller via din Adobe-kontakt) för att det tekniska arbetsflödet syncWithLaunch ska aktiveras i Campaign-instansen. (CAMP-40082)
 
@@ -100,9 +100,9 @@ ht-degree: 0%
 * Språket ES-US har lagts till i listan med färdiga språk för flerspråkiga e-postmeddelanden. (CAMP-42279)
 * Filer som har laddats ned med en överföringsfilaktivitet tas nu bort efter X dagar, där X bestäms av fältet **Historik i dagar** på menyn **Körning** i arbetsflödesegenskaperna. [Läs mer](../../automating/using/managing-execution-options.md)
 
-**Experience Platform-integreringar**
+**Integreringar med Experience Platform**
 
-* Aktiveringen av Adobe [Experience Platform-målgrupper](../../automating/using/aep-targeting-audiences.md) från **Läs-målgruppen** har förbättrats för att ge bättre prestanda och stabilitet. Arbetsflödesloggar har dessutom gjorts tydligare och mer detaljerade vad gäller aktiveringsjobb, vilket gör det enklare att övervaka och felsöka när Adobe Experience Platform-målgrupper läses.
+* Aktiveringen av Adobe [Experience Platform-målgrupper](../../automating/using/aep-targeting-audiences.md) från **Läs-målgruppen** har förbättrats för att ge bättre prestanda och stabilitet. Arbetsflödesloggarna har dessutom blivit tydligare och mer detaljerade vad gäller aktiveringsjobb, vilket gör det enklare att övervaka och felsöka när man läser Adobe Experience Platform.
 
 **Patchar**
 
