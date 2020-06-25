@@ -133,7 +133,9 @@ När du konfigurerar det nya externa kontot måste du ange följande information
 
 * Server: Ange webbadressen till Adobe Experience Manager-servern. Exempel:
 
-   ``` http://aem.domain.com:4502 ```
+   ```
+   http://aem.domain.com:4502
+   ```
 
 * Autentiseringsuppgifter för AEM-konto: använd det konto som kommer att få åtkomst till instansen Adobe Experience Manager. Det ska vara ett konto i kampanjfjärrgruppen i Experience Manager.
 
