@@ -13,9 +13,9 @@ context-tags: union,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,10 @@ Med den här **[!UICONTROL Union]** aktiviteten kan du gruppera om resultatet av
 
 Aktiviteten används för att kombinera populationer från inkommande övergångar när en segmentering utförs, en målgrupp definieras eller när meddelandemålet förbereds till exempel. **[!UICONTROL Union]**
 
+**Relaterade ämnen:**
+
+* [Användningsfall: Förena på två förfinade målgrupper](../../automating/using/union-on-two-refined-audiences.md)
+
 ## Konfiguration {#configuration}
 
 1. Dra och släpp en **[!UICONTROL Union]** aktivitet i arbetsflödet.
@@ -55,6 +59,6 @@ Aktiviteten används för att kombinera populationer från inkommande övergång
 
 ## Exempel {#example}
 
-Följande exempel visar resultatet av två frågeaktiviteter som syftar till att gruppera om profiler från Adobe Campaign-databasen som är mellan 18 och 27 år gamla och de som är mellan 34 och 40 år gamla. Resultatet innehåller alla profiler för de två frågorna eller det maximala antalet poster, om tillämpligt, som anges under konfigurationen.
+I följande exempel visas resultatet av två frågeaktiviteter som syftar till att gruppera om profiler från databasen Adobe Campaign som är mellan 18 och 27 år gamla och de som är mellan 34 och 40 år gamla. Resultatet innehåller alla profiler för de två frågorna eller det maximala antalet poster, om tillämpligt, som anges under konfigurationen.
 
 ![](assets/wkf_union_example.png)
