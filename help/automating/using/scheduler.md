@@ -13,7 +13,10 @@ context-tags: schedule,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 41ba6fa44807541dd749f4effca44ae2b4d147ae
+source-git-commit: 2d994d85f126951215f1227301599c554c1f12c8
+workflow-type: tm+mt
+source-wordcount: '555'
+ht-degree: 0%
 
 ---
 
@@ -35,6 +38,11 @@ När du skapar arbetsflödet ska du bara använda en aktivitet per gren och komm
 >[!CAUTION]
 >
 >Aktivitetens **[!UICONTROL Repetition frequency]** längd får inte vara mindre än 10 minuter. Det innebär att ett arbetsflöde inte kan köras automatiskt mer än en gång var 10:e minut.
+
+**Relaterade ämnen:**
+
+* [Användningsfall: Skapa leveranser på profilens skapandedatum](../../automating/using/workflow-creation-date-query.md)
+* [Användningsfall: Skapa en e-postleverans varje tisdag](../../automating/using/workflow-weekly-offer.md)
 
 ## Konfiguration {#configuration}
 
@@ -65,7 +73,7 @@ När du skapar arbetsflödet ska du bara använda en aktivitet per gren och komm
 
 1. Ange tidszonen för schemaläggaren i **[!UICONTROL Execution options]** fältet på fliken **[!UICONTROL Time zone]** .
 
-   Mer information om hur du skickar leveranser beroende på mottagarens tidszon finns i det här [avsnittet](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md) eller i det här [exemplet](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow) på ett återkommande arbetsflöde.
+   Mer information om hur du skickar leveranser beroende på mottagarens tidszon finns i det här [avsnittet](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md) eller i det här [exemplet](../../automating/using/recurring-push-notifications.md) på ett återkommande arbetsflöde.
 
 1. Bekräfta aktivitetens konfiguration och spara arbetsflödet.
 
