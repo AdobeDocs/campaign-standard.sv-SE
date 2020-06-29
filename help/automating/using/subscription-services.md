@@ -13,12 +13,15 @@ context-tags: setOfService,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
+source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
+workflow-type: tm+mt
+source-wordcount: '1110'
+ht-degree: 0%
 
 ---
 
 
-# Prenumerationstjänster{#subscription-services}
+# Prenumerationstjänster {#subscription-services}
 
 ## Beskrivning {#description}
 
@@ -32,11 +35,16 @@ Med den här **[!UICONTROL Subscription Services]** aktiviteten kan du ta profil
 
 ## Kontext för användning {#context-of-use}
 
-Aktiviteten är den enda Adobe Campaign-funktionaliteten som gör att flera profiler kan prenumereras på eller dras tillbaka från en tjänst i en enda åtgärd. **[!UICONTROL Subscription Services]**
+Aktiviteten är den enda funktionaliteten i Adobe Campaign som tillåter att flera profiler kan prenumereras på eller avbrytas från en tjänst i en enda åtgärd. **[!UICONTROL Subscription Services]**
 
 Du kan använda den här aktiviteten efter att ha utfört målanpassning eller importerat en fil med identifierade data.
 
 Om den anges i en fil via dedikerade kolumner kan du med den här aktiviteten även välja åtgärden (prenumerera eller avsluta prenumeration) och den tjänst som åtgärden ska utföras på.
+
+**Relaterade ämnen:**
+
+* [Användningsfall: Uppdatera flera prenumerationsstatusar från en fil](../../automating/using/updating-subscriptions-from-file.md)
+* [Användningsfall: Prenumerera profiler från en fil till en viss tjänst](../../automating/using/subscribing-profiles-from-file.md)
 
 ## Konfiguration {#configuration}
 
@@ -93,7 +101,7 @@ Arbetsflödet presenteras på följande sätt:
 
    ![](assets/subscription_activity_example2.png)
 
-* En **[!UICONTROL Reconciliation]** aktivitet identifierar att data från filen tillhör profildimensionen i Adobe Campaign-databasen. Endast fliken **[!UICONTROL Identification]** är konfigurerad. Den identifierar fildata enligt profilernas e-postadresser.
+* En **[!UICONTROL Reconciliation]** aktivitet identifierar data från filen som om de tillhör profildimensionen i Adobe Campaign-databasen. Endast fliken **[!UICONTROL Identification]** är konfigurerad. Den identifierar fildata enligt profilernas e-postadresser.
 
    ![](assets/subscription_activity_example3.png)
 
@@ -138,7 +146,7 @@ Arbetsflödet presenteras på följande sätt:
 
    Om filen redan använder &quot;0&quot; och &quot;1&quot; för att identifiera åtgärden behöver du inte mappa om dessa värden. Kontrollera bara att kolumnen bearbetas som ett **booleskt värde** eller **heltal** på **[!UICONTROL Column definition]** fliken.
 
-* En **[!UICONTROL Reconciliation]** aktivitet identifierar att data från filen tillhör profildimensionen i Adobe Campaign-databasen. Via **[!UICONTROL Identification]** fliken matchas filens **e-postfält** mot profilresursens **e-postfält** .
+* En **[!UICONTROL Reconciliation]** aktivitet identifierar data från filen som om de tillhör profildimensionen i Adobe Campaign-databasen. Via **[!UICONTROL Identification]** fliken matchas filens **e-postfält** mot profilresursens **e-postfält** .
 
    ![](assets/subscription_activity_example3.png)
 
