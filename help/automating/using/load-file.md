@@ -13,9 +13,9 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2a8cb9aa0d018fec9d5b256beba079c5ec3afaf0
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '1799'
+source-wordcount: '1341'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,13 @@ Du kan:
 
 * Använd filstrukturen för att tillämpa den på data från en annan fil (återskapat med hjälp av **[!UICONTROL Transfer file]** aktiviteten) eller
 * Använd strukturen och data från filen för att importera den till Adobe Campaign.
+
+**Relaterade ämnen:**
+
+* [Användningsfall: Uppdatera databasen med externa data](../../automating/using/update-database-file.md)
+* [Användningsfall: Uppdatera data baserat på en automatisk filhämtning](../../automating/using/update-data-automatic-download.md)
+* [Användningsfall: Skicka ett e-postmeddelande med fördjupade fält](../../automating/using/sending-email-enriched-fields.md)
+* [Användningsfall: Städa av en filpublik med databasen](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## Konfiguration {#configuration}
 
@@ -157,75 +164,3 @@ Med kolumnformateringen kan du definiera värdebearbetningen för varje kolumn:
    * **[!UICONTROL Generate an error for numerical fields]**: genererar ett fel endast för numeriska fält, annars infogas ett NULL-värde.
    * **[!UICONTROL Insert NULL in the corresponding field]**: anger tomma värden. Värdet NULL infogas därför.
    * **[!UICONTROL Generate an error]**: genererar ett fel om ett värde är tomt.
-
-## Exempel 1: Uppdaterar databasen {#example-1-update-the-database}
-
-Inläsningsfilaktiviteten strukturerar huvudsakligen data från en överföringsfilaktivitet för att integrera dem i befintliga data.
-
-I följande exempel visas resultatet av en automatiskt nedladdad filaktivitet via en överföringsfilaktivitet, följt av en uppdateringsdataaktivitet. Det här arbetsflödet syftar till att förbättra Adobe Campaign-databasen med nya profiler eller att uppdatera befintliga profiler med data som har återställts från den importerade filen.
-
-![](assets/load_file_workflow_ex1.png)
-
-1. Dra och släpp en **[!UICONTROL Transfer file]** aktivitet i arbetsflödet och konfigurera den så att den återställer den fil du vill ha.
-1. Dra och släpp en **[!UICONTROL Load file]** aktivitet i arbetsflödet och placera den efter **[!UICONTROL Transfer file]** aktiviteten.
-1. Markera aktiviteten och öppna den sedan med knappen ![](assets/edit_darkgrey-24px.png) bland de snabbåtgärder som visas.
-1. Markera **[!UICONTROL File to load]** alternativet under **[!UICONTROL Execution]** fliken **[!UICONTROL Use the file specified in the inbound transition]** .
-
-   ![](assets/wkf_file_loading8.png)
-
-1. Konfigurera din aktivitet enligt specifikationen tidigare.
-1. Dra och släpp en **[!UICONTROL Update data]** aktivitet i arbetsflödet och placera den efter **[!UICONTROL Load file]** aktiviteten. Konfigurera den sedan. Se [Uppdatera data](../../automating/using/update-data.md).
-
-När arbetsflödet har startats extraheras data från den överförda filen och används sedan för att utöka Adobe Campaign-databasen.
-
-## Exempel 2: Skicka ett e-postmeddelande med fördjupade fält {#example-2-email-with-enriched-fields}
-
-<!--A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](example-2-email-with-enriched-fields)-->
-
-Aktiviteten för att läsa in filer gör det även möjligt att skicka ett e-postmeddelande som har berikats med ytterligare data från en extern fil i samma arbetsflöde.
-
-I exemplet nedan visas hur du skickar ett e-postmeddelande med ytterligare data som hämtats från en extern fil via inläsningsfilaktiviteten. I det här exemplet innehåller den externa filen en lista med profiler med tillhörande kontonummer. Du vill importera dessa data för att skicka ett e-postmeddelande till varje profil med deras kontonummer.
-
-![](assets/load_file_workflow_ex2.png)
-
-1. Dra och släpp en **[!UICONTROL Query]** aktivitet i arbetsflödet och öppna den för att definiera huvudmålet.
-
-   <!--The Query activity is presented in the [Query](../../automating/using/query.md) section.-->
-
-1. Dra och släpp en **[!UICONTROL Load file]** aktivitet för att tilldela vissa data till en profil. I det här exemplet läser du in en fil som innehåller kontonummer som motsvarar vissa profiler i databasen.
-
-   ![](assets/load_file_activity.png)
-
-1. Dra och släpp en **[!UICONTROL Enrichment]** aktivitet i arbetsflödet och länka inläsningsfilen och frågeaktiviteterna till den.
-
-1. På fliken **[!UICONTROL Advanced relations]** för anrikningsaktiviteten markerar du **[!UICONTROL 0 or 1 cardinality simple link]** och definierar fälten som ska användas för avstämning. Här använder vi efternamnet för att stämma av data med databasprofilerna.
-
-   ![](assets/load_file_enrichment_relation.png)
-
-1. Markera de element som du vill använda i e-postmeddelandet på **[!UICONTROL Additional data]** fliken. Här väljer du Kontonummer (kolumn från filen som du hämtade genom inläsningsfilaktiviteten).
-
-   ![](assets/load_file_enrichment_select_element.png)
-
-   <!--![](assets/load_file_enrichment_additional_data.png)-->
-
-   Mer information finns i [anrikningsavsnittet](../../automating/using/enrichment.md) .
-
-1. Dra och släpp en **[!UICONTROL Segmentation]** aktivitet i arbetsflödet och öppna den för att förfina huvudmålet.
-
-   ![](assets/load_file_segmentation.png)
-
-   Mer information finns i avsnittet [Segmentering](../../automating/using/segmentation.md) .
-
-1. Dra och släpp en **[!UICONTROL Email delivery]** aktivitet i arbetsflödet och öppna den.
-
-   <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
-
-1. Lägg till ett anpassningsfält och välj de ytterligare data som definieras i anrikningsaktiviteten (här kontonummer) från **[!UICONTROL Additional data (targetData)]** noden. Detta gör att kontonumret för varje profil i e-postinnehållet kan hämtas dynamiskt.
-
-   ![](assets/load_file_perso_field.png)
-
-1. Spara e-postmeddelandet och starta arbetsflödet.
-
-E-postmeddelandet skickas till målet. Varje profil får e-postmeddelandet med motsvarande kontonummer.
-
-![](assets/load_file_email.png)
