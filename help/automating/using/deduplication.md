@@ -13,9 +13,9 @@ context-tags: dedup,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '567'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,11 @@ Vid borttagning av dubbletter behandlas inkommande övergångar separat. Om till
 Därför rekommenderas att en borttagning av dubbletter endast har en ingående övergång. För att göra detta kan du kombinera dina olika frågor med aktiviteter som motsvarar dina målgruppsbehov, till exempel en fackaktivitet, en skärningsaktivitet osv. Exempel:
 
 ![](assets/dedup_bonnepratique.png)
+
+**Relaterade ämnen**
+
+* [Användningsfall: Identifiera dubbletter före leverans](../../automating/using/identifying-duplicated-before-delivery.md)
+* [Användningsfall: Deduplicera data från en importerad fil](../../automating/using/deduplicating-data-imported-file.md)
 
 ## Konfiguration {#configuration}
 
@@ -79,72 +84,3 @@ Om du vill konfigurera en dedupliceringsaktivitet måste du ange en etikett, met
 
 1. Hantera vid behov aktivitetens [övergångar](../../automating/using/activity-properties.md) för att komma åt de avancerade alternativen för den utgående populationen.
 1. Bekräfta aktivitetens konfiguration och spara arbetsflödet.
-
-## Exempel 1: Identifiera dubbletter före leverans {#example-1--identifying-duplicates-before-a-delivery}
-
-I följande exempel visas en deduplicering som gör att du kan utesluta dubbletter av ett mål innan du skickar ett e-postmeddelande. Det innebär att du slipper skicka ett meddelande flera gånger till samma profil.
-
-Arbetsflödet består av:
-
-![](assets/deduplication_example_workflow.png)
-
-* En **[!UICONTROL Query]** som gör att du kan definiera målet för e-postmeddelandet. Här är arbetsflödet avsett för alla profiler mellan 18 och 25 år som har funnits i klientdatabasen i mer än ett år.
-
-   ![](assets/deduplication_example_query.png)
-
-* En **[!UICONTROL Deduplication]** aktivitet som gör att du kan identifiera de dubbletter som kommer från föregående fråga. I det här exemplet sparas bara en post för varje dubblett. Duplikaterna identifieras med hjälp av e-postadressen. Det innebär att e-postleveransen bara kan skickas en gång för varje e-postadress som ska finnas i målgruppen.
-
-   Den valda dedupliceringsmetoden är **[!UICONTROL Non-empty value]**. På så sätt kan du se till att bland de poster som finns om det finns dubbletter, prioriteras de i vilka **förnamnet** har angetts. Detta gör det mer sammanhängande om förnamnet används i personaliseringsfälten i e-postinnehållet.
-
-   Dessutom läggs en extra övergång till för att behålla dubbletterna och kunna visa dem.
-
-   ![](assets/deduplication_example_dedup.png)
-
-* En **[!UICONTROL Email delivery]** plats efter den huvudsakliga utgående övergången för dedupliceringen. Konfigurationen för e-postleveranser beskrivs i avsnittet [E-postleverans](../../automating/using/email-delivery.md) .
-* En **[!UICONTROL Save audience]** aktivitet som placerats efter den extra övergången av dedupliceringen för att spara dubbletterna i en **publik med dubbletter** . Den här målgruppen kan återanvändas för att direkt exkludera medlemmarna från alla e-postleveranser.
-
-## Exempel 2: Deduplicera data från en importerad fil {#example-2--deduplicating-the-data-from-an-imported-file}
-
-I det här exemplet visas hur du tar bort dubbletter av data från en fil som importerats innan data lästes in i databasen. Den här proceduren förbättrar kvaliteten på de data som läses in i databasen.
-
-Arbetsflödet består av:
-
-![](assets/deduplication_example2_workflow.png)
-
-* En fil som innehåller en lista med profiler importeras med en **[!UICONTROL Load file]** aktivitet. I det här exemplet är den importerade filen i CSV-format och innehåller 10 profiler:
-
-   ```
-   lastname;firstname;dateofbirth;email
-   Smith;Hayden;23/05/1989;hayden.smith@example.com
-   Mars;Daniel;17/11/1987;dannymars@example.com
-   Smith;Clara;08/02/1989;hayden.smith@example.com
-   Durance;Allison;15/12/1978;allison.durance@example.com
-   Lucassen;Jody;28/03/1988;jody.lucassen@example.com
-   Binder;Tom;19/01/1982;tombinder@example.com
-   Binder;Tommy;19/01/1915;tombinder@example.com
-   Connor;Jade;10/10/1979;connor.jade@example.com
-   Mack;Clarke;02/03/1985;clarke.mack@example.com
-   Ross;Timothy;04/07/1986;timross@example.com
-   ```
-
-   Den här filen kan också användas som exempelfil för att identifiera och definiera kolumnformatet. Kontrollera att varje kolumn i den importerade filen är korrekt konfigurerad på fliken **[!UICONTROL Column definition]** .
-
-   ![](assets/deduplication_example2_fileloading.png)
-
-* En **[!UICONTROL Deduplication]** aktivitet. Borttagning av dubbletter utförs direkt efter att filen har importerats och innan data infogas i databasen. Den bör därför baseras på **[!UICONTROL Temporary resource]** resultaten av **[!UICONTROL Load file]** verksamheten.
-
-   I det här exemplet vill vi behålla en enda post per unik e-postadress som finns i filen. Duplicerad identifiering utförs därför i den tillfälliga resursens **e-postkolumn** . Men filen innehåller två e-postadresser. Två rader kommer därför att betraktas som dubbletter.
-
-   ![](assets/deduplication_example2_dedup.png)
-
-* Med en **[!UICONTROL Update data]** aktivitet kan du infoga data från borttagningen av dubbletter i databasen. Det är bara när data uppdateras som importerade data identifieras som tillhörande profildimensionen.
-
-   Här vill vi gärna se vilka profiler **[!UICONTROL Insert only]** som inte redan finns i databasen. Vi ska göra detta genom att använda filens e-postkolumn och e-postfältet från **profildimensionen** som avstämningsnyckel.
-
-   ![](assets/deduplication_example2_writer1.png)
-
-   Ange mappningarna mellan filens kolumner som du vill infoga data från och databasfälten från **[!UICONTROL Fields to update]** fliken.
-
-   ![](assets/deduplication_example2_writer2.png)
-
-Starta sedan arbetsflödet. Posterna som sparas från dedupliceringsprocessen läggs sedan till i profilerna i databasen.
