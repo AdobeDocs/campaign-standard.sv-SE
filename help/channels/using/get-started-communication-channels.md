@@ -12,7 +12,10 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1b7d2210647a87693d93e325a4c888cb23e5f3a
+source-git-commit: 2d994d85f126951215f1227301599c554c1f12c8
+workflow-type: tm+mt
+source-wordcount: '521'
+ht-degree: 0%
 
 ---
 
@@ -50,11 +53,11 @@ Läs mer:
 
 <img src="assets/do-not-localize/icon_channels.svg"  width="60px">
 
-**Det finns fem kommunikationskanaler** i Adobe Campaign: E-post, SMS-meddelande, push-meddelanden, meddelande i appen och direktleverans av e-post.
+**Fem kommunikationskanaler** finns i Adobe Campaign: E-post, SMS-meddelande, push-meddelanden, meddelande i appen och direktleverans av e-post.
 
 För varje kanal finns specifika funktioner tillgängliga. Med e-postkanalen kan du till exempel utföra A/B-tester för att testa upp till tre versioner av ett e-postmeddelande. Med SMS-kanalen hanterar du STOP SMS-meddelanden och lagrar inkommande SMS från mottagarna i databasen.
 
-Dessutom kan ni utnyttja Campaign Standard- **personalisering och funktioner** för dynamiskt innehåll för att fånga målgruppens intresse.
+Dessutom kan ni utnyttja **personalisering av Campaign Standarder och funktioner** för dynamiskt innehåll för att fånga målgruppens intresse.
 
 Läs mer:
 
@@ -103,3 +106,4 @@ Läs mer:
 * [Importera ett AEM-innehåll](../../integrating/using/creating-email-experience-manager.md)
 * [Skicka meddelanden med arbetsflöden](../../automating/using/about-channel-activities.md)
 * [Videor om självstudiekurser om kommunikationskanaler](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
+* [Användningsfall: Skapa en flerkanalsleverans](../../automating/using/workflow-cross-channel-delivery.md)
