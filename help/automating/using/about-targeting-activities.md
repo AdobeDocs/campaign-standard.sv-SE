@@ -12,9 +12,9 @@ discoiquuid: 5f7607a1-5f71-4d66-9688-3e5a1774f1b4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Du kan välja data med följande aktiviteter:
 
 ## Segmentera data {#segmenting-data}
 
-Med Adobe Campaign kan ni bearbeta uppsättningar på inkommande data. Du kan alltså kombinera flera populationer, utesluta en del av dem eller bara behålla data som är gemensamma för flera mål.
+Med Adobe Campaign kan du bearbeta uppsättningar på inkommande data. Du kan alltså kombinera flera populationer, utesluta en del av dem eller bara behålla data som är gemensamma för flera mål.
 
 * Med den här **[!UICONTROL Union]** aktiviteten kan du gruppera om resultatet av flera aktiviteter till ett enda mål. Se avsnittet [Unionen](../../automating/using/union.md) .
 * Med hjälp av den här **[!UICONTROL Intersection]** aktiviteten kan du bara behålla de element som är gemensamma för de olika inkommande populationerna i aktiviteten. Se avsnittet [Skärningspunkt](../../automating/using/intersection.md) .
@@ -70,9 +70,6 @@ På fliken **[!UICONTROL Additional data]** i **[!UICONTROL Query]** och **[!UIC
 * Aggregat
 * Samlingar
 
-**Relaterade ämnen**
+**Relaterade ämnen:**
 
-* [Användningsfall: Skapa en e-postleverans en gång i veckan](../../automating/using/workflow-weekly-offer.md)
-* [Användningsfall: Skapa en leverans segmenterad på plats](../../automating/using/workflow-segmentation-location.md)
-* [Användningsfall: Skapa leveranser med ett komplement](../../automating/using/workflow-created-query-with-complement.md)
-* [Användningsfall: Omdirigeringsarbetsflöde som skickar en ny leverans till icke-öppnare](../../automating/using/workflow-cross-channel-retargeting.md)
+* [Användningsfall: Anpassa ett e-postmeddelande med ytterligare data](../../automating/using/personalizing-email-with-additional-data.md)
