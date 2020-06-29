@@ -1,6 +1,6 @@
 ---
-title: '"Användningsfall för arbetsflöde: Skapa leveranser den dag då profilen skapades"'
-description: '"Användningsfall för arbetsflöde: Skapa leveranser den dag då profilen skapades"'
+title: Skapa leveranser det datum då profilen skapades
+description: I det här exemplet visas hur du skapar leveranser det datum då profilen skapades.
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -13,12 +13,15 @@ context-tags: workflow,use-case,query
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: accc382ca1543d648e60d53cab338537fd9ea3ef
+source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+workflow-type: tm+mt
+source-wordcount: '354'
+ht-degree: 1%
 
 ---
 
 
-# Användningsexempel för arbetsflöde: Skapa leveranser på profilens skapandedatum {#creation-date-query}
+# Skapa leveranser på profilens skapandedatum {#creation-date-query}
 
 Du kan skicka ett erbjudande via e-post samma dag som kundens profil skapas.
 
@@ -28,7 +31,7 @@ Du kan skicka ett erbjudande via e-post samma dag som kundens profil skapas.
 
 ## Skapa en schemaläggningsaktivitet {#creating-a-scheduler-activity}
 
-1. I **[!UICONTROL Activities]** > **[!UICONTROL Execution]** drar och släpper du en **[!UICONTROL Scheduler activity]**.
+1. I **[!UICONTROL Activities]** > **[!UICONTROL Execution]** drar och släpper du en aktivitet i [Schemaläggaren](../../automating/using/scheduler.md) .
 1. Dubbelklicka på aktiviteten.
 1. Konfigurera leveransen.
 1. I **[!UICONTROL Execution frequency]** väljer du **[!UICONTROL Daily]**.
@@ -44,7 +47,7 @@ Du kan skicka ett erbjudande via e-post samma dag som kundens profil skapas.
 
 ## Skapa en frågeaktivitet {#creating-a-query-activity}
 
-1. Om du vill markera mottagare drar och släpper du en fil **[!UICONTROL Query activity]** och dubbelklickar på den.
+1. Om du vill välja mottagare drar och släpper du en [Query](../../automating/using/query.md) -aktivitet och dubbelklickar på den.
 1. Lägg till **[!UICONTROL Profiles]** och markera **[!UICONTROL no longer contact by email]** med värdet **[!UICONTROL no]**.
 
 ### Hämtar profiler som skapats samma dag som körningen {#retriving-profiles-created-on-the-same-day}
@@ -88,7 +91,7 @@ Den sista frågan visar:
 
 ## Skapa en e-postleverans{#creating-an-email-delivery}
 
-1. Dra och släpp en e-postleverans.
+1. Dra och släpp en [e-postleveransaktivitet](../../automating/using/email-delivery.md) .
 1. Klicka på aktiviteten och välj ![](assets/edit_darkgrey-24px.png) att redigera.
 1. Markera **[!UICONTROL Recurring email]** och klicka **[!UICONTROL Next]**.
 1. Välj en e-postmall och klicka på **[!UICONTROL Next]**.
@@ -102,7 +105,4 @@ Mer information finns i [Utforma ett e-postmeddelande](../../designing/using/des
 
 **Relaterade ämnen:**
 
-* [Fråga](../../automating/using/query.md)
-* [Schemaläggare](../../automating/using/scheduler.md)
-* [E-postleverans](../../automating/using/email-delivery.md)
 * [E-postkanal](../../channels/using/creating-an-email.md)
