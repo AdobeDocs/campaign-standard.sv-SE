@@ -1,6 +1,6 @@
 ---
 title: Inkrementell fråga
-description: Med aktiviteten Inkrementell fråga kan du filtrera och extrahera en population av element från Adobe Campaign-databasen.
+description: Med aktiviteten Inkrementell fråga kan du filtrera och extrahera en ifyllning av element från Adobe Campaign-databasen.
 page-status-flag: never-activated
 uuid: 73b42422-e815-43ef-84c0-97c4433ccc98
 contentOwner: sauviat
@@ -13,7 +13,10 @@ context-tags: incremental,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+workflow-type: tm+mt
+source-wordcount: '614'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +42,14 @@ På fliken **[!UICONTROL Processed data]** , som är specifik för den här akti
 Aktiviteten kan **[!UICONTROL Incremental query]** användas för olika typer av användning:
 
 * Segmentera individer för att definiera målet för ett meddelande, en målgrupp osv.
+
 * Exporterar data.
+
+   Du kan använda en aktivitet för att regelbundet exportera nya loggar i filer. **[!UICONTROL Incremental query]** Det kan till exempel vara användbart om du vill använda dina loggdata i externa rapporterings- eller BI-verktyg. Ett fullständigt exempel finns i avsnittet [Exportera loggar](../../automating/using/exporting-logs.md) .
+
+**Relaterade ämnen**
+
+* [Användningsfall: Stegvis fråga om prenumeranter på en tjänst](../../automating/using/incremental-query-on-subscribers.md)
 
 ## Konfiguration {#configuration}
 
@@ -62,41 +72,9 @@ Aktiviteten kan **[!UICONTROL Incremental query]** användas för olika typer av
 
    ![](assets/incremental_query_usedatefield.png)
 
-1. Du kan definiera **[!UICONTROL Additional data]** för målpopulationen via en dedikerad flik. Dessa data lagras i ytterligare kolumner och kan bara användas för det aktuella arbetsflödet. Du kan i synnerhet lägga till data från Adobe Campaign-databastabeller som är länkade till frågans måldimension. Mer information finns i avsnittet [Förbättra data](../../automating/using/query.md#enriching-data) .
+1. Du kan definiera **[!UICONTROL Additional data]** för målpopulationen via en dedikerad flik. Dessa data lagras i ytterligare kolumner och kan bara användas för det aktuella arbetsflödet. Du kan särskilt lägga till data från databastabellerna i Adobe Campaign som är länkade till frågans måldimension. Mer information finns i avsnittet [Förbättra data](../../automating/using/query.md#enriching-data) .
 1. Bekräfta aktivitetens konfiguration och spara arbetsflödet.
 
 ## Förbättra data {#enriching-data}
 
 Precis som för en fråga kan du berika data från en **[!UICONTROL Incremental query]**. Mer information finns i avsnittet [Förbättra data](../../automating/using/query.md#enriching-data) .
-
-## Exempel: inkrementell fråga om prenumeranter på en tjänst {#example--incremental-query-on-subscribers-to-a-service}
-
-I följande exempel visas konfigurationen av en **[!UICONTROL Incremental query]** aktivitet som filtrerar profilerna i Adobe Campaign-databasen som prenumererar på tjänsten **Running Newsletter** så att de kan skicka ett välkomstmeddelande med en kampanjkod.
-
-Arbetsflödet består av följande element:
-
-![](assets/incremental_query_example1.png)
-
-* En **[!UICONTROL Scheduler]** aktivitet som utför arbetsflödet varje måndag klockan 6.
-
-   ![](assets/incremental_query_example2.png)
-
-* En **[!UICONTROL Incremental query]** aktivitet som riktar sig till alla nuvarande prenumeranter under det första utförandet, och sedan endast till de nya prenumeranterna i den veckan under följande körningar.
-
-   ![](assets/incremental_query_example3.png)
-
-* En **[!UICONTROL Email delivery]** aktivitet. Arbetsflödet körs en gång i veckan, men du kan sammanställa skickade e-postmeddelanden och resultat per månad, t.ex. för att generera rapporter över en hel månad och inte bara en vecka.
-
-   Det gör du genom att välja att skapa en **[!UICONTROL Recurring email]** här som grupperar om e-postmeddelanden och resultat **[!UICONTROL By month]**.
-
-   Definiera innehållet i e-postmeddelandet och infoga koden för välkomstkampanjen.
-
-   Mer information finns i avsnitten [E-postleverans](../../automating/using/email-delivery.md) och [Definiera e-postinnehåll](../../designing/using/personalization.md) .
-
-Starta sedan arbetsflödets körning. Varje vecka får de nya prenumeranterna ett välkomstmeddelande med kampanjkoden.
-
-## Exempel: inkrementell fråga i leveransloggar {#example--incremental-query-on-delivery-logs}
-
-Du kan använda en aktivitet för att regelbundet exportera nya loggar i filer. **[!UICONTROL Incremental query]** Det kan till exempel vara användbart om du vill använda dina loggdata i externa rapporterings- eller BI-verktyg.
-
-Ett fullständigt exempel finns i avsnittet [Exportera loggar](../../automating/using/exporting-logs.md) .
