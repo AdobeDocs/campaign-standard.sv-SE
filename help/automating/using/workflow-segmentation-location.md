@@ -1,6 +1,6 @@
 ---
-title: '"Användningsfall för arbetsflöde: Segmentering på plats"'
-description: '"Användningsfall för arbetsflöde: Segmentering på plats"'
+title: Segmentering på plats"
+description: Det här användningsexemplet visar hur du utför segmentering på plats.
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -13,12 +13,15 @@ context-tags: workflow,use-case,query,segmentation,delivery
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+workflow-type: tm+mt
+source-wordcount: '268'
+ht-degree: 1%
 
 ---
 
 
-# Användningsfall för arbetsflöde: Segmentering på plats {#segmentation-on-location}
+# Segmentering på plats {#segmentation-on-location}
 
 Ni kan skicka riktade e-postmeddelanden till kunderna med erbjudanden i deras lokala butiker.
 
@@ -28,7 +31,7 @@ Ni kan skicka riktade e-postmeddelanden till kunderna med erbjudanden i deras lo
 
 ## Välja mottagare som kan kontaktas via e-post{#selecting-recipients-contactable-via-email}
 
-1. I **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** drar och släpper du en **[!UICONTROL Query activity]**![](assets/query.png).
+1. I **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** drar och släpper du en [Query](../../automating/using/query.md) -aktivitet ![](assets/query.png).
 1. Dubbelklicka på aktiviteten.
 1. I **[!UICONTROL Shortcuts]** drar och släpper du **[!UICONTROL Profiles]** och markerar fältet **[!UICONTROL email]** med operatorn **[!UICONTROL is not empty]**.
 1. I **[!UICONTROL Shortcuts]** drar och släpper du **[!UICONTROL Profiles]** och markerar fältet **[!UICONTROL no longer contact by email]** med värdet **[!UICONTROL no]**.
@@ -38,7 +41,7 @@ Ni kan skicka riktade e-postmeddelanden till kunderna med erbjudanden i deras lo
 
 ## Skapa en segmenteringsaktivitet{#creating-a-segmentation-activity}
 
-1. Dra och släpp en **[!UICONTROL Segmentation]** aktivitet och dubbelklicka på den.
+1. Dra och släpp en [segmenteringsaktivitet](../../automating/using/segmentation.md) och dubbelklicka på den.
 1. Klicka på segmentet och öppna sedan övergången för att nå personer i den första staden. Här i Boston.
 1. Dra och släpp **[!UICONTROL Location]** och markera **[!UICONTROL City]** med operatorn **[!UICONTROL equals to]** och värdet **[!UICONTROL Boston]**.
 Obs! Om du vill nå alla personer som gick in i Boston avmarkerar du alternativet skiftlägeskänsligt.
@@ -50,7 +53,7 @@ Obs! Om du vill nå alla personer som gick in i Boston avmarkerar du alternative
 
 ## Skapa en e-postleverans{#creating-an-email-delivery}
 
-1. I **[!UICONTROL Activities]** > **[!UICONTROL Channels]** drar och släpper du ett **[!UICONTROL Email Delivery]** efter varje segment.
+1. I **[!UICONTROL Activities]** > **[!UICONTROL Channels]** drar och släpper du en [e-postleveransaktivitet](../../automating/using/email-delivery.md) efter varje segment.
 1. Klicka på aktiviteten och välj ![](assets/edit_darkgrey-24px.png) att redigera.
 1. Markera **[!UICONTROL Simple email]** och klicka **[!UICONTROL Next]**.
 1. Välj en e-postmall och klicka på **[!UICONTROL Next]**.
@@ -59,15 +62,10 @@ Obs! Om du vill nå alla personer som gick in i Boston avmarkerar du alternative
 1. Infoga element eller välj en befintlig mall.
 1. Anpassa e-postmarknadsföringen med erbjudanden som är specifika för varje plats.
 
-Mer information finns i [Utforma ett e-postmeddelande](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+   Mer information finns i [Utforma ett e-postmeddelande](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
 1. Klicka **[!UICONTROL Preview]** för att kontrollera layouten.
 1. Klicka på **[!UICONTROL Save]**.
 
 ![](assets/wf-segmentation-location.png)
 
-**Relaterade ämnen:**
-
-* [Frågeaktivitet](../../automating/using/query.md)
-* [Segmenteringsaktivitet](../../automating/using/segmentation.md)
-* [E-postleverans](../../automating/using/email-delivery.md)
