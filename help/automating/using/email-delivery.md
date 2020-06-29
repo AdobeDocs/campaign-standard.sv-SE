@@ -13,9 +13,9 @@ context-tags: delivery,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6e87dc8f299f0c9fbb33e5e56c0a76cfef0aa9a6
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,14 @@ När du är länkad till en schemaläggare kan du definiera återkommande e-post
 E-postmottagare definieras uppströms aktiviteten i samma arbetsflöde, via målinriktade aktiviteter som frågor, skärningar osv.
 
 Meddelandeförberedelsen utlöses enligt arbetsflödets körningsparametrar. På meddelandekontrollpanelen kan du välja om du vill begära eller inte få en manuell bekräftelse för att skicka meddelandet (krävs som standard). Du kan starta arbetsflödet manuellt eller placera en schemaläggningsaktivitet i arbetsflödet för att automatisera körningen.
+
+**Relaterade ämnen:**
+
+* [Användningsfall: Skapa en e-postleverans en gång i veckan](../../automating/using/workflow-weekly-offer.md)
+* [Användningsfall: Skapa en leverans segmenterad på plats](../../automating/using/workflow-segmentation-location.md)
+* [Användningsfall: Skapa leveranser med ett komplement](../../automating/using/workflow-created-query-with-complement.md)
+* [Användningsfall: Omdirigeringsarbetsflöde som skickar en ny leverans till icke-öppnare](../../automating/using/workflow-cross-channel-retargeting.md)
+* [Användningsfall: Födelsedagsleverans](../../automating/using/birthday-delivery.md)
 
 ## Konfiguration {#configuration}
 
@@ -91,28 +99,3 @@ Körningarna av återkommande leveranser maskeras som standard. Om du vill visa 
 I de överordnade leveranserna, som du kommer åt från listan över marknadsföringsaktiviteter eller direkt via de associerade återkommande körningarna, kan du visa det totala antalet skickade meddelanden som har bearbetats (enligt den aggregeringsperiod som angavs när **[!UICONTROL Email delivery]** aktiviteten konfigurerades). Det gör du genom att öppna detaljvyn för den överordnade leveransens **[!UICONTROL Deployment]** block ![](assets/wkf_dlv_detail_button.png).
 
 ![](assets/wkf_display_recurrent_executions_3.png)
-
-## Exempel {#example}
-
-![](assets/wkf_delivery_example_1.png)
-
-Det här exemplet är ett födelsedagsarbetsflöde. Varje dag skickas ett e-postmeddelande till profiler vars födelsedag är den dagen. Så här gör du:
-
-* Du kan **[!UICONTROL Scheduler]** starta arbetsflödet varje dag kl. 8.00.
-
-   ![](assets/wkf_delivery_example_2.png)
-
-* Med den här **[!UICONTROL Query]** aktiviteten kan du beräkna de profiler som har skickat ett e-postmeddelande och vars födelsedag är den aktuella dagen, varje gång arbetsflödet körs. Födelsedagsberäkningen utförs med ett fördefinierat filter som finns på paletten i frågeredigeringsverktyget.
-
-   ![](assets/wkf_delivery_example_3.png)
-
-* Det **[!UICONTROL Email]** är återkommande. Sändningarna sammanställs per månad. Alla e-postmeddelanden som skickas en månad sammanställs alltså i en enda vy. På ett år utförs 365 leveranser, men de grupperas sedan in i 12 vyer (kallas även **återkommande körningar**) i Adobe Campaign-gränssnittet. Historik och rapportinformation visas varje månad och inte för varje sändning.
-
-   ![](assets/wkf_delivery_example_4.png)
-
-**Relaterade ämnen**
-
-* [Användningsfall: Skapa en e-postleverans en gång i veckan](../../automating/using/workflow-weekly-offer.md)
-* [Användningsfall: Skapa en leverans segmenterad på plats](../../automating/using/workflow-segmentation-location.md)
-* [Användningsfall: Skapa leveranser med ett komplement](../../automating/using/workflow-created-query-with-complement.md)
-* [Användningsfall: Omdirigeringsarbetsflöde som skickar en ny leverans till icke-öppnare](../../automating/using/workflow-cross-channel-retargeting.md)
