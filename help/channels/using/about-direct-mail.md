@@ -1,6 +1,6 @@
 ---
 title: Om direktreklam
-description: Upptäck de viktigaste egenskaperna för direktreklamkanalen i Adobe Campaign.
+description: Upptäck de viktigaste särdragen hos direktreklamkanalen i Adobe Campaign.
 page-status-flag: never-activated
 uuid: 24add992-2efe-4b73-81c9-cda3e921ab16
 contentOwner: sauviat
@@ -13,7 +13,10 @@ context-tags: delivery,directMailContent,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+workflow-type: tm+mt
+source-wordcount: '455'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +29,7 @@ Direktreklam är en offlinekanal som gör att du kan anpassa och generera den fi
 >
 >Den här funktionen är valfri. Kontrollera licensavtalet. Rollen krävs **[!UICONTROL Export]** för direktreklam. Kontakta administratören.
 
-Med onlinekanaler kan du skapa meddelanden (e-post, SMS, mobilappsleverans osv.) och skicka dem till er målgrupp direkt från Adobe Campaign. Med offlinekanaler är det annorlunda. När du förbereder en direktutskick genererar Adobe Campaign en fil som innehåller alla målprofiler och den valda kontaktinformationen (till exempel postadress). Du kan sedan skicka den här filen till din direktreklamleverantör som tar hand om själva sändningen.
+Med onlinekanaler kan du skapa meddelanden (e-post, SMS, mobilappsleverans osv.) och skicka dem till er målgrupp direkt från Adobe Campaign. Med offlinekanaler är det annorlunda. När du förbereder en direktutskick genererar Adobe Campaign en fil med alla målprofiler och den valda kontaktinformationen (till exempel postadress). Du kan sedan skicka den här filen till din direktreklamleverantör som tar hand om själva sändningen.
 
 I följande avsnitt beskrivs hur du skapar och genererar direktreklam i ett enda steg. Du kan även inkludera en direktreklamaktivitet i ett arbetsflöde för att samordna kampanjer som kombinerar online- och offlinekanaler. Mer information finns i handboken [Arbetsflöden](../../automating/using/get-started-workflows.md) .
 
@@ -37,6 +40,10 @@ Användarprocessen i Adobe Campaign är följande:
 1. Definiera innehållet
 1. Ange kontaktdatum
 1. Genererar filen
+
+**Relaterade ämnen:**
+
+* [Användningsfall: Koppla e-post och direktreklam](../../automating/using/coupling-email-direct-mail.md)
 
 ## Rekommendationer {#recommendations}
 
@@ -52,9 +59,8 @@ Kontrollera att du har markerat **[!UICONTROL Address specified]** rutan i profi
 
 När du lägger till de fält som ska inkluderas i extraheringsfilen är postadressfälten tillgängliga i **[!UICONTROL Location]** noden.
 
-Adobe Campaign innehåller en uppsättning fördefinierade beräknade fält som följer de vanligaste normaliseringarna av postadresser. Fälten är tillgängliga i **[!UICONTROL Postal address]** noden.
+Adobe Campaign erbjuder en uppsättning fördefinierade beräknade fält som följer de vanligaste normaliseringarna av postadresser. Fälten är tillgängliga i **[!UICONTROL Postal address]** noden.
 
 En adress kan som standard innehålla upp till sex rader: det första beräknade fältet (**[!UICONTROL Line 1]** innehåller förnamn och efternamn, de följande raderna innehåller postadressen (väg, osv.) och den sista raden innehåller postnumret och ort eller stad.
 
 ![](assets/direct_mail_23.png)
-
