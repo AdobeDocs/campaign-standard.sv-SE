@@ -1,6 +1,6 @@
 ---
-title: '"Användningsfall för arbetsflöde: Skapa leveranser med ett komplement"'
-description: '"Användningsfall för arbetsflöde: Skapa leveranser med ett komplement"'
+title: Skapa leveranser med ett komplement
+description: Det här exemplet visar hur du skapar leveranser med ett komplement.
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -13,12 +13,15 @@ context-tags: workflow,use-case,segmentation
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 1%
 
 ---
 
 
-# Användningsfall för arbetsflöde: Skapa leveranser med ett komplement {#deliveries-with-complement}
+# Skapa leveranser med ett komplement {#deliveries-with-complement}
 
 Du kan skicka ett e-postmeddelande till kunder: en för kunder som skapats för mindre än ett år sedan, en för kunder som skapats för mer än ett år sedan.
 
@@ -28,7 +31,7 @@ Du kan skicka ett e-postmeddelande till kunder: en för kunder som skapats för 
 
 ## Skapa en frågeaktivitet {#create-a-query-activity}
 
-1. I **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** drar och släpper du en **[!UICONTROL Query activity]**![](assets/query.png).
+1. I **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** drar och släpper du en [Query](../../automating/using/query.md) -aktivitet.
 1. Dubbelklicka på aktiviteten.
 1. I **[!UICONTROL Shortcuts]** drar och släpper du **[!UICONTROL Profiles]** och väljer **[!UICONTROL email]** med operatorn **[!UICONTROL is not empty]**.
 1. I **[!UICONTROL Shortcuts]** drar och släpper **[!UICONTROL Profiles]** och väljer du **[!UICONTROL no longer contact by email]** med värdet **[!UICONTROL no]**.
@@ -38,7 +41,7 @@ Du kan skicka ett e-postmeddelande till kunder: en för kunder som skapats för 
 
 ## Skapa en segmenteringsaktivitet {#create-a-segmentation-activity}
 
-1. I **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** drar och släpper du en **[!UICONTROL Segmentation]** aktivitet och dubbelklickar på den.
+1. I **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** drar och släpper du en [segmenteringsaktivitet](../../automating/using/segmentation.md) och dubbelklickar på den.
 1. Håll muspekaren över segmentet och klicka sedan på ![](assets/edit_darkgrey-24px.png) för att rikta in dig på kunder som läggs till i år i databasen.
 1. Dra och släpp **[!UICONTROL Profiles]** och markera **[!UICONTROL Created]** med filtertypen **[!UICONTROL Relative]**.
 1. Ändra **[!UICONTROL Level of precision]** till **[!UICONTROL Year]** och markera **[!UICONTROL This year]**.
@@ -55,7 +58,7 @@ Du kan skicka ett e-postmeddelande till kunder: en för kunder som skapats för 
 
 ## Skapa en e-postleverans {#create-an-email-delivery}
 
-1. I **[!UICONTROL Activities]** > **[!UICONTROL Channels]** drar och släpper du en e-postleverans efter varje segment.
+1. I **[!UICONTROL Activities]** > **[!UICONTROL Channels]** drar och släpper du en [e-postleveransaktivitet](../../automating/using/email-delivery.md) efter varje segment.
 1. Klicka på aktiviteten och välj ![](assets/edit_darkgrey-24px.png) att redigera.
 1. Markera **[!UICONTROL Single send email]** och klicka **[!UICONTROL Next]**.
 1. Välj en e-postmall och klicka på **[!UICONTROL Next]**.
@@ -69,9 +72,3 @@ Du kan skicka ett e-postmeddelande till kunder: en för kunder som skapats för 
 Mer information finns i [Utforma ett e-postmeddelande](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
 ![](assets/wf-deliveries-with-a-complement.png)
-
-**Relaterade ämnen:**
-
-* [Fråga](../../automating/using/query.md)
-* [Segmenteringsaktivitet](../../automating/using/segmentation.md)
-* [E-postleverans](../../automating/using/email-delivery.md)
