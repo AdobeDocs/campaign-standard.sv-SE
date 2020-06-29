@@ -13,9 +13,9 @@ context-tags: fileExport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2a8cb9aa0d018fec9d5b256beba079c5ec3afaf0
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,10 @@ Det sätt på vilket data extraheras definieras när aktiviteten konfigureras.
 >[!CAUTION]
 >
 >För att kunna användas måste **[!UICONTROL Extract file]** aktiviteten placeras efter en **[!UICONTROL Query]** aktivitet.
+
+**Relaterade ämnen:**
+
+* [Användningsfall: Exportera profiler i en extern fil](../../automating/using/exporting-profiles-in-file.md)
 
 ## Konfiguration {#configuration}
 
@@ -77,47 +81,3 @@ Det sätt på vilket data extraheras definieras när aktiviteten konfigureras.
 
 1. På **[!UICONTROL Properties]** fliken väljer du **[!UICONTROL Do not generate a file if the inbound transition is empty]** alternativet för att undvika att skapa och överföra tomma filer på SFTP-servrar om den inkommande övergången är tom.
 1. Bekräfta aktivitetens konfiguration och spara arbetsflödet.
-
-## Exempel {#example}
-
-Följande exempel visar hur du konfigurerar en **[!UICONTROL Extract file]** aktivitet efter en **[!UICONTROL Query]** aktivitet.
-
-Målet med det här arbetsflödet är att exportera en lista med profiler i form av en extern fil så att data kan användas utanför Adobe Campaign.
-
-1. Dra och släpp en **[!UICONTROL Extract file]** aktivitet i arbetsflödet och placera den efter **[!UICONTROL Query]** aktiviteten.
-
-   I det här exemplet utförs frågan på alla profiler i åldern 18 till 30.
-
-1. Öppna Extrahera-filaktiviteten för att redigera den.
-1. Namnge utdatafilen.
-1. Lägg till utdatakolumner.
-
-   I det här exemplet läggs e-post, ålder, födelsedatum, förnamn och efternamn för profilerna till som utdatakolumner.
-
-   ![](assets/wkf_data_export6.png)
-
-1. Klicka på **[!UICONTROL File structure]** fliken för att definiera:
-
-   * CSV-utdataformat
-
-      ![](assets/wkf_data_export7.png)
-
-   * Datumformat
-
-      ![](assets/wkf_data_export9.png)
-
-1. Bekräfta din aktivitet.
-1. Dra och släpp en **[!UICONTROL Transfer file]** aktivitet efter **[!UICONTROL Extract file]** aktiviteten för att återskapa extraheringsfilen på ett externt konto.
-1. Öppna aktiviteten och välj **[!UICONTROL File upload]** åtgärden.
-
-   ![](assets/wkf_data_export11.png)
-
-1. Markera det externa kontot och ange sökvägen till mappen på servern.
-
-   ![](assets/wkf_data_export12.png)
-
-1. Bekräfta aktiviteten och spara arbetsflödet.
-1. Starta arbetsflödet.
-
-   När arbetsflödet har körts korrekt är den extraherade filen tillgänglig på det externa kontot.
-
