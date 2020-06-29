@@ -1,6 +1,6 @@
 ---
-title: '"Användningsfall för arbetsflöde: Återmarknadsföring av icke-öppnare"'
-description: '"Användningsfall för arbetsflöde: Återmarknadsföring av icke-öppnare"'
+title: Återmarknadsföring av icke-öppnare
+description: Det här användningsexemplet visar hur du återmarknadsför icke-öppnare.
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -13,12 +13,15 @@ context-tags: workflow,use-case,query,wait,delivery
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+workflow-type: tm+mt
+source-wordcount: '308'
+ht-degree: 1%
 
 ---
 
 
-# Användningsfall för arbetsflöde: Omdirigeringsarbetsflöde som skickar en ny leverans till icke-öppnare{#retargeting-delivery-to-non-openers}
+# Omdirigeringsarbetsflöde som skickar en ny leverans till icke-öppnare{#retargeting-delivery-to-non-openers}
 
 Du kan skicka ett e-postmeddelande till kunder och sedan ett sms till dem som inte öppnade e-postmeddelandet.
 
@@ -28,7 +31,7 @@ Du kan skicka ett e-postmeddelande till kunder och sedan ett sms till dem som in
 
 ## Skapa en frågeaktivitet{#creating-a-query-activity}
 
-1. I **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** drar och släpper du en **[!UICONTROL Query activity]**![](assets/query.png).
+1. I **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** drar och släpper du en [Query](../../automating/using/query.md) -aktivitet.
 1. Dubbelklicka på aktiviteten.
 1. I **[!UICONTROL Shortcuts]** drar och släpper du **[!UICONTROL Profiles]** och väljer **[!UICONTROL email]** med operatorn **[!UICONTROL is not empty]**.
 1. I **[!UICONTROL Shortcuts]** drar och släpper **[!UICONTROL Profiles]** och väljer du **[!UICONTROL no longer contact by email]** med värdet **[!UICONTROL no ]**.
@@ -38,7 +41,7 @@ Du kan skicka ett e-postmeddelande till kunder och sedan ett sms till dem som in
 
 ## Skapa en e-postleverans{#creating-an-email-delivery}
 
-1. Dra och släpp ett **[!UICONTROL Email delivery]** efter varje segment.
+1. Dra och släpp en [e-postleverans](../../automating/using/email-delivery.md) efter varje segment.
 1. Klicka på aktiviteten och välj ![](assets/edit_darkgrey-24px.png) att redigera.
 1. Markera **[!UICONTROL Simple email]** och klicka **[!UICONTROL Next]**.
 1. Markera **[!UICONTROL Add an outbound transition without the population]** och klicka **[!UICONTROL Next]**.
@@ -52,9 +55,9 @@ Du kan skicka ett e-postmeddelande till kunder och sedan ett sms till dem som in
 
 ## Rikta in icke-öppnare i en frågeaktivitet{#targeting-non-openers-in-a-query-activity}
 
-1. I **[!UICONTROL Activities]** > **[!UICONTROL Execution]** drar och släpper du en **[!UICONTROL Wait activity]**![](assets/wait.png).
+1. I **[!UICONTROL Activities]** > **[!UICONTROL Execution]** drar och släpper du en [Wait](../../automating/using/wait.md) -aktivitet.
 1. Klicka **[!UICONTROL Duration]** en dag ![](assets/duration-icon.png) i och markera den.
-1. I **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** drar och släpper du en **[!UICONTROL Query activity]**![](assets/query.png).
+1. I **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** drar och släpper du en **[!UICONTROL Query activity]**.
 1. Dubbelklicka på aktiviteten.
 1. I **[!UICONTROL Shortcuts]** drar och släpper du **[!UICONTROL Tracking Logs]** samt med operatorn **[!UICONTROL exists]**.
 1. I **[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]** drar och släpper du **[!UICONTROL delivery]** med operatorn **[!UICONTROL is equal to]** och väljer leverans som värde.
@@ -72,7 +75,7 @@ Du kan skicka ett e-postmeddelande till kunder och sedan ett sms till dem som in
 1. Om du vill skapa layouten för dina små bilder klickar du på **[!UICONTROL Email Designer]**.
 1. Infoga element eller välj en befintlig mall.
 1. Personalisera era små och medelstora företag med erbjudanden som är specifika för varje plats.
-Mer information finns i [Utforma en sms](../../channels/using/creating-an-sms-message.md).
+Mer information finns i avsnittet [Designa en sms](../../channels/using/creating-an-sms-message.md) .
 1. Klicka **[!UICONTROL Preview]** för att kontrollera layouten.
 1. Klicka på **[!UICONTROL Save]**.
 
@@ -80,7 +83,4 @@ Mer information finns i [Utforma en sms](../../channels/using/creating-an-sms-me
 
 **Relaterade ämnen:**
 
-* [Fråga](../../automating/using/query.md)
-* [SMS-leverans](../../automating/using/sms-delivery.md)
-* [E-postleverans](../../automating/using/email-delivery.md)
 * [E-postkanal](../../channels/using/creating-an-email.md)
