@@ -1,6 +1,6 @@
 ---
-title: '"Användningsfall för arbetsflöde: Kontrollgrupp"'
-description: '"Användningsfall för arbetsflöde: Kontrollgrupp"'
+title: Bygga en kontrollgrupp
+description: I det här exemplet visas hur du skapar en kontrollgrupp.
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -13,20 +13,23 @@ context-tags: workflow,use-case,query,segmentation,delivery
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d93f79912e4d74ed0e177ad308f25f272092cbc2
+source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
+workflow-type: tm+mt
+source-wordcount: '763'
+ht-degree: 0%
 
 ---
 
 
-# Användningsfall för arbetsflöde: Bygga en kontrollgrupp {#building-control-group}
+# Bygga en kontrollgrupp {#building-control-group}
 
 Om du vill mäta effekten av en leverans kanske du vill utesluta vissa profiler från målet så att de inte får ett visst meddelande. Den här kontrollgruppen kan användas för att göra en jämförelse med beteendet hos målpopulationen som tog emot meddelandet.
 
 Om du vill göra det i Adobe Campaign Standard kan du skapa ett arbetsflöde med följande aktiviteter:
-* En Query-aktivitet för att ange en angiven population som mål.
-* En segmenteringsaktivitet för att isolera en slumpmässig kontrollgrupp från denna population.
-* En e-postleveransaktivitet som skickar ett meddelande till huvudmålet.
-* En Uppdatera dataaktivitet för att uppdatera de profiler som uteslöts från målet (den slumpmässiga kontrollgruppen).
+* A [Query](../../automating/using/query.md) activity to target a given population.
+* En [segmenteringsaktivitet](../../automating/using/segmentation.md) för att isolera en slumpmässig kontrollgrupp från denna population.
+* En [e-postleveransaktivitet](../../automating/using/email-delivery.md) som skickar ett meddelande till huvudmålet.
+* En [Uppdatera dataaktivitet](../../automating/using/update-data.md) för att uppdatera de profiler som uteslöts från målet (den slumpmässiga kontrollgruppen).
 
 ![](assets/wkf_control-group.png)
 
@@ -59,16 +62,14 @@ De detaljerade stegen för att skapa ett arbetsflöde visas i avsnittet [Skapa e
 
 ## Skapa en frågeaktivitet {#create-a-query-activity}
 
-1. I **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** drar och släpper du en **[!UICONTROL Query activity]**.
+1. I **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** drar och släpper du en [Query](../../automating/using/query.md) -aktivitet.
 1. Dubbelklicka på aktiviteten för att definiera ditt mål.
 1. I **[!UICONTROL Shortcuts]** till exempel dra och släpp **[!UICONTROL Profile]** väljer du **[!UICONTROL Age]** med operatorn **[!UICONTROL Greater than]** och skriver 25 i **[!UICONTROL Value]** fältet.
 1. Klicka på **[!UICONTROL Confirm]**.
 
-De detaljerade stegen för att skapa en Query-aktivitet finns i avsnittet [Fråga](../../automating/using/query.md) .
-
 ## Skapa en segmenteringsaktivitet {#creating-a-segmentation-activity}
 
-1. Dra och släpp en **[!UICONTROL Segmentation]** aktivitet och dubbelklicka på den.
+1. Dra och släpp en [segmenteringsaktivitet](../../automating/using/segmentation.md) och dubbelklicka på den.
 1. Markera ett segment som du vill redigera på fliken **[!UICONTROL Segments]** .
 1. Välj **[!UICONTROL Configuration]** alternativet på fliken **[!UICONTROL Limit the population of this segment]** i det segmentet.
 
@@ -85,11 +86,9 @@ De detaljerade stegen för att skapa en Query-aktivitet finns i avsnittet [Fråg
 
 1. Klicka på **[!UICONTROL Confirm]**.
 
-De detaljerade stegen för att skapa en segmenteringsaktivitet finns i avsnittet [Segmentering](../../automating/using/segmentation.md) .
-
 ## Skapa en e-postaktivitet {#creating-an-email-activity}
 
-1. I **[!UICONTROL Activities]** > **[!UICONTROL Channels]** drar och släpper du ett **[!UICONTROL Email Delivery]** efter huvudmålsegmentet.
+1. I **[!UICONTROL Activities]** > **[!UICONTROL Channels]** drar och släpper du en aktivitet för [e-postleverans](../../automating/using/email-delivery.md) efter huvudmålsegmentet.
 1. Klicka på aktiviteten och välj ![](assets/edit_darkgrey-24px.png) för att redigera den.
 1. Markera **[!UICONTROL Single send email]** och klicka **[!UICONTROL Next]**.
 1. Välj en e-postmall och klicka på **[!UICONTROL Next]**.
@@ -98,11 +97,9 @@ De detaljerade stegen för att skapa en segmenteringsaktivitet finns i avsnittet
 1. Redigera och spara innehållet.
 1. Avmarkera alternativet **[!UICONTROL Schedule]** [!UICONTROL-begäran som bekräftelse innan meddelanden skickas, **** i delen av meddelandekontrollpanelen.
 
-De detaljerade stegen för att skapa en e-postaktivitet finns i avsnittet [E-postleverans](../../automating/using/email-delivery.md) .
-
 ## Skapa en datauppdateringsaktivitet {#creating-update-data-activity}
 
-1. Dra och släpp en **[!UICONTROL Update data]** aktivitet efter kontrollgruppssegmentet.
+1. Dra och släpp en [Uppdatera data](../../automating/using/update-data.md) -aktivitet efter kontrollgruppssegmentet.
 1. Markera aktiviteten och öppna den sedan med knappen ![](assets/edit_darkgrey-24px.png) bland de snabbåtgärder som visas.
 1. Välj **[!UICONTROL General]** från **[!UICONTROL Update]** **[!UICONTROL Operation type]** listrutan på fliken.
 1. Välj **[!UICONTROL Identification]** alternativet på **[!UICONTROL Directly using the targeting dimension]** fliken.
@@ -115,8 +112,6 @@ De detaljerade stegen för att skapa en e-postaktivitet finns i avsnittet [E-pos
    ![](assets/wkf_control-update-fields-to-update.png)
 
 1. Klicka på **[!UICONTROL Confirm]**.
-
-De detaljerade stegen för att skapa aktiviteten Uppdatera data finns i avsnittet [Uppdatera data](../../automating/using/update-data.md) .
 
 ## Köra arbetsflödet {#running-the-workflow}
 
