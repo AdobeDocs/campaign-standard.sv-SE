@@ -4,9 +4,9 @@ sub-product: adobe kampanjstandard
 audience: end-user
 user-guide-title: Hjälp om Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: d487600fc4f3004804e93347b83edfe4e01cceeb
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1524'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,6 @@ ht-degree: 0%
       + [Skapa direktreklam](channels/using/creating-the-direct-mail.md)
       + [Definiera målgruppen för direktreklam](channels/using/defining-the-direct-mail-audience.md)
       + [Definiera innehållet i direktreklam](channels/using/defining-the-direct-mail-content.md)
-      + [Exempel på direktreklam i ett arbetsflöde](channels/using/example-of-direct-mail-in-a-workflow.md)
    + Transaktionsmeddelanden {#transactional-messaging}
       + [Om transaktionsmeddelanden](channels/using/about-transactional-messaging.md)
       + [Transaktionsmeddelanden för händelser](channels/using/event-transactional-messages.md)
@@ -305,14 +304,38 @@ ht-degree: 0%
       + [Hantera paket](automating/using/managing-packages.md)
       + [Exporterar listor](automating/using/exporting-lists.md)
       + [Användningsfall: Exportera/importera anpassade resurser](automating/using/exporting-importing-custom-resources.md)
-   + Användningsexempel: Arbetsflöden {#workflow-use-case}
-      + [Skapa leveranser med ett komplement](automating/using/workflow-created-query-with-complement.md)
-      + [Skapar leveranser på skapandedatum](automating/using/workflow-creation-date-query.md)
-      + [Skapa en veckoleverans](automating/using/workflow-weekly-offer.md)
-      + [Skapa en segmentering på plats](automating/using/workflow-segmentation-location.md)
-      + [Återmarknadsföring av icke-öppnare](automating/using/workflow-cross-channel-retargeting.md)
-      + [Bygga en kontrollgrupp](automating/using/workflow-control-group.md)
-      + [Skapa en flerkanalsleverans](automating/using/workflow-cross-channel-delivery.md)
+   + Användningsexempel {#workflow-use-case}
+      + Leveranser {#deliveries}
+         + [Skapa leveranser med ett komplement](automating/using/workflow-created-query-with-complement.md)
+         + [Skapa leveranser på profilens skapandedatum](automating/using/workflow-creation-date-query.md)
+         + [Skapa en veckoleverans](automating/using/workflow-weekly-offer.md)
+         + [Skapa en flerkanalsleverans](automating/using/workflow-cross-channel-delivery.md)
+         + [Identifiera dubbletter före leverans](automating/using/identifying-duplicated-before-delivery.md)
+         + [Födelsedagsleverans](automating/using/birthday-delivery.md)
+         + [Koppla e-post och direktreklam](automating/using/coupling-email-direct-mail.md)
+         + [Skicka ett e-postmeddelande med fördjupade fält](automating/using/sending-email-enriched-fields.md)
+         + [Anpassa ett e-postmeddelande med ytterligare data](automating/using/personalizing-email-with-additional-data.md)
+      + Segmentering och målinriktning {#segmentation-targeting}
+         + [Frågeexempel](automating/using/query-samples.md)
+         + [Förena på två förfinade målgrupper](automating/using/union-on-two-refined-audiences.md)
+         + [Skapa en segmentering på plats](automating/using/workflow-segmentation-location.md)
+         + [Återmarknadsföring av icke-öppnare](automating/using/workflow-cross-channel-retargeting.md)
+         + [Stegvis fråga om prenumeranter på en tjänst](automating/using/incremental-query-on-subscribers.md)
+         + [Segmentering efter åldersgrupper](automating/using/segmentation-age-groups.md)
+         + [Använda andra resurser än målinriktade dimensioner](automating/using/using-resources-different-from-targeting-dimensions.md)
+         + [Bygga en kontrollgrupp](automating/using/workflow-control-group.md)
+      + Datahantering {#data-management}
+         + [Städa av en filpublik med databasen](automating/using/reconcile-file-audience-with-database.md)
+         + [Deduplicera data från en importerad fil](automating/using/deduplicating-data-imported-file.md)
+         + [Förbättra profildata med data i en fil](automating/using/enriching-profile-data-file.md)
+         + [Extern signalaktivitet och dataimport](automating/using/external-signal-data-import.md)
+         + [Uppdatera databasen med externa data](automating/using/update-database-file.md)
+         + [Uppdatera data baserat på en automatisk filhämtning](automating/using/update-data-automatic-download.md)
+         + [Datavstämning med hjälp av relationer](automating/using/reconciliation-using-relations.md)
+         + [Datauppdatering med avstämning](automating/using/data-update-reconciliation.md)
+         + [Exportera profiler i en extern fil](automating/using/exporting-profiles-in-file.md)
+         + [Uppdatera flera prenumerationsstatusar från en fil](automating/using/updating-subscriptions-from-file.md)
+         + [Prenumerera profiler från en fil till en viss tjänst](automating/using/subscribing-profiles-from-file.md)
    + Arbeta med Adobe Experience Platform-målgrupper {#working-with-aep-audiences}
       + [Målgrupper i Adobe Experience Platform](automating/using/aep-targeting-audiences.md)
       + [Anpassa kampanjer med Adobe Experience Platform-attribut](automating/using/aep-personalizing-campaigns.md)
