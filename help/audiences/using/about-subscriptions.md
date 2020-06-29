@@ -12,14 +12,17 @@ discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+workflow-type: tm+mt
+source-wordcount: '146'
+ht-degree: 0%
 
 ---
 
 
 # Om prenumerationer{#about-subscriptions}
 
-Med Adobe Campaign kan ni skapa och hantera nyhetsbrev och flerkanalskommunikation via en uppsättning **tjänster**: meddelanden kan bara skickas till profiler som prenumererar på tjänsten (anmälan). Dessa profiler identifieras med ett dedikerat filter när ett meddelande skapas.
+Med Adobe Campaign kan ni skapa och hantera nyhetsbrev och kommunikation i flera kanaler via en uppsättning **tjänster**: meddelanden kan bara skickas till profiler som prenumererar på tjänsten (anmälan). Dessa profiler identifieras med ett dedikerat filter när ett meddelande skapas.
 
 Prenumerationsfunktioner kan konfigureras för att ge kunderna möjlighet att prenumerera på dessa tjänster, särskilt genom **e-post** och **landningssidor**.
 
@@ -29,4 +32,10 @@ Varje tjänst levereras med:
 * Bekräftelsemekanismer för **prenumerationer och/eller avprenumerationer**.
 * En **prenumerationshistorik**.
 
-Prenumerationer kan också hanteras med API:t för Adobe Campaign Standard. Mer information finns i den [dedikerade dokumentationen](../../api/using/creating-a-service.md) .
+Prenumerationer kan också hanteras med Adobe Campaign Standards-API:t. Mer information finns i den [dedikerade dokumentationen](../../api/using/creating-a-service.md) .
+
+**Relaterade ämnen**
+
+* [Användningsfall: Stegvis fråga om prenumeranter på en tjänst](../../automating/using/incremental-query-on-subscribers.md)
+* [Användningsfall: Uppdatera flera prenumerationsstatusar från en fil](../../automating/using/updating-subscriptions-from-file.md)
+* [Prenumerera profiler på en viss tjänst efter import av en fil](../../automating/using/subscribing-profiles-from-file.md)
