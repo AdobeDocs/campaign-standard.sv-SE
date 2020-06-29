@@ -13,9 +13,9 @@ context-tags: segmentation,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 740de9fe4666bf12fc97cfa434414668d9394504
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '860'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,18 @@ Med den här **[!UICONTROL Segmentation]** aktiviteten kan du skapa ett eller fl
 >
 >Som standard kan en medlem i den inkommande populationen bara tillhöra ett segment. Filtren tillämpas i den ordning som segmenten i aktiviteten har.
 
+**Relaterade ämnen:**
+* [Användningsfall: Segmentering på plats](../../automating/using/workflow-segmentation-location.md)
+* [Användningsfall: Bygga en kontrollgrupp](../../automating/using/workflow-control-group.md)
+* [Användningsfall: Segmentering efter åldersgrupper](../../automating/using/segmentation-age-groups.md)
+
 ## Kontext för användning {#context-of-use}
 
 Aktiviteten placeras **[!UICONTROL Segmentation]** vanligtvis efter målaktiviteter (fråga, skärning, union, uteslutning osv.) för att definiera den standardpopulation som ska ligga till grund för segmenten.
+
+**Relaterade ämnen**
+
+* [Användningsfall: Segmentera profiler utifrån deras åldersgrupper](../../automating/using/segmentation-age-groups.md).
 
 ## Konfiguration {#configuration}
 
@@ -91,31 +100,6 @@ Aktiviteten placeras **[!UICONTROL Segmentation]** vanligtvis efter målaktivite
 
    * Markera alternativet om du vill att en medlem i den inkommande populationen ska tillhöra flera segment samtidigt. **[!UICONTROL Enable overlapping of outbound populations]** Aktivitetens utgående population kan överskrida den inkommande populationen.
    * Markera alternativet **[!UICONTROL Concatenate the code of each segment]** om den inkommande populationen redan har tilldelats en segmentkod som du vill behålla. Segmentkoden som anges i aktiviteten läggs till i den inledande segmentkoden.
-   * Markera alternativet **[!UICONTROL Generate complement]** om du vill utnyttja den återstående populationen.
+   * Markera alternativet **[!UICONTROL Generate complement]** om du vill utnyttja den återstående populationen. Se [Använda skiftläge: Skapa leveranser med ett komplement](../../automating/using/workflow-created-query-with-complement.md).
 
 1. Bekräfta aktivitetens konfiguration och spara arbetsflödet.
-
-## Exempel {#example}
-
-I följande exempel visas en segmentering av databasprofiler utifrån deras åldersgrupp. Målet med arbetsflödet är att skicka ett specifikt e-postmeddelande för varje åldersgrupp. Med tanke på att det här arbetsflödet är en del av en testkampanj kan varje segment bara innehålla maximalt 100 profiler som väljs slumpmässigt för att använda begränsade och representativa målgrupper samtidigt.
-
-![](assets/wkf_segment_example_4.png)
-
-Arbetsflödet består av följande element:
-
-* En **[!UICONTROL Scheduler]** aktivitet som anger arbetsflödets körningsdatum. Se avsnittet [Schemaläggaren](../../automating/using/scheduler.md) .
-* En **[!UICONTROL Query]** aktivitet för målprofiler för personer vars födelsedag och e-postadress har angetts. Se avsnittet [Fråga](../../automating/using/query.md) .
-* En **[!UICONTROL Segmentation]** aktivitet för att skapa tre segment indelade i olika utgående övergångar: 18-25 år gamla, 26-32 år gamla och profiler som är över 32 år gamla. Segmenten definieras enligt följande parametrar:
-
-   ![](assets/wkf_segment_example_3.png)
-
-   * Ett filter på sidan som definierar segmentets åldersgrupp
-
-      ![](assets/wkf_segment_new_segment.png)
-
-   * En **[!UICONTROL Random sampling]** typgräns som är länkad till en **[!UICONTROL Maximum size]** gräns på 100
-
-      ![](assets/wkf_segment_example_1.png)
-
-* En **[!UICONTROL Email delivery]** aktivitet per segment. Se avsnittet [E-postleverans](../../automating/using/email-delivery.md) .
-
