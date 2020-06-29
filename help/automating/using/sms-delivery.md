@@ -13,7 +13,10 @@ context-tags: sms,main;delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 16afc307df6902584624d6457954a472b11c5129
+workflow-type: tm+mt
+source-wordcount: '784'
+ht-degree: 0%
 
 ---
 
@@ -79,23 +82,3 @@ Leveranser som skapas i ett arbetsflöde kan nås i programmets lista över mark
 Körningarna av återkommande leveranser maskeras som standard. Om du vill visa dem markerar du **[!UICONTROL Show recurring executions]** alternativet i marknadsföringsaktiviteternas sökpanel.
 
 I de överordnade leveranserna, som du kommer åt från listan över marknadsföringsaktiviteter eller direkt via de associerade återkommande körningarna, kan du visa det totala antalet skickade meddelanden som har bearbetats (enligt den aggregeringsperiod som angavs när **[!UICONTROL SMS delivery]** aktiviteten konfigurerades). Det gör du genom att öppna detaljvyn för den överordnade leveransens **[!UICONTROL Deployment]** block ![](assets/wkf_dlv_detail_button.png).
-
-## Exempel {#example}
-
-![](assets/wkf_sms_example_1.png)
-
-Det här exemplet är ett födelsedagsarbetsflöde. Varje dag skickas ett SMS till profiler vars födelsedag är den dagen. Så här gör du:
-
-* Du kan **[!UICONTROL Scheduler]** starta arbetsflödet varje dag kl. 8.00.
-
-   ![](assets/wkf_delivery_example_2.png)
-
-* Med den här **[!UICONTROL Query]** aktiviteten kan du beräkna vilka profiler som har angett ett mobiltelefonnummer och vars födelsedag är den aktuella dagen, varje gång arbetsflödet körs. Födelsedagsberäkningen utförs med ett fördefinierat filter som finns på paletten i frågeredigeringsverktyget.
-
-   ![](assets/wkf_delivery_example_3.png)
-
-* Det **[!UICONTROL SMS]** är återkommande. Sändningarna sammanställs per månad. Alla SMS-meddelanden som skickas under en månad sammanställs alltså i en enda vy. På ett år utförs 365 leveranser, men de grupperas sedan in i 12 vyer (kallas även **återkommande körningar**) i Adobe Campaign-gränssnittet. Historik och rapportinformation visas varje månad och inte för varje sändning.
-
-   ![](assets/wkf_sms_example_4.png)
-
-Ett annat exempel på SMS-leverans i ett arbetsflöde finns i [Användningsfall: Omdirigeringsarbetsflöde som skickar en ny leverans till icke-öppnare](../../automating/using/workflow-cross-channel-retargeting.md).
