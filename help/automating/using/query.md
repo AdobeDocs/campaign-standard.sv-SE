@@ -13,7 +13,10 @@ context-tags: query,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6e61fe77c66f77178b47abeb4c45a6a636f87c1d
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+workflow-type: tm+mt
+source-wordcount: '1725'
+ht-degree: 0%
 
 ---
 
@@ -28,12 +31,17 @@ Med hjälp av den här **[!UICONTROL Query]** aktiviteten kan du filtrera och ex
 
 Aktiviteten använder frågeredigeringsverktyget. Det här verktyget beskrivs i ett [särskilt avsnitt](../../automating/using/editing-queries.md#about-query-editor).
 
+**Relaterade ämnen:**
+
+* [Frågeexempel](../../automating/using/query-samples.md)
+* [Användningsfall: Omdirigeringsarbetsflöde som skickar en ny leverans till icke-öppnare](../../automating/using/workflow-cross-channel-retargeting.md)
+
 ## Kontext för användning {#context-of-use}
 
 Aktiviteten kan **[!UICONTROL Query]** användas för olika typer av användning:
 
 * Segmentera individer för att definiera målet för ett meddelande, en målgrupp osv.
-* Förbättra data i hela Adobe Campaign-databastabellen.
+* Tillikande data för hela databastabellen i Adobe Campaign.
 * Exporterar data.
 
 ## Konfiguration {#configuration}
@@ -47,7 +55,7 @@ Aktiviteten kan **[!UICONTROL Query]** användas för olika typer av användning
    Mer information finns i [Målinställningar och resurser](#targeting-dimensions-and-resources).
 
 1. På fliken **[!UICONTROL Target]** kör du frågan genom att definiera och kombinera regler.
-1. Du kan definiera **[!UICONTROL Additional data]** för målpopulationen via en dedikerad flik. Dessa data lagras i ytterligare kolumner och kan bara användas för det aktuella arbetsflödet. Du kan i synnerhet lägga till data från Adobe Campaign-databastabeller som är länkade till frågans måldimension. Mer information finns i avsnittet [Förbättra data](#enriching-data) .
+1. Du kan definiera **[!UICONTROL Additional data]** för målpopulationen via en dedikerad flik. Dessa data lagras i ytterligare kolumner och kan bara användas för det aktuella arbetsflödet. Du kan särskilt lägga till data från databastabellerna i Adobe Campaign som är länkade till frågans måldimension. Mer information finns i avsnittet [Förbättra data](#enriching-data) .
 
    >[!NOTE]
    >
@@ -64,8 +72,6 @@ Aktiviteten kan **[!UICONTROL Query]** användas för olika typer av användning
 Med måldimensionerna och resurserna kan du definiera på vilka element en fråga ska baseras för att avgöra målet för en leverans.
 
 Måtten definieras i målmappningar. For more on this, refer to [this section](../../administration/using/target-mappings-in-campaign.md).
-
-### Definiera måldimension och -resurs för en fråga {#defining-the-targeting-dimension-and-resource-of-a-query}
 
 Måldimensioner och resurser definieras när du skapar ett arbetsflöde på fliken **[!UICONTROL Properties]** i en Query-aktivitet.
 
@@ -95,33 +101,9 @@ Exempel på tillgängliga filter för **[!UICONTROL Deliveries (delivery)]** res
 
 ![](assets/targeting_dimension5.png)
 
-### Använda andra resurser än målinriktade dimensioner {#using-resources-different-from-targeting-dimensions}
+Måldimensionen och målresursen anges som standard för målprofiler. Det kan dock vara användbart att använda en annan resurs än måldimensionen om du vill söka efter en viss post i en annan tabell.
 
-Måldimensionen och målresursen anges som standard för målprofiler.
-
-Det kan dock vara användbart att använda en annan resurs än måldimensionen om du vill söka efter en viss post i en annan tabell.
-
-**Exempel 1: Identifiera profiler som är avsedda för leveransen med etiketten&quot;Välkommen tillbaka!&quot;**.
-
-* I det här fallet vill vi ha målprofiler. Vi sätter målgruppsdimensionen till **[!UICONTROL Profiles (profile)]**.
-* Vi vill filtrera de valda profilerna enligt leveransetiketten. Vi kommer därför att sätta resursen till **[!UICONTROL Delivery logs]**. På så sätt filtreras vi direkt i leveransloggtabellen, som ger bättre prestanda.
-
-![](assets/targeting_dimension6.png)
-
-![](assets/targeting_dimension7.png)
-
-**Exempel 2: Identifiera profiler som inte var avsedda för leverans med etiketten&quot;Välkommen tillbaka!&quot;**
-
-I föregående exempel använde vi en annan resurs än måldimensionen. Den här åtgärden är bara möjlig om du vill hitta en post som **finns** i den fjärranslutna tabellen (leveransloggar i vårt exempel).
-
-Om vi vill hitta en post som inte **finns** i den distinkta tabellen (till exempel profiler som inte var målinriktade av en viss leverans) måste du använda samma resurs- och måldimension, eftersom posten inte finns i den distinkta tabellen (leveransloggar).
-
-* I det här fallet vill vi ha målprofiler. Vi sätter målgruppsdimensionen till **[!UICONTROL Profiles (profile)]**.
-* Vi vill filtrera de valda profilerna enligt leveransetiketten. Det går inte att filtrera direkt på leveransloggar eftersom vi söker efter en post som inte finns i leveransloggtabellen. Vi ställer därför in resursen på **[!UICONTROL Profile (profile)]** och bygger vår fråga på profiltabellen.
-
-![](assets/targeting_dimension8.png)
-
-![](assets/targeting_dimension9.png)
+Mer information finns i följande exempel: [Använda andra resurser än målinriktade dimensioner](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
 ## Förbättra data {#enriching-data}
 
@@ -142,6 +124,8 @@ När du har lagt till ytterligare data kan du använda en extra filternivå för
 >[!NOTE]
 >
 >Alternativet är som standard markerat i **[!UICONTROL Remove duplicate rows (DISTINCT)]** slutet **[!UICONTROL Advanced options]** av **[!UICONTROL Additional data]** frågefliken. Om aktiviteten innehåller många (från 100) ytterligare data som definierats bör du avmarkera det här alternativet av prestandaskäl. **[!UICONTROL Query]** Om du avmarkerar det här alternativet kan dubbletter hämtas, beroende på vilka data som efterfrågas.
+
+Ett användningsexempel om hur du anpassar ett e-postmeddelande med ytterligare data visas i [det här avsnittet](../../automating/using/personalizing-email-with-additional-data.md).
 
 ### Lägga till ett enkelt fält {#adding-a-simple-field}
 
@@ -246,135 +230,3 @@ Om du vill göra det lägger du bara till ett villkor för dessa ytterligare dat
 ![](assets/enrichment_output_filtering2.png)
 
 ![](assets/enrichment_output_filtering.png)
-
-### Exempel: personalisera ett e-postmeddelande med ytterligare data {#example--personalizing-an-email-with-additional-data}
-
-I följande exempel visas hur du lägger till olika typer av ytterligare data i en fråga och hur de används som ett anpassningsfält i ett e-postmeddelande.
-
-I det här exemplet används [anpassade resurser](../../developing/using/data-model-concepts.md) :
-
-* Resursen för **profilen** utökades för att lägga till ett fält som gör att varje profils förmånspoäng kan sparas.
-* En **transaktionsresurs** skapades och identifierar alla inköp som utförs av profilerna i databasen. Datum, pris och produkt som köpts sparas för varje transaktion.
-* En **produktresurs** skapades och refererar till produkter som är tillgängliga för inköp.
-
-Målet är att skicka ett e-postmeddelande till de profiler för vilka minst en transaktion har sparats. Via det här mejlet får kunderna en påminnelse om den senaste transaktionen samt en översikt över alla sina transaktioner: antalet köpta produkter, totalt förbrukade produkter, en påminnelse om det totala antalet förmånspoäng som de har ackumulerat.
-
-Arbetsflödet presenteras på följande sätt:
-
-![](assets/enrichment_example1.png)
-
-1. Lägg till en **[!UICONTROL Query]** aktivitet som gör att du kan rikta in profilerna som har utfört minst en transaktion mot målet.
-
-   ![](assets/enrichment_example2.png)
-
-   Ange de olika data som ska visas i det slutliga e-postmeddelandet på fliken **[!UICONTROL Additional data]** i frågan:
-
-   * Det enkla fältet i **profildimensionen** som motsvarar förmånspoängen. Se avsnittet [Lägga till ett enkelt fält](#adding-a-simple-field) .
-   * Två aggregat baserade på transaktionssamlingen: antalet köpta produkter och det totala beloppet som använts. Du kan lägga till dem från fliken **[!UICONTROL Data]** i det aggregerade konfigurationsfönstret med hjälp av aggregaten **Count** och **Sum** . Se avsnittet [Lägga till en sammanställning](#adding-an-aggregate) .
-   * En samling som returnerar använt belopp, datum och produkt för den senaste transaktionen.
-
-      För att göra detta måste du lägga till de olika fält som du vill visa på fliken **[!UICONTROL Data]** i fönstret för samlingskonfiguration.
-
-      Om du bara vill returnera den senaste transaktionen måste du ange &quot;1&quot; för **[!UICONTROL Number of lines to return]** och tillämpa en fallande sortering i fältet **Datum** i samlingen från **[!UICONTROL Sort]** fliken.
-
-      Mer information finns i avsnitten [Lägga till en samling](#adding-a-collection) och [Sortera ytterligare data](#sorting-additional-data) .
-   ![](assets/enrichment_example4.png)
-
-   Om du vill kontrollera att data överförs korrekt av aktivitetens utgående övergång startar du arbetsflödet för första gången (utan **[!UICONTROL Email delivery]** aktiviteten) och öppnar frågans utgående övergång.
-
-   ![](assets/enrichment_example5.png)
-
-1. Lägg till en **[!UICONTROL Email delivery]** aktivitet. I e-postinnehållet infogar du de anpassningsfält som motsvarar de data som beräknas i frågan. Du hittar den via länken **[!UICONTROL Additional data (targetData)]** till utforskaren för anpassningsfält.
-
-   ![](assets/enrichment_example3.png)
-
-Arbetsflödet är nu klart att köras. Profilerna som frågan riktar sig till får ett anpassat e-postmeddelande som innehåller data som beräknas utifrån deras transaktioner.
-
-## Frågeexempel {#query-samples}
-
-### Målinriktning mot enkla profilattribut {#targeting-on-simple-profile-attributes}
-
-I följande exempel visas en frågeaktivitet som är konfigurerad att rikta sig till män mellan 18 och 30 år i London.
-
-![](assets/query_sample_1.png)
-
-### Riktning på e-postattribut {#targeting-on-email-attributes}
-
-I följande exempel visas en frågeaktivitet som har konfigurerats för målprofiler med e-postadressdomänen orange.co.uk.
-
-![](assets/query_sample_emaildomain.png)
-
-I följande exempel visas en frågeaktivitet som konfigurerats för målprofiler vars e-postadress har angetts.
-
-![](assets/query_sample_emailnotempty.png)
-
-### Målprofiler vars födelsedag är idag {#targeting-profiles-whose-birthday-is-today}
-
-I följande exempel visas en frågeaktivitet som konfigurerats för målprofiler vars födelsedag är idag.
-
-1. Dra **[!UICONTROL Birthday]** filtret i frågan.
-
-   ![](assets/query_sample_birthday.png)
-
-1. Ange **[!UICONTROL Filter type]** som **[!UICONTROL Relative]** och markera **[!UICONTROL Today]**.
-
-   ![](assets/query_sample_birthday2.png)
-
-### Målprofiler som öppnade en viss leverans {#targeting-profiles-who-opened-a-specific-delivery}
-
-I följande exempel visas en frågeaktivitet som konfigurerats för att filtrera profiler som öppnade leveransen med etiketten Sommartid.
-
-1. Dra **[!UICONTROL Opened]** filtret i frågan.
-
-   ![](assets/query_sample_opened.png)
-
-1. Välj leverans och klicka sedan på **[!UICONTROL Confirm]**.
-
-   ![](assets/query_sample_opened2.png)
-
-### Målprofiler för vilka leveranser misslyckades av en viss anledning {#targeting-profiles-for-whom-deliveries-failed-for-a-specific-reason}
-
-I följande exempel visas en frågeaktivitet som konfigurerats för att filtrera profiler för vilka leveranser misslyckades på grund av att deras postlåda var full. Frågan är bara tillgänglig för användare med administrationsrättigheter och som tillhör **[!UICONTROL All (all)]** organisationsenheterna (se [det här avsnittet](../../administration/using/organizational-units.md)).
-
-1. Markera **[!UICONTROL Delivery logs]** resursen för att filtrera direkt i leveransloggtabellen (se [Använda andra resurser än måldimensioner](#using-resources-different-from-targeting-dimensions)).
-
-   ![](assets/query_sample_failure1.png)
-
-1. Dra **[!UICONTROL Nature of failure]** filtret i frågan.
-
-   ![](assets/query_sample_failure2.png)
-
-1. Välj den typ av fel som du vill ha som mål. I vårt fall **[!UICONTROL Mailbox full]**.
-
-   ![](assets/query_sample_failure3.png)
-
-### Målprofiler som inte kontaktats under de senaste 7 dagarna {#targeting-profiles-not-contacted-during-the-last-7-days}
-
-I följande exempel visas en frågeaktivitet som konfigurerats för att filtrera profiler som inte kontaktats under de senaste 7 dagarna.
-
-1. Dra **[!UICONTROL Delivery logs (logs)]** filtret i frågan.
-
-   ![](assets/query_sample_7days.png)
-
-   Välj **[!UICONTROL Does not exist]** i listrutan och dra sedan **[!UICONTROL Delivery]** filtret.
-
-   ![](assets/query_sample_7days1.png)
-
-1. Konfigurera filtret enligt nedan.
-
-   ![](assets/query_sample_7days2.png)
-
-### Målprofiler som klickade på en specifik länk {#targeting-profiles-who-clicked-a-specific-link-}
-
-1. Dra **[!UICONTROL Tracking logs (tracking)]** filtret i frågan.
-
-   ![](assets/query_sample_trackinglogs.png)
-
-1. Dra **[!UICONTROL Label (urlLabel)]** filtret.
-
-   ![](assets/query_sample_trackinglogs2.png)
-
-1. I **[!UICONTROL Value]** fältet skriver du den etikett som definierades när länken infogades i leveransen och bekräftar sedan.
-
-   ![](assets/query_sample_trackinglogs3.png)
-
