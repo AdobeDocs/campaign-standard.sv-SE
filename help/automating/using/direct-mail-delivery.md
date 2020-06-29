@@ -13,7 +13,10 @@ context-tags: directMail,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
+source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+workflow-type: tm+mt
+source-wordcount: '914'
+ht-degree: 0%
 
 ---
 
@@ -42,6 +45,11 @@ Mottagare av direktreklam definieras uppströms aktiviteten i samma arbetsflöde
 
 Meddelandeförberedelsen utlöses enligt arbetsflödets körningsparametrar. På meddelandekontrollpanelen kan du välja om du vill begära eller inte få en manuell bekräftelse för att skicka meddelandet (krävs som standard). Du kan starta arbetsflödet manuellt eller placera en schemaläggningsaktivitet i arbetsflödet för att automatisera körningen.
 
+**Relaterade ämnen:**
+
+* [Användningsfall: Koppla e-post och direktreklam](../../automating/using/coupling-email-direct-mail.md)
+* [Om direktreklam](../../channels/using/about-direct-mail.md)
+
 ## Konfiguration {#configuration}
 
 1. Dra och släpp en **[!UICONTROL Direct mail delivery]** aktivitet i arbetsflödet.
@@ -56,7 +64,7 @@ Meddelandeförberedelsen utlöses enligt arbetsflödets körningsparametrar. På
    * **[!UICONTROL Direct mail]**: direktreklamen skickas en gång. Här kan du ange om du vill lägga till en utgående övergång till aktiviteten eller inte. De olika övergångstyperna beskrivs närmare i steg 7 i den här proceduren.
    * **[!UICONTROL Recurring direct mail]**: direktreklamen skickas flera gånger, enligt den frekvens som anges i en **[!UICONTROL Scheduler]** aktivitet. Välj aggregeringsperioden för utskicken. På så sätt kan du gruppera om alla meddelanden som inträffar under den angivna perioden i en enda direktutskick som också kallas **återkommande körning** och som kan nås från programmets lista över marknadsföringsaktiviteter.
 
-      Om du till exempel har en återkommande födelsedagskalender, som behandlas varje dag, kan du välja att samla in varje månad. På så sätt kan du få rapporter om leveransen på månadsbasis även om posten behandlas varje dag.
+      Om du till exempel har en återkommande födelsedagskalender, som behandlas varje dag, kan du välja att samla in varje månad. Detta gör att du kan få rapporter om leveransen på månadsbasis även om posten behandlas varje dag.
 
       >[!NOTE]
       >
@@ -89,7 +97,3 @@ Körningarna av återkommande leveranser maskeras som standard. Om du vill visa 
 I de överordnade leveranserna, som du kommer åt från listan över marknadsföringsaktiviteter eller direkt via de associerade återkommande körningarna, kan du visa det totala antalet e-postmeddelanden som har bearbetats (enligt den aggregeringsperiod som angavs när **[!UICONTROL Direct mail delivery]** aktiviteten konfigurerades). Det gör du genom att öppna detaljvyn för den överordnade leveransens **[!UICONTROL Deployment]** block genom att markera ![](assets/wkf_dlv_detail_button.png) knappen.
 
 ![](assets/wkf_display_recurrent_executions_3_direct_mail.png)
-
-## Exempel {#example}
-
-Ett exempel på **[!UICONTROL Direct mail delivery]** finns i kapitlet [Direktreklam](../../channels/using/example-of-direct-mail-in-a-workflow.md) .
