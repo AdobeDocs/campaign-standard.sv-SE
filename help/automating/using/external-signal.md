@@ -13,7 +13,10 @@ context-tags: signal,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 16afc307df6902584624d6457954a472b11c5129
+workflow-type: tm+mt
+source-wordcount: '600'
+ht-degree: 0%
 
 ---
 
@@ -39,6 +42,11 @@ När den aktiveras kan externa parametrar definieras och vara tillgängliga i ar
 >Aktiviteten kan inte utlösas oftare än var 10:e minut.
 
 Observera att en **[!UICONTROL External signal]** aktivitet kan aktiveras från flera olika händelser. I så fall aktiveras **[!UICONTROL External signal]** funktionen så snart ett av källarbetsflödena eller API-anropet har körts. Alla källarbetsflöden behöver inte vara slutförda.
+
+**Relaterade ämnen**
+
+* [Användningsfall: Extern signalaktivitet och dataimport](../../automating/using/external-signal-data-import.md).
+* [Användningsfall: Anropa ett arbetsflöde för att skapa en målgrupp från en fil med hjälp av externa parametrar](../../automating/using/calling-a-workflow-with-external-parameters.md#use-case)
 
 ## Konfiguration {#configuration}
 
@@ -81,38 +89,3 @@ När **[!UICONTROL End]** aktiviteten för källarbetsflödet eller REST API-anr
 >[!NOTE]
 >
 >Målarbetsflödet måste startas manuellt innan det kan aktiveras. När programmet startas **[!UICONTROL External activity]** aktiveras det och väntar på signalen från källarbetsflödet.
-
-## Exempel {#example}
-
-I följande exempel visas aktiviteten **[!UICONTROL External signal]** i ett typiskt fall. En dataimport utförs i ett källarbetsflöde. När importen är klar och databasen har uppdaterats aktiveras ett andra arbetsflöde. Det andra arbetsflödet används för att uppdatera en mängd på importerade data.
-
-Källarbetsflödet visas på följande sätt:
-
-* En [Läs in filaktivitet](../../automating/using/load-file.md) överför en fil som innehåller nya inköpsdata. Observera att [databasen har utökats](../../developing/using/data-model-concepts.md) i enlighet med detta eftersom inköpsdata inte finns som standard i datamappningen.
-
-   Exempel:
-
-   ```
-   tcode;tdate;customer;product;tamount
-   aze123;21/05/2015;dannymars@example.com;A2;799
-   aze124;28/05/2015;dannymars@example.com;A7;8
-   aze125;31/07/2015;john.smith@example.com;A7;8
-   aze126;14/12/2015;john.smith@example.com;A10;4
-   aze127;02/01/2016;dannymars@example.com;A3;79
-   aze128;04/03/2016;clara.smith@example.com;A8;149
-   ```
-
-* En [avstämningsaktivitet](../../automating/using/reconciliation.md) skapar länkarna mellan importerade data och databasen så att transaktionsdata är korrekt anslutna till profiler och produkter.
-* En [Uppdatera dataaktivitet](../../automating/using/update-data.md) infogar och uppdaterar transaktionsresursen för databasen med inkommande data.
-* En **[!UICONTROL End]** aktivitet utlöser målarbetsflödet, som används för att uppdatera aggregeringar.
-
-![](assets/signal_example_source1.png)
-
-Målarbetsflödet visas på följande sätt:
-
-* En **[!UICONTROL External signal]** aktivitet väntar på att källarbetsflödet ska slutföras.
-* En [Query](../../automating/using/query.md#enriching-data) -aktivitet har profiler som mål och berikar dem med en samlingsuppsättning för att hämta det senaste inköpsdatumet.
-* En [datauppdateringsaktivitet](../../automating/using/update-data.md) lagrar ytterligare data i ett dedikerat anpassat fält. Observera att profilresursen har utökats för att lägga till fältet **Senaste inköpsdatum** .
-
-![](assets/signal_example_source2.png)
-
