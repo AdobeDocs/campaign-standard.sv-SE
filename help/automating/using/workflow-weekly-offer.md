@@ -1,6 +1,6 @@
 ---
-title: '"Användningsfall för arbetsflöde: Skapa en veckoleverans"'
-description: '"Användningsfall för arbetsflöde: Skapa en veckoleverans"'
+title: Skapa en veckoleverans
+description: I det här exemplet visas hur du skapar en veckoleverans.
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -13,12 +13,15 @@ context-tags: workflow,use-case,query,delivery,scheduler
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: accc382ca1543d648e60d53cab338537fd9ea3ef
+source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+workflow-type: tm+mt
+source-wordcount: '242'
+ht-degree: 2%
 
 ---
 
 
-# Användningsexempel för arbetsflöde: Skapa en e-postleverans varje tisdag{#creating-email-every-tuesday}
+# Skapa en e-postleverans varje tisdag{#creating-email-every-tuesday}
 
 Du kan skicka ett e-postmeddelande varje tisdag till alla kunder för specialerbjudanden.
 
@@ -28,7 +31,7 @@ Du kan skicka ett e-postmeddelande varje tisdag till alla kunder för specialerb
 
 ## Skapa en schemaläggningsaktivitet{#creating-a-scheduler-activity}
 
-1. I **[!UICONTROL Activities]** > **[!UICONTROL Execution]** drar och släpper du en **[!UICONTROL Scheduler activity]**.
+1. I **[!UICONTROL Activities]** > **[!UICONTROL Execution]** drar och släpper du en aktivitet i [Schemaläggaren](../../automating/using/scheduler.md) .
 1. Dubbelklicka på aktiviteten.
 1. Konfigurera leveransen.
 1. I **[!UICONTROL Execution frequency]** väljer du **[!UICONTROL Weekly]**.
@@ -45,7 +48,7 @@ Du kan skicka ett e-postmeddelande varje tisdag till alla kunder för specialerb
 
 ## Skapa en frågeaktivitet{#creating-a-query-activity}
 
-1. I **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, för att välja mottagare, drar och släpper du en **[!UICONTROL query]** aktivitet och dubbelklickar på den.
+1. I **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, för att välja mottagare, drar och släpper du en [Query](../../automating/using/query.md) -aktivitet och dubbelklickar på den.
 1. I **[!UICONTROL Shortcuts]** > **[!UICONTROL Profile]** drar och släpper **[!UICONTROL Email]**.
 1. Välj **[!UICONTROL is not empty]** som operator.
 1. I **[!UICONTROL Shortcuts]** > **[!UICONTROL General]** lägger du till profiler och väljer **[!UICONTROL no longer contact by email]** med värdet **[!UICONTROL No]**.
@@ -55,7 +58,7 @@ Du kan skicka ett e-postmeddelande varje tisdag till alla kunder för specialerb
 
 ## Skapa en e-postleverans{#creating-an-email-delivery}
 
-1. I **[!UICONTROL Activities]** > **[!UICONTROL Channels]** drar och släpper du en **[!UICONTROL Email delivery]**.
+1. I **[!UICONTROL Activities]** > **[!UICONTROL Channels]** drar och släpper du en aktivitet för [e-postleverans](../../automating/using/email-delivery.md) .
 1. Klicka på aktiviteten och välj ![](assets/edit_darkgrey-24px.png) att redigera.
 1. Markera **[!UICONTROL Recurring email]** och klicka **[!UICONTROL Next]**.
 1. Välj en e-postmall och klicka på **[!UICONTROL Next]**.
@@ -69,7 +72,4 @@ Mer information finns i [Utforma ett e-postmeddelande](../../designing/using/des
 
 **Relaterade ämnen:**
 
-* [Frågeaktivitet](../..//automating/using/query.md)
-* [Schemaläggaraktivitet](../..//automating/using/scheduler.md)
-* [E-postleverans](../..//automating/using/email-delivery.md)
-* [E-postkanal](../..//channels/using/creating-an-email.md)
+* [E-postkanal](../../channels/using/creating-an-email.md)
