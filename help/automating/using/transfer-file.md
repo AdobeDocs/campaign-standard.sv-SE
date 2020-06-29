@@ -1,6 +1,6 @@
 ---
 title: Överföringsfil
-description: Filöverföringsaktiviteten gör att du kan ta emot eller skicka filer, testa om det finns filer eller listfiler i Adobe Campaign.
+description: Med aktiviteten Överför fil kan du ta emot eller skicka filer, testa om det finns filer eller lista med filer i Adobe Campaign.
 page-status-flag: never-activated
 uuid: a2f18118-b681-4310-aee0-9e82179d2032
 contentOwner: sauviat
@@ -13,7 +13,10 @@ context-tags: fileTransfer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3e90acaa1c2b3de2240f01e5dc3440be44e65eba
+source-git-commit: 175709a41607bb9d64da7fac77dd749fa84f7360
+workflow-type: tm+mt
+source-wordcount: '1075'
+ht-degree: 0%
 
 ---
 
@@ -24,18 +27,21 @@ source-git-commit: 3e90acaa1c2b3de2240f01e5dc3440be44e65eba
 
 ![](assets/file_transfer.png)
 
-Med den här **[!UICONTROL Transfer file]** aktiviteten kan du ta emot eller skicka filer, testa om det finns filer eller listfiler i Adobe Campaign.
+Med den här **[!UICONTROL Transfer file]** aktiviteten kan du ta emot eller skicka filer, testa om det finns filer eller lista med filer i Adobe Campaign.
 
 >[!CAUTION]
 >
 >Från och med version 20.3 tas filer som hämtats med aktiviteten bort efter X dagar, där X bestäms av **[!UICONTROL Transfer File]** fältet under **[!UICONTROL History in days]** **[!UICONTROL Execution]** menyn i arbetsflödesegenskaperna.
-
 
 ## Kontext för användning {#context-of-use}
 
 Det sätt som data extraheras på definieras när aktiviteten konfigureras. Filen som ska läsas in kan till exempel vara en lista med kontakter.
 
 Du kan använda den här aktiviteten för att återställa data som sedan struktureras med **[!UICONTROL Load file]** aktiviteten.
+
+**Relaterade ämnen:**
+
+* [Användningsfall: Uppdatera data baserat på en automatisk filhämtning](../../automating/using/update-data-automatic-download.md)
 
 ## Konfiguration {#configuration}
 
@@ -46,7 +52,7 @@ Du kan använda den här aktiviteten för att återställa data som sedan strukt
    ![](assets/wkf_file_transfer_01.png)
 
    * **Filhämtning**: Med kan du hämta en fil.
-   * **Filöverföring**: gör att du kan överföra en fil. När du överför en fil från Adobe Campaign-filen genereras en loggpost på **[!UICONTROL Export audits]** menyn. Mer information om exportgranskningar finns i avsnittet [Granska export](../../administration/using/auditing-export-logs.md) .
+   * **Filöverföring**: gör att du kan överföra en fil. När du överför en fil från Adobe Campaign skapas en loggpost på **[!UICONTROL Export audits]** menyn. Mer information om exportgranskningar finns i avsnittet [Granska export](../../administration/using/auditing-export-logs.md) .
    * **Testa om filen finns**: gör att du kan kontrollera om det finns en fil.
    * **Fillista**: gör att du kan lista filer som finns på servern som är definierad på **[!UICONTROL Protocol]** fliken. Den här åtgärden används främst för felsökning, för att kontrollera om aktiviteten är konfigurerad efter dina behov innan du hämtar filerna från fjärrservern.
 
@@ -130,14 +136,14 @@ Med protokollet Microsoft Azure Blob kan du komma åt blob som finns på ett Mic
    * **&quot;campaign/new-&quot;**: matchar alla blobbar med ett filnamn som börjar med&quot;new-&quot; och som finns under Campaign-mappen.
    * **&quot;&quot;**: Om du lägger till en tom sökväg kan du matcha alla blober som finns i behållaren.
 
-### Konfiguration med filer som finns på Adobe Campaign-servern {#files-server-configuration-wf}
+### Konfiguration med filer på Adobe Campaign-servern {#files-server-configuration-wf}
 
 Protokollet motsvarar den databas som innehåller de filer som ska återställas. **[!UICONTROL File(s) present on the Adobe Campaign server]** 
 Metatecken eller jokertecken (till exempel * eller ?) kan användas för att filtrera filer.
 
 Välj om du vill **[!UICONTROL Define a file path]** eller **[!UICONTROL Use a dynamic file path]** alternativet **[!UICONTROL Use a dynamic file path]** Med kan du använda ett standarduttryck och händelsemariabler för att anpassa namnet på filen som ska överföras. Mer information finns i avsnittet [Anpassa aktiviteter med händelsevariabler](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) .
 
-Observera att sökvägen måste vara relativ till Adobe Campaign-serverns lagringsutrymmeskatalog. Filerna finns i katalogen **sftp&lt;dininstancename>/** . Du kan inte heller bläddra bland katalogerna ovanför lagringsutrymmet. Exempel:
+Observera att sökvägen måste vara relativ till lagringsutrymmeskatalogen på Adobe Campaign-servern. Filerna finns i katalogen **sftp&lt;dininstancename>/** . Du kan inte heller bläddra bland katalogerna ovanför lagringsutrymmet. Exempel:
 
     >**user&amp;lt;yourinstancename>/my_recipients.csv** är korrekt.
     >
@@ -162,19 +168,3 @@ Varje gång aktiviteten körs kontrolleras mappen enligt följande:
 >[!NOTE]
 >
 >Om aktiviteten inte körs igen kontrolleras eller rensas inte dess mapp. Var därför försiktig när du överför stora filer.
-
-## Exempel {#example}
-
-I följande exempel visas konfigurationen för en **filöverföringsaktivitet** som sedan följs av en **Läs in fil** -aktivitet och sedan en **Uppdatera data** -aktivitet. Målet med det här arbetsflödet är att lägga till eller uppdatera Adobe Campaign-databasprofilerna med data som återställts i arbetsflödet.
-
-1. Dra och släpp en **överföringsfilaktivitet** i arbetsflödet.
-1. Markera aktiviteten och öppna den sedan med knappen ![](assets/edit_darkgrey-24px.png) bland de snabbåtgärder som visas.
-1. Välj **[!UICONTROL Protocol]** SFTP **på** fliken.
-1. Markera alternativet **Använd anslutningsparametrar som har definierats i ett externt konto** .
-1. Ange namnet på det externa kontot.
-1. Ange **filsökvägen på fjärrservern**.
-
-   ![](assets/wkf_file_transfer_07.png)
-
-1. Bekräfta aktiviteten och spara arbetsflödet.
-
