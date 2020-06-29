@@ -1,6 +1,6 @@
 ---
-title: '"Användningsfall för arbetsflöde: Flerkanalsleverans"'
-description: '"Användningsfall för arbetsflöde: Flerkanalsleverans"'
+title: Flerkanalsleverans
+description: Det här användningsexemplet visar hur du skapar en flerkanalsleverans
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -13,14 +13,17 @@ context-tags: workflow,use-case,query,wait,delivery
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
+workflow-type: tm+mt
+source-wordcount: '862'
+ht-degree: 0%
 
 ---
 
 
-# Användningsfall för arbetsflöde: Skapa en flerkanalsleverans{#cross-channel-delivery}
+# Skapa en flerkanalsleverans{#cross-channel-delivery}
 
-I det här dokumentet kan du identifiera följande funktioner i Adobe Campaign via ett standardanvändningsexempel: skapa ett arbetsflöde för flerkanalsleverans.
+I det här dokumentet kan du identifiera följande Adobe Campaign-funktioner via ett standardanvändningsexempel: skapa ett arbetsflöde för flerkanalsleverans.
 
 Målet här är att välja en målgrupp bland mottagarna av databasen och segmentera dem i två olika grupper i syfte att skicka ett e-postmeddelande till den första gruppen och ett SMS-meddelande till den andra gruppen.
 
@@ -51,7 +54,7 @@ När arbetsflödet har skapats kan du komma åt dess gränssnitt.
 
 Infoga en Query-aktivitet i arbetsflödet för att ange de profiler som ska ta emot dina leveranser som mål.
 
-1. I **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** drar och släpper du en **[!UICONTROL Query activity]**.
+1. I **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** drar och släpper du en [Query](../../automating/using/query.md) -aktivitet.
 1. Dubbelklicka på aktiviteten.
 1. Bläddra bland kortkommandona på **[!UICONTROL Target]** fliken och välj en av dina [målgrupper](../../audiences/using/about-audiences.md).
 1. Dra och släpp kortkommandot i redigeringszonen. Beroende på vilken typ av genväg du väljer visas ett fönster.
@@ -63,13 +66,11 @@ Du kan skapa en fråga för ett eller flera element.
 
 Använd knappen **[!UICONTROL Count]** för att se en uppskattning av antalet profiler som används av frågan.
 
-De detaljerade stegen för att skapa en Query-aktivitet finns i avsnittet [Fråga](../../automating/using/query.md) .
-
 ## Skapa en segmenteringsaktivitet {#creating-segmentation-activity}
 
 När målet har identifierats av aktiviteten Fråga måste du välja ett villkor för att segmentera målet i två olika populationer: en får ett mejl och den andra får ett SMS.
 
-Du måste använda en segmenteringsaktivitet för att skapa ett eller flera segment från en population som beräknas uppströms i en fråga.
+Du måste använda en [segmenteringsaktivitet](../../automating/using/segmentation.md) för att skapa ett eller flera segment från en population som beräknas uppströms i en fråga.
 
 ![](assets/wkf_segment_activity.png)
 
@@ -114,19 +115,17 @@ Din andra övergång är nu också konfigurerad.
 
 ![](assets/wkf_segment_transitions.png)
 
-De detaljerade stegen för att skapa en segmenteringsaktivitet finns i avsnittet [Segmentering](../../automating/using/segmentation.md) .
-
 ## Skapa leveranser {#creating-deliveries}
 
-När två övergångar redan har skapats måste du nu lägga till två typer av leveranser till de utgående övergångarna för segmenteringsaktiviteten: en **[!UICONTROL Email delivery]** och en **[!UICONTROL SMS delivery]**.
+När två övergångar redan har skapats måste du nu lägga till två typer av leveranser till de utgående övergångarna för segmenteringsaktiviteten: en [e-postleveransaktivitet](../../automating/using/email-delivery.md) och en [SMS-leveransaktivitet](../../automating/using/sms-delivery.md) .
 
-Med Adobe Campaign kan ni lägga till leveranser i ett arbetsflöde. Det gör du genom att välja en leverans i **[!UICONTROL Channels]** kategorin på aktivitetspaletten i arbetsflödet.
+I Adobe Campaign kan du lägga till leveranser i ett arbetsflöde. Det gör du genom att välja en leverans i **[!UICONTROL Channels]** kategorin på aktivitetspaletten i arbetsflödet.
 
 ![](assets/wkf_segment_deliveries1.png)
 
 Så här skapar du en e-postleverans:
 
-1. Dra och släpp ett **[!UICONTROL Email delivery]** efter det första segmentet.
+1. Dra och släpp en [e-postleveransaktivitet](../../automating/using/email-delivery.md) efter det första segmentet.
 1. Dubbelklicka på aktiviteten för att redigera den.
 1. Välj **[!UICONTROL Simple email]**.
 1. Markera **[!UICONTROL Add an outbound transition with the population]** och klicka **[!UICONTROL Next]**.
@@ -141,18 +140,14 @@ Så här skapar du en e-postleverans:
 1. Redigera och spara innehållet.
 1. Avmarkera alternativet **[!UICONTROL Schedule]** [!UICONTROL-begäran som bekräftelse innan meddelanden skickas, **** i delen av meddelandekontrollpanelen.
 
-De detaljerade stegen för att skapa en e-postaktivitet finns i avsnittet [E-postleverans](../../automating/using/email-delivery.md) .
-
 Så här skapar du en SMS-leverans:
 
-1. Dra och släpp ett **[!UICONTROL SMS delivery]** efter det andra segmentet.
+1. Dra och släpp en [SMS-leveransaktivitet](../../automating/using/sms-delivery.md) efter det andra segmentet.
 1. Dubbelklicka på aktiviteten för att redigera den.
 1. Markera **[!UICONTROL SMS]** och klicka **[!UICONTROL Next]**.
 1. Välj en SMS-mall och klicka på **[!UICONTROL Next]**.
 1. Ange SMS-egenskaperna och klicka på **[!UICONTROL Next]**.
 1. Redigera och spara innehållet.
-
-De detaljerade stegen för att skapa en SMS-aktivitet finns i avsnittet [SMS-leverans](../../automating/using/sms-delivery.md) .
 
 När leveransen har skapats och redigerats är arbetsflödet klart att startas.
 
@@ -160,8 +155,8 @@ När leveransen har skapats och redigerats är arbetsflödet klart att startas.
 
 ## Köra arbetsflödet {#running-the-workflow}
 
-När arbetsflödet har startats segmenteras den population som har valts av frågeaktiviteten för att ta emot en e-post- eller SMS-leverans.
+När arbetsflödet har startats segmenteras den målgrupp som aktiviteten **[!UICONTROL Query]** avser så att den kan ta emot ett e-postmeddelande eller ett SMS-meddelande.
 
 Klicka på knappen i åtgärdsfältet för att köra arbetsflödet **[!UICONTROL Start]** .
 
-Du kommer åt dina leveranser från menyn **[!UICONTROL Marketing plans]** > Avancerat **[!UICONTROL Marketing activities]** via Adobe Campaign-logotypen. Klicka på leveransmeddelandet och sedan på **[!UICONTROL Reports]** knappen för att komma åt [leveransrapporterna](../../reporting/using/about-dynamic-reports.md#accessing-dynamic-reports), till exempel leveranssammanfattningen, öppningsfrekvensen eller e-poståtergivningen enligt mottagarnas inkorg för meddelanden.
+Du kommer åt dina leveranser via **[!UICONTROL Marketing plans]** > **[!UICONTROL Marketing activities]** avancerad meny via Adobe Campaign logotyp. Klicka på leveransmeddelandet och sedan på **[!UICONTROL Reports]** knappen för att komma åt [leveransrapporterna](../../reporting/using/about-dynamic-reports.md#accessing-dynamic-reports), till exempel leveranssammanfattningen, öppningsfrekvensen eller e-poståtergivningen enligt mottagarnas inkorg för meddelanden.
