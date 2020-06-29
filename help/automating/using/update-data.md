@@ -13,9 +13,9 @@ context-tags: writer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,11 @@ Med den här **[!UICONTROL Update data]** aktiviteten kan du utföra en massuppd
 ## Kontext för användning {#context-of-use}
 
 Aktiviteten **Uppdatera data** kan användas efter att en fil har importerats för att infoga de data som har återställts i Adobe Campaign-databasen. Med flera alternativ kan du anpassa uppdateringen av data.
+
+**Relaterade ämnen:**
+
+* [Användningsfall: Uppdatera data baserat på en fil](../../automating/using/update-database-file.md)
+* [Uppdatera data baserat på en automatisk filhämtning](../../automating/using/update-data-automatic-download.md)
 
 ## Konfiguration {#configuration}
 
@@ -71,29 +76,3 @@ Aktiviteten **Uppdatera data** kan användas efter att en fil har importerats f�
    Om du har markerat **[!UICONTROL Insert only]** och de importerade data kan innehålla poster som redan finns i databasen, bör du markera **[!UICONTROL Generate an outbound transition for the rejects]** rutan för att undvika eventuella fel.
 
 1. Bekräfta aktivitetens konfiguration och spara arbetsflödet.
-
-## Exempel {#example}
-
-Följande aktivitet visar konfigurationen för en **[!UICONTROL Update data]** aktivitet efter en **[!UICONTROL Load file]** aktivitet. Syftet med det här arbetsflödet är att lägga till eller uppdatera profiler i Adobe Campaign-databasen med data som har återställts från filen. Avstämningsnyckeln som används är e-postadressen.
-
-Den inlästa filen är en **.txt** -formatfil som innehåller följande exempeldata:
-
-```
-lastname;firstname;email;birthdate
-jackman;megan;megan.jackman@testmail.com;07/08/1975
-phillips;edward;phillips@testmail.com;09/03/1986
-weaver;justin;justin_w@testmail.com;11/15/1990
-martin;babeth;babeth_martin@testmail.net;11/25/1964
-reese;richard;rreese@testmail.com;02/08/1987
-cage;nathalie;cage.nathalie227@testmail.com;07/03/1989
-xiuxiu;andrea;andrea.xiuxiu@testmail.com;09/12/1992
-grimes;daryl;daryl_890@testmail.com;12/06/1979
-tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
-```
-
-Aktiviteten är konfigurerad på följande sätt **[!UICONTROL Update data]** :
-
-![](assets/deduplication_example2_writer1.png)
-
-![](assets/deduplication_example2_writer2.png)
-
