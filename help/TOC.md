@@ -4,9 +4,9 @@ sub-product: adobe kampanjstandard
 audience: end-user
 user-guide-title: Hjälp om Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
+source-git-commit: 49fdf317bdb73c83c9ddc9e0948ab91e1f60bd18
 workflow-type: tm+mt
-source-wordcount: '1524'
+source-wordcount: '1528'
 ht-degree: 0%
 
 ---
@@ -305,6 +305,7 @@ ht-degree: 0%
       + [Exporterar listor](automating/using/exporting-lists.md)
       + [Användningsfall: Exportera/importera anpassade resurser](automating/using/exporting-importing-custom-resources.md)
    + Användningsexempel {#workflow-use-case}
+      + [Om användningsfall för arbetsflöden](automating/using/about-workflow-use-cases.md)
       + Leveranser {#deliveries}
          + [Skapa leveranser med ett komplement](automating/using/workflow-created-query-with-complement.md)
          + [Skapa leveranser på profilens skapandedatum](automating/using/workflow-creation-date-query.md)
