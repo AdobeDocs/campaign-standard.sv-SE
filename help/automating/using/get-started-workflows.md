@@ -1,6 +1,6 @@
 ---
 title: Kom igång med processer och datahantering
-description: Adobe Campaign erbjuder en omfattande grafisk miljö där ni kan utforma och automatisera processer.
+description: Adobe Campaign har en omfattande grafisk miljö där du kan designa och automatisera processer.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: a9fbf0479019dfbe2964c517a0370f015d0f380a
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">Importera/exportera data</a></p></td></tr>
 </table>
 
-Adobe Campaign erbjuder en omfattande grafisk miljö som gör att ni kan utforma komplexa processer som segmentering, kampanjutförande, filhantering, godkännanden med mera. Du kan till exempel använda ett arbetsflöde för att hämta en fil från en server, expandera den och sedan importera dess poster till Adobe Campaign-databasen.
+Adobe Campaign erbjuder en omfattande grafisk miljö där du kan utforma komplexa processer som segmentering, kampanjutförande, filhantering osv. Du kan till exempel använda ett arbetsflöde för att hämta en fil från en server, expandera den och sedan importera dess poster till Adobe Campaign-databasen.
 
 Ett arbetsflöde kan även omfatta användare genom att tilldela dem uppgifter eller låta dem godkänna utförda uppgifter. Det innebär att du kan tilldela en eller flera användare en uppgift att arbeta med innehåll eller ange mål och godkänna korrektur innan meddelandet skickas.
 
@@ -47,7 +47,7 @@ Det finns olika aktiviteter som du kan använda för att utforma arbetsflöden.
 
 [Med målaktiviteter](../../automating/using/about-targeting-activities.md) kan du skapa ett eller flera mål genom att definiera uppsättningar och dela eller kombinera dessa uppsättningar med hjälp av korsnings-, union- eller exkluderingsåtgärder.
 
-Med [Körningsaktiviteter](../../automating/using/about-execution-activities.md)kan du samordna ditt arbetsflöde och dess aktiviteter, medan [Kanalaktiviteter](../../automating/using/about-channel-activities.md) gör att du kan kombinera kommunikationskanaler i Campaign Standard och skapa arbetsflöden för flera kanaler.
+Med [Körningsaktiviteter](../../automating/using/about-execution-activities.md)kan du samordna ditt arbetsflöde och dess aktiviteter, medan du med [Kanalaktiviteter](../../automating/using/about-channel-activities.md) kan kombinera Campaign Standardens kommunikationskanaler för att skapa flerkanalsarbetsflöden.
 
 Slutligen gör [datahanteringsaktiviteter](../../automating/using/about-data-management-activities.md) att du kan hantera data från din databas.
 
@@ -61,7 +61,7 @@ Läs mer:
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
-Använd **frågeredigeraren** för att filtrera data från databasen och skapa en population som bättre riktar sig till mottagarna. Frågeredigeraren är tillgänglig för att utföra flera åtgärder i Campaign Standard: skapa målgrupper av frågetyper, definiera leveransmål eller populationer i arbetsflödesaktiviteter.
+Använd **frågeredigeraren** för att filtrera data från databasen och skapa en population som bättre riktar sig till mottagarna. Frågeredigeraren är tillgänglig för att utföra flera åtgärder i Campaign Standarden: skapa målgrupper av frågetyper, definiera leveransmål eller populationer i arbetsflödesaktiviteter.
 
 Frågeredigeraren innehåller **fördefinierade filter och regler** för snabb och enkel filtrering. Du kan även använda **avancerade redigeringsfunktioner** för uttryck. På så sätt kan du manuellt ange villkor och använda funktioner för att skapa egna regler.
 
@@ -75,7 +75,7 @@ Läs mer:
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-Campaign Standard innehåller flera **datahanteringsfunktioner** för att importera och exportera data.
+Campaign Standard har flera **datahanteringsfunktioner** för import och export av data.
 
 [Med datahanteringsaktiviteter](../../automating/using/about-data-management-activities.md) i arbetsflöden kan du importera data, utföra massuppdateringar på fält, ta emot eller skicka filer eller länka oidentifierade data till befintliga resurser.
 
@@ -85,7 +85,7 @@ Med [importmallar](../../automating/using/importing-data-with-import-templates.m
 
 Utnyttja [paket](../../automating/using/managing-packages.md) för att utbyta resurser mellan olika kampanjinstanser, till exempel för att replikera konfigurationen av en instans eller för att överföra data från en server till en annan, inklusive anpassade resurser.
 
-Slutligen kan du med [exportlistor](../../automating/using/exporting-lists.md) exportera alla listor från Campaign Standard, som till exempel listan över testprofiler, listan över e-postadresser i karantän, osv.
+Slutligen kan du [exportera listor](../../automating/using/exporting-lists.md) från Campaign Standarder som till exempel en lista med testprofiler, en lista med karantänadresser, e-postadresser etc.
 
 Läs mer:
 
@@ -96,4 +96,4 @@ Läs mer:
 
 * [Självstudievideor om processer och datahantering](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/getting-started/create-workflow.html)
 * [Tekniska arbetsflöden](../../administration/using/technical-workflows.md)
-* [Kom igång med datamodellen Campaign Standard](../../developing/using/get-started-data-model.md)
+* [Kom igång med Campaign Standardens datamodell](../../developing/using/get-started-data-model.md)
