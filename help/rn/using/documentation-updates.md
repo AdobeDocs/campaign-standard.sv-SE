@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 58c69b6f6efdac8be5d05fe723bbf9ff54d186ee
+source-git-commit: 446bacfa42fcbc70c7a7c006fa185cdec004c264
 workflow-type: tm+mt
-source-wordcount: '5941'
+source-wordcount: '5954'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 0%
 Förutom [versionsinformationen](../../rn/using/release-notes.md)för Adobe Campaign visas alla nya uppdateringar i Adobe Campaign Standardens dokumentation.
 
 ## Dokumentationsuppdateringar - juni 2020 {#doc-updates-june-2020}
+
+Fall av användning av arbetsflöden har uppdaterats och omorganiserats i tematiska avsnitt. [Läs mer](../../automating/using/about-workflow-use-cases.md)
 
 Användningsexempel har lagts till om hur du [krypterar](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) och [dekrypterar](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) data med arbetsflödena på Kontrollpanelen och Campaign.
 
