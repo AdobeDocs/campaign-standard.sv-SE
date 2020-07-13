@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 446bacfa42fcbc70c7a7c006fa185cdec004c264
+source-git-commit: 4bf004b035c10ccbdb1ff9dc3fb51ddfdef54777
 workflow-type: tm+mt
-source-wordcount: '5954'
+source-wordcount: '5969'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,17 @@ ht-degree: 0%
 
 Förutom [versionsinformationen](../../rn/using/release-notes.md)för Adobe Campaign visas alla nya uppdateringar i Adobe Campaign Standardens dokumentation.
 
+## Dokumentationsuppdateringar - juli 2020 {#doc-updates-july-2020}
+
+Nya funktioner för AI-baserade e-postmeddelanden: skicka tidsoptimering och profilpoäng [Läs mer](../../sending/using/predictive.md)
+
 ## Dokumentationsuppdateringar - juni 2020 {#doc-updates-june-2020}
 
 Fall av användning av arbetsflöden har uppdaterats och omorganiserats i tematiska avsnitt. [Läs mer](../../automating/using/about-workflow-use-cases.md)
 
 Användningsexempel har lagts till om hur du [krypterar](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) och [dekrypterar](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) data med arbetsflödena på Kontrollpanelen och Campaign.
 
-Både&quot;vitlista&quot; och&quot;svartlista&quot; har tagits bort från Adobe Campaign dokumentation. Vissa förekomster av dessa termer kan fortfarande förekomma i produktgränssnittet, alternativnamn och intern kod, men kommer att ersättas i kommande Campaign-versioner med blocklist och allowlist.
+Både&quot;vitlista&quot; och&quot;svartlista&quot; har tagits bort från Adobe Campaign dokumentation. Vissa förekomster av dessa termer kan fortfarande förekomma i produktgränssnittet, alternativnamn och intern kod, men kommer att ersättas i kommande Campaign-versioner med&quot;blockeringslista&quot; och&quot;tillåtelselista&quot;.
 
 Referenser till den tidigare supportwebbplatsen har ersatts av den nya URL:en. [Läs mer](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
 
@@ -290,7 +294,7 @@ Det finns nu en ny artikel med tips som förenklar marknadsföringskampanjer, bl
 
 En felsökning har lagts till för dynamisk rapportering. [Läs mer](../../reporting/using/troubleshooting.md)
 
-Ett diagram som förklarar hur de olika mallarna i appen hanterar personlig information har lagts till. [Läs mer](../../channels/using/preparing-and-sending-an-in-app-message.md)
+Ett diagram som förklarar hur olika mallar i appen hanterar personlig information har lagts till. [Läs mer](../../channels/using/preparing-and-sending-an-in-app-message.md)
 
 Avsnittet om hur du sparar e-postinnehåll som ett fragment i e-postdesignern har uppdaterats. [Läs mer](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)
 
@@ -568,7 +572,7 @@ Lagt till information om loggtyper för spårning. [Läs mer](../../sending/usin
 
 Frågeaktivitetsavsnittet har uppdaterats med frågeexempel. [Läs mer](../../automating/using/query.md#query-samples)
 
-Avsnittet som är avsett för blockeringslistor har bytt namn till&quot;Förstå avanmälnings- och avanmälningsprocesser&quot;. Det har uppdaterats med information om hur man hanterar anmälan till specifika kanaler och hur man ställer in landningssidor för att hantera anmälan och avanmälan. [Läs mer](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+Avsnittet som riktar sig till blockeringslista har bytt namn till&quot;Förstå avanmälnings- och avanmälningsprocesser&quot;. Det har uppdaterats med information om hur man hanterar anmälan till specifika kanaler och hur man ställer in landningssidor för att hantera anmälan och avanmälan. [Läs mer](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Lär dig de bästa sätten att använda Adobes värdservrar för SFTP-servrar. [Läs mer](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -592,7 +596,7 @@ Användning av anpassade resurser i transaktionsmeddelanden - [läs mer](../../a
 
 GDPR-API:t registrerar funktioner som tillåter automatisk bearbetning av GDPR-begäranden. [Läs mer](../../api/using/creating-a-privacy-request.md)
 
-Lagt till information om hur du ställer in landningssidor för att ge mottagarna möjlighet att läggas till i blocklistan. [Läs mer](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+Lagt till information om hur du ställer in landningssidor så att dina mottagare kan läggas till i blockeringslista. [Läs mer](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 Avsnittet [Configuring transactional messaging](../../administration/using/configuring-transactional-messaging.md) (Konfigurera transaktionsmeddelanden [) har organiserats om och ett](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) stegvis användningsexempelhar lagts till.
 
@@ -646,7 +650,7 @@ Lagt till information om hur du skickar en leverans beroende på användarnas ti
 
 Omorganiserat avsnittet med **[!UICONTROL Customizing a push notification]** stegvisa användningsexempel. [Läs mer](../../channels/using/customizing-a-push-notification.md)
 
-Nytt avsnitt som är dedikerat till hantering av blockeringslistor. [Läs mer](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+Nytt avsnitt som handlar om hantering av blockeringslista. [Läs mer](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Uppdaterad information om leveransfel och karantän. [Läs mer](../../sending/using/monitoring-a-delivery.md)
 
