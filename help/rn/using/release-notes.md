@@ -12,9 +12,9 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 04bc32a9abb2939823f18165e1fe46d9f2315cce
+source-git-commit: f45985c030c3d5059bfef444287c10b842298f49
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,10 @@ ht-degree: 0%
 </tbody> 
 </table>
 
-![](assets/do-not-localize/cp-icon.png) **Den nya Kontrollpanelen kan släppas** med certifikatförnyelse för CNAME-underdomäner. [Läs mer](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
+**Ytterligare funktioner** (från 13 juli)
+
+* **AI-driven optimering av sändningstid och profilpoäng** - Nu kan ni optimera utformningen och leveransen av kundresor för att förutse varje individs engagemang. Med Journey AI som bas kan Adobe Campaign analysera och förutsäga öppningsfrekvenser, optimala sändningstider och sannolika bortfall baserat på historiska engagemangsmått. [Läs mer](../../sending/using/predictive.md)
+* **Brasiliens nya sekretessbestämmelser** - Förutom de sekretessfunktioner som redan finns i Campaign hjälper Adobe er att underlätta beredskapen för Brasiliens Lei Geral de Proteçao de Datos (LGPD). När en sekretessförfrågan skapas har LGPD-regeln lagts till i Adobes bastjänst för sekretess. [Läs mer](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html)
 
 **Förbättringar**
 
@@ -123,3 +126,6 @@ ht-degree: 0%
 * Korrigerade ett problem som orsakade diskrepans av data när personalisering användes i transaktionsmeddelanden. (CAMP-41842)
 * Korrigerade problem som uppstod när anpassade fält i leveranser med push-meddelanden togs bort. (CAMP-37586)
 * Korrigerade ett fel som hindrade användare från att göra ändringar i rapporter. (CAMP-42505)
+
+
+![](assets/do-not-localize/cp-icon.png) **Den nya Kontrollpanelen kan släppas** med certifikatförnyelse för CNAME-underdomäner. [Läs mer](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
