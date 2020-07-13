@@ -4,9 +4,9 @@ sub-product: adobe kampanjstandard
 audience: end-user
 user-guide-title: Hjälp om Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 49fdf317bdb73c83c9ddc9e0948ab91e1f60bd18
+source-git-commit: 4bf004b035c10ccbdb1ff9dc3fb51ddfdef54777
 workflow-type: tm+mt
-source-wordcount: '1528'
+source-wordcount: '1530'
 ht-degree: 0%
 
 ---
@@ -143,6 +143,7 @@ ht-degree: 0%
       + [Skicka korrektur](sending/using/sending-proofs.md)
       + [Testa e-postmeddelanden med målprofiler](sending/using/testing-messages-using-target.md)
       + [Testa ämnesraden i ett e-postmeddelande](sending/using/testing-subject-line-email.md)
+      + [AI-baserade e-postmeddelanden](sending/using/predictive.md)
       + [E-poståtergivning](sending/using/email-rendering.md)
       + [Använda svällningar](sending/using/using-traps.md)
    + Schemaläggningsmeddelanden {#scheduling-messages}
