@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c4cfd36d54044b5988ec2160ba695921fc9d9920
+source-git-commit: 979ddba984bd564bf60b42973c857f2b896eeaf6
 workflow-type: tm+mt
-source-wordcount: '6092'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 Förutom [versionsinformationen](../../rn/using/release-notes.md)för Adobe Campaign visas alla nya uppdateringar i Adobe Campaign Standardens dokumentation.
 
-## Dokumentationsuppdateringar - juli 2020 {#doc-updates--july-2020}
+## Dokumentationsuppdateringar - juli 2020 {#doc-updates-july-2020}
 
 Ett nytt avsnitt har lagts till med riktlinjer för övervakning av Campaign Standard. [Läs mer](../../administration/using/monitoring-guidelines.md)
 
-Externa API-skyddsutkast har uppdaterats.[Läs mer](../../automating/using/external-api.md)
+Externa API-skyddsutkast har uppdaterats. [Läs mer](../../automating/using/external-api.md)
 
 Sidan Sekretesshanteringsöversikt har uppdaterats med information om Thailands lag för skydd av personuppgifter (PDPA) och Brasiliens Lei Geral de Proteção de Dados (LGPD). [Läs mer](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
@@ -36,9 +36,7 @@ Mobilkanalguiden har omstrukturerats och förbättrats. En ny guide Konfigurera 
 
 Sekretesshantering på Campaign Standard-sidan har uppdaterats, inklusive förtydliganden om hur förfrågningar om sekretess hanteras genom integreringen av bastjänsten för sekretess. [Läs mer](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
 
-## Dokumentationsuppdateringar - juli 2020 {#doc-updates-july-2020}
-
-Nya funktioner för AI-baserade e-postmeddelanden: skicka tidsoptimering och profilpoäng [Läs mer](../../sending/using/predictive.md)
+Nya funktioner för AI-baserade e-postmeddelanden: skicka tidsoptimering och profilpoäng. [Läs mer](../../sending/using/predictive.md)
 
 ## Dokumentationsuppdateringar - juni 2020 {#doc-updates-june-2020}
 
