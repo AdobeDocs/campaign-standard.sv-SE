@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4bf004b035c10ccbdb1ff9dc3fb51ddfdef54777
+source-git-commit: 06dde80beee2d13956f26a9f6ab8eae130fa83ff
 workflow-type: tm+mt
-source-wordcount: '5969'
+source-wordcount: '6084'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,16 @@ ht-degree: 0%
 # Dokumentationsuppdateringar{#documentation-updates}
 
 Förutom [versionsinformationen](../../rn/using/release-notes.md)för Adobe Campaign visas alla nya uppdateringar i Adobe Campaign Standardens dokumentation.
+
+## Dokumentationsuppdateringar - juli 2020 {#doc-updates--july-2020}
+
+Ett nytt avsnitt har lagts till med riktlinjer för övervakning av Campaign Standard. [Läs mer](../../administration/using/monitoring-guidelines.md)
+
+Sidan Sekretesshanteringsöversikt har uppdaterats med information om Thailands lag för skydd av personuppgifter (PDPA) och Brasiliens Lei Geral de Proteção de Dados (LGPD). [Läs mer](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+
+Mobilkanalguiden har omstrukturerats och förbättrats. En ny guide Konfigurera mobilkanaler har lagts till med teknisk dokumentation om mobilkonfiguration. [Läs mer](../../administration/using/push-tracking.md)
+
+Sekretesshantering på Campaign Standard-sidan har uppdaterats, inklusive förtydliganden om hur förfrågningar om sekretess hanteras genom integreringen av bastjänsten för sekretess. [Läs mer](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
 
 ## Dokumentationsuppdateringar - juli 2020 {#doc-updates-july-2020}
 
@@ -294,7 +304,7 @@ Det finns nu en ny artikel med tips som förenklar marknadsföringskampanjer, bl
 
 En felsökning har lagts till för dynamisk rapportering. [Läs mer](../../reporting/using/troubleshooting.md)
 
-Ett diagram som förklarar hur olika mallar i appen hanterar personlig information har lagts till. [Läs mer](../../channels/using/preparing-and-sending-an-in-app-message.md)
+Ett diagram som förklarar hur de olika mallarna i appen hanterar personlig information har lagts till. [Läs mer](../../channels/using/preparing-and-sending-an-in-app-message.md)
 
 Avsnittet om hur du sparar e-postinnehåll som ett fragment i e-postdesignern har uppdaterats. [Läs mer](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)
 
@@ -812,7 +822,7 @@ Många skärmbilder har uppdaterats för att återspegla gränssnittsändringar.
 
 Nu finns en ny teknik: &quot;Integrera Adobe Mobile SDK med mobilappen&quot;. [Läs mer](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
-Instruktioner för att konfigurera People core service eller integrering av Audience Manager med Adobe Campaign har-started-communication-channel.mdegrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+Instruktioner om hur du konfigurerar People core service eller integreringen mellan Audience Manager och Adobe Campaign har lagts till. [Läs mer](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 Behörighetstabellen har reviderats för att göra vissa rollers funktion tydligare. [Läs mer](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
