@@ -12,7 +12,7 @@ discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: bd74905985734412b4fb11ad11d70faf9fcc9ca6
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Följ stegen som beskrivs i [Skapa en mappad utlösare i Campaign](../../integra
 Om utlösaren skapas går du vidare till nästa steg. Annars innebär det att slutpunktsanslutningen för utlösaren misslyckades. Kontrollera om utlösare har etablerats i Experience Cloud (aktiveringstjänster). Om så inte är fallet kontaktar du din Adobe-kontoansvarige eller partner för professionella tjänster. Följande information krävs:
 
 * Företagsnamn för Marketing Cloud
-* IMS-ORG-ID
+* IMS-organisations-ID
 * Analytics inloggningsföretag (kan vara samma som Marketing Cloud-företagets namn)
 
 **Prova att publicera utlösaren**
@@ -77,7 +77,7 @@ Om så är fallet följer du de här stödlinjerna:
 Om inte, gå vidare till nästa steg. Om så är fallet följer du de här stödlinjerna:
 
 * Kontrollera att transaktionsmallen är publicerad.
-* Kontrollera att profilen inte finns i blockeringslistan.
+* Kontrollera att profilen inte är på blockeringslista.
 * Kontrollera tillämpningen av typologiregler.
 * Kontrollera transaktionsmeddelandets loggar.
 
