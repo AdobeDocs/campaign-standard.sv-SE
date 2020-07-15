@@ -13,7 +13,10 @@ context-tags: delivery,inAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1269ee2041e0857b077424ba7f50fbfa9519ae7b
+source-git-commit: 4efc42fd6b656c7723ed52f704c801113f9b3817
+workflow-type: tm+mt
+source-wordcount: '1080'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +40,7 @@ Med innehållsredigeraren i appen kan du välja mellan två meddelandelägen i a
 
 * [Skicka ditt meddelande i appen](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message)
 * [Rapportering i appen](../../reporting/using/in-app-report.md)
-* [Implementera lokal meddelandespårning](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html)
+* [Implementera lokal meddelandespårning](../../administration/using/local-tracking.md)
 
 ## Anpassa med en meddelandemall {#customizing-with-a-message-template}
 
@@ -143,7 +146,7 @@ Du kan lägga till upp till två knappar i meddelandet i appen.
 ## Anpassa en lokal meddelandetyp {#customizing-a-local-notification-message-type}
 
 Lokala meddelanden kan bara aktiveras av ett program vid en viss tidpunkt och beroende på en händelse. De kommer att varna användarna om att något händer i deras app, även utan att ha tillgång till Internet.
-Mer information om hur du spårar lokala meddelanden finns på den här [sidan](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html).
+Mer information om hur du spårar lokala meddelanden finns på den här [sidan](../../administration/using/local-tracking.md).
 
 Så här anpassar du ett lokalt meddelande:
 
@@ -184,7 +187,7 @@ Filen måste ha en viss layout som du kan hitta genom att klicka på **Hämta ex
 
 ![](assets/inapp_customize_16.png)
 
-Du kan också hitta en lista med anpassade HTML-krav för en lyckad import i Adobe Campaign.
+Du kan även hitta en lista med anpassade HTML-krav för en lyckad import i Adobe Campaign.
 
 ![](assets/inapp_customize_3.png)
 
