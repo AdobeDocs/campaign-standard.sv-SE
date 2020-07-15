@@ -12,7 +12,10 @@ discoiquuid: a425cd59-edfd-42c5-a6bd-38773c353ff0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 02fa55789449efe03af75779892303941b8a2871
+workflow-type: tm+mt
+source-wordcount: '384'
+ht-degree: 0%
 
 ---
 
@@ -23,9 +26,9 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 >
 >Observera att du måste dra och släppa mätvärden till dina tabeller för att dela upp data beroende på vilka leveranstyper du har, i det här fallet push-meddelanden. **[!UICONTROL Message type]**
 
-Rapporten om **push-meddelanden** innehåller information om marknadsföringsresultatet för push-meddelanden i Adobe Campaign. Den här användningsklara rapporten hjälper dig att förstå hur användare interagerar med push-meddelanden, mobilprogram och leveranser.
+Rapporten om **push-meddelanden** innehåller detaljerad information om hur push-meddelanden i Adobe Campaign har utvecklats. Den här användningsklara rapporten hjälper dig att förstå hur användare interagerar med push-meddelanden, mobilprogram och leveranser.
 
-Viss konfiguration krävs i mobilprogrammet för att implementera push-spårning. Mer information finns på den här [sidan](https://helpx.adobe.com/campaign/kb/push-tracking.html) .
+Viss konfiguration krävs i mobilprogrammet för att implementera push-spårning. Mer information finns på den här [sidan](../../administration/using/push-tracking.md) .
 
 ![](assets/dynamic_report_push.png)
 
