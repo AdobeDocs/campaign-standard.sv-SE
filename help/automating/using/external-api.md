@@ -10,9 +10,9 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: cad3a63d3e0dd94e4e308110996ed15c75beb904
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: '1699'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ De externa systemslutpunkterna kan vara offentliga API-slutpunkter, kundhanterin
 
 >[!NOTE]
 >
->Av säkerhetsskäl stöds inte JSSP:er i Campaign Standard. Om du behöver köra kod kan du anropa en Adobe I/O Runtime-instans via aktiviteten External API.
+>Av säkerhetsskäl stöds inte användning av JSSP i Campaign Standarden. Om du behöver köra kod kan du anropa en Adobe I/O Runtime-instans via aktiviteten External API.
 
 De viktigaste egenskaperna för denna verksamhet är:
 
@@ -40,7 +40,7 @@ De viktigaste egenskaperna för denna verksamhet är:
 
 ### Övergång från betaversion till GA {#from-beta-to-ga}
 
-Med Campaign Standard 20.3 har funktionerna för externa API gått från betaversion till allmän tillgänglighet (GA).
+I Campaign Standard 20.3 har funktionerna för externa API övergått från betaversion till allmän tillgänglighet (GA).
 
 >[!CAUTION]
 >
@@ -56,10 +56,10 @@ Därefter konfigurerar du om andra aktiviteter i arbetsflödet som pekar på och
 
 ### Begränsningar och skyddsräcken {#guardrails}
 
-Följande skyddsutkast har införts för den här aktiviteten:
+Följande skyddsutkast gäller för den här aktiviteten:
 
-* 50 MB http response data size limit
-* Tidsgränsen för begäran är 10 minuter
+* Storleksgräns för http-svarsdata på 5 MB
+* Timeout för begäran är 1 minut
 * HTTP-omdirigeringar tillåts inte
 * URL:er som inte är HTTPS nekas
 * &quot;Acceptera: application/json-begärandehuvud och Content-Type: application/json&quot;-svarshuvud tillåts
@@ -121,7 +121,7 @@ Kolumndefinition (lägg till/ta bort) och egenskapens typvärde kan redigeras p�
 
 Kryssrutan Förenkla (standard: unchecked) anges för att ange om JSON ska förenklas till en nyckel/värdekarta eller inte.
 
-* När **kryssrutan är inaktiverad** (avmarkerad) tolkas JSON-exempelfilen så att den söker efter ett arrayobjekt. Användaren måste ange en trimmad version av JSON-formatet för API-svarsexemplet så att Adobe Campaign kan avgöra exakt vilken array som användaren är intresserad av att använda. Vid redigering av arbetsflödet bestäms och registreras sökvägen till det kapslade arrayobjektet så att den kan användas vid körning för att komma åt det arrayobjektet från JSON-svarstexten som tas emot från API-anropet.
+* När **kryssrutan är inaktiverad** (avmarkerad) tolkas JSON-exempelfilen så att den söker efter ett arrayobjekt. Användaren måste ange en trimmad version av JSON-formatet för API-svarsexemplet så att Adobe Campaign kan avgöra exakt vilken array som användaren är intresserad av. Vid redigering av arbetsflödet bestäms och registreras sökvägen till det kapslade arrayobjektet så att den kan användas vid körning för att komma åt det arrayobjektet från JSON-svarstexten som tas emot från API-anropet.
 
 * När **kryssrutan är aktiverad** (markerad) förenklas JSON-exempelfilen och alla egenskaper som anges i det angivna exemplet JSON används för att skapa kolumner i den temporära utdatatabellen och visas på fliken Kolumndefinitioner. Observera att om det finns ett arrayobjekt i JSON-exempelfilen, kommer även alla element i dessa arrayobjekt att förenklas.
 
@@ -145,7 +145,7 @@ På den här fliken kan du styra **allmänna egenskaper** för den externa API-a
 >
 >Fliken visas när **svarsdataformatet** har slutförts och validerats på fliken Utgående mappning.
 
-På fliken **Kolumndefinition** kan du exakt ange datastrukturen för varje kolumn för att importera data som inte innehåller några fel och få dem att matcha de typer som redan finns i Adobe Campaign-databasen för framtida åtgärder.
+På fliken **Kolumndefinition** kan du exakt ange datastrukturen för varje kolumn för att importera data som inte innehåller några fel och få den att matcha de typer som redan finns i Adobe Campaign-databasen för framtida åtgärder.
 
 ![](assets/externalAPI-column.png)
 
