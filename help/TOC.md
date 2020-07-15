@@ -4,9 +4,9 @@ sub-product: adobe kampanjstandard
 audience: end-user
 user-guide-title: Hjälp om Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 4bf004b035c10ccbdb1ff9dc3fb51ddfdef54777
+source-git-commit: 06dde80beee2d13956f26a9f6ab8eae130fa83ff
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1557'
 ht-degree: 0%
 
 ---
@@ -92,9 +92,6 @@ ht-degree: 0%
       + [Skapa ett flerspråkigt push-meddelande](channels/using/creating-a-multilingual-push-notification.md)
       + [Generera en CSV-fil för flerspråkiga push-meddelanden](channels/using/generating-csv-multilingual-push.md)
       + [Skapa och uppdatera profilinformation baserat på mobilprogramdata](channels/using/updating-profile-with-mobile-app-data.md)
-      + [Implementera penselspårning](channels/using/push-tracking.md)
-      + [Visa en bild från ett push-meddelande för en Adobe Campaign Standard](channels/using/image-push-notification.md)
-      + [Förstå nyttolaststrukturen för push-meddelanden för Campaign Standard](channels/using/push-payload.md)
    + Meddelanden i appen {#in-app-messaging}
       + [Om meddelanden i appen](channels/using/about-in-app-messaging.md)
       + [Förbereda och skicka ett meddelande i appen](channels/using/preparing-and-sending-an-in-app-message.md)
@@ -317,6 +314,7 @@ ht-degree: 0%
          + [Koppla e-post och direktreklam](automating/using/coupling-email-direct-mail.md)
          + [Skicka ett e-postmeddelande med fördjupade fält](automating/using/sending-email-enriched-fields.md)
          + [Anpassa ett e-postmeddelande med ytterligare data](automating/using/personalizing-email-with-additional-data.md)
+         + [Skicka ett återkommande push-meddelande](automating/using/recurring-push-notifications.md)
       + Segmentering och målinriktning {#segmentation-targeting}
          + [Frågeexempel](automating/using/query-samples.md)
          + [Förena på två förfinade målgrupper](automating/using/union-on-two-refined-audiences.md)
@@ -388,6 +386,7 @@ ht-degree: 0%
       + [Utlösa datainmatning via API:er](developing/using/aep-triggering-data-ingestion.md)
 + Administrerar {#administrating}
    + [Kom igång med Campaign Standard administration](administration/using/get-started-campaign-administration.md)
+   + [Riktlinjer för övervakning](administration/using/monitoring-guidelines.md)
    + [Konfigurationsriktlinjer](administration/using/about-configuration-guidelines.md)
    + Användare och säkerhet {#users-and-security}
       + [Om åtkomsthantering](administration/using/about-access-management.md)
@@ -403,6 +402,13 @@ ht-degree: 0%
       + [Konfigurera SMS-kanal](administration/using/configuring-sms-channel.md)
       + [Konfigurera ett mobilprogram](administration/using/configuring-a-mobile-application.md)
       + [Konfigurera transaktionsmeddelanden](administration/using/configuring-transactional-messaging.md)
+   + Konfigurera mobilkanaler {#configuring-mobile}
+      + [Implementera penselspårning](administration/using/push-tracking.md)
+      + [Visa en bild från ett push-meddelande för en Adobe Campaign Standard](administration/using/image-push-notification.md)
+      + [Förstå nyttolaststrukturen för push-meddelanden för Campaign Standard](administration/using/push-payload.md)
+      + [Implementera lokal meddelandespårning](administration/using/local-tracking.md)
+      + [SyncWithLaunch Technical workflow FAQ](administration/using/syncwithlaunch-faq.md)
+      + [Vanliga frågor om integrering mellan Adobe Experience Platform SDK och Adobe Campaign](administration/using/aep-faq.md)
    + Programinställningar {#application-settings}
       + [Om Campaign Standarder](administration/using/about-campaign-standard-settings.md)
       + [Externa konton](administration/using/external-accounts.md)
