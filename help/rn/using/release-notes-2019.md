@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
+source-git-commit: b7775e1d95e6a7e08b38fc65b44a061eda7ff079
 workflow-type: tm+mt
 source-wordcount: '7626'
 ht-degree: 0%
@@ -237,7 +237,7 @@ ht-degree: 0%
 * Korrigerade ett fel som förhindrade att e-postadresser i hårda studsar placerades i karantän. (CAMP-24587)
 * Korrigerade ett problem som uppstod när en typologiregel lades till och sedan togs bort innan typologin sparades. (CAMP-32789)
 * Korrigerade ett problem som kunde förhindra att innehållet på landningssidan visas när dynamiskt innehåll inaktiverades. (CAMP-32924)
-* Korrigerade ett problem med återkommande leveranser som inträffade vid användning av personalisering på attribut för en huvudleverans. (CAMP-32983)
+* Korrigerade ett problem med återkommande leveranser som inträffade vid användning av personalisering för attribut för en primär leverans. (CAMP-32983)
 * Korrigerade ett problem i arbetsflöden som förhindrade läsning av resultat från en övergång som innehöll inkommande SMS-meddelandedata. (CAMP-33134)
 * Korrigerade ett problem i arbetsflöden som uppstod när gaffel- och exkluderingsaktiviteter kombinerades för att skapa målgrupper. (CAMP-33401)
 * Korrigerade ett problem som kunde förhindra att innehåll på en speglad sida visades och korrekturmeddelanden skickades för återkommande leveranser. (CAMP-33413)
@@ -293,7 +293,7 @@ En serie förbättringar och korrigeringar introducerades för att optimera frag
 * Alternativet&quot;Launch_URL_Campaign&quot; har lagts till i Campaign för att hantera egenskaper för mobilprogram som skapats med Adobe Experience Platform Mobile SDK.
 * Korrigerade ett fel som ledde till att alternativet för sandlådemiljö avmarkerades efter att certifikatet för en nyligen skapad mobil egenskap har överförts och egenskapssidan för mobilprogrammet har avslutats.
 * Korrigerade ett problem som förhindrade dig från att anrika ett transaktionsmeddelandeinnehåll med information från tjänstresursen. (CAMP-33707)
-* Korrigerade ett problem i blocklistan med landningssidor som inträffade när profiler skulle avbeställas från en tjänst.
+* Korrigerade ett fel på blockeringslista landningssidor som inträffade när profiler skulle avbeställas från en tjänst.
 
 ## Version 19.2 - maj 2019 {#release-19-2---may-2019}
 
@@ -441,7 +441,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
    <td> Förbättrat arbetsflöde<br /> </td> 
    <td> <p>Följande arbetsflödesfunktioner har lagts till:</p> 
     <ul> 
-     <li> Nu kan du kopiera och klistra in aktiviteter i ett arbetsflöde eller i ett annat arbetsflöde från samma Campaign-instans. På så sätt kan du enkelt duplicera ett helt arbetsflöde eller specifika aktiviteter och behålla de inställningar som ursprungligen definierades. Mer information finns i den <a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">detaljerade dokumentationen</a>. (CAMP-2014) </li> 
+     <li> Nu kan du kopiera och klistra in aktiviteter i ett arbetsflöde eller ett annat arbetsflöde från samma Campaign-instans. På så sätt kan du enkelt duplicera ett helt arbetsflöde eller specifika aktiviteter och behålla de inställningar som ursprungligen definierades. Mer information finns i den <a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">detaljerade dokumentationen</a>. (CAMP-2014) </li> 
      <li> När du använder aktiviteten <strong>Läs in fil</strong> kan du nu lägga till en tidsstämpel till namnet på filen som innehåller de avvisade posterna. Mer information finns i den <a href="../../automating/using/load-file.md#configuration">detaljerade dokumentationen</a>. </li> 
      <li> <strong>Fråge</strong> - och <strong>segmenteringsaktiviteter</strong> gör nu att du kan aktivera en utgående övergång om aktiviteterna inte hämtar några data. </li> 
     </ul> </td> 
@@ -617,7 +617,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
 * Ett problem med kopplingsvillkoret mellan sändnings- och spårningsloggen för rtEvent har korrigerats i frågeredigeraren. (CAMP-28780)
 * Korrigerade ett problem som förhindrade att ändringar av landningssidans alternativ för&quot;specifik åtgärd&quot; sparades. (CAMP-29422)
 * Ett problem som hindrade från att exportera en händelses nyttolast i ett arbetsflöde har korrigerats. (CAMP-29029)
-* Korrigerade ett problem som förhindrade att SMS-nummer i blocklistan uteslöts i ett SMS-meddelande. (CAMP-28898)
+* Korrigerade ett problem som förhindrade att SMS-nummer på blockeringslista uteslöts i ett SMS-meddelande. (CAMP-28898)
 * Korrigerade ett problem som kunde förhindra SMPP-leverantörer från att meddelas om ett fel uppstod vid bearbetning av inkommande meddelanden. (CAMP-29804)
 * Korrigerade ett problem som medgav att externa konton med tillhörande leveranser kunde tas bort. (CAMP-29738)
 * Sändningsgenomströmningen har förbättrats och stabiliserats för SMS-meddelanden.
