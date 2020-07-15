@@ -13,7 +13,10 @@ context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
+source-git-commit: 10339aa3a5d16bb995a763b6d846e234c5f1325a
+workflow-type: tm+mt
+source-wordcount: '1625'
+ht-degree: 0%
 
 ---
 
@@ -69,7 +72,7 @@ Om du vill använda SMPP-protokollet kan du även skapa ett nytt externt konto. 
 1. Definiera vid behov automatiska svar för att utlösa åtgärder baserat på innehållet i ett svar. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 1. Spara konfigurationen för det externa SMS-routningskontot.
 
-Nu kan ni använda er nya routning för att skicka SMS-meddelanden med Adobe Campaign.
+Nu kan du använda din nya routning för att skicka SMS-meddelanden med Adobe Campaign.
 
 ## SMS-kodning och format {#sms-encoding-and-formats}
 
@@ -295,7 +298,7 @@ I **[!UICONTROL DATA_CODING]** fältet kan Adobe Campaign kommunicera med SMS-C 
 
 >[!NOTE]
 >
->Mappningen mellan **data_coding** -värdet och den kodning som faktiskt används är standardiserad. Vissa SMS-C har dock en egen specifik mappning: I det här fallet måste **Adobe Campaign** -administratören deklarera den här mappningen. Kontakta din leverantör för mer information.
+>Mappningen mellan **data_coding** -värdet och den kodning som faktiskt används är standardiserad. Vissa SMS-C har dock en egen specifik mappning: I det här fallet måste **Adobe Campaign** -administratören deklarera mappningen. Kontakta din leverantör för mer information.
 
 Med **[!UICONTROL Define a specific mapping of encodings]** funktionen kan du deklarera **data_codings** och tvinga fram kodningen om det behövs: Om du vill göra det anger du en enda kodning i tabellen.
 
@@ -305,9 +308,10 @@ Med **[!UICONTROL Define a specific mapping of encodings]** funktionen kan du de
 
    * Den försöker använda GSM-kodning som den tilldelar värdet **data_coding = 0**.
    * Om GSM-kodningen misslyckas används **UCS2** -kodning som värdet **data_coding = 8** tilldelas till.
+
    ![](assets/sms_data_coding.png)
 
-* När **[!UICONTROL Define a specific mapping of encodings]** funktionen är markerad kan du definiera de kodningar som du vill använda samt de länkade **[!UICONTROL data_coding]** fältvärdena. Adobe Campaign kommer att försöka använda den första kodningen i listan och därefter följande, om den första kodningen visar sig vara omöjlig.
+* När **[!UICONTROL Define a specific mapping of encodings]** funktionen är markerad kan du definiera de kodningar som du vill använda samt de länkade **[!UICONTROL data_coding]** fältvärdena. Adobe Campaign kommer att försöka använda den första kodningen i listan och därefter följande, om den första kodningen inte är möjlig.
 
    Deklarationsordningen är viktig: Vi rekommenderar att du placerar listan i stigande ordning **för kostnader** för att kunna välja kodningar så att du får plats med så många tecken som möjligt i varje SMS.
 
@@ -329,21 +333,27 @@ De specifika parametrarna för att skicka SMS-meddelanden grupperas i **[!UICONT
 
 ![](assets/sms_options.png)
 
+Från **[!UICONTROL Advanced parameters]** avsnittet:
+
 * Med det här **[!UICONTROL From]** alternativet kan du anpassa namnet på SMS-meddelandets avsändare med en teckensträng. Det här namnet visas som avsändarnamn för SMS-meddelandet på mottagarens mobiltelefon.
 
    Om det här fältet är tomt är det källnumret som anges i det externa kontot som ska användas. Om inget källnummer anges används den korta koden. Det externa kontot som är specifikt för SMS-leverans visas i avsnittet [Definiera en SMS-routning](#defining-an-sms-routing) .
 
-   ![](assets/sms_smpp.png)
+   ![](assets/sms_smpp_2.png)
 
    >[!IMPORTANT]
    >
    >Kontrollera lagstiftningen i ditt land angående ändring av avsändaradressen. Du bör också höra med din SMS-tjänstleverantör om de erbjuder den här funktionen.
+
+Från avsnittet **[!UICONTROL Send]** i en SMS-mall:
 
 * Med det här **[!UICONTROL Maximum number of SMS per message]** alternativet kan du definiera antalet SMS-meddelanden som ska användas för att skicka ett meddelande. Om det här antalet överskrids skickas inte meddelandet.
 
    >[!IMPORTANT]
    >
    >Om du har infogat anpassningsfält eller villkorlig text i innehållet i SMS-meddelandet kan längden på meddelandet och därmed antalet SMS-meddelanden som ska skickas variera från en mottagare till en annan. Mer information finns i avsnittet [Anpassa SMS-meddelanden](../../channels/using/personalizing-sms-messages.md) .
+
+   ![](assets/sms_smpp_3.png)
 
 * I **[!UICONTROL Transmission mode]** fältet kan du bestämma leveransmetoden för SMS-meddelanden:
 
