@@ -12,7 +12,7 @@ discoiquuid: 4163dc0c-8103-4425-b8bf-7aa45c4d3a06
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: bd74905985734412b4fb11ad11d70faf9fcc9ca6
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Funktionen måste aktiveras i Adobe Campaign av Adobe. Kontakta er kontoansvarig
 Adobe-teamet behöver följande information för att aktivera utlösare:
 
 * Företagsnamn för Marketing Cloud
-* IMS-ORG-ID
+* IMS-organisations-ID
 * Analytics inloggningsföretag (kan vara samma som Marketing Cloud-företagets namn)
 
 ## Konfigurera lösningar och tjänster {#configuring-solutions-and-services}
@@ -106,7 +106,7 @@ Titta på [Adobe Experience Cloud-dokumentationen](https://docs.adobe.com/conten
 
 Här följer en lista över bästa praxis och begränsningar för användningen av Campaign - integrering av utlösare:
 
-* Om du har flera instanser av Campaign Standard kan utlösare tas emot av alla instanser så länge de finns i samma IMS-org-ID. Analytics måste också finnas på samma IMS-org-ID.
+* Om du har flera instanser av Campaign Standard kan utlösare tas emot av alla instanser så länge de finns i samma IMS-organisations-ID. Analytics måste också finnas på samma IMS-organisations-ID.
 * Du kan inte skapa en utlösare i Trigger Core Service med händelser från två olika rapportsviter.
 * Utlösare baseras på transaktionsmeddelanden. Transaktionsmeddelanden används när du måste skicka ett meddelande mycket snabbt. Du kan inte placera transaktionsmeddelanden i kö och sedan slinga dem i grupp.
 * Utlösare är inte deterministiska till sin natur. När en utlösare genereras skickas alla alias som är kopplade till cookien, så när det gäller delade webbläsare som kioskdatorer, bibliotek, cyber cafes eller delade enheter hemma (man och fru loggar in från samma enhet) går det inte att mappa till rätt ID. Alla ID:n som används för att logga in med webbläsaren skickas till Campaign som skickar ett meddelande baserat på den första avstämningen. Om det finns flera e-post-ID:n som är berättigade för avstämning skickar Campaign inget e-postmeddelande. Det finns inget sätt för Campaign att veta vilket e-post-ID som är rätt om det inte hämtas och skickas av Analytics.
