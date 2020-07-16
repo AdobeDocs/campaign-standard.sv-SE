@@ -10,9 +10,9 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cad3a63d3e0dd94e4e308110996ed15c75beb904
+source-git-commit: bb023ce5f716ffca0f94922de86cda5a8878d470
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -58,16 +58,15 @@ Därefter konfigurerar du om andra aktiviteter i arbetsflödet som pekar på och
 
 Följande skyddsutkast gäller för den här aktiviteten:
 
-* Storleksgräns för http-svarsdata på 5 MB
-* Timeout för begäran är 1 minut
+* 50 MB http response data size limit (5 MB recommended)
+* Tidsgränsen för begäran är 10 minuter
 * HTTP-omdirigeringar tillåts inte
 * URL:er som inte är HTTPS nekas
 * &quot;Acceptera: application/json-begärandehuvud och Content-Type: application/json&quot;-svarshuvud tillåts
 
->[!CAUTION]
+>[!NOTE]
 >
->Observera att aktiviteten är avsedd för att hämta kampanjomfattande data (senaste erbjudanden, senaste poängen osv.), inte för att hämta specifik information för varje profil eftersom det kan leda till att stora mängder data överförs. Om användningsfallet kräver detta bör aktiviteten [Överför fil](../../automating/using/transfer-file.md) användas.
-
+>Från och med Campaign 20.4 sänks storleksgränsen för http-svar och skyddsnivån till 5 MB och 1 minut.  Även om den här ändringen endast påverkar nya externa API-aktiviteter rekommenderar vi att aktuella implementeringar av den externa API-aktiviteten anpassas till dessa nya skyddsförslag för att följa bästa praxis.
 
 Särskilda skyddsräcken har införts för JSON:
 
@@ -75,12 +74,14 @@ Särskilda skyddsräcken har införts för JSON:
 * **JSON-maxnyckellängd**: begränsa maxlängden för den interna nyckel som genereras till 255. Den här nyckeln är kopplad till kolumn-ID:t.
 * **Högsta tillåtna** JSON-dubblettnycklar:  begränsa det maximala antalet dubblerade JSON-egenskapsnamn, som används som kolumn-ID, till 150.
 
-
 Aktiviteten stöds inte i JSON-strukturen som:
 
 * Kombinera arrayobjekt med andra icke-arrayelement
 * JSON-arrayobjektet kapslas inom ett eller flera mellanliggande arrayobjekt.
 
+>[!CAUTION]
+>
+>Den externa API-aktiviteten är avsedd för att hämta kampanjomfattande data (den senaste uppsättningen erbjudanden, senaste poängen osv.), inte för att hämta specifik information för varje profil eftersom det kan leda till att stora mängder data överförs. Om användningsfallet kräver detta bör aktiviteten [Överför fil](../../automating/using/transfer-file.md) användas.
 
 ## Konfiguration {#configuration}
 
