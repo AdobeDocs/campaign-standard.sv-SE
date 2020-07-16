@@ -12,9 +12,9 @@ discoiquuid: 609355f6-9003-41b9-9981-ea787419fbf5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f45985c030c3d5059bfef444287c10b842298f49
+source-git-commit: ddf585def583acefbb25e7a48318966cd2af49a7
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,7 @@ Adobe Campaign Standard erbjuder två nya Machine Learning-modeller: **Predictiv
 
 * **Prediktiv poängsättning**: Prediktiv poängsättning för engagemang förutser sannolikheten för att en mottagare engagerar sig i ett meddelande samt sannolikheten för att avanmäla sig inom 7 dagar efter nästa e-postutskick. Sannolikheten delas in ytterligare i grupper beroende på den specifika risken för bortfall, mellan och under. Under dessa omständigheter ger modellen även riskpercentilrangen så att kunderna kan förstå var en viss kunds rangordning är jämfört med andra.
 
->[!NOTE]
-> **Förutsättningar **
->
+>[!CAUTION]
 >Den här funktionen är inte tillgänglig som en del av produkten. Implementeringen kräver att Adobe Consulting är engagerat. Kontakta din Adobe-representant om du vill veta mer.
 >
 >Funktionen krävde separat användning av ett Azure-lagringsutrymme som kunden måste tillhandahålla.
