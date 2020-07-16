@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 979ddba984bd564bf60b42973c857f2b896eeaf6
+source-git-commit: a1f15808bd892305282b838bebbc8fa1ce58283e
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Förutom [versionsinformationen](../../rn/using/release-notes.md)för Adobe Camp
 
 Ett nytt avsnitt har lagts till med riktlinjer för övervakning av Campaign Standard. [Läs mer](../../administration/using/monitoring-guidelines.md)
 
-Externa API-skyddsutkast har uppdaterats. [Läs mer](../../automating/using/external-api.md)
+Avsnittet Externa API-skydd och begränsningar har uppdaterats.[Läs mer](../../automating/using/external-api.md#guardrails)
 
 Sidan Sekretesshanteringsöversikt har uppdaterats med information om Thailands lag för skydd av personuppgifter (PDPA) och Brasiliens Lei Geral de Proteção de Dados (LGPD). [Läs mer](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
