@@ -4,9 +4,9 @@ solution: Campaign Standard
 title: Adobe Campaign Standardens produktdokumentation
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 7ceca9dbdd33d3186f476be8ecb5871e5c1d9c9c
+source-git-commit: ddf585def583acefbb25e7a48318966cd2af49a7
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,13 @@ ht-degree: 0%
 
 ## Nyheter
 
+* **[AI-baserade e-postmeddelanden](sending/using/predictive.md)**<br/>Optimera design och leverans med AI-baserade e-postmeddelanden
+
 * **[Integritetshantering](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/> Läs mer om verktygen från Adobe Campaign som hjälper dig att följa din sekretesspolicy
 
 * **[Externt API](automating/using/external-api.md)**<br/>Använd aktiviteten Externt API för att hämta data till arbetsflödet från ett externt system
 
-* **[Campaign Standard Mobile Guide](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/> Läs mer om allmänna riktlinjer för mobila leveranser
+* **[Kom igång med mobila leveranser](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/> Läs mer om allmänna riktlinjer för mobila leveranser (SMS, push, In-App)
 
 [Klicka här för fler uppdateringar](rn/using/documentation-updates.md)
 
