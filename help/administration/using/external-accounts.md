@@ -13,10 +13,10 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
+source-git-commit: f00c5cd2f6642048ebd056dcaf5a156f8cf7ca18
 workflow-type: tm+mt
 source-wordcount: '1559'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -29,12 +29,12 @@ Dessa externa konton kan användas i Campaign-arbetsflöden för att få tillgå
 
 Du kan ställa in följande typer av externa konton:
 
-* SFTP. For more on this, refer to [this section](#sftp-external-account).
-* Amazon Storage Service (S3). For more on this, refer to [this section](#amazon-s3-external-account).
-* Adobe Experience Manager. For more on this, refer to [this section](#adobe-experience-manager-external-account).
-* Adobe Analytics. For more on this, refer to [this section](../../integrating/using/configure-campaign-analytics-integration.md).
-* Google reCAPTCHA. For more on this, refer to [this section](#google-recaptcha-external-account).
-* Microsoft Azure Blob-lagring. For more on this, refer to [this section](#microsoft-azure-external-account).
+* SFTP. Se [det här avsnittet](#sftp-external-account) för mer information om detta.
+* Amazon Storage Service (S3). Se [det här avsnittet](#amazon-s3-external-account) för mer information om detta.
+* Adobe Experience Manager. Se [det här avsnittet](#adobe-experience-manager-external-account) för mer information om detta.
+* Adobe Analytics. Se [det här avsnittet](../../integrating/using/configure-campaign-analytics-integration.md) för mer information om detta.
+* Google reCAPTCHA. Se [det här avsnittet](#google-recaptcha-external-account) för mer information om detta.
+* Microsoft Azure Blob-lagring. Se [det här avsnittet](#microsoft-azure-external-account) för mer information om detta.
 
 >[!NOTE]
 >
@@ -44,11 +44,11 @@ Externa konton kan konfigureras av administratörer på **[!UICONTROL Administra
 
 ## Skapa ett externt konto {#creating-an-external-account}
 
-Adobe Campaign har en uppsättning fördefinierade externa konton. Om du vill skapa anslutningar till externa system, t.ex. FTP-servrar som används för filöverföringar, kan du skapa egna externa konton.
+Adobe Campaign levereras med en uppsättning fördefinierade externa konton. Om du vill skapa anslutningar till externa system, t.ex. FTP-servrar som används för filöverföringar, kan du skapa egna externa konton.
 
 Externa konton används av tekniska processer som tekniska arbetsflöden eller kampanjarbetsflöden. När du konfigurerar en filöverföring i ett arbetsflöde eller ett datautbyte med något annat program (Adobe Target, Experience Manager, osv.) måste du välja ett externt konto.
 
-1. Klicka på **[!UICONTROL Create]** knappen.
+1. Klicka på knappen **[!UICONTROL Create]**. 
 1. Ange en etikett. Etiketten och ID:t används när du väljer externa konton i arbetsflöden.
 1. Välj vilken typ av konto du vill skapa.
 1. Konfigurera åtkomsten till kontot genom att ange autentiseringsuppgifter, serveradress, portnummer och nycklar när det är relevant.
@@ -86,9 +86,9 @@ För att undvika sådana problem rekommenderar Adobe att du följer god praxis n
 * Det kan hända att du loggar in på SFTP för att direkt kontrollera vad som finns där.
 * Kom ihåg att SFTP-diskhantering i första hand är ditt ansvar.
 
-Observera också att de offentliga IP-adresser som du försöker initiera SFTP-anslutningen från måste läggas till i listan över tillåtna i Campaign-instansen. Du kan begära att få lägga till IP-adresser i listan över tillåtna användare via en [supportanmälan](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html), tillsammans med den offentliga nyckeln som ska användas för autentisering.
+Observera också att de offentliga IP-adresserna som du försöker initiera SFTP-anslutningen från måste läggas till tillåtelselista i Campaign-instansen. Du kan begära att få lägga till IP-adresser till tillåtelselista via en [supportanmälan](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html), tillsammans med den offentliga nyckeln som ska användas för autentisering.
 
-SFTP-servrar kan hanteras från Kontrollpanelen. Mer information finns i dokumentationen för [Kontrollpanelen](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html).
+SFTP-servrar kan hanteras från Kontrollpanelen. For more information, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html).
 
 >[!NOTE]
 >
@@ -119,7 +119,7 @@ Ange den **[!UICONTROL AWS Region]** associerade slutpunkten. Du kan kontrollera
 
 Vi rekommenderar att du följer dessa rekommendationer för att hjälpa dig att konfigurera ditt Amazon S3-konto:
 
-* Skapa en strikt bucketprincip för att begränsa åtkomsten till S3-bucket. Bucket-principen kan konfigureras när en bucket skapas. Mer information finns i [Amazon S3-dokumentationen](https://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html).
+* Skapa en strikt bucketprincip för att begränsa åtkomsten till S3-bucket. Bucket-principen kan konfigureras när en bucket skapas. For more information, refer to the [Amazon S3 documentation](https://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html).
 * När du skapar ett externt konto aktiverar du krypteringen för att lagra känsliga data i S3-bucket genom att markera **[!UICONTROL Keep files in S3 encrypted]** rutan.
 * Bevilja bucket-behörigheter för att ange vem som får åtkomst till objektet i en bucket. Mer information om bucket-behörighet finns i [Amazon S3-dokumentationen](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html).
 
@@ -173,7 +173,7 @@ Ange följande information för ett externt Microsoft Azure Blob Storage-konto:
 * A **[!UICONTROL Label]** och **[!UICONTROL ID]** A för ditt externa konto
 * **[!UICONTROL Type]**: Microsoft Azure Blob Storage
 * Ditt **[!UICONTROL Account name]** och **[!UICONTROL Account key]**. Om du vill veta var du hittar kontonamn och nyckel kan du gå till den här [sidan](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
-* Din **[!UICONTROL Endpoint suffix]**. Den finns på din **[!UICONTROL Connection string]** av **[!UICONTROL Access keys]** menyn i Azure Portal. Mer information finns på den här [sidan](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
+* Din **[!UICONTROL Endpoint suffix]**. Den finns på din **[!UICONTROL Connection string]** av **[!UICONTROL Access keys]** menyn i Azure Portal. For more on this, refer to this [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
 * Ditt **[!UICONTROL Container]** namn. Om du planerar att använda mer än en behållare måste du skapa så många externa konton som behållare.
 * Med det här **[!UICONTROL Concurrency]** alternativet kan du finjustera hastigheten på filöverföringar.
 
