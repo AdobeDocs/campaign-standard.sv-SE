@@ -13,15 +13,15 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 02fa55789449efe03af75779892303941b8a2871
+source-git-commit: 91cb524e104fbaa7f3334578d82b3878cc15fc9b
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1148'
 ht-degree: 0%
 
 ---
 
 
-# Förstå Campaign Standardens nyttolaststruktur för push-meddelanden {#push-payload}
+# Förstå nyttolaststrukturen för push-meddelanden {#push-payload}
 
 Med Adobe Campaign kan du skicka personaliserade och segmenterade push-meddelanden på iOS- och Android-mobilenheter till mobilprogram (mobilapp).
 
