@@ -12,15 +12,32 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0a0c59763af8babc9701206cc39fe41b98e0cd4
+source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
 
 
-# Vanliga frågor om integrering mellan Adobe Experience Platform SDK och Adobe Campaign {#aep-faq}
+# Kom igång med Adobe Experience Platform SDK och Campaign Standard {#aep-faq}
+
+Om du vill skicka push-meddelanden och meddelanden i appen med Experience Platform SDK-programmet måste ett mobilprogram konfigureras i Adobe Experience Platform SDK och i Adobe Campaign.
+
+I avsnittet nedan visas vanliga frågor om synkroniseringen.
+
+Mer information om Push och In-app finns i följande vanliga frågor och svar:
+
+* [Vanliga frågor om push-meddelanden](../../channels/using/about-push-notifications.md#push-faq)
+* [Vanliga frågor om appar](../../channels/using/about-push-notifications.md#in-app-faq)
+* [Synkronisera med Starta tekniskt arbetsflöde Frågor och svar](../../administration/using/syncwithlaunch-faq.md)
+
+## Användbara resurser före start {#resource-mobile-property}
+
+Mer information om Adobe Experience Platform SDK och integrering av Campaign Standarder finns nedan:
+
+* Video om [mobilöversikt](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
+* Guide för [tips och tricks för lansering/mobiler](https://www.adobe.com/content/dam/www/us/en/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
 ## Finns integrering med Adobe Experience Platform SDK för både Adobe Campaign Standard och Adobe Campaign Classic? {#aep-validity}
 
@@ -81,13 +98,6 @@ Frekvensen och utformningen av CollectPII-anrop ska styras av affärsbehoven och
 ### När jag försöker komma åt Adobe Experience Platform-appar i Campaign eller Launch visas ibland ett fel som inte är tillgängligt för egenskapen. {#aep-error}
 
 Detta är ett känt problem och inträffar på grund av att token har gått ut. Du bör försöka logga ut och in.
-
-## Vad skulle vara användbara resursrekommendationer om du vill veta mer om Mobile-egenskapen som har konfigurerats i Adobe Experience Platform Launch? {#resource-mobile-property}
-
-Läs resurserna nedan:
-
-* Video om [mobilöversikt](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
-* Guide för [tips och tricks för lansering/mobiler](https://www.adobe.com/content/dam/www/us/en/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
 ## Vilka skulle vara användbara resursrekommendationer för att lära sig mer om Adobe Experience Platform SDK (tidigare SDK V5)?{#resource-aep}
 
