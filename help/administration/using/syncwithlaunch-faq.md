@@ -1,6 +1,6 @@
 ---
-title: Om åtkomsthantering
-description: Hantera Adobe Campaign-operatorer med roller, grupper och organisationsenheter.
+title: Synkronisera med Starta tekniskt arbetsflöde Frågor och svar
+description: Vanliga frågor om det tekniska arbetsflödet i Launch.
 page-status-flag: never-activated
 uuid: 4f538452-cc67-4e03-9e2f-2d9eecc081c7
 contentOwner: sauviat
@@ -12,19 +12,19 @@ discoiquuid: 54028f63-c9ca-4397-a079-e27e0cfdebf6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0a0c59763af8babc9701206cc39fe41b98e0cd4
+source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
 
 
-# SyncWithLaunch Technical workflow FAQ {#syncwithlaunch-faq}
+# Synkronisera med Starta tekniskt arbetsflöde Frågor och svar {#syncwithlaunch-faq}
 
-Arbetsflödet gör det möjligt att automatiskt importera alla mobilegenskaper i Adobe Launch till Adobe Campaign Standard. **[!UICONTROL Sync with Launch]**
+Du kan importera Adobe Launch-mobilegenskaper till Adobe Campaign Standard via det **[!UICONTROL Sync with Launch]** dedikerade tekniska arbetsflödet. Mer information finns på den här [sidan](../../administration/using/technical-workflows.md)
 
-Mer information finns på den här [sidan](../../administration/using/technical-workflows.md).
+I avsnittet nedan visas vanliga frågor om synkroniseringen.
 
 >[!NOTE]
 >
