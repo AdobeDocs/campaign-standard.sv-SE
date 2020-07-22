@@ -4,9 +4,9 @@ sub-product: adobe kampanjstandard
 audience: end-user
 user-guide-title: Hjälp om Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 06dde80beee2d13956f26a9f6ab8eae130fa83ff
+source-git-commit: 91cb524e104fbaa7f3334578d82b3878cc15fc9b
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1550'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 + [Produktdokumentation](campaign-standard-home.md)
 + [Senaste uppdateringar](rn/using/documentation-updates.md)
-+ Versionsinformation {#release-notes}
++ Release Notes {#release-notes}
    + [Senaste versionen](rn/using/release-notes.md)
    + Tidigare versioner {#previous-releases}
       + [Versionsinformation 2020](rn/using/release-notes-2020.md)
@@ -28,7 +28,7 @@ ht-degree: 0%
 + Komma igång {#getting-started}
    + [Om Adobe Campaign Standard](start/using/about-campaign-standard.md)
    + [Sekretess och samtycke](start/using/privacy.md)
-   + Identifiera gränssnittet {#discovering-the-interface}
+   + Lära känna gränssnittet {#discovering-the-interface}
       + [Om gränssnittet](start/using/about-the-interface.md)
       + [Gränssnittsbeskrivning](start/using/interface-description.md)
       + [Anpassa listor](start/using/customizing-lists.md)
@@ -404,11 +404,11 @@ ht-degree: 0%
       + [Konfigurera transaktionsmeddelanden](administration/using/configuring-transactional-messaging.md)
    + Konfigurera mobilkanaler {#configuring-mobile}
       + [Implementera penselspårning](administration/using/push-tracking.md)
-      + [Visa en bild från ett push-meddelande för en Adobe Campaign Standard](administration/using/image-push-notification.md)
-      + [Förstå nyttolaststrukturen för push-meddelanden för Campaign Standard](administration/using/push-payload.md)
+      + [Lägga till bilder och videoklipp iOS](administration/using/image-push-notification.md)
+      + [Förstå nyttolaststrukturen för push-meddelanden](administration/using/push-payload.md)
       + [Implementera lokal meddelandespårning](administration/using/local-tracking.md)
       + [SyncWithLaunch Technical workflow FAQ](administration/using/syncwithlaunch-faq.md)
-      + [Vanliga frågor om integrering mellan Adobe Experience Platform SDK och Adobe Campaign](administration/using/aep-faq.md)
+      + [Kom igång med Adobe Experience Platform SDK och Campaign](administration/using/aep-faq.md)
    + Programinställningar {#application-settings}
       + [Om Campaign Standarder](administration/using/about-campaign-standard-settings.md)
       + [Externa konton](administration/using/external-accounts.md)
