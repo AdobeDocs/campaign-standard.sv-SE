@@ -10,9 +10,9 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb023ce5f716ffca0f94922de86cda5a8878d470
+source-git-commit: 3bd2fdb56fc94cef4e9c21466a33cdad7ac825d2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1754'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Följande skyddsutkast gäller för den här aktiviteten:
 
 >[!NOTE]
 >
->Från och med Campaign 20.4 sänks storleksgränsen för http-svar och skyddsnivån till 5 MB och 1 minut.  Även om den här ändringen endast påverkar nya externa API-aktiviteter rekommenderar vi att aktuella implementeringar av den externa API-aktiviteten anpassas till dessa nya skyddsförslag för att följa bästa praxis.
+>Från och med Campaign 20.4 sänks http-svarets datastorlek och tidsgräns för svar till 5 MB respektive 1 minut.  Även om den här ändringen endast påverkar nya externa API-aktiviteter rekommenderar vi starkt att aktuella implementeringar av den externa API-aktiviteten anpassas till dessa nya skyddsförslag för att följa bästa praxis.
 
 Särskilda skyddsräcken har införts för JSON:
 
