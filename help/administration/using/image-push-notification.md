@@ -13,19 +13,21 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 02fa55789449efe03af75779892303941b8a2871
+source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
 
 
-# Visa en bild från ett push-meddelande för en Adobe Campaign Standard {#image-push}
+# Lägga till bilder och videoklipp iOS {#image-push}
 
 >[!NOTE]
 >
 >Det här dokumentet gäller endast iOS-enheter.
+
+Läs om hur du visar en bild från ett push-meddelande för iOS-Adobe Campaign Standard i det här dokumentet.
 
 ## Steg 1: Ställ in push-meddelande {#set-up-push}
 
@@ -33,19 +35,19 @@ Push-meddelanden stöds av Experience Platform SDK:er.
 
 De mobilprogram som tar emot push-meddelanden måste konfigureras av en administratör i Adobe Campaign-gränssnittet.
 
-Genom att konfigurera både Adobe Campaign och Adobes mobiltjänster kan ni använda mobilprogrammets data för era kampanjer. Mer information finns på den här [sidan](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+Genom att konfigurera både Adobe Campaign och Adobes mobiltjänster kan ni använda mobilprogrammets data för era kampanjer. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
-Om du vill skicka push-meddelanden med ett Experience Cloud SDK-program måste en mobilapp konfigureras i Adobe Experience Platform Launch och konfigureras i Adobe Campaign. Mer information finns på den här [sidan](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
+Om du vill skicka push-meddelanden med ett Experience Cloud SDK-program måste en mobilapp konfigureras i Adobe Experience Platform Launch och konfigureras i Adobe Campaign. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
 
 ## Steg 2: Anpassa push-meddelanden i Adobe Campaign {#customize-push}
 
 Om du vill finjustera push-meddelanden kan du använda Adobe Campaign för att få tillgång till en uppsättning avancerade alternativ när du utformar ett push-meddelande.
 
-1. Skapa ett push-meddelande. Mer information finns på den här sidan.
+1. Skapa ett push-meddelande. For more on this, refer to this [page](../../channels/using/preparing-and-sending-a-push-notification.md).
 
-1. Gå till avsnittet Avancerade alternativ på innehållssidan för push-meddelanden.
+1. Från innehållssidan för push-meddelanden kommer du åt **[!UICONTROL Advanced options]** avsnittet.
 
-1. Ange URL-adressen till filen i fältet URL för multimediainnehåll.
+1. Ange URL-adressen till filen i **[!UICONTROL Rich media content URL]** fältet.
 För iOS 10 eller senare kan du infoga bild-, gif-, ljud- och videofiler.
 
    ![](assets/push_notif_advanced_6.png)
@@ -60,13 +62,13 @@ När du har anpassat ditt push-meddelande i Adobe Campaign måste du konfigurera
 >
 >Om ditt program är i mål-C, se följande [dokumentation](https://docs.adobe.com/content/help/en/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html).
 
-Om din app är i Swift följer du stegen nedan:
+Om din app finns i [!DNL Swift]följer du stegen nedan:
 
-1. Öppna ditt xCode-projekt.
+1. Öppna ditt [DNL Xcode] -projekt.
 
-1. I Xcode-projektet väljer du **Arkiv** > **Nytt** > **Target**.
+1. I ditt [DNL Xcode] -projekt väljer du **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**.
 
-1. Välj Meddelandetjänsttillägg.
+1. Välj **[!UICONTROL Notification Service Extension]**.
 
    ![](assets/push_notif_advanced_12.png)
 
