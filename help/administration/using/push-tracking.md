@@ -13,9 +13,9 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 02fa55789449efe03af75779892303941b8a2871
+source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
@@ -26,18 +26,20 @@ ht-degree: 0%
 ## Om push-spårning {#about-push-tracking}
 
 För att säkerställa att push-meddelandet har utvecklats fullt ut måste du se till att spårningsdelen har implementerats korrekt.
+Detta förutsätter att du redan har implementerat de första delarna i implementeringen av push-meddelanden:
 
-Med följande steg kan du kontrollera att push-spårning har implementerats korrekt. Detta förutsätter att du redan har implementerat de första delarna i implementeringen av push-meddelanden: Registrerar appanvändaren och hanterar ett push-meddelandemeddelande.
+* Registrerar appanvändaren
+* Hantera ett push-meddelande
 
 Push-spårning är indelad i tre typer:
 
-* **Push** Impressions - När ett push-meddelande har levererats till enheten och sitter på meddelandecentret men inte har ändrats alls.  Detta betraktas som ett intryck.  I de flesta fall bör antalet visningar vara lika med eller inte detsamma som antalet som skickas. Det ser till att enheten fick meddelandet och vidarebefordrade informationen till servern.
+* **Push** Impressions - När ett push-meddelande har levererats till enheten och sitter på meddelandecentret men inte har ändrats alls.  Detta betraktas som ett intryck.  I de flesta fall ska antalet visningar vara lika med eller inte detsamma som antalet som skickas. Det ser till att enheten fick meddelandet och vidarebefordrade informationen till servern.
 
 * **Push Click** - När ett push-meddelande har levererats till enheten och användaren har klickat på enheten.  Användaren ville antingen visa meddelandet (som i sin tur går till Push Open tracking) eller stänga meddelandet.
 
 * **Skjut upp** - När ett push-meddelande har levererats till enheten och användaren har klickat på meddelandet som får programmet att öppnas.  Detta liknar kommandot Push Click, men Push Open aktiveras inte om meddelandet stängs.
 
-För att implementera spårning för Campaign Standard måste mobilappen innehålla Mobile SDK. Dessa SDK är tillgängliga på Adobes mobiltjänster.
+För att implementera spårning för Campaign Standard måste mobilappen innehålla Mobile SDK. Dessa SDK är tillgängliga på Adobes mobiltjänster. For more on this, refer to this [page](../../administration/using/configuring-a-mobile-application.md).
 
 Om du vill skicka spårningsinformation finns det tre variabler som måste skickas. Två som är en del av data som tas emot från Campaign Standarden och en åtgärdsvariabel som anger om det är en **Impression**, **Click** eller **Open**.
 
@@ -51,7 +53,7 @@ Om du vill skicka spårningsinformation finns det tre variabler som måste skick
 
 ### Så här implementerar du spårning av push-intrycken {#push-impression-tracking-android}
 
-För att kunna spåra ett intryck måste du skicka värdet &quot;7&quot; för åtgärd när du anropar funktionen trackAction().
+För att kunna spåra ett intryck måste du skicka värdet 7 för åtgärd när du anropar **[!UICONTROL trackAction()]** funktionen.
 
 ```
 @Override
@@ -73,7 +75,7 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 
 ### Så här implementerar du klickspårning {#push-click-tracking-android}
 
-För klickspårning måste du skicka värdet &quot;2&quot; för åtgärd när du anropar funktionen trackAction().
+För klickspårning måste du skicka värdet &quot;2&quot; för åtgärd när du anropar **[!UICONTROL trackAction()]** funktionen.
 
 Om du vill spåra klickningar måste två scenarier hanteras:
 
@@ -82,7 +84,7 @@ Om du vill spåra klickningar måste två scenarier hanteras:
 
 För att kunna hantera detta måste du använda två metoder: en för att klicka på meddelandet och en annan för att stänga meddelandet.
 
-MyFirebaseMessagingService.java
+**[!UICONTROL MyFirebaseMessagingService.java]**
 
 ```
 private void sendNotification(Map<String, String> data) {
@@ -111,7 +113,7 @@ private void sendNotification(Map<String, String> data) {
 }
 ```
 
-För att BroadcastReceiver ska fungera måste du registrera den på AndroidManifest.xml
+För **[!UICONTROL BroadcastReceiver]** att få jobbet gjort måste du registrera det på **[!UICONTROL AndroidManifest.xml]**
 
 ```
 <manifest>
@@ -152,7 +154,7 @@ Du måste skicka&quot;1&quot; och&quot;2&quot; eftersom användaren måste klick
 
 För att kunna spåra öppning måste du skapa återgivning. Intent-objekt gör att Android OS kan anropa din metod när vissa åtgärder är klara. I det här fallet klickar du på meddelandet för att öppna programmet.
 
-Den här koden baseras på implementeringen av klickningsvisningsspårning. När återgivning har angetts måste du nu skicka spårningsinformation tillbaka till Campaign. I det här fallet måste du ange att metoden Open Intent ska öppnas för en viss vy i appen. Detta anropar metoden onResume MED meddelandedata i Intent-objektet.
+Den här koden baseras på implementeringen av klickningsvisningsspårning. Med **[!UICONTROL Intent]** set måste du nu skicka spårningsinformation tillbaka till Adobe Campaign Standarden. I det här fallet måste du ställa in så att **[!UICONTROL Open Intent]** den öppnas för en viss vy i appen. Detta anropar metoden onResume med meddelandedata i **[!UICONTROL Intent Object]**.
 
 ```
 @Override
@@ -194,7 +196,7 @@ private void handleTracking() {
 
 ### Så här implementerar du spårning av push-intrycken {#push-impression-tracking-iOS}
 
-För att kunna spåra ett intryck måste du skicka värdet &quot;7&quot; för åtgärd när du anropar funktionen trackAction().
+För att kunna spåra ett intryck måste du skicka värdet 7 för åtgärd när du anropar **[!UICONTROL trackAction()]** funktionen.
 
 För att förstå hur iOS-meddelanden fungerar måste appens tre lägen vara detaljerade:
 
@@ -204,11 +206,11 @@ För att förstå hur iOS-meddelanden fungerar måste appens tre lägen vara det
 
 Om en app stängs kommer Apple inte att anropa appen förrän appen har startats om. Det innebär att du inte kan veta när meddelandet har tagits emot på iOS.
 
-För att Impression-tracking ska fungera medan programmet är i bakgrunden måste vi skicka **Content-Available** för att programmet ska få veta att en spårning måste göras.
+För att fortfarande kunna **[!UICONTROL Impression]** spåra när appen finns i bakgrunden måste vi skicka **[!UICONTROL Content-Available]** för att meddela appen att en spårning måste göras.
 
 >[!CAUTION]
 >
->iOS Impression Tracking är inte korrekt och ska inte ses som tillförlitlig.
+>Spårning av iOS-avtryck är inte korrekt och ska inte ses som tillförlitligt.
 
 Följande kod har bakgrundsprogrammet som mål:
 
@@ -250,7 +252,7 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent noti
 
 ### Så här implementerar du klickspårning {#push-click-tracking-iOS}
 
-För klickspårning måste du skicka värdet &quot;2&quot; för åtgärd när du anropar funktionen trackAction().
+För klickspårning måste du skicka värdet &quot;2&quot; för åtgärd när du anropar **[!UICONTROL trackAction()]** funktionen.
 
 ```
 // AppDelegate.swift
@@ -291,7 +293,7 @@ Nu när du skickar push-meddelanden måste du lägga till en kategori. I det hä
 
 ![](assets/tracking_push.png)
 
-För att sedan hantera stängningen och skicka en spårningsinformation måste du lägga till följande:
+För att sedan kunna hantera **[!UICONTROL Dismiss]** och skicka en spårningsinformation måste du lägga till följande:
 
 ```
 func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
