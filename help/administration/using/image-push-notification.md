@@ -13,9 +13,9 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
+source-git-commit: cf43edcacbab9f1f33ce29e23c0957d8bfa64e7d
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ De mobilprogram som tar emot push-meddelanden måste konfigureras av en administ
 
 Genom att konfigurera både Adobe Campaign och Adobes mobiltjänster kan ni använda mobilprogrammets data för era kampanjer. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
-Om du vill skicka push-meddelanden med ett Experience Cloud SDK-program måste en mobilapp konfigureras i Adobe Experience Platform Launch och konfigureras i Adobe Campaign. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
+För att skicka push-meddelanden med ett Experience Cloud SDK-program måste en mobilapp konfigureras i Adobe Experience Platform Launch och konfigureras i Adobe Campaign. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
 
 ## Steg 2: Anpassa push-meddelanden i Adobe Campaign {#customize-push}
 
@@ -64,9 +64,9 @@ När du har anpassat ditt push-meddelande i Adobe Campaign måste du konfigurera
 
 Om din app finns i [!DNL Swift]följer du stegen nedan:
 
-1. Öppna ditt [DNL Xcode] -projekt.
+1. Öppna ditt [!DNL Xcode] projekt.
 
-1. I ditt [DNL Xcode] -projekt väljer du **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**.
+1. Välj [!DNL Xcode] > **[!UICONTROL File]** > **[!UICONTROL New]** i ditt **[!UICONTROL Target]** projekt.
 
 1. Välj **[!UICONTROL Notification Service Extension]**.
 
