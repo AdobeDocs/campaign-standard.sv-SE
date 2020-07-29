@@ -13,9 +13,9 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
+source-git-commit: 9a4c2219d5f8b312deb476d852cf5db9cd19afcb
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1364'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 0%
 # Läs in fil {#load-file}
 
 ## Beskrivning {#description}
+
+>[!CAUTION]
+>
+>Tänk på begränsningarna för SFTP-lagring, DB-lagring och aktiv profil enligt ditt Adobe Campaign-kontrakt när du använder den här funktionen.
 
 ![](assets/data_loading.png)
 
@@ -154,6 +158,7 @@ Med kolumnformateringen kan du definiera värdebearbetningen för varje kolumn:
    * **[!UICONTROL Use a default value]**: ersätter det värde som orsakar felet med ett standardvärde som definieras i **[!UICONTROL Default value]** fältet.
    * **[!UICONTROL Use a default value in case the value is not remapped]**: ersätter det värde som orsakar felet med ett standardvärde, som definieras i **[!UICONTROL Default value]** fältet, såvida inte en mappning har definierats för det felaktiga värdet (se **[!UICONTROL Remapping of values]** alternativet ovan).
    * **[!UICONTROL Reject the line when there is no remapping value]**: hela raden inte bearbetas om inte en mappning har definierats för det felaktiga värdet (se alternativet ovan **[!UICONTROL Remapping of values]** ).
+
    >[!NOTE]
    >
    >**[!UICONTROL Error processing]** gäller fel avseende värden i den importerade filen. En felaktig datatyp har påträffats (&quot;fyra&quot; alla med bokstäver för en heltalskolumn), en sträng som innehåller fler tecken än det tillåtna maxtalet, ett datum med felaktiga avgränsare osv. Det här alternativet gäller dock inte fel som genereras av tom värdehantering.
