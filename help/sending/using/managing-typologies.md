@@ -12,8 +12,11 @@ discoiquuid: 2590d94c-51ef-4c0f-b1ec-c2837e94da40
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
+workflow-type: ht
+source-wordcount: '308'
+ht-degree: 100%
 
 ---
 
@@ -22,51 +25,51 @@ source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
 
 ## Om typologier {#about-typologies}
 
-Typologier är en uppsättning regler som gör att du kan kontrollera giltigheten för ditt meddelande innan du skickar det. Till exempel: Meddelandeinnehållet är inte tomt, det finns en prenumeration, det finns inte några dubbletter osv.
+Typologier är en uppsättning regler som gör att du kan kontrollera giltigheten för ditt meddelande innan du skickar iväg det.  Exempelvis när: Meddelandeinnehållet inte är tomt, det finns en avprenumeration eller vid exkludering av dubbletter etc.
 
-Typologier finns på menyn **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** . Som standard är en standardtypologi tillgänglig i programmet. Beroende på dina behov kan du skapa egna typologier eller ändra befintliga.
+Typologier finns i menyn **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** .  Som standard är en standardtypologi tillgänglig i programmet.  Beroende på dina behov kan du skapa egna typologier eller ändra befintliga.
 
 ![](assets/typologies-list.png)
 
-För varje typologi listar **[!UICONTROL Typology rules]** avsnittet den uppsättning regler som körs när typologin används med ett meddelande.
+För varje typologi listar **[!UICONTROL Typology rules]**-avsnittet den uppsättning regler som körs när typologin används i ett meddelande.
 
 ![](assets/typology_typo-rule-list.png)
 
 >[!NOTE]
 >
->Om du vill ha mer information om en av typologireglerna dubbelklickar du på den. Regeln visas i skrivskyddat läge.
+>Om du vill ha mer information om en av typologireglerna dubbelklickar du på den.    Regeln visas i skrivskyddat läge.
 
 ## Skapa en typologi {#creating-a-typology}
 
-Så här skapar du en ny typologi:
+Följ dessa steg för att skapa en ny typologi:
 
-1. Gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** -menyn.
+1. Gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]**-menyn.
 
-1. Listan över typologier visas. Klicka på **[!UICONTROL Create]** knappen.
+1. Listan över typologier visas här.  Klicka på knappen **[!UICONTROL Create]**.
 
    ![](assets/typologies-create.png)
 
-1. Definiera typologin **[!UICONTROL Label]** och klicka sedan på **[!UICONTROL Add an element]** knappen för att välja de typologiregler som du vill ta med i den. For more on typology rules, refer to [this section](../../sending/using/managing-typology-rules.md).
+1. Definiera typologin **[!UICONTROL Label]** och klicka sedan på knappen **[!UICONTROL Add an element]** för att välja de typologiregler som du vill ha med i den.  Mer information om typologiregler hittar du i [det här avsnittet](../../sending/using/managing-typology-rules.md).
 
    ![](assets/typology_addrules.png)
 
    >[!NOTE]
    >
-   >I **[!UICONTROL IP affinity]** fältet kan du hantera tillhörigheterna enligt din konfiguration. De definieras i instansens konfigurationsfil. Kontakta administratören om du vill använda tillhörigheterna.
+   >I fältet **[!UICONTROL IP affinity]** kan du hantera tillhörigheterna enligt din konfiguration.  Dessa definieras i instansens konfigurationsfil.  Kontakta administratören om du vill använda tillhörigheterna.
 
-1. Klicka **[!UICONTROL Create]** för att bekräfta valet. Din typologi kan nu användas i meddelanden.
+1. Klicka **[!UICONTROL Create]** för att bekräfta valet.  Din typologi kan nu användas i meddelanden.
 
-## Använda typologier i meddelanden {#applying-typologies-to-messages}
+## Applicera typologier i meddelanden {#applying-typologies-to-messages}
 
-När du associerar en typologi med en meddelande- eller meddelandemall kommer de typologiregler som ingår i typologin att köras för att kontrollera meddelandets giltighet.
+När du associerar en typologi med ett meddelande eller en meddelandemall kommer de typologiregler som ingår i typologin att köras för att kontrollera meddelandets giltighet.
 
 >[!NOTE]
 >
->Varje meddelande- eller meddelandemall kan bara tilldelas en enda typologi.
+>Varje meddelande eller meddelandemall kan endast tilldelas en enda typologi.
 
-Följ de här stegen för att länka en typologi till ett meddelande:
+Följ dessa steg för att länka en typologi till ett meddelande:
 
-1. Öppna meddelandeegenskaperna. Observera att meddelandemallar är tillgängliga via menyn **[!UICONTROL Resources]** > **[!UICONTROL Templates]** Navigering.
+1. Öppna meddelandeegenskaperna.  Notera att meddelandemallar är tillgängliga via navigeringsmenyn **[!UICONTROL Resources]** > **[!UICONTROL Templates]**.
 
 1. I avsnittet **[!UICONTROL Advanced parameters]** > **[!UICONTROL Prearation]** väljer du den typologi som ska länkas till meddelandet.
 
@@ -74,4 +77,4 @@ Följ de här stegen för att länka en typologi till ett meddelande:
 
 1. Klicka på **[!UICONTROL Confirm]**.
 
-   Den valda typologin är nu länkad till meddelandet. Alla tillhörande typologiregler kommer att köras för att kontrollera meddelandets giltighet.
+   Den valda typologin är nu länkad till meddelandet.  Alla tillhörande typologiregler kommer att köras för att kontrollera meddelandets giltighet.
