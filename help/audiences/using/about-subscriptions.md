@@ -15,24 +15,24 @@ translation-type: tm+mt
 source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 0%
+ht-degree: 80%
 
 ---
 
 
 # Om prenumerationer{#about-subscriptions}
 
-Med Adobe Campaign kan ni skapa och hantera nyhetsbrev och kommunikation i flera kanaler via en uppsättning **tjänster**: meddelanden kan bara skickas till profiler som prenumererar på tjänsten (anmälan). Dessa profiler identifieras med ett dedikerat filter när ett meddelande skapas.
+Med Adobe Campaign kan du skapa och hantera nyhetsbrev och flerkanalskommunikation via en uppsättning **tjänster**. Meddelanden kan endast skickas till profiler som prenumererar på tjänsten (genom anmälan). Dessa profiler identifieras med ett dedikerat filter vid skapandet av ett meddelande.
 
-Prenumerationsfunktioner kan konfigureras för att ge kunderna möjlighet att prenumerera på dessa tjänster, särskilt genom **e-post** och **landningssidor**.
+Prenumerationsfunktioner kan konfigureras för att ge kunderna möjligheten att prenumerera på dessa tjänster via **e-post** och **landningssidor**.
 
 Varje tjänst levereras med:
 
-* **Prenumerations** - och **[!UICONTROL Unsubscription]** avanmälningsmekanismer.
+* Mekanismer för **Prenumerationer** och **[!UICONTROL Unsubscription]** avprenumerationer.
 * Bekräftelsemekanismer för **prenumerationer och/eller avprenumerationer**.
-* En **prenumerationshistorik**.
+* En prenumerations **historik**.
 
-Prenumerationer kan också hanteras med Adobe Campaign Standards-API:t. Mer information finns i den [dedikerade dokumentationen](../../api/using/creating-a-service.md) .
+Prenumerationer kan också hanteras med Adobe Campaign Standard API:n.  Mer information om detta hittar du i den [dedikerade dokumentationen](../../api/using/creating-a-service.md) .
 
 **Relaterade ämnen**
 
