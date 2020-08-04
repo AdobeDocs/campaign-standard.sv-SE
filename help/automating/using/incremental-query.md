@@ -1,6 +1,6 @@
 ---
 title: Inkrementell fråga
-description: Med aktiviteten Inkrementell fråga kan du filtrera och extrahera en ifyllning av element från Adobe Campaign-databasen.
+description: Med aktiviteten Inkrementell fråga kan du filtrera och extrahera en population av element från Adobe Campaign-databasen.
 page-status-flag: never-activated
 uuid: 73b42422-e815-43ef-84c0-97c4433ccc98
 contentOwner: sauviat
@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 0%
+ht-degree: 98%
 
 ---
 
@@ -27,25 +27,25 @@ ht-degree: 0%
 
 ![](assets/incremental.png)
 
-Med hjälp av den här **[!UICONTROL Incremental query]** aktiviteten kan du filtrera och extrahera en grupp element från Adobe Campaign-databasen. Varje gång den här aktiviteten körs exkluderas resultaten från tidigare körningar. På så sätt kan du bara rikta in dig på nya element.
+Med aktiviteten **[!UICONTROL Incremental query]** kan du filtrera och extrahera en population av element från Adobe Campaign-databasen. Varje gång den här aktiviteten körs utesluts resultaten från tidigare körningar. På så sätt kan du bara rikta in dig på nya element.
 
 Du kan definiera **[!UICONTROL Additional data]** för målpopulationen via en dedikerad flik. Dessa data lagras i ytterligare kolumner och kan bara användas för det aktuella arbetsflödet.
 
-Aktiviteten använder frågeredigeringsverktyget. Det här verktyget beskrivs i ett [särskilt avsnitt](../../automating/using/editing-queries.md#about-query-editor).
+Aktiviteten använder förfrågningsredigerings-verktyget. Mer detaljer gällande verktyget hittar du i verktygets [dedikerade avsnitt](../../automating/using/editing-queries.md#about-query-editor).
 
 ## Kontext för användning {#context-of-use}
 
-En **[!UICONTROL Incremental query]** måste länkas till en **[!UICONTROL Scheduler]** för att definiera arbetsflödets och därmed frågans körningsfrekvens.
+En **[!UICONTROL Incremental query]** måste kopplas till en **[!UICONTROL Scheduler]** för att definiera arbetsflödets och därmed frågans körningsfrekvens.
 
-På fliken **[!UICONTROL Processed data]** , som är specifik för den här aktiviteten, kan du visa alla resultat av aktivitetens tidigare körningar, om det behövs.
+På fliken **[!UICONTROL Processed data]**, som är specifik för den här aktiviteten, kan du visa alla resultat av aktivitetens tidigare körningar, om det behövs.
 
-Aktiviteten kan **[!UICONTROL Incremental query]** användas för olika typer av användning:
+Aktiviteten **[!UICONTROL Incremental query]** kan användas för olika typer av användning:
 
-* Segmentera individer för att definiera målet för ett meddelande, en målgrupp osv.
+* Segmentera individer för att definiera målet för ett meddelande, en målgrupp, o.s.v.
 
-* Exporterar data.
+* Exportera data.
 
-   Du kan använda en aktivitet för att regelbundet exportera nya loggar i filer. **[!UICONTROL Incremental query]** Det kan till exempel vara användbart om du vill använda dina loggdata i externa rapporterings- eller BI-verktyg. Ett fullständigt exempel finns i avsnittet [Exportera loggar](../../automating/using/exporting-logs.md) .
+   Du kan använda en **[!UICONTROL Incremental query]**-aktivitet för att regelbundet exportera nya loggar i filer. Det kan till exempel vara användbart om du vill använda dina loggdata i externa rapporterings- eller BI-verktyg. Ett fullständigt exempel finns i avsnittet [Exportera loggar](../../automating/using/exporting-logs.md).
 
 **Relaterade ämnen**
 
@@ -53,28 +53,28 @@ Aktiviteten kan **[!UICONTROL Incremental query]** användas för olika typer av
 
 ## Konfiguration {#configuration}
 
-1. Dra och släpp en **[!UICONTROL Incremental query]** aktivitet i arbetsflödet.
+1. Dra och släpp en **[!UICONTROL Incremental query]**-aktivitet i arbetsflödet.
 1. Markera aktiviteten och öppna den sedan med knappen ![](assets/edit_darkgrey-24px.png) bland de snabbåtgärder som visas.
-1. Om du vill köra en fråga på en annan resurs än profilresursen går du till aktivitetens **[!UICONTROL Properties]** flik och väljer en **[!UICONTROL Resource]** och en **[!UICONTROL Targeting dimension]**.
+1. Om du vill köra en förfrågan på en annan resurs än profilresursen går du till aktivitetsfliken **[!UICONTROL Properties]**-och väljer en **[!UICONTROL Resource]** och en **[!UICONTROL Targeting dimension]**.
 
-   Med **[!UICONTROL Resource]** den här funktionen kan du förfina de filter som visas på paletten, medan **[!UICONTROL Targeting dimension]** kontextuell för den valda resursen motsvarar den typ av population som du vill få (identifierade profiler, leveranser, data som är länkade till den valda resursen osv.).
+   Med **[!UICONTROL Resource]** kan du förfina de filter som visas på paletten, medan **[!UICONTROL Targeting dimension]**, kontextuellt för den valda resursen, motsvarar den typ av population som du vill hämta (identifierade profiler, leveranser, data som är kopplade till den valda resursen, o.s.v.).
 
-1. På fliken **[!UICONTROL Target]** kör du frågan genom att definiera och kombinera regler.
-1. På **[!UICONTROL Processed data]** fliken väljer du det stegvisa läge som du vill använda för nästa körning av arbetsflödet:
+1. På fliken **[!UICONTROL Target]** kör du förfrågan genom att definiera och kombinera regler.
+1. På fliken **[!UICONTROL Processed data]** väljer du det stegvisa läge som du vill använda för nästa körning av arbetsflödet:
 
-   * **[!UICONTROL Use the exclusion of the results of previous executions]**: resultaten från tidigare körningar för varje ny körning exkluderas.
-   * **[!UICONTROL Use a date field]**: Vid nästa körning beaktas endast resultat som har det valda datumfältet större eller lika med det senaste körningsdatumet för **[!UICONTROL Incremental query]** aktiviteten. Du kan välja ett datumfält som gäller för den valda resursen på **[!UICONTROL Properties]** fliken. Det här läget har bättre prestanda när stora resurser, som loggdata, efterfrågas.
+   * **[!UICONTROL Use the exclusion of the results of previous executions]**: Resultaten från tidigare körningar för varje ny körning utesluts.
+   * **[!UICONTROL Use a date field]**: Vid nästa körning beaktas endast resultat som har det valda datumfältet större eller lika med det senaste körningsdatumet för aktiviteten **[!UICONTROL Incremental query]**. Du kan välja ett datumfält som gäller för den valda resursen på fliken **[!UICONTROL Properties]**. Det här läget har bättre prestanda när stora resurser, som t.ex. loggdata, efterfrågas.
 
       Efter den första körningen av arbetsflödet kan du på den här fliken se det senaste körningsdatumet som ska användas för nästa körning. Den uppdateras automatiskt varje gång arbetsflödet körs. Du kan fortfarande åsidosätta det här värdet genom att ange ett nytt värde manuellt så att det passar dina behov.
    >[!NOTE]
    >
-   >Läget ger större flexibilitet beroende på vilket datumfält som är markerat **[!UICONTROL Use a date field]** i . Om det markerade fältet till exempel motsvarar ett ändringsdatum, kan du i datumfältsläget hämta data som nyligen uppdaterats, medan det andra läget helt enkelt utelämnar inspelningar som redan har valts i en tidigare körning, även om de har ändrats sedan den senaste körningen av arbetsflödet.
+   >**[!UICONTROL Use a date field]**-läget ger större flexibilitet beroende på vilket datumfält som är markerat. Om det markerade fältet till exempel motsvarar ett ändringsdatum, kan du i läget för datumfält hämta data som nyligen uppdaterats, medan det andra läget helt enkelt utelämnar inspelningar som redan har valts i en tidigare körning, även om de har ändrats sedan den senaste körningen av arbetsflödet.
 
    ![](assets/incremental_query_usedatefield.png)
 
-1. Du kan definiera **[!UICONTROL Additional data]** för målpopulationen via en dedikerad flik. Dessa data lagras i ytterligare kolumner och kan bara användas för det aktuella arbetsflödet. Du kan särskilt lägga till data från databastabellerna i Adobe Campaign som är länkade till frågans måldimension. Mer information finns i avsnittet [Förbättra data](../../automating/using/query.md#enriching-data) .
+1. Du kan definiera **[!UICONTROL Additional data]** för målpopulationen via en dedikerad flik. Dessa data lagras i ytterligare kolumner och kan bara användas för det aktuella arbetsflödet. Du kan t.ex. lägga till data från Adobe Campaign-databastabeller som är länkade till frågans måldimension.  Mer information finns i avsnittet [Berikningsdata](../../automating/using/query.md#enriching-data).
 1. Bekräfta aktivitetens konfiguration och spara arbetsflödet.
 
-## Förbättra data {#enriching-data}
+## Berika data {#enriching-data}
 
-Precis som för en fråga kan du berika data från en **[!UICONTROL Incremental query]**. Mer information finns i avsnittet [Förbättra data](../../automating/using/query.md#enriching-data) .
+Precis som för en fråga kan du berika data från en **[!UICONTROL Incremental query]**. Mer information finns i avsnittet [Berikningsdata](../../automating/using/query.md#enriching-data).
