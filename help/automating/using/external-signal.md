@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: 16afc307df6902584624d6457954a472b11c5129
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 0%
+ht-degree: 96%
 
 ---
 
@@ -31,17 +31,17 @@ Aktiviteten **[!UICONTROL External signal]** utlöser ett arbetsflöde när viss
 
 ## Kontext för användning {#context-of-use}
 
-Aktiviteten används för att organisera och samordna olika processer som ingår i samma kundresa till olika arbetsflöden. **[!UICONTROL External signal]** Det gör att man kan starta ett arbetsflöde från ett annat, vilket ger stöd för mer komplexa kundresor samtidigt som man bättre kan övervaka och reagera i händelse av problem.
+Aktiviteten **[!UICONTROL External signal]** används för att organisera och samordna olika processer som ingår i samma kundresa till olika arbetsflöden. Det gör att man kan starta ett arbetsflöde från ett annat, vilket ger stöd för mer komplexa kundresor samtidigt som man bättre kan övervaka och reagera vid problem.
 
-Aktiviteten är avsedd att placeras som den första aktiviteten i ett arbetsflöde. **[!UICONTROL External signal]** Den kan aktiveras från en annan arbetsflödes aktivitet eller från ett REST API-anrop (mer information finns i **[!UICONTROL End]** API-dokumentationen [](../../api/using/triggering-a-signal-activity.md)).
+Aktiviteten **[!UICONTROL External signal]** är avsedd att placeras som den första aktiviteten i ett arbetsflöde. Den kan utlösas från ett annat arbetsflödes **[!UICONTROL End]**-aktivitet eller från ett REST API-anrop (mer information om detta hittar du i [API-dokumentationen](../../api/using/triggering-a-signal-activity.md)).
 
-När den aktiveras kan externa parametrar definieras och vara tillgängliga i arbetsflödeshändelsevariablerna. Hur du anropar ett arbetsflöde med externa parametrar beskrivs i [det här avsnittet](../../automating/using/calling-a-workflow-with-external-parameters.md).
+När den utlöses kan externa parametrar definieras och vara tillgängliga i variablerna för arbetsflödeshändelser. Processen för hur du anropar ett arbetsflöde med externa parametrar beskrivs i [det här avsnittet](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
 >[!NOTE]
 >
 >Aktiviteten kan inte utlösas oftare än var 10:e minut.
 
-Observera att en **[!UICONTROL External signal]** aktivitet kan aktiveras från flera olika händelser. I så fall aktiveras **[!UICONTROL External signal]** funktionen så snart ett av källarbetsflödena eller API-anropet har körts. Alla källarbetsflöden behöver inte vara slutförda.
+Observera att en **[!UICONTROL External signal]**-aktivitet kan aktiveras från flera olika händelser. I så fall utlöses **[!UICONTROL External signal]** så snart ett av källarbetsflödena eller API-anropet har körts. Alla källarbetsflöden behöver inte vara slutförda.
 
 **Relaterade ämnen**
 
@@ -50,13 +50,13 @@ Observera att en **[!UICONTROL External signal]** aktivitet kan aktiveras från 
 
 ## Konfiguration {#configuration}
 
-När du konfigurerar en extern signal är det viktigt att först konfigurera aktiviteten i målarbetsflödet **[!UICONTROL External signal]** . När konfigurationen är klar blir arbetsflödets aktivitet tillgänglig för att konfigurera **[!UICONTROL External signal]** källarbetsflödets **[!UICONTROL End]** aktivitet.
+När du konfigurerar en extern signal är det viktigt att först konfigurera **[!UICONTROL External signal]**-aktiviteten i destinationsarbetsflödet. När konfigurationen är klar blir arbetsflödets **[!UICONTROL External signal]**-aktivitet tillgänglig för att konfigurera källarbetsflödets **[!UICONTROL End]**-aktivitet.
 
-1. Dra och släpp en **[!UICONTROL External signal]** aktivitet i målarbetsflödet.
+1. Dra och släpp en **[!UICONTROL External signal]**-aktivitet i destinationsarbetsflödet.
 1. Markera aktiviteten och öppna den sedan med knappen ![](assets/edit_darkgrey-24px.png) bland de snabbåtgärder som visas.
 1. Redigera aktivitetens etikett. Den här etiketten behövs när du konfigurerar det källarbetsflöde som utlöser **[!UICONTROL External signal]**.
 
-   Om du vill anropa arbetsflödet med parametrar använder du området **[!UICONTROL Parameters]** för att deklarera dem. For more on this, refer to [this section](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity).
+   Om du vill anropa arbetsflödet med parametrar använder du området **[!UICONTROL Parameters]** för att deklarera dem. Mer information om detta hittar du i [det här avsnittet](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity).
 
    ![](assets/external_signal_configuration.png)
 
@@ -64,28 +64,28 @@ När du konfigurerar en extern signal är det viktigt att först konfigurera akt
 
    >[!NOTE]
    >
-   >Om du vill utlösa målarbetsflödet från ett annat arbetsflöde fortsätter du med följande steg. Om du vill utlösa målarbetsflödet från ett REST API-anrop kan du få mer information i [API-dokumentationen](../../api/using/triggering-a-signal-activity.md) .
+   >Om du vill utlösa destinationsarbetsflödet från ett annat arbetsflöde fortsätter du med följande steg. Om du vill utlösa destinationsarbetsflödet från ett REST API-anrop kan du få mer information i [API-dokumentationen](../../api/using/triggering-a-signal-activity.md).
 
-1. Öppna källarbetsflödet och välj en **[!UICONTROL End]** aktivitet. Om det inte finns någon tillgänglig **[!UICONTROL End]** aktivitet lägger du till en efter den sista aktiviteten i en gren i arbetsflödet.
+1. Öppna källarbetsflödet och välj en **[!UICONTROL End]**-aktivitet. Om det inte finns någon tillgänglig **[!UICONTROL End]**-aktivitet lägger du till en efter den sista aktiviteten i en gren av arbetsflödet.
 
    Vissa aktiviteter har ingen utgående övergång som standard. På fliken **[!UICONTROL Properties]** för dessa aktiviteter kan du lägga till en utgående övergång.
 
-   I en **[!UICONTROL Update data]** aktivitet går du till exempel till **[!UICONTROL Transitions]** fliken och markerar **[!UICONTROL Add an outbound transition without the population]** alternativet. Med det här alternativet kan du lägga till en övergång som inte innehåller några data och som inte tar upp onödigt utrymme i systemet. Den används bara för att ansluta den extra **[!UICONTROL End]** aktiviteten som utlöser målarbetsflödet.
+   I en **[!UICONTROL Update data]**-aktivitet går du till exempel till fliken **[!UICONTROL Transitions]** och markerar alternativet **[!UICONTROL Add an outbound transition without the population]**. Med det här alternativet kan du lägga till en övergång som inte innehåller några data och som inte tar upp onödigt utrymme i systemet. Den används bara för att ansluta den extra **[!UICONTROL End]**-aktiviteten som utlöser destinationsarbetsflödet.
 
    ![](assets/external_signal_empty_transition.png)
 
-1. Välj målarbetsflödet samt den aktivitet som ska utlösas i arbetsflödet på **[!UICONTROL External signal]** fliken för **[!UICONTROL End]** **[!UICONTROL External signal]** aktiviteten.
+1. Välj destinationsarbetsflödet samt den **[!UICONTROL External signal]**-aktivitet som ska utlösas i arbetsflödet på fliken **[!UICONTROL External signal]** för **[!UICONTROL End]**-aktiviteten.
 
-   När du anger en **[!UICONTROL End]** aktivitet som ska utlösa ett annat arbetsflöde uppdateras dess ikon med en extra signatursymbol.
+   När du anger en **[!UICONTROL End]**-aktivitet som ska utlösa ett annat arbetsflöde uppdateras dess ikon med en extra signatursymbol.
 
-   Om du vill anropa arbetsflödet med parametrar använder du **[!UICONTROL Parameters and values]** området. For more on this, refer to [this section](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow).
+   Om du vill anropa arbetsflödet med parametrar använder du området **[!UICONTROL Parameters and values]**. Mer information om detta hittar du i [det här avsnittet](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow).
 
    ![](assets/external_signal_end.png)
 
 1. Spara källarbetsflödet.
 
-När **[!UICONTROL End]** aktiviteten för källarbetsflödet eller REST API-anropet körs, aktiveras målarbetsflödet automatiskt från **[!UICONTROL External signal]** aktiviteten.
+När **[!UICONTROL End]**-aktiviteten för källarbetsflödet eller REST API-anropet körs, utlöses destinationsarbetsflödet automatiskt från **[!UICONTROL External signal]**-aktiviteten.
 
 >[!NOTE]
 >
->Målarbetsflödet måste startas manuellt innan det kan aktiveras. När programmet startas **[!UICONTROL External activity]** aktiveras det och väntar på signalen från källarbetsflödet.
+>Destinationsarbetsflödet måste startas manuellt innan det kan aktiveras. När programmet startas aktiveras **[!UICONTROL External activity]** och väntar på signalen från källarbetsflödet.
