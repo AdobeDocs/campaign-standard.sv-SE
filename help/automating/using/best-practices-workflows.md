@@ -1,6 +1,6 @@
 ---
-title: Bästa arbetsflöden
-description: Lär dig hur du använder de bästa metoderna för arbetsflöden.
+title: Bäst praxis för arbetsflöden
+description: Lär dig hur du använder bäst praxis för arbetsflöden.
 page-status-flag: never-activated
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
 contentOwner: sauviat
@@ -11,39 +11,39 @@ topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1046'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Bästa arbetsflöden{#workflow-best-practices}
+# Bäst praxis för arbetsflöden{#workflow-best-practices}
 
-Med Adobe Campaign kan ni konfigurera alla typer av arbetsflöden för att utföra ett stort antal uppgifter. När du utformar och kör arbetsflöden måste du dock vara mycket försiktig eftersom en felaktig implementering kan leda till felaktiga prestanda, fel och plattformsproblem. Nedan finns en lista med bästa praxis och felsökningstips.
+Med Adobe Campaign kan du konfigurera alla typer av arbetsflöden för att utföra ett stort antal uppgifter. När du utformar och kör arbetsflöden måste du dock vara mycket försiktig eftersom en felaktig implementering kan leda till felaktiga prestanda, avvikelser och plattformsproblem. Nedan finns en lista med bästa praxis och felsökningstips.
 
 >[!NOTE]
 >
->Arbetsflödesdesign och -körning måste utföras av en avancerad Adobe Campaign-användare.
+>Arbetsflödesdesign och körning måste utföras av en avancerad Adobe Campaign-användare.
 
 ## Namngivning{#naming}
 
-För att underlätta felsökning av arbetsflöden rekommenderar Adobe att du namnger och etiketterar dina arbetsflöden explicit. Fyll i arbetsflödets beskrivningsfält för att sammanfatta den process som ska utföras så att operatorn lätt kan förstå den.
+För att underlätta felsökning av arbetsflöden rekommenderar Adobe att du unikt namnger och etiketterar dina arbetsflöden. Fyll i arbetsflödets beskrivningsfält för att sammanfatta den process som ska utföras så att operatorn lätt kan förstå den.
 Om arbetsflödet är en del av en process som innefattar flera arbetsflöden kan du använda siffror när du anger en etikett för att ordna dem tydligt.
 
 Exempel:
 
-* 001 - Importera - Importera mottagare
+* 001 - Import - Importera mottagare
 * 002 - Import - Importförsäljning
-* 003 - Importera - Importera försäljningsinformation
-* 010 - Exportera - Exportera leveransloggar
-* 011 - Export - loggar för exportspårning
+* 003 - Import - Importera försäljningsinformation
+* 010 - Export - Exportera leveransloggar
+* 011 - Export - Exportera spårningsloggar
 
 ## Duplicera arbetsflöden{#duplicating-workflows}
 
-Du kan duplicera arbetsflöden. Håll markören över arbetsflödet i **[!UICONTROL Marketing Activities]** fönstret och klicka **[!UICONTROL Duplicate element]**. När du har duplicerat arbetsflödet överförs inte ändringarna till kopian av arbetsflödet. Kopian av arbetsflödet kan redigeras.
+Du kan duplicera arbetsflöden. Håll **[!UICONTROL Marketing Activities]** markören över arbetsflödet och klicka **[!UICONTROL Duplicate element]**. När du har duplicerat arbetsflödet överförs inte ändringarna till kopian av arbetsflödet. Kopian av arbetsflödet kan redigeras.
 
 ![](assets/duplicating_workflow.png)
 
@@ -51,47 +51,47 @@ Du kan duplicera arbetsflöden. Håll markören över arbetsflödet i **[!UICONT
 
 ### Antal arbetsflöden
 
-Som standard rekommenderar vi att du inte kör fler än 20 aktiva arbetsflöden samtidigt. När du har klickat på den gränsen köas arbetsflöden för att inte påverka prestanda. På samma sätt rekommenderar Adobe att du distribuerar arbetsflödeskörningen över tid.
+Som standard rekommenderar vi att du inte kör fler än 20 aktiva arbetsflöden samtidigt. När du har nått den gränsen köas arbetsflöden för att inte påverka prestandan. På samma sätt rekommenderar Adobe att du distribuerar arbetsflödeskörningen tidsmässigt.
 I vissa sammanhang kan du behöva köra fler än 20 arbetsflöden. Det gäller inte arbetsflöden som väntar på en schemalagd körning.  Om så är fallet måste du kontrollera användningsexemplen med en Campaign-expert och kontakta Adobes kundtjänst för att höja gränsen.
 
 ### Frekvens
 
 Ett arbetsflöde kan inte köras automatiskt oftare än en gång var tionde minut.
-Aktivitetens upprepningsfrekvens får inte vara mindre än 10 minuter. Om repetitionsfrekvensen är inställd på 0 (även standardvärdet), beaktas inte det här alternativet och arbetsflödet körs enligt körningsfrekvensen.
+Aktivitetens upprepningsfrekvens får inte vara mindre än 10 minuter. Om repetitionsfrekvensen är inställd på 0 (som även är standardvärdet) så beaktas inte det här alternativet och arbetsflödet körs enligt körningsfrekvensen.
 
 ### Pausade arbetsflöden
 
-Arbetsflöden som har pausats eller misslyckats i mer än 7 dagar stoppas för att ta upp mindre diskutrymme. Rengöringsaktiviteten visas i arbetsflödesloggarna.
+Arbetsflöden som har pausats eller misslyckats i mer än 7 dagar stoppas för att ta upp mindre diskutrymme. Rengöringsaktiviteten visas i loggarna för arbetsflödet.
 
 ### Övergångar
 
-Ett arbetsflöde som innehåller oavslutade övergångar kan fortfarande köras: ett varningsmeddelande genereras och arbetsflödet pausas när övergången är klar, men det genererar inget fel. Du kan också påbörja ett arbetsflöde utan att ha en färdig design och slutföra det medan du arbetar.
+Ett arbetsflöde som innehåller oavslutade övergångar kan fortfarande köras. Ett varningsmeddelande genereras och arbetsflödet pausas när övergången är klar men det genererar inget fel. Du kan också påbörja ett arbetsflöde utan att ha en färdig design och slutföra det i efterhand.
 
-Mer information finns i [Köra arbetsflöden](../../automating/using/about-workflow-execution.md).
+Mer information finns under [Köra arbetsflöden](../../automating/using/about-workflow-execution.md).
 
 ### Tidszon
 
-Med arbetsflödesegenskaperna kan du definiera en specifik tidszon som ska användas som standard i alla dess aktiviteter. Som standard är arbetsflödets tidszon den som definieras för den aktuella Campaign-operatorn.
+Med egenskaperna för ett arbetsflöde kan du definiera en specifik tidszon som ska användas som standard i alla dess aktiviteter. Som standard är arbetsflödets tidszon den som definieras för den aktuella Campaign-operatorn.
 
 
 ## Aktivitet{#activity}
 
 ### Arbetsflödesdesign
 
-Om du vill vara säker på att arbetsflödet avslutas korrekt använder du **[!UICONTROL End activity]**. Undvik att lämna den sista övergången i ett arbetsflöde separat.
+Om du vill vara säker på att arbetsflödet avslutas korrekt använder du **[!UICONTROL End activity]**. Undvik att enskilt lämna den sista övergången i ett arbetsflöde.
 
-Om du vill få åtkomst till detaljvyn för övergångarna markerar du alternativet i avsnittet Körning i arbetsflödesegenskaperna. **[!UICONTROL Keep interim results]**
+Om du vill få åtkomst till detaljvyn för övergångarna markerar du alternativet **[!UICONTROL Keep interim results]** i avsnittet Körning i egenskaperna för arbetsflödet. 
 
 >[!CAUTION]
 >
->Det här alternativet kräver mycket diskutrymme och är utformat för att hjälpa dig att skapa ett arbetsflöde och säkerställa korrekt konfiguration och beteende. Låt det vara omarkerat på produktionsinstanser.
+>Det här alternativet kräver mycket diskutrymme och är utformat för att hjälpa dig att skapa ett arbetsflöde och säkerställa korrekt konfiguration och beteende. Låt det vara omarkerat vid produktionsinstanser.
 
 ![](assets/keep_interim_best_practices.png)
 
 
-### Märkningsverksamhet{#activity-labeling}
+### Märkningsaktiviteter{#activity-labeling}
 
-När du utvecklar ditt arbetsflöde genereras ett namn för varje aktivitet, precis som för alla Adobe Campaign-objekt. Namnet på en aktivitet genereras av verktyget och kan inte redigeras, men vi rekommenderar att du ger den ett explicit namn när du konfigurerar den.
+När du utvecklar ditt arbetsflöde genereras ett namn för varje aktivitet precis som för alla Adobe Campaign-objekt. Namnet på en aktivitet genereras av verktyget och kan inte redigeras men vi rekommenderar att du ger den ett unikt namn när du konfigurerar den.
 
 ### Duplicera aktiviteter{#activity-duplicating}
 
@@ -99,7 +99,7 @@ Om du vill duplicera befintliga aktiviteter kan du använda kopiera och klistra 
 
 ### Schemaläggaraktivitet{#acheduler-activity}
 
-När du skapar arbetsflödet ska du bara använda en **[!UICONTROL Scheduler activity]** per gren. Om samma gren i ett arbetsflöde har flera schemaläggare (länkade till varandra), multipliceras antalet uppgifter som ska utföras exponentiellt, vilket skulle innebära att databasen överbelastas avsevärt.
+När du skapar arbetsflödet ska du endast använda en **[!UICONTROL Scheduler activity]** per gren. Om samma gren i ett arbetsflöde har flera schemaläggare (länkade till varandra) så multipliceras antalet uppgifter som ska utföras exponentiellt vilket skulle innebära att databasen överbelastas avsevärt.
 
 Du kan förhandsgranska nästa tio körningar av dina arbetsflöden genom att klicka **[!UICONTROL Preview next executions]**.
 
@@ -109,7 +109,7 @@ Mer information finns i [Schemaläggaraktivitet](../../automating/using/schedule
 
 ## Anropa arbetsflöde med parametrar{#workflow-with-parameters}
 
-Kontrollera att parameterns namn och antal är identiska med vad som är definierat när arbetsflödet anropas (se [Definiera parametrar när arbetsflödet](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow)anropas). Parametrarnas typer måste också vara konsekventa med de värden som förväntas.
+Kontrollera att parameterns namn och antal är identiska med vad som är definierat när arbetsflödet anropas (se [Definiera parametrar när arbetsflödet](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow) anropas). Parametrarnas typer måste även vara konsekventa med de värden som förväntas.
 
 Kontrollera att alla parametrar har deklarerats i **[!UICONTROL External signal activity]**. Annars inträffar ett fel när aktiviteten körs.
 
@@ -122,12 +122,12 @@ Mer information finns i [Hantera paket](../../automating/using/managing-packages
 
 ## Exporterar listor{#exporting-lists}
 
-Med alternativet för exportlista kan du exportera högst 100 000 rader som standard och som definieras av alternativet **** Nms_ExportListLimit. Det här alternativet kan hanteras av den funktionella administratören, under **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
+Med alternativet för exportlista kan du exportera högst 100 000 rader som standard och som definieras av alternativet **Nms_ExportListLimit**. Det här alternativet kan hanteras av den funktionella administratören under **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
 Mer information finns i [Exportera listor](../../automating/using/exporting-lists.md).
 
 ## Felsökning{#workflow-troubleshooting}
 
-I Adobe Campaign finns olika loggar för att bättre förstå era arbetsflödesfrågor.
+I Adobe Campaign finns olika loggar för att bättre förstå problem i arbetsflödet.
 
 ### Använda arbetsflödesloggar{#using-workflow-logs}
 
@@ -135,26 +135,26 @@ Du kan komma åt arbetsflödesloggar för att övervaka utförandet av dina akti
 Fliken Åtgärder innehåller information om aktiviteternas körningssekvens. Klicka på en aktivitet om du vill ha mer information om en aktivitet.
 Mer information finns i [Övervaka arbetsflödeskörning](../../automating/using/monitoring-workflow-execution.md).
 
-#### Felsöka datahanteringsaktiviteter{#troubleshooting-data-management-activities}
+#### Felsökning av datahanteringsaktiviteter{#troubleshooting-data-management-activities}
 
-Du kan analysera SQL-frågor på fliken Logg.
+Du kan analysera SQL-förfrågningar på fliken Logg.
 
-1. Klicka på i arbetsytan för arbetsflöde **[!UICONTROL Edit properties]**.
-1. I **[!UICONTROL General]** > **[!UICONTROL Execution]** kontrollerar du alternativen **[!UICONTROL Save SQL queries in the log]** och **[!UICONTROL Execute in the engine]** och klickar på **[!UICONTROL Confirm]**.
+1. Klicka **[!UICONTROL Edit properties]** på i arbetsytan för arbetsflöde.
+1. I **[!UICONTROL General]** > **[!UICONTROL Execution]** kontrollerar du alternativen **[!UICONTROL Save SQL queries in the log]** och **[!UICONTROL Execute in the engine]** och klickar sedan på **[!UICONTROL Confirm]**.
 
-**Så här visar du SQL-frågor i loggen:**
+**Så här visar du SQL-förfrågningar i loggen:**
 1. Klicka på **[!UICONTROL Log and Tasks]**.
-1. Öppna panelen på **[!UICONTROL Logs]** fliken **[!UICONTROL Search]** .
-1. Kolla **[!UICONTROL Display SQL logs only]**.
+1. Öppna panelen **[!UICONTROL Search]** på fliken **[!UICONTROL Logs]**.
+1. Markera **[!UICONTROL Display SQL logs only]**.
 
-Frågan visas i loggkolumnen **[!UICONTROL Message]** .
+Förfrågningen visas i loggkolumnen **[!UICONTROL Message]** .
 
-### Använda leveransloggar{#using-delivery-logs}
+### Användning av leveransloggar{#using-delivery-logs}
 
-Leveransloggar gör det möjligt att övervaka leveransprocessen. Uteslutningsloggar returnerar utelämnade meddelanden när sändningen förbereds. När du skickar loggar visas leveransstatus för varje profil.
+Leveransloggar gör det möjligt att övervaka leveransprocessen. Uteslutningsloggar returnerar uteslutna meddelanden när sändningen förbereds. När du skickar loggar visas leveransstatus för varje profil.
 Mer information finns i [Om leveransfel](../../sending/using/understanding-delivery-failures.md).
 
-### Använda leveransvarningar{#delivery-alerting}
+### Användning av leveransvarningar{#delivery-alerting}
 
 Funktionen för leveransvarning är ett varningssystem som gör att en grupp användare automatiskt kan ta emot meddelanden som innehåller information om hur leveransen utförs.
 Mer information finns i [Leveransvarning](../../sending/using/receiving-alerts-when-failures-happen.md).
