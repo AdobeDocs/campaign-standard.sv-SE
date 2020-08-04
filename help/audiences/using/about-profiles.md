@@ -12,22 +12,25 @@ discoiquuid: a35e736c-a17b-420c-8411-0debc3c6275a
 context-tags: recipient,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
+workflow-type: ht
+source-wordcount: '155'
+ht-degree: 100%
 
 ---
 
 
 # Om profiler{#about-profiles}
 
-Med Adobe Campaign kan ni hantera kontakter under hela deras livscykel: skapa, importera, målinrikta, åtgärdsspårning, uppdateringar osv. Kontakter lagras i databasen som profiler som innehåller den information som är länkad till dem: efternamn, förnamn, adress, prenumerationer, leveranser osv.
+Med Adobe Campaign kan du hantera kontakter under hela deras livscykel: skapa, importera, målinrikta, åtgärdsspårning, uppdateringar, o.s.v. Kontakter lagras i databasen som profiler som innehåller den information som är kopplad till dem: efternamn, förnamn, adress, prenumerationer, leveranser, o.s.v.
 
 >[!NOTE]
 >
->Profiler finns också tillgängliga med API:t för Adobe Campaign Standard. Mer information finns i den [dedikerade dokumentationen](../../api/using/retrieving-profiles.md).
+>Profiler finns också tillgängliga med API:t för Adobe Campaign Standard. Mer information om detta hittar du i den [dedikerade dokumentationen](../../api/using/retrieving-profiles.md).
 
 ![](assets/marketing_history.png)
 
-När ni skapar kampanjer kan ni definiera målet för leveranserna genom att välja profiler enligt enkla eller avancerade kriterier. Tekniskt sett är en profil en post i databasen som innehåller all information som krävs för att aktivera, kvalificera och spåra beteenden.
+När du skapar kampanjer kan du definiera målet för leveranserna genom att välja profiler enligt enkla eller avancerade kriterier. Tekniskt sett är en profil en post i databasen som innehåller all information som krävs för att aktivera, kvalificera och spåra beteenden.
 
 En profil kan vara: en kund, en potentiell kund, en enskild person som prenumererar på ett nyhetsbrev, en mottagare, en användare eller någon annan benämning beroende på din organisation. Om du vill definiera olika typer av profiler använder du [måldimensioner](../../automating/using/query.md#targeting-dimensions-and-resources).
