@@ -1,6 +1,6 @@
 ---
-title: Gränssnitt för SMS och push-innehållsredigerare
-description: Lär dig hur du använder de olika avsnitten i redigeraren för att ändra ditt SMS och push-innehåll.
+title: Gränssnitt för SMS- och push-innehållsredigerare
+description: Lär dig hur du använder de olika delarna i redigeraren för att ändra ditt SMS- och push-innehåll.
 page-status-flag: never-activated
 uuid: 4af5d247-555b-45c5-95a7-cb27f356b5a0
 contentOwner: sauviat
@@ -12,27 +12,30 @@ discoiquuid: 4e214eb9-d299-4095-b786-8d1de9b1c8a2
 context-tags: delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+workflow-type: ht
+source-wordcount: '330'
+ht-degree: 100%
 
 ---
 
 
-# Gränssnitt för SMS och push-innehållsredigerare{#sms-and-push-content-editor-interface}
+# Gränssnitt för SMS- och push-innehållsredigerare{#sms-and-push-content-editor-interface}
 
-SMS- och push-innehållsredigeraren är indelad i två olika avsnitt där du kan visa och redigera meddelandet.
+Redigeraren för SMS- och push-innehåll är indelad i två olika delar där du kan visa och redigera meddelandet.
 
-1. I **åtgärdsfältet** finns de allmänna alternativen för sidan. Du kan infoga anpassningsfält eller innehållsblock, lägga till villkorlig text och förhandsgranska SMS-innehållet härifrån. Se åtgärdsfältet [för](#sms-and-push-content-editor-action-bar)SMS och push-redigering av innehåll.
-1. I skärmens **redigeringszon** kan du ange textmeddelandet direkt och välja var du vill infoga personaliseringen. Se läge för [SMS och push-innehållsutgåvor](#sms-and-push-content-edition-modes).
+1. I **åtgärdsfältet** finns de allmänna alternativen för sidan.  Du kan infoga personaliserade fält eller innehållsblock, lägga till villkorlig text och förhandsgranska SMS-innehållet här.  Se [åtgärdsfältet för redigeraren av SMS- och push-innehåll](#sms-and-push-content-editor-action-bar).
+1. I skärmens **redigeringszon** kan du ange textmeddelandet direkt och välja vart du vill infoga personaliseringen.  Se [Lägen för SMS- och push-innehåll](#sms-and-push-content-edition-modes).
 
-## Åtgärdsfält för SMS och push-redigering av innehåll {#sms-and-push-content-editor-action-bar}
+## Åtgärdsfält för redigering av SMS- och push-innehåll {#sms-and-push-content-editor-action-bar}
 
-Åtgärdsfältet innehåller olika knappar som gör att du kan interagera med innehållet som skapas.
+Åtgärdsfältet har olika knappar som gör att du kan interagera med innehållet som skapas.
 
 <table> 
  <thead> 
   <tr> 
-   <th> Icon<br /> </th> 
+   <th> Ikon<br /> </th> 
    <th> Knappnamn<br /> </th> 
    <th> Kanal<br /> </th> 
    <th> Beskrivning<br /> </th> 
@@ -41,56 +44,56 @@ SMS- och push-innehållsredigeraren är indelad i två olika avsnitt där du kan
  <tbody> 
   <tr> 
    <td> <img height="21px" src="assets/viewon_darkgrey-24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">Förhandsgranska</span><br /> </td> 
+   <td> <span class="uicontrol">Förhandsgranskning</span> <br /> </td> 
    <td> Endast SMS<br /> </td> 
-   <td> Gör att du kan visa hur e-postmeddelandet återges för en mottagare. Se <a href="../../sending/using/previewing-messages.md">Förhandsvisa meddelanden</a>.<br /> </td> 
+   <td> Gör så att du kan visa hur e-postmeddelandet visas för en mottagare.  Se <a href="../../sending/using/previewing-messages.md">Förhandsvisa meddelanden</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/undo_darkgrey-24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">Ångra</span><br /> </td> 
+   <td> <span class="uicontrol">Ångra</span> <br /> </td> 
    <td> SMS och push<br /> </td> 
    <td> Avbryter den senaste åtgärden som utfördes.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/redo_darkgrey-24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">Gör om</span><br /> </td> 
+   <td> <span class="uicontrol">Gör om</span> <br /> </td> 
    <td> SMS och push<br /> </td> 
    <td> Gör om den senaste åtgärden som du avbröt.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/personalization_field_darkgrey-24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">Infoga anpassningsfält</span><br /> </td> 
+   <td> <span class="uicontrol">Infoga personaliseringsfält</span> <br /> </td> 
    <td> SMS och push<br /> </td> 
-   <td> Gör att du kan lägga till ett fält från databasen till innehållet. Se <a href="../../designing/using/personalization.md#inserting-a-personalization-field" target="_blank">Infoga ett personaliseringsfält</a>.<br /> </td> 
+   <td> Gör så att du kan lägga till ett fält från databasen till innehållet.  Se <a href="../../designing/using/personalization.md#inserting-a-personalization-field" target="_blank">Infoga ett personaliserat fält</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/personalization_block_darkgrey-24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">Infoga innehållsblock</span><br /> </td> 
+   <td> <span class="uicontrol">Infoga innehållsblock</span> <br /> </td> 
    <td> SMS och push<br /> </td> 
-   <td> Gör att du kan lägga till ett anpassningsblock i innehållet. Se <a href="../../designing/using/personalization.md#adding-a-content-block" target="_blank">Lägga till ett innehållsblock</a>.<br /> </td> 
+   <td> Gör så att du kan lägga till ett personaliserat block i innehållet.  Se <a href="../../designing/using/personalization.md#adding-a-content-block" target="_blank">Lägg till ett innehållsblock</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/dynamiccontent_24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">Aktivera dynamisk text</span><br /> </td> 
+   <td> <span class="uicontrol">Aktivera dynamisk text</span> <br /> </td> 
    <td> SMS och push<br /> </td> 
-   <td> Gör att du kan infoga dynamisk text i innehållet. Se <a href="../../channels/using/defining-dynamic-text.md" target="_blank">Definiera dynamisk text</a>.<br /> </td> 
+   <td> Gör så att du kan infoga dynamisk text i innehållet.  Se <a href="../../channels/using/defining-dynamic-text.md" target="_blank">Definiera dynamisk text</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/dynamiccontentdisable_24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">Inaktivera dynamisk text</span><br /> </td> 
+   <td> <span class="uicontrol">Inaktivera dynamisk text</span> <br /> </td> 
    <td> SMS och push<br /> </td> 
-   <td> Gör att du kan ta bort dynamisk text.<br /> </td> 
+   <td> Gör så att du kan ta bort dynamisk text.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Lägen för SMS och push-innehållsutgåvor {#sms-and-push-content-edition-modes}
+## Lägen för SMS och push-innehållsredigering {#sms-and-push-content-edition-modes}
 
-SMS- och push-innehållsredigeraren har följande funktioner:
+Redigeraren av SMS- och push-innehåll har följande funktioner:
 
 * Ange text.
-* Lägg till ett anpassningsfält. Mer information finns i [Infoga ett personaliseringsfält](../../designing/using/personalization.md#inserting-a-personalization-field).
-* Lägg till ett innehållsblock. Mer information finns i [Lägga till ett innehållsblock](../../designing/using/personalization.md#adding-a-content-block).
-* Lägg till dynamisk text. Mer information finns i [Definiera dynamisk text](../../channels/using/defining-dynamic-text.md).
-* Anpassa namnet på SMS-avsändaren (endast SMS). Mer information finns i [SMS-konfiguration](../../administration/using/configuring-sms-channel.md#configuring-sms-properties).
+* Lägg till ett personaliseringsfält.  Mer information finns i [Infoga ett personaliseringsfält](../../designing/using/personalization.md#inserting-a-personalization-field).
+* Lägg till ett innehållsblock.  Mer information finns i [Lägga till ett innehållsblock](../../designing/using/personalization.md#adding-a-content-block).
+* Lägg till dynamisk text.  Mer information finns i [Definiera dynamisk text](../../channels/using/defining-dynamic-text.md).
+* Anpassa namnet på SMS-avsändaren (endast SMS).  Mer information finns i [SMS-konfiguration](../../administration/using/configuring-sms-channel.md#configuring-sms-properties).
 
