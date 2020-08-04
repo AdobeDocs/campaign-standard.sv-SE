@@ -1,6 +1,6 @@
 ---
-title: Om SMS och push-innehållsdesign
-description: Lär dig mer om redigeraren som används för att ändra innehållet i SMS-meddelanden och push-meddelanden i Adobe Campaign.
+title: Om design av SMS och push-innehåll
+description: Lär dig mer om redigeraren som används för att ändra innehållet i SMS och push-meddelanden i Adobe Campaign.
 page-status-flag: never-activated
 uuid: 99277e46-e4f7-49a9-ba27-b878780f90da
 contentOwner: sauviat
@@ -12,30 +12,33 @@ discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 context-tags: delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+workflow-type: ht
+source-wordcount: '165'
+ht-degree: 100%
 
 ---
 
 
-# Om SMS och push-innehållsdesign{#about-sms-and-push-content-design}
+# Om design av SMS och push-innehåll{#about-sms-and-push-content-design}
 
-Använd innehållsredigeraren för att definiera, ändra och anpassa innehållet i SMS-meddelanden och push-meddelanden i Adobe Campaign.
+Använd innehållsredigeraren för att definiera, ändra och anpassa innehållet i SMS och push-meddelanden i Adobe Campaign.
 
-I det här avsnittet beskrivs egenskaperna för SMS- och push-innehållsredigeraren, inklusive [SMS och push-innehållsredigeringsgränssnittet](../../channels/using/sms-and-push-content-editor-interface.md).
+I det här avsnittet beskrivs egenskaperna för redigeraren av SMS och push-innehåll inklusive [Gränssnitten för redigering av SMS och push-innehåll](../../channels/using/sms-and-push-content-editor-interface.md).
 
 De åtgärder som är gemensamma för en eller flera marknadsföringsaktiviteter presenteras i följande avsnitt:
 
-* Mer information om hur du anpassar ett SMS- eller push-meddelandeinnehåll finns i [Infoga ett anpassningsfält](../../designing/using/personalization.md#inserting-a-personalization-field) och [Lägga till ett innehållsblock](../../designing/using/personalization.md#adding-a-content-block).
-* Mer information om hur du definierar villkorlig text i ett SMS-meddelande eller push-meddelande finns i [Definiera dynamisk text](../../channels/using/defining-dynamic-text.md).
+* Mer information om hur du anpassar innehållet av ett SMS eller push-meddelande finns i [Infoga ett anpassningsfält](../../designing/using/personalization.md#inserting-a-personalization-field) och [Lägga till ett innehållsblock](../../designing/using/personalization.md#adding-a-content-block).
+* Mer information om hur du definierar villkorlig text i ett SMS eller push-meddelande finns i [Definiera dynamisk text](../../channels/using/defining-dynamic-text.md).
 
-Så här öppnar du SMS- och push-innehållsredigeraren:
+Så här öppnar du redigeraren för SMS och push-innehåll:
 
-* Klicka på **[!UICONTROL Content]** blocket i en SMS-kontrollpanel.
+* Klicka på blocket **[!UICONTROL Content]** i SMS:ets konrollpanel.
 
    ![](assets/des_sms_content.png)
 
-* Klicka på pennan bredvid **[!UICONTROL Message body]** fältet på kontrollpanelen för push-meddelanden.
+* Klicka på pennan bredvid fältet **[!UICONTROL Message body]** på kontrollpanelen för push-meddelanden.
 
    ![](assets/des_push_body.png)
 
