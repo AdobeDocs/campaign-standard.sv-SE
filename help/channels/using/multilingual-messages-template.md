@@ -1,6 +1,6 @@
 ---
 title: Mallar för flerspråkiga meddelanden
-description: Lär dig definiera och köra flerspråkiga e-post-/SMS-leveranser via en enda leverans baserat på det automatiskt segmenterade kundspråk du föredrar. Rapportera resultatet av varje leverans till språk och individuella nivåer.
+description: Lär dig definiera och köra flerspråkiga e-post och SMS-leveranser genom en enda leverans baserat på det automatiskt segmenterade kundspråk som du föredrar. Rapportera resultatet av varje leverans på såväl språknivåer som individuella nivåer.
 page-status-flag: never-activated
 uuid: 7a2cd5f7-c0fc-4825-a770-a62816c66b3f
 contentOwner: sauviat
@@ -11,23 +11,26 @@ topic-tags: managing-templates
 discoiquuid: 064c5c4a-f579-4bab-adf3-51c92eb4518f
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
+workflow-type: ht
+source-wordcount: '294'
+ht-degree: 100%
 
 ---
 
 
 # Mallar för flerspråkiga meddelanden {#multilingual-messages-template}
 
-En flerspråkig mall är en specifik mall för hantering av flerspråkiga meddelanden. Den här typen av mall är tillgänglig för **e-post** - och **SMS-meddelanden** och kan användas i fristående läge, i ett arbetsflöde eller i en återkommande leverans.
+En flerspråkig mall är en specifik mall för hantering av meddelanden på flera språk. Den här typen av mall är tillgänglig för **e-post** och **SMS-meddelanden** och kan användas i fristående läge, i ett arbetsflöde eller i en återkommande leverans.
 
-I de flerspråkiga funktionsmallarna baseras språkhanteringen på varianter. **Varje variant representerar ett språk**. Adobe Campaign Standard kan konfigurera maximalt 40 varianter.
+I de flerspråkiga funktionsmallarna baseras språkhanteringen på varianter.    **Varje variant representerar ett språk**.  Adobe Campaign Standard kan maximalt konfigurera 40 varianter.
 
-Adobe Campaign har ett standardspråk som är inställt på **EN**. Standardspråket kan ändras till en annan variant men ska aldrig tas bort.
+Adobe Campaign har ett standardspråk som är inställt på **EN**.  Standardspråket kan ändras till en annan variant men bör aldrig tas bort.
 
 När du skapar en mall kan du lägga till antalet varianter som motsvarar antalet språk som behövs i meddelandet.
 
-Så här skapar du en SMS- eller e-postmall:
+Så här skapar du en mall för SMS eller e-post:
 
 1. Duplicera en befintlig flerspråkig mall (SMS eller e-post).
 
@@ -35,25 +38,25 @@ Så här skapar du en SMS- eller e-postmall:
 
    >[!NOTE]
    >
-   >Du kan också ändra en befintlig standardmall i en flerspråkig mall genom att klicka på **[!UICONTROL Initialize content variant]** knappen i mallegenskaperna.
+   >Du kan också ändra en befintlig standardmall i en flerspråkig mall genom att klicka på knappen **[!UICONTROL Initialize content variant]** i mallegenskaperna.
 
-1. Ändra egenskaperna för att anpassa etikett, spårning osv.
-1. Ändra antalet önskade varianter genom att klicka på variantplattan. Variantfönstret visas
+1. Ändra egenskaperna för att anpassa etikett, spårning etc.
+1. Ändra antalet önskade varianter genom att klicka på variant-ikonen.  Fönstret för varianter visas
 
    ![](assets/multi_template_variants.png)
 
-   Du kan lägga till eller ta bort varianter. Om du vill lägga till en variant fyller du i **[!UICONTROL New content variant]** fönstret.
+   Du kan lägga till eller ta bort varianter.  Om du vill lägga till en variant fyller du i **[!UICONTROL New content variant]**-fönstret.
 
    ![](assets/multi_template_newvariant.png)
 
    >[!NOTE]
    >
-   >Ta inte bort&quot;standardvarianten&quot; eftersom det är varianten som skickas till profiler utan en slutförd föredragen språkparameter.
+   >Ta inte bort &quot;standardvarianten&quot; eftersom det är varianten som skickas till profiler utan en vald föredragen språkparameter.
 
 1. Anpassa etikettvarianten om det behövs och klicka på **[!UICONTROL Confirm]**.
-1. Du kan också lägga till innehåll direkt för varje variant.
+1. Du kan också direkt lägga till innehåll för varje variant.
 
-Du kan nu skapa ett e-postmeddelande eller ett SMS-meddelande baserat på den här flerspråkiga mallen.
+Du kan nu skapa ett e-post eller SMS-meddelande baserat på den här flerspråkiga mallen.
 
 **Relaterade ämnen:**
 
