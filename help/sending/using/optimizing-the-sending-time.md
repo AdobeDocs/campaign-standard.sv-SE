@@ -11,21 +11,24 @@ topic-tags: sheduling-messages
 discoiquuid: 609355f6-9003-41b9-9981-ea787419fbf5
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+workflow-type: ht
+source-wordcount: '272'
+ht-degree: 100%
 
 ---
 
 
 # Optimera sändningstiden{#optimizing-the-sending-time}
 
-Om du vill förbättra öppningshastigheten för dina meddelanden kan du definiera en sändningstid per mottagare manuellt. Varje profil får meddelandet vid det angivna datumet och den angivna tidpunkten, när det är möjligt.
+Om du vill förbättra öppningsfrekvensen för dina meddelanden kan du definiera en sändningstid per mottagare manuellt. Varje profil får meddelandet vid det angivna datumet och den angivna tidpunkten, när det är möjligt.
 
 Du kan definiera en sändningstid på leveransnivå eller med ett arbetsflöde.
 
-Beroende på serverbelastningen och antalet försök att skicka e-postmeddelanden kommer det att göras bästa möjliga försök att skicka meddelandet på det datum och den tid som är schemalagd för varje mottagare.
+Beroende på serverbelastningen och antalet försök att skicka e-postmeddelanden, kommer bästa möjliga försök göras att skicka meddelandet på det datum och den tid som är schemalagd för varje mottagare.
 
-* Försöken beror på Internet-leverantören och ditt rykte. Meddelandet kanske inte godkänns vid det första försöket och flera försök kan göras. Se [Lista med e-postkanalsparametrar](../../administration/using/configuring-email-channel.md).
+* Försöken beror på Internet-leverantören och ditt rykte. Meddelandet kanske inte godkänns vid det första försöket och flera försök kan göras. Se [Lista över e-postkanalsparametrar](../../administration/using/configuring-email-channel.md).
 * Fördröjningar med att ta emot e-postmeddelandet kan uppstå på grund av otillräcklig bandbredd.
 
 Du kan visa när meddelandet skickades till varje mottagare i [sändningsloggarna](../../sending/using/monitoring-a-delivery.md#sending-logs).
@@ -34,11 +37,11 @@ Flera alternativ är tillgängliga:
 
 * **[!UICONTROL No optimization]**: Meddelanden skickas när användaren gör det.
 
-   Om tidszonen till exempel är GMT+1 och du anger 09:00 i **[!UICONTROL Start sending from]** fältet får en mottagare i tidszonen GMT+3 meddelandet kl. 11:00 lokal tid för den mottagaren.
+   Om tidszonen till exempel är GMT+1 och du anger 09.00 i **[!UICONTROL Start sending from]**-fältet får en mottagare i tidszonen GMT+3 meddelandet kl. 11.00 lokal tid för den mottagaren.
 
 * **[!UICONTROL Send at the recipient's time zone]**: Alla mottagare får meddelandet med deras tidszon i beaktande.
 
-   Om du till exempel anger 09:00 i **[!UICONTROL Start sending from]** fältet får en mottagare som finns i tidszonen GMT+3 meddelandet lokal tid 09:00 för den mottagaren.
+   Om du till exempel anger 09.00 i **[!UICONTROL Start sending from]**-fältet får en mottagare som finns i tidszonen GMT+3 meddelandet lokal tid 09.00 för den mottagaren.
 
    Se [Skicka meddelanden i mottagarens tidszon](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
 
