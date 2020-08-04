@@ -12,11 +12,11 @@ discoiquuid: d5312fcd-43ad-428e-bde9-90f062e9358c
 context-tags: exclusion,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '249'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -27,25 +27,25 @@ ht-degree: 0%
 
 ![](assets/exclusion.png)
 
-Med den här **[!UICONTROL Exclusion]** aktiviteten kan du utesluta element från en population enligt vissa kriterier.
+Med aktiviteten **[!UICONTROL Exclusion]** kan du utesluta element från en population enligt vissa kriterier.
 
 ## Kontext för användning {#context-of-use}
 
-Aktiviteten används i huvudsak för att utföra ytterligare filtrering på inkommande övergångspopulationer. **[!UICONTROL Exclusion]**
+Aktiviteten **[!UICONTROL Exclusion]** används främst för att utföra ytterligare filtrering på inkommande övergångspopulationer.
 
-En primär uppsättning definieras bland inkommande övergångar. Medlemmar i andra inkommande övergångar exkluderas från den primära uppsättningen. Utgående övergång för exkluderingsaktiviteten innehåller bara de medlemmar i den primära uppsättningen som inte påträffades i andra inkommande övergångar.
+En primär uppsättning definieras bland inkommande övergångar. Medlemmar i andra inkommande övergångar utesluts från den primära uppsättningen. Utgående övergång för uteslutningsaktiviteten innehåller bara de medlemmar i den primära uppsättningen som inte påträffades i andra inkommande övergångar.
 
 ## Konfiguration {#configuration}
 
-1. Dra och släpp en **[!UICONTROL Exclusion]** aktivitet i arbetsflödet.
+1. Dra och släpp en **[!UICONTROL Exclusion]**-aktivitet i arbetsflödet.
 1. Markera aktiviteten och öppna den sedan med knappen ![](assets/edit_darkgrey-24px.png) bland de snabbåtgärder som visas.
-1. Välj **[!UICONTROL Primary set]** bland de inkommande övergångarna. Detta är den uppsättning från vilken element utesluts. De andra uppsättningarna matchar element innan de exkluderas från den primära uppsättningen.
+1. Välj **[!UICONTROL Primary set]** bland de inkommande övergångarna. Detta är den uppsättning från vilken element utesluts. De andra uppsättningarna matchar element innan de utesluts från den primära uppsättningen.
 
    >[!NOTE]
    >
    >De inkommande övergångarna måste innehålla samma typ av population. Om den primära uppsättningen till exempel innehåller testprofiler måste de andra övergångarna även innehålla testprofiler.
 
-1. Hantera vid behov aktivitetens [övergångar](../../automating/using/activity-properties.md) för att komma åt de avancerade alternativen för den utgående populationen.
+1. Hantera vid behov aktivitetens [övergångar](../../automating/using/activity-properties.md) för åtkomst till de avancerade alternativen för den utgående populationen.
 1. Bekräfta aktivitetens konfiguration och spara arbetsflödet.
 
 ## Exempel {#example}
