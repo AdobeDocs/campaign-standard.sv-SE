@@ -15,55 +15,55 @@ translation-type: tm+mt
 source-git-commit: b43e6be265ff2d8ce357ef44672a755028e2e5af
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
 # E-poståtergivning{#email-rendering}
 
-Innan du klickar på **[!UICONTROL Send]** knappen måste du se till att meddelandet visas på ett optimalt sätt på en mängd olika webbklienter, webbmejl och enheter.
+Innan du klickar på knappen **[!UICONTROL Send]** måste du se till att meddelandet visas på ett optimalt sätt på en mängd olika webbklienter, webbmejl och enheter.
 
 Adobe Campaign hämtar återgivningen och gör den tillgänglig i en dedikerad rapport. På så sätt kan du förhandsgranska det skickade meddelandet i olika sammanhang där det kan tas emot.
 
-De mobil-, meddelande- och webbpostklienter som är tillgängliga för **e-poståtergivning** i Adobe Campaign finns listade på Litmus- [webbplatsen](https://litmus.com/email-testing) (klicka på **Visa alla e-postklienter**).
+De mobil-, meddelande- och webbpostklienter som är tillgängliga för **E-poståtergivning** i Adobe Campaign anges på Litmus-[webbplatsen](https://litmus.com/email-testing) (klicka på **Visa alla e-postklienter**).
 
-## Kontrollera rapporten för e-poståtergivning {#checking-the-email-rendering-report}
+## Kontrollera rapporten E-poståtergivning {#checking-the-email-rendering-report}
 
 När du har skapat e-postleveransen och definierat innehållet samt målpopulationen följer du stegen nedan.
 
-1. Klicka på **Målgrupp** för att öppna **[!UICONTROL Test profiles]** fliken.
+1. Klicka på **Målgrupp** för att öppna fliken **[!UICONTROL Test profiles]**.
 
    ![](assets/email_rendering_05.png)
 
-1. Använd frågeredigeraren för att definiera de testprofiler som du vill använda, inklusive testprofilerna som ska användas för **e-poståtergivning** . Se [Testprofiler](../../audiences/using/managing-test-profiles.md).
+1. Använd frågeredigeraren för att definiera de testprofiler som du vill använda, inklusive testprofilerna som ska användas för **E-poståtergivning**. Se [Testprofiler](../../audiences/using/managing-test-profiles.md).
 
    ![](assets/email_rendering_06.png)
 
 1. Kontrollera och bekräfta frågan och spara sedan ändringarna.
-1. Klicka på **[!UICONTROL Test]** knappen i åtgärdsfältet.
+1. Klicka på knappen **[!UICONTROL Test]** i åtgärdsfältet.
 
    ![](assets/email_rendering_07.png)
 
-1. Markera **[!UICONTROL Email rendering]** alternativet och klicka sedan på **[!UICONTROL OK]**.
+1. Markera alternativet **[!UICONTROL Email rendering]** och klicka sedan på **[!UICONTROL OK]**.
 
    ![](assets/email_rendering_08.png)
 
    >[!NOTE]
    >
-   >Med det här **[!UICONTROL Proof + Email rendering]** alternativet kan du skicka ett korrektur och använda e-poståtergivningsfunktionen samtidigt. Du kan få ditt meddelande godkänt av korrekturmottagarna och samtidigt testa hur meddelandet kommer att tas emot beroende på vilka inkorgar som används. I det här fallet måste du även välja Korrekturtestprofiler. Se [Testprofiler](../../audiences/using/managing-test-profiles.md).
+   >Med alternativet **[!UICONTROL Proof + Email rendering]** kan du både skicka en korrekturläsning och använda e-poståtergivningsfunktionen på en och samma gång. Du kan få ditt meddelande godkänt av korrekturmottagarna och samtidigt testa hur meddelandet tas emot beroende på vilka inkorgar som används. Då måste du även välja Korrekturtestprofiler. Se [Testprofiler](../../audiences/using/managing-test-profiles.md).
 
    Testleveransen skickas.
 
-1. Miniatyrbilderna för återgivning är tillgängliga några minuter efter att du har skickat meddelandena. Du öppnar dem genom att välja **[!UICONTROL Proofs]** i **[!UICONTROL Summary]** listrutan.
+1. Miniatyrbilderna för återgivning är tillgängliga några minuter efter att du har skickat meddelandena. Du öppnar dem genom att markera **[!UICONTROL Proofs]** i **[!UICONTROL Summary]**-listrutan.
 
    ![](assets/email_rendering_03.png)
 
-1. Klicka på **[!UICONTROL Proofs]** ikonen i **[!UICONTROL Access email rendering]** listan.
+1. Klicka på **[!UICONTROL Access email rendering]**-ikonen i **[!UICONTROL Proofs]**-listan.
 
    ![](assets/email_rendering_04.png)
 
-Den dedikerade återgivningsrapporten för e-post visas. Se [Rapportbeskrivning](#email-rendering-report-description)för återgivning via e-post.
+Den dedikerade återgivningsrapporten för e-post visas. Se [Beskrivning av rapport om e-poståtergivning](#email-rendering-report-description).
 
 **Relaterade ämnen**:
 
@@ -71,13 +71,13 @@ Den dedikerade återgivningsrapporten för e-post visas. Se [Rapportbeskrivning]
 * [Skicka korrektur](../../sending/using/sending-proofs.md)
 * [Frågeredigerare](../../automating/using/editing-queries.md#about-query-editor)
 
-## Beskrivning av rapport för e-poståtergivning {#email-rendering-report-description}
+## Beskrivning av rapport om e-poståtergivning {#email-rendering-report-description}
 
 I den här rapporten visas e-poståtergivningarna så som de visas för mottagaren. E-poståtergivningen kan variera beroende på hur mottagaren öppnar e-postleveransen: i en webbläsare, på en mobil enhet eller via ett e-postprogram.
 
 >[!NOTE]
 >
->Antalet tillgängliga återgivningar visas i licensavtalet. Varje leverans med **e-poståtergivning** aktiverat minskar antalet tillgängliga återgivningar (så kallade tokens) med ett.
+>Antalet tillgängliga återgivningar visas i licensavtalet. Varje leverans med **E-poståtergivning** aktiverat minskar antalet tillgängliga återgivningar (så kallade tokens) med ett.
 
 Rapportsammanfattningen visar antalet mottagna, oönskade (skräppost), ej mottagna eller väntande mottagningar.
 
