@@ -1,6 +1,6 @@
 ---
-title: Användningsexempel för utlösare för övergåenden
-description: Lär dig hur du använder Experience Cloud Triggers-integreringen med de här olika användningsfallen.
+title: Användningsexempel för avbrytningsutlösare
+description: Lär dig hur du använder Experience Cloud Triggers-integreringen med dessa olika användningsfall.
 page-status-flag: never-activated
 uuid: 9e236165-afd5-4155-9151-c1941dc0af99
 contentOwner: sauviat
@@ -11,22 +11,25 @@ topic-tags: working-with-campaign-and-triggers
 discoiquuid: 1b9aeec5-70bb-4d72-a3e9-12342abf08f7
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+workflow-type: ht
+source-wordcount: '993'
+ht-degree: 100%
 
 ---
 
 
-# Användningsexempel för utlösare för övergåenden{#abandonment-triggers-use-cases}
+# Användningsexempel för avbrytningsutlösare{#abandonment-triggers-use-cases}
 
-I det här avsnittet beskrivs olika användningsexempel som kan implementeras med hjälp av integreringen mellan Adobe Campaign och Experience Cloud Triggers. Du hittar två exempel på användningsområden:
+I det här avsnittet beskrivs olika användningsexempel som kan implementeras med hjälp av integreringen mellan Adobe Campaign och Experience Cloud Triggers.    Du hittar två exempel för användningsområden:
 
-* [Utlösare](#browse-abandonment-trigger)för bläddring: skicka ett meddelande till kunder som avbrutit sitt besök på er webbplats.
-* [Utlösare för](#search-abandonment-trigger)avbruten sökning: engagera besökare som gjort en sökning på er webbplats, men inte gjort något inköp.
+* [Utlösare för avbruten bläddring](#browse-abandonment-trigger): skicka ett meddelande till kunder som avbrutit sitt besök på din hemsida.
+* [Utlösare för avbruten sökning](#search-abandonment-trigger): engagera besökare som gjort en sökning på er webbplats men som inte har gjort något inköp.
 
 >[!NOTE]
 >
->De användningsfall som beskrivs i det här avsnittet är beroende av Experience Cloud Visitor ID. Det går också att implementera dem med Experience Cloud-deklarerat ID. Hash-kodade och krypterade deklarerade ID:n stöds också. Du kan skicka e-post/SMS till en profil som inte finns i Campaign genom att direkt dekryptera den krypterade e-postadressen/det krypterade mobilnumret. Men i det här fallet kan personalisering med hjälp av profildata inte användas.
+>De användningsfall som beskrivs i det här avsnittet är beroende av Experience Cloud Visitor ID.    Det går också att implementera dem med Experience Cloud Declared ID.    Hash-kodade och krypterade deklarerade ID:n stöds också.    Du kan skicka e-post/SMS till en profil som inte finns i Campaign genom att direkt dekryptera den krypterade e-postadressen/det krypterade mobilnumret.    Men i det här fallet kan personalisering med hjälp av profildata inte användas.
 
 ## Krav {#pre-requisites}
 
@@ -36,19 +39,19 @@ För att dessa användningsområden ska kunna implementeras måste du ha tillgå
 * Adobe Analytics Ultimate, Premium, Foundation, OD, Select, Prime, Mobile Apps, Select eller Standard.
 * Bastjänsten Experience Cloud-utlösare
 * Bastjänsten Experience Cloud DTM
-* Experience Cloud Visitor ID och Experience Cloud People - bastjänst
+* Bastjänsterna Experience Cloud Visitor ID och Experience Cloud People
 
-Du måste också ha en fungerande webbplats.
+Du måste även ha en fungerande hemsida.
 
 Mer information finns i [Konfigurera lösningar och tjänster](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services).
 
-## Bläddra efter utlösare för övergivna {#browse-abandonment-trigger}
+## Utlösare för avbruten bläddring {#browse-abandonment-trigger}
 
-I det här fallet ska vi skapa en enkel utlösare som aktiveras varje gång en kund avstår från ett besök på webbplatsen. I det här exemplet förutsätts det att du redan har DTM som samlar in och överför data till Adobe Analytics och har skapat alla händelser.
+I det här fallet ska vi skapa en enkel utlösare som aktiveras varje gång en kund avbryter ett besök på hemsidan.  I det här exemplet förutsätts det att du redan har DTM som samlar in och överför data till Adobe Analytics och har skapat alla händelser.
 
-### Skapa en Experience Cloud-utlösare {#creating-an-experience-cloud-trigger}
+### Skapa en Experience Cloud-utlösare{#creating-an-experience-cloud-trigger}
 
-1. Välj **[!UICONTROL Manage Triggers]** på menyn Experience Cloud Activation Core Service.
+1. Välj **[!UICONTROL Manage Triggers]** i Experience Cloud Activation Core Service-menyn.
 
    ![](assets/trigger_uc_browse_1.png)
 
@@ -56,40 +59,40 @@ I det här fallet ska vi skapa en enkel utlösare som aktiveras varje gång en k
 
    ![](assets/trigger_uc_browse_2.png)
 
-1. I det här fallet behöver vi en enkel utlösare för att överge. Affärssyftet är att identifiera besökare som bläddrar på vår webbplats för resebokning, tittar på sidan&quot;Erbjudanden&quot; men inte bokar någon resa. När vi har identifierat den här målgruppen vill vi nå tillbaka till dem inom en kort tidsperiod. I det här exemplet väljer vi att skicka utlösaren efter en period på 10 minuter.
+1. I det här fallet behöver vi en enkel avbrytningsutlösare.  Affärssyftet är att identifiera besökare som bläddrar på vår hemsida för resebokning, tittar på sidan &quot;Erbjudanden&quot; men inte bokar någon resa.  När vi har identifierat den här målgruppen vill vi höra av oss till dem inom en kort tidsperiod.  I det här exemplet väljer vi att skicka utlösaren efter en period på 10 minuter.
 
    ![](assets/trigger_uc_browse_3.png)
 
 ### Använda utlösaren i Adobe Campaign {#using-the-trigger-in-adobe-campaign}
 
-Nu när vi har skapat en Experience Cloud Trigger kan vi använda den i Adobe Campaign.
+Nu när vi har skapat en Experience Cloud-utlösare kan vi använda den i Adobe Campaign.
 
 I Adobe Campaign måste du skapa en utlösare länkad till den du skapade i Experience Cloud.
 
-1. Om du vill skapa utlösaren i Adobe Campaign klickar du på **[!UICONTROL Adobe Campaign]** logotypen i det övre vänstra hörnet och väljer sedan **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
+1. Om du vill skapa utlösaren i Adobe Campaign klickar du på logotypen **[!UICONTROL Adobe Campaign]** i det övre vänstra hörnet och väljer sedan **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
 
    ![](assets/remarketing_1.png)
 
 1. Klicka på **[!UICONTROL Create]**.
-1. Markera utlösaren som du skapade tidigare och klicka på **[!UICONTROL Next]**.
+1. Markera utlösaren som du tidigare skapade och klicka på **[!UICONTROL Next]**.
 
    ![](assets/trigger_uc_browse_5.png)
 
-1. Markera **[!UICONTROL Email]** kanalen och **[!UICONTROL Real-time event]** måldimensionen och klicka **[!UICONTROL Create]**.
+1. Markera **[!UICONTROL Email]**-kanalen och **[!UICONTROL Real-time event]** måldimensionen och klicka sedan **[!UICONTROL Create]**.
 
    ![](assets/trigger_uc_browse_6bis.png)
 
-1. Publicera utlösaren i Adobe Campaign. Den här processen skapar automatiskt en transaktionsmeddelandemall.
+1. Publicera utlösaren i Adobe Campaign.  Den här processen skapar automatiskt en mall för transaktionsmeddelanden.
 
    ![](assets/trigger_uc_browse_6.png)
 
-1. Om du vill visa meddelandemallen klickar du på **[!UICONTROL More]** knappen längst upp till höger och sedan på **[!UICONTROL Trigger Transactional Template]**.
+1. Om du vill visa meddelandemallen klickar du på knappen **[!UICONTROL More]** längst upp till höger och sedan på **[!UICONTROL Trigger Transactional Template]**.
 
 1. Anpassa innehållet och avsändarinformationen.
 
    ![](assets/trigger_uc_browse_8.png)
 
-1. Publicera meddelandemallen. Utlösaren är nu aktiv och funktionell.
+1. Publicera meddelandemallen.  Utlösaren är nu aktiv och i funktion.
 
    ![](assets/trigger_uc_browse_0.png)
 
@@ -103,15 +106,15 @@ I Adobe Campaign måste du skapa en utlösare länkad till den du skapade i Expe
 
    ![](assets/trigger_uc_browse_10.png)
 
-1. Han klickar på en länk som för honom till er webbplats. I det här exemplet placerar banderollen mottagaren på startsidan för resebokningswebbplatsen.
+1. Mottagaren klickar på en länk som för mottagaren till din hemsida.  I det här exemplet placerar banderollen mottagaren på startsidan för resebokningssidan.
 
    ![](assets/trigger_uc_browse_11.png)
 
-1. Mottagaren går till sidan&quot;Erbjudanden&quot; men stannar plötsligt upp. Efter en 10-minutersperiod utlöser Adobe Campaign sändningen av transaktionsmeddelandet.
+1. Mottagaren går till sidan &quot;Erbjudanden&quot; men avbryter plötsligt sitt besök. Efter en 10-minutersperiod så utlöser Adobe Campaign sändningen av transaktionsmeddelandet.
 
    ![](assets/trigger_uc_browse_12.png)
 
-1. Du kan när som helst kontrollera Experience Cloud-loggarna för att se hur många gånger utlösaren utlöses.
+1. Du kan när som helst kontrollera Experience Cloud-loggarna för att se hur många gånger utlösaren utlöstes.
 
    ![](assets/trigger_uc_browse_13.png)
 
@@ -121,46 +124,46 @@ I Adobe Campaign måste du skapa en utlösare länkad till den du skapade i Expe
 
 ## Utlösare för avbruten sökning {#search-abandonment-trigger}
 
-I det här fallet kommer vi att skapa en utlösare för att återengagera besökare som var på vår bokningswebbplats, sökte efter en destination, hittade inga framgångsrika resultat och bokade ingenting efter det. Den allmänna processen är densamma som i det föregående användningsfallet (se [Bläddra efter utlösare](#browse-abandonment-trigger)för övergiven åtgärd). Här fokuserar vi på hur vi personaliserar e-postmeddelandet om återmarknadsföring.
+I det här fallet kommer vi att skapa en utlösare för att återengagera besökare som var på vår hemsida för bokningar och sökte efter en destination utan att få några framgångsrika resultat och därför avbröt besöket. Den allmänna processen är densamma som i det föregående användningsfallet (se [Utlösare för avbruten bläddring](#browse-abandonment-trigger)).  Här fokuserar vi på hur vi personaliserar e-postmeddelanden om återmarknadsföring.
 
-### Skapa en Experience Cloud-utlösare {#creating-an-experience-cloud-trigger-1}
+### Skapa en Experience Cloud-utlösare{#creating-an-experience-cloud-trigger-1}
 
-Följ stegen som beskrivs i det föregående användningsexemplet för att skapa Experience Cloud Trigger. Se [Skapa en Experience Cloud-utlösare](#creating-an-experience-cloud-trigger). Den största skillnaden är utlösardefinitionen.
+Följ stegen som beskrivs i det föregående användningsexemplet för att skapa en Experience Cloud-utlösare.  Se [Skapa en Experience Cloud-utlösare](#creating-an-experience-cloud-trigger).  Den största skillnaden är utlösardefinitionen.
 
 ![](assets/trigger_uc_search_1.png)
 
-I det här avsnittet kan du skicka alla data som samlats in från Analytics till utlösarens nyttolast. **[!UICONTROL Include Meta Data]** I det här exemplet skapar vi en anpassad eVar (till exempel eVar 3) för att samla in söktermen som besökaren anger. Den här termen används sedan i det transaktionsbaserade e-postmeddelandet som skickas till samma besökare.
+I det här **[!UICONTROL Include Meta Data]** avsnittet kan du skicka all data som samlats in från Analytics till utlösaren.  I det här exemplet skapar vi en anpassad eVar (till exempel eVar 3) för att samla in söktermen som besökaren anger.  Den här termen används sedan i det transaktionsbaserade e-postmeddelandet som skickas till samma besökare.
 
 ### Använda utlösaren i Adobe Campaign {#using-the-trigger-in-adobe-campaign-1}
 
-1. Följ stegen som beskrivs i det föregående användningsexemplet för att skapa utlösaren i Adobe Campaign. Se [Använda utlösaren i Adobe Campaign](#using-the-trigger-in-adobe-campaign). Den största skillnaden är hur vi i Adobe Campaign får åtkomst till och använder de metadata som knuffas in i utlösarens nyttolast.
-1. Klicka på ikonen i den utlösare för sökbortfall som du skapade i Adobe Campaign för att visa den nyttolast som har skickats till Adobe Campaign. **[!UICONTROL Event content and enrichment]**
+1. Följ stegen som beskrivs i det föregående användningsexemplet för att skapa utlösaren i Adobe Campaign.  Se [Använda utlösaren i Adobe Campaign](#using-the-trigger-in-adobe-campaign).  Den största skillnaden är hur vi i Adobe Campaign får åtkomst till och använder den metadata som lagts in i utlösarens nyttolast.
+1. Klicka på ikonen i den utlösare för avbruten sökning som du skapade i Adobe Campaign för att visa den som har skickats till Adobe Campaign. **[!UICONTROL Event content and enrichment]**
 
    ![](assets/trigger_uc_search_2.png)
 
-1. Som du kan se skickas den anpassade eVar-variabeln i utlösarnyttolasten och mappas till **händelsekontexttabellen** (ctx). Vi har nu tillgång till den för att personalisera transaktionsmeddelandet.
+1. Som du kan se skickas den anpassade eVar-variabeln i utlösaren och mappas till **händelsekontexttabellen** (ctx).  Vi har nu tillgång till den för att personalisera transaktionsmeddelandet.
 
    ![](assets/trigger_uc_search_3.png)
 
-1. I det här exemplet väljer vi att inkludera målsöktermen i ämnesraden och i e-postbrödtexten.
+1. I det här exemplet väljer vi att inkludera målsöktermen i ämnesraden och i brödtexten i e-postmeddelandet.
 
    ![](assets/trigger_uc_search_4.png)
 
-1. När du väljer ett anpassat fält ska du leta efter dina nyttolastmetadata i tabellen **Transactional event** (rtEvent) och sedan i undertabellen **Event context** (ctx).
+1. När du väljer ett anpassat fält ska du leta efter dina metadata i tabellen **Transaktionella event** (rtEvent) och sedan i undertabellen **Kontext för event** (ctx).
 
    ![](assets/trigger_uc_search_5.png)
 
 ### Kör scenariot {#running-the-scenario-1}
 
-1. Besökaren går vidare till resebokningswebbplatsen och söker efter en destination. I det här exemplet letar besökaren efter en resa till Japan men hittar inget resultat. Det här är en möjlighet för oss att nå tillbaka till besökaren och rekommendera en alternativ reseplan.
+1. Besökaren går vidare till resebokningshemsidan och söker efter en destination.  I det här exemplet letar besökaren efter en resa till Japan men hittar inget resultat.  Det här är en möjlighet för oss att nå tillbaka till besökaren och rekommendera en alternativ reseplan.
 
    ![](assets/trigger_uc_search_6.png)
 
    >[!NOTE]
    >
-   >I det här fallet antar vi att besökaren/mottagaren redan har öppnat och klickat på ett e-postmeddelande som kommer från samma webbplats. Detta gör att vi kan använda och samla in VisitorID och mappa det till mottagaren. Vi behöver bara göra detta en gång.
+   >I det här fallet antar vi att besökaren/mottagaren redan har öppnat och klickat på ett e-postmeddelande som kommer från samma hemsida.  Detta gör att vi kan använda oss av och samla in VisitorID och mappa det till mottagaren.  Vi behöver bara göra detta en gång.
 
-1. En stund senare får samma besökare/mottagare ett meddelande om återmarknadsföring. Meddelandet innehåller det nyligen sökta målet.
+1. En stund senare får samma besökare/mottagare ett meddelande om återmarknadsföring.  Meddelandet innehåller den nyligen sökta destinationen.
 
    ![](assets/trigger_uc_search_7.png)
 
