@@ -12,8 +12,11 @@ discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+workflow-type: ht
+source-wordcount: '268'
+ht-degree: 100%
 
 ---
 
@@ -22,31 +25,31 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 >[!CAUTION]
 >
->När du ändrar ett leveransschema måste du förbereda leveransen på nytt genom att klicka på **Förbered** innan du klickar på **Bekräfta**.
+>När du ändrar ett leveransschema så måste du förbereda leveransen på nytt genom att klicka på **Förbered**-knappen innan du klickar **Bekräfta**.
 
-I meddelandekontrollpanelen kan du definiera när meddelanden (e-post, SMS eller push-meddelanden) ska skickas med blocket **[!UICONTROL Schedule]** .
+I **[!UICONTROL Schedule]**-delen av kontrollpanelen för meddelanden kan du definiera när meddelanden (e-post, SMS eller push-meddelanden) ska skickas.
 
 ![](assets/delivery_dashboard.png)
 
-Med **[!UICONTROL Schedule]** egenskaperna kan du ange sändningsalternativ för e-postmeddelanden, SMS eller push-meddelanden:
+Med **[!UICONTROL Schedule]**-egenskaperna kan du ange sändningsalternativ för e-postmeddelanden, SMS eller push-meddelanden:
 
-* **[!UICONTROL Messages to be sent once confirmed]**: meddelanden skickas så snart som sändningen har bekräftats. Se [Bekräfta sändningen](../../sending/using/confirming-the-send.md).
+* **[!UICONTROL Messages to be sent once confirmed]**: meddelanden skickas så snart som sändningen har bekräftats.    Se [Bekräfta sändningen](../../sending/using/confirming-the-send.md).
 
    ![](assets/delivery_planning_1.png)
 
-* **[!UICONTROL Messages to be sent automatically on the date specified below]**: meddelanden skickas vid ett senare datum och vid ett senare tillfälle. Ange **kontaktdatum** i fältet **Börja skicka från** .
+* **[!UICONTROL Messages to be sent automatically on the date specified below]**: meddelanden skickas vid ett senare datum och tid.  Ange **kontaktdatum** i fältet **Börja skicka från och med**.
 
-   Du kan förbereda och bekräfta sändningen, men meddelanden skickas endast med början av det valda datumet och den valda tiden. Förberedelser och bekräftelse av sändning presenteras i [Förbereda sändning](../../sending/using/preparing-the-send.md) och [Bekräfta sändning](../../sending/using/confirming-the-send.md) .
+   Du kan förbereda och bekräfta sändningen men meddelanden kommer endast skickas med start vid den valda tiden och datumet.        Förberedning och bekräftelse av sändning presenteras i [Förbered sändning](../../sending/using/preparing-the-send.md) och [Bekräfta sändning](../../sending/using/confirming-the-send.md).
 
-   I den **[!UICONTROL Time zone of the contact date]** nedrullningsbara listan kan du ändra den tidszon som ska beaktas för sändningstiden. Om du till exempel anger 09.00 i **[!UICONTROL Start sending from]** fältet och väljer Bryssel, Köpenhamn, Madrid, Paris (GMT+1) i **[!UICONTROL Time zone of the contact date]** listrutan får alla mottagare meddelandet 09.00 i Paris. Därför kommer en mottagare i Moskva (GMT+3) att få meddelandet kl. 11.00 i Moskva.
+   I rullgardinslistan **[!UICONTROL Time zone of the contact date]** kan du ändra den tidszon som ska beaktas för sändningstiden.                                                                Om du till exempel anger 09:00 i **[!UICONTROL Start sending from]**-fältet och väljer Bryssel, Köpenhamn, Madrid, Paris (GMT+1) i **[!UICONTROL Time zone of the contact date]**-listan får alla mottagare meddelandet 09:00 Paris-tid.                                Därför kommer en mottagare i Moskva (GMT+3) att få meddelandet kl. 11:00 Moskva-tid.
 
-   Om du vill bekräfta sändningen manuellt markerar du **[!UICONTROL Request confirmation before sending messages]** alternativet. Det här alternativet är aktiverat som standard.
+   Om du vill bekräfta sändningen manuellt så markerar du **[!UICONTROL Request confirmation before sending messages]**-alternativet.    Det här alternativet är aktiverat som standard.
 
    ![](assets/delivery_planning.png)
 
 >[!CAUTION]
 >
->När en leverans dupliceras tas alla schemainställningar bort. Såvida du inte schemalägger ett nytt kontaktdatum, skickas den duplicerade leveransen så snart som sändningen har bekräftats.
+>När en leverans dupliceras tas alla schemainställningar bort.        Såvida du inte schemalägger ett nytt kontaktdatum skickas den duplicerade leveransen så snart som sändningen har bekräftats.
 
 **Relaterade ämnen**:
 
