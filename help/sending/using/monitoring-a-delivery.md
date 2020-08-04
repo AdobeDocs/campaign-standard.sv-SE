@@ -1,6 +1,6 @@
 ---
 title: Övervaka en leverans i Adobe Campaign Standard
-description: Upptäck hur ni övervakar en leverans i Adobe Campaign Standard.
+description: Upptäck hur du övervakar en leverans i Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: 7772c607-debd-40fd-8322-4d49119979b4
 contentOwner: sauviat
@@ -12,33 +12,36 @@ discoiquuid: eb9fa216-4568-423a-9396-8f7b82181ae9
 context-tags: delivery,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54612511de07edc3e6f3eea34ef095c26b35f4af
+workflow-type: ht
+source-wordcount: '412'
+ht-degree: 100%
 
 ---
 
 
-# Övervaka leverans{#monitoring-a-delivery}
+# Övervaka en leverans{#monitoring-a-delivery}
 
-Det finns flera sätt att övervaka en leverans och mäta dess effekt:
+Det finns flera sätt att övervaka en leverans och mäta dess påverkan:
 
-* **Meddelandeloggar**: Loggarna kan nås direkt från meddelandekontrollpanelen. De visar detaljerna för utskicket, vilket mål som har uteslutits och varför samt spårningsinformation som öppningar och klick.
+* **Meddelandeloggar**: Loggarna kan hittas direkt i meddelandepanelen. De visar detaljerna för utskicket, vilket eller vilka mål som har uteslutits och varför de har uteslutits. De visar även spårningsinformation som exempelvis öppningar och klick.
 
-   Om du vill visa meddelandeloggarna klickar du på ikonen längst ned till höger i **[!UICONTROL Deployment]** blocket.
+   Om du vill visa meddelandeloggarna klickar du på ikonen längst ned till höger i **[!UICONTROL Deployment]**-sektionen.
 
-   Flera flikar innehåller information (om den finns) om **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]** och **[!UICONTROL Tracking logs]** **[!UICONTROL Tracked URLs]**. Se [Leveransloggar](#delivery-logs).
+   Flera flikar innehåller information (om de finns) gällande **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]** och **[!UICONTROL Tracking logs]****[!UICONTROL Tracked URLs]**.    Se [Leveransloggar](#delivery-logs).
 
    ![](assets/sending_delivery1.png)
 
-   Loggen innehåller alla meddelanden som rör leveransen och korrekturet. Med specifika ikoner kan du identifiera fel eller varningar. Mer information finns i [Godkänna meddelanden](../../sending/using/previewing-messages.md).
+   Loggen innehåller alla meddelanden som har levererats eller testutskickats.  Med specifika ikoner kan du identifiera fel eller varningar.    Mer information finns i [Godkänna meddelanden](../../sending/using/previewing-messages.md).
 
-   Du kan exportera loggen genom att klicka på **[!UICONTROL Export list]** knappen.
+   Du kan exportera loggen genom att klicka på **[!UICONTROL Export list]**-knappen.
 
    ![](assets/sending_delivery2.png)
 
-* **Leveransmeddelanden**: För att hålla reda på leveransframgångar eller leveransfel tillhandahåller Adobe Campaign ett e-postvarningssystem som skickar meddelanden till användarna om viktiga systemaktiviteter.
-* **Rapporter**: Från meddelandekontrollpanelen kan du få åtkomst till flera rapporter för det här specifika meddelandet. Du har också en **[!UICONTROL Reports]** meny där du kan få tillgång till en komplett lista med inbyggda eller anpassade rapporter som du kan använda för att skapa konturer för specifika mätvärden som är relaterade till ditt meddelande eller din kampanj.
-* En administratör kan också exportera loggar i en separat fil som kan bearbetas i dina egna rapporterings- eller BI-verktyg. Mer information finns i [Exportera loggar](../../automating/using/exporting-logs.md).
+* **Leveransmeddelanden**: För att hålla koll på framgångar eller fel i leveranser så tillhandahåller Adobe Campaign ett varningssystem för e-post som skickar meddelanden till användarna gällande viktiga systemaktiviteter.
+* **Rapporter**: Från meddelandepanelen kan du få åtkomst till flera rapporter för det specifika meddelandet.    Du har också en **[!UICONTROL Reports]**-meny där du kan få tillgång till en komplett lista med inbyggda eller anpassade rapporter som du kan använda för att skapa mätvärden som är relaterade till ditt meddelande eller din kampanj.
+* En administratör kan också exportera loggar i en separat fil som kan bearbetas i dina egna rapporterings- eller BI-verktyg.  Mer information finns att hitta i [Exportera loggar](../../automating/using/exporting-logs.md).
 
 **Relaterade ämnen:**
 
@@ -49,32 +52,32 @@ Det finns flera sätt att övervaka en leverans och mäta dess effekt:
 
 ### Skicka loggar {#sending-logs}
 
-På fliken **[!UICONTROL Sending logs]** visas en historik över alla förekomster av leveransen. Listan över skickade meddelanden och deras status lagras här. Du kan visa leveransstatus för varje mottagare.
+Under fliken **[!UICONTROL Sending logs]** visas en historik över alla förekomster av leveransen.        Listan med skickade meddelanden och deras status lagras här.        Du kan visa leveransstatus för varje mottagare.
 
-För varje profil med **[!UICONTROL Sent]** status visas **[!UICONTROL Date]** kolumnen när meddelandet skickades.
+För varje profil med **[!UICONTROL Sent]**-status visas **[!UICONTROL Date]**-kolumnen när meddelandet skickades.
 
 ![](assets/sending_delivery3.png)
 
-Klicka på pennikonen till höger om motsvarande rad om du vill visa information om en viss sändningslogg.
+Klicka på penn-ikonen till höger om motsvarande rad om du vill visa information om en viss sändningslogg.
 
 ![](assets/sending_access-sending-log.png)
 
-Alla avsändande loggdetaljer är skrivskyddade. Du kan också se en förhandsvisning av spegelsidan.
+Alla loggdetaljer för sändningar är skrivskyddade.  Du kan också se en förhandsvisning av spegelsidan.
 
 ![](assets/sending_sending-log.png)
 
 >[!NOTE]
 >
->Om du vill visa återgivning av spegelsidan i användargränssnittet för Campaign måste URL:en för spegelsidservern vara säker. I så fall använder du https:// i stället för http:// för att konfigurera den här URL:en när du [konfigurerar varumärket](../../administration/using/branding.md#configuring-and-using-brands).
+>Om du vill visa spegelsidan i användargränssnittet för Kampanjer så måste URL:en för spegelsideservern vara säker.  I sådana fall använder du https:// i stället för http:// för att konfigurera den här URL:en när du [konfigurerar ditt varumärke](../../administration/using/branding.md#configuring-and-using-brands).
 
 ### Uteslutningsloggar {#exclusion-logs}
 
-På **[!UICONTROL Exclusion logs]** fliken visas alla meddelanden som har uteslutits från det skickade målet och orsaken till sändningsfelet anges.
+Under fliken **[!UICONTROL Exclusion logs]** visas alla meddelanden som har uteslutits från det skickade målet och orsaken för detta.
 
 ![](assets/sending_delivery4.png)
 
 ### Uteslutningsorsaker {#exclusion-causes}
 
-På fliken **[!UICONTROL Exclusion causes]** visas volymen (i antal meddelanden) för meddelanden som har uteslutits från målsändningen.
+Under fliken **[!UICONTROL Exclusion causes]** visas volymen (i antal meddelanden) för meddelanden som har uteslutits från sändningsmålet.
 
 ![](assets/sending_delivery5.png)
