@@ -1,6 +1,6 @@
 ---
 title: Mallar för landningssidor
-description: Läs mer om landningssidmallar.
+description: Läs mer om mallar för landningssidor.
 page-status-flag: never-activated
 uuid: b316bf47-7d98-46fa-ab4f-67ff50de8095
 contentOwner: lemaitre
@@ -16,31 +16,31 @@ translation-type: tm+mt
 source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
 workflow-type: tm+mt
 source-wordcount: '233'
-ht-degree: 0%
+ht-degree: 93%
 
 ---
 
 
 # Om mallar för landningssidor {#landing-page-templates}
 
-Campaign innehåller en uppsättning inbyggda mallar för landningssidor:
+Campaign har en uppsättning inbyggda mallar för landningssidor:
 
-* **[!UICONTROL Acquisition]**: det här är standardmallen för landningssidor, som gör att du kan hämta och uppdatera data i Campaign-databasen.
-* **[!UICONTROL Subscription]**: den här mallen ska användas för att erbjuda prenumerationer på en tjänst.
-* **[!UICONTROL Unsubscription]**: den här mallen kan länkas från ett e-postmeddelande som skickas till prenumeranter på en tjänst, så att de kan avbryta prenumerationen på tjänsten.
-* **[!UICONTROL Block list]**: den här mallen ska användas när en profil inte längre vill bli kontaktad av Campaign. Mer information om hantering av blockeringslistor finns i [Om deltagande och avanmälan i Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+* **[!UICONTROL Acquisition]**: Det här är standardmallen för landningssidor, som gör att du kan hämta och uppdatera data i Campaign-databasen.
+* **[!UICONTROL Subscription]**: Den här mallen ska användas för att erbjuda prenumerationer på en tjänst.
+* **[!UICONTROL Unsubscription]**: Den här mallen kan kopplas från ett e-postmeddelande som skickas till prenumeranter till en tjänst, så att de kan avbryta prenumerationen på tjänsten.
+* **[!UICONTROL Block list]**: Den här mallen ska användas när en profil inte längre vill bli kontaktad av Campaign. For more about block list management, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 Dessa mallar föreslås som standard när en ny landningssida skapas.
 
 ![](assets/lp_creation_1.png)
 
-Om du vill komma åt landningssidmallar klickar du på Adobe Campaign-logotypen i det övre vänstra hörnet och väljer **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Landing page templates]**.
+Om du vill ha åtkomst till mallar för landningssidor klickar du på Adobe Campaign-logotypen i det övre vänstra hörnet och väljer **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Landing page templates]**.
 
 >[!NOTE]
 >
->Adobe rekommenderar att du skapar egna mallar genom att duplicera en inbyggd mall. Vissa parametrar kan bara anges i landningssidmallar och kan inte ändras direkt på landningssidor.
+>Adobe rekommenderar att du skapar egna mallar genom att duplicera en inbyggd mall. Vissa parametrar kan bara anges i mallar för landningssidor och kan inte ändras direkt på landningssidor.
 
-När du skapar en mall rekommenderar vi att du lägger till ett **&#39;type&#39;** -attribut till taggar. Den här informationen bearbetas av redigeraren och hjälper användaren att länka ett databasfält till formulärfältet när webbprogrammet konfigureras.
+När du skapar en mall rekommenderar vi att du lägger till ett **&quot;type&quot;**-attribut till taggar. Den här informationen bearbetas av redigeraren och hjälper användaren att koppla ett databasfält till formulärfältet när webbprogrammet konfigureras.
 
 Exempel på HTML-kod i mallen:
 
@@ -48,4 +48,4 @@ Exempel på HTML-kod i mallen:
 <input id="email" type="email" name="email"/>
 ```
 
-Den officiella listan med type-attribut finns på följande adress: [https://www.w3schools.com/tags/att_input_type.asp](https://www.w3schools.com/tags/att_input_type.asp)
+Den officiella listan med &quot;type&quot;-attribut finns på följande adress: [https://www.w3schools.com/tags/att_input_type.asp](https://www.w3schools.com/tags/att_input_type.asp)
