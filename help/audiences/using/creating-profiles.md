@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
 workflow-type: tm+mt
 source-wordcount: '367'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -30,11 +30,11 @@ Om du vill skapa eller uppdatera en profil i Campaign kan du:
 * Samla in data online via [landningssidor](../../channels/using/getting-started-with-landing-pages.md)
 * Skapa bulk via [REST API](../../api/using/get-started-apis.md)
 * Synkronisera profiler från [Microsoft Dynamics](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-* Ange data med hjälp av de grafiska gränssnittsskärmarna, vilket förklaras nedan
+* Ange data med hjälp av de grafiska gränssnittsskärmarna som förklaras nedan
 
-Om du till exempel vill skapa en ny profil direkt i användargränssnittet följer du stegen nedan:
+Om du exempelvis vill skapa en ny profil direkt i användargränssnittet följer du stegen nedan:
 
-1. På hemsidan för Adobe Campaign klickar du på **kundprofilkortet** eller fliken **Profiler** för att få tillgång till listan med profiler.
+1. På Adobe Campaign hemsida klickar du på **kortet för kundprofilen** eller fliken **Profiler** för att få tillgång till listan med profiler.
 
    ![](assets/profile_creation_1.png)
 
@@ -46,13 +46,13 @@ Om du till exempel vill skapa en ny profil direkt i användargränssnittet följ
 
    ![](assets/profile_creation1.png)
 
-   * Kontaktinformationen, t.ex. förnamn, efternamn, kön, födelsedatum, foto, föredraget språk (för [flerspråkiga e-postmeddelanden](../../channels/using/creating-a-multilingual-email.md)) hjälper till att personalisera leveranser bättre.
-   * Profilens **[!UICONTROL Time zone]** används för att skicka leveranser i profilens tidszon. For more on this, refer to this [section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
-   * I **[!UICONTROL Channels]** kategorin, som innehåller e-postadress, mobiltelefonnummer och avanmälningsinformation, kan du se vilken kanal profilen kan nås från.
-   * Kategorin uppdateras så snart **[!UICONTROL No longer contact]** profilen avbeställer en kanal.
-   * Kategorin innehåller **[!UICONTROL Address]** den postadress som måste fyllas i tillsammans med **[!UICONTROL Address specified]** alternativet att skicka [direktreklam](../../channels/using/about-direct-mail.md) till den här profilen. Om **[!UICONTROL Address specified]** alternativet inte är markerat utesluts den här profilen från all direktreklam.
-   * Kategorin anger **[!UICONTROL Access authorization]** profilens organisationsenheter (för att [hantera behörigheter](../../administration/using/about-access-management.md)). Se även [Partitionsprofiler](../../administration/using/organizational-units.md#partitioning-profiles).
-   * Kategorin uppdateras automatiskt **[!UICONTROL Traceability]** med information om den användare som skapade eller ändrade profilen.
+   * Kontaktinformationen som exempelvis förnamn, efternamn, kön, födelsedatum, foto, föredraget språk (för [flerspråkiga e-postmeddelanden](../../channels/using/creating-a-multilingual-email.md)) hjälper till att bättre personalisera leveranser.
+   * Profilens **[!UICONTROL Time zone]** används för att skicka leveranser i profilens tidszon.  Mer information om detta hittar du i det här [avsnittet](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
+   * I kategorin **[!UICONTROL Channels]** som innehåller e-postadress, mobiltelefonnummer och avanmälningsinformation kan du se via vilken kanal profilen kan nås.
+   * Kategorin uppdateras så snart som **[!UICONTROL No longer contact]** profilen avprenumererar från en kanal.
+   * Kategorin innehåller **[!UICONTROL Address]** den postadress som måste fyllas i tillsammans med **[!UICONTROL Address specified]** alternativet att skicka [direktmeddelanden](../../channels/using/about-direct-mail.md) till den här profilen.  Om alternativ **[!UICONTROL Address specified]** inte är markerat utesluts den här profilen från alla direktmeddelanden.
+   * **[!UICONTROL Access authorization]**-kategorin anger profilens organisationsenheter (för att [hantera behörigheter](../../administration/using/about-access-management.md)).  Se även [Partitionsprofiler](../../administration/using/organizational-units.md#partitioning-profiles).
+   * **[!UICONTROL Traceability]**-kategorin uppdateras automatiskt med information om den användare som skapade eller ändrade profilen.
 
 1. Klicka **[!UICONTROL Create]** för att spara profilen.
 
@@ -60,13 +60,13 @@ Profilen visas nu i listan.
 
 >[!NOTE]
 >
->Det går också att skapa profiler med API:t för Adobe Campaign Standard. Mer information finns i den [dedikerade dokumentationen](../../api/using/creating-profiles.md).
+>Det går även att skapa profiler med API:n för Adobe Campaign Standard.  Mer information om detta hittar du i den [dedikerade dokumentationen](../../api/using/creating-profiles.md).
 
-Profiler kan också partitioneras beroende på deras organisationsenheter. Om du vill lägga till organisationsfält i dina profiler, se avsnittet [Partitionsprofiler](../../administration/using/organizational-units.md#partitioning-profiles) .
+Profiler kan också partitioneras beroende på deras organisationsenheter.  Om du vill lägga till fält för organisation i dina profiler, se avsnittet [Partitionsprofiler](../../administration/using/organizational-units.md#partitioning-profiles) .
 
 >[!NOTE]
 >
->Det önskade språkfältet används för att välja språk när flerspråkiga meddelanden skickas. Mer information om de flerspråkiga meddelandena [finns på den här sidan](../../channels/using/creating-a-multilingual-email.md).
+>Det önskade språkfältet används för att välja språk när flerspråkiga meddelanden skickas.  Mer information om de flerspråkiga meddelandena [finns på den här sidan](../../channels/using/creating-a-multilingual-email.md).
 
 **Relaterade ämnen:**
 
