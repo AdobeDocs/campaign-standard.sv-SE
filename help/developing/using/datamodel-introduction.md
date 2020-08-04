@@ -1,6 +1,6 @@
 ---
 title: Introduktion till datamodell
-description: Läs mer om datamodellen i Adobe Campaign.
+description: Läs mer om datamodell i Adobe Campaign.
 uuid: cacd563f-6936-4b3e-83e3-5d4ae31d44e8
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
@@ -10,8 +10,11 @@ discoiquuid: 4e0468da-3052-4ce5-8174-45aba1f5c4ed
 context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
+workflow-type: ht
+source-wordcount: '142'
+ht-degree: 100%
 
 ---
 
@@ -22,12 +25,12 @@ Adobe Campaign innehåller en fördefinierad datamodell.
 
 Datamodellen i Adobe Campaign Standard visar den inbyggda SQL-strukturen för en uppsättning marknadsföringsrelaterade resurser.
 
-Det här avsnittet är avsett för Campaign-experter eller -utvecklare.
+Det här avsnittet är avsett för Campaign-experter eller utvecklare.
 
-För varje resurs hittar du en tabell som listar SQL-fälten med tillgängliga egenskaper, som: internt namn, typ och uppräkningsinformation. Inbyggda filter som är kopplade till resursen visas också. Varje filter har sin parameterlista.
+För varje resurs hittar du en tabell som listar SQL-fälten med tillgängliga egenskaper som exempelvis internt namn, typ och uppräkningsinformation.  Inbyggda filter som är kopplade till resursen visas också.  Varje filter har en parameterlista.
 
 >[!NOTE]
->Kampanjdatamodellen kan bara ändras av [administratörer](../../administration/using/users-management.md#functional-administrators) .
+>Datamodellen för kampanjer kan endast ändras av [administratörer](../../administration/using/users-management.md#functional-administrators) .
 
 ## Relaterade ämnen{#data-model-related}
 
