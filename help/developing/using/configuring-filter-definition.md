@@ -1,5 +1,5 @@
 ---
-title: Konfigurerar filterdefinition
+title: Konfigurering av filterdefinition
 description: Identifiera filterfunktionen för att hantera stora datauppsättningar.
 page-status-flag: never-activated
 uuid: c9db95fe-e9aa-40f8-9c0a-e74bb21ac14b
@@ -16,47 +16,47 @@ translation-type: tm+mt
 source-git-commit: cabe064632c9c2e3de93bc1cff6fa217b4fdf3e6
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 0%
+ht-degree: 95%
 
 ---
 
 
-# Konfigurerar filterdefinition{#configuring-filter-definition}
+# Konfigurering av filterdefinition{#configuring-filter-definition}
 
-På fliken **[!UICONTROL Filter definition]** kan du skapa avancerade filter som användare kan komma åt direkt när de skapar komplexa frågor, till exempel när de definierar en målgrupp.
+Under **[!UICONTROL Filter definition]**-fliken kan du skapa avancerade filter som användare kan komma åt direkt när de skapar komplexa frågor, till exempel när de definierar en målgrupp.
 
-Det här steget är inte obligatoriskt eftersom du fortfarande kan fylla i resursen och komma åt dess data via arbetsflöden, målgrupper och REST API.
+Det här steget är inte obligatoriskt eftersom du fortfarande kan fylla i resursen och komma åt datan via arbetsflöden, målgrupper och REST API.
 
 ![](assets/custom_resource_filter-definition.png)
 
-Dessa filter används i frågeredigeraren i form av förkonfigurerade regler. Med dem kan du begränsa antalet steg som krävs för att få önskad konfiguration, vilket kan vara särskilt bra för upprepad segmentering.
+Dessa filter används i förfrågningsredigeraren i form av förkonfigurerade regler.  Med dessa kan du begränsa antalet steg som krävs för att få önskad konfiguration, vilket kan vara särskilt bra för upprepade segmenteringar.
 
-Du kan till exempel skapa ett filter som gör det möjligt att markera alla transaktioner som är större än ett visst belopp under de senaste tre månaderna.
+Du kan till exempel skapa ett filter som gör det möjligt att markera alla transaktioner som är större än ett visst belopp från de senaste tre månaderna.
 
-För att kunna göra detta måste du utöka **[!UICONTROL Profiles]** resursen och definiera ett filter som länkar till en transaktionstabell (som du tidigare har skapat) med en regel som anger att transaktionspriset måste vara större än eller lika med en given parameter och att transaktionsdatumet måste ligga inom ett intervall som motsvarar de senaste tre månaderna.
+För att kunna göra detta måste du utöka **[!UICONTROL Profiles]**-resursen och definiera ett filter som länkar till en transaktionstabell (som du tidigare har skapat), med en regel som anger att transaktionspriset måste vara större än eller lika med en angiven parameter, samt att transaktionsdatumet måste ligga inom ett intervall som motsvarar de tre senaste månaderna.
 
-1. Se till att du skapar och publicerar ett transaktionsregister. Se [Skapa eller utöka resursen](../../developing/using/creating-or-extending-the-resource.md).
+1. Se till att du skapar och publicerar ett transaktionsregister.  Se [Skapa eller utöka resursen](../../developing/using/creating-or-extending-the-resource.md).
 
    >[!NOTE]
    >
-   >Den här proceduren använder exemplet på en anpassad transaktionsregister. I ditt fall kan du anpassa den efter dina affärsbehov.
+   >Den här proceduren använder exemplet på ett anpassat transaktionsregister.  I ditt fall kan du anpassa den efter dina affärsbehov.
 
-1. Innan du definierar ett filter som är relaterat till transaktionsregistret i **[!UICONTROL Profiles]** resursen måste du definiera länken till det här registret och publicera ändringarna. Se [Definiera länkar med andra resurser](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources) och [Uppdatera databasstrukturen](../../developing/using/updating-the-database-structure.md).
-1. Markera transaktionsregistret på fliken **[!UICONTROL Definition]** i det nya filtrets definitionsskärm.
+1. Innan du definierar ett filter som är relaterat till transaktionsregistret i **[!UICONTROL Profiles]**-resursen så måste du definiera länken till det här registret och publicera ändringarna.  Se [Definiera länkar med andra resurser](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources) och [Uppdatera databasstrukturen](../../developing/using/updating-the-database-structure.md).
+1. Markera transaktionsregistret under **[!UICONTROL Definition]**-fliken i det nya filtrets definitionsskärm.
 
    ![](assets/custom_resource_filter-definition_example-empty.png)
 
-1. Dra transaktionsregistret till arbetsytan i **[!UICONTROL Add a rule - Profiles/Transactions]** fönstret. I nästa fönster som visas markerar du det fält som du vill använda.
+1. Dra transaktionsregistret till arbetsytan i **[!UICONTROL Add a rule - Profiles/Transactions]**-fönstret.  I nästa fönster som visas markerar du det fält som du vill använda.
 
    ![](assets/custom_resource_filter-definition_example-field.png)
 
-1. Markera rutan **[!UICONTROL Optional parameter settings]** i **[!UICONTROL Add a rule - Transactions]** fönstret **[!UICONTROL Switch to parameters]** .
+1. I **[!UICONTROL Optional parameter settings]** av **[!UICONTROL Add a rule - Transactions]**-fönstret, markera **[!UICONTROL Switch to parameters]**-rutan.
 
-   I **[!UICONTROL Filter conditions]** väljer du **[!UICONTROL Greater than or equal to]** operatorn . Ange ett namn i **[!UICONTROL Parameters]** fältet och klicka på plustecknet för att skapa den nya parametern.
+   I **[!UICONTROL Filter conditions]** väljer du **[!UICONTROL Greater than or equal to]**-operatören.  Ange ett namn i **[!UICONTROL Parameters]**-fältet och klicka sedan på plustecknet för att skapa den nya parametern.
 
    ![](assets/custom_resource_filter-definition_example-parameter.png)
 
-1. Bekräfta ändringarna. Definitionen motsvarar ett konfigurerbart fält som användaren måste fylla i senare för att köra frågan.
+1. Bekräfta ändringarna.  Definitionen motsvarar ett konfigurerbart fält som användaren måste fylla i för att kunna utföra förfrågan.
 
    ![](assets/custom_resource_filter-definition_ex_edit-rule.png)
 
@@ -68,21 +68,21 @@ För att kunna göra detta måste du utöka **[!UICONTROL Profiles]** resursen o
 
    ![](assets/custom_resource_filter-definition_category.png)
 
-1. Ändra beskrivningen och etiketten på fliken **[!UICONTROL Parameters]** i filterdefinitionsskärmen för att tydligt ange filterföremålet för användarna. Den här informationen visas i frågeredigeraren.
+1. Ändra beskrivningen och etiketten under fliken **[!UICONTROL Parameters]** i filterdefinitions-skärmen för att tydligt ange filterämnet för användarna.  Den här informationen visas i förfrågningsredigeraren.
 
    ![](assets/custom_resource_filter-definition_parameters.png)
 
-   Om du definierar flera konfigurerbara fält kan du ändra i vilken ordning de visas i gränssnittet.
+   Om du definierar flera konfigurerbara fält så kan du ändra vilken ordning de visas i gränssnittet.
 
-1. Spara ändringarna och publicera resurserna. Mer information finns i avsnittet [Uppdatera databasstrukturen](../../developing/using/updating-the-database-structure.md) .
+1. Spara ändringarna och publicera resurserna.  Mer information om detta hittar du i avsnittet [Uppdatera databasstrukturen](../../developing/using/updating-the-database-structure.md) .
 
-När **[!UICONTROL Profiles]** resurstillägget har publicerats visas det här filtret under fliken Kortkommandon i [frågeredigeringsgränssnittet](../../automating/using/editing-queries.md) .
+När **[!UICONTROL Profiles]** resurstillägget har publicerats så visas det här filtret under fliken Kortkommandon i [förfrågningsredigerings](../../automating/using/editing-queries.md)-gränssnittet.
 
-På så sätt kan användaren enkelt definiera sin målgrupp när han eller hon skapar ett e-postmeddelande som ska skickas till alla kunder som spenderat mer än en viss mängd de senaste tre månaderna.
+På så sätt så kan användaren enkelt definiera sin målgrupp när ett e-postmeddelande skapas som ska skickas till alla kunder som spenderat mer än en viss mängd de senaste tre månaderna.
 
 ![](assets/custom_resource_filter-definition_email-audience.png)
 
-I stället för att själva konfigurera den behöver de bara ange önskat värde i dialogrutan som visas.
+I stället för att själva konfigurera den så behöver de bara ange önskat värde i dialogrutan som visas.
 
 ![](assets/custom_resource_filter-definition_email-audience_filter.png)
 
