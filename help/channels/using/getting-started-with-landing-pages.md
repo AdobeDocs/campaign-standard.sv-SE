@@ -1,6 +1,6 @@
 ---
-title: Viktiga steg för att skapa en landningssida
-description: Lär dig de viktigaste stegen för att konfigurera en landningssida
+title: Huvudsteg för att skapa en landningssida
+description: Lär dig huvudstegen för att konfigurera en landningssida
 page-status-flag: never-activated
 uuid: b316bf47-7d98-46fa-ab4f-67ff50de8095
 contentOwner: lemaitre
@@ -12,15 +12,18 @@ discoiquuid: ca8d1698-6e8a-4f5a-b017-74a152e14286
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0dd69cbad3e05a5a7eb36da80264e6eb6aae0e34
+workflow-type: ht
+source-wordcount: '1007'
+ht-degree: 100%
 
 ---
 
 
 # Komma igång med landningssidor {#getting-started-with-landing-pages}
 
-De viktigaste stegen när du ställer in landningssidor är följande:
+Huvudstegen när du ställer in landningssidor är följande:
 
 ![](assets/lp_steps.png)
 
@@ -28,18 +31,18 @@ På den här sidan hittar du information om vart och ett av de här stegen samt 
 
 **Relaterade ämnen:**
 
-* [Skapa en video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/landing-pages/landing-page-create-and-edit.html) med självstudiekurser om landningssidor
+* [Skapa en video](https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/tutorials/communication-channels/landing-pages/landing-page-create-and-edit.html) med självstudiekurser om landningssidor
 * [Skapa en tjänst](../../audiences/using/creating-a-service.md)
 * [Konfigurera en process för dubbel anmälan](setting-up-a-double-opt-in-process.md)
 
-## Begränsningar för landningssida{#landing-page-limitations}
+## Begränsningar för landningssidor{#landing-page-limitations}
 
 I avsnittet nedan listas de begränsningar som du bör känna till innan du börjar konfigurera landningssidor.
 
 **Skriva och uppdatera data**
 
-* Landningssidor är begränsade till **[!UICONTROL Profile]** och endast till **[!UICONTROL Subscription]** resurser. Posten kan sparas och uppdateras från **[!UICONTROL Profile]** och en prenumeration/avprenumeration till en **[!UICONTROL Service]**.
-Mer information om resurskonfigurationen finns i [Konfigurera resursens datastruktur](../../developing/using/configuring-the-resource-s-data-structure.md).
+* Landningssidor är begränsade till endast **[!UICONTROL Profile]** och **[!UICONTROL Subscription]**-resurser.  Posten kan sparas och uppdateras från **[!UICONTROL Profile]** och en prenumeration/avprenumeration till en **[!UICONTROL Service]**.
+Mer information om resurskonfigurationen hittar du i [Konfigurera resursens datastruktur](../../developing/using/configuring-the-resource-s-data-structure.md).
 
 >[!CAUTION]
 >
@@ -47,66 +50,66 @@ Mer information om resurskonfigurationen finns i [Konfigurera resursens datastru
 
 **Förinläsning**
 
-* Landningssidan kan inte visa en lista med poster automatiskt, den kan inte visa tjänster som profiler som redan prenumererar på. Mer information om tjänster finns på den här [sidan](../../audiences/using/creating-a-service.md).
+* Landningssidan kan inte automatiskt visa en lista med poster. Den kan inte heller visa tjänster som profiler redan prenumererar på.  Mer information om tjänster hittar du på den här [sidan](../../audiences/using/creating-a-service.md).
 
-* Landningssida med ett förfyllt formulär (data är förinlästa med sidan) kan bara nås via ett e-postmeddelande för Adobe Campaign. Det går inte att komma åt ett sådant formulär från en webbsida.
+* Landningssida med ett förifyllt formulär (datan är förinläst på sidan) kan endast nås via ett Adobe Campaign e-postmeddelande. Det går inte att komma åt sådana formulär via en hemsida.
 
 **Avstämning**
 
-* Avstämningsbeteendet är följande: så snart en matchning hittas avbryts avstämningsprocessen. Det innebär att avstämning bara kan göras för en profilpost och inte för flera poster när det finns dubbletter.
+* Avstämningsbeteendet fungerar så här: så snart en matchning hittas så avbryts avstämningsprocessen.    Detta innebär att avstämning endast kan göras för en profilpost och inte för flera poster när det finns dubbletter.
 
-Du vill till exempel skicka följande kundvärvningssida till dina profiler för att uppdatera Campaign-databasen med dina profilers mobilnummer.
+Om du till exempel vill skicka en följande kundvärvningssida till dina profiler för att uppdatera Campaign-databasen med dina profilers mobiltelefonnummer.
 
 ![](assets/landing_page_limitation_1.png)
 
-Om en av dina profiler fyller i din landningssida med ny information men redan har en duplicerad profil, kommer den matchande profilen med det tidigaste skapandedatumet att uppdateras eftersom profilerna prioriteras beroende på när de skapades.
+Om en av dina profiler fyller i din landningssida med ny information men har en duplicerad profil, kommer den matchande profilen med det tidigaste skapningsdatumet att uppdateras eftersom profilerna prioriteras beroende på när de skapades.
 
-Här har bara den första profilen uppdaterats sedan den var den äldsta posten.
+Här har bara den första profilen uppdaterats då det var den äldsta posten.
 
 ![](assets/landing_page_limitation_2.png)
 
 **Testa landningssidor**
 
-* Landningssidor fungerar bara på profiler och inte på testprofiler, vilket innebär att landningssidor inte kan testas som en del av ett e-postkorrektur.
+* Landningssidor fungerar bara på riktiga profiler, inte på testprofiler. Detta innebär att landningssidor inte kan testas som en del av testmeddelanden
 
-## Steg 1 - Konfigurera landningssidmallen {#configure-the-landing-page-template}
+## Steg 1 - Konfigurera mallen för landningssidan{#configure-the-landing-page-template}
 
-Innan du skapar en landningssida är det första steget att konfigurera en mall för landningssidor som passar dina behov. När mallen är klar kommer alla landningssidor som är baserade på den att förkonfigureras med de önskade parametrarna.
+Innan du skapar en landningssida så är det första steget att konfigurera en mall för landningssidor som passar dina behov.  När mallen är klar så kommer alla landningssidor som är baserade på den att förkonfigureras med de valda parametrarna.
 
-1. På den avancerade menyn, via Adobe Campaign-logotypen, väljer du **[!UICONTROL Resources]** / **[!UICONTROL Templates]** / **[!UICONTROL Landing page templates]** och duplicerar sedan mallen som du vill använda.
-1. I mallegenskaperna anger du alla parametrar som landningssidorna måste ha gemensamt. Till exempel: målgruppsdimensionen, sidåtkomstparametrar för identifierade eller ej identifierade besökare, åtgärder som är specifika för en besökares formulärvalidering, varumärket/logotypen som ska användas i innehållet osv. Mer information om landningssidans egenskaper finns i [detta avsnitt](../../channels/using/configuring-landing-page.md)
+1. I den avancerade menyn som du via Adobe Campaign-logotypen, så väljer du **[!UICONTROL Resources]** / **[!UICONTROL Templates]** / **[!UICONTROL Landing page templates]** och duplicerar sedan mallen som du vill använda.
+1. I egenskaperna för mallen anger du alla parametrar som landningssidorna måste ha gemensamt.    Till exempel: målgruppsdimensionen, sidans åtkomstparametrar för identifierade eller icke identifierade besökare, åtgärder som är specifika för en besökares formulärvalidering, varumärket/logotypen som ska användas i innehållet etc.        Mer information om egenskaper för landningssidor hittar du i [det här avsnittet](../../channels/using/configuring-landing-page.md).
 1. Spara ändringarna.
 
-Mer information om mallar för landningssidor finns i [detta avsnitt](../../channels/using/getting-started-with-landing-pages.md).
+Mer information om mallar för landningssidor hittar du i[det här avsnittet](../../channels/using/getting-started-with-landing-pages.md).
 
 ![](assets/lp-steps1.png)
 
 ## Steg 2 - Skapa och konfigurera landningssidan {#create-and-configure-the-landing-page}
 
-Skapa en ny landningssida i ett program eller en kampanj från den mall som definierades i föregående steg.
+Skapa en ny landningssida i ett program eller en kampanj från den mall som definierades i det föregående steget.
 
 1. Skapa landningssidan baserat på önskad mall.
-1. Ange de allmänna parametrarna för landningssidan (etikett, beskrivning osv.).
-1. Du kommer sedan åt kontrollpanelen för landningssidan. Redigera egenskaperna för landningssidan, om det behövs (se [Konfigurera en landningssida](../../channels/using/configuring-landing-page.md)). Som standard är egenskaperna de som konfigurerats i landningssidmallen.
-Av säkerhetsskäl och av plattformsprestanda rekommenderar vi att du anger ett förfallodatum i egenskaperna för landningssidan. När du är klar avpubliceras landningssidan automatiskt på det valda datumet. For more on validity parameters, refer to [this section](../../channels/using/testing-publishing-landing-page.md#setting-up-validity-parameters).
+1. Ange de allmänna parametrarna för landningssidan (etikett, beskrivning etc.).
+1. Sedan kommer du åt kontrollpanelen för landningssidan.    Redigera egenskaperna för landningssidan om det behövs (se [Konfigurera en landningssida](../../channels/using/configuring-landing-page.md)).    Som standard är egenskaperna de som konfigurerats i mallen för landningssidan.
+Av säkerhetsskäl och på grund av plattformsprestanda rekommenderar vi att du anger ett förfallodatum i egenskaperna för landningssidan.        När du är klar avpubliceras landningssidan automatiskt på det valda datumet.        Mer information om validitetsparametrar hittar du i [det här avsnittet](../../channels/using/testing-publishing-landing-page.md#setting-up-validity-parameters).
 
    ![](assets/lp-steps3.png)
 
    >[!NOTE]
    >
-   >Ändringarna gäller endast för den landningssida som redigeras. Om du vill tillämpa dessa ändringar på andra landningssidor kan du utföra dem i en dedikerad mall och sedan skapa andra landningssidor från den mallen.
+   >Ändringarna gäller endast för den landningssidan som redigeras.  Om du vill tillämpa dessa ändringar på andra landningssidor så kan du utföra dem i en dedikerad mall och sedan skapa andra landningssidor från den mallen.
 
 ## Steg 3 - Utforma landningssidan {#design-the-landing-page}
 
-Nu kan du definiera innehållet på landningssidan. Som standard innehåller landningssidan tre sidor som du kan komma åt via rullningspilar: huvudinnehållssidan, en bekräftelsesida och en felsida.
+Nu kan du definiera innehållet på landningssidan.  Som standard innehåller landningssidan tre sidor som du kan komma åt via rullgardinspilarna: sidan för huvudinnehåll, en bekräftelsesida och en sida som visas vid fel.
 
 ![](assets/lp-steps4.png)
 
-Flera fält konfigureras som standard på varje sida. Om det behövs kan du redigera deras egenskaper och mappning.
+Flera fält konfigureras som standard på varje sida.    Om det behövs så kan du redigera deras egenskaper och mappning.
 
-Du kan också konfigurera hur bekräftelseknappen fungerar när en profil klickar på den och anpassa innehållet efter dina behov (bild, anpassningsfält osv.). Du kan t.ex. infoga en profils förnamn på bekräftelsesidan på landningssidan och tacka dem för att de har registrerat sig.
+Du kan också konfigurera hur bekräftelseknappen fungerar när en profil klickar på den och anpassa innehållet efter dina behov (bild, anpassningsfält etc.).  Du kan exempelvis infoga en profils förnamn på bekräftelsesidan på landningssidan och visa upp ett tackmeddelande för att denne har registrerat sig.
 
-Mer information om landningssidans utformning finns i [detta avsnitt](../../channels/using/designing-a-landing-page.md).
+Mer information om design av landningssidor hittar du i [det här avsnittet](../../channels/using/designing-a-landing-page.md).
 
 ## Steg 4 - Testa landningssidan {#test-the-landing-page}
 
@@ -116,20 +119,20 @@ När landningssidan har definierats kan du simulera hur den kommer att köras oc
 
 >[!CAUTION]
 >
->Testerna på landningssidan kan endast utföras med profiler och inte med testprofiler. När formuläret skickas uppdateras den valda profilens data för att vara riktiga. Undvik att ändra riktiga profiler genom att använda en falsk kundprofil.
+>Testerna på landningssidan kan endast utföras med profiler och inte med testprofiler.    När formuläret skickas så uppdateras den valda profilens data på riktigt.  Undvik att ändra riktiga profiler genom att använda en falsk kundprofil.
 
 Om du är nöjd med hur landningssidan fungerar kan du publicera den så att den blir tillgänglig online.
 
-Mer information om hur du testar en landningssida finns i [detta avsnitt](../../channels/using/testing-publishing-landing-page.md#testing-the-landing-page-).
+Mer information om hur du testar en landningssida hittar du i [detta avsnittet](../../channels/using/testing-publishing-landing-page.md#testing-the-landing-page-).
 
 ## Steg 5 - Publicera landningssidan {#publish-the-landing-page}
 
-När testerna har slutförts kan du publicera landningssidan med knappen **[!UICONTROL Publish]** i åtgärdsfältet på instrumentpanelen. Ett övervakningsblock visar publiceringens förlopp och status.
+När testerna har slutförts kan du publicera landningssidan med knappen **[!UICONTROL Publish]** i åtgärdsfältet på instrumentpanelen.    En övervakningspanel visar publiceringens förlopp och status.
 
-Genom att publicera landningssidan blir den tillgänglig online. När publiceringen är klar kan du alltid uppdatera den: Om du vill göra det måste du publicera det igen efter varje ändring. Du kan också när som helst avpublicera en landningssida så att den inte längre är tillgänglig.
+Genom att publicera landningssidan blir den tillgänglig online.    När publiceringen är klar kan du alltid uppdatera den: Om du vill göra detta måste du publicera den igen efter varje ändring.        Du kan också när som helst avpublicera en landningssida så att den inte längre finns tillgänglig.
 
 ![](assets/lp-steps6.png)
 
-När landningssidan har publicerats är den klar att användas. Du kan sedan införa olika mekanismer som gör att du kan komma åt den för att hämta nya profiler i databasen eller för att få ytterligare information om befintliga profiler.
+När landningssidan har publicerats är den klar att användas.    Du kan sedan införa olika mekanismer som gör att du kan komma åt den för att hämta nya profiler i databasen, eller för att få ytterligare information om befintliga profiler.
 
-Mer information om publicering av landningssidor finns i [detta avsnitt](../../channels/using/testing-publishing-landing-page.md#publishing-a-landing-page).
+Mer information om publicering av landningssidor hittar du i [det här avsnittet](../../channels/using/testing-publishing-landing-page.md#publishing-a-landing-page).
