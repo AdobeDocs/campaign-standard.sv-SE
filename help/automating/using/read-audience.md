@@ -1,5 +1,5 @@
 ---
-title: Läsa målgrupper
+title: Läs målgrupp
 description: Med aktiviteten Läs målgrupp kan du hämta en befintlig målgrupp och förfina den genom att tillämpa ytterligare filtreringsvillkor.
 page-status-flag: never-activated
 uuid: 58c54e71-f4a7-4ae9-80a3-33c379ab1db9
@@ -16,12 +16,12 @@ translation-type: tm+mt
 source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
 workflow-type: tm+mt
 source-wordcount: '210'
-ht-degree: 0%
+ht-degree: 92%
 
 ---
 
 
-# Läsa målgrupper{#read-audience}
+# Läs målgrupp{#read-audience}
 
 ## Beskrivning {#description}
 
@@ -31,7 +31,7 @@ Med den här **[!UICONTROL Read audience]** aktiviteten kan du hämta en befintl
 
 ## Kontext för användning {#context-of-use}
 
-Aktiviteten är en enklare version av den **[!UICONTROL Read audience]** **[!UICONTROL Query]** aktivitet som är avsedd för fall där du bara behöver välja en befintlig målgrupp.
+**[!UICONTROL Read audience]**-aktiviteten är en enklare version av den **[!UICONTROL Query]** aktivitet som är avsedd för fall där du endast behöver välja en befintlig målgrupp.
 
 **Relaterade ämnen**
 
@@ -40,18 +40,18 @@ Aktiviteten är en enklare version av den **[!UICONTROL Read audience]** **[!UIC
 
 ## Konfiguration {#configuration}
 
-1. Släpp en **[!UICONTROL Read audience]** aktivitet i arbetsflödet.
+1. Släpp en **[!UICONTROL Read audience]**-aktivitet i arbetsflödet.
 1. Markera aktiviteten och öppna den sedan med knappen ![](assets/edit_darkgrey-24px.png) bland de snabbåtgärder som visas.
-1. Välj den målgrupp du vill hämta på **[!UICONTROL Properties]** fliken.
+1. Välj den målgrupp som du vill hämta på fliken **[!UICONTROL Properties]**.
 
-   Du kan hämta målgrupper av följande typer: **[!UICONTROL List]**, **[!UICONTROL Query]** och **[!UICONTROL File]****[!UICONTROL Experience Cloud]**. Mer information om målgruppstyper finns i [publikens](../../audiences/using/about-audiences.md) dokumentation.
+   Du kan hämta målgrupper av följande typer: **[!UICONTROL List]**, **[!UICONTROL Query]**, **[!UICONTROL File]** och **[!UICONTROL Experience Cloud]**.  Mer information om målgruppstyper finns i dokumentationen för [publiker](../../audiences/using/about-audiences.md) .
 
-   Med **[!UICONTROL Use a dynamic audience]** alternativet kan du definiera namnet på målgruppen baserat på arbetsflödets händelsevariabler. Mer information finns i avsnittet [Anpassa aktiviteter med händelsevariabler](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) .
+   Med alternativet **[!UICONTROL Use a dynamic audience]** kan du definiera namnet på målgruppen baserat på arbetsflödets händelsevariabler.  Mer information om detta hittar du i avsnittet [Anpassa aktiviteter med händelsevariabler](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables).
 
    ![](assets/readaudience_activity1.png)
 
-1. Om du vill använda ytterligare filtrering för den valda målgruppen lägger du till villkor via aktivitetens **[!UICONTROL Source filtering]** flik.
+1. Om du vill använda ytterligare filtrering för den valda målgruppen lägger du till villkor via aktivitetens flik **[!UICONTROL Source filtering]**.
 
-   Mer information om hur du skapar filtervillkor finns i dokumentationen [Skapa frågor](../../automating/using/editing-queries.md#creating-queries) .
+   Mer information om hur du skapar filtervillkor hittar du i dokumentationen [Skapa frågor](../../automating/using/editing-queries.md#creating-queries).
 
 1. Bekräfta aktivitetens konfiguration och spara arbetsflödet.
