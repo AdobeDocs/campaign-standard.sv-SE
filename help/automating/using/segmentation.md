@@ -1,6 +1,6 @@
 ---
 title: Segmentering
-description: Med segmenteringsaktiviteten kan du skapa ett eller flera segment från en population som beräknas av aktiviteter som placerats tidigare i arbetsflödet.
+description: Med aktiviteten segmentering kan du skapa ett eller flera segment från en population som beräknas av aktiviteter som placerats tidigare i arbetsflödet.
 page-status-flag: never-activated
 uuid: 77796f18-cad5-4e7a-9d7b-4ed0dd8943bf
 contentOwner: sauviat
@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
 source-wordcount: '860'
-ht-degree: 0%
+ht-degree: 94%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 0%
 
 ![](assets/segmentation.png)
 
-Med den här **[!UICONTROL Segmentation]** aktiviteten kan du skapa ett eller flera segment från en population som beräknas av aktiviteter som placerats tidigare i arbetsflödet. I slutet av aktiviteten kan de bearbetas i en enda övergång eller i olika övergångar.
+Med aktiviteten **[!UICONTROL Segmentation]** kan du skapa ett eller flera segment från en population som beräknas av aktiviteter som placerats tidigare i arbetsflödet.  I slutet av aktiviteten kan de bearbetas i en eller olika övergångar.
 
 >[!NOTE]
 >
->Som standard kan en medlem i den inkommande populationen bara tillhöra ett segment. Filtren tillämpas i den ordning som segmenten i aktiviteten har.
+>Som standard kan en användare i den inkommande populationen endast tillhöra ett segment.  Filtren läggs till i den ordning som segmenten i aktiviteten har.
 
 **Relaterade ämnen:**
 * [Användningsfall: Segmentering på plats](../../automating/using/workflow-segmentation-location.md)
@@ -40,7 +40,7 @@ Med den här **[!UICONTROL Segmentation]** aktiviteten kan du skapa ett eller fl
 
 ## Kontext för användning {#context-of-use}
 
-Aktiviteten placeras **[!UICONTROL Segmentation]** vanligtvis efter målaktiviteter (fråga, skärning, union, uteslutning osv.) för att definiera den standardpopulation som ska ligga till grund för segmenten.
+Aktiviteten **[!UICONTROL Segmentation]** placeras vanligtvis efter målaktiviteter (förfrågan, skärningspunkt, koppling, uteslutning etc.) för att definiera den standardpopulation som ska ligga till grund för segmenten.
 
 **Relaterade ämnen**
 
@@ -48,58 +48,60 @@ Aktiviteten placeras **[!UICONTROL Segmentation]** vanligtvis efter målaktivite
 
 ## Konfiguration {#configuration}
 
-1. Dra och släpp en **[!UICONTROL Segmentation]** aktivitet i arbetsflödet.
-1. Markera aktiviteten och öppna den sedan med knappen ![](assets/edit_darkgrey-24px.png) bland de snabbåtgärder som visas.
-1. På **[!UICONTROL General]** fliken väljer du den **[!UICONTROL Resource type]** som segmenteringen ska utföras på:
+1. Dra och släpp en **[!UICONTROL Segmentation]**-aktivitet i arbetsflödet.
+1. Markera aktiviteten och öppna den sedan med ![](assets/edit_darkgrey-24px.png)-knappen bland de snabbåtgärder som visas.
+1. In the **[!UICONTROL General]** tab, select the **[!UICONTROL Resource type]** on which the segmentation has to be carried out:
 
    * **[!UICONTROL Database resource]** om segmenteringen utförs på data som redan finns i databasen. Markera **[!UICONTROL Filtering dimension]** beroende på vilka data du vill segmentera. Som standard segmenteras **profilerna**.
-   * **[!UICONTROL Temporary resource]** Om segmenteringen utförs på arbetsflödets tillfälliga data: Markera den **[!UICONTROL Targeted set]** som innehåller de data som ska segmenteras. Detta kan inträffa när du har importerat en fil eller när data i databasen har berikats.
+   * **[!UICONTROL Temporary resource]** Om segmenteringen utförs på arbetsflödets tillfälliga data, markera den **[!UICONTROL Targeted set]** som innehåller den datan som ska segmenteras.  Detta kan inträffa när du har importerat en fil eller när data i databasen har berikats.
 
-1. Välj den typ av utgående övergång som du vill använda:
+1. Välj den typ av utgående transition som du vill använda:
 
-   * **[!UICONTROL Generate one transition per segment]**: en utgående övergång läggs till för varje konfigurerat segment i slutet av aktiviteten.
-   * **[!UICONTROL Generate all segments in one transition]**: alla konfigurerade segment grupperas om till en enda utgående övergång. Ange övergångsetiketten. Medlemmarna i varje segment behåller den segmentkod som har tilldelats dem.
+   * **[!UICONTROL Generate one transition per segment]**: en utgående transition läggs till för varje konfigurerat segment i slutet av aktiviteten.
+   * **[!UICONTROL Generate all segments in one transition]**: samtliga konfigurerade segment grupperas om till en enda utgående transition.  Ange transitions-etiketten.  Medlemmarna i varje segment behåller den segmentkod som de har tilldelats.
 
-1. Lägg till ett segment med ![](assets/add_darkgrey-24px.png) knappen eller **[!UICONTROL Add an element]** och ange standardegenskaperna:
+1. Lägg till ett segment med knappen ![](assets/add_darkgrey-24px.png) eller **[!UICONTROL Add an element]** och ange standardegenskaperna:
 
-   * **[!UICONTROL Do not activate the transition if the population is empty]**: segmentet aktiveras bara om data hämtas.
+   * **[!UICONTROL Do not activate the transition if the population is empty]**: segmentet aktiveras bara om data har hämtats.
    * **[!UICONTROL Filter initial population (query)]**: använder du för att filtrera segmentets population.
-   * **[!UICONTROL Limit segment population]**: använder du för att begränsa segmentstorleken.
-   * **[!UICONTROL Filter and limit segment population]**: I kan du filtrera segmentpopulationen och begränsa dess storlek.
-   * **[!UICONTROL Label]**: segmentetikett.
-   * **[!UICONTROL Segment code]**: kod som tilldelats segmentpopulationen. Segmentkoden kan anpassas med hjälp av ett standarduttryck och händelsevariabler (se [Anpassa aktiviteter med händelsevariabler](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables)).
-   * **[!UICONTROL Exclude segment from population]**: Med kan du utesluta det angivna segmentet från aktivitetens utgående population. Det här alternativet kan bara användas om alternativet är **[!UICONTROL Generate all segments in the same transition]** markerat.
+   * **[!UICONTROL Limit segment population]**: använder du för att begränsa storleken på segmentet.
+   * **[!UICONTROL Filter and limit segment population]**: här kan du filtrera populationen av segmentet och begränsa dess storlek.
+   * **[!UICONTROL Label]**: segmentets etikett.
+   * **[!UICONTROL Segment code]**: kod som tilldelats populationen av segmentet. Segmentkoden kan anpassas med hjälp av ett standarduttryck och händelsevariabler (se [Anpassa aktiviteter med händelsevariabler](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables)).
+   * **[!UICONTROL Exclude segment from population]**: gör så att du kan utesluta det angivna segmentet från aktivitetens utgående population.  Det här alternativet kan endast användas om alternativet **[!UICONTROL Generate all segments in the same transition]** är markerat.
+
    ![](assets/wkf_segment_new_segment.png)
 
-1. Öppna detaljvyn för segmentet för att komma åt segmentets konfigurationsalternativ. Det gör du genom att markera den relevanta rutan i aktivitetens segmentlista och sedan välja ![](assets/wkf_segment_parameters_24px.png).
-1. Om alternativet att filtrera den inledande populationen är markerat, öppnar du fliken och anger **[!UICONTROL Filter]** segmentets population. Filtren baseras på den filtreringsdimension som valts i steg 4. Mer information om populationsfiltrering finns i avsnittet [Frågeredigering](../../automating/using/editing-queries.md) .
+1. Öppna detaljvyn för segmentet för att komma åt segmentets konfigurationsalternativ.  Detta gör du genom att markera den relevanta rutan i aktivitetens segmentlista och sedan välja ![](assets/wkf_segment_parameters_24px.png).
+1. Om alternativet för att filtrera den inledande populationen är markerad så öppnar du fliken **[!UICONTROL Filter]** och anger segmentets population.  Filtren baseras på den filtreringsdimension som valts i steg 4.  Mer information om populationsfiltrering hittar du i avsnittet [Redigering av förfrågningar](../../automating/using/editing-queries.md) .
 
-   Om segmenteringen utförs på en tillfällig resurs är antalet och förhandsgranskningen av populationen inte tillgänglig på den här fliken.
+   Om segmenteringen utförs på en tillfällig resurs är antalet och förhandsgranskningen av populationen inte tillgänglig i den här fliken.
 
-1. Om alternativet att begränsa segmentstorleken är markerat öppnar du **[!UICONTROL Limitation]** fliken.
+1. Om alternativet för att begränsa segmentstorleken är markerat öppnar du flik **[!UICONTROL Limitation]**.
 
    Välj först det **[!UICONTROL Type of limit]** som du vill använda:
 
-   * **[!UICONTROL Random sampling]**: segmentpopulationen väljs slumpmässigt med hänsyn till flikens konfiguration, om det behövs, **[!UICONTROL Filter]** .
-   * **[!UICONTROL Ordered sampling]**: segmentpopulationen markeras på ett ordnat sätt. Du måste därför ange vilka kolumner som ska beaktas och vilken sorteringstyp som ska användas. Om du t.ex. markerar fältet **Ålder** som sorteringskolumn när du använder en **[!UICONTROL Descending sort]** och anger en gräns på 100 behålls endast profilerna för de 100 äldsta överlägsna.
-   Ange nu storleken **[!UICONTROL Limit]** på segmentet:
+   * **[!UICONTROL Random sampling]**: segmentpopulationen väljs vid behov slumpmässigt med **[!UICONTROL Filter]** flikens konfiguration i beaktning.
+   * **[!UICONTROL Ordered sampling]**: segmentpopulationen väljs enligt sortering.  Du måste därför ange vilka kolumner som ska beaktas och vilken typ av sortering som ska användas.  Om du exempelvis markerar fältet **Ålder** som sorteringskolumn när du använder en **[!UICONTROL Descending sort]** och anger en gräns på 100 så behålls endast profilerna för de 100 äldsta personerna.
 
-   * **[!UICONTROL Size (as a % of the initial population)]**: Ange segmentstorleken genom att använda en procentandel av aktivitetens ursprungliga population.
-   * **[!UICONTROL Maximum size]**: Ange ett maximalt antal medlemmar för segmentpopulationen.
-   * **[!UICONTROL By data grouping]**: Du kan begränsa segmentpopulationen enligt värdena för ett specifikt fält i den inkommande populationen. Markera fältet för gruppering och ange sedan vilka värden som ska användas.
-   * **[!UICONTROL By data grouping (as a %)]**: Du kan begränsa segmentpopulationen enligt värdena i ett specifikt inkommande populationsfält genom att använda en procentsats. Markera fältet som du vill använda grupperingen i och ange sedan vilka värden som ska användas.
+   Ange nu storleken **[!UICONTROL Limit]** av segmentet:
+
+   * **[!UICONTROL Size (as a % of the initial population)]**: Ange segmentets storlek genom att använda en procentandel av aktivitetens ursprungliga population.
+   * **[!UICONTROL Maximum size]**: Ange maximalt antal medlemmar för segmentpopulationen.
+   * **[!UICONTROL By data grouping]**: Du kan begränsa segmentpopulationen enligt värdena för ett specifikt fält i den inkommande populationen.  Markera fältet för gruppering och ange sedan vilka värden som ska användas.
+   * **[!UICONTROL By data grouping (as a %)]**: Du kan begränsa segmentpopulationen enligt värdena i ett specifikt fält för inkommande population genom att använda en procentandel.  Markera fältet som du vill använda grupperingen i och ange sedan vilka värden som ska användas.
 
       >[!NOTE]
       >
-      >Olika begränsningar för varje värde kan användas. Du kan till exempel ange en gruppering för **[!UICONTROL Gender]** fältet och begränsa populationen med **[!UICONTROL Male]** medlemmar till 10 och populationen med **[!UICONTROL Female]** medlemmar till 30 personer. Om du använder flera datagrupperingsfält måste alla grupperingar ha samma storlek.
+      >Olika begränsningar för varje enskilt värde kan användas.  Du kan exempelvis ange en gruppering för fält **[!UICONTROL Gender]** och begränsa populationen med **[!UICONTROL Male]**-medlemmar till 10 och **[!UICONTROL Female]**-medlemmar till 30 personer.  Om du använder flera fält för datagruppering måste alla grupperingar ha samma storlek.
    ![](assets/wkf_segment_limit_by_grouping.png)
 
-1. Bekräfta segmentets konfiguration.
-1. Lägg till så många segment som behövs genom att upprepa steg 6 till 10 i den här proceduren.
-1. Redigera parametrarna på **[!UICONTROL Advanced options]** fliken om det behövs:
+1. Bekräfta konfigurationen av segmentet.
+1. Lägg till så många segment som behövs genom att upprepa steg 6 till 10.
+1. Redigera parametrarna i flik **[!UICONTROL Advanced options]** om det behövs:
 
-   * Markera alternativet om du vill att en medlem i den inkommande populationen ska tillhöra flera segment samtidigt. **[!UICONTROL Enable overlapping of outbound populations]** Aktivitetens utgående population kan överskrida den inkommande populationen.
-   * Markera alternativet **[!UICONTROL Concatenate the code of each segment]** om den inkommande populationen redan har tilldelats en segmentkod som du vill behålla. Segmentkoden som anges i aktiviteten läggs till i den inledande segmentkoden.
-   * Markera alternativet **[!UICONTROL Generate complement]** om du vill utnyttja den återstående populationen. Se [Använda skiftläge: Skapa leveranser med ett komplement](../../automating/using/workflow-created-query-with-complement.md).
+   * Markera alternativet **[!UICONTROL Enable overlapping of outbound populations]** om du vill att en medlem i den inkommande populationen samtidigt ska tillhöra flera segment.  Den utgående population av aktiviteten kan överskrida den inkommande populationen.
+   * Markera alternativet **[!UICONTROL Concatenate the code of each segment]** om den inkommande populationen redan har tilldelats en segmentkod som du vill behålla.  Segmentkoden som anges i aktiviteten läggs till i den inledande segmentkoden.
+   * Markera alternativet **[!UICONTROL Generate complement]** om du vill utnyttja den återstående populationen. See [Use case: Creating deliveries with a complement](../../automating/using/workflow-created-query-with-complement.md).
 
 1. Bekräfta aktivitetens konfiguration och spara arbetsflödet.
