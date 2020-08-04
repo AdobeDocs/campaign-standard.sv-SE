@@ -1,6 +1,6 @@
 ---
 title: Överföringsfil
-description: Med aktiviteten Överför fil kan du ta emot eller skicka filer, testa om det finns filer eller lista med filer i Adobe Campaign.
+description: Överföringsfilens aktivitet gör så att du kan ta emot eller skicka filer och testa om det finns filer eller listfiler i Adobe Campaign.
 page-status-flag: never-activated
 uuid: a2f18118-b681-4310-aee0-9e82179d2032
 contentOwner: sauviat
@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: 175709a41607bb9d64da7fac77dd749fa84f7360
 workflow-type: tm+mt
 source-wordcount: '1075'
-ht-degree: 0%
+ht-degree: 99%
 
 ---
 
@@ -27,17 +27,17 @@ ht-degree: 0%
 
 ![](assets/file_transfer.png)
 
-Med den här **[!UICONTROL Transfer file]** aktiviteten kan du ta emot eller skicka filer, testa om det finns filer eller lista med filer i Adobe Campaign.
+Med den här **[!UICONTROL Transfer file]** aktiviteten så kan du ta emot eller skicka filer och testa om det finns filer eller listfiler i Adobe Campaign.
 
 >[!CAUTION]
 >
->Från och med version 20.3 tas filer som hämtats med aktiviteten bort efter X dagar, där X bestäms av **[!UICONTROL Transfer File]** fältet under **[!UICONTROL History in days]** **[!UICONTROL Execution]** menyn i arbetsflödesegenskaperna.
+>Från och med version 20.3 så tas filer som hämtats med **[!UICONTROL Transfer File]**-aktiviteten bort efter X antal dagar, där X bestäms av fält **[!UICONTROL History in days]** i menyn **[!UICONTROL Execution]** för egenskaperna av arbetsflödet.
 
 ## Kontext för användning {#context-of-use}
 
-Det sätt som data extraheras på definieras när aktiviteten konfigureras. Filen som ska läsas in kan till exempel vara en lista med kontakter.
+Det sätt som data extraheras på definieras när aktiviteten konfigureras. Filen som ska läsas in kan exempelvis vara en lista med kontakter.
 
-Du kan använda den här aktiviteten för att återställa data som sedan struktureras med **[!UICONTROL Load file]** aktiviteten.
+Du kan använda den här aktiviteten för att återställa data som sedan struktureras med **[!UICONTROL Load file]**-aktiviteten.
 
 **Relaterade ämnen:**
 
@@ -45,16 +45,16 @@ Du kan använda den här aktiviteten för att återställa data som sedan strukt
 
 ## Konfiguration {#configuration}
 
-1. Släpp en **[!UICONTROL Transfer file]** aktivitet i arbetsflödet.
+1. Släpp en **[!UICONTROL Transfer file]**-aktivitet i arbetsflödet.
 1. Markera aktiviteten och öppna den sedan med knappen ![](assets/edit_darkgrey-24px.png) bland de snabbåtgärder som visas.
-1. Använd listrutan i **[!UICONTROL Action]** fältet för att välja någon av följande aktivitetsåtgärder:
+1. Använd listrutan i fält **[!UICONTROL Action]** för att välja någon av följande aktivitetsåtgärder:
 
    ![](assets/wkf_file_transfer_01.png)
 
-   * **Filhämtning**: Med kan du hämta en fil.
-   * **Filöverföring**: gör att du kan överföra en fil. När du överför en fil från Adobe Campaign skapas en loggpost på **[!UICONTROL Export audits]** menyn. Mer information om exportgranskningar finns i avsnittet [Granska export](../../administration/using/auditing-export-logs.md) .
-   * **Testa om filen finns**: gör att du kan kontrollera om det finns en fil.
-   * **Fillista**: gör att du kan lista filer som finns på servern som är definierad på **[!UICONTROL Protocol]** fliken. Den här åtgärden används främst för felsökning, för att kontrollera om aktiviteten är konfigurerad efter dina behov innan du hämtar filerna från fjärrservern.
+   * **Filhämtning**: ger dig möjlighet att hämta en fil.
+   * **Filöverföring**: ger dig möjlighet att överföra en fil. När du överför en fil från Adobe Campaign-filen så genereras en loggpost i **[!UICONTROL Export audits]**-menyn. Mer information om exportgranskningar finns i avsnittet [Granska exportering](../../administration/using/auditing-export-logs.md).
+   * **Testa om filen finns**: ger dig möjligheten att kontrollera om det finns en fil.
+   * **Fil-listning**: ger dig möjligheten att lista filer som finns på servern som är definierad i flik **[!UICONTROL Protocol]**. Den här åtgärden används främst vid felsökning för att kontrollera om aktiviteten är konfigurerad efter dina behov innan du hämtar filerna från fjärrservern.
 
 1. Välj det protokoll som du vill använda:
    * [HTTP](#HTTP-configuration-wf)
@@ -63,13 +63,13 @@ Du kan använda den här aktiviteten för att återställa data som sedan strukt
    * [Microsoft Azure Blob Storage](#azure-blob-configuration-wf)
    * [Fil(er) på Adobe Campaign-servern](#files-server-configuration-wf)
 
-1. Med **[!UICONTROL Additional options]** avsnittet, som är tillgängligt beroende på vilket protokoll som har valts, kan du lägga till parametrar i protokollet. Du kan:
+1. Med avsnitt **[!UICONTROL Additional options]** som är tillgängligt beroende på vilket protokoll som har valts så kan du lägga till parametrar i protokollet. Du kan:
 
    * **[!UICONTROL Delete the source files after transfer]**
    * **[!UICONTROL Disable passive mode]**
-   * **[!UICONTROL List all files]**: det här alternativet är tillgängligt när du väljer **[!UICONTROL File listing]** åtgärden.på **[!UICONTROL General]** fliken. Du kan indexera alla filer som finns på servern i **variabeln vars.filenames** där filnamnen avgränsas med **&#39;n&#39;** -tecken.
+   * **[!UICONTROL List all files]**: det här alternativet är tillgängligt när du väljer åtgärd **[!UICONTROL File listing]** i fliken **[!UICONTROL General]**. Du kan indexera samtliga filer på servern i **variabeln vars.filenames** där filnamnet avgränsas med ett **&#39;n&#39;** -tecken.
 
-1. I **[!UICONTROL If no files are found]** -avsnittet på **[!UICONTROL Advanced options]** fliken kan du konfigurera specifika åtgärder om fel eller obefintliga filer upptäcks när aktiviteten startas.
+1. I avsnitt **[!UICONTROL If no files are found]** i fliken **[!UICONTROL Advanced options]** så kan du konfigurera specifika åtgärder om fel eller obefintliga filer upptäcks när aktiviteten startas.
 
    Du kan också definiera återförsök. De olika försöken visas i arbetsflödets körningslogg.
 
@@ -79,32 +79,32 @@ Du kan använda den här aktiviteten för att återställa data som sedan strukt
 
 ### Konfiguration med HTTP {#HTTP-configuration-wf}
 
-Med HTTP-protokollet kan du börja ladda ned en fil från ett externt konto eller från en URL.
+Med HTTP-protokollet så kan du börja ladda ned en fil från ett externt konto eller från en länk.
 
-Med det här verktyget kan du välja **[!UICONTROL Use connection parameters defined in an external account]** alternativ. I så fall väljer du det konto du vill ha och anger sökvägen till filen som ska hämtas.
+Med det här verktyget så kan du välja alternativ **[!UICONTROL Use connection parameters defined in an external account]**. I så fall så väljer du det konto som du vill ha och anger sökvägen till filen som ska hämtas.
 ![](assets/wkf_file_transfer_03.png)
 
-Du kan också välja **[!UICONTROL Quick configuration]** alternativet. Du behöver bara ange URL-adressen i fältet URL.
+Du kan även välja alternativ **[!UICONTROL Quick configuration]**. Du behöver endast ange länkadressen i fältet URL.
 ![](assets/wkf_file_transfer_04.png)
 
 ### Konfiguration med SFTP {#SFTP-configuration-wf}
 
-Med SFTP-protokollet kan du börja hämta en fil från en URL eller ett externt konto.
+Med SFTP-protokollet så kan du börja hämta en fil från en länk eller ett externt konto.
 
-Med det här verktyget kan du välja **[!UICONTROL Use connection parameters defined in an external account]** alternativ, markera det konto du vill ha och ange sökvägen till filen som ska hämtas.
+Med det här verktyget så kan du välja alternativ **[!UICONTROL Use connection parameters defined in an external account]**, markera det konto som du vill ha och ange sökvägen till filen som ska hämtas.
 ![](assets/wkf_file_transfer_07.png)
 
 >[!CAUTION]
 >
 >Jokertecken stöds.
 
-Du kan också välja **[!UICONTROL Quick configuration]** alternativet. Du behöver bara ange URL-adressen i fältet URL.
+Du kan även välja alternativ **[!UICONTROL Quick configuration]**. Du behöver endast ange länkadressen i fältet URL.
 
 ### Konfiguration med Amazon S3 {#S3-configuration-wf}
 
-Med protokollet Amazon S3 kan du börja ladda ned en fil från en URL eller ett externt konto via Amazon Simple Storage Service (S3).
+Med protokollet Amazon S3 så kan du börja ladda ned en fil från en länk eller ett externt konto via Amazon Simple Storage Service (S3).
 
-1. Välj ett externt Amazon S3-konto. Mer information finns på den här [sidan](../../administration/using/external-accounts.md#amazon-s3-external-account).
+1. Välj ett externt Amazon S3-konto. Mer information om detta hittar du på den här [sidan](../../administration/using/external-accounts.md#amazon-s3-external-account).
 
 2. Välj om du vill **[!UICONTROL Define a file path]** eller **[!UICONTROL Use a dynamic file path]**.
 
@@ -112,59 +112,60 @@ Med protokollet Amazon S3 kan du börja ladda ned en fil från en URL eller ett 
 
    ![](assets/wkf_file_transfer_08.png)
 
-4. Om du vill ta bort dina källfiler när överföringen är slutförd kontrollerar du **[!UICONTROL Delete the source files after transfer]**.
+4. Om du vill ta bort dina källfiler när överföringen är slutförd så kontrollerar du **[!UICONTROL Delete the source files after transfer]**.
 
 ### Konfiguration med Microsoft Azure Blob Storage {#azure-blob-configuration-wf}
 
-Med protokollet Microsoft Azure Blob kan du komma åt blob som finns på ett Microsoft Azure Blob Storage-konto.
+Med protokollet Microsoft Azure Blob så kan du komma åt blob som finns på ett Microsoft Azure Blob Storage-konto.
 
-1. Välj ett **[!UICONTROL Microsoft Azure Blob]** externt konto. Mer information finns på den här [sidan](../../administration/using/external-accounts.md#microsoft-azure-external-account).
+1. Välj ett **[!UICONTROL Microsoft Azure Blob]** externt konto. Mer information om detta hittar du på den här [sidan](../../administration/using/external-accounts.md#microsoft-azure-external-account).
 
 1. Välj om du vill **[!UICONTROL Define a file path]** eller **[!UICONTROL Use a dynamic file path]**.
 
    ![](assets/wkf_file_transfer_10.png)
 
-1. Ange sökvägen till filen som ska laddas ned. Den kan matcha flera bloggar. I så fall kommer aktiviteten att aktivera den utgående övergången **[!UICONTROL File transfer]** när en blob hittas. De bearbetas sedan i alfabetisk ordning.
+1. Ange sökvägen till filen som ska laddas ned. Den kan matcha flera blobbar. I så fall så kommer aktiviteten att aktivera den utgående övergången **[!UICONTROL File transfer]** när en blob hittas. De bearbetas sedan i alfabetisk ordning.
 
    >[!CAUTION]
    >
-   >Jokertecken stöds inte för att matcha flera filnamn. Du måste i stället ange ett prefix. Alla blobnamn som matchar det prefixet är giltiga.
+   >Jokertecken stöds inte vid matchaning av flera filnamn. Du måste i stället ange ett prefix. Alla blob-namn som matchar prefixet är giltiga.
 
-   Nedan finns en lista med exempel på filsökvägar:
+   Nedan så finns en lista med exempel på filsökvägar:
 
-   * **&quot;campaign/&quot;**: matchar alla blobbar i Campaign-mappen som finns i behållarens rot.
-   * **&quot;campaign/new-&quot;**: matchar alla blobbar med ett filnamn som börjar med&quot;new-&quot; och som finns under Campaign-mappen.
-   * **&quot;&quot;**: Om du lägger till en tom sökväg kan du matcha alla blober som finns i behållaren.
+   * **&quot;campaign/&quot;**: matchar alla blobbar i Kampanj-mappen som finns i roten av behållarens.
+   * **&quot;campaign/new-&quot;**: matchar alla blobbar med ett filnamn som börjar på &quot;new-&quot; och som finns under Kampanj-mappen.
+   * **&quot;&quot;**: Om du lägger till en tom sökväg så kan du matcha alla blobbar som finns i behållaren.
 
-### Konfiguration med filer på Adobe Campaign-servern {#files-server-configuration-wf}
+### Konfiguration med filer som finns på Adobe Campaign-servern {#files-server-configuration-wf}
 
-Protokollet motsvarar den databas som innehåller de filer som ska återställas. **[!UICONTROL File(s) present on the Adobe Campaign server]** 
-Metatecken eller jokertecken (till exempel * eller ?) kan användas för att filtrera filer.
+Protokollet **[!UICONTROL File(s) present on the Adobe Campaign server]** motsvarar den databas som innehåller de filer som ska återställas.  
+Metat eller jokertecken (exempelvis * eller ?) kan användas för att filtrera filer.
 
-Välj om du vill **[!UICONTROL Define a file path]** eller **[!UICONTROL Use a dynamic file path]** alternativet **[!UICONTROL Use a dynamic file path]** Med kan du använda ett standarduttryck och händelsemariabler för att anpassa namnet på filen som ska överföras. Mer information finns i avsnittet [Anpassa aktiviteter med händelsevariabler](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) .
+Välj om du vill **[!UICONTROL Define a file path]** eller **[!UICONTROL Use a dynamic file path]**
+**[!UICONTROL Use a dynamic file path]**-alternativet ger dig möjligheten att använda ett standarduttryck och händelsevariabler för att anpassa namnet på filen som ska överföras. Mer information om detta hittar du i avsnittet [Anpassa aktiviteter med händelsevariabler](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) .
 
-Observera att sökvägen måste vara relativ till lagringsutrymmeskatalogen på Adobe Campaign-servern. Filerna finns i katalogen **sftp&lt;dininstancename>/** . Du kan inte heller bläddra bland katalogerna ovanför lagringsutrymmet. Exempel:
+Notera att sökvägen måste vara relativ till Adobe Campaign-serverns lagringsutrymmeskatalog. Filerna finns i katalogen **sftp&lt;instansnamn>/** . Du kan inte heller bläddra bland katalogerna över lagringsutrymmet. Exempel:
 
     >**user&amp;lt;yourinstancename>/my_recipients.csv** är korrekt.
     >
-    >**../hello/my_recipients.csv** är felaktigt.
+    >**../hello/my_recipients.csv** är inkorrekt.
     >
-    >**//myserver/hello/myrecipients.csv* är felaktigt.
+    >**//myserver/hello/myrecipients.csv* är inkorrekt.
 
 ## Historikinställningar {#historization-settings}
 
-Varje gång en **[!UICONTROL Transfer file]** aktivitet körs sparas de överförda eller hämtade filerna i en dedikerad mapp. En mapp skapas för varje **[!UICONTROL Transfer file]** aktivitet i ett arbetsflöde. Därför är det viktigt att du kan begränsa storleken på den här mappen för att bevara det fysiska utrymmet på servern.
+Varje gång en **[!UICONTROL Transfer file]**-aktivitet körs så sparas de överförda eller hämtade filerna i en dedikerad mapp. En mapp skapas för varje **[!UICONTROL Transfer file]**-aktivitet i ett arbetsflöde. Därför är det viktigt att du har möjligheten att begränsa storleken på den här mappen för att bevara det fysiska utrymmet på servern.
 
-För att göra det kan du definiera **[!UICONTROL Historization settings]** i **[!UICONTROL Advanced options]** aktivitetens **[!UICONTROL Transfer File]** förlopp.
+För att göra detta så kan du definiera **[!UICONTROL Historization settings]** i **[!UICONTROL Advanced options]** av aktivitetens **[!UICONTROL Transfer File]** förlopp.
 
-**[!UICONTROL Historization settings]** gör att du kan definiera ett maximalt antal filer eller en total storlek för aktivitetsmappen. Som standard har 100 filer och 50 MB behörighet.
+**[!UICONTROL Historization settings]** ger dig möjligheten att definiera ett maximalt antal filer eller en total storlek för aktivitetsmappen. Som standard så är 100 filer och 50 MB tillåtet.
 
-Varje gång aktiviteten körs kontrolleras mappen enligt följande:
+Varje gång aktiviteten körs så kontrolleras mappen enligt följande:
 
 * Endast filer som skapats mer än 24 timmar innan aktiviteten kördes tas med i beräkningen.
-* Om det antal filer som ska tas med i beräkningen är större än värdet för **[!UICONTROL Maximum number of files]** parametern tas de äldsta filerna bort tills det **[!UICONTROL Maximum number of files]** tillåtna antalet nås.
-* Om den totala storleken på de filer som tas med i beräkningen är större än värdet på **[!UICONTROL Maximum size (in MB)]** parametern tas de äldsta filerna bort tills den **[!UICONTROL Maximum size (in MB)]** tillåtna storleken nås.
+* Om det antal filer som ska tas med i beräkningen är större än värdet för **[!UICONTROL Maximum number of files]** parametern så tas de äldsta filerna bort tills det **[!UICONTROL Maximum number of files]** tillåtna antalet nås.
+* Om den totala storleken på de filer som tas med i beräkningen är större än värdet på **[!UICONTROL Maximum size (in MB)]** parametern så tas de äldsta filerna bort tills den **[!UICONTROL Maximum size (in MB)]** tillåtna storleken nås.
 
 >[!NOTE]
 >
->Om aktiviteten inte körs igen kontrolleras eller rensas inte dess mapp. Var därför försiktig när du överför stora filer.
+>Om aktiviteten inte körs igen så kontrolleras eller rensas inte dess mapp. Var därför försiktig när du överför stora filer.
