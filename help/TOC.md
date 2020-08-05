@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Hjälp för Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 91cb524e104fbaa7f3334578d82b3878cc15fc9b
+source-git-commit: 95a7397092f6e07c84967d90908469f630f7a170
 workflow-type: tm+mt
-source-wordcount: '1550'
-ht-degree: 88%
+source-wordcount: '1564'
+ht-degree: 87%
 
 ---
 
@@ -407,8 +407,10 @@ ht-degree: 88%
       + [Lägga till bilder och videoklipp iOS](administration/using/image-push-notification.md)
       + [Förstå nyttolaststrukturen för push-meddelanden](administration/using/push-payload.md)
       + [Implementera lokal meddelandespårning](administration/using/local-tracking.md)
-      + [SyncWithLaunch Technical workflow FAQ](administration/using/syncwithlaunch-faq.md)
-      + [Kom igång med Adobe Experience Platform SDK och Campaign](administration/using/aep-faq.md)
+      + [Vanliga frågor om Adobe-startsynkronisering](administration/using/syncwithlaunch-faq.md)
+      + [Vanliga frågor om integrering av Experience Platform SDK](administration/using/aep-faq.md)
+      + [Konfigurera startregler som stöder Adobe Campaign Standard användningsfall](administration/using/configuring-rules-launch.md)
+      + [Mobil användning som stöds av Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
    + Programinställningar {#application-settings}
       + [Om Campaign Standard-inställningar](administration/using/about-campaign-standard-settings.md)
       + [Externa konton](administration/using/external-accounts.md)
