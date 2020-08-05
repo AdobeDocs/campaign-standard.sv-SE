@@ -12,21 +12,21 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
+source-git-commit: 2b04a5efdde3153d3ede0ad8bc4f56cd4a5fa1df
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 0%
+source-wordcount: '813'
+ht-degree: 2%
 
 ---
 
 
-# Kom igång med Adobe Experience Platform SDK och Campaign Standard {#aep-faq}
+# Vanliga frågor om integrering av Experience Platform SDK {#aep-faq}
 
-Om du vill skicka push-meddelanden och meddelanden i appen med Experience Platform SDK-programmet måste ett mobilprogram konfigureras i Adobe Experience Platform SDK och i Adobe Campaign.
+För att skicka push-meddelanden och meddelanden i appen med Experience Platform SDK-programmet måste ett mobilprogram konfigureras i Adobe Experience Platform SDK och konfigureras i Adobe Campaign.
 
 I avsnittet nedan visas vanliga frågor om synkroniseringen.
 
-Mer information om Push och In-app finns i följande vanliga frågor och svar:
+Mer information om Push eller In-App (Push) finns i följande vanliga frågor och svar:
 
 * [Vanliga frågor om push-meddelanden](../../channels/using/about-push-notifications.md#push-faq)
 * [Vanliga frågor om appar](../../channels/using/about-push-notifications.md#in-app-faq)
@@ -39,13 +39,13 @@ Mer information om Adobe Experience Platform SDK och integrering av Campaign Sta
 * Video om [mobilöversikt](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
 * Guide för [tips och tricks för lansering/mobiler](https://www.adobe.com/content/dam/www/us/en/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
-## Finns integrering med Adobe Experience Platform SDK för både Adobe Campaign Standard och Adobe Campaign Classic? {#aep-validity}
+## Är Adobe Experience Platform SDK-integrering tillgänglig för både Adobe Campaign Standard och Adobe Campaign Classic? {#aep-validity}
 
-Ja, integrering finns för både Adobe Campaign Standard och Adobe Campaign Classic [!DNL Adobe Experience Platform SDK] . Du måste installera motsvarande **[!UICONTROL Extension]** via [!DNL Adobe Launch] för att kunna aktivera integreringen.
+Ja, [!DNL Adobe Experience Platform SDK] integrering finns för både Adobe Campaign Standard och Adobe Campaign Classic. Du måste installera motsvarande **[!UICONTROL Extension]** via [!DNL Adobe Launch] för att kunna aktivera integreringen.
 
 Mer information finns på den här [sidan](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic) för Campaign Classic och på den här [sidan](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) för Campaign Standard.
 
-## Vilka funktioner underlättar integreringen mellan Adobe Experience Platform SDK i Adobe Campaign? {#aep-capabilities}
+## Vilka funktioner underlättar Adobe Experience Platform SDK-integreringen i Adobe Campaign? {#aep-capabilities}
 
 Se tabellen nedan för mer information om dessa funktioner.
 
@@ -55,29 +55,29 @@ Se tabellen nedan för mer information om dessa funktioner.
 >
 >[!DNL Places] integreringen innefattar platshändelser som utlösare för meddelanden i appen (N/A för push-meddelanden), berikande profiler med [!DNL Places] data och stöd för lokala meddelanden. Mer information finns på den här [sidan](../../channels/using/preparing-and-sending-an-in-app-message.md) . <br>[!DNL Places] begränsad integrering innefattar berikande profiler med [!DNL Places] data.
 
-## Hur underlättar integreringen mellan Adobe Experience Platform SDK i Adobe Campaign Standard? {#aep-use-cases}
+## Hur fungerar Adobe Experience Platform SDK-integrering i Adobe Campaign Standard? {#aep-use-cases}
 
 Följande användningsområden stöds:
 
 * Hämta en fil **[!UICONTROL Mobile Profile]** i Campaign (identifieras med ECID i **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]** > **[!UICONTROL Mobile Application subscribers]** tab)
-* Fyll i en fil **[!UICONTROL Mobile Profile]** i Adobe Campaign (kräver **[!UICONTROL Custom resource Extension]** tabellen appSubscriberRcp)
+* Berika en fil **[!UICONTROL Mobile Profile]** i Adobe Campaign (kräver **[!UICONTROL Custom resource Extension]** tabellen appSubscriberRcp)
 * Hämta en push-token för att skicka push-meddelanden (kräver att användaren väljer att ta emot push-meddelanden)
 * Skicka push- och In-App-meddelanden
 * Spåra användarens interaktion med push- och In-App-meddelanden och rapportera om detta
 
 ## Vad måste jag göra för att skaffa en mobilprofil i Campaign? {#mobile-profile-campaign}
 
-Gör så här:
+För att göra detta, följ nedanstående steg:
 
 1. Konfigurera en **[!UICONTROL Mobile property]** i [!DNL Launch].
-1. Installera tillägget Adobe Campaign Standard. Observera att tillägget för Adobe Campaign Standard också kräver **[!UICONTROL Mobile Core]**, **[!UICONTROL Profile]** och **[!UICONTROL Lifecycle]** tillägg som är installerade som standard i [!DNL Launch].
+1. Installera Adobe Campaign Standard-tillägget. Observera att Adobe Campaign Standard-tillägget också kräver **[!UICONTROL Mobile Core]** och **[!UICONTROL Profile]** att tillägg som är installerade som standard i **[!UICONTROL Lifecycle]** [!DNL Launch].
    * Användare bör konfigurera timeout för sessioner i **[!UICONTROL Mobile Core]** tillägg som påverkar frekvensen för livscykelhändelser.
    * När tillägget har konfigurerats bör användarna lägga till lämpliga beroenden i mobilappen med Cocoapods för iOS och Gradle för Android. Följ instruktionerna [här](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
    * Ta alltid de senaste versionerna av biblioteken.
    * Registrera **[!UICONTROL Campaign]**, **[!UICONTROL UserProfile]**, **[!UICONTROL Identity]** och **[!UICONTROL Lifecycle]** **[!UICONTROL Signal]** tillägg i mobilappen. Följ instruktionerna [här](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#register-the-campaign-standard-extension-with-mobile-core).
    * När tilläggen har registrerats startar du ACPCore. För Android måste du se till att ställa in Application onCreate(). Följ de exakta instruktionerna i Mobile Install Instructions för din mobila egenskap i Launch.
    * Du måste också följa SDK API:er. Implementera API:er för start och paus i livscykeln enligt beskrivningen [här](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-android) för Android och här för iOS.
-1. Konfigurera en **[!UICONTROL Mobile Property]** i-Adobe Campaign Standard. Följ proceduren [här](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
+1. Konfigurera en **[!UICONTROL Mobile Property]** i Adobe Campaign Standard. Följ proceduren [här](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
 ## Vad måste jag göra för att berika en mobilprofil i Campaign? {#enrich-mobile-profile}
 
@@ -95,11 +95,11 @@ Ja. Beroende på ditt företags behov kan du utlösa CollectPII-anrop som svar p
 
 Frekvensen och utformningen av CollectPII-anrop ska styras av affärsbehoven och ska inte avfyras blint eftersom det skapar extra belastning på DB.
 
-### När jag försöker komma åt Adobe Experience Platform-appar i Campaign eller Launch visas ibland ett fel som inte är tillgängligt för egenskapen. {#aep-error}
+### När jag försöker komma åt Adobe Experience Platform-appar i Campaign eller Launch kan jag ibland få ett fel som inte är tillgängligt för egenskapen. {#aep-error}
 
 Detta är ett känt problem och inträffar på grund av att token har gått ut. Du bör försöka logga ut och in.
 
-## Vilka skulle vara användbara resursrekommendationer för att lära sig mer om Adobe Experience Platform SDK (tidigare SDK V5)?{#resource-aep}
+## Vad skulle vara användbara resursrekommendationer om du vill veta mer om Adobe Experience Platform SDK (tidigare SDK V5)?{#resource-aep}
 
 Läs resurserna nedan:
 
