@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1f15808bd892305282b838bebbc8fa1ce58283e
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
 workflow-type: tm+mt
 source-wordcount: '6092'
 ht-degree: 94%
@@ -472,7 +472,7 @@ Förbättringar av betaversionen av app-meddelanden - [läs mer](../../channels/
 
 Guiden Designa innehåll har uppdaterats för att återspegla Email Designers allmänna tillgänglighet och borttagningen av det gamla programmet för redigering av e-postinnehåll. [Läs mer](../../designing/using/designing-content-in-adobe-campaign.md)
 
-Uppdaterade dokumentationen för [app-meddelanden](../../channels/using/about-in-app-messaging.md) och [push-meddelanden](../../channels/using/about-push-notifications.md) .
+Updated the [In-App](../../channels/using/about-in-app-messaging.md) and [Push notification](../../channels/using/about-push-notifications.md) documentation.
 
 Ytterligare information om olika typer av målgrupper har lagts till i Adobe Campaign. [Läs mer](../../audiences/using/about-audiences.md)
 
@@ -822,7 +822,7 @@ Många skärmbilder har uppdaterats för att återspegla gränssnittsändringar.
 
 Nu finns en ny teknik: &quot;Integrera Adobe Mobile SDK med mobilappen&quot;. [Läs mer](https://helpx.adobe.com/se/campaign/kb/integrate-mobile-sdk.html)
 
-Instruktioner om hur du konfigurerar People core service eller integreringen mellan Audience Manager och Adobe Campaign har lagts till. [Läs mer](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+Instruktioner om hur du konfigurerar People core Service eller Audience Manager-integrering med Adobe Campaign har lagts till. [Läs mer](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 Behörighetstabellen har reviderats för att tydliggöra vissa rollers funktion. [Läs mer](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
