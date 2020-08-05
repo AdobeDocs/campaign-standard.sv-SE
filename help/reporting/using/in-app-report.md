@@ -1,6 +1,6 @@
 ---
 title: Rapport i appen
-description: Med den färdiga rapporten i appen får du veta hur väl era meddelanden i appen fungerar.
+description: Läs mer om hur dina meddelanden i appen fungerar med den färdiga rapporten i appen.
 page-status-flag: never-activated
 uuid: 802dc606-a314-46dd-b361-b746b0772303
 contentOwner: sauviat
@@ -12,7 +12,10 @@ discoiquuid: 3f17c2ad-8ba3-4795-93ed-288b2bcee872
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+workflow-type: tm+mt
+source-wordcount: '242'
+ht-degree: 1%
 
 ---
 
