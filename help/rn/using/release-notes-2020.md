@@ -11,11 +11,11 @@ topic-tags: campaign-standard-releases
 discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f4c6b74d9b80d80befed65d853cf82b32084c49d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+workflow-type: tm+mt
 source-wordcount: '1825'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -204,7 +204,7 @@ ht-degree: 100%
 * Prestandaproblem som kan uppstå vid val och uppdatering av testprofiler har åtgärdats. (CAMP-37976)
 * Korrigerade ett problem som kunde visa felsidor när prenumeration tecknades eller avslutades via landningssidor. (CAMP-37771)
 * Korrigerade ett problem som uppstod vid överföring av innehåll i zip-format, med PNG-filer som refereras i HTML-koden med tillägget i versaler. (CAMP-37913)
-* Korrigerade ett problem som förhindrade att meddelanden i programmet skickades när en testprofil lades till i leveransen.
+* Korrigerade ett problem som förhindrade att meddelanden i appen skickades när en testprofil lades till i leveransen.
 * Korrigerade ett fel med arbetsflödesaktiviteten för det externa API:t som misslyckades vid koppling till berikningsaktiviteter.
 * Korrigerade ett problem som kunde göra att status för SMS-meddelanden visades felaktigt.
 * Korrigerade ett problem med anpassade resurser som gjorde att dubblettposter visades under olika API-slutpunkter.
