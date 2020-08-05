@@ -1,6 +1,6 @@
 ---
-title: Varför ska jag använda Campaign Standard-API:er?
-description: Läs mer om programmeringsgränssnitt för Campaign Standard och varför du ska använda dem.
+title: Varför använda Campaign Standard-API:er?
+description: Läs mer om Campaign Standard-API:er och varför du ska använda dem.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -12,16 +12,19 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 47b5cf6aee969c7a199ec934b5be6bf80bee590e
+source-git-commit: 2b04a5efdde3153d3ede0ad8bc4f56cd4a5fa1df
+workflow-type: tm+mt
+source-wordcount: '492'
+ht-degree: 1%
 
 ---
 
 
-# Varför använda Campaign Standard-API:er {#why-using-campaign-standard-apis}
+# Why use Campaign Standard APIs {#why-using-campaign-standard-apis}
 
-Adobe Campaign Standard innehåller API:er som gör att befintliga system kan integreras med ACS-plattformen för att lösa problem i realtid.
+Adobe Campaign Standard tillhandahåller API:er som gör att befintliga system kan integreras med ACS-plattformen för att lösa problem i realtid.
 
-Offentliga webbplatser som anmälnings- eller avanmälningssidan måste ansluta till serverdelssystem för att lagra profilinformation. Serversystem som Adobe Campaign har flexibiliteten och kraften att importera profildata till och utföra anpassade åtgärder på dem.
+Offentliga webbplatser som anmälnings- eller avanmälningssidan måste ansluta till serverdelssystem för att lagra profilinformation. Backend-system som Adobe Campaign har flexibiliteten och kraften att importera profildata till och utföra anpassade åtgärder på dem.
 
 Här är några exempel:
 
@@ -30,7 +33,7 @@ Här är några exempel:
 * Händelsebaserad transaktionskommunikation som utlöser - orderbekräftelse, bokningslogik, lösenordsåterställning osv.
 * Till och med e-postkommunikation om att kunden överger en varukorg.
 
-Genom att registrera landningssidor kan kunder och presumtiva kunder registrera sina namn och e-postadresser. När Campaign Standard hämtar in profilinformationen och inställningarna kan det skicka personaliserade meddelanden utifrån personens intressen.
+Genom att registrera landningssidor kan kunder och presumtiva kunder registrera sina namn och e-postadresser. När Campaign Standarden hämtar in profilinformationen och inställningarna kan den skicka personaliserade meddelanden utifrån personens intressen.
 
 De byggs med elementen nedan:
 
@@ -42,13 +45,13 @@ De byggs med elementen nedan:
 
    ![alt-text](assets/apis_uc2.png)
 
-1. En profil kan ändra sin information efter att ha klickat på länken &quot;Uppdatera detaljer&quot; i e-postmeddelandet. Då visas profilen på sidan&quot;Uppdatera din profil och dina inställningar&quot;. För att utföra åtgärden skickas profilinformationen (Pkey) till Campaign-servern och profilen hämtas och representeras. När profilen klickar på knappen &quot;Uppdatera&quot; uppdateras informationen i systemet (via ett PATCH-kommando).
+1. En profil kan ändra sin information efter att ha klickat på länken &quot;Uppdatera detaljer&quot; i e-postmeddelandet. Då visas profilen på sidan&quot;Uppdatera din profil och dina inställningar&quot;. För att utföra åtgärden skickas profilinformationen (Pkey) till Campaign-servern och profilen hämtas och representeras. När profilen klickar på Uppdatera uppdateras informationen till systemet (via ett PATCH-kommando).
 
    ![alt-text](assets/apis_uc3.png)
 
-Det finns en samling förfrågningar som hjälper dig att bekanta dig med förfrågningar från programmeringsgränssnitt för Campaign Standard. Den här samlingen i JSON-format innehåller fördesignade API-begäranden som representerar vanliga användningsfall.
+Det finns en samling förfrågningar som du kan använda för att bekanta dig med Campaign Standard-API:er. Den här samlingen i JSON-format innehåller fördesignade API-begäranden som representerar vanliga användningsfall.
 
-Stegen nedan beskriver ett stegvis användningsfall för att importera och använda samlingen för att skapa en profil i Campaign Standard-databasen.
+Stegen nedan beskriver ett stegvis användningsfall för att importera och använda samlingen för att skapa en profil i en Campaign Standard-databas.
 
 >[!NOTE]
 >
@@ -62,7 +65,7 @@ Stegen nedan beskriver ett stegvis användningsfall för att importera och anvä
 
    ![alt-text](assets/postman_collection.png)
 
-1. Välj **Skapa en profilbegäran** och uppdatera sedan POST-begäran och fliken **Rubriker** med din egen information (&lt;ORGANISATION>, &lt;API_KEY>, &lt;ACCESS_TOKEN>). For more on this, refer to [this section](../../api/using/setting-up-api-access.md).
+1. Markera **Skapa en profilbegäran** och uppdatera sedan POSTEN och fliken **Sidhuvuden** med din egen information (&lt;ORGANISATION>, &lt;API_KEY>, &lt;ACCESS_TOKEN>). Mer information om detta hittar du i [det här avsnittet](../../api/using/setting-up-api-access.md).
 
    ![alt-text](assets/postman_uc1.png)
 
@@ -74,6 +77,6 @@ Stegen nedan beskriver ett stegvis användningsfall för att importera och anvä
 
    ![alt-text](assets/postman_uc3.png)
 
-1. Öppna Campaign Standard-instansen och kontrollera att profilen har skapats, med all information från nyttolasten.
+1. Öppna din Campaign Standard-instans och kontrollera sedan att profilen har skapats, med all information från nyttolasten.
 
    ![alt-text](assets/postman_uc4.png)
