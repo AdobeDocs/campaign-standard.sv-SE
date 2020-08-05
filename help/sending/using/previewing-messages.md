@@ -12,7 +12,10 @@ discoiquuid: 8428f8ac-8ef5-46cd-9d93-10ec0ecd3ded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 92bbf57f1a6eff67d2551dc83dd8cb5f6b38bd99
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+workflow-type: tm+mt
+source-wordcount: '624'
+ht-degree: 15%
 
 ---
 
@@ -21,11 +24,11 @@ source-git-commit: 92bbf57f1a6eff67d2551dc83dd8cb5f6b38bd99
 
 ## Förhandsgranska e-postmeddelanden {#previewing-emails}
 
-Med Campaign Standard kan ni förhandsgranska meddelanden innan de skickas, för att kontrollera deras personalisering och hur mottagarna ser dem.
+Med Campaign Standard kan du förhandsgranska meddelanden innan de skickas, för att kontrollera deras personalisering och hur mottagarna ser dem.
 
 Förhandsgranskning av meddelanden utförs med **testprofiler** som du lägger till i meddelandets mål.
 
-För **e-postmeddelanden** kan ni med Campaign Standard förhandsgranska meddelanden med målprofiler i stället för testprofiler. På så sätt kan du få en exakt representation av meddelandet som en viss profil får. Mer information finns i [Testa e-postmeddelanden med målprofiler](../../sending/using/testing-messages-using-target.md).
+För **e-postmeddelanden** kan du med Campaign Standard förhandsgranska meddelanden med hjälp av målprofiler i stället för testprofiler. På så sätt kan du få en exakt representation av meddelandet som en viss profil får. Mer information finns i [Testa e-postmeddelanden med målprofiler](../../sending/using/testing-messages-using-target.md).
 
 Så här förhandsgranskar du ett meddelande med testprofiler:
 
@@ -55,11 +58,11 @@ Så här förhandsgranskar du ett meddelande med testprofiler:
 
 ## Förhandsgranska SMS-meddelanden {#previewing-sms}
 
-För **SMS** -meddelanden kan ni med Campaign Standard förhandsgranska meddelanden med testprofiler. På så sätt kan du få en exakt representation av meddelandet som en viss profil får. Mer information finns i [Hantera testprofiler](../../audiences/using/managing-test-profiles.md).
+För **SMS** -meddelanden kan du med Campaign Standard förhandsgranska meddelanden med testprofiler. På så sätt kan du få en exakt representation av meddelandet som en viss profil får. Mer information finns i [Hantera testprofiler](../../audiences/using/managing-test-profiles.md).
 
 Så här förhandsgranskar du ett SMS-meddelande med testprofiler:
 
-1. När ni har fyllt i **[!UICONTROL Properties]** SMS-meddelandet och valt ut era målgrupper kan ni anpassa er leverans. Mer information finns i [avsnittet](../../channels/using/personalizing-sms-messages.md).
+1. När ni har fyllt i **[!UICONTROL Properties]** SMS-meddelandet och valt ut era målgrupper kan ni anpassa er leverans. For more information, refer to [section](../../channels/using/personalizing-sms-messages.md).
 
    ![](assets/sms_preview.png)
 
@@ -115,7 +118,7 @@ Du kan nu se den exakta representationen av ditt meddelande beroende på de vald
 
 ## Förhandsgranska meddelanden i appen {#previewing-in-app}
 
-I **appen** kan ni med Campaign Standard förhandsgranska meddelanden med testprofiler. På så sätt kan du få en exakt representation av meddelandet som en viss profil får. Mer information finns i [Hantera testprofiler](../../audiences/using/managing-test-profiles.md).
+I **appen** kan du med Campaign Standard förhandsgranska meddelanden med testprofiler. På så sätt kan du få en exakt representation av meddelandet som en viss profil får. Mer information finns i [Hantera testprofiler](../../audiences/using/managing-test-profiles.md).
 
 Så här förhandsgranskar du ett meddelande i appen med testprofiler:
 
@@ -137,6 +140,6 @@ Du kan nu se den exakta representationen av ditt meddelande beroende på de vald
 
 **Relaterade ämnen**
 
-* [Om meddelanden i appen](../../channels/using/about-in-app-messaging.md)
+* [Om app-meddelanden](../../channels/using/about-in-app-messaging.md)
 * [Förbereda och skicka ett meddelande i appen](../../channels/using/preparing-and-sending-an-in-app-message.md)
 * [Anpassa ett meddelande i appen](../../channels/using/customizing-an-in-app-message.md)
