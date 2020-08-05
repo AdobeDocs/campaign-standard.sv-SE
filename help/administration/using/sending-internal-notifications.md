@@ -1,6 +1,6 @@
 ---
 title: Skicka interna meddelanden
-description: Lär dig hur du skickar systemmeddelanden i realtid till Adobe Campaign-användare.
+description: Lär dig hur du skickar systemmeddelanden i realtid till dina Adobe Campaign-användare.
 page-status-flag: never-activated
 uuid: f196f025-dbb9-4268-9d7d-ff626994b447
 contentOwner: sauviat
@@ -12,17 +12,17 @@ discoiquuid: 4d51229a-745a-4f24-b1c2-22fa203b499c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
 workflow-type: tm+mt
 source-wordcount: '264'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
 # Skicka interna meddelanden{#sending-internal-notifications}
 
-Med Adobe Campaign kan ni få meddelanden om viktiga systemaktiviteter direkt i programmet. Realtidsmeddelanden håller berörda intressenter informerade och ger användarna möjlighet att direkt agera på aktivitetsmeddelanden inifrån programmet. Resultatet för teamen är avancerad flexibilitet, effektivitet och smidigare genomförande av kampanjer.
+Adobe Campaign ger dig möjlighet att få meddelanden om viktiga systemaktiviteter direkt i programmet. Realtidsmeddelanden håller berörda intressenter informerade och ger användarna möjlighet att direkt agera på aktivitetsmeddelanden inifrån programmet. Resultatet för teamen är avancerad flexibilitet, effektivitet och smidigare genomförande av kampanjer.
 
 ![](assets/pulse_3.png)
 
