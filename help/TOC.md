@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Hjälp för Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 95a7397092f6e07c84967d90908469f630f7a170
+source-git-commit: b9fbcbd7d6ea206ae3ed1faca89f4000052f97dc
 workflow-type: tm+mt
 source-wordcount: '1564'
-ht-degree: 87%
+ht-degree: 88%
 
 ---
 
@@ -136,13 +136,13 @@ ht-degree: 87%
    + [Kom igång med testning och sändning](sending/using/get-started-sending-messages.md)
    + Förbereda och testa meddelanden {#preparing-and-testing-messages}
       + [Förhandsgranska leveranser](sending/using/previewing-messages.md)
-      + [Förbered sändningen](sending/using/preparing-the-send.md)
       + [Skicka korrektur](sending/using/sending-proofs.md)
       + [Testa e-postmeddelanden med målprofiler](sending/using/testing-messages-using-target.md)
       + [Testa ämnesraden i ett e-postmeddelande](sending/using/testing-subject-line-email.md)
       + [AI-baserade e-postmeddelanden](sending/using/predictive.md)
       + [E-poståtergivning](sending/using/email-rendering.md)
       + [Använda traps](sending/using/using-traps.md)
+      + [Förbered sändningen](sending/using/preparing-the-send.md)
    + Schemaläggning av meddelanden {#scheduling-messages}
       + [Om schemaläggning av meddelanden](sending/using/about-scheduling-messages.md)
       + [Optimera sändningstiden](sending/using/optimizing-the-sending-time.md)
@@ -242,7 +242,7 @@ ht-degree: 87%
    + Allmänt om arbetsflöde {#workflow-general-operation}
       + [Arbetsflödesgränssnitt](automating/using/workflow-interface.md)
       + [Skapa ett arbetsflöde](automating/using/building-a-workflow.md)
-      + [Bäst praxis för arbetsflöden](automating/using/best-practices-workflows.md)
+      + [Bästa praxis för arbetsflöden](automating/using/best-practices-workflows.md)
    + Köra ett arbetsflöde {#executing-a-workflow}
       + [Om arbetsflödeskörning](automating/using/about-workflow-execution.md)
       + [Arbetsflödets livscykel](automating/using/workflow-life-cycle.md)
@@ -252,8 +252,8 @@ ht-degree: 87%
       + [Hantera aktiviteters egenskaper](automating/using/activity-properties.md)
    + [Anropa ett arbetsflöde med externa parametrar](automating/using/calling-a-workflow-with-external-parameters.md)
    + Målaktiviteter {#targeting-activities}
-      + [Om målaktiviteter](automating/using/about-targeting-activities.md)
-      + [Förfrågan](automating/using/query.md)
+      + [Om målinriktade aktiviteter](automating/using/about-targeting-activities.md)
+      + [Fråga](automating/using/query.md)
       + [Inkrementell förfrågan](automating/using/incremental-query.md)
       + [Sammanslutning](automating/using/union.md)
       + [Skärningspunkt](automating/using/intersection.md)
@@ -266,7 +266,7 @@ ht-degree: 87%
    + Körningsaktiviteter {#execution-activities}
       + [Om körningsaktiviteter](automating/using/about-execution-activities.md)
       + [Starta och sluta](automating/using/start-and-end.md)
-      + [Förgrening](automating/using/fork.md)
+      + [Gaffel](automating/using/fork.md)
       + [AND-join](automating/using/and-join.md)
       + [Schemaläggare](automating/using/scheduler.md)
       + [Vänta](automating/using/wait.md)
@@ -302,7 +302,7 @@ ht-degree: 87%
       + [Hantera paket](automating/using/managing-packages.md)
       + [Exporterar listor](automating/using/exporting-lists.md)
       + [Användningsfall: Exportera/importera anpassade resurser](automating/using/exporting-importing-custom-resources.md)
-   + Användningsexempel {#workflow-use-case}
+   + Användningsfall {#workflow-use-case}
       + [Om användningsfall för arbetsflöden](automating/using/about-workflow-use-cases.md)
       + Leveranser {#deliveries}
          + [Skapa leveranser med ett komplement](automating/using/workflow-created-query-with-complement.md)
