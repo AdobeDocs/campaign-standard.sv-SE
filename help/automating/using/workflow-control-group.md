@@ -1,5 +1,5 @@
 ---
-title: Bygga en kontrollgrupp
+title: Skapa en kontrollgrupp
 description: I det här exemplet visas hur du skapar en kontrollgrupp.
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
@@ -13,15 +13,15 @@ context-tags: workflow,use-case,query,segmentation,delivery
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
+source-git-commit: 73a91344ada17d6eb0da0335e08ea27a1019b4fb
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 0%
+source-wordcount: '757'
+ht-degree: 14%
 
 ---
 
 
-# Bygga en kontrollgrupp {#building-control-group}
+# Skapa en kontrollgrupp {#building-control-group}
 
 Om du vill mäta effekten av en leverans kanske du vill utesluta vissa profiler från målet så att de inte får ett visst meddelande. Den här kontrollgruppen kan användas för att göra en jämförelse med beteendet hos målpopulationen som tog emot meddelandet.
 
@@ -48,19 +48,19 @@ Först måste du utöka **[!UICONTROL Profile]** resursen med ett nytt fält som
    ![](assets/wkf_control-group-profile-field-screen.png)
 
 1. Spara ändringarna.
-1. Uppdatera databasstrukturen för att publicera den **[!UICONTROL Profile]** utökade resursen. Se [Publicera en anpassad resurs](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
+1. Uppdatera databasstrukturen för att publicera den **[!UICONTROL Profile]** utökade resursen. See [Publishing a custom resource](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
 Mer information om hur du utökar en anpassad resurs finns i [Nyckelsteg för att lägga till en resurs](../../developing/using/key-steps-to-add-a-resource.md).
 
 ## Skapa ett arbetsflöde {#creating-a-workflow}
 
-1. Klicka **[!UICONTROL Marketing Activities]** i **[!UICONTROL Create]** och markera **[!UICONTROL Workflow]**.
+1. I **[!UICONTROL Marketing Activities]**, klicka på **[!UICONTROL Create]** och markera **[!UICONTROL Workflow]**.
 1. Välj **[!UICONTROL New Workflow]** som arbetsflödestyp och klicka på **[!UICONTROL Next]**.
 1. Ange arbetsflödets egenskaper och klicka på **[!UICONTROL Create]**.
 
-De detaljerade stegen för att skapa ett arbetsflöde visas i avsnittet [Skapa ett arbetsflöde](../../automating/using/building-a-workflow.md) .
+De detaljerade stegen för att skapa ett arbetsflöde visas i avsnittet [Skapa ett arbetsflöde](../../automating/using/building-a-workflow.md).
 
-## Skapa en frågeaktivitet {#create-a-query-activity}
+## Skapa en förfrågningsaktivitet{#create-a-query-activity}
 
 1. I **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** drar och släpper du en [Query](../../automating/using/query.md) -aktivitet.
 1. Dubbelklicka på aktiviteten för att definiera ditt mål.
@@ -69,7 +69,7 @@ De detaljerade stegen för att skapa ett arbetsflöde visas i avsnittet [Skapa e
 
 ## Skapa en segmenteringsaktivitet {#creating-a-segmentation-activity}
 
-1. Dra och släpp en [segmenteringsaktivitet](../../automating/using/segmentation.md) och dubbelklicka på den.
+1. Drag and drop a [Segmentation](../../automating/using/segmentation.md) activity and double-click it.
 1. Markera ett segment som du vill redigera på fliken **[!UICONTROL Segments]** .
 1. Välj **[!UICONTROL Configuration]** alternativet på fliken **[!UICONTROL Limit the population of this segment]** i det segmentet.
 
@@ -86,23 +86,23 @@ De detaljerade stegen för att skapa ett arbetsflöde visas i avsnittet [Skapa e
 
 1. Klicka på **[!UICONTROL Confirm]**.
 
-## Skapa en e-postaktivitet {#creating-an-email-activity}
+## Creating an Email activity {#creating-an-email-activity}
 
 1. I **[!UICONTROL Activities]** > **[!UICONTROL Channels]** drar och släpper du en aktivitet för [e-postleverans](../../automating/using/email-delivery.md) efter huvudmålsegmentet.
-1. Klicka på aktiviteten och välj ![](assets/edit_darkgrey-24px.png) för att redigera den.
-1. Markera **[!UICONTROL Single send email]** och klicka **[!UICONTROL Next]**.
+1. Click the activity and select ![](assets/edit_darkgrey-24px.png) to edit it.
+1. Markera **[!UICONTROL Single send email]** och klicka på **[!UICONTROL Next]**.
 1. Välj en e-postmall och klicka på **[!UICONTROL Next]**.
 1. Ange e-postegenskaperna och klicka på **[!UICONTROL Next]**.
 1. Om du vill skapa layouten för e-postmeddelandet klickar du på **[!UICONTROL Use the Email Designer]**.
 1. Redigera och spara innehållet.
-1. Avmarkera alternativet **[!UICONTROL Schedule]** [!UICONTROL-begäran som bekräftelse innan meddelanden skickas, **** i delen av meddelandekontrollpanelen.
+1. Avmarkera **[!UICONTROL Schedule]** **[!UICONTROL Request confirmation before sending messages]** alternativet i delen av meddelandekontrollpanelen.
 
 ## Skapa en datauppdateringsaktivitet {#creating-update-data-activity}
 
 1. Dra och släpp en [Uppdatera data](../../automating/using/update-data.md) -aktivitet efter kontrollgruppssegmentet.
 1. Markera aktiviteten och öppna den sedan med knappen ![](assets/edit_darkgrey-24px.png) bland de snabbåtgärder som visas.
 1. Välj **[!UICONTROL General]** från **[!UICONTROL Update]** **[!UICONTROL Operation type]** listrutan på fliken.
-1. Välj **[!UICONTROL Identification]** alternativet på **[!UICONTROL Directly using the targeting dimension]** fliken.
+1. In the **[!UICONTROL Identification]** tab, select the **[!UICONTROL Directly using the targeting dimension]** option.
 1. Välj den **[!UICONTROL Profile]** resurs som du tidigare har utökat som dimension att uppdatera.
 
    ![](assets/wkf_control-update-identification.png)
