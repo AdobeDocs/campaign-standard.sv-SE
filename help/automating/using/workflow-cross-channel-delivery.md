@@ -13,10 +13,10 @@ context-tags: workflow,use-case,query,wait,delivery
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
+source-git-commit: 73a91344ada17d6eb0da0335e08ea27a1019b4fb
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 86%
+source-wordcount: '856'
+ht-degree: 85%
 
 ---
 
@@ -138,7 +138,7 @@ Så här skapar du en e-postleverans:
 1. Ange e-postegenskaperna och klicka på **[!UICONTROL Next]**.
 1. Om du vill skapa layouten för e-postmeddelandet väljer du **[!UICONTROL Use the Email Designer]**.
 1. Redigera och spara innehållet.
-1. Avmarkera alternativet **[!UICONTROL Begär bekräftelse innan meddelanden skickas}** i avsnittet **[!UICONTROL Schedule]** på instrumentpanelen för meddelanden.
+1. Avmarkera **[!UICONTROL Schedule]** **[!UICONTROL Request confirmation before sending messages]** alternativet i delen av meddelandekontrollpanelen.
 
 Så här skapar du en SMS-leverans:
 
