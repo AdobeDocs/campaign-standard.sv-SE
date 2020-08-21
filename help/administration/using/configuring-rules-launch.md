@@ -13,9 +13,9 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b8a25a90ea253666fb71c3f7aaf830d736e6c5b
+source-git-commit: 3bace60da0b3cdbbc693507a03cbfb6886b15b4e
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -128,15 +128,15 @@ Om du vill skicka PII-data till [!DNL Adobe Campaign Standard]skapar du en regel
 
    Du kan också skicka livscykeldata i Samla in PII-återrapportering eller ett annat återanslående beroende på vilka händelseutlösare du använder. Här är ett exempel på JSON för livscykeldata:
 
-       &quot;
-     {
-    &quot;marketingCloudId&quot;:&quot;{%%mcid%%}&quot;,
-     &quot;cusDayslastlaunch&quot;: &quot;{%%DaysSinceLastUse%}&quot;,
-     &quot;cusDaysfirstlaunch&quot;: &quot;{%%DaysSinceFirstUse%%}&quot;,
-     &quot;cusLaunches&quot;: &quot;{%%Launches%%}&quot;
-     }
-     &quot;
-   
+   ```
+   {
+   "marketingCloudId":"{%%mcid%%}",
+   "cusDayslastlaunch": "{%%DaysSinceLastUse%%}", 
+   "cusDaysfirstlaunch": "{%%DaysSinceFirstUse%%}", 
+   "cusLaunches": "{%%Launches%%}"
+   }
+   ```
+
    De dataelement som definieras i [!DNL Experience Platform Launch] ska omslutas av dubbla procentsatser, till exempel %%mcid%%, och kontextvariabler från programmet ska omslutas av enstaka procentsatser, till exempel %contextdata.email%.
 
 1. I **[!UICONTROL Content Type]** skriver du **application/json**.
