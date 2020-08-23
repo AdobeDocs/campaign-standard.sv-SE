@@ -12,10 +12,10 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 762700893c913d9aea884d00438c84b39a800188
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 0%
+source-wordcount: '464'
+ht-degree: 5%
 
 ---
 
@@ -24,22 +24,22 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector är för närvarande en betaversion som kan komma att uppdateras ofta utan föregående meddelande. Kunderna måste vara värdbaserade på Azure (för närvarande endast betaversioner för Nordamerika) för att få tillgång till dessa funktioner. Kontakta Adobes kundtjänst om du vill ha tillgång till tjänsten.
+>Adobe Experience Platform Data Connector är för närvarande en betaversion som kan komma att uppdateras ofta utan föregående meddelande. Kunderna måste vara värdbaserade på Azure (för närvarande endast betaversioner för Nordamerika) för att få tillgång till dessa funktioner. Kontakta Adobe kundtjänst om du vill ha tillgång till tjänsten.
 
-Med Adobe Campaign Standard kan ni utlösa direkt inmatning av datamappningar via API:er och hämta status för era önskemål om inmatning.
+Med Adobe Campaign Standard kan du utlösa direkt inmatning av datamappningar via API:er och hämta status för dina önskemål om inmatning.
 
-Den här sidan beskriver hur du aktiverar och hämtar inmatningsstatus för dina datamappningar. Global information om Campaign Standard API:er finns i [det här avsnittet](../../api/using/get-started-apis.md).
+Den här sidan beskriver hur du aktiverar och hämtar inmatningsstatus för dina datamappningar. Global information om Campaign Standard-API:er finns i [det här avsnittet](../../api/using/get-started-apis.md).
 
 ## Förutsättningar {#prerequisites}
 
-Innan du använder API:erna måste datamappningen först ha konfigurerats och publicerats i Campaign Standard-gränssnittet. Mer information finns i följande avsnitt:
+Innan du använder API:erna måste datamappningen först ha konfigurerats och publicerats i Campaign Standardens gränssnitt. Mer information finns i följande avsnitt:
 
 * [Mappningsdefinition](../../developing/using/aep-mapping-definition.md)
 * [Aktivera mappning](../../developing/using/aep-mapping-activation.md)
 
-När datamappningen har skapats måste du stoppa den från att köras så att du kan utlösa den från API:erna när du vill. Gör så här:
+När datamappningen har skapats måste du stoppa den från att köras så att du kan utlösa den från API:erna när du vill. Följ dessa steg för att göra detta:
 
-1. Gå till menyn **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** i Campaign Standard.
+1. Gå till Campaign Standarden **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** .
 
 1. Dubbelklicka på datamappningen för att öppna den och klicka sedan på **[!UICONTROL Stop]** knappen.
 
@@ -47,22 +47,22 @@ När datamappningen har skapats måste du stoppa den från att köras så att du
 
 1. Spara ändringarna
 
-Körningen av datamappningen har stoppats. Du kan använda Campaign Standard-API:er för att utlösa det manuellt.
+Körningen av datamappningen har stoppats. Du kan använda Campaign Standard-API:er för att utlösa den manuellt.
 
 ## Börja omedelbart inmatning av datamappning {#starting-immediate-ingestion}
 
-Omedelbart intag av XDM-mappning i Adobe Experience Platform aktiveras med en POST-åtgärd:
+Omedelbart intag av en XDM-mappning i Adobe Experience Platform utlöses av en POST-åtgärd:
 
 `POST https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest`
 
 >[!NOTE]
 >
->För att kunna köra anropet till POST API:t måste användaren ha en **SQL-funktionskörningsroll** , som en Campaign Standard-administratör kan ange genom att köra nedan JS-skript:
+>För att kunna köra anropet till API:t för inklistring av POSTER måste användaren ha en **SQL-funktionskörningsroll** , som en Campaign Standard-administratör kan ge genom att köra nedan JS-skript:
 >
 >`var sqlRoleObj = REST.head.roleBase.sql.get();
 REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);`
 
-POST-åtgärden returnerar information om status för skapad begäran:
+POSTEN returnerar information om status för skapad begäran:
 
 * Begäran har skickats för XDM-mappningen:
 
@@ -99,7 +99,7 @@ POST-åtgärden returnerar information om status för skapad begäran:
 
 ## Hämtar status för en begäran om hämtning {#retrieving-status}
 
-Statusen för en begäran om att få tillgång kan hämtas med en GET-åtgärd och det önskade begärande-ID:t i parametrarna:
+Status för en begäran om att få tillgång kan hämtas med en GET-åtgärd och önskat ID för begäran i parametrarna:
 
 ```
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest
@@ -107,9 +107,9 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 ```
 
 >[!NOTE]
-Detaljerad information om status för XDM-mappningsbegäran och relaterade jobb finns i Campaign Standard-gränssnittet i **!UICONTROL [Status för dataexport till ]**plattformsmenyn (se[Mappningsaktivering](../../developing/using/aep-mapping-activation.md)).
+Detaljerad information om status för XDM-mappningsbegäran och relaterade jobb finns i Campaign Standardens gränssnitt på **[!UICONTROL Status of data export to platform]** menyn (se [Mappningsaktivering](../../developing/using/aep-mapping-activation.md)).
 
-GET-åtgärden returnerar informationen nedan:
+GETEN returnerar informationen nedan:
 
 * **batchId**: detta fält fylls i endast om fel uppstår efter gruppbearbetning och överföring,
 * **info**: XDM-mappnings-ID,
