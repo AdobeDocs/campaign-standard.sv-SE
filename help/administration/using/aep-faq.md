@@ -12,9 +12,9 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b04a5efdde3153d3ede0ad8bc4f56cd4a5fa1df
+source-git-commit: 762700893c913d9aea884d00438c84b39a800188
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '812'
 ht-degree: 2%
 
 ---
@@ -51,9 +51,9 @@ Se tabellen nedan för mer information om dessa funktioner.
 
 ![](assets/faq.png)
 
->[!Note]
+>[!NOTE]
 >
->[!DNL Places] integreringen innefattar platshändelser som utlösare för meddelanden i appen (N/A för push-meddelanden), berikande profiler med [!DNL Places] data och stöd för lokala meddelanden. Mer information finns på den här [sidan](../../channels/using/preparing-and-sending-an-in-app-message.md) . <br>[!DNL Places] begränsad integrering innefattar berikande profiler med [!DNL Places] data.
+>[!DNL Places] integreringen innefattar platshändelser som utlösare för meddelanden i appen (N/A för push-meddelanden), berikande profiler med [!DNL Places] data och stöd för lokala meddelanden. Refer to this [page](../../channels/using/preparing-and-sending-an-in-app-message.md) for more information. <br>[!DNL Places] begränsad integrering innefattar berikande profiler med [!DNL Places] data.
 
 ## Hur fungerar Adobe Experience Platform SDK-integrering i Adobe Campaign Standard? {#aep-use-cases}
 
