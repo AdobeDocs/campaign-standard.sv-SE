@@ -12,7 +12,10 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
+source-wordcount: '3059'
+ht-degree: 7%
 
 ---
 
@@ -27,18 +30,22 @@ Händelsekonfigurationen måste utföras av en [administratör](../../administra
 >
 >Konfigurationen kan variera beroende på vilken typ av transaktionsmeddelande du vill skicka. Mer information finns i [Transactional Event-specifika konfigurationer](#transactional-event-specific-configurations).
 
-När händelsen har publicerats skapas motsvarande transaktionsmeddelande automatiskt. Mer information om transaktionsmeddelanden finns på [den här sidan](../../channels/using/about-transactional-messaging.md).
+När händelsen har publicerats:
+
+* Det API som kommer att användas av webbplatsutvecklaren distribueras och transaktionshändelserna kan nu skickas. Se [Integrera händelseutlösaren på en webbplats](#integrating-the-triggering-of-the-event-in-a-website).
+
+* Motsvarande transaktionsmeddelande skapas automatiskt. Se [Komma igång med transaktionsmeddelanden](../../channels/using/getting-started-with-transactional-msg.md).
 
 ## Skapa en händelse {#creating-an-event}
 
 Börja med att skapa den händelse som passar dina behov.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Endast användare som har rollen och är en del av **[!UICONTROL Administration]** organisationsenheten **[!UICONTROL All]** [](../../administration/using/organizational-units.md) har rätt behörighet att skapa en händelsekonfiguration.
 
-1. Klicka på **[!UICONTROL Adobe Campaign]** logotypen i det övre vänstra hörnet och välj sedan **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
-1. Klicka på **[!UICONTROL Create]** knappen.
+1. Klicka på **[!UICONTROL Adobe Campaign]**-logotypen i det övre vänstra hörnet och välj sedan **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. Klicka på knappen **[!UICONTROL Create]**.
 1. Ge evenemanget ett **[!UICONTROL Label]** och ett **[!UICONTROL ID]** till. Fältet är obligatoriskt och ska börja med prefixet &quot;EVT&quot;. **[!UICONTROL ID]** Om du inte använder det här prefixet läggs det till automatiskt när du klickar **[!UICONTROL Create]**.
 
    ![](assets/message-center_1.png)
@@ -51,7 +58,7 @@ Börja med att skapa den händelse som passar dina behov.
 
    >[!NOTE]
    >
-   >Endast en kanal kan användas för varje händelsekonfiguration. När händelsen har skapats kan du inte ändra kanalen.
+   >Endast en kanal kan användas för varje händelsekonfiguration.    När händelsen har skapats kan du inte ändra kanalen.    
 
 1. Välj den måldimension som motsvarar den önskade händelsekonfigurationen och klicka på **[!UICONTROL Create]**.
 
@@ -59,7 +66,7 @@ Börja med att skapa den händelse som passar dina behov.
 
 >[!NOTE]
 >
->Antalet skapade realtidshändelser kan påverka din plattform. För att få bästa möjliga prestanda bör du ta bort händelser i realtid som du inte längre behöver. Se [Ta bort en händelse](#deleting-an-event).
+>Antalet skapade realtidshändelser kan påverka din plattform. För att få bästa möjliga prestanda bör du ta bort händelser i realtid som du inte längre behöver. See [Deleting an event](#deleting-an-event).
 
 ## Definiera händelseattributen {#defining-the-event-attributes}
 
@@ -71,7 +78,7 @@ Stegen för att lägga till och ändra fält är desamma som för [anpassade res
 
 >[!NOTE]
 >
->Om du vill skapa ett flerspråkigt transaktionsmeddelande definierar du ett ytterligare händelseattribut med **[!UICONTROL AC_language]** -ID:t. Detta gäller endast händelsetransaktionsmeddelanden. När händelsen har publicerats är stegen för att redigera innehållet i ett flerspråkigt transaktionsmeddelande samma som för ett flerspråkigt standardmeddelande. Se [Skapa ett flerspråkigt e-postmeddelande](../../channels/using/creating-a-multilingual-email.md).
+>Om du vill skapa ett flerspråkigt transaktionsmeddelande definierar du ett ytterligare händelseattribut med **[!UICONTROL AC_language]** -ID:t. Detta gäller endast händelsetransaktionsmeddelanden. När händelsen har publicerats är stegen för att redigera innehållet i ett flerspråkigt transaktionsmeddelande samma som för ett flerspråkigt standardmeddelande. See [Creating a multilingual email](../../channels/using/creating-a-multilingual-email.md).
 
 ## Definiera datainsamlingar {#defining-data-collections}
 
@@ -79,7 +86,7 @@ Du kan lägga till en samling element i händelseinnehållet, där varje element
 
 Den här samlingen kan användas i ett transaktionsmejl för att lägga till [produktlistor](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message) i innehållet i meddelandet, till exempel en lista över produkter - med pris, referensnummer, kvantitet osv. för varje produkt i listan.
 
-1. Klicka på **[!UICONTROL Collections]** knappen i **[!UICONTROL Create element]** avsnittet.
+1. In the **[!UICONTROL Collections]** section, click the **[!UICONTROL Create element]** button.
 
    ![](assets/message-center_collection_create.png)
 
@@ -109,7 +116,7 @@ Här är API-förhandsvisningen för det här exemplet:
 
 ## Förbättra händelsen {#enriching-the-transactional-message-content}
 
-Ni kan utöka transaktionsmeddelandets innehåll med information från Adobe Campaign-databasen för att personalisera era meddelanden. Från efternamnet eller CRM-ID:t för var och en av mottagarna kan du till exempel återställa data som adress eller födelsedatum eller andra anpassade fält som lagts till i profiltabellen, för att anpassa informationen som skickas till dem.
+Du kan utöka transaktionsmeddelandets innehåll med information från Adobe Campaign-databasen för att personalisera dina meddelanden. Från efternamnet eller CRM-ID:t för var och en av mottagarna kan du till exempel återställa data som adress eller födelsedatum eller andra anpassade fält som lagts till i profiltabellen, för att anpassa informationen som skickas till dem.
 
 Det går att utöka transaktionsmeddelandets innehåll med information från utökat **[!UICONTROL Profile and services Ext API]**. Mer information finns i [Utöka API: Publicera tillägget](../../developing/using/step-2--publish-the-extension.md)
 
@@ -119,7 +126,7 @@ Den här informationen kan också lagras i nya resurser. I så fall måste resur
 
 Mer information om att skapa och publicera resurser finns på [den här sidan](../../developing/using/key-steps-to-add-a-resource.md).
 
-1. Klicka på **[!UICONTROL Enrichment]** knappen i **[!UICONTROL Create element]** avsnittet.
+1. In the **[!UICONTROL Enrichment]** section, click the **[!UICONTROL Create element]** button.
 
    ![](assets/message-center_addenrichment.png)
 
@@ -135,7 +142,7 @@ Mer information om att skapa och publicera resurser finns på [den här sidan](.
 
    ![](assets/message-center_enrichment-join-fields.png)
 
-   Du kan också utöka transaktionsmeddelandets innehåll med **[!UICONTROL Service]** resursen. Mer information om tjänster finns i det här [avsnittet](../../audiences/using/creating-a-service.md).
+   Du kan också utöka transaktionsmeddelandets innehåll med **[!UICONTROL Service]** resursen. For more on services, see this [section](../../audiences/using/creating-a-service.md).
 
 1. Om du skapar eller redigerar en profilbaserad händelse väljer du den anrikning som ska användas som meddelandemål under leveranskörningen i **[!UICONTROL Targeting enrichment]** avsnittet.
 
@@ -152,7 +159,7 @@ När händelsen och meddelandet har publicerats kan du med den här länken utö
 * [Förhandsgranska och publicera evenemanget](#previewing-and-publishing-the-event).
 * [Anpassa ett transaktionsmeddelande](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message).
 
-## Förhandsgranska och publicera evenemanget {#previewing-and-publishing-the-event}
+## Previewing and publishing the event {#previewing-and-publishing-the-event}
 
 Innan du kan använda händelsen måste du förhandsgranska och publicera den.
 
@@ -168,6 +175,8 @@ Innan du kan använda händelsen måste du förhandsgranska och publicera den.
 
    ![](assets/message-center_pub.png)
 
+   Det API som kommer att användas av webbplatsutvecklaren distribueras och transaktionshändelserna kan nu skickas.
+
 1. Du kan visa publikationsloggarna på motsvarande flik.
 
    ![](assets/message-center_logs.png)
@@ -182,15 +191,21 @@ Innan du kan använda händelsen måste du förhandsgranska och publicera den.
 
    ![](assets/message-center_messagegeneration.png)
 
-För att händelsen ska kunna utlösa att ett transaktionsmeddelande skickas måste du ändra och publicera det meddelande som precis skapades. Se [Transaktionsmeddelanden](../../channels/using/event-transactional-messages.md)för händelser.
+För att händelsen ska kunna utlösa att ett transaktionsmeddelande skickas måste du ändra och publicera det meddelande som precis skapades. Se [Händelsebaserade transaktionsmeddelanden](../../channels/using/event-transactional-messages.md).
 
 Du måste även integrera den här utlösande händelsen på din webbplats. Se [Integrera händelseutlösaren på en webbplats](#integrating-the-triggering-of-the-event-in-a-website).
 
-När Adobe Campaign börjar ta emot händelser relaterade till den här händelsekonfigurationen kan du med hjälp av länken under **[!UICONTROL Latest transactional events]** **[!UICONTROL History]** avsnittet få tillgång till de senaste händelser som skickats av din tredjepartstjänst och bearbetats av Adobe Campaign.
+När Adobe Campaign börjar ta emot händelser relaterade till den här händelsekonfigurationen kan du med hjälp av länken under **[!UICONTROL Latest transactional events]** **[!UICONTROL History]** avsnittet få tillgång till de senaste händelser som har skickats av din tredjepartstjänst och som har bearbetats av Adobe Campaign.
 
 ![](assets/message-center_latest-events.png)
 
 Händelserna (i JSON-format) listas från den senaste till den äldsta. Med den här listan kan du kontrollera data som innehåll eller status för en händelse för kontroll- och felsökningsändamål.
+
+### Publiceringsprocess för transaktionsmeddelanden {#transactional-messaging-pub-process}
+
+Diagrammet nedan visar processen för publicering av transaktionsmeddelanden.
+
+![](assets/message-center_pub-process.png)
 
 ### Avpublicera en händelse {#unpublishing-an-event}
 
@@ -200,7 +215,7 @@ Med **[!UICONTROL Unpublish]** knappen kan du avbryta publiceringen av händelse
 
 >[!NOTE]
 >
->Om du redan har publicerat motsvarande transaktionsmeddelande avbryts även publikationen för transaktionsmeddelandet. Se [Avpublicera ett transaktionsmeddelande](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message).
+>Om du redan har publicerat motsvarande transaktionsmeddelande avbryts även publikationen för transaktionsmeddelandet. See [Unpublishing a transactional message](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message).
 
 Klicka på **[!UICONTROL Publish]** knappen för att generera ett nytt REST API.
 
@@ -208,16 +223,16 @@ Klicka på **[!UICONTROL Publish]** knappen för att generera ett nytt REST API.
 
 När en händelse har avpublicerats, eller om en händelse inte har publicerats ännu, kan du ta bort den från händelsekonfigurationslistan. Så här gör du:
 
-1. Klicka på **[!UICONTROL Adobe Campaign]** logotypen i det övre vänstra hörnet och välj sedan **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. Klicka på **[!UICONTROL Adobe Campaign]**-logotypen i det övre vänstra hörnet och välj sedan **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Håll muspekaren över den händelsekonfiguration du vill använda och välj **[!UICONTROL Delete element]** knappen.
 
    ![](assets/message-center_delete-button.png)
 
    >[!NOTE]
    >
-   >Kontrollera att händelsekonfigurationen har **[!UICONTROL Draft]** status, annars kan du inte ta bort den. Statusen gäller för en händelse som ännu inte har publicerats eller som har **[!UICONTROL Draft]** avpublicerats [](#unpublishing-an-event).
+   >Make sure the event configuration has the **[!UICONTROL Draft]** status, otherwise you will not be able to delete it. The **[!UICONTROL Draft]** status applies to an event that has not been published yet or that has been [unpublished](#unpublishing-an-event).
 
-1. Klicka på **[!UICONTROL Confirm]** knappen.
+1. Klicka på knappen **[!UICONTROL Confirm]**.
 
    ![](assets/message-center_delete-confirm.png)
 
@@ -229,7 +244,7 @@ När en händelse har avpublicerats, eller om en händelse inte har publicerats 
 
 När du har skapat en händelse måste du integrera den som utlöser händelsen på webbplatsen.
 
-I det exempel som beskrivs i avsnittet om [transaktionsmeddelandets](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) principer vill du att en händelse om att kunden överger kundvagnen ska utlösas när någon av dina kunder lämnar webbplatsen innan de köper produkterna i kundvagnen. För att göra detta måste webbutvecklaren använda REST API:t för Adobe Campaign Standard.
+I det exempel som beskrivs i avsnittet om [transaktionsmeddelandets](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) principer vill du att en händelse om att kunden överger kundvagnen ska utlösas när någon av dina kunder lämnar webbplatsen innan de köper produkterna i kundvagnen. För att göra detta måste webbutvecklaren använda Adobe Campaign Standard REST API.
 
 Se [REST API-dokumentationen](../../api/using/managing-transactional-messages.md) .
 
@@ -242,7 +257,7 @@ I följande avsnitt beskrivs vilken specifik konfiguration som ska ställas in e
 ### Händelsebaserade transaktionsmeddelanden {#event-based-transactional-messages}
 
 Om du vill skicka ett händelsebaserat transaktionsmeddelande måste du först skapa och konfigurera en händelse som riktar sig till data som finns i själva händelsen.
-Mer information finns i [Engaging with transactional messaging](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences).
+Mer information finns i [Engaging with transactional messaging](https://helpx.adobe.com/se/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences).
 
 1. När du skapar händelsekonfigurationen ska du välja **[!UICONTROL Real-time event]** måldimensionen (se [Skapa en händelse](#creating-an-event)).
 1. Lägg till fält i händelsen för att kunna anpassa transaktionsmeddelandet (se [Definiera händelseattribut](#defining-the-event-attributes)).
@@ -250,7 +265,7 @@ Mer information finns i [Engaging with transactional messaging](https://helpx.ad
 
    >[!NOTE]
    >
-   >Händelsebaserade transaktionsmeddelanden ska bara använda de data som finns i den skickade händelsen för att definiera mottagaren och meddelandets innehållspersonalisering. Ni kan dock utöka innehållet i transaktionsmeddelandet med information från Adobe Campaign-databasen.
+   >Händelsebaserade transaktionsmeddelanden ska bara använda de data som finns i den skickade händelsen för att definiera mottagaren och meddelandets innehållspersonalisering.        Du kan dock utöka innehållet i transaktionsmeddelandet med information från Adobe Campaign-databasen.        
 
 1. Förhandsgranska och publicera händelsen (se [Förhandsgranska och publicera händelsen](#previewing-and-publishing-the-event)).
 
@@ -262,7 +277,7 @@ Mer information finns i [Engaging with transactional messaging](https://helpx.ad
 
 ### Profilbaserade transaktionsmeddelanden {#profile-based-transactional-messages}
 
-Om du vill skicka ett profilbaserat transaktionsmeddelande måste du först skapa och konfigurera data för händelseanpassning i Adobe Campaign-databasen.
+Om du vill skicka ett profilbaserat transaktionsmeddelande måste du först skapa och konfigurera data för händelsemål i Adobe Campaign-databasen.
 
 1. När du skapar händelsekonfigurationen ska du välja **[!UICONTROL Profile event]** måldimensionen (se [Skapa en händelse](#creating-an-event)).
 1. Lägg till fält i händelsen för att kunna anpassa transaktionsmeddelandet (se [Definiera händelseattribut](#defining-the-event-attributes)). Du måste lägga till minst ett fält för att skapa en anrikning. Du behöver inte skapa andra fält som **Förnamn** och **Efternamn** eftersom du kan använda anpassningsfält från Adobe Campaign-databasen.
@@ -277,14 +292,14 @@ Om du vill skicka ett profilbaserat transaktionsmeddelande måste du först skap
 
 ### Händelsebaserade push-meddelanden för transaktioner {#event-based-transactional-push-notifications}
 
-Om du vill kunna skicka push-meddelanden via transaktion måste du konfigurera Adobe Campaign i enlighet med detta. Se [Push-konfiguration](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html).
+Om du vill kunna skicka push-meddelanden via transaktion måste du konfigurera Adobe Campaign i enlighet med detta. Se [Push-konfiguration](https://helpx.adobe.com/se/campaign/kb/configuring-app-sdkv4.html).
 
 Om du vill skicka ett anonymt transaktionspush-meddelande till alla användare som har valt att ta emot meddelanden från ditt mobilprogram, måste du först skapa och konfigurera en händelse som har de data som finns i själva händelsen som mål. Motsvarande steg visas nedan.
 
 Händelsen måste innehålla följande tre element:
 
 * En **registreringstoken**, som är användar-ID för ett mobilprogram och en enhet. Den kanske inte motsvarar någon profil från Adobe Campaign-databasen.
-* Ett **mobilprogramnamn** (ett för alla enheter - Android och iOS). Detta är ID:t för mobilprogrammet som konfigurerats i Adobe Campaign och som ska användas för att ta emot push-meddelanden på användarnas enheter. Mer information finns på den här [sidan](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
+* Ett **mobilprogramnamn** (ett för alla enheter - Android och iOS). Detta är ID:t för det mobilprogram som konfigurerats i Adobe Campaign och som ska användas för att ta emot push-meddelanden på användarnas enheter. Se denna [sida](https://helpx.adobe.com/se/campaign/kb/configuring-app-sdkv4.html) för mer information om detta
 * En **push-plattform** (&quot;gcm&quot; för Android eller&quot;apns&quot; för iOS).
 
 1. När du skapar händelsekonfigurationen ska du välja **[!UICONTROL Mobile application]** kanal och **[!UICONTROL Real-time event]** måldimension (se [Skapa en händelse](#creating-an-event)).
@@ -293,7 +308,7 @@ Händelsen måste innehålla följande tre element:
 
    >[!NOTE]
    >
-   >Händelsebaserade transaktionsmeddelanden ska bara använda de data som finns i den skickade händelsen för att definiera mottagaren och meddelandets innehållspersonalisering. Ni kan dock utöka innehållet i transaktionsmeddelandet med information från Adobe Campaign-databasen.
+   >Händelsebaserade transaktionsmeddelanden ska bara använda de data som finns i den skickade händelsen för att definiera mottagaren och meddelandets innehållspersonalisering.        Du kan dock utöka innehållet i transaktionsmeddelandet med information från Adobe Campaign-databasen.        
 
 1. Förhandsgranska och publicera händelsen (se [Förhandsgranska och publicera händelsen](#previewing-and-publishing-the-event)).
 
@@ -307,7 +322,7 @@ Händelsen måste innehålla följande tre element:
 
 ### Profilbaserade push-meddelanden för transaktioner {#profile-based-transactional-push-notifications}
 
-Om du vill skicka ett transaktionsmeddelande till de Adobe Campaign-profiler som har prenumererat på ditt mobilprogram måste du först skapa och konfigurera en händelse för Adobe Campaign-databasen.
+Om du vill skicka ett transaktionspush-meddelande till de Adobe Campaign-profiler som har prenumererat på ditt mobilprogram måste du först skapa och konfigurera en händelse för Adobe Campaign-databasen.
 
 1. När du skapar händelsekonfigurationen ska du välja **[!UICONTROL Mobile application]** kanal och **[!UICONTROL Profile]** måldimension (se [Skapa en händelse](#creating-an-event)).
 
@@ -332,9 +347,9 @@ Om du vill skicka ett transaktionsmeddelande till de Adobe Campaign-profiler som
 
 ### Konfigurera en händelse för att skicka ett uppföljningsmeddelande {#configuring-an-event-to-send-a-follow-up-message}
 
-Ett uppföljningsmeddelande är en fördefinierad leveransmall för marknadsföring som kan användas i ett arbetsflöde för att skicka meddelanden till mottagarna av ett visst transaktionsmeddelande. Mer information finns i [Uppföljningsmeddelanden](../../channels/using/follow-up-messages.md).
+Ett uppföljningsmeddelande är en fördefinierad leveransmall för marknadsföring som kan användas i ett arbetsflöde för att skicka meddelanden till mottagarna av ett visst transaktionsmeddelande. For more on this, see [Follow-up messages](../../channels/using/follow-up-messages.md).
 
-1. Använd samma händelsekonfiguration som du skapade för att skicka ett händelsetransaktionsmeddelande. Se [Händelsebaserade transaktionsmeddelanden](#event-based-transactional-messages).
+1. Använd samma händelsekonfiguration som du skapade för att skicka ett händelsetransaktionsmeddelande. See [Event-based transactional messages](#event-based-transactional-messages).
 1. När du konfigurerar händelsen markerar du **[!UICONTROL Create follow-up delivery template for this event]** rutan innan du publicerar händelsen.
 
    ![](assets/message-center_follow-up-checkbox.png)
