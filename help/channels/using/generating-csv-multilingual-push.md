@@ -12,7 +12,10 @@ discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c6df07dd78de6b15971937d574429d3ba5dc1a15
+source-git-commit: 772393c135b96374cb510a3d96e3c781274e857e
+workflow-type: tm+mt
+source-wordcount: '1127'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +40,7 @@ Flerspråkig push kräver 14 kolumner i CSV-filen:
 * isMutableContent
 * customFields
 * locale
-* språk
+* language
 * silentPush
 
 ![](assets/multilingual_push_1.png)
@@ -45,7 +48,7 @@ Flerspråkig push kräver 14 kolumner i CSV-filen:
 Kontrollera CSV-exemplet genom att klicka på **[!UICONTROL Download a sample file]** i **[!UICONTROL Manage Content Variants]** fönstret. For more on this, refer to the this [section](../../channels/using/creating-a-multilingual-push-notification.md).
 
 * **title, messageBody, sound, badge, deplinkURI, category, iosMediaAttachmentURL, androidMediaAttachmentURL**: regelbundet push-nyttolastinnehåll. Du måste ange den här informationen på liknande sätt som när du skapar push-leveranser.
-* **Anpassade fält**:  Använd JSON-format för anpassade fält, t.ex.&quot;{&quot;&quot;key1&quot;&quot;:&quot;&quot;value1&quot;&quot;,&quot;&quot;key2&quot;&quot;:&quot;&quot;value2&quot;&quot;}&quot;. I exempelfilen ovan finns ett exempel på anpassade fält.
+* **Anpassade fält**:  använda JSON-format för anpassade fält, t.ex. `{"key1":"value1","key2":"value2"}`. I exempelfilen ovan finns ett exempel på anpassade fält.
 * **isContentAvailable**: -flagga för kontroll av tillgängligt innehåll, värde 1 betyder true, värde 0 betyder false. Standardvärdet är 0. Om du lämnar den här kolumnen tom räknas värdet som 0.
 * **isMutableContent**: -flagga för Mutable Content, value 1 betyder true, value 0 betyder false. Standardvärdet är 0. Om du lämnar den här kolumnen tom räknas värdet som 0.
 * **locale**: språkinställning är fältet för språkvarianter, t.ex. &quot;en_us&quot; för amerikansk-engelska och &quot;fr_fr&quot; för Frankrike-franska.
@@ -102,7 +105,7 @@ I intervallet finns två obligatoriska attribut:
 
 Följande språk stöds:
 
-| locale | språk |
+| locale | language |
 |:-:|:-:|
 | af_za | Afrikaans - Sydafrika |
 | sq_al | Albanska - Albanien |
@@ -136,14 +139,14 @@ Följande språk stöds:
 | da_dk | Danska - Danmark |
 | nl_be | Nederländska - Belgien |
 | nl_nl | Nederländska - Nederländerna |
-| en_au | Engelska - Australien |
+| Nya | Engelska - Australien |
 | en_bz | Engelska - Belize |
-| en_ca | Engelska - Kanada |
+| - en_ca | Engelska - Kanada |
 | en_in | Engelska - Indien |
 | en_ie | Engelska - Irland |
 | en_jm | Engelska - Jamaica |
 | en_nz | Engelska - Nya Zeeland |
-| en_ph | Engelska - Filippinerna |
+| Engelska_a | en - Filippinerna |
 | en_za | Engelska - Sydafrika |
 | en_tt | Engelska - Trinidad och Tobago |
 | en_gb | Engelska - Storbritannien |
@@ -157,10 +160,10 @@ Följande språk stöds:
 | fr_lu | Franska - Luxemburg |
 | fr_ch | Franska - Schweiz |
 | de_at | Tyska - Österrike |
-| de_de | Tyska - Tyskland |
-| de_lu | Tyska - Luxemburg |
-| de_ch | Tyska - Schweiz |
-| el_cy | Grekiska - Cypern |
+| Engde_de | de tyska |
+| de_lu | _Tyska - Luxemburg |
+| Tyska | Tyska - Schweiz |
+| el_cy | Tyska - Cypern |
 | el_gr | Grekiska - Grekland |
 | gu_in | Gujarati - Indien |
 | he_il | Hebreiska - Israel |
@@ -194,9 +197,9 @@ Följande språk stöds:
 | sr_rs | Serbiska - Serbien |
 | sk_sk | Slovakiska - Slovakien |
 | sl_si | Slovenska - Slovenien |
-| es_ar | Spanska - Argentina |
+| Spar_ar | Spanska - Argentina |
 | es_bo | Spanska - Bolivia |
-| es_cl | Spanska - Chile |
+| es_cl | es - Chile |
 | es_co | Spanska - Colombia |
 | es_cr | Spanska - Costa Rica |
 | es_do | Spanska - Dominikanska republiken |
@@ -205,8 +208,8 @@ Följande språk stöds:
 | es_gt | Spanska - Guatemala |
 | es_hn | Spanska - Honduras |
 | es_mx | Spanska - Mexiko |
-| es_ni | Spanska - Nicaragua |
-| es_pa | Spanska - Panama |
+| Republiken | Spanska - Nicaragua |
+| sv_pa | Spanska - Panama |
 | es_py | Spanska - Paraguay |
 | es_pe | Spanska - Peru |
 | es_pr | Spanska - Puerto Rico |
@@ -218,10 +221,10 @@ Följande språk stöds:
 | sv_se | Svenska - Sverige |
 | ta_in | Tamil - Indien |
 | tt_ru | Tatariska - ryska |
-| te_in | Telugu - Indien |
+| ur_in | Telugu - Indien |
 | th_th | Thailändska - Thailand |
 | tr_cy | Turkiska - Cypern |
-| tr_tr | Turkiska - Turkiet |
+| tr_tr | _Turkiska - Turkiet |
 | uk_ua | Ukrainska - Ukraina |
 | ur_in | Urdu - Indien |
 | ur_pk | Urdu - Pakistan |
