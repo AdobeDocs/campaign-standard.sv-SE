@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: b588366b0697d9cf7aea77b7c9c8ec876b9e0579
 workflow-type: tm+mt
-source-wordcount: '6092'
-ht-degree: 94%
+source-wordcount: '6119'
+ht-degree: 95%
 
 ---
 
@@ -23,6 +23,12 @@ ht-degree: 94%
 # Dokumentationsuppdateringar{#documentation-updates}
 
 Förutom [versionsinformationen](../../rn/using/release-notes.md) för Adobe Campaign listas alla nya uppdateringar i dokumentationen för Adobe Campaign Standard på den här sidan.
+
+## Dokumentationsuppdateringar - augusti 2020 {#doc-updates-august-2020}
+
+Det finns ett nytt uppdaterat avsnitt om hur du kommer igång med transaktionsmeddelanden. [Läs mer](../../channels/using/getting-started-with-transactional-msg.md)
+
+Avsnittet Transactional Messaging limits har flyttats. [Läs mer](../../channels/using/transactional-messaging-limitations.md)
 
 ## Dokumentationsuppdateringar - juli 2020 {#doc-updates-july-2020}
 
@@ -40,13 +46,13 @@ Nya funktioner för AI-baserade e-postmeddelanden: skicka tidsoptimering och pro
 
 ## Dokumentationsuppdateringar - juni 2020 {#doc-updates-june-2020}
 
-Fall av användning av arbetsflöden har uppdaterats och omorganiserats i tematiska avsnitt. [Läs mer](../../automating/using/about-workflow-use-cases.md)
+Användningsfall med arbetsflöden har uppdaterats och omorganiserats i tematiska avsnitt. [Läs mer](../../automating/using/about-workflow-use-cases.md)
 
-Användningsexempel har lagts till om hur du [krypterar](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) och [dekrypterar](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) data med arbetsflödena på Kontrollpanelen och Campaign.
+Användningsfall har lagts till om hur data [krypteras](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) och [dekrypteras](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) med Kontrollpanelen och arbetsflödena i Campaign.
 
-Båda termerna ”vitlistad” och ”svartlistad” har tagits bort från dokumentationen om Adobe Campaign. Vissa förekomster av dessa termer kan fortfarande förekomma i produktgränssnittet, alternativnamn och intern kod men ersätts i kommande versioner av Campaign med ”blockeringslista” och ”tillåtelselista”.
+De båda termerna &quot;vitlistad&quot; och &quot;svartlistad&quot; har tagits bort från dokumentationen för Adobe Campaign. Vissa förekomster av dessa termer kan fortfarande förekomma i produktgränssnittet, alternativnamn och intern kod men ersätts i kommande versioner av Campaign med &quot;blockeringslista&quot; och &quot;tillåtelselista&quot;.
 
-Referenser till den tidigare supportwebbplatsen har ersatts av den nya URL:en. [Lär dig mer](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
+Referenser till den tidigare supportwebbplatsen har ersatts av den nya URL:en. [Läs mer](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
 
 Konfigurationen av det anpassade kontot Litmus har tagits bort från återgivningsfunktionen i Inkorgen. [Läs mer](../../sending/using/email-rendering.md)
 
@@ -128,7 +134,7 @@ Det finns nu ett nytt avsnitt som beskriver hur du tar bort en händelsekonfigur
 
 Sidan som beskriver hur du testar ämnesraden i ett e-postmeddelande för att förutsäga dess öppningshastighet har uppdaterats och förbättrats. Detta inkluderar även ett nytt [felsökningsavsnitt](../../sending/using/testing-subject-line-email.md#troubleshooting) . [Läs mer](../../sending/using/testing-subject-line-email.md)
 
-Avsnitten för transaktionsmeddelanden har uppdaterats för att återspegla små uppdateringar och förbättringar i det flerspråkiga användargränssnittet. [Läs mer](../../channels/using/about-transactional-messaging.md)
+Avsnitten för transaktionsmeddelanden har uppdaterats för att återspegla små uppdateringar och förbättringar i det flerspråkiga användargränssnittet. [Läs mer](../../channels/using/getting-started-with-transactional-msg.md)
 
 Information om externa API-aktivitetsskyddare har uppdaterats. [Läs mer](../../automating/using/external-api.md)
 
@@ -216,7 +222,7 @@ API:ernas dokumentationsuppsättning har integrerats i dokumentationen för Camp
 
 Guiden Skapa personaliserad e-post för att komma igång har flyttats och uppdaterats. [Läs mer](https://helpx.adobe.com/se/campaign/kb/acs-get-started-with-emails.html)
 
-Guiden Komma igång med bästa leveransmetoder har uppdaterats. [Läs mer](https://helpx.adobe.com/se/campaign/kb/delivery-best-practices.html)
+Starthandboken Bästa praxis för leverans har uppdaterats. [Läs mer](https://helpx.adobe.com/se/campaign/kb/delivery-best-practices.html)
 
 Datamodellen har integrerats i dokumentationen för Campaign Standard. [Läs mer](../../developing/using/datamodel-audience.md)
 
@@ -234,9 +240,9 @@ Integrering av Microsoft Dynamics 365 (GA) - [Läs mer](../../integrating/using/
 
 Listan med felmeddelanden i Campaign Standard och Campaign Classic har uppdaterats. [Läs mer](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
-Guiden för att komma igång med GDPR har förbättrats och förbättrats. Detta är nu en sekretessdokumentation som inkluderar GDPR och CCPA. [Läs mer](https://helpx.adobe.com/se/campaign/kb/campaign-privacy.html)
+Starthandboken GDPR har förbättrats och berikats. Det finns nu en dokumentation om sekretesshantering som inkluderar GDPR och CCPA. [Läs mer](https://helpx.adobe.com/se/campaign/kb/campaign-privacy.html)
 
-Ett nytt diagram som presenterar processen för transaktionsmeddelanden har lagts till. [Läs mer](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
+Ett nytt diagram som presenterar processen för transaktionsmeddelanden har lagts till. [Läs mer](../../administration/using/configuring-transactional-messaging.md#transactional-messaging-pub-process)
 
 Guiden Komma igång med bästa leveransmetoder har flyttats och uppdaterats. [Läs mer](https://helpx.adobe.com/se/campaign/kb/delivery-best-practices.html)
 
@@ -416,7 +422,7 @@ Förbättrat arbetsflöde - Läs mer [här](../../automating/using/workflow-inte
 
 Den nya startupplevelsen för att skapa e-postinnehåll och andra förbättringar av e-postskaparen har lagts till i kapitlet Redigera e-postinnehåll. [Läs mer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)
 
-Ett nytt avsnitt om begränsningar för transaktionsmeddelanden har lagts till. [Läs mer](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
+Ett nytt avsnitt om begränsningar för transaktionsmeddelanden har lagts till. [Läs mer](../../channels/using/transactional-messaging-limitations.md)
 
 Ett nytt avsnitt som jämför de olika alternativen för e-postredigering i Adobe Campaign har lagts till. [Läs mer](../../designing/using/using-integrations.md#email-design-options-comparison)
 
