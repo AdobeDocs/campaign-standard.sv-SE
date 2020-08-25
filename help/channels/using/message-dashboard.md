@@ -13,7 +13,10 @@ context-tags: delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 80f6a384e99a7cebbe5c570f3273eceb393fd9b0
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
+source-wordcount: '598'
+ht-degree: 4%
 
 ---
 
@@ -57,7 +60,7 @@ Beroende på vilka parametrar som har ställts in och vilka framsteg som har gjo
    >
    >Det finns inget annat val för ett SMS-meddelande: det är automatiskt ett **[!UICONTROL Proof]** fel.
 
-* **[!UICONTROL Prepare send]**: börjar förbereda sändningen. Blocket visas och visar **[!UICONTROL Deployment]** resultatet av beredningen. Den här knappen visas bara när målet har angetts. Du kan när som helst avbryta beredningen med motsvarande knapp.
+* **[!UICONTROL Prepare send]**: börjar förbereda sändningen. Blocket visas och visar resultatet av **[!UICONTROL Deployment]** preparatet. Den här knappen visas bara när målet har angetts. Du kan när som helst avbryta beredningen med motsvarande knapp.
 
    Om du vill ha mer information om meddelandeförberedelse [förbereder du sändningen](../../sending/using/preparing-the-send.md).
 
@@ -71,10 +74,10 @@ Huvudskärmen består av olika block. Klicka i ett block för att komma åt mots
 
 ![](assets/delivery_dashboard_3.png)
 
-* **[!UICONTROL Deployment]**: gör att du kan spåra förloppet för meddelandeförberedelsen eller sändningen. Klicka på knappen i det nedre högra avsnittet av det här blocket för att komma åt sändning- och analysloggarna. Blocket visas bara när sändningen har förberetts. Mer om detta. Se [Bekräfta sändning](../../sending/using/confirming-the-send.md).
+* **[!UICONTROL Deployment]**: gör att du kan spåra förloppet för meddelandeförberedelsen eller sändningen. Klicka på knappen i det nedre högra avsnittet av det här blocket för att komma åt sändning- och analysloggarna. Blocket visas bara när sändningen har förberetts. Mer om detta. See [Confirming send](../../sending/using/confirming-the-send.md).
 * **[!UICONTROL Audience]**: gör att du kan fastställa meddelandets huvudmål samt testprofilerna. Se [Skapa målgrupper](../../audiences/using/creating-audiences.md).
 * **[!UICONTROL Schedule]**: I kan du ange det datum då meddelandet ska skickas. Se [Schemaläggning](../../sending/using/about-scheduling-messages.md).
-* **[!UICONTROL Content]**: Med kan du definiera meddelandets innehåll och förhandsgranska det. Se [Viktiga steg för att skicka ett meddelande](../../channels/using/key-steps-to-send-a-message.md).
+* **[!UICONTROL Content]**: Med kan du definiera meddelandets innehåll och förhandsgranska det. See [Key steps to send a message](../../channels/using/key-steps-to-send-a-message.md).
 
 ## Varningar {#warnings}
 
@@ -94,7 +97,7 @@ Nedan visas en lista med meddelanden som kan visas:
 
 * *&quot;Det går inte att skicka meddelanden eftersom den aktuella IP-tillhörigheten inte hanteras av någon sändningsprocess.&quot;*
 
-   Om det här meddelandet visas uppstår ett problem på definitionsnivån för IP-tillhörighet eller på överföringsprocessnivån. Kontakta din Adobe-administratör.
+   Om det här meddelandet visas uppstår ett problem på definitionsnivån för IP-tillhörighet eller på överföringsprocessnivån. Kontakta Adobe-administratören.
 
 * *&quot;Det här är en körklar mall för transaktionsmeddelanden. Om du vill ändra den måste du duplicera den och arbeta med kopian.&quot;*
 
@@ -102,4 +105,4 @@ Nedan visas en lista med meddelanden som kan visas:
 
 * *&quot;Det här meddelandet är en teknisk mall för transaktionsmeddelanden. Du kan inte ändra eller publicera den.&quot;*
 
-   Den här varningen visas i tomma transaktionsmeddelandemallar som inte kan redigeras. Mer information om transaktionsmeddelanden finns i [det här avsnittet](../../channels/using/about-transactional-messaging.md).
+   Den här varningen visas i tomma transaktionsmeddelandemallar som inte kan redigeras. For more on transactional messages, see [this section](../../channels/using/getting-started-with-transactional-msg.md).
