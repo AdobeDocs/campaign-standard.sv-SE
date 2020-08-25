@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f85da747cc4e6226172d2ccda452aadb131daa99
+source-git-commit: 284b177ef6d687cafaf92c50aa2050b8109ac30d
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 28%
@@ -25,13 +25,10 @@ ht-degree: 28%
 
 ## Översikt
 
-<table>
-<tr>
-<td class="noborder"><img src="assets/do-not-localize/icon_transactional.svg" width="60px"></td>
-<td class="noborder"><p>Med transaktionsmeddelanden kan ni <b>skicka individuella och unika meddelanden</b> till era kunder i realtid.</p></td>
-<td class="noborder"><p>Det kan vara välkomstmeddelanden, orderbekräftelser, lösenordsändringar osv.</p></td>
-</tr>
-</table>
+
+<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
+
+Med transaktionsmeddelanden kan ni <b>skicka individuella och unika meddelanden</b> till era kunder i realtid. Det kan vara välkomstmeddelanden, orderbekräftelser, lösenordsändringar osv.
 
 Med Adobe Campaign kan ni integrera den här funktionen med ett informationssystem som skickar händelser som ska omvandlas till anpassade transaktionsmeddelanden.
 
@@ -51,26 +48,22 @@ Transaktionsmeddelanden finns också i Adobe Campaign Standard-API.        Mer i
 
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_concepts.svg" width="60px"></td>
-<td align="center"><br><p><b>Vad är ett transaktionsmeddelande?</b></p></td>
+<td align="center"><img src="assets/do-not-localize/icon_concepts.svg" width="60px"><br><p><b>Vad är ett transaktionsmeddelande?</b></p></td>
 <td><p>Det är en individ och en unik kommunikation som skickas av en leverantör som en webbplats.</p></td>
 <td><p>Det är särskilt väntat eftersom det innehåller viktig information som mottagaren vill kontrollera eller bekräfta.</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"></td>
-<td align="center"><p><b>När ska det vara klart?</b></p></td>
+<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p><b>När ska det vara klart?</b></p></td>
 <td><p> Eftersom det här meddelandet innehåller viktig information förväntar sig användaren att det skickas i realtid.</p></td>
 <td><p>Följaktligen måste fördröjningen mellan den händelse som utlöses och det meddelande som anländer vara mycket kort.</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_important.svg" width="60px"></td>
-<td align="center"><p><b>Varför är det viktigt?</b></p></td>
+<td align="center"><img src="assets/do-not-localize/icon_important.svg" width="60px"><br><p><b>Varför är det viktigt?</b></p></td>
 <td><p>Vanligtvis har ett transaktionsmeddelande höga öppningsfrekvenser. Den bör därför utformas noggrant.</p></td>
 <td><p>Det kan faktiskt ha en stark inverkan på kundernas beteende när det definierar kundrelationen.</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_example.svg" width="60px"></td>
-<td align="center"><b>Exempel?</b></td>
+<td align="center"><img src="assets/do-not-localize/icon_example.svg" width="60px"><br><b>Exempel?</b></td>
 <td><p>Det kan vara ett välkomstmeddelande när du har skapat ett konto, en bekräftelse på att en order har levererats, en faktura...</p></td>
 <td><p>Det kan också vara ett meddelande som bekräftar en lösenordsändring eller ett meddelande efter att en kund har bläddrat på din webbplats..</p></td>
 </tr>
@@ -84,21 +77,16 @@ Det finns två typer av transaktionsmeddelanden i Adobe Campaign:
 
 <table>
 <tr>
-<td align="center"><a href="../../channels/using/event-transactional-messages.md">Händelsetransaktionsmeddelanden:</a><br>rikta en <b>händelse</b>.</td>
-<td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"></td>
+<td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"><br><a href="../../channels/using/event-transactional-messages.md">Händelsetransaktionsmeddelanden:</a><br>rikta en <b>händelse</b>.</td>
 <td><p><ul><li>De innehåller ingen profilinformation.</li><li>De är inte kompatibla med <a href="../../sending/using/fatigue-rules.md">trötthetsregler</a> (även om det rör sig om en anrikning med profiler).</li><li>Leveransmålet definieras av data som finns i själva händelsen.</li></ul></p></td>
+</tr>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><a href="../../channels/using/profile-transactional-messages.md">Profilera</a><br>transaktionsmeddelandenmarknadsföringsprofiler <b>från Adobe Campaign marknadsföringsdatabas</b>.</td>
+<td><p>Med profiltransaktionsmeddelanden kan du:<ul><li>Använd typologiregler för marknadsföring, som <b>Address på blockeringslista</b> eller <a href="../../sending/using/fatigue-rules.md">trötthetsregler</a>.</li><li>Inkludera avprenumerations-länken i meddelandena.</li><li>Lägga till transaktionsmeddelanden i den globala leveransrapporten.</li><li>Använda transaktionsmeddelanden i kundresan.</li></ul></p></td>
 </tr>
 </table>
 
 <!--[Profile transactional messages](../../channels/using/profile-transactional-messages.md) targeting **profiles from the Adobe Campaign marketing database**. You can use information from the Adobe Campaign database to send a transactional message based on customer marketing profiles.-->
-
-<table>
-<tr>
-<td align="center"><a href="../../channels/using/profile-transactional-messages.md">Profilera</a><br>transaktionsmeddelandenmarknadsföringsprofiler <b>från Adobe Campaign marknadsföringsdatabas</b>.</td>
-<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"></td>
-<td><p>Med profiltransaktionsmeddelanden kan du:<ul><li>Använd typologiregler för marknadsföring, som <b>Address på blockeringslista</b> eller <a href="../../sending/using/fatigue-rules.md">trötthetsregler</a>.</li><li>Inkludera avprenumerations-länken i meddelandena.</li><li>Lägga till transaktionsmeddelanden i den globala leveransrapporten.</li><li>Använda transaktionsmeddelanden i kundresan.</li></ul></p></td>
-</tr>
-</table>
 
 Meddelandetypen definieras när händelsen som ska omvandlas till ett transaktionsmeddelande konfigureras.        Se Konfiguration för [transaktionsmeddelanden](../../administration/using/configuring-transactional-messaging.md).
 
@@ -148,7 +136,7 @@ Mer information om hur du integrerar evenemanget på din webbplats finns i [Webb
 
 <!--Once all of these steps have been carried out, the message can be delivered:-->
 
-<img src="assets/do-not-localize/icon_notification.svg" width="60px">
+<img src="assets/do-not-localize/icon_notification.svg" width="40px">
 
 Så snart en användare lämnar webbplatsen utan att beställa produkterna i kundvagnen får de automatiskt ett e-postmeddelande.
 
