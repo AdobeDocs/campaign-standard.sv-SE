@@ -12,10 +12,10 @@ discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: a373eb6546cb3c726e8b6807f6b47b14b3e520e6
 workflow-type: tm+mt
 source-wordcount: '1277'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -83,16 +83,16 @@ Tabellen nedan visar en lista över de dimensioner som används i rapporter och 
    <td> Mobilprogrammets namn<br /> </td> 
   </tr> 
   <tr> 
-   <td> Platform<br /> </td> 
-   <td> Platform för den enhet som meddelandet öppnades/visades/klickades på.<br /> </td> 
+   <td> Plattform<br /> </td> 
+   <td> Plattform för den enhet som meddelandet öppnades/visades/klickades på från.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Profiler<br /> </td> 
+   <td> Profil<br /> </td> 
    <td> Grupperar om färdiga och anpassade profilfält som skapats under tillägget för profilresursen. Mer information finns på den här <a href="../../developing/using/key-steps-to-add-a-resource.md">sidan</a> eller i det här <a href="../../reporting/using/creating-a-custom-profile-dimension.md">exemplet</a>.<br /> Observera att data för den här dimensionen hämtas så snart den anpassade resurs som är länkad till profilfältet publiceras.<br /> </td> 
   </tr> 
   <tr> 
    <td> Push-plattform<br /> </td> 
-   <td> Platform för den enhet som push-meddelandet öppnades från, till exempel iOS eller Android.<br /> </td> 
+   <td> Plattform för enheten som push-meddelandet öppnades från, till exempel iOS eller Android.<br /> </td> 
   </tr> 
   <tr> 
    <td> Mottagardomän<br /> </td> 
@@ -152,12 +152,12 @@ Tabellerna nedan ger dig en lista över de mätvärden som används i rapporter 
  </thead> 
  <tbody> 
   <tr> 
-   <td> På blocklista<br /> </td> 
+   <td> På blockeringslista<br /> </td> 
    <td> Antal mottagare som har deklarerat ett e-postmeddelande som skräppost eller skräppost.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Blocklistefrekvens<br /> </td> 
-   <td> Procentandel leveranser som är markerade i blocklistan.<br /> </td> 
+   <td> Blockeringslista ränta<br /> </td> 
+   <td> Procentandel leveranser som är markerade på blockeringslista.<br /> </td> 
   </tr> 
   <tr> 
    <td> studsar + fel<br /> </td> 
@@ -169,7 +169,7 @@ Tabellerna nedan ger dig en lista över de mätvärden som används i rapporter 
   </tr> 
   <tr> 
    <td> Klicka på<br /> </td> 
-   <td> Antal gånger ett innehåll klickades i en leverans.<br /> </td> 
+   <td> Antal gånger som ett innehåll klickades i en leverans.<br /> </td> 
   </tr> 
   <tr> 
    <td> Klicka igenom hastigheten<br /> </td> 
@@ -197,7 +197,7 @@ Tabellerna nedan ger dig en lista över de mätvärden som används i rapporter 
   </tr> 
   <tr> 
    <td> Spegelsidhastighet<br /> </td> 
-   <td> Procentandel klick på länken för spegelsidan jämfört med det totala antalet leveransmeddelanden.<br /> </td> 
+   <td> Procentandel klick på spegelsidlänken jämfört med totalt antal leveransmeddelanden.<br /> </td> 
   </tr> 
   <tr> 
    <td> Erbjud klickningar<br /> </td> 
@@ -313,7 +313,7 @@ Tabellerna nedan ger dig en lista över de mätvärden som används i rapporter 
    <td> Procentandel öppnade push-meddelanden.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unik klickning<br /> </td> 
+   <td> Unika klick<br /> </td> 
    <td> Antal gånger en unik användare interagerar med push-meddelandet, t.ex. klickar på meddelandet eller knappen.<br /> </td> 
   </tr> 
   <tr> 
@@ -354,7 +354,7 @@ Tabellerna nedan ger dig en lista över de mätvärden som används i rapporter 
    <td> Procentandel användare som klickade på Knapp 1 eller Knapp 2 jämfört med användare som såg meddelandet.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Inaktivering i appen<br /> </td> 
+   <td> Avvisning i appen<br /> </td> 
    <td> Totalt antal meddelanden som mottagarna stängt antingen genom att klicka på stängningsknappen eller genom automatisk stängning.<br /> </td> 
   </tr> 
   <tr> 
