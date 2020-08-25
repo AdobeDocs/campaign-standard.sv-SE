@@ -12,9 +12,9 @@ discoiquuid: 6b7788fe-fa6c-472a-97db-765595ce1589
 context-tags: service,wizard;service,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a8ee3b864b6916871711c6bd2e2d3b794bc706f8
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ Så här konfigurerar du en tjänst:
       >
       >Du kan ändra ett standardmeddelande genom att klicka på meddelandets etikett i avsnittet **[!UICONTROL Service properties]** eller genom att markera det i listan med transaktionsmeddelanden i Adobe Campaign efter att du har markerat rutan **[!UICONTROL Show internal transactional messages]**.
 
-   * **[!UICONTROL Custom message]**: I det här läget kan du hantera anpassade bekräftelsemeddelanden som är specifika för varje tjänst.  Sedan väljer du den **[!UICONTROL Custom subscription event configuration]** som är associerad med en viss [mall för transaktionsmeddelanden](../../channels/using/about-transactional-messaging.md) .  Mer information finns i [Bekräfta prenumeration på en tjänst](../../audiences/using/confirming-subscription-to-a-service.md).
+   * **[!UICONTROL Custom message]**: I det här läget kan du hantera anpassade bekräftelsemeddelanden som är specifika för varje tjänst.  Sedan väljer du den **[!UICONTROL Custom subscription event configuration]** som är associerad med en viss [mall för transaktionsmeddelanden](../../channels/using/getting-started-with-transactional-msg.md) .  Mer information finns i [Bekräfta prenumeration på en tjänst](../../audiences/using/confirming-subscription-to-a-service.md).
 
 1. Spara tjänsten.  Den är nu klar att användas.
 
