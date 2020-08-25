@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 762700893c913d9aea884d00438c84b39a800188
+source-git-commit: fe9b2156a80f973045a2a7860dac4ac3a1d899e7
 workflow-type: tm+mt
 source-wordcount: '2478'
 ht-degree: 100%
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 Du kan skicka transaktionsmeddelanden för en händelse. Den här typen av transaktionsmeddelanden innehåller inte profilinformation: leveransmålet definieras av data som finns i själva händelsen.
 
-När du har skapat och publicerat en händelse (övergivna varukorgar enligt [detta avsnitt](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle)) skapas motsvarande transaktionsmeddelande automatiskt.
+När du har skapat och publicerat en händelse (övergivna varukorgar enligt [detta avsnitt](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)) skapas motsvarande transaktionsmeddelande automatiskt.
 
 Konfigurationsstegen beskrivs i avsnittet [Konfigurera en händelse för att skicka ett transaktionsmeddelande](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 
