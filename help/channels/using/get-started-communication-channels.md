@@ -12,10 +12,10 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d994d85f126951215f1227301599c554c1f12c8
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 0%
+source-wordcount: '526'
+ht-degree: 17%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 </table>
 
 Med Adobe Campaign kan ni lansera, mäta och automatisera kampanjer i alla kanaler.
-Att harmonisera alla era marknadsföringskanaler är inte en omöjlig uppgift. Med hjälp av Adobe Campaign kan ni samla kunddata från olika system, enheter och kanaler i en enda profil. Leverera sedan aktuella och relevanta kampanjer som möter era kunder på rätt plats och på rätt sätt under kundresan.
+Att harmonisera alla era marknadsföringskanaler är inte en omöjlig uppgift. Med hjälp av Adobe Campaign kan ni samla kunddata från olika system, enheter och kanaler i en och samma profil. Leverera sedan aktuella och relevanta kampanjer som möter era kunder på rätt plats och på rätt sätt under kundresan.
 
 ## Globala begrepp {#global-concepts}
 
@@ -43,7 +43,7 @@ Att harmonisera alla era marknadsföringskanaler är inte en omöjlig uppgift. M
 
 Läs mer:
 
-* [Viktiga steg för att skicka ett meddelande](../../channels/using/key-steps-to-send-a-message.md)
+* [Huvudstegen för att skicka ett meddelande](../../channels/using/key-steps-to-send-a-message.md)
 * [Åtkomst till meddelanden](../../channels/using/accessing-messages.md)
 * [Kontrollpanel för meddelanden](../../channels/using/message-dashboard.md)
 * [Mallar för flerspråkiga meddelanden](../../channels/using/multilingual-messages-template.md)
@@ -77,10 +77,11 @@ Transaktionsmeddelanden är tillgängliga för e-post-, SMS- och push-meddelande
 
 Läs mer:
 
-* [Om transaktionsmeddelanden](../../channels/using/about-transactional-messaging.md)
+* [Om transaktionsmeddelanden](../../channels/using/getting-started-with-transactional-msg.md)
+* [Komma igång med transaktionsmeddelanden](../../channels/using/getting-started-with-transactional-msg.md)
 * [Transaktionsmeddelanden för händelser](../../channels/using/event-transactional-messages.md)
-* [Profiltransaktionsmeddelanden](../../channels/using/profile-transactional-messages.md)
-* [Transaktionspush-meddelanden](../../channels/using/transactional-push-notifications.md)
+* [Profilbaserade transaktionsmeddelanden](../../channels/using/profile-transactional-messages.md)
+* [Push-meddelanden för transaktioner](../../channels/using/transactional-push-notifications.md)
 * [Uppföljningsmeddelanden](../../channels/using/follow-up-messages.md)
 
 ## Landningssidor {#landing-pages}
@@ -93,17 +94,17 @@ Landningssidor kan också användas för att **hämta eller uppdatera befintliga
 
 Läs mer:
 
-* [Komma igång med landningssidor](../../channels/using/getting-started-with-landing-pages.md)
+* [Kom igång med landningssidor](../../channels/using/getting-started-with-landing-pages.md)
 * [Mallar för landningssidor](../../channels/using/landing-page-templates.md)
-* [Hantera landningssidans formulärdata](../../channels/using/managing-landing-page-form-data.md)
+* [Hantera formulärdata på landningssidan](../../channels/using/managing-landing-page-form-data.md)
 * [Konfigurera en process för dubbel anmälan](../../channels/using/setting-up-a-double-opt-in-process.md)
 
 ## Ytterligare resurser
 
 * [Optimera leveransen](../../sending/using/about-deliverability.md)
-* [Bästa praxis](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+* [Bästa praxis för leverans](https://helpx.adobe.com/se/campaign/kb/delivery-best-practices.html)
 * [Utforma ett e-postinnehåll](../../designing/using/designing-content-in-adobe-campaign.md)
-* [Importera ett AEM-innehåll](../../integrating/using/creating-email-experience-manager.md)
+* [Importera AEM](../../integrating/using/creating-email-experience-manager.md)
 * [Skicka meddelanden med arbetsflöden](../../automating/using/about-channel-activities.md)
 * [Videor om självstudiekurser om kommunikationskanaler](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
 * [Användningsfall: Skapa en flerkanalsleverans](../../automating/using/workflow-cross-channel-delivery.md)
