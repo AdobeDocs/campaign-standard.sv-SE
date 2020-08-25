@@ -11,9 +11,9 @@ topic-tags: managing-subscriptions
 discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '1322'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ När den konfigureras från tjänsten skickas bekräftelsemeddelandet endast fö
 
 ### Steg 1: Skapa bekräftelsemeddelandet {#step-1--create-the-confirmation-email-1}
 
-Ett bekräftelsemeddelande skickas automatiskt till varje profil som prenumererat på nyhetsbrevet (via en landningssida eller på något annat sätt).  Prenumerationen betraktas som en händelse och e-postmeddelandet är ett [transaktionsmeddelande](../../channels/using/about-transactional-messaging.md) som riktar sig till varje profil som prenumererar på tjänsten.
+Ett bekräftelsemeddelande skickas automatiskt till varje profil som prenumererat på nyhetsbrevet (via en landningssida eller på något annat sätt).  Prenumerationen betraktas som en händelse och e-postmeddelandet är ett [transaktionsmeddelande](../../channels/using/getting-started-with-transactional-msg.md) som riktar sig till varje profil som prenumererar på tjänsten.
 
 Hur du skapar bekräftelsemeddelandet beskrivs nedan.  Du måste skapa det först när transaktionsmeddelandet refererats till i tjänsten.
 
@@ -135,13 +135,13 @@ När bekräftelsemeddelandet från landningssidan refereras till så skickas ett
 
 ### Steg 1: Skapa bekräftelsemeddelandet {#step-1--create-the-confirmation-email-2}
 
-Ett bekräftelsemeddelande skickas automatiskt till varje profil som prenumererar på nyhetsbrevet via en landningssida.  Prenumerationen betraktas som en händelse och e-postmeddelandet är ett [transaktionsmeddelande](../../channels/using/about-transactional-messaging.md) som riktar sig till varje profil som prenumererar på tjänsten.
+Ett bekräftelsemeddelande skickas automatiskt till varje profil som prenumererar på nyhetsbrevet via en landningssida.  Prenumerationen betraktas som en händelse och e-postmeddelandet är ett [transaktionsmeddelande](../../channels/using/getting-started-with-transactional-msg.md) som riktar sig till varje profil som prenumererar på tjänsten.
 
 Steg för att skapa dessa element beskrivs nedan.  Eftersom transaktionsmeddelandet kommer att refereras på landningssidan så måste du skapa det först.
 
 #### Skapa händelsen {#create-the-event-2}
 
-Bekräftelsemeddelandet är ett [transaktionsmeddelande](../../channels/using/about-transactional-messaging.md) som reagerar på en händelse som prenumerationen på en tjänst.  Det här meddelandet skickas för att bekräfta prenumerationen av ditt nyhetsbrev.
+Bekräftelsemeddelandet är ett [transaktionsmeddelande](../../channels/using/getting-started-with-transactional-msg.md) som reagerar på en händelse som prenumerationen på en tjänst.  Det här meddelandet skickas för att bekräfta prenumerationen av ditt nyhetsbrev.
 
 1. Skapa en händelse i menyn **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** som du kommer åt via Adobe Campaign-logotypen.
 1. Ange en etikett, välj en måldimension och klicka sedan **[!UICONTROL Create]**.
