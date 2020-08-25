@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 284b177ef6d687cafaf92c50aa2050b8109ac30d
+source-git-commit: 434be1d237e1ce5bd47552d371d2df4670e82f44
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 28%
@@ -35,8 +35,8 @@ Med Adobe Campaign kan ni integrera den här funktionen med ett informationssyst
 >[!NOTE]
 >
 >Transaktionsmeddelanden kan skickas via e-post, SMS eller push-meddelanden beroende på dina möjliga alternativ.        Kontrollera licensavtalet.
->
->Adobe Campaign prioriterar bearbetning av transaktionsmeddelanden framför annan leverans.
+
+Adobe Campaign prioriterar bearbetning av transaktionsmeddelanden framför annan leverans.
 
 Transaktionsmeddelanden finns också i Adobe Campaign Standard-API.        Mer information om detta hittar du i den [dedikerade dokumentationen](../../api/using/managing-transactional-messages.md).
 
@@ -63,7 +63,7 @@ Transaktionsmeddelanden finns också i Adobe Campaign Standard-API.        Mer i
 <td><p>Det kan faktiskt ha en stark inverkan på kundernas beteende när det definierar kundrelationen.</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_example.svg" width="60px"><br><b>Exempel?</b></td>
+<td align="center"><img src="assets/do-not-localize/icon_example.svg" width="60px"><br><p><b>Exempel?</b></p></td>
 <td><p>Det kan vara ett välkomstmeddelande när du har skapat ett konto, en bekräftelse på att en order har levererats, en faktura...</p></td>
 <td><p>Det kan också vara ett meddelande som bekräftar en lösenordsändring eller ett meddelande efter att en kund har bläddrat på din webbplats..</p></td>
 </tr>
@@ -77,11 +77,11 @@ Det finns två typer av transaktionsmeddelanden i Adobe Campaign:
 
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"><br><a href="../../channels/using/event-transactional-messages.md">Händelsetransaktionsmeddelanden:</a><br>rikta en <b>händelse</b>.</td>
+<td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"><br><p><a href="../../channels/using/event-transactional-messages.md">Händelsetransaktionsmeddelandenrikta</a><br>en <b>händelse</b></p></td>
 <td><p><ul><li>De innehåller ingen profilinformation.</li><li>De är inte kompatibla med <a href="../../sending/using/fatigue-rules.md">trötthetsregler</a> (även om det rör sig om en anrikning med profiler).</li><li>Leveransmålet definieras av data som finns i själva händelsen.</li></ul></p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><a href="../../channels/using/profile-transactional-messages.md">Profilera</a><br>transaktionsmeddelandenmarknadsföringsprofiler <b>från Adobe Campaign marknadsföringsdatabas</b>.</td>
+<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><a href="../../channels/using/profile-transactional-messages.md"><p>Profile transactional messages</a><br>targeting <b>profiles from the Adobe Campaign marketing database</b></p></td>
 <td><p>Med profiltransaktionsmeddelanden kan du:<ul><li>Använd typologiregler för marknadsföring, som <b>Address på blockeringslista</b> eller <a href="../../sending/using/fatigue-rules.md">trötthetsregler</a>.</li><li>Inkludera avprenumerations-länken i meddelandena.</li><li>Lägga till transaktionsmeddelanden i den globala leveransrapporten.</li><li>Använda transaktionsmeddelanden i kundresan.</li></ul></p></td>
 </tr>
 </table>
