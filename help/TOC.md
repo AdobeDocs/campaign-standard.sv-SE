@@ -4,9 +4,9 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Hjälp för Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: b9fbcbd7d6ea206ae3ed1faca89f4000052f97dc
+source-git-commit: 7a647878a711777dffd83a8f8dccacf9d9238ba6
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1569'
 ht-degree: 88%
 
 ---
@@ -103,7 +103,8 @@ ht-degree: 88%
       + [Definiera målgruppen för direktutskick](channels/using/defining-the-direct-mail-audience.md)
       + [Definiera innehållet i direktutskick](channels/using/defining-the-direct-mail-content.md)
    + Transaktionsmeddelanden {#transactional-messaging}
-      + [Om transaktionsmeddelanden](channels/using/about-transactional-messaging.md)
+      + [Komma igång med transaktionsmeddelanden](channels/using/getting-started-with-transactional-msg.md)
+      + [Begränsningar för transaktionsmeddelanden](channels/using/transactional-messaging-limitations.md)
       + [Transaktionsmeddelanden för händelser](channels/using/event-transactional-messages.md)
       + [Profilbaserade transaktionsmeddelanden](channels/using/profile-transactional-messages.md)
       + [Push-meddelanden för transaktioner](channels/using/transactional-push-notifications.md)
