@@ -13,7 +13,10 @@ context-tags: deliveryHotClicksReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
+source-wordcount: '475'
+ht-degree: 0%
 
 ---
 
@@ -65,7 +68,7 @@ En körningsleverans är ett icke-åtgärdbart och icke-funktionellt tekniskt me
 
 * Som standard en gång i månaden för transaktionsmeddelanden och varje gång redigeras ett transaktionsmeddelande och publiceras igen.
 
-   Mer information om transaktionsmeddelanden finns i [Om transaktionsmeddelanden](../../channels/using/about-transactional-messaging.md).
+   Mer information om transaktionsmeddelanden finns i [Om transaktionsmeddelanden](../../channels/using/getting-started-with-transactional-msg.md).
 
 >[!NOTE]
 >
