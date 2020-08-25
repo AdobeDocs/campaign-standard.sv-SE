@@ -12,7 +12,7 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 89%
@@ -80,7 +80,7 @@ Steg för att skapa dessa element beskrivs nedan. Du måste följa dem innan du 
 
 ### Skapa händelsen {#create-the-event}
 
-Bekräftelsemeddelandet är ett [transaktionsmeddelande](../../channels/using/about-transactional-messaging.md) när det reagerar på en händelse: Validering av formuläret. Du måste först skapa händelsen och sedan skapa mallen för transaktionsmeddelandet.
+Bekräftelsemeddelandet är ett [transaktionsmeddelande](../../channels/using/getting-started-with-transactional-msg.md) när det reagerar på en händelse: Validering av formuläret. Du måste först skapa händelsen och sedan skapa mallen för transaktionsmeddelandet.
 
 1. Skapa en händelse från menyn **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** som du kommer åt från Adobe Campaign-logotypen och ange etiketten &quot;**BEKRÄFTA**&quot;.
 1. Välj **[!UICONTROL Profile]** dimensionen för målinriktning och klicka på **[!UICONTROL Create]**.
