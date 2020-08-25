@@ -1,5 +1,5 @@
 ---
-title: Transaktionspush-meddelanden
+title: Push-meddelanden för transaktioner
 description: Lär dig hur du skapar och publicerar ett transaktionspush-meddelande.
 page-status-flag: never-activated
 uuid: ef31c1b6-9ef8-42e3-b49d-72f9eac8ea32
@@ -12,39 +12,42 @@ discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
+source-wordcount: '740'
+ht-degree: 13%
 
 ---
 
 
-# Transaktionspush-meddelanden{#transactional-push-notifications}
+# Push-meddelanden för transaktioner{#transactional-push-notifications}
 
-Du kan använda Adobe Campaign för att skicka push-meddelanden för transaktioner på iOS- och Android-mobilenheter. Dessa meddelanden tas emot i mobilprogram som du konfigurerar i Adobe Campaign genom att utnyttja Experience Cloud Mobile SDK.
+Du kan använda Adobe Campaign för att skicka push-meddelanden för transaktioner på iOS- och Android-mobilenheter. Dessa meddelanden tas emot i mobilappar som du konfigurerar i Adobe Campaign genom att utnyttja Experience Cloud Mobile SDK.
 
 >[!NOTE]
 >
->Push-kanalen är valfri. Kontrollera licensavtalet. Mer information om vanliga push-meddelanden finns i [Push-meddelanden](../../channels/using/about-push-notifications.md).
+>Push-kanalen är valfri. Kontrollera licensavtalet.  Mer information om vanliga push-meddelanden finns i [Push-meddelanden](../../channels/using/about-push-notifications.md).
 
 Du kan skicka två typer av push-meddelanden för transaktioner:
 
 * Transaktionspush-meddelanden som riktar sig till en händelse.
 * Transactional push notifications targeting profiles from the Adobe Campaign database.
 
-När du har skapat och publicerat en händelse (den kundvagnsöverlämning som förklaras i [det här avsnittet](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle)) skapas motsvarande push-meddelande för transaktioner automatiskt.
+Once you have created and published an event (the cart abandonment explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)), the corresponding transactional push notification is created automatically.
 
-Konfigurationsstegen beskrivs i avsnittet [Konfigurera en händelse för att skicka ett transaktionspush-meddelande](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) .
+The configuration steps are presented in the [Configuring an event to send a transactional push notification](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) section.
 
-För att händelsen ska kunna utlösa att ett transaktionsmeddelande skickas måste du anpassa meddelandet, testa det och publicera det.
+För att händelsen ska kunna trigga skickandet av ett transaktionsmeddelande måste du anpassa meddelandet, testa det och publicera det.
 
 >[!NOTE]
 >
->För att få åtkomst till transaktionsmeddelanden måste du vara en del av **[!UICONTROL Administrators (all units)]** säkerhetsgruppen.
+>För att få åtkomst till transaktionsmeddelanden måste du vara en del av **[!UICONTROL Administrators (all units)]**-säkerhetsgruppen.
 
 ## Transaktionspush-meddelanden för en händelse {#transactional-push-notifications-targeting-an-event}
 
 Du kan skicka ett anonymt transaktionspush-meddelande till alla användare som har valt att ta emot meddelanden från ditt mobilprogram.
 
-I det här fallet används bara data som finns i själva händelsen för att definiera leveransmålet. Inga data från den integrerade profildatabasen för Adobe Campaign används.
+I det här fallet används bara data som finns i själva händelsen för att definiera leveransmålet. Inga data från Adobe Campaign integrerade profildatabas används.
 
 ### Skicka ett transaktionspush-meddelande med målet för en händelse {#sending-a-transactional-push-notification-targeting-an-----------event}
 
@@ -52,11 +55,11 @@ Ett flygbolag vill till exempel bjuda in sina användare av mobilappar att forts
 
 Företaget skickar ett transaktionsmeddelande per användare (identifieras med en registreringstoken) med ett mobilprogram via en enda enhet.
 
-1. Gå till transaktionsmeddelandet som skapades för att redigera det. Se [Transaktionsmeddelanden](../../channels/using/event-transactional-messages.md)för händelser.
+1. Gå till transaktionsmeddelandet som skapades för att redigera det. Se [Händelsebaserade transaktionsmeddelanden](../../channels/using/event-transactional-messages.md).
 
    ![](assets/message-center_push_message.png)
 
-1. Klicka på **[!UICONTROL Content]** blocket för att ändra meddelandets titel och brödtext.
+1. Click the **[!UICONTROL Content]** block to modify your message&#39;s title and body.
 
    Du kan infoga anpassningsfält för att lägga till element som du definierade när du skapade händelsen.
 
@@ -68,8 +71,8 @@ Företaget skickar ett transaktionsmeddelande per användare (identifieras med e
 
    Mer information om hur du redigerar ett push-meddelandeinnehåll finns i [Skapa ett push-meddelande](../../channels/using/preparing-and-sending-a-push-notification.md).
 
-1. Spara ändringarna och publicera meddelandet. Se [Publicera ett transaktionsmeddelande](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
-1. Skicka en händelse till en registreringstoken (ABCDEF123456789) med hjälp av Adobe Campaign Standard REST API, med ett mobilprogram (WeFlight) på Android (gcm) som innehåller startdata.
+1. Spara ändringarna och publicera meddelandet.  Se [Publicera ett transaktionsmeddelande](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
+1. Med Adobe Campaign Standard REST API skickar du en händelse till en registreringstoken (ABCDEF123456789) med ett mobilprogram (WeFlight) på Android (gcm) som innehåller startdata.
 
    ```
    {
@@ -97,7 +100,7 @@ Du kan skicka ett transaktionsmeddelande till de Adobe Campaign-profiler som har
 
 I det här fallet måste händelsen innehålla några fält som tillåter avstämning med en profil från Adobe Campaign-databasen.
 
-När målprofiler används skickas ett transaktionspush-meddelande per mobilprogram och per enhet. Om en Adobe Campaign-användare till exempel har prenumererat på två program får den här användaren två meddelanden. Om en användare prenumererar på samma program med två olika enheter får användaren ett meddelande på varje enhet.
+När målprofiler används skickas ett transaktionspush-meddelande per mobilprogram och per enhet. Om en Adobe Campaign-användare t.ex. prenumererar på två program får den här användaren två meddelanden. Om en användare prenumererar på samma program med två olika enheter får användaren ett meddelande på varje enhet.
 
 De mobilprogram som en profil prenumererar på visas på fliken **[!UICONTROL Mobile App Subscriptions]** i den här profilen. Du öppnar den här fliken genom att markera en profil och klicka på **[!UICONTROL Edit profile properties]** knappen till höger.
 
@@ -109,20 +112,20 @@ Mer information om att komma åt och redigera profiler finns i [Profiler](../../
 
 Ett flygbolag vill t.ex. skicka en sista förfrågan om introduktion till alla Adobe Campaign-användare som har prenumererat på sin mobilapp.
 
-1. Gå till transaktionsmeddelandet som skapades för att redigera det. Se [Transaktionsmeddelanden](../../channels/using/event-transactional-messages.md)för händelser.
+1. Gå till transaktionsmeddelandet som skapades för att redigera det. Se [Händelsebaserade transaktionsmeddelanden](../../channels/using/event-transactional-messages.md).
 
    <!--![](assets/message-center_push_message_profile.png)-->
 
-1. Klicka på **[!UICONTROL Content]** blocket för att ändra meddelandets titel och brödtext.
+1. Click the **[!UICONTROL Content]** block to modify your message&#39;s title and body.
 
-   I motsats till konfigurationer som baseras på realtidshändelser har du direkt tillgång till all profilinformation för att personalisera meddelandet. Se [Infoga ett personaliseringsfält](../../designing/using/personalization.md#inserting-a-personalization-field).
+   I motsats till konfigurationer som baseras på realtidshändelser har du direkt tillgång till all profilinformation för att personalisera meddelandet. Se [Infoga ett personaliserat fält](../../designing/using/personalization.md#inserting-a-personalization-field).
 
    <!--![](assets/message-center_push_content_profile.png)-->
 
    Mer information om hur du redigerar ett push-meddelandeinnehåll. Se [Skapa ett push-meddelande](../../channels/using/preparing-and-sending-a-push-notification.md).
 
-1. Spara ändringarna och publicera meddelandet. Se [Publicera ett transaktionsmeddelande](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
-1. Skicka en händelse till en profil med hjälp av Adobe Campaign Standard REST API.
+1. Spara ändringarna och publicera meddelandet.  Se [Publicera ett transaktionsmeddelande](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
+1. Skicka en händelse till en profil med Adobe Campaign Standard REST API.
 
    ```
    {
