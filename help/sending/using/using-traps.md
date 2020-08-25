@@ -1,5 +1,5 @@
 ---
-title: Använda svällningar
+title: Använda traps
 description: Lär dig hur du använder svällning i meddelanden.
 page-status-flag: never-activated
 uuid: eb4d893b-3724-4b15-9312-1ec74784368d
@@ -13,12 +13,15 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7c2d444b7d971124b676fa2392b51aab40e5629
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
+source-wordcount: '382'
+ht-degree: 2%
 
 ---
 
 
-# Använda svällningar {#using-traps}
+# Använda traps {#using-traps}
 
 När du använder svällningar skickas meddelandet till [testprofilen](../../audiences/using/managing-test-profiles.md) på samma sätt som det skickas till huvudmålet för att identifiera om klientfilen används bedrägligt.
 
@@ -49,18 +52,18 @@ När du definierar målgruppen för ett meddelande:
 
    ![](assets/trap_select.png)
 
-1. Klicka på **[!UICONTROL Prepare]** knappen när meddelandeinnehållet är klart. Se [Förbereda sändningen](../../sending/using/preparing-the-send.md).
+1. Klicka på **[!UICONTROL Prepare]** knappen när meddelandeinnehållet är klart. See [Preparing the send](../../sending/using/preparing-the-send.md).
    >[!NOTE]
    >
    >Se till att du har valt ett huvudmål. Annars går det inte att skicka meddelandet.
 
-1. Klicka på **[!UICONTROL Confirm]** knappen. Se [Bekräfta sändningen](../../sending/using/confirming-the-send.md).
+1. Klicka på knappen **[!UICONTROL Confirm]**. Se [Bekräfta sändningen](../../sending/using/confirming-the-send.md).
 
    ![](assets/trap_confirm.png)
 
 Meddelandet skickas till huvudmålet och till testprofilen.
 
-Du kan använda svällning när du skickar transaktionsmeddelanden. I det här fallet får testprofilen ett meddelande per händelsekonfiguration. Mer information om transaktionsmeddelanden finns i det här [avsnittet](../../channels/using/about-transactional-messaging.md).
+Du kan använda svällning när du skickar transaktionsmeddelanden. I det här fallet får testprofilen ett meddelande per händelsekonfiguration. For more on transactional messaging, see this [section](../../channels/using/getting-started-with-transactional-msg.md).
 
 >[!NOTE]
 >
