@@ -1,6 +1,6 @@
 ---
-title: Profiltransaktionsmeddelanden
-description: Lär dig hur du skapar och publicerar ett transaktionsmeddelande för en profil.
+title: Profilbaserade transaktionsmeddelanden
+description: Lär dig hur du skapar och publicerar profilbaserade transaktionsmeddelanden.
 page-status-flag: never-activated
 uuid: a8efe979-74ae-46ff-a305-b86a90679581
 contentOwner: sauviat
@@ -12,75 +12,75 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 0%
+ht-degree: 94%
 
 ---
 
 
-# Profiltransaktionsmeddelanden{#profile-transactional-messages}
+# Profilbaserade transaktionsmeddelanden{#profile-transactional-messages}
 
-Ni kan skicka transaktionsmeddelanden baserat på kundmarknadsföringsprofiler, som gör att ni kan:
+Du kan skicka transaktionsmeddelanden baserat på marknadsföringsprofiler för kunder som gör att du kan:
 
-* Använd typologiregler för marknadsföring som **[!UICONTROL Address on block list]** eller [trötthetsregler](../../sending/using/fatigue-rules.md).
-* Inkludera länken för avprenumeration i meddelandena.
-* Lägg till transaktionsmeddelandena i den globala leveransrapporten.
-* Utnyttja transaktionsbudskapen i kundresan.
+* Använd typologiregler för marknadsföring som **[!UICONTROL Address on block list]** eller [fatigue-regler](../../sending/using/fatigue-rules.md).
+* Inkludera avprenumerations-länken i meddelandena.
+* Lägga till transaktionsmeddelanden i den globala leveransrapporten.
+* Använda transaktionsmeddelanden i kundresan.
 
-När du har skapat och publicerat en händelse (övergivna varukorgar enligt [exemplet](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) ovan) skapas motsvarande transaktionsmeddelande automatiskt.
+När du har skapat och publicerat en händelse (övergivna varukorgar enligt [exemplet](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) ovan) skapas motsvarande transaktionsmeddelande automatiskt.
 
 Konfigurationsstegen beskrivs i avsnittet [Konfigurera en händelse för att skicka ett transaktionsmeddelande](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) för en profil.
 
-För att händelsen ska kunna utlösa att ett transaktionsmeddelande skickas måste du anpassa meddelandet, testa det och publicera det.
+För att händelsen ska kunna trigga skickandet av ett transaktionsmeddelande måste du anpassa meddelandet, testa det och sedan publicera det.
 
 >[!NOTE]
 >
 >För att få åtkomst till transaktionsmeddelanden måste du vara en del av **[!UICONTROL Administrators (all units)]** säkerhetsgruppen.
 >
->Trötthetsregler är kompatibla med profiltransaktionsmeddelanden. Se [Trötthetsregler](../../sending/using/fatigue-rules.md).
+>Fatigue-regler är kompatibla med profilbaserade transaktionsmeddelanden.  Se [Fatigue-regler](../../sending/using/fatigue-rules.md).
 
-## Skicka ett transaktionsmeddelande för en profil {#sending-a-profile-transactional-message}
+## Skicka ett profilbaserat transaktionsmeddelande {#sending-a-profile-transactional-message}
 
-Stegen för att skapa, personalisera och publicera ett profiltransaktionsmeddelande är desamma som för ett händelsetransaktionsmeddelande. Se [Transaktionsmeddelanden](../../channels/using/event-transactional-messages.md)för händelser.
+Stegen för att skapa, personalisera och publicera ett profilbaserat transaktionsmeddelande är detsamma som för ett händelsebaserat transaktionsmeddelande.  Se [Händelsebaserade transaktionsmeddelanden](../../channels/using/event-transactional-messages.md).
 
-Skillnaderna anges nedan.
+Skillnaderna mellan dessa anges nedan.
 
 1. Gå till transaktionsmeddelandet som skapades för att redigera det.
-1. Klicka på **[!UICONTROL Content]** avsnittet i transaktionsmeddelandet. Förutom transaktionsmallen kan du även välja valfri e-postmall som mål **[!UICONTROL Profile]**.
+1. Klicka på **[!UICONTROL Content]**-avsnittet i transaktionsmeddelandet.  Förutom transaktionsmallen kan du även välja valfri e-postmall som mål **[!UICONTROL Profile]**.
 
    ![](assets/message-center_marketing_templates.png)
 
 1. Välj standardmall för e-post.
 
-   På samma sätt som för alla marknadsföringsmejl innehåller det en länk för att avsluta prenumerationen.
+   På samma sätt som för alla marknadsföringsmeddelanden innehåller det en avprenumerationslänk.
 
    ![](assets/message-center_marketing_perso_unsubscription.png)
 
-   Till skillnad från konfigurationer som baseras på realtidshändelser har du dessutom direkt tillgång till all profilinformation för att personalisera ditt budskap. Se [Infoga ett personaliseringsfält](../../designing/using/personalization.md#inserting-a-personalization-field).
+   Till skillnad från konfigurationer som baseras på realtidshändelser har du dessutom direkt tillgång till all profilinformation för att personalisera ditt budskap.  Se [Infoga ett personaliserat fält](../../designing/using/personalization.md#inserting-a-personalization-field).
 
-1. Spara ändringarna och publicera meddelandet. Se [Publicera ett transaktionsmeddelande](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
+1. Spara ändringarna och publicera meddelandet.  Se [Publicera ett transaktionsmeddelande](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
 
-## Övervaka leverans av transaktionsmeddelanden för en profil {#monitoring-a-profile-transactional-message-delivery}
+## Övervaka leveransen av ett profilbaserat transaktionsmeddelande {#monitoring-a-profile-transactional-message-delivery}
 
-När meddelandet har publicerats och webbplatsintegreringen är klar kan du övervaka leveransen.
+När meddelandet har publicerats och webbplatsintegreringen är klar så kan du övervaka leveransen.
 
-1. Om du vill visa meddelandets leveranslogg klickar du på ikonen längst ned till höger i **[!UICONTROL Deployment]** blocket.
+1. Om du vill visa meddelandets leveranslogg klickar du på ikonen längst ned till höger i **[!UICONTROL Deployment]**-blocket.
 
    Mer information om hur du får åtkomst till loggarna finns i [Övervaka leveransen](../../sending/using/monitoring-a-delivery.md).
 
-1. Klicka på **[!UICONTROL Sending logs]** fliken. I **[!UICONTROL Status]** kolumnen **[!UICONTROL Sent]** anger att en profil har valt att vara med.
+1. Klicka på fliken **[!UICONTROL Sending logs]**.  I kolumnen **[!UICONTROL Status]** anger **[!UICONTROL Sent]** att en profil har valt att delta.
 
    ![](assets/message-center_marketing_sending_logs.png)
 
-1. Välj fliken **[!UICONTROL Exclusions logs]** om du vill visa mottagare som har uteslutits från meddelandemålet, till exempel adresser i blockeringslistan.
+1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as addresses on block list.
 
    ![](assets/message-center_marketing_exclusion_logs.png)
 
-För alla profiler som har avanmält sig exkluderades motsvarande mottagare av typologiregeln **[!UICONTROL Address on block list]** .
+För alla profiler som har avanmält sig exkluderas motsvarande mottagare av typologiregeln **[!UICONTROL Address on block list]**.
 
-Den här regeln ingår i en specifik typologi som gäller för alla transaktionsmeddelanden som baseras på **[!UICONTROL Profile]** tabellen.
+Den här regeln ingår i en specifik typologi som gäller för alla transaktionsmeddelanden som baseras på tabellen **[!UICONTROL Profile]**.
 
 ![](assets/message-center_marketing_typology.png)
 
