@@ -12,9 +12,9 @@ discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
 context-tags: branding,overview;branding,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e18407ab4bf70caa417b16bbc645fd2c6ba1818b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Huvudprincipen för att konfigurera och använda varumärken är att:
 >
 >Varumärken kan inte skapas eller ändras av slutanvändare: dessa åtgärder måste utföras av den tekniska administratören för Adobe Campaign. Kontakta Adobes kundtjänst om du har frågor.
 >
->Det går inte att använda flera varumärken i samband med transaktionsmeddelanden. Mer information finns i [Transaktionsmeddelanden och varumärke](../../channels/using/about-transactional-messaging.md#permissions-and-branding).
+>Det går inte att använda flera varumärken i samband med transaktionsmeddelanden. Mer information finns i [Transaktionsmeddelanden och varumärke](../../channels/using/transactional-messaging-limitations.md#permissions-and-branding).
 
 Varumärken finns på menyn **[!UICONTROL Administration > Instance settings > Brand configuration]**.
 
@@ -67,6 +67,7 @@ Ett **varumärke** definieras av följande egenskaper:
    * **Skicka svar till (e-postadress)** med den e-postadress som kunden kan svara på.
    * **Skicka svar till (namn)** med varumärkets namn.
    * **Fel (e-postadress)** med den e-postadress som ska användas om ett fel uppstår.
+
    >[!IMPORTANT]
    >
    >Om avsändarens namn och e-postadress inte har ändrats i det e-postmeddelande som skapas från mallen ska du kontrollera mallens avancerade inställningar när du har uppdaterat rubrikparametrarna för e-postmeddelandena.
@@ -78,6 +79,7 @@ Ett **varumärke** definieras av följande egenskaper:
    * **Extern URL för den programserver** används som värd och för åtkomst till de olika landningssidor som du skapar.
    * **Extern URL för spårningsservern** används som spårad URL under leveranser.
    * **Extern URL för spegelsidservern** används som standardspegelsida i dina leveranser.
+
    >[!NOTE]
    >
    >Om du vill visa förhandsgranskningen av landningssidan och återgivningen av spegelsidan i användargränssnittet för Campaign måste URL:erna för programservern och spegelsidservern vara säkra. I så fall ska du använda https:// i stället för http:// när du konfigurerar dessa URL-adresser.
