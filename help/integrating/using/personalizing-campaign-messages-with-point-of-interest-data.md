@@ -1,5 +1,5 @@
 ---
-title: Anpassa kampanjmeddelanden med intressepunktsdata
+title: Anpassa Campaign-meddelanden med Point of Interest-data
 description: Lär dig hur du skapar ett personligt meddelande baserat på var dina prenumeranter befinner sig med integreringen av punktinformation.
 page-status-flag: never-activated
 uuid: d74c3e55-f130-441b-bc2a-06ddcd5d9784
@@ -12,16 +12,19 @@ discoiquuid: a1736ba3-5121-4d01-bf04-ebb7e701e2e0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
+source-wordcount: '260'
+ht-degree: 10%
 
 ---
 
 
-# Anpassa kampanjmeddelanden med intressepunktsdata{#personalizing-campaign-messages-with-point-of-interest-data}
+# Anpassa Campaign-meddelanden med Point of Interest-data{#personalizing-campaign-messages-with-point-of-interest-data}
 
-I Adobe Campaign kan ni använda de intressepunkter som samlats in från era mobilappsprenumeranter för att skicka personaliserade marknadsföringsmeddelanden till dem, till exempel ett e-postmeddelande.
+I Adobe Campaign kan du använda de intressepunkter som samlats in från prenumeranterna av ditt mobilprogram för att skicka personaliserade marknadsföringsmeddelanden till dem, till exempel ett e-postmeddelande.
 
-Du kan bara reagera på intressepunktsdata med standardleveranser. [Transaktionsmeddelanden](../../channels/using/about-transactional-messaging.md) kan inte använda platsdata.
+Du kan bara reagera på intressepunktsdata med standardleveranser. [Transaktionsmeddelanden](../../channels/using/getting-started-with-transactional-msg.md) kan inte använda platsdata.
 
 Den tidigaste reaktionen är cirka 10 minuter.
 
@@ -34,7 +37,7 @@ I så fall bestämmer du dig för att skicka ett e-postmeddelande till alla pren
 
    Hur du hanterar målgrupper beskrivs i avsnittet [Definiera målgrupper](../../audiences/using/creating-audiences.md) .
 
-1. Dra och släpp **[!UICONTROL Add a rule - Profile/Subscriptions to an application]** elementet på arbetsytan i **[!UICONTROL POI Location Subscription]** fönstret.
+1. In the **[!UICONTROL Add a rule - Profile/Subscriptions to an application]** window, drag and drop the **[!UICONTROL POI Location Subscription]** element into the workspace.
 
    ![](assets/poi_add_rule_profile_subscription.png)
 
@@ -42,10 +45,10 @@ I så fall bestämmer du dig för att skicka ett e-postmeddelande till alla pren
 
    ![](assets/poi_location_subscription.png)
 
-1. Markera i **[!UICONTROL Filter type]** fältet **[!UICONTROL Relative]**.
+1. Markera **[!UICONTROL Filter type]** i fältet **[!UICONTROL Relative]**.
 1. Markera **[!UICONTROL Preceding days]** alternativet och ange **[!UICONTROL 15]** i motsvarande fält.
 1. Ange hur många gånger användaren måste ha besökt platsen för intresse.
-1. Klicka **[!UICONTROL Confirm]** för att spara din publik.
+1. Click **[!UICONTROL Confirm]** to save your audience.
 
    ![](assets/poi_subscriptions_app_audience_defined.png)
 
