@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 3bd2fdb56fc94cef4e9c21466a33cdad7ac825d2
 workflow-type: tm+mt
 source-wordcount: '1754'
-ht-degree: 0%
+ht-degree: 94%
 
 ---
 
@@ -24,15 +24,15 @@ ht-degree: 0%
 
 ![](assets/wf_externalAPI.png)
 
-Aktiviteten hämtar data till arbetsflödet från ett **[!UICONTROL External API]** externt system **via ett** HTTP API **** -anrop.
+Aktiviteten **[!UICONTROL External API]** hämtar data till arbetsflödet från ett **externt system** via ett **HTTP API**-anrop.
 
-De externa systemslutpunkterna kan vara offentliga API-slutpunkter, kundhanteringssystem eller serverlösa programinstanser (t.ex. [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html)), för att nämna några kategorier.
+De externa systemslutpunkterna kan vara offentliga API-slutpunkter, kundhanteringssystem eller serverlösa programinstanser (t.ex. [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html)) för att nämna några kategorier.
 
 >[!NOTE]
 >
->Av säkerhetsskäl stöds inte användning av JSSP i Campaign Standarden. Om du behöver köra kod kan du anropa en Adobe I/O Runtime-instans via aktiviteten External API.
+>Av säkerhetsskäl stöds inte JSSP:er i Campaign Standard. Om du behöver köra kod kan du anropa en Adobe I/O Runtime-instans via aktiviteten External API.
 
-De viktigaste egenskaperna för denna verksamhet är:
+De viktigaste egenskaperna för denna aktivitet är:
 
 * Möjlighet att skicka data i ett JSON-format till en REST API-slutpunkt från tredje part
 * Möjlighet att få ett JSON-svar tillbaka, mappa det till utdatatabeller och skicka det vidare till andra arbetsflödesaktiviteter.
@@ -40,19 +40,19 @@ De viktigaste egenskaperna för denna verksamhet är:
 
 ### Övergång från betaversion till GA {#from-beta-to-ga}
 
-I Campaign Standard 20.3 har funktionerna för externa API övergått från betaversion till allmän tillgänglighet (GA).
+Med versionen Campaign Standard 20.3 har funktionaliteten Extern API övergått från Beta till Allmän tillgänglighet (GA).
 
 >[!CAUTION]
 >
->Om du använder externa API-betaaktiviteter måste du därför ersätta dem med externa API-aktiviteter för GA i alla arbetsflöden.  Arbetsflöden som använder betaversionen av det externa API:t slutar fungera med version 20.3.
+>Om du använder Extern API-aktiviteter i beta måste du därför ersätta dem med Extern API-aktiviteter i GA i alla arbetsflöden.  Arbetsflöden som använder betaversionen av Extern API slutar fungera med version 20.3.
 
-När du ersätter externa API-aktiviteter lägger du till den nya externa API-aktiviteten i arbetsflödet, kopierar manuellt över konfigurationsinformationen och tar sedan bort den gamla aktiviteten.
+När du ersätter Extern API-aktiviteter lägger du till den nya Extern API-aktiviteten i arbetsflödet, kopierar manuellt över konfigurationsinformationen och tar sedan bort den gamla aktiviteten.
 
 >[!NOTE]
 >
 >Du kan inte kopiera över rubrikvärden eftersom de är maskerade i aktiviteten.
 
-Därefter konfigurerar du om andra aktiviteter i arbetsflödet som pekar på och/eller använder data från den externa betaversionen av API-aktiviteten till att peka på och/eller använda data från den nya externa API-aktiviteten i stället. Exempel på aktiviteter: e-postleverans (anpassningsfält), anrikningsaktivitet osv.
+Därefter konfigurerar du om andra aktiviteter i arbetsflödet som pekar på och/eller använder data från betaversionen av Extern API-aktiviteten till att peka på och/eller använda data från den nya Extern API-aktiviteten i stället. Exempel på aktiviteter: e-postleverans (anpassningsfält), anrikningsaktivitet, o.s.v.
 
 ### Begränsningar och skyddsräcken {#guardrails}
 
@@ -62,30 +62,30 @@ Följande skyddsutkast gäller för den här aktiviteten:
 * Tidsgränsen för begäran är 10 minuter
 * HTTP-omdirigeringar tillåts inte
 * URL:er som inte är HTTPS nekas
-* &quot;Acceptera: application/json-begärandehuvud och Content-Type: application/json&quot;-svarshuvud tillåts
+* Begäranderubriken &quot;Acceptera: application/json&quot; och svarsrubriken &quot;Innehållstyp: application/json&quot; är tillåtna
 
 >[!NOTE]
 >
 >Från och med Campaign 20.4 sänks http-svarets datastorlek och tidsgräns för svar till 5 MB respektive 1 minut.  Även om den här ändringen endast påverkar nya externa API-aktiviteter rekommenderar vi starkt att aktuella implementeringar av den externa API-aktiviteten anpassas till dessa nya skyddsförslag för att följa bästa praxis.
 
-Särskilda skyddsräcken har införts för JSON:
+Särskilda skyddsräcken har implementerats för JSON:
 
-* **Högsta JSON-djup**: begränsa det maximala djupet för en anpassad kapslad JSON som kan bearbetas till 10 nivåer.
-* **JSON-maxnyckellängd**: begränsa maxlängden för den interna nyckel som genereras till 255. Den här nyckeln är kopplad till kolumn-ID:t.
-* **Högsta tillåtna** JSON-dubblettnycklar:  begränsa det maximala antalet dubblerade JSON-egenskapsnamn, som används som kolumn-ID, till 150.
+* **Maximalt JSON-djup**: Begränsa det maximala djupet för en anpassad kapslad JSON som kan bearbetas till 10 nivåer.
+* **Maximal längd på JSON-nyckel**: Begränsa maxlängden för den interna nyckel som genereras till 255. Den här nyckeln är kopplad till kolumn-ID:t.
+* **Maximalt antal tillåtna JSON-dubblettnycklar**: Begränsa det maximala antalet dubbla JSON-egenskapsnamn, som används som kolumn-ID, till 150.
 
 Aktiviteten stöds inte i JSON-strukturen som:
 
-* Kombinera arrayobjekt med andra icke-arrayelement
-* JSON-arrayobjektet kapslas inom ett eller flera mellanliggande arrayobjekt.
+* Kombinera matrisobjekt med andra icke-matriselement
+* JSON-matrisobjektet kapslas inom ett eller flera mellanliggande matrisobjekt.
 
 >[!CAUTION]
 >
->Den externa API-aktiviteten är avsedd för att hämta kampanjomfattande data (den senaste uppsättningen erbjudanden, senaste poängen osv.), inte för att hämta specifik information för varje profil eftersom det kan leda till att stora mängder data överförs. Om användningsfallet kräver detta bör aktiviteten [Överför fil](../../automating/using/transfer-file.md) användas.
+>Den externa API-aktiviteten är avsedd för att hämta kampanjomfattande data (den senaste uppsättningen erbjudanden, senaste poängen osv.), inte för att hämta specifik information för varje profil eftersom det kan leda till att stora mängder data överförs. Om användningsfallet kräver detta ska aktiviteten [Överför fil](../../automating/using/transfer-file.md) användas.
 
 ## Konfiguration {#configuration}
 
-Dra och släpp en **[!UICONTROL External API]** aktivitet i arbetsflödet och öppna aktiviteten för att starta konfigurationen.
+Dra och släpp en **[!UICONTROL External API]**-aktivitet i arbetsflödet och öppna aktiviteten för att starta konfigurationen.
 
 ### Inkommande mappning
 
@@ -96,11 +96,11 @@ Utifrån den här tillfälliga tabellen kan användaren ändra inkommande data.
 
 I listrutan **Inkommande resurs** kan du välja den frågeaktivitet som ska skapa det tillfälliga registret.
 
-Kryssrutan **Lägg till räkningsparameter** lägger till ett räkningsvärde för varje rad som kommer från den temporära tabellen. Observera att den här kryssrutan endast är tillgänglig om den inkommande aktiviteten genererar en tillfällig tabell.
+Kryssrutan **Lägg till antalparameter** lägger du till ett räkningsvärde för varje rad som kommer från den tillfälliga tabellen. Observera att den här kryssrutan endast är tillgänglig om den inkommande aktiviteten genererar en tillfällig tabell.
 
-I avsnittet **Inkommande kolumner** kan användaren lägga till fält från den inkommande övergångstabellen. De markerade kolumnerna är nycklarna i dataobjektet. Dataobjektet i JSON blir en arraylista som innehåller data för markerade kolumner från varje rad i tabellen för inkommande övergångar.
+I avsnittet **Inkommande kolumner** kan användaren lägga till fält från den inkommande övergångstabellen. De markerade kolumnerna är nycklarna i dataobjektet. Dataobjektet i JSON blir en matrislista som innehåller data för markerade kolumner från varje rad i tabellen för inkommande övergångar.
 
-I textrutan för **anpassade parametrar** kan du lägga till en giltig JSON med ytterligare data som behövs för det externa API:t. Dessa ytterligare data läggs till i params-objektet i den genererade JSON:n.
+I textrutan **Anpassa parametrar** kan du lägga till en giltig JSON med ytterligare data som behövs för det externa API:t. Dessa ytterligare data läggs till i params-objektet i den genererade JSON:n.
 
 ### Utgående mappning
 
@@ -108,23 +108,23 @@ På den här fliken kan du definiera exempelstrukturen för **JSON** som returne
 
 ![](assets/externalAPI-outbound.png)
 
-JSON-parsern är utformad för att rymma JSON-standardstrukturmönstertyper, med några undantag. Ett exempel på ett standardmönster är:`{“data”:[{“key”:“value”}, {“key”:“value”},...]}`
+JSON-tolkaren är utformad för att rymma JSON-standardstrukturmönstertyper, med några undantag. Ett exempel på ett standardmönster är:`{“data”:[{“key”:“value”}, {“key”:“value”},...]}`
 
 JSON-exempeldefinitionen måste ha **följande egenskaper**:
 
-* **Arrayelement** måste innehålla egenskaper på första nivån (djupare nivåer stöds inte).
-   **Egenskapsnamn** blir till kolumnnamn för utdatabadet i den temporära utdatatabellen.
+* **Matriselement** måste innehålla egenskaper på första nivån (djupare nivåer stöds inte).
+   **Egenskapsnamn** blir till kolumnnamn för utdatabadet i den tillfälliga utdatatabellen.
 * **JSON-element** som ska hämtas måste vara på 10 eller färre kapslingsnivåer inom JSON-svaret.
-* **Kolumnnamnsdefinitionen** baseras på det första elementet i arrayen &quot;data&quot;.
-Kolumndefinition (lägg till/ta bort) och egenskapens typvärde kan redigeras på fliken **Kolumndefinition** .
+* **Kolumnnamnsdefinitionen** baseras på det första elementet i matrisen &quot;data&quot;.
+Kolumndefinition (lägg till/ta bort) och egenskapens typvärde kan redigeras på fliken **Kolumndefinition**.
 
-**Förenkla kryssrutebeteende** :
+Beteende **Förenkla kryssrutan**:
 
-Kryssrutan Förenkla (standard: unchecked) anges för att ange om JSON ska förenklas till en nyckel/värdekarta eller inte.
+Förenkla kryssrutan (standard: omarkerad) tillhandahålls för att ange om JSON ska förenklas till en nyckel/värdekarta eller inte.
 
-* När **kryssrutan är inaktiverad** (avmarkerad) tolkas JSON-exempelfilen så att den söker efter ett arrayobjekt. Användaren måste ange en trimmad version av JSON-formatet för API-svarsexemplet så att Adobe Campaign kan avgöra exakt vilken array som användaren är intresserad av. Vid redigering av arbetsflödet bestäms och registreras sökvägen till det kapslade arrayobjektet så att den kan användas vid körning för att komma åt det arrayobjektet från JSON-svarstexten som tas emot från API-anropet.
+* När **kryssrutan är inaktiverad** (avmarkerad) tolkas JSON-exempelfilen så att den söker efter ett matrisobjekt. Användaren måste ange en trimmad version av JSON-formatet för API-svarsexemplet så att Adobe Campaign kan avgöra exakt vilken matris som användaren är intresserad av att använda. Vid redigering av arbetsflödet bestäms och registreras sökvägen till det kapslade matrisobjektet så att den kan användas vid körning för att komma åt det matrisobjektet från JSON-svarstexten som tas emot från API-anropet.
 
-* När **kryssrutan är aktiverad** (markerad) förenklas JSON-exempelfilen och alla egenskaper som anges i det angivna exemplet JSON används för att skapa kolumner i den temporära utdatatabellen och visas på fliken Kolumndefinitioner. Observera att om det finns ett arrayobjekt i JSON-exempelfilen, kommer även alla element i dessa arrayobjekt att förenklas.
+* När **kryssrutan är aktiverad** (markerad) förenklas JSON-exempelfilen och alla egenskaper som anges i det angivna exemplet JSON används för att skapa kolumner i den tillfälliga utdatatabellen och visas på fliken Kolumndefinitioner. Observera att om det finns ett matrisobjekt i JSON-exempelfilen, kommer även alla element i dessa matrisobjekt att förenklas.
 
 
 Om **tolkningen valideras** visas ett meddelande som uppmanar dig att anpassa datamappningen på fliken Kolumndefinition. I andra fall visas ett felmeddelande.
@@ -136,7 +136,7 @@ På den här fliken kan du definiera den **HTTPS-slutpunkt** som ska skicka data
 
 ### Egenskaper
 
-På den här fliken kan du styra **allmänna egenskaper** för den externa API-aktiviteten, som etiketten som visas i gränssnittet. Det interna ID:t kan inte anpassas.
+På den här fliken kan du styra **allmänna egenskaper** för den externa API-aktiviteten, som t.ex. etiketten som visas i gränssnittet. Det interna ID:t kan inte anpassas.
 
 ![](assets/externalAPI-properties.png)
 
@@ -144,25 +144,25 @@ På den här fliken kan du styra **allmänna egenskaper** för den externa API-a
 
 >[!NOTE]
 >
->Fliken visas när **svarsdataformatet** har slutförts och validerats på fliken Utgående mappning.
+>Den här fliken visas när **svarsdataformatet** har slutförts och validerats på fliken Utgående mappning.
 
-På fliken **Kolumndefinition** kan du exakt ange datastrukturen för varje kolumn för att importera data som inte innehåller några fel och få den att matcha de typer som redan finns i Adobe Campaign-databasen för framtida åtgärder.
+På fliken **Kolumndefinition** kan du ange datastrukturen exakt för varje kolumn för att importera data som inte innehåller några fel och få dem att matcha de typer som redan finns i Adobe Campaign-databasen för framtida åtgärder.
 
 ![](assets/externalAPI-column.png)
 
-Du kan till exempel ändra etiketten för en kolumn och välja dess typ (sträng, heltal, datum osv.) eller specificera felbearbetning.
+Du kan till exempel ändra etiketten för en kolumn och välja dess typ (sträng, heltal, datum, etc.) eller specificera felbearbetning.
 
-Mer information finns i avsnittet [Läs in fil](../../automating/using/load-file.md) .
+Mer information finns i avsnittet [Läs in fil](../../automating/using/load-file.md).
 
 ### Övergång
 
-På den här fliken kan du aktivera den **utgående övergången** och dess etikett. Den här specifika övergången är användbar vid **timeout** eller om nyttolasten överskrider **datastorleken**.
+På den här fliken kan du aktivera den **utgående övergången** och dess etikett. Den här specifika övergången är användbar vid **timeout** eller om nyttolasten överskrider **datastorleksgränsen**.
 
 ![](assets/externalAPI-transition.png)
 
 ### Körningsalternativ
 
-Den här fliken är tillgänglig i de flesta arbetsflödesaktiviteter. Mer information finns i avsnittet [Aktivitetsegenskaper](../../automating/using/activity-properties.md) .
+Den här fliken är tillgänglig i de flesta arbetsflödesaktiviteter. Mer information finns i avsnittet [Aktivitetsegenskaper](../../automating/using/activity-properties.md).
 
 ![](assets/externalAPI-options.png)
 
@@ -172,7 +172,7 @@ Två typer av loggmeddelanden har lagts till i den nya arbetsflödesaktiviteten:
 
 ### Information
 
-Dessa loggmeddelanden används för att logga information om användbara kontrollpunkter när arbetsflödesaktiviteten körs. I synnerhet används följande loggmeddelanden för att logga det första försöket samt för att göra ett nytt försök (och orsaken till att det första försöket misslyckades) att få åtkomst till API:t.
+Dessa loggmeddelanden används för att logga information om användbara kontrollpunkter när arbetsflödesaktiviteten körs. Mer specifikt används följande loggmeddelanden för att logga det första försöket samt för att göra ett nytt försök (och orsaken till att det första försöket misslyckades) för att få åtkomst till API:t.
 
 <table> 
  <thead> 
@@ -183,16 +183,16 @@ Dessa loggmeddelanden används för att logga information om användbara kontrol
  </thead> 
  <tbody> 
   <tr> 
-   <td> Anropar API-URL '%s'.</td> 
-   <td> <p>Anropar API-URL:en https://example.com/api/v1/web-coupon?count=2'.</p></td> 
+   <td> Anropar API-URL "%s".</td> 
+   <td> <p>Anropar API-URL:en "https://example.com/api/v1/web-coupon?count=2".</p></td> 
   </tr> 
   <tr> 
-   <td> Försöker igen med API-URL '%s', föregående försök misslyckades ('%s').</td> 
-   <td> <p>Ett nytt försök att ange API-URL:en https://example.com/api/v1/web-coupon?count=2' misslyckades (HTTP - 401).</p></td>
+   <td> Försöker igen med API-URL "%s", föregående försök misslyckades ("%s").</td> 
+   <td> <p>Ett nytt försök att ange API-URL:en "https://example.com/api/v1/web-coupon?count=2" misslyckades ("HTTP – 401").</p></td>
   </tr> 
   <tr> 
-   <td> Överför innehåll från %s (%s / %s).</td> 
-   <td> <p>Överför innehåll från https://example.com/api/v1/web-coupon?count=2' (1234/1234).</p></td> 
+   <td> Överför innehåll från "%s" (%s / %s).</td> 
+   <td> <p>Överför innehåll från "https://example.com/api/v1/web-coupon?count=2" (1234/1234).</p></td> 
   </tr>
  </tbody> 
 </table>
@@ -204,67 +204,67 @@ Dessa loggmeddelanden används för att logga information om oväntade feltillst
 <table> 
  <thead> 
   <tr> 
-   <th> Kod - Meddelandeformat<br /> </th> 
+   <th> Kod – Meddelandeformat<br /> </th> 
    <th> Exempel<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> WKF-560250 - API-begärandeinnehållet överskrider gränsen (gräns: '%d').</td> 
+   <td> WKF-560250 – API-begärandeinnehållet överskrider gränsen (gräns: "%d").</td> 
    <td> <p>API-begärans brödtext överskreds (gräns: "5242880").</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560239 - API-svar överskred gränsen (gräns: '%d').</td> 
-   <td> <p>API-svaret överskrider gränsen (gräns: 5242880').</p></td> 
+   <td> WKF-560239 – API-svar överskred gränsen (gräns: "%d").</td> 
+   <td> <p>API-svaret överskrider gränsen (gräns: "5242880").</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560245 - API-URL kunde inte parsas (fel: '%d').</td> 
-   <td> <p>API-URL kunde inte tolkas (fel: '-2010').</p>
+   <td> WKF-560245 – API-URL kunde inte tolkas (fel: "%d").</td> 
+   <td> <p>API-URL kunde inte tolkas (fel: "-2010").</p>
    <p> Obs! Det här felet loggas när API-URL:en inte stöder verifieringsregler.</p></td>
   </tr> 
   <tr>
-   <td> WKF-560244 - API-URL-värden får inte vara localhost eller IP-adreslitteral (URL-värd: '%s').</td> 
-   <td> <p>API-URL-värden får inte vara localhost eller IP-adreslitteral (URL-värd: 'localhost').</p>
-    <p>API-URL-värden får inte vara localhost eller IP-adreslitteral (URL-värd: "192.168.0.5").</p>
-    <p>API-URL-värden får inte vara localhost eller IP-adreslitteral (URL-värd: [2001]).</p></td>
+   <td> WKF-560244 – API-URL-värden får inte vara "localhost" eller bokstavlig IP-adress (URL-värd: "%s").</td> 
+   <td> <p>API-URL-värden får inte vara localhost eller bokstavlig IP-adress (URL-värd: "localhost").</p>
+    <p>API-URL-värden får inte vara localhost eller bokstavlig IP-adress (URL-värd: "192.168.0.5").</p>
+    <p>API-URL-värden får inte vara localhost eller bokstavlig IP-adress (URL-värd: [2001]).</p></td>
   </tr> 
   <tr> 
-   <td> WKF-560238 - API-URL:en måste vara en säker URL (https) (begärd URL: '%s').</td> 
-   <td> <p>API-URL:en måste vara en säker URL (https) (begärd URL: https://example.com/api/v1/web-coupon?count=2').</p></td> 
+   <td> WKF-560238 – API-URL:en måste vara en säker URL (https) (begärd URL: "%s").</td> 
+   <td> <p>API-URL:en måste vara en säker URL (https) (begärd URL: "https://example.com/api/v1/web-coupon?count=2").</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560249 - Det gick inte att skapa begärandetexten JSON. Ett fel uppstod när %s skulle läggas till.</td> 
-   <td> <p>Det gick inte att skapa begärandebrödtext-JSON. Ett fel uppstod när params skulle läggas till.</p>
-    <p>Det gick inte att skapa begärandebrödtext-JSON. Ett fel uppstod när data skulle läggas till.</p></td>
+   <td> WKF-560249 – Det gick inte att skapa JSON för begärandetext. Ett fel uppstod när %s skulle läggas till.</td> 
+   <td> <p>Det gick inte att skapa JSON för begärandetext. Ett fel uppstod när "params" skulle läggas till.</p>
+    <p>Det gick inte att skapa JSON för begärandetext. Ett fel uppstod när "data" skulle läggas till.</p></td>
   </tr> 
   <tr> 
-   <td> WKF-560246 - HTTP-huvudnyckeln är felaktig (huvudnyckel: '%s').</td> 
-   <td> <p>HTTP-huvudnyckeln är felaktig (huvudnyckel: '%s').</p>
-   <p> Obs! Det här felet loggas när den anpassade huvudnyckeln inte kan valideras enligt <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
+   <td> WKF-560246 – HTTP-rubriknyckeln är felaktig (rubriknyckel: "%s").</td> 
+   <td> <p>HTTP-rubriknyckeln är felaktig (rubriknyckel: "%s").</p>
+   <p> Obs! Det här felet loggas när den anpassade rubriknyckeln inte kan valideras enligt <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr>
  <tr> 
-   <td> WKF-560248 - HTTP-huvudnyckel tillåts inte (huvudnyckel: '%s').</td> 
-   <td> <p>HTTP-huvudnyckeln tillåts inte (huvudnyckel: "Godkänn").</p></td> 
+   <td> WKF-560248 – HTTP-rubriknyckel tillåts inte (huvudnyckel: "%s").</td> 
+   <td> <p>HTTP-rubriknyckeln tillåts inte (rubriknyckeln: "Godkänn").</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 - AHTTP-rubrikvärdet är felaktigt (rubrikvärde: '%s').</td> 
-   <td> <p>HTTP-rubrikvärdet är felaktigt (rubrikvärde: '%s'). </p>
+   <td> WKF-560247 – AHTTP-rubrikvärdet är felaktigt (rubrikvärde: "%s").</td> 
+   <td> <p>HTTP-rubrikvärdet är felaktigt (rubrikvärde: "%s"). </p>
     <p>Obs! Det här felet loggas när det anpassade rubrikvärdet inte kan valideras enligt <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560240 - JSON-nyttolasten har den felaktiga egenskapen %s.</td> 
-   <td> <p>JSON-nyttolasten har den felaktiga egenskapen blah.</p></td>
+   <td> WKF-560240 – JSON-nyttolasten har den felaktiga egenskapen "%s".</td> 
+   <td> <p>JSON-nyttolasten har den felaktiga egenskapen "blah".</p></td>
   </tr> 
   <tr>
-   <td> WKF-560241 - Felformaterad JSON eller felaktigt format.</td> 
+   <td> WKF-560241 – Felformaterad JSON eller felaktigt format.</td> 
    <td> <p>Felformaterad JSON eller ogiltigt format.</p>
-   <p>Obs! Det här meddelandet gäller endast för parsning av svarstexten från det externa API:t, och loggas när du försöker validera om svarstexten uppfyller det JSON-format som krävs för den här aktiviteten.</p></td>
+   <p>Obs! Det här meddelandet gäller endast för tolkning av svarstexten från det externa API:t, och loggas när du försöker validera om svarstexten uppfyller det JSON-format som krävs för den här aktiviteten.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560246 - Aktiviteten misslyckades (orsak: '%s').</td> 
-   <td> <p>När aktiviteten misslyckas på grund av HTTP 401-felsvar - Aktiviteten misslyckades (orsak: HTTP - 401)</p>
-        <p>När aktiviteten misslyckas på grund av ett misslyckat internt anrop - Aktiviteten misslyckades (orsak: 'iRc - -Nn').</p>
-        <p>När aktiviteten misslyckas på grund av en ogiltig Content-Type-rubrik. - Aktiviteten misslyckades (orsak: 'Content-Type - application/html').</p></td> 
+   <td> WKF-560246 – Aktiviteten misslyckades (orsak: "%s").</td> 
+   <td> <p>När aktiviteten misslyckas på grund av HTTP 401-felsvar – Aktiviteten misslyckades (orsak: HTTP – 401)</p>
+        <p>När aktiviteten misslyckas på grund av ett misslyckat internt anrop – Aktiviteten misslyckades (orsak: "iRc – -Nn").</p>
+        <p>När aktiviteten misslyckas på grund av en ogiltig rubrik av innehållstyp. – Aktiviteten misslyckades (orsak: "Innehållstyp – application/html").</p></td> 
   </tr>
  </tbody> 
 </table>
