@@ -1,6 +1,6 @@
 ---
-title: Fråga
-description: Med aktiviteten Fråga kan du filtrera och extrahera en population av element från Adobe Campaign-databasen.
+title: Förfrågan
+description: Med förfrågnings-aktiviteten kan du filtrera och extrahera ett populations-element från Adobe Campaign-databasen.
 page-status-flag: never-activated
 uuid: b3c629fa-370e-481c-b347-fcf9f5a5e847
 contentOwner: sauviat
@@ -16,72 +16,72 @@ translation-type: tm+mt
 source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
 source-wordcount: '1725'
-ht-degree: 0%
+ht-degree: 98%
 
 ---
 
 
-# Fråga{#query}
+# Förfrågan{#query}
 
 ## Beskrivning {#description}
 
 ![](assets/query.png)
 
-Med hjälp av den här **[!UICONTROL Query]** aktiviteten kan du filtrera och extrahera en grupp element från Adobe Campaign-databasen. Du kan definiera **[!UICONTROL Additional data]** för målpopulationen via en dedikerad flik. Dessa data lagras i ytterligare kolumner och kan bara användas för det aktuella arbetsflödet.
+Med **[!UICONTROL Query]**-aktiviteten kan du filtrera och extrahera ett populations-element från Adobe Campaign-databasen. Du kan definiera **[!UICONTROL Additional data]** målpopulationen via en dedikerad flik. Dessa data lagras i ytterligare kolumner och kan bara användas för det aktuella arbetsflödet.
 
-Aktiviteten använder frågeredigeringsverktyget. Det här verktyget beskrivs i ett [särskilt avsnitt](../../automating/using/editing-queries.md#about-query-editor).
+Aktiviteten använder förfrågningsredigerings-verktyget. Mer detaljer gällande verktyget hittar du i verktygets [dedikerade avsnitt](../../automating/using/editing-queries.md#about-query-editor).
 
 **Relaterade ämnen:**
 
-* [Frågeexempel](../../automating/using/query-samples.md)
-* [Användningsfall: Omdirigeringsarbetsflöde som skickar en ny leverans till icke-öppnare](../../automating/using/workflow-cross-channel-retargeting.md)
+* [Förfrågningsexempel](../../automating/using/query-samples.md)
+* [Användningsfall: Omdirigera arbetsflöde som skickar en ny leverans till icke-öppnare](../../automating/using/workflow-cross-channel-retargeting.md)
 
 ## Kontext för användning {#context-of-use}
 
-Aktiviteten kan **[!UICONTROL Query]** användas för olika typer av användning:
+Aktiviteten **[!UICONTROL Query]** kan användas för olika typer av användning:
 
 * Segmentera individer för att definiera målet för ett meddelande, en målgrupp osv.
-* Tillikande data för hela databastabellen i Adobe Campaign.
-* Exporterar data.
+* Berika datan i hela Adobe Campaign-databastabellen.
+* Exportera data.
 
 ## Konfiguration {#configuration}
 
-1. Dra och släpp en **[!UICONTROL Query]** aktivitet i arbetsflödet.
-1. Markera aktiviteten och öppna den sedan med knappen ![](assets/edit_darkgrey-24px.png) bland de snabbåtgärder som visas. Som standard är aktiviteten förkonfigurerad för att söka efter profiler.
-1. Om du vill köra en fråga på en annan resurs än profilresursen går du till aktivitetens **[!UICONTROL Properties]** flik och väljer en **[!UICONTROL Resource]** och en **[!UICONTROL Targeting dimension]**.
+1. Dra och släpp en **[!UICONTROL Query]**-aktivitet i arbetsflödet.
+1. Markera aktiviteten och öppna den sedan med ![](assets/edit_darkgrey-24px.png) knappen bland de snabbåtgärder som visas. Som standard så är aktiviteten förkonfigurerad för att söka efter profiler.
+1. Om du vill köra en förfrågan på en annan resurs än profilen så går du till aktivitets-fliken **[!UICONTROL Properties]** och väljer en **[!UICONTROL Resource]** och en **[!UICONTROL Targeting dimension]**.
 
-   Med **[!UICONTROL Resource]** den här funktionen kan du förfina de filter som visas på paletten, medan **[!UICONTROL Targeting dimension]** kontextuell för den valda resursen motsvarar den typ av population som du vill få (identifierade profiler, leveranser, data som är länkade till den valda resursen osv.).
+   Med **[!UICONTROL Resource]** kan du förfina de filter som visas på paletten, medan **[!UICONTROL Targeting dimension]**, kontextuellt för den valda resursen, motsvarar den typ av population som du vill hämta (identifierade profiler, leveranser, data som är kopplade till den valda resursen osv.).
 
-   Mer information finns i [Målinställningar och resurser](#targeting-dimensions-and-resources).
+   Mer information om detta hittar du i [Målinställningar och resurser](#targeting-dimensions-and-resources).
 
 1. På fliken **[!UICONTROL Target]** kör du frågan genom att definiera och kombinera regler.
-1. Du kan definiera **[!UICONTROL Additional data]** för målpopulationen via en dedikerad flik. Dessa data lagras i ytterligare kolumner och kan bara användas för det aktuella arbetsflödet. Du kan särskilt lägga till data från databastabellerna i Adobe Campaign som är länkade till frågans måldimension. Mer information finns i avsnittet [Förbättra data](#enriching-data) .
+1. Du kan definiera **[!UICONTROL Additional data]** målpopulationen via en dedikerad flik. Dessa data lagras i ytterligare kolumner och kan bara användas för det aktuella arbetsflödet. Du kan t.ex. lägga till data från Adobe Campaign-databastabeller som är länkade till frågans måldimension.  Mer information finns i avsnittet [Berikningsdata](#enriching-data) .
 
    >[!NOTE]
    >
-   >Alternativet är som standard markerat i **[!UICONTROL Remove duplicate rows (DISTINCT)]** slutet **[!UICONTROL Advanced options]** av **[!UICONTROL Additional data]** frågefliken. Om aktiviteten innehåller många (från 100) ytterligare data som definierats bör du avmarkera det här alternativet av prestandaskäl. **[!UICONTROL Query]** Om du avmarkerar det här alternativet kan dubbletter hämtas, beroende på vilka data som efterfrågas.
+   >Alternativet är som standard markerat i **[!UICONTROL Remove duplicate rows (DISTINCT)]** slutet **[!UICONTROL Advanced options]** av **[!UICONTROL Additional data]** förfrågningsfliken. Om **[!UICONTROL Query]**-aktiviteten innehåller mycket (från 100) ytterligare data som definierats så bör du avmarkera detta alternativ av prestandaskäl. Om du avmarkerar det här alternativet kan dubbletter hämtas, beroende på vilken data som efterfrågas.
 
-1. På **[!UICONTROL Transition]** fliken kan du med **[!UICONTROL Enable an outbound transition]** alternativet lägga till en utgående övergång efter frågeaktiviteten, även om inga data hämtas.
+1. Under **[!UICONTROL Transition]**-fliken kan du med **[!UICONTROL Enable an outbound transition]**-alternativet lägga till en utgående övergång efter förfrågnings-aktiviteten, även om ingen data hämtats.
 
-   Segmentkoden för den utgående övergången kan anpassas med hjälp av ett standarduttryck och händelsevariabler (se [Anpassa aktiviteter med händelsevariabler](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables)).
+   Segmentkoden för den utgående övergången kan anpassas med hjälp av ett standarduttryck och händelse-variabler (se [Anpassa aktiviteter med händelse-variabler](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables)).
 
 1. Bekräfta aktivitetens konfiguration och spara arbetsflödet.
 
-## Målinriktade dimensioner och resurser {#targeting-dimensions-and-resources}
+## Måldimensioner och resurser {#targeting-dimensions-and-resources}
 
-Med måldimensionerna och resurserna kan du definiera på vilka element en fråga ska baseras för att avgöra målet för en leverans.
+Med måldimensionerna och resurserna kan du definiera vilka element en fråga ska baseras på för att avgöra målet för en leverans.
 
-Måtten definieras i målmappningar. For more on this, refer to [this section](../../administration/using/target-mappings-in-campaign.md).
+Måldimensioner definieras i målmappningar.  Mer information om detta hittar du i [det här avsnittet](../../administration/using/target-mappings-in-campaign.md).
 
-Måldimensioner och resurser definieras när du skapar ett arbetsflöde på fliken **[!UICONTROL Properties]** i en Query-aktivitet.
+Måldimensioner och resurser definieras när du skapar ett arbetsflöde under fliken **[!UICONTROL Properties]** i en förfrågningsaktivitet.
 
 >[!NOTE]
 >
->Målinriktningsdimensionen kan också definieras när du skapar en målgrupp (se [det här avsnittet](../../audiences/using/creating-audiences.md)).
+>Måldimensionen kan också definieras när du skapar en målgrupp (se [detta avsnitt](../../audiences/using/creating-audiences.md)).
 
 ![](assets/targeting_dimension1.png)
 
-Måtten och resurserna är länkade. De tillgängliga måldimensionerna beror därför på den valda resursen.
+Måldimensionen och resurserna är länkade.  De tillgängliga måldimensionerna avgörs därför av den valda resursen.
 
 Följande måldimensioner är tillgängliga för resursen **[!UICONTROL Profiles (profile)]**:
 
@@ -91,13 +91,13 @@ I **[!UICONTROL Deliveries (delivery)]** stället innehåller listan följande m
 
 ![](assets/targeting_dimension3.png)
 
-När måldimensionen och målresursen har angetts är olika filter tillgängliga i frågan.
+När måldimensionen och målresursen har angetts så finns olika filter tillgängliga i förfrågningen.
 
-Exempel på tillgängliga filter för **[!UICONTROL Profiles (profile)]** resursen:
+Exempel på tillgängliga filter för **[!UICONTROL Profiles (profile)]**-resursen:
 
 ![](assets/targeting_dimension4.png)
 
-Exempel på tillgängliga filter för **[!UICONTROL Deliveries (delivery)]** resursen:
+Exempel på tillgängliga filter för **[!UICONTROL Deliveries (delivery)]**-resursen:
 
 ![](assets/targeting_dimension5.png)
 
@@ -105,127 +105,127 @@ Måldimensionen och målresursen anges som standard för målprofiler. Det kan d
 
 Mer information finns i följande exempel: [Använda andra resurser än målinriktade dimensioner](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
-## Förbättra data {#enriching-data}
+## Berika data {#enriching-data}
 
-På fliken **[!UICONTROL Additional data]** i **[!UICONTROL Query]** och **[!UICONTROL Incremental query]****[!UICONTROL Enrichment]** aktiviteterna kan du utöka måldata och överföra dessa data till följande arbetsflödesaktiviteter, där de kan användas. Du kan särskilt lägga till:
+På fliken **[!UICONTROL Additional data]** i **[!UICONTROL Query]** och **[!UICONTROL Incremental query]****[!UICONTROL Enrichment]**­aktiviteterna kan du utöka måldata och överföra denna data till följande arbetsflödesaktiviteter där de kan användas.  Du kan mer specifikt lägga till:
 
-* Enkla data
-* Aggregat
+* Enkel data
+* Sammanställningar
 * Samlingar
 
-För aggregat och samlingar definieras en **[!UICONTROL Alias]** automatiskt så att ett tekniskt ID tilldelas till ett komplext uttryck. Detta alias, som måste vara unikt, gör att aggregaten och samlingarna enkelt kan hittas efteråt. Du kan ändra den så att den får ett namn som är lätt att känna igen.
+För sammanställningar och samlingar så definieras en **[!UICONTROL Alias]** automatiskt så att ett tekniskt ID tilldelas till ett komplext uttryck.  Detta alias, som måste vara unikt, gör att sammanställningarna och samlingarna enkelt kan hittas efteråt.  Du kan ändra den så att den får ett namn som är lätt att känna igen.
 
 >[!NOTE]
 >
->Alias måste följa följande syntaxregler: Endast alfanumeriska tecken och &quot;_&quot;-tecken tillåts. Aliasen är skiftlägeskänslig. Aliaset måste börja med tecknet&quot;@&quot;. Tecknet omedelbart efter &quot;@&quot; får inte vara numeriskt. Till exempel: @myAlias_1 och @_1Alias är korrekta; @myAlias#1 och @1Alias är felaktiga.
+>Alias måste följa följande syntaxregler: Endast alfanumeriska tecken och &quot;_&quot;-tecken tillåts.  Ett alias är skiftlägeskänsligt.  Ett alias måste börja med tecknet &quot;@&quot;.  Tecknet omedelbart efter &quot;@&quot; får inte vara numeriskt.  Till exempel: @myAlias_1 och @_1Alias är korrekta. @myAlias#1 och @1Alias är inkorrekta.
 
-När du har lagt till ytterligare data kan du använda en extra filternivå för de data som ursprungligen var målinriktade genom att skapa villkor som baseras på de ytterligare data som har definierats.
+När du har lagt till ytterligare data kan du använda en extra filternivå för den data som ursprungligen var målinriktad genom att skapa villkor som baseras på den ytterligare data som har definierats.
 
 >[!NOTE]
 >
->Alternativet är som standard markerat i **[!UICONTROL Remove duplicate rows (DISTINCT)]** slutet **[!UICONTROL Advanced options]** av **[!UICONTROL Additional data]** frågefliken. Om aktiviteten innehåller många (från 100) ytterligare data som definierats bör du avmarkera det här alternativet av prestandaskäl. **[!UICONTROL Query]** Om du avmarkerar det här alternativet kan dubbletter hämtas, beroende på vilka data som efterfrågas.
+>Alternativet är som standard markerat i **[!UICONTROL Remove duplicate rows (DISTINCT)]** slutet **[!UICONTROL Advanced options]** av **[!UICONTROL Additional data]** förfrågningsfliken. Om **[!UICONTROL Query]**-aktiviteten innehåller mycket (från 100) ytterligare data som definierats så bör du avmarkera detta alternativ av prestandaskäl. Om du avmarkerar det här alternativet kan dubbletter hämtas, beroende på vilken data som efterfrågas.
 
 Ett användningsexempel om hur du anpassar ett e-postmeddelande med ytterligare data visas i [det här avsnittet](../../automating/using/personalizing-email-with-additional-data.md).
 
 ### Lägga till ett enkelt fält {#adding-a-simple-field}
 
-Genom att lägga till ett enkelt fält som ytterligare data blir det fältet direkt synligt i aktivitetens utgående övergång. På så sätt kan användaren till exempel kontrollera att data från frågan är de önskade data.
+Genom att lägga till ett enkelt fält som ytterligare data så blir det fältet direkt synligt i aktivitetens utgående övergång.  På så sätt kan användaren till exempel kontrollera att data från förfrågan är den önskade datan.
 
-1. Lägg till ett nytt element på **[!UICONTROL Additional data]** fliken.
-1. I det fönster som öppnas, i **[!UICONTROL Expression]** fältet, väljer du ett av fälten som är tillgängliga direkt i måldimensionen eller i en av de länkade dimensionerna. Du kan redigera uttryck och använda funktioner eller enkla beräkningar (förutom aggregat) från dimensionsfälten.
+1. Lägg till ett nytt element under **[!UICONTROL Additional data]**-fliken.
+1. I det fönster som öppnas, alltså i **[!UICONTROL Expression]**-fältet, så väljer du ett av fälten som är tillgängliga direkt i måldimensionen eller i en av de länkade dimensionerna.  Du kan redigera uttryck och använda funktioner eller enkla beräkningar (förutom sammanställningar) i dimensionsfälten.
 
-   En **[!UICONTROL Alias]** skapas automatiskt om du redigerar ett uttryck som inte är en enkel XPATH-sökväg (till exempel: &quot;Year(&lt;@bornDate>)&quot;). Om du vill kan du ändra den. Om du bara markerar ett fält (till exempel: &quot;@age&quot;) behöver du inte definiera en **[!UICONTROL Alias]**.
+   En **[!UICONTROL Alias]** skapas automatiskt om du redigerar ett uttryck som inte är en enkel XPATH-sökväg (till exempel: &quot;Year(&lt;@birthDate>)&quot;).  Om du vill kan du ändra den.  Om du endast markerar ett fält (till exempel: &quot;@age&quot; ) så behöver du inte definiera en **[!UICONTROL Alias]**.
 
-1. Välj **[!UICONTROL Add]** för att bekräfta att du vill lägga till fältet till ytterligare data. När frågan körs finns ytterligare en kolumn som motsvarar det tillagda fältet i aktivitetens utgående övergång.
+1. Välj **[!UICONTROL Add]** för att bekräfta att du vill lägga till fältet till ytterligare data.  När frågan körs så finns ytterligare en kolumn som motsvarar det tillagda fältet i aktivitetens utgående övergång.
 
 ![](assets/enrichment_add_simple_field.png)
 
 ### Lägga till en sammanställning {#adding-an-aggregate}
 
-Aggregat tillåter att värden beräknas från fält i måldimensionen eller från fält med dimensioner som är kopplade till måldimensionen. Till exempel: det genomsnittliga belopp som köpts av en profil.
-När du använder sammanställning med fråga kan dess funktion återgå till noll, vilket sedan betraktas som NULL. Använd fliken **[!UICONTROL Output filtering]** i frågan för att filtrera det aggregerade värdet:
+Sammanställningar tillåter att värden beräknas från fält i måldimensionen eller från fält med dimensioner som är kopplade till måldimensionen.  Till exempel: det genomsnittliga beloppet som köpts av en profil.
+När du använder sammanställning med en förfrågan så kan dess funktion återgå till noll, vilket sedan betraktas som NULL.  Använd fliken **[!UICONTROL Output filtering]** i förfrågan för att filtrera det aggregerade värdet:
 
 * om du vill ha nollvärden ska du filtrera på **[!UICONTROL is null]**.
-* om du inte vill ha ett nollvärdesfilter på **[!UICONTROL is not null]**.
+* om du inte vill ha ett nollvärde så filtrera på **[!UICONTROL is not null]**.
 
-Observera, att om du behöver använda sortering på din mängd bör du filtrera bort nollvärden, annars visas NULL-värdet som det största talet.
+Observera att om du behöver använda sortering på ditt aggregerade värde så bör du filtrera bort nollvärden. Annars så visas NULL-värdet som det största talet.
 
-1. Lägg till ett nytt element på **[!UICONTROL Additional data]** fliken.
-1. I det fönster som öppnas väljer du den samling som du vill använda för att skapa sammanställningen i **[!UICONTROL Expression]** fältet.
+1. Lägg till ett nytt element under **[!UICONTROL Additional data]**-fliken.
+1. I det fönster som öppnas så väljer du den samling som du vill använda för att skapa sammanställningen i **[!UICONTROL Expression]**-fältet.
 
-   En **[!UICONTROL Alias]** skapas automatiskt. Om du vill kan du ändra den genom att gå tillbaka till frågans **[!UICONTROL Additional data]** flik.
+   En **[!UICONTROL Alias]** skapas automatiskt. Om du vill kan du ändra den genom att gå tillbaka till frågans **[!UICONTROL Additional data]**-flik.
 
-   Sammanställningsdefinitionsfönstret öppnas.
+   Fönstret för den aggregerade definitionen öppnas.
 
-1. Definiera en mängd på **[!UICONTROL Data]** fliken. Beroende på vilken typ av sammanställning du har valt är endast de element vars data är kompatibla i **[!UICONTROL Expression]** fältet. En summa kan till exempel bara beräknas med numeriska data.
+1. Definiera en mängd under **[!UICONTROL Data]**-fliken.  Beroende på vilken typ av sammanställning du har valt så är endast de element vars data är kompatibla i **[!UICONTROL Expression]**-fältet.  En summa kan till exempel endast beräknas med numerisk data.
 
    ![](assets/enrichment_add_aggregate.png)
 
-   Du kan lägga till flera aggregat för fälten i den valda samlingen. Se till att definiera explicita etiketter för att skilja de olika kolumnerna i detaljerna för aktivitetens utgående data.
+   Du kan lägga till flera sammanställningar för fälten i den valda samlingen.  Se till att definiera explicita etiketter för att skilja på de olika kolumnerna i detaljerna för aktivitetens utgående data.
 
    Du kan också ändra de alias som definieras automatiskt för varje mängd.
 
    ![](assets/enrichment_add_aggregate2.png)
 
-1. Om det behövs kan du lägga till ett filter för att begränsa vilka data som ska tas med i beräkningen.
+1. Om det behövs kan du lägga till ett filter för att begränsa vilken data som ska tas med i beräkningen.
 
-   Se avsnittet [Filtrera tillagda data](#filtering-added-data) .
+   Se avsnittet [Filtrera tillagd data](#filtering-added-data) .
 
-1. Välj **[!UICONTROL Confirm]** att lägga till aggregat.
+1. Välj **[!UICONTROL Confirm]** för att lägga till sammanställningar.
 
 >[!NOTE]
 >
->Du kan inte skapa ett uttryck som innehåller en mängd direkt från **[!UICONTROL Expression]** fältet i **[!UICONTROL New additional data]** fönstret.
+>Du kan inte skapa ett uttryck som innehåller en mängd direkt från **[!UICONTROL Expression]**-fältet i **[!UICONTROL New additional data]**-fönstret.
 
-### Lägga till en samling {#adding-a-collection}
+### Lägg till en samling {#adding-a-collection}
 
-1. Lägg till ett nytt element på **[!UICONTROL Additional data]** fliken.
-1. I det fönster som öppnas väljer du den samling som du vill lägga till i **[!UICONTROL Expression]** fältet. En **[!UICONTROL Alias]** skapas automatiskt. Om du vill kan du ändra den genom att gå tillbaka till frågans **[!UICONTROL Additional data]** flik.
-1. Välj **[!UICONTROL Add]**. Ett nytt fönster öppnas där du kan förfina de samlingsdata som du vill visa.
-1. Markera **[!UICONTROL Parameters]** och definiera antalet rader i samlingen som du vill lägga till på **[!UICONTROL Collection]** fliken. Om du t.ex. vill få de tre senaste inköpen utförda av varje profil anger du &quot;3&quot; i **[!UICONTROL Number of lines to return]** fältet.
+1. Lägg till ett nytt element under **[!UICONTROL Additional data]**-fliken.
+1. I det fönster som öppnas så väljer du den samling som du vill lägga till i **[!UICONTROL Expression]**-fältet.  En **[!UICONTROL Alias]** skapas automatiskt. Om du vill kan du ändra den genom att gå tillbaka till frågans **[!UICONTROL Additional data]**-flik.
+1. Välj **[!UICONTROL Add]**.  Ett nytt fönster öppnas där du kan förfina den samlingsdata som du vill visa.
+1. Markera **[!UICONTROL Parameters]** och definiera antalet rader i samlingen som du vill lägga till under **[!UICONTROL Collection]**-fliken.  Om du t.ex. vill få fram de tre senaste inköpen utförda av varje profil så anger du &quot;3&quot; i **[!UICONTROL Number of lines to return]**-fältet.
 
    >[!NOTE]
    >
    >Du måste ange ett tal som är större än eller lika med 1.
 
-1. På **[!UICONTROL Data]** fliken definierar du fälten i samlingen som du vill visa för varje rad.
+1. Under **[!UICONTROL Data]**-fliken så definierar du fälten i samlingen som du vill visa för varje rad.
 
    ![](assets/enrichment_add_collection.png)
 
 1. Om du vill kan du lägga till ett filter för att begränsa vilka samlingsrader som ska tas med i beräkningen.
 
-   Se avsnittet [Filtrera tillagda data](#filtering-added-data) .
+   Se avsnittet [Filtrera tillagd data](#filtering-added-data) .
 
 1. Om du vill kan du definiera en datasortering.
 
-   Om du t.ex. har markerat tre rader som ska returneras på **[!UICONTROL Parameters]** fliken och vill bestämma de tre senaste inköpen, kan du definiera en fallande sortering i fältet &quot;date&quot; i samlingen som motsvarar transaktionerna.
+   Om du exempelvis har markerat 3 rader som ska visas under **[!UICONTROL Parameters]**-fliken och vill bestämma de tre senaste inköpen kan du definiera en fallande sortering i fältet &quot;date&quot; i samlingen som motsvarar transaktionerna.
 
 1. Se avsnittet [Sortera ytterligare data](#sorting-additional-data) .
 1. Välj **[!UICONTROL Confirm]** att lägga till samlingen.
 
-### Filtrera tillagda data {#filtering-added-data}
+### Filtrera tillagd data {#filtering-added-data}
 
-När du lägger till en mängd eller en samling kan du ange ytterligare ett filter för att begränsa vilka data som ska visas.
+När du lägger till en aggregerad mängd eller en samling kan du ange ytterligare ett filter för att begränsa vilken data som ska visas.
 
-Om du till exempel bara vill bearbeta samlingsrader med transaktioner som är 50 dollar eller högre kan du lägga till ett villkor i fältet som motsvarar transaktionsbeloppet på **[!UICONTROL Filter]** fliken.
+Om du till exempel bara vill bearbeta samlingsrader med transaktioner som är 50 dollar eller högre kan du lägga till ett villkor i fältet som motsvarar transaktionsbeloppet under **[!UICONTROL Filter]**-fliken.
 
 ![](assets/enrichment_filter_data.png)
 
 ### Sortera ytterligare data {#sorting-additional-data}
 
-När du lägger till en mängd eller en samling i data för en fråga kan du ange om du vill använda en sortering - vare sig den är stigande eller fallande - baserat på värdet för fältet eller det definierade uttrycket.
+När du lägger till en mängd eller en samling data för en förfrågan kan du ange om du vill använda en sortering, vare sig om den är stigande eller fallande, baserat på värdet för fältet eller det definierade uttrycket.
 
-Om du till exempel bara vill spara den transaktion som utfördes senast av en profil, anger du &quot;1&quot; i **[!UICONTROL Number of lines to return]** fältet på **[!UICONTROL Parameters]** fliken och använder en fallande sortering i fältet som motsvarar transaktionsdatumet via **[!UICONTROL Sort]** fliken.
+Om du till exempel bara vill spara den transaktion som utfördes senast av en profil så anger du &quot;1&quot; i **[!UICONTROL Number of lines to return]**-fältet under **[!UICONTROL Parameters]**-fliken och använder en fallande sortering i fältet som motsvarar transaktionsdatumet via **[!UICONTROL Sort]**-fliken.
 
 ![](assets/enrichment_sort_data.png)
 
 ### Filtrera måldata enligt ytterligare data {#filtering-the-targeted-data-according-to-additional-data}
 
-När du har lagt till ytterligare data visas en ny **[!UICONTROL Output filtering]** flik i **[!UICONTROL Query]**. På den här fliken kan du använda ytterligare ett filter på data som ursprungligen var avsedda för på **[!UICONTROL Target]** fliken, genom att ta hänsyn till tillagda data.
+När du har lagt till ytterligare data så visas en ny **[!UICONTROL Output filtering]**-flik i **[!UICONTROL Query]**.  I den här fliken kan du använda ytterligare ett filter för data, som ursprungligen var avsedd för **[!UICONTROL Target]**-fliken, genom att även ta med tillagd data.
 
-Om du t.ex. har angett alla profiler som utförde minst en transaktion och ett aggregat som beräknar det genomsnittliga transaktionsbeloppet som utfördes för varje profil har lagts till i **[!UICONTROL Additional data]** kan du förfina populationen som ursprungligen beräknades med detta genomsnitt.
+Om du t.ex. har angett alla profiler som utförde minst en transaktion och en sammanställning som beräknar det genomsnittliga transaktionsbeloppet som utfördes för varje profil som har lagts till i **[!UICONTROL Additional data]** kan du förfina populationen som ursprungligen beräknades med detta genomsnitt.
 
-Om du vill göra det lägger du bara till ett villkor för dessa ytterligare data på fliken **[!UICONTROL Output filtering]** .
+För att göra detta lägger du bara till ett villkor för den ytterligare datan på fliken **[!UICONTROL Output filtering]** .
 
 ![](assets/enrichment_output_filtering2.png)
 
