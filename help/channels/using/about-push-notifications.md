@@ -93,7 +93,7 @@ Läs resurserna nedan:
 
 ### Vad måste jag göra för att få en push-token i Campaign? {#push-token-acquisition}
 
-Se till att provisioneringsteamet har slutfört etableringen av push-kanalen i Adobe Campaign Standarden. Implementera setPushIdentifier API från SDK. Mer information om detta hittar du på den här [sidan](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#set-up-push-messaging).
+Se till att provisioneringsteamet har slutfört etableringen av push-kanalen i Adobe Campaign Standard. Implementera setPushIdentifier API från SDK. Se denna [sida](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#set-up-push-messaging) för mer information om detta.
 
 ### När jag har Push-token och ECID i Campaign, vad mer behöver jag skicka ett push-meddelande? {#sending-push}
 
@@ -133,7 +133,7 @@ Kontrollera att du följer instruktionerna för push-nyttolast som finns [här](
 
 Observera att för Android har Campaign bara stöd för datanyttolast, inte meddelandenyttolast
 
-### Jag har konfigurerat en app i administrationsdelen av Adobe Campaign Standarden, men mobilappen är inte tillgänglig i leveransegenskaperna. {#mobile-app-unavailable}
+### Jag har konfigurerat en app i administrationsdelen av Adobe Campaign Standard, men mobilappen är inte tillgänglig i leveransegenskaperna. {#mobile-app-unavailable}
 
 Ett program måste ha ett giltigt push-certifikat överfört innan det kan göras tillgängligt i leveransegenskaperna.
 
@@ -150,7 +150,7 @@ Mobilappsutvecklare måste hantera stödet för mediefiler i appen. Ibland kan n
 Följ stegen nedan:
 
 * Konfigurera ett återanslående. Instruktioner finns [här](../../administration/using/configuring-a-mobile-application.md).
-* Implementera trackAction API från Mobile Core. Mer information finns på den här [sidan](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) .
+* Implementera trackAction API från Mobile Core. Refer to this [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) for more information.
 
 Mer detaljerade instruktioner finns på den här [sidan](../../administration/using/push-tracking.md).
 
@@ -165,4 +165,4 @@ Se den här [sidan](../../reporting/using/indicator-calculation.md#push-notifica
 Ja, deplinks stöds i push-meddelanden. Deeplinks ska innehålla:
 
 * språk som anger att leveransspårning måste inaktiveras för att länkarna ska fungera.
-* Appsflyer with Branch as partners that can do the deplink tracking. Mer information om integrering av grenar och Adobe Campaign Standarder finns på den här [sidan](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
+* Appsflyer with Branch as partners that can do the deplink tracking. Mer information om integrationen mellan grenar och Adobe Campaign Standard finns på den här [sidan](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
