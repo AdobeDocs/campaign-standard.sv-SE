@@ -49,7 +49,7 @@ Om du vill börja skicka meddelanden via app-maddelanden till mobil-appar som an
 
 ## Vanliga frågor om appar {#in-app-faq}
 
-### Vad skulle vara användbara resursrekommendationer om du vill veta mer om kanalen i appen i Adobe Campaign Standarden? {#resources-inapp}
+### Vad skulle vara användbara resursrekommendationer om du vill veta mer om In-App-kanalen i Adobe Campaign Standard? {#resources-inapp}
 
 Läs resurserna nedan:
 
@@ -65,7 +65,7 @@ Eftersom meddelanden i appen hämtas av SDK från Campaign vill vi ha en säker 
 * Fält som markerats som sådana kan bara användas i profilmallen (inte i AppSubscriber-mallen eller sändningsmallen) som har ytterligare inbyggda säkerhetsfunktioner.
 * Meddelanden som har skapats med hjälp av profilmallen kan bara hanteras när användaren har loggat in i appen.
 * För att underlätta denna säkra handskakning bör utvecklare av mobilappar skicka ytterligare autentiseringsinformation med API:t setLinkageField. Observera att länkningsfältet är det som identifieras som länken mellan mobilprofilen och CRM-profilen när du utökar tabellen appSubscriberRcp.
-* De bör tömma In-App-meddelanden som lagras på enheten och resetLinkagefält när användaren loggar ut från appen med resetLinkageField. Detta säkerställer att om en annan användare loggar in i appen, så ser han/hon inte meddelandena som är avsedda för en tidigare användare.
+* De bör tömma In-App-meddelanden som lagras på enheten och resetLinkagefält när användaren loggar ut från appen med resetLinkageField. Detta säkerställer att om en annan användare loggar in i appen, så ser han/hon inte de meddelanden som är avsedda för den tidigare användaren.
 * Se API:erna [för](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference) Mobile SDK för att implementera säkerhetsmekanismens klientsida.
 
 ### Vad måste jag göra för att aktivera rapportering i appen i Campaign? {#enable-inapp-reporting}
@@ -76,7 +76,7 @@ Mer information om hur du implementerar lokal meddelandespårning finns på den 
 
 ### Vilka rapporter är tillgängliga för kanalen i appen? {#report-inapp}
 
-En färdig rapport finns i Adobe Campaign för in-App-kanalen. Läs den här [dokumentationen](../../reporting/using/in-app-report.md).
+En färdig rapport finns tillgänglig i Adobe Campaign för In-App-kanalen. Läs den här [dokumentationen](../../reporting/using/in-app-report.md).
 
 Se den här [sidan](../../reporting/using/indicator-calculation.md#in-app-delivery) för att förstå hur varje mätvärde i appen beräknas.
 
@@ -105,7 +105,7 @@ För anpassat ljud på iOS måste du ange ett filnamn med filnamnstillägget nä
 Ja, deplinks stöds i meddelanden i appen. Deeplinks ska innehålla:
 
 * språk som anger att leveransspårning måste inaktiveras för att länkarna ska fungera.
-* Appsflyer with Branch as partners that can do the deplink tracking. Mer information om integrering av grenar och Adobe Campaign Standarder finns på den här [sidan](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
+* Appsflyer with Branch as partners that can do the deplink tracking. Mer information om integrationen mellan grenar och Adobe Campaign Standard finns på den här [sidan](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
 
 ### Kan ett meddelande i appen utlösas när användaren startar appen från ett push-meddelande? {#inapp-push-trigger}
 
