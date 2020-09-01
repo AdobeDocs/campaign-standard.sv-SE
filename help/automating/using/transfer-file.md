@@ -13,9 +13,9 @@ context-tags: fileTransfer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 175709a41607bb9d64da7fac77dd749fa84f7360
+source-git-commit: eed3474c133645a3b9fe8001c21360bba4a363e4
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1070'
 ht-degree: 99%
 
 ---
@@ -142,7 +142,7 @@ Protokollet **[!UICONTROL File(s) present on the Adobe Campaign server]** motsva
 Metat eller jokertecken (exempelvis * eller ?) kan användas för att filtrera filer.
 
 Välj om du vill **[!UICONTROL Define a file path]** eller **[!UICONTROL Use a dynamic file path]**
-**[!UICONTROL Use a dynamic file path]**-alternativet ger dig möjligheten att använda ett standarduttryck och händelsevariabler för att anpassa namnet på filen som ska överföras. Mer information om detta hittar du i avsnittet [Anpassa aktiviteter med händelsevariabler](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) .
+**[!UICONTROL Use a dynamic file path]**-alternativet ger dig möjligheten att använda ett standarduttryck och händelsevariabler för att anpassa namnet på filen som ska överföras. Mer information om detta finns i det här avsnittet: [](../../automating/using/customizing-workflow-external-parameters.md).
 
 Notera att sökvägen måste vara relativ till Adobe Campaign-serverns lagringsutrymmeskatalog. Filerna finns i katalogen **sftp&lt;instansnamn>/** . Du kan inte heller bläddra bland katalogerna över lagringsutrymmet. Exempel:
 
