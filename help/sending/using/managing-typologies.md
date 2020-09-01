@@ -12,9 +12,9 @@ discoiquuid: 2590d94c-51ef-4c0f-b1ec-c2837e94da40
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 4c5fbb5e879bad114c4ca421cd2970f2ba5a3d50
+workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 100%
 
@@ -71,7 +71,7 @@ Följ dessa steg för att länka en typologi till ett meddelande:
 
 1. Öppna meddelandeegenskaperna.  Notera att meddelandemallar är tillgängliga via navigeringsmenyn **[!UICONTROL Resources]** > **[!UICONTROL Templates]**.
 
-1. I avsnittet **[!UICONTROL Advanced parameters]** > **[!UICONTROL Prearation]** väljer du den typologi som ska länkas till meddelandet.
+1. I avsnittet **[!UICONTROL Advanced parameters]** > **[!UICONTROL Preparation]** väljer du den typologi som ska länkas till meddelandet.
 
    ![](assets/typology_message.png)
 
