@@ -13,10 +13,10 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fe9b2156a80f973045a2a7860dac4ac3a1d899e7
+source-git-commit: e8f8755acdc0b778b74e2bfcd4dc898ceff82b90
 workflow-type: tm+mt
-source-wordcount: '2478'
-ht-degree: 100%
+source-wordcount: '2492'
+ht-degree: 93%
 
 ---
 
@@ -29,58 +29,26 @@ När du har skapat och publicerat en händelse (övergivna varukorgar enligt [de
 
 Konfigurationsstegen beskrivs i avsnittet [Konfigurera en händelse för att skicka ett transaktionsmeddelande](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 
-För att händelsen ska kunna trigga skickandet av ett transaktionsmeddelande måste du anpassa meddelandet, testa det och publicera det.
-
 >[!NOTE]
->
->För att få åtkomst till transaktionsmeddelanden måste du vara en del av **[!UICONTROL Administrators (all units)]**-säkerhetsgruppen.
 >
 >Transaktionsmeddelanden för händelser innehåller ingen profilinformation och är därför inte kompatibla med utmattningsregler (även om det gäller berikning med profiler). Se [Fatigue-regler](../../sending/using/fatigue-rules.md#choosing-the-channel).
 
-## Definiera en testprofil i ett transaktionsmeddelande {#defining-a-test-profile-in-a-transactional-message}
+För att händelsen ska kunna trigga skickandet av ett transaktionsmeddelande måste du anpassa meddelandet, testa det och publicera det.
 
-Definiera en anpassad testprofil som gör att du kan förhandsgranska meddelandet och skicka en kopia för att läsa och kontrollera det.
+## Åtkomst till transaktionsmeddelanden {#accessing-transactional-messages}
 
-### Skapa en testprofil i transaktionsmeddelandet {#creating-a-test-profile-within-the-transactional-----------message}
+Så här kommer du åt transaktionsmeddelandet som du har skapat:
 
-1. Klicka på **[!UICONTROL Adobe Campaign]**-logotypen i det övre vänstra hörnet och välj sedan **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]** för att komma åt meddelandet du skapade.
+1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner.
+1. Välj **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
 
    ![](assets/message-center_4.png)
 
-1. Skapa en testprofil som ska kopplas till din händelse.
+1. Klicka på det meddelande du vill redigera.
 
-   ![](assets/message-center_test-profile.png)
-
-1. Ange den information som ska skickas i JSON-format i **[!UICONTROL Event data used for personalization]**-avsnittet. Det här är det innehåll som kommer att användas när du förhandsgranskar meddelandet och när testprofilen tar emot meddelandet för korrekturläsning.
-
-   ![](assets/message-center_event-data.png)
-
-   >[!NOTE]
-   >
-   >Du kan också ange information som hör till profiltabellen. Se [Berika innehållet i transaktionsmeddelandet](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content).
-
-1. När du har skapat testprofilen förspecificeras den i transaktionsmeddelandet. Klicka på **[!UICONTROL Test profiles]**-blocket i meddelandet för att kontrollera målet för korrekturläsningen.
-
-   ![](assets/message-center_5.png)
-
-### Skapa en testprofil utanför transaktionsmeddelandet {#creating-a-test-profile-outside-the-transactional-----------message}
-
-Du kan också skapa en ny testprofil eller använda en som redan finns på **[!UICONTROL Test profiles]**-menyn.
-
-1. Klicka på **[!UICONTROL Adobe Campaign]**-logotypen i det övre vänstra hörnet och välj sedan **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
-1. Markera händelsen som du just har skapat i avsnittet **[!UICONTROL Event]** på sidan med den testprofil som du har valt. I det här exemplet väljer du &quot;Överge kundvagnen (EVTcartAbandonment)&quot;.
-1. Ange den information som ska skickas i JSON-format i **[!UICONTROL Event data]**-textrutan.
-
-   ![](assets/message-center_3.png)
-
-1. Spara ändringarna.
-
-Du kan nu komma åt meddelandet som du skapade och välja den uppdaterade testprofilen.
-
-**Relaterade ämnen:**
-
-* [Hantera testprofiler](../../audiences/using/managing-test-profiles.md)
-* [Definiera målgrupper](../../audiences/using/creating-audiences.md)
+>[!IMPORTANT]
+>
+>För att få åtkomst till transaktionsmeddelanden måste du vara en del av **[!UICONTROL Administrators (all units)]**-säkerhetsgruppen.
 
 ## Anpassa ett transaktionsmeddelande {#personalizing-a-transactional-message}
 
@@ -240,7 +208,47 @@ Mer information om hur du skapar en samling och relaterade fält när du konfigu
 
 ## Testa ett transaktionsmeddelande {#testing-a-transactional-message}
 
-När du har sparat ditt transaktionsmeddelande kan du nu skicka ett bevis för att testa det.
+Du måste först skapa en specifik testprofil som gör att du kan kontrollera transaktionsmeddelandet korrekt.
+
+### Definiera en specifik testprofil {#defining-specific-test-profile}
+
+Definiera en testprofil som ska länkas till din händelse så att du kan förhandsgranska meddelandet och skicka ett relevant bevis.
+
+1. From the transactional message dashboard, click the **[!UICONTROL Create test profile]** button.
+
+   ![](assets/message-center_test-profile.png)
+
+1. Ange den information som ska skickas i JSON-format i **[!UICONTROL Event data used for personalization]**-avsnittet. Det här är det innehåll som kommer att användas när du förhandsgranskar meddelandet och när testprofilen tar emot meddelandet för korrekturläsning.
+
+   ![](assets/message-center_event-data.png)
+
+   >[!NOTE]
+   >
+   >Du kan också ange information som hör till profiltabellen. Se [Berika innehållet i transaktionsmeddelandet](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content).
+
+1. När du har skapat testprofilen föranges den i transaktionsmeddelandet. Klicka på **[!UICONTROL Test profiles]**-blocket i meddelandet för att kontrollera målet för korrekturläsningen.
+
+   ![](assets/message-center_5.png)
+
+Du kan också skapa en ny testprofil eller använda en som redan finns på **[!UICONTROL Test profiles]**-menyn. Så här gör du:
+
+1. Klicka på **[!UICONTROL Adobe Campaign]**-logotypen i det övre vänstra hörnet och välj sedan **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
+1. I **[!UICONTROL Event]** avsnittet väljer du den händelse som du just har skapat. I det här exemplet väljer du &quot;Överge kundvagnen (EVTcartAbandonment)&quot;.
+1. Ange den information som ska skickas i JSON-format i **[!UICONTROL Event data]**-textrutan.
+
+   ![](assets/message-center_3.png)
+
+1. Spara ändringarna.
+1. Öppna meddelandet som du skapade och välj den uppdaterade testprofilen.
+
+**Relaterade ämnen:**
+
+* [Hantera testprofiler](../../audiences/using/managing-test-profiles.md)
+* [Definiera målgrupper](../../audiences/using/creating-audiences.md)
+
+### Skicka korrekturet {#sending-proof}
+
+När du har skapat en eller flera specifika testprofiler och sparat ditt transaktionsmeddelande kan du skicka ett bevis för att testa det.
 
 ![](assets/message-center_10.png)
 
@@ -258,7 +266,7 @@ Använd knappen **[!UICONTROL Reports]** för att få åtkomst till rapporter om
 
 ![](assets/message-center_13.png)
 
-## Pausa en publikation för transaktionsmeddelanden {#suspending-a-transactional-message-publication}
+### Pausa en publikation för transaktionsmeddelanden {#suspending-a-transactional-message-publication}
 
 Du kan pausa publiceringen av ditt transaktionsmeddelande med **[!UICONTROL Pause]**-knappen för att t.ex. ändra data i meddelandet. Händelserna behandlas därför inte längre utan hålls i en kö i Adobe Campaign-databasen.
 
@@ -268,7 +276,7 @@ Händelserna som står i kö behålls under en tidsperiod som definieras i REST 
 
 När du klickar på **[!UICONTROL Resume]** bearbetas alla händelser som står i kö (förutsatt att de inte har gått ut). De innehåller nu alla ändringar som utfördes medan mallpubliceringen pausades.
 
-## Avpublicera ett transaktionsmeddelande {#unpublishing-a-transactional-message}
+### Avpublicera ett transaktionsmeddelande {#unpublishing-a-transactional-message}
 
 Om du klickar på **[!UICONTROL Unpublish]** kan du avbryta publikationen för transaktionsmeddelandet, men även publikationen för motsvarande händelse, som tar bort resursen som motsvarar händelsen som du skapade från REST-API:t.
 
@@ -286,7 +294,7 @@ Stegen för att pausa ett meddelande finns i avsnittet [Pausa en publikation fö
 
 Arbetsflödet **[!UICONTROL Database cleanup]**, som körs varje dag kl. 04.00, är tillgängligt via **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Workflows]**.
 
-## Ta bort ett transaktionsmeddelande {#deleting-a-transactional-message}
+### Ta bort ett transaktionsmeddelande {#deleting-a-transactional-message}
 
 När ett transaktionsmeddelande har avpublicerats, eller om ett transaktionsmeddelande inte har publicerats ännu, kan du ta bort det från transaktionsmeddelandelistan. Så här gör du:
 
@@ -333,9 +341,9 @@ När händelsen har tilldelats en körningsleverans kan transaktionsmeddelandet 
 
 >[!NOTE]
 >
->När en händelse tilldelas till en körningsleverans visas den i sändningsloggarna för den här körningsleveransen, och endast vid det här tillfället. De misslyckade leveranserna visas på fliken **[!UICONTROL Execution list]** i transaktionsmeddelandet.
+>När en händelse tilldelas till en körningsleverans visas den i sändningsloggarna för den här körningsleveransen, och endast vid det här tillfället. The failed deliveries are displayed in the **[!UICONTROL Execution list]** tab of the transactional message sending logs.
 
-### Begränsningar {#limitations}
+### Begränsningar för återförsöksprocess {#limitations}
 
 **Uppdatering av utskicksloggar**
 
