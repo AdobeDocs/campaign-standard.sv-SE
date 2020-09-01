@@ -13,10 +13,10 @@ context-tags: readAudience,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 92%
+source-wordcount: '206'
+ht-degree: 87%
 
 ---
 
@@ -46,7 +46,7 @@ Med den här **[!UICONTROL Read audience]** aktiviteten kan du hämta en befintl
 
    Du kan hämta målgrupper av följande typer: **[!UICONTROL List]**, **[!UICONTROL Query]**, **[!UICONTROL File]** och **[!UICONTROL Experience Cloud]**.  Mer information om målgruppstyper finns i dokumentationen för [publiker](../../audiences/using/about-audiences.md) .
 
-   Med alternativet **[!UICONTROL Use a dynamic audience]** kan du definiera namnet på målgruppen baserat på arbetsflödets händelsevariabler.  Mer information om detta hittar du i avsnittet [Anpassa aktiviteter med händelsevariabler](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables).
+   Med alternativet **[!UICONTROL Use a dynamic audience]** kan du definiera namnet på målgruppen baserat på arbetsflödets händelsevariabler.  For more on this, refer to this section: [](../../automating/using/customizing-workflow-external-parameters.md) section.
 
    ![](assets/readaudience_activity1.png)
 
