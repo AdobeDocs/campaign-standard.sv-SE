@@ -13,10 +13,10 @@ context-tags: segmentation,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
+source-git-commit: eed3474c133645a3b9fe8001c21360bba4a363e4
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 94%
+source-wordcount: '855'
+ht-degree: 92%
 
 ---
 
@@ -67,7 +67,7 @@ Aktiviteten **[!UICONTROL Segmentation]** placeras vanligtvis efter målaktivite
    * **[!UICONTROL Limit segment population]**: använder du för att begränsa storleken på segmentet.
    * **[!UICONTROL Filter and limit segment population]**: här kan du filtrera populationen av segmentet och begränsa dess storlek.
    * **[!UICONTROL Label]**: segmentets etikett.
-   * **[!UICONTROL Segment code]**: kod som tilldelats populationen av segmentet. Segmentkoden kan anpassas med hjälp av ett standarduttryck och händelsevariabler (se [Anpassa aktiviteter med händelsevariabler](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables)).
+   * **[!UICONTROL Segment code]**: kod som är tilldelad segmentpopulationen. Segmentkoden kan anpassas med ett standarduttryck och händelsevariabler (se [](../../automating/using/customizing-workflow-external-parameters.md)).
    * **[!UICONTROL Exclude segment from population]**: gör så att du kan utesluta det angivna segmentet från aktivitetens utgående population.  Det här alternativet kan endast användas om alternativet **[!UICONTROL Generate all segments in the same transition]** är markerat.
 
    ![](assets/wkf_segment_new_segment.png)
