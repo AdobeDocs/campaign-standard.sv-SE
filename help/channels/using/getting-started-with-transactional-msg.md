@@ -13,9 +13,9 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 434be1d237e1ce5bd47552d371d2df4670e82f44
+source-git-commit: 429142610b969f3bd1460a8ba401c7e83acb7dea
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '753'
 ht-degree: 28%
 
 ---
@@ -81,7 +81,7 @@ Det finns två typer av transaktionsmeddelanden i Adobe Campaign:
 <td><p><ul><li>De innehåller ingen profilinformation.</li><li>De är inte kompatibla med <a href="../../sending/using/fatigue-rules.md">trötthetsregler</a> (även om det rör sig om en anrikning med profiler).</li><li>Leveransmålet definieras av data som finns i själva händelsen.</li></ul></p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><a href="../../channels/using/profile-transactional-messages.md"><p>Profile transactional messages</a><br>targeting <b>profiles from the Adobe Campaign marketing database</b></p></td>
+<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><p><a href="../../channels/using/profile-transactional-messages.md">Profilera</a><br>transaktionsmeddelandenrikta- <b>profiler från Adobe Campaign marknadsföringsdatabas</b></p></td>
 <td><p>Med profiltransaktionsmeddelanden kan du:<ul><li>Använd typologiregler för marknadsföring, som <b>Address på blockeringslista</b> eller <a href="../../sending/using/fatigue-rules.md">trötthetsregler</a>.</li><li>Inkludera avprenumerations-länken i meddelandena.</li><li>Lägga till transaktionsmeddelanden i den globala leveransrapporten.</li><li>Använda transaktionsmeddelanden i kundresan.</li></ul></p></td>
 </tr>
 </table>
@@ -106,39 +106,67 @@ Så här utför du det här.
 
 ### Steg 1 - Skapa och publicera händelsekonfigurationen {#create-event-configuration}
 
-<img src="assets/do-not-localize/icon_config.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_config.svg" width="60px">
 
-Konfigurera en händelse med namnet&quot;Avsluta kundvagn&quot; och publicera händelsekonfigurationen.
+Configure an event that will be named "Cart abandonment" and publish this event configuration.
 
-Det API som kommer att användas av webbplatsutvecklaren distribueras och ett transaktionsmeddelande skapas automatiskt.
+The API that will be used by your website developer is deployed and a transactional message is automatically created.-->
+
+<table>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_config.svg" width="60px"><br><p>Konfigurera en händelse med namnet"Avsluta kundvagn" och publicera händelsekonfigurationen.</p></td>
+<td>Det API som kommer att användas av webbplatsutvecklaren distribueras och ett transaktionsmeddelande skapas automatiskt.</td>
+</tr>
+</table>
 
 Det finns information om hur du skapar och publicerar en händelse i avsnittet [Konfigurera en händelse för att skicka ett transaktionsmeddelande](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 
 ### Steg 2 - Redigera och publicera transaktionsmeddelandet {#create-transactional-message}
 
-<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-Redigera och anpassa transaktionsmeddelandet, testa det och publicera det sedan.
+Edit and personalize the transactional message, test it, and then publish it.-->
+
+<table>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_notification.svg" width="45px"><br><p>Redigera och anpassa transaktionsmeddelandet, testa det och publicera det sedan.</p></td>
+<td>Transaktionsmeddelandet är sedan klart att skickas.</td>
+</tr>
+</table>
 
 For more on editing and publishing a transactional message, see [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
 ### Steg 3 - Integrera den händelseutlösande händelsen {#integrate-event-trigger}
 
-<img src="assets/do-not-localize/icon_api.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-Använd REST Transactional Messages API för att integrera händelsen på din webbplats.
+Use the REST Transactional Messages API to integrate the event into your website.
 
-Händelsen utlöses när en kund överger sin kundvagn.
+The event will be triggered when a client abandons their cart.-->
+
+<table>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_api.svg" width="60px"><br><p>Använd REST Transactional Messages API för att integrera händelsen på din webbplats.</p></td>
+<td>Händelsen utlöses när en kund överger sin kundvagn.</td>
+</tr>
+</table>
 
 Mer information om hur du integrerar evenemanget på din webbplats finns i [Webbplatsintegrering](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website).
 
 ### Steg 4 - Leverans av meddelanden {#message-delivery}
 
-<!--Once all of these steps have been carried out, the message can be delivered:-->
+<!--Once all of these steps have been carried out, the message can be delivered:
 
 <img src="assets/do-not-localize/icon_notification.svg" width="40px">
 
-Så snart en användare lämnar webbplatsen utan att beställa produkterna i kundvagnen får de automatiskt ett e-postmeddelande.
+As soon as a user leaves the site without ordering the products in their cart, they automatically receive a notification email.-->
+
+<table>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p>När alla dessa steg har utförts kan meddelandet levereras.</p></td>
+<td>Så snart en användare lämnar webbplatsen utan att beställa produkterna i kundvagnen får de automatiskt ett e-postmeddelande.</td>
+</tr>
+</table>
 
 ## Viktiga steg {#key-steps}
 
