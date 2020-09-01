@@ -12,11 +12,11 @@ discoiquuid: 4375153c-0621-4d4c-bfcc-66d157f04f6c
 context-tags: queryFilter,overview;audience,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
-source-wordcount: '1091'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+workflow-type: tm+mt
+source-wordcount: '1092'
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ När du redigerar ett uttryck måste du ange villkor manuellt för att skapa en 
 
 I det här läget kan du använda avancerade funktioner. Med de här funktionerna kan du ändra de värden som används för att utföra specifika frågor, som att ändra datum, strängar, numeriska fält, sortering, o.s.v.
 
-Det går också att använda händelsevariabler när uttryck redigeras. Mer information om detta hittar du i avsnittet [Anpassa aktiviteter med händelsevariabler](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables).
+Det går också att använda arbetsflödenas händelsevariabler när du redigerar uttryck. Mer information om detta hittar du i avsnittet [Anpassa aktiviteter med händelsevariabler](../../automating/using/customizing-workflow-external-parameters.md).
 
 Du kan redigera uttryck för att:
 
@@ -51,13 +51,14 @@ Du kan använda redigering av uttryck i fönstret Målgrupp när du skapar ett e
    * Ett inmatningsfält där uttrycket är definierat.
    * Listan med tillgängliga fält som kan användas i uttrycket och som motsvarar måldimensionen för frågan (se [Måldimensioner och resurser](../../automating/using/query.md#targeting-dimensions-and-resources)).
    * Listan med tillgängliga funktioner, sorterade efter kategori.
+
    ![](assets/expression_editor_1.png)
 
 1. Redigera uttrycket genom att ange ett uttryck direkt i motsvarande fält eller genom att använda listorna med tillgängliga fält och funktioner.
 
    Om du dubbelklickar på ett fält eller ett uttryck läggs det till i det uttryck där markören är placerad.
 
-   Du kan använda arbetsflödenas händelsevariabler för att skapa ett uttryck. Mer information om detta hittar du i avsnittet [Anpassa aktiviteter med händelsevariabler](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables).
+   Du kan använda arbetsflödenas händelsevariabler för att skapa ett uttryck. Mer information om detta hittar du i avsnittet [Anpassa aktiviteter med händelsevariabler](../../automating/using/customizing-workflow-external-parameters.md).
 
 1. Ge regeln ett specifikt namn om det behövs. Det angivna namnet visas som regelnamn på arbetsytan för frågeredigeraren.
 
@@ -79,6 +80,7 @@ Standarduttrycken består av ett eller flera villkor som överensstämmer med f�
    * **&lt;value1>** är ett fält eller en funktion. Exempel: **@created** för datum då en profil skapades eller **Year(@created)** för året då en profil skapades.
    * **&lt;comparison operator>** är en av operatörerna i avsnittet [Jämförelseoperatörer](../../automating/using/advanced-expression-editing.md#comparison-operators). Den här operatören definierar jämförelsemetoden mellan **&lt;value1>** och **&lt;value2>**.
    * **&lt;value2>** är ett fält, en funktion eller ett värde som matas in manuellt.
+
    >[!NOTE]
    >
    >Typdata för **&lt;value1>** och **&lt;value2>** måste vara identiska. Om till exempel **&lt;value1>** är ett datum måste även **&lt;value2>** vara ett datum.
@@ -107,6 +109,7 @@ JavaScript-uttryck består av ett eller flera villkor och de använder följande
    * **&lt;context>** är ett fält eller en funktion som gör att du kan ange kontexten. Till exempel **context.profile.@email** för en profils e-postadress eller **context.profile.firstName.length()** för antalet tecken i en profils förnamn.
    * **&lt;comparison operator>** är en av operatörerna i avsnittet [Jämförelseoperatörer](../../automating/using/advanced-expression-editing.md#comparison-operators). Den här operatören definierar jämförelsemetoden mellan **&lt;context>** och **&lt;value2>**.
    * **&lt;value2>** är ett fält, en funktion eller ett värde som matas in manuellt.
+
    >[!NOTE]
    Typdata för **&lt;context>** och **&lt;value2>** måste vara identiska. Om till exempel **&lt;context>** är ett datum måste även **&lt;value2>** vara ett datum.
 
