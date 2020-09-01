@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Hjälp för Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 7a647878a711777dffd83a8f8dccacf9d9238ba6
+source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 88%
+source-wordcount: '1596'
+ht-degree: 86%
 
 ---
 
@@ -251,8 +251,13 @@ ht-degree: 88%
       + [Övervaka körning av arbetsflöde](automating/using/monitoring-workflow-execution.md)
       + [Hantera körningsalternativ](automating/using/managing-execution-options.md)
       + [Hantera aktiviteters egenskaper](automating/using/activity-properties.md)
-   + [Anropa ett arbetsflöde med externa parametrar](automating/using/calling-a-workflow-with-external-parameters.md)
-   + Målaktiviteter {#targeting-activities}
+   + Anropa ett arbetsflöde med externa parametrar {#calling-workflow-external-parameters}
+      + [Deklarera parametrarna i aktiviteten Extern signal](automating/using/declaring-parameters-external-signal.md)
+      + [Definiera parametrarna när arbetsflödet anropas](automating/using/defining-parameters-calling-workflow.md)
+      + [Övervaka händelsevariabler](automating/using/monitoring-events-variables.md)
+      + [Anpassa arbetsflödet med externa parametrar](automating/using/customizing-workflow-external-parameters.md)
+      + [Användningsfall](automating/using/use-case-calling-workflow.md)
+   + Målinriktade aktiviteter{#targeting-activities}
       + [Om målinriktade aktiviteter](automating/using/about-targeting-activities.md)
       + [Fråga](automating/using/query.md)
       + [Inkrementell förfrågan](automating/using/incremental-query.md)
