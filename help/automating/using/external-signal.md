@@ -13,7 +13,7 @@ context-tags: signal,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 16afc307df6902584624d6457954a472b11c5129
+source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 96%
@@ -46,7 +46,7 @@ Observera att en **[!UICONTROL External signal]**-aktivitet kan aktiveras från 
 **Relaterade ämnen**
 
 * [Användningsfall: Extern signalaktivitet och dataimport](../../automating/using/external-signal-data-import.md).
-* [Användningsfall: Anropa ett arbetsflöde för att skapa en målgrupp från en fil med hjälp av externa parametrar](../../automating/using/calling-a-workflow-with-external-parameters.md#use-case)
+* [Användningsfall: Anropa ett arbetsflöde för att skapa en målgrupp från en fil med hjälp av externa parametrar](../../automating/using/use-case-calling-workflow.md)
 
 ## Konfiguration {#configuration}
 
@@ -56,7 +56,7 @@ När du konfigurerar en extern signal är det viktigt att först konfigurera **[
 1. Markera aktiviteten och öppna den sedan med knappen ![](assets/edit_darkgrey-24px.png) bland de snabbåtgärder som visas.
 1. Redigera aktivitetens etikett. Den här etiketten behövs när du konfigurerar det källarbetsflöde som utlöser **[!UICONTROL External signal]**.
 
-   Om du vill anropa arbetsflödet med parametrar använder du området **[!UICONTROL Parameters]** för att deklarera dem. Mer information om detta hittar du i [det här avsnittet](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity).
+   Om du vill anropa arbetsflödet med parametrar använder du området **[!UICONTROL Parameters]** för att deklarera dem. Mer information om detta finns i det här avsnittet: [](../../automating/using/declaring-parameters-external-signal.md).
 
    ![](assets/external_signal_configuration.png)
 
@@ -78,7 +78,7 @@ När du konfigurerar en extern signal är det viktigt att först konfigurera **[
 
    När du anger en **[!UICONTROL End]**-aktivitet som ska utlösa ett annat arbetsflöde uppdateras dess ikon med en extra signatursymbol.
 
-   Om du vill anropa arbetsflödet med parametrar använder du området **[!UICONTROL Parameters and values]**. Mer information om detta hittar du i [det här avsnittet](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow).
+   Om du vill anropa arbetsflödet med parametrar använder du området **[!UICONTROL Parameters and values]**. Mer information om detta finns i det här avsnittet: [](../../automating/using/defining-parameters-calling-workflow.md).
 
    ![](assets/external_signal_end.png)
 
