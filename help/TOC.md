@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Hjälp för Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 99e0189e8cfe97eb328e9eb69dbcf3a9772c7792
+source-git-commit: 92c743c707412f25160ca31ab1da04210ad40816
 workflow-type: tm+mt
 source-wordcount: '1597'
 ht-degree: 86%
@@ -252,7 +252,7 @@ ht-degree: 86%
       + [Hantera körningsalternativ](automating/using/managing-execution-options.md)
       + [Hantera aktiviteters egenskaper](automating/using/activity-properties.md)
    + Anropa ett arbetsflöde med externa parametrar {#calling-workflow-external-parameters}
-      + [Översikt](automating/using/calling-a-workflow-with-external-paraleters.md)
+      + [Översikt](automating/using/calling-a-workflow-with-external-parameters.md)
       + [Deklarera parametrarna i aktiviteten Extern signal](automating/using/declaring-parameters-external-signal.md)
       + [Definiera parametrarna när arbetsflödet anropas](automating/using/defining-parameters-calling-workflow.md)
       + [Övervaka händelsevariabler](automating/using/monitoring-events-variables.md)
