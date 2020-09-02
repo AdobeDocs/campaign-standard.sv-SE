@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 429142610b969f3bd1460a8ba401c7e83acb7dea
+source-git-commit: 07adae5bac947df794520e48361fd3c20eba5ff8
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 28%
@@ -28,7 +28,12 @@ ht-degree: 28%
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-Med transaktionsmeddelanden kan ni <b>skicka individuella och unika meddelanden</b> till era kunder i realtid. Det kan vara välkomstmeddelanden, orderbekräftelser, lösenordsändringar osv.
+<table>
+<tr>
+<td ><br><p>Med transaktionsmeddelanden kan ni <b>skicka individuella och unika meddelanden</b> till era kunder i realtid.</p></td>
+<td>Det kan vara välkomstmeddelanden, orderbekräftelser, lösenordsändringar osv.</td>
+</tr>
+</table>
 
 Med Adobe Campaign kan ni integrera den här funktionen med ett informationssystem som skickar händelser som ska omvandlas till anpassade transaktionsmeddelanden.
 
@@ -112,9 +117,11 @@ Configure an event that will be named "Cart abandonment" and publish this event 
 
 The API that will be used by your website developer is deployed and a transactional message is automatically created.-->
 
+<img src="assets/do-not-localize/icon_config.svg" width="60px">
+
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_config.svg" width="60px"><br><p>Konfigurera en händelse med namnet"Avsluta kundvagn" och publicera händelsekonfigurationen.</p></td>
+<td><br><p>Konfigurera en händelse med namnet"Avsluta kundvagn" och publicera händelsekonfigurationen.</p></td>
 <td>Det API som kommer att användas av webbplatsutvecklaren distribueras och ett transaktionsmeddelande skapas automatiskt.</td>
 </tr>
 </table>
@@ -127,9 +134,11 @@ Det finns information om hur du skapar och publicerar en händelse i avsnittet [
 
 Edit and personalize the transactional message, test it, and then publish it.-->
 
+<img src="assets/do-not-localize/icon_notification.svg" width="45px">
+
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_notification.svg" width="45px"><br><p>Redigera och anpassa transaktionsmeddelandet, testa det och publicera det sedan.</p></td>
+<td><br><p>Redigera och anpassa transaktionsmeddelandet, testa det och publicera det sedan.</p></td>
 <td>Transaktionsmeddelandet är sedan klart att skickas.</td>
 </tr>
 </table>
@@ -144,9 +153,11 @@ Use the REST Transactional Messages API to integrate the event into your website
 
 The event will be triggered when a client abandons their cart.-->
 
+<img src="assets/do-not-localize/icon_api.svg" width="60px">
+
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_api.svg" width="60px"><br><p>Använd REST Transactional Messages API för att integrera händelsen på din webbplats.</p></td>
+<td><br><p>Använd REST Transactional Messages API för att integrera händelsen på din webbplats.</p></td>
 <td>Händelsen utlöses när en kund överger sin kundvagn.</td>
 </tr>
 </table>
@@ -161,9 +172,11 @@ Mer information om hur du integrerar evenemanget på din webbplats finns i [Webb
 
 As soon as a user leaves the site without ordering the products in their cart, they automatically receive a notification email.-->
 
+<img src="assets/do-not-localize/icon_channels.svg" width="60px">
+
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p>När alla dessa steg har utförts kan meddelandet levereras.</p></td>
+<td><br><p>När alla dessa steg har utförts kan meddelandet levereras.</p></td>
 <td>Så snart en användare lämnar webbplatsen utan att beställa produkterna i kundvagnen får de automatiskt ett e-postmeddelande.</td>
 </tr>
 </table>
