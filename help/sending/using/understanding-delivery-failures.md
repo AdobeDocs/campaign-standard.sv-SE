@@ -12,9 +12,9 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ecb57ccc4cafa609f7ddccb5f934aa3ab2368dde
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1282'
 ht-degree: 81%
 
 ---
@@ -32,7 +32,7 @@ När en leverans inte kan skickas till en profil skickar fjärrservern automatis
 >
 >**SMS**-felmeddelanden (eller &quot;SR&quot; för &quot;Statusrapport&quot;) kvalificeras av MTA-processen.
 
-Meddelanden kan också uteslutas under färdigställandet av leveransen om en adress sätts i karantän eller om en profil finns på blockeringslista. Uteslutna meddelanden visas på fliken **[!UICONTROL Exclusion logs]** i kontrollpanelen för leveranser (se [det här avsnittet](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
+Meddelanden kan också uteslutas under färdigställandet av leveransen om en adress sätts i karantän eller om en profil blocklist. Uteslutna meddelanden visas på fliken **[!UICONTROL Exclusion logs]** i kontrollpanelen för leveranser (se [det här avsnittet](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
 
 ![](assets/exclusion_logs.png)
 
@@ -69,8 +69,8 @@ Möjliga orsaker till leveransfel är:
 | **[!UICONTROL Refused]** | Mjuk/Hård | Adressen har placerats i karantän på grund av säkerhetsfeedback som en skräppostrapport. Enligt det fel som returnerats av leverantören skickas adressen direkt till karantänen eller så utförs leveransen igen tills Campaign får ett fel som motiverar karantänstatusen eller tills antalet fel når 5. |
 | **[!UICONTROL Duplicate]** | Ignorerad | Adressen har redan identifierats i segmenteringen. |
 | **[!UICONTROL Not defined]** | Mjuk | adressen är i kvalificeringsläge eftersom fel ännu inte har ökats. Den här typen av fel inträffar när ett nytt felmeddelande skickas av servern: Det kan vara ett isolerat fel, men om det inträffar igen ökar felräknaren, som varnar de tekniska teamen. |
-| **[!UICONTROL Error ignored]** | Ignorerad | Adressen finns på tillåtelselista och ett e-postmeddelande kommer att skickas till den i vilket fall som helst. |
-| **[!UICONTROL Address on block list]** | Hård | Adressen lades till blockeringslista vid tidpunkten för sändningen. |
+| **[!UICONTROL Error ignored]** | Ignorerad | Adressen är tillåtslista och ett e-postmeddelande skickas till den i vilket fall som helst. |
+| **[!UICONTROL Denylisted address]** | Hård | Adressen lades till i blockeringslista vid tidpunkten för sändningen. |
 | **[!UICONTROL Account disabled]** | Mjuk/Hård | När IAP (Internet Access Provider) upptäcker en lång inaktivitetsperiod kan den stänga användarens konto: det blir då omöjligt att leverera till användarens adress. Den mjuka eller hårda typen beror på vilken typ av fel som tas emot: Om kontot tillfälligt inaktiveras på grund av sex månaders inaktivitet och fortfarande kan aktiveras, tilldelas statusen **[!UICONTROL Erroneous]** och leveransen provas igen. Om felet får signaler om att kontot är permanent inaktiverat skickas det direkt till karantän. |
 | **[!UICONTROL Not connected]** | Ignorerad | Profilens mobiltelefon är avstängd eller inte ansluten till nätverket när meddelandet skickas. |
 | **[!UICONTROL Invalid domain]** | Mjuk | Domänen för e-postadressen är felaktig eller finns inte längre. Den här profilen används igen tills felantalet är 5. Därefter sätts postens status till Karantän och inga nya försök görs. |
