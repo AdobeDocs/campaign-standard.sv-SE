@@ -12,10 +12,10 @@ discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -26,15 +26,15 @@ ht-degree: 0%
 
 Användare kan väljas in eller ut av en operator direkt från **[!UICONTROL General]** fliken Profil.
 
-I **[!UICONTROL No longer contact (on block list)]** avsnittet motsvarar de markerade kryssrutorna de kanaler som användaren valde att avanmäla sig från. Välj kanalerna efter användarens behov.
+I **[!UICONTROL No longer contact (denylisted)]** avsnittet motsvarar de markerade kryssrutorna de kanaler som användaren valde att avanmäla sig från. Välj kanalerna efter användarens behov.
 
 ![](assets/optin_landingpage_3.png)
 
 ## Konfigurera startsidor för anmälan och avanmälan {#setting-up-opt-in-and-opt-out-landing-pages}
 
-För att ge användarna möjlighet att välja bort eller avanmäla sig måste du skapa och publicera en **[!UICONTROL Profile acquisition]** landningssida. De kan sedan välja kanalerna efter behov. Gör så här:
+För att ge användarna möjlighet att välja bort eller avanmäla sig måste du skapa och publicera en **[!UICONTROL Profile acquisition]** landningssida. De kan sedan välja kanalerna efter behov. Följ stegen nedan för att göra detta.
 
-Du kan också skapa en **[!UICONTROL Block List]** landningssida som gör det möjligt för användare att välja bort alla leveranser. Mer information finns i [Konfigurera en landningssida för att välja bort alla leveranser](#setting-up-a-landing-page-to-opt-out-from-all-deliveries).
+Du kan också skapa en **[!UICONTROL Denylist]** landningssida som gör det möjligt för användare att välja bort alla leveranser. Mer information finns i [Konfigurera en landningssida för att välja bort alla leveranser](#setting-up-a-landing-page-to-opt-out-from-all-deliveries).
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Du kan också skapa en **[!UICONTROL Block List]** landningssida som gör det m�
 
 ### Konfigurera en landningssida för att avanmäla sig från alla leveranser {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
 
-För att användarna ska kunna välja bort alla leveranser måste du skapa och publicera en **[!UICONTROL Block list]** landningssida. Mer information om hur du skapar landningssidor finns på [den här sidan](../../channels/using/getting-started-with-landing-pages.md).
+För att användarna ska kunna välja bort alla leveranser måste du skapa och publicera en **[!UICONTROL Denylist]** landningssida. Mer information om hur du skapar landningssidor finns på [den här sidan](../../channels/using/getting-started-with-landing-pages.md).
 
 När en användare klickar på landningssidans länk väljs automatiskt alternativet i profilen **[!UICONTROL No longer contact (by any channel)]** .
 
