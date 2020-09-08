@@ -12,9 +12,9 @@ discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a373eb6546cb3c726e8b6807f6b47b14b3e520e6
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1273'
 ht-degree: 1%
 
 ---
@@ -152,11 +152,11 @@ Tabellerna nedan ger dig en lista över de mätvärden som används i rapporter 
  </thead> 
  <tbody> 
   <tr> 
-   <td> På blockeringslista<br /> </td> 
+   <td> Blocklist<br /> </td> 
    <td> Antal mottagare som har deklarerat ett e-postmeddelande som skräppost eller skräppost.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Blockeringslista ränta<br /> </td> 
+   <td> Blockeringslista<br /> </td> 
    <td> Procentandel leveranser som är markerade på blockeringslista.<br /> </td> 
   </tr> 
   <tr> 
