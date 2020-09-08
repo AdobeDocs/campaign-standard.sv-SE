@@ -12,10 +12,10 @@ discoiquuid: de3a50b6-ea8f-4521-996b-c49cc1f3c946
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 121ec37cef6193d3a7085b6d0296b6a2e7cafa06
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 81%
+source-wordcount: '786'
+ht-degree: 83%
 
 ---
 
@@ -32,23 +32,23 @@ Under alla omständigheter så uppfyller karantänproceduren de särskilda regle
 
 De profiler vars e-postadresser eller telefonnummer är i karantän exkluderas automatiskt vid förberedelse av meddelanden (se [Identifiera karantänadresser vid en leverans](#identifying-quarantined-addresses-for-a-delivery)).  Detta snabbar upp leveranserna eftersom felfrekvensen avsevärt påverkar leveranshastigheten.
 
-Vissa internetleverantörer betraktar automatisk e-post som skräppost om antalet ogiltiga adresser är för högt.  Med karantän kan du därför undvika att läggas till i en blockeringslista av dessa leverantörer.
+Vissa internetleverantörer betraktar automatisk e-post som skräppost om antalet ogiltiga adresser är för högt.  Karantän gör därför att du kan undvika att bli blocklist av dessa leverantörer.
 
 Dessutom bidrar karantäner till att minska SMS-kostnaderna genom att utesluta felaktiga telefonnummer från leveranser.
 
 Mer information om de bästa sätten för att skydda och optimera leveranser finns på [den här sidan](https://helpx.adobe.com/se/campaign/kb/delivery-best-practices.html).
 
-### Karantän jämfört med blockeringslista {#quarantine-vs-block-list}
+### Karantän mot Blockeringslista {#quarantine-vs-denylist}
 
 **Karantän** gäller bara en adress, inte själva profilen.    Det innebär att om två profiler har samma e-postadress så påverkas båda om adressen sätts i karantän.
 
 På samma sätt kan en profil vars e-postadress sätts i karantän uppdatera profilen och ange en ny adress. Den kan sedan användas vid leveransåtgärder igen.
 
-Being on the **block list**, on the other hand, will result in the profile no longer being targeted by any delivery, for example after an unsubscription (opt-out). Mer information om blockeringslista finns i [Om deltagande och avanmälan i Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Being on the **Denylist**, on the other hand, will result in the profile no longer being targeted by any delivery, for example after an unsubscription (opt-out). Mer information om blockeringslista finns i [Om deltagande och avanmälan i Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!NOTE]
 >
->När en användare svarar på ett SMS-meddelande med ett nyckelord som&quot;STOP&quot; för att avanmäla sig från SMS-leveranser, läggs denna profil inte till blockeringslista som i avanmälningsprocessen. Profilens telefonnummer skickas till karantän med status **[!UICONTROL On block list]**.    Denna status avser endast telefonnumret, profilen finns inte på blockeringslista så att användaren fortsätter att ta emot e-postmeddelanden. Mer information om detta hittar du i [det här avsnittet](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
+>När en användare svarar på ett SMS-meddelande med ett nyckelord som&quot;STOP&quot; för att avanmäla sig från SMS-leveranser, blocklist inte den här profilen som i e-postavanmälningsprocessen. Profilens telefonnummer skickas till karantän med status **[!UICONTROL Denylisted]**.    Denna status avser endast telefonnumret, profilen är inte blocklist så att användaren fortsätter att ta emot e-postmeddelanden. Mer information om detta hittar du i [det här avsnittet](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
 ## Identifiera adresser i karantän {#identifying-quarantined-addresses}
 
@@ -88,7 +88,7 @@ Adobe Campaign hanterar karantäner utifrån typ av leveransfel och orsaken som 
 
    När en leverans lyckas efter ett nytt försök nollställs felräknaren för den adress som tidigare låg i karantän.    Adresstatusen ändras till **[!UICONTROL Valid]** och tas bort från listan med karantäner efter två dagar i **[!UICONTROL Database cleanup]** arbetsflödet.
 
-Om en användare kvalificerar ett e-postmeddelande som skräppost (**feedback-loop**) så dirigeras meddelandet automatiskt om till en teknisk inkorg som hanteras av Campaign.        Användarens e-postadress skickas sedan automatiskt till karantänen med status **[!UICONTROL On block list]**.    Denna status avser endast adressen, profilen finns inte på blockeringslista, så att användaren fortsätter att ta emot SMS-meddelanden och push-meddelanden.
+Om en användare kvalificerar ett e-postmeddelande som skräppost (**feedback-loop**) så dirigeras meddelandet automatiskt om till en teknisk inkorg som hanteras av Campaign.        Användarens e-postadress skickas sedan automatiskt till karantänen med status **[!UICONTROL Denylisted]**.    Den här statusen avser endast adressen, profilen finns inte på blockeringslista, så att användaren fortsätter att ta emot SMS-meddelanden och push-meddelanden.
 
 >[!NOTE]
 Karantänen i Adobe Campaign är skiftlägeskänslig.    Se till att importera e-postadresser med små bokstäver så att inte e-postadresserna fortsätter att ta emot meddelanden.
