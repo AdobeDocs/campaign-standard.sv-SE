@@ -12,10 +12,10 @@ discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7f5bc442b1dae467a6b6de3e048531940f75031f
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 0%
+source-wordcount: '650'
+ht-degree: 3%
 
 ---
 
@@ -31,7 +31,7 @@ Tabellen nedan innehåller information om de färdiga filtreringsreglerna och de
 | Etikett | Kanal | Beskrivning |
 ---------|----------|---------
 | **[!UICONTROL Address not specified]** | Alla | Utesluter målpopulationen utan angiven adress (e-postadress, postadress osv.) enligt den valda kanalen). |
-| **[!UICONTROL Blocklisted address]** | Alla | Exkluderar adresser som finns i blockeringslistan. |
+| **[!UICONTROL Denylisted address]** | Alla | Exkluderar adresser som finns på blockeringslista. |
 | **[!UICONTROL Duplicate]** | Alla | Exkluderar dubbletter som baseras på **[!UICONTROL Address]** målpopulationsfältet. |
 | **[!UICONTROL Exclude mobile applications]** | Mobilapplikation | Utesluter appprenumerationer som inte matchar mobilappen som definieras i meddelandet. |
 | **[!UICONTROL Exclude mobile applications for In-App]** | I appen | Utesluter appprenumerationer som inte matchar det mobilprogram som definieras i meddelandet (mall i appen). |
@@ -47,13 +47,13 @@ Utöver dessa standardfiltreringsregler finns två undantagsregler:
 
 Under e-postanalysen jämför dessa regler mottagarnas e-postadresser med de förbjudna adresserna eller domännamnen i en krypterad global undertryckningslista som hanteras i leveransinstansen. Om det finns en matchning skickas inte meddelandet till den mottagaren.
 
-Detta för att undvika att läggas till i blockeringslistan på grund av skadlig aktivitet, särskilt användning av en svällning. Om en svällning till exempel används för att prenumerera via ett av dina webbformulär, skickas ett bekräftelsemeddelande via e-post till den svällningen, vilket gör att din adress automatiskt läggs till i blocklistan.
+Detta för att undvika att blocklist på grund av skadlig aktivitet, särskilt användning av en svampfälla. Om du till exempel använder en svällning för att prenumerera via ett av dina webbformulär, skickas ett bekräftelsemeddelande via e-post till den svällningen, vilket gör att din adress automatiskt läggs till i blockeringslista.
 
 >[!NOTE]
 >
 >Adresserna och domännamnen som finns i den globala undertryckningslistan är dolda. Endast antalet uteslutna mottagare anges i leveransanalysloggarna.
 
-## Skapa en filtreringsregel {#creating-a-filtering-rule}
+## Creating a filtering rule {#creating-a-filtering-rule}
 
 Du kan skapa egna filtreringsregler efter behov. Du kan t.ex. filtrera målpopulationen för nyhetsbrev så att de som är yngre än 18 år aldrig får någon kommunikation.
 
@@ -71,7 +71,7 @@ Följ de här stegen för att skapa en filtreringstypologiregel:
 
    ![](assets/typology_create-rule-subscriber.png)
 
-1. Markera **[!UICONTROL Age]** fältet och definiera filtreringsvillkoren så att prenumeranternas ålder är 18 eller högre.
+1. Markera **[!UICONTROL Age]** fältet och definiera filtreringsvillkoren så att abonnenternas ålder är 18 år eller högre.
 
    ![](assets/typology_create-rule-age.png)
 
@@ -79,7 +79,7 @@ Följ de här stegen för att skapa en filtreringstypologiregel:
 
    ![](assets/typology_create-rule-typology.png)
 
-1. Kontrollera att typologin är markerad i den leverans- eller leveransmall som du vill använda. For more on this, refer to [this section](../../sending/using/managing-typologies.md#applying-typologies-to-messages).
+1. Kontrollera att typologin är markerad i den leverans- eller leveransmall som du vill använda. Mer information om detta finns i [det här avsnittet](../../sending/using/managing-typologies.md#applying-typologies-to-messages).
 
    ![](assets/typology_template.png)
 
@@ -91,11 +91,11 @@ Med Campaign Standard kan du konfigurera **Målinriktning** och **filtrering** s
 
 Det gör du genom att öppna typologiregelns egenskaper och sedan gå till **[!UICONTROL Advanced information]** avsnittet.
 
-Som standard utförs filtrering på **[!UICONTROL Profiles]**. Om regeln till exempel är avsedd för ett mobilprogram kan den **[!UICONTROL Filtering dimension]** ändras till **[!UICONTROL Subscriptions to an application]**.
+By default, filtering is carried out on the **[!UICONTROL Profiles]**. Om regeln till exempel är avsedd för ett mobilprogram kan den **[!UICONTROL Filtering dimension]** ändras till **[!UICONTROL Subscriptions to an application]**.
 
 ![](assets/typology_rule-order_2.png)
 
-## Begränsa tillämpligheten för en filtreringsregel {#restricting-the-applicability-of-a-filtering-rule}
+## Restricting the applicability of a filtering rule {#restricting-the-applicability-of-a-filtering-rule}
 
 Du kan begränsa tillämpligheten för en filtreringsregel enligt meddelandet som ska skickas.
 
