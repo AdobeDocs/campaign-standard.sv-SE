@@ -12,10 +12,10 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '2031'
-ht-degree: 0%
+source-wordcount: '2028'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## Om leveransvarningar {#about-delivery-alerting}
 
-Funktionen **Leveransvarning** är ett varningssystem som gör att en grupp användare automatiskt kan ta emot meddelanden som innehåller information om hur leveranserna utförs.
+The **Delivery alerting** feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries.
 
 De skickade meddelandena innehåller en rapport som är baserad på följande kriterier:
 
@@ -36,9 +36,9 @@ De skickade meddelandena innehåller en rapport som är baserad på följande kr
 * Leveranser med låg genomströmning
 * Pågående leveranser
 
-Mottagarna av varningarna kan övervaka leveranser som bearbetas av Adobe Campaign och vidta lämpliga åtgärder när det uppstår problem i samband med att de verkställs.
+Mottagarna av varningarna kan övervaka leveranser som bearbetas av Adobe Campaign och vidta lämpliga åtgärder när det uppstår problem i samband med att de utförs.
 
-Dessa varningsmeddelanden kan anpassas beroende på särskilda varningsvillkor som definieras via en kontrollpanel i Adobe Campaign.
+Dessa varningsmeddelanden kan anpassas beroende på särskilda varningsvillkor som definieras via en kontrollpanel i Adobe Campaign-gränssnittet.
 
 >[!NOTE]
 >
@@ -59,9 +59,9 @@ Om du vill hantera meddelandenas mottagare, ange aviseringskriterier och komma �
 
 >[!NOTE]
 >
->Om du vill få åtkomst till och konfigurera kontrollpanelerna och varningsvillkoren måste du ha administratörsbehörighet eller visas i säkerhetsgruppen **Leveransansvariga** . Standardanvändare har inte åtkomst till kontrollpanelerna i Adobe Campaign. De kan bara ta emot varningsmeddelanden. Mer information om användare och säkerhet i Adobe Campaign finns i [Typer av användare](../../administration/using/users-management.md) och [Om säkerhetsgrupper](../../administration/using/managing-groups-and-users.md#about-security-groups).
+>Om du vill få åtkomst till och konfigurera kontrollpanelerna och varningsvillkoren måste du ha administratörsbehörighet eller visas i säkerhetsgruppen **Leveransansvariga** . Standardanvändare har inte åtkomst till kontrollpanelerna i Adobe Campaign-gränssnittet. De kan bara ta emot varningsmeddelanden. Mer information om användare och säkerhet i Adobe Campaign finns i [Typer av användare](../../administration/using/users-management.md) och [Om säkerhetsgrupper](../../administration/using/managing-groups-and-users.md#about-security-groups).
 
-I gränssnittet Adobe Campaign kan du:
+I Adobe Campaign gränssnitt kan du
 
 * Skapa och hantera kontrollpaneler för leveransvarningar. Se [Skapa en kontrollpanel för leveransvarningar](#creating-a-delivery-alerting-dashboard).
 * Definiera och hantera leveransaviseringskriterier för varje kontrollpanel. Du kan t.ex. skapa varningar baserade på leveranser med misslyckade förberedelser eller leveranser med ett lågt dataflöde. Se [Varningsvillkor](#about-alerting-criteria).
@@ -72,7 +72,7 @@ I gränssnittet Adobe Campaign kan du:
 
 * Få åtkomst till historiken för alla skickade aviseringar för varje instrumentpanel.
 
-   När du väljer en kontrollpanel visas den senast skickade aviseringen för den här instrumentpanelen som standard. Alla skickade aviseringar visas till vänster på skärmen. Klicka på ett objekt i **[!UICONTROL History]** listan för att komma åt motsvarande aviseringar.
+   När du väljer en kontrollpanel visas den senaste skickade varningen för den här instrumentpanelen som standard. Alla skickade aviseringar visas till vänster på skärmen. Klicka på ett objekt i **[!UICONTROL History]** listan för att komma åt motsvarande aviseringar.
 
 ![](assets/delivery-alerting_dashboard.png)
 
@@ -81,7 +81,7 @@ I gränssnittet Adobe Campaign kan du:
 Om du vill skicka meddelanden baserat på specifika villkor till olika användargrupper måste du använda flera kontrollpaneler. Så här skapar du en ny kontrollpanel:
 
 1. Gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]**.
-1. Markera **[!UICONTROL Delivery alerting dashboards]** och klicka **[!UICONTROL Create]**.
+1. Markera **[!UICONTROL Delivery alerting dashboards]** och klicka på **[!UICONTROL Create]**.
 1. Markera **[!UICONTROL Enabled]** rutan för att aktivera den aktuella instrumentpanelen.
 
    Om det här alternativet är inaktiverat skickas inte längre meddelanden som är länkade till den här instrumentpanelen. Det här alternativet är inaktiverat som standard.
@@ -90,8 +90,8 @@ Om du vill skicka meddelanden baserat på specifika villkor till olika användar
 
 1. Välj den grupp mottagare som du vill meddela i den **[!UICONTROL Alert group]** nedrullningsbara listan. Information om hur du ändrar eller skapar en grupp finns i [Skapa en säkerhetsgrupp och tilldela användare](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users).
 1. Klicka i **[!UICONTROL Delivery alerting criteria]** avsnittet för **[!UICONTROL Create element]** att lägga till villkor. Se [Varningsvillkor](#about-alerting-criteria).
-1. Markera **[!UICONTROL Edit properties]** knappen. Ange hur villkoren ska tillämpas på **[!UICONTROL Criteria parameters]** fliken. Se [Kriterieparametrar](#criteria-parameters).
-1. Klicka **[!UICONTROL Create]** för att spara instrumentpanelen.
+1. Markera knappen **[!UICONTROL Edit properties]**. Ange hur villkoren ska tillämpas på **[!UICONTROL Criteria parameters]** fliken. Se [Kriterieparametrar](#criteria-parameters).
+1. Click **[!UICONTROL Create]** to save the dashboard.
 
 Varje gång en leverans uppfyller de villkor som du har definierat i den här kontrollpanelen skickas ett varningsmeddelande till den angivna användargruppen.
 
@@ -139,7 +139,7 @@ För varje kriterium kan du definiera följande inställningar:
 
 * [Skicka loggar](../../sending/using/monitoring-a-delivery.md#sending-logs)
 * [Varningsfrekvens](#alerting-frequency)
-* [Marknadsföringsaktivitetsikoner och statusar](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
+* [Ikoner för marknadsföringsaktiviteter och statusar](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
 
 ### Skapa ett leveransvarningsvillkor {#creating-a-delivery-alerting-criterion}
 
@@ -166,7 +166,7 @@ För att göra detta måste du först utöka **leveransresursen** och lägga til
 
    Mer information om hur du skapar och redigerar anpassade filter finns i [Definiera filter](../../developing/using/configuring-filter-definition.md).
 
-1. Spara ändringarna och publicera resurserna. Mer information finns i [Publicera en anpassad resurs](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
+1. Spara ändringarna och publicera resurserna. For more on this, see [Publishing a custom resource](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
    Filtret skapas och kan nu väljas med ett nytt leveransvarningsvillkor.
 
@@ -230,7 +230,7 @@ När du får ett leveransvarningsmeddelande får du några tips om vad du kan g�
 
 Först och främst bör du kontrollera leveransens **loggflik** för att se all information om leveransen och korrekturet. Med de röda och gula ikonerna kan du identifiera fel och varningar. Den röda ikonen anger ett kritiskt fel som förhindrar att leveransen startas.
 
-Om du vill visa historiken för varje förekomst av en leverans väljer du **[!UICONTROL Sending logs]** fliken. Den innehåller en lista över skickade meddelanden och deras status. Där kan du kontrollera leveransstatus för varje mottagare ( **[!UICONTROL Sent]**, **[!UICONTROL Pending]**, **[!UICONTROL Failed]** osv.). Mer information finns i [Skicka loggar](../../sending/using/monitoring-a-delivery.md#sending-logs).
+Om du vill visa historiken för varje förekomst av en leverans väljer du **[!UICONTROL Sending logs]** fliken. Den innehåller en lista över skickade meddelanden och deras status. Där kan du kontrollera leveransstatus för varje mottagare ( **[!UICONTROL Sent]**, **[!UICONTROL Pending]**, **[!UICONTROL Failed]** osv.). For more on this, see [Sending logs](../../sending/using/monitoring-a-delivery.md#sending-logs).
 
 Här är några möjliga orsaker till att du får varningsmeddelanden enligt de kriterier som uppfylls för en leverans.
 
@@ -240,6 +240,7 @@ Här är några möjliga orsaker till att du får varningsmeddelanden enligt de 
    * En timeout för anslutningen mellan Adobe Campaign-leveransservern och den mottagande servern
    * Ett leveransproblem
    * Ett felaktigt arbetsflöde
+
    Om leveransen har utlösts med ett arbetsflöde kontrollerar du om arbetsflödet har startats korrekt. Mer information finns i [Köra ett arbetsflöde](../../automating/using/about-workflow-execution.md). Annars kontaktar du Adobe Campaign-administratören för att lösa problemet.
 
 * **[!UICONTROL Deliveries with preparation failed]**: Ett fel kan uppstå under färdigställande av leveransen i följande fall:
@@ -248,25 +249,28 @@ Här är några möjliga orsaker till att du får varningsmeddelanden enligt de 
    * Det finns en felaktig syntax i personaliseringsfälten.
    * Målet saknas.
    * Leveransen överskrider storleksgränsen.
+
    Mer information finns i [Förbereda sändningen](../../sending/using/preparing-the-send.md). Dessa fel upptäcks dock vanligtvis under meddelandeanalysen. Se [Kontrollregler](../../sending/using/control-rules.md).
 
 * Möjliga orsaker till en **[!UICONTROL Delivery with bad error ratio for soft bounces]** varning kan vara:
 
    * Mottagarens server är inte tillgänglig.
    * Mottagarens postlåda är full.
+
    Mer information finns i leveransloggarnas flikar **[!UICONTROL Exclusion logs]** och **[!UICONTROL Exclusion causes]** flikar. Se [Uteslutningsloggar](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
 
    Möjliga orsaker till en **[!UICONTROL Delivery with bad error ratio for hard bounces]** varning kan vara:
 
-   * Mottagaren finns i blockeringslistan, vilket innebär att han/hon inte längre vill bli kontaktad.
+   * Mottagaren är blocklist, vilket innebär att han/hon inte längre vill bli kontaktad.
    * Mottagarens e-postadress finns inte.
    * Mottagarens domän finns inte.
    * Mottagarens server blockerar leveransen.
+
    Följ de bästa metoderna nedan för att undvika mjuka och hårda studsfel:
 
    * Bygg filtreringstypologiregler för att exkludera en del av meddelandemålet under leveransanalysen, till exempel mottagare i karantän. Se [Skapa en filtreringsregel](../../sending/using/filtering-rules.md).
    * Uppdatera regelbundet kunddatabasen för att upprätthålla goda karantänhanteringsprocesser. Se [Om karantäner](../../sending/using/understanding-quarantine-management.md#about-quarantines).
-   * Generellt sett kan du förbättra slutresultatet så bra som möjligt. Se den detaljerade dokumentationen för Adobe Campaign [Deliverability](../../sending/using/about-deliverability.md) och kontakta Adobe Campaign-administratören för att få hjälp.
+   * Generellt sett kan du förbättra slutresultatet så bra som möjligt. Läs den detaljerade dokumentationen om Adobe Campaign [Deliverability](../../sending/using/about-deliverability.md) och kontakta Adobe Campaign-administratören om du behöver hjälp.
 
 
 
@@ -274,11 +278,11 @@ Här är några möjliga orsaker till att du får varningsmeddelanden enligt de 
 
    **[!UICONTROL Deliveries with low throughput]**: Återigen är detta ett leveransproblem, vilket innebär att leveransavtalet är för långsamt.
 
-   Kontakta Adobe Campaign-administratören om du vill ha mer information om de här problemen.
+   Kontakta Adobe Campaign-administratören om du vill ha mer information om dessa problem.
 
 **Relaterade ämnen:**
 
-* [Om leveransfel](../../sending/using/understanding-delivery-failures.md)
-* [Om karantänhantering](../../sending/using/understanding-quarantine-management.md)
+* [Förstå leveransfel](../../sending/using/understanding-delivery-failures.md)
+* [Förstå karantänhantering](../../sending/using/understanding-quarantine-management.md)
 * [Om anmälan och avanmälan i Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
