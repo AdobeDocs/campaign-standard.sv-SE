@@ -12,18 +12,18 @@ discoiquuid: 73d06242-a02f-4a8d-85e9-73efffb5eda1
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ef4082d4d5a0c3a57b7a36a43b47edde07c4c7bb
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 0%
+source-wordcount: '101'
+ht-degree: 16%
 
 ---
 
 
 # Målmappningar i Campaign{#target-mappings-in-campaign}
 
-Målmappningar är tekniska objekt som används av Campaign för att leverera meddelanden. De innehåller alla tekniska inställningar som krävs för att skicka leveranser (adresser, telefonnummer, blocklisteindikatorer, ytterligare identifierare...).
+Målmappningar är tekniska objekt som används av Campaign för att leverera meddelanden. De innehåller alla tekniska inställningar som krävs för att skicka leveranser (adresser, telefonnummer, anmälningsindikatorer, ytterligare identifierare...).
 
 Administratörer har åtkomst till målmappningar på **[!UICONTROL Administration > Application settings > Target mappings]** menyn.
 
-Målmappning kan skapas eller ändras för att tillgodose specifika behov. I vilket fall som helst ska deras målinriktningsdimension alltid motsvara profiler ( **[!UICONTROL nms:recipient]** tabell). Mer information om måldimensioner finns på [den här sidan](../../automating/using/query.md#targeting-dimensions-and-resources).
+Målmappning kan skapas eller ändras för att tillgodose specifika behov. I vilket fall som helst ska deras målinriktningsdimension alltid motsvara profiler ( **[!UICONTROL nms:recipient]** tabell). Mer information om målinkriktningsdimensioner finns i [det här avsnittet](../../automating/using/query.md#targeting-dimensions-and-resources).
