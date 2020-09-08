@@ -1,6 +1,6 @@
 ---
 title: Kom igång med profiler och målgrupper
-description: '"Läs om profiler och målgruppshantering i Adobe Campaign: definiera målgrupper, välja målgrupper, filtrera mottagare, samla in data och uppdatera profiler."'
+description: '"Läs om profiler och målgruppshantering inom Adobe Campaign: definiera målgrupper, välja målgrupper, filtrera mottagare, samla in data och uppdatera profiler."'
 page-status-flag: never-activated
 uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 0%
+source-wordcount: '607'
+ht-degree: 8%
 
 ---
 
@@ -54,7 +54,7 @@ Läs mer:
 * [Om profiler](../../audiences/using/about-profiles.md)
 * [Aktiva profiler](../../audiences/using/active-profiles.md)
 * [Hantera testprofiler](../../audiences/using/managing-test-profiles.md)
-* [Förbättrar Campaign-databasen](../../audiences/using/enriching-campaign-database.md)
+* [Berika Campaign-databasen](../../audiences/using/enriching-campaign-database.md)
 * [Om målgrupper](../../audiences/using/about-audiences.md)
 * [Välja en målgrupp i ett meddelande](../../audiences/using/selecting-an-audience-in-a-message.md)
 
@@ -66,11 +66,11 @@ Innan du börjar skicka meddelanden till en kontakt måste du se till att du få
 
 Med Campaign rekommenderar vi att ni använder **enkla anmälnings- och avanmälningsmekanismer** via [tjänster](../../audiences/using/creating-a-service.md)och [landningssidor](../../channels/using/getting-started-with-landing-pages.md) för att uppdatera kontaktinformationen och utöka databasen.
 
-Om du anger **länkar** för att avbryta prenumerationen i dina meddelanden kan profiler vid behov läggas till i blocklistan och därmed förbättra plattformens leveransförmåga. Mer information om hantering av blockeringslistor finns i [Om deltagande och avanmälan i Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Om du anger **länkar** för att avbryta prenumerationen i dina meddelanden kan profiler läggas till i blockeringslista vid behov, vilket förbättrar plattformens leveransbarhet. For more on denylist management, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!IMPORTANT]
 >
->Du måste följa policyn [för godtagbar användning i](https://www.adobe.com/legal/terms/aup.html)Adobe Campaign.
+>Du måste följa [Adobe Campaign policy](https://www.adobe.com/legal/terms/aup.html)för godtagbar användning.
 
 Läs mer:
 
@@ -81,9 +81,9 @@ Läs mer:
 
 <img src="assets/do-not-localize/icon_privacy.svg" width="60px">
 
-Adobe Campaign erbjuder en uppsättning verktyg som hjälper dig med **sekretesskraven** för GDPR, CCPA och andra integritetslagar.
+Adobe Campaign offers a set of tools to help you with your **Privacy Compliance** for GDPR, CCPA, and other privacy laws.
 
-Läs mer i den här [artikeln](https://helpx.adobe.com/campaign/kb/campaign-privacy.html) om sekretesshantering och de funktioner vi tillhandahåller för att hantera behörighet till åtkomst, rätt att bli glömd, samtycke, datalagring och användarroller.
+Läs mer i den här [artikeln](https://helpx.adobe.com/se/campaign/kb/campaign-privacy.html) om sekretesshantering och de funktioner vi tillhandahåller för att hantera behörighet till åtkomst, rätt att bli glömd, samtycke, datalagring och användarroller.
 
 Integritet och samtycke i Campaign och hur ni hanterar dem presenteras i [det här avsnittet](../../start/using/privacy.md).
 
@@ -93,6 +93,6 @@ Du hittar också bästa praxis som hjälper dig att följa din sekretesspraxis n
 
 * [Arbeta med målgruppstjänst](../../audiences/using/aep-about-audience-destinations-service.md)
 * [Arbeta med Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-* [Delade Adobe-målgrupper](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
+* [Delade målgrupper i Adobe](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [Importera profiler med arbetsflöden](../../automating/using/creating-import-workflow-templates.md)
 * [Profiler och målgrupper - videor](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
