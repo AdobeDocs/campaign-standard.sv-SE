@@ -12,41 +12,41 @@ discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bd74905985734412b4fb11ad11d70faf9fcc9ca6
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 0%
+source-wordcount: '444'
+ht-degree: 1%
 
 ---
 
 
 # Testa utlösarna{#testing-your-triggers}
 
-Följande felsökningstips hjälper dig att lösa de vanligaste problemen du kan stöta på när du använder utlösare med Adobe Campaign:
+Följande felsökningstips hjälper dig att lösa de vanligaste problemen du kan stöta på när du använder Utlösare med Adobe Campaign:
 
 **Är funktionen aktiverad?**
 
-Om du vill kontrollera om utlösare - Campaign-integrering är aktiverad klickar du på Adobe Campaign-logotypen i det övre vänstra hörnet och väljer sedan **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. Du borde se **[!UICONTROL Experience Cloud Triggers]** objektet.
+Om du vill kontrollera om integreringen av utlösare - kampanj är aktiverad klickar du på Adobe Campaign logotyp i det övre vänstra hörnet och väljer sedan **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. Du borde se **[!UICONTROL Experience Cloud Triggers]** objektet.
 
 Om du ser det går du vidare till nästa steg.
 
-Om inte, kontakta er kontoansvarige på Adobe eller er partner inom sektorn för professionella tjänster. Se [Aktivera funktionen](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality).
+Om inte, kontakta er kontoansvarige eller er partner inom sektorn för Adobe. Se [Aktivera funktionen](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality).
 
 **Försök skapa en utlösare**
 
 Följ stegen som beskrivs i [Skapa en mappad utlösare i Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) för att skapa en utlösare.
 
-Om utlösaren skapas går du vidare till nästa steg. Annars innebär det att slutpunktsanslutningen för utlösaren misslyckades. Kontrollera om utlösare har etablerats i Experience Cloud (aktiveringstjänster). Om så inte är fallet kontaktar du din Adobe-kontoansvarige eller partner för professionella tjänster. Följande information krävs:
+Om utlösaren skapas går du vidare till nästa steg. Annars innebär det att slutpunktsanslutningen för utlösaren misslyckades. Kontrollera om utlösare har etablerats i Experience Cloud (aktiveringstjänster). Om så inte är fallet kontaktar du din kontoansvarige eller partner för professionella tjänster på Adobe. Följande information krävs:
 
-* Företagsnamn för Marketing Cloud
+* Marketing Cloud företagsnamn
 * IMS-organisations-ID
-* Analytics inloggningsföretag (kan vara samma som Marketing Cloud-företagets namn)
+* Analysinloggningsföretag (kan vara samma som Marketing Cloud företagsnamn)
 
 **Prova att publicera utlösaren**
 
 Följ stegen som beskrivs i [Skapa en mappad utlösare i Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) för att publicera utlösaren.
 
-Gå vidare till nästa steg om publikationen lyckades. Annars kontaktar du Adobe för att starta om instansen och försöka igen.
+Gå vidare till nästa steg om publikationen lyckades. Om inte, kontakta Adobe för att starta om instansen och försök igen.
 
 **Generera utlösaren från webbplatsen**
 
@@ -56,13 +56,13 @@ Om utlösaren tas emot av Analytics går du vidare till nästa steg. Om inte, ko
 
 * Utlösaren är aktiverad för Analytics
 * Den webbplats som används för MCID och Analytics är aktiverad i DTM
-* Rätt Analytics-rapportsvit används när utlösare skapas
+* Den korrekta rapportsviten för Analytics används när utlösare skapas
 
 **Tar Campaign emot utlösaren?**
 
 Om inte, kontrollerar du om utlösaren tas emot från pipelinen.
 
-Om inte, kontakta Adobe för att kontrollera konfigurationen av pipeline-slutpunkterna.
+Om inte, kontakta Adobe för att kontrollera konfigurationen av slutpunkterna för pipeline.
 
 Om så är fallet följer du de här stödlinjerna:
 
@@ -77,7 +77,7 @@ Om så är fallet följer du de här stödlinjerna:
 Om inte, gå vidare till nästa steg. Om så är fallet följer du de här stödlinjerna:
 
 * Kontrollera att transaktionsmallen är publicerad.
-* Kontrollera att profilen inte är på blockeringslista.
+* Kontrollera att profilen inte är blocklist.
 * Kontrollera tillämpningen av typologiregler.
 * Kontrollera transaktionsmeddelandets loggar.
 
