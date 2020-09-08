@@ -13,10 +13,10 @@ context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 95%
+source-wordcount: '594'
+ht-degree: 96%
 
 ---
 
@@ -102,4 +102,4 @@ Du kan nu skicka extraktionsfilen till din leverantör av direktmeddelanden. Det
 * Skicka det via vanlig e-post, med filen bifogad
 * Skicka via Campaign: Skicka ditt direktmeddelande i ett [kampanjarbetsflöde](../../automating/using/direct-mail-delivery.md) och lägg till en **[!UICONTROL Transfer file]** som kan skicka filen via till exempel FTP. Se [Överför fil](../../automating/using/transfer-file.md).
 
-Leverantören hämtar listan över felaktiga adresser och skickar den här informationen till Adobe Campaign som automatiskt lägger till de felaktiga adresserna till blockeringslista. Se [Återgå till avsändaren](../../channels/using/return-to-sender.md).
+Leverantören hämtar listan över felaktiga adresser och skickar den här informationen till Adobe Campaign som automatiskt blocklist de felaktiga adresserna. Se [Återgå till avsändaren](../../channels/using/return-to-sender.md).
