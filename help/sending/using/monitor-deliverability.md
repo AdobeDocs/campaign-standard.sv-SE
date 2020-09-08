@@ -1,6 +1,6 @@
 ---
 title: Övervaka leveransen i Adobe Campaign Standard
-description: Använd de verktyg som Adobe Campaign Standarden erbjuder för att övervaka plattformens leveransbarhet.
+description: Använd de verktyg som Adobe Campaign Standard erbjuder för att övervaka plattformens leveransbarhet.
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -13,15 +13,15 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 0%
+source-wordcount: '422'
+ht-degree: 7%
 
 ---
 
 
-# Övervaka leveransen{#monitor-deliverability}
+# Övervaka levererbarhet{#monitor-deliverability}
 
 Här nedan hittar du information om **[!UICONTROL Delivery throughput]** rapporten samt de olika övervakningsverktyg som Adobe Campaign erbjuder. Här följer ytterligare riktlinjer för leveransövervakning:
 * Kontrollera regelbundet leveransflödet för hela plattformen för att kontrollera om det stämmer överens med den ursprungliga konfigurationen.
@@ -30,7 +30,7 @@ Här nedan hittar du information om **[!UICONTROL Delivery throughput]** rapport
 * Kontrollera varje leveransflöde för att säkerställa att det stämmer överens med leveransinnehållets giltighet (t.ex. &quot;flash sales&quot; ska levereras på några minuter, inte dagar).
 * När du använder vågor måste du kontrollera att varje våg har tillräckligt med tid för att slutföra innan nästa våg aktiveras.
 * Kontrollera att antalet fel och nya karantän stämmer överens med andra leveranser.
-* Kontrollera noga i leveransloggarna vilka fel som är markerade (blocklistor, DNS-problem, skräppostregler osv.).
+* Titta noga i leveransloggarna för att kontrollera vilka typer av fel som markeras (blockeringslista, DNS-problem, antispam-regler osv.).
 
 ## Leveransflöde {#delivery-throughput}
 
@@ -46,7 +46,7 @@ Andra rapporter finns tillgängliga, till exempel **[!UICONTROL Delivery summary
 
 ## Övervaka leveranser {#monitoring-deliveries}
 
-Via meddelandekontrollpanelen får du åtkomst till leveransloggarna: **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]**, **[!UICONTROL Tracking logs]** och **[!UICONTROL Tracked URLs]**. De visar detaljerna för utskicket, vilket mål som har uteslutits och varför samt spårningsinformation som öppningar och klick.
+Via meddelandekontrollpanelen får du åtkomst till leveransloggarna: **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]**, **[!UICONTROL Tracking logs]** och **[!UICONTROL Tracked URLs]**. De visar detaljerna för utskicket, vilket eller vilka mål som har uteslutits och varför de har uteslutits. De visar även spårningsinformation som exempelvis öppningar och klick.
 
 Mer information finns i [Övervaka en leverans](../../sending/using/monitoring-a-delivery.md).
 
@@ -54,7 +54,7 @@ Mer information finns i [Övervaka en leverans](../../sending/using/monitoring-a
 
 ## Få aviseringar {#receiving-alerts}
 
-Funktionen är ett **[!UICONTROL Delivery alerting]** varningssystem som gör att en grupp användare automatiskt kan ta emot meddelanden som innehåller information om hur leveranserna utförs.
+The **[!UICONTROL Delivery alerting]** feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries.
 
 Mer information finns i [Få aviseringar när fel inträffar](../../sending/using/receiving-alerts-when-failures-happen.md).
 
@@ -68,6 +68,6 @@ Signal Spam ger också direkta klagomål som slutanvändarna loggar via ett dedi
 
 ## 250ok {#solution-250ok}
 
-250ok är en övervakningslösning som tillhandahåller IP- och domänblockslistor samt anseendeindikatorer.
+250ok är en övervakningslösning som tillhandahåller IP-blockeringslista och domäner samt anseendeindikatorer.
 
-Den information som tillhandahålls är i realtid, vilket möjliggör en proaktiv hjälp. 250ok som komplement till Adobes interna verktyg för slutprodukt.
+Den information som tillhandahålls är i realtid, vilket möjliggör en proaktiv hjälp. 250ok som ett komplement till de interna verktygen för Adobe.
