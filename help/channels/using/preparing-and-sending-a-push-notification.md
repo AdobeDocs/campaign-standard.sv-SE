@@ -1,6 +1,6 @@
 ---
 title: Förbereda och skicka ett push-meddelande
-description: Följ de här stegen för att skapa ett push-meddelande som skickas en gång i Adobe Campaign.
+description: Följ de här stegen för att skapa ett push-meddelande för en sändning i Adobe Campaign.
 page-status-flag: never-activated
 uuid: 01997725-ca0a-420c-9e81-5ea801652f87
 contentOwner: sauviat
@@ -13,10 +13,10 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 4%
+source-wordcount: '852'
+ht-degree: 10%
 
 ---
 
@@ -40,13 +40,14 @@ Stegen för att skapa ett push-meddelande med Adobe Campaign är:
 
    Som standard kan du välja någon av följande två mallar:
 
-   * **[!UICONTROL Send push to Campaign profiles]**: Använd den här mallen för att ange Adobe Campaign CRM-profiler som har prenumererat på ditt mobilprogram och som har valt att ta emot push-meddelanden som mål. Du kan infoga [anpassningsfält](../../designing/using/personalization.md#inserting-a-personalization-field) i push-meddelanden, till exempel mottagarens förnamn.
+   * **[!UICONTROL Send push to Campaign profiles]**: Använd den här mallen för att rikta sig till de Adobe Campaign CRM-profiler som har prenumererat på ditt mobilprogram och som har valt att ta emot push-meddelanden. Du kan infoga [anpassningsfält](../../designing/using/personalization.md#inserting-a-personalization-field) i push-meddelanden, till exempel mottagarens förnamn.
    * **[!UICONTROL Send push to app subscribers]**: Använd den här mallen för att skicka ett push-meddelande till alla kända och anonyma mobilprogramanvändare som har valt att ta emot meddelanden från programmet. Ni kan personalisera dessa meddelanden med data som samlats in från ert mobilprogram.
+
    Du kan också välja flerspråkiga mallar. Mer information finns i [Skapa ett flerspråkigt push-meddelande](../../channels/using/creating-a-multilingual-push-notification.md).
 
-   Mer information om mallar finns i avsnittet [Hantera mallar](../../start/using/marketing-activity-templates.md) .
+   Mer om mallar finns i avsnittet [Hantera mallar](../../start/using/marketing-activity-templates.md).
 
-1. Ange dina egenskaper för push-meddelanden och välj din mobilapp i **[!UICONTROL Associate a Mobile App to a delivery]** fältet.
+1. Enter your push notification properties and select your mobile app in the **[!UICONTROL Associate a Mobile App to a delivery]** field.
 
    Observera att listrutan kommer att visa både SDK V4- och Experience Platform SDK-program.
 
@@ -54,7 +55,7 @@ Stegen för att skapa ett push-meddelande med Adobe Campaign är:
 
    Du kan länka push-meddelandet till en kampanj. Välj det bland de kampanjer som redan har skapats.
 
-1. På följande skärm kan du ange en målgrupp, till exempel alla VIP-kunder som prenumererar på ett visst mobilprogram. Mer information finns i [Skapa målgrupper](../../audiences/using/creating-audiences.md).
+1. På följande skärm kan du ange en målgrupp, till exempel alla VIP som prenumererar på ett visst mobilprogram. Mer information finns i [Skapa målgrupper](../../audiences/using/creating-audiences.md).
 
    Din målgrupp filtreras automatiskt baserat på det mobilprogram som valdes i föregående steg.
 
@@ -62,11 +63,11 @@ Stegen för att skapa ett push-meddelande med Adobe Campaign är:
 
 1. Du kan nu anpassa ditt push-meddelande. Välj först meddelandeformat: **[!UICONTROL Alert/Message/Badge]** eller **[!UICONTROL Silent push]**. Typerna av push-meddelanden beskrivs i avsnittet [Om push-meddelanden](../../channels/using/about-push-notifications.md) .
 
-   Redigera innehållet i ditt push-meddelande och definiera de avancerade alternativen. Se [Anpassa ett push-meddelande](../../channels/using/customizing-a-push-notification.md).
+   Redigera innehållet i ditt push-meddelande och definiera de avancerade alternativen. See [Customizing a push notification](../../channels/using/customizing-a-push-notification.md).
 
    ![](assets/push_notif_content.png)
 
-   Innehållet och alternativen för push-meddelanden som konfigureras här skickas till din mobilapp i form av en nyttolast. Nyttolastens detaljerade struktur beskrivs i [Understanding ACS push notifications payload structure](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html) technology.
+   Innehållet och alternativen för push-meddelanden som konfigureras här skickas till din mobilapp i form av en nyttolast. Nyttolastens detaljerade struktur beskrivs i [Understanding ACS push notifications payload structure](https://helpx.adobe.com/se/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html) technology.
 
 1. Klicka på **[!UICONTROL Create]**.
 
@@ -91,7 +92,7 @@ Stegen för att skapa ett push-meddelande med Adobe Campaign är:
 
 Push-meddelanden kan skickas till en viss målgrupp i Adobe Campaign genom att målgruppskriterierna definieras. I exemplet nedan består vår valda målgrupp av fyra målgruppsprenumeranter på mobilappar.
 
-1. Klicka **[!UICONTROL Prepare]** för att beräkna målet och generera meddelandena.
+1. Click **[!UICONTROL Prepare]** to compute the target and generate the notifications.
 
    ![](assets/push_send_1.png)
 
@@ -101,7 +102,7 @@ Push-meddelanden kan skickas till en viss målgrupp i Adobe Campaign genom att m
 
 1. På fliken **[!UICONTROL Exclusion logs]** hittar du en lista över alla meddelanden som har uteslutits från målet och orsaken till detta undantag.
 
-   Här ser vi att en av våra mobilappsprenumeranter uteslöts eftersom adressen lades till i blocklistan och de andra prenumeranterna eftersom profilen var en dubblett.
+   Här ser vi att en av våra mobilappsprenumeranter uteslöts eftersom adressen blocklist och de andra prenumeranterna eftersom profilen var en dubblett.
 
    ![](assets/push_send_5.png)
 
@@ -116,11 +117,11 @@ Push-meddelanden kan skickas till en viss målgrupp i Adobe Campaign genom att m
 
    ![](assets/push_send_4.png)
 
-1. I **[!UICONTROL Deployment]** fönstret klickar du på **[!UICONTROL Sending logs]** fliken för att visa listan över skickade push-meddelanden och deras status. För den här leveransen har ett push-meddelande skickats och det andra misslyckades på grund av en felaktig enhetstoken. Den här prenumeranten läggs sedan till i blocklistan från ytterligare leveranser.
+1. I **[!UICONTROL Deployment]** fönstret klickar du på **[!UICONTROL Sending logs]** fliken för att visa listan över skickade push-meddelanden och deras status. För den här leveransen har ett push-meddelande skickats och det andra misslyckades på grund av en felaktig enhetstoken. Den här prenumeranten kommer sedan att läggas till denyisten från ytterligare leveranser.
 
    >[!NOTE]
    >
-   >Orsaken kan vara ett misslyckande nedströms till Adobe Campaign. Vid fel från leverantörer som apns och fcm kommer orsaken också att återspegla detta. Mer information om providerfel finns i dokumentationen för [Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CommunicatingwithAPNs.html) och [Android](https://firebase.google.com/docs/cloud-messaging/http-server-ref) .
+   >Orsaker kan vara ett misslyckande längre ned till Adobe Campaign. Vid fel från leverantörer som apns och fcm kommer orsaken också att återspegla detta. Mer information om providerfel finns i dokumentationen för [Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CommunicatingwithAPNs.html) och [Android](https://firebase.google.com/docs/cloud-messaging/http-server-ref) .
 
    ![](assets/push_send_6.png)
 
