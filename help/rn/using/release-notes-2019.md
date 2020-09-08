@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '7626'
+source-wordcount: '7622'
 ht-degree: 8%
 
 ---
@@ -293,7 +293,7 @@ En serie förbättringar och korrigeringar introducerades för att optimera frag
 * Alternativet&quot;Launch_URL_Campaign&quot; har lagts till i Campaign för att hantera egenskaper för mobilprogram som skapats med Adobe Experience Platform Mobile SDK.
 * Korrigerade ett fel som ledde till att alternativet för sandlådemiljö avmarkerades efter att certifikatet för en nyligen skapad mobil egenskap har överförts och egenskapssidan för mobilprogrammet har avslutats.
 * Korrigerade ett problem som förhindrade dig från att anrika ett transaktionsmeddelandeinnehåll med information från tjänstresursen. (CAMP-33707)
-* Korrigerade ett fel på blockeringslista landningssidor som inträffade när profiler skulle avbeställas från en tjänst.
+* Korrigerade ett fel på startsidorna i blockeringslista som inträffade när profiler skulle avbeställas från en tjänst.
 
 ## Version 19.2 - maj 2019 {#release-19-2---may-2019}
 
@@ -617,7 +617,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
 * Ett problem med kopplingsvillkoret mellan sändnings- och spårningsloggen för rtEvent har korrigerats i frågeredigeraren. (CAMP-28780)
 * Korrigerade ett problem som förhindrade att ändringar av landningssidans alternativ för&quot;specifik åtgärd&quot; sparades. (CAMP-29422)
 * Ett problem som hindrade från att exportera en händelses nyttolast i ett arbetsflöde har korrigerats. (CAMP-29029)
-* Korrigerade ett problem som förhindrade att SMS-nummer på blockeringslista uteslöts i ett SMS-meddelande. (CAMP-28898)
+* Korrigerade ett problem som förhindrade att blocklist SMS-nummer uteslöts i ett SMS-meddelande. (CAMP-28898)
 * Korrigerade ett problem som kunde förhindra SMPP-leverantörer från att meddelas om ett fel uppstod vid bearbetning av inkommande meddelanden. (CAMP-29804)
 * Korrigerade ett problem som medgav att externa konton med tillhörande leveranser kunde tas bort. (CAMP-29738)
 * Sändningsgenomströmningen har förbättrats och stabiliserats för SMS-meddelanden.
