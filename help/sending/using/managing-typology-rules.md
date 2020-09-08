@@ -13,10 +13,10 @@ context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7f5bc442b1dae467a6b6de3e048531940f75031f
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 96%
+source-wordcount: '551'
+ht-degree: 97%
 
 ---
 
@@ -72,7 +72,7 @@ I standarddriftsläget används reglerna i följande sekvens:
 1. Kontrollregler, om de tillämpas i början av målinriktningen.
 1. Filtreringsregler:
 
-   * Interna ansökningsregler för adresskvalifikation: angiven adress/overifierad adress/adress på blockeringslista/i karantän-adress/adresskvalitet.
+   * Interna ansökningsregler för adresskvalifikation: definierad adress/ej verifierad adress/blocklist adress/adresskvalitet i karantän.
    * Filtreringsregler som definieras av användaren.
 
 1. Kontrollregler, om de tillämpas när målinriktningen är slut.
