@@ -13,10 +13,10 @@ context-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
 source-wordcount: '1727'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -431,7 +431,7 @@ ht-degree: 0%
          <td>uppräkning (byte) </td>
          <td>
             <ul>
-               <li>Blocklista - blocklista - 3</li>
+               <li>Blacklist - blackList - 3</li>
                <li>Ingen specifik åtgärd - ingen - 0</li>
                <li>Unsubscription - unsubscription - 2</li>
                <li>OGILTIGT VÄRDE - __Invalid_value__ - __Invalid_value__</li>
@@ -564,7 +564,7 @@ ht-degree: 0%
                <li>(GMT) Greenwich, medeltid - GMT - GMT</li>
                <li>(GMT-04.00) La Paz - America_La_Paz - America/La_Paz</li>
                <li>Operatörens tidszon - _login_ - _login_</li>
-               <li>(GMT-06:00) Guadalajara, Mexico, Monterrey - America_Mexico_City - Amerika/Mexico_City</li>
+               <li>(GMT-06:00) Guadalajara, Mexico, Monterrey - America_Mexico_City - America/Mexico_City</li>
                <li>(GMT+09.30) Darwin - Australia_Darwin - Australien/Darwin</li>
                <li>(GMT-05:00) Est (USA och Kanada) - America_New_York - America/New_York</li>
                <li>(GMT-05:00) Greenwich Mean Time minus 5 timmar - Gmt_m5 - ETC/GMT+5</li>
@@ -636,7 +636,7 @@ ht-degree: 0%
             <ul>
                <li>Allmän - allmän - 0</li>
                <li>Avbeställ en tjänst - avbeprenumeration - 3</li>
-               <li>Blocklista - blocklista - 4</li>
+               <li>Blacklist - blackList - 4</li>
                <li>OGILTIGT VÄRDE - __Invalid_value__ - __Invalid_value__</li>
                <li>Anskaffning - förvärv - 1</li>
                <li>Prenumeration på en tjänst - prenumeration - 2</li>
