@@ -1,6 +1,6 @@
 ---
 title: Förbättra ditt rykte med Adobe Campaign Standard
-description: Lär dig hur du kan förbättra ditt rykte med Adobe Campaign Standard genom att hantera dubbla e-postadresser och karantän.
+description: Lär dig förbättra ditt rykte med Adobe Campaign Standard genom att hantera dubbla e-postadresser och karantän.
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -13,17 +13,17 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 121ec37cef6193d3a7085b6d0296b6a2e7cafa06
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 0%
+source-wordcount: '455'
+ht-degree: 2%
 
 ---
 
 
-# Förbättra ert rykte{#improving-reputation}
+# Förbättra ditt rykte{#improving-reputation}
 
-Du kan undvika att mottagarna blir trötta genom att ta bort dubbla e-postadresser från målet. Det här steget skyddar ditt sändningsrykte och garanterar en god karantänhantering. Adobe Campaign har de verktyg som krävs för att implementera dessa rekommendationer och undviker risken att läggas till i en blocklista av internetleverantörerna.
+Du kan undvika att mottagarna blir trötta genom att ta bort dubbla e-postadresser från målet. Det här steget skyddar ditt sändningsrykte och garanterar en god karantänhantering. Adobe Campaign har de verktyg som krävs för att implementera dessa rekommendationer och undviker risken att blocklist av internetleverantörerna.
 
 Här nedan hittar du information om hantering av dubbletter och karantän.
 
@@ -33,7 +33,7 @@ Att ha dubbla e-postadresser kan få flera följder:
 * Samma meddelande skickas mer än en gång. Även om Campaign utför en dedupliceringsprocedur som standard innan det skickas, finns det inget som hindrar att samma meddelande skickas av olika åtgärder med samma innehåll när ett mål delas.
 * Begäran om att avbryta prenumerationen har inte uppfyllts. Om en mottagare säger upp prenumerationen efter att ha fått ett meddelande, är deras duplicerade profil fortfarande berättigad till framtida meddelanden.
 
-Förutom detta steg i anmälningsprocessen kommer denna situation sannolikt att leda till att användarna ser meddelandena som skräppost och att utlösa en blockeringslistprocedur hos Internet-leverantören.
+Förutom detta steg i anmälningsförfarandet kommer denna situation sannolikt att leda till att användare anser att meddelandena är skräppost och att utlösa ett förfarande för blockeringslista hos Internet-leverantören.
 
 Du måste vara särskilt försiktig när du utför åtgärder i databasen. För att så mycket som möjligt undvika dubbletter måste följande åtgärder utföras:
 * **Import måste konfigureras noggrant.** Detta är särskilt viktigt när du väljer avstämningsnyckeln.
