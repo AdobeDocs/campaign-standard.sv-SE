@@ -10,10 +10,10 @@ discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
 source-wordcount: '1248'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -54,43 +54,43 @@ ht-degree: 0%
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockList</td>
+                  <td>blackList</td>
                   <td>Inte längre kontakt (via någon kanal)</td>
                   <td>boolesk </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListEmail</td>
+                  <td>blackListEmail</td>
                   <td>Kontakta inte längre via e-post</td>
                   <td>boolesk </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListFax</td>
+                  <td>blackListFax</td>
                   <td>Inte längre kontakt via fax</td>
                   <td>boolesk </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListMobile</td>
+                  <td>blackListMobile</td>
                   <td>Kontakta inte längre SMS</td>
                   <td>boolesk </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListPhone</td>
+                  <td>blackListPhone</td>
                   <td>Kontakten tas inte längre via telefon</td>
                   <td>boolesk </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListPostalMail</td>
+                  <td>blackListPostalMail</td>
                   <td>Inte längre kontakt via direktreklam</td>
                   <td>boolesk </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListPushnotification</td>
+                  <td>blackListPushnotification</td>
                   <td>Kontakta inte längre via push-meddelanden</td>
                   <td>boolesk </td>
                   <td> </td>
@@ -189,7 +189,7 @@ ht-degree: 0%
                <tr>
                   <td>firstName</td>
                   <td>Förnamn</td>
-                  <td>sträng (50)</td>
+                  <td>sträng (30)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -238,7 +238,7 @@ ht-degree: 0%
                <tr>
                   <td>middleName</td>
                   <td>Mellannamn</td>
-                  <td>sträng (50)</td>
+                  <td>sträng (30)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -379,7 +379,7 @@ ht-degree: 0%
                         <li>(GMT) Greenwich, medeltid - GMT - GMT</li>
                         <li>Standard - ingen - ingen</li>
                         <li>(GMT-04.00) La Paz - America_La_Paz - America/La_Paz</li>
-                        <li>(GMT-06:00) Guadalajara, Mexico, Monterrey - America_Mexico_City - Amerika/Mexico_City</li>
+                        <li>(GMT-06:00) Guadalajara, Mexico, Monterrey - America_Mexico_City - America/Mexico_City</li>
                         <li>(GMT+09.30) Darwin - Australia_Darwin - Australien/Darwin</li>
                         <li>(GMT-05:00) Est (USA och Kanada) - America_New_York - America/New_York</li>
                         <li>(GMT-05:00) Greenwich Mean Time minus 5 timmar - Gmt_m5 - ETC/GMT+5</li>
