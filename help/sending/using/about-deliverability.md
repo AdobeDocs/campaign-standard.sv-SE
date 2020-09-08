@@ -1,6 +1,6 @@
 ---
-title: Leverans inom Adobe Campaign Standard
-description: Lär dig mer om koncept och bästa metoder för att leverera samt de verktyg som Adobe Campaign Standarden erbjuder för att optimera leveransen.
+title: Om leveransbarhet i Adobe Campaign Standard
+description: Lär dig mer om koncept och bästa metoder för att leverera samt de verktyg som Adobe Campaign Standard erbjuder för att optimera leveransen.
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -13,15 +13,15 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 121ec37cef6193d3a7085b6d0296b6a2e7cafa06
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 0%
+source-wordcount: '662'
+ht-degree: 6%
 
 ---
 
 
-# Leverans{#about-deliverability}
+# Om leverans{#about-deliverability}
 
 Leveransmöjligheterna gör det möjligt att mäta framgången för era kampanjer som når mottagarnas inkorgar utan att studsa, eller markeras som skräppost.
 
@@ -37,7 +37,7 @@ Leveransgraden beror på flera faktorer, särskilt:
 
 ## Viktiga punkter att kontrollera {#deliverability-key-points}
 
-För att optimera leveransen av dina Adobe Campaign-e-postmeddelanden rekommenderar vi att du använder de bästa metoderna som listas nedan. Leveransproblem är i allmänhet kopplade till skyddsåtgärder mot skräppost som genomförs av internetleverantörer och e-postserveradministratörer.
+För att optimera leveransen av dina e-postmeddelanden från Adobe Campaign rekommenderar vi att du använder de bästa metoderna nedan. Leveransproblem är i allmänhet kopplade till skyddsåtgärder mot skräppost som genomförs av internetleverantörer och e-postserveradministratörer.
 
 E-postleverans är en uppsättning egenskaper som avgör hur ett meddelande kan nå sin destination via en personlig e-postadress inom en kort tid och med den förväntade kvaliteten i fråga om innehåll och format. Dessa egenskaper kan delas in i fyra huvudkategorier: datakvalitet, meddelande och innehåll, utskick av infrastruktur och anseende. Tillsammans utgör de grunden för ett framgångsrikt program för e-postleverans.
 
@@ -47,17 +47,17 @@ Här är en lista över de viktigaste punkterna som ska kontrolleras för att s�
 ## Leveransverktyg {#deliverability-tools}
 
 Börja med att läsa dokumentationen om de leveransverktyg som ingår i Campaign Standarden:
-* [Bästa praxis](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+* [Bästa praxis för leverans](https://helpx.adobe.com/se/campaign/kb/delivery-best-practices.html)
 * [Anpassa avsändarens namn](../../designing/using/personalization.md#personalizing-the-sender)
 * [Testa ämnesraden i ett e-postmeddelande](../../sending/using/testing-subject-line-email.md)
 * [Optimera sändningstiden](../../sending/using/optimizing-the-sending-time.md)
 * [Förhandsgranska meddelanden](../../sending/using/previewing-messages.md)
 * [E-poståtergivning](../../sending/using/email-rendering.md)
-* [Övervaka leverans](../../sending/using/monitoring-a-delivery.md)
+* [Övervaka en leverans](../../sending/using/monitoring-a-delivery.md)
 * [Få aviseringar när fel uppstår](../../sending/using/receiving-alerts-when-failures-happen.md)
-* [Om leveransfel](../../sending/using/understanding-delivery-failures.md)
-* [Om karantänhantering](../../sending/using/understanding-quarantine-management.md)
-* [Karantän mot blocklista](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list)
+* [Oom leveransfel](../../sending/using/understanding-delivery-failures.md)
+* [Förstå karantänhantering](../../sending/using/understanding-quarantine-management.md)
+* [Karantän mot blockeringslista](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list)
 * [Dynamiska rapporter](../../reporting/using/about-dynamic-reports.md)
 
 ## Kontrollerar nätverkskonfiguration {#network-configuration}
@@ -66,7 +66,7 @@ Spam försöker dölja sin riktiga identitet och gör därför sina servrar svå
 
 ## Skickar till giltiga adresser {#valid-addresses}
 
-Spammare använder ofta adressgeneratorer som bygger på listor över frekventa namn och förnamn. Dessutom bearbetar de sällan tekniska meddelanden som skickas tillbaka av e-postservrar. En hög frekvens med ogiltiga adresser tolkas ofta som ett tecken på skräppost. Dubbla anmälningsmekanismer och effektiv hantering av tekniska studentmeddelanden gör det möjligt att undvika detta.
+Spammare använder ofta adressgeneratorer som bygger på listor över frekventa namn och förnamn. Dessutom bearbetar de sällan tekniska meddelanden som skickas tillbaka från e-postservrar. En hög frekvens med ogiltiga adresser tolkas ofta som ett tecken på skräppost. Dubbla anmälningsmekanismer och effektiv hantering av tekniska studentmeddelanden gör det möjligt att undvika detta.
 
 ## Minska andelen klagomål {#reduce-complaint-rate}
 
