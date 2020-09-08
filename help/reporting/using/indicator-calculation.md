@@ -12,10 +12,10 @@ discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
 source-wordcount: '731'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -47,15 +47,15 @@ Tabellerna nedan visar en lista över indikatorer som används i de olika rappor
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Blockerad<br /> </td> 
-   <td> @blocklisted<br /> </td> 
+   <td> Blocklist<br /> </td> 
+   <td> @svartlistad<br /> </td> 
    <td> count(@errorReason=8, @errorType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Frekvens för blockerad lista<br /> </td> 
-   <td> @rateBlocklisted<br /> </td> 
-   <td> @blocklisted/@sent<br /> </td> 
+   <td> Blockeringslista<br /> </td> 
+   <td> @rateBlacklisted<br /> </td> 
+   <td> @svartlistad/@skickad<br /> </td> 
    <td> Nämnaren för tariffberäkning baseras på antalet skickade (Levererade + studsar).<br /> </td> 
   </tr> 
   <tr> 
@@ -193,7 +193,7 @@ Tabellerna nedan visar en lista över indikatorer som används i de olika rappor
   <tr> 
    <td> Unika klick<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Unika klick beräknas med ThetaSketch-koncept. Mer information finns i det här <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exemplet</a>.<br /> </td> 
+   <td> Unika klick beräknas med ThetaSketch-koncept. For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -273,7 +273,7 @@ Tabellerna nedan visar en lista över indikatorer som används i de olika rappor
   <tr> 
    <td> Unika öppningar<br /> </td> 
    <td> @uniqueopens<br /> </td> 
-   <td> Unika öppningar beräknas med ThetaSketch-koncept för unika RecipientIds. Mer information finns i det här <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exemplet</a>.<br /> </td> 
+   <td> Unika öppningar beräknas med ThetaSketch-koncept för unika RecipientIds. For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Impressions<br /> </td> 
@@ -293,7 +293,7 @@ Tabellerna nedan visar en lista över indikatorer som används i de olika rappor
   <tr> 
    <td> Unika klick<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Unika klick beräknas med ThetaSketch-koncept. Mer information finns i det här <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exemplet</a>.<br /> </td> 
+   <td> Unika klick beräknas med ThetaSketch-koncept. For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Klicka igenom hastigheten<br /> </td> 
@@ -337,7 +337,7 @@ Tabellerna nedan visar en lista över indikatorer som används i de olika rappor
    <td> Unika intryck<br /> </td> 
    <td> @uniqueimponations<br /> </td> 
    <td> @unique(@count(status=vy))<br /> </td> 
-   <td> För <span class="uicontrol">Target-användare baserat på deras Campaign-profil (inAppProfile)</span> -mall, user = mottagar-ID.<br /> För <span class="uicontrol">Target alla användare av en mobilapp (inAppBroadcast)</span> och <span class="uicontrol">Target baserat på deras mallar för mobilprofilen (inApp)</span> , user = MC Id eller motsvarande som representerar en unik kombination av användare, mobilapp och enhet.<br /> </td> 
+   <td> För <span class="uicontrol">målanvändare baserat på deras Campaign-profil (inAppProfile)</span> -mall, user = mottagar-ID.<br /> För <span class="uicontrol">alla användare av en mobilapp (inAppBroadcast)</span> och <span class="uicontrol">Target-användare baserat på deras mallar för mobilprofilen (inApp)</span> , user = MC Id eller motsvarande som representerar en unik kombination av användare, mobilapp och enhet.<br /> </td> 
   </tr> 
   <tr> 
    <td> Klicka i appen <br /> </td> 
@@ -349,7 +349,7 @@ Tabellerna nedan visar en lista över indikatorer som används i de olika rappor
    <td> Unika klick i appen<br /> </td> 
    <td> @uniqueinapp<br /> </td> 
    <td> @unique(@count (status=klickningar))<br /> </td> 
-   <td> För <span class="uicontrol">Target-användare baserat på deras Campaign-profil (inAppProfile)</span> -mall, user = mottagar-ID.<br /> För <span class="uicontrol">Target alla användare av en mobilapp (inAppBroadcast)</span> och <span class="uicontrol">Target baserat på deras mallar för mobilprofilen (inApp)</span> , user = MC Id eller motsvarande som representerar en unik kombination av användare, mobilapp och enhet.<br /> </td> 
+   <td> För <span class="uicontrol">målanvändare baserat på deras Campaign-profil (inAppProfile)</span> -mall, user = mottagar-ID.<br /> För <span class="uicontrol">alla användare av en mobilapp (inAppBroadcast)</span> och <span class="uicontrol">Target-användare baserat på deras mallar för mobilprofilen (inApp)</span> , user = MC Id eller motsvarande som representerar en unik kombination av användare, mobilapp och enhet.<br /> </td> 
   </tr> 
   <tr> 
    <td> Klickfrekvens i appen<br /> </td> 
@@ -358,7 +358,7 @@ Tabellerna nedan visar en lista över indikatorer som används i de olika rappor
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Inaktivering i appen<br /> </td> 
+   <td> Avvisning i appen<br /> </td> 
    <td> @dissaknar<br /> </td> 
    <td> @count (status=close)<br /> </td> 
    <td> </td> 
@@ -367,7 +367,7 @@ Tabellerna nedan visar en lista över indikatorer som används i de olika rappor
    <td> Unika rabatter i appen<br /> </td> 
    <td> @uniquedismissal<br /> </td> 
    <td> @unique(@count (status=close))<br /> </td> 
-   <td> För <span class="uicontrol">Target-användare baserat på deras Campaign-profil (inAppProfile)</span> -mall, user = mottagar-ID.<br /> För <span class="uicontrol">Target alla användare av en mobilapp (inAppBroadcast)</span> och <span class="uicontrol">Target baserat på deras mallar för mobilprofilen (inApp)</span> , user = MC Id eller motsvarande som representerar en unik kombination av användare, mobilapp och enhet.<br /> </td> 
+   <td> För <span class="uicontrol">målanvändare baserat på deras Campaign-profil (inAppProfile)</span> -mall, user = mottagar-ID.<br /> För <span class="uicontrol">alla användare av en mobilapp (inAppBroadcast)</span> och <span class="uicontrol">Target-användare baserat på deras mallar för mobilprofilen (inApp)</span> , user = MC Id eller motsvarande som representerar en unik kombination av användare, mobilapp och enhet.<br /> </td> 
   </tr> 
   <tr> 
    <td> Avdragsfrekvens i appen<br /> </td> 
