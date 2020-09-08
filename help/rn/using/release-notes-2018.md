@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '5401'
+source-wordcount: '5398'
 ht-degree: 6%
 
 ---
@@ -30,7 +30,7 @@ Se de senaste [dokumentationsuppdateringarna](../../rn/using/documentation-updat
 
 ## Version 18.9 - september 2018 {#release-18-9---september-2018}
 
-**Vad är nytt?**
+**Nyheter**
 
 <table> 
  <thead> 
@@ -70,7 +70,7 @@ Se de senaste [dokumentationsuppdateringarna](../../rn/using/documentation-updat
 
    For more on this, refer to the [detailed documentation](../../designing/using/personalization.md#adding-a-content-block).
 
-**Patchar**
+**Felkorrigeringar**
 
 * Korrigerade ett problem som visade en diskrepans i antalet loggar mellan e-postinstrumentpanelen och e-postsammanfattningsrapporten för transaktionsmeddelanden. (CAMP-28237
 * Korrigerade ett fel i arbetsflöden som kunde visa ett felmeddelande när en fil importerades via en filöverföringsaktivitet. (CAMP-27435)
@@ -89,13 +89,13 @@ Se de senaste [dokumentationsuppdateringarna](../../rn/using/documentation-updat
 * Korrigerade ett problem som gjorde att bilder som överförts från en kamera och tagits i stående läge visades i oönskad roterad position.
 * Ett problem som visade otydlig markeringsinformation när frågeredigeringsgränssnittet i Creative Designer användes har korrigerats.
 * Korrigerade ett problem som förhindrade att ett element duplicerades korrekt när frågeredigeringsgränssnittet i Creative Designer användes.
-* Korrigerade ett problem som fortsatte att leverera SMS-meddelanden till mottagare på blockeringslista, trots att de hade avbeställt prenumerationen via ett automatiskt svar. (CAMP-27128)
+* Korrigerade ett problem som fortsatte leverera SMS-meddelanden till mottagare som inte är registrerade, trots att de hade avbeställt prenumerationen via ett automatiskt svar. (CAMP-27128)
 * Korrigerade ett problem som förhindrade att de fel som orsakade att arbetsflödet för **databasrensning** misslyckades visades. (CAMP-26876)
 * Ett problem som kunde förhindra att anpassade fält i en push-meddelandedefinition togs bort har åtgärdats. (CAMP-25588)
 
 ## Version 18.7 - juli 2018 {#release-18-7---july-2018}
 
-**Vad är nytt?**
+**Nyheter**
 
 <table> 
  <thead> 
@@ -107,7 +107,7 @@ Se de senaste [dokumentationsuppdateringarna](../../rn/using/documentation-updat
  <tbody> 
   <tr> 
    <td> Flagga med hög prioritet för Android-push-meddelanden<br /> </td> 
-   <td> Flagga med hög prioritet för Android - Aktivera leverans av ett push-meddelande med hög prioritet för Android-program, vilket gör att vilolägesenheten vaknar och kör begränsad bearbetning. Observera att standardprioriteten är Normal, vilket kan fördröja meddelandeleveransen för att spara batteri. <br /> Mer information finns i den <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Flagga med hög prioritet för Android - Aktivera leverans av ett push-meddelande med hög prioritet för Android-program, vilket får enheten att väcka och köra begränsad bearbetning. Observera att standardprioriteten är Normal, vilket kan fördröja meddelandeleveransen för att spara batteri. <br /> Mer information finns i den <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Typologifilter för mobilappsprenumerationer<br /> </td> 
@@ -140,7 +140,7 @@ Se de senaste [dokumentationsuppdateringarna](../../rn/using/documentation-updat
 * I Creative Designer kan en ny innehållskomponent nu läggas till i ett e-postmeddelande: Carousel. For more on this, refer to the [detailed documentation](../../designing/using/designing-from-scratch.md#about-content-components).
 * När du klickar på knappen **Ändra profil** i ett transaktionsmeddelande visas nu bara de testprofiler som är länkade till händelsen som du definierade för ditt transaktionsmeddelande.
 
-**Patchar**
+**Felkorrigeringar**
 
 * Ett problem med byEmail-frågefiltret som inte returnerade några resultat har korrigerats. (CAMP-23420)
 * Korrigerade ett problem som gjorde att en standardanvändare kunde få åtkomst till vissa funktioner eller skärmar som var begränsade till administratörer (/rest/head/* slutpunkter, transaktionsmeddelandeskärmar, profiler och målgrupper importskärmar).
@@ -175,7 +175,7 @@ Se de senaste [dokumentationsuppdateringarna](../../rn/using/documentation-updat
 * Användare med den här rollen kan nu skicka korrektur **[!UICONTROL Delivery preparation]** . (CAMP-24313)
 * Alternativet **Aktivera TLS över SMPP** har lagts till i **SMS-routningen via det externa SMPP** -kontot. For more on this refer to this [section](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
 
-**Patchar**
+**Felkorrigeringar**
 
 * Korrigerade ett problem som kunde förhindra att e-postmeddelanden skickades när en dynamisk bild från Adobe Target (CAMP-24848) inkluderades.
 * Korrigerade ett problem med de **[!UICONTROL Privacy Access/Delete Request]** tekniska arbetsflödena, som inte slutfördes om någon av förfrågningarna misslyckades.
@@ -196,7 +196,7 @@ Se de senaste [dokumentationsuppdateringarna](../../rn/using/documentation-updat
 
 ## Version 18.5 - maj 2018 {#release-18-5---may-2018}
 
-**Vad är nytt?**
+**Nyheter**
 
 <table> 
  <thead> 
@@ -249,7 +249,7 @@ Se de senaste [dokumentationsuppdateringarna](../../rn/using/documentation-updat
 * När du använder en segmenteringsaktivitet med en Additional data-länk (targetData) visas nu ett meddelande om att data inte är tillgängliga utanför arbetsflödet. Det här meddelandet visas när du klickar på knappen Antal eller Förhandsvisa i segmenteringsaktiviteten. (CAMP-23651)
 * Förbättringar har gjorts för att optimera det diskutrymme som används i arbetsflöden: (CAMP-21979): Filerna som bearbetas av aktiviteten Läs in fil tas nu bort som standard. Med ett alternativ kan du behålla dem för specifika behov. När ett arbetsflöde tas bort undertrycks dess dedikerade mapp automatiskt från serverkatalogen.
 
-**Patchar**
+**Felkorrigeringar**
 
 * Ett problem har korrigerats där vissa obearbetade rapporthändelser inte hade associerade spårningshändelser eftersom fältet eventDate inte fylldes i korrekt.
 * Korrigerade ett problem som gjorde att anpassade fält inte kunde visas i förhandsgranskningsfönstret för en leverans av push-meddelanden.
@@ -259,7 +259,7 @@ Se de senaste [dokumentationsuppdateringarna](../../rn/using/documentation-updat
 * Korrigerade ett fel som kan uppstå när en ZIP-fil importeras via en filinläsningsaktivitet. (CAMP-24309)
 * Ett problem som ledde till ett PostgreSQL-fel när en återkommande leverans skickades har åtgärdats. (CAMP-23613)
 * Korrigerade ett problem som visade ett felmeddelande när en REST API-begäran med ett tomt JSON-attribut skickades. (CAMP-23506)
-* Korrigerade ett problem i profiler som är inställda på versaler för tecknen efter &quot;ß&quot;-tecknet. (CAMP-23136)
+* Korrigerade ett fel i profiler som är inställda på versaler för tecknen efter &quot;ß&quot;-tecknet. (CAMP-23136)
 * Ett problem har korrigerats när leveranser som används med personalisering eller det dynamiska innehållsblockets villkor för behörighet skickades när attribut från ett länkat profilschema användes. (CAMP-22751)
 * Ett problem som hindrade från att ta bort tjänster har korrigerats. (CAMP-22050)
 * Korrigerade ett fel som förhindrade att värden för land eller delstat ändrades i en testprofil. (CAMP-20426)
@@ -268,7 +268,7 @@ Se de senaste [dokumentationsuppdateringarna](../../rn/using/documentation-updat
 
 ## Version 18.4 - april 2018 {#release-18-4---april-2018}
 
-**Patchar**
+**Felkorrigeringar**
 
 _Plattform_
 
@@ -306,7 +306,7 @@ _Anpassade resurser_
  <tbody> 
   <tr> 
    <td> EU General Data Protection Regulation (GDPR)<br /> </td> 
-   <td> GDPR är EU:s (EU) nya integritetslagstiftning som harmoniserar och moderniserar dataskyddskraven som träder i kraft den 25 maj 2018. GDPR gäller för Adobe Campaign-kunder som innehar uppgifter för registrerade i EU.<br /> Förutom de sekretessfunktioner som redan finns i Adobe Campaign (inklusive samtyckeshantering, datalagringsinställningar och användarroller) tar vi denna möjlighet i vår roll som dataprocessor att inkludera ytterligare funktioner för att underlätta din beredskap som Data Controller för vissa GDPR-förfrågningar:<br /> 
+   <td> GDPR är EU:s (EU) nya integritetslagstiftning som harmoniserar och moderniserar dataskyddskraven som träder i kraft den 25 maj 2018. GDPR gäller för Adobe Campaign-kunder som innehar uppgifter för registrerade personer som bor i EU.<br /> Förutom de sekretessfunktioner som redan finns i Adobe Campaign (inklusive samtyckeshantering, datalagringsinställningar och användarroller) tar vi denna möjlighet i vår roll som dataprocessor att inkludera ytterligare funktioner för att underlätta din beredskap som Data Controller för vissa GDPR-förfrågningar:<br /> 
     <ul> 
      <li> Åtkomst: ger den registrerade möjlighet att få en kopia av sina personuppgifter som samlats in av personuppgiftsansvariga, inklusive uppgifter som lagrats i Adobe Campaign. </li> 
      <li> Höger att ta bort: ger den registrerade rätt att få sina personuppgifter som samlats in av personuppgiftsansvariga raderade, inklusive data som lagrats i Adobe Campaign. </li> 
@@ -337,7 +337,7 @@ _Anpassade resurser_
  </tbody> 
 </table>
 
-**Patchar**
+**Felkorrigeringar**
 
 _Plattform_
 
@@ -405,7 +405,7 @@ _Transaktionsmeddelanden_
  </tbody> 
 </table>
 
-**Patchar**
+**Felkorrigeringar**
 
 _Plattform_
 
@@ -474,7 +474,7 @@ Vissa problem kan uppstå när sammanhangsberoende hjälplänkar från gränssni
      <li> hämta bilder eller andra mediefiler och lägga till dem som bilagor i ett meddelande </li> 
      <li> ändra brödtexten eller rubriktexten i ett meddelande </li> 
      <li> lägga till en trådidentifierare i ett meddelande </li> 
-    </ul> Mer information om innehåll finns i den <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">detaljerade dokumentationen</a>.<br /> <strong>Varning:</strong> dessa uppdateringar i push-meddelanden kräver att kunderna uppgraderar sina mobilappar. Mer information finns i <a href="https://helpx.adobe.com/se/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html">den här</a> tekniska informationen.<br /> </td> 
+    </ul> Mer information om innehåll finns i den <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">detaljerade dokumentationen</a>.<br /> <strong>Varning:</strong> dessa uppdateringar i push-meddelanden kräver att kunderna uppgraderar sina mobilappar. Refer to <a href="https://helpx.adobe.com/se/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html">this technote</a> for more information.<br /> </td> 
   </tr> 
   <tr> 
    <td> Tidszonsoptimerade leveranser<br /> </td> 
@@ -487,7 +487,7 @@ Vissa problem kan uppstå när sammanhangsberoende hjälplänkar från gränssni
  </tbody> 
 </table>
 
-**Patchar**
+**Felkorrigeringar**
 
 _Plattform_
 
@@ -527,5 +527,5 @@ _Profiler och målgrupper_
 * Korrigerade ett visningsfel som uppstod när en profils bild ändrades.
 * Ett verktygstips med det exakta resultatnumret har lagts till efter att en frågas fyllning har räknats.
 * Korrigerade ett problem som kunde hindra en användare från att välja en målgrupp eller stänga målgruppsväljarfönstret.
-* Listan över tillgängliga funktioner i uttrycksredigeraren har uppdaterats. Funktionerna **FormatCurrency** och **ConvertCurrency** har tagits bort.
+* Listan med tillgängliga funktioner i uttrycksredigeraren har uppdaterats. Funktionerna **FormatCurrency** och **ConvertCurrency** har tagits bort.
 
