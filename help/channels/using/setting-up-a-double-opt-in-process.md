@@ -12,10 +12,10 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 89%
+source-wordcount: '1146'
+ht-degree: 90%
 
 ---
 
@@ -32,7 +32,7 @@ Principen är att skicka ett e-postmeddelande som bekräftar besökarens samtyck
 
 Gör följande för att ställa in detta:
 
-1. Skapa och publicera en landningssida så att besökarna kan registrera sig och prenumerera. Denna landningssida kommer att vara tillgänglig från en webbplats. Visitors who fill in and submit this landing page will be stored in the database but added to the block list, in order not to receive any communication before the final validation (see [Block list management in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+1. Skapa och publicera en landningssida så att besökarna kan registrera sig och prenumerera. Denna landningssida kommer att vara tillgänglig från en webbplats. Visitors who fill in and submit this landing page will be stored in the database but added to the denylist, in order not to receive any communication before the final validation (see [Denylist management in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
 1. Skapa och skicka automatiskt e-postmeddelandet om deltagande med en bekräftelselänk. Det här e-postmeddelandet riktar sig till den målgrupp som skickade landningssidan. Den kommer att baseras på en e-postmall som gör det möjligt att rikta in sig på &quot;avanmälningsprofiler&quot;.
 1. Omdirigering till en bekräftelsestartsida. Den sista landningssidan ska innehålla en bekräftelseknapp: Besökarna måste klicka på den. Du kan skapa ett välkomstmeddelande som ska skickas vid bekräftelse, och du kan till exempel lägga till ett specialerbjudande i e-postmeddelandet för nya mottagare.
 
@@ -54,13 +54,13 @@ Om du vill skapa och konfigurera den här landningssidan måste du:
 
 1. Klicka på **[!UICONTROL Job]** och ange följande kontextsökväg i avsnittet **[!UICONTROL Additional data]** > **[!UICONTROL Add an element]**:
 
-   /context/profile/blockeringslista
+   /context/profile/blackList
 
    Ställ in värdet på **false** och klicka på **[!UICONTROL Add]**.
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   Det här sammanhanget tar bort fältet &quot;På blockeringslista&quot; för att kunna skicka e-post. Vi kommer senare att se att den första landningssidan ställde in det här fältet till **true** före bekräftelsen för att förhindra att e-post skickas till obekräftade profiler. Mer information finns i [Steg 3: Skapa landningssidan för värvning](#step-3--create-the-acquisition-landing-page).
+   Det här sammanhanget tar bort fältet &quot;Blocklist&quot; för att kunna skicka e-post. Vi kommer senare att se att den första landningssidan ställde in det här fältet till **true** före bekräftelsen för att förhindra att e-post skickas till obekräftade profiler. Mer information finns i [Steg 3: Skapa landningssidan för värvning](#step-3--create-the-acquisition-landing-page).
 
 1. Anpassa innehållet på landningssidan: Du kan t.ex. visa anpassade data och ändra bekräftelseknappens etikett till &quot;Klicka här för att bekräfta min prenumeration&quot;.
 
@@ -101,12 +101,12 @@ Händelsen är klar. Nu kan du utforma e-postmallen. Den här mallen måste inne
 
 ### Skapa typologin {#create-the-typology-rule}
 
-Du måste skapa en specifik [typologi](../../sending/using/about-typology-rules.md) genom att duplicera en färdig typologi. Typologin gör det möjligt att skicka meddelanden till profiler som ännu inte har bekräftat sitt samtycke och fortfarande är på blockeringslista. Som standard utesluter typologier avanmälningsprofiler (dvs. på blockeringslista). Så här skapar du en typologi:
+Du måste skapa en specifik [typologi](../../sending/using/about-typology-rules.md) genom att duplicera en färdig typologi. Typologin gör att det går att skicka meddelanden till profiler som ännu inte har bekräftat sitt avtal och fortfarande är blocklist. Som standard utesluter typologier avanmälningsprofiler (dvs. blocklist). Så här skapar du en typologi:
 
 1. I Adobe Campaign-logotypen väljer du **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** och klickar på **[!UICONTROL Typologies]**.
 1. Duplicera den färdiga typologin **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**.
 1. När dupliceringen har bekräftats redigerar du den nya typologin och anger etiketten **TYPOLOGIPROFIL**.
-1. Ta bort **adressen för regeln blockeringslista** .
+1. Remove the **Denylisted address** rule.
 1. Klicka på **[!UICONTROL Save]**.
 
 Den här typologin kan nu kopplas till bekräftelsemeddelandet via e-post.
@@ -133,11 +133,11 @@ Om du vill skapa och konfigurera den här landningssidan måste du:
 1. skapa en [ny landningssida](../../channels/using/getting-started-with-landing-pages.md) baserad på **[!UICONTROL Profile acquisition (acquisition)]**-mallen. Ange etiketten &quot;**FÖRVÄRV**&quot;.
 1. Redigera egenskaperna för landningssidan: På avsnittet **[!UICONTROL Job]** > **[!UICONTROL Additional data]** klickar du på **[!UICONTROL Add an element]** och anger följande kontextsökväg:
 
-   /context/profile/blockeringslista
+   /context/profile/blackList
 
    och ange värdet till **true**.
 
-   Detta är obligatoriskt för att tvinga besökare som inte bekräftat sitt samtycke att lägga till blockeringslista och undvika att skicka meddelanden till dem. Valideringen av landningssidan för BEKRÄFTELSE anger att fältet ska vara **false** efter bekräftelsen. Mer information finns i [Steg 1: Skapa landningssidan för bekräftelse ](#step-1--create-the-confirmation-landing-page).
+   Detta är obligatoriskt för att tvinga besökare som inte bekräftat sitt avtal att lägga till i blockeringslista och undvika att skicka meddelanden till dem. Valideringen av landningssidan för BEKRÄFTELSE anger att fältet ska vara **false** efter bekräftelsen. Mer information finns i [Steg 1: Skapa landningssidan för bekräftelse ](#step-1--create-the-confirmation-landing-page).
 
 1. Välj alternativet **[!UICONTROL Start sending messages]** i avsnittet **[!UICONTROL Job]** > **[!UICONTROL Specific actions]**.
 1. I den associerade listrutan väljer du mallen **BEKRÄFTA** för transaktionsmeddelanden som du har skapat.
