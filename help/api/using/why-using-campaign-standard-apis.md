@@ -1,6 +1,6 @@
 ---
 title: Varför använda Campaign Standard-API:er?
-description: Läs mer om Campaign Standard-API:er och varför du ska använda dem.
+description: Läs mer om Campaign Standard-API:er och varför du använder dem.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -12,15 +12,15 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b04a5efdde3153d3ede0ad8bc4f56cd4a5fa1df
+source-git-commit: 87f65e6225f7f22ab347aac33ea9d769af299030
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 1%
+source-wordcount: '491'
+ht-degree: 2%
 
 ---
 
 
-# Why use Campaign Standard APIs {#why-using-campaign-standard-apis}
+# Varför använda Campaign Standard-API:er {#why-using-campaign-standard-apis}
 
 Adobe Campaign Standard tillhandahåller API:er som gör att befintliga system kan integreras med ACS-plattformen för att lösa problem i realtid.
 
@@ -65,7 +65,7 @@ Stegen nedan beskriver ett stegvis användningsfall för att importera och anvä
 
    ![alt-text](assets/postman_collection.png)
 
-1. Markera **Skapa en profilbegäran** och uppdatera sedan POSTEN och fliken **Sidhuvuden** med din egen information (&lt;ORGANISATION>, &lt;API_KEY>, &lt;ACCESS_TOKEN>). Mer information om detta hittar du i [det här avsnittet](../../api/using/setting-up-api-access.md).
+1. Markera **Skapa en profilbegäran** och uppdatera sedan POSTEN och fliken **Sidhuvuden** med din egen information (&lt;ORGANISATION>, &lt;API_KEY>, &lt;ACCESS_TOKEN>). Mer information om detta finns i [det här avsnittet](../../api/using/setting-up-api-access.md).
 
    ![alt-text](assets/postman_uc1.png)
 
