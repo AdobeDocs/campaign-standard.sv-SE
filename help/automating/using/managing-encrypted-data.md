@@ -12,10 +12,10 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e58ac301d82a360d7065be7c1e3490a2a1821344
+source-git-commit: bd48bb03e6f02a65e6f82cd9cb3131f153e19875
 workflow-type: tm+mt
 source-wordcount: '938'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 0%
 
 I vissa fall kan data som du vill importera Campaign-servrar behöva krypteras, till exempel om de innehåller PII-data.
 
-För att kunna kryptera utgående data eller dekryptera inkommande data måste du hantera GPG-nycklar med [Kontrollpanelen](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html).
+För att kunna kryptera utgående data eller dekryptera inkommande data måste du hantera GPG-nycklar med [Kontrollpanelen](https://docs.adobe.com/content/help/sv-SE/control-panel/using/instances-settings/gpg-keys-management.html).
 
 >[!NOTE]
 >
 >Kontrollpanelen är tillgänglig för alla kunder som har AWS som värd (med undantag för kunder som har sina marknadsföringsinstanser på plats).
 
-Om du inte är berättigad att använda Kontrollpanelen måste du kontakta Adobes kundtjänst så att de kan ge din instans de krypterings-/dekrypteringskommandon som behövs. Om du vill göra det skickar du en förfrågan med följande uppgifter:
+Om du inte är berättigad att använda Kontrollpanelen måste du kontakta Adobe kundtjänst så att de ger instansen de krypterings-/dekrypteringskommandon som behövs. Om du vill göra det skickar du en förfrågan med följande uppgifter:
 
 * Den **etikett** som ska visas i Campaign-gränssnittet för att använda kommandot. Till exempel&quot;Kryptera fil&quot;.
 * Det **kommando** som ska installeras på instansen.
@@ -43,7 +43,7 @@ När begäran har bearbetats är krypterings-/dekrypteringskommandona tillgängl
 
 **Relaterade ämnen:**
 
-* [Läs in fil](../../automating/using/load-file.md)
+* [Ladda fil](../../automating/using/load-file.md)
 * [Extrahera fil](../../automating/using/extract-file.md)
 
 ## Användningsfall: Importera data krypterade med en nyckel som genererats av Kontrollpanelen {#use-case-gpg-decrypt}
@@ -63,7 +63,7 @@ Så här utför du det här användningsfallet:
 
 1. I det externa systemet använder du den offentliga nyckel som hämtats från Kontrollpanelen för att kryptera de data som ska importeras till Campaign Standarden.
 
-   ![](assets/gpg_external.png)
+   ![](assets/do-not-localize/gpg_external.png)
 
 1. Bygg ett arbetsflöde i Campaign Standard för att importera krypterade data och dekryptera dem med den privata nyckel som har installerats via Kontrollpanelen. För att göra detta ska vi skapa ett arbetsflöde enligt följande:
 
@@ -94,7 +94,7 @@ Så här utför du det här användningsfallet:
 
 ## Användningsfall: Kryptera och exportera data med en tangent som är installerad på Kontrollpanelen {#use-case-gpg-encrypt}
 
-I det här fallet skapar vi ett arbetsflöde för att kryptera och exportera data med en nyckel som installeras på Kontrollpanelen.
+I det här fallet skapar vi ett arbetsflöde för att kryptera och exportera data med en nyckel som är installerad på Kontrollpanelen.
 
 En självstudievideo som visar hur du använder en GPG-nyckel för att kryptera data finns också i [det här avsnittet](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/using-a-gpg-key-to-encrypt-data.html).
 
@@ -112,7 +112,7 @@ Så här utför du det här användningsfallet:
    * **[!UICONTROL Extract file]** aktivitet: Krypterar och extraherar data till en fil.
    * **[!UICONTROL Transfer file]** aktivitet: Överför filen som innehåller krypterade data till en SFTP-server.
 
-1. Konfigurera **[!UICONTROL Query]** aktiviteten för att ange önskade data från databasen som mål. For more on this, refer to [this section](../../automating/using/query.md).
+1. Konfigurera **[!UICONTROL Query]** aktiviteten för att ange önskade data från databasen som mål. Mer information om detta finns i [det här avsnittet](../../automating/using/query.md).
 
 1. Öppna **[!UICONTROL Extract file]** aktiviteten och konfigurera den efter behov (utdatafil, kolumner, format osv.). Globala koncept för hur du konfigurerar aktiviteten finns i [det här avsnittet](../../automating/using/extract-file.md).
 
@@ -130,4 +130,4 @@ Så här utför du det här användningsfallet:
 
 1. Du kan nu köra arbetsflödet. När den har körts exporteras datamål som omfattas av frågan till SFTP-servern till en krypterad GPG-fil.
 
-   ![](assets/gpg-sftp-encrypt.png)
+   ![](assets/do-not-localize/gpg-sftp-encrypt.png)
