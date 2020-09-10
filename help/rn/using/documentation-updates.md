@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 99edde2738ebf9d2a742aa467b049d6ec7761cc1
 workflow-type: tm+mt
-source-wordcount: '6097'
+source-wordcount: '6128'
 ht-degree: 94%
 
 ---
@@ -28,19 +28,23 @@ Förutom [versionsinformationen](../../rn/using/release-notes.md) för Adobe Cam
 
 Avsnittet Händelsetransaktionsmeddelanden har omorganiserats och klargjorts. [Läs mer](../../channels/using/event-transactional-messages.md)
 
+Ett varningsmeddelande har lagts till som varnar användare om behörighetsbegränsningar för loggåtkomst. [Läs mer](../../administration/using/users-management.md)
+
+Ett nytt avsnitt har lagts till för att beskriva processen att skapa ett nytt varumärke. [Läs mer](../../administration/using/branding.md#creating-a-brand)
+
 ## Dokumentationsuppdateringar - augusti 2020 {#doc-updates-august-2020}
 
 Det finns ett nytt uppdaterat avsnitt om hur du kommer igång med transaktionsmeddelanden. [Läs mer](../../channels/using/getting-started-with-transactional-msg.md)
 
-Avsnittet Transactional Messaging limits har flyttats. [Läs mer](../../channels/using/transactional-messaging-limitations.md)
+Avsnittet **Begränsningar** för transaktionsmeddelanden har flyttats [här](../../channels/using/transactional-messaging-limitations.md)
 
-Avsnittet Förbereda sändning har flyttats. [Läs mer](../../sending/using/preparing-the-send.md)
+Avsnittet **Förbereda sändning** har flyttats [hit](../../sending/using/preparing-the-send.md)
 
 ## Dokumentationsuppdateringar - juli 2020 {#doc-updates-july-2020}
 
 Ett nytt avsnitt har lagts till med riktlinjer för övervakning av Campaign Standard. [Läs mer](../../administration/using/monitoring-guidelines.md)
 
-Avsnittet Externa API-skydd och begränsningar har uppdaterats.[Läs mer](../../automating/using/external-api.md#guardrails)
+Avsnittet Externa API-skydd och begränsningar har uppdaterats. [Läs mer](../../automating/using/external-api.md#guardrails)
 
 Sidan Sekretesshanteringsöversikt har uppdaterats med information om Thailands lag för skydd av personuppgifter (PDPA) och Brasiliens Lei Geral de Proteção de Dados (LGPD). [Läs mer](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
