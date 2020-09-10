@@ -12,11 +12,11 @@ discoiquuid: 4e0468da-3052-4ce5-8174-45aba1f5c4ed
 context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
-workflow-type: ht
-source-wordcount: '207'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3895755aa2eeceb837f78f591bb6504d3eadec1f
+workflow-type: tm+mt
+source-wordcount: '244'
+ht-degree: 84%
 
 ---
 
@@ -44,3 +44,7 @@ Tilläggsfält genereras med ett prefix så att de aldrig hamnar i konflikt med 
 Du kan också [konfigurera navigeringen](configuring-the-screen-definition.md) på skärmar som motsvarar den skapade resursen.
 
 Det går att **exportera och importera** anpassade resurser, exempelvis från en utvecklings- till en produktionsmiljö.        Mer information om detta hittar du i det här [steg-för-steg-användningsexemplet](../../automating/using/exporting-importing-custom-resources.md).
+
+>[!CAUTION]
+>
+>Endast funktionella [administratörer](../../administration/using/users-management.md#functional-administrators)med **[!UICONTROL Administration]** roll och åtkomst till **alla** enheter har åtkomst till sändningsloggar, meddelandeloggar, spårningsloggar, undantags- eller prenumerationsloggar. En icke-admin-användare kan ha loggarna som mål, men med början i en länkad tabell (profiler, leverans).
