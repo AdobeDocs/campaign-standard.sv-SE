@@ -13,7 +13,7 @@ context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4f16f4b36fd77e79ade10b4fe39db737e0de9f4c
+source-git-commit: fc1dc9ca876a0f18b2dad0e02331cfc05a799aad
 workflow-type: tm+mt
 source-wordcount: '1252'
 ht-degree: 79%
@@ -98,9 +98,9 @@ Du kan lägga till nya enheter i organisationen i Campaign eller skapa en ny typ
 
 1. **Skapa en biljett** - När underdomänen har delegerats måste Adobe konfigurera den i produktionsmiljön. Om du vill begära detta [skapar du en biljett till kundtjänst](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) med följande information:
 
-   * Ämne: [ACS] Ny varumärkeskonfiguration
+   * Ämne: ACS Ny varumärkeskonfiguration
 
-   * Innehåll: En ny domän har delegerats till Adobe och vi vill att den ska konfigureras i vår ACS-plattform
+   * Innehåll: En ny domän har delegerats till Adobe och vi vill få den konfigurerad i vår Campaign-plattform
 
    * Domän: XXX
 
