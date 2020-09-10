@@ -13,7 +13,7 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3bace60da0b3cdbbc693507a03cbfb6886b15b4e
+source-git-commit: 2112f93fba368435850957e6e90b7c7c88ddf248
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 0%
@@ -30,7 +30,7 @@ För att säkerställa att alla konfigurationsändringar som görs [!DNL Adobe E
 Så här skapar du regler i [!DNL Experience Platform Launch]:
 
 1. [Skapa dataelement](../../administration/using/configuring-rules-launch.md#create-data-elements)
-2. [Skapa regler](../../administration/using/configuring-rules-launch.md#create-data-elements) för de användningsområden som du vill ha stöd för:
+2. [Skapa regler](../../administration/using/configuring-rules-launch.md#create-data-elements) för de användningsfall som du vill ha stöd för:
    * [PII-postback](../../administration/using/configuring-rules-launch.md#pii-postback)
    * [Spårning i appen - återanslående](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback)
    * [Eftersläpning av push-meddelanden](../../administration/using/configuring-rules-launch.md#push-tracking-postback)
@@ -55,7 +55,7 @@ Så här skapar du dessa dataelement:
 
 1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. Sedan **[!UICONTROL Experience Cloud ID]** i listrutan **[!UICONTROL Data element]** Typ.
 
-   ![](assets/rules_1.png)
+   ![](assets/do-not-localize/rules_1.png)
 
 1. Om du vill skapa Pkey-dataelementet klickar du på **[!UICONTROL Add data element]**.
 
@@ -143,7 +143,7 @@ Om du vill skicka PII-data till [!DNL Adobe Campaign Standard]skapar du en regel
 
 1. In **[!UICONTROL Timeout]**, select 0.
 
-   ![](assets/rules_2.png)
+   ![](assets/do-not-localize/rules_2.png)
 
 Dina användardata har nu konfigurerats för att skickas till Campaign.
 
@@ -179,7 +179,7 @@ Om du vill skicka spårningsdata till [!DNL Adobe Campaign Standard] för att ra
 
 1. In **[!UICONTROL Timeout]**, select 0.
 
-   ![](assets/rules_3.png)
+   ![](assets/do-not-localize/rules_3.png)
 
 ### Eftersläpning av push-meddelanden {#push-tracking-postback}
 
@@ -264,4 +264,4 @@ Använd API:t trackAction om du vill spåra programåtgärder. Mer information f
 
 1. In **[!UICONTROL Timeout]**, select 5.
 
-   ![](assets/rules_4.png)
+   ![](assets/do-not-localize/rules_4.png)
