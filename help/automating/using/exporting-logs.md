@@ -12,7 +12,10 @@ discoiquuid: ca8a95d8-523f-4085-a2fc-e1d8262cfbae
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 3895755aa2eeceb837f78f591bb6504d3eadec1f
+workflow-type: tm+mt
+source-wordcount: '597'
+ht-degree: 14%
 
 ---
 
@@ -20,6 +23,10 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 # Exporterar loggar{#exporting-logs}
 
 Loggdata kan exporteras via ett enkelt arbetsflöde, oavsett om de är relaterade till leveranser eller prenumerationer. Det gör att ni kan analysera resultatet av era kampanjer i ert eget rapporterings- eller BI-verktyg.
+
+>[!CAUTION]
+>
+>Endast funktionella [administratörer](../../administration/using/users-management.md#functional-administrators)med **[!UICONTROL Administration]** roll och åtkomst till **alla** enheter har åtkomst till sändningsloggar, meddelandeloggar, spårningsloggar, undantags- eller prenumerationsloggar. En icke-admin-användare kan ha loggarna som mål, men med början i en länkad tabell (profiler, leverans).
 
 Genom att använda en **[!UICONTROL Incremental query]** som bara hämtar nya loggar varje gång arbetsflödet körs och en enkel **[!UICONTROL Extract file]** aktivitet som definierar utdatakolumner, kan du hämta en fil med det format och alla data du behöver. Använd sedan en **[!UICONTROL Transfer file]** aktivitet för att hämta den slutliga filen. Varje arbetsflödeskörning planeras av en **[!UICONTROL Scheduler]**.
 
@@ -36,7 +43,7 @@ Exportloggsåtgärden kan utföras av standardanvändare. Privata resurser som: 
 
       ![](assets/export_logs_query_properties.png)
 
-   * På fliken **[!UICONTROL Target]** anger du ett villkor för att hämta alla leveransloggar som motsvarar leveranser som skickats 2016 eller senare. Mer information finns i avsnittet [Redigera frågor](../../automating/using/editing-queries.md#creating-queries) .
+   * På fliken **[!UICONTROL Target]** anger du ett villkor för att hämta alla leveransloggar som motsvarar leveranser som skickats 2016 eller senare. For more information, refer to the [Editing queries](../../automating/using/editing-queries.md#creating-queries) section.
 
       ![](assets/export_logs_query_target.png)
 
@@ -62,7 +69,7 @@ Exportloggsåtgärden kan utföras av standardanvändare. Privata resurser som: 
 
    * På fliken **[!UICONTROL File structure]** definierar du formatet för utdatafilen efter dina behov.
 
-      Markera alternativet **[!UICONTROL Export labels instead of internal values of enumerations]** om du vill exportera uppräkningsvärden. Med det här alternativet kan du hämta kortare etiketter som är enkla att förstå i stället för ID:n.
+      Markera alternativet **[!UICONTROL Export labels instead of internal values of enumerations]** om du vill exportera uppräkningsvärden.  Med det här alternativet kan motta kortare etiketter som är enkla att förstå i stället för ID:n.
 
 1. Lägg till en **[!UICONTROL Transfer file]** aktivitet och konfigurera den så att den överför den nyligen skapade filen från Adobe Campaign-servern till en annan plats där du kan komma åt den, till exempel en SFTP-server.
 
