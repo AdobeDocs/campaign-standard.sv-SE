@@ -12,10 +12,10 @@ discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 762700893c913d9aea884d00438c84b39a800188
+source-git-commit: 99edde2738ebf9d2a742aa467b049d6ec7761cc1
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 100%
+source-wordcount: '1183'
+ht-degree: 96%
 
 ---
 
@@ -61,6 +61,10 @@ Vi fokuserar istället på hur de olika uppgifterna i Adobe Campaign är uppdela
 ### Funktionsadministratörer {#functional-administrators}
 
 Funktionsadministratörer är användare som har tillgång till de flesta tekniska delarna av gränssnittet.        De har **[!UICONTROL Administration]**-rollen och ser till att plattformen är konfigurerad så att marknadsförarna bara behöver fokusera på att få ut sina kampanjer.
+
+>[!CAUTION]
+>
+>Endast funktionsadministratörer med **[!UICONTROL Administration]** roll och åtkomst till **alla** enheter har åtkomst till sändningsloggar, meddelandeloggar, spårningsloggar, undantagsloggar, förslagsloggar och prenumerationsloggar. En icke-admin-användare kan ha loggarna som mål, men med början i en länkad tabell (profiler, leverans).
 
 Funktionsadministratörer är de enda användare som har åtkomst till **[!UICONTROL Administration]**-menyn i Adobe Campaign-gränssnittet.    Eftersom de här användarna behöver åtkomst till tekniska resurser så bör de tilldelas mer avancerade roller som till exempel **[!UICONTROL Administration]** och **[!UICONTROL Datamodel]**-roller.    Dessa roller kombineras i den **[!UICONTROL Administrators]** inbyggda säkerhetsgruppen.  Mer information om detta hittar du i det här [avsnittet](../../administration/using/list-of-roles.md).
 
