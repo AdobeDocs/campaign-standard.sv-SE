@@ -12,9 +12,9 @@ discoiquuid: 609355f6-9003-41b9-9981-ea787419fbf5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ddf585def583acefbb25e7a48318966cd2af49a7
+source-git-commit: acaa07b3e40d0bcbf7c44f866ede141b992015a1
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## Kom igång med AI-baserade e-postmeddelanden{#journey-ai-ovv}
 
-Med Campaign kan ni optimera utformningen och leveransen av kundresor för att förutse varje enskild individs engagemang. Med Journey AI som bas kan Adobe Campaign analysera och förutsäga öppningsfrekvenser, optimala sändningstider och sannolika bortfall baserat på historiska engagemangsmått.
+Med Campaign kan ni optimera utformningen och leveransen av kundresor för att förutse varje enskild individs engagemang. Med Journey AI som bas kan Adobe Campaign analysera och förutse öppningsfrekvenser, optimala sändningstider och sannolika bortfall baserat på historiska engagemangsmått.
 
 **Maskinininlärningsmodeller**
 
@@ -35,7 +35,7 @@ Adobe Campaign Standard erbjuder två nya Machine Learning-modeller: **Predictiv
 * **Prediktiv poängsättning**: Prediktiv poängsättning för engagemang förutser sannolikheten för att en mottagare engagerar sig i ett meddelande samt sannolikheten för att avanmäla sig inom 7 dagar efter nästa e-postutskick. Sannolikheten delas in ytterligare i grupper beroende på den specifika risken för bortfall, mellan och under. Under dessa omständigheter ger modellen även riskpercentilrangen så att kunderna kan förstå var en viss kunds rangordning är jämfört med andra.
 
 >[!CAUTION]
->Den här funktionen är inte tillgänglig som en del av produkten. Implementeringen kräver att Adobe Consulting är engagerat. Kontakta din Adobe-representant om du vill veta mer.
+>Den här funktionen är inte tillgänglig som en del av produkten. För genomförandet krävs att Adobe Consulting är engagerat. Kontakta din Adobe-representant om du vill veta mer.
 >
 >Funktionen krävde separat användning av ett Azure-lagringsutrymme som kunden måste tillhandahålla.
 
@@ -56,8 +56,8 @@ I modellen Predictive Send Time Optimization finns det två undermodeller:
 
 Utdatainformation
 
-* Beräkna den bästa tidpunkten på dagen för att skicka ett e-postmeddelande för de kommande 7 dagarna med 1 timmes intervall (t.ex.: 9:00, 10:00, 11:00)
-* Modellen anger den bästa tiden inom 7 dagar för att skicka e-postmeddelandet
+* Beräkna den bästa tidpunkten på dagen för att skicka ett e-postmeddelande för inom 7 dagar av veckan med 1 timmes intervall (t.ex.: 9:00, 10:00, 11:00)
+* Modellen visar den bästa dagen i veckan och den bästa timmen i den dagen
 * Varje optimal tid beräknas två gånger: en gång för att maximera öppningsfrekvensen och en gång för att maximera klickfrekvensen
 * 16 fält ges (14 för veckodagar och 2 för hela veckan):
    * det bästa tillfället att skicka ett e-postmeddelande för att optimera klick för måndag - värden mellan 0 och 23
