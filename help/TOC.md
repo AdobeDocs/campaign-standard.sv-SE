@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Hjälp för Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 92c743c707412f25160ca31ab1da04210ad40816
+source-git-commit: ec32aa2a955486362f100382f3a78004fdae4a4f
 workflow-type: tm+mt
-source-wordcount: '1597'
-ht-degree: 86%
+source-wordcount: '1628'
+ht-degree: 85%
 
 ---
 
@@ -237,7 +237,14 @@ ht-degree: 86%
       + [Testa utlösarna](integrating/using/testing-your-triggers.md)
       + [Användningsexempel för avbrytningsutlösare](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign och Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Kom igång med Microsoft Dynamics 365-integration](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+      + [Kom igång med Dynamics 365-integration](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+      + [Hantera data mellan Campaign och Dynamics 365](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
+      + [Begär integrering](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
+      + [Konfigurera Adobe I/O](integrating/using/configure-adobe-io-for-ms-dynamic.md)
+      + [Konfigurera Dynamics 365 för Campaign-integration](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
+      + [Mappa anpassade resurser för Campaign och anpassade Dynamics 365-entiteter](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
+      + [Använda Dynamics 365­integrationen](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+      + [Skyddsutkast för integrering](integrating/using/ms-dynamics-365-integration-guardrails.md)
 + Hantera processer och data {#managing-processes-and-data}
    + [Kom igång med data- och processhantering](automating/using/get-started-workflows.md)
    + Allmänt om arbetsflöde {#workflow-general-operation}
