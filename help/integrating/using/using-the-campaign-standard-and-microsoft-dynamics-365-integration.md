@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ca6b418351cfbe539da9f1f4a542c2d7014dfc24
+source-git-commit: cd1cbf907eb160b6bbc1a2a2d3dd1c601ac13635
 workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 0%
@@ -105,7 +105,8 @@ Här följer en lista över attributen och en beskrivning:
 >Utgångsperioden för e-postspegelsidan kan ändras på konfigurationsskärmen för motsvarande e-postkanalaktivitet för Campaign (se [Giltighetsperiodens parametrar](../../administration/using/configuring-email-channel.md#validity-period-parameters)).
 
 >[!NOTE]
-Om du vill avanmäla dig återspeglas det i Campaign när ett avanmälningsattribut ändras i Dynamics 365, om du har valt konfigurationen Dynamics 365-till-Campaign eller dubbelriktad avanmälan och om du har det attributet korrekt mappat.
+>
+>Om du vill avanmäla dig återspeglas det i Campaign när ett avanmälningsattribut ändras i Dynamics 365, om du har valt konfigurationen Dynamics 365-till-Campaign eller dubbelriktad avanmälan och om du har det attributet korrekt mappat.
 
 ## Dataflöden {#data-flows}
 
@@ -124,7 +125,8 @@ Beroende på hur många poster du har kan du behöva använda din Campaign SFTP-
 Kampanjprofiltabellattributet externalId måste fyllas i med kontaktattributet contactId i Dynamics 365 för att kontaktingress ska fungera. Anpassade kampanjentiteter måste också fyllas i med ett unikt ID-attribut för Dynamics 365. Det här attributet kan dock lagras i alla anpassade enhetsattribut för Campaign (d.v.s. behöver inte vara externalId).
 
 >[!NOTE]
-För inpressning av anpassade entiteter måste ändringsspårning vara aktiverat i Dynamics 365 för synkroniserade anpassade entiteter.
+>
+>För inpressning av anpassade entiteter måste ändringsspårning vara aktiverat i Dynamics 365 för synkroniserade anpassade entiteter.
 
 ### Händelseflöde för e-postmarknadsföring
 
