@@ -12,9 +12,9 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 801741bd605d11d1c9f88995286ef206dd46470f
+source-git-commit: 0ce73bf7e250c5e88bbb525854e81ef27662ab06
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '524'
 ht-degree: 3%
 
 ---
@@ -97,5 +97,5 @@ Inställningen av förintegrering i Campaign är nu klar.  Fortsätt till [föri
 **Relaterade ämnen**
 
 * [Adobe IO - Integrering av tjänstkonto](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
-* [Campaign Standard - API-åtkomstinställningar](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#setting-up-api-access)
+* [Campaign Standard - API-åtkomstinställningar](../../api/using/setting-up-api-access.md)
 * [Campaign Standard - Dynamics 365-integrering](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
