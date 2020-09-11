@@ -12,9 +12,9 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0ce73bf7e250c5e88bbb525854e81ef27662ab06
+source-git-commit: 60a67adf51881b785ad2f0b40ff544a0b9988afd
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '499'
 ht-degree: 3%
 
 ---
@@ -44,53 +44,51 @@ Följ nedanstående procedur för att uppnå detta:
 
 1. Navigera till [Adobe IO Console](https://console.adobe.io/home#) och välj ditt Adobe IMS-organisations-ID i listrutan längst upp till höger på skärmen.
 
-1. Klicka sedan på **[!UICONTROL Create new project]** under **[!UICONTROL Quick Start]**.
+1. Klicka sedan **[!UICONTROL Create new project]** under **[!UICONTROL Quick Start]**.
 
-![](assets/adobeIO1.png)
+   ![](assets/adobeIO1.png)
 
-1. Klicka på **[!UICONTROL Get started with your new project]** under **[!UICONTROL Add API]**.
+1. Under **[!UICONTROL Get started with your new project]**, klicka **[!UICONTROL Add API]**.
 
-![](assets/adobeIO2.png)
+   ![](assets/adobeIO2.png)
 
-1. Välj Adobe Campaign API (du kan behöva rulla längst ned) och klicka på &quot;Nästa&quot;.
+1. Välj Adobe Campaign API (du kan behöva rulla längst ned) och klicka **[!UICONTROL Next]**.
 
-![](assets/adobeIO3.png)
+   ![](assets/adobeIO3.png)
 
-1. På nästa skärm kan du ladda upp en egen offentlig nyckel eller låta Adobe I/O generera nyckelparet åt dig. Dessa instruktioner följer det senare alternativet. Om du väljer att låta Adobe I/O generera nyckelparet klickar du på alternativ 1; Klicka sedan på knappen&quot;Generera nyckelpar&quot;.
+1. På nästa skärm kan du ladda upp en egen offentlig nyckel eller låta Adobe I/O generera nyckelparet åt dig. Dessa instruktioner följer det senare alternativet. Om du väljer att låta Adobe I/O generera nyckelparet klickar du på alternativ 1; och sedan klicka på **[!UICONTROL Generate keypair]** knappen.
 
-![](assets/adobeIO4.png)
+   ![](assets/adobeIO4.png)
 
 1. På nästa skärm uppmanas du att namnge och välja hämtningsplats för nyckelparets zip-fil.
 
 När filen har laddats ned kan du packa upp den för att visa offentliga och privata nycklar. Adobe IO har redan använt den offentliga nyckeln i ditt Adobe IO-projekt. Du måste behålla din privata nyckel senare; den privata nyckeln kommer att användas under förintegreringsinställningarna för integrationsverktyget.
 
-1. Klicka på Nästa för att fortsätta
+1. Klicka **[!UICONTROL Next]** för att fortsätta
 
-![](assets/adobeIO5.png)
+   ![](assets/adobeIO5.png)
 
-1. På nästa skärm väljer du produktprofiler som ska associeras med projektet.
+1. På nästa skärm väljer du produktprofiler som ska associeras med projektet. Välj den produktprofil som innehåller titeln: Klient-ID för Campaign-instansen - [!UICONTROL Administrators]
 
-1. Välj den produktprofil som innehåller titeln: Klient-ID för Campaign-instansen - [!UICONTROL Administrators] - Exempel: Campaign Standard - ditt kampanjklient-ID - Administratörer
+   Exempel: Campaign Standard - ditt kampanjklient-ID - Administratörer
 
-1. Klicka på [!UICONTROL Save configured API].
+1. Klicka på **[!UICONTROL Save configured API]**.
 
-![](assets/adobeIO6.png)
+   ![](assets/adobeIO6.png)
 
-1. På nästa skärm visas information om ditt nya Adobe IO-projekt.
+1. På nästa skärm visas information om ditt nya Adobe IO-projekt. Klicka **[!UICONTROL Add to Project]** längst upp till vänster på skärmen och välj **API** i listrutan.
 
-1. Klicka på Lägg till i projekt längst upp till vänster på skärmen och välj API i listrutan.
+   ![](assets/adobeIO7.png)
 
-![](assets/adobeIO7.png)
+1. På nästa skärm måste du välja API:t för I/O-händelser och sedan klicka **[!UICONTROL Next]**.
 
-1. På nästa skärm måste du välja API:t för I/O-händelser och sedan klicka på Nästa.
+1. På nästa skärm klickar du **[!UICONTROL Save the configured API]**.  Du kommer tillbaka till skärmen med projektinformation.
 
-1. På nästa skärm klickar du på Spara konfigurerat API.  Du kommer tillbaka till skärmen med projektinformation.
+1. Klicka nu **[!UICONTROL Add to Project]** längst upp till vänster på skärmen och välj **API** i listrutan, precis som du gjorde tidigare.
 
-1. Klicka nu på&quot;Lägg till i projekt&quot; längst upp till vänster på skärmen och välj&quot;API&quot; i listrutan, precis som du gjorde tidigare.
+1. På nästa skärm måste du välja I/O Management API och klicka på **[!UICONTROL Next]**.
 
-1. På nästa skärm måste du välja I/O Management API och klicka på &quot;Next&quot;.
-
-1. På nästa skärm klickar du på Spara konfigurerat API.
+1. På nästa skärm klickar du **[!UICONTROL Save the configured API]**.
 
 Inställningen av förintegrering i Campaign är nu klar.  Fortsätt till [förintegreringsinställningarna för Microsoft Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md).
 
