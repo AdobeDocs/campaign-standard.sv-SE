@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 99edde2738ebf9d2a742aa467b049d6ec7761cc1
+source-git-commit: ec32aa2a955486362f100382f3a78004fdae4a4f
 workflow-type: tm+mt
-source-wordcount: '6128'
+source-wordcount: '6140'
 ht-degree: 94%
 
 ---
@@ -31,6 +31,8 @@ Avsnittet Händelsetransaktionsmeddelanden har omorganiserats och klargjorts. [L
 Ett varningsmeddelande har lagts till som varnar användare om behörighetsbegränsningar för loggåtkomst. [Läs mer](../../administration/using/users-management.md)
 
 Ett nytt avsnitt har lagts till för att beskriva processen att skapa ett nytt varumärke. [Läs mer](../../administration/using/branding.md#creating-a-brand)
+
+Den nya Campaign Standarden - Integrering med Microsoft Dynamics 365 är nu tillgänglig. [Läs mer](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 ## Dokumentationsuppdateringar - augusti 2020 {#doc-updates-august-2020}
 
