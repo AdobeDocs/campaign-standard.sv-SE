@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e90f878814e65a9a61ee4013d94fd0bf3b1f7875
+source-git-commit: 0ce73bf7e250c5e88bbb525854e81ef27662ab06
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 3%
@@ -61,12 +61,12 @@ Supportbiljetterna kan som vanligt loggas med Adobe Custom Care. Kundtjänst kom
 
 Om du har problem med integreringsdataflöden måste du ta med rapportsviten som en del av problembeskrivningen samt följande information:
 
-* Processägare: Ingenjörsarkitekter
+* **Processägare**: Ingenjörsarkitekter
 
-* ES Process-ID: [Tillhandahålls under introduktionsprocessen]
+* **ES Process-ID**: Tillhandahålls under introduktionsprocessen
 
-* Processtitel: Dynamics 365/Adobe Campaign Standard-integrering
+* **Processtitel**: Dynamics 365/Adobe Campaign Standard-integrering
 
-* Ärendebeskrivning: [Beskrivning av problemet]
+* **Ärendebeskrivning**: Beskrivning av problemet
 
 Stödet för integrering är för närvarande 24x5 (tillgängligt måndag till fredag, exklusive semester och pauser i Adobe).
