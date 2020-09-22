@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '7622'
+source-wordcount: '7624'
 ht-degree: 8%
 
 ---
@@ -617,7 +617,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
 * Ett problem med kopplingsvillkoret mellan sändnings- och spårningsloggen för rtEvent har korrigerats i frågeredigeraren. (CAMP-28780)
 * Korrigerade ett problem som förhindrade att ändringar av landningssidans alternativ för&quot;specifik åtgärd&quot; sparades. (CAMP-29422)
 * Ett problem som hindrade från att exportera en händelses nyttolast i ett arbetsflöde har korrigerats. (CAMP-29029)
-* Korrigerade ett problem som förhindrade att blocklist SMS-nummer uteslöts i ett SMS-meddelande. (CAMP-28898)
+* Korrigerade ett problem som förhindrade att SMS-nummer på blockeringslista uteslöts i ett SMS-meddelande. (CAMP-28898)
 * Korrigerade ett problem som kunde förhindra SMPP-leverantörer från att meddelas om ett fel uppstod vid bearbetning av inkommande meddelanden. (CAMP-29804)
 * Korrigerade ett problem som medgav att externa konton med tillhörande leveranser kunde tas bort. (CAMP-29738)
 * Sändningsgenomströmningen har förbättrats och stabiliserats för SMS-meddelanden.
