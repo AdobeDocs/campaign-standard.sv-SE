@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 762700893c913d9aea884d00438c84b39a800188
+source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
 workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 2%
@@ -29,7 +29,7 @@ I avsnittet nedan visas vanliga frågor om synkroniseringen.
 Mer information om Push eller In-App (Push) finns i följande vanliga frågor och svar:
 
 * [Vanliga frågor om push-meddelanden](../../channels/using/about-push-notifications.md#push-faq)
-* [Vanliga frågor om appar](../../channels/using/about-push-notifications.md#in-app-faq)
+* [Vanliga frågor om appar](../../channels/using/about-in-app-messaging.md#in-app-faq)
 * [Synkronisera med Starta tekniskt arbetsflöde Frågor och svar](../../administration/using/syncwithlaunch-faq.md)
 
 ## Användbara resurser före start {#resource-mobile-property}
