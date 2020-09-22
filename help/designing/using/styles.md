@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6881d3e0f22f3766d6a26af90ce3bcbd5e2293da
+source-git-commit: 796490350855213578808651cd18df24b1d3f2d1
+workflow-type: tm+mt
+source-wordcount: '1028'
+ht-degree: 2%
 
 ---
 
@@ -49,7 +52,7 @@ Se ett exempel i [det här avsnittet](#example--adjusting-vertical-alignment-and
 ## Justera formatinställningar {#adjusting-style-settings}
 
 1. Markera ett element i e-postmeddelandet. Mer information finns i [Markera ett element](#selecting-an-element).
-1. Justera inställningarna efter dina behov. Varje markerat element har olika inställningar.
+1. Justera inställningarna efter dina behov. För varje markerat element finns olika inställningar.
 
    Du kan infoga bakgrunder, ändra storlek, ändra vågrät eller lodrät justering, hantera färger, lägga till [utfyllnad eller marginal](#selecting-an-element)och så vidare.
 
@@ -101,6 +104,11 @@ För både **[!UICONTROL Padding]** och **[!UICONTROL Margin]** klickar du på l
 
 ## Ange bakgrunder {#about-backgrounds}
 
+>[!CONTEXTUALHELP]
+>id="ac_edition_backgroundimage"
+>title="Bakgrundsinställningar"
+>abstract="Med e-postdesignern kan du anpassa bakgrundsfärg eller bakgrundsbild för ditt innehåll."
+
 När det gäller att ange bakgrunder med e-postdesignern rekommenderar Adobe följande:
 
 1. Använd en bakgrundsfärg på e-postmeddelandets brödtext om det behövs i designen.
@@ -129,7 +137,7 @@ Nedan visas de tillgängliga bakgrundsinställningarna som du kan använda.
 
    >[!NOTE]
    >
-   >Vissa e-postprogram stöder inte bakgrundsbilder. Se till att du väljer en lämplig bakgrundsfärg om bilden inte kan visas.
+   >Vissa e-postprogram stöder inte bakgrundsbilder. Om alternativet inte stöds används radens bakgrundsfärg i stället. Se till att du väljer en lämplig bakgrundsfärg om bilden inte kan visas.
 
 * Ange en bakgrundsfärg på kolumnnivå.
 
@@ -137,13 +145,13 @@ Nedan visas de tillgängliga bakgrundsinställningarna som du kan använda.
 
    >[!NOTE]
    >
-   >Detta är det vanligaste användningsfallet. Adobe rekommenderar att du ställer in bakgrundsfärger på kolumnnivå så att du får större flexibilitet när du redigerar hela e-postinnehållet.
+   >Detta är det vanligaste användningsfallet. Adobe rekommenderar att du ställer in bakgrundsfärger på kolumnnivå eftersom detta ger större flexibilitet när du redigerar hela e-postinnehållet.
 
    Du kan också ange en bakgrundsbild på kolumnnivå, men den används sällan.
 
 ### Exempel: justera lodrät justering och utfyllnad {#example--adjusting-vertical-alignment-and-padding}
 
-Du vill justera utfyllnaden och den lodräta justeringen inuti en strukturkomponent som består av tre kolumner. Gör så här:
+Du vill justera utfyllnaden och den lodräta justeringen inuti en strukturkomponent som består av tre kolumner. Följ stegen nedan för att göra detta:
 
 1. Markera strukturkomponenten direkt i e-postmeddelandet eller använd strukturträdet som finns på den vänstra **paletten**.
 1. I det **sammanhangsberoende verktygsfältet** klickar du på **[!UICONTROL Select a column]** och väljer den som du vill redigera. Du kan också välja det i strukturträdet.
