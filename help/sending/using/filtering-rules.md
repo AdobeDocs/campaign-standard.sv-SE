@@ -12,9 +12,9 @@ discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '653'
 ht-degree: 3%
 
 ---
@@ -31,7 +31,7 @@ Tabellen nedan innehåller information om de färdiga filtreringsreglerna och de
 | Etikett | Kanal | Beskrivning |
 ---------|----------|---------
 | **[!UICONTROL Address not specified]** | Alla | Utesluter målpopulationen utan angiven adress (e-postadress, postadress osv.) enligt den valda kanalen). |
-| **[!UICONTROL Denylisted address]** | Alla | Exkluderar adresser som finns på blockeringslista. |
+| **[!UICONTROL Address on denylist]** | Alla | Exkluderar adresser som finns på blockeringslista. |
 | **[!UICONTROL Duplicate]** | Alla | Exkluderar dubbletter som baseras på **[!UICONTROL Address]** målpopulationsfältet. |
 | **[!UICONTROL Exclude mobile applications]** | Mobilapplikation | Utesluter appprenumerationer som inte matchar mobilappen som definieras i meddelandet. |
 | **[!UICONTROL Exclude mobile applications for In-App]** | I appen | Utesluter appprenumerationer som inte matchar det mobilprogram som definieras i meddelandet (mall i appen). |
@@ -47,7 +47,7 @@ Utöver dessa standardfiltreringsregler finns två undantagsregler:
 
 Under e-postanalysen jämför dessa regler mottagarnas e-postadresser med de förbjudna adresserna eller domännamnen i en krypterad global undertryckningslista som hanteras i leveransinstansen. Om det finns en matchning skickas inte meddelandet till den mottagaren.
 
-Detta för att undvika att blocklist på grund av skadlig aktivitet, särskilt användning av en svampfälla. Om du till exempel använder en svällning för att prenumerera via ett av dina webbformulär, skickas ett bekräftelsemeddelande via e-post till den svällningen, vilket gör att din adress automatiskt läggs till i blockeringslista.
+Detta för att undvika att läggas till i blockeringslista på grund av skadlig aktivitet, särskilt användning av en svampfälla. Om du till exempel använder en svällning för att prenumerera via ett av dina webbformulär, skickas ett bekräftelsemeddelande via e-post till den svällningen, vilket gör att din adress automatiskt läggs till i blockeringslista.
 
 >[!NOTE]
 >
