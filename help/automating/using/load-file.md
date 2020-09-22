@@ -13,7 +13,7 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9a4c2219d5f8b312deb476d852cf5db9cd19afcb
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
 workflow-type: tm+mt
 source-wordcount: '1364'
 ht-degree: 93%
@@ -37,14 +37,14 @@ Med den här **[!UICONTROL Load file]** aktiviteten kan du importera data i ett 
 
 Det sätt som data extraheras på definieras när aktiviteten konfigureras. Filen som ska läsas in kan exempelvis vara en lista med kontakter.
 
->[!CAUTION]
->
->Endast &quot;platta&quot; strukturfiler tas i beaktning. Exempel på detta är .txt och .csv-filer.
-
 Du kan:
 
 * Använda filstrukturen för att tillämpa den på data från en annan fil (återskapat med hjälp av **[!UICONTROL Transfer file]**-aktiviteten) eller
 * Använda strukturen och data från filen för att importera den till Adobe Campaign.
+
+>[!IMPORTANT]
+>
+>Endast &quot;platta&quot; strukturfiler tas i beaktning. Exempel på detta är .txt och .csv-filer.
 
 **Relaterade ämnen:**
 
