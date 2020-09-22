@@ -12,9 +12,9 @@ discoiquuid: c3015cdc-8432-4e57-8ac0-43ae7827e3b0
 context-tags: packageDef,overview;packageInstall,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
+workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 100%
 
@@ -43,9 +43,11 @@ Om du vill visa och ändra innehållet i ett element klickar du på dess etikett
 
 ![](assets/packages_14.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->Export av paket tillåts inte om de exporterade resurserna har ett standard-ID.  Därför måste ID:t för exporterbara resurser ändras med ett namn som skiljer sig från mallarna som tillhandahålls som standard i Adobe Campaign Standard.  Om du exempelvis vill exportera testprofiler får du inte använda ett ID som innehåller värdet &quot;SDM&quot; eller &quot;sdm&quot;.  När du försöker exportera paket som innehåller ett standard-ID kan du se fel som &quot;Enhetstypen Varumärke (varumärket) använder ett standard-ID (BRD1) som kan orsaka en konflikt när paketet importeras.  Ändra det här namnet och upprepa åtgärden.&quot;
+>Export av paket tillåts inte om de exporterade resurserna har ett standard-ID.  Därför måste ID:t för exporterbara resurser ändras med ett namn som skiljer sig från mallarna som tillhandahålls som standard i Adobe Campaign Standard.  Om du exempelvis vill exportera testprofiler får du inte använda ett ID som innehåller värdet &quot;SDM&quot; eller &quot;sdm&quot;.
+>
+>När du försöker exportera paket som innehåller ett standard-ID kan du se fel som &quot;Enhetstypen Varumärke (varumärket) använder ett standard-ID (BRD1) som kan orsaka en konflikt när paketet importeras.  Ändra det här namnet och upprepa åtgärden.&quot;
 
 De olika stegen för export av paket beskrivs i avsnittet [Exportera ett paket](#exporting-a-package).
 
