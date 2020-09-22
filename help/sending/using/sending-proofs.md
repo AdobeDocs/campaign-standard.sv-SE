@@ -12,9 +12,9 @@ discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f7f90991ed4c7323e3a2f8ac7d38da9ff165ef76
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a07ccaf864c3aef881cb02042b5e00a43c48f0a9
+workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 100%
 
@@ -60,6 +60,7 @@ Så här skickar du korrektur:
    * **[!UICONTROL Email rendering]**: Välj det här alternativet om du vill testa hur meddelandet tas emot i de inkorgar som det är avsett för. Mer information finns i [E-poståtergivning](../../sending/using/email-rendering.md).
    * **[!UICONTROL Proof]**: Välj det här alternativet om du vill testa meddelandet innan det skickas iväg till huvudmålet. Mottagarna av korrekturet ansvarar för att godkänna leveransen genom att kontrollera både innehållet och formatet.
    * **[!UICONTROL Proof + Email rendering]**: det här alternativet kombinerar de två föregående alternativen.
+
    ![](assets/bat_select1.png)
 
    >[!NOTE]
@@ -108,7 +109,7 @@ Aktivera **[!UICONTROL Hide proof prefix counter]**-alternativet om du vill döl
 **Relaterat ämne:**
 
 * [Skicka ett test, förbereda och skicka en e-post](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/sending-test-preparing-sending-email.html)-video
-* [Testa e-post med målprofiler](../../sending/using/testing-messages-using-target.md).
-* [Hantera testprofiler](../../audiences/using/managing-test-profiles.md).
+* [Testa e-postmeddelanden med målprofiler](../../sending/using/testing-messages-using-target.md)
+* [Hantera testprofiler](../../audiences/using/managing-test-profiles.md)
 * [Förhandsgranska meddelanden](../../sending/using/previewing-messages.md)
 * [Konfigurera e-postkanal](../../administration/using/configuring-email-channel.md)
