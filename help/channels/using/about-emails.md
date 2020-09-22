@@ -13,14 +13,17 @@ context-tags: deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 67fbf66d8ad358ae5d2caaec5b90beb6304047e6
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 3%
 
 ---
 
 
 # Om e-post{#about-emails}
 
-E-postkanalen är en av huvudkanalerna i Adobe Campaign, som gör att ni kan schemalägga och skicka personaliserade e-postmeddelanden till specifika mål.
+E-postkanalen är en av de viktigaste kanalerna i Adobe Campaign, så att ni kan schemalägga och skicka personaliserade e-postmeddelanden till specifika mål.
 
 Du kan skicka olika typer av e-postmeddelanden:
 
@@ -29,4 +32,4 @@ Du kan skicka olika typer av e-postmeddelanden:
 * A/B-testning av e-post: testa upp till tre versioner av ett e-postmeddelande.
 * Transactional emails: enhetliga e-postmeddelanden som triggas utifrån kundernas beteende.
 
-Om du vill lära dig de bästa sätten att skapa och skicka e-postmeddelanden läser du i [Handboken&quot;Leverera bästa praxis](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html) &quot; steg för steg.
+Om du vill lära dig de bästa sätten att skapa och skicka e-postmeddelanden läser du i avsnittet [Bästa praxis](../../sending/using/delivery-best-practices.md) för leverans.
