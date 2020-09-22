@@ -13,9 +13,9 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 331769e7f1c1c30e3b7ff340252052c5aaa2eac9
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '459'
 ht-degree: 1%
 
 ---
@@ -38,30 +38,30 @@ Om problemet kvarstår kontaktar du den kommersiella tjänsten, leveransprogramm
 
 ## Blockeringslista kontra karantän {#denylist-versus-quarantine}
 
-* **Vad är skillnaden mellan en blocklist e-postadress och en e-postadress i karantän?**
+* **Vad är skillnaden mellan en e-postadress på blockeringslista och en e-postadress i karantän?**
 
-   * Statusen **[!UICONTROL Denylisted]** är ett resultat av en feedbackslinga (när en person rapporterar ett meddelande som skräppost).
+   * Statusen **[!UICONTROL On denylist]** är ett resultat av en feedbackslinga (när en person rapporterar ett meddelande som skräppost).
 
    * Statusen **[!UICONTROL Quarantined]** är ett resultat av en mjuk eller hård studsa.
-   Mer information finns i [det här avsnittet](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list).
+   Mer information finns i [det här avsnittet](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist).
 
 * **Vad betyder de olika anledningarna till karantänfel?**
 
-   Här följer tio möjliga orsaker: inte definierad, okänd användare, ogiltig domän, blocklist adress, nekad, fel ignorerad, ej tillgänglig, konto inaktiverat, postlåda full, inte ansluten.
+   Här följer tio möjliga orsaker: inte definierad, okänd användare, ogiltig domän, adress på blockeringslista, nekad, fel ignorerad, ej tillgänglig, konto inaktiverat, postlåda full, inte ansluten.
 
    For more on this, see [Understanding quarantine management](../../sending/using/understanding-quarantine-management.md).
 
 ## Ta bort från blockeringslista {#removing-from-denylist}
 
-* **En av mina mottagare blocklist av misstag. Hur tar jag bort dem från blockeringslista så att jag kan börja skicka dem igen?**
+* **En av mina mottagare lades till i blockeringslista av misstag. Hur tar jag bort dem från blockeringslista så att jag kan börja skicka dem igen?**
 
    * Gå till **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
    * I informationen för motsvarande post anger du värdet för **[!UICONTROL Status]** fältet till **[!UICONTROL Valid]**.
    * Spara posten.
 
-* **Hur kan jag ta reda på om en av mina IP-adresser är blocklist? Hur tar jag bort mina IP-adresser från ett blockeringslista?**
+* **Hur kan jag ta reda på om en av mina IP-adresser finns på blockeringslista? Hur tar jag bort mina IP-adresser från ett blockeringslista?**
 
-   Om du vill kontrollera om din IP-adress är blocklist kan du använda olika webbplatser för att verifiera den, till exempel:
+   Om du vill kontrollera om din IP-adress finns i blockeringslista kan du använda olika webbplatser för att verifiera den, till exempel:
    * [MX Toolbox](https://mxtoolbox.com/)
    * [Vad är min IP-adress?](https://whatismyipaddress.com)
 
