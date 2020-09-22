@@ -12,10 +12,10 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '4623'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -494,7 +494,7 @@ _Arbetsflöden_
    <td> Marknadsföringsfunktioner för transaktionsmeddelanden<br /> </td> 
    <td> Marknadsförarna kan nu skicka transaktionsmeddelanden baserat på kundens marknadsföringsprofiler. Detta gör att de kan:<br /> 
     <ul> 
-     <li> Använd typologiregler för marknadsföring, till exempel <span class="uicontrol">Blocklist adress</span> . </li> 
+     <li> Använd typologiregler för marknadsföring, till exempel <span class="uicontrol">Address på blockeringslista</span> . </li> 
      <li> Inkludera avprenumerations-länken i meddelandena. </li> 
      <li> Lägga till transaktionsmeddelanden i den globala leveransrapporten. </li> 
      <li> Använda transaktionsmeddelanden i kundresan. </li> 
@@ -530,7 +530,7 @@ _Push-meddelanden_
 * Korrigerade ett fel som kan ha förhindrat återanslående från ett program till Adobe Campaign-servern.
 * Korrigerade ett fel som kan ha förhindrats **[!UICONTROL Play a sound]** och **[!UICONTROL Custom fields]** ska beaktas för Android.
 * Korrigerade ett fel som kan ha orsakat att ett extra escape-tecken lades till i Unicode-tecken som används för Emojis.
-* När en prenumerants registreringstoken har blocklist uppdateras nu motsvarande status omedelbart i programmets lista över prenumeranter i Adobe Campaign.
+* När en prenumerants registreringstoken läggs till i blockeringslista uppdateras nu motsvarande status omedelbart i programmets lista över prenumeranter i Adobe Campaign.
 
 _Arbetsflöden_
 
