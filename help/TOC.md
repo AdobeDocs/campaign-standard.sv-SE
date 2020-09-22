@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Hjälp för Adobe Campaign Standard
 breadcrumb-title: Campaign Standard Guide
 translation-type: tm+mt
-source-git-commit: 5884730b7319e9ee456882e66c8b515458e53e86
+source-git-commit: f26fb6bd8b6d103e25bfaedb02d4d1d9342752bf
 workflow-type: tm+mt
-source-wordcount: '1628'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -143,6 +143,7 @@ ht-degree: 85%
       + [Testa ämnesraden i ett e-postmeddelande](sending/using/testing-subject-line-email.md)
       + [AI-baserade e-postmeddelanden](sending/using/predictive.md)
       + [E-poståtergivning](sending/using/email-rendering.md)
+      + [Lägga till en kontrollgrupp](sending/using/control-group.md)
       + [Använda traps](sending/using/using-traps.md)
       + [Förbered sändningen](sending/using/preparing-the-send.md)
    + Schemaläggning av meddelanden {#scheduling-messages}
@@ -338,7 +339,6 @@ ht-degree: 85%
          + [Stegvis fråga om prenumeranter på en tjänst](automating/using/incremental-query-on-subscribers.md)
          + [Segmentering efter åldersgrupper](automating/using/segmentation-age-groups.md)
          + [Använda andra resurser än måldimensioner](automating/using/using-resources-different-from-targeting-dimensions.md)
-         + [Skapa en kontrollgrupp](automating/using/workflow-control-group.md)
       + Datahantering {#data-management}
          + [Städa av en filpublik med databasen](automating/using/reconcile-file-audience-with-database.md)
          + [Deduplicera data från en importerad fil](automating/using/deduplicating-data-imported-file.md)
