@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 23e3b1c3105fd99ec0cd67cb4a3ca5e565604449
+source-git-commit: 5eab422b797e1d486fded57cb64f94fb709d6681
 workflow-type: tm+mt
-source-wordcount: '6228'
-ht-degree: 93%
+source-wordcount: '6215'
+ht-degree: 92%
 
 ---
 
@@ -39,6 +39,8 @@ AI-integrering för resan - [läs mer](../../sending/using/predictive.md)
 Avsnittet om hur du anropar ett arbetsflöde med externa parametrar har berikats med nya funktioner i uttrycksredigeraren. [Läs mer](../../automating/using/customizing-workflow-external-parameters.md)
 
 En rekommendation om hur många aktiviteter som ska användas per arbetsflöde har lagts till i arbetsflödena. [Läs mer](../../automating/using/best-practices-workflows.md#number-activities)
+
+Ett nytt avsnitt om Bästa praxis för leverans har lagts till. [Läs mer](../../sending/using/delivery-best-practices.md)
 
 ## Dokumentationsuppdateringar - september 2020 {#doc-updates-september-2020}
 
@@ -176,7 +178,7 @@ Konfigurationen av en mobilapps-dokumentation och relaterade sidor har uppdatera
 
 Integreringsdokumentationen för Adobe Campaign Standard/Adobe Experience Manager har uppdaterats och förbättrats. [Läs mer](../../integrating/using/configure-experience-manager.md)
 
-Dokumentationen för e-postskaparen för Campaign och tillhörande sidor har uppdaterats för att återspegla Adobe Creative SDK-avskrivning. [Läs mer](https://helpx.adobe.com/se/campaign/kb/acs-deprecated-and-removed-features.html)
+The Campaign Email Designer documentation and related pages have been updated to reflect [!DNL Adobe Creative SDK] depreciation. [Läs mer](https://helpx.adobe.com/se/campaign/kb/acs-deprecated-and-removed-features.html)
 
 Nu finns ett nytt avsnitt om de mest effektiva strategierna med Campaign Standard-datamodellen. [Läs mer](../../developing/using/data-model-best-practices.md)
 
@@ -248,9 +250,9 @@ Beräkningstabellen för **indikatorn** har uppdaterats. [Läs mer](../../report
 
 API:ernas dokumentationsuppsättning har integrerats i dokumentationen för Campaign Standard.[Läs mer](../../api/using/get-started-apis.md)
 
-Guiden Skapa personaliserad e-post för att komma igång har flyttats och uppdaterats. [Läs mer](https://helpx.adobe.com/se/campaign/kb/acs-get-started-with-emails.html)
+Avsnittet Skapa en anpassad e-postmarknadsföring har flyttats och uppdaterats. [Läs mer](https://helpx.adobe.com/se/campaign/kb/acs-get-started-with-emails.html)
 
-Starthandboken Bästa praxis för leverans har uppdaterats. [Läs mer](https://helpx.adobe.com/se/campaign/kb/delivery-best-practices.html)
+Starthandboken Bästa praxis för leverans har uppdaterats. [Läs mer](../../sending/using/delivery-best-practices.md)
 
 Datamodellen har integrerats i dokumentationen för Campaign Standard. [Läs mer](../../developing/using/datamodel-audience.md)
 
@@ -266,13 +268,13 @@ Integrering av Microsoft Dynamics 365 (GA) - [Läs mer](../../integrating/using/
 
 **Andra dokumentationsuppdateringar som medföljer utgåvan**
 
-Listan med felmeddelanden i Campaign Standard och Campaign Classic har uppdaterats. [Läs mer](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Listan med felmeddelanden för Adobe Campaign har uppdaterats. [Läs mer](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
 Starthandboken GDPR har förbättrats och berikats. Det finns nu en dokumentation om sekretesshantering som inkluderar GDPR och CCPA. [Läs mer](https://helpx.adobe.com/se/campaign/kb/campaign-privacy.html)
 
 Ett nytt diagram som presenterar processen för transaktionsmeddelanden har lagts till. [Läs mer](../../administration/using/configuring-transactional-messaging.md#transactional-messaging-pub-process)
 
-Guiden Komma igång med bästa leveransmetoder har flyttats och uppdaterats. [Läs mer](https://helpx.adobe.com/se/campaign/kb/delivery-best-practices.html)
+Guiden Komma igång med bästa leveransmetoder har flyttats och uppdaterats. [Läs mer](../../sending/using/delivery-best-practices.md)
 
 Ett nytt avsnitt har lagts till. Det ger en översikt över de olika metoder som gör att du kan utöka Campaign Standard-databasen. [Läs mer](../../audiences/using/enriching-campaign-database.md)
 
@@ -610,7 +612,7 @@ Tillagd information om alternativet licenser i administrationsmenyn. [Läs mer](
 
 Lagt till information om hur du använder anpassade fält i ett push-meddelande. [Läs mer](../../channels/using/customizing-a-push-notification.md#add-custom-fields)
 
-Uppdaterade steg för steg-guiden för bästa praxis. [Läs mer](https://helpx.adobe.com/se/campaign/kb/delivery-best-practices.html)
+Uppdaterade steg för steg-guiden för bästa praxis. [Läs mer](../../sending/using/delivery-best-practices.md)
 
 Lagt till information om loggtyper för spårning. [Läs mer](../../sending/using/tracking-messages.md#tracking-logs)
 
