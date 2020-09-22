@@ -4,10 +4,10 @@ solution: Campaign Standard
 title: Produktdokumentation för Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: ddf585def583acefbb25e7a48318966cd2af49a7
+source-git-commit: 351b8be616b1e293bd2899c2d4dbb489b1318578
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 80%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 80%
 ![](start/using/assets/do-not-localize/banner_acs_doc.jpg)
 
 ## Nyheter
+
+* **[Kontrollgrupper](sending/using/control-group.md)**<br/>Mät effekten av era kampanjer genom att utesluta en del av deras målgrupp
 
 * **[AI-baserade e-postmeddelanden](sending/using/predictive.md)**<br/>Optimera design och leverans med AI-baserade e-postmeddelanden
 
