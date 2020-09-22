@@ -13,9 +13,9 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: c300f50ce83d67be7c8a16f857eb46fb1ce89166
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '854'
 ht-degree: 10%
 
 ---
@@ -102,7 +102,7 @@ Push-meddelanden kan skickas till en viss målgrupp i Adobe Campaign genom att m
 
 1. På fliken **[!UICONTROL Exclusion logs]** hittar du en lista över alla meddelanden som har uteslutits från målet och orsaken till detta undantag.
 
-   Här ser vi att en av våra mobilappsprenumeranter uteslöts eftersom adressen blocklist och de andra prenumeranterna eftersom profilen var en dubblett.
+   Här ser vi att en av våra mobilappsprenumeranter har uteslutits eftersom adressen låg på blockeringslista och de andra prenumeranterna eftersom profilen var en dubblett.
 
    ![](assets/push_send_5.png)
 
@@ -117,7 +117,7 @@ Push-meddelanden kan skickas till en viss målgrupp i Adobe Campaign genom att m
 
    ![](assets/push_send_4.png)
 
-1. I **[!UICONTROL Deployment]** fönstret klickar du på **[!UICONTROL Sending logs]** fliken för att visa listan över skickade push-meddelanden och deras status. För den här leveransen har ett push-meddelande skickats och det andra misslyckades på grund av en felaktig enhetstoken. Den här prenumeranten kommer sedan att läggas till denyisten från ytterligare leveranser.
+1. I **[!UICONTROL Deployment]** fönstret klickar du på **[!UICONTROL Sending logs]** fliken för att visa listan över skickade push-meddelanden och deras status. För den här leveransen har ett push-meddelande skickats och det andra misslyckades på grund av en felaktig enhetstoken. Den här prenumeranten läggs sedan till blockeringslista från ytterligare leveranser.
 
    >[!NOTE]
    >
