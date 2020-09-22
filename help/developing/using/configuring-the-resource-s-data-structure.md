@@ -12,9 +12,9 @@ discoiquuid: 4f22ee35-1d5f-4c75-95b4-3e38b85de26e
 context-tags: cusResource,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6cf00f9b9bafdd54d8424a353b33dc689c0f59aa
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 81612f8158a19853e4b3ca05866fa335af493f67
+workflow-type: tm+mt
 source-wordcount: '1657'
 ht-degree: 100%
 
@@ -154,6 +154,7 @@ En länk visar associationen som en tabell har med andra tabeller.
    * **[!UICONTROL 1 cardinality simple link]**: En förekomst av källtabellen kan ha högst en motsvarande förekomst av måltabellen.
    * **[!UICONTROL N cardinality collection link]**: En förekomst av källtabellen kan ha flera motsvarande förekomster av måltabellen, men en förekomst av måltabellen kan ha högst en motsvarande förekomst av källtabellen.
    * **[!UICONTROL 0 or 1 cardinality simple link]**: En förekomst av källtabellen kan ha högst en motsvarande förekomst av måltabellen eller ingen. Observera att den här typen av **[!UICONTROL Link type]** kan orsaka prestandaproblem.
+
    ![](assets/schema_extension_29.png)
 
 1. På **[!UICONTROL New link]**-skärmen är fälten **[!UICONTROL Label]** och **[!UICONTROL ID]** som standard ifyllda, men du kan redigera dem.
@@ -161,8 +162,6 @@ En länk visar associationen som en tabell har med andra tabeller.
    >[!NOTE]
    >
    >Använd högst 30 tecken.
-
-   >[!IMPORTANT]
    >
    >Det går inte att byta namn på en länk när den har skapats. Om du vill byta namn på en länk måste du ta bort den och skapa den igen.
 
@@ -178,6 +177,7 @@ En länk visar associationen som en tabell har med andra tabeller.
 
    * **[!UICONTROL Use the primary key to make the join]**: Med den här kopplingsdefinitionen kan du använda profilens primärnyckel för att stämma av mot inköpets primärnyckel.
    * **[!UICONTROL Define specific join conditions]**: Med den här kopplingsdefinitionen kan du manuellt välja de fält som ska anslutas till båda resurserna. Observera att om data inte är korrekt konfigurerade visas inte posten **Inköp**.
+
    ![](assets/schema_extension_17.png)
 
 Länkarna som skapas visas i listan i avsnittet **[!UICONTROL Links]**.
