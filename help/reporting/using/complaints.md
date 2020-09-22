@@ -13,7 +13,7 @@ context-tags: deliveryComplaintsReport,main;campaignComplaintsReport,main;progra
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 17%
@@ -29,4 +29,4 @@ Rapporten **[!UICONTROL Complaints]** identifierar de leveranser som oftast har 
 
 Tabellen **Flop** , sorterad efter mottagardomän, visar antalet mottagare som har deklarerat ett e-postmeddelande eller en skräppost. Tabellens resultat är också tillgängliga i diagram och sammanfattningsnummer.
 
-I tabellen **Levererad kontra Blocklist frekvens** visas antalet mottagare som har deklarerat ett e-postmeddelande som skräppost eller skräppost. Tabellen sorteras efter leverans.
+I tabellen **Levererat jämfört med Blockeringslista** visas antalet mottagare som har deklarerat ett e-postmeddelande som skräppost eller skräppost. Tabellen sorteras efter leverans.
