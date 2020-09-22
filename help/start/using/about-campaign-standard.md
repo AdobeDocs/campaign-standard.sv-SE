@@ -1,6 +1,6 @@
 ---
 title: Kom igång med Campaign Standard
-description: Adobe Campaign är ett kraftfullt verktyg för kanalövergripande kampanjhantering som hjälper er att anpassa era online- och offlinestrategier för att skapa personaliserade kundupplevelser.
+description: Adobe Campaign är ett kraftfullt kanalövergripande kampanjhanteringsverktyg som kan hjälpa er att anpassa era online- och offlinestrategier för att skapa personaliserade kundupplevelser.
 page-status-flag: never-activated
 uuid: 027f6787-d2ef-44ae-a40a-8facdfe2ae77
 contentOwner: sauviat
@@ -12,15 +12,15 @@ discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d7846c33f0bc3730fc63a8659c8afc1c868064e0
+source-git-commit: e4ba42c5bf0dd952690178b7d5070100c7ddf13d
 workflow-type: tm+mt
 source-wordcount: '793'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# Kom igång med Campaign Standard {#about-campaign-standard}
+# Get Started with Campaign Standard {#about-campaign-standard}
 
 Adobe Campaign Standard är ett kraftfullt kanalövergripande kampanjhanteringsverktyg som kan hjälpa er att anpassa era online- och offlinestrategier för att skapa personaliserade kundupplevelser.
 
@@ -60,7 +60,7 @@ Designa och skicka meddelanden i online- och offlinekanaler, inklusive optimerin
 
 **Använd Campaign Email Designer** för att skapa engagerande, individuellt anpassade e-postmeddelanden. Börja från scratch eller använd inbyggda innehållsfragment eller mallar för att utforma e-postmeddelanden med HTML-format som är optimerat för responsiv design. [Kom igång med design av e-postinnehåll](../../designing/using/designing-content-in-adobe-campaign.md)
 
-**Analysera och kontrollera innehållet i dina meddelanden** innan du skickar dem, med hjälp av flera testfunktioner som förhandsgranskning, korrektur, ämnesradstestning via e-post, e-poståtergivning osv. Se till att dina meddelanden levereras vid rätt tidpunkt genom att optimera deras sändningstid (schemaläggning, hantering av tidszoner). [Kom igång med meddelandetestning och -sändning](../../sending/using/get-started-sending-messages.md)
+**Analysera och kontrollera innehållet i dina meddelanden** innan du skickar dem, med hjälp av flera testfunktioner som förhandsgranskning, korrektur, ämnesradstestning via e-post, e-poståtergivning osv. Se till att dina meddelanden levereras i rätt tid genom att optimera deras sändningstid (schemaläggning, hantering av tidszoner). [Kom igång med meddelandetestning och -sändning](../../sending/using/get-started-sending-messages.md)
 
 ## Spåra effekten av era kampanjer {#track-impact-campaigns}
 
@@ -69,9 +69,9 @@ Designa och skicka meddelanden i online- och offlinekanaler, inklusive optimerin
 När marknadsföringskampanjer har genomförts och de olika meddelandena har skickats kan ni med Campaign Standard övervaka dem för att spåra deras effekt och deras mottagares beteende.
 
 **Övervaka leveranserna** när de har skickats. Läs mer i och exportera detaljerade loggar om leveranser. Hämta information om deras status för varje mottagare, meddelanden som har uteslutits från målet och många fler mätvärden.
-Använd funktionen för leveransvarningar för att hålla reda på leveransframgångar eller leveransfel via e-postmeddelanden. Vill du veta mer? [Kom igång med meddelandeövervakning](../../sending/using/monitoring-a-delivery.md)
+Använd funktionen för leveransvarningar för att hålla reda på leveransframgångar eller fel via e-postmeddelanden. Vill du veta mer? [Kom igång med meddelandeövervakning](../../sending/using/monitoring-a-delivery.md)
 
-**Spåra hur leveransmottagarna** beter sig. Använd sessioner och permanenta cookies för att hämta spårningsinformation för var och en av dina kontakter i databasen. Övervaka spårningsinformation om leveranser (klickade URL:er, felsidor, öppnade meddelanden..) via dedikerade loggar och rapporter. [Kom igång med uppföljning av meddelanden](../../sending/using/tracking-messages.md)
+**Spåra hur leveransmottagarna** beter sig. Använd sessioner och permanenta cookies för att hämta spårningsinformation för var och en av dina kontakter i databasen. Övervaka spårningsinformation om leveranser (klickade URL:er, speglade sidor, öppnade meddelanden..) med hjälp av dedikerade loggar och rapporter. [Kom igång med uppföljning av meddelanden](../../sending/using/tracking-messages.md)
 
 **Utnyttja dynamiska rapporter** för att få en översikt över specifika mätvärden för ert budskap eller er kampanj. Dynamisk rapportering ger helt anpassningsbara realtidsrapporter som ger åtkomst till profildata, vilket möjliggör demografiska analyser efter profildimensioner som kön, ort och ålder, utöver funktionella e-postkampanjdata som öppningar och klick. Med dra-och-släpp-gränssnittet kan ni utforska data, avgöra hur era e-postkampanjer har genomförts mot era viktigaste kundsegment och mäta deras påverkan på mottagarna. [Kom igång med dynamisk rapportering](../../reporting/using/about-dynamic-reports.md)
 
@@ -79,11 +79,11 @@ Använd funktionen för leveransvarningar för att hålla reda på leveransframg
 
 <img width="60px" alt="villkor" src="assets/icon_admin.svg"/>
 
-**Utöka Campaign Standardens datamodell** med egna fält och resurser och övervaka alla datamodellsändringar i en enda vy. [Kom igång med Campaign Standardens datamodell](../../developing/using/get-started-data-model.md)
+**Utöka Campaign Standardens datamodell** med egna fält och resurser och övervaka alla datamodellsändringar i en enda vy. [Kom igång med Campaign Standard-datamodellen](../../developing/using/get-started-data-model.md)
 
 **Utnyttja REST API:er** för att utföra olika åtgärder och integrera Campaign Standard med ditt eget ekosystem. [Kom igång med Campaign Standard REST API:er](../../api/using/get-started-apis.md)
 
-**Administrera kampanj** från en enda vy: övervaka instansen, hantera användarnas behörigheter. Konfigurera externa servrar för att ansluta till din instans och konfigurera parametrar för dina kommunikationskanaler. [Kom igång med Campaign Standard administration](../../administration/using/get-started-campaign-administration.md)
+**Administrera kampanj** från en enda vy: övervaka instansen, hantera användarnas behörigheter. Konfigurera externa servrar för att ansluta till din instans och konfigurera parametrar för dina kommunikationskanaler. [Kom igång med Campaign Standard-administration](../../administration/using/get-started-campaign-administration.md)
 
 **Importera och exportera data** enkelt med Campaign Standardens datahanteringsfunktioner. [Kom igång med processer och datahantering](../../automating/using/get-started-workflows.md)
 
