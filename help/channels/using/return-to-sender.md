@@ -12,9 +12,9 @@ discoiquuid: 5f20ff3f-8242-4735-8c60-c57610edff52
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '214'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ En importmall finns under **[!UICONTROL Adobe Campaign > Resources > Templates >
 
 När importen är klar utför Adobe Campaign automatiskt följande åtgärder:
 
-* Felaktiga adresser har blocklist på profilnivå
+* Felaktiga adresser läggs till i blockeringslista på profilnivå
 * Huvudindikatorerna för leverans uppdateras
 * Leveransloggarna uppdateras
 
