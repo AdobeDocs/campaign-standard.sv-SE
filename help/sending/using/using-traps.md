@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 2%
@@ -67,4 +67,4 @@ Du kan använda svällning när du skickar transaktionsmeddelanden. I det här f
 
 >[!NOTE]
 >
->När du använder en testprofil som en svällning väljs motsvarande ytterligare data slumpmässigt ut från en verklig målprofil och tilldelas till svällningstestprofilen för alla inkapslade fält i ett meddelande. Mer information om berikning finns i [det här exemplet](../../automating/using/enrichment.md#example--enriching-profile-data-with-data-contained-in-a-file).
+>När du använder en testprofil som en svällning väljs motsvarande ytterligare data slumpmässigt ut från en verklig målprofil och tilldelas till svällningstestprofilen för alla inkapslade fält i ett meddelande. Mer information om berikning finns i [det här exemplet](../../automating/using/enriching-profile-data-file.md).
