@@ -12,9 +12,9 @@ discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 3161226c9ab28f8d519f55a408022284919954f6
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1283'
 ht-degree: 7%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 7%
 
 # Konfigurera ett mobilprogram{#configuring-a-mobile-application}
 
-## Konfigurera ett mobilprogram med Adobe Experience Platform SDK {#using-adobe-experience-platform-sdk}
+## Configuring a mobile application using Adobe Experience Platform SDKs {#using-adobe-experience-platform-sdk}
 
 >[!IMPORTANT]
 >
@@ -58,8 +58,8 @@ I det här steget kan användaren logga in på Experience Platform Launch för a
 1. Klicka på **[!UICONTROL Extensions]** fliken Experience Platform Launch, gå till **[!UICONTROL Catalog]** och sök efter **[!UICONTROL Adobe Campaign Standard]** tillägget. Mer information finns i [Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 
 1. Om du vill ha stöd för platsanvändningsfall i Campaign Standard installerar du **[!UICONTROL Places]** tillägget och **[!UICONTROL Places Monitor]** tillägget.
-   * Installera **[!UICONTROL Places]** tillägget i Experience Platform Launch. Se den här [sidan](https://docs.adobe.com/content/help/sv-SE/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
-   * Installera **[!UICONTROL Places Monitor]** tillägget i Experience Platform Launch. Se den här [sidan](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html)
+   * Installera **[!UICONTROL Places]** tillägget i Experience Platform Launch. Refer to this [page](https://docs.adobe.com/content/help/sv-SE/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
+   * Installera **[!UICONTROL Places Monitor]** tillägget i Experience Platform Launch. Refer to this [page](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html)
 
 1. Konfigurera den mobila egenskapen som du skapade i Experience Platform Launch i Adobe Campaign Standard.  Se [Konfigurera ditt Adobe Experience Platform Launch-program i Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
@@ -69,10 +69,6 @@ I det här steget kan användaren logga in på Experience Platform Launch för a
 Mer information finns i [Ta bort programmet](../../administration/using/configuring-a-mobile-application.md#delete-app)Experience Platform Launch.
 
 ## Synkronisera mobilappen AEPSDK från det tekniska arbetsflödet i Launch {#aepsdk-workflow}
-
->[!IMPORTANT]
->
->Den här funktionen är en betafunktion i Adobe Campaign från och med version 20.3. Du måste skicka in en biljett till kundtjänst på Adobe (antingen direkt eller via din Adobe-kontakt) för att aktivera det **[!UICONTROL sync Mobile app AEPSDK from Launch]** tekniska arbetsflödet i din Adobe Campaign-instans.
 
 När du har skapat och konfigurerat din mobila egenskap i Experience Platform Launch kommer det tekniska arbetsflödet nu att synkronisera de mobila egenskaper för Adobe Launch som har importerats till Adobe Campaign Standard. **[!UICONTROL Sync Mobile app AEPSDK from Launch]**
 
@@ -95,9 +91,9 @@ Arbetsflödet startas nu om och synkroniseras med de mobila egenskaper för Adob
 
 Om du vill använda en mobil egenskap i Experience Platform Launch i Campaign måste du även konfigurera den här egenskapen i Adobe Campaign. Kontrollera att IMS-användaren är en del av standardproduktprofilerna för användare och administratörer i Adobe Campaign.
 
-För användare som har flaggan Synkronisera mobilapp-AEPSDK från Starta teknisk arbetsflödesfunktion aktiverad måste du vänta tills det tekniska arbetsflödet har körts och synkronisera egenskapen Launch mobile till Adobe Campaign. Sedan kan du konfigurera det i Adobe Campaign.
+Du måste vänta på att det tekniska arbetsflödet ska köras och synkronisera den mobila egenskapen Launch till Adobe Campaign. Sedan kan du konfigurera det i Adobe Campaign.
 
-Mer information om synkronisering av AEPSDK för mobilappen från den tekniska arbetsflödesflaggan Launch finns i det här [avsnittet](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow).
+Mer information om Synkronisera mobilappen AEPSDK från det tekniska arbetsflödet vid start finns i det här [avsnittet](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow).
 
 >[!NOTE]
 >
