@@ -12,7 +12,7 @@ discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 6%
@@ -26,7 +26,7 @@ ht-degree: 6%
 
 Användare kan väljas in eller ut av en operator direkt från **[!UICONTROL General]** fliken Profil.
 
-I **[!UICONTROL No longer contact (denylisted)]** avsnittet motsvarar de markerade kryssrutorna de kanaler som användaren valde att avanmäla sig från. Välj kanalerna efter användarens behov.
+I **[!UICONTROL No longer contact (on denylist)]** avsnittet motsvarar de markerade kryssrutorna de kanaler som användaren valde att avanmäla sig från. Välj kanalerna efter användarens behov.
 
 ![](assets/optin_landingpage_3.png)
 
