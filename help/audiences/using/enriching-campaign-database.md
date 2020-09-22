@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: c1147c4512b1485ae5d927a32970adcd41b540e7
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Campaign Standard har flera verktyg som hjälper er att utöka er marknadsförin
 
 ## Importera data via arbetsflöden {#importing-data-through-workflows}
 
-Med arbetsflöden kan ni samla in data och importera dem till Campaign-databasen via [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) aktiviteter.
+Med arbetsflöden kan ni samla in data och importera dem till Campaign-databasen via [[!UICONTROL Data management]](../../automating/using/about-data-management-activities.md) aktiviteter.
 
 Allmän information och bästa praxis vid import av data via arbetsflöden visas i [det här avsnittet](../../automating/using/about-data-import-and-export.md).
 
@@ -52,14 +52,14 @@ Principen är följande:
 * Koppla varje inmatningsfält till motsvarande fält från databasen.
 * Gör landningssidan tillgänglig online via en webbplats eller via en direktlänk till ett meddelande.
 
-Mer information om landningssidor finns i den [särskilda dokumentationen](../../channels/using/getting-started-with-landing-pages.md).
+For more on landing pages, refer to the [dedicated documentation](../../channels/using/getting-started-with-landing-pages.md).
 
 ## Synkroniserar profiler från Microsoft Dynamics 365
 
-Med Campaign Standard-integrering med Microsoft Dynamics 365 kan du skicka kontaktdata från Microsoft Dynamics 365 till Campaign-databasen.
+Tack vare integreringen av Campaign Standarder med Microsoft Dynamics 365 kan du skicka kontaktdata från Microsoft Dynamics 365 till Campaign-databasen.
 Kontakterna visas sedan i profillistan och kan användas i marknadsföringskampanjer.
 
-Mer information om den här integreringen finns i den [dedikerade dokumentationen](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
+For more on this integration, refer to the [dedicated documentation](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
 
 >[!NOTE]
 >
@@ -67,10 +67,10 @@ Mer information om den här integreringen finns i den [dedikerade dokumentatione
 
 ## Importera data via API-anrop
 
-Med API:er för Campaign Standard kan du utföra åtgärder för att uppdatera databasen, t.ex. när profiler eller tjänster skapas, uppdateras eller tas bort.
+Med Campaign Standard-API:er kan du utföra åtgärder för att uppdatera databasen, som att skapa, uppdatera eller ta bort profiler eller tjänster.
 
 Mer information om hur du använder API:erna finns i den [dedikerade dokumentationen](../../api/using/get-started-apis.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Innan du skapar eller uppdaterar profiler via API-anrop bör du kontrollera de skalbegränsningar som motsvarar licensavtalet. For more on this, refer to [this page](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
