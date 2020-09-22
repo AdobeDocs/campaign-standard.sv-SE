@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 9ab3cc5a23b9b31b463bc3557b8164307d367d25
+workflow-type: tm+mt
+source-wordcount: '929'
+ht-degree: 3%
 
 ---
 
@@ -47,7 +50,7 @@ Om du inte väljer någon mall kan du på e-postdesignerns hemsida även välja 
 
 * Klicka på **[!UICONTROL Create]** knappen för att starta ett nytt innehåll från början. Se [Designa ett e-postinnehåll från grunden](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 * Klicka på **[!UICONTROL Upload]** knappen för att överföra en fil från datorn. Se [Importera innehåll från en fil](../../designing/using/using-existing-content.md#importing-content-from-a-file).
-* Klicka på **[!UICONTROL Import from URL]** knappen om du vill hämta befintligt innehåll från en URL-adress. Se [Importera innehåll från en URL](../../designing/using/using-existing-content.md#importing-content-from-a-url).
+* Klicka på **[!UICONTROL Import from URL]** knappen för att hämta befintligt innehåll från en URL. Se [Importera innehåll från en URL](../../designing/using/using-existing-content.md#importing-content-from-a-url).
 
 ### Gränssnitt för e-postdesigner {#email-designer-interface}
 
@@ -67,7 +70,7 @@ Fler allmänna alternativ och inställningar finns i **verktygsfältet** (4).
 
 ![](assets/email_designer_toolbar.png)
 
-Verktygsfältet **Sammanhangsberoende** i redigeringsgränssnittet innehåller olika funktioner beroende på vilken zon som är markerad. Den innehåller åtgärdsknappar och knappar som gör att du kan ändra textens format. De ändringar som görs gäller alltid för den valda zonen.
+Verktygsfältet **Sammanhangsberoende** i redigeringsgränssnittet innehåller olika funktioner beroende på vilken zon som är markerad. Den innehåller åtgärdsknappar och knappar som du kan användas för att ändra textens format. De ändringar som görs gäller alltid för den markerade zonen.
 
 ### Terminologi {#terminology}
 
@@ -95,16 +98,20 @@ För att kunna använda e-postdesignern på rätt sätt och skapa de bästa e-po
 
 * När du redigerar **e-postinnehåll**:
 
-   Förhandsgranska meddelandena innan du skickar dem. Adobe Campaign erbjuder ett sätt att testa e-poståtergivning med Litmus. Mer information finns i [E-poståtergivning](../../sending/using/email-rendering.md).
+   Förhandsgranska dina meddelanden innan du skickar dem. Adobe Campaign erbjuder ett sätt att testa e-poståtergivning med Litmus. Mer information finns i [E-poståtergivning](../../sending/using/email-rendering.md).
 
-Mer information om design och allmänna tips om meddelanden finns i följande steg-för-steg-guide för Adobe Campaign: Leverera [bästa praxis med Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
+Mer information om design och allmänna bästa metoder för meddelanden finns i följande avsnitt: [Bästa praxis för leverans](../../sending/using/delivery-best-practices.md)
 
 ### Begränsningar för e-postdesignern {#email-designer-limitations}
 
-* Du kan inte använda anpassningsfält i ett fragment. Mer information om fragment finns i [det här avsnittet](../../designing/using/using-reusable-content.md#about-fragments).
+* Du kan inte använda anpassningsfält i ett fragment. For more on fragments, see [this section](../../designing/using/using-reusable-content.md#about-fragments).
+
 <!--* You cannot save directly as a fragment some content of an email that you are editing within the Email Designer. You need to copy-paste the HTML corresponding to that content into a new fragment. For more on this, see [Saving content as a fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).-->
 * När du redigerar format är bara de webbteckensnitt som officiellt stöds av de flesta e-postklienter tillgängliga.
-* Det går inte att spara format som ett tema för framtida återanvändning. CSS-formatet kan dock sparas i en innehållsmall eller i ett e-postmeddelande. Mer information om format finns i [det här avsnittet](../../designing/using/styles.md).
+* Det går inte att spara format som ett tema för framtida återanvändning. CSS-formatet kan dock sparas i en innehållsmall eller i ett e-postmeddelande. For more on styles, see [this section](../../designing/using/styles.md).
+* Referensmeta-taggen stöds inte i e-postdesignern.
+* Surrogate-par, tecken som inte ingår i Unicode-teckenuppsättningens grundläggande flerspråkiga plan, kan inte lagras i 2 byte (16 bitar) och måste kodas till 2 UTF-16-tecken. Dessa tecken innehåller vissa CJK-ideogram, de flesta känslolägesikoner och vissa språk.
+Dessa tecken kan orsaka vissa inkompatibilitetsproblem i dynamisk text. Du måste göra starka tester innan du skickar meddelanden.
 
 ### Uppdaterar fragment {#email-designer-updates}
 
