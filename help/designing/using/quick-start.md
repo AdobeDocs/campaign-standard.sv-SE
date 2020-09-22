@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6aa48a9f36e0716b036288862d1a0064e489be92
+source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+workflow-type: tm+mt
+source-wordcount: '924'
+ht-degree: 5%
 
 ---
 
@@ -75,33 +78,33 @@ Du kan lägga till flera innehållskomponenter i e-postmeddelandet, till exempel
 
 * **Bild**
 
-1. I **Innehållskomponenter** drar och släpper du bilden i någon av strukturkomponenterna.
-1. Klicka på **Bläddra**.
-1. Välj bildfilen på datorn.
+   1. I **Innehållskomponenter** drar och släpper du bilden i någon av strukturkomponenterna.
+   1. Klicka på **Bläddra**.
+   1. Välj bildfilen på datorn.
 
-![](assets/browse-image-quick-start.png)
+   ![](assets/browse-image-quick-start.png)
 
 * **Text med personalisering**
 
-1. I **Innehållskomponenter** drar och släpper du text i en av strukturkomponenterna.
-1. Klicka på komponenten och ange texten.
-1. Om du vill lägga till ett anpassningsfält klickar du på **Infoga anpassningsfält** i verktygsfältet.
-1. Markera fältet som du behöver, t.ex. Förnamn.
+   1. I **Innehållskomponenter** drar och släpper du text i en av strukturkomponenterna.
+   1. Klicka på komponenten och ange texten.
+   1. Om du vill lägga till ett anpassningsfält klickar du på **Infoga anpassningsfält** i verktygsfältet.
+   1. Markera fältet som du behöver, t.ex. Förnamn.
 
-![](assets/edit-text-quick-start.png)
+   ![](assets/edit-text-quick-start.png)
 
 * **HTML**
 
-1. I **Innehållskomponenter** drar och släpper du HTML i en av strukturkomponenterna.
-1. Klicka på **Visa källkoden**.
-1. Ange ditt HTML-innehåll.
-1. Klicka på **Spara**.
+   1. I **Innehållskomponenter** drar och släpper du HTML i en av strukturkomponenterna.
+   1. Klicka på **Visa källkoden**.
+   1. Ange ditt HTML-innehåll.
+   1. Klicka på **Spara**.
 
-![](assets/html-component-source-code.png)
+   ![](assets/html-component-source-code.png)
 
-Om du är bekant med HTML kan du kopiera och klistra in HTML-koden från den ursprungliga sidfoten med innehållskomponenten **[!UICONTROL Html]** . Mer information finns i [Om innehållskomponenter](../../designing/using/designing-from-scratch.md#about-content-components).
+   Om du är bekant med HTML kan du kopiera och klistra in HTML-koden från den ursprungliga sidfoten med innehållskomponenten **[!UICONTROL Html]** . Mer information finns i [Om innehållskomponenter](../../designing/using/designing-from-scratch.md#about-content-components).
 
-![](assets/des_loading_compatible_fragment_9.png)
+   ![](assets/des_loading_compatible_fragment_9.png)
 
 ### Utforma e-postkomponenten
 
