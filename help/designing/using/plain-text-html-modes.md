@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5e2ea8020c82f578b2cf8c00fa7b9f55b6ce2edd
+source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+workflow-type: tm+mt
+source-wordcount: '776'
+ht-degree: 0%
 
 ---
 
@@ -106,7 +109,7 @@ Alla formatalternativ är tillgängliga i mobilvyn. Formatinställningarna för 
 
    ![](assets/email_designer_mobile_view_change_content.png)
 
-   Klicka igen på **[!UICONTROL Switch to mobile view]** knappen för att gå tillbaka till standardskrivbordsvyn. Ändringarna återspeglas.
+1. Klicka igen på **[!UICONTROL Switch to mobile view]** knappen för att gå tillbaka till standardskrivbordsvyn. Ändringarna återspeglas.
 
    ![](assets/email_designer_mobile_view_desktop_content-change.png)
 
