@@ -1,6 +1,6 @@
 ---
-title: Utforma innehåll i Adobe Campaign
-description: Lär dig mer om alla element som du kan definiera i innehållet med Adobe Campaign.
+title: Designa innehåll i Adobe Campaign
+description: Lär dig mer om alla element som du kan definiera i ditt innehåll med Adobe Campaign.
 page-status-flag: never-activated
 uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
 contentOwner: sauviat
@@ -12,16 +12,19 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb7758c6d2b19bb7a302649626acead97497da9a
+source-git-commit: 67fbf66d8ad358ae5d2caaec5b90beb6304047e6
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # E-postdesigner för kampanj{#designing-content-in-adobe-campaign}
 
-När du har skapat ett e-postmeddelande i Adobe Campaign måste du definiera innehållet.
+När du har skapat ett e-postmeddelande i Adobe Campaign måste du definiera dess innehåll.
 
-Med e-postdesignern kan du skapa engagerande, individuellt anpassade e-postmeddelanden via ett dra-och-släpp-gränssnitt som utökas av Creative Cloud-integreringar. Oavsett om du börjar från en tom sida eller använder befintliga innehållskomponenter eller mallar kan du utforma och förfina allt innehåll för varje e-postmeddelande, oavsett om det är en reklam eller en transaktion.
+Med e-postdesignern kan du skapa engagerande, individuellt anpassade e-postmeddelanden via ett dra-och-släpp-gränssnitt som utökas av integreringar med Creative Cloud. Oavsett om du börjar från en tom sida eller använder befintliga innehållskomponenter eller mallar kan du utforma och förfina allt innehåll för varje e-postmeddelande, oavsett om det är en reklam eller en transaktion.
 
 Med e-postdesignern, som är utformad för att leverera HTML som är optimerad för responsiv design, kan du enkelt definiera och använda synlighetsvillkor och dynamiskt innehåll i ett e-postmeddelande, en mall eller ett fragment direkt via användargränssnittet. Du kan smidigt växla mellan dra och släpp-gränssnittet och HTML-koden genom att klicka på en knapp.
 
@@ -36,7 +39,7 @@ Om du vill komma igång med e-postdesignern tittar du på den här [uppsättning
 * Mer information om hur du skapar innehåll:
    * Från grunden, se [Designa e-postmeddelanden från grunden](../../designing/using/designing-from-scratch.md).
    * Information om hur du använder befintligt innehåll finns i [Designa med befintligt innehåll](../../designing/using/using-existing-content.md).
-   * Om du använder Creative Cloud-integreringar läser du [Designa](../../designing/using/using-integrations.md)för e-post med flera lösningar.
+   * Om du använder Creative Cloud-integreringar kan du läsa [Designa](../../designing/using/using-integrations.md)för e-post med flera lösningar.
 * Mer information om personalisering finns i [Personalisering](../../designing/using/personalization.md).
 
 När du skapar ett e-postmeddelande kan du välja att använda en fördefinierad mall eller att läsa in ett befintligt innehåll från en annan källa. Se [Markera befintligt innehåll](../../designing/using/using-existing-content.md#selecting-an-existing-content).
@@ -65,7 +68,7 @@ Fler allmänna alternativ och inställningar finns i **verktygsfältet** (4).
 
 ![](assets/email_designer_toolbar.png)
 
-Verktygsfältet **Sammanhangsberoende** i redigeringsgränssnittet innehåller olika funktioner beroende på vilken zon som är markerad. Den innehåller åtgärdsknappar och knappar som gör att du kan ändra textens format. De ändringar som görs gäller alltid för den valda zonen.
+Verktygsfältet **Sammanhangsberoende** i redigeringsgränssnittet innehåller olika funktioner beroende på vilken zon som är markerad. Den innehåller åtgärdsknappar och knappar som du kan användas för att ändra textens format. De ändringar som görs gäller alltid för den markerade zonen.
 
 ### Email Designer - startsida {#email-designer-home-page}
 
@@ -89,7 +92,7 @@ Om du inte väljer någon mall kan du på e-postdesignerns hemsida även välja 
 
 * Klicka på **[!UICONTROL Create]** knappen för att starta ett nytt innehåll från början. Se [Designa ett e-postinnehåll från grunden](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 * Klicka på **[!UICONTROL Upload]** knappen för att överföra en fil från datorn. Se [Importera innehåll från en fil](../../designing/using/using-existing-content.md#importing-content-from-a-file).
-* Klicka på **[!UICONTROL Import from URL]** knappen om du vill hämta befintligt innehåll från en URL-adress. Se [Importera innehåll från en URL](../../designing/using/using-existing-content.md#importing-content-from-a-url).
+* Klicka på **[!UICONTROL Import from URL]** knappen för att hämta befintligt innehåll från en URL. Se [Importera innehåll från en URL](../../designing/using/using-existing-content.md#importing-content-from-a-url).
 
 ## Terminologi {#terminology}
 
@@ -111,15 +114,15 @@ För att kunna använda e-postdesignern på rätt sätt och skapa de bästa e-po
 
 * Om du importerar ZIP-filer som innehåller ditt HTML-innehåll ska du använda vanlig CSS. SCSS-formatmallar stöds inte.
 
-* Ordna er varumärke enkelt genom att skapa och återanvända innehållsfragment för att få enhetliga marknadsföringskampanjer.
+* Ordna er varumärkesprofilering enkelt genom att skapa och återanvända innehållsfragment för att få enhetliga marknadsföringskampanjer.
 
    Se [Skapa ett innehållsfragment](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
 
 * När du redigerar **e-postinnehåll**:
 
-   Förhandsgranska meddelandena innan du skickar dem. Adobe Campaign erbjuder ett sätt att testa e-poståtergivning med Litmus. Mer information finns i [E-poståtergivning](../../sending/using/email-rendering.md).
+   Förhandsgranska dina meddelanden innan du skickar dem. Adobe Campaign erbjuder ett sätt att testa e-poståtergivning med Litmus. Mer information finns i [E-poståtergivning](../../sending/using/email-rendering.md).
 
-Mer information om design och allmänna tips om meddelanden finns i följande steg-för-steg-guide för Adobe Campaign: Leverera [bästa praxis med Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
+Mer information om design och allmänna bästa metoder för meddelanden finns i följande avsnitt: [Bästa praxis](../../sending/using/delivery-best-practices.md).
 
 ### Uppdaterar fragment {#email-designer-updates}
 
@@ -145,12 +148,12 @@ Observera följande när det gäller fragment:
 
 ## Begränsningar för e-postdesignern {#email-designer-limitations}
 
-* Du kan inte använda anpassningsfält i ett fragment. Mer information om fragment finns i [det här avsnittet](../../designing/using/using-reusable-content.md#about-fragments).
+* Du kan inte använda anpassningsfält i ett fragment. For more on fragments, see [this section](../../designing/using/using-reusable-content.md#about-fragments).
 
 <!--* You cannot save directly as a fragment some content of an email that you are editing within the Email Designer. You need to copy-paste the HTML corresponding to that content into a new fragment. For more on this, see [Saving content as a fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).-->
 
 * När du redigerar format är bara de webbteckensnitt som officiellt stöds av de flesta e-postklienter tillgängliga.
-* Det går inte att spara format som ett tema för framtida återanvändning. CSS-formatet kan dock sparas i en innehållsmall eller i ett e-postmeddelande. Mer information om format finns i [det här avsnittet](../../designing/using/styles.md).
+* Det går inte att spara format som ett tema för framtida återanvändning. CSS-formatet kan dock sparas i en innehållsmall eller i ett e-postmeddelande. For more on styles, see [this section](../../designing/using/styles.md).
 
 **Relaterade ämnen**
 
