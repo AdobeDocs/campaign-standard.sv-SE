@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ec32aa2a955486362f100382f3a78004fdae4a4f
+source-git-commit: 23e3b1c3105fd99ec0cd67cb4a3ca5e565604449
 workflow-type: tm+mt
-source-wordcount: '6140'
-ht-degree: 94%
+source-wordcount: '6228'
+ht-degree: 93%
 
 ---
 
@@ -23,6 +23,22 @@ ht-degree: 94%
 # Dokumentationsuppdateringar{#documentation-updates}
 
 Förutom [versionsinformationen](../../rn/using/release-notes.md) för Adobe Campaign listas alla nya uppdateringar i dokumentationen för Adobe Campaign Standard på den här sidan.
+
+## Version 20.4 - oktober 2020 {#release-20-4---october-2020}
+
+**Nya funktioner i denna version**
+
+Control groups - [Read More](../../sending/using/control-group.md)
+
+Externt API (OAuth-stöd) - [Läs mer](../../automating/using/external-api.md)
+
+AI-integrering för resan - [läs mer](../../sending/using/predictive.md)
+
+**Andra dokumentationsuppdateringar som följer med denna version**
+
+Avsnittet om hur du anropar ett arbetsflöde med externa parametrar har berikats med nya funktioner i uttrycksredigeraren. [Läs mer](../../automating/using/customizing-workflow-external-parameters.md)
+
+En rekommendation om hur många aktiviteter som ska användas per arbetsflöde har lagts till i arbetsflödena. [Läs mer](../../automating/using/best-practices-workflows.md#number-activities)
 
 ## Dokumentationsuppdateringar - september 2020 {#doc-updates-september-2020}
 
@@ -33,6 +49,8 @@ Ett varningsmeddelande har lagts till som varnar användare om behörighetsbegr�
 Ett nytt avsnitt har lagts till för att beskriva processen att skapa ett nytt varumärke. [Läs mer](../../administration/using/branding.md#creating-a-brand)
 
 Den nya Campaign Standarden - Integrering med Microsoft Dynamics 365 är nu tillgänglig. [Läs mer](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+
+Information har lagts till om anonyma källor i rapporten Aktiva profiler. [Läs mer](../../audiences/using/active-profiles.md)
 
 ## Dokumentationsuppdateringar - augusti 2020 {#doc-updates-august-2020}
 
@@ -220,7 +238,7 @@ Kom igång-guiden om hur du exporterar/importerar anpassade resurser har integre
 
 ## Dokumentationsuppdateringar - november 2019 {#doc-updates-november-2019}
 
-Ett nytt användningsexempel har lagts till som beskriver hur du skapar en kontrollgrupp med hjälp av ett arbetsflöde i Campaign Standard. [Läs mer](../../automating/using/workflow-control-group.md)
+Ett nytt användningsexempel har lagts till som beskriver hur du skapar en kontrollgrupp med hjälp av ett arbetsflöde i Campaign Standard.
 
 Information om landningssidornas egenskaper har flyttats till ett dedikerat avsnitt. [Läs mer](../../channels/using/configuring-landing-page.md)
 
@@ -276,7 +294,7 @@ Kapitlet om landningssidor har omstrukturerats. Den har också berikats med ett 
 
 Ett nytt avsnitt lades till i avsnittet Push-meddelanden om hur du skapar och uppdaterar profilinformation baserat på prenumerationsdata för mobilappar. [Läs mer](../../channels/using/updating-profile-with-mobile-app-data.md)
 
-Ett nytt exempel som visar hur du skickar ett e-postmeddelande som innehåller ytterligare data som hämtats från en aktivitet där en fil laddats upp har lagts till. [Läs mer](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
+Ett nytt exempel som visar hur du skickar ett e-postmeddelande som innehåller ytterligare data som hämtats från en aktivitet där en fil laddats upp har lagts till. [Läs mer](../../automating/using/sending-email-enriched-fields.md)
 
 Ett nytt avsnitt om hur du använder fällor har lagts till. [Läs mer](../../sending/using/using-traps.md).
 
@@ -466,7 +484,7 @@ Tillagd information om alternativet som gör att du kan behålla avvisningar i e
 
 Ett nytt avsnitt har lagts till om hur du duplicerar aktiviteter i ett arbetsflöde med kopiera och klistra in-åtgärder. [Läs mer](../../automating/using/workflow-interface.md#duplicating-workflow-activities)
 
-Tillagd information om det nya alternativet i aktiviteterna Förfrågningar ( [Läs mer](../../automating/using/query.md)) och Segmentering ( [Läs mer](../../automating/using/segmentation.md)) som gör att du nu kan lägga till en utgående övergång efter aktiviteten om den inte hämtar någon data.
+Tillagd information om det nya alternativet i aktiviteterna Förfrågningar ( [Läs mer](../../automating/using/query-samples.md)) och Segmentering ( [Läs mer](../../automating/using/segmentation.md)) som gör att du nu kan lägga till en utgående övergång efter aktiviteten om den inte hämtar någon data.
 
 Tillagd information i avsnittet uppdatera dataaktivitet i det nya fältet för batchstorlek som gör att du kan definiera den maximala batchstorleken för data som ska överföras. [Läs mer](../../automating/using/update-data.md#configuration)
 
@@ -568,7 +586,7 @@ Omstrukturering av Campaign och Audience Manager or People core service-dokument
 
 Rolldefinitionen Förbered leveranser har uppdaterats. [Läs mer](../../administration/using/list-of-roles.md)
 
-Ett exempel har lagts till i avsnittet för förfrågningsaktivitet om hur målprofiler som klickade på en viss länk i en leverans ska behandlas. [Läs mer](../../automating/using/query.md#targeting-profiles-who-clicked-a-specific-link-)
+Ett exempel har lagts till i avsnittet för förfrågningsaktivitet om hur målprofiler som klickade på en viss länk i en leverans ska behandlas. [Läs mer](../../automating/using/query-samples.md#targeting-profiles-who-clicked-a-specific-link-)
 
 Ett avsnitt som rör **anpassade filter** har lagts till i API-dokumentationen. [Läs mer](../../api/using/filtering.md)
 
@@ -622,7 +640,7 @@ Användning av anpassade resurser i transaktionsmeddelanden - [läs mer](../../a
 
 GDPR-API:t registrerar funktioner som tillåter automatisk bearbetning av GDPR-begäran. [Läs mer](../../api/using/creating-a-privacy-request.md)
 
-Lagt till information om hur du ställer in landningssidor för att ge mottagarna möjlighet att bli blocklist. [Läs mer](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+Lagt till information om hur du ställer in landningssidor för att ge mottagarna möjlighet att vara på blockeringslista. [Läs mer](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 Avsnittet [Konfigurera transaktionsmeddelanden](../../administration/using/configuring-transactional-messaging.md) har omstrukturerats och ett [steg för steg-användningsexempel](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) har lagts till.
 
@@ -658,7 +676,7 @@ Versionsinformationen har omstrukturerats på flera sidor så att du får en mer
 
 Avsnittet **[!UICONTROL Working with typologies]** har uppdaterats för att bli mer synligt. [Läs mer](../../sending/using/about-typology-rules.md)
 
-Det finns nu ett nytt alternativ som gör att du kan få bättre prestanda när du definierar mycket ytterligare data i en **[!UICONTROL Query]** bild. [Läs mer](../../automating/using/query.md)
+Det finns nu ett nytt alternativ som gör att du kan få bättre prestanda när du definierar mycket ytterligare data i en **[!UICONTROL Query]** bild. [Läs mer](../../automating/using/query-samples.md)
 
 Exemplet för profilimport har uppdaterats med några tips så att dina profiler kan ta emot direktmeddelanden. [Läs mer](../../automating/using/about-data-import-and-export.md)
 
@@ -672,7 +690,7 @@ Avsnittet med listan över tillstånd har tagits bort. [Läs mer](https://docs.c
 
 Ett steg för steg-exempel på hur du använder SMS-autosvar har lagts till. [Läs mer](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
-Lagt till information om hur du skickar en leverans beroende på användarnas tidszoner i ett återkommande arbetsflöde. [Läs mer](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow)
+Lagt till information om hur du skickar en leverans beroende på användarnas tidszoner i ett återkommande arbetsflöde. [Läs mer](../../automating/using/recurring-push-notifications.md)
 
 Omorganiserade avsnittet **[!UICONTROL Customizing a push notification]** med stegvisa användningsexempel. [Läs mer](../../channels/using/customizing-a-push-notification.md)
 
