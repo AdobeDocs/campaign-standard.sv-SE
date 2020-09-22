@@ -13,9 +13,9 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ IP-certifiering är ett program för att skicka beprövade metoder som hjälper 
 
 För närvarande erbjuder två leverantörer IP-certifiering: Return Path och Certified Senders Alliance.
 
-Certifierade avsändare tillåtslista som används av globala postlådeproviders och säkerhetsföretag för e-postmeddelanden. Dessa kommersiella tillåtelselista baseras på ett system som gör att avsändaren kan kringgå skräppostfilter helt eller inkrementellt när de kommer in i systemet.
+Certifierade avsändare finns på tillåtelselista, som används av globala postlådeproviders och e-postsäkerhetsföretag. Dessa kommersiella tillåtelselista baseras på ett system som gör att avsändaren kan kringgå skräppostfilter helt eller inkrementellt när de kommer in i systemet.
 
 Programmet [Return Path Certification](https://www.validity.com/products/returnpath/certification/) har flera fördelar:
 * En mätbar ökning av inkorgplaceringen hos de främsta postlådeleverantörerna som Microsoft, AOL, Yahoo, Gmail, Comcast, Orange, Mail.ru med flera
