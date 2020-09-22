@@ -12,10 +12,10 @@ discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+source-git-commit: ed920a9b08eb664c2825ba785c75092eb0f2be1e
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 5%
+source-wordcount: '797'
+ht-degree: 1%
 
 ---
 
@@ -51,41 +51,45 @@ När du använder en variabel i en aktivitet får du hjälp att anropa den i gr�
 
    ![](assets/wkf_test_activity_variables.png)
 
-* ![](assets/extsignal_expression_editor.png): redigera uttryck genom att kombinera variabler och funktioner.  Mer information om uttrycksredigeraren finns i [detta avsnittet](../../automating/using/advanced-expression-editing.md).
+* ![](assets/extsignal_expression_editor.png): redigera uttryck genom att kombinera variabler och funktioner (se [](../../automating/using/advanced-expression-editing.md)).
 
    ![](assets/wkf_test_activity_variables_expression.png)
 
-**Relaterade ämnen:**
+   Den här listan innehåller funktioner som gör att du kan utföra komplex filtrering. De här funktionerna beskrivs i [det här avsnittet](../../automating/using/list-of-functions.md).
 
-* [Redigera ett uttryck](../../automating/using/advanced-expression-editing.md#edit-an-expression)
-* [Standardsyntax](../../automating/using/advanced-expression-editing.md#standard-syntax)
-* [Lista över funktioner](../../automating/using/list-of-functions.md)
+   Du kan dessutom använda funktionerna nedan, som är tillgängliga i alla aktiviteter som gör att du kan använda händelsevariabler efter att du har anropat ett arbetsflöde med externa parametrar (se [](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)):
+
+   | Namn | Beskrivning | Syntax |
+   ---------|----------|---------
+   | EndWith | Anger om en sträng (första parametern) slutar med en specifik sträng (andra parametern). | EndWith(&lt;String>,&lt;String>) |
+   | startWith | Anger om en sträng (första parametern) börjar med en viss sträng (andra parametern). | startWith(&lt;String>,&lt;String>) |
+   | Extract | Returnerar de första tecknen i en sträng med en avgränsare. | Extract(&lt;String>,&lt;Separator>) |
+   | ExtractRight | Returnerar de sista tecknen i en sträng med en avgränsare. | ExtractRight(&lt;String>,&lt;Separator>) |
+   | DateFormat | Formaterar ett datum med det format som anges i den andra parametern (exempel:  &#39;%4Y%2M%2D&#39;) | DateFormat(&lt;Date>,&lt;Format>) |
+   | FileName | Returnerar namnet på en filsökväg. | FileName(&lt;String>) |
+   | FileExt | Returnerar tillägget för en filsökväg. | FileExt(&lt;String>) |
+   | IsNull | Anger om en sträng eller ett datum är null. | IsNull(&lt;String/date>) |
+   | UrlUtf8Encode | Kodar en URL i UTF8. | UrlUtf8Encode(&lt;String>) |
 
 ## Anpassa aktiviteter med händelsevariabler {#customizing-activities-with-events-variables}
 
 Händelsevariabler kan användas för att anpassa flera aktiviteter, som listas i avsnittet nedan. Mer information om hur du anropar en variabel från en aktivitet finns i [det här avsnittet](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables).
 
-**[!UICONTROL Read audience]** aktivitet: Definiera målgruppen baserat på händelsevariabler.
-
-Mer information om hur du använder aktiviteten finns i det [dedikerade avsnittet](../../automating/using/read-audience.md).
+**[!UICONTROL Read audience]** aktivitet: Definiera målgruppen baserat på händelsevariabler. Mer information om hur du använder aktiviteten finns i [det här avsnittet](../../automating/using/read-audience.md).
 
 ![](assets/extsignal_activities_audience.png)
 
-**[!UICONTROL Test]** aktivitet: skapa villkor baserade på händelsevariabler.
-
-Mer information om hur du använder aktiviteten finns i det [dedikerade avsnittet](../../automating/using/test.md).
+**[!UICONTROL Test]** aktivitet: skapa villkor baserade på händelsevariabler. Mer information om hur du använder aktiviteten finns i [det här avsnittet](../../automating/using/test.md).
 
 ![](assets/extsignal_activities_test.png)
 
-**[!UICONTROL Transfer file]** aktivitet: anpassa filen som ska överföras baserat på händelsevariabler.
-
-Mer information om hur du använder aktiviteten finns i det [dedikerade avsnittet](../../automating/using/transfer-file.md).
+**[!UICONTROL Transfer file]** aktivitet: anpassa filen som ska överföras baserat på händelsevariabler. Mer information om hur du använder aktiviteten finns i [det här avsnittet](../../automating/using/transfer-file.md).
 
 ![](assets/extsignal_activities_transfer.png)
 
 **[!UICONTROL Query]** aktivitet: parametrar kan refereras i en fråga genom att använda uttryck som kombinerar händelsevariabler och funktioner. Om du vill göra det lägger du till en regel och klickar sedan på **[!UICONTROL Advanced mode]** länken för att öppna redigeringsfönstret för uttryck (se [Avancerad redigering](../../automating/using/advanced-expression-editing.md)av uttryck).
 
-Mer information om hur du använder aktiviteten finns i det [dedikerade avsnittet](../../automating/using/query.md).
+Mer information om hur du använder aktiviteten finns i [det här avsnittet](../../automating/using/query.md).
 
 ![](assets/extsignal_activities_query.png)
 
