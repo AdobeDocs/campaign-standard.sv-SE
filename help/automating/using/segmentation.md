@@ -13,9 +13,9 @@ context-tags: segmentation,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eed3474c133645a3b9fe8001c21360bba4a363e4
+source-git-commit: f26fb6bd8b6d103e25bfaedb02d4d1d9342752bf
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '849'
 ht-degree: 92%
 
 ---
@@ -35,7 +35,6 @@ Med aktiviteten **[!UICONTROL Segmentation]** kan du skapa ett eller flera segme
 
 **Relaterade ämnen:**
 * [Användningsfall: Segmentering på plats](../../automating/using/workflow-segmentation-location.md)
-* [Användningsfall: Bygga en kontrollgrupp](../../automating/using/workflow-control-group.md)
 * [Användningsfall: Segmentering efter åldersgrupper](../../automating/using/segmentation-age-groups.md)
 
 ## Kontext för användning {#context-of-use}
