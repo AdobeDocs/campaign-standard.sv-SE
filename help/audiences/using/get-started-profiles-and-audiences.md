@@ -12,10 +12,10 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: f26fb6bd8b6d103e25bfaedb02d4d1d9342752bf
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 8%
+source-wordcount: '613'
+ht-degree: 7%
 
 ---
 
@@ -41,7 +41,7 @@ Hantera kundernas tillstånd och samtycke med hjälp av tjänster och landningss
 
 När du skapar kampanjer eller meddelanden kan du ange leveransmålet genom att välja bland kontakter i Campaign-databasen, använda enkla eller avancerade kriterier eller välja målgrupper.
 
-Identifiera kunder effektivare i alla kanaler med **integrerade kundprofiler** och **anpassade segment**. När ni känner era kunder, intressen, demografiska önskemål och kanalönskemål är det enklare att skapa personaliserade upplevelser som sticker ut.
+Identifiera kunder effektivare i alla kanaler med **integrerade kundprofiler**, **anpassade segment** och **kontrollgrupper**. När ni känner era kunder, intressen, demografiska önskemål och kanalönskemål är det enklare att skapa personaliserade upplevelser som sticker ut.
 
 Adobe Campaign skapar omfattande kundprofiler i realtid, så att ni kan leverera mer relevanta och personaliserade erbjudanden när kundens önskemål förändras. Dessutom integrerar Adobe Campaign avancerade funktioner för analys, datahantering och målinriktning för att skapa målgrupper.
 
@@ -57,6 +57,7 @@ Läs mer:
 * [Berika Campaign-databasen](../../audiences/using/enriching-campaign-database.md)
 * [Om målgrupper](../../audiences/using/about-audiences.md)
 * [Välja en målgrupp i ett meddelande](../../audiences/using/selecting-an-audience-in-a-message.md)
+* [Lägga till en kontrollgrupp](../../sending/using/control-group.md)
 
 ## Tillstånd och samtycke {#permission}
 
@@ -85,9 +86,7 @@ Adobe Campaign offers a set of tools to help you with your **Privacy Compliance*
 
 Läs mer i den här [artikeln](https://helpx.adobe.com/se/campaign/kb/campaign-privacy.html) om sekretesshantering och de funktioner vi tillhandahåller för att hantera behörighet till åtkomst, rätt att bli glömd, samtycke, datalagring och användarroller.
 
-Integritet och samtycke i Campaign och hur ni hanterar dem presenteras i [det här avsnittet](../../start/using/privacy.md).
-
-Du hittar också bästa praxis som hjälper dig att följa din sekretesspraxis när du använder vår tjänst.
+Integritet och samtycke i Campaign och hur ni hanterar dem presenteras i [det här avsnittet](../../start/using/privacy.md). Du hittar också bästa praxis som hjälper dig att följa din sekretesspraxis när du använder vår tjänst.
 
 ## Ytterligare resurser
 
