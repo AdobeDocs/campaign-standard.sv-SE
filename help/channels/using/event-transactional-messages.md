@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e8f8755acdc0b778b74e2bfcd4dc898ceff82b90
+source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
 workflow-type: tm+mt
 source-wordcount: '2492'
 ht-degree: 93%
@@ -84,7 +84,7 @@ Följ stegen nedan för att konfigurera anpassning i ett transaktionsmeddelande:
 
    ![](assets/message-center_9.png)
 
-   Du kan kontrollera att anpassningsfälten matchar informationen som anges i testprofilen. Mer information finns i [Definiera en testprofil i ett transaktionsmeddelande](#defining-a-test-profile-in-a-transactional-message).
+   Du kan kontrollera att anpassningsfälten matchar informationen som anges i testprofilen. Mer information finns i [Definiera en testprofil i ett transaktionsmeddelande](../../channels/using/event-transactional-messages.md#defining-specific-test-profile).
 
 ## Använda produktlistor i ett transaktionsmeddelande {#using-product-listings-in-a-transactional-message}
 
@@ -204,7 +204,7 @@ Mer information om hur du skapar en samling och relaterade fält när du konfigu
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   Mer information om hur du definierar en testprofil i ett transaktionsmeddelande finns i [det här avsnittet](#defining-a-test-profile-in-a-transactional-message).
+   Mer information om hur du definierar en testprofil i ett transaktionsmeddelande finns i [det här avsnittet](../../channels/using/event-transactional-messages.md#defining-specific-test-profile).
 
 ## Testa ett transaktionsmeddelande {#testing-a-transactional-message}
 
