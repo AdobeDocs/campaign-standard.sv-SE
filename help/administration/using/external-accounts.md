@@ -13,10 +13,10 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 9ba56ca09a1ae948b6d4b1945085f59db1ade973
 workflow-type: tm+mt
-source-wordcount: '1557'
-ht-degree: 96%
+source-wordcount: '1774'
+ht-degree: 84%
 
 ---
 
@@ -35,6 +35,7 @@ Du kan ställa in följande typer av externa konton:
 * Adobe Analytics. Mer information om detta finns i [det här avsnittet](../../integrating/using/configure-campaign-analytics-integration.md).
 * Google reCAPTCHA. Mer information om detta finns i [det här avsnittet](#google-recaptcha-external-account).
 * Microsoft Azure Blob-lagring. Mer information om detta finns i [det här avsnittet](#microsoft-azure-external-account).
+* OAuth 2.0. For more on this, refer to [this section](#oauth-account).
 
 >[!NOTE]
 >
@@ -94,6 +95,23 @@ SFTP-servrar kan hanteras från kontrollpanelen. Mer information finns i dokumen
 >
 >Kontrollpanelen är bara tillgänglig för administratörer som använder AWS som värd.
 Kontrollera om din instans finns på AWS [här](https://docs.adobe.com/content/help/sv-SE/control-panel/using/faq.html#ims-org-id).
+
+## OAuth 2.0-konto {#oauth-account}
+
+Ange följande information för ett externt OAuth 2.0-konto:
+
+* En **anslagstyp**: endast **klientautentiseringsuppgifter** stöds.
+* En **säker API-URL**: Ange slutpunkten för auktoriseringen.
+* **OAuth 2.0-känsliga autentiseringsuppgifter**: Det här avsnittet är avsett för autentiseringsuppgifter som är känsliga till sin natur. Autentiseringsvärden maskeras på skärmen när de har lagts till, då inte går att läsa eller redigera. Om auktoriseringsslutpunkten kräver att en viss autentiseringsuppgift infogas i HTTP-auktoriseringshuvudet i stället för i POSTENS body-parameter, kan du markera alternativet Include i header för den autentiseringen.
+* **OAuth 2.0 icke-känsliga autentiseringsuppgifter**: Det här avsnittet är avsett för autentiseringsuppgifter som är icke-känsliga till sin natur. Autentiseringsvärden visas på skärmen när de har lagts till. de kan också redigeras.  Om auktoriseringsslutpunkten kräver att en viss autentiseringsuppgift infogas i HTTP-auktoriseringshuvudet i stället för i POSTENS body-parameter, kan du markera alternativet Include i header för den autentiseringen.
+
+När konfigurationen är klar klickar du på **Testa koppling** för att verifiera att det externa kontot är korrekt konfigurerat.
+
+![](assets/external_accounts_OAuth.png)
+
+>[!NOTE]
+>
+>Autentiseringsuppgifterna&quot;Content-Type: application/x-www-form-urlencoded och &quot;grant_type=client_credentials&quot; läggs automatiskt till i API-anropet. Därför behöver du inte lägga till dem i avsnittet med autentiseringsuppgifter.
 
 ## Externt Amazon S3-konto {#amazon-s3-external-account}
 
