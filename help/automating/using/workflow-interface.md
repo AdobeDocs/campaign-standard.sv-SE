@@ -13,7 +13,10 @@ context-tags: workflow,main;workflow,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 813f74458bef5e80e24cc0125ddd8d7de6252196
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -50,9 +53,14 @@ Du måste konfigurera varje aktivitet som läggs till från paletten innan du st
 
 Arbetsytan är den centrala zonen i arbetsflödesredigeraren. Det är i den här zonen som du kan släppa dina aktiviteter, länka samman dem med övergångar och konfigurera dem.
 
-Om du vill länka två aktiviteter flyttar du pilslutet från den första aktiviteten upp till följande aktivitet tills de ansluter. Du kan också flytta aktiviteten mot pilen bakom för att länka den till föregående aktivitet. Om du flyttar någon av aktiviteterna kommer de att vara länkade.
+Om du vill länka två aktiviteter flyttar du pilslutet från den första aktiviteten till nästa tills de ansluter. Du kan också flytta aktiviteten mot pilen bakom för att länka den till föregående aktivitet. Om du flyttar någon av aktiviteterna kommer de att vara länkade.
 
 Övergångar som följer på aktiviteter som behandlar data innehåller de mellanliggande populationerna. Du kan komma åt dem om du markerar **[!UICONTROL Keep interim results]** alternativet i avsnittet **[!UICONTROL Execution]** i arbetsflödesegenskaperna.
+
+>[!CAUTION]
+>
+>Det här alternativet kräver mycket diskutrymme och är utformat för att hjälpa dig att skapa ett arbetsflöde och säkerställa korrekt konfiguration och beteende. Låt det vara omarkerat vid produktionsinstanser.
+
 
 När en aktivitet är markerad visas snabbåtgärder runt aktiviteten så att du kan interagera med den. Om du till exempel vill konfigurera en aktivitet markerar du den och öppnar den sedan med knappen ![](assets/edit_darkgrey-24px_table.png) i snabbåtgärderna.
 
