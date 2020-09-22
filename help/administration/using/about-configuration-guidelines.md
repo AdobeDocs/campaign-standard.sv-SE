@@ -1,6 +1,6 @@
 ---
 title: Konfigurationsriktlinjer
-description: Läs mer om riktlinjerna för konfiguration av Campaign Standard.
+description: Läs mer om riktlinjer för konfiguration av Campaign Standard.
 page-status-flag: never-activated
 uuid: 64c34729-5c98-4db0-9131-af6dd0e78fb4
 contentOwner: sauviat
@@ -12,7 +12,10 @@ discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
+source-git-commit: cd2d38ec65ecc0ee5d6d60ce2ae46eb21da6cd45
+workflow-type: tm+mt
+source-wordcount: '117'
+ht-degree: 5%
 
 ---
 
@@ -21,9 +24,9 @@ source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
 
 ## Kompatibla webbläsare{#compatible-browsers}
 
-Adobe Campaign Standard är kompatibelt med de flesta webbläsare för datorer och de huvudsakliga operativsystemen för surfplattor.
+Adobe Campaign Standard är kompatibelt med de flesta webbläsare, både för datorer och operativsystem för surfplattor.
 
-Adobe Campaign Standard har bara stöd för liggande som visningsläge på surfplattor.
+Adobe Campaign Standard stöder endast liggande som visningsläge på surfplattor.
 
 Här är en lista över webbläsare som är kompatibla med Adobe Campaign Standard:
 
@@ -39,7 +42,7 @@ Här är en lista över webbläsare som är kompatibla med Adobe Campaign Standa
 * iOS (version 7 och senare)
 * Android (version 4.4 och senare)
 
-## Nätverksslutpunkter för Campaign Standard {#campaign-standard-network-endpoints}
+## Campaign Standardens nätverksslutpunkter {#campaign-standard-network-endpoints}
 
 Här är de olika slutpunkterna som används i Campaign Standard.
 
@@ -49,8 +52,7 @@ Här är de olika slutpunkterna som används i Campaign Standard.
 | IMS | `https://adobeid-na1.services.adobe.com`<br>`https://*.adobelogin.com` |
 | Experience Cloud | `https://experiencecloud.adobe.com` |
 | Spårning | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net` |
-| Creative SDK for image editor | `https://dme0ih8comzn4.cloudfront.net`<br>`https://d42hh4005hpu.cloudfront.net/`<br>`https://cdn-creativesdk.adobe.io/`<br>`https://api-ag.aviary.com/`<br>`https://feather-client-files-aviary-prod-us-east-1.s3.amazonaws.com/` |
 | Resursintegrering | `https://*.marketing-assets.adobe.com` |
-| Adobes interna tjänster | `https://*.adobe.io` |
+| Interna Adobe-tjänster | `https://*.adobe.io` |
 | Undersökningar | `https://adobe.allegiancetech.com` |
 | URL för standardprofilering (före klientkonfiguration) | `https://*.adobe-campaign.com` |
