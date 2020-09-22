@@ -12,9 +12,9 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '2028'
+source-wordcount: '2031'
 ht-degree: 2%
 
 ---
@@ -261,7 +261,7 @@ Här är några möjliga orsaker till att du får varningsmeddelanden enligt de 
 
    Möjliga orsaker till en **[!UICONTROL Delivery with bad error ratio for hard bounces]** varning kan vara:
 
-   * Mottagaren är blocklist, vilket innebär att han/hon inte längre vill bli kontaktad.
+   * Mottagaren läggs till i blockeringslista, vilket innebär att han/hon inte längre vill bli kontaktad.
    * Mottagarens e-postadress finns inte.
    * Mottagarens domän finns inte.
    * Mottagarens server blockerar leveransen.
