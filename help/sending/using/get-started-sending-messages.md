@@ -12,10 +12,10 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
+source-git-commit: d90de8255f7b08da2187bb8d1b16624d0d94bd80
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 0%
+source-wordcount: '580'
+ht-degree: 12%
 
 ---
 
@@ -49,31 +49,31 @@ Använd **typologier** för att kontrollera om ditt meddelande är giltigt och u
 
 Läs mer:
 
-* [Förbereder sändningen](../../sending/using/preparing-the-send.md)
+* [Förbered sändningen](../../sending/using/preparing-the-send.md)
 * [Förhandsgranska meddelanden](../../sending/using/previewing-messages.md)
 * [Skicka korrektur](../../sending/using/sending-proofs.md)
 * [E-poståtergivning](../../sending/using/email-rendering.md)
-* [Schemaläggningsmeddelanden](../../sending/using/about-scheduling-messages.md)
+* [Schemaläggning av meddelanden](../../sending/using/about-scheduling-messages.md)
 * [Om typologier och typologiregler](../../sending/using/about-typology-rules.md)
 
 ## Skicka, övervaka och spåra {#send-track-messages}
 
 <img src="assets/do-not-localize/icon_send.svg"  width="60px">
 
-När meddelandet är klart kan du bekräfta överförings- och åtkomstloggarna och rapporterna för att **övervaka leveransen** och mäta kampanjens framgångar. Adobe Campaign tillhandahåller också ett e-postvarningssystem som håller reda på leveransframgångar eller misslyckanden samt karantänhanteringsfunktioner.
+När meddelandet är klart kan du bekräfta överförings- och åtkomstloggarna och rapporterna för att **övervaka leveransen** och mäta kampanjens framgångar. Adobe Campaign har också ett e-postvarningssystem som håller reda på leveransframgångar eller misslyckanden samt karantänhanteringsfunktioner.
 
 **Spåra beteendet** för meddelandemottagarna genom att använda sessioner och permanenta cookies för att hämta spårningsinformation (klickade URL:er, spegelsidor, öppnade meddelanden..).
 
-Slutligen kan du konfigurera Adobe Campaign så att det **behåller en kopia av e-postmeddelanden** som skickas från din plattform via e-post-BCC. Om din organisation behöver arkivera alla utgående e-postmeddelanden för att uppfylla kraven kan du aktivera den funktionen.
+Slutligen kan du konfigurera Adobe Campaign så att det **behåller en kopia av e-postmeddelanden** som skickas från din plattform via e-postkopia. Om din organisation behöver arkivera alla utgående e-postmeddelanden för att uppfylla kraven kan du aktivera den funktionen.
 
 Läs mer:
 
 * [Bekräfta sändningen](../../sending/using/confirming-the-send.md)
 * [Spåra meddelanden](../../sending/using/tracking-messages.md)
 * [Arkivering med e-postkopia](../../sending/using/archiving.md)
-* [Övervaka leverans](../../sending/using/monitoring-a-delivery.md)
-* [Om leveransfel](../../sending/using/understanding-delivery-failures.md)
-* [Om karantänhantering](../../sending/using/understanding-quarantine-management.md)
+* [Övervaka en leverans](../../sending/using/monitoring-a-delivery.md)
+* [Förstå leveransfel](../../sending/using/understanding-delivery-failures.md)
+* [Förstå karantänhantering](../../sending/using/understanding-quarantine-management.md)
 
 ## Riktlinjer för leverans {#improve-deliverability}
 
@@ -85,9 +85,9 @@ Campaign Standard innehåller flera **leveransverktyg** som hjälper dig att fö
 
 Läs mer:
 
-* [Leverans](../../sending/using/about-deliverability.md)
-* [Övervaka leveransen](../../sending/using/monitor-deliverability.md)
-* [Förbättra ert rykte](../../sending/using/improving-reputation.md)
+* [Om leverans](../../sending/using/about-deliverability.md)
+* [Övervaka levererbarhet](../../sending/using/monitor-deliverability.md)
+* [Förbättra ditt rykte](../../sending/using/improving-reputation.md)
 * [Tekniska rekommendationer](../../sending/using/technical-recommendations.md)
 * [Kontrollera leveransflöde](../../reporting/using/delivery-throughput.md)
 
@@ -96,6 +96,6 @@ Läs mer:
 * [Utforma A/B-testmeddelanden](../../channels/using/designing-an-a-b-test-email.md)
 * [Skicka ett test, förbered och skicka ett e-postmeddelande (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/sending-test-preparing-sending-email.html)
 * [Granska e-postleveranser och rapporter (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
-* [Komma igång med e-post](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
-* [Bästa praxis](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
-* [Användningsfall: Bygga en kontrollgrupp](../../automating/using/workflow-control-group.md)
+* [Komma igång med e-post](https://helpx.adobe.com/se/campaign/kb/acs-get-started-with-emails.html)
+* [Bästa praxis för leverans](https://helpx.adobe.com/se/campaign/kb/delivery-best-practices.html)
+* [Lägga till en kontrollgrupp](../../sending/using/control-group.md)
