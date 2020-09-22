@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d5d9d50474142306457a8c76a24388c3c574791d
+source-git-commit: b80197491b45cff46273e1a41e3dfb7a939f96c5
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 15%
@@ -53,7 +53,7 @@ Läs mer [i det här avsnittet](../../sending/using/email-rendering.md).
 
 Genom att skicka korrektur kan du kontrollera länken för avanmälan, spegelsidan och alla andra länkar, validera meddelandet, verifiera att bilder visas, upptäcka eventuella fel osv. Du kanske också vill kontrollera din design och återgivning på olika enheter.
 
-Läs mer [[i det här avsnittet](../../sending/using/sending-proofs.md).
+Läs mer [i det här avsnittet](../../sending/using/sending-proofs.md).
 
 ## Ställ in A/B-testleveranser {#a-b-testing-deliveries}
 
