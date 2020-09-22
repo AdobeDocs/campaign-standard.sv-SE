@@ -12,9 +12,9 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1150'
 ht-degree: 90%
 
 ---
@@ -60,7 +60,7 @@ Om du vill skapa och konfigurera den här landningssidan måste du:
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   Det här sammanhanget tar bort fältet &quot;Blocklist&quot; för att kunna skicka e-post. Vi kommer senare att se att den första landningssidan ställde in det här fältet till **true** före bekräftelsen för att förhindra att e-post skickas till obekräftade profiler. Mer information finns i [Steg 3: Skapa landningssidan för värvning](#step-3--create-the-acquisition-landing-page).
+   Den här kontexten tar bort fältet &quot;På blockeringslista&quot; för att kunna skicka e-post. Vi kommer senare att se att den första landningssidan ställde in det här fältet till **true** före bekräftelsen för att förhindra att e-post skickas till obekräftade profiler. Mer information finns i [Steg 3: Skapa landningssidan för värvning](#step-3--create-the-acquisition-landing-page).
 
 1. Anpassa innehållet på landningssidan: Du kan t.ex. visa anpassade data och ändra bekräftelseknappens etikett till &quot;Klicka här för att bekräfta min prenumeration&quot;.
 
@@ -101,12 +101,12 @@ Händelsen är klar. Nu kan du utforma e-postmallen. Den här mallen måste inne
 
 ### Skapa typologin {#create-the-typology-rule}
 
-Du måste skapa en specifik [typologi](../../sending/using/about-typology-rules.md) genom att duplicera en färdig typologi. Typologin gör att det går att skicka meddelanden till profiler som ännu inte har bekräftat sitt avtal och fortfarande är blocklist. Som standard utesluter typologier avanmälningsprofiler (dvs. blocklist). Så här skapar du en typologi:
+Du måste skapa en specifik [typologi](../../sending/using/about-typology-rules.md) genom att duplicera en färdig typologi. Typologin gör det möjligt att skicka meddelanden till profiler som ännu inte har bekräftat sitt avtal och fortfarande är på blockeringslista. Som standard utesluter typologier avanmälningsprofiler (dvs. på blockeringslista). Så här skapar du en typologi:
 
 1. I Adobe Campaign-logotypen väljer du **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** och klickar på **[!UICONTROL Typologies]**.
 1. Duplicera den färdiga typologin **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**.
 1. När dupliceringen har bekräftats redigerar du den nya typologin och anger etiketten **TYPOLOGIPROFIL**.
-1. Remove the **Denylisted address** rule.
+1. Ta bort **adressen för regeln blockeringslista** .
 1. Klicka på **[!UICONTROL Save]**.
 
 Den här typologin kan nu kopplas till bekräftelsemeddelandet via e-post.
