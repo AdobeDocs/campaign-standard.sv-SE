@@ -12,10 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb83fb3b24af0102dc3745517e8604fdac82ee19
+source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -85,7 +85,7 @@ I det här exemplet kan du skapa en e-postdesignermall genom att använda ett HT
 
 Vi försöker konvertera det här e-postmeddelandet, som har skapats i den äldre redigeraren, till en **[!UICONTROL Email Designer]** mall.
 
-## Identifiera avsnittet i ditt e-postmeddelande
+### Identifiera avsnittet i ditt e-postmeddelande
 
 Vi kan identifiera 11 avsnitt i det här e-postmeddelandet.
 
