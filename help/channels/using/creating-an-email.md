@@ -12,18 +12,21 @@ discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
+source-git-commit: e1e092249a447039c0d845f143be532f845ca1dc
+workflow-type: tm+mt
+source-wordcount: '549'
+ht-degree: 19%
 
 ---
 
 
 # Skapa ett e-postmeddelande{#creating-an-email}
 
-Du kan skapa ett e-postmeddelande från en [kampanj](../../start/using/marketing-activities.md#creating-a-marketing-activity), från Adobe Campaigns [hemsida](../../start/using/interface-description.md#home-page)eller i [marknadsföringsaktivitetslistan](../../start/using/marketing-activities.md#about-marketing-activities). Du kan också skapa e-postmeddelanden som skickas en gång eller som upprepas i ett arbetsflöde.
+Du kan skapa ett e-postmeddelande från en [kampanj](../../start/using/marketing-activities.md#creating-a-marketing-activity), från Adobe Campaign [hemsida](../../start/using/interface-description.md#home-page)eller i [marknadsföringsaktivitetslistan](../../start/using/marketing-activities.md#about-marketing-activities). Du kan också skapa e-postmeddelanden som skickas en gång eller som upprepas i ett arbetsflöde.
 
 1. När du har börjat skapa en e-postmarknadsföringsaktivitet väljer du den mall du vill använda.
 
-   Som standard kan du välja bland flera mallar för varje marknadsföringsaktivitet. På så sätt kan ni förkonfigurera vissa parametrar efter era behov och även tilldela ett varumärke till er leverans. Mer information finns i [Hantera mallar](../../start/using/marketing-activity-templates.md).
+   Som standard kan du välja bland flera mallar för varje marknadsföringsaktivitet. På så sätt kan ni förkonfigurera vissa parametrar efter era behov och även tilldela ett varumärke till er leverans. For more on this, see [Managing templates](../../start/using/marketing-activity-templates.md).
 
    ![](assets/email_creation_1.png)
 
@@ -31,7 +34,7 @@ Du kan skapa ett e-postmeddelande från en [kampanj](../../start/using/marketing
    >
    >Uppföljnings- och A/B-testmallar är dolda som standard. Markera rutorna till vänster ( **[!UICONTROL Filter]** sidopanelen) om du vill visa dem.
 
-1. Ange de allmänna egenskaperna för e-postmeddelandet. Du kan ange ett namn i fältet **Etikett** och redigera ID:t. Både aktivitetsnamnet och dess ID visas i gränssnittet, men de är inte synliga för meddelandemottagarna.
+1. Ange de allmänna egenskaperna för e-postmeddelandet. You can enter a name in the **Label** field and edit the ID. Både aktivitetsnamnet och dess ID visas i gränssnittet, men de är inte synliga för meddelandemottagarna.
 
    Du kan lägga till en beskrivning som användaren kan se i kampanjinnehållet.
 
@@ -41,7 +44,7 @@ Du kan skapa ett e-postmeddelande från en [kampanj](../../start/using/marketing
    >
    >Du kan skapa e-post inom en överordnad kampanj från startsidan eller listan över marknadsföringsaktiviteter. Välj det bland de kampanjer som redan har skapats.
 
-1. Definiera målet för meddelandet utifrån dina affärskriterier. Se [Hantera profiler](../../audiences/using/about-profiles.md).
+1. Definiera målet för meddelandet utifrån dina affärskriterier. See [About profiles](../../audiences/using/about-profiles.md).
 
    Du kan också definiera testprofilerna som ska validera meddelandet. Se [Hantera testprofiler](../../audiences/using/managing-test-profiles.md).
 
@@ -66,19 +69,19 @@ Du kan skapa ett e-postmeddelande från en [kampanj](../../start/using/marketing
 
    ![](assets/delivery_dashboard_2.png)
 
-1. Schemalägg sändning. Se [Schemaläggningsmeddelanden](../../sending/using/about-scheduling-messages.md).
+1. Schemalägg sändningen. Se [Schemaläggning av meddelanden](../../sending/using/about-scheduling-messages.md).
 
    ![](assets/delivery_planning.png)
 
-1. Förbered meddelandet för att analysera dess mål. Se [Förbereda sändningen](../../sending/using/confirming-the-send.md).
+1. Förbered meddelandet för att analysera dess mål. See [Preparing the send](../../sending/using/confirming-the-send.md).
 
    ![](assets/preparing_delivery_2.png)
 
    >[!NOTE]
    >
-   >Ni kan ange globala regler för flerkanalströtthet som automatiskt utesluter överdimensionerade profiler från kampanjer. Mer information finns i [Trötthetsregler](../../sending/using/fatigue-rules.md).
+   >Du kan ange globala fatigue-regler för intersektionskanaler som automatiskt utesluter överdimensionerade profiler från kampanjer. Mer information finns i [Trötthetsregler](../../sending/using/fatigue-rules.md).
 
-1. Skicka korrektur för att kontrollera och validera meddelandet och övervaka inkorgens återgivning. Se [Skicka korrektur](../../sending/using/sending-proofs.md).
+1. Skicka korrektur för att kontrollera och validera meddelandet och övervaka återgivningen i inkorgen. Se [Skicka korrektur](../../sending/using/sending-proofs.md).
 
    ![](assets/bat_select.png)
 
@@ -86,11 +89,11 @@ Du kan skapa ett e-postmeddelande från en [kampanj](../../start/using/marketing
 
    ![](assets/confirm_delivery.png)
 
-1. Mät effekten av meddelandet med leveransrapporter. Mer information om rapportering finns i [det här avsnittet](../../reporting/using/about-dynamic-reports.md).
+1. Mät effekten av meddelandet med leveransrapporter. For more on reporting, see [this section](../../reporting/using/about-dynamic-reports.md).
 
 **Relaterade ämnen**:
 
 * [Skapa en e-postvideo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html)
-* [Skapa en personlig e-postguide](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html) steg för steg
-* [Integreringsvideo för](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html) Adobe Campaign och Dreamweaver
+* [Skapa en personlig e-postguide](https://helpx.adobe.com/se/campaign/kb/acs-get-started-with-emails.html) steg för steg
+* [Integreringsvideo för](https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html) Adobe Campaign och Dreamweaver
 * [Integrera med Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
