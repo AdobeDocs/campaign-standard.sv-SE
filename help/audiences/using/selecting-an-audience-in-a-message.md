@@ -12,11 +12,11 @@ discoiquuid: 158da6ff-8899-4e7b-b925-8a42c3de46a1
 context-tags: deliveryCreation,wizard;delivery,audience,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
-workflow-type: ht
-source-wordcount: '294'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e725ef966bcd6df84ed0c82e17fad65f289fd013
+workflow-type: tm+mt
+source-wordcount: '364'
+ht-degree: 83%
 
 ---
 
@@ -39,6 +39,7 @@ Målgrupper kan definieras när meddelandet skapas via meddelandeskaparhjälpare
 
    * Mål
    * Testprofiler
+
    ![](assets/delivery_audience_definition_2.png)
 
 1. Definiera huvuddelen **[!UICONTROL Target]** av e-postmeddelandet.    Det här är den vanliga målgruppen för e-postmeddelandet.
@@ -54,6 +55,10 @@ Målgrupper kan definieras när meddelandet skapas via meddelandeskaparhjälpare
 1. Definiera det **[!UICONTROL Test profiles]** du vill använda för e-postmeddelandet.  Testprofilerna får den version som du kan skicka innan för att testa e-postmeddelandet innan du skickar ut det till huvudmålet.
 
    Mer information om hur du konfigurerar testprofiler finns i avsnittet [Testprofiler](../../audiences/using/managing-test-profiles.md).
+
+1. Om det behövs kan du definiera en kontrollgrupp med hjälp av motsvarande flik. På så sätt kan du dra tillbaka vissa profiler från målet så att de inte får meddelandet. For more on this, see [Adding a control group](../../sending/using/control-group.md).
+
+1. Du kan också använda ersättningsadresser för att få en exakt representation av meddelandet som profilen kommer att ta emot.  Mer information finns i [Testa e-postmeddelanden med målprofiler](../../sending/using/testing-messages-using-target.md).
 
 Målgruppsblocket uppdateras sedan och visar att ett mål och testprofiler har valts för e-postmeddelandet i fråga.
 
