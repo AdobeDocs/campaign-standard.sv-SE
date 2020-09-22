@@ -12,10 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+source-git-commit: 8e4f25a1d9ad2aa8fb74a6ddd096bda696f502da
 workflow-type: tm+mt
-source-wordcount: '2536'
-ht-degree: 0%
+source-wordcount: '2570'
+ht-degree: 4%
 
 ---
 
@@ -24,10 +24,10 @@ ht-degree: 0%
 
 Innehållet i och visningen av meddelanden från Adobe Campaign kan personaliseras på flera olika sätt. Dessa sätt kan kombineras enligt villkor beroende på profilerna. I allmänhet kan du med Adobe Campaign:
 
-* Infoga dynamiska anpassningsfält. Se [Infoga ett personaliseringsfält](#inserting-a-personalization-field).
-* Infoga fördefinierade personaliseringsblock. Se [Lägga till ett innehållsblock](#adding-a-content-block).
+* Infoga dynamiska personaliseringsfält. Se [Infoga ett personaliserat fält](#inserting-a-personalization-field).
+* Infoga fördefinierade personaliseringsblock. Se [Lägg till ett innehållsblock](#adding-a-content-block).
 * Anpassa avsändaren av ett e-postmeddelande. Se [Anpassa avsändaren](#personalizing-the-sender).
-* Anpassa ämnet för ett e-postmeddelande. Se [Anpassa ämnesraden i ett e-postmeddelande](../../designing/using/subject-line.md#subject-line).
+* Anpassa ämnet för ett e-postmeddelande. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#subject-line).
 * Skapa villkorsstyrt innehåll. Se [Definiera dynamiskt innehåll i ett e-postmeddelande](#defining-dynamic-content-in-an-email).
 
 ## Anpassa avsändaren {#personalizing-the-sender}
@@ -46,7 +46,7 @@ Det här fältet kan anpassas. Om du vill göra det kan du lägga till anpassnin
 
 Med Adobe Campaign kan du anpassa en eller flera URL-adresser i meddelandet genom att lägga till fält för anpassning, innehållsblock eller dynamiskt innehåll. Så här gör du:
 
-1. Infoga en extern URL och ange dess parametrar. Se [Infoga en länk](../../designing/using/links.md#inserting-a-link).
+1. Infoga en extern URL och ange dess parametrar. See [Inserting a link](../../designing/using/links.md#inserting-a-link).
 1. Om den inte visas klickar du på pennan bredvid den valda URL:en i inställningspanelen för att få tillgång till anpassningsalternativen.
 1. Lägg till de anpassningsfält, innehållsblock och dynamiskt innehåll som du vill använda.
 
@@ -58,7 +58,7 @@ Med Adobe Campaign kan du anpassa en eller flera URL-adresser i meddelandet geno
 >
 >Det går inte att anpassa URL:er till domännamnet eller till URL-tillägget. Ett felmeddelande visas under meddelandeanalys om personaliseringen är felaktig. När du markerar ett innehållsblock kan du inte markera element som **Länka till spegelsida**. Den här typen av block tillåts inte inuti en länk.
 
-## Infoga ett anpassningsfält{#inserting-a-personalization-field}
+## Infoga ett personaliserat fält{#inserting-a-personalization-field}
 
 Med Adobe Campaign kan du infoga ett fält från databasen på sidan, t.ex. profilens förnamn.
 
@@ -147,6 +147,7 @@ Så här skapar du ett innehållsblock:
    * **[!UICONTROL Shared]**: Innehållsblocket kan användas på en leverans- eller landningssida.
    * **[!UICONTROL Delivery]**: Innehållsblocket kan bara användas i en leverans.
    * **[!UICONTROL Landing page]**: Innehållsblocket kan bara användas på en landningssida.
+
    ![](assets/content_bloc_02.png)
 
 1. Du kan välja en **[!UICONTROL Targeting dimension]**. Mer information finns i [Om målinriktning](#about-targeting-dimension).
@@ -171,15 +172,15 @@ Med måldimensionen kan du definiera i vilken typ av meddelande som du kan anvä
 
 När du redigerar ett meddelande kan du bara markera innehållsblock med en måldimension som är kompatibel med det meddelandets måldimension.
 
-Exempelvis är **[!UICONTROL Unsubscription link]** blockets måldimension **[!UICONTROL Profiles]** eftersom den innehåller anpassningsfält som är specifika för **[!UICONTROL Profiles]** resursen. Därför kan du inte använda ett **[!UICONTROL Unsubscription link]** -block i ett [händelsetransaktionsmeddelande](../../channels/using/event-transactional-messages.md)eftersom måldimensionen för den typen av meddelande är **[!UICONTROL Real-time events]**. Du kan dock använda **länken** Avprenumerera i ett [profiltransaktionsmeddelande](../../channels/using/profile-transactional-messages.md), eftersom måldimensionen för den typen av meddelanden är **Profiler**. Slutligen har **[!UICONTROL Link to mirror page]** blocket ingen målgruppsdimension, så du kan använda det i alla meddelanden.
+Exempelvis är **[!UICONTROL Unsubscription link]** blockets måldimension **[!UICONTROL Profiles]** eftersom den innehåller anpassningsfält som är specifika för **[!UICONTROL Profiles]** resursen. Därför kan du inte använda ett **[!UICONTROL Unsubscription link]** -block i ett [händelsetransaktionsmeddelande](../../channels/using/event-transactional-messages.md)eftersom måldimensionen för den typen av meddelande är **[!UICONTROL Real-time events]**. Du kan dock använda **länken** Avsluta prenumeration i ett [profiltransaktionsmeddelande](../../channels/using/profile-transactional-messages.md), eftersom måldimensionen för den typen av meddelande är **Profiler**. Slutligen har **[!UICONTROL Link to mirror page]** blocket ingen målgruppsdimension, så du kan använda det i alla meddelanden.
 
 Om du lämnar det här fältet tomt kommer innehållsblocket att vara kompatibelt med alla meddelanden, oavsett vilken måldimension du har. Om du anger en målinriktningsdimension kommer det blocket endast att vara kompatibelt med meddelanden som har samma målinriktningsdimension.
 
-Mer information finns i [Målinställningar och resurser](../../automating/using/query.md#targeting-dimensions-and-resources).
+Mer information om detta hittar du i [Målinställningar och resurser](../../automating/using/query.md#targeting-dimensions-and-resources).
 
 **Relaterade ämnen:**
 
-* [Infoga ett anpassningsfält](#inserting-a-personalization-field)
+* [Infoga ett personaliserat fält](#inserting-a-personalization-field)
 * [Lägga till ett innehållsblock](#adding-a-content-block)
 * [Definiera dynamiskt innehåll i ett e-postmeddelande](#defining-dynamic-content-in-an-email)
 
@@ -226,6 +227,11 @@ De här villkoren använder XTK-uttryckssyntaxen (t.ex. **context.profile.email 
 >Ett villkor kan inte definieras för ett block som redan innehåller ett underelement med ett dynamiskt innehåll eller ett block som redan innehåller ett dynamiskt innehåll. Det går inte att redigera icke-synliga dynamiska block som nedrullningsbara listor.
 
 ### Definiera dynamiskt innehåll i ett e-postmeddelande{#defining-dynamic-content-in-an-email}
+
+>[!CONTEXTUALHELP]
+>id="ac_dynamic_content"
+>title="Definiera dynamiskt innehåll"
+>abstract="Definiera olika innehåll för mottagarna enligt regler som definierats via uttrycksredigeraren."
 
 I ett e-postmeddelande kan du definiera olika innehåll som ska visas dynamiskt för mottagarna enligt villkoren som definieras via uttrycksredigeraren. Från samma e-postadress kan du till exempel se till att varje profil får olika meddelanden beroende på åldersintervall.
 
@@ -329,6 +335,11 @@ E-postmeddelandet skapas enligt följande:
 
 ### Konfigurera bilder {#configuring-images}
 
+>[!CONTEXTUALHELP]
+>id="ac_dynamic_image"
+>title="Hantera dynamiska bilder"
+>abstract="Anpassa e-postmeddelandet med dynamiska bilder enligt regler som definierats via uttrycksredigeraren."
+
 I det här exemplet konfigureras det dynamiska innehållet som används på bilderna enligt följande:
 
 **För 18-27 år gamla:**
@@ -420,5 +431,5 @@ Bilden har ändrats tack vare det dynamiska innehållet, och sloganen som visas 
 **Relaterade ämnen:**
 
 * [Skapa målgrupper](../../audiences/using/creating-audiences.md)
-* [Förbereder sändningen](../../sending/using/preparing-the-send.md)
+* [Förbered sändningen](../../sending/using/preparing-the-send.md)
 
