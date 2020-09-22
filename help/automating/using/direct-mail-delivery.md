@@ -13,7 +13,7 @@ context-tags: directMail,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 99%
@@ -29,11 +29,10 @@ ht-degree: 99%
 
 ![](assets/recurrentpaper.png)
 
-Med **[!UICONTROL Direct mail delivery]**-aktiviteten kan du konfigurera och förbereda en fil som innehåller profildata som du vill använda för en kampanj för direktmeddelanden. Det kan vara ett direktmeddelande som bara används en gång eller ett **återkommande** direktmeddelande.
+Med **[!UICONTROL Direct mail delivery]**-aktiviteten kan du konfigurera och förbereda en fil som innehåller profildata som du vill använda för en kampanj för direktmeddelanden. Det kan vara ett direktmeddelande som bara används en gång eller ett återkommande direktmeddelande.
 
-Vanliga direktmeddelanden skickas en gång.
-
-Med återkommande e-postmeddelanden kan du skicka samma direktmeddelande flera gånger till olika mål under en angiven period. Du kan samla leveranser per period för att få rapporter som motsvarar dina behov.
+* **Vanliga direktmeddelanden skickas en gång.**
+* **Med återkommande e-postmeddelanden kan du skicka samma direktmeddelande flera gånger till olika mål under en angiven period.** Du kan samla leveranser per period för att få rapporter som motsvarar dina behov.
 
 ## Kontext för användning {#context-of-use}
 
