@@ -12,9 +12,9 @@ discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 6078a16c679d368dd85cecbb8b715e2de3da805a
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '443'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ Om inte, kontrollerar du om utlösaren tas emot från pipelinen.
 
 Om inte, kontakta Adobe för att kontrollera konfigurationen av slutpunkterna för pipeline.
 
-Om så är fallet följer du de här stödlinjerna:
+Om så är fallet, följ dessa riktlinjer:
 
 * Kontrollera avstämnings-ID-typen i Campaign-datakällan.
 * CustomerId-datakällan skapas via kundattribut.
@@ -74,10 +74,10 @@ Om så är fallet följer du de här stödlinjerna:
 
 **Är utlösaren i väntande status?**
 
-Om inte, gå vidare till nästa steg. Om så är fallet följer du de här stödlinjerna:
+Om inte, gå vidare till nästa steg. Om så är fallet, följ dessa riktlinjer:
 
 * Kontrollera att transaktionsmallen är publicerad.
-* Kontrollera att profilen inte är blocklist.
+* Kontrollera att profilen inte finns på blockeringslista.
 * Kontrollera tillämpningen av typologiregler.
 * Kontrollera transaktionsmeddelandets loggar.
 
