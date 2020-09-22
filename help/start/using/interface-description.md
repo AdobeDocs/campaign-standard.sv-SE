@@ -12,10 +12,10 @@ discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 9f33ca4e8b6326fce5fd301587b15ce706750c6e
 workflow-type: tm+mt
 source-wordcount: '1144'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -43,7 +43,7 @@ Startsidan består av en uppsättning kort som ger dig snabb åtkomst till huvud
 * Kortet **[!UICONTROL Create an SMS]** tar dig till assistenten för att skapa SMS. Med den här assistenten kan du välja en SMS-typ, välja meddelandemottagare och definiera innehållet. Se avsnittet [Skapa ett SMS](../../channels/using/creating-an-sms-message.md).
 * Kortet **[!UICONTROL Create a Direct mail]** tar dig till assistenten för att skapa direktmeddelanden. Mer information finns i avsnittet [Skapa direktmeddelanden](../../channels/using/creating-the-direct-mail.md).
 * Kortet **[!UICONTROL Create a push notification]** tar dig till assistenten för att skapa meddelanden. Med den här assistenten kan du välja en typ av push-meddelanden, välja meddelandemottagare och definiera innehållet. Se avsnittet [Skapa ett push-meddelande](../../channels/using/preparing-and-sending-a-push-notification.md) .
-* Kortet **[!UICONTROL Create an InApp message]** tar dig till InApp-assistenten för att skapa. Med den här assistenten kan du välja vilken typ av InApp-meddelande du vill skapa, definiera dess egenskaper, målgrupp och innehåll. Se [Skapa ett InApp-meddelande](../../channels/using/about-in-app-messaging.md).
+* The **[!UICONTROL Create an In-App message]** card takes you to the In-App creation assistant. Med den här assistenten kan du välja vilken typ av meddelanden i appen som du vill skapa, definiera dess egenskaper, målgrupp och innehåll. Refer to the [Creating an In-App message](../../channels/using/about-in-app-messaging.md) section.
 * På kortet **[!UICONTROL Marketing activities]** finns en fullständig lista över alla aktiviteter, program och kampanjer, särskilt e-postmeddelanden, SMS, arbetsflöden och landningssidor. Härifrån kan du filtrera elementen genom att söka efter namn, datum, status eller aktivitetstyp. Mer information om detta hittar du i avsnittet [Listan över marknadsföringsaktiviteter](../../start/using/marketing-activities.md#about-marketing-activities).
 * På kortet **[!UICONTROL Programs & campaigns]** finns en lista med program där du kan skapa och hantera kampanjer. Se [Programlista](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns).
 * Kortet **[!UICONTROL Timeline]** tar dig direkt till en interaktiv tidslinje för dina marknadsföringsaktiviteter, där du kan läsa de pågående programmen och deras innehåll. Se [Tidslinjen](../../start/using/timeline.md).
