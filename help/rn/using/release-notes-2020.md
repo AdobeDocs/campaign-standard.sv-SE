@@ -12,10 +12,10 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0b82a9dc86ec9e48e25f1ffe53188ba916a9d074
+source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
-source-wordcount: '2951'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -296,7 +296,7 @@ ht-degree: 95%
 * Organisationsenheten för säkerhetsgruppen Administratörer kan inte längre ändras.
 * När du skapar en profil måste fältet Organisationsenhet nu fyllas i.
 * En Experience Cloud-utlösare kan nu bara tas bort om både händelsen och transaktionsmallen som är kopplad till den tas bort.
-* Adobe Creative SDK har tagits ur bruk. Det är nu inaktuellt i Campaign Standard. Se sidan [Inaktuella och borttagna funktioner](https://helpx.adobe.com/se/campaign/kb/acs-deprecated-and-removed-features.html).
+* [!DNL Adobe Creative SDK] har avvecklats. Det är nu inaktuellt i Campaign Standard. Se sidan [Inaktuella och borttagna funktioner](https://helpx.adobe.com/se/campaign/kb/acs-deprecated-and-removed-features.html).
 
 
 **Patchar**
