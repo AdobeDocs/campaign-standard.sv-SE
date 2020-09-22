@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '5398'
+source-wordcount: '5400'
 ht-degree: 6%
 
 ---
@@ -89,7 +89,7 @@ Se de senaste [dokumentationsuppdateringarna](../../rn/using/documentation-updat
 * Korrigerade ett problem som gjorde att bilder som överförts från en kamera och tagits i stående läge visades i oönskad roterad position.
 * Ett problem som visade otydlig markeringsinformation när frågeredigeringsgränssnittet i Creative Designer användes har korrigerats.
 * Korrigerade ett problem som förhindrade att ett element duplicerades korrekt när frågeredigeringsgränssnittet i Creative Designer användes.
-* Korrigerade ett problem som fortsatte leverera SMS-meddelanden till mottagare som inte är registrerade, trots att de hade avbeställt prenumerationen via ett automatiskt svar. (CAMP-27128)
+* Korrigerade ett problem som fortsatte att leverera SMS-meddelanden till mottagare på blockeringslista, trots att de hade avbeställt prenumerationen via ett automatiskt svar. (CAMP-27128)
 * Korrigerade ett problem som förhindrade att de fel som orsakade att arbetsflödet för **databasrensning** misslyckades visades. (CAMP-26876)
 * Ett problem som kunde förhindra att anpassade fält i en push-meddelandedefinition togs bort har åtgärdats. (CAMP-25588)
 
