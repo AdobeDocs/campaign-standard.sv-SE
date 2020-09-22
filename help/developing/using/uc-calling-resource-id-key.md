@@ -2,19 +2,19 @@
 title: Anropa en resurs med en sammansatt identifieringsnyckel
 description: Lär dig hur du anropar en resurs med en sammansatt identifieringsnyckel
 translation-type: tm+mt
-source-git-commit: 1e1e1f5f9dd239e45d83330aed74a951a7b332d4
+source-git-commit: 81612f8158a19853e4b3ca05866fa335af493f67
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 0%
+source-wordcount: '588'
+ht-degree: 7%
 
 ---
 
 
 # Anropa en resurs med en sammansatt identifieringsnyckel{#calling-a-resource-using-a-composite-identification-key}
 
-I vissa fall kan du behöva definiera en identifieringsnyckel som består av två fält för en resurs. När identifieringsnyckeln har konfigurerats måste du konfigurera en filterdefinition för att kunna anropa resursen med den här identifieringsnyckeln, antingen från gränssnittet i Campaign Standard eller API:erna.
+I vissa fall kan du behöva definiera en identifieringsnyckel som består av två fält för en resurs. När identifieringsnyckeln har konfigurerats måste du konfigurera en filterdefinition för att kunna anropa resursen med den här identifieringsnyckeln, antingen från Campaign Standardens gränssnitt eller API:er.
 
-I det här fallet har **profilresursen** utökats med det anpassade fältet **&quot;CRM ID&quot;** och **&quot;category&quot;** . Vi skapar en identifieringsnyckel för profilresursen som består av dessa två fält. Sedan konfigurerar vi en filterdefinition så att vi kan komma åt profilresursen med hjälp av identifieringsnyckeln.
+I det här fallet har **profilresursen** utökats med anpassade fält för **&quot;CRM-ID&quot;** och **&quot;kategori&quot;** . Vi skapar en identifieringsnyckel för profilresursen som består av dessa två fält. Sedan konfigurerar vi en filterdefinition så att vi kan komma åt profilresursen med hjälp av identifieringsnyckeln.
 
 De huvudsakliga stegen för det här användningsexemplet är:
 
@@ -26,20 +26,20 @@ Relaterade ämnen:
 
 * [Skapa eller utöka resursen](../../developing/using/creating-or-extending-the-resource.md)
 * [Definiera identifieringsnycklar](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
-* [REST API:er för Campaign Standard](../../api/using/get-started-apis.md)
+* [Campaign Standard REST API:er](../../api/using/get-started-apis.md)
 
 ## Steg 1: Konfigurera identifieringsnyckeln{#step-1-configure-the-identification-key}
 
 >[!NOTE]
 > Globala koncept för konfiguration av identifieringsnycklar beskrivs i [det här avsnittet](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
 
-1. Innan du konfigurerar identifieringsnyckeln måste du kontrollera att resursen har utökats med de önskade fälten och att den har publicerats. For more on this, refer to [this section](../../developing/using/creating-or-extending-the-resource.md).
+1. Innan du konfigurerar identifieringsnyckeln måste du kontrollera att resursen har utökats med de önskade fälten och att den har publicerats. Mer information om detta finns i [det här avsnittet](../../developing/using/creating-or-extending-the-resource.md).
 
 1. Gå till menyn **[!UICONTROL Administration]** / **[!UICONTROL Developement]** / **[!UICONTROL Custom resources]** och öppna sedan **[!UICONTROL Profile]** resursen.
 
    ![](assets/uc_idkey1.png)
 
-1. Klicka på **[!UICONTROL Identification keys]** knappen i **[!UICONTROL Create element]** avsnittet.
+1. In the **[!UICONTROL Identification keys]** section, click the **[!UICONTROL Create element]** button.
 
    ![](assets/uc_idkey2.png)
 
@@ -48,7 +48,7 @@ Relaterade ämnen:
    ![](assets/uc_idkey3.png)
 
    >[!NOTE]
-   > Om du vill visa de två anpassade fälten i profilens gränssnitt konfigurerar du **[!UICONTROL Screen definition]** fliken. For more on this, refer to [this section](../../developing/using/configuring-the-screen-definition.md).
+   > Om du vill visa de två anpassade fälten i profilens gränssnitt konfigurerar du **[!UICONTROL Screen definition]** fliken. Mer information om detta finns i [det här avsnittet](../../developing/using/configuring-the-screen-definition.md).
 
 1. Nu kan du konfigurera filterdefinitionen så att den kan anropa resursen med hjälp av dess identifieringsnyckel.
 
@@ -76,7 +76,7 @@ Relaterade ämnen:
    ![](assets/uc_idkey7.png)
 
    >[!NOTE]
-   > När du har klickat på plusknappen genereras parameternamnet automatiskt. Observera den här informationen eftersom du behöver den för att använda filtret från API:erna.
+   > När du har klickat på **+** genereras parameternamnet automatiskt. Observera den här informationen eftersom du behöver den för att använda filtret från API:erna.
 
 1. Upprepa stegen ovan med alla fält som utgör identifieringsnyckeln (&quot;kategori&quot;) och spara sedan ändringarna.
 
@@ -92,7 +92,7 @@ Om du vill använda filterdefinitionen från gränssnittet använder du en **[!U
 
 ![](assets/uc_idkey9.png)
 
-Om du vill använda filterdefinitionen från Campaign Standard REST API:er använder du syntaxen nedan:
+Om du vill använda filterdefinitionen från Campaign Standardens REST API:er använder du syntaxen nedan:
 
 ```
 GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<value>&<param2_parameter>=<value>
@@ -107,4 +107,4 @@ I det här fallet skulle syntaxen för att hämta en profil från kategorin &quo
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byidentification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
-Mer information finns i dokumentationen för [Campaign Standard REST APIs](../../api/using/filtering.md).
+Mer information finns i [Campaign Standardens REST API:er-dokumentation](../../api/using/filtering.md).
