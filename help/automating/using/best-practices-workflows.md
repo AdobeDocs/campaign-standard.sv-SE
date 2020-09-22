@@ -12,10 +12,10 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+source-git-commit: c4373c444ed51e03c16be05363e9e4128a6f4a58
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 98%
+source-wordcount: '1069'
+ht-degree: 93%
 
 ---
 
@@ -73,12 +73,15 @@ Mer information finns under [Köra arbetsflöden](../../automating/using/about-w
 
 Med egenskaperna för ett arbetsflöde kan du definiera en specifik tidszon som ska användas som standard i alla dess aktiviteter. Som standard är arbetsflödets tidszon den som definieras för den aktuella Campaign-operatorn.
 
-
 ## Aktivitet{#activity}
+
+### Antal aktiviteter per arbetsflöde {#number-activities}
+
+Vi rekommenderar att du använder upp till 100 aktiviteter i ett enda arbetsflöde. Över 100 aktiviteter kan medföra prestandaproblem när du utformar och konfigurerar arbetsflödet.
 
 ### Arbetsflödesdesign
 
-Om du vill vara säker på att arbetsflödet avslutas korrekt använder du **[!UICONTROL End activity]**. Undvik att enskilt lämna den sista övergången i ett arbetsflöde.
+För att arbetsflödet ska avslutas på rätt sätt bör du undvika att lämna den sista övergången i ett arbetsflöde separat genom att använda ett **[!UICONTROL End activity]**.
 
 Om du vill få åtkomst till detaljvyn för övergångarna markerar du alternativet **[!UICONTROL Keep interim results]** i avsnittet Körning i egenskaperna för arbetsflödet. 
 
