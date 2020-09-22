@@ -12,9 +12,9 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cd1cbf907eb160b6bbc1a2a2d3dd1c601ac13635
+source-git-commit: 6078a16c679d368dd85cecbb8b715e2de3da805a
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -158,12 +158,12 @@ Om du har en separat process för att hantera avanmälningssynkronisering mellan
 
 Flödesmappning för avanmälan ska anges av kunden eftersom affärskraven kan skilja sig mellan olika företag.  På Campaign-sidan kan endast OTB-avanmälningsattribut användas för avanmälningsmappning:
 * blockeringslista
-* blockListEmail
-* blockListFax
-* blockListMobile
-* blockListPhone
-* blockListPostalMail
-* blockListPushnotification
+* denyListEmail
+* denyListFax
+* denyListMobile
+* denyListPhone
+* denyListPostalMail
+* denyListPushnotification
 * ccpaOptOut
 
 I Dynamics 365 har de flesta avanmälningsfält prefixet &quot;donot&quot;. Du kan dock även använda andra attribut för avanmälan om datatyperna är kompatibla.
