@@ -12,10 +12,10 @@ discoiquuid: c26fcb0e-19d5-4bd5-b7d6-2d22ce92ad90
 context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
-workflow-type: ht
-source-wordcount: '929'
+translation-type: tm+mt
+source-git-commit: bbb059c2094558ec02661cb6f41d50a91038d58b
+workflow-type: tm+mt
+source-wordcount: '958'
 ht-degree: 100%
 
 ---
@@ -34,6 +34,10 @@ Den typ av data som utbyts mellan olika aktiviteter kan påverka hur följande a
 Du kan öppna aktiviteter för att kontrollera eller redigera parametrar före eller efter att arbetsflödet har körts.
 
 Du kan öppna övergångar om du vill kontrollera att skickade data är korrekta under eller efter arbetsflödets körning. Om du vill få åtkomst till detaljvyn för övergångarna måste du markera alternativet **[!UICONTROL Keep interim results]** i avsnittet **[!UICONTROL Execution]** i arbetsflödesegenskaperna.
+
+>[!CAUTION]
+>
+>Det här alternativet kräver mycket diskutrymme och är utformat för att hjälpa dig att skapa ett arbetsflöde och säkerställa korrekt konfiguration och beteende. Låt det vara omarkerat vid produktionsinstanser.
 
 ![](assets/workflow_overview.png)
 
@@ -96,7 +100,7 @@ Så här skapar du diagrammet:
 
 1. Lägg till en aktivitet genom att dra den från paletten och släppa den i diagrammet.
 
-   Du kan till exempel lägga till en **[startaktivitet](../../automating/using/start-and-end.md)**och sedan en**[ e-postleveransaktivitet](../../automating/using/email-delivery.md)** i diagrammet.
+   Du kan till exempel lägga till en **[startaktivitet](../../automating/using/start-and-end.md)** och sedan en **[e-postleveransaktivitet](../../automating/using/email-delivery.md)** i diagrammet.
 
 1. Koppla samman aktiviteterna genom att dra övergången för **startaktiviteten** och släppa den i **e-postleveransaktiviteten**.
 
