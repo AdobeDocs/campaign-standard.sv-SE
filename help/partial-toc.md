@@ -15,15 +15,18 @@ other-title: Tutorials2
 other-url: https://helpx.adobe.com/campaign/tutorials.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/campaign-standard.en
 translation-type: tm+mt
-source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
+source-git-commit: b80197491b45cff46273e1a41e3dfb7a939f96c5
+workflow-type: tm+mt
+source-wordcount: '51'
+ht-degree: 37%
 
 ---
 
 
-# Campaign-Standard-TOC {#campaign-standard}
+# Campaign-Standard-TOC {#campaign-standard-partial-ignore}
 
 + Administration{#administration}
-   + [Trötthetsregler](sending/using/fatigue-rules.md)
+   + [Fatigue-regler](sending/using/fatigue-rules.md)
    + [Om typologiregler](sending/using/about-typology-rules.md)
    + [Om typologiregler - Lista](sending/using/about-typology-rules.md#typology-rules)
    + [Konfigurera e-postkanal](administration/using/configuring-email-channel.md)
