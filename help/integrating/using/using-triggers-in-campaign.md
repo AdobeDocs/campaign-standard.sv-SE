@@ -12,10 +12,10 @@ discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: dddd147d01f935ec6f1513c5f92bddf6e789abb1
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 98%
+source-wordcount: '725'
+ht-degree: 86%
 
 ---
 
@@ -50,14 +50,31 @@ Stegen för att implementera detta är:
 
    ![](assets/remarketing_4.png)
 
-1. Klicka på knappen **[!UICONTROL Publish]** för att börja publicera utlösarhändelsen.
+1. Nu kan du publicera dina utlösare. Mer information finns i [Publicera en utlösare i Campaign](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign).
+
+## Publicera en utlösare i Campaign {#publishing-trigger-in-campaign}
+
+När du har skapat en utlösarhändelse i Adobe Campaign baserat på en befintlig Adobe Experience Cloud-utlösare måste du nu publicera den.
+
+1. Klicka på knappen från den tidigare utlösaren för att börja publicera utlösarhändelsen genom att klicka på **[!UICONTROL Publish]** knappen.
+
+   ![](assets/trigger_publish_1.png)
+
+1. Du kan kontrollera förloppet för utlösarpublikationen under **[!UICONTROL Publication]**.
+
+   ![](assets/trigger_publish_2.png)
+
+1. När publiceringen är klar visas följande meddelande under **[!UICONTROL Publication]**.
+
+   ![](assets/trigger_publish_3.png)
+
 1. Om du behöver göra en ändring i utlösarschemat även efter att du har publicerat utlösarhändelsen klickar du på knappen **[!UICONTROL Update schema]** för att hämta de senaste ändringarna.
 
    Observera att den här åtgärden avpublicerar utlösaren och transaktionsmeddelandet. Du måste publicera om dem efteråt.
 
-   ![](assets/remarketing_11.png)
+   ![](assets/trigger_publish_4.png)
 
-Med knappen **[!UICONTROL Show Trigger in Experience Cloud]** kan du visa utlösardefinitionen i Adobe Experience Cloud.
+1. Click **[!UICONTROL Show Trigger in Experience Cloud]** button allows you to view the trigger definition in Adobe Experience Cloud.
 
 När händelsen har publicerats skapas sedan en transaktionsmall som är kopplad till den nya händelsen automatiskt. Sedan måste du ändra och publicera mallen som skapades. Mer information finns i avsnittet [Redigera mallen](../../start/using/marketing-activity-templates.md).
 
