@@ -12,9 +12,9 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 621c29ae08770b50629ba3d27116f93f8b5c3f62
+source-git-commit: 2ef169d9bf76856bb687af88358e0452953313a0
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: '1448'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,8 @@ Lär dig mappa Campaign-resurser och Dynamics 365-enheter [i det här avsnittet]
 
 På grund av skillnaderna i avanmälningsattribut mellan Dynamics 365 och Campaign, och skillnaderna i affärsbehov för varje kund, har avanmälningsmappning lämnats som en övning för kunden att slutföra.  Det är viktigt att avanmälningarna mappas korrekt mellan systemen så att inställningarna för avanmälan från slutanvändare upprätthålls och de inte får något meddelande via en kanal som de avanslutit sig från.
 
-Observera att endast Campaign-attribut med prefixet &quot;blockeringslista&quot; (t.ex. blockListEmail) eller det specifika attributet för CCPA-avanmälan kan användas i avanmälningsmappningar.  I Dynamics 365 har de flesta avanmälningsfält prefixet &quot;donot&quot;. Du kan dock även använda andra attribut för avanmälan om datatyperna är kompatibla.
+Observera att endast Campaign-attribut med prefixet&quot;Ingen kontakt via&quot; (t.ex. ingen kontakt via e-post) eller det specifika attributet för CCPA-avanmälan kan användas i avanmälningsmappningar. [Läs mer](../../developing/using/datamodel-profile.md).
+I Dynamics 365 har de flesta avanmälningsfält prefixet &quot;donot&quot;. Du kan dock även använda andra attribut för avanmälan om datatyperna är kompatibla.
 
 När du etablerar integreringen kan du ange vilken avanmälningskonfiguration du behöver för ditt företag:
 
