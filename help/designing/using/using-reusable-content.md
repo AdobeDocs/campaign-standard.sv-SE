@@ -12,25 +12,28 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+workflow-type: tm+mt
+source-wordcount: '1803'
+ht-degree: 0%
 
 ---
 
 # Skapa och använda återanvändbart innehåll {#using-reusable-content}
 
-Lär dig hur du hanterar utgåvor av e-postinnehåll. Med e-postdesignern kan du skapa mallar och fragment med ditt eget fördefinierade innehåll och återanvända dem för följande leveranser.
+Lär dig hur du överordnad publicerar e-postinnehåll. Med e-postdesignern kan du skapa mallar och fragment med ditt eget fördefinierade innehåll och återanvända dem för följande leveranser.
 
 ## Utforma e-postmeddelanden med mallar {#designing-templates}
 
 >[!NOTE]
 >
-> I Adobe Campaign Standard kan du skapa olika typer av mallar som är tillgängliga via menyn **Resurser** > **Mallar** . Mallarna som används i e-postdesignern är innehållsmallar. Mer information finns i [Om mallar](../../start/using/marketing-activity-templates.md).
+> I Adobe Campaign Standard kan du skapa olika typer av mallar som du kan komma åt via menyn **Resurser** > **Mallar** . Mallarna som används i e-postdesignern är innehållsmallar. Mer information finns i [Om mallar](../../start/using/marketing-activity-templates.md).
 
 ### Om innehållsmallar {#content-templates}
 
 Du kan hantera HTML-innehåll som finns på **[!UICONTROL Templates]** fliken på [e-postdesignerns](../../designing/using/designing-content-in-adobe-campaign.md) hemsida.
 
-De körklara mallarna för e-postinnehåll innehåller 18 mobiloptimerade layouter och fyra förstklassiga responsiva mallar som designats av Behance-artister. De motsvarar bland annat de mest aktuella användningsområdena, som välkomstmeddelanden, nyhetsbrev och e-postmeddelanden om återengagemang. De kan enkelt anpassas med ert varumärkes innehåll för att underlätta processen att utforma e-postmeddelanden från grunden.
+De färdiga mallarna för e-postinnehåll innehåller 18 mobiloptimerade layouter och fyra förstklassiga responsiva mallar som tagits fram av Behance-artister. De motsvarar bland annat de mest aktuella användningsområdena, som välkomstmeddelanden, nyhetsbrev och e-postmeddelanden om återengagemang. De kan enkelt anpassas med ert varumärkes innehåll för att underlätta processen att utforma e-postmeddelanden från grunden.
 
 ![](assets/template_content.png)
 
@@ -61,6 +64,7 @@ I följande exempel visas hur du skapar en mall för e-postinnehåll.
 
    * Välj **[!UICONTROL Shared]** eller **[!UICONTROL Delivery]** från **[!UICONTROL Content type]** listrutan.
    * Välj **[!UICONTROL Template]** i **[!UICONTROL HTML type]** listrutan.
+
    ![](assets/email_designer_create-template.png)
 
 1. Om det behövs kan du ange en bild som ska användas som miniatyrbild för mallen. Markera den på fliken **[!UICONTROL Thumbnail]** i mallegenskaperna.
@@ -128,7 +132,7 @@ Nu kan du skapa en e-postmall med e-postdesignern. Använd innehållskomponenter
 
    ![](assets/des_loading_compatible_fragment_10.png)
 
-1. Spara mallen.
+1. Spara mallen.  
 
 Du kan nu hantera den här mallen helt och hållet i e-postdesignern för att skapa och uppdatera nyhetsbrevet som du skickar till mottagarna varje månad.
 
@@ -141,6 +145,11 @@ Om du vill använda den skapar du ett e-postmeddelande och väljer den innehåll
 * [Designa ett e-postinnehåll från grunden](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
 ## Om fragment {#about-fragments}
+
+>[!CONTEXTUALHELP]
+>id="ac_fragments"
+>title="Om fragment"
+>abstract="Ett fragment är en återanvändbar komponent som kan refereras i ett eller flera e-postmeddelanden."
 
 Ett fragment är en återanvändbar komponent som kan refereras i ett eller flera e-postmeddelanden.
 De finns i gränssnittet under **Resurser** > **Innehållsfragment och mallar**.
@@ -176,7 +185,7 @@ Om du vill definiera innehållet i ditt e-postmeddelande kan du lägga till inne
 
    ![](assets/email_designer_movefragment.png)
 
-1. Redigera elementet så att det matchar e-postmeddelandets exakta behov. Du kan lägga till text, länkar, bilder och så vidare.
+1. Redigera elementet så att det matchar det här e-postmeddelandets exakta behov. Du kan lägga till text, länkar, bilder och så vidare.
 
    >[!NOTE]
    >
@@ -201,6 +210,7 @@ Du kan skapa egna innehållsfragment och använda dem efter behov i ett eller fl
 
    * Eftersom fragment endast är kompatibla med e-postmeddelanden väljer du **[!UICONTROL Delivery]** i **[!UICONTROL Content type]** listrutan.
    * Välj **[!UICONTROL Fragment]** i **[!UICONTROL HTML type]** listrutan för att kunna använda innehållet som ett fragment.
+
    ![](assets/email_designer_createfragment.png)
 
 1. Om det behövs kan du ange en bild som ska användas som miniatyrbild för fragmentet. Markera den på fliken **[!UICONTROL Thumbnail]** i mallegenskaperna.
@@ -286,24 +296,24 @@ To save as a fragment some email content that you created, follow the steps belo
 
 Skapa ett fragment för varje återanvändningsbart avsnitt med e-postdesignern. I det här exemplet skapar du två fragment: en för sidhuvudet och en för sidfoten. Sedan kan du kopiera relevanta delar från ditt befintliga innehåll till dessa fragment.
 
-Gör så här:
+Följ stegen nedan för att göra detta:
 
 1. I Adobe Campaign går du till **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** och skapar ett fragment för sidhuvudet. Mer information finns i [Skapa ett innehållsfragment](#creating-a-content-fragment).
 1. Lägg till så många strukturkomponenter du behöver i fragmentet.
 
-![](assets/des_loading_compatible_fragment_1.png)
+   ![](assets/des_loading_compatible_fragment_1.png)
 
 1. Infoga bild- och textkomponenter i strukturen.
 
-![](assets/des_loading_compatible_fragment_2.png)
+   ![](assets/des_loading_compatible_fragment_2.png)
 
 1. Överför motsvarande bild, ange texten och justera inställningarna.
 
-![](assets/des_loading_compatible_fragment_3.png)
+   ![](assets/des_loading_compatible_fragment_3.png)
 
 1. Spara fragmentet.
 1. Skapa sidfoten och spara den på liknande sätt.
 
-![](assets/des_loading_compatible_fragment_4.png)
+   ![](assets/des_loading_compatible_fragment_4.png)
 
 Dina fragment kan nu användas i en mall.
