@@ -13,10 +13,10 @@ context-tags: query,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
 workflow-type: tm+mt
-source-wordcount: '1720'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -71,9 +71,7 @@ Aktiviteten **[!UICONTROL Query]** kan användas för olika typer av användning
 
 Med måldimensionerna och resurserna kan du definiera vilka element en fråga ska baseras på för att avgöra målet för en leverans.
 
-Måldimensioner definieras i målmappningar.  Mer information om detta hittar du i [det här avsnittet](../../administration/using/target-mappings-in-campaign.md).
-
-Måldimensioner och resurser definieras när du skapar ett arbetsflöde under fliken **[!UICONTROL Properties]** i en förfrågningsaktivitet.
+De konfigureras i [målmappningar](../../administration/using/target-mappings-in-campaign.md)och definieras när du skapar ett arbetsflöde på fliken **[!UICONTROL Properties]** i en Query-aktivitet.
 
 >[!NOTE]
 >
