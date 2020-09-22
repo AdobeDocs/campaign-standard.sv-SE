@@ -12,10 +12,10 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
+source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 2%
+source-wordcount: '798'
+ht-degree: 3%
 
 ---
 
@@ -43,7 +43,7 @@ Mer information om Adobe Experience Platform SDK och integrering av Campaign Sta
 
 Ja, [!DNL Adobe Experience Platform SDK] integrering finns för både Adobe Campaign Standard och Adobe Campaign Classic. Du måste installera motsvarande **[!UICONTROL Extension]** via [!DNL Adobe Launch] för att kunna aktivera integreringen.
 
-Mer information finns på den här [sidan](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic) för Campaign Classic och på den här [sidan](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) för Campaign Standard.
+Se denna [sida](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) för mer information om detta.
 
 ## Vilka funktioner underlättar Adobe Experience Platform SDK-integreringen i Adobe Campaign? {#aep-capabilities}
 
