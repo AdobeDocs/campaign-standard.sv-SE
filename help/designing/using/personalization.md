@@ -12,9 +12,9 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8e4f25a1d9ad2aa8fb74a6ddd096bda696f502da
+source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2573'
 ht-degree: 4%
 
 ---
@@ -231,7 +231,7 @@ De här villkoren använder XTK-uttryckssyntaxen (t.ex. **context.profile.email 
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_content"
 >title="Definiera dynamiskt innehåll"
->abstract="Definiera olika innehåll för mottagarna enligt regler som definierats via uttrycksredigeraren."
+>abstract="Definiera olika innehåll som bara ska visas för vissa profiler enligt villkor som du definierar."
 
 I ett e-postmeddelande kan du definiera olika innehåll som ska visas dynamiskt för mottagarna enligt villkoren som definieras via uttrycksredigeraren. Från samma e-postadress kan du till exempel se till att varje profil får olika meddelanden beroende på åldersintervall.
 
@@ -338,7 +338,7 @@ E-postmeddelandet skapas enligt följande:
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_image"
 >title="Hantera dynamiska bilder"
->abstract="Anpassa e-postmeddelandet med dynamiska bilder enligt regler som definierats via uttrycksredigeraren."
+>abstract="Anpassa e-postmeddelandet med dynamiska bilder enligt villkor som du definierar."
 
 I det här exemplet konfigureras det dynamiska innehållet som används på bilderna enligt följande:
 
