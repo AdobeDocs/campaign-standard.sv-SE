@@ -12,9 +12,9 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1241'
 ht-degree: 2%
 
 ---
@@ -46,12 +46,12 @@ Du kan även se den här [introduktionsvideon](https://video.tv.adobe.com/v/2277
 >[!CONTEXTUALHELP]
 >id="ac_structure_components"
 >title="Om strukturkomponenter"
->abstract="Strukturella element som definierar layouten för e-postmeddelandet."
+>abstract="Strukturkomponenter definierar layouten för e-postmeddelandet."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns"
 >title="Definiera e-postkolumner"
->abstract="Med e-postdesignern kan du enkelt definiera kolumnstrukturen i ditt e-postmeddelande."
+>abstract="Med e-postdesignern kan du enkelt definiera layouten för e-postmeddelandet genom att definiera kolumnstrukturen."
 
 Med e-postdesignern kan du enkelt definiera e-postens struktur. Genom att lägga till och flytta strukturella element med enkla dra-och-släpp-åtgärder kan du designa formen på e-postmeddelandet på några sekunder.
 
@@ -111,7 +111,7 @@ Du kan lägga till en **[!UICONTROL Content block]**, en **[!UICONTROL Dynamic c
 >[!CONTEXTUALHELP]
 >id="ac_content_components"
 >title="Om innehållskomponenter"
->abstract="Innehållskomponenter är tomma, råa komponenter som du kan redigera när de har placerats i ett e-postmeddelande."
+>abstract="Innehållskomponenterna är tomma platshållare för innehåll som du kan redigera för att skapa ett e-postmeddelande."
 
 Innehållskomponenter är tomma, råa komponenter som du kan redigera när de har placerats i ett e-postmeddelande.
 
@@ -164,7 +164,9 @@ När du har ett innehåll som inte kan återskapas kan du kopiera och klistra in
 >[!CONTEXTUALHELP]
 >id="ac_edition_video"
 >title="Videoinställningar"
->abstract="Använd den här komponenten för att infoga en video i e-postmeddelandet."
+>abstract="Använd den här komponenten för att infoga en video i e-postmeddelandet. Observera att videoklipp inte fungerar på alla e-postklienter. Vi rekommenderar att du ställer in en reservbild."
+>additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Ytterligare information"
+
 
 Infoga videokomponenten i en strukturkomponent i e-postmeddelandet och ange videolänken i **[!UICONTROL Component Settings]**.
 
@@ -187,7 +189,7 @@ Använd den här komponenten för att infoga länkar till sidor för sociala med
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"
 >title="Carousel-inställningar"
->abstract="Lär dig hur du infogar och konfigurerar en karusell i ditt innehåll."
+>abstract="Lär dig hur du infogar och konfigurerar en Carousel i ditt innehåll.Observera att Carousel inte fungerar på alla e-postklienter och att en reservbild visas om den inte stöds."
 
 1. Dra och släpp **[!UICONTROL Carousel]** komponenten inuti en strukturkomponent.
 1. Bläddra och välj bilder från datorn.
