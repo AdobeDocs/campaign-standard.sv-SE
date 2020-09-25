@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 893cd3a07063f8349dfeeae0f3274a6f54bf04f7
+source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
 workflow-type: tm+mt
 source-wordcount: '2441'
 ht-degree: 4%
@@ -116,7 +116,7 @@ ht-degree: 4%
 * När du publicerar en anpassad resurs visas nu ett bekräftelsemeddelande när du har förberett den.
 * Popup-meddelandet som visas när en anpassad resurs misslyckas har förbättrats för att bli tydligare.
 * Uttrycksredigeraren i arbetsflöden har förbättrats för att förhindra körningsfel. [Nya funktioner](../../automating/using/customizing-workflow-external-parameters.md) är tillgängliga: de kan användas i alla aktiviteter som gör att du kan använda händelsevariabler efter att ha anropat ett arbetsflöde med externa parametrar. Dessutom visas nu ett verktygstips i uttrycksredigeraren med funktionsbeskrivningen.
-* Nya filter har lagts till i listan över transaktionshändelser. De gör att du kan filtrera händelsekonfigurationerna efter deras status samt den senaste gången en händelse togs emot.
+* [Nya filter](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events) har lagts till i listan över transaktionshändelser. De gör att du kan filtrera händelsekonfigurationerna efter deras status samt den senaste gången en händelse togs emot.
 * Loggarna som visas när du exporterar paket har gjorts mer specifika och detaljerade om de fel som påträffats vid fel.
 * När du har skickat ett meddelande kan du nu söka efter, filtrera och exportera listan med [spårade URL-adresser](../../sending/using/tracking-messages.md).
 * Automatisk [synkronisering mellan Launch och Campaign](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) är nu GA och aktiverat som standard.
