@@ -1,6 +1,6 @@
 ---
-title: Kom igång med Campaign Standards-API:er
-description: Läs mer om programmeringsgränssnitt för Campaing Standard.
+title: Kom igång med Campaign Standard-API:er
+description: Campaign Standard-API:er är avsedda att göra det möjligt att skapa integreringar och bygga ett eget ekosystem genom att interagera Campaign med den panel med tekniker som ni använder.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -12,19 +12,19 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 0%
+source-wordcount: '244'
+ht-degree: 15%
 
 ---
 
 
-# Kom igång med Campaign Standards-API:er {#get-started-apis}
+# Kom igång med Campaign Standard-API:er {#get-started-apis}
 
-Campaign Standard-API:er är avsedda att göra det möjligt att **skapa integreringar** för Adobe Campaign Standard och **bygga ett eget ekosystem** genom att interagera Adobe Campaign Standard med den panel med tekniker som du använder.
+Campaign Standard-API:er är avsedda att göra det möjligt att **skapa integreringar** för Adobe Campaign Standard och **bygga egna ekosystem** genom att interagera med Adobe Campaign Standard med den tekniska panel som du använder.
 
-Med Adobe Campaign Standard-API:erna får du tillgång till följande funktioner:
+Med Adobe Campaign Standard API:er får du tillgång till följande funktioner:
 
 <table><tr>
  <td valign="top"><a href="../../api/using/retrieving-profiles.md"><img width="60px" alt="villkor" src="assets/icon_profile.svg"/></a><p><a href="../../api/using/retrieving-profiles.md">Profiler</a></p></td>
@@ -43,8 +43,8 @@ Med Adobe Campaign Standard-API:erna får du tillgång till följande funktioner
 >
 >Innan du genomför API-anrop bör du kontrollera de skalbegränsningar som motsvarar licensavtalet. For more on this, refer to [this page](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
 
-Om du vill använda Campaign Standard-API:t behöver du ett Adobe I/O-konto. Detta är ett obligatoriskt första steg för att gå framåt och upptäcka API-funktionerna.
-For more on this, refer to [this section](../../api/using/setting-up-api-access.md).
+Om du vill använda Campaign Standard-API:t måste du ha ett Adobe I/O-konto. Detta är ett obligatoriskt första steg för att gå framåt och upptäcka API-funktionerna.
+Mer information om detta finns i [det här avsnittet](../../api/using/setting-up-api-access.md).
 
 De API:er vi tillhandahåller använder **standardkoncept** med ett REST-gränssnitt och JSON-nyttolaster.
 
