@@ -1,6 +1,6 @@
 ---
 title: Designa innehåll i Adobe Campaign
-description: Lär dig mer om alla element som du kan definiera i ditt innehåll med Adobe Campaign.
+description: Använd Campaign Email Designer för att skapa engagerande, individuellt anpassade e-postmeddelanden via ett dra-och-släpp-gränssnitt. Börja från en tom sida, eller utnyttja befintliga innehållsfragment eller mallar, utforma och förfina allt innehåll för varje e-postmeddelande
 page-status-flag: never-activated
 uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 67fbf66d8ad358ae5d2caaec5b90beb6304047e6
+source-git-commit: 3859c91e4aa083d897c02769495113f62e071f3c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1162'
+ht-degree: 4%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 När du har skapat ett e-postmeddelande i Adobe Campaign måste du definiera dess innehåll.
 
-Med e-postdesignern kan du skapa engagerande, individuellt anpassade e-postmeddelanden via ett dra-och-släpp-gränssnitt som utökas av integreringar med Creative Cloud. Oavsett om du börjar från en tom sida eller använder befintliga innehållskomponenter eller mallar kan du utforma och förfina allt innehåll för varje e-postmeddelande, oavsett om det är en reklam eller en transaktion.
+Med e-postdesignern kan du skapa engagerande, individuellt anpassade e-postmeddelanden via ett dra-och-släpp-gränssnitt. Oavsett om du börjar från en tom sida eller använder befintliga innehållskomponenter eller mallar kan du utforma och förfina allt innehåll för varje e-postmeddelande, oavsett om det är en reklam eller en transaktion.
 
 Med e-postdesignern, som är utformad för att leverera HTML som är optimerad för responsiv design, kan du enkelt definiera och använda synlighetsvillkor och dynamiskt innehåll i ett e-postmeddelande, en mall eller ett fragment direkt via användargränssnittet. Du kan smidigt växla mellan dra och släpp-gränssnittet och HTML-koden genom att klicka på en knapp.
 
