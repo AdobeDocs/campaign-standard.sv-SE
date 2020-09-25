@@ -1,6 +1,6 @@
 ---
 title: Kom igång med Campaign Standard-administration
-description: Adobe Campaign har en komplett uppsättning administrationsverktyg. Lär dig hur du hanterar dina användare och konfigurerar dina kanaler.
+description: Upptäck hur du hanterar användare, definierar roller och beviljar behörigheter. lär dig övervakningsriktlinjer, kanalspecifika konfigurationer och programinställningar som målmappningar, tekniska arbetsflöden, branding, datalagring med mera.
 page-status-flag: never-activated
 uuid: 64c34729-5c98-4db0-9131-af6dd0e78fb4
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 12674de42a9c6f4439a485b67a9aa0fecd32ba25
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '666'
 ht-degree: 14%
 
 ---
@@ -44,7 +44,7 @@ De olika administratörsåtgärderna för Adobe Campaign utförs via den meny so
 De olika menyerna är:
 
 * [Användare och säkerhet](../../administration/using/about-access-management.md): På den här menyn kan du hantera åtkomst till plattformen (användare, roller, säkerhetsgrupper, enheter).
-* [Kanaler](../../administration/using/about-channel-configuration.md): Den här menyn grupperar de tekniska parametrar som är länkade till de olika plattformskanalerna (e-post, SMS) samt typologi och karantänhantering.
+* [Kanaler](../../administration/using/about-channel-configuration.md): Den här menyn grupperar de tekniska parametrar som är länkade till de olika plattformskanalerna (e-post, mobil) samt typologi och karantänhantering.
 * [Programinställningar](../../administration/using/external-accounts.md): På den här menyn kan du konfigurera olika programelement (externa konton, alternativ, tekniska arbetsflöden).
 * [Utveckling](../../developing/using/data-model-concepts.md): På den här menyn kan du hantera anpassade resurser och komma åt diagnostikverktyg.
 * [Förekomstinställningar](../../administration/using/branding.md): På den här menyn definierar du dina olika varumärken och konfigurerar deras inställningar (logotyp, hantering av spårning, URL-domän för att komma åt landningssidorna, osv.).
