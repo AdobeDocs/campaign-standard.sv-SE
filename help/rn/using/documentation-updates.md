@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5eab422b797e1d486fded57cb64f94fb709d6681
+source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
 workflow-type: tm+mt
-source-wordcount: '6215'
-ht-degree: 92%
+source-wordcount: '6247'
+ht-degree: 91%
 
 ---
 
@@ -41,6 +41,8 @@ Avsnittet om hur du anropar ett arbetsflöde med externa parametrar har berikats
 En rekommendation om hur många aktiviteter som ska användas per arbetsflöde har lagts till i arbetsflödena. [Läs mer](../../automating/using/best-practices-workflows.md#number-activities)
 
 Ett nytt avsnitt om Bästa praxis för leverans har lagts till. [Läs mer](../../sending/using/delivery-best-practices.md)
+
+Ett avsnitt har lagts till för att beskriva de nya filter som gör det möjligt att söka efter händelsekonfigurationer utifrån deras status och till den senaste gången en händelse togs emot. [Läs mer](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events)
 
 ## Dokumentationsuppdateringar - september 2020 {#doc-updates-september-2020}
 
