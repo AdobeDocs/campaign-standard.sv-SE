@@ -12,9 +12,9 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
 workflow-type: tm+mt
-source-wordcount: '3059'
+source-wordcount: '3169'
 ht-degree: 7%
 
 ---
@@ -201,12 +201,6 @@ När Adobe Campaign börjar ta emot händelser relaterade till den här händels
 
 Händelserna (i JSON-format) listas från den senaste till den äldsta. Med den här listan kan du kontrollera data som innehåll eller status för en händelse för kontroll- och felsökningsändamål.
 
-### Publiceringsprocess för transaktionsmeddelanden {#transactional-messaging-pub-process}
-
-Diagrammet nedan visar processen för publicering av transaktionsmeddelanden.
-
-![](assets/message-center_pub-process.png)
-
 ### Avpublicera en händelse {#unpublishing-an-event}
 
 Med **[!UICONTROL Unpublish]** knappen kan du avbryta publiceringen av händelsen, vilket innebär att den resurs som motsvarar händelsen som du skapade tas bort från REST-API:t. Även om händelsen utlöses via din webbplats skickas inte längre motsvarande meddelanden och de lagras inte i databasen.
@@ -218,6 +212,14 @@ Med **[!UICONTROL Unpublish]** knappen kan du avbryta publiceringen av händelse
 >Om du redan har publicerat motsvarande transaktionsmeddelande avbryts även publikationen för transaktionsmeddelandet. See [Unpublishing a transactional message](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message).
 
 Klicka på **[!UICONTROL Publish]** knappen för att generera ett nytt REST API.
+
+### Publiceringsprocess för transaktionsmeddelanden {#transactional-messaging-pub-process}
+
+Diagrammet nedan visar processen för publicering av transaktionsmeddelanden.
+
+![](assets/message-center_pub-process.png)
+
+Mer information om att publicera, pausa och avpublicera transaktionsmeddelanden finns i [det här avsnittet](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
 
 ### Ta bort en händelse {#deleting-an-event}
 
@@ -240,13 +242,31 @@ När en händelse har avpublicerats, eller om en händelse inte har publicerats 
 >
 >Om du tar bort en händelsekonfiguration som har publicerats och redan använts tas även motsvarande transaktionsmeddelande(n) och dess avsändande och spårningsloggar bort.
 
+## Söka efter transaktionshändelser {#searching-transactional-events}
+
+Följ stegen nedan för att få tillgång till och söka efter transaktionshändelser som redan har skapats.
+
+1. Klicka på **[!UICONTROL Adobe Campaign]**-logotypen i det övre vänstra hörnet och välj sedan **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. Klicka på knappen **[!UICONTROL Show search]**.
+
+   ![](assets/message-center_search-events.png)
+
+1. Du kan filtrera på **[!UICONTROL Publication status]**. På så sätt kan du till exempel bara visa publicerade händelser.
+1. Du kan också filtrera händelserna med hjälp av **[!UICONTROL Last event received]**. Om du till exempel anger 10 visas bara de händelsekonfigurationer som innehåller den senaste händelsen som togs emot för 10 dagar sedan eller mer. Detta gör att du kan visa vilka händelser som har varit inaktiva under en viss period.
+
+   ![](assets/message-center_last-event-received.png)
+
+   >[!NOTE]
+   >
+   >Standardvärdet är 0. Därefter visas alla händelser.
+
 ## Integrera händelseutlösaren på en webbplats {#integrating-the-triggering-of-the-event-in-a-website}
 
 När du har skapat en händelse måste du integrera den som utlöser händelsen på webbplatsen.
 
 I det exempel som beskrivs i avsnittet om [transaktionsmeddelandets](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) principer vill du att en händelse om att kunden överger kundvagnen ska utlösas när någon av dina kunder lämnar webbplatsen innan de köper produkterna i kundvagnen. För att göra detta måste webbutvecklaren använda Adobe Campaign Standard REST API.
 
-Se [REST API-dokumentationen](../../api/using/managing-transactional-messages.md) .
+Se [REST API-dokumentationen](../../api/using/managing-transactional-messages.md).
 
 ## Transactional event specific configurations {#transactional-event-specific-configurations}
 
