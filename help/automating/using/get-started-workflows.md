@@ -1,6 +1,6 @@
 ---
 title: Kom igång med processer och datahantering
-description: Adobe Campaign har en omfattande grafisk miljö där du kan designa och automatisera processer.
+description: Utnyttja Adobe Campaign arbetsflöden för att automatisera processer i en kraftfull grafisk miljö. Lär dig hur du läser in data, hanterar målgrupper, skickar meddelanden, implementerar datahanteringscykler, automatiserar tekniska processer och mycket mer.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a9fbf0479019dfbe2964c517a0370f015d0f380a
+source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 0%
+source-wordcount: '539'
+ht-degree: 8%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 <table>
 <tr>
-<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#workflow-activities">Arbetsflödesaktiviteter</a></p></td><td><img src="assets/do-not-localize/icon_activities.svg" width="60px"><p><a href="../../automating/using/workflow-created-query-with-complement.md">Användningsexempel</a></p></td><td><img src="assets/do-not-localize/icon_filter.svg" width="60px"><p><a href="#filter-data">Filtrera data</a></p></td>
+<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#workflow-activities">Arbetsflödesaktiviteter</a></p></td><td><img src="assets/do-not-localize/icon_activities.svg" width="60px"><p><a href="../../automating/using/workflow-created-query-with-complement.md">Användningsfall</a></p></td><td><img src="assets/do-not-localize/icon_filter.svg" width="60px"><p><a href="#filter-data">Filtrera data</a></p></td>
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">Importera/exportera data</a></p></td></tr>
 </table>
 
@@ -55,7 +55,7 @@ Läs mer:
 
 * [Bygga ett arbetsflöde](../../automating/using/building-a-workflow.md)
 * [Köra ett arbetsflöde](../../automating/using/about-workflow-execution.md)
-* [Bästa arbetsflöden](../../automating/using/best-practices-workflows.md)
+* [Bästa praxis för arbetsflöden](../../automating/using/best-practices-workflows.md)
 
 ## Filtrera data {#filter-data}
 
@@ -67,7 +67,7 @@ Frågeredigeraren innehåller **fördefinierade filter och regler** för snabb o
 
 Läs mer:
 
-* [Redigera frågor](../../automating/using/editing-queries.md)
+* [Redigeringsförfrågningar](../../automating/using/editing-queries.md)
 * [Avancerad redigering av uttryck](../../automating/using/advanced-expression-editing.md)
 * [Lista över funktioner](../../automating/using/list-of-functions.md)
 
@@ -96,4 +96,4 @@ Läs mer:
 
 * [Självstudievideor om processer och datahantering](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/getting-started/create-workflow.html)
 * [Tekniska arbetsflöden](../../administration/using/technical-workflows.md)
-* [Kom igång med Campaign Standardens datamodell](../../developing/using/get-started-data-model.md)
+* [Kom igång med Campaign Standard-datamodellen](../../developing/using/get-started-data-model.md)
