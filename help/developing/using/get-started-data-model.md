@@ -1,6 +1,6 @@
 ---
-title: Kom igång med datamodellen Campaign Standard
-description: Utöka datamodellen Campaign Standard med egna fält och resurser och övervaka alla datamodellsändringar i en enda vy.
+title: Kom igång med Campaign Standard-datamodellen
+description: Få tillgång till den inbyggda datamodellbeskrivningen, utöka Campaign Standardens datamodell med anpassade fält och resurser och övervaka alla datamodellsändringar i en enda vy.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -12,15 +12,15 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 0%
+source-wordcount: '357'
+ht-degree: 15%
 
 ---
 
 
-# Kom igång med datamodellen Campaign Standard {#get-started-data-model}
+# Kom igång med Campaign Standard-datamodellen {#get-started-data-model}
 
 <table>
 <tr>
@@ -28,7 +28,7 @@ ht-degree: 0%
 <td><img src="assets/do-not-localize/icon_custom.svg" width="60px"><p><a href="#custom-resources">Anpassade resurser</a></p></td><td><img src="assets/do-not-localize/icon_api.svg" width="60px"><p><a href="#custom-resources">Arbeta med API:er</a></p></td></tr>
 </table>
 
-Utöka datamodellen Campaign Standard med egna fält och resurser och övervaka alla datamodellsändringar i en enda vy.
+Utöka Campaign Standardens datamodell med egna fält och resurser och övervaka alla datamodellsändringar i en enda vy.
 
 ## Datamodell {#data-model}
 
@@ -36,22 +36,22 @@ Utöka datamodellen Campaign Standard med egna fält och resurser och övervaka 
 
 De data som används av Campaign definieras med hjälp av olika resurser som definieras i en **fördefinierad datamodell**. Datamodellen visar en färdig SQL-struktur för en uppsättning marknadsföringsrelaterade resurser: leverans, målgrupp, landningssidor, profil osv. Varje resurs har tillhörande filter som gör att du kan navigera bland resurserna.
 
-På **Diagnosis** -menyn kan du lista de tekniska objekt som genereras av Campaign Standard: datamodeller, webbsidor, filter osv. som gör att du kan övervaka datamodellen och ändringar som gjorts i den.
+På **Diagnosis** -menyn kan du lista de tekniska objekt som genereras av Campaign Standarden: datamodeller, webbsidor, filter osv. som gör att du kan övervaka datamodellen och ändringar som gjorts i den.
 
 Läs mer:
 
-* [Datamodeller](../../developing/using/data-model-concepts.md)
+* [Datamodellkoncept](../../developing/using/data-model-concepts.md)
 * [Bästa praxis för datamodell](../../developing/using/data-model-best-practices.md)
-* [Beskrivning av datamodell](../../developing/using/datamodel-introduction.md)
+* [Beskrivning av datamodellen](../../developing/using/datamodel-introduction.md)
 * [Övervaka datamodelländringar](../../developing/using/monitoring-data-model-changes.md)
 
 ## Anpassade resurser {#custom-resources}
 
 <img src="assets/do-not-localize/icon_custom.svg" width="60px">
 
-Med Campaign Standard kan ni **utöka den fördefinierade datamodellen** för att skapa egna resurser (t.ex. för att lägga till Inköp- eller Produktregister) eller utöka befintliga resurser med nya fält. Du kan också konfigurera Campaign-skärmar för att optimera navigeringen genom de nya resurser och fält som har skapats.
+Med Campaign Standard kan du **utöka den fördefinierade datamodellen** för att skapa egna resurser (t.ex. för att lägga till Inköp- eller Produkttabeller) eller utöka befintliga resurser med nya fält. Du kan också konfigurera Campaign-skärmar för att optimera navigeringen genom de nya resurser och fält som har skapats.
 
-Dessutom kan du **utöka REST-API:er** för Campaign Standard så att de visas i de utökade API:erna för de anpassade resursprofilerna. På så sätt kan du till exempel uppdatera en kunds profil med en kampanjkod som genereras från ett faktureringssystem.
+Dessutom kan du **utöka Campaign Standardens REST API:er** så att de kan visas i API:ernas utökade fält för anpassade resursprofiler. På så sätt kan du till exempel uppdatera en kunds profil med en kampanjkod som genereras från ett faktureringssystem.
 
 Läs mer:
 
@@ -64,7 +64,7 @@ Läs mer:
 
 <img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-Med Campaign Standard-API:er skapar du integreringar för Adobe Campaign Standard och bygger ett eget ekosystem genom att interagera Campaign med den panel med tekniker som ni använder. [Kom igång med Campaign Standard REST API:er](../../api/using/get-started-apis.md)
+Med Campaign Standard-API:er kan du skapa integreringar för Adobe Campaign Standard och bygga ett eget ekosystem genom att interagera Campaign med den panel med tekniker som du använder. [Kom igång med Campaign Standard REST API:er](../../api/using/get-started-apis.md)
 
 ## Ytterligare resurser
 
