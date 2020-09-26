@@ -1,6 +1,6 @@
 ---
 title: Kom igång med testning och sändning
-description: Lär dig hur du förbereder och testar meddelanden, schemalägger, skickar och övervakar dem, förstår hur fel och karantänhantering fungerar samt optimerar leveransmöjligheterna.
+description: Förbered, testa, schemalägg, skicka och övervaka dina meddelanden.
 page-status-flag: never-activated
 uuid: 58666444-6e7c-4049-b2d2-8b26eabf5a82
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '573'
 ht-degree: 11%
 
 ---
