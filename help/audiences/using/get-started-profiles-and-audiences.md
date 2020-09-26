@@ -1,6 +1,6 @@
 ---
 title: Kom igång med profiler och målgrupper
-description: Läs om profiler och målgruppshantering inom Adobe Campaign. Definiera målgrupper, välj målgrupper, filtrera mottagare, samla in data och uppdatera profiler.
+description: Definiera målgrupper, välj målgrupper, filtrera mottagare, samla in data och uppdatera profiler.
 page-status-flag: never-activated
 uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 7%
+source-wordcount: '604'
+ht-degree: 8%
 
 ---
 
