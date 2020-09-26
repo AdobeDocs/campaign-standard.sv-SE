@@ -1,6 +1,6 @@
 ---
 title: Kom igång med processer och datahantering
-description: Utnyttja Adobe Campaign arbetsflöden för att automatisera processer i en kraftfull grafisk miljö. Lär dig hur du läser in data, hanterar målgrupper, skickar meddelanden, implementerar datahanteringscykler, automatiserar tekniska processer och mycket mer.
+description: Automatisera processer med arbetsflöden, läsa in data, hantera målgrupper, skicka meddelanden, implementera datahanteringscykler, automatisera tekniska processer och mycket mer.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '526'
 ht-degree: 8%
 
 ---
