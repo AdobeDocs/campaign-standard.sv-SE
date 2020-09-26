@@ -2,13 +2,13 @@
 product: adobe campaign
 sub-product: adobe campaign standard
 audience: end-user
-user-guide-title: Hjälp för Adobe Campaign Standard
+user-guide-title: Bläddra i Adobe Campaign Standard Help Center
 breadcrumb-title: Campaign Standard Guide
 translation-type: tm+mt
-source-git-commit: f83259801fee2709aad48d364d16b4affe041a6d
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1653'
+ht-degree: 83%
 
 ---
 
