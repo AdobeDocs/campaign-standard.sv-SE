@@ -13,10 +13,10 @@ context-tags: activity,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e4ba42c5bf0dd952690178b7d5070100c7ddf13d
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 99%
+source-wordcount: '487'
+ht-degree: 83%
 
 ---
 
@@ -47,14 +47,14 @@ Knappen **[!UICONTROL Create]** kan användas för att skapa en ny aktivitet. Me
 
 I huvudzonen har varje typ av aktivitet i listan en ikon:
 
-* ![](assets/marketing_program_icon.png) : Program
-* ![](assets/marketing_campaign_icon.png) : Kampanj
-* ![](assets/marketing_email_icon.png) : E-post
-* ![](assets/marketing_sms_icon.png) : SMS
-* ![](assets/marketing_push_icon.png) : Push-meddelande
-* ![](assets/marketing_lp_icon.png) : Meddelande i appen
-* ![](assets/marketing_lp_icon.png) : Landningssida
-* ![](assets/marketing_workflow_icon.png) : Arbetsflöde
+* ![](assets/marketing_program_icon.png) Program
+* ![](assets/marketing_campaign_icon.png) Kampanj
+* ![](assets/marketing_email_icon.png) E-post
+* ![](assets/marketing_sms_icon.png) SMS
+* ![](assets/marketing_push_icon.png) Push-meddelande
+* ![](assets/marketing_lp_icon.png) Meddelande i appen
+* ![](assets/marketing_lp_icon.png) Landningssida
+* ![](assets/marketing_workflow_icon.png) Arbetsflöde
 
 Beroende på giltighetsperiod och status visar färgen som är associerad med den här ikonen den motsvarande aktivitetens körningsstatus.
 
@@ -86,16 +86,16 @@ Program och kampanjer presenteras i avsnittet [Program och kampanjer](../../star
 
 I sammanhanget kan man
 
-* [Skapa ett e-postmeddelande](../../channels/using/creating-an-email.md)
-* [Skapa ett SMS](../../channels/using/creating-an-sms-message.md)
-* [Skapa ett push-meddelande](../../channels/using/preparing-and-sending-a-push-notification.md)
-* [Skapa ett meddelande i appen](../../channels/using/about-in-app-messaging.md)
-* [Skapa ett arbetsflöde](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* [Skapa en landningssida](../../channels/using/getting-started-with-landing-pages.md)
-* [Skapa en kampanj](../../start/using/programs-and-campaigns.md#creating-a-campaign)
-* [Skapa ett program](../../start/using/programs-and-campaigns.md#creating-a-program)
+* Skapa ett e-postmeddelande - [Läs mer](../../channels/using/creating-an-email.md)
+* Skapa ett SMS - [Läs mer](../../channels/using/creating-an-sms-message.md)
+* Skapa ett push-meddelande - [Läs mer](../../channels/using/preparing-and-sending-a-push-notification.md)
+* Skapa ett meddelande i appen - [Läs mer](../../channels/using/about-in-app-messaging.md)
+* Skapa ett arbetsflöde - [Läs mer](../../automating/using/building-a-workflow.md#creating-a-workflow)
+* Skapa en landningssida - [Läs mer](../../channels/using/getting-started-with-landing-pages.md)
+* Skapa en kampanj - [Läs mer](../../start/using/programs-and-campaigns.md#creating-a-campaign)
+* Skapa ett program - [Läs mer](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >
->Du kan också skapa en marknadsföringsaktivitet från listan med marknadsföringsaktiviteter. I det här fallet kan du skapa vilken typ av aktivitet som helst. Du kan välja att länka marknadsföringsaktiviteten till en överordnad kampanj (eller till ett överordnat program om du skapar ett program) via aktivitetens egenskaper.
+>Du kan också skapa en marknadsföringsaktivitet från listan med marknadsföringsaktiviteter. I det här fallet kan du skapa vilken typ av aktivitet som helst och välja att länka marknadsföringsaktiviteten till en överordnad kampanj (eller till ett överordnat program om du skapar ett program) via aktivitetens egenskaper.
 
