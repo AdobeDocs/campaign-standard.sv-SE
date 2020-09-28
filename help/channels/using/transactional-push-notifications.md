@@ -12,7 +12,7 @@ discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 13%
@@ -72,6 +72,7 @@ Företaget skickar ett transaktionsmeddelande per användare (identifieras med e
    Mer information om hur du redigerar ett push-meddelandeinnehåll finns i [Skapa ett push-meddelande](../../channels/using/preparing-and-sending-a-push-notification.md).
 
 1. Spara ändringarna och publicera meddelandet.  Se [Publicera ett transaktionsmeddelande](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
+
 1. Med Adobe Campaign Standard REST API skickar du en händelse till en registreringstoken (ABCDEF123456789) med ett mobilprogram (WeFlight) på Android (gcm) som innehåller startdata.
 
    ```
@@ -114,13 +115,9 @@ Ett flygbolag vill t.ex. skicka en sista förfrågan om introduktion till alla A
 
 1. Gå till transaktionsmeddelandet som skapades för att redigera det. Se [Händelsebaserade transaktionsmeddelanden](../../channels/using/event-transactional-messages.md).
 
-   <!--![](assets/message-center_push_message_profile.png)-->
-
 1. Click the **[!UICONTROL Content]** block to modify your message&#39;s title and body.
 
    I motsats till konfigurationer som baseras på realtidshändelser har du direkt tillgång till all profilinformation för att personalisera meddelandet. Se [Infoga ett personaliserat fält](../../designing/using/personalization.md#inserting-a-personalization-field).
-
-   <!--![](assets/message-center_push_content_profile.png)-->
 
    Mer information om hur du redigerar ett push-meddelandeinnehåll. Se [Skapa ett push-meddelande](../../channels/using/preparing-and-sending-a-push-notification.md).
 
@@ -142,4 +139,3 @@ Ett flygbolag vill t.ex. skicka en sista förfrågan om introduktion till alla A
    >[!NOTE]
    >
    >Det finns inga registreringstoken-, program- och push-plattformsfält. I det här exemplet utförs avstämningen med e-postfältet.
-
