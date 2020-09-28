@@ -12,10 +12,10 @@ discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 80%
+source-wordcount: '222'
+ht-degree: 53%
 
 ---
 
@@ -34,8 +34,18 @@ Varje tjänst levereras med:
 
 Prenumerationer kan också hanteras med Adobe Campaign Standard API:n.  Mer information om detta hittar du i den [dedikerade dokumentationen](../../api/using/creating-a-service.md) .
 
-**Relaterade ämnen**
+## Viktiga steg för att konfigurera och hantera prenumerationer
+
+Följ stegen nedan för att skapa en prenumerationsmekanism:
+
+1. **Skapa en tjänst** - följ stegen som beskrivs [i det här avsnittet](../../audiences/using/creating-a-service.md) för att skapa en prenumerationstjänst
+1. **Dela länken** - lär dig hur du marknadsför och delar din tjänst [på den här sidan](../../audiences/using/promoting-a-service.md)
+1. **Övervaka prenumerationer** - Upptäck flera sätt att övervaka prenumerationer på tjänsten [i det här avsnittet](../../audiences/using/monitoring-subscriptions.md)
+1. **Bekräfta prenumerationer** - följ [den här självstudiekursen](../../audiences/using/confirming-subscription-to-a-service.md) för att skicka ett bekräftelsemeddelande om prenumerationen
+
+## Ytterligare resurser
 
 * [Användningsfall: Stegvis fråga om prenumeranter på en tjänst](../../automating/using/incremental-query-on-subscribers.md)
 * [Användningsfall: Uppdatera flera prenumerationsstatusar från en fil](../../automating/using/updating-subscriptions-from-file.md)
 * [Prenumerera profiler på en viss tjänst efter import av en fil](../../automating/using/subscribing-profiles-from-file.md)
+* [Anmäl dig och avanmäl dig i Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
