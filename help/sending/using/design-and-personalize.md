@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa77208174960a67c67af8a6de7edbbff47355a0
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
 source-wordcount: '908'
 ht-degree: 7%
@@ -142,4 +142,4 @@ För att vara tillgängliga utifrån måste de bilder som används i e-postmedde
 
 Adobe rekommenderar att du förhandsgranskar ditt meddelande för att kontrollera hur det är anpassat och hur mottagarna ser det.
 
-* I e-postdesignern kan du med knappen **[!UICONTROL Preview]** visa återgivningen av varje innehåll för en mottagare. Anpassningsfälten och de villkorliga elementen i innehållet ersätts med motsvarande information för den valda profilen. [Läs mer](../../sending/using/previewing-messages.md)
+I e-postdesignern kan du med knappen **[!UICONTROL Preview]** visa återgivningen av varje innehåll för en mottagare. Anpassningsfälten och de villkorliga elementen i innehållet ersätts med motsvarande information för den valda profilen. [Läs mer](../../sending/using/previewing-messages.md)
