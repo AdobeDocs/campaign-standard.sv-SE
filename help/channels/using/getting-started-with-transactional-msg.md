@@ -13,10 +13,10 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '814'
+ht-degree: 27%
 
 ---
 
@@ -25,14 +25,14 @@ ht-degree: 0%
 
 ## Översikt
 
-<table>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_transactional.svg" width="60px"><br><p>Vi presenterar konceptet med <b>transaktionsmeddelanden</b></p></td>
-<td ><br><p>Med transaktionsmeddelanden kan ni <b>skicka individuella och unika meddelanden</b> till era kunder i realtid.</p></td>
-<td>Det kan vara välkomstmeddelanden, orderbekräftelser, lösenordsändringar osv.</td>
-<td>Med Adobe Campaign kan ni integrera den här funktionen med ett informationssystem som skickar händelser som ska omvandlas till anpassade transaktionsmeddelanden.</td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
+
+Vi presenterar konceptet med **transaktionsmeddelanden**
+
+Med transaktionsmeddelanden kan ni skicka individuella och unika meddelanden till era kunder i realtid.
+
+De kan vara välkomstmeddelanden, beställningsbekräftelser, lösenordsuppdateringar osv.
+Med Adobe Campaign kan ni integrera den här funktionen med ett informationssystem som skickar händelser som ska omvandlas till anpassade transaktionsmeddelanden.
 
 Transaktionsmeddelanden kan skickas via e-post, SMS eller push-meddelanden beroende på dina möjliga alternativ.        Kontrollera licensavtalet.
 
@@ -73,16 +73,30 @@ Transaktionsmeddelanden finns också i Adobe Campaign Standard-API.        Mer i
 
 Det finns två typer av transaktionsmeddelanden i Adobe Campaign:
 
-<table>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"><br><p><a href="../../channels/using/event-transactional-messages.md">Händelsetransaktionsmeddelandenrikta</a><br>en <b>händelse</b></p></td>
-<td><p><ul><li>Händelsetransaktionsmeddelanden innehåller ingen profilinformation.</li><li>De är inte kompatibla med <a href="../../sending/using/fatigue-rules.md">trötthetsregler</a> (även om det rör sig om en anrikning med profiler).</li><li>Leveransmålet definieras av data som finns i själva händelsen.</li></ul></p></td>
-</tr>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><p><a href="../../channels/using/profile-transactional-messages.md">Profilera</a><br>transaktionsmeddelandenrikta- <b>profiler från Adobe Campaign marknadsföringsdatabas</b></p></td>
-<td><p>Med profiltransaktionsmeddelanden kan du:<ul><li>Apply marketing <a href="../../sending/using/managing-typology-rules.md">typology rules</a> or <a href="../../sending/using/fatigue-rules.md">fatigue rules</a>.</li><li>Inkludera avprenumerations-länken i meddelandena.</li><li>Lägga till transaktionsmeddelanden i den globala leveransrapporten.</li><li>Använda transaktionsmeddelanden i kundresan.</li></ul></p></td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_event.svg" width="60px">
+
+[Händelsetransaktionsmeddelanden](../../channels/using/event-transactional-messages.md) som riktar sig mot en viss händelse.        
+
+* Händelsetransaktionsmeddelanden innehåller ingen profilinformation.
+
+* De är inte kompatibla med [trötthetsregler](../../sending/using/fatigue-rules.md) (även om det rör sig om en anrikning med profiler).
+
+* Leveransmålet definieras av data som finns i själva händelsen.
+
+
+<img src="assets/do-not-localize/icon_profile.svg" width="60px">
+
+[Transaktionsmeddelanden för profiler](../../channels/using/profile-transactional-messages.md) som riktar sig mot profiler från marknadsföringsdatabasen för Campaign.        
+
+Med profiler för transaktionsmeddelanden kan du:
+
+* Apply [marketing typology rules](../../sending/using/managing-typology-rules.md) or [fatigue rules](../../sending/using/fatigue-rules.md)
+
+* Inkludera avprenumerations-länken i meddelandena.
+
+* Lägga till transaktionsmeddelanden i den globala leveransrapporten.
+
+* Använda transaktionsmeddelanden i kundresan.
 
 Meddelandetypen definieras när händelsen som ska omvandlas till ett transaktionsmeddelande konfigureras.        Se Konfiguration för [transaktionsmeddelanden](../../administration/using/configuring-transactional-messaging.md).
 
@@ -100,53 +114,57 @@ Så här utför du det här.
 
 ### Steg 1 - Skapa och publicera händelsekonfigurationen {#create-event-configuration}
 
-<table>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_config.svg" width="60px"><br><p><b>Konfiguration av transaktionshändelser</b></p></td>
-<td><br><p>Konfigurera en händelse med namnet"Avsluta kundvagn" och publicera händelsekonfigurationen.</p></td>
-<td>Det API som kommer att användas av webbplatsutvecklaren distribueras och ett transaktionsmeddelande skapas automatiskt.</td>
-<td>Observera att det här steget måste utföras av en användare med <a href="../../administration/using/users-management.md#functional-administrators">administrationsbehörighet</a>.</td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_config.svg" width="60px">
+
+**Konfiguration** av transaktionshändelser:
+
+* Konfigurera en händelse med namnet&quot;Avsluta kundvagn&quot; och publicera händelsekonfigurationen.
+
+* Det API som kommer att användas av webbplatsutvecklaren distribueras och ett transaktionsmeddelande skapas automatiskt.
+
+* Observera att det här steget måste utföras av en användare med [administrationsbehörighet](../../administration/using/users-management.md#functional-administrators).
 
 Det finns information om hur du skapar och publicerar en händelse i avsnittet [Konfigurera en händelse för att skicka ett transaktionsmeddelande](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 
 ### Steg 2 - Redigera och publicera transaktionsmeddelandet {#create-transactional-message}
 
-<table>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_notification.svg" width="40px"><br><p><b>Transactional message edition</b></p></td>
-<td><br><p>Redigera och anpassa transaktionsmeddelandet, testa det och publicera det sedan.</p></td>
-<td>Transaktionsmeddelandet är sedan klart att skickas.</td>
-<td>Detta steg kan utföras av alla marknadsföringsanvändare med <a href="../../administration/using/users-management.md#basic-users">grundläggande åtkomstbehörighet</a>.
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_notification.svg" width="40px">
+
+**Transactional message edition**
+
+* Redigera och anpassa transaktionsmeddelandet, testa det och publicera det sedan.
+
+* Transaktionsmeddelandet är sedan klart att skickas.
+
+* Detta steg kan utföras av alla marknadsföringsanvändare med [standardåtkomsträttigheter](../../administration/using/users-management.md#basic-users).
 
 For more on editing and publishing a transactional message, see [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
 ### Steg 3 - Integrera den händelseutlösande händelsen {#integrate-event-trigger}
 
-<table>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_api.svg" width="55px"><br><p><b>Händelse som utlöser integration</b></p></td>
-<td><br><p>Använd REST Transactional Messages API för att integrera händelsen på din webbplats.</p></td>
-<td>Händelsen utlöses när en kund överger sin kundvagn.</td>
-<td>Det här steget utförs av utvecklaren av din webbplats.
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_api.svg" width="55px">
+
+**Händelse som utlöser integration**
+
+* Använd REST Transactional Messages API för att integrera händelsen på din webbplats.&lt;
+
+* Händelsen utlöses när en kund överger sin kundvagn.
+
+* Det här steget utförs av utvecklaren av din webbplats.
 
 Mer information om hur du integrerar evenemanget på din webbplats finns i [Webbplatsintegrering](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website).
 
 ### Steg 4 - Leverans av meddelanden {#message-delivery}
 
-<table>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p><b>Extern händelse från din webbplats</b></p></td>
-<td><br><p>När alla dessa steg har utförts kan meddelandet levereras.</p></td>
-<td>Så snart en användare lämnar webbplatsen utan att beställa produkterna i kundvagnen utlöses motsvarande Campaign-händelse.</td>
-<td>Användaren får sedan automatiskt ett e-postmeddelande.</td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_channels.svg" width="60px">
+
+**Extern händelse från din webbplats**
+
+* När alla dessa steg har utförts kan meddelandet levereras.
+
+* Så snart en användare lämnar webbplatsen utan att beställa produkterna i kundvagnen utlöses motsvarande Campaign-händelse.
+
+* Användaren får sedan automatiskt ett e-postmeddelande.
 
 ## Viktiga steg {#key-steps}
 
@@ -154,7 +172,7 @@ De viktigaste stegen när du skapar och hanterar personaliserade transaktionsmed
 
 ![](assets/message-center-overview.png)
 
-**Relaterade ämnen:**
+## Relaterade ämnen
 
 * [Huvudstegen för att skicka ett meddelande](../../channels/using/key-steps-to-send-a-message.md)
 * [Kom igång med kommunikationskanaler](../../channels/using/get-started-communication-channels.md)
