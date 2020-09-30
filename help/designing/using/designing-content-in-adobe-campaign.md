@@ -12,9 +12,9 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5636b2ab5a673b0a52158b1a5411e090e4b45ca7
+source-git-commit: 97760e8b5fe0eb4905dcae69e8bbbefa837a461f
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1208'
 ht-degree: 4%
 
 ---
@@ -154,6 +154,8 @@ Observera följande när det gäller fragment:
 
 * När du redigerar format är bara de webbteckensnitt som officiellt stöds av de flesta e-postklienter tillgängliga.
 * Det går inte att spara format som ett tema för framtida återanvändning. CSS-formatet kan dock sparas i en innehållsmall eller i ett e-postmeddelande. For more on styles, see [this section](../../designing/using/styles.md).
+* Referensmeta-taggen stöds inte i e-postdesignern.
+* Surrogate-par, tecken som inte ingår i Unicode-teckenuppsättningens grundläggande flerspråkiga plan, kan inte lagras i 2 byte (16 bitar) och måste kodas till 2 UTF-16-tecken. Dessa tecken innehåller vissa CJK-ideogram, de flesta känslolägesikoner och vissa språk.<br>Dessa tecken kan orsaka vissa inkompatibilitetsproblem i dynamisk text. Du måste göra starka tester innan du skickar meddelanden.
 
 **Relaterade ämnen**
 
