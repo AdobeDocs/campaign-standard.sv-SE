@@ -12,10 +12,10 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
+source-git-commit: 97760e8b5fe0eb4905dcae69e8bbbefa837a461f
 workflow-type: tm+mt
-source-wordcount: '2441'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -120,7 +120,6 @@ ht-degree: 4%
 * Loggarna som visas när du exporterar paket har gjorts mer specifika och detaljerade om de fel som påträffats vid fel.
 * När du har skickat ett meddelande kan du nu söka efter, filtrera och exportera listan med [spårade URL-adresser](../../sending/using/tracking-messages.md).
 * Automatisk [synkronisering mellan Launch och Campaign](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) är nu GA och aktiverat som standard.
-* Transaktionsmeddelanden kan skickas med hög prioritet även om arbetsbelastningen för bulkleverans är hög.
 * Storleken på arbetsflödets exportpaket har optimerats genom att skicka korrekturexport har tagits bort.
 * Ett nytt meddelande har lagts till för att visa storleken på den hämtade filen i **filöverföringsaktiviteten** .
 * Felmeddelanden för ogiltiga sessionstoken har förbättrats.
@@ -134,6 +133,7 @@ ht-degree: 4%
 **Felkorrigeringar**
 
 * Ett problem som gjorde att du inte kunde använda en mållänk för push-meddelanden eller meddelanden i appen när spårning aktiverades har åtgärdats.
+* Ett problem har korrigerats där hög prioritet i transaktionsmeddelanden inte respekterades vid omfattande bulkleverans.
 * Ett problem som kunde förhindra dig från att tilldela varumärken till ett transaktionsmejl har åtgärdats. Flera felmeddelanden kan visas under publiceringssteget. (CAMP-44988)
 * Korrigerade ett fel i arbetsflödets användargränssnitt som kunde förhindra att information sparades i fält där numeriska värden begärdes. (CAMP-44025)
 * Korrigerade ett problem som kunde visa ett felmeddelande när en **Test** -aktivitet användes i ett importmallsarbetsflöde. (CAMP-42910)
