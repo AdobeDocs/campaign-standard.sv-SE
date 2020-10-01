@@ -12,10 +12,10 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 97760e8b5fe0eb4905dcae69e8bbbefa837a461f
+source-git-commit: 7168162baa26c960475d8c9c613989d0338f95c2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2387'
+ht-degree: 4%
 
 ---
 
@@ -89,7 +89,6 @@ ht-degree: 0%
 * **Förbättringar** av arbetsflödeskörning (beta): inom ramen för ett globalt initiativ kring arbetsflöden har några viktiga förbättringar utvecklats för att stabilisera minneshanteringen, minska latensen och optimera det minne som arbetsflöden använder under körningen. Dessa förbättringar är för närvarande i betaversion och endast tillgängliga för en uppsättning kunder. Allmän tillgänglighet planeras i början av 2021.
 * För att förbättra säkerheten använder Campaign nu en **signaturmekanism** för att spåra länkar i e-postmeddelanden.
 * Mobilappskonfigurationen har förbättrats med **tydligare felmeddelanden** när iOS-certifikat eller Android-nycklar överförs.
-* En **ny leveransmappning** (mapRtEventAppSubRcp) är nu tillgänglig för riktade profiler för transaktionspush-meddelanden. Loggarna för leverans, uteslutning och spårning för de här leveranserna är nu tillgängliga i tabellerna broadLogAppSubRcp, excludeLogAppSubRcp och trackingLogAppSubRcp. Detta löser ett problem som gjorde att leveransanalysen misslyckades när ett transaktionspush-meddelande skickades med måldimensionen för **profilen** .
 * **SMS-felhantering** har förbättrats för att förhindra att för många profiler läggs till i karantänlistan. Som standard är SMS-fel nu konfigurerade som mjuka fel i stället för som hårda fel. Se [den här sidan](https://helpx.adobe.com/se/campaign/kb/sms-connector-protocol-and-settings.html).
 
 **Förbättringar av E-postdesigner**
