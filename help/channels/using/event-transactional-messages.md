@@ -13,10 +13,10 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '2492'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -52,7 +52,9 @@ Så här kommer du åt transaktionsmeddelandet som du har skapat:
 
 ## Anpassa ett transaktionsmeddelande {#personalizing-a-transactional-message}
 
-Följ stegen nedan för att konfigurera anpassning i ett transaktionsmeddelande:
+I det här exemplet får du lära dig hur du anpassar ett transaktionsmeddelande genom att lägga till tre fält som du definierade när du [skapade händelsen](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message): Förnamn, efternamn, efternamn, totalbelopp.
+
+To do this, you will [insert a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field) in the message content.
 
 1. Klicka på **[!UICONTROL Content]**-blocket för att ändra meddelandets ämne och innehåll. I det här exemplet väljer du en mall som innehåller bilder och text. Mer information om mallar för e-postinnehåll finns i [Designa med mallar](../../designing/using/using-reusable-content.md#designing-templates).
 
@@ -64,9 +66,7 @@ Följ stegen nedan för att konfigurera anpassning i ett transaktionsmeddelande:
    >
    >Länken till den övergivna kundvagnen är en länk till en extern URL som dirigerar om personen till kundvagnen. Den här parametern hanteras inte i Adobe Campaign.
 
-1. I det här exemplet lägger du till tre fält som du definierade när du [skapade händelsen](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message): Förnamn, efternamn, efternamn, kundvagnens totalbelopp. Du gör det genom att [infoga ett anpassningsfält](../../designing/using/personalization.md#inserting-a-personalization-field) i meddelandeinnehållet.
-
-1. Bläddra till fälten genom **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
+1. Bläddra igenom **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** för att hitta anpassningsfälten: Förnamn, efternamn, efternamn, totalbelopp.
 
    ![](assets/message-center_7.png)
 
@@ -90,19 +90,17 @@ Följ stegen nedan för att konfigurera anpassning i ett transaktionsmeddelande:
 
 Du kan skapa produktlistor som hänvisar till en eller flera datainsamlingar i innehållet i ett transaktionsmeddelande. I ett e-postmeddelande om att kunden överger en kundvagn kan du till exempel inkludera en lista över alla produkter som fanns i kundvagnen när de lämnade webbplatsen, med en bild, priset och en länk till varje produkt.
 
+Läs mer i [den här videon](https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html).
+
 >[!IMPORTANT]
 >
 >Produktlistor är bara tillgängliga när du redigerar transaktionsmeddelanden via gränssnitt [E-postdesignare](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
-
-Följ stegen nedan om du vill lägga till en lista över övergivna produkter i ett transaktionsmeddelande.
-
-Du kan också titta på videor som förklarar de steg som krävs för att konfigurera produktlistor i ett transaktionsmejl. Mer information finns på [den här sidan](https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html).
-
->[!NOTE]
 >
 >Adobe Campaign stöder inte kapslade produktlistor, vilket innebär att du inte kan inkludera en produktlista i en annan.
 
-### Definiera en produktlista {#defining-a-product-listing}
+I exemplet nedan får du lära dig steg för att lägga till en lista över övergivna produkter i ett transaktionsmeddelande.
+
+### Steg 1: Definiera en produktlista {#defining-a-product-listing}
 
 Innan du kan använda en produktlista i ett transaktionsmeddelande måste du på händelsenivå definiera listan med produkter och fälten för varje produkt i listan som du vill visa. Mer information finns i [Definiera datasamlingar](../../administration/using/configuring-transactional-messaging.md#defining-data-collections).
 
@@ -144,7 +142,7 @@ Innan du kan använda en produktlista i ett transaktionsmeddelande måste du på
    >
    >Om du vill att elementen i listan ska visas lodrätt (**[!UICONTROL Column]**), begränsas det maximala antalet punkter enligt den valda strukturkomponenten (2, 3 eller 4 kolumner). Mer information om hur du väljer strukturkomponenter finns i [Redigera e-poststrukturen](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-### Fylla i produktlistan {#populating-the-product-listing}
+### Steg 2: Fyll i produktlistan {#populating-the-product-listing}
 
 Följ stegen nedan om du vill visa en lista över produkter som kommer från händelsen som är kopplad till transaktionsmeddelandet.
 
