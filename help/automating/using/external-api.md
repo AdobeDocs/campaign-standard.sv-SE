@@ -180,35 +180,35 @@ Dessa loggmeddelanden används för att logga information om användbara kontrol
  </thead> 
  <tbody> 
   <tr> 
-   <td> Anropar API-URL "%s".</td> 
+   <td> Invoking API URL '%s'.</td> 
    <td> <p>Anropar API-URL:en "https://example.com/api/v1/web-coupon?count=2".</p></td> 
   </tr> 
   <tr> 
-   <td> Försöker igen med API-URL '%s' på grund av %s på %d ms, försök %d.</td> 
+   <td> Retrying API URL '%s' due to %s in %d ms, attempt %d.</td> 
    <td> <p>Försöker igen med API-URL 'https://example.com/api/v1/web-coupon?count=0' på grund av HTTP - 401 på 2364 ms, försök 2.</p></td>
   </tr> 
   <tr> 
-   <td> Överför innehåll från "%s" (%s / %s).</td> 
+   <td> Transferring content from '%s' (%s / %s).</td> 
    <td> <p>Överför innehåll från "https://example.com/api/v1/web-coupon?count=2" (1234/1234).</p></td> 
   </tr>
   <tr> 
-   <td> Använder cachelagrad åtkomsttoken för leverantörs-ID %s.</td> 
+   <td> Using cached access token for provider ID '%s'.</td> 
    <td> <p>Använder cachelagrad åtkomsttoken för leverantörs-ID 'EXT25'. Obs! EXT25 är ID-numret (eller namnet) på det externa kontot. </p></td> 
   </tr>
   <tr> 
-   <td> Åtkomsttoken för leverantörs-ID %s har hämtats från servern.</td> 
+   <td> Fetched access token from server for provider ID '%s'.</td> 
    <td> <p>Åtkomsttoken för leverantörs-ID 'EXT25’ har hämtats från servern. Obs! EXT25 är ID-numret (eller namnet) på det externa kontot.</p></td> 
   </tr>
   <tr> 
-   <td> Uppdatera OAuth-åtkomsttoken på grund av fel (HTTP: '%d').</td> 
+   <td> Refreshing OAuth access token due to error (HTTP: '%d').</td> 
    <td> <p>Uppdatera OAuth-åtkomsttoken på grund av fel (HTTP: '401').</p></td> 
   </tr>
   <tr> 
-   <td> Fel vid uppdatering av OAuth-åtkomsttoken (fel: '%d'). </td> 
+   <td> Error refreshing OAuth access token (error: '%d'). </td> 
    <td> <p>Fel vid uppdatering av OAuth-åtkomsttoken (fel: '404').</p></td> 
   </tr>
   <tr> 
-   <td> Det gick inte att hämta OAuth-åtkomsttoken med det angivna externa kontot på försök %d. Ett nytt försök görs om %d ms.</td> 
+   <td> Failed to fetch the OAuth access token using the specified external account on attempt %d, retrying in %d ms.</td> 
    <td> <p>Det gick inte att hämta OAuth-åtkomsttoken med det angivna externa kontot på försök 1. Ett nytt försök görs om 1387 ms.</p></td> 
   </tr>
  </tbody> 
@@ -227,92 +227,92 @@ Dessa loggmeddelanden används för att logga information om oväntade feltillst
  </thead> 
  <tbody> 
   <tr> 
-   <td> WKF-560250 – API-begärandeinnehållet överskrider gränsen (gräns: "%d").</td> 
+   <td> WKF-560250 - API request body exceeded limit (limit: '%d').</td> 
    <td> <p>API-begärans brödtext överskreds (gräns: "5242880").</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560239 – API-svar överskred gränsen (gräns: "%d").</td> 
+   <td> WKF-560239 -  API response exceeded limit (limit: '%d').</td> 
    <td> <p>API-svaret överskrider gränsen (gräns: "5242880").</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560245 – API-URL kunde inte tolkas (fel: "%d").</td> 
+   <td> WKF-560245 - API URL could not be parsed (error: '%d').</td> 
    <td> <p>API-URL kunde inte tolkas (fel: "-2010").</p>
    <p> Obs! Det här felet loggas när API-URL:en inte stöder verifieringsregler.</p></td>
   </tr> 
   <tr>
-   <td> WKF-560244 – API-URL-värden får inte vara "localhost" eller bokstavlig IP-adress (URL-värd: "%s").</td> 
+   <td> WKF-560244 - API URL host must not be 'localhost', or IP address literal (URL host: '%s').</td> 
    <td> <p>API-URL-värden får inte vara localhost eller bokstavlig IP-adress (URL-värd: "localhost").</p>
     <p>API-URL-värden får inte vara localhost eller bokstavlig IP-adress (URL-värd: "192.168.0.5").</p>
     <p>API-URL-värden får inte vara localhost eller bokstavlig IP-adress (URL-värd: [2001]).</p></td>
   </tr> 
   <tr> 
-   <td> WKF-560238 – API-URL:en måste vara en säker URL (https) (begärd URL: "%s").</td> 
+   <td> WKF-560238 - API URL must be a secure URL (https) (requested URL: '%s').</td> 
    <td> <p>API-URL:en måste vara en säker URL (https) (begärd URL: "https://example.com/api/v1/web-coupon?count=2").</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560249 – Det gick inte att skapa JSON för begärandetext. Ett fel uppstod när %s skulle läggas till.</td> 
+   <td> WKF-560249 – Det gick inte att skapa JSON för begärandetext. Error when adding '%s'.</td> 
    <td> <p>Det gick inte att skapa JSON för begärandetext. Ett fel uppstod när "params" skulle läggas till.</p>
     <p>Det gick inte att skapa JSON för begärandetext. Ett fel uppstod när "data" skulle läggas till.</p></td>
   </tr> 
   <tr> 
-   <td> WKF-560246 – HTTP-rubriknyckeln är felaktig (rubriknyckel: "%s").</td> 
-   <td> <p>HTTP-rubriknyckeln är felaktig (rubriknyckel: "%s").</p>
+   <td> WKF-560246 - HTTP header key is bad (header key: '%s').</td> 
+   <td> <p>HTTP header key is bad (header key: '%s').</p>
    <p> Obs! Det här felet loggas när den anpassade rubriknyckeln inte kan valideras enligt <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr>
  <tr> 
-   <td> WKF-560248 – HTTP-rubriknyckel tillåts inte (huvudnyckel: "%s").</td> 
+   <td> WKF-560248 - HTTP header key is not allowed (header key: '%s').</td> 
    <td> <p>HTTP-rubriknyckeln tillåts inte (rubriknyckeln: "Godkänn").</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 – ett HTTP-rubrikvärde är felaktigt (rubrikvärde: '%s').</td> 
-   <td> <p>HTTP-rubrikvärdet är felaktigt (rubrikvärde: "%s"). </p>
+   <td> WKF-560247 -  A HTTP header value is bad (header value: '%s').</td> 
+   <td> <p>HTTP header value is bad (header value: '%s'). </p>
     <p>Obs! Det här felet loggas när det anpassade rubrikvärdet inte kan valideras enligt <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560240 – JSON-nyttolasten har den felaktiga egenskapen "%s".</td> 
+   <td> WKF-560240 - JSON payload has bad property '%s'.</td> 
    <td> <p>JSON-nyttolasten har den felaktiga egenskapen "blah".</p></td>
   </tr> 
   <tr>
-   <td> WKF-560241 – Felformaterad JSON eller felaktigt format.</td> 
+   <td> WKF-560241 - Malformed JSON or unacceptable format.</td> 
    <td> <p>Felformaterad JSON eller ogiltigt format.</p>
    <p>Obs! Det här meddelandet gäller endast för tolkning av svarstexten från det externa API:t, och loggas när du försöker validera om svarstexten uppfyller det JSON-format som krävs för den här aktiviteten.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560246 – Aktiviteten misslyckades (orsak: "%s").</td> 
+   <td> WKF-560246 - Activity failed (reason: '%s').</td> 
    <td> <p>När aktiviteten misslyckas på grund av HTTP 401-felsvar – Aktiviteten misslyckades (orsak: HTTP – 401)</p>
         <p>När aktiviteten misslyckas på grund av ett misslyckat internt anrop – Aktiviteten misslyckades (orsak: "iRc – -Nn").</p>
         <p>När aktiviteten misslyckas på grund av en ogiltig rubrik av innehållstyp. – Aktiviteten misslyckades (orsak: "Innehållstyp – application/html").</p></td> 
   </tr>
   <tr> 
-   <td> WKF-560278 – ”Fel vid initiering av OAuth-hjälpen (fel: '%d')”.</td> 
+   <td> WKF-560278 - "Error initializing OAuth helper (error: '%d')" .</td> 
    <td> <p>Detta fel indikerar att aktiviteten inte kunde initiera den interna hjälpfunktionen för OAuth2.0 på grund av ett fel i att använda attributen som har konfigurerats på det externa kontot för att initiera hjälpfunktionen.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560279 – ”HTTP-rubriknyckel tillåts inte (rubriknyckel: '%s').”</td> 
+   <td> WKF-560279 - "HTTP header key is not allowed (header key: '%s')."</td> 
    <td> <p>Det här varningsmeddelandet (inte felmeddelandet) anger att det externa OAuth 2.0-kontot har konfigurerats för att lägga till en referens som HTTP-rubrik men rubriknyckeln som används tillåts inte eftersom det är en reserverad rubriknyckel.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560280 – det går inte att hitta det externa kontot med ID-numret '%s'.</td> 
+   <td> WKF-560280 - External account of '%s' ID cannot be found.</td> 
    <td> <p>Det går inte att hitta det externa kontot med ID-numret 'EXT25'.  Obs! Det här felet indikerar att aktiviteten har konfigurerats för att använda ett externt konto som inte längre kan hittas. Detta inträffar troligast när kontot har tagits bort från databasen och inträffar därför i vanliga fall inte under normala driftförhållanden.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560281 – det externa kontot med ID-numret '%s' är inaktiverat.</td> 
+   <td> WKF-560281 - External account of '%s' ID is disabled.</td> 
    <td> <p>Externt konto med ID-numret 'EXT25' är inaktiverat. Obs! Det här felet indikerar att aktiviteten har konfigurerats för att använda ett externt konto men att kontot har inaktiverats (eller markerats som inaktivt).</p></td>
   </tr>
   <tr> 
-   <td> WKF-560282 – stöd finns inte för protokollet.</td> 
+   <td> WKF-560282 - Protocol not supported.</td> 
    <td> <p>Det här felet anger att det externa konto som är associerat med aktiviteten inte är ett externt OAuth2.0-konto. Därför är det osannolikt att det här felet inträffar om det inte finns några skador eller manuella ändringar i aktivitetskonfigurationen.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560283 – det gick inte att hämta OAuth-åtkomsttoken.</td> 
+   <td> WKF-560283 - Failed to fetch the OAuth access token.</td> 
    <td> <p>Den vanligaste orsaken till det här felet är en felkonfigurering av det externa kontot (såsom att använda det externa kontot utan att testa att anslutningen fungerar). Det kan vara möjligt att webbadressen/autentiseringsuppgifterna för det externa kontot ändrats.</p></td>
   </tr>
   <tr> 
-   <td> CRL-290199 – det går inte att nå sidan på: %s.</td> 
+   <td> CRL-290199 - Cannot reach page at: %s.</td> 
    <td> <p>Det här felmeddelandet visas på skärmen med det externa kontots användargränssnitt när det konfigureras för OAuth. Detta innebär att webbadressen för den externa auktoriseringsservern antingen är felaktig/ändrad eller att svaret från servern är ”Sidan hittades inte”.</p></td>
   </tr>
   <tr> 
-   <td> CRL-290200 – ofullständiga/felaktiga autentiseringsuppgifter.</td> 
+   <td> CRL-290200 - Incomplete/Incorrect credentials.</td> 
    <td> <p>Det här felmeddelandet visas på skärmen med det externa kontots användargränssnitt när det konfigureras för OAuth. Detta innebär att autentiseringsuppgifterna antingen är felaktiga eller att andra nödvändiga autentiseringsuppgifter saknas för att ansluta till autentiseringsservern.
 </p></td>
   </tr>
