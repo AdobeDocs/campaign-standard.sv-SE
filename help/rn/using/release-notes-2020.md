@@ -14,8 +14,8 @@ snippet: y
 translation-type: tm+mt
 source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2948'
+ht-degree: 99%
 
 ---
 
@@ -73,8 +73,8 @@ ht-degree: 0%
 
 **Ytterligare funktioner** (från 13 juli)
 
-* **AI-driven optimering av sändningstid och profilpoäng** - Nu kan ni optimera utformningen och leveransen av kundresor för att förutse varje individs engagemang. Med Journey AI som bas kan Adobe Campaign analysera och förutse öppningsfrekvenser, optimala sändningstider och sannolika bortfall baserat på historiska engagemangsmått. [Läs mer](../../sending/using/predictive.md)
-* **Brasiliens nya sekretessbestämmelser** - Förutom de sekretessfunktioner som redan finns i Campaign hjälper Adobe er att underlätta beredskapen för Brasiliens Lei Geral de Proteçao de Datos (LGPD). När en sekretessförfrågan skapas har LGPD-regeln lagts till i Adobe Privacy Core Service. [Läs mer](https://helpx.adobe.com/se/campaign/kb/campaign-privacy-overview.html)
+* **AI-driven optimering av sändningstid och profilpoäng** – nu kan du optimera designen och leveransen av kundresor för att förutse varje individs engagemang. Med Journey AI som bas kan Adobe Campaign analysera och förutse öppningsfrekvenser, optimala sändningstider och sannolika bortfall baserat på historiska engagemangsmått. [Läs mer](../../sending/using/predictive.md)
+* **Brasiliens nya integritetsreglering** – förutom de integritetsfunktioner som redan finns i Campaign hjälper Adobe till att underlätta beredskapen för Brasiliens Lei Geral de Proteçao de Datos (LGPD). När du skapar en förfrågan om användarens information har LGPD-regleringen lagts till i Adobe Privacy Core Service. [Läs mer](https://helpx.adobe.com/se/campaign/kb/campaign-privacy-overview.html)
 
 **Förbättringar**
 
@@ -128,7 +128,7 @@ ht-degree: 0%
 * Korrigerade ett fel som hindrade användare från att göra ändringar i rapporter.  (CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **Den nya Kontrollpanelen kan släppas** med certifikatförnyelse för CNAME-underdomäner. [Läs mer](https://docs.adobe.com/content/help/sv-SE/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Den nya versionen av kontrollpanelen från maj** med certifikatförnyelse för CNAME-underdomäner. [Läs mer](https://docs.adobe.com/content/help/sv-SE/control-panel/using/release-notes.html).
 
 ## Version 20.2 - april 2020 {#release-20-2---april-2020}
 
@@ -310,7 +310,7 @@ ht-degree: 0%
 * Prestandaproblem som kan uppstå vid val och uppdatering av testprofiler har åtgärdats. (CAMP-37976)
 * Korrigerade ett problem som kunde visa felsidor när prenumeration tecknades eller avslutades via landningssidor. (CAMP-37771)
 * Korrigerade ett problem som uppstod vid överföring av innehåll i zip-format, med PNG-filer som refereras i HTML-koden med tillägget i versaler. (CAMP-37913)
-* Korrigerade ett problem som förhindrade att meddelanden i appen skickades när en testprofil lades till i leveransen.
+* Korrigerade ett problem som förhindrade att meddelanden i programmet skickades när en testprofil lades till i leveransen.
 * Korrigerade ett fel med arbetsflödesaktiviteten för det externa API:t som misslyckades vid koppling till berikningsaktiviteter.
 * Korrigerade ett problem som kunde göra att status för SMS-meddelanden visades felaktigt.
 * Korrigerade ett problem med anpassade resurser som gjorde att dubblettposter visades under olika API-slutpunkter.
