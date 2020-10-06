@@ -12,11 +12,11 @@ discoiquuid: b27381a9-19e5-4b65-b194-c72f475ba54d
 delivercontext-tags: deliveryCreation,wizard
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
-workflow-type: ht
-source-wordcount: '522'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -84,4 +84,3 @@ När sändningen är klar kan du börja mäta effekten av meddelandet med inbygg
 * [Om SMS och push-innehållsutgåva](../../channels/using/about-sms-and-push-content-design.md)
 * [Hantera mallar](../../start/using/marketing-activity-templates.md)
 * [Skapa en SMS-leveransvideo](https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/tutorials/communication-channels/mobile/sms/sms-delivery.html)
-
