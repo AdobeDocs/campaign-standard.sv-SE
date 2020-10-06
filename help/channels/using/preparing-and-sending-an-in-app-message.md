@@ -13,10 +13,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '1274'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -171,4 +171,3 @@ När du är klar med leveransen och godkännandestegen har utförts kan du skick
 
 * [Rapport i appen](../../reporting/using/in-app-report.md)
 * [Skicka ett meddelande i appen i ett arbetsflöde](../../automating/using/in-app-delivery.md)
-
