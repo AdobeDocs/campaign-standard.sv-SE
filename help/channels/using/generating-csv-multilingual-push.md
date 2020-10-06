@@ -12,9 +12,9 @@ discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 772393c135b96374cb510a3d96e3c781274e857e
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -28,22 +28,20 @@ Att överföra en CSV-fil för att generera innehåll för leverans är en funkt
 
 Flerspråkig push kräver 14 kolumner i CSV-filen:
 
-* title
-* messageBody
-* ljud
-* bricka
-* deeplinkURI
-* kategori
-* iosMediaAttachmentURL
-* androidMediaAttachmentURL
-* isContentAvailable
-* isMutableContent
-* customFields
-* locale
-* language
-* silentPush
-
-![](assets/multilingual_push_1.png)
+1. title
+1. messageBody
+1. ljud
+1. skugga
+1. deeplinkURI
+1. kategori
+1. iosMediaAttachmentURL
+1. androidMediaAttachmentURL
+1. isContentAvailable
+1. isMutableContent
+1. customFields
+1. locale
+1. language
+1. silentPush
 
 Kontrollera CSV-exemplet genom att klicka på **[!UICONTROL Download a sample file]** i **[!UICONTROL Manage Content Variants]** fönstret. For more on this, refer to the this [section](../../channels/using/creating-a-multilingual-push-notification.md).
 
@@ -139,31 +137,31 @@ Följande språk stöds:
 | da_dk | Danska - Danmark |
 | nl_be | Nederländska - Belgien |
 | nl_nl | Nederländska - Nederländerna |
-| Nya | Engelska - Australien |
+| en_au | Engelska - Australien |
 | en_bz | Engelska - Belize |
-| - en_ca | Engelska - Kanada |
+| en_ca | Engelska - Kanada |
 | en_in | Engelska - Indien |
 | en_ie | Engelska - Irland |
 | en_jm | Engelska - Jamaica |
 | en_nz | Engelska - Nya Zeeland |
-| Engelska_a | en - Filippinerna |
+| en_ph | Engelska - Filippinerna |
 | en_za | Engelska - Sydafrika |
 | en_tt | Engelska - Trinidad och Tobago |
 | en_gb | Engelska - Storbritannien |
 | en_us | Engelska - USA |
 | en_zw | Engelska - Zimbabwe |
-| _Ange | Estniska - Estland |
+| r_äs | Estniska - Estland |
 | fi_fi | Finska - Finland |
 | fr_be | Franska - Belgien |
 | fr_ca | Franska - Kanada |
 | fr_fr | Franska - Frankrike |
-| fr_lu | Franska - Luxemburg |
+| fr_lu | fre - Luxemburg |
 | fr_ch | Franska - Schweiz |
 | de_at | Tyska - Österrike |
-| Engde_de | de tyska |
-| de_lu | _Tyska - Luxemburg |
-| Tyska | Tyska - Schweiz |
-| el_cy | Tyska - Cypern |
+| de_de | Tyska - Tyskland |
+| de_lu | Tyska - Luxemburg |
+| de_ch | Tyska - Schweiz |
+| el_cy | Grekiska - Cypern |
 | el_gr | Grekiska - Grekland |
 | gu_in | Gujarati - Indien |
 | he_il | Hebreiska - Israel |
@@ -197,9 +195,9 @@ Följande språk stöds:
 | sr_rs | Serbiska - Serbien |
 | sk_sk | Slovakiska - Slovakien |
 | sl_si | Slovenska - Slovenien |
-| Spar_ar | Spanska - Argentina |
+| es_ar | Spanska - Argentina |
 | es_bo | Spanska - Bolivia |
-| es_cl | es - Chile |
+| es_cl | Spanska - Chile |
 | es_co | Spanska - Colombia |
 | es_cr | Spanska - Costa Rica |
 | es_do | Spanska - Dominikanska republiken |
@@ -208,23 +206,23 @@ Följande språk stöds:
 | es_gt | Spanska - Guatemala |
 | es_hn | Spanska - Honduras |
 | es_mx | Spanska - Mexiko |
-| Republiken | Spanska - Nicaragua |
-| sv_pa | Spanska - Panama |
+| es_ni | Spanska - Nicaragua |
+| es_pa | Spanska - Panama |
 | es_py | Spanska - Paraguay |
 | es_pe | Spanska - Peru |
 | es_pr | Spanska - Puerto Rico |
 | es_es | Spanska - Spanien |
 | es_uy | Spanska - Uruguay |
-| es_ve | Spanska - Venezuela |
+| Tamera | Spanska - Venezuela |
 | sw_ke | Swahili - Kenya |
 | sv_fi | Svenska - Finland |
 | sv_se | Svenska - Sverige |
 | ta_in | Tamil - Indien |
 | tt_ru | Tatariska - ryska |
-| ur_in | Telugu - Indien |
+| te_in | Telugu - Indien |
 | th_th | Thailändska - Thailand |
 | tr_cy | Turkiska - Cypern |
-| tr_tr | _Turkiska - Turkiet |
+| tr_tr | Turkiska - Turkiet |
 | uk_ua | Ukrainska - Ukraina |
 | ur_in | Urdu - Indien |
 | ur_pk | Urdu - Pakistan |
