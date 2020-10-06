@@ -12,11 +12,11 @@ discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 context-tags: delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
-source-wordcount: '165'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -46,4 +46,3 @@ Så här öppnar du redigeraren för SMS och push-innehåll:
 
 * [Skapa ett SMS-meddelande](../../channels/using/creating-an-sms-message.md)
 * [Skapa och skicka ett push-meddelande](../../channels/using/preparing-and-sending-a-push-notification.md)
-
