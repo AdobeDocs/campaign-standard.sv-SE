@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
 workflow-type: tm+mt
 source-wordcount: '6247'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -28,17 +28,17 @@ Förutom [versionsinformationen](../../rn/using/release-notes.md) för Adobe Cam
 
 **Nya funktioner i denna version**
 
-Control groups - [Read More](../../sending/using/control-group.md)
+Kontrollgrupp – [läs mer](../../sending/using/control-group.md)
 
-Externt API (OAuth-stöd) - [Läs mer](../../automating/using/external-api.md)
+Externt API (OAuth-stöd) – [läs mer](../../automating/using/external-api.md)
 
-AI-integrering för resan - [läs mer](../../sending/using/predictive.md)
+Integrering av Journey AI – [läs mer](../../sending/using/predictive.md)
 
 **Andra dokumentationsuppdateringar som följer med denna version**
 
-Avsnittet om hur du anropar ett arbetsflöde med externa parametrar har berikats med nya funktioner i uttrycksredigeraren. [Läs mer](../../automating/using/customizing-workflow-external-parameters.md)
+Avsnittet om hur du anropar ett arbetsflöde med externa parametrar har utökats med nya funktioner i uttrycksredigeraren. [Läs mer](../../automating/using/customizing-workflow-external-parameters.md)
 
-En rekommendation om hur många aktiviteter som ska användas per arbetsflöde har lagts till i arbetsflödena. [Läs mer](../../automating/using/best-practices-workflows.md#number-activities)
+En rekommendation har lagts till i arbetsflödenas bästa praxis om hur många aktiviteter som ska användas per arbetsflöde. [Läs mer](../../automating/using/best-practices-workflows.md#number-activities)
 
 Ett nytt avsnitt om Bästa praxis för leverans har lagts till. [Läs mer](../../sending/using/delivery-best-practices.md)
 
@@ -46,49 +46,49 @@ Ett avsnitt har lagts till för att beskriva de nya filter som gör det möjligt
 
 ## Dokumentationsuppdateringar - september 2020 {#doc-updates-september-2020}
 
-Avsnittet Händelsetransaktionsmeddelanden har omorganiserats och klargjorts. [Läs mer](../../channels/using/event-transactional-messages.md)
+Avsnittet Meddelanden för händelsetransaktioner har omorganiserats och klargjorts. [Läs mer](../../channels/using/event-transactional-messages.md)
 
-Ett varningsmeddelande har lagts till som varnar användare om behörighetsbegränsningar för loggåtkomst. [Läs mer](../../administration/using/users-management.md)
+Ett varningsmeddelande har lagts till som varnar användare om behörighetsbegränsningar för åtkomst till loggfilerna. [Läs mer](../../administration/using/users-management.md)
 
 Ett nytt avsnitt har lagts till för att beskriva processen att skapa ett nytt varumärke. [Läs mer](../../administration/using/branding.md#creating-a-brand)
 
-Den nya Campaign Standarden - Integrering med Microsoft Dynamics 365 är nu tillgänglig. [Läs mer](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+Den nya Campaign Standard – integrering med Microsoft Dynamics 365 är nu tillgänglig. [Läs mer](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 Information har lagts till om anonyma källor i rapporten Aktiva profiler. [Läs mer](../../audiences/using/active-profiles.md)
 
 ## Dokumentationsuppdateringar - augusti 2020 {#doc-updates-august-2020}
 
-Det finns ett nytt uppdaterat avsnitt om hur du kommer igång med transaktionsmeddelanden. [Läs mer](../../channels/using/getting-started-with-transactional-msg.md)
+Ett nytt och uppdaterat avsnitt om hur du kommer igång med transaktionsmeddelanden finns nu tillgängligt. [Läs mer](../../channels/using/getting-started-with-transactional-msg.md)
 
-Avsnittet **Begränsningar** för transaktionsmeddelanden har flyttats [här](../../channels/using/transactional-messaging-limitations.md)
+Avsnittet **Begränsningar för transaktionsmeddelanden** har flyttats [hit](../../channels/using/transactional-messaging-limitations.md)
 
-Avsnittet **Förbereda sändning** har flyttats [hit](../../sending/using/preparing-the-send.md)
+Avsnittet **Förbered sändningen** har flyttats [hit](../../sending/using/preparing-the-send.md)
 
 ## Dokumentationsuppdateringar - juli 2020 {#doc-updates-july-2020}
 
-Ett nytt avsnitt har lagts till med riktlinjer för övervakning av Campaign Standard. [Läs mer](../../administration/using/monitoring-guidelines.md)
+Ett nytt avsnitt har lagts till med riktlinjer gällande att övervaka Campaign Standard. [Läs mer](../../administration/using/monitoring-guidelines.md)
 
-Avsnittet Externa API-skydd och begränsningar har uppdaterats. [Läs mer](../../automating/using/external-api.md#guardrails)
+Avsnittet Externt API-skydd och -begränsningar har uppdaterats. [Läs mer](../../automating/using/external-api.md#guardrails)
 
-Sidan Sekretesshanteringsöversikt har uppdaterats med information om Thailands lag för skydd av personuppgifter (PDPA) och Brasiliens Lei Geral de Proteção de Dados (LGPD). [Läs mer](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+Sidan Översikt över integritetshantering har uppdaterats med information om Thailands lag för persondataskydd (PDPA) och Brasiliens Lei Geral de Proteção de Dados (LGPD). [Läs mer](https://helpx.adobe.com/se/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
-Mobilkanalguiden har omstrukturerats och förbättrats. En ny guide Konfigurera mobilkanaler har lagts till med teknisk dokumentation om mobilkonfiguration. [Läs mer](../../administration/using/push-tracking.md)
+Guiden om mobila kanaler har omstrukturerats och förbättrats. En ny guide vid namn Konfigurera mobila kanaler har lagts till med teknisk dokumentation om mobil konfiguration. [Läs mer](../../administration/using/push-tracking.md)
 
-Sekretesshantering på Campaign Standard-sidan har uppdaterats, inklusive förtydliganden om hur förfrågningar om sekretess hanteras genom integreringen av bastjänsten för sekretess. [Läs mer](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
+Integritetshantering på sidan Campaign Standard har uppdaterats inklusive förtydliganden om hur förfrågningar om användarens information hanteras genom integreringen av den grundläggande tjänsten för integritet. [Läs mer](https://helpx.adobe.com/se/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
 
 Nya funktioner för AI-baserade e-postmeddelanden: skicka tidsoptimering och profilpoäng. [Läs mer](../../sending/using/predictive.md)
 
-## Dokumentationsuppdateringar - juni 2020 {#doc-updates-june-2020}
+## Dokumentationsuppdateringar – juni 2020 {#doc-updates-june-2020}
 
 Användningsfall med arbetsflöden har uppdaterats och omorganiserats i tematiska avsnitt. [Läs mer](../../automating/using/about-workflow-use-cases.md)
 
 Användningsfall har lagts till om hur data [krypteras](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) och [dekrypteras](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) med Kontrollpanelen och arbetsflödena i Campaign.
 
-Referenser till den tidigare supportwebbplatsen har ersatts av den nya URL:en. [Läs mer](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
+Referenser till den äldre supportwebbplatsen har ersatts av den nya webbplatsen. [Läs mer](https://helpx.adobe.com/se/campaign/kb/ac-support.html#acs-support-req)
 
 Konfigurationen av det anpassade kontot Litmus har tagits bort från återgivningsfunktionen i Inkorgen. [Läs mer](../../sending/using/email-rendering.md)
 
-Campaign Standard - Integreringen av Microsoft Dynamics 365 är inte tillgänglig just nu. En ny koppling utvecklas och kommer att finnas tillgänglig i framtiden. De relaterade hjälpsidorna har tagits bort. [Läs mer](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+Campaign Standard – integreringen av Microsoft Dynamics 365 är inte tillgänglig just nu. En ny koppling utvecklas och kommer att bli tillgänglig i framtiden. De relaterade hjälpsidorna har tagits bort. [Läs mer](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 ## Dokumentationsuppdateringar - maj 2020 {#doc-updates-may-2020}
 
@@ -510,7 +510,7 @@ Förbättringar av betaversionen av app-meddelanden - [läs mer](../../channels/
 
 Guiden Designa innehåll har uppdaterats för att återspegla Email Designers allmänna tillgänglighet och borttagningen av det gamla programmet för redigering av e-postinnehåll. [Läs mer](../../designing/using/designing-content-in-adobe-campaign.md)
 
-Updated the [In-App](../../channels/using/about-in-app-messaging.md) and [Push notification](../../channels/using/about-push-notifications.md) documentation.
+Uppdaterade dokumentationen för [app-meddelanden](../../channels/using/about-in-app-messaging.md) och [push-meddelanden](../../channels/using/about-push-notifications.md).
 
 Ytterligare information om olika typer av målgrupper har lagts till i Adobe Campaign. [Läs mer](../../audiences/using/about-audiences.md)
 
@@ -620,7 +620,7 @@ Lagt till information om loggtyper för spårning. [Läs mer](../../sending/usin
 
 Förfrågningsaktivitets-avsnittet har uppdaterats med förfrågningsexempel. [Läs mer](../../automating/using/query.md#query-samples)
 
-Avsnittet som handlar om blockeringslista har bytt namn till&quot;Förstå avanmälnings- och avanmälningsprocesser&quot;. Det har uppdaterats med information om hur man hanterar anmälan till specifika kanaler och hur man ställer in landningssidor för att hantera anmälan och avanmälan. [Läs mer](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+Avsnittet om blockeringslistor har fått namnet ”Om anmälnings- och avanmälningsprocesser”. Det har uppdaterats med information om hur man hanterar anmälan till specifika kanaler och hur man ställer in landningssidor för att hantera anmälan och avanmälan. [Läs mer](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Lär dig bästa praxis för att använda Adobes värdservrar för SFTP-servrar. [Läs mer](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -644,7 +644,7 @@ Användning av anpassade resurser i transaktionsmeddelanden - [läs mer](../../a
 
 GDPR-API:t registrerar funktioner som tillåter automatisk bearbetning av GDPR-begäran. [Läs mer](../../api/using/creating-a-privacy-request.md)
 
-Lagt till information om hur du ställer in landningssidor för att ge mottagarna möjlighet att vara på blockeringslista. [Läs mer](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+Information har lagts till om hur du ställer in landningssidor för att ge dina mottagare möjlighet att bli tillagda på blockeringslistor. [Läs mer](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 Avsnittet [Konfigurera transaktionsmeddelanden](../../administration/using/configuring-transactional-messaging.md) har omstrukturerats och ett [steg för steg-användningsexempel](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) har lagts till.
 
@@ -672,7 +672,7 @@ Berikningsaktivitet - berika data baserat på tidigare övergångar - [Läs mer]
 
 De flesta länkar för integreringar med Campaign och Adobe-lösningar har ändrats! Kolla dina bokmärken [Läs mer](../../integrating/using/get-started-campaign-integrations.md)
 
-Datamodel v1 är nu tillgänglig med SQL-strukturen för inbyggda resurser - [Läs mer](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html)
+Datamodell v1 är nu tillgänglig med SQL-strukturen för inbyggda resurser - [Läs mer](https://docs.adobe.com/content/help/sv-SE/campaign-standard/using/developing/datamodel/datamodel-audience.html)
 
 Tillagd information om hur du förbereder ett meddelande vid en leverans [Läs mer](../../sending/using/preparing-the-send.md)
 
@@ -698,7 +698,7 @@ Lagt till information om hur du skickar en leverans beroende på användarnas ti
 
 Omorganiserade avsnittet **[!UICONTROL Customizing a push notification]** med stegvisa användningsexempel. [Läs mer](../../channels/using/customizing-a-push-notification.md)
 
-Ett nytt avsnitt som handlar om hantering av blockeringslista. [Läs mer](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+Ett nytt avsnitt om hantering av blockeringslistor. [Läs mer](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Uppdaterad information om leveransfel och karantän. [Läs mer](../../sending/using/monitoring-a-delivery.md)
 
@@ -860,7 +860,7 @@ Många skärmbilder har uppdaterats för att återspegla gränssnittsändringar.
 
 Nu finns en ny teknik: &quot;Integrera Adobe Mobile SDK med mobilappen&quot;. [Läs mer](https://helpx.adobe.com/se/campaign/kb/integrate-mobile-sdk.html)
 
-Instruktioner om hur du konfigurerar People core Service eller Audience Manager-integrering med Adobe Campaign har lagts till. [Läs mer](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+Instruktioner för att konfigurera People core service eller Audience Manager integration med Adobe Campaign har lagts till. [Läs mer](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 Behörighetstabellen har reviderats för att tydliggöra vissa rollers funktion. [Läs mer](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
@@ -884,7 +884,7 @@ Dreamweaver-integration live - [Läs mer](https://docs.adobe.com/content/help/sv
 
 Avsnitt tillagt för olika typer av Adobe Campaign-användare. [Läs mer](../../administration/using/users-management.md)
 
-Handboken för arbetsflöde har omorganiserats och utökats. Easily find how to [build](../../automating/using/building-a-workflow.md) and [execute](../../automating/using/about-workflow-execution.md) a workflow, how to [target](../../automating/using/about-targeting-activities.md) and [manage](../../automating/using/about-targeting-activities.md#enriching-data) your data, how to [import and export](../../automating/using/about-data-import-and-export.md) data, and how to use workflow data to update the database or to send deliveries.
+Handboken för arbetsflöde har omorganiserats och utökats. Hitta enkelt hur man [bygger](../../automating/using/building-a-workflow.md) och [kör](../../automating/using/about-workflow-execution.md) ett arbetsflöde, hur man [målinriktar](../../automating/using/about-targeting-activities.md) och [hanterar](../../automating/using/about-targeting-activities.md#enriching-data) data, hur man [importerar och exporterar](../../automating/using/about-data-import-and-export.md) data samt hur man använder arbetsflödesdata för att uppdatera databasen eller skicka leveranser.
 
 Beräkning av rapportindikator finns nu tillgängligt för dynamiska rapporter inklusive fullständig beskrivning och beräkningsformel. [Läs mer](../../reporting/using/indicator-calculation.md)
 
