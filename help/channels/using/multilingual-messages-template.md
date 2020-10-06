@@ -11,11 +11,11 @@ topic-tags: managing-templates
 discoiquuid: 064c5c4a-f579-4bab-adf3-51c92eb4518f
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
-workflow-type: ht
-source-wordcount: '294'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -41,6 +41,7 @@ Så här skapar du en mall för SMS eller e-post:
    >Du kan också ändra en befintlig standardmall i en flerspråkig mall genom att klicka på knappen **[!UICONTROL Initialize content variant]** i mallegenskaperna.
 
 1. Ändra egenskaperna för att anpassa etikett, spårning etc.
+
 1. Ändra antalet önskade varianter genom att klicka på variant-ikonen.  Fönstret för varianter visas
 
    ![](assets/multi_template_variants.png)
@@ -54,6 +55,7 @@ Så här skapar du en mall för SMS eller e-post:
    >Ta inte bort &quot;standardvarianten&quot; eftersom det är varianten som skickas till profiler utan en vald föredragen språkparameter.
 
 1. Anpassa etikettvarianten om det behövs och klicka på **[!UICONTROL Confirm]**.
+
 1. Du kan också direkt lägga till innehåll för varje variant.
 
 Du kan nu skapa ett e-post eller SMS-meddelande baserat på den här flerspråkiga mallen.
