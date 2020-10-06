@@ -9,11 +9,11 @@ topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9a8e3087ef6a0cf2f1d68cb145a67af3c05d27ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2269'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -38,13 +38,13 @@ De viktigaste egenskaperna för denna aktivitet är:
 * Möjlighet att få ett JSON-svar tillbaka, mappa det till utdatatabeller och skicka det vidare till andra arbetsflödesaktiviteter.
 * Felhantering med en utgående specifik övergång
 
-### Bakåtkompatibilitetsmeddelanden {#from-beta-to-ga}
+### Meddelanden om bakåtkompatibilitet{#from-beta-to-ga}
 
-I Campaign Standard 20.4 har http-svarsdatastorleksgränsen och tidsgränsskyddet för svar sänkts så att de överensstämmer med bästa praxis (se avsnittet Begränsningar och skyddsutkast). Dessa skyddsändringar kommer inte att träda i kraft för befintliga externa API-aktiviteter. Därför rekommenderar vi att du ersätter befintliga externa API-aktiviteter med nya versioner i alla arbetsflöden.
+I och med Campaign Standard version 20.4 har storleksgränsen på data för http-svar och tidsgränsskyddet för svar sänkts, vilket innebär att de överensstämmer med bästa praxis (se avsnittet ”Begränsningar och skydd”). Dessa skyddsändringar träder ej i kraft för befintliga externa API-aktiviteter. Vi rekommenderar därför att du ersätter befintliga externa API-aktiviteter med nya versioner i alla arbetsflöden.
 
-Om du uppgraderar från Campaign Standard 20.2 (eller tidigare) bör du tänka på att den externa API-funktionen har flyttats från Beta till General Availability i Campaign Standard 20.3.
+Om du uppgraderar från Campaign Standard version 20.2 (eller tidigare) bör du tänka på att den externa API-funktionen har flyttats från betaversionen till allmän tillgänglighet i Campaign Standard version 20.3.
 
-Om du använder Extern API-aktiviteter i beta måste du därför ersätta dem med Extern API-aktiviteter i GA i alla arbetsflöden.  Arbetsflöden som använder betaversionen av det externa API:t fungerar inte med början i Campaign Standard 20.3.
+Om du använder externa API-aktiviteter i beta-versionen måste du därför ersätta dem med Extern API-aktiviteter i GA i alla arbetsflöden.  Arbetsflöden som använder betaversionen av det externa API:et fungerar inte från och med Campaign Standard version 20.3.
 
 När du ersätter Extern API-aktiviteter lägger du till den nya Extern API-aktiviteten i arbetsflödet, kopierar manuellt över konfigurationsinformationen och tar sedan bort den gamla aktiviteten.
 
@@ -56,15 +56,15 @@ Därefter konfigurerar du om andra aktiviteter i arbetsflödet som pekar på och
 
 ### Begränsningar och skyddsräcken {#guardrails}
 
-Följande skyddsutkast gäller för den här aktiviteten:
+Följande skydd gäller för den här aktiviteten:
 
-* 5 MB http response data size limit (note: detta är en ändring från gränsen på 50 MB i den tidigare versionen)
-* Timeout för begäran är 1 minut (Obs! detta är en ändring från tidsgränsen på 10 minuter i föregående version)
+* 5 MB gräns för datastorlek på http-svar (Obs! Detta är en ändring från gränsen på 50 MB i föregående version)
+* Tidsgränsen för begäran är 1 minut (Obs! Detta är en ändring från tidsgränsen på 10 minuter i föregående version)
 * HTTP-omdirigeringar tillåts inte
 * URL:er som inte är HTTPS nekas
 * Begäranderubriken &quot;Acceptera: application/json&quot; och svarsrubriken &quot;Innehållstyp: application/json&quot; är tillåtna
 
-Särskilda skyddsräcken har införts:
+Särskilda skydd har införts:
 
 * **Maximalt JSON-djup**: Begränsa det maximala djupet för en anpassad kapslad JSON som kan bearbetas till 10 nivåer.
 * **Maximal längd på JSON-nyckel**: Begränsa maxlängden för den interna nyckel som genereras till 255. Den här nyckeln är kopplad till kolumn-ID:t.
@@ -72,7 +72,7 @@ Särskilda skyddsräcken har införts:
 
 >[!CAUTION]
 >
->Den externa API-aktiviteten är avsedd för att hämta kampanjomfattande data (den senaste uppsättningen erbjudanden, senaste poängen osv.), inte för att hämta specifik information för varje profil eftersom det kan leda till att stora mängder data överförs. Om användningsfallet kräver detta ska aktiviteten [Överför fil](../../automating/using/transfer-file.md) användas.
+>Den externa API-aktiviteten är avsedd att hämta kampanjomfattande data (senaste erbjudanden och senaste poängen o.s.v.) och inte att hämta specifik information för varje profil eftersom det kan leda till att stora mängder data överförs. Om användningsfallet kräver detta ska aktiviteten [Överför fil](../../automating/using/transfer-file.md) användas.
 
 ## Konfiguration {#configuration}
 
@@ -104,7 +104,7 @@ JSON-tolkaren är utformad för att rymma JSON-standardstrukturmönstertyper, me
 JSON-exempeldefinitionen måste ha **följande egenskaper**:
 
 * **Matriselement** måste innehålla egenskaper på första nivån (djupare nivåer stöds inte).
-   **Egenskapsnamn** blir till kolumnnamn för utdatabadet i den tillfälliga utdatatabellen.
+   **Egenskapsnamn** blir till kolumnnamn för utdatabladet i den tillfälliga utdatatabellen.
 * **JSON-element** som ska hämtas måste vara på 10 eller färre kapslingsnivåer inom JSON-svaret.
 * **Kolumnnamnsdefinitionen** baseras på det första elementet i matrisen &quot;data&quot;.
 Kolumndefinition (lägg till/ta bort) och egenskapens typvärde kan redigeras på fliken **Kolumndefinition**.
@@ -122,13 +122,13 @@ Om **tolkningen valideras** visas ett meddelande som uppmanar dig att anpassa da
 
 ### Körning
 
-Med den här fliken kan du definiera anslutningsslutpunkten. I **[!UICONTROL URL]** fältet kan du definiera den **HTTPS-slutpunkt** som ska skicka data till ACS.
+Med den här fliken kan du definiera anslutningens slutpunkt. I fältet **[!UICONTROL URL]** kan du definiera den **HTTPS-slutpunkt** som skickar data till ACS.
 
-Om slutpunkten kräver det finns det två typer av verifieringsmetoder:
+Om slutpunkten så kräver finns det två typer av autentiseringsmetoder:
 
-* Grundläggande autentisering: Ange användarnamn/lösenord i **[!UICONTROL Request Header(s)]** fältet.
+* Grundläggande autentisering: ange användarnamn/lösenord i fältet **[!UICONTROL Request Header(s)]**.
 
-* OAuth-autentisering: Genom att klicka på **[!UICONTROL Use connection parameters defined in an external account]** knappen kan du välja ett externt konto där OAuth-autentiseringen har definierats. For more information, refer to the [External accounts](../../administration/using/external-accounts.md) section.
+* OAuth-autentisering: genom att klicka på knappen **[!UICONTROL Use connection parameters defined in an external account]** kan du välja ett externt konto där OAuth-autentiseringen definieras. Se avsnittet [Externa konton](../../administration/using/external-accounts.md) för mer information.
 
 ![](assets/externalAPI-execution.png)
 
@@ -185,31 +185,31 @@ Dessa loggmeddelanden används för att logga information om användbara kontrol
   </tr> 
   <tr> 
    <td> Försöker igen med API-URL '%s' på grund av %s på %d ms, försök %d.</td> 
-   <td> <p>Försöker igen med API-URL:en https://example.com/api/v1/web-coupon?count=0' på grund av HTTP - 401 på 2364 ms, försök 2.</p></td>
+   <td> <p>Försöker igen med API-URL 'https://example.com/api/v1/web-coupon?count=0' på grund av HTTP - 401 på 2364 ms, försök 2.</p></td>
   </tr> 
   <tr> 
    <td> Överför innehåll från "%s" (%s / %s).</td> 
    <td> <p>Överför innehåll från "https://example.com/api/v1/web-coupon?count=2" (1234/1234).</p></td> 
   </tr>
   <tr> 
-   <td> Använder cachelagrad åtkomsttoken för provider-ID %s.</td> 
-   <td> <p>Använder cachelagrad åtkomsttoken för provider-ID 'EXT25'. Obs!  EXT25 är ID:t (eller namnet) för det externa kontot. </p></td> 
+   <td> Använder cachelagrad åtkomsttoken för leverantörs-ID %s.</td> 
+   <td> <p>Använder cachelagrad åtkomsttoken för leverantörs-ID 'EXT25'. Obs! EXT25 är ID-numret (eller namnet) på det externa kontot. </p></td> 
   </tr>
   <tr> 
-   <td> Åtkomsttoken för provider-ID %s har hämtats från servern.</td> 
-   <td> <p>Åtkomsttoken från servern för provider-ID 'EXT25' har hämtats. Obs! EXT25 är ID:t (eller namnet) för det externa kontot.</p></td> 
+   <td> Åtkomsttoken för leverantörs-ID %s har hämtats från servern.</td> 
+   <td> <p>Åtkomsttoken för leverantörs-ID 'EXT25’ har hämtats från servern. Obs! EXT25 är ID-numret (eller namnet) på det externa kontot.</p></td> 
   </tr>
   <tr> 
-   <td> Uppdaterar OAuth-åtkomsttoken på grund av fel (HTTP: '%d').</td> 
-   <td> <p>Uppdaterar OAuth-åtkomsttoken på grund av fel (HTTP: 401).</p></td> 
+   <td> Uppdatera OAuth-åtkomsttoken på grund av fel (HTTP: '%d').</td> 
+   <td> <p>Uppdatera OAuth-åtkomsttoken på grund av fel (HTTP: '401').</p></td> 
   </tr>
   <tr> 
    <td> Fel vid uppdatering av OAuth-åtkomsttoken (fel: '%d'). </td> 
-   <td> <p>Fel vid uppdatering av OAuth-åtkomsttoken (fel: 404).</p></td> 
+   <td> <p>Fel vid uppdatering av OAuth-åtkomsttoken (fel: '404').</p></td> 
   </tr>
   <tr> 
    <td> Det gick inte att hämta OAuth-åtkomsttoken med det angivna externa kontot på försök %d. Ett nytt försök görs om %d ms.</td> 
-   <td> <p>Det gick inte att hämta OAuth-åtkomsttoken med det angivna externa kontot vid försök 1, försöker igen om 1 387 ms.</p></td> 
+   <td> <p>Det gick inte att hämta OAuth-åtkomsttoken med det angivna externa kontot på försök 1. Ett nytt försök görs om 1387 ms.</p></td> 
   </tr>
  </tbody> 
 </table>
@@ -264,7 +264,7 @@ Dessa loggmeddelanden används för att logga information om oväntade feltillst
    <td> <p>HTTP-rubriknyckeln tillåts inte (rubriknyckeln: "Godkänn").</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 - Ett HTTP-rubrikvärde är felaktigt (rubrikvärde: '%s').</td> 
+   <td> WKF-560247 – ett HTTP-rubrikvärde är felaktigt (rubrikvärde: '%s').</td> 
    <td> <p>HTTP-rubrikvärdet är felaktigt (rubrikvärde: "%s"). </p>
     <p>Obs! Det här felet loggas när det anpassade rubrikvärdet inte kan valideras enligt <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr> 
@@ -284,36 +284,36 @@ Dessa loggmeddelanden används för att logga information om oväntade feltillst
         <p>När aktiviteten misslyckas på grund av en ogiltig rubrik av innehållstyp. – Aktiviteten misslyckades (orsak: "Innehållstyp – application/html").</p></td> 
   </tr>
   <tr> 
-   <td> WKF-560278 - "Fel vid initiering av OAuth-hjälpen (fel: '%d')" .</td> 
-   <td> <p>Detta fel indikerar att aktiviteten inte kunde initiera den interna hjälpfunktionen för OAuth2.0 på grund av ett fel i att använda attributen som konfigurerats i det externa kontot för att initiera hjälpfunktionen.</p></td>
+   <td> WKF-560278 – ”Fel vid initiering av OAuth-hjälpen (fel: '%d')”.</td> 
+   <td> <p>Detta fel indikerar att aktiviteten inte kunde initiera den interna hjälpfunktionen för OAuth2.0 på grund av ett fel i att använda attributen som har konfigurerats på det externa kontot för att initiera hjälpfunktionen.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560279 - HTTP-huvudnyckeln tillåts inte (huvudnyckel: '%s')."</td> 
-   <td> <p>Det här varningsmeddelandet (inte felmeddelandet) anger att det externa OAuth 2.0-kontot har konfigurerats att lägga till en referens som HTTP-huvud, men den huvudnyckel som används tillåts inte eftersom det är en reserverad huvudnyckel.</p></td>
+   <td> WKF-560279 – ”HTTP-rubriknyckel tillåts inte (rubriknyckel: '%s').”</td> 
+   <td> <p>Det här varningsmeddelandet (inte felmeddelandet) anger att det externa OAuth 2.0-kontot har konfigurerats för att lägga till en referens som HTTP-rubrik men rubriknyckeln som används tillåts inte eftersom det är en reserverad rubriknyckel.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560280 - Det går inte att hitta det externa kontot för %s ID.</td> 
-   <td> <p>Det går inte att hitta det externa kontot för EXT25-ID.  Obs! Detta fel indikerar att aktiviteten har konfigurerats för att använda ett externt konto som inte längre kan hittas. Detta inträffar troligast när kontot har tagits bort från databasen och därför inte inträffar under normala driftförhållanden.</p></td>
+   <td> WKF-560280 – det går inte att hitta det externa kontot med ID-numret '%s'.</td> 
+   <td> <p>Det går inte att hitta det externa kontot med ID-numret 'EXT25'.  Obs! Det här felet indikerar att aktiviteten har konfigurerats för att använda ett externt konto som inte längre kan hittas. Detta inträffar troligast när kontot har tagits bort från databasen och inträffar därför i vanliga fall inte under normala driftförhållanden.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560281 - Det externa kontot för %s ID är inaktiverat.</td> 
-   <td> <p>Externt konto för EXT25-ID är inaktiverat. Obs! Det här felet anger att aktiviteten har konfigurerats för att använda ett externt konto, men att kontot har inaktiverats (eller markerats som inaktivt).</p></td>
+   <td> WKF-560281 – det externa kontot med ID-numret '%s' är inaktiverat.</td> 
+   <td> <p>Externt konto med ID-numret 'EXT25' är inaktiverat. Obs! Det här felet indikerar att aktiviteten har konfigurerats för att använda ett externt konto men att kontot har inaktiverats (eller markerats som inaktivt).</p></td>
   </tr>
   <tr> 
-   <td> WKF-560282 - Protokollet stöds inte.</td> 
+   <td> WKF-560282 – stöd finns inte för protokollet.</td> 
    <td> <p>Det här felet anger att det externa konto som är associerat med aktiviteten inte är ett externt OAuth2.0-konto. Därför är det osannolikt att det här felet inträffar om det inte finns några skador eller manuella ändringar i aktivitetskonfigurationen.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560283 - Det gick inte att hämta OAuth-åtkomsttoken.</td> 
-   <td> <p>Den vanligaste orsaken till det här felet är felkonfigurering av det externa kontot (till exempel. genom att använda det externa kontot utan att testa att anslutningen fungerar). Det kan vara möjligt att URL/autentiseringsuppgifter för det externa kontot ändras.</p></td>
+   <td> WKF-560283 – det gick inte att hämta OAuth-åtkomsttoken.</td> 
+   <td> <p>Den vanligaste orsaken till det här felet är en felkonfigurering av det externa kontot (såsom att använda det externa kontot utan att testa att anslutningen fungerar). Det kan vara möjligt att webbadressen/autentiseringsuppgifterna för det externa kontot ändrats.</p></td>
   </tr>
   <tr> 
-   <td> CRL-290199 - Det går inte att nå sidan på: %s.</td> 
-   <td> <p>Det här felmeddelandet visas på skärmen för det externa användargränssnittet för konton när det konfigureras för OAuth. Det betyder att URL:en för den externa auktoriseringsservern antingen är felaktig/ändrad/att svaret från servern inte hittas.</p></td>
+   <td> CRL-290199 – det går inte att nå sidan på: %s.</td> 
+   <td> <p>Det här felmeddelandet visas på skärmen med det externa kontots användargränssnitt när det konfigureras för OAuth. Detta innebär att webbadressen för den externa auktoriseringsservern antingen är felaktig/ändrad eller att svaret från servern är ”Sidan hittades inte”.</p></td>
   </tr>
   <tr> 
-   <td> CRL-290200 - Ofullständiga/felaktiga autentiseringsuppgifter.</td> 
-   <td> <p>Det här felmeddelandet visas på skärmen för det externa användargränssnittet för konton när det konfigureras för OAuth. Detta innebär att autentiseringsuppgifterna antingen är felaktiga eller att andra nödvändiga autentiseringsuppgifter saknas för att ansluta till autentiseringsservern.
+   <td> CRL-290200 – ofullständiga/felaktiga autentiseringsuppgifter.</td> 
+   <td> <p>Det här felmeddelandet visas på skärmen med det externa kontots användargränssnitt när det konfigureras för OAuth. Detta innebär att autentiseringsuppgifterna antingen är felaktiga eller att andra nödvändiga autentiseringsuppgifter saknas för att ansluta till autentiseringsservern.
 </p></td>
   </tr>
  </tbody> 
