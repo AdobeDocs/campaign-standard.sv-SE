@@ -13,7 +13,10 @@ context-tags: activity,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +28,7 @@ Ni kan få tillgång till en uppsättning avancerade funktioner, från målinrik
 Du kan komma åt meddelanden:
 
 * inom en kampanj
-* från Adobe Campaigns hemsida
+* från Adobe Campaign hemsida
 * från förteckningen över marknadsföringsaktiviteter
 
 ## Åtkomst till meddelanden i kampanjer {#accessing-messages-in-campaigns}
@@ -70,4 +73,3 @@ Ett meddelandes status representeras av en viss färg i listorna. Möjliga statu
    >[!NOTE]
    >
    >En gul meddelandebanderoll kan visas ovanför kortet när en åtgärd krävs, t.ex. när du måste bekräfta att ett meddelande ska skickas.
-
