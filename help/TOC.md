@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
 source-wordcount: '1652'
-ht-degree: 84%
+ht-degree: 98%
 
 ---
 
@@ -249,12 +249,12 @@ ht-degree: 84%
    + Campaign och Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + [Kom igång med Dynamics 365-integration](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
       + [Hantera data mellan Campaign och Dynamics 365](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
-      + [Begär integrering](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
+      + [Begär integreringen](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
       + [Konfigurera Adobe I/O](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + [Konfigurera Dynamics 365 för Campaign-integration](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
-      + [Mappa anpassade resurser för Campaign och anpassade Dynamics 365-entiteter](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
+      + [Mappa anpassade resurser för Campaign och anpassade entiteter i Dynamics 365](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
       + [Använda Dynamics 365­integrationen](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
-      + [Skyddsutkast för integrering](integrating/using/ms-dynamics-365-integration-guardrails.md)
+      + [Skydd för integrering](integrating/using/ms-dynamics-365-integration-guardrails.md)
 + Hantera processer och data {#managing-processes-and-data}
    + [Kom igång med data- och processhantering](automating/using/get-started-workflows.md)
    + Allmänt om arbetsflöde {#workflow-general-operation}
@@ -272,7 +272,7 @@ ht-degree: 84%
       + [Översikt](automating/using/calling-a-workflow-with-external-parameters.md)
       + [Deklarera parametrarna i aktiviteten Extern signal](automating/using/declaring-parameters-external-signal.md)
       + [Definiera parametrarna när arbetsflödet anropas](automating/using/defining-parameters-calling-workflow.md)
-      + [Övervaka händelsevariabler](automating/using/monitoring-events-variables.md)
+      + [Övervaka händelsevariablerna](automating/using/monitoring-events-variables.md)
       + [Anpassa arbetsflödet med externa parametrar](automating/using/customizing-workflow-external-parameters.md)
       + [Användningsfall](automating/using/use-case-calling-workflow.md)
    + Målinriktade aktiviteter{#targeting-activities}
@@ -318,7 +318,7 @@ ht-degree: 84%
       + [Lista över funktioner](automating/using/list-of-functions.md)
    + Importera och exportera data {#importing-and-exporting-data}
       + [Om import och export av data](automating/using/about-data-import-and-export.md)
-      + [Importera metodtips](automating/using/import-best-practices.md)
+      + [Importera bästa praxis](automating/using/import-best-practices.md)
       + [Importera data med importmallar](automating/using/importing-data-with-import-templates.md)
       + [Skapa arbetsflödesmallar för import av data](automating/using/creating-import-workflow-templates.md)
       + [Hantera krypterade data](automating/using/managing-encrypted-data.md)
@@ -335,26 +335,26 @@ ht-degree: 84%
          + [Skapa en flerkanalsleverans](automating/using/workflow-cross-channel-delivery.md)
          + [Identifiera dubbletter före leverans](automating/using/identifying-duplicated-before-delivery.md)
          + [Födelsedagsleverans](automating/using/birthday-delivery.md)
-         + [Koppla e-post och direktreklam](automating/using/coupling-email-direct-mail.md)
-         + [Skicka ett e-postmeddelande med fördjupade fält](automating/using/sending-email-enriched-fields.md)
-         + [Anpassa ett e-postmeddelande med ytterligare data](automating/using/personalizing-email-with-additional-data.md)
+         + [Länka e-post och leveranser av direktreklam](automating/using/coupling-email-direct-mail.md)
+         + [Skicka ett e-postmeddelande med berikade fält](automating/using/sending-email-enriched-fields.md)
+         + [Personalisera ett e-postmeddelande med ytterligare data](automating/using/personalizing-email-with-additional-data.md)
          + [Skicka ett återkommande push-meddelande](automating/using/recurring-push-notifications.md)
       + Segmentering och målinriktning {#segmentation-targeting}
          + [Förfrågningsexempel](automating/using/query-samples.md)
-         + [Förena på två förfinade målgrupper](automating/using/union-on-two-refined-audiences.md)
+         + [Sammankoppling av två förfinade målgrupper](automating/using/union-on-two-refined-audiences.md)
          + [Skapa en segmentering på plats](automating/using/workflow-segmentation-location.md)
          + [Återinriktning på icke-öppnare](automating/using/workflow-cross-channel-retargeting.md)
-         + [Stegvis fråga om prenumeranter på en tjänst](automating/using/incremental-query-on-subscribers.md)
-         + [Segmentering efter åldersgrupper](automating/using/segmentation-age-groups.md)
+         + [Inkrementell fråga om prenumeranter på en tjänst](automating/using/incremental-query-on-subscribers.md)
+         + [Segmentering per åldersgrupp](automating/using/segmentation-age-groups.md)
          + [Använda andra resurser än måldimensioner](automating/using/using-resources-different-from-targeting-dimensions.md)
       + Datahantering {#data-management}
-         + [Städa av en filpublik med databasen](automating/using/reconcile-file-audience-with-database.md)
+         + [Förena en målgruppsfil med databasen](automating/using/reconcile-file-audience-with-database.md)
          + [Deduplicera data från en importerad fil](automating/using/deduplicating-data-imported-file.md)
-         + [Förbättra profildata med data i en fil](automating/using/enriching-profile-data-file.md)
-         + [Extern signalaktivitet och dataimport](automating/using/external-signal-data-import.md)
+         + [Förbättra profildata med data som finns i en fil](automating/using/enriching-profile-data-file.md)
+         + [Extern signalaktivitet och import av data](automating/using/external-signal-data-import.md)
          + [Uppdatera databasen med externa data](automating/using/update-database-file.md)
          + [Uppdatera data baserat på en automatisk filhämtning](automating/using/update-data-automatic-download.md)
-         + [Datavstämning med hjälp av relationer](automating/using/reconciliation-using-relations.md)
+         + [Dataavstämning med hjälp av relationer](automating/using/reconciliation-using-relations.md)
          + [Datauppdatering med avstämning](automating/using/data-update-reconciliation.md)
          + [Exportera profiler i en extern fil](automating/using/exporting-profiles-in-file.md)
          + [Uppdatera flera prenumerationsstatusar från en fil](automating/using/updating-subscriptions-from-file.md)
@@ -372,7 +372,7 @@ ht-degree: 84%
    + Lägga till eller utöka en resurs {#adding-or-extending-a-resource}
       + [Huvudstegen för att lägga till en resurs](developing/using/key-steps-to-add-a-resource.md)
       + [Skapa eller utöka resursen](developing/using/creating-or-extending-the-resource.md)
-      + [Konfigurerering av resursens datastruktur](developing/using/configuring-the-resource-s-data-structure.md)
+      + [Konfigurering av resursens datastruktur](developing/using/configuring-the-resource-s-data-structure.md)
       + [Konfigurera skärmdefinitionen](developing/using/configuring-the-screen-definition.md)
       + [Konfigurering av filterdefinition](developing/using/configuring-filter-definition.md)
       + [Uppdatera databasstrukturen](developing/using/updating-the-database-structure.md)
@@ -425,14 +425,14 @@ ht-degree: 84%
       + [Konfigurera SMS-kanal](administration/using/configuring-sms-channel.md)
       + [Konfigurera ett mobilprogram](administration/using/configuring-a-mobile-application.md)
       + [Konfigurera transaktionsmeddelanden](administration/using/configuring-transactional-messaging.md)
-   + Konfigurera mobilkanaler {#configuring-mobile}
+   + Konfigurera mobila kanaler {#configuring-mobile}
       + [Implementera push-spårning](administration/using/push-tracking.md)
-      + [Lägga till bilder och videoklipp iOS](administration/using/image-push-notification.md)
-      + [Förstå nyttolaststrukturen för push-meddelanden](administration/using/push-payload.md)
+      + [Lägga till bilder och videor i iOS](administration/using/image-push-notification.md)
+      + [Om nyttolaststrukturen för push-meddelanden i](administration/using/push-payload.md)
       + [Implementera lokal meddelandespårning](administration/using/local-tracking.md)
-      + [Vanliga frågor om Adobe-startsynkronisering](administration/using/syncwithlaunch-faq.md)
-      + [Vanliga frågor om integrering av Experience Platform SDK](administration/using/aep-faq.md)
-      + [Konfigurera startregler som stöder Adobe Campaign Standard användningsfall](administration/using/configuring-rules-launch.md)
+      + [Vanliga frågor och svar om startsynkronisering i Adobe](administration/using/syncwithlaunch-faq.md)
+      + [Vanliga frågor och svar om integrering av Experience Platform SDK](administration/using/aep-faq.md)
+      + [Konfigurera startregler för att ger stöd för användningsfall i Adobe Campaign Standard](administration/using/configuring-rules-launch.md)
       + [Mobil användning som stöds av Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
    + Programinställningar {#application-settings}
       + [Om Campaign Standard-inställningar](administration/using/about-campaign-standard-settings.md)
@@ -446,7 +446,7 @@ ht-degree: 84%
 + Arbeta med API:er {#working-with-apis}
    + [Kom igång med Campaign Standard-API:er](api/using/get-started-apis.md)
    + Om Campaign Standard-API:er {#about-campaign-standard-apis}
-      + [Varför använda Campaign Standard-API:er](api/using/why-using-campaign-standard-apis.md)
+      + [Därför använder man API:er i Campaign Standard](api/using/why-using-campaign-standard-apis.md)
       + [Konfigurera API-åtkomst](api/using/setting-up-api-access.md)
    + Globala begrepp {#global-concepts}
       + [Måste läsas](api/using/must-read.md)
