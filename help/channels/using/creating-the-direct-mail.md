@@ -13,10 +13,10 @@ context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 96%
 
 Processen för att skapa ett direktmeddelande är väldigt lik processen för att skapa ett vanligt e-postmeddelande. I följande steg beskrivs konfigurationen som är specifik för den här kanalen. Mer information om andra alternativ finns i [Skapa ett e-postmeddelande](../../channels/using/creating-an-email.md).
 
-1. Skapa en ny leverans av direktmeddelande. Du kan skapa en från Adobe Campaigns [startsida](../../start/using/interface-description.md#home-page), i en [kampanj](../../start/using/marketing-activities.md#creating-a-marketing-activity) eller i en [lista över marknadsföringsaktiviteter](../../start/using/programs-and-campaigns.md#creating-a-campaign).
+>[!NOTE]
+>
+>Du kan också lägga till en aktivitet för direktmeddelanden i ett arbetsflöde. Mer information om detta hittar du i handboken [Arbetsflöden](../../automating/using/direct-mail-delivery.md).
 
-   >[!NOTE]
-   >
-   >Du kan också lägga till en aktivitet för direktmeddelanden i ett arbetsflöde. Mer information om detta hittar du i handboken [Arbetsflöden](../../automating/using/direct-mail-delivery.md).
+1. Skapa en ny leverans av direktmeddelande. Du kan skapa en från Adobe Campaigns [startsida](../../start/using/interface-description.md#home-page), i en [kampanj](../../start/using/marketing-activities.md#creating-a-marketing-activity) eller i en [lista över marknadsföringsaktiviteter](../../start/using/programs-and-campaigns.md#creating-a-campaign).
 
    ![](assets/direct_mail_1.png)
 
