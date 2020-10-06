@@ -12,11 +12,11 @@ discoiquuid: 9e73d6b5-41b4-474b-a880-a0cd5999c2d1
 context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
-source-wordcount: '337'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -72,4 +72,3 @@ Du kan till exempel inkludera avsändarinformationen i sidhuvudet av filen för 
 Avsändaradressen definieras i avsnittet **[!UICONTROL Send]** i egenskaperna för direktmeddelande eller på mallnivå.
 
 ![](assets/direct_mail_24.png)
-
