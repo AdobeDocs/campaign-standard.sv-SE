@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c300f50ce83d67be7c8a16f857eb46fb1ce89166
+source-git-commit: 32f3b8ac0108bbce10e443c39f1f766ddf97db84
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 100%
@@ -95,9 +95,9 @@ Av säkerhetsskäl och på grund av plattformsprestanda rekommenderar vi att du 
 
    ![](assets/lp-steps3.png)
 
-   >[!NOTE]
-   >
-   >Ändringarna gäller endast för den landningssidan som redigeras.  Om du vill tillämpa dessa ändringar på andra landningssidor så kan du utföra dem i en dedikerad mall och sedan skapa andra landningssidor från den mallen.
+>[!NOTE]
+>
+>Ändringarna gäller endast för den landningssidan som redigeras.  Om du vill tillämpa dessa ändringar på andra landningssidor så kan du utföra dem i en dedikerad mall och sedan skapa andra landningssidor från den mallen.
 
 ## Steg 3 - Utforma landningssidan {#design-the-landing-page}
 
