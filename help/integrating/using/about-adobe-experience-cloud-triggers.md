@@ -12,11 +12,11 @@ discoiquuid: e526b205-2d01-4a8b-9685-ba1d9a1f459f
 context-tags: trigger,overview;trigger,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1e790f550f6eb84954f199caeda88a8fd90dfd85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '475'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Följande diagram visar hur den här integreringen fungerar.
 
 **Relaterade ämnen:**
 
-* Lär dig mer om de olika typerna av utlösare: [Adobe Experience Cloud-dokumentation](https://docs.adobe.com/content/help/en/core-services/interface/activation/triggers.html).
+* Lär dig mer om de olika typerna av utlösare: [Adobe Experience Cloud-dokumentation](https://docs.adobe.com/content/help/sv-SE/core-services/interface/activation/triggers.html).
 * Titta på videon [Trigger Remarketing Messages som baseras på hemsideaktivitet](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two)
 * Upptäck våra två [utlösare vid övergiven kundkorg](../../integrating/using/abandonment-triggers-use-cases.md).
 
