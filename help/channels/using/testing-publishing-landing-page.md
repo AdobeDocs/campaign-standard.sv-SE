@@ -11,11 +11,11 @@ topic-tags: landing-pages
 discoiquuid: f7d4bb71-f957-4f86-97c7-8ac0a0030026
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 54612511de07edc3e6f3eea34ef095c26b35f4af
-workflow-type: ht
-source-wordcount: '383'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 32f3b8ac0108bbce10e443c39f1f766ddf97db84
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -44,7 +44,7 @@ Eftersom landningssidan kommer att påverka plattformen och data måste du noga 
 
 1. Upprepa detta med olika profiler och data.
 
-   Du kan också generera miniatyrbilden för landningssidan på den här skärmen.
+Du kan också generera miniatyrbilden för landningssidan på den här skärmen.
 
 >[!NOTE]
 >
