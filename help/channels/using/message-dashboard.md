@@ -13,10 +13,10 @@ context-tags: delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -52,21 +52,11 @@ Beroende på vilka parametrar som har ställts in och vilka framsteg som har gjo
 
    Mer information om korrektur finns i [Skicka korrektur](../../sending/using/sending-proofs.md).
 
-* **[!UICONTROL Send a test]**: Med kan du välja vilket godkännandeläge som ska användas: **[!UICONTROL Email rendering]**, **[!UICONTROL Proof]** eller båda för ett e-postmeddelande. Mer information om testprofiler finns i [Skicka korrektur](../../sending/using/sending-proofs.md).
+* **[!UICONTROL Send a test]**: Med kan du välja vilket godkännandeläge som ska användas: **[!UICONTROL Email rendering]** (endast e-post), **[!UICONTROL Proof]** eller båda. Mer information om testprofiler finns i [Skicka korrektur](../../sending/using/sending-proofs.md). Den här knappen aktiveras endast när du har skapat testprofiler.
 
-   Den här knappen aktiveras endast när du har etablerat testprofiler.
+* **[!UICONTROL Prepare send]**: börjar förbereda sändningen. Blocket visas och visar resultatet av **[!UICONTROL Deployment]** preparatet. Den här knappen visas bara när målet har angetts. Du kan när som helst avbryta beredningen med motsvarande knapp. For more on message preparation, refer to [Preparing the send](../../sending/using/preparing-the-send.md).
 
-   >[!NOTE]
-   >
-   >Det finns inget annat val för ett SMS-meddelande: det är automatiskt ett **[!UICONTROL Proof]** fel.
-
-* **[!UICONTROL Prepare send]**: börjar förbereda sändningen. Blocket visas och visar resultatet av **[!UICONTROL Deployment]** preparatet. Den här knappen visas bara när målet har angetts. Du kan när som helst avbryta beredningen med motsvarande knapp.
-
-   Om du vill ha mer information om meddelandeförberedelse [förbereder du sändningen](../../sending/using/preparing-the-send.md).
-
-* **[!UICONTROL Confirm send]**: bekräftar att meddelandet har skickats. Sändningsstatistiken visas i **[!UICONTROL Deployment]** -blocket. Den här knappen visas bara när sändningen har förberetts. Du kan stoppa eller pausa sändningen när som helst med knapparna **Stoppa sändning** och **[!UICONTROL Pause]** .
-
-   Mer information om hur du bekräftar sändning finns i [Skicka meddelanden](../../sending/using/confirming-the-send.md).
+* **[!UICONTROL Confirm send]**: bekräftar att meddelandet har skickats. Sändningsstatistiken visas i **[!UICONTROL Deployment]** -blocket. Den här knappen visas bara när sändningen har förberetts. Du kan stoppa eller pausa sändningen när som helst med knapparna **Stoppa sändning** och **[!UICONTROL Pause]** . Mer information om hur du bekräftar sändning finns i [Skicka meddelanden](../../sending/using/confirming-the-send.md).
 
 ## Block {#blocks}
 
