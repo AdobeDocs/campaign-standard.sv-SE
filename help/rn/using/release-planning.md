@@ -11,11 +11,11 @@ topic-tags: campaign-standard-release-planning
 discoiquuid: null
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b0c98e54893f1de5f378c74cec5182b1132ca995
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '458'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -32,9 +32,9 @@ Alla versionsdatum kan ändras: Vi rekommenderar att du regelbundet besöker den
 
 **NYHET!** Prenumerera på [Campaign Standard-versionsmeddelande](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) för att få information om kommande versioner direkt i din inkorg.
 
-## Version 20.4 - Oktober-versionen {#release-20-4-oct-release}
+## Version 20.4 – versionen från oktober {#release-20-4-oct-release}
 
-Miljöuppdateringar sker i vågor under de angivna tidsramarna nedan. Detaljerad information om den här versionen finns i [Versionsinformationen](../../rn/using/release-notes.md). Kontakta [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om du har ytterligare frågor.
+Miljöuppdateringar sker i vågor under de angivna tidsramarna nedan. Detaljerad information om den här versionen finns i [Versionsinformationen](../../rn/using/release-notes.md). Kontakta [Adobe Client Care](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) om du har ytterligare frågor.
 
 <table>
  <thead>
@@ -46,11 +46,11 @@ Miljöuppdateringar sker i vågor under de angivna tidsramarna nedan. Detaljerad
  <tbody>
   <tr>
    <td>Stadie<br /> </td>
-   <td>21-23 sept 2020<br /> </td>
+   <td>21–23 sept 2020<br /> </td>
   </tr>
   <tr>
    <td> Produktion<br /> </td>
-   <td>28 sept. 5 okt 2020<br /> </td>
+   <td>28 sept – 5 okt 2020<br /> </td>
   </tr>
  </tbody>
 </table>
