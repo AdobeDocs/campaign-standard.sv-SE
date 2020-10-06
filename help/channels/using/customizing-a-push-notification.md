@@ -13,10 +13,10 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '1494'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -116,11 +116,7 @@ Om du anger ett förfallodatum för ditt push-meddelande kan du ange ett specifi
 
 Så här lägger du till ett förfallodatum i ditt push-meddelande:
 
-1. Markera alternativet **[!UICONTROL Expire message]**.
-
-   >[!NOTE]
-   >
-   >Om du väljer **[!UICONTROL Expire message]**-alternativet anges längden automatiskt till 0. Om du inte ändrar värdet försöker både APNS och FCM skicka meddelandet direkt. Om det misslyckas skickas inte meddelandet igen.
+1. Check the **[!UICONTROL Expire message]** option: by selecting the **[!UICONTROL Expire message]** option, the duration is automatically set to 0. Om du inte ändrar värdet försöker både APNS och FCM skicka meddelandet direkt. Om det misslyckas skickas inte meddelandet igen.
 
 1. Välj giltigheten för push-meddelandet i **[!UICONTROL Duration]**-fältet.
 
@@ -191,4 +187,3 @@ För Android kan du ange URL-adressen till filen i URL-fältet för **multimedia
 Med **[!UICONTROL High priority]**-kryssrutan kan du ange en hög eller normal prioritet för dina push-meddelanden. Mer information om meddelandeprioritet finns i [Googles dokumentation för utvecklare](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message).
 
 ![](assets/push_notif_advanced_11.png)
-
