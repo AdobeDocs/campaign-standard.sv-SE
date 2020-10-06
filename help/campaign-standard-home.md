@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
 workflow-type: tm+mt
 source-wordcount: '232'
-ht-degree: 73%
+ht-degree: 97%
 
 ---
 
@@ -19,16 +19,17 @@ ht-degree: 73%
 
 ## Nyheter
 
-* **[Kontrollgrupper](sending/using/control-group.md)**<br/>Mät effekten av era kampanjer genom att utesluta en del av deras målgrupp
+* **[Kontrollgrupper](sending/using/control-group.md)**<br/>Mät effekten av dina kampanjer genom att utesluta en del av deras målgrupp
 
 * **[AI-baserade e-postmeddelanden](sending/using/predictive.md)**<br/>Optimera design och leverans med AI-baserade e-postmeddelanden
 
 * **[Sekretesshantering](https://helpx.adobe.com/se/campaign/kb/campaign-privacy.html)**<br/>
 Läs mer om verktygen i Adobe Campaign som hjälper dig att följa din sekretesspolicy
 
-* **[Externt API](automating/using/external-api.md)**<br/>Använd aktiviteten Externt API för att hämta data till arbetsflödet från ett externt system
+* **[Externt API](automating/using/external-api.md)**<br/>Använd den externa API-aktiviteten för att hämta data till arbetsflödet från ett externt system
 
-* **[Kom igång med mobila leveranser](https://helpx.adobe.com/se/campaign/kb/acs-mobile.html)**<br/> Läs mer om allmänna riktlinjer för mobila leveranser (SMS, push, In-App)
+* **[Kom igång med mobila leveranser](https://helpx.adobe.com/se/campaign/kb/acs-mobile.html)**<br/>
+Läs mer om allmänna riktlinjer för mobila leveranser (SMS, push och i appen)
 
 [Klicka här för fler uppdateringar](rn/using/documentation-updates.md)
 
