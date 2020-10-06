@@ -1,6 +1,6 @@
 ---
-title: Funktioner för prediktivt användarengagemang
-description: Lär dig hur du använder prediktiv sändningstid och engagemangsbedömning.
+title: Funktioner för förutsägande användarengagemang
+description: Läs om hur du använder förutsägande sändningstider och engagemangsbedömning.
 page-status-flag: never-activated
 uuid: c2c13934-9819-4e18-b5c7-60915c907f37
 contentOwner: sauviat
@@ -11,11 +11,11 @@ topic-tags: ai-powered-emails
 discoiquuid: 609355f6-9003-41b9-9981-ea787419fbf5
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c277a6cb18e9a1d83f8a2632049e7cea36414052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1061'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -24,79 +24,79 @@ ht-degree: 0%
 
 ## Kom igång med AI-baserade e-postmeddelanden{#journey-ai-ovv}
 
-Med Campaign kan ni optimera utformningen och leveransen av kundresor för att förutse varje enskild individs engagemang. Med Journey AI som bas kan Adobe Campaign analysera och förutse öppningsfrekvenser, optimala sändningstider och sannolika bortfall baserat på historiska engagemangsmått.
+Med Campaign kan du optimera designen och leveransen av kundresor för att förutse varje enskild individs engagemang. Med Journey AI som bas kan Adobe Campaign analysera och förutse öppningsfrekvenser, optimala sändningstider och sannolika bortfall baserat på historiska engagemangsmått.
 
-**Maskinininlärningsmodeller**
+**Maskininlärningsmodeller**
 
-Adobe Campaign Standard erbjuder två nya Machine Learning-modeller: **Predictive Send Time Optimizations** and **Predictive Engagement Scoring**. Dessa två modeller kallas tillsammans för Journey AI, som är en klass maskininlärningsmodeller som är specifika för att designa och leverera bättre kundresor.
+Adobe Campaign Standard erbjuder två nya maskininlärningsmodeller: **Förutsägande optimering av sändningstid** och **Förutsägande engagemangsbedömning**. Dessa två modeller kallas tillsammans för Journey AI som är en grupp med maskininlärningsmodeller som är specifika för att designa och leverera bättre kundresor.
 
-* **Prediktiv optimering** av sändningstid: Optimering av prediktiv sändningstid förutser vilken som är den bästa sändningstiden för varje mottagarprofil för e-postöppningar eller -klick. För varje mottagarprofil anger poängen den bästa sändningstiden för varje veckodag och vilken veckodag som är bäst att skicka för bästa resultat.
+* **Förutsägande optimering av sändningstid**: förutsägande optimering av sändningstid förutser vilken som är den bästa sändningstiden för varje mottagarprofil för att generera öppningar eller -klick i e-postmeddelanden. För varje mottagarprofil anger poängen den bästa sändningstiden för varje veckodag och vilken veckodag som är bäst att använda för bästa resultat.
 
-* **Prediktiv poängsättning**: Prediktiv poängsättning för engagemang förutser sannolikheten för att en mottagare engagerar sig i ett meddelande samt sannolikheten för att avanmäla sig inom 7 dagar efter nästa e-postutskick. Sannolikheten delas in ytterligare i grupper beroende på den specifika risken för bortfall, mellan och under. Under dessa omständigheter ger modellen även riskpercentilrangen så att kunderna kan förstå var en viss kunds rangordning är jämfört med andra.
+* **Förutsägande engagemangsbedömning**: förutsägande engagemangsbedömning förutser sannolikheten att en mottagare engagerar sig i ett meddelande samt sannolikheten att denne avanmäler sig inom sju dagar efter nästa e-postutskick. Sannolikheten delas in i ytterligare grupper beroende på den specifika risken för bortfall – medel eller låg. Under dessa omständigheter ger modellen även riskbedömningar i procentantal vilket innebär att kunderna kan förstå var en viss kunds rangordning är jämfört med andra.
 
 >[!CAUTION]
->Den här funktionen är inte tillgänglig som en del av produkten. För genomförandet krävs att Adobe Consulting är engagerat. Kontakta din Adobe-representant om du vill veta mer.
+>Den här funktionen är inte tillgänglig som en del av produkten. För implementering krävs att Adobe Consulting används. Kontakta din Adobe-representant för mer information.
 >
->Funktionen kräver att ett Azure-lagringsutrymme som kunden måste tillhandahålla används.
+>Funktionen kräver att ett Azure-lagringsutrymme används. Detta måste kunden tillhandahålla.
 
-## Prediktiv optimering av sändningstid{#predictive-send-time}
+## Förutsägande optimering av sändningstid{#predictive-send-time}
 
 ### Optimera klick och öppningar{#about-predictive-send-time}
 
-Optimering av prediktiv sändningstid förutser vilken som är den bästa sändningstiden för varje mottagarprofil för e-postöppningar och -klick. För varje mottagarprofil anger poängen den bästa sändningstiden för varje veckodag och vilken veckodag som är bäst att skicka för bästa resultat.
+Förutsägande optimering av sändningstid förutser vilken som är den bästa sändningstiden för varje mottagarprofil för att optimera öppningar och klick i e-postmeddelanden. För varje mottagarprofil anger poängen den bästa sändningstiden för varje veckodag och vilken veckodag som är bäst att använda för bästa resultat.
 
-I modellen Predictive Send Time Optimization finns det två undermodeller:
-* Förutsägbar öppningstid är den bästa tidpunkt då ett meddelande måste skickas till kunden för att maximera öppningen
-* Förutsägbar klickningstid är den bästa tidpunkten då ett meddelande måste skickas till kunden för att maximera klickningarna
+I modellen Förutsägande optimering av sändningstid finns det två undermodeller:
+* Förutsägbar sändningstid för att öppnas är den bästa tidpunkt då ett meddelande ska skickas till kunden för att maximera chansen att det öppnas
+* Förutsägbar sändningstid för att klickas på är den bästa tidpunkt då ett meddelande ska skickas till kunden för att maximera chansen att kunden klickar
 
-**Modellindata**: Leveransloggar, spårningsloggar och profilattribut (ej PII)
+**Indata från modellen**: leveransloggar, spårningsloggar och profilattribut (ej PII)
 
-**Modellutdata**: Bästa tillfället att skicka ett meddelande (för öppningar och klick)
+**Utdata från modellen**: bästa tillfället att skicka ett meddelande (för öppningar och klick)
 
 
-Utdatainformation
+Information om utdata
 
-* Beräkna den bästa tidpunkten på dagen för att skicka ett e-postmeddelande för inom 7 dagar av veckan med 1 timmes intervall (t.ex.: 9:00, 10:00, 11:00)
-* Modellen visar den bästa dagen i veckan och den bästa timmen i den dagen
+* Beräkna den bästa tidpunkten på dagen för att skicka ett e-postmeddelande. Detta inom 7 dagar i en vecka med 1 timmes intervall (t.ex.: 09:00, 10:00, 11:00)
+* Modellen visar den bästa dagen i veckan och den bästa timmen på den dagen
 * Varje optimal tid beräknas två gånger: en gång för att maximera öppningsfrekvensen och en gång för att maximera klickfrekvensen
 * 16 fält ges (14 för veckodagar och 2 för hela veckan):
-   * det bästa tillfället att skicka ett e-postmeddelande för att optimera klick för måndag - värden mellan 0 och 23
-   * det bästa tillfället att skicka ett e-postmeddelande för att optimera öppningar för måndag - värden mellan 0 och 23
-   * det bästa tillfället att skicka ett e-postmeddelande för att optimera antalet klick för tisdag - värden mellan 0 och 23
+   * den bästa tiden att skicka ett e-postmeddelande för att optimera klick för måndag – värden mellan 0 och 23
+   * den bästa tiden att skicka ett e-postmeddelande för att optimera öppningar för måndag – värden mellan 0 och 23
+   * den bästa tiden att skicka ett e-postmeddelande för att optimera klick för tisdag – värden mellan 0 och 23
    * ...
-   * det bästa tillfället att skicka ett e-postmeddelande för att optimera klick för söndag - värden mellan 0 och 23
-   * det bästa tillfället att skicka ett e-postmeddelande för att optimera öppningar för söndag - värden mellan 0 och 23
+   * den bästa tiden att skicka ett e-postmeddelande för att optimera klick för söndag – värden mellan 0 och 23
+   * den bästa tiden att skicka ett e-postmeddelande för att optimera öppningar för söndag – värden mellan 0 och 23
    * ...
-   * den bästa dagen att skicka ett e-postmeddelande för att optimera öppningarna för hela veckan - måndag till söndag
-   * det bästa tillfället att skicka ett e-postmeddelande för att optimera öppningar för hela veckan - värden mellan 0 och 23
+   * den bästa dagen att skicka ett e-postmeddelande för att optimera öppningarna för hela veckan – måndag till söndag
+   * den bästa tiden att skicka ett e-postmeddelande för att optimera öppningar för hela veckan – värden mellan 0 och 23
 
 >[!NOTE]
 >
->Dessa prediktiva funktioner gäller endast för e-postleveranser.
+>Dessa förutsägande funktioner gäller endast för e-postleveranser.
 >
 >Modellen behöver minst en månads data för att ge ett bra resultat.
 
 
 ### Åtkomst till profilpoäng{#access-predictive-send-time-scores}
 
-När maskininlärningsfunktionerna har implementerats i Campaign berikas profildata med nya flikar med sina bästa poäng för att öppna/klicka. Mätvärdena beräknas av Journey AI och hämtas till Campaign med hjälp av tekniska arbetsflöden.
+När maskininlärningsfunktionerna väl har implementerats i Campaign berikas profildata med nya flikar med bästa poäng för att öppna/klicka. Mätvärdena beräknas av Journey AI och hämtas av Campaign med hjälp av tekniska arbetsflöden.
 
 För att få tillgång till dessa mätvärden måste du:
 
 1. Öppna en profil och klicka på knappen Redigera.
 
-1. Klicka på fliken **Skicka tidspoäng genom att klicka** eller **Skicka tidspoäng genom att öppna** .
+1. Klicka på fliken **Skicka tidspoäng per klick** eller **Skicka tidspoäng per öppning**.
 
-Som standard ger profilpoängen den bästa tiden på dagen för varje veckodag och den bästa totala tiden i veckan.
+Som standard ger profilpoängen den bästa tiden på dagen för varje veckodag och den bästa generella tiden i veckan.
 
 ![](assets/do-not-localize/SendTimeScore.png)
 
 ### Skicka meddelanden vid den bästa tidpunkten{#use-predictive-send-time}
 
-För att e-postmeddelandena ska gå ut vid den optimala tidpunkten per profil måste leveransen schemaläggas med alternativet **[!UICONTROL Send at a custom date defined by a formula]**.
-Lär dig hur du beräknar sändningsdatumet [i det här avsnittet](../../sending/using/computing-the-sending-date.md).
+För att e-postmeddelandena ska skickas ut vid den optimala tidpunkten per profil måste leveransen schemaläggas med alternativet **[!UICONTROL Send at a custom date defined by a formula]**.
+Läs mer [i det här avsnittet](../../sending/using/computing-the-sending-date.md) om hur du beräknar sändningsdatumet.
 
-Formeln måste fyllas i med den angivna bästa tiden för den aktuella dagen när leveransen ska gå ut.
+Formeln måste fyllas i med den angivna bästa tiden för den aktuella dagen när leveransen ska skickas.
 
 ![](assets/do-not-localize/ComputeSendingDate.png)
 
@@ -115,44 +115,44 @@ AddHours([currentDelivery/scheduling/@contactDate],
 
 
 
-## Prediktiv poängsättning av engagemang {#predictive-scoring}
+## Förutsägande engagemangsbedömning {#predictive-scoring}
 
-Med prediktiv poängsättning för engagemang kan ni:
+Med förutsägande engagemangsbedömning kan du:
 
-* **Välj en målgrupp**: genom att använda frågeaktiviteten kan du välja målgruppen som ska interagera med ett visst meddelande
+* **Välja en målgrupp**: genom att använda frågeaktiviteten kan du välja målgruppen som ska interagera med ett visst meddelande
 * **Exkludera en målgrupp**: genom att använda frågeaktiviteten kan du ta bort målgruppen för att avbryta prenumerationen
 * **Anpassa**: personalisera meddelanden baserat på nivå av engagemang (mycket engagerade användare får ett annat budskap än de som inte är engagerade)
 
-I den här modellen används flera poäng för att ange:
+I den här modellen används flera olika poäng för att ange:
 
-* **Open Engagement Score / Click Engagement Score**: det här värdet matchar sannolikheten för att en prenumerant ska interagera med ett visst meddelande (öppna eller klicka). Värdena kan ligga mellan 0,0 och 1,0.
-* **Sannolikhet för** avprenumeration: det här värdet matchar sannolikheten för att mottagaren avbeställer e-postkanalen när ett e-postmeddelande är öppet. Värdena kan ligga mellan 0,0 och 1,0.
-* **Bevarandenivå**:  det här värdet rangordnar användare på tre nivåer: låg, medel och hög. Hög beständighet mot varumärket och lågt värde som troligen kommer att leda till att prenumerationen avbryts.
-* **Percentilnivå för kvarhållande**: Profilrangordning i termer av sannolikhet för prenumeration. Värdena kan ligga mellan 0,0 och 1,0. Om kundlojaliteten till exempel är 0,953 stannar den här mottagaren troligtvis kvar med varumärket och är mindre benägen att avbryta prenumerationen än 95,3 % av alla mottagare.
+* **Engagemangsbedömning per öppning/engagemangsbedömning per klick**: det här värdet matchar sannolikheten för att en prenumerant ska interagera med ett visst meddelande (öppna eller klicka). Värdena kan ligga mellan 0,0 och 1,0.
+* **Sannolikheten att avbryta prenumerationen**: det här värdet matchar sannolikheten för att mottagaren avbeställer e-postkanalen när ett e-postmeddelande öppnas. Värdena kan ligga mellan 0,0 och 1,0.
+* **Kvarhållningsnivå**: det här värdet rangordnar användare på tre nivåer: låg, medel och hög. Högt värde är mest sannolikt att stanna kvar hos varumärket och lågt värde är mest sannolikt att avbryta prenumerationen.
+* **Procentuell rangordning för kvarhållning**: profilrangordning beträffande sannolikheten att avbryta prenumerationen. Värdena kan ligga mellan 0,0 och 1,0. Om kundlojaliteten till exempel är 0,953 stannar den här mottagaren troligtvis kvar med varumärket och är mindre benägen att avbryta prenumerationen än 95,3 % av alla mottagare.
 
 >[!NOTE]
 >
->Dessa prediktiva funktioner gäller endast för e-postleveranser.
+>Dessa förutsägande funktioner gäller endast för e-postleveranser.
 >
 >Modellen behöver minst en månads data för att ge ett bra resultat.
 
 
-**Modellindata**: Leveransloggar, spårningsloggar och specifika profilattribut
+**Indata från modellen**: leveransloggar, spårningsloggar och specifika profilattribut
 
-**Modellutdata**: Ett profilattribut som beskriver profilens poäng och kategori
+**Utdata från modellen**: ett profilattribut som beskriver profilens poäng och kategori
 
 
-### Använda engagemangspoängen för e-postkanalen
+### Använda engagemangsbedömningen för e-postkanalen
 
 För att få tillgång till dessa mätvärden måste du:
 
 1. Öppna en profil och klicka på knappen Redigera.
 
-1. Klicka på fliken **Engagement Scores för e-postkanal** .
+1. Klicka på fliken **Engagemangsbedömning för e-postkanal** .
 
 Genom att använda en frågeaktivitet i ett arbetsflöde kan du använda poängen för att optimera målgruppen.
 
-Med villkoren för **kvarhållningsnivå** :
+Med till exempel villkoren för **kvarhållningsnivå**:
 
 ![](assets/do-not-localize/predictive_score_query.png)
 
