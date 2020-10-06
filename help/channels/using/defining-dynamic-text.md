@@ -12,10 +12,10 @@ discoiquuid: 6bb6cee3-5674-4113-8073-5a9572b3e830
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 564613ecc2879be87d1f85f9f15e675697690139
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '213'
+ht-degree: 3%
 
 ---
 
@@ -52,4 +52,3 @@ I exemplet nedan visas hur du definierar dynamisk text i ett SMS-meddelande.
 När ett villkor har definierats för minst en variant visas en lila ram runt den dynamiska texten.
 
 ![](assets/dynamic_text_sms_3.png)
-
