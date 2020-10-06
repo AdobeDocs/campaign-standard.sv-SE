@@ -1,5 +1,5 @@
 ---
-title: Förbereda och skicka ett push-meddelande
+title: Skapa och skicka ett push-meddelande
 description: Följ de här stegen för att skapa ett push-meddelande för en sändning i Adobe Campaign.
 page-status-flag: never-activated
 uuid: 01997725-ca0a-420c-9e81-5ea801652f87
@@ -13,10 +13,10 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c300f50ce83d67be7c8a16f857eb46fb1ce89166
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 10%
+source-wordcount: '856'
+ht-degree: 9%
 
 ---
 
@@ -86,7 +86,9 @@ Stegen för att skapa ett push-meddelande med Adobe Campaign är:
 
    >[!CAUTION]
    >
-   >Om nyttolastens storlek överskrider 4 kB-gränsen levereras inte meddelandet. Personaliseringsdata påverkar meddelandets storlek.
+   >Om nyttolastens storlek överskrider 4 kB-gränsen levereras inte meddelandet.
+
+Observera att personaliseringsdata påverkar meddelandets storlek.
 
 ## Skicka meddelandet {#sending-the-notification}
 
@@ -131,4 +133,3 @@ Nu kan du mäta effekten av push-meddelanden med dynamiska rapporter.
 
 * [Rapport om push-meddelanden](../../reporting/using/push-notification-report.md)
 * [Skicka ett push-meddelande inom ett arbetsflöde](../../automating/using/push-notification-delivery.md)
-
