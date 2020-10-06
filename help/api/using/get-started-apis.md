@@ -15,22 +15,22 @@ translation-type: tm+mt
 source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
 source-wordcount: '233'
-ht-degree: 15%
+ht-degree: 93%
 
 ---
 
 
 # Kom igång med Campaign Standard-API:er {#get-started-apis}
 
-Campaign Standard-API:er är avsedda att göra det möjligt att **skapa integreringar** för Adobe Campaign Standard och **bygga egna ekosystem** genom att interagera med Adobe Campaign Standard med den tekniska panel som du använder.
+Med API:er i Campaign Standard kan du **skapa integreringar** i Adobe Campaign Standard och **bygga egna ekosystem** genom att interagera med Adobe Campaign Standard via den tekniska kontrollpanel som du använder.
 
-Med Adobe Campaign Standard API:er får du tillgång till följande funktioner:
+Med API:er i Campaign Standard får du tillgång till följande funktioner:
 
 <table><tr>
  <td valign="top"><a href="../../api/using/retrieving-profiles.md"><img width="60px" alt="villkor" src="assets/icon_profile.svg"/></a><p><a href="../../api/using/retrieving-profiles.md">Profiler</a></p></td>
 <td valign="top"><a href="../../api/using/creating-a-service.md"><img width="60px" alt="villkor" src="assets/icon_services.svg"/></a><p><a href="../../api/using/creating-a-service.md">Tjänster och prenumerationer</a></p></td>
 <td valign="top"><a href="../../api/using/interacting-with-custom-resources.md"><img width="60px" alt="villkor" src="assets/icon_customresources.svg"/></a><p><a href="../../api/using/interacting-with-custom-resources.md">Anpassade resurser</a></p></td>
-<td valign="top"><a href="../../api/using/interacting-with-marketing-history.md"><img width="60px" alt="villkor" src="assets/icon_marketinghistory.svg"/></a><p><a href="../../api/using/interacting-with-marketing-history.md">Marknadshistorik</a></p></td>
+<td valign="top"><a href="../../api/using/interacting-with-marketing-history.md"><img width="60px" alt="villkor" src="assets/icon_marketinghistory.svg"/></a><p><a href="../../api/using/interacting-with-marketing-history.md">Marknadsföringshistorik</a></p></td>
 </tr>
 <tr>
 <td valign="top"><a href="../../api/using/creating-a-privacy-request.md"><img width="60px" alt="villkor" src="assets/icon_privacy.svg"/></a><p><a href="../../api/using/creating-a-privacy-request.md">Integritetshantering</a></p></td>
@@ -41,17 +41,17 @@ Med Adobe Campaign Standard API:er får du tillgång till följande funktioner:
 
 >[!NOTE]
 >
->Innan du genomför API-anrop bör du kontrollera de skalbegränsningar som motsvarar licensavtalet. For more on this, refer to [this page](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
+>Innan du genomför API-anrop bör du kontrollera de begränsningar för skalor som motsvaras i licensavtalet. Se denna [sida](https://helpx.adobe.com/se/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers) för mer information om detta.
 
-Om du vill använda Campaign Standard-API:t måste du ha ett Adobe I/O-konto. Detta är ett obligatoriskt första steg för att gå framåt och upptäcka API-funktionerna.
+För att använda API:er i Campaign Standard måste du ha ett Adobe I/O-konto. Detta är ett obligatoriskt första steg för att fortsätta och upptäcka API-funktionerna.
 Mer information om detta finns i [det här avsnittet](../../api/using/setting-up-api-access.md).
 
 De API:er vi tillhandahåller använder **standardkoncept** med ett REST-gränssnitt och JSON-nyttolaster.
 
 >[!NOTE]
 >
->Alla exempel fungerar med Postman, men du kan använda din REST-klient.
+>Alla exempel fungerar med Postman men du kan använda valfri REST-klient.
 
-Alla slutpunkter beskrivs ingående i den här dokumentationen med de allmänna synpunkterna som du bör känna till när du hanterar API:t, den fullständiga API-referensen, kodexempel och snabbstartguider.
+Alla slutpunkter beskrivs ingående i den här dokumentationen med de allmänna begrepp du bör känna till när du hanterar API:et samt den fullständiga API-referensen, kodexempel och snabbstartguider.
 
-Om något saknas eller verkar vara felaktigt, fråga [communityn](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community).
+Om något saknas eller verkar vara felaktigt kan du fråga vår [community](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community).
