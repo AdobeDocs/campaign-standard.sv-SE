@@ -9,17 +9,18 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '112'
+ht-degree: 4%
 
 ---
 
 
 # Om sekretesshantering {#about-privacy-management}
 
-API:er för Campaign Standard innehåller funktioner som gör det möjligt att automatiskt bearbeta förfrågningar relaterade till sekretessbestämmelser som GDPR och CCPA.
+Campaign Standard-API:er innehåller funktioner som möjliggör automatisk behandling av förfrågningar relaterade till sekretessregler som GDPR och CCPA.
 
 Följande åtgärder kan utföras:
 
@@ -32,4 +33,4 @@ Sekretess-API-slutpunkten är **/privacy/privacyTool**. Resursbeskrivningen för
 
 CCPA-avanmälan hanteras med **profilattributet ccpaOptOut** .
 
-Mer information om Adobe Campaign Standard och sekretessefterlevnad finns i den [dedikerade dokumentationen](https://helpx.adobe.com/campaign/kb/acs-privacy.html).
+Mer information om Adobe Campaign Standard och sekretessefterlevnad finns i den [dedikerade dokumentationen](https://helpx.adobe.com/se/campaign/kb/acs-privacy.html).
