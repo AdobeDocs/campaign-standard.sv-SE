@@ -9,18 +9,16 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 12%
+ht-degree: 15%
 
 ---
 
 
-# Get started with dynamic reporting {#get-started-reporting}
+# Kom igång med dynamisk rapportering {#get-started-reporting}
 
 <table>
 <tr>
@@ -35,7 +33,7 @@ Dynamic Reporting ger helt anpassningsbara realtidsrapporter för att mäta effe
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-Med gränssnittet **för** dra-och-släpp-rapportering kan ni utforska data, avgöra hur era e-postkampanjer har genomförts mot era viktigaste kundsegment och mäta deras effekt på mottagarna från ett och samma ställe.
+With Dynamic reporting **drag-and-drop interface**, you can explore data, determine how your email campaigns performed against your most important customer segments and measure their impact on recipients from one single place.
 
 **Hantera dynamiska rapporter** tack vare olika funktioner: uppdatera data i realtid, skriva ut rapporter eller exportera dem som CSV-filer. Du kan också dela dina rapporter med Campaign Standarder via e-post med ett eller flera skott.
 
