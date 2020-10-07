@@ -1,6 +1,6 @@
 ---
-title: Lägga till dynamiskt innehåll från Target
-description: Lär dig hur du lägger till dynamiskt innehåll för Adobe Target i en av dina Adobe Campaign-leveranser.
+title: Lägga till dynamiskt målinnehåll
+description: Lär dig hur du lägger till dynamiskt Adobe Target-innehåll i en av dina Adobe Campaign-leveranser.
 page-status-flag: never-activated
 uuid: b3cc045f-7924-480e-8c61-8246510f3adb
 contentOwner: sauviat
@@ -9,29 +9,27 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
 discoiquuid: 45ddf7b7-98f7-4fdd-bb4a-49ec8490e877
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
-# Lägga till dynamiskt innehåll från Target{#adding-target-dynamic-content}
+# Lägga till dynamiskt målinnehåll{#adding-target-dynamic-content}
 
-Tack vare integreringen med Adobe Target kan dynamiska bilder läggas till i en leverans för att personalisera ert innehåll utifrån upplevelser.
+Tack vare integreringen med Adobe Target kan dynamiska bilder läggas in i en leverans för att personalisera ert innehåll beroende på upplevelser.
 
 När du redigerar ett e-postmeddelande kan du infoga en dynamisk bild från Adobe Target som ändras beroende på mottagarna.
 
-Innan du får åtkomst till bilden i Adobe Campaign måste följande åtgärder först utföras i Adobe Target:
+Innan du får åtkomst till bilden i Adobe Campaign måste du utföra följande åtgärder i Adobe Target:
 
 * Skapa ett eller flera [omdirigeringserbjudanden](https://docs.adobe.com/content/help/en/target/using/experiences/offers/offer-redirect.html), där du måste ange webbadressen till den bild du vill använda.
 * Skapa en eller flera [målgrupper](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html)för att definiera målet för din aktivitet.
 * Skapa en [formulärbaserad upplevelsedispositionsaktivitet](https://docs.adobe.com/content/help/en/target/using/experiences/form-experience-composer.html) , där du måste välja en ruta och ange flera upplevelser, beroende på hur många omdirigeringserbjudanden som skapas. För varje upplevelse måste du välja ett av de omdirigeringserbjudanden som skapas.
-* Skapa segment med hjälp av information från Adobe Campaign för att specificera upplevelser. Om du vill använda data från Adobe Campaign i erbjudandets urvalsregler måste du ange data i rutan Adobe Target.
+* Skapa segment med hjälp av information från Adobe Campaign för att specificera upplevelser. Om du vill använda data från Adobe Campaign i erbjudandets urvalsregler måste du ange data i radrutan i Adobe Target.
 
 1. Skapa en e-postleverans.
 1. När du redigerar innehållet i ett e-postmeddelande eller en landningssida går du till ett bildblock och väljer **[!UICONTROL Dynamic image from Adobe Target]** via snabbmenyn.
@@ -43,20 +41,20 @@ Innan du får åtkomst till bilden i Adobe Campaign måste följande åtgärder 
    Integreringen stöder bara statiska bilder. Resten av innehållet går inte att anpassa.
 
 1. Ange namnet på radrutan som anges i Adobe Target.
-1. Om du använder Enterprise-behörigheter i inställningarna i Adobe Target lägger du till motsvarande egenskap i det här fältet. Läs mer om Target Enterprise-behörigheter på [den här sidan](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html). Det här fältet är valfritt och krävs inte om du inte använder Enterprise-behörigheter i Target.
-1. I **[!UICONTROL Additional decision parameters]** anger du mappningen mellan fälten som definieras i segmenten Adobe Target och i fälten Adobe Campaign.
+1. Om du använder Enterprise-behörigheter i inställningarna för Adobe Target lägger du till motsvarande egenskap i det här fältet. Läs mer om behörigheter för Target Enterprise på [den här sidan](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html). Det här fältet är valfritt och inte obligatoriskt om du inte använder företagsbehörigheter i Target.
+1. I **[!UICONTROL Additional decision parameters]** anger du mappningen mellan fälten som definieras i Adobe Target-segmenten och Adobe Campaign-fälten.
 
    De Adobe Campaign-fält som används måste ha angetts i rutan. Här definierar vi olika upplevelser beroende på mottagarens kön.
 
    ![](assets/tar_additional_decisionning_parameters.png)
 
-1. Förhandsgranska e-postmeddelandet för att se om bilden ändras när du väljer olika profiler beroende på vilka parametrar som har angetts i aktiviteten Adobe Target och i Adobe Campaign.
+1. Förhandsgranska e-postmeddelandet för att se om bilden ändras när du väljer olika profiler beroende på de parametrar som anges i Adobe Target-aktiviteten och i Adobe Campaign.
 
 Leveransen som innehåller den dynamiska bilden kan nu skickas. Resultaten av den finns i Adobe Target.
 
 **Relaterade ämnen:**
 
-* [Adobe Target Portal](https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html)
+* [Adobe Target Portal](https://docs.adobe.com/content/help/sv-SE/target/using/integrate/campaign-and-target.html)
 * [Om design av e-postinnehåll](../../designing/using/designing-content-in-adobe-campaign.md)
-* [Anpassa e-postbilder i realtidsvideo](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html)
+* [Anpassa e-postbilder i realtidsvideo](https://helpx.adobe.com/se/marketing-cloud/how-to/email-marketing.html)
 
