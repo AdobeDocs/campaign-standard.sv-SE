@@ -1,5 +1,5 @@
 ---
-title: About workflow execution
+title: Om arbetsflödeskörning
 description: Läs mer om arbetsflödeskörning.
 page-status-flag: never-activated
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
@@ -10,20 +10,18 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3ed78fd610b0d134cd1e60f34c93161cb1e5c50f
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
 
-# About workflow execution {#about-workflow-execution}
+# Om arbetsflödeskörning {#about-workflow-execution}
 
-A workflow is always started manually. However, once started, it can remain inactive, depending on the information specified in a [Scheduler](../../automating/using/scheduler.md) activity.
+Ett arbetsflöde startas alltid manuellt. När den väl har startats kan den dock vara inaktiv, beroende på vilken information som har angetts i en [Scheduler](../../automating/using/scheduler.md) -aktivitet.
 
 >[!CAUTION]
 >
@@ -45,13 +43,13 @@ När en aktivitet har körts visas antalet poster som skickats i övergången ov
 
 ![](assets/wkf_transition_count.png)
 
-Du kan öppna övergångar för att kontrollera att skickade data är korrekta under eller efter arbetsflödets körning. Du kan visa data och datastrukturen.
+Du kan öppna övergångar om du vill kontrollera att skickade data är korrekta under eller efter arbetsflödets körning. Du kan visa data och datastrukturen.
 
 Som standard går det bara att komma åt information om den senaste övergången i arbetsflödet. Om du vill komma åt resultaten av föregående aktiviteter måste du markera alternativet **[!UICONTROL Keep interim results]** i avsnittet **[!UICONTROL Execution]** i arbetsflödesegenskaperna innan du startar arbetsflödet.
 
 >[!NOTE]
 >
->Det här alternativet kräver mycket minne och är utformat för att skapa ett arbetsflöde och säkerställa att det är korrekt konfigurerat och fungerar korrekt. Låt det vara omarkerat på produktionsinstanser.
+>Det här alternativet kräver mycket minne och är utformat för att skapa ett arbetsflöde och säkerställa att det är korrekt konfigurerat och fungerar korrekt. Låt det vara omarkerat vid produktionsinstanser.
 
 När en övergång är öppen kan du redigera den **[!UICONTROL Label]** eller länka en övergång **[!UICONTROL Segment code]** till den. Om du vill göra det redigerar du motsvarande fält och bekräftar ändringarna.
 
