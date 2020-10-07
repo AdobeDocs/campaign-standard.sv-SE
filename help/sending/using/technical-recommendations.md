@@ -1,5 +1,5 @@
 ---
-title: Tekniska rekommendationer för slutprodukter för Adobe Campaign Standard
+title: Tekniska rekommendationer för Adobe Campaign Standard
 description: Läs om några tekniska rekommendationer för att förbättra leveransen med Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
@@ -10,10 +10,11 @@ content-type: reference
 topic-tags: sheduling-messages
 discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 41502fb6574879d3e69440f49a20fbc1c76ff26c
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '465'
+ht-degree: 0%
 
 ---
 
