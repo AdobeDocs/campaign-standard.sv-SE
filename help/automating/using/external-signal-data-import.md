@@ -10,24 +10,22 @@ content-type: reference
 topic-tags: execution-activities
 discoiquuid: 911c71b5-da8b-4916-b645-13bba6d21715
 context-tags: signal,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '229'
-ht-degree: 0%
+ht-degree: 79%
 
 ---
 
 
-# Extern import av signaler och data {#external-signal-data-import}
+# External signal and data import {#external-signal-data-import}
 
-I följande exempel visas aktiviteten **[!UICONTROL External signal]** i ett typiskt fall. En dataimport utförs i ett källarbetsflöde. När importen är klar och databasen har uppdaterats aktiveras ett andra arbetsflöde. Det andra arbetsflödet används för att uppdatera en mängd på importerade data.
+I följande exempel visas aktiviteten **[!UICONTROL External signal]** i ett typiskt fall. En dataimport utförs i ett källarbetsflöde. När importen är klar och databasen har uppdaterats aktiveras ett andra arbetsflöde. Det andra arbetsflödet används för att uppdatera en aggregering på de importerade data.
 
 Källarbetsflödet visas på följande sätt:
 
-* En [Läs in filaktivitet](../../automating/using/load-file.md) överför en fil som innehåller nya inköpsdata. Observera att [databasen har utökats](../../developing/using/data-model-concepts.md) i enlighet med detta eftersom inköpsdata inte finns som standard i datamappningen.
+* En aktivitet för [Läs in filaktivitet](../../automating/using/load-file.md) laddar upp en fil som innehåller nya inköpsdata. Observera att [databasen har utökats](../../developing/using/data-model-concepts.md) i enlighet med detta eftersom inköpsdata inte finns som standard i dataförrådet.
 
    Exempel:
 
@@ -41,16 +39,16 @@ Källarbetsflödet visas på följande sätt:
    aze128;04/03/2016;clara.smith@example.com;A8;149
    ```
 
-* En [avstämningsaktivitet](../../automating/using/reconciliation.md) skapar länkarna mellan importerade data och databasen så att transaktionsdata är korrekt anslutna till profiler och produkter.
-* En [Uppdatera dataaktivitet](../../automating/using/update-data.md) infogar och uppdaterar transaktionsresursen för databasen med inkommande data.
-* En [End](../../automating/using/start-and-end.md) -aktivitet utlöser målarbetsflödet, som används för att uppdatera aggregeringar.
+* En aktivitet för [Avstämning](../../automating/using/reconciliation.md) skapar länkarna mellan importerade data och databasen så att transaktionsdata är korrekt anslutna till profiler och produkter.
+* En aktivitet för [Uppdatera data](../../automating/using/update-data.md) infogar och uppdaterar transaktionsresursen för databasen med inkommande data.
+* An [End](../../automating/using/start-and-end.md) activity triggers the destination workflow, which is used to update aggregates.
 
 ![](assets/signal_example_source1.png)
 
-Målarbetsflödet visas på följande sätt:
+Destinationsarbetsflödet visas på följande sätt:
 
-* En [extern signalaktivitet](../../automating/using/external-signal.md) väntar på att källarbetsflödet ska slutföras.
-* En [Query](../../automating/using/query.md#enriching-data) -aktivitet har profiler som mål och berikar dem med en samlingsuppsättning för att hämta det senaste inköpsdatumet.
-* En [datauppdateringsaktivitet](../../automating/using/update-data.md) lagrar ytterligare data i ett dedikerat anpassat fält. Observera att profilresursen har utökats för att lägga till fältet **Senaste inköpsdatum** .
+* An [External signal](../../automating/using/external-signal.md) activity waits for the source workflow to be successfully finished.
+* En aktivitet för [Fråga](../../automating/using/query.md#enriching-data) har profiler som mål och berikar dem med en samlingsuppsättning för att hämta det senaste inköpsdatumet.
+* En aktivitet för [Uppdatera data](../../automating/using/update-data.md) lagrar ytterligare data i ett dedikerat anpassat fält. Observera att profilresursen har utökats för att lägga till fältet **Senaste inköpsdatum**.
 
 ![](assets/signal_example_source2.png)
