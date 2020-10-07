@@ -9,13 +9,11 @@ audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
 discoiquuid: 896859da-a230-4f13-9b1f-cbff34b3c0e0
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '48'
-ht-degree: 0%
+ht-degree: 41%
 
 ---
 
@@ -29,5 +27,5 @@ Profiler för avanmälan för en viss leverans visas efter förberedelsefasen p�
 **Relaterade ämnen:**
 
 * [Övervaka en leverans](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
-* [Förbereder sändningen](../../sending/using/preparing-the-send.md).
+* [Förbered sändningen](../../sending/using/preparing-the-send.md).
 
