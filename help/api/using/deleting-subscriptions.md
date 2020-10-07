@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '233'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +25,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 Detta är en procedur i tre steg.
 
 1. Hämta prenumerations-URL:en för den önskade profilen.
-1. Utför en GET-begäran på prenumerations-URL:en.
+1. Utför en GET-förfrågan på prenumerations-URL:en.
 1. Utför en DELETE-begäran på den önskade tjänst-URL:en.
 
 Om borttagningsbegäran lyckas är svarsstatusen 204 Inget innehåll.
@@ -33,7 +34,7 @@ Om borttagningsbegäran lyckas är svarsstatusen 204 Inget innehåll.
 
 ***Exempelbegäran***
 
-Nedan visas exempel på nyttolaster som visar hur du avbryter prenumerationen på en profil från en tjänst. Utför först en GET-begäran för att hämta profilen.
+Nedan visas exempel på nyttolaster som visar hur du avbryter prenumerationen på en profil från en tjänst. Utför först en GET-förfrågan för att hämta profilen.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -56,7 +57,7 @@ Den returnerar prenumerations-URL:en för profilen.
   }
 ```
 
-Utför en GET-begäran på prenumerations-URL:en.
+Utför en GET-förfrågan på prenumerations-URL:en.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -97,7 +98,7 @@ Utför en DELETE-begäran på den önskade tjänst-URL:en.
 Detta är en procedur i tre steg.
 
 1. Hämta önskad tjänst och prenumerations-URL.
-1. Utför en GET-begäran på prenumerations-URL för att hämta alla profilprenumerationer.
+1. Gör en GET-förfrågan på prenumerations-URL:en för att hämta alla profilprenumerationer.
 1. Utför en DELETE-begäran på den önskade URL:en för profilprenumeration.
 
 Om borttagningsbegäran lyckas är svarsstatusen 204 Inget innehåll.
@@ -133,7 +134,7 @@ Den returnerar prenumerations-URL:en för tjänsten.
 },
 ```
 
-Utför en GET-begäran på prenumerations-URL:en.
+Utför en GET-förfrågan på prenumerations-URL:en.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
