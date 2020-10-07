@@ -9,17 +9,18 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '73'
+ht-degree: 8%
 
 ---
 
 
 # Skapa en tjänst {#creating-a-service}
 
-Tjänsterna skapas med en **POST** -begäran på tjänstresursen.
+Tjänsterna skapas med en **POST** -förfrågan för tjänstresursen.
 
 Om du vill skapa tjänsten med specifika attribut lägger du till dem i nyttolasten. I annat fall skapas den nya tjänsten med standardtjänster.
 
@@ -27,7 +28,7 @@ Om du vill skapa tjänsten med specifika attribut lägger du till dem i nyttolas
 
 ***Exempelbegäran***
 
-Exempelbegäran POST för att skapa en tjänst med specifika attribut.
+Exempelbegäran om POST för att skapa en tjänst med specifika attribut.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/ \
