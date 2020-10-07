@@ -9,10 +9,8 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3161226c9ab28f8d519f55a408022284919954f6
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 7%
@@ -109,7 +107,8 @@ Det **[!UICONTROL Property Status]** borde vara **[!UICONTROL Ready to configure
    >[!NOTE]
    >
    >Som standard används det värde som definieras i alternativet NmsServer_URL för att söka efter matchande egenskaper för att hämta listan med mobilprogram som skapats i Adobe Launch.
-I vissa fall kan Campaign-slutpunkten för ett mobilprogram skilja sig från den som definieras i NmsServer_URL. I så fall definierar du slutpunkten i alternativet Launch_URL_Campaign. I Campaign används värdet från det här alternativet för att söka efter matchande egenskaper i Adobe Launch.
+   >
+   >I vissa fall kan Campaign-slutpunkten för ett mobilprogram skilja sig från den som definieras i NmsServer_URL. I så fall definierar du slutpunkten i alternativet Launch_URL_Campaign. I Campaign används värdet från det här alternativet för att söka efter matchande egenskaper i Adobe Launch.
 
    ![](assets/launch_4.png)
 
