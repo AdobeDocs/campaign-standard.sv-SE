@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: execution-activities
 discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,wait,delivery
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 73a91344ada17d6eb0da0335e08ea27a1019b4fb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '856'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
@@ -54,7 +52,7 @@ När arbetsflödet har skapats kan du komma åt dess gränssnitt.
 
 Infoga en frågeaktivitet i arbetsflödet för att ange de profiler som ska ta emot dina leveranser som mål.
 
-1. I **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** drar och släpper du en [Query](../../automating/using/query.md) -aktivitet.
+1. Dra och släpp en [Fråge](../../automating/using/query.md)-aktivitet i **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**.
 1. Dubbelklicka på aktiviteten.
 1. Bläddra bland kortkommandona på fliken **[!UICONTROL Target]** och välj en av dina [målgrupper](../../audiences/using/about-audiences.md).
 1. Dra och släpp kortkommandot i redigeringszonen. Beroende på vilken typ av genväg du väljer visas ett fönster.
