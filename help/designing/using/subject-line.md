@@ -9,17 +9,18 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 6f89b420f0f98c13da1bfff8f9b1b29e015aef89
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '372'
+ht-degree: 3%
 
 ---
 
 
 # Definiera ämnesraden och avsändaren av ett e-postmeddelande{#defining-the-subject-line-of-an-email}
 
-## Definiera ämnesraden i ett e-postmeddelande {#subject-line}
+## Defining the subject line of an email {#subject-line}
 
 Ämnet för meddelandet är obligatoriskt för att förbereda och skicka meddelandet.
 
@@ -29,11 +30,11 @@ source-git-commit: 6f89b420f0f98c13da1bfff8f9b1b29e015aef89
 
 1. Skapa ett e-postmeddelande.
 1. Gå till fliken **[!UICONTROL Properties]** på e-postdesignerns hemsida (nås via hemikonen).
-1. Fyll i **[!UICONTROL Subject]** avsnittet.
+1. Fill in the **[!UICONTROL Subject]** section.
 
    ![](assets/email_designer_subject.png)
 
-1. Du kan också lägga till anpassningsfält, innehållsblock och dynamiskt innehåll på ämnesraden genom att klicka på motsvarande ikoner. Mer information finns i [Personalisering](../../designing/using/personalization.md).
+1. Du kan också lägga till anpassningsfält, innehållsblock och dynamiskt innehåll på ämnesraden genom att klicka på motsvarande ikoner. For more on this, see [Personalization](../../designing/using/personalization.md).
 1. Du kan testa olika ämnesrader för att få en uppskattning av e-postöppningsfrekvensen innan du skickar den. Mer information finns i [Testa ämnesraden i ett e-postmeddelande](../../sending/using/testing-subject-line-email.md).
 
 ## Definiera e-postavsändare för ett e-postmeddelande {#email-sender}
@@ -42,11 +43,11 @@ Om du vill definiera namnet på avsändaren som ska visas i huvudet av skickade 
 
 ![](assets/delivery_content_edition16.png)
 
-* I **[!UICONTROL From: name]** fältet kan du ange avsändarens namn. Som standard anges **avsändarens namnblock** automatiskt i fältet. Standardavsändarens e-postadress och avsändarens namn definieras i **[!UICONTROL Brands]** hjälpmedel via Adobe Campaign-logotypen på den avancerade menyn **[!UICONTROL Administration > Instance settings > Brand configuration]** .
+* I **[!UICONTROL From: name]** fältet kan du ange avsändarens namn. Som standard anges **avsändarens namnblock** automatiskt i fältet. Standardavsändarens e-postadress och avsändarens namn definieras i **[!UICONTROL Brands]** hjälpmedelsanpassad via Adobe Campaign-logotypen på den avancerade menyn **[!UICONTROL Administration > Instance settings > Brand configuration]** .
 
    Du kan ändra avsändarens namn genom att klicka på **avsändarens namnblock** . Fältet kan sedan redigeras och du kan ange det namn du vill använda.
 
-   Det här fältet kan anpassas. Om du vill göra det kan du lägga till anpassningsfält, innehållsblock och dynamiskt innehåll genom att klicka på ikonerna under avsändarens namn. Mer information finns i [Personalisering](../../designing/using/personalization.md).
+   Det här fältet kan anpassas. Om du vill göra det kan du lägga till anpassningsfält, innehållsblock och dynamiskt innehåll genom att klicka på ikonerna under avsändarens namn. For more on this, see [Personalization](../../designing/using/personalization.md).
 
 * Det går inte att redigera **[!UICONTROL From: email address]** fältet från det här avsnittet. Du kan ändra det genom att redigera egenskaperna för e-postmeddelandet från kontrollpanelen. Mer information finns i [Lista över avancerade e-postparametrar](../../administration/using/configuring-email-channel.md#advanced-parameters).
 
@@ -56,6 +57,6 @@ Om du vill definiera namnet på avsändaren som ska visas i huvudet av skickade 
 
 **Relaterade ämnen:**
 
-* [Infoga ett anpassningsfält](../../designing/using/personalization.md#inserting-a-personalization-field)
+* [Infoga ett personaliserat fält](../../designing/using/personalization.md#inserting-a-personalization-field)
 * [Lägga till ett innehållsblock](../../designing/using/personalization.md#adding-a-content-block)
 * [Definiera dynamiskt innehåll i ett e-postmeddelande](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
