@@ -1,6 +1,6 @@
 ---
-title: Datavstämning med hjälp av relationer
-description: I följande exempel visas ett arbetsflöde som uppdaterar databasen med hjälp av inköpsdata i en fil.
+title: Dataavstämning med hjälp av relationer
+description: 'I följande exempel visas ett arbetsflöde som uppdaterar databasen med hjälp av inköpsdata i en fil.  '
 page-status-flag: never-activated
 uuid: 7884db8c-1717-4724-be15-3b0b32ccc071
 contentOwner: sauviat
@@ -10,30 +10,28 @@ content-type: reference
 topic-tags: data-management-activities
 discoiquuid: cb8c43f4-9cdd-4e85-99a4-004b36b336aa
 context-tags: reconciliation,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 0%
+ht-degree: 86%
 
 ---
 
 
-# Datavstämning med hjälp av relationer {#reconciliation-relations}
+# Dataavstämning med hjälp av relationer {#reconciliation-relations}
 
-I följande exempel visas ett arbetsflöde som uppdaterar databasen med hjälp av inköpsdata i en fil. Inköpsuppgifterna innehåller data som refererar till element från andra dimensioner, t.ex. klientmeddelanden och produktkoder.
+I följande exempel visas ett arbetsflöde som uppdaterar databasen med hjälp av inköpsdata i en fil.  Inköpsuppgifterna innehåller data som refererar till element från andra dimensioner som t.ex. klientmeddelanden och produktkoder.
 
 >[!NOTE]
 >
->De **Transactions** - och **Products** -resurser som används i det här exemplet finns inte i Adobe Campaign-databasen som standard. De skapades därför i förväg med funktionen [Anpassade resurser](../../developing/using/data-model-concepts.md) . Profilerna som motsvarar e-postadresserna i den importerade filen, samt produkterna, lästes in i databasen i förväg.
+>De **transaktions** och **produkt**-resurser som används i det här exemplet finns inte i Adobe Campaign-databasen som standard.  De skapades därför i förväg med funktionen [Anpassade resurser](../../developing/using/data-model-concepts.md) .  Profilerna som motsvarar e-postadresserna i den importerade filen och produkterna var i förväg skapade i databasen.
 
 Arbetsflödet består av följande aktiviteter:
 
 ![](assets/reconciliation_example1.png)
 
-* En [Läs in fil](../../automating/using/load-file.md) -aktivitet som läser in och identifierar data för filen som ska importeras. Den importerade filen innehåller följande data:
+* A [Load file](../../automating/using/load-file.md) activity, which loads and detects the data of the file to import. Den importerade filen innehåller följande data:
 
    * Transaktionsdatum
    * Klientens e-postadress
@@ -52,17 +50,18 @@ Arbetsflödet består av följande aktiviteter:
    2015-05-19 09:06:00;mail9@email.com;ZZ6
    ```
 
-* En [avstämningsaktivitet](../../automating/using/reconciliation.md) som binder inköpsdata till databasprofiler och produkter. Det är därför nödvändigt att definiera en relation mellan fildata och profiltabellen samt produkttabellen. Den här konfigurationen utförs på aktivitetens **[!UICONTROL Relations]** flik:
+* A [Reconciliation](../../automating/using/reconciliation.md) activity to bind purchasing data to database profiles as well as products. Det är därför nödvändigt att definiera en relation mellan fildata och profil och produkttabellen.  Den här konfigurationen utförs i aktivitetens **[!UICONTROL Relations]** flik:
 
-   * Relation till **profilerna**: filens **klientkolumn** är länkad till **e-postfältet** i dimensionen **Profiler** .
-   * Relation till **produkterna**: filens **produktkolumn** är länkad till **productCode** -fältet i **profildimensionen** .
-   Kolumner läggs till i inkommande data för att referera till de länkade dimensionernas sekundärnycklar.
+   * Relationen till **profilerna**: filens **klient**-kolumn är länkad till **e-post**-fältet i dimensionen **Profiler**.
+   * Relationen till **produkterna**: filens **produkt**-kolumn är länkad till fältet **Produktkod** i dimensionen **Profiler**.
+
+   Kolumner läggs till i inkommande data för att referera till de länkade dimensionernas främmande nycklar.
 
    ![](assets/reconciliation_example3.png)
 
-* Med en [Uppdatera data](../../automating/using/update-data.md) -aktivitet kan du definiera de databasfält som ska uppdateras med importerade data. Eftersom data redan har identifierats som tillhörande **transaktionsdimensionen** i den tidigare aktiviteten kan du använda **[!UICONTROL Directly using the targeting dimension]** identifieringsalternativet här.
+* An [Update data](../../automating/using/update-data.md) activity allows you to define the database fields to update using the imported data. Eftersom data redan har identifierats som tillhörande dimensionen **transaktioner** i den tidigare aktiviteten så kan du använda identifieringsalternativet **[!UICONTROL Directly using the targeting dimension]** här.
 
-   Genom att använda alternativet som automatiskt identifierar fält som ska uppdateras, läggs länkarna som konfigurerats i den tidigare aktiviteten (till profiler och produkter) till i listan med **[!UICONTROL Fields to update]**. Du måste också se till att fältet som motsvarar transaktionsdatumet läggs till korrekt i den här listan.
+   Genom att använda alternativet som automatiskt identifierar fält som ska uppdateras läggs länkarna som konfigurerats i den tidigare aktiviteten (till profiler och produkter) till i listan med **[!UICONTROL Fields to update]**.  Du måste också se till att fältet som motsvarar transaktionsdatumet läggs till korrekt i den här listan.
 
    ![](assets/reconciliation_example5.png)
 
