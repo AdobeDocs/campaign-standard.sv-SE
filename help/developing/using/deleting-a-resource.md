@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 discoiquuid: 0130733d-4e3f-40cd-b959-56381f2c8f44
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 6cf00f9b9bafdd54d8424a353b33dc689c0f59aa
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '241'
+ht-degree: 14%
 
 ---
 
@@ -31,7 +32,7 @@ Om du vill ta bort en resurs måste den aktuella resursen vara en **[!UICONTROL 
 Så här gör du om utkast och tar bort en publicerad resurs:
 
 1. Välj den resurs som du vill göra om utkast.
-1. Klicka på **[!UICONTROL Re-draft]** knappen i åtgärdsfältet.
+1. Klicka på knappen **[!UICONTROL Re-draft]** i åtgärdsfältet.
 
    ![](assets/schema_extension_uc26.png)
 
@@ -59,5 +60,5 @@ Resursen tas bort från datamodellen.
 
 >[!NOTE]
 >
->Om ett fält för en anpassad resurs som används för en händelse ändras eller tas bort, kommer motsvarande händelse automatiskt att avpubliceras. Se [Konfigurera transaktionsmeddelanden](../../administration/using/configuring-transactional-messaging.md).
+>Om ett fält för en anpassad resurs som används för en händelse ändras eller tas bort, kommer motsvarande händelse automatiskt att avpubliceras. See [Configuring transactional messaging](../../administration/using/configuring-transactional-messaging.md).
 
