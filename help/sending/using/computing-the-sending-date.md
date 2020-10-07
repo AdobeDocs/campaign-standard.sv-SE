@@ -9,10 +9,11 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 discoiquuid: 02a87cc6-c40c-44fe-bb4e-b68870a4859b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '999'
+ht-degree: 1%
 
 ---
 
@@ -35,15 +36,15 @@ Du kan schemalägga detta med ett arbetsflöde.
 
 ![](assets/send-time_opt_workflow1.png)
 
-1. Få tillgång till listan över marknadsföringsaktiviteter och skapa ett nytt arbetsflöde. Se [Skapa ett arbetsflöde](../../automating/using/building-a-workflow.md#creating-a-workflow).
-1. Dra och släpp en **Query** -aktivitet i arbetsflödet och öppna den. Se avsnittet [Fråga](../../automating/using/query.md) .
+1. Få tillgång till listan över marknadsföringsaktiviteter och skapa ett nytt arbetsflöde. See [Creating a workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
+1. Drag and drop a **Query** activity into your workflow and open it. Se avsnittet [Fråga](../../automating/using/query.md) .
 1. Välj en målgrupp, till exempel alla dina guldkunder, och klicka på **[!UICONTROL Confirm]** för att spara frågan.
-1. Dra och släpp en **segmenteringsaktivitet** i arbetsflödet och öppna den. Se avsnittet [Segmentering](../../automating/using/segmentation.md) .
+1. Drag and drop a **Segmentation** activity into your workflow and open it. Se avsnittet [Segmentering](../../automating/using/segmentation.md) .
 1. Definiera fem segment. För varje segment:
 
    * Fyll i **[!UICONTROL Segment code]** fältet: Ange manuellt datum och tid för när meddelandet ska skickas.
 
-      Du vill till exempel skicka den första gruppen den 1 juni kl. 10:00 GMT+1. Använd följande format: **YYYY-MM-DD hh:mm:ss+tz**.
+      Du vill till exempel skicka den första gruppen den 1 juni kl. 10:00 GMT+1. Använd följande format: **YYY-MM-DD hh:mm:ss+tz**.
 
       ![](assets/send-time_opt_segment_configuration.png)
 
@@ -65,7 +66,7 @@ Du kan schemalägga detta med ett arbetsflöde.
 
    ![](assets/send-time_opt_segment_dates.png)
 
-1. Dra och släpp en **e-postleveransaktivitet** i arbetsflödet och öppna den. Se avsnittet [E-postleverans](../../automating/using/email-delivery.md) .
+1. Drag and drop an **Email delivery** activity into your workflow and open it. Se avsnittet [E-postleverans](../../automating/using/email-delivery.md) .
 1. Klicka på **[!UICONTROL Schedule]** avsnittet i e-postkontrollpanelen och välj **[!UICONTROL Messages to be sent automatically on the date specified below]**.
 1. Ange ett kontaktdatum i **[!UICONTROL Start sending from]** fältet.
 1. Välj **[!UICONTROL Send at a custom date defined by a formula]** i listrutan Tidsoptimering för sändning.
@@ -111,10 +112,10 @@ Du kan schemalägga detta med ett arbetsflöde.
 
 ![](assets/send-time_opt_workflow2.png)
 
-1. Få tillgång till listan över marknadsföringsaktiviteter och skapa ett nytt arbetsflöde. Se [Skapa ett arbetsflöde](../../automating/using/building-a-workflow.md#creating-a-workflow).
-1. Dra och släpp en **Query** -aktivitet i arbetsflödet och öppna den. Se avsnittet [Fråga](../../automating/using/query.md) .
+1. Få tillgång till listan över marknadsföringsaktiviteter och skapa ett nytt arbetsflöde. See [Creating a workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
+1. Drag and drop a **Query** activity into your workflow and open it. Se avsnittet [Fråga](../../automating/using/query.md) .
 1. Välj en målgrupp, till exempel över 35 profiler, och klicka på **[!UICONTROL Confirm]** för att spara frågan.
-1. Dra och släpp en **segmenteringsaktivitet** i arbetsflödet och öppna den. Se avsnittet [Segmentering](../../automating/using/segmentation.md) .
+1. Drag and drop a **Segmentation** activity into your workflow and open it. Se avsnittet [Segmentering](../../automating/using/segmentation.md) .
 1. Definiera fyra segment. För varje segment:
 
    * Definiera segmentkoderna enligt följande:
@@ -123,6 +124,7 @@ Du kan schemalägga detta med ett arbetsflöde.
       * 10:00-12:00: **2**. Meddelandet skickas till målpopulationens andra kvartal kl. 10.00 (kontaktdatum + 2 timmar).
       * 2:00 PM - 17:00: **6**. Samtalscentret stängs mellan kl. 12.00 och kl. 2:00, och meddelandet skickas till målpopulationens tredje kvartal kl. 2:00 (kontaktdatum + 6 timmar).
       * 4:00 PM - 18:00: **8**. Meddelandet skickas till målpopulationens sista kvartal kl. 17:00 (kontaktdatum + 8 timmar).
+
       >[!NOTE]
       >
       >Kontaktdatumet definieras i e-postleveransaktiviteten senare i arbetsflödet.
@@ -135,7 +137,7 @@ Du kan schemalägga detta med ett arbetsflöde.
 
    ![](assets/send-time_opt_segment.png)
 
-1. Dra och släpp en **e-postleveransaktivitet** i arbetsflödet och öppna den. Se avsnittet [E-postleverans](../../automating/using/email-delivery.md) .
+1. Drag and drop an **Email delivery** activity into your workflow and open it. Se avsnittet [E-postleverans](../../automating/using/email-delivery.md) .
 1. Klicka på **[!UICONTROL Schedule]** avsnittet i e-postkontrollpanelen.
 1. Välj **[!UICONTROL Messages to be sent automatically on the date specified below]**.
 1. Ange ett kontaktdatum i **[!UICONTROL Start sending from]** fältet.
