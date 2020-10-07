@@ -1,5 +1,5 @@
 ---
-title: Anpassa ett e-postmeddelande med ytterligare data
+title: Personalisera ett e-postmeddelande med ytterligare data
 description: I det här användningsexemplet beskrivs hur du lägger till olika typer av ytterligare data i en fråga och använder dem som ett anpassningsfält i ett e-postmeddelande.
 page-status-flag: never-activated
 uuid: b3c629fa-370e-481c-b347-fcf9f5a5e847
@@ -10,18 +10,16 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
 context-tags: query,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 83%
+ht-degree: 86%
 
 ---
 
 
-# Personalizing an email with additional data {#example--personalizing-an-email-with-additional-data}
+# Personalisera ett e-postmeddelande med ytterligare data {#example--personalizing-an-email-with-additional-data}
 
 I följande exempel visas hur du lägger till olika typer av ytterligare data i en förfrågan och hur de används som ett personaliserat fält i ett e-postmeddelande. Mer information om hur du förbättrar data som en **[!UICONTROL Query]** aktivitet riktar sig till finns i [det här avsnittet](../../automating/using/query.md#enriching-data).
 
