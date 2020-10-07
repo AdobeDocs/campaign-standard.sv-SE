@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 2a3b77c75931086f59ddb8717a1bfcfaf49d45d5
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '84'
+ht-degree: 11%
 
 ---
 
@@ -20,7 +21,7 @@ source-git-commit: 2a3b77c75931086f59ddb8717a1bfcfaf49d45d5
 # Uppdatera attribut för en organisationsenhet {#updating-organizational-unit-attributes}
 
 1. Utför en GET-begäran på **orgUnitBase** -resursen för att hämta organisationsenhetens PKey.
-1. Utför en PATCH-begäran på organisationsenheten med de attribut som ska uppdateras i nyttolasten.
+1. Utför en begäran från PATCH på organisationsenheten med de attribut som ska uppdateras i nyttolasten.
 
 <br/>
 
@@ -52,7 +53,7 @@ Den returnerar alla organisationsenheter. Hämta den önskade enhetens PKey.
 },
 ```
 
-Utför en PATCH-begäran på organisationsenheten med de attribut som ska uppdateras i nyttolasten.
+Utför en begäran från PATCH på organisationsenheten med de attribut som ska uppdateras i nyttolasten.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \
