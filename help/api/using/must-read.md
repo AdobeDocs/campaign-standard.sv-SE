@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '320'
+ht-degree: 0%
 
 ---
 
@@ -21,9 +22,9 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 
 ## Tekniska krav
 
-* Adobe Campaign-API:er får bara användas från server till server.
-* Kontrollera alltid med den tekniska kontaktpersonen på Adobe om användningsexemplet som du vill implementera är anpassat till den skala som tillåts av API:er för Adobe Campaign.
-* Du måste ha specifik behörighet för att konfigurera en AdobeIO-åtkomst. Kontakta Adobe Support för eventuella problem.
+* Adobe Campaign API:er får endast användas på servern.
+* Kontakta alltid den tekniska kontaktpersonen på Adobe om det användningsfall du vill implementera är anpassat till den skala som tillåts av Adobe Campaign API:er.
+* Om du vill konfigurera en AdobeIO-åtkomst måste du ha särskilda behörigheter. Kontakta Adobe Support om du har problem.
 
 ## Resursrepresentation
 
@@ -53,15 +54,15 @@ Alla API-resurser är tillgängliga i **JSON** med ett URL-tillägg eller i ett 
 
 * Värdena för den automatiska primärnyckeln (PKey) som illustrerar exemplen är inte avsedda att fungera i en annan specifik distribution. De produceras av Adobe Campaign API.
 
-* Automatiska primärnyckelvärden som genereras av Adobe Campaign får aldrig lagras i en extern databas eller webbplats. Du måste generera specifika nyckelfält i databasdefinitionen och använda dem under utvecklingen.
+* Automatiska primärnyckelvärden som genererats av Adobe Campaign får aldrig lagras i en extern databas eller webbplats. Du måste generera specifika nyckelfält i databasdefinitionen och använda dem under utvecklingen.
 
 ## Anpassade tangenter {#custom-keys}
 
-Om profilresursen har utökats med ett anpassat nyckelfält kan du använda det här fältet som en nyckel i stället för den automatiska primärnyckel som genereras av Adobe Campaign:
+Om profilresursen har utökats med ett anpassat nyckelfält kan du använda det här fältet som en nyckel i stället för den automatiska primärnyckel som genererats av Adobe Campaign:
 
 `GET /.../profileAndServicesExt/profile/<customKey>`
 
-Det går inte att ändra anpassade nycklar med en PATCH-åtgärd om nyckelvärdet skiljer sig från originalnyckeln eller om du använder din egen affärsnyckel som URI i stället för den som tillhandahålls av Adobe.
+Det går inte att ändra anpassade nycklar med hjälp av en PATCH-åtgärd om nyckelvärdet skiljer sig från ursprungsnyckeln eller om du använder din egen affärsnyckel som URI i stället för den som tillhandahålls av Adobe.
 
 Använd en anpassad nyckel endast för **profilresurser** på den översta nivån. URL:er returneras av API:t och bör aldrig skapas av dig själv.
 
@@ -69,7 +70,7 @@ Använd en anpassad nyckel endast för **profilresurser** på den översta nivå
 
 ***Exempelbegäran***
 
-Om du vill hämta prenumerationer för en profil med hjälp av en anpassad nyckel utför du en GET-åtgärd på den anpassade nyckeln.
+Om du vill hämta prenumerationer för en profil med hjälp av en anpassad tangent utför du en GET-åtgärd på den anpassade nyckeln.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<customKey> \
@@ -79,7 +80,7 @@ Om du vill hämta prenumerationer för en profil med hjälp av en anpassad nycke
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Utför en GET-begäran på den prenumerations-URL som returneras.
+Utför en GET-förfrågan på den prenumerations-URL som returneras.
 
 ```
 -X GET <SUBSCRIPTION_URL> \
