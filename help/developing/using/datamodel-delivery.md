@@ -7,10 +7,11 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '687'
+ht-degree: 6%
 
 ---
 
@@ -40,7 +41,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>abTesting</td>
-                  <td>A/B-testning</td>
+                  <td>A/B-tester</td>
                   <td>artikel </td>
                   <td> </td>
                </tr>
@@ -58,7 +59,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>aemContents</td>
-                  <td>Adobe Experience Manager-innehåll</td>
+                  <td>Innehåll i Adobe Experience Manager</td>
                   <td>samling </td>
                   <td> </td>
                </tr>
@@ -106,7 +107,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>cmsAccount (extAccountAEMBase)</td>
-                  <td>Adobe Experience Manager-konto</td>
+                  <td>Adobe Experience Manager</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -168,7 +169,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>deliveryProvider (extAccountBase)</td>
-                  <td>Routning</td>
+                  <td>Dirigering</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -262,7 +263,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>isMaster</td>
-                  <td>Master</td>
+                  <td>Överordnad</td>
                   <td>boolesk </td>
                   <td> </td>
                </tr>
@@ -274,7 +275,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>iterationer</td>
-                  <td>Leveranser</td>
+                  <td>Leveranser </td>
                   <td>samling </td>
                   <td> </td>
                </tr>
@@ -337,19 +338,19 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>mappning (deliveryMapping)</td>
-                  <td>Målmappning</td>
+                  <td>Målkartläggning</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>master (deliveryBase)</td>
-                  <td>Huvudinstans</td>
+                  <td>överordnad (deliveryBase)</td>
+                  <td>Överordnad instans</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>masterKpis</td>
-                  <td>Huvudindikatorer</td>
+                  <td>Överordnad indikatorer</td>
                   <td>artikel </td>
                   <td> </td>
                </tr>
@@ -494,7 +495,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                         <li>Personalisering väntar - messagePrepPending - 21</li>
                         <li>Pausad - pausad - 75</li>
                         <li>Redigering - utgåva - 0</li>
-                        <li>Färdig - färdig - 95</li>
+                        <li>Slutförd - färdig - 95</li>
                         <li>Antal pågående - targetSelection - 12</li>
                         <li>Meddelandet har slutförts - messageReady - 25</li>
                         <li>Personalisering eller antal misslyckades - PreparationError - 37</li>
