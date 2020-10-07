@@ -9,13 +9,11 @@ audience: sending
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 343ea01229779a32919bd68fd15e0c7ff6863353
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1095'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -32,7 +30,7 @@ Den här funktionen är inaktiverad som standard. Den aktiveras när den första
 >
 >Den här funktionen är tillgänglig för e-postmeddelanden och för databaser som endast innehåller engelskt innehåll. Den tränade modellen blir inkonsekvent och ger felaktiga resultat om instansen innehåller e-post på andra språk. Alternativet som gör att du kan testa ett ämne är bara synligt om det redan finns en modell på din instans.
 
-Mer information om hur du importerar modeller finns i det här [avsnittet](#importing-models).
+For more on importing models, see this [section](#importing-models).
 
 ## Testa ämnesraden {#testing-subject-line}
 
@@ -40,8 +38,8 @@ Följ stegen nedan för att testa ämnesraden:
 
 1. Skapa eller öppna din e-post.
 1. Öppna innehållet och ange ämnet för e-postmeddelandet i motsvarande inmatningsfält.
-1. Klicka på **[!UICONTROL Test subject]** knappen för att öppna **[!UICONTROL Test your subject line]** fönstret. Du kan fortfarande redigera ämnet från det här fönstret.
-1. Välj rätt modell som ska beaktas för den öppna tariffförutsägelsen. Flera modeller finns tillgängliga, var och en för en viss bransch. Mer information om hur du använder modeller finns i det här [avsnittet](#importing-models).
+1. Click the **[!UICONTROL Test subject]** button to access the **[!UICONTROL Test your subject line]** window. Du kan fortfarande redigera ämnet från det här fönstret.
+1. Välj rätt modell som ska beaktas för den öppna tariffförutsägelsen. Flera modeller finns tillgängliga, var och en för en viss bransch. For more on using models, see this [section](#importing-models).
 1. Klicka på **[!UICONTROL Test]**.
 
 Därefter analyseras ditt ämne.
@@ -55,7 +53,7 @@ Flera indikatorer beräknas och en uppsättning verktyg visas som hjälp:
 * **Förväntad öppningsfrekvens**: I det här diagrammet får du en uppfattning om den öppna frekvens du kan förvänta dig för e-postmeddelandet med det aktuella ämnet.
 * **Ämneslängd**: Med den här indikatorn kan du se om objektets aktuella längd är korrekt eller om det behöver vara längre eller kortare.
 * **Färgade ord**: När du testar ämnet är ord som markeras med grönt de ord som bidrar mest till att öka förutsägbarheten för den öppna frekvensen. Ord som markeras med rött är de ord som bidrar minst till att öka förutsägelsen om den öppna frekvensen. Om du lägger till eller tar bort ord i ämnet ändras de markerade orden.
-* **Categories and word suggestions**: Towards the lower part of the window, a number of relevant categories for the selected model are displayed. Dessa kategorier sorteras efter prioritetsordning och du kan se om ditt ämne innehåller ord som är kopplade till det via en bocksymbol. Varje kategori innehåller en uppsättning föreslagna ord som kan användas i ditt ämne för att göra det mer relevant och öka den öppna frekvensen. Dessa ord är de ord som används oftast i en viss kategori.
+* **Kategorier och ordförslag**: I fönstrets nedre del visas ett antal relevanta kategorier för den valda modellen. Dessa kategorier sorteras efter prioritetsordning och du kan se om ditt ämne innehåller ord som är kopplade till det via en bocksymbol. Varje kategori innehåller en uppsättning föreslagna ord som kan användas i ditt ämne för att göra det mer relevant och öka den öppna frekvensen. Dessa ord är de ord som används oftast i en viss kategori.
 
 >[!NOTE]
 >
@@ -65,47 +63,47 @@ Flera indikatorer beräknas och en uppsättning verktyg visas som hjälp:
 
 ## Importera modeller {#importing-models}
 
-Som standard körs ingen modell på Adobe Campaign-servern. Det finns två sätt att hämta en modell och aktivera funktionen:
+Som standard körs ingen modell på din Adobe Campaign-server. Det finns två sätt att hämta en modell och aktivera funktionen:
 
 * Du kan utbilda en lokal modell från data i dina tidigare e-postmeddelanden.
 * Du kan importera förutbildade modeller som är specifika för vissa branscher (medicinska, etc.) med [paketimportfunktionen](../../automating/using/managing-packages.md) .
 
 ### Utbilda en lokal modell {#training-local-model}
 
-* Om du redan använder Adobe Campaign kommer den lokala modellen att automatiskt utbildas i de meddelanden som du redan har skickat.
-* Om du inte har använt Adobe Campaign tidigare kan du extrahera en CSV-fil från ditt tidigare system/ESP som innehåller fyra kolumner: datum, ämne, öppning, skickat. Det gör du genom att gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email]** > **[!UICONTROL Subject Line Import]** och följa instruktionerna på efterföljande skärmar. När ämnesöverföringen är klar importerar du en lokal modell enligt beskrivningen nedan. The local model is automatically trained with the data you uploaded.
-* If you are new to Adobe Campaign and cannot get a CSV file as described above, you can use a [pre-trained model](#pre-trained-models) or wait until you have enough delivery data in your system to train a local model. The system will automatically determine whether your current data set contains enough data to recognize patterns and to train the model.
+* Om du redan använder Adobe Campaign får den lokala modellen automatiskt utbildning i de meddelanden som du redan har skickat.
+* Om du inte har använt Adobe Campaign tidigare kan du extrahera en CSV-fil från din tidigare dator/ESP som innehåller fyra kolumner: datum, ämne, öppning, skickat. Det gör du genom att gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email]** > **[!UICONTROL Subject Line Import]** och följa instruktionerna på efterföljande skärmar. När ämnesöverföringen är klar importerar du en lokal modell enligt beskrivningen nedan. Den lokala modellen utbildas automatiskt med de data du överförde.
+* Om du inte har använt Adobe Campaign tidigare och inte kan hämta en CSV-fil enligt beskrivningen ovan kan du använda en [förtränad modell](#pre-trained-models) eller vänta tills du har tillräckligt med leveransdata i systemet för att utbilda en lokal modell. Systemet avgör automatiskt om din aktuella datauppsättning innehåller tillräckligt med data för att identifiera mönster och utbilda modellen.
 
 >[!NOTE]
 >
->There is no defined number of subject lines needed to train your own model. For more on this, see [Troubleshooting](#troubleshooting).
+>Det finns inget definierat antal ämnesrader som behövs för att utbilda din egen modell. For more on this, see [Troubleshooting](#troubleshooting).
 >
->You can only have one trained model on your instance.
+>Du kan bara ha en tränad modell i din instans.
 
-To train a local model:
-1. Hämta subjectLineTraining.xml [här](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) och använd funktionen för [paketimport](../../automating/using/managing-packages.md) för att överföra den till Adobe Campaign-instansen. A technical workflow will automatically do the training for you.
+Så här utbildar du en lokal modell:
+1. Hämta subjectLineTraining.xml [här](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) och använd funktionen för [paketimport](../../automating/using/managing-packages.md) för att överföra den till din Adobe Campaign-instans. Ett tekniskt arbetsflöde gör automatiskt utbildningen åt dig.
 1. Första gången du vill utbilda en modell kan en administratör tvinga fram en start från menyn **[!UICONTROL SubjectLine Training workflow]** > **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** **[!UICONTROL Workflows]** .
-1. Once a model has been uploaded and trained, the feature is automatically activated and a new option appears next to the subject line field of your messages.
-1. Then, the technical workflow will automatically continue to train your model every week.
+1. När en modell har överförts och tränats aktiveras funktionen automatiskt och ett nytt alternativ visas bredvid ämnesraden i dina meddelanden.
+1. Sedan fortsätter det tekniska arbetsflödet automatiskt att utbilda din modell varje vecka.
 
-### Importing pre-trained models {#pre-trained-models}
+### Importera förutbildade modeller {#pre-trained-models}
 
-To access these models, click [here](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). Använd [paketimportfunktionen](../../automating/using/managing-packages.md) för att överföra en modell till din Adobe Campaign-instans.
+Klicka [här](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)för att komma åt modellerna. Använd [paketimportfunktionen](../../automating/using/managing-packages.md) för att överföra en modell till din Adobe Campaign-instans.
 
 De modeller som är tillgängliga för användning är:
 
 * Kosmetisk industri: subjectInsightCosmetic.xml
 * Stormarknadsindustrin: subjectInsightSupermarket.xml
-* Medical industry: subjectInsightMedical.xml
+* Medicinsk industri: subjectInsightMedical.xml
 * Förlaga till tåg: subjectlineTraining.xml.
 
 Dessa modeller kan inte tränas.
 
-Once a model has been uploaded, the feature is automatically activated and a new option appears next to the subject line field of your messages.
+När en modell har överförts aktiveras funktionen automatiskt och ett nytt alternativ visas bredvid ämnesraden i dina meddelanden.
 
 >[!NOTE]
 >
->Importing and generating trained models can only be performed by an administrator.
+>Import och generering av utbildade modeller kan endast utföras av en administratör.
 
 ## Felsökning {#troubleshooting}
 
@@ -113,7 +111,7 @@ Prediktiv ämnesrad är en maskininlärningsprocess som tar hänsyn till alla ä
 
 Om du vill kunna utbilda din egen modell måste ämnesraderna vara olika och får inte innehålla dubbletter, oavsett hur många ämnesrader som används för att utbilda din modell.
 
-The quality of the subject lines is essential. Om det inte finns tillräckligt med kvalitetsdata för att bearbeta, eller om alla föregående ämnesrader är för lika, kommer systemet inte att kunna utbilda modellen och du kan få ett felmeddelande. Det innebär att din befintliga uppsättning med poster inte kan ge ett tillförlitligt prediktivt förslag.
+Kvaliteten på ämnesraderna är mycket viktig. Om det inte finns tillräckligt med kvalitetsdata för att bearbeta, eller om alla föregående ämnesrader är för lika, kommer systemet inte att kunna utbilda modellen och du kan få ett felmeddelande. Det innebär att din befintliga uppsättning med poster inte kan ge ett tillförlitligt prediktivt förslag.
 
 I det här fallet bör du granska de data du överför och se till att ämnesraderna är tillräckligt varierade för att effektivt kunna utbilda din modell.
 
