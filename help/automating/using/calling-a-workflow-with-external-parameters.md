@@ -9,10 +9,8 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 5da41379d718d78d7990fd2d767ec21216487b0d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 2%
@@ -28,7 +26,7 @@ Låt oss ta följande exempel, där vi vill skicka e-post direkt från ett CMS-s
 
 Processen för att anropa ett arbetsflöde med parametrar är följande:
 
-1. Deklarera parametrarna i **[!UICONTROL External signal]** aktiviteten. Se [Deklarera parametrarna i den externa signalaktiviteten](../../automating/using/declaring-parameters-external-signal.md).
+1. Deklarera parametrarna i **[!UICONTROL External signal]** aktiviteten. See [Declaring the parameters in the External signal activity](../../automating/using/declaring-parameters-external-signal.md).
 1. Konfigurera **[!UICONTROL End]** aktiviteten eller API-anropet för att definiera parametrarna och utlösa **[!UICONTROL External signal]** arbetsflödesaktiviteten. Se [](../../automating/using/defining-parameters-calling-workflow.md)
 1. När arbetsflödet har utlösts hämtas parametrarna in i arbetsflödets händelsevariabler och kan användas i arbetsflödet. Se [](../../automating/using/customizing-workflow-external-parameters.md).
 
