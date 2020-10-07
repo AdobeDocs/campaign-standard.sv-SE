@@ -9,10 +9,11 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 881c89272884c6340e170ab13e84612a5af19acd
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '303'
+ht-degree: 3%
 
 ---
 
@@ -31,7 +32,7 @@ Följande typer av bilder är tillgängliga, beroende på din konfiguration:
 
 >[!CAUTION]
 >
->Om du väljer att lägga till en bild direkt genom att redigera HTML-versionen av e-postmeddelandet får du inte anropa **externa filer i en &lt;script>-tagg** på HTML-sidan. Dessa filer importeras inte till Adobe Campaign-servern.
+>Om du väljer att lägga till en bild direkt genom att redigera HTML-versionen av e-postmeddelandet får du inte anropa **externa filer i en &lt;script>-tagg** på HTML-sidan. Dessa filer kommer inte att importeras till Adobe Campaign-servern.
 
 ### Infoga bilder i ett e-postmeddelande {#inserting-images-in-an-email}
 
@@ -57,7 +58,7 @@ När du markerar ett block som innehåller en bild visas följande egenskaper p�
 * **Med Bildrubrik** kan du definiera en titel för bilden.
 * **Med Alt-text** (e-post) eller **bildtext** (landningssida) kan du definiera bildtexten som är länkad till bilden (motsvarar **alt** -HTML-attributet).
 * När du redigerar ett e-postmeddelande kan du ange bildstorlek, bakgrund och kant med **Stil** .
-* När du redigerar en landningssida kan du ange bildstorleken i pixlar med **Dimensioner** .
+* När du redigerar en landningssida kan du med **Dimensioner** ange bildstorleken i pixlar.
 
 Med redigeraren kan du arbeta med **alla bildtyper** vars format är kompatibla med webbläsare. För att vara kompatibel med redigeraren måste animeringar **av typen** &quot;Flash&quot; infogas på en HTML-sida enligt följande:
 
