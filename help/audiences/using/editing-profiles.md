@@ -9,10 +9,11 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 discoiquuid: 8d3ba7bf-90ae-4c6d-aaeb-a48572a69f2f
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '314'
+ht-degree: 7%
 
 ---
 
@@ -23,7 +24,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 Så här redigerar du en befintlig profil och läser data som är kopplade till den, eller ändrar den:
 
-1. Klicka på **[!UICONTROL Customer profiles]** kortet eller **[!UICONTROL Profiles]** fliken på startsidan för Adobe Campaign.
+1. From the Adobe Campaign home page, click the **[!UICONTROL Customer profiles]** card or the **[!UICONTROL Profiles]** tab.
 1. Välj en kontakt.
 1. Klicka på **[!UICONTROL Edit profile properties]** -ikonen för att komma åt profilens detaljerade information.
 
@@ -37,7 +38,7 @@ Så här redigerar du en befintlig profil och läser data som är kopplade till 
    >
    >Du kan bara ändra informationen på **[!UICONTROL General]** fliken - förutom i **[!UICONTROL Traceability]** -avsnittet.
 
-Profilutgåvan kan också användas med API:t för Adobe Campaign Standard. Mer information finns i den [dedikerade dokumentationen](../../api/using/updating-profiles.md) .
+Profiles Edition kan också användas med Adobe Campaign Standard API. Mer information om detta hittar du i den [dedikerade dokumentationen](../../api/using/updating-profiles.md) .
 
 Relaterat ämne:
 
@@ -55,7 +56,7 @@ På fliken **[!UICONTROL General]** grupperas följande information om profilen:
 
 ![](assets/profile_creation4.png)
 
-## Skicka och spåra loggar {#sending-and-tracking-logs}
+## Sending and tracking logs {#sending-and-tracking-logs}
 
 På flikarna **[!UICONTROL Sending logs]** och **[!UICONTROL Tracking logs]** i grupperas listan över leveranser som skickades till profilen och alla relaterade spårningsdata.
 
