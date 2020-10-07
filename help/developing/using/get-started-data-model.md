@@ -9,13 +9,11 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 16%
+ht-degree: 24%
 
 ---
 
@@ -28,7 +26,7 @@ ht-degree: 16%
 <td><img src="assets/do-not-localize/icon_custom.svg" width="60px"><p><a href="#custom-resources">Anpassade resurser</a></p></td><td><img src="assets/do-not-localize/icon_api.svg" width="60px"><p><a href="#custom-resources">Arbeta med API:er</a></p></td></tr>
 </table>
 
-Utöka Campaign Standardens datamodell med egna fält och resurser och övervaka alla datamodellsändringar i en enda vy.
+Utöka datamodellen i Campaign Standard med egna fält och resurser och övervaka alla ändringar i den i en enda vy.
 
 ## Datamodell {#data-model}
 
@@ -64,7 +62,7 @@ Läs mer:
 
 <img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-Med Campaign Standard-API:er kan du skapa integreringar för Adobe Campaign Standard och bygga ett eget ekosystem genom att interagera Campaign med den panel med tekniker som du använder. [Kom igång med Campaign Standard REST API:er](../../api/using/get-started-apis.md)
+Med Campaign Standard-API:er kan du skapa integreringar för Adobe Campaign Standard och bygga ett eget ekosystem genom att interagera Campaign med den panel med tekniker som du använder. [Kom igång med REST API:er i Campaign Standard](../../api/using/get-started-apis.md)
 
 ## Ytterligare resurser
 
