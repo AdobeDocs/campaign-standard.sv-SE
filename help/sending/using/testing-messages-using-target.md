@@ -1,5 +1,5 @@
 ---
-title: Testa e-postmeddelanden med målprofiler
+title: Testa e-post med målprofiler
 description: Lär dig hur du testar meddelanden med målprofiler och ersättningsadresser.
 page-status-flag: never-activated
 uuid: eb4d893b-3724-4b15-9312-1ec74784368d
@@ -10,15 +10,16 @@ content-type: reference
 topic-tags: preparing-and-testing-messages
 discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b44e4e7e6b48ebc5c618b014eacfc9909bc2661e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '1502'
+ht-degree: 4%
 
 ---
 
 
-# Testa e-postmeddelanden med målprofiler {#testing-message-profiles}
+# Testa e-post med målprofiler {#testing-message-profiles}
 
 ## Översikt {#overview}
 
@@ -37,11 +38,11 @@ De huvudsakliga stegen är följande:
 1. **Förhandsgranska** i e-postdesignern hur meddelandet visas för profilerna.
 1. Skicka korrektur.
 
-Mer information om den globala processen finns i självstudiekursen som finns [här](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html).
+Mer information om den globala processen finns i självstudiekursen som finns [här](https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html).
 
 >[!IMPORTANT]
 >
->Med den här funktionen kan du skicka profilpersonuppgifter till externa e-postadresser. Kom ihåg att när du kör sekretessförfrågningar (GDPR &amp; CCPA) i Campaign Standard kommer denna begäran inte att verkställas externt.
+>Med den här funktionen kan du skicka en profils personuppgifter till externa e-postadresser. Kom ihåg att när du kör förfrågningar om användaruppgifter (GDPR och CCPA) i Campaign Standard VERKSTÄLLS INTE den förfrågan externt.
 
 ## Välja profiler och ersättningsadresser {#selecting-profiles}
 
@@ -91,7 +92,7 @@ Om du vill använda målprofiler för testning måste du först markera dem och 
 
 1. När du har definierat alla profiler och ersättningsadresser kan du testa meddelandet genom att skicka ett korrektur. Det gör du genom att klicka på **[!UICONTROL Test]** knappen och sedan välja vilken testtyp som ska utföras.
 
-   Observera att om ingen testprofil har lagts till i meddelandemålet är alternativen **[!UICONTROL Email rendering]** och **[!UICONTROL Proof + Email rendering]** inte tillgängliga.  Mer information om hur du skickar korrektur finns i [det här avsnittet](../../sending/using/sending-proofs.md).
+   Observera att om ingen testprofil har lagts till i meddelandemålet är alternativen **[!UICONTROL Email rendering]** och **[!UICONTROL Proof + Email rendering]** inte tillgängliga.  For more information on proofs sending, refer to [this section](../../sending/using/sending-proofs.md).
 
    ![](assets/substitution_send_test.png)
 
@@ -101,7 +102,7 @@ Om du vill använda målprofiler för testning måste du först markera dem och 
 
 ### Importera profiler från en målgrupp {#importing-from-audience}
 
-Med Campaign Standard kan ni importera en målgrupp med profiler som ni kan använda för testning. På så sätt kan du till exempel skicka en hel uppsättning meddelanden till en unik e-postadress med olika profiler som mål.
+Med Campaign Standard kan du importera en hel grupp profiler som du kan använda för testning. På så sätt kan du till exempel skicka en hel uppsättning meddelanden till en unik e-postadress med olika profiler som mål.
 
 Om målgruppen redan har konfigurerats med adresskolumnerna och prefixkolumnerna kan du dessutom importera den här informationen på **[!UICONTROL Profile substitutions]** fliken. Ett exempel på publikimport med ersättningsadresser finns i [det här avsnittet](#use-case).
 
@@ -115,7 +116,7 @@ Så här importerar du profiler som ska användas för testning från en målgru
 
    ![](assets/substitution_preparation.png)
 
-1. In the **[!UICONTROL Profile substitutions]** tab, click **[!UICONTROL Import from an audience]**.
+1. På fliken **[!UICONTROL Profile substitutions]** klickar du på **[!UICONTROL Import from an audience]**.
 
    ![](assets/substitution_audience_import.png)
 
@@ -131,7 +132,7 @@ Så här importerar du profiler som ska användas för testning från en målgru
 
    ![](assets/substitution_fromaudience.png)
 
-1. Klicka på **[!UICONTROL Import]** knappen. Profilerna från målgruppen som motsvarar meddelandemålet läggs till på **[!UICONTROL Profile substitution]** fliken, samt tillhörande ersättningsadresser och prefix.
+1. Klicka på knappen **[!UICONTROL Import]**. Profilerna från målgruppen som motsvarar meddelandemålet läggs till på **[!UICONTROL Profile substitution]** fliken, samt tillhörande ersättningsadresser och prefix.
 
 ![](assets/substitution_audience_imported.png)
 
@@ -155,7 +156,7 @@ Så här förhandsgranskar du meddelanden med hjälp av profilersättning:
 
    ![](assets/substitution_preview_access.png)
 
-1. Markera **[!UICONTROL Preview]** fliken och klicka sedan på **[!UICONTROL Change profile]**.
+1. Select the **[!UICONTROL Preview]** tab, then click **[!UICONTROL Change profile]**.
 
    ![](assets/substitution_preview_changeprofile.png)
 
@@ -169,7 +170,7 @@ Så här förhandsgranskar du meddelanden med hjälp av profilersättning:
 
    ![](assets/substitution_preview.png)
 
-## Använd skiftläge {#use-case}
+## Användningsfall {#use-case}
 
 I det här fallet vill vi skicka ett personligt nyhetsbrev via e-post till en uppsättning specifika profiler. Innan vi skickar nyhetsbrevet vill vi förhandsgranska det med några av målprofilerna och skicka korrektur till interna e-postadresser som är definierade i en extern fil.
 
@@ -179,7 +180,7 @@ De viktigaste stegen för detta är följande:
 1. Bygg ett arbetsflöde för målprofiler och skicka nyhetsbrevet.
 1. Konfigurera meddelandets profilersättningar.
 1. Förhandsgranska meddelandet med målprofiler.
-1. Skicka korrektur.
+1. Skicka korrektur.    
 
 ### Steg 1: Skapa målgruppen som ska användas för testning
 
@@ -194,6 +195,7 @@ De viktigaste stegen för detta är följande:
    * **[!UICONTROL Load file]** aktivitet: Importerar CSV-filen (mer information om den här aktiviteten finns i [det här avsnittet](../../automating/using/load-file.md)).
    * **[!UICONTROL Reconciliation]** aktivitet: Länkar information från filen till information från databasen. I det här exemplet använder vi profilens e-postadress som avstämningsfält (mer information om den här aktiviteten finns i [det här avsnittet](../../automating/using/reconciliation.md)).
    * **[!UICONTROL Save audience]** aktivitet: Skapar en målgrupp baserat på den importerade filen (mer information om den här aktiviteten finns i [det här avsnittet](../../automating/using/save-audience.md)).
+
    ![](assets/substitution_uc2.png)
 
 1. Kör arbetsflödet och gå sedan till **[!UICONTROL Audiences]** fliken för att kontrollera att målgruppen har skapats med önskad information.
@@ -212,11 +214,11 @@ De viktigaste stegen för detta är följande:
 
 ### Steg 3: Konfigurera fliken Profilersättning för meddelandet
 
-1. Öppna **[!UICONTROL Email delivery]** aktiviteten. Klicka på **[!UICONTROL Audience]** blocket i meddelandekontrollpanelen.
+1. Öppna **[!UICONTROL Email delivery]** aktiviteten. In the message dashboard, click the **[!UICONTROL Audience]** block.
 
    ![](assets/substitution_uc5.png)
 
-1. Markera **[!UICONTROL Profile substitutions]** fliken och klicka sedan på **[!UICONTROL Import from an audience]**.
+1. Select the **[!UICONTROL Profile substitutions]** tab, then click **[!UICONTROL Import from an audience]**.
 
    ![](assets/substitution_uc6.png)
 
@@ -230,7 +232,7 @@ De viktigaste stegen för detta är följande:
 
    ![](assets/substitution_uc8.png)
 
-1. Klicka på **[!UICONTROL Import]** knappen. Profiler från målgruppen läggs till i listan, med tillhörande ersättningsadresser och ämnesradprefix.
+1. Klicka på knappen **[!UICONTROL Import]**. Profiler från målgruppen läggs till i listan, med tillhörande ersättningsadresser och ämnesradprefix.
 
    ![](assets/substitution_uc9.png)
 
@@ -244,7 +246,7 @@ De viktigaste stegen för detta är följande:
 
    ![](assets/substitution_uc10.png)
 
-1. Markera **[!UICONTROL Preview]** fliken och klicka sedan på **[!UICONTROL Change profile]**.
+1. Select the **[!UICONTROL Preview]** tab, then click **[!UICONTROL Change profile]**.
 
    ![](assets/substitution_uc_preview.png)
 
@@ -260,7 +262,7 @@ De viktigaste stegen för detta är följande:
 
 ### Steg 5: Skicka korrektur
 
-1. Klicka på **[!UICONTROL Test]** knappen i meddelandekontrollpanelen och bekräfta sedan.
+1. In the message dashboard, click the **[!UICONTROL Test]** button, then confirm.
 
    ![](assets/substitution_uc_sendproof.png)
 
