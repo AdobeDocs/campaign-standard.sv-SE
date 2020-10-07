@@ -1,6 +1,6 @@
 ---
-title: Dela målgrupper med Audience Manager eller People core service
-description: Lär dig hur du importerar eller exporterar målgrupper i olika Adobe Experience Cloud-lösningar.
+title: Dela målgrupper med Audience Manager eller People Core Service
+description: Lär dig hur du importerar eller exporterar målgrupper inom olika Adobe Experience Cloud-lösningar.
 page-status-flag: never-activated
 uuid: a3701e72-5846-4241-afee-d713b499a27a
 contentOwner: sauviat
@@ -9,26 +9,24 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: 77af0772-52b5-46bc-a964-675b45965524
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '807'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Dela målgrupper med Audience Manager eller People core service{#sharing-audiences-with-audience-manager-or-people-core-service}
+# Dela målgrupper med Audience Manager eller People Core Service{#sharing-audiences-with-audience-manager-or-people-core-service}
 
 ## Importera en målgrupp {#importing-an-audience}
 
-Integreringen av personbastjänsterna gör att du kan importera en målgrupp direkt till Adobe Campaign via ett tekniskt arbetsflöde för att förbättra databasen. Mer information om målgruppsdelning i Bastjänsten People finns i den här [dokumentationen](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
+Integrering med Bastjänst för människor gör det möjligt att direkt importera en målgrupp till Adobe Campaign via ett tekniskt arbetsflöde som berikar databasen. Mer information om målgruppsdelning i Bastjänsten People finns i den här [dokumentationen](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
 
 Import av målgrupper/segment från personbastjänsten i Adobe Campaign kan endast utföras från **[!UICONTROL Audiences]** menyn av användare som är anslutna via IMS (autentisering via Adobe ID).
 
-1. Gå till **[!UICONTROL Audiences]** menyn.
+1. Go to the **[!UICONTROL Audiences]** menu.
 1. I åtgärdsfältet väljer du **[!UICONTROL Create]** att klistras in på skärmen för att skapa en målgrupp.
 1. Ange etiketten för den nya målgruppen.
 1. Ställ in målgruppen **[!UICONTROL Type]** på **[!UICONTROL Experience Cloud]** att ange att målgruppen som skapas är en målgrupp som importerats från personbastjänsten.
@@ -46,15 +44,15 @@ Import av målgrupper/segment från personbastjänsten i Adobe Campaign kan enda
 
    Publiken importeras sedan via ett tekniskt arbetsflöde. Den består av poster där ID:t (&quot;besökar-ID&quot; eller&quot;Deklarerat ID&quot;) kunde förenas med profildimensionen. ID:n från People core service segments som inte känns igen av Adobe Campaign importeras inte.
 
-Din målgrupp importeras nu i din Adobe Campaign-databas. Det tar 24-36 timmar att synkronisera importprocessen när segment importeras direkt från personbastjänsten eller Audience Manager. Efter den här perioden kan du hitta och använda din nya publik i Adobe Campaign.
+Din målgrupp importeras nu i din Adobe Campaign-databas. Det tar 24-36 timmar att synkronisera importprocessen när segment importeras direkt från personbastjänsten eller Audience Manager. Efter den här perioden kan du hitta och använda din nya målgrupp i Adobe Campaign.
 
 >[!NOTE]
 >
->Om du importerar målgrupper från Adobe Analytics till Adobe Campaign måste dessa målgrupper först delas i People Core Service eller Audience Manager. Den här processen tar 12-24 timmar, vilket måste läggas till i synkroniseringen av 24-36 timmar med Campaign. I det specifika fallet kan tidsramen för målgruppsdelning vara upp till 60 timmar. Mer information om Adobe Analytics-målgruppsdelning i tjänsten People Core och Audience Manager finns i den här [dokumentationen](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
+>Om du importerar målgrupper från Adobe Analytics till Adobe Campaign måste dessa målgrupper först delas i People Core Service eller Audience Manager. Den här processen tar 12-24 timmar, vilket måste läggas till i synkroniseringen av 24-36 timmar med Campaign. I det specifika fallet kan tidsramen för målgruppsdelning vara upp till 60 timmar. Mer information om Adobe Analytics målgruppsdelning i tjänsten People Core och Audience Manager finns i den här [dokumentationen](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
 
 ## Exportera en målgrupp {#exporting-an-audience}
 
-En målgrupp kan exporteras från Adobe Campaign till Audience Manager eller en persontjänst med hjälp av ett arbetsflöde och en **[!UICONTROL Save audience]** aktivitet.
+En målgrupp kan exporteras från Adobe Campaign till Audience Manager eller People core service med hjälp av ett arbetsflöde och **[!UICONTROL Save audience]** aktivitet.
 
 Den kan utföras i ett nytt arbetsflöde och endast av användare som är anslutna via IMS (autentisering via Adobe ID).
 
@@ -69,20 +67,21 @@ Den kan utföras i ett nytt arbetsflöde och endast av användare som är anslut
 
    * Om du väljer en befintlig målgrupp läggs endast de nya posterna till i målgruppen.
    * Om du vill exportera din profillista till en ny målgrupp fyller du i **[!UICONTROL Segment name]** fältet och klickar sedan **[!UICONTROL Create]** innan du väljer den nya målgruppen.
+
    ![](assets/aam_save_audience_segment_picker.png)
 
-   För att posterna ska kunna stämmas av och bytas ut måste de ha ett Adobe Experience Cloud-ID (Visitor-ID eller Deklarerat ID). Ej avstämda poster ignoreras vid import och export av målgrupper.
+   För att posterna ska kunna stämmas av och bytas ut måste de ha ett Adobe Experience Cloud-id (Visitor-ID eller Deklarerat ID). Ej avstämda poster ignoreras vid import och export av målgrupper.
 
 1. Avsluta genom att klicka på bockmarkeringen längst upp till höger på skärmen.
 1. Markera motsvarande **[!UICONTROL Shared Data Source]**.
 1. Om du vill kan du markera kryssrutan för att använda de profiler som exporterades. **[!UICONTROL Generate an outbound transition]** Endast de profiler som kan förenas exporteras.
 1. Bekräfta aktivitetens konfiguration och spara arbetsflödet.
-1. Starta arbetsflödet för att exportera målgrupper. Synkronisering mellan huvudtjänsten Adobe Campaign och People kan ta flera timmar
+1. Starta arbetsflödet för att exportera målgrupper. Synkronisering mellan Adobe Campaign och People Core Service kan ta flera timmar
 
-Synkronisering mellan huvudtjänsten Adobe Campaign och People tar 24-36 timmar. Efter den här perioden kan du hitta din nya målgrupp i bastjänsten för människor och återanvända den i andra Adobe Experience Cloud-lösningar. Mer information om hur du använder en Adobe Campaign-delad målgrupp i huvudtjänsten Adobe People finns i den här [dokumentationen](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-audience-create.html).
+Synkronisering mellan Adobe Campaign och People Core Service tar 24-36 timmar. Efter den här perioden kan du hitta din nya målgrupp i bastjänsten People och återanvända den i andra Adobe Experience Cloud-lösningar. Mer information om hur du använder en delad Adobe Campaign-målgrupp i Adobe People-bastjänsten finns i den här [dokumentationen](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-audience-create.html).
 
 **Relaterade ämnen:**
 
 * [Arbetsflöden](../../automating/using/get-started-workflows.md)
-* [Målgrupper](../../audiences/using/about-audiences.md)
+* [Publiker](../../audiences/using/about-audiences.md)
 
