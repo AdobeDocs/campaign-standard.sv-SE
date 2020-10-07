@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 538739417c4ed28ff2991186dac5fb69d1af3afd
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '183'
+ht-degree: 3%
 
 ---
 
@@ -38,7 +39,7 @@ Här följer ett exempel på hur du hämtar metadata från en anpassad resurs:
 GET /customResources/resourceType/<customResourceName>
 ```
 
-GET, POST, PATCH, DELETE används för att skapa, uppdatera eller ta bort.
+GET, POST, PATCH och DELETE används för att skapa, uppdatera eller ta bort objekt.
 
 ```
 POST /customResources/<customResourceName>
