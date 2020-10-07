@@ -9,10 +9,11 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 discoiquuid: 14d86b4f-2782-48ec-8968-393a6de4f853
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '731'
+ht-degree: 3%
 
 ---
 
@@ -109,9 +110,9 @@ På fliken **Infoga** kan du anpassa rapporter genom att lägga till diagram och
 
 ![](assets/tab_share_1.png)
 
-På fliken **[!UICONTROL Share]** kan du skicka rapporter med Adobe Campaign-användare via e-post med ett eller flera skott. Målanvändarna får sedan ett e-postmeddelande med din rapport bifogad.
+På fliken **[!UICONTROL Share]** kan du skicka rapporter till Adobe Campaign-användare via e-post med en enstaka bild eller återkommande meddelanden. Målanvändarna får sedan ett e-postmeddelande med din rapport bifogad.
 
-* **[!UICONTROL Send report now]**: Skicka rapporten till en lista med valda mottagare via ett e-postmeddelande.
+* **[!UICONTROL Send report now]**: Skicka rapporten till en lista över valda mottagare via ett e-postmeddelande.
 
    1. Lägg till en beskrivning i **[!UICONTROL Send report]** fönstret om det behövs.
 
