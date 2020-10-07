@@ -10,11 +10,9 @@ content-type: reference
 topic-tags: direct-mail
 discoiquuid: f993d1b6-4b9a-4f95-81fc-60c126211bd2
 context-tags: delivery,directMailContent,back
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 100%
 
@@ -35,7 +33,7 @@ För varje målprofil läggs en ny rad till i extraheringsfilen. Mängden profil
 
 >[!CAUTION]
 >
->Se till att dina profiler innehåller en postadress eftersom den här informationen är viktig för leverantören av direktutskick. Se även till att du har markerat rutan **[!UICONTROL Address specified]** i profilinformationen. Se [Rekommendationer](../../channels/using/about-direct-mail.md#recommendations).
+>Se till att dina profiler innehåller en postadress eftersom den här informationen är viktig för leverantören av direktutskick. Se även till att du har markerat rutan **[!UICONTROL Address specified]** i profilinformationen.  Se [Rekommendationer](../../channels/using/about-direct-mail.md#recommendations).
 
 ## Lägga till test- och trapprofiler {#adding-test-and-trap-profiles}
 
