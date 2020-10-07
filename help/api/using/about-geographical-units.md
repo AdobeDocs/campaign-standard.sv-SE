@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '136'
+ht-degree: 3%
 
 ---
 
@@ -22,8 +23,10 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 >[!CAUTION]
 >
 >Funktionen Geografisk enhet har tagits bort i Campaign Standard 18.7.
-Detta innebär att nya Campaign Standard-instanser, liksom befintliga instanser utan geografiska enheter, inte kan implementeras från och med version 18.7.
-Mer information finns på sidan <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">Föråldrade funktioner</a> .
+>
+>Detta innebär att nya Campaign Standarder, liksom befintliga instanser utan geografiska enheter, inte kan implementeras från och med version 18.7.
+>
+>Mer information finns på sidan <a href="https://helpx.adobe.com/se/campaign/kb/acs-deprecated-and-removed-features.html">Föråldrade funktioner</a> .
 
 Med **geoUnitBase** -slutpunkten kan du interagera med geografiska enheter, vilket t.ex. gör att du kan uppdatera deras attribut eller uppdatera en profils enhet.
 
