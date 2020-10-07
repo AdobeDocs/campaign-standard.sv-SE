@@ -10,38 +10,36 @@ content-type: reference
 topic-tags: data-management-activities
 discoiquuid: a06509f9-4731-4187-b43d-3bfa361284d3
 context-tags: fileExport,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 0%
+ht-degree: 68%
 
 ---
 
 
 # Exportera profiler i en extern fil {#exporting-profiles-external-file}
 
-Följande exempel visar hur du konfigurerar en **[!UICONTROL Extract file]** aktivitet efter en **[!UICONTROL Query]** aktivitet.
+Följande exempel visar hur du konfigurerar en **[!UICONTROL Extract file]**-aktivitet efter en **[!UICONTROL Query]**-aktivitet.
 
-Målet med det här arbetsflödet är att exportera en lista med profiler i form av en extern fil så att data kan användas utanför Adobe Campaign.
+Målet med detta arbetsflödet är att exportera en lista med profiler i form av en extern fil så att data kan användas utanför Adobe Campaign.
 
-1. Dra och släpp en [extraheringsfilsaktivitet](../../automating/using/extract-file.md) i arbetsflödet och placera den efter [Query](../../automating/using/query.md) -aktiviteten.
+1. Drag and drop an [Extract file](../../automating/using/extract-file.md) activity into your workflow and place it after the [Query](../../automating/using/query.md) activity.
 
-   I det här exemplet utförs frågan på alla profiler i åldern 18 till 30.
+   I det här exemplet gäller förfrågan alla profiler som har en ålder på mellan 18 och 30.
 
-1. Öppna **[!UICONTROL Extract file]** aktiviteten för att redigera den.
-1. Namnge utdatafilen.
-1. Lägg till utdatakolumner.
+1. Open the **[!UICONTROL Extract file]** activity to edit it.
+1. Namnge utmatningsfilen.
+1. Lägg till utmatningskolumner.
 
-   I det här exemplet läggs e-post, ålder, födelsedatum, förnamn och efternamn för profilerna till som utdatakolumner.
+   I det här exemplet så läggs e-post, ålder, födelsedatum, förnamn och efternamn till för profilerna som utmatningskolumner.
 
    ![](assets/wkf_data_export6.png)
 
-1. Klicka på **[!UICONTROL File structure]** fliken för att definiera:
+1. Klicka på **[!UICONTROL File structure]**-fliken för att definiera:
 
-   * CSV-utdataformat
+   * CSV-utmatningsformat
 
       ![](assets/wkf_data_export7.png)
 
@@ -50,8 +48,8 @@ Målet med det här arbetsflödet är att exportera en lista med profiler i form
       ![](assets/wkf_data_export9.png)
 
 1. Bekräfta din aktivitet.
-1. Dra och släpp en [överföringsfilaktivitet](../../automating/using/transfer-file.md) efter **[!UICONTROL Extract file]** aktiviteten för att återställa extraheringsfilen på ett externt konto.
-1. Öppna aktiviteten och välj **[!UICONTROL File upload]** åtgärden.
+1. Drag and drop a [Transfer file](../../automating/using/transfer-file.md) activity after the **[!UICONTROL Extract file]** activity to recover the extract file on an external account.
+1. Öppna aktiviteten och välj **[!UICONTROL File upload]**-åtgärden.
 
    ![](assets/wkf_data_export11.png)
 
@@ -62,4 +60,4 @@ Målet med det här arbetsflödet är att exportera en lista med profiler i form
 1. Bekräfta aktiviteten och spara arbetsflödet.
 1. Starta arbetsflödet.
 
-   När arbetsflödet har körts korrekt är den extraherade filen tillgänglig på det externa kontot.
+   När arbetsflödet har körts korrekt så är den extraherade filen tillgänglig på det externa kontot.
