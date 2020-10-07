@@ -9,13 +9,11 @@ audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
 discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 8%
+ht-degree: 18%
 
 ---
 
@@ -29,11 +27,11 @@ ht-degree: 8%
 <td><img src="assets/do-not-localize/icon_privacy.svg" width="60px"><p><a href="#privacy">Integritetsefterlevnad</a></p></td></tr>
 </table>
 
-Med kampanjintegrerade kundprofiler kan ni spåra alla interaktioner med kunder i alla kanaler i en enda vy, så att ni kan leverera relevanta och personaliserade meddelanden till era kunder.
+Med Integrerade kundprofiler i kampanjen kan du spåra alla interaktioner med kunder i alla kanaler i en enda vy vilket gör att du kan leverera relevanta och personaliserade meddelanden till kunderna.
 
-Segmentera er databas i målgrupper för att optimera målsättningen för era marknadsföringskampanjer.
+Segmentera din databas i målgrupper för att optimera målsättningen för marknadsföringskampanjerna.
 
-Hantera kundernas tillstånd och samtycke med hjälp av tjänster och landningssidor för att enkelt konfigurera mekanismer för anmälan och avanmälan.
+Hantera kundernas tillstånd och medgivande med hjälp av tjänster och landningssidor som enkelt låter dig lägga upp mekanismer för anmälning och avanmälning.
 
 ## Segmentering och målinriktning {#segmenting-targeting}
 
