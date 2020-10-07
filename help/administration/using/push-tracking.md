@@ -1,5 +1,5 @@
 ---
-title: Implementera penselspårning
+title: Implementera push-spårning
 description: Med det här dokumentet kan du säkerställa att spårning av push-meddelanden har implementerats korrekt på iOS och Android.
 page-status-flag: never-activated
 uuid: 961aaeb5-6948-4fd2-b8d7-de4510c10566
@@ -10,18 +10,16 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '819'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Implementera penselspårning {#push-tracking}
+# Implementera push-spårning {#push-tracking}
 
 ## Om push-spårning {#about-push-tracking}
 
@@ -33,13 +31,13 @@ Detta förutsätter att du redan har implementerat de första delarna i implemen
 
 Push-spårning är indelad i tre typer:
 
-* **Push** Impressions - När ett push-meddelande har levererats till enheten och sitter på meddelandecentret men inte har ändrats alls.  Detta betraktas som ett intryck.  I de flesta fall ska antalet visningar vara lika med eller inte detsamma som antalet som skickas. Det ser till att enheten fick meddelandet och vidarebefordrade informationen till servern.
+* **Push** Impressions - När ett push-meddelande har levererats till enheten och sitter på meddelandecentret men inte har ändrats alls.  Detta betraktas som ett intryck.  I de flesta fall bör antalet visningar vara lika med eller inte detsamma som antalet som skickas. Det ser till att enheten fick meddelandet och vidarebefordrade informationen till servern.
 
 * **Push Click** - När ett push-meddelande har levererats till enheten och användaren har klickat på enheten.  Användaren ville antingen visa meddelandet (som i sin tur går till Push Open tracking) eller stänga meddelandet.
 
-* **Skjut upp** - När ett push-meddelande har levererats till enheten och användaren har klickat på meddelandet som får programmet att öppnas.  Detta liknar kommandot Push Click, men Push Open aktiveras inte om meddelandet stängs.
+* **Skjut upp** - När ett push-meddelande har levererats till enheten och användaren har klickat på meddelandet som får programmet att öppnas.  Det här liknar kommandot Push Click (Push-klicka), förutom att Push Open (Push Open) inte aktiveras om meddelandet stängs.
 
-För att implementera spårning för Campaign Standard måste mobilappen innehålla Mobile SDK. Dessa SDK är tillgängliga på Adobes mobiltjänster. For more on this, refer to this [page](../../administration/using/configuring-a-mobile-application.md).
+För att implementera spårning för Campaign Standard måste mobilappen innehålla Mobile SDK. Dessa SDK är tillgängliga för Adobe mobiltjänster. Se denna [sida](../../administration/using/configuring-a-mobile-application.md) för mer information om detta.
 
 Om du vill skicka spårningsinformation finns det tre variabler som måste skickas. Två som är en del av data som tas emot från Campaign Standarden och en åtgärdsvariabel som anger om det är en **Impression**, **Click** eller **Open**.
 
@@ -154,7 +152,7 @@ Du måste skicka&quot;1&quot; och&quot;2&quot; eftersom användaren måste klick
 
 För att kunna spåra öppning måste du skapa återgivning. Intent-objekt gör att Android OS kan anropa din metod när vissa åtgärder är klara. I det här fallet klickar du på meddelandet för att öppna programmet.
 
-Den här koden baseras på implementeringen av klickningsvisningsspårning. Med **[!UICONTROL Intent]** set måste du nu skicka spårningsinformation tillbaka till Adobe Campaign Standarden. I det här fallet måste du ställa in så att **[!UICONTROL Open Intent]** den öppnas för en viss vy i appen. Detta anropar metoden onResume med meddelandedata i **[!UICONTROL Intent Object]**.
+Den här koden baseras på implementeringen av klickningsvisningsspårning. Med **[!UICONTROL Intent]** set måste du nu skicka spårningsinformation tillbaka till Adobe Campaign Standard. I det här fallet måste du ställa in så att **[!UICONTROL Open Intent]** den öppnas för en viss vy i appen. Detta anropar metoden onResume med meddelandedata i **[!UICONTROL Intent Object]**.
 
 ```
 @Override
