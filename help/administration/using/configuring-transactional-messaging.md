@@ -9,10 +9,8 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '3169'
 ht-degree: 7%
@@ -34,7 +32,7 @@ När händelsen har publicerats:
 
 * Det API som kommer att användas av webbplatsutvecklaren distribueras och transaktionshändelserna kan nu skickas. Se [Integrera händelseutlösaren på en webbplats](#integrating-the-triggering-of-the-event-in-a-website).
 
-* Motsvarande transaktionsmeddelande skapas automatiskt. Se [Komma igång med transaktionsmeddelanden](../../channels/using/getting-started-with-transactional-msg.md).
+* Motsvarande transaktionsmeddelande skapas automatiskt. See [Getting started with transactional messaging](../../channels/using/getting-started-with-transactional-msg.md).
 
 ## Skapa en händelse {#creating-an-event}
 
