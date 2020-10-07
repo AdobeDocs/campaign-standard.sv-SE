@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: application-settings
 discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
 context-tags: branding,overview;branding,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: fc1dc9ca876a0f18b2dad0e02331cfc05a799aad
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1252'
-ht-degree: 79%
+ht-degree: 80%
 
 ---
 
@@ -96,7 +94,7 @@ Du kan lägga till nya enheter i organisationen i Campaign eller skapa en ny typ
 
 1. **Delegera en ny underdomän** - För alla nya underdomäner som ska användas av Adobe är det första steget att delegera den. Detta kan ni göra via [Campaign Control Panel](https://docs.adobe.com/content/help/sv-SE/control-panel/using/subdomains-and-certificates/subdomains-branding.html) eller kontakta er Adobe tekniska kontakt. Läs mer om delegering av underdomäner [i den här artikeln](https://helpx.adobe.com/se/campaign/kb/domain-name-delegation.html).
 
-1. **Skapa en biljett** - När underdomänen har delegerats måste Adobe konfigurera den i produktionsmiljön. Om du vill begära detta [skapar du en biljett till kundtjänst](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) med följande information:
+1. **Skapa en biljett** - När underdomänen har delegerats måste Adobe konfigurera den i produktionsmiljön. Om du vill begära detta [skapar du en biljett till kundtjänst](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) med följande information:
 
    * Ämne: ACS Ny varumärkeskonfiguration
 
