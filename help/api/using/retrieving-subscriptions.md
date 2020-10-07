@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '196'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +25,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 Detta är en tvåstegsprocedur.
 
 1. Hämta prenumerations-URL:en för den önskade tjänsten.
-1. Utför en GET-begäran på prenumerations-URL:en. Den returnerar en lista över prenumerationer för tjänsten, med varje associerad profil.
+1. Utför en GET-förfrågan på prenumerations-URL:en. Den returnerar en lista över prenumerationer för tjänsten, med varje associerad profil.
 
 >[!CAUTION]
 >
@@ -34,7 +35,7 @@ Detta är en tvåstegsprocedur.
 
 ***Exempelbegäran***
 
-Utför en GET-begäran för att hämta tjänsten.
+Utför en GET-förfrågan för att hämta tjänsten.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -58,7 +59,7 @@ Den returnerar prenumerations-URL:en för tjänsten.
   },
 ```
 
-Utför en GET-begäran på prenumerations-URL:en.
+Utför en GET-förfrågan på prenumerations-URL:en.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
@@ -96,7 +97,7 @@ Detta är en tvåstegsprocedur.
 
 ***Exempelbegäran***
 
-Utför en GET-begäran för att hämta profilen.
+Utför en GET-förfrågan för att hämta profilen.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -120,7 +121,7 @@ Den returnerar prenumerations-URL:en för profilen.
   }
 ```
 
-Utför en GET-begäran på prenumerations-URL:en.
+Utför en GET-förfrågan på prenumerations-URL:en.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
