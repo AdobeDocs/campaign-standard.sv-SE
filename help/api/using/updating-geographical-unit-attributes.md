@@ -9,18 +9,19 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '86'
+ht-degree: 11%
 
 ---
 
 
 # Uppdatera attribut för en geografisk enhet {#managing-geographical-units}
 
-1. Utför en GET-begäran på **geoUnitBase** -resursen för att hämta den geografiska enhetens PKey.
-1. Utför en PATCH-begäran på den geografiska enheten med de attribut som ska uppdateras i nyttolasten.
+1. Utför en GET-begäran på **geoUnitBase** -resursen för att hämta den geografiska enheten PKey.
+1. Utför en begäran från PATCH på den geografiska enheten med de attribut som ska uppdateras i nyttolasten.
 
 <br/>
 
@@ -52,7 +53,7 @@ Den returnerar alla geografiska enheter. Hämta den önskade enhetens PKey.
 },
 ```
 
-Utför en PATCH-begäran på den geografiska enheten med de attribut som ska uppdateras i nyttolasten.
+Utför en begäran från PATCH på den geografiska enheten med de attribut som ska uppdateras i nyttolasten.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \
