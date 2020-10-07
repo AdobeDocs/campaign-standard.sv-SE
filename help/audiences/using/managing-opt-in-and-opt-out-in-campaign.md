@@ -9,13 +9,11 @@ audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
 discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -38,7 +36,7 @@ Du kan också skapa en **[!UICONTROL Denylist]** landningssida som gör det möj
 
 >[!NOTE]
 >
->Landningssidor kan också användas för att aktivera serviceabonnemang. For more on this, refer to [this page](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service).
+>Landningssidor kan också användas för att aktivera serviceabonnemang. Se denna [sida](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service) för mer information om detta.
 
 1. Skapa en **[!UICONTROL Profile acquisition]** landningssida (se [detta avsnitt](../../channels/using/getting-started-with-landing-pages.md)).
 1. Lägg till en kryssruta i innehållet på landningssidan för varje önskad kanal och länka den sedan till motsvarande fält från Campaign-databasen.
