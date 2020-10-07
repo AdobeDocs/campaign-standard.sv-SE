@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: managing-audiences
 discoiquuid: 750ecd8d-67a5-4180-bfec-2a8e3098c812
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d487600fc4f3004804e93347b83edfe4e01cceeb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '389'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -25,15 +23,15 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Målgruppstjänsten är för närvarande i betaversion, som kan uppdateras ofta utan föregående meddelande. Kunderna måste vara värdbaserade på Azure (för närvarande endast betaversioner för Nordamerika) för att få tillgång till dessa funktioner. Kontakta Adobes kundtjänst om du vill ha tillgång till tjänsten.
+>Målgruppstjänsten är för närvarande i betaversion, som kan uppdateras ofta utan föregående meddelande. Kunderna måste vara värdbaserade på Azure (för närvarande endast betaversioner för Nordamerika) för att få tillgång till dessa funktioner. Kontakta Adobe kundtjänst om du vill ha tillgång till tjänsten.
 
 ## Åtkomst till Adobe Experience Platform-målgrupper
 
-Om du vill få åtkomst till segmentbyggaren i Adobe Experience Platform går du till **[!UICONTROL Audiences]** Campaign Standardens startsida (eller till **[!UICONTROL Audiences]** länken i sidhuvudet) och väljer sedan **[!UICONTROL Adobe Experience Platform]** miljö.
+Om du vill komma åt Adobe Experience Platform segmentbyggare går du till startsidan för **[!UICONTROL Audiences]** kortet på Campaign Standarden (eller till **[!UICONTROL Audiences]** länken i sidhuvudet) och väljer sedan **[!UICONTROL Adobe Experience Platform]** miljö.
 
 ![](assets/aep_audiences_access.png)
 
-Du dirigeras först till sidan med segmentlistan i Adobe Experience Platform, där du kan komma åt befintliga Adobe Experience Platform-segment för ytterligare redigering.
+Du dirigeras först till Adobe Experience Platform segmentlistsida där du kan komma åt befintliga Adobe Experience Platform-segment för ytterligare redigering.
 
 Det finns ett sökfält och filter som hjälper dig att hitta det önskade Adobe Experience Platform-segmentet.
 
@@ -41,13 +39,13 @@ Det finns ett sökfält och filter som hjälper dig att hitta det önskade Adobe
 
 ## Skapa Adobe Experience Platform-målgrupper
 
-Så här skapar du en Adobe Experience Platform-målgrupp direkt i Campaign Standarden:
+Så här skapar du en Adobe Experience Platform-publik direkt i Campaign Standarden:
 
-1. Klicka på **[!UICONTROL New audience]** knappen i det högra hörnet på listsidan för segment i Adobe Experience Platform.
+1. Klicka på knappen i det högra hörnet på listsidan för Adobe Experience Platform-segment. **[!UICONTROL New audience]**
 
    ![](assets/aep_audiences_creation_create.png)
 
-1. Segmentverktyget bör nu visas på arbetsytan. Det gör att ni kan skapa ett segment med data från Adobe Experience Platform som så småningom kommer att användas för att skapa er målgrupp.
+1. Segmentverktyget bör nu visas på arbetsytan. Det gör att ni kan skapa ett segment med hjälp av data från Adobe Experience Platform som så småningom kommer att användas för att skapa er målgrupp.
 
 1. Namnge segmentet i den högra rutan och ange en beskrivning (valfritt).
 
@@ -55,7 +53,7 @@ Så här skapar du en Adobe Experience Platform-målgrupp direkt i Campaign Stan
 
 1. För att lyckas skapa ett segment måste du välja en **sammanfogningsprincip** som matchar ditt marknadsföringssyfte för det här segmentet.
 
-   I inställningsfönstret är en Platform-standardprincip för sammanslagning vald. Mer information om kopplingsprofiler finns i det dedikerade avsnittet i användarhandboken för [Segment Builder](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
+   I inställningsfönstret är en standardprincip för sammanfogning av plattform vald. Mer information om kopplingsprofiler finns i det dedikerade avsnittet i användarhandboken för [Segment Builder](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -65,7 +63,7 @@ Så här skapar du en Adobe Experience Platform-målgrupp direkt i Campaign Stan
 
    ![](assets/aep_audiences_creation_query.png)
 
-Publiken är nu redo att aktiveras och kan användas som mål för era kampanjer (se [Målgrupper](../../automating/using/aep-targeting-audiences.md)i Adobe Experience Platform).
+Publiken är nu redo att aktiveras, du kan använda den som mål för dina kampanjer (se [Målgruppsanpassa Adobe Experience Platform-målgrupper](../../automating/using/aep-targeting-audiences.md)).
 
 ## Redigera målgrupper
 
