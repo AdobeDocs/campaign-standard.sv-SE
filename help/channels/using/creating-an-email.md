@@ -9,13 +9,11 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e1e092249a447039c0d845f143be532f845ca1dc
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 19%
+ht-degree: 20%
 
 ---
 
@@ -54,7 +52,7 @@ Du kan skapa ett e-postmeddelande från en [kampanj](../../start/using/marketing
 
    ![](assets/email_creation_4.png)
 
-   Du kan utforma meddelanden direkt med en fördefinierad innehållsmall eller med Dreamweaver eller Adobe Experience Manager. Om du inte känner dig som en designer kan du även överföra innehåll som har förberetts åt dig eller importera ett befintligt innehåll från en URL. Se [Markera befintligt innehåll](../../designing/using/using-existing-content.md).
+   Du kan utforma meddelanden direkt med en fördefinierad innehållsmall eller med Dreamweaver eller Adobe Experience Manager. Om du inte känner dig som en designer kan du även överföra innehåll som har förberetts åt dig eller importera ett befintligt innehåll från en URL. Se [Välja befintligt innehåll](../../designing/using/using-existing-content.md).
 
 1. Förhandsgranska meddelandet. Se [Förhandsvisa meddelanden](../../sending/using/previewing-messages.md).
 1. Bekräfta att du har skapat e-postmeddelandet.
