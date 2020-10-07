@@ -1,6 +1,6 @@
 ---
-title: Visa en bild från ett push-meddelande för en Adobe Campaign Standard
-description: Lär dig hur du visar en bild från ett push-meddelande i Adobe Campaign på en iOS-enhet.
+title: Visa en bild från ett push-meddelande för Adobe Campaign Standard
+description: Lär dig hur du visar en bild från ett push-meddelande från Adobe Campaign på en iOS-enhet.
 page-status-flag: never-activated
 uuid: 961aaeb5-6948-4fd2-b8d7-de4510c10566
 contentOwner: sauviat
@@ -10,24 +10,22 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: cf43edcacbab9f1f33ce29e23c0957d8bfa64e7d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '428'
-ht-degree: 0%
+ht-degree: 20%
 
 ---
 
 
-# Lägga till bilder och videoklipp iOS {#image-push}
+# Lägga till bilder och videor i iOS {#image-push}
 
 >[!NOTE]
 >
 >Det här dokumentet gäller endast iOS-enheter.
 
-Läs om hur du visar en bild från ett push-meddelande för iOS-Adobe Campaign Standard i det här dokumentet.
+Läs om hur du visar en bild från ett push-meddelande för Adobe Campaign Standard iOS i det här dokumentet.
 
 ## Steg 1: Ställ in push-meddelande {#set-up-push}
 
@@ -35,20 +33,20 @@ Push-meddelanden stöds av Experience Platform SDK:er.
 
 De mobilprogram som tar emot push-meddelanden måste konfigureras av en administratör i Adobe Campaign-gränssnittet.
 
-Genom att konfigurera både Adobe Campaign och Adobes mobiltjänster kan ni använda mobilprogrammets data för era kampanjer. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+Genom att konfigurera både Adobe Campaign och Adobe Mobile Services kan ni använda mobilprogrammets data för era kampanjer. Se denna [sida](https://helpx.adobe.com/se/campaign/kb/configuring-app-sdk.html) för mer information om detta.
 
-För att skicka push-meddelanden med ett Experience Cloud SDK-program måste en mobilapp konfigureras i Adobe Experience Platform Launch och konfigureras i Adobe Campaign. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
+Om du vill skicka push-meddelanden med ett Experience Cloud SDK-program måste en mobilapp konfigureras i Adobe Experience Platform Launch och konfigureras i Adobe Campaign. Se denna [sida](https://helpx.adobe.com/se/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign) för mer information om detta.
 
 ## Steg 2: Anpassa push-meddelanden i Adobe Campaign {#customize-push}
 
-Om du vill finjustera push-meddelanden kan du använda Adobe Campaign för att få tillgång till en uppsättning avancerade alternativ när du utformar ett push-meddelande.
+Med Adobe Campaign kan du finjustera push-meddelanden och få åtkomst till en uppsättning avancerade alternativ när du utformar ett push-meddelande.
 
-1. Skapa ett push-meddelande. For more on this, refer to this [page](../../channels/using/preparing-and-sending-a-push-notification.md).
+1. Skapa ett push-meddelande. Se denna [sida](../../channels/using/preparing-and-sending-a-push-notification.md) för mer information om detta.
 
 1. Från innehållssidan för push-meddelanden kommer du åt **[!UICONTROL Advanced options]** avsnittet.
 
 1. Ange URL-adressen till filen i **[!UICONTROL Rich media content URL]** fältet.
-För iOS 10 eller senare kan du infoga bild-, gif-, ljud- och videofiler.
+För iOS 10 eller senare versioner kan du infoga bild-, gif-, ljud- och videofiler.
 
    ![](assets/push_notif_advanced_6.png)
 
