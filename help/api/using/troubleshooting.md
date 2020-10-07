@@ -1,6 +1,6 @@
 ---
 title: Felsökning
-description: Läs mer om vanliga problem med programmeringsgränssnitten i Campaign Standard.
+description: Läs mer om vanliga problem med Campaign Standard-API:er.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -9,17 +9,18 @@ audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '355'
+ht-degree: 0%
 
 ---
 
 
 # Felsökning {#troubleshooting}
 
-* **När du går till Adobe.io Console visas följande fel: &quot;Adobe I/O-konsolen är bara tillgänglig för utvalda medlemmar i företagskonton. Kontakta systemadministratören om du anser att du bör ha åtkomst.&quot;**
+* **När du går till Adobe.io-konsolen visas följande fel: &quot;I/O-konsolen i Adobe är bara tillgänglig för att välja medlemmar i företagskonton. Kontakta systemadministratören om du anser att du bör ha åtkomst.&quot;**
 
 Du kan bara skapa API-nycklar för de IMS-organisationer som du administrerar. Om det här meddelandet visas och du vill skapa API-nycklar och du vill fråga en administratör för IMS-organisationen.
 
@@ -27,7 +28,7 @@ Du kan bara skapa API-nycklar för de IMS-organisationer som du administrerar. O
 
 Det innebär att det är något problem med IMS-etableringen av din specifika Campaign-produkt: IMS-teamet måste åtgärda det.
 
-Om du vill ha mer information kan du anropa IMS API med din token för att se hur din IMS-profil ser ut: Du måste ha en prodCtx där organisation_id är samma som den du angett i URL:en för att Adobe.io ska kunna dirigera din begäran.
+Om du vill ha mer information kan du anropa IMS API med din token för att se hur din IMS-profil ser ut: Du måste ha en prodCtx där organisation_id är samma som den du angav i URL:en för Adobe.io för att kunna dirigera din begäran.
 Om IMS-etableringen saknas måste den korrigeras.
 
 ```
@@ -79,7 +80,7 @@ I svaret måste värdet för ORGANIZATION_ID vara detsamma i din första GET-beg
 }
 ```
 
-* **När du skickar en begäran till Adobe.io får du {&quot;code&quot;:500,&quot;message&quot;:&quot;Oops. Något gick fel. Kontrollera din URI och försök igen.&quot;}**
+* **När du gör en begäran till Adobe.io får du {&quot;code&quot;:500, &quot;message&quot;:&quot;Oops. Något gick fel. Kontrollera din URI och försök igen.&quot;}**
 
 Adobe.io deklarerar din ogiltiga URI: Den URI som du begär är förmodligen inte giltig. När du väljer Campaign-tjänsten i Adobe.io får du en väljare med en lista över möjliga organisations_ids. Du måste kontrollera att den du väljer är den som du anger i URL:en.
 
