@@ -10,11 +10,9 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 1f6bb048-7abd-499b-a4b0-187f9492dc47
 context-tags: saveAudience,main
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 100%
 
@@ -52,7 +50,7 @@ Aktiviteten **[!UICONTROL Save audience]** används i huvudsak för att hålla p
       * **[!UICONTROL Complete audience with new data]**: Gammal målgruppsdata sparas och data från den sparade målgruppsaktivitetens inkommande övergång läggs till i den.
    * **[!UICONTROL Create then update an audience]**: Ange målgruppens namn och välj uppdateringstyp.  Om målgruppen inte redan finns så skapas den.  Om den redan finns så uppdateras den enligt det valda läget:
 
-      * **[!UICONTROL Replace audience content with new data]**: Hela målgruppsinnehållet ersätts. Gammal data går förlorad. Endast datan från den inkommande övergången av målgruppsaktiviteten för att spara sparas.
+      * **[!UICONTROL Replace audience content with new data]**: Hela målgruppsinnehållet ersätts. Gammal data går förlorad.  Endast datan från den inkommande övergången av målgruppsaktiviteten för att spara sparas.
 
          Varning! Det här alternativet raderar målgruppstypen och målgruppsdimensionen för den uppdaterade målgruppen.
 
