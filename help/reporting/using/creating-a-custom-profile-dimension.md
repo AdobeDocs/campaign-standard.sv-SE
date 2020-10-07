@@ -9,10 +9,11 @@ audience: reporting
 content-type: reference
 topic-tags: customizing-reports
 discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '813'
+ht-degree: 5%
 
 ---
 
@@ -36,7 +37,7 @@ Först måste vi skapa det nya profilfältet **Lojalitetsprogram** som tilldelar
 >
 >Anpassade resurser kan bara hanteras av en administratör.
 
-Så här gör du:
+För att göra detta:
 
 1. På den avancerade menyn väljer du **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]** och sedan den **[!UICONTROL Profile (profile)]** anpassade resursen.
 
@@ -58,15 +59,15 @@ Så här gör du:
 
    ![](assets/custom_profile_13.png)
 
-1. Ange **[!UICONTROL Label]** och **[!UICONTROL Value]** klicka sedan **[!UICONTROL Add]**. I det här exemplet måste vi skapa värdet guld, silver och brons. Klicka **[!UICONTROL Confirm]** när du är klar.
+1. Ange **[!UICONTROL Label]** och **[!UICONTROL Value]** klicka sedan **[!UICONTROL Add]**. I det här exemplet måste vi skapa värdet guld, silver och brons. Click **[!UICONTROL Confirm]** when done.
 
    ![](assets/custom_profile_14.png)
 
-1. Klicka på **[!UICONTROL Screen definition]** fliken. I den **[!UICONTROL Detail screen configuration]** nedrullningsbara menyn markerar du **[!UICONTROL Add personalized fields]** avsnittet för att skapa ett nytt avsnitt i vår profil.
+1. Klicka på fliken **[!UICONTROL Screen definition]**.  I den **[!UICONTROL Detail screen configuration]** nedrullningsbara menyn markerar du **[!UICONTROL Add personalized fields]** avsnittet för att skapa ett nytt avsnitt i vår profil.
 
    ![](assets/custom_profile_4.png)
 
-1. Klicka på **[!UICONTROL Add an element]** knappen för att skapa det nya avsnittet. Välj **[!UICONTROL Type]**: **[!UICONTROL Input field]**, **[!UICONTROL Value]** eller **[!UICONTROL List]**, det fält som ska läggas till i det nya avsnittet.
+1. Klicka på **[!UICONTROL Add an element]** knappen för att skapa det nya avsnittet. Välj **[!UICONTROL Type]**: **[!UICONTROL Input field]** eller **[!UICONTROL Value]** **[!UICONTROL List]** det fält som ska läggas till i det nya avsnittet.
 
    ![](assets/custom_profile_5.png)
 
@@ -89,7 +90,7 @@ Det nya profilfältet är nu klart att användas och markeras av dina mottagare.
 
 Nu när ditt profilfält har skapats måste vi utöka de sändande loggarna med vårt profilfält för att skapa den associerade anpassade profildimensionen i dynamiska rapporter.
 
-Innan du utökar loggen med vårt profilfält bör du kontrollera att PII-fönstret har accepterats för åtkomst till **[!UICONTROL Sending logs extension]** fliken. Mer information finns på den här [sidan](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+Innan du utökar loggen med vårt profilfält bör du kontrollera att PII-fönstret har accepterats för åtkomst till **[!UICONTROL Sending logs extension]** fliken. Se denna [sida](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) för mer information om detta.
 
 >[!NOTE]
 >
@@ -97,16 +98,16 @@ Innan du utökar loggen med vårt profilfält bör du kontrollera att PII-fönst
 
 1. På den avancerade menyn väljer du **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]** och sedan den **[!UICONTROL Profile (profile)]** anpassade resursen.
 1. Öppna **[!UICONTROL Sending logs extension]** listrutan.
-1. Klicka på **[!UICONTROL Create element]** knappen.
+1. Klicka på knappen **[!UICONTROL Create element]**.
 
    ![](assets/custom_profile_9.png)
 
-1. Markera det fält du skapat tidigare och klicka på **[!UICONTROL Confirm]**.
+1. Select your previously created field and click **[!UICONTROL Confirm]**.
 1. Markera **[!UICONTROL Add this field in Dynamic reporting as a new dimension]** för att skapa din anpassade profildimension.
 
    ![](assets/custom_profile_10.png)
 
-   Det här alternativet är bara tillgängligt om PII-fönstret har godkänts. Mer information finns på den här [sidan](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+   Det här alternativet är bara tillgängligt om PII-fönstret har godkänts. Se denna [sida](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) för mer information om detta.
 
 1. Klicka **[!UICONTROL Add]** och spara sedan din anpassade resurs.
 1. Eftersom den anpassade resursen ändrades måste den publiceras för att implementera de nya ändringarna.
@@ -125,7 +126,7 @@ Nu när fältet har skapats och loggen har utökats med det här profilfältet k
 
 När profilfältet har publicerats kan du påbörja leveransen. I det här exemplet vill vi inrikta oss på alla mottagare som är registrerade i lojalitetsprogrammet.
 
-1. Klicka på **[!UICONTROL Marketing activities]** fliken **[!UICONTROL Create]** och välj sedan **[!UICONTROL Email]**.
+1. På fliken **[!UICONTROL Marketing activities]**, klicka på **[!UICONTROL Create]** och välj sedan **[!UICONTROL Email]**.
 1. Välj och **[!UICONTROL Email type]** ange sedan e-postens egenskaper.
 1. Dra och släpp aktiviteten om du vill ha en målmottagare som är registrerad i lojalitetsprogrammet **[!UICONTROL Profiles (attributes)]** .
 1. Välj det fält du skapat tidigare i **[!UICONTROL Field]** listrutan.
@@ -137,9 +138,9 @@ När profilfältet har publicerats kan du påbörja leveransen. I det här exemp
    ![](assets/custom_profile_17.png)
 
 1. Klicka **[!UICONTROL Confirm]** sedan på **[!UICONTROL Next]** när du är klar med filtreringen.
-1. Definiera och anpassa meddelandeinnehåll, avsändarens namn och ämne. Mer information om hur du skapar e-postmeddelanden finns på den här [sidan](../../designing/using/designing-content-in-adobe-campaign.md).
+1. Definiera och anpassa meddelandeinnehåll, avsändarens namn och ämne. For more information on email creation refer to this [page](../../designing/using/designing-content-in-adobe-campaign.md).
 
-   Klicka sedan på **[!UICONTROL Create]**.
+   Then, click **[!UICONTROL Create]**.
 
 1. När det är klart kan du förhandsgranska och skicka meddelandet. Mer information om hur du förbereder och skickar meddelanden finns på den här [sidan](../../sending/using/preparing-the-send.md).
 
