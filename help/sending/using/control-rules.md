@@ -9,10 +9,11 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 discoiquuid: 305cadde-6424-4c6f-b11b-1e8bdbad6ef1
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f5054272683ed846b5e0a4e64ed20c49309f8d58
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '440'
+ht-degree: 3%
 
 ---
 
