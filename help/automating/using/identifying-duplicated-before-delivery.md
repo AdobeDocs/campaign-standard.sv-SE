@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: e7a5e1e7-4680-46c7-98b8-0a47bb7be2b8
 context-tags: dedup,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '285'
-ht-degree: 0%
+ht-degree: 78%
 
 ---
 
@@ -29,17 +27,17 @@ Arbetsflödet består av:
 
 ![](assets/deduplication_example_workflow.png)
 
-* En [fråga](../../automating/using/query.md) där du kan definiera målet för e-postmeddelandet. Här är arbetsflödet avsett för alla profiler mellan 18 och 25 år som har funnits i klientdatabasen i mer än ett år.
+* A [Query](../../automating/using/query.md) which allows you to define the target of the email. Här riktar sig arbetsflödet till alla profiler mellan 18 och 25 år som har funnits i klientdatabasen i mer än ett år.
 
    ![](assets/deduplication_example_query.png)
 
-* En [borttagning av dubbletter](../../automating/using/deduplication.md) , som gör att du kan identifiera dubbletter som kommer från föregående fråga. I det här exemplet sparas bara en post för varje dubblett. Duplikaterna identifieras med hjälp av e-postadressen. Det innebär att e-postleveransen bara kan skickas en gång för varje e-postadress som ska finnas i målgruppen.
+* A [Deduplication](../../automating/using/deduplication.md) activity, which allows you to identify the duplicates that come from the preceding query. I det här exemplet sparas bara en post för varje dubblett. Dubbletterna identifieras med e-postadressen. Det innebär att e-postleveransen bara kan skickas en gång för varje e-postadress som ska finnas i målgruppen.
 
-   Den valda dedupliceringsmetoden är **[!UICONTROL Non-empty value]**. På så sätt kan du se till att bland de poster som finns om det finns dubbletter, prioriteras de i vilka **förnamnet** har angetts. Detta gör det mer sammanhängande om förnamnet används i personaliseringsfälten i e-postinnehållet.
+   Den valda dedupliceringsmetoden är **[!UICONTROL Non-empty value]**. På så vis kan du se till att poster med **förnamn** som har dubbletter prioriteras. Detta gör det mer sammanhängande om förnamnet används i anpassningsfältet i e-postinnehållet.
 
    Dessutom läggs en extra övergång till för att behålla dubbletterna och kunna visa dem.
 
    ![](assets/deduplication_example_dedup.png)
 
-* En [e-postleverans](../../automating/using/email-delivery.md) som placeras efter den huvudsakliga utgående övergången för dedupliceringen.
-* A [Spara målgruppsaktivitet](../../automating/using/save-audience.md) som placerats efter den extra övergången av borttagningen av dubbletter för att spara dubbletterna i en publik med **dubbletter** . Den här målgruppen kan återanvändas för att direkt exkludera medlemmarna från alla e-postleveranser.
+* An [Email delivery](../../automating/using/email-delivery.md) placed after the main outbound transition of the deduplication.
+* A [Save audience](../../automating/using/save-audience.md) activity placed after the additional transition of the deduplication to save the duplicates in a **Duplicates** audience. Den här målgruppen kan återanvändas för att direkt exkludera medlemmarna från alla e-postleveranser.
