@@ -9,10 +9,11 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '141'
+ht-degree: 4%
 
 ---
 
@@ -30,4 +31,4 @@ De olika konfigurationerna är följande:
 
 Menyn **[!UICONTROL Channel]** grupperar de tekniska parametrar som är länkade till de olika programkanalerna (e-post, SMS) samt typologi och karantänhantering.
 
-Administratörer kan komma åt dessa konfigurationer på menyn **[!UICONTROL Administration]** > **[!UICONTROL Channels]** .
+Administrators can access these configurations in the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu.
