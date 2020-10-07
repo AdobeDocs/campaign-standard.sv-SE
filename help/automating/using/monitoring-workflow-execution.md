@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4cda0d3a3e65959091cd24bec8af434ab07519f6
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -33,7 +31,7 @@ Fliken innehåller **[!UICONTROL Log]** körningshistoriken för alla aktivitete
 
 ![](assets/wkf_execution_4.png)
 
-Fliken innehåller information om aktiviteternas körningssekvenser. **[!UICONTROL Tasks]** Klicka på en uppgift om du vill ha mer information.
+The **[!UICONTROL Tasks]** tab details the execution sequencing of the activities. Klicka på en uppgift om du vill ha mer information.
 
 ![](assets/wkf_execution_5.png)
 
@@ -43,7 +41,7 @@ I dessa två listor:
 * Med **[!UICONTROL Configure list]** knappen kan du välja vilken information som ska visas, definiera kolumnordningen och sortera listan.
 * Du kan använda filter för att hitta den information du behöver snabbare. Använd sökfältet för att söka efter en viss text i aktivitetsnamnen för arbetsflödet (till exempel: &quot;query&quot;) och loggar.
 
-## Felhantering {#error-management}
+## Error management {#error-management}
 
 När ett fel inträffar pausas arbetsflödet och aktiviteten som kördes när felet påträffades blinkar till rött.
 
@@ -63,7 +61,7 @@ Ytterligare alternativ för felhantering finns tillgängliga i [arbetsflödets e
 
 Möjliga alternativ är:
 
-* **[!UICONTROL Supervisors]**: Med kan du definiera gruppen med personer som ska meddelas (e-post och meddelanden i appen) om arbetsflödet stöter på ett fel. Om ingen grupp är definierad meddelas ingen. Mer information om meddelanden från Adobe Campaign finns i [Adobe Campaign-meddelanden](../../administration/using/sending-internal-notifications.md).
+* **[!UICONTROL Supervisors]**: Med kan du definiera gruppen med personer som ska meddelas (e-post och meddelanden i appen) om arbetsflödet stöter på ett fel. Om ingen grupp är definierad meddelas ingen. Mer information om Adobe Campaign-meddelanden finns i [Adobe Campaign-meddelanden](../../administration/using/sending-internal-notifications.md).
 
 * **[!UICONTROL In case of error]**: gör att du kan ange vilken åtgärd som ska utföras om aktiviteten stöter på ett fel. Det finns två alternativ:
 
