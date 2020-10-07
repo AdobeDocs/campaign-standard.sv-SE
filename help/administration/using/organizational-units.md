@@ -10,10 +10,11 @@ content-type: reference
 topic-tags: users-and-security
 discoiquuid: 6f60c653-1d12-4d27-9bc8-ce8c19bca466
 context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '807'
+ht-degree: 3%
 
 ---
 
@@ -26,9 +27,9 @@ Varje objekt och användare av plattformen är länkade till en organisationsenh
 
 >[!IMPORTANT]
 >
->Om en användare inte är länkad till någon enhet kan den användaren inte ansluta till Adobe Campaign. Om du vill begränsa åtkomsten för en viss användare eller grupp av användare ska du inte länka den till **[!UICONTROL All]** enheten.
+>Om en användare inte är länkad till någon enhet kommer den användaren inte att kunna ansluta till Adobe Campaign. Om du vill begränsa åtkomsten för en viss användare eller grupp av användare ska du inte länka den till **[!UICONTROL All]** enheten.
 >
->Organisationsenheten tilldelas som standard till **[!UICONTROL All (all)]****[!UICONTROL Administrators]** säkerhetsgruppen. Den är skrivskyddad och kan inte ändras.
+>**[!UICONTROL All (all)]** Organisationsenheten tilldelas som standard till **[!UICONTROL Administrators]** säkerhetsgruppen.  Den är skrivskyddad och kan inte ändras.
 
 En användare har skrivskyddad åtkomst till alla objekt i de överordnade enheterna. Han har läs- och skrivåtkomst till alla sina objekt i sin enhet och sina underordnade enheter. En användare har inte åtkomst till objekt i parallella grenar.
 
@@ -46,52 +47,52 @@ När användaren tilldelas en organisationsenhet används alltid den här enhete
 
 Med organisationsenheter kan du filtrera instansen beroende på vilken organisation användarna är länkade till. Den här enheten kan representera en region, ett land eller till och med ett varumärke i din instans.
 
-Här har vi tidigare skapat säkerhetsgrupper med olika roller för två användare: en användare tilldelas säkerhetsgrupperna Administratörer och Geometrixx, den andra användaren tillhör säkerhetsgrupperna Standard och Geometrixx Clothes Se [Skapa en säkerhetsgrupp och tilldela användare](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users) för det fullständiga exemplet.
+Här har vi tidigare skapat säkerhetsgrupper med olika roller för två användare: en användare tilldelas säkerhetsgrupperna Administratörer och Geometrixx, den andra användaren tillhör säkerhetsgrupperna Standard användare och Geometrixx Se [Skapa en säkerhetsgrupp och tilldela användare](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users) för det fullständiga exemplet.
 
-Vi måste nu skapa organisationsenheterna för säkerhetsgrupperna Geometrixx Clothes och Geometrixx:
+Nu måste vi skapa organisationsenheter för Geometrixx- och Geometrixx säkerhetsgrupper:
 
-1. Välj **[!UICONTROL Administration]** > **[!UICONTROL Users & security]** > **[!UICONTROL Organizational units]**.
+1. På Adobe-kampanjens avancerade meny väljer du **[!UICONTROL Administration]** > **[!UICONTROL Users & security]** > **[!UICONTROL Organizational units]**.
 1. Klicka **[!UICONTROL Create]** för att börja konfigurera din organisationsenhet.
 
    ![](assets/manage_units_1.png)
 
-1. Ändra standardvärdet **[!UICONTROL Label]** och **[!UICONTROL ID]** till Geometrixx.
+1. Ändra standardinställningen **[!UICONTROL Label]** och **[!UICONTROL ID]** till Geometrixx.
 1. Länka sedan den här enheten till en överordnad enhet. Här, vi valde **[!UICONTROL All]**.
 
    ![](assets/manage_units_2.png)
 
 1. Klicka slutligen på **[!UICONTROL Create]** för att börja tilldela din nya organisationsenhet till säkerhetsgruppen.
-1. Följ samma procedur för Geometrixx Clothes-enheten, förutom att dess överordnade enhet måste vara den tidigare skapade enheten, Geometrixx.
+1. Följ samma procedur för enheten Geometrixx Clothes, förutom att dess överordnade enhet måste vara den tidigare skapade enheten, Geometrixx.
 
    ![](assets/manage_units_3.png)
 
-För att se effekten av att tilldela olika enheter till olika säkerhetsgrupper kommer användaren som tilldelats administratörs- och Geometrixx-grupperna att skapa två e-postmallar för att se vad den andra användaren som tilldelats standardanvändare och Geometrixx-färger kan eller inte kan komma åt.
+För att se effekten av att tilldela olika enheter till olika säkerhetsgrupper skapar den användare som tilldelats administratörs- och Geometrixx-grupperna två e-postmallar för att se vad den andra användaren som tilldelats standardanvändare och Geometrixx kan eller inte kan komma åt.
 
 1. På den avancerade menyn väljer du **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery Templates]**.
-1. Duplicera en befintlig mall och anpassa den efter behov. Mer information finns i avsnittet [Om mallar](../../start/using/marketing-activity-templates.md) .
+1. Duplicera en befintlig mall och anpassa den efter behov. For more on this, refer to the [About templates](../../start/using/marketing-activity-templates.md) section.
 1. När mallen skapas väljer du **[!UICONTROL Edit properties]** ikonen för att tilldela enheter till mallen.
 
    ![](assets/manage_units_6.png)
 
 1. Välj organisationsenhet på den **[!UICONTROL Access authorization]** nedrullningsbara menyn.
 
-   Här ska vi skapa en mall med den tidigare skapade organisationsenheten Geometrixx.
+   Här ska vi skapa en mall med den tidigare skapade Geometrixx för organisationsenheter.
 
    ![](assets/manage_units_5.png)
 
-1. Följ samma procedurer för att skapa den andra mallen som tilldelats den tidigare skapade organisationsenheten Geometrixx Clothes.
+1. Följ samma procedurer för att skapa den andra mallen som tilldelats den tidigare skapade organisationsenheten för Geometrixx.
 
-Användaren som är tilldelad standardanvändar- och Geometrixx-färggrupperna kan se båda mallarna. På grund av organisationsenheternas hierarkiska struktur har han läs- och skrivåtkomst till mallen som är länkad till enheten Geometrixx Clothes och endast skrivskyddad åtkomst till mallen som är länkad till enheten Geometrixx.
+Användaren som är tilldelad standardgrupperna för användare och Geometrixx kan se båda mallarna. På grund av organisationsenheternas hierarkiska struktur har han läs- och skrivåtkomst till den mall som är länkad till Geometrixx Color-enheten och endast skrivskyddad åtkomst till den mall som är länkad till Geometrixx.
 
 ![](assets/manage_units_7.png)
 
-Eftersom enheten för Geometrixx-kläder är en underordnad enhet till Geometrixx visas följande meddelande när användaren försöker ändra mallen Geometrixx:
+Eftersom enheten för Geometrixx är en underordnad enhet till Geometrixx visas följande meddelande när användaren försöker ändra Geometrixx:
 
 ![](assets/manage_units_8.png)
 
-Organisationsenheter kan begränsa åtkomsten till olika funktioner som profiler. Om våra Geometrixx-kunder till exempel har åtkomst till fliken **[!UICONTROL Profiles]** , kan de få tillgång till och ändra profilerna med hjälp av organisationsenheten Geometrixx Clothes.
+Organisationsenheter kan begränsa åtkomsten till olika funktioner som profiler. Om t.ex. våra Geometrixx-användare har åtkomst till fliken **[!UICONTROL Profiles]** kan de få fullständig åtkomst till och ändra profilerna med organisationsenheten för Geometrixx.
 
-Profilerna med organisationsenheten Geometrixx blir skrivskyddade, men följande fel visas om användaren försöker ändra en profil: **[!UICONTROL You do not have the rights needed to modify the 'profile' resource of ID]**.
+Profilerna med organisationsenheten för Geometrixx kommer att vara skrivskyddade, men följande fel visas om användaren försöker ändra en profil: **[!UICONTROL You do not have the rights needed to modify the 'profile' resource of ID]**.
 
 ![](assets/manage_units_10.png)
 
@@ -107,7 +108,7 @@ Det går inte att komma åt profiler utan organisationsenheter.
 >
 >Vi rekommenderar att du lägger till det här alternativet innan du importerar några profiler. Om du redan har importerat din kunddatabas måste du uppdatera den för att kunna ange organisationsenhetsvärden för de redan importerade profilerna.
 
-1. På den avancerade menyn, via Adobe Campaign-logotypen, väljer du **Administration > Utveckling > Anpassade resurser**.
+1. På den avancerade menyn, via Adobe Campaign logotyp, väljer du **Administration > Utveckling > Anpassade resurser**.
 1. Välj **Profil** eller skapa en ny anpassad resurs för att utöka profilerna.
 1. Markera rutan **Lägg till åtkomstbehörighetshanteringsfält** för att lägga till organisationsenheterna i **profiltillägget** .
 
