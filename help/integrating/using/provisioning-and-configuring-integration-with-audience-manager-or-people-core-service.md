@@ -1,6 +1,6 @@
 ---
-title: Provisionering och konfigurering av integrering med huvudtjänsten Audience Manager eller People
-description: 'Lär dig hur du konfigurerar integreringen av bastjänsterna Audience Manager/Folk för att börja dela målgrupper eller segment med olika Adobe Experience Cloud-lösningar. '
+title: Etablering och konfigurering av integration med Audience Manager eller People Core Service
+description: 'Lär dig hur du konfigurerar integreringen av bastjänsterna mellan Audience Manager och människor för att börja dela målgrupper eller segment med olika Adobe Experience Cloud-lösningar. '
 page-status-flag: never-activated
 uuid: e7329644-0033-4729-b4a7-61bef137f4b5
 contentOwner: sauviat
@@ -9,24 +9,22 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: bd74905985734412b4fb11ad11d70faf9fcc9ca6
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
 
-# Provisionering och konfigurering av integrering med huvudtjänsten Audience Manager eller People{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
+# Etablering och konfigurering av integration med Audience Manager eller People Core Service{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
 
-Etablering och konfigurering av kärnan Audience Manager och People i Adobe Campaign utför två steg: [Skicka begäran till Adobe](#submitting-request-to-adobe) och sedan [Konfigurera integreringen i Adobe Campaign](#configuring-the-integration-in-adobe-campaign).
+Etablering och konfigurering av kärnan Audience Manager och People i Adobe Campaign sker i två steg: [Skickar begäran till Adobe](#submitting-request-to-adobe) och [konfigurerar sedan integreringen i Adobe Campaign](#configuring-the-integration-in-adobe-campaign).
 
 ## Skicka begäran till Adobe {#submitting-request-to-adobe}
 
-Med integreringen av bastjänsterna Audience Manager (AAM) och People kan du importera och exportera målgrupper eller segment i Adobe Campaign.
+Med integreringen av bastjänsterna Audience Manager (AAM) och People Core kan du importera och exportera målgrupper eller segment i Adobe Campaign.
 
 Den här integreringen måste först konfigureras. Om du vill begära provisionering av den här integreringen skriver du ett e-postmeddelande till [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) med följande information:
 
@@ -34,7 +32,7 @@ Den här integreringen måste först konfigureras. Om du vill begära provisione
  <tbody> 
   <tr> 
    <td> <strong>Typ av begäran:</strong><br /> </td> 
-   <td> Konfigurera integrering av AAM/People-bastjänst-Campaign </td> 
+   <td> Konfigurera AAM/kundtjänst - kampanjintegrering </td> 
   </tr> 
   <tr> 
    <td> <strong>Organisationsnamn:</strong><br /> </td> 
@@ -42,15 +40,15 @@ Den här integreringen måste först konfigureras. Om du vill begära provisione
   </tr> 
   <tr> 
    <td> <strong>IMS-organisations-ID</strong><br /> </td> 
-   <td> Ditt IMS-organisations-ID. <br> Du hittar ditt IMS-organisations-ID på Experience Cloud på menyn Administration. Det ingår också när du först ansluter till Adobe Experience Cloud. </td> 
+   <td> Ditt IMS-organisations-ID. <br> Du hittar ditt IMS-organisations-ID på Experience Cloud på menyn Administration. Den medföljer också när du ansluter till Adobe Experience Cloud första gången. </td> 
   </tr> 
   <tr> 
    <td> <strong>Miljö:</strong><br /> </td> 
    <td> Exempel: Produktion </td> 
   </tr> 
   <tr> 
-   <td> <strong>AAM eller People Service</strong><br /> </td> 
-   <td> Exempel: Adobe Audience Manager. Se till att tala om för provisioneringsteamet om du äger Audience Manager-licens eller inte.</td> 
+   <td> <strong>AAM eller persontjänst</strong><br /> </td> 
+   <td> Exempel: Adobe Audience Manager. Var noga med att tala om för provisioneringsteamet om du äger Audience Manager-licens eller inte.</td> 
   </tr> 
   <tr> 
    <td> <strong>Deklarerat ID eller besökar-ID</strong><br /> </td> 
@@ -65,7 +63,7 @@ Den här integreringen måste först konfigureras. Om du vill begära provisione
 
 ## Konfigurera integreringen i Adobe Campaign {#configuring-the-integration-in-adobe-campaign}
 
-När du har skickat in den här begäran fortsätter Adobe att distribuera integreringen åt dig och kontaktar dig för att ange information och information som du måste slutföra konfigurationen:
+När du har skickat in den här begäran fortsätter Adobe till att tillhandahålla integreringen åt dig och kontaktar dig för att ange information och information som du måste slutföra konfigurationen:
 
 * [Steg 1: Konfigurera eller kontrollera externa konton i Adobe Campaign](#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)
 * [Steg 2: Konfigurera datakällor](#step-2--configure-the-data-sources)
@@ -74,9 +72,9 @@ När du har skickat in den här begäran fortsätter Adobe att distribuera integ
 
 ### Steg 1: Konfigurera eller kontrollera externa konton i Adobe Campaign {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
 
-Först måste vi konfigurera eller kontrollera externa konton i Adobe Campaign. Dessa konton borde ha konfigurerats av Adobe och den nödvändiga informationen borde ha skickats till dig.
+Först måste vi konfigurera eller kontrollera externa konton i Adobe Campaign. Dessa konton borde ha konfigurerats av Adobe och ni borde ha fått den information som behövs.
 
-Så här gör du:
+För att göra detta:
 
 1. På den avancerade menyn väljer du **Administration > Programinställningar > Externa konton**.
 
@@ -104,7 +102,7 @@ Så här konfigurerar du **[!UICONTROL Recipient - Visitor ID (Defaultdatasource
 
    ![](assets/integration_aam_2.png)
 
-1. Välj **[!UICONTROL Adobe Campaign]** i **[!UICONTROL Data Source/ Alias]** listrutan.
+1. Choose **[!UICONTROL Adobe Campaign]** in the **[!UICONTROL Data Source/ Alias]** drop-down.
 1. Ange **[!UICONTROL AAM Destination ID]** information från Adobe.
 
    ![](assets/integration_aam_3.png)
