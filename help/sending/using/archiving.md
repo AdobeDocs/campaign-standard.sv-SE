@@ -1,6 +1,6 @@
 ---
 title: Arkivera meddelanden i Adobe Campaign Standard
-description: Lär dig hur du arkiverar e-post med Adobe Campaign Standard med hjälp av en e-postadress för en hemlig kopia.
+description: Lär dig hur du arkiverar e-postmeddelanden med Adobe Campaign Standard via en e-postadress från en webbläsare.
 page-status-flag: never-activated
 uuid: c3721647-0663-4614-a9c9-3b3a40af328a
 contentOwner: sauviat
@@ -9,17 +9,18 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 72366d56e21933bcd79e907e5f8d5a9ad5281725
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '367'
+ht-degree: 6%
 
 ---
 
 
 # Arkivering med e-postkopia{#archiving-emails}
 
-Du kan konfigurera Adobe Campaign så att det behåller en kopia av e-postmeddelanden som skickas från din plattform via e-postkopia.
+Du kan konfigurera Adobe Campaign att behålla en kopia av e-postmeddelanden som skickas från din plattform via e-post-BCC.
 
 Om din organisation behöver arkivera alla utgående e-postmeddelanden för att uppfylla kraven kan du aktivera den funktionen. Det gör att du kan skicka en exakt dold kopia av motsvarande skickade meddelanden till en e-postadress (osynlig för leveransmottagarna) som du måste ange.
 
@@ -29,10 +30,10 @@ När den är aktiverad måste du aktivera e-postkopia från alternativet **[!UIC
 >
 >Adobe Campaign hanterar inte själva arkiverade filer. Det gör att du kan skicka meddelanden till en dedikerad adress, varifrån de kan bearbetas och arkiveras i ett externt system.
 
-## Rekommendationer och begränsningar {#recommendations-and-limitations}
+## Recommendations och begränsningar {#recommendations-and-limitations}
 
-* Den här funktionen är valfri. Kontrollera licensavtalet och kontakta er kontoansvarige för att aktivera det.
-* Den valfria BCC-adressen måste skickas till Adobe-teamet som konfigurerar den åt dig.
+* Den här funktionen är valfri.  Kontrollera licensavtalet och kontakta eran kontoansvarige om du vill aktivera det.
+* Den valfria BCC-adressen måste anges till det Adobe-team som konfigurerar den åt dig.
 * Du kan bara använda en e-postadress för hemlig kopia.
 * Endast skickad e-post beaktas. Det är inte studsar.
 * Av sekretesskäl måste e-post från innehållsförteckningen behandlas av ett arkiveringssystem som kan lagra säkert personligt identifierbar information (PII).
@@ -49,7 +50,7 @@ När funktionen är aktiverad aktiveras e-postkopia i [e-postmallen](../../start
 1. Gå till **Resources** > **Templates** > **Delivery templates**.
 1. Duplicera den färdiga **[!UICONTROL Send via email]** mallen.
 1. Markera den duplicerade mallen.
-1. Klicka på **[!UICONTROL Edit properties]** knappen om du vill redigera mallens egenskaper.
+1. Click the **[!UICONTROL Edit properties]** button to edit the template&#39;s properties.
 1. Expandera avsnittet **[!UICONTROL Send]**.
 1. Markera **[!UICONTROL Archive emails]** rutan om du vill behålla en kopia av alla skickade meddelanden för varje leverans baserat på den här mallen.
 
