@@ -10,26 +10,24 @@ content-type: reference
 topic-tags: data-management-activities
 discoiquuid: 74a6df0e-fd85-4404-a42c-9a7406512717
 context-tags: setOfService,workflow,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '417'
-ht-degree: 0%
+ht-degree: 76%
 
 ---
 
 
 # Uppdatera flera prenumerationsstatusar från en fil {#updating-multiple-subscription-statuses-from-a-file}
 
-I det här exemplet visas hur du importerar en fil som innehåller profiler och uppdaterar deras prenumeration till flera tjänster som anges i filen. När filen har importerats måste en avstämning göras så att importerade data kan identifieras som profiler med en länk till tjänster. För att säkerställa att filen inte innehåller några dubbletter kommer en borttagningsåtgärd att utföras på data.
+Det här exemplet visar hur du importerar en fil som innehåller profiler och uppdaterar deras prenumeration till flera tjänster som anges i filen. När filen har importerats måste en avstämning göras så att de importerade data kan identifieras som profiler med en länk till tjänster. En borttagningsåtgärd utförs på dessa data för att säkerställa att filen inte innehåller några dubbletter.
 
 Arbetsflödet presenteras på följande sätt:
 
 ![](assets/subscription_activity_example1.png)
 
-* En [Läs in fil](../../automating/using/load-file.md) -aktivitet läser in profilfilen och definierar strukturen för de importerade kolumnerna.
+* A [Load file](../../automating/using/load-file.md) activity loads the profile file and defines the structure of the imported columns.
 
    I det här exemplet är den inlästa filen i CSV-format och innehåller följande data:
 
@@ -48,26 +46,26 @@ Arbetsflödet presenteras på följande sätt:
 
    ![](assets/subscription_example_load_file.png)
 
-   Som du kanske har märkt anges åtgärden i filen som &quot;sub&quot; eller &quot;unsub&quot;. Systemet förväntar sig ett **booleskt** eller **heltalsvärde** som identifierar åtgärden som ska utföras: &quot;0&quot; för att avsluta prenumerationen och &quot;1&quot; för att prenumerera. För att matcha detta krav görs en ommappning av värden i detalj i kolumnen operation.
+   Som du kanske har märkt anges åtgärden i filen som &quot;sub&quot; eller &quot;unsub&quot;. Systemet förväntar sig ett **booleskt värde** eller **heltalsvärde** som identifierar åtgärden som ska utföras: &quot;0&quot; för att avprenumerera och &quot;1&quot; för att prenumerera. En ommappning av värden görs i detaljen i kolumnen &quot;operation&quot; för att matcha detta krav.
 
    ![](assets/subscription_example_remapping.png)
 
-   Om filen redan använder &quot;0&quot; och &quot;1&quot; för att identifiera åtgärden behöver du inte mappa om dessa värden. Kontrollera bara att kolumnen bearbetas som ett **booleskt värde** eller **heltal** på **[!UICONTROL Column definition]** fliken.
+   Om filen redan använder &quot;0&quot; och &quot;1&quot; för att identifiera operationen behöver du inte mappa om dessa värden. Kontrollera bara att kolumnen bearbetas som ett **booleskt värde** eller **heltalsvärde** på fliken **[!UICONTROL Column definition]**.
 
-* En [avstämningsaktivitet](../../automating/using/reconciliation.md) identifierar data från filen som tillhör profildimensionen i Adobe Campaign-databasen. Via **[!UICONTROL Identification]** fliken matchas filens **e-postfält** mot profilresursens **e-postfält** .
+* A [Reconciliation](../../automating/using/reconciliation.md) activity identifies the data from the file as belonging to the profile dimension of the Adobe Campaign database. Via fliken **[!UICONTROL Identification]** matchas filens **e-postfält** mot profilresursens **e-postfält**.
 
    ![](assets/subscription_activity_example3.png)
 
-   På **[!UICONTROL Relations]** fliken skapas en länk med tjänstresursen som gör att filens **tjänstfält** kan identifieras. I det här exemplet matchar värdena tjänstresursens **namnfält** .
+   På fliken **[!UICONTROL Relations]** skapas en länk med tjänstresursen som gör att filens **tjänstfält** kan identifieras. I det här exemplet matchar värdena tjänstresursens **namnfält**.
 
    ![](assets/subscription_example_service_relation.png)
 
-* En [borttagning](../../automating/using/deduplication.md) av dubbletter som baseras på **e-postfältet** för den tillfälliga resursen (som är ett resultat av avstämningen) identifierar dubbletter. Det är viktigt att ta bort dubbletter eftersom prenumerationen på en tjänst misslyckas för alla data om dubbletter förekommer.
+* A [Deduplication](../../automating/using/deduplication.md) based on the **email** field of the temporary resource (resulting from the reconciliation) identifies duplicates. Det är viktigt att ta bort dubbletter eftersom prenumerationen på en tjänst misslyckas för alla data om dubbletter förekommer.
 
    ![](assets/subscription_activity_example5.png)
 
-* En [prenumerationstjänstaktivitet](../../automating/using/subscription-services.md) identifierar de tjänster som ska uppdateras efter övergången via länken som skapas i **[!UICONTROL Reconciliation]** aktiviteten.
+* A [Subscription Services](../../automating/using/subscription-services.md) activity identifies the services to update as coming from the transition, through the link created in the **[!UICONTROL Reconciliation]** activity.
 
-   Det **[!UICONTROL Operation type]** identifieras som att det kommer från **åtgärdsfältet** i filen. Endast booleska fält eller heltalsfält kan markeras här. Om kolumnen i filen som innehåller åtgärden som ska utföras inte visas i listan, kontrollerar du att du har angett kolumnformatet korrekt i **[!UICONTROL Load file]** aktiviteten, vilket förklaras ovan i det här exemplet.
+   **[!UICONTROL Operation type]** identifieras som att det kommer från fältet **operation** i filen. Endast fälten Booleskt värde eller Heltalsvärde kan markeras här. Om kolumnen i filen som innehåller åtgärden som ska utföras inte visas i listan, ska du kontrollera att du har angett kolumnformatet korrekt i **[!UICONTROL Load file]**-aktiviteten, vilket förklaras ovan i det här exemplet.
 
    ![](assets/subscription_activity_example_from_file.png)
