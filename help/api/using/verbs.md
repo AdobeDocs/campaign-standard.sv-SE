@@ -1,6 +1,6 @@
 ---
 title: GET / POST / PATCH / DELETE verb
-description: Läs mer om verberna som används i programmeringsgränssnitten i Campaign Standard.
+description: Läs mer om verberna som används i Campaign Standard-API:er.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '129'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +33,7 @@ Följande verb kan användas för åtgärder på resurserna:
 
 ***Exempelbegäranden***
 
-* Exempel på GET-begäran i profilsamlingen.
+* Exempel på GET-förfrågan i profilsamlingen.
 
 
    ```
@@ -68,7 +69,7 @@ Följande verb kan användas för åtgärder på resurserna:
    }
    ```
 
-* Exempel på GET-begäran för en viss profil.
+* Exempel på GET-förfrågan för en viss profil.
 
 
    ```
@@ -94,7 +95,7 @@ Följande verb kan användas för åtgärder på resurserna:
    }
    ```
 
-* Exempelbegäran POST för att skapa en profil.
+* Exempelbegäran om POST för att skapa en profil.
 
 
    ```
@@ -118,7 +119,7 @@ Följande verb kan användas för åtgärder på resurserna:
    }
    ```
 
-* Exempel på PATCH-begäran om att uppdatera en profil.
+* Exempelbegäran från PATCH om att uppdatera en profil.
 
    ```
    -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -138,7 +139,7 @@ Följande verb kan användas för åtgärder på resurserna:
    }
    ```
 
-* Exempel på DELETE-begäran om att ta bort en profil.
+* Exempelbegäran från DELETE om att ta bort en profil.
 
    ```
    -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
