@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1280'
+ht-degree: 50%
 
 ---
 
@@ -62,7 +60,8 @@ Om du är en expertanvändare och vill definiera de specifika konfigurationerna,
 
 >[!NOTE]
 >Om du vill använda funktionen för push-meddelanden från Kampanjer så måste du tillhandahålla ett giltigt push-certifikat i .pem-format utan lösenord.
-Om du har ett giltigt p12-certifikat kan du enkelt konvertera det till en .pem-fil med hjälp av onlineresurser.
+>
+>Om du har ett giltigt p12-certifikat kan du enkelt konvertera det till en .pem-fil med hjälp av onlineresurser.
 
 Innan du skickar ett push-meddelanden bör du:
 
