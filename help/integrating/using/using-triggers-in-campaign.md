@@ -9,13 +9,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: dddd147d01f935ec6f1513c5f92bddf6e789abb1
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '725'
-ht-degree: 86%
+ht-degree: 87%
 
 ---
 
@@ -24,7 +22,7 @@ ht-degree: 86%
 
 ## Skapa en mappad utlösare i Campaign {#creating-a-mapped-trigger-in-campaign}
 
-Du ska se till att definiera de beteenden som du vill övervaka i förväg i Adobe Experience Cloud (**[!UICONTROL Triggers]**-bastjänst). Mer information finns i dokumentationen för [Adobe Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/activation/triggers.html). Observera att när du definierar utlösaren måste du aktivera aliasen. För varje beteende (surfning/formulärborttagning, tillägg/borttagning av produkter, session har gått ut, o.s.v.) måste en ny utlösare läggas till i Adobe Experience Cloud.
+Du ska se till att definiera de beteenden som du vill övervaka i förväg i Adobe Experience Cloud (**[!UICONTROL Triggers]**-bastjänst). Mer information finns i dokumentationen för [Adobe Experience Cloud](https://docs.adobe.com/content/help/sv-SE/core-services/interface/activation/triggers.html). Observera att när du definierar utlösaren måste du aktivera aliasen. För varje beteende (surfning/formulärborttagning, tillägg/borttagning av produkter, session har gått ut, o.s.v.) måste en ny utlösare läggas till i Adobe Experience Cloud.
 
 Nu måste du skapa en utlösande händelse i Adobe Campaign baserat på en befintlig Adobe Experience Cloud-utlösare.
 
