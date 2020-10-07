@@ -9,18 +9,16 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: efc61bcf790ab35a0e4a3e8a19b0fc42d8459c61
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '87'
-ht-degree: 14%
+ht-degree: 19%
 
 ---
 
 
-# Övervaka händelsevariabler {#monitoring-the-events-variables}
+# Övervaka händelsevariablerna {#monitoring-the-events-variables}
 
 Det är möjligt att övervaka de händelsevariabler som är tillgängliga i arbetsflödet, inklusive de deklarerade externa parametrarna. Följ stegen nedan för att göra detta:
 
