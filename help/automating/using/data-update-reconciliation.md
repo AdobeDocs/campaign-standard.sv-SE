@@ -1,6 +1,6 @@
 ---
 title: Datauppdatering med avstämning
-description: I följande exempel visas ett arbetsflöde som skapar en publik med profiler direkt från en importerad fil som innehåller nya klienter.
+description: 'I följande exempel visas ett arbetsflöde som skapar en publik med profiler direkt från en importerad fil som innehåller nya klienter.  '
 page-status-flag: never-activated
 uuid: 7884db8c-1717-4724-be15-3b0b32ccc071
 contentOwner: sauviat
@@ -10,24 +10,22 @@ content-type: reference
 topic-tags: data-management-activities
 discoiquuid: cb8c43f4-9cdd-4e85-99a4-004b36b336aa
 context-tags: reconciliation,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 175709a41607bb9d64da7fac77dd749fa84f7360
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '128'
-ht-degree: 0%
+ht-degree: 67%
 
 ---
 
 
 # Datauppdatering med avstämning {#data-update-reconciliation}
 
-I följande exempel visas ett arbetsflöde som skapar en publik med profiler direkt från en importerad fil som innehåller nya klienter. Den består av följande verksamheter:
+I följande exempel visas ett arbetsflöde som skapar en publik med profiler direkt från en importerad fil som innehåller nya klienter.  Den består av följande verksamheter:
 
 ![](assets/identification_example2.png)
 
-* En [Läs in filaktivitet](../../automating/using/load-file.md) , som läser in och identifierar data från filen som ska importeras. Den importerade filen innehåller följande data:
+* A [Load file](../../automating/using/load-file.md) activity, which loads and detects tshe data of the file to import. Den importerade filen innehåller följande data:
 
    ```
    lastname;firstname;email;dateofbirth
@@ -42,10 +40,10 @@ I följande exempel visas ett arbetsflöde som skapar en publik med profiler dir
    tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
    ```
 
-* En [avstämningsaktivitet](../../automating/using/reconciliation.md) , som länkar varje kolumn i den inlästa filen till en profildimensionskolumn. Filposterna som inte kan identifieras (data saknas, inkompatibel datatyp osv.) ignoreras för att bevara integriteten i den slutliga målgruppsinformationen.
+* A [Reconciliation](../../automating/using/reconciliation.md) activity, which links each column of the loaded file to a profile dimension column. Filposterna som inte kan identifieras (data saknas, inkompatibel datatyp etc.)  ignoreras för att bevara integriteten i den slutliga målgruppsinformationen.
 
    ![](assets/identification_example1.png)
 
-* A [Save audience](../../automating/using/save-audience.md) activity, which save the audition of profiles.
+* A [Save audience](../../automating/using/save-audience.md) activity, which saves the audience of profiles.
 
    ![](assets/identification_example3.png)
