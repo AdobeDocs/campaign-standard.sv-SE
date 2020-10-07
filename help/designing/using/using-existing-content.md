@@ -9,18 +9,19 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '1210'
+ht-degree: 4%
 
 ---
 
 # Designa med befintligt innehåll {#designing-using-existing-content}
 
-## Välja ett befintligt innehåll{#selecting-an-existing-content}
+## Selecting an existing content{#selecting-an-existing-content}
 
-Adobe Campaign innehåller en uppsättning fördefinierade innehåll som hjälper er att komma igång. Du kan använda någon av dessa eller, om innehållet i det meddelande du vill skicka förbereds utanför Adobe Campaign, importera det från din dator eller från en URL-adress.
+Adobe Campaign innehåller en uppsättning fördefinierade innehåll som hjälper dig att komma igång. Du kan använda någon av dessa eller, om innehållet i det meddelande du vill skicka förbereds utanför Adobe Campaign, importera det från datorn eller en URL-adress.
 
 När du skapar ett e-postmeddelande eller en landningssida kan du välja att läsa in ett befintligt innehåll från en annan källa.
 
@@ -39,6 +40,7 @@ När du skapar ett e-postmeddelande eller en landningssida kan du välja att lä
    * [Innehåll från scratch](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch), för att börja om: klicka på **[!UICONTROL Create]** knappen.
    * [Innehåll från datorn som en ZIP- eller HTML-fil](#importing-content-from-a-file): klicka på **[!UICONTROL Upload]** knappen.
    * [Innehåll från en befintlig URL](#importing-content-from-a-url) (endast för e-post): klicka på **[!UICONTROL Import from URL]** knappen.
+
    ![](assets/des_loading_2.png)
 
 1. Läs in innehållet. Det markerade innehållet ersätter det aktuella innehållet.
@@ -64,7 +66,7 @@ Information om hur du gör ett befintligt externt innehåll fullt redigerbart i 
 
 ## Importera befintligt e-postinnehåll {#importing}
 
-### Importera innehåll från en fil {#importing-content-from-a-file}
+### Importing content from a file {#importing-content-from-a-file}
 
 Klicka på knappen för att överföra en fil från datorn på startsidan för e-postdesignern och bekräfta sedan på **[!UICONTROL Upload]** den.
 
@@ -79,7 +81,7 @@ Följande format kan importeras:
 >
 >För e-postinnehåll rekommenderar vi att du importerar enstaka HTML-filer med en inbyggd formatmall.
 
-#### Importera innehåll från en URL {#importing-content-from-a-url}
+#### Importing content from a URL {#importing-content-from-a-url}
 
 Innan du importerar innehåll från en URL måste du kontrollera att det uppfyller kraven nedan:
 
@@ -126,7 +128,7 @@ Följ stegen nedan för att hämta innehåll vid förberedelsetiden:
 
 1. Om du vill förhandsgranska URL-innehållet som har hämtats öppnar du meddelandet när det har skapats och klickar sedan på **[!UICONTROL Preview]** .
 
-Det går att anpassa den fjärr-URL som innehållet hämtas från. Gör så här:
+Det går att anpassa den fjärr-URL som innehållet hämtas från. Följ stegen nedan för att göra detta:
 
 1. Klicka på e-postetiketten högst upp på skärmen för att komma åt **[!UICONTROL Properties]** fliken E-postdesigner.
 1. Hitta **[!UICONTROL Remote URL]** fältet.
