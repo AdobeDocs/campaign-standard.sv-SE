@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '215'
+ht-degree: 8%
 
 ---
 
@@ -21,20 +22,20 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 >[!CAUTION]
 >
->Integriteten i [bastjänstens](https://adobe.io/apis/cloudplatform/gdpr.html) integrering är den metod du bör använda för alla förfrågningar om åtkomst och borttagning. Från och med 19.4 är användningen av Campaign-API:t och gränssnittet för begäran om åtkomst och borttagning föråldrad. Mer information om borttagna och borttagna funktioner i Campaign Standard finns på [den här sidan](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
+>Integriteten i [bastjänstens](https://adobe.io/apis/cloudplatform/gdpr.html) integrering är den metod du bör använda för alla förfrågningar om åtkomst och borttagning. Från och med 19.4 är användningen av Campaign-API:t och gränssnittet för begäran om åtkomst och borttagning föråldrad. Mer information om borttagna och borttagna funktioner för Campaign Standard finns på [den här sidan](https://helpx.adobe.com/se/campaign/kb/acs-deprecated-and-removed-features.html).
 
-Sekretessbegäranden skapas med en **POST** -begäran.
+Sekretessbegäranden skapas med en **POST** .
 
-Innan du skapar begäranden måste du definiera det namnutrymme som du ska använda. Mer information finns i dokumentationen [om](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)sekretesshantering.
+Innan du skapar begäranden måste du definiera det namnutrymme som du ska använda. Mer information finns i dokumentationen [om](https://helpx.adobe.com/se/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)sekretesshantering.
 
 Nyttolasten måste innehålla följande parametrar:
 
 * **namn**: ett unikt internt namn
-* **namnutrymme**: namnområdesnamnet som konfigurerats i Campaign Standard-gränssnittet
+* **namnutrymme**: namnområdesnamnet som konfigurerats i Campaign Standardens gränssnitt
 * **Avstämningsvärde**: avstämningsvärdet baserat på avstämningsnyckeln som definierats i namnutrymmet
 * **label**: begäranetikett
 * **typ**: begärandetypen. Godkända värden är &quot;access&quot; eller &quot;delete&quot;.
-* **regel**: Regeltyp. Exempel: &quot;GDPR&quot;, &quot;CCPA&quot;. Den här parametern är obligatorisk och tillgänglig från och med Campaign Standard 19.4. Om du använder en äldre version behöver du inte lägga till den i din nyttolast.
+* **regel**: Regeltypen. Exempel: &quot;GDPR&quot;, &quot;CCPA&quot;. Den här parametern är obligatorisk och tillgänglig från och med Campaign Standard 19.4. Om du använder en äldre version behöver du inte lägga till den i din nyttolast.
 
 <br/>
 
@@ -59,7 +60,7 @@ Denna POST-begäran skapar en sekretessbegäran baserad på en e-postavstämning
 }
 ```
 
-Svar på POST-begäran.
+Svar på begäran om POST.
 
 ```
 {
