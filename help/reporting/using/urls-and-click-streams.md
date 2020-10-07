@@ -10,10 +10,11 @@ content-type: reference
 topic-tags: list-of-reports
 discoiquuid: 9349de98-6b77-4d1c-b2fe-cf44cdcd07ce
 context-tags: deliveryTopUrlReport,main;campaignTopUrlReport,main;programTopUrlReport,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '116'
+ht-degree: 6%
 
 ---
 
