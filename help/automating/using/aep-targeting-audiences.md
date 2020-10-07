@@ -9,10 +9,8 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 5%
@@ -69,6 +67,6 @@ Du kan nu konfigurera ditt arbetsflöde med andra aktiviteter. Du kan till exemp
 Mer information om hur du använder arbetsflöden och leveranser finns i följande avsnitt:
 
 * [Identifiera arbetsflöden](../../automating/using/get-started-workflows.md)
-* [Skapa ett arbetsflöde](../../automating/using/building-a-workflow.md)
+* [Bygga ett arbetsflöde](../../automating/using/building-a-workflow.md)
 * [Identifiera kommunikationskanaler](../../channels/using/get-started-communication-channels.md)
 * [Om kanalaktiviteter](../../automating/using/about-channel-activities.md)
