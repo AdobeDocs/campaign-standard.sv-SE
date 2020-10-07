@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '112'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +22,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ## Metod 1: Prenumerera på en profil för en tjänst
 
-Utför en GET-begäran för att hämta profilen.
+Utför en GET-förfrågan för att hämta profilen.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -45,7 +46,7 @@ Den returnerar prenumerations-URL:en för profilen.
   }
 ```
 
-Utför en POST-begäran på prenumerations-URL:en med den önskade tjänstens primärnyckel inuti nyttolasten.
+Utför en begäran om POST på prenumerations-URL:en med den önskade tjänstens primärnyckel inuti nyttolasten.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -74,7 +75,7 @@ Den returnerar den uppdaterade profilen med tjänstnoden klar.
 
 ## Metod 2: Lägga till en profil till en tjänsts prenumeranter
 
-Utför en GET-begäran för att hämta tjänsten.
+Utför en GET-förfrågan för att hämta tjänsten.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -98,7 +99,7 @@ Den returnerar prenumerations-URL:en för tjänsten.
   },
 ```
 
-Gör en POST-begäran på prenumerations-URL:en med den önskade profilen Primärnyckel inuti nyttolasten.
+Begär en POST på prenumerations-URL:en med den önskade profilens primärnyckel inuti nyttolasten.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign//profileAndServices/service/<PKEY>/subscriptions/ \
