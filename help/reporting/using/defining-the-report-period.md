@@ -9,10 +9,11 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 discoiquuid: 8ff74630-860c-4f1c-9aa7-21c3326e47da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 44049443f8028ed26089ee0d49944ebac6a62111
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '204'
+ht-degree: 3%
 
 ---
 
@@ -25,6 +26,6 @@ Som standard anges filterperioden till start- och slutdatumet för programmet el
 
 Om du vill ändra filtret väljer du ett startdatum och en period eller använder den förinställda tidsperioden som den senaste veckan, för två månader sedan osv.
 
-Rapporten uppdateras automatiskt när ett filter används eller ändras. Den valda rapportperioden styr händelserna som inträffade under perioden, inte hela datauppsättningen för de leveranser som skapades under intervallet, t.ex. om en leverans gjordes från den 1 januari till den 5 januari och rapportperioden är den 1 januari till den 2 januari, kan du se partiella data. Detta kan påverka antalet öppna/klickningar eftersom öppnings- eller klickningar kan inträffa en månad efter att leveransen skickades.
+Rapporten uppdateras automatiskt när ett filter används eller ändras. Den valda rapportperioden styr händelserna som inträffade under perioden, inte hela datauppsättningen för de leveranser som skapades under intervallet, t.ex. om en leverans gjordes från den 1 januari till den 5 januari och rapportperioden är den 1 januari till den 2 januari, kan du se partiella data. Detta kan påverka antalet öppna/klickningar eftersom öppning eller klick kan inträffa en månad efter att leveransen skickades.
 
 ![](assets/campaign_reports_5.png)
