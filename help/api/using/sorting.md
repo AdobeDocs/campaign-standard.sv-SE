@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '89'
+ht-degree: 11%
 
 ---
 
@@ -21,13 +22,13 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 
 Sorteringen är tillgänglig i stigande eller fallande ordning. Om du vill göra det använder du parametern **%20desc** eller **%20asc** .
 
-Om du vill veta om ett fält kan sorteras kontrollerar du parametern &quot;sorterable&quot; i metadata för resursen. For more on this, refer to [this section](../../api/using/metadata-mechanism.md).
+Om du vill veta om ett fält kan sorteras kontrollerar du parametern &quot;sorterable&quot; i metadata för resursen. Mer information om detta finns i [det här avsnittet](../../api/using/metadata-mechanism.md).
 
 <br/>
 
 ***Exempelbegäranden***
 
-* Exempel på GET-begäran för att hämta e-post i databasen i bokstavsordning.
+* Exempelbegäran om GET för att hämta e-post i databasen i alfabetisk ordning.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email/email?_order=email \
@@ -52,7 +53,7 @@ Om du vill veta om ett fält kan sorteras kontrollerar du parametern &quot;sorte
    }
    ```
 
-* Exempel på GET-begäran för att hämta e-postmeddelandet i databasen i fallande alfaordning.
+* Exempelbegäran om GET för att hämta e-postmeddelandet i databasen i fallande alfaordning.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email%20desc \
