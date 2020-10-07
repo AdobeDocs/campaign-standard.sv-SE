@@ -1,6 +1,6 @@
 ---
 title: Styra e-postinnehåll i Adobe Campaign Standard
-description: Lär dig hur ni kan förbättra leveransen i Adobe Campaign Standard när ni redigerar ert e-postinnehåll.
+description: Lär dig hur du kan förbättra leveransen i Adobe Campaign Standard när du redigerar e-postinnehåll.
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -10,10 +10,11 @@ content-type: reference
 topic-tags: sheduling-messages
 discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '741'
+ht-degree: 7%
 
 ---
 
@@ -47,7 +48,7 @@ När du redigerar ett e-postmeddelande kan du testa olika ämnesrader och få en
 
 Mer information om hur du definierar ämnesraden i ett e-postmeddelande finns i [det här avsnittet](../../designing/using/subject-line.md).
 
-## Tidsoptimering för sändning {#send-time-optimization}
+## Send time optimization {#send-time-optimization}
 
 Om du vill förbättra antalet meddelanden som skickas kan du definiera en sändningstid per mottagare manuellt. Varje profil får meddelandet vid det angivna datumet och den angivna tidpunkten, när det är möjligt.
 
@@ -65,7 +66,7 @@ Som allmän regel ska du inte försöka hindra mottagare som vill avanmäla sig 
 
 ## Analys av skräppostskydd {#anti-spam-analysis}
 
-Adobe Campaigns meddelanderedigerare integrerar en **skräppostanalys** som gör att ni kan få e-postpoäng för att avgöra om ett meddelande löper risk att betraktas som skräppost av de skräppostverktyg som används vid mottagande. Mer information finns i [Förhandsvisa meddelanden](../../sending/using/previewing-messages.md).
+Adobe Campaign meddelanderedigerare integrerar en **skräppostanalys** som gör att du kan göra e-postpoäng för att avgöra om ett meddelande löper risk att betraktas som skräppost av de skräppostverktyg som används vid mottagande. For more on this, see [Previewing messages](../../sending/using/previewing-messages.md).
 
 Klicka på i meddelandets innehållsredigerare **[!UICONTROL Preview]**. Ett meddelande varnar dig om skräppostkontrollen har upptäckt en hög risk för det här meddelandet. Klicka **[!UICONTROL Anti-spam analysis]** för att visa information.
 
@@ -77,6 +78,6 @@ Innan du skickar meddelandet kan du kontrollera hur meddelandet kommer att se ut
 
 Adobe Campaign hämtar återgivningen och gör den tillgänglig i en dedikerad rapport. På så sätt kan du förhandsgranska det skickade meddelandet i olika sammanhang där det kan tas emot.
 
-Mer information finns i [E-poståtergivning](../../sending/using/email-rendering.md).
+Se [E-poståtergivning](../../sending/using/email-rendering.md) för mer information.
 
 ![](assets/inbox_rendering_report_3.png)
