@@ -1,5 +1,5 @@
 ---
-title: Mappa anpassade resurser för Campaign och anpassade Dynamics 365-entiteter
+title: Mappa anpassade resurser för Campaign och anpassade entiteter i Dynamics 365
 description: Lär dig hur du mappar resurser och enheter i samband med integreringen mellan Adobe Campaign Standard och Microsoft Dynamics 365.
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -9,13 +9,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e11de4d4482400e62be2db076c88da5ae30d60cc
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '457'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -26,7 +24,7 @@ Lär dig hur du mappar anpassade resurser och anpassade enheter i samband med in
 
 >[!CAUTION]
 >
->Den här funktionen är inte tillgänglig som en del av produkten. För genomförandet krävs att Adobe Consulting är engagerat. Kontakta din Adobe-representant om du vill veta mer.
+>Den här funktionen är inte tillgänglig som en del av produkten. För implementering krävs att Adobe Consulting används. Kontakta din Adobe-representant för mer information.
 
 ## Förhandskrav
 
