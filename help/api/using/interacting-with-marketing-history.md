@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e60ec7790da46d234b66baf4c3db23815056b9fb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '147'
+ht-degree: 10%
 
 ---
 
@@ -20,17 +21,17 @@ source-git-commit: e60ec7790da46d234b66baf4c3db23815056b9fb
 # Interaktion med marknadsföringshistorik {#interacting-with-marketing-history}
 
 Med **händelsens** slutpunkt kan du interagera med en profils marknadsföringshistorik.
-På så sätt kan du till exempel enkelt hämta spegelsidan för en leverans som skickades till en profil. Gör så här:
+På så sätt kan du till exempel enkelt hämta spegelsidan för en leverans som skickades till en profil. Följ stegen nedan för att göra detta:
 
 1. Utför en GET med **historikslutpunkten** och profilens primärnyckel.
-1. Utför en GET-begäran på de returnerade **händelserna** href.
+1. Utför en GET-begäran på den returnerade **händelsens** href.
 1. Den returnerar listan med händelser för profilen med länkar till spegelsidor i noden **mirrorPage** .
 
 <br/>
 
 ***Exempelbegäran***
 
-Hämta profilens marknadsföringshistorik med en GET-begäran.
+Hämta profilens marknadsföringshistorik med en GET-förfrågan.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/history/"<PKEY>" \
