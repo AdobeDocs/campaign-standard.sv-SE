@@ -9,13 +9,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3590fd42e4692df6bba21ac721568ae60dfcdd65
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
@@ -28,7 +26,7 @@ Versioner som stöds listas [i det här avsnittet](#support-software-versions).
 
 >[!CAUTION]
 >
->Den här funktionen är inte tillgänglig som en del av produkten. För genomförandet krävs att Adobe Consulting är engagerat. Kontakta din Adobe-representant om du vill veta mer.
+>Den här funktionen är inte tillgänglig som en del av produkten. För implementering krävs att Adobe Consulting används. Kontakta din Adobe-representant för mer information.
 
 ## Principer
 
