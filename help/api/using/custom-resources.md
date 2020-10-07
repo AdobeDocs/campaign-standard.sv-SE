@@ -9,17 +9,18 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 538739417c4ed28ff2991186dac5fb69d1af3afd
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '204'
+ht-degree: 5%
 
 ---
 
 
 # Anpassade resurser {#custom-resources}
 
-Adobe Campaign innehåller en fördefinierad datamodell där data definieras med olika resurser. Du kan utöka datamodellen som tillhandahålls genom att utöka resurserna för att lägga till egna anpassade fält eller anpassade tabeller, till exempel köp- eller produkttabeller.
+Adobe Campaign har en fördefinierad datamodell där data definieras med olika resurser. Du kan utöka datamodellen som tillhandahålls genom att utöka resurserna för att lägga till egna anpassade fält eller anpassade tabeller, till exempel köp- eller produkttabeller.
 
 Anpassade resurser är tillgängliga via API:er med slutpunkten **/profileAndServicesExt** och det anpassade resursnamnet.
 
@@ -39,7 +40,7 @@ I så fall är alla resurser i **tabellerna Transaction**, **TransactionDetails*
 
 ***Exempelbegäran***
 
-Exempel på GET-begäran för åtkomst till den utökade profilen AndServicesExt-resursen.
+Exempelbegäran om GET för att komma åt den utökade profilen AndServicesExt-resursen.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/\
@@ -76,6 +77,6 @@ Den returnerar listan med alla länkade anpassade resurser. Du kan sedan använd
 
 Mer information om datamodelltillägg finns i dokumentationen för Campaign:
 
-* [Datamodeller](../../developing/using/data-model-concepts.md)
+* [Datamodellkoncept](../../developing/using/data-model-concepts.md)
 * [Utöka API](../../developing/using/about-extending-the-api.md)
 * [Definiera länkar med andra resurser](https://helpx.adobe.com/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)
