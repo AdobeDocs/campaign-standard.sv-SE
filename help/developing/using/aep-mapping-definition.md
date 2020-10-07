@@ -1,6 +1,6 @@
 ---
 title: Mappningsdefinition
-description: Lär dig hur du mappar ett fält av typen Campaign Standard till ett XDM-fält (Experience Data Model).
+description: Lär dig hur du mappar ett fält för Campaign Standard med ett XDM-fält (Experience Data Model).
 page-status-flag: never-activated
 uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
 contentOwner: sauviat
@@ -9,10 +9,11 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '499'
+ht-degree: 2%
 
 ---
 
@@ -21,9 +22,9 @@ source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector är för närvarande en betaversion som kan komma att uppdateras ofta utan föregående meddelande. Kunderna måste vara värdbaserade på Azure (för närvarande endast betaversioner för Nordamerika) för att få tillgång till dessa funktioner. Kontakta Adobes kundtjänst om du vill ha tillgång till tjänsten.
+>Adobe Experience Platform Data Connector är för närvarande en betaversion som kan komma att uppdateras ofta utan föregående meddelande. Kunderna måste vara värdbaserade på Azure (för närvarande endast betaversioner för Nordamerika) för att få tillgång till dessa funktioner. Kontakta Adobe kundtjänst om du vill ha tillgång till tjänsten.
 
-I det här avsnittet får du lära dig att mappa ett fält av typen Campaign Standard till ett XDM-fält (Experience Data Model).
+I det här avsnittet får du lära dig att mappa ett fält för Campaign Standard med ett XDM-fält (Experience Data Model).
 
 För att kunna utföra den här uppgiften måste du:
 
@@ -38,7 +39,7 @@ För att kunna utföra den här uppgiften måste du:
 
 1. Fyll i de obligatoriska fälten och välj:
 
-   * en **målinriktning**: det här är Campaign Standard-schemat som ska mappas
+   * en **målinriktning**: det här är det schema som Campaign Standarden ska mappas till
    * en **datauppsättning**: detta är det datapaket som är kopplat till ett XDM-schema i Adobe Experience Platform.
 
 >[!NOTE]
@@ -47,23 +48,23 @@ För att kunna utföra den här uppgiften måste du:
 >
 >Om den datauppsättning du väljer redan används i en befintlig datamappning visas en varning om att dina data kan skrivas över på Adobe Experience Platform. Detta kan inträffa när det finns vissa vanliga mottagare i datamappningar som använder samma datamängd.
 
-På följande skärm visas det avsnitt där du kan skapa en ny mappning för varje fält i Campaign Standard-schemat. **[!UICONTROL Field mappings]**
+På följande skärm visas det **[!UICONTROL Field mappings]** avsnitt där du kan skapa en ny mappning för varje fält i Campaign Standardens schema.
 
 ![](assets/aep_fieldmappings.png)
 
-Med **[!UICONTROL Create new field mapping]** knappen kan du välja fältet Campaign Standard och motsvarande fältsökvägsuttryck i XDM-schemat.
+Med **[!UICONTROL Create new field mapping]** knappen kan du markera fältfältet och motsvarande fältsökvägsuttryck i XDM-schemat.
 
-Om du inte kan hitta något fält av typen Campaign Standard kan du använda sökfältet för att söka efter fältet. För närvarande fungerar sökningen endast för fält som är öppna i hierarkin.
+Om du inte kan hitta ett fält för Campaign Standard kan du använda sökfältet för att söka efter fältet. För närvarande fungerar sökningen endast för fält som är öppna i hierarkin.
 
 ![](assets/aep_mapfield.png)
 
-De utökade resurser som definieras i Campaign Standard mappas som alla inbyggda fält. De definieras i tillägget _customer/default i XDM.
+De utökade resurser som definieras i Campaign Standarden mappas som alla inbyggda fält. De definieras i tillägget _customer/default i XDM.
 
 ![](assets/aep_fieldscusmapping.png)
 
 Du kan anpassa XDM-tillägget via API:t och definiera ett eget tillägg så att du får bättre kontroll över mappningen.
 
-Mer information om XDM API finns i [Schemaregistrets API-självstudiekurs](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html) .
+Mer information om XDM API finns i [Schemaregistrets API-självstudiekurs](https://docs.adobe.com/content/help/sv-SE/experience-platform/xdm/api/getting-started.html) .
 
 Om du vill mappa ett uppräkningsfält måste du använda uttrycksredigeraren för att definiera varje uppräkningsvärde som motsvarar XDM-värdet. Fältet för postadress måste till exempel definieras som:
 
