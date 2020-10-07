@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 12%
 
 ---
 
@@ -20,7 +21,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 # Hämta en profils organisationsenhet {#retrieving-organizational-units}
 
 1. Utför en GET-begäran på profilen PKey för att hämta **orgUnit** -URL:en.
-1. Utför en GET-begäran på URL:en för att få mer information om organisationsenheten.
+1. Gör en GET-förfrågan på URL:en för att få mer information om organisationsenheten.
 
 <br/>
 
@@ -50,7 +51,7 @@ Den returnerar URL:en för orgUnit för profilen.
 }
 ```
 
-Utför en GET-begäran på URL:en för att hämta mer information.
+Utför en GET-förfrågan på URL:en för att få mer information.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \
