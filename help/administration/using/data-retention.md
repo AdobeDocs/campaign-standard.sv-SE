@@ -9,10 +9,11 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 discoiquuid: b791562b-6c51-447d-9e5b-bb77136f3dd8
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +22,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Standardloggtabeller i Campaign har förinställda kvarhållningsperioder, vilket i allmänhet begränsar datalagringen till 6 månader eller mindre.
 
-Följande är standardvärden för kvarhållning för standardtabeller. Observera att lagringskonfigurationen ställs in av Adobes tekniska administratörer under implementeringen, och värdena kan variera för varje implementering, baserat på kundens krav.
+Följande är standardvärden för kvarhållning för standardtabeller. Tänk på att de tekniska administratörerna för Adobe ställer in kvarhållningskonfigurationen under implementeringen, och värdena kan variera för varje implementering baserat på kundens krav.
 
 * **Konsoliderad spårning**: 6 månader
 * **Leveransloggar**: 6 månader
@@ -36,4 +37,4 @@ Följande är standardvärden för kvarhållning för standardtabeller. Observer
 
 Med standardfunktioner för arbetsflöde är det möjligt att ange kvarhållningsperioder för anpassade tabeller.
 
-Kontakta Adobes konsulter eller tekniska administratörer för att få veta mer om lojalitet eller om ni behöver ställa in bevarande för anpassade tabeller.
+Kontakta Adobe konsulter eller teknikadministratörer för att få veta mer om lojalitet eller om ni behöver ange lojalitet för anpassade tabeller.
