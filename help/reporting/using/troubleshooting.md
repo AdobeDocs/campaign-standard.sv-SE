@@ -9,13 +9,11 @@ audience: reporting
 content-type: reference
 topic-tags: troubleshooting
 discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: a894e72bb02fbecb86d43c6d2a13adf7ab10f73e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '665'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -39,19 +37,19 @@ Här visas en visuell representation av profilernas interaktion med det skickade
 <table> 
  <thead> 
   <tr> 
-   <th align="center"> <strong>Dag</strong> <br /> </th> 
+   <th align="center"> <strong>Day</strong> <br /> </th> 
    <th align="center"> <strong>Öppnar</strong> <br /> </th> 
    <th align="center"> <strong>Unika öppningar</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td align="center"> Dag 1<br /> </td> 
+   <td align="center"> Day 1<br /> </td> 
    <td align="center"> 2 + 1 = 3<br /> </td> 
    <td align="center"> 1 + 1 = 2<br /> </td> 
   </tr> 
   <tr> 
-   <td align="center"> Dag 2<br /> </td> 
+   <td align="center"> Day 2<br /> </td> 
    <td align="center"> 3 + 0 = 3<br /> </td> 
    <td align="center"> 1 + 0 = 1<br /> </td> 
   </tr>
@@ -67,19 +65,19 @@ Detta resulterar i följande tabell:
 <table> 
  <thead> 
   <tr> 
-   <th align="center"> <strong>Dag</strong> <br /> </th> 
+   <th align="center"> <strong>Day</strong> <br /> </th> 
    <th align="center"> <strong>Öppnar</strong> <br /> </th> 
    <th align="center"> <strong>Unika öppningar</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td align="center"> Dag 1<br /> </td> 
+   <td align="center"> Day 1<br /> </td> 
    <td align="center"> 6<br /> </td> 
    <td align="center"> 2<br /> </td>
   </tr> 
   <tr> 
-   <td align="center"> Dag 2<br /> </td> 
+   <td align="center"> Day 2<br /> </td> 
    <td align="center"> 3<br /> </td> 
    <td align="center"> 2<br /> </td> 
   </tr> 
