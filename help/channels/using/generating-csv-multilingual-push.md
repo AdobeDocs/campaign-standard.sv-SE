@@ -9,12 +9,10 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
@@ -150,12 +148,12 @@ Följande språk stöds:
 | en_gb | Engelska - Storbritannien |
 | en_us | Engelska - USA |
 | en_zw | Engelska - Zimbabwe |
-| r_äs | Estniska - Estland |
+| _Ange | Estniska - Estland |
 | fi_fi | Finska - Finland |
 | fr_be | Franska - Belgien |
 | fr_ca | Franska - Kanada |
 | fr_fr | Franska - Frankrike |
-| fr_lu | fre - Luxemburg |
+| fr_lu | Franska - Luxemburg |
 | fr_ch | Franska - Schweiz |
 | de_at | Tyska - Österrike |
 | de_de | Tyska - Tyskland |
@@ -213,7 +211,7 @@ Följande språk stöds:
 | es_pr | Spanska - Puerto Rico |
 | es_es | Spanska - Spanien |
 | es_uy | Spanska - Uruguay |
-| Tamera | Spanska - Venezuela |
+| es_ve | Spanska - Venezuela |
 | sw_ke | Swahili - Kenya |
 | sv_fi | Svenska - Finland |
 | sv_se | Svenska - Sverige |
