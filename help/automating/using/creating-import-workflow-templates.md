@@ -9,13 +9,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1172'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -39,6 +37,7 @@ I det här exemplet visas hur du anger ett förinställt arbetsflöde som kan å
    * **[!UICONTROL Segmentation]**: Skapa filter för att bearbeta poster på olika sätt beroende på om de kan förenas eller inte.
    * **[!UICONTROL Deduplication]**: Deduplicera data från den inkommande filen innan den infogas i databasen.
    * **[!UICONTROL Update data]**: Uppdatera databasen med de importerade profilerna.
+
    ![](assets/import_template_example0.png)
 
 1. Konfigurera **[!UICONTROL Load file]** aktiviteten:
@@ -62,6 +61,7 @@ I det här exemplet visas hur du anger ett förinställt arbetsflöde som kan å
 
    * På **[!UICONTROL Relations]** fliken markerar **[!UICONTROL Create element]** och definierar du en länk mellan importerade data och mottagarna som anger måldimension (se [Måldimensioner och resurser](../../automating/using/query.md#targeting-dimensions-and-resources)). I det här exemplet används det anpassade fältet **CRM ID** för att skapa kopplingsvillkoret. Använd fältet eller kombinationen av fält som du behöver så länge det går att identifiera unika poster.
    * Låt alternativet vara omarkerat på **[!UICONTROL Identification]** fliken **[!UICONTROL Identify the document from the working data]** .
+
    ![](assets/import_template_example2.png)
 
 1. Konfigurera aktiviteten för att hämta avstämda mottagare i en övergång och mottagare som inte kunde avstämas men som har tillräckligt med data i en andra övergång. **[!UICONTROL Segmentation]**
@@ -105,6 +105,7 @@ I det här exemplet visas hur du anger ett förinställt arbetsflöde som kan å
 
    * I det här exemplet används e-postfältet för att hitta unika profiler. Du kan använda vilket fält som helst som du är säker på är ifyllt och ingår i en unik kombination.
    * Välj en **[!UICONTROL Deduplication method]**. I det här fallet avgör programmet automatiskt vilka register som ska sparas om det finns dubbletter.
+
    ![](assets/import_template_example7.png)
 
 1. Konfigurera den **[!UICONTROL Update data]** aktivitet som finns efter den **[!UICONTROL Deduplication]** aktivitet som konfigurerats tidigare.
