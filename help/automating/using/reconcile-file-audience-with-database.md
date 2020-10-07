@@ -1,5 +1,5 @@
 ---
-title: Städa av en filpublik med databasen
+title: Förena en målgruppsfil med databasen
 description: I det här exemplet visas hur du använder aktiviteten Läs målgrupp för att stämma av en målgrupp som skapats direkt från en filimport.
 page-status-flag: never-activated
 uuid: 58c54e71-f4a7-4ae9-80a3-33c379ab1db9
@@ -10,28 +10,26 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 674684e5-8830-4d2f-ba97-59ed4ba7422f
 context-tags: readAudience,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 0%
+ht-degree: 87%
 
 ---
 
 
-# Städa av en filpublik med databasen {#example--reconcile-a-file-audience-with-the-database}
+# Förena en målgruppsfil med databasen {#example--reconcile-a-file-audience-with-the-database}
 
-I det här exemplet visas hur du använder **[!UICONTROL Read audience]** aktiviteten för att stämma av en målgrupp som skapats direkt från en filimport.
+I detta exemplet visas hur du använder **[!UICONTROL Read audience]**-aktiviteten för att sammankoppla en målgrupp som skapats direkt från en filimport.
 
-När du importerar en fil kan du spara dess innehåll direkt hos en publik. Den här publiken är en filmålgrupp och dess data är inte länkade till några databasresurser.
+När du importerar en fil kan du spara dess innehåll direkt i en publik.  Den här målgruppen är en filmålgrupp och dess data är inte länkad till några databasresurser.
 
 Arbetsflödet för import är utformat så här:
 
 ![](assets/readaudience_activity_example3.png)
 
-* En [Läs in fil](../../automating/using/load-file.md) -aktivitet överför en fil som innehåller profildata som har extraherats från ett externt verktyg.
+* En [Läs in fil](../../automating/using/load-file.md)-aktivitet överför en fil som innehåller profildata som har extraherats från ett externt verktyg.
 
    Exempel:
 
@@ -49,12 +47,12 @@ Arbetsflödet för import är utformat så här:
    Ross;Timothy;04/07/1986;timross@example.com;157643
    ```
 
-* En [Spara målgruppsaktivitet](../../automating/using/save-audience.md) sparar inkommande data som en målgrupp. Eftersom data ännu inte har stämts av är målgruppen en File-målgrupp och dess data är ännu inte kända som profildata.
+* En [Spara målgrupps](../../automating/using/save-audience.md)-aktivitet sparar inkommande data som en målgrupp.  Eftersom data ännu inte har stämts av är målgruppen en filmålgrupp och dess data är ännu inte känd profildata.
 
-Avstämningsarbetsflödet är utformat så här:
+Arbetsflödet för sammankoppling är utformat så här:
 
 ![](assets/readaudience_activity_example2.png)
 
-* En [målgruppsaktivitet för läsning](../../automating/using/read-audience.md) överför den målgrupp som skapats i importarbetsflödet. Målgruppsdata är ännu inte kompatibla med Adobe Campaign-databasen.
-* En [avstämningsaktivitet](../../automating/using/reconciliation.md) identifierar inkommande data som profiler på dess **[!UICONTROL Identification]** flik. Du kan till exempel använda **e-postfältet** som avstämningsvillkor.
-* En [Uppdatera dataaktivitet](../../automating/using/update-data.md) infogar och uppdaterar profilresursen för databasen med inkommande data. Eftersom data redan har identifierats som profiler kan du markera **[!UICONTROL Directly using the targeting dimension]** alternativet och välja **[!UICONTROL Profiles]** på aktivitetens **[!UICONTROL Identification]** flik. Sedan behöver du bara lägga till listan med fält som behöver uppdateras på fliken enligt.
+* A [Read audience](../../automating/using/read-audience.md) activity uploads the File audience created in the import workflow. Målgruppsdata är ännu inte sammankopplat med Adobe Campaign-databasen.
+* En [sammankopplings](../../automating/using/reconciliation.md)-aktivitet identifierar inkommande data som profiler på fliken **[!UICONTROL Identification]**.    Du kan exempelvis använda **e-post** fältet som sammankopplingskriterie.
+* En [Uppdatera data](../../automating/using/update-data.md)-aktivitet infogar och uppdaterar profilresursen för databasen med inkommande data.  Eftersom data redan har identifierats som profiler kan du markera **[!UICONTROL Directly using the targeting dimension]** alternativet och välja **[!UICONTROL Profiles]** i aktivitetens **[!UICONTROL Identification]** flik.  Sedan behöver du endast lägga till listan med fält som behöver uppdateras på fliken.
