@@ -10,17 +10,18 @@ content-type: reference
 topic-tags: list-of-reports
 discoiquuid: 5ae561b4-03cf-4541-87ff-47f1027d53b8
 context-tags: bounceReport,main;campaignCirculationReport,main;programCirculationReport,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: bee7ea0f1728da2a96c1f225b91b13a7903be660
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '273'
+ht-degree: 8%
 
 ---
 
 
 # Studssammanfattning{#bounce-summary}
 
-Den här rapporten innehåller information om de övergripande hårdfel och mjuka fel som uppstått under leveranser samt den automatiska bearbetningen av studenterna.
+Den här rapporten innehåller information om de övergripande hårda och mjuka fel som uppstått under leveranser samt den automatiska bearbetningen av studsningarna.
 
 ![](assets/campaign_reports_bounces.png)
 
