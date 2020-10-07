@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3ed78fd610b0d134cd1e60f34c93161cb1e5c50f
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '675'
 ht-degree: 0%
@@ -48,7 +46,7 @@ Ange, om tillämpligt, en **[!UICONTROL Segment code]** för aktivitetens utgåe
 
 ## Alternativ för aktivitetskörning {#activity-execution-options}
 
-På aktivitetens egenskapssida finns det en flik **[!UICONTROL Advanced options]** där du kan definiera aktivitetens körningsläge och beteende vid fel.
+På aktivitetens egenskapssida finns det en **[!UICONTROL Advanced options]** flik där du kan definiera aktivitetens körningsläge och beteende vid fel.
 
 Om du vill komma åt dessa alternativ väljer du en aktivitet i ett arbetsflöde och öppnar den sedan med knappen i åtgärdsfältet. ![](assets/edit_darkgrey-24px.png)
 
@@ -74,7 +72,7 @@ I **[!UICONTROL Max. execution duration]** fältet kan du ange en varaktighet so
 
 I **[!UICONTROL Affinity]** fältet kan du tvinga ett arbetsflöde eller en arbetsflödesaktivitet att köras på en viss dator. För att kunna göra detta måste du ange en eller flera tillhörigheter för arbetsflödet eller aktiviteten i fråga.
 
-I **[!UICONTROL Time zone]** fältet kan du välja aktivitetens tidszon. Med Adobe Campaign kan ni hantera tidsskillnader mellan flera länder i samma instans. Inställningen som används konfigureras när instansen skapas.
+I **[!UICONTROL Time zone]** fältet kan du välja aktivitetens tidszon. Med Adobe Campaign kan du hantera tidsskillnader mellan flera länder i samma instans. Inställningen som används konfigureras när instansen skapas.
 
 >[!NOTE]
 >
