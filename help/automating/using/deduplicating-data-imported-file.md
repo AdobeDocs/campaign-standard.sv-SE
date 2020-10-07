@@ -1,6 +1,6 @@
 ---
 title: Deduplicera data från en importerad fil
-description: I det här exemplet visas hur du tar bort dubbletter av data från en fil som importerats innan data lästes in i databasen.
+description: Det här exemplet beskriver hur du tar bort dubbletter av data från en fil som importerats innan data lästes in i databasen.
 page-status-flag: never-activated
 uuid: 11a22a9c-3bfe-4953-8a52-2f4e93c128fb
 contentOwner: sauviat
@@ -10,26 +10,24 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: e7a5e1e7-4680-46c7-98b8-0a47bb7be2b8
 context-tags: dedup,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '328'
-ht-degree: 0%
+ht-degree: 89%
 
 ---
 
 
 # Deduplicera data från en importerad fil {#deduplicating-the-data-from-an-imported-file}
 
-I det här exemplet visas hur du tar bort dubbletter av data från en fil som importerats innan data lästes in i databasen. Den här proceduren förbättrar kvaliteten på de data som läses in i databasen.
+Det här exemplet beskriver hur du tar bort dubbletter av data från en fil som importerats innan data lästes in i databasen. Den här proceduren förbättrar kvaliteten på de data som läses in i databasen.
 
 Arbetsflödet består av:
 
 ![](assets/deduplication_example2_workflow.png)
 
-* En fil som innehåller en lista med profiler importeras med en [Läs in fil](../../automating/using/load-file.md) -aktivitet. I det här exemplet är den importerade filen i CSV-format och innehåller 10 profiler:
+* A file that contains a list of profiles is imported using a [Load file](../../automating/using/load-file.md) activity. I det här exemplet är den importerade filen i CSV-format och innehåller 10 profiler:
 
    ```
    lastname;firstname;dateofbirth;email
@@ -45,23 +43,23 @@ Arbetsflödet består av:
    Ross;Timothy;04/07/1986;timross@example.com
    ```
 
-   Den här filen kan också användas som exempelfil för att identifiera och definiera kolumnformatet. Kontrollera att varje kolumn i den importerade filen är korrekt konfigurerad på fliken **[!UICONTROL Column definition]** .
+   Den här filen kan också användas som exempelfil för att identifiera och definiera kolumnformatet. Kontrollera att varje kolumn i den importerade filen är korrekt konfigurerad på fliken **[!UICONTROL Column definition]**.
 
    ![](assets/deduplication_example2_fileloading.png)
 
-* En [dedupliceringsaktivitet](../../automating/using/deduplication.md) . Borttagning av dubbletter utförs direkt efter att filen har importerats och innan data infogas i databasen. Den bör därför baseras på **[!UICONTROL Temporary resource]** resultaten av **[!UICONTROL Load file]** verksamheten.
+* En [dedupliceringsaktivitet](../../automating/using/deduplication.md) . Deduplicering utförs direkt efter att filen har importerats och innan data infogas i databasen. Den ska därför baseras på **[!UICONTROL Temporary resource]** av **[!UICONTROL Load file]**-aktiviteten.
 
-   I det här exemplet vill vi behålla en enda post per unik e-postadress som finns i filen. Duplicerad identifiering utförs därför i den tillfälliga resursens **e-postkolumn** . Men filen innehåller två e-postadresser. Två rader kommer därför att betraktas som dubbletter.
+   I det här exemplet vill vi behålla en enda post per unik e-postadress som finns i filen. Identifiering av dubbletter utförs därför på **e-postkolumnen** för den tillfälliga resursens. Men filen innehåller två e-postadresser. Två rader kommer därför att betraktas som dubbletter.
 
    ![](assets/deduplication_example2_dedup.png)
 
-* Med en [Uppdatera data](../../automating/using/update-data.md) -aktivitet kan du infoga data från dedupliceringsprocessen i databasen. Det är bara när data uppdateras som importerade data identifieras som tillhörande profildimensionen.
+* An [Update data](../../automating/using/update-data.md) activity allows you to insert the data kept from the deduplication process into the database. Importerade data identifieras endast som associerad med profildimensionen när dessa data uppdateras.
 
-   Här vill vi gärna se vilka profiler **[!UICONTROL Insert only]** som inte redan finns i databasen. Vi ska göra detta genom att använda filens e-postkolumn och e-postfältet från **profildimensionen** som avstämningsnyckel.
+   Här vill vi **[!UICONTROL Insert only]** profilerna som inte redan finns i databasen. Vi gör detta genom att använda filens e-postkolumn och e-postfältet från **profildimensionen** som avstämningsnyckeln.
 
    ![](assets/deduplication_example2_writer1.png)
 
-   Ange mappningarna mellan filens kolumner som du vill infoga data från och databasfälten från **[!UICONTROL Fields to update]** fliken.
+   Ange mappningarna mellan filens kolumner som du vill infoga data från och databasfälten från fliken **[!UICONTROL Fields to update]**.
 
    ![](assets/deduplication_example2_writer2.png)
 
