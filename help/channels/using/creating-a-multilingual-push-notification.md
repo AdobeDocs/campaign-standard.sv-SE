@@ -9,10 +9,11 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 discoiquuid: f9bb2235-d388-4025-9ace-734beb0c1961
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '920'
+ht-degree: 3%
 
 ---
 
@@ -42,13 +43,13 @@ Innan vi personaliserar ditt flerspråkiga push-meddelande måste vi först öve
 >Du kan också hoppa över det här steget om du vill skapa en variant manuellt för varje språkvariant.
 
 1. Klicka på **[!UICONTROL Marketing activities]** knappen och **[!UICONTROL Create]** markera sedan **[!UICONTROL Push notification]**.
-1. Välj mallen **[!UICONTROL Send multilingual push to Campaign profiles]** om du vill ange Adobe Campaign-profiler som prenumererar på ditt mobilprogram eller mallen som mål **[!UICONTROL Send multilingual push to app subscriber]** att skicka ett push-meddelande till alla användare som har valt att ta emot meddelanden från ditt mobilprogram.
+1. Markera mallen **[!UICONTROL Send multilingual push to Campaign profiles]** om du vill ange de Adobe Campaign-profiler som har prenumererat på ditt mobilprogram som mål eller mallen **[!UICONTROL Send multilingual push to app subscriber]** för att skicka ett push-meddelande till alla användare som har valt att ta emot meddelanden från ditt mobilprogram.
 
    ![](assets/multivariant_push_2.png)
 
-1. Ange dina egenskaper för push-meddelanden och välj din mobilapp i **[!UICONTROL Associate a Mobile App to a delivery]** fältet.
+1. Enter your push notification properties and select your mobile app in the **[!UICONTROL Associate a Mobile App to a delivery]** field.
 
-   Observera att listrutan kommer att visa både SDK V4- och SDK-program för Adobe Experience Platform.
+   Observera att listrutan kommer att visa både SDK V4- och Adobe Experience Platform SDK-program.
 
 1. I **[!UICONTROL Audiences]** fönstren kan du finjustera målgruppen genom att dra och släppa frågor.
 
@@ -61,7 +62,7 @@ Innan vi personaliserar ditt flerspråkiga push-meddelande måste vi först öve
 
 1. Dra och släpp filen i **[!UICONTROL Manage Content Variants]** fönstret eller välj en fil på datorn.
 
-   Filen måste vara UTF8-kodad och ha en viss layout som du kan hitta genom att klicka på **[!UICONTROL Download the sample file]** alternativet. Du bör också använda rätt syntax för nationella värden. Mer information om filformat och vilka språk som stöds finns i den här [tekniken](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
+   Filen måste vara UTF8-kodad och ha en viss layout som du kan hitta genom att klicka på **[!UICONTROL Download the sample file]** alternativet. Du bör också använda rätt syntax för nationella värden. Mer information om filformat och vilka språk som stöds finns i den här [tekniken](https://helpx.adobe.com/se/campaign/kb/acs-generate-csv-multilingual-push.html).
 
    ![](assets/multivariant_push_4.png)
 
@@ -98,7 +99,7 @@ Det går också att skapa och redigera fler varianter utöver de som har överf�
 
 1. Du kan också klicka på en innehållsvariant för att anpassa den ytterligare, till exempel med personaliseringsfält.
 
-   Mer information om hur du anpassar push-meddelanden finns i det här [avsnittet](../../channels/using/customizing-a-push-notification.md).
+   For more information on how to customize your push notification, refer to this [section](../../channels/using/customizing-a-push-notification.md).
 
    ![](assets/multivariant_push_9.png)
 
@@ -134,4 +135,4 @@ Nu kan du mäta effekten av den flerspråkiga push-meddelandeleveransen på mott
 
 * [Rapport om push-meddelanden](../../reporting/using/push-notification-report.md)
 * [Skicka ett push-meddelande inom ett arbetsflöde](../../automating/using/push-notification-delivery.md)
-* [Att nå flerspråkiga målgrupper med ett och samma arbetsflöde](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
+* [Att nå flerspråkiga målgrupper med ett och samma arbetsflöde](https://helpx.adobe.com/se/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
