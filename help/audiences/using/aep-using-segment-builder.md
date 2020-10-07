@@ -1,5 +1,5 @@
 ---
-title: Använda Segment Builder
+title: Använda verktyget Segment Builder
 description: Lär dig hur du använder Segment Builder för att skapa målgrupper.
 page-status-flag: never-activated
 uuid: b3996642-96ec-489e-b146-c8c2cb52aa32
@@ -10,24 +10,22 @@ content-type: reference
 topic-tags: managing-audiences
 discoiquuid: 750ecd8d-67a5-4180-bfec-2a8e3098c812
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: be7ab90583e9c6472fd2c86082e832432d0a32b9
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '878'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# Använda Segment Builder {#using-the-segment-builder}
+# Använda verktyget Segment Builder {#using-the-segment-builder}
 
 >[!IMPORTANT]
 >
->Målgruppstjänsten är för närvarande i betaversion, som kan uppdateras ofta utan föregående meddelande. Kunderna måste vara värdbaserade på Azure (för närvarande endast betaversioner för Nordamerika) för att få tillgång till dessa funktioner. Kontakta Adobes kundtjänst om du vill ha tillgång till tjänsten.
+>Målgruppstjänsten är för närvarande i betaversion, som kan uppdateras ofta utan föregående meddelande. Kunderna måste vara värdbaserade på Azure (för närvarande endast betaversioner för Nordamerika) för att få tillgång till dessa funktioner. Kontakta Adobe kundtjänst om du vill ha tillgång till tjänsten.
 
-Med segmentbyggaren kan ni skapa målgrupper genom att definiera regler som baseras på data från kundprofilen [i](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)realtid.
+Med segmentbyggaren kan ni skapa målgrupper genom att definiera regler som baseras på data från kundprofilen [i](https://docs.adobe.com/content/help/sv-SE/experience-platform/profile/home.html)realtid.
 
 I det här avsnittet beskrivs globala koncept när du skapar ett segment. Mer information om själva segmentbyggaren finns i användarhandboken [för](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)Segment Builder.
 
@@ -43,7 +41,7 @@ Gränssnittet i Segment Builder består av följande:
 
 Så här skapar du ett segment:
 
-Segmentverktyget bör nu visas på arbetsytan. Det gör att ni kan skapa ett segment med data från Adobe Experience Platform som så småningom kommer att användas för att skapa er målgrupp.
+Segmentverktyget bör nu visas på arbetsytan. Det gör att ni kan skapa ett segment med hjälp av data från Adobe Experience Platform som så småningom kommer att användas för att skapa er målgrupp.
 
 1. Namnge segmentet och ange sedan en beskrivning (valfritt).
 
@@ -63,21 +61,21 @@ Segmentverktyget bör nu visas på arbetsytan. Det gör att ni kan skapa ett seg
 
    ![](assets/aep_audiences_configure_rules.png)
 
-1. Klicka på **[!UICONTROL Create segment]** knappen.
+1. Klicka på knappen **[!UICONTROL Create segment]**.
 
 ## Hitta rätt fält för ett segment
 
 I den vänstra rutan visas alla attribut, händelser och målgrupper som är tillgängliga för att skapa regler.
 
-Fälten i listan är attribut som hämtats av ditt företag och har gjorts tillgängliga via XDM-systemet ( [Experience Data Model)](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html).
+Fälten i listan är attribut som hämtats av ditt företag och har gjorts tillgängliga via XDM-systemet ( [Experience Data Model)](https://docs.adobe.com/content/help/sv-SE/experience-platform/xdm/home.html).
 
 Fälten är ordnade i flikar:
 
-* **[!UICONTROL Attributes]**: Befintliga profilattribut som kan komma från din Adobe Campaign-databas och/eller Adobe Experience Platform. De avser statisk information som bifogas en profil (t.ex. e-postadress, bosättningsland, lojalitetsprogrammets status osv.).
+* **[!UICONTROL Attributes]**: Befintliga profilattribut som kan härröra från din Adobe Campaign-databas och/eller Adobe Experience Platform. De avser statisk information som bifogas en profil (t.ex. e-postadress, bosättningsland, lojalitetsprogrammets status osv.).
 
    ![](assets/aep_audiences_attributestab.png)
 
-* **[!UICONTROL Events]**: Aktiviteter som identifierar konsumenter som har haft någon interaktion med företagets kontaktytor mot kunderna, till exempel&quot;alla som har beställt två gånger på två veckor&quot;. Detta kan strömmas från Adobe Analytics eller förtäras direkt i Adobe Experience Platform med ETL-verktyg från tredje part.
+* **[!UICONTROL Events]**: Aktiviteter som identifierar konsumenter som har haft någon interaktion med företagets kontaktytor mot kunderna, till exempel&quot;alla som har beställt två gånger på två veckor&quot;. Detta kan strömmas från Adobe Analytics eller kapslas direkt in i Adobe Experience Platform med ETL-verktyg från tredje part.
 
    ![](assets/aep_audiences_eventstab.png)
 
@@ -85,7 +83,7 @@ Fälten är ordnade i flikar:
 >
 >**Med segmentering** av flera enheter kan ni utöka profildata med ytterligare data baserade på produkter, butiker eller andra icke-profilklasser. När de är anslutna blir data från ytterligare klasser tillgängliga som om de vore inbyggda i profilschemat.
 >
->Mer information finns i den [dedikerade dokumentationen](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html).
+>Mer information om detta hittar du i den [dedikerade dokumentationen](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html).
 
 Som standard visar Segment Builder fält där data redan finns. Om du vill visa det fullständiga schemat, inklusive fält för vilka data inte finns, aktiverar du alternativet från inställningarna **[!UICONTROL Show full XDM schema]** .
 
@@ -129,7 +127,7 @@ När de två reglerna är sammanlänkade utgör de en behållare.
 
 Med segmentbyggaren kan du jämföra två fält för att definiera en regel. Till exempel kvinnor vars hemadress är i en annan postnummer än deras arbetsadress.
 
-Gör så här:
+Följ dessa steg för att göra detta:
 
 1. Dra det första fältet som du vill jämföra (t.ex. hemadressens postnummer) till arbetsytan i mitten.
 
