@@ -9,10 +9,11 @@ audience: reporting
 content-type: reference
 topic-tags: customizing-reports
 discoiquuid: a773b7a8-c290-4c81-bb52-48acc14fc89f
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '247'
+ht-degree: 4%
 
 ---
 
@@ -44,5 +45,5 @@ Du kan dra och släppa så många komponenter som behövs och jämföra dem med 
 **Relaterade ämnen:**
 
 * [Förteckning över komponenter](../../reporting/using/list-of-components-.md)
-* [Förteckning över rapporter](../../reporting/using/defining-the-report-period.md)
+* [Lista över rapporter](../../reporting/using/defining-the-report-period.md)
 
