@@ -10,10 +10,11 @@ content-type: reference
 topic-tags: list-of-reports
 discoiquuid: 9349de98-6b77-4d1c-b2fe-cf44cdcd07ce
 context-tags: deliveryTopUrlReport,main;campaignTopUrlReport,main;programTopUrlReport,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d29bbe135f141bf6f3da37c048ab64732638eed2
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '82'
+ht-degree: 14%
 
 ---
 
@@ -21,7 +22,7 @@ source-git-commit: d29bbe135f141bf6f3da37c048ab64732638eed2
 # Tjänstsammanfattning{#service-summary}
 
 Här finns information **[!UICONTROL Service summary]** om utvecklingen av prenumerationer och avbeställningar av tjänsten.
-Den här rapporten är bara tillgänglig från din tjänstsida via den avancerade menyn **[!UICONTROL Profiles & Audiences]** > **[!UICONTROL Services]**. Mer information finns på den här [sidan](../../audiences/using/monitoring-subscriptions.md#service-reports).
+Den här rapporten är bara tillgänglig från din tjänstsida via den avancerade menyn **[!UICONTROL Profiles & Audiences]** > **[!UICONTROL Services]**. Se denna [sida](../../audiences/using/monitoring-subscriptions.md#service-reports) för mer information om detta.
 
 ![](assets/service-summary.png)
 
