@@ -1,6 +1,6 @@
 ---
 title: Anpassa listor
-description: '"Lär dig hur du anpassar visningen och agerar på listskärmar i Adobe Campaign Standard: sortera, filtrera, ta bort eller duplicera element. Listar skärmar visar element för en eller flera angivna resurser."'
+description: '"Lär dig hur du anpassar visningen och agerar på listskärmar i Adobe Campaign Standard:sortera, filtrera, ta bort eller duplicera element. Listar skärmar visar element för en eller flera angivna resurser."'
 page-status-flag: never-activated
 uuid: 3350583c-91ca-4ea5-ac14-6b6f11c4a64a
 contentOwner: sauviat
@@ -9,13 +9,11 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '788'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -80,7 +78,7 @@ Landningssidor är webbformulär som kan användas för att samla in data och sk
 * Koppla varje inmatningsfält till motsvarande fält från databasen.
 * Gör landningssidan tillgänglig online via en webbplats eller via en direktlänk till ett meddelande.
 
-Mer information om landningssidor finns i den [särskilda dokumentationen](../../channels/using/getting-started-with-landing-pages.md).
+For more on landing pages, refer to the [dedicated documentation](../../channels/using/getting-started-with-landing-pages.md).
 
 **Läs mer**
 
@@ -90,7 +88,7 @@ Mer information om landningssidor finns i den [särskilda dokumentationen](../..
 ### Synkroniserar profiler från Microsoft Dynamics 365
 
 Tack vare integreringen av Campaign Standarder med Microsoft Dynamics 365 kan du skicka kontaktdata från Microsoft Dynamics 365 till Campaign-databasen.
-Kontakterna visas sedan i profillistan och kan användas i marknadsföringskampanjer. Mer information om den här integreringen finns i den [dedikerade dokumentationen](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
+Kontakterna visas sedan i profillistan och kan användas i marknadsföringskampanjer. For more on this integration, refer to the [dedicated documentation](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
 
 >[!NOTE]
 >
@@ -107,8 +105,7 @@ Med Campaign Standard-API:er kan du utföra åtgärder för att uppdatera databa
 
 >[!CAUTION]
 >
->Innan du skapar eller uppdaterar profiler via API-anrop bör du kontrollera de skalbegränsningar som motsvarar licensavtalet. For more on this, refer to
-[this page](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
+>Innan du skapar eller uppdaterar profiler via API-anrop bör du kontrollera de skalbegränsningar som motsvarar licensavtalet. Se denna [sida](https://helpx.adobe.com/se/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers) för mer information om detta.
 
 **Läs mer**
 
@@ -119,7 +116,7 @@ Med Campaign Standard-API:er kan du utföra åtgärder för att uppdatera databa
 
 <img width="60px" alt="villkor" src="assets/icon_audience.svg"/>
 
-För att ni ska kunna leverera relevanta och effektiva meddelanden och engagera era kunder effektivt integrerar Adobe Campaign avancerade analys- och målgruppsfunktioner.
+För att ni ska kunna leverera relevanta och effektiva budskap och engagera era kunder på ett effektivt sätt, integrerar Adobe Campaign avancerade analys- och målgruppsfunktioner.
 
 Tack vare arbetsflödena och frågeredigeraren kan ni skapa målgrupper som målgruppsanpassas av olika kampanjer, beroende på vilken information ni har om dem, deras aktiviteter, språk, önskemål eller marknadsföringshistorik. På så sätt kan du till exempel filtrera prenumerationsprofiler eller skapa målgrupper enligt ett obegränsat antal villkor.
 
@@ -132,9 +129,9 @@ Tack vare arbetsflödena och frågeredigeraren kan ni skapa målgrupper som mål
 
 <img width="60px" alt="villkor" src="assets/icon_privacy.svg"/>
 
-GDPR är EU:s (EU) nya integritetslagstiftning som harmoniserar och moderniserar kraven på skydd av personuppgifter. GDPR gäller för Adobe Campaign-kunder som innehar uppgifter för registrerade i EU. Förutom de sekretessfunktioner som redan finns i Adobe Campaign (inklusive samtyckeshantering, datalagringsinställningar och användarroller) tar vi denna möjlighet i vår roll som dataprocessor för att inkludera ytterligare funktioner som hjälper dig att bli redo som Data Controller för vissa GDPR-förfrågningar.
+GDPR är EU:s (EU) nya integritetslagstiftning som harmoniserar och moderniserar kraven på skydd av personuppgifter. GDPR gäller för Adobe Campaign-kunder som innehar uppgifter för registrerade personer som bor i EU. Förutom de sekretessfunktioner som redan finns i Adobe Campaign (inklusive samtyckeshantering, datalagringsinställningar och användarroller) tar vi denna möjlighet i vår roll som dataprocessor för att inkludera ytterligare funktioner som hjälper dig att bli redo som Data Controller för vissa GDPR-förfrågningar.
 
-Läs den här [handboken](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html) om du vill veta mer om de verktyg och funktioner som Adobe Campaign tillhandahåller för att hjälpa dig att bli GDPR-kompatibel.
+Läs den här [guiden](https://helpx.adobe.com/se/campaign/kb/campaign-privacy.html) om du vill veta mer om de verktyg och funktioner som Adobe Campaign tillhandahåller för att hjälpa dig att bli GDPR-kompatibel.
 
 **Läs mer**
 
