@@ -9,10 +9,11 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 discoiquuid: b0056f83-610e-4fdc-95cd-bb5ed9f5c483
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +26,7 @@ I **[!UICONTROL Licenses]** fönstret kan du visa de installerade licenserna på
 
 Med ett nytt bygge eller en ny funktion kan licensvillkoren ändras och måste accepteras av en funktionell administratör för instansen.
 
-Följande fönster visas för standardanvändare när de har loggat in. Ingen åtgärd krävs från deras sida. De kan fortfarande arbeta med Adobe Campaign genom att klicka på **[!UICONTROL OK]** knappen .
+Följande fönster visas för standardanvändare när de har loggat in. Ingen åtgärd krävs från deras sida. De kan fortfarande arbeta med Adobe Campaign genom att klicka på **[!UICONTROL OK]** .
 
 ![](assets/license_2.png)
 
