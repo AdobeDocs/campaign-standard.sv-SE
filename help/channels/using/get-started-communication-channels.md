@@ -9,13 +9,11 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 5636b2ab5a673b0a52158b1a5411e090e4b45ca7
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '517'
-ht-degree: 16%
+ht-degree: 19%
 
 ---
 
@@ -106,5 +104,5 @@ Läs mer:
 * [Utforma ett e-postinnehåll](../../designing/using/designing-content-in-adobe-campaign.md)
 * [Importera AEM](../../integrating/using/creating-email-experience-manager.md)
 * [Skicka meddelanden med arbetsflöden](../../automating/using/about-channel-activities.md)
-* [Videor om självstudiekurser om kommunikationskanaler](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
+* [Videor om självstudiekurser om kommunikationskanaler](https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
 * [Användningsfall: Skapa en flerkanalsleverans](../../automating/using/workflow-cross-channel-delivery.md)
