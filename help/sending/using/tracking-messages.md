@@ -9,13 +9,11 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 0%
+ht-degree: 20%
 
 ---
 
@@ -24,18 +22,18 @@ ht-degree: 0%
 
 ## Om spårning {#about-tracking}
 
-Tack vare spårningsfunktionerna i Adobe Campaign kan du spåra hur leveransmottagarna fungerar. För att göra detta använder Adobe Campaign sessionscookies och permanenta cookies.
+Tack vare spårningsfunktionerna i Adobe Campaign kan du spåra hur mottagarna beter sig. För att göra detta använder Adobe Campaign sessionscookies och permanenta cookies.
 
 Du kan informera användare om att dina webbplatser är utrustade med verktyg för webbspårning via en auktoriseringsbegäran (som visas på sidan till exempel) med en kryssruta för att godkänna användningen av cookies, eller lägga till en banderoll högst upp på den första sidan som de landar på, osv. Popup-fönster bör undvikas eftersom de ofta blockeras av webbläsare.
 
-Spårningsinformation finns tillgänglig för varje kontakt i databasen **[!UICONTROL integrated customer profiles]**. For more on this, refer to [this section](../../audiences/using/integrated-customer-profile.md).
+Spårningsinformation finns tillgänglig för varje kontakt i databasen **[!UICONTROL integrated customer profiles]**. Mer information om detta finns i [det här avsnittet](../../audiences/using/integrated-customer-profile.md).
 
-Adobe Campaign använder två typer av cookies:
+Adobe Campaign använder två typer av cookies.
 
-* En sessionscookie (nlid). Detta innehåller identifieraren för e-postmeddelandet som skickas till kontakten (broadlogId) och identifieraren för meddelandemallen (deliveryId). Den läggs till när kontakten klickar på en URL som finns i ett e-postmeddelande som skickas av Adobe Campaign och gör att du kan spåra deras beteende på webben. Denna sessionscookie raderas automatiskt när webbläsaren stängs. Kontakten kan konfigurera sin webbläsare så att den inte tillåter cookies.
-* En cookie som delas mellan Adobe Experience Cloud-lösningar. På så sätt kan du identifiera de användare som interagerar med Experience Cloud när de besöker en webbplats. Beskrivningen av denna cookie finns [här](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-mc.html).
+* En sessionscookie (nlid). Detta innehåller identifieraren för e-postmeddelandet som skickas till kontakten (broadlogId) och identifieraren för meddelandemallen (deliveryId). Den läggs till när kontakten klickar på en URL som ingår i ett e-postmeddelande som skickas av Adobe Campaign och låter dig spåra deras beteende på webben. Denna sessionscookie raderas automatiskt när webbläsaren stängs. Kontakten kan konfigurera sin webbläsare så att den inte tillåter cookies.
+* En cookie som delas mellan Adobe Experience Cloud lösningar. På så sätt kan du identifiera de användare som interagerar med Experience Cloud när de besöker en webbplats. Beskrivningen av denna cookie finns [här](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-mc.html).
 
-Spårning med Adobe Campaign Standarden ger dig tillgång till följande funktioner:
+Spårning med Adobe Campaign Standard ger åtkomst till följande funktioner:
 
 <table>
 <tr>
@@ -64,7 +62,7 @@ Spårning med Adobe Campaign Standarden ger dig tillgång till följande funktio
 </tr>
 </table>
 
-## Spårningsloggar {#tracking-logs}
+## Tracking logs {#tracking-logs}
 
 På **[!UICONTROL Tracking logs]** fliken visas spårningshistoriken för leveransen. På den här fliken visas spårningsinformation för skickade meddelanden, t.ex. alla URL:er som har spårats av Adobe Campaign. Spårningsinformationen på den här fliken uppdateras var 10:e minut.
 
