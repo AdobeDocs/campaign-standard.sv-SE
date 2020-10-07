@@ -1,5 +1,5 @@
 ---
-title: Förbereder sändningen
+title: Förbered sändningen
 description: Lär dig hur du definierar förberedelser före sändningen.
 page-status-flag: never-activated
 uuid: 1038dae2-164c-4579-9294-bdf2a4eb12d6
@@ -9,15 +9,16 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 discoiquuid: 003abc83-7f07-471f-ab2f-1d352d22c26f
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '459'
+ht-degree: 2%
 
 ---
 
 
-# Förbereder sändningen{#preparing-the-send}
+# Förbered sändningen{#preparing-the-send}
 
 Förberedelsen motsvarar steget att beräkna målpopulationen och generera meddelandeinnehållet för varje profil som ingår i målet. När färdigställandet är klart är meddelandena klara att skickas, antingen omedelbart eller vid [det schemalagda datumet och klockslaget](../../sending/using/about-scheduling-messages.md).
 
@@ -37,7 +38,7 @@ Förberedelsen motsvarar steget att beräkna målpopulationen och generera medde
 
    ![](assets/preparing_delivery_6.png)
 
-1. Meddelandet sparas automatiskt när du förbereder för leveransfasen. Om du behöver göra några ändringar i meddelandets schema efter förberedelsesteget måste du kontrollera att du klickar på **[!UICONTROL Prepare]** knappen igen för att dessa ändringar ska beaktas. Mer information om hur du schemalägger ett meddelande finns på den här [sidan](../../sending/using/about-scheduling-messages.md).
+1. Meddelandet sparas automatiskt när du förbereder för leveransfasen. Om du behöver göra några ändringar i meddelandets schema efter förberedelsesteget måste du kontrollera att du klickar på **[!UICONTROL Prepare]** knappen igen för att dessa ändringar ska beaktas. For more information on how to schedule a message, refer to this [page](../../sending/using/about-scheduling-messages.md).
 
    ![](assets/preparing_delivery_5.png)
 
@@ -55,9 +56,9 @@ Förberedelsen motsvarar steget att beräkna målpopulationen och generera medde
 
 När färdigställandet är klart är ditt meddelande klart att skickas. Mer information finns i [Bekräfta sändning](../../sending/using/confirming-the-send.md).
 
-**Typologiregler**
+**Regler för typologi**
 
-Adobe Campaign innehåller ett antal inbyggda typologiregler som tillämpas under meddelandeförberedelsen. De används för att kontrollera om ett meddelande är giltigt och uppfyller dina kvalitetskriterier. Se [Typologier](../../sending/using/about-typology-rules.md). Ni kan definiera egna typologiregler, till exempel, och ange globala regler för flerkanalströtthet som automatiskt utesluter överdimensionerade profiler från kampanjer. Se [Trötthetsregler](../../sending/using/fatigue-rules.md).
+Adobe Campaign innehåller en uppsättning typologiregler som tillämpas under meddelandeförberedelsen. De används för att kontrollera om ett meddelande är giltigt och uppfyller dina kvalitetskriterier. Se [Typologier](../../sending/using/about-typology-rules.md). Ni kan definiera egna typologiregler, till exempel, och ange globala regler för flerkanalströtthet som automatiskt utesluter överdimensionerade profiler från kampanjer. Se [Fatigue-regler](../../sending/using/fatigue-rules.md).
 
 **SMS-meddelandekontroll**
 
