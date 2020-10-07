@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: 8b33e6af-15c3-4b30-8ad6-d76a1f33be21
 index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b4bac585ec25340d1f1d047f9a1f8dcd8e243821
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '496'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -40,11 +38,11 @@ I Campaign Standard finns flera olika sätt att övervaka dina instanser för at
 
 **Tekniska arbetsflöden** Tekniska arbetsflöden är åtgärder eller jobb som schemalagts att utföras regelbundet på servern. För att instansen ska fungera på rätt sätt måste du se till att den alltid körs. [Läs mer](../../administration/using/technical-workflows.md)
 
-**Kontrollpanelen** På Kontrollpanelen kan du hantera flera inställningar för din instans: URL-behörigheter, kontrollera instansinformation som serverns build-versioner, övervaka aktiv profilanvändning osv. Du kan också övervaka det tillgängliga utrymmet på de SFTP-servrar som är anslutna till din instans. [Läs mer](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html).
+**Kontrollpanelen** På Kontrollpanelen kan du hantera flera inställningar för din instans: URL-behörigheter, kontrollera instansinformation som serverns build-versioner, övervaka aktiv profilanvändning osv. Du kan också övervaka det tillgängliga utrymmet på de SFTP-servrar som är anslutna till din instans. [Läs mer](https://docs.adobe.com/content/help/sv-SE/control-panel/using/control-panel-home.html).
 
 >[!NOTE]
 >
->Observera att Kontrollpanelen endast är tillgänglig för administratörsanvändare och för alla kunder som använder Adobe Managed Services.
+>Observera att Kontrollpanelen endast är tillgänglig för administratörsanvändare och för alla kunder som använder Adobes hanterade tjänster.
 
 **Tekniska objekt** Menyn **[!UICONTROL Diagnosis]** är ett nyckelverktyg för att övervaka och analysera de olika tekniska objekt som genereras av programmet: datascheman, webbsidor, batchjobb osv. [Läs mer](../../developing/using/monitoring-data-model-changes.md)
 
