@@ -9,10 +9,8 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 discoiquuid: 3f17c2ad-8ba3-4795-93ed-288b2bcee872
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 1%
@@ -24,7 +22,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->Observera att du måste dra och släppa mätvärden till dina tabeller för att dela upp data beroende på vilka leveranstyper du har, i det här fallet leveranserna i appen. **[!UICONTROL Message type]**
+>Observera att du måste dra och släppa mätvärden till dina tabeller för att dela upp data beroende på vilka leveranstyper du har, i det här fallet Leveranser i appen. **[!UICONTROL Message type]**
 
 Rapporten **i appen** innehåller information om leveranser i appen.
 
