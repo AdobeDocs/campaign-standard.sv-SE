@@ -1,5 +1,5 @@
 ---
-title: Hantera avanmälan av CCPA
+title: Hantera CCPA-avanmälan
 description: Lär dig hur du hanterar CCPA-avanmälan med API:er
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -9,15 +9,16 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '153'
+ht-degree: 3%
 
 ---
 
 
-# Hantera avanmälan av CCPA {#managing-ccpa-optout}
+# Hantera CCPA-avanmälan {#managing-ccpa-optout}
 
 En profils CCPA-avanmälningsstatus kan övervakas och hanteras med **attributet ccpaOptOut** och värdena &quot;true&quot; eller &quot;false&quot;:
 
@@ -30,7 +31,7 @@ En profils CCPA-avanmälningsstatus kan övervakas och hanteras med **attributet
 >
 >Attributet &quot;CCPA Opt-Out&quot; är endast tillgängligt från och med 19.4. I 19.3-miljöer måste du utöka profilresursen och lägga till ett booleskt fält. Det här fältet läggs till i API:t med den valda etiketten. Vi föreslår att du använder&quot;Avanmäl dig för CCPA&quot;.
 >
->Mer information finns i dokumentationen [om](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa)sekretesshantering.
+>For more on this, refer to the [Privacy management documentation](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa).
 
 <br/>
 
@@ -46,7 +47,7 @@ En profils CCPA-avanmälningsstatus kan övervakas och hanteras med **attributet
    -H 'Content-Type: application/json;charset=utf-8'
    ```
 
-   Svar på GET-begäran.
+   Svar på begäran om GET.
 
    ```
    {
@@ -58,7 +59,7 @@ En profils CCPA-avanmälningsstatus kan övervakas och hanteras med **attributet
    }
    ```
 
-* Exempelbegäran om POST för att markera en profil för CCPA-avanmälan.
+* Exempelbegäran om att markera en POST för CCPA-avanmälan.
 
    ```
    -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/ \
@@ -75,7 +76,7 @@ En profils CCPA-avanmälningsstatus kan övervakas och hanteras med **attributet
    -d }'
    ```
 
-   Svar på GET-begäran.
+   Svar på begäran om GET.
 
    ```
    {
@@ -88,7 +89,7 @@ En profils CCPA-avanmälningsstatus kan övervakas och hanteras med **attributet
    }
    ```
 
-* Exempel på PATCH-begäran om att uppdatera en profil för CCPA-avanmälan.
+* Exempelbegäran från PATCH om att uppdatera en profil för CCPA-avanmälan.
 
    ```
    -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
@@ -102,7 +103,7 @@ En profils CCPA-avanmälningsstatus kan övervakas och hanteras med **attributet
    -d }'
    ```
 
-   Svar på GET-begäran.
+   Svar på begäran om GET.
 
    ```
    {
