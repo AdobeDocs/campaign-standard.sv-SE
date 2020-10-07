@@ -10,26 +10,24 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 91cb524e104fbaa7f3334578d82b3878cc15fc9b
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Förstå nyttolaststrukturen för push-meddelanden {#push-payload}
+# Om nyttolaststrukturen för push-meddelanden i {#push-payload}
 
 Med Adobe Campaign kan du skicka personaliserade och segmenterade push-meddelanden på iOS- och Android-mobilenheter till mobilprogram (mobilapp).
 
 Varje push-meddelande som tas emot på en mobilapp innehåller viss information som används av appen för att visa push-meddelandet om ett varningsmeddelande skickas, och troligen även för att göra ytterligare beräkningar, särskilt om ett tyst push-meddelande skickas.
 
-Den här informationen tas emot av mobilappskoden i en händelsehanterare som anger att ett push-meddelande har tagits emot. När du skickar push-meddelanden från Adobe Campaign Standarden kan informationen som tas emot i mobilappen även innehålla Campaign Standard-specifik information som kan användas för att utnyttja vissa funktioner som Campaign Standarden tillhandahåller. Dessutom kan nyttolasten innehålla anpassade data som kan användas av mobilappen.
+Den här informationen tas emot av mobilappskoden i en händelsehanterare som anger att ett push-meddelande har tagits emot. När du skickar push-meddelanden från Adobe Campaign Standard kan informationen som tas emot i mobilappen även innehålla Campaign Standard-specifik information som kan användas för att utnyttja vissa funktioner som Campaign Standarden tillhandahåller. Dessutom kan nyttolasten innehålla anpassade data som kan användas av mobilappen.
 
-Det här dokumentet beskriver strukturen för den nyttolast som tas emot i en mobilapp när ett push-meddelande skickas till en app från Adobe Campaign Standarden.
+Det här dokumentet beskriver strukturen för den nyttolast som tas emot i en mobilapp när ett push-meddelande skickas till en app från Adobe Campaign Standard.
 
 >[!NOTE]
 >
@@ -43,7 +41,7 @@ Nyttolastattributen och deras värden varierar beroende på de konfigurationer s
 
 ### För iOS Mobile App {#payload-structure-ios}
 
-**Exempelnyttolast som skickas från Adobe Campaign till iOS-app:**
+**Exempel på nyttolast som skickas från Adobe Campaign till iOS-app:**
 
 ```
 {
@@ -214,7 +212,7 @@ Om du vill förstå aspekter av en android-nyttolast kan du läsa [Meddelandebeg
 | Meddelanderubrik <br>Meddelandetext | alert → title <br> alert → body | title <br>body | Dessa data innehåller information om varningsmeddelandet.<br>Titel- och brödnycklarna anger innehållet i aviseringen. |
 | Spela upp ett ljud | ljud | ljud | Ett anpassat ljud som spelas upp med varningen. |
 | Värde för märket | bricka | bricka | Ett heltalsvärde som ska användas för att märka appens ikon. |
-| Lägg till en deeplink | uri | NA | Med en deplink kan du dirigera användarna direkt till innehåll som finns inuti programmet (i stället för att öppna en webbläsarsida). |
+| Lägg till en djuplänk | uri | NA | Med en djuplänk kan du dirigera användarna direkt till innehåll som finns inuti programmet (i stället för att öppna en webbläsarsida). |
 | Kategori | kategori | kategori | Om du vill visa anpassade åtgärder med ett fjärrmeddelande. <br>Kategorinyckeln hjälper systemet att visa åtgärder för den kategorin som knappar i varningsgränssnittet. |
 | Anpassade fält | custom_field1, custom_field2 ... | custom_field1, custom_field2 ... | Alla anpassade data som du vill skicka till appen. |
 | URL för multimediainnehåll (bild-, gif-, ljud- och videofiler)<br>(Gäller endast iOS 10 eller senare) | media-attachment-url | NA | URL:er till dina mediefiler för att lägga till avancerat innehåll i meddelandet. <br>När du anger ett värde för den här URL:en skickas flaggan för ändringsbart innehåll automatiskt till nyttolasten. <br> (Gäller endast iOS 10 eller senare) |
