@@ -9,14 +9,12 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 discoiquuid: d5c6a3d4-f767-46c1-a8c0-3b9dc52dcea8
-internal: n
-snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 9ba56ca09a1ae948b6d4b1945085f59db1ade973
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1774'
-ht-degree: 84%
+ht-degree: 85%
 
 ---
 
@@ -87,14 +85,15 @@ Adobe rekommenderar att du följer god praxis nedan för att undvika sådana pro
 * Det kan hända att du loggar in på SFTP för att direkt kontrollera vad som finns där.
 * Kom ihåg att SFTP-diskhantering i första hand är ditt ansvar.
 
-Observera också att de offentliga IP-adresserna som du försöker initiera SFTP-anslutningen från måste läggas till i tillåtelselista i Campaign-instansen. Adding IP addresses to the allowlist can be requested via a [support ticket](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html), along with providing the public key to use for authentication.
+Observera också att de offentliga IP-adresserna som du försöker initiera SFTP-anslutningen från måste läggas till i tillåtelselista i Campaign-instansen. Adding IP addresses to the allowlist can be requested via a [support ticket](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html), along with providing the public key to use for authentication.
 
 SFTP-servrar kan hanteras från kontrollpanelen. Mer information finns i dokumentationen för [Kontrollpanelen](https://docs.adobe.com/content/help/sv-SE/control-panel/using/sftp-management/about-sftp-management.html).
 
 >[!NOTE]
 >
 >Kontrollpanelen är bara tillgänglig för administratörer som använder AWS som värd.
-Kontrollera om din instans finns på AWS [här](https://docs.adobe.com/content/help/sv-SE/control-panel/using/faq.html#ims-org-id).
+>
+>Kontrollera om din instans finns på AWS [här](https://docs.adobe.com/content/help/sv-SE/control-panel/using/faq.html#ims-org-id).
 
 ## OAuth 2.0-konto {#oauth-account}
 
