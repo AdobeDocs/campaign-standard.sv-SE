@@ -1,6 +1,6 @@
 ---
 title: Anpassa listor
-description: '"Lär dig hur du anpassar visningen och agerar på listskärmar i Adobe Campaign Standard: sortera, filtrera, ta bort eller duplicera element. Listar skärmar visar element för en eller flera angivna resurser."'
+description: '"Lär dig hur du anpassar visningen och agerar på listskärmar i Adobe Campaign Standard:sortera, filtrera, ta bort eller duplicera element. Listar skärmar visar element för en eller flera angivna resurser."'
 page-status-flag: never-activated
 uuid: 3350583c-91ca-4ea5-ac14-6b6f11c4a64a
 contentOwner: sauviat
@@ -9,13 +9,11 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '586'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -77,10 +75,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mau
 
 Få kundernas uppmärksamhet och förbättra svarsfrekvensen genom att använda innehåll och rubriker som är personaliserade efter deras profiler, önskemål och aktivitet. All kundinformation är centraliserad i Adobe Campaign och ni kan erbjuda meddelanden med anpassat innehåll via olika kanaler.
 
-Personaliserade meddelanden är avgörande för att skicka relevant innehåll, erbjuda personaliserade upplevelser och öka öppnings- och konverteringsgraden. Flerkanalsmeddelanden som levereras av Adobe Campaign kan personaliseras på flera olika sätt. De här sätten kan kombineras med villkor beroende på profilerna. Du kan:
+Personaliserade meddelanden är avgörande för att skicka relevant innehåll, erbjuda personaliserade upplevelser och öka öppnings- och konverteringsgraden. Flerkanalsmeddelanden från Adobe Campaign kan personaliseras på flera olika sätt. De här sätten kan kombineras med villkor beroende på profilerna. Du kan:
 
 * Infoga [dynamiska anpassningsfält](../../designing/using/personalization.md#inserting-a-personalization-field) i dina meddelanden
-* Infoga [fördefinierade personaliseringsblock](../../designing/using/personalization.md#adding-a-content-block)
+* Insert [predefined personalization blocks](../../designing/using/personalization.md#adding-a-content-block)
 * [Anpassa avsändaren](../../designing/using/subject-line.md) av ett e-postmeddelande eller ett SMS
 * [Anpassa ämnesraden](../../designing/using/subject-line.md) i ett e-postmeddelande eller använd [Predictive subject line](../../designing/using/subject-line.md#subject-line) för att optimera det
 * Skapa [villkorsstyrt innehåll i ett e-postmeddelande](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) eller [på en landningssida](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
@@ -98,7 +96,7 @@ Personaliserade meddelanden är avgörande för att skicka relevant innehåll, e
 
 <img width="60px" alt="villkor" src="assets/icon_profile.svg"/>
 
-Förutom kraftfulla färdiga rapportmallar kan du med Adobe Campaign skapa anpassade rapporter för leverans-, kampanj-, användar- eller segmentnivå. Spåra era meddelanden och förstå kundernas beteende genom att stegvis förbättra profildata. Med rapporterings- och analysverktygen kan ni utnyttja varje ny kampanj, bättre målinrikta era marknadsföringsåtgärder och optimera deras effekt och avkastning på investeringen.
+Förutom kraftfulla och färdiga rapportmallar kan du med Adobe Campaign skapa anpassade rapporter för leverans-, kampanj-, användar- eller segmentnivå. Spåra era meddelanden och förstå kundernas beteende genom att stegvis förbättra profildata. Med rapporterings- och analysverktygen kan ni utnyttja varje ny kampanj, bättre målinrikta era marknadsföringsåtgärder och optimera deras effekt och avkastning på investeringen.
 
 Det grafiska gränssnittet ger snabb och enkel åtkomst till huvudindikatorerna och leveransstatistik.
 
@@ -112,7 +110,7 @@ Med Adobe Campaign kan ni övervaka och spåra varje leverans för sig. På medd
 **Läs mer**
 
 * [Åtkomst till rapporter](../../reporting/using/about-dynamic-reports.md)
-* [Övervaka leverans](../../sending/using/monitoring-a-delivery.md)
+* [Övervaka en leverans](../../sending/using/monitoring-a-delivery.md)
 * [Spåra meddelanden](../../sending/using/tracking-messages.md)
 
 ## Konfigurera rapporter
