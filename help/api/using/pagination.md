@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 59405df2bbb51d7cd944a0630b2b82db864f3920
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 1%
 
 ---
 
@@ -33,7 +34,7 @@ Med parametern **_lineCount** kan du begränsa antalet resurser som anges i svar
 
 ***Exempelbegäran***
 
-Exempel på GET-begäran för att visa 1 post för profilresursen.
+Exempelbegäran om GET för att visa 1 post för profilresursen.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_lineCount=1 \
@@ -76,4 +77,4 @@ Som standard är **nästa** nod inte tillgänglig när du interagerar med tabell
 
 >[!NOTE]
 >
->Antalet poster över vilka en tabell anses vara stor definieras i alternativet Campaign Standard **XtkBigTableThreshold** . Standardvärdet är 100 000 poster.
+>Antalet poster över vilka en tabell anses vara stor definieras i Campaign Standarden **XtkBigTableThreshold** . Standardvärdet är 100 000 poster.
