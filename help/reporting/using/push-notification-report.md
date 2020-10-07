@@ -9,13 +9,11 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 discoiquuid: a425cd59-edfd-42c5-a6bd-38773c353ff0
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 02fa55789449efe03af75779892303941b8a2871
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '384'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -26,7 +24,7 @@ ht-degree: 0%
 >
 >Observera att du måste dra och släppa mätvärden till dina tabeller för att dela upp data beroende på vilka leveranstyper du har, i det här fallet push-meddelanden. **[!UICONTROL Message type]**
 
-Rapporten om **push-meddelanden** innehåller detaljerad information om hur push-meddelanden i Adobe Campaign har utvecklats. Den här användningsklara rapporten hjälper dig att förstå hur användare interagerar med push-meddelanden, mobilprogram och leveranser.
+Rapporten om **push-meddelanden** innehåller information om hur push-meddelanden i Adobe Campaign har utvecklats. Den här användningsklara rapporten hjälper dig att förstå hur användare interagerar med push-meddelanden, mobilprogram och leveranser.
 
 Viss konfiguration krävs i mobilprogrammet för att implementera push-spårning. Mer information finns på den här [sidan](../../administration/using/push-tracking.md) .
 
@@ -51,6 +49,6 @@ Den andra tabellen **Push Notification Click &amp; opens** är uppdelad i tre ka
 * **[!UICONTROL Unique impressions]**: Antal visningar per mottagare.
 * **[!UICONTROL Click]**: Antal gånger ett push-meddelande har levererats till enheten och användaren klickat på det. Användaren ville antingen visa meddelandet, som sedan flyttas till Push Open tracking, eller stänga det.
 * **[!UICONTROL Unique clicks]**: Antal gånger en unik användare interagerar med push-meddelandet, t.ex. klickar på meddelandet eller knappen.
-* **[!UICONTROL Open]**: Totalt antal push-meddelanden som levererats till enheten och användaren klickat på för att öppna appen. Detta liknar kommandot Push Click, men Push Open aktiveras inte om meddelandet stängs.
+* **[!UICONTROL Open]**: Totalt antal push-meddelanden som levererats till enheten och användaren klickat på för att öppna appen. Det här liknar kommandot Push Click (Push-klicka), förutom att Push Open (Push Open) inte aktiveras om meddelandet stängs.
 * **[!UICONTROL Unique Opens]**: Antal mottagare som öppnade leveransen.
 
