@@ -1,6 +1,6 @@
 ---
 title: Kampanjdimensioner och mätvärden i Analytics
-description: Lär dig de olika dimensioner som ni kan hitta i Adobe Analytics för att börja spåra era e-postleveranser från Adobe Campaign.
+description: Lär dig de olika dimensioner du kan hitta i Adobe Analytics för att börja spåra e-postleveranser från Adobe Campaign.
 page-status-flag: never-activated
 uuid: effa1028-66b2-4bef-b5e4-7319dbb23d5d
 contentOwner: sauviat
@@ -9,17 +9,18 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
 discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '320'
+ht-degree: 3%
 
 ---
 
 
 # Kampanjdimensioner och mätvärden i Analytics{#campaign-dimensions-and-metrics-in-analytics}
 
-Integreringen med Adobe Campaign och Adobe Analytics gör att ni kan spåra hur framgångsrik era e-postleveranser är direkt i Adobe Analytics.
+Tack vare integreringen med Adobe Campaign och Adobe Analytics kan ni se hur väl era e-postleveranser fungerar direkt i Adobe Analytics.
 
 Kampanjer **[!UICONTROL dimensions]** som hittas i Analytics listas nedan:
 
@@ -70,7 +71,7 @@ Kampanjer **[!UICONTROL metrics]** som hittas i Analytics listas nedan:
  <tbody> 
   <tr> 
    <td> Klickat<br /> </td> 
-   <td> Antal gånger ett innehåll klickades i en leverans.<br /> </td> 
+   <td> Antal gånger som ett innehåll klickades i en leverans.<br /> </td> 
   </tr> 
   <tr> 
    <td> Levererat<br /> </td> 
