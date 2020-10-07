@@ -9,10 +9,8 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 2%
@@ -32,7 +30,7 @@ Här är de viktigaste stegen för att skapa och designa ett e-postinnehåll fr�
 1. Lägg till bilder och redigera texten i e-postmeddelandet. Se [Infoga bilder](../../designing/using/images.md#inserting-images).
 1. Anpassa e-postmeddelandet genom att lägga till fält, länkar och så vidare för personalisering. Se [Infoga ett anpassningsfält](../../designing/using/personalization.md#inserting-a-personalization-field), [Infoga en länk](../../designing/using/links.md#inserting-a-link) och [Definiera dynamiskt innehåll i ett e-postmeddelande](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 1. Definiera ämnesraden i ditt e-postmeddelande. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
-1. Förhandsgranska e-postmeddelandet.
+1. Förhandsgranska din e-post.
 1. Spara innehållet och fortsätt med meddelandet efter att du har definierat en målgrupp och schemalagt sändningen.
 
 Du kan även se den här [introduktionsvideon](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=swe).
