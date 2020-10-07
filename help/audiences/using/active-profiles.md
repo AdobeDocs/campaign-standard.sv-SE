@@ -9,10 +9,8 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 discoiquuid: e029213f-0b65-41b1-8adf-34fa813b0c70
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c1147c4512b1485ae5d927a32970adcd41b540e7
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 1%
