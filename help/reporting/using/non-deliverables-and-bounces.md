@@ -1,5 +1,5 @@
 ---
-title: Ej levererbara produkter och studsar
+title: Ej levererbara filer och studsningar
 description: 'Med rapporten Non-deliverables and bounces out-of-the-box får du reda på vilka fel som kan uppstå vid leveransen. '
 page-status-flag: never-activated
 uuid: b70ae9ec-b659-42bf-b663-73615307005b
@@ -10,15 +10,16 @@ content-type: reference
 topic-tags: list-of-reports
 discoiquuid: 3567f9f9-ef57-441c-8844-198bbf962c9d
 context-tags: deliveryNonDeliverablesBouncesReport,main;campaignNonDeliverablesBouncesReport,main;programNonDeliverablesBouncesReport,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '117'
+ht-degree: 5%
 
 ---
 
 
-# Ej levererbara produkter och studsar{#non-deliverables-and-bounces}
+# Ej levererbara filer och studsningar{#non-deliverables-and-bounces}
 
 Rapporten innehåller information om alla fel som **[!UICONTROL Non-deliverables and bounces]** uppstått under en leverans.
 
