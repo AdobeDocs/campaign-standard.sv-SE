@@ -9,19 +9,20 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f5c91f886335e43940caac4d3b18924c020a2d2b
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '322'
+ht-degree: 2%
 
 ---
 
 
 # Utlösa en signalaktivitet {#triggering-a-signal-activity}
 
-I ett arbetsflöde med Adobe Campaign Standard kan det finnas en eller flera **externa signalaktiviteter** . Dessa aktiviteter är &#39;avlyssnare&#39; som väntar på att aktiveras.
+I ett Adobe Campaign Standard-arbetsflöde kan det finnas en eller flera **externa signalaktiviteter** . Dessa aktiviteter är &#39;avlyssnare&#39; som väntar på att aktiveras.
 
-Med Campaign Standard-API:er kan du utlösa en **extern signalaktivitet** för att anropa ett arbetsflöde. API-anropet kan innehålla parametrar som ska infogas i arbetsflödets händelsevariabler (ett målgruppsnamn, ett filnamn som ska importeras, en del av meddelandeinnehållet osv.). På så sätt kan ni enkelt integrera era Campaign-automatiseringar med ert externa system.
+Med Campaign Standards-API:er kan du utlösa en **extern signalaktivitet** för att anropa ett arbetsflöde. API-anropet kan innehålla parametrar som ska infogas i arbetsflödets händelsevariabler (ett målgruppsnamn, ett filnamn som ska importeras, en del av meddelandeinnehållet osv.). På så sätt kan ni enkelt integrera era Campaign-automatiseringar med ert externa system.
 
 >[!NOTE]
 >
@@ -29,11 +30,11 @@ Med Campaign Standard-API:er kan du utlösa en **extern signalaktivitet** för a
 
 Så här utlöser du ett arbetsflöde:
 
-1. Utför en **GET** -begäran i arbetsflödet för att hämta URL:en för utlösaren för extern signalaktivitet.
+1. Utför en **GET** -begäran i arbetsflödet för att hämta URL:en för den externa signalaktivitetsutlösaren.
 
    `GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>`
 
-1. Utför en **POST** -begäran på den returnerade URL:en för att utlösa signalaktiviteten, med parametern **&quot;source&quot;** i nyttolasten. Det här attributet är obligatoriskt, vilket gör att du kan ange källan för utlösande begäran.
+1. Utför en begäran om **POST** på den returnerade URL:en för att utlösa signalaktiviteten, med parametern **&quot;source&quot;** i nyttolasten. Det här attributet är obligatoriskt, vilket gör att du kan ange källan för utlösande begäran.
 
 Om du vill anropa arbetsflödet med parametrar lägger du till dem i nyttolasten med attributet **&quot;parameters&quot;** . Syntaxen består av parameterns namn följt av dess värde (följande typer stöds: **sträng**, **tal**, **boolesk** och **datum/tid**).
 
@@ -58,13 +59,13 @@ Om du vill anropa arbetsflödet med parametrar lägger du till dem i nyttolasten
 
 >[!NOTE]
 >
->När du lägger till en parameter i nyttolasten ska du kontrollera att dess **namn** och **typvärden** överensstämmer med informationen som deklarerats i den externa signalaktiviteten. Dessutom bör nyttolastens storlek inte överstiga 64 kB.
+>När du lägger till en parameter i nyttolasten ska du se till att dess **namn** och **typvärden** överensstämmer med informationen som deklarerats i den externa signalaktiviteten. Dessutom bör nyttolastens storlek inte överstiga 64 kB.
 
 <br/>
 
 ***Exempelbegäran***
 
-Utför en GET-begäran i arbetsflödet.
+Utför en GET-förfrågan i arbetsflödet.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID> \
@@ -93,7 +94,7 @@ Den returnerar arbetsflödets signalaktivitet och den associerade utlösar-URL:e
 }
 ```
 
-Utlösa en signalaktivitet genom att utföra en POST-begäran på utlösar-URL:en med &quot;källa&quot;. Lägg till parameterattributen om du vill anropa arbetsflödet med parametrar.
+Om du vill utlösa en signalaktivitet utför du en POST på utlösar-URL:en med &quot;source&quot;. Lägg till parameterattributen om du vill anropa arbetsflödet med parametrar.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<PKEY>/activities/activity/<PKEY>/trigger \
@@ -117,7 +118,7 @@ Utlösa en signalaktivitet genom att utföra en POST-begäran på utlösar-URL:e
 
 <!-- + réponse -->
 
-Om en av parametrarna inte deklareras i den externa signalaktiviteten returnerar POST-begäran felet nedan, vilket anger vilken parameter som saknas.
+Om en av parametrarna inte deklareras i den externa signalaktiviteten returnerar POSTEN felmeddelandet nedan, vilket anger vilken parameter som saknas.
 
 ```
 RST-360011 An error has occurred - please contact your administrator.
