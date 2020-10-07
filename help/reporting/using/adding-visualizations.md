@@ -9,10 +9,11 @@ audience: reporting
 content-type: reference
 topic-tags: customizing-reports
 discoiquuid: 6170342b-7e16-4cc5-81a0-fa0bef8569a8
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '220'
+ht-degree: 1%
 
 ---
 
@@ -39,6 +40,7 @@ På fliken **Visualiseringar** kan du dra och släppa visualiseringsobjekt, till
    * **Visa dubbel axel**: Lägger till en annan axel i diagrammet.
    * **Max antal objekt**: Begränsar antalet diagram som visas.
    * **Tröskelvärde**: Här kan du ange ett tröskelvärde för diagrammet. Det visas som en svart prickad linje.
+
    ![](assets/dynamic_report_visualization_3.png)
 
 Med den här visualiseringen kan ni få en tydligare bild av era data i era rapporter.
