@@ -9,10 +9,11 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 7642ae3d027351abe1c44e173d3db50b9568bfcd
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '592'
+ht-degree: 2%
 
 ---
 
@@ -39,9 +40,9 @@ Du kan infoga en länk i valfritt sidelement: bild, ord, ordgrupp, textblock osv
 
       Du kan definiera personalisering för dina URL-adresser. Se [Anpassa URL:er](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
 
-   * **Landningssida**: ge tillgång till en landningssida för Adobe Campaign.
+   * **Landningssida**: ge tillgång till en Adobe Campaign landningssida.
    * **Prenumerationslänk**: infoga en länk för att prenumerera på en Adobe Campaign-tjänst.
-   * **Länk** för avprenumeration: infoga en länk för att avbryta prenumerationen på en Adobe Campaign-tjänst.
+   * **Länk** för avprenumeration: infoga en länk för att avbeställa en Adobe Campaign-tjänst.
    * **Länk som definierar en åtgärd**: Definiera en åtgärd när någon klickar på ett element på landningssidan.
 
       >[!NOTE]
@@ -71,13 +72,13 @@ När du redigerar ett e-postmeddelande med [e-postdesignern](../../designing/usi
 
 **Relaterade ämnen**:
 
-* [Infoga ett anpassningsfält](../../designing/using/personalization.md#inserting-a-personalization-field)
+* [Infoga ett personaliserat fält](../../designing/using/personalization.md#inserting-a-personalization-field)
 * [Lägga till innehållsblock](../../designing/using/personalization.md#adding-a-content-block)
 * [Definiera dynamiskt innehåll](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
 
 ## Om spårade URL:er {#about-tracked-urls}
 
-Med Adobe Campaign kan ni spåra beteendet hos era mottagare när de klickar på en URL som ingår i ett e-postmeddelande. Mer information om spårning finns i [det här avsnittet](../../sending/using/tracking-messages.md#about-tracking).
+Med Adobe Campaign kan du spåra mottagarnas beteende när de klickar på en URL som ingår i ett e-postmeddelande. For more on tracking, see [this section](../../sending/using/tracking-messages.md#about-tracking).
 
 Ikonen i åtgärdsfältet visar automatiskt en lista över alla URL:er för ditt innehåll som ska spåras. **[!UICONTROL Links]**
 
@@ -85,7 +86,7 @@ Ikonen i åtgärdsfältet visar automatiskt en lista över alla URL:er för ditt
 
 >[!NOTE]
 >
->Spårning är aktiverat som standard. Den här funktionen är bara tillgänglig för e-postmeddelanden om spårning har aktiverats i Adobe Campaign. Mer information om spårningsparametrar finns i [det här avsnittet](../../administration/using/configuring-email-channel.md#tracking-parameters).
+>Spårning är aktiverat som standard. Den här funktionen är bara tillgänglig för e-postmeddelanden om spårning har aktiverats i Adobe Campaign. For more on the tracking parameters, refer to [this section](../../administration/using/configuring-email-channel.md#tracking-parameters).
 
 URL, kategori, etikett och spårningstyp för varje länk kan ändras i den här listan. Om du vill redigera en länk klickar du på motsvarande pennikon.
 
