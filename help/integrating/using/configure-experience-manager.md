@@ -1,6 +1,6 @@
 ---
-title: Konfigurera integreringen mellan Campaign och Experience Manager
-description: Tack vare integreringen med Adobe Experience Manager kan ni skapa innehåll direkt i AEM och använda det senare i Adobe Campaign.
+title: Konfigurera Campaign-Experience Manager-integration
+description: Tack vare integreringen med Adobe Experience Manager kan du skapa innehåll direkt i AEM och använda det senare i Adobe Campaign.
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
 contentOwner: sauviat
@@ -9,17 +9,18 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 37b1c17234a300b092db3c810a32de3600bb8f2f
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 3%
 
 ---
 
 
-# Konfigurera integreringen mellan Campaign och Experience Manager {#configuration-aem}
+# Konfigurera Campaign-Experience Manager-integration {#configuration-aem}
 
-Integrationen mellan Adobe Campaign Standard och Adobe Experience Manager gör att ni kan använda innehåll som skapats i Adobe Experience Manager i era e-postmeddelanden från Adobe Campaign.
+Tack vare integreringen mellan Adobe Campaign Standard och Adobe Experience Manager kan du använda innehåll som skapats i Adobe Experience Manager i Adobe Campaign e-postmeddelanden.
 
 I det här användningsexemplet får du lära dig att skapa och hantera e-postinnehåll i Adobe Experience Manager och sedan använda dem för marknadsföringskampanjer genom att importera dem i e-postmeddelanden till Adobe Campaign Standard.
 
@@ -38,7 +39,7 @@ Så här konfigurerar du Adobe Campaign:
 
 1. Du måste först konfigurera det **[!UICONTROL Adobe Experience Manager instance]** externa kontot under **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts menu]**.
 
-1. Konfigurera det externa Adobe Experience Manager-typkontot med din **[!UICONTROL Server]** URL **[!UICONTROL Account]** och **[!UICONTROL Password]**.
+1. Konfigurera det externa Adobe Experience Manager-kontot med din **[!UICONTROL Server]** URL **[!UICONTROL Account]** och **[!UICONTROL Password]**.
 
    ![](assets/aem_1.png)
 
@@ -62,15 +63,15 @@ Så här konfigurerar du Adobe Campaign:
 
 1. I listrutan väljer du **[!UICONTROL Content]** i **[!UICONTROL Adobe Experience Manager]** fältet och sedan det externa konto du tidigare skapat i **[!UICONTROL Content source]** **[!UICONTROL Adobe Experience Manager account]**.
 
-Nu måste ni konfigurera integreringen i Adobe Experience Manager.
+Nu måste du konfigurera integreringen i Adobe Experience Manager.
 
 ## Konfiguration i Adobe Experience Manager {#config-aem}
 
-För att konfigurera Adobe Experience Manager med Adobe Campaign Standard måste du följa dessa steg:
+Om du vill konfigurera Adobe Experience Manager med Adobe Campaign Standard måste du följa dessa steg:
 
-1. Du måste först konfigurera replikeringen mellan redigerings- och publiceringsinstanserna för Adobe Experience Manager. Se det här [avsnittet](https://docs.adobe.com/content/help/en/experience-manager-65/administering/integration/campaignstandard.html#configuring-adobe-experience-manager).
+1. Du måste först konfigurera replikeringen mellan Adobe Experience Manager redigerings- och publiceringsinstanser. Refer to this [section](https://docs.adobe.com/content/help/en/experience-manager-65/administering/integration/campaignstandard.html#configuring-adobe-experience-manager).
 
-1. Anslut sedan Adobe Experience Manager till Adobe Campaign genom att konfigurera en dedikerad **[!UICONTROL Cloud Service]** lösning. Se det här [avsnittet](https://docs.adobe.com/content/help/en/experience-manager-65/administering/integration/campaignstandard.html#connecting-aem-to-adobe-campaign).
+1. Anslut sedan Adobe Experience Manager till Adobe Campaign genom att konfigurera en dedikerad **[!UICONTROL Cloud Service]** version. Refer to this [section](https://docs.adobe.com/content/help/en/experience-manager-65/administering/integration/campaignstandard.html#connecting-aem-to-adobe-campaign).
 
-1. Nu måste du konfigurera externaliseraren i Adobe Experience Manager på din författarinstans. Se det här [avsnittet](https://docs.adobe.com/content/help/en/experience-manager-65/administering/integration/campaignstandard.html#configuring-the-externalizer).
+1. Nu måste du konfigurera externaliseraren i Adobe Experience Manager på din författarinstans. Refer to this [section](https://docs.adobe.com/content/help/en/experience-manager-65/administering/integration/campaignstandard.html#configuring-the-externalizer).
 
