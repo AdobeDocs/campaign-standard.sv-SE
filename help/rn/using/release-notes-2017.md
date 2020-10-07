@@ -9,13 +9,11 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '4627'
+ht-degree: 8%
 
 ---
 
@@ -408,7 +406,7 @@ _Push-meddelanden_
    <td> Tack vare integreringen med Adobe Campaign och Dreamweaver har ni nu en integrerad process för att skapa e-postkampanjer med Adobe-lösningar.<br /> Du kan redigera Adobe Campaign-e-post i Dreamweaver och synkronisera innehållet sömlöst mellan båda lösningarna.<br /> I den första versionen finns integreringen som en"Labs"-funktion och fungerar endast med betaversionen av Dreamweaver Pre Release. Om du vill aktivera den kan du kontakta AC-DW-integration@adobe.com.<br /> Mer information finns i den här <a href="https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html">videon</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Manuell optimering av sändningstid<br /> </td> 
+   <td> Manual send time optimization<br /> </td> 
    <td> Du kan nu definiera en anpassad sändningstid per mottagare manuellt på leveransnivå eller med ett arbetsflöde. <br /> Det finns två nya alternativ: <br /> 
     <ul> 
      <li> Alla mottagare får meddelandet med deras tidszon i beaktande. </li> 
