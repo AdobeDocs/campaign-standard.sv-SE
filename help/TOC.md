@@ -7,7 +7,7 @@ breadcrumb-title: Campaign Standard Guide
 translation-type: tm+mt
 source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
-source-wordcount: '1652'
+source-wordcount: '1655'
 ht-degree: 98%
 
 ---
