@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: ca0d93129a259635427220dee050fe441346e0b5
 workflow-type: tm+mt
-source-wordcount: '2387'
-ht-degree: 99%
+source-wordcount: '2412'
+ht-degree: 98%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 99%
 # Senaste versionen{#latest-release}
 
 [Lanseringsplanering](../../rn/using/release-planning.md) | [Kontrollpanelsversioner](https://docs.adobe.com/content/help/sv-SE/control-panel/using/release-notes.html) | [Dokumentationsuppdateringar](../../rn/using/documentation-updates.md) | [Information gällande tidigare versioner](../../rn/using/release-notes-2020.md) | [Föråldrade funktioner](../../rn/using/deprecated-features.md)
+
+![](assets/do-not-localize/cp-icon.png) **Oktober-versionen** av den nya Kontrollpanelen med domänkonfiguration med CNAME och nya funktioner för databasövervakning. [Läs mer](https://docs.adobe.com/content/help/sv-SE/control-panel/using/release-notes.html).
 
 ## Version 20.4 - oktober 2020 {#release-20-4---october-2020}
 
