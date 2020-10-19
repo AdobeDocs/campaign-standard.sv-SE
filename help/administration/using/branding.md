@@ -11,9 +11,9 @@ topic-tags: application-settings
 discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
 context-tags: branding,overview;branding,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1250'
 ht-degree: 80%
 
 ---
@@ -92,13 +92,13 @@ Ett **varumärke** definieras av följande egenskaper:
 
 Du kan lägga till nya enheter i organisationen i Campaign eller skapa en ny typ av e-post som du måste skicka under en annan underdomän. Gör så här:
 
-1. **Delegera en ny underdomän** - För alla nya underdomäner som ska användas av Adobe är det första steget att delegera den. Detta kan ni göra via [Campaign Control Panel](https://docs.adobe.com/content/help/sv-SE/control-panel/using/subdomains-and-certificates/subdomains-branding.html) eller kontakta er Adobe tekniska kontakt. Läs mer om delegering av underdomäner [i den här artikeln](https://helpx.adobe.com/se/campaign/kb/domain-name-delegation.html).
+1. **Konfigurera en ny underdomän** - För alla nya underdomäner som ska användas av Adobe är det första steget att konfigurera den. Detta kan ni göra via [Campaign Control Panel](https://docs.adobe.com/content/help/sv-SE/control-panel/using/subdomains-and-certificates/subdomains-branding.html) eller kontakta er Adobe tekniska kontakt. Läs mer om konfiguration av underdomäner [i den här artikeln](https://helpx.adobe.com/se/campaign/kb/domain-name-delegation.html).
 
-1. **Skapa en biljett** - När underdomänen har delegerats måste Adobe konfigurera den i produktionsmiljön. Om du vill begära detta [skapar du en biljett till kundtjänst](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) med följande information:
+1. **Skapa en biljett** - När underdomänen har konfigurerats måste Adobe konfigurera den i produktionsmiljön. Om du vill begära detta [skapar du en biljett till kundtjänst](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) med följande information:
 
    * Ämne: ACS Ny varumärkeskonfiguration
 
-   * Innehåll: En ny domän har delegerats till Adobe och vi vill få den konfigurerad i vår Campaign-plattform
+   * Innehåll: En ny domän har konfigurerats och vi vill konfigurera den i vår Campaign-plattform
 
    * Domän: XXX
 
