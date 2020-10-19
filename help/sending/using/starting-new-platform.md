@@ -11,9 +11,9 @@ topic-tags: sheduling-messages
 discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '444'
 ht-degree: 2%
 
 ---
@@ -32,7 +32,7 @@ Det händer ofta att en plattform startas när en adresslista används för för
 * Om du ändå vill ange de ogiltiga adresserna är det bäst att göra detta när plattformens rykte väl har etablerats och bitvis för att &quot;tona ned&quot; användningen av dåliga adresser över tiden.
 
 Sammanfattning av de principer som ska följas vid starten:
-* **Delegera en dedikerad underdomän** till Adobe som är specifik för e-postkampanjer som skickas från Adobe.
+* **Konfigurera en dedikerad underdomän** att arbeta med Campaign som är specifik för e-postkampanjer som skickas från Adobe.
 * **Importera ogiltiga/inaktiva adresser till karantänregistret** (om du har den här informationen).
 * **Begränsa överföringshastigheten** (teknisk inställning: begränsa antalet matriser).
 * **Öka volymen som skickas** progressivt: inte för hela databasen från början, utan lägger till en extra del av listan varje gång du skickar. Detta bör göra att du kan öka volymen i varje steg och samtidigt minska den totala hastigheten för ogiltiga adresser.
