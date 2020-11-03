@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 8eaece864ca0f3795cd36ea0cc7a01737822d9e8
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 4%
+source-wordcount: '914'
+ht-degree: 3%
 
 ---
 
@@ -105,3 +105,11 @@ Läs resurserna nedan:
 * Komma igång med Launch &amp; Experience Platform SDK- [dokumentation](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)
 * Uppgradera till [dokumentationen för Experience Platform SDK](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep)
 * Github Experience Platform SDK- [dokumentation](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
+
+## Jag får felmeddelandet&quot;Du har inte skrivåtkomst vid leverans&quot; när du skapar en leverans med push-meddelanden. {#write-access-error}
+
+Kontrollera följande:
+
+* Mobilappen bör mappas till den organisationsenhet för användaren som behöver skapa och skicka push-leveranser. Användare av en underordnad organisationsenhet kan inte skapa en push-leverans med en app som är mappad till den överordnade organisationsenheten.
+
+* Kampanjen eller programmet som push-leveransen skapas i ska mappas till den organisationsenhet för användaren som behöver skapa och skicka push-leveranser. Användaren av den underordnade organisationsenheten kan inte skapa en push-leverans i en kampanj eller ett program som är mappat till den överordnade organisationsenheten.
