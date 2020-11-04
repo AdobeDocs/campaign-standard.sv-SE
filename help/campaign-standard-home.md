@@ -5,7 +5,7 @@ title: Produktdokumentation för Adobe Campaign Standard
 description: Bläddra i Campaign Standardens produktdokumentation
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 932e703ccb20ea3eefe82d7a695513076d4f4d19
+source-git-commit: 8da8c469fad3cab24046cd531ae036a79a053d75
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 91%
@@ -19,7 +19,7 @@ ht-degree: 91%
 
 ## Nyheter
 
-* **[Uppdaterad versionsplanering](rn/using/release-planning.md)**<br/>De kommande releasedatumen i januari har lagts till i lanseringsplanen
+* **[Uppdaterad versionsplanering](rn/using/release-planning.md)**<br/>Kommande releasedatum i februari 2021 har lagts till i lanseringsplaneringen
 
 * **[Kontrollgrupper](sending/using/control-group.md)**<br/>
 Mät effekten av dina kampanjer genom att utesluta en del av deras målgrupp
