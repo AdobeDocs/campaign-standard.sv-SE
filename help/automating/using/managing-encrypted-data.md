@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 4e338fb9399f85127e1d8e5f7f178a8d3d0a47cc
 workflow-type: tm+mt
 source-wordcount: '938'
 ht-degree: 3%
@@ -61,8 +61,6 @@ Så här utför du det här användningsfallet:
 
 1. I det externa systemet använder du den offentliga nyckel som hämtats från Kontrollpanelen för att kryptera de data som ska importeras till Campaign Standarden.
 
-   ![](assets/do-not-localize/gpg_external.png)
-
 1. Bygg ett arbetsflöde i Campaign Standard för att importera krypterade data och dekryptera dem med den privata nyckel som har installerats via Kontrollpanelen. För att göra detta ska vi skapa ett arbetsflöde enligt följande:
 
    ![](assets/gpg_workflow.png)
@@ -102,7 +100,7 @@ Så här utför du det här användningsfallet:
 
    ![](assets/gpg_install.png)
 
-1. Bygg ett arbetsflöde i Campaign Standard för att exportera data och exportera dem med den privata nyckel som har installerats via Kontrollpanelen. För att göra detta ska vi skapa ett arbetsflöde enligt följande:
+1. Bygg ett arbetsflöde i Campaign Standard för att exportera data och kryptera dem med den privata nyckel som har installerats via Kontrollpanelen. För att göra detta ska vi skapa ett arbetsflöde enligt följande:
 
    ![](assets/gpg-workflow-export.png)
 
@@ -127,5 +125,3 @@ Så här utför du det här användningsfallet:
    ![](assets/gpg-transfer-encrypt.png)
 
 1. Du kan nu köra arbetsflödet. När den har körts exporteras datamål som omfattas av frågan till SFTP-servern till en krypterad GPG-fil.
-
-   ![](assets/do-not-localize/gpg-sftp-encrypt.png)
