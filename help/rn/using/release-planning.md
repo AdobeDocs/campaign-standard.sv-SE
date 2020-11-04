@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: campaign-standard-release-planning
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: e57fb3ad898be580828fbe031faf0bc3664246eb
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 100%
+source-wordcount: '457'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ Alla versionsdatum kan ändras: Vi rekommenderar att du regelbundet besöker den
 
 **NYHET!** Prenumerera på [Campaign Standard-versionsmeddelande](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) för att få information om kommande versioner direkt i din inkorg.
 
-## Version 20.4 – versionen från oktober {#release-20-4-oct-release}
+## Version 21.1 - januariversion {#release-21-1-release}
 
 Miljöuppdateringar sker i vågor under de angivna tidsramarna nedan. Detaljerad information om den här versionen finns i [Versionsinformationen](../../rn/using/release-notes.md). Kontakta [Adobe Client Care](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) om du har ytterligare frågor.
 
@@ -44,16 +44,14 @@ Miljöuppdateringar sker i vågor under de angivna tidsramarna nedan. Detaljerad
  <tbody>
   <tr>
    <td>Stadie<br /> </td>
-   <td>21–23 sept 2020<br /> </td>
+   <td>11-12 jan 2021<br /> </td>
   </tr>
   <tr>
    <td> Produktion<br /> </td>
-   <td>28 sept – 5 okt 2020<br /> </td>
+   <td>18-25 jan 2021<br /> </td>
   </tr>
  </tbody>
 </table>
-
-
 
 ## Frågor och svar {#questions-and-answers}
 
