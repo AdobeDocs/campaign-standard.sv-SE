@@ -5,10 +5,10 @@ title: Produktdokumentation för Adobe Campaign Standard
 description: Bläddra i Campaign Standardens produktdokumentation
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 8da8c469fad3cab24046cd531ae036a79a053d75
+source-git-commit: 1b2c4e2105a75f31b0b895bee2de9a9a79850910
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 91%
+source-wordcount: '221'
+ht-degree: 90%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 91%
 
 ## Nyheter
 
-* **[Uppdaterad versionsplanering](rn/using/release-planning.md)**<br/>Kommande releasedatum i februari 2021 har lagts till i lanseringsplaneringen
+* **[Uppdaterad lanseringsplanering](rn/using/release-planning.md)**<br/> De kommande releasedatumen i februari 2021 har lagts till i lanseringsplaneringen
 
 * **[Kontrollgrupper](sending/using/control-group.md)**<br/>
 Mät effekten av dina kampanjer genom att utesluta en del av deras målgrupp
@@ -33,7 +33,7 @@ Använd den externa API-aktiviteten för att hämta data till arbetsflödet frå
 * **[Kom igång med mobila leveranser](https://helpx.adobe.com/se/campaign/kb/acs-mobile.html)**<br/>
 Läs mer om allmänna riktlinjer för mobila leveranser (SMS, push och i appen)
 
-[Klicka här för fler uppdateringar](rn/using/documentation-updates.md)
+[Fler uppdateringar](rn/using/documentation-updates.md)
 
 ## Översta sidor
 
