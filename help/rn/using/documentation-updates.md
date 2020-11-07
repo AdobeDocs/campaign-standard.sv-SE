@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 1b2c4e2105a75f31b0b895bee2de9a9a79850910
 workflow-type: tm+mt
-source-wordcount: '6247'
+source-wordcount: '6220'
 ht-degree: 98%
 
 ---
@@ -42,7 +42,7 @@ Ett nytt avsnitt om Bästa praxis för leverans har lagts till. [Läs mer](../..
 
 Ett avsnitt har lagts till för att beskriva de nya filter som gör det möjligt att söka efter händelsekonfigurationer utifrån deras status och till den senaste gången en händelse togs emot. [Läs mer](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events)
 
-## Dokumentationsuppdateringar - september 2020 {#doc-updates-september-2020}
+## September 2020 {#doc-updates-september-2020}
 
 Avsnittet Meddelanden för händelsetransaktioner har omorganiserats och klargjorts. [Läs mer](../../channels/using/event-transactional-messages.md)
 
@@ -54,7 +54,7 @@ Den nya Campaign Standard – integrering med Microsoft Dynamics 365 är nu till
 
 Information har lagts till om anonyma källor i rapporten Aktiva profiler. [Läs mer](../../audiences/using/active-profiles.md)
 
-## Dokumentationsuppdateringar - augusti 2020 {#doc-updates-august-2020}
+## Augusti 2020 {#doc-updates-august-2020}
 
 Ett nytt och uppdaterat avsnitt om hur du kommer igång med transaktionsmeddelanden finns nu tillgängligt. [Läs mer](../../channels/using/getting-started-with-transactional-msg.md)
 
@@ -62,7 +62,7 @@ Avsnittet **Begränsningar för transaktionsmeddelanden** har flyttats [hit](../
 
 Avsnittet **Förbered sändningen** har flyttats [hit](../../sending/using/preparing-the-send.md)
 
-## Dokumentationsuppdateringar - juli 2020 {#doc-updates-july-2020}
+## Juli 2020 {#doc-updates-july-2020}
 
 Ett nytt avsnitt har lagts till med riktlinjer gällande att övervaka Campaign Standard. [Läs mer](../../administration/using/monitoring-guidelines.md)
 
@@ -76,7 +76,7 @@ Integritetshantering på sidan Campaign Standard har uppdaterats inklusive fört
 
 Nya funktioner för AI-baserade e-postmeddelanden: skicka tidsoptimering och profilpoäng. [Läs mer](../../sending/using/predictive.md)
 
-## Dokumentationsuppdateringar – juni 2020 {#doc-updates-june-2020}
+## Juni 2020 {#doc-updates-june-2020}
 
 Användningsfall med arbetsflöden har uppdaterats och omorganiserats i tematiska avsnitt. [Läs mer](../../automating/using/about-workflow-use-cases.md)
 
@@ -88,7 +88,7 @@ Konfigurationen av det anpassade kontot Litmus har tagits bort från återgivnin
 
 Campaign Standard – integreringen av Microsoft Dynamics 365 är inte tillgänglig just nu. En ny koppling utvecklas och kommer att bli tillgänglig i framtiden. De relaterade hjälpsidorna har tagits bort. [Läs mer](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
-## Dokumentationsuppdateringar - maj 2020 {#doc-updates-may-2020}
+## Maj 2020 {#doc-updates-may-2020}
 
 Översiktssidan för Campaign Standard har berikats och omorganiserats med tematiska ämnen. [Läs mer](../../start/using/about-campaign-standard.md)
 
@@ -116,7 +116,7 @@ Ett användningsexempel har lagts till så att du kan konvertera äldre redigeri
 
 Ett avsnitt med vanliga frågor har lagts till för Email Designer. [Läs mer](../../designing/using/faq-email-designer.md)
 
-## Dokumentationsuppdateringar - april 2020 {#doc-updates-april-2020}
+## April 2020 {#doc-updates-april-2020}
 
 Integreringen av Microsoft Dynamics 365 med Adobe Campaign Standard-dokumentationen finns nu tillgänglig i huvuddokumentationen. [Läs mer](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
@@ -168,7 +168,7 @@ Avsnitten för transaktionsmeddelanden har uppdaterats för att återspegla små
 
 Information om externa API-aktivitetsskyddare har uppdaterats. [Läs mer](../../automating/using/external-api.md)
 
-## Dokumentationsuppdateringar - mars 2020 {#doc-updates-march-2020}
+## Mars 2020 {#doc-updates-march-2020}
 
 Mer detaljerad information om Förbättrad MTA har lagts till i den centrala dokumentationen särskilt när det gäller regler för e-postbearbetning och studshantering. [Läs mer](../../administration/using/configuring-email-channel.md#email-processing-rules)
 
@@ -214,7 +214,7 @@ Anteckningar har lagts till som indikerar att länkar för programservern och sp
 
 Avsnittet Export av loggar har uppdaterats för att återspegla tillgängligheten för loggID av leveranser i resurserna för leveransloggar och spårningsloggar vilket gör att du kan exportera en unik identifierare för varje logg. [Läs mer](../../automating/using/exporting-logs.md)
 
-## Dokumentationsuppdateringar - januari 2020 {#doc-updates-january-2020}
+## Januari 2020 {#doc-updates-january-2020}
 
 Leveransdokumentationen har uppdaterats med ett nytt avsnitt om IP-certifiering. [Läs mer](../../sending/using/ip-certification.md)
 
@@ -228,7 +228,7 @@ Arbetet med Campaign och Experience Manager-dokumentationen har uppdaterats med 
 
 Hemsidan för API-dokumentationen har förbättrats med omdirigeringar till de olika avsnitten. [Läs mer](../../api/using/get-started-apis.md)
 
-## Dokumentationsuppdateringar - december 2019 {#doc-updates-december-2019}
+## Nov. - dec. 2019 {#doc-updates-december-2019}
 
 Dokumentationen för det externa kontot för konfigurering av S3 har uppdaterats. [Läs mer](../../administration/using/external-accounts.md#amazon-s3-external-account)
 
@@ -237,8 +237,6 @@ Avsnittet Designa e-postinnehåll har omorganiserats. [Läs mer](../../designing
 Guiden &quot;Deliverability getting started&quot; har integrerats i kärndokumentationen och uppdaterats. [Läs mer](../../sending/using/about-deliverability.md)
 
 Kom igång-guiden om hur du exporterar/importerar anpassade resurser har integrerats i kärndokumentationen. [Läs mer](../../automating/using/exporting-importing-custom-resources.md)
-
-## Dokumentationsuppdateringar - november 2019 {#doc-updates-november-2019}
 
 Ett nytt användningsexempel har lagts till som beskriver hur du skapar en kontrollgrupp med hjälp av ett arbetsflöde i Campaign Standard.
 
@@ -282,7 +280,7 @@ Ett nytt avsnitt har lagts till som beskriver hur du formaterar länkar med Emai
 
 Sekretessrelaterad information har lagts till i API:ernas dokumentation [Klicka här](../../api/using/creating-a-privacy-request.md)
 
-## Dokumentationsuppdateringar - oktober 2019 {#doc-updates-october-2019}
+## Sept. - Oct. 2019 {#doc-updates-october-2019}
 
 Ett nytt avsnitt som är relaterat till inställningarna för Campaign Standard har lagts till. [Läs mer](../../administration/using/about-campaign-standard-settings.md)
 
@@ -291,8 +289,6 @@ Ett nytt avsnitt som beskriver hur du skickar ett automatiskt anpassat bekräfte
 Avsnittet Transactional messaging har ändrats med de senaste gränssnittsuppdateringarna inklusive redigering av innehåll med Email Designer. [Läs mer](../../channels/using/event-transactional-messages.md)
 
 Kapitlet om landningssidor har omstrukturerats. Den har också berikats med ett nytt avsnitt som beskriver stegen för att skapa en landningssida. [Läs mer](../../channels/using/getting-started-with-landing-pages.md)
-
-## Dokumentationsuppdateringar - september 2019 {#doc-updates-september-2019}
 
 Ett nytt avsnitt lades till i avsnittet Push-meddelanden om hur du skapar och uppdaterar profilinformation baserat på prenumerationsdata för mobilappar. [Läs mer](../../channels/using/updating-profile-with-mobile-app-data.md)
 
@@ -304,7 +300,7 @@ Ett meddelande om alternativet **Launch_URL_Campaign** har lagts till på sidan 
 
 Email Designer-guiden har omstrukturerats. [Läs mer](../../designing/using/designing-content-in-adobe-campaign.md)
 
-## Dokumentationsuppdateringar - augusti 2019 {#doc-updates-august-2019}
+## Augusti 2019 {#doc-updates-august-2019}
 
 Ett nytt avsnitt med användningsexempel om arbetsflöden som fokuserar på förfrågningar har lagts till. [Läs mer](../../automating/using/workflow-created-query-with-complement.md)
 
@@ -356,7 +352,7 @@ Listan med felmeddelanden för Campaign Standard och Classic har uppdaterats. [L
 
 En varning har lagts till i dokumentationen för anpassade resurser. Vi rekommenderar att du använder högst 30 tecken för anpassade resurs-ID:n. Detta gäller även anpassade resursfält, nycklar, index och länkar. [Läs mer](../../developing/using/creating-or-extending-the-resource.md)
 
-## Dokumentationsuppdateringar - juli 2019 {#doc-updates-2019}
+## Juni - juli 2019 {#doc-updates-2019}
 
 En ny sida med begränsningar för landningssidor har lagts till. [Läs mer](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
 
@@ -943,4 +939,3 @@ Länkändring: Bastjänst för resurser - [läs mer](../../integrating/using/wor
 Länkändring: Bastjänst för människor - [Läs mer](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
 Profiler och målgruppsguiden har omstrukturerats. [Läs mer](../../audiences/using/get-started-profiles-and-audiences.md)
-
