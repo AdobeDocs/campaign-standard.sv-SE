@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '803'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 När arbetsflödet har utlösts hämtas parametrarna in i händelsevariablerna och kan användas för att anpassa arbetsflödets aktiviteter.
 
-De kan till exempel användas för att definiera vilken målgrupp som ska läsas i **[!UICONTROL Read audience]** aktiviteten, namnet på filen som ska överföras i **[!UICONTROL Transfer file]** aktiviteten osv. (see [](../../automating/using/customizing-workflow-external-parameters.md)).
+De kan till exempel användas för att definiera vilken målgrupp som ska läsas i **[!UICONTROL Read audience]** aktiviteten, namnet på filen som ska överföras i **[!UICONTROL Transfer file]** aktiviteten osv. (see [this page](../../automating/using/customizing-workflow-external-parameters.md)).
 
 ## Använda händelsevariabler {#using-events-variables}
 
@@ -49,13 +49,13 @@ När du använder en variabel i en aktivitet får du hjälp att anropa den i gr�
 
    ![](assets/wkf_test_activity_variables.png)
 
-* ![](assets/extsignal_expression_editor.png): redigera uttryck genom att kombinera variabler och funktioner (se [](../../automating/using/advanced-expression-editing.md)).
+* ![](assets/extsignal_expression_editor.png): redigera uttryck genom att kombinera variabler och funktioner (se [den här sidan](../../automating/using/advanced-expression-editing.md)).
 
    ![](assets/wkf_test_activity_variables_expression.png)
 
    Den här listan innehåller funktioner som gör att du kan utföra komplex filtrering. De här funktionerna beskrivs i [det här avsnittet](../../automating/using/list-of-functions.md).
 
-   Du kan dessutom använda funktionerna nedan, som är tillgängliga i alla aktiviteter som gör att du kan använda händelsevariabler efter att du har anropat ett arbetsflöde med externa parametrar (se [](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)):
+   Du kan dessutom använda funktionerna nedan, som är tillgängliga i alla aktiviteter som gör att du kan använda händelsevariabler efter att du har anropat ett arbetsflöde med externa parametrar (se [det här avsnittet](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)):
 
    | Namn | Beskrivning | Syntax |
    ---------|----------|---------
