@@ -11,10 +11,10 @@ topic-tags: execution-activities
 discoiquuid: 2650bf1f-0bce-4049-a226-2369f6666b95
 context-tags: jstest,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 91%
+source-wordcount: '172'
+ht-degree: 90%
 
 ---
 
@@ -50,7 +50,7 @@ Villkoren kan baseras på **funktioner** eller på **variabler** som exempelvis 
 
    När du redigerar **[!UICONTROL Condition]**-fältet så kan du använda två knappar för att anropa händelsevariabler och redigera uttryck som kombinerar variabler och funktioner:
 
-   * ![](assets/extsignal_picker.png): välj händelsvariabeln bland alla variabler som är tillgängliga i arbetsflödet (se [](../../automating/using/customizing-workflow-external-parameters.md))
+   * ![](assets/extsignal_picker.png): välj händelsvariabeln bland alla variabler som är tillgängliga i arbetsflödet (se [den här sidan](../../automating/using/customizing-workflow-external-parameters.md))
 
       ![](assets/wkf_test_activity_variables.png)
 
