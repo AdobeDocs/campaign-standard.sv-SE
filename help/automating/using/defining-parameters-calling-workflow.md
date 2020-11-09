@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 12%
+source-wordcount: '188'
+ht-degree: 13%
 
 ---
 
@@ -24,7 +24,7 @@ I det här avsnittet beskrivs hur du definierar parametrar när du anropar ett a
 
 Innan du definierar parametrarna bör du kontrollera att:
 
-* Parametrarna har deklarerats i **[!UICONTROL External Signal]** aktiviteten. Se [](../../automating/using/declaring-parameters-external-signal.md).
+* Parametrarna har deklarerats i **[!UICONTROL External Signal]** aktiviteten. Läs [den här sidan](../../automating/using/declaring-parameters-external-signal.md).
 * Arbetsflödet som innehåller signalaktiviteten körs.
 
 Följ stegen nedan för att konfigurera **[!UICONTROL End]** aktiviteten:
@@ -33,7 +33,7 @@ Följ stegen nedan för att konfigurera **[!UICONTROL End]** aktiviteten:
 1. Välj arbetsflödet och den externa signalaktivitet som du vill anropa.
 1. Klicka på **[!UICONTROL Create element]** knappen för att lägga till en parameter och fyll sedan i dess namn och värde.
 
-   * **[!UICONTROL Name]**: namnet som har deklarerats i **[!UICONTROL External signal]** aktiviteten (se [](../../automating/using/declaring-parameters-external-signal.md)).
+   * **[!UICONTROL Name]**: namnet som har deklarerats i **[!UICONTROL External signal]** aktiviteten (se [den här sidan](../../automating/using/declaring-parameters-external-signal.md)).
    * **[!UICONTROL Value]**: värdet som du vill tilldela parametern. Värdet ska följa **standardsyntaxen** som beskrivs i [det här avsnittet](../../automating/using/advanced-expression-editing.md#standard-syntax).
 
    ![](assets/extsignal_definingparameters_2.png)
