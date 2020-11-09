@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1071'
 ht-degree: 93%
 
 ---
@@ -110,7 +110,7 @@ Mer information finns i [Schemaläggaraktivitet](../../automating/using/schedule
 
 ## Anropa arbetsflöde med parametrar{#workflow-with-parameters}
 
-Kontrollera att parameterns namn och antal är identiska med vad som är definierat när arbetsflödet anropas (se [](../../automating/using/defining-parameters-calling-workflow.md). Parametrarnas typer måste även vara konsekventa med de värden som förväntas.
+Kontrollera att parameterns namn och antal är identiska med vad som är angivet när arbetsflödet anropas (se [den här sidan](../../automating/using/defining-parameters-calling-workflow.md)). Parametrarnas typer måste även vara konsekventa med de värden som förväntas.
 
 Kontrollera att alla parametrar har deklarerats i **[!UICONTROL External signal activity]**. Annars inträffar ett fel när aktiviteten körs.
 
