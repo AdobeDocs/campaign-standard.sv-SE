@@ -11,10 +11,10 @@ topic-tags: targeting-activities
 discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
 context-tags: query,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '1708'
-ht-degree: 96%
+source-wordcount: '1710'
+ht-degree: 95%
 
 ---
 
@@ -61,7 +61,7 @@ Aktiviteten **[!UICONTROL Query]** kan användas för olika typer av användning
 
 1. Under **[!UICONTROL Transition]**-fliken kan du med **[!UICONTROL Enable an outbound transition]**-alternativet lägga till en utgående övergång efter förfrågnings-aktiviteten, även om ingen data hämtats.
 
-   The outbound transition&#39;s segment code can be personalized using a standard expression and events variables (see [](../../automating/using/customizing-workflow-external-parameters.md)).
+   The outbound transition&#39;s segment code can be personalized using a standard expression and events variables (see [this page](../../automating/using/customizing-workflow-external-parameters.md)).
 
 1. Bekräfta aktivitetens konfiguration och spara arbetsflödet.
 
