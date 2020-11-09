@@ -11,7 +11,7 @@ topic-tags: execution-activities
 discoiquuid: 911c71b5-da8b-4916-b645-13bba6d21715
 context-tags: signal,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 96%
@@ -54,7 +54,7 @@ När du konfigurerar en extern signal är det viktigt att först konfigurera **[
 1. Markera aktiviteten och öppna den sedan med knappen ![](assets/edit_darkgrey-24px.png) bland de snabbåtgärder som visas.
 1. Redigera aktivitetens etikett. Den här etiketten behövs när du konfigurerar det källarbetsflöde som utlöser **[!UICONTROL External signal]**.
 
-   Om du vill anropa arbetsflödet med parametrar använder du området **[!UICONTROL Parameters]** för att deklarera dem. Mer information om detta finns i det här avsnittet: [](../../automating/using/declaring-parameters-external-signal.md).
+   Om du vill anropa arbetsflödet med parametrar använder du området **[!UICONTROL Parameters]** för att deklarera dem. Se denna [sida](../../automating/using/declaring-parameters-external-signal.md) för mer information om detta.
 
    ![](assets/external_signal_configuration.png)
 
@@ -76,7 +76,7 @@ När du konfigurerar en extern signal är det viktigt att först konfigurera **[
 
    När du anger en **[!UICONTROL End]**-aktivitet som ska utlösa ett annat arbetsflöde uppdateras dess ikon med en extra signatursymbol.
 
-   Om du vill anropa arbetsflödet med parametrar använder du området **[!UICONTROL Parameters and values]**. Mer information om detta finns i det här avsnittet: [](../../automating/using/defining-parameters-calling-workflow.md).
+   Om du vill anropa arbetsflödet med parametrar använder du området **[!UICONTROL Parameters and values]**. Se denna [sida](../../automating/using/defining-parameters-calling-workflow.md) för mer information om detta.
 
    ![](assets/external_signal_end.png)
 
