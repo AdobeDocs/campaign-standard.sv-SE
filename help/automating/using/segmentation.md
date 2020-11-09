@@ -11,9 +11,9 @@ topic-tags: targeting-activities
 discoiquuid: 0ccd9d02-772e-406b-874a-5381dd0c8709
 context-tags: segmentation,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '851'
 ht-degree: 92%
 
 ---
@@ -64,7 +64,7 @@ Aktiviteten **[!UICONTROL Segmentation]** placeras vanligtvis efter målaktivite
    * **[!UICONTROL Limit segment population]**: använder du för att begränsa storleken på segmentet.
    * **[!UICONTROL Filter and limit segment population]**: här kan du filtrera populationen av segmentet och begränsa dess storlek.
    * **[!UICONTROL Label]**: segmentets etikett.
-   * **[!UICONTROL Segment code]**: kod som är tilldelad segmentpopulationen. Segmentkoden kan anpassas med ett standarduttryck och händelsevariabler (se [](../../automating/using/customizing-workflow-external-parameters.md)).
+   * **[!UICONTROL Segment code]**: kod tilldelad segmentpopulationen. Segmentkoden kan anpassas med ett standarduttryck och händelsemariabler (se [den här sidan](../../automating/using/customizing-workflow-external-parameters.md)).
    * **[!UICONTROL Exclude segment from population]**: gör så att du kan utesluta det angivna segmentet från aktivitetens utgående population.  Det här alternativet kan endast användas om alternativet **[!UICONTROL Generate all segments in the same transition]** är markerat.
 
    ![](assets/wkf_segment_new_segment.png)
@@ -91,7 +91,6 @@ Aktiviteten **[!UICONTROL Segmentation]** placeras vanligtvis efter målaktivite
       >[!NOTE]
       >
       >Olika begränsningar för varje enskilt värde kan användas.  Du kan exempelvis ange en gruppering för fält **[!UICONTROL Gender]** och begränsa populationen med **[!UICONTROL Male]**-medlemmar till 10 och **[!UICONTROL Female]**-medlemmar till 30 personer.  Om du använder flera fält för datagruppering måste alla grupperingar ha samma storlek.
-
    ![](assets/wkf_segment_limit_by_grouping.png)
 
 1. Bekräfta konfigurationen av segmentet.
