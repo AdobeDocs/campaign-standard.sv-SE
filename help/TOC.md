@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Hjälp för Adobe Campaign Standard Centrera
 breadcrumb-title: Campaign Standard Guide
 translation-type: tm+mt
-source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
+source-git-commit: 424123972ae189d15a2282b6065190dac4a89d5d
 workflow-type: tm+mt
-source-wordcount: '1655'
-ht-degree: 98%
+source-wordcount: '1658'
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,9 @@ ht-degree: 98%
    + [Inaktuella funktioner](rn/using/deprecated-features.md)
 + Komma igång {#getting-started}
    + [Om Adobe Campaign Standard](start/using/about-campaign-standard.md)
-   + [Sekretess och samtycke](start/using/privacy.md)
+   + Integritet {#privacy}
+      + [Sekretess och samtycke](start/using/privacy.md)
+      + [Integritetshantering](start/using/privacy-management.md)
    + Upptäcka gränssnittet {#discovering-the-interface}
       + [Om gränssnittet](start/using/about-the-interface.md)
       + [Beskrivning av gränssnitt](start/using/interface-description.md)
@@ -74,11 +76,11 @@ ht-degree: 98%
       + [Kontrollpanel för meddelanden](channels/using/message-dashboard.md)
       + [Mallar för flerspråkiga meddelanden](channels/using/multilingual-messages-template.md)
    + Bästa praxis för leverans {#delivery-bestpractices}
-      + [Lär dig god praxis](sending/using/delivery-best-practices.md)
-      + [Optimera leveransen](sending/using/optimize-delivery.md)
-      + [Använd mallar](sending/using/use-templates.md)
+      + [Lär dig bästa praxis](sending/using/delivery-best-practices.md)
+      + [Optimera leverans](sending/using/optimize-delivery.md)
+      + [Använda mallar](sending/using/use-templates.md)
       + [Skapa personaliserat innehåll](sending/using/design-and-personalize.md)
-      + [Definiera rätt målgrupp](sending/using/define-the-right-audience.md)
+      + [Definiera rätt publik](sending/using/define-the-right-audience.md)
       + [Kontrollera före sändning](sending/using/check-before-sending.md)
       + [Spåra och övervaka](sending/using/track-and-monitor.md)
    + E-postmeddelanden {#email-messages}
