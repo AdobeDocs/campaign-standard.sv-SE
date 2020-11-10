@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 7f0af4deeaf641e2aded9278b97eb498edd85d08
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1456'
 ht-degree: 3%
 
 ---
@@ -40,7 +40,7 @@ För att kunna hantera personuppgifter på ett korrekt sätt bör du arbeta i en
 
 >[!NOTE]
 >
->Mer information om hur GDPR, CCPA och PDPA gäller för Adobe Campaign finns på [den här sidan](https://helpx.adobe.com/se/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
+>Mer information om hur GDPR, CCPA och PDPA gäller för Adobe Campaign finns i [det här avsnittet](../../start/using/privacy-management.md#privacy-management-regulations).
 
 ### Adobe Experience Cloud privacy {#experience-cloud-privacy}
 
@@ -78,7 +78,7 @@ När sekretessen hanteras är det viktigt att definiera vilka data som ska hante
 * **Personuppgifter** är information som direkt eller indirekt kan identifiera en levande individ.
 * **Känsliga personuppgifter** är information som rör en individs ras, politiska åsikter, religiösa övertygelser, kriminell bakgrund, genetiska uppgifter, hälsodata, sexuella preferenser, biometrisk information samt medlemskap i fackföreningar.
 
-De [viktigaste lagstiftningarna](#privacy-regulations) avser de olika enheter som hanterar uppgifter enligt följande:
+De [viktigaste föreskrifterna](#privacy-regulations) avser de olika enheter som hanterar data enligt följande:
 * En **personuppgiftsansvarig** är den myndighet som bestämmer hur och syftet med att samla in, använda och dela personuppgifter.
 * En **dataprocessor** är en person eller part som samlar in, använder eller delar personuppgifter enligt den personuppgiftsansvariges anvisningar.
 * En **registrerad** är en levande person vars personuppgifter samlas in, används eller delas och som direkt eller indirekt kan identifieras genom hänvisning till dessa personuppgifter.
@@ -98,12 +98,12 @@ Med Adobe Campaign kan ni samla in data, inklusive personuppgifter och känslig 
 
 ## Integritetshantering {#privacy-management}
 
-Integritetshantering avser alla processer och verktyg som kan hjälpa er att följa sekretessbestämmelser (GDPR, CCPA, etc.). Få en översikt över vilken sekretesshantering som finns på [den här sidan](https://helpx.adobe.com/se/campaign/kb/campaign-privacy-overview.html).
+Integritetshantering avser alla processer och verktyg som kan hjälpa er att följa sekretessbestämmelser (GDPR, CCPA, etc.). Få en översikt över hur sekretessen hanteras på [den här sidan](../../start/using/privacy-management.md).
 
 Adobe Campaign tillhandahåller olika funktioner för sekretesshantering:
 * Hantering av samtycke, datalagring och användarroller. Se [det här avsnittet](#consent).
 * Sekretessförfrågningar (rätt till åtkomst och rätt att bli glömd). Se [det här avsnittet](#privacy-requests).
-* Avanmäl dig från försäljning av personuppgifter (CCPA-specifik). Se [det här avsnittet](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa).
+* Avanmäl dig från försäljning av personuppgifter (CCPA-specifik). Se [det här avsnittet](https://helpx.adobe.com/se/campaign/kb/acs-privacy.html#ccpa).
 
 De viktigaste sekretessfunktionerna i Campaign och ett exempel på vilka personer som berörs presenteras i [det här avsnittet](https://helpx.adobe.com/campaign/kb/campaign-privacy-more.html#gdprpersonasandflow).
 
@@ -116,7 +116,7 @@ Ursprungligen har Adobe Campaign viktiga funktioner som är viktiga för sekrete
 * **Datalagring**: Alla inbyggda standardloggtabeller har förinställda lagringsperioder, vilket i allmänhet begränsar datalagringen till 6 månader eller mindre. Ytterligare kvarhållningsperioder kan ställas in med arbetsflöden. Mer information får du om du kontaktar konsulterna eller teknikadministratörerna på Adobe.
 * **Rättighetshantering**: Adobe Campaign ger er möjlighet att hantera de rättigheter som tilldelats olika Campaign-operatorer via olika färdiga eller anpassade roller. På så sätt kan du hantera vilka inom företaget som kan få åtkomst till, ändra eller exportera olika typer av data. Mer information finns i [Om åtkomsthantering](../../administration/using/about-access-management.md).
 
-Mer information om dessa funktioner och hur du hanterar dem i Adobe Campaign finns på [den här sidan](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#consent).
+Mer information om dessa funktioner och hur du hanterar dem i Adobe Campaign finns i [det här avsnittet](../../start/using/privacy-management.md#consent-retention-roles).
 
 ### Sekretessförfrågningar {#privacy-requests}
 
@@ -128,7 +128,7 @@ Adobe Campaign erbjuder ytterligare funktioner som hjälper dig att underlätta 
 
 >[!NOTE]
 >
->Den här verktygsuppsättningen är här för att hjälpa dig att uppfylla dina krav på sekretess för GDPR, CCPA och PDPA. Mer information om de olika reglerna finns på [den här sidan](https://helpx.adobe.com/se/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
+>Den här verktygsuppsättningen är här för att hjälpa dig att uppfylla dina krav på sekretess för GDPR, CCPA och PDPA. Mer information om de här olika reglerna finns i [det här avsnittet](../../start/using/privacy-management.md#privacy-management-regulations).
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
@@ -140,7 +140,7 @@ Begäran om **åtkomst** och **borttagning** visas på [den här sidan](https://
 
 ## Spårningsfunktioner {#tracking-capabilities}
 
-Tack vare spårningsfunktionerna i Adobe Campaign kan du spåra hur leveransmottagarna beter sig med hjälp av sessionscookies och permanenta cookies. For more on tracking, see [this page](../../sending/using/tracking-messages.md).
+Tack vare spårningsfunktionerna i Adobe Campaign kan du spåra hur leveransmottagarna beter sig med hjälp av sessionscookies och permanenta cookies. For more on tracking, see [this section](../../sending/using/tracking-messages.md).
 
 >[!NOTE]
 >
