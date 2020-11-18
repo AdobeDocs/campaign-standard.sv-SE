@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Hjälp för Adobe Campaign Standard Centrera
 breadcrumb-title: Campaign Standard Guide
 translation-type: tm+mt
-source-git-commit: 424123972ae189d15a2282b6065190dac4a89d5d
+source-git-commit: fe3e9e17993846f8f8c5b4afbab6ad8e348c33ed
 workflow-type: tm+mt
-source-wordcount: '1658'
+source-wordcount: '1660'
 ht-degree: 99%
 
 ---
@@ -31,6 +31,7 @@ ht-degree: 99%
    + Integritet {#privacy}
       + [Sekretess och samtycke](start/using/privacy.md)
       + [Integritetshantering](start/using/privacy-management.md)
+      + [Sekretessförfrågningar](start/using/privacy-requests.md)
    + Upptäcka gränssnittet {#discovering-the-interface}
       + [Om gränssnittet](start/using/about-the-interface.md)
       + [Beskrivning av gränssnitt](start/using/interface-description.md)
