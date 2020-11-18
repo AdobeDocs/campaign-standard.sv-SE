@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 translation-type: tm+mt
-source-git-commit: 5667b18dfc9bceb52765d98d3c842d9aad1bc004
+source-git-commit: 18cd7a2956a16972b41a797e580cc68ac76abdc8
 workflow-type: tm+mt
-source-wordcount: '6235'
+source-wordcount: '6239'
 ht-degree: 98%
 
 ---
@@ -24,7 +24,7 @@ Förutom [versionsinformationen](../../rn/using/release-notes.md) för Adobe Cam
 
 ## November 2020 {#doc-updates-november-2020}
 
-Sektionen Sekretess har flyttats och berikats med en ny sida: [Integritetshantering](../../start/using/privacy-management.md).
+Sektionen Sekretess har flyttats och berikats med två nya sidor: [Sekretesshantering](../../start/using/privacy-management.md) och [hantering av förfrågningar](../../start/using/privacy-requests.md)om sekretess.
 
 ## Version 20.4 - oktober 2020 {#release-20-4---october-2020}
 
