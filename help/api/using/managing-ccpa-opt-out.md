@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 9240686a36146b45de6dfd07fc50a71fab663001
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 3%
+source-wordcount: '148'
+ht-degree: 4%
 
 ---
 
@@ -31,7 +31,7 @@ En profils CCPA-avanmälningsstatus kan övervakas och hanteras med **attributet
 >
 >Attributet &quot;CCPA Opt-Out&quot; är endast tillgängligt från och med 19.4. I 19.3-miljöer måste du utöka profilresursen och lägga till ett booleskt fält. Det här fältet läggs till i API:t med den valda etiketten. Vi föreslår att du använder&quot;Avanmäl dig för CCPA&quot;.
 >
->For more on this, refer to the [Privacy management documentation](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa).
+>Mer information finns i dokumentationen [om](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)sekretessförfrågningar.
 
 <br/>
 
