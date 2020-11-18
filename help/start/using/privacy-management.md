@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 translation-type: tm+mt
-source-git-commit: 7f0af4deeaf641e2aded9278b97eb498edd85d08
+source-git-commit: 2dc4ac62e3b10753f7b8681d86cfe7f3b3a30a20
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 1%
+source-wordcount: '928'
+ht-degree: 0%
 
 ---
 
@@ -49,7 +49,7 @@ För att underlätta beredskapen för din integritet kan du med Adobe Campaign h
 
 * Den **rättighet som ska tas bort** ger den registrerade rätt att låta den registrerade radera sina personuppgifter, upphöra med vidarespridning av uppgifterna och eventuellt låta tredje part stoppa behandlingen av uppgifterna.
 
-Om du vill veta hur du kan skapa **Access** - och **Delete** -begäranden och hur Adobe Campaign behandlar dem läser du [implementeringsstegen](https://helpx.adobe.com/se/campaign/kb/acs-privacy.html).
+Om du vill veta hur du kan skapa **Access** - och **Delete** -begäranden och hur Adobe Campaign behandlar dem läser du [implementeringsstegen](../../start/using/privacy-requests.md#about-privacy-requests).
 
 Tutorials om sekretesshantering inom Campaign Standard finns också [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=en#privacy).
 
@@ -71,7 +71,7 @@ Funktionerna för att hantera vissa aspekter av samtycke har varit centrala för
 
 Mer information om hantering av samtycke finns i [Om prenumerationer](../../audiences/using/about-subscriptions.md) och [Kom igång med landningssidor](../../channels/using/getting-started-with-landing-pages.md).
 
-Förutom de verktyg för hantering av samtycke som Adobe Campaign tillhandahåller har ni möjlighet att spåra om en konsument har valt ut för försäljning av personuppgifter. Se [det här avsnittet](https://helpx.adobe.com/se/campaign/kb/acs-privacy.html#ccpa).
+Förutom de verktyg för hantering av samtycke som Adobe Campaign tillhandahåller har ni möjlighet att spåra om en konsument har valt ut för försäljning av personuppgifter. Se [det här avsnittet](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
 
 ### Datalagring {#data-retention}
 
