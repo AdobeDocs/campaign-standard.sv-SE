@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Lista över roller
 description: Ta reda på listan med roller som du kan tilldela dina användare.
-page-status-flag: never-activated
-uuid: 128aaf9b-9b7d-49f3-9e1f-72e79a29baa0
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-discoiquuid: ceaa3c94-9e1a-4271-b443-b00b4068929f
 context-tags: role,overview;role,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 93%
