@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Spara målgrupp
 description: Med aktiviteten Spara målgrupp kan du uppdatera en befintlig målgrupp eller skapa en ny målgrupp utifrån population som beräknas uppströms i ett arbetsflöde.
-page-status-flag: never-activated
-uuid: 8babb173-fa59-44a7-a2a5-49f45ba6bf99
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 1f6bb048-7abd-499b-a4b0-187f9492dc47
 context-tags: saveAudience,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 100%
@@ -67,7 +64,6 @@ Aktiviteten **[!UICONTROL Save audience]** används i huvudsak för att hålla p
       >[!NOTE]
       >
       >Det här alternativet är endast tillgängligt om administratören har konfigurerat funktionerna för delade målgrupper med Adobe Experience Cloud.  Mer information finns under [Arbeta med Campaign och People Core Service](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
-
    Vilken typ av målgrupper som sparas eller finns tillgänglig under en uppdatering beror på vilka aktiviteter som läggs upp i arbetsflödet.
 
    Om målgruppsdimensionen är okänd när den sparas (exempelvis om den kommer från en importerad fil) skapas eller uppdateras målgruppen som en **[!UICONTROL File]** typgrupp.
