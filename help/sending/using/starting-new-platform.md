@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Starta en ny plattform med Adobe Campaign Standard
 description: Lär dig hur du konfigurerar en ny plattform samtidigt som du bibehåller domänens och IP-adressens anseende med Adobe Campaign Standard.
-page-status-flag: never-activated
-uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 2%
