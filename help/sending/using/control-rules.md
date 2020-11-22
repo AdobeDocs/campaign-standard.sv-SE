@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Kontrollregler
 description: Lär dig hur ni kan förbättra kvalitetskontrollen av era meddelanden med kontrollregler.
-page-status-flag: never-activated
-uuid: 33a1c90c-534e-4fe1-982c-f4e1858d4d2d
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-discoiquuid: 305cadde-6424-4c6f-b11b-1e8bdbad6ef1
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 3%
