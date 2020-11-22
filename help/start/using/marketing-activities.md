@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Marknadsföringsaktiviteter
 description: '"Lär dig hur du skapar och hanterar dina marknadsföringsaktiviteter: kampanjer, E-post, SMS & push-meddelanden, landningssidor, arbetsflöden. Du kan enkelt skapa en ny aktivitet, redigera en befintlig och se status och giltighet för den."'
-page-status-flag: never-activated
-uuid: 5d45a935-6d03-4b27-aabd-7c47c11241ba
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: marketing-plans
-discoiquuid: 3ba165e1-420f-4d6f-b339-467b066b42d0
 context-tags: activity,overview
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 83%
