@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Senaste versionen
 description: På denna sida beskrivs innehållet i den senaste versionen av Campaign Standard
-page-status-flag: never-activated
-uuid: 1cf2e40c-beca-43db-8261-a1820ee86ad3
-contentOwner: vignes
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 translation-type: tm+mt
-source-git-commit: ca0d93129a259635427220dee050fe441346e0b5
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '2412'
 ht-degree: 98%
