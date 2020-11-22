@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Filtreringsregler
 description: Använd filtreringsregler för att förfina publikationen i dina meddelanden.
-page-status-flag: never-activated
-uuid: ed3eea62-3a47-4318-ae22-d82aa857448f
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 3%
