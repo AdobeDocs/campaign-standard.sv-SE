@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Versionsinformation 2018
 description: Den här sidan innehåller alla 2018-versioner av Adobe Campaign Standard.
-page-status-flag: never-activated
-uuid: 99f92a54-4b3d-48b9-b08d-e98b24e75f62
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '5400'
 ht-degree: 6%
@@ -105,7 +102,7 @@ Se de senaste [dokumentationsuppdateringarna](../../rn/using/documentation-updat
  <tbody> 
   <tr> 
    <td> Flagga med hög prioritet för Android-push-meddelanden<br /> </td> 
-   <td> Flagga med hög prioritet för Android - Aktivera leverans av ett push-meddelande med hög prioritet för Android-program, vilket får enheten att väcka och köra begränsad bearbetning. Observera att standardprioriteten är Normal, vilket kan fördröja meddelandeleveransen för att spara batteri. <br /> Mer information finns i den <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Flagga med hög prioritet för Android - Aktivera leverans av ett push-meddelande med hög prioritet för Android-program, vilket gör att vilolägesenheten vaknar och kör begränsad bearbetning. Observera att standardprioriteten är Normal, vilket kan fördröja meddelandeleveransen för att spara batteri. <br /> Mer information finns i den <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Typologifilter för mobilappsprenumerationer<br /> </td> 
