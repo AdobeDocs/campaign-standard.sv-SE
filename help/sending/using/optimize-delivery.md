@@ -1,25 +1,21 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Optimera meddelandeleveransen
-seo-title: Optimera meddelandeleveransen
-page-status-flag: never-activated
-uuid: a540efc7-105d-4c7f-a2ee-ade4d22b3445
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: a7300666587362048431d0bafacc317170b317aa
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '732'
 ht-degree: 6%
 
 ---
 
 
-# Optimera leveransen {#optimize-delivery}
+# Optimera leverans {#optimize-delivery}
 
 Innan du ens börjar skapa leveranser kan du vidta flera åtgärder för att skydda och optimera sändningsprocessen uppströms.
 
@@ -29,7 +25,7 @@ I följande avsnitt beskrivs god praxis och rekommenderade procedurer för optim
 
 Flera faktorer kan direkt påverka serverprestanda och göra plattformen långsammare:
 
-* Antal och typ av personaliseringselement: personalisering i e-post hämtar data från databasen för varje mottagare. Om det finns många personaliseringselement ökar detta mängden data som behövs för att förbereda leveransen.  Läs mer om e-postpersonalisering i [det här avsnittet](../../designing/using/personalization.md)
+* Antal och typ av personaliseringselement: personalisering i e-post hämtar data från databasen för varje mottagare. Om det finns många personaliseringselement ökar detta mängden data som behövs för att förbereda leveransen.  Learn more about email personalization in [this section](../../designing/using/personalization.md)
 
 * Serverbelastningen: när Campaign hanterar många olika uppgifter samtidigt kan det göra prestandan långsammare. Servern måste koordinera alla inkommande och utgående data för alla leveranser för att säkerställa att data är korrekta och i tid.
 
