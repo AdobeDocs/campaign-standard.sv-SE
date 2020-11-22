@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Förstå Campaign Standardens nyttolaststruktur för push-meddelanden
 description: Det här dokumentet är avsett att beskriva strukturen för den nyttolast som tas emot i mobilprogram.
-page-status-flag: never-activated
-uuid: 961aaeb5-6948-4fd2-b8d7-de4510c10566
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: push-notifications
-discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 3%
@@ -81,7 +78,7 @@ Nyttolastattributen och deras värden varierar beroende på de konfigurationer s
     "_mId":"h138a"} 
 ```
 
-**JSON-provnyttolast som ska användas med APNS-testaren i[iOS](https://pushtry.com/)**
+**JSON-provnyttolast som ska användas med APNS-testaren i [iOS](https://pushtry.com/)**
 
 ```
 {
@@ -155,7 +152,7 @@ Detaljerad information om attributen i appar finns i Apples utvecklardokument: [
 }
 ```
 
-**JSON-provnyttolast för användning av[Google FCM-testare](https://pushtry.com/)**
+**JSON-provnyttolast för användning av [Google FCM-testare](https://pushtry.com/)**
 
 ```
 {
