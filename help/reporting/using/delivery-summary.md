@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Sammanfattning av leverans
 description: Med en färdig leveranssammanfattning får du veta leveransstatistik, t.ex. antal utskick, studsar och öppningar.
-page-status-flag: never-activated
-uuid: 9f64a430-8fee-4c4c-96e6-2913f4d6b831
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 536067df-d16d-472a-850a-5fb7c609d60a
 context-tags: deliveryCirculationReport,main;campaignCirculationReport,main;programCirculationReport,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 1%
