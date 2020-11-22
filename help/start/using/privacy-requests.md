@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Sekretessförfrågningar
 description: Läs om hur du hanterar sekretessförfrågningar i Adobe Campaign Standard
-page-status-flag: never-activated
-uuid: ed9e631c-5ad1-49f1-be1e-b710bc64dc91
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 translation-type: tm+mt
-source-git-commit: 06b886989243405df04b4abef46994afd980f6d8
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1711'
 ht-degree: 0%
@@ -64,7 +61,7 @@ Se även den här [självstudiekursen](https://experienceleague.adobe.com/docs/c
 
    ![](assets/privacy-namespace-create.png)
 
-1. Ange ett **[!UICONTROL Label]** värde.
+1. Ange en **[!UICONTROL Label]**.
 
    ![](assets/privacy-namespace-label.png)
 
@@ -84,7 +81,7 @@ Se även den här [självstudiekursen](https://experienceleague.adobe.com/docs/c
 
    ![](assets/privacy-namespace-target-mapping.png)
 
-1. Välj **[!UICONTROL Reconciliation key]**. Detta är det fält som ska användas för att identifiera den registrerade i Adobe Campaign-databasen.
+1. Välj **[!UICONTROL Reconciliation key]**. Detta är det fält som kommer att användas för att identifiera den registrerade i Adobe Campaign-databasen.
 
    ![](assets/privacy-namespace-reconciliation-key.png)
 
