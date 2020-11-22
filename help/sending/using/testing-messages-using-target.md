@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Testa e-post med målprofiler
 description: Lär dig hur du testar meddelanden med målprofiler och ersättningsadresser.
-page-status-flag: never-activated
-uuid: eb4d893b-3724-4b15-9312-1ec74784368d
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1502'
 ht-degree: 4%
