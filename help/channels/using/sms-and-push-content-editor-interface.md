@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Gränssnitt för SMS- och push-innehållsredigerare
 description: Lär dig hur du använder de olika delarna i redigeraren för att ändra ditt SMS- och push-innehåll.
-page-status-flag: never-activated
-uuid: 4af5d247-555b-45c5-95a7-cb27f356b5a0
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: editing-sms-and-push-content
-discoiquuid: 4e214eb9-d299-4095-b786-8d1de9b1c8a2
 context-tags: delivery,smsContent,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 100%
