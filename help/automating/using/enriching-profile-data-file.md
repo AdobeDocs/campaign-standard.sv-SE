@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Förbättra profildata med data som finns i en fil
 description: I det här exemplet visas hur du förbättrar profildata med inköpsdata som finns i en fil.
-page-status-flag: never-activated
-uuid: 8c1693ef-1312-422c-b05d-263553113f8f
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: f67c1caf-3284-4c34-a5b0-8654a95640ae
 context-tags: enrichment,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 78%
