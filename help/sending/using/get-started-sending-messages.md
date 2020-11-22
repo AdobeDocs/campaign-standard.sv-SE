@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Kom igång med testning och sändning
 description: Förbered, testa, schemalägg, skicka och övervaka dina meddelanden.
-page-status-flag: never-activated
-uuid: 58666444-6e7c-4049-b2d2-8b26eabf5a82
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
-discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
