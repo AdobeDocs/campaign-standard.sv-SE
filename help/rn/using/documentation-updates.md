@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: abf2bb68ca0a2bbad6347184f2c091726021af89
 workflow-type: tm+mt
-source-wordcount: '6239'
-ht-degree: 98%
+source-wordcount: '6311'
+ht-degree: 97%
 
 ---
 
@@ -22,6 +22,12 @@ Förutom [versionsinformationen](../../rn/using/release-notes.md) för Adobe Cam
 ## November 2020 {#doc-updates-november-2020}
 
 Sektionen Sekretess har flyttats och berikats med två nya sidor: [Sekretesshantering](../../start/using/privacy-management.md) och [hantering av förfrågningar](../../start/using/privacy-requests.md)om sekretess.
+
+Information har lagts till i avsnittet Adobe Experience Platform Data Connector om datamappningsvalideringsfel som rör sekretesshantering och felsökning. [Läs mer](../../developing/using/aep-mapping-activation.md)
+
+Avsnittet Personuppgifter och Personas har uppdaterats med ett scenario för användningsfall för att illustrera hur de olika personerna interagerar när det gäller sekretess. [Läs mer](../../start/using/privacy.md#use-case-scenario)
+
+Ett nytt avsnitt med vanliga frågor om sekretess har lagts till. [Läs mer](../../start/using/privacy-faq.md)
 
 ## Version 20.4 - oktober 2020 {#release-20-4---october-2020}
 
