@@ -7,7 +7,7 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 3523a067e4fc4b1d22159fc93171fd1e0b32f05c
 workflow-type: tm+mt
 source-wordcount: '938'
 ht-degree: 3%
@@ -45,7 +45,7 @@ När begäran har bearbetats är krypterings-/dekrypteringskommandona tillgängl
 
 I det här fallet skapar vi ett arbetsflöde för att importera data som har krypterats i ett externt system med hjälp av en nyckel som genererats på Kontrollpanelen.
 
-En självstudievideo som visar hur du använder en GPG-nyckel för att dekryptera data finns också i [det här avsnittet](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/decrypting-data.html).
+En självstudievideo som visar hur du använder en GPG-nyckel för att dekryptera data finns också i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/decrypting-data.html?lang=en#instance-settings).
 
 Så här utför du det här användningsfallet:
 
@@ -89,7 +89,7 @@ Så här utför du det här användningsfallet:
 
 I det här fallet skapar vi ett arbetsflöde för att kryptera och exportera data med en nyckel som är installerad på Kontrollpanelen.
 
-En självstudievideo som visar hur du använder en GPG-nyckel för att kryptera data finns också i [det här avsnittet](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/using-a-gpg-key-to-encrypt-data.html).
+En självstudievideo som visar hur du använder en GPG-nyckel för att kryptera data finns också i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings)).
 
 Så här utför du det här användningsfallet:
 
