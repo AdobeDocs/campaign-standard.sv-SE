@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 79e0b945e2c34bc396b7852851df848a76d62979
 workflow-type: tm+mt
-source-wordcount: '2269'
-ht-degree: 100%
+source-wordcount: '2156'
+ht-degree: 98%
 
 ---
 
@@ -38,19 +38,13 @@ De viktigaste egenskaperna för denna aktivitet är:
 
 ### Meddelanden om bakåtkompatibilitet{#from-beta-to-ga}
 
-I och med Campaign Standard version 20.4 har storleksgränsen på data för http-svar och tidsgränsskyddet för svar sänkts, vilket innebär att de överensstämmer med bästa praxis (se avsnittet ”Begränsningar och skydd”). Dessa skyddsändringar träder ej i kraft för befintliga externa API-aktiviteter. Vi rekommenderar därför att du ersätter befintliga externa API-aktiviteter med nya versioner i alla arbetsflöden.
-
-Om du uppgraderar från Campaign Standard version 20.2 (eller tidigare) bör du tänka på att den externa API-funktionen har flyttats från betaversionen till allmän tillgänglighet i Campaign Standard version 20.3.
-
-Om du använder externa API-aktiviteter i beta-versionen måste du därför ersätta dem med Extern API-aktiviteter i GA i alla arbetsflöden.  Arbetsflöden som använder betaversionen av det externa API:et fungerar inte från och med Campaign Standard version 20.3.
+With the Campaign Standard 20.4 release, the http response data size limit and response timeout guardrails have been lowered to align with best practices - see [Limitations and guardrails](#guardrails). Dessa skyddsändringar träder ej i kraft för befintliga externa API-aktiviteter. Vi rekommenderar därför att du ersätter befintliga externa API-aktiviteter med nya versioner i alla arbetsflöden.
 
 När du ersätter Extern API-aktiviteter lägger du till den nya Extern API-aktiviteten i arbetsflödet, kopierar manuellt över konfigurationsinformationen och tar sedan bort den gamla aktiviteten.
 
 >[!NOTE]
 >
 >Du kan inte kopiera över aktivitetsspecifika rubrikvärden eftersom de är maskerade i aktiviteten.
-
-Därefter konfigurerar du om andra aktiviteter i arbetsflödet som pekar på och/eller använder data från betaversionen av Extern API-aktiviteten till att peka på och/eller använda data från den nya Extern API-aktiviteten i stället. Exempel på aktiviteter: e-postleverans (anpassningsfält), anrikningsaktivitet, o.s.v.
 
 ### Begränsningar och skyddsräcken {#guardrails}
 
