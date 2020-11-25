@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: c4c6c854b749ff937ac0dea482db92c57c7a3683
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 17%
+source-wordcount: '667'
+ht-degree: 16%
 
 ---
 
@@ -63,7 +63,7 @@ Kunderna rekommenderas att granska om de använder funktionen/funktionen i den a
  <tbody> 
   <tr> 
    <td> <p>Från och med Campaign 19.4 är användningen av Campaign-API:t och gränssnittet för begäran om åtkomst och borttagning föråldrad. Det går inte att ta bort profiler i två steg. Använd <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe sekretessbastjänst</a>.</p></br>
-   <p>Se även <a href="https://helpx.adobe.com/se/campaign/kb/acs-privacy.html">Hantera sekretessförfrågningar</a>.</p>
+   <p>Se även <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">Hantera sekretessförfrågningar</a>.</p>
   <p> 
   <em>Måldatum för borttagning: 2021</em></p>
    </td> 
