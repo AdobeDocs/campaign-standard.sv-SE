@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 3523a067e4fc4b1d22159fc93171fd1e0b32f05c
 workflow-type: tm+mt
-source-wordcount: '7624'
+source-wordcount: '7622'
 ht-degree: 8%
 
 ---
@@ -304,7 +304,7 @@ En serie förbättringar och korrigeringar introducerades för att optimera frag
  <tbody> 
   <tr> 
    <td> Kontrollpanelen<br /> </td> 
-   <td> <p>För att effektivisera arbetet som Admin-användare kan du enkelt övervaka kapaciteten och hantera inställningarna för dina instanser (och börja med SFTP-serverhantering).</p><p>Mer information hittar du i den <a href="https://docs.adobe.com/content/help/sv-SE/control-panel/using/control-panel-home.html">detaljerade dokumentationen</a> och <a href="https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/control-panel/control-panel-overview.html">instruktionsvideon</a>.</p></td> 
+   <td> <p>För att effektivisera arbetet som Admin-användare kan du enkelt övervaka kapaciteten och hantera inställningarna för dina instanser (och börja med SFTP-serverhantering).</p><p>Mer information hittar du i den <a href="https://docs.adobe.com/content/help/sv-SE/control-panel/using/control-panel-home.html">detaljerade dokumentationen</a> och <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=en">instruktionsvideon</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Lokala meddelanden<br /> </td> 
@@ -338,7 +338,7 @@ En serie förbättringar och korrigeringar introducerades för att optimera frag
 * Ett problem med visningsrutans bakgrundsfärg när ett e-postmeddelande som skapats med e-postdesignern i Outlook togs emot har korrigerats. (CAMP-31402)
 * Korrigerade ett problem som kunde förhindra att e-postinnehåll som skapats med e-postdesignern svarade när det öppnades i Outlook. (CAMP-31400)
 * Korrigerade ett problem som förhindrade dynamiskt innehåll från att fungera korrekt när det användes i ett e-postämne. (CAMP-32837)
-* Korrigerade ett fel som relaterar till e-postämnet som inte har escape-konverterats.
+* Korrigerade ett fel som relaterades till e-postämnet som inte kunde skickas korrekt.
 * Korrigerade ett problem som förhindrade att fragment lästes in på den vänstra paletten i e-postdesignern.
 * Korrigerade ett problem som förhindrade att fragment som skapats under e-postinnehållets utgåva visas på den vänstra paletten i e-postdesignern när fragmentlistan skulle uppdateras.
 * Korrigerade flera problem som uppstod när dynamiskt innehåll användes i ett e-postmeddelande.
