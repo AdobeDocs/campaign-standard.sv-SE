@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 3a4e8628b916291244d142d9cc4a6a84b799502b
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 1%
+source-wordcount: '478'
+ht-degree: 0%
 
 ---
 
@@ -39,9 +39,29 @@ Om du vill övervaka alla dataexportjobb går du till **[!UICONTROL Administrati
 
 ![](assets/aep_statusmapping.png)
 
-Status för dataöverföringsjobb:
+Statusen för dataöverföringsjobb är:
 
 * **[!UICONTROL Created]**: Ett datainmatningsjobb skapas och datainmatning pågår.
 * **[!UICONTROL Failed]**: Ett datainmatningsjobb misslyckades. I fältet reason beskrivs orsaken till felet. Misslyckandet kan vara övergående eller permanent. Om det uppstår tillfälliga fel skapas ett nytt intag efter ett konfigurerat intervall. Som ett första steg i felsökningen kan användaren kontrollera felets orsaksfält. Om anledningen omdirigerar en användare till Adobe Experience Platform UI kan användaren logga in på Adobe Experience Platform och kontrollera batchstatusen i datauppsättningen för att fastställa en exakt felorsak.
 * **[!UICONTROL Uploaded]**: En batch skapas först i Adobe Experience Platform och data importeras sedan till gruppen. I fältet för batch-ID visas batch-ID för batchen i Adobe Experience Platform. Adobe Experience Platform utför också en eftervalidering av gruppen. Batchen markeras först som överförd tills Adobe Experience Platform slutför steget efter valideringen. Ett jobb fortsätter att avfråga Adobe Experience Platform om batchstatus efter överföring. En batch kan antingen köras i läget Misslyckades eller i läget Slutfört efter validering i Adobe Experience Platform.
 * **[!UICONTROL Success]**: När en batch har överförts till Adobe Experience Platform kontrolleras jobbets status (efter validering på plattformen) efter ett konfigurerat intervall. Statusen&quot;Success&quot; har identifierat ett lyckat dataintag i Adobe Experience Platform.
+
+I vissa fall kan du få valideringsfelet nedan när du publicerar mappningen.
+
+![](assets/aep_datamapping_ccpa.png)
+
+Detta inträffar när det XDM-schema som du använder inte har uppdaterats med det senaste XDM-fältet som rör sekretesshantering och fortfarande innehåller det borttagna XDM-fältet &quot;ccpa&quot;.
+
+Så här uppdaterar du XDM-schemat:
+
+1. Gå till datauppsättningen på Adobe Experience Platform via länken på XDM-mappningssidan.
+
+1. Navigera till ditt XDM-schema.
+
+1. Lägg till blandningen&quot;Ange sekretess&quot; i schemat.
+
+   ![](assets/aep_datamapping_privacyfield.png)
+
+1. Spara schemat och försök sedan publicera mappningen igen. Publikationen bör nu bli klar.
+
+   ![](assets/aep_save_mapping.png)
