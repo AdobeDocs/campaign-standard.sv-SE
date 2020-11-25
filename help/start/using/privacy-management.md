@@ -7,9 +7,9 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: a9afa91302684ddd37a94a9999d90bf8c8e7abee
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
@@ -17,17 +17,39 @@ ht-degree: 0%
 
 # Integritetshantering {#privacy-management}
 
-Adobe Campaign erbjuder en uppsättning verktyg som hjälper dig att följa sekretesslagstiftningen (inklusive GDPR, CCPA, PDPA, LGPD).
+Adobe Campaign offers a set of tools to help you comply with [Privacy regulations](#privacy-management-regulations) (including GDPR, CCPA, PDPA, LGPD).
 
-* I det här avsnittet finns allmän information om vilken sekretesshantering som är och de funktioner som Adobe Campaign tillhandahåller för att hantera [rätten till åtkomst och rätten att bli glömd](#right-access-forgotten).
+Här är de fem viktigaste funktionerna som Adobe Campaign erbjuder för att säkerställa beredskap för GDPR och andra sekretessbestämmelser:
 
-* Det innehåller även information om viktiga funktioner för att hantera sekretess ([samtycke, datalagring och användarroller](#consent-retention-roles)) samt bästa praxis för att hjälpa dig att uppfylla sekretesskraven när du använder Adobe Campaign.
+![](assets/privacy-gdpr-use-cases.png)
 
-## Bestämmelser om integritetshantering {#privacy-management-regulations}
+* **Rätt till åtkomst**
+
+* **Höger att ta bort**
+
+Mer information finns i [Rätt till åtkomst och Rätt att bli glömd](#right-access-forgotten).
+
+* **Hantering av samtycke**
+
+* **Datalagring**
+
+* **Rättighetshantering**
+
+Mer information finns i [Godkännande, kvarhållning och roller](#consent-retention-roles).
+
+<!--This section presents general information on what Privacy management is and the features provided by Adobe Campaign to manage the [Right to Access and Right to be Forgotten](#right-access-forgotten).
+
+It also contains information on important features to manage Privacy ([consent, data retention and user roles](#consent-retention-roles)), as well as best practices to help you with your Privacy compliance when using Adobe Campaign.-->
+
+## Bestämmelser om sekretesshantering {#privacy-management-regulations}
 
 Adobe Campaign funktioner hjälper dig att följa följande regler:
 
-* **GDPR** (den[allmänna dataskyddsförordningen](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)) är Europeiska unionens (EU) integritetslagstiftning som harmoniserar och moderniserar dataskyddskraven för EU:s länder.
+* **GDPR** (den[allmänna dataskyddsförordningen](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)) är Europeiska unionens (EU) integritetslagstiftning som harmoniserar och moderniserar dataskyddskraven för EU:s länder. Följ länkarna nedan för att hitta allmän information om GDPR:
+
+   * https://www.adobe.com/privacy/general-data-protection-regulation.html
+   * https://www.adobe.com/marketing-cloud/campaign/general-data-protection-regulation.html
+
 * **CCPA** ([California Consumer Privacy Act](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;kapitel=&amp;artikel=)) ger personer bosatta i Kalifornien nya rättigheter när det gäller deras personuppgifter och ålägger vissa företag som bedriver verksamhet i Kalifornien dataskydd ansvar.
 * **PDPA** ([Personal Data Protection Act](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/)) är den nya integritetslagen som harmoniserar och moderniserar dataskyddskraven för Thailand.
 * **LGPD** ([Lei Geral de Proteção de Dados](https://iapp.org/media/pdf/resource_center/Brazilian_General_Data_Protection_Law.pdf)) träder i kraft i början av 2021 för alla företag som samlar in eller behandlar personuppgifter i Brasilien.
@@ -49,6 +71,10 @@ För att underlätta beredskapen för din integritet kan du med Adobe Campaign h
 Om du vill veta hur du kan skapa **Access** - och **Delete** -begäranden och hur Adobe Campaign behandlar dem läser du [implementeringsstegen](../../start/using/privacy-requests.md#about-privacy-requests).
 
 Tutorials om sekretesshantering inom Campaign Standard finns också [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=en#privacy).
+
+>[!NOTE]
+>
+>Mer information om personuppgifter och om de olika enheter som hanterar data (personuppgiftsansvariga, databehandlare och registrerade) finns i [Personuppgifter och personuppgifter](../../start/using/privacy.md#personal-data).
 
 ## Samtycke, bevarande och roller {#consent-retention-roles}
 
