@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 translation-type: tm+mt
-source-git-commit: c4c6c854b749ff937ac0dea482db92c57c7a3683
+source-git-commit: de8afa7e942b7ee831837b1f9506488f7ca835f0
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 16%
@@ -49,7 +49,7 @@ Kunderna rekommenderas att granska om de använder funktionen/funktionen i den a
    <td> <p> Från och med version 20.1 är SDK v4 föråldrat. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Läs mer</a>.</p><br/>
    <p>Adobe Experience Platform <a href="https://aep-sdks.gitbook.io/docs/">Mobile SDK</a> (tidigare kallat v5) har endast stöd för kommande funktioner och funktioner från Adobe Experience Cloud.</p></br>
      <p>
-     <em>Datum för målborttagning: 30 september 2020</em></p>
+     <em>Datum för målborttagning: 31 augusti 2021</em></p>
      </td> 
   </tr> 
  </tbody> 
