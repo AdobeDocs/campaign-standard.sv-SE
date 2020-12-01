@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 100%
+source-wordcount: '449'
+ht-degree: 95%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 100%
 ## Om testprofiler {#about-test-profiles}
 
 Med testprofilerna kan du rikta in dig på fler mottagare som inte matchar de definierade målinriktningskriterierna. De läggs till i målgruppen för ett meddelande för att upptäcka om mottagardatabasen används på ett bedrägligt sätt eller för att säkerställa att e-postmeddelandena kommer till inkorgen.
+
+![](assets/do-not-localize/how-to-video.png) [Upptäck den här funktionen i en video](#video)
 
 Du kan hantera dina testprofiler på den avancerade menyn **[!UICONTROL Profiles & audiences > Test profiles]**.
 
@@ -65,10 +67,6 @@ En testprofil innehåller fiktiv kontaktinformation, eller kontaktinformation so
 
 Testprofilen läggs sedan till i listan med profiler.
 
-**Relaterat ämne:**
-
-[Skapa en video med testprofiler](https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/tutorials/profiles-and-audiences/test-profiles.html)
-
 ## Redigera testprofiler {#editing-test-profiles}
 
 Så här redigerar du en testprofil och läser data som är kopplade till den, eller ändrar den:
@@ -79,3 +77,11 @@ Så här redigerar du en testprofil och läser data som är kopplade till den, e
    ![](assets/test_profile_edit.png)
 
 1. Klicka på **[!UICONTROL Save]** om du har angett ändringarna eller markera namnet på testprofilen och sedan **[!UICONTROL Test profiles]** i avsnittet högst upp på skärmen för att gå tillbaka till kontrollpanelen för testprofiler.
+
+## Självstudievideo {#video}
+
+I den här videon visas hur du skapar en testprofil.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24094?quality=12)
+
+Ytterligare Campaign Standard om instruktionsvideor finns [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv).
