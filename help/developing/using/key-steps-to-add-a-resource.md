@@ -7,10 +7,10 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 51%
+source-wordcount: '105'
+ht-degree: 47%
 
 ---
 
@@ -28,4 +28,10 @@ Om du vill skapa en ny resurs eller utöka en befintlig resurs med nya fält kr�
 >[!CAUTION]
 >
 >Att skapa och ändra resurser är känsliga åtgärder som endast får utföras av expertanvändare.
+
+I den här videon visas hur du skapar anpassade resurser.
+
+>[!VIDEO](https://video.tv.adobe.com/v/27715?quality=9&captions=eng)
+
+Ytterligare Campaign Standard om instruktionsvideor finns [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv).
 
