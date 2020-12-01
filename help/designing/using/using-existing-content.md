@@ -7,16 +7,16 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 739943deccf6320de71bd6a255eb0b2fb20d5df5
 workflow-type: tm+mt
-source-wordcount: '1210'
-ht-degree: 4%
+source-wordcount: '1212'
+ht-degree: 5%
 
 ---
 
 # Designa med befintligt innehåll {#designing-using-existing-content}
 
-## Selecting an existing content{#selecting-an-existing-content}
+## Välja ett befintligt innehåll{#selecting-an-existing-content}
 
 Adobe Campaign innehåller en uppsättning fördefinierade innehåll som hjälper dig att komma igång. Du kan använda någon av dessa eller, om innehållet i det meddelande du vill skicka förbereds utanför Adobe Campaign, importera det från datorn eller en URL-adress.
 
@@ -27,16 +27,16 @@ När du skapar ett e-postmeddelande eller en landningssida kan du välja att lä
 >Bilderna nedan visar hur du läser in ett befintligt innehåll med [e-postdesignern](../../designing/using/designing-content-in-adobe-campaign.md).
 
 1. Öppna e-postsidans eller landningssidans innehåll när du har skapat den.
-1. Klicka på hemikonen för att komma åt **[!UICONTROL Email Designer]** hemsidan.
+1. Klicka på hemikonen för att komma åt startsidan för **[!UICONTROL Email Designer]**.
 
    ![](assets/des_loading_1.png)
 
 1. Välj källan för innehållet som du vill läsa in:
 
-   * [Innehållsmallar](../../designing/using/using-reusable-content.md#content-templates): klicka på **[!UICONTROL Templates]** fliken.
-   * [Innehåll från scratch](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch), för att börja om: klicka på **[!UICONTROL Create]** knappen.
-   * [Innehåll från datorn som en ZIP- eller HTML-fil](#importing-content-from-a-file): klicka på **[!UICONTROL Upload]** knappen.
-   * [Innehåll från en befintlig URL](#importing-content-from-a-url) (endast för e-post): klicka på **[!UICONTROL Import from URL]** knappen.
+   * [Innehållsmallar](../../designing/using/using-reusable-content.md#content-templates): klicka på  **[!UICONTROL Templates]** fliken.
+   * [Innehåll från scratch](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch), för att börja om: klicka på  **[!UICONTROL Create]** knappen.
+   * [Innehåll från datorn som en ZIP- eller HTML-fil](#importing-content-from-a-file): klicka på  **[!UICONTROL Upload]** knappen.
+   * [Innehåll från en befintlig URL](#importing-content-from-a-url)  (endast för e-post): klicka på  **[!UICONTROL Import from URL]** knappen.
 
    ![](assets/des_loading_2.png)
 
@@ -46,7 +46,7 @@ När du skapar ett e-postmeddelande eller en landningssida kan du välja att lä
 
    >[!NOTE]
    >
-   >E- [postdesignern](../../designing/using/designing-content-in-adobe-campaign.md) använder specifik taggning. HTML-standardinnehåll som överförs till Campaign måste matcha den förväntade taggningen för att vara helt kompatibelt och redigerbart från e-postdesignern. Om innehållet inte matchar överförs det i [kompatibilitetsläge](#compatibility-mode). Mer information om hur du gör befintligt innehåll kompatibelt finns i [det här avsnittet](#editing-existing-contents-with-the-email-designer).
+   >[E-postdesignern](../../designing/using/designing-content-in-adobe-campaign.md) använder specifik taggning. HTML-standardinnehåll som överförs till Campaign måste matcha den förväntade taggningen för att vara helt kompatibelt och redigerbart från e-postdesignern. Om innehållet inte matchar överförs det i [kompatibilitetsläge](#compatibility-mode). Mer information om hur du gör befintligt innehåll kompatibelt finns i [det här avsnittet](#editing-existing-contents-with-the-email-designer).
 
 **Relaterade ämnen:**
 
@@ -55,17 +55,17 @@ När du skapar ett e-postmeddelande eller en landningssida kan du välja att lä
 
 ## Redigera befintligt innehåll med e-postdesignern{#editing-existing-contents-with-the-email-designer}
 
-För att till fullo kunna utnyttja möjligheterna i [e-postdesignern](../../designing/using/designing-content-in-adobe-campaign.md)måste din överförda HTML-kod innehålla specifik taggning som gör den kompatibel med WYSIWYG-redigeraren.
+För att du ska kunna utnyttja fördelarna med [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) måste din överförda HTML-kod innehålla specifik taggning som gör den kompatibel med WYSIWYG-redigeraren.
 
 Om hela eller delar av HTML-koden inte har den här taggen läses innehållet in i [kompatibilitetsläge](#compatibility-mode).
 
-Information om hur du gör ett befintligt externt innehåll fullt redigerbart i e-postdesignern finns i avsnittet [Designa ett e-postmeddelande med befintligt innehåll](../../designing/using/using-existing-content.md) .
+Om du vill göra ett befintligt externt innehåll helt redigerbart i e-postdesignern läser du avsnittet [Designa ett e-postmeddelande med befintligt innehåll](../../designing/using/using-existing-content.md).
 
-## Importera befintligt e-postinnehåll {#importing}
+## Importera ett befintligt e-postinnehåll {#importing}
 
-### Importing content from a file {#importing-content-from-a-file}
+### Importera innehåll från en fil {#importing-content-from-a-file}
 
-Klicka på knappen för att överföra en fil från datorn på startsidan för e-postdesignern och bekräfta sedan på **[!UICONTROL Upload]** den.
+Klicka på knappen **[!UICONTROL Upload]** på startsidan för e-postdesignern för att överföra en fil från datorn och bekräfta sedan.
 
 ZIP-filstrukturen är inte begränsad. Att referera till HTML-filer måste dock vara relativt och respektera trädstrukturen i zip-mappen.
 
@@ -78,12 +78,12 @@ Följande format kan importeras:
 >
 >För e-postinnehåll rekommenderar vi att du importerar enstaka HTML-filer med en inbyggd formatmall.
 
-#### Importing content from a URL {#importing-content-from-a-url}
+#### Importera innehåll från en URL {#importing-content-from-a-url}
 
 Innan du importerar innehåll från en URL måste du kontrollera att det uppfyller kraven nedan:
 
 * Innehållet måste vara offentligt tillgängligt via den här URL:en.
-* Av säkerhetsskäl **[!UICONTROL https]** tillåts bara URL:er som börjar med.
+* Av säkerhetsskäl tillåts bara URL-adresser som börjar med **[!UICONTROL https]**.
 * Kontrollera att alla resurser (bilder, CSS) är inställda i absoluta länkar och i HTTPS. Om du inte skickar e-postmeddelandet visas spegelsidan utan resurser. Här är ett exempel på en absolut länkdefinition:
 
    ```
@@ -96,24 +96,26 @@ Innan du importerar innehåll från en URL måste du kontrollera att det uppfyll
 
 Följ stegen nedan för att hämta befintligt innehåll från en URL-adress:
 
-1. Välj **[!UICONTROL Import from URL]** knappen på startsidan för e-postdesignern.
+1. Välj knappen **[!UICONTROL Import from URL]** på startsidan för e-postdesignern.
 
    ![](assets/email_designer_importfromurl.png)
 
 1. Definiera den URL som innehållet ska hämtas från.
 1. Klicka på **[!UICONTROL Confirm]**.
 
-**Relaterat ämne:**
+Upptäck den här funktionen i en video.
 
-[Importera innehåll från en URL](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#Workingwithexistingcontent) -video
+>[!VIDEO](https://video.tv.adobe.com/v/25926?quality=12)
 
-### Hämta innehåll från en URL automatiskt vid förberedelse {#retrieving-content-from-a-url-automatically-at-preparation-time}
+Ytterligare Campaign Standard om instruktionsvideor finns [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv).
+
+### Hämtar innehåll från en URL automatiskt vid förberedelsetiden {#retrieving-content-from-a-url-automatically-at-preparation-time}
 
 Genom att importera innehåll från en URL under meddelandeförberedelsen kan du hämta det senaste HTML-innehållet varje gång e-postmeddelandet förbereds. På så sätt är innehållet i återkommande e-postmeddelanden alltid uppdaterat när de skickas. Med den här funktionen kan du även skapa ett meddelande som schemalagts vid ett visst datum, även om innehållet inte är klart än.
 
 Följ stegen nedan för att hämta innehåll vid förberedelsetiden:
 
-1. Välj **[!UICONTROL Content imported during preparation]** alternativet.
+1. Välj alternativet **[!UICONTROL Content imported during preparation]**.
 
    ![](assets/email_designer_importfromurl2.png)
 
@@ -123,22 +125,22 @@ Följ stegen nedan för att hämta innehåll vid förberedelsetiden:
    >
    >I det här steget ska HTML-visningen i innehållsredigeraren inte beaktas. Den kommer att hämtas under beredningsfasen.
 
-1. Om du vill förhandsgranska URL-innehållet som har hämtats öppnar du meddelandet när det har skapats och klickar sedan på **[!UICONTROL Preview]** .
+1. Om du vill förhandsgranska URL-innehållet som har hämtats öppnar du meddelandet när det har skapats och klickar sedan på knappen **[!UICONTROL Preview]**.
 
 Det går att anpassa den fjärr-URL som innehållet hämtas från. Följ stegen nedan för att göra detta:
 
-1. Klicka på e-postetiketten högst upp på skärmen för att komma åt **[!UICONTROL Properties]** fliken E-postdesigner.
-1. Hitta **[!UICONTROL Remote URL]** fältet.
+1. Klicka på e-postetiketten överst på skärmen för att komma åt fliken E-postdesignern **[!UICONTROL Properties]**.
+1. Hitta fältet **[!UICONTROL Remote URL]**.
 
    ![](assets/email_designer_importfromurl4.png)
 
 1. Infoga önskat anpassningsfält, innehållsblock eller dynamisk text.
 
-   Med innehållsblocket kan du till exempel **[!UICONTROL Current date - YYYYMMDD]** infoga datumet på dagen.
+   Med innehållsblocket **[!UICONTROL Current date - YYYYMMDD]** kan du till exempel infoga datumet på dagen.
 
    >[!NOTE]
    >
-   >De tillgängliga personaliseringsfälten är endast länkade till **leveransattribut** (datum då e-postmeddelandet skapades, status, kampanjetikett...).
+   >Tillgängliga anpassningsfält är länkade till **Endast attribut för leverans** (datum när e-postmeddelandet skapades, status, kampanjetikett..).
 
 ### Kompatibilitetsläge {#compatibility-mode}
 
@@ -162,7 +164,7 @@ Mer information om hur du konverterar ett befintligt e-postmeddelande till ett e
 **Relaterat ämne**:
 
 * [Skapa ett e-postmeddelande](../../channels/using/creating-an-email.md)
-* [Introduktionsvideo till e-postdesignern](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=swe)
+* [Introduktionsvideo till e-postdesignern](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [Designa ett e-postinnehåll från grunden](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
 ## Konverterar HTML-innehåll {#converting-an-html-content}
