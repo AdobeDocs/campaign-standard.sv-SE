@@ -7,10 +7,10 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 8%
+source-wordcount: '210'
+ht-degree: 6%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 8%
 
 >[!CAUTION]
 >
->Integriteten i [bastjänstens](https://adobe.io/apis/cloudplatform/gdpr.html) integrering är den metod du bör använda för alla förfrågningar om åtkomst och borttagning. Från och med 19.4 är användningen av Campaign-API:t och gränssnittet för begäran om åtkomst och borttagning föråldrad. Mer information om borttagna och borttagna funktioner för Campaign Standard finns på [den här sidan](https://helpx.adobe.com/se/campaign/kb/acs-deprecated-and-removed-features.html).
+>[Integriteten i bastjänsten](https://adobe.io/apis/cloudplatform/gdpr.html)-integreringen är den metod du bör använda för alla begäranden om åtkomst och borttagning. Från och med 19.4 är användningen av Campaign-API:t och gränssnittet för begäran om åtkomst och borttagning föråldrad. Mer information om borttagna och borttagna funktioner för Campaign Standard finns på [den här sidan](../../rn/using/deprecated-features.md).
 
-Sekretessbegäranden skapas med en **POST** .
+Sekretessbegäranden skapas med en **POST**-begäran.
 
-Innan du skapar begäranden måste du definiera det namnutrymme som du ska använda. Mer information finns i dokumentationen [om](https://helpx.adobe.com/se/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)sekretesshantering.
+Innan du skapar begäranden måste du definiera det namnutrymme som du ska använda. Mer information finns i [dokumentationen om sekretesshantering](https://helpx.adobe.com/se/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
 
 Nyttolasten måste innehålla följande parametrar:
 
