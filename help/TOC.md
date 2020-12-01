@@ -6,9 +6,9 @@ user-guide-title: Campaign Standard
 breadcrumb-title: Campaign Standard
 title: Campaign Standard Guide
 translation-type: tm+mt
-source-git-commit: abf2bb68ca0a2bbad6347184f2c091726021af89
+source-git-commit: 817eebd4fe9ed33bdb2820912556cfda25ef66a5
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1664'
 ht-degree: 99%
 
 ---
@@ -29,20 +29,21 @@ ht-degree: 99%
    + [Inaktuella funktioner](rn/using/deprecated-features.md)
 + Komma igång {#getting-started}
    + [Om Adobe Campaign Standard](start/using/about-campaign-standard.md)
-   + Integritet {#privacy}
-      + [Sekretess och samtycke](start/using/privacy.md)
-      + [Integritetshantering](start/using/privacy-management.md)
-      + [Sekretessförfrågningar](start/using/privacy-requests.md)
-      + [Frågor och svar om sekretess](start/using/privacy-faq.md)
    + Upptäcka gränssnittet {#discovering-the-interface}
       + [Om gränssnittet](start/using/about-the-interface.md)
       + [Beskrivning av gränssnitt](start/using/interface-description.md)
       + [Anpassa listor](start/using/customizing-lists.md)
+      + [Tillgänglighet](start/using/accessibility.md)
    + Arbeta med marknadsföringsaktiviteter {#marketing-plans}
       + [Program och kampanjer](start/using/programs-and-campaigns.md)
       + [Marknadsföringsaktiviteter](start/using/marketing-activities.md)
       + [Mallar för marknadsföringsaktiviteter](start/using/marketing-activity-templates.md)
       + [Tidslinje](start/using/timeline.md)
+   + Integritet {#privacy}
+      + [Sekretess och samtycke](start/using/privacy.md)
+      + [Integritetshantering](start/using/privacy-management.md)
+      + [Förfrågan om användarens information](start/using/privacy-requests.md)
+      + [Frågor och svar om sekretess](start/using/privacy-faq.md)
 + Profiler och målgrupper {#profiles-and-audiences}
    + [Kom igång med profiler och målgrupper](audiences/using/get-started-profiles-and-audiences.md)
    + Hantera profiler {#managing-profiles}
