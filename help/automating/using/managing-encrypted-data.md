@@ -7,21 +7,21 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 translation-type: tm+mt
-source-git-commit: 3523a067e4fc4b1d22159fc93171fd1e0b32f05c
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '938'
-ht-degree: 3%
+source-wordcount: '930'
+ht-degree: 5%
 
 ---
 
 
 # Hantera krypterade data {#managing-encrypted-data}
 
-## Om förbearbetningsfaser {#about-preprocessing-stages}
+## Om förbearbetningssteg {#about-preprocessing-stages}
 
 I vissa fall kan data som du vill importera Campaign-servrar behöva krypteras, till exempel om de innehåller PII-data.
 
-För att kunna kryptera utgående data eller dekryptera inkommande data måste du hantera GPG-nycklar med [Kontrollpanelen](https://docs.adobe.com/content/help/sv-SE/control-panel/using/instances-settings/gpg-keys-management.html).
+För att kunna kryptera utgående data eller dekryptera inkommande data måste du hantera GPG-nycklar med hjälp av [Kontrollpanelen](https://docs.adobe.com/content/help/sv-SE/control-panel/using/instances-settings/gpg-keys-management.html).
 
 >[!NOTE]
 >
@@ -30,9 +30,9 @@ För att kunna kryptera utgående data eller dekryptera inkommande data måste d
 Om du inte är berättigad att använda Kontrollpanelen måste du kontakta Adobe kundtjänst så att de ger instansen de krypterings-/dekrypteringskommandon som behövs. Om du vill göra det skickar du en förfrågan med följande uppgifter:
 
 * Den **etikett** som ska visas i Campaign-gränssnittet för att använda kommandot. Till exempel&quot;Kryptera fil&quot;.
-* Det **kommando** som ska installeras på instansen.
+* **kommandot** som ska installeras på din instans.
 
-När begäran har bearbetats är krypterings-/dekrypteringskommandona tillgängliga i **[!UICONTROL Pre-processing stage]** fältet från **[!UICONTROL Load file]** och **[!UICONTROL Extract file]** aktiviteterna. Du kan använda dem för att dekryptera eller kryptera de filer som du vill importera eller exportera.
+När begäran har bearbetats är krypterings-/dekrypteringskommandona tillgängliga i fältet **[!UICONTROL Pre-processing stage]** från aktiviteterna **[!UICONTROL Load file]** och **[!UICONTROL Extract file]**. Du kan använda dem för att dekryptera eller kryptera de filer som du vill importera eller exportera.
 
 ![](assets/preprocessing-encryption.png)
 
@@ -45,11 +45,11 @@ När begäran har bearbetats är krypterings-/dekrypteringskommandona tillgängl
 
 I det här fallet skapar vi ett arbetsflöde för att importera data som har krypterats i ett externt system med hjälp av en nyckel som genererats på Kontrollpanelen.
 
-En självstudievideo som visar hur du använder en GPG-nyckel för att dekryptera data finns också i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/decrypting-data.html?lang=en#instance-settings).
+![](assets/do-not-localize/how-to-video.png) [Upptäck den här funktionen i en video](#video)
 
 Så här utför du det här användningsfallet:
 
-1. Använd Kontrollpanelen för att generera ett nyckelpar (public/private). Detaljerade steg finns i dokumentationen för [Kontrollpanelen](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data).
+1. Använd Kontrollpanelen för att generera ett nyckelpar (public/private). Detaljerade steg finns i [dokumentationen till kontrollpanelen](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data).
 
    * Den offentliga nyckeln delas med det externa systemet, som kommer att använda den för att kryptera data som ska skickas till Campaign.
    * Den privata nyckeln används av Campaign för att dekryptera inkommande krypterade data.
@@ -65,15 +65,15 @@ Så här utför du det här användningsfallet:
    * **[!UICONTROL Transfer file]** aktivitet: Överför filen från en extern källa till Campaign. I det här exemplet vill vi överföra filen från en SFTP-server.
    * **[!UICONTROL Load file]** aktivitet: Läser in data från filen i databasen och dekrypterar den med den privata nyckel som genereras på Kontrollpanelen.
 
-1. Öppna **[!UICONTROL Transfer file]** aktiviteten och konfigurera den efter dina behov. Globala koncept för hur du konfigurerar aktiviteten finns i [det här avsnittet](../../automating/using/load-file.md).
+1. Öppna aktiviteten **[!UICONTROL Transfer file]** och konfigurera den efter dina behov. Globala koncept för hur du konfigurerar aktiviteten finns i [det här avsnittet](../../automating/using/load-file.md).
 
-   På **[!UICONTROL Protocol]** fliken anger du information om sftp-servern och den krypterade GPG-filen som du vill överföra.
+   På fliken **[!UICONTROL Protocol]** anger du information om sftp-servern och den krypterade GPG-filen som du vill överföra.
 
    ![](assets/gpg_transfer.png)
 
-1. Öppna **[!UICONTROL Load file]** aktiviteten och konfigurera den efter dina behov. Globala koncept för hur du konfigurerar aktiviteten finns i [det här avsnittet](../../automating/using/load-file.md).
+1. Öppna aktiviteten **[!UICONTROL Load file]** och konfigurera den efter dina behov. Globala koncept för hur du konfigurerar aktiviteten finns i [det här avsnittet](../../automating/using/load-file.md).
 
-   Lägg till en förbearbetningsfas i aktiviteten för att dekryptera inkommande data. Det gör du genom att välja **[!UICONTROL Decryption GPG]** alternativet i listan.
+   Lägg till en förbearbetningsfas i aktiviteten för att dekryptera inkommande data. Det gör du genom att välja alternativet **[!UICONTROL Decryption GPG]** i listan.
 
    >[!NOTE]
    >
@@ -81,7 +81,7 @@ Så här utför du det här användningsfallet:
 
    ![](assets/gpg_load.png)
 
-1. Klicka **[!UICONTROL OK]** för att bekräfta aktivitetskonfigurationen.
+1. Klicka på **[!UICONTROL OK]** för att bekräfta aktivitetskonfigurationen.
 
 1. Du kan nu köra arbetsflödet.
 
@@ -89,11 +89,11 @@ Så här utför du det här användningsfallet:
 
 I det här fallet skapar vi ett arbetsflöde för att kryptera och exportera data med en nyckel som är installerad på Kontrollpanelen.
 
-En självstudievideo som visar hur du använder en GPG-nyckel för att kryptera data finns också i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings)).
+![](assets/do-not-localize/how-to-video.png) [Upptäck den här funktionen i en video](#video)
 
 Så här utför du det här användningsfallet:
 
-1. Generera ett GPG-nyckelpar (public/private) med ett GPG-verktyg och installera sedan den offentliga nyckeln på Kontrollpanelen. Detaljerade steg finns i dokumentationen för [Kontrollpanelen](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
+1. Generera ett GPG-nyckelpar (public/private) med ett GPG-verktyg och installera sedan den offentliga nyckeln på Kontrollpanelen. Detaljerade steg finns i [dokumentationen till kontrollpanelen](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
 
    ![](assets/gpg_install.png)
 
@@ -105,9 +105,9 @@ Så här utför du det här användningsfallet:
    * **[!UICONTROL Extract file]** aktivitet: Krypterar och extraherar data till en fil.
    * **[!UICONTROL Transfer file]** aktivitet: Överför filen som innehåller krypterade data till en SFTP-server.
 
-1. Konfigurera **[!UICONTROL Query]** aktiviteten för att ange önskade data från databasen som mål. Mer information om detta finns i [det här avsnittet](../../automating/using/query.md).
+1. Konfigurera aktiviteten **[!UICONTROL Query]** för att ange önskade data från databasen som mål. Mer information om detta finns i [det här avsnittet](../../automating/using/query.md).
 
-1. Öppna **[!UICONTROL Extract file]** aktiviteten och konfigurera den efter behov (utdatafil, kolumner, format osv.). Globala koncept för hur du konfigurerar aktiviteten finns i [det här avsnittet](../../automating/using/extract-file.md).
+1. Öppna aktiviteten **[!UICONTROL Extract file]** och konfigurera den efter dina behov (utdatafil, kolumner, format osv.). Globala koncept för hur du konfigurerar aktiviteten finns i [det här avsnittet](../../automating/using/extract-file.md).
 
    Lägg till en förbearbetningsfas i aktiviteten för att kryptera de data som ska extraheras. Om du vill göra det väljer du den GPG-krypteringsnyckel som ska användas för att kryptera data.
 
@@ -115,10 +115,22 @@ Så här utför du det här användningsfallet:
 
    >[!NOTE]
    >
-   >Värdet inom parentes är den **kommentar** du definierade när du genererade nyckelparet med GPG-krypteringsverktyget. Se till att du väljer rätt matchande nyckel, annars kan mottagaren inte dekryptera filen.
+   >Värdet inom parentes är **kommentaren** som du definierade när du genererade nyckelparet med GPG-krypteringsverktyget. Se till att du väljer rätt matchande nyckel, annars kan mottagaren inte dekryptera filen.
 
-1. Öppna **[!UICONTROL Transfer file]** aktiviteten och ange sedan den SFTP-server som du vill skicka filen till. Globala koncept för hur du konfigurerar aktiviteten finns i [det här avsnittet](../../automating/using/transfer-file.md).
+1. Öppna aktiviteten **[!UICONTROL Transfer file]** och ange sedan den SFTP-server som du vill skicka filen till. Globala koncept för hur du konfigurerar aktiviteten finns i [det här avsnittet](../../automating/using/transfer-file.md).
 
    ![](assets/gpg-transfer-encrypt.png)
 
 1. Du kan nu köra arbetsflödet. När den har körts exporteras datamål som omfattas av frågan till SFTP-servern till en krypterad GPG-fil.
+
+## Självstudievideor {#video}
+
+I den här videon visas hur du använder en GPG-nyckel för att dekryptera data.
+
+>[!VIDEO](https://video.tv.adobe.com/v/35753?quality=12)
+
+I den här videon visas hur du använder en GPG-nyckel för att kryptera data.
+
+>[!VIDEO](https://video.tv.adobe.com/v/36380?quality=12)
+
+Ytterligare Campaign Standard om instruktionsvideor finns [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv).
