@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: abf2bb68ca0a2bbad6347184f2c091726021af89
+source-git-commit: 0690765f26398391b4604136b203541a109e203b
 workflow-type: tm+mt
-source-wordcount: '6311'
+source-wordcount: '6305'
 ht-degree: 97%
 
 ---
@@ -19,15 +19,19 @@ ht-degree: 97%
 
 Förutom [versionsinformationen](../../rn/using/release-notes.md) för Adobe Campaign listas alla nya uppdateringar i dokumentationen för Adobe Campaign Standard på den här sidan.
 
+## December 2020 {#doc-updates-december-2020}
+
+Sektionen Sekretess har flyttats. [Läs mer](../../start/using/privacy.md)
+
 ## November 2020 {#doc-updates-november-2020}
-
-Sektionen Sekretess har flyttats och berikats med två nya sidor: [Sekretesshantering](../../start/using/privacy-management.md) och [hantering av förfrågningar](../../start/using/privacy-requests.md)om sekretess.
-
-Information har lagts till i avsnittet Adobe Experience Platform Data Connector om datamappningsvalideringsfel som rör sekretesshantering och felsökning. [Läs mer](../../developing/using/aep-mapping-activation.md)
 
 Avsnittet Personuppgifter och Personas har uppdaterats med ett scenario för användningsfall för att illustrera hur de olika personerna interagerar när det gäller sekretess. [Läs mer](../../start/using/privacy.md#use-case-scenario)
 
 Ett nytt avsnitt med vanliga frågor om sekretess har lagts till. [Läs mer](../../start/using/privacy-faq.md)
+
+Sektionen Sekretess har flyttats och berikats med två nya sidor: [Sekretesshantering](../../start/using/privacy-management.md) och [Hantera sekretessförfrågningar](../../start/using/privacy-requests.md).
+
+Information har lagts till i avsnittet Adobe Experience Platform Data Connector om datamappningsvalideringsfel som rör sekretesshantering och felsökning. [Läs mer](../../developing/using/aep-mapping-activation.md)
 
 ## Version 20.4 - oktober 2020 {#release-20-4---october-2020}
 
@@ -185,7 +189,7 @@ Konfigurationen av en mobilapps-dokumentation och relaterade sidor har uppdatera
 
 Integreringsdokumentationen för Adobe Campaign Standard/Adobe Experience Manager har uppdaterats och förbättrats. [Läs mer](../../integrating/using/configure-experience-manager.md)
 
-The Campaign Email Designer documentation and related pages have been updated to reflect [!DNL Adobe Creative SDK] depreciation. [Läs mer](https://helpx.adobe.com/se/campaign/kb/acs-deprecated-and-removed-features.html)
+E-postdesignerdokumentationen för Campaign och tillhörande sidor har uppdaterats för att återspegla [!DNL Adobe Creative SDK]-avskrivning. [Läs mer](../../rn/using/deprecated-features.md)
 
 Nu finns ett nytt avsnitt om de mest effektiva strategierna med Campaign Standard-datamodellen. [Läs mer](../../developing/using/data-model-best-practices.md)
 
@@ -235,7 +239,7 @@ Arbetet med Campaign och Experience Manager-dokumentationen har uppdaterats med 
 
 Hemsidan för API-dokumentationen har förbättrats med omdirigeringar till de olika avsnitten. [Läs mer](../../api/using/get-started-apis.md)
 
-## Nov. - dec. 2019 {#doc-updates-december-2019}
+## Nov. - Dec. 2019 {#doc-updates-december-2019}
 
 Dokumentationen för det externa kontot för konfigurering av S3 har uppdaterats. [Läs mer](../../administration/using/external-accounts.md#amazon-s3-external-account)
 
@@ -287,7 +291,7 @@ Ett nytt avsnitt har lagts till som beskriver hur du formaterar länkar med Emai
 
 Sekretessrelaterad information har lagts till i API:ernas dokumentation [Klicka här](../../api/using/creating-a-privacy-request.md)
 
-## Sept. - Oct. 2019 {#doc-updates-october-2019}
+## Sept. - okt. 2019 {#doc-updates-october-2019}
 
 Ett nytt avsnitt som är relaterat till inställningarna för Campaign Standard har lagts till. [Läs mer](../../administration/using/about-campaign-standard-settings.md)
 
@@ -435,7 +439,7 @@ Artikeln i kunskapsbasen för [SMS-anslutningsprotokollet och inställningar](ht
 
 Guiden Kom igång har förbättrats och omorganiserats. [Läs mer](../../start/using/about-campaign-standard.md)
 
-Sidan med utgångna och borttagna funktioner har uppdaterats. [Läs mer](https://helpx.adobe.com/se/campaign/kb/acs-deprecated-and-removed-features.html)
+Sidan med utgångna och borttagna funktioner har uppdaterats. [Läs mer](../../rn/using/deprecated-features.md)
 
 Dreamweavers integreringsavsnitt har uppdaterats och förbättrats. [Läs mer](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 
@@ -573,7 +577,7 @@ Listan med HTML-attribut för fullständig kompatibilitet med Creative Designer 
 
 Lagt till information om standardspråk för flerspråkig mall. [Läs mer](../../channels/using/multilingual-messages-template.md)
 
-Handboken för användare och säkerhet har uppdaterats för att återspegla utgång av kapaciteten för geografiska enheter för nya Campaign Standard-instanser samt befintliga instanser utan geografiska enheter med start i version 18.7. [Läs mer](https://helpx.adobe.com/se/campaign/kb/acs-deprecated-and-removed-features.html)
+Handboken för användare och säkerhet har uppdaterats för att återspegla utgång av kapaciteten för geografiska enheter för nya Campaign Standard-instanser samt befintliga instanser utan geografiska enheter med start i version 18.7. [Läs mer](../../rn/using/deprecated-features.md)
 
 ## Version 18.6 - juni 2018 {#release-18-6---june-2018}
 
