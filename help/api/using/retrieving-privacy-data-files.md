@@ -7,10 +7,10 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 6%
+source-wordcount: '194'
+ht-degree: 4%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 6%
 
 >[!CAUTION]
 >
->Integriteten i [bastjänstens](https://adobe.io/apis/cloudplatform/gdpr.html) integrering är den metod du bör använda för alla förfrågningar om åtkomst och borttagning. Från och med 19.4 är användningen av Campaign-API:t och gränssnittet för begäran om åtkomst och borttagning föråldrad. Mer information om borttagna och borttagna funktioner för Campaign Standard finns på [den här sidan](https://helpx.adobe.com/se/campaign/kb/acs-deprecated-and-removed-features.html).
+>[Integriteten i bastjänsten](https://adobe.io/apis/cloudplatform/gdpr.html)-integreringen är den metod du bör använda för alla begäranden om åtkomst och borttagning. Från och med 19.4 är användningen av Campaign-API:t och gränssnittet för begäran om åtkomst och borttagning föråldrad. Mer information om borttagna och borttagna funktioner för Campaign Standard finns på [den här sidan](../../rn/using/deprecated-features.md).
 
 Om du vill hämta filen som innehåller all information som är associerad med ett avstämningsvärde följer du den här trestegsproceduren:
 
-1. Utför en begäran om **POST** om att skapa en ny begäran med attributet **type=&quot;access&quot;**, se [Skapa en ny sekretessförfrågan](../../api/using/creating-a-privacy-request.md).
+1. Utför en **POST**-begäran om att skapa en ny begäran med attributet **type=&quot;access&quot;**, se [Skapa en ny sekretessbegäran](../../api/using/creating-a-privacy-request.md).
 
-1. Utför en **GET** -förfrågan för att hämta information om begäran.
+1. Utför en **GET**-begäran för att hämta information om begäran.
 
-1. Hämta datafilen genom att utföra en **POST** -begäran på den returnerade URL:en **privacyRequestData** , med sekretessbegärans interna namn inuti nyttolasten. Till exempel: {&quot;name&quot;:&quot;PT17&quot;}.
+1. Hämta datafilen genom att utföra en **POST**-begäran på den returnerade **privacyRequestData**-URL:en, med sekretessbegärans interna namn inuti nyttolasten. Till exempel: {&quot;name&quot;:&quot;PT17&quot;}.
 
 <br/>
 
