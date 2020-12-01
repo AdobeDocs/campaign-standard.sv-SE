@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: email-messages
 context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '817'
 ht-degree: 100%
 
 ---
@@ -83,10 +83,6 @@ I det specifika sammanhanget för ett A/B-test:
    >Om det är oavgjort måste den vinnande varianten väljas manuellt. Du kan meddela e-postskaparen och modifieraren/modifierarna att en variant har valts eller måste väljas. Se [Adobe Campaign-meddelanden](../../administration/using/sending-internal-notifications.md).
 
 Din e-post är nu definierad och skickad. Du har åtkomst till loggarna och rapporterna för att mäta hur framgångsrik kampanjen är.
-
-**Relaterat ämne**:
-
-[Skapa en e-postvideo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html)
 
 ## Om A/B-testindikatorer {#about-a-b-test-indicators}
 
