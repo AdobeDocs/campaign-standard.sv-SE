@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: e20485978deba54f45010a41921b948f049222f2
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '583'
 ht-degree: 100%
 
 ---
@@ -103,7 +103,7 @@ Aktivera **[!UICONTROL Hide proof prefix counter]**-alternativet om du vill döl
 
 **Relaterat ämne:**
 
-* [Skicka ett test, förbereda och skicka en e-post](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/sending-test-preparing-sending-email.html)-video
+* [Skicka ett test, förbereda och skicka en e-post](../../sending/using/get-started-sending-messages.md#video)-video
 * [Testa e-postmeddelanden med målprofiler](../../sending/using/testing-messages-using-target.md)
 * [Hantera testprofiler](../../audiences/using/managing-test-profiles.md)
 * [Förhandsgranska meddelanden](../../sending/using/previewing-messages.md)
