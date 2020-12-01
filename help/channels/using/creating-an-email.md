@@ -7,29 +7,31 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 20%
+source-wordcount: '556'
+ht-degree: 17%
 
 ---
 
 
 # Skapa ett e-postmeddelande{#creating-an-email}
 
-Du kan skapa ett e-postmeddelande från en [kampanj](../../start/using/marketing-activities.md#creating-a-marketing-activity), från Adobe Campaign [hemsida](../../start/using/interface-description.md#home-page)eller i [marknadsföringsaktivitetslistan](../../start/using/marketing-activities.md#about-marketing-activities). Du kan också skapa e-postmeddelanden som skickas en gång eller som upprepas i ett arbetsflöde.
+Du kan skapa ett e-postmeddelande från en [kampanj](../../start/using/marketing-activities.md#creating-a-marketing-activity), från Adobe Campaign [hemsida](../../start/using/interface-description.md#home-page) eller i [listan över marknadsföringsaktiviteter](../../start/using/marketing-activities.md#about-marketing-activities). Du kan också skapa e-postmeddelanden som skickas en gång eller som upprepas i ett arbetsflöde.
+
+![](assets/do-not-localize/how-to-video.png) [Upptäck den här funktionen i en video](#video)
 
 1. När du har börjat skapa en e-postmarknadsföringsaktivitet väljer du den mall du vill använda.
 
-   Som standard kan du välja bland flera mallar för varje marknadsföringsaktivitet. På så sätt kan ni förkonfigurera vissa parametrar efter era behov och även tilldela ett varumärke till er leverans. For more on this, see [Managing templates](../../start/using/marketing-activity-templates.md).
+   Som standard kan du välja bland flera mallar för varje marknadsföringsaktivitet. På så sätt kan ni förkonfigurera vissa parametrar efter era behov och även tilldela ett varumärke till er leverans. Mer information finns i [Hantera mallar](../../start/using/marketing-activity-templates.md).
 
    ![](assets/email_creation_1.png)
 
    >[!NOTE]
    >
-   >Uppföljnings- och A/B-testmallar är dolda som standard. Markera rutorna till vänster ( **[!UICONTROL Filter]** sidopanelen) om du vill visa dem.
+   >Uppföljnings- och A/B-testmallar är dolda som standard. Markera rutorna till vänster ( **[!UICONTROL Filter]** sidopanel) om du vill visa dem.
 
-1. Ange de allmänna egenskaperna för e-postmeddelandet. You can enter a name in the **Label** field and edit the ID. Både aktivitetsnamnet och dess ID visas i gränssnittet, men de är inte synliga för meddelandemottagarna.
+1. Ange de allmänna egenskaperna för e-postmeddelandet. Du kan ange ett namn i fältet **Etikett** och redigera ID:t. Både aktivitetsnamnet och dess ID visas i gränssnittet, men de är inte synliga för meddelandemottagarna.
 
    Du kan lägga till en beskrivning som användaren kan se i kampanjinnehållet.
 
@@ -39,13 +41,13 @@ Du kan skapa ett e-postmeddelande från en [kampanj](../../start/using/marketing
    >
    >Du kan skapa e-post inom en överordnad kampanj från startsidan eller listan över marknadsföringsaktiviteter. Välj det bland de kampanjer som redan har skapats.
 
-1. Definiera målet för meddelandet utifrån dina affärskriterier. See [About profiles](../../audiences/using/about-profiles.md).
+1. Definiera målet för meddelandet utifrån dina affärskriterier. Se [Om profiler](../../audiences/using/about-profiles.md).
 
    Du kan också definiera testprofilerna som ska validera meddelandet. Se [Hantera testprofiler](../../audiences/using/managing-test-profiles.md).
 
    ![](assets/email_creation_3.png)
 
-1. Definiera och anpassa meddelandets innehåll, avsändarens namn och ämne med [e-postdesignern](../../designing/using/designing-content-in-adobe-campaign.md). Mer information finns i [Om design](../../designing/using/designing-content-in-adobe-campaign.md)av e-postinnehåll.
+1. Definiera och anpassa meddelandeinnehåll, avsändarnamn och ämne med [e-postdesignern](../../designing/using/designing-content-in-adobe-campaign.md). Mer information finns i [Om design av e-postinnehåll](../../designing/using/designing-content-in-adobe-campaign.md).
 
    ![](assets/email_creation_4.png)
 
@@ -56,11 +58,11 @@ Du kan skapa ett e-postmeddelande från en [kampanj](../../start/using/marketing
 
    >[!NOTE]
    >
-   >Om du vill kunna spara e-postmeddelandet måste du först göra några ändringar i innehållet. Om du klickar **[!UICONTROL Cancel]** nu kommer du inte att slutföra guiden och ditt e-postmeddelande kommer inte att skapas.
+   >Om du vill kunna spara e-postmeddelandet måste du först göra några ändringar i innehållet. Om du klickar på **[!UICONTROL Cancel]** nu kommer du inte att slutföra guiden och ditt e-postmeddelande kommer inte att skapas.
 
    E-postkontrollpanelen visas sedan. Du kan kontrollera meddelandet och [förbereda sändningen](../../sending/using/preparing-the-send.md).
 
-   Med knappen i det övre högra hörnet kan du redigera egenskaperna för e-postmeddelandet. **[!UICONTROL Edit properties]** Du kan till exempel konfigurera e-postmeddelandet så att etiketten beräknas när leveransen förbereds.  Tillgängliga parametrar visas i [det här avsnittet](../../administration/using/configuring-email-channel.md#list-of-email-properties).
+   Med knappen **[!UICONTROL Edit properties]** i det övre högra hörnet kan du redigera egenskaperna för e-postmeddelandet. Du kan till exempel konfigurera e-postmeddelandet så att etiketten beräknas när leveransen förbereds.  Tillgängliga parametrar visas i [det här avsnittet](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 
    ![](assets/delivery_dashboard_2.png)
 
@@ -68,7 +70,7 @@ Du kan skapa ett e-postmeddelande från en [kampanj](../../start/using/marketing
 
    ![](assets/delivery_planning.png)
 
-1. Förbered meddelandet för att analysera dess mål. See [Preparing the send](../../sending/using/confirming-the-send.md).
+1. Förbered meddelandet för att analysera dess mål. Se [Förbereda sändningen](../../sending/using/confirming-the-send.md).
 
    ![](assets/preparing_delivery_2.png)
 
@@ -84,11 +86,18 @@ Du kan skapa ett e-postmeddelande från en [kampanj](../../start/using/marketing
 
    ![](assets/confirm_delivery.png)
 
-1. Mät effekten av meddelandet med leveransrapporter. For more on reporting, see [this section](../../reporting/using/about-dynamic-reports.md).
+1. Mät effekten av meddelandet med leveransrapporter. Mer information om rapportering finns i [det här avsnittet](../../reporting/using/about-dynamic-reports.md).
 
 **Relaterade ämnen**:
 
-* [Skapa en e-postvideo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html)
-* [Skapa en personlig e-postguide](https://helpx.adobe.com/se/campaign/kb/acs-get-started-with-emails.html) steg för steg
-* [Integreringsvideo för](https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html) Adobe Campaign och Dreamweaver
+* [Skapa en personlig ](https://helpx.adobe.com/se/campaign/kb/acs-get-started-with-emails.html) e-postguide steg för steg
+* [Integrering med Adobe Campaign och Dreamweaver](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 * [Integrera med Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
+
+## Självstudievideo {#video}
+
+I den här videon visas hur du skapar ett e-postmeddelande.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23721?quality=12)
+
+Ytterligare Campaign Standard om instruktionsvideor finns [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv).
