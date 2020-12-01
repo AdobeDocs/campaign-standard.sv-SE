@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 translation-type: tm+mt
-source-git-commit: de8afa7e942b7ee831837b1f9506488f7ca835f0
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '452'
 ht-degree: 98%
 
 ---
@@ -27,7 +27,7 @@ Alla versionsdatum kan ändras: Vi rekommenderar att du regelbundet besöker den
 
 **NYHET!** Prenumerera på [Campaign Standard-versionsmeddelande](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) för att få information om kommande versioner direkt i din inkorg.
 
-## Version 21.1 - februari-utgåvan {#release-21-1-release}
+## Version 21.1 - februari-utgåva {#release-21-1-release}
 
 Miljöuppdateringar sker i vågor under de angivna tidsramarna nedan. Detaljerad information om den här versionen finns i [Versionsinformationen](../../rn/using/release-notes.md). Kontakta [Adobe Client Care](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) om du har ytterligare frågor.
 
@@ -54,7 +54,7 @@ Miljöuppdateringar sker i vågor under de angivna tidsramarna nedan. Detaljerad
 
 **F: Vad ändras?**
 
-S: Ändringar visas i [versionsinformationen](../../rn/using/release-notes.md), inklusive länkarna till relaterad dokumentation. Adobe rekommenderar också att du besöker sidan [Inaktuella och borttagna funktioner](https://helpx.adobe.com/se/campaign/kb/acs-deprecated-and-removed-features.html). Dessa sidor är tillgängliga för den nya versionen vid uppgraderingsdatumet för stadiemiljön.
+S: Ändringar visas i [versionsinformationen](../../rn/using/release-notes.md), inklusive länkarna till relaterad dokumentation. Adobe rekommenderar också att du besöker sidan [Inaktuella och borttagna funktioner](../../rn/using/deprecated-features.md). Dessa sidor är tillgängliga för den nya versionen vid uppgraderingsdatumet för stadiemiljön.
 
 **F: Hur ser valideringsprocessen ut?**
 
