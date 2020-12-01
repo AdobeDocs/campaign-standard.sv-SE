@@ -6,9 +6,9 @@ title: Produktdokumentation för Adobe Campaign Standard
 description: Bläddra i Campaign Standardens produktdokumentation
 topic: Premium
 translation-type: tm+mt
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '216'
 ht-degree: 90%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 90%
 
 ## Nyheter
 
-* **[Uppdaterad versionsplanering](rn/using/release-planning.md)**<br/> De kommande releasedatumen i februari 2021 har lagts till i lanseringsplanen
+* **[Uppdaterad ](rn/using/release-planning.md)**<br/> lanseringsplaneringUppdaterade releasedatum från februari 2021 har lagts till i lanseringsplaneringen
 
 * **[Kontrollgrupper](sending/using/control-group.md)**<br/>
 Mät effekten av dina kampanjer genom att utesluta en del av deras målgrupp
@@ -79,5 +79,5 @@ Läs mer om allmänna riktlinjer för mobila leveranser (SMS, push och i appen)
 | [Dokumentation för kontrollpanelen](https://docs.adobe.com/content/help/sv-SE/control-panel/using/control-panel-home.html) | [Kampanj-API:er](api/using/get-started-apis.md) |
 | [Implementeringsguide](https://helpx.adobe.com/se/campaign/kb/campaign-standard-implementation-guide.html) | [Lista över felmeddelanden](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Versionsplanering](rn/using/release-planning.md) | [Campaign-datamodell](developing/using/datamodel-introduction.md) |
-| [Inaktuella och borttagna funktioner](https://helpx.adobe.com/se/campaign/kb/acs-deprecated-and-removed-features.html) | [Guide för flera lösningar](integrating/using/get-started-campaign-integrations.md) |
+| [Inaktuella och borttagna funktioner](rn/using/deprecated-features.md)) | [Guide för flera lösningar](integrating/using/get-started-campaign-integrations.md) |
 | [Kom igång med Campaign Standard](start/using/about-campaign-standard.md) | [Tekniska anteckningar](https://helpx.adobe.com/se/campaign/kb/acs-article-list.html) |
