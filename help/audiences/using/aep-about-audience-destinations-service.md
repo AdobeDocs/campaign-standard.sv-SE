@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 7%
@@ -22,18 +22,18 @@ ht-degree: 7%
 >
 >Målgruppstjänsten är för närvarande i betaversion, som kan uppdateras ofta utan föregående meddelande. Kunderna måste vara värdbaserade på Azure (för närvarande endast betaversioner för Nordamerika) för att få tillgång till dessa funktioner. Kontakta Adobe kundtjänst om du vill ha tillgång till tjänsten.
 
-Stärk era kundupplevelser genom att utnyttja [Adobe Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/landing/home.html) för att skapa extremt målgrupper baserat på stora, komplexa datauppsättningar. Adobe Experience Platform konsoliderar profil-, beteendes- och multientitetsdata över både online- och offlinekällor, inklusive Adobe Analytics, för att hjälpa er att skapa en helhetsbild av era kunder, så att ni effektivt kan hantera era kundupplevelser.
+Stärk era kundupplevelser genom att utnyttja [Adobe Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/landing/home.html) för att skapa målgruppsanpassade målgrupper baserat på stora, komplexa datauppsättningar. Adobe Experience Platform konsoliderar profil-, beteendes- och multientitetsdata över både online- och offlinekällor, inklusive Adobe Analytics, för att hjälpa er att skapa en helhetsbild av era kunder, så att ni effektivt kan hantera era kundupplevelser.
 
-Adobe Campaign Standard kommer sedan att använda tjänsten **Målgrupper** för att hämta en samling profiler, så kallade **målgrupper**, från Adobe Experience Platform för flerstegs- och/eller kanalövergripande kampanjprogram.
+Adobe Campaign Standard använder sedan tjänsten **Målgrupper** för att hämta en samling profiler, så kallade **Målgrupper**, från Adobe Experience Platform för flerstegs- och/eller flerkanalskampanjprogram.
 
-**Målgrupper** skapas genom **segment** för första bygget, som i huvudsak är en uppsättning regler som baseras på praktiskt taget alla variabler (t.ex. profil, händelse, multientitetsdata) i en kundprofil från Adobe Experience Platform för att skapa ett flerdimensionellt mål. Det finns referenser till globala koncept för kundprofiler och segmenteringstjänster i realtid i dessa dedikerade dokument:
+**Målgrupper** skapas genom  **segment** för första bygget, som i huvudsak är en uppsättning regler som baseras på praktiskt taget alla variabler (t.ex. profil, händelse, multientitetsdata) i en kundprofil från Adobe Experience Platform för att skapa ett flerdimensionellt mål. Det finns referenser till globala koncept för kundprofiler och segmenteringstjänster i realtid i dessa dedikerade dokument:
 
 * [Översikt över kundprofiler i realtid](https://docs.adobe.com/content/help/sv-SE/experience-platform/profile/home.html)
 * [Översikt över segmenteringstjänsten](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)
 
-När du har skapat ett segment kan du sedan aktivera det som en målgrupp för leverans i [Campaign Standardens arbetsflöden](../../automating/using/aep-targeting-audiences.md). Dessutom kan ni använda kontextuella data från Adobe Experience Platform för att [personalisera](../../automating/using/aep-personalizing-campaigns.md) och lägga till dynamiskt innehåll i era kampanjer.
+När ett segment har skapats kan du sedan aktivera det som en målgrupp för en leverans i [arbetsflöden för Campaign Standard](../../automating/using/aep-targeting-audiences.md). Dessutom kan du använda sammanhangsbaserade data från Adobe Experience Platform för att [anpassa](../../automating/using/aep-personalizing-campaigns.md) och lägga till dynamiskt innehåll i era kampanjer.
 
-Det finns även instruktionsvideor i [det här avsnittet](https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html).
+![](assets/do-not-localize/how-to-video.png) Det finns även instruktionsvideor i  [det här avsnittet](https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html).
 
 Termer som används i dessa avsnitt:
 
