@@ -7,10 +7,10 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 739943deccf6320de71bd6a255eb0b2fb20d5df5
 workflow-type: tm+mt
-source-wordcount: '1804'
-ht-degree: 0%
+source-wordcount: '1819'
+ht-degree: 1%
 
 ---
 
@@ -22,17 +22,19 @@ Lär dig hur du överordnad publicerar e-postinnehåll. Med e-postdesignern kan 
 
 >[!NOTE]
 >
-> I Adobe Campaign Standard kan du skapa olika typer av mallar som du kan komma åt via menyn **Resurser** > **Mallar** . Mallarna som används i e-postdesignern är innehållsmallar. Mer information finns i [Om mallar](../../start/using/marketing-activity-templates.md).
+> I Adobe Campaign Standard kan du skapa olika typer av mallar som är tillgängliga på menyn **Resurser** > **Mallar**. Mallarna som används i e-postdesignern är innehållsmallar. Mer information finns i [Om mallar](../../start/using/marketing-activity-templates.md).
+
+![](assets/do-not-localize/how-to-video.png) [Upptäck hur du skapar mallar i video](#video)
 
 ### Om innehållsmallar {#content-templates}
 
-Du kan hantera HTML-innehåll som finns på **[!UICONTROL Templates]** fliken på [e-postdesignerns](../../designing/using/designing-content-in-adobe-campaign.md) hemsida.
+Du kan hantera HTML-innehåll som finns på fliken **[!UICONTROL Templates]** på startsidan för [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
 
 De färdiga mallarna för e-postinnehåll innehåller 18 mobiloptimerade layouter och fyra förstklassiga responsiva mallar som tagits fram av Behance-artister. De motsvarar bland annat de mest aktuella användningsområdena, som välkomstmeddelanden, nyhetsbrev och e-postmeddelanden om återengagemang. De kan enkelt anpassas med ert varumärkes innehåll för att underlätta processen att utforma e-postmeddelanden från grunden.
 
 ![](assets/template_content.png)
 
-HTML-innehållsmallarna är tillgängliga via **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** på menyn [](../../start/using/interface-description.md#advanced-menu)Avancerat. Därifrån kan du hantera mallar för landningssidans innehåll, mallar för e-postinnehåll och även fragment.
+HTML-innehållsmallarna är tillgängliga från **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]**-skärmen på [menyn Avancerat](../../start/using/interface-description.md#advanced-menu). Därifrån kan du hantera mallar för landningssidans innehåll, mallar för e-postinnehåll och även fragment.
 
 ![](assets/content_templates_list.png)
 
@@ -44,42 +46,41 @@ När du redigerar innehåll med e-postdesignern kan du även skapa innehållsmal
 
 **Relaterade ämnen:**
 
-* Lär dig hur du anpassar innehållsmallar [i den här videon](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-content-templates.html).
-* Mer information om hur du redigerar innehåll finns i [Om design](../../designing/using/designing-content-in-adobe-campaign.md)av e-postinnehåll.
+* Mer information om hur du redigerar innehåll finns i [Om design av e-postinnehåll](../../designing/using/designing-content-in-adobe-campaign.md).
 
-### Creating a content template {#creating-a-content-template}
+### Skapa en innehållsmall {#creating-a-content-template}
 
 Du kan skapa egna innehållsmallar och använda dem så många gånger som behövs.
 
 I följande exempel visas hur du skapar en mall för e-postinnehåll.
 
-1. Gå till **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** och klicka **[!UICONTROL Create]**.
+1. Gå till **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** och klicka på **[!UICONTROL Create]**.
 1. Klicka på e-postetiketten för att komma åt fliken **[!UICONTROL Properties]** i e-postdesignern.
 1. Ange en identifierbar etikett och välj följande parametrar för att kunna använda den här mallen i e-postmeddelanden:
 
-   * Välj **[!UICONTROL Shared]** eller **[!UICONTROL Delivery]** från **[!UICONTROL Content type]** listrutan.
-   * Välj **[!UICONTROL Template]** i **[!UICONTROL HTML type]** listrutan.
+   * Välj **[!UICONTROL Shared]** eller **[!UICONTROL Delivery]** i listrutan **[!UICONTROL Content type]**.
+   * Välj **[!UICONTROL Template]** i listrutan **[!UICONTROL HTML type]**.
 
    ![](assets/email_designer_create-template.png)
 
-1. Om det behövs kan du ange en bild som ska användas som miniatyrbild för mallen. Markera den på fliken **[!UICONTROL Thumbnail]** i mallegenskaperna.
+1. Om det behövs kan du ange en bild som ska användas som miniatyrbild för mallen. Välj det på fliken **[!UICONTROL Thumbnail]** i mallegenskaperna.
 
    ![](assets/email_designer_create-template_thumbnail.png)
 
-   Den här miniatyrbilden visas på **[!UICONTROL Templates]** fliken på [e-postdesignerns](../../designing/using/designing-content-in-adobe-campaign.md) hemsida.
+   Den här miniatyrbilden visas på fliken **[!UICONTROL Templates]** på startsidan för [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
 
-1. Gå tillbaka till arbetsytan genom att stänga fliken **[!UICONTROL Properties]** .
+1. Stäng fliken **[!UICONTROL Properties]** för att återgå till huvudarbetsytan.
 1. Lägg till strukturkomponenter och innehållskomponenter som du kan anpassa efter behov.
    >[!NOTE]
    >
    > Du kan inte infoga anpassningsfält eller villkorsstyrt innehåll i en innehållsmall.
 1. Spara mallen när du har redigerat den.
 
-Den här mallen kan nu användas i alla e-postmeddelanden som skapats med e-postdesignern. Välj det på fliken **[!UICONTROL Templates]** på [E-postdesignerns](../../designing/using/designing-content-in-adobe-campaign.md) hemsida.
+Den här mallen kan nu användas i alla e-postmeddelanden som skapats med e-postdesignern. Välj det på fliken **[!UICONTROL Templates]** på startsidan för [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
 
 ![](assets/content_template_new.png)
 
-### Spara innehåll som mall {#saving-content-as-template}
+### Sparar innehåll som mall {#saving-content-as-template}
 
 När du redigerar ett e-postmeddelande med e-postdesignern kan du direkt spara innehållet i det e-postmeddelandet som en mall.
 
@@ -97,7 +98,7 @@ När du redigerar ett e-postmeddelande med e-postdesignern kan du direkt spara i
 
 1. Om du vill hitta mallen som du nyss skapade går du till **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]**.
 
-1. Om du vill använda den nya mallen väljer du den på fliken **[!UICONTROL Templates]** på startsidan för [e-postdesignern](../../designing/using/designing-content-in-adobe-campaign.md) .
+1. Om du vill använda den nya mallen väljer du den på fliken **[!UICONTROL Templates]** på startsidan för [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
 
    ![](assets/content_template_new.png)
 
@@ -111,11 +112,11 @@ Nu kan du skapa en e-postmall med e-postdesignern. Använd innehållskomponenter
 
    ![](assets/des_loading_compatible_fragment_5.png)
 
-   Om du känner till HTML-kod rekommenderar Adobe att du använder **[!UICONTROL Html]** komponenter där du kan kopiera och klistra in de mer komplexa elementen i det ursprungliga e-postmeddelandet. Använd andra komponenter som **[!UICONTROL Button]**, **[!UICONTROL Image]** eller **[!UICONTROL Text]** för resten av innehållet. Mer information finns i [Om innehållskomponenter](../../designing/using/designing-from-scratch.md#about-content-components).
+   Om du känner till HTML-kod rekommenderar Adobe att du använder **[!UICONTROL Html]**-komponenter där du kan kopiera och klistra in de mer komplexa elementen i det ursprungliga e-postmeddelandet. Använd andra komponenter som **[!UICONTROL Button]**, **[!UICONTROL Image]** eller **[!UICONTROL Text]** för resten av innehållet. Mer information finns i [Om innehållskomponenter](../../designing/using/designing-from-scratch.md#about-content-components).
 
    >[!NOTE]
    >
-   >Om du använder **[!UICONTROL Html]** komponenten skapas komponenter som är redigerbara med begränsade alternativ. Kontrollera att du vet hur du hanterar HTML-kod innan du markerar den här komponenten.
+   >Om du använder **[!UICONTROL Html]**-komponenten skapas komponenter som är redigerbara med begränsade alternativ. Kontrollera att du vet hur du hanterar HTML-kod innan du markerar den här komponenten.
 
 1. Justera innehållskomponenterna så att de matchar ditt ursprungliga e-postmeddelande så mycket du kan.
 
@@ -136,8 +137,16 @@ Om du vill använda den skapar du ett e-postmeddelande och väljer den innehåll
 **Relaterat ämne**:
 
 * [Skapa ett e-postmeddelande](../../channels/using/creating-an-email.md)
-* [Introduktionsvideo till e-postdesignern](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=swe)
+* [Introduktionsvideo till e-postdesignern](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [Designa ett e-postinnehåll från grunden](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
+
+### Självstudievideo {#video}
+
+I dessa videofilmer visas hur du skapar en egen mall.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23106?quality=12)
+
+Ytterligare Campaign Standard om instruktionsvideor finns [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv).
 
 ## Om fragment {#about-fragments}
 
@@ -161,13 +170,13 @@ Om du vill låsa upp ett fragment i ett e-postmeddelande markerar du det och kli
 
 ![](assets/des_unlocking_fragment.png)
 
-Det fragmentet blir en fristående komponent som inte längre är länkad till det ursprungliga fragmentet. Den kan sedan redigeras som vilken annan innehållskomponent som helst. Se [Innehållskomponenter](../../designing/using/designing-from-scratch.md#about-content-components).
+Det fragmentet blir en fristående komponent som inte längre är länkad till det ursprungliga fragmentet. Den kan sedan redigeras som vilken annan innehållskomponent som helst. Se [Om innehållskomponenter](../../designing/using/designing-from-scratch.md#about-content-components).
 
 ### Infoga fragment i ett e-postmeddelande {#inserting-elements-into-an-email}
 
 Om du vill definiera innehållet i ditt e-postmeddelande kan du lägga till innehållselement i de strukturelement som du har placerat i förväg. Se [Redigera e-poststrukturen](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-1. Du kommer åt innehållselementen genom att välja **+** -ikonen till vänster. Välj [Fragment](#about-fragments) eller [Innehållskomponenter](../../designing/using/designing-from-scratch.md#about-content-components).
+1. Du kommer åt innehållselementen genom att välja ikonen **+** till vänster. Välj [Fragment](#about-fragments) eller [Innehållskomponenter](../../designing/using/designing-from-scratch.md#about-content-components).
 1. Om du redan känner till etiketten eller en del av etiketten för det fragment som du vill lägga till kan du söka efter den.
 
    ![](assets/email_designer_fragmentsearch.png)
@@ -195,26 +204,26 @@ Nu när e-poststrukturen är ifylld kan du redigera stilen för varje innehålls
 >
 >Om ett fragment ändras sprids ändringarna automatiskt i de e-postmeddelanden där det används. Mer information finns i [Om fragment](#about-fragments).
 
-### Creating a content fragment {#creating-a-content-fragment}
+### Skapa ett innehållsfragment {#creating-a-content-fragment}
 
 Du kan skapa egna innehållsfragment och använda dem efter behov i ett eller flera e-postmeddelanden.
 
-1. Gå till **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** och klicka **[!UICONTROL Create]**.
+1. Gå till **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** och klicka på **[!UICONTROL Create]**.
 1. Klicka på e-postetiketten för att komma åt fliken **[!UICONTROL Properties]** i e-postdesignern.
 1. Ange en identifierbar etikett och välj följande parametrar för att hitta fragmentet när du redigerar e-postinnehåll:
 
-   * Eftersom fragment endast är kompatibla med e-postmeddelanden väljer du **[!UICONTROL Delivery]** i **[!UICONTROL Content type]** listrutan.
-   * Välj **[!UICONTROL Fragment]** i **[!UICONTROL HTML type]** listrutan för att kunna använda innehållet som ett fragment.
+   * Eftersom fragment endast är kompatibla med e-postmeddelanden väljer du **[!UICONTROL Delivery]** i listrutan **[!UICONTROL Content type]**.
+   * Välj **[!UICONTROL Fragment]** i listrutan **[!UICONTROL HTML type]** om du vill kunna använda innehållet som ett fragment.
 
    ![](assets/email_designer_createfragment.png)
 
-1. Om det behövs kan du ange en bild som ska användas som miniatyrbild för fragmentet. Markera den på fliken **[!UICONTROL Thumbnail]** i mallegenskaperna.
+1. Om det behövs kan du ange en bild som ska användas som miniatyrbild för fragmentet. Välj det på fliken **[!UICONTROL Thumbnail]** i mallegenskaperna.
 
    ![](assets/email_designer_createfragment_thumbnail.png)
 
    Den här miniatyrbilden visas bredvid fragmentets etikett när du redigerar ett e-postmeddelande.
 
-1. Gå tillbaka till arbetsytan genom att stänga fliken **[!UICONTROL Properties]** .
+1. Stäng fliken **[!UICONTROL Properties]** för att återgå till huvudarbetsytan.
 1. Lägg till strukturkomponenter och innehållskomponenter som du kan anpassa efter behov.
 
    >[!CAUTION]
@@ -223,11 +232,11 @@ Du kan skapa egna innehållsfragment och använda dem efter behov i ett eller fl
    >
    >Undvik att spara som fragmentinnehåll med tomma strukturkomponenter. När >fragment har infogats går det inte att redigera dem.
    >
-   >Den [mobila vyn](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) är inte tillgänglig i fragment.
+   >[mobilvyn](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) är inte tillgänglig i fragment.
 
 1. Spara fragmentet när du har redigerat det.
 
-Detta fragment kan nu användas i alla e-postmeddelanden som skapats med e-postdesignern. Den visas under **[!UICONTROL Fragments]** palettavsnittet.
+Detta fragment kan nu användas i alla e-postmeddelanden som skapats med e-postdesignern. Den visas under **[!UICONTROL Fragments]**-delen av paletten.
 
 >[!NOTE]
 >
@@ -269,7 +278,7 @@ När du redigerar ett e-postmeddelande med e-postdesignern kan du direkt spara e
 ![](assets/email_designer_save-as-fragment_in-new-email.png)
 
 >[!NOTE]
->Den [mobila vyn](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) är inte tillgänglig i fragment. Om du vill redigera en e-postmobilvy gör du det innan du sparar innehållet som ett fragment.
+>[mobilvyn](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) är inte tillgänglig i fragment. Om du vill redigera en e-postmobilvy gör du det innan du sparar innehållet som ett fragment.
 
 <!--You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
 
