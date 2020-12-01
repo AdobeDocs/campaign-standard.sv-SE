@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '2948'
+source-wordcount: '2945'
 ht-degree: 99%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 # Versionsinformation 2020{#release-notes-2020}
 
-[Lanseringsplanering](https://helpx.adobe.com/se/campaign/kb/acs-release-planning.html) | [Kontrollpanelsversioner](https://docs.adobe.com/content/help/sv-SE/control-panel/using/release-notes.html) | [Dokumentationsuppdateringar](../../rn/using/documentation-updates.md) | [Information gällande tidigare versioner](../../rn/using/release-notes-2019.md) | [Föråldrade funktioner](https://helpx.adobe.com/se/campaign/kb/acs-deprecated-and-removed-features.html)
+[Lanseringsplanering](https://helpx.adobe.com/se/campaign/kb/acs-release-planning.html) | [Kontrollpanelsversioner](https://docs.adobe.com/content/help/sv-SE/control-panel/using/release-notes.html) | [Dokumentationsuppdateringar](../../rn/using/documentation-updates.md) | [Information gällande tidigare versioner](../../rn/using/release-notes-2019.md) | [Föråldrade funktioner](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html)
 
 ![](assets/do-not-localize/cp-icon.png) **Den senaste versionen av kontrollpanelen från juni** med övervakning av aktiva profiler, granskning av deldomänens levererbarhet och hantering av GPG-nycklar. [Läs mer](https://docs.adobe.com/content/help/sv-SE/control-panel/using/release-notes.html).
 
@@ -291,7 +291,7 @@ ht-degree: 99%
 * Organisationsenheten för säkerhetsgruppen Administratörer kan inte längre ändras.
 * När du skapar en profil måste fältet Organisationsenhet nu fyllas i.
 * En Experience Cloud-utlösare kan nu bara tas bort om både händelsen och transaktionsmallen som är kopplad till den tas bort.
-* [!DNL Adobe Creative SDK] har avvecklats. Det är nu inaktuellt i Campaign Standard. Se sidan [Inaktuella och borttagna funktioner](https://helpx.adobe.com/se/campaign/kb/acs-deprecated-and-removed-features.html).
+* [!DNL Adobe Creative SDK] har avvecklats. Det är nu inaktuellt i Campaign Standard. Se sidan [Inaktuella och borttagna funktioner](../../rn/using/deprecated-features.md).
 
 
 **Patchar**
