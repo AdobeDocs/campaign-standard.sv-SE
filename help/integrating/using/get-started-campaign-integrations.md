@@ -7,10 +7,10 @@ audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 90%
+ht-degree: 89%
 
 ---
 
@@ -49,14 +49,14 @@ Om du vill integrera dataflöden från andra system med Adobe Campaign kan du ta
    <td> Experience Manager version<br /> 6.1, 6.2, 6.3, 6.4 och 6.5<br /> </td> 
    <td> Du kan skapa e-postinnehåll eller -formulär som kopplas till databasen i Adobe Campaign direkt i Adobe Experience Manager.<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">Arbeta med Campaign och Experience Manager</a>, <a href="https://helpx.adobe.com/se/experience-manager/6-4/sites/administering/using/campaignstandard.html">Integrera Experience Manager och Campaign Standard</a>, <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">Skapa ett e-postmeddelande med Experience Manager och Campaign</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">Arbeta med Campaign och Experience Manager</a>,  <a href="https://helpx.adobe.com/se/experience-manager/6-4/sites/administering/using/campaignstandard.html">Integrera Experience Manager och Campaign Standard</a>,  <a href="https://gn.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">Skapa ett e-postmeddelande med Experience Manager och Campaign</a> 
     </td> 
   </tr> 
   <tr> 
    <td> Target<br /> Classic och Standard<br /> </td> 
    <td> Du kan infoga bilder som behandlas dynamiskt av Adobe Target när användaren öppnar ett e-postmeddelande som har skapats och skickats av Adobe Campaign.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">Arbeta med Campaign och Target</a>, <a href="https://docs.adobe.com/content/help/sv-SE/target/using/integrate/campaign-and-target.html">Integrera Campaign och Target</a>, <a href="https://helpx.adobe.com/se/marketing-cloud/how-to/email-marketing.html">personalisera e-postbilder i realtidsvideo</a> (steg 3)
+    <a href="../../integrating/using/about-campaign-target-integration.md">Arbeta med Campaign och Target</a>,  <a href="https://docs.adobe.com/content/help/sv-SE/target/using/integrate/campaign-and-target.html">Integrera Campaign och Target</a>,  <a href="https://helpx.adobe.com/se/marketing-cloud/how-to/email-marketing.html">Anpassa e-postbilder i realtidsvideo (</a> steg 3)
     </td> 
   </tr> 
   <tr> 
@@ -92,7 +92,7 @@ Om du vill integrera dataflöden från andra system med Adobe Campaign kan du ta
    <td> Dreamweaver<br /> </td> 
    <td> Du kan redigera ett e-postinnehåll från Dreamweaver och synkronisera det med Adobe Campaign.<br /> </td> 
    <td> 
-    <a href="https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html">Skapa personliga e-postmeddelanden med Dreamweaver</a> -video, <a href="https://helpx.adobe.com/se/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Använd Campaign-tillägget för Dreamweaver</a> 
+    <a href="https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html">Skapa personliga e-postmeddelanden med </a> Dreamweaver-video,  <a href="https://helpx.adobe.com/se/dreamweaver/using/working-with-dreamweaver-and-campaign.html">använd Campaign-tillägget för Dreamweaver</a> 
   </td> 
   </tr> 
   <tr> 
