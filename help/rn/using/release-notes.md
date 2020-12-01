@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '2412'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 [Lanseringsplanering](../../rn/using/release-planning.md) | [Kontrollpanelsversioner](https://docs.adobe.com/content/help/sv-SE/control-panel/using/release-notes.html) | [Dokumentationsuppdateringar](../../rn/using/documentation-updates.md) | [Information gällande tidigare versioner](../../rn/using/release-notes-2020.md) | [Föråldrade funktioner](../../rn/using/deprecated-features.md)
 
-![](assets/do-not-localize/cp-icon.png) **Oktober-versionen** av den nya Kontrollpanelen med domänkonfiguration med CNAME och nya funktioner för databasövervakning. [Läs mer](https://docs.adobe.com/content/help/sv-SE/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Ny version av kontrollpanelen i oktober** med domänkonfiguration som använder CNAME och nya funktioner för databasövervakning. [Läs mer](https://docs.adobe.com/content/help/sv-SE/control-panel/using/release-notes.html).
 
 ## Version 20.4 - oktober 2020 {#release-20-4---october-2020}
 
@@ -35,7 +35,7 @@ ht-degree: 98%
 <tr> 
   <td> <p>Nu kan du använda <strong>kontrollgrupper</strong> för att mäta effekten av dina kampanjer genom att utesluta en del av deras målgrupp. Sedan kan du jämföra beteendet hos målpopulationen som fick meddelandet med beteendet hos kontakter som inte var med i målgrupperna. Baserat på de skickade loggarna kan du även inrikta dig på en kontrollgrupp i framtida kampanjer.
 </p>
-<p>Mer information finns i den <a href="../../sending/using/control-group.md">detaljerade dokumentationen</a> och <a href="https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html">instruktionsvideon</a>.
+<p>Mer information finns i den <a href="../../sending/using/control-group.md">detaljerade dokumentationen</a> och <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=sv#communication-channels">instruktionsvideon</a>.
 </p>
 </td> 
 </tr> 
@@ -71,7 +71,7 @@ ht-degree: 98%
   <p>Journey AI använder sig av avancerad maskininlärning (ML) som gör att företag kan optimera designen och leveransen av kundresor genom att förutsäga varje individs engagemang.</p>
   <P>Journey AI består av två ML-funktioner:</p>
 <ul> 
-     <li> <strong>Förutsägande engagemangsbedömning</strong> – identifierar på ett intelligent sätt kundernas preferenser för att bättre målinrikta och personalisera meddelanden vilket i sig ökar konverteringar och kvarhållning. Titta på <a href="https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">instruktionsvideon</a>.</li> 
+     <li> <strong>Förutsägande engagemangsbedömning</strong> – identifierar på ett intelligent sätt kundernas preferenser för att bättre målinrikta och personalisera meddelanden vilket i sig ökar konverteringar och kvarhållning. Titta på <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html?lang=sv#communication-channels">instruktionsvideon</a>.</li> 
      <li> <strong>Förutsägande optimering av sändningstid</strong> – förutsäger bästa tiden att skicka e-postmeddelande till varje individ i en kampanj för att maximera engagemangsnivåer och förbättra e-postkampanjens avkastning. Titta på <a href="https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html">instruktionsvideon</a>.</li>
     </ul>
   <p>Se den <a href="../../sending/using/predictive.md">detaljerade dokumentationen</a> och kontakta din kontoansvarige för mer information om hur du kommer igång med Journey AI. Observera att även om Journey AI är tillgängligt kostnadsfritt för befintliga Campaign-kunder ingår en 50 timmars implementeringskostnad.</p>
@@ -129,7 +129,7 @@ ht-degree: 98%
 **Felkorrigeringar**
 
 * Korrigerade ett problem som gjorde att du inte kunde använda en mållänk för push-meddelanden eller meddelanden i appen när spårning aktiverades.
-* Ett problem har korrigerats där hög prioritet i transaktionsmeddelanden inte respekterades vid omfattande bulkleverans.
+* Korrigerade ett problem där hög prioritet i transaktionsmeddelanden inte respekterades vid omfattande bulkleverans.
 * Korrigerade ett problem som kunde förhindra dig att tilldela varumärken till ett transaktionsmeddelande. Flera felmeddelanden kan visas under publiceringssteget. (CAMP-44988)
 * Korrigerade ett problem i arbetsflödets användargränssnitt som kunde förhindra att information sparades i fält där numeriska värden begärdes. (CAMP-44025)
 * Korrigerade ett problem som kunde visa ett felmeddelande när en **Test**-aktivitet användes i ett arbetsflödes importmall. (CAMP-42910)
