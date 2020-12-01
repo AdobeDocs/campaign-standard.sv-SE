@@ -7,10 +7,10 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 97%
+source-wordcount: '380'
+ht-degree: 89%
 
 ---
 
@@ -22,6 +22,8 @@ I Adobe Campaign används profiler som standard för att definiera meddelandets 
 >[!NOTE]
 >
 >Det går även att skapa profiler med API:n för Adobe Campaign Standard.  Mer information om detta hittar du i den [dedikerade dokumentationen](../../api/using/creating-profiles.md).
+
+![](assets/do-not-localize/how-to-video.png) [Se hur du importerar profiler med hjälp av ett arbetsflöde i en video](#video)
 
 Om du vill skapa eller uppdatera en profil i Campaign kan du:
 
@@ -50,7 +52,7 @@ Om du exempelvis vill skapa en ny profil direkt i användargränssnittet följer
    * I kategorin **[!UICONTROL Channels]** som innehåller e-postadress, mobiltelefonnummer och avanmälningsinformation kan du se via vilken kanal profilen kan nås.
    * Kategorin uppdateras så snart som **[!UICONTROL No longer contact]** profilen avprenumererar från en kanal.
    * Kategorin innehåller **[!UICONTROL Address]** den postadress som måste fyllas i tillsammans med **[!UICONTROL Address specified]** alternativet att skicka [direktmeddelanden](../../channels/using/about-direct-mail.md) till den här profilen.  Om alternativ **[!UICONTROL Address specified]** inte är markerat utesluts den här profilen från alla direktmeddelanden.
-   * The **[!UICONTROL Access authorization]** category indicates the profile&#39;s organizational units to [manage permissions](../../administration/using/about-access-management.md). Om du vill lägga till fält för organisation i dina profiler, se avsnittet [Partitionsprofiler](../../administration/using/organizational-units.md#partitioning-profiles) .
+   * Kategorin **[!UICONTROL Access authorization]** anger profilens organisationsenheter som [hanterar behörigheter](../../administration/using/about-access-management.md). Om du vill lägga till fält för organisation i dina profiler, se avsnittet [Partitionsprofiler](../../administration/using/organizational-units.md#partitioning-profiles) .
    * **[!UICONTROL Traceability]**-kategorin uppdateras automatiskt med information om den användare som skapade eller ändrade profilen.
 
 1. Klicka **[!UICONTROL Create]** för att spara profilen.
@@ -60,7 +62,10 @@ Profilen visas nu i listan.
 >[!NOTE]
 >Det önskade språkfältet används för att välja språk när flerspråkiga meddelanden skickas.  Mer information om de flerspråkiga meddelandena [finns på den här sidan](../../channels/using/creating-a-multilingual-email.md).
 
-**Relaterade ämnen:**
+## Självstudievideo {#video}
 
-* [Om landningssidor](../../channels/using/getting-started-with-landing-pages.md) , steg-för-steg-guide
-* [Video om att importera profiler](https://video.tv.adobe.com/v/24993?captions=swe)
+I den här videon visas hur du importerar profiler med ett arbetsflöde.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12)
+
+Ytterligare Campaign Standard om instruktionsvideor finns [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv).
