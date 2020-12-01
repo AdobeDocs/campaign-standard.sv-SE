@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: deliveryCreation,wizard
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 100%
+source-wordcount: '538'
+ht-degree: 96%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 100%
 Att skapa en SMS-leverans påminner mycket om hur man skapar ett vanligt e-postmeddelande. I följande steg beskrivs konfigurationen som är specifik för den här kanalen. Mer information om andra alternativ finns i [Skapa ett e-postmeddelande](../../channels/using/creating-an-email.md).
 
 Avancerade SMS-parametrar beskrivs i avsnittet [SMS-konfiguration](../../administration/using/configuring-sms-channel.md) .
+
+![](assets/do-not-localize/how-to-video.png) [Upptäck den här funktionen i en video](#video)
 
 Om du vill skapa och skicka SMS-meddelanden till en mobiltelefon behöver du:
 
@@ -78,4 +80,11 @@ När sändningen är klar kan du börja mäta effekten av meddelandet med inbygg
 
 * [Om SMS och push-innehållsutgåva](../../channels/using/about-sms-and-push-content-design.md)
 * [Hantera mallar](../../start/using/marketing-activity-templates.md)
-* [Skapa en SMS-leveransvideo](https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/tutorials/communication-channels/mobile/sms/sms-delivery.html)
+
+## Självstudievideo {#video}
+
+I den här videon visas hur du skapar en SMS-leverans.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25265/?quality=12)
+
+Ytterligare Campaign Standard om instruktionsvideor finns [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv).
