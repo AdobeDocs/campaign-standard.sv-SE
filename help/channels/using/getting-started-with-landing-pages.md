@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 100%
+source-wordcount: '1027'
+ht-degree: 97%
 
 ---
 
@@ -24,9 +24,10 @@ Huvudstegen när du ställer in landningssidor är följande:
 
 På den här sidan hittar du information om vart och ett av de här stegen samt referenser till de dedikerade dokumenten för mer information.
 
+![](assets/do-not-localize/how-to-video.png) [Upptäck hur du skapar landningssidor i video](#video)
+
 **Relaterade ämnen:**
 
-* [Skapa en ](https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/tutorials/communication-channels/landing-pages/landing-page-create-and-edit.html) med självstudiekurser om landningssidor
 * [Skapa en tjänst](../../audiences/using/creating-a-service.md)
 * [Konfigurera en process för dubbel anmälan](setting-up-a-double-opt-in-process.md)
 
@@ -131,3 +132,11 @@ Genom att publicera landningssidan blir den tillgänglig online.    När publice
 När landningssidan har publicerats är den klar att användas.    Du kan sedan införa olika mekanismer som gör att du kan komma åt den för att hämta nya profiler i databasen, eller för att få ytterligare information om befintliga profiler.
 
 Mer information om publicering av landningssidor hittar du i [det här avsnittet](../../channels/using/testing-publishing-landing-page.md#publishing-a-landing-page).
+
+## Självstudievideo {#video}
+
+I den här videon visas hur du skapar och redigerar en landningssida.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
+
+Ytterligare Campaign Standard om instruktionsvideor finns [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv).
