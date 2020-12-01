@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 96%
+source-wordcount: '1216'
+ht-degree: 95%
 
 ---
 
@@ -24,6 +24,8 @@ Med Adobe Campaign kan ni tilldela en uppsättning roller till era användare f�
 De specifika rollerna och de motsvarande behörigheterna beskrivs i följande avsnitt: [förstå roller](../../administration/using/list-of-roles.md) och [behörigheter](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
 
 Administratörer kan hantera användare i Admin Console.  Användarna synkroniseras sedan automatiskt med Adobe Campaign.  Mer information om detta hittar du i dokumentationen för [Admin Console](https://helpx.adobe.com/se/enterprise/using/users.html) .
+
+![](assets/do-not-localize/how-to-video.png) [Upptäck den här funktionen i en video](#video)
 
 Om du vill visa användarna i Adobe Campaign klickar du på **[!UICONTROL Adobe Campaign]** logotypen i det övre vänstra hörnet och väljer sedan **[!UICONTROL Administration > Users & Security > Users]**.
 
@@ -59,7 +61,7 @@ Funktionsadministratörer är användare som har tillgång till de flesta teknis
 
 >[!CAUTION]
 >
->Endast funktionsadministratörer med **[!UICONTROL Administration]** roll och åtkomst till **alla** enheter har åtkomst till sändningsloggar, meddelandeloggar, spårningsloggar, undantagsloggar, förslagsloggar och prenumerationsloggar. En icke-admin-användare kan ha loggarna som mål, men med början i en länkad tabell (profiler, leverans).
+>Endast funktionsadministratörer med **[!UICONTROL Administration]**-roll och åtkomst till **Alla**-enheter har åtkomst till sändande loggar, meddelandeloggar, spårningsloggar, exkluderingsloggar, förslagsloggar och prenumerationsloggar. En icke-admin-användare kan ha loggarna som mål, men med början i en länkad tabell (profiler, leverans).
 
 Funktionsadministratörer är de enda användare som har åtkomst till **[!UICONTROL Administration]**-menyn i Adobe Campaign-gränssnittet.    Eftersom de här användarna behöver åtkomst till tekniska resurser så bör de tilldelas mer avancerade roller som till exempel **[!UICONTROL Administration]** och **[!UICONTROL Datamodel]**-roller.    Dessa roller kombineras i den **[!UICONTROL Administrators]** inbyggda säkerhetsgruppen.  Mer information om detta hittar du i det här [avsnittet](../../administration/using/list-of-roles.md).
 
@@ -151,3 +153,11 @@ Sedan kan du kontrollera om din användare har synkroniserats korrekt till Adobe
 1. Klicka på **[!UICONTROL Save]**.
 
 Användaren är nu redo att använda Adobe Campaign Standard.
+
+## Självstudievideo (#video)
+
+I den här videon visas hur du hanterar användaråtkomsträttigheter.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12)
+
+Ytterligare Campaign Standard om instruktionsvideor finns [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv).
