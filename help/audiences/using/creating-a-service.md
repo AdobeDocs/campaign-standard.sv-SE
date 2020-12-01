@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: managing-subscriptions
 context-tags: service,wizard;service,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 100%
+source-wordcount: '440'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 100%
 # Skapa en tjänst{#creating-a-service}
 
 För att kunna hantera prenumerationer måste du först skapa en tjänst och konfigurera den.  När du konfigurerar en ny tjänst kan du ange de e-postbekräftelser som profilerna får när de prenumererar på eller avprenumererar sig från tjänsten.  Du definierar också de landningssidor för prenumerationer och avprenumerationer som är kopplade till tjänsten.  Exempelvis kan en prenumerationslänk för en tjänst som infogas i ett e-postmeddelande automatiskt dirigera profilen till den prenumerationsstartsida som anges i tjänsten.
+
+![](assets/do-not-localize/how-to-video.png) [Upptäck den här funktionen i en video](#video)
 
 Så här konfigurerar du en tjänst:
 
@@ -55,7 +57,14 @@ När en tjänst har skapats kan du marknadsföra den.
 
 **Relaterade ämnen:**
 
-* Video [om hantering av en tjänst och prenumerationer](https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/tutorials/profiles-and-audiences/services-and-subscriptions.html)
 * [Marknadsföra en tjänst](../../audiences/using/promoting-a-service.md)
 * [Skapa en målgrupp bestående av abonnenter](../../audiences/using/creating-audiences.md#creating-list-audiences)
 * [Länka en landningssida till en tjänst](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
+
+## Självstudievideo {#video}
+
+I den här videon visas hur du skapar en tjänst och hanterar dess prenumerationer.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24673?quality=12)
+
+Ytterligare Campaign Standard om instruktionsvideor finns [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv).
