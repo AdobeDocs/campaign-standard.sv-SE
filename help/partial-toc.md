@@ -3,13 +3,13 @@ keywords: Campaign Standard;home;popular topics
 solution: Campaign Standard
 product: campaign
 title: Produktdokumentation för Adobe Campaign Standard
-description: Bläddra i Campaign Standardens produktdokumentation
+description: Bläddra i produktdokumentationen för Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
 source-git-commit: 189cd93d12dfd7838dae87dd4c8de19c10926ce6
 workflow-type: tm+mt
 source-wordcount: '30'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
