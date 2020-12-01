@@ -7,10 +7,10 @@ audience: designing
 content-type: reference
 topic-tags: about-content-design
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 15a4484ba846b1e08e5fa456a5448e76d60949c5
 workflow-type: tm+mt
-source-wordcount: '1208'
-ht-degree: 90%
+source-wordcount: '1225'
+ht-degree: 89%
 
 ---
 
@@ -19,15 +19,16 @@ ht-degree: 90%
 
 När du har skapat ett e-postmeddelande i Adobe Campaign måste du definiera dess innehåll.
 
-Med e-postdesignern kan du skapa engagerande, individuellt anpassade e-postmeddelanden via ett dra-och-släpp-gränssnitt. Oavsett om du börjar med en tom sida eller använder befintliga innehållskomponenter eller -mallar kan du designa och förfina allt innehåll för varje e-postmeddelande – oavsett om det är reklam eller en transaktion.
+Med e-postdesignern kan du skapa engagerande, individuellt anpassade e-postmeddelanden genom att dra och släppa
+gränssnitt. Oavsett om du börjar med en tom sida eller använder befintliga innehållskomponenter eller -mallar kan du designa och förfina allt innehåll för varje e-postmeddelande – oavsett om det är reklam eller en transaktion.
 
 E-postdesignern är designad för att leverera HTML som är optimerad för responsiv design och du kan enkelt definiera och använda synlighetsvillkor. Du kan även använda dynamiskt innehåll i ett e-postmeddelande, en mall eller ett fragment direkt via användargränssnittet. Du kan smidigt växla mellan dra och släpp-gränssnittet och HTML-koden med en enda knapptryckning
 
 Med E-postdesignern kan du skapa e-postinnehåll och mallar för e-postinnehåll. Den är kompatibel med enkla e-postmeddelanden, transaktionsmeddelanden, A/B-testmeddelanden, flerspråkiga e-postmeddelanden och återkommande e-postmeddelanden.
 
-Kom igång med e-postdesignern genom att titta på den här [uppsättningen videor](https://docs.adobe.com/content/help/sv-SE/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-experience-manager/creating-email-experience-manager.html) som förklarar de allmänna funktionerna i programmet och hur du designar ett e-postmeddelande från grunden eller använder mallar.
-
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
+
+![](assets/do-not-localize/how-to-video.png) [Upptäck e-postdesignern i video](#video)
 
 * Se [Kom igång med e-postdesignern](../../designing/using/quick-start.md) för information om hur du skapar e-postinnehåll.
 * Se [Använda e-postdesignern](../../designing/using/designing-content-in-adobe-campaign.md) för en översikt över e-postdesignern.
@@ -117,7 +118,7 @@ Vi rekommenderar att du tillämpar följande principer för att kunna använda e
 
    förhandsgranska dina meddelanden innan du skickar dem. Adobe Campaign erbjuder ett sätt att testa e-poståtergivning med Litmus. Se [E-poståtergivning](../../sending/using/email-rendering.md) för mer information.
 
-Mer information om design och allmänna bästa metoder för meddelanden finns i följande avsnitt: [Bästa praxis](../../sending/using/delivery-best-practices.md).
+Mer information om design och allmänna bästa metoder för meddelanden finns i följande avsnitt: [Bästa praxis för leverans](../../sending/using/delivery-best-practices.md).
 
 ### Uppdaterar fragment {#email-designer-updates}
 
@@ -158,3 +159,11 @@ Observera följande när det gäller fragment:
 * [Utforma en landningssida](../../channels/using/designing-a-landing-page.md)
 * [Skapa ett SMS-meddelande](../../channels/using/creating-an-sms-message.md)
 * [Skapa och skicka ett push-meddelande](../../channels/using/preparing-and-sending-a-push-notification.md)
+
+## Självstudievideo {#video}
+
+Den här videon ger en översikt över e-postdesignern.
+
+>[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
+
+Kom igång med e-postdesignern genom att titta på den här [uppsättningen videor](https://docs.adobe.com/content/help/sv-SE/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-experience-manager/creating-email-experience-manager.html) som förklarar de allmänna funktionerna i programmet och hur du designar ett e-postmeddelande från grunden eller använder mallar
