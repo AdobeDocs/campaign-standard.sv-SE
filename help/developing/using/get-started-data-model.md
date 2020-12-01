@@ -7,10 +7,10 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 24%
+source-wordcount: '336'
+ht-degree: 25%
 
 ---
 
@@ -29,9 +29,9 @@ Utöka datamodellen i Campaign Standard med egna fält och resurser och övervak
 
 <img src="assets/do-not-localize/icon_datamodel.svg" width="60px">
 
-De data som används av Campaign definieras med hjälp av olika resurser som definieras i en **fördefinierad datamodell**. Datamodellen visar en färdig SQL-struktur för en uppsättning marknadsföringsrelaterade resurser: leverans, målgrupp, landningssidor, profil osv. Varje resurs har tillhörande filter som gör att du kan navigera bland resurserna.
+Data som används av Campaign definieras med olika resurser som definieras i en **fördefinierad datamodell**. Datamodellen visar en färdig SQL-struktur för en uppsättning marknadsföringsrelaterade resurser: leverans, målgrupp, landningssidor, profil osv. Varje resurs har tillhörande filter som gör att du kan navigera bland resurserna.
 
-På **Diagnosis** -menyn kan du lista de tekniska objekt som genereras av Campaign Standarden: datamodeller, webbsidor, filter osv. som gör att du kan övervaka datamodellen och ändringar som gjorts i den.
+På menyn **Diagnos** kan du lista de tekniska objekt som genereras av Campaign Standarden: datamodeller, webbsidor, filter osv. som gör att du kan övervaka datamodellen och ändringar som gjorts i den.
 
 Läs mer:
 
@@ -44,9 +44,9 @@ Läs mer:
 
 <img src="assets/do-not-localize/icon_custom.svg" width="60px">
 
-Med Campaign Standard kan du **utöka den fördefinierade datamodellen** för att skapa egna resurser (t.ex. för att lägga till Inköp- eller Produkttabeller) eller utöka befintliga resurser med nya fält. Du kan också konfigurera Campaign-skärmar för att optimera navigeringen genom de nya resurser och fält som har skapats.
+Med Campaign Standard kan du **utöka den fördefinierade datamodellen** för att skapa egna resurser (till exempel för att lägga till Inköp- eller Produkttabeller) eller utöka befintliga resurser med nya fält. Du kan också konfigurera Campaign-skärmar för att optimera navigeringen genom de nya resurser och fält som har skapats.
 
-Dessutom kan du **utöka Campaign Standardens REST API:er** så att de kan visas i API:ernas utökade fält för anpassade resursprofiler. På så sätt kan du till exempel uppdatera en kunds profil med en kampanjkod som genereras från ett faktureringssystem.
+Dessutom kan du **utöka Campaign Standardens REST API:er** för att visa de utökade API:erna för de anpassade resursprofilerna i de utökade fälten. På så sätt kan du till exempel uppdatera en kunds profil med en kampanjkod som genereras från ett faktureringssystem.
 
 Läs mer:
 
@@ -64,5 +64,4 @@ Med Campaign Standard-API:er kan du skapa integreringar för Adobe Campaign Stan
 ## Ytterligare resurser
 
 * [Om Adobe Experience Platform Data Connector](../../developing/using/aep-about-data-connector.md)
-* [Skapa anpassade resurser (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/developing/custom-resources-develop/creating-custom-resources.html)
 * [Exportera/importera anpassade resurser](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)
