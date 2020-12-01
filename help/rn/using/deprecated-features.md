@@ -7,15 +7,15 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 translation-type: tm+mt
-source-git-commit: de8afa7e942b7ee831837b1f9506488f7ca835f0
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '658'
 ht-degree: 16%
 
 ---
 
 
-# Deprecated and Removed Features {#deprecated-and-removed-features}
+# Föråldrade och borttagna funktioner {#deprecated-and-removed-features}
 
 Adobe utvärderar ständigt produktfunktioner för att identifiera äldre funktioner som bör ersättas med modernare alternativ för att förbättra det övergripande kundvärdet. Detta sker alltid under noggrant övervägande gällande bakåtkompatibilitet.
 
@@ -27,7 +27,7 @@ Följande regler gäller för att informera om den förestående borttagningen/e
 Den här processen ger kunderna minst en cykel av versioner för att anpassa implementeringen till en ny version eller efterföljare till en inaktuell funktion innan den faktiska borttagningen.
 
 >[!NOTE]
->Adobe Campaign Standard releases and new capabilities are listed in the [Release Notes](../../rn/using/release-notes.md).
+>Adobe Campaign Standard-versioner och nya funktioner listas i [versionsinformationen](../../rn/using/release-notes.md).
 
 
 ## Inaktuella funktioner {#deprecated-features}
@@ -47,7 +47,7 @@ Kunderna rekommenderas att granska om de använder funktionen/funktionen i den a
  <tbody> 
   <tr> 
    <td> <p> Från och med version 20.1 är SDK v4 föråldrat. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Läs mer</a>.</p><br/>
-   <p>Adobe Experience Platform <a href="https://aep-sdks.gitbook.io/docs/">Mobile SDK</a> (tidigare kallat v5) har endast stöd för kommande funktioner och funktioner från Adobe Experience Cloud.</p></br>
+   <p><a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a> (tidigare kallat v5) stöder endast kommande funktioner och funktioner i Adobe Experience Cloud.</p></br>
      <p>
      <em>Datum för målborttagning: 31 augusti 2021</em></p>
      </td> 
@@ -62,8 +62,8 @@ Kunderna rekommenderas att granska om de använder funktionen/funktionen i den a
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Från och med Campaign 19.4 är användningen av Campaign-API:t och gränssnittet för begäran om åtkomst och borttagning föråldrad. Det går inte att ta bort profiler i två steg. Använd <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe sekretessbastjänst</a>.</p></br>
-   <p>Se även <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">Hantera sekretessförfrågningar</a>.</p>
+   <td> <p>Från och med Campaign 19.4 är användningen av Campaign-API:t och gränssnittet för begäran om åtkomst och borttagning föråldrad. Det går inte att ta bort profiler i två steg. Använd <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
+   <p>Se även <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">Hantera sekretessbegäranden</a>.</p>
   <p> 
   <em>Måldatum för borttagning: 2021</em></p>
    </td> 
@@ -79,10 +79,10 @@ Kunderna rekommenderas att granska om de använder funktionen/funktionen i den a
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Från och med Campaign 19.0 är den gamla e-postredigeraren föråldrad. Använd <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">den nya e-postdesignern</a> för att skapa och anpassa ditt e-postinnehåll. </p></br>
-   <p>Läs igenom <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">det här avsnittet</a> och lär dig hur du anpassar e-postmallarna för den nya redigeraren.</p></br>
+   <td> <p>Från och med Campaign 19.0 är den gamla e-postredigeraren föråldrad. Använd <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">e-postdesignern för kampanj</a> för att skapa och anpassa ditt e-postinnehåll. </p></br>
+   <p>Läs <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">det här avsnittet</a> om du vill veta hur du anpassar e-postmallar för den nya redigeraren.</p></br>
   <p> 
-  <em>Måldatum för borttagning: 2021</em></p>
+  <em>Datum för målborttagning: slutet av 2021</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -102,7 +102,7 @@ Kunderna rekommenderas att granska om de använder funktionen/funktionen i den a
  </tbody> 
 </table>
 
-## Removed Features {#removed-features}
+## Borttagna funktioner {#removed-features}
 
 I det här avsnittet visas funktioner som har tagits bort från Campaign Standarden.
 
@@ -114,7 +114,7 @@ I det här avsnittet visas funktioner som har tagits bort från Campaign Standar
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Propensitetspoängen <b></b> har tagits bort från Adobe Experience Cloud Triggers. Detta alternativ har därför tagits bort från Adobe Campaign Standard. För att undvika föråldrade värden på Propensity-poängen i Enrichment-scheman rekommenderar vi att du uppdaterar scheman för att hämta de senaste ändringarna och publicera om befintliga Triggers. Mer information finns i Publicera en utlösare i Campaign <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html#publishing-trigger-in-campaign"> </a>.
+   <td> <p><b>Propensitetspoängen</b> har tagits bort från Adobe Experience Cloud-utlösare. Detta alternativ har därför tagits bort från Adobe Campaign Standard. För att undvika föråldrade värden på Propensity-poängen i Enrichment-scheman rekommenderar vi att du uppdaterar scheman för att hämta de senaste ändringarna och publicera om befintliga Triggers. Mer information finns i <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html"> Publicera en utlösare i Campaign </a>.
 </p></br>
    </td> 
   </tr> 
@@ -145,7 +145,7 @@ I det här avsnittet visas funktioner som har tagits bort från Campaign Standar
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Campaign och Adobe Experience Cloud har upphört med stödet för Microsoft Internet Explorer 11 från och med våren 2019 och Campaign 19.2. Växla till Microsoft Edge eller en annan webbläsare som stöds. <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/about-configuration-guidelines.html#compatible-browsers">Läs mer</a>.</p>
+   <td> <p>Adobe Campaign och Adobe Experience Cloud har upphört med stödet för Microsoft Internet Explorer 11 från och med våren 2019 och Campaign 19.2. Växla till Microsoft Edge eller en annan webbläsare som stöds. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/about-configuration-guidelines.html">Läs mer</a>.</p>
    </td> 
   </tr> 
  </tbody> 
