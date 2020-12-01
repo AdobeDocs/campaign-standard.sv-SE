@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 72fd9693fa089a7246bbb87fc10e6fcc4276eddd
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 14%
+source-wordcount: '657'
+ht-degree: 12%
 
 ---
 
@@ -30,11 +30,13 @@ Adobe Campaign är en molnbaserad lösning som ger administratörer olika sätt 
 >
 >Om du har frågor eller frågor om implementerings- och konfigurationsfrågor kontaktar du din kontoansvarige på Adobe.
 
-## Menyn Administration {#administration-menu}
+Observera att om din instans finns på AWS kan administratörsanvändare även använda Campaign-kontrollpanelen för att hantera inställningar och spåra användning för var och en av dina instanser. Mer information om detta hittar du i den [dedikerade dokumentationen](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html).
+
+## Administrationsmeny {#administration-menu}
 
 <img src="assets/do-not-localize/icon_menu.svg" width="60px">
 
-De olika administratörsåtgärderna för Adobe Campaign utförs via den meny som är tillgänglig när du klickar på Adobe Campaign logotyp i det övre vänstra hörnet. **[!UICONTROL Administration]** Den här delen av gränssnittet kan bara nås av funktionsadministratörer för plattformen.
+De olika administratörsåtgärderna för Adobe Campaign utförs via menyn **[!UICONTROL Administration]** som är tillgänglig när du klickar på Adobe Campaign logotyp i det övre vänstra hörnet. Den här delen av gränssnittet kan bara nås av funktionsadministratörer för plattformen.
 
 De olika menyerna är:
 
@@ -45,15 +47,15 @@ De olika menyerna är:
 * [Förekomstinställningar](../../administration/using/branding.md): På den här menyn definierar du dina olika varumärken och konfigurerar deras inställningar (logotyp, hantering av spårning, URL-domän för att komma åt landningssidorna, osv.).
 * [Distribution](../../automating/using/managing-packages.md): Den här menyn grupperar alternativen för paketimport och -export.
 * [Kundstatistik](../../audiences/using/active-profiles.md): Adobe Campaign tillhandahåller en rapport som visar antalet aktiva profiler. Den här rapporten är bara informativ, den har ingen direkt inverkan på faktureringen.
-* [Sekretessverktyg](https://helpx.adobe.com/se/campaign/kb/campaign-privacy.html): På den här menyn kan du skapa GDPR-åtkomst och ta bort begäranden och spåra deras utveckling.
+* [Sekretessverktyg](../../start/using/privacy-management.md): På den här menyn kan du skapa GDPR-åtkomst och ta bort begäranden och spåra deras utveckling.
 
 ## Användare och säkerhet {#users-security}
 
 <img src="assets/do-not-localize/icon_users.svg"  width="60px">
 
-Bjud in användare att komma åt programmet och hantera **säkerhetsgrupper**, som är uppsättningar användare som delar samma roller och rättigheter inom organisationen. By default, Adobe Campaign offers a set of **roles** which allows you to define unitary authorizations assigned to users and user groups. Combined with **organizational units**, roles give users a filtered view of the interface and define their access to the different features.
+Bjud in användare att komma åt programmet och hantera **säkerhetsgrupper**, som är uppsättningar användare som delar samma roller och rättigheter i organisationen. Som standard erbjuder Adobe Campaign en uppsättning **roller** som gör att du kan definiera enhetsauktoriseringar som tilldelats användare och användargrupper. I kombination med **organisationsenheter** ger roller användarna en filtrerad vy av gränssnittet och definierar deras åtkomst till de olika funktionerna.
 
-Med Campaign-standarden kan ni också övervaka säkerhetsrelaterad information. Ni kan hämta information om dataexport som utförs av användare via **[!UICONTROL Export audits]** skärmen och använda **[!UICONTROL Licenses]** skärmen för att övervaka alla installerade Campaign-licenser inom organisationen, samt annan information som versionsnummer, releaseversion och avtalsvillkor.
+Med Campaign-standarden kan ni också övervaka säkerhetsrelaterad information. Du kan hämta information om dataexport som utförs av användare via **[!UICONTROL Export audits]**-skärmen och använda **[!UICONTROL Licenses]**-skärmen för att övervaka alla installerade Campaign-licenser inom organisationen, samt annan information, till exempel versionsnummer, frisläppningsversion och avtalsvillkor.
 
 Läs mer:
 
@@ -68,11 +70,11 @@ Läs mer:
 
 <img src="assets/do-not-localize/icon_channels.svg" width="60px">
 
-Alla kommunikationskanaler i Adobe Campaign måste vara korrekt konfigurerade för att effektivt kunna skicka meddelanden. På **[!UICONTROL Channel]** menyn kan du hantera de tekniska parametrar som är länkade till de olika kanalerna.
+Alla kommunikationskanaler i Adobe Campaign måste vara rätt konfigurerade för att effektivt kunna skicka meddelanden.,Med **[!UICONTROL Channel]**-menyn kan du hantera de tekniska parametrar som är länkade till de olika kanalerna.
 
-Konfigurera olika **e-postparametrar** : bearbetningsregler för studsar, karantän, e-postegenskaper och routningsparametrar, typoregler. Definiera routningskonfigurationer och egenskaper för **SMS** -kanalen samt för SMS-kodning och format.
+Konfigurera olika **e-postparametrar**: bearbetningsregler för studsar, karantän, e-postegenskaper och routningsparametrar, typoregler. Definiera routningskonfigurationer och egenskaper för **SMS**-kanalen samt för SMS-kodning och format.
 
-Konfigurera **mobilappar** för att kunna skicka meddelanden i appen och push-meddelanden med Adobe Experience Platform SDK:er, och konfigurera **transaktionsmeddelanden** genom att skapa och konfigurera händelser.
+Konfigurera **mobilprogram** för att kunna skicka meddelanden i appen och push-meddelanden med Adobe Experience Platform SDK:er, och konfigurera **transaktionsmeddelanden** genom att skapa och konfigurera händelser.
 
 Läs mer:
 
@@ -90,7 +92,7 @@ Campaign Standarden innehåller olika programelement som kan konfigureras efter 
 
 Konfigurera **externa konton** som används för att ansluta Adobe Campaign till externa servrar. Få åtkomst till målmappningar för Campaign Standarder och övervaka plattformen med **tekniska arbetsflöden**.
 
-Definiera ett eller flera **varumärken** för din organisation och konfigurera sändning av **realtidsmeddelanden** i programmet i händelse av viktiga systemaktiviteter.
+Definiera ett eller flera **varumärken** för din organisation och konfigurera sändning av **meddelanden i realtid** i programmet om det finns viktiga systemaktiviteter.
 
 Läs mer:
 
@@ -100,8 +102,3 @@ Läs mer:
 * [Tekniska arbetsflöden](../../administration/using/technical-workflows.md)
 * [Varumärke](../../administration/using/branding.md)
 * [Skicka interna meddelanden](../../administration/using/sending-internal-notifications.md)
-
-## Ytterligare resurser
-
-* [Hantera åtkomsträttigheter för användare (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html)
-* [Dokumentation för kontrollpanelen](https://docs.adobe.com/content/help/sv-SE/control-panel/using/control-panel-home.html)
