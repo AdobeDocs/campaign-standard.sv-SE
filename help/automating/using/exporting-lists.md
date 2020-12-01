@@ -7,34 +7,36 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 5%
+source-wordcount: '444'
+ht-degree: 6%
 
 ---
 
 
 # Exporterar listor{#exporting-lists}
 
-Med Adobe Campaign kan du exportera listor direkt i en fil för framtida bruk. När du exporterar en lista i en fil skapas en loggpost på **[!UICONTROL Export audits]** menyn. Mer information om exportgranskningar finns i avsnittet [Granska exportering](../../administration/using/auditing-export-logs.md).
+Med Adobe Campaign kan du exportera listor direkt i en fil för framtida bruk. När du exporterar en lista i en fil skapas en loggpost på **[!UICONTROL Export audits]**-menyn. Mer information om exportgranskningar finns i avsnittet [Granska exportering](../../administration/using/auditing-export-logs.md).
 
-The export list option allows you to export a maximum of 100,000 lines by default and defined by the **Nms_ExportListLimit** option. This option can be managed by the functional administrator, under the **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** menu.
+![](assets/do-not-localize/how-to-video.png) [Upptäck hur du konfigurerar en lista i en video](#video)
 
-Exportlistan är tillgänglig på alla skärmar som har en **listvy** för användare med **[!UICONTROL EXPORT (export)]** rollen.
+Med alternativet för exportlista kan du exportera högst 100 000 rader som standard och som definieras av alternativet **Nms_ExportListLimit**. Det här alternativet kan hanteras av den funktionella administratören under menyn **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
 
-1. Gå till den valda **listskärmen** . Exempelvis testprofilens översiktsskärm ( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** ).
-1. Kontrollera att skärmen är i **listläge** .
+Exportlistan är tillgänglig på alla skärmar som har en **List**-lägesvy för användare med rollen **[!UICONTROL EXPORT (export)]**.
+
+1. Gå till den valda **listskärmen**. Testprofilens översiktsskärm ( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** ).
+1. Kontrollera att skärmen är i **listläge**.
 
    ![](assets/export_list_mode_switch.png)
 
-1. Ordna kolumnerna i listan i den ordning som du vill exportera dem med hjälp av **[!UICONTROL Configure list]** -knappen i det övre högra hörnet. Förutom konfigurerade kolumner exporteras även resursens primärnyckel.
+1. Ordna kolumnerna i listan i den ordning som du vill exportera dem med knappen **[!UICONTROL Configure list]** i det övre högra hörnet. Förutom konfigurerade kolumner exporteras även resursens primärnyckel.
 1. Om du vill kan du använda ett filter. Om du vill göra det klickar du på knappen i det övre vänstra hörnet för att visa sökfönstret.
 
    Om du exporterar från en lista som innehåller olika resurser måste du tillämpa filtren så att endast en typ av resurs visas i listan.
 
 1. Om du vill kan du sortera de kolumner du har valt.
-1. Markera exportknappen ![](assets/exportlistbutton.png).
+1. Välj exportknappen ![](assets/exportlistbutton.png).
 
    Ett popup-fönster visas som bekräftar exporten. När du har bekräftat exporten hämtas filen automatiskt till datorn.
 
@@ -42,7 +44,7 @@ Filen genereras i CSV-format med filtillägget .TXT. Det namnges enligt den expo
 
 De numeriska värdena och datumen tar hänsyn till lokal tid (nationella inställningar) för användaren som utför exporten. Till exempel: DD-MM-YYYY eller MM-DD-YYYY
 
-Om du vill exportera filer som är större än detta måste du skapa ett dedikerat arbetsflöde. Se avsnittet [Extrahera fil](../../automating/using/extract-file.md) .
+Om du vill exportera filer som är större än detta måste du skapa ett dedikerat arbetsflöde. Se avsnittet [Extrahera fil](../../automating/using/extract-file.md).
 
 **Exempel**
 
@@ -73,4 +75,11 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 
 * [Roller](../../administration/using/list-of-roles.md)
 * [Anpassa listor](../../start/using/customizing-lists.md)
-* [Konfigurera listvideo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/configure-a-list.html)
+
+## Självstudievideo {#video}
+
+I den här videon visas hur du konfigurerar listor.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25288/?quality=12)
+
+Ytterligare Campaign Standard om instruktionsvideor finns [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv).
