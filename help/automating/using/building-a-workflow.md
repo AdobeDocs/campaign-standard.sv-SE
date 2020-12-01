@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,wizard;workflow,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '958'
-ht-degree: 100%
+source-wordcount: '983'
+ht-degree: 96%
 
 ---
 
@@ -36,10 +36,11 @@ Du kan öppna övergångar om du vill kontrollera att skickade data är korrekta
 
 ![](assets/workflow_overview.png)
 
-
 ## Skapa ett arbetsflöde {#creating-a-workflow}
 
 Du kan skapa ett arbetsflöde från ett program, en kampanj eller listan över marknadsföringsaktiviteter.
+
+![](assets/do-not-localize/how-to-video.png) [Upptäck hur du skapar ett arbetsflöde i en video](#video)
 
 Avsnittet [Skapa marknadsföringsaktiviteter](../../start/using/marketing-activities.md#creating-a-marketing-activity) beskriver hur du skapar en marknadsföringsaktivitet.
 
@@ -67,14 +68,13 @@ Avsnittet [Skapa marknadsföringsaktiviteter](../../start/using/marketing-activi
 
 1. Bekräfta att aktiviteten har skapats så visas kontrollpanelen för aktiviteten. Mer information finns i avsnittet [Arbetsflödesgränssnitt](../../automating/using/workflow-interface.md).
 
-1. När arbetsflödet är redo att konfigureras kan du komma åt ytterligare alternativ genom att klicka på **[!UICONTROL Edit properties]**-knappen. Du kan till exempel definiera en specifik tidszon som ska användas som standard i alla arbetsflödets aktiviteter. Som standard är arbetsflödets tidszon den som definieras för den aktuella Campaign-operatören.
+1. När arbetsflödet är redo att konfigureras kan du komma åt ytterligare alternativ genom att klicka på **[!UICONTROL Edit properties]**-knappen.
+
+   Du kan till exempel definiera en specifik tidszon som ska användas som standard i alla arbetsflödets aktiviteter. Som standard är arbetsflödets tidszon den som definieras för den aktuella Campaign-operatören.
+
+   Mer information om arbetsflödesegenskaper finns i [den här sidan](../../automating/using/managing-execution-options.md).
 
    ![](assets/workflow_properties.png)
-
-**Relaterat ämne:**
-
-* Video [Skapa ett arbetsflöde](https://docs.adobe.com/content/help/sv-SE/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.html)
-* [Egenskaper för arbetsflöde](../../automating/using/managing-execution-options.md)
 
 ## Lägga till och koppla aktiviteter {#adding-and-linking-activities}
 
@@ -130,3 +130,11 @@ Aktiviteter är som standard inte inställda och bearbetar inte data korrekt om 
 1. Definiera alla olika alternativ som du behöver för att bearbeta data. Se aktivitetens specifika avsnitt i den här dokumentationen om du vill veta mer om möjliga alternativ för varje aktivitet.
 1. Spara aktiviteten och upprepa dessa åtgärder för varje aktivitet i arbetsflödet.
 1. Spara arbetsflödet.
+
+## Självstudievideo {#video}
+
+I den här videon visas hur du skapar ett arbetsflöde.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
+
+Ytterligare Campaign Standard om instruktionsvideor finns [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv).
