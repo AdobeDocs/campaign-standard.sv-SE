@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: e20485978deba54f45010a41921b948f049222f2
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 13%
+source-wordcount: '589'
+ht-degree: 14%
 
 ---
 
@@ -30,13 +30,15 @@ När marknadsföringskampanjer har slutförts och de olika meddelandena har skic
 
 Slutligen kan ni utnyttja riktlinjer och verktyg för leverans i Campaign Standard för att förbättra antalet levererade meddelanden och säkerställa framgångsrika marknadsföringskampanjer.
 
+![](assets/do-not-localize/how-to-video.png) [Upptäck hur du skickar ett testmeddelande via e-post, förbereder och skickar ett e-postmeddelande i en video](#video)
+
 ## Förbered och testa {#prepare-test-send}
 
 <img src="assets/do-not-localize/icon_prepare.svg" width="60px">
 
-Campaign Standardens **meddelandeförberedelse** analyserar målet, personaliseringen och meddelandets giltighet. Fel som upptäcks under det här steget måste åtgärdas innan du kan fortsätta.
+Campaign Standard **meddelandeförberedelse** analyserar meddelandets mål, personalisering och giltighet. Fel som upptäcks under det här steget måste åtgärdas innan du kan fortsätta.
 
-**Förgranska och testa** dina meddelanden med olika funktioner: skicka korrektur för att testa profiler eller taggade profiler, testa ämnesraden i dina e-postmeddelanden och kontrollera återgivningen av dina meddelanden för att se till att de visas på ett optimalt sätt på olika webbklienter, webbmejl och enheter.
+**Förgranska och** testa meddelanden med olika funktioner: skicka korrektur för att testa profiler eller taggade profiler, testa ämnesraden i dina e-postmeddelanden och kontrollera återgivningen av dina meddelanden för att se till att de visas på ett optimalt sätt på olika webbklienter, webbmejl och enheter.
 
 Utnyttja funktionerna för kampanjplanering för att definiera när meddelanden ska skickas. Du kan till exempel anpassa sändning vid mottagarens tidszon, optimera sändningstiden eller beräkna sändningsdatumet.
 
@@ -55,11 +57,11 @@ Läs mer:
 
 <img src="assets/do-not-localize/icon_send.svg"  width="60px">
 
-När meddelandet är klart kan du bekräfta överförings- och åtkomstloggarna och rapporterna för att **övervaka leveransen** och mäta kampanjens framgångar. Adobe Campaign har också ett e-postvarningssystem som håller reda på leveransframgångar eller misslyckanden samt karantänhanteringsfunktioner.
+När meddelandet är klart kan du bekräfta att loggarna och rapporterna ska skickas och nås för att **övervaka leveransen** och mäta kampanjens framgångar. Adobe Campaign har också ett e-postvarningssystem som håller reda på leveransframgångar eller misslyckanden samt karantänhanteringsfunktioner.
 
-**Spåra beteendet** för meddelandemottagarna genom att använda sessioner och permanenta cookies för att hämta spårningsinformation (klickade URL:er, spegelsidor, öppnade meddelanden..).
+**Spåra** beteendet för meddelandemottagarna genom att använda sessioner och permanenta cookies för att hämta spårningsinformation (klickade URL:er, spegelsidor, öppnade meddelanden..).
 
-Slutligen kan du konfigurera Adobe Campaign så att det **behåller en kopia av e-postmeddelanden** som skickas från din plattform via e-postkopia. Om din organisation behöver arkivera alla utgående e-postmeddelanden för att uppfylla kraven kan du aktivera den funktionen.
+Slutligen kan du konfigurera Adobe Campaign att **behålla en kopia av e-postmeddelanden** som skickas från din plattform via e-postkopia. Om din organisation behöver arkivera alla utgående e-postmeddelanden för att uppfylla kraven kan du aktivera den funktionen.
 
 Läs mer:
 
@@ -70,13 +72,13 @@ Läs mer:
 * [Förstå leveransfel](../../sending/using/understanding-delivery-failures.md)
 * [Förstå karantänhantering](../../sending/using/understanding-quarantine-management.md)
 
-## Riktlinjer för leverans {#improve-deliverability}
+## Riktlinjer för leveransbarhet {#improve-deliverability}
 
 <img src="assets/do-not-localize/icon_deliverability.svg"  width="60px">
 
 Leveransmöjligheterna gör det möjligt att mäta framgången för era kampanjer som når mottagarnas inkorgar utan att studsa, eller markeras som skräppost.
 
-Campaign Standard innehåller flera **leveransverktyg** som hjälper dig att förbättra antalet meddelanden som levereras: leveransrapporter, tidsoptimering, förhandsgranskning av meddelanden, e-poståtergivning, karantänhantering osv.
+Campaign Standarden innehåller flera **leveransverktyg** som hjälper dig att förbättra antalet meddelanden som levereras: leveransrapporter, tidsoptimering, förhandsgranskning av meddelanden, e-poståtergivning, karantänhantering osv.
 
 Läs mer:
 
@@ -89,8 +91,14 @@ Läs mer:
 ## Ytterligare resurser
 
 * [Utforma A/B-testmeddelanden](../../channels/using/designing-an-a-b-test-email.md)
-* [Skicka ett test, förbered och skicka ett e-postmeddelande (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/sending-test-preparing-sending-email.html)
-* [Granska e-postleveranser och rapporter (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
 * [Komma igång med e-post](https://helpx.adobe.com/se/campaign/kb/acs-get-started-with-emails.html)
 * [Bästa praxis för leverans](../../sending/using/delivery-best-practices.md)
 * [Lägga till en kontrollgrupp](../../sending/using/control-group.md)
+
+## Självstudievideo {#video}
+
+I den här videon visas hur du skickar ett testmeddelande, förbereder och sedan skickar du ett e-postmeddelande i Campaign Standard.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24013/)
+
+Ytterligare Campaign Standard om instruktionsvideor finns [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv).
