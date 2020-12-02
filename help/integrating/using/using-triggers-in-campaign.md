@@ -7,10 +7,10 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 87%
+source-wordcount: '727'
+ht-degree: 85%
 
 ---
 
@@ -51,7 +51,7 @@ Stegen för att implementera detta är:
 
 När du har skapat en utlösarhändelse i Adobe Campaign baserat på en befintlig Adobe Experience Cloud-utlösare måste du nu publicera den.
 
-1. Klicka på knappen från den tidigare utlösaren för att börja publicera utlösarhändelsen genom att klicka på **[!UICONTROL Publish]** knappen.
+1. Klicka på knappen **[!UICONTROL Publish]** från den tidigare utlösaren för att börja publicera utlösarhändelsen.
 
    ![](assets/trigger_publish_1.png)
 
@@ -69,7 +69,7 @@ När du har skapat en utlösarhändelse i Adobe Campaign baserat på en befintli
 
    ![](assets/trigger_publish_4.png)
 
-1. Click **[!UICONTROL Show Trigger in Experience Cloud]** button allows you to view the trigger definition in Adobe Experience Cloud.
+1. Klicka på **[!UICONTROL Show Trigger in Experience Cloud]** om du vill visa utlösardefinitionen i Adobe Experience Cloud.
 
 När händelsen har publicerats skapas sedan en transaktionsmall som är kopplad till den nya händelsen automatiskt. Sedan måste du ändra och publicera mallen som skapades. Mer information finns i avsnittet [Redigera mallen](../../start/using/marketing-activity-templates.md).
 
@@ -77,7 +77,7 @@ När händelsen har publicerats skapas sedan en transaktionsmall som är kopplad
 
 När du har skapat och publicerat utlösarhändelsen skapas motsvarande transaktionsmall automatiskt. Mer information finns i avsnittet [Skapa en mappad utlösare i Campaign](#creating-a-mapped-trigger-in-campaign).
 
-Innan händelsen kan utlösa ett transaktionsmeddelande måste du anpassa mallen, testa det och publicera det. De här stegen är samma som för ett vanligt transaktionsmeddelande. Mer information finns i avsnittet [Transaktionsmall](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message).
+Innan händelsen kan utlösa ett transaktionsmeddelande måste du anpassa mallen, testa det och publicera det. De här stegen är samma som för ett vanligt transaktionsmeddelande. Mer information finns i avsnittet [Redigera ett transaktionsmeddelande](../../channels/using/editing-transactional-message.md).
 
 >[!NOTE]
 >
