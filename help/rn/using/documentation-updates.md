@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 0690765f26398391b4604136b203541a109e203b
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
-source-wordcount: '6305'
-ht-degree: 97%
+source-wordcount: '6303'
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ Avsnittet Personuppgifter och Personas har uppdaterats med ett scenario för anv
 
 Ett nytt avsnitt med vanliga frågor om sekretess har lagts till. [Läs mer](../../start/using/privacy-faq.md)
 
-Sektionen Sekretess har flyttats och berikats med två nya sidor: [Sekretesshantering](../../start/using/privacy-management.md) och [Hantera sekretessförfrågningar](../../start/using/privacy-requests.md).
+Avsnittet Sekretess har flyttats och utökats med två nya sidor: [Sekretesshantering](../../start/using/privacy-management.md) och [Hantera förfrågan om användarens information](../../start/using/privacy-requests.md).
 
 Information har lagts till i avsnittet Adobe Experience Platform Data Connector om datamappningsvalideringsfel som rör sekretesshantering och felsökning. [Läs mer](../../developing/using/aep-mapping-activation.md)
 
@@ -49,13 +49,13 @@ Avsnittet om hur du anropar ett arbetsflöde med externa parametrar har utökats
 
 En rekommendation har lagts till i arbetsflödenas bästa praxis om hur många aktiviteter som ska användas per arbetsflöde. [Läs mer](../../automating/using/best-practices-workflows.md#number-activities)
 
-Ett nytt avsnitt om Bästa praxis för leverans har lagts till. [Läs mer](../../sending/using/delivery-best-practices.md)
+Ett nytt avsnitt om bästa praxis för leverans har lagts till. [Läs mer](../../sending/using/delivery-best-practices.md)
 
-Ett avsnitt har lagts till för att beskriva de nya filter som gör det möjligt att söka efter händelsekonfigurationer utifrån deras status och till den senaste gången en händelse togs emot. [Läs mer](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events)
+Ett avsnitt har lagts till som beskriver de nya filtren som gör det möjligt att söka efter händelsekonfigurationer utifrån deras status och den senaste gången en händelse togs emot. [Läs mer](../../channels/using/configuring-transactional-event.md#searching-transactional-events)
 
 ## September 2020 {#doc-updates-september-2020}
 
-Avsnittet Meddelanden för händelsetransaktioner har omorganiserats och klargjorts. [Läs mer](../../channels/using/event-transactional-messages.md)
+Avsnittet Meddelanden för händelsetransaktioner har omorganiserats och klargjorts. [Läs mer](../../channels/using/editing-transactional-message.md)
 
 Ett varningsmeddelande har lagts till som varnar användare om behörighetsbegränsningar för åtkomst till loggfilerna. [Läs mer](../../administration/using/users-management.md)
 
@@ -135,7 +135,7 @@ Ytterligare resurser har lagts till på startsidan för dokumentationen. [Läs m
 
 Information om Experience Cloud ID Service (ECID) har lagts till i dokumentationen för Adobe Experience Platform Data Connector. [Läs mer](../../developing/using/aep-about-data-connector.md#key-concepts)
 
-Avsnittet Konfigurering av transaktionella meddelanden har förbättrats med information om hur man får tillgång till de senaste transaktionshändelserna och uppdaterade skärmbilder. [Läs mer](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
+Avsnittet Transactional Messaging har förbättrats med information om hur du får tillgång till de senaste transaktionshändelserna och uppdaterade skärmbilder. [Läs mer](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
 Dokumentationen om typologier och typologiregler har förbättrats och uppdaterats med ytterligare information om inbyggda typologiregler. [Läs mer](../../sending/using/about-typology-rules.md)
 
@@ -143,15 +143,15 @@ Information har lagts till om **[!UICONTROL Transfer file]** aktivitetens **[!UI
 
 Dokumentationen om återförsök efter ett tillfälliga leveransfel har uppdaterats med mer information om hur återförsök hanteras när de har uppgraderats till det förbättrade MTA-avtalet. [Läs mer](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
 
-Avsnittet Ta bort ett transaktionsmeddelande har förbättrats och klargjorts. [Läs mer](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
+Avsnittet Ta bort ett transaktionsmeddelande har förbättrats och klargjorts. [Läs mer](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message)
 
-Avsnittet **Förhandsgranska leveranser** har uppdaterats med exempel på mobila leveranser.[Läs mer](../../sending/using/previewing-messages.md)
+Avsnittet **Förhandsgranska leveranser** har uppdaterats med exempel på mobila leveranser. [Läs mer](../../sending/using/previewing-messages.md)
 
-Bästa praxis har lagts till när det gäller transaktionsmeddelanden och borttagning av oanvända realtidshändelser. [Läs mer](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
+Bästa praxis har lagts till när det gäller transaktionsmeddelanden och borttagning av oanvända realtidshändelser. [Läs mer](../../channels/using/configuring-transactional-event.md#creating-an-event)
 
 Avsnittet Konfigurera e-postkanal har uppdaterats med information om alla e-postinställningar som nu hanteras av Adobe Campaign Enhanced MTA. [Läs mer](../../administration/using/configuring-email-channel.md)
 
-Avsnittet Konfigurering av transaktionella meddelanden har uppdaterats med ytterligare information om vilka rättigheter som krävs för att redigera händelsekonfigurationer och hur man förbättrar samlingar i transaktionsmeddelanden. [Läs mer](../../administration/using/configuring-transactional-messaging.md).
+Avsnittet Transactional messaging har uppdaterats med ytterligare information om vilka rättigheter som krävs för att redigera händelsekonfigurationer och hur du kan förbättra samlingar i transaktionsmeddelanden. [Läs mer](../../channels/using/configuring-transactional-event.md).
 
 ## Version 20.2 - april 2020 {#release-20-2---april-2020}
 
@@ -171,7 +171,7 @@ En begränsning har lagts till med MCPNS när en mobilapp konfigureras. [Läs me
 
 Ett nytt avsnitt med riktlinjer för konfiguration har lagts till i Administreringsguiden. Avsnittet för kompatibla webbläsare och operativsystem har flyttats från guiden Komma igång till det här avsnittet. Tekniska anteckningar på slutpunkter för nätverk i Campaign Standard har också lagts till i det här avsnittet. [Läs mer](../../administration/using/about-configuration-guidelines.md)
 
-Det finns nu ett nytt avsnitt som beskriver hur du tar bort en händelsekonfiguration. [Läs mer](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
+Det finns nu ett nytt avsnitt som beskriver hur du tar bort en händelsekonfiguration. [Läs mer](../../channels/using/publishing-transactional-event.md#deleting-an-event)
 
 Sidan som beskriver hur du testar ämnesraden i ett e-postmeddelande för att förutsäga dess öppningshastighet har uppdaterats och förbättrats. Detta inkluderar även ett nytt [felsökningsavsnitt](../../sending/using/testing-subject-line-email.md#troubleshooting) . [Läs mer](../../sending/using/testing-subject-line-email.md)
 
@@ -189,7 +189,7 @@ Konfigurationen av en mobilapps-dokumentation och relaterade sidor har uppdatera
 
 Integreringsdokumentationen för Adobe Campaign Standard/Adobe Experience Manager har uppdaterats och förbättrats. [Läs mer](../../integrating/using/configure-experience-manager.md)
 
-E-postdesignerdokumentationen för Campaign och tillhörande sidor har uppdaterats för att återspegla [!DNL Adobe Creative SDK]-avskrivning. [Läs mer](../../rn/using/deprecated-features.md)
+Dokumentationen för Email Designer i Campaign och tillhörande sidor har uppdaterats för att återspegla avskrivningen av [!DNL Adobe Creative SDK]. [Läs mer](../../rn/using/deprecated-features.md)
 
 Nu finns ett nytt avsnitt om de mest effektiva strategierna med Campaign Standard-datamodellen. [Läs mer](../../developing/using/data-model-best-practices.md)
 
@@ -207,7 +207,7 @@ Audience Destinations (beta) - [Läs mer](../../audiences/using/aep-about-audien
 
 **Andra dokumentationsuppdateringar som medföljer utgåvan**
 
-Dokumentationen för sekretesshantering har uppdaterats med information om hur du skapar CCPA-fält för avanmälan för anpassade profilresurser. [Läs mer](https://helpx.adobe.com/se/campaign/kb/acs-privacy.html)
+Dokumentationen för sekretesshantering har uppdaterats med information om hur du skapar CCPA-fält för avanmälan för anpassade profilresurser. [Läs mer](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html)
 
 Versionsinformationen har omstrukturerats och förbättrats. [Läs mer](../../rn/using/release-notes.md)
 
@@ -239,7 +239,7 @@ Arbetet med Campaign och Experience Manager-dokumentationen har uppdaterats med 
 
 Hemsidan för API-dokumentationen har förbättrats med omdirigeringar till de olika avsnitten. [Läs mer](../../api/using/get-started-apis.md)
 
-## Nov. - Dec. 2019 {#doc-updates-december-2019}
+## Nov.–dec. 2019 {#doc-updates-december-2019}
 
 Dokumentationen för det externa kontot för konfigurering av S3 har uppdaterats. [Läs mer](../../administration/using/external-accounts.md#amazon-s3-external-account)
 
@@ -259,7 +259,7 @@ Beräkningstabellen för **indikatorn** har uppdaterats. [Läs mer](../../report
 
 API:ernas dokumentationsuppsättning har integrerats i dokumentationen för Campaign Standard.[Läs mer](../../api/using/get-started-apis.md)
 
-Avsnittet Skapa en anpassad e-postmarknadsföring har flyttats och uppdaterats. [Läs mer](https://helpx.adobe.com/se/campaign/kb/acs-get-started-with-emails.html)
+Avsnittet Komma igång och skapa personaliserad e-post har flyttats och uppdaterats. [Läs mer](https://helpx.adobe.com/se/campaign/kb/acs-get-started-with-emails.html)
 
 Starthandboken Bästa praxis för leverans har uppdaterats. [Läs mer](../../sending/using/delivery-best-practices.md)
 
@@ -277,11 +277,11 @@ Integrering av Microsoft Dynamics 365 (GA) - [Läs mer](../../integrating/using/
 
 **Andra dokumentationsuppdateringar som medföljer utgåvan**
 
-Listan med felmeddelanden för Adobe Campaign har uppdaterats. [Läs mer](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Listan med felmeddelanden i Adobe Campaign har uppdaterats. [Läs mer](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
 Starthandboken GDPR har förbättrats och berikats. Det finns nu en dokumentation om sekretesshantering som inkluderar GDPR och CCPA. [Läs mer](https://helpx.adobe.com/se/campaign/kb/campaign-privacy.html)
 
-Ett nytt diagram som presenterar processen för transaktionsmeddelanden har lagts till. [Läs mer](../../administration/using/configuring-transactional-messaging.md#transactional-messaging-pub-process)
+Ett nytt diagram som presenterar processen för transaktionsmeddelanden har lagts till. [Läs mer](../../channels/using/publishing-transactional-message.md#transactional-messaging-pub-process)
 
 Guiden Komma igång med bästa leveransmetoder har flyttats och uppdaterats. [Läs mer](../../sending/using/delivery-best-practices.md)
 
@@ -291,13 +291,13 @@ Ett nytt avsnitt har lagts till som beskriver hur du formaterar länkar med Emai
 
 Sekretessrelaterad information har lagts till i API:ernas dokumentation [Klicka här](../../api/using/creating-a-privacy-request.md)
 
-## Sept. - okt. 2019 {#doc-updates-october-2019}
+## Sept.–okt. 2019 {#doc-updates-october-2019}
 
 Ett nytt avsnitt som är relaterat till inställningarna för Campaign Standard har lagts till. [Läs mer](../../administration/using/about-campaign-standard-settings.md)
 
 Ett nytt avsnitt som beskriver hur du skickar ett automatiskt anpassat bekräftelsemeddelande via e-post till profiler som prenumererar på en viss tjänst har lagts till. [Läs mer](../../audiences/using/confirming-subscription-to-a-service.md)
 
-Avsnittet Transactional messaging har ändrats med de senaste gränssnittsuppdateringarna inklusive redigering av innehåll med Email Designer. [Läs mer](../../channels/using/event-transactional-messages.md)
+Avsnittet Transactional messaging har ändrats med de senaste gränssnittsuppdateringarna inklusive redigering av innehåll med Email Designer. [Läs mer](../../channels/using/editing-transactional-message.md)
 
 Kapitlet om landningssidor har omstrukturerats. Den har också berikats med ett nytt avsnitt som beskriver stegen för att skapa en landningssida. [Läs mer](../../channels/using/getting-started-with-landing-pages.md)
 
@@ -307,7 +307,7 @@ Ett nytt exempel som visar hur du skickar ett e-postmeddelande som innehåller y
 
 Ett nytt avsnitt om hur du använder fällor har lagts till. [Läs mer](../../sending/using/using-traps.md).
 
-Ett meddelande om alternativet **Launch_URL_Campaign** har lagts till på sidan om hur du konfigurerar en mobilapp med hjälp av SDK:er för Adobe Experience Platform. [Läs mer](https://helpx.adobe.com/se/campaign/kb/configuring-app-sdk.html)
+Ett meddelande om alternativet **Launch_URL_Campaign** har lagts till på sidan om hur du konfigurerar en mobilapp med hjälp av SDK:er för Adobe Experience Platform. [Läs mer](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
 Email Designer-guiden har omstrukturerats. [Läs mer](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -363,7 +363,7 @@ Listan med felmeddelanden för Campaign Standard och Classic har uppdaterats. [L
 
 En varning har lagts till i dokumentationen för anpassade resurser. Vi rekommenderar att du använder högst 30 tecken för anpassade resurs-ID:n. Detta gäller även anpassade resursfält, nycklar, index och länkar. [Läs mer](../../developing/using/creating-or-extending-the-resource.md)
 
-## Juni - juli 2019 {#doc-updates-2019}
+## Juni–juli 2019 {#doc-updates-2019}
 
 En ny sida med begränsningar för landningssidor har lagts till. [Läs mer](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
 
@@ -379,7 +379,7 @@ En varning har lagts till i dokumentationen för anpassade resurser. Vi rekommen
 
 **Nya funktioner i utgåvan**
 
-Kontrollpanelen - [läs mer](https://docs.adobe.com/content/help/sv-SE/control-panel/using/control-panel-home.html)
+Kontrollpanelen - [läs mer](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
 Lokala notifikationer - [Läs mer](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
@@ -427,7 +427,7 @@ Ett nytt avsnitt om hur du sparar e-postinnehåll som ett fragment i Email Desig
 
 Avsnittet Hantera länkar har uppdaterats med ytterligare information om hur du hanterar spårade länkar i Email Designer. [Läs mer](../../designing/using/links.md#inserting-a-link)
 
-Ett nytt avsnitt har lagts till som beskriver processen för att försöka skicka transaktionsmeddelandet igen. [Läs mer](../../channels/using/event-transactional-messages.md#transactional-message-retry-process)
+Ett nytt avsnitt har lagts till som beskriver processen för att försöka skicka transaktionsmeddelandet igen. [Läs mer](../../channels/using/publishing-transactional-message.md#transactional-message-retry-process)
 
 Publiceringen av en resurs med API-tillägg har klargjorts och uppdaterats med de senaste gränssnittsändringarna. [Läs mer](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
 
@@ -505,7 +505,7 @@ Information har lagts till i extrahera fil-aktivitetsavsnittet om det nya altern
 
 Allmän tillgänglighet för Email Designer - [läs mer](../../designing/using/designing-content-in-adobe-campaign.md)
 
-Produktlistor i transaktionsmeddelanden - [läs mer](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
+Produktlistor i transaktionsmeddelanden - [läs mer](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)
 
 Mobilvy i Email Designer - [Läs mer](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)
 
@@ -533,9 +533,9 @@ Lagt till information om det nya alternativet i filaktiviteten extrahera som fö
 
 Konfigurationen av en mobilapp med SDK V4-avsnittet har flyttats [hit](https://helpx.adobe.com/se/campaign/kb/configuring-app-sdkv4.html).
 
-Avsnittet Konfigurera en mobilapp med SDK:er för Adobe Experience Platform har flyttats [hit](https://helpx.adobe.com/se/campaign/kb/configuring-app-sdk.html).
+Avsnittet Konfigurera en mobilapp med SDK:er för Adobe Experience Platform har flyttats [hit](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
-Videor har uppdaterats och flyttats [hit](https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/tutorials/overview.html).
+Videor har uppdaterats och flyttats [hit](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html).
 
 Avsnittet Typ av användare har uppdaterats. [Läs mer](../../administration/using/users-management.md)
 
@@ -565,7 +565,7 @@ Automatiserad innehållsimport från en länk vid förberedelsetillfället. [Lä
 
 **Andra dokumentationsuppdateringar som medföljer utgåvan**
 
-En ny teknik har lagts till i SMS-anslutningsprotokollet och inställningarna. [Läs mer](https://helpx.adobe.com/se/campaign/kb/sms-connector-protocol-and-settings.html)
+En ny teknik har lagts till i SMS-anslutningsprotokollet och inställningarna. [Läs mer](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)
 
 Experience Manager-integreringen med dokumentationen för Adobe Campaign har uppdaterats. [Läs mer](../../reporting/using/creating-a-custom-profile-dimension.md)
 
@@ -637,13 +637,13 @@ Vissa sidor i dokumentationen för innehållsredigeraren har sammanfogats för a
 
 **Nya funktioner i utgåvan**
 
-EU:s allmänna dataskyddsförordning (GDPR) - [Läs mer](https://helpx.adobe.com/se/campaign/kb/campaign-privacy.html)
+EU:s allmänna dataskyddsförordning (GDPR) - [Läs mer](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
 Creative Designer för e-post - [läs mer](../../designing/using/designing-content-in-adobe-campaign.md)
 
 Flerspråkiga push-leveranser - [Läs mer](../../channels/using/creating-a-multilingual-push-notification.md)
 
-Användning av anpassade resurser i transaktionsmeddelanden - [läs mer](../../administration/using/configuring-transactional-messaging.md)
+Användning av anpassade resurser i transaktionsmeddelanden - [läs mer](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)
 
 **Andra dokumentationsuppdateringar som medföljer utgåvan**
 
@@ -651,7 +651,7 @@ GDPR-API:t registrerar funktioner som tillåter automatisk bearbetning av GDPR-b
 
 Information har lagts till om hur du ställer in landningssidor för att ge dina mottagare möjlighet att bli tillagda på blockeringslistor. [Läs mer](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
-Avsnittet [Konfigurera transaktionsmeddelanden](../../administration/using/configuring-transactional-messaging.md) har omstrukturerats och ett [steg för steg-användningsexempel](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) har lagts till.
+Avsnittet [Konfigurera transaktionsmeddelanden](../../channels/using/configuring-transactional-event.md) har omstrukturerats och ett [steg för steg-användningsexempel](../../channels/using/transactional-messaging-use-case.md) har lagts till.
 
 En ny teknik har lagts till för att lära dig hur du skapar en flerspråkig CSV-fil som kan användas för push-meddelanden. [Läs mer](https://helpx.adobe.com/se/campaign/kb/acs-generate-csv-multilingual-push.html).
 
@@ -767,7 +767,7 @@ Uppdaterade och klargjorde [tekniken](https://helpx.adobe.com/se/campaign/kb/int
 
 Teknisk anteckning har lagts till som förklarar strukturen för den nyttolast som tas emot i en mobilapp. [Läs mer.](https://helpx.adobe.com/se/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)
 
-Konfigurations[avsnittet](https://helpx.adobe.com/se/campaign/kb/configuring-app-sdkv4.html) för push-kanaler har uppdaterats med ny nyttolastdata i OS-versionen som ska läggas till när återanslag definieras i gränssnittet för Adobe Mobile Services.
+Konfigurations[avsnittet](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) för push-kanaler har uppdaterats med ny nyttolastdata i OS-versionen som ska läggas till när återanslag definieras i gränssnittet för Adobe Mobile Services.
 
 SMS-dokumentationen har uppdaterats med ett förtydligande i avsnittet [SMS-automatiska svar](../../channels/using/managing-incoming-sms.md#managing-stop-sms) .
 
@@ -863,7 +863,7 @@ Guiden &quot;Leveranser&quot; har ordnats om och namnet &quot;Kanaler&quot; har 
 
 Många skärmbilder har uppdaterats för att återspegla gränssnittsändringar.
 
-Nu finns en ny teknik: &quot;Integrera Adobe Mobile SDK med mobilappen&quot;. [Läs mer](https://helpx.adobe.com/se/campaign/kb/integrate-mobile-sdk.html)
+Nu finns en ny teknik: &quot;Integrera Adobe Mobile SDK med mobilappen&quot;. [Läs mer](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
 Instruktioner för att konfigurera People core service eller Audience Manager integration med Adobe Campaign har lagts till. [Läs mer](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
@@ -893,9 +893,9 @@ Handboken för arbetsflöde har omorganiserats och utökats. Hitta enkelt hur ma
 
 Beräkning av rapportindikator finns nu tillgängligt för dynamiska rapporter inklusive fullständig beskrivning och beräkningsformel. [Läs mer](../../reporting/using/indicator-calculation.md)
 
-Nytt dedikerat avsnitt om konfigurationen av Adobe Mobile Services som använder push-meddelanden och intressepunktsdata i Adobe Campaign. [Läs mer](https://helpx.adobe.com/se/campaign/kb/configuring-app-sdkv4.html)
+Nytt dedikerat avsnitt om konfigurationen av Adobe Mobile Services som använder push-meddelanden och intressepunktsdata i Adobe Campaign. [Läs mer](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 
-Konfigurations- och implementeringsavsnitten för mobilappar har uppdaterats inklusive mer detaljerade steg för att konfigurera och skicka push-meddelanden. [Läs mer](https://helpx.adobe.com/se/campaign/kb/configuring-app-sdkv4.html)
+Konfigurations- och implementeringsavsnitten för mobilappar har uppdaterats inklusive mer detaljerade steg för att konfigurera och skicka push-meddelanden. [Läs mer](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 
 Uppdaterat avsnitt om hur du arbetar med bilder i Campaign. [Läs mer](../../designing/using/images.md#setting-up-image-properties)
 
@@ -907,7 +907,7 @@ Integrationen med Adobe Analytics for Mobile (Point of Interest) har uppdaterats
 
 Dynamisk rapportering - [läs mer](../../reporting/using/about-dynamic-reports.md)
 
-Dreamweaver-integrering (Labs) - [Läs mer](https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html)
+Dreamweaver-integrering (Labs) - [Läs mer](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 Tidsoptimering för manuell sändning - [Läs mer](../../sending/using/optimizing-the-sending-time.md)
 
@@ -937,7 +937,7 @@ Loggexport för extern rapportering - [Läs mer](../../automating/using/exportin
 
 Transactional Messaging API - [läs mer](../../api/using/get-started-apis.md)
 
-Marknadsföringsfunktioner för transaktionsmeddelanden - [läs mer](../../channels/using/profile-transactional-messages.md)
+Marknadsföringsfunktioner för transaktionsmeddelanden - [Läs mer](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)
 
 **Andra dokumentationsuppdateringar som medföljer utgåvan**
 
