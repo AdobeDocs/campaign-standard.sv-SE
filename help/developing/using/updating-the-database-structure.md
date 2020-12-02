@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: adding-or-extending-a-resource
 context-tags: deploy,main;eventCusResource,overview
 translation-type: tm+mt
-source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 99%
+source-wordcount: '734'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Om du vill använda ändringarna som gjorts på resurserna måste du utföra en 
 
 >[!NOTE]
 >
->Om ett fält för en anpassad resurs som används för en händelse ändras eller tas bort, kommer motsvarande händelse automatiskt att avpubliceras. Se [Avpublicera en transaktionshändelse](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
+>Om ett fält för en anpassad resurs som används för en händelse ändras eller tas bort, kommer motsvarande händelse automatiskt att avpubliceras. Se [Konfigurera transaktionsmeddelanden](../../administration/using/configuring-transactional-messaging.md).
 
 1. I den avancerade menyn, via Adobe Campaign-logotypen, väljer du **[!UICONTROL Administration]** > **[!UICONTROL Development]** och sedan **[!UICONTROL Publishing]**.
 1. Som standard är alternativet **[!UICONTROL Determine modifications since the last publication]** markerat, vilket innebär att endast de ändringar som utförts sedan den senaste uppdateringen kommer att tillämpas.
