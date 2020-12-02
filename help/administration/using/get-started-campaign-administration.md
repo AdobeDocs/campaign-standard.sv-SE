@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
 translation-type: tm+mt
-source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '657'
 ht-degree: 12%
 
 ---
@@ -74,7 +74,7 @@ Alla kommunikationskanaler i Adobe Campaign måste vara rätt konfigurerade för
 
 Konfigurera olika **e-postparametrar**: bearbetningsregler för studsar, karantän, e-postegenskaper och routningsparametrar, typoregler. Definiera routningskonfigurationer och egenskaper för **SMS**-kanalen samt för SMS-kodning och format.
 
-Konfigurera **mobilprogram** för att kunna skicka meddelanden i appen och push-meddelanden med Adobe Experience Platform SDK:er.
+Konfigurera **mobilprogram** för att kunna skicka meddelanden i appen och push-meddelanden med Adobe Experience Platform SDK:er, och konfigurera **transaktionsmeddelanden** genom att skapa och konfigurera händelser.
 
 Läs mer:
 
@@ -82,6 +82,7 @@ Läs mer:
 * [Konfigurera e-postkanal](../../administration/using/configuring-email-channel.md)
 * [Konfigurera SMS-kanal](../../administration/using/configuring-sms-channel.md)
 * [Konfigurera ett mobilprogram](../../administration/using/configuring-a-mobile-application.md)
+* [Konfigurera transaktionsmeddelanden](../../administration/using/configuring-transactional-messaging.md)
 
 ## Programinställningar {#application-settings}
 
