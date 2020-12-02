@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
 source-wordcount: '5402'
 ht-degree: 6%
@@ -41,7 +41,7 @@ Visa de senaste [dokumentationsuppdateringarna](../../rn/using/documentation-upd
   </tr> 
   <tr> 
    <td> Adobe Launch-integrering för mobilappar (beta)<br /> </td> 
-   <td> Adobe Launch-integrering med Adobe Campaign förenklar och automatiserar nu processen för aktivering av mobilappsegenskaper i Campaign med Mobile SDK V5.<br /> Mer information finns i den <a href="https://helpx.adobe.com/se/campaign/kb/configuring-app-sdk.html">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Adobe Launch-integrering med Adobe Campaign förenklar och automatiserar nu processen för aktivering av mobilappsegenskaper i Campaign med Mobile SDK V5.<br /> Mer information finns i den <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -131,7 +131,7 @@ Visa de senaste [dokumentationsuppdateringarna](../../rn/using/documentation-upd
 **Andra ändringar**
 
 * Tidsgränsen för rapportdelning har ökat från en till fyra minuter för att undvika timeout-fel.
-* När du redigerar innehållet i ett e-postmeddelande öppnas det nya Creative Designer som standard. Om du vill kan du när som helst gå tillbaka till standardredigeraren för innehåll när du har sparat ändringarna. For more on this, refer to the [detailed documentation](../../designing/using/designing-content-in-adobe-campaign.md).
+* När du redigerar innehållet i ett e-postmeddelande öppnas det nya Creative Designer som standard. Om du vill kan du när som helst gå tillbaka till standardredigeraren för innehåll när du har sparat ändringarna. Mer information finns i [den detaljerade dokumentationen](../../designing/using/designing-content-in-adobe-campaign.md).
 * I Creative Designer kan en ny innehållskomponent nu läggas till i ett e-postmeddelande: Carousel. Mer information finns i [den detaljerade dokumentationen](../../designing/using/designing-from-scratch.md#about-content-components).
 * När du klickar på knappen **Ändra profil** i ett transaktionsmeddelande visas nu bara de testprofiler som är länkade till händelsen som du definierade för transaktionsmeddelandet.
 
@@ -305,7 +305,7 @@ _Anpassade resurser_
     <ul> 
      <li> Åtkomst: ger den registrerade möjlighet att få en kopia av sina personuppgifter som samlats in av personuppgiftsansvariga, inklusive uppgifter som lagrats i Adobe Campaign. </li> 
      <li> Höger att ta bort: ger den registrerade rätt att få sina personuppgifter som samlats in av personuppgiftsansvariga raderade, inklusive data som lagrats i Adobe Campaign. </li> 
-    </ul> Mer information finns i den <a href="https://helpx.adobe.com/se/campaign/kb/campaign-privacy.html">detaljerade dokumentationen</a>.<br /> </td> 
+    </ul> Mer information finns i den <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer for Email (Beta)<br /> </td> 
@@ -327,7 +327,7 @@ _Anpassade resurser_
     <ul> 
      <li> Använd anpassade fält som avstämningskriterier för att matcha ett transaktionsmeddelande med en profil </li> 
      <li> Utnyttja fullständiga profiler, tjänster och länkade data för att ytterligare personalisera transaktionsmeddelanden </li> 
-    </ul> Mer information finns i den <a href="../../administration/using/configuring-transactional-messaging.md">detaljerade dokumentationen</a>.<br /> </td> 
+    </ul> Mer information finns i den <a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
