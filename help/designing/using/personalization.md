@@ -7,7 +7,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
 source-wordcount: '2573'
 ht-degree: 4%
@@ -167,7 +167,7 @@ Med måldimensionen kan du definiera i vilken typ av meddelande som du kan anvä
 
 När du redigerar ett meddelande kan du bara markera innehållsblock med en måldimension som är kompatibel med det meddelandets måldimension.
 
-Måldimensionen för **[!UICONTROL Unsubscription link]**-blocket är till exempel **[!UICONTROL Profiles]** eftersom det innehåller anpassningsfält som är specifika för **[!UICONTROL Profiles]**-resursen. Du kan därför inte använda ett **[!UICONTROL Unsubscription link]**-block i ett [händelsetransmeddelande](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types) eftersom måldimensionen för den typen av meddelande är **[!UICONTROL Real-time events]**. Du kan dock använda **Unsubscription link**-blocket i ett [profiltransaktionsmeddelande](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types) eftersom måldimensionen för den typen av meddelande är **Profiler**. Slutligen har **[!UICONTROL Link to mirror page]**-blocket ingen måldimension, så du kan använda det i alla meddelanden.
+Måldimensionen för **[!UICONTROL Unsubscription link]**-blocket är till exempel **[!UICONTROL Profiles]** eftersom det innehåller anpassningsfält som är specifika för **[!UICONTROL Profiles]**-resursen. Du kan därför inte använda ett **[!UICONTROL Unsubscription link]**-block i ett [händelsetransmeddelande](../../channels/using/event-transactional-messages.md) eftersom måldimensionen för den typen av meddelande är **[!UICONTROL Real-time events]**. Du kan dock använda **Unsubscription link**-blocket i ett [profiltransaktionsmeddelande](../../channels/using/profile-transactional-messages.md) eftersom måldimensionen för den typen av meddelande är **Profiler**. Slutligen har **[!UICONTROL Link to mirror page]**-blocket ingen måldimension, så du kan använda det i alla meddelanden.
 
 Om du lämnar det här fältet tomt kommer innehållsblocket att vara kompatibelt med alla meddelanden, oavsett vilken måldimension du har. Om du anger en målinriktningsdimension kommer det blocket endast att vara kompatibelt med meddelanden som har samma målinriktningsdimension.
 
