@@ -7,10 +7,10 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 translation-type: tm+mt
-source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 18%
+source-wordcount: '517'
+ht-degree: 19%
 
 ---
 
@@ -72,11 +72,10 @@ Transaktionsmeddelanden är tillgängliga för e-post-, SMS- och push-meddelande
 
 Läs mer:
 
+* [Om transaktionsmeddelanden](../../channels/using/getting-started-with-transactional-msg.md)
 * [Komma igång med transaktionsmeddelanden](../../channels/using/getting-started-with-transactional-msg.md)
-* [Konfigurera en transaktionshändelse](../../channels/using/configuring-transactional-event.md)
-* [Publicera en transaktionshändelse](../../channels/using/publishing-transactional-event.md)
-* [Redigera ett transaktionsmeddelande](../../channels/using/editing-transactional-message.md)
-* [Publicera ett transaktionsmeddelande](../../channels/using/publishing-transactional-message.md)
+* [Transaktionsmeddelanden för händelser](../../channels/using/event-transactional-messages.md)
+* [Profilbaserade transaktionsmeddelanden](../../channels/using/profile-transactional-messages.md)
 * [Push-meddelanden för transaktioner](../../channels/using/transactional-push-notifications.md)
 * [Uppföljningsmeddelanden](../../channels/using/follow-up-messages.md)
 
