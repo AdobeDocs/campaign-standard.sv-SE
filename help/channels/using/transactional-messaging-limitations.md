@@ -8,35 +8,35 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 840795064021688e25f8c9ae3c7150bcc1f085b1
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 89%
+source-wordcount: '637'
+ht-degree: 79%
 
 ---
 
 
-# Begränsningar för transaktionsmeddelanden {#transactional-messaging-limitations}
+# Bästa praxis och begränsningar för transaktionsmeddelanden {#transactional-messaging-limitations}
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-I avsnittet nedan visas de begränsningar som du bör vara medveten om innan du börjar skapa transaktionsmeddelanden.
+I avsnittet nedan visas de bästa metoderna och begränsningarna som du bör känna till innan du börjar skapa transaktionsmeddelanden.
 
-Mer information om transaktionsmeddelanden, inklusive hur du konfigurerar och skapar dem, finns i [Komma igång med transaktionsmeddelanden](../../channels/using/getting-started-with-transactional-msg.md).
+<!--For more on transactional messages, including on how to configure and create them, see [Getting started with transactional messaging](../../channels/using/getting-started-with-transactional-msg.md).-->
 
 >[!IMPORTANT]
 >
->För att få åtkomst till transaktionsmeddelanden måste du ha administratörsbehörighet.
+>För att få åtkomst till transaktionsmeddelanden måste du ha [administrationsbehörighet](../../administration/using/users-management.md#functional-administrators).
 
-## Design och publicering {#design-and-publication}
+## Händelsekonfiguration och publikation {#design-and-publication}
 
-Eftersom du utformar och publicerar transaktionsmeddelanden går det inte att ångra vissa av de steg du måste utföra.    Du måste vara medveten om följande begränsningar:
+Eftersom du konfigurerar och publicerar transaktionshändelser går det inte att ångra vissa av de steg som du måste utföra. Du måste vara medveten om följande begränsningar:
 
-* Endast en kanal kan användas för varje händelsekonfiguration.    Se [Skapa en händelse](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
+* Endast en kanal kan användas för varje händelsekonfiguration.    Se [Skapa en händelse](../../channels/using/configuring-transactional-event.md#creating-an-event).
 * När händelsen har skapats kan du inte ändra kanalen.    Om ett meddelande inte kan skickas måste du skapa en mekanism som gör det möjligt att skicka det från en annan kanal via ett arbetsflöde.    Se [Arbetsflödesdata och processer](../../automating/using/get-started-workflows.md).
-* Du kan inte ändra målinriktningsdimensionen ( **[!UICONTROL Real-time event]** eller **[!UICONTROL Profile]** ) efter att händelsen har skapats.        Se [Skapa en händelse](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
-* Det går inte att återställa en publicering, men du kan avpublicera en händelse. Denna åtgärd gör att händelsen och det tillhörande transaktionsmeddelandet blir otillgängligt.    Se [Avpublicera en händelse](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event).
-* Det enda transaktionsmeddelande som kan kopplas till en händelse är det meddelande som skapas automatiskt när händelsen publiceras.    Se [Förhandsgranska och publicera händelsen](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event).
+* Du kan inte ändra målinriktningsdimensionen ( **[!UICONTROL Real-time event]** eller **[!UICONTROL Profile]** ) efter att händelsen har skapats.        Se [Skapa en händelse](../../channels/using/configuring-transactional-event.md#creating-an-event).
+* Det går inte att återställa en publicering, men du kan avpublicera en händelse. Denna åtgärd gör att händelsen och det tillhörande transaktionsmeddelandet blir otillgängligt.    Se [Avpublicera en händelse](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
+* Det enda transaktionsmeddelande som kan kopplas till en händelse är det meddelande som skapas automatiskt när händelsen publiceras.    Se [Förhandsgranska och publicera händelsen](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
 ## Personalisering {#personalization}
 
@@ -44,18 +44,20 @@ Hur du kan anpassa ett meddelandeinnehåll beroende på typen av transaktionsmed
 
 ### Händelsebaserade transaktionsmeddelanden
 
-* Personaliseringsinformationen hämtas från data som finns i själva händelsen.        Se [Händelsebaserade transaktionsmeddelanden](../../channels/using/event-transactional-messages.md).
-* You **cannot** use **[!UICONTROL Unsubscription link]** content blocks in an event transactional message.
-* Händelsebaserade transaktionsmeddelanden ska bara använda de data som finns i den skickade händelsen för att definiera mottagaren och meddelandets innehållspersonalisering.        Du kan dock utöka innehållet i transaktionsmeddelandet med information från Adobe Campaign-databasen.        Se [Berika innehållet i transaktionsmeddelandet](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content).
-* Eftersom transaktionsmeddelanden inte innehåller någon profilinformation är de inte kompatibla med fatigue-regler, även om de är berikade med ett antal profiler. Se [Fatigue-regler](../../sending/using/fatigue-rules.md).
+* Personaliseringsinformationen hämtas från data som finns i själva händelsen.        Se [Händelsebaserad konfiguration av transaktionsmeddelande](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
+* Du **kan inte** använda **[!UICONTROL Unsubscription link]** innehållsblock i ett transaktionsmeddelande för en händelse.
+* Händelsebaserade transaktionsmeddelanden ska bara använda de data som finns i den skickade händelsen för att definiera mottagaren och meddelandets innehållspersonalisering.        Du kan dock utöka innehållet i transaktionsmeddelandet med information från Adobe Campaign-databasen.        Se [Förbättra en händelse](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) och [Anpassa ett transaktionsmeddelande](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
+* Eftersom transaktionsmeddelanden inte innehåller någon profilinformation är de inte kompatibla med fatigue-regler, även om de är berikade med ett antal profiler.
 
 ### Profilbaserade transaktionsmeddelanden
 
-* Personaliseringsinformationen kan hämtas från data som finns i händelsen eller från profildatan.        Se [profilbaserade transaktionsmeddelanden](../../channels/using/profile-transactional-messages.md).
-* You **can** use **[!UICONTROL Unsubscription link]** content blocks in a profile transactional message. Se [Lägg till ett innehållsblock](../../designing/using/personalization.md#adding-a-content-block).
+* Personaliseringsinformationen kan hämtas från data som finns i händelsen eller från profildatan.        Se [Profilbaserad konfiguration av transaktionsmeddelande](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) och [Profilbaserade specifikationer för transaktionsmeddelanden](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).
+* Du **kan** använda **[!UICONTROL Unsubscription link]** innehållsblock i ett profiltransaktionsmeddelande. Se [Lägg till ett innehållsblock](../../designing/using/personalization.md#adding-a-content-block).
 * Fatigue-regler är kompatibla med profilbaserade transaktionsmeddelanden. Se [Fatigue-regler](../../sending/using/fatigue-rules.md).
 
-Observera att produktlistor endast är tillgängliga i transaktionsmeddelanden via e-post.        Se [Använda produktlistor i ett transaktionsmeddelande](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message).
+### Produktlistor
+
+Observera att produktlistor endast är tillgängliga i transaktionsmeddelanden **e-postmeddelanden**. Se [Använda produktlistor i ett transaktionsmeddelande](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message).
 
 ## Behörigheter och varumärken {#permissions-and-branding}
 
@@ -74,4 +76,4 @@ Om du vill använda multibranding i samband med transaktionsmeddelanden så bör
 ## Exportera och importera transaktionsmeddelanden {#exporting-and-importing-transactional-messages}
 
 * Om du vill exportera ett transaktionsmeddelande måste du inkludera motsvarande händelsekonfiguration när du [skapar paketexporten](../../automating/using/managing-packages.md#creating-a-package).
-* När transaktionsmeddelandet har [importerats via ett paket](../../automating/using/managing-packages.md#importing-a-package) visas det inte i listan med transaktionsmeddelanden. Du måste [publicera](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event) händelsekonfigurationen för att kunna göra det associerade transaktionsmeddelandet tillgängligt.
+* När transaktionsmeddelandet har [importerats via ett paket](../../automating/using/managing-packages.md#importing-a-package) visas det inte i listan med transaktionsmeddelanden. Du måste [publicera](../../channels/using/publishing-transactional-event.md) händelsekonfigurationen för att kunna göra det associerade transaktionsmeddelandet tillgängligt.
