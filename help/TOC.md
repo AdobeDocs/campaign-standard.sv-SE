@@ -6,10 +6,10 @@ user-guide-title: Campaign Standard
 breadcrumb-title: Campaign Standard
 title: Guide för Campaign Standard
 translation-type: tm+mt
-source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
-source-wordcount: '1681'
-ht-degree: 98%
+source-wordcount: '1664'
+ht-degree: 99%
 
 ---
 
@@ -119,16 +119,11 @@ ht-degree: 98%
       + [Definiera innehållet i direktutskick](channels/using/defining-the-direct-mail-content.md)
    + Transaktionsmeddelanden {#transactional-messaging}
       + [Komma igång med transaktionsmeddelanden](channels/using/getting-started-with-transactional-msg.md)
-      + [Bästa praxis för transaktionsmeddelanden](channels/using/transactional-messaging-limitations.md)
-      + Händelsekonfiguration {#event-configuration}
-         + [Konfigurera en transaktionshändelse](channels/using/configuring-transactional-event.md)
-         + [Publicera en transaktionshändelse](channels/using/publishing-transactional-event.md)
-      + Transactional message edition {#transactional-message-edition}
-         + [Redigera ett transaktionsmeddelande](channels/using/editing-transactional-message.md)
-         + [Publicera ett transaktionsmeddelande](channels/using/publishing-transactional-message.md)
+      + [Begränsningar för transaktionsmeddelanden](channels/using/transactional-messaging-limitations.md)
+      + [Transaktionsmeddelanden för händelser](channels/using/event-transactional-messages.md)
+      + [Profilbaserade transaktionsmeddelanden](channels/using/profile-transactional-messages.md)
       + [Push-meddelanden för transaktioner](channels/using/transactional-push-notifications.md)
       + [Uppföljningsmeddelanden](channels/using/follow-up-messages.md)
-      + [Användningsexempel för transaktionsmeddelanden](channels/using/transactional-messaging-use-case.md)
    + Landningssidor {#landing-pages}
       + [Kom igång med landningssidor](channels/using/getting-started-with-landing-pages.md)
       + [Om mallar för landningssidor](channels/using/landing-page-templates.md)
@@ -435,6 +430,7 @@ ht-degree: 98%
       + [Konfigurera e-postkanal](administration/using/configuring-email-channel.md)
       + [Konfigurera SMS-kanal](administration/using/configuring-sms-channel.md)
       + [Konfigurera ett mobilprogram](administration/using/configuring-a-mobile-application.md)
+      + [Konfigurera transaktionsmeddelanden](administration/using/configuring-transactional-messaging.md)
    + Konfigurera mobila kanaler {#configuring-mobile}
       + [Implementera push-spårning](administration/using/push-tracking.md)
       + [Lägga till bilder och videor i iOS](administration/using/image-push-notification.md)
