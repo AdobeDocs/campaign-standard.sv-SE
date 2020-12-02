@@ -7,10 +7,10 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 translation-type: tm+mt
-source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 85%
+source-wordcount: '725'
+ht-degree: 87%
 
 ---
 
@@ -77,7 +77,7 @@ När händelsen har publicerats skapas sedan en transaktionsmall som är kopplad
 
 När du har skapat och publicerat utlösarhändelsen skapas motsvarande transaktionsmall automatiskt. Mer information finns i avsnittet [Skapa en mappad utlösare i Campaign](#creating-a-mapped-trigger-in-campaign).
 
-Innan händelsen kan utlösa ett transaktionsmeddelande måste du anpassa mallen, testa det och publicera det. De här stegen är samma som för ett vanligt transaktionsmeddelande. Mer information finns i avsnittet [Redigera ett transaktionsmeddelande](../../channels/using/editing-transactional-message.md).
+Innan händelsen kan utlösa ett transaktionsmeddelande måste du anpassa mallen, testa det och publicera det. De här stegen är samma som för ett vanligt transaktionsmeddelande. Mer information finns i avsnittet [Transaktionsmall](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message).
 
 >[!NOTE]
 >
