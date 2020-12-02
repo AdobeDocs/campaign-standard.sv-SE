@@ -7,9 +7,9 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '242'
 ht-degree: 14%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 14%
 
 # Tar bort en resurs{#deleting-a-resource}
 
-Om du vill ta bort en resurs måste den aktuella resursen vara en **[!UICONTROL Draft]**. Resursen är i **[!UICONTROL Draft]** status om:
+Om du vill ta bort en resurs måste den aktuella resursen vara **[!UICONTROL Draft]**. Resursen har statusen **[!UICONTROL Draft]** om:
 
 * Den har precis skapats och har ännu inte publicerats.
 * Om den redan har publicerats måste resursen omarbetas.
@@ -43,13 +43,13 @@ Så här gör du om utkast och tar bort en publicerad resurs:
 
    >[!NOTE]
    >
-   >Om du gör om ett utkast för ett tillägg för den färdiga **profilresursen (profil)** måste du också göra om ett **testprofiltillägg (seedMember)** som du har definierat. Mer information om hur du utökar profilresursen finns i [det här avsnittet](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
+   >Om du gör om ett utkast för ett tillägg i **Profiles (profil)**-resursen måste du också göra om alla **testprofiler (seedMember)**-tillägg som du har definierat. Mer information om hur du utökar profilresursen finns i [det här avsnittet](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
 
 1. Publicera resursen. Mer detaljerad information finns i [Publicera en anpassad resurs](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
-   Resursen försätts sedan i **utkastläge** och dess aktiveringsstatus är **[!UICONTROL Inactive]**.
+   Resursen försätts sedan i läget **Utkast** och dess aktiveringsstatus är **[!UICONTROL Inactive]**.
 
-1. I **[!UICONTROL List]** läget markerar du den resurs som du vill ta bort och klickar sedan på ![](assets/delete_darkgrey-24px.png) **[!UICONTROL Delete element]** ikonen .
+1. I **[!UICONTROL List]**-läge kontrollerar du den resurs du vill ta bort och klickar sedan på ikonen ![](assets/delete_darkgrey-24px.png) **[!UICONTROL Delete element]**.
 
    ![](assets/schema_extension_uc28.png)
 
@@ -57,5 +57,4 @@ Resursen tas bort från datamodellen.
 
 >[!NOTE]
 >
->Om ett fält för en anpassad resurs som används för en händelse ändras eller tas bort, kommer motsvarande händelse automatiskt att avpubliceras. See [Configuring transactional messaging](../../administration/using/configuring-transactional-messaging.md).
-
+>Om ett fält för en anpassad resurs som används för en händelse ändras eller tas bort, kommer motsvarande händelse automatiskt att avpubliceras. Se [Avpublicera en transaktionshändelse](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
