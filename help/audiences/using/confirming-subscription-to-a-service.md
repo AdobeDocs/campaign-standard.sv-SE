@@ -7,10 +7,10 @@ audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
 workflow-type: tm+mt
-source-wordcount: '1322'
-ht-degree: 100%
+source-wordcount: '1321'
+ht-degree: 96%
 
 ---
 
@@ -52,7 +52,7 @@ Bekräftelsemeddelandet är ett transaktionsmeddelande som reagerar på en händ
 1. Skapa en händelse i menyn **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** som du kommer åt via Adobe Campaign-logotypen.
 1. Ange en etikett, välj en måldimension och klicka sedan **[!UICONTROL Create]**.
 
-   Konfigurationsstegen beskrivs i avsnittet [Konfigurera transaktionsmeddelanden](../../administration/using/configuring-transactional-messaging.md) .
+   Konfigurationsstegen beskrivs i avsnittet [Konfigurera en transaktionshändelse](../../channels/using/configuring-transactional-event.md).
 
 1. I avsnittet **[!UICONTROL Fields]** klickar du på **[!UICONTROL Create element]** och lägger till **[!UICONTROL publicLabel]** i datastrukturen för att aktivera avstämning.
 
@@ -85,17 +85,17 @@ Bekräftelsemeddelandet är ett transaktionsmeddelande baserat på den händelse
 1. Via Adobe Campaign-logotypen väljer du **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** och klickar sedan på **[!UICONTROL Transactional messages]**.
 1. Välj den transaktionsbaserade e-postadress som motsvarar händelsen du just publicerade.
 
-1. Klicka på avsnittet **[!UICONTROL Content]** och välj en mailmall.  Mer information om hur du redigerar innehållet för ett transaktionsmeddelande hittar du i [Händelsebaserade transaktionsmeddelanden](../../channels/using/event-transactional-messages.md).
+1. Klicka på avsnittet **[!UICONTROL Content]** och välj en mailmall.  Mer information om hur du redigerar innehåll i transaktionsmeddelanden finns i [Redigera transaktionsmeddelanden](../../channels/using/editing-transactional-message.md).
 1. När du har direktåtkomst till alla fält i resurs **[!UICONTROL Service]** så kan du personalisera innehållet genom att välja valfritt fält från noden **[!UICONTROL Context]** > **[!UICONTROL Real-time event (rtEvent)]** > **[!UICONTROL Event context (ctx)]** >**[!UICONTROL Service]** .
 
    ![](assets/confirmation_personalization-service.png)
 
-   Mer information om hur du anpassar ett transaktionsmeddelande finns i [det här avsnittet](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message).
+   Mer information om hur du anpassar ett transaktionsmeddelande finns i [det här avsnittet](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 
-1. Förhandsgranska meddelandet med en testprofil.  Mer information finns i [Definiera en testprofil i ett transaktionsmeddelande](../../channels/using/event-transactional-messages.md#defining-a-test-profile-in-a-transactional-message).
+1. Förhandsgranska meddelandet med en testprofil.  Mer information finns i [Definiera en specifik testprofil](../../channels/using/publishing-transactional-message.md#defining-specific-test-profile).
 
 1. Klicka på **[!UICONTROL Save & close]** för att spara innehållet.
-1. Publicera transaktionsmeddelandet. Se [Publicera ett transaktionsmeddelande](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
+1. Publicera transaktionsmeddelandet. Se [Publicera ett transaktionsmeddelande](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
 
 ### Steg 2: Skapa och konfigurera tjänsten {#step-2--create-and-configure-the-service-1}
 
@@ -141,7 +141,7 @@ Bekräftelsemeddelandet är ett [transaktionsmeddelande](../../channels/using/ge
 1. Skapa en händelse i menyn **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** som du kommer åt via Adobe Campaign-logotypen.
 1. Ange en etikett, välj en måldimension och klicka sedan **[!UICONTROL Create]**.
 
-   Konfigurationsstegen beskrivs i avsnittet [Konfigurera transaktionsmeddelanden](../../administration/using/configuring-transactional-messaging.md) .
+   Konfigurationsstegen beskrivs i avsnittet [Konfigurera en transaktionshändelse](../../channels/using/configuring-transactional-event.md).
 
 1. I avsnittet **[!UICONTROL Fields]** klickar du på **[!UICONTROL Create element]** och lägger till **[!UICONTROL serviceName]** i datastrukturen för att aktivera avstämning.
 
