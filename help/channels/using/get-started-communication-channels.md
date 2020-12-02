@@ -7,10 +7,10 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 19%
+source-wordcount: '524'
+ht-degree: 18%
 
 ---
 
@@ -32,9 +32,9 @@ Att harmonisera alla era marknadsföringskanaler är inte en omöjlig uppgift. M
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-**Använd kontrollpanelen** för Campaign-meddelanden för att konfigurera och skicka meddelanden från en och samma plats, samt få tillgång till olika funktioner som schemaläggning och flerspråkiga meddelanden...
+**Använd** kontrollpanelen för Campaign-meddelanden för att konfigurera och skicka meddelanden från en och samma plats, samt få tillgång till olika funktioner som schemaläggning och flerspråkiga meddelanden...
 
-**Hantera mallar** för att konfigurera meddelandeegenskaper så att ni får tid och enhetlighet i er meddelandestrategi. För e-postmeddelanden kan till exempel den funktionella administratör som ansvarar för att konfigurera mallarna definiera standardparametrarna för ett e-postmeddelande, till exempel målgrupp, schema eller innehåll, avancerade parametrar för sändning, giltighet, spårning osv. eller förkonfigurationsparametrar för målinriktning och personalisering (målgruppskontext).
+**Hantera** mallar för att konfigurera meddelandeegenskaper så att ni får tid och enhetlighet i er meddelandestrategi. För e-postmeddelanden kan till exempel den funktionella administratör som ansvarar för att konfigurera mallarna definiera standardparametrarna för ett e-postmeddelande, till exempel målgrupp, schema eller innehåll, avancerade parametrar för sändning, giltighet, spårning osv. eller förkonfigurationsparametrar för målinriktning och personalisering (målgruppskontext).
 
 Läs mer:
 
@@ -48,11 +48,11 @@ Läs mer:
 
 <img src="assets/do-not-localize/icon_channels.svg"  width="60px">
 
-**Fem kommunikationskanaler** finns i Adobe Campaign: E-post, SMS-meddelande, push-meddelanden, meddelande i appen och direktleverans av e-post.
+**Det finns fem** kommunikationskanaler i Adobe Campaign: E-post, SMS-meddelande, push-meddelanden, meddelande i appen och direktleverans av e-post.
 
 För varje kanal finns specifika funktioner tillgängliga. Med e-postkanalen kan du till exempel utföra A/B-tester för att testa upp till tre versioner av ett e-postmeddelande. Med SMS-kanalen hanterar du STOP SMS-meddelanden och lagrar inkommande SMS från mottagarna i databasen.
 
-Dessutom kan ni utnyttja **personalisering av Campaign Standarder och funktioner** för dynamiskt innehåll för att fånga målgruppens intresse.
+Utnyttja också Campaign Standard **personalisering och funktioner för dynamiskt innehåll** för att fånga målgruppens intresse.
 
 Läs mer:
 
@@ -66,16 +66,17 @@ Läs mer:
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-**Skicka individuella och unika meddelanden** till era kunder i realtid: välkomstmeddelanden, orderleveransbekräftelser, lösenordsändringar osv.
+**Skicka individuella och unika** meddelanden till era kunder i realtid: välkomstmeddelanden, orderleveransbekräftelser, lösenordsändringar osv.
 
-Transaktionsmeddelanden är tillgängliga för e-post-, SMS- och push-meddelandekanaler, beroende på vilka alternativ du har. Det finns två typer av meddelanden: **transaktionsmeddelanden** som riktar sig mot händelser utan profilinformation och **profilera transaktionsmeddelanden** som riktar sig mot profiler från databasen.
+Transaktionsmeddelanden är tillgängliga för e-post-, SMS- och push-meddelandekanaler, beroende på vilka alternativ du har. Det finns två typer av meddelanden: **händelsetransmeddelanden** för händelser utan profilinformation och **profiltransaktionsmeddelanden** målprofiler från databasen.
 
 Läs mer:
 
-* [Om transaktionsmeddelanden](../../channels/using/getting-started-with-transactional-msg.md)
 * [Komma igång med transaktionsmeddelanden](../../channels/using/getting-started-with-transactional-msg.md)
-* [Transaktionsmeddelanden för händelser](../../channels/using/event-transactional-messages.md)
-* [Profilbaserade transaktionsmeddelanden](../../channels/using/profile-transactional-messages.md)
+* [Konfigurera en transaktionshändelse](../../channels/using/configuring-transactional-event.md)
+* [Publicera en transaktionshändelse](../../channels/using/publishing-transactional-event.md)
+* [Redigera ett transaktionsmeddelande](../../channels/using/editing-transactional-message.md)
+* [Publicera ett transaktionsmeddelande](../../channels/using/publishing-transactional-message.md)
 * [Push-meddelanden för transaktioner](../../channels/using/transactional-push-notifications.md)
 * [Uppföljningsmeddelanden](../../channels/using/follow-up-messages.md)
 
@@ -85,7 +86,7 @@ Läs mer:
 
 Campaign innehåller landningssidor som är webbformulär som kan användas för att **samla in information om era målgrupper**, erbjuda prenumerationer på en tjänst, visa data och utöka databasen.
 
-Landningssidor kan också användas för att **hämta eller uppdatera befintliga profiler** och för att skapa en mekanism för dubbel anmälan, så att du kan skydda plattformen mot fel eller ogiltiga e-postadresser eller skräppost.
+Landningssidor kan också användas för **hämtning eller uppdatering av befintliga profiler** och för att ställa in en mekanism för dubbel anmälan, så att du kan skydda plattformen från felaktiga eller ogiltiga e-postadresser eller skräppost.
 
 Läs mer:
 
