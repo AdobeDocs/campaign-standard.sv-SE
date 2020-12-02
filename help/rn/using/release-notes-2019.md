@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
 source-wordcount: '7623'
 ht-degree: 8%
@@ -203,9 +203,9 @@ ht-degree: 8%
 
 * Tack vare integreringen med Adobe Experience Platform Location Services är Adobe Campaign nu kompatibelt med att skicka platsbaserade marknadsföringsmeddelanden till prenumeranterna på ditt mobilprogram via Experience Platform SDK. Mer information finns i den [detaljerade dokumentationen](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md).
 * Rapportfunktionen har förbättrats för en bättre upplevelse. Om du vill använda den här funktionen måste du godkänna användningsavtalet för dynamisk rapportering. Mer information finns i [den detaljerade dokumentationen](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
-* I arbetsflöden har ett nytt alternativ lagts till för att förhandsgranska nästa tio körningar av ett arbetsflöde. For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
-* I aktiviteten Schemaläggare kan du med ett nytt alternativ välja en viss veckodag för månatliga leveranser. For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
-* När du skapar återkommande leveranser utan aggregeringsperiod kan du nu begära bekräftelse på leveransinstrumentpanelen innan leveransen skickas. For more on this, refer to the [detailed documentation](../../sending/using/confirming-the-send.md).
+* I arbetsflöden har ett nytt alternativ lagts till för att förhandsgranska nästa tio körningar av ett arbetsflöde. Mer information finns i [den detaljerade dokumentationen](../../automating/using/scheduler.md).
+* I aktiviteten Schemaläggare kan du med ett nytt alternativ välja en viss veckodag för månatliga leveranser. Mer information finns i [den detaljerade dokumentationen](../../automating/using/scheduler.md).
+* När du skapar återkommande leveranser utan aggregeringsperiod kan du nu begära bekräftelse på leveransinstrumentpanelen innan leveransen skickas. Mer information finns i [den detaljerade dokumentationen](../../sending/using/confirming-the-send.md).
 * Du kan nu anpassa en leveransetikett med händelsevariabler som har deklarerats i arbetsflödets externa signalaktivitet. Mer information finns i [den detaljerade dokumentationen](../../automating/using/calling-a-workflow-with-external-parameters.md).
 * Borttagningsfrågan för GDPR har förbättrats för bättre prestanda. (CAMP-33504)
 * Alternativet ftp har tagits bort från det externa kontokonfigurationsgränssnittet. (CAMP-34472)
@@ -273,7 +273,7 @@ ht-degree: 8%
 
 ## Version 19.2.3 - juni 2019 {#release-19-2-3---june-2019}
 
-**Email Designer**
+**E-postdesigner**
 
 En serie förbättringar och korrigeringar introducerades för att optimera fragment i version 19.2. Nyligen skapade fragment fungerar smidigt. Fragment som tidigare byggts har blivit nedtonade och måste migreras till det nya formatet. Om du vill göra det klickar du på varje fragment och validerar migreringen till det nya formatet. Vi rekommenderar att du testar några fragment innan du migrerar alla.
 
@@ -338,7 +338,7 @@ En serie förbättringar och korrigeringar introducerades för att optimera frag
 * Ett problem med visningsrutans bakgrundsfärg när ett e-postmeddelande som skapats med e-postdesignern i Outlook togs emot har korrigerats. (CAMP-31402)
 * Korrigerade ett problem som kunde förhindra att e-postinnehåll som skapats med e-postdesignern svarade när det öppnades i Outlook. (CAMP-31400)
 * Korrigerade ett problem som förhindrade dynamiskt innehåll från att fungera korrekt när det användes i ett e-postämne. (CAMP-32837)
-* Korrigerade ett fel som relaterar till e-postämnet som inte har escape-konverterats.
+* Korrigerade ett fel som relaterades till e-postämnet som inte kunde skickas korrekt.
 * Korrigerade ett problem som förhindrade att fragment lästes in på den vänstra paletten i e-postdesignern.
 * Korrigerade ett problem som förhindrade att fragment som skapats under e-postinnehållets utgåva visas på den vänstra paletten i e-postdesignern när fragmentlistan skulle uppdateras.
 * Korrigerade flera problem som uppstod när dynamiskt innehåll användes i ett e-postmeddelande.
@@ -488,7 +488,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
 
 **Andra ändringar**
 
-* Adobe Campaign och Adobe Experience Cloud upphör med stödet för Microsoft Internet Explorer 11 från och med våren 2019 och Campaign Standard 19.2. Växla till Microsoft Edge eller en annan webbläsare som stöds. Se sidan [Föråldrade och borttagna funktioner](../../rn/using/deprecated-features.md).
+* Adobe Campaign och Adobe Experience Cloud upphör med stödet för Microsoft Internet Explorer 11 från och med våren 2019 och Campaign Standard 19.2. Byt till Microsoft Edge eller en annan webbläsare som stöds. Se sidan [Föråldrade och borttagna funktioner](../../rn/using/deprecated-features.md).
 * Fältet **Landskod** från profilresursen har bytt namn till **Landskod**.
 
 **Felkorrigeringar**
@@ -539,7 +539,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
   </tr> 
   <tr> 
    <td> Produktlistor i transaktionsmejl<br /> </td> 
-   <td> <p>Du kan nu referera till en eller flera produktsamlingar i ett transaktionsmejl. Du kan till exempel automatiskt skicka ett e-postmeddelande med en lista över alla produkter som fanns i användarens kundvagn med en bild, ett pris och en länk till varje produkt.</p><p>Mer information hittar du i den <a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">detaljerade dokumentationen</a> och <a href="https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html">instruktionsvideon</a>.</p> </td> 
+   <td> <p>Du kan nu referera till en eller flera produktsamlingar i ett transaktionsmejl. Du kan till exempel automatiskt skicka ett e-postmeddelande med en lista över alla produkter som fanns i användarens kundvagn med en bild, ett pris och en länk till varje produkt.</p><p>Mer information hittar du i den <a href="../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message">detaljerade dokumentationen</a> och <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">instruktionsvideon</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Mobilvy i e-postdesignern<br /> </td> 
@@ -568,7 +568,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
 * Listan över tillgängliga länder när en profils adress definieras har ökats. (CAMP-26707)
 * Ett felmeddelande visas nu när du försöker importera ett inbyggt arbetsflöde.
 
-**Email Designer**
+**E-postdesigner**
 
 * Korrigerade ett problem som aktiverade funktionen för geografiska enheter för en e-postmall eller ett innehållsavbrott som skapats med e-postdesignern, även om den här funktionen inaktiverades i Adobe Campaign, vilket gjorde att mallen eller fragmentet inte var tillgängliga när det försökte komma åt den igen. (CAMP-28174)
 * Korrigerade ett problem som förhindrade att dynamiska innehållsvillkor sparades när innehåll redigerades med e-postdesignern. (CAMP-27905)
