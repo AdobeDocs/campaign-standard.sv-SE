@@ -7,10 +7,10 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 3%
+source-wordcount: '711'
+ht-degree: 1%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 3%
 
 ## Om transaktionsmeddelanden
 
-När du har skapat och publicerat en transaktionshändelse måste du integrera den som utlöser den här händelsen på webbplatsen.
+När du har skapat en händelse måste du integrera den som utlöser händelsen på webbplatsen.
 
 >[!NOTE]
 >
->Konfigurationen av en händelse presenteras i [det här avsnittet](../../channels/using/configuring-transactional-event.md).
+>Det finns information om hur du skapar och publicerar en händelse i [Kampanjdokumentationen](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
 
 Du vill t.ex. att en händelse om att kunden överger en varukorg ska utlösas så fort någon av dina kunder lämnar webbplatsen innan de köper produkterna i kundvagnen. För att göra detta måste webbutvecklaren använda REST Transactional Messages API.
 
@@ -48,7 +48,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
    (Observera att API-slutpunkten för transaktionsmeddelanden också visas under API-förhandsgranskningen)
 
-* **&lt;eventid>**: vilken typ av händelse du vill skicka. Detta ID genereras när händelsekonfigurationen skapas (se [det här avsnittet](../../channels/using/configuring-transactional-event.md#creating-an-event)).
+* **&lt;eventid>**: vilken typ av händelse du vill skicka. Detta ID genereras när händelsedefinitionen skapas. Se [Kampanjdokumentationen](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
 
 ### Rubrik för begäran om POST
 
@@ -67,7 +67,7 @@ Du måste lägga till en teckenuppsättning, till exempel **utf-8**. Observera a
 
 ### Brödtext för begäran om POST
 
-Händelsedata finns inuti JSON-POSTEN. Händelsestrukturen beror på dess definition. Knappen för förhandsgranskning av API på resursdefinitionsskärmen innehåller ett exempel på en begäran. Se [det här avsnittet](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
+Händelsedata finns inuti JSON-POSTEN. Händelsestrukturen beror på dess definition. Knappen för förhandsgranskning av API på resursdefinitionsskärmen innehåller ett exempel på en begäran. Se [Kampanjdokumentationen](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
 
 Följande valfria parametrar kan läggas till i händelseinnehållet för att hantera sändning av transaktionsmeddelanden som är länkade till händelsen:
 
@@ -138,7 +138,7 @@ I svaret kan du i statusfältet se om händelsen har bearbetats eller inte:
 
 * **väntande**: händelsen är väntande - händelsen får denna status när den precis har utlösts.
 * **bearbetning**: händelsen väntar på att levereras - den håller på att omvandlas till ett meddelande och meddelandet skickas.
-* **pausad**: händelseprocessen pausas. Den bearbetas inte längre, utan ligger i en kö i Adobe Campaign-databasen. Mer information om detta finns i [det här avsnittet](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication).
+* **pausad**: händelseprocessen pausas. Den bearbetas inte längre, utan ligger i en kö i Adobe Campaign-databasen. Mer information finns i [Kampanjdokumentationen](https://helpx.adobe.com/campaign/standard/channels/using/event-transactional-messages.html#unpublishing-a-transactional-message).
 * **bearbetad**: händelsen bearbetades och meddelandet skickades.
 * **ignorerad**: händelsen ignorerades av leveransen, vanligtvis när en adress är i karantän.
 * **deliveryFailed**: ett leveransfel inträffade när händelsen bearbetades.
