@@ -7,38 +7,31 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 translation-type: tm+mt
-source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '722'
 ht-degree: 4%
 
 ---
 
 
-# Uppföljningsmeddelanden {#follow-up-messages}
+# Uppföljningsmeddelanden{#follow-up-messages}
 
-Ett uppföljningsmeddelande är en fördefinierad mall för marknadsföringsleverans som kan användas i ett arbetsflöde för att skicka ytterligare en kommunikation till mottagarna av ett visst transaktionsmeddelande.
+Du kan skicka ett uppföljningsmeddelande till kunder som fått ett visst transaktionsmeddelande. För att kunna göra detta måste du konfigurera ett arbetsflöde för motsvarande händelse.
 
 Låt oss återanvända exemplet som beskrivs i [Transactional messaging operating policy](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)-avsnittet: ett e-postmeddelande om att kunden överger en varukorg skickas till webbplatsanvändare som har lagt till produkter i kundvagnen, men som har lämnat webbplatsen utan att behöva göra något med sina inköp.
 
-Du vill skicka en påminnelse till alla kunder som fick meddelande om att kunden övergett kundvagnen men som inte öppnade den efter tre dagar. De får ett uppföljningsmeddelande baserat på samma data som användes i det första e-postmeddelandet som skickades.
+Du vill skicka en påminnelse till alla kunder som fick meddelande om att kunden övergett kundvagnen men som inte öppnade den efter tre dagar.
 
-## Konfigurera en händelse för att skicka ett uppföljningsmeddelande {#configuring-an-event-to-send-a-follow-up-message}
-
-Om du vill skicka ett uppföljningsmeddelande måste du först konfigurera händelsen som motsvarar det transaktionsmeddelande som redan har tagits emot.
-
-1. Använd samma händelsekonfiguration som du skapade för att skicka ett händelsetransaktionsmeddelande. Se [Konfigurera en transaktionshändelse](../../channels/using/configuring-transactional-event.md).
-1. När du konfigurerar händelsen markerar du rutan **[!UICONTROL Create follow-up delivery template for this event]** innan du publicerar händelsen.
-
-   ![](assets/message-center_follow-up-checkbox.png)
-
-1. [Förhandsgranska och publicera händelsen](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
-
-När händelsen har publicerats skapas automatiskt ett transaktionsmeddelande och en uppföljningsleveransmall som är länkad till den nya händelsen. Stegen för att skicka uppföljningsmeddelandet beskrivs i [det här avsnittet](#sending-a-follow-up-message).
+Varje berörd kund får sedan ett uppföljningsmeddelande baserat på samma data som användes i det första e-postmeddelandet som skickades.
 
 ## Åtkomst till uppföljningsmeddelanden {#accessing-the-follow-up-messages}
 
-För att hantera en händelse i ett arbetsflöde krävs en leveransmall. När händelsen publiceras går det inte att använda det [transaktionsmeddelande](../../channels/using/editing-transactional-message.md) som skapas som en mall. Därför måste du skapa en särskild mall för uppföljningsleverans som är utformad för att stödja den här händelsetypen och ska användas som mall i ett arbetsflöde.
+När du har skapat och publicerat en händelse (övergivna varukorgar enligt [exemplet](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) ovan) skapas motsvarande transaktionsmeddelande och uppföljningsmeddelande automatiskt.
+
+Konfigurationsstegen beskrivs i avsnittet [Konfigurera en händelse för att skicka ett uppföljningsmeddelande](../../administration/using/configuring-transactional-messaging.md#configuring-an-event-to-send-a-follow-up-message).
+
+För att hantera en händelse i ett arbetsflöde krävs en leveransmall. När händelsen publiceras går det inte att använda det [transaktionsmeddelande](../../channels/using/event-transactional-messages.md) som skapas som en mall. Därför måste du skapa en särskild mall för uppföljningsleverans som är utformad för att stödja den här händelsetypen och ska användas som mall i ett arbetsflöde.
 
 Så här kommer du åt mallen:
 
@@ -57,8 +50,6 @@ Endast uppföljningsmeddelanden visas.
 ## Skicka ett uppföljningsmeddelande {#sending-a-follow-up-message}
 
 När du har skapat leveransmallen för uppföljning kan du använda den i ett arbetsflöde för att skicka ett uppföljningsmeddelande.
-
-(Du måste konfigurera ett arbetsflöde för händelsen som motsvarar det transaktionsmeddelande som redan har tagits emot.)
 
 1. Få tillgång till listan över marknadsföringsaktiviteter och skapa ett nytt arbetsflöde.
 
@@ -110,7 +101,7 @@ När du har skapat leveransmallen för uppföljning kan du använda den i ett ar
 
    ![](assets/message-center_follow-up-workflow.png)
 
-   Du kan också använda en [SMS-leverans](../../automating/using/sms-delivery.md)- eller [push-meddelandeleverans](../../automating/using/push-notification-delivery.md)-aktivitet. I så fall måste du markera kanalen **[!UICONTROL Mobile (SMS)]** eller **[!UICONTROL Mobile application]** när du skapar händelsekonfigurationen. Se [Skapa en händelse](../../channels/using/configuring-transactional-event.md#creating-an-event).
+   Du kan också använda en [SMS-leverans](../../automating/using/sms-delivery.md)- eller [aktivitet för leverans av mobilappar](../../automating/using/push-notification-delivery.md). I så fall måste du markera kanalen **[!UICONTROL Mobile (SMS)]** eller **[!UICONTROL Mobile application]** när du skapar händelsekonfigurationen. Se [Skapa en händelse](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
 
 1. Öppna aktiviteten **E-postleverans**. Markera rutan **[!UICONTROL Follow-up messages]** i guiden Skapa och välj den mall för uppföljningsleverans som skapades när händelsen publicerades.
 
@@ -120,7 +111,7 @@ När du har skapat leveransmallen för uppföljning kan du använda den i ett ar
 
    ![](assets/message-center_follow-up-content.png)
 
-1. Hitta fälten som du definierade när du skapade händelsen genom att välja **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**. Se [Anpassa ett transaktionsmeddelande](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
+1. Hitta fälten som du definierade när du skapade händelsen genom att välja **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**. Se [Anpassa ett transaktionsmeddelande](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message).
 
    ![](assets/message-center_follow-up-personalization.png)
 
@@ -132,4 +123,4 @@ När arbetsflödet väl har startats får alla kunder som fått ett meddelande o
 
 >[!NOTE]
 >
->Om du valde måldimensionen **[!UICONTROL Profile]** när du skapade händelsekonfigurationen kommer uppföljningsmeddelandet också att utnyttja Adobe Campaign marknadsföringsdatabas. Se [profilbaserade transaktionsmeddelanden](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).
+>Om du valde måldimensionen **[!UICONTROL Profile]** när du skapade händelsekonfigurationen kommer uppföljningsmeddelandet också att utnyttja Adobe Campaign marknadsföringsdatabas. Se [profilbaserade transaktionsmeddelanden](../../channels/using/profile-transactional-messages.md).
