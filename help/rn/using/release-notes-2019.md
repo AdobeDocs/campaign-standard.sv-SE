@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
 source-wordcount: '7623'
 ht-degree: 8%
@@ -338,7 +338,7 @@ En serie förbättringar och korrigeringar introducerades för att optimera frag
 * Ett problem med visningsrutans bakgrundsfärg när ett e-postmeddelande som skapats med e-postdesignern i Outlook togs emot har korrigerats. (CAMP-31402)
 * Korrigerade ett problem som kunde förhindra att e-postinnehåll som skapats med e-postdesignern svarade när det öppnades i Outlook. (CAMP-31400)
 * Korrigerade ett problem som förhindrade dynamiskt innehåll från att fungera korrekt när det användes i ett e-postämne. (CAMP-32837)
-* Korrigerade ett fel som relaterades till e-postämnet som inte kunde skickas korrekt.
+* Korrigerade ett fel som relaterar till e-postämnet som inte har escape-konverterats.
 * Korrigerade ett problem som förhindrade att fragment lästes in på den vänstra paletten i e-postdesignern.
 * Korrigerade ett problem som förhindrade att fragment som skapats under e-postinnehållets utgåva visas på den vänstra paletten i e-postdesignern när fragmentlistan skulle uppdateras.
 * Korrigerade flera problem som uppstod när dynamiskt innehåll användes i ett e-postmeddelande.
@@ -539,7 +539,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
   </tr> 
   <tr> 
    <td> Produktlistor i transaktionsmejl<br /> </td> 
-   <td> <p>Du kan nu referera till en eller flera produktsamlingar i ett transaktionsmejl. Du kan till exempel automatiskt skicka ett e-postmeddelande med en lista över alla produkter som fanns i användarens kundvagn med en bild, ett pris och en länk till varje produkt.</p><p>Mer information hittar du i den <a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">detaljerade dokumentationen</a> och <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">instruktionsvideon</a>.</p> </td> 
+   <td> <p>Du kan nu referera till en eller flera produktsamlingar i ett transaktionsmejl. Du kan till exempel automatiskt skicka ett e-postmeddelande med en lista över alla produkter som fanns i användarens kundvagn med en bild, ett pris och en länk till varje produkt.</p><p>Mer information hittar du i den <a href="../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message">detaljerade dokumentationen</a> och <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">instruktionsvideon</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Mobilvy i e-postdesignern<br /> </td> 
