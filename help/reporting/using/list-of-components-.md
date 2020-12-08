@@ -2,14 +2,14 @@
 solution: Campaign Standard
 product: campaign
 title: 'Förteckning över komponenter '
-description: Här finns en lista över alla komponenter som är tillgängliga i Dynamic-rapporter samt deras definitioner.
+description: Här finns en lista med alla komponenter som finns i     Dynamiska rapporter och definitioner.
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 6fffc6a3574c71c01f1e07ff4e6e6aa194479079
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1285'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 # Förteckning över komponenter {#list-of-components}
 
-Mer information om kompatibilitet mellan dimensioner och mätvärden finns i den här [tabellen](/help/reporting/using/assets/dynamic_report_compatibility.pdf). Om två komponenter inte är kompatibla visas värdet **Ingen** i cellen.
+Mer information om kompatibilitet mellan dimensioner och mått finns i den här [tabellen](/help/reporting/using/assets/dynamic_report_compatibility.pdf). Om två komponenter inte är kompatibla visas värdet **Ingen** i cellen.
 
-![](assets/dynamic_report_compatibility.png)
+[![image](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=en)
 
 ## Dimensioner {#dimensions}
 
@@ -39,7 +39,7 @@ Tabellen nedan visar en lista över de dimensioner som används i rapporter och 
   </tr> 
   <tr> 
    <td> Campaign<br /> </td> 
-   <td> Etikett och ID för kampanjen.<br /> </td> 
+   <td> Etikett och ID för din kampanj.<br /> </td> 
   </tr> 
   <tr> 
    <td> Ort<br /> </td> 
@@ -59,11 +59,11 @@ Tabellen nedan visar en lista över de dimensioner som används i rapporter och 
   </tr> 
   <tr> 
    <td> Felorsak<br /> </td> 
-   <td> Typer av fel som orsakade studsar för varje leverans, t.ex. okänd användare, ogiltig domän eller full postlåda.<br /> </td> 
+   <td> Typer av fel som orsakade studsar för varje leverans, t.ex. okänd användare, ogiltig domän eller brevlåda full.<br /> </td> 
   </tr> 
   <tr> 
    <td> Kön<br /> </td> 
-   <td> Mottagarens kön, t.ex. man eller kvinna. Om könsfältet är tomt i mottagarens profil är värdet inget.<br /> </td> 
+   <td> Mottagarens kön, t.ex. man eller kvinna. Om genusfältet är tomt i mottagarens profil är värdet inget.<br /> </td> 
   </tr> 
   <tr> 
    <td> Meddelandeåtgärder i appen<br /> </td> 
@@ -79,11 +79,11 @@ Tabellen nedan visar en lista över de dimensioner som används i rapporter och 
   </tr> 
   <tr> 
    <td> Plattform<br /> </td> 
-   <td> Plattform för den enhet som meddelandet öppnades/visades/klickades på från.<br /> </td> 
+   <td> Plattform för enheten som meddelandet öppnades/visades/klickades på.<br /> </td> 
   </tr> 
   <tr> 
    <td> Profil<br /> </td> 
-   <td> Grupperar om färdiga och anpassade profilfält som skapats under tillägget för profilresursen. Mer information finns på den här <a href="../../developing/using/key-steps-to-add-a-resource.md">sidan</a> eller i det här <a href="../../reporting/using/creating-a-custom-profile-dimension.md">exemplet</a>.<br /> Observera att data för den här dimensionen hämtas så snart den anpassade resurs som är länkad till profilfältet publiceras.<br /> </td> 
+   <td> Grupperar om färdiga och anpassade profilfält som skapats under profilresurstillägget. Mer information finns på <a href="../../developing/using/key-steps-to-add-a-resource.md">sidan</a> eller i det här <a href="../../reporting/using/creating-a-custom-profile-dimension.md">exemplet</a>.<br /> Observera att data för den här dimensionen hämtas så snart den anpassade resurs som är länkad till profilfältet publiceras.<br /> </td> 
   </tr> 
   <tr> 
    <td> Push-plattform<br /> </td> 
@@ -99,11 +99,11 @@ Tabellen nedan visar en lista över de dimensioner som används i rapporter och 
   </tr> 
   <tr> 
    <td> Avsändardomän<br /> </td> 
-   <td> Domän som användes för att skicka e-postmeddelandet.<br /> </td> 
+   <td> Domän som används för att skicka e-postmeddelandet.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Avsändarens IP-adress<br /> </td> 
-   <td> IP som användes för att skicka e-postmeddelandet.<br /> </td> 
+   <td> Avsändarens IP<br /> </td> 
+   <td> IP som används för att skicka e-postmeddelandet.<br /> </td> 
   </tr> 
   <tr> 
    <td> Läge<br /> </td> 
@@ -118,8 +118,8 @@ Tabellen nedan visar en lista över de dimensioner som används i rapporter och 
    <td> Kategori som tilldelats spårnings-URL:en.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Etikett för spårnings-URL<br /> </td> 
-   <td> En etikett som skickas till URL:en, till exempel spegelsida, kontakta oss eller öppna.<br /> </td> 
+   <td> URL-etikett för spårning<br /> </td> 
+   <td> Etikett som ges till URL:en, till exempel spegelsida, kontakta oss eller öppna.<br /> </td> 
   </tr> 
   <tr> 
    <td> Transaktionsleverans<br /> </td> 
@@ -156,10 +156,10 @@ Tabellerna nedan ger dig en lista över de mätvärden som används i rapporter 
   </tr> 
   <tr> 
    <td> studsar + fel<br /> </td> 
-   <td> Totalt antal fel som sammanställts under leverans och automatisk returbehandling i relation till totalt antal skickade meddelanden.<br /> </td> 
+   <td> Totalt antal fel som sammanställts under leverans och automatisk returbearbetning i relation till totalt antal skickade meddelanden.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Studsa + Felfrekvens<br /> </td> 
+   <td> Studsa + felfrekvens<br /> </td> 
    <td> Procentandel e-postmeddelanden som studsade jämfört med e-postmeddelanden som skickades.<br /> </td> 
   </tr> 
   <tr> 
@@ -172,11 +172,11 @@ Tabellerna nedan ger dig en lista över de mätvärden som används i rapporter 
   </tr> 
   <tr> 
    <td> Levererat<br /> </td> 
-   <td> Antal meddelanden som har skickats, i relation till det totala antalet skickade meddelanden.<br /> </td> 
+   <td> Antal meddelanden som har skickats i relation till totalt antal skickade meddelanden.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Levererad ränta<br /> </td> 
-   <td> Procentandel meddelanden som har skickats.<br /> </td> 
+   <td> Leveransfrekvens<br /> </td> 
+   <td> Procentandel meddelanden som skickades.<br /> </td> 
   </tr> 
   <tr> 
    <td> Hård studs<br /> </td> 
@@ -191,12 +191,12 @@ Tabellerna nedan ger dig en lista över de mätvärden som används i rapporter 
    <td> Antal mottagare som klickade på länken för spegelsidan.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Spegelsidhastighet<br /> </td> 
+   <td> Spegelvänd sidhastighet<br /> </td> 
    <td> Procentandel klick på spegelsidlänken jämfört med totalt antal leveransmeddelanden.<br /> </td> 
   </tr> 
   <tr> 
    <td> Erbjud klickningar<br /> </td> 
-   <td> Antal gånger som man klickat på ett erbjudande i en leverans.<br /> </td> 
+   <td> Antal gånger som ett erbjudande klickades på i en leverans.<br /> </td> 
   </tr> 
   <tr> 
    <td> Erbjud klickfrekvens<br /> </td> 
@@ -216,7 +216,7 @@ Tabellerna nedan ger dig en lista över de mätvärden som används i rapporter 
   </tr> 
   <tr> 
    <td> Karantän<br /> </td> 
-   <td> Antal meddelanden som studsade och resulterade i karantän för adressen.<br /> </td> 
+   <td> Antal meddelanden som studsade och resulterade i adressens karantän.<br /> </td> 
   </tr> 
   <tr> 
    <td> Karantänsats<br /> </td> 
@@ -227,11 +227,11 @@ Tabellerna nedan ger dig en lista över de mätvärden som används i rapporter 
    <td> Antal meddelanden som klassificerats som skräppost av SMTP-servrar.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Avvisad ränta<br /> </td> 
+   <td> Avvisad hastighet<br /> </td> 
    <td> Procentandel av meddelanden som markerats som avvisade.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Mjuk studsa<br /> </td> 
+   <td> Mjuk studs<br /> </td> 
    <td> Totalt antal tillfälliga fel, t.ex. en fullständig inkorg.<br /> </td> 
   </tr> 
   <tr> 
@@ -248,7 +248,7 @@ Tabellerna nedan ger dig en lista över de mätvärden som används i rapporter 
   </tr> 
   <tr> 
    <td> Avbeställningsfrekvens<br /> </td> 
-   <td> Procentandel av mottagarens avbeställning jämfört med de meddelanden som levererats.<br /> </td> 
+   <td> Procentandel av mottagarens avanmälan jämfört med de meddelanden som levererats.<br /> </td> 
   </tr> 
   <tr> 
    <td> Avbeställ<br /> </td> 
@@ -269,10 +269,10 @@ Tabellerna nedan ger dig en lista över de mätvärden som används i rapporter 
  <tbody> 
   <tr> 
    <td> studsar + fel<br /> </td> 
-   <td> Totalt antal fel som sammanställts under leveransen i förhållande till totalt antal skickade meddelanden, t.ex. fel från MCPNS eller leverantör.<br /> </td> 
+   <td> Totalt antal fel som sammanställts under leveransen i relation till totalt antal skickade meddelanden, t.ex. fel från MCPNS eller provider.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Studsa + Felfrekvens<br /> </td> 
+   <td> Studsa + felfrekvens<br /> </td> 
    <td> Procentandel push-meddelanden som studsade jämfört med skickade push-meddelanden.<br /> </td> 
   </tr> 
   <tr> 
@@ -285,10 +285,10 @@ Tabellerna nedan ger dig en lista över de mätvärden som används i rapporter 
   </tr> 
   <tr> 
    <td> Levererat<br /> </td> 
-   <td> Antal push-meddelanden som har skickats, i relation till det totala antalet skickade push-meddelanden.<br /> </td> 
+   <td> Antal push-meddelanden som har skickats, i relation till totalt antal skickade push-meddelanden.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Levererad ränta<br /> </td> 
+   <td> Leveransfrekvens<br /> </td> 
    <td> Procentandel push-meddelanden som har skickats.<br /> </td> 
   </tr> 
   <tr> 
@@ -301,11 +301,11 @@ Tabellerna nedan ger dig en lista över de mätvärden som används i rapporter 
   </tr> 
   <tr> 
    <td> Öppna<br /> </td> 
-   <td> Totalt antal push-meddelanden som levererats till enheten och användaren klickat på för att öppna appen. Det här liknar kommandot Push Click (Push-klicka), förutom att Push Open (Push Open) inte aktiveras om meddelandet stängs.<br /> </td> 
+   <td> Totalt antal push-meddelanden som levererats till enheten och användaren klickat på för att öppna appen. Det här liknar kommandot Push Click, men Push Open aktiveras inte om meddelandet stängs.<br /> </td> 
   </tr> 
   <tr> 
    <td> Öppen kurs<br /> </td> 
-   <td> Procentandel öppnade push-meddelanden.<br /> </td> 
+   <td> Procentandel öppna push-meddelanden.<br /> </td> 
   </tr> 
   <tr> 
    <td> Unika klick<br /> </td> 
@@ -349,8 +349,8 @@ Tabellerna nedan ger dig en lista över de mätvärden som används i rapporter 
    <td> Procentandel användare som klickade på Knapp 1 eller Knapp 2 jämfört med användare som såg meddelandet.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Avvisning i appen<br /> </td> 
-   <td> Totalt antal meddelanden som mottagarna stängt antingen genom att klicka på stängningsknappen eller genom automatisk stängning.<br /> </td> 
+   <td> Inaktivering i appen<br /> </td> 
+   <td> Totalt antal meddelanden som mottagare stängde antingen genom att klicka på stängningsknappen eller genom automatisk stängning.<br /> </td> 
   </tr> 
   <tr> 
    <td> Avdragsfrekvens i appen<br /> </td> 
@@ -365,11 +365,11 @@ Tabellerna nedan ger dig en lista över de mätvärden som används i rapporter 
    <td> Antal visningar av en unik mottagare.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unika klick i appen<br /> </td> 
+   <td> Unika klickningar i appen<br /> </td> 
    <td> Antal gånger som mottagare klickat på Knapp 1 eller Knapp 2.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unika rabatter i appen<br /> </td> 
+   <td> Unika uppsägningar i appen<br /> </td> 
    <td> Antal gånger som mottagarna har stängt ett meddelande i appen.<br /> </td> 
   </tr> 
  </tbody> 
@@ -379,7 +379,7 @@ Tabellerna nedan ger dig en lista över de mätvärden som används i rapporter 
 
 >[!NOTE]
 >
->Som standard är **[!UICONTROL Exclude proof]** segmentet redan markerat för att filtrera rapporter, men kan ändras vid behov.
+>Som standard är **[!UICONTROL Exclude proof]**-segmentet redan valt för att filtrera rapporter, men det kan ändras vid behov.
 
 Tabellen nedan ger dig en lista över de segment som används i rapporter och deras definitioner.
 
@@ -392,11 +392,11 @@ Tabellen nedan ger dig en lista över de segment som används i rapporter och de
  </thead> 
  <tbody> 
   <tr> 
-   <td> Ålder: Boomerer 1<br /> </td> 
+   <td> Ålder: Boomer 1<br /> </td> 
    <td> Mottagare från 1946 till 1954.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Ålder: Boomerer 2<br /> </td> 
+   <td> Ålder: Boomer 2<br /> </td> 
    <td> Mottagare från 1955 till 1965.<br /> </td> 
   </tr> 
   <tr> 
@@ -428,12 +428,12 @@ Tabellen nedan ger dig en lista över de segment som används i rapporter och de
    <td> Mottagare från 1995 till idag.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Ålder: Mer än 50<br /> </td> 
+   <td> Ålder: Större än 50<br /> </td> 
    <td> Mottagare vars ålder är större än 50.<br /> </td> 
   </tr> 
   <tr> 
    <td> Ålder: Mindre än 25<br /> </td> 
-   <td> Mottagare vars ålder är mindre än 25 år.<br /> </td> 
+   <td> Mottagare vars ålder är mindre än 25.<br /> </td> 
   </tr> 
   <tr> 
    <td> Ålder: Mindre än 30<br /> </td> 
@@ -453,7 +453,7 @@ Tabellen nedan ger dig en lista över de segment som används i rapporter och de
   </tr> 
   <tr> 
    <td> Alla besök<br /> </td> 
-   <td> Varje mottagare<br /> </td> 
+   <td> Alla mottagare<br /> </td> 
   </tr> 
     <tr> 
    <td> Uteslut korrektur<br /> </td> 
