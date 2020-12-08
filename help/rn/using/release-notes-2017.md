@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
 source-wordcount: '4627'
 ht-degree: 8%
@@ -493,7 +493,7 @@ _Arbetsflöden_
      <li> Inkludera avprenumerations-länken i meddelandena. </li> 
      <li> Lägga till transaktionsmeddelanden i den globala leveransrapporten. </li> 
      <li> Använda transaktionsmeddelanden i kundresan. </li> 
-    </ul> Mer information finns i den <a href="../../channels/using/profile-transactional-messages.md">detaljerade dokumentationen</a>.<br /> </td> 
+    </ul> Mer information finns i den <a href="../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Transactional Messaging API<br /> </td> 
