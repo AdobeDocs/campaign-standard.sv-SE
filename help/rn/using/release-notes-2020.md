@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
 source-wordcount: '2945'
 ht-degree: 99%
@@ -203,7 +203,7 @@ ht-degree: 99%
 
 * Korrigerade ett problem med arbetsflödesaktiviteten för **Berikning** som kan inträffa när blanksteg läggs till i fältet **Alias**, som sedan skapade ett nytt radobjekt. (CAMP-39229)
 * Korrigerade ett problem där alla testprofiler kunde användas när ett korrekturmeddelande skickades.
-* Korrigerade ett problem som uppstod efter avpublicering och borttagning av en händelsekonfiguration. [Läs mer](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
+* Korrigerade ett problem som uppstod efter avpublicering och borttagning av en händelsekonfiguration. [Läs mer](../../channels/using/publishing-transactional-event.md#deleting-an-event)
 * Korrigerade ett problem där knappen **Spara** försvann när du ändrade arbetsflöden.
 * Ett problem som inträffade när en sekretessbegäran skulle tas bort manuellt i Campaign efter att den hade bearbetats har korrigerats, vilket gjorde att data som är kopplade till begäran inte kunde tas bort även efter rensning.
 * Korrigerade ett problem som kunde inträffa vid förhandsgranskning eller sändning av meddelanden som innehöll specialtecken från Adobe Experience Manager.
