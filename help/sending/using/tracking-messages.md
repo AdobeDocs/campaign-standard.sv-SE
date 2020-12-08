@@ -7,9 +7,9 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 79e172d08557bfeebd088d8a0e8756c5965318cb
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '487'
 ht-degree: 20%
 
 ---
@@ -23,12 +23,12 @@ Tack vare spårningsfunktionerna i Adobe Campaign kan du spåra hur mottagarna b
 
 Du kan informera användare om att dina webbplatser är utrustade med verktyg för webbspårning via en auktoriseringsbegäran (som visas på sidan till exempel) med en kryssruta för att godkänna användningen av cookies, eller lägga till en banderoll högst upp på den första sidan som de landar på, osv. Popup-fönster bör undvikas eftersom de ofta blockeras av webbläsare.
 
-Spårningsinformation finns tillgänglig för varje kontakt i databasen **[!UICONTROL integrated customer profiles]**. Mer information om detta finns i [det här avsnittet](../../audiences/using/integrated-customer-profile.md).
+Spårningsinformation finns tillgänglig för varje kontakt i databasen till **[!UICONTROL integrated customer profiles]**. Mer information om detta finns i [det här avsnittet](../../audiences/using/integrated-customer-profile.md).
 
 Adobe Campaign använder två typer av cookies.
 
 * En sessionscookie (nlid). Detta innehåller identifieraren för e-postmeddelandet som skickas till kontakten (broadlogId) och identifieraren för meddelandemallen (deliveryId). Den läggs till när kontakten klickar på en URL som ingår i ett e-postmeddelande som skickas av Adobe Campaign och låter dig spåra deras beteende på webben. Denna sessionscookie raderas automatiskt när webbläsaren stängs. Kontakten kan konfigurera sin webbläsare så att den inte tillåter cookies.
-* En cookie som delas mellan Adobe Experience Cloud lösningar. På så sätt kan du identifiera de användare som interagerar med Experience Cloud när de besöker en webbplats. Beskrivningen av denna cookie finns [här](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-mc.html).
+* En cookie som delas mellan Adobe Experience Cloud lösningar. På så sätt kan du identifiera de användare som interagerar med Experience Cloud när de besöker en webbplats. Beskrivningen av denna cookie är tillgänglig [här](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-mc.html).
 
 Spårning med Adobe Campaign Standard ger åtkomst till följande funktioner:
 
@@ -59,23 +59,23 @@ Spårning med Adobe Campaign Standard ger åtkomst till följande funktioner:
 </tr>
 </table>
 
-## Tracking logs {#tracking-logs}
+## Spårningsloggar {#tracking-logs}
 
-På **[!UICONTROL Tracking logs]** fliken visas spårningshistoriken för leveransen. På den här fliken visas spårningsinformation för skickade meddelanden, t.ex. alla URL:er som har spårats av Adobe Campaign. Spårningsinformationen på den här fliken uppdateras var 10:e minut.
+På fliken **[!UICONTROL Tracking logs]** visas spårningshistoriken för den här leveransen. På den här fliken visas spårningsinformation för skickade meddelanden, t.ex. alla URL:er som har spårats av Adobe Campaign. Spårningsinformationen på den här fliken uppdateras var 10:e minut.
 
 >[!NOTE]
 >
->Om spårning inte är aktiverat för en leverans visas inte den här fliken. Spårningsloggar är endast tillgängliga för **e-post** - och **push-meddelanden** .
+>Om spårning inte är aktiverat för en leverans visas inte den här fliken. Spårningsloggar är endast tillgängliga för kanalerna **email** och **push-meddelanden**.
 
 ![](assets/tracking_logs.png)
 
 I exemplet ovan:
 
 * Meddelandet öppnades.
+* Klicka på länken för spegelsidan.
 * Klicka på den anpassade länken&quot;LÄS MER&quot;.
-* Klicka på länken för att ta bort prenumerationen och spegelsidan.
 
-I **[!UICONTROL Type]** kolumnen kan du ange följande värden:
+I kolumnen **[!UICONTROL Type]** är de möjliga värdena:
 
 * **[!UICONTROL Email click]**: mottagarna klickade på en anpassad länk.
 * **[!UICONTROL Mirror page]**: mottagaren klickade på en länk till spegelsidan.
@@ -84,14 +84,16 @@ I **[!UICONTROL Type]** kolumnen kan du ange följande värden:
 
 >[!NOTE]
 >
->För **push-meddelandekanalen** spåras bara klick på mobilmeddelanden. I så fall blir värdet **[!UICONTROL Click on mobile notification]**.
+>För kanalen **push-meddelanden** spåras bara klick på mobilmeddelanden. I så fall är värdet **[!UICONTROL Click on mobile notification]**.
 
 Mer information om hur du infogar spårningslänkar finns på [den här sidan](../../designing/using/links.md#inserting-a-link).
 
+Rapporten **[!UICONTROL Tracking indicators]** innehåller nyckelindikatorer för spårning av beteende efter att e-postmeddelanden har tagits emot. Se denna [sida](../../reporting/using/tracking-indicators.md) för mer information om detta.
+
 ## Spårade URL:er {#tracked-urls}
 
-På **[!UICONTROL Tracked URLs]** fliken grupperas URL-adresserna i det skickade meddelandet, inklusive deras URL-typ och deras käll-URL.
+På fliken **[!UICONTROL Tracked URLs]** grupperas URL-adresserna i det skickade meddelandet, inklusive deras URL-typ och deras käll-URL.
 
 ![](assets/sending_delivery6.png)
 
-For more on tracking links, refer to [this section](../../designing/using/links.md#about-tracked-urls).
+Mer information om att spåra länkar finns i [det här avsnittet](../../designing/using/links.md#about-tracked-urls).
