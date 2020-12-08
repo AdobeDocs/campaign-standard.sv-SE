@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 95%
+source-wordcount: '1220'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 95%
 
 Med Adobe Campaign kan ni tilldela en uppsättning roller till era användare för att definiera vilken del av gränssnittet de kan komma åt.
 
-De specifika rollerna och de motsvarande behörigheterna beskrivs i följande avsnitt: [förstå roller](../../administration/using/list-of-roles.md) och [behörigheter](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
+De specifika rollerna och de motsvarande behörigheterna beskrivs i följande avsnitt: [förstå roller](../../administration/using/list-of-roles.md) och [behörigheter](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
 
 Administratörer kan hantera användare i Admin Console.  Användarna synkroniseras sedan automatiskt med Adobe Campaign.  Mer information om detta hittar du i dokumentationen för [Admin Console](https://helpx.adobe.com/se/enterprise/using/users.html) .
 
@@ -37,7 +37,7 @@ Om du vill komma åt gränssnittet för användarhantering från Adobe Campaign 
 
 * [Video om hantering av användarbehörigheter](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/access-management.html)
 * [Lista över roller](../../administration/using/list-of-roles.md)
-* [Lista med tillstånd](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
+* [Lista med tillstånd](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 
 ## Typ av användare {#type-of-users}
 
@@ -59,7 +59,7 @@ Vi fokuserar istället på hur de olika uppgifterna i Adobe Campaign är uppdela
 
 Funktionsadministratörer är användare som har tillgång till de flesta tekniska delarna av gränssnittet.        De har **[!UICONTROL Administration]**-rollen och ser till att plattformen är konfigurerad så att marknadsförarna bara behöver fokusera på att få ut sina kampanjer.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Endast funktionsadministratörer med **[!UICONTROL Administration]**-roll och åtkomst till **Alla**-enheter har åtkomst till sändande loggar, meddelandeloggar, spårningsloggar, exkluderingsloggar, förslagsloggar och prenumerationsloggar. En icke-admin-användare kan ha loggarna som mål, men med början i en länkad tabell (profiler, leverans).
 
