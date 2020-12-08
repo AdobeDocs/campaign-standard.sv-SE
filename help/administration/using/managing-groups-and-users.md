@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: users-and-security
 context-tags: user,overview;user,main;security,overview;security,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 0556fec284c5873fbf5025cab15d73adb009ee37
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 97%
+source-wordcount: '942'
+ht-degree: 95%
 
 ---
 
@@ -24,15 +24,18 @@ Säkerhetsgrupper är uppsättningar av användare som delar samma roller och r�
 
 Användare måste alltid vara länkade till en säkerhetsgrupp.  På så sätt kan du tilldela dem specifika roller och organisationsenheter.
 
-För mer information om roller så visar tabellerna på följande sida de olika åtgärder som finns tillgängliga beroende på en användares roll(er): [Auktoriseringar i Adobe Campaign Standard](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
+För mer information om roller så visar tabellerna på följande sida de olika åtgärder som finns tillgängliga beroende på en användares roll(er): [Auktoriseringar i Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
 
 De säkerhetsgrupper som finns som standard är:
 
 * **[!UICONTROL Administrators]**
 * **[!UICONTROL Delivery supervisors]**
-* **[!UICONTROL Message Center agents]**
 * **[!UICONTROL Standard Users]**
 * **[!UICONTROL Workflow supervisors]**
+
+>[!IMPORTANT]
+>
+>Säkerhetsgrupperna **[!UICONTROL Access to the deliverability parameters (Deliverability)]** och **[!UICONTROL Message Center agents (mcExec)]** är endast interna och ska inte tilldelas användare.
 
 Om en användare inte är länkad till någon säkerhetsgrupp kan han/hon inte få åtkomst till Adobe Campaign.
 
