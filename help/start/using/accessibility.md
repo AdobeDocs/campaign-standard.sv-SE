@@ -7,9 +7,9 @@ audience: designing
 content-type: reference
 topic-tags: accessibility
 translation-type: tm+mt
-source-git-commit: c10633d1371cd6475a573a8c851c5f7e364baf62
+source-git-commit: 6632216ce4697892ea08b32641c9c026482ca713
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -66,10 +66,6 @@ Med Adobe Campaign Standard kan du utforma och testa e-postmeddelanden och push-
 ![](assets/accessibility_6.png)
 
 ## Sammanhangsberoende hjälp {#contextual-help}
-
->[!NOTE]
->
-> Kontexthjälpen är bara tillgänglig när du använder e-postdesignern.
 
 Kontexthjälpen kan hjälpa dig att förstå de olika begärda fälten och funktionerna bättre. Den vägleder dig också genom produktdokumentationen för att lära dig mer om den valda funktionen.
 
