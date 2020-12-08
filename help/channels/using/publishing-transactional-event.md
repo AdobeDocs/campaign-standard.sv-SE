@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: 9ad23468d3d1cf386d9558e6cd2344ea2316fc82
+source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '600'
 ht-degree: 7%
 
 ---
@@ -22,27 +22,27 @@ När [konfigurationen](../../channels/using/configuring-transactional-event.md) 
 
 >[!IMPORTANT]
 >
->Händelsekonfiguration och publikation måste utföras av en [administratör](../../administration/using/users-management.md#functional-administrators).
+>Endast [Funktionsadministratörer](../../administration/using/users-management.md#functional-administrators) <!--being part of the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md) -->har rätt behörighet för att publicera händelsekonfigurationer.
 
 Ett diagram över hela processen för transaktionsmeddelanden, inklusive publicerings- och avpubliceringshändelsekonfigurationer, finns i [det här avsnittet](../../channels/using/publishing-transactional-message.md).
 
 När publiceringen är klar:
 * Motsvarande transaktionsmeddelande skapas automatiskt. Se [Redigera transaktionsmeddelanden](../../channels/using/editing-transactional-message.md).
-* Det API som kommer att användas av webbplatsutvecklaren distribueras och transaktionshändelserna kan nu skickas. Se Integrera händelseutlösare (../../channels/using/getting-started-with-transactional-msg.md#integration-event-trigger).
+* Det API som kommer att användas av webbplatsutvecklaren distribueras och transaktionshändelserna kan nu skickas. Se [Integrera händelsen som utlöser](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
 
-## Förhandsgranska och publicera händelsen {#previewing-and-publishing-the-event}
+## Förhandsgranska och publicera en händelse {#previewing-and-publishing-the-event}
 
 Innan du kan använda händelsen måste du förhandsgranska och publicera den.
 
 1. Klicka på knappen **[!UICONTROL API preview]** för att se en simulering av REST API som kommer att användas av webbplatsutvecklaren innan den publiceras.
 
-   När händelsen har publicerats kan du med den här knappen även se en förhandsgranskning av API:t som är i produktion. Se Integrera händelseutlösare (../../channels/using/getting-started-with-transactional-msg.md#integration-event-trigger).
+   När händelsen har publicerats kan du med den här knappen även se en förhandsgranskning av API:t som är i produktion. Se [Integrera händelsen som utlöser](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
 
    ![](assets/message-center_api_preview.png)
 
    >[!NOTE]
    >
-   >REST API varierar beroende på den valda kanalen och den valda måldimensionen. Mer information om de olika konfigurationerna finns i [Transactional event specific configurations](../../channels/using/configuring-transactional-event.md#transactional-event-specific-configurations).
+   >REST API varierar beroende på den valda kanalen och den valda måldimensionen. Mer information om de olika konfigurationerna finns i [det här avsnittet](../../channels/using/configuring-transactional-event.md#transactional-event-specific-configurations).
 
 1. Klicka på **[!UICONTROL Publish]** för att starta publikationen.
 
@@ -66,11 +66,7 @@ Innan du kan använda händelsen måste du förhandsgranska och publicera den.
 
    >[!NOTE]
    >
-   >* För att händelsen ska kunna utlösa att ett transaktionsmeddelande skickas måste du ändra och publicera det meddelande som precis skapades. Se [Redigera](../../channels/using/editing-transactional-message.md) och [Publicera ett transaktionsmeddelande](../../channels/using/publishing-transactional-message.md)-avsnitt.
-      >
-      >
-   * Du måste även [integrera den här utlösarhändelsen](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger) på din webbplats.
-
+   >För att händelsen ska kunna utlösa att ett transaktionsmeddelande skickas måste du ändra och publicera det meddelande som precis skapades. Se [Redigera](../../channels/using/editing-transactional-message.md) och [Publicera ett transaktionsmeddelande](../../channels/using/publishing-transactional-message.md)-avsnitt. Du måste även [integrera den här utlösarhändelsen](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger) på din webbplats.
 
 1. När Adobe Campaign börjar ta emot händelser som är relaterade till den här händelsekonfigurationen kan du klicka på länken **[!UICONTROL Latest transactional events]** under **[!UICONTROL History]**-avsnittet för att få tillgång till de senaste händelser som har skickats av din tredjepartstjänst och bearbetats av Adobe Campaign.
 
