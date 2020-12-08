@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: 4e157a582de836fa325d95593491c756209b205e
+source-git-commit: 951f358eb7139be8924aadf8461944d4318f03f1
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 77%
+source-wordcount: '650'
+ht-degree: 76%
 
 ---
 
@@ -20,7 +20,11 @@ ht-degree: 77%
 
 När [transaktionsmeddelandet](../../channels/using/editing-transactional-message.md) är klart att skickas kan det publiceras.
 
-Stegen för att testa, publicera, pausa, avpublicera och ta bort en händelse beskrivs nedan. I det här avsnittet beskrivs även processen för att försöka igen med transaktionsmeddelanden.
+Stegen för att publicera, pausa, avpublicera och ta bort ett transaktionsmeddelande beskrivs nedan.
+
+>[!IMPORTANT]
+>
+>Endast användare med rollen [Administration](../../administration/using/users-management.md#functional-administrators) kan komma åt och publicera transaktionsmeddelanden.
 
 ## Publiceringsprocess för transaktionsmeddelanden {#transactional-messaging-pub-process}
 
@@ -28,63 +32,63 @@ Diagrammet nedan visar den övergripande processen för publicering av transakti
 
 ![](assets/message-center_pub-process.png)
 
-Mer information om hur du publicerar ett transaktionsmeddelande finns i [det här avsnittet](#publishing-a-transactional-message).
-Mer information om hur du pausar ett transaktionsmeddelande finns i [det här avsnittet](#suspending-a-transactional-message-publication).
-Mer information om hur du avpublicerar ett transaktionsmeddelande finns i [det här avsnittet](#unpublishing-a-transactional-message).
+**Relaterade ämnen:**
+* [Publicera ett transaktionsmeddelande](#publishing-a-transactional-message)
+* [Pausa ett transaktionsmeddelande](#suspending-a-transactional-message-publication)
+* [Avpublicera ett transaktionsmeddelande](#unpublishing-a-transactional-message)
+* [Publicera en händelse](../../channels/using/publishing-transactional-event.md)
 
-Mer information om att publicera och avpublicera en händelse finns i [det här avsnittet](../../channels/using/publishing-transactional-event.md).
+<!--## Testing a transactional message {#testing-a-transactional-message}
 
-## Testa ett transaktionsmeddelande {#testing-a-transactional-message}
+You first need to create a specific test profile that will allow you to properly check the transactional message.
 
-Du måste först skapa en specifik testprofil som gör att du kan kontrollera transaktionsmeddelandet korrekt.
+### Defining a specific test profile {#defining-specific-test-profile}
 
-### Definiera en specifik testprofil {#defining-specific-test-profile}
+Define a test profile that will be linked to your event, which will allow you to preview your message and send a relevant proof.
 
-Definiera en testprofil som ska länkas till din händelse så att du kan förhandsgranska meddelandet och skicka ett relevant bevis.
-
-1. Klicka på knappen **[!UICONTROL Create test profile]** på kontrollpanelen för transaktionsmeddelanden.
+1. From the transactional message dashboard, click the **[!UICONTROL Create test profile]** button.
 
    ![](assets/message-center_test-profile.png)
 
-1. Ange den information som ska skickas i JSON-format i **[!UICONTROL Event data used for personalization]**-avsnittet. Det här är det innehåll som kommer att användas när du förhandsgranskar meddelandet och när testprofilen tar emot meddelandet för korrekturläsning.
+1. Specify the information to send in JSON format in the **[!UICONTROL Event data used for personalization]** section. This is the content that will be used when previewing the message and when the test profile receives the proof.
 
    ![](assets/message-center_event-data.png)
 
    >[!NOTE]
    >
-   >Du kan också ange information som hör till profiltabellen. Se [Förbättra händelsen](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)<!--and [Personalizing a transactional message](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)-->.
+   >You can also enter the information relating to the profile table. See [Enriching the event](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) and [Personalizing a transactional message](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 
-1. När du har skapat testprofilen föranges den i transaktionsmeddelandet. Klicka på **[!UICONTROL Test profiles]**-blocket i meddelandet för att kontrollera målet för korrekturläsningen.
+1. Once created, the test profile will be pre-specified in the transactional message. Click the **[!UICONTROL Test profiles]** block of the message to check the target of your proof.
 
    ![](assets/message-center_5.png)
 
-Du kan också skapa en ny testprofil eller använda en som redan finns på **[!UICONTROL Test profiles]**-menyn. Så här gör du:
+You can also create a new test profile or use one that already exists in the **[!UICONTROL Test profiles]** menu. To do this:
 
-1. Klicka på **[!UICONTROL Adobe Campaign]**-logotypen i det övre vänstra hörnet och välj sedan **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
-1. I avsnittet **[!UICONTROL Event]** väljer du händelsen som du just har skapat. I det här exemplet väljer du &quot;Överge kundvagnen (EVTcartAbandonment)&quot;.
-1. Ange den information som ska skickas i JSON-format i **[!UICONTROL Event data]**-textrutan.
+1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
+1. In the **[!UICONTROL Event]** section, select the event that you have just created. In this example, select "Cart abandonment (EVTcartAbandonment)".
+1. Specify the information to send in JSON format in the **[!UICONTROL Event data]** text box.
 
    ![](assets/message-center_3.png)
 
-1. Spara ändringarna.
-1. Öppna meddelandet som du skapade och välj den uppdaterade testprofilen.
+1. Save your changes.
+1. Access the message that you created and select the updated test profile.
 
-**Relaterade ämnen:**
+**Related topics:**
 
-* [Hantera testprofiler](../../audiences/using/managing-test-profiles.md)
-* [Skapa målgrupper](../../audiences/using/creating-audiences.md)
+* [Managing test profiles](../../audiences/using/managing-test-profiles.md)
+* [Creating audiences](../../audiences/using/creating-audiences.md)
 
-### Skicka korrektur {#sending-proof}
+### Sending the proof {#sending-proof}
 
-När du har skapat en eller flera specifika testprofiler och sparat ditt transaktionsmeddelande kan du skicka ett bevis för att testa det.
+Once you have created one or more specific test profiles and saved your transactional message, you can send a proof to test it.
 
 ![](assets/message-center_10.png)
 
-Stegen för att skicka ett korrektur beskrivs i avsnittet [Skicka korrektur](../../sending/using/sending-proofs.md).
+The steps for sending a proof are detailed in the [Sending proofs](../../sending/using/sending-proofs.md) section.-->
 
 ## Publicera ett transaktionsmeddelande {#publishing-a-transactional-message}
 
-När du har kontrollerat ditt transaktionsmeddelande kan du publicera det.
+När du har redigerat och testat ditt transaktionsmeddelande kan du publicera det. Klicka bara på knappen **[!UICONTROL Publish]**.
 
 ![](assets/message-center_12.png)
 
@@ -94,17 +98,22 @@ Använd knappen **[!UICONTROL Reports]** för att få åtkomst till rapporter om
 
 ![](assets/message-center_13.png)
 
-### Pausa en publikation för transaktionsmeddelanden {#suspending-a-transactional-message-publication}
+**Relaterade ämnen**:
+* [Redigera ett transaktionsmeddelande](../../channels/using/editing-transactional-message.md)
+* [Testa ett transaktionsmeddelande](../../channels/using/testing-transactional-message.md)
+* [Integrera händelseutlösaren](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
+
+## Pausa en publikation för transaktionsmeddelanden {#suspending-a-transactional-message-publication}
 
 Du kan pausa publiceringen av ditt transaktionsmeddelande med **[!UICONTROL Pause]**-knappen för att t.ex. ändra data i meddelandet. Händelserna behandlas därför inte längre utan hålls i en kö i Adobe Campaign-databasen.
 
-Händelserna som står i kö behålls under en tidsperiod som definieras i REST API (se [REST API-dokumentationen](../../api/using/managing-transactional-messages.md) eller i utlösarhändelsen om du använder huvudtjänsten för utlösare (se [Om Adobe Experience Cloud-utlösare](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
+Händelserna som står i kö behålls under en tidsperiod som definieras i REST API (se [REST API-dokumentationen](../../api/using/managing-transactional-messages.md)) eller i utlösarhändelsen om du använder bastjänsten för utlösare (se [Om Adobe Experience Cloud-utlösare](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
 ![](assets/message-center_pause.png)
 
 När du klickar på **[!UICONTROL Resume]** bearbetas alla händelser som står i kö (förutsatt att de inte har gått ut). De innehåller nu alla ändringar som utfördes medan mallpubliceringen pausades.
 
-### Avpublicera ett transaktionsmeddelande {#unpublishing-a-transactional-message}
+## Avpublicera ett transaktionsmeddelande {#unpublishing-a-transactional-message}
 
 Om du klickar på **[!UICONTROL Unpublish]** kan du avbryta publikationen för transaktionsmeddelandet, men även publikationen för motsvarande händelse, som tar bort resursen som motsvarar händelsen som du skapade från REST-API:t.
 
@@ -122,7 +131,7 @@ Stegen för att pausa ett meddelande finns i avsnittet [Pausa en publikation fö
 
 Arbetsflödet **[!UICONTROL Database cleanup]**, som körs varje dag kl. 04.00, är tillgängligt via **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Workflows]**.
 
-### Ta bort ett transaktionsmeddelande {#deleting-a-transactional-message}
+## Ta bort ett transaktionsmeddelande {#deleting-a-transactional-message}
 
 När ett transaktionsmeddelande har avpublicerats, eller om ett transaktionsmeddelande inte har publicerats ännu, kan du ta bort det från transaktionsmeddelandelistan. Så här gör du:
 
@@ -144,41 +153,96 @@ Du kan bara ta bort ett transaktionsmeddelande under vissa förhållanden:
 
 * **Transaktionsmeddelanden från en färdig händelsemall (interna transaktionsmeddelanden)**: Om ett internt transaktionsmeddelande är det enda som är associerat med den motsvarande interna händelsen kan det inte tas bort. Du måste först skapa ett annat transaktionsmeddelande genom att duplicera det eller via menyn **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Transactional message templates]**.
 
-## Återförsöksprocess för transaktionsmeddelande {#transactional-message-retry-process}
+<!--## Monitoring transactional message delivery {#monitoring-transactional-message-delivery}
 
-Ett tillfälligt olevererat transaktionsmeddelande kan skickas igen automatiskt tills leveransen löper ut. Mer information om leveransens varaktighet finns i [Parametrar för giltighetsperiod](../../administration/using/configuring-email-channel.md#validity-period-parameters).
+Once the message is published and your site integration is done, you can monitor the delivery.
 
-När ett transaktionsmeddelande inte skickas finns det två system för återförsök:
+To monitor transactional messaging, you need to access **execution deliveries**. An execution delivery is a non-actionable and non-functional technical message created once a month for each transactional message, and each time a transactional message is edited and published again.
 
-* På nivån för transaktionsmeddelanden kan ett transaktionsmeddelande misslyckas innan händelsen tilldelas till en körningsleverans, vilket innebär mellan mottagningen av händelsen och leveransförberedelsen. Se [Återförsöksprocess för händelsebearbetning](#event-processing-retry-process).
-* När händelsen har tilldelats en körningsleverans kan transaktionsmeddelandet misslyckas på den sändande processnivån på grund av ett tillfälligt fel. Se [Återförsöksprocess för att skicka meddelande](#message-sending-retry-process).
+1. To view the message delivery log, click the icon at the bottom right of the **[!UICONTROL Deployment]** block.
 
-### Återförsöksprocess för händelsebearbetning {#event-processing-retry-process}
+   ![](assets/message-center_access_logs.png)
 
-Om händelsen inte kan tilldelas en körningsleverans, senareläggs händelsebearbetningen. Försök utförs sedan igen tills den har tilldelats en ny körningsleverans.
+1. Click the **[!UICONTROL Execution list]** tab.
+
+   ![](assets/message-center_execution_tab.png)
+
+1. Select the execution delivery of your choice.
+
+   ![](assets/message-center_execution_delivery.png)
+
+1. Click again the icon at the bottom right of the **[!UICONTROL Deployment]** block.
+
+   ![](assets/message-center_execution_access_logs.png)
+
+   For each execution delivery, you can consult the delivery logs as you would do for a standard delivery. For more on accessing and using the logs, see [Monitoring a delivery](../../sending/using/monitoring-a-delivery.md).
+
+**Related topics**:
+* [Publishing a transactional message](#publishing-a-transactional-message)
+* [Integrate the event triggering](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
+
+### Profile-based transactional message specificities {#profile-transactional-message-monitoring}
+
+For profile-based transactional messages, you can monitor the following profile information.
+
+Select the **[!UICONTROL Sending logs]** tab. In the **[!UICONTROL Status]** column, **[!UICONTROL Sent]** indicates that a profile has opted in.
+
+![](assets/message-center_marketing_sending_logs.png)
+
+Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as addresses on denylist.
+
+![](assets/message-center_marketing_exclusion_logs.png)
+
+For any profile that has opted out, the **[!UICONTROL Address on denylist]** typology rule excluded the corresponding recipient.
+
+This rule is part of a specific typology that applies to all transactional messages based on the **[!UICONTROL Profile]** table.
+
+![](assets/message-center_marketing_typology.png)
+
+**Related topics**:
+
+* [About typologies and typology rules](../../sending/using/about-typology-rules.md)
+* [Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)
+
+## Transactional message retry process {#transactional-message-retry-process}
+
+A temporarily undelivered transactional message is subject to automatic retries that are performed until the delivery expires. For more on the delivery duration, see [Validity period parameters](../../administration/using/configuring-email-channel.md#validity-period-parameters).
+
+When a transactional message fails to be sent, there are two retry systems:
+
+* At the transactional messaging level, a transactional message can fail before the event is assigned to an execution delivery, meaning between the event reception and the delivery preparation. See [Event processing retry process](#event-processing-retry-process).
+* At the sending process level, once the event has been assigned to an execution delivery, the transactional message can fail due to a temporary error. See [Message sending retry process](#message-sending-retry-process).
+
+The definition of **execution delivery** can be found in the [Monitoring transactional message delivery](#monitoring-transactional-message-delivery) section.
+
+### Event processing retry process {#event-processing-retry-process}
+
+When an event is triggered, it is assigned to an execution delivery.
+
+If the event cannot be assigned to an execution delivery, the event processing is postponed. Retries are then performed until it is assigned to a new execution delivery.
 
 >[!NOTE]
 >
->En senarelagd händelse visas inte i utskicksloggar över transaktionsmeddelanden eftersom den ännu inte har tilldelats en körningsleverans.
+>A postponed event does not appear in the transactional message sending logs, because it is not assigned to an execution delivery yet.
 
-Händelsen kunde till exempel inte tilldelas en körningsleverans eftersom dess innehåll inte var korrekt, det uppstod ett problem med åtkomsträttigheter eller varumärke, ett fel upptäcktes när regler för typologi tillämpades, o.s.v. I så fall kan du pausa meddelandet, redigera det för att åtgärda problemet och publicera det igen. Återförsökssystemet tilldelar det sedan till en ny körningsleverans.
+For example, the event could not be assigned to an execution delivery because its content was not correct, there was an issue with access rights or branding, an error was detected on applying typology rules, etc. In this case, you can pause the message, edit it to fix the problem and publish it again. The retry system will then assign it to a new execution delivery.
 
-### Återförsöksprocess för att skicka meddelande {#message-sending-retry-process}
+### Message sending retry process {#message-sending-retry-process}
 
-När händelsen har tilldelats en körningsleverans kan transaktionsmeddelandet misslyckas på grund av ett tillfälligt fel, t.ex. om mottagarens brevlåda är full. Mer information finns i [Försök igen efter ett tillfälligt leveransfel](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+Once the event has been assigned to an execution delivery, the transactional message can fail due to a temporary error, if the recipient's mailbox is full for example. For more on this, see [Retries after a delivery temporary failure](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
 >[!NOTE]
 >
->När en händelse tilldelas till en körningsleverans visas den i sändningsloggarna för den här körningsleveransen, och endast vid det här tillfället. De misslyckade leveranserna visas på fliken **[!UICONTROL Execution list]** i transaktionsmeddelandets sändande loggar.
+>When an event is assigned to an execution delivery, it appears in the sending logs of this execution delivery, and only at this time. The failed deliveries are displayed in the **[!UICONTROL Execution list]** tab of the transactional message sending logs.
 
-### Försök igen med processbegränsningar {#limitations}
+### Retry process limitations {#limitations}
 
-**Uppdatering av utskicksloggar**
+**Sending logs update**
 
-Under återförsöksprocessen uppdateras inte de utskicksloggarna för den nya körningsleveransen omedelbart (uppdateringen utförs via ett schemalagt arbetsflöde). Det innebär att meddelandet kan ha statusen **[!UICONTROL Pending]** även om transaktionshändelsen har bearbetats av den nya körningsleveransen.
+In the retry process, the sending logs of the new execution delivery are not immediately updated (the update is performed through a scheduled workflow). It means that the message could be in **[!UICONTROL Pending]** status even if the transactional event has been processed by the new execution delivery.
 
-**Körningen misslyckades**
+**Failed execution delivery**
 
-Du kan inte stoppa en körningsleverans. Om den aktuella körningsleveransen misslyckas skapas en ny så snart en ny händelse tas emot och alla nya händelser bearbetas av den nya körningsleveransen. Inga nya händelser bearbetas av den misslyckade körningsleveransen.
+You cannot stop an execution delivery. However, if the current execution delivery fails, a new one is created as soon as a new event is received, and all new events are processed by this new execution delivery. No new events are processed by the failed execution delivery.
 
-Om vissa händelser som redan har tilldelats en körningsleverans har senarelagts och om körningsleveransen misslyckas, tilldelar inte återförsökssystemet de senarelagda händelserna till den nya körningsleveransen, vilket betyder att dessa händelser går förlorade.
+If some events already assigned to an execution delivery have been postponed as part of the retry process and if that execution delivery fails, the retry system does not assign the postponed events to the new execution delivery, which means that these events are lost. Check the [delivery logs](#monitoring-transactional-message-delivery) to see the recipients that may have been impacted.-->
