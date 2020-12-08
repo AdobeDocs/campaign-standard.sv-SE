@@ -7,10 +7,10 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 87%
+source-wordcount: '751'
+ht-degree: 83%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 87%
 # Använda utlösare i Campaign{#using-triggers-in-campaign}
 
 ## Skapa en mappad utlösare i Campaign {#creating-a-mapped-trigger-in-campaign}
+
+>[!NOTE]
+>
+>Om du vill skapa utlösare måste du ha rollen **[!UICONTROL Administration]** eller vara i säkerhetsgruppen **[!UICONTROL Administrators]**. Mer information finns på den här [sidan](../../administration/using/list-of-roles.md).
 
 Du ska se till att definiera de beteenden som du vill övervaka i förväg i Adobe Experience Cloud (**[!UICONTROL Triggers]**-bastjänst). Mer information finns i dokumentationen för [Adobe Experience Cloud](https://docs.adobe.com/content/help/sv-SE/core-services/interface/activation/triggers.html). Observera att när du definierar utlösaren måste du aktivera aliasen. För varje beteende (surfning/formulärborttagning, tillägg/borttagning av produkter, session har gått ut, o.s.v.) måste en ny utlösare läggas till i Adobe Experience Cloud.
 
@@ -77,7 +81,7 @@ När händelsen har publicerats skapas sedan en transaktionsmall som är kopplad
 
 När du har skapat och publicerat utlösarhändelsen skapas motsvarande transaktionsmall automatiskt. Mer information finns i avsnittet [Skapa en mappad utlösare i Campaign](#creating-a-mapped-trigger-in-campaign).
 
-Innan händelsen kan utlösa ett transaktionsmeddelande måste du anpassa mallen, testa det och publicera det. De här stegen är samma som för ett vanligt transaktionsmeddelande. Mer information finns i avsnittet [Transaktionsmall](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message).
+Innan händelsen kan utlösa ett transaktionsmeddelande måste du anpassa mallen, testa det och publicera det. De här stegen är samma som för ett vanligt transaktionsmeddelande. Mer information finns i avsnittet [Redigera ett transaktionsmeddelande](../../channels/using/editing-transactional-message.md).
 
 >[!NOTE]
 >
