@@ -7,7 +7,7 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 47%
@@ -25,7 +25,7 @@ Om du vill skapa en ny resurs eller utöka en befintlig resurs med nya fält kr�
 1. [Konfigurering av filterdefinition](../../developing/using/configuring-filter-definition.md)
 1. [Uppdatera databasstrukturen](../../developing/using/updating-the-database-structure.md)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Att skapa och ändra resurser är känsliga åtgärder som endast får utföras av expertanvändare.
 
@@ -34,4 +34,3 @@ I den här videon visas hur du skapar anpassade resurser.
 >[!VIDEO](https://video.tv.adobe.com/v/27715?quality=9&captions=eng)
 
 Ytterligare Campaign Standard om instruktionsvideor finns [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv).
-
