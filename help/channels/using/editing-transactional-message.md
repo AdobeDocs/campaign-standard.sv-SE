@@ -9,23 +9,27 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: 9ad23468d3d1cf386d9558e6cd2344ea2316fc82
+source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
 workflow-type: tm+mt
-source-wordcount: '1582'
-ht-degree: 69%
+source-wordcount: '1488'
+ht-degree: 60%
 
 ---
 
 
 # Redigera ett transaktionsmeddelande {#editing-transactional-message}
 
-När du har skapat och publicerat en händelse<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))--> skapas motsvarande transaktionsmeddelande automatiskt. Stegen för att konfigurera och publicera händelsen beskrivs i avsnittet [Konfigurera en transaktionshändelse](../../channels/using/configuring-transactional-event.md) och [Publicera en transaktionshändelse](../../channels/using/publishing-transactional-event.md).
+När du har skapat och publicerat en händelse<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))--> skapas motsvarande transaktionsmeddelande automatiskt.
+
+Stegen för att konfigurera och publicera händelsen beskrivs i avsnittet [Konfigurera en transaktionshändelse](../../channels/using/configuring-transactional-event.md) och [Publicera en transaktionshändelse](../../channels/using/publishing-transactional-event.md).
 
 Stegen för att komma åt, redigera och anpassa det här meddelandet beskrivs nedan.
 
-<!--Event transactional messages do not contain profile information, therefore they are not compatible with fatigue rules (even in the case of an enrichment with profiles). See [Fatigue rules](../../sending/using/fatigue-rules.md#choosing-the-channel).-->
+>[!IMPORTANT]
+>
+>Endast användare med rollen [Administration](../../administration/using/users-management.md#functional-administrators) kan komma åt och redigera transaktionsmeddelanden.
 
-När meddelandet är klart kan det testas och publiceras. Se [Livslängd för transaktionsmeddelande](../../channels/using/publishing-transactional-message.md).
+När meddelandet är klart kan det testas och publiceras. Se [Testa ett transaktionsmeddelande](../../channels/using/testing-transactional-message.md) och [Livslängd för transaktionsmeddelande](../../channels/using/publishing-transactional-message.md).
 
 ## Åtkomst till transaktionsmeddelanden {#accessing-transactional-messages}
 
@@ -38,19 +42,19 @@ Så här kommer du åt transaktionsmeddelandet som du har skapat:
 
 1. Klicka på det meddelande du vill redigera.
 
->[!IMPORTANT]
->
->För att få åtkomst till transaktionsmeddelanden måste du vara en del av **[!UICONTROL Administrators (all units)]**-säkerhetsgruppen. Mer information finns i [Hantering av användare](../../administration/using/users-management.md#functional-administrators).
+   ![](assets/message-center_message-board.png)
+
+Du kan även få direkt åtkomst till ett transaktionsmeddelande via länken till vänster i motsvarande händelsekonfigurationsfönster. Se [Förhandsgranska och publicera en händelse](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
 ## Anpassa ett transaktionsmeddelande {#personalizing-a-transactional-message}
 
-Följ stegen nedan för att konfigurera anpassning i ett transaktionsmeddelande.
+Följ stegen nedan om du vill redigera och anpassa ett transaktionsmeddelande.
 
 >[!NOTE]
 >
->I det här avsnittet beskrivs hur du anpassar ett **händelsebaserat** transaktionsmeddelande.  Konfigurationsstegen för att skapa ett händelsebaserat transaktionsmeddelande visas i [det här avsnittet](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
+>I det här avsnittet beskrivs hur du redigerar ett **händelsebaserat** transaktionsmeddelande. Specifikationerna för **profilbaserade** transaktionsmeddelanden beskrivs [nedan](#profile-transactional-message-specificities).
 >
->Specifikationerna för **profilbaserade** transaktionsmeddelanden beskrivs [nedan](#profile-transactional-message-specificities).
+>Konfigurationsstegen för att skapa ett händelsebaserat transaktionsmeddelande visas i [det här avsnittet](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
 
 Du vill till exempel skicka ett meddelande till webbplatsanvändare som har lagt till produkter i kundvagnen och lämnat webbplatsen utan att gå igenom sina inköp. Det här exemplet presenteras i [Transactional messaging operating policy](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)-avsnittet.
 
@@ -70,7 +74,7 @@ Du vill till exempel skicka ett meddelande till webbplatsanvändare som har lagt
 
    ![](assets/message-center_7.png)
 
-1. Om du vill förbättra innehållet i meddelandet lägger du till fält genom att markera dem i tabellen som du kopplade händelsen till. I det här exemplet väljer du fältet **[!UICONTROL Title (salutation)]** i tabellen **[!UICONTROL Profile]** via **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
+1. Du kan också förbättra innehållet i ditt meddelande. Det gör du genom att lägga till fält från tabellen som du länkade till händelsekonfigurationen (se [Förbättra händelsen](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)). I det här exemplet väljer du fältet **[!UICONTROL Title (salutation)]** från tabellen **[!UICONTROL Profile]** via **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
 
    ![](assets/message-center_7-enrichment.png)
 
@@ -84,15 +88,15 @@ Du vill till exempel skicka ett meddelande till webbplatsanvändare som har lagt
 
    ![](assets/message-center_9.png)
 
-   Du kan kontrollera att anpassningsfälten matchar informationen som anges i testprofilen. Mer information finns i [Definiera en specifik testprofil](../../channels/using/publishing-transactional-message.md#defining-specific-test-profile).
+   Du kan kontrollera att anpassningsfälten matchar informationen som anges i testprofilen. Mer information finns i [Definiera en specifik testprofil](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
 
 ## Använda produktlistor i ett transaktionsmeddelande {#using-product-listings-in-a-transactional-message}
 
-Du kan skapa produktlistor som hänvisar till en eller flera datainsamlingar i innehållet i ett transaktionsmeddelande. I ett e-postmeddelande om att kunden överger en kundvagn kan du till exempel inkludera en lista över alla produkter som fanns i kundvagnen när de lämnade webbplatsen, med en bild, priset och en länk till varje produkt.
+När du redigerar innehållet i ett transaktionsmejl kan du skapa produktlistor som refererar till en eller flera datainsamlingar. I ett e-postmeddelande om att kunden överger en kundvagn kan du till exempel inkludera en lista över alla produkter som fanns i kundvagnen när de lämnade webbplatsen, med en bild, priset och en länk till varje produkt.
 
 >[!IMPORTANT]
 >
->Produktlistor är bara tillgängliga när du redigerar transaktionsmeddelanden via gränssnitt [E-postdesignare](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
+>Produktlistor är bara tillgängliga för e-postkanalen när du redigerar transaktionellt e-postinnehåll via gränssnittet [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
 
 Följ stegen nedan om du vill lägga till en lista över övergivna produkter i ett transaktionsmeddelande.
 
@@ -204,7 +208,7 @@ Mer information om hur du skapar en samling och relaterade fält när du konfigu
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   Mer information om hur du definierar en testprofil i ett transaktionsmeddelande finns i [det här avsnittet](../../channels/using/publishing-transactional-message.md#defining-specific-test-profile).
+   Mer information om hur du definierar en testprofil i ett transaktionsmeddelande finns i [det här avsnittet](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
 
 ## Specifikationer för profilbaserade transaktionsmeddelanden {#profile-transactional-message-specificities}
 
@@ -214,9 +218,9 @@ Du kan skicka transaktionsmeddelanden baserat på kundmarknadsföringsprofiler, 
 
 * Konfigurationsstegen för att skapa ett profilbaserat transaktionsmeddelande beskrivs i [det här avsnittet](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages).
 
-### Redigera ett profiltransaktionsmeddelande {#editing-profile-transactional-message}
+<!--### Editing a profile transactional message {#editing-profile-transactional-message}-->
 
-Stegen för att skapa, personalisera och publicera ett profiltransaktionsmeddelande är i huvudsak desamma som för ett händelsetransaktionsmeddelande.
+Stegen för att skapa, redigera och personalisera ett profiltransaktionsmeddelande är i huvudsak desamma som för ett händelsetransaktionsmeddelande.
 
 Skillnaderna mellan dessa anges nedan.
 
@@ -235,29 +239,39 @@ Skillnaderna mellan dessa anges nedan.
 
 1. Spara ändringarna innan du publicerar meddelandet. Mer information finns i [Publicera ett transaktionsmeddelande](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
 
-### Övervaka leveransen av ett profilbaserat transaktionsmeddelande {#monitoring-a-profile-transactional-message-delivery}
+<!--### Monitoring a profile transactional message delivery {#monitoring-a-profile-transactional-message-delivery}
 
-När meddelandet har publicerats och webbplatsintegreringen är klar så kan du övervaka leveransen.
+Once the message is published and your site integration is done, you can monitor the delivery.
 
-1. Om du vill visa meddelandets leveranslogg klickar du på ikonen längst ned till höger i **[!UICONTROL Deployment]**-blocket.
+1. To view the message delivery log, click the icon at the bottom right of the **[!UICONTROL Deployment]** block.
 
-   Mer information om åtkomst till loggarna finns i [Övervaka en leverans](../../sending/using/monitoring-a-delivery.md).
+1. Click the **[!UICONTROL Execution list]** tab.
 
-1. Klicka på fliken **[!UICONTROL Sending logs]**.  I kolumnen **[!UICONTROL Status]** anger **[!UICONTROL Sent]** att en profil har valt att delta.
+   ![](assets/message-center_execution_tab.png)
+
+1. Select the latest execution delivery.
+
+   An **execution delivery** is a non-actionable and non-functional technical message created once a month for each transactional message, and each time a transactional message is edited and published again
+
+1. Select the **[!UICONTROL Sending logs]** tab. In the **[!UICONTROL Status]** column, **[!UICONTROL Sent]** indicates that a profile has opted in.
 
    ![](assets/message-center_marketing_sending_logs.png)
 
-1. Välj fliken **[!UICONTROL Exclusions logs]** om du vill visa mottagare som har uteslutits från meddelandemålet, till exempel adresser på blockeringslista.
+1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as addresses on denylist.
 
    ![](assets/message-center_marketing_exclusion_logs.png)
 
-För alla profiler som har avanmält sig exkluderas motsvarande mottagare av typologiregeln **[!UICONTROL Address on denylist]**.
+>[!NOTE]
+>
+>For more information on accessing and using the logs, see [Monitoring a delivery](../../sending/using/monitoring-a-delivery.md).
 
-Den här regeln ingår i en specifik typologi som gäller för alla transaktionsmeddelanden som baseras på tabellen **[!UICONTROL Profile]**.
+For any profile that has opted out, the **[!UICONTROL Address on denylist]** typology rule excluded the corresponding recipient.
+
+This rule is part of a specific typology that applies to all transactional messages based on the **[!UICONTROL Profile]** table.
 
 ![](assets/message-center_marketing_typology.png)
 
-**Relaterade ämnen**:
+**Related topics**:
 
-* Integrera händelseutlösare(../../channels/using/getting-started-with-transactional-msg.md#integrated-event-trigger)
-* [Om typologier och typologiregler](../../sending/using/about-typology-rules.md)
+* [Integrate the event triggering](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
+* [About typologies and typology rules](../../sending/using/about-typology-rules.md)-->
