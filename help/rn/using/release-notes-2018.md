@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
 source-wordcount: '5402'
 ht-degree: 6%
@@ -102,7 +102,7 @@ Visa de senaste [dokumentationsuppdateringarna](../../rn/using/documentation-upd
  <tbody> 
   <tr> 
    <td> Flagga med hög prioritet för Android-push-meddelanden<br /> </td> 
-   <td> Flagga med hög prioritet för Android - Aktivera leverans av ett push-meddelande med hög prioritet för Android-program, vilket gör att vilolägesenheten vaknar och kör begränsad bearbetning. Observera att standardprioriteten är Normal, vilket kan fördröja meddelandeleveransen för att spara batteri. <br /> Mer information finns i den <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Flagga med hög prioritet för Android - Aktivera leverans av ett push-meddelande med hög prioritet för Android-program, vilket får enheten att väcka och köra begränsad bearbetning. Observera att standardprioriteten är Normal, vilket kan fördröja meddelandeleveransen för att spara batteri. <br /> Mer information finns i den <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Typologifilter för mobilappsprenumeranter<br /> </td> 
@@ -327,7 +327,7 @@ _Anpassade resurser_
     <ul> 
      <li> Använd anpassade fält som avstämningskriterier för att matcha ett transaktionsmeddelande med en profil </li> 
      <li> Utnyttja fullständiga profiler, tjänster och länkade data för att ytterligare personalisera transaktionsmeddelanden </li> 
-    </ul> Mer information finns i den <a href="../../administration/using/configuring-transactional-messaging.md">detaljerade dokumentationen</a>.<br /> </td> 
+    </ul> Mer information finns i den <a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
