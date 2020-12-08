@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: users-and-security
 context-tags: role,overview;role,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2c15273c7614204300f615e9060f29c93a4f8481
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 93%
+source-wordcount: '227'
+ht-degree: 83%
 
 ---
 
@@ -24,13 +24,18 @@ I kombination med organisationsenheter ger roller användarna en filtrerad vy av
 
 Mer information finns i tabellen [Roller och behörigheter](/help/administration/using/assets/acs_rights.pdf), som beskriver vilka funktioner som är tillgängliga i gränssnittet beroende på de valda auktoriseringarna.
 
-[![image](assets/user_management_3.png)](https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/users-and-security/assets/acs_rights.pdf)
+[![image](assets/user_management_3.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 
 Roller kan hanteras på **[!UICONTROL Administration > Users & Security > Roles]**-menyn.
 
 Standardrättigheterna är:
 
 * **[!UICONTROL Administration]**: Allmän administrationsrätt.
+
+   >[!NOTE]
+   >
+   >Om du behöver skapa utlösare måste du ha **[!UICONTROL Administration]** för att komma åt utlösarmenyn. Mer information om utlösare finns på den här [sidan](../../integrating/using/about-adobe-experience-cloud-triggers.md).
+
 * **[!UICONTROL Datamodel]**: Rätt att köra publikationer och skapa anpassade resurser.
 * **[!UICONTROL Generic import]**: Rätt att köra en generisk import av data. Du måste koppla **[!UICONTROL Generic import]**-rollen till **[!UICONTROL Workflow]**-rollen för att detta ska fungera.
 * **[!UICONTROL Prepare deliveries]**: Rätt att skapa, ändra, förbereda och ta bort leveranser. Användare med den här rollen kan förbereda leveransen, men kan inte skicka den.
