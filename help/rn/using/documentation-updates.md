@@ -21,7 +21,7 @@ Förutom [versionsinformationen](../../rn/using/release-notes.md) för Adobe Cam
 
 ## December 2020 {#doc-updates-december-2020}
 
-Sektionen Sekretess har flyttats. [Läs mer](../../start/using/privacy.md)
+Avsnittet Integritet har flyttats. [Läs mer](../../start/using/privacy.md)
 
 Avsnittet Transactional messaging har omstrukturerats och förbättrats. Där finns en tydlig beskrivning av hur du kommer igång: [förbättrade diagram](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) och ett [heltäckande exempel](../../channels/using/transactional-messaging-use-case.md) som illustrerar hela processen. [Läs mer](../../channels/using/getting-started-with-transactional-msg.md)
 
@@ -29,13 +29,13 @@ En ny sida om tillgänglighet har lagts till för att lära dig mer om tillgäng
 
 ## November 2020 {#doc-updates-november-2020}
 
-Avsnittet Personuppgifter och personer har uppdaterats med ett användningsfall för att illustrera hur de olika personerna interagerar när det gäller sekretess. [Läs mer](../../start/using/privacy.md#use-case-scenario)
+Avsnittet Personuppgifter och personer har uppdaterats med ett scenario med användningsfall som illustrerar hur personerna i de olika rollerna interagerar när det gäller integritet. [Läs mer](../../start/using/privacy.md#use-case-scenario)
 
-Ett nytt avsnitt med vanliga frågor och svar gällande sekretess har lagts till. [Läs mer](../../start/using/privacy-faq.md)
+Ett nytt avsnitt som listar vanliga frågor och svar gällande integritet har lagts till. [Läs mer](../../start/using/privacy-faq.md)
 
-Avsnittet Sekretess har flyttats och utökats med två nya sidor: [Sekretesshantering](../../start/using/privacy-management.md) och [Hantera förfrågan om användarens information](../../start/using/privacy-requests.md).
+Avsnittet Sekretess har flyttats och utökats med två nya sidor: [Integritetshantering](../../start/using/privacy-management.md) och [Hantera förfrågan om användarens information](../../start/using/privacy-requests.md).
 
-Information har lagts till i avsnittet Adobe Experience Platform Data Connector om datamappningsvalideringsfel som rör sekretesshantering och felsökning. [Läs mer](../../developing/using/aep-mapping-activation.md)
+Information har lagts till i avsnittet Adobe Experience Platform Data Connector om valideringsfel gällande datakartläggning som rör integritetshantering och felsökning av detta. [Läs mer](../../developing/using/aep-mapping-activation.md)
 
 ## Version 20.4 - oktober 2020 {#release-20-4---october-2020}
 
