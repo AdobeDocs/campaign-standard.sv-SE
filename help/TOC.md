@@ -43,7 +43,7 @@ ht-degree: 98%
       + [Integritet och medgivande](start/using/privacy.md)
       + [Integritetshantering](start/using/privacy-management.md)
       + [Förfrågningar om användarens information](start/using/privacy-requests.md)
-      + [Frågor och svar om sekretess](start/using/privacy-faq.md)
+      + [Frågor och svar om integritet](start/using/privacy-faq.md)
 + Profiler och målgrupper {#profiles-and-audiences}
    + [Kom igång med profiler och målgrupper](audiences/using/get-started-profiles-and-audiences.md)
    + Hantera profiler {#managing-profiles}
