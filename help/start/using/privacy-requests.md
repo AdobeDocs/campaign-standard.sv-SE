@@ -1,63 +1,63 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Sekretessförfrågningar
-description: Läs om hur du hanterar sekretessförfrågningar i Adobe Campaign Standard
+title: Förfrågningar om användarens information
+description: Läs om hur du hanterar förfrågningar om användarens information i Adobe Campaign Standard
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1711'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Hantera sekretessförfrågningar {#privacy-requests}
+# Hantera förfrågningar om användarens information {#privacy-requests}
 
-En allmän presentation om sekretesshantering finns i [detta avsnitt](../../start/using/privacy-management.md).
+Se [det här avsnittet](../../start/using/privacy-management.md) för en allmän presentation om sekretesshantering.
 
-Denna information gäller GDPR, CCPA, PDPA och LGPD. For more on these regulations, see [this section](../../start/using/privacy-management.md#privacy-management-regulations).
+Denna information gäller för GDPR, CCPA, PDPA och LGPD. Se [det här avsnittet](../../start/using/privacy-management.md#privacy-management-regulations) för mer information om dessa regelverk.
 
-Avanmäla försäljning av personuppgifter, som är specifikt för CCPA, förklaras i [detta avsnitt](#sale-of-personal-information-ccpa).
+[Det här avsnittet](#sale-of-personal-information-ccpa) förklarar avanmälan till försäljning av personuppgifter vilken är specifik för CCPA.
 
 >[!IMPORTANT]
 >
->Från och med 19.4 är användningen av Campaign-API:t och gränssnittet för begäranden om åtkomst och borttagning föråldrad. För alla GDPR-, CCPA-, PDPA- eller LGPD Access- och Delete-begäranden måste du använda integreringsmetoden [Privacy Core Service](#create-privacy-request) .
+>Från och med version 19.4 är användningen av API och gränssnitt i Campaign för förfrågningar gällande åtkomst och borttagning inaktuell. För alla förfrågningar om åtkomst och borttagning gällande GDPR, CCPA, PDPA eller LGPD måste du använda integreringsmetoden [Privacy Core Service](#create-privacy-request).
 
-## Om sekretessförfrågningar {#about-privacy-requests}
+## Om förfrågningar om användarens information {#about-privacy-requests}
 
-För att underlätta beredskapen för din integritet kan du hantera förfrågningar om åtkomst och borttagning med Adobe Campaign. I **det här avsnittet** beskrivs **rätten till åtkomst** och [rätten att bli glömd](../../start/using/privacy-management.md#right-access-forgotten)(borttagningsbegäran).
+För att underlätta beredskapen gällande din integritet kan du hantera förfrågningar om åtkomst och borttagning med Adobe Campaign. **Det här avsnittet** beskriver **åtkomsträttigheter** och [rätten att glömmas](../../start/using/privacy-management.md#right-access-forgotten) (borttagningsbegäran).
 
-För att kunna utföra dessa förfrågningar måste du använda integreringen av **integritetspolicyn Core Service** . Sekretessförfrågningar som skickas från sekretesskärntjänsten till alla Experience Cloud-lösningar hanteras automatiskt av Campaign via ett dedikerat arbetsflöde.
+För att kunna utföra dessa förfrågningar måste du använda integreringen **Privacy Core Service**. Förfrågningar om användarens information som skickas från Privacy Core Service till alla lösningar i Experience Cloud hanteras automatiskt av Campaign via ett dedikerat arbetsflöde.
 
 ### Förutsättningar {#prerequesites}
 
-Adobe Campaign erbjuder datakontrollerarverktyg för att skapa och bearbeta sekretessförfrågningar för data som lagras i Adobe Campaign. Det är dock den personuppgiftsansvariges ansvar att hantera relationen till den registrerade (e-post, kundtjänst eller en webbportal).
+Adobe Campaign erbjuder verktyg för personuppgiftsansvarig som låter dig skapa och bearbeta förfrågningar om användarens information gällande data som lagras i Adobe Campaign. Det är dock den personuppgiftsansvariges ansvar att hantera relationen med den registrerade (e-post, kundtjänst eller en webbportal).
 
-Det är därför ditt ansvar som personuppgiftsansvarig att bekräfta identiteten på den registrerade som gör begäran och att bekräfta att de uppgifter som skickas tillbaka till den som gjorde begäran avser den registrerade.
-
->[!NOTE]
->
->Mer information om personuppgifter och om de olika enheter som hanterar data (personuppgiftsansvariga, databehandlare och registrerade) finns i [Personuppgifter och personuppgifter](../../start/using/privacy.md#personal-data).
-
-### Namnutrymmen {#namesspaces}
-
-Innan du skapar sekretessförfrågningar måste du definiera det namnutrymme som du ska använda. Namnutrymmet är nyckeln som ska användas för att identifiera den registrerade i Adobe Campaign-databasen. Det finns två färdiga namnutrymmen: e-post och mobiltelefon. Om du behöver ett annat namnutrymme (till exempel ett anpassat profilfält) följer du de här stegen.
-
-Se även den här [självstudiekursen](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html?lang=en#privacy) om hur du skapar ett namnutrymme.
+Det är därför ditt ansvar som personuppgiftsansvarig att bekräfta identiteten på den registrerade som gör förfrågan och bekräfta att de uppgifter som skickas tillbaka till den som utförde förfrågan avser den registrerade.
 
 >[!NOTE]
 >
->Om du använder flera namnutrymmen måste du skapa en sekretessbegäran per namnutrymme.
+>Mer information om personuppgifter och de olika enheter som hanterar data (personuppgiftsansvarig, personuppgiftsbiträde och registrerad) finns i [Personuppgifter och personer](../../start/using/privacy.md#personal-data).
 
-1. Click the Adobe Campaign logo in the top left corner, then select **[!UICONTROL Administration]** > **[!UICONTROL Namespaces]**.
+### Namnrymder {#namesspaces}
+
+Innan du skapar förfrågningar om användarens information måste du definiera den namnrymd som ska användas. Namnrymden är nyckeln som används för att identifiera den registrerade i databasen i Adobe Campaign. Det finns två färdiga namnrymder: e-post och mobiltelefon. Om du behöver en annan namnrymd (såsom ett anpassat profilfält) ska du följa de här stegen.
+
+Se även den här [självstudiekursen](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html?lang=sv#privacy) om hur du skapar en namnrymd.
+
+>[!NOTE]
+>
+>Om du använder flera namnrymder måste du skapa en förfrågan om användarens information per namnrymd.
+
+1. Klicka på Adobe Campaign-logotypen i det övre vänstra hörnet och välj sedan **[!UICONTROL Administration]** > **[!UICONTROL Namespaces]**.
 
    ![](assets/privacy-namespaces.png)
 
-1. Klicka på i listan med namnutrymmen **[!UICONTROL Create]**.
+1. Klicka på **[!UICONTROL Create]** i listan med namnrymder.
 
    ![](assets/privacy-namespace-create.png)
 
@@ -65,179 +65,179 @@ Se även den här [självstudiekursen](https://experienceleague.adobe.com/docs/c
 
    ![](assets/privacy-namespace-label.png)
 
-1. Om du vill använda ett befintligt namnutrymme för en identitetstjänst väljer du **[!UICONTROL Map from Identity Namespace Service]** och väljer ett namnutrymme i **[!UICONTROL Identity Service Namespaces]** listan.
+1. Välj **[!UICONTROL Map from Identity Namespace Service]** och markera en namnrymd i listan **[!UICONTROL Identity Service Namespaces]** om du vill använda en befintlig namnrymd för en identitetstjänst .
 
    ![](assets/privacy-map-from-namespace.png)
 
-   Om du vill skapa ett nytt namnutrymme i **[!UICONTROL Identity Service]** och mappa det i Campaign markerar du **[!UICONTROL Create new]** och anger ett namn i **[!UICONTROL Identity namespace name]** fältet.
+   Markera **[!UICONTROL Create new]** och ange ett namn i fältet **[!UICONTROL Identity namespace name]** om du vill skapa en ny namnrymd i **[!UICONTROL Identity Service]** och registrera den i Campaign.
 
    ![](assets/privacy-create-new-namespace.png)
 
-   Mer information om namnutrymmen för identiteter finns i dokumentationen för [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=en) .
+   Mer information om namnrymder för identiteter finns i dokumentationen för [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=sv) .
 
-1. Ett identitetstjänstens namnutrymme mappas till ett namnutrymme i Campaign. Du måste ange hur namnutrymmet ska förenas i Campaign.
+1. Namnrymden för en identitetstjänst registreras till en namnrymd i Campaign. Du måste ange hur namnrymden ska stämmas av i Campaign.
 
-   Välj en målmappning (**[!UICONTROL Recipients]**, **[!UICONTROL Real-time event]** eller **[!UICONTROL Subscriptions to an application]**). Om du vill använda flera målmappningar måste du skapa ett namnutrymme per målmappning.
+   Välj en målregistrering (**[!UICONTROL Recipients]**, **[!UICONTROL Real-time event]** eller **[!UICONTROL Subscriptions to an application]**). Om du vill använda flera målregistreringar måste du skapa en namnrymd per målregistrering.
 
    ![](assets/privacy-namespace-target-mapping.png)
 
-1. Välj **[!UICONTROL Reconciliation key]**. Detta är det fält som kommer att användas för att identifiera den registrerade i Adobe Campaign-databasen.
+1. Välj **[!UICONTROL Reconciliation key]**. Det här är fältet som används för att identifiera den registrerade i databasen i Adobe Campaign.
 
    ![](assets/privacy-namespace-reconciliation-key.png)
 
-1. Klicka på **[!UICONTROL Create]**. Nu kan du skapa sekretessförfrågningar baserat på ditt nya namnutrymme. Om du använder flera namnutrymmen måste du skapa en sekretessbegäran per namnutrymme.
+1. Klicka på **[!UICONTROL Create]**. Du kan nu skapa förfrågningar om användarens information baserat på din nya namnrymd. Om du använder flera namnrymder måste du skapa en förfrågan om användarens information per namnrymd.
 
-### Creating a Privacy request {#create-privacy-request}
+### Skapa en förfrågan om användarens information {#create-privacy-request}
 
 >[!IMPORTANT]
 >
->Integreringen av **integritetstjänsten** Core är den metod du bör använda för alla begäranden om åtkomst och borttagning.
+>Integreringen av **Privacy Core Service** är den metod du bör använda för alla förfrågningar om åtkomst och borttagning.
 >
->Från och med 19.4 är användningen av Campaign-API:t och gränssnittet för begäranden om åtkomst och borttagning föråldrad. Använd Privacy Servicen Core för alla GDPR-, CCPA-, PDPA- eller LGPD Access- och Delete-begäranden.
+>Från och med version 19.4 är användningen av API och gränssnitt i Campaign för förfrågningar gällande åtkomst och borttagning inaktuell. Använd Core Privacy Service för alla förfrågningar om åtkomst och borttagning gällande GDPR, CCPA, PDPA eller LGPD.
 
-Integriteten i bastjänstintegreringen gör att du kan automatisera dina sekretessförfrågningar i ett flerlösningssammanhang via ett enda JSON API-anrop. Sekretessförfrågningar som skickas från sekretesskärntjänsten till alla Experience Cloud-lösningar hanteras automatiskt av Campaign via ett dedikerat arbetsflöde.
+Integrationen av Privacy Core Service låter dig automatisera dina förfrågningar om användarens information i ett sammanhang med flera olika lösningar via ett enda JSON API-anrop. Förfrågningar om användarens information som skickas från Privacy Core Service till alla lösningar i Experience Cloud hanteras automatiskt av Campaign via ett dedikerat arbetsflöde.
 
-Läs dokumentationen till [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en) om hur du skapar sekretessförfrågningar från tjänsten Privacy Core.
+Läs dokumentationen för [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=sv) om hur du skapar förfrågningar om användarens information via Privacy Core Service.
 
-Varje sekretessjobb för kärntjänsten delas upp i flera sekretessbegäranden i Campaign baserat på hur många namnutrymmen som används, en begäran som motsvarar ett namnutrymme. Ett jobb kan också köras på flera instanser. Därför skapas flera filer för ett jobb. Om en begäran till exempel har två namnutrymmen och körs i tre instanser, skickas totalt sex filer. En fil per namnutrymme och instans.
+Varje jobb i Privacy core service delas upp i flera förfrågningar om användarens information i Campaign baserat på hur många namnrymder som används. En förfrågan motsvarar en namnrymd. Ett jobb kan även köras på flera instanser. Därför skapas flera filer för ett jobb. Om en förfrågan till exempel har två namnrymder och körs i tre instanser skickas totalt sex filer. En fil per namnrymd och instans.
 
 Mönstret för ett filnamn är: `<InstanceName>-<NamespaceId>-<ReconciliationKey>.xml`
 
-* **InstanceName**: Namn på Campaign-instans
-* **NamespaceId**: Identitetstjänstens namnområdes-ID för det namnområde som används
-* **Avstämningsnyckel**: Kodad avstämningsnyckel
+* **InstansNamn**: namn på instansen i Campaign
+* **Namnrymd-ID**: identitetstjänstens namnrymd-ID för den namnrymd som används
+* **Avstämningsnyckel**: krypterad avstämningsnyckel
 
 ### Lista över resurser {#list-of-resources}
 
-När Adobe Campaign utför en begäran om att ta bort eller få åtkomst till sekretess söker igenom alla den registrerade personens data baserat på **avstämningsvärdet** i alla resurser som har en länk till profilresursen (egen typ).
+När en förfrågan om borttagning eller åtkomst till användarens information utförs söker Adobe Campaign igenom alla den registrerades data baserat på **avstämningsvärdet** i alla resurser som har en länk till profilresursen (egen typ).
 
-Här följer en lista över färdiga resurser som tas i beaktande när sekretessförfrågningar utförs:
+Här följer en lista över färdiga resurser som tas i beaktande när förfrågningar om användarens information utförs:
 
 * Profiler (mottagare)
-* Profilleveransloggar (broadLogRcp)
-* Profilspårningsloggar (trackingLogRcp)
+* Leveransloggar för profiler (broadLogRcp)
+* Spårningsloggar för profiler (trackingLogRcp)
 * Leveransloggar (prenumerationer på ett program) (broadLogAppSubRcp)
 * Spårningsloggar (prenumerationer på ett program) (trackingLogAppSubRcp)
 * Prenumerationer på ett program (appSubscriptionRcp)
-* Prenumerationshistorik för profiler (subHistoryRcp)
+* Prenumerationshistorik för profiler (subHistoRcp)
 * Profilprenumerationer (subscriptionRcp)
 * Besökare (besökare)
 
-Om du har skapat anpassade resurser som har en länk till profilresursen (egen typ), kommer de också att beaktas. Om du till exempel har en transaktionsresurs som är länkad till profilresursen och en transaktionsinformationsresurs som är länkad till transaktionsresursen, kommer båda att beaktas.
+Om du har skapat anpassade resurser som har en länk till profilresursen (egen typ) beaktas även de. Om du till exempel har en transaktionsresurs länkad till profilresursen och en transaktionsinformationsresurs länkad till transaktionsresursen beaktas båda.
 
-Se även [den här självstudiekursen](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html?lang=en#privacy) om hur du ändrar anpassade resurser.
+Se även [den här självstudiekursen](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html?lang=sv#privacy) om hur du modifierar anpassade resurser.
 
-För att detta ska fungera måste du välja alternativet **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** i den anpassade resursen:
+För att det här ska fungera måste du välja alternativet **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** i den anpassade resursen:
 
-1. Click the Adobe Campaign logo in the top left corner, then select **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]**.
+1. Klicka på Adobe Campaign-logotypen i det övre vänstra hörnet och välj sedan **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]**.
 
 1. Välj en anpassad resurs som har en länk till profilresursen (egen typ).
 
-1. Klicka på **[!UICONTROL Links]** avsnittet.
+1. Klicka på avsnittet **[!UICONTROL Links]**.
 
 1. Klicka på pennikonen (**[!UICONTROL Edit properties]**) för varje länk.
 
-1. In the **[!UICONTROL Behavior if deleted/duplicated]** section, select the **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** option.
+1. Välj alternativet **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** i avsnittet **[!UICONTROL Behavior if deleted/duplicated]**.
 
    ![](assets/privacy-cus-resource-option.png)
 
-### Status för sekretessförfrågningar {#privacy-request-statuses}
+### Status gällande förfrågningar om användarens information {#privacy-request-statuses}
 
-Här är de olika statusvärdena för sekretessförfrågningar:
+Här följer de olika statusarna gällande förfrågningar om användarens information:
 
-* **[!UICONTROL New]** / **[!UICONTROL Retry pending]**: arbetsflödet har inte bearbetat begäran ännu.
-* **[!UICONTROL Processing]** / **[!UICONTROL Retry in progress]**: arbetsflödet bearbetar begäran.
-* **[!UICONTROL Delete pending]**: arbetsflödet har identifierat alla mottagardata som ska tas bort.
+* **[!UICONTROL New]**/**[!UICONTROL Retry pending]**: arbetsflödet har inte bearbetat förfrågan ännu.
+* **[!UICONTROL Processing]**/**[!UICONTROL Retry in progress]**: arbetsflödet bearbetar förfrågan.
+* **[!UICONTROL Delete pending]**: arbetsflödet har identifierat alla mottagardata för borttagning.
 * **[!UICONTROL Delete in progress]**: arbetsflödet bearbetar borttagningen.
    <!--**[!UICONTROL Delete Confirmation Pending]** (Delete request in 2-steps process mode): the workflow has processed the Access request. Manual confirmation is requested to perform the deletion. The button is available for 15 days.-->
-* **[!UICONTROL Complete]**: behandlingen av begäran har slutförts utan fel.
-* **[!UICONTROL Error]**: arbetsflödet har påträffat ett fel. Orsaken visas i listan över sekretessförfrågningar i **[!UICONTROL Request status]** kolumnen. Till exempel **[!UICONTROL Error data not found]** innebär det att inga mottagardata som matchar den registrerade har **[!UICONTROL Reconciliation value]** hittats i databasen.
+* **[!UICONTROL Complete]**: behandlingen av förfrågan har slutförts utan fel.
+* **[!UICONTROL Error]**: arbetsflödet har påträffat ett fel. Orsaken visas i listan över förfrågningar om användarens information i kolumnen **[!UICONTROL Request status]**. Till exempel innebär **[!UICONTROL Error data not found]** att inga mottagardata som matchar den registrerades **[!UICONTROL Reconciliation value]** har hittats i databasen.
 
 ### Inaktivera tvåstegsprocessen {#disabling-two-step-process}
 
-Core-Privacy Servicen stöder inte tvåstegsprocessen.
+Core Privacy Service har inte stöd för tvåstegsprocessen.
 
 >[!IMPORTANT]
 >
->Innan du använder integreringen med Core Privacy Service för att hantera dina sekretessförfrågningar måste du inaktivera tvåstegsprocessen för Delete-begäranden från Campaign Standardens gränssnitt.
+>Innan du använder integreringen med Core Privacy Service för att hantera dina förfrågningar om användarens information måste du inaktivera tvåstegsprocessen för förfrågan om borttagning via gränssnittet i Campaign Standard.
 
-Om det här alternativet inte är inaktiverat kommer alla Delete-begäranden som hanteras med sekretesskärntjänsten att förbli i väntande läge och inte slutföras.
+Om det här alternativet inte är inaktiverat ställs alla förfrågningar om borttagning med Privacy Core Service i väntläge och slutförs inte.
 
-Som standard aktiveras tvåstegsprocessen.
+Som standard är tvåstegsprocessen aktiverad.
 
-Om du vill ändra det här läget klickar du **[!UICONTROL Edit properties]** i det övre högra hörnet av **[!UICONTROL Privacy Requests]** skärmen och avmarkerar sedan **[!UICONTROL Activate the 2-step process]** alternativet.
+Klicka på **[!UICONTROL Edit properties]** i det övre högra hörnet av skärmen **[!UICONTROL Privacy Requests]** och avmarkera sedan alternativet **[!UICONTROL Activate the 2-step process]** för att ändra det här läget.
 
 ![](assets/privacy-disable-2-step-process.png)
 
 ## Avanmäl dig till försäljning av personuppgifter (CCPA) {#sale-of-personal-information-ccpa}
 
-The **California Consumer Privacy Act** (CCPA) provides California residents new rights in regards to their personal information and imposes data protection responsibilities on certain entities whom conduct business in California.
+**CCPA (California Consumer Privacy Act)** ger personer bosatta i Kalifornien nya rättigheter när det gäller deras personuppgifter och ålägger vissa företag som bedriver verksamhet i Kalifornien skyldigheter när det gäller uppgiftsskydd.
 
-Konfigurationen och användningen av begäranden om åtkomst och borttagning är gemensamma för både GDPR och CCPA. I det här avsnittet presenteras avanmälan för försäljning av personuppgifter, som är specifikt för CCPA.
+Konfigurationen och användningen av förfrågningar gällande åtkomst och borttagning är gemensamma för både GDPR och CCPA. Det här avsnittet presenterar avanmälan för försäljning av personuppgifter vilken är specifik för CCPA.
 
-Förutom de verktyg för [hantering](../../start/using/privacy-management.md#consent-management) av samtycke som tillhandahålls av Adobe Campaign har ni möjlighet att spåra om en konsument har valt att sälja personuppgifter.
+Förutom de verktyg för [medgivandehantering](../../start/using/privacy-management.md#consent-management) som tillhandahålls av Adobe Campaign har du möjligheten att spåra om en konsument har avanmält sig till försäljning av personuppgifter.
 
-En konsument bestämmer genom ert system att han/hon inte tillåter att hans/hennes personuppgifter säljs till tredje part. I Adobe Campaign kan du lagra och spåra den här informationen.
+En konsument bestämmer genom ert system att denne inte tillåter att sina personuppgifter säljs till tredje part. I Adobe Campaign kan du lagra och spåra den här informationen.
 
 >[!NOTE]
 >
->Ni kan utnyttja avanmälningen för försäljning av personuppgifter via Campaign-gränssnittet och via API:t. Du kan inte använda den via tjänsten Privacy Core.
+>Du kan använda funktionen för avanmälan till försäljning av personuppgifter via gränssnittet och API:et i Campaign. Du kan inte använda den via Privacy Core Service.
 
 >[!IMPORTANT]
 >
->Det är ditt ansvar som personuppgiftsansvariga att ta emot den registrerade personens begäran och att hålla reda på förfrågningsdatum för CCPA. Som teknikleverantör erbjuder vi bara ett sätt att avanmäla oss. Mer information om din roll som personuppgiftsansvariga finns i [Personliga data och personuppgifter](../../start/using/privacy.md#personal-data).
+>Det är ditt ansvar som personuppgiftsansvarig att ta emot den registrerades förfrågan och att hålla reda på förfrågningsdatum för CCPA. Som teknikleverantör erbjuder vi bara ett sätt att avanmäla sig. Mer information om din roll som personuppgiftsansvarig finns i [Personuppgifter och personer](../../start/using/privacy.md#personal-data).
 
 ### Krav för anpassade tabeller {#ccpa-prerequisite}
 
-Från och med 19.4 visas fältet som ett **[!UICONTROL CCPA Opt-Out]** färdigt fält i Campaign-gränssnittet och API:t. Som standard är fältet tillgängligt för **[!UICONTROL Profile]** standardresursen.
+Från och med version 19.4 visas fältet **[!UICONTROL CCPA Opt-Out]** som ett färdigt fält i gränssnittet och API:et i Campaign. Som standard är fältet tillgängligt för standardresursen **[!UICONTROL Profile]**.
 
-Om du använder en anpassad profilresurs måste du utöka resursen och lägga till fältet. Vi rekommenderar att du använder ett annat namn än fältet som är öppet, till exempel:  **[!UICONTROL Opt-Out for CCPA]** (optoutccpa). När ett nytt fält skapas stöds det automatiskt av Campaign-API:t.
+Om du använder en anpassad profilresurs måste du utöka resursen och lägga till fältet. Vi rekommenderar att du använder ett annat namn än det färdiga fältets, såsom: **[!UICONTROL Opt-Out for CCPA]** (optoutccpa). När ett nytt fält skapas stöds det automatiskt av API:et i Campaign.
 
-Mer detaljerad information om hur du utökar profilresursen finns i [det här avsnittet](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
+Se [det här avsnittet](../../developing/using/extending-the-profile-resource-with-a-new-field.md) för mer information om hur du utökar profilresursen.
 
 >[!NOTE]
 >
->Att ändra resurser är en känslig åtgärd som bara måste utföras av expertanvändare.
+>Att ändra resurser är en känslig åtgärd som endast får utföras av behöriga användare.
 
-1. Gå till **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]**. Klicka på den anpassade profilresursen. Mer information om hur du utökar en resurs finns i [det här avsnittet](../../developing/using/creating-or-extending-the-resource.md).
+1. Gå till **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]**. Klicka på den anpassade profilresursen. Se [det här avsnittet](../../developing/using/creating-or-extending-the-resource.md) för mer information om att utöka en resurs.
 
    ![](assets/privacy-ccpa-extend-cus.png)
 
-1. Klicka på **[!UICONTROL Add field]** eller **[!UICONTROL Create Element]** lägg till etiketten, ID:t och välj **[!UICONTROL Boolean]** typ. Använd **avanmälan för CCPA** som namn. Använd följande för ID: **optOutCcpa**.
+1. Klicka på **[!UICONTROL Add field]** eller **[!UICONTROL Create Element]**, lägg till etiketten, ID:et och välj typen **[!UICONTROL Boolean]**. Använd **avanmälan för CCPA** som namn. Använd följande för ID:t: **optOutCcpa**.
 
    ![](assets/privacy-ccpa-extend-field.png)
 
-1. Lägg till fältet under **[!UICONTROL Screen definition]** fliken **[!UICONTROL Detail screen configuration]** och markera **[!UICONTROL Input field]**. Detta gör att fältet blir tillgängligt i profillistan och detaljerna.  Mer information om hur du konfigurerar skärmdefinitionen finns i [det här avsnittet](../../developing/using/configuring-the-screen-definition.md).
+1. Lägg till fältet och välj **[!UICONTROL Input field]** på fliken **[!UICONTROL Screen definition]** under **[!UICONTROL Detail screen configuration]**. Detta gör att fältet blir tillgängligt i profillistan och detaljerna.  Se [det här avsnittet](../../developing/using/configuring-the-screen-definition.md) för mer information om hur du konfigurerar bildskärmsdefinitionen.
 
    ![](assets/privacy-ccpa-extend-screen.png)
 
-1. Gå till **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Publishing]**, förbered publikationen och publicera ändringarna. Mer information om hur du publicerar en resurs finns i [det här avsnittet](../../developing/using/updating-the-database-structure.md).
+1. Gå till **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Publishing]**, förbered publikationen och publicera ändringarna. Se [det här avsnittet](../../developing/using/updating-the-database-structure.md) för mer information om att publicera en resurs.
 
    ![](assets/privacy-ccpa-extend-pub.png)
 
-1. Kontrollera att fältet är tillgängligt på information om en profil. Mer information finns i [det här avsnittet](#usage).
+1. Kontrollera att fältet är tillgängligt på en profils information. Mer information finns i [det här avsnittet](#usage).
 
 ### Användning {#usage}
 
-Det är Data Controller som ska fylla i fältets värde och följa CCPA:s riktlinjer och regler för dataförsäljning.
+Det är den personuppgiftsansvariges ansvar att fylla i fältets värde och följa CCPA:s riktlinjer och regler för försäljning av personuppgifter.
 
-Om du vill fylla i värdena kan du använda flera metoder:
+Du kan använda flera olika metoder för att fylla i värdena:
 
-* Använda gränssnittet i Campaign genom att redigera mottagarinformationen (se nedan)
-* Använda API:t för kampanjsekretess (se [API-dokumentationen](../../api/using/managing-ccpa-opt-out.md))
+* Använda gränssnittet i Campaign genom att redigera mottagarens information (se nedan)
+* Använda API:et i Campaign Privacy (se [API-dokumentationen](../../api/using/managing-ccpa-opt-out.md))
 * Via ett arbetsflöde för dataimport
 
-Du bör då se till att du aldrig säljer personuppgifter till någon tredje part för profiler som har avanmält sig.
+Du ska sedan se till att du aldrig säljer personuppgifter, från profiler som har avanmält sig, till någon tredje part.
 
-1. Redigera en profil i gränssnittet för Campaign för att ändra avanmälningsstatusen.
+1. Redigera en profil via gränssnittet i Campaign för att ändra avanmälningsstatusen.
 
    ![](assets/privacy-ccpa-profile-opt-out.png)
 
-1. När värdet för fältet är **[!UICONTROL True]** visas informationen i profilinformationen.
+1. När värdet för fältet är **[!UICONTROL True]** visas informationen i profilens information.
 
    ![](assets/privacy-ccpa-profile-opt-out-true.png)
 
-1. Du kan konfigurera profillistan så att den visar den utfällbara kolumnen. Mer information om hur du konfigurerar listor finns i [det här avsnittet](../../start/using/customizing-lists.md).
+1. Du kan konfigurera profillistan så att den visar kolumnen avanmälan. Se [det här avsnittet](../../start/using/customizing-lists.md) för mer information om hur du konfigurerar listor.
 
    ![](assets/privacy-ccpa-profile-configure-list.png)
 
