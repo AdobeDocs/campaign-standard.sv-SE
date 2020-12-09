@@ -3,13 +3,13 @@ keywords: Campaign Standard;home;popular topics
 solution: Campaign Standard
 product: campaign
 title: Produktdokumentation för Adobe Campaign Standard
-description: Bläddra i Campaign Standardens produktdokumentation
+description: Bläddra i produktdokumentationen för Adobe Campaign Standard
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '216'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 90%
 
 ## Nyheter
 
-* **[Uppdaterad ](rn/using/release-planning.md)**<br/> lanseringsplaneringUppdaterade releasedatum från februari 2021 har lagts till i lanseringsplaneringen
+* **[Uppdaterad versionsplanering](rn/using/release-planning.md)**<br/> De kommande datumen för utgåvor i februari 2021 har lagts till i versionsplaneringen
 
 * **[Kontrollgrupper](sending/using/control-group.md)**<br/>
 Mät effekten av dina kampanjer genom att utesluta en del av deras målgrupp
