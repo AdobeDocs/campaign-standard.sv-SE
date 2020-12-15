@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 1e7359db2de1a9c420af33ac85c0597c098ae3f8
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 7%
+source-wordcount: '691'
+ht-degree: 8%
 
 ---
 
@@ -25,9 +25,9 @@ För att förbättra e-postleveransen och se till att dina e-postmeddelanden nå
 * **Anpassa e-postmeddelandet**: Om du anpassar e-postmeddelandet ökar risken för att meddelandet öppnas.
 * **Bilder och text**: Respektera ett bra förhållande mellan text och bild (till exempel 60 % text och 40 % bilder).
 * **Länk till Unsubscription och landningssida**: Avprenumerationslänken är viktig. Den måste vara synlig och giltig och formuläret måste vara funktionellt.
-* **Använd verktyg** från Adobe Campaign för att optimera innehållet i e-postmeddelandet (leveransanalys, skräppostanalys).
+* **Använd** verktyg från Adobe Campaign för att optimera innehållet i e-postmeddelandet (leveransanalys, skräppostanalys).
 
-Mer information om hur du redigerar e-postinnehåll finns i Översikt över [](../../designing/using/designing-content-in-adobe-campaign.md) e-postdesignern och i Bästa tillvägagångssätt [för](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)meddelandedesign.
+Mer information om hur du redigerar e-postinnehåll finns i [e-postdesigneröversikten](../../designing/using/designing-content-in-adobe-campaign.md) och [Bästa praxis för meddelandedesign](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices).
 
 ## Avsändarens namn och adress {#sender-name}
 
@@ -37,21 +37,13 @@ Vissa Internet-leverantörer kontrollerar giltigheten för avsändaradressen (Fr
 
 Mer information finns i [Anpassa avsändarens namn](../../designing/using/personalization.md#personalizing-the-sender).
 
-## Subject line {#subject-line}
-
-När du redigerar ett e-postmeddelande kan du testa olika ämnesrader och få en uppskattning av öppningsfrekvensen innan du skickar det. Mer information finns i [Testa ämnesraden i ett e-postmeddelande](../../sending/using/testing-subject-line-email.md).
-
-![](assets/predictive_subject_line_example.png)
-
-Mer information om hur du definierar ämnesraden i ett e-postmeddelande finns i [det här avsnittet](../../designing/using/subject-line.md).
-
-## Send time optimization {#send-time-optimization}
+## Tidsoptimering för sändning {#send-time-optimization}
 
 Om du vill förbättra antalet meddelanden som skickas kan du definiera en sändningstid per mottagare manuellt. Varje profil får meddelandet vid det angivna datumet och den angivna tidpunkten, när det är möjligt.
 
 Mer information finns i [Optimera sändningstiden](../../sending/using/optimizing-the-sending-time.md).
 
-## Länk och formulär för avanmälan {#opt-out}
+## Avanmäl länk och formulär {#opt-out}
 
 När meddelandet analyseras kontrollerar en typologiregel som standard om en avanmälningslänk har inkluderats och genererar en varning om den saknas.
 
@@ -63,13 +55,13 @@ Som allmän regel ska du inte försöka hindra mottagare som vill avanmäla sig 
 
 ## Analys av skräppostskydd {#anti-spam-analysis}
 
-Adobe Campaign meddelanderedigerare integrerar en **skräppostanalys** som gör att du kan göra e-postpoäng för att avgöra om ett meddelande löper risk att betraktas som skräppost av de skräppostverktyg som används vid mottagande. For more on this, see [Previewing messages](../../sending/using/previewing-messages.md).
+Adobe Campaign meddelanderedigerare integrerar en **skräppostanalys** som gör att du kan poängsätta e-postmeddelanden för att avgöra om ett meddelande löper risk att betraktas som skräppost av de skräppostverktyg som används vid mottagande. Mer information finns i [Förhandsvisa meddelanden](../../sending/using/previewing-messages.md).
 
-Klicka på i meddelandets innehållsredigerare **[!UICONTROL Preview]**. Ett meddelande varnar dig om skräppostkontrollen har upptäckt en hög risk för det här meddelandet. Klicka **[!UICONTROL Anti-spam analysis]** för att visa information.
+Klicka på **[!UICONTROL Preview]** i meddelandets redigerare. Ett meddelande varnar dig om skräppostkontrollen har upptäckt en hög risk för det här meddelandet. Klicka på **[!UICONTROL Anti-spam analysis]** om du vill visa information.
 
 ![](assets/sending_anti-spam_analysis.png)
 
-## Kontrollera meddelandets svarstid {#message-responsiveness}
+## Kontrollerar meddelandets svarstid {#message-responsiveness}
 
 Innan du skickar meddelandet kan du kontrollera hur meddelandet kommer att se ut på olika enheter. Det är för att säkerställa att den visas på ett optimalt sätt på olika webbklienter, webbmejl och enheter.
 
