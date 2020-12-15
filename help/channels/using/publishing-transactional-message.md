@@ -1,17 +1,17 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Transaktionsmeddelanden för händelser
-description: Lär dig hur du skapar och publicerar ett transaktionsmeddelande för en händelse.
+title: Livscykel för transaktionsmeddelande
+description: Lär dig hur du publicerar, pausar, avpublicerar och tar bort ett transaktionsmeddelande.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: 951f358eb7139be8924aadf8461944d4318f03f1
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 76%
+source-wordcount: '651'
+ht-degree: 74%
 
 ---
 
