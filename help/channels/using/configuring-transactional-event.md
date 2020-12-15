@@ -1,16 +1,16 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Konfigurera transaktionsmeddelanden
-description: Lär dig hur du konfigurerar transaktionsmeddelanden.
-audience: administration
+title: Konfigurera en transaktionshändelse
+description: Lär dig hur du konfigurerar transaktionshändelser i Adobe Campaign.
+audience: channels
 content-type: reference
-topic-tags: configuring-channels
+topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '1669'
+source-wordcount: '1672'
 ht-degree: 7%
 
 ---
@@ -50,7 +50,7 @@ Börja med att skapa den händelse som passar dina behov.
 
 >[!NOTE]
 >
->Antalet realtidshändelser kan påverka er plattform. För att få bästa möjliga prestanda bör du ta bort oanvända realtidshändelser. Se [Ta bort en händelse](../../channels/using/publishing-transactional-event.md#deleting-an-event).
+>Antalet transaktionshändelser kan påverka din plattform. För att få bästa möjliga prestanda bör du ta bort oanvända händelser. Se [Ta bort en händelse](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
 ## Definiera händelseattributen {#defining-the-event-attributes}
 
