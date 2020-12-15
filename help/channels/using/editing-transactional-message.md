@@ -1,18 +1,17 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Transaktionsmeddelanden för händelser
-description: Lär dig hur du skapar och publicerar ett transaktionsmeddelande för en händelse.
-page-status-flag: never-activated
+title: Redigera ett transaktionsmeddelande
+description: Lär dig hur du får tillgång till, redigerar och anpassar ett transaktionsmeddelande.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '1488'
-ht-degree: 60%
+source-wordcount: '1489'
+ht-degree: 59%
 
 ---
 
