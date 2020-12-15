@@ -7,9 +7,9 @@ user-guide-description: 'Hjälpcenter för de viktigaste funktionerna, åtgärde
 breadcrumb-title: Campaign Standard
 title: Guide för Campaign Standard
 translation-type: tm+mt
-source-git-commit: f4a42e6f6bfcc32f315f8a82f2b77b8169a56d95
+source-git-commit: 642b916369433d9a7a23d818e94f5e189a1c8596
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: '1696'
 ht-degree: 97%
 
 ---
@@ -162,7 +162,6 @@ ht-degree: 97%
       + [Förhandsgranska leveranser](sending/using/previewing-messages.md)
       + [Skicka korrektur](sending/using/sending-proofs.md)
       + [Testa e-postmeddelanden med målprofiler](sending/using/testing-messages-using-target.md)
-      + [Testa ämnesraden i ett e-postmeddelande](sending/using/testing-subject-line-email.md)
       + [AI-baserade e-postmeddelanden](sending/using/predictive.md)
       + [E-poståtergivning](sending/using/email-rendering.md)
       + [Lägga till en kontrollgrupp](sending/using/control-group.md)
