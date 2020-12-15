@@ -7,10 +7,10 @@ audience: designing
 content-type: reference
 topic-tags: accessibility
 translation-type: tm+mt
-source-git-commit: 6632216ce4697892ea08b32641c9c026482ca713
+source-git-commit: 6ea28c457b1024dab315b60281adaee56eb80cd0
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 100%
+source-wordcount: '607'
+ht-degree: 45%
 
 ---
 
@@ -19,31 +19,33 @@ ht-degree: 100%
 
 Läs mer om tillgänglighetsstöd i Adobe Campaign Standard Workspace.
 
-Med tillgänglighet avses att göra produkter användbara för personer med funktionshinder såsom syn-, hörsel-, kognitiv-, motor- eller andra funktionshinder. Exempel på hjälpmedelsfunktioner för program är stöd för skärmläsning, textade motsvarigheter för grafik, kortkommandon, ändringar av visningsfärger till hög kontrast osv.
+Med tillgänglighet avses att göra produkter användbara för personer med funktionshinder såsom syn-, hörsel-, kognitiv-, motor- eller andra funktionshinder. Exempel på hjälpmedelsfunktioner för programprodukter är semantiskt strukturerat innehåll, skärmläsarstöd, textmotsvarigheter för grafik, kortkommandon och så vidare.
 
-Adobe Campaign Standard tillhandahåller vissa verktyg som gör det mer tillgängligt att använda såsom kontrast, tangentbordsnavigering, sammanhangsberoende hjälp och responsiv storlek.
+Adobe Campaign Standard har funktioner som gör det enklare att använda, t.ex. kontrast, etiketter, strukturerat innehåll, tangentbordsnavigering och sammanhangsbaserad hjälp.
 
 ## Tillgänglighetsfunktioner {#accessibility-features}
 
-### Kontrast {#contrast}
+### Kontrast och färg {#contrast}
 
-Vi strävar efter att användargränssnittet i Adobe Campaign Standard ska ge tillräckligt med kontrast i programmet för att erbjuda en lättillgänglig visningsupplevelse för användare med nedsatt syn eller möjlighet att se färger.
+Adobe Campaign Standard användargränssnitt strävar efter att ge tillräckligt med kontrast i programmet för att ge en lättillgänglig visningsupplevelse för användare med nedsatt syn eller färgbrist.
 
-* Ikonerna för paus och avbryt i arbetsflöden har uppdaterats för att förbättra kontrasten mellan bakgrunden och förgrunden.
-
-   ![](assets/accessibility_1.png)
-
-* Den text som visas när en leverans slutförs innehöll stor grön text med otillräcklig kontrast mellan bakgrunden och förgrunden. Kontrasten har uppdaterats med ett minsta förhållande på 3:1.
+* Stor text och stora rubriker har förbättrats så att kontrastförhållandet 3:1 uppfylls.
 
    ![](assets/accessibility_2.png)
 
-* Adobe Campaign Standard säkerställer att färg, form eller plats inte är de enda metoder som används för att förmedla information eller hierarki.
+* Hjälpinnehåll och brödtext i programmet har uppdaterats för att uppnå ett kontrastförhållande på 4,5:1.
+
+* Ikonerna för att pausa och avbryta i arbetsflöden har uppdaterats för att förbättra kontrasten mellan bakgrunds- och förgrundsfärger.
+
+   ![](assets/accessibility_1.png)
+
+* Färg, form och plats är inte de enda metoder som används för att förmedla information eller hierarki i programmet.
 
 ### Användargränssnitt {#user-interface}
 
-Användargränssnittet i Adobe Campaign Standard gör det enklare för användare att se och höra innehåll inklusive att separera förgrunden från bakgrunden och lägga till alternativa texter till de olika knapparna.
+Adobe Campaign Standard användargränssnitt gör det enklare för alla användare att interagera med materialet genom att lägga till alternativa texter till visuella element och genom att använda semantisk struktur för att förmedla information både visuellt och programmatiskt.
 
-* När användaren lämnar ett obligatoriskt ID-fält tomt visar en bild visuellt vilket fält som är fel med en felmeddelandetext.
+* När användaren lämnar ett obligatoriskt ID-fält tomt visar en bild visuellt vilket fält som är i fel med felmeddelandetext och att samma information skickas programmatiskt till användare med hjälpmedelstekniker som skärmläsare.
 
    ![](assets/accessibility_3.png)
 
@@ -51,39 +53,35 @@ Användargränssnittet i Adobe Campaign Standard gör det enklare för användar
 
    ![](assets/accessibility_4.png)
 
-* Alternativa texter för bildknappar har lagts till och kan läsas i stället för att en bild visas.
+* Alternativa texter för bilder och hjälpmedelsnamn för knappar har lagts till och kan läsas upp högt med hjälpmedelsteknik i stället för att endast förlita sig på visuella indikeringsfunktioner för att identifiera element.
 
-   ![](assets/accessibility_5.png)
+<!--
+### Create responsive resize for multiple devices {#resize-devices}
 
-* Rubrikerna för celler i datatabeller lämnas inte tomma i tabellhörnet när listor används.
+When designing for multiple devices and platforms, it's important to create a seamless experience for screen sizes across mobile and desktop resolutions.
 
-### Skapa responsiv storlek för olika enheter {#resize-devices}
-
-När du designar för olika enheter och plattformar är det viktigt att skapa en sömlös upplevelse för olika skärmstorlekar med olika upplösningar på mobila enheter och datorer.
-
-Med Adobe Campaign Standard kan du designa och testa e-postmeddelanden och push-meddelanden på olika enheter såsom: iPhone, Android-enheter, iPad, Android-surfplatta och datorer.
+Adobe Campaign Standard allows you to design and test emails and push notifications on different devices such as: iPhone, Android devices, iPad, Android tablet and desktop.
 
 ![](assets/accessibility_6.png)
+-->
 
 ## Sammanhangsberoende hjälp {#contextual-help}
 
-Den sammanhangsberoende hjälpen kan hjälpa dig att förstå de olika begärda fälten och funktionerna bättre. Den vägleder dig också genom produktdokumentationen för att lära dig mer om den valda funktionen.
+Sammanhangsberoende hjälp kan hjälpa dig att förstå de olika begärda fälten och funktionerna. Den vägleder dig också genom produktdokumentationen för att lära dig mer om den valda funktionen.
 
-När du designar ett e-postmeddelande kan du hålla markören över informationsknappen. Ett verktygstips med beskrivningar och länkar till produktdokumentationen visas.
+När du utformar ett e-postmeddelande kan du komma åt ett verktygstips som innehåller beskrivningar och länkar till produktdokumentationen.
 
 ![](assets/accessibility_7.png)
 
-## Stöd för skärmförstorare {#screen-magnifiers}
+## Stöd för hjälpmedelsteknik {#screen-magnifiers}
 
-En skärmläsare läser upp text som visas på datorskärmen. Den läser även information som inte är text såsom knappetiketter eller bildbeskrivningar i programmet som finns i tillgänglighetstaggar eller -attribut.
-
-I Adobe Campaign Standard är innehåll och funktioner fortfarande tillgängliga även om användaren åsidosätter textavstånd.
+Vi strävar efter att göra Adobe Campaign Standard-programmet så användbart som möjligt med hjälp av olika hjälpmedelstekniker, bland annat, men inte begränsat till, ändrade tangentbord, skärmförstoringsprogram, skärmläsare, röstigenkänningsprogram och andra hjälpmedel.
 
 ## Arbeta på önskat språk {#languages}
 
 Adobe Campaign Standard finns på olika språk: engelska, franska och tyska.
 
-Observera att språket konfigureras vid installationen och inte kan ändras efteråt.
+Observera att språket är konfigurerat vid installationen och kan inte ändras efteråt.
 
 ## Kortkommandon {#shortcuts}
 
