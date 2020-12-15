@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
+source-git-commit: 3d271b7125a382f7864857df4541a6be28894992
 workflow-type: tm+mt
-source-wordcount: '6359'
+source-wordcount: '6357'
 ht-degree: 97%
 
 ---
@@ -21,11 +21,13 @@ Förutom [versionsinformationen](../../rn/using/release-notes.md) för Adobe Cam
 
 ## December 2020 {#doc-updates-december-2020}
 
+Avsnittet Transactional messaging har omstrukturerats och förbättrats. Där finns en tydlig beskrivning av hur du kommer igång: [förbättrade scheman](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) och [ett slutanvändarfall](../../channels/using/transactional-messaging-use-case.md) som illustrerar hela processen. [Läs mer](../../channels/using/getting-started-with-transactional-msg.md)
+
 Avsnittet Integritet har flyttats. [Läs mer](../../start/using/privacy.md)
 
-Avsnittet Transactional messaging har omstrukturerats och förbättrats. Där finns en tydlig beskrivning av hur du kommer igång: [förbättrade diagram](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) och ett [heltäckande exempel](../../channels/using/transactional-messaging-use-case.md) som illustrerar hela processen. [Läs mer](../../channels/using/getting-started-with-transactional-msg.md)
-
 En ny sida om tillgänglighet har lagts till för att lära dig mer om tillgänglighetsstöd i Adobe Campaign Standard arbetsyta. [Läs mer](../../start/using/accessibility.md)
+
+En ny begränsning har lagts till i avsnittet Transactional messaging, som anger att antalet publicerade transaktionsmeddelanden ska vara under 100 för att prestandan ska bli optimal. [Läs mer](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
 
 ## November 2020 {#doc-updates-november-2020}
 
@@ -176,8 +178,6 @@ En begränsning har lagts till med MCPNS när en mobilapp konfigureras. [Läs me
 Ett nytt avsnitt med riktlinjer för konfiguration har lagts till i Administreringsguiden. Avsnittet för kompatibla webbläsare och operativsystem har flyttats från guiden Komma igång till det här avsnittet. Tekniska anteckningar på slutpunkter för nätverk i Campaign Standard har också lagts till i det här avsnittet. [Läs mer](../../administration/using/about-configuration-guidelines.md)
 
 Det finns nu ett nytt avsnitt som beskriver hur du tar bort en händelsekonfiguration. [Läs mer](../../channels/using/publishing-transactional-event.md#deleting-an-event)
-
-Sidan som beskriver hur du testar ämnesraden i ett e-postmeddelande för att förutsäga dess öppningshastighet har uppdaterats och förbättrats. Detta inkluderar även ett nytt [felsökningsavsnitt](../../sending/using/testing-subject-line-email.md#troubleshooting) . [Läs mer](../../sending/using/testing-subject-line-email.md)
 
 Avsnitten för transaktionsmeddelanden har uppdaterats för att återspegla små uppdateringar och förbättringar i det flerspråkiga användargränssnittet. [Läs mer](../../channels/using/getting-started-with-transactional-msg.md)
 
