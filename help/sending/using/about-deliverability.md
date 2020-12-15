@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 1e7359db2de1a9c420af33ac85c0597c098ae3f8
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '650'
 ht-degree: 5%
 
 ---
@@ -44,7 +44,6 @@ Här är en lista över de viktigaste punkterna som ska kontrolleras för att s�
 Börja med att läsa dokumentationen om de leveransverktyg som ingår i Campaign Standarden:
 * [Bästa praxis för leverans](../../sending/using/delivery-best-practices.md)
 * [Anpassa avsändarens namn](../../designing/using/personalization.md#personalizing-the-sender)
-* [Testa ämnesraden i ett e-postmeddelande](../../sending/using/testing-subject-line-email.md)
 * [Optimera sändningstiden](../../sending/using/optimizing-the-sending-time.md)
 * [Förhandsgranska meddelanden](../../sending/using/previewing-messages.md)
 * [E-poståtergivning](../../sending/using/email-rendering.md)
@@ -55,7 +54,7 @@ Börja med att läsa dokumentationen om de leveransverktyg som ingår i Campaign
 * [Karantän mot blockeringslista](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
 * [Dynamiska rapporter](../../reporting/using/about-dynamic-reports.md)
 
-## Kontrollerar nätverkskonfiguration {#network-configuration}
+## Kontrollerar nätverkskonfigurationen {#network-configuration}
 
 Spam försöker dölja sin riktiga identitet och gör därför sina servrar svåra att identifiera. En giltig nätverkskonfiguration som inte försöker dölja serverns identitet är nödvändig för att skicka e-post i stora volymer.
 
@@ -63,11 +62,11 @@ Spam försöker dölja sin riktiga identitet och gör därför sina servrar svå
 
 Spammare använder ofta adressgeneratorer som bygger på listor över frekventa namn och förnamn. Dessutom bearbetar de sällan tekniska meddelanden som skickas tillbaka från e-postservrar. En hög frekvens med ogiltiga adresser tolkas ofta som ett tecken på skräppost. Dubbla anmälningsmekanismer och effektiv hantering av tekniska studentmeddelanden gör det möjligt att undvika detta.
 
-## Minska andelen klagomål {#reduce-complaint-rate}
+## Minskar antalet klagomål {#reduce-complaint-rate}
 
 Internetleverantörer har vanligtvis ett framträdande sätt att rapportera ett mottaget meddelande som skräppost. Detta gör det möjligt att identifiera otillförlitliga källor. Genom att snabbt följa avanmälningsbegäranden, använda en viss lista regelbundet, verifiera samtycke via ett system med dubbel avanmälan och implementera feedbackslingor kan ni minska antalet klagomål.
 
-## Skicka till honeypoadresser {#honeypot-addresses}
+## Skickar till anteckningsadresser {#honeypot-addresses}
 
 Internetleverantörer och andra organisationer (se https://www.projecthoneypot.org/) använder postlådor som inte motsvarar fysiska personer, men som bara skapas för att lura skräppost. Dessa så kallade &quot;honungsportadresser&quot; publiceras på webben för att samlas in av skräppost och därmed fånga oäkta avsändare. Användningen av en dubbel anmälningsmekanism förhindrar att den här typen av adress läggs till i en lista. När du använder en tredjepartslista måste du vara säker på vilka metoder som används av den som ansvarar för den.
 
