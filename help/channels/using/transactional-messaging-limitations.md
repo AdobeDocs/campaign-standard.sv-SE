@@ -2,16 +2,16 @@
 solution: Campaign Standard
 product: campaign
 title: Begränsningar för transaktionsmeddelanden
-description: Läs mer om de huvudsakliga begränsningarna och rekommendationerna för transaktionsmeddelanden i Adobe Campaign Standard.
+description: Läs om de viktigaste rekommendationerna och begränsningarna för transaktionsmeddelanden i Adobe Campaign Standard.
 audience: channels
 content-type: reference
-topic-tags: landing-pages
-context-tags: landingPage,wizard;landingPage,overview;landingPage,main
+topic-tags: transactional-messaging
+context-tags: null
 translation-type: tm+mt
-source-git-commit: c276c468627208b584a0342414cdbe382e349f50
+source-git-commit: 0092ad11314fab232663f558ca6635b8fcc03133
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 78%
+source-wordcount: '742'
+ht-degree: 68%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 78%
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-I avsnittet nedan visas de bästa metoderna och begränsningarna som du bör känna till innan du börjar skapa transaktionsmeddelanden.
+I det här avsnittet beskrivs de bästa metoderna och begränsningarna som du bör känna till innan du börjar skapa transaktionsmeddelanden.
 
 <!--For more on transactional messages, including on how to configure and create them, see [Getting started with transactional messaging](../../channels/using/getting-started-with-transactional-msg.md).-->
 
@@ -38,6 +38,12 @@ Eftersom du konfigurerar och publicerar transaktionshändelser går det inte att
 * Du kan inte ändra målinriktningsdimensionen ( **[!UICONTROL Real-time event]** eller **[!UICONTROL Profile]** ) efter att händelsen har skapats.        Se [Skapa en händelse](../../channels/using/configuring-transactional-event.md#creating-an-event).
 * Det går inte att återställa en publicering, men du kan avpublicera en händelse. Denna åtgärd gör att händelsen och det tillhörande transaktionsmeddelandet blir otillgängligt.    Se [Avpublicera en händelse](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
 * Det enda transaktionsmeddelande som kan kopplas till en händelse är det meddelande som skapas automatiskt när händelsen publiceras.    Se [Förhandsgranska och publicera händelsen](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
+
+## Antal transaktionsmeddelanden {#transactional-message-number}
+
+Antalet publicerade transaktionsmeddelanden kan ha stor effekt på din plattform. För optimala prestanda bör antalet publicerade transaktionsmeddelanden förbli under 100. För att försäkra dig om detta avpublicerar eller tar du bort oanvända transaktionsmeddelanden. Se [Avpublicera ett transaktionsmeddelande](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) och [Ta bort ett transaktionsmeddelande](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
+
+För att få bästa prestanda kan du även avpublicera eller ta bort oanvända händelser. Om du avpublicerar eller tar bort en händelse avpubliceras eller raderas även motsvarande transaktionsmeddelanden och eventuella sändnings- och spårningsloggar. Se [Avpublicera en händelse](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) och [Ta bort en händelse](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
 ## Personalisering {#personalization}
 
