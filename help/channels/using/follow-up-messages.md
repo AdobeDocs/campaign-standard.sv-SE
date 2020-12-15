@@ -2,14 +2,14 @@
 solution: Campaign Standard
 product: campaign
 title: Uppföljningsmeddelanden
-description: Lär dig hur du skapar och publicerar ett uppföljningsmeddelande.
+description: Lär dig hur du skapar, hanterar och skickar ett uppföljningsmeddelande.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 translation-type: tm+mt
-source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '773'
 ht-degree: 2%
 
 ---
