@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 642b916369433d9a7a23d818e94f5e189a1c8596
 workflow-type: tm+mt
 source-wordcount: '1696'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -120,18 +120,18 @@ ht-degree: 97%
       + [Definiera innehållet i direktutskick](channels/using/defining-the-direct-mail-content.md)
    + Transaktionsmeddelanden {#transactional-messaging}
       + [Komma igång med transaktionsmeddelanden](channels/using/getting-started-with-transactional-msg.md)
-      + [God praxis och begränsningar](channels/using/transactional-messaging-limitations.md)
+      + [Bästa praxis och begränsningar](channels/using/transactional-messaging-limitations.md)
       + Händelsekonfiguration {#event-configuration}
          + [Konfigurera en transaktionshändelse](channels/using/configuring-transactional-event.md)
          + [Publicera en transaktionshändelse](channels/using/publishing-transactional-event.md)
-      + Transactional message edition {#transactional-message-edition}
+      + Utgåvan med transaktionsmeddelandet {#transactional-message-edition}
          + [Redigera ett transaktionsmeddelande](channels/using/editing-transactional-message.md)
          + [Testa ett transaktionsmeddelande](channels/using/testing-transactional-message.md)
-         + [Livscykel för transaktionsmeddelande](channels/using/publishing-transactional-message.md)
+         + [Livscykeln för ett transaktionsmeddelande](channels/using/publishing-transactional-message.md)
          + [Utförande och övervakning](channels/using/transactional-message-execution.md)
       + [Push-meddelanden för transaktioner](channels/using/transactional-push-notifications.md)
       + [Uppföljningsmeddelanden](channels/using/follow-up-messages.md)
-      + [Användningsexempel för transaktionsmeddelanden](channels/using/transactional-messaging-use-case.md)
+      + [Användningsfall med transaktionsmeddelanden](channels/using/transactional-messaging-use-case.md)
    + Landningssidor {#landing-pages}
       + [Kom igång med landningssidor](channels/using/getting-started-with-landing-pages.md)
       + [Om mallar för landningssidor](channels/using/landing-page-templates.md)
