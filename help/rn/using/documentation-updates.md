@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 3d271b7125a382f7864857df4541a6be28894992
 workflow-type: tm+mt
 source-wordcount: '6357'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,7 @@ Avsnittet Transactional messaging har omstrukturerats och förbättrats. Där fi
 
 Avsnittet Integritet har flyttats. [Läs mer](../../start/using/privacy.md)
 
-En ny sida om tillgänglighet har lagts till för att lära dig mer om tillgänglighetsstöd i Adobe Campaign Standard arbetsyta. [Läs mer](../../start/using/accessibility.md)
+En ny sida om tillgänglighet har lagts till där du kan läsa mer om tillgänglighetsstöd på arbetsytan i Adobe Campaign Standard. [Läs mer](../../start/using/accessibility.md)
 
 En ny begränsning har lagts till i avsnittet Transactional messaging, som anger att antalet publicerade transaktionsmeddelanden ska vara under 100 för att prestandan ska bli optimal. [Läs mer](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
 
@@ -141,7 +141,7 @@ Ytterligare resurser har lagts till på startsidan för dokumentationen. [Läs m
 
 Information om Experience Cloud ID Service (ECID) har lagts till i dokumentationen för Adobe Experience Platform Data Connector. [Läs mer](../../developing/using/aep-about-data-connector.md#key-concepts)
 
-Avsnittet Transactional Messaging har förbättrats med information om hur du får tillgång till de senaste transaktionshändelserna och uppdaterade skärmbilder. [Läs mer](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
+Avsnittet Transaktionsmeddelanden har förbättrats med information om hur man får tillgång till de senaste transaktionshändelserna och uppdaterade skärmbilder. [Läs mer](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
 Dokumentationen om typologier och typologiregler har förbättrats och uppdaterats med ytterligare information om inbyggda typologiregler. [Läs mer](../../sending/using/about-typology-rules.md)
 
@@ -157,7 +157,7 @@ Bästa praxis har lagts till när det gäller transaktionsmeddelanden och bortta
 
 Avsnittet Konfigurera e-postkanal har uppdaterats med information om alla e-postinställningar som nu hanteras av Adobe Campaign Enhanced MTA. [Läs mer](../../administration/using/configuring-email-channel.md)
 
-Avsnittet Transactional messaging har uppdaterats med ytterligare information om vilka rättigheter som krävs för att redigera händelsekonfigurationer och hur du kan förbättra samlingar i transaktionsmeddelanden. [Läs mer](../../channels/using/configuring-transactional-event.md).
+Avsnittet Transaktionsmeddelanden har uppdaterats med ytterligare information om vilka rättigheter som krävs för att redigera händelsekonfigurationer och hur man förbättrar samlingar i transaktionsmeddelanden. [Läs mer](../../channels/using/configuring-transactional-event.md).
 
 ## Version 20.2 - april 2020 {#release-20-2---april-2020}
 
@@ -607,7 +607,7 @@ Ett avsnitt som rör **anpassade filter** har lagts till i API-dokumentationen. 
 
 **Nya funktioner i utgåvan**
 
-GDPR: Integrering av bastjänst - [läs mer](https://helpx.adobe.com/se/campaign/kb/campaign-privacy.html)
+GDPR: Integrering av bastjänst - [läs mer](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
 Förbättrade push-funktioner - detaljerad feedback vid leverans - [Läs mer](../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification)
 
@@ -809,7 +809,7 @@ Dokumentation har lagts till i rapporten för aktiva profiler. [Läs mer](../../
 
 Dokumentationen för [leveransvarningar](../../sending/using/receiving-alerts-when-failures-happen.md#delivery-alerting-reasons) har uppdaterats med ett felsökningsavsnitt som innehåller tips om vilka åtgärder du kan vidta när du får varningar.
 
-Det finns en ny guide för att komma igång. Den innehåller bästa praxis som kan användas för att leverera med Adobe Campaign. Från att skapa och målinrikta till att skicka och övervaka. [Läs mer](https://helpx.adobe.com/se/campaign/kb/delivery-best-practices.html)
+Det finns en ny guide för att komma igång. Den innehåller bästa praxis som kan användas för att leverera med Adobe Campaign. Från att skapa och målinrikta till att skicka och övervaka. [Läs mer](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html)
 
 Dokumentationen för uppföljningsmeddelanden har uppdaterats med ett förbättrat användningsexempel. [Läs mer](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)
 
@@ -941,7 +941,7 @@ Loggexport för extern rapportering - [Läs mer](../../automating/using/exportin
 
 Transactional Messaging API - [läs mer](../../api/using/get-started-apis.md)
 
-Marknadsföringsfunktioner för transaktionsmeddelanden - [Läs mer](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)
+Marknadsföringsfunktioner för transaktionsmeddelanden – [läs mer](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)
 
 **Andra dokumentationsuppdateringar som medföljer utgåvan**
 
