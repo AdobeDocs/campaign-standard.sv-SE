@@ -9,8 +9,8 @@ topic-tags: working-with-campaign-and-triggers
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe-teamet behöver följande information för att aktivera utlösare:
 * IMS-organisations-ID
 * Analysinloggningsföretag (kan vara samma som Marketing Cloud företagsnamn)
 
-## Konfigurera lösningar och tjänster {#configuring-solutions-and-services}
+## Konfigurerar lösningar och tjänster {#configuring-solutions-and-services}
 
 Om du vill använda den här funktionen måste du ha tillgång till följande lösningar/bastjänster:
 
@@ -55,7 +55,7 @@ Du måste även ha en fungerande hemsida.
 
 Du måste konfigurera [Experience Cloud DTM Core Service](#configuring-experience-cloud-dtm-core-service), [Experience Cloud People Core Service](#configuring-experience-cloud-people-core-service) och [Campaign](#configuring-triggers-and-aliases-in-campaign) för att köra dessa användningsfall.
 
-### Configuring Experience Cloud DTM Core Service {#configuring-experience-cloud-dtm-core-service}
+### Konfigurerar Experience Cloud DTM Core Service {#configuring-experience-cloud-dtm-core-service}
 
 1. I Experience Cloud DTM Core Service (Dynamic Tag Management) aktiverar du Experience Cloud ID och Adobe Analytics för dina webbplatssidor.
 
@@ -77,17 +77,17 @@ Aliaset som tidigare refererats i DTM måste skapas i Experience Cloud People Co
 
 ### Konfigurera utlösare och alias i Campaign {#configuring-triggers-and-aliases-in-campaign}
 
-1. Se till att du är **[!UICONTROL Experience Cloud triggers]** synlig på din Adobe Campaign Standard-instans. Om du inte gör det kontaktar du Adobe Campaign administratörer.
+1. Kontrollera att du har **[!UICONTROL Experience Cloud triggers]** synligt på din Adobe Campaign Standard-instans. Om du inte gör det kontaktar du Adobe Campaign administratörer.
 
    ![](assets/remarketing_1.png)
 
-1. Med alias kan en kontakt i Analytics förenas med en profil i Campaign. Du måste matcha de alias som definieras i Experience Cloud ID-tjänsten med en delad datakälla i Campaign. Du måste konfigurera aliasupplösningen i Adobe Campaign via en datakälla ( **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]** ). Se till att du väljer rätt datakälla på den **[!UICONTROL Data Source/Alias]** nedrullningsbara menyn, som mappas med samma datakälla för kundattribut som skapades i föregående steg.
+1. Med alias kan en kontakt i Analytics förenas med en profil i Campaign. Du måste matcha de alias som definieras i Experience Cloud ID-tjänsten med en delad datakälla i Campaign. Du måste konfigurera aliasupplösningen i Adobe Campaign via en datakälla ( **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]** ). Se till att du väljer rätt datakälla i den nedrullningsbara menyn **[!UICONTROL Data Source/Alias]** som är mappad med samma datakälla för kundattribut som skapades i föregående steg.
 
    ![](assets/trigger_uc_conf_5.png)
 
    >[!NOTE]
    >
-   >Du kan stämma av utlösarna för både anonyma och inloggade användare. För anonyma användare bör profilen finnas i Adobe Campaign och ett e-postmeddelande har skickats till användaren tidigare. Det räcker med konfiguration av besökar-ID. Om du vill stämma av utlösare för inloggade användare måste du konfigurera deklarerad ID-datakälla. Mer information finns i [Datakällans konfiguration](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
+   >Du kan stämma av utlösarna för både anonyma och inloggade användare. För anonyma användare bör profilen finnas i Adobe Campaign och ett e-postmeddelande har skickats till användaren tidigare. Det räcker med konfiguration av besökar-ID. Om du vill stämma av utlösare för inloggade användare måste du konfigurera deklarerad ID-datakälla. Mer information finns i [Konfiguration av datakälla](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
 
 ## Skapa en utlösare i Experience Cloud-gränssnittet {#creating-a-trigger-in-the-experience-cloud-interface}
 
