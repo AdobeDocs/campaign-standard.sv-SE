@@ -9,8 +9,8 @@ topic-tags: customizing-reports
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,19 +19,19 @@ ht-degree: 4%
 
 Med komponenter kan du anpassa rapporter med olika dimensioner, mätvärden och tidsperioder.
 
-1. Klicka på **[!UICONTROL Components]** fliken för att komma åt komponentlistan.
+1. Klicka på fliken **[!UICONTROL Components]** för att komma åt komponentlistan.
 
    ![](assets/dynamic_report_components.png)
 
-1. För varje kategori som visas på **[!UICONTROL Components]** fliken visas de fem mest använda objekten. Klicka på namnet på en kategori för att få tillgång till dess fullständiga lista över komponenter.
+1. Varje kategori som visas på fliken **[!UICONTROL Components]** visar de fem mest använda objekten. Klicka på namnet på en kategori för att få tillgång till dess fullständiga lista över komponenter.
 
    Komponenttabellen är uppdelad i fyra kategorier:
 
    * **Dimensioner**: Hämta information från leveransloggen, t.ex. mottagarens webbläsare eller domän, eller leveransens framgångar.
    * **Mätvärden**: Hämta information om status för ett meddelande. Om ett meddelande till exempel levererades och användaren öppnade det.
-   * **[!UICONTROL Segments]**: Filtrera data beroende på mottagarens åldersintervall. **[!UICONTROL Segments]** kan dras och släppas direkt i en frihandstabell eller i panelens övre fält. Som standard är **[!UICONTROL Exclude proof]** segmentet redan markerat men kan ändras om det behövs.
+   * **[!UICONTROL Segments]**: Filtrera data beroende på mottagarens åldersintervall. **[!UICONTROL Segments]** kan dras och släppas direkt i en frihandstabell eller i panelens övre fält. Som standard är **[!UICONTROL Exclude proof]**-segmentet redan markerat men kan ändras vid behov.
 
-      Den här kategorin är bara tillgänglig när administratören har godkänt villkoren i det dynamiska användningsavtalet för rapportering som visas på skärmen. Om administratören avböjer avtalet visas inte segmenten på **[!UICONTROL Components]** fliken och data samlas inte in.
+      Den här kategorin är bara tillgänglig när administratören har godkänt villkoren i det dynamiska användningsavtalet för rapportering som visas på skärmen. Om administratören avböjer avtalet visas inte segmenten på fliken **[!UICONTROL Components]** och data samlas inte in.
 
    * **Tid**: Ange en tidsperiod för tabellen.
 
