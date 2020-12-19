@@ -9,7 +9,7 @@ topic-tags: campaign-standard-apis
 translation-type: tm+mt
 source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >Detta innebär att nya Campaign Standarder, liksom befintliga instanser utan geografiska enheter, inte kan implementeras från och med version 18.7.
 >
->Mer information finns på sidan <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">Föråldrade funktioner</a>.
+>Mer information finns på sidan <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=sv#release-notes">Föråldrade funktioner</a>.
 
 Med slutpunkten **geoUnitBase** kan du interagera med geografiska enheter, vilket t.ex. gör att du kan uppdatera deras attribut eller uppdatera en profils enhet.
 
