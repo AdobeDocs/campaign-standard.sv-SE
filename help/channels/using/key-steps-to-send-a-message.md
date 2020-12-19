@@ -9,15 +9,15 @@ topic-tags: about-communication-channels
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Huvudstegen för att skicka ett meddelande{#key-steps-to-send-a-message}
 
-To learn the delivery best practices, consult the [Delivery best practices](../../sending/using/delivery-best-practices.md) section.
+Om du vill veta mer om god leveranspraxis kan du läsa avsnittet [Bästa leveranssätt](../../sending/using/delivery-best-practices.md).
 
 Så här skapar och skickar du meddelanden:
 
