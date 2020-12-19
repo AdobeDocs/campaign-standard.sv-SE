@@ -18,17 +18,17 @@ ht-degree: 0%
 
 # Implementera lokal spårning {#local-tracking}
 
-## Om lokal spårning {#about-local-tracking}
+## Lokal spårning {#about-local-tracking}
 
 På den här sidan kan du se till att lokal meddelandespårning har implementerats korrekt. Observera att detta innebär att lokala meddelanden redan har konfigurerats.
 
 Lokal meddelandespårning kan delas upp i tre typer:
 
-* **Lokala visningar** - När ett lokalt meddelande har levererats till enheten och sitter på meddelandecentret, men inte har berörts alls. I de flesta fall bör imponeringsnumret vara likartat eller inte detsamma som det levererade talet. Det ser till att enheten fick meddelandet och vidarebefordrade informationen till servern.
+* **Lokala avtryck**  - När ett lokalt meddelande har levererats till enheten och sitter på meddelandecentret, men inte har berörts alls. I de flesta fall bör imponeringsnumret vara likartat eller inte detsamma som det levererade talet. Det ser till att enheten fick meddelandet och vidarebefordrade informationen till servern.
 
-* **Lokal klickning** - När ett lokalt meddelande har levererats till enheten och användaren har klickat på enheten. Användaren ville antingen visa meddelandet (som i sin tur ska gå till lokal öppen spårning) eller stänga meddelandet.
+* **Lokalt klick** - När ett lokalt meddelande har levererats till enheten och användaren har klickat på enheten. Användaren ville antingen visa meddelandet (som i sin tur ska gå till lokal öppen spårning) eller stänga meddelandet.
 
-* **Lokal öppning** - När ett lokalt meddelande har levererats till enheten och användaren har klickat på meddelandet som gjorde att programmet öppnades. Detta liknar det lokala klickläget, förutom att ett lokalt öppningsfönster inte aktiveras om meddelandet stängs.
+* **Lokal öppning**  - När ett lokalt meddelande har levererats till enheten och användaren har klickat på meddelandet som gjorde att programmet öppnades. Detta liknar det lokala klickläget, förutom att ett lokalt öppningsfönster inte aktiveras om meddelandet stängs.
 
 För att implementera spårning för Adobe Campaign Standard måste mobilprogrammet inkludera Mobile SDK i programmet. Dessa SDK:er är tillgängliga i [!DNL Adobe Mobile Services].
 
@@ -40,7 +40,7 @@ Om du vill skicka spårningsinformation finns det tre variabler som måste skick
 | broadlogId | &quot;broadlogId&quot; från inkommande data (liknar push tracking där &quot;_mld&quot; används) |
 | åtgärd | &quot;1&quot; för Open, &quot;2&quot; för Click och &quot;7&quot; för Impression |
 
-## Använda lokal visningsspårning {#implement-local-impression-tracking}
+## Implementera lokal visningsspårning {#implement-local-impression-tracking}
 
 För att kunna spåra ett intryck måste du skicka värdet&quot;7&quot; för åtgärd när du anropar funktionerna collectMessageInfo() eller trackAction().
 
@@ -148,7 +148,7 @@ Du måste skicka &quot;1&quot; och &quot;2&quot; eftersom användaren måste kli
 
 Vi måste skapa en avsikt för att kunna spåra öppning. Återgivningsobjekt gör att Android OS kan anropa din metod när vissa åtgärder är klara. I det här fallet klickar du på meddelandet för att öppna programmet.
 
-Den här koden baseras på implementeringen av klickningsvisningsspårning. Med avsikt inställd måste du nu skicka spårningsinformation tillbaka till Adobe Campaign. I det här fallet kommer Android-vyn([!DNL Activity]) som utlöste meddelandet att öppnas eller visas i förgrunden efter att användaren klickat. Inent-objektet i [!DNL Activity] innehåller meddelandedata som kan användas för att spåra öppning.
+Den här koden baseras på implementeringen av klickningsvisningsspårning. Med avsikt inställd måste du nu skicka spårningsinformation tillbaka till Adobe Campaign. I det här fallet kommer Android-vyn ([!DNL Activity]) som utlöste meddelandet att öppnas eller visas i förgrunden som ett resultat av klickningen av användaren. Inent-objektet i [!DNL Activity] innehåller meddelandedata som kan användas för att spåra öppning.
 
 MainActivity.java (extends [!DNL Activity])
 
