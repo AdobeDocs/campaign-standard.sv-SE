@@ -106,8 +106,7 @@ JavaScript-uttryck består av ett eller flera villkor och de använder följande
    * **&lt;value2>** är ett fält, en funktion eller ett värde som matas in manuellt.
 
    >[!NOTE]
-   >
-   >Typdata för **&lt;context>** och **&lt;value2>** måste vara identiska. Om till exempel **&lt;context>** är ett datum måste även **&lt;value2>** vara ett datum.
+   Typdata för **&lt;context>** och **&lt;value2>** måste vara identiska. Om till exempel **&lt;context>** är ett datum måste även **&lt;value2>** vara ett datum.
 
 * Om du vill använda flera villkor kan de kombineras med logiska operatörer.
 
@@ -156,7 +155,7 @@ Villkoren måste kopplas till värden med någon av följande operatörer.
   <tr> 
    <td> <span class="uicontrol">Less than</span> <br /> </td> 
    <td> &lt;<br /> </td> 
-   <td> &lt;<br /> </td> 
+   <td> &lt;&gt;<br /> </td> 
    <td> Det första värdet måste vara mindre än det andra värdet.<br /> </td> 
    <td> <strong>@created &lt; DaysAgo(100)</strong> hämtar alla profiler som skapats i databasen för mindre än 100 dagar sedan.<br /> </td> 
   </tr> 
@@ -170,7 +169,7 @@ Villkoren måste kopplas till värden med någon av följande operatörer.
   <tr> 
    <td> <span class="uicontrol">Less than or equal to</span> <br /> </td> 
    <td> &lt;=<br /> </td> 
-   <td> &lt;=<br /> </td> 
+   <td> &lt;&gt;<br /> </td> 
    <td> Det första värdet måste vara mindre än eller lika med det andra värdet.<br /> </td> 
    <td> <strong>@age &lt;= 60</strong> hämtar profiler som är 60 år eller yngre.<br /> </td> 
   </tr> 
@@ -191,21 +190,21 @@ Villkoren måste kopplas till värden med någon av följande operatörer.
   <tr> 
    <td> <span class="uicontrol">Like</span> <br /> </td> 
    <td> LIKE<br /> </td> 
-   <td> N/A<br /> </td> 
+   <td> Ej tillämpligt<br /> </td> 
    <td> <span class="uicontrol">Like</span> är mycket lik operatören <span class="uicontrol">Contains</span>. Du kan infoga ett <span class="uicontrol">%</span>-jokertecken i värdet som eftersöks.<br /> </td> 
    <td> <strong>@lastName LIKE Mart%n</strong>. Här fungerar ersättningstecknet <strong>%</strong> som ett "jokertecken" för att hitta namnet "Martin" i det hypotetiska fallet att stavningen inte är korrekt.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Not like</span> <br /> </td> 
    <td> NOT<br /> </td> 
-   <td> N/A<br /> </td> 
+   <td> Ej tillämpligt<br /> </td> 
    <td> Liknar <span class="uicontrol">Like</span>. Du kan inte återställa det angivna värdet. Även här måste det angivna värdet innehålla jokertecknet <span class="uicontrol">%</span>.<br /> </td> 
    <td> <strong>@lastName NOT Smi%h</strong>. Här motsvarar mottagarna namnet "Smi%h" (så Smith, o.s.v.) returneras inte som ett resultat.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Is empty</span> <br /> </td> 
    <td> IS NULL<br /> </td> 
-   <td> N/A<br /> </td> 
+   <td> Ej tillämpligt<br /> </td> 
    <td> Det första värdet måste motsvara ett tomt värde.<br /> </td> 
    <td> <strong>@mobilePhone IS NULL</strong> hämtar alla profiler vars mobiltelefonnummer inte har angetts.<br /> </td> 
   </tr> 
