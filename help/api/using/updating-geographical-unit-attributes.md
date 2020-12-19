@@ -9,15 +9,15 @@ topic-tags: campaign-standard-apis
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 11%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Uppdatera attribut för en geografisk enhet {#managing-geographical-units}
 
-1. Utför en GET-begäran på **geoUnitBase** -resursen för att hämta den geografiska enheten PKey.
+1. Utför en GET-begäran på **geoUnitBase**-resursen för att hämta den geografiska enhets-PKey.
 1. Utför en begäran från PATCH på den geografiska enheten med de attribut som ska uppdateras i nyttolasten.
 
 <br/>
