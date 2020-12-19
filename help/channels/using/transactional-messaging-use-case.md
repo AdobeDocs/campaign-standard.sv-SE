@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Användningsexempel för transaktionsmeddelanden
+title: Användningsfall med transaktionsmeddelanden
 description: Upptäck ett komplett exempel på Adobe Campaign transaktionsmeddelandefunktion.
 audience: channels
 content-type: reference
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 
-# Användningsexempel för transaktionsmeddelanden {#transactional-messaging-use-case}
+# Användningsfall med transaktionsmeddelanden {#transactional-messaging-use-case}
 
 I det här exemplet vill du använda funktionen för transaktionsmeddelanden från Adobe Campaign för att skicka ett bekräftelsemeddelande via e-post efter varje köp på webbplatsen och identifiera dina kunder via deras CRM-ID.
 
