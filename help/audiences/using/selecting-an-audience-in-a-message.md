@@ -10,8 +10,8 @@ context-tags: deliveryCreation,wizard;delivery,audience,back
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 83%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -51,7 +51,7 @@ Målgrupper kan definieras när meddelandet skapas via meddelandeskaparhjälpare
 
    Mer information om hur du konfigurerar testprofiler finns i avsnittet [Testprofiler](../../audiences/using/managing-test-profiles.md).
 
-1. Om det behövs kan du definiera en kontrollgrupp med hjälp av motsvarande flik. På så sätt kan du dra tillbaka vissa profiler från målet så att de inte får meddelandet. For more on this, see [Adding a control group](../../sending/using/control-group.md).
+1. Om det behövs kan du definiera en kontrollgrupp med hjälp av motsvarande flik. På så sätt kan du dra tillbaka vissa profiler från målet så att de inte får meddelandet. Mer information finns i [Lägga till en kontrollgrupp](../../sending/using/control-group.md).
 
 1. Du kan också använda ersättningsadresser för att få en exakt representation av meddelandet som profilen kommer att ta emot.  Mer information finns i [Testa e-postmeddelanden med målprofiler](../../sending/using/testing-messages-using-target.md).
 
