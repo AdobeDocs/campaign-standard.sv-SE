@@ -9,8 +9,8 @@ topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,10 +21,10 @@ ht-degree: 5%
 >
 >Beroende på vilka data som utväxlas kan det finnas juridiska begränsningar för att importera målgrupper i Adobe Campaign.
 
-Med Adobe Campaign kan ni utbyta och dela målgrupper/segment med olika Adobe Experience Cloud-program. Genom att integrera **Adobe Campaign** med **People core service** (kallas även **Profiles &amp; Audiences core service**) eller Adobe Audience Manager kan du:
+Med Adobe Campaign kan ni utbyta och dela målgrupper/segment med olika Adobe Experience Cloud-program. Genom att integrera **Adobe Campaign** med **People core service** (även kallat **Profiles &amp; Audiences core service**) eller Adobe Audience Manager kan du:
 
-* Importera målgrupper/segment från olika Adobe Experience Cloud-lösningar till Adobe Campaign. Du kan importera publiker från **[!UICONTROL Audiences]** menyn i Adobe Campaign.
-* Exportera målgrupper som delade målgrupper/segment. Dessa målgrupper kan användas i de olika Adobe Experience Cloud-lösningar ni använder. Målgrupper kan exporteras efter målaktiviteter i ett arbetsflöde med hjälp av **[!UICONTROL Save audience]** aktiviteten.
+* Importera målgrupper/segment från olika Adobe Experience Cloud-lösningar till Adobe Campaign. Publiker kan importeras från menyn **[!UICONTROL Audiences]** i Adobe Campaign.
+* Exportera målgrupper som delade målgrupper/segment. Dessa målgrupper kan användas i de olika Adobe Experience Cloud-lösningar ni använder. Publiker kan exporteras efter målaktiviteter i ett arbetsflöde med aktiviteten **[!UICONTROL Save audience]**.
 
 Integrationen stöder två typer av Adobe Experience Cloud ID:
 
