@@ -9,22 +9,22 @@ topic-tags: workflow-general-operation
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Declaring the parameters in the External signal activity {#declaring-the-parameters-in-the-external-signal-activity}
+# Deklarera parametrarna i den externa signalaktiviteten {#declaring-the-parameters-in-the-external-signal-activity}
 
-Det första steget för att anropa ett arbetsflöde med parametrar är att deklarera dem i en **[!UICONTROL External signal]** aktivitet.
+Det första steget för att anropa ett arbetsflöde med parametrar är att deklarera dem i en **[!UICONTROL External signal]**-aktivitet.
 
-1. Open the **[!UICONTROL External signal]** activity, then select the **[!UICONTROL Parameters]** tab.
-1. Klicka på **[!UICONTROL Create element]** knappen och ange sedan namn och typ för varje parameter.
+1. Öppna aktiviteten **[!UICONTROL External signal]** och välj sedan fliken **[!UICONTROL Parameters]**.
+1. Klicka på knappen **[!UICONTROL Create element]** och ange namn och typ för varje parameter.
 
    >[!CAUTION]
    >
-   >Kontrollera att parameterns namn och antal är identiska med vad som är angivet när arbetsflödet anropas (se [den här sidan](../../automating/using/defining-parameters-calling-workflow.md)). Parametrarnas typer måste dessutom vara konsekventa med de förväntade värdena.
+   >Kontrollera att parameterns namn och antal är identiska med vad som är definierat när du anropar arbetsflödet (se [den här sidan](../../automating/using/defining-parameters-calling-workflow.md)). Parametrarnas typer måste dessutom vara konsekventa med de förväntade värdena.
 
    ![](assets/extsignal_declaringparameters_1.png)
 
