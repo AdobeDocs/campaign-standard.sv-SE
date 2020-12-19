@@ -9,8 +9,8 @@ topic-tags: campaign-standard-apis
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 ## Hämtar filtermetadata
 
-Det finns filter för varje resurs. Om du vill identifiera de filter som är associerade med en resurs måste du utföra en GET-förfrågan på resursmetadata. Denna begäran returnerar URL:en där alla filter har definierats för en given resurs. For more on metadata, refer to [this section](../../api/using/metadata-mechanism.md).
+Det finns filter för varje resurs. Om du vill identifiera de filter som är associerade med en resurs måste du utföra en GET-förfrågan på resursmetadata. Denna begäran returnerar URL:en där alla filter har definierats för en given resurs. Mer information om metadata finns i [det här avsnittet](../../api/using/metadata-mechanism.md).
 
 Om du vill identifiera metadata för ett filter och bestämma hur det ska användas, måste du utföra en GET-begäran på den URL som returnerades tidigare.
 
@@ -67,9 +67,9 @@ Utför en GET-begäran på URL:en. Den returnerar listan med filter för profilr
 Samma metadatastruktur är tillgänglig för varje filter:
 
 * Fälten **@formType** och **@webPage** är tekniska fält.
-* I **datafältet** visas ett exempel på hur du använder filtret.
+* Fältet **data** innehåller ett exempel på hur filtret ska användas.
 * Noden **metadata** beskriver filterparametrarna.
-* Noden **condition** beskriver vad filtret är tänkt att göra. Filterparametrarna som beskrivs i metadatanoden används för att skapa filtervillkor. Om **enabledIf** är true används **expr** för varje filtervillkor.
+* Noden **condition** beskriver vad filtret är avsett att göra. Filterparametrarna som beskrivs i metadatanoden används för att skapa filtervillkor. Om **enabledIf** är true används **uttrycket** för varje filtervillkor.
 
 <br/>
 
@@ -133,7 +133,8 @@ Det går att kombinera flera filter i en enda begäran:
    }
    ```
 
-* Sample GET request to retrieve the &quot;profile&quot; resources containing &quot;Do&quot; in the email or last name fields (the byText filter searchs into both the email and last name fields).
+* Exempel på GET-förfrågan om att hämta profilresurser som innehåller &quot;Do&quot; i
+e-post- eller efternamnsfälten (filtret byText söker i både e-post- och efternamnsfälten).
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
