@@ -10,8 +10,8 @@ context-tags: delivery,workflow,main
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 69%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,14 +24,14 @@ Det här exemplet är ett födelsedagsarbetsflöde. Varje dag skickas ett e-post
 
 Så här skapar du arbetsflödet:
 
-* The [Scheduler](../../automating/using/scheduler.md) allows you to start the workflow every day at 8am.
+* Med [Schemaläggaren](../../automating/using/scheduler.md) kan du starta arbetsflödet varje dag kl. 8.00.
 
    ![](assets/wkf_delivery_example_2.png)
 
-* The [Query](../../automating/using/query.md) activity allows you to calculate the profiles who have provided an email and whose birthday it is on the current day, every time the workflow is executed. Födelsedagsberäkningen utförs med ett fördefinierat filter som finns på paletten i frågeredigeringsverktyget.
+* Med aktiviteten [Fråga](../../automating/using/query.md) kan du beräkna de profiler som har skickat ett e-postmeddelande och vars födelsedag är den aktuella dagen, varje gång arbetsflödet körs. Födelsedagsberäkningen utförs med ett fördefinierat filter som finns på paletten i frågeredigeringsverktyget.
 
    ![](assets/wkf_delivery_example_3.png)
 
-* E- [postleveransen](../../automating/using/email-delivery.md) är återkommande. Sändningarna sammanställs per månad. Alla e-postmeddelanden som skickas under en månad sammanställs alltså i en enda vy. På ett år utförs 365 leveranser, men de grupperas sedan in i 12 vyer (kallas även **återkommande körningar**) i Adobe Campaign-gränssnittet. Historik och rapportinformation visas varje månad och inte för varje sändning.
+* [E-postleveransen](../../automating/using/email-delivery.md) är återkommande. Sändningarna sammanställs per månad. Alla e-postmeddelanden som skickas under en månad sammanställs alltså i en enda vy. På ett år utförs 365 leveranser, men de grupperas sedan in i 12 vyer (kallas även **återkommande körningar**) i Adobe Campaign-gränssnittet. Historik och rapportinformation visas varje månad och inte för varje sändning.
 
    ![](assets/wkf_delivery_example_4.png)
