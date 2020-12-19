@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Felsökning {#troubleshooting}
 
-* **När du går till Adobe.io-konsolen visas följande fel: &quot;I/O-konsolen i Adobe är bara tillgänglig för att välja medlemmar i företagskonton. Kontakta systemadministratören om du anser att du bör ha åtkomst.&quot;**
+* **När du går till Adobe.io-konsolen visas följande fel: &quot;Adobe I/O Console är bara tillgänglig för att välja medlemmar i företagskonton. Kontakta systemadministratören om du anser att du bör ha åtkomst.&quot;**
 
 Du kan bara skapa API-nycklar för de IMS-organisationer som du administrerar. Om det här meddelandet visas och du vill skapa API-nycklar och du vill fråga en administratör för IMS-organisationen.
 
