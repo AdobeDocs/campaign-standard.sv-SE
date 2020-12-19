@@ -102,7 +102,7 @@ Visa de senaste [dokumentationsuppdateringarna](../../rn/using/documentation-upd
  <tbody> 
   <tr> 
    <td> Flagga med hög prioritet för Android-push-meddelanden<br /> </td> 
-   <td> Flagga med hög prioritet för Android - Aktivera leverans av ett push-meddelande med hög prioritet för Android-program, vilket får enheten att väcka och köra begränsad bearbetning. Observera att standardprioriteten är Normal, vilket kan fördröja meddelandeleveransen för att spara batteri. <br /> Mer information finns i den <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Flagga med hög prioritet för Android - Aktivera leverans av ett push-meddelande med hög prioritet för Android-program, vilket gör att vilolägesenheten vaknar och kör begränsad bearbetning. Observera att standardprioriteten är Normal, vilket kan fördröja meddelandeleveransen för att spara batteri. <br /> Mer information finns i den <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Typologifilter för mobilappsprenumeranter<br /> </td> 
@@ -118,7 +118,7 @@ Visa de senaste [dokumentationsuppdateringarna](../../rn/using/documentation-upd
   </tr> 
   <tr> 
    <td> Användarhantering<br /> </td> 
-   <td> Funktionen för geografiska enheter är nu inte tillgänglig för nya Campaign Standarder, liksom för befintliga instanser utan geografiska enheter, från och med version 18.7.<br /><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html"> För mer information om detta hittar du i det här avsnittet</a>.<br /> </td> 
+   <td> Funktionen för geografiska enheter är nu inte tillgänglig för nya Campaign Standarder, liksom för befintliga instanser utan geografiska enheter, från och med version 18.7.<br /><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=sv#release-notes"> För mer information om detta hittar du i det här avsnittet</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -203,7 +203,7 @@ Visa de senaste [dokumentationsuppdateringarna](../../rn/using/documentation-upd
  <tbody> 
   <tr> 
    <td> GDPR: Integrering av bastjänst<br /> </td> 
-   <td> Integritet Core Service Integration gör att ni kan automatisera era GDPR-förfrågningar i ett flerlösningssammanhang via ett enda JSON API-anrop. <br /> GDPR-begäranden som skickas från sekretesskärntjänsten till alla Experience Cloud-lösningar hanteras nu automatiskt av Campaign. <br /> Mer information finns i den <a href="https://helpx.adobe.com/se/campaign/kb/campaign-privacy.html">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Integritet Core Service Integration gör att ni kan automatisera era GDPR-förfrågningar i ett flerlösningssammanhang via ett enda JSON API-anrop. <br /> GDPR-begäranden som skickas från sekretesskärntjänsten till alla Experience Cloud-lösningar hanteras nu automatiskt av Campaign. <br /> Mer information finns i den <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Förbättrade push-funktioner - detaljerad leveransfeedback<br /> </td> 
