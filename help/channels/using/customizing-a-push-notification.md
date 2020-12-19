@@ -10,8 +10,8 @@ context-tags: delivery,mobileAppContent,back
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '1494'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -111,7 +111,7 @@ Om du anger ett förfallodatum för ditt push-meddelande kan du ange ett specifi
 
 Så här lägger du till ett förfallodatum i ditt push-meddelande:
 
-1. Check the **[!UICONTROL Expire message]** option: by selecting the **[!UICONTROL Expire message]** option, the duration is automatically set to 0. Om du inte ändrar värdet försöker både APNS och FCM skicka meddelandet direkt. Om det misslyckas skickas inte meddelandet igen.
+1. Markera alternativet **[!UICONTROL Expire message]**: genom att välja alternativet **[!UICONTROL Expire message]** anges längden automatiskt till 0. Om du inte ändrar värdet försöker både APNS och FCM skicka meddelandet direkt. Om det misslyckas skickas inte meddelandet igen.
 
 1. Välj giltigheten för push-meddelandet i **[!UICONTROL Duration]**-fältet.
 
