@@ -10,8 +10,8 @@ delivercontext-tags: delivery,smsContent,back
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,12 +22,12 @@ ht-degree: 7%
 
 När en profil svarar på ett SMS som skickades via Kampanjer kan du konfigurera meddelanden som automatiskt skickas tillbaka till profilen samt vilken åtgärd som ska utföras.
 
-Den här konfigurationen definieras i avsnittet **[!UICONTROL Automatic reply sent to the MO]** i det externa kontot för [SMS-routning](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing). MO står för&quot;Mobile Originated&quot;, vilket betyder att du kan konfigurera ett automatiskt svar till den mobil som skickade SMS:et.
+Den här konfigurationen definieras i avsnittet **[!UICONTROL Automatic reply sent to the MO]** i det externa kontot [SMS-routning](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing). MO står för&quot;Mobile Originated&quot;, vilket betyder att du kan konfigurera ett automatiskt svar till den mobil som skickade SMS:et.
 
 För att göra detta:
 
-1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration > Application settings > External accounts]** then the **[!UICONTROL SMS routing via SMPP]** external account.
-1. Klicka under **[!UICONTROL Automatic reply sent to the MO]** kategorin för **[!UICONTROL Create element]** att börja konfigurera ditt automatiska svar.
+1. På den avancerade menyn, via Adobe Campaign logotyp, väljer du **[!UICONTROL Administration > Application settings > External accounts]** och sedan det externa kontot **[!UICONTROL SMS routing via SMPP]**.
+1. Klicka på **[!UICONTROL Create element]** under kategorin **[!UICONTROL Automatic reply sent to the MO]** för att börja konfigurera ditt automatiska svar.
 
    ![](assets/sms_mo_1.png)
 
@@ -37,7 +37,7 @@ För att göra detta:
 
    ![](assets/sms_mo_2.png)
 
-1. I **[!UICONTROL Short code]** fältet anger du ett tal som vanligtvis används för att skicka leveranser och som ska fungera som avsändarnamn. Du kan också bestämma dig för att lämna **[!UICONTROL Short code]** kolumnen tom, så att samma svar skickas oavsett vilken kort kod det gäller.
+1. I fältet **[!UICONTROL Short code]** anger du ett tal som vanligtvis används för att skicka leveranser och som fungerar som avsändarnamn. Du kan också bestämma dig för att lämna kolumnen **[!UICONTROL Short code]** tom så att samma svar skickas oavsett vilken kort kod det gäller.
 
    ![](assets/sms_mo_4.png)
 
@@ -47,55 +47,55 @@ För att göra detta:
 
    ![](assets/sms_mo_3.png)
 
-1. I **[!UICONTROL Additional action]** fältet länkar du en åtgärd till ditt automatiska svar:
+1. I fältet **[!UICONTROL Additional action]** länkar du en åtgärd till ditt automatiska svar:
 
-   * Åtgärden sätter automatiskt i karantän för profilens telefonnummer. **[!UICONTROL Send to quarantine]**
+   * Åtgärden **[!UICONTROL Send to quarantine]** karantänerar automatiskt profilens telefonnummer.
    * Åtgärden **[!UICONTROL Remove from quarantine]** tar bort profilens telefonnummer från karantänen.
-   * Med **[!UICONTROL None]** åtgärden kan du bara skicka meddelandet till mottagarna utan att utföra någon åtgärd.
+   * Med åtgärden **[!UICONTROL None]** kan du bara skicka meddelandet till mottagarna utan att utföra någon åtgärd.
 
-   Om mottagarna i konfigurationen nedan skickar nyckelordet &quot;STOP&quot; får de automatiskt en bekräftelse om att prenumerationen har avbrutits och deras telefonnummer skickas till karantän med **[!UICONTROL On denylist]** statusen. Denna status avser endast telefonnumret, profilen är så att användaren fortsätter att ta emot e-postmeddelanden.
+   Om mottagarna i konfigurationen nedan skickar nyckelordet &quot;STOP&quot; får de automatiskt en bekräftelse om att prenumerationen har avbrutits och deras telefonnummer skickas till karantän med statusen **[!UICONTROL On denylist]**. Denna status avser endast telefonnumret, profilen är så att användaren fortsätter att ta emot e-postmeddelanden.
 
    ![](assets/sms_mo.png)
 
-Mottagarna kan nu automatiskt avbeställa prenumerationen på dina meddelanden och skickas till karantän med detta automatiska svar. Mottagarna i karantän visas i den **[!UICONTROL Addresses]** tabell som är tillgänglig via **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Quarantines]** . For more information on quarantines, refer to this [section](../../sending/using/understanding-quarantine-management.md).
+Mottagarna kan nu automatiskt avbeställa prenumerationen på dina meddelanden och skickas till karantän med detta automatiska svar. Mottagarna i karantän listas i tabellen **[!UICONTROL Addresses]** som är tillgänglig via menyn **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Quarantines]**. Mer information om karantäner finns i [avsnittet](../../sending/using/understanding-quarantine-management.md).
 
-Dessa inkommande SMS kan lagras vid behov. For more information on this, refer to this [section](#storing-incoming-sms).
+Dessa inkommande SMS kan lagras vid behov. Mer information finns i [avsnittet](#storing-incoming-sms).
 
-## Lagra inkommande SMS {#storing-incoming-sms}
+## Lagrar inkommande SMS {#storing-incoming-sms}
 
-I det **[!UICONTROL SMS routing via SMPP]** externa kontot kan du välja att lagra inkommande meddelanden, till exempel när en prenumerant svarar&quot;STOP&quot; på ett SMS-meddelande för att kunna tas bort från mottagarlistorna.
+I det externa **[!UICONTROL SMS routing via SMPP]**-kontot kan du välja att lagra inkommande meddelanden, till exempel när en prenumerant svarar&quot;STOP&quot; på ett SMS-meddelande för att kunna tas bort från mottagarlistorna.
 
 ![](assets/sms_config_mo_1.png)
 
-Genom att checka **[!UICONTROL Store incoming MO in the database]** in **[!UICONTROL SMPP channel settings]** kategorin lagras all SMS i InSMS-tabellen och kan hämtas via en frågeaktivitet i ett arbetsflöde.
+Genom att markera **[!UICONTROL Store incoming MO in the database]** i kategorin **[!UICONTROL SMPP channel settings]** lagras all SMS i tabellen inSMS och kan hämtas via en frågeaktivitet i ett arbetsflöde.
 
 För att göra detta:
 
-1. In the **[!UICONTROL SMPP channel settings]** field, check **[!UICONTROL Store incoming MO in the database]**.
+1. Markera **[!UICONTROL Store incoming MO in the database]** i fältet **[!UICONTROL SMPP channel settings]**.
 
    ![](assets/sms_config_mo_2.png)
 
-1. In the **[!UICONTROL Marketing activities]** tab, click **[!UICONTROL Create]** then select **[!UICONTROL Workflow]**.
+1. Klicka på **[!UICONTROL Create]** på fliken **[!UICONTROL Marketing activities]** och välj sedan **[!UICONTROL Workflow]**.
 
    ![](assets/sms_config_mo_3.png)
 
 1. Välj arbetsflödestyp.
-1. Redigera egenskaperna för arbetsflödet och klicka sedan på **[!UICONTROL Create]**. For more on workflows creation, refer to this [section](../../automating/using/building-a-workflow.md).
-1. Drag and drop a **[!UICONTROL Query]** activity and double-click the activity.
-1. Välj **[!UICONTROL Properties]** i **[!UICONTROL Incoming SMS (inSMS)]** **[!UICONTROL Resource]** fältet på fliken för frågan.
+1. Redigera egenskaperna för arbetsflödet och klicka sedan på **[!UICONTROL Create]**. Mer information om hur du skapar arbetsflöden finns i det här [avsnittet](../../automating/using/building-a-workflow.md).
+1. Dra och släpp en **[!UICONTROL Query]**-aktivitet och dubbelklicka på aktiviteten.
+1. Välj **[!UICONTROL Incoming SMS (inSMS)]** i fältet **[!UICONTROL Resource]** på fliken **[!UICONTROL Properties]** i frågan.
 
    ![](assets/sms_config_mo_4.png)
 
-1. Dra och släpp sedan **[!UICONTROL Target]** regeln på **[!UICONTROL Incoming SMS attributes]** fliken.
+1. Dra och släpp sedan regeln **[!UICONTROL Incoming SMS attributes]** på fliken **[!UICONTROL Target]**.
 
    ![](assets/sms_config_mo_5.png)
 
-1. Här vill vi rikta in alla inkommande meddelanden från dagen innan. In the **[!UICONTROL Field]** category, select **[!UICONTROL Creation date (created)]**.
-1. I **[!UICONTROL Filter type]** markerar du **[!UICONTROL Relative]** sedan i **[!UICONTROL Level of precision]** och väljer **[!UICONTROL Day]**.
+1. Här vill vi rikta in alla inkommande meddelanden från dagen innan. Välj **[!UICONTROL Creation date (created)]** i kategorin **[!UICONTROL Field]**.
+1. I **[!UICONTROL Filter type]** väljer du **[!UICONTROL Relative]** och i **[!UICONTROL Level of precision]** väljer du **[!UICONTROL Day]**.
 
    ![](assets/sms_config_mo_6.png)
 
-1. Du kan sedan välja att hämta data från idag, dagen före eller de sista dagarna. Klicka **[!UICONTROL Confirm]** när frågan har konfigurerats.
+1. Du kan sedan välja att hämta data från idag, dagen före eller de sista dagarna. Klicka på **[!UICONTROL Confirm]** när frågan är konfigurerad.
 
 Den här frågan hämtar alla STOP-meddelanden som tas emot beroende på valt tidsintervall.
 
