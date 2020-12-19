@@ -17,7 +17,7 @@ ht-degree: 8%
 
 # Versionsinformation 2019{#release-notes-2019}
 
-[Viktig planering](https://helpx.adobe.com/se/campaign/kb/acs-release-planning.html)  |  [Kontrollpanelsversioner](https://docs.adobe.com/content/help/sv-SE/control-panel/using/release-notes.html)  |  [Dokumentationsuppdateringar](../../rn/using/documentation-updates.md)  |  [Senaste versionsinformation](../../rn/using/release-notes.md) |  [Föråldrade funktioner](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html)
+[Viktig planering](https://helpx.adobe.com/se/campaign/kb/acs-release-planning.html)  |  [Kontrollpanelsversioner](https://docs.adobe.com/content/help/sv-SE/control-panel/using/release-notes.html)  |  [Dokumentationsuppdateringar](../../rn/using/documentation-updates.md)  |  [Senaste versionsinformation](../../rn/using/release-notes.md) |  [Föråldrade funktioner](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=sv#release-notes)
 
 ## Version 19.4 - december 2019 {#release-19-4---october-2019}
 
