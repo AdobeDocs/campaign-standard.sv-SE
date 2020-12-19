@@ -10,8 +10,8 @@ context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 translation-type: tm+mt
 source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
