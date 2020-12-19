@@ -9,8 +9,8 @@ topic-tags: working-with-typology-rules
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -42,7 +42,7 @@ En uppsättning standardregler säkerställer standardkontrollerna. Tabellen ned
 | **[!UICONTROL Check URL labels]** | E-post | I början av personaliseringen | Kontrollerar att varje spårnings-URL har en etikett. |
 | **[!UICONTROL Check URLs]** | E-post | I början av personaliseringen | Kontrollerar spårnings-URL:er (närvaron av tecknet &quot;&amp;&quot;). |
 
-## Körningsfaser för kontrollregler {#control-rules-execution-phases}
+## Kontrollera körningsfaser för regler {#control-rules-execution-phases}
 
 Kontrollregler kan tillämpas i olika faser av leveransens livscykel:
 
@@ -50,7 +50,7 @@ Kontrollregler kan tillämpas i olika faser av leveransens livscykel:
 
 * **Efter mål**: Om du kör efter målanpassning kan du känna till målets volym för att kunna tillämpa kontrollregeln.
 
-   Kontrollregeln **Kontrollera korrekturstorlek** gäller till exempel efter målfasen: den här regeln förhindrar förberedelse av meddelandepersonalisering om det finns för många korrekturmottagare.
+   Kontrollregeln **Kontrollera korrekturstorlek** gäller till exempel efter målläget: den här regeln förhindrar förberedelse av meddelandepersonalisering om det finns för många korrekturmottagare.
 
 * **I början av personaliseringen**: Gäller när kontrollen gäller godkännande av meddelandepersonalisering. Anpassning av meddelanden utförs under analysfasen.
 
