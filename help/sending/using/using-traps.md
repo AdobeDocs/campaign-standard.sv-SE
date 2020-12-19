@@ -10,15 +10,15 @@ context-tags: seedMember,overview
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Använda traps {#using-traps}
 
-När du använder svällningar skickas meddelandet till [testprofilen](../../audiences/using/managing-test-profiles.md) på samma sätt som det skickas till huvudmålet för att identifiera om klientfilen används bedrägligt.
+När du använder svällningar skickas meddelandet till [testprofilen](../../audiences/using/managing-test-profiles.md) precis som det skickas till huvudmålet, för att identifiera om klientfilen används bedrägligt.
 
 Svällningar är ursprungligen avsedda för direktreklam. De gör att du kan:
 
@@ -39,15 +39,15 @@ Om du vill använda en testprofil som en svällning måste den ingå i meddeland
 
 >[!NOTE]
 >
->Till skillnad från testprofiler som används för [korrektur](../../sending/using/sending-proofs.md) eller [e-poståtergivning](../../sending/using/email-rendering.md)skickas meddelandet samtidigt till huvudmålet och till testprofilerna som används som svällning.
+>Till skillnad från testprofiler som används för [korrektur](../../sending/using/sending-proofs.md) eller [e-poståtergivning](../../sending/using/email-rendering.md) skickas meddelandet samtidigt till huvudmålet och till testprofilerna som används som svällningar.
 
 När du definierar målgruppen för ett meddelande:
 
-1. Välj en testprofil på **[!UICONTROL Test profiles]** fliken. Se till att den har **[!UICONTROL Trap]** avsedd användning.
+1. Välj en testprofil på fliken **[!UICONTROL Test profiles]**. Kontrollera att den har **[!UICONTROL Trap]** som avsett användningsområde.
 
    ![](assets/trap_select.png)
 
-1. Klicka på **[!UICONTROL Prepare]** knappen när meddelandeinnehållet är klart. See [Preparing the send](../../sending/using/preparing-the-send.md).
+1. När meddelandeinnehållet är klart klickar du på **[!UICONTROL Prepare]**-knappen. Se [Förbereda sändningen](../../sending/using/preparing-the-send.md).
    >[!NOTE]
    >
    >Se till att du har valt ett huvudmål. Annars går det inte att skicka meddelandet.
@@ -58,8 +58,8 @@ När du definierar målgruppen för ett meddelande:
 
 Meddelandet skickas till huvudmålet och till testprofilen.
 
-Du kan använda svällning när du skickar transaktionsmeddelanden. I det här fallet får testprofilen ett meddelande per händelsekonfiguration. For more on transactional messaging, see this [section](../../channels/using/getting-started-with-transactional-msg.md).
+Du kan använda svällning när du skickar transaktionsmeddelanden. I det här fallet får testprofilen ett meddelande per händelsekonfiguration. Mer information om transaktionsmeddelanden finns i det här [avsnittet](../../channels/using/getting-started-with-transactional-msg.md).
 
 >[!NOTE]
 >
->När du använder en testprofil som en svällning väljs motsvarande ytterligare data slumpmässigt ut från en verklig målprofil och tilldelas till svällningstestprofilen för alla inkapslade fält i ett meddelande. Mer information om berikning finns i [det här exemplet](../../automating/using/enriching-profile-data-file.md).
+>När du använder en testprofil som en svällning väljs motsvarande ytterligare data slumpmässigt ut från en verklig målprofil och tilldelas till svällningstestprofilen för alla inkapslade fält i ett meddelande. Mer information om anrikning finns i [det här exemplet](../../automating/using/enriching-profile-data-file.md).
