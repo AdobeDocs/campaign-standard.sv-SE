@@ -10,19 +10,19 @@ context-tags: deliveryNonDeliverablesBouncesReport,main;campaignNonDeliverablesB
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Ej levererbara filer och studsningar{#non-deliverables-and-bounces}
 
-Rapporten innehåller information om alla fel som **[!UICONTROL Non-deliverables and bounces]** uppstått under en leverans.
+Rapporten **[!UICONTROL Non-deliverables and bounces]** innehåller information om alla fel som uppstått under en leverans.
 
 ![](assets/delivery_reports_7.png)
 
-Tabellen innehåller **[!UICONTROL Overview]** tillgängliga data om eventuella fel som kan uppstå vid varje leverans, till exempel:
+Tabellen **[!UICONTROL Overview]** innehåller tillgängliga data om möjliga fel som kan uppstå för varje leverans, till exempel:
 
 * **Behandlad/skickad**: Antal skickade e-postmeddelanden.
 * **Levererat**: Antalet e-postmeddelanden som levereras.
@@ -30,4 +30,4 @@ Tabellen innehåller **[!UICONTROL Overview]** tillgängliga data om eventuella 
 * **Hård studs**: Det totala antalet permanenta fel, t.ex. fel e-postadress.
 * **studsar + fel**: Antalet meddelanden som inte kunde levereras.
 
-I tabellen **Uppdelning efter domän** visas studenterna per mottagares domäner.
+I tabellen **Uppdelning efter domän** visas gränserna per mottagares domäner.
