@@ -9,7 +9,7 @@ topic-tags: configuring-channels
 translation-type: tm+mt
 source-git-commit: 3a4e8628b916291244d142d9cc4a6a84b799502b
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >Adobe Experience Platform Data Connector är för närvarande en betaversion som kan komma att uppdateras ofta utan föregående meddelande. Kunderna måste vara värdbaserade på Azure (för närvarande endast betaversioner för Nordamerika) för att få tillgång till dessa funktioner. Kontakta Adobe kundtjänst om du vill ha tillgång till tjänsten.
 
-När mappningsdefinitionen är klar kan du publicera mappningen. Efter distributionssteget startas datareplikeringen mellan Campaign Standard och Adobe Experience Platform automatiskt. Du kan när som helst stoppa replikeringen genom att klicka på **[!UICONTROL Stop]** knappen.
+När mappningsdefinitionen är klar kan du publicera mappningen. Efter distributionssteget startas datareplikeringen mellan Campaign Standard och Adobe Experience Platform automatiskt. Du kan när som helst stoppa replikeringen genom att klicka på knappen **[!UICONTROL Stop]**.
 
 Beroende på dina mappningsändringar kan du välja att skicka om alla dina poster till Adobe Experience Platform.
 
@@ -35,7 +35,7 @@ På fliken **[!UICONTROL Export jobs]** kan du övervaka exportjobbet för den p
 
 ![](assets/aep_jobstatus.png)
 
-Om du vill övervaka alla dataexportjobb går du till **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** -menyn.
+Om du vill övervaka alla dataexportjobb går du till **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]**-menyn.
 
 ![](assets/aep_statusmapping.png)
 
