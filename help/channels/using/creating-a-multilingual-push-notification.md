@@ -39,68 +39,68 @@ Innan vi personaliserar ditt flerspråkiga push-meddelande måste vi först öve
 >
 >Du kan också hoppa över det här steget om du vill skapa en variant manuellt för varje språkvariant.
 
-1. Klicka på **[!UICONTROL Marketing activities]** knappen och **[!UICONTROL Create]** markera sedan **[!UICONTROL Push notification]**.
+1. Klicka på knappen **[!UICONTROL Create]** i **[!UICONTROL Marketing activities]** och välj sedan **[!UICONTROL Push notification]**.
 1. Markera mallen **[!UICONTROL Send multilingual push to Campaign profiles]** om du vill ange de Adobe Campaign-profiler som har prenumererat på ditt mobilprogram som mål eller mallen **[!UICONTROL Send multilingual push to app subscriber]** för att skicka ett push-meddelande till alla användare som har valt att ta emot meddelanden från ditt mobilprogram.
 
    ![](assets/multivariant_push_2.png)
 
-1. Enter your push notification properties and select your mobile app in the **[!UICONTROL Associate a Mobile App to a delivery]** field.
+1. Ange dina egenskaper för push-meddelanden och välj din mobilapp i fältet **[!UICONTROL Associate a Mobile App to a delivery]**.
 
    Observera att listrutan kommer att visa både SDK V4- och Adobe Experience Platform SDK-program.
 
-1. I **[!UICONTROL Audiences]** fönstren kan du finjustera målgruppen genom att dra och släppa frågor.
+1. I **[!UICONTROL Audiences]**-fönstren drar och släpper du frågor för att finjustera målgruppen.
 
-   Vilka frågor som läggs till beror på den valda mallen: om du väljer **[!UICONTROL Send multilingual push to Campaign profiles]** mallen kan du fråga kända mottagare av ditt mobilprogram. Om du väljer **[!UICONTROL Send multilingual push to app subscriber]** mall kan du fråga alla prenumeranter på ett visst program som har valt det.
+   Vilka frågor som läggs till beror på den valda mallen: om du väljer mallen **[!UICONTROL Send multilingual push to Campaign profiles]** kan du fråga kända mottagare av ditt mobilprogram. Om du väljer mallen **[!UICONTROL Send multilingual push to app subscriber]** kan du fråga alla prenumeranter på ett visst program som har valt att göra det.
    >[!NOTE]
    >
    >Om ni riktar er till målgrupper med specifika språk måste ni ange alla målspråk i CSV-filen.
 
    ![](assets/push_notif_audience.png)
 
-1. Dra och släpp filen i **[!UICONTROL Manage Content Variants]** fönstret eller välj en fil på datorn.
+1. I fönstret **[!UICONTROL Manage Content Variants]** drar och släpper du filen eller väljer en fil från datorn.
 
-   Filen måste vara UTF8-kodad och ha en viss layout som du kan hitta genom att klicka på **[!UICONTROL Download the sample file]** alternativet. Du bör också använda rätt syntax för nationella värden. Mer information om filformat och vilka språk som stöds finns i den här [tekniken](https://helpx.adobe.com/se/campaign/kb/acs-generate-csv-multilingual-push.html).
+   Filen måste vara UTF8-kodad och ha en viss layout som du kan hitta genom att klicka på alternativet **[!UICONTROL Download the sample file]**. Du bör också använda rätt syntax för nationella värden. Mer information om filformat och vilka språk som stöds finns i [technote](https://helpx.adobe.com/se/campaign/kb/acs-generate-csv-multilingual-push.html).
 
    ![](assets/multivariant_push_4.png)
 
-1. När du har överfört filen fylls språkvarianterna automatiskt i på **[!UICONTROL Variants]** fliken. Observera att du kan ange en **[!UICONTROL Default variant]** i filen som ska vara standardvariant av innehåll om inget önskat språk har angetts för målanvändaren.
+1. När du har överfört filen fylls språkvarianterna automatiskt i på fliken **[!UICONTROL Variants]**. Observera att du kan ange ett **[!UICONTROL Default variant]**-värde i filen som kommer att vara standardvariant för innehåll om inget önskat språk har angetts för målanvändaren.
 
    ![](assets/multivariant_push_5.png)
 
-1. På fliken **[!UICONTROL Variant selection]** finns ett skript som du kan använda för att avgöra vilka språkinställningar som ska användas beroende på leveransmallen. Det här är ett skript som inte finns i kartongen och som inte kräver att du gör några ändringar.
-1. Om du vill lägga till fler varianter som inte finns i den importerade filen kan du göra det genom att klicka på **[!UICONTROL Add an element]** knappen och lägga till så många nya språkvarianter som behövs.
+1. På fliken **[!UICONTROL Variant selection]** finns ett skript som avgör vilka språkinställningar som ska beaktas beroende på leveransmallen. Det här är ett skript som inte finns i kartongen och som inte kräver att du gör några ändringar.
+1. Om du vill lägga till fler varianter som inte finns i den importerade filen kan du göra det genom att klicka på knappen **[!UICONTROL Add an element]** och lägga till så många nya språkvarianter som behövs.
 
    Genom att lägga till andra varianter än de som överförts från filen kommer inget innehåll att länkas till det här språket. Du måste redigera innehållet direkt på kontrollpanelen för leverans.
 
    ![](assets/multivariant_push_6.png)
 
-1. Klicka **[!UICONTROL Create]** när konfigurationen är klar. Du kan alltid gå tillbaka till **[!UICONTROL Content variant]** fönstret och göra några ändringar från kontrollpanelen för leverans.
+1. Klicka på **[!UICONTROL Create]** när konfigurationen är klar. Du kan alltid gå tillbaka till fönstret **[!UICONTROL Content variant]** och göra några ändringar från kontrollpanelen för leverans.
 
    ![](assets/multivariant_push_8.png)
 
 Nu kan du börja personalisera ditt flerspråkiga push-meddelande.
 
-## Steg 2: Förhandsgranska och färdigställa ett push-meddelande med flerspråkiga innehållsvarianter {#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants}
+## Steg 2: Förhandsgranska och slutför ett push-meddelande med flerspråkiga innehållsvarianter {#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants}
 
 När du har överfört filen som innehåller innehållsvarianter kan du nu förhandsgranska de olika varianterna från leveransen av push-meddelanden.
 
 Det går också att skapa och redigera fler varianter utöver de som har överförts från filen.
 
-1. I fönstret från kontrollpanelen för leveranser kan du förhandsgranska ditt push-meddelandeinnehåll beroende på vilket språk du väljer i listrutan. **[!UICONTROL Content]**
+1. I fönstret **[!UICONTROL Content]** från kontrollpanelen för leverans kan du förhandsgranska ditt push-meddelandeinnehåll beroende på det valda språket.
 
    ![](assets/multivariant_push_7.png)
 
 1. Om ingen innehållsvariant har angetts för ett visst språk klickar du på klockikonen under förhandsvisningen för att börja lägga till innehåll i den här språkvarianten.
 
-   Genom att klicka på **[!UICONTROL Content]** fönstret representerar push-meddelandet innehållet från det språk som valts i listrutan. Ändringar som görs i det här fönstret påverkar bara ett språk.
+   Genom att klicka på fönstret **[!UICONTROL Content]** representerar push-meddelandet innehållet från det språk som valts i listrutan. Ändringar som görs i det här fönstret påverkar bara ett språk.
 
 1. Du kan också klicka på en innehållsvariant för att anpassa den ytterligare, till exempel med personaliseringsfält.
 
-   For more information on how to customize your push notification, refer to this [section](../../channels/using/customizing-a-push-notification.md).
+   Mer information om hur du anpassar push-meddelanden finns i det här [avsnittet](../../channels/using/customizing-a-push-notification.md).
 
    ![](assets/multivariant_push_9.png)
 
-1. Klicka i **[!UICONTROL Content variant]** fönstret om du vill lägga till eller ta bort språkvarianter.
+1. Klicka på fönstret **[!UICONTROL Content variant]** om du vill lägga till eller ta bort språkvarianter.
 
    Observera att om du lägger till ett nytt språk måste du manuellt lägga till innehåll i push-meddelandet som är länkat till det tillagda språket.
 
@@ -108,21 +108,21 @@ Det går också att skapa och redigera fler varianter utöver de som har överf�
 
 Din flerspråkiga push-meddelandeleverans är nu klar att skickas.
 
-## Steg 3: Skicka och analysera flerspråkig leverans av push-meddelanden {#step-3--send-and-analyze-multilingual-push-notification-delivery}
+## Steg 3: Skicka och analysera flerspråkig push-meddelandeleverans {#step-3--send-and-analyze-multilingual-push-notification-delivery}
 
 Dina flerspråkiga innehållsvariantmeddelanden kan nu skickas till dina användare.
 
-1. Klicka på **[!UICONTROL Prepare]** knappen för att börja förbereda sändningen.
-1. När färdigställandet är klart utan varningar kan du klicka på **[!UICONTROL Confirm]** knappen för att börja skicka ditt flerspråkiga tryck.
+1. Klicka på knappen **[!UICONTROL Prepare]** för att börja förbereda sändningen.
+1. När färdigställandet är klart utan varningar kan du klicka på knappen **[!UICONTROL Confirm]** för att börja skicka din flerspråkiga push-funktion.
 
    ![](assets/multivariant_push_12.png)
 
-1. När du har skickat push-meddelandet klickar du på **[!UICONTROL Reports]** ikonen och analyserar **[!UICONTROL Dynamic reports]** om leveransen lyckades.
+1. När du har skickat push-meddelandet klickar du på ikonen **[!UICONTROL Reports]** och sedan **[!UICONTROL Dynamic reports]** för att analysera om leveransen lyckades.
 
    ![](assets/multivariant_push_13.png)
 
 1. Välj **[!UICONTROL Push notification report]**.
-1. Dra och släpp **[!UICONTROL Variant]** dimensionen på panelen för att börja filtrera data.
+1. Dra och släpp dimensionen **[!UICONTROL Variant]** på panelen för att börja filtrera data.
 
    ![](assets/multivariant_push_11.png)
 
