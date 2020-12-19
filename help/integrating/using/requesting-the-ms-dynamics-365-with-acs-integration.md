@@ -9,8 +9,8 @@ topic-tags: working-with-campaign-and-ms-dynamics
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,11 +27,11 @@ Information om flödesschema (mappas till steg ovan):
 
 * **Steg 1** - Du förutsätts redan ha, eller håller på att köpa, en licens för Microsoft Dynamics 365 för Försäljning och för Adobe Campaign Standard.
 
-* **Steg 2** - Standardintegrationserbjudandet är kostnadsfritt för alla kunder. Ytterligare kostnader kan dock tillkomma beroende på dina behov (se [Integrationsgarantier och gränser](../../integrating/using/ms-dynamics-365-integration-guardrails.md). En ny försäljningsorder måste signeras för att integreringen ska kunna utnyttjas.
+* **Steg 2** - Standardintegrationserbjudandet är kostnadsfritt för alla kunder. Ytterligare kostnader kan dock tillkomma beroende på dina behov (se  [Integrationsgarantier och gränser](../../integrating/using/ms-dynamics-365-integration-guardrails.md). En ny försäljningsorder måste signeras för att integreringen ska kunna utnyttjas.
 
-* **Steg 3** - Slutför förintegreringsstegen för Dynamics 365 och Campaign. Se [Konfigurera den här integreringen](#configure-this-integration).
+* **Steg 3**  - Slutför förintegreringsstegen för Dynamics 365 och Campaign. Se [Konfigurera den här integreringen](#configure-this-integration).
 
-* **Steg 4-7** - Adobe kommer att samarbeta med dig under introduktionsprocessen.
+* **Steg 4-7**  - Adobe-teamet kommer att samarbeta med dig under introduktionsprocessen.
 
 ## Konfigurera den här integreringen {#configure-this-integration}
 
@@ -43,7 +43,7 @@ Tre system måste etableras och konfigureras för den här integreringen: Adobe 
 >
 >Stegen i artiklarna nedan vägleder dig genom att skapa integreringar/registreringar som inbegriper tilldelning av behörigheter och/eller administratörsåtkomst.  Det är ditt ansvar att se till att dessa steg följer företagets regler innan de utförs och att de utförs med omsorg.
 
-I ADOBE CAMPAIGN måste du konfigurera API-åtkomst och konfigurera en ny integrering för integrationsverktyget. Läs [den här artikeln](../../integrating/using/configure-adobe-io-for-ms-dynamic.md)för att uppnå detta.
+I ADOBE CAMPAIGN måste du konfigurera API-åtkomst och konfigurera en ny integrering för integrationsverktyget. För att uppnå detta, se [den här artikeln](../../integrating/using/configure-adobe-io-for-ms-dynamic.md).
 
 I MICROSOFT DYNAMICS 365 måste du skapa en ny programregistrering och göra det möjligt för en programanvändare att använda integreringen.  Information om hur du konfigurerar Microsoft Dynamics 365 för den här integreringen finns i [den här artikeln](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md).
 
