@@ -9,15 +9,15 @@ topic-tags: campaign-standard-apis
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 12%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Hämta en profils geografiska enhet {#retrieving-geographical-unit}
 
-1. Utför en GET-begäran på profilen PKey för att hämta **geoUnit** -URL:en.
+1. Utför en GET-begäran på profilen PKey för att hämta URL:en **geoUnit**.
 1. Gör en GET-förfrågan på URL:en för att få mer information om den geografiska enheten.
 
 <br/>
