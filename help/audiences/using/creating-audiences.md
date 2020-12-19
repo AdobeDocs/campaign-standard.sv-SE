@@ -10,8 +10,8 @@ context-tags: readAudience,main;audience,overview;delivery,audience,back
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
