@@ -9,15 +9,15 @@ topic-tags: about-custom-resources
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 16%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Övervaka datamodelländringar{#monitoring-data-model-changes}
 
-På **[!UICONTROL Diagnosis]** menyn kan du läsa olika tekniska objekt som genereras av programmet för att analysera dem.
+På **[!UICONTROL Diagnosis]**-menyn kan du läsa olika tekniska objekt som genereras av programmet för att analysera dem.
 
 >[!NOTE]
 >
