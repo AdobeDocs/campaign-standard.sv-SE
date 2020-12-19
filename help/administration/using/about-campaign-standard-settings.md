@@ -10,8 +10,8 @@ context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 9%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 9%
 * Konfigurera målmappningar för att hantera de tekniska inställningar som krävs för att skicka leveranser,
 * Ställ in interna meddelanden i programmet osv.
 
-De här inställningarna är tillgängliga på **[!UICONTROL Administration]** / **[!UICONTROL Application settings]** -menyn.
+De här inställningarna är tillgängliga på menyn **[!UICONTROL Administration]** / **[!UICONTROL Application settings]**.
 
-Dessutom finns det tekniska alternativ på **[!UICONTROL Options]** menyn som gör att du kan konfigurera programmet mer specifikt. Vissa av dem är inbyggda när du installerar Campaign, och andra kan läggas till manuellt när det behövs (tillgängliga alternativ varierar beroende på vilka paket som installeras med instansen).
+Dessutom finns det tekniska alternativ på menyn **[!UICONTROL Options]** som gör att du kan konfigurera programmet mer specifikt. Vissa av dem är inbyggda när du installerar Campaign, och andra kan läggas till manuellt när det behövs (tillgängliga alternativ varierar beroende på vilka paket som installeras med instansen).
 
 >[!IMPORTANT]
 >
