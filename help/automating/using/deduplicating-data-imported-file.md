@@ -10,8 +10,8 @@ context-tags: dedup,main
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 89%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ Arbetsflödet består av:
 
 ![](assets/deduplication_example2_workflow.png)
 
-* A file that contains a list of profiles is imported using a [Load file](../../automating/using/load-file.md) activity. I det här exemplet är den importerade filen i CSV-format och innehåller 10 profiler:
+* En fil som innehåller en lista med profiler importeras med en [Läs in fil](../../automating/using/load-file.md)-aktivitet. I det här exemplet är den importerade filen i CSV-format och innehåller 10 profiler:
 
    ```
    lastname;firstname;dateofbirth;email
@@ -44,13 +44,13 @@ Arbetsflödet består av:
 
    ![](assets/deduplication_example2_fileloading.png)
 
-* En [dedupliceringsaktivitet](../../automating/using/deduplication.md) . Deduplicering utförs direkt efter att filen har importerats och innan data infogas i databasen. Den ska därför baseras på **[!UICONTROL Temporary resource]** av **[!UICONTROL Load file]**-aktiviteten.
+* En [borttagning av dubbletter](../../automating/using/deduplication.md)-aktivitet. Deduplicering utförs direkt efter att filen har importerats och innan data infogas i databasen. Den ska därför baseras på **[!UICONTROL Temporary resource]** av **[!UICONTROL Load file]**-aktiviteten.
 
    I det här exemplet vill vi behålla en enda post per unik e-postadress som finns i filen. Identifiering av dubbletter utförs därför på **e-postkolumnen** för den tillfälliga resursens. Men filen innehåller två e-postadresser. Två rader kommer därför att betraktas som dubbletter.
 
    ![](assets/deduplication_example2_dedup.png)
 
-* An [Update data](../../automating/using/update-data.md) activity allows you to insert the data kept from the deduplication process into the database. Importerade data identifieras endast som associerad med profildimensionen när dessa data uppdateras.
+* Med en [Uppdatera data](../../automating/using/update-data.md)-aktivitet kan du infoga data från dedupliceringsprocessen i databasen. Importerade data identifieras endast som associerad med profildimensionen när dessa data uppdateras.
 
    Här vill vi **[!UICONTROL Insert only]** profilerna som inte redan finns i databasen. Vi gör detta genom att använda filens e-postkolumn och e-postfältet från **profildimensionen** som avstämningsnyckeln.
 
