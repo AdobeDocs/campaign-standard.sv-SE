@@ -10,8 +10,8 @@ context-tags: fileImport,main
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 75%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,15 +28,15 @@ I exemplet nedan visas hur du skickar ett e-postmeddelande med ytterligare data 
 
 Så här skapar du arbetsflödet:
 
-1. Drag and drop a [Query](../../automating/using/query.md) activity into your workflow and open it to define the main target.
+1. Dra och släpp en [Query](../../automating/using/query.md)-aktivitet i ditt arbetsflöde och öppna den för att definiera huvudmålet.
 
    <!--The Query activity is presented in the [Query](../../automating/using/query.md) section.-->
 
-1. Drag and drop a [Load file](../../automating/using/load-file.md) activity to assign some data to a profile. I det här exemplet läser du in en fil som innehåller kontonummer som motsvarar vissa profiler i databasen.
+1. Dra och släpp en [Läs in fil](../../automating/using/load-file.md)-aktivitet för att tilldela vissa data till en profil. I det här exemplet läser du in en fil som innehåller kontonummer som motsvarar vissa profiler i databasen.
 
    ![](assets/load_file_activity.png)
 
-1. Drag and drop an [Enrichment](../../automating/using/enrichment.md) activity into your workflow and link the load file and query activities to it.
+1. Dra och släpp en [Enrichment](../../automating/using/enrichment.md)-aktivitet i ditt arbetsflöde och länka inläsningsfilen och frågeaktiviteterna till den.
 
 1. På fliken **[!UICONTROL Advanced relations]** för berikningsaktiviteter markerar du **[!UICONTROL 0 or 1 cardinality simple link]** och definierar fälten som ska användas för avstämning.  Här använder vi efternamnet för att stämma av data med databasprofilerna.
 
@@ -50,13 +50,13 @@ Så här skapar du arbetsflödet:
 
    Mer information finns i [beriknings](../../automating/using/enrichment.md)-avsnittet.
 
-1. Drag and drop a [Segmentation](../../automating/using/segmentation.md) activity into your workflow and open it to refine the main target.
+1. Dra och släpp en [segmenteringsaktivitet](../../automating/using/segmentation.md) i arbetsflödet och öppna den för att förfina huvudmålet.
 
    ![](assets/load_file_segmentation.png)
 
    Mer information finns i avsnittet [Segmentering](../../automating/using/segmentation.md) .
 
-1. Drag and drop an [Email delivery](../../automating/using/email-delivery.md) activity into your workflow and open it.
+1. Dra och släpp en [e-postleveransaktivitet](../../automating/using/email-delivery.md) i ditt arbetsflöde och öppna den.
 
    <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
 
