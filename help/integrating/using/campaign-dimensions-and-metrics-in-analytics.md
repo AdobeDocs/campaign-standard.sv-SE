@@ -9,8 +9,8 @@ topic-tags: working-with-campaign-and-analytics
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 Tack vare integreringen med Adobe Campaign och Adobe Analytics kan ni se hur väl era e-postleveranser fungerar direkt i Adobe Analytics.
 
-Kampanjer **[!UICONTROL dimensions]** som hittas i Analytics listas nedan:
+Kampanjen **[!UICONTROL dimensions]** som hittas i Analytics listas nedan:
 
 <table> 
  <thead> 
@@ -31,7 +31,7 @@ Kampanjer **[!UICONTROL dimensions]** som hittas i Analytics listas nedan:
  <tbody> 
   <tr> 
    <td> Kampanj-ID<br /> </td> 
-   <td> Campaigns interna namn så som det visas i Campaign<br /> </td> 
+   <td> Kampanjens interna namn enligt Campaign<br /> </td> 
   </tr> 
   <tr> 
    <td> Kampanjetikett<br /> </td> 
@@ -56,7 +56,7 @@ Kampanjer **[!UICONTROL dimensions]** som hittas i Analytics listas nedan:
  </tbody> 
 </table>
 
-Kampanjer **[!UICONTROL metrics]** som hittas i Analytics listas nedan:
+Kampanjen **[!UICONTROL metrics]** som hittas i Analytics listas nedan:
 
 <table> 
  <thead> 
@@ -67,12 +67,12 @@ Kampanjer **[!UICONTROL metrics]** som hittas i Analytics listas nedan:
  </thead> 
  <tbody> 
   <tr> 
-   <td> Klickat<br /> </td> 
+   <td> Klickade<br /> </td> 
    <td> Antal gånger som ett innehåll klickades i en leverans.<br /> </td> 
   </tr> 
   <tr> 
    <td> Levererat<br /> </td> 
-   <td> Antal meddelanden som har skickats, i relation till det totala antalet skickade meddelanden.<br /> </td> 
+   <td> Antal meddelanden som har skickats i relation till totalt antal skickade meddelanden.<br /> </td> 
   </tr> 
   <tr> 
    <td> Öppnad<br /> </td> 
@@ -83,8 +83,8 @@ Kampanjer **[!UICONTROL metrics]** som hittas i Analytics listas nedan:
    <td> Totalt antal försändelser för leveransen.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Summa studsar<br /> </td> 
-   <td> Totalt antal fel som sammanställts under leverans och automatisk returbehandling i relation till totalt antal skickade meddelanden.<br /> </td> 
+   <td> Totalt antal studsar<br /> </td> 
+   <td> Totalt antal fel som sammanställts under leverans och automatisk returbearbetning i relation till totalt antal skickade meddelanden.<br /> </td> 
   </tr> 
   <tr> 
    <td> Unik öppning<br /> </td> 
