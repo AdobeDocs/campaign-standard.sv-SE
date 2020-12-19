@@ -10,8 +10,8 @@ context-tags: delivery,main
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,7 @@ Kontrollpanelen för meddelanden är en arbetsyta som består av olika ikoner, s
 I det grå fältet grupperas olika ikoner som är länkade till ditt meddelande.
 
 * **[!UICONTROL Summary]**: visar/döljer den viktigaste informationen om meddelandet.
-* **[!UICONTROL Edit properties]**: Med kan du redigera meddelandets [avancerade parametrar](../../administration/using/configuring-email-channel.md#list-of-email-properties).
+* **[!UICONTROL Edit properties]**: Med kan du redigera meddelandets  [avancerade parametrar](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 * **[!UICONTROL Reports]**: ger dig tillgång till de rapporter som hör till meddelandet.
 
 **Relaterade ämnen:**
@@ -47,11 +47,11 @@ Beroende på vilka parametrar som har ställts in och vilka framsteg som har gjo
 
    Mer information om korrektur finns i [Skicka korrektur](../../sending/using/sending-proofs.md).
 
-* **[!UICONTROL Send a test]**: Med kan du välja vilket godkännandeläge som ska användas: **[!UICONTROL Email rendering]** (endast e-post), **[!UICONTROL Proof]** eller båda. Mer information om testprofiler finns i [Skicka korrektur](../../sending/using/sending-proofs.md). Den här knappen aktiveras endast när du har skapat testprofiler.
+* **[!UICONTROL Send a test]**: Med kan du välja vilket godkännandeläge som ska användas:  **[!UICONTROL Email rendering]** (endast e-post),  **[!UICONTROL Proof]** eller båda. Mer information om testprofiler finns i [Skicka korrektur](../../sending/using/sending-proofs.md). Den här knappen aktiveras endast när du har skapat testprofiler.
 
-* **[!UICONTROL Prepare send]**: börjar förbereda sändningen. Blocket visas och visar resultatet av **[!UICONTROL Deployment]** preparatet. Den här knappen visas bara när målet har angetts. Du kan när som helst avbryta beredningen med motsvarande knapp. For more on message preparation, refer to [Preparing the send](../../sending/using/preparing-the-send.md).
+* **[!UICONTROL Prepare send]**: börjar förbereda sändningen. Blocket **[!UICONTROL Deployment]** visas och visar resultatet av beredningen. Den här knappen visas bara när målet har angetts. Du kan när som helst avbryta beredningen med motsvarande knapp. Mer information om hur du förbereder meddelanden finns i [Förbereda sändning](../../sending/using/preparing-the-send.md).
 
-* **[!UICONTROL Confirm send]**: bekräftar att meddelandet har skickats. Sändningsstatistiken visas i **[!UICONTROL Deployment]** -blocket. Den här knappen visas bara när sändningen har förberetts. Du kan stoppa eller pausa sändningen när som helst med knapparna **Stoppa sändning** och **[!UICONTROL Pause]** . Mer information om hur du bekräftar sändning finns i [Skicka meddelanden](../../sending/using/confirming-the-send.md).
+* **[!UICONTROL Confirm send]**: bekräftar att meddelandet har skickats. Sändningsstatistiken visas i **[!UICONTROL Deployment]**-blocket. Den här knappen visas bara när sändningen har förberetts. Du kan stoppa eller pausa sändningen när som helst med knapparna **Stoppa sändning** och **[!UICONTROL Pause]**. Mer information om hur du bekräftar sändning finns i [Skicka meddelanden](../../sending/using/confirming-the-send.md).
 
 ## Block {#blocks}
 
@@ -59,10 +59,10 @@ Huvudskärmen består av olika block. Klicka i ett block för att komma åt mots
 
 ![](assets/delivery_dashboard_3.png)
 
-* **[!UICONTROL Deployment]**: gör att du kan spåra förloppet för meddelandeförberedelsen eller sändningen. Klicka på knappen i det nedre högra avsnittet av det här blocket för att komma åt sändning- och analysloggarna. Blocket visas bara när sändningen har förberetts. Mer om detta. See [Confirming send](../../sending/using/confirming-the-send.md).
+* **[!UICONTROL Deployment]**: gör att du kan spåra förloppet för meddelandeförberedelsen eller sändningen. Klicka på knappen i det nedre högra avsnittet av det här blocket för att komma åt sändning- och analysloggarna. Blocket visas bara när sändningen har förberetts. Mer om detta. Se [Bekräfta sändning](../../sending/using/confirming-the-send.md).
 * **[!UICONTROL Audience]**: gör att du kan fastställa meddelandets huvudmål samt testprofilerna. Se [Skapa målgrupper](../../audiences/using/creating-audiences.md).
 * **[!UICONTROL Schedule]**: I kan du ange det datum då meddelandet ska skickas. Se [Schemaläggning](../../sending/using/about-scheduling-messages.md).
-* **[!UICONTROL Content]**: Med kan du definiera meddelandets innehåll och förhandsgranska det. See [Key steps to send a message](../../channels/using/key-steps-to-send-a-message.md).
+* **[!UICONTROL Content]**: Med kan du definiera meddelandets innehåll och förhandsgranska det. Se [Viktiga steg för att skicka ett meddelande](../../channels/using/key-steps-to-send-a-message.md).
 
 ## Varningar {#warnings}
 
@@ -90,4 +90,4 @@ Nedan visas en lista med meddelanden som kan visas:
 
 * *&quot;Det här meddelandet är en teknisk mall för transaktionsmeddelanden. Du kan inte ändra eller publicera den.&quot;*
 
-   Den här varningen visas i tomma transaktionsmeddelandemallar som inte kan redigeras. For more on transactional messages, see [this section](../../channels/using/getting-started-with-transactional-msg.md).
+   Den här varningen visas i tomma transaktionsmeddelandemallar som inte kan redigeras. Mer information om transaktionsmeddelanden finns i [det här avsnittet](../../channels/using/getting-started-with-transactional-msg.md).
