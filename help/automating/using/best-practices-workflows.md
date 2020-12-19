@@ -77,7 +77,7 @@ Vi rekommenderar att du använder upp till 100 aktiviteter i ett enda arbetsflö
 
 ### Arbetsflödesdesign
 
-För att arbetsflödet ska avslutas på rätt sätt bör du undvika att lämna den sista övergången i ett arbetsflöde separat genom att använda ett **[!UICONTROL End activity]**.
+För att arbetsflödet ska avslutas på rätt sätt bör du undvika att lämna den sista övergången i ett arbetsflöde separat genom att använda en **[!UICONTROL End activity]**.
 
 Om du vill få åtkomst till detaljvyn för övergångarna markerar du alternativet **[!UICONTROL Keep interim results]** i avsnittet Körning i egenskaperna för arbetsflödet. 
 
@@ -108,7 +108,7 @@ Mer information finns i [Schemaläggaraktivitet](../../automating/using/schedule
 
 ## Anropa arbetsflöde med parametrar{#workflow-with-parameters}
 
-Kontrollera att parameterns namn och antal är identiska med vad som är angivet när arbetsflödet anropas (se [den här sidan](../../automating/using/defining-parameters-calling-workflow.md)). Parametrarnas typer måste även vara konsekventa med de värden som förväntas.
+Kontrollera att parameterns namn och antal är identiska med vad som är definierat när du anropar arbetsflödet (se [den här sidan](../../automating/using/defining-parameters-calling-workflow.md). Parametrarnas typer måste även vara konsekventa med de värden som förväntas.
 
 Kontrollera att alla parametrar har deklarerats i **[!UICONTROL External signal activity]**. Annars inträffar ett fel när aktiviteten körs.
 
