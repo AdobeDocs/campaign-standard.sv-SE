@@ -10,8 +10,8 @@ context-tags: deliveryDomainBreakdownReport,main;campaignDomainBreakdownReport,m
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Den här rapporten innehåller prestandadata för varje domän som representeras
 
 ![](assets/delivery_reports_6.png)
 
-Tabellen **Sändningsstatistik** innehåller tillgängliga data för eventuella fel som påträffas i varje domän, som:
+Tabellen **Sändningsstatistik** innehåller tillgängliga data för möjliga fel som påträffats i varje domän, som:
 
 * **Behandlad/skickad**: Antal skickade e-postmeddelanden.
 * **Levererat**: Antalet e-postmeddelanden som levereras.
