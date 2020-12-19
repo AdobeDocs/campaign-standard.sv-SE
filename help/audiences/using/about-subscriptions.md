@@ -33,10 +33,10 @@ Prenumerationer kan också hanteras med Adobe Campaign Standard API:n.  Mer info
 
 Följ stegen nedan för att skapa en prenumerationsmekanism:
 
-1. **Skapa en tjänst** - följ stegen som beskrivs [i det här avsnittet](../../audiences/using/creating-a-service.md) för att skapa en prenumerationstjänst
-1. **Dela länken** - lär dig hur du marknadsför och delar din tjänst [på den här sidan](../../audiences/using/promoting-a-service.md)
-1. **Övervaka prenumerationer** - Upptäck flera sätt att övervaka prenumerationer på tjänsten [i det här avsnittet](../../audiences/using/monitoring-subscriptions.md)
-1. **Bekräfta prenumerationer** - följ [den här självstudiekursen](../../audiences/using/confirming-subscription-to-a-service.md) för att skicka ett bekräftelsemeddelande om prenumerationen
+1. **Skapa en tjänst**  - följ stegen som beskrivs  [i det här ](../../audiences/using/creating-a-service.md) avsnittet för att skapa en prenumerationstjänst
+1. **Dela länken**  - lär dig hur du marknadsför och delar din tjänst  [på den här sidan](../../audiences/using/promoting-a-service.md)
+1. **Övervaka prenumerationer**  - Upptäck flera sätt att övervaka prenumerationer på tjänsten  [i det här avsnittet](../../audiences/using/monitoring-subscriptions.md)
+1. **Bekräfta prenumerationer**  - följ  [den här ](../../audiences/using/confirming-subscription-to-a-service.md) självstudiekursen för att skicka ett bekräftelsemeddelande för prenumerationen
 
 ## Ytterligare resurser
 
