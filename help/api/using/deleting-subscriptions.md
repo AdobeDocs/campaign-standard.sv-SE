@@ -19,7 +19,7 @@ ht-degree: 1%
 
 <!--NOTE TO WRITER: There are two duplicate headings that seem to have the same content. Delete one? Rename if different?-->
 
-## Ta bort en serviceprenumeration för en viss profil {#deleting-service-subscription}
+## Tar bort en tjänstprenumeration för en viss profil {#deleting-service-subscription}
 
 Detta är en procedur i tre steg.
 
