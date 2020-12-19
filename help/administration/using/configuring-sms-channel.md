@@ -328,7 +328,7 @@ De specifika parametrarna för att skicka SMS grupperas i avsnitten **[!UICONTRO
 
 ![](assets/sms_options.png)
 
-From the **[!UICONTROL Advanced parameters]** section:
+I avsnittet **[!UICONTROL Advanced parameters]**:
 
 * Med det här **[!UICONTROL From]** alternativet kan du anpassa namnet på SMS-meddelandets avsändare med en teckensträng.  Det namnet visas som avsändarnamn för SMS-meddelandet på mottagarens mobiltelefon.
 
