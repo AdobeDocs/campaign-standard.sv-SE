@@ -15,23 +15,23 @@ ht-degree: 1%
 ---
 
 
-# Customizing a workflow with external parameters {#customizing-a-workflow-with-external-parameters}
+# Anpassa ett arbetsflöde med externa parametrar {#customizing-a-workflow-with-external-parameters}
 
 När arbetsflödet har utlösts hämtas parametrarna in i händelsevariablerna och kan användas för att anpassa arbetsflödets aktiviteter.
 
-De kan till exempel användas för att definiera vilken målgrupp som ska läsas i **[!UICONTROL Read audience]** aktiviteten, namnet på filen som ska överföras i **[!UICONTROL Transfer file]** aktiviteten osv. (see [this page](../../automating/using/customizing-workflow-external-parameters.md)).
+De kan till exempel användas för att definiera vilken målgrupp som ska läsas i aktiviteten **[!UICONTROL Read audience]**, namnet på filen som ska överföras i aktiviteten **[!UICONTROL Transfer file]** osv. (se [den här sidan](../../automating/using/customizing-workflow-external-parameters.md)).
 
 ## Använda händelsevariabler {#using-events-variables}
 
 Händelsevariabler används i ett uttryck som måste respektera [standardsyntaxen](../../automating/using/advanced-expression-editing.md#standard-syntax).
 
-Syntaxen för att använda händelsevariabler måste följa formatet nedan och använda parameternamnet som har definierats i **[!UICONTROL External signal]** aktiviteten (se [Deklarera parametrarna i den externa signalaktiviteten](../../automating/using/declaring-parameters-external-signal.md)):
+Syntaxen för att använda händelsevariabler måste följa formatet nedan och använda parameternamnet som har definierats i **[!UICONTROL External signal]**-aktiviteten (se [Deklarera parametrarna i den externa signalaktiviteten](../../automating/using/declaring-parameters-external-signal.md)):
 
 ```
 $(vars/@parameterName)
 ```
 
-I den här syntaxen returnerar **$** -funktionen **strängdatatypen** . Om du vill ange en annan typ av data använder du följande funktioner:
+I den här syntaxen returnerar funktionen **$** datatypen **sträng**. Om du vill ange en annan typ av data använder du följande funktioner:
 
 * **$long**: heltal.
 * **$float**: decimaltal.
@@ -46,11 +46,11 @@ När du använder en variabel i en aktivitet får du hjälp att anropa den i gr�
 
    ![](assets/wkf_test_activity_variables.png)
 
-* ![](assets/extsignal_expression_editor.png): redigera uttryck genom att kombinera variabler och funktioner (se [den här sidan](../../automating/using/advanced-expression-editing.md)).
+* ![](assets/extsignal_expression_editor.png): redigera uttryck genom att kombinera variabler och funktioner (se  [den här sidan](../../automating/using/advanced-expression-editing.md)).
 
    ![](assets/wkf_test_activity_variables_expression.png)
 
-   Den här listan innehåller funktioner som gör att du kan utföra komplex filtrering. De här funktionerna beskrivs i [det här avsnittet](../../automating/using/list-of-functions.md).
+   Den här listan innehåller funktioner som gör att du kan utföra komplex filtrering. Dessa funktioner beskrivs i [det här avsnittet](../../automating/using/list-of-functions.md).
 
    Du kan dessutom använda funktionerna nedan, som är tillgängliga i alla aktiviteter som gör att du kan använda händelsevariabler efter att du har anropat ett arbetsflöde med externa parametrar (se [det här avsnittet](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)):
 
@@ -82,7 +82,7 @@ Händelsevariabler kan användas för att anpassa flera aktiviteter, som listas 
 
 ![](assets/extsignal_activities_transfer.png)
 
-**[!UICONTROL Query]** aktivitet: parametrar kan refereras i en fråga genom att använda uttryck som kombinerar händelsevariabler och funktioner. Om du vill göra det lägger du till en regel och klickar sedan på **[!UICONTROL Advanced mode]** länken för att öppna redigeringsfönstret för uttryck (se [Avancerad redigering](../../automating/using/advanced-expression-editing.md)av uttryck).
+**[!UICONTROL Query]** aktivitet: parametrar kan refereras i en fråga genom att använda uttryck som kombinerar händelsevariabler och funktioner. Om du vill göra det lägger du till en regel och klickar sedan på länken **[!UICONTROL Advanced mode]** för att öppna redigeringsfönstret för uttryck (se [Avancerad uttrycksredigering](../../automating/using/advanced-expression-editing.md)).
 
 Mer information om hur du använder aktiviteten finns i [det här avsnittet](../../automating/using/query.md).
 
@@ -94,14 +94,14 @@ Mer information om hur du använder aktiviteten finns i [det här avsnittet](../
 >
 >Värdena för leveransparametrarna hämtas varje gång leveransen förbereds.
 >
->Förberedelse för återkommande leveranser baseras på **leveransaggregeringsperioden**. Om t.ex. aggregeringsperioden är &quot;per dag&quot; förbereds leveransen endast en gång per dag. Om värdet för en leveransparameter ändras under dagen uppdateras det inte i leveransen, eftersom det redan har förberetts en gång.
+>Förberedelsen för återkommande leveranser baseras på leveransmängden **aggregeringsperioden**. Om t.ex. aggregeringsperioden är &quot;per dag&quot; förbereds leveransen endast en gång per dag. Om värdet för en leveransparameter ändras under dagen uppdateras det inte i leveransen, eftersom det redan har förberetts en gång.
 >
->Om du planerar att anropa arbetsflödet flera gånger om dagen ska du använda [!UICONTROL No aggregation] alternativet så att leveransparametrarna uppdateras varje gång. Mer information om konfiguration av återkommande leveranser finns i [det här avsnittet](/help/automating/using/email-delivery.md#configuration).
+>Om du planerar att anropa arbetsflödet flera gånger om dagen ska du använda alternativet [!UICONTROL No aggregation] så att leveransparametrarna uppdateras varje gång. Mer information om konfiguration av återkommande leveranser finns i [det här avsnittet](/help/automating/using/email-delivery.md#configuration).
 
 Om du vill anpassa en leverans baserat på händelsevariabler måste du först deklarera variablerna som du vill använda i leveransaktiviteten:
 
-1. Markera aktiviteten och klicka sedan på ![](assets/dlv_activity_params-24px.png) knappen för att komma åt inställningarna.
-1. Välj **[!UICONTROL General]** fliken och lägg sedan till de händelsevariabler som ska vara tillgängliga som personaliseringsfält i leveransen.
+1. Markera aktiviteten och klicka sedan på knappen ![](assets/dlv_activity_params-24px.png) för att komma åt inställningarna.
+1. Välj fliken **[!UICONTROL General]** och lägg sedan till de händelsevariabler som ska vara tillgängliga som personaliseringsfält i leveransen.
 
    ![](assets/extsignal_activities_delivery.png)
 
@@ -117,7 +117,7 @@ Deklarerade händelsevariabler är nu tillgängliga i listan över personaliseri
 
    ![](assets/extsignal_activities_template.png)
 
-* Anpassa leveransen: När du väljer ett personaliseringsfält för att konfigurera en leverans är händelsevariabler tillgängliga i **[!UICONTROL Workflow parameters]** elementet. Du kan använda dem som vilket personaliseringsfält som helst, t.ex. för att definiera leveransämnet, avsändaren osv.
+* Anpassa leveransen: När du väljer ett anpassningsfält för att konfigurera en leverans är händelsevariabler tillgängliga i **[!UICONTROL Workflow parameters]**-elementet. Du kan använda dem som vilket personaliseringsfält som helst, t.ex. för att definiera leveransämnet, avsändaren osv.
 
    Leveranspersonalisering beskrivs i [det här avsnittet](../../designing/using/personalization.md).
 
@@ -127,7 +127,7 @@ Deklarerade händelsevariabler är nu tillgängliga i listan över personaliseri
 
 >[!NOTE]
 >
->Den här åtgärden kan utföras från alla aktiviteter som gör att du kan definiera en segmentkod som till exempel **[!UICONTROL Query]** eller **[!UICONTROL Segmentation]** aktiviteter.
+>Den här åtgärden kan utföras från vilken aktivitet som helst som gör att du kan definiera en segmentkod som till exempel aktiviteter i **[!UICONTROL Query]** eller **[!UICONTROL Segmentation]**.
 
 ![](assets/extsignal_activities_segment.png)
 
