@@ -18,7 +18,7 @@ ht-degree: 90%
 
 # Förfrågningsexempel {#query-samples}
 
-I det här avsnittet visas ett användbart exempel för en **[!UICONTROL Query]** aktivitet. For more on how to use a **[!UICONTROL Query]** activity, refer to [this section](../../automating/using/query.md).
+I det här avsnittet visas användningsexempel när en **[!UICONTROL Query]**-aktivitet används. Mer information om hur du använder en **[!UICONTROL Query]**-aktivitet finns i [det här avsnittet](../../automating/using/query.md).
 
 ## Målriktat mot enkla profilattribut {#targeting-on-simple-profile-attributes}
 
