@@ -21,7 +21,7 @@ Genom att integrera Assets Core-tjänsten eller Assets on Demand (beroende på h
 
 Resurser som delas från Adobe Experience Cloud kan användas i e-postmeddelanden och på landningssidor.
 
-1. När du redigerar innehållet i ett e-postmeddelande eller en landningssida går du till ett bildblock och väljer **[!UICONTROL Image shared from Adobe Experience Cloud]** via snabbmenyn.
+1. När du redigerar innehållet i ett e-postmeddelande eller en landningssida går du till ett bildblock och väljer sedan **[!UICONTROL Image shared from Adobe Experience Cloud]** via snabbmenyn.
 
    ![](assets/dam_insert_image_dce.png)
 
