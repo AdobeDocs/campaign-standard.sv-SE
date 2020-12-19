@@ -9,17 +9,17 @@ topic-tags: campaign-standard-apis
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Utlösa en signalaktivitet {#triggering-a-signal-activity}
 
-I ett Adobe Campaign Standard-arbetsflöde kan det finnas en eller flera **externa signalaktiviteter** . Dessa aktiviteter är &#39;avlyssnare&#39; som väntar på att aktiveras.
+I ett Adobe Campaign Standard-arbetsflöde kan det finnas en eller flera **externa signaturaktiviteter**. Dessa aktiviteter är &#39;avlyssnare&#39; som väntar på att aktiveras.
 
-Med Campaign Standards-API:er kan du utlösa en **extern signalaktivitet** för att anropa ett arbetsflöde. API-anropet kan innehålla parametrar som ska infogas i arbetsflödets händelsevariabler (ett målgruppsnamn, ett filnamn som ska importeras, en del av meddelandeinnehållet osv.). På så sätt kan ni enkelt integrera era Campaign-automatiseringar med ert externa system.
+Med Campaign Standards-API:er kan du utlösa en **extern signal**-aktivitet för att anropa ett arbetsflöde. API-anropet kan innehålla parametrar som ska infogas i arbetsflödets händelsevariabler (ett målgruppsnamn, ett filnamn som ska importeras, en del av meddelandeinnehållet osv.). På så sätt kan ni enkelt integrera era Campaign-automatiseringar med ert externa system.
 
 >[!NOTE]
 >
@@ -27,13 +27,13 @@ Med Campaign Standards-API:er kan du utlösa en **extern signalaktivitet** för 
 
 Så här utlöser du ett arbetsflöde:
 
-1. Utför en **GET** -begäran i arbetsflödet för att hämta URL:en för den externa signalaktivitetsutlösaren.
+1. Utför en **GET**-begäran i arbetsflödet för att hämta URL:en för utlösaren för extern signalaktivitet.
 
    `GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>`
 
-1. Utför en begäran om **POST** på den returnerade URL:en för att utlösa signalaktiviteten, med parametern **&quot;source&quot;** i nyttolasten. Det här attributet är obligatoriskt, vilket gör att du kan ange källan för utlösande begäran.
+1. Utför en **POST**-begäran på den returnerade URL:en för att aktivera signalaktiviteten, med parametern **&quot;source&quot;** i nyttolasten. Det här attributet är obligatoriskt, vilket gör att du kan ange källan för utlösande begäran.
 
-Om du vill anropa arbetsflödet med parametrar lägger du till dem i nyttolasten med attributet **&quot;parameters&quot;** . Syntaxen består av parameterns namn följt av dess värde (följande typer stöds: **sträng**, **tal**, **boolesk** och **datum/tid**).
+Om du vill anropa arbetsflödet med parametrar lägger du till dem i nyttolasten med attributet **&quot;parameters&quot;**. Syntaxen består av parameterns namn följt av dess värde (följande typer stöds: **sträng**, **tal**, **booleskt** och **datum/tid**).
 
 ```
   -X POST <TRIGGER_URL>
@@ -56,7 +56,7 @@ Om du vill anropa arbetsflödet med parametrar lägger du till dem i nyttolasten
 
 >[!NOTE]
 >
->När du lägger till en parameter i nyttolasten ska du se till att dess **namn** och **typvärden** överensstämmer med informationen som deklarerats i den externa signalaktiviteten. Dessutom bör nyttolastens storlek inte överstiga 64 kB.
+>När du lägger till en parameter i nyttolasten ska du kontrollera att dess **namn** och **typ**-värden överensstämmer med informationen som deklarerats i aktiviteten för extern signal. Dessutom bör nyttolastens storlek inte överstiga 64 kB.
 
 <br/>
 
