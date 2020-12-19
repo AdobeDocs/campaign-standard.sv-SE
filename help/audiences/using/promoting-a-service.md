@@ -9,8 +9,8 @@ topic-tags: managing-subscriptions
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,10 +23,10 @@ Du kan använda Campaign för att marknadsföra en tjänst genom att:
 
 * [Infoga en tjänstprenumeration eller en länk för att avbryta prenumerationen i ett e-postmeddelande](../../designing/using/links.md#inserting-a-link).
 
-* [Infoga en länk till en prenumerations- eller prenumerationssida i ett e-postmeddelande](../../designing/using/links.md). I detta fall måste tjänsten direkt refereras till i de relaterade landningssidornas egenskaper (se [Länka en landningssida till en tjänst](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)).
+* [Infoga en länk till en prenumerations- eller prenumerationssida i ett e-postmeddelande](../../designing/using/links.md). I det här fallet måste det finnas en direkt referens till tjänsten i de relaterade landningssidornas egenskaper (se [Länka en landningssida till en tjänst](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)).
 
    >[!NOTE]
    >
-   >Det är också viktigt att ge abonnenterna möjlighet att säga upp prenumerationen. Det gör du genom att infoga en länk <b>för</b> avprenumeration på tjänsten i bekräftelsemeddelandet (som definieras i tjänsteegenskaperna) som skickas automatiskt till de nya prenumeranterna samt i framtida nyhetsbrev.
+   >Det är också viktigt att ge abonnenterna möjlighet att säga upp prenumerationen. Om du vill göra det infogar du en tjänst <b>länken för att avbryta prenumerationen</b> i bekräftelsemeddelandet (som definieras i tjänsteegenskaperna) som skickas automatiskt till de nya prenumeranterna samt i framtida nyhetsbrev.
 
-* Göra en landningssida för en prenumeration eller en prenumeration tillgänglig på en webbplats. De URL:er som ger dig åtkomst till landningssidan måste ange parametrar som den associerade tjänsten samt profil-ID:t som får åtkomst till den. Detta ID kan definieras i landningssidans parametrar (se [Konfigurera en landningssida](../../channels/using/configuring-landing-page.md)).
+* Göra en landningssida för en prenumeration eller en prenumeration tillgänglig på en webbplats. De URL:er som ger dig åtkomst till landningssidan måste ange parametrar som den associerade tjänsten samt profil-ID:t som får åtkomst till den. Detta ID kan definieras i parametrarna för landningssidan (se [Konfigurera en startsida](../../channels/using/configuring-landing-page.md)).
