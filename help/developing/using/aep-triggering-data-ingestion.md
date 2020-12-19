@@ -34,9 +34,9 @@ Innan du använder API:erna måste datamappningen först ha konfigurerats och pu
 
 När datamappningen har skapats måste du stoppa den från att köras så att du kan utlösa den från API:erna när du vill. Följ dessa steg för att göra detta:
 
-1. Gå till Campaign Standarden **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** .
+1. Gå till menyn **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** i Campaign Standard.
 
-1. Dubbelklicka på datamappningen för att öppna den och klicka sedan på **[!UICONTROL Stop]** knappen.
+1. Dubbelklicka på datamappningen för att öppna den och klicka sedan på knappen **[!UICONTROL Stop]**.
 
    ![](assets/aep_datamapping_stop.png)
 
@@ -44,7 +44,7 @@ När datamappningen har skapats måste du stoppa den från att köras så att du
 
 Körningen av datamappningen har stoppats. Du kan använda Campaign Standard-API:er för att utlösa den manuellt.
 
-## Börja omedelbart inmatning av datamappning {#starting-immediate-ingestion}
+## Startar direkt inmatning av datamappning {#starting-immediate-ingestion}
 
 Omedelbart intag av en XDM-mappning i Adobe Experience Platform utlöses av en POST-åtgärd:
 
@@ -52,9 +52,10 @@ Omedelbart intag av en XDM-mappning i Adobe Experience Platform utlöses av en P
 
 >[!NOTE]
 >
->För att kunna köra anropet till API:t för inklistring av POSTER måste användaren ha en **SQL-funktionskörningsroll** , som en Campaign Standard-administratör kan ge genom att köra nedan JS-skript:
+>För att kunna köra anropet till API:t för inklistring av POSTER måste användaren ha en **SQL-funktionskörningsroll**, som kan tillhandahållas av en Campaign Standard-administratör genom att köra JS-skriptet nedan:
 >
->```
+>
+```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```
@@ -105,7 +106,7 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->Detaljerad information om status för XDM-mappningsbegäran och relaterade jobb finns i Campaign Standardens gränssnitt på **[!UICONTROL Status of data export to platform]** menyn (se [Mappningsaktivering](../../developing/using/aep-mapping-activation.md)).
+>Detaljerad information om status för XDM-mappningsbegäran och relaterade jobb finns i Campaign Standardens gränssnitt på menyn **[!UICONTROL Status of data export to platform]** (se [Mappningsaktivering](../../developing/using/aep-mapping-activation.md)).
 
 GETEN returnerar informationen nedan:
 
