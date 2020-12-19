@@ -10,8 +10,8 @@ context-tags: deliveryCreation,wizard
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,4 +27,4 @@ Du kan skicka olika typer av e-postmeddelanden:
 * A/B-testning av e-post: testa upp till tre versioner av ett e-postmeddelande.
 * Transactional emails: enhetliga e-postmeddelanden som triggas utifrån kundernas beteende.
 
-Om du vill lära dig de bästa sätten att skapa och skicka e-postmeddelanden läser du i avsnittet [Bästa praxis](../../sending/using/delivery-best-practices.md) för leverans.
+Om du vill veta mer om de bästa sätten att skapa och skicka e-postmeddelanden läser du i avsnittet [Bästa tillvägagångssätt vid leverans](../../sending/using/delivery-best-practices.md).
