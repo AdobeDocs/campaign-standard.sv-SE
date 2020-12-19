@@ -9,8 +9,8 @@ topic-tags: discovering-the-interface
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 9%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -51,7 +51,7 @@ Adobe Campaign-profiler representerar alla kontakter som lagras i databasen. Var
 * [Om profiler](../../audiences/using/about-profiles.md)
 * [Åtkomst till antalet aktiva profiler i organisationen](../../audiences/using/active-profiles.md)
 
-## Förbättra databasen {#populating-database}
+## Förbättrar databasen {#populating-database}
 
 <img width="60px" alt="villkor" src="assets/icon_populate.svg"/>
 
@@ -59,13 +59,13 @@ Campaign Standard har flera verktyg som hjälper er att utöka er marknadsförin
 
 ### Importera data via arbetsflöden {#importing-data-through-workflows}
 
-Med arbetsflöden kan ni samla in data och importera dem till Campaign-databasen via [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) aktiviteter. Allmän information och bästa praxis vid import av data via arbetsflöden visas i [det här avsnittet](../../automating/using/about-data-import-and-export.md).
+Med arbetsflöden kan ni samla in data och importera dem till Campaign-databasen med hjälp av [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md)-aktiviteter. Allmän information och bästa praxis vid import av data via arbetsflöden finns i [det här avsnittet](../../automating/using/about-data-import-and-export.md).
 
 Dessutom kan du konfigurera mallar för import av data. Det är bäst att använda importmallar om du behöver importera filer med samma struktur regelbundet. Du kan ställa in två typer av mallar:
 
 * **Arbetsflödesmallar**: Detta är förkonfigurerade arbetsflöden som du kan konfigurera en gång efter behov och återanvända varje gång du vill importera data och uppdatera databasen. Ett exempel på en arbetsflödesmall för import av data finns i [det här avsnittet](../../automating/using/creating-import-workflow-templates.md).
 
-* **Importera datamallar**: som arbetsflödesmallar är dessa mallar baserade på arbetsflöden, som är inställda på att överföra filer för att uppdatera databasen. När de är konfigurerade blir de tillgängliga för användare med en förenklad vy på menyn **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** . Mer information om hur du importerar datamallar finns i den [dedikerade dokumentationen](../../automating/using/importing-data-with-import-templates.md).
+* **Importera datamallar**: som arbetsflödesmallar är dessa mallar baserade på arbetsflöden, som är inställda på att överföra filer för att uppdatera databasen. När de har konfigurerats blir de tillgängliga för användare med en förenklad vy på **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]**-menyn. Mer information om hur du importerar datamallar finns i [dedikerad dokumentation](../../automating/using/importing-data-with-import-templates.md).
 
 ### Samla in data från landningssidor {#collecting-data-from-landing-pages}
 
@@ -75,7 +75,7 @@ Landningssidor är webbformulär som kan användas för att samla in data och sk
 * Koppla varje inmatningsfält till motsvarande fält från databasen.
 * Gör landningssidan tillgänglig online via en webbplats eller via en direktlänk till ett meddelande.
 
-For more on landing pages, refer to the [dedicated documentation](../../channels/using/getting-started-with-landing-pages.md).
+Mer information om landningssidor finns i [dedikerad dokumentation](../../channels/using/getting-started-with-landing-pages.md).
 
 **Läs mer**
 
@@ -85,7 +85,7 @@ For more on landing pages, refer to the [dedicated documentation](../../channels
 ### Synkroniserar profiler från Microsoft Dynamics 365
 
 Tack vare integreringen av Campaign Standarder med Microsoft Dynamics 365 kan du skicka kontaktdata från Microsoft Dynamics 365 till Campaign-databasen.
-Kontakterna visas sedan i profillistan och kan användas i marknadsföringskampanjer. For more on this integration, refer to the [dedicated documentation](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
+Kontakterna visas sedan i profillistan och kan användas i marknadsföringskampanjer. Mer information om den här integreringen finns i [dedikerad dokumentation](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ Kontakterna visas sedan i profillistan och kan användas i marknadsföringskampa
 
 ### Importera data via API-anrop
 
-Med Campaign Standard-API:er kan du utföra åtgärder för att uppdatera databasen, som att skapa, uppdatera eller ta bort profiler eller tjänster. Mer information om hur du använder API:erna finns i den [dedikerade dokumentationen](../../api/using/get-started-apis.md).
+Med Campaign Standard-API:er kan du utföra åtgärder för att uppdatera databasen, som att skapa, uppdatera eller ta bort profiler eller tjänster. Mer information om hur du använder API:erna finns i [dedikerad dokumentation](../../api/using/get-started-apis.md).
 
 >[!CAUTION]
 >
@@ -128,7 +128,7 @@ Tack vare arbetsflödena och frågeredigeraren kan ni skapa målgrupper som mål
 
 GDPR är EU:s (EU) nya integritetslagstiftning som harmoniserar och moderniserar kraven på skydd av personuppgifter. GDPR gäller för Adobe Campaign-kunder som innehar uppgifter för registrerade personer som bor i EU. Förutom de sekretessfunktioner som redan finns i Adobe Campaign (inklusive samtyckeshantering, datalagringsinställningar och användarroller) tar vi denna möjlighet i vår roll som dataprocessor för att inkludera ytterligare funktioner som hjälper dig att bli redo som Data Controller för vissa GDPR-förfrågningar.
 
-Läs den här [guiden](https://helpx.adobe.com/se/campaign/kb/campaign-privacy.html) om du vill veta mer om de verktyg och funktioner som Adobe Campaign tillhandahåller för att hjälpa dig att bli GDPR-kompatibel.
+Läs den här [guiden](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html) om du vill veta mer om de verktyg och funktioner som Adobe Campaign tillhandahåller för att hjälpa dig att bli GDPR-kompatibel.
 
 **Läs mer**
 
