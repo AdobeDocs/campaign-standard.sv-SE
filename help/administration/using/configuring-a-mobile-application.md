@@ -17,7 +17,7 @@ ht-degree: 7%
 
 # Konfigurera ett mobilprogram{#configuring-a-mobile-application}
 
-## Configuring a mobile application using Adobe Experience Platform SDKs {#using-adobe-experience-platform-sdk}
+## Konfigurera ett mobilprogram med Adobe Experience Platform SDK {#using-adobe-experience-platform-sdk}
 
 >[!IMPORTANT]
 >
@@ -27,9 +27,9 @@ Om du vill skicka push-meddelanden och meddelanden i appen med Experience Platfo
 
 Mer information om den borttagna funktionen Mobile version 4 SDK finns på den här [sidan](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4-deprecated.html).
 
-När du har konfigurerat ett mobilprogram kan du hämta de PII-data som samlas in för att skapa eller uppdatera profiler från databasen. Mer information finns i följande avsnitt: [Skapa och uppdatera profilinformation baserat på mobilprogramdata](../../channels/using/updating-profile-with-mobile-app-data.md).
+När du har konfigurerat ett mobilprogram kan du hämta de PII-data som samlas in för att skapa eller uppdatera profiler från databasen. Mer information finns i följande avsnitt: [Skapa och uppdatera profilinformation baserat på data för mobilprogram](../../channels/using/updating-profile-with-mobile-app-data.md).
 
-Mer information om olika mobilanvändningsfall som stöds i Adobe Campaign Standard med Adobe Experience Platform SDK:er finns på den här [sidan](https://helpx.adobe.com/se/campaign/kb/configure-launch-rules-acs-use-cases.html).
+Om du vill veta mer om de olika användningsfall för mobila enheter som stöds i Adobe Campaign Standard med hjälp av Adobe Experience Platform SDK:er kan du gå till den här [sidan](https://helpx.adobe.com/se/campaign/kb/configure-launch-rules-acs-use-cases.html).
 
 Slutför konfigurationen genom att utföra följande steg:
 
@@ -48,33 +48,33 @@ I det här steget kan användaren logga in på Experience Platform Launch för a
 
    Om du vill utföra ytterligare åtgärder som att installera ett tillägg, publicera ett program, konfigurera miljöer och så vidare, måste du ange behörigheter i produktprofilen.
 
-1. I Experience Platform Launch skapar du en **[!UICONTROL Mobile property]**. Mer information finns i [Konfigurera en mobil egenskap](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property).
+1. Skapa en **[!UICONTROL Mobile property]** i Experience Platform Launch. Mer information finns i [Konfigurera en mobil egenskap](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property).
 
-1. Klicka på **[!UICONTROL Extensions]** fliken Experience Platform Launch, gå till **[!UICONTROL Catalog]** och sök efter **[!UICONTROL Adobe Campaign Standard]** tillägget. Mer information finns i [Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
+1. I Experience Platform Launch klickar du på fliken **[!UICONTROL Extensions]**, går till **[!UICONTROL Catalog]** och söker efter tillägget **[!UICONTROL Adobe Campaign Standard]**. Mer information finns i [Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 
-1. Om du vill ha stöd för platsanvändningsfall i Campaign Standard installerar du **[!UICONTROL Places]** tillägget och **[!UICONTROL Places Monitor]** tillägget.
-   * Installera **[!UICONTROL Places]** tillägget i Experience Platform Launch. Refer to this [page](https://docs.adobe.com/content/help/sv-SE/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
-   * Installera **[!UICONTROL Places Monitor]** tillägget i Experience Platform Launch. Refer to this [page](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html)
+1. Om du vill ha stöd för platsanvändningsfall i Campaign Standard installerar du tillägget **[!UICONTROL Places]** och tillägget **[!UICONTROL Places Monitor]**.
+   * Installera tillägget **[!UICONTROL Places]** i Experience Platform Launch. Se den här [sidan](https://docs.adobe.com/content/help/sv-SE/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
+   * Installera tillägget **[!UICONTROL Places Monitor]** i Experience Platform Launch. Se denna [sida](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html)
 
 1. Konfigurera den mobila egenskapen som du skapade i Experience Platform Launch i Adobe Campaign Standard.  Se [Konfigurera ditt Adobe Experience Platform Launch-program i Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
 1. Lägg till den kanalspecifika konfigurationen i installationen av mobilprogrammet.  Mer information finns i [Kanalspecifik programkonfiguration i Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
 1. Om det behövs kan du ta bort egenskapen Experience Platform Launch.
-Mer information finns i [Ta bort programmet](../../administration/using/configuring-a-mobile-application.md#delete-app)Experience Platform Launch.
+Mer information finns i [Ta bort ditt Experience Platform Launch-program](../../administration/using/configuring-a-mobile-application.md#delete-app).
 
-## Synkronisera mobilappen AEPSDK från det tekniska arbetsflödet i Launch {#aepsdk-workflow}
+## Synkronisera mobilappen AEPSDK från det tekniska arbetsflödet för Launch {#aepsdk-workflow}
 
-När du har skapat och konfigurerat din mobila egenskap i Experience Platform Launch kommer det tekniska arbetsflödet nu att synkronisera de mobila egenskaper för Adobe Launch som har importerats till Adobe Campaign Standard. **[!UICONTROL Sync Mobile app AEPSDK from Launch]**
+När du har skapat och konfigurerat din mobila egenskap i Experience Platform Launch kommer det **[!UICONTROL Sync Mobile app AEPSDK from Launch]** tekniska arbetsflödet nu att synkronisera de mobila egenskaper för Adobe Launch som importerats till Adobe Campaign Standard.
 
 Som standard startar det tekniska arbetsflödet var 15:e minut. Vid behov kan den startas om manuellt:
 
-1. På den avancerade menyn i Adobe Campaign Standard väljer du **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]**.
-1. Öppna **[!UICONTROL Sync Mobile app AEPSDK from Launch (syncWithLaunch)]** arbetsflödet.
+1. I Adobe Campaign Standard väljer du **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]** på den avancerade menyn.
+1. Öppna arbetsflödet för **[!UICONTROL Sync Mobile app AEPSDK from Launch (syncWithLaunch)]**.
 
    ![](assets/launch_10.png)
 
-1. Click on the **[!UICONTROL Scheduler]** activity.
+1. Klicka på aktiviteten **[!UICONTROL Scheduler]**.
 
 1. Välj **[!UICONTROL Immediate execution]**.
 
@@ -94,12 +94,12 @@ Mer information om Synkronisera mobilappen AEPSDK från det tekniska arbetsflöd
 >
 >Som standard kan administratörer med organisationsenhet inställd på ALL redigera mobilprogrammet.
 
-1. På den avancerade menyn väljer du **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
+1. Välj **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]** på den avancerade menyn.
 
    ![](assets/launch.png)
 
 1. Markera mobilprogrammet som du skapade i Experience Platform Launch.
-Det **[!UICONTROL Property Status]** borde vara **[!UICONTROL Ready to configure]**.
+Dess **[!UICONTROL Property Status]** ska vara **[!UICONTROL Ready to configure]**.
 
    >[!NOTE]
    >
@@ -109,7 +109,7 @@ Det **[!UICONTROL Property Status]** borde vara **[!UICONTROL Ready to configure
 
    ![](assets/launch_4.png)
 
-1. Du kan ändra organisationsenheten för ditt mobilprogram under **[!UICONTROL Access Authorization]** avsnittet för att begränsa åtkomsten till det här mobilprogrammet till vissa organisationsenheter. För mer information om detta hittar du i det här avsnittet.
+1. Du kan ändra organisationsenheten för ditt mobilprogram under **[!UICONTROL Access Authorization]**-avsnittet för att begränsa åtkomsten till det här mobilprogrammet till vissa organisationsenheter. För mer information om detta hittar du i det här avsnittet.
 
    Här kan administratören tilldela underorganisationsenheter genom att välja dem i listrutan.
 
@@ -131,13 +131,13 @@ Det **[!UICONTROL Property Status]** borde vara **[!UICONTROL Ready to configure
 
 Ditt mobilprogram kan nu användas i Campaign för push-meddelanden eller leveranser i appen. Du kan nu konfigurera det ytterligare om det behövs för att skapa händelser som utlöser dina meddelanden i appen och/eller överför push-certifikat.
 
-1. På den avancerade menyn väljer du **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
+1. Välj **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]** på den avancerade menyn.
 
 1. Markera mobilprogrammet som du skapade och konfigurerade i Experience Platform Launch.
 
 1. På fliken **[!UICONTROL Mobile application properties]** kan du börja lägga till händelser som är tillgängliga i ditt mobilprogram för dina meddelanden i appen.
 
-1. Klicka på **[!UICONTROL Create Element]** för att konfigurera dina händelser.
+1. Klicka på **[!UICONTROL Create Element]** om du vill konfigurera dina händelser.
 
    ![](assets/launch_6.png)
 
@@ -147,7 +147,7 @@ Ditt mobilprogram kan nu användas i Campaign för push-meddelanden eller levera
 
 1. Klicka på **[!UICONTROL Add]**.
 
-   Din händelse är nu tillgänglig på fliken Utlösare när du skapar ett meddelande i appen. Mer information finns i [Förbereda och skicka ett meddelande](../../channels/using/preparing-and-sending-an-in-app-message.md)i appen.
+   Din händelse är nu tillgänglig på fliken Utlösare när du skapar ett meddelande i appen. Mer information finns i [Förbereda och skicka ett meddelande i appen](../../channels/using/preparing-and-sending-an-in-app-message.md).
 
 1. I avsnittet **[!UICONTROL Device-specific settings]** på kontrollpanelen för mobilprogram anger du programinformationen för varje enhet, inklusive certifikatet för iOS och servernyckeln för Android.
 
@@ -159,9 +159,9 @@ Ditt mobilprogram kan nu användas i Campaign för push-meddelanden eller levera
 
    ![](assets/launch_8.png)
 
-1. Klicka på **[!UICONTROL Mobile application subscribers]** fliken för att visa en lista över prenumeranter och annan information om dessa prenumeranter, till exempel om de avanmälde sig från dina meddelanden.
+1. Klicka på fliken **[!UICONTROL Mobile application subscribers]** om du vill se en lista över prenumeranter och annan information om dessa prenumeranter, till exempel om de har avanmält sig från dina meddelanden.
 
-## Ta bort ditt Adobe Experience Platform Launch-program {#delete-app}
+## Tar bort ditt Adobe Experience Platform Launch-program {#delete-app}
 
 Det går inte att ångra borttagningen av Experience Platform Launch.
 
@@ -169,7 +169,7 @@ Det går inte att ångra borttagningen av Experience Platform Launch.
 >
 >Det går inte att ångra borttagningen av Experience Platform Launch.
 
-Om du vill ta bort ditt Experience Platform Launch-program följer du stegen i [Ta bort mobila egenskaper](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#deleting-mobile-properties-in-experience-platform-launch).
+Om du vill ta bort ditt Experience Platform Launch-program slutför du stegen i [Ta bort mobila egenskaper](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#deleting-mobile-properties-in-experience-platform-launch).
 
 När programmet har tagits bort kontrollerar du i Adobe Campaign om programmets egenskapsstatus har uppdaterats korrekt till Borttaget vid start.
 
