@@ -9,8 +9,8 @@ topic-tags: editing-email-content
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -46,7 +46,7 @@ I det här exemplet kan du skapa en e-postdesignermall genom att använda ett HT
 1. Lägg till en HTML-komponent i varje strukturelement. Mer information finns i [Lägga till fragment och komponenter](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Kopiera och klistra in HTML i alla komponenter.
 
-## Hantera e-postmeddelandets format {#manage-the-style-of-your-email}
+## Hantera formatet för din e-post {#manage-the-style-of-your-email}
 
 1. Växla till **[!UICONTROL Mobile view]**. Mer information finns i [det här avsnittet](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
@@ -78,7 +78,7 @@ I det här exemplet kan du skapa en e-postdesignermall genom att använda ett HT
 
 ## Användningsfall
 
-Vi försöker konvertera det här e-postmeddelandet, som har skapats i den äldre redigeraren, till en **[!UICONTROL Email Designer]** mall.
+Vi försöker konvertera det här e-postmeddelandet, som har skapats i den äldre redigeraren, till en **[!UICONTROL Email Designer]**-mall.
 
 ### Identifiera avsnittet i ditt e-postmeddelande
 
@@ -94,7 +94,7 @@ Om du vill visa HTML-versionen av e-postmeddelandet klickar du på **[!UICONTROL
 
 ### Skapa e-postmallen och dess struktur
 
-1. Dra-och-släpp **[!UICONTROL Structure components]** som återspeglar layouten för vårt e-postmeddelande.
+1. Dra och släpp **[!UICONTROL Structure components]** som återspeglar layouten för e-postmeddelandet.
 
 1. Upprepa så många gånger som behövs. Vi måste skapa 11 strukturkomponenter.
 
@@ -102,11 +102,11 @@ Om du vill visa HTML-versionen av e-postmeddelandet klickar du på **[!UICONTROL
 
 ### Infoga HTML-innehållskomponenter
 
-1. Infoga en **[!UICONTROL HTML component]** i varje **[!UICONTROL Structure component]** .
+1. Infoga en **[!UICONTROL HTML component]** i varje **[!UICONTROL Structure component]**.
 
    ![](assets/html-components.png)
 
-1. För varje avsnitt klickar du på **[!UICONTROL Show source code]** .
+1. Klicka på **[!UICONTROL Show source code]** för varje avsnitt.
 
    ![](assets/show-source-code.png)
 
