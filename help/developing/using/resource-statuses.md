@@ -9,8 +9,8 @@ topic-tags: about-custom-resources
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Beroende på publicerings- eller aktiveringsstatus kan resurserna ha olika status.
 
-Det finns två kolumner som är dedikerade för att visa dessa statusvärden på **[!UICONTROL Custom resources]** skärmen.
+Det finns två kolumner som är dedikerade för att visa dessa statusvärden på **[!UICONTROL Custom resources]**-skärmen.
 
 ![](assets/schema_colonne_1.png)
 
@@ -32,7 +32,7 @@ Det finns två kolumner som är dedikerade för att visa dessa statusvärden på
 
    >[!NOTE]
    >
-   >Alternativet är **[!UICONTROL Cancel re-draft]** tillgängligt när den resurs som du vill göra om utkast fortfarande innehåller länkar via andra resurser med statusen&quot;Publicerad&quot;. Med det här alternativet kan du återställa processen för att göra om utkast. De anpassade resurserna återgår sedan till sin ursprungliga status.
+   >Alternativet **[!UICONTROL Cancel re-draft]** är tillgängligt när resursen som du vill göra om utkast fortfarande innehåller länkar via andra resurser med statusen Publicerad. Med det här alternativet kan du återställa processen för att göra om utkast. De anpassade resurserna återgår sedan till sin ursprungliga status.
 
 * **Publicerat**: resursen har publicerats. Om resursen ändras efter det senaste ändringsdatumet visas ett meddelande som uppmanar dig att publicera om resursen för att ta hänsyn till de senaste ändringarna.
 
