@@ -10,15 +10,15 @@ context-tags: deliveryTrackingReports,main;campaignTrackingReport,main;programTr
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Spårningsindikatorer{#tracking-indicators}
 
-Rapporten innehåller **[!UICONTROL Tracking indicators]** nyckelindikatorer för spårning av beteenden efter att e-postmeddelanden har tagits emot.
+Rapporten **[!UICONTROL Tracking indicators]** innehåller nyckelindikatorer för spårning av beteende efter att e-postmeddelanden har tagits emot.
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ Rapporten innehåller **[!UICONTROL Tracking indicators]** nyckelindikatorer fö
 
 ![](assets/delivery_reports_2.png)
 
-Tabellen **[!UICONTROL Tracking indicators]** och diagrammet **Top 5 delivers** innehåller tillgängliga data för e-postspårning, som:
+Diagrammet **[!UICONTROL Tracking indicators]** och **De fem vanligaste leveranserna** innehåller tillgängliga data för e-postspårning, till exempel:
 
 * **[!UICONTROL Delivered]**: Antal meddelanden som har skickats. Fel som uppstår (studsar) beaktas. Men klagomål (skräppostdeklarationer) och meddelanden som&quot;frånvaromeddelanden&quot; tas inte med i beräkningen.
 * **Öppna**: Antalet gånger ett meddelande öppnades i en leverans.
