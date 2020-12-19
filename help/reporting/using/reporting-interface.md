@@ -9,8 +9,8 @@ topic-tags: about-reporting
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -92,7 +92,7 @@ På fliken **Redigera** kan du:
 * **Ångra**: Avbryter din senaste åtgärd på instrumentpanelen.
 * **Radera allt**: Tar bort alla paneler på kontrollpanelen.
 
-### Infoga-flik {#insert-tab}
+### Infoga flik {#insert-tab}
 
 ![](assets/tab_insert.png)
 
@@ -107,41 +107,41 @@ På fliken **Infoga** kan du anpassa rapporter genom att lägga till diagram och
 
 ![](assets/tab_share_1.png)
 
-På fliken **[!UICONTROL Share]** kan du skicka rapporter till Adobe Campaign-användare via e-post med en enstaka bild eller återkommande meddelanden. Målanvändarna får sedan ett e-postmeddelande med din rapport bifogad.
+På fliken **[!UICONTROL Share]** kan du skicka rapporter med Adobe Campaign-användare via e-post med en bild eller återkommande. Målanvändarna får sedan ett e-postmeddelande med din rapport bifogad.
 
 * **[!UICONTROL Send report now]**: Skicka rapporten till en lista över valda mottagare via ett e-postmeddelande.
 
-   1. Lägg till en beskrivning i **[!UICONTROL Send report]** fönstret om det behövs.
+   1. Lägg till en beskrivning i fönstret **[!UICONTROL Send report]** om det behövs.
 
       ![](assets/tab_share_4.png)
 
    1. Markera mottagarna i e-postmeddelandet genom att klicka på fältet och välja dem i listrutan eller genom att skriva deras e-postadresser.
-   1. Kontrollera **[!UICONTROL Show scheduling options]** om du vill skicka återkommande e-postmeddelanden. Du kan också göra detta genom att markera **[!UICONTROL Send Report on schedule]** på **[!UICONTROL Share]** fliken.
+   1. Markera **[!UICONTROL Show scheduling options]** om du vill skicka återkommande e-postmeddelanden. Du kan också göra detta genom att välja **[!UICONTROL Send Report on schedule]** på fliken **[!UICONTROL Share]**.
    1. Klicka på **[!UICONTROL Send now]**. Mottagarna får sedan ett e-postmeddelande med rapporten bifogad.
 
 * **[!UICONTROL Send report on schedule]**: Schemalägg rapporten och skicka återkommande e-postmeddelanden till mottagarna.
 
-   1. Lägg till en beskrivning i **[!UICONTROL Send report]** fönstret om det behövs.
+   1. Lägg till en beskrivning i fönstret **[!UICONTROL Send report]** om det behövs.
    1. Markera mottagarna i e-postmeddelandet genom att klicka på fältet och välja dem i listrutan eller genom att skriva deras e-postadresser.
 
       ![](assets/tab_share_5.png)
 
-   1. Välj start- och slutdatum för att konfigurera e-postens giltighet i **[!UICONTROL Starting on]** - och **[!UICONTROL Ending on]** -fälten.
+   1. Välj start- och slutdatum för att konfigurera din e-postgiltighet i fälten **[!UICONTROL Starting on]** och **[!UICONTROL Ending on]**.
    1. Välj hur ofta ditt e-postmeddelande ska skickas.
 
       ![](assets/tab_share_2.png)
 
-   1. Klicka **[!UICONTROL Send on schedule]** så får mottagarna ditt återkommande e-postmeddelande beroende på hur ofta du väljer.
+   1. Klicka på **[!UICONTROL Send on schedule]** så får mottagarna ditt återkommande e-postmeddelande beroende på hur ofta de väljer.
 
 * **[!UICONTROL Scheduled reports]**: Hitta och konfigurera alla schemalagda rapporter.
 
-   1. I **[!UICONTROL Scheduled reports]** fönstret hittar du alla dina återkommande skickade rapporter.
+   1. I fönstret **[!UICONTROL Scheduled reports]** hittar du alla dina återkommande skickade rapporter.
 
       ![](assets/tab_share_3.png)
 
    1. Om du behöver ta bort en schemalagd rapport markerar du den schemalagda rapport som du vill ta bort och klickar sedan på **[!UICONTROL Delete the section]**.
    1. Om du vill konfigurera eller kontrollera dina schemalagda rapporter klickar du direkt på den rapport du vill ändra.
-   1. Fönstret visas. Nu kan du ändra mottagare eller frekvens för e-postmeddelandet om det behövs. **[!UICONTROL Edit scheduled report]**
+   1. Fönstret **[!UICONTROL Edit scheduled report]** visas. Nu kan du ändra mottagare eller frekvens för ditt e-postmeddelande om det behövs.
 
 Målanvändarna får sedan ett e-postmeddelande med din rapport bifogad direkt i sina inkorgar. Användare kan alltid bestämma sig för att sluta ta emot återkommande e-postmeddelanden via en länk för att avbryta prenumerationen som finns i varje återkommande e-postmeddelande.
 
