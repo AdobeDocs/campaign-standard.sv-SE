@@ -10,8 +10,8 @@ context-tags: fileExport,main
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 68%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,11 +22,11 @@ Följande exempel visar hur du konfigurerar en **[!UICONTROL Extract file]**-akt
 
 Målet med detta arbetsflödet är att exportera en lista med profiler i form av en extern fil så att data kan användas utanför Adobe Campaign.
 
-1. Drag and drop an [Extract file](../../automating/using/extract-file.md) activity into your workflow and place it after the [Query](../../automating/using/query.md) activity.
+1. Dra och släpp en [extraheringsfil](../../automating/using/extract-file.md)-aktivitet i arbetsflödet och placera den efter [aktiviteten Fråga](../../automating/using/query.md).
 
    I det här exemplet gäller förfrågan alla profiler som har en ålder på mellan 18 och 30.
 
-1. Open the **[!UICONTROL Extract file]** activity to edit it.
+1. Öppna aktiviteten **[!UICONTROL Extract file]** för att redigera den.
 1. Namnge utmatningsfilen.
 1. Lägg till utmatningskolumner.
 
@@ -45,7 +45,7 @@ Målet med detta arbetsflödet är att exportera en lista med profiler i form av
       ![](assets/wkf_data_export9.png)
 
 1. Bekräfta din aktivitet.
-1. Drag and drop a [Transfer file](../../automating/using/transfer-file.md) activity after the **[!UICONTROL Extract file]** activity to recover the extract file on an external account.
+1. Dra och släpp en [överföringsfil](../../automating/using/transfer-file.md)-aktivitet efter **[!UICONTROL Extract file]**-aktiviteten för att återställa extraheringsfilen på ett externt konto.
 1. Öppna aktiviteten och välj **[!UICONTROL File upload]**-åtgärden.
 
    ![](assets/wkf_data_export11.png)
