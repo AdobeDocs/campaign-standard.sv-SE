@@ -9,8 +9,8 @@ topic-tags: workflow-general-operation
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 19%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 19%
 
 Det är möjligt att övervaka de händelsevariabler som är tillgängliga i arbetsflödet, inklusive de deklarerade externa parametrarna. Följ stegen nedan för att göra detta:
 
-1. Markera aktiviteten som följer **[!UICONTROL External signal]** aktiviteten och klicka sedan på **[!UICONTROL Log and tasks]** knappen.
-1. In the **[!UICONTROL Tasks]** tab, click ![](assets/edit_darkgrey-24px.png) button.
+1. Markera aktiviteten som följer aktiviteten **[!UICONTROL External signal]** och klicka sedan på knappen **[!UICONTROL Log and tasks]**.
+1. Klicka på knappen ![](assets/edit_darkgrey-24px.png) på fliken **[!UICONTROL Tasks]**.
 
    ![](assets/extsignal_monitoring_2.png)
 
