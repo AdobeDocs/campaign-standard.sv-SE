@@ -10,8 +10,8 @@ context-tags: segmentation,main
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -44,7 +44,7 @@ Aktiviteten **[!UICONTROL Segmentation]** placeras vanligtvis efter målaktivite
 
 1. Dra och släpp en **[!UICONTROL Segmentation]**-aktivitet i arbetsflödet.
 1. Markera aktiviteten och öppna den sedan med ![](assets/edit_darkgrey-24px.png)-knappen bland de snabbåtgärder som visas.
-1. In the **[!UICONTROL General]** tab, select the **[!UICONTROL Resource type]** on which the segmentation has to be carried out:
+1. På fliken **[!UICONTROL General]** väljer du den **[!UICONTROL Resource type]** som segmenteringen ska utföras på:
 
    * **[!UICONTROL Database resource]** om segmenteringen utförs på data som redan finns i databasen. Markera **[!UICONTROL Filtering dimension]** beroende på vilka data du vill segmentera. Som standard segmenteras **profilerna**.
    * **[!UICONTROL Temporary resource]** Om segmenteringen utförs på arbetsflödets tillfälliga data, markera den **[!UICONTROL Targeted set]** som innehåller den datan som ska segmenteras.  Detta kan inträffa när du har importerat en fil eller när data i databasen har berikats.
@@ -61,7 +61,7 @@ Aktiviteten **[!UICONTROL Segmentation]** placeras vanligtvis efter målaktivite
    * **[!UICONTROL Limit segment population]**: använder du för att begränsa storleken på segmentet.
    * **[!UICONTROL Filter and limit segment population]**: här kan du filtrera populationen av segmentet och begränsa dess storlek.
    * **[!UICONTROL Label]**: segmentets etikett.
-   * **[!UICONTROL Segment code]**: kod tilldelad segmentpopulationen. Segmentkoden kan anpassas med ett standarduttryck och händelsemariabler (se [den här sidan](../../automating/using/customizing-workflow-external-parameters.md)).
+   * **[!UICONTROL Segment code]**: kod tilldelad segmentpopulationen. Segmentkoden kan anpassas med ett standarduttryck och händelsemariabler (se  [den här sidan](../../automating/using/customizing-workflow-external-parameters.md)).
    * **[!UICONTROL Exclude segment from population]**: gör så att du kan utesluta det angivna segmentet från aktivitetens utgående population.  Det här alternativet kan endast användas om alternativet **[!UICONTROL Generate all segments in the same transition]** är markerat.
 
    ![](assets/wkf_segment_new_segment.png)
@@ -96,6 +96,6 @@ Aktiviteten **[!UICONTROL Segmentation]** placeras vanligtvis efter målaktivite
 
    * Markera alternativet **[!UICONTROL Enable overlapping of outbound populations]** om du vill att en medlem i den inkommande populationen samtidigt ska tillhöra flera segment.  Den utgående population av aktiviteten kan överskrida den inkommande populationen.
    * Markera alternativet **[!UICONTROL Concatenate the code of each segment]** om den inkommande populationen redan har tilldelats en segmentkod som du vill behålla.  Segmentkoden som anges i aktiviteten läggs till i den inledande segmentkoden.
-   * Markera alternativet **[!UICONTROL Generate complement]** om du vill utnyttja den återstående populationen. See [Use case: Creating deliveries with a complement](../../automating/using/workflow-created-query-with-complement.md).
+   * Markera alternativet **[!UICONTROL Generate complement]** om du vill utnyttja den återstående populationen. Se [Användningsfall: Skapa leveranser med ett komplement](../../automating/using/workflow-created-query-with-complement.md).
 
 1. Bekräfta aktivitetens konfiguration och spara arbetsflödet.
