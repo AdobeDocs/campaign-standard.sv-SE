@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: a7300666587362048431d0bafacc317170b317aa
 workflow-type: tm+mt
 source-wordcount: '410'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -39,23 +39,23 @@ Om du vill veta mer om hur målprofilerna fungerar kan du spåra hur de reagerar
 
 **Tips**: Spårning av meddelanden är aktiverat som standard. Om du vill konfigurera URL-adresser väljer du alternativet Visa URL-adresser i det nedre avsnittet av leveransguiden. För varje URL för meddelandet kan du välja om spårning ska aktiveras.
 
-Mer information finns i avsnittet [Spårningsmeddelanden](../../sending/using/tracking-messages.md) och i beskrivningen av [spårningsindikatorer](../../reporting/using/tracking-indicators.md) .
+Mer information finns i avsnittet [Spåra meddelanden](../../sending/using/tracking-messages.md) och beskrivningen [Spåra indikatorer](../../reporting/using/tracking-indicators.md).
 
 ## Dynamiska rapporter {#dyn-reports}
 
 Med dynamiska rapporter kan ni skapa fullt anpassningsbara realtidsrapporter för att övervaka era kampanjer. Dimensioner, mätvärden och visualiseringar gör att ni kan mäta hur effektiva era kampanjer är för mottagarna.
 
-**Tips** - Det finns inbyggda rapporter som du kan använda för att övervaka kampanjer, men dessa rapporter kan också anpassas genom att dra och släppa mätvärden eller dimensioner i rapporten.
+**Tips**  - Det finns inbyggda rapporter som du kan använda för att övervaka kampanjer, men dessa rapporter kan också anpassas genom att dra och släppa mätvärden eller dimensioner i rapporten.
 
-For more on this, refer to the [Reporting guide](../../reporting/using/about-dynamic-reports.md).
+Mer information finns i [Rapportguiden](../../reporting/using/about-dynamic-reports.md).
 
 ## Snabbklickningar
 
 Rapporten Snabbklickningar visar meddelandeinnehållet (HTML och/eller text) med procentandelen klickningar på varje länk. Genom att visa procentandelen klick för varje dynamiskt innehåll kan du mäta vilket innehåll som mest tilltalar mottagarna.
 
-Mer information finns i rapporten [](../../reporting/using/hot-clicks.md)Hot Click.
+Mer information finns i [Hot Click-rapporten](../../reporting/using/hot-clicks.md).
 
-## Tips om leveransresultat {#performance-tips}
+## Tips för leveransresultat {#performance-tips}
 
 * Behåll inte leveranser i felaktigt tillstånd för instansen eftersom detta bevarar tillfälliga tabeller och påverkar prestandan.
 
