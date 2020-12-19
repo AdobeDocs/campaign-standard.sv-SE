@@ -84,7 +84,7 @@ Läs resurserna nedan:
 
 * [Video Tutorials](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
 * [Produktdokumentation](../../channels/using/about-push-notifications.md)
-* Konfigurera med AEP SDK- [dokumentation](../../administration/using/configuring-a-mobile-application.md)
+* Konfigurera med AEP SDK [dokumentation](../../administration/using/configuring-a-mobile-application.md)
 * [Community-sida](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Vad måste jag göra för att få en push-token i Campaign? {#push-token-acquisition}
@@ -125,7 +125,7 @@ Kontrollera att dina push-certifikat är giltiga genom att testa dem [här](http
 
 ### Jag kan skicka push-meddelanden från pushtry.com, men inte via Campaign. {#push-not-sending}
 
-Kontrollera att du följer instruktionerna för push-nyttolast som finns [här](../../administration/using/push-payload.md).
+Kontrollera att du följer instruktionerna för push-nyttolast som anges [här](../../administration/using/push-payload.md).
 
 Observera att för Android har Campaign bara stöd för datanyttolast, inte meddelandenyttolast
 
@@ -139,14 +139,14 @@ Vänligen öppna en kundtjänstbiljett.
 
 ### Push-meddelanden levereras från Campaign men mediefilen visas inte.{#media-file-unavailable}
 
-Mobilappsutvecklare måste hantera stödet för mediefiler i appen. Ibland kan nätverkets bandbredd även förhindra att en mediefil återges. På den här [sidan](../../administration/using/image-push-notification.md) finns fler pekare.
+Mobilappsutvecklare måste hantera stödet för mediefiler i appen. Ibland kan nätverkets bandbredd även förhindra att en mediefil återges. Mer information finns på den här [sidan](../../administration/using/image-push-notification.md) om du vill ha fler pekare.
 
 ### Vad måste jag göra för att aktivera push-rapportering i Campaign? {#push-reporting-enable}
 
 Följ stegen nedan:
 
 * Konfigurera ett återanslående. Instruktioner finns [här](../../administration/using/configuring-a-mobile-application.md).
-* Implementera trackAction API från Mobile Core. Refer to this [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) for more information.
+* Implementera trackAction API från Mobile Core. Mer information finns på den här [sidan](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference).
 
 Mer detaljerade instruktioner finns på den här [sidan](../../administration/using/push-tracking.md).
 
