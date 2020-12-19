@@ -10,8 +10,8 @@ context-tags: cusResource,main
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -85,4 +85,4 @@ När ett filter har konfigurerats kan du använda det från Campaign Standard-AP
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
 
-Mer information finns i dokumentationen [till](../../api/using/filtering.md#custom-filters)Campaign Standards-API:erna.
+Mer information finns i [Campaign Standard-API:ernas dokumentation](../../api/using/filtering.md#custom-filters).
