@@ -32,7 +32,7 @@ Fyra körningskommandon finns för att styra ett arbetsflöde:
 * Återuppta
 * Stoppa
 
-Mer information om körningskommandona finns i dokumentationen [för](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html)Campaign.
+Mer information om körningskommandona finns i [Kampanjdokumentationen](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html).
 
 <br/>
 
