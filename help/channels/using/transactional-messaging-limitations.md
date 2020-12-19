@@ -10,8 +10,8 @@ context-tags: null
 translation-type: tm+mt
 source-git-commit: 0092ad11314fab232663f558ca6635b8fcc03133
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 68%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
