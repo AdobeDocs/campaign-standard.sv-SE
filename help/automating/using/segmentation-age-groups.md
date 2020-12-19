@@ -26,9 +26,9 @@ Målet med arbetsflödet är att skicka ett specifikt e-postmeddelande till varj
 
 Arbetsflödet består av följande element:
 
-* A [Scheduler activity](../../automating/using/segmentation.md) to specify the workflow&#39;s execution date.
-* A [Query](../../automating/using/query.md) activity to target profiles of people whose birthday and email address have been entered.
-* A [Segmentation](../../automating/using/segmentation.md) activity to create 3 segments divided into different outbound transitions: 18-25-year old, 26-32-year old and profiles that are over 32 years old. Segmenten definieras enligt följande parametrar:
+* En [schemaläggaraktivitet](../../automating/using/segmentation.md) som anger arbetsflödets körningsdatum.
+* En [Fråga](../../automating/using/query.md)-aktivitet till målprofiler för personer vars födelsedag och e-postadress har angetts.
+* En [segmenteringsaktivitet](../../automating/using/segmentation.md) som skapar tre segment indelade i olika utgående övergångar: 18-25 år gamla, 26-32 år gamla och profiler som är över 32 år gamla. Segmenten definieras enligt följande parametrar:
 
    ![](assets/wkf_segment_example_3.png)
 
