@@ -9,8 +9,8 @@ topic-tags: campaign-standard-apis
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 1%
 
 Som standard läses 25 resurser in i en lista.
 
-Med parametern **_lineCount** kan du begränsa antalet resurser som anges i svaret.  Du kan sedan använda **nästa** nod för att visa nästa resultat.
+Med parametern **_lineCount** kan du begränsa antalet resurser som anges i svaret.  Du kan sedan använda noden **next** för att visa nästa resultat.
 
 >[!NOTE]
 >
->Använd alltid URL-värdet som returneras i **nästa** nod för att utföra en sidnumreringsbegäran.
+>Använd alltid URL-värdet som returneras i **nästa**-nod för att utföra en sidnumreringsbegäran.
 >
->Begäran **_lineStart** beräknas och måste alltid användas i den URL som returneras i **nästa** nod.
+>**_lineStart**-begäran beräknas och måste alltid användas inom den URL som returneras i **nästa**-nod.
 
 <br/>
 
@@ -41,7 +41,7 @@ Exempelbegäran om GET för att visa 1 post för profilresursen.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Svar på begäran, med **nästa** nod som utför sidnumrering.
+Svara på begäran med noden **next** för att utföra sidnumrering.
 
 ```
 {
@@ -62,7 +62,7 @@ Svar på begäran, med **nästa** nod som utför sidnumrering.
 }
 ```
 
-Som standard är **nästa** nod inte tillgänglig när du interagerar med tabeller med stora mängder data. Om du vill kunna utföra paginering måste du lägga till parametern **_forcePagination=true** i din anrops-URL.
+Som standard är noden **next** inte tillgänglig när den interagerar med tabeller med stora mängder data. För att kunna utföra paginering måste du lägga till parametern **_forcePagination=true** i din anrops-URL.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
@@ -74,4 +74,4 @@ Som standard är **nästa** nod inte tillgänglig när du interagerar med tabell
 
 >[!NOTE]
 >
->Antalet poster över vilka en tabell anses vara stor definieras i Campaign Standarden **XtkBigTableThreshold** . Standardvärdet är 100 000 poster.
+>Antalet poster över vilka en tabell anses vara stor definieras i Campaign Standarden **XtkBigTableThreshold**. Standardvärdet är 100 000 poster.
