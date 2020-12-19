@@ -19,17 +19,17 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->Observera att du måste dra och släppa mätvärden till dina tabeller för att dela upp data beroende på vilka leveranstyper du har, i det här fallet push-meddelanden. **[!UICONTROL Message type]**
+>Observera att du måste dra och släppa **[!UICONTROL Message type]**-måtten i tabellerna för att dela upp data beroende på leveranstyp, i det här fallet push-meddelanden.
 
-Rapporten om **push-meddelanden** innehåller information om hur push-meddelanden i Adobe Campaign har utvecklats. Den här användningsklara rapporten hjälper dig att förstå hur användare interagerar med push-meddelanden, mobilprogram och leveranser.
+Rapporten **Push notification** ger information om marknadsföringsprestanda för push-meddelanden i Adobe Campaign. Den här användningsklara rapporten hjälper dig att förstå hur användare interagerar med push-meddelanden, mobilprogram och leveranser.
 
-Viss konfiguration krävs i mobilprogrammet för att implementera push-spårning. Mer information finns på den här [sidan](../../administration/using/push-tracking.md) .
+Viss konfiguration krävs i mobilprogrammet för att implementera push-spårning. Mer information finns på den här [sidan](../../administration/using/push-tracking.md).
 
 ![](assets/dynamic_report_push.png)
 
 Varje tabell representeras av sammanfattande nummer och diagram. Du kan ändra hur detaljerna visas i deras respektive visualiseringsinställningar.
 
-Den första tabellen i Översikt över **push-meddelandeåtaganden** är uppdelad i tre kategorier: per dag, per mobilapp och per leverans. Den innehåller tillgängliga data för mottagarens reaktivitet för leveransen:
+Den första tabellen **Översikt över push-meddelandeåtaganden** är uppdelad i tre kategorier: per dag, per mobilapp och per leverans. Den innehåller tillgängliga data för mottagarens reaktivitet för leveransen:
 
 * **[!UICONTROL Processed/sent]**: Totalt antal skickade push-meddelanden.
 * **[!UICONTROL Delivered]**: Antal push-meddelanden som har skickats, i relation till det totala antalet skickade push-meddelanden.
@@ -40,7 +40,7 @@ Den första tabellen i Översikt över **push-meddelandeåtaganden** är uppdela
 
 ![](assets/dynamic_report_push_2.png)
 
-Den andra tabellen **Push Notification Click &amp; opens** är uppdelad i tre kategorier: per dag, per mobilapp och per leverans. Den innehåller tillgängliga data för mottagarnas beteende per leverans:
+Den andra tabellen **Push notification Click &amp; opens** är uppdelad i tre kategorier: per dag, per mobilapp och per leverans. Den innehåller tillgängliga data för mottagarnas beteende per leverans:
 
 * **[!UICONTROL Impressions]**: Totalt antal push-meddelanden som visas av mottagarna.
 * **[!UICONTROL Unique impressions]**: Antal visningar per mottagare.
