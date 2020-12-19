@@ -10,21 +10,21 @@ context-tags: deliveryCirculationReport,main;campaignCirculationReport,main;prog
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Sammanfattning av leverans{#delivery-summary}
 
-Rapporten innehåller information om den viktigaste informationen i förhållande till ett e-postmeddelande eller flera e-postmeddelanden. **[!UICONTROL Delivery summary]**
+Rapporten **[!UICONTROL Delivery summary]** innehåller information om huvudinformationen i förhållande till ett e-postmeddelande eller flera e-postmeddelanden.
 
 ![](assets/campaign_reports_1.png)
 
 Varje tabell representeras av sammanfattande nummer och diagram. Du kan ändra hur detaljerna visas i deras respektive visualiseringsinställningar.
 
-Tabellen **Leveransstatistik** innehåller tillgängliga data för skickade e-postmeddelanden, som:
+Tabellen **Leveransstatistik** innehåller data som är tillgängliga för skickade e-postmeddelanden, som:
 
 * **[!UICONTROL Processed/sent]**: Det totala antalet försändelser för leveransen.
 * **[!UICONTROL Delivered]**: Antalet meddelanden som har skickats, i relation till det totala antalet skickade meddelanden. Fel som uppstår (studsar) beaktas. Klagomål (skräppostdeklarationer) och meddelanden som&quot;frånvaromeddelanden&quot; tas dock inte med i beräkningen.
