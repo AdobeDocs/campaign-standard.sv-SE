@@ -9,8 +9,8 @@ topic-tags: working-with-campaign-and-experience-manager
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,31 +21,31 @@ Tack vare integreringen mellan Adobe Campaign Standard och Adobe Experience Mana
 
 Därför kan ni få ut det mesta av Adobe Experience Manager funktioner för redigering av innehåll liksom Adobe Campaign funktioner för leverans och datahantering. Observera att du inte kan utföra A/B-tester för innehåll som importerats från Adobe Experience Manager.
 
-Adobe Campaign Standard är kompatibelt med Adobe Experience Manager 6.1, 6.2, 6.3, 6.4 och 6.5. I följande avsnitt visas en översikt över de åtgärder du kan utföra. Mer information finns i avsnitten om [konfiguration](https://docs.adobe.com/content/help/en/experience-manager-65/administering/integration/campaignstandard.html) och [användning](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/aem-adobe-campaign/campaign.html) av integreringen.
+Adobe Campaign Standard är kompatibelt med Adobe Experience Manager 6.1, 6.2, 6.3, 6.4 och 6.5. I följande avsnitt visas en översikt över de åtgärder du kan utföra. Mer information finns i avsnitten för [konfiguration](https://docs.adobe.com/content/help/en/experience-manager-65/administering/integration/campaignstandard.html) och [användning](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/aem-adobe-campaign/campaign.html) av integreringen.
 
 >[!NOTE]
 >
 > Adobe Campaign Standard-mallar är inte längre tillgängliga med Adobe Experience Manager 6.5.
 
-## Tips om hur man använder integreringen mellan Campaign och Experience Manager {#tips-aem}
+## Tips om hur du använder integrering mellan Campaign och Experience Manager {#tips-aem}
 
 * **Ta reda på vilken mall som ska användas med integreringen**
 
    Eftersom e-postmallar är redigerbara i Adobe Experience Manager kan det se lättare att redigera alla mallar i Adobe Experience Manager. Men vissa mallar är inte så lätta att hantera. Individuella mallar som är specifika för en kund rekommenderas inte för den här integreringen och bör redigeras direkt i Adobe Campaign Standard.
 
-   For more information on templates, refer to this [page](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/templates.html).
+   Mer information om mallar finns på den här [sidan](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/templates.html).
 
 * **Kontrollera att Externalizer har konfigurerats under implementeringen**
 
    Om du konfigurerar Externalizer när du implementerar Experience Manager för Adobe Campaign Standard kan du omvandla en resurssökväg till en URL. På så sätt kan du göra bilderna synliga på sidan. Om Externalizer inte är korrekt konfigurerad kommer dina e-postmeddelanden att innehålla trasiga bilder.
 
-   Mer information om hur du konfigurerar externaliseraren finns på den här [sidan](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/externalizer.html).
+   Mer information om hur du konfigurerar Externalizer finns på den här [sidan](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/externalizer.html).
 
 * **Ordna e-postmallarna för att undvika missbruk.**
 
    Genom att hålla mallarna organiserade kan du vara säker på att rätt mallar finns i rätt mappar och inte välja fel av misstag. Under implementeringen bör sökvägar skapas för att spara mallar på rätt plats.
 
-   For more information on templates, refer to this [page](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/templates.html#template-availability).
+   Mer information om mallar finns på den här [sidan](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/templates.html#template-availability).
 
 * **Kom igång snabbt med färdiga komponenter.**
 
