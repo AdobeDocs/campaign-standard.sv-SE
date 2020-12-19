@@ -9,8 +9,8 @@ topic-tags: working-with-campaign-and-target
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ Följande element krävs för den här proceduren:
 1. Om du vill konfigurera server- och klientalternativ för Adobe Target fyller du i följande fält i enlighet med detta:
 
    * **[!UICONTROL TNT_TenantName]**: namnet på Adobe Target-klienten. Detta värde motsvarar namnet på Adobe Target **[!UICONTROL Client]**.
-   * **[!UICONTROL TNT_EdgeServer]**: Adobe Target-server som används för integrering. Det här alternativet finns redan som standard. Detta värde motsvarar Adobe Target **[!UICONTROL Server Domain]**, följt av värdet **/m2** . Till exempel: **tt.omtrdc.net/m2**.
+   * **[!UICONTROL TNT_EdgeServer]**: Adobe Target-server som används för integrering. Det här alternativet finns redan som standard. Detta värde motsvarar Adobe Target **[!UICONTROL Server Domain]**, följt av värdet **/m2**. Till exempel: **tt.omtrdc.net/m2**.
 
    ![](assets/tar_options.png)
 
