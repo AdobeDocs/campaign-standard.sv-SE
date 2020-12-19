@@ -9,8 +9,8 @@ topic-tags: editing-email-content
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -59,13 +59,13 @@ När länken har skapats kan du fortfarande ändra den i inställningspanelen. K
 
 ![](assets/des_link_edit.png)
 
-När du redigerar ett e-postmeddelande med [e-postdesignern](../../designing/using/designing-content-in-adobe-campaign.md)kan du enkelt komma åt och ändra länkarna som du skapade från tabellen med alla URL:er som finns i e-postmeddelandet. Med den här listan kan du ha en centraliserad vy och hitta varje URL i e-postinnehållet. Mer information finns i [Om spårade URL:er](#about-tracked-urls).
+När du redigerar ett e-postmeddelande med [e-postdesignern](../../designing/using/designing-content-in-adobe-campaign.md) kan du enkelt komma åt och ändra länkarna som du skapade från tabellen med alla URL:er som finns i e-postmeddelandet. Med den här listan kan du ha en centraliserad vy och hitta varje URL i e-postinnehållet. Mer information finns i [Om spårade URL:er](#about-tracked-urls).
 
 ![](assets/des_link_list.png)
 
 >[!NOTE]
 >
->Det går inte att ändra anpassade URL-adresser som **Spegelvänd sidadress** eller **Oprenumeration** från den här listan. Alla andra länkar kan redigeras.
+>Det går inte att ändra anpassade URL-adresser som **Spegelsidans URL** eller **Bryt prenumeration**-länkar från den här listan. Alla andra länkar kan redigeras.
 
 **Relaterade ämnen**:
 
@@ -75,15 +75,15 @@ När du redigerar ett e-postmeddelande med [e-postdesignern](../../designing/usi
 
 ## Om spårade URL:er {#about-tracked-urls}
 
-Med Adobe Campaign kan du spåra mottagarnas beteende när de klickar på en URL som ingår i ett e-postmeddelande. For more on tracking, see [this section](../../sending/using/tracking-messages.md#about-tracking).
+Med Adobe Campaign kan du spåra mottagarnas beteende när de klickar på en URL som ingår i ett e-postmeddelande. Se [det här avsnittet](../../sending/using/tracking-messages.md#about-tracking) för mer om spårning.
 
-Ikonen i åtgärdsfältet visar automatiskt en lista över alla URL:er för ditt innehåll som ska spåras. **[!UICONTROL Links]**
+Ikonen **[!UICONTROL Links]** i åtgärdsfältet visar automatiskt listan över alla URL:er för ditt innehåll som ska spåras.
 
 ![](assets/des_links.png)
 
 >[!NOTE]
 >
->Spårning är aktiverat som standard. Den här funktionen är bara tillgänglig för e-postmeddelanden om spårning har aktiverats i Adobe Campaign. For more on the tracking parameters, refer to [this section](../../administration/using/configuring-email-channel.md#tracking-parameters).
+>Spårning är aktiverat som standard. Den här funktionen är bara tillgänglig för e-postmeddelanden om spårning har aktiverats i Adobe Campaign. Mer information om spårningsparametrar finns i [det här avsnittet](../../administration/using/configuring-email-channel.md#tracking-parameters).
 
 URL, kategori, etikett och spårningstyp för varje länk kan ändras i den här listan. Om du vill redigera en länk klickar du på motsvarande pennikon.
 
@@ -102,13 +102,13 @@ Du kan även inaktivera eller aktivera spårning för varje URL.
 
 >[!NOTE]
 >
->Som standard spåras alla innehålls-URL:er i Adobe Campaign, förutom **Spegelsidans URL** och länken **Unsubscription** .
+>Som standard spåras alla innehålls-URL:er i Adobe Campaign, förutom **Spegelsidans URL** och **Avbeställ**-länken.
 
-Du kan gruppera om dina URL-adresser genom att redigera **[!UICONTROL Category]** fältet, beroende på vilka URL-adresser som används i meddelandet. Dessa kategorier kan visas som rapporter, t.ex. i [URL:er och klicka på strömmar](../../reporting/using/urls-and-click-streams.md).
+Du kan gruppera om dina URL-adresser genom att redigera fältet **[!UICONTROL Category]**, beroende på vilka URL-adresser som används i meddelandet. Dessa kategorier kan visas som i [URL:er och klicka på strömmar](../../reporting/using/urls-and-click-streams.md).
 
 ![](assets/des_link_tracking_category.png)
 
-När du skapar en rapport väljer du **[!UICONTROL Components]** och rullar nedåt på **[!UICONTROL Dimension]** fliken för att komma åt spårningskomponenterna. Dra och släpp **[!UICONTROL Tracking URL Category]** till exempel till arbetsytan för att visa resultat enligt spårningskategorin för varje klickad URL.
+När du skapar en rapport väljer du **[!UICONTROL Dimension]** på fliken **[!UICONTROL Components]** och rullar nedåt i listan för att komma åt spårningskomponenterna. Du kan till exempel dra och släppa **[!UICONTROL Tracking URL Category]** på arbetsytan för att visa resultat enligt spårningskategorin för varje klickad URL.
 
 ![](assets/des_link_tracking_report.png)
 
