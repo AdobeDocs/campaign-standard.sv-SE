@@ -9,8 +9,8 @@ topic-tags: working-with-campaign-and-ms-dynamics
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '1448'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +39,7 @@ Integreringen ger inte upphov till några integritetsfrågor (t.ex. GDPR) som ta
 
 Om du har konfigurerat integreringen för att utfärda vanliga profilborttagningsanrop till Campaign när en kontakt tas bort i Dynamics 365 bör du följa stegen nedan. Se till att inga uppdateringar görs av posten i fråga under den här processen.
 
-1. Skicka begäran om att ta bort sekretess till [Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experiencecloud/gdpr.html)
+1. Skicka begäran om borttagning av sekretess till [Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experiencecloud/gdpr.html)
 
 1. Övervaka begäran tills den har slutförts
 
@@ -56,7 +56,7 @@ Nedan finns länkar som hjälper dig att implementera och/eller ta bort sekretes
 * [Adobe Campaign Standard](https://www.adobe.io/apis/experiencecloud/gdpr/docs.html)
 
 
-### Integritet och länkade resurser {#privacy-linked-resources}
+### Sekretess och länkade resurser {#privacy-linked-resources}
 
 Om en anpassad kampanjresurspost innehåller personlig information, som gäller för en kunds användning av Campaign, ska posten länkas till en motsvarande kampanjprofilpost (antingen direkt eller via en annan anpassad resurs) så att en sekretessrelaterad borttagning i profilposten också kan ta bort den länkade anpassade resursposten som innehåller personlig information. Alternativen för att länka och ta bort mellan enheterna måste konfigureras så att den här överlappande borttagningen av de länkade posterna aktiveras. Personlig information ska inte anges i en anpassad resurs som inte är länkad till profilen.
 
@@ -99,7 +99,7 @@ Din Campaign SFTP-lagring måste utnyttjas av integreringen i användningsexempl
 
 Den här integreringen synkroniserar kontakter och anpassade enheter från Dynamics 365 till Campaign. Kampanjposter som skapas utanför integreringen (d.v.s. inte skapas av synkroniseringsjobbet) ändras inte av integreringen, inklusive Campaign-poster som finns vid tidpunkten för integreringskonfigurationen.
 
-Eftersom den här integreringen använder **[!UICONTROL externalId]** fältet i Campaign för att synkronisera Campaign-profilposter med Dynamics 365-kontaktposter, måste det här Campaign-fältet (**[!UICONTROL externalId]** ) fyllas i med Dynamics 365 **[!UICONTROL contactId]** för de poster du vill synkroniseras från Dynamics 365.  Anpassade enheter synkroniseras också med ett unikt Dynamics 365-ID. Kampanjens anpassade entitet måste inkludera det här ID-attributet som en tabellkolumn. Kolumnen externalId kan användas för att lagra det här attributvärdet, men det krävs inte för anpassade enheter i Campaign.
+Eftersom den här integreringen använder fältet **[!UICONTROL externalId]** i Campaign för att synkronisera Campaign-profilposter med Dynamics 365-kontaktposter, måste det här kampanjfältet (**[!UICONTROL externalId]**) fyllas i med Dynamics 365 **[!UICONTROL contactId]** för de poster som du vill synkroniseras från Dynamics 365.  Anpassade enheter synkroniseras också med ett unikt Dynamics 365-ID. Kampanjens anpassade entitet måste inkludera det här ID-attributet som en tabellkolumn. Kolumnen externalId kan användas för att lagra det här attributvärdet, men det krävs inte för anpassade enheter i Campaign.
 
 Tänk på att Dynamics 365 fortfarande är källan till sanning och att kampanjprofildata kan skrivas över när integreringen upptäcker uppdateringar på Dynamics 365-sidan.  Det kan också finnas andra steg som krävs för att aktivera integreringen, beroende på din befintliga driftsättning. Vi rekommenderar därför att du samarbetar nära med din tekniska kontakt med Adobe.
 
