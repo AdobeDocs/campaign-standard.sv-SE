@@ -9,8 +9,8 @@ index: y
 translation-type: tm+mt
 source-git-commit: a7300666587362048431d0bafacc317170b317aa
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 11%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 11%
 
 Målgruppen är följande: skapa listor noggrant, testa e-postmeddelanden på populära e-postklienter och mobila enheter och se till att e-postlistorna är aktuella (utan okända eller föråldrade adresser). Du kan också skicka korrektur som hjälper dig att konfigurera en komplett valideringscykel.
 
-Läs mer om målpopulationer [i det här avsnittet](../../audiences/using/selecting-an-audience-in-a-message.md)
+Läs mer om målpopulationer [i detta avsnitt](../../audiences/using/selecting-an-audience-in-a-message.md)
 
 ## Rikta er till rätt målgrupp {#target-the-right-audience}
 
@@ -29,9 +29,9 @@ För att leveransen ska bli framgångsrik vill ni skicka det mest relevanta pers
 
 ## Målmappningar {#target-mappings}
 
-Som standard har leveransmallar som mål **Profiler**. Adobe Campaign erbjuder andra målmappningar för leveranser som du kan ändra efter behov.
+Som standard är leveransmallar avsedda för **profiler**. Adobe Campaign erbjuder andra målmappningar för leveranser som du kan ändra efter behov.
 
-Dessa mappningar presenteras [i det här avsnittet](../../automating/using/query.md#targeting-dimensions-and-resources).
+Dessa mappningar visas [i det här avsnittet](../../automating/using/query.md#targeting-dimensions-and-resources).
 
 Du kan också skapa och använda en anpassad målmappning. Mer information om detta finns i [det här avsnittet](../../administration/using/target-mappings-in-campaign.md).
 
@@ -39,7 +39,7 @@ Du kan också skapa och använda en anpassad målmappning. Mer information om de
 
 Du kan leverera till mottagare som lagras i en extern fil i stället för att sparas i databasen. Om du gör det läser du in data i databasen från en fil och skapar en associerad målgrupp.  Läs mer [i det här fallet](../../automating/using/use-case-calling-workflow.md). Se även [Anropa ett arbetsflöde med parametrar](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
-## Skicka till prenumeranterna {#send-to-subscribers}
+## Skicka till dina prenumeranter {#send-to-subscribers}
 
 Om du vill skicka meddelanden till prenumeranterna på ett nyhetsbrev kan du rikta dem direkt till motsvarande informationstjänst. Läs mer [i det här avsnittet](../../audiences/using/about-subscriptions.md).
 
@@ -48,13 +48,13 @@ Om du vill skicka meddelanden till prenumeranterna på ett nyhetsbrev kan du rik
 ## Korrektur, testprofiler och kontrollgrupper {#proofs-test-control-groups}
 
 Om du vill testa leveransen använder du korrektur innan du skickar till huvudmålet.
-Se till att du väljer rätt korrekturmottagare eftersom de validerar formuläret och meddelandets innehåll. Stegen för att skicka korrektur beskrivs [i det här avsnittet](../../sending/using/sending-proofs.md).
+Se till att du väljer rätt korrekturmottagare eftersom de validerar formuläret och meddelandets innehåll. Stegen för att skicka korrektur visas [i det här avsnittet](../../sending/using/sending-proofs.md).
 
 Läs mer om testprofiler [i det här avsnittet](../../audiences/using/managing-test-profiles.md).
 
-You can use [Control groups](../../sending/using/control-group.md) to measure the impact of your campaigns by excluding a portion of their audience. Sedan kan du jämföra beteendet hos målpopulationen som fick meddelandet med beteendet hos kontakter som inte var med i målgrupperna. Baserat på de skickade loggarna kan du även inrikta dig på en kontrollgrupp i framtida kampanjer.
+Du kan använda [Kontrollgrupper](../../sending/using/control-group.md) för att mäta effekten av dina kampanjer genom att utesluta en del av deras målgrupp. Sedan kan du jämföra beteendet hos målpopulationen som fick meddelandet med beteendet hos kontakter som inte var med i målgrupperna. Baserat på de skickade loggarna kan du även inrikta dig på en kontrollgrupp i framtida kampanjer.
 
-## Deduplicera adresser {#deduplicate-addresses}
+## Ta bort dubblettadresser {#deduplicate-addresses}
 
 Det är viktigt att undvika att ha dubbla e-postadresser, eftersom detta kan påverka ditt mål:
 
