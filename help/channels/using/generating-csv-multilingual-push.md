@@ -9,7 +9,7 @@ topic-tags: email-messages
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -38,17 +38,17 @@ Flerspråkig push kräver 14 kolumner i CSV-filen:
 1. language
 1. silentPush
 
-Kontrollera CSV-exemplet genom att klicka på **[!UICONTROL Download a sample file]** i **[!UICONTROL Manage Content Variants]** fönstret. For more on this, refer to the this [section](../../channels/using/creating-a-multilingual-push-notification.md).
+Kontrollera CSV-exemplet genom att klicka på **[!UICONTROL Download a sample file]** i fönstret **[!UICONTROL Manage Content Variants]**. Mer information finns i [avsnittet](../../channels/using/creating-a-multilingual-push-notification.md).
 
 * **title, messageBody, sound, badge, deplinkURI, category, iosMediaAttachmentURL, androidMediaAttachmentURL**: regelbundet push-nyttolastinnehåll. Du måste ange den här informationen på liknande sätt som när du skapar push-leveranser.
-* **Anpassade fält**:  använda JSON-format för anpassade fält, t.ex. `{"key1":"value1","key2":"value2"}`. I exempelfilen ovan finns ett exempel på anpassade fält.
+* **Anpassade fält**: använda JSON-format för anpassade fält, t.ex.  `{"key1":"value1","key2":"value2"}`. I exempelfilen ovan finns ett exempel på anpassade fält.
 * **isContentAvailable**: -flagga för kontroll av tillgängligt innehåll, värde 1 betyder true, värde 0 betyder false. Standardvärdet är 0. Om du lämnar den här kolumnen tom räknas värdet som 0.
 * **isMutableContent**: -flagga för Mutable Content, value 1 betyder true, value 0 betyder false. Standardvärdet är 0. Om du lämnar den här kolumnen tom räknas värdet som 0.
 * **locale**: språkinställning är fältet för språkvarianter, t.ex. &quot;en_us&quot; för amerikansk-engelska och &quot;fr_fr&quot; för Frankrike-franska.
 * **språk**: namnet på det språk som är associerat med språkinställningen. Om språkinställningen till exempel är &quot;en_us&quot; ska namnet på språket vara &quot; English-United States&quot;.
 * **silentPush**: -flagga för push-meddelandetypen. Om det är ett vanligt push-meddelande ska värdet vara 0. Om det är en tyst överföring ska värdet vara 1. Standardvärdet är 0. Om du lämnar den här kolumnen tom räknas värdet som 0.
 
-## Begränsningar och riktlinjer för att skapa CSV-filer {#constraints-guideline-csv}
+## Begränsningar och riktlinjer för att skapa en CSV-fil {#constraints-guideline-csv}
 
 **Namnet på varje kolumn är fast**.
 Du bör inkludera namnet på varje kolumn i CSV-filen, om du inte använder några kolumner för innehållet, lämna det tomt.
@@ -66,9 +66,9 @@ Om du anger ett tomt värde för den här kolumnen misslyckas filöverföringen.
 
 **Variantfel.** Om du använder innehållsblock och målgrupper med specifika språk måste du visa alla målspråk i CSV-filen, annars får du fel när du skickar leveransen.
 
-## Infogning av anpassningsfält i CSV-filen {#personalization-field-csv}
+## Infogning av anpassningsfält i csv-filen {#personalization-field-csv}
 
-Om du vill använda personaliseringsfält bör du inkludera <span> -taggen i filen.
+Om du vill använda anpassningsfält bör du inkludera taggen <span> i filen.
 
 Om du vill infoga anpassningsfältet&quot;firstName&quot; i messageBody måste meddelandet vara:
 
@@ -86,7 +86,7 @@ I intervallet finns två obligatoriska attribut:
 
 * En är en klass som är statisk. Oberoende av vilket anpassningsfält du tänker använda så kommer det alltid att vara class=&quot;nl-dce-field nl-dce-made&quot;.
 
-* Ett annat är data-nl-expr, som är sökvägen till personaliseringsfältet. Om du till exempel infogar anpassningsfältet&quot;firstName&quot; från användargränssnittet, kommer navigeringssökvägen att vara **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** (som bilden nedan visar). I det här fallet blir sökvägen
+* Ett annat är data-nl-expr, som är sökvägen till personaliseringsfältet. Om du till exempel infogar anpassningsfältet&quot;firstName&quot; från användargränssnittet, kommer navigeringssökvägen att vara **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** (vilket visas i bilden nedan). I det här fallet blir sökvägen
 
    ```
    /context/profile/firstName. data-nl-expr="/context/profile/firstName".
@@ -94,11 +94,11 @@ I intervallet finns två obligatoriska attribut:
 
 ![](assets/multilingual_push_2.png)
 
-## Språk- och språkinställningar {#locale-language-names}
+## Språk- och språknamn {#locale-language-names}
 
 Följande språk stöds:
 
-| locale | language |
+| locale | språk |
 |:-:|:-:|
 | af_za | Afrikaans - Sydafrika |
 | sq_al | Albanska - Albanien |
