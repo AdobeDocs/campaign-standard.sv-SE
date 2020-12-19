@@ -10,8 +10,8 @@ context-tags: delivery,schedule,back
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Du kan undvika att mottagarna blir trötta genom att ta bort dubbla e-postadress
 
 Här nedan hittar du information om hantering av dubbletter och karantän.
 
-## Dubbletter {#duplicates}
+## Duplicerar {#duplicates}
 
 Att ha dubbla e-postadresser kan få flera följder:
 * Samma meddelande skickas mer än en gång. Även om Campaign utför en dedupliceringsprocedur som standard innan det skickas, finns det inget som hindrar att samma meddelande skickas av olika åtgärder med samma innehåll när ett mål delas.
@@ -38,10 +38,10 @@ Du måste vara särskilt försiktig när du utför åtgärder i databasen. För 
 
 Det finns också fall där dubbletter mellan olika partitioner är normala. Om du till exempel skickar för tredje part eller olika företagsenheter är det logiskt att samma person är mottagare av olika anledningar. Det är dock sällan normalt att hitta dubbletter inom samma partition.
 
-## Karantän {#quarantines}
+## Kantlinjer {#quarantines}
 
 Adobe Campaign hanterar en lista med adresser i karantän. Mottagare vars adresser sätts i karantän exkluderas som standard vid leveransanalysen: de inte är riktade.
 
 Karantänhantering beskrivs i [det här avsnittet](../../sending/using/understanding-quarantine-management.md).
 
-En e-postadress kan sättas i karantän när inkorgen är full eller om adressen inte finns. I samtliga fall motsvarar karantän de särskilda regler som presenteras i [detta avsnitt](../../sending/using/understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine).
+En e-postadress kan sättas i karantän när inkorgen är full eller om adressen inte finns. I samtliga fall motsvarar karantänsättningen de specifika regler som presenteras i [detta avsnitt](../../sending/using/understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine).
