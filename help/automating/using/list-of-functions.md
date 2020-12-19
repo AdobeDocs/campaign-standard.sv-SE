@@ -9,8 +9,8 @@ topic-tags: filtering-data
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '1940'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,7 @@ Det finns flera olika tillgängliga funktionstyper, beroende på önskat resulta
 
 >[!NOTE]
 >
->Ytterligare funktioner är tillgängliga i alla aktiviteter som gör att du kan använda händelsevariabler efter att ha anropat ett arbetsflöde med externa parametrar. De beskrivs i [detta avsnitt](../../automating/using/customizing-workflow-external-parameters.md).
+>Ytterligare funktioner är tillgängliga i alla aktiviteter som gör att du kan använda händelsevariabler efter att ha anropat ett arbetsflöde med externa parametrar. De beskrivs i [det här avsnittet](../../automating/using/customizing-workflow-external-parameters.md).
 
 ## Datum {#dates}
 
