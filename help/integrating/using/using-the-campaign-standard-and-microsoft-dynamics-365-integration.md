@@ -9,7 +9,7 @@ topic-tags: working-with-campaign-and-ms-dynamics
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Det finns flera jobb som den här integreringen utför:
 
 * **Ingång**:
 
-   * Ta in **kontakter** från Dynamics 365 i Campaign
+   * Hämta in **kontakter** från Dynamics 365 till Campaign
 
    * **Anpassade entiteter**: Hämta in anpassade tabeller från Dynamics 365 till Campaign. Läs mer [i det här avsnittet](../../integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md).
 
@@ -29,7 +29,7 @@ Det finns flera jobb som den här integreringen utför:
 
 * **Avanmäl dig**: Avanmälningsstatus för dubbelriktad synkronisering (t.ex. blockeringslista)
 
-Mer information om dataflödena finns [i det här avsnittet](#data-flows).
+Mer information om dataflödena finns i [det här avsnittet](#data-flows).
 
 ## Adobe Campaign Standard användarupplevelse
 
@@ -97,7 +97,7 @@ Här följer en lista över attributen och en beskrivning:
 
 >[!NOTE]
 >
->Utgångsperioden för e-postspegelsidan kan ändras på konfigurationsskärmen för motsvarande e-postkanalaktivitet för Campaign (se [Giltighetsperiodens parametrar](../../administration/using/configuring-email-channel.md#validity-period-parameters)).
+>Utgångsperioden för e-postspegelsidan kan ändras i konfigurationsskärmen för motsvarande kampanjkanalaktivitet (se [Giltighetsperiodens parametrar](../../administration/using/configuring-email-channel.md#validity-period-parameters)).
 
 >[!NOTE]
 >
