@@ -10,8 +10,8 @@ context-tags: deliveryThroughputReport,main;campaignThroughputReport,main;progra
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,10 +21,10 @@ ht-degree: 5%
 Den här rapporten innehåller data som relaterar till leveransflödet för en sändning eller flera sändningar. Den innehåller följande:
 
 * Antalet meddelanden som bearbetas per timme
-* Tabellen och **[!UICONTROL Top 5 deliveries]** de kompletterande sammanfattningsnumren som visar de fem leveranserna med den största vinsten i återförsök.
+* Tabellen **[!UICONTROL Top 5 deliveries]** och de kompletterande sammanfattningsnumren som visar de fem leveranserna med den största vinsten i återförsök.
 
 ![](assets/delivery_reports_1.png)
 
 >[!NOTE]
 >
->På **[!UICONTROL Delivery throughput]** sidan visas dataöverföringshastigheten för vidarebefordran av meddelanden från Campaign till Adobe Campaign Enhanced MTA.
+>På sidan **[!UICONTROL Delivery throughput]** visas dataöverföringshastigheten för vidarebefordran av meddelanden från Campaign till Adobe Campaign Enhanced MTA.
