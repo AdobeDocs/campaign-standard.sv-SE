@@ -9,8 +9,8 @@ topic-tags: working-with-typology-rules
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,7 @@ Tabellen nedan innehåller information om de färdiga filtreringsreglerna och de
 ---------|----------|---------
 | **[!UICONTROL Address not specified]** | Alla | Utesluter målpopulationen utan angiven adress (e-postadress, postadress osv.) enligt den valda kanalen). |
 | **[!UICONTROL Address on denylist]** | Alla | Exkluderar adresser som finns på blockeringslista. |
-| **[!UICONTROL Duplicate]** | Alla | Exkluderar dubbletter som baseras på **[!UICONTROL Address]** målpopulationsfältet. |
+| **[!UICONTROL Duplicate]** | Alla | Exkluderar dubbletter som baseras på målpopulationsfältet **[!UICONTROL Address]**. |
 | **[!UICONTROL Exclude mobile applications]** | Mobilapplikation | Utesluter appprenumerationer som inte matchar mobilappen som definieras i meddelandet. |
 | **[!UICONTROL Exclude mobile applications for In-App]** | I appen | Utesluter appprenumerationer som inte matchar det mobilprogram som definieras i meddelandet (mall i appen). |
 | **[!UICONTROL Exclude mobile applications for In-App broadcast]** | I appen | Utesluter appprenumerationer som inte matchar det mobilprogram som definieras i meddelandet (sändningsmall i appen) |
@@ -48,7 +48,7 @@ Detta för att undvika att läggas till i blockeringslista på grund av skadlig 
 >
 >Adresserna och domännamnen som finns i den globala undertryckningslistan är dolda. Endast antalet uteslutna mottagare anges i leveransanalysloggarna.
 
-## Creating a filtering rule {#creating-a-filtering-rule}
+## Skapa en filtreringsregel {#creating-a-filtering-rule}
 
 Du kan skapa egna filtreringsregler efter behov. Du kan t.ex. filtrera målpopulationen för nyhetsbrev så att de som är yngre än 18 år aldrig får någon kommunikation.
 
@@ -56,21 +56,21 @@ Följ de här stegen för att skapa en filtreringstypologiregel:
 
 1. Skapa en ny typologiregel. De viktigaste stegen för att skapa typologiregler beskrivs i [det här avsnittet](../../sending/using/managing-typology-rules.md).
 
-1. Välj **[!UICONTROL Filtering]** regeltyp och ange sedan önskad kanal.
+1. Välj regeltypen **[!UICONTROL Filtering]** och ange sedan önskad kanal.
 
-1. På **[!UICONTROL Filtering criteria]** fliken väljer du prenumerationerna i **[!UICONTROL Subscription]** kategorin.
+1. På fliken **[!UICONTROL Filtering criteria]** väljer du prenumerationerna i kategorin **[!UICONTROL Subscription]**.
 
    ![](assets/typology_create-rule-subscription.png)
 
-1. Dra och släpp noden på fliken **[!UICONTROL Explorer]** i frågeredigeraren **[!UICONTROL Subscriber]** till skärmens huvuddel.
+1. På fliken **[!UICONTROL Explorer]** i frågeredigeraren drar och släpper du noden **[!UICONTROL Subscriber]** i skärmens huvuddel.
 
    ![](assets/typology_create-rule-subscriber.png)
 
-1. Markera **[!UICONTROL Age]** fältet och definiera filtreringsvillkoren så att abonnenternas ålder är 18 år eller högre.
+1. Markera fältet **[!UICONTROL Age]** och definiera filtreringsvillkoren så att prenumerantens ålder är 18 år eller äldre.
 
    ![](assets/typology_create-rule-age.png)
 
-1. Länka den här regeln till en typologi på fliken **[!UICONTROL Typologies]** .
+1. Länka den här regeln till en typologi på fliken **[!UICONTROL Typologies]**.
 
    ![](assets/typology_create-rule-typology.png)
 
@@ -80,21 +80,21 @@ Följ de här stegen för att skapa en filtreringstypologiregel:
 
 När den här regeln används i ett meddelande, kommer de abonnenter som betraktas som minderåriga automatiskt att uteslutas.
 
-## Konfigurera filterregelns målkontext {#configuring-filtering-rules-targeting-context}
+## Konfigurerar filtreringsregelns målkontext {#configuring-filtering-rules-targeting-context}
 
-Med Campaign Standard kan du konfigurera **Målinriktning** och **filtrering** som ska användas beroende på vilka data du vill ha som mål.
+Med Campaign Standard kan du konfigurera dimensionerna **Mål** och **Filtering** beroende på vilka data du vill använda.
 
-Det gör du genom att öppna typologiregelns egenskaper och sedan gå till **[!UICONTROL Advanced information]** avsnittet.
+Det gör du genom att öppna typologiregelns egenskaper och sedan gå till avsnittet **[!UICONTROL Advanced information]**.
 
-By default, filtering is carried out on the **[!UICONTROL Profiles]**. Om regeln till exempel är avsedd för ett mobilprogram kan den **[!UICONTROL Filtering dimension]** ändras till **[!UICONTROL Subscriptions to an application]**.
+Som standard utförs filtrering på **[!UICONTROL Profiles]**. Om regeln till exempel är avsedd för ett mobilprogram kan du ändra **[!UICONTROL Filtering dimension]** till **[!UICONTROL Subscriptions to an application]**.
 
 ![](assets/typology_rule-order_2.png)
 
-## Restricting the applicability of a filtering rule {#restricting-the-applicability-of-a-filtering-rule}
+## Begränsa tillämpligheten för en filtreringsregel {#restricting-the-applicability-of-a-filtering-rule}
 
 Du kan begränsa tillämpligheten för en filtreringsregel enligt meddelandet som ska skickas.
 
-1. Avmarkera alternativet som är aktiverat som standard på fliken **[!UICONTROL Application criteria]** för typologiregeln **[!UICONTROL Apply the rule on all deliveries]** .
+1. På typologiregelns **[!UICONTROL Application criteria]**-flik avmarkerar du alternativet **[!UICONTROL Apply the rule on all deliveries]** som är aktiverat som standard.
 
    ![](assets/typology_limit.png)
 
