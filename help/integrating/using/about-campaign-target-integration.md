@@ -9,8 +9,8 @@ topic-tags: working-with-campaign-and-target
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 9%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
