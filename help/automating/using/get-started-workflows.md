@@ -9,8 +9,8 @@ topic-tags: about-workflows-and-data-management
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 11%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -40,11 +40,11 @@ Arbetsflöden kan användas i olika sammanhang, till exempel:
 
 Det finns olika aktiviteter som du kan använda för att utforma arbetsflöden.
 
-[Med målaktiviteter](../../automating/using/about-targeting-activities.md) kan du skapa ett eller flera mål genom att definiera uppsättningar och dela eller kombinera dessa uppsättningar med hjälp av korsnings-, union- eller exkluderingsåtgärder.
+[Målinriktade ](../../automating/using/about-targeting-activities.md) aktiviteter gör att du kan skapa ett eller flera mål genom att definiera uppsättningar och dela eller kombinera dessa uppsättningar med hjälp av korsnings-, union- eller exkluderingsåtgärder.
 
-Med [Körningsaktiviteter](../../automating/using/about-execution-activities.md)kan du samordna ditt arbetsflöde och dess aktiviteter, medan du med [Kanalaktiviteter](../../automating/using/about-channel-activities.md) kan kombinera Campaign Standardens kommunikationskanaler för att skapa flerkanalsarbetsflöden.
+Med [Körningsaktiviteter](../../automating/using/about-execution-activities.md) kan du samordna ditt arbetsflöde och dess aktiviteter, medan du med [Kanalaktiviteter](../../automating/using/about-channel-activities.md) kan kombinera Campaign Standardens kommunikationskanaler för att skapa arbetsflöden mellan kanaler.
 
-Slutligen gör [datahanteringsaktiviteter](../../automating/using/about-data-management-activities.md) att du kan hantera data från din databas.
+Med [datahanteringsaktiviteter](../../automating/using/about-data-management-activities.md) kan du manipulera data från databasen.
 
 Läs mer:
 
@@ -58,7 +58,7 @@ Läs mer:
 
 Använd **frågeredigeraren** för att filtrera data från databasen och skapa en population som bättre riktar sig till mottagarna. Frågeredigeraren är tillgänglig för att utföra flera åtgärder i Campaign Standarden: skapa målgrupper av frågetyper, definiera leveransmål eller populationer i arbetsflödesaktiviteter.
 
-Frågeredigeraren innehåller **fördefinierade filter och regler** för snabb och enkel filtrering. Du kan även använda **avancerade redigeringsfunktioner** för uttryck. På så sätt kan du manuellt ange villkor och använda funktioner för att skapa egna regler.
+Frågeredigeraren innehåller **fördefinierade filter och regler** för snabb och enkel filtrering. Du kan även använda **redigering av avancerade uttryck**-funktioner. På så sätt kan du manuellt ange villkor och använda funktioner för att skapa egna regler.
 
 Läs mer:
 
@@ -70,17 +70,17 @@ Läs mer:
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-Campaign Standard har flera **datahanteringsfunktioner** för import och export av data.
+Campaign Standarden innehåller flera **datahanteringsfunktioner** för att importera och exportera data.
 
-[Med datahanteringsaktiviteter](../../automating/using/about-data-management-activities.md) i arbetsflöden kan du importera data, utföra massuppdateringar på fält, ta emot eller skicka filer eller länka oidentifierade data till befintliga resurser.
+[Med datahanteringsaktiviteter i arbetsflöden ](../../automating/using/about-data-management-activities.md) kan du importera data, utföra massuppdateringar i fält, ta emot eller skicka filer eller länka oidentifierade data till befintliga resurser.
 
-Med [importmallar](../../automating/using/importing-data-with-import-templates.md)kan du hantera vissa typer av import som definierats av administratörer med hjälp av förenklade importfunktioner.
+Med [Importera mallar](../../automating/using/importing-data-with-import-templates.md) kan du hantera vissa typer av import som definierats av administratörer med hjälp av förenklade importfunktioner.
 
-[Genom att exportera loggar](../../automating/using/exporting-logs.md) kan ni exportera loggdata via ett enkelt arbetsflöde, så att ni kan analysera resultaten av era marknadsföringskampanjer i era egna rapporterings- eller BI-verktyg.
+[Genom att exportera ](../../automating/using/exporting-logs.md) loggdata kan du exportera loggdata via ett enkelt arbetsflöde, så att du kan analysera resultaten av dina marknadsföringskampanjer i dina egna rapporterings- eller BI-verktyg.
 
-Utnyttja [paket](../../automating/using/managing-packages.md) för att utbyta resurser mellan olika kampanjinstanser, till exempel för att replikera konfigurationen av en instans eller för att överföra data från en server till en annan, inklusive anpassade resurser.
+Utnyttja [Paket](../../automating/using/managing-packages.md) för att utbyta resurser mellan olika kampanjinstanser, till exempel för att replikera konfigurationen av en instans eller för att överföra data från en server till en annan, inklusive anpassade resurser.
 
-Slutligen kan du [exportera listor](../../automating/using/exporting-lists.md) från Campaign Standarder som till exempel en lista med testprofiler, en lista med karantänadresser, e-postadresser etc.
+Med [Exportering av listor](../../automating/using/exporting-lists.md) kan du slutligen exportera alla listor från Campaign Standarder, som till exempel en lista med testprofiler, en lista med e-postadresser i karantän, osv.
 
 Läs mer:
 
