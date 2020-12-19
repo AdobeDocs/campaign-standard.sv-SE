@@ -10,7 +10,7 @@ context-tags: delivery,schedule,back
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -24,14 +24,14 @@ För närvarande erbjuder två leverantörer IP-certifiering: Return Path och Ce
 
 Certifierade avsändare finns på tillåtelselista, som används av globala postlådeproviders och e-postsäkerhetsföretag. Dessa kommersiella tillåtelselista baseras på ett system som gör att avsändaren kan kringgå skräppostfilter helt eller inkrementellt när de kommer in i systemet.
 
-Programmet [Return Path Certification](https://www.validity.com/products/returnpath/certification/) har flera fördelar:
+[Certifiering av retursökväg](https://www.validity.com/products/returnpath/certification/) ger ett antal fördelar, bland annat följande:
 * En mätbar ökning av inkorgplaceringen hos de främsta postlådeleverantörerna som Microsoft, AOL, Yahoo, Gmail, Comcast, Orange, Mail.ru med flera
 * Bra rykte och behandling vid viktiga filter som Cloudmark, SpamAssassin och Cisco Ironport
 * Ett efterlevnadsteam som arbetar med övervakning dygnet runt, alla dagar, och som tillhandahåller säkerhetsvarningar och arbetar med dig genom att åtgärda eventuella kompromisser
 * Data från postlådeprovidern som ger detaljerad information om nyckeltal, placering och certifieringsprestanda
 * Förenklad och snabbare IP-uppvärmning, inklusive bättre rykte och erkännande vid migrering eller hämtning av en ny IP-adress
 
-Certifieringen [Certified Senders Alliance](https://certified-senders.org/certification-process/) ger bland annat följande fördelar:
+[Certified Senders Alliance](https://certified-senders.org/certification-process/) Certification erbjuder bland annat följande fördelar:
 * Certifiering av avsändare av kommersiella e-postmeddelanden som kan uppfylla höga kvalitetskrav
 * Förbättrad leverans och leverans av kommersiella e-postmeddelanden som ökar inkorgplaceringen och minskar skräppostfiltreringen
 * Skydd mot juridiska och ekonomiska risker genom att till fullo följa rättsliga normer
