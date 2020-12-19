@@ -10,8 +10,8 @@ context-tags: cusResource,overview;eventCusResource,overview
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 84%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -42,4 +42,4 @@ Det går att **exportera och importera** anpassade resurser, exempelvis från en
 
 >[!CAUTION]
 >
->Endast funktionella [administratörer](../../administration/using/users-management.md#functional-administrators)med **[!UICONTROL Administration]** roll och åtkomst till **alla** enheter har åtkomst till sändningsloggar, meddelandeloggar, spårningsloggar, undantags- eller prenumerationsloggar. En icke-admin-användare kan ha loggarna som mål, men med början i en länkad tabell (profiler, leverans).
+>Endast funktionella [administratörer](../../administration/using/users-management.md#functional-administrators) med **[!UICONTROL Administration]**-roll och åtkomst till **Alla**-enheter har åtkomst till sändande loggar, meddelandeloggar, spårningsloggar, undantags- eller prenumerationsloggar. En icke-admin-användare kan ha loggarna som mål, men med början i en länkad tabell (profiler, leverans).
