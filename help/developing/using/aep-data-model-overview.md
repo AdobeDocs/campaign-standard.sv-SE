@@ -9,8 +9,8 @@ topic-tags: configuring-channels
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -46,4 +46,4 @@ Du kan utföra följande åtgärder via XDM Schema API:
 * Visa schemabeskrivningar
 * Skapa, uppdatera och ta bort schemabeskrivningar
 
-All information om hur du hanterar API-anrop finns i [Utvecklarhandbok](https://docs.adobe.com/content/help/sv-SE/experience-platform/xdm/api/getting-started.html).
+All information om hur du hanterar API-anrop finns i [Utvecklarhandbok](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html).
