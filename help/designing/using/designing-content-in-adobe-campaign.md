@@ -9,8 +9,8 @@ topic-tags: about-content-design
 translation-type: tm+mt
 source-git-commit: 15a4484ba846b1e08e5fa456a5448e76d60949c5
 workflow-type: tm+mt
-source-wordcount: '1225'
-ht-degree: 89%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
