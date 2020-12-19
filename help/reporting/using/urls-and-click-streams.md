@@ -10,21 +10,21 @@ context-tags: deliveryTopUrlReport,main;campaignTopUrlReport,main;programTopUrlR
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # URL:er och klickbara strömmar{#urls-and-click-streams}
 
-URL: **er och klickningar visar de URL:er** som klickades mest under en leverans, eller flera leveranser om de är länkade till en kampanj eller ett program.
+URL:erna för **och klicka på strömmar** visar de URL:er som klickades mest under en leverans, eller flera leveranser om de är länkade till en kampanj eller ett program.
 
 ![](assets/delivery_reports_8.png)
 
 Varje tabell representeras av sammanfattande nummer och diagram. Du kan ändra hur detaljerna visas i deras respektive visualiseringsinställningar.
 
-Tabellen **Mest besökta länkar** innehåller tillgängliga data för mottagarnas beteende per leverans, till exempel:
+Tabellen **De mest besökta länkarna** innehåller tillgängliga data för mottagarnas beteende per leverans, till exempel:
 
 * **Klicka**: Antalet gånger som innehållet klickades på i en leverans.
 * **Unika klick**: Antalet mottagare som klickat på innehåll i en leverans.
