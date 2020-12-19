@@ -10,8 +10,8 @@ context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '1774'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ Du kan ställa in följande typer av externa konton:
 * Adobe Analytics. Mer information om detta finns i [det här avsnittet](../../integrating/using/configure-campaign-analytics-integration.md).
 * Google reCAPTCHA. Mer information om detta finns i [det här avsnittet](#google-recaptcha-external-account).
 * Microsoft Azure Blob-lagring. Mer information om detta finns i [det här avsnittet](#microsoft-azure-external-account).
-* OAuth 2.0. For more on this, refer to [this section](#oauth-account).
+* OAuth 2.0. Mer information finns i [det här avsnittet](#oauth-account).
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ Adobe rekommenderar att du följer god praxis nedan för att undvika sådana pro
 * Det kan hända att du loggar in på SFTP för att direkt kontrollera vad som finns där.
 * Kom ihåg att SFTP-diskhantering i första hand är ditt ansvar.
 
-Observera också att de offentliga IP-adresserna som du försöker initiera SFTP-anslutningen från måste läggas till i tillåtelselista i Campaign-instansen. Adding IP addresses to the allowlist can be requested via a [support ticket](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html), along with providing the public key to use for authentication.
+Observera också att de offentliga IP-adresserna som du försöker initiera SFTP-anslutningen från måste läggas till i tillåtelselista i Campaign-instansen. Du kan begära att få lägga till IP-adresser till tillåtelselista via en [supportbiljett](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html), tillsammans med den offentliga nyckeln som ska användas för autentisering.
 
 SFTP-servrar kan hanteras från kontrollpanelen. Mer information finns i dokumentationen för [Kontrollpanelen](https://docs.adobe.com/content/help/sv-SE/control-panel/using/sftp-management/about-sftp-management.html).
 
@@ -96,7 +96,7 @@ SFTP-servrar kan hanteras från kontrollpanelen. Mer information finns i dokumen
 
 Ange följande information för ett externt OAuth 2.0-konto:
 
-* En **anslagstyp**: endast **klientautentiseringsuppgifter** stöds.
+* A **Typ av bidrag**: endast **klientautentiseringsuppgifter** stöds.
 * En **säker API-URL**: Ange slutpunkten för auktoriseringen.
 * **OAuth 2.0-känsliga autentiseringsuppgifter**: Det här avsnittet är avsett för autentiseringsuppgifter som är känsliga till sin natur. Autentiseringsvärden maskeras på skärmen när de har lagts till, då inte går att läsa eller redigera. Om auktoriseringsslutpunkten kräver att en viss autentiseringsuppgift infogas i HTTP-auktoriseringshuvudet i stället för i POSTENS body-parameter, kan du markera alternativet Include i header för den autentiseringen.
 * **OAuth 2.0 icke-känsliga autentiseringsuppgifter**: Det här avsnittet är avsett för autentiseringsuppgifter som är icke-känsliga till sin natur. Autentiseringsvärden visas på skärmen när de har lagts till. de kan också redigeras.  Om auktoriseringsslutpunkten kräver att en viss autentiseringsuppgift infogas i HTTP-auktoriseringshuvudet i stället för i POSTENS body-parameter, kan du markera alternativet Include i header för den autentiseringen.
