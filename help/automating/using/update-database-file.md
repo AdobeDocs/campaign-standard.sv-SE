@@ -18,9 +18,9 @@ ht-degree: 33%
 
 # Uppdatera databasen med externa data {#update-database-file}
 
-The following example shows the configuration of an **[!UICONTROL Update data]** activity following a **[!UICONTROL Load file]** activity. Syftet med det här arbetsflödet är att lägga till eller uppdatera profiler i Adobe Campaign-databasen med data som har återställts från filen.
+I följande exempel visas konfigurationen för en **[!UICONTROL Update data]**-aktivitet efter en **[!UICONTROL Load file]**-aktivitet. Syftet med det här arbetsflödet är att lägga till eller uppdatera profiler i Adobe Campaign-databasen med data som har återställts från filen.
 
-I det här exemplet används avstämningsnyckeln som **e-postadress**. Den fil som läses in i aktiviteten [Läs in fil](../../automating/using/load-file.md) är en **.txt** -formatfil som innehåller följande exempeldata:
+I det här exemplet används avstämningsnyckeln som **e-postadress**. Filen som läses in i [Load file](../../automating/using/load-file.md)-aktiviteten är en **.txt**-formatfil som innehåller följande exempeldata:
 
 ```
 lastname;firstname;email;birthdate
@@ -35,7 +35,7 @@ grimes;daryl;daryl_890@testmail.com;12/06/1979
 tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
 ```
 
-The [Update data](../../automating/using/update-data.md) activity is configured as follows:
+Aktiviteten [Uppdatera data](../../automating/using/update-data.md) är konfigurerad enligt följande:
 
 ![](assets/deduplication_example2_writer1.png)
 
