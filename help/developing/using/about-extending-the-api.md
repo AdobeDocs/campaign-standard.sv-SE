@@ -9,8 +9,8 @@ topic-tags: use-case--extending-the-api
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 11%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ Det här användningsexemplet innehåller information om utökade fält för anp
 
 >[!NOTE]
 >
->Kontrollera att du har **[!UICONTROL Datamodel]** rollen för att publicera API:t.
+>Om du vill publicera API:t måste du ha rollen **[!UICONTROL Datamodel]**.
 
 Stegen för att visa utökade fält i det offentliga API:t är följande:
 
