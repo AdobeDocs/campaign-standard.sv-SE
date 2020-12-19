@@ -9,8 +9,8 @@ topic-tags: troubleshooting
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 I det här avsnittet finns vanliga frågor om dynamisk rapportering.
 
-## För Unika öppningar och Unika klick matchar inte antalet i den sammanställda raden dem i enskilda rader {#unique-open-clicks-no-match}
+## För unika öppningar och unika klick matchar inte antalet i den samlade raden dem i enskilda rader {#unique-open-clicks-no-match}
 
 Detta är ett förväntat beteende.
 Vi kan ta följande exempel för att förklara det här beteendet.
@@ -41,40 +41,40 @@ Här visas en visuell representation av profilernas interaktion med det skickade
  </thead> 
  <tbody> 
   <tr> 
-   <td align="center"> Day 1<br /> </td> 
+   <td align="center"> Dag 1<br /> </td> 
    <td align="center"> 2 + 1 = 3<br /> </td> 
    <td align="center"> 1 + 1 = 2<br /> </td> 
   </tr> 
   <tr> 
-   <td align="center"> Day 2<br /> </td> 
+   <td align="center"> Dag 2<br /> </td> 
    <td align="center"> 3 + 0 = 3<br /> </td> 
    <td align="center"> 1 + 0 = 1<br /> </td> 
   </tr>
  </tbody> 
 </table>
 
-För att förstå det totala antalet unika öppningar måste vi sammanfatta antalet rader, som ger oss värdet 3. **[!UICONTROL Unique Opens]** Men eftersom e-postmeddelandet endast var avsett för två profiler bör den öppna frekvensen vara 150 %.
+För att förstå det övergripande antalet unika öppningar måste vi summera antalet rader på **[!UICONTROL Unique Opens]** som ger oss värdet 3. Men eftersom e-postmeddelandet endast var avsett för två profiler bör den öppna frekvensen vara 150 %.
 
-För att inte få en högre procentandel än 100 bibehålls definitionen av **[!UICONTROL Unique Opens]** antalet unika utsändningar som öppnats. Även om P1 öppnade e-postmeddelandet dag 1 och dag 2 är hans unika öppning fortfarande 1.
+Om du inte vill få ett procentvärde som är högre än 100 anges definitionen för **[!UICONTROL Unique Opens]** som antalet unika sändningsloggar som öppnats. Även om P1 öppnade e-postmeddelandet dag 1 och dag 2 är hans unika öppning fortfarande 1.
 
 Detta resulterar i följande tabell:
 
 <table> 
  <thead> 
   <tr> 
-   <th align="center"> <strong>Day</strong> <br /> </th> 
+   <th align="center"> <strong>Dag</strong> <br /> </th> 
    <th align="center"> <strong>Öppnar</strong> <br /> </th> 
    <th align="center"> <strong>Unika öppningar</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td align="center"> Day 1<br /> </td> 
+   <td align="center"> Dag 1<br /> </td> 
    <td align="center"> 6<br /> </td> 
    <td align="center"> 2<br /> </td>
   </tr> 
   <tr> 
-   <td align="center"> Day 2<br /> </td> 
+   <td align="center"> Dag 2<br /> </td> 
    <td align="center"> 3<br /> </td> 
    <td align="center"> 2<br /> </td> 
   </tr> 
@@ -85,15 +85,15 @@ Detta resulterar i följande tabell:
 >
 >Unika antal baseras på en HLL-baserad skiss, vilket kan orsaka små defekter vid stora antal.
 
-## Antalet öppna stämmer inte med antalet databaser {#open-counts-no-match-database}
+## Antalet öppna stämmer inte överens med antalet databaser {#open-counts-no-match-database}
 
-Detta kan bero på att heuristik används i dynamisk rapportering för att spåra öppningar även när vi inte kan spåra **[!UICONTROL Open]** åtgärden.
+Detta kan bero på att heuristik används i dynamisk rapportering för att spåra öppningar även när vi inte kan spåra åtgärden **[!UICONTROL Open]**.
 
-Om en användare t.ex. har inaktiverat bilder på sin klient och klickar på en länk i e-postmeddelandet, kanske inte databasen spårar **[!UICONTROL Open]** bilderna, men det **[!UICONTROL Click]** kommer att hända.
+Om en användare till exempel har inaktiverat bilder på sin klient och klickar på en länk i e-postmeddelandet, kanske inte **[!UICONTROL Open]** spåras av databasen, men **[!UICONTROL Click]** kommer att spåras.
 
-Spåra loggantal kanske därför inte har samma antal i databasen **[!UICONTROL Open]** .
+Det innebär att antalet spårningsloggar för **[!UICONTROL Open]** kanske inte har samma antal i databasen.
 
-Sådana händelser läggs till som **&quot;ett e-postklick innebär att ett e-postmeddelande öppnas&quot;**.
+Sådana förekomster läggs till som **&quot;ett e-postklick innebär att ett e-postmeddelande öppnas&quot;**.
 
 >[!NOTE]
 >
@@ -102,9 +102,9 @@ Sådana händelser läggs till som **&quot;ett e-postklick innebär att ett e-po
 ## Hur beräknas antalet återkommande/transaktionsbaserade leveranser? {#counts-recurring-deliveries}
 
 Vid arbete med återkommande och transaktionsrelaterade leveranser tillskrivs antalet både överordnade och underordnade leveranser.
-Vi kan ta exemplet med en återkommande leverans som heter **R1** som är inställd att köras varje dag på dag 1 (RC1), dag 2 (RC2) och dag 3 (RC3).
-Låt oss anta att bara en person har öppnat alla underordnade leveranser flera gånger. I det här fallet visas antalet enskilda återkommande underordnade leveranser som 1 för varje. **[!UICONTROL Open]** 
-Men eftersom samma person klickade på alla leveranser har den överordnade återkommande leveransen också **[!UICONTROL Unique open]** värdet 1.
+Vi kan ta ett exempel på en återkommande leverans som heter **R1** som är inställd att köras varje dag på dag 1 (RC1), dag 2 (RC2) och dag 3 (RC3).
+Låt oss anta att bara en person har öppnat alla underordnade leveranser flera gånger. I det här fallet visas antalet **[!UICONTROL Open]** som 1 för varje enskild återkommande underordnad leverans.
+Men eftersom samma person klickade på alla leveranser har den överordnade återkommande leveransen också **[!UICONTROL Unique open]** som 1.
 
 Rapporterna ska se ut så här:
 
@@ -158,9 +158,9 @@ I exemplet nedan har cellen samma färg eftersom värdet är 100 %.
 
 ![](assets/troubleshooting_1.png)
 
-Om du ändrar cellen **[!UICONTROL Conditional formatting]** till anpassad blir cellen grönare när värdet når den övre gränsen. Om den når den undre gränsen blir den rödare.
+Om du ändrar **[!UICONTROL Conditional formatting]** till anpassad blir cellen grönare när värdet når den övre gränsen. Om den når den undre gränsen blir den rödare.
 
-Här ställer vi till exempel in **[!UICONTROL Upper limit]** på 500 och **[!UICONTROL Lower limit]** 0.
+Här ställer vi till exempel in **[!UICONTROL Upper limit]** på 500 och **[!UICONTROL Lower limit]** på 0.
 
 ![](assets/troubleshooting_2.png)
 
@@ -170,6 +170,6 @@ Här ställer vi till exempel in **[!UICONTROL Upper limit]** på 500 och **[!UI
 
 Värdet **N/A** kan ibland visas i dina dynamiska rapporter. Detta kan visas av två anledningar:
 
-* Leveransen har tagits bort och visas här som **Ej tillämpligt** för att inte orsaka diskrepans i resultaten.
-* När du drar och släpper **[!UICONTROL Transactional Delivery]** dimensionen i dina rapporter kan värdet **N/A** visas som ett resultat. Det beror på att Dynamic Report hämtar alla leveranser även om de inte är transaktionsbaserade.
-Detta kan också inträffa när du drar och släpper **[!UICONTROL Delivery]** dimensionen i rapporten, men i det här fallet representerar **N/A** -värdet transaktionsleveranser.
+* Leveransen har tagits bort och visas här som **N/A** för att inte orsaka diskrepans i resultaten.
+* När du drar och släpper dimensionen **[!UICONTROL Transactional Delivery]** i dina rapporter kan värdet **N/A** visas som ett resultat. Det beror på att Dynamic Report hämtar alla leveranser även om de inte är transaktionsbaserade.
+Detta kan också inträffa när du drar och släpper **[!UICONTROL Delivery]**-dimensionen till rapporten, men i det här fallet representerar **N/A**-värdet transaktionsleveranser.
