@@ -10,8 +10,8 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 3%
 
 ## Åtkomst till Adobe Experience Platform-målgrupper
 
-Om du vill komma åt Adobe Experience Platform segmentbyggare går du till startsidan för **[!UICONTROL Audiences]** kortet på Campaign Standarden (eller till **[!UICONTROL Audiences]** länken i sidhuvudet) och väljer sedan **[!UICONTROL Adobe Experience Platform]** miljö.
+Om du vill komma åt Adobe Experience Platform segmentbyggare går du till startsidan för **[!UICONTROL Audiences]**-kortet på Campaign Standarden (eller länken **[!UICONTROL Audiences]** i sidhuvudet) och väljer sedan **[!UICONTROL Adobe Experience Platform]**-miljön.
 
 ![](assets/aep_audiences_access.png)
 
@@ -38,7 +38,7 @@ Det finns ett sökfält och filter som hjälper dig att hitta det önskade Adobe
 
 Så här skapar du en Adobe Experience Platform-publik direkt i Campaign Standarden:
 
-1. Klicka på knappen i det högra hörnet på listsidan för Adobe Experience Platform-segment. **[!UICONTROL New audience]**
+1. Klicka på knappen **[!UICONTROL New audience]** i det högra hörnet på listsidan för Adobe Experience Platform-segment.
 
    ![](assets/aep_audiences_creation_create.png)
 
@@ -48,24 +48,24 @@ Så här skapar du en Adobe Experience Platform-publik direkt i Campaign Standar
 
    ![](assets/aep_audiences_creation_edit_name.png)
 
-1. För att lyckas skapa ett segment måste du välja en **sammanfogningsprincip** som matchar ditt marknadsföringssyfte för det här segmentet.
+1. För att kunna skapa ett segment måste du välja en **sammanfogningsprincip** som matchar ditt marknadsföringssyfte för det här segmentet.
 
-   I inställningsfönstret är en standardprincip för sammanfogning av plattform vald. Mer information om kopplingsprofiler finns i det dedikerade avsnittet i användarhandboken för [Segment Builder](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
+   I inställningsfönstret är en standardprincip för sammanfogning av plattform vald. Mer information om kopplingsprofiler finns i det dedikerade avsnittet i [användarhandboken för Segment Builder](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
 1. Definiera reglerna som identifierar de profiler som ska hämtas hos er målgrupp.
 
-   Det gör du genom att dra önskade attribut och/eller händelser från den vänstra rutan till arbetsytan, definiera motsvarande regler och sedan klicka på **[!UICONTROL Create segment]** knappen för att spara segmentet (se [Använda segmentverktyget](../../audiences/using/aep-using-segment-builder.md)).
+   Det gör du genom att dra önskade attribut och/eller händelser från den vänstra rutan till arbetsytan, definiera motsvarande regler och sedan klicka på **[!UICONTROL Create segment]**-knappen för att spara segmentet (se [Använda Segment Builder](../../audiences/using/aep-using-segment-builder.md)).
 
    ![](assets/aep_audiences_creation_query.png)
 
-Publiken är nu redo att aktiveras, du kan använda den som mål för dina kampanjer (se [Målgruppsanpassa Adobe Experience Platform-målgrupper](../../automating/using/aep-targeting-audiences.md)).
+Publiken är nu redo att aktiveras, du kan använda den som mål för dina kampanjer (se [Rikta in dig till Adobe Experience Platform-målgrupper](../../automating/using/aep-targeting-audiences.md)).
 
 ## Redigera målgrupper
 
-Om du vill redigera en målgrupp öppnar du den och ändrar reglerna efter behov i gränssnittet i Segment Builder (se [Använda segmentverktyget](../../audiences/using/aep-using-segment-builder.md)).
+Om du vill redigera en målgrupp öppnar du den och ändrar reglerna efter behov i gränssnittet i Segment Builder (se [Använda Segment Builder](../../audiences/using/aep-using-segment-builder.md)).
 
-När ändringarna är klara klickar du på **[!UICONTROL Save segment]** knappen för att uppdatera målgruppen.
+När ändringarna är klara klickar du på **[!UICONTROL Save segment]** för att uppdatera målgruppen.
 
 ![](assets/aep_audiences_editing.png)
