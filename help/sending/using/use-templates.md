@@ -9,8 +9,8 @@ index: y
 translation-type: tm+mt
 source-git-commit: a7300666587362048431d0bafacc317170b317aa
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 10%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 10%
 
 Leveransmallar ger ökad effektivitet genom färdiga scenarier för de flesta vanliga typer av aktiviteter. Med mallar kan marknadsförarna driftsätta nya kampanjer med minimal anpassning på kortare tid.
 
-Learn more about delivery templates in [this section](../../start/using/marketing-activity-templates.md).
+Läs mer om leveransmallar i [det här avsnittet](../../start/using/marketing-activity-templates.md).
 
 ## Kom igång med leveransmallar {#gs-templates}
 
@@ -27,7 +27,7 @@ Med en [leveransmall](../../start/using/marketing-activity-templates.md#creating
 
 När du hanterar flera varumärken i Adobe Campaign rekommenderar Adobe att du har en underdomän per varumärke. En bank kan till exempel ha flera underdomäner som motsvarar var och en av dess regionala myndigheter. Om en bank äger domänen bluebank.com kan dess underdomäner vara @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com osv. Med en leveransmall per underdomän kan ni alltid använda rätt förkonfigurerade parametrar för varje varumärke, vilket undviker fel och sparar tid.
 
-**Tips**:  För att undvika konfigurationsfel i Campaign rekommenderar vi att du duplicerar en inbyggd mall och ändrar dess egenskaper i stället för att skapa en ny mall.
+**Tips**: För att undvika konfigurationsfel i Campaign rekommenderar vi att du duplicerar en inbyggd mall och ändrar dess egenskaper i stället för att skapa en ny mall.
 
 ## Konfigurera adresser
 
@@ -41,17 +41,17 @@ När du hanterar flera varumärken i Adobe Campaign rekommenderar Adobe att du h
 
 * Adobe rekommenderar att du skapar e-postkonton som motsvarar adresserna som angetts för leveranser och svar. Kontakta systemadministratören för meddelanden.
 
-I avsnittet **[!UICONTROL Advanced parameters]** i egenskaperna för en e-postmall motsvarar **[!UICONTROL From (email address)]** fältet avsändarens adress.
+I avsnittet **[!UICONTROL Advanced parameters]** i egenskaperna för en e-postmall motsvarar fältet **[!UICONTROL From (email address)]** avsändarens adress.
 
 ![](assets/template-parameters.png)
 
 Adressdomänen måste vara samma som den underdomän som du konfigurerade.
 
-Fälten **[!UICONTROL Reply to]** motsvarar den e-postadress och det namn som används för svar.
+Fälten **[!UICONTROL Reply to]** motsvarar e-postadressen och namnet som används för svar.
 
-**Tips** - Adobe rekommenderar att du använder en befintlig riktig adress som till exempel kundtjänst för ditt varumärke. Om en mottagare skickar ett svar kan kundtjänst hantera det.
+**Tips**  - Adobe rekommenderar att du använder en befintlig riktig adress som till exempel kundtjänst för ditt varumärke. Om en mottagare skickar ett svar kan kundtjänst hantera det.
 
-Om du vill ändra namnet på avsändaren som ska visas i huvudet för skickade meddelanden går du till fliken **[!UICONTROL Properties]** på hemsidan för e-postdesignern (som du kommer åt via hemikonen) och klickar på **[!UICONTROL Default sender name]** blocket.
+Om du vill ändra namnet på avsändaren som ska visas i huvudet för skickade meddelanden går du till fliken **[!UICONTROL Properties]** på hemsidan för e-postdesignern (som du kommer åt via hemikonen) och klickar på blocket **[!UICONTROL Default sender name]**.
 
 ![](assets/template-content.png)
 
@@ -63,25 +63,25 @@ Mer information om hur du anpassar avsändarnamnet finns i [E-postavsändare](..
 
 ## Anpassa SMS-avsändarens namn
 
-I avsnittet **Avancerade parametrar** i egenskaperna för en SMS-mall kan du med alternativet **Från** anpassa namnet på SMS-meddelandets avsändare med en teckensträng. Det namnet visas som avsändarnamn för SMS-meddelandet på mottagarens mobiltelefon.
+I avsnittet **Avancerade parametrar** för egenskaperna för en SMS-mall kan du med alternativet **Från** anpassa namnet på SMS-meddelandets avsändare med en teckensträng. Det namnet visas som avsändarnamn för SMS-meddelandet på mottagarens mobiltelefon.
 
 Om fältet är tomt är det källnumret som anges i det externa kontot som används.  Om inget källnummer anges används den korta koden.  Mer information finns i [SMS-konfiguration](../../administration/using/configuring-sms-channel.md).
 
-**Tips** - Kontrollera lagstiftningen i ditt land om att ändra avsändaradressen. Du bör också höra med din SMS-tjänstleverantör om de erbjuder en sådan funktion.
+**Tips** - Kontrollera lagstiftningen i ditt land angående ändring av avsändaradressen. Du bör också höra med din SMS-tjänstleverantör om de erbjuder en sådan funktion.
 
 ## Konfigurera en kontrollgrupp
 
-När leveransen har skickats kan du jämföra beteendet hos de uteslutna mottagarna med mottagarna som tog emot leveransen. Sedan kan ni mäta effektiviteten i era kampanjer. Läs mer om kontrollgrupper i [det här avsnittet](../../sending/using/control-group.md).
+När leveransen har skickats kan du jämföra beteendet hos de uteslutna mottagarna med mottagarna som tog emot leveransen. Sedan kan ni mäta effektiviteten i era kampanjer. Läs mer om kontrollgrupper [det här avsnittet](../../sending/using/control-group.md).
 
 ## Använd typografi för att tillämpa filter eller kontrollregler
 
 En typologi innehåller kontrollregler som tillämpas under analysfasen innan ett meddelande skickas.
 
-I avsnittet **[!UICONTROL Advanced parameters]** > **[!UICONTROL Preparation]** i mallens egenskaper ändrar du standardtypologin efter behov.
+I avsnittet **[!UICONTROL Advanced parameters]** > **[!UICONTROL Preparation]** i mallens egenskaper ändrar du standardtypologin efter dina behov.
 
 Om du till exempel vill ha bättre kontroll över utgående trafik kan du definiera vilka IP-adresser som kan användas genom att definiera en tillhörighet per underdomän och skapa en typologi per tillhörighet. Tillhörigheterna definieras i instansens konfigurationsfil. Kontakta Adobe Campaign-administratören.
 
-For more on typologies, refer to [this section](../../sending/using/managing-typologies.md).
+Mer information om typologier finns i [det här avsnittet](../../sending/using/managing-typologies.md).
 
 ## Länka ett varumärke till en mall
 
