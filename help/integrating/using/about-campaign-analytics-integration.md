@@ -9,8 +9,8 @@ topic-tags: working-with-campaign-and-analytics
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ Detta fungerar genom att först skapa ett externt konto som är länkat till Ado
 
 Den här integreringen är endast tillgänglig för e-postleveranser.
 
-Det finns även en integrering mellan Adobe Analytics **utlösare** och Adobe Campaign. Det gör att ni kan skicka personaliserade e-postmeddelanden till era kunder som en reaktion på specifika beteenden som spåras på er webbplats av Adobe Analytics (inom 15 minuter).
+Det finns även en integrering mellan Adobe Analytics bastjänst **Triggers** och Adobe Campaign. Det gör att ni kan skicka personaliserade e-postmeddelanden till era kunder som en reaktion på specifika beteenden som spåras på er webbplats av Adobe Analytics (inom 15 minuter).
 
 **Relaterade ämnen:**
 
