@@ -10,8 +10,8 @@ context-tags: delivery,schedule,back
 translation-type: tm+mt
 source-git-commit: 1e7359db2de1a9c420af33ac85c0597c098ae3f8
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
