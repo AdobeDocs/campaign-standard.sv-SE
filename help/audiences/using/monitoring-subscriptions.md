@@ -9,8 +9,8 @@ topic-tags: managing-subscriptions
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,18 +21,18 @@ Använd Adobe Campaign gränssnitt för att spåra era prenumeranter och mäta h
 
 Du kan övervaka prenumerationer och avbeställningar på flera olika sätt:
 
-* Visa en lista över personer som för närvarande prenumererar på din tjänst från kontrollpanelen för tjänster. Se [Tjänstinstrumentpanel](#service-dashboard).
+* Visa en lista över personer som för närvarande prenumererar på din tjänst från kontrollpanelen för tjänster. Se [Tjänstinstrumentpanelen](#service-dashboard).
 * Information om prenumerationshistorik och avbrutna prenumerationer finns på fliken **Prenumerationshistorik** på kontrollpanelen för tjänster. Se [Prenumerationshistorik](#subscription-history).
-* Visa en rapport som beskriver utvecklingen av prenumerationer och avbeställningar i **servicerapporterna**. Se [Tjänstrapporter](#service-reports).
-* Hitta en lista över tjänster som en person har prenumererat på i sin **profil**. Se [Händelsehistorik som är länkad till en profil](#history-of-events-linked-to-a-profile).
+* Visa en rapport som beskriver utvecklingen av prenumerationer och avbeställningar i tjänsten **Rapporter**. Se [Tjänstrapporter](#service-reports).
+* Hitta listan med tjänster som en person har prenumererat på i sin **profil**. Se [Händelsehistorik länkad till en profil](#history-of-events-linked-to-a-profile).
 
-## Instrumentpanel för tjänst {#service-dashboard}
+## Kontrollpanel för tjänst {#service-dashboard}
 
 Så här visar du en lista över personer som prenumererar på en tjänst:
 
 1. Gå till listan över tjänster via den avancerade menyn **Profiler och målgrupper** > **Tjänster**, som du kommer åt via Adobe Campaign logotyp.
 1. Välj vilken tjänst du vill använda för att visa motsvarande instrumentpanel.
-1. Listan över personer som prenumererar på tjänsten finns på fliken **Prenumerationer** .
+1. Listan över personer som prenumererar på tjänsten finns på fliken **Prenumerationer**.
 
 ![](assets/lp_monitoring_subscriptions_1.png)
 
@@ -46,23 +46,23 @@ Så här läser du historiken för prenumerationer och avprenumerationer:
 
 ![](assets/lp_monitoring_subscriptions_2.png)
 
-## Servicerapporter {#service-reports}
+## Tjänstrapporter {#service-reports}
 
 Så här visar du en rapport med information om utvecklingen av prenumerationer och upphörande av prenumerationer:
 
 1. Gå till listan över tjänster via den avancerade menyn **Profiler och målgrupper** > **Tjänster**, som du kommer åt via Adobe Campaign logotyp.
 1. Välj vilken tjänst du vill använda för att visa motsvarande instrumentpanel.
-1. Klicka på knappen **Rapporter** i åtgärdsfältet och sedan **Prenumerationsövervakning** i urvalsfönstret.
+1. Klicka på knappen **Rapporter** i åtgärdsfältet och **Prenumerationsövervakning** i urvalsfönstret.
 
    ![](assets/lp_monitoring_subscriptions_3.png)
 
-1. I sammanfattningsrapporten för **tjänsten** visas antalet prenumerationer, den övergripande utvecklingen av prenumerationer och en kurva som visar hur lång tid det tar.
+1. Rapporten **Sammanfattning av tjänster** visar antalet prenumerationer, den övergripande utvecklingen av prenumerationer och en kurva som visar hur lång tid det tar.
 
 ![](assets/lp_monitoring_subscriptions_4.png)
 
-## Historik över händelser som är kopplade till en profil {#history-of-events-linked-to-a-profile}
+## Händelsehistorik som är länkad till en profil {#history-of-events-linked-to-a-profile}
 
-Om du vill se en lista över tjänster som en kontakt har prenumererat på kan du läsa dess marknadsföringshistorik. Mer information finns i avsnittet [Integrerad kundprofil](../../audiences/using/integrated-customer-profile.md) .
+Om du vill se en lista över tjänster som en kontakt har prenumererat på kan du läsa dess marknadsföringshistorik. Mer information finns i avsnittet [Integrerad kundprofil](../../audiences/using/integrated-customer-profile.md).
 
 ![](assets/lp_monitoring_subscriptions_5.png)
 
