@@ -9,21 +9,21 @@ topic-tags: campaign-standard-apis
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Räkning
 
-Adobe Campaign REST API kan räkna antalet poster i en begäran. Det gör du genom att använda den URL som returneras i noden **count** .
+Adobe Campaign REST API kan räkna antalet poster i en begäran. Det gör du genom att använda den URL som returneras i noden **count**.
 
 <br/>
 
 ***Exempelbegäran***
 
-Om du vill räkna alla tjänster som har ett **messageType** -värde som är lika med &quot;sms&quot;, utför du en GET-begäran med **byChannel** -filtret.
+Om du vill räkna alla tjänster som har ett **messageType**-värde som är lika med &quot;sms&quot;, utför du en GET-begäran med filtret **byChannel**.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=sms \
@@ -54,7 +54,7 @@ Den returnerar tjänsterna som motsvarar filtret.
 }
 ```
 
-Utför en GET-förfrågan på **antalsnodens** URL för att hämta antalet resultat.
+Utför en GET-begäran på **count**-nodens URL för att hämta antalet resultat.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/_count?channel=sms&_lineStart=@iKTZ2q3IiSEDqZ5Nw1vdoGnQCqF-8DAUJRaVwR9obqqTxhMy \
