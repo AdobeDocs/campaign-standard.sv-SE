@@ -10,8 +10,8 @@ context-tags: fileImport,main
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 79%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,13 +36,13 @@ Så här skapar du arbetsflödet:
    ![](assets/wkf_file_transfer_07.png)
 
 1. Bekräfta din aktivitet.
-1. Drag and drop a [Load file](../../automating/using/load-file.md) activity into your workflow and place it after the **[!UICONTROL Transfer file]** activity.
+1. Dra och släpp en [Läs in fil](../../automating/using/load-file.md)-aktivitet i ditt arbetsflöde och placera den efter **[!UICONTROL Transfer file]**-aktiviteten.
 1. Markera aktiviteten och öppna den sedan med knappen ![](assets/edit_darkgrey-24px.png) bland de snabbåtgärder som visas.
 1. I **[!UICONTROL File to load]**-avsnittet på fliken **[!UICONTROL Execution]**, kryssa i **[!UICONTROL Use the file specified in the inbound transition]**-rutan.
 
    ![](assets/wkf_file_loading8.png)
 
 1. Konfigurera din aktivitet enligt den tidigare specifikationen.
-1. Drag and drop an [Update data](../../automating/using/update-data.md) activity into your workflow and place it after the **[!UICONTROL Load file]** activity, then configure it.
+1. Dra och släpp en [Uppdatera data](../../automating/using/update-data.md)-aktivitet i ditt arbetsflöde och placera den efter **[!UICONTROL Load file]**-aktiviteten och konfigurera den.
 
 När arbetsflödet har startats extraheras data från den överförda filen och används sedan för att utöka Adobe Campaign-databasen.
