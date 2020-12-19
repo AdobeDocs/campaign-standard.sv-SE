@@ -9,8 +9,8 @@ topic-tags: campaign-standard-apis
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -44,5 +44,5 @@ POST /customResources/<customResourceName>
 
 >[!NOTE]
 >Sekretess-API-slutpunkten och arbetsflödena (/privacy/privacyTool) hanterar inte anpassade resurser som inte är länkade till profilentiteten.
->Du ansvarar för att hantera och rensa alla PII-filer för dessa anpassade resurser. Mer information om sekretessverktyget [finns här](../../api/using/creating-a-privacy-request.md).
+>Du ansvarar för att hantera och rensa alla PII-filer för dessa anpassade resurser. [Klicka här](../../api/using/creating-a-privacy-request.md) om du vill ha mer information om sekretessverktyget.
 
