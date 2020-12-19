@@ -10,8 +10,8 @@ context-tags: workflow,use-case,segmentation
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 41%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,24 +24,24 @@ Du kan skicka ett e-postmeddelande till kunder: en för kunder som skapats för 
 1. Välj **[!UICONTROL New Workflow]** som arbetsflödestyp och klicka på **[!UICONTROL Next]**.
 1. Ange arbetsflödets egenskaper och klicka på **[!UICONTROL Create]**.
 
-## Create a Query activity {#create-a-query-activity}
+## Skapa en frågeaktivitet {#create-a-query-activity}
 
 1. Dra och släpp en [Fråge](../../automating/using/query.md)-aktivitet i **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**.
 1. Dubbelklicka på aktiviteten.
-1. In **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profiles]** and select **[!UICONTROL email]** with the operator **[!UICONTROL is not empty]**.
-1. In **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profiles]** and select **[!UICONTROL no longer contact by email]** with the value **[!UICONTROL no]**.
+1. I **[!UICONTROL Shortcuts]** drar och släpper du **[!UICONTROL Profiles]** och väljer **[!UICONTROL email]** med operatorn **[!UICONTROL is not empty]**.
+1. I **[!UICONTROL Shortcuts]** drar och släpper du **[!UICONTROL Profiles]** och väljer **[!UICONTROL no longer contact by email]** med värdet **[!UICONTROL no]**.
 1. Klicka på **[!UICONTROL Confirm]**.
 
 ![](assets/wf-complement-query.png)
 
-## Create a Segmentation activity {#create-a-segmentation-activity}
+## Skapa en segmenteringsaktivitet {#create-a-segmentation-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a [Segmentation](../../automating/using/segmentation.md) activity and double-click it.
+1. I **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** drar och släpper du en [segmenteringsaktivitet](../../automating/using/segmentation.md) och dubbelklickar på den.
 1. Håll muspekaren över segmentet och klicka sedan på ![](assets/edit_darkgrey-24px.png) för att rikta in dig på kunder som läggs till i år i databasen.
-1. Drag and drop **[!UICONTROL Profiles]** and select **[!UICONTROL Created]** with the filter type **[!UICONTROL Relative]**.
-1. Change the **[!UICONTROL Level of precision]** to **[!UICONTROL Year]** and select **[!UICONTROL This year]**.
+1. Dra och släpp **[!UICONTROL Profiles]** och välj **[!UICONTROL Created]** med filtertypen **[!UICONTROL Relative]**.
+1. Ändra **[!UICONTROL Level of precision]** till **[!UICONTROL Year]** och välj **[!UICONTROL This year]**.
 1. Klicka på **[!UICONTROL Confirm]** två gånger.
-1. I **[!UICONTROL Advanced Options]** markerar du **[!UICONTROL Generate complement]** för att skapa ett segment med de återstående mottagarna som mål.
+1. I **[!UICONTROL Advanced Options]** markerar du **[!UICONTROL Generate complement]** för att skapa ett segment som riktar sig till de återstående mottagarna.
 1. Klicka på **[!UICONTROL Confirm]**.
 1. Klicka på **[!UICONTROL Save]**.
 
@@ -49,7 +49,7 @@ Du kan skicka ett e-postmeddelande till kunder: en för kunder som skapats för 
 
 >[!NOTE]
 >
->Om du vill se regelstrukturen klickar du på **[!UICONTROL Advanced Mode]**.
+>Om du vill kontrollera regelstrukturen klickar du på **[!UICONTROL Advanced Mode]**.
 
 ## Skapa en e-postleverans {#create-an-email-delivery}
 
