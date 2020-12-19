@@ -9,19 +9,19 @@ topic-tags: defining-conditional-content
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Definiera dynamisk text{#defining-dynamic-text}
 
-Dynamisk text definieras på samma sätt som dynamiskt innehåll. Se avsnittet [Definiera dynamiskt innehåll](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) .
+Dynamisk text definieras på samma sätt som dynamiskt innehåll. Se avsnittet [Definiera dynamiskt innehåll](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
 >[!NOTE]
 >
->För SMS och push kan du bara definiera dynamisk text. Du kan definiera både dynamiskt innehåll och text på en landningssida. Om du vill definiera dynamisk text med [e-postdesignern](../../designing/using/designing-content-in-adobe-campaign.md)läser du [Definiera dynamiskt innehåll i ett e-postmeddelande](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+>För SMS och push kan du bara definiera dynamisk text. Du kan definiera både dynamiskt innehåll och text på en landningssida. Om du vill definiera dynamisk text med [e-postdesignern](../../designing/using/designing-content-in-adobe-campaign.md) läser du [Definiera dynamiskt innehåll i ett e-postmeddelande](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
 Observera att surrogatpar, tecken som inte ingår i Unicode-teckenuppsättningens grundläggande flerspråkiga plan, inte kan lagras i 2 byte (16 bitar) och måste kodas till 2 UTF-16-tecken. Dessa tecken innehåller vissa CJK-ideogram, de flesta känslolägesikoner och vissa språk.
 <br>Dessa tecken kan orsaka vissa inkompatibilitetsproblem i dynamisk text. Du måste göra starka tester innan du skickar meddelanden.
