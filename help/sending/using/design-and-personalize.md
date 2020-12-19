@@ -9,15 +9,15 @@ index: y
 translation-type: tm+mt
 source-git-commit: a7300666587362048431d0bafacc317170b317aa
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Skapa personaliserat innehåll {#build-personalized-content}
 
-När du utformar meddelandeinnehållet bör du undvika vanliga problem som kan hindra dig från att utföra leveransen. Oftast är möjliga fel relaterade till [personalisering](../../designing/using/personalization.md), formatering vid [användning av befintligt innehåll](../../designing/using/using-existing-content.md) - och [konvertering av HTML-innehåll](../../designing/using/using-existing-content.md#converting-an-html-content) - och [bilder](../../designing/using/images.md).
+När du utformar meddelandeinnehållet bör du undvika vanliga problem som kan hindra dig från att utföra leveransen. Oftast är möjliga fel relaterade till [personalisering](../../designing/using/personalization.md), formatering när [används med befintligt innehåll](../../designing/using/using-existing-content.md) - och [konvertering av HTML-innehåll](../../designing/using/using-existing-content.md#converting-an-html-content) - och [bilder](../../designing/using/images.md).
 
 ## Optimera personalisering {#optimize-personalization}
 
@@ -49,7 +49,7 @@ När du skapar e-postmeddelanden bör du tänka på de allmänna bästa metodern
 
 ### Subject line
 
-Arbeta med [ämnesraden](../../designing/using/subject-line.md) för att förbättra öppna priser:
+Arbeta på [ärenderaden](../../designing/using/subject-line.md) för att förbättra öppna frekvenser:
 
 * Undvik för långa motiv. Använd högst 50 tecken
 
@@ -63,9 +63,9 @@ Inkludera alltid en länk för spegelsida. Önskad position är högst upp i e-p
 
 ### Avprenumerationslänk
 
-Avprenumerationslänken är viktig. Den måste vara synlig och giltig och formuläret måste vara funktionellt. Lär dig riktlinjerna för att ta bort prenumerationslänk [i det här avsnittet](../../designing/using/personalization.md#about-targeting-dimension).
+Avprenumerationslänken är viktig. Den måste vara synlig och giltig och formuläret måste vara funktionellt. Lär dig riktlinjerna för att ta bort prenumerationen [i det här avsnittet](../../designing/using/personalization.md#about-targeting-dimension).
 
-När meddelandet analyseras kontrollerar en regel [för](../../sending/using/control-rules.md) kontrolltypologi om en länk för att avanmäla sig har inkluderats som standard och genererar en varning om den saknas.
+När meddelandet analyseras kontrollerar en [typologiregel](../../sending/using/control-rules.md) som standard om en avanmälningslänk har inkluderats och genererar en varning om den saknas.
 
 **Tips**: Eftersom mänskliga fel alltid är möjliga bör du kontrollera att länken för avanmälan fungerar korrekt före varje gång du skickar. När du t.ex. skickar ett bevis ska du kontrollera att länken är giltig, att formuläret är online och att fältet för att inte längre kontakta den här mottagaren har ändrats till Ja.
 
@@ -73,7 +73,7 @@ Lär dig hur du infogar en länk för avanmälan [i det här avsnittet](../../de
 
 ### E-poststorlek
 
-För att undvika problem med prestanda och leverans är den rekommenderade maximala storleken på ett e-postmeddelande cirka **35 kB**.
+För att undvika problem med prestanda och leverans bör du ha en maximal storlek på ett e-postmeddelande på cirka **35 kB**.
 
 Tänk på följande om du vill hålla din e-post under gränsen:
 
@@ -106,7 +106,7 @@ Responsiv design säkerställer att ett e-postmeddelande återges optimalt för 
 
 * Använd responsiv e-post-HTML i stället för webb-HTML
 
-* Använd förhandsgranskningsläget och skicka provtryck för att testa återgivningen på så många enheter som möjligt. Lär dig hur du [förhandsgranskar meddelandet](../../sending/using/previewing-messages.md) innan du skickar det.
+* Använd förhandsgranskningsläget och skicka provtryck för att testa återgivningen på så många enheter som möjligt. Lär dig hur du [förhandsgranskar meddelande](../../sending/using/previewing-messages.md) innan du skickar.
 
 * Campaign Email Designer innehåller responsiva designformaterade mallar för mobiler. Läs mer [på den här sidan](../../designing/using/using-reusable-content.md#content-templates).
 
