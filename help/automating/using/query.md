@@ -10,8 +10,8 @@ context-tags: query,main
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '1710'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -58,7 +58,7 @@ Aktiviteten **[!UICONTROL Query]** kan användas för olika typer av användning
 
 1. Under **[!UICONTROL Transition]**-fliken kan du med **[!UICONTROL Enable an outbound transition]**-alternativet lägga till en utgående övergång efter förfrågnings-aktiviteten, även om ingen data hämtats.
 
-   The outbound transition&#39;s segment code can be personalized using a standard expression and events variables (see [this page](../../automating/using/customizing-workflow-external-parameters.md)).
+   Segmentkoden för den utgående övergången kan anpassas med hjälp av ett standarduttryck och händelsevariabler (se [den här sidan](../../automating/using/customizing-workflow-external-parameters.md)).
 
 1. Bekräfta aktivitetens konfiguration och spara arbetsflödet.
 
@@ -66,7 +66,7 @@ Aktiviteten **[!UICONTROL Query]** kan användas för olika typer av användning
 
 Med måldimensionerna och resurserna kan du definiera vilka element en fråga ska baseras på för att avgöra målet för en leverans.
 
-De konfigureras i [målmappningar](../../administration/using/target-mappings-in-campaign.md)och definieras när du skapar ett arbetsflöde på fliken **[!UICONTROL Properties]** i en Query-aktivitet.
+De konfigureras i [målmappningar](../../administration/using/target-mappings-in-campaign.md) och definieras när du skapar ett arbetsflöde på fliken **[!UICONTROL Properties]** för en Query-aktivitet.
 
 >[!NOTE]
 >
@@ -96,7 +96,7 @@ Exempel på tillgängliga filter för **[!UICONTROL Deliveries (delivery)]**-res
 
 Måldimensionen och målresursen anges som standard för målprofiler. Det kan dock vara användbart att använda en annan resurs än måldimensionen om du vill söka efter en viss post i en annan tabell.
 
-Mer information finns i följande exempel: [Använda andra resurser än målinriktade dimensioner](../../automating/using/using-resources-different-from-targeting-dimensions.md)
+Mer information finns i följande exempel: [Använda andra resurser än måldimensioner](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
 ## Berika data {#enriching-data}
 
@@ -118,7 +118,7 @@ När du har lagt till ytterligare data kan du använda en extra filternivå för
 >
 >Alternativet är som standard markerat i **[!UICONTROL Remove duplicate rows (DISTINCT)]** slutet **[!UICONTROL Advanced options]** av **[!UICONTROL Additional data]** förfrågningsfliken. Om **[!UICONTROL Query]**-aktiviteten innehåller mycket (från 100) ytterligare data som definierats så bör du avmarkera detta alternativ av prestandaskäl. Om du avmarkerar det här alternativet kan dubbletter hämtas, beroende på vilken data som efterfrågas.
 
-Ett användningsexempel om hur du anpassar ett e-postmeddelande med ytterligare data visas i [det här avsnittet](../../automating/using/personalizing-email-with-additional-data.md).
+Ett användningsexempel om hur du anpassar ett e-postmeddelande med ytterligare data finns i [det här avsnittet](../../automating/using/personalizing-email-with-additional-data.md).
 
 ### Lägga till ett enkelt fält {#adding-a-simple-field}
 
