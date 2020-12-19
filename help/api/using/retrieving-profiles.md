@@ -9,17 +9,17 @@ topic-tags: campaign-standard-apis
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Hämtar profiler {#retrieving-profiles}
 
-Hämtning av profiler utförs med en **GET** -begäran.
+Hämtning av profiler utförs med en **GET**-begäran.
 
-Du kan sedan förfina sökningen genom att använda filter, ordning och sidnumrering. For more on this, refer to the [Additional operations](../../api/using/sorting.md) section.
+Du kan sedan förfina sökningen genom att använda filter, ordning och sidnumrering. Mer information finns i avsnittet [Ytterligare åtgärder](../../api/using/sorting.md).
 
 <br/>
 
