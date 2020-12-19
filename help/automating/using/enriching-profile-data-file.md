@@ -10,8 +10,8 @@ context-tags: enrichment,main
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 78%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,8 +24,8 @@ Arbetsflödet är konfigurerat på följande sätt:
 
 ![](assets/enrichment_example_workflow.png)
 
-* A [Query](../../automating/using/query.md) activity that targets the profiles who will receive the message.
-* A [Load file](../../automating/using/load-file.md) activity that loads the purchase data. Exempel:
+* En [Query](../../automating/using/query.md)-aktivitet som anger vilka profiler som ska ta emot meddelandet som mål.
+* En [Läs in fil](../../automating/using/load-file.md)-aktivitet som läser in inköpsdata. Exempel:
 
    ```
    tcode;tdate;customer;product;tamount
@@ -39,7 +39,7 @@ Arbetsflödet är konfigurerat på följande sätt:
 
    Med den här exempelfilen använder vi e-postadressen för att stämma av data med databasprofilerna. Du kan även aktivera unika ID:n enligt beskrivningen i [det här dokumentet](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
 
-* An [Enrichment](../../automating/using/enrichment.md) activity that creates a link between the transaction data loaded from the file and the profiles selected in the **[!UICONTROL Query]**. Länken definieras på aktivitetens flik **[!UICONTROL Advanced relations]**. Länken baseras på övergången från **[!UICONTROL Load file]**-aktiviteten. Det använder e-postfältet för profilresursen och kundkolumnen för den importerade filen som avstämningskriterier.
+* En [Enrichment](../../automating/using/enrichment.md)-aktivitet som skapar en länk mellan de transaktionsdata som läses in från filen och de profiler som valts i **[!UICONTROL Query]**. Länken definieras på aktivitetens flik **[!UICONTROL Advanced relations]**. Länken baseras på övergången från **[!UICONTROL Load file]**-aktiviteten. Det använder e-postfältet för profilresursen och kundkolumnen för den importerade filen som avstämningskriterier.
 
    ![](assets/enrichment_example_workflow2.png)
 
@@ -77,11 +77,11 @@ Arbetsflödet är konfigurerat på följande sätt:
 
       ![](assets/enrichment_example_workflow9.png)
 
-* A [Segmentation](../../automating/using/segmentation.md) activity with only one segment, that retrieves profiles of the initial target that have at least two transactions recorded. Profiler med endast en transaktion exkluderas. För att göra detta skapas förfrågningen om segmenteringen på den mängd som tidigare definierats.
+* En [segmenteringsaktivitet](../../automating/using/segmentation.md) med endast ett segment, som hämtar profiler för det ursprungliga målet som har minst två transaktioner registrerade. Profiler med endast en transaktion exkluderas. För att göra detta skapas förfrågningen om segmenteringen på den mängd som tidigare definierats.
 
    ![](assets/enrichment_example_workflow5.png)
 
-* An [Email delivery](../../automating/using/email-delivery.md) activity that uses the additional data defined in the **[!UICONTROL Enrichment]** to dynamically retrieve the two last purchases made by the profile. Ytterligare data finns i noden **Ytterligare data (TargetData)** när du lägger till ett personaliserat fält.
+* En [e-postleveransaktivitet](../../automating/using/email-delivery.md) som använder de ytterligare data som definierats i **[!UICONTROL Enrichment]** för att dynamiskt hämta de två senaste inköpen som gjorts av profilen. Ytterligare data finns i noden **Ytterligare data (TargetData)** när du lägger till ett personaliserat fält.
 
    ![](assets/enrichment_example_workflow10.png)
 
