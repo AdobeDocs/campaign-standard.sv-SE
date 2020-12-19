@@ -9,15 +9,15 @@ topic-tags: campaign-standard-apis
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 11%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Sortering
 
-Sorteringen är tillgänglig i stigande eller fallande ordning. Om du vill göra det använder du parametern **%20desc** eller **%20asc** .
+Sorteringen är tillgänglig i stigande eller fallande ordning. Om du vill göra det använder du parametern **%20desc** eller **%20asc** på din begäran.
 
 Om du vill veta om ett fält kan sorteras kontrollerar du parametern &quot;sorterable&quot; i metadata för resursen. Mer information om detta finns i [det här avsnittet](../../api/using/metadata-mechanism.md).
 
