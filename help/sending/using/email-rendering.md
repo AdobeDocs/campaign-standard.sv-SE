@@ -9,8 +9,8 @@ topic-tags: preparing-and-testing-messages
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -76,7 +76,7 @@ I den här rapporten visas e-poståtergivningarna så som de visas för mottagar
 >
 >Tokens-konto för varje enskild återgivning och inte för hela återgivningsrapporten för e-post, vilket innebär att:
 >
->**Varje gång** rapporten för inkorgsåtergivning skapas dras en token per meddelandeklient av: en token för Outlook 2000-återgivning, en för Outlook-återgivningen, en för Apple Mail-återgivningen och så vidare.
+>**Varje** gång rapporten för inkorgsåtergivning skapas dras en token per meddelandeklient av: en token för Outlook 2000-återgivning, en för Outlook-återgivningen, en för Apple Mail-återgivningen och så vidare.
 >
 >**Om du genererar återgivningen av e-post igen för samma leverans** minskas antalet tillgängliga tokens igen med antalet genererade återgivningar.
 
