@@ -9,8 +9,8 @@ topic-tags: importing-and-exporting-data
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 24%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ Beroende på ditt företags behov har du flera sätt att importera och exportera
    * Med den här **[!UICONTROL Load file]** aktiviteten kan du importera data i ett strukturerat formulär och använda denna data i Adobe Campaign.  Data importeras tillfälligt och en annan aktivitet krävs för att den slutgiltigt ska kunna integreras i Adobe Campaign-databasen. Mer information om hur du använder den här aktiviteten finns i [det här avsnittet](../../automating/using/load-file.md).
    * Med den här **[!UICONTROL Transfer file]** aktiviteten så kan du ta emot eller skicka filer och testa om det finns filer eller listfiler i Adobe Campaign. Du kan använda den här aktiviteten före en **[!UICONTROL Load file]** om du behöver hämta filen från en extern källa. Mer information om hur du använder den här aktiviteten finns i [det här avsnittet](../../automating/using/transfer-file.md).
 
-När du utformar importprocesser är det bäst att använda arbetsflödesmallar som du kan anpassa efter dina behov. Mer information om hur du ställer in en arbetsflödesmall för import av data finns i [det här användningsexemplet](../../automating/using/creating-import-workflow-templates.md).
+När du utformar importprocesser är det bäst att använda arbetsflödesmallar som du kan anpassa efter dina behov. Mer information om hur du konfigurerar en arbetsflödesmall för import av data finns i [det här användningsexemplet](../../automating/using/creating-import-workflow-templates.md).
 
 Adobe Campaign erbjuder också ett förenklat sätt att utföra vanliga importer som består av att utforma **importmallar**. Importmallar är specialiserade arbetsflödesmallar som är tillgängliga via en dedikerad skärm. När den har designats behöver den användare som utför importen bara överföra filen för import i en förenklad vy.
 
