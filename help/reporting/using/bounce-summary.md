@@ -10,8 +10,8 @@ context-tags: bounceReport,main;campaignCirculationReport,main;programCirculatio
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,9 +24,9 @@ Den här rapporten innehåller information om de övergripande hårda och mjuka 
 
 Varje tabell representeras av sammanfattande nummer och diagram. Du kan ändra hur detaljerna visas i deras respektive visualiseringsinställningar.
 
-**Flöde 5-ompartitionen** listar de fem leveranser som har det högsta antalet karantän:
+**Flöde 5** ompartitionerar de fem leveranser som har det högsta antalet karantän:
 
-Tabellen **Studsorsaker** innehåller tillgängliga data för de typer av fel som orsakade studsar för varje leverans:
+Tabellen **studsorsaker** innehåller tillgängliga data för de typer av fel som orsakade studsar för varje leverans:
 
 * **[!UICONTROL User unknown]**: Den typ av fel som genereras när en leverans skickas till en ogiltig e-postadress.
 * **[!UICONTROL Invalid domain]**: Den typ av fel som genereras när en leverans skickas till en e-postadress vars domän är felaktig eller inte längre finns.
