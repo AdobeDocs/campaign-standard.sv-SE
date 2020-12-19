@@ -10,13 +10,13 @@ context-tags: signal,main
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 79%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# External signal and data import {#external-signal-data-import}
+# Extern signal- och dataimport {#external-signal-data-import}
 
 I följande exempel visas aktiviteten **[!UICONTROL External signal]** i ett typiskt fall. En dataimport utförs i ett källarbetsflöde. När importen är klar och databasen har uppdaterats aktiveras ett andra arbetsflöde. Det andra arbetsflödet används för att uppdatera en aggregering på de importerade data.
 
@@ -38,13 +38,13 @@ Källarbetsflödet visas på följande sätt:
 
 * En aktivitet för [Avstämning](../../automating/using/reconciliation.md) skapar länkarna mellan importerade data och databasen så att transaktionsdata är korrekt anslutna till profiler och produkter.
 * En aktivitet för [Uppdatera data](../../automating/using/update-data.md) infogar och uppdaterar transaktionsresursen för databasen med inkommande data.
-* An [End](../../automating/using/start-and-end.md) activity triggers the destination workflow, which is used to update aggregates.
+* En [End](../../automating/using/start-and-end.md)-aktivitet utlöser målarbetsflödet, som används för att uppdatera aggregeringar.
 
 ![](assets/signal_example_source1.png)
 
 Destinationsarbetsflödet visas på följande sätt:
 
-* An [External signal](../../automating/using/external-signal.md) activity waits for the source workflow to be successfully finished.
+* En [extern signal](../../automating/using/external-signal.md)-aktivitet väntar på att källarbetsflödet ska slutföras.
 * En aktivitet för [Fråga](../../automating/using/query.md#enriching-data) har profiler som mål och berikar dem med en samlingsuppsättning för att hämta det senaste inköpsdatumet.
 * En aktivitet för [Uppdatera data](../../automating/using/update-data.md) lagrar ytterligare data i ett dedikerat anpassat fält. Observera att profilresursen har utökats för att lägga till fältet **Senaste inköpsdatum**.
 
