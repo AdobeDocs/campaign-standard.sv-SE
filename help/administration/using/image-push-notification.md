@@ -10,8 +10,8 @@ context-tags: mobileApp,overview
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 20%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -40,9 +40,9 @@ Med Adobe Campaign kan du finjustera push-meddelanden och få åtkomst till en u
 
 1. Skapa ett push-meddelande. Se denna [sida](../../channels/using/preparing-and-sending-a-push-notification.md) för mer information om detta.
 
-1. Från innehållssidan för push-meddelanden kommer du åt **[!UICONTROL Advanced options]** avsnittet.
+1. Gå till avsnittet **[!UICONTROL Advanced options]** från innehållssidan för push-meddelanden.
 
-1. Ange URL-adressen till filen i **[!UICONTROL Rich media content URL]** fältet.
+1. Ange filens URL i fältet **[!UICONTROL Rich media content URL]**.
 För iOS 10 eller senare versioner kan du infoga bild-, gif-, ljud- och videofiler.
 
    ![](assets/push_notif_advanced_6.png)
@@ -57,17 +57,17 @@ När du har anpassat ditt push-meddelande i Adobe Campaign måste du konfigurera
 >
 >Om ditt program är i mål-C, se följande [dokumentation](https://docs.adobe.com/content/help/en/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html).
 
-Om din app finns i [!DNL Swift]följer du stegen nedan:
+Om din app finns i [!DNL Swift] följer du stegen nedan:
 
-1. Öppna ditt [!DNL Xcode] projekt.
+1. Öppna ditt [!DNL Xcode]-projekt.
 
-1. Välj [!DNL Xcode] > **[!UICONTROL File]** > **[!UICONTROL New]** i ditt **[!UICONTROL Target]** projekt.
+1. I ditt [!DNL Xcode]-projekt väljer du **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**.
 
 1. Välj **[!UICONTROL Notification Service Extension]**.
 
    ![](assets/push_notif_advanced_12.png)
 
-1. Kontrollera att **klassen NotificationService.swift** har skapats.
+1. Kontrollera att filklassen **NotificationService.swift** har skapats.
 
 1. Redigera den här klassen och ersätt standardinnehållet med följande:
 Detta gör att programmet kan hantera den inkommande parametern med bild-URL:en, tolka den, kopiera den lokalt och sedan visa den från push-meddelandet.
@@ -152,7 +152,7 @@ userInfo: [AnyHashable("media-attachment-url"): https://pbs.twimg.com/profile_im
 }]
 ```
 
-## Steg 4: Testa skicka push-meddelanden {#test-send-push}
+## Steg 4: Testa skicka push {#test-send-push}
 
 Nu kan du testa hur du skapar programmet och leveransen som du skapade i steg 2 ovan. Mer information om hur du förbereder och skickar push-meddelanden finns på den här [sidan](../../channels/using/preparing-and-sending-a-push-notification.md).
 
