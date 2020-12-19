@@ -10,15 +10,15 @@ context-tags: delivery,schedule,back
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Övervaka levererbarhet{#monitor-deliverability}
 
-Här nedan hittar du information om **[!UICONTROL Delivery throughput]** rapporten samt de olika övervakningsverktyg som Adobe Campaign erbjuder. Här följer ytterligare riktlinjer för leveransövervakning:
+Nedan finns information om **[!UICONTROL Delivery throughput]**-rapporten samt de olika övervakningsverktyg som Adobe Campaign erbjuder. Här följer ytterligare riktlinjer för leveransövervakning:
 * Kontrollera regelbundet leveransflödet för hela plattformen för att kontrollera om det stämmer överens med den ursprungliga konfigurationen.
 * Kontrollera att återförsök har konfigurerats korrekt (30 minuter för återförsöksperiod och mer än 20 återförsök) i leveransmallar.
 * Kontrollera regelbundet att studspostlådan är tillgänglig och att kontot inte håller på att förfalla.
@@ -37,7 +37,7 @@ Mer information finns i [Leveransflöde](../../reporting/using/delivery-throughp
 
 Du kan konfigurera de värden som visas genom att ändra tidsskalan.
 
-Andra rapporter finns tillgängliga, till exempel **[!UICONTROL Delivery summary]** eller **[!UICONTROL Non-deliverables and bounces]**. Mer information finns i [Dynamiska rapporter](../../reporting/using/about-dynamic-reports.md).
+Det finns andra rapporter, till exempel **[!UICONTROL Delivery summary]** eller **[!UICONTROL Non-deliverables and bounces]**. Mer information finns i [Dynamiska rapporter](../../reporting/using/about-dynamic-reports.md).
 
 ## Övervaka leveranser {#monitoring-deliveries}
 
@@ -47,9 +47,9 @@ Mer information finns i [Övervaka en leverans](../../sending/using/monitoring-a
 
 ![](assets/sending_delivery1.png)
 
-## Få aviseringar {#receiving-alerts}
+## Tar emot aviseringar {#receiving-alerts}
 
-The **[!UICONTROL Delivery alerting]** feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries.
+Funktionen **[!UICONTROL Delivery alerting]** är ett varningshanteringssystem som gör att en grupp användare automatiskt kan ta emot meddelanden som innehåller information om hur deras leveranser utförs.
 
 Mer information finns i [Få aviseringar när fel inträffar](../../sending/using/receiving-alerts-when-failures-happen.md).
 
