@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
 source-wordcount: '789'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -68,7 +68,7 @@ I följande avsnitt beskrivs de viktigaste stegen för att utföra en datamappni
 
 * Det går inte att överföra prenumerationshändelser direkt. Om du vill överföra prenumerationshändelser kan du skapa motsvarande XDM och datauppsättning på Adobe Experience Platform och sedan konfigurera en anpassad datamappning för dessa data.
 
-* När det gäller sekretessförfrågningar (både åtkomst- och borttagningsåtgärder) måste kunderna göra separata förfrågningar via [kärntjänsten för sekretess](https://docs.adobe.com/content/help/en/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests): en för Campaign och en för Adobe Experience Platform. Mer information finns i [Om sekretessförfrågningar](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess) och [Hantera sekretessförfrågningar](https://helpx.adobe.com/se/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) i Campaign.
+* När det gäller sekretessförfrågningar (både åtkomst- och borttagningsåtgärder) måste kunderna göra separata förfrågningar via [kärntjänsten för sekretess](https://docs.adobe.com/content/help/en/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests): en för Campaign och en för Adobe Experience Platform. Mer information finns i [Om sekretessförfrågningar](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=sv#getting-started) och [Hantera sekretessförfrågningar](https://helpx.adobe.com/se/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) i Campaign.
 
 * För varje XDM-fält måste DULE-etiketteringen göras i Adobe Experience Platform. Det är kundens ansvar att använda DULE-etiketter.
 
