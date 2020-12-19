@@ -10,8 +10,8 @@ context-tags: readAudience,main
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 87%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -50,6 +50,6 @@ Arbetsflödet för sammankoppling är utformat så här:
 
 ![](assets/readaudience_activity_example2.png)
 
-* A [Read audience](../../automating/using/read-audience.md) activity uploads the File audience created in the import workflow. Målgruppsdata är ännu inte sammankopplat med Adobe Campaign-databasen.
+* En [läsmålgruppsaktivitet](../../automating/using/read-audience.md) överför den målgrupp som skapats i importarbetsflödet. Målgruppsdata är ännu inte sammankopplat med Adobe Campaign-databasen.
 * En [sammankopplings](../../automating/using/reconciliation.md)-aktivitet identifierar inkommande data som profiler på fliken **[!UICONTROL Identification]**.    Du kan exempelvis använda **e-post** fältet som sammankopplingskriterie.
 * En [Uppdatera data](../../automating/using/update-data.md)-aktivitet infogar och uppdaterar profilresursen för databasen med inkommande data.  Eftersom data redan har identifierats som profiler kan du markera **[!UICONTROL Directly using the targeting dimension]** alternativet och välja **[!UICONTROL Profiles]** i aktivitetens **[!UICONTROL Identification]** flik.  Sedan behöver du endast lägga till listan med fält som behöver uppdateras på fliken.
