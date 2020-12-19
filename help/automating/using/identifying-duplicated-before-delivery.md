@@ -10,8 +10,8 @@ context-tags: dedup,main
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 78%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,11 +24,11 @@ Arbetsflödet består av:
 
 ![](assets/deduplication_example_workflow.png)
 
-* A [Query](../../automating/using/query.md) which allows you to define the target of the email. Här riktar sig arbetsflödet till alla profiler mellan 18 och 25 år som har funnits i klientdatabasen i mer än ett år.
+* En [fråga](../../automating/using/query.md) som gör att du kan definiera målet för e-postmeddelandet. Här riktar sig arbetsflödet till alla profiler mellan 18 och 25 år som har funnits i klientdatabasen i mer än ett år.
 
    ![](assets/deduplication_example_query.png)
 
-* A [Deduplication](../../automating/using/deduplication.md) activity, which allows you to identify the duplicates that come from the preceding query. I det här exemplet sparas bara en post för varje dubblett. Dubbletterna identifieras med e-postadressen. Det innebär att e-postleveransen bara kan skickas en gång för varje e-postadress som ska finnas i målgruppen.
+* En [borttagning av dubbletter](../../automating/using/deduplication.md)-aktivitet som gör att du kan identifiera dubbletter som kommer från föregående fråga. I det här exemplet sparas bara en post för varje dubblett. Dubbletterna identifieras med e-postadressen. Det innebär att e-postleveransen bara kan skickas en gång för varje e-postadress som ska finnas i målgruppen.
 
    Den valda dedupliceringsmetoden är **[!UICONTROL Non-empty value]**. På så vis kan du se till att poster med **förnamn** som har dubbletter prioriteras. Detta gör det mer sammanhängande om förnamnet används i anpassningsfältet i e-postinnehållet.
 
@@ -36,5 +36,5 @@ Arbetsflödet består av:
 
    ![](assets/deduplication_example_dedup.png)
 
-* An [Email delivery](../../automating/using/email-delivery.md) placed after the main outbound transition of the deduplication.
-* A [Save audience](../../automating/using/save-audience.md) activity placed after the additional transition of the deduplication to save the duplicates in a **Duplicates** audience. Den här målgruppen kan återanvändas för att direkt exkludera medlemmarna från alla e-postleveranser.
+* En [e-postleverans](../../automating/using/email-delivery.md) placerad efter den huvudsakliga utgående övergången för dedupliceringen.
+* En [Spara målgruppsaktivitet](../../automating/using/save-audience.md) som placerats efter den extra övergången av dedupliceringen för att spara dubbletterna i en **dubblettmålgrupp**. Den här målgruppen kan återanvändas för att direkt exkludera medlemmarna från alla e-postleveranser.
