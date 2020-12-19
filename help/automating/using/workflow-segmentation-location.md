@@ -10,8 +10,8 @@ context-tags: workflow,use-case,query,segmentation,delivery
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 83%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ Du kan skicka riktade e-postmeddelanden till kunderna med erbjudanden i deras lo
 
 ## Välja mottagare som kan kontaktas via e-post{#selecting-recipients-contactable-via-email}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a [Query](../../automating/using/query.md) activity ![](assets/query.png).
+1. I **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** drar och släpper du en [Query](../../automating/using/query.md)-aktivitet ![](assets/query.png).
 1. Dubbelklicka på aktiviteten.
 1. I **[!UICONTROL Shortcuts]** drar och släpper du **[!UICONTROL Profiles]** och markerar fältet **[!UICONTROL email]** med operatorn **[!UICONTROL is not empty]**.
 1. I **[!UICONTROL Shortcuts]** drar och släpper du **[!UICONTROL Profiles]** och markerar fältet **[!UICONTROL no longer contact by email]** med värdet **[!UICONTROL no]**.
@@ -36,7 +36,7 @@ Du kan skicka riktade e-postmeddelanden till kunderna med erbjudanden i deras lo
 
 ## Skapa en segmenteringsaktivitet{#creating-a-segmentation-activity}
 
-1. Drag and drop a [Segmentation](../../automating/using/segmentation.md) activity and double-click it.
+1. Dra och släpp en [segmenteringsaktivitet](../../automating/using/segmentation.md) och dubbelklicka på den.
 1. Klicka på segmentet och öppna sedan övergången för att nå personer i den första staden. Här i Boston.
 1. Dra och släpp **[!UICONTROL Location]** och markera **[!UICONTROL City]** med operatorn **[!UICONTROL equals to]** och värdet **[!UICONTROL Boston]**.
 Obs! Om du vill nå alla personer som angav boston avmarkerar du alternativet Skiftlägeskänsligt.
