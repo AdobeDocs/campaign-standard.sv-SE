@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Livscykel för transaktionsmeddelande
+title: Livscykeln för ett transaktionsmeddelande
 description: Lär dig hur du publicerar, pausar, avpublicerar och tar bort ett transaktionsmeddelande.
 audience: channels
 content-type: reference
@@ -10,13 +10,13 @@ context-tags: null
 translation-type: tm+mt
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 74%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Livscykel för transaktionsmeddelande {#publishing-transactional-message}
+# Livscykeln för ett transaktionsmeddelande {#publishing-transactional-message}
 
 När [transaktionsmeddelandet](../../channels/using/editing-transactional-message.md) är klart att skickas kan det publiceras.
 
