@@ -10,8 +10,8 @@ context-tags: delivery,schedule,back
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,9 +29,9 @@ Det händer ofta att en plattform startas när en adresslista används för för
 * Om du ändå vill ange de ogiltiga adresserna är det bäst att göra detta när plattformens rykte väl har etablerats och bitvis för att &quot;tona ned&quot; användningen av dåliga adresser över tiden.
 
 Sammanfattning av de principer som ska följas vid starten:
-* **Konfigurera en dedikerad underdomän** att arbeta med Campaign som är specifik för e-postkampanjer som skickas från Adobe.
-* **Importera ogiltiga/inaktiva adresser till karantänregistret** (om du har den här informationen).
-* **Begränsa överföringshastigheten** (teknisk inställning: begränsa antalet matriser).
+* **Konfigurera en dedikerad** underdomän i Campaign som är specifik för e-postkampanjer som skickas från Adobe.
+* **Importera ogiltiga/inaktiva adresser till karantäntabellen**  (om du har den här informationen).
+* **Begränsa leveransflödet** (teknisk inställning: begränsa antalet matriser).
 * **Öka volymen som skickas** progressivt: inte för hela databasen från början, utan lägger till en extra del av listan varje gång du skickar. Detta bör göra att du kan öka volymen i varje steg och samtidigt minska den totala hastigheten för ogiltiga adresser.
 * **Skicka meddelanden regelbundet**: I viss utsträckning är det bättre att skicka små tagningar regelbundet i stället för stora kampanjer sporadiskt.
 * **Övervaka leveransrapporterna** noggrant: högfelsindikatorer kan innebära att en teknisk inställning är dåligt konfigurerad.
