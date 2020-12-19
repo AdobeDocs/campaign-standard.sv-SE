@@ -10,8 +10,8 @@ context-tags: cusResource,overview;eventCusResource,overview
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '1556'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,9 +23,9 @@ I det här dokumentet beskrivs viktiga rekommendationer när du utformar din Ado
 
 >[!NOTE]
 >
->Mer information om hur du skapar och ändrar resurser för att utöka den fördefinierade Adobe Campaign-datamodellen finns i [det här avsnittet](../../developing/using/key-steps-to-add-a-resource.md).
+>Information om hur du skapar och ändrar resurser för att utöka den fördefinierade Adobe Campaign-datamodellen finns i [det här avsnittet](../../developing/using/key-steps-to-add-a-resource.md).
 >
->Du hittar en datamodellrepresentation av de inbyggda resurserna på [den här sidan](../../developing/using/datamodel-introduction.md).
+>Du kan hitta en datamodellrepresentation av de inbyggda resurserna i [den här sidan](../../developing/using/datamodel-introduction.md).
 
 ## Översikt {#overview}
 
@@ -37,15 +37,15 @@ Det här dokumentet innehåller vanliga användningsexempel och metodtips om hur
 
 Adobe Campaign Standard är ett kraftfullt kanalövergripande kampanjhanteringssystem som kan hjälpa er att anpassa era online- och offlinestrategier för att skapa personaliserade kundupplevelser.
 
-### Kundfokuserat tillvägagångssätt {#customer-centric-approach}
+### Kundfokuserad metod {#customer-centric-approach}
 
 De flesta e-postleverantörer kommunicerar med kunderna via en listcentrerad strategi, men Adobe Campaign förlitar sig på en relationsdatabas för att få en bredare bild av kunderna och deras attribut.
 
-Detta kundcentrerade tillvägagångssätt visas i tabellen nedan. Resursen för **profiler** i grått representerar huvudkundtabellen som allting byggs runt:
+Detta kundcentrerade tillvägagångssätt visas i tabellen nedan. Resursen **Profil** i grått representerar huvudkundtabellen som allting byggs runt:
 
 ![](assets/customer-centric-data-model.png)
 
-Adobe Campaign standarddatamodell presenteras i det här [avsnittet](../../developing/using/datamodel-introduction.md).
+Adobe Campaign standarddatamodell visas i det här [avsnittet](../../developing/using/datamodel-introduction.md).
 
 <!--You can find a datamodel representation for the out-of-the-box resources [here](../../developing/using/datamodel-introduction.md).-->
 
@@ -79,9 +79,9 @@ Följ de bästa sätten nedan för att konfigurera data i Adobe Campaign för at
 * Längden på ett strängfält ska alltid definieras med kolumnen. Som standard är maxlängden i Adobe Campaign 255 tecken, men Adobe rekommenderar att du håller fältet kortare om du redan vet att storleken inte kommer att överskrida en kortare längd.
 * Det går bra att ha ett fält som är kortare i Adobe Campaign än i källsystemet om du är säker på att storleken i källsystemet var för stor och inte skulle nås. Detta kan betyda en kortare sträng eller ett mindre heltal i Adobe Campaign.
 
-## Konfigurera datastruktur {#configuring-data-structure}
+## Konfigurerar datastrukturen {#configuring-data-structure}
 
-I det här avsnittet beskrivs de bästa sätten att [konfigurera en resurs datastruktur](../../developing/using/configuring-the-resource-s-data-structure.md).
+I det här avsnittet beskrivs de effektivaste strategierna när [en resurs datastruktur](../../developing/using/configuring-the-resource-s-data-structure.md) konfigureras.
 
 ### Identifierare {#identifiers}
 
@@ -95,10 +95,10 @@ I följande tabell beskrivs dessa identifierare och deras syfte.
 
 | Visningsnamn | Tekniskt namn | Beskrivning | Bästa praxis |
 |--- |--- |--- |--- |
-|  | PKey | <ul><li>PKey är den fysiska primärnyckeln för en Adobe Campaign-tabell.</li><li>Den här identifieraren är vanligtvis unik för en viss Adobe Campaign-instans.</li><li>I Adobe Campaign Standard är det här värdet inte synligt för slutanvändaren (förutom i URL-adresser).</li></ul> | <ul><li>Via [API-systemet](../../api/using/get-started-apis.md)är det möjligt att hämta ett PKey-värde (som är ett genererat/hash-värde, inte den fysiska nyckeln).</li><li>Du bör inte använda den för något annat än att hämta, uppdatera eller ta bort poster via API.</li></ul> |
+|  | PKey | <ul><li>PKey är den fysiska primärnyckeln för en Adobe Campaign-tabell.</li><li>Den här identifieraren är vanligtvis unik för en viss Adobe Campaign-instans.</li><li>I Adobe Campaign Standard är det här värdet inte synligt för slutanvändaren (förutom i URL-adresser).</li></ul> | <ul><li>Via [API-systemet](../../api/using/get-started-apis.md) är det möjligt att hämta ett PKey-värde (som är ett genererat/hash-värde, inte den fysiska nyckeln).</li><li>Du bör inte använda den för något annat än att hämta, uppdatera eller ta bort poster via API.</li></ul> |
 | ID | name eller internalName | <ul><li>Den här informationen är en unik identifierare för en post i en tabell. Det här värdet kan uppdateras manuellt.</li><li>Den här identifieraren behåller sitt värde när den distribueras i en annan instans av Adobe Campaign. Det måste ha ett annat namn än det genererade värdet som kan exporteras via ett paket.</li><li>Detta är inte den faktiska primärnyckeln för tabellen.</li></ul> | <ul><li>Använd inte specialtecken som blanksteg&quot;, halvkolumn &quot;:&quot; eller bindestreck &quot;-&quot;.</li><li>Alla dessa tecken ersätts med understrecket&quot;_&quot; (tillåtet tecken). &quot;abc-def&quot; och &quot;abc:def&quot; skulle till exempel lagras som &quot;abc_def&quot; och skrivas över varandra.</li></ul> |
 | Etikett | label | <ul><li>Etiketten är affärsidentifieraren för ett objekt eller en post i Adobe Campaign.</li><li>Det här objektet tillåter mellanslag och specialtecken.</li><li>Det garanterar inte att ett register är unikt.</li></ul> | <ul><li>Vi rekommenderar att du bestämmer en struktur för objektetiketterna.</li><li>Detta är den mest användarvänliga lösningen för att identifiera en post eller ett objekt för en Adobe Campaign-användare.</li></ul> |
-| ACS-ID | acsId | <ul><li>Ytterligare en identifierare kan genereras: ACS- [ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).</li><li>Eftersom PKey inte kan användas i Adobe Campaign-användargränssnittet är detta en lösning för att få ett unikt värde som genereras när en profilpost infogas.</li><li>Värdet kan bara genereras automatiskt om alternativet är aktiverat i resursen innan en post infogas i Adobe Campaign.</li></ul> | <ul><li>Detta UUID kan användas som en avstämningsnyckel.</li><li>Ett automatiskt genererat ACS-ID kan inte användas som referens i ett arbetsflöde eller i en paketdefinition.</li><li>Detta värde är specifikt för en Adobe Campaign-instans.</li></ul> |
+| ACS-ID | acsId | <ul><li>Ytterligare en identifierare kan genereras: [ACS ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).</li><li>Eftersom PKey inte kan användas i Adobe Campaign-användargränssnittet är detta en lösning för att få ett unikt värde som genereras när en profilpost infogas.</li><li>Värdet kan bara genereras automatiskt om alternativet är aktiverat i resursen innan en post infogas i Adobe Campaign.</li></ul> | <ul><li>Detta UUID kan användas som en avstämningsnyckel.</li><li>Ett automatiskt genererat ACS-ID kan inte användas som referens i ett arbetsflöde eller i en paketdefinition.</li><li>Detta värde är specifikt för en Adobe Campaign-instans.</li></ul> |
 
 ### Identifieringsnycklar {#keys}
 
@@ -133,7 +133,7 @@ When you are performing an initial import with very high volumes of data insert 
 
 ### Länkar {#links}
 
-I [det här avsnittet](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)beskrivs hur du definierar länkar till andra resurser.
+Definiering av länkar med andra resurser presenteras i [det här avsnittet](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources).
 
 * Även om det är möjligt att ansluta en tabell i ett arbetsflöde rekommenderar Adobe att du definierar gemensamma länkar mellan resurser direkt i datastrukturdefinitionen.
 * Länken ska definieras i enlighet med de data som finns i tabellerna. En felaktig definition kan påverka data som hämtas via länkar, t.ex. oväntat duplicering av poster.
