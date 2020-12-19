@@ -9,21 +9,21 @@ topic-tags: campaign-standard-apis
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Metadatamekanism {#metadata-mechanism}
 
-Du kan hämta metadata för resurser med hjälp av **resourceType** i en GET-begäran:
+Du kan hämta metadata för resurser med **resourceType** i en GET-begäran:
 
 `GET /profileAndServices/resourceType/<resourceName>`
 
 Svaret returnerar huvudmetadata från resursen (alla andra fält är beskrivande eller interna):
 
-* Noden **Innehåll** returnerar resursfälten. För varje fält i **innehållsnoden** finns följande fält:
+* Noden **Innehåll** returnerar resursfälten. För varje fält i **content**-noden finns följande fält:
 
    * &quot;apiName&quot;: namnet på attributet som används i API:erna.
    * &quot;type&quot;: det här är typdefinitionen på hög nivå (sträng, tal, länk, samling, uppräkning...).
@@ -32,9 +32,9 @@ Svaret returnerar huvudmetadata från resursen (alla andra fält är beskrivande
    * &quot;resType&quot;: detta är den tekniska typen.
 
       Om&quot;type&quot; har fyllts i med värdet&quot;link&quot; eller&quot;collection&quot; är värdet resTarget namnet på resursen som länken pekar på.
-Om &quot;type&quot; har slutförts med värdet &quot;enumeration&quot; läggs ett &quot;values&quot;-fält till och varje uppräkningsvärde anges i **värdenoden** .
+Om &quot;type&quot; har slutförts med värdet &quot;enumeration&quot; läggs ett &quot;values&quot;-fält till och varje uppräkningsvärde anges i noden **values**.
 
-* Noden **Filters** returnerar URL:en för att hämta associerade filter. For more on filters, refer to [this section](../../api/using/filtering.md) section.
+* Noden **Filter** returnerar URL:en för att hämta associerade filter. Mer information om filter finns i [det här avsnittet](../../api/using/filtering.md)-avsnittet.
 
 <!-- créer une section au même niveau sur les liens -->
 <!-- dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N
