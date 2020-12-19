@@ -9,17 +9,17 @@ topic-tags: campaign-standard-apis
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 25%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Övervaka en sekretessförfrågan {#monitoring-a-privacy-request}
 
-Du kan övervaka information om en skapad sekretessförfrågan med hjälp av en **GET** -begäran.
+Du kan övervaka information om en skapad sekretessbegäran med en **GET**-begäran.
 
-Beskrivningen av statuslistan finns i dokumentationen för [sekretesshantering](https://helpx.adobe.com/se/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
+Beskrivningen av statuslistan finns i [sekretesshanteringsdokumentationen](https://helpx.adobe.com/se/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
 
 <br/>
 
