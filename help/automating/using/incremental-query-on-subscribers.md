@@ -10,8 +10,8 @@ context-tags: incremental,main
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 67%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,18 +24,18 @@ Arbetsflödet består av följande element:
 
 ![](assets/incremental_query_example1.png)
 
-* A [Scheduler](../../automating/using/scheduler.md) activity, to execute the workflow every Monday at 6 am.
+* En [schemaläggaraktivitet](../../automating/using/scheduler.md) som utför arbetsflödet varje måndag klockan 6.
 
    ![](assets/incremental_query_example2.png)
 
-* An [Incremental query](../../automating/using/incremental-query.md) activity, which targets all of the current subscribers during the first execution, then only the new subscribers of that week during the following executions.
+* En [inkrementell fråga](../../automating/using/incremental-query.md)-aktivitet som riktar sig till alla aktuella prenumeranter under det första utförandet, och sedan endast de nya prenumeranterna i den veckan under följande körningar.
 
    ![](assets/incremental_query_example3.png)
 
-* En [e-postleveransaktivitet](../../automating/using/email-delivery.md) . Arbetsflödet körs en gång i veckan, men du kan sammanställa skickade e-postmeddelanden och resultat per månad, t.ex. för att generera rapporter över en hel månad och inte bara en vecka.
+* En [e-postleveransaktivitet](../../automating/using/email-delivery.md). Arbetsflödet körs en gång i veckan, men du kan sammanställa skickade e-postmeddelanden och resultat per månad, t.ex. för att generera rapporter över en hel månad och inte bara en vecka.
 
    Det gör du genom att välja att skapa en **[!UICONTROL Recurring email]** här som grupperar om e-postmeddelanden och resultaten **[!UICONTROL By month]**.
 
-   Definiera innehållet i e-postmeddelandet och infoga koden för välkomstkampanjen. Mer information finns i avsnittet [Definiera e-postinnehåll](../../designing/using/personalization.md) .
+   Definiera innehållet i e-postmeddelandet och infoga koden för välkomstkampanjen. Mer information finns i [Definiera e-postinnehåll](../../designing/using/personalization.md) avsnitt.
 
 Starta sedan arbetsflödets körning. Varje vecka får de nya prenumeranterna ett välkomstmeddelande med kampanjkoden.
