@@ -9,8 +9,8 @@ index: y
 translation-type: tm+mt
 source-git-commit: a7300666587362048431d0bafacc317170b317aa
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 10%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,27 +21,27 @@ Lär dig de bästa metoderna för leveransdesign och leverans med Adobe Campaign
 
 <img src="assets/do-not-localize/optimize.svg"  width="60px">
 
-**[Optimera leveransen](optimize-delivery.md)** - Säkra och optimera sändningsprocessen
+**[Optimera leveransen](optimize-delivery.md)**  - Säkra och optimera sändningsprocessen
 
 <img src="assets/do-not-localize/design.svg"  width="60px">
 
-**[Använd mallar](use-templates.md)** - Underlätta och snabba upp nya leveranser
+**[Använd mallar](use-templates.md)**  - Underlätta och snabba upp nya leveranser
 
 <img src="assets/do-not-localize/custom.svg"  width="60px">
 
-**[Anpassa innehåll](optimize-delivery.md)** - Använd korrekta inställningar
+**[Anpassa innehåll](optimize-delivery.md)**  - Använd rätt inställningar
 
 <img src="assets/do-not-localize/profiles.svg"  width="60px">
 
-**[Definiera rätt målgrupp](define-the-right-audience.md)** - Använd rätt inställningar
+**[Definiera rätt målgrupp](define-the-right-audience.md)**  - Använd rätt inställningar
 
 <img src="assets/do-not-localize/start.svg"  width="60px">
 
-**[Kontrollera innan du skickar](check-before-sending.md)** - Undvik vanliga misstag
+**[Kontrollera innan du skickar](check-before-sending.md)**  - Undvik vanliga misstag
 
 <img src="assets/do-not-localize/troubleshoot.svg"  width="60px">
 
-**[Spåra och övervaka](track-and-monitor.md)** - Kontrollera sändning och felsökning
+**[Spåra och övervaka](track-and-monitor.md)**  - Styra skickning och felsökning
 
 ## Relaterat innehåll
 
