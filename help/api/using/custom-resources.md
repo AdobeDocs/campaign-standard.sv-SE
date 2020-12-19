@@ -9,8 +9,8 @@ topic-tags: campaign-standard-apis
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,13 +25,13 @@ Anpassade resurser är tillgängliga via API:er med slutpunkten **/profileAndSer
 
 >[!NOTE]
 >
->För resurser som inte är körklara ska du alltid använda <b>&quot;cus&quot;</b> -prefixet före resursens namn.
+>För resurser som inte är färdiga ska du alltid använda prefixet <b>&quot;cus&quot;</b> före resursens namn.
 
 Du kan utföra vilken åtgärd som helst med anpassade resurser, förutsatt att de är länkade till profiltabellen. Låt oss titta på tabellstrukturen nedan:
 
 ![alt-text](assets/cusresources.png)
 
-I så fall är alla resurser i **tabellerna Transaction**, **TransactionDetails** och **Product** tillgängliga så länge de är länkade till **profiltabellen** .
+I så fall är alla resurser från tabellerna **Transaktion**, **Transaktionsinformation** och **Produkt** tillgängliga så länge de är länkade till tabellen **Profil**.
 
 <br/>
 
