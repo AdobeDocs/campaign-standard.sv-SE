@@ -10,8 +10,8 @@ context-tags: workflow,main;workflow,overview
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,9 +22,9 @@ Ni kan skapa arbetsflöden för att hantera hela processer i era kampanjer och p
 
 Skärmen för arbetsflödesredigering består av följande element:
 
-* Paletten [som](#palette)refererar till de tillgängliga aktiviteterna.
-* Den [arbetsyta](#workspace)där aktiviteterna är konfigurerade och ordnade.
-* Åtgärdsfältet [](#action-bar), som består av knappar som gör att du kan interagera med arbetsflödet och/eller dess komponenter.
+* Paletten [Paletten](#palette) som refererar till de tillgängliga aktiviteterna.
+* Den [arbetsyta](#workspace) där aktiviteterna är konfigurerade och ordnade.
+* Åtgärdsfältet [Åtgärdsfältet](#action-bar), som består av knappar som gör att du kan interagera med arbetsflödet och/eller dess komponenter.
 * Med [snabbåtgärderna](#quick-actions), som visas runt en markerad aktivitet, kan du interagera med den.
 
 ![](assets/wkf_overview.png)
@@ -50,7 +50,7 @@ Arbetsytan är den centrala zonen i arbetsflödesredigeraren. Det är i den här
 
 Om du vill länka två aktiviteter flyttar du pilslutet från den första aktiviteten till nästa tills de ansluter. Du kan också flytta aktiviteten mot pilen bakom för att länka den till föregående aktivitet. Om du flyttar någon av aktiviteterna kommer de att vara länkade.
 
-Övergångar som följer på aktiviteter som behandlar data innehåller de mellanliggande populationerna. Du kan komma åt dem om du markerar **[!UICONTROL Keep interim results]** alternativet i avsnittet **[!UICONTROL Execution]** i arbetsflödesegenskaperna.
+Övergångar som följer på aktiviteter som behandlar data innehåller de mellanliggande populationerna. Du kan komma åt dem om du markerar alternativet **[!UICONTROL Keep interim results]** i **[!UICONTROL Execution]**-avsnittet i arbetsflödesegenskaperna.
 
 >[!CAUTION]
 >
@@ -63,7 +63,7 @@ Vissa funktioner är bara aktiverade på arbetsytan:
 
 * Välj flera aktiviteter och övergångar genom att dra en zon runt dem.
 * Tryck på **Ctrl** + vänsterklicka för att markera flera aktiviteter och/eller övergångar.
-* Tryck på **Retur** för att visa detaljerna för den valda aktiviteten eller övergången.
+* Tryck på **Enter** om du vill visa detaljerna för den markerade aktiviteten eller övergången.
 * Tryck på **Ta bort** för att ta bort den markerade aktiviteten.
 * Tryck på **Ctrl + C** för att kopiera de markerade aktiviteterna och **Ctrl + V** för att klistra in dem på arbetsytan.
 
@@ -119,7 +119,7 @@ När en aktivitet är markerad visas snabbåtgärdsknappar runt aktiviteten så 
 
 <img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL No execution]**<br/>Inaktiverar aktiviteten.
 
-<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>Tvingar fram omedelbar bearbetning av markeringen. Den här knappen är bara tillgänglig för <span class="uicontrol">schemaläggaren</span> och <span class="uicontrol">väntande</span> aktiviteter.
+<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>Tvingar fram omedelbar bearbetning av markeringen. Den här knappen är bara tillgänglig för aktiviteterna <span class="uicontrol">Schemaläggaren</span> och <span class="uicontrol">Vänta</span>.
 
 <img height="21px" src="assets/delete_darkgrey-24px_table.png" /> **[!UICONTROL Delete selection]**<br/>Tar bort de aktiviteter som är markerade.
 
@@ -135,15 +135,15 @@ När en aktivitet har duplicerats behålls hela dess konfiguration. För leveran
 
 Så här duplicerar du en aktivitet:
 
-1. Markera aktiviteten och klicka sedan på **[!UICONTROL Copy selection]** knappen bland snabbåtgärderna.
+1. Markera aktiviteten och klicka sedan på knappen **[!UICONTROL Copy selection]** från snabbåtgärderna.
 
-   Du kan också använda kortkommandot **Ctrl + C** .
+   Du kan också använda kortkommandot **Ctrl + C**.
 
    ![](assets/wkf_copypaste1.png)
 
-1. Högerklicka på arbetsflödets målarbetsyta och klicka sedan på **[!UICONTROL Paste]** knappen.
+1. Högerklicka på arbetsflödets målarbetsyta och klicka sedan på knappen **[!UICONTROL Paste]**.
 
-   Du kan också använda kortkommandot **CTRL + V** .
+   Du kan också använda kortkommandot **CTRL + V**.
 
    ![](assets/wkf_copypaste2.png)
 
@@ -151,7 +151,7 @@ Så här duplicerar du en aktivitet:
 
 Det går också att kopiera och klistra in flera aktiviteter, så att du kan duplicera ett helt arbetsflöde.
 
-Välj aktiviteter genom att rita en zon runt dem. och sedan klicka på **[!UICONTROL Copy selection]** knappen i åtgärdsfältet (eller tryck på **Ctrl + C**). Du kan sedan klistra in dem på önskad plats.
+Välj aktiviteter genom att rita en zon runt dem. klickar du på knappen **[!UICONTROL Copy selection]** i åtgärdsfältet (eller trycker på **Ctrl + C**). Du kan sedan klistra in dem på önskad plats.
 
 ![](assets/wkf_copypaste3.png)
 
