@@ -9,8 +9,8 @@ index: y
 translation-type: tm+mt
 source-git-commit: a7300666587362048431d0bafacc317170b317aa
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 16%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,13 +21,13 @@ När meddelandet är klart ser du till att innehållet visas korrekt på alla en
 
 Innan du skickar meddelandet måste du se till att parametrarna och konfigurationen stämmer överens med leveransen.
 
-## Varför validering är avgörande {#validation-is-key}
+## Varför validering är nyckel {#validation-is-key}
 
 Innan du skickar en leverans måste du se till att mottagarna får det meddelande som du verkligen vill skicka. För att göra detta måste du validera meddelandets innehåll och leveransparametrar.
 
 Med det här steget kan du identifiera eventuella fel och åtgärda dem innan du levererar till huvudmålet.
 
-Stegen för validering av leverans beskrivs [i det här avsnittet](../../sending/using/get-started-sending-messages.md#prepare-test-send).
+Stegen för validering av leverans visas [i det här avsnittet](../../sending/using/get-started-sending-messages.md#prepare-test-send).
 
 ## E-poståtergivning {#email-rendering}
 
