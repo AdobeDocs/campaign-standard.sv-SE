@@ -9,8 +9,8 @@ topic-tags: campaign-standard-apis
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -54,17 +54,17 @@ Stegen nedan beskriver ett stegvis användningsfall för att importera och anvä
 
 1. Hämta JSON-samlingen genom att klicka [här](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip).
 
-1. Öppna Postman och välj sedan **Arkiv** / **Importera** .
+1. Öppna Postman och välj sedan menyn **Arkiv** / **Importera**.
 
 1. Dra och släpp den hämtade filen i fönstret. Fördesignad API-begäran visas, klar att användas.
 
    ![alt-text](assets/postman_collection.png)
 
-1. Markera **Skapa en profilbegäran** och uppdatera sedan POSTEN och fliken **Sidhuvuden** med din egen information (&lt;ORGANISATION>, &lt;API_KEY>, &lt;ACCESS_TOKEN>). Mer information om detta finns i [det här avsnittet](../../api/using/setting-up-api-access.md).
+1. Markera **Skapa en profil**-begäran och uppdatera sedan begäran om POST och fliken **Sidhuvuden** med din egen information (&lt;ORGANIZATION>, &lt;API_KEY>, &lt;ACCESS_TOKEN>). Mer information om detta finns i [det här avsnittet](../../api/using/setting-up-api-access.md).
 
    ![alt-text](assets/postman_uc1.png)
 
-1. Fyll i fliken **Brödtext** med den information du vill lägga till i den nya profilen och klicka sedan på knappen **Skicka** för att utföra begäran.
+1. Fyll i fliken **Body** med den information du vill lägga till i den nya profilen och klicka sedan på knappen **Skicka** för att utföra begäran.
 
    ![alt-text](assets/postman_uc2.png)
 
