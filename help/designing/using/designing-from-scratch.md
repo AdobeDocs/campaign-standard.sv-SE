@@ -9,8 +9,8 @@ topic-tags: editing-email-content
 translation-type: tm+mt
 source-git-commit: 2d28048590b52b81f27cd1cfe10be029bbc35197
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
