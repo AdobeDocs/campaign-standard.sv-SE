@@ -22,7 +22,7 @@ I följande exempel visas ett arbetsflöde som skapar en publik med profiler dir
 
 ![](assets/identification_example2.png)
 
-* A [Load file](../../automating/using/load-file.md) activity, which loads and detects tshe data of the file to import. Den importerade filen innehåller följande data:
+* En [Läs in fil](../../automating/using/load-file.md)-aktivitet som läser in och identifierar data för filen som ska importeras. Den importerade filen innehåller följande data:
 
    ```
    lastname;firstname;email;dateofbirth
@@ -37,10 +37,10 @@ I följande exempel visas ett arbetsflöde som skapar en publik med profiler dir
    tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
    ```
 
-* A [Reconciliation](../../automating/using/reconciliation.md) activity, which links each column of the loaded file to a profile dimension column. Filposterna som inte kan identifieras (data saknas, inkompatibel datatyp etc.)  ignoreras för att bevara integriteten i den slutliga målgruppsinformationen.
+* En [avstämningsaktivitet](../../automating/using/reconciliation.md), som länkar varje kolumn i den inlästa filen till en profildimensionskolumn. Filposterna som inte kan identifieras (data saknas, inkompatibel datatyp etc.)  ignoreras för att bevara integriteten i den slutliga målgruppsinformationen.
 
    ![](assets/identification_example1.png)
 
-* A [Save audience](../../automating/using/save-audience.md) activity, which saves the audience of profiles.
+* En [Spara målgruppsaktivitet](../../automating/using/save-audience.md) som sparar målgrupper med profiler.
 
    ![](assets/identification_example3.png)
