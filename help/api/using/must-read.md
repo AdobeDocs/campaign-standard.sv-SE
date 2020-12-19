@@ -31,7 +31,7 @@ Alla API-resurser är tillgängliga i **JSON** med ett URL-tillägg eller i ett 
 
 >[!NOTE]
 >
->Utan tillägg i URL:en är **json-formatet standardformat** för innehållstypen.
+>Utan tillägg i URL:en är formatet **json standardformatet** för innehållstypen.
 
 <br/>
 
@@ -53,7 +53,7 @@ Alla API-resurser är tillgängliga i **JSON** med ett URL-tillägg eller i ett 
 
 * Automatiska primärnyckelvärden som genererats av Adobe Campaign får aldrig lagras i en extern databas eller webbplats. Du måste generera specifika nyckelfält i databasdefinitionen och använda dem under utvecklingen.
 
-## Anpassade tangenter {#custom-keys}
+## Anpassade nycklar {#custom-keys}
 
 Om profilresursen har utökats med ett anpassat nyckelfält kan du använda det här fältet som en nyckel i stället för den automatiska primärnyckel som genererats av Adobe Campaign:
 
@@ -61,7 +61,7 @@ Om profilresursen har utökats med ett anpassat nyckelfält kan du använda det 
 
 Det går inte att ändra anpassade nycklar med hjälp av en PATCH-åtgärd om nyckelvärdet skiljer sig från ursprungsnyckeln eller om du använder din egen affärsnyckel som URI i stället för den som tillhandahålls av Adobe.
 
-Använd en anpassad nyckel endast för **profilresurser** på den översta nivån. URL:er returneras av API:t och bör aldrig skapas av dig själv.
+Använd endast en anpassad nyckel för **profilresurser på den översta nivån**. URL:er returneras av API:t och bör aldrig skapas av dig själv.
 
 <br/>
 
