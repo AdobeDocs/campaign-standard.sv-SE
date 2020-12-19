@@ -26,8 +26,8 @@ Följande åtgärder kan utföras:
 * Hämta en sekretessdatafil,
 * Hantera en profils CCPA-avanmälningsstatus.
 
-Sekretess-API-slutpunkten är **/privacy/privacyTool**. Resursbeskrivningen för PrivacyTool och tillhörande filter finns tillgängliga i resursmetadata. Se [Metadatamekanism](../../api/using/metadata-mechanism.md).
+Sekretess-API-slutpunkten är **/privacy/privacyTool**. Resursbeskrivningen för PrivacyTool och tillhörande filter finns tillgängliga i resursmetadata. Se [Metadatamekanisk](../../api/using/metadata-mechanism.md).
 
-CCPA-avanmälan hanteras med **profilattributet ccpaOptOut** .
+CCPA-avanmälan hanteras med profilattributet **ccpaOptOut**.
 
-Mer information om Adobe Campaign Standard och sekretessefterlevnad finns i den [dedikerade dokumentationen](https://helpx.adobe.com/se/campaign/kb/acs-privacy.html).
+Mer information om Adobe Campaign Standard och sekretessefterlevnad finns i [dedikerad dokumentation](https://helpx.adobe.com/se/campaign/kb/acs-privacy.html).
