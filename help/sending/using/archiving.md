@@ -9,8 +9,8 @@ topic-tags: sending-and-tracking-messages
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ Du kan konfigurera Adobe Campaign att behålla en kopia av e-postmeddelanden som
 
 Om din organisation behöver arkivera alla utgående e-postmeddelanden för att uppfylla kraven kan du aktivera den funktionen. Det gör att du kan skicka en exakt dold kopia av motsvarande skickade meddelanden till en e-postadress (osynlig för leveransmottagarna) som du måste ange.
 
-När den är aktiverad måste du aktivera e-postkopia från alternativet **[!UICONTROL Archive emails]** i mallen för e-postleverans.
+När den är aktiverad måste du aktivera e-postkopia från alternativet **[!UICONTROL Archive emails]** i e-postleveransmallen.
 
 >[!NOTE]
 >
@@ -42,17 +42,17 @@ När den är aktiverad måste du aktivera e-postkopia från alternativet **[!UIC
 
 ## Aktivera e-postarkivering {#activating-email-archiving}
 
-När funktionen är aktiverad aktiveras e-postkopia i [e-postmallen](../../start/using/marketing-activity-templates.md)med ett dedikerat alternativ:
+När du har aktiverat funktionen för e-postkopia aktiveras den i [e-postmallen](../../start/using/marketing-activity-templates.md), via ett dedikerat alternativ:
 
-1. Gå till **Resources** > **Templates** > **Delivery templates**.
-1. Duplicera den färdiga **[!UICONTROL Send via email]** mallen.
+1. Gå till **Resources** > **Mallar** > **Leveransmallar**.
+1. Duplicera den färdiga **[!UICONTROL Send via email]**-mallen.
 1. Markera den duplicerade mallen.
-1. Click the **[!UICONTROL Edit properties]** button to edit the template&#39;s properties.
+1. Klicka på knappen **[!UICONTROL Edit properties]** för att redigera mallens egenskaper.
 1. Expandera avsnittet **[!UICONTROL Send]**.
-1. Markera **[!UICONTROL Archive emails]** rutan om du vill behålla en kopia av alla skickade meddelanden för varje leverans baserat på den här mallen.
+1. Markera rutan **[!UICONTROL Archive emails]** om du vill behålla en kopia av alla skickade meddelanden för varje leverans baserat på den här mallen.
 
    ![](assets/email_archiving.png)
 
 >[!NOTE]
 >
->Om e-postmeddelanden som skickas till BCC-adressen öppnas och klickas igenom, kommer detta att beaktas i **[!UICONTROL Total opens]** och **[!UICONTROL Clicks]** från sändningsanalysen, vilket kan orsaka vissa felberäkningar.
+>Om e-postmeddelanden som skickas till BCC-adressen öppnas och klickas igenom, kommer detta att beaktas i **[!UICONTROL Total opens]** och **[!UICONTROL Clicks]** från sändningsanalysen, vilket kan orsaka felberäkningar.
