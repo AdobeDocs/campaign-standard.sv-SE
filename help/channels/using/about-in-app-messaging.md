@@ -61,19 +61,19 @@ Eftersom meddelanden i appen hämtas av SDK från Campaign vill vi ha en säker 
 * Meddelanden som har skapats med hjälp av profilmallen kan bara hanteras när användaren har loggat in i appen.
 * För att underlätta denna säkra handskakning bör utvecklare av mobilappar skicka ytterligare autentiseringsinformation med API:t setLinkageField. Observera att länkningsfältet är det som identifieras som länken mellan mobilprofilen och CRM-profilen när du utökar tabellen appSubscriberRcp.
 * De bör tömma In-App-meddelanden som lagras på enheten och resetLinkagefält när användaren loggar ut från appen med resetLinkageField. Detta säkerställer att om en annan användare loggar in i appen, så ser han/hon inte de meddelanden som är avsedda för den tidigare användaren.
-* Se API:erna [för](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference) Mobile SDK för att implementera säkerhetsmekanismens klientsida.
+* Se [Mobile SDK API:er](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference) för att implementera säkerhetsmekanismens klientsida.
 
 ### Vad måste jag göra för att aktivera rapportering i appen i Campaign? {#enable-inapp-reporting}
 
 Du måste konfigurera återanslående i appen. Instruktioner finns [här](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#InApptrackingpostback).
 
-Mer information om hur du implementerar lokal meddelandespårning finns på den här [sidan](../../administration/using/local-tracking.md).
+För att implementera lokal meddelandespårning, se den här [sidan](../../administration/using/local-tracking.md).
 
 ### Vilka rapporter är tillgängliga för kanalen i appen? {#report-inapp}
 
 En färdig rapport finns tillgänglig i Adobe Campaign för In-App-kanalen. Läs den här [dokumentationen](../../reporting/using/in-app-report.md).
 
-Se den här [sidan](../../reporting/using/indicator-calculation.md#in-app-delivery) för att förstå hur varje mätvärde i appen beräknas.
+Se den här [sidan](../../reporting/using/indicator-calculation.md#in-app-delivery) för att förstå hur varje värde i appen beräknas.
 
 ### Stöder du flerspråkiga innehållsvarianter för appar som liknar Push? {#multilingual-inapp}
 
