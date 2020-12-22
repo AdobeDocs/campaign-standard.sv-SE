@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: 0092ad11314fab232663f558ca6635b8fcc03133
+source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '742'
+ht-degree: 68%
 
 ---
 
@@ -64,7 +64,7 @@ Hur du kan anpassa ett meddelandeinnehåll beroende på typen av transaktionsmed
 
 ### Produktlistor
 
-Observera att produktlistor endast är tillgängliga i transaktionsmeddelanden **e-postmeddelanden**. Se [Använda produktlistor i ett transaktionsmeddelande](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message).
+Observera att produktlistor endast är tillgängliga i transaktionsmeddelanden **e-postmeddelanden**. Se [Använda produktlistor i ett transaktionsmeddelande](../../designing/using/using-product-listings.md).
 
 ## Varumärke {#permissions-and-branding}
 
