@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
+source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
 workflow-type: tm+mt
 source-wordcount: '1672'
 ht-degree: 7%
@@ -68,7 +68,7 @@ Stegen för att lägga till och ändra fält är desamma som för [anpassade res
 
 Du kan lägga till en samling element i händelseinnehållet, där varje element innehåller flera attribut.
 
-Den här samlingen kan användas i ett transaktionsmejl för att lägga till [produktlistor](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message) i innehållet i meddelandet, till exempel en produktlista - med pris, referensnummer, kvantitet osv. för varje produkt i listan.
+Den här samlingen kan användas i ett transaktionsmejl för att lägga till [produktlistor](../../designing/using/using-product-listings.md) i innehållet i meddelandet, till exempel en produktlista - med pris, referensnummer, kvantitet osv. för varje produkt i listan.
 
 1. Klicka på knappen **[!UICONTROL Create element]** i **[!UICONTROL Collections]**-avsnittet.
 
@@ -96,7 +96,7 @@ Här är API-förhandsvisningen för det här exemplet:
 **Relaterade ämnen:**
 
 * [Förhandsgranska och publicera evenemanget](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
-* [Använda produktlistor i ett transaktionsmeddelande](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)
+* [Använda produktlistor i ett transaktionsmeddelande](../../designing/using/using-product-listings.md)
 * [Publicera ett transaktionsmeddelande](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 
 ## Angriper händelsen {#enriching-the-transactional-message-content}
