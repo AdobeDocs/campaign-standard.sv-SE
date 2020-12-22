@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 127964c5360344c83dc5ad6a0e2e8523d8995739
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1064'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Campaign Standard erbjuder två nya maskininlärningsmodeller: **Förutsä
 >[!CAUTION]
 >Den här funktionen är inte tillgänglig som en del av produkten. För implementering krävs att Adobe Consulting används. Kontakta din Adobe-representant för mer information.
 >
->Funktionen kräver att ett Azure-lagringsutrymme används. Detta måste kunden tillhandahålla.
+>Funktionen kräver att en Azure- eller Amazon S3-lagring som kunden måste tillhandahålla används.
 
 ## Förutsägande optimering av sändningstid{#predictive-send-time}
 
