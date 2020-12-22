@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 3d271b7125a382f7864857df4541a6be28894992
+source-git-commit: 77abbdf824be705b0a3409442e45d28dc0abaa2f
 workflow-type: tm+mt
-source-wordcount: '6357'
-ht-degree: 99%
+source-wordcount: '6372'
+ht-degree: 98%
 
 ---
 
@@ -21,13 +21,19 @@ Förutom [versionsinformationen](../../rn/using/release-notes.md) för Adobe Cam
 
 ## December 2020 {#doc-updates-december-2020}
 
-Avsnittet Transactional messaging har omstrukturerats och förbättrats. Där finns en tydlig beskrivning av hur du kommer igång: [förbättrade scheman](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) och [ett slutanvändarfall](../../channels/using/transactional-messaging-use-case.md) som illustrerar hela processen. [Läs mer](../../channels/using/getting-started-with-transactional-msg.md)
+**Prediktiv** objektlänkning är nu föråldrat. [Läs mer](../../rn/using/deprecated-features.md)
 
-Avsnittet Integritet har flyttats. [Läs mer](../../start/using/privacy.md)
+Avsnittet **Komma igång med transaktionsmeddelanden** innehåller nu [förbättrade scheman](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) och ett [slutanvändarfall](../../channels/using/transactional-messaging-use-case.md) som illustrerar implementeringsprocessen. [Läs mer](../../channels/using/getting-started-with-transactional-msg.md)
 
-En ny sida om tillgänglighet har lagts till där du kan läsa mer om tillgänglighetsstöd på arbetsytan i Adobe Campaign Standard. [Läs mer](../../start/using/accessibility.md)
+Avsnittet **Sekretess** har flyttats [här](../../start/using/privacy.md).
 
-En ny begränsning har lagts till i avsnittet Transactional messaging, som anger att antalet publicerade transaktionsmeddelanden ska vara under 100 för att prestandan ska bli optimal. [Läs mer](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
+En ny **hjälpmedelssida** är tillgänglig: finns mer information om tillgänglighetsstöd i Adobe Campaign Standard arbetsyta. [Läs mer](../../start/using/accessibility.md)
+
+Ett varningsmeddelande har lagts till som anger att antalet publicerade transaktionsmeddelanden bör vara under 100 för att prestandan ska bli optimal. [Läs mer](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
+
+Protokollet och inställningssidan för SMS-anslutningen har flyttats [här](../../administration/using/sms-protocol.md).
+
+**Användningen av produktlistor i ett transaktionsmeddelande**-avsnitt har flyttats [här](../../designing/using/using-product-listings.md).
 
 ## November 2020 {#doc-updates-november-2020}
 
@@ -509,7 +515,7 @@ Information har lagts till i extrahera fil-aktivitetsavsnittet om det nya altern
 
 Allmän tillgänglighet för Email Designer - [läs mer](../../designing/using/designing-content-in-adobe-campaign.md)
 
-Produktlistor i transaktionsmeddelanden - [läs mer](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)
+Produktlistor i transaktionsmeddelanden - [läs mer](../../designing/using/using-product-listings.md)
 
 Mobilvy i Email Designer - [Läs mer](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)
 
