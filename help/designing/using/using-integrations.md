@@ -7,7 +7,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
+source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 4%
@@ -50,7 +50,7 @@ E-postinnehåll kan redigeras i Experience Manager och sedan användas för ett 
 >title="Använda produktlistor"
 >abstract="Med produktlistorna kan du referera till en datainsamling och visa den i e-postinnehållet."
 
-Med produktlistorna kan du referera till en eller flera datainsamlingar i e-postinnehållet. Dessa listor är tillgängliga för transaktionsmeddelanden. Ett dedikerat avsnitt för den här funktionen finns [här](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message).
+Med produktlistorna kan du referera till en eller flera datainsamlingar i e-postinnehållet. Dessa listor är tillgängliga för transaktionsmeddelanden. Ett dedikerat avsnitt för den här funktionen finns [här](../../designing/using/using-product-listings.md).
 
 ## Jämförelse av alternativ för e-postdesign {#email-design-options-comparison}
 
