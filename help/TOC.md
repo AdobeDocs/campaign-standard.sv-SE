@@ -7,10 +7,10 @@ user-guide-description: 'Hjälpcenter för de viktigaste funktionerna, åtgärde
 breadcrumb-title: Campaign Standard
 title: Guide för Campaign Standard
 translation-type: tm+mt
-source-git-commit: 642b916369433d9a7a23d818e94f5e189a1c8596
+source-git-commit: b5f982ee320cb98174153a53fe8f28b4b6c31790
 workflow-type: tm+mt
-source-wordcount: '1696'
-ht-degree: 100%
+source-wordcount: '1710'
+ht-degree: 99%
 
 ---
 
@@ -152,6 +152,7 @@ ht-degree: 100%
       + [Redigera oformaterad text, HTML och mobilmejl](designing/using/plain-text-html-modes.md)
       + [Konvertera e-postmeddelanden från äldre redigerare till e-postdesignern](designing/using/converting-emails-from-legacy-editor.md)
    + [Anpassa e-postinnehåll](designing/using/personalization.md)
+   + [Använda produktlistor](designing/using/using-product-listings.md)
    + [Hantera e-postformat](designing/using/styles.md)
    + [Hantera länkar](designing/using/links.md)
    + [Hantera bilder](designing/using/images.md)
@@ -435,7 +436,6 @@ ht-degree: 100%
    + Konfigurera kanaler {#configuring-channels}
       + [Om kanalkonfiguration](administration/using/about-channel-configuration.md)
       + [Konfigurera e-postkanal](administration/using/configuring-email-channel.md)
-      + [Konfigurera SMS-kanal](administration/using/configuring-sms-channel.md)
       + [Konfigurera ett mobilprogram](administration/using/configuring-a-mobile-application.md)
    + Konfigurera mobila kanaler {#configuring-mobile}
       + [Implementera push-spårning](administration/using/push-tracking.md)
@@ -446,6 +446,10 @@ ht-degree: 100%
       + [Vanliga frågor och svar om integrering av Experience Platform SDK](administration/using/aep-faq.md)
       + [Konfigurera startregler för att ger stöd för användningsfall i Adobe Campaign Standard](administration/using/configuring-rules-launch.md)
       + [Mobil användning som stöds av Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
+   + Konfigurera SMS-kanal {#configuring-sms}
+      + [Implementera SMS-kanalen](administration/using/configuring-sms-channel.md)
+      + [Protokoll och inställningar för SMS-anslutning](administration/using/sms-protocol.md)
+      + [Felsökning av SMS](administration/using/troubleshooting-sms.md)
    + Programinställningar {#application-settings}
       + [Om Campaign Standard-inställningar](administration/using/about-campaign-standard-settings.md)
       + [Externa konton](administration/using/external-accounts.md)
