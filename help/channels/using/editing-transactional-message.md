@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
+source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 59%
+source-wordcount: '653'
+ht-degree: 30%
 
 ---
 
@@ -89,125 +89,125 @@ Du vill till exempel skicka ett meddelande till webbplatsanvändare som har lagt
 
    Du kan kontrollera att anpassningsfälten matchar informationen som anges i testprofilen. Mer information finns i [Definiera en specifik testprofil](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
 
-## Använda produktlistor i ett transaktionsmeddelande {#using-product-listings-in-a-transactional-message}
+<!--## Using product listings in a transactional message {#using-product-listings-in-a-transactional-message}
 
-När du redigerar innehållet i ett transaktionsmejl kan du skapa produktlistor som refererar till en eller flera datainsamlingar. I ett e-postmeddelande om att kunden överger en kundvagn kan du till exempel inkludera en lista över alla produkter som fanns i kundvagnen när de lämnade webbplatsen, med en bild, priset och en länk till varje produkt.
+When editing the content of a transactional email, you can create product listings referencing one or more data collections. For example, in a cart abandonment email, you can include a list of all products that were in the users' carts when they left your website, with an image, the price, and a link to each product.
 
 >[!IMPORTANT]
 >
->Produktlistor är bara tillgängliga för e-postkanalen när du redigerar transaktionellt e-postinnehåll via gränssnittet [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
+>Product listings are only available for the email channel, when editing transactional email content through the [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) interface.
 
-Följ stegen nedan om du vill lägga till en lista över övergivna produkter i ett transaktionsmeddelande.
+To add a list of abandoned products in a transactional message, follow the steps below.
 
-Du kan också titta på [den här uppsättningen videor](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=en#configure-product-listings-in-transactional-emails) som förklarar vilka steg som krävs för att konfigurera produktlistor i ett transaktionsmejl.
+You can also watch [this set of videos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=en#configure-product-listings-in-transactional-emails) explaining the steps that are required to configure product listings in a transactional email.
 
 >[!NOTE]
 >
->Adobe Campaign stöder inte kapslade produktlistor, vilket innebär att du inte kan inkludera en produktlista i en annan.
+>Adobe Campaign does not support nested product listings, meaning that you cannot include a product listing inside another one.
 
-### Definiera en produktlista {#defining-a-product-listing}
+### Defining a product listing {#defining-a-product-listing}
 
-Innan du kan använda en produktlista i ett transaktionsmeddelande måste du på händelsenivå definiera listan med produkter och fälten för varje produkt i listan som du vill visa. Mer information finns i [Definiera datasamlingar](../../channels/using/configuring-transactional-event.md#defining-data-collections).
+Before being able to use a product listing in a transactional message, you need to define at the event level the list of products and the fields for each product of the list you want to display. For more on this, see [Defining data collections](../../channels/using/configuring-transactional-event.md#defining-data-collections).
 
-1. Klicka på **[!UICONTROL Content]**-blocket i transaktionsmeddelandet om du vill ändra e-postinnehållet.
-1. Dra och släpp en strukturkomponent på arbetsytan. Mer information finns i [Definiera e-poststrukturen](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. In the transactional message, click the **[!UICONTROL Content]** block to modify the email content.
+1. Drag and drop a structure component to the workspace. For more on this, see [Defining the email structure](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-   Markera till exempel en strukturkomponent med en kolumn och lägg till en textkomponent, en bildkomponent och en knappkomponent. Mer information finns i [Använda innehållskomponenter](../../designing/using/designing-from-scratch.md#about-content-components).
+   For example, select a one-column structure component and add a text component, an image component and a button component. For more on this, see [Using content components](../../designing/using/designing-from-scratch.md#about-content-components).
 
-1. Markera den strukturkomponent som du nyss skapade och klicka på ikonen **[!UICONTROL Enable product listing]** i det sammanhangsberoende verktygsfältet.
+1. Select the structure component you just created and click the **[!UICONTROL Enable product listing]** icon from the contextual toolbar.
 
    ![](assets/message-center_loop_create.png)
 
-   Strukturkomponenten är markerad med en orange ram och inställningarna visas på den vänstra paletten **[!UICONTROL Product listing]**.
+   The structure component is highlighted with an orange frame and the **[!UICONTROL Product listing]** settings are displayed in the left palette.
 
    ![](assets/message-center_loop_palette.png)
 
-1. Välj hur elementen i samlingen ska visas:
+1. Select how the elements of the collection will be displayed:
 
-   * **[!UICONTROL Row]**: vågrätt, vilket innebär varje element på en rad under det andra.
-   * **[!UICONTROL Column]**: lodrätt, vilket innebär att varje element ligger intill varandra på samma rad.
+    * **[!UICONTROL Row]**: horizontally, meaning each element on one row under the other.
+    * **[!UICONTROL Column]**: vertically, meaning each element next to the other on the same row.
 
    >[!NOTE]
    >
-   >Alternativet **[!UICONTROL Column]** är bara tillgängligt när du använder en strukturkomponent med flera kolumner (**[!UICONTROL 2:2 column]**, **[!UICONTROL 3:3 column]** och **[!UICONTROL 4:4 column]**). När du redigerar produktlistan ska du bara fylla i den första kolumnen: de övriga kolumnerna kommer inte att beaktas. Mer information om hur du väljer strukturkomponenter finns i [Definiera e-poststrukturen](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+   >The **[!UICONTROL Column]** option is only available when using a multicolumn structure component ( **[!UICONTROL 2:2 column]**, **[!UICONTROL 3:3 column]** and **[!UICONTROL 4:4 column]** ). When editing the product listing, only fill in the first column: the other columns will not be taken into account. For more on selecting structure components, see [Defining the email structure](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-1. Välj den datainsamling du skapade när du konfigurerade händelsen som är relaterad till transaktionsmeddelandet. Du hittar den under noden **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
+1. Select the data collection you created when configuring the event related to the transactional message. You can find it under the **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** node.
 
    ![](assets/message-center_loop_selection.png)
 
-   Mer information om hur du konfigurerar händelsen finns i [Definiera datainsamlingar](../../channels/using/configuring-transactional-event.md#defining-data-collections).
+   For more on configuring the event, see [Defining data collections](../../channels/using/configuring-transactional-event.md#defining-data-collections).
 
-1. Använd **[!UICONTROL First item]**-listrutan för att välja vilket element som ska starta listan som visas i e-postmeddelandet.
+1. Use the **[!UICONTROL First item]** drop-down list to select which element will start the list displayed in the email.
 
-   Om du till exempel väljer 2 visas inte det första punkten i samlingen i e-postmeddelandet. Produktlistan börjar på den andra punkten.
+   For example, if you select 2, the first item of the collection will not be displayed in the email. The product listing will start on the second item.
 
-1. Välj det maximala antalet punkter som ska visas i listan.
+1. Select the maximum number of items to display in the list.
 
    >[!NOTE]
    >
-   >Om du vill att elementen i listan ska visas lodrätt (**[!UICONTROL Column]**), begränsas det maximala antalet punkter enligt den valda strukturkomponenten (2, 3 eller 4 kolumner). Mer information om hur du väljer strukturkomponenter finns i [Redigera e-poststrukturen](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+   >If you want the elements of your list to be displayed vertically ( **[!UICONTROL Column]** ), the maximum number of items is limited according to the selected structure component (2, 3 or 4 columns). For more on selecting structure components, see [Editing the email structure](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-### Fylla i produktlistan {#populating-the-product-listing}
+### Populating the product listing {#populating-the-product-listing}
 
-Följ stegen nedan om du vill visa en lista över produkter som kommer från händelsen som är kopplad till transaktionsmeddelandet.
+To display a list of products coming from the event linked to the transactional email, follow the steps below.
 
-Mer information om hur du skapar en samling och relaterade fält när du konfigurerar händelsen finns i [Definiera datainsamlingar](../../channels/using/configuring-transactional-event.md#defining-data-collections).
+For more on creating a collection and related fields when configuring the event, see [Defining data collections](../../channels/using/configuring-transactional-event.md#defining-data-collections).
 
-1. Markera bildkomponenten som du infogade, markera **[!UICONTROL Enable personalization]** och klicka på pennan i panelen Inställningar.
+1. Select the image component you inserted, select **[!UICONTROL Enable personalization]** and click the pencil in the Settings pane.
 
    ![](assets/message-center_loop_image.png)
 
-1. Markera **[!UICONTROL Add personalization field]** i **[!UICONTROL Image source URL]**-fönstret som öppnas.
+1. Select **[!UICONTROL Add personalization field]** in the **[!UICONTROL Image source URL]** window that opens.
 
-   Öppna noden som motsvarar den samling du skapade (här **[!UICONTROL Context]**) i noden **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** > **[!UICONTROL Product list]** och markera bildfältet som du definierade (här **[!UICONTROL Product image]**). Klicka på **[!UICONTROL Save]**.
+   From the **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** node, open the node corresponding to the collection that you created (here **[!UICONTROL Product list]** ) and select the image field that you defined (here **[!UICONTROL Product image]** ). Click **[!UICONTROL Save]**.
 
    ![](assets/message-center_loop_product-image.png)
 
-   Det anpassningsfält som du har valt visas nu i panelen Inställningar.
+   The personalization field that you selected is now displayed in the Settings pane.
 
-1. Välj **[!UICONTROL Insert personalization field]** i det sammanhangsberoende verktygsfältet vid önskad position.
+1. At the desired position, select **[!UICONTROL Insert personalization field]** from the contextual toolbar.
 
    ![](assets/message-center_loop_product.png)
 
-1. Öppna noden som motsvarar samlingen du skapade (här **[!UICONTROL Context]**) i noden **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** > **[!UICONTROL Product list]** och markera fältet som du skapade (här **[!UICONTROL Product name]**). Klicka på **[!UICONTROL Confirm]**.
+1. From the **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** node, open the node corresponding to the collection that you created (here **[!UICONTROL Product list]** ) and select the field that you created (here **[!UICONTROL Product name]** ). Click **[!UICONTROL Confirm]**.
 
    ![](assets/message-center_loop_product_node.png)
 
-   Det anpassningsfält som du har valt visas nu på önskad plats i e-postinnehållet.
+   The personalization field that you selected is now displayed at the desired position in the email content.
 
-1. Fortsätt på samma sätt om du vill infoga priset.
-1. Markera text och välj **[!UICONTROL Insert link]** i det sammanhangsberoende verktygsfältet.
+1. Proceed similarly to insert the price.
+1. Select some text and select **[!UICONTROL Insert link]** from the contextual toolbar.
 
    ![](assets/message-center_loop_link_insert.png)
 
-1. Markera **[!UICONTROL Add personalization field]** i **[!UICONTROL Insert link]**-fönstret som öppnas.
+1. Select **[!UICONTROL Add personalization field]** in the **[!UICONTROL Insert link]** window that opens.
 
-   Öppna noden som motsvarar den samling du skapade (här **[!UICONTROL Context]**) i noden **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** > **[!UICONTROL Product list]** och markera URL-fältet som du skapade (här **[!UICONTROL Product URL]**). Klicka på **[!UICONTROL Save]**.
+   From the **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** node, open the node corresponding to the collection that you created (here **[!UICONTROL Product list]** ) and select the URL field that you created (here **[!UICONTROL Product URL]** ). Click **[!UICONTROL Save]**.
 
    >[!IMPORTANT]
    >
-   >Av säkerhetsskäl måste du infoga anpassningsfältet i en länk som börjar med ett korrekt statiskt domännamn.
+   >For security reasons, make sure you insert the personalization field inside a link starting with a proper static domain name.
 
    ![](assets/message-center_loop_link_select.png)
 
-   Det anpassningsfält som du har valt visas nu i panelen Inställningar.
+   The personalization field that you selected is now displayed in the Settings pane.
 
-1. Välj strukturkomponenten som produktlistan ska tillämpas på och välj **[!UICONTROL Show fallback]** för att definiera ett standardinnehåll.
+1. Select the structure component on which the product listing is applied and select **[!UICONTROL Show fallback]** to define a default content.
 
    ![](assets/message-center_loop_fallback_show.png)
 
-1. Dra en eller flera innehållskomponenter och redigera dem efter behov.
+1. Drag one or more content components and edit them as needed.
 
    ![](assets/message-center_loop_fallback.png)
 
-   Reservinnehållet visas om samlingen är tom när händelsen utlöses, till exempel om en kund inte har något i kundvagnen.
+   The fallback content will be displayed if the collection is empty when the event is triggered, for example if a customer has nothing in his cart.
 
-1. Redigera formaten för produktlistan i panelen Inställningar. Mer information finns i [Hantera e-postformat](../../designing/using/styles.md).
-1. Förhandsgranska e-postmeddelandet med en testprofil som är kopplad till den relevanta transaktionshändelsen och för vilken du har definierat samlingsdata. Lägg till exempel till följande information i avsnittet **[!UICONTROL Event data]** för den testprofil som du vill använda:
+1. From the Settings pane, edit the styles for the product listing. For more on this, see [Managing email styles](../../designing/using/styles.md).
+1. Preview the email using a test profile linked to the relevant transactional event and for which you defined collection data. For example, add the following information in the **[!UICONTROL Event data]** section for the test profile you want to use:
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   Mer information om hur du definierar en testprofil i ett transaktionsmeddelande finns i [det här avsnittet](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
+   For more on defining a test profile in a transactional message, see [this section](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).-->
 
 ## Specifikationer för profilbaserade transaktionsmeddelanden {#profile-transactional-message-specificities}
 
@@ -216,8 +216,6 @@ Du kan skicka transaktionsmeddelanden baserat på kundmarknadsföringsprofiler, 
 * Mer information om skillnaderna mellan händelsebaserade och profilbaserade transaktionsmeddelanden finns i [det här avsnittet](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types).
 
 * Konfigurationsstegen för att skapa ett profilbaserat transaktionsmeddelande beskrivs i [det här avsnittet](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages).
-
-<!--### Editing a profile transactional message {#editing-profile-transactional-message}-->
 
 Stegen för att skapa, redigera och personalisera ett profiltransaktionsmeddelande är i huvudsak desamma som för ett händelsetransaktionsmeddelande.
 
