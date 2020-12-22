@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 translation-type: tm+mt
-source-git-commit: 7b1d74760a3c33e4c1c74fe5b4512392b550379b
+source-git-commit: 32aba66dd8987414cf90df1e7bfb9c419c5f68ff
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 85%
@@ -52,6 +52,10 @@ Kunder uppmanas att se över om de använder funktionen i den aktuella driftsät
      <em>Borttagning av mål: April 2021</em></p>
      </td> 
   </tr> 
+  </tbody> 
+</table>
+<table> 
+ <thead> 
   <tr> 
    <th> <strong>Push-meddelanden med SDK V4</strong><br /> </th> 
   </tr> 
