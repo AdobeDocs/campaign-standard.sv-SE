@@ -6,11 +6,11 @@ description: Läs mer om tillgänglighetsstöd i Adobe Campaign Standard Workspa
 audience: designing
 content-type: reference
 topic-tags: accessibility
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6ea28c457b1024dab315b60281adaee56eb80cd0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '607'
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
@@ -19,23 +19,23 @@ ht-degree: 45%
 
 Läs mer om tillgänglighetsstöd i Adobe Campaign Standard Workspace.
 
-Med tillgänglighet avses att göra produkter användbara för personer med funktionshinder såsom syn-, hörsel-, kognitiv-, motor- eller andra funktionshinder. Exempel på hjälpmedelsfunktioner för programprodukter är semantiskt strukturerat innehåll, skärmläsarstöd, textmotsvarigheter för grafik, kortkommandon och så vidare.
+Med tillgänglighet avses att göra produkter användbara för personer med funktionshinder såsom syn-, hörsel-, kognitiv-, motor- eller andra funktionshinder. Exempel på tillgänglighetsfunktioner för programvaror inkluderar semantiskt strukturerat innehåll, skärmläsarstöd, textmotsvarigheter för grafik, kortkommandon och så vidare.
 
-Adobe Campaign Standard har funktioner som gör det enklare att använda, t.ex. kontrast, etiketter, strukturerat innehåll, tangentbordsnavigering och sammanhangsbaserad hjälp.
+Adobe Campaign Standard erbjuder funktioner som gör det enklare att använda såsom kontrast, etiketter, strukturerat innehåll, tangentbordsnavigering och sammanhangsbaserad hjälp.
 
 ## Tillgänglighetsfunktioner {#accessibility-features}
 
 ### Kontrast och färg {#contrast}
 
-Adobe Campaign Standard användargränssnitt strävar efter att ge tillräckligt med kontrast i programmet för att ge en lättillgänglig visningsupplevelse för användare med nedsatt syn eller färgbrist.
+Vi strävar efter att användargränssnittet i Adobe Campaign Standard ska erbjuda tillräckligt med kontrast i programmet för att garantera en lättillgänglig visningsupplevelse för användare med nedsatt syn eller möjlighet att se färger.
 
-* Stor text och stora rubriker har förbättrats så att kontrastförhållandet 3:1 uppfylls.
+* Stor text och stora rubriker har förbättrats så att kontrastförhållandet på 3:1 uppfylls.
 
    ![](assets/accessibility_2.png)
 
 * Hjälpinnehåll och brödtext i programmet har uppdaterats för att uppnå ett kontrastförhållande på 4,5:1.
 
-* Ikonerna för att pausa och avbryta i arbetsflöden har uppdaterats för att förbättra kontrasten mellan bakgrunds- och förgrundsfärger.
+* Ikonerna för paus och avbryt i arbetsflöden har uppdaterats för att förbättra kontrasten mellan färger i bakgrunden och i förgrunden.
 
    ![](assets/accessibility_1.png)
 
@@ -43,9 +43,9 @@ Adobe Campaign Standard användargränssnitt strävar efter att ge tillräckligt
 
 ### Användargränssnitt {#user-interface}
 
-Adobe Campaign Standard användargränssnitt gör det enklare för alla användare att interagera med materialet genom att lägga till alternativa texter till visuella element och genom att använda semantisk struktur för att förmedla information både visuellt och programmatiskt.
+Användargränssnittet i Adobe Campaign Standard gör det enklare för alla användare att interagera med materialet genom att lägga till alternativa texter till visuella element och genom att använda semantisk struktur för att förmedla information både visuellt och programmatiskt.
 
-* När användaren lämnar ett obligatoriskt ID-fält tomt visar en bild visuellt vilket fält som är i fel med felmeddelandetext och att samma information skickas programmatiskt till användare med hjälpmedelstekniker som skärmläsare.
+* När användaren lämnar ett obligatoriskt ID-fält tomt visar en bild visuellt vilket fält som har felet med felmeddelandetext och samma information skickas programmatiskt till användare med hjälpmedelstekniker såsom skärmläsare.
 
    ![](assets/accessibility_3.png)
 
@@ -53,7 +53,7 @@ Adobe Campaign Standard användargränssnitt gör det enklare för alla använda
 
    ![](assets/accessibility_4.png)
 
-* Alternativa texter för bilder och hjälpmedelsnamn för knappar har lagts till och kan läsas upp högt med hjälpmedelsteknik i stället för att endast förlita sig på visuella indikeringsfunktioner för att identifiera element.
+* Alternativa texter för bilder och tillgänglighetsnamn för knappar har lagts till och kan läsas högt med hjälpmedelsteknik i stället för att endast förlita sig på visuella indikeringsfunktioner för att identifiera element.
 
 <!--
 ### Create responsive resize for multiple devices {#resize-devices}
@@ -67,21 +67,21 @@ Adobe Campaign Standard allows you to design and test emails and push notificati
 
 ## Sammanhangsberoende hjälp {#contextual-help}
 
-Sammanhangsberoende hjälp kan hjälpa dig att förstå de olika begärda fälten och funktionerna. Den vägleder dig också genom produktdokumentationen för att lära dig mer om den valda funktionen.
+Den sammanhangsberoende hjälpen kan hjälpa dig att förstå de olika begärda fälten och funktionerna bättre. Den vägleder dig också genom produktdokumentationen för att lära dig mer om den valda funktionen.
 
 När du utformar ett e-postmeddelande kan du komma åt ett verktygstips som innehåller beskrivningar och länkar till produktdokumentationen.
 
 ![](assets/accessibility_7.png)
 
-## Stöd för hjälpmedelsteknik {#screen-magnifiers}
+## Stöd för hjälpmedelstekniker {#screen-magnifiers}
 
-Vi strävar efter att göra Adobe Campaign Standard-programmet så användbart som möjligt med hjälp av olika hjälpmedelstekniker, bland annat, men inte begränsat till, ändrade tangentbord, skärmförstoringsprogram, skärmläsare, röstigenkänningsprogram och andra hjälpmedel.
+Vi strävar efter att göra programmet Adobe Campaign Standard så användbart som möjligt med hjälp av olika hjälpmedelstekniker, inklusive men inte begränsat till, modifierade tangentbord, skärmförstoringsprogram, skärmläsare, röstigenkänningsprogram och andra hjälpmedel.
 
 ## Arbeta på önskat språk {#languages}
 
 Adobe Campaign Standard finns på olika språk: engelska, franska och tyska.
 
-Observera att språket är konfigurerat vid installationen och kan inte ändras efteråt.
+Observera att språket konfigureras vid installationen och inte kan ändras efteråt.
 
 ## Kortkommandon {#shortcuts}
 
