@@ -7,7 +7,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 6ac2a2d5b2a0924847e54068145d6def22f8023f
+source-git-commit: 458517259c6668e08a25f8c3cd3f193f27e536fb
 workflow-type: tm+mt
 source-wordcount: '8382'
 ht-degree: 0%
@@ -104,7 +104,7 @@ I det avgränsade läget **Transmitter+receiver** beror anslutningen på vilken 
 
 När du till exempel skickar en MT används sändaranslutningen och `RESP` som bekräftar att MT också skickas via sändningskanalen. När du tar emot ett flerlägesobjekt (eller ett SR) används mottagaranslutningen för att ta emot flerlägesobjektet och skicka `RESP` som bekräftar flerlägesobjektet.
 
-![](assets/sms_protocol_1.png)
+![](assets/do-not-localize/sms_protocol_1.png)
 
 I Adobe Campaign Standard är MT och SR-avstämningen inbyggd i MTA, så det finns ingen dedikerad SMS-process.
 
@@ -500,7 +500,7 @@ Fönstret är det antal `SUBMIT_SM PDU`s som kan skickas utan att vänta på en 
 
 Exempel på en överföring med ett maximalt fönster på 4:
 
-![](assets/sms_protocol_2.png)
+![](assets/do-not-localize/sms_protocol_2.png)
 
 Fönstret hjälper till att öka genomströmningen när nätverkslänken har hög latens.  Fönstrets värde måste vara minst det antal SMS/s som multipliceras med länkens fördröjning i sekunder, så att kopplingen aldrig väntar på `SUBMIT_SM_RESP` innan nästa meddelande skickas.
 Om fönstret är för stort kan du skicka fler dubblettmeddelanden om det uppstår anslutningsproblem. Dessutom har de flesta leverantörer en mycket strikt begränsning för fönstret och vägrar att skicka meddelanden som överskrider gränsen.
@@ -758,7 +758,7 @@ Giltighetsperioden överförs i fältet `validity_period` i `SUBMIT_SM PDU`. Dat
 
 ## SMPP-anslutning {#ACS-SMPP-connector}
 
-![](assets/sms_protocol_3.png)
+![](assets/do-not-localize/sms_protocol_3.png)
 
 Pilar representerar dataflöde.
 
