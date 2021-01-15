@@ -5,11 +5,11 @@ product: campaign
 title: Produktdokumentation för Adobe Campaign Standard
 description: Bläddra i produktdokumentationen för Adobe Campaign Standard
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 74645dbd3ae24be49475be7ec50d0d3464823ec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '234'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 86%
 
 ## Nyheter
 
-* **[Uppdatera felaktiga ](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> hårddiskstudsarLär dig hur du uppdaterar felaktiga hårddiskmarkeringar efter Gmail-avbrott
+* **[Uppdatera felaktigt avvisade e-postmeddelanden](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> Läs om hur du uppdaterar felaktigt avvisade e-postmeddelanden efter ett driftstopp hos Gmail
 
-* **[Versionsplanering ](rn/using/release-planning.md)**<br/> Kommande releasedatum i februari 2021 har lagts till i lanseringsplaneringen
+* **[Versionsplanering](rn/using/release-planning.md)**<br/> De kommande datumen för utgåvor i februari 2021 har lagts till i versionsplaneringen
 
 * **[Kontrollgrupper](sending/using/control-group.md)**<br/>
 Mät effekten av dina kampanjer genom att utesluta en del av deras målgrupp
