@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Hjälpcenter för de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som behövs för att använda Campaign Standard. '
 breadcrumb-title: Campaign Standard
 title: Guide för Campaign Standard
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b5f982ee320cb98174153a53fe8f28b4b6c31790
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1710'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -448,8 +448,8 @@ ht-degree: 99%
       + [Mobil användning som stöds av Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
    + Konfigurera SMS-kanal {#configuring-sms}
       + [Implementera SMS-kanalen](administration/using/configuring-sms-channel.md)
-      + [Protokoll och inställningar för SMS-anslutning](administration/using/sms-protocol.md)
-      + [Felsökning av SMS](administration/using/troubleshooting-sms.md)
+      + [Protokoll och inställningar för SMS-koppling](administration/using/sms-protocol.md)
+      + [Felsöka SMS](administration/using/troubleshooting-sms.md)
    + Programinställningar {#application-settings}
       + [Om Campaign Standard-inställningar](administration/using/about-campaign-standard-settings.md)
       + [Externa konton](administration/using/external-accounts.md)
