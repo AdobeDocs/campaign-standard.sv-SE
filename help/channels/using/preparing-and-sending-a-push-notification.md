@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: push-notifications
 context-tags: delivery,mobileAppContent,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '857'
+ht-degree: 9%
 
 ---
 
@@ -62,7 +62,7 @@ Stegen för att skapa ett push-meddelande med Adobe Campaign är:
 
    ![](assets/push_notif_content.png)
 
-   Innehållet och alternativen för push-meddelanden som konfigureras här skickas till din mobilapp i form av en nyttolast. Nyttolastens detaljerade struktur beskrivs i [Förstå nyttolaststrukturen för ACS-push-meddelanden](https://helpx.adobe.com/se/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)-tekniken.
+   Innehållet och alternativen för push-meddelanden som konfigureras här skickas till din mobilapp i form av en nyttolast. Nyttolastens detaljerade struktur beskrivs i [Understanding Campaign Standard push notifications payload structure](https://helpx.adobe.com/se/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html) technology.
 
 1. Klicka på **[!UICONTROL Create]**.
 
