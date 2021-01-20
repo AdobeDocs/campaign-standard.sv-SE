@@ -7,7 +7,7 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 89%
@@ -30,7 +30,7 @@ Om du vill skapa eller uppdatera en profil i Campaign kan du:
 * Importera en profillista från en fil via ett [arbetsflöde](../../automating/using/creating-import-workflow-templates.md)
 * Samla in data online via [landningssidor](../../channels/using/getting-started-with-landing-pages.md)
 * Skapa bulk via [REST API](../../api/using/get-started-apis.md)
-* Synkronisera profiler från [Microsoft Dynamics](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+* Synkronisera profiler från [Microsoft Dynamics](../../integrating/using/d365-acs-get-started.md)
 * Ange data med hjälp av de grafiska gränssnittsskärmarna som förklaras nedan
 
 Om du exempelvis vill skapa en ny profil direkt i användargränssnittet följer du stegen nedan:
