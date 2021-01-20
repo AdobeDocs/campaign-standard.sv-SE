@@ -7,10 +7,10 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 434edb8e1c3396ad29edd9ee60866c93e82a2c1b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '788'
+ht-degree: 9%
 
 ---
 
@@ -85,7 +85,7 @@ Mer information om landningssidor finns i [dedikerad dokumentation](../../channe
 ### Synkroniserar profiler från Microsoft Dynamics 365
 
 Tack vare integreringen av Campaign Standarder med Microsoft Dynamics 365 kan du skicka kontaktdata från Microsoft Dynamics 365 till Campaign-databasen.
-Kontakterna visas sedan i profillistan och kan användas i marknadsföringskampanjer. Mer information om den här integreringen finns i [dedikerad dokumentation](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
+Kontakterna visas sedan i profillistan och kan användas i marknadsföringskampanjer. Mer information om den här integreringen finns i [dedikerad dokumentation](../../integrating/using/d365-acs-get-started.md).
 
 >[!NOTE]
 >
