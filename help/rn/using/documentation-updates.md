@@ -6,9 +6,9 @@ description: Läs om alla de senaste uppdateringarna av dokumentationen för Ado
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-translation-type: ht
-source-git-commit: 77abbdf824be705b0a3409442e45d28dc0abaa2f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 16f937fc34783f22a0c118bb5e2e3f39abb85615
+workflow-type: tm+mt
 source-wordcount: '6372'
 ht-degree: 100%
 
@@ -73,7 +73,7 @@ Ett varningsmeddelande har lagts till som varnar användare om behörighetsbegr�
 
 Ett nytt avsnitt har lagts till för att beskriva processen att skapa ett nytt varumärke. [Läs mer](../../administration/using/branding.md#creating-a-brand)
 
-Den nya Campaign Standard – integrering med Microsoft Dynamics 365 är nu tillgänglig. [Läs mer](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+Den nya Campaign Standard – integrering med Microsoft Dynamics 365 är nu tillgänglig. [Läs mer](../../integrating/using/d365-acs-get-started.md)
 
 Information har lagts till om anonyma källor i rapporten Aktiva profiler. [Läs mer](../../audiences/using/active-profiles.md)
 
@@ -109,7 +109,7 @@ Referenser till den äldre supportwebbplatsen har ersatts av den nya webbplatsen
 
 Konfigurationen av det anpassade kontot Litmus har tagits bort från återgivningsfunktionen i Inkorgen. [Läs mer](../../sending/using/email-rendering.md)
 
-Campaign Standard – integreringen av Microsoft Dynamics 365 är inte tillgänglig just nu. En ny koppling utvecklas och kommer att bli tillgänglig i framtiden. De relaterade hjälpsidorna har tagits bort. [Läs mer](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+Campaign Standard – integreringen av Microsoft Dynamics 365 är inte tillgänglig just nu. En ny koppling utvecklas och kommer att bli tillgänglig i framtiden. De relaterade hjälpsidorna har tagits bort. [Läs mer](../../integrating/using/d365-acs-get-started.md)
 
 ## Maj 2020 {#doc-updates-may-2020}
 
@@ -141,7 +141,7 @@ Ett avsnitt med vanliga frågor har lagts till för Email Designer. [Läs mer](.
 
 ## April 2020 {#doc-updates-april-2020}
 
-Integreringen av Microsoft Dynamics 365 med Adobe Campaign Standard-dokumentationen finns nu tillgänglig i huvuddokumentationen. [Läs mer](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+Integreringen av Microsoft Dynamics 365 med Adobe Campaign Standard-dokumentationen finns nu tillgänglig i huvuddokumentationen. [Läs mer](../../integrating/using/d365-acs-get-started.md)
 
 Ytterligare resurser har lagts till på startsidan för dokumentationen. [Läs mer](../../campaign-standard-home.md)
 
@@ -217,7 +217,7 @@ Audience Destinations (beta) - [Läs mer](../../audiences/using/aep-about-audien
 
 **Andra dokumentationsuppdateringar som medföljer utgåvan**
 
-Dokumentationen för sekretesshantering har uppdaterats med information om hur du skapar CCPA-fält för avanmälan för anpassade profilresurser. [Läs mer](https://helpx.adobe.com/se/campaign/kb/acs-privacy.html)
+Dokumentationen för sekretesshantering har uppdaterats med information om hur du skapar CCPA-fält för avanmälan för anpassade profilresurser. [Läs mer](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html)
 
 Versionsinformationen har omstrukturerats och förbättrats. [Läs mer](../../rn/using/release-notes.md)
 
@@ -283,7 +283,7 @@ Den nya API-slutpunkten **/customResources** har lagts till i API-dokumentatione
 
 California Consumer Privacy Act (CCPA) - [Läs mer](https://helpx.adobe.com/se/campaign/kb/acs-privacy.html#ccpa)
 
-Integrering av Microsoft Dynamics 365 (GA) - [Läs mer](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+Integrering av Microsoft Dynamics 365 (GA) - [Läs mer](../../integrating/using/d365-acs-get-started.md)
 
 **Andra dokumentationsuppdateringar som medföljer utgåvan**
 
@@ -317,7 +317,7 @@ Ett nytt exempel som visar hur du skickar ett e-postmeddelande som innehåller y
 
 Ett nytt avsnitt om hur du använder fällor har lagts till. [Läs mer](../../sending/using/using-traps.md).
 
-Ett meddelande om alternativet **Launch_URL_Campaign** har lagts till på sidan om hur du konfigurerar en mobilapp med hjälp av SDK:er för Adobe Experience Platform. [Läs mer](https://helpx.adobe.com/se/campaign/kb/configuring-app-sdk.html)
+Ett meddelande om alternativet **Launch_URL_Campaign** har lagts till på sidan om hur du konfigurerar en mobilapp med hjälp av SDK:er för Adobe Experience Platform. [Läs mer](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
 Email Designer-guiden har omstrukturerats. [Läs mer](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -345,7 +345,7 @@ Rapport om segment av arbetsflöde - [Läs mer](../../reporting/using/creating-a
 
 Implementeringsguiden för Campaign Standard finns nu tillgänglig.[Läs mer](https://helpx.adobe.com/se/campaign/kb/campaign-standard-implementation-guide.html)
 
-En uppsättning nya hjälpartiklar har skapats för implementering och användning av Microsoft Dynamics 365-connector. Notera att den här funktionen för närvarande är begränsad.[Läs mer](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+En uppsättning nya hjälpartiklar har skapats för implementering och användning av Microsoft Dynamics 365-connector. Notera att den här funktionen för närvarande är begränsad.[Läs mer](../../integrating/using/d365-acs-get-started.md)
 
 En anteckning har lagts till i avsnittet [Anropa ett arbetsflöde med parametrar](../../automating/using/calling-a-workflow-with-external-parameters.md) om leveransförberedelse och deras aggregeringsperiod.
 
@@ -389,7 +389,7 @@ En varning har lagts till i dokumentationen för anpassade resurser. Vi rekommen
 
 **Nya funktioner i utgåvan**
 
-Kontrollpanelen - [läs mer](https://docs.adobe.com/content/help/sv-SE/control-panel/using/control-panel-home.html)
+Kontrollpanelen - [läs mer](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
 Lokala notifikationer - [Läs mer](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
@@ -543,9 +543,9 @@ Lagt till information om det nya alternativet i filaktiviteten extrahera som fö
 
 Konfigurationen av en mobilapp med SDK V4-avsnittet har flyttats [hit](https://helpx.adobe.com/se/campaign/kb/configuring-app-sdkv4.html).
 
-Avsnittet Konfigurera en mobilapp med SDK:er för Adobe Experience Platform har flyttats [hit](https://helpx.adobe.com/se/campaign/kb/configuring-app-sdk.html).
+Avsnittet Konfigurera en mobilapp med SDK:er för Adobe Experience Platform har flyttats [hit](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
-Videor har uppdaterats och flyttats [hit](https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/tutorials/overview.html).
+Videor har uppdaterats och flyttats [hit](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html).
 
 Avsnittet Typ av användare har uppdaterats. [Läs mer](../../administration/using/users-management.md)
 
@@ -575,7 +575,7 @@ Automatiserad innehållsimport från en länk vid förberedelsetillfället. [Lä
 
 **Andra dokumentationsuppdateringar som medföljer utgåvan**
 
-En ny teknik har lagts till i SMS-anslutningsprotokollet och inställningarna. [Läs mer](https://helpx.adobe.com/se/campaign/kb/sms-connector-protocol-and-settings.html)
+En ny teknik har lagts till i SMS-anslutningsprotokollet och inställningarna. [Läs mer](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)
 
 Experience Manager-integreringen med dokumentationen för Adobe Campaign har uppdaterats. [Läs mer](../../reporting/using/creating-a-custom-profile-dimension.md)
 
@@ -777,7 +777,7 @@ Uppdaterade och klargjorde [tekniken](https://helpx.adobe.com/se/campaign/kb/int
 
 Teknisk anteckning har lagts till som förklarar strukturen för den nyttolast som tas emot i en mobilapp. [Läs mer.](https://helpx.adobe.com/se/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)
 
-Konfigurations[avsnittet](https://helpx.adobe.com/se/campaign/kb/configuring-app-sdkv4.html) för push-kanaler har uppdaterats med ny nyttolastdata i OS-versionen som ska läggas till när återanslag definieras i gränssnittet för Adobe Mobile Services.
+Konfigurations[avsnittet](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) för push-kanaler har uppdaterats med ny nyttolastdata i OS-versionen som ska läggas till när återanslag definieras i gränssnittet för Adobe Mobile Services.
 
 SMS-dokumentationen har uppdaterats med ett förtydligande i avsnittet [SMS-automatiska svar](../../channels/using/managing-incoming-sms.md#managing-stop-sms) .
 
@@ -873,7 +873,7 @@ Guiden &quot;Leveranser&quot; har ordnats om och namnet &quot;Kanaler&quot; har 
 
 Många skärmbilder har uppdaterats för att återspegla gränssnittsändringar.
 
-Nu finns en ny teknik: &quot;Integrera Adobe Mobile SDK med mobilappen&quot;. [Läs mer](https://helpx.adobe.com/se/campaign/kb/integrate-mobile-sdk.html)
+Nu finns en ny teknik: &quot;Integrera Adobe Mobile SDK med mobilappen&quot;. [Läs mer](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
 Instruktioner för att konfigurera People core service eller Audience Manager integration med Adobe Campaign har lagts till. [Läs mer](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
@@ -903,9 +903,9 @@ Handboken för arbetsflöde har omorganiserats och utökats. Hitta enkelt hur ma
 
 Beräkning av rapportindikator finns nu tillgängligt för dynamiska rapporter inklusive fullständig beskrivning och beräkningsformel. [Läs mer](../../reporting/using/indicator-calculation.md)
 
-Nytt dedikerat avsnitt om konfigurationen av Adobe Mobile Services som använder push-meddelanden och intressepunktsdata i Adobe Campaign. [Läs mer](https://helpx.adobe.com/se/campaign/kb/configuring-app-sdkv4.html)
+Nytt dedikerat avsnitt om konfigurationen av Adobe Mobile Services som använder push-meddelanden och intressepunktsdata i Adobe Campaign. [Läs mer](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 
-Konfigurations- och implementeringsavsnitten för mobilappar har uppdaterats inklusive mer detaljerade steg för att konfigurera och skicka push-meddelanden. [Läs mer](https://helpx.adobe.com/se/campaign/kb/configuring-app-sdkv4.html)
+Konfigurations- och implementeringsavsnitten för mobilappar har uppdaterats inklusive mer detaljerade steg för att konfigurera och skicka push-meddelanden. [Läs mer](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 
 Uppdaterat avsnitt om hur du arbetar med bilder i Campaign. [Läs mer](../../designing/using/images.md#setting-up-image-properties)
 
@@ -917,7 +917,7 @@ Integrationen med Adobe Analytics for Mobile (Point of Interest) har uppdaterats
 
 Dynamisk rapportering - [läs mer](../../reporting/using/about-dynamic-reports.md)
 
-Dreamweaver-integrering (Labs) - [Läs mer](https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html)
+Dreamweaver-integrering (Labs) - [Läs mer](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 Tidsoptimering för manuell sändning - [Läs mer](../../sending/using/optimizing-the-sending-time.md)
 
