@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Hjälpcenter för de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som behövs för att använda Campaign Standard. '
 breadcrumb-title: Campaign Standard
 title: Guide för Campaign Standard
-translation-type: ht
-source-git-commit: b5f982ee320cb98174153a53fe8f28b4b6c31790
-workflow-type: ht
-source-wordcount: '1710'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 16f937fc34783f22a0c118bb5e2e3f39abb85615
+workflow-type: tm+mt
+source-wordcount: '1728'
+ht-degree: 97%
 
 ---
 
@@ -261,14 +261,17 @@ ht-degree: 100%
       + [Testa utlösarna](integrating/using/testing-your-triggers.md)
       + [Användningsexempel för avbrytningsutlösare](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign och Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Kom igång med Dynamics 365-integration](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-      + [Hantera data mellan Campaign och Dynamics 365](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
-      + [Begär integreringen](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
-      + [Konfigurera Adobe I/O](integrating/using/configure-adobe-io-for-ms-dynamic.md)
-      + [Konfigurera Dynamics 365 för Campaign-integration](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
-      + [Mappa anpassade resurser för Campaign och anpassade entiteter i Dynamics 365](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
-      + [Använda Dynamics 365­integrationen](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
-      + [Skydd för integrering](integrating/using/ms-dynamics-365-integration-guardrails.md)
+      + [Kom igång med Microsoft Dynamics 365-integrering](integrating/using/d365-acs-get-started.md)
+      + [Bästa praxis och begränsningar](integrating/using/d365-acs-notices-and-recommendations.md)
+      + [Konfigurera Microsoft Dynamics 365](integrating/using/d365-acs-configure-d365.md)
+      + [Konfigurera Campaign och Adobe I/O](integrating/using/d365-acs-configure-adobe-io.md)
+      + Konfigurera integrationsappen {#configure-integration-tool}
+         + [Kom igång med integreringsappen](integrating/using/d365-acs-self-service-app-quick-start-guide.md)
+         + [Tillgång till integrationsappen](integrating/using/d365-acs-self-service-app-control-access.md)
+         + [Koppla samman system med integreringsappen](integrating/using/d365-acs-self-service-app-settings.md)
+         + [Hantera synkroniseringsarbetsflöden](integrating/using/d365-acs-self-service-app-workflows.md)
+         + [Mappa data mellan Microsoft Dynamics 365 och Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
+      + [Använda Microsoft Dynamics 365­integrationen](integrating/using/d365-acs-using-the-integration.md)
 + Hantera processer och data {#managing-processes-and-data}
    + [Kom igång med data- och processhantering](automating/using/get-started-workflows.md)
    + Allmänt om arbetsflöde {#workflow-general-operation}
