@@ -7,10 +7,10 @@ audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '447'
+ht-degree: 3%
 
 ---
 
@@ -54,7 +54,7 @@ Mer information om landningssidor finns i [dedikerad dokumentation](../../channe
 Tack vare integreringen av Campaign Standarder med Microsoft Dynamics 365 kan du skicka kontaktdata från Microsoft Dynamics 365 till Campaign-databasen.
 Kontakterna visas sedan i profillistan och kan användas i marknadsföringskampanjer.
 
-Mer information om den här integreringen finns i [dedikerad dokumentation](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
+Mer information om den här integreringen finns i [dedikerad dokumentation](../../integrating/using/d365-acs-get-started.md).
 
 >[!NOTE]
 >
