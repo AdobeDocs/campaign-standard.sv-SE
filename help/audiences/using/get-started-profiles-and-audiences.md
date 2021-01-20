@@ -7,10 +7,10 @@ audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '604'
+ht-degree: 18%
 
 ---
 
@@ -86,7 +86,7 @@ Integritet och samtycke i Campaign och hur du hanterar dem beskrivs i [det här 
 ## Ytterligare resurser
 
 * [Arbeta med målgruppstjänst](../../audiences/using/aep-about-audience-destinations-service.md)
-* [Arbeta med Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+* [Arbeta med Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
 * [Delade målgrupper i Adobe](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [Importera profiler med arbetsflöden](../../automating/using/creating-import-workflow-templates.md)
 * [Profiler och målgrupper - videor](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
