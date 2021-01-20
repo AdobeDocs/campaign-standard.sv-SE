@@ -7,17 +7,17 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '183'
+ht-degree: 3%
 
 ---
 
 
 # Interagera med anpassade resurser {#interacting-with-custom-resources}
 
-Med slutpunkten **/customResources** kan du visa anpassade ACS-resurser i REST. Baserat på detta API finns det en integrering mellan anpassade entiteter och externa slutpunkter.
+Med slutpunkten **/customResources** kan du visa anpassade resurser för Campaign i REST. Baserat på detta API finns det en integrering mellan anpassade entiteter och externa slutpunkter.
 
 Slutpunkten /customResources har exakt samma beteende som slutpunkten /profileAndServices.
 
