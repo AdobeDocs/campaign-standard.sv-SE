@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
+source-git-commit: 16f937fc34783f22a0c118bb5e2e3f39abb85615
 workflow-type: tm+mt
-source-wordcount: '7623'
+source-wordcount: '7607'
 ht-degree: 8%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 8%
   <tr> 
    <td> 
     <p>Integrationen mellan Adobe Campaign Standard och Microsoft Dynamics 365 är nu tillgänglig. Du kan överföra dina kontakter och anpassade enhetsposter från Dynamics 365 till Campaign och få tillbaka händelsedata via e-post från Campaign till Dynamics 365 för bättre sälj- och marknadsföringsanpassning.</p>
-    <p>Läs <a href="../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md">den detaljerade dokumentationen</a> för att ställa in integreringen och visa <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/campaign-and-microsoft-dynamics-365/working-with-campaign-standard-and-microsoft-dynamics-365.html">instruktionsvideon</a>.</p>
+    <p>Se <a href="../../integrating/using/d365-acs-get-started.md">detaljerad dokumentation</a> för att konfigurera integreringen.</p>
   </td>
   </tr> 
  </tbody> 
