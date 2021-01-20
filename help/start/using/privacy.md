@@ -1,21 +1,24 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Integritet och medgivande
-description: Läs om integritet, personuppgifter och medgivandehantering i Adobe Campaign Standard
+title: Integritet och medgivande i Adobe Campaign Standard
+description: Det här avsnittet erbjuder en översikt över hantering av integritet, personuppgifter och medgivande i Adobe Campaign Standard, samt de verktyg som finns tillgängliga för att hantera dessa.
+page-status-flag: never-activated
+uuid: ed9e631c-5ad1-49f1-be1e-b710bc64dc91
+contentOwner: sauviat
+products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: ht
-source-git-commit: c76f4b6e3bc0feb50e5776836552fdceaff61ea7
-workflow-type: ht
-source-wordcount: '1657'
-ht-degree: 100%
+discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
+translation-type: tm+mt
+source-git-commit: 2879066634a8a123ef5d07d46aa96479f156a923
+workflow-type: tm+mt
+source-wordcount: '1479'
+ht-degree: 94%
 
 ---
 
 
-# Integritet och medgivande {#privacy-and-consent}
+# Integritet och medgivande{#privacy-and-consent}
 
 ## Allmänna rekommendationer {#general-recommendations}
 
@@ -37,7 +40,7 @@ För att kunna hantera personuppgifter på ett korrekt sätt bör du arbeta i en
 
 >[!NOTE]
 >
->Se [det här avsnittet](../../start/using/privacy-management.md#privacy-management-regulations) för mer information om hur GDPR, CCPA, PDPA och LGPD tillämpas i Adobe Campaign.
+>Mer information om hur GDPR, CCPA och PDPA gäller för Adobe Campaign finns på [den här sidan](https://helpx.adobe.com/se/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
 
 ### Integritet i Adobe Experience Cloud {#experience-cloud-privacy}
 
@@ -75,40 +78,14 @@ När integritet hanteras är det viktigt att definiera vilka data som ska hanter
 * **Personuppgifter** är information som direkt eller indirekt kan identifiera en levande individ.
 * **Känsliga personuppgifter** är information som är relaterad till en individs ras, politiska åsikter, religiösa övertygelser, kriminella bakgrund, genetiska uppgifter, hälsodata, sexuella preferenser, biometrisk information samt medlemskap i fackföreningar.
 
-När ni integrerar Campaign med andra Experience Cloud-lösningar där målgrupper kan överföras från ett system till ett annat såsom [tjänsten Målgruppsdestinationer](../../audiences/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager eller People Core Service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md) eller med andra lösningar såsom [Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md) måste ni vara extra noga med att skydda personuppgifter.
-
-De [viktigaste föreskrifterna](#privacy-regulations) avser de olika enheter som hanterar data enligt följande:
+[Huvudlagstiftningen](#privacy-regulations) hänvisar till olika enheter som hanterar data enligt följande:
 * Ett **personuppgiftsansvarig** är den myndighet som bestämmer syftet med att samla in, använda och dela personuppgifter och hur det ska göras.
 * Ett **personuppgiftsbiträde** är en individ eller part som samlar in, använder eller delar personuppgifter enligt den personuppgiftsansvariges anvisningar.
 * En **registrerad** är en levande individ vars personuppgifter samlas in, används eller delas och som direkt eller indirekt kan identifieras genom hänvisning till dessa personuppgifter.
 
 Som företag som samlar in och delar personuppgifter är du den personuppgiftsansvarige, dina kunder är de registrerade och Adobe Campaign fungerar som personuppgiftsbiträde när vi hanterar deras personuppgifter enligt dina anvisningar. Observera att det är ditt ansvar som personuppgiftsansvarige att hantera relationen med de registrerade såsom vid hantering av [förfrågningar om användarens information](#privacy-requests).
 
-### Scenario med användningsfall {#use-case-scenario}
-
-För att illustrera hur personerna i de olika rollerna interagerar följer ett exempel, på hög nivå, av en GDPR-kundupplevelse.
-
-I det här exemplet är kunden i Adobe Campaign ett flygbolag. Det här företaget är **personuppgiftsansvarig** och alla klienter i flygbolaget är **registrerade**. Laura är i det här fallet en kund hos flygbolaget.
-
-Dessa är de olika personerna som används i det här exemplet:
-
-* **Laura** är den **registrerade**. Hon är mottagaren som får meddelanden från flygbolaget. Laura är kanske en person som flyger ofta men kan vid något tillfälle besluta att hon inte vill ha någon personlig reklam eller marknadsföringsmeddelanden från flygbolaget. Hon ber flygbolaget (baserat på deras process) att ta bort sitt nummer som frekvent flygresenär.
-
-* **Anne** är **personuppgiftsansvarig** hos flygbolaget. Hon tar emot Lauras begäran, erhåller de ID-nummer som efterfrågas för att identifiera den registrerade och lämnar in begäran i Adobe Campaign.
-
-* **Adobe Campaign** är **personuppgiftsbiträdet**.
-
-![](assets/privacy-gdpr-flow.png)
-
-Här följer det allmänna flödet för det här användningsfallet:
-
-1. Den **registrerade** (Laura) skickar en GDPR-begäran till **personuppgiftsansvarige** via e-post, kundtjänsten eller en webbportal.
-
-1. **Personuppgiftsansvarige** (Anne) skickar GDPR-begäran till Campaign via gränssnittet eller ett API.
-
-1. När **personuppgiftsbiträdet** (Adobe Campaign) tar emot informationen utförs åtgärden i GDPR-begäran och ett svar eller bekräftelse skickas till **personuppgiftsansvarige** (Anne).
-
-1. **Personuppgiftsansvarige** (Anne) granskar sedan informationen och skickar tillbaka den till den **registrerade** (Laura).
+När ni integrerar Campaign med andra Experience Cloud-lösningar där målgrupper kan överföras från ett system till ett annat såsom [tjänsten Målgruppsdestinationer](../../audiences/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager eller People core service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md) eller med andra lösningar såsom [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md) måste ni vara extra noga med att skydda personuppgifter.
 
 ## Datainsamling {#data-acquisition}
 
@@ -121,7 +98,7 @@ Med Adobe Campaign kan ni samla in data, inklusive personuppgifter och känslig 
 
 ## Integritetshantering {#privacy-management}
 
-Integritetshantering avser alla processer och verktyg som kan hjälpa er att följa integritetsbestämmelser (GDPR, CCPA, etc.). Få en översikt över vad integritetshantering är på [den här sidan](../../start/using/privacy-management.md).
+Integritetshantering avser alla processer och verktyg som kan hjälpa er att följa integritetsbestämmelser (GDPR, CCPA, etc.). Få en översikt över vilken sekretesshantering som finns på [den här sidan](https://helpx.adobe.com/se/campaign/kb/campaign-privacy-overview.html).
 
 Adobe Campaign tillhandahåller olika funktioner för integritetshantering:
 * Medgivandehantering, datalagring och användarroller. Se [det här avsnittet](#consent).
@@ -139,7 +116,7 @@ Adobe Campaign erbjuder viktiga funktioner som är grundläggande för integrite
 * **Datalagring**: alla inbyggda standardiserade loggtabeller har förinställda lagringsperioder vilket i allmänhet begränsar datalagringen till 6 månader eller mindre. Ytterligare lagringsperioder kan ställas in med arbetsflöden. Kontakta Adobes konsulter eller teknikadministratörer för mer information om detta.
 * **Hantering av rättigheter**: Adobe Campaign ger dig möjligheten att hantera de rättigheter som tilldelats olika operatörer i Campaign via olika färdiga eller anpassade roller. Det här låter dig hantera vilka inom företaget som kan få åtkomst till, ändra eller exportera olika typer av data. Se [Om åtkomsthantering](../../administration/using/about-access-management.md) för mer information.
 
-Se [det här avsnittet](../../start/using/privacy-management.md#consent-retention-roles) för mer information om dessa funktioner och hur du hanterar dem i Adobe Campaign.
+Mer information om de här funktionerna och hur du hanterar dem i Adobe Campaign finns på [den här sidan](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#consent).
 
 ### Förfrågningar om användarens information {#privacy-requests}
 
@@ -149,13 +126,21 @@ Adobe Campaign erbjuder ytterligare funktioner som underlättar din beredskap so
 
 * **Rätten att glömmas** (förfrågan om borttagning) ger den registrerade rätten att låta personuppgiftsansvarig radera sina personuppgifter.
 
-Förfrågningar om **åtkomst** och **radering** visas i [det här avsnittet](../../start/using/privacy-management.md#right-access-forgotten).
+>[!NOTE]
+>
+>Den här uppsättningen verktyg hjälper dig med din integritetsefterlevnad gällande GDPR, CCPA och PDPA. Mer information om de här olika reglerna finns på [den här sidan](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
 
-Implementeringsstegen för att skapa dessa förfrågningar finns i [det här avsnittet](../../start/using/privacy-requests.md). Självstudiekurser finns också [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=sv#privacy).
+<!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
+
+* **CCPA** (California Consumer Privacy Act) provides California residents new rights in regards to their personal information and imposes data protection responsibilities on certain entities whom conduct business in California.
+
+* **Thailand's PDPA** (Personal Data Protection Act) is the new privacy law that harmonizes and modernizes data protection requirements for Thailand. This regulation applies to Adobe Campaign customers who hold data for Data Subjects residing in this country.-->
+
+Förfrågningar om **åtkomst** och **borttagning** visas på [den här sidan](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=sv#getting-started). Implementeringsstegen för att skapa dessa förfrågningar finns på [den här sidan](https://helpx.adobe.com/se/campaign/kb/acs-privacy.html#ManagingPrivacyRequests). Självstudiekurser finns också [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=sv#privacy).
 
 ## Spårningsfunktioner {#tracking-capabilities}
 
-Tack vare spårningsfunktionerna i Adobe Campaign kan du spåra hur leveransmottagarna beter sig med hjälp av sessionscookies och permanenta cookies. Se [det här avsnittet](../../sending/using/tracking-messages.md) för mer om spårning.
+Tack vare spårningsfunktionerna i Adobe Campaign kan du spåra hur leveransmottagarna beter sig med hjälp av sessionscookies och permanenta cookies. Mer information om spårning finns på [den här sidan](../../sending/using/tracking-messages.md).
 
 >[!NOTE]
 >
