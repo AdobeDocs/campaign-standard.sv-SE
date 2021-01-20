@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 translation-type: tm+mt
-source-git-commit: 79e0b945e2c34bc396b7852851df848a76d62979
+source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
 workflow-type: tm+mt
 source-wordcount: '2156'
 ht-degree: 98%
@@ -114,7 +114,7 @@ Om **tolkningen valideras** visas ett meddelande som uppmanar dig att anpassa da
 
 ### Körning
 
-Med den här fliken kan du definiera anslutningens slutpunkt. I fältet **[!UICONTROL URL]** kan du definiera den **HTTPS-slutpunkt** som skickar data till ACS.
+Med den här fliken kan du definiera anslutningens slutpunkt. I fältet **[!UICONTROL URL]** kan du definiera den **HTTPS-slutpunkt** som skickar data till Campaign.
 
 Om slutpunkten så kräver finns det två typer av autentiseringsmetoder:
 
