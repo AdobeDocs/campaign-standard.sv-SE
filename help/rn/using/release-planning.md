@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 translation-type: tm+mt
-source-git-commit: 505e2292639f617cbcedd8c7227529bf76d54508
+source-git-commit: ac669a4dbb3b0f5f8f7352d1271460054913a1b4
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 96%
@@ -41,11 +41,11 @@ Miljöuppdateringar sker i vågor under de angivna tidsramarna nedan. Detaljerad
  <tbody>
   <tr>
    <td>Stadie<br /> </td>
-   <td>25–27 jan 2021<br /> </td>
+   <td>1–2 feb 2021<br /> </td>
   </tr>
   <tr>
    <td> Produktion<br /> </td>
-   <td>1–8 feb 2021<br /> </td>
+   <td>8-15 feb 2021<br /> </td>
   </tr>
  </tbody>
 </table>
