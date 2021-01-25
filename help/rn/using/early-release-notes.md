@@ -9,10 +9,10 @@ topic-tags: campaign-standard-releases
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: a1a670f32201ba6b8fa4488a5ab3dd881aece097
+source-git-commit: 26b401e18629f794ab3c1a836a28369d2f8f9605
 workflow-type: tm+mt
-source-wordcount: '2618'
-ht-degree: 4%
+source-wordcount: '2599'
+ht-degree: 3%
 
 ---
 
@@ -41,12 +41,13 @@ Den här sidan beskriver nya funktioner, förbättringar och korrigeringar som i
 <tbody> 
 <tr> 
 <td>
-<p>Tjänsten Email Feedback Service (EFS) är en skalbar tjänst som direkt hämtar in feedback från det förbättrade MTA-systemet och därmed förbättrar rapporteringsnoggrannheten. Den här funktionen lanseras som en privat betaversion och kommer att vara progressivt tillgänglig för alla kunder i framtida versioner.</p>
+<p>Tjänsten Email Feedback Service (EFS) är en skalbar tjänst som förbättrar rapporteringsnoggrannheten genom att hämta in e-postfeedback direkt från det förbättrade MTA-systemet.</p>
 <ul>
-<li>Alla kategorier av händelser hämtas: Förseningar, levererade, Skickade, Avbeställ (Link, List), Feedback (skräppostklagomål, asynkrona händelser).</li>
+<li>Alla kategorier av händelser hämtas: Förseningar, levererade, Skicka, Avbeställ (länk, lista), Feedback (skräppost, asynkrona händelser).</li>
 <li>Beräkningen av indikatorerna för Skickat/Levererat baseras nu på realtidsfeedback från det förbättrade MTA-avtalet för förbättrad precision och reaktivitet.</li>
 <li>EFS löser problemet med synkrona studsar som rapporterar fördröjningar och tar 80 % av inläsningen från inMail-processen.</li>
 </ul>
+<p>Den här funktionen släpps som en <strong>privat beta</strong> och kommer att vara progressivt tillgänglig för alla kunder i framtida versioner.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -61,7 +62,8 @@ Den här sidan beskriver nya funktioner, förbättringar och korrigeringar som i
 <tbody> 
 <tr> 
 <td>
-<p>Integreringen med Adobe Experience Manager har förbättrats: kan du nu enklare importera flerspråkigt innehåll från Adobe Experience Manager. Adobe Campaign Standard identifierar nu automatiskt språkvarianter från Adobe Experience Manager-innehåll och möjliggör massvis av varianter för import och skapande, vilket avsevärt förenklar antalet steg som en handläggare måste gå igenom för att skapa en flerspråkig kampanj baserad på Adobe Experience Manager-innehåll.
+<p>Kampanjintegrationen med Adobe Experience Manager har förbättrats: kan du nu enklare importera flerspråkigt innehåll från Adobe Experience Manager. <p>
+<p>Adobe Campaign Standard identifierar nu automatiskt språkvarianter från Adobe Experience Manager-innehåll och möjliggör massvis av varianter för import och skapande, vilket avsevärt förenklar antalet steg som en handläggare måste gå igenom för att skapa en flerspråkig kampanj baserad på Adobe Experience Manager-innehåll.</p>
 </p>
 </td> 
 </tr> 
@@ -90,27 +92,21 @@ Den här sidan beskriver nya funktioner, förbättringar och korrigeringar som i
 
 **Förbättringar**
 
-* Integreringen av Microsoft Dynamics 365 har förbättrats med en dedikerad självbetjäningsintegrationsapp och en förbättrad implementeringsprocess. [Läs mer](../../integrating/using/d365-acs-get-started.md)
+* **Integreringen av Microsoft Dynamics 365**  har förbättrats med en dedikerad självbetjäningsintegrationsapp och en förbättrad implementeringsprocess. [Läs mer](../../integrating/using/d365-acs-get-started.md)
 
-* Korrigerade ett problem som medförde att leveranserna kördes mycket långsamt på grund av vissa processer. Detta berodde på felaktiga enheter som definierats för flera parametrar (t.ex. millisekunder i stället för sekunder).
+* En förbättring har gjorts för att underlätta felsökning vid problem med **transaktionsmeddelandeprocessen**. Adobe tekniska administratörer kan nu använda kalkering för alla processer utan att starta om den.
 
-* Ett problem har korrigerats när Mobile SDK skickade en öppen spårningsbegäran baserat på villkoret att deliveryId/MessageID inte är null. Detta skulle resultera i 404 fel för leveranser där spårning är inaktiverat. En ytterligare variabel (acsDeliveryTracking) med information om leveransens spårningsstatus skickas nu i nyttolasten. Den här variabeln kan ha två värden på eller av beroende på spårningsstatus.
+* I listan **Profiler** kan du nu söka efter poster som är baserade på något av dessa fält: e-post, förnamn, efternamn eller anpassade fält som har lagts till i avancerad filtrering när profilresursen utökas. Den här funktionen är också tillgänglig i Campaign Standard-API:er som använder parametern filterType.
 
-* En förbättring har gjorts för att underlätta felsökning vid problem i transaktionsmeddelandeprocessen. Adobe tekniska administratörer kan nu använda kalkering för alla processer utan att starta om den.
+* En parameter har justerats till antalet behållare som kör databaspoolprocessen **Transactional messaging**. På så sätt kan lasten fördelas jämnt över alla behållare som används och uppnå optimala prestanda.
 
-* I profillistan kan du nu söka efter poster baserat på något av följande fält: e-post, förnamn, efternamn eller anpassade fält som har lagts till i avancerad filtrering när profilresursen utökas. Den här funktionen är också tillgänglig i Campaign Standard-API:er som använder parametern filterType.
+* En ny **GetOption**-funktion är nu tillgänglig i aktiviteter som använder händelsevariabler efter anrop av ett arbetsflöde med externa parametrar. Det gör att du kan returnera värdet för en angiven funktion.
 
-* En parameter har justerats till antalet behållare som kör poolningsprocessen för transaktionsmeddelandedatabaser. På så sätt kan lasten fördelas jämnt över alla behållare som används och uppnå optimala prestanda.
-
-* En ny funktion (GetOption) är nu tillgänglig i aktiviteter som använder händelsevariabler efter anrop av ett arbetsflöde med externa parametrar. Det gör att du kan returnera värdet för en angiven funktion.
-
-* Ett nytt tekniskt alternativ har lagts till. Campaign Standarden kan kontrollera om det finns tillräckligt med fysiskt minne tillgängligt i systemet innan arbetsflödet startas. Om minnet är för lågt kommer arbetsflödets körning att fördröjas tills systemminnet når detta tröskelvärde. Detta görs för att undvika ytterligare prestandaförsämringar och minska risken för driftavbrott. Försök att schemalägga om arbetsflödet till en tid med mindre aktivitet och försök igen. Arbetsflödet återupptas automatiskt när serverbelastningen är avspänd. Observera att det här alternativet är skrivskyddat och inte kan ändras.
+* Med ett nytt alternativ kan Campaign Standarden **kontrollera det fysiska minnet** på datorn innan ett arbetsflöde startas. Om minnet är för lågt kommer arbetsflödets körning att fördröjas tills systemminnet når detta tröskelvärde. På så sätt undviks ytterligare prestandaförsämring och risken för driftavbrott minimeras. Arbetsflödet återupptas automatiskt när serverbelastningen är avspänd.  Om arbetsflödets körning är fördröjd kan du försöka schemalägga om arbetsflödet till en tid med mindre aktivitet och försöka igen. Observera att det här alternativet är skrivskyddat och inte kan ändras.
 
 **Andra ändringar**
 
 * Ett fel ändrades till en varning under meddelandeförberedelsen när gränsen på 100 innehållshämtningar per rullande timme nås. En varning visas nu när gränsen nås, vilket gör att du kan fortsätta med leveransen.
-
-* En ny leveransmappning (mapRtEventAppSubRcp) är nu tillgänglig för transaktionspush-meddelanden som riktar in sig på profiler. Loggfilerna gällande leverans, uteslutning och spårning för de här leveranserna är nu tillgängliga i tabellerna broadLogAppSubRcp, excludeLogAppSubRcp och trackingLogAppSubRcp. Detta löser ett problem som gjorde att leveransanalysen misslyckades när ett transaktionspush-meddelande skickades med profilens måldimension.
 
 * När du anrikar ett transaktionsmeddelandeinnehåll hämtas inte länkarna längre när data hämtas från profiltabellen, vilket minskar fördröjningen under meddelandeförberedelsen och undviker tomma profildata på grund av en felaktig relation som definierats med profiltabellen.
 
@@ -120,15 +116,13 @@ Den här sidan beskriver nya funktioner, förbättringar och korrigeringar som i
 
 * Aktiviteten **Överför fil** genererar nu ytterligare en variabel (filesCount) som innehåller antalet överförda eller hämtade filer. (CAMP-45842)
 
-* SMS-kopplingen kan nu skicka flera valfria parametrar med varje meddelande.
+* **SMS-kopplingen** kan nu skicka flera valfria parametrar med varje meddelande.
 
-* Ett problem har korrigerats som gjorde att användare med rollen DATA MODEL inte kunde publicera tillägg för leveranslogg. Den här åtgärden är nu tillgänglig för rollen DATAMODEL. (CAMP-46604)
-
-* Korrigerade ett problem i arbetsflöden som kunde uppstå när en **borttagning av dubbletter**-aktivitet kopierades och klistrades in. Aktiviteten hade körts en gång och den använde en tillfällig resurs. När aktiviteten har duplicerats ställdes resursen automatiskt in på tom, vilket ledde till problem i andra aktiviteter i arbetsflödet. När aktiviteten har klistrats in förblir den nu samma resurs, så att felet kan utlösas så snart som möjligt i stället för senare i arbetsflödet. (CAMP-46903)
+* Användare med rollen DATAMODEL kan nu publicera leveransloggtillägg. (CAMP-46604)
 
 * Det felmeddelande som visas när en resurs som är riktad mot en anpassad resurs som inte längre finns ska visas tydligare. (CAMP-46893)
 
-* Följande språk har lagts till i listan Önskat språk: Indonesiska - Indonesien (in-id), engelska - Sverige (en-se), engelska - Asien/Stillahavsområdet (en-ap), engelska - Japan (en-jp), spanska - Latinamerika (es-la). (CAMP-46351)
+* Följande språk har lagts till i listan **Önskat språk**: Indonesiska - Indonesien (in-id), engelska - Sverige (en-se), engelska - Asien/Stillahavsområdet (en-ap), engelska - Japan (en-jp), spanska - Latinamerika (es-la). (CAMP-46351)
 
 * Väljaren för val av profiler när en landningssida testas kommer nu att använda ProfileBase-resursen i stället för profilen för att förhindra timeout.
 
@@ -138,19 +132,23 @@ Den här sidan beskriver nya funktioner, förbättringar och korrigeringar som i
 
 * Förbättrade varnings- eller felmeddelanden i leveransförberedelseloggar.
 
-* Förbättrade felloggar vid försök att ansluta till IMS.
+* Förbättrade felloggar vid försök att ansluta till Adobe Identity Management Service (IMS).
 
-* Nu kan du filtrera dimensionerna Leverans och Kampanj ytterligare med hjälp av sökfältet i Dynamisk rapportering.
+* Du kan nu filtrera dimensionerna Leverans och Kampanj ytterligare med hjälp av sökfältet i **Dynamisk rapportering**.
 
-* Giltighetsdatumet för SMS-transaktionsmeddelandet kan nu definieras av det värde som angetts för förfalloparametern i Transactional Messages API. (CAMP-36600)
+* Giltighetsdatumet för SMS-transaktionsmeddelandet kan nu definieras av det värde som angetts för förfalloparametern i **Transactional Messages API**. (CAMP-36600)
 
 * I den inbyggda **leveranssammanfattningen**-rapporten för dynamisk rapportering visades felaktiga data för avprenumerationsnivån. Ett nytt mått med namnet **Unik avprenumeration** har lagts till för att åtgärda detta. (CAMP-46445)
 
 **Felkorrigeringar**
 
+* Korrigerade ett problem som medförde att leveranserna kördes mycket långsamt på grund av vissa processer. Detta berodde på felaktiga enheter som definierats för flera parametrar (t.ex. millisekunder i stället för sekunder).
+* Korrigerade ett problem i arbetsflöden som kunde uppstå när en **borttagning av dubbletter**-aktivitet kopierades och klistrades in. Aktiviteten hade körts en gång och den använde en tillfällig resurs. När aktiviteten har duplicerats ställdes resursen automatiskt in på tom, vilket ledde till problem i andra aktiviteter i arbetsflödet. När aktiviteten har klistrats in förblir den nu samma resurs, så att felet kan utlösas så snart som möjligt i stället för senare i arbetsflödet. (CAMP-46903)
+* Ett problem har korrigerats när Mobile SDK skickade en öppen spårningsbegäran baserat på villkoret att deliveryID/MessageID inte är null. Detta skulle resultera i 404 fel för leveranser där spårning är inaktiverat. En ytterligare variabel (acsDeliveryTracking) med information om leveransens spårningsstatus skickas nu i nyttolasten. Den här variabeln kan ha två värden på eller av beroende på spårningsstatus.
 * Ett problem som gjorde att leveransrapporter inte kunde köras när 5 000 rader visades har åtgärdats.
 * Ett problem med A/B-tester som förhindrade att innehåll av variant B uppdaterades efter att leveransmallen hade ändrats har åtgärdats. (CAMP-45235)
 * Korrigerade ett problem som fick Transactional Messaging-processen att fastna och hindrade meddelanden från att skickas.
+* Korrigerade ett problem som gjorde att leveransanalysen misslyckades när ett transaktionspush-meddelande skickades med profilmåldimensionen. En ny leveransmappning (mapRtEventAppSubRcp) är nu tillgänglig för transaktionspush-meddelanden som riktar in sig på profiler. Loggfilerna gällande leverans, uteslutning och spårning för de här leveranserna är nu tillgängliga i tabellerna broadLogAppSubRcp, excludeLogAppSubRcp och trackingLogAppSubRcp.
 * Korrigerade ett problem som kan leda till navigeringsproblem efter att du klickat på en intern länk (t.ex. vid åtkomst av den överordnade leveransen från en korrektursammanfattningsskärm).
 * Ett problem som gjorde att alla tillgängliga mallar för Experience Manager-innehåll inte kunde visas när en leverans skapades har åtgärdats. (CAMP-45990)
 * Korrigerade ett problem i arbetsflöden som kunde förhindra att felmeddelanden visas i leveransloggarna efter att kolumnen **Orsak** lagts till på fliken Ytterligare data. (CAMP-45139)
