@@ -9,9 +9,9 @@ topic-tags: campaign-standard-releases
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 26b401e18629f794ab3c1a836a28369d2f8f9605
+source-git-commit: 1bf35c654b9c526330a70f7647ec7d9fd87e2335
 workflow-type: tm+mt
-source-wordcount: '2599'
+source-wordcount: '2586'
 ht-degree: 3%
 
 ---
@@ -102,7 +102,8 @@ Den här sidan beskriver nya funktioner, förbättringar och korrigeringar som i
 
 * En ny **GetOption**-funktion är nu tillgänglig i aktiviteter som använder händelsevariabler efter anrop av ett arbetsflöde med externa parametrar. Det gör att du kan returnera värdet för en angiven funktion.
 
-* Med ett nytt alternativ kan Campaign Standarden **kontrollera det fysiska minnet** på datorn innan ett arbetsflöde startas. Om minnet är för lågt kommer arbetsflödets körning att fördröjas tills systemminnet når detta tröskelvärde. På så sätt undviks ytterligare prestandaförsämring och risken för driftavbrott minimeras. Arbetsflödet återupptas automatiskt när serverbelastningen är avspänd.  Om arbetsflödets körning är fördröjd kan du försöka schemalägga om arbetsflödet till en tid med mindre aktivitet och försöka igen. Observera att det här alternativet är skrivskyddat och inte kan ändras.
+* Med ett nytt alternativ kan Campaign Standarden **kontrollera det fysiska minnet** på datorn innan ett arbetsflöde startas. Om minnet är för lågt kommer arbetsflödets körning att fördröjas tills systemminnet når detta tröskelvärde. På så sätt undviks ytterligare prestandaförsämring och risken för driftavbrott minimeras. Arbetsflödet återupptas automatiskt när belastningen på servern går ned och minnet ökar. Observera att det här alternativet är skrivskyddat och inte kan ändras.
+
 
 **Andra ändringar**
 
