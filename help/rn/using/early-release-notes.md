@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: campaign-standard-releases
 hide: true
 translation-type: tm+mt
-source-git-commit: d2c35a1d5a7739fbb3b0db779cdc204809facf36
+source-git-commit: 16e353005e58ee2a997c05bdfe0f951e36a6ab06
 workflow-type: tm+mt
 source-wordcount: '2618'
 ht-degree: 4%
@@ -16,7 +16,7 @@ ht-degree: 4%
 ---
 
 
-# Senaste versionen{#latest-release}
+# Ny version {#new-release}
 
 [Viktig planering](../../rn/using/release-planning.md)  |  [Kontrollpanelsversioner](https://docs.adobe.com/content/help/sv-SE/control-panel/using/release-notes.html)  |  [Dokumentationsuppdateringar](../../rn/using/documentation-updates.md)  |  [Senaste versionsinformation](../../rn/using/release-notes.md) |  [Föråldrade funktioner](../../rn/using/deprecated-features.md)
 
