@@ -7,9 +7,9 @@ user-guide-description: 'Hjälpcenter för de viktigaste funktionerna, åtgärde
 breadcrumb-title: Campaign Standard
 title: Guide för Campaign Standard
 translation-type: tm+mt
-source-git-commit: 16f937fc34783f22a0c118bb5e2e3f39abb85615
+source-git-commit: 77fe514d4862fafcc6201d0cec9045469bb2643d
 workflow-type: tm+mt
-source-wordcount: '1728'
+source-wordcount: '1731'
 ht-degree: 97%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 97%
 + [Senaste uppdateringar](rn/using/documentation-updates.md)
 + Versionsinformation {#release-notes}
    + [Senaste versionen](rn/using/release-notes.md)
+   + [Tidig versionsinformation](rn/using/early-release-notes.md)
    + Tidigare versioner {#previous-releases}
       + [Versionsinformation 2020](rn/using/release-notes-2020.md)
       + [Versionsinformation 2019](rn/using/release-notes-2019.md)
