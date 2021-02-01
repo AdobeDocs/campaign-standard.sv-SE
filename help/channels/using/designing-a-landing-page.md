@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: e34d3f032cd49585f86178264e7779b3c92993ae
 workflow-type: tm+mt
 source-wordcount: '1662'
 ht-degree: 100%
@@ -106,7 +106,7 @@ Innehållsredigeraren är indelad i tre olika avsnitt. I de här avsnitten kan d
 
 ![](assets/delivery_content_17.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Du kan formatera HTML-innehållet med vissa verktygsfältsfunktioner. Om sidan innehåller en CSS-formatmall kan **instruktionerna** från formatmallen emellertid ha **högre prioritet** än instruktionerna som har angetts via verktygsfältet.
 
