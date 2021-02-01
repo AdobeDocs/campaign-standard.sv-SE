@@ -7,10 +7,10 @@ audience: designing
 content-type: reference
 topic-tags: about-content-design
 translation-type: tm+mt
-source-git-commit: 15a4484ba846b1e08e5fa456a5448e76d60949c5
+source-git-commit: 300ffd374d7542817ffb7f37614e67804549cc3d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1250'
+ht-degree: 89%
 
 ---
 
@@ -118,7 +118,9 @@ Vi rekommenderar att du tillämpar följande principer för att kunna använda e
 
    förhandsgranska dina meddelanden innan du skickar dem. Adobe Campaign erbjuder ett sätt att testa e-poståtergivning med Litmus. Se [E-poståtergivning](../../sending/using/email-rendering.md) för mer information.
 
-Mer information om design och allmänna bästa metoder för meddelanden finns i följande avsnitt: [Bästa praxis för leverans](../../sending/using/delivery-best-practices.md).
+* Referensmeta-taggen stöds inte i e-postdesignern.
+
+Mer information om design och bästa praxis angående meddelanden finns i följande steg-för-steg-guide om Adobe Campaign: [följ bästa praxis med Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
 
 ### Uppdaterar fragment {#email-designer-updates}
 
