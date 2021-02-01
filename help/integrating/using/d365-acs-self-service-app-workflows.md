@@ -5,7 +5,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: 6be7a20cde8fcaee73972b8919765ea631f2f1ee
+source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -19,7 +19,7 @@ På sidan **[!UICONTROL Workflows]** visas de tekniska arbetsflödena och deras 
 
 Integreringsprogrammet har tre arbetsflöden:
 
-![](assets/d365-to-acs-ui-page-workflows.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows.png)
 
 **Microsoft Dynamics 365 till Campaign**
 * Skicka *kontakter* från Microsoft Dynamics 365 till Adobe Campaign
@@ -71,4 +71,4 @@ När du redigerar ett arbetsflöde inkluderas dina uppdateringar INTE direkt i d
 
 En varningsindikation har lagts till i knappen **Stoppa** för att du ska få veta när (a) har uppdaterat arbetsflödet, men (b) inte har utfört stopp/start för det här arbetsflödet.
 
-![](assets/d365-to-acs-icon-stop-with-changes.png)
+![](assets/do-not-localize/d365-to-acs-icon-stop-with-changes.png)
