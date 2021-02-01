@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: e34d3f032cd49585f86178264e7779b3c92993ae
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1027'
+ht-degree: 97%
 
 ---
 
@@ -40,7 +40,7 @@ I avsnittet nedan listas de begränsningar som du bör känna till innan du bör
 * Landningssidor är begränsade till endast **[!UICONTROL Profile]** och **[!UICONTROL Subscription]**-resurser.  Posten kan sparas och uppdateras från **[!UICONTROL Profile]** och en prenumeration/avprenumeration till en **[!UICONTROL Service]**.
 Mer information om resurskonfigurationen hittar du i [Konfigurera resursens datastruktur](../../developing/using/configuring-the-resource-s-data-structure.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >En landningssida kan inte visa eller uppdatera data från någon annan resurs än **[!UICONTROL Profile]** och **[!UICONTROL Subscription]**.
 
@@ -113,7 +113,7 @@ När landningssidan har definierats kan du simulera hur den kommer att köras oc
 
 ![](assets/lp-steps5.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Testerna på landningssidan kan endast utföras med profiler och inte med testprofiler.    När formuläret skickas så uppdateras den valda profilens data på riktigt.  Undvik att ändra riktiga profiler genom att använda en falsk kundprofil.
 
