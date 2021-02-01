@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: e34d3f032cd49585f86178264e7779b3c92993ae
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '337'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Definitionsskärmen är specifik för **[!UICONTROL Content]** direktutskick.  D
 
 1. Klicka på knappen **[!UICONTROL +]** eller **[!UICONTROL Add an element]** för att lägga till en utdatakolumn.  Med **[!UICONTROL Output columns]** kan du definiera den profilinformation (kolumner) som ska exporteras till utdatafilen.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Se till att dina profiler innehåller en postadress eftersom den här informationen är viktig för leverantören av direktmeddelanden.  Se även till att du har markerat rutan **[!UICONTROL Address specified]** i profilinformationen.  Se [Rekommendationer](../../channels/using/about-direct-mail.md#recommendations).
 
