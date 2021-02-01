@@ -7,10 +7,10 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: 4a039670745810de40fe3622d21d7830d6e33d2c
+source-git-commit: c981bd524400e49929d9557aab730ce1ec615551
 workflow-type: tm+mt
-source-wordcount: '1244'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -47,7 +47,7 @@ Startsidan består av en uppsättning kort som ger dig snabb åtkomst till huvud
 
 ## Övre fält {#top-bar}
 
-Det övre fältet är synligt på alla skärmar och du kan navigera bland Adobe Campaign-funktioner samt komma åt den anslutna Adobe-profilen, meddelanden, Adobe Experience Cloud-tjänster och -lösningar samt dokumentationen.
+Det övre fältet är synligt på alla skärmar och gör att du kan navigera bland Adobe Campaign-funktioner och komma åt den anslutna Adobe-profilen, meddelanden, Adobe Experience Cloud-lösningar och Campaign-dokumentationen.
 
 Navigeringsprinciperna är:
 
@@ -58,24 +58,27 @@ Navigeringsprinciperna är:
 * Använd länken **[!UICONTROL Home]** för att visa startsidan för Adobe Campaign.
 * Med länkarna **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** och **[!UICONTROL Reports]** kan du komma åt de vyer som är kopplade till dessa funktioner.
 * Med ikonen **Solution Switcher** kan du växla mellan olika organisationer eller till ett annat program.
-* Knappen **[!UICONTROL Help]** ger åtkomst till Adobe Campaign Standard-dokumentation, videofilmer, versionsinformation och versionsplanering samt länkar till Adobe Experience Cloud community och kundtjänst.
-* Organisationsknappen
+* Ikonen **[!UICONTROL Help]** beskrivs [nedan](#help).
 * Ikonen **Meddelanden** visar de senaste varningarna eller informationen.
-* Med ikonen **Användare** kan du visa information som är kopplad till din profil. Den ger åtkomst till knappen **[!UICONTROL Sign out]** och skärmen **[!UICONTROL About]**.
+* Med ikonen **Användare** kan du visa information som är kopplad till din profil. Använd den här ikonen om du behöver **[!UICONTROL Sign out]**.
 
 ### Hjälp {#help}
 
-* **[!UICONTROL Search]** för in Adobe Experience League i produkten: sökresultaten innehåller dokumentation och hjälpartiklar, resultat från communityforum och mer videoinnehåll, vilket gör det enklare att komma åt mer innehåll för att få ut så mycket som möjligt av programmet.
-* **[!UICONTROL Help]** tab
-   * Länkarna ger snabb åtkomst till Adobe Campaign Standard dokumentation, videoklipp och versionsinformation.
-   * **[!UICONTROL Learning]** Med den här länken kan du komma åt Adobe Campaign innehållsbibliotek.
-   * **[!UICONTROL Community]** Med den här länken kan du komma åt forumet som är dedikerat till dina frågor om ACS.
+I det övre högra hörnet visas ikonen **Help** för in Adobe Experience League i produkten.
 
-* **[!UICONTROL Support]** kan du öppna ett supportärende och kontakta oss via telefon eller Twitter.
+![](assets/ux_help.png)
 
-* **[!UICONTROL Feedback]**  gör det enklare att rapportera problem eller utbyta idéer.
+Använd fältet **[!UICONTROL Search]** för att hitta vägledning. Sökresultaten innehåller dokumentation och hjälpartiklar, resultat från communityforum och videoinnehåll, som ger dig enklare åtkomst till mer innehåll och hjälper dig att få ut så mycket som möjligt av programmet.
 
-   ![](assets/ux_help.png)
+Tre flikar hjälper dig att hitta hjälp och hjälp:
+
+1. Fliken **[!UICONTROL Help]** innehåller:
+   * snabb åtkomst till Adobe Campaign Standard-dokumentation med sammanhangsbaserade länkar.
+   * en **[!UICONTROL Learning]**-länk som gör att du kan komma åt Adobe Campaign kursbibliotek.
+   * en **[!UICONTROL Community]**-länk för att komma åt det forum som är dedikerat till dina frågor i Campaign.
+   * direkt åtkomst till Help Center, Customer Care, Experience Cloud produktstatus, Developer Connection, Release Notes, Release Planning och skärmen **[!UICONTROL About]**.
+1. På fliken **[!UICONTROL Support]** kan du öppna ett supportärende och kontakta oss via telefon eller Twitter.
+1. Fliken **[!UICONTROL Feedback]** gör det enklare att rapportera problem eller dela med dig av dina idéer.
 
 ## Avancerad meny {#advanced-menu}
 
