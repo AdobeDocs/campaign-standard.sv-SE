@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 translation-type: tm+mt
-source-git-commit: 46bcdeec3731a7da12997cb195195fecfa2f84e5
+source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
 workflow-type: tm+mt
-source-wordcount: '1299'
-ht-degree: 80%
+source-wordcount: '1256'
+ht-degree: 69%
 
 ---
 
@@ -76,20 +76,23 @@ Möjliga orsaker till leveransfel är:
 
 Om ett meddelande misslyckas på grund av ett tillfälligt fel av typen **Ignorerad**, kommer nya försök att utföras under leveransens varaktighet. Mer information om olika typer av fel finns i [Leveransfeltyper och orsaker](#delivery-failure-types-and-reasons).
 
-Antalet återförsök (hur många återförsök som ska utföras dagen efter att sändningen har startats) och den minsta fördröjningen mellan återförsök hanteras nu av Adobe Campaign Enhanced MTA, baserat på hur bra ett IP-värde fungerar både historiskt och för närvarande på en viss domän. Inställningarna för **Återförsök** i Campaign ignoreras.
-Observera att Adobe Campaign Enhanced MTA inte är tillgängligt för Push-kanalen.
+Antalet återförsök (hur många försök som ska utföras dagen efter att sändningen har startats) och den minsta fördröjningen mellan återförsök är nu <!--managed by the Adobe Campaign Enhanced MTA,--> baserat på hur bra en IP fungerar både historiskt och för närvarande på en viss domän. Inställningarna för **Återförsök** i Campaign ignoreras.
+
+<!--Please note that Adobe Campaign Enhanced MTA is not available for the Push channel.-->
 
 Om du vill ändra varaktigheten för en leverans går du till de avancerade parametrarna för leveransen eller leveransmallen och redigerar fältet **[!UICONTROL Delivery duration]** i avsnittet [Giltighetsperiod](../../administration/using/configuring-email-channel.md#validity-period-parameters).
 
 >[!IMPORTANT]
 >
->**Parametern **[!UICONTROL Delivery duration]**i dina Campaign-leveranser används nu bara om den är inställd på 3,5 dagar eller mindre.** Om du definierar ett värde som är högre än 3,5 dagar beaktas det inte eftersom det nu hanteras av Adobe Campaign Enhanced MTA.
+>**Parametern **[!UICONTROL Delivery duration]**i dina Campaign-leveranser används nu bara om den är inställd på 3,5 dagar eller mindre.** Om du anger ett värde som är högre än 3,5 dagar kommer det inte att tas med i beräkningen.
 
-Om du till exempel vill att återförsök för en leverans ska stoppas efter en dag kan du ange leveranstiden till **1d**, och Enhanced MTA-inställningen kommer att följa den inställningen genom att meddelanden i återförsökskön tas bort efter en dag.
+Om du till exempel vill att återförsök för en leverans ska stoppas efter en dag kan du ange leveranstiden till **1d**, och meddelandena i kön för återförsök kommer att tas bort efter en dag.
+
+<!--For example, if you want retries for a delivery to stop after one day, you can set the delivery duration to **1d**, and the Enhanced MTA will honor that setting by removing messages in the retry queue after one day.-->
 
 >[!NOTE]
 >
->När ett meddelande har varit i Enhanced MTA-kön i 3,5 dagar och inte kunnat levereras, kommer det att löpa ut och status uppdateras från **[!UICONTROL Sent]** till **[!UICONTROL Failed]** i [leveransloggarna](../../sending/using/monitoring-a-delivery.md#delivery-logs).
+>När ett meddelande har varit i återförsökskön i högst 3,5 dagar och inte kunnat levereras, kommer det att gå ut och dess status kommer att uppdateras<!--from **[!UICONTROL Sent]**--> till **[!UICONTROL Failed]** i [leveransloggarna](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
 <!--The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
 
@@ -102,13 +105,13 @@ En leverans kan misslyckas omedelbart (synkront fel), eller senare, efter att de
 
 ## Kvalifikation av studsmeddelanden {#bounce-mail-qualification}
 
-För synkrona felmeddelanden vid leveransfel fastställer Enhanced MTA studstyp och kvalificering, och skickar sedan tillbaka informationen till Campaign.
-
-Asynkrona studsningar är fortfarande kvalificerade inMail-processen enligt **[!UICONTROL Inbound email]**-reglerna. Du kommer åt reglerna genom att klicka på **[!UICONTROL Adobe Campaign]**-logotypen längst upp till vänster och sedan markera **[!UICONTROL Administration > Channels > Email > Email processing rules]** och **[!UICONTROL Bounce mails]**. Mer information om denna regel finns i [det här avsnittet](../../administration/using/configuring-email-channel.md#email-processing-rules).
+För synkrona felmeddelanden vid leveransfel avgör Adobe Campaign Enhanced MTA (Message Transfer Agent) studstyp och kvalificering och skickar tillbaka informationen till Campaign.
 
 >[!NOTE]
 >
->Kvalifikation av studsmeddelanden hanteras nu av Adobe Campaign Enhanced MTA. Studskvalifikationer i Campaign **[!UICONTROL Message qualification]**-tabellen används inte längre.
+>Studskvalifikationer i Campaign **[!UICONTROL Message qualification]**-tabellen används inte längre.
+
+Asynkrona studsningar är fortfarande kvalificerade inMail-processen enligt **[!UICONTROL Inbound email]**-reglerna. Du kommer åt reglerna genom att klicka på **[!UICONTROL Adobe Campaign]**-logotypen längst upp till vänster och sedan markera **[!UICONTROL Administration > Channels > Email > Email processing rules]** och **[!UICONTROL Bounce mails]**. Mer information om denna regel finns i [det här avsnittet](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
 <!--Bounces can have the following qualification statuses:
 
@@ -120,7 +123,7 @@ To list the various bounces and their associated error types et reasons, click t
 
 ![](assets/qualification.png)-->
 
-## Optimera e-postlevererbarhet med en mekanism för dubbel anmälan {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
+## Optimera e-postleveransen med dubbel anmälningsmekanism {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
 
 Mekanismen för dubbel anmälan är bäst när du skickar e-post. Den skyddar plattformen från fel eller ogiltiga e-postadresser, skräppost och förhindrar eventuella klagomål om skräppost.
 
