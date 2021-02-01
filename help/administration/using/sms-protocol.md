@@ -356,7 +356,7 @@ Den största tillåtna storleken för ett meddelande beror på dess kodning. I t
 | Kodning | Vanlig data_coding | Meddelandestorlek (tecken) | Delstorlek för multipart-SMS | Tillgängliga tecken |
 |:-:|:-:|:-:|:-:|:-:|
 | GSM7 | 0 | 160 | 152 | Grundläggande GSM7-teckenuppsättning + tillägg (utökade tecken tar 2 tecken) |
-| Latin-1 | 1 | 140 | 134 | ISO-8859-1 |
+| Latin-1 | 3 | 140 | 134 | ISO-8859-1 |
 | UCS-2 <br>UTF-16 | 8 | 70 | 67 | Unicode (varierar från telefon till telefon) |
 
 ## SMPP:s externa kontoparametrar {#SMPP-parameters-external}
