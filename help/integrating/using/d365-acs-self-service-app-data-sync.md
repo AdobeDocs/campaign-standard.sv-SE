@@ -6,7 +6,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: 6be7a20cde8fcaee73972b8919765ea631f2f1ee
+source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
 workflow-type: tm+mt
 source-wordcount: '1795'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Du kan synkronisera tabeller från Microsoft Dynamics 365 till marknadsföringss
 
 På sidan **[!UICONTROL Microsoft Dynamics 365 to Campaign]** visas en lista över enheter i Microsoft Dynamics 365 och de anpassade resurserna i Adobe Campaign som de ska synkroniseras med. Du kan lägga till nya mappningar, redigera eller ta bort befintliga mappningar.
 
-![](assets/d365-to-acs-ui-page-ingress-top.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top.png)
 
 Här följer en beskrivning av varje kolumn i tabellen:
 
@@ -67,7 +67,7 @@ Så här skapar du en ny mappning:
 1. Använd listrutorna för att välja Microsoft Dynamics 365- och Campaign-tabeller att mappa.
 De flesta andra indata på sidan beror på vilka tabeller du väljer.
 
-   ![](assets/d365-to-acs-ui-page-ingress-choose-tables.png)
+   ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-choose-tables.png)
 
    >[!NOTE]
    >Du kan inte mappa varje tabell mer än en gång. Därför kommer du att märka att listrutorna inte kommer att innehålla tabeller som redan har mappats.
@@ -84,7 +84,7 @@ Du kan sedan fortsätta med mappningskonfigurationen. [Läs mer](#new-mapping-se
 
 Om du redigerar en befintlig mappning ser du att tabellmarkeringarna inte kan redigeras.
 
-![](assets/d365-to-acs-ui-page-ingress-table-read-only.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-table-read-only.png)
 
 Detta är som design eftersom indata längre ned på sidan baseras på fälten som är kopplade till dessa tabeller. Om du ändrar tabellerna blir alla fält som är kopplade till tabellerna ogiltiga.  Om du vill ändra tabellen som du vill mappa till måste du gå tillbaka till föregående sida, ta bort mappningen som du vill ändra och lägga till en ny mappning.
 
@@ -106,7 +106,7 @@ Du kan definiera följande inställningar:
 
 När du lägger till en ny Microsoft Dynamics 365 i mappningen av Campaign-registret måste du identifiera ID-fältet.
 
-![](assets/d365-to-acs-ui-page-ingress-mappings-first-key.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-mappings-first-key.png)
 
 Primärnyckeln för Microsoft Dynamics 365 är skrivskyddad eftersom programmet identifierar den.
 
@@ -118,7 +118,7 @@ För Campaign måste du välja vilket fält som ska vara den unika nyckeln. Den 
 
 Primära nycklar är alltid de första fältnamnen som visas i avsnittet **[!UICONTROL Field Mappings]**. Som en påminnelse visas följande ikon till höger för att påminna dig om att det här är primärnycklarna.
 
-![](assets/d365-to-acs-icon-primary-key.png)
+![](assets/do-not-localize/d365-to-acs-icon-primary-key.png)
 
 #### Lägg till andra fältkopplingar
 
@@ -126,14 +126,14 @@ I avsnittet **[!UICONTROL Field Mappings]** kan du lägga till andra fältkoppli
 
 Markera Microsoft Dynamics 365- och Campaign-fälten i listorna:
 
-![](assets/d365-to-acs-ui-page-ingress-new-field-mapping.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-new-field-mapping.png)
 
 De här listorna innehåller de fältnamn som är associerade med de tabeller för Microsoft Dynamics 365 och Campaign som du har valt överst på sidan.
 
 Med **[!UICONTROL Apply updates]**-väljaren kan du styra om uppdateringar av det här fältet ska spridas från Microsoft Dynamics 365 till Campaign:
-* Om den är aktiverad ![](assets/d365-to-acs-icon-switch-on.png) kommer uppdateringar av värdena i Microsoft Dynamics 365 att spridas till Adobe Campaign allt eftersom uppdateringarna utförs.
+* Om den är aktiverad ![](assets/do-not-localize/d365-to-acs-icon-switch-on.png) kommer uppdateringar av värdena i Microsoft Dynamics 365 att spridas till Adobe Campaign allt eftersom uppdateringarna utförs.
 
-* Om du avaktiverade ![](assets/d365-to-acs-icon-switch-off.png) kommer värdet att spridas när data först läses in (eller spelas upp), men inkrementella uppdateringar av fältet i Microsoft Dynamics 365 kommer inte att spridas.
+* Om du avaktiverade ![](assets/do-not-localize/d365-to-acs-icon-switch-off.png) kommer värdet att spridas när data först läses in (eller spelas upp), men inkrementella uppdateringar av fältet i Microsoft Dynamics 365 kommer inte att spridas.
 
 >[!NOTE]
 >
@@ -142,7 +142,7 @@ Med **[!UICONTROL Apply updates]**-väljaren kan du styra om uppdateringar av de
 
 När du väljer fältvärden visas datatypen nedanför de nedrullningsbara menyerna.   Detta är något att tänka på när du mappar värden från ett fält till ett annat.
 
-![](assets/d365-to-acs-ui-page-ingress-mappings-fields-selected.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-mappings-fields-selected.png)
 
 >[!NOTE]
 >
@@ -194,7 +194,7 @@ På sidan **[!UICONTROL Campaign to Microsoft Dynamics 365]** kan du identifiera
 
 De fyra mätvärden du kan kontrollera är: **Skickar**, **Klicka**, **Öppnar** och **studsar**.
 
-![](assets/d365-to-acs-ui-page-workflows-egress.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-egress.png)
 
 Välj **Ja** för att bekräfta att du inte vill att händelser av den typen ska flöda till Microsoft Dynamics 365.
 
@@ -208,7 +208,7 @@ Läs mer om hantering av avanmälan i [det här avsnittet](../../integrating/usi
 
 Kom ihåg att du måste klicka på Spara för att spara dina val. Kom även ihåg att du måste stoppa arbetsflödet för **Campaign to Microsoft Dynamics 365** och sedan klicka på play för att integrera ändringarna.
 
-![](assets/d365-to-acs-ui-page-workflows-optinout-disabled.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-optinout-disabled.png)
 
 ### Välj synkroniseringsriktning för in/ut
 
