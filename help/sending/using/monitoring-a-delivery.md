@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: monitoring-messages
 context-tags: delivery,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '461'
+ht-degree: 89%
 
 ---
 
@@ -19,7 +19,8 @@ ht-degree: 0%
 # Övervaka en leverans{#monitoring-a-delivery}
 
 Det finns flera sätt att övervaka en leverans och mäta dess påverkan. Som funktionell administratör kan du komma åt meddelandeloggar och leveransloggar.
->[!CAUTION]
+
+>[!IMPORTANT]
 >
 >Endast funktionella [administratörer](../../administration/using/users-management.md#functional-administrators) med **[!UICONTROL Administration]**-roll och åtkomst till **Alla**-enheter har åtkomst till sändande loggar, meddelandeloggar, spårningsloggar, undantags- eller prenumerationsloggar. En icke-admin-användare kan ha loggarna som mål, men med början i en länkad tabell (profiler, leverans).
 
