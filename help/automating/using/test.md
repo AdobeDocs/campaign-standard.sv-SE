@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: jstest,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 4f62d2381403d7d88167334cee54071a19a7c3a8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '190'
+ht-degree: 82%
 
 ---
 
@@ -47,7 +47,9 @@ Villkoren kan baseras på **funktioner** eller på **variabler** som exempelvis 
 
    När du redigerar **[!UICONTROL Condition]**-fältet så kan du använda två knappar för att anropa händelsevariabler och redigera uttryck som kombinerar variabler och funktioner:
 
-   * ![](assets/extsignal_picker.png): välj händelsvariabeln bland alla variabler som är tillgängliga i arbetsflödet (se  [den här sidan](../../automating/using/customizing-workflow-external-parameters.md))
+   * ![](assets/extsignal_picker.png): välj händelsemariabeln bland alla variabler som är tillgängliga i arbetsflödet (se  [den här sidan](../../automating/using/customizing-workflow-external-parameters.md)).
+
+      Du kan till exempel kontrollera antalet hämtade filer efter en [filöverföring](../../automating/using/transfer-file.md)-aktivitet med hjälp av variabeln **[!UICONTROL filesCount]**.
 
       ![](assets/wkf_test_activity_variables.png)
 
