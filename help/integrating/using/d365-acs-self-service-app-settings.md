@@ -5,7 +5,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: 6be7a20cde8fcaee73972b8919765ea631f2f1ee
+source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 2%
@@ -23,7 +23,7 @@ Skärmen **[!UICONTROL Settings]** gör att du kan ange autentiseringsuppgifter 
 
 Microsoft Dynamics 365-autentiseringsuppgifterna ger integrationsprogrammet behörighet att hämta data från Microsoft Dynamics 365.  Du måste först följa stegen på skärmen [Konfigurera Microsoft Dynamics 365 för Campaign-integrering](../../integrating/using/d365-acs-configure-d365.md) för att kunna generera de värden som ska klistras in på skärmen. Indata som beskrivs nedan kommer att hänvisa till den här skärmen.
 
-![](assets/d365-to-acs-ui-page-workflows-settings-d365.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-d365.png)
 
 * **[!UICONTROL Client ID]**: Lär dig hur du refererar till ditt klient-ID i  [det här avsnittet](../../integrating/using/d365-acs-configure-d365.md#register-a-new-app)
 
@@ -39,7 +39,7 @@ Adobe Campaign-autentiseringsuppgifterna genereras med [Adobe I/O](https://www.a
 
 I följande bild förklaras i detalj mappningen mellan Adobe I/O och inställningarna på skärmen.
 
-![](assets/d365-to-acs-ui-page-workflows-settings-adobeio.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-adobeio.png)
 
 * *Privat nyckel*: processen att definiera detta börjar med att klicka på knappen&quot;Generera offentlig/privat nyckelpar&quot;. Då skapas en zip-fil som du måste hämta. När du har laddat ned den packar du upp filen vilket resulterar i två filer med namnen certificate_pub.crt och private.key. Var noga med att placera private.key på en säker plats och dela den inte. Öppna filen private.key i en textredigerare. Kopiera hela värdet i textredigeraren (ctrl-A, sedan ctrl-C på en dator eller cmd-A och sedan cmd-C på en Mac). Detta ska inkludera raderna med&quot;BEGIN PRIVATE KEY&quot; och&quot;END PRIVATE KEY&quot; i sin helhet. Klistra in hela den här flerradiga texten i indata för &quot;Privat nyckel&quot; på inställningsskärmen.
 
@@ -58,7 +58,7 @@ Den andra anledningen att konfigurera SFTP-servern är om du planerar att köra 
 
 Du kan definiera inställningar för Campaign SFTP för Microsoft Dynamics 365-integreringen i följande avsnitt:
 
-![](assets/d365-to-acs-ui-page-workflows-settings-sftp.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-sftp.png)
 
 Du måste ange:
 
