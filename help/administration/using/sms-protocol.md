@@ -1,21 +1,21 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Protokoll och inställningar för SMS-anslutning
+title: Protokoll och inställningar för SMS-koppling
 description: Läs mer om SMS-anslutningen och hur du konfigurerar den.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 458517259c6668e08a25f8c3cd3f193f27e536fb
+source-git-commit: 4b87ebc2585b87f918bbd688c5858394d8d4a742
 workflow-type: tm+mt
-source-wordcount: '8382'
+source-wordcount: '8666'
 ht-degree: 0%
 
 ---
 
 
-# SMS-anslutningsprotokoll och inställningar {#sms-connector-protocol}
+# Protokoll och inställningar för SMS-koppling {#sms-connector-protocol}
 
 >[!NOTE]
 >
@@ -356,7 +356,7 @@ Den största tillåtna storleken för ett meddelande beror på dess kodning. I t
 | Kodning | Vanlig data_coding | Meddelandestorlek (tecken) | Delstorlek för multipart-SMS | Tillgängliga tecken |
 |:-:|:-:|:-:|:-:|:-:|
 | GSM7 | 0 | 160 | 152 | Grundläggande GSM7-teckenuppsättning + tillägg (utökade tecken tar 2 tecken) |
-| Latin-1 | 3 | 140 | 134 | ISO-8859-1 |
+| Latin-1 | 1 | 140 | 134 | ISO-8859-1 |
 | UCS-2 <br>UTF-16 | 8 | 70 | 67 | Unicode (varierar från telefon till telefon) |
 
 ## SMPP:s externa kontoparametrar {#SMPP-parameters-external}
@@ -521,7 +521,7 @@ Om du vill veta vilken total dataflödesgräns du har multiplicerar du talet med
 
 0 betyder ingen gräns, MTA skickar MT så snabbt som möjligt.
 
-Det rekommenderas i allmänhet att denna inställning hålls under 1000, eftersom det är omöjligt att garantera en exakt dataström över detta antal om inte den slutliga arkitekturen är korrekt refererad och särskilt begärd SMPP-leverantör. Det kan vara bättre att öka antalet anslutningar så att de överstiger 1000 MT/s.
+Det rekommenderas i allmänhet att denna inställning hålls under 1000, eftersom det är omöjligt att garantera exakt dataflöde över detta värde om inte korrekt riktmärkning av den slutliga arkitekturen har gjorts. Om du behöver ett dataflöde över 1 000 kontaktar du din leverantör. Det kan vara bättre att öka antalet anslutningar så att de överstiger 1000 MT/s.
 
 #### Tid före återanslutning {#time-reconnection}
 
@@ -698,6 +698,10 @@ Tillåter att en anpassad TLV läggs till. Det här fältet anger taggdelen. Vä
 
 Med den här inställningen kan du bara lägga till ett TLV-alternativ per meddelande.
 
+>[!NOTE]
+>
+>Från och med version 21.1 är det nu möjligt att lägga till fler än en valfri parameter. Mer information om detta hittar du i det här [avsnittet](../../administration/using/sms-protocol.md#automatic-reply-tlv).
+
 ### Automatiskt svar skickat till MO{#automatic-reply}
 
 Med den här funktionen kan du snabbt svara på text till MO och hantera kortkod som skickas till blockeringslista.
@@ -715,6 +719,12 @@ Kolumnen **Ytterligare åtgärd** innehåller en extra åtgärd när både **Nyc
 >Inställningen Skicka fullständigt telefonnummer påverkar beteendet för karantänmekanismen för automatiska svar: Om du inte markerar alternativet för att skicka fullständigt telefonnummer kommer det telefonnummer som sätts i karantän att föregås av ett plustecken (&quot;+&quot;) så att det blir kompatibelt med det internationella telefonnummerformatet.
 
 Alla poster i tabellen bearbetas i den angivna ordningen tills en regel matchar. Om flera regler matchar en flerfunktionsregel tillämpas bara den översta regeln.
+
+### Valfria parametrar för automatiskt svar (TLV) {#automatic-reply-tlv}
+
+Från och med version 21.1 kan du lägga till valfria parametrar till MT för automatiskt svar. De läggs till som valfria TLV-parametrar till `SUBMIT_SM PDU` i svaret, enligt beskrivningen i avsnitt 5.3 i [SMPP-specifikationen](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)(sidan 131).
+
+Mer information om valfria parametrar finns i [avsnittet](../../administration/using/sms-protocol.md#smpp-optional-parameters).
 
 ## Mallparametrar för SMS-leverans {#sms-delivery-template-parameters}
 
@@ -754,7 +764,19 @@ Den här inställningen överförs i det valfria fältet `dest_addr_subunit` i `
 
 #### Giltighetsperiod {#validity-period}
 
-Giltighetsperioden överförs i fältet `validity_period` i `SUBMIT_SM PDU`. Datumet formateras alltid som ett absolut UTC-tidsformat, datumfältet avslutas med &quot;00+&quot;.
+Giltighetsperioden överförs i fältet `validity_period` i `SUBMIT_SM PDU`. Datumet formateras alltid som ett absolut UTC-tidsformat (datumfältet avslutas med &quot;00+&quot;).
+
+#### Tillvalsparametrar för SMPP (TLV) {#smpp-optional-parameters}
+
+Från och med version 21.1 kan du lägga till flera valfria parametrar till varje MT som skickas för den här leveransen. Dessa valfria parametrar läggs till i `SUBMIT_SM PDU` i svaret, enligt beskrivningen i avsnitt 5.3 i [SMPP-specifikationen](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)(sidan 131).
+
+Varje rad i tabellen representerar en valfri parameter:
+
+* **Parameter**: Beskrivning av parametern. Inte överförd till providern.
+* **Tagg-ID**: Tagg för den valfria parametern. Måste vara giltig hexadecimal med formatet 0x1234. Ogiltiga värden leder till ett leveransförberedelsefel.
+* **Värde**: Värdet för det valfria fältet. Kodas som UTF-8 när den skickas till providern. Det går inte att ändra kodningsformatet, det går inte att skicka binära värden eller använda andra kodningar som UTF-16 eller GSM7.
+
+Om en valfri parameter har samma **tagg-ID** som **Service Tag-ID** som definierats i det externa kontot gäller det värde som definieras i den här tabellen.
 
 ## SMPP-anslutning {#ACS-SMPP-connector}
 
@@ -799,7 +821,9 @@ Den här checklistan innehåller en lista med saker som du bör kontrollera inna
 
 Kontrollera att du inte har gamla SMS-externa konton. Om du lämnar testkontot inaktiverat riskerar du att det återaktiveras i produktionssystemet och skapar potentiella konflikter.
 
-Om du har flera konton på samma Adobe Campaign-instans som ansluter till samma leverantör, kontaktar du leverantören för att se till att de verkligen särskiljer anslutningar mellan dessa konton. Om du har flera konton med samma inloggning krävs extra konfiguration.
+Kontrollera att ingen annan instans ansluter till det här kontot. Kontrollera särskilt att scenmiljön inte ansluter till kontot. En del leverantörer stöder detta, men det kräver mycket specifik konfiguration både på Adobe Campaign-sidan och på leverantörens plattform.
+
+Om du behöver ha flera konton på samma Adobe Campaign-instans som ansluter till samma leverantör, kontaktar du leverantören för att se till att de verkligen särskiljer anslutningar mellan dessa konton. Om du har flera konton med samma inloggning krävs extra konfiguration.
 
 ### Aktivera utförliga SMPP-spår under kontroller {#enable-verbose}
 
