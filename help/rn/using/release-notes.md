@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 87b17e36af2e4bc15a93291e340843060ba18d7b
+source-git-commit: 41f2280c72a2f6bee3e4e972fab17a7ac94b966c
 workflow-type: tm+mt
 source-wordcount: '2610'
 ht-degree: 4%
@@ -97,7 +97,7 @@ ht-degree: 4%
 
 * En ny **GetOption**-funktion är nu tillgänglig i aktiviteter som använder händelsevariabler efter anrop av ett arbetsflöde med externa parametrar. Det gör att du kan returnera värdet för en angiven funktion. [Läs mer](../../automating/using/customizing-workflow-external-parameters.md)
 
-* Med ett nytt alternativ kan Campaign Standarden **kontrollera det fysiska minnet** på datorn innan ett arbetsflöde startas. Om minnet är för lågt kommer arbetsflödets körning att fördröjas tills systemminnet når detta tröskelvärde. På så sätt undviks ytterligare prestandaförsämring och risken för driftavbrott minimeras. Arbetsflödet återupptas automatiskt när belastningen på servern går ned och minnet ökar. Observera att det här alternativet är skrivskyddat och inte kan ändras. [Läs mer](../../automating/using/best-practices-workflows.md#execution)
+* Med ett nytt alternativ kan Campaign Standarden **kontrollera det fysiska minnet** tillgängligheten på datorn innan ett arbetsflöde startas. Om minnet är för lågt kommer arbetsflödets körning att fördröjas tills systemminnet når detta tröskelvärde. På så sätt undviks ytterligare prestandaförsämring och risken för driftavbrott minimeras. Arbetsflödet återupptas automatiskt när belastningen på servern går ned och minnet ökar. Observera att det här alternativet är skrivskyddat och inte kan ändras. [Läs mer](../../automating/using/best-practices-workflows.md#execution)
 
 * Det finns en ny process i Adobe Campaign Standard som gör att du enklare kan migrera från det äldre SDK v4-mobilprogrammet till **Adobe Experience Platform Mobile SDK**. Se [den här sidan](../../administration/using/sdkv4-migration.md).
 
