@@ -7,7 +7,7 @@ audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
 translation-type: tm+mt
-source-git-commit: 127964c5360344c83dc5ad6a0e2e8523d8995739
+source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 98%
@@ -29,7 +29,7 @@ Adobe Campaign Standard erbjuder två nya maskininlärningsmodeller: **Förutsä
 
 * **Förutsägande engagemangsbedömning**: förutsägande engagemangsbedömning förutser sannolikheten att en mottagare engagerar sig i ett meddelande samt sannolikheten att denne avanmäler sig inom sju dagar efter nästa e-postutskick. Sannolikheten delas in i ytterligare grupper beroende på den specifika risken för bortfall – medel eller låg. Under dessa omständigheter ger modellen även riskbedömningar i procentantal vilket innebär att kunderna kan förstå var en viss kunds rangordning är jämfört med andra.
 
->[!CAUTION]
+>[!IMPORTANT]
 >Den här funktionen är inte tillgänglig som en del av produkten. För implementering krävs att Adobe Consulting används. Kontakta din Adobe-representant för mer information.
 >
 >Funktionen kräver att en Azure- eller Amazon S3-lagring som kunden måste tillhandahålla används.
