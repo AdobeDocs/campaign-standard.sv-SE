@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 431ab4e83b9d0944cd7b990c3af0e38950dd0272
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 93%
+source-wordcount: '1120'
+ht-degree: 89%
 
 ---
 
@@ -49,6 +49,10 @@ Du kan duplicera arbetsflöden. Håll **[!UICONTROL Marketing Activities]** mark
 
 Som standard rekommenderar vi att du inte kör fler än 20 aktiva arbetsflöden samtidigt. När du har nått den gränsen köas arbetsflöden för att inte påverka prestandan. På samma sätt rekommenderar Adobe att du distribuerar arbetsflödeskörningen tidsmässigt.
 I vissa sammanhang kan du behöva köra fler än 20 arbetsflöden. Det gäller inte arbetsflöden som väntar på en schemalagd körning.  Om så är fallet måste du kontrollera användningsexemplen med en Campaign-expert och kontakta Adobes kundtjänst för att höja gränsen.
+
+>[!NOTE]
+>
+>Innan du startar ett arbetsflöde kontrollerar [!DNL Campaign Standard] om det finns tillräckligt med fysiskt systemminne för att köra arbetsflödet. Om det inte finns tillräckligt med minne visas ett meddelande om att arbetsflödets körning kommer att fördröjas tills inläsningen på servern går ned och systemminnet ökar.
 
 ### Frekvens
 
