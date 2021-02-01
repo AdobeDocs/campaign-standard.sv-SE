@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: sending-and-tracking-messages
 context-tags: delivery,deployment,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: b48e246ee515d2f250d866ed72d5765bf1ccb326
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '920'
+ht-degree: 20%
 
 ---
 
@@ -22,29 +22,33 @@ När du är klar med att förbereda meddelanden och stegen för godkännande har
 
 Endast användare med rollen **[!UICONTROL Start deliveries]** kan bekräfta sändning. Mer information om detta hittar du i [Lista över roller](../../administration/using/list-of-roles.md)-avsnittet.
 
-Användare utan den här rollen ser följande meddelande:
+<!--Users without this role will see the following message: 
 
-![](assets/confirm_delivery_2.png)
+![](assets/confirm_delivery_2.png)-->
 
-Klicka på knappen **[!UICONTROL Confirm send]** i meddelandets åtgärdsfält för att skicka leveransen.
+## Skicka meddelandet {#sending-message}
 
-![](assets/confirm_delivery.png)
+När du är klar följer du stegen nedan för att skicka meddelandet.
 
-Du ombeds att slutföra sändningen genom att klicka på knappen **[!UICONTROL OK]**.
+1. Klicka på knappen **[!UICONTROL Confirm send]** i meddelandets åtgärdsfält.
 
-![](assets/confirm_delivery1.png)
+   ![](assets/confirm_delivery.png)
 
-Meddelandet skickas.
+1. Slutför sändningen genom att klicka på knappen **[!UICONTROL OK]**.
+
+   ![](assets/confirm_delivery1.png)
+
+1. Vänta medan meddelandet skickas. Del **[!UICONTROL Deployment]** visar sändningens förlopp.
 
 >[!NOTE]
 >
 >Om meddelandet är schemalagt så skickas det när sändningstiden är nådd. Mer information om roller finns i [detta avsnittet](../../sending/using/about-scheduling-messages.md).
 
-Om du använder en återkommande leverans utan aggregeringsperiod så kan du kräva bekräftelse innan leveransen skickas. Detta gör du genom att öppna del **[!UICONTROL Schedule]** av panelen för leverans och sedan aktivera det dedikerade alternativet.
+Om du använder en återkommande leverans utan aggregeringsperiod så kan du kräva bekräftelse innan leveransen skickas. Om du vill göra det när du konfigurerar meddelandet öppnar du **[!UICONTROL Schedule]**-blocket på kontrollpanelen för leverans och aktiverar det dedikerade alternativet.
 
 ![](assets/confirmation_recurring_deliveries.png)
 
-Del **[!UICONTROL Deployment]** visar sändningens förlopp.
+## Om meddelandeindikatorer {#message-indicators}
 
 När meddelandet har skickats till kontakterna visar zon **[!UICONTROL Deployment]** din KPI-data (Key Performance Indicator). Detta inkluderar:
 
@@ -61,14 +65,87 @@ När meddelandet har skickats till kontakterna visar zon **[!UICONTROL Deploymen
 
 ![](assets/sending_delivery.png)
 
-Om KPI:erna tar för lång tid att uppdatera eller inte tar hänsyn till resultaten från sändningsloggarna klickar du på knappen **[!UICONTROL Compute stats]** i fönster **[!UICONTROL Deployment]**.
+Om KPI:erna tar för lång tid att uppdatera eller inte tar hänsyn till resultaten från de sändande loggarna klickar du på knappen **[!UICONTROL Compute stats]** i fönstret **[!UICONTROL Deployment]**.
 
 ![](assets/sending_delivery7.png)
 
-Meddelandet kan visas i historiken för en av de klientprofiler som ingår i målgruppen.  Se [Integrerad kundprofil](../../audiences/using/integrated-customer-profile.md).
+Meddelandet kan visas i historiken för en av målprofilerna. Se [Integrerad kundprofil](../../audiences/using/integrated-customer-profile.md).
 
-När ett meddelande har skickats kan du spåra mottagarnas beteende och övervaka det för att mäta dess inverkan.  Mer information om detta hittar du i dessa avsnitt.
+När ett meddelande har skickats kan du spåra mottagarnas beteende och övervaka det för att mäta dess påverkan. Mer information om detta hittar du i dessa avsnitt.
 
 * [Spåra meddelanden](../../sending/using/tracking-messages.md)
 * [Övervaka en leverans](../../sending/using/monitoring-a-delivery.md)
 
+### Rapport om lyckade leveranser {#delivered-status-report}
+
+>[!NOTE]
+>
+>Det här avsnittet gäller endast för e-postkanaler.
+
+I vyn **[!UICONTROL Summary]** för varje e-postmeddelande börjar procentandelen **[!UICONTROL Delivered]** att vara 100 % och går sedan successivt ned under leveransens [giltighetsperiod](../../administration/using/configuring-email-channel.md#validity-period-parameters), allt eftersom mjuka och hårda studsar rapporteras tillbaka<!--from the Enhanced MTA to Campaign-->.
+
+Alla meddelanden visas som **[!UICONTROL Sent]** i de [sändande loggarna](../../sending/using/monitoring-a-delivery.md#sending-logs) så snart de har vidarebefordrats från Campaign till den utökade MTA-filen (Message Transfer Agent). De har den statusen såvida inte eller tills ett [studs](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) för det meddelandet kommuniceras tillbaka från det förbättrade MTA till Campaign.
+
+När hårda studsmeddelanden rapporteras tillbaka från det förbättrade MTA:et ändras deras status från **[!UICONTROL Sent]** till **[!UICONTROL Failed]** och procentandelen **[!UICONTROL Delivered]** minskas därefter.
+
+När meddelanden med mjuk studsning rapporteras tillbaka från Förbättrat MTA visas de fortfarande som **[!UICONTROL Sent]** och procentandelen **[!UICONTROL Delivered]** har ännu inte uppdaterats. Mjuka studsmeddelanden skickas sedan [på nytt](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) under leveransens giltighetsperiod:
+
+* Om ett nytt försök lyckas innan giltighetsperioden är slut förblir meddelandestatusen **[!UICONTROL Sent]** och procentandelen **[!UICONTROL Delivered]** oförändrad.
+
+* I annat fall ändras statusen till **[!UICONTROL Failed]** och procentandelen **[!UICONTROL Delivered]** minskas därefter.
+
+<!--Soft-bouncing messages increment an error counter. When the error counter reaches the limit threshold or when the validity period is over, their status changes to **[!UICONTROL Failed]**.-->
+
+<!--For more on retries after a delivery temporary failure, see [this section](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).-->
+
+Du bör därför vänta tills giltighetsperiodens slut för att se det sista **[!UICONTROL Delivered]** procentvärdet och det slutliga antalet meddelanden som faktiskt är **[!UICONTROL Sent]** och **[!UICONTROL Failed]**.
+
+### Tjänsten för e-postfeedback (beta) {#email-feedback-service}
+
+>[!NOTE]
+>
+>Det här avsnittet gäller endast för e-postkanaler.
+
+Med funktionen för tjänsten för e-postfeedback (EFS) rapporteras status för varje e-postmeddelande korrekt, eftersom feedback hämtas direkt från den förbättrade MTA-agenten (Message Transfer Agent).
+
+>[!IMPORTANT]
+>
+>Tjänsten för e-postfeedback är för närvarande tillgänglig som en betafunktion.
+
+När leveransen har startat ändras inte procentandelen **[!UICONTROL Delivered]** när meddelandet har skickats från Campaign till den förbättrade MTA-filen.
+
+![](assets/efs-sending.png)
+
+Leveransloggarna visar **[!UICONTROL Pending]**-statusen för varje måladress.
+
+![](assets/efs-pending.png)
+
+När meddelandet levereras till målprofilerna och när informationen har rapporterats i realtid från Förbättrat MTA visar leveransloggarna statusen **[!UICONTROL Sent]** för varje adress som har tagit emot meddelandet. Procentandelen **[!UICONTROL Delivered]** ökas för varje slutförd leverans.
+
+När hårda studsmeddelanden rapporteras tillbaka från det förbättrade MTA:et ändras deras loggstatus från **[!UICONTROL Pending]** till **[!UICONTROL Failed]** och procentandelen **[!UICONTROL Bounces + errors]** ökas därefter.
+
+När meddelanden med mjuk studsning rapporteras tillbaka från Förbättrat MTA ändras loggstatusen också från **[!UICONTROL Pending]** till **[!UICONTROL Failed]** och procentandelen **[!UICONTROL Bounces + errors]** ökas därefter. Procentvärdet **[!UICONTROL Delivered]** ändras inte. Ett nytt försök att studsa meddelanden görs sedan under leveransens [giltighetsperiod](../../administration/using/configuring-email-channel.md#validity-period-parameters):
+
+* Om ett nytt försök lyckas före giltighetsperiodens slut ändras meddelandets status till **[!UICONTROL Sent]** och procentandelen **[!UICONTROL Delivered]** ökas i enlighet med detta.
+
+* I annat fall förblir statusen **[!UICONTROL Failed]**. Procentsatserna **[!UICONTROL Delivered]** och **[!UICONTROL Bounces + errors]** förblir oförändrade.
+
+>[!NOTE]
+>
+>Mer information om hårda och mjuka studsar finns i [det här avsnittet](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+>
+>Mer information om återförsök efter ett tillfälligt leveransfel finns i [det här avsnittet](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+
+<!--Soft-bouncing messages increment an error counter. When the error counter reaches the limit threshold or when the validity period is over, the address goes into quarantine and the status remains as **[!UICONTROL Failed]**. For more on conditions for sending an address to quarantine, see [this section](../../help/sending/using/understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine).-->
+
+### Ändringar som har införts av EFS {#changes-introduced-by-efs}
+
+Tabellen nedan visar de förändringar i KPI:er och sändande av loggstatus som införts av EFS-funktionen.
+
+| Stega i <br>sändningsprocessen | KPI-sammanfattning<br>UTAN EFFEKTER | Loggstatus<br>UTAN EFS skickas | KPI-sammanfattning<br>MED EFS | Loggstatus<br>MED EFS skickas |
+|--- |--- |--- | --- | --- |
+| Meddelandet har vidarebefordrats från Campaign till det förbättrade MTA-meddelandet | <ul><li>**[!UICONTROL Delivered]** procent börjar vid 100 %</li><li>**[!UICONTROL Bounces + errors]** procent börjar vid 0 %</li></ul> | Skickat | <ul><li>**[!UICONTROL Delivered]** procent börjar vid 0 %</li><li>**[!UICONTROL Bounces + errors]** procent börjar vid 0 %</li></ul> | Väntande |
+| Hårdstudsmeddelanden rapporteras tillbaka från Förbättrad MTA | <ul><li>**[!UICONTROL Delivered]** procentandelen minskas därefter</li><li>**[!UICONTROL Bounces + errors]** procentandelen ökas därefter</li></ul> | Misslyckades | <ul><li>Ingen ändring i **[!UICONTROL Delivered]**-procenttal</li><li>**[!UICONTROL Bounces + errors]** procentandelen ökas därefter</li></ul> | Misslyckades |
+| Mjuka studsmeddelanden rapporteras tillbaka från Förbättrat MTA | <ul><li>Ingen ändring i **[!UICONTROL Delivered]**-procenttal</li><li>Ingen ändring i **[!UICONTROL Bounces + errors]**-procenttal</li></ul> | Skickat | <ul><li>Ingen ändring i **[!UICONTROL Delivered]**-procenttal</li><li>**[!UICONTROL Bounces + errors]** procentandelen ökas därefter</li></ul> | Misslyckades |
+| Mjuka studsmeddelanden - återförsök har slutförts | <ul><li>Ingen ändring i **[!UICONTROL Delivered]**-procenttal</li><li>Ingen ändring i **[!UICONTROL Bounces + errors]**-procenttal</li></ul> | Skickat | <ul><li>**[!UICONTROL Delivered]** procentandelen ökas därefter</li><li>**[!UICONTROL Bounces + errors]** procentandelen minskas därefter</li></ul> | Skickat |
+| Mjukt studsande meddelanden återförsök misslyckas | <ul><li>**[!UICONTROL Delivered]** procentandelen minskas därefter</li><li>**[!UICONTROL Bounces + errors]** procentandelen ökas därefter</li></ul> | Misslyckades | <ul><li> Ingen ändring i **[!UICONTROL Delivered]**-procenttal </li><li> Ingen ändring i **[!UICONTROL Bounces + errors]**-procenttal </li></ul> | Misslyckades |
