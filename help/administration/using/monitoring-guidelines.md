@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: introduction
 index: y
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 4b87ebc2585b87f918bbd688c5858394d8d4a742
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '496'
+ht-degree: 9%
 
 ---
 
@@ -68,7 +68,7 @@ uppgifterÖvervakning av arbetsflödesloggar är ett viktigt steg för att analy
 [Läs mer](../../automating/using/monitoring-workflow-execution.md#workflow-log-and-tasks)
 
 **Med**
-NotificationsCampaign Standard kan du skicka meddelanden till arbetsledare för att övervaka hur arbetsflödena körs och se om det finns några fel som kräver din uppmärksamhet.
+NotificationsCampaign Standard kan du skicka meddelanden till arbetsledare för att övervaka arbetsflödenas körning och se om det finns några fel som kräver din uppmärksamhet.
 [Läs mer](../../automating/using/monitoring-workflow-execution.md#error-management)
 
 ## Övervaka leveranser {#monitoring-deliveries}
@@ -76,7 +76,7 @@ NotificationsCampaign Standard kan du skicka meddelanden till arbetsledare för 
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
 **Deliverability**
-Campaign Standard innehåller flera verktyg för leverans som hjälper dig att förbättra antalet meddelanden som levereras: leveransrapporter, tidsoptimering, förhandsgranskning av meddelanden, e-poståtergivning, karantänhantering osv.
+Campaign Standard innehåller flera verktyg för leverans som hjälper dig att förbättra antalet meddelanden som levereras: leveransflödesrapporter, tidsoptimering, förhandsgranskning av meddelanden, e-poståtergivning, karantänhantering osv.
 [Läs mer](../../sending/using/about-deliverability.md)
 
 **LeveranserNär**
