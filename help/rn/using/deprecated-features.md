@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 translation-type: tm+mt
-source-git-commit: 32aba66dd8987414cf90df1e7bfb9c419c5f68ff
+source-git-commit: becaf20fefb6fce05db0824baa69670f810966dc
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 85%
+source-wordcount: '734'
+ht-degree: 80%
 
 ---
 
@@ -62,8 +62,9 @@ Kunder uppmanas att se över om de använder funktionen i den aktuella driftsät
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> Från och med version 20.1 är SDK V4 inaktuell. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Läs mer</a>.</p><br/>
-   <p><a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a> (tidigare kallad v5) har endast stöd för kommande funktioner och funktionalitet i Adobe Experience Cloud.</p></br>
+   <td> <p> Från och med Campaign 20.1 är SDK v4 föråldrat. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Läs mer</a>.</p><br/>
+   <p><a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a> (tidigare kallad v5) har endast stöd för kommande funktioner och funktionalitet i Adobe Experience Cloud.</p>
+   <p>Lär dig hur du migrerar från SDK v4 till Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">på den här sidan</a>.</p></br>
      <p>
      <em>Datum för målborttagning: 31 augusti 2021</em></p>
      </td> 
@@ -112,7 +113,7 @@ Kunder uppmanas att se över om de använder funktionen i den aktuella driftsät
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Från och med version 18.7 är de geografiska enheterna inaktuella. Organisations- och geografiska enheter är identiska funktioner i Campaign. Användare bör endast använda organisationsenheter för att bygga upp hierarkin gällande användarbehörighet/dataåtkomst. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=sv#administrating">Läs mer</a>. Observera att nya instanser i Campaign Standard såväl som befintliga instanser utan geografiska enheter skapade inte kan ha denna funktion implementerad från och med version 18.7.</p>
+   <td> <p>Från och med Campaign 18.7 är de geografiska enheterna föråldrade. Organisations- och geografiska enheter är identiska funktioner i Campaign. Användare bör endast använda organisationsenheter för att bygga upp hierarkin gällande användarbehörighet/dataåtkomst. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=sv#administrating">Läs mer</a>. Observera att nya instanser i Campaign Standard såväl som befintliga instanser utan geografiska enheter skapade inte kan ha denna funktion implementerad från och med version 18.7.</p>
    </td> 
   </tr> 
  </tbody> 
