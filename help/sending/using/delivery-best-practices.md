@@ -7,10 +7,10 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 translation-type: tm+mt
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
+source-git-commit: c477012a8404b897640ca3ece1c71e9014adf9bd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '83'
+ht-degree: 10%
 
 ---
 
