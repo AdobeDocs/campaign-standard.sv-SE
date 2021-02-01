@@ -7,7 +7,7 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: a8730046710445022f6df1e7af407bb078a3edf9
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -28,7 +28,7 @@ program. Mer information om organisationsenhet finns på den här [sidan](../../
 
 ## Jag kan inte redigera ett konfigurerat mobilprogram i Adobe Campaign Standard och mobilprogram är i skrivläge. {#read-mode-mobile-app}
 
-Kontrollera organisationsenheten för mobilprogrammet i **[!UICONTROL Access Authorization ]**-avsnittet. Endast användare av den tilldelade organisationsenheten kan redigera det mobila programmet.
+Kontrollera organisationsenheten för mobilprogrammet i **[!UICONTROL Access Authorization]**-avsnittet. Endast användare av den tilldelade organisationsenheten kan redigera det mobila programmet.
 
 Mer information om organisationsenhet finns på den här [sidan](../../administration/using/organizational-units.md).
 
