@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 6dda990d046cceae2a0c0da87764d4b6a16d9ae8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1773'
+ht-degree: 85%
 
 ---
 
@@ -101,7 +101,7 @@ Ange följande information för ett externt OAuth 2.0-konto:
 * **OAuth 2.0-känsliga autentiseringsuppgifter**: Det här avsnittet är avsett för autentiseringsuppgifter som är känsliga till sin natur. Autentiseringsvärden maskeras på skärmen när de har lagts till, då inte går att läsa eller redigera. Om auktoriseringsslutpunkten kräver att en viss autentiseringsuppgift infogas i HTTP-auktoriseringshuvudet i stället för i POSTENS body-parameter, kan du markera alternativet Include i header för den autentiseringen.
 * **OAuth 2.0 icke-känsliga autentiseringsuppgifter**: Det här avsnittet är avsett för autentiseringsuppgifter som är icke-känsliga till sin natur. Autentiseringsvärden visas på skärmen när de har lagts till. de kan också redigeras.  Om auktoriseringsslutpunkten kräver att en viss autentiseringsuppgift infogas i HTTP-auktoriseringshuvudet i stället för i POSTENS body-parameter, kan du markera alternativet Include i header för den autentiseringen.
 
-När konfigurationen är klar klickar du på **Testa koppling** för att verifiera att det externa kontot är korrekt konfigurerat.
+När du har angett kontoinformationen klickar du på **Testa anslutningen** för att verifiera att det externa kontot har konfigurerats korrekt.
 
 ![](assets/external_accounts_OAuth.png)
 
