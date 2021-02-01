@@ -4,10 +4,10 @@ product: campaign
 title: Anropa en resurs med en sammansatt identifieringsnyckel
 description: Lär dig hur du anropar en resurs med en sammansatt identifieringsnyckel
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '588'
+ht-degree: 7%
 
 ---
 
@@ -37,7 +37,7 @@ Relaterade ämnen:
 
 1. Innan du konfigurerar identifieringsnyckeln måste du kontrollera att resursen har utökats med de önskade fälten och att den har publicerats. Mer information om detta finns i [det här avsnittet](../../developing/using/creating-or-extending-the-resource.md).
 
-1. Gå till menyn **[!UICONTROL Administration]** / **[!UICONTROL Developement]** / **[!UICONTROL Custom resources]** och öppna sedan resursen **[!UICONTROL Profile]**.
+1. Gå till menyn **[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Custom resources]** och öppna sedan resursen **[!UICONTROL Profile]**.
 
    ![](assets/uc_idkey1.png)
 
