@@ -7,10 +7,10 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 translation-type: tm+mt
-source-git-commit: 6fffc6a3574c71c01f1e07ff4e6e6aa194479079
+source-git-commit: e129cde33b24831122433bd4b400204f38799b11
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1295'
+ht-degree: 1%
 
 ---
 
@@ -247,8 +247,12 @@ Tabellerna nedan ger dig en lista över de mätvärden som används i rapporter 
    <td> Antal mottagare som öppnade leveransen.<br /> </td> 
   </tr> 
   <tr> 
+   <td> Unik avprenumeration<br /> </td> 
+   <td> Antal mottagare som klickat på länken för att ta bort prenumerationen.<br /> </td> 
+  </tr> 
+  <tr> 
    <td> Avbeställningsfrekvens<br /> </td> 
-   <td> Procentandel av mottagarens avanmälan jämfört med de meddelanden som levererats.<br /> </td> 
+   <td> Antal unika avprenumerationer jämfört med levererade meddelanden.<br /> </td> 
   </tr> 
   <tr> 
    <td> Avbeställ<br /> </td> 
