@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '513'
+ht-degree: 83%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Campaign hämtar återgivningen och gör den tillgänglig i en dedikerad r
 
 De mobil-, meddelande- och webbpostklienter som är tillgängliga för **E-poståtergivning** i Adobe Campaign anges på Litmus-[webbplatsen](https://litmus.com/email-testing) (klicka på **Visa alla e-postklienter**).
 
-## Kontrollera rapporten E-poståtergivning {#checking-the-email-rendering-report}
+## Skapar e-poståtergivning {#checking-the-email-rendering-report}
 
 När du har skapat e-postleveransen och definierat innehållet samt målpopulationen följer du stegen nedan.
 
@@ -66,20 +66,21 @@ Den dedikerade återgivningsrapporten för e-post visas. Se [Beskrivning av rapp
 * [Skicka korrektur](../../sending/using/sending-proofs.md)
 * [Frågeredigerare](../../automating/using/editing-queries.md#about-query-editor)
 
-## Beskrivning av rapport om e-poståtergivning {#email-rendering-report-description}
+## Återgivningsrapport för e-post {#email-rendering-report-description}
 
 I den här rapporten visas e-poståtergivningarna så som de visas för mottagaren. E-poståtergivningen kan variera beroende på hur mottagaren öppnar e-postleveransen: i en webbläsare, på en mobil enhet eller via ett e-postprogram.
 
->[!NOTE]
->
->Antalet tillgängliga återgivningar visas i licensavtalet. Varje leverans med **E-poståtergivning** aktiverat minskar antalet tillgängliga återgivningar (så kallade tokens) med ett.
->
->Tokens-konto för varje enskild återgivning och inte för hela återgivningsrapporten för e-post, vilket innebär att:
->
->**Varje** gång rapporten för inkorgsåtergivning skapas dras en token per meddelandeklient av: en token för Outlook 2000-återgivning, en för Outlook-återgivningen, en för Apple Mail-återgivningen och så vidare.
->
->**Om du genererar återgivningen av e-post igen för samma leverans** minskas antalet tillgängliga tokens igen med antalet genererade återgivningar.
+### Återgivningstoken
 
+Antalet tillgängliga återgivningar visas i licensavtalet. Varje leverans med **E-poståtergivning** aktiverat minskar antalet tillgängliga återgivningar (så kallade tokens) med ett.
+
+Tokens-konto för varje enskild återgivning och inte för hela återgivningsrapporten för e-post, vilket innebär att:
+
+* **Varje** gång återgivningsrapporten för e-post genereras dras en token per meddelandeklient av: en token för Outlook 2000-återgivning, en för Outlook-återgivningen, en för Apple Mail-återgivningen och så vidare.
+
+* **Om du genererar återgivningen av e-post igen för samma leverans** minskas antalet tillgängliga tokens igen med antalet genererade återgivningar.
+
+### Rapportsammanfattning
 
 Rapportsammanfattningen visar antalet mottagna, oönskade (skräppost), ej mottagna eller väntande mottagningar.
 
