@@ -7,10 +7,10 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 4a039670745810de40fe3622d21d7830d6e33d2c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1244'
+ht-degree: 81%
 
 ---
 
@@ -47,7 +47,7 @@ Startsidan består av en uppsättning kort som ger dig snabb åtkomst till huvud
 
 ## Övre fält {#top-bar}
 
-Det övre fältet visas på alla skärmar och kan användas för att navigera bland funktionerna i Adobe Campaign och få åtkomst till den anslutna Adobe-profilen, meddelanden, andra Adobe Experience Cloud-tjänster och -lösningar samt dokumentationen.
+Det övre fältet är synligt på alla skärmar och du kan navigera bland Adobe Campaign-funktioner samt komma åt den anslutna Adobe-profilen, meddelanden, Adobe Experience Cloud-tjänster och -lösningar samt dokumentationen.
 
 Navigeringsprinciperna är:
 
@@ -57,13 +57,25 @@ Navigeringsprinciperna är:
 
 * Använd länken **[!UICONTROL Home]** för att visa startsidan för Adobe Campaign.
 * Med länkarna **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** och **[!UICONTROL Reports]** kan du komma åt de vyer som är kopplade till dessa funktioner.
-* Knappen **[!UICONTROL Help]** ger åtkomst till produktdokumentation och kontextbaserad hjälp, versionsinformation, versionsnummer, juridiska meddelanden samt länkar till Adobe Experience Cloud-communityn och kundtjänst.
+* Med ikonen **Solution Switcher** kan du växla mellan olika organisationer eller till ett annat program.
+* Knappen **[!UICONTROL Help]** ger åtkomst till Adobe Campaign Standard-dokumentation, videofilmer, versionsinformation och versionsplanering samt länkar till Adobe Experience Cloud community och kundtjänst.
+* Organisationsknappen
+* Ikonen **Meddelanden** visar de senaste varningarna eller informationen.
+* Med ikonen **Användare** kan du visa information som är kopplad till din profil. Den ger åtkomst till knappen **[!UICONTROL Sign out]** och skärmen **[!UICONTROL About]**.
+
+### Hjälp {#help}
+
+* **[!UICONTROL Search]** för in Adobe Experience League i produkten: sökresultaten innehåller dokumentation och hjälpartiklar, resultat från communityforum och mer videoinnehåll, vilket gör det enklare att komma åt mer innehåll för att få ut så mycket som möjligt av programmet.
+* **[!UICONTROL Help]** tab
+   * Länkarna ger snabb åtkomst till Adobe Campaign Standard dokumentation, videoklipp och versionsinformation.
+   * **[!UICONTROL Learning]** Med den här länken kan du komma åt Adobe Campaign innehållsbibliotek.
+   * **[!UICONTROL Community]** Med den här länken kan du komma åt forumet som är dedikerat till dina frågor om ACS.
+
+* **[!UICONTROL Support]** kan du öppna ett supportärende och kontakta oss via telefon eller Twitter.
+
+* **[!UICONTROL Feedback]**  gör det enklare att rapportera problem eller utbyta idéer.
 
    ![](assets/ux_help.png)
-
-* Med ikonen **Välj lösning** kan du växla till en annan Adobe Experience Cloud-lösning samt till profilinställningarna.
-* Ikonen **Meddelanden** visar de senaste varningarna eller informationen.
-* Med ikonen **Användare** kan du visa information som är kopplad till din profil. Den ger åtkomst till knappen **[!UICONTROL Sign out]**.
 
 ## Avancerad meny {#advanced-menu}
 
