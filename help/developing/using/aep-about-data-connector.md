@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '783'
 ht-degree: 5%
 
 ---
@@ -44,7 +44,7 @@ I följande avsnitt beskrivs de viktigaste stegen för att utföra en datamappni
 
 * Utanför rutan är mappning bara tillgängligt för fält som anges i Campaign Standard som standard. För att kunna inhämta alla anpassade fält och resurser måste varje kund definiera sin egen mappning.
 
-* Adobe Experience Platform Data Connector skickar profildata via plattformen med regelbundna intervall. &#x200B; Intervallets varaktighet är 15 mn. Det här värdet kan ändras med [Adobe Experience Platform API:er](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html).
+* Adobe Experience Platform Data Connector skickar profildata via plattformen med regelbundna intervall. &#x200B; Intervallets varaktighet är 15 minuter. Det här värdet kan ändras med [Adobe Experience Platform API:er](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html).
 
 * Datateknikern kan publicera, ändra och pausa mappningen från Campaign till Adobe Experience Platform.
 
@@ -80,6 +80,6 @@ I följande avsnitt beskrivs de viktigaste stegen för att utföra en datamappni
 
 Den här videon ger en översikt över Adobe Experience Platform Data Connector.
 
-https://video.tv.adobe.com/v/27304?quality=12&amp;captions=swe
+>[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
 
 Ytterligare videofilmer om Adobe Experience Platform Data Connector finns [här](https://docs.adobe.com/content/help/sv-SE/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html).
