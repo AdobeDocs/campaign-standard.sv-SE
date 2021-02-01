@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
+source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '963'
+ht-degree: 9%
 
 ---
 
@@ -39,8 +39,6 @@ Transaktionsmeddelanden kan skickas via e-post, SMS eller [push-meddelanden](../
 >Adobe Campaign prioriterar bearbetning av transaktionsmeddelanden framför annan leverans.
 
 <!--Guidelines to implement transactional messaging capabilities in your website are detailed in [this section](../../api/using/managing-transactional-messages.md).-->
-
-<!--All transactional messages are now sent with the Adobe Campaign Enhanced MTA for improved deliverability, throughput, and bounce handling. All impacts are the same as for standard marketing messages. For more on this, see [this section](../../administration/using/configuring-email-channel.md).-->
 
 Innan du börjar med transaktionsmeddelanden bör du kontrollera att du har läst motsvarande [metodtips och begränsningar](../../channels/using/transactional-messaging-limitations.md).
 
