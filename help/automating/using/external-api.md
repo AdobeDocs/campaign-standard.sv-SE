@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 translation-type: tm+mt
-source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
+source-git-commit: 6dda990d046cceae2a0c0da87764d4b6a16d9ae8
 workflow-type: tm+mt
-source-wordcount: '2156'
-ht-degree: 98%
+source-wordcount: '2180'
+ht-degree: 95%
 
 ---
 
@@ -114,13 +114,13 @@ Om **tolkningen valideras** visas ett meddelande som uppmanar dig att anpassa da
 
 ### Körning
 
-Med den här fliken kan du definiera anslutningens slutpunkt. I fältet **[!UICONTROL URL]** kan du definiera den **HTTPS-slutpunkt** som skickar data till Campaign.
+Med den här fliken kan du definiera anslutningens slutpunkt. I fältet **[!UICONTROL URL]** kan du definiera den **HTTPS-slutpunkt** som Campaign Standarden ska kommunicera med.
 
 Om slutpunkten så kräver finns det två typer av autentiseringsmetoder:
 
-* Grundläggande autentisering: ange användarnamn/lösenord i fältet **[!UICONTROL Request Header(s)]**.
+* Grundläggande autentisering: Ange användarnamn/lösenord i avsnittet **[!UICONTROL Request Header(s)]**.
 
-* OAuth-autentisering: genom att klicka på knappen **[!UICONTROL Use connection parameters defined in an external account]** kan du välja ett externt konto där OAuth-autentiseringen definieras. Se avsnittet [Externa konton](../../administration/using/external-accounts.md) för mer information.
+* OAuth-autentisering: Genom att klicka på **[!UICONTROL Use connection parameters defined in an external account]** i ett externt konto kan du välja ett externt konto där OAuth-autentiseringen har definierats. Se avsnittet [Externa konton](../../administration/using/external-accounts.md) för mer information.
 
 ![](assets/externalAPI-execution.png)
 
@@ -155,6 +155,10 @@ På den här fliken kan du aktivera den **utgående övergången** och dess etik
 Den här fliken är tillgänglig i de flesta arbetsflödesaktiviteter. Mer information finns i avsnittet [Aktivitetsegenskaper](../../automating/using/activity-properties.md).
 
 ![](assets/externalAPI-options.png)
+
+## Testning
+
+Om du vill testa den externa API-funktionen med en enkel testslutpunkt kan du använda Postman Echo: https://docs.postman-echo.com.
 
 ## Felsökning
 
@@ -256,8 +260,8 @@ Dessa loggmeddelanden används för att logga information om oväntade feltillst
    <td> <p>HTTP-rubriknyckeln tillåts inte (rubriknyckeln: "Godkänn").</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 -  A HTTP header value is bad (header value: '%s').</td> 
-   <td> <p>HTTP header value is bad (header value: '%s'). </p>
+   <td> WKF-560247 - Ett HTTP-rubrikvärde är felaktigt (rubrikvärde: '%s').</td> 
+   <td> <p>HTTP-rubrikvärdet är felaktigt (rubrikvärde: '%s'). </p>
     <p>Obs! Det här felet loggas när det anpassade rubrikvärdet inte kan valideras enligt <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr> 
   <tr> 
