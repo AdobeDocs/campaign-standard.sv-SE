@@ -7,10 +7,10 @@ audience: developing
 content-type: reference
 topic-tags: about-custom-resources
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '223'
+ht-degree: 1%
 
 ---
 
@@ -34,7 +34,7 @@ Det finns två kolumner som är dedikerade för att visa dessa statusvärden på
    >
    >Alternativet **[!UICONTROL Cancel re-draft]** är tillgängligt när resursen som du vill göra om utkast fortfarande innehåller länkar via andra resurser med statusen Publicerad. Med det här alternativet kan du återställa processen för att göra om utkast. De anpassade resurserna återgår sedan till sin ursprungliga status.
 
-* **Publicerat**: resursen har publicerats. Om resursen ändras efter det senaste ändringsdatumet visas ett meddelande som uppmanar dig att publicera om resursen för att ta hänsyn till de senaste ändringarna.
+* **Publicerat**: resursen har publicerats. Om resursen ändras efter det senaste ändringsdatumet visas ett meddelande som bjuder in dig att publicera resursen igen för att ta hänsyn till de senaste ändringarna.
 
 Fältet **[!UICONTROL Do not publish latest modifications]** förhindrar att ändringar beaktas vid framtida publikationer.
 
