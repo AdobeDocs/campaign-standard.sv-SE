@@ -7,7 +7,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 2%
@@ -51,7 +51,7 @@ Följande skärm visar avsnittet **[!UICONTROL Field mappings]** där du kan ska
 
 Med knappen **[!UICONTROL Create new field mapping]** kan du markera Campaign Standarden och motsvarande fältsökvägsuttryck i XDM-schemat.
 
-Om du inte kan hitta ett fält för Campaign Standard kan du använda sökfältet för att söka efter fältet. För närvarande fungerar sökningen endast för fält som är öppna i hierarkin.
+Om du inte kan hitta något Adobe Campaign Standard-fält kan du använda sökfältet för att söka efter fältet. För närvarande fungerar sökningen endast för fält som är öppna i hierarkin.
 
 ![](assets/aep_mapfield.png)
 
