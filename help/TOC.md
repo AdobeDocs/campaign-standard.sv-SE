@@ -7,10 +7,10 @@ user-guide-description: 'Hjälpcenter för de viktigaste funktionerna, åtgärde
 breadcrumb-title: Campaign Standard
 title: Guide för Campaign Standard
 translation-type: tm+mt
-source-git-commit: 77fe514d4862fafcc6201d0cec9045469bb2643d
+source-git-commit: 36efc64f9be3863e5e16381aaba445d2f13eac4d
 workflow-type: tm+mt
-source-wordcount: '1731'
-ht-degree: 97%
+source-wordcount: '1755'
+ht-degree: 95%
 
 ---
 
@@ -237,6 +237,7 @@ ht-degree: 97%
       + [Konfigurera Campaign-Experience Manager-integration](integrating/using/configure-experience-manager.md)
       + [Skapa ett e-postinnehåll i Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
       + [Skapa ett Campaign-formulär i Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
+      + [Skapa flerspråkig e-post med Adobe Experience Manager-integrering](integrating/using/creating-multilingual-email-aem.md)
    + Campaign och Target {#working-with-campaign-and-target}
       + [Om Campaign-Target-integration](integrating/using/about-campaign-target-integration.md)
       + [Konfigurera Campaign-Target-integration](integrating/using/configuring-the-campaign-target-integration.md)
@@ -450,6 +451,7 @@ ht-degree: 97%
       + [Vanliga frågor och svar om integrering av Experience Platform SDK](administration/using/aep-faq.md)
       + [Konfigurera startregler för att ger stöd för användningsfall i Adobe Campaign Standard](administration/using/configuring-rules-launch.md)
       + [Mobil användning som stöds av Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
+      + [Migrera ditt mobilprogram från SDK v4 till Adobe Experience Platform SDK](administration/using/sdkv4-migration.md)
    + Konfigurera SMS-kanal {#configuring-sms}
       + [Implementera SMS-kanalen](administration/using/configuring-sms-channel.md)
       + [Protokoll och inställningar för SMS-koppling](administration/using/sms-protocol.md)
