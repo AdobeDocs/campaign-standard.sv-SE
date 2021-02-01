@@ -6,7 +6,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: 1e05db3fecc87a026750f40acb0ff063706e3f38
+source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
 workflow-type: tm+mt
 source-wordcount: '1071'
 ht-degree: 2%
@@ -65,7 +65,7 @@ Läs mer om ditt sekretessansvar och om hur du hanterar sekretessförfrågningar
 
 När du bläddrar till användargränssnittet för första gången bör du se en sida med ett sidhuvud som ser ut så här:
 
-![](assets/d365-to-acs-ui-header.png)
+![](assets/do-not-localize/d365-to-acs-ui-header.png)
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ Kontrollera att det är de alternativ för ORG och INSTANCE som du tänker konfi
 
 Om du har rätt organisation och förekomst klickar du på hamburger-menyn för att visa en listruta. Klicka sedan på **[!UICONTROL Settings...]** i listrutan för att gå till sidan där du anger dina inloggningsuppgifter för Microsoft Dynamics 365 och Campaign (se nedan).
 
-![](assets/d365-to-acs-ui-page-workflows-menu-pointers.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-menu-pointers.png)
 
 På sidan **[!UICONTROL Settings]** fyller du i följande avsnitt:
 
@@ -94,11 +94,11 @@ Förutsatt att du har slutfört kraven ovan och lagt till alla dina inloggningsu
 
 På sidan **[!UICONTROL Workflows]** klickar du på pennikonen som är associerad med arbetsflödet **[!UICONTROL Microsoft Dynamics 365 to Campaign]** för att redigera dess konfiguration.
 
-![](assets/d365-to-acs-ui-page-workflows-ingress-edit-pointer.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-edit-pointer.png)
 
 På sidan **[!UICONTROL Microsoft Dynamics 365 to Campaign]** kan du komma åt listan över tabellmappningar som du har konfigurerat.  Du får som standard en kontakt-/profilmappning som är körklar. Alla andra anpassade entiteter måste konfigureras separat.
 
-![](assets/d365-to-acs-ui-page-ingress-top-pointers.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top-pointers.png)
 
 På sidan **[!UICONTROL Edit Table Mapping]** kontrollerar du avsnittet **[!UICONTROL Mappings]** för att se till att fält från Microsoft Dynamics 365 mappas till rätt fält i Campaign. Om du behöver lägga till andra mappningar gör du det nu, liksom eventuella ersättningar eller filter. [Läs mer](../../integrating/using/d365-acs-self-service-app-data-sync.md).
 
@@ -108,10 +108,10 @@ När konfigurationen är korrekt klickar du på knappen **[!UICONTROL Play]** br
 
 >[!IMPORTANT]
 >
->Vi **rekommenderar starkt** att du först kör detta i Stage- eller Dev-miljöer innan du kör i Production. Kontrollera att scen-/dev-instansen är markerad i sidhuvudet.
+>Vi **rekommenderar starkt** att du först kör detta i Stage- eller Dev-miljöer innan du kör i Production. Kontrollera att stage-/dev-instansen är markerad i sidhuvudet.
 
 
-![](assets/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
 
 När du är igång bör du kunna testa genom att lägga till eller ändra poster i Microsoft Dynamics 365 och observera dessa ändringar i Adobe Campaign inom några minuter. Om du vill avbryta den här processen trycker du bara på samma knapp för att stoppa den. [Läs mer](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
 
@@ -124,9 +124,9 @@ Med rubriken i självbetjäningsappen kan du definiera vilken organisation och i
 
 Markera den **ORG** och den **INSTANS** som du vill visa/redigera. Dessa fält är skrivskyddade, men de kan redigeras när du placerar muspekaren över dem.
 
-En listruta visas när du klickar på knappen med de tre vågräta linjerna ![](assets/d365-to-acs-icon-hamburger.png) till höger om huvudet.
+En listruta visas när du klickar på knappen med de tre vågräta linjerna ![](assets//do-not-localize/d365-to-acs-icon-hamburger.png) till höger om huvudet.
 
-Posterna på den nedrullningsbara menyn är
+Posterna på den nedrullningsbara menyn är:
 
 * **Inställningar**: Om du väljer det här alternativet skickas du till en skärm där du kan ange API-autentiseringsuppgifter för Microsoft Dynamics 365 och Adobe Campaign samt andra allmänna inställningar för programmet.
 
@@ -146,14 +146,14 @@ Brödraperier visas högst upp på vissa skärmar när du navigerar i programmet
 
 Nedan visas ett exempel från skärmen **[!UICONTROL Edit Table Mapping]** som visar vägbeskrivningar och sidrubriken. I det här fallet kan du klicka på texten **[!UICONTROL Workflows]** eller **[!UICONTROL Microsoft Dynamics 365 to Campaign]** för att gå till en av de föregående skärmarna. **[!UICONTROL Edit Table Mapping]** i vägbeskrivningarna inte går att klicka på eftersom det är den aktuella skärmen.
 
-![](assets/d365-to-acs-breadcrumbs-ingress.png)
+![](assets/do-not-localize/d365-to-acs-breadcrumbs-ingress.png)
 
 ### Vanliga knappar {#app-buttons}
 
 Följande ikoner används på flera sidor i självbetjäningsappen.
 
-![](assets/d365-to-acs-icon-add.png) - Lägg till ett nytt objekt i en lista.
+![](assets/do-not-localize/d365-to-acs-icon-add.png) - Lägg till ett nytt objekt i en lista.
 
-![](assets/d365-to-acs-icon-edit.png) - Redigera något som redan finns
+![](assets/do-not-localize/d365-to-acs-icon-edit.png) - Redigera något som redan finns
 
-![](assets/d365-to-acs-icon-delete.png) - Ta bort ett objekt från en lista med objekt
+![](assets/do-not-localize/d365-to-acs-icon-delete.png) - Ta bort ett objekt från en lista med objekt
