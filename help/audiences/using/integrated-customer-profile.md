@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: managing-profiles
 context-tags: marketingHistory,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: b3088ed3bbb8828393e28df8f982ed36e7e74590
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '281'
+ht-degree: 48%
 
 ---
 
@@ -22,18 +22,32 @@ En integrerad kundprofil finns tillgänglig för varje kontakt i databasen. Denn
 
 Så här får du tillgång till den integrerade kundprofilen:
 
-1. På hemsidan för Adobe Campaign klickar du på kortet **[!UICONTROL Customer profiles]** eller fliken **Profiler** .
-1. Välj en kontakt.
+1. På Adobe Campaign hemsida klickar du på **[!UICONTROL Customer profiles]**-kortet eller på fliken **Profiler** för att visa profillistan.
+
+1. Om du vill söka efter en profil baserat på ett visst fält öppnar du sökrutan och markerar sedan det fält som du vill söka i.
+
+
+   ![](assets/profile-search.png)
+
+1. Ange det värde som du vill söka efter och tryck sedan på Retur.
+
+   >[!NOTE]
+   >
+   >Observera att sökningar kan utföras baserat på fälten för e-post, förnamn och efternamn samt anpassade fält som har lagts till när resursen utökas.
+   >
+   >Sökningar är skiftlägeskänsliga och utförs endast med prefix. Du kommer till exempel inte att kunna leta efter en profil med hjälp av efternamnets sista bokstäver.
+
+1. Välj en kontakt för att öppna dess profil.
 
    ![](assets/mkt_hist_access.png)
 
 Du kan sedan komma åt den här kontaktens **marknadsföringshistorik** .
 
-![](assets/mkt_hist_view.png)
-
 Nyckelinformation för profilen samlas in på den här sidan samt i listan med händelser.
 
-Klicka på en händelse i listan för att öppna den. Du får åtkomst till det meddelande som har skickats eller den tjänst som profilen har prenumererat på.
+Klicka på en händelse i listan för att öppna den: du får tillgång till meddelanden som har skickats eller tjänster som profilen har prenumererat på.
+
+![](assets/mkt_hist_view.png)
 
 >[!NOTE]
 >
