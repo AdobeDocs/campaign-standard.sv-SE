@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileTransfer,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: b3088ed3bbb8828393e28df8f982ed36e7e74590
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1095'
+ht-degree: 92%
 
 ---
 
@@ -135,13 +135,15 @@ Metat eller jokertecken (exempelvis * eller ?) kan användas för att filtrera f
 Välj om du vill **[!UICONTROL Define a file path]** eller **[!UICONTROL Use a dynamic file path]**
 **[!UICONTROL Use a dynamic file path]**-alternativet ger dig möjligheten att använda ett standarduttryck och händelsevariabler för att anpassa namnet på filen som ska överföras. Se denna [sida](../../automating/using/customizing-workflow-external-parameters.md) för mer information om detta.
 
-Notera att sökvägen måste vara relativ till Adobe Campaign-serverns lagringsutrymmeskatalog. Filerna finns i katalogen **sftp&lt;instansnamn>/** . Du kan inte heller bläddra bland katalogerna över lagringsutrymmet. Exempel:
+Notera att sökvägen måste vara relativ till Adobe Campaign-serverns lagringsutrymmeskatalog. Filerna finns i katalogen **sftp&lt;instansnamn>/** . Du kan inte heller bläddra bland katalogerna över lagringsutrymmet.
 
-    >**user&amp;lt;yourinstancename>/my_recipients.csv** är korrekt.
-    >
-    >**../hello/my_recipients.csv** är inkorrekt.
-    >
-    >**//myserver/hello/myrecipients.csv* är inkorrekt.
+Exempel:
+
+`user&lt;yourinstancename>/my_recipients.csv` stämmer.
+
+`../hello/my_recipients.csv` är felaktigt.
+
+`//myserver/hello/myrecipients.csv` är felaktigt.
 
 ## Historikinställningar {#historization-settings}
 
@@ -160,3 +162,16 @@ Varje gång aktiviteten körs så kontrolleras mappen enligt följande:
 >[!NOTE]
 >
 >Om aktiviteten inte körs igen så kontrolleras eller rensas inte dess mapp. Var därför försiktig när du överför stora filer.
+
+## Utdatavariabler {#output-variables}
+
+Aktiviteten **[!UICONTROL Transfer file]** genererar händelsevariabler som utdata, som du kan använda i andra aktiviteter, till exempel för att kontrollera antalet hämtade filer med en [Test](../../automating/using/test.md)-aktivitet.
+
+Observera att händelsevariabler också kan skickas till ett annat arbetsflöde med hjälp av en extern signal (se [Anpassa ett arbetsflöde med externa parametrar](../../automating/using/customizing-workflow-external-parameters.md)).
+
+Tillgängliga utdatavariabler är:
+
+* **[!UICONTROL fileName]**: namnet på de överförda filerna.
+* **[!UICONTROL filesCount]**: antal överförda filer.
+
+
