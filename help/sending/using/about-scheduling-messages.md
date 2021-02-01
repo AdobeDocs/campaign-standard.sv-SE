@@ -8,17 +8,17 @@ content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '268'
+ht-degree: 100%
 
 ---
 
 
 # Om schemaläggning av meddelanden{#about-scheduling-messages}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >När du ändrar ett leveransschema så måste du förbereda leveransen på nytt genom att klicka på **Förbered**-knappen innan du klickar **Bekräfta**.
 
@@ -42,7 +42,7 @@ Med **[!UICONTROL Schedule]**-egenskaperna kan du ange sändningsalternativ för
 
    ![](assets/delivery_planning.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >När en leverans dupliceras tas alla schemainställningar bort.        Såvida du inte schemalägger ett nytt kontaktdatum skickas den duplicerade leveransen så snart som sändningen har bekräftats.
 
