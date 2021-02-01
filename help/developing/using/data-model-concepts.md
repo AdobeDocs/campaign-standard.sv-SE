@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: about-custom-resources
 context-tags: cusResource,overview;eventCusResource,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '244'
+ht-degree: 79%
 
 ---
 
@@ -34,7 +34,7 @@ Tilläggsfält genereras med ett prefix så att de aldrig hamnar i konflikt med 
 
 >[!NOTE]
 >
->Du hittar en datamodellsrepresentation för de inbyggda resurserna på [denna sida](../../developing/using/datamodel-introduction.md).
+>Du kan hitta en datamodellrepresentation för de inbyggda resurserna i [den här sidan](../../developing/using/datamodel-introduction.md).
 
 Du kan också [konfigurera navigeringen](configuring-the-screen-definition.md) på skärmar som motsvarar den skapade resursen.
 
