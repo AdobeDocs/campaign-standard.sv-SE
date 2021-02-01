@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 3a4e8628b916291244d142d9cc4a6a84b799502b
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Så här uppdaterar du XDM-schemat:
 
 1. Navigera till ditt XDM-schema.
 
-1. Lägg till blandningen&quot;Ange sekretess&quot; i schemat.
+1. Lägg till **[!UICONTROL Profile Privacy]**-blandningen i schemat.
 
    ![](assets/aep_datamapping_privacyfield.png)
 
