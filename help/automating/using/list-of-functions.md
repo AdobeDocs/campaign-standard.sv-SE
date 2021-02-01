@@ -7,10 +7,10 @@ audience: automating
 content-type: reference
 topic-tags: filtering-data
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ef170f2282fcc46e36c90dada2083dea25b95f7c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1940'
+ht-degree: 98%
 
 ---
 
@@ -424,7 +424,7 @@ Tabellen innehåller de återstående funktionerna.
    <td> <strong>GetEmailDomain</strong><br /> </td> 
    <td> Extraherar domänen från en e-postadress<br /> </td> 
    <td> GetEmailDomain(&lt;värde&gt;)<br /> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td> <strong>GetMirrorURL</strong><br /> </td> 
    <td> Hämtar URL:en för spegelsidservern<br /> </td> 
