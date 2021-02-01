@@ -7,10 +7,10 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 3672f0bc4ebc551c4eb34660a3a55d44fa726f1a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '341'
+ht-degree: 3%
 
 ---
 
@@ -50,7 +50,7 @@ Så här konfigurerar du Adobe Campaign:
 
    ![](assets/aem_2.png)
 
-1. På den avancerade menyn under **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** duplicerar du sedan en av de befintliga mallarna för att skapa en e-postmall som är specifik för Adobe Experience Manager.
+1. På den avancerade menyn under **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** duplicerar du en av de befintliga mallarna för att skapa en e-postmall som är specifik för Adobe Experience Manager.
 
    ![](assets/aem_3.png)
 
