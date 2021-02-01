@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 16f937fc34783f22a0c118bb5e2e3f39abb85615
+source-git-commit: a039818cb5d4169ae921df39e9ea9bc9230fceb0
 workflow-type: tm+mt
-source-wordcount: '6372'
-ht-degree: 100%
+source-wordcount: '6511'
+ht-degree: 98%
 
 ---
 
@@ -18,6 +18,26 @@ ht-degree: 100%
 # Dokumentationsuppdateringar{#documentation-updates}
 
 Förutom [versionsinformationen](../../rn/using/release-notes.md) för Adobe Campaign listas alla nya uppdateringar i dokumentationen för Adobe Campaign Standard på den här sidan.
+
+## Version 21.1 - februari 2021 {#release-21-1---february-2021}
+
+**Nya funktioner i denna version**
+
+Tjänsten Email Feedback - [Läs mer](../../sending/using/confirming-the-send.md#email-feedback-service)
+
+Förbättringar av Adobe Experience Manager-integrationen - [Läs mer](../../integrating/using/creating-multilingual-email-aem.md)
+
+Enhetligt Experience Cloud-gränssnitt - [Läs mer](../../start/using/interface-description.md#top-bar)
+
+**Andra dokumentationsuppdateringar som följer med denna version**
+
+Information har lagts till om hur du söker efter en profil baserat på e-post, förnamn, efternamn eller anpassade fält. [Läs mer](../../audiences/using/integrated-customer-profile.md)
+
+Information har lagts till i den nya GetOption-funktionen som gör att du kan returnera värdet för en angiven funktion när du anropar ett arbetsflöde med externa parametrar. [Läs mer](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)
+
+Information har lagts till i den nya **[!UICONTROL filesCount]**-utdatavariabeln som är tillgänglig efter att en **[!UICONTROL Transfer file]**-aktivitet har använts. [Läs mer](../../automating/using/transfer-file.md#output-variables)
+
+Avsnittet **Konfigurera e-postkanal** har uppdaterats för att klargöra vilka de senaste e-postinställningarna är. Vissa äldre parametrar som fortfarande används för vissa kunder listas längst ned på den här sidan. [Läs mer](../../administration/using/configuring-email-channel.md)
 
 ## December 2020 {#doc-updates-december-2020}
 
