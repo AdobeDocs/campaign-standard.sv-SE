@@ -7,9 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 05b6a9caebdd65f20357070af8bd44cb8ba146c7
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '813'
 ht-degree: 1%
 
 ---
@@ -63,6 +63,7 @@ När du använder en variabel i en aktivitet får du hjälp att anropa den i gr�
    | DateFormat | Formaterar ett datum med det format som anges i den andra parametern (exempel:  &#39;%4Y%2M%2D&#39;) | DateFormat(&lt;Date>,&lt;Format>) |
    | FileName | Returnerar namnet på en filsökväg. | FileName(&lt;String>) |
    | FileExt | Returnerar tillägget för en filsökväg. | FileExt(&lt;String>) |
+   | GetOption | Returnerar värdet för den angivna funktionen. | GetOption(&lt;alternativnamn>) |
    | IsNull | Anger om en sträng eller ett datum är null. | IsNull(&lt;String/date>) |
    | UrlUtf8Encode | Kodar en URL i UTF8. | UrlUtf8Encode(&lt;String>) |
 
