@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '357'
+ht-degree: 6%
 
 ---
 
@@ -38,7 +38,7 @@ När den är aktiverad måste du aktivera e-postkopia från alternativet **[!UIC
 
 >[!NOTE]
 >
->För närvarande går det inte att skicka arkiverade e-postmeddelanden med Adobe Campaign Enhanced MTA, även om du redan har uppgraderat till Enhanced MTA.
+>För närvarande går det inte att skicka arkiverade e-postmeddelanden med Adobe Campaign Enhanced MTA.
 
 ## Aktivera e-postarkivering {#activating-email-archiving}
 
