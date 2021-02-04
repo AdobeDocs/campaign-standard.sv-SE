@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 translation-type: tm+mt
-source-git-commit: ac669a4dbb3b0f5f8f7352d1271460054913a1b4
+source-git-commit: fb16fc4e24a4345d73e0b2a0ad58a78771a93b8a
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 96%
+source-wordcount: '466'
+ht-degree: 94%
 
 ---
 
@@ -29,7 +29,9 @@ Alla versionsdatum kan ändras: Vi rekommenderar att du regelbundet besöker den
 
 ## Version 21.1 – februari {#release-21-1-release}
 
-Miljöuppdateringar sker i vågor under de angivna tidsramarna nedan. Detaljerad information om den här versionen finns i [versionsinformationen](../../rn/using/release-notes.md) när scenmiljöuppgraderingarna startar. Kontakta [Adobe Client Care](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) om du har ytterligare frågor.
+Miljöuppdateringar sker i vågor under de angivna tidsramarna nedan. Exakta datum meddelas varje kund via e-post.
+
+Detaljerad information om den här versionen finns i [versionsinformationen](../../rn/using/release-notes.md) när scenmiljöuppgraderingarna startar.
 
 <table>
  <thead>
@@ -41,14 +43,16 @@ Miljöuppdateringar sker i vågor under de angivna tidsramarna nedan. Detaljerad
  <tbody>
   <tr>
    <td>Stadie<br /> </td>
-   <td>1–2 feb 2021<br /> </td>
+   <td>1–10 feb 2021<br /> </td>
   </tr>
   <tr>
    <td> Produktion<br /> </td>
-   <td>8-15 feb 2021<br /> </td>
+   <td>8-17 feb 2021<br /> </td>
   </tr>
  </tbody>
 </table>
+
+Kontakta [Adobe Client Care](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) om du har ytterligare frågor.
 
 ## Frågor och svar {#questions-and-answers}
 
