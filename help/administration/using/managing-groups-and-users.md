@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: users-and-security
 context-tags: user,overview;user,main;security,overview;security,main
 translation-type: tm+mt
-source-git-commit: 0556fec284c5873fbf5025cab15d73adb009ee37
+source-git-commit: ae2b6587d71f0915da05e53bf45c67c7a37a42c8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '940'
+ht-degree: 88%
 
 ---
 
@@ -24,7 +24,7 @@ Säkerhetsgrupper är uppsättningar av användare som delar samma roller och r�
 
 Användare måste alltid vara länkade till en säkerhetsgrupp.  På så sätt kan du tilldela dem specifika roller och organisationsenheter.
 
-För mer information om roller så visar tabellerna på följande sida de olika åtgärder som finns tillgängliga beroende på en användares roll(er): [Auktoriseringar i Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
+För mer information om roller visas i tabellen på följande sida möjliga åtgärder som är tillgängliga beroende på en användares roll(er): [Adobe Campaign Standard-auktoriseringar](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
 
 De säkerhetsgrupper som finns som standard är:
 
@@ -35,9 +35,9 @@ De säkerhetsgrupper som finns som standard är:
 
 >[!IMPORTANT]
 >
->Säkerhetsgrupperna **[!UICONTROL Access to the deliverability parameters (Deliverability)]** och **[!UICONTROL Message Center agents (mcExec)]** är endast interna och ska inte tilldelas användare.
+>Säkerhetsgrupperna **[!UICONTROL Access to the deliverability parameters (Deliverability)]** och **[!UICONTROL Message Center agents (mcExec)]** är endast Adobe internal och ska inte tilldelas till någon användare.
 
-Om en användare inte är länkad till någon säkerhetsgrupp kan han/hon inte få åtkomst till Adobe Campaign.
+För att få åtkomst till Adobe Campaign måste varje användare tilldelas en säkerhetsgrupp.
 
 Om du vill begränsa en användares åtkomst ska du inte lägga till användaren i användargruppen för Campaign Standard eftersom den redan är länkad till **[!UICONTROL All]** organisationsenheten.
 
@@ -146,5 +146,5 @@ Dina användare har nu tilldelats en säkerhetsgrupp och kan ansluta till Adobe 
 
 >[!IMPORTANT]
 >
->Om användare tas bort från en säkerhetsgrupp i Admin Console så blir de kvar i säkerhetsgruppen i Adobe Campaign och kan inte längre logga in i Adobe Campaign.  I så fall tar du bort användarens e-postadresser i Admin Console för att förhindra att de får känslig information.
+>Om användare tas bort från en säkerhetsgrupp i Admin Console är de fortfarande en del av Adobe Campaign säkerhetsgrupp och kan inte längre logga in i Adobe Campaign. I så fall tar du bort användarens e-postadresser i Admin Console för att förhindra att de får känslig information.
 
