@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: a039818cb5d4169ae921df39e9ea9bc9230fceb0
+source-git-commit: b040a5c6948967d053130268329a8ba4879e363b
 workflow-type: tm+mt
-source-wordcount: '6511'
-ht-degree: 98%
+source-wordcount: '6540'
+ht-degree: 96%
 
 ---
 
@@ -23,7 +23,7 @@ Förutom [versionsinformationen](../../rn/using/release-notes.md) för Adobe Cam
 
 **Nya funktioner i denna version**
 
-Tjänsten Email Feedback - [Läs mer](../../sending/using/confirming-the-send.md#email-feedback-service)
+Tjänsten för e-postfeedback - [Läs mer](../../sending/using/confirming-the-send.md#email-feedback-service)
 
 Förbättringar av Adobe Experience Manager-integrationen - [Läs mer](../../integrating/using/creating-multilingual-email-aem.md)
 
@@ -37,13 +37,15 @@ Information har lagts till i den nya GetOption-funktionen som gör att du kan re
 
 Information har lagts till i den nya **[!UICONTROL filesCount]**-utdatavariabeln som är tillgänglig efter att en **[!UICONTROL Transfer file]**-aktivitet har använts. [Läs mer](../../automating/using/transfer-file.md#output-variables)
 
-Avsnittet **Konfigurera e-postkanal** har uppdaterats för att klargöra vilka de senaste e-postinställningarna är. Vissa äldre parametrar som fortfarande används för vissa kunder listas längst ned på den här sidan. [Läs mer](../../administration/using/configuring-email-channel.md)
+Avsnittet **Konfigurera e-postkanal** har uppdaterats för att klargöra vilka de senaste e-postinställningarna är. Vissa äldre parametrar används fortfarande för vissa kunder och visas längst ned på sidan. [Läs mer](../../administration/using/configuring-email-channel.md)
 
 ## December 2020 {#doc-updates-december-2020}
 
 Funktionen **Prediktiv ämnesrad** är nu inaktuell. [Läs mer](../../rn/using/deprecated-features.md)
 
-Avsnittet Komma igång för **transaktionsmeddelanden** innehåller nu [förbättrade scheman](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) och ett [slutanvändarfall](../../channels/using/transactional-messaging-use-case.md) som illustrerar implementeringsprocessen. [Läs mer](../../channels/using/getting-started-with-transactional-msg.md)
+Avsnittet **Komma igång med transaktionsmeddelanden** innehåller nu [förbättrade scheman](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) för att få en bättre förståelse för processen.
+
+Nu finns ett heltäckande exempel som illustrerar implementeringsprocessen för transaktionsmeddelanden. [Läs mer](../../channels/using/transactional-messaging-use-case.md)
 
 Avsnittet **Integritet** har flyttats [hit](../../start/using/privacy.md).
 
@@ -57,11 +59,13 @@ Avsnittet **Använda produktlistor i ett transaktionsmeddelande** har flyttats [
 
 ## November 2020 {#doc-updates-november-2020}
 
-Avsnittet Personuppgifter och personer har uppdaterats med ett scenario med användningsfall som illustrerar hur personerna i de olika rollerna interagerar när det gäller integritet. [Läs mer](../../start/using/privacy.md#use-case-scenario)
+Avsnittet **Personuppgifter och personuppgifter** har uppdaterats med ett fallscenario för användning för att illustrera hur de olika personerna interagerar när det gäller sekretess. [Läs mer](../../start/using/privacy.md#use-case-scenario)
 
 Ett nytt avsnitt som listar vanliga frågor och svar gällande integritet har lagts till. [Läs mer](../../start/using/privacy-faq.md)
 
-Avsnittet Sekretess har flyttats och utökats med två nya sidor: [Integritetshantering](../../start/using/privacy-management.md) och [Hantera förfrågan om användarens information](../../start/using/privacy-requests.md).
+Avsnittet **Sekretess** har flyttats och berikats med två nya sidor: [Sekretesshantering](../../start/using/privacy-management.md) och [Hantera sekretessförfrågningar](../../start/using/privacy-requests.md).
+
+Avsnittet **Transactional messaging** har organiserats om och samlats in på en plats för förbättrad navigering. [Läs mer](../../channels/using/getting-started-with-transactional-msg.md)
 
 Information har lagts till i avsnittet Adobe Experience Platform Data Connector om valideringsfel gällande datakartläggning som rör integritetshantering och felsökning av detta. [Läs mer](../../developing/using/aep-mapping-activation.md)
 
@@ -87,7 +91,7 @@ Ett avsnitt har lagts till som beskriver de nya filtren som gör det möjligt at
 
 ## September 2020 {#doc-updates-september-2020}
 
-Avsnittet Meddelanden för händelsetransaktioner har omorganiserats och klargjorts. [Läs mer](../../channels/using/editing-transactional-message.md)
+Avsnittet **Händelsetransaktionsmeddelanden** har ordnats om och klargjorts. [Läs mer](../../channels/using/editing-transactional-message.md)
 
 Ett varningsmeddelande har lagts till som varnar användare om behörighetsbegränsningar för åtkomst till loggfilerna. [Läs mer](../../administration/using/users-management.md)
 
@@ -101,9 +105,9 @@ Information har lagts till om anonyma källor i rapporten Aktiva profiler. [Läs
 
 Ett nytt och uppdaterat avsnitt om hur du kommer igång med transaktionsmeddelanden finns nu tillgängligt. [Läs mer](../../channels/using/getting-started-with-transactional-msg.md)
 
-Avsnittet **Begränsningar för transaktionsmeddelanden** har flyttats [hit](../../channels/using/transactional-messaging-limitations.md)
+Avsnittet **Begränsningar för transaktionsmeddelanden** har flyttats [hit](../../channels/using/transactional-messaging-limitations.md).
 
-Avsnittet **Förbered sändningen** har flyttats [hit](../../sending/using/preparing-the-send.md)
+Avsnittet **Förbered sändningen** har flyttats [hit](../../sending/using/preparing-the-send.md).
 
 ## Juli 2020 {#doc-updates-july-2020}
 
