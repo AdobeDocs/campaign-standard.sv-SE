@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: b040a5c6948967d053130268329a8ba4879e363b
 workflow-type: tm+mt
 source-wordcount: '6540'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -19,25 +19,25 @@ ht-degree: 96%
 
 Förutom [versionsinformationen](../../rn/using/release-notes.md) för Adobe Campaign listas alla nya uppdateringar i dokumentationen för Adobe Campaign Standard på den här sidan.
 
-## Version 21.1 - februari 2021 {#release-21-1---february-2021}
+## Version 21.1 – februari 2021 {#release-21-1---february-2021}
 
 **Nya funktioner i denna version**
 
 Tjänsten för e-postfeedback - [Läs mer](../../sending/using/confirming-the-send.md#email-feedback-service)
 
-Förbättringar av Adobe Experience Manager-integrationen - [Läs mer](../../integrating/using/creating-multilingual-email-aem.md)
+Förbättringar av Adobe Experience Manager-integrationen – [Läs mer](../../integrating/using/creating-multilingual-email-aem.md)
 
-Enhetligt Experience Cloud-gränssnitt - [Läs mer](../../start/using/interface-description.md#top-bar)
+Enhetligt Experience Cloud-gränssnitt – [Läs mer](../../start/using/interface-description.md#top-bar)
 
 **Andra dokumentationsuppdateringar som följer med denna version**
 
-Information har lagts till om hur du söker efter en profil baserat på e-post, förnamn, efternamn eller anpassade fält. [Läs mer](../../audiences/using/integrated-customer-profile.md)
+Information har lagts till om hur du söker efter en profil baserat på e-post, förnamn, efternamn eller ett anpassat fält. [Läs mer](../../audiences/using/integrated-customer-profile.md)
 
-Information har lagts till i den nya GetOption-funktionen som gör att du kan returnera värdet för en angiven funktion när du anropar ett arbetsflöde med externa parametrar. [Läs mer](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)
+Information lagts till om den nya GetOption-funktionen, som ger dig möjlighet att returnera värdet för en angiven funktion när du anropar ett arbetsflöde med externa parametrar. [Läs mer](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)
 
-Information har lagts till i den nya **[!UICONTROL filesCount]**-utdatavariabeln som är tillgänglig efter att en **[!UICONTROL Transfer file]**-aktivitet har använts. [Läs mer](../../automating/using/transfer-file.md#output-variables)
+Information har lagts till för den nya **[!UICONTROL filesCount]**-output-variabeln som är tillgänglig när en **[!UICONTROL Transfer file]**-aktivitet har använts. [Läs mer](../../automating/using/transfer-file.md#output-variables)
 
-Avsnittet **Konfigurera e-postkanal** har uppdaterats för att klargöra vilka de senaste e-postinställningarna är. Vissa äldre parametrar används fortfarande för vissa kunder och visas längst ned på sidan. [Läs mer](../../administration/using/configuring-email-channel.md)
+Avsnittet **Konfigurera e-postkanal** har uppdaterats för att klargöra vilka de senaste tillämpliga e-postinställningarna är. Vissa äldre parametrar används fortfarande för vissa kunder och visas längst ned på sidan. [Läs mer](../../administration/using/configuring-email-channel.md)
 
 ## December 2020 {#doc-updates-december-2020}
 
@@ -637,7 +637,7 @@ Ett avsnitt som rör **anpassade filter** har lagts till i API-dokumentationen. 
 
 **Nya funktioner i utgåvan**
 
-GDPR: Integrering av bastjänst - [läs mer](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
+GDPR: Integrering av bastjänst - [läs mer](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=sv)
 
 Förbättrade push-funktioner - detaljerad feedback vid leverans - [Läs mer](../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification)
 
@@ -711,7 +711,7 @@ Berikningsaktivitet - berika data baserat på tidigare övergångar - [Läs mer]
 
 De flesta länkar för integreringar med Campaign och Adobe-lösningar har ändrats! Kolla dina bokmärken [Läs mer](../../integrating/using/get-started-campaign-integrations.md)
 
-Datamodell v1 är nu tillgänglig med SQL-strukturen för inbyggda resurser - [Läs mer](https://docs.adobe.com/content/help/sv-SE/campaign-standard/using/developing/datamodel/datamodel-audience.html)
+Datamodell v1 är nu tillgänglig med SQL-strukturen för inbyggda resurser - [Läs mer](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/datamodel/datamodel-audience.html?lang=sv)
 
 Tillagd information om hur du förbereder ett meddelande vid en leverans [Läs mer](../../sending/using/preparing-the-send.md)
 
@@ -839,7 +839,7 @@ Dokumentation har lagts till i rapporten för aktiva profiler. [Läs mer](../../
 
 Dokumentationen för [leveransvarningar](../../sending/using/receiving-alerts-when-failures-happen.md#delivery-alerting-reasons) har uppdaterats med ett felsökningsavsnitt som innehåller tips om vilka åtgärder du kan vidta när du får varningar.
 
-Det finns en ny guide för att komma igång. Den innehåller bästa praxis som kan användas för att leverera med Adobe Campaign. Från att skapa och målinrikta till att skicka och övervaka. [Läs mer](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html)
+Det finns en ny guide för att komma igång. Den innehåller bästa praxis som kan användas för att leverera med Adobe Campaign. Från att skapa och målinrikta till att skicka och övervaka. [Läs mer](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/delivery-best-practices.html?lang=sv)
 
 Dokumentationen för uppföljningsmeddelanden har uppdaterats med ett förbättrat användningsexempel. [Läs mer](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)
 
