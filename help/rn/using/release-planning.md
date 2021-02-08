@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: fb16fc4e24a4345d73e0b2a0ad58a78771a93b8a
 workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Alla versionsdatum kan ändras: Vi rekommenderar att du regelbundet besöker den
 
 Miljöuppdateringar sker i vågor under de angivna tidsramarna nedan. Exakta datum meddelas varje kund via e-post.
 
-Detaljerad information om den här versionen finns i [versionsinformationen](../../rn/using/release-notes.md) när scenmiljöuppgraderingarna startar.
+Detaljerad information om denna version finns i [versionsinformationen](../../rn/using/release-notes.md) när uppgraderingarna av stadiemiljön startar.
 
 <table>
  <thead>
@@ -43,11 +43,11 @@ Detaljerad information om den här versionen finns i [versionsinformationen](../
  <tbody>
   <tr>
    <td>Stadie<br /> </td>
-   <td>1–10 feb 2021<br /> </td>
+   <td>1–10 feb. 2021<br /> </td>
   </tr>
   <tr>
    <td> Produktion<br /> </td>
-   <td>8-17 feb 2021<br /> </td>
+   <td>8–17 feb. 2021<br /> </td>
   </tr>
  </tbody>
 </table>
