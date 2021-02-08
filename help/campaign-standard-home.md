@@ -5,11 +5,11 @@ product: campaign
 title: Produktdokumentation för Adobe Campaign Standard
 description: Bläddra i produktdokumentationen för Adobe Campaign Standard
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 658e1916e39cb3deec15a87891d07e3e9172dc78
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '233'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 94%
 
 ## Nyheter
 
-* **[Campaign 21.1, februari Release is live!](rn/using/release-notes.md)**<br/> Upptäck nya funktioner, senaste uppdateringar och korrigeringar
+* **[Campaign 21.1, februariversionen är här!](rn/using/release-notes.md)**<br/> Upptäck nya funktioner, de senaste uppdateringarna och korrigeringar
 
 * **[Uppdatera felaktigt avvisade e-postmeddelanden](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> Läs om hur du uppdaterar felaktigt avvisade e-postmeddelanden efter ett driftstopp hos Gmail
 
