@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Hjälpcenter för de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som behövs för att använda Campaign Standard. '
 breadcrumb-title: Campaign Standard
 title: Guide för Campaign Standard
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 36efc64f9be3863e5e16381aaba445d2f13eac4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1755'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -237,7 +237,7 @@ ht-degree: 95%
       + [Konfigurera Campaign-Experience Manager-integration](integrating/using/configure-experience-manager.md)
       + [Skapa ett e-postinnehåll i Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
       + [Skapa ett Campaign-formulär i Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
-      + [Skapa flerspråkig e-post med Adobe Experience Manager-integrering](integrating/using/creating-multilingual-email-aem.md)
+      + [Skapa ett flerspråkigt e-postmeddelande med Adobe Experience Manager-integrering](integrating/using/creating-multilingual-email-aem.md)
    + Campaign och Target {#working-with-campaign-and-target}
       + [Om Campaign-Target-integration](integrating/using/about-campaign-target-integration.md)
       + [Konfigurera Campaign-Target-integration](integrating/using/configuring-the-campaign-target-integration.md)
@@ -263,14 +263,14 @@ ht-degree: 95%
       + [Testa utlösarna](integrating/using/testing-your-triggers.md)
       + [Användningsexempel för avbrytningsutlösare](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign och Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Kom igång med Microsoft Dynamics 365-integrering](integrating/using/d365-acs-get-started.md)
+      + [Kom igång med Microsoft Dynamics 365-integration](integrating/using/d365-acs-get-started.md)
       + [Bästa praxis och begränsningar](integrating/using/d365-acs-notices-and-recommendations.md)
       + [Konfigurera Microsoft Dynamics 365](integrating/using/d365-acs-configure-d365.md)
       + [Konfigurera Campaign och Adobe I/O](integrating/using/d365-acs-configure-adobe-io.md)
       + Konfigurera integrationsappen {#configure-integration-tool}
-         + [Kom igång med integreringsappen](integrating/using/d365-acs-self-service-app-quick-start-guide.md)
+         + [Kom igång med integrationsappen](integrating/using/d365-acs-self-service-app-quick-start-guide.md)
          + [Tillgång till integrationsappen](integrating/using/d365-acs-self-service-app-control-access.md)
-         + [Koppla samman system med integreringsappen](integrating/using/d365-acs-self-service-app-settings.md)
+         + [Koppla samman system med integrationsappen](integrating/using/d365-acs-self-service-app-settings.md)
          + [Hantera synkroniseringsarbetsflöden](integrating/using/d365-acs-self-service-app-workflows.md)
          + [Mappa data mellan Microsoft Dynamics 365 och Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [Använda Microsoft Dynamics 365­integrationen](integrating/using/d365-acs-using-the-integration.md)
@@ -451,7 +451,7 @@ ht-degree: 95%
       + [Vanliga frågor och svar om integrering av Experience Platform SDK](administration/using/aep-faq.md)
       + [Konfigurera startregler för att ger stöd för användningsfall i Adobe Campaign Standard](administration/using/configuring-rules-launch.md)
       + [Mobil användning som stöds av Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
-      + [Migrera ditt mobilprogram från SDK v4 till Adobe Experience Platform SDK](administration/using/sdkv4-migration.md)
+      + [Migrera din mobilapplikation från SDK v4 till Adobe Experience Platform SDK](administration/using/sdkv4-migration.md)
    + Konfigurera SMS-kanal {#configuring-sms}
       + [Implementera SMS-kanalen](administration/using/configuring-sms-channel.md)
       + [Protokoll och inställningar för SMS-koppling](administration/using/sms-protocol.md)
