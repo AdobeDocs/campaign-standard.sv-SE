@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: b040a5c6948967d053130268329a8ba4879e363b
+source-git-commit: 87c43d3f97747da03e66634d7236d30a3ec733dc
 workflow-type: tm+mt
 source-wordcount: '6540'
 ht-degree: 98%
@@ -23,7 +23,7 @@ Förutom [versionsinformationen](../../rn/using/release-notes.md) för Adobe Cam
 
 **Nya funktioner i denna version**
 
-Tjänsten för e-postfeedback - [Läs mer](../../sending/using/confirming-the-send.md#email-feedback-service)
+Tjänsten för e-postfeedback - [Läs mer](../../sending/using/confirming-the-send.md#message-indicators)
 
 Förbättringar av Adobe Experience Manager-integrationen – [Läs mer](../../integrating/using/creating-multilingual-email-aem.md)
 
