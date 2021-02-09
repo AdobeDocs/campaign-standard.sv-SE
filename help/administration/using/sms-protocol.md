@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 4b87ebc2585b87f918bbd688c5858394d8d4a742
+source-git-commit: 160eb4f23d9d683695457c1a1f35be1c300b7793
 workflow-type: tm+mt
-source-wordcount: '8666'
+source-wordcount: '8665'
 ht-degree: 0%
 
 ---
