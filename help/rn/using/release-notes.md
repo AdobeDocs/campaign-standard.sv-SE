@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 41f2280c72a2f6bee3e4e972fab17a7ac94b966c
+source-git-commit: 46d864de0ffd5dce718a2a2c055c3194e45fcdd2
 workflow-type: tm+mt
 source-wordcount: '2610'
 ht-degree: 99%
@@ -38,7 +38,7 @@ ht-degree: 99%
 <li>Beräkningen av indikatorn <b>Levererad</b> baseras nu på feedback i realtid från det förbättrade MTA-programmet för ökad precision och reaktivitet.</li>
 <li>EFS löser problemet med förseningar genom synkroniserad rapportering av mjuka studsar.</li>
 </ul>
-<p>Mer information finns i den <a href="../../sending/using/confirming-the-send.md#email-feedback-service">detaljerade dokumentationen</a>.
+<p>Mer information finns i den <a href="../../sending/using/confirming-the-send.md#message-indicators">detaljerade dokumentationen</a>.
 </p>
 </td> 
 </tr> 
