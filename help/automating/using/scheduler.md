@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: schedule,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 9b76f02b03ba1180f852b446f0dbbae26a27d4bd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '614'
+ht-degree: 89%
 
 ---
 
@@ -33,6 +33,8 @@ När du skapar arbetsflödet ska du endast använda en **[!UICONTROL Scheduler]*
 >[!CAUTION]
 >
 >Aktivitetens **[!UICONTROL Repetition frequency]** får inte vara under 10 minuter.  Detta innebär att ett arbetsflöde inte kan köras automatiskt mer än en gång var 10:e minut.
+
+När du utformar ett schemalagt arbetsflöde som innehåller flera aktiviteter måste du se till att arbetsflödet inte schemaläggs om förrän det är klart. För att göra detta måste du konfigurera arbetsflödet för att förhindra att det körs om en eller flera uppgifter från en tidigare körning fortfarande väntar. Se denna [sida](../../automating/using/scheduled-workflows-execution.md) för mer information om detta.
 
 **Relaterade ämnen:**
 
