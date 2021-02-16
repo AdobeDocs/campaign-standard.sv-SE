@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 87c43d3f97747da03e66634d7236d30a3ec733dc
+source-git-commit: ea0755d22b34c4c961fd8715ecf4551ffcdcb58e
 workflow-type: tm+mt
-source-wordcount: '6540'
-ht-degree: 98%
+source-wordcount: '6571'
+ht-degree: 97%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 98%
 # Dokumentationsuppdateringar{#documentation-updates}
 
 Förutom [versionsinformationen](../../rn/using/release-notes.md) för Adobe Campaign listas alla nya uppdateringar i dokumentationen för Adobe Campaign Standard på den här sidan.
+
+## Februari 2021 {#doc-updates-february-2021}
+
+Information har lagts till om hur du ser till att ett schemalagt arbetsflöde inte schemaläggs om förrän en eller flera aktiviteter från en tidigare körning fortfarande väntar. [Läs mer](../../automating/using/scheduled-workflows-execution.md)
 
 ## Version 21.1 – februari 2021 {#release-21-1---february-2021}
 
