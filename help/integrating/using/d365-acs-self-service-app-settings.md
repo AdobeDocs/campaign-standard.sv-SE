@@ -13,7 +13,7 @@ ht-degree: 2%
 ---
 
 
-# Koppla samman system med integreringsappen
+# Koppla samman system med integrationsappen
 
 ## Lägg till inloggningsuppgifter i integreringsappen
 
@@ -47,7 +47,7 @@ I följande bild förklaras i detalj mappningen mellan Adobe I/O och inställnin
 
 ## Adobe Campaign SFTP-inställningar {#ac-smtp-settings}
 
-Dessa inställningar är valfria. Du måste definiera dem om du tänker använda din Adobe Campaign SFTP-instans för att skriva ut loggar från anslutningen. Detta är praktiskt om du får problem när integreringen körs och du behöver felsöka varför utdata inte uppfyller dina förväntningar.
+Dessa inställningar är valfria. Du måste definiera dem om du tänker använda din Adobe Campaign SFTP-instans för att skriva ut loggar från anslutningen. Detta är praktiskt om du får problem när integreringen körs och du måste felsöka varför utdata inte uppfyller dina förväntningar.
 
 Den andra anledningen att konfigurera SFTP-servern är om du planerar att köra arbetsflödet för anmälan/utanmälan och det finns ett dataflöde från Adobe Campaign till Microsoft Dynamics 365, antingen **[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]** eller **[!UICONTROL Bidirectional]**.
 
