@@ -9,8 +9,8 @@ topic-tags: email-messages
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '292'
+ht-degree: 25%
 
 ---
 
@@ -41,7 +41,7 @@ Publiken baseras på profiler med en färdig språkinfo.
 
 1. Testa och validera meddelandet. Se avsnittet [Skicka korrektur](../../sending/using/sending-proofs.md).
 1. Schemalägg sändningen med **[!UICONTROL Send after confirmation option]**.
-1. När e-postmeddelandet har skickats kan du få tillgång till loggarna och rapporterna för att mäta kampanjens framgångar. Mer information om rapportering finns i [det här avsnittet](../../reporting/using/about-dynamic-reports.md).
+1. När e-postmeddelandet har skickats kan du komma åt loggarna och rapporterna för att mäta kampanjens framgångar. Mer information om rapportering finns i [det här avsnittet](../../reporting/using/about-dynamic-reports.md).
 
 **Relaterat ämne:**
 
