@@ -1,15 +1,15 @@
 ---
-keywords: Campaign Standard;home;popular topics
+keywords: Campaign Standard;hemmabruk;populära ämnen
 solution: Campaign Standard
 product: campaign
 title: Produktdokumentation för Adobe Campaign Standard
 description: Bläddra i produktdokumentationen för Adobe Campaign Standard
 topic: Premium
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 658e1916e39cb3deec15a87891d07e3e9172dc78
-workflow-type: ht
-source-wordcount: '233'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 97%
 
 ---
 
