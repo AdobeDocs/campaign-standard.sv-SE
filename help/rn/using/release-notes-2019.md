@@ -31,7 +31,7 @@ ht-degree: 8%
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>CCPA är delstaten Kaliforniens nya integritetslagstiftning som harmoniserar och moderniserar dataskyddskraven som träder i kraft den 1 januari 2020. CCPA gäller Adobe Campaign-kunder som lagrar data för registrerade i Kalifornien.</p>
+   <td> <p>CCPA är delstaten Kaliforniens nya integritetslagstiftning som harmoniserar och moderniserar dataskyddskraven som träder i kraft den 1 januari 2020. CCPA gäller för Adobe Campaign-kunder som lagrar data för registrerade i Kalifornien.</p>
    <p>Förutom de sekretessfunktioner som redan finns i Adobe Campaign (inklusive samtyckeshantering, datalagringsinställningar och användarroller) tar vi tillfället i akt att inkludera ytterligare funktioner som underlättar din beredskap för CCPA:</p>
    <ul>
     <li>Rätt till åtkomst och rätt att ta bort: vi utnyttjar de funktioner som tillkommit för GDPR. <a href="https://helpx.adobe.com/se/campaign/kb/acs-privacy.html#righttoaccess">Läs mer</a> </li>
@@ -422,7 +422,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
  <tbody> 
   <tr> 
    <td> Förbättrad push-kanalrapportering<br /> </td> 
-   <td> <p>Flera förbättringar har lagts till i push-kanalrapportering så att ni kan mäta användarengagemanget mer intuitivt. I den här versionen expanderar vi listan över Push-kanalmått till tre olika mätvärden: Impressions, Click, Open (App Open) hjälper dig att mäta och analysera användarnas interaktion med push-meddelanden mer effektivt. Dessutom standardiserar vi definitionen och genomförandet av dessa mätvärden. Den inbyggda rapporten för push-meddelanden har också förbättrats med visualiseringar och mätvärden som ofta används.</p><p> Mer information finns i den <a href="../../reporting/using/push-notification-report.md">detaljerade dokumentationen</a>.</p> </td> 
+   <td> <p>Flera förbättringar har lagts till i push-kanalrapportering så att ni kan mäta användarengagemanget mer intuitivt. I den här versionen expanderar vi listan över Push-kanalmått till tre olika mätvärden: Impressions, Click, Open (App Open) hjälper dig att mäta och analysera användarnas interaktion med push-meddelanden mer effektivt. Dessutom standardiserar vi definitionen och genomförandet av dessa mätvärden. Den inbyggda rapporten för push-meddelanden har också förbättrats med visualiseringar och mätvärden som används ofta.</p><p> Mer information finns i den <a href="../../reporting/using/push-notification-report.md">detaljerade dokumentationen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Starta integrering för mobilapp<br /> </td> 
