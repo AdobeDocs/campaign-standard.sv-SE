@@ -2,15 +2,15 @@
 solution: Campaign Standard
 product: campaign
 title: Konfigurera utlösare i Experience Cloud
-description: 'Lär dig hur du konfigurerar integreringen av Adobe Experience Cloud Triggers för att börja skicka personaliserade leveranser till dina kunder baserat på deras tidigare beteenden. '
+description: 'Lär dig hur du konfigurerar Adobe Experience Cloud Triggers-integreringen så att du kan börja skicka personaliserade leveranser till dina kunder baserat på deras tidigare beteenden. '
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '860'
+ht-degree: 8%
 
 ---
 
