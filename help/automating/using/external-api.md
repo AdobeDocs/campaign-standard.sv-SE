@@ -38,7 +38,7 @@ De viktigaste egenskaperna för denna aktivitet är:
 
 ### Meddelanden om bakåtkompatibilitet{#from-beta-to-ga}
 
-I Campaign Standard 20.4 har http-svarsdatastorleksgränsen och tidsgränsgardinerna för svar sänkts så att de överensstämmer med bästa praxis - se [Begränsningar och skyddsutkast](#guardrails). Dessa skyddsändringar träder ej i kraft för befintliga externa API-aktiviteter. Vi rekommenderar därför att du ersätter befintliga externa API-aktiviteter med nya versioner i alla arbetsflöden.
+I Campaign Standard 20.4 har http-svarets datastorleksgräns och tidsgränsskydd sänkts för att passa in i bästa praxis - se [Begränsningar och skyddsutkast](#guardrails). Dessa skyddsändringar träder ej i kraft för befintliga externa API-aktiviteter. Vi rekommenderar därför att du ersätter befintliga externa API-aktiviteter med nya versioner i alla arbetsflöden.
 
 När du ersätter Extern API-aktiviteter lägger du till den nya Extern API-aktiviteten i arbetsflödet, kopierar manuellt över konfigurationsinformationen och tar sedan bort den gamla aktiviteten.
 
@@ -120,7 +120,7 @@ Om slutpunkten så kräver finns det två typer av autentiseringsmetoder:
 
 * Grundläggande autentisering: Ange användarnamn/lösenord i avsnittet **[!UICONTROL Request Header(s)]**.
 
-* OAuth-autentisering: Genom att klicka på **[!UICONTROL Use connection parameters defined in an external account]** i ett externt konto kan du välja ett externt konto där OAuth-autentiseringen har definierats. Se avsnittet [Externa konton](../../administration/using/external-accounts.md) för mer information.
+* OAuth-autentisering: Genom att klicka på **[!UICONTROL Use connection parameters defined in an external account]** i ett externt konto kan du välja ett externt konto där OAuth-autentiseringen definieras. Se avsnittet [Externa konton](../../administration/using/external-accounts.md) för mer information.
 
 ![](assets/externalAPI-execution.png)
 
