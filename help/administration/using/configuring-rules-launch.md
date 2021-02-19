@@ -10,8 +10,8 @@ context-tags: mobileApp,overview
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '914'
+ht-degree: 1%
 
 ---
 
@@ -117,7 +117,7 @@ Om du vill skicka PII-data till [!DNL Adobe Campaign Standard] skapar du en rege
    "{%contextdata.lastName%}" }
    ```
 
-   Med MarketingCloudId kan ni stämma av era appprenumeranter med mottagarna i databasen och därför krävs det. Du kan ange andra nyckelvärdepar efter företagets behov. I exemplet ovan skickas e-post, förnamn och efternamn från appen.
+   Med MarketingCloudId kan du stämma av appprenumeranterna mot mottagarna i databasen, vilket innebär att det krävs. Du kan ange andra nyckelvärdepar efter företagets behov. I exemplet ovan skickas e-post, förnamn och efternamn från appen.
 
    Nycklarna (till exempel cusEmail, cusFirstName och cusLastName) ska matcha fält-ID:n som definieras i din anpassade resurs i Adobe Campaign Standard-instansen. Värdevariablerna (till exempel email, firstName och LastName) ska matcha nycklarna i JSON-data som skickas från mobilappen när AMS-API:t collectPII anropas från appkoden.
 
