@@ -379,7 +379,7 @@ Om du behöver kontrollera exakt antalet anslutningar, t.ex. leverantörskrav, b
 
 #### SMPP-anslutningsläge {#smpp-connection-mode}
 
-Ställer in anslutningen i **överföringsläge** eller i separerat **sändar+mottagare**-läge. När du växlar till läget **sändare+mottagare**, gäller inställningarna i avsnittet **SMPP-anslutningsläge** för sändaren och inställningarna i avsnittet **Inställningar för mottagaranslutning** gäller för mottagaranslutningen endast om du har markerat kryssrutan **Använd olika parametrar för mottagaren**.
+Ställer in anslutningen i **överföringsläge** eller i separerat **sändar+mottagare**-läge. När du växlar till läget **sändare+mottagare** för separerad **SMPP-anslutning** gäller inställningarna i avsnittet SMPP-anslutningsläge för sändaren och inställningarna i **inställningarna för mottagaranslutning** gäller för mottagaranslutningen endast om du har markerat kryssrutan **Använd olika parametrar för mottagaren**.
 
 #### SMSC-implementeringsnamn {#smsc-implementation-name}
 
