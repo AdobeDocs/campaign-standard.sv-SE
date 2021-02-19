@@ -81,7 +81,7 @@ Adobe Campaign erbjuder en uppsättning verktyg som hjälper dig med din **sekre
 
 Läs mer i den här [artikeln](https://helpx.adobe.com/se/campaign/kb/campaign-privacy.html) om sekretesshantering och de funktioner vi tillhandahåller för att hantera behörighet till åtkomst, rätt att bli glömd, samtycke, datalagring och användarroller.
 
-Integritet och samtycke i Campaign och hur du hanterar dem beskrivs i [det här avsnittet](../../start/using/privacy.md). Du hittar också bästa praxis som hjälper dig att följa din sekretesspraxis när du använder vår tjänst.
+Integritet och samtycke i Campaign och hur du hanterar dem presenteras i [det här avsnittet](../../start/using/privacy.md). Du hittar också bästa praxis som hjälper dig att följa din sekretesspraxis när du använder vår tjänst.
 
 ## Ytterligare resurser
 
