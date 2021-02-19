@@ -30,7 +30,7 @@ Här är de viktigaste stegen för att skapa och designa ett e-postinnehåll fr�
 1. Förhandsgranska din e-post.
 1. Spara innehållet och fortsätt med meddelandet efter att du har definierat en målgrupp och schemalagt sändningen.
 
-Du kan även kolla in den här [introduktionsvideon](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=swe).
+Du kan även kolla in den här [introduktionsvideon](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).
 
 >[!NOTE]
 >
@@ -115,7 +115,7 @@ Här är en lista över tillgängliga komponenter i e-postdesignern:
 
 ### **[!UICONTROL Button]**
 
-Om du behöver använda flera knappar, i stället för att redigera varje knapp från början, kan du duplicera komponenten **[!UICONTROL Button]** med hjälp av det sammanhangsberoende verktygsfältet.
+Om du behöver använda flera knappar, i stället för att redigera varje knapp från början, kan du duplicera komponenten **[!UICONTROL Button]** med det sammanhangsberoende verktygsfältet.
 
 Du kan också spara knappar i fragment som kan återanvändas. Mer information finns i [Skapa ett innehållsfragment](../../designing/using/using-reusable-content.md#creating-a-content-fragment) och [Spara innehåll som ett fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
 
