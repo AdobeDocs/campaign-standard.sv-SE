@@ -24,7 +24,7 @@ Innan du publicerar ditt transaktionsmeddelande kan du skapa en specifik testpro
 
 Definiera en testprofil som ska länkas till din händelse så att du kan förhandsgranska meddelandet och skicka ett relevant bevis.
 
-1. Klicka på knappen ](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) på kontrollpanelen för transaktionsmeddelanden[.**[!UICONTROL Create test profile]**
+1. Klicka på knappen **[!UICONTROL Create test profile]** på kontrollpanelen för transaktionsmeddelanden](../../channels/using/editing-transactional-message.md#accessing-transactional-messages).[
 
    ![](assets/message-center_test-profile.png)
 
