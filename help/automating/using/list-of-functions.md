@@ -9,8 +9,8 @@ topic-tags: filtering-data
 translation-type: tm+mt
 source-git-commit: ef170f2282fcc46e36c90dada2083dea25b95f7c
 workflow-type: tm+mt
-source-wordcount: '1940'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
