@@ -71,7 +71,7 @@ Så här förhandsgranskar du ett SMS-meddelande med testprofiler:
 
    ![](assets/sms_preview_3.png)
 
-1. Klicka på **[!UICONTROL Change profile]** för att välja testprofil och sedan **[!UICONTROL Confirm]**.
+1. Klicka på **[!UICONTROL Change profile]** för att välja din testprofil och sedan **[!UICONTROL Confirm]**.
 
    ![](assets/sms_preview_4.png)
 
