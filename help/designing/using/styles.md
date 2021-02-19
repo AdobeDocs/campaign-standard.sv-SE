@@ -9,8 +9,8 @@ topic-tags: editing-email-content
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1052'
+ht-degree: 2%
 
 ---
 
@@ -40,7 +40,7 @@ Genom att bläddra i strukturträdet kan du göra en mer exakt markering. Du kan
 Om du vill markera en kolumn kan du även göra följande:
 
 1. Välj en strukturkomponent (direkt i e-postmeddelandet eller med strukturträdet som är tillgängligt från vänster **palett**).
-1. Klicka på **i det sammanhangsberoende verktygsfältet** och välj önskad kolumn.**[!UICONTROL Select a column]**
+1. Klicka på **[!UICONTROL Select a column]** i det sammanhangsberoende verktygsfältet **och välj önskad kolumn.**
 
 Se ett exempel i [det här avsnittet](#example--adjusting-vertical-alignment-and-padding).
 
@@ -69,7 +69,7 @@ Exempel:
 
 * Använd utfyllnad för att ange marginaler till vänster och höger om en bild.
 * Använd den övre och undre utfyllnaden för att lägga till mer utrymme i en **[!UICONTROL Text]**- eller **[!UICONTROL Divider]**-komponent.
-* Om du vill ange kantlinjer mellan kolumner i ett strukturelement definierar du utfyllnad för varje kolumn.
+* Om du vill ange kantlinjer mellan kolumner inuti ett strukturelement definierar du utfyllnad för varje kolumn.
 
 **[!UICONTROL Margin]**: Med den här inställningen kan du hantera mellanrummet mellan elementets kant och nästa element.
 
@@ -150,7 +150,7 @@ Nedan visas de tillgängliga bakgrundsinställningarna som du kan använda.
 Du vill justera utfyllnaden och den lodräta justeringen inuti en strukturkomponent som består av tre kolumner. Följ stegen nedan för att göra detta:
 
 1. Markera strukturkomponenten direkt i e-postmeddelandet eller använd det strukturträd som finns till vänster **Palett**.
-1. Klicka på **i det sammanhangsberoende verktygsfältet** och välj det som du vill redigera. **[!UICONTROL Select a column]** Du kan också välja det i strukturträdet.
+1. Klicka på **[!UICONTROL Select a column]** i det sammanhangsberoende verktygsfältet **och välj det som du vill redigera.** Du kan också välja det i strukturträdet.
 
    ![](assets/des_selecting_column.png)
 
