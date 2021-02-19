@@ -20,7 +20,7 @@ E-postdesignern har fyra sätt att skapa e-postmeddelanden.
 
 Du kan skapa ett [e-postmeddelande som börjar om i e-postdesignern](#without-existing-content):
 
-1. Du kan **skapa ett e-postmeddelande från en tom arbetsyta** genom att enkelt lägga till struktur- och innehållskomponenter och anpassa deras innehåll för att skicka en leverans snabbt. Du kan också hantera formatelement helt. Mer information finns i [den fullständiga dokumentationen](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).[](#from-scratch-email)
+1. Du kan **skapa ett e-postmeddelande från en tom arbetsyta** genom att enkelt lägga till struktur- och innehållskomponenter och anpassa deras innehåll för att skicka en leverans snabbt. Du kan också hantera formatelement helt. Mer information finns i [den fullständiga dokumentationen](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).](#from-scratch-email)[
 
 1. Du kan **skapa ett e-postmeddelande från en färdig mall** genom att välja en mall och skapa ditt nya e-postinnehåll härifrån. [Läs mer](#building-content-from-an-out-of-the-box-template)
 
