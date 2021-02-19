@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: 6c171d45d655e4055d4a3c7927f1dd8e0913eeaa
 workflow-type: tm+mt
 source-wordcount: '1202'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Migrera ditt mobilprogram från SDK v4 till Adobe Experience Platform SDK {#sdkv4-migration}
+# Migrera din mobilapplikation från SDK v4 till Adobe Experience Platform SDK {#sdkv4-migration}
 
 >[!IMPORTANT]
 >
