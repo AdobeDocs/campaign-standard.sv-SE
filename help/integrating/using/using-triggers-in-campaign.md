@@ -9,8 +9,8 @@ topic-tags: working-with-campaign-and-triggers
 translation-type: tm+mt
 source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '751'
+ht-degree: 83%
 
 ---
 
