@@ -17,7 +17,7 @@ ht-degree: 10%
 
 # Anpassa Campaign-meddelanden med Point of Interest-data{#personalizing-campaign-messages-with-point-of-interest-data}
 
-I Adobe Campaign kan du använda de intressepunkter som samlats in från prenumeranterna av ditt mobilprogram för att skicka personaliserade marknadsföringsmeddelanden till dem, till exempel ett e-postmeddelande.
+I Adobe Campaign kan du använda de intressepunkter som samlats in från mobilprogrammets prenumeranter för att skicka personaliserade marknadsföringsmeddelanden till dem, till exempel ett e-postmeddelande.
 
 Du kan bara reagera på intressepunktsdata med standardleveranser. [Transaktionsmeddelanden ](../../channels/using/getting-started-with-transactional-msg.md) kan inte använda platsdata.
 
