@@ -9,8 +9,8 @@ topic-tags: adding-or-extending-a-resource
 translation-type: tm+mt
 source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '105'
+ht-degree: 47%
 
 ---
 
