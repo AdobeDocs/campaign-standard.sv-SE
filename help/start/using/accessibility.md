@@ -6,9 +6,9 @@ description: Läs mer om tillgänglighetsstöd i Adobe Campaign Standard Workspa
 audience: designing
 content-type: reference
 topic-tags: accessibility
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6ea28c457b1024dab315b60281adaee56eb80cd0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 100%
 
