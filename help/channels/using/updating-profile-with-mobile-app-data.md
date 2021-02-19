@@ -10,8 +10,8 @@ context-tags: delivery,mobileAppContent,back
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1010'
+ht-degree: 4%
 
 ---
 
@@ -49,7 +49,7 @@ I det här exemplet återspeglar **[!UICONTROL Fields]**-avsnittet de PII-data s
 Mappningen för profildata när du utökar resursen **[!UICONTROL Subscriptions to an Application]** är SKRIVSKYDDAD. Det används för avstämning. Profilen måste registreras i systemet med de data som krävs för att stämma av profilen med PII-data. I det här fallet måste en e-postadress för profilen matcha ett e-postmeddelande från Hämta PII för att avstämningen ska ske:
 
 * Samla in PII tas emot från en mobilapp för en användare där förnamnet är &quot;Jane, efternamnet är &quot;Doe&quot; och e-postadressen är janedoe@doe.com.
-* Profildata måste finnas separat (data måste till exempel anges manuellt eller redan komma från en annan resurs) där profilens e-postadress är janedoe@doe.com.
+* Profildata måste finnas separat (till exempel måste data anges manuellt eller redan komma från en annan resurs) där profilens e-postadress är janedoe@doe.com.
 
 **Relaterade ämnen:**
 
