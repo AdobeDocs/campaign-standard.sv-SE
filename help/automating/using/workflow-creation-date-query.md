@@ -10,8 +10,8 @@ context-tags: workflow,use-case,query
 translation-type: tm+mt
 source-git-commit: 45c80b5e6bf2169c5acf6eea70da9e2f130982c8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '354'
+ht-degree: 38%
 
 ---
 
