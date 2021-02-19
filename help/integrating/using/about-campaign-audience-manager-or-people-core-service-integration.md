@@ -9,8 +9,8 @@ topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 translation-type: tm+mt
 source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
