@@ -9,8 +9,8 @@ topic-tags: channel-activities
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '475'
+ht-degree: 4%
 
 ---
 
@@ -51,7 +51,7 @@ Så här skapar du arbetsflödet:
 
    * Välj alternativet **[!UICONTROL Recurring notification]**.
    * Definiera innehållet i push-meddelanden. Mer information om innehållet i push-meddelanden finns i [avsnittet](../../channels/using/preparing-and-sending-a-push-notification.md).
-   * Välj **[!UICONTROL Messages to be sent automatically on the time zone specified below]** i **[!UICONTROL Schedule]**-blocket. Här väljer vi Stilla havet som i arbetsflödet **[!UICONTROL Time zone of the contact date]**.**[!UICONTROL Scheduler]**
+   * Välj **[!UICONTROL Messages to be sent automatically on the time zone specified below]** i **[!UICONTROL Schedule]**-blocket. Här väljer vi Stilla havet som i arbetsflödet **[!UICONTROL Scheduler]**.**[!UICONTROL Time zone of the contact date]**
    * Markera **[!UICONTROL Optimize the sending time per recipient]** i fältet **[!UICONTROL Send at the recipient's time zone]**.
 
       ![](assets/wkf_push_example_4.png)
