@@ -55,7 +55,7 @@ Nedan finns länkar som hjälper dig att implementera och/eller ta bort sekretes
 
 ## Avanmäl dig {#opt-out}
 
-På grund av skillnaderna i avanmälningsattribut mellan Microsoft Dynamics 365 och Campaign, och skillnaderna i affärsbehov för varje kund, har avanmälningsmappning lämnats som en övning för kunden att slutföra.  Det är viktigt att avanmälningarna mappas korrekt mellan systemen så att inställningarna för avanmälan från slutanvändare upprätthålls och de inte får något meddelande via en kanal som de avanslutit sig från.
+På grund av skillnaderna i avanmälningsattribut mellan Microsoft Dynamics 365 och Campaign, och skillnaderna i affärsbehov för varje kund, har avanmälningsmappning lämnats som en övning för kunden att slutföra.  Det är viktigt att avanmälningarna mappas korrekt mellan systemen så att inställningarna för avanmälan från slutanvändare upprätthålls och de inte får något meddelande via en kanal som de avanmält.
 
 Observera att endast följande kan användas i avanmälningsmappningar:
 
