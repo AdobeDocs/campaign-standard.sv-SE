@@ -375,7 +375,7 @@ ht-degree: 1%
                         <li>(GMT) Greenwich, medeltid - GMT - GMT</li>
                         <li>Standard - ingen - ingen</li>
                         <li>(GMT-04.00) La Paz - America_La_Paz - America/La_Paz</li>
-                        <li>(GMT-06:00) Guadalajara, Mexico, Monterrey - America_Mexico_City - America/Mexico_City</li>
+                        <li>(GMT-06:00) Guadalajara, Mexico, Monterrey - America_Mexico_City - Amerika/Mexico_City</li>
                         <li>(GMT+09.30) Darwin - Australia_Darwin - Australien/Darwin</li>
                         <li>(GMT-05:00) Est (USA och Kanada) - America_New_York - America/New_York</li>
                         <li>(GMT-05:00) Greenwich Mean Time minus 5 timmar - Gmt_m5 - ETC/GMT+5</li>
