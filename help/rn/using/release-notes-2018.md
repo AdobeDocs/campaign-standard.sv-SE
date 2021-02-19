@@ -203,7 +203,7 @@ Visa de senaste [dokumentationsuppdateringarna](../../rn/using/documentation-upd
  <tbody> 
   <tr> 
    <td> GDPR: Integrering av bastjänst<br /> </td> 
-   <td> Integritet Core Service Integration gör att ni kan automatisera era GDPR-förfrågningar i ett flerlösningssammanhang via ett enda JSON API-anrop. <br /> GDPR-begäranden som skickas från sekretesskärntjänsten till alla Experience Cloud-lösningar hanteras nu automatiskt av Campaign. <br /> Mer information finns i den <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Integritet Core Service Integration gör att ni kan automatisera era GDPR-förfrågningar i ett flerlösningssammanhang via ett enda JSON API-anrop. <br /> GDPR-begäranden som skickas från sekretesskärntjänsten till alla Experience Cloud-lösningar hanteras nu automatiskt av Campaign. <br /> Mer information finns i den <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=sv">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Förbättrade push-funktioner - detaljerad leveransfeedback<br /> </td> 
