@@ -10,8 +10,8 @@ context-tags: delivery,smsContent,back
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1727'
+ht-degree: 1%
 
 ---
 
@@ -559,7 +559,7 @@ ht-degree: 0%
                <li>(GMT) Greenwich, medeltid - GMT - GMT</li>
                <li>(GMT-04.00) La Paz - America_La_Paz - America/La_Paz</li>
                <li>Operatörens tidszon - _login_ - _login_</li>
-               <li>(GMT-06:00) Guadalajara, Mexico, Monterrey - America_Mexico_City - America/Mexico_City</li>
+               <li>(GMT-06:00) Guadalajara, Mexico, Monterrey - America_Mexico_City - Amerika/Mexico_City</li>
                <li>(GMT+09.30) Darwin - Australia_Darwin - Australien/Darwin</li>
                <li>(GMT-05:00) Est (USA och Kanada) - America_New_York - America/New_York</li>
                <li>(GMT-05:00) Greenwich Mean Time minus 5 timmar - Gmt_m5 - ETC/GMT+5</li>
