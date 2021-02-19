@@ -32,7 +32,7 @@ Push-spårning är indelad i tre typer:
 
 * **Tryck på**  - När ett push-meddelande har levererats till enheten och användaren har klickat på enheten.  Användaren ville antingen visa meddelandet (som i sin tur går till Push Open tracking) eller stänga meddelandet.
 
-* **Skjut upp**  - När ett push-meddelande har levererats till enheten och användaren har klickat på meddelandet som får programmet att öppnas.  Det här liknar kommandot Push Click (Push-klicka), förutom att Push Open (Push Open) inte aktiveras om meddelandet stängs.
+* **Skjut upp**  - När ett push-meddelande har levererats till enheten och användaren har klickat på meddelandet som får programmet att öppnas.  Detta liknar kommandot Push Click, men Push Open aktiveras inte om meddelandet stängs.
 
 För att implementera spårning för Campaign Standard måste mobilappen innehålla Mobile SDK. Dessa SDK är tillgängliga för Adobe mobiltjänster. Se denna [sida](../../administration/using/configuring-a-mobile-application.md) för mer information om detta.
 
