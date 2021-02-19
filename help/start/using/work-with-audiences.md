@@ -128,7 +128,7 @@ Tack vare arbetsflödena och frågeredigeraren kan ni skapa målgrupper som mål
 
 GDPR är EU:s (EU) nya integritetslagstiftning som harmoniserar och moderniserar kraven på skydd av personuppgifter. GDPR gäller för Adobe Campaign-kunder som innehar uppgifter för registrerade personer som bor i EU. Förutom de sekretessfunktioner som redan finns i Adobe Campaign (inklusive samtyckeshantering, datalagringsinställningar och användarroller) tar vi denna möjlighet i vår roll som dataprocessor för att inkludera ytterligare funktioner som hjälper dig att bli redo som Data Controller för vissa GDPR-förfrågningar.
 
-Läs den här [guiden](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html) om du vill veta mer om de verktyg och funktioner som Adobe Campaign tillhandahåller för att hjälpa dig att bli GDPR-kompatibel.
+Läs den här [guiden](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=sv) om du vill veta mer om de verktyg och funktioner som Adobe Campaign tillhandahåller för att hjälpa dig att bli GDPR-kompatibel.
 
 **Läs mer**
 
