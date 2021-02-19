@@ -120,7 +120,7 @@ Vi rekommenderar att du tillämpar följande principer för att kunna använda e
 
 * Referensmeta-taggen stöds inte i e-postdesignern.
 
-Mer information om design och bästa praxis angående meddelanden finns i följande steg-för-steg-guide om Adobe Campaign: [följ bästa praxis med Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
+Mer information om design och bästa praxis angående meddelanden finns i följande steg-för-steg-guide om Adobe Campaign: [följ bästa praxis med Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/delivery-best-practices.html?lang=sv).
 
 ### Uppdaterar fragment {#email-designer-updates}
 
