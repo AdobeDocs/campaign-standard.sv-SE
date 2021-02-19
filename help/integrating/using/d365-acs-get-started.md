@@ -46,7 +46,7 @@ Integrationen är utformad för fyra huvudsakliga användningsområden:
 
 De viktigaste fördelarna är:
 
-* Enhetliga meddelanden mellan försäljning och marknadsföring: adobe campaign standard integrering med Dynamics 365 ger både systemåtkomst till kundinsikter och e-postmarknadsföringshistorik så att alla meddelanden till kunden kan dela samma enhetliga budskap.
+* Enhetliga meddelanden mellan försäljning och marknadsföring: Adobe Campaign Standard integrering med Dynamics 365 ger både systemåtkomst till kundinsikter och e-postmarknadsföringshistorik så att alla meddelanden till kunden kan dela samma enhetliga budskap.
 
 * Holistisk bild av alla potentiella kunder och kunddata: genom att integrera Adobe Campaign Standard med Dynamics 365 är det möjligt att dela och komma åt marknadshistorik via e-post för varje kontakt inifrån CRM-systemet.
 
