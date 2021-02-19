@@ -18,7 +18,7 @@ ht-degree: 86%
 
 # Personalisera ett e-postmeddelande med ytterligare data {#example--personalizing-an-email-with-additional-data}
 
-I följande exempel visas hur du lägger till olika typer av ytterligare data i en förfrågan och hur de används som ett personaliserat fält i ett e-postmeddelande. Mer information om hur du berikar data som används av en **[!UICONTROL Query]**-aktivitet finns i [det här avsnittet](../../automating/using/query.md#enriching-data).
+I följande exempel visas hur du lägger till olika typer av ytterligare data i en förfrågan och hur de används som ett personaliserat fält i ett e-postmeddelande. Mer information om hur du förbättrar data som används av en **[!UICONTROL Query]**-aktivitet finns i [det här avsnittet](../../automating/using/query.md#enriching-data).
 
 I det här exemplet används [anpassade resurser](../../developing/using/data-model-concepts.md) :
 
