@@ -283,7 +283,7 @@ Tabellerna nedan visar en lista över indikatorer som används i de olika rappor
   <tr> 
    <td> Klicka på<br /> </td> 
    <td> @klickningar<br /> </td> 
-   <td> @count(status=interagera)<br /> </td> 
+   <td> @count(status=interact)<br /> </td> 
   </tr> 
   <tr> 
    <td> Unika klick<br /> </td> 
