@@ -46,6 +46,6 @@ Den andra tabellen **Push notification Click &amp; opens** är uppdelad i tre ka
 * **[!UICONTROL Unique impressions]**: Antal visningar per mottagare.
 * **[!UICONTROL Click]**: Antal gånger ett push-meddelande har levererats till enheten och användaren klickat på det. Användaren ville antingen visa meddelandet, som sedan flyttas till Push Open tracking, eller stänga det.
 * **[!UICONTROL Unique clicks]**: Antal gånger en unik användare interagerar med push-meddelandet, t.ex. klickar på meddelandet eller knappen.
-* **[!UICONTROL Open]**: Totalt antal push-meddelanden som levererats till enheten och användaren klickat på för att öppna appen. Det här liknar kommandot Push Click (Push-klicka), förutom att Push Open (Push Open) inte aktiveras om meddelandet stängs.
+* **[!UICONTROL Open]**: Totalt antal push-meddelanden som levererats till enheten och användaren klickat på för att öppna appen. Detta liknar kommandot Push Click, men Push Open aktiveras inte om meddelandet stängs.
 * **[!UICONTROL Unique Opens]**: Antal mottagare som öppnade leveransen.
 
