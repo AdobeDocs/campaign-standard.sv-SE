@@ -88,6 +88,7 @@ Aktiviteten **[!UICONTROL Segmentation]** placeras vanligtvis efter målaktivite
       >[!NOTE]
       >
       >Olika begränsningar för varje enskilt värde kan användas.  Du kan exempelvis ange en gruppering för fält **[!UICONTROL Gender]** och begränsa populationen med **[!UICONTROL Male]**-medlemmar till 10 och **[!UICONTROL Female]**-medlemmar till 30 personer.  Om du använder flera fält för datagruppering måste alla grupperingar ha samma storlek.
+
    ![](assets/wkf_segment_limit_by_grouping.png)
 
 1. Bekräfta konfigurationen av segmentet.

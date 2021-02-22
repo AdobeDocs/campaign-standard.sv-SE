@@ -54,8 +54,7 @@ Omedelbart intag av en XDM-mappning i Adobe Experience Platform utlöses av en P
 >
 >För att kunna köra anropet till API:t för inklistring av POSTER måste användaren ha en **SQL-funktionskörningsroll**, som kan tillhandahållas av en Campaign Standard-administratör genom att köra JS-skriptet nedan:
 >
->
-```
+>```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```
