@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: cb903760fc8fa6168b97a2b02ab7896cd1a8b250
+source-git-commit: d4f689084974c18e5b2836ec0f2867ebdc137a4d
 workflow-type: tm+mt
-source-wordcount: '2627'
-ht-degree: 98%
+source-wordcount: '2478'
+ht-degree: 99%
 
 ---
 
@@ -63,29 +63,31 @@ ht-degree: 98%
 </tbody> 
 </table>
 
+<!--
 <table> 
 <thead> 
 <tr> 
-<th> <strong>Enhetligt Experience Cloud-gränssnitt</strong><br /> </th> 
+<th> <strong>Unified Experience Cloud interface</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
 <td>
-<p>Adobe Campaigns huvudfält har ändrats för att ge dig en enhetlig och förbättrad upplevelse av alla produkter och tjänster i Experience Cloud. Dessa förändringar gör livet enklare – bland annat på följande sätt:</p>
+<p>Adobe Campaign header bar has been changed to unify and improve your experience across all Experience Cloud products and services. These changes are designed to make your life easier, including:</p>
 <ul>
-<li>Du kan enklare växla mellan olika organisationer och olika applikationer.</li>
-<li>Användarhjälpen är förbättrad – Experience League tillförs till produkten, sökresultaten innehåller även resultat från användarforum och videoinnehållet har utökats, vilket ger dig enklare tillgång till mer innehåll som hjälper dig att få ut det mesta av programmet. Vi har också lagt till en funktion för feedback direkt i hjälpmenyn, så att du enklare kan rapportera problem eller dela dina idéer.</li>
-<li>Förbättrade meddelanden – listrutan för meddelanden har nu två flikar: en för dina egna produktmeddelanden och en för globala produktmeddelanden.</li>
+<li>Easier switching between your organizations or to a different application.</li>
+<li>Improved User Help – Bringing the Experience League into the product, search results also include results from community forums and more video content, giving you easier access to more content to help get the most out of the application. We've also added a feedback mechanism right in the Help menu, making it easier to report issues or share your ideas.</li>
+<li>Improved Notifications – Notifications drop-down now has two tabs: one for your own product notifications, and one for more global product announcements.</li>
 </ul>
-<p>Mer information finns i den <a href="../../start/using/interface-description.md#top-bar">detaljerade dokumentationen</a>.
+<p>For more information refer to the <a href="../../start/using/interface-description.md#top-bar">detailed documentation</a>.
 </p>
-<p>OBS! Den här förändringen kommer gradvis att lanseras för alla kundmiljöer mellan 10 februari och 1 mars.
+<p>NOTE: This change will be progressively rolled out to all customer environments between Feb 10 and March 1st.
 </p>
 </td> 
 </tr> 
 </tbody> 
 </table>
+-->
 
 **Förbättringar**
 
