@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileExport,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: c29eff0d241cd561a7e609ab44222700e2a8868d
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 91%
+source-wordcount: '402'
+ht-degree: 89%
 
 ---
 
@@ -49,11 +49,11 @@ Det sätt som data extraheras på definieras när aktiviteten konfigureras.
    >
    >Det går att använda **[!UICONTROL formatDate]**-funktionen i det här fältet för att ange filnamnet.
 
-1. Om du vill så kan du komprimera utmatningsfilen genom att välja **[!UICONTROL Compression]** i **[!UICONTROL Add a pre-processing step]**-fältet.    Utmatningsfilen komprimeras till en GZIP-fil (.gz).
+1. Om du vill så kan du komprimera utmatningsfilen genom att välja **[!UICONTROL Compression]** i **[!UICONTROL Add a post-processing stage]**-fältet.    Utmatningsfilen komprimeras till en GZIP-fil (.gz).
 
-   I fältet **[!UICONTROL Add a pre-processing step]** kan du även kryptera en fil innan du extraherar den. Mer information om hur du arbetar med krypterade filer finns i [det här avsnittet](../../automating/using/managing-encrypted-data.md)
+   I fältet **[!UICONTROL Add a post-processing stage]** kan du även kryptera en fil innan du extraherar den. Mer information om hur du arbetar med krypterade filer finns i [det här avsnittet](../../automating/using/managing-encrypted-data.md)
 
-1. Klicka på knappen ![](assets/add_darkgrey-24px.png) eller **[!UICONTROL Add an element]** för att lägga till en utmatningskolumn.
+1. Klicka på knappen **[!UICONTROL Create element]** för att lägga till en utdatakolumn.
 
    ![](assets/wkf_data_export2.png)
 
