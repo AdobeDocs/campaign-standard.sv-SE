@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: sending-and-tracking-messages
 context-tags: delivery,deployment,back
 translation-type: tm+mt
-source-git-commit: 8c636ec7a35e9c34210bbb04b1b13aaa6a431345
+source-git-commit: d08821c526d54dabc3b74651449a2f01e99c2a6a
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 20%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -42,9 +42,9 @@ När du är klar följer du stegen nedan för att skicka meddelandet.
 
 >[!NOTE]
 >
->Om meddelandet är schemalagt så skickas det när sändningstiden är nådd. Mer information om roller finns i [detta avsnittet](../../sending/using/about-scheduling-messages.md).
+>Om meddelandet är schemalagt skickas det när sändningstiden nås. Mer information om roller finns i [detta avsnittet](../../sending/using/about-scheduling-messages.md).
 
-Om du använder en återkommande leverans utan aggregeringsperiod så kan du kräva bekräftelse innan leveransen skickas. Om du vill göra det när du konfigurerar meddelandet öppnar du **[!UICONTROL Schedule]**-blocket på kontrollpanelen för leverans och aktiverar det dedikerade alternativet.
+Om du använder en återkommande leverans utan aggregeringsperiod så kan du kräva bekräftelse innan leveransen skickas. När du konfigurerar meddelandet öppnar du **[!UICONTROL Schedule]**-blocket på kontrollpanelen för leverans och aktiverar det dedikerade alternativet.
 
 ![](assets/confirmation_recurring_deliveries.png)
 
@@ -65,7 +65,7 @@ När meddelandet har skickats till kontakterna visar zon **[!UICONTROL Deploymen
 
 ![](assets/sending_delivery.png)
 
-Om KPI:erna tar för lång tid att uppdatera eller inte tar hänsyn till resultaten från de sändande loggarna klickar du på knappen **[!UICONTROL Compute stats]** i fönstret **[!UICONTROL Deployment]**.
+Om KPI:erna tar för lång tid att uppdatera eller inte visar resultaten från de sändande loggarna klickar du på knappen **[!UICONTROL Compute stats]** i fönstret **[!UICONTROL Deployment]**.
 
 ![](assets/sending_delivery7.png)
 
@@ -94,7 +94,7 @@ När meddelanden med mjuk studsning rapporteras tillbaka från Förbättrat MTA 
 
 * I annat fall ändras statusen till **[!UICONTROL Failed]** och procentandelen **[!UICONTROL Delivered]** minskas därefter.
 
-Du bör därför vänta tills giltighetsperiodens slut för att se det sista **[!UICONTROL Delivered]** procentvärdet och det slutliga antalet meddelanden som faktiskt är **[!UICONTROL Sent]** och **[!UICONTROL Failed]**.
+Du måste därför vänta tills giltighetsperiodens slut för att se det sista **[!UICONTROL Delivered]** procentvärdet och det slutliga antalet **[!UICONTROL Sent]**- och **[!UICONTROL Failed]**-meddelanden.
 
 ### Tjänsten för e-postfeedback (beta) {#email-feedback-service}
 
@@ -112,7 +112,7 @@ Leveransloggarna visar **[!UICONTROL Pending]**-statusen för varje måladress.
 
 ![](assets/efs-pending.png)
 
-När meddelandet levereras till målprofilerna och när informationen har rapporterats i realtid från Förbättrat MTA visar leveransloggarna statusen **[!UICONTROL Sent]** för varje adress som har tagit emot meddelandet. Procentandelen **[!UICONTROL Delivered]** ökas för varje slutförd leverans.
+När meddelandeleveransen till målprofilerna rapporteras i realtid från Förbättrat MTA visar leveransloggarna statusen **[!UICONTROL Sent]** för varje adress som har tagit emot meddelandet. Procentandelen **[!UICONTROL Delivered]** ökas för varje slutförd leverans.
 
 När hårda studsmeddelanden rapporteras tillbaka från det förbättrade MTA:et ändras deras loggstatus från **[!UICONTROL Pending]** till **[!UICONTROL Failed]** och procentandelen **[!UICONTROL Bounces + errors]** ökas därefter.
 
@@ -132,12 +132,24 @@ När meddelanden med mjuk studsning rapporteras tillbaka från Förbättrat MTA 
 
 ### Ändringar som har införts av EFS {#changes-introduced-by-efs}
 
-Tabellen nedan visar de förändringar i KPI:er och sändande av loggstatus som införts av EFS-funktionen.
+Tabellerna nedan visar ändringar i KPI:er och överföring av loggstatus som införts av EFS-funktionen.
 
-| Stega i <br>sändningsprocessen | KPI-sammanfattning<br>UTAN EFFEKTER | Loggstatus<br>UTAN EFS skickas | KPI-sammanfattning<br>MED EFS | Loggstatus<br>MED EFS skickas |
-|--- |--- |--- | --- | --- |
-| Meddelandet har vidarebefordrats från Campaign till det förbättrade MTA-meddelandet | <ul><li>**[!UICONTROL Delivered]** procent börjar vid 100 %</li><li>**[!UICONTROL Bounces + errors]** procent börjar vid 0 %</li></ul> | Skickat | <ul><li>**[!UICONTROL Delivered]** procent börjar vid 0 %</li><li>**[!UICONTROL Bounces + errors]** procent börjar vid 0 %</li></ul> | Väntande |
-| Hårdstudsmeddelanden rapporteras tillbaka från Förbättrad MTA | <ul><li>**[!UICONTROL Delivered]** procentandelen minskas därefter</li><li>**[!UICONTROL Bounces + errors]** procentandelen ökas därefter</li></ul> | Misslyckades | <ul><li>Ingen ändring i **[!UICONTROL Delivered]**-procenttal</li><li>**[!UICONTROL Bounces + errors]** procentandelen ökas därefter</li></ul> | Misslyckades |
-| Mjuka studsmeddelanden rapporteras tillbaka från Förbättrat MTA | <ul><li>Ingen ändring i **[!UICONTROL Delivered]**-procenttal</li><li>Ingen ändring i **[!UICONTROL Bounces + errors]**-procenttal</li></ul> | Skickat | <ul><li>Ingen ändring i **[!UICONTROL Delivered]**-procenttal</li><li>**[!UICONTROL Bounces + errors]** procentandelen ökas därefter</li></ul> | Misslyckades |
-| Mjuka studsmeddelanden - återförsök har slutförts | <ul><li>Ingen ändring i **[!UICONTROL Delivered]**-procenttal</li><li>Ingen ändring i **[!UICONTROL Bounces + errors]**-procenttal</li></ul> | Skickat | <ul><li>**[!UICONTROL Delivered]** procentandelen ökas därefter</li><li>**[!UICONTROL Bounces + errors]** procentandelen minskas därefter</li></ul> | Skickat |
-| Mjukt studsande meddelanden återförsök misslyckas | <ul><li>**[!UICONTROL Delivered]** procentandelen minskas därefter</li><li>**[!UICONTROL Bounces + errors]** procentandelen ökas därefter</li></ul> | Misslyckades | <ul><li> Ingen ändring i **[!UICONTROL Delivered]**-procenttal </li><li> Ingen ändring i **[!UICONTROL Bounces + errors]**-procenttal </li></ul> | Misslyckades |
+**Med tjänsten för e-postfeedback**
+
+| Steg i sändningsprocessen | KPI-sammanfattning | Loggstatus skickas |
+|--- |--- |--- |
+| Meddelandet har vidarebefordrats från Campaign till det förbättrade MTA-meddelandet | <ul><li>**[!UICONTROL Delivered]** procent börjar vid 0 %</li><li>**[!UICONTROL Bounces + errors]** procent börjar vid 0 %</li></ul> | Väntande |
+| Hårdstudsmeddelanden rapporteras tillbaka från Förbättrad MTA | <ul><li>Ingen ändring i **[!UICONTROL Delivered]**-procenttal</li><li>**[!UICONTROL Bounces + errors]** procentandelen ökas därefter</li></ul> | Misslyckades |
+| Mjuka studsmeddelanden rapporteras tillbaka från Förbättrat MTA | <ul><li>Ingen ändring i **[!UICONTROL Delivered]**-procenttal</li><li>**[!UICONTROL Bounces + errors]** procentandelen ökas därefter</li></ul> | Misslyckades |
+| Mjuka studsmeddelanden - återförsök har slutförts | <ul><li>**[!UICONTROL Delivered]** procentandelen ökas därefter</li><li>**[!UICONTROL Bounces + errors]** procentandelen minskas därefter</li></ul> | Skickat |
+| Mjukt studsande meddelanden återförsök misslyckas | <ul><li> Ingen ändring i **[!UICONTROL Delivered]**-procenttal </li><li> Ingen ändring i **[!UICONTROL Bounces + errors]**-procenttal </li></ul> | Misslyckades |
+
+**Utan tjänsten för e-postfeedback**
+
+| Steg i sändningsprocessen | KPI-sammanfattning | Loggstatus skickas |
+|--- |--- |--- |
+| Meddelandet har vidarebefordrats från Campaign till det förbättrade MTA-meddelandet | <ul><li>**[!UICONTROL Delivered]** procent börjar vid 100 %</li><li>**[!UICONTROL Bounces + errors]** procent börjar vid 0 %</li></ul> | Skickat |
+| Hårdstudsmeddelanden rapporteras tillbaka från Förbättrad MTA | <ul><li>**[!UICONTROL Delivered]** procentandelen minskas därefter</li><li>**[!UICONTROL Bounces + errors]** procentandelen ökas därefter</li></ul> | Misslyckades |
+| Mjuka studsmeddelanden rapporteras tillbaka från Förbättrat MTA | <ul><li>Ingen ändring i **[!UICONTROL Delivered]**-procenttal</li><li>Ingen ändring i **[!UICONTROL Bounces + errors]**-procenttal</li></ul> | Skickat |
+| Mjuka studsmeddelanden - återförsök har slutförts | <ul><li>Ingen ändring i **[!UICONTROL Delivered]**-procenttal</li><li>Ingen ändring i **[!UICONTROL Bounces + errors]**-procenttal</li></ul> | Skickat |
+| Mjukt studsande meddelanden återförsök misslyckas | <ul><li>**[!UICONTROL Delivered]** procentandelen minskas därefter</li><li>**[!UICONTROL Bounces + errors]** procentandelen ökas därefter</li></ul> | Misslyckades |
