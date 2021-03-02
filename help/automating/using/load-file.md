@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileImport,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: c29eff0d241cd561a7e609ab44222700e2a8868d
 workflow-type: tm+mt
 source-wordcount: '1364'
 ht-degree: 93%
@@ -103,9 +103,9 @@ Aktivitetskonfigurationen omfattar två steg.  Först måste du definiera den f�
 
       ![](assets/wkf_file_loading1.png)
 
-1. Om filen du vill läsa in data från är komprimerad till en GZIP-fil (.gz) väljer du alternativ **[!UICONTROL Decompression]** i fält **[!UICONTROL Add a pre-processing step]**.  På så sätt kan du packa upp filen innan du läser in data.  Det här alternativet är endast tillgängligt om filen kommer från aktivitetens ingående övergång.
+1. Om filen du vill läsa in data från är komprimerad till en GZIP-fil (.gz) väljer du alternativ **[!UICONTROL Decompression]** i fält **[!UICONTROL Add a pre-processing stage]**.  På så sätt kan du packa upp filen innan du läser in data.  Det här alternativet är endast tillgängligt om filen kommer från aktivitetens ingående övergång.
 
-   I fältet **[!UICONTROL Add a pre-processing step]** kan du även dekryptera en fil innan du importerar den till databasen. Mer information om hur du arbetar med krypterade filer finns i [det här avsnittet](../../automating/using/managing-encrypted-data.md)
+   I fältet **[!UICONTROL Add a pre-processing stage]** kan du även dekryptera en fil innan du importerar den till databasen. Mer information om hur du arbetar med krypterade filer finns i [det här avsnittet](../../automating/using/managing-encrypted-data.md)
 
 1. Med det här **[!UICONTROL Keep the rejects in a file]** alternativet kan du hämta en fil som innehåller fel som inträffade under importeringen och använda den i ett steg efter bearbetningen.  När alternativet är aktiverat får den utgående övergången namnet &quot;Avvisade&quot;.
 
