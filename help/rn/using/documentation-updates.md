@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: ea0755d22b34c4c961fd8715ecf4551ffcdcb58e
+source-git-commit: 6dd54dc72fdaf3261d13ca972f1258bcbb3c1e3a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '6616'
+ht-degree: 99%
 
 ---
 
@@ -19,15 +19,17 @@ ht-degree: 0%
 
 Förutom [versionsinformationen](../../rn/using/release-notes.md) för Adobe Campaign listas alla nya uppdateringar i dokumentationen för Adobe Campaign Standard på den här sidan.
 
-## Februari 2021 {#doc-updates-february-2021}
+## Mars 2021 {#doc-updates-march-2021}
 
-Information har lagts till om hur du ser till att ett schemalagt arbetsflöde inte schemaläggs om förrän en eller flera aktiviteter från en tidigare körning fortfarande väntar. [Läs mer](../../automating/using/scheduled-workflows-execution.md)
+Information har lagts till för att ange att när du väljer au audition i en fråga kopieras dess definition och refereras inte. [Läs mer](../../audiences/using/selecting-an-audience-in-a-message.md)
+
+Information om målgruppstjänsten och Adobe Experience Platform Data Connector har grupperats om till ett nytt avsnitt. [Läs mer](../../integrating/using/aep-about-audience-destinations-service.md)
 
 ## Version 21.1 – februari 2021 {#release-21-1---february-2021}
 
 **Nya funktioner i denna version**
 
-Tjänsten för e-postfeedback - [Läs mer](../../sending/using/confirming-the-send.md#message-indicators)
+Tjänsten Email Feedback – [Läs mer](../../sending/using/confirming-the-send.md#message-indicators)
 
 Förbättringar av Adobe Experience Manager-integrationen – [Läs mer](../../integrating/using/creating-multilingual-email-aem.md)
 
@@ -41,7 +43,9 @@ Information lagts till om den nya GetOption-funktionen, som ger dig möjlighet a
 
 Information har lagts till för den nya **[!UICONTROL filesCount]**-output-variabeln som är tillgänglig när en **[!UICONTROL Transfer file]**-aktivitet har använts. [Läs mer](../../automating/using/transfer-file.md#output-variables)
 
-Avsnittet **Konfigurera e-postkanal** har uppdaterats för att klargöra vilka de senaste tillämpliga e-postinställningarna är. Vissa äldre parametrar används fortfarande för vissa kunder och visas längst ned på sidan. [Läs mer](../../administration/using/configuring-email-channel.md)
+Avsnittet **Konfigurera e-postkanal** har uppdaterats för att klargöra vilka de senaste tillämpliga e-postinställningarna är. Vissa äldre parametrar som fortfarande används för vissa kunder listas längst ned på sidan. [Läs mer](../../administration/using/configuring-email-channel.md)
+
+Information har lagts till om hur man ser till att ett schemalagt arbetsflöde inte omplaneras innan en eller flera uppgifter från en tidigare körning fortfarande väntar. [Läs mer](../../automating/using/scheduled-workflows-execution.md)
 
 ## December 2020 {#doc-updates-december-2020}
 
@@ -49,7 +53,7 @@ Funktionen **Prediktiv ämnesrad** är nu inaktuell. [Läs mer](../../rn/using/d
 
 Avsnittet **Komma igång med transaktionsmeddelanden** innehåller nu [förbättrade scheman](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) för att få en bättre förståelse för processen.
 
-Nu finns ett heltäckande exempel som illustrerar implementeringsprocessen för transaktionsmeddelanden. [Läs mer](../../channels/using/transactional-messaging-use-case.md)
+Nu finns ett heltäckande användarfall som illustrerar implementeringsprocessen för transaktionsmeddelanden. [Läs mer](../../channels/using/transactional-messaging-use-case.md)
 
 Avsnittet **Integritet** har flyttats [hit](../../start/using/privacy.md).
 
@@ -63,15 +67,15 @@ Avsnittet **Använda produktlistor i ett transaktionsmeddelande** har flyttats [
 
 ## November 2020 {#doc-updates-november-2020}
 
-Avsnittet **Personuppgifter och personuppgifter** har uppdaterats med ett fallscenario för användning för att illustrera hur de olika personerna interagerar när det gäller sekretess. [Läs mer](../../start/using/privacy.md#use-case-scenario)
+Avsnittet **Personuppgifter och personer** har uppdaterats med ett användningsfall för att illustrera hur de olika personerna interagerar när det gäller sekretess. [Läs mer](../../start/using/privacy.md#use-case-scenario)
 
 Ett nytt avsnitt som listar vanliga frågor och svar gällande integritet har lagts till. [Läs mer](../../start/using/privacy-faq.md)
 
-Avsnittet **Sekretess** har flyttats och berikats med två nya sidor: [Sekretesshantering](../../start/using/privacy-management.md) och [Hantera sekretessförfrågningar](../../start/using/privacy-requests.md).
+Avsnittet **Sekretess** har flyttats och utökats med två nya sidor: [Integritetshantering](../../start/using/privacy-management.md) och [Hantera förfrågan om användarens information](../../start/using/privacy-requests.md).
 
-Avsnittet **Transactional messaging** har organiserats om och samlats in på en plats för förbättrad navigering. [Läs mer](../../channels/using/getting-started-with-transactional-msg.md)
+Avsnittet **Transaktionella meddelanden** har organiserats om och samlats på en plats för förbättrad navigering. [Läs mer](../../channels/using/getting-started-with-transactional-msg.md)
 
-Information har lagts till i avsnittet Adobe Experience Platform Data Connector om valideringsfel gällande datakartläggning som rör integritetshantering och felsökning av detta. [Läs mer](../../developing/using/aep-mapping-activation.md)
+Information har lagts till i avsnittet Adobe Experience Platform Data Connector om valideringsfel gällande datakartläggning som rör integritetshantering och felsökning av detta. [Läs mer](../../integrating/using/aep-mapping-activation.md)
 
 ## Version 20.4 - oktober 2020 {#release-20-4---october-2020}
 
@@ -95,7 +99,7 @@ Ett avsnitt har lagts till som beskriver de nya filtren som gör det möjligt at
 
 ## September 2020 {#doc-updates-september-2020}
 
-Avsnittet **Händelsetransaktionsmeddelanden** har ordnats om och klargjorts. [Läs mer](../../channels/using/editing-transactional-message.md)
+Avsnittet **Meddelanden för händelsetransaktioner** har omorganiserats och klargjorts. [Läs mer](../../channels/using/editing-transactional-message.md)
 
 Ett varningsmeddelande har lagts till som varnar användare om behörighetsbegränsningar för åtkomst till loggfilerna. [Läs mer](../../administration/using/users-management.md)
 
@@ -111,7 +115,7 @@ Ett nytt och uppdaterat avsnitt om hur du kommer igång med transaktionsmeddelan
 
 Avsnittet **Begränsningar för transaktionsmeddelanden** har flyttats [hit](../../channels/using/transactional-messaging-limitations.md).
 
-Avsnittet **Förbered sändningen** har flyttats [hit](../../sending/using/preparing-the-send.md).
+Avsnittet **Förbereda sändningen** har flyttats [hit](../../sending/using/preparing-the-send.md).
 
 ## Juli 2020 {#doc-updates-july-2020}
 
@@ -173,7 +177,7 @@ Integreringen av Microsoft Dynamics 365 med Adobe Campaign Standard-dokumentatio
 
 Ytterligare resurser har lagts till på startsidan för dokumentationen. [Läs mer](../../campaign-standard-home.md)
 
-Information om Experience Cloud ID Service (ECID) har lagts till i dokumentationen för Adobe Experience Platform Data Connector. [Läs mer](../../developing/using/aep-about-data-connector.md#key-concepts)
+Information om Experience Cloud ID Service (ECID) har lagts till i dokumentationen för Adobe Experience Platform Data Connector. [Läs mer](../../integrating/using/aep-about-data-connector.md#key-concepts)
 
 Avsnittet Transaktionsmeddelanden har förbättrats med information om hur man får tillgång till de senaste transaktionshändelserna och uppdaterade skärmbilder. [Läs mer](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
@@ -239,9 +243,9 @@ Information har lagts till om de **[!UICONTROL History in days field]** tillgän
 
 **Nya funktioner i utgåvan**
 
-Adobe Experience Platform Data Connector (beta) - [läs mer](../../developing/using/aep-about-data-connector.md)
+Adobe Experience Platform Data Connector (beta) - [läs mer](../../integrating/using/aep-about-data-connector.md)
 
-Audience Destinations (beta) - [Läs mer](../../audiences/using/aep-about-audience-destinations-service.md)
+Audience Destinations (beta) - [Läs mer](../../integrating/using/aep-about-audience-destinations-service.md)
 
 **Andra dokumentationsuppdateringar som medföljer utgåvan**
 
