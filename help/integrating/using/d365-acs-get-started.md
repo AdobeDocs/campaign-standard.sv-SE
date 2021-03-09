@@ -6,9 +6,9 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: fe5d40235abc33c0ea7e929cd2e69b7030cea0b1
+source-git-commit: 93e4310c606cb39a1071b8e20d88978839007765
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '842'
 ht-degree: 5%
 
 ---
@@ -96,7 +96,7 @@ Tre system måste etableras och konfigureras för den här integreringen:
 
 Supportärenden kan loggas med Adobe kundtjänst.
 
-Om du har problem med integreringsdataflöden måste du ta med rapportsviten som en del av problembeskrivningen samt följande information:
+Om du har problem med integreringsdataflöden bör du ta med följande information:
 
 * **Processägare**: Ingenjörsarkitekter
 * **ES Process-ID**: Tillhandahålls under introduktionsprocessen
