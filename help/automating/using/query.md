@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: bdeb3e0c81cf729436a722bfd349a39d5dcad351
 workflow-type: tm+mt
-source-wordcount: '1710'
-ht-degree: 95%
+source-wordcount: '1757'
+ht-degree: 93%
 
 ---
 
@@ -50,6 +50,11 @@ Aktiviteten **[!UICONTROL Query]** kan användas för olika typer av användning
    Mer information om detta hittar du i [Målinställningar och resurser](#targeting-dimensions-and-resources).
 
 1. På fliken **[!UICONTROL Target]** kör du frågan genom att definiera och kombinera regler.
+
+   >[!NOTE]
+   >
+   >Observera att målgruppens definition inte refereras när målgruppen är målgrupp, men **kopieras** till frågan. Om du ändrar målgruppen efter att den har angetts som mål i en fråga måste du konfigurera frågan igen så att den nya definitionen beaktas.
+
 1. Du kan definiera **[!UICONTROL Additional data]** målpopulationen via en dedikerad flik. Dessa data lagras i ytterligare kolumner och kan bara användas för det aktuella arbetsflödet. Du kan t.ex. lägga till data från Adobe Campaign-databastabeller som är länkade till frågans måldimension.  Mer information finns i avsnittet [Berikningsdata](#enriching-data) .
 
    >[!NOTE]
