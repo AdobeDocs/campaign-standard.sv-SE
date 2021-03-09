@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 36e0f6be4dc8c1a6e4b0d8878d190f2abce99fcd
+source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
 workflow-type: tm+mt
 source-wordcount: '5323'
 ht-degree: 100%
@@ -268,7 +268,7 @@ ht-degree: 100%
 
 **Experience Platform-integrationer**
 
-* Aktiveringen av Adobe [Experience Platform-målgrupper](../../automating/using/aep-targeting-audiences.md) från **Läs målgrupp** har förbättrats för att ge bättre prestanda och stabilitet.  Arbetsflödesloggar har dessutom gjorts tydligare och mer detaljerade när det gäller aktiveringsjobb. Detta gör det enklare att övervaka och felsöka när Adobe Experience Platform-målgrupper läses in.
+* Aktiveringen av Adobe [Experience Platform-målgrupper](../../integrating/using/aep-targeting-audiences.md) från **Läs målgrupp** har förbättrats för att ge bättre prestanda och stabilitet.  Arbetsflödesloggar har dessutom gjorts tydligare och mer detaljerade när det gäller aktiveringsjobb. Detta gör det enklare att övervaka och felsöka när Adobe Experience Platform-målgrupper läses in.
 
 **Patchar**
 
@@ -361,7 +361,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Adobe Experience Platform-funktionerna i Campaign Standard är för närvarande i betastadiet, som kan komma att uppdateras ofta utan föregående meddelande. Mer information finns i den detaljerade dokumentationen: [Experience Platform Data Connector](../../developing/using/aep-about-data-connector.md), [Målgruppsdestinationer](../../audiences/using/aep-about-audience-destinations-service.md)
+>Adobe Experience Platform-funktionerna i Campaign Standard är för närvarande i betastadiet, som kan komma att uppdateras ofta utan föregående meddelande. Mer information finns i den detaljerade dokumentationen: [Experience Platform Data Connector](../../integrating/using/aep-about-data-connector.md), [Målgruppsdestinationer](../../integrating/using/aep-about-audience-destinations-service.md)
 
 * I arbetsflödesloggar visas nu antalet poster som redan har bearbetats av jobbet som körs var 10:e minut.
 * Ett problem som kunde inträffa vid import av en Adobe Experience Platform-profil som har tagits bort från databasen har korrigerats.
@@ -408,7 +408,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> <p>Adobe Experience Platform Data Connector är nu integrerad med Adobe Campaign Standard. Du kan göra dina Campaign-data tillgängliga på Adobe Experience Platform genom att mappa XTK-data (data som importerats i Campaign) till Adobe Experience Platform Data Model (XDM). </p>
-    <p>Observera att den här funktionen endast är tillgänglig för kunder som har Azure som värd. Mer information om den här funktionen och villkoren för att aktivera den finns i den <a href="../../developing/using/aep-about-data-connector.md">detaljerade dokumentationen</a> och videon <a href="https://docs.adobe.com/content/help/sv-SE/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">med anvisningar</a>.</p>
+    <p>Observera att den här funktionen endast är tillgänglig för kunder som har Azure som värd. Mer information om den här funktionen och villkoren för att aktivera den finns i den <a href="../../integrating/using/aep-about-data-connector.md">detaljerade dokumentationen</a> och videon <a href="https://docs.adobe.com/content/help/sv-SE/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">med anvisningar</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -423,7 +423,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> <p>Målgruppsdestinationer gör att du kan dela segment från Adobe Experience Platform till Adobe Campaign.</p>
-    <p>Observera att den här funktionen endast är tillgänglig för kunder som har Azure som värd. Mer information om den här funktionen och villkoren för att aktivera den finns i den <a href="../../audiences/using/aep-about-audience-destinations-service.md">detaljerade dokumentationen</a> och videon <a href="https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">med anvisningar</a>. </p>
+    <p>Observera att den här funktionen endast är tillgänglig för kunder som har Azure som värd. Mer information om den här funktionen och villkoren för att aktivera den finns i den <a href="../../integrating/using/aep-about-audience-destinations-service.md">detaljerade dokumentationen</a> och videon <a href="https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">med anvisningar</a>. </p>
    </td> 
   </tr> 
  </tbody> 
