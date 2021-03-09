@@ -7,9 +7,9 @@ user-guide-description: 'Hjälpcenter för de viktigaste funktionerna, åtgärde
 breadcrumb-title: Hjälpcenter
 title: Guide för Campaign Standard
 translation-type: tm+mt
-source-git-commit: b6fe1491e3ff519f50e1492abcac7b79dc0e64e6
+source-git-commit: c9db89a98d8b246217add34ce09e6405ce3d5cde
 workflow-type: tm+mt
-source-wordcount: '1759'
+source-wordcount: '1756'
 ht-degree: 99%
 
 ---
@@ -70,10 +70,6 @@ ht-degree: 99%
       + [Om anmälan och avanmälan i Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [Hantera anmälan och avanmälan i Campaign](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
       + [Identifiera avanmälningsprofiler för en leverans](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
-   + Arbeta med Adobe Experience Platform {#working-with-adobe-experience-platform}
-      + [Om tjänsten Målgruppsdestinationer](audiences/using/aep-about-audience-destinations-service.md)
-      + [Hantera Adobe Experience Platform-målgrupper](audiences/using/aep-managing-audiences.md)
-      + [Använda verktyget Segment Builder](audiences/using/aep-using-segment-builder.md)
 + Kommunikationskanaler {#communication-channels}
    + [Kom igång med kommunikationskanaler](channels/using/get-started-communication-channels.md)
    + Om kommunikationskanaler {#about-communication-channels}
@@ -274,6 +270,19 @@ ht-degree: 99%
          + [Hantera synkroniseringsarbetsflöden](integrating/using/d365-acs-self-service-app-workflows.md)
          + [Mappa data mellan Microsoft Dynamics 365 och Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [Använda Microsoft Dynamics 365­integrationen](integrating/using/d365-acs-using-the-integration.md)
+   + Campaign och Adobe Experience Platform {#adobe-experience-platform}
+      + Målgruppstjänst {#audience-destinations}
+         + [Om tjänsten Målgruppsdestinationer](integrating/using/aep-about-audience-destinations-service.md)
+         + [Hantera Adobe Experience Platform-målgrupper](integrating/using/aep-managing-audiences.md)
+         + [Använda verktyget Segment Builder](integrating/using/aep-using-segment-builder.md)
+         + [Inriktning på Adobe Experience Platform-målgrupper ](integrating/using/aep-targeting-audiences.md)
+         + [Anpassa kampanjer med Adobe Experience Platform-attribut](integrating/using/aep-personalizing-campaigns.md)
+      + Adobe Experience Platform Data Connector {#data-connector}
+         + [Om Adobe Experience Platform Data Connector](integrating/using/aep-about-data-connector.md)
+         + [Översikt över Experience Platform-datamodell](integrating/using/aep-data-model-overview.md)
+         + [Mappningsdefinition](integrating/using/aep-mapping-definition.md)
+         + [Aktivera mappning](integrating/using/aep-mapping-activation.md)
+         + [Utlösa datainmatning via API:er](integrating/using/aep-triggering-data-ingestion.md)
 + Hantera processer och data {#managing-processes-and-data}
    + [Kom igång med data- och processhantering](automating/using/get-started-workflows.md)
    + Allmänt om arbetsflöde {#workflow-general-operation}
@@ -379,9 +388,6 @@ ht-degree: 99%
          + [Exportera profiler i en extern fil](automating/using/exporting-profiles-in-file.md)
          + [Uppdatera flera prenumerationsstatusar från en fil](automating/using/updating-subscriptions-from-file.md)
          + [Prenumerera profiler från en fil till en viss tjänst](automating/using/subscribing-profiles-from-file.md)
-   + Arbeta med Adobe Experience Platform-målgrupper {#working-with-aep-audiences}
-      + [Inriktning på Adobe Experience Platform-målgrupper ](automating/using/aep-targeting-audiences.md)
-      + [Anpassa kampanjer med Adobe Experience Platform-attribut](automating/using/aep-personalizing-campaigns.md)
 + Utvecklar {#developing}
    + [Kom igång med Campaign Standard-datamodellen](developing/using/get-started-data-model.md)
    + Om anpassade resurser {#about-custom-resources}
@@ -421,12 +427,6 @@ ht-degree: 99%
       + [Spårningsloggar](developing/using/datamodel-tracking.md)
       + [Avprenumerationshändelse](developing/using/datamodel-unsubscription.md)
       + [Besökare](developing/using/datamodel-visitor.md)
-   + Adobe Experience Platform Data Connector {#mapping-campaign-and-aep-data}
-      + [Om Adobe Experience Platform Data Connector](developing/using/aep-about-data-connector.md)
-      + [Översikt över Experience Platform-datamodell](developing/using/aep-data-model-overview.md)
-      + [Mappningsdefinition](developing/using/aep-mapping-definition.md)
-      + [Aktivera mappning](developing/using/aep-mapping-activation.md)
-      + [Utlösa datainmatning via API:er](developing/using/aep-triggering-data-ingestion.md)
 + Administrerar {#administrating}
    + [Kom igång med Campaign Standard-administration](administration/using/get-started-campaign-administration.md)
    + [Riktlinjer för övervakning](administration/using/monitoring-guidelines.md)
