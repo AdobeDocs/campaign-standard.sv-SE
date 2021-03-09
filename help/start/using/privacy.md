@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 translation-type: tm+mt
-source-git-commit: 2879066634a8a123ef5d07d46aa96479f156a923
+source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
 workflow-type: tm+mt
 source-wordcount: '1479'
 ht-degree: 100%
@@ -85,7 +85,7 @@ Den [viktigaste lagstiftningen](#privacy-regulations) avser de olika enheter som
 
 Som företag som samlar in och delar personuppgifter är du den personuppgiftsansvarige, dina kunder är de registrerade och Adobe Campaign fungerar som personuppgiftsbiträde när vi hanterar deras personuppgifter enligt dina anvisningar. Observera att det är ditt ansvar som personuppgiftsansvarige att hantera relationen med de registrerade såsom vid hantering av [förfrågningar om användarens information](#privacy-requests).
 
-När ni integrerar Campaign med andra Experience Cloud-lösningar där målgrupper kan överföras från ett system till ett annat såsom [tjänsten Målgruppsdestinationer](../../audiences/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager eller People core service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md) eller med andra lösningar såsom [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md) måste ni vara extra noga med att skydda personuppgifter.
+När ni integrerar Campaign med andra Experience Cloud-lösningar där målgrupper kan överföras från ett system till ett annat såsom [tjänsten Målgruppsdestinationer](../../integrating/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager eller People core service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md) eller med andra lösningar såsom [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md) måste ni vara extra noga med att skydda personuppgifter.
 
 ## Datainsamling {#data-acquisition}
 
