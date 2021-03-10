@@ -6,11 +6,11 @@ description: På denna sida beskrivs innehållet i den senaste versionen av Camp
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d4f689084974c18e5b2836ec0f2867ebdc137a4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2478'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 99%
 
 * Nu är en ny **GetOption**-funktion tillgänglig i aktiviteter som använder händelsevariabler när ett arbetsflöde med externa parametrar har anropats. Det innebär att du kan returnera värdet för en angiven funktion. [Läs mer](../../automating/using/customizing-workflow-external-parameters.md)
 
-* Med ett nytt alternativ kan Campaign Standarden **kontrollera det fysiska minnet** tillgängligheten på datorn innan ett arbetsflöde startas. Om minnet inte räcker till fördröjs körningen av arbetsflödet tills systemminnet når tröskelvärdet. På så sätt undviks ytterligare prestandaförsämring och risken för driftstopp blir mindre. Arbetsflödet återupptas automatiskt när serverns belastning minskar och minnet växer. Observera att detta alternativ är skrivskyddat och inte kan ändras. [Läs mer](../../automating/using/best-practices-workflows.md#execution)
+* Ett nytt alternativ innebär att Campaign Standard kan **kontrollera det fysiska minnets** tillgänglighet i ditt system innan ett arbetsflöde startas. Om minnet inte räcker till fördröjs körningen av arbetsflödet tills systemminnet når tröskelvärdet. På så sätt undviks ytterligare prestandaförsämring och risken för driftstopp blir mindre. Arbetsflödet återupptas automatiskt när serverns belastning minskar och minnet växer. Observera att detta alternativ är skrivskyddat och inte kan ändras. [Läs mer](../../automating/using/best-practices-workflows.md#execution)
 
 * En ny process i Adobe Campaign Standard förenklar migrationen från den äldre SDK v4-mobilapplikationen till **Adobe Experience Platform Mobile SDK**. Se [den här sidan](../../administration/using/sdkv4-migration.md).
 
