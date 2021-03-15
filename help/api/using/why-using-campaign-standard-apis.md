@@ -6,10 +6,13 @@ description: Läs mer om Campaign Standard-API:er och varför du använder dem.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Datatekniker
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '495'
 ht-degree: 3%
 
 ---
