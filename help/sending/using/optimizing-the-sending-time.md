@@ -6,11 +6,14 @@ description: Lär dig hur du ställer in sändningstid och förbättrar den öpp
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
+feature: Tidsoptimering för sändning
+role: Yrkesverksamma inom affärsverksamhet
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 100%
+source-wordcount: '278'
+ht-degree: 97%
 
 ---
 
