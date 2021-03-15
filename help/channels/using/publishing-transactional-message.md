@@ -7,11 +7,14 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
+feature: Transaktionsmeddelanden
+role: Yrkesverksamma inom affärsverksamhet
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 76%
+source-wordcount: '656'
+ht-degree: 75%
 
 ---
 
