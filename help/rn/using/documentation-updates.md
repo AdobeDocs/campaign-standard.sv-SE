@@ -6,10 +6,13 @@ description: Läs om alla de senaste uppdateringarna av dokumentationen för Ado
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
+feature: Översikt
+role: Yrkesverksamma inom affärsverksamhet
+level: Nybörjare
 translation-type: tm+mt
-source-git-commit: 6dd54dc72fdaf3261d13ca972f1258bcbb3c1e3a
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '6616'
+source-wordcount: '6620'
 ht-degree: 99%
 
 ---
