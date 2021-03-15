@@ -7,10 +7,13 @@ audience: production
 content-type: reference
 topic-tags: introduction
 index: y
+feature: Åtkomsthantering
+role: Administratör
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 4b87ebc2585b87f918bbd688c5858394d8d4a742
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '500'
 ht-degree: 9%
 
 ---
