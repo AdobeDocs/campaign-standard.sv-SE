@@ -7,10 +7,13 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 context-tags: bounceReport,main;campaignCirculationReport,main;programCirculationReport,main
+feature: Rapportering
+role: Ledare
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 2bc5eae996dfa3ecdde3540f3a4f759c668e93ec
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '280'
 ht-degree: 1%
 
 ---
