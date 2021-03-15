@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: fileTransfer,main
+feature: Arbetsflöden
+role: Dataarkitektur
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: b3088ed3bbb8828393e28df8f982ed36e7e74590
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1099'
 ht-degree: 92%
 
 ---
