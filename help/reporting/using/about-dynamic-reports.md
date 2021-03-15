@@ -6,10 +6,13 @@ description: Med dynamiska rapporter kan du dra och släppa variabler och dimens
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
+feature: Rapportering
+role: Ledare
+level: Nybörjare
 translation-type: tm+mt
-source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '794'
 ht-degree: 5%
 
 ---
@@ -63,14 +66,14 @@ Tabellen nedan visar vad som händer efter att du har godkänt det här avtalet 
 |  | Dynamisk rapportering | Microsoft Dynamics 365-koppling |
 |---|---|---|
 | Amerika och Asien-Stillahavsregionen | **Tillgänglig** funktion. <br>All körklar information (t.ex. ort, land/region, stat, kön och segment baserat på ålder) och anpassad profilinformation som överförts till USA:s rapportcenter. Mer information om profildimensioner finns på den här [sidan](../../reporting/using/list-of-components-.md) | **Tillgänglig** funktion. <br>Alla färdiga och anpassade profilfält och händelsefält i Adobe Campaign Standard behandlas i datacentret i USA. |
-| EMEA (Europa, Mellanöstern och Afrika) | **Tillgänglig** funktion. <br>All körklar information (t.ex. ort, land/region, stat, kön och segment baserat på ålder) och information om anpassade profiler skickas till EMEA: s rapportcenter. Mer information om profildimensioner finns på den här [sidan](../../reporting/using/list-of-components-.md) | **Tillgänglig funktion.** <br>Alla färdiga och anpassade profilfält och Adobe Campaign Standard händelsefält bearbetas i EMEA:s datacenter. <br>**[!UICONTROL Control data]**som innehåller registreringsdata från Adobe I/O och ID:n för kundslutanvändarhändelser som skickas och lagras i datacentret i USA. |
+| EMEA (Europa, Mellanöstern och Afrika) | **Tillgänglig** funktion. <br>All körklar information (t.ex. ort, land/region, stat, kön och segment baserat på ålder) och information om anpassade profiler skickas till EMEA: s rapportcenter. Mer information om profildimensioner finns på den här [sidan](../../reporting/using/list-of-components-.md) | **Tillgänglig funktion.** <br>Alla färdiga och anpassade profilfält och Adobe Campaign Standard händelsefält bearbetas i EMEA:s datacenter. <br>**[!UICONTROL Control data]**som innehåller Adobe I/O-registreringsdata och ID:n för kundslutanvändarhändelser som skickas och lagras i datacentret i USA. |
 
 Tabellen nedan visar vad som händer efter att avtalet har avböjts beroende på din region. Observera att även om du avböjer det här avtalet är rapportering om leveranser och Microsoft Dynamics 365-integrering fortfarande tillgänglig.
 
 | Län | Dynamisk rapportering | Microsoft Dynamics 365-koppling |
 |---|---|---|
 | Amerika och Asien-Stillahavsregionen | **Tillgänglig** funktion. <br> Ingen körklar och anpassad profilinformation har överförts till USA:s rapportcenter med undantag för ExternalID. | **Tillgänglig** funktion. <br>Inga färdiga eller anpassade profilfält skickas till datacentret i USA, med undantag för externt ID och mottagar-ID. <br>Alla Adobe Campaign Standard-händelsefält bearbetas i datacentret i USA med undantag för spegelsides-ID. <br>Mer information om Microsoft Dynamics 365-integrering finns på den här  [sidan](../../integrating/using/d365-acs-get-started.md). |
-| EMEA (Europa, Mellanöstern och Afrika) | **Tillgänglig** funktion. <br>Ingen körklar och anpassad profilinformation skickas till EMEA: s rapportcenter med undantag för ExternalID. | **Tillgänglig funktion.** <br>Inga färdiga eller anpassade profilfält skickas till EMEA:s datacenter, med undantag för externt ID och mottagar-ID. <br>Alla händelsefält i Adobe Campaign Standard behandlas i EMEA:s datacenter med undantag för spegelsides-ID.  <br>**[!UICONTROL Control data]**som innehåller registreringsdata från Adobe I/O och ID:n för kundslutanvändarhändelser som skickas och lagras i datacentret i USA.<br>Mer information om Microsoft Dynamics 365-integrering finns på den här  [sidan](../../integrating/using/d365-acs-get-started.md). |
+| EMEA (Europa, Mellanöstern och Afrika) | **Tillgänglig** funktion. <br>Ingen körklar och anpassad profilinformation skickas till EMEA: s rapportcenter med undantag för ExternalID. | **Tillgänglig funktion.** <br>Inga färdiga eller anpassade profilfält skickas till EMEA:s datacenter, med undantag för externt ID och mottagar-ID. <br>Alla händelsefält i Adobe Campaign Standard behandlas i EMEA:s datacenter med undantag för spegelsides-ID.  <br>**[!UICONTROL Control data]**som innehåller Adobe I/O-registreringsdata och ID:n för kundslutanvändarhändelser som skickas och lagras i datacentret i USA.<br>Mer information om Microsoft Dynamics 365-integrering finns på den här  [sidan](../../integrating/using/d365-acs-get-started.md). |
 
 Det här alternativet är inte slutgiltigt, du kan alltid ändra det genom att välja **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** i **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**.
 
