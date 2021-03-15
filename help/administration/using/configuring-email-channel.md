@@ -7,10 +7,13 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
+feature: Instansinställningar
+role: Administratör
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: bdbba06289eef65d9e42b7d82086f8fa14e1473c
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '2564'
+source-wordcount: '2568'
 ht-degree: 77%
 
 ---
