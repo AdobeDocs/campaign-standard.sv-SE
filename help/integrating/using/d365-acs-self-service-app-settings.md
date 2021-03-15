@@ -4,10 +4,13 @@ description: Lär dig hur du konfigurerar integrationsappen Campaign-Dynamics
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
+feature: Microsoft CRM-integrering
+role: Dataarkitektur
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '801'
 ht-degree: 2%
 
 ---
@@ -37,7 +40,7 @@ Microsoft Dynamics 365-autentiseringsuppgifterna ger integrationsprogrammet beh�
 
 Adobe Campaign-autentiseringsuppgifterna genereras med [Adobe I/O](https://www.adobe.io/). Du måste besöka skärmen [Konfigurera Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md) och följa instruktionerna där innan du kan fylla i indata i det här avsnittet.
 
-I följande bild förklaras i detalj mappningen mellan Adobe I/O och inställningarna på skärmen.
+I följande bild förklaras i detalj mappningen mellan Adobe I/O och inställningsskärmens indata.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-adobeio.png)
 
