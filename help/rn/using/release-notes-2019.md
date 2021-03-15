@@ -6,10 +6,13 @@ description: Den här sidan innehåller alla 2019-versioner av Adobe Campaign St
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
+feature: Översikt
+role: Yrkesverksamma inom affärsverksamhet
+level: Nybörjare
 translation-type: tm+mt
-source-git-commit: 16f937fc34783f22a0c118bb5e2e3f39abb85615
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '7607'
+source-wordcount: '7611'
 ht-degree: 8%
 
 ---
@@ -500,7 +503,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
 * Korrigerade ett problem som kunde inträffa med PKEY-generering när utökade profilresurser användes. (CAMP-30285)
 * Ett problem som kunde inträffa med kalenderdagars trötthetsregler har korrigerats. (CAMP-30136)
 * Korrigerade ett problem som kunde inträffa vid försök att komma åt anpassade resurser med namn som slutade med &quot;Bas&quot;. (CAMP-30109)
-* Korrigerade ett fel som förhindrade att ett PATCH-anrop användes för att prenumerera på en profil för en tjänst. (CAMP-29728)
+* Korrigerade ett problem som förhindrade att ett PATCH-anrop användes för att prenumerera på en profil för en tjänst. (CAMP-29728)
 * Korrigerade ett problem som kunde skada ett arbetsflöde vid import av en XML-fil via aktiviteten Läs in fil. (CAMP-29208 och CAMP-28205)
 * Ett problem har korrigerats vid länkning av anpassade resurser som skulle kunna förhindra att omvända kardinalitetslänkar genereras. (CAMP-30476)
 * Korrigerade ett problem som förhindrade utökning av leveransloggar när endast segmentkoden användes.
