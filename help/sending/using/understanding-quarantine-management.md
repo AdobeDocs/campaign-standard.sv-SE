@@ -6,10 +6,13 @@ description: Lär dig hur ni optimerar er leveransbarhet med karantänshantering
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
+feature: levererbarhet
+role: Yrkesverksamma inom affärsverksamhet
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '785'
 ht-degree: 82%
 
 ---
@@ -86,8 +89,7 @@ Adobe Campaign hanterar karantäner utifrån typ av leveransfel och orsaken som 
 Om en användare kvalificerar ett e-postmeddelande som skräppost (**feedback-loop**) så dirigeras meddelandet automatiskt om till en teknisk inkorg som hanteras av Campaign.        Användarens e-postadress skickas sedan automatiskt till karantänen med status **[!UICONTROL On denylist]**.    Den här statusen avser endast adressen, profilen finns inte på blockeringslista, så att användaren fortsätter att ta emot SMS-meddelanden och push-meddelanden.
 
 >[!NOTE]
->
->Karantänen i Adobe Campaign är skiftlägeskänslig.    Se till att importera e-postadresser med små bokstäver så att inte e-postadresserna fortsätter att ta emot meddelanden.
+Karantänen i Adobe Campaign är skiftlägeskänslig.    Se till att importera e-postadresser med små bokstäver så att inte e-postadresserna fortsätter att ta emot meddelanden.
 
 I listan med adresser i karantän (se [Identifiera adresser i karantän för hela plattformen](#identifying-quarantined-addresses-for-the-entire-platform)) så visar fältet **[!UICONTROL Error reason]** varför den valda adressen placerades i karantän.
 
