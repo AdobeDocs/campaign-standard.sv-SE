@@ -6,10 +6,13 @@ description: Lär dig hur du konfigurerar Microsoft Dynamics 365 för Campaign-i
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
+feature: Microsoft CRM-integrering
+role: Dataarkitektur
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 3ba3e0db816832ea57c124a9bea1fa82cf068859
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '917'
 ht-degree: 1%
 
 ---
