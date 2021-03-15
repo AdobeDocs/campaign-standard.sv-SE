@@ -7,11 +7,14 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 context-tags: null
+feature: E-postdesign
+role: Yrkesverksamma inom affärsverksamhet
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '849'
-ht-degree: 82%
+source-wordcount: '854'
+ht-degree: 81%
 
 ---
 
