@@ -6,10 +6,13 @@ description: Läs mer om vanliga problem med Campaign Standard-API:er.
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
+feature: API
+role: Datatekniker
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -17,7 +20,7 @@ ht-degree: 0%
 
 # Felsökning {#troubleshooting}
 
-* **När du går till Adobe.io-konsolen visas följande fel: &quot;Adobe I/O Console är bara tillgänglig för att välja medlemmar i företagskonton. Kontakta systemadministratören om du anser att du bör ha åtkomst.&quot;**
+* **När du går till Adobe.io-konsolen visas följande fel: &quot;Konsolen Adobe I/O är bara tillgänglig för att välja medlemmar i företagskonton. Kontakta systemadministratören om du anser att du bör ha åtkomst.&quot;**
 
 Du kan bara skapa API-nycklar för de IMS-organisationer som du administrerar. Om det här meddelandet visas och du vill skapa API-nycklar och du vill fråga en administratör för IMS-organisationen.
 
