@@ -6,10 +6,13 @@ description: Experience Data Model (XDM) är en standarduppsättning med datamod
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
+feature: Microsoft CRM-integrering
+role: Dataarkitektur
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '255'
 ht-degree: 7%
 
 ---
