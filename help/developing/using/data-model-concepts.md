@@ -7,11 +7,14 @@ audience: developing
 content-type: reference
 topic-tags: about-custom-resources
 context-tags: cusResource,overview;eventCusResource,overview
+feature: Datamodell
+role: Utvecklare
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 79%
+source-wordcount: '248'
+ht-degree: 78%
 
 ---
 
