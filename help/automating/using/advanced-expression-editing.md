@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: filtering-data
 context-tags: queryFilter,overview;audience,main
+feature: Arbetsflöden
+role: Dataarkitektur
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1096'
 ht-degree: 98%
 
 ---
@@ -106,8 +109,7 @@ JavaScript-uttryck består av ett eller flera villkor och de använder följande
    * **&lt;value2>** är ett fält, en funktion eller ett värde som matas in manuellt.
 
    >[!NOTE]
-   >
-   >Typdata för **&lt;context>** och **&lt;value2>** måste vara identiska. Om till exempel **&lt;context>** är ett datum måste även **&lt;value2>** vara ett datum.
+   Typdata för **&lt;context>** och **&lt;value2>** måste vara identiska. Om till exempel **&lt;context>** är ett datum måste även **&lt;value2>** vara ett datum.
 
 * Om du vill använda flera villkor kan de kombineras med logiska operatörer.
 
