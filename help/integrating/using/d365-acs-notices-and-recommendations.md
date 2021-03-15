@@ -6,10 +6,13 @@ description: Läs om hur Campaign Standard och Microsoft Dynamics 365 hanterar g
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
+feature: Microsoft CRM-integrering
+role: Dataarkitektur
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: cce30fd5cd3d5d63563d1dab3bb1e7554c26fb3e
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '2467'
+source-wordcount: '2473'
 ht-degree: 1%
 
 ---
