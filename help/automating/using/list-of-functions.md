@@ -6,11 +6,14 @@ description: Med verktyget för frågeredigering kan du använda avancerade funk
 audience: automating
 content-type: reference
 topic-tags: filtering-data
+feature: Arbetsflöden
+role: Dataarkitektur
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: ef170f2282fcc46e36c90dada2083dea25b95f7c
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1944'
+ht-degree: 98%
 
 ---
 
