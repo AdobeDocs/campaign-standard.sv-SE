@@ -6,10 +6,14 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
+description: Lär dig hur du med Adobe Campaign kan hålla reda på skickade meddelanden och se hur mottagarna reagerar på leveransen
+feature: levererbarhet
+role: Yrkesverksamma inom affärsverksamhet
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '436'
 ht-degree: 4%
 
 ---
