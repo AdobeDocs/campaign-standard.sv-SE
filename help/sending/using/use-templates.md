@@ -6,10 +6,14 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
+description: '"Leveransmallar möjliggör ökad effektivitet genom att tillhandahålla färdiga scenarier för de flesta vanliga typer av aktiviteter."'
+feature: levererbarhet
+role: Yrkesverksamma inom affärsverksamhet
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '819'
 ht-degree: 10%
 
 ---
@@ -89,7 +93,7 @@ Parametrarna för skickade e-postmeddelanden som rör ett varumärkes identitet 
 
 Mer information om hur du använder och konfigurerar varumärken i Adobe Campaign finns i Varumärke.
 
-Om du vill visa eller ändra varumärket som tilldelats en leveransmall väljer du mallens Redigera-egenskapsknapp och går till varumärkets detaljnivå.
+Om du vill visa eller ändra varumärket som tilldelats en leveransmall väljer du mallens Redigera-egenskapsknapp och går till varumärkets detaljrikedom.
 
 ![](assets/template-brand.png)
 
