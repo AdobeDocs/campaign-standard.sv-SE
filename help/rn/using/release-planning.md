@@ -6,11 +6,14 @@ description: På den här sidan visas kommande versioner av Adobe Campaign Stand
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
+feature: Översikt
+role: Yrkesverksamma inom affärsverksamhet
+level: Nybörjare
 translation-type: tm+mt
-source-git-commit: 1b971fbf7b5d36283434db0389534a3dda2ebb45
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 99%
+source-wordcount: '470'
+ht-degree: 98%
 
 ---
 
