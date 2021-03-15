@@ -6,11 +6,14 @@ description: 'Adobe Campaign-användare har särskilda roller. Upptäck huvudanv
 audience: administration
 content-type: reference
 topic-tags: users-and-security
+feature: Åtkomsthantering
+role: Administratör
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 95%
+source-wordcount: '1224'
+ht-degree: 94%
 
 ---
 
