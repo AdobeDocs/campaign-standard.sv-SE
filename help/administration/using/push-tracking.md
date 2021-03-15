@@ -7,10 +7,13 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
+feature: Instansinställningar
+role: Administratör
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: df1ec680d0efcf69a00128a876a2e14ba0f6e771
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '953'
 ht-degree: 1%
 
 ---
