@@ -8,10 +8,13 @@ content-type: reference
 topic-tags: campaign-standard-releases
 hide: true
 hidefromtoc: true
+feature: Översikt
+role: Yrkesverksamma inom affärsverksamhet
+level: Nybörjare
 translation-type: tm+mt
-source-git-commit: c5807da6bc9a33adcba6fc9825b0496bb5dc609b
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '2587'
+source-wordcount: '2591'
 ht-degree: 84%
 
 ---
