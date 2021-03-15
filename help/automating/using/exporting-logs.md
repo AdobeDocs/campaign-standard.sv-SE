@@ -6,10 +6,13 @@ description: Loggdata kan exporteras via ett enkelt arbetsflöde, oavsett om de 
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
+feature: Arbetsflöden
+role: Dataarkitektur
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '601'
 ht-degree: 14%
 
 ---
