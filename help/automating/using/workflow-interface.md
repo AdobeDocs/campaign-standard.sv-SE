@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 context-tags: workflow,main;workflow,overview
+feature: Arbetsflöden
+role: Dataarkitektur
+level: Nybörjare
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '806'
 ht-degree: 4%
 
 ---
@@ -105,7 +108,7 @@ Beroende på vilka element som är markerade på arbetsytan eller arbetsflödets
 
 ## Snabbåtgärder {#quick-actions}
 
-När en aktivitet är markerad visas snabbåtgärdsknappar runt aktiviteten så att du kan interagera med den.
+När en aktivitet är markerad visas snabbåtgärdsknappar runt aktiviteten, så att du kan interagera med den.
 
 <img height="21px" src="assets/edit_darkgrey-24px.png" /> **[!UICONTROL Open activity]**<br/>Öppnar den markerade aktiviteten.
 
