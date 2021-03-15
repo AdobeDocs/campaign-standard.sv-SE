@@ -6,10 +6,13 @@ description: I det här avsnittet beskrivs hur du anropar ett arbetsflöde med e
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
+feature: Arbetsflöden
+role: Dataarkitektur
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 05b6a9caebdd65f20357070af8bd44cb8ba146c7
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '190'
 ht-degree: 4%
 
 ---
