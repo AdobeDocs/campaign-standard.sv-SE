@@ -6,10 +6,13 @@ description: Lär dig hur du lägger till dynamiskt Adobe Target-innehåll i en 
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
+feature: Utlösare
+role: Dataarkitektur
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 3672f0bc4ebc551c4eb34660a3a55d44fa726f1a
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '458'
 ht-degree: 5%
 
 ---
