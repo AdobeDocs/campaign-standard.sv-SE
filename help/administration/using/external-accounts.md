@@ -7,11 +7,14 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
+feature: Instansinställningar
+role: Administratör
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 6dda990d046cceae2a0c0da87764d4b6a16d9ae8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1773'
-ht-degree: 85%
+source-wordcount: '1777'
+ht-degree: 84%
 
 ---
 
