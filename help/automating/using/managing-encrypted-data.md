@@ -6,10 +6,13 @@ description: Lär dig hur du hanterar krypterade data.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
+feature: Arbetsflöden
+role: Dataarkitektur
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '934'
 ht-degree: 5%
 
 ---
