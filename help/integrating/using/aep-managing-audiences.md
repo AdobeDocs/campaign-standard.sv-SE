@@ -7,10 +7,13 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
+feature: Microsoft CRM-integrering
+role: Dataarkitektur
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 1c54f17980cf566f23dde1810a85b924c7f40c2c
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '395'
 ht-degree: 3%
 
 ---
