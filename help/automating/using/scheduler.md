@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: schedule,main
+feature: Arbetsflöden
+role: Dataarkitektur
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 9b76f02b03ba1180f852b446f0dbbae26a27d4bd
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 89%
+source-wordcount: '618'
+ht-degree: 88%
 
 ---
 
