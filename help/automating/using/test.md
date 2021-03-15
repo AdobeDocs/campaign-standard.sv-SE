@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: jstest,main
+feature: Arbetsflöden
+role: Dataarkitektur
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 4f62d2381403d7d88167334cee54071a19a7c3a8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 82%
+source-wordcount: '194'
+ht-degree: 80%
 
 ---
 
