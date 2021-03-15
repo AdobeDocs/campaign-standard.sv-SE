@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: saveAudience,main
+feature: Arbetsflöden
+role: Dataarkitektur
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 100%
+source-wordcount: '807'
+ht-degree: 99%
 
 ---
 
@@ -64,7 +67,6 @@ Aktiviteten **[!UICONTROL Save audience]** används i huvudsak för att hålla p
       >[!NOTE]
       >
       >Det här alternativet är endast tillgängligt om administratören har konfigurerat funktionerna för delade målgrupper med Adobe Experience Cloud.  Mer information finns under [Arbeta med Campaign och People Core Service](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
-
    Vilken typ av målgrupper som sparas eller finns tillgänglig under en uppdatering beror på vilka aktiviteter som läggs upp i arbetsflödet.
 
    Om målgruppsdimensionen är okänd när den sparas (exempelvis om den kommer från en importerad fil) skapas eller uppdateras målgruppen som en **[!UICONTROL File]** typgrupp.
