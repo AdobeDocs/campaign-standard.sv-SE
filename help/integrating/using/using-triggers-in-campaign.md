@@ -2,15 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: Använda utlösare i Campaign
-description: null
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
+feature: Utlösare
+role: Dataarkitektur
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 83%
+source-wordcount: '755'
+ht-degree: 82%
 
 ---
 
