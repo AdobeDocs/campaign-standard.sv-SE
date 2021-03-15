@@ -6,10 +6,13 @@ description: Läs mer om SMS-anslutningen och hur du konfigurerar den.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
+feature: Instansinställningar
+role: Administratör
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 160eb4f23d9d683695457c1a1f35be1c300b7793
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '8665'
+source-wordcount: '8669'
 ht-degree: 0%
 
 ---
@@ -356,7 +359,7 @@ Den största tillåtna storleken för ett meddelande beror på dess kodning. I t
 | Kodning | Vanlig data_coding | Meddelandestorlek (tecken) | Delstorlek för multipart-SMS | Tillgängliga tecken |
 |:-:|:-:|:-:|:-:|:-:|
 | GSM7 | 0 | 160 | 152 | Grundläggande GSM7-teckenuppsättning + tillägg (utökade tecken tar 2 tecken) |
-| Latin-1 | 3 | 140 | 134 | ISO-8859-1 |
+| Latin-1 | 1 | 140 | 134 | ISO-8859-1 |
 | UCS-2 <br>UTF-16 | 8 | 70 | 67 | Unicode (varierar från telefon till telefon) |
 
 ## SMPP:s externa kontoparametrar {#SMPP-parameters-external}
