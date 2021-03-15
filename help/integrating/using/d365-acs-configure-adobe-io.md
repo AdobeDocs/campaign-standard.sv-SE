@@ -4,16 +4,19 @@ description: Lär dig hur du konfigurerar integreringen av Adobe IO för Microso
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
+feature: Microsoft CRM-integrering
+role: Dataarkitektur
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: fe5d40235abc33c0ea7e929cd2e69b7030cea0b1
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '634'
 ht-degree: 2%
 
 ---
 
 
-# Adobe Campaign Standard- och Adobe I/O-konfiguration för Microsoft Dynamics 365-integrering
+# Konfiguration av Adobe Campaign Standard och Adobe I/O för Microsoft Dynamics 365-integrering
 
 I den här artikeln beskrivs hur du konfigurerar Adobe Campaign Standard och Adobe I/O för att ge integreringsprogrammet åtkomst till data.
 
