@@ -6,11 +6,14 @@ description: Lär dig hur du spårar dina prenumeranter och mäter hur bra dina 
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
+feature: Publiker
+role: Yrkesverksamma inom affärsverksamhet
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '361'
+ht-degree: 1%
 
 ---
 
