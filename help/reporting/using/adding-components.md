@@ -6,11 +6,14 @@ description: Dra och drog komponenter till frihandstabellen för att börja filt
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
+feature: Rapportering
+role: Ledare
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 4%
+source-wordcount: '250'
+ht-degree: 5%
 
 ---
 
