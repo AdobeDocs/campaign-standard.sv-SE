@@ -6,11 +6,14 @@ description: Lär dig hur du lägger till en resurs i Adobe Campaign datamodell 
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
+feature: Datamodell
+role: Utvecklare
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 47%
+source-wordcount: '109'
+ht-degree: 45%
 
 ---
 
