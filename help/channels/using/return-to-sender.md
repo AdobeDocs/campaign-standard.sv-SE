@@ -6,10 +6,13 @@ description: Lär dig hur du får ett meddelande om en felaktig adress och utel�
 audience: channels
 content-type: reference
 topic-tags: direct-mail
+feature: Direktreklam
+role: Yrkesverksamma inom affärsverksamhet
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '219'
 ht-degree: 2%
 
 ---
