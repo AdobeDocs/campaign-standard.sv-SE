@@ -10,31 +10,77 @@ feature: Översikt
 role: Yrkesverksamma inom affärsverksamhet
 level: Nybörjare
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 91%
+source-wordcount: '372'
+ht-degree: 12%
 
 ---
 
 
 # Huvudstegen för att skicka ett meddelande{#key-steps-to-send-a-message}
 
+I det här avsnittet får du lära dig att skapa och skicka personaliserade meddelanden till en viss målgrupp med Adobe Campaign Standard.
+
+Specifik information om hur du skapar och konfigurerar varje kommunikationskanal finns i följande avsnitt:
+
+* [Skapa ett e-postmeddelande](../../channels/using/creating-an-email.md)
+* [Skapa ett SMS](../../channels/using/creating-an-sms-message.md)
+* [Skapa direktutskick](../../channels/using/creating-the-direct-mail.md)
+* [Skapa ett push-meddelande](../../channels/using/preparing-and-sending-a-push-notification.md).
+* [Förbereda och skicka ett meddelande i appen](../../channels/using/preparing-and-sending-an-in-app-message.md)
+
 Om du vill veta mer om god leveranspraxis kan du läsa avsnittet [Bästa leveranssätt](../../sending/using/delivery-best-practices.md).
 
-Så här skapar och skickar du meddelanden:
+## Skapa ett meddelande
 
-1. Skapa en **[!UICONTROL Email]**, en **[!UICONTROL SMS]**, en **[!UICONTROL direct mail]** eller en **[!UICONTROL push notification]** marknadsföringsaktivitet.    Se [Skapa ett e-postmeddelande](../../channels/using/creating-an-email.md), [Skapa ett SMS](../../channels/using/creating-an-sms-message.md), [Skapa en leverans för direktmeddelande](../../channels/using/creating-the-direct-mail.md) och [Skapa ett push-meddelande](../../channels/using/preparing-and-sending-a-push-notification.md).
-1. Välj målgrupper för meddelandet.  Se [Skapa målgrupper](../../audiences/using/creating-audiences.md).
-1. Definiera meddelandeinnehållet och dess personaliseringselement.    Åberopa [texthanteraren](../../designing/using/designing-content-in-adobe-campaign.md) för e-post eller specifikt innehåll för andra kanaler.
-1. Börja förbereda utskicket för att beräkna målgruppens storlek och generera meddelandeinnehållet.                Se [Meddelanden för godkännande](../../sending/using/preparing-the-send.md).
+Använd Campaign Standard [marknadsföringsaktiviteter](../../start/using/marketing-activities.md) för att skapa e-post, SMS, direktreklam, push-meddelanden eller meddelanden i appen.
 
-   >[!NOTE]
-   >
-   >Du kan ange globala fatigue-regler för intersektionskanaler som automatiskt utesluter överdimensionerade profiler från kampanjer. Se [Fatigue-regler](../../sending/using/fatigue-rules.md).
+![](assets/marketing-activities.png)
 
-1. Skicka korrektur.    Se [Skicka korrektur](../../sending/using/sending-proofs.md).
-1. Skicka meddelandet och kontrollera leveransen.    Se [Skicka meddelanden](../../sending/using/confirming-the-send.md).
-1. Kontrollera de dedikerade leveransrapporterna.    Se [Åtkomst till rapporter](../../reporting/using/about-dynamic-reports.md).
+Meddelanden kan skapas antingen från listan över marknadsföringsaktiviteter eller från ett arbetsflöde med [dedikerade aktiviteter](../../automating/using/about-channel-activities.md).
 
-Avancerade parametrar för meddelanden finns i [Konfigurera kanaler](../../administration/using/about-channel-configuration.md)-avsnitten.
+![](assets/steps-channel.png)
+
+## Definiera målgruppen
+
+Definiera mottagarna av meddelandet. Om du vill göra det använder du [frågeredigeraren](../../automating/using/editing-queries.md) i den vänstra rutan för att filtrera data i databasen och skapa regler som riktar sig till målgruppen.
+
+Det finns flera olika typer av målgrupper:
+
+* **[!UICONTROL Target]** är huvudmålet för ditt e-postmeddelande,
+* **[!UICONTROL Test profiles]** är de profiler som används för att testa och validera din e-post (se  [Hantera testprofiler](../../audiences/using/managing-test-profiles.md)).
+
+![](assets/steps-audience.png)
+
+## Designa och personalisera innehåll
+
+I **[!UICONTROL Content]**-blocket utformar och anpassar du innehållet i meddelandet med hjälp av fält från databasen. Mer information om hur du utformar innehåll för en viss kanal finns i avsnitten högst upp på den här sidan.
+
+![](assets/steps-content.png)
+
+## Förbered och testa
+
+[Förbered ](../../sending/using/preparing-the-send.md) meddelandet. Den här processen beräknar målpopulationen och förbereder det personaliserade meddelandet.
+
+![](assets/steps-prepare.png)
+
+**Kontrollera och testa ditt** meddelande innan du skickar det med Campaign Standard: förhandsgranskning, e-poståtergivning, korrektur o.s.v. Mer information om detta finns i [det här avsnittet](../../sending/using/previewing-messages.md).
+
+Använd blocket **[!UICONTROL Schedule]** för att definiera när meddelanden ska skickas (se [Schemaläggningsmeddelanden](../../sending/using/about-scheduling-messages.md)).
+
+![](assets/steps-schedule.png)
+
+## Skicka och spåra
+
+När meddelandet är klart kan du bekräfta det. Blocket **[!UICONTROL Deployment]** visar sändningsförloppet och resultatet.
+
+![](assets/steps-send.png)
+
+Det finns flera tillgängliga loggar som hjälper dig att övervaka leveransen av dina meddelanden (se [övervaka en leverans](../../sending/using/monitoring-a-delivery.md)). Du kan också spåra leveransmottagarnas beteende tack vare Campaign Standardens [spårningsfunktioner](../../sending/using/tracking-messages.md).
+
+![](../../sending/using/assets/tracking_logs.png)
+
+Mät hur effektiva era meddelanden är och hur era utskick och kampanjer har utvecklats med hjälp av olika indikatorer och diagram (se [Få tillgång till rapporter](../../reporting/using/about-dynamic-reports.md)).
+
+![](assets/steps-reports.png)
