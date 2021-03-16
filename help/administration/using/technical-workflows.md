@@ -10,9 +10,9 @@ feature: Instansinställningar
 role: Administratör
 level: Erfaren
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '658'
 ht-degree: 99%
 
 ---
@@ -77,11 +77,6 @@ Tekniska arbetsflöden används för att hantera självutlösande bakgrundsproce
    <td> <span class="uicontrol">Avstämning av KPI:er med Adobe Analytics</span> <br /> </td> 
    <td> <span class="uicontrol">kpiReconciliation</span> <br /> </td> 
    <td> Det här arbetsflödet hämtar KPIer från rapporteringstjänsten en gång om dagen och sammanställer dem tillsammans med data från Adobe Analytics.        Sedan avrundas skillnaden vid behov.        Som standard startas det varje dag kl. 04.20.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">Hantera NMAC-avanmälan</span> <br /> </td> 
-   <td> <span class="uicontrol">mobileAppOptOutMgt</span> <br /> </td> 
-   <td> Det här arbetsflödet uppdaterar avprenumerationer av meddelanden på mobila enheter.        Som standard startas det var sjätte timme mellan 01:00 och 24:00.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Lokal arkivering i meddelandecentret</span> <br /> </td> 
