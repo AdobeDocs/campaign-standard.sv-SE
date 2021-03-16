@@ -7,9 +7,9 @@ user-guide-description: 'Hjälpcenter för de viktigaste funktionerna, åtgärde
 title: Guide för Campaign Standard
 breadcrumb-title: Hjälpcenter
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
 workflow-type: tm+mt
-source-wordcount: '1751'
+source-wordcount: '1754'
 ht-degree: 99%
 
 ---
@@ -46,6 +46,7 @@ ht-degree: 99%
       + [Integritetshantering](start/using/privacy-management.md)
       + [Förfrågningar om användarens information](start/using/privacy-requests.md)
       + [Frågor och svar om integritet](start/using/privacy-faq.md)
+   + [Hjälp- och supportalternativ](support.md)
 + Profiler och målgrupper {#profiles-and-audiences}
    + [Kom igång med profiler och målgrupper](audiences/using/get-started-profiles-and-audiences.md)
    + Hantera profiler {#managing-profiles}
