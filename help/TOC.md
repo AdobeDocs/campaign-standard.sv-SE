@@ -272,7 +272,7 @@ ht-degree: 99%
          + [Mappa data mellan Microsoft Dynamics 365 och Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [Använda Microsoft Dynamics 365­integrationen](integrating/using/d365-acs-using-the-integration.md)
    + Campaign och Adobe Experience Platform {#adobe-experience-platform}
-      + Målgruppstjänst {#audience-destinations}
+      + Tjänst för målgruppsdestinationer {#audience-destinations}
          + [Om tjänsten Målgruppsdestinationer](integrating/using/aep-about-audience-destinations-service.md)
          + [Hantera Adobe Experience Platform-målgrupper](integrating/using/aep-managing-audiences.md)
          + [Använda verktyget Segment Builder](integrating/using/aep-using-segment-builder.md)
