@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
 source-wordcount: '470'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -28,9 +28,9 @@ Uppgraderingar distribueras i två faser. För det första uppgraderas stadieins
 
 Alla versionsdatum kan ändras: Vi rekommenderar att du regelbundet besöker den här sidan för att kontrollera om det finns uppdateringar.
 
-## Version 21.2 – versionen för maj {#release-21-2-release}
+## Version 21.2 – version från maj {#release-21-2-release}
 
-Miljöuppdateringar sker i vågor under de angivna tidsramarna nedan. Exakta datum meddelas till varje kund via e-post.
+Miljöuppdateringar sker stegvis under de angivna tidsramarna nedan. Exakta datum meddelas till varje kund via e-post.
 
 Detaljerad information om denna version finns i [versionsinformationen](../../rn/using/release-notes.md) när uppgraderingarna av stadiemiljön startar.
 
@@ -44,18 +44,18 @@ Detaljerad information om denna version finns i [versionsinformationen](../../rn
  <tbody>
   <tr>
    <td>Stadie<br /> </td>
-   <td>19-20 april 2021<br /> </td>
+   <td>19–20 april 2021<br /> </td>
   </tr>
   <tr>
    <td> Produktion<br /> </td>
-   <td>26 april - 3 maj 2021<br /> </td>
+   <td>26 april – 3 maj 2021<br /> </td>
   </tr>
  </tbody>
 </table>
 
-Kontakta [Adobe Client Care](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) om du har ytterligare frågor.
+Kontakta [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om du har ytterligare frågor.
 
-Prenumerera på [Campaign Standard-versionsmeddelande](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) för att få information om kommande versioner direkt i din inkorg.
+Prenumerera på [versionsmeddelanden om Campaign Standard](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) för att få information om kommande versioner direkt till din inkorg.
 
 ## Frågor och svar {#questions-and-answers}
 
