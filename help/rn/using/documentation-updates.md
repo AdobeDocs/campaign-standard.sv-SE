@@ -26,9 +26,9 @@ Förutom [versionsinformationen](../../rn/using/release-notes.md) för Adobe Cam
 
 Avsnittet som innehåller de viktigaste stegen för att skicka ett meddelande har förbättrats med ytterligare information och referenser. [Läs mer](../../channels/using/key-steps-to-send-a-message.md)
 
-Information har lagts till för att ange att när du väljer au audition i en fråga kopieras dess definition och refereras inte. [Läs mer](../../audiences/using/selecting-an-audience-in-a-message.md)
+Information har lagts till för att specificera att när man väljer en målgrupp i en fråga, kopieras dess definition istället för att refereras. [Läs mer](../../audiences/using/selecting-an-audience-in-a-message.md)
 
-Information om målgruppstjänsten och Adobe Experience Platform Data Connector har grupperats om till ett nytt avsnitt. [Läs mer](../../integrating/using/aep-about-audience-destinations-service.md)
+Information om tjänsten målgruppsdestinationer och Adobe Experience Platform Data Connector har grupperats om till ett nytt avsnitt. [Läs mer](../../integrating/using/aep-about-audience-destinations-service.md)
 
 ## Version 21.1 – februari 2021 {#release-21-1---february-2021}
 
