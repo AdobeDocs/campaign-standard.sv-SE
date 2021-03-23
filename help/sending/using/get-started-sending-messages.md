@@ -6,13 +6,13 @@ description: Förbered, testa, schemalägg, skicka och övervaka dina meddelande
 audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
-role: Yrkesverksamma inom affärsverksamhet
+role: Yrkesverksam
 level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 14%
+source-wordcount: '598'
+ht-degree: 13%
 
 ---
 
@@ -86,8 +86,7 @@ Läs mer:
 
 * [Om leverans](../../sending/using/about-deliverability.md)
 * [Övervaka levererbarhet](../../sending/using/monitor-deliverability.md)
-* [Förbättra ditt rykte](../../sending/using/improving-reputation.md)
-* [Tekniska rekommendationer](../../sending/using/technical-recommendations.md)
+* [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)
 * [Kontrollera leveransflöde](../../reporting/using/delivery-throughput.md)
 
 ## Ytterligare resurser
