@@ -10,10 +10,10 @@ feature: Utlösare
 role: Dataarkitektur
 level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: a6272db76fbfca7b9ebcc3734368f7c032b234af
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 5%
+source-wordcount: '522'
+ht-degree: 4%
 
 ---
 
@@ -41,9 +41,12 @@ Integrationen stöder två typer av Adobe Experience Cloud ID:
 * **Deklarerat ID**: Med den här typen av ID kan du stämma av alla typer av data med element från Adobe Campaign-databasen. Den representeras i Adobe Campaign som en fördefinierad avstämningsnyckel. När du utbyter data hashas Adobe Campaign-databasidentifierare. Dessa hash-kodade ID:n jämförs sedan med hash-kodade ID:n för den Adobe Marketing Cloud-publik som är involverad i importen eller exporten.
    <br>Integreringen stöder vanliga deklarerade ID:n, hashade deklarerade ID:n och krypterade deklarerade ID:n.
 
-   >[!CAUTION]
+   >[!NOTE]
    >
-   >Deklarerat ID fungerar bara med Adobe Audience Manager. Deklarerat ID fungerar inte utan det.
+   >Deklarerad ID-datakälla kan nu även användas med integreringen av huvudtjänsten People.
+   >
+   >Om du använder integreringen med huvudtjänsten Kontakter och vill lägga till integreringen med Audience Manager måste du få hjälp av en Adobe Audience Manager-konsults för att undvika att förlora alla ID-synkroniseringar som samlas in när du går över till att använda den här deklarerade ID-datakällan i ett Adobe Audience Manager-sammanhang.
+
 
    Med kryptering kan du dela krypterade data i datakällor (till exempel PII) med det deklarerade ID:t genom att ange krypteringsalgoritmen.
 
