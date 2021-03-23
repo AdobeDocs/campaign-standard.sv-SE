@@ -7,13 +7,13 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: Översikt
-role: Yrkesverksamma inom affärsverksamhet
+role: Yrkesverksam
 level: Nybörjare
 translation-type: tm+mt
-source-git-commit: a632087e69a952ff71b828670a1df19ead3dc2c8
+source-git-commit: dd71d843436220c0313d08d76c17633306301456
 workflow-type: tm+mt
-source-wordcount: '6639'
-ht-degree: 99%
+source-wordcount: '6736'
+ht-degree: 98%
 
 ---
 
@@ -29,6 +29,12 @@ Avsnittet som innehåller de viktigaste stegen för att skicka ett meddelande ha
 Information har lagts till för att specificera att när man väljer en målgrupp i en fråga, kopieras dess definition istället för att refereras. [Läs mer](../../audiences/using/selecting-an-audience-in-a-message.md)
 
 Information om tjänsten målgruppsdestinationer och Adobe Experience Platform Data Connector har grupperats om till ett nytt avsnitt. [Läs mer](../../integrating/using/aep-about-audience-destinations-service.md)
+
+**Deklarerad** ID-datakälla kan nu även användas med integreringen av huvudtjänsten People. Information har lagts till i integreringsdokumentationen för huvudtjänsten Campaign-Audience Manager eller People. [Läs mer](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
+
+Information har lagts till om hur du implementerar lokal spårning för mobilprogram. [Läs mer](../../administration/using/local-tracking.md)
+
+Avsnittet [Deliverability](../../sending/using/about-deliverability.md) har uppdaterats och innehåller nu länkar till den nya [Adobe Deliverability Best Practice Guide](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html). All generisk information om slutbarhet som kan användas för olika Adobe-lösningar har flyttats till [Best Practice Guide Appendix](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html#additional-resources).
 
 ## Version 21.1 – februari 2021 {#release-21-1---february-2021}
 
@@ -274,7 +280,7 @@ Avsnittet Export av loggar har uppdaterats för att återspegla tillgänglighete
 
 ## Januari 2020 {#doc-updates-january-2020}
 
-Leveransdokumentationen har uppdaterats med ett nytt avsnitt om IP-certifiering. [Läs mer](../../sending/using/ip-certification.md)
+Leveransdokumentationen har uppdaterats med ett nytt avsnitt om IP-certifiering. <!--[Read more](../../sending/using/ip-certification.md)-->
 
 Det finns ett nytt avsnitt som beskriver hur du skapar ett arbetsflöde för flerkanalsleveranser. [Läs mer](../../automating/using/workflow-cross-channel-delivery.md)
 
