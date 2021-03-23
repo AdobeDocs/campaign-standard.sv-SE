@@ -8,12 +8,12 @@ content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
 feature: levererbarhet
-role: Yrkesverksamma inom affärsverksamhet
+role: Yrkesverksam
 level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '471'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ Om problemet kvarstår kontaktar du den kommersiella tjänsten, leveransprogramm
 
 * **Vad är skillnaden mellan en e-postadress på blockeringslista och en e-postadress i karantän?**
 
-   * Statusen **[!UICONTROL On denylist]** är ett resultat av en feedbackslinga (när en person rapporterar ett meddelande som skräppost).
+   * Statusen **[!UICONTROL On denylist]** är ett resultat av en [feedbackslinga](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops) (när en person rapporterar ett meddelande som skräppost).
 
    * Statusen **[!UICONTROL Quarantined]** är ett resultat av ett mjukt eller hårt studsande.
    Mer information finns i [det här avsnittet](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist).
