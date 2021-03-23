@@ -8,13 +8,13 @@ topic-tags: deliveries-best-practices
 index: y
 description: Lär dig de bästa metoderna för leveransdesign och leverans med Adobe Campaign.
 feature: levererbarhet
-role: Yrkesverksamma inom affärsverksamhet
+role: Yrkesverksam
 level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
 source-wordcount: '99'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
@@ -33,7 +33,7 @@ Lär dig de bästa metoderna för leveransdesign och leverans med Adobe Campaign
 
 <img src="assets/do-not-localize/custom.svg"  width="60px">
 
-**[Anpassa innehåll](optimize-delivery.md)**  - Använd rätt inställningar
+**[Anpassa innehåll](design-and-personalize.md)**  - Använd rätt inställningar
 
 <img src="assets/do-not-localize/profiles.svg"  width="60px">
 
