@@ -11,10 +11,10 @@ feature: Arbetsflöden
 role: Dataarkitektur
 level: Nybörjare
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: b82335a0c0bf1abc7b9645beee83ac659c4d6b83
 workflow-type: tm+mt
 source-wordcount: '1183'
-ht-degree: 85%
+ht-degree: 84%
 
 ---
 
@@ -50,7 +50,7 @@ Du kan duplicera arbetsflöden. Håll **[!UICONTROL Marketing Activities]** mark
 
 ### Antal arbetsflöden
 
-Som standard rekommenderar vi att du inte kör fler än 20 aktiva arbetsflöden samtidigt. När du har nått den gränsen köas arbetsflöden för att inte påverka prestandan. På samma sätt rekommenderar Adobe att du distribuerar arbetsflödeskörningen tidsmässigt.
+Som standard rekommenderar vi att du inte kör fler än 20 aktiva arbetsflöden samtidigt. När du har nått den gränsen köas arbetsflöden för att inte påverka prestandan. På samma sätt rekommenderar Adobe att du distribuerar arbetsflödeskörningen över tid.
 I vissa sammanhang kan du behöva köra fler än 20 arbetsflöden. Det gäller inte arbetsflöden som väntar på en schemalagd körning.  Om så är fallet måste du kontrollera användningsexemplen med en Campaign-expert och kontakta Adobes kundtjänst för att höja gränsen.
 
 >[!NOTE]
