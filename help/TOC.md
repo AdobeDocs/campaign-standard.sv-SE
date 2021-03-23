@@ -7,9 +7,9 @@ user-guide-description: 'Hjälpcenter för de viktigaste funktionerna, åtgärde
 title: Guide för Campaign Standard
 breadcrumb-title: Hjälpcenter
 translation-type: tm+mt
-source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '1754'
+source-wordcount: '1743'
 ht-degree: 99%
 
 ---
@@ -182,11 +182,7 @@ ht-degree: 99%
       + [Om karantänhantering](sending/using/understanding-quarantine-management.md)
    + Hantera levererbarhet {#managing-deliverability}
       + [Om levererbarhet](sending/using/about-deliverability.md)
-      + [Starta en ny plattform](sending/using/starting-new-platform.md)
       + [Kontrollera e-postinnehåll](sending/using/control-email-content.md)
-      + [Förbättra ditt rykte](sending/using/improving-reputation.md)
-      + [IP-certifiering](sending/using/ip-certification.md)
-      + [Tekniska rekommendationer](sending/using/technical-recommendations.md)
       + [Övervaka levererbarhet](sending/using/monitor-deliverability.md)
       + [Felsökning](sending/using/troubleshooting.md)
    + Arbeta med typologiregler {#working-with-typology-rules}
