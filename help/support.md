@@ -8,12 +8,12 @@ content-type: reference
 topic-tags: latest-release-notes
 hidefromtoc: true
 feature: Hjälp- och supportalternativ
-role: Yrkesverksamma inom affärsverksamhet
+role: Yrkesverksam
 level: Nybörjare
 translation-type: tm+mt
-source-git-commit: a632087e69a952ff71b828670a1df19ead3dc2c8
+source-git-commit: 9cb375656d57f6ff19ff24b72ccbf83dee54b6a1
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '568'
 ht-degree: 5%
 
 ---
@@ -37,42 +37,50 @@ Få support via våra Frågor och svar, bästa praxis, onlineresurser och suppor
 
 <img src="start/using/assets/do-not-localize/icon-faq.svg" width="60px">
 
-### Ämnen Frågor och svar
-
-Läs frågor och svar:
-
-* [levererbarhet](sending/using/monitor-deliverability.md)
-* [InApp- och Push-meddelanden](administration/using/aep-faq.md)
-* [Email Designer](designing/using/faq-email-designer.md)
-
-### Vanliga problem
-
-* [Felhantering i arbetsflöden](automating/using/monitoring-workflow-execution.md#error-management)
-* [Felsökning av arbetsflödeskörning](automating/using/best-practices-workflows.md)
-* [API-felsökning](api/using/troubleshooting.md)
-* [Förstå leveransfel](sending/using/understanding-delivery-failures.md)
-
-### Bästa praxis
-
-* [Bästa praxis för arbetsflöden](automating/using/best-practices-workflows.md)
-* [Arbetsflödesövervakning](automating/using/about-workflow-execution.md)
-* [Hantering av spårning](sending/using/tracking-messages.md)
-* [Bästa praxis för leverans](sending/using/about-deliverability.md)
-* [Importera data med arbetsflöden](automating/using/creating-import-workflow-templates.md)
-* [Tidszonshantering](sending/using/sending-messages-at-the-recipient-s-time-zone.md)
-* [Få ett meddelande när ett fel inträffar](sending/using/receiving-alerts-when-failures-happen.md)
-* [Importera eller konvertera e-postinnehåll](designing/using/using-existing-content.md)
-* [Bästa praxis för leverans](sending/using/delivery-best-practices.md)
-
-### Instruktioner
-
-* [Uppgradera till en ny version](rn/using/release-planning.md)
-* [Övervaka leverans](sending/using/monitoring-a-delivery.md)
-* [Förstå karantänhantering](sending/using/understanding-quarantine-management.md)
-* [Sekretess och samtyckeshantering](start/using/privacy-management.md)
-* [Utforma en fråga](automating/using/query.md)
-* [Frågeexempel](automating/using/query-samples.md)
-* [Konfigurera mobilkanaler](https://helpx.adobe.com/campaiacs-mobile.html)
+<table>
+    <tr><td><strong>Ämnen Frågor och svar</strong></td><td><strong>Vanliga problem</strong></td><td><strong>Bästa praxis</strong></td><td><strong>Instruktioner</strong></td></tr>
+    <tr>
+    <td valign="top">
+        <ul>
+        <li><a href="sending/using/monitor-deliverability.md">levererbarhet</a></li>
+        <li><a href="administration/using/aep-faq.md">InApp- och Push-meddelanden</a></li>
+        <li><a href="designing/using/faq-email-designer.md">Email Designer</a></li>
+        </ul>
+    </td>
+    <td valign="top">
+        <ul>
+        <li><a href="automating/using/monitoring-workflow-execution.md#error-management">Felhantering i arbetsflöden</a></li>
+        <li><a href="automating/using/best-practices-workflows.md">Felsökning av arbetsflödeskörning</a></li>
+        <li><a href="api/using/troubleshooting.md">API-felsökning</a></li>
+        <li><a href="sending/using/understanding-delivery-failures.md">Förstå leveransfel</a></li>
+        </ul>
+    </td>
+   <td valign="top">
+        <ul>
+        <li><a href="automating/using/best-practices-workflows.md">Bästa praxis för arbetsflöden</a></li>
+        <li><a href="automating/using/about-workflow-execution.md">Arbetsflödesövervakning</a></li>
+        <li><a href="sending/using/tracking-messages.md">Hantering av spårning</a></li>
+        <li><a href="sending/using/about-deliverability.md">Bästa praxis för leverans</a></li>
+        <li><a href="automating/using/creating-import-workflow-templates.md">Importera data med arbetsflöden</a></li>
+        <li><a href="sending/using/sending-messages-at-the-recipient-s-time-zone.md">Tidszonshantering</a></li>
+        <li><a href="sending/using/receiving-alerts-when-failures-happen.md">Få ett meddelande när ett fel inträffar</a></li>
+        <li><a href="designing/using/using-existing-content.md">Importera eller konvertera e-postinnehåll</a></li>
+        <li><a href="sending/using/delivery-best-practices.md">Bästa praxis för leverans</a></li>
+        </ul>
+    </td>
+    <td valign="top">
+        <ul>
+        <li><a href="rn/using/release-planning.md">Uppgradera till en ny version</a></li>
+        <li><a href="sending/using/monitoring-a-delivery.md">Övervaka leverans</a></li>
+        <li><a href="sending/using/understanding-quarantine-management.md">Förstå karantänhantering</a></li>
+        <li><a href="start/using/privacy-management.md">Sekretess och samtyckeshantering</a></li>
+        <li><a href="automating/using/query.md">Utforma en fråga</a></li>
+        <li><a href="automating/using/query-samples.md">Frågeexempel</a></li>
+        <li><a href="https://helpx.adobe.com/campaiacs-mobile.html">Konfigurera mobilkanaler</a></li>
+        </ul>
+    </td>
+    </tr>
+</table>
 
 ## Kontrollpanelen i Campaign
 
@@ -107,7 +115,7 @@ Du kan övervaka dina underdomäner och deras certifikat. Läs mer:
 
 <img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-Det nya biljettsystemet har dock varit [Adobe Admin Console](https://adminconsole.adobe.com/overview). Det nya systemet kräver nya individuella konton för varje användare, med rätt behörigheter. Om du inte kan logga in med din Adobe ID begär du åtkomst via Experience League, så kommer kundtjänstteamet att få dig konfigurerad så snart som möjligt. [Läs mer](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+Det nya fästingsystemet har gått igenom [Adobe Admin Console](https://adminconsole.adobe.com/overview). Det nya systemet kräver nya individuella konton för varje användare, med rätt behörigheter. Om du inte kan logga in med din Adobe ID begär du åtkomst via Experience League, så kommer kundtjänstteamet att få dig konfigurerad så snart som möjligt. [Läs mer](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
 ### Fråga experterna!
 
@@ -115,9 +123,7 @@ Gå med i Campaign Classic Community: söka efter svar i befintliga frågor elle
 
 ### Skapa en biljett eller starta en chatt
 
-Om du skapar ett ärende kan du kontakta Adobe kundsupport om du har problem med dina Adobe-produkter.
-
-Adobe Admin Console hjälper dig att lösa eller felsöka problem genom att chatta med Adobe kundsupport.
+Om du skapar ett ärende kan du kontakta Adobe kundsupport om du har problem med dina Adobe-produkter. Adobe Admin Console hjälper dig att lösa eller felsöka problem genom att chatta med Adobe kundsupport.
 
 Om du vill logga ett problem eller starta en chattsession i det nya systemet ansluter du till [Adobe Admin Console](https://adminconsole.adobe.com/overview).
 
