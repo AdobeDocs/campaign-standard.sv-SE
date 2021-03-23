@@ -8,12 +8,12 @@ topic-tags: deliveries-best-practices
 index: y
 description: Lär dig hur du skyddar och optimerar sändningsprocessen uppströms.
 feature: levererbarhet
-role: Yrkesverksamma inom affärsverksamhet
+role: Yrkesverksam
 level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '754'
 ht-degree: 6%
 
 ---
@@ -55,7 +55,7 @@ Om du vill nå mottagarnas inkorg utan att studsa eller markeras som skräppost 
 
    * När du kontrollerar om e-postmeddelandet kan levereras vill du fokusera på fyra huvudkategorier: datakvalitet, meddelande och innehåll, utskick av infrastruktur och anseende. Mer information om detta avsnitt finns i [det här avsnittet](../../sending/using/about-deliverability.md).
 
-* När du startar en ny plattform ska du följa rekommendationerna [på den här sidan](../../sending/using/starting-new-platform.md).
+* När du startar en ny plattform bör du följa rekommendationerna som anges på [den här sidan](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process).
 
 * Kontakta din Adobe-representant om du behöver hjälp.
 
