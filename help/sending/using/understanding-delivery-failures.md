@@ -7,13 +7,13 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 feature: levererbarhet
-role: Yrkesverksamma inom affärsverksamhet
+role: Yrkesverksam
 level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 69%
+source-wordcount: '1310'
+ht-degree: 66%
 
 ---
 
@@ -38,6 +38,7 @@ Meddelanden kan också uteslutas under leveransförberedelsen om en adress sätt
 
 * [Om karantänhantering](../../sending/using/understanding-quarantine-management.md)
 * [Om anmälan och avanmälan i Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [studsar](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
 ## Identifiera leveransfel för ett meddelande {#identifying-delivery-failures-for-a-message}
 
@@ -75,6 +76,11 @@ Möjliga orsaker till leveransfel är:
 | **[!UICONTROL Text too long]** | Ignorerad | Antalet tecken i SMS-meddelandet överskrider gränsen. Mer information finns i [SMS-kodning, -längd och -transkribering](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration). |
 | **[!UICONTROL Character not supported by encoding]** | Ignorerad | SMS-meddelandet innehåller ett eller flera tecken som inte stöds av kodningen. &amp;Mer information finns i [Teckentabell – GSM-standard](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard). |
 
+
+**Relaterade ämnen:**
+* [Hårda studsar](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
+* [Mjuka studsar](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
+
 ## Försök igen efter ett tillfälligt leveransfel {#retries-after-a-delivery-temporary-failure}
 
 Om ett meddelande misslyckas på grund av ett tillfälligt fel av typen **Ignorerad**, kommer nya försök att utföras under leveransens varaktighet. Mer information om olika typer av fel finns i [Leveransfeltyper och orsaker](#delivery-failure-types-and-reasons).
@@ -91,13 +97,12 @@ Om du vill ändra varaktigheten för en leverans går du till de avancerade para
 
 Om du till exempel vill att återförsök för en leverans ska stoppas efter en dag kan du ange leveranstiden till **1d**, och meddelandena i kön för återförsök kommer att tas bort efter en dag.
 
-<!--For example, if you want retries for a delivery to stop after one day, you can set the delivery duration to **1d**, and the Enhanced MTA will honor that setting by removing messages in the retry queue after one day.-->
-
 >[!NOTE]
 >
 >När ett meddelande har varit i återförsökskön i högst 3,5 dagar och inte kunnat levereras, kommer det att gå ut och dess status kommer att uppdateras<!--from **[!UICONTROL Sent]**--> till **[!UICONTROL Failed]** i [leveransloggarna](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
-<!--The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
+<!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
+The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
 
 ## Synkrona och asynkrona fel {#synchronous-and-asynchronous-errors}
 
@@ -114,9 +119,13 @@ För synkrona felmeddelanden vid leveransfel avgör Adobe Campaign Enhanced MTA 
 >
 >Studskvalifikationer i Campaign **[!UICONTROL Message qualification]**-tabellen används inte längre.
 
-Asynkrona studsningar är fortfarande kvalificerade inMail-processen enligt **[!UICONTROL Inbound email]**-reglerna. Du kommer åt reglerna genom att klicka på **[!UICONTROL Adobe Campaign]**-logotypen längst upp till vänster och sedan markera **[!UICONTROL Administration > Channels > Email > Email processing rules]** och **[!UICONTROL Bounce mails]**. Mer information om denna regel finns i [det här avsnittet](../../administration/using/configuring-email-channel.md#email-processing-rules).
+Asynkrona studsningar är fortfarande kvalificerade inMail-processen enligt **[!UICONTROL Inbound email]**-reglerna. Du kommer åt reglerna genom att klicka på **[!UICONTROL Adobe Campaign]**-logotypen längst upp till vänster och sedan markera **[!UICONTROL Administration > Channels > Email > Email processing rules]** och **[!UICONTROL Bounce mails]**. Mer information om den här regeln finns i [det här avsnittet](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
-<!--Bounces can have the following qualification statuses:
+Mer information om studsar och olika typer av studsar finns i [det här avsnittet](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
+
+<!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
+
+Bounces can have the following qualification statuses:
 
 * **[!UICONTROL To qualify]**: the bounce mail needs to be qualified. Qualification must be done by the Deliverability team to ensure that the platform deliverability functions correctly. As long as it is not qualified, the bounce mail is not used to enrich the list of email processing rules.
 * **[!UICONTROL Keep]**: the bounce mail was qualified and will be used by the **Update for deliverability** workflow to be compared to existing email processing rules and enrich the list.
@@ -132,4 +141,4 @@ Mekanismen för dubbel anmälan är bäst när du skickar e-post. Den skyddar pl
 
 Principen är att skicka ett e-postmeddelande som bekräftar besökarens samtycke innan de lagras som &quot;profiler&quot; i Campaign-databasen: Besökaren fyller i en landningssida online, får ett e-postmeddelande och måste klicka på bekräftelselänken för att slutföra prenumerationen.
 
-Mer information om detta hittar du i [det här avsnittet](../../channels/using/setting-up-a-double-opt-in-process.md).
+Mer information finns i [det här avsnittet](../../channels/using/setting-up-a-double-opt-in-process.md).
