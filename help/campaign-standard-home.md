@@ -5,13 +5,13 @@ product: campaign
 title: Produktdokumentation för Adobe Campaign Standard
 description: Bläddra i produktdokumentationen för Adobe Campaign Standard
 feature: Översikt
-role: Yrkesverksamma inom affärsverksamhet
+role: Yrkesverksam
 level: Nybörjare
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e9de904801c0cf49c1dad415a30e75e9b49e4b1d
 workflow-type: tm+mt
 source-wordcount: '242'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -42,7 +42,7 @@ Läs mer om allmänna riktlinjer för mobila leveranser (SMS, push och i appen)
 
 ## Översta sidor
 
-<table>
+<table style="table-layout:fixed">
 <tr>
   <td valign="top">
     <a href="administration/using/about-access-management.md">
