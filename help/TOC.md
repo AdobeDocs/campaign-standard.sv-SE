@@ -4,13 +4,13 @@ product: campaign
 audience: end-user
 user-guide-title: Campaign Standard
 user-guide-description: 'Hjälpcenter för de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som behövs för att använda Campaign Standard. '
-title: Guide för Campaign Standard
+title: Användarhandbok för Campaign Standard
 breadcrumb-title: Hjälpcenter
 translation-type: tm+mt
 source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
 source-wordcount: '1743'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
