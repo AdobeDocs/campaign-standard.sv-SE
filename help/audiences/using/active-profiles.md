@@ -7,10 +7,10 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 feature: Profiler
-role: Yrkesverksamma inom affärsverksamhet
+role: Yrkesverksam
 level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -26,10 +26,9 @@ Adobe Campaign tillhandahåller en rapport som visar antalet aktiva profiler. De
 
 >[!NOTE]
 >
->Om du är värd för AWS och använder Campaign Standard från build 10368 kan du även övervaka antalet aktiva profiler som används på dina instanser direkt från Kontrollpanelen. Mer information finns i [dokumentationen till kontrollpanelen](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+>Om du använder Campaign Standard från version 10368 kan du även övervaka antalet aktiva profiler som används på dina instanser direkt från Kontrollpanelen. Mer information finns i [dokumentationen till kontrollpanelen](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
 >
 >Observera att mätvärden för aktiva profiler endast är tillgängliga och relevanta för **marknadsinstanser**. Det är varken tillämpligt eller tillgängligt för körningsinstanser, vilket innebär MID-instanser (mellankällning) och RT-instanser (Message Center/Real-time Messaging).
-
 
 De profiler som uteslöts under färdigställande av leveransen (typologiregler, karantän, kontrollgrupper) beaktas inte. En profil som har valts av flera leveranser räknas bara en gång. Längst ned i rapporten finns en lista med aktiva profiler för varje måldimension.
 
