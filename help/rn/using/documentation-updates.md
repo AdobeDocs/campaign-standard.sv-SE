@@ -10,9 +10,9 @@ feature: Översikt
 role: Yrkesverksam
 level: Nybörjare
 translation-type: tm+mt
-source-git-commit: dd71d843436220c0313d08d76c17633306301456
+source-git-commit: 7bea3b75467d52cb4ffed77416df7c0baf5480e2
 workflow-type: tm+mt
-source-wordcount: '6736'
+source-wordcount: '6748'
 ht-degree: 98%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 98%
 Förutom [versionsinformationen](../../rn/using/release-notes.md) för Adobe Campaign listas alla nya uppdateringar i dokumentationen för Adobe Campaign Standard på den här sidan.
 
 ## Mars 2021 {#doc-updates-march-2021}
+
+Sidan&quot;Hjälp och support&quot; för Campaign Standard har integrerats i huvuddokumentationen. [Läs mer](../../support.md)
 
 Avsnittet som innehåller de viktigaste stegen för att skicka ett meddelande har förbättrats med ytterligare information och referenser. [Läs mer](../../channels/using/key-steps-to-send-a-message.md)
 
@@ -148,7 +150,7 @@ Användningsfall med arbetsflöden har uppdaterats och omorganiserats i tematisk
 
 Användningsfall har lagts till om hur data [krypteras](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) och [dekrypteras](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) med Kontrollpanelen och arbetsflödena i Campaign.
 
-Referenser till den äldre supportwebbplatsen har ersatts av den nya webbplatsen. [Läs mer](https://helpx.adobe.com/se/campaign/kb/ac-support.html)
+Referenser till den äldre supportwebbplatsen har ersatts av den nya webbplatsen. [Läs mer](../../support.md)
 
 Konfigurationen av det anpassade kontot Litmus har tagits bort från återgivningsfunktionen i Inkorgen. [Läs mer](../../sending/using/email-rendering.md)
 
