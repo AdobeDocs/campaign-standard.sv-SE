@@ -11,10 +11,10 @@ feature: Hjälp- och supportalternativ
 role: Yrkesverksam
 level: Nybörjare
 translation-type: tm+mt
-source-git-commit: 9cb375656d57f6ff19ff24b72ccbf83dee54b6a1
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -91,9 +91,13 @@ Få support via våra Frågor och svar, bästa praxis, onlineresurser och suppor
 Kontrollpanelen hjälper dig att effektivisera arbetet som produktadministratör genom att göra det möjligt att hantera inställningar och spåra Campaign Standarder för var och en av instanserna.
 [Klicka ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=en#discover-control-panel) här för mer information.
 
+>[!NOTE]
+>
+>Kontrollpanelen är tillgänglig för alla administratörsanvändare. Anvisningar om hur du beviljar administratörsåtkomst till en användare finns på [den här sidan](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+
 ### Hur kommer jag åt Kontrollpanelen?
 
-Kontrollpanelen är tillgänglig direkt från Adobe Experience Cloud. Det är endast tillgängligt för administratörsanvändare. [Klicka ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en#discover-control-panel) här för mer information.
+Kontrollpanelen är tillgänglig direkt från Adobe Experience Cloud. [Klicka ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en#discover-control-panel) här för mer information.
 
 ### Vanliga frågor och svar om Kontrollpanelen
 
