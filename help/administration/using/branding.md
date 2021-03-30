@@ -11,10 +11,10 @@ feature: Instansinställningar
 role: Administratör
 level: Erfaren
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
-source-wordcount: '1254'
-ht-degree: 80%
+source-wordcount: '1286'
+ht-degree: 78%
 
 ---
 
@@ -94,7 +94,11 @@ Du kan lägga till nya enheter i organisationen i Campaign eller skapa en ny typ
 
 1. **Konfigurera en ny underdomän**  - För alla nya underdomäner som ska användas av Adobe är det första steget att konfigurera den. Du kan göra detta via [Campaign Control Panel](https://docs.adobe.com/content/help/sv-SE/control-panel/using/subdomains-and-certificates/subdomains-branding.html) eller kontakta din Adobe tekniska kontakt. Läs mer om subdomänkonfigurationen [i den här artikeln](https://helpx.adobe.com/se/campaign/kb/domain-name-delegation.html).
 
-1. **Skapa en biljett** - När underdomänen har konfigurerats måste Adobe konfigurera den i produktionsmiljön. [Skapa en biljett till Client Care](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) med följande information för att begära detta:
+   >[!NOTE]
+   >
+   >Kontrollpanelen är tillgänglig för alla administratörsanvändare. Anvisningar om hur du beviljar administratörsåtkomst till en användare finns på [den här sidan](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+
+1. **Skapa en biljett** - När underdomänen har konfigurerats måste Adobe konfigurera den i produktionsmiljön. [Skapa en biljett till Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) med följande information för att begära detta:
 
    * Ämne: ACS Ny varumärkeskonfiguration
 
