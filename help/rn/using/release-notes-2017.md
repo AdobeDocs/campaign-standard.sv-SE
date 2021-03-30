@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: Översikt
-role: Yrkesverksamma inom affärsverksamhet
+role: Yrkesverksam
 level: Nybörjare
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 274a9db2061f78dae9e31790629485d0411d83fb
 workflow-type: tm+mt
 source-wordcount: '4631'
 ht-degree: 8%
@@ -44,7 +44,7 @@ Visa de senaste [dokumentationsuppdateringarna](../../rn/using/documentation-upd
   </tr> 
   <tr> 
    <td> Skapa innehåll: Importera från en URL<br /> </td> 
-   <td> Om du importerar från en URL-adress kan du snabbt hämta ditt kreativa innehåll från en webbplats och skapa e-postmeddelanden för alla typer av leveranser. Dessutom kan ni effektivisera den kreativa processen genom att göra det möjligt för tredje part att dela innehåll direkt via en webbadress. Importerat innehåll kan flexibelt användas som en del av en enda leverans eller på mallnivå för att säkerställa ett enhetligt varumärke för alla relaterade kampanjer, oavsett om de är arbetsflödesbaserade eller transaktionsbaserade, och innehålla A/B-tester eller multivariata tester. Importera från en URL konverterar och spårar automatiskt alla länkar för att övervaka e-postprestanda via Dynamic Reporting.<br /> Mer information finns i den <a href="../../designing/using/using-existing-content.md#importing-content-from-a-url">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Om du importerar från en URL-adress kan du snabbt hämta ditt kreativa innehåll från en webbplats och skapa e-postmeddelanden för alla typer av leveranser. Dessutom kan ni effektivisera den kreativa processen genom att göra det möjligt för tredje part att dela innehåll direkt via en webbadress. Importerat innehåll kan flexibelt användas som en del av en enda leverans eller på mallnivå för att säkerställa ett enhetligt varumärke för alla relaterade kampanjer, oavsett om de är arbetsflödesbaserade eller transaktionsbaserade, och innehålla A/B-tester eller multivariata tester. Importera från en URL konverterar och spårar automatiskt alla länkar för att övervaka e-postprestanda via Dynamic Reporting.<br /> Mer information finns i den <a href="../../designing/using/using-existing-content.md">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
