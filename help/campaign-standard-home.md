@@ -8,9 +8,9 @@ feature: Översikt
 role: Yrkesverksam
 level: Nybörjare
 translation-type: tm+mt
-source-git-commit: 8d47cc5546a392283e90914e3b6c9d7e70aaa218
+source-git-commit: 89f2557865ea943405cec1ac53ea20f08ca32aaa
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '237'
 ht-degree: 97%
 
 ---
@@ -66,7 +66,7 @@ Läs mer om allmänna riktlinjer för mobila leveranser (SMS, push och i appen)
   </td>
   <td valign="top">
        <img alt="Support" src="start/using/assets/do-not-localize/help.jpeg" />
-    <div><a href="https://helpx.adobe.com/se/campaign/kb/ac-support.html">
+    <div><a href="support.md">
     <strong>Få support</strong></a>
     </div>
     <p><em>Få tillgång till frågor och svar, bästa praxis, hjälpresurser och kontakt med experterna</em></p>
