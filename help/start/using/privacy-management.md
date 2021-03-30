@@ -6,19 +6,19 @@ description: Läs mer om funktioner i Adobe Campaign Standard för att hantera i
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Integritet
-role: Yrkesverksamma inom affärsverksamhet
+feature: Sekretess
+role: Yrkesverksam
 level: Mellanliggande
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '968'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Integritetshantering {#privacy-management}
+# Sekretesshantering {#privacy-management}
 
 Adobe Campaign erbjuder en uppsättning verktyg som hjälper dig att följa [integritetsregleringen](#privacy-management-regulations) (inklusive GDPR, CCPA, PDPA och LGPD).
 
@@ -50,7 +50,7 @@ Funktionerna i Adobe Campaign hjälper dig att efterleva följande regler:
 
 * **GDPR** ([allmänna dataskyddsförordningen](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)) är EU:s integritetslagstiftning som harmoniserar och moderniserar kraven på skydd av personuppgifter. Följ länkarna nedan för att hitta allmän information om GDPR:
 
-   * https://www.adobe.com/privacy/general-data-protection-regulation.html
+   * https://www.adobe.com/se/privacy/general-data-protection-regulation.html
    * https://www.adobe.com/marketing-cloud/campaign/general-data-protection-regulation.html
 
 * **CCPA** ([California Consumer Privacy Act](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=)) ger personer bosatta i Kalifornien nya rättigheter när det gäller deras personuppgifter och ålägger vissa enheter som bedriver verksamhet i Kalifornien skyldigheter när det gäller dataskydd.
