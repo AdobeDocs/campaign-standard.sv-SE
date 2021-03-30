@@ -9,14 +9,14 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
-feature: Integritet
-role: Yrkesverksamma inom affärsverksamhet
+feature: Sekretess
+role: Yrkesverksam
 level: Mellanliggande
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1483'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Adobe Campaign ingår som en del av Adobe Experience Cloud. Det sätt på vilket
 
    >[!NOTE]
    >
-   >I likhet med alla andra Adobe-produkter samlar Campaign in information om program- och webbplatsanvändare. Se [Adobes integritetspolicy](https://www.adobe.com/privacy/policy.html) för mer information.
+   >I likhet med alla andra Adobe-produkter samlar Campaign in information om program- och webbplatsanvändare. Se [Adobes integritetspolicy](https://www.adobe.com/se/privacy/policy.html) för mer information.
 
 * **Så används Adobe Experience Cloud för att samla in information**
 
@@ -71,9 +71,9 @@ Adobe Campaign ingår som en del av Adobe Experience Cloud. Det sätt på vilket
 
    >[!NOTE]
    >
-   >Liksom för alla Adobe-produkter kan användare i Campaign avanmäla sig från att dela information som samlas in om dem via appar och webbplatser. Mer information finns i [Vanliga frågor och svar om att använda Adobe Experience Cloud](https://www.adobe.com/privacy/experience-cloud-usage-info-faq.html).
+   >Liksom för alla Adobe-produkter kan användare i Campaign avanmäla sig från att dela information som samlas in om dem via appar och webbplatser. Mer information finns i [Vanliga frågor och svar om att använda Adobe Experience Cloud](https://www.adobe.com/se/privacy/experience-cloud-usage-info-faq.html).
 
-Se [den här sidan](https://www.adobe.com/privacy/marketing-cloud.html) för mer information om integriteten i Adobe Experience Cloud.
+Se [den här sidan](https://www.adobe.com/se/privacy/marketing-cloud.html) för mer information om integriteten i Adobe Experience Cloud.
 
 ## Personuppgifter och personer {#personal-data}
 
@@ -131,7 +131,7 @@ Adobe Campaign erbjuder ytterligare funktioner som underlättar din beredskap so
 
 >[!NOTE]
 >
->Den här uppsättningen verktyg hjälper dig med din integritetsefterlevnad gällande GDPR, CCPA och PDPA. Se [denna sida](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr) för mer information om dessa olika regelverk.
+>Den här uppsättningen verktyg hjälper dig med din integritetsefterlevnad gällande GDPR, CCPA och PDPA. Se [denna sida](https://helpx.adobe.com/se/campaign/kb/campaign-privacy-overview.html#whatisgdpr) för mer information om dessa olika regelverk.
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
