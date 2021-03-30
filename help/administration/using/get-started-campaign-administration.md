@@ -10,9 +10,9 @@ feature: Åtkomsthantering
 role: Administratör
 level: Erfaren
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '641'
 ht-degree: 12%
 
 ---
@@ -33,7 +33,7 @@ Adobe Campaign är en molnbaserad lösning som ger administratörer olika sätt 
 >
 >Om du har frågor eller frågor om implementerings- och konfigurationsfrågor kontaktar du din kontoansvarige på Adobe.
 
-Observera att om din instans finns på AWS kan administratörsanvändare även använda Campaign-kontrollpanelen för att hantera inställningar och spåra användning för var och en av dina instanser. Mer information om detta hittar du i den [dedikerade dokumentationen](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html).
+Observera att administratörsanvändare även kan använda Campaign-kontrollpanelen för att hantera inställningar och spåra användningen för var och en av dina instanser. Mer information om detta hittar du i den [dedikerade dokumentationen](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html).
 
 ## Administrationsmeny {#administration-menu}
 
