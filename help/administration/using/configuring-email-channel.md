@@ -10,14 +10,14 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 feature: Instansinställningar
 role: Administratör
 level: Erfaren
+exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: b899d1926526fccb2fe1fa42db7a4e4317ddb1cb
 workflow-type: tm+mt
-source-wordcount: '2568'
-ht-degree: 77%
+source-wordcount: '2602'
+ht-degree: 76%
 
 ---
-
 
 # Konfigurera e-postkanal{#configuring-email-channel}
 
@@ -311,7 +311,7 @@ Avsnittet **[!UICONTROL Access authorization]** innehåller följande parametrar
 
 ## Äldre inställningar {#legacy-settings}
 
-Om du **inte** kör den senaste versionen av Campaign gäller fortfarande de parametrar och gränssnittsavsnitt som beskrivs nedan för dig.
+Om du **INTE** kör den senaste versionen av Campaign gäller fortfarande de parametrar och gränssnittsavsnitt som beskrivs nedan för dig.
 
 ### Återförsök {#legacy-retries}
 
@@ -340,6 +340,10 @@ Satser kan ha följande kvalificeringsstatus:
 * **[!UICONTROL To qualify]**: studsposten måste kvalificeras. Kvalificering måste utföras av Deliverability-teamet för att säkerställa att plattformens leveransbarhet fungerar korrekt. Så länge som det inte är kvalificerat används studsmeddelandet inte för att utöka listan med regler för e-postbearbetning.
 * **[!UICONTROL Keep]**: studsmeddelandet har kvalificerats och kommer att användas av  **Update for** deliverability-arbetsflödet som ska jämföras med befintliga regler för e-postbearbetning och berika listan.
 * **[!UICONTROL Ignore]**: studsmeddelandet har kvalificerats men kommer inte att användas av  **Update for** deliverability workflow. Det skickas alltså inte till klientinstanserna.
+
+>[!NOTE]
+>
+>Om en Internet-leverantör skulle råka ut för ett avbrott markeras e-post som skickas via Campaign felaktigt som studsar. För att korrigera detta måste du uppdatera studskompetens. Mer information finns på [den här sidan](../../administration/using/update-bounce-qualification.md).
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
 
