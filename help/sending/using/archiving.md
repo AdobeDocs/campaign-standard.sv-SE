@@ -7,16 +7,16 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 feature: Prestandaövervakning
-role: Yrkesverksamma inom affärsverksamhet
+role: Yrkesverksam
 level: Mellanliggande
+exl-id: 7bf380d7-195e-413d-b14e-85e78b07ba8b
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: f7d77f524a6c141066056e53fc8616f35189fc39
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 6%
+source-wordcount: '367'
+ht-degree: 7%
 
 ---
-
 
 # Arkivering med e-postkopia{#archiving-emails}
 
@@ -41,7 +41,7 @@ När den är aktiverad måste du aktivera e-postkopia från alternativet **[!UIC
 
 >[!NOTE]
 >
->För närvarande går det inte att skicka arkiverade e-postmeddelanden med Adobe Campaign Enhanced MTA.
+>För närvarande skickas de arkiverade e-postmeddelandena fortfarande av den äldre arkiveringsmodulen som använder ett enkelt SMTP-relä.
 
 ## Aktivera e-postarkivering {#activating-email-archiving}
 
