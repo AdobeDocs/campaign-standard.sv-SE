@@ -10,11 +10,11 @@ hidefromtoc: true
 feature: Hjälp- och supportalternativ
 role: Yrkesverksam
 level: Nybörjare
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '593'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Få support via våra vanliga frågor och svar, god praxis, onlineresurser och s
         <ul>
         <li><a href="sending/using/monitor-deliverability.md">Levererbarhet</a></li>
         <li><a href="administration/using/aep-faq.md">Meddelanden i appen och push-meddelanden</a></li>
-        <li><a href="designing/using/faq-email-designer.md">Email Designer</a></li>
+        <li><a href="designing/using/faq-email-designer.md">E-postdesigner</a></li>
         </ul>
     </td>
     <td valign="top">
@@ -76,7 +76,7 @@ Få support via våra vanliga frågor och svar, god praxis, onlineresurser och s
         <li><a href="start/using/privacy-management.md">Sekretess- och medgivandehantering</a></li>
         <li><a href="automating/using/query.md">Utforma en fråga</a></li>
         <li><a href="automating/using/query-samples.md">Exempel på frågor</a></li>
-        <li><a href="https://helpx.adobe.com/campaiacs-mobile.html">Konfigurera mobilkanaler</a></li>
+        <li><a href="https://helpx.adobe.com/sv/campaiacs-mobile.html">Konfigurera mobilkanaler</a></li>
         </ul>
     </td>
     </tr>
@@ -93,11 +93,11 @@ Med Kontrollpanelen kan du effektivisera arbetet som produktadministratör för 
 
 >[!NOTE]
 >
->Kontrollpanelen är tillgänglig för alla administratörsanvändare. Anvisningar om hur du beviljar administratörsåtkomst till en användare finns på [den här sidan](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>Kontrollpanelen är tillgänglig för alla administratörsanvändare. Stegen för att bevilja administratörsåtkomst till en användare finns på [den här sidan](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=sv#discover-control-panel).
 
 ### Hur kommer jag åt Kontrollpanelen?
 
-Kontrollpanelen är tillgänglig direkt från Adobe Experience Cloud. [Klicka här](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en#discover-control-panel) för mer information.
+Kontrollpanelen är tillgänglig direkt från Adobe Experience Cloud. [Klicka här](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=sv#discover-control-panel) för mer information.
 
 ### Vanliga frågor och svar om Kontrollpanelen
 
@@ -119,7 +119,7 @@ Du kan övervaka dina underdomäner och deras certifikat. Läs mer:
 
 <img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-Det nya fästingsystemet har gått igenom [Adobe Admin Console](https://adminconsole.adobe.com/overview). Det nya systemet kräver nya individuella konton för varje användare, med rätt behörigheter. Begär åtkomst via Experience League om du inte kan logga in med ditt Adobe ID, så registrerar kundtjänstteamet dig så snart som möjligt. [Läs mer](https://helpx.adobe.com/sv/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+Det nya biljettsystemet har varit genom [Adobe Admin Console](https://adminconsole.adobe.com/overview). Det nya systemet kräver nya individuella konton för varje användare, med rätt behörigheter. Begär åtkomst via Experience League om du inte kan logga in med ditt Adobe ID, så registrerar kundtjänstteamet dig så snart som möjligt. [Läs mer](https://helpx.adobe.com/sv/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
 ### Fråga experterna!
 
@@ -131,4 +131,4 @@ Om du skapar ett ärende kan du kontakta Adobe kundsupportteam om problem som du
 
 Anslut till [Adobe Admin Console](https://adminconsole.adobe.com/overview) för att logga ett problem eller starta en chattsession i det nya systemet.
 
-Följ den detaljerade proceduren som beskrivs på [den här sidan](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+Följ den detaljerade proceduren som beskrivs på [den här sidan](https://helpx.adobe.com/sv/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
