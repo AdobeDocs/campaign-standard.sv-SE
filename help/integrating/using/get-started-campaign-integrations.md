@@ -7,16 +7,16 @@ audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
 feature: Utlösare
-role: Dataarkitektur
-level: Mellanliggande
+role: Data Architect
+level: Intermediate
+exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 3f0c24baf489c516a7a3f665e8c23cec0ed2c3bf
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 88%
+source-wordcount: '669'
+ht-degree: 84%
 
 ---
-
 
 # Om integreringar i Campaign{#get-started-campaign-integrations}
 
@@ -74,6 +74,11 @@ Om du vill integrera dataflöden från andra system med Adobe Campaign kan du ta
    <td> Du kan byta ut målgrupper med de olika programmen som ni använder i Adobe Experience Cloud.<br /> </td> 
    <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">People core service (profiler och målgrupper)</a><br /> </td> 
   </tr> 
+    <tr> 
+   <td>Adobe Real-time Customer Data Platform (RTCDP)<br /> </td> 
+   <td> Integrationen mellan Adobe Campaign och Adobe Real-time Customer Data Platform (RTCDP) gör att ni kan dela segmentdata och importera målgrupper till Adobe Campaign.</td>
+   <td><a href="../../integrating/using/get-started-sources-destinations.md">Kom igång med källor och mål</a></td>
+  </tr> 
   <tr> 
    <td> People core service och Assets On Demand<br /> </td> 
    <td> Du kan infoga resurser från ditt bibliotek i Adobe Experience Cloud i e-postmeddelanden och landningssidor som har skapats i Adobe Campaign.<br /> </td> 
@@ -105,4 +110,3 @@ Om du vill integrera dataflöden från andra system med Adobe Campaign kan du ta
   </tr> 
  </tbody> 
 </table>
-
