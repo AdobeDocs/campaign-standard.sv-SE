@@ -7,16 +7,16 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Datatekniker
-level: Erfaren
+role: Data Engineer
+level: Experienced
+exl-id: 9e2d1b59-55a5-4715-adfb-35191a9df536
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 01e4eb027b55815c3680b26691e61cbe5b63ee8c
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
-
 
 # Must-Read {#must-read}
 
@@ -25,6 +25,12 @@ ht-degree: 0%
 * Adobe Campaign API:er får endast användas på servern.
 * Kontakta alltid den tekniska kontaktpersonen på Adobe om det användningsfall du vill implementera är anpassat till den skala som tillåts av Adobe Campaign API:er.
 * Om du vill konfigurera en AdobeIO-åtkomst måste du ha särskilda behörigheter. Kontakta Adobe Support om du har problem.
+
+## Rättigheter och tillgång
+
+* Som standard använder Adobe Campaign API:er administratörskontexten och därför gäller inte organisationsenheterna och rollerna.
+* Adobe Campaign-API:erna exkluderas från rollkontexten.
+* Om du vill konfigurera API:erna med en eller flera organisationsenheter bör du kontrollera med din tekniska kontakt till Adobe först.
 
 ## Resursrepresentation
 
