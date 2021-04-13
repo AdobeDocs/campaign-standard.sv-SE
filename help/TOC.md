@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Hjälpcenter för de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som behövs för att använda Campaign Standard. '
 title: Användarhandbok för Campaign Standard
 breadcrumb-title: Hjälpcenter
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 918e73c66cd372a84c87f1f686ce67026858c849
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1750'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -439,7 +439,7 @@ ht-degree: 99%
    + Konfigurera kanaler {#configuring-channels}
       + [Om kanalkonfiguration](administration/using/about-channel-configuration.md)
       + [Konfigurera e-postkanal](administration/using/configuring-email-channel.md)
-      + [Uppdatera studskompetens efter ett avbrott i en Internet-leverantör](administration/using/update-bounce-qualification.md)
+      + [Uppdatera studskrav efter ett avbrott hos en internetleverantör](administration/using/update-bounce-qualification.md)
       + [Konfigurera ett mobilprogram](administration/using/configuring-a-mobile-application.md)
    + Konfigurera mobila kanaler {#configuring-mobile}
       + [Implementera push-spårning](administration/using/push-tracking.md)
