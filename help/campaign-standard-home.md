@@ -8,11 +8,11 @@ feature: Översikt
 role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '234'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c2d3217156bd942ec0948e65d48c65be3b89e71e
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ## Nyheter
 
-* **[Campaign 21.1, februariversionen är här!](rn/using/release-notes.md)**<br/> Upptäck nya funktioner, de senaste uppdateringarna och korrigeringar
+* **[Campaign - RTCDP-](integrating/using/get-started-sources-destinations.md)**<br/> integreringLär dig hur du delar data mellan Campaign och kunddataplattformen i realtid (RTCDP)
 
 * **[Uppdatera felaktigt avvisade e-postmeddelanden](https://helpx.adobe.com/se/campaign/kb/update-bounce-qualification.html)**<br/> Läs om hur du uppdaterar felaktigt avvisade e-postmeddelanden efter ett driftstopp hos Gmail
 
@@ -42,7 +42,7 @@ Läs mer om allmänna riktlinjer för mobila leveranser (SMS, push och i appen)
 
 ## Översta sidor
 
-<table style="table-layout:fixed">
+<table>
 <tr>
   <td valign="top">
     <a href="administration/using/about-access-management.md">
