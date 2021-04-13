@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Hjälpcenter för de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som behövs för att använda Campaign Standard. '
 title: Användarhandbok för Campaign Standard
 breadcrumb-title: Hjälpcenter
-translation-type: ht
-source-git-commit: 918e73c66cd372a84c87f1f686ce67026858c849
-workflow-type: ht
-source-wordcount: '1750'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 479819df78953e7703738f31e3ef8bd9146416d5
+workflow-type: tm+mt
+source-wordcount: '1779'
+ht-degree: 98%
 
 ---
 
@@ -268,13 +268,17 @@ ht-degree: 100%
          + [Mappa data mellan Microsoft Dynamics 365 och Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [Använda Microsoft Dynamics 365­integrationen](integrating/using/d365-acs-using-the-integration.md)
    + Campaign och Adobe Experience Platform {#adobe-experience-platform}
-      + Tjänst för målgruppsdestinationer {#audience-destinations}
+      + Adobe Experience Platform Sources and Destinations {#aep-sources-destinations}
+         + [Kom igång med källor och mål](integrating/using/get-started-sources-destinations.md)
+         + [Engagera Adobe Experience Platform-målgrupper i Campaign](integrating/using/ingest-aep-data.md)
+         + [Exportera data från Campaign till Adobe Experience Platform](integrating/using/export-campaign-data.md)
+      + Målgruppstjänst (beta) {#audience-destinations}
          + [Om tjänsten Målgruppsdestinationer](integrating/using/aep-about-audience-destinations-service.md)
          + [Hantera Adobe Experience Platform-målgrupper](integrating/using/aep-managing-audiences.md)
          + [Använda verktyget Segment Builder](integrating/using/aep-using-segment-builder.md)
          + [Inriktning på Adobe Experience Platform-målgrupper ](integrating/using/aep-targeting-audiences.md)
          + [Anpassa kampanjer med Adobe Experience Platform-attribut](integrating/using/aep-personalizing-campaigns.md)
-      + Adobe Experience Platform Data Connector {#data-connector}
+      + Adobe Experience Platform Data Connector (beta) {#data-connector}
          + [Om Adobe Experience Platform Data Connector](integrating/using/aep-about-data-connector.md)
          + [Översikt över Experience Platform-datamodell](integrating/using/aep-data-model-overview.md)
          + [Mappningsdefinition](integrating/using/aep-mapping-definition.md)
