@@ -7,16 +7,16 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 feature: Datamodell
-role: Utvecklare
-level: Mellanliggande
+role: Developer
+level: Intermediate
+exl-id: a8d15053-c20f-4334-a732-3b36cb00794d
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: c5a9c27a2ce459dfd0f04159095bfc8a2cf4c0f6
 workflow-type: tm+mt
 source-wordcount: '340'
-ht-degree: 25%
+ht-degree: 23%
 
 ---
-
 
 # Kom igång med Campaign Standard-datamodellen {#get-started-data-model}
 
@@ -66,5 +66,5 @@ Med Campaign Standard-API:er kan du skapa integreringar för Adobe Campaign Stan
 
 ## Ytterligare resurser
 
-* [Om Adobe Experience Platform Data Connector](../../integrating/using/aep-about-data-connector.md)
 * [Exportera/importera anpassade resurser](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)
+* [Exportera data från Campaign till Adobe Experience Platform](../../integrating/using/export-campaign-data.md)
