@@ -6,9 +6,9 @@ description: Läs om hur du definierar ämnesraden och avsändaren av ett e-post
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: E-postdesign
-role: Yrkesverksamma inom affärsverksamhet
-level: Nybörjare
+feature: Email Design
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

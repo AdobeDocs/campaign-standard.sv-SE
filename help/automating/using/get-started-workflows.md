@@ -6,9 +6,9 @@ description: Automatisera processerna med arbetsflöden, hantera data och målgr
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-feature: Arbetsflöden
-role: Dataarkitektur
-level: Nybörjare
+feature: Workflows
+role: Data Architect
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

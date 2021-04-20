@@ -6,9 +6,9 @@ description: Den här sidan visar inaktuella och borttagna funktioner i Adobe Ca
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
-feature: Översikt
-role: Yrkesverksamma inom affärsverksamhet
-level: Nybörjare
+feature: Overview
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

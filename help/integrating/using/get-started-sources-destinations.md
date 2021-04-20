@@ -5,7 +5,7 @@ title: Kom igång med källor och mål
 description: Läs mer om Adobe Experience Platform Sources and Destinations.
 audience: integrating
 content-type: reference
-feature: Källor och destinationer
+feature: Sources and Destinations
 role: Data Architect
 level: Intermediate
 translation-type: tm+mt

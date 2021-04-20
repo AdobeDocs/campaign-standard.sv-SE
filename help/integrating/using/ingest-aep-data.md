@@ -5,7 +5,7 @@ title: Engagera Adobe Experience Platform-målgrupper i Campaign
 description: Lär er hur ni kan få ut Adobe Experience Platform-målgrupper till Campaign Standard.
 audience: integrating
 content-type: reference
-feature: Källor och destinationer
+feature: Sources and Destinations
 role: Data Architect
 level: Intermediate
 translation-type: tm+mt

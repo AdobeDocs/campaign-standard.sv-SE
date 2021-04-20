@@ -6,9 +6,9 @@ description: Förstå hur anmälan och avanmälan hanteras i Adobe Campaign.
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
-feature: Publiker
-role: Yrkesverksamma inom affärsverksamhet
-level: Mellanliggande
+feature: Audiences
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

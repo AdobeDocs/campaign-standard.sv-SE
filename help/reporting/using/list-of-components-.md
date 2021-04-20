@@ -6,9 +6,9 @@ description: Här finns en lista med alla komponenter som finns i     Dynamiska 
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: Rapportering
-role: Ledare
-level: Nybörjare
+feature: Reporting
+role: Leader
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

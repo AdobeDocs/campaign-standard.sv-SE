@@ -6,9 +6,9 @@ description: Följ dessa steg för att skapa och skicka meddelanden med Adobe Ca
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-feature: Översikt
-role: Yrkesverksamma inom affärsverksamhet
-level: Nybörjare
+feature: Overview
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
 workflow-type: tm+mt

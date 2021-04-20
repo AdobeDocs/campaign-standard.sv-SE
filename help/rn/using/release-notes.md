@@ -6,7 +6,7 @@ description: På denna sida beskrivs innehållet i den senaste versionen av Camp
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Översikt
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113

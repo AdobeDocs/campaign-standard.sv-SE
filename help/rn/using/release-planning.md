@@ -6,7 +6,7 @@ description: På den här sidan visas kommande versioner av Adobe Campaign Stand
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
-feature: Översikt
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1

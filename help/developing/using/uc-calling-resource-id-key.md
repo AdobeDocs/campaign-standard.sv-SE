@@ -3,9 +3,9 @@ solution: Campaign Standard
 product: campaign
 title: Anropa en resurs med en sammansatt identifieringsnyckel
 description: Lär dig hur du anropar en resurs med en sammansatt identifieringsnyckel
-feature: Datamodell
-role: Utvecklare
-level: Erfaren
+feature: Data Model
+role: Developer
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

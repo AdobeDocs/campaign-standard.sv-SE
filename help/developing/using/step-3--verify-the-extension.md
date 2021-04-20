@@ -6,9 +6,9 @@ description: Lär dig hur du får åtkomst till det utökade fältet med Rest AP
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
-feature: Datamodell
-role: Utvecklare
-level: Erfaren
+feature: Data Model
+role: Developer
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

@@ -6,7 +6,7 @@ description: Här finns vanliga frågor om dynamisk rapportering.
 audience: reporting
 content-type: reference
 topic-tags: troubleshooting
-feature: Rapportering
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82

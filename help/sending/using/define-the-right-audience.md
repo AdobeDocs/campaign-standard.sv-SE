@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: '"När ni har ert innehåll klart kan ni lära er hur ni noga definierar vilka som ska få ert meddelande."'
-feature: levererbarhet
-role: Yrkesverksamma inom affärsverksamhet
-level: Mellanliggande
+feature: Deliverability
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

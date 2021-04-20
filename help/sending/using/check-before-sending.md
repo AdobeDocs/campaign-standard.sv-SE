@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: '"Lär dig hur du utför alla kontroller innan du skickar meddelandet när det är klart"'
-feature: levererbarhet
-role: Yrkesverksamma inom affärsverksamhet
-level: Mellanliggande
+feature: Deliverability
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

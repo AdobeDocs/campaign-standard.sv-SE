@@ -6,9 +6,9 @@ description: '"Lär dig att navigera och använda arbetsytan i Adobe Campaign: S
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Översikt
-role: Yrkesverksamma inom affärsverksamhet
-level: Nybörjare
+feature: Overview
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

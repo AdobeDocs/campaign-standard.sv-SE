@@ -6,9 +6,9 @@ description: Läs mer om riktlinjer för konfiguration av Campaign Standard.
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
-feature: Åtkomsthantering
-role: Administratör
-level: Erfaren
+feature: Access Management
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

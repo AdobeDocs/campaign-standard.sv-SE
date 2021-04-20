@@ -6,9 +6,9 @@ description: Lär dig hur du definierar förberedelser före sändningen.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-feature: Tidsoptimering för sändning
-role: Yrkesverksamma inom affärsverksamhet
-level: Mellanliggande
+feature: Send Time Optimization
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

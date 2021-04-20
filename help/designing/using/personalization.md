@@ -6,9 +6,9 @@ description: Läs om hur du anpassar e-postmeddelanden i e-postdesignern.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: E-postdesign
-role: Yrkesverksam
-level: Mellanliggande
+feature: Email Design
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt

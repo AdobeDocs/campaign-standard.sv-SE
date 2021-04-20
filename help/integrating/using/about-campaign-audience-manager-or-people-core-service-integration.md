@@ -6,9 +6,9 @@ description: Med integreringen av bastjänsterna Audience Manager/Människor kan
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-feature: Utlösare
-role: Dataarkitektur
-level: Mellanliggande
+feature: Triggers
+role: Data Architect
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: a6272db76fbfca7b9ebcc3734368f7c032b234af
 workflow-type: tm+mt

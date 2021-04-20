@@ -6,9 +6,9 @@ description: Tekniska arbetsflöden är färdiga arbetsflöden som är utformade
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Instansinställningar
-role: Administratör
-level: Erfaren
+feature: Instance Settings
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
 workflow-type: tm+mt

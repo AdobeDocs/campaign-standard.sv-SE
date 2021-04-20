@@ -6,8 +6,8 @@ description: Lär dig mer om användningsfall som du kan använda med arbetsflö
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-feature: Arbetsflöden
-role: Dataarkitektur
+feature: Workflows
+role: Data Architect
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

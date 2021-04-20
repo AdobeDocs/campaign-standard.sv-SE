@@ -4,9 +4,9 @@ description: Lär dig hur du konfigurerar integreringen av Adobe IO för Microso
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-feature: Microsoft CRM-integrering
-role: Dataarkitektur
-level: Mellanliggande
+feature: Microsoft CRM Integration
+role: Data Architect
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

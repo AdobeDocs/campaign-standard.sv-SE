@@ -6,9 +6,9 @@ description: Med dynamiska rapporter kan du dra och släppa variabler och dimens
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: Rapportering
-role: Ledare
-level: Nybörjare
+feature: Reporting
+role: Leader
+level: Beginner
 translation-type: tm+mt
 source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt

@@ -6,9 +6,9 @@ description: Följ de här stegen för att skapa en flerspråkig e-postmarknadsf
 audience: channels
 content-type: reference
 topic-tags: email-messages
-feature: E-post
-role: Yrkesverksamma inom affärsverksamhet
-level: Mellanliggande
+feature: Email
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

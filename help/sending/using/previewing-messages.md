@@ -6,9 +6,9 @@ description: Lär dig hur du förhandsgranskar ett meddelande i innehållsredige
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-feature: Startadress
-role: Yrkesverksamma inom affärsverksamhet
-level: Mellanliggande
+feature: Seed Address
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

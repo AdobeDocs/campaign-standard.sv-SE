@@ -6,7 +6,7 @@ description: Använd andra Adobe-lösningar och kombinera deras olika funktioner
 audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
-feature: Utlösare
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
