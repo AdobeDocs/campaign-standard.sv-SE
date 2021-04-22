@@ -6,15 +6,15 @@ description: På den här sidan visas kommande versioner av Adobe Campaign Stand
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
-feature: Overview
+feature: Översikt
 role: Business Practitioner
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6b0995f37251644f959425de5bfcc2620e0ef877
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '468'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -44,11 +44,11 @@ Detaljerad information om denna version finns i [versionsinformationen](../../rn
  <tbody>
   <tr>
    <td>Stadie<br /> </td>
-   <td>Snart tillgängligt<br /> </td>
+   <td>Snart tillgänglig<br /> </td>
   </tr>
   <tr>
    <td> Produktion<br /> </td>
-   <td>Snart tillgängligt<br /> </td>
+   <td>Snart tillgänglig<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -65,7 +65,7 @@ S: Ändringar visas i [versionsinformationen](../../rn/using/release-notes.md), 
 
 **F: Hur ser valideringsprocessen ut?**
 
-S: När du uppgraderar mellanlagringsinstansen rekommenderar Adobe att du validerar processerna och att användningsfallen fungerar som de ska med den nya versionen och att eventuella problem rapporteras till [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
+S: När du uppgraderar mellanlagringsinstansen rekommenderar Adobe att du validerar processerna och att användningsfallen fungerar som de ska med den nya versionen och att eventuella problem rapporteras till [Adobe Client Care](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html).
 
 **F: Kommer åtkomst att ges till instansen under uppgraderingsprocessen?**
 
@@ -87,4 +87,4 @@ S: Ja, de kommer att fungera. Det går inte att skicka nya e-postmeddelanden und
 
 S: När du loggar in på Campaign visas ett popup-fönster med den senaste versionen.
 
-Kontakta [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om du har frågor.
+Kontakta [Adobe Client Care](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) om du har frågor.
