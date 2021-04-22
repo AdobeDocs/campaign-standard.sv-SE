@@ -4,15 +4,15 @@ solution: Campaign Standard
 product: campaign
 title: Produktdokumentation för Adobe Campaign Standard
 description: Bläddra i produktdokumentationen för Adobe Campaign Standard
-feature: Overview
+feature: Översikt
 role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c2d3217156bd942ec0948e65d48c65be3b89e71e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '238'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 93%
 
 ## Nyheter
 
-* **[Campaign - RTCDP-](integrating/using/get-started-sources-destinations.md)**<br/> integreringLär dig hur du delar data mellan Campaign och kunddataplattformen i realtid (RTCDP)
+* **[Campaign – RTCDP-integrering](integrating/using/get-started-sources-destinations.md)**<br/> Läs om hur du delar data mellan Campaign och kunddataplattformen i realtid (RTCDP)
 
 * **[Uppdatera felaktigt avvisade e-postmeddelanden](https://helpx.adobe.com/se/campaign/kb/update-bounce-qualification.html)**<br/> Läs om hur du uppdaterar felaktigt avvisade e-postmeddelanden efter ett driftstopp hos Gmail
 
