@@ -5,27 +5,27 @@ title: Exportera data från Campaign till Adobe Experience Platform
 description: Lär dig hur du exporterar data från Campaign Standard till Adobe Experience Platform.
 audience: integrating
 content-type: reference
-feature: Sources and Destinations
+feature: Källor och destinationer
 role: Data Architect
 level: Intermediate
+exl-id: eccd2922-0e75-4525-9b60-b48f628deeae
 translation-type: tm+mt
-source-git-commit: bf442b12506ef71cc76aa7fffb0e4c8bb2ce70da
+source-git-commit: 4855585539653a0bb496d210b001765b5b557570
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 1%
+source-wordcount: '529'
+ht-degree: 4%
 
 ---
 
-
 # Exportera data från Campaign till Adobe Experience Platform {#sources}
 
-Om du vill exportera kunddata till Adobe Real-time Customer Data Platform (RTCDP) måste du först skapa ett arbetsflöde i Campaign Standard för att exportera de data du vill dela till din S3- eller Azure-blob-lagringsplats.
+Om du vill exportera kunddata till Adobe Real-time Customer Data Platform (RTCDP) måste du först skapa ett arbetsflöde i Campaign Standard för att kunna exportera de data du vill dela till din Amazon Storage Service (S3) eller Azure Blob-lagringsplats.
 
 När arbetsflödet har konfigurerats och data har skickats till din lagringsplats måste du ansluta din S3- eller Azure-blobblagringsplats som en **källa** i Adobe Experience Platform.
 
 >[!NOTE]
-
-Observera att vi rekommenderar att du bara exporterar kampanjgenererade data (t.ex. för att skicka, öppna, klicka osv.) till Adobe Experience Platform. Data som hämtas från en tredje parts källa (som din CRM) ska importeras direkt till Adobe Experience Platform.
+>
+>Observera att vi rekommenderar att du bara exporterar kampanjgenererade data (t.ex. för att skicka, öppna, klicka osv.) till Adobe Experience Platform. Data som hämtas från en tredje parts källa (som din CRM) ska importeras direkt till Adobe Experience Platform.
 
 ## Skapa ett exportarbetsflöde i Campaign Standard
 
@@ -55,7 +55,7 @@ Relaterade ämnen:
 
 ## Anslut lagringsplatsen som en källa
 
-De viktigaste stegen för att ansluta din S3- eller Azure-blobblagringsplats som **källa** i Adobe Experience Platform anges nedan. Detaljerad information om de här stegen finns i [dokumentationen för källanslutningar](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html).
+De viktigaste stegen för att ansluta din Amazon Storage Service (S3) eller Azure Blob-lagringsplats som en **källa** i Adobe Experience Platform anges nedan. Detaljerad information om de här stegen finns i [dokumentationen för källanslutningar](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html).
 
 1. Skapa en anslutning till din lagringsplats på Adobe Experience-plattformens **[!UICONTROL Sources]**-meny:
 
