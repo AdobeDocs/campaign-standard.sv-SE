@@ -11,7 +11,7 @@ role: Business Practitioner
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 translation-type: tm+mt
-source-git-commit: fdf999f4200a1661ea720b142180abffe9a3aef4
+source-git-commit: 8b8f41917349800327b2bddc820e677f913cdaf7
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 98%
@@ -44,11 +44,11 @@ Detaljerad information om denna version finns i [versionsinformationen](../../rn
  <tbody>
   <tr>
    <td>Stadie<br /> </td>
-   <td>7-8 juni<br /> </td>
+   <td>7-8 juni 2021<br /> </td>
   </tr>
   <tr>
    <td> Produktion<br /> </td>
-   <td>14-21 juni<br /> </td>
+   <td>14-21 juni 2021<br /> </td>
   </tr>
  </tbody>
 </table>
