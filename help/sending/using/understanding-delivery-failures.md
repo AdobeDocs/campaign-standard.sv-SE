@@ -6,17 +6,17 @@ description: Lär dig hur du hanterar leveransfel med Campaign.
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-feature: Deliverability
+feature: Levererbarhet
 role: Business Practitioner
 level: Intermediate
+exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
 translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+source-git-commit: dbc176188d936160e04956e7598bd219ba80347e
 workflow-type: tm+mt
-source-wordcount: '1310'
+source-wordcount: '1307'
 ht-degree: 66%
 
 ---
-
 
 # Om leveransfel{#understanding-delivery-failures}
 
@@ -78,8 +78,8 @@ Möjliga orsaker till leveransfel är:
 
 
 **Relaterade ämnen:**
-* [Hårda studsar](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
-* [Mjuka studsar](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
+* [Hårda studsar](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
+* [Mjuka studsar](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
 
 ## Försök igen efter ett tillfälligt leveransfel {#retries-after-a-delivery-temporary-failure}
 
