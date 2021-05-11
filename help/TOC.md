@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Hjälpcenter för de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som behövs för att använda Campaign Standard. '
 title: Användarhandbok för Campaign Standard
 breadcrumb-title: Hjälpcenter
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 830c003e36cec41e5cf480f66812900312609e9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1783'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 99%
       + [Versionsinformation 2017](rn/using/release-notes-2017.md)
    + [Versionsplanering](rn/using/release-planning.md)
    + [Inaktuella funktioner](rn/using/deprecated-features.md)
-   + [Spårade URL:er Signaturproblem](rn/using/tracked-urls.md)
+   + [Signaturproblem med spårade URL:er](rn/using/tracked-urls.md)
 + Komma igång {#getting-started}
    + [Om Adobe Campaign Standard](start/using/about-campaign-standard.md)
    + Upptäcka gränssnittet {#discovering-the-interface}
