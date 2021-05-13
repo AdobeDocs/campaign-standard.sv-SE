@@ -1,45 +1,49 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Aktiva profiler
-description: Ni kan få tillgång till en dedikerad rapport om kundstatistik och visualisera aktiva profiler i er Campaign-databas.
-audience: audiences
-content-type: reference
-topic-tags: managing-profiles
-feature: Profiles
+title: Aktiva profiler för kampanj
+description: Lär dig hur du får tillgång till kundstatistik och aktiva profiler
+feature: Profiler
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
+exl-id: 22516348-7695-4579-99eb-480e5b723ccc
+source-git-commit: d2fcf2ca22bb5fe3632280f922dfed0972f6eb09
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '290'
+ht-degree: 1%
 
 ---
 
+# Kundstatistik {#customer-metrics}
 
-# Aktiva profiler{#active-profiles}
-
-Adobe Campaign tillhandahåller en rapport som visar antalet aktiva profiler. Den här rapporten är bara informativ, den har ingen direkt inverkan på faktureringen. Endast administratörer har åtkomst till den här rapporten, under **[!UICONTROL Administration > Customer metrics]**.
+Kampanjfunktionsadministratörer har åtkomst till **[!UICONTROL Customer metrics]**-rapporten från **[!UICONTROL Administration > Customer metrics]**.
 
 ![](assets/audience_active_profiles1.png)
 
+Den här rapporten innehåller:
+
+* Experience Cloud ID
+* IMS-organisations-ID
+* antalet **aktiva profiler**
+* listan med måldimensioner som är tillgängliga i instansen
+
+Den här rapporten genereras varje månad av det tekniska arbetsflödet **[!UICONTROL Billing]**.
+
+## Aktiva profiler{#active-profiles}
+
+Enligt ert kontrakt har var och en av era Campaign-instanser ett visst antal aktiva profiler. Se licensavtalet för information om antalet köpta aktiva profiler.
+
 >[!NOTE]
 >
->Om du använder Campaign Standard från version 10368 kan du även övervaka antalet aktiva profiler som används på dina instanser direkt från Kontrollpanelen. Mer information finns i [dokumentationen till kontrollpanelen](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
->
->Observera att mätvärden för aktiva profiler endast är tillgängliga och relevanta för **marknadsinstanser**. Det är varken tillämpligt eller tillgängligt för körningsinstanser, vilket innebär MID-instanser (mellankällning) och RT-instanser (Message Center/Real-time Messaging).
+>Som administratör kan du också övervaka antalet aktiva profiler som används på dina instanser direkt från Kontrollpanelen. Mer information finns i [dokumentationen till kontrollpanelen](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
 
-De profiler som uteslöts under färdigställande av leveransen (typologiregler, karantän, kontrollgrupper) beaktas inte. En profil som har valts av flera leveranser räknas bara en gång. Längst ned i rapporten finns en lista med aktiva profiler för varje måldimension.
 
-Den här rapporten genereras varje månad av det tekniska arbetsflödet **[!UICONTROL Billing]**. Den innehåller antalet aktiva profiler som var målinriktade under den senaste 12-månaders rullande perioden.
-
-Observera att de profiler som uteslöts under leveransförberedelsen (typologiregler, karantän) inte beaktas. Dessutom kommer en profil som är inriktad på flera leveranser endast att räknas en gång.
+En &quot;profil&quot; är ett register över information som representerar en slutkund, potentiell kund eller lead. Profiler betraktas som **aktiva** om de har hämtats via en kampanjleverans under de senaste 12 månaderna via någon kanal. De profiler som uteslöts under leveransförberedelsen (t.ex. efter typologiregler eller karantänmekanism) beaktas inte. En profil som har valts av flera leveranser räknas bara en gång. Den här rapporten är bara informativ, den har ingen direkt inverkan på faktureringen.
 
 ![](assets/audience_active_profiles2.png)
 
-Längst ned i rapporten finns en lista över aktiva profiler som bearbetats av faktureringsarbetsflödet:
+Längst ned i rapporten finns en lista med aktiva profiler för varje måldimension. Här visas antalet aktiva profiler som var målinriktade under den senaste 12-månaders rullande perioden.
 
-* Källan **[!UICONTROL NmsRecipient]** innehåller alla kunder som kontaktats med hjälp av information från deras Campaign Standard-profil.
+* Källan **[!UICONTROL NmsRecipient]** innehåller alla profiler som kontaktats med hjälp av information från deras Campaign Standard-profil.
 
-* Å andra sidan kommer kunder som var inriktade på att använda en viss informationsdel (e-postadress, telefonnummer), utan någon relation till sin Campaign-profil, att hamna under källan **[!UICONTROL anonymous]**.
+* Kunderna **[!UICONTROL anonymous]**-källan visar antalet profiler som var riktade med enbart en viss informationsdel (e-postadress, telefonnummer), utan relation till deras Campaign-profil.
