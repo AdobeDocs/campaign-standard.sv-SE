@@ -6,16 +6,15 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Hjälpcenter för de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som behövs för att använda Campaign Standard. '
 title: Användarhandbok för Campaign Standard
 breadcrumb-title: Hjälpcenter
-translation-type: ht
-source-git-commit: 830c003e36cec41e5cf480f66812900312609e9f
-workflow-type: ht
-source-wordcount: '1783'
-ht-degree: 100%
+source-git-commit: c656aba6c9db769208a8af120d492f6a8a2a944e
+workflow-type: tm+mt
+source-wordcount: '1785'
+ht-degree: 99%
 
 ---
 
 
-# Hjälp för Adobe Campaign Standard {#using}
+# Hjälpcenter för Adobe Campaign Standard  {#using}
 
 + [Produktdokumentation](campaign-standard-home.md)
 + [Senaste uppdateringar](rn/using/documentation-updates.md)
@@ -44,7 +43,7 @@ ht-degree: 100%
       + [Tidslinje](start/using/timeline.md)
    + Integritet {#privacy}
       + [Integritet och medgivande](start/using/privacy.md)
-      + [Integritetshantering](start/using/privacy-management.md)
+      + [Sekretesshantering](start/using/privacy-management.md)
       + [Förfrågningar om användarens information](start/using/privacy-requests.md)
       + [Frågor och svar om integritet](start/using/privacy-faq.md)
    + [Hjälp- och supportalternativ](support.md)
@@ -55,7 +54,7 @@ ht-degree: 100%
       + [Skapa profiler](audiences/using/creating-profiles.md)
       + [Redigera profiler](audiences/using/editing-profiles.md)
       + [Integrerad kundprofil](audiences/using/integrated-customer-profile.md)
-      + [Aktiva profiler](audiences/using/active-profiles.md)
+      + [Mätvärden och aktiva profiler](audiences/using/active-profiles.md)
       + [Hantera testprofiler](audiences/using/managing-test-profiles.md)
       + [Berika Campaign-databasen](audiences/using/enriching-campaign-database.md)
    + Hantera målgrupper {#managing-audiences}
@@ -112,14 +111,14 @@ ht-degree: 100%
       + [Förbereda och skicka ett meddelande i appen](channels/using/preparing-and-sending-an-in-app-message.md)
       + [Anpassa ett meddelande i appen](channels/using/customizing-an-in-app-message.md)
    + Direktmeddelande {#direct-mail}
-      + [Om direktutskick](channels/using/about-direct-mail.md)
+      + [Om direktmeddelanden](channels/using/about-direct-mail.md)
       + [Skicka tillbaka till avsändaren](channels/using/return-to-sender.md)
       + [Skapa direktmeddelandet](channels/using/creating-the-direct-mail.md)
       + [Definiera målgruppen för direktutskick](channels/using/defining-the-direct-mail-audience.md)
-      + [Definiera innehållet i direktutskick](channels/using/defining-the-direct-mail-content.md)
+      + [Definiera innehållet i direktmeddelanden](channels/using/defining-the-direct-mail-content.md)
    + Transaktionsmeddelanden {#transactional-messaging}
       + [Komma igång med transaktionsmeddelanden](channels/using/getting-started-with-transactional-msg.md)
-      + [Bästa praxis och begränsningar](channels/using/transactional-messaging-limitations.md)
+      + [God praxis och begränsningar](channels/using/transactional-messaging-limitations.md)
       + Händelsekonfiguration {#event-configuration}
          + [Konfigurera en transaktionshändelse](channels/using/configuring-transactional-event.md)
          + [Publicera en transaktionshändelse](channels/using/publishing-transactional-event.md)
@@ -132,7 +131,7 @@ ht-degree: 100%
       + [Uppföljningsmeddelanden](channels/using/follow-up-messages.md)
       + [Användningsfall med transaktionsmeddelanden](channels/using/transactional-messaging-use-case.md)
    + Landningssidor {#landing-pages}
-      + [Kom igång med landningssidor](channels/using/getting-started-with-landing-pages.md)
+      + [Komma igång med landningssidor](channels/using/getting-started-with-landing-pages.md)
       + [Om mallar för landningssidor](channels/using/landing-page-templates.md)
       + [Konfigurera en landningssida](channels/using/configuring-landing-page.md)
       + [Utforma en landningssida](channels/using/designing-a-landing-page.md)
@@ -161,7 +160,7 @@ ht-degree: 100%
    + Förbereda och testa meddelanden {#preparing-and-testing-messages}
       + [Förhandsgranska leveranser](sending/using/previewing-messages.md)
       + [Skicka korrektur](sending/using/sending-proofs.md)
-      + [Testa e-postmeddelanden med målprofiler](sending/using/testing-messages-using-target.md)
+      + [Testa e-post med målprofiler](sending/using/testing-messages-using-target.md)
       + [AI-baserade e-postmeddelanden](sending/using/predictive.md)
       + [E-poståtergivning](sending/using/email-rendering.md)
       + [Lägga till en kontrollgrupp](sending/using/control-group.md)
@@ -179,10 +178,10 @@ ht-degree: 100%
    + Övervaka meddelanden {#monitoring-messages}
       + [Övervaka en leverans](sending/using/monitoring-a-delivery.md)
       + [Få aviseringar när fel uppstår](sending/using/receiving-alerts-when-failures-happen.md)
-      + [Oom leveransfel](sending/using/understanding-delivery-failures.md)
-      + [Om karantänhantering](sending/using/understanding-quarantine-management.md)
+      + [Om leveransfel](sending/using/understanding-delivery-failures.md)
+      + [Om karantänshantering](sending/using/understanding-quarantine-management.md)
    + Hantera levererbarhet {#managing-deliverability}
-      + [Om levererbarhet](sending/using/about-deliverability.md)
+      + [Om leverans](sending/using/about-deliverability.md)
       + [Kontrollera e-postinnehåll](sending/using/control-email-content.md)
       + [Övervaka levererbarhet](sending/using/monitor-deliverability.md)
       + [Felsökning](sending/using/troubleshooting.md)
@@ -191,7 +190,7 @@ ht-degree: 100%
       + [Hantera typologier](sending/using/managing-typologies.md)
       + [Hantera typologiregler](sending/using/managing-typology-rules.md)
       + [Filtreringsregler](sending/using/filtering-rules.md)
-      + [Fatigue-regler](sending/using/fatigue-rules.md)
+      + [Utmattningsregler](sending/using/fatigue-rules.md)
       + [Kontrollregler](sending/using/control-rules.md)
 + Rapportering {#reporting}
    + [Kom igång med dynamiska rapporter](reporting/using/get-started-reporting.md)
@@ -258,7 +257,7 @@ ht-degree: 100%
       + [Användningsexempel för avbrytningsutlösare](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign och Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + [Kom igång med Microsoft Dynamics 365-integration](integrating/using/d365-acs-get-started.md)
-      + [Bästa praxis och begränsningar](integrating/using/d365-acs-notices-and-recommendations.md)
+      + [God praxis och begränsningar](integrating/using/d365-acs-notices-and-recommendations.md)
       + [Konfigurera Microsoft Dynamics 365](integrating/using/d365-acs-configure-d365.md)
       + [Konfigurera Campaign och Adobe I/O](integrating/using/d365-acs-configure-adobe-io.md)
       + Konfigurera integrationsappen {#configure-integration-tool}
@@ -290,7 +289,7 @@ ht-degree: 100%
    + Allmänt om arbetsflöde {#workflow-general-operation}
       + [Arbetsflödesgränssnitt](automating/using/workflow-interface.md)
       + [Skapa ett arbetsflöde](automating/using/building-a-workflow.md)
-      + [Bästa praxis för arbetsflöden](automating/using/best-practices-workflows.md)
+      + [God praxis för arbetsflöden](automating/using/best-practices-workflows.md)
    + Köra ett arbetsflöde {#executing-a-workflow}
       + [Om arbetsflödeskörning](automating/using/about-workflow-execution.md)
       + [Arbetsflödets livscykel](automating/using/workflow-life-cycle.md)
@@ -308,8 +307,8 @@ ht-degree: 100%
       + [Användningsfall](automating/using/use-case-calling-workflow.md)
    + Målinriktade aktiviteter{#targeting-activities}
       + [Om målinriktade aktiviteter](automating/using/about-targeting-activities.md)
-      + [Fråga](automating/using/query.md)
-      + [Inkrementell förfrågan](automating/using/incremental-query.md)
+      + [Förfrågan](automating/using/query.md)
+      + [Inkrementell fråga](automating/using/incremental-query.md)
       + [Sammanslutning](automating/using/union.md)
       + [Skärningspunkt](automating/using/intersection.md)
       + [Uteslutning](automating/using/exclusion.md)
@@ -321,7 +320,7 @@ ht-degree: 100%
    + Körningsaktiviteter {#execution-activities}
       + [Om körningsaktiviteter](automating/using/about-execution-activities.md)
       + [Starta och sluta](automating/using/start-and-end.md)
-      + [Gaffel](automating/using/fork.md)
+      + [Förgrening](automating/using/fork.md)
       + [AND-join](automating/using/and-join.md)
       + [Schemaläggare](automating/using/scheduler.md)
       + [Vänta](automating/using/wait.md)
@@ -390,17 +389,17 @@ ht-degree: 100%
          + [Exportera profiler i en extern fil](automating/using/exporting-profiles-in-file.md)
          + [Uppdatera flera prenumerationsstatusar från en fil](automating/using/updating-subscriptions-from-file.md)
          + [Prenumerera profiler från en fil till en viss tjänst](automating/using/subscribing-profiles-from-file.md)
-+ Utvecklar {#developing}
++ Utveckla {#developing}
    + [Kom igång med Campaign Standard-datamodellen](developing/using/get-started-data-model.md)
    + Om anpassade resurser {#about-custom-resources}
-      + [Datamodellkoncept](developing/using/data-model-concepts.md)
+      + [Datamodellskoncept](developing/using/data-model-concepts.md)
       + [Resursstatus](developing/using/resource-statuses.md)
       + [Övervaka datamodelländringar](developing/using/monitoring-data-model-changes.md)
       + [Bästa praxis för datamodell](developing/using/data-model-best-practices.md)
    + Lägga till eller utöka en resurs {#adding-or-extending-a-resource}
       + [Huvudstegen för att lägga till en resurs](developing/using/key-steps-to-add-a-resource.md)
       + [Skapa eller utöka resursen](developing/using/creating-or-extending-the-resource.md)
-      + [Konfigurering av resursens datastruktur](developing/using/configuring-the-resource-s-data-structure.md)
+      + [Konfigurerar resursens datastruktur](developing/using/configuring-the-resource-s-data-structure.md)
       + [Konfigurera skärmdefinitionen](developing/using/configuring-the-screen-definition.md)
       + [Konfigurering av filterdefinition](developing/using/configuring-filter-definition.md)
       + [Uppdatera databasstrukturen](developing/using/updating-the-database-structure.md)
@@ -417,7 +416,7 @@ ht-degree: 100%
    + Datamodell {#datamodel}
       + [Introduktion](developing/using/datamodel-introduction.md)
       + [Målgrupp](developing/using/datamodel-audience.md)
-      + [Kampanj](developing/using/datamodel-campaign.md)
+      + [Campaign](developing/using/datamodel-campaign.md)
       + [Leverans](developing/using/datamodel-delivery.md)
       + [Landningssidor](developing/using/datamodel-landingpage.md)
       + [Marknadsföringshistorik](developing/using/datamodel-history.md)
@@ -429,7 +428,7 @@ ht-degree: 100%
       + [Spårningsloggar](developing/using/datamodel-tracking.md)
       + [Avprenumerationshändelse](developing/using/datamodel-unsubscription.md)
       + [Besökare](developing/using/datamodel-visitor.md)
-+ Administrerar {#administrating}
++ Administrera {#administrating}
    + [Kom igång med Campaign Standard-administration](administration/using/get-started-campaign-administration.md)
    + [Riktlinjer för övervakning](administration/using/monitoring-guidelines.md)
    + [Konfigurationsriktlinjer](administration/using/about-configuration-guidelines.md)
@@ -444,7 +443,7 @@ ht-degree: 100%
    + Konfigurera kanaler {#configuring-channels}
       + [Om kanalkonfiguration](administration/using/about-channel-configuration.md)
       + [Konfigurera e-postkanal](administration/using/configuring-email-channel.md)
-      + [Uppdatera studskrav efter ett avbrott hos en internetleverantör](administration/using/update-bounce-qualification.md)
+      + [Uppdatera studskvalificering efter ett avbrott hos en internetleverantör](administration/using/update-bounce-qualification.md)
       + [Konfigurera ett mobilprogram](administration/using/configuring-a-mobile-application.md)
    + Konfigurera mobila kanaler {#configuring-mobile}
       + [Implementera push-spårning](administration/using/push-tracking.md)
