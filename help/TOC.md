@@ -6,9 +6,9 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Hjälpcenter för de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som behövs för att använda Campaign Standard. '
 title: Användarhandbok för Campaign Standard
 breadcrumb-title: Hjälpcenter
-source-git-commit: c656aba6c9db769208a8af120d492f6a8a2a944e
+source-git-commit: 105bc765f658cab39ec2628e39d51426005da6bd
 workflow-type: tm+mt
-source-wordcount: '1785'
+source-wordcount: '1783'
 ht-degree: 99%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 99%
       + [Skapa profiler](audiences/using/creating-profiles.md)
       + [Redigera profiler](audiences/using/editing-profiles.md)
       + [Integrerad kundprofil](audiences/using/integrated-customer-profile.md)
-      + [Mätvärden och aktiva profiler](audiences/using/active-profiles.md)
+      + [Aktiva profiler](audiences/using/active-profiles.md)
       + [Hantera testprofiler](audiences/using/managing-test-profiles.md)
       + [Berika Campaign-databasen](audiences/using/enriching-campaign-database.md)
    + Hantera målgrupper {#managing-audiences}
