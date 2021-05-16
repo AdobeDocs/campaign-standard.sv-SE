@@ -3,24 +3,20 @@ solution: Campaign Standard
 product: campaign
 title: Om prenumerationer
 description: Läs mer om tjänster och prenumerationer i Campaign Standard.
-audience: audiences
-content-type: reference
-topic-tags: managing-subscriptions
-feature: Audiences
+feature: Publiker
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 177f0115-d269-44e8-94e0-123360ea6299
+source-git-commit: 326683683c1564dc4c828d1ed34a3c13bae3a46e
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 52%
+source-wordcount: '221'
+ht-degree: 40%
 
 ---
 
-
 # Om prenumerationer{#about-subscriptions}
 
-Med Adobe Campaign kan du skapa och hantera nyhetsbrev och flerkanalskommunikation via en uppsättning **tjänster**. Meddelanden kan endast skickas till profiler som prenumererar på tjänsten (genom anmälan). Dessa profiler identifieras med ett dedikerat filter vid skapandet av ett meddelande.
+Använd Adobe Campaign för att skapa och hantera nyhetsbrev och flerkanalskommunikation via en uppsättning **tjänster**: meddelanden skickas endast till profiler som prenumererar på tjänsten (anmälan). Dessa profiler identifieras med ett dedikerat filter vid skapandet av ett meddelande.
 
 Prenumerationsfunktioner kan konfigureras för att ge kunderna möjligheten att prenumerera på dessa tjänster via **e-post** och **landningssidor**.
 
