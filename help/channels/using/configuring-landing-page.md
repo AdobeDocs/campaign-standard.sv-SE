@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
-feature: Landing Pages
+feature: Landningssidor
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0b9795e9-83e6-4399-a3b1-fc69081f6a82
+source-git-commit: 2cf8b960789ccf32b4782faa337654986e3fddbf
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 99%
+source-wordcount: '659'
+ht-degree: 97%
 
 ---
-
 
 # Konfigurera en landningssida {#configuring-landing-page}
 
@@ -70,12 +69,11 @@ När det gäller identifierade besökare kan du förhandsladda deras data på la
 
    Om en besökare på sidan motsvarar en profil i databasen visas deras data i formulärets fält som mappas med data från databasen och landningssidans anpassningselement tas med i beräkningen.
 
-   ![](assets/lp_parameters_3.png)
+   ![](assets/lp_parameters_3_temp.png)
 
-Du kan även:
+Du kan också ge alla besökare behörighet att komma åt landningssidan med alternativet **[!UICONTROL Authorize unidentified visitors]**.
 
-* Använd länkparametrarna för att identifiera besökarna med hjälp av alternativet **[!UICONTROL Authorize visitor identification via URL parameters]**. Då måste du välja inläsningsnyckeln och mappa filterparametrarna med parametrarna för motsvarande länk.
-* Ge alla besökare behörighet att komma åt landningssidan med hjälp av alternativet **[!UICONTROL Authorize unidentified visitors]**.
+<!--Use the URL parameters to identify the visitors, using the **[!UICONTROL Authorize visitor identification via URL parameters]** option: then you must choose the loading key and map the filter parameters with the parameters of the corresponding URL.-->
 
 Landningssidor kan även länkas till en organisationsenhet.    Detta definierar användarnas åtkomst till de olika landningssidorna.  Så här tilldelar du en organisationsenhet:
 
@@ -111,7 +109,7 @@ När ditt externa Google reCAPTCHA V3-konto har konfigurerats kan du lägga till
 1. Markera alternativet **[!UICONTROL Use reCAPTCHA to protect your site from spam and abuse]**.
 1. Välj ditt tidigare skapade externa Google reCAPTCHA-konto.
 
-   ![](assets/lp_parameters_google.png)
+   ![](assets/lp_parameters_google_temp.png)
 
 1. Klicka på **[!UICONTROL Confirm]**.
 
