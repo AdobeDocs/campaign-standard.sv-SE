@@ -9,9 +9,9 @@ role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 source-git-commit: 105bc765f658cab39ec2628e39d51426005da6bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 93%
 
 * **[Campaign – RTCDP-integrering](integrating/using/get-started-sources-destinations.md)**<br/> Läs om hur du delar data mellan Campaign och kunddataplattformen i realtid (RTCDP)
 
-* **[Uppdatera felaktiga ](https://helpx.adobe.com/se/campaign/kb/update-bounce-qualification.html)**<br/> hårdvarustudsarLär dig hur du uppdaterar felaktiga hårddiskmarkeringar efter ett e-postavbrott
+* **[Uppdatera felaktigt avvisade e-postmeddelanden](https://helpx.adobe.com/se/campaign/kb/update-bounce-qualification.html)**<br/> Läs om hur du uppdaterar felaktigt avvisade e-postmeddelanden efter ett driftstopp hos e-postleverantören
 
 * **[Kontrollgrupper](sending/using/control-group.md)**<br/>
 Mät effekten av dina kampanjer genom att utesluta en del av deras målgrupp
