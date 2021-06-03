@@ -8,9 +8,9 @@ role: Business Practitioner
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: c98aa913f4004d49a897ea71e39cbfe6b3dd53c1
+source-git-commit: 7eb12fbb89f677eb7184cb5ff200d3f8a466d3c8
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1032'
 ht-degree: 3%
 
 ---
@@ -53,6 +53,9 @@ Den här sidan beskriver nya funktioner, förbättringar och korrigeringar som i
 * Integreringen av tjänsten Asset Core med e-postdesignern kan nu användas av standardanvändare.
 
 * Ett nytt meddelande har lagts till för att bekräfta en lyckad migrering från ett v4-push-program till ett v5-push-program.
+
+* När JSONWeb-token skapas för att autentisera till Campaign Standard-API:t, beaktas produktprofilerna ****. Det innebär att de organisationsenheter och roller som tilldelats säkerhetsgruppen (som matchar produktprofilen i AdobeIO) kommer att tillämpas på det IMS-tekniska konto som behövs för Campaign Standardens Rest API-anrop. (CAMP-47479)
+
 
 **Felkorrigeringar**
 
@@ -111,5 +114,3 @@ Den här sidan beskriver nya funktioner, förbättringar och korrigeringar som i
 * Korrigerade ett problem i e-postdesignern där integreringen av tjänsten Asset Core fortsatte att misslyckas när en resurs skulle väljas. (CAMP-47446)
 
 * Korrigerade ett problem som blockerade vissa leveranser från Journey Orchestration på grund av att Campaign inte stöder tidsstämplar med ett exakt värde (dvs. som slutar med 00) som skickats av händelser från Journey Orchestration.
-
-* Det tekniska arbetsflödet updateDeliveryIndicators har optimerats. Leverans-ID:n som har samma sändnings-/spårningsloggschema grupperas nu tillsammans. Detta begränsar antalet frågor och förbättrar därmed prestandan.
