@@ -7,9 +7,9 @@ feature: Profiler
 role: Business Practitioner
 level: Intermediate
 exl-id: 22516348-7695-4579-99eb-480e5b723ccc
-source-git-commit: d30ce292ca07b9eb0b6965e47e12ddd4e24041ad
+source-git-commit: f66a4e35e1f42a3d7630556d020ce76adfea5891
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '228'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,17 @@ Enligt ert kontrakt har var och en av era Campaign-instanser ett visst antal akt
 
 ![](assets/audience_active_profiles_list.png)
 
-De profiler som uteslöts under leveransförberedelsen (t.ex. efter typologiregler eller karantänmekanism) beaktas inte. En profil som har valts av flera leveranser räknas bara en gång. Den här rapporten är bara informativ, den har ingen direkt inverkan på faktureringen.
+
+
+* De profiler som uteslöts under leveransförberedelsen (t.ex. efter typologiregler eller karantänmekanism) beaktas inte.
+
+* Mottagare av transaktionsmeddelanden räknas som aktiva profiler.
+
+* En profil som har valts av flera leveranser räknas bara en gång.
+
+* Den här rapporten är bara informativ, den har ingen direkt inverkan på faktureringen.
+
+Längst ned på sidan visas måldimensionerna med antalet profiler för varje. Mottagare av transaktionsmeddelanden är kopplade till dimensionen **Anonym**.
 
 >[!NOTE]
 >
