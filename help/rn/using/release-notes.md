@@ -10,16 +10,21 @@ feature: Översikt
 role: Business Practitioner
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: e996a5c6722c211c931427ff59f8d219d493aca7
-workflow-type: ht
-source-wordcount: '2479'
-ht-degree: 100%
+source-git-commit: 3206835d231378f40ed468286384a56cb38f0059
+workflow-type: tm+mt
+source-wordcount: '2500'
+ht-degree: 99%
 
 ---
 
 # Senaste versionen{#latest-release}
 
 [Lanseringsplanering](../../rn/using/release-planning.md) | [Kontrollpanelsversioner](https://docs.adobe.com/content/help/sv-SE/control-panel/using/release-notes.html) | [Dokumentationsuppdateringar](../../rn/using/documentation-updates.md) | [Information gällande tidigare versioner](../../rn/using/release-notes-2020.md) | [Föråldrade funktioner](../../rn/using/deprecated-features.md)
+
+
+## Version 21.2 - juni 2021 {#release-21-2}
+
+Nya funktioner, förbättringar och korrigeringar som ingår i nästa Campaign Standard finns i [Tidig versionsinformation](e-release-notes.md).
 
 ## Version 21.1 – februari 2021 {#release-21-1---february-2021}
 
