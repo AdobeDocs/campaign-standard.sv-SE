@@ -6,17 +6,16 @@ description: Läs om hur Campaign Standard och Microsoft Dynamics 365 hanterar g
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-feature: Microsoft CRM Integration
+feature: Microsoft CRM-integrering
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
+source-git-commit: f28aab2ac295d8a45598f5d76a86e594deeece4a
 workflow-type: tm+mt
-source-wordcount: '2473'
+source-wordcount: '2510'
 ht-degree: 1%
 
 ---
-
 
 # Bästa praxis och begränsningar {#acs-msdyn-best-practices}
 
@@ -26,7 +25,7 @@ För synkronisering av kontakter och anpassade entiteter behandlar den här inte
 
 Integrationen kan konfigureras som tillval för att utfärda profilborttagningsanrop till Campaign när en kontakt tas bort i Dynamics 365 för att upprätthålla dataintegriteten. En profilborttagning skiljer sig dock från en sekretessborttagning. En sekretessborttagning i Campaign tar bort posten för kampanjprofilen och tillhörande loggposter. Om du tar bort en vanlig profil tas endast posten för Campaign-profilen bort, vilket innebär att det inte finns några kvar kvar i Campaign-loggarna. Om funktionen för att ta bort profiler är aktiverad i integreringen måste ytterligare steg vidtas för att de ska kunna behandla förfrågningar om integritet. Se stegen i [Sekretessavsnittet nedan](#manage-privacy-requests).
 
-## Integritet{#acs-msdyn-manage-privacy}
+## Sekretess{#acs-msdyn-manage-privacy}
 
 Den här integreringen är avsedd för överföring av slutanvändardata mellan Microsoft Dynamics 365 och Adobe Campaign Standard. Dessa data innehåller personuppgifter om de finns i dina slutanvändardata.  Som personuppgiftsansvarig ansvarar ditt företag för att följa de sekretessbestämmelser som gäller för din insamling och användning av personuppgifter.
 
@@ -170,19 +169,19 @@ Följande skyddsförslag bör beaktas när du planerar att använda integreringe
 
    När du beräknar den totala samtalsvolymen för Campaign-motorn är det viktigt att du tar hänsyn till andra källor för motoranrop, som landningssidor, WebApps, JSSP, API:er, mobilappsregistreringar osv.
 
-   Visa information om kampanjpaket här: https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html
+   Visa Adobe Campaign Standard-paketinformation här: [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/se/legal/product-descriptions/campaign-standard.html)
 
-* Integreringen stöder maximalt 30 miljoner kontakter.
+* Integreringen stöder maximalt 15 miljoner poster totalt för den första synkroniseringen med resurser i Campaign. Inkrementell synkronisering begränsas av Adobe Campaign Standard-paketet.
 
-* Standardintegrationserbjudandet innehåller stöd för upp till fem anpassade enheter, var och en med en storlek på högst 50 kolumner.
+* Standardintegrationserbjudandet innehåller stöd för upp till 20 anpassade entiteter med en storlek på högst 50 kolumner.
 
 * Du måste skapa och publicera anpassade resurser innan du kan implementera integreringen.
 
 * Det maximala tabelldjupet vid länkning av tabeller är två (d.v.s. tabell1->tabell2->tabell3)
 
-* Det finns begränsat stöd för datatyperna Microsoft Dynamic 365. Om datamodellen innehåller en annan datatyp än enkla datatyper (t.ex. strängar, heltal, decimaler osv.), kan du behöva uppdatera datamodellen innan du använder integreringen.
+* Integreringen stöder upp till 5 länkade kolumner per anpassad resurs. Att länka flera kolumner mellan anpassade resurser kan få dramatiska prestandaeffekter. **0 eller 1 enkel** kardinalitetslänkning föredras framför  **1 enkel kardinalitetslänk**.
 
-* Om du väljer att bevara befintliga data i anpassade enheter för Campaign måste du förbereda data för integreringen.
+* Integreringen stöder transformering mellan primitiva datatyper i Microsoft Dynamics 365 (Boolean, Integer, Decimal, Double, String, DateTime, Date) och datatyperna Adobe Campaign Standard (heltal, boolesk, float, double, date, datetime, string). Mer avancerade datatyper tolkas som strängar och synkroniseras som de är.
 
 * Underhållstider för introduktion kan behöva upprättas mellan Adobe och kunden.
 
