@@ -6,7 +6,7 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Hjälpcenter för de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som behövs för att använda Campaign Standard. '
 title: Användarhandbok för Campaign Standard
 breadcrumb-title: Hjälpcenter
-source-git-commit: 105bc765f658cab39ec2628e39d51426005da6bd
+source-git-commit: c98aa913f4004d49a897ea71e39cbfe6b3dd53c1
 workflow-type: tm+mt
 source-wordcount: '1783'
 ht-degree: 99%
@@ -20,7 +20,7 @@ ht-degree: 99%
 + [Senaste uppdateringar](rn/using/documentation-updates.md)
 + Versionsinformation {#release-notes}
    + [Senaste versionen](rn/using/release-notes.md)
-   + [Tidig versionsinformation](rn/using/early-release-notes.md)
+   + [Tidig versionsinformation](rn/using/e-release-notes.md)
    + Tidigare versioner {#previous-releases}
       + [Versionsinformation 2020](rn/using/release-notes-2020.md)
       + [Versionsinformation 2019](rn/using/release-notes-2019.md)
@@ -41,8 +41,8 @@ ht-degree: 99%
       + [Marknadsföringsaktiviteter](start/using/marketing-activities.md)
       + [Mallar för marknadsföringsaktiviteter](start/using/marketing-activity-templates.md)
       + [Tidslinje](start/using/timeline.md)
-   + Integritet {#privacy}
-      + [Integritet och medgivande](start/using/privacy.md)
+   + Sekretess {#privacy}
+      + [Sekretess och medgivande](start/using/privacy.md)
       + [Sekretesshantering](start/using/privacy-management.md)
       + [Förfrågningar om användarens information](start/using/privacy-requests.md)
       + [Frågor och svar om integritet](start/using/privacy-faq.md)
@@ -81,9 +81,9 @@ ht-degree: 99%
    + Bästa praxis för leverans {#delivery-bestpractices}
       + [Lär dig bästa praxis](sending/using/delivery-best-practices.md)
       + [Optimera leverans](sending/using/optimize-delivery.md)
-      + [Använda mallar](sending/using/use-templates.md)
+      + [Använd mallar](sending/using/use-templates.md)
       + [Skapa personaliserat innehåll](sending/using/design-and-personalize.md)
-      + [Definiera rätt publik](sending/using/define-the-right-audience.md)
+      + [Definiera rätt målgrupp](sending/using/define-the-right-audience.md)
       + [Kontrollera före sändning](sending/using/check-before-sending.md)
       + [Spåra och övervaka](sending/using/track-and-monitor.md)
    + E-postmeddelanden {#email-messages}
@@ -115,10 +115,10 @@ ht-degree: 99%
       + [Skicka tillbaka till avsändaren](channels/using/return-to-sender.md)
       + [Skapa direktmeddelandet](channels/using/creating-the-direct-mail.md)
       + [Definiera målgruppen för direktutskick](channels/using/defining-the-direct-mail-audience.md)
-      + [Definiera innehållet i direktmeddelanden](channels/using/defining-the-direct-mail-content.md)
+      + [Definiera innehållet i direktutskick](channels/using/defining-the-direct-mail-content.md)
    + Transaktionsmeddelanden {#transactional-messaging}
       + [Komma igång med transaktionsmeddelanden](channels/using/getting-started-with-transactional-msg.md)
-      + [God praxis och begränsningar](channels/using/transactional-messaging-limitations.md)
+      + [Bästa praxis och begränsningar](channels/using/transactional-messaging-limitations.md)
       + Händelsekonfiguration {#event-configuration}
          + [Konfigurera en transaktionshändelse](channels/using/configuring-transactional-event.md)
          + [Publicera en transaktionshändelse](channels/using/publishing-transactional-event.md)
@@ -257,7 +257,7 @@ ht-degree: 99%
       + [Användningsexempel för avbrytningsutlösare](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign och Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + [Kom igång med Microsoft Dynamics 365-integration](integrating/using/d365-acs-get-started.md)
-      + [God praxis och begränsningar](integrating/using/d365-acs-notices-and-recommendations.md)
+      + [Bästa praxis och begränsningar](integrating/using/d365-acs-notices-and-recommendations.md)
       + [Konfigurera Microsoft Dynamics 365](integrating/using/d365-acs-configure-d365.md)
       + [Konfigurera Campaign och Adobe I/O](integrating/using/d365-acs-configure-adobe-io.md)
       + Konfigurera integrationsappen {#configure-integration-tool}
@@ -289,7 +289,7 @@ ht-degree: 99%
    + Allmänt om arbetsflöde {#workflow-general-operation}
       + [Arbetsflödesgränssnitt](automating/using/workflow-interface.md)
       + [Skapa ett arbetsflöde](automating/using/building-a-workflow.md)
-      + [God praxis för arbetsflöden](automating/using/best-practices-workflows.md)
+      + [Bästa praxis för arbetsflöden](automating/using/best-practices-workflows.md)
    + Köra ett arbetsflöde {#executing-a-workflow}
       + [Om arbetsflödeskörning](automating/using/about-workflow-execution.md)
       + [Arbetsflödets livscykel](automating/using/workflow-life-cycle.md)
@@ -305,9 +305,9 @@ ht-degree: 99%
       + [Övervaka händelsevariablerna](automating/using/monitoring-events-variables.md)
       + [Anpassa arbetsflödet med externa parametrar](automating/using/customizing-workflow-external-parameters.md)
       + [Användningsfall](automating/using/use-case-calling-workflow.md)
-   + Målinriktade aktiviteter{#targeting-activities}
+   + Målinriktade aktiviteter {#targeting-activities}
       + [Om målinriktade aktiviteter](automating/using/about-targeting-activities.md)
-      + [Förfrågan](automating/using/query.md)
+      + [Fråga](automating/using/query.md)
       + [Inkrementell fråga](automating/using/incremental-query.md)
       + [Sammanslutning](automating/using/union.md)
       + [Skärningspunkt](automating/using/intersection.md)
@@ -319,7 +319,7 @@ ht-degree: 99%
       + [Berikning](automating/using/enrichment.md)
    + Körningsaktiviteter {#execution-activities}
       + [Om körningsaktiviteter](automating/using/about-execution-activities.md)
-      + [Starta och sluta](automating/using/start-and-end.md)
+      + [Start och slut](automating/using/start-and-end.md)
       + [Förgrening](automating/using/fork.md)
       + [AND-join](automating/using/and-join.md)
       + [Schemaläggare](automating/using/scheduler.md)
