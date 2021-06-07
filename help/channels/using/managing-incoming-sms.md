@@ -10,14 +10,13 @@ delivercontext-tags: delivery,smsContent,back
 feature: SMS
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 86cb6f4c-a5a7-4d9d-bbfd-4a70af38cf3a
+source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '621'
 ht-degree: 7%
 
 ---
-
 
 # Hantera inkommande SMS{#managing-incoming-sms}
 
@@ -59,6 +58,10 @@ För att göra detta:
    Om mottagarna i konfigurationen nedan skickar nyckelordet &quot;STOP&quot; får de automatiskt en bekräftelse om att prenumerationen har avbrutits och deras telefonnummer skickas till karantän med statusen **[!UICONTROL On denylist]**. Denna status avser endast telefonnumret, profilen är så att användaren fortsätter att ta emot e-postmeddelanden.
 
    ![](assets/sms_mo.png)
+
+1. Klicka på **[!UICONTROL Save]**.
+
+1. Från **[!UICONTROL Advanced parameters]** av SMS-leveransen **[!UICONTROL Properties]** kan du ange en specifik **[!UICONTROL Short code]** som automatiskt ska exkludera mottagare som avanmälde sig. Mer information finns i [det här avsnittet](../../administration/using/configuring-sms-channel.md#configuring-sms-properties).
 
 Mottagarna kan nu automatiskt avbeställa prenumerationen på dina meddelanden och skickas till karantän med detta automatiska svar. Mottagarna i karantän listas i tabellen **[!UICONTROL Addresses]** som är tillgänglig via menyn **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Quarantines]**. Mer information om karantäner finns i [avsnittet](../../sending/using/understanding-quarantine-management.md).
 
