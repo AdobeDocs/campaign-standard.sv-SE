@@ -6,23 +6,26 @@ description: Använd resurser som delas inom Adobe Experience Cloud i Adobe Camp
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-assets-core-service
-feature: People Core Service Integration
+feature: Integrering av tjänsten People Core
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0ef8bbae-03a2-4369-bc57-a56302e0ab21
+source-git-commit: ef3480d3da9c5c0597af90c89a73a1aff0a87809
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '173'
 ht-degree: 9%
 
 ---
-
 
 # Arbeta med huvudtjänsten Campaign och Assets Core Service{#working-with-campaign-and-assets-core-service}
 
 Genom att integrera Assets Core-tjänsten eller Assets on Demand (beroende på hur Adobe Experience Cloud-miljön är konfigurerad) med Adobe Campaign kan du använda alla resurser som delas inom Adobe Experience Cloud i Adobe Campaign e-postmeddelanden och på landningssidor.
 
-Resurser som delas från Adobe Experience Cloud kan användas i e-postmeddelanden och på landningssidor.
+>[!CAUTION]
+>
+> Integrationen med bastjänsten Assets är begränsad till [Funktionella administratörer](../../administration/using/users-management.md#functional-administrators).
+
+Resurser som delas från Adobe Experience Cloud kan användas i e-postmeddelanden och på landningssidor enligt följande:
 
 1. När du redigerar innehållet i ett e-postmeddelande eller en landningssida går du till ett bildblock och väljer sedan **[!UICONTROL Image shared from Adobe Experience Cloud]** via snabbmenyn.
 
@@ -38,4 +41,3 @@ Bilden infogas sedan. Leveransen kan nu anpassas efter behov och skickas.
 
 * [Resurser och delning](https://docs.adobe.com/content/help/en/core-services/interface/assets/experience-cloud-assets.html)
 * [Innehållsredigerare](../../designing/using/personalization.md#example-email-personalization)
-
