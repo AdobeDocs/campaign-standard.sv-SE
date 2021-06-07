@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
+feature: Transaktionsmeddelanden
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 61988c1d-d538-47b1-94c1-f3fbdf314b65
+source-git-commit: 33d3dc43a64b9670666844a3266e2aa2458a1c40
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1453'
 ht-degree: 4%
 
 ---
-
 
 # Push-meddelanden för transaktioner{#transactional-push-notifications}
 
@@ -196,3 +195,37 @@ Motsvarande användare får ett transaktionspush-meddelande som innehåller alla
 >[!NOTE]
 >
 >Det finns inga registreringstoken-, program- och push-plattformsfält. I det här exemplet utförs avstämningen med e-postfältet.
+
+## Ändra målmappningen i ett transaktionspush-meddelande {#change-target-mapping}
+
+Transactional push-meddelanden använder en specifik [målmappning](../../administration/using/target-mappings-in-campaign.md) som innehåller de tekniska inställningar som krävs för att skicka den här typen av leveranser.
+
+Följ stegen nedan om du vill ändra målmappningen:
+
+1. Välj ett push-meddelande i transaktionsmeddelandelistan.
+
+1. Klicka på knappen **[!UICONTROL Edit properties]** i meddelandekontrollpanelen.
+
+   ![](assets/message-center_push_edit.png)
+
+1. Expandera avsnittet **[!UICONTROL Advanced parameters]**.
+
+1. Klicka på **[!UICONTROL Select a 'Target mapping' element]**.
+
+   ![](assets/message-center_push_target-mapping.png)
+
+1. Välj en målmappning i listan.
+
+   >[!NOTE]
+   >
+   >Använd målmappningen **[!UICONTROL Profile - Real-time event for Push (mapRtEventAppSubRcp)]** om du vill ha optimal tid och prestanda för förberedelser och prestation vid sändning av **profilbaserade** transaktionsbaserade push-meddelanden.
+
+   ![](assets/message-center_push_target-mapping_change.png)
+
+1. Bekräfta ändringen och publicera meddelandet. Se [Publicera ett transaktionsmeddelande](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
+
+   >[!IMPORTANT]
+   >
+   >Du måste publicera meddelandet igen för att ändringen ska börja gälla, annars kommer den tidigare målmappningen fortfarande att användas.
+
+
