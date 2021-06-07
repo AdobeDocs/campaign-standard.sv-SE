@@ -7,17 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
-feature: Instance Settings
+feature: Instansinställningar
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
+source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
 workflow-type: tm+mt
-source-wordcount: '1629'
-ht-degree: 99%
+source-wordcount: '1567'
+ht-degree: 95%
 
 ---
-
 
 # Konfigurera SMS-kanal{#configuring-sms-channel}
 
@@ -333,15 +332,11 @@ De specifika parametrarna för att skicka SMS grupperas i avsnitten **[!UICONTRO
 
 I avsnittet **[!UICONTROL Advanced parameters]**:
 
-* Med det här **[!UICONTROL From]** alternativet kan du anpassa namnet på SMS-meddelandets avsändare med en teckensträng.  Det namnet visas som avsändarnamn för SMS-meddelandet på mottagarens mobiltelefon.
+* Med **[!UICONTROL Short code]** kan du lägga till en specifik kortkod i leveransen. Mottagare som valde bort den här korta koden exkluderas automatiskt när meddelandet förbereddes. Mer information om hur du konfigurerar kort kod finns i [det här avsnittet](../../channels/using/managing-incoming-sms.md).
 
-   Om fältet är tomt är det källnumret som anges i det externa kontot som används.  Om inget källnummer anges används den korta koden.  Det externa kontot som är specifikt för SMS-leveranser visas i avsnittet [Definiera en SMS-dirigering](#defining-an-sms-routing) .
-
-   ![](assets/sms_smpp_2.png)
-
-   >[!IMPORTANT]
+   >[!NOTE]
    >
-   >Kontrollera lagstiftningen i ditt land gällande ändring av avsändaradressen.  Du bör också höra med din SMS-tjänstleverantör om de erbjuder en sådan funktion.
+   >Om fältet **[!UICONTROL Short code]** lämnas tomt används värdet för fältet **[!UICONTROL Short code]** som angetts i det externa kontot.
 
 Från avsnittet **[!UICONTROL Send]** i en SMS-mall:
 
