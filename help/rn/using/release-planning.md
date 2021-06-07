@@ -10,10 +10,10 @@ feature: Översikt
 role: Business Practitioner
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: c98aa913f4004d49a897ea71e39cbfe6b3dd53c1
+source-git-commit: 2daf09071482ab858c73bc8f4f287495e9f8be4b
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 97%
+source-wordcount: '461'
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Alla versionsdatum kan ändras: Vi rekommenderar att du regelbundet besöker den
 
 Miljöuppdateringar sker stegvis under de angivna tidsramarna nedan. Exakta datum meddelas till varje kund via e-post.
 
-Detaljerad information om den här versionen finns i [Tidig versionsinformation](../../rn/using/e-release-notes.md).
+Detaljerad information om den här versionen finns i [Versionsinformationen](../../rn/using/release-notes.md).
 
 <table>
  <thead>
