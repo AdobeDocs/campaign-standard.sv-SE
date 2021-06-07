@@ -7,17 +7,16 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: Lär dig hur du utformar meddelandeinnehållet och försöker undvika vanliga problem som kan hindra dig från att utföra leveransen. 
-feature: Deliverability
+feature: Levererbarhet
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
+source-git-commit: d84a11d4064938792a2e2c365b6085c263f55648
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 8%
+source-wordcount: '1034'
+ht-degree: 7%
 
 ---
-
 
 # Skapa personaliserat innehåll {#build-personalized-content}
 
@@ -75,7 +74,7 @@ När meddelandet analyseras kontrollerar en [typologiregel](../../sending/using/
 
 Lär dig hur du infogar en länk för avanmälan [i det här avsnittet](../../designing/using/personalization.md#adding-a-content-block).
 
-### E-poststorlek
+### E-poststorlek {#email-size}
 
 För att undvika problem med prestanda och leverans bör du ha en maximal storlek på ett e-postmeddelande på cirka **35 kB**.
 
@@ -83,11 +82,21 @@ Tänk på följande om du vill hålla din e-post under gränsen:
 
 * Ta bort överflödiga eller oanvända format
 
-* Flytta en del av e-postinnehållet till en landningssida
+* Flytta en del av e-postinnehållet till en [landningssida](../../channels/using/getting-started-with-landing-pages.md)
 
 * Minimera koden
 
-Kontrollera att du har testat alla ändringar innan du skickar det
+Kontrollera att du har testat ändringarna innan du skickar det.
+
+I Adobe Campaign är standardstorleken för ett e-postmeddelande inställd på **100MB**. <!--This limit enables to prevent any error that could indefinitely increase the size of an email, which can lead to a system crash.-->
+
+Om gränsen nås kommer det meddelande som överskrider gränsen att misslyckas och ett felmeddelande visas i leveransloggarna. Övriga meddelanden i samma leverans påverkas inte. I så fall måste du anpassa den dynamiska delen av e-postmallen eller de innehållsfragment som används av leveransen. <!--If you need assistance, or if you have any question or request about the **[!UICONTROL Maximum message size]** option, reach out to your Adobe contact.-->
+
+Adobe rekommenderar att du behåller standardvärdet för maximal meddelandestorlek. Det här värdet kan dock ändras i alternativet **[!UICONTROL Maximum message size]**, via menyn **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**, endast av [funktionsadministratörer](../../administration/using/users-management.md#functional-administrators).
+
+>[!IMPORTANT]
+>
+>Om du anger värdet som noll tillämpas ingen begränsning.
 
 ### SMS-längd
 
