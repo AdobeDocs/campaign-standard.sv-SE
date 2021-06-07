@@ -6,17 +6,16 @@ description: Den här sidan visar inaktuella och borttagna funktioner i Adobe Ca
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
-feature: Overview
+feature: Översikt
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
+source-git-commit: a68adf4de790e30ab9dd1f79e5daeb7feb45c83b
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 79%
+source-wordcount: '728'
+ht-degree: 80%
 
 ---
-
 
 # Inaktuella och borttagna funktioner {#deprecated-and-removed-features}
 
@@ -43,22 +42,6 @@ Kunder uppmanas att se över om de använder funktionen i den aktuella driftsät
 
 <table> 
  <thead> 
- <tr> 
-   <th> <strong>Prediktiv ämnesrad</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p> Från och med 15 december 2020 är funktionen Predictive Subject Line föråldrad.</p><br/>
-   <p>Vi föreslår att ni använder AI-baserade e-postfunktioner för att analysera och förutse öppningsfrekvenser, optimala sändningstider och sannolika bortfall baserat på historiska interaktionsvärden. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">Läs mer</a></p></br>
-     <p>
-     <em>Borttagning av mål: April 2021</em></p>
-     </td> 
-  </tr> 
-  </tbody> 
-</table>
-<table> 
- <thead> 
   <tr> 
    <th> <strong>Push-meddelanden med SDK V4</strong><br /> </th> 
   </tr> 
@@ -71,22 +54,6 @@ Kunder uppmanas att se över om de använder funktionen i den aktuella driftsät
      <p>
      <em>Datum för målborttagning: 31 augusti 2021</em></p>
      </td> 
-  </tr> 
- </tbody> 
-</table>
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>Förfrågningar om användarens information – Campaign-API och -gränssnitt</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>Från och med Campaign version 19.4 är användningen av API och gränssnitt i Campaign för åtkomst och borttagning inaktuell. Radering av profiler med två steg är inte tillgänglig. Använd <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
-   <p>Se även <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">Hantera förfrågan om användarens information</a>.</p>
-  <p> 
-  <em>Måldatum för borttagning: april 2021</em></p>
-   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -125,6 +92,37 @@ Kunder uppmanas att se över om de använder funktionen i den aktuella driftsät
 ## Borttagna funktioner {#removed-features}
 
 Det här avsnittet visar funktioner som har tagits bort från Campaign Standard.
+
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Förfrågningar om användarens information – Campaign-API och -gränssnitt</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>Från och med Campaign version 21.2 är användningen av API och gränssnitt i Campaign för åtkomst och borttagning inaktuell. Radering av profiler med två steg är inte tillgänglig. Använd <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
+   <p>Se även <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">Hantera förfrågan om användarens information</a>.</p>
+  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+<table> 
+ <thead> 
+ <tr> 
+   <th> <strong>Prediktiv ämnesrad</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> Från och med april 2021 är funktionen Predictive Subject Line avvecklad.</p><br/>
+   <p>Vi föreslår att ni använder AI-baserade e-postfunktioner för att analysera och förutse öppningsfrekvenser, optimala sändningstider och sannolika bortfall baserat på historiska interaktionsvärden. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">Läs mer</a></p></br>
+     </td> 
+  </tr> 
+  </tbody> 
+</table>
 
 <table> 
  <thead> 
