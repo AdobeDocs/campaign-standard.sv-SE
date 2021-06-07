@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
-feature: Landing Pages
+feature: Landningssidor
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 28398843-a170-48cf-b9c0-dca7af56236d
+source-git-commit: c9d2edbc0731734967af033dc318f5f60ea5cc8d
 workflow-type: tm+mt
-source-wordcount: '1667'
-ht-degree: 99%
+source-wordcount: '1668'
+ht-degree: 97%
 
 ---
-
 
 # Utforma en landningssida{#designing-a-landing-page}
 
@@ -27,19 +26,19 @@ Landningssidor skapas på samma sätt som alla andra [marknadsföringsaktivitete
 
 När du utformar en landningssida måste du definiera innehållet på själva sidan, bekräftelsesidan och felsidan. Använd väljaren under åtgärdsfältet för att visa och konfigurera varje sida.
 
-Innehållet på landningssidor är utformat med Campaign-innehållsredigeraren.
+Innehållet på landningssidor utformas med Campaign-innehållsredigeraren.
 
 >[!NOTE]
 >
->Om instansen installerades före Adobe Campaign Standard 19.0 har du fortfarande tillgång till den äldre redigeraren för e-postinnehåll. Gränssnittet, principerna för användning och konfiguration är i princip desamma som beskrivs nedan för landningssidor. Alla funktioner kanske inte är tillgängliga eller underhålls i den äldre redigeraren för e-postinnehåll, som är inaktuell från och med version 19.0. Om du snabbt vill redigera e-postinnehåll via ett dra och släpp-gränssnitt med utökade funktioner använder du [E-postdesigner](../../designing/using/designing-content-in-adobe-campaign.md).
+>Om din instans installerades före Adobe Campaign Standard 19.0-utgåvan har du fortfarande tillgång till den äldre e-postredigeraren för e-postdesign. Gränssnittet, principerna för användning och konfiguration är i princip desamma som beskrivs nedan för landningssidor. Alla funktioner kanske inte är tillgängliga eller underhålls i den äldre redigeraren för e-postinnehåll, som är inaktuell från och med version 19.0. Om du snabbt vill redigera e-postinnehåll via ett dra och släpp-gränssnitt med utökade funktioner använder du [E-postdesigner](../../designing/using/designing-content-in-adobe-campaign.md).
 
 Den här sidan beskriver egenskaperna för redigeraren för landningssidans innehåll. Mer information om åtgärder som är gemensamma för en eller flera marknadsföringsaktiviteter finns i följande avsnitt i guiden **Designa e-postinnehåll**:
 
 * [Infoga ett personaliserat fält](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [Lägga till ett innehållsblock](../../designing/using/personalization.md#adding-a-content-block).
-* [Infoga en länk](../../designing/using/links.md#inserting-a-link).
-* [Infoga bilder](../../designing/using/images.md).
-* [Allmänna tips för innehållsdesign](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices).
+* [Lägga till ett innehållsblock](../../designing/using/personalization.md#adding-a-content-block)
+* [Infoga en länk](../../designing/using/links.md#inserting-a-link)
+* [Infoga bilder](../../designing/using/images.md)
+* [Allmänna tips för innehållsdesign](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)
 
 >[!NOTE]
 >Om du har en landningssida som redan är fördefinierad i HTML-format kan du importera den direkt med knappen **[!UICONTROL Change content]**.
