@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Instance Settings
+feature: Instansinställningar
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
+source-git-commit: fba2ecddb2ebbf600be28724c8658d6d61eb9ecd
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '956'
 ht-degree: 1%
 
 ---
-
 
 # Konfigurera startregler för att ger stöd för användningsfall i Adobe Campaign Standard {#configuring-rules-launch}
 
@@ -147,6 +146,10 @@ Dina användardata har nu konfigurerats för att skickas till Campaign.
 
 ### Spårning i appen, återanslående {#inapp-tracking-postback}
 
+>[!NOTE]
+>
+>Om du använder Android ACPCore v1.4.0 eller senare/ iOS ACPCore v2.3.0 eller senare behövs ingen konfigurering av återanslående.
+
 Om du vill skicka spårningsdata till [!DNL Adobe Campaign Standard] för att rapportera hur användarna interagerar med meddelanden i appen i ditt mobilprogram skapar du följande regel i [!DNL Experience Platform Launch]:
 
 1. I [!DNL Experience Platform Launch] väljer du fliken **[!UICONTROL Rules]** från kontrollpanelen för mobilprogram och klickar på **[!UICONTROL Add Rule]**.
@@ -180,6 +183,10 @@ Om du vill skicka spårningsdata till [!DNL Adobe Campaign Standard] för att ra
    ![](assets/do-not-localize/rules_3.png)
 
 ### Eftersläpning av push-meddelanden för spårning {#push-tracking-postback}
+
+>[!NOTE]
+>
+>Om du använder Android ACPCore v1.4.0 eller senare/ iOS ACPCore v2.3.0 eller senare behövs ingen konfigurering av återanslående.
 
 Om du vill skicka spårningsdata till [!DNL Adobe Campaign Standard], som hjälper till att spåra dina push-meddelandeleveranser och användarnas interaktion med ditt mobilprogram, måste du skapa en regel i [!DNL Experience Platform Launch].
 
