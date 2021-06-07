@@ -6,14 +6,13 @@ description: Läs om hur du hanterar förfrågningar om användarens information
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Privacy
+feature: Sekretess
 role: Business Practitioner
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1712'
+source-git-commit: 664274abc26925044625a31489b10e5339a2ef7b
+workflow-type: tm+mt
+source-wordcount: '1624'
 ht-degree: 100%
 
 ---
@@ -36,7 +35,7 @@ För att underlätta beredskapen gällande din integritet kan du hantera förfr�
 
 För att kunna utföra dessa förfrågningar måste du använda integreringen **Privacy Core Service**. Förfrågningar om användarens information som skickas från Privacy Core Service till alla lösningar i Experience Cloud hanteras automatiskt av Campaign via ett dedikerat arbetsflöde.
 
-### Förutsättningar {#prerequesites}
+### Förhandskrav {#prerequesites}
 
 Adobe Campaign erbjuder verktyg för personuppgiftsansvarig som låter dig skapa och bearbeta förfrågningar om användarens information gällande data som lagras i Adobe Campaign. Det är dock den personuppgiftsansvariges ansvar att hantera relationen med den registrerade (e-post, kundtjänst eller en webbportal).
 
@@ -156,21 +155,21 @@ Här följer de olika statusarna gällande förfrågningar om användarens infor
 * **[!UICONTROL Complete]**: behandlingen av förfrågan har slutförts utan fel.
 * **[!UICONTROL Error]**: arbetsflödet har påträffat ett fel. Orsaken visas i listan över förfrågningar om användarens information i kolumnen **[!UICONTROL Request status]**. Till exempel innebär **[!UICONTROL Error data not found]** att inga mottagardata som matchar den registrerades **[!UICONTROL Reconciliation value]** har hittats i databasen.
 
-### Inaktivera tvåstegsprocessen {#disabling-two-step-process}
+<!--### Disabling the 2-step process {#disabling-two-step-process}
 
-Core Privacy Service har inte stöd för tvåstegsprocessen.
+The Core Privacy Service does not support the 2-step process.
 
 >[!IMPORTANT]
 >
->Innan du använder integreringen med Core Privacy Service för att hantera dina förfrågningar om användarens information måste du inaktivera tvåstegsprocessen för förfrågan om borttagning via gränssnittet i Campaign Standard.
+>Before using the Core Privacy Service integration to manage your Privacy requests, you must disable the 2-step process for Delete requests from the Campaign Standard interface.
 
-Om det här alternativet inte är inaktiverat ställs alla förfrågningar om borttagning med Privacy Core Service i väntläge och slutförs inte.
+If this option is not disabled, all Delete requests managed with the Privacy Core Service will remain in pending state and will not complete.
 
-Som standard är tvåstegsprocessen aktiverad.
+By default, the 2-step process is activated.
 
-Klicka på **[!UICONTROL Edit properties]** i det övre högra hörnet av skärmen **[!UICONTROL Privacy Requests]** och avmarkera sedan alternativet **[!UICONTROL Activate the 2-step process]** för att ändra det här läget.
+To change this mode, click **[!UICONTROL Edit properties]**, in the top right corner of the **[!UICONTROL Privacy Requests]** screen, then uncheck the **[!UICONTROL Activate the 2-step process]** option.
 
-![](assets/privacy-disable-2-step-process.png)
+![](assets/privacy-disable-2-step-process.png)-->
 
 ## Avanmäl dig till försäljning av personuppgifter (CCPA) {#sale-of-personal-information-ccpa}
 
