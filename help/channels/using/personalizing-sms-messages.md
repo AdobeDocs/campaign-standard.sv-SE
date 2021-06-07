@@ -10,14 +10,13 @@ delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back;delivery,s
 feature: SMS
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6c01662e-1e19-4cec-aa21-6e84b9b7a677
+source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 99%
+source-wordcount: '432'
+ht-degree: 100%
 
 ---
-
 
 # Anpassa SMS-meddelanden{#personalizing-sms-messages}
 
@@ -39,4 +38,15 @@ Här har vi ett exempel på ett SMS-meddelande som innehåller anpassningsfält 
 
 ## SMS-avsändare {#sms-sender}
 
-Du kan anpassa namnet på SMS-avsändaren. Mer information finns i avsnittet [SMS-konfiguration](../../administration/using/configuring-sms-channel.md#configuring-sms-properties).
+>[!IMPORTANT]
+>
+>Kontrollera lagstiftningen i ditt land gällande ändring av avsändaradressen.  Du bör också höra med din SMS-tjänstleverantör om de erbjuder en sådan funktion.
+
+Med det här **[!UICONTROL From]** alternativet kan du anpassa namnet på SMS-meddelandets avsändare med en teckensträng.  Det namnet visas som avsändarnamn för SMS-meddelandet på mottagarens mobiltelefon.
+
+Om fältet är tomt är det källnumret som anges i det externa kontot som används.  Om inget källnummer anges används den korta koden.  Det externa kontot som är specifikt för SMS-leveranser visas i avsnittet [Definiera en SMS-dirigering](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) .
+
+![](assets/sms_creation_8.png)
+
+
+
