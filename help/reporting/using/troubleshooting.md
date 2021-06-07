@@ -6,14 +6,13 @@ description: Här finns vanliga frågor om dynamisk rapportering.
 audience: reporting
 content-type: reference
 topic-tags: troubleshooting
-feature: Reporting
+feature: Rapportering
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-translation-type: tm+mt
-source-git-commit: 6a2ddd03b327beabc6055448aa2fa53de12f0b6f
+source-git-commit: 81ffe6a7e59a745a6f61941dff69be85edf4fe45
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '704'
 ht-degree: 5%
 
 ---
@@ -168,7 +167,7 @@ I exemplet nedan har cellen samma färg eftersom värdet är 100 %.
 
 Om du ändrar **[!UICONTROL Conditional formatting]** till anpassad blir cellen grönare när värdet når den övre gränsen. Om den når den undre gränsen blir den rödare.
 
-Här ställer vi till exempel in **[!UICONTROL Upper limit]** på 500 och **[!UICONTROL Lower limit]** på 0.
+Här anger vi till exempel **[!UICONTROL Upper limit]** till 500 och **[!UICONTROL Lower limit]** till 0.
 
 ![](assets/troubleshooting_2.png)
 
@@ -176,8 +175,11 @@ Här ställer vi till exempel in **[!UICONTROL Upper limit]** på 500 och **[!UI
 
 ![](assets/troubleshooting_3.png)
 
-Värdet **N/A** kan ibland visas i dina dynamiska rapporter. Detta kan visas av två anledningar:
+Värdet **N/A** kan ibland visas i dina dynamiska rapporter. Det här kan visas av tre anledningar:
 
 * Leveransen har tagits bort och visas här som **N/A** för att inte orsaka diskrepans i resultaten.
-* När du drar och släpper dimensionen **[!UICONTROL Transactional Delivery]** i dina rapporter kan värdet **N/A** visas som ett resultat. Det beror på att Dynamic Report hämtar alla leveranser även om de inte är transaktionsbaserade.
-Detta kan också inträffa när du drar och släpper **[!UICONTROL Delivery]**-dimensionen till rapporten, men i det här fallet representerar **N/A**-värdet transaktionsleveranser.
+* När du drar och släpper dimensionen **[!UICONTROL Transactional Delivery]** i dina rapporter kan värdet **N/A** visas som ett resultat. Det beror på att Dynamic Report hämtar alla leveranser även om de inte är transaktionsbaserade. Detta kan också inträffa när du drar och släpper **[!UICONTROL Delivery]**-dimensionen till rapporten, men i det här fallet representerar **N/A**-värdet transaktionsleveranser.
+* När en dimension används med ett mått som inte är relaterat till dimensionen. I exemplet nedan läggs en uppdelning till med dimensionen **[!UICONTROL Tracking URL]** även om **[!UICONTROL Click]**-antalet är inställt på 0 i den här leveransen.
+
+   ![](assets/troubleshooting_4.png)
+
