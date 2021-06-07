@@ -6,17 +6,16 @@ description: Tekniska arbetsflöden är färdiga arbetsflöden som är utformade
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Instance Settings
+feature: Instansinställningar
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
+exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
+source-git-commit: 6d25a618b2520c867393bf0ef795567de4c57e98
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 99%
+source-wordcount: '695'
+ht-degree: 95%
 
 ---
-
 
 # Tekniska arbetsflöden{#technical-workflows}
 
@@ -100,9 +99,14 @@ Tekniska arbetsflöden används för att hantera självutlösande bakgrundsproce
    <td> Det här arbetsflödet synkroniserar de mobila egenskaperna i Adobe Launch som importerats i Adobe Campaign Standard.  Det startar var 15:e minut.<br /> </td> 
   </tr>
   <tr> 
-   <td> <span class="uicontrol">Uppdatera leveranskörning</span> <br /> </td> 
-   <td> <span class="uicontrol">updateDeliveryExecInfo</span> <br /> </td> 
-   <td> Det här arbetsflödet uppdaterar leveransspårningen.    Som standard startas det var 10:e minut.<br /> </td> 
+   <td> <span class="uicontrol">Återställning av spårningsloggar</span> <br /> </td> 
+   <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
+   <td> Det här arbetsflödet synkroniserar de mobila egenskaperna i Adobe Launch som importerats i Adobe Campaign Standard.  Det startar var 15:e minut.<br /> </td> 
+  </tr>
+  <tr> 
+   <td> <span class="uicontrol">Återställningsspårningsloggar</span> <br /> </td> 
+   <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
+   <td> Det här arbetsflödet återställer förlorade spårningsloggar. Observera att det här tekniska arbetsflödet används i särskilda sammanhang och begränsas till enbart intern användning i Adobe. <br> Som standard startas det var 10:e minut.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Uppdatera leveransindikatorer</span> <br /> </td> 
@@ -121,4 +125,3 @@ Tekniska arbetsflöden används för att hantera självutlösande bakgrundsproce
   </tr> 
  </tbody> 
 </table>
-
