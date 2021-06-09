@@ -6,25 +6,24 @@ description: Den här sidan innehåller alla 2020-versioner av Adobe Campaign St
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Overview
+feature: Översikt
 role: Business Practitioner
 level: Beginner
-translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: ht
-source-wordcount: '5327'
-ht-degree: 100%
+exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
+source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
+workflow-type: tm+mt
+source-wordcount: '5298'
+ht-degree: 98%
 
 ---
 
-
 # Versionsinformation 2020{#release-notes-2020}
 
-[Lanseringsplanering](https://helpx.adobe.com/se/campaign/kb/acs-release-planning.html) | [Kontrollpanelsversioner](https://docs.adobe.com/content/help/sv-SE/control-panel/using/release-notes.html) | [Dokumentationsuppdateringar](../../rn/using/documentation-updates.md) | [Information gällande tidigare versioner](../../rn/using/release-notes-2019.md) | [Föråldrade funktioner](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=sv#release-notes)
+[Lanseringsplanering](https://helpx.adobe.com/se/campaign/kb/acs-release-planning.html) | [Kontrollpanelsversioner](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=sv) | [Dokumentationsuppdateringar](../../rn/using/documentation-updates.md) | [Information gällande tidigare versioner](../../rn/using/release-notes-2019.md) | [Föråldrade funktioner](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=sv#release-notes)
 
-![](assets/do-not-localize/cp-icon.png) **Den senaste versionen av kontrollpanelen från juni** med övervakning av aktiva profiler, granskning av deldomänens levererbarhet och hantering av GPG-nycklar. [Läs mer](https://docs.adobe.com/content/help/sv-SE/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Den senaste versionen av kontrollpanelen från juni** med övervakning av aktiva profiler, granskning av deldomänens levererbarhet och hantering av GPG-nycklar. [Läs mer](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
-![](assets/do-not-localize/cp-icon.png) **Ny version av kontrollpanelen i oktober** med domänkonfiguration som använder CNAME och nya funktioner för databasövervakning. [Läs mer](https://docs.adobe.com/content/help/sv-SE/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Ny version av kontrollpanelen i oktober** med domänkonfiguration som använder CNAME och nya funktioner för databasövervakning. [Läs mer](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
 ## Version 20.4 - oktober 2020 {#release-20-4---october-2020}
 
@@ -40,7 +39,7 @@ ht-degree: 100%
 <tr> 
   <td> <p>Nu kan du använda <strong>kontrollgrupper</strong> för att mäta effekten av dina kampanjer genom att utesluta en del av deras målgrupp. Sedan kan du jämföra beteendet hos målpopulationen som fick meddelandet med beteendet hos kontakter som inte var med i målgrupperna. Baserat på de skickade loggarna kan du även inrikta dig på en kontrollgrupp i framtida kampanjer.
 </p>
-<p>Mer information finns i den <a href="../../sending/using/control-group.md">detaljerade dokumentationen</a> och <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=sv#communication-channels">instruktionsvideon</a>.
+<p>Mer information finns i den <a href="../../sending/using/control-group.md">detaljerade dokumentationen</a> och <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html">instruktionsvideon</a>.
 </p>
 </td> 
 </tr> 
@@ -76,8 +75,8 @@ ht-degree: 100%
   <p>Journey AI använder sig av avancerad maskininlärning (ML) som gör att företag kan optimera designen och leveransen av kundresor genom att förutsäga varje individs engagemang.</p>
   <P>Journey AI består av två ML-funktioner:</p>
 <ul> 
-     <li> <strong>Förutsägande engagemangsbedömning</strong> – identifierar på ett intelligent sätt kundernas preferenser för att bättre målinrikta och personalisera meddelanden vilket i sig ökar konverteringar och kvarhållning. Titta på <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html?lang=sv#communication-channels">instruktionsvideon</a>.</li> 
-     <li> <strong>Förutsägande optimering av sändningstid</strong> – förutsäger bästa tiden att skicka e-postmeddelande till varje individ i en kampanj för att maximera engagemangsnivåer och förbättra e-postkampanjens avkastning. Titta på <a href="https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html">instruktionsvideon</a>.</li>
+     <li> <strong>Förutsägande engagemangsbedömning</strong> – identifierar på ett intelligent sätt kundernas preferenser för att bättre målinrikta och personalisera meddelanden vilket i sig ökar konverteringar och kvarhållning. Titta på <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">instruktionsvideon</a>.</li> 
+     <li> <strong>Förutsägande optimering av sändningstid</strong> – förutsäger bästa tiden att skicka e-postmeddelande till varje individ i en kampanj för att maximera engagemangsnivåer och förbättra e-postkampanjens avkastning. Titta på <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html">instruktionsvideon</a>.</li>
     </ul>
   <p>Se den <a href="../../sending/using/predictive.md">detaljerade dokumentationen</a> och kontakta din kontoansvarige för mer information om hur du kommer igång med Journey AI. Observera att även om Journey AI är tillgängligt kostnadsfritt för befintliga Campaign-kunder ingår en 50 timmars implementeringskostnad.</p>
     </td> 
@@ -210,7 +209,7 @@ ht-degree: 100%
 <li>Rätt till åtkomst och rätt att ta bort: vi använder de funktioner som tillkommit för GDPR och CCPA.  <a href="https://helpx.adobe.com/se/campaign/kb/acs-privacy.html#righttoaccess">Lär dig mer</a> </li>
 <li><p>När en sekretessförfrågan har skapats har PDPA-föreskrifterna lagts till i Privacy Core-tjänsten.  Det är den här metoden du bör använda för alla förfrågningar gällande åtkomst och borttagning.  Användningen av Campaign-API:n och gränssnittet för förfrågan gällande åtkomst och borttagning är föråldrad.    Se <a href="../../rn/using/deprecated-features.md">artikeln Föråldrade och borttagna funktioner</a>.</p></li>
 </ul>
-<p>Se <a href="https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/tutorials/privacy/privacy-overview.html">instruktionsvideon</a>.</p>
+<p>Se <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">instruktionsvideon</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -231,7 +230,7 @@ ht-degree: 100%
 <li>markera och använda ett array från ett JSON-objekt utan att behöva namnge objektets "data" eller ha det på den översta nivån.</li>
 </ul>
 <p><strong>Varning:</strong> Kunderna måste <strong>ersätta alla externa API-betaaktiviteter</strong> med externa API-aktiviteter för GA i sina arbetsflöden.    Arbetsflöden som använder betaversionen av det externa API:n slutar fungera i 20.3.</p>
-<p>Mer information hittar du i den <a href="../../automating/using/external-api.md">detaljerade dokumentationen</a> och <a href="https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">instruktionsvideon</a>.</p>
+<p>Mer information hittar du i den <a href="../../automating/using/external-api.md">detaljerade dokumentationen</a> och <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">instruktionsvideon</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -294,7 +293,7 @@ ht-degree: 100%
 * Korrigerade ett fel som hindrade användare från att göra ändringar i rapporter.  (CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **Den nya versionen av kontrollpanelen från maj** med certifikatförnyelse för CNAME-underdomäner. [Läs mer](https://docs.adobe.com/content/help/sv-SE/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Den nya versionen av kontrollpanelen från maj** med certifikatförnyelse för CNAME-underdomäner. [Läs mer](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
 ## Version 20.2 - april 2020 {#release-20-2---april-2020}
 
@@ -324,7 +323,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> <p>Förutom att testa profiler kan du nu testa dina e-postmeddelanden med riktiga målprofiler. På så sätt kan du få en exakt representation av meddelandet som profilen får: Anpassade fält, dynamisk och anpassad information, inklusive ytterligare data från arbetsflöden, o.s.v. </p>
-    <p>Mer information finns i den <a href="../../sending/using/testing-messages-using-target.md">detaljerade dokumentationen</a> och <a href="https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">självstudievideon</a>. </p>
+    <p>Mer information finns i den <a href="../../sending/using/testing-messages-using-target.md">detaljerade dokumentationen</a> och <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">självstudievideon</a>. </p>
    </td> 
   </tr> 
  </tbody> 
@@ -332,7 +331,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Nya funktioner kommer att lanseras i Campaign Control Panel i april, inklusive Google TXT-posthantering, övervakning av databasutrymme och e-postaviseringar. Mer information om de här funktionerna finns i [Versionsinformation för Control Panel](https://docs.adobe.com/content/help/sv-SE/control-panel/using/release-notes.html).
+>Nya funktioner kommer att lanseras i Campaign Control Panel i april, inklusive Google TXT-posthantering, övervakning av databasutrymme och e-postaviseringar. Mer information om de här funktionerna finns i [Versionsinformation för Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
 **Förbättringar**
 
@@ -411,7 +410,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> <p>Adobe Experience Platform Data Connector är nu integrerad med Adobe Campaign Standard. Du kan göra dina Campaign-data tillgängliga på Adobe Experience Platform genom att mappa XTK-data (data som importerats i Campaign) till Adobe Experience Platform Data Model (XDM). </p>
-    <p>Observera att den här funktionen endast är tillgänglig för kunder som har Azure som värd. Mer information om den här funktionen och villkoren för att aktivera den finns i den <a href="../../integrating/using/aep-about-data-connector.md">detaljerade dokumentationen</a> och videon <a href="https://docs.adobe.com/content/help/sv-SE/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">med anvisningar</a>.</p>
+    <p>Observera att den här funktionen endast är tillgänglig för kunder som har Azure som värd. Mer information om den här funktionen och villkoren för att aktivera den finns i den <a href="../../integrating/using/aep-about-data-connector.md">detaljerade dokumentationen</a> och videon <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">med anvisningar</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -426,7 +425,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> <p>Målgruppsdestinationer gör att du kan dela segment från Adobe Experience Platform till Adobe Campaign.</p>
-    <p>Observera att den här funktionen endast är tillgänglig för kunder som har Azure som värd. Mer information om den här funktionen och villkoren för att aktivera den finns i den <a href="../../integrating/using/aep-about-audience-destinations-service.md">detaljerade dokumentationen</a> och videon <a href="https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">med anvisningar</a>. </p>
+    <p>Observera att den här funktionen endast är tillgänglig för kunder som har Azure som värd. Mer information om den här funktionen och villkoren för att aktivera den finns i den <a href="../../integrating/using/aep-about-audience-destinations-service.md">detaljerade dokumentationen</a> och videon <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">med anvisningar</a>. </p>
    </td> 
   </tr> 
  </tbody> 
