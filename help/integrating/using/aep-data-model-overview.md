@@ -6,17 +6,16 @@ description: Experience Data Model (XDM) är en standarduppsättning med datamod
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Microsoft CRM Integration
+feature: Microsoft CRM-integrering
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: cc1aa669-30cd-4ea4-9fab-4d1b6c373744
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 7%
+source-wordcount: '248'
+ht-degree: 0%
 
 ---
-
 
 # Översikt över Experience Data Model {#experience-data-model-overview}
 
@@ -34,7 +33,7 @@ Med XDM Workspace kan du visa, skapa och utöka datascheman.
 
 Öppna Adobe Experience Platform för att få åtkomst till XDM-användargränssnittet. Navigera till datamodellfönstret för att skapa eller utöka ett XDM-schema.
 
-Läs den fullständiga dokumentationen för [XDM Workspace](https://docs.adobe.com/content/help/sv-SE/experience-platform/xdm/api/getting-started.html).
+Läs den fullständiga dokumentationen för [XDM Workspace](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
 
 ![](assets/aep_xdmworkspace.png)
 
@@ -49,4 +48,4 @@ Du kan utföra följande åtgärder via XDM Schema API:
 * Visa schemabeskrivningar
 * Skapa, uppdatera och ta bort schemabeskrivningar
 
-All information om hur du hanterar API-anrop finns i [Utvecklarhandbok](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html).
+All information om hur du hanterar API-anrop finns i [Utvecklarhandbok](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
