@@ -7,17 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
-feature: Instance Settings
+feature: Instansinställningar
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
+exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
+source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
 workflow-type: tm+mt
-source-wordcount: '1778'
-ht-degree: 83%
+source-wordcount: '1774'
+ht-degree: 84%
 
 ---
-
 
 # Externa konton{#external-accounts}
 
@@ -85,13 +84,13 @@ Adobe rekommenderar att du följer god praxis nedan för att undvika sådana pro
 * Det kan hända att du loggar in på SFTP för att direkt kontrollera vad som finns där.
 * Kom ihåg att SFTP-diskhantering i första hand är ditt ansvar.
 
-Observera också att de offentliga IP-adresserna som du försöker initiera SFTP-anslutningen från måste läggas till i tillåtelselista i Campaign-instansen. Du kan begära att få lägga till IP-adresser till tillåtelselista via en [supportbiljett](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html), tillsammans med den offentliga nyckeln som ska användas för autentisering.
+Observera också att de offentliga IP-adresserna som du försöker initiera SFTP-anslutningen från måste läggas till i tillåtelselista i Campaign-instansen. Du kan begära att få lägga till IP-adresser till tillåtelselista via en [supportbiljett](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html), tillsammans med den offentliga nyckeln som ska användas för autentisering.
 
-SFTP-servrar kan hanteras från kontrollpanelen. Mer information finns i dokumentationen för [Kontrollpanelen](https://docs.adobe.com/content/help/sv-SE/control-panel/using/sftp-management/about-sftp-management.html).
+SFTP-servrar kan hanteras från kontrollpanelen. Mer information finns i dokumentationen för [Kontrollpanelen](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html).
 
 >[!NOTE]
 >
->Kontrollpanelen är tillgänglig för alla administratörsanvändare. Anvisningar om hur du beviljar administratörsåtkomst till en användare finns på [den här sidan](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>Kontrollpanelen är tillgänglig för alla administratörsanvändare. Stegen för att bevilja administratörsåtkomst till en användare finns på [den här sidan](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=sv#discover-control-panel).
 
 ## OAuth 2.0-konto {#oauth-account}
 
