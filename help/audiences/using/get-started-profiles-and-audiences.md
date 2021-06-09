@@ -6,15 +6,14 @@ description: Definiera målgrupper, välj målgrupper, filtrera mottagare, samla
 audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
-feature: Profiles
+feature: Profiler
 role: Business Practitioner
 level: Beginner
 exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
-translation-type: tm+mt
-source-git-commit: c5a9c27a2ce459dfd0f04159095bfc8a2cf4c0f6
+source-git-commit: bc55ccea9691d904bbc1b64d93d0a7b8486940e5
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 18%
+source-wordcount: '605'
+ht-degree: 20%
 
 ---
 
@@ -57,7 +56,7 @@ Läs mer:
 * [Välja en målgrupp i ett meddelande](../../audiences/using/selecting-an-audience-in-a-message.md)
 * [Lägga till en kontrollgrupp](../../sending/using/control-group.md)
 
-## Behörighet och samtycke {#permission}
+## Tillstånd och samtycke {#permission}
 
 <img src="assets/do-not-localize/icon_permission.svg"  width="60px">
 
@@ -88,8 +87,8 @@ Integritet och samtycke i Campaign och hur du hanterar dem presenteras i [det h�
 
 ## Ytterligare resurser
 
-* [Engagera Adobe Experience Platform-målgrupper i Campaign](../../integrating/using/ingest-aep-data.md)
+* [Mata in målgrupper från Adobe Experience Platform i Campaign](../../integrating/using/ingest-aep-data.md)
 * [Arbeta med Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
 * [Delade målgrupper i Adobe](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [Importera profiler med arbetsflöden](../../automating/using/creating-import-workflow-templates.md)
-* [Profiler och målgrupper - videor](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
+* [Profiler och målgrupper - videor](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
