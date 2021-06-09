@@ -10,10 +10,10 @@ feature: Utlösare
 role: Data Architect
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-source-git-commit: bc2a4af29e7ed9e9e7b338b7aa7d8bb30628f0b6
+source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 77%
+source-wordcount: '714'
+ht-degree: 74%
 
 ---
 
@@ -29,7 +29,7 @@ Med de olika integrationerna som presenteras kan du kombinera leveranser och de 
 
 Beroende på din miljö kan andra lösningar även länkas till Adobe Experience Cloud. De är länkade som organisationer (kallas även för klienter).
 
-En organisation är den enhet som gör det möjligt för en administratör att konfigurera grupper och användare samt att styra enkel inloggning i Experience Cloud. Organisationen fungerar som ett inloggningsföretag som omfattar alla produkter och lösningar i Experience Cloud. Oftast är en organisation ditt företagsnamn. Ett företag kan dock ha många organisationer. Användarhantering och organisationshantering beskrivs närmare i [hjälpportalen för Adobe Experience Cloud](https://docs.adobe.com/content/help/sv-SE/core-services/interface/manage-users-and-products/organizations.html).
+En organisation är den enhet som gör det möjligt för en administratör att konfigurera grupper och användare samt att styra enkel inloggning i Experience Cloud. Organisationen fungerar som ett inloggningsföretag som omfattar alla produkter och lösningar i Experience Cloud. Oftast är en organisation ditt företagsnamn. Ett företag kan dock ha många organisationer. Användarhantering och organisationshantering beskrivs närmare i [hjälpportalen för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html).
 
 Om du vill integrera dataflöden från andra system med Adobe Campaign kan du ta en titt på vår [API-dokumentation](../../api/using/get-started-apis.md).
 
@@ -58,7 +58,7 @@ Om du vill integrera dataflöden från andra system med Adobe Campaign kan du ta
    <td> Adobe Target<br /> </td> 
    <td> Du kan infoga bilder som behandlas dynamiskt av Adobe Target när användaren öppnar ett e-postmeddelande som har skapats och skickats av Adobe Campaign.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">Arbeta med Campaign och Target</a>,  <a href="https://docs.adobe.com/content/help/sv-SE/target/using/integrate/campaign-and-target.html">Integrera Campaign och Target</a>,  <a href="https://helpx.adobe.com/se/marketing-cloud/how-to/email-marketing.html">Anpassa e-postbilder i realtidsvideo (</a> steg 3)
+    <a href="../../integrating/using/about-campaign-target-integration.md">Arbeta med Campaign och Target</a>,  <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html">Integrera Campaign och Target</a>,  <a href="https://helpx.adobe.com/se/marketing-cloud/how-to/email-marketing.html">Anpassa e-postbilder i realtidsvideo (</a> steg 3)
     </td> 
   </tr> 
   <tr> 
@@ -104,7 +104,7 @@ Om du vill integrera dataflöden från andra system med Adobe Campaign kan du ta
    <td> Adobe Dreamweaver<br /> </td> 
    <td> Du kan redigera ett e-postinnehåll från Dreamweaver och synkronisera det med Adobe Campaign.<br /> </td> 
    <td> 
-    <a href="https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html">Skapa personliga e-postmeddelanden med </a> Dreamweaver-video,  <a href="https://helpx.adobe.com/se/dreamweaver/using/working-with-dreamweaver-and-campaign.html">använd Campaign-tillägget för Dreamweaver</a> 
+    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">Skapa personliga e-postmeddelanden med </a> Dreamweaver-video,  <a href="https://helpx.adobe.com/se/dreamweaver/using/working-with-dreamweaver-and-campaign.html">använd Campaign-tillägget för Dreamweaver</a> 
   </td> 
   </tr> 
   <tr> 
