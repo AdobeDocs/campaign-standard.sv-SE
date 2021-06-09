@@ -7,17 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: branding,overview;branding,main
-feature: Instance Settings
+feature: Instansinställningar
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
+exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
+source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
 workflow-type: tm+mt
-source-wordcount: '1286'
-ht-degree: 78%
+source-wordcount: '1282'
+ht-degree: 80%
 
 ---
-
 
 # Varumärke{#branding}
 
@@ -92,13 +91,13 @@ Ett **varumärke** definieras av följande egenskaper:
 
 Du kan lägga till nya enheter i organisationen i Campaign eller skapa en ny typ av e-post som du måste skicka under en annan underdomän. Gör så här:
 
-1. **Konfigurera en ny underdomän**  - För alla nya underdomäner som ska användas av Adobe är det första steget att konfigurera den. Du kan göra detta via [Campaign Control Panel](https://docs.adobe.com/content/help/sv-SE/control-panel/using/subdomains-and-certificates/subdomains-branding.html) eller kontakta din Adobe tekniska kontakt. Läs mer om subdomänkonfigurationen [i den här artikeln](https://helpx.adobe.com/se/campaign/kb/domain-name-delegation.html).
+1. **Konfigurera en ny underdomän**  - För alla nya underdomäner som ska användas av Adobe är det första steget att konfigurera den. Du kan göra detta via [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html) eller kontakta din Adobe tekniska kontakt. Läs mer om subdomänkonfigurationen [i den här artikeln](https://helpx.adobe.com/se/campaign/kb/domain-name-delegation.html).
 
    >[!NOTE]
    >
-   >Kontrollpanelen är tillgänglig för alla administratörsanvändare. Anvisningar om hur du beviljar administratörsåtkomst till en användare finns på [den här sidan](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+   >Kontrollpanelen är tillgänglig för alla administratörsanvändare. Stegen för att bevilja administratörsåtkomst till en användare finns på [den här sidan](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=sv#discover-control-panel).
 
-1. **Skapa en biljett** - När underdomänen har konfigurerats måste Adobe konfigurera den i produktionsmiljön. [Skapa en biljett till Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) med följande information för att begära detta:
+1. **Skapa en biljett** - När underdomänen har konfigurerats måste Adobe konfigurera den i produktionsmiljön. [Skapa en biljett till Client Care](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) med följande information för att begära detta:
 
    * Ämne: ACS Ny varumärkeskonfiguration
 
@@ -200,4 +199,3 @@ Följ stegen nedan för att skapa ett e-postmeddelande som är kopplat till ett 
 1. Din e-postadress har redan konfigurerats. Du kan kontrollera informationen innan du testar den med testprofilerna och sedan skicka den till din målgrupp.
 
    ![](assets/branding_16.png)
-
