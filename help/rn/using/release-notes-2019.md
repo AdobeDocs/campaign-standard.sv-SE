@@ -6,21 +6,20 @@ description: Den här sidan innehåller alla 2019-versioner av Adobe Campaign St
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Overview
+feature: Översikt
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
+source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
 workflow-type: tm+mt
-source-wordcount: '7611'
+source-wordcount: '7590'
 ht-degree: 8%
 
 ---
 
-
 # Versionsinformation 2019{#release-notes-2019}
 
-[Viktig planering](https://helpx.adobe.com/se/campaign/kb/acs-release-planning.html)  |  [Kontrollpanelsversioner](https://docs.adobe.com/content/help/sv-SE/control-panel/using/release-notes.html)  |  [Dokumentationsuppdateringar](../../rn/using/documentation-updates.md)  |  [Senaste versionsinformation](../../rn/using/release-notes.md) |  [Föråldrade funktioner](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=sv#release-notes)
+[Viktig planering](https://helpx.adobe.com/se/campaign/kb/acs-release-planning.html)  |  [Kontrollpanelsversioner](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=sv)  |  [Dokumentationsuppdateringar](../../rn/using/documentation-updates.md)  |  [Senaste versionsinformation](../../rn/using/release-notes.md) |  [Föråldrade funktioner](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=sv#release-notes)
 
 ## Version 19.4 - december 2019 {#release-19-4---october-2019}
 
@@ -41,7 +40,7 @@ ht-degree: 8%
     <li><p>När en sekretessförfrågan skapas har regeltypen (GDPR eller CCPA) lagts till i bastjänsten för sekretess. Det är den här metoden du bör använda för alla förfrågningar gällande åtkomst och borttagning.  Användningen av Campaign-API:n och gränssnittet för förfrågan gällande åtkomst och borttagning är föråldrad.    Se <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">artikeln Föråldrade och borttagna funktioner</a>.</p></li>
     <li>Ett <strong>CCPA-fält för avanmälan</strong> har lagts till i profilresursen så att Adobe Campaign-användare kan spåra om en konsument har avanmält sig från försäljning av personlig information. <a href="https://helpx.adobe.com/se/campaign/kb/acs-privacy.html#ccpa">Läs mer</a>.</li>
   </ul>
-    <p>Se <a href="https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/tutorials/privacy/privacy-overview.html">instruktionsvideon</a>.</p>
+    <p>Se <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">instruktionsvideon</a>.</p>
 </td> 
   </tr> 
  </tbody> 
@@ -162,11 +161,11 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td> Extern API-aktivitet (offentlig betaversion)<br /> </td> 
-   <td> <p>För större personalisering kan du med extern API-aktivitet överföra data från externa system till ett arbetsflöde via ett REST API-anrop. REST-slutpunkterna kan vara ett kundhanteringssystem, Adobe I/O Runtime eller Adobe Experience Cloud REST-slutpunkter (t.ex. Data Platform, Target, Analytics, Campaign).</p><p>Den här funktionen är för närvarande en betaversion.</p><p>Mer information hittar du i den <a href="../../automating/using/external-api.md">detaljerade dokumentationen</a> och <a href="https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">instruktionsvideon</a>.</p></td> 
+   <td> <p>För större personalisering kan du med extern API-aktivitet överföra data från externa system till ett arbetsflöde via ett REST API-anrop. REST-slutpunkterna kan vara ett kundhanteringssystem, Adobe I/O Runtime eller Adobe Experience Cloud REST-slutpunkter (t.ex. Data Platform, Target, Analytics, Campaign).</p><p>Den här funktionen är för närvarande en betaversion.</p><p>Mer information hittar du i den <a href="../../automating/using/external-api.md">detaljerade dokumentationen</a> och <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">instruktionsvideon</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Rapport om arbetsflödessegment<br /> </td> 
-   <td> <p>Med den här funktionen kan marknadsförarna bryta ned sina leveransresultat efter segmentkod. När du skapar ett arbetsflöde och använder en segmenteringsaktivitet för att tilldela segment till leveranspopulationen kan dessa segment nu användas i samma leverans. På så sätt kan du visa öppnings-/klickstatistik som baseras på flera segment inom en och samma leverans.</p><p>Mer information hittar du i den <a href="../../reporting/using/creating-a-report-workflow-segment.md">detaljerade dokumentationen</a> och <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">instruktionsvideon</a>.</p></td>
+   <td> <p>Med den här funktionen kan marknadsförarna bryta ned sina leveransresultat efter segmentkod. När du skapar ett arbetsflöde och använder en segmenteringsaktivitet för att tilldela segment till leveranspopulationen kan dessa segment nu användas i samma leverans. På så sätt kan du visa öppnings-/klickstatistik som baseras på flera segment inom en och samma leverans.</p><p>Mer information hittar du i den <a href="../../reporting/using/creating-a-report-workflow-segment.md">detaljerade dokumentationen</a> och <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">instruktionsvideon</a>.</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -307,7 +306,7 @@ En serie förbättringar och korrigeringar introducerades för att optimera frag
  <tbody> 
   <tr> 
    <td> Kontrollpanelen<br /> </td> 
-   <td> <p>För att effektivisera arbetet som Admin-användare kan du enkelt övervaka kapaciteten och hantera inställningarna för dina instanser (och börja med SFTP-serverhantering).</p><p>Mer information hittar du i den <a href="https://docs.adobe.com/content/help/sv-SE/control-panel/using/control-panel-home.html">detaljerade dokumentationen</a> och <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=en">instruktionsvideon</a>.</p></td> 
+   <td> <p>För att effektivisera arbetet som Admin-användare kan du enkelt övervaka kapaciteten och hantera inställningarna för dina instanser (och börja med SFTP-serverhantering).</p><p>Mer information hittar du i den <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=sv">detaljerade dokumentationen</a> och <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=en">instruktionsvideon</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Lokala meddelanden<br /> </td> 
@@ -315,7 +314,7 @@ En serie förbättringar och korrigeringar introducerades för att optimera frag
   </tr> 
   <tr> 
    <td> Förbättrat arbetsflöde - Lägg till en nyttolast i extern signalaktivitet<br /> </td> 
-   <td> <p>Starta ett arbetsflöde med en nyttolast när definierade villkor uppfylls från ett annat arbetsflöde eller ett REST API-anrop för integrering med dina externa system. Detta inkluderar även en ny <strong>test</strong>-aktivitet där du kan köra tester på den här funktionen.</p><p>Mer information hittar du i den <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">detaljerade dokumentationen</a> och <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html">instruktionsvideon</a>.</p></td> 
+   <td> <p>Starta ett arbetsflöde med en nyttolast när definierade villkor uppfylls från ett annat arbetsflöde eller ett REST API-anrop för integrering med dina externa system. Detta inkluderar även en ny <strong>test</strong>-aktivitet där du kan köra tester på den här funktionen.</p><p>Mer information hittar du i den <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">detaljerade dokumentationen</a> och <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html">instruktionsvideon</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Förbättrade landningssidor - Google reCAPTCHA<br /> </td> 
@@ -433,7 +432,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
   </tr> 
   <tr> 
    <td> Meddelanden i appar för mobiler<br /> </td> 
-   <td> <p>Den här versionen innehåller GA-versionen av kanalen i appen i Campaign. Ur funktionell synvinkel är de viktigaste tilläggen i betaversionen dynamiska rapporter för in-App-kanalen och säker handskakning mellan Mobile SDK och MCIAS (Marketing Cloud-tjänsten för meddelanden i appen som används för att skicka in appreglerna till SDK). Säker handskakning ser till att användarnas PII-data inte hamnar i orätta händer och gör det möjligt att upprätthålla användarnas sekretess på en delad enhet genom att rensa bort meddelandecache varje gång användaren loggar ut.</p><p>Mer information finns i <a href="../../channels/using/about-in-app-messaging.md">den detaljerade dokumentationen</a> och den dedikerade självstudiekursen <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html">i appen</a>.</p> </td> 
+   <td> <p>Den här versionen innehåller GA-versionen av kanalen i appen i Campaign. Ur funktionell synvinkel är de viktigaste tilläggen i betaversionen dynamiska rapporter för in-App-kanalen och säker handskakning mellan Mobile SDK och MCIAS (Marketing Cloud-tjänsten för meddelanden i appen som används för att skicka in appreglerna till SDK). Säker handskakning ser till att användarnas PII-data inte hamnar i orätta händer och gör det möjligt att upprätthålla användarnas sekretess på en delad enhet genom att rensa bort meddelandecache varje gång användaren loggar ut.</p><p>Mer information finns i <a href="../../channels/using/about-in-app-messaging.md">den detaljerade dokumentationen</a> och den dedikerade självstudiekursen <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html">i appen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Förbättrat arbetsflöde<br /> </td> 
@@ -503,7 +502,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
 * Korrigerade ett problem som kunde inträffa med PKEY-generering när utökade profilresurser användes. (CAMP-30285)
 * Ett problem som kunde inträffa med kalenderdagars trötthetsregler har korrigerats. (CAMP-30136)
 * Korrigerade ett problem som kunde inträffa vid försök att komma åt anpassade resurser med namn som slutade med &quot;Bas&quot;. (CAMP-30109)
-* Korrigerade ett problem som förhindrade att ett PATCH-anrop användes för att prenumerera på en profil för en tjänst. (CAMP-29728)
+* Korrigerade ett fel som förhindrade att ett PATCH-anrop användes för att prenumerera på en profil för en tjänst. (CAMP-29728)
 * Korrigerade ett problem som kunde skada ett arbetsflöde vid import av en XML-fil via aktiviteten Läs in fil. (CAMP-29208 och CAMP-28205)
 * Ett problem har korrigerats vid länkning av anpassade resurser som skulle kunna förhindra att omvända kardinalitetslänkar genereras. (CAMP-30476)
 * Korrigerade ett problem som förhindrade utökning av leveransloggar när endast segmentkoden användes.
@@ -538,11 +537,11 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
      <li> Möjligheten att <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">hämta innehåll från en URL automatiskt vid förberedelsetiden</a> </li> 
      <li> Helt kompatibla <a href="../../designing/using/using-reusable-content.md#content-templates">färdiga innehållsmallar</a>. </li> 
     </ul> 
-    <p>Mer information hittar du i den <a href="../../designing/using/designing-content-in-adobe-campaign.md">detaljerade dokumentationen</a> och <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">instruktionsvideon</a>. Förbättringar och korrigeringar visas nedan.</p><p>Därför är den äldre redigeraren för e-postinnehåll nu föråldrad. Mer information finns på den här <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">sidan</a>.</p> </td> 
+    <p>Mer information hittar du i den <a href="../../designing/using/designing-content-in-adobe-campaign.md">detaljerade dokumentationen</a> och <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">instruktionsvideon</a>. Förbättringar och korrigeringar visas nedan.</p><p>Därför är den äldre redigeraren för e-postinnehåll nu föråldrad. Mer information finns på den här <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">sidan</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Produktlistor i transaktionsmejl<br /> </td> 
-   <td> <p>Du kan nu referera till en eller flera produktsamlingar i ett transaktionsmejl. Du kan till exempel automatiskt skicka ett e-postmeddelande med en lista över alla produkter som fanns i användarens kundvagn med en bild, ett pris och en länk till varje produkt.</p><p>Mer information hittar du i den <a href="../../designing/using/using-product-listings.md">detaljerade dokumentationen</a> och <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">instruktionsvideon</a>.</p> </td> 
+   <td> <p>Du kan nu referera till en eller flera produktsamlingar i ett transaktionsmejl. Du kan till exempel automatiskt skicka ett e-postmeddelande med en lista över alla produkter som fanns i användarens kundvagn med en bild, ett pris och en länk till varje produkt.</p><p>Mer information hittar du i den <a href="../../designing/using/using-product-listings.md">detaljerade dokumentationen</a> och <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">instruktionsvideon</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Mobilvy i e-postdesignern<br /> </td> 
@@ -621,4 +620,3 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
 * Sändningsgenomströmningen har förbättrats och stabiliserats för SMS-meddelanden.
 * Ett problem som gjorde att tecknet &quot;~&quot; inte kunde användas i ett SMS-meddelande har korrigerats. (CAMP-29172)
 * Korrigerade ett fel i leveranser med alternativet för optimering av sändningstid. (CAMP-29231)
-
