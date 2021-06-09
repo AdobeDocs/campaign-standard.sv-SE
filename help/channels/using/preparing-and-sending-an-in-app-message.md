@@ -7,16 +7,15 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,triggers,back;deliveryCreation,wizard
-feature: In App
+feature: I appen
 role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
+source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1272'
 ht-degree: 98%
 
 ---
-
 
 # Förbereda och skicka ett meddelande i appen{#preparing-and-sending-an-in-app-message}
 
@@ -99,7 +98,7 @@ Stegen för att skapa ett fristående meddelande i appen med Adobe Campaign är 
 
    * **[!UICONTROL Life Cycle events]**: Körklara livscykelhändelser som stöds av Adobe Mobile SDK.
 
-      Mer information om livscykelhändelser finns på den här [sidan](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html).
+      Mer information om livscykelhändelser finns på den här [sidan](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html).
 
    * **[!UICONTROL Analytics Events]**: Följande tre kategorier stöds beroende på vad som finns i din mobilapp: Adobe Analytics, Kontextdata eller Vytillstånd.
 
@@ -118,7 +117,7 @@ Stegen för att skapa ett fristående meddelande i appen med Adobe Campaign är 
 
 1. Om du använder en **[!UICONTROL Places]**-utlösare fylls Placerar kontextdata, Placerar anpassade metadata eller Placerar händelsetyp automatiskt i baserat på alla bibliotek och deras intressepunkter som skapats i Adobe Places.
 
-   Observera att den här utlösaren endast används på enheten för de intressepunkter från biblioteken som valts i Places-tillägget i Experience Platform Launch. Mer information om tillägget-tillägget och hur du installerar det finns i den här [dokumentationen](https://docs.adobe.com/content/help/sv-SE/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
+   Observera att den här utlösaren endast används på enheten för de intressepunkter från biblioteken som valts i Places-tillägget i Experience Platform Launch. Mer information om tillägget-tillägget och hur du installerar det finns i den här [dokumentationen](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
 
 1. På fliken **[!UICONTROL Frequency & duration]** väljer du frekvens för utlösaren, start- och slutdatum, veckodag och tidpunkt på dagen då ditt Meddelande i appen ska vara aktivt.
 
