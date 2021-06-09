@@ -7,17 +7,16 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-feature: Microsoft CRM Integration
+feature: Microsoft CRM-integrering
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 2f6c5cc6-0634-4418-a2ee-e1c133d9cbd2
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '390'
 ht-degree: 3%
 
 ---
-
 
 # Hantera Adobe Experience Platform-målgrupper {#about-audiences}
 
@@ -53,7 +52,7 @@ Så här skapar du en Adobe Experience Platform-publik direkt i Campaign Standar
 
 1. För att kunna skapa ett segment måste du välja en **sammanfogningsprincip** som matchar ditt marknadsföringssyfte för det här segmentet.
 
-   I inställningsfönstret är en standardprincip för sammanfogning av plattform vald. Mer information om kopplingsprofiler finns i det dedikerade avsnittet i [användarhandboken för Segment Builder](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
+   I inställningsfönstret är en standardprincip för sammanfogning av plattform vald. Mer information om kopplingsprofiler finns i det dedikerade avsnittet i [användarhandboken för Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
