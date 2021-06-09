@@ -6,17 +6,16 @@ description: 'Lär dig hur du konfigurerar Adobe Experience Cloud Triggers-integ
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-feature: Triggers
+feature: Utlösare
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '859'
+ht-degree: 7%
 
 ---
-
 
 # Konfigurera utlösare i Experience Cloud{#configuring-triggers-in-experience-cloud}
 
@@ -98,7 +97,7 @@ En Adobe Experience Cloud-utlösare måste skapas så att du kan använda den i 
 
 Skapa en ny utlösare i Experience Cloud och se till att du väljer den rapportsvit som används på webbplatsen. Se till att du väljer rätt dimension så att utlösaren aktiveras.
 
-Läs [Adobe Experience Cloud-dokumentationen](https://docs.adobe.com/content/help/sv-SE/core-services/interface/activation/triggers.html) och se den här [videon](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
+Läs [Adobe Experience Cloud-dokumentationen](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html) och se den här [videon](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
 
 ## Utlöser bästa praxis och begränsningar {#triggers-best-practices-and-limitations}
 
@@ -115,4 +114,3 @@ Här följer en lista över bästa praxis och begränsningar för användningen 
 >[!CAUTION]
 >
 >Webbplatsen måste köras på samma domän som Adobe Campaign-servern. Annars kan du inte använda besökar-ID för att stämma av och nå ut till användare som besöker webbplatsen anonymt.
-
