@@ -6,17 +6,16 @@ description: Tack vare integreringen med Adobe Experience Manager kan du skapa f
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
-feature: Triggers
+feature: Utlösare
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 61683639-3f71-4652-a138-acfc0e91e868
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 11%
+source-wordcount: '182'
+ht-degree: 12%
 
 ---
-
 
 # Skapa ett Campaign-formulär i Experience Manager {#creating-a-campaign-form-in-experience-manager}
 
@@ -41,4 +40,4 @@ Så här skapar du ett Adobe Campaign-formulär på din AEM webbplats:
 1. Redigera innehållet i formuläret genom att lägga till olika fält och komponenter som du kan mappa till databasfälten i Adobe Campaign.
 1. Testa och publicera formuläret så att det blir tillgängligt på din AEM webbplats.
 
-Mer information finns i den [detaljerade dokumentationen](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html).
+Mer information finns i den [detaljerade dokumentationen](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html).
