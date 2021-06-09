@@ -6,17 +6,16 @@ description: 'Lär dig hur du konfigurerar integreringen av bastjänsterna mella
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-feature: People Core Service Integration
+feature: Integrering av tjänsten People Core
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '721'
 ht-degree: 9%
 
 ---
-
 
 # Etablering och konfigurering av integration med Audience Manager eller People Core Service{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
 
@@ -131,6 +130,6 @@ Här måste du se till att Campaign Tracking Server är registrerad på domänen
 
 ### Steg 4: Konfigurera besökar-ID-tjänsten {#step-4--configure-the-visitor-id-service}
 
-Om din Visitor ID-tjänst aldrig har konfigurerats på dina webbegenskaper eller webbplatser kan du läsa följande [dokument](https://docs.adobe.com/content/help/en/id-service/using/implementation/setup-aam-analytics.html) och lära dig hur du konfigurerar tjänsten eller följande [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
+Om din Visitor ID-tjänst aldrig har konfigurerats på dina webbegenskaper eller webbplatser kan du läsa följande [dokument](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html) och lära dig hur du konfigurerar tjänsten eller följande [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
 
 Din konfiguration och etablering är färdiga, och integreringen kan nu användas för att importera och exportera målgrupper eller segment.
