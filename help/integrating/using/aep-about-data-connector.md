@@ -6,17 +6,16 @@ description: Hantera XDM-scheman för att göra Campaign Standarden tillgänglig
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Microsoft CRM Integration
+feature: Microsoft CRM-integrering
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: f4fcf256-e030-4d7b-b4b7-2448acc2ae1c
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 5%
+source-wordcount: '774'
+ht-degree: 4%
 
 ---
-
 
 # Om Adobe Experience Platform Data Connector {#about-aep-data-connector}
 
@@ -39,15 +38,15 @@ I följande avsnitt beskrivs de viktigaste stegen för att utföra en datamappni
 >
 >Detta kan göras antingen via API:erna eller Adobe Experience Platform-gränssnittet. Mer information finns i de dedikerade dokumenten:
 >
->* [Aktivera en datauppsättning för kundprofil i realtid](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/datasets/dataset.html)
->* [Konfigurera en datauppsättning för kundprofil och identitetstjänst i realtid med API:er](https://docs.adobe.com/content/help/en/experience-platform/catalog/api/getting-started.html)
+>* [Aktivera en datauppsättning för kundprofil i realtid](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html)
+>* [Konfigurera en datauppsättning för kundprofil och identitetstjänst i realtid med API:er](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html)
 
 
 ## Viktiga begrepp {#key-concepts}
 
 * Utanför rutan är mappning bara tillgängligt för fält som anges i Campaign Standard som standard. För att kunna inhämta alla anpassade fält och resurser måste varje kund definiera sin egen mappning.
 
-* Adobe Experience Platform Data Connector skickar profildata via plattformen med regelbundna intervall. &#x200B; Intervallets varaktighet är 15 minuter. Det här värdet kan ändras med [Adobe Experience Platform API:er](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html).
+* Adobe Experience Platform Data Connector skickar profildata via plattformen med regelbundna intervall. &#x200B; Intervallets varaktighet är 15 minuter. Det här värdet kan ändras med [Adobe Experience Platform API:er](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html).
 
 * Datateknikern kan publicera, ändra och pausa mappningen från Campaign till Adobe Experience Platform.
 
@@ -61,7 +60,7 @@ I följande avsnitt beskrivs de viktigaste stegen för att utföra en datamappni
 
 * Experience Cloud ID-tjänsten (ECID) är en enhetsidentifierare som skickas som standard med Experience Events.
 
-   Det är ett unikt och beständigt ID som tilldelats en besökare och som kan användas av Platform Identity Service för att identifiera samma besökare och deras data i olika Experience Cloud-lösningar. Mer information finns i [Hjälp om identitetstjänsten för Experience Cloud](https://docs.adobe.com/content/help/en/id-service/using/home.html).
+   Det är ett unikt och beständigt ID som tilldelats en besökare och som kan användas av Platform Identity Service för att identifiera samma besökare och deras data i olika Experience Cloud-lösningar. Mer information finns i [Hjälp om identitetstjänsten för Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 
    >[!NOTE]
    >
@@ -71,7 +70,7 @@ I följande avsnitt beskrivs de viktigaste stegen för att utföra en datamappni
 
 * Det går inte att överföra prenumerationshändelser direkt. Om du vill överföra prenumerationshändelser kan du skapa motsvarande XDM och datauppsättning på Adobe Experience Platform och sedan konfigurera en anpassad datamappning för dessa data.
 
-* När det gäller sekretessförfrågningar (både åtkomst- och borttagningsåtgärder) måste kunderna göra separata förfrågningar via [kärntjänsten för sekretess](https://docs.adobe.com/content/help/en/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests): en för Campaign och en för Adobe Experience Platform. Mer information finns i [Om sekretessförfrågningar](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=sv#getting-started) och [Hantera sekretessförfrågningar](https://helpx.adobe.com/se/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) i Campaign.
+* När det gäller sekretessförfrågningar (både åtkomst- och borttagningsåtgärder) måste kunderna göra separata förfrågningar via [kärntjänsten för sekretess](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests): en för Campaign och en för Adobe Experience Platform. Mer information finns i [Om sekretessförfrågningar](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=sv#getting-started) och [Hantera sekretessförfrågningar](https://helpx.adobe.com/se/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) i Campaign.
 
 * För varje XDM-fält måste DULE-etiketteringen göras i Adobe Experience Platform. Det är kundens ansvar att använda DULE-etiketter.
 
@@ -79,10 +78,10 @@ I följande avsnitt beskrivs de viktigaste stegen för att utföra en datamappni
 
 * Var 15:e minut körs batchjobbet och identifierar de poster som har ändrats sedan den senaste batchen. Om alla poster ändras vid samma tidsstämpel kan det uppstå en flaskhals i prestandan för att hantera åtkomsten till alla profiler
 
-## Självstudievideo {#video}
+## Videokurs {#video}
 
 Den här videon ger en översikt över Adobe Experience Platform Data Connector.
 
 >[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
 
-Ytterligare videofilmer om Adobe Experience Platform Data Connector finns [här](https://docs.adobe.com/content/help/sv-SE/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html).
+Ytterligare videofilmer om Adobe Experience Platform Data Connector finns [här](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html).
