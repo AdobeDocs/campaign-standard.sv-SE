@@ -6,17 +6,16 @@ description: Lär dig hur du spårar hur leveransmottagarna fungerar.
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
-feature: Performance Monitoring
+feature: Prestandaövervakning
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: fac29bc2-57fa-40f9-a160-cd75f695b91e
+source-git-commit: 8a62ee661b77c3e3062e46477bfce5911e9415ff
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '487'
 ht-degree: 20%
 
 ---
-
 
 # Spåra meddelanden{#tracking-messages}
 
@@ -31,7 +30,7 @@ Spårningsinformation finns tillgänglig för varje kontakt i databasen till **[
 Adobe Campaign använder två typer av cookies.
 
 * En sessionscookie (nlid). Detta innehåller identifieraren för e-postmeddelandet som skickas till kontakten (broadlogId) och identifieraren för meddelandemallen (deliveryId). Den läggs till när kontakten klickar på en URL som ingår i ett e-postmeddelande som skickas av Adobe Campaign och låter dig spåra deras beteende på webben. Denna sessionscookie raderas automatiskt när webbläsaren stängs. Kontakten kan konfigurera sin webbläsare så att den inte tillåter cookies.
-* En cookie som delas mellan Adobe Experience Cloud lösningar. På så sätt kan du identifiera de användare som interagerar med Experience Cloud när de besöker en webbplats. Beskrivningen av denna cookie är tillgänglig [här](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-mc.html).
+* En cookie som delas mellan Adobe Experience Cloud lösningar. På så sätt kan du identifiera de användare som interagerar med Experience Cloud när de besöker en webbplats. Beskrivningen av denna cookie är tillgänglig [här](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html).
 
 Spårning med Adobe Campaign Standard ger åtkomst till följande funktioner:
 
