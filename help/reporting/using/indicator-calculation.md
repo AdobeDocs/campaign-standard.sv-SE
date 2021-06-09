@@ -6,17 +6,16 @@ description: Förstå resultaten av dina rapporter med en lista över varje metr
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: Reporting
+feature: Rapportering
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 47cc11d7-89e8-4d1c-9638-5f66a53cef7e
+source-git-commit: a9a91df349b107b06f229db33812a27addfb5c27
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '727'
 ht-degree: 2%
 
 ---
-
 
 # Indikatorberäkning{#indicator-calculation}
 
@@ -191,7 +190,7 @@ Tabellerna nedan visar en lista över indikatorer som används i de olika rappor
   <tr> 
    <td> Unika klick<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Unika klick beräknas med ThetaSketch-koncept. Mer information finns i det här <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exemplet</a>.<br /> </td> 
+   <td> Unika klick beräknas med ThetaSketch-koncept. Mer information finns i det här <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exemplet</a>.<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -271,7 +270,7 @@ Tabellerna nedan visar en lista över indikatorer som används i de olika rappor
   <tr> 
    <td> Unika öppningar<br /> </td> 
    <td> @uniqueopens<br /> </td> 
-   <td> Unika öppningar beräknas med ThetaSketch-koncept för unika RecipientIds. Mer information finns i det här <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exemplet</a>.<br /> </td> 
+   <td> Unika öppningar beräknas med ThetaSketch-koncept för unika RecipientIds. Mer information finns i det här <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exemplet</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Impressions<br /> </td> 
@@ -291,7 +290,7 @@ Tabellerna nedan visar en lista över indikatorer som används i de olika rappor
   <tr> 
    <td> Unika klick<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Unika klick beräknas med ThetaSketch-koncept. Mer information finns i det här <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exemplet</a>.<br /> </td> 
+   <td> Unika klick beräknas med ThetaSketch-koncept. Mer information finns i det här <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exemplet</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Klicka igenom hastigheten<br /> </td> 
@@ -375,4 +374,3 @@ Tabellerna nedan visar en lista över indikatorer som används i de olika rappor
   </tr> 
  </tbody> 
 </table>
-
