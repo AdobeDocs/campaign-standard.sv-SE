@@ -6,23 +6,22 @@ description: Lär dig hur du importerar eller exporterar målgrupper inom olika 
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-feature: People Core Service Integration
+feature: Integrering av tjänsten People Core
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b0d063de-863c-42e7-98dd-c4c86da3281e
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '805'
 ht-degree: 2%
 
 ---
-
 
 # Dela målgrupper med Audience Manager eller People Core Service{#sharing-audiences-with-audience-manager-or-people-core-service}
 
 ## Importera en målgrupp {#importing-an-audience}
 
-Integrering med Bastjänst för människor gör det möjligt att direkt importera en målgrupp till Adobe Campaign via ett tekniskt arbetsflöde som berikar databasen. Mer information om målgruppsdelning i personbastjänsten finns i denna [dokumentation](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
+Integrering med Bastjänst för människor gör det möjligt att direkt importera en målgrupp till Adobe Campaign via ett tekniskt arbetsflöde som berikar databasen. Mer information om målgruppsdelning i personbastjänsten finns i denna [dokumentation](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
 
 Import av målgrupper/segment från personbastjänsten i Adobe Campaign kan endast utföras från **[!UICONTROL Audiences]**-menyn av användare som är anslutna via IMS (autentisering via Adobe ID).
 
@@ -48,7 +47,7 @@ Din målgrupp importeras nu i din Adobe Campaign-databas. Det tar 24-36 timmar a
 
 >[!NOTE]
 >
->Om du importerar målgrupper från Adobe Analytics till Adobe Campaign måste dessa målgrupper först delas i People Core Service eller Audience Manager. Den här processen tar 12-24 timmar, vilket måste läggas till i synkroniseringen av 24-36 timmar med Campaign. I det specifika fallet kan tidsramen för målgruppsdelning vara upp till 60 timmar. Mer information om Adobe Analytics målgruppsdelning i tjänsten People Core och Audience Manager finns i denna [dokumentation](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
+>Om du importerar målgrupper från Adobe Analytics till Adobe Campaign måste dessa målgrupper först delas i People Core Service eller Audience Manager. Den här processen tar 12-24 timmar, vilket måste läggas till i synkroniseringen av 24-36 timmar med Campaign. I det specifika fallet kan tidsramen för målgruppsdelning vara upp till 60 timmar. Mer information om Adobe Analytics målgruppsdelning i tjänsten People Core och Audience Manager finns i denna [dokumentation](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
 
 ## Exportera en målgrupp {#exporting-an-audience}
 
@@ -78,10 +77,9 @@ Den kan utföras i ett nytt arbetsflöde och endast av användare som är anslut
 1. Bekräfta aktivitetens konfiguration och spara arbetsflödet.
 1. Starta arbetsflödet för att exportera målgrupper. Synkronisering mellan Adobe Campaign och People Core Service kan ta flera timmar
 
-Synkronisering mellan Adobe Campaign och People Core Service tar 24-36 timmar. Efter den här perioden kan du hitta din nya målgrupp i bastjänsten People och återanvända den i andra Adobe Experience Cloud-lösningar. Mer information om hur du använder en delad målgrupp från Adobe Campaign i Adobe People finns i denna [dokumentation](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-audience-create.html).
+Synkronisering mellan Adobe Campaign och People Core Service tar 24-36 timmar. Efter den här perioden kan du hitta din nya målgrupp i bastjänsten People och återanvända den i andra Adobe Experience Cloud-lösningar. Mer information om hur du använder en delad målgrupp från Adobe Campaign i Adobe People finns i denna [dokumentation](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-audience-create.html).
 
 **Relaterade ämnen:**
 
 * [Arbetsflöden](../../automating/using/get-started-workflows.md)
-* [Publiker](../../audiences/using/about-audiences.md)
-
+* [Målgrupper](../../audiences/using/about-audiences.md)
