@@ -1,15 +1,14 @@
 ---
-source-git-commit: f803261eb3f0317e8876efea4c20e2f6f357ae40
-workflow-type: ht
-translation-type: ht
-source-wordcount: '63'
-ht-degree: 100%
+source-git-commit: b3d18858ec7f5206410f9b39a2fa5ad894921a60
+workflow-type: tm+mt
+source-wordcount: '59'
+ht-degree: 89%
 
 ---
 # Välkommen!
 
-Det här projektet innehåller teknisk dokumentation om Campaign Standard. Du kommer åt det online [här](https://docs.adobe.com/content/help/sv-SE/campaign-standard/using/campaign-standard-home.html).
+Det här projektet innehåller teknisk dokumentation om Campaign Standard. Du kommer åt det online [här](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=sv).
 
 Mer information om felsökning, tips och bästa praxis finns i våra [Tekniska anteckningar](https://helpx.adobe.com/se/campaign/kb/acs-article-list.html).
 
-Se [våra självstudiekurser](https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/tutorials/overview.html) för videor om funktionerna i Adobe Campaign Standard.
+Se [våra självstudiekurser](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html) för videor om funktionerna i Adobe Campaign Standard.
