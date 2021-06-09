@@ -8,9 +8,9 @@ feature: Översikt
 role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 105bc765f658cab39ec2628e39d51426005da6bd
-workflow-type: ht
-source-wordcount: '239'
+source-git-commit: 92860772ba1ef7ff1503831f05c69d540851258f
+workflow-type: tm+mt
+source-wordcount: '237'
 ht-degree: 100%
 
 ---
@@ -79,7 +79,7 @@ Läs mer om allmänna riktlinjer för mobila leveranser (SMS, push och i appen)
 | Användbara sidor | Resurser för utvecklare |
 |---|---|
 | [Versionsinformation](rn/using/release-notes.md) | [Experience Cloud-utlösare](integrating/using/about-adobe-experience-cloud-triggers.md) |
-| [Dokumentation för kontrollpanelen](https://docs.adobe.com/content/help/sv-SE/control-panel/using/control-panel-home.html) | [Kampanj-API:er](api/using/get-started-apis.md) |
+| [Dokumentation för kontrollpanelen](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=sv) | [Kampanj-API:er](api/using/get-started-apis.md) |
 | [Implementeringsguide](https://helpx.adobe.com/se/campaign/kb/campaign-standard-implementation-guide.html) | [Lista över felmeddelanden](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Versionsplanering](rn/using/release-planning.md) | [Campaign-datamodell](developing/using/datamodel-introduction.md) |
 | [Inaktuella och borttagna funktioner](rn/using/deprecated-features.md) | [Guide för flera lösningar](integrating/using/get-started-campaign-integrations.md) |
