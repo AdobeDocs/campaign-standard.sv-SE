@@ -6,17 +6,16 @@ description: Den här sidan innehåller alla 2017-versioner av Adobe Campaign St
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Overview
+feature: Översikt
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 274a9db2061f78dae9e31790629485d0411d83fb
+exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
+source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
 workflow-type: tm+mt
-source-wordcount: '4631'
+source-wordcount: '4624'
 ht-degree: 8%
 
 ---
-
 
 # Versionsinformation 2017{#release-notes}
 
@@ -330,7 +329,7 @@ _Push-meddelanden_
   </tr> 
   <tr> 
    <td> Integrering med Dreamweaver live<br /> </td> 
-   <td> Integrationen mellan Adobe Campaign och Dreamweaver är nu klar. Det fungerar nu med den senaste officiella versionen av Dreamweaver (17.0.2).<br /> Detta kräver installation av Adobe Campaign Integration-tillägget härifrån:  <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_</a><br /> addonMer information finns i den här  <a href="https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html">videon</a>.<br /> </td> 
+   <td> Integrationen mellan Adobe Campaign och Dreamweaver är nu klar. Det fungerar nu med den senaste officiella versionen av Dreamweaver (17.0.2).<br /> Detta kräver installation av Adobe Campaign Integration-tillägget härifrån:  <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_</a><br /> addonMer information finns i den här  <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">videon</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -403,7 +402,7 @@ _Push-meddelanden_
   </tr> 
   <tr> 
    <td> Dreamweaver-integrering (Labs)<br /> </td> 
-   <td> Tack vare integreringen med Adobe Campaign och Dreamweaver har ni nu en integrerad process för att skapa e-postkampanjer med Adobe-lösningar.<br /> Du kan redigera Adobe Campaign-e-post i Dreamweaver och synkronisera innehållet sömlöst mellan båda lösningarna.<br /> I den första versionen finns integreringen som en"Labs"-funktion och fungerar endast med betaversionen av Dreamweaver Pre Release. Om du vill aktivera den kan du kontakta AC-DW-integration@adobe.com.<br /> Mer information finns i den här  <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">videon</a>.<br /> </td> 
+   <td> Tack vare integreringen med Adobe Campaign och Dreamweaver har ni nu en integrerad process för att skapa e-postkampanjer med Adobe-lösningar.<br /> Du kan redigera Adobe Campaign-e-post i Dreamweaver och synkronisera innehållet sömlöst mellan båda lösningarna.<br /> I den första versionen finns integreringen som en"Labs"-funktion och fungerar endast med betaversionen av Dreamweaver Pre Release. Om du vill aktivera den kan du kontakta AC-DW-integration@adobe.com.<br /> Mer information finns i den här  <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">videon</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Manuell optimering av sändningstid<br /> </td> 
@@ -543,4 +542,3 @@ _Integreringar_
 * Korrigerade ett problem som kan ha orsakat ett fel när en händelseutlösare distribuerades i Adobe Campaign. Det här felet uppstod när metadata för Sannolikhet att returneras om 30 dagar hade lagts till i utlösaren för övergivande i Adobe Marketing Cloud.
 * Korrigerade ett problem som kan ha gjort att det tekniska arbetsflödet rensade fältet Mål-Dimension när målgrupper importerades från huvudtjänsten Personer. Efterföljande frågor kunde inte hämta de importerade målgrupperna.
 * Korrigerade ett problem som kan ha gjort att aktiviteten **[!UICONTROL Save audience]** i ett arbetsflöde misslyckades när alternativet **[!UICONTROL Share in Adobe Marketing Cloud]** markerades.
-
