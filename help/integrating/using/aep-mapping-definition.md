@@ -6,17 +6,16 @@ description: Lär dig hur du mappar ett fält för Campaign Standard med ett XDM
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Microsoft CRM Integration
+feature: Microsoft CRM-integrering
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6383ddbe-922a-4363-a1da-166cf717b0dd
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 2%
+source-wordcount: '498'
+ht-degree: 0%
 
 ---
-
 
 # Mappningsdefinition {#mapping-definition}
 
@@ -44,7 +43,7 @@ För att kunna utföra den här uppgiften måste du:
 
 >[!NOTE]
 >
->För att en batch ska kunna hämtas till kundprofil eller identitetstjänst i realtid måste datamängden vara [aktiverad för kundprofil i realtid](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/intro/get-started.html).
+>För att en batch ska kunna hämtas till kundprofil eller identitetstjänst i realtid måste datamängden vara [aktiverad för kundprofil i realtid](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html).
 >
 >Om den datauppsättning du väljer redan används i en befintlig datamappning visas en varning om att dina data kan skrivas över på Adobe Experience Platform. Detta kan inträffa när det finns vissa vanliga mottagare i datamappningar som använder samma datamängd.
 
@@ -64,7 +63,7 @@ De utökade resurser som definieras i Campaign Standarden mappas som alla inbygg
 
 Du kan anpassa XDM-tillägget via API:t och definiera ett eget tillägg så att du får bättre kontroll över mappningen.
 
-Mer information om XDM API finns i [API-självstudiekursen för schemaregistret](https://docs.adobe.com/content/help/sv-SE/experience-platform/xdm/api/getting-started.html).
+Mer information om XDM API finns i [API-självstudiekursen för schemaregistret](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
 
 Om du vill mappa ett uppräkningsfält måste du använda uttrycksredigeraren för att definiera varje uppräkningsvärde som motsvarar XDM-värdet. Fältet för postadress måste till exempel definieras som:
 
