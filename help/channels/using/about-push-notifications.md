@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Push
+feature: Tryck
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
+source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1279'
 ht-degree: 50%
 
 ---
-
 
 # Om push-meddelanden{#about-push-notifications}
 
@@ -56,7 +55,7 @@ Om du är en expertanvändare och vill definiera de specifika konfigurationerna,
 * [Rapport om push-meddelanden](../../reporting/using/push-notification-report.md)
 * [Guide för Campaign Standard Mobile](https://helpx.adobe.com/se/campaign/kb/acs-mobile.html)
 
-## Förutsättningar {#prerequisites}
+## Förhandskrav {#prerequisites}
 
 >[!NOTE]
 >Om du vill använda funktionen för push-meddelanden från Kampanjer så måste du tillhandahålla ett giltigt push-certifikat i .pem-format utan lösenord.
@@ -85,7 +84,7 @@ Innan du skickar ett push-meddelanden bör du:
 
 Läs resurserna nedan:
 
-* [Video Tutorials](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
+* [Självstudiekurser via video](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
 * [Produktdokumentation](../../channels/using/about-push-notifications.md)
 * Konfigurera med AEP SDK [dokumentation](../../administration/using/configuring-a-mobile-application.md)
 * [Community-sida](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
