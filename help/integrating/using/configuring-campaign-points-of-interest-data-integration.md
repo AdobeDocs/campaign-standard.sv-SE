@@ -6,17 +6,16 @@ description: Lär dig hur du konfigurerar datapunkter i Adobe Campaign för att 
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
-feature: Audiences
+feature: Målgrupper
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1329'
 ht-degree: 3%
 
 ---
-
 
 # Konfigurera Campaign-Points of Interest-dataintegration{#configuring-campaign-points-of-interest-data-integration}
 
@@ -30,14 +29,14 @@ De mobilprogram som används för att samla in platsdata måste konfigureras av 
 
 För att kunna använda Adobe Experience Platform Location Services med mobilprogram som konfigurerats med Adobe Experience Platform SDK måste du:
 
-1. Lägg till tilläggen **[!UICONTROL Places]** och **[!UICONTROL Places Monitor]** i din mobilappskonfiguration i Adobe Experience Platform Launch. Konfigurera mobilappen i Adobe Campaign. Se [Installera tillägget Platser i Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch) och [Installera tillägget Platsövervakare i Experience Platform Launch](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html#install-the-places-monitor-extension-in-experience-platform-launch).
+1. Lägg till tilläggen **[!UICONTROL Places]** och **[!UICONTROL Places Monitor]** i din mobilappskonfiguration i Adobe Experience Platform Launch. Konfigurera mobilappen i Adobe Campaign. Se [Installera tillägget Platser i Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch) och [Installera tillägget Platsövervakare i Experience Platform Launch](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html#install-the-places-monitor-extension-in-experience-platform-launch).
 
 1. När du har konfigurerat tilläggen skapar du dataelement i **[!UICONTROL Adobe Experience Platform Launch]** för att hämta data från tilläggen. Se den här [sidan](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) för att skapa dataelement.
 
 1. I **[!UICONTROL Adobe Experience Platform Launch]** måste du sedan skapa regler som har stöd för mobilanvändning mellan Point of Intresses och Adobe Campaign.\
    Den här regeln aktiveras när en användare går in i ett geofenat **[!UICONTROL Point of Interest]**. Se den här [sidan](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback) för att skapa din regel.
 
-1. Definiera din **[!UICONTROL Points of Interest]** på platser. Se [Skapa en intressepunkt](https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/create-a-poi-ui.html).
+1. Definiera din **[!UICONTROL Points of Interest]** på platser. Se [Skapa en intressepunkt](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/create-a-poi-ui.html).
 
 1. Se till att du har tillgång till mobilprogrammet och insamlade platsdata i Adobe Campaign. Se [Åtkomst till mobilappar som används för att samla in platsdata](#accessing-mobile-apps-used-to-collect-location-data) och [Åtkomst till insamlade platsdata](#accessing-collected-location-data).
 
@@ -165,7 +164,7 @@ Du måste ha tillgång till Adobe Analytics för att kunna göra följande konfi
 
 >[!NOTE]
 >
->Mer information om hur du konfigurerar återanslående finns i [dokumentationen för Adobe Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html).
+>Mer information om hur du konfigurerar återanslående finns i [dokumentationen för Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html).
 
 ### Integrera SDK i ett mobilprogram {#integrating-the-sdk-into-a-mobile-application}
 
@@ -180,11 +179,11 @@ Så här definierar du de intressepunkter som används för att samla in platsda
 1. Gå till gränssnittet Adobe Mobile Services.
 1. Lägg till programmet.
 
-   Mer information om hur du hanterar program i mobiltjänster finns i [Adobe Mobile Services-dokumentationen](https://docs.adobe.com/content/help/en/mobile-services/using/manage-apps-ug/t-new-app.html).
+   Mer information om hur du hanterar program i mobiltjänster finns i [Adobe Mobile Services-dokumentationen](https://experienceleague.adobe.com/docs/mobile-services/using/manage-apps-ug/t-new-app.html).
 
 1. Definiera intressepunkterna.
 
-   Mer information om hur du hanterar intressepunkter finns i [Adobe Mobile Services-dokumentationen](https://docs.adobe.com/content/help/en/mobile-services/using/location-ug/t-manage-points.html).
+   Mer information om hur du hanterar intressepunkter finns i [Adobe Mobile Services-dokumentationen](https://experienceleague.adobe.com/docs/mobile-services/using/location-ug/t-manage-points.html).
 
 ### Samla in information om abonnenternas intressepunkter {#collecting-subscribers--points-of-interest-data}
 
