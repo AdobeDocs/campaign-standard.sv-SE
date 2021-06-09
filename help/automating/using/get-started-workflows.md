@@ -6,17 +6,16 @@ description: Automatisera processerna med arbetsflöden, hantera data och målgr
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-feature: Workflows
+feature: Arbetsflöden
 role: Data Architect
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 26be942a-c252-458f-a590-eb235567ca67
+source-git-commit: 7808aea42f417994a61fdde84a44299c0954b346
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 11%
+source-wordcount: '518'
+ht-degree: 13%
 
 ---
-
 
 # Kom igång med processer och datahantering {#get-started-processes-data-management}
 
@@ -51,7 +50,7 @@ Med [datahanteringsaktiviteter](../../automating/using/about-data-management-act
 
 Läs mer:
 
-* [Bygga ett arbetsflöde](../../automating/using/building-a-workflow.md)
+* [Skapa ett arbetsflöde](../../automating/using/building-a-workflow.md)
 * [Köra ett arbetsflöde](../../automating/using/about-workflow-execution.md)
 * [Bästa praxis för arbetsflöden](../../automating/using/best-practices-workflows.md)
 
@@ -92,6 +91,6 @@ Läs mer:
 
 ## Ytterligare resurser
 
-* [Självstudievideor om processer och datahantering](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/getting-started/create-workflow.html)
+* [Självstudievideor om processer och datahantering](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/managing-processes-and-data/creating-a-workflow.html?lang=sv)
 * [Tekniska arbetsflöden](../../administration/using/technical-workflows.md)
 * [Kom igång med Campaign Standard-datamodellen](../../developing/using/get-started-data-model.md)
