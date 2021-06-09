@@ -6,17 +6,16 @@ description: Lär dig hur du hanterar krypterade data.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-feature: Workflows
+feature: Arbetsflöden
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
+source-git-commit: 05e7de6d59420f532e0095ddb1fd7f158519518b
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 5%
+source-wordcount: '925'
+ht-degree: 4%
 
 ---
-
 
 # Hantera krypterade data {#managing-encrypted-data}
 
@@ -24,7 +23,7 @@ ht-degree: 5%
 
 I vissa fall kan data som du vill importera Campaign-servrar behöva krypteras, till exempel om de innehåller PII-data.
 
-För att kunna kryptera utgående data eller dekryptera inkommande data måste du hantera GPG-nycklar med hjälp av [Kontrollpanelen](https://docs.adobe.com/content/help/sv-SE/control-panel/using/instances-settings/gpg-keys-management.html).
+För att kunna kryptera utgående data eller dekryptera inkommande data måste du hantera GPG-nycklar med hjälp av [Kontrollpanelen](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html).
 
 >[!NOTE]
 >
@@ -52,7 +51,7 @@ I det här fallet skapar vi ett arbetsflöde för att importera data som har kry
 
 Så här utför du det här användningsfallet:
 
-1. Använd Kontrollpanelen för att generera ett nyckelpar (public/private). Detaljerade steg finns i [dokumentationen till kontrollpanelen](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data).
+1. Använd Kontrollpanelen för att generera ett nyckelpar (public/private). Detaljerade steg finns i [dokumentationen till kontrollpanelen](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data).
 
    * Den offentliga nyckeln delas med det externa systemet, som kommer att använda den för att kryptera data som ska skickas till Campaign.
    * Den privata nyckeln används av Campaign för att dekryptera inkommande krypterade data.
@@ -96,7 +95,7 @@ I det här fallet skapar vi ett arbetsflöde för att kryptera och exportera dat
 
 Så här utför du det här användningsfallet:
 
-1. Generera ett GPG-nyckelpar (public/private) med ett GPG-verktyg och installera sedan den offentliga nyckeln på Kontrollpanelen. Detaljerade steg finns i [dokumentationen till kontrollpanelen](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
+1. Generera ett GPG-nyckelpar (public/private) med ett GPG-verktyg och installera sedan den offentliga nyckeln på Kontrollpanelen. Detaljerade steg finns i [dokumentationen till kontrollpanelen](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
 
    ![](assets/gpg_install.png)
 
