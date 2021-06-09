@@ -10,10 +10,10 @@ feature: Översikt
 role: Business Practitioner
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: ec0dc31e39424a540ca71ff15355814c0e79a283
+source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
 workflow-type: tm+mt
-source-wordcount: '6866'
-ht-degree: 99%
+source-wordcount: '6852'
+ht-degree: 98%
 
 ---
 
@@ -330,7 +330,7 @@ Ett nytt användningsexempel har lagts till som beskriver hur du skapar en kontr
 
 Information om landningssidornas egenskaper har flyttats till ett dedikerat avsnitt. [Läs mer](../../channels/using/configuring-landing-page.md)
 
-Kontrollpanelens dokumentation har integrerats i den nya dokumentationsuppsättningen för samarbete. [Läs mer](https://docs.adobe.com/content/help/sv-SE/control-panel/using/control-panel-home.html)
+Kontrollpanelens dokumentation har integrerats i den nya dokumentationsuppsättningen för samarbete. [Läs mer](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=sv)
 
 Beräkningstabellen för **indikatorn** har uppdaterats. [Läs mer](../../reporting/using/indicator-calculation.md)
 
@@ -394,7 +394,7 @@ Ett nytt avsnitt med användningsexempel om arbetsflöden som fokuserar på för
 
 En procedur har lagts till i felsökningsavsnittet för arbetsflöden om hur du visar SQL-förfrågningar i fliken Logg. [Läs mer](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
-En ny hjälpartikel med information om underdomäner och certifikatshantering har lagts till i kontrollpanelen. [Läs mer](https://docs.adobe.com/content/help/sv-SE/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
+En ny hjälpartikel med information om underdomäner och certifikatshantering har lagts till i kontrollpanelen. [Läs mer](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
 
 Avsnittet som beskriver innehållsmallar och fragment har uppdaterats. [Läs mer](../../designing/using/using-reusable-content.md#content-templates)
 
@@ -456,7 +456,7 @@ En varning har lagts till i dokumentationen för anpassade resurser. Vi rekommen
 
 **Nya funktioner i utgåvan**
 
-Kontrollpanelen - [läs mer](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+Kontrollpanelen - [läs mer](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 
 Lokala notifikationer - [Läs mer](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
@@ -472,7 +472,7 @@ En ny artikel om versionsplanering har publicerats för att dela kommande utgåv
 
 De sammanhangsbaserade hjälplänkarna som är tillgängliga direkt i Adobe Campaign har uppdaterats.
 
-Följande [sida](https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/tutorials/overview.html) blir den officiella videosidan för Adobe Campaign Standard.
+Följande [sida](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html) blir den officiella videosidan för Adobe Campaign Standard.
 
 Ett avsnitt om datalagring har lagts till inklusive standardvärden för kvarhållning av standardtabeller. [Läs mer](../../administration/using/data-retention.md)
 
@@ -612,7 +612,7 @@ Konfigurationen av en mobilapp med SDK V4-avsnittet har flyttats [hit](https://h
 
 Avsnittet Konfigurera en mobilapp med SDK:er för Adobe Experience Platform har flyttats [hit](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
-Videor har uppdaterats och flyttats [hit](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html).
+Videor har uppdaterats och flyttats [hit](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html).
 
 Avsnittet Typ av användare har uppdaterats. [Läs mer](../../administration/using/users-management.md)
 
@@ -960,7 +960,7 @@ Transaktionsbaserade push-meddelanden - [Läs mer](../../channels/using/transact
 
 Koppling till Amazon Simple Storage Service (S3) - [läs mer](../../administration/using/external-accounts.md)
 
-Dreamweaver-integration live - [Läs mer](https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html)
+Dreamweaver-integration live - [Läs mer](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 **Andra dokumentationsuppdateringar som medföljer utgåvan**
 
@@ -984,7 +984,7 @@ Integrationen med Adobe Analytics for Mobile (Point of Interest) har uppdaterats
 
 Dynamisk rapportering - [läs mer](../../reporting/using/about-dynamic-reports.md)
 
-Dreamweaver-integrering (Labs) - [Läs mer](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
+Dreamweaver-integrering (Labs) - [Läs mer](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 Tidsoptimering för manuell sändning - [Läs mer](../../sending/using/optimizing-the-sending-time.md)
 
