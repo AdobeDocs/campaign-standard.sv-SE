@@ -6,17 +6,16 @@ description: Tack vare integreringen med Adobe Target kan du infoga dynamiska bi
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
-feature: Triggers
+feature: Utlösare
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: e0d281f7-d522-425c-9854-894e84a0a422
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 8%
+source-wordcount: '165'
+ht-degree: 4%
 
 ---
-
 
 # Om Campaign-Target-integration{#about-campaign-target-integration}
 
@@ -30,4 +29,4 @@ Adobe Target kan använda flera typer av data:
 * Segment som är länkade till besökar-ID i Adobe Target, om de data som används inte omfattas av juridiska begränsningar
 * Adobe Target data: användaragent, IP-adress, geolokaliseringsdata
 
-Mer information om integrationen mellan Adobe Campaign och Adobe Target finns i [Adobe Target Portal](https://docs.adobe.com/content/help/sv-SE/target/using/integrate/campaign-and-target.html).
+Mer information om integrationen mellan Adobe Campaign och Adobe Target finns i [Adobe Target Portal](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html).
