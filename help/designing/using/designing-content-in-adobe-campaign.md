@@ -6,17 +6,16 @@ description: Skapa e-postinnehåll från grunden, importera HTML eller utnyttja 
 audience: designing
 content-type: reference
 topic-tags: about-content-design
-feature: Email Design
+feature: E-postdesign
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
+source-git-commit: 7133ee5561c60d795c8d396c167ea79a9266392b
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1250'
 ht-degree: 89%
 
 ---
-
 
 # E-postdesigner för kampanj{#designing-content-in-adobe-campaign}
 
@@ -165,10 +164,10 @@ Observera följande när det gäller fragment:
 * [Skapa ett SMS-meddelande](../../channels/using/creating-an-sms-message.md)
 * [Skapa och skicka ett push-meddelande](../../channels/using/preparing-and-sending-a-push-notification.md)
 
-## Självstudievideo {#video}
+## Videokurs {#video}
 
 Den här videon ger en översikt över e-postdesignern.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
-Kom igång med e-postdesignern genom att titta på den här [uppsättningen videor](https://docs.adobe.com/content/help/sv-SE/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-experience-manager/creating-email-experience-manager.html) som förklarar de allmänna funktionerna i programmet och hur du designar ett e-postmeddelande från grunden eller använder mallar
+Kom igång med e-postdesignern genom att titta på den här [uppsättningen videor](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) som förklarar de allmänna funktionerna i programmet och hur du designar ett e-postmeddelande från grunden eller använder mallar
