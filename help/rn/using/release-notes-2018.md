@@ -6,17 +6,16 @@ description: Den här sidan innehåller alla 2018-versioner av Adobe Campaign St
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Overview
+feature: Översikt
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
+source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
 workflow-type: tm+mt
-source-wordcount: '5406'
+source-wordcount: '5401'
 ht-degree: 6%
 
 ---
-
 
 # Versionsinformation 2018{#release-notes}
 
@@ -128,7 +127,7 @@ Visa de senaste [dokumentationsuppdateringarna](../../rn/using/documentation-upd
 
 **Förbättringar**
 
-* Tack vare integreringen med Adobe Campaign och Adobe Target kan du nu utnyttja Target [Permissions](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html)-funktionen. När du inkluderar en dynamisk bild från Adobe Target i ett e-postmeddelande kan du nu ange en målegenskap (at_property-kod).
+* Tack vare integreringen med Adobe Campaign och Adobe Target kan du nu utnyttja Target [Permissions](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html)-funktionen. När du inkluderar en dynamisk bild från Adobe Target i ett e-postmeddelande kan du nu ange en målegenskap (at_property-kod).
 * Anpassade resurser som har en egen kopieringslänk till profilresursen beaktas nu av förfrågningar om åtkomst/borttagning av sekretess i GDPR. För 1 enkel kardinalitetslänkar och N kardinalitetssamlingslänkar måste du välja&quot;Att ta bort/duplicera målposten innebär att de poster som länken refererar till tas bort/dupliceras&quot; i den anpassade resursen. För enkla länkar med 0 eller 1 kardinalitet väljer du&quot;Om du tar bort/duplicerar posten innebär det att målposten som länken refererar till tas bort/dupliceras&quot;.
 
 **Andra ändringar**
@@ -526,4 +525,3 @@ _Profiler och målgrupper_
 * Ett verktygstips med det exakta resultatnumret har lagts till efter att en frågas fyllning har räknats.
 * Korrigerade ett problem som kunde hindra en användare från att välja en målgrupp eller stänga målgruppsväljarfönstret.
 * Listan med tillgängliga funktioner i uttrycksredigeraren har uppdaterats. Funktionerna **FormatCurrency** och **ConvertCurrency** har tagits bort.
-
