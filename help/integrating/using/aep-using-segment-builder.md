@@ -7,17 +7,16 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-feature: Microsoft CRM Integration
+feature: Microsoft CRM-integrering
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9a6c542e-10ed-4e77-abb3-36324e1cb38f
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 4%
+source-wordcount: '869'
+ht-degree: 2%
 
 ---
-
 
 # Använda verktyget Segment Builder {#using-the-segment-builder}
 
@@ -25,9 +24,9 @@ ht-degree: 4%
 >
 >Målgruppstjänsten är för närvarande i betaversion, som kan uppdateras ofta utan föregående meddelande. Kunderna måste vara värdbaserade på Azure (för närvarande endast betaversioner för Nordamerika) för att få tillgång till dessa funktioner. Kontakta Adobe kundtjänst om du vill ha tillgång till tjänsten.
 
-Med segmentbyggaren kan du skapa målgrupper genom att definiera regler som baseras på data från [kundprofilen i realtid](https://docs.adobe.com/content/help/sv-SE/experience-platform/profile/home.html).
+Med segmentbyggaren kan du skapa målgrupper genom att definiera regler som baseras på data från [kundprofilen i realtid](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
 
-I det här avsnittet beskrivs globala koncept när du skapar ett segment. Mer information om själva segmentbyggaren finns i [användarhandboken för Segment Builder](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
+I det här avsnittet beskrivs globala koncept när du skapar ett segment. Mer information om själva segmentbyggaren finns i [användarhandboken för Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
 Gränssnittet i Segment Builder består av följande:
 
@@ -49,7 +48,7 @@ Segmentverktyget bör nu visas på arbetsytan. Det gör att ni kan skapa ett seg
 
 1. Se till att den sammanfogningsprincip du vill använda är markerad i inställningspanelen.
 
-   Mer information om kopplingsprofiler finns i det dedikerade avsnittet i [användarhandboken för Segment Builder](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
+   Mer information om kopplingsprofiler finns i det dedikerade avsnittet i [användarhandboken för Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -67,7 +66,7 @@ Segmentverktyget bör nu visas på arbetsytan. Det gör att ni kan skapa ett seg
 
 I den vänstra rutan visas alla attribut, händelser och målgrupper som är tillgängliga för att skapa regler.
 
-Fälten i listan är attribut som hämtats av ditt företag och har gjorts tillgängliga via [Experience Data Model (XDM) System](https://docs.adobe.com/content/help/sv-SE/experience-platform/xdm/home.html).
+Fälten i listan är attribut som hämtats av ditt företag och har gjorts tillgängliga via [Experience Data Model (XDM) System](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
 
 Fälten är ordnade i flikar:
 
@@ -83,7 +82,7 @@ Fälten är ordnade i flikar:
 >
 >**Med** segmentering för flera enheter kan du utöka profildata med ytterligare data baserat på produkter, butiker eller andra icke-profilklasser. När de är anslutna blir data från ytterligare klasser tillgängliga som om de vore inbyggda i profilschemat.
 >
->Mer information om detta hittar du i den [dedikerade dokumentationen](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html).
+>Mer information om detta hittar du i den [dedikerade dokumentationen](https://experienceleague.adobe.com/docs/experience-platform/segmentation/multi-entity-segmentation.html).
 
 Som standard visar Segment Builder fält där data redan finns. Om du vill visa det fullständiga schemat, inklusive fält för vilka data inte finns, aktiverar du alternativet **[!UICONTROL Show full XDM schema]** från inställningarna.
 
@@ -97,7 +96,7 @@ Symbolen i slutet av varje fält innehåller ytterligare information om attribut
 
 >[!NOTE]
 >
->Avsnittet nedan innehåller global information om regeldefinition. Mer information finns i [användarhandboken för Segment Builder](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
+>Avsnittet nedan innehåller global information om regeldefinition. Mer information finns i [användarhandboken för Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
 Så här skapar du en regel:
 
