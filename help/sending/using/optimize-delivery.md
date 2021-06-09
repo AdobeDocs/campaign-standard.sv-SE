@@ -7,17 +7,16 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: Lär dig hur du skyddar och optimerar sändningsprocessen uppströms.
-feature: Deliverability
+feature: Levererbarhet
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
+source-git-commit: 8a62ee661b77c3e3062e46477bfce5911e9415ff
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '747'
 ht-degree: 6%
 
 ---
-
 
 # Optimera leverans {#optimize-delivery}
 
@@ -37,7 +36,7 @@ Flera faktorer kan direkt påverka serverprestanda och göra plattformen långsa
 
 * [körning av arbetsflöde](../../automating/using/about-workflow-execution.md): övervakning av arbetsflödena är avgörande för att undvika problem med plattformens prestanda. Följ riktlinjerna [på den här sidan](../../automating/using/monitoring-workflow-execution.md). Läs mer i [arbetsflödets bästa praxis](../../automating/using/best-practices-workflows.md)-avsnittet.
 
-* Du kan använda [funktionerna i panelen Kampanjkontroll](https://docs.adobe.com/content/help/en/control-panel/using/discover-control-panel/key-features.html) för att övervaka plattformen med [funktioner för prestandaövervakning](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/about-performance-monitoring.html).
+* Du kan använda [funktionerna i panelen Kampanjkontroll](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html) för att övervaka plattformen med [funktioner för prestandaövervakning](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html).
 
 ## Kontrollerar nätverkskonfigurationen {#network-config}
 
@@ -45,7 +44,7 @@ Om du vill optimera leveransen när du hanterar e-post i stora volymer och undvi
 
 **Tips**: Använd en transparent avsändaradress som motsvarar ert varumärkes webbplats. Exempel: företaget TravelAgency hanterar hotellkedjan Valentino. Företaget äger domänen valentino.com för sin webbplats. För att marknadsföra alla hjärtans dag-hotell i Paris använder man underdomänen paris.valentino.com. Därför kan en relevant avsändaradress vara hotel@paris.valentino.com.
 
-## Leveranshantering {#deliverability-management}
+## Levererbarhetshantering {#deliverability-management}
 
 Om du vill nå mottagarnas inkorg utan att studsa eller markeras som skräppost måste du förbättra leveransfrekvensen för dina meddelanden.
 
