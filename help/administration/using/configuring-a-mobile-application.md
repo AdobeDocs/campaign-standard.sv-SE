@@ -6,17 +6,16 @@ description: Upptäck hur du konfigurerar Adobe Campaign att skicka push-meddela
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Instance Settings
+feature: Instansinställningar
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
+source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1281'
 ht-degree: 7%
 
 ---
-
 
 # Konfigurera ett mobilprogram{#configuring-a-mobile-application}
 
@@ -56,8 +55,8 @@ I det här steget kan användaren logga in på Experience Platform Launch för a
 1. I Experience Platform Launch klickar du på fliken **[!UICONTROL Extensions]**, går till **[!UICONTROL Catalog]** och söker efter tillägget **[!UICONTROL Adobe Campaign Standard]**. Mer information finns i [Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 
 1. Om du vill ha stöd för platsanvändningsfall i Campaign Standard installerar du tillägget **[!UICONTROL Places]** och tillägget **[!UICONTROL Places Monitor]**.
-   * Installera tillägget **[!UICONTROL Places]** i Experience Platform Launch. Se den här [sidan](https://docs.adobe.com/content/help/sv-SE/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
-   * Installera tillägget **[!UICONTROL Places Monitor]** i Experience Platform Launch. Se denna [sida](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html)
+   * Installera tillägget **[!UICONTROL Places]** i Experience Platform Launch. Se den här [sidan](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
+   * Installera tillägget **[!UICONTROL Places Monitor]** i Experience Platform Launch. Se denna [sida](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html)
 
 1. Konfigurera den mobila egenskapen som du skapade i Experience Platform Launch i Adobe Campaign Standard.  Se [Konfigurera ditt Adobe Experience Platform Launch-program i Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
