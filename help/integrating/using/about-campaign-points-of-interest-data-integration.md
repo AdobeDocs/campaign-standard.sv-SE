@@ -6,23 +6,22 @@ description: Genom att samla in data om intressepunkter från era mobilappsprenu
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
-feature: Audiences
+feature: Målgrupper
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 358194f9-34ce-4dd5-b9b2-1a7d541879ab
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '197'
 ht-degree: 6%
 
 ---
-
 
 # Om Campaign-Points of Interest-dataintegration{#about-campaign-points-of-interest-data-integration}
 
 Förutom att spåra kundernas närvaro online kan du också utnyttja deras fysiska platser. Genom integrationen med Adobe Analytics for Mobile kan ni använda Adobe Campaign för att skicka platsbaserade marknadsföringsmeddelanden till era mobilappsprenumeranter.
 
-Intressepunkter består av en latitud, en longitud och en radie som är kopplad till en etikett. De definieras i gränssnittet [Adobe Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html).
+Intressepunkter består av en latitud, en longitud och en radie som är kopplad till en etikett. De definieras i gränssnittet [Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html).
 
 När en prenumerant öppnar ditt mobilprogram hämtar Adobe Campaign data via Experience Cloud Mobile SDK, om platsen matchar en punkt of Interest. Du kan använda den här informationen för att skicka personliga meddelanden baserat på användarens plats (till exempel e-post, push-meddelanden, SMS-meddelanden).
 
