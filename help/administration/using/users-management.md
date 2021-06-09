@@ -6,17 +6,16 @@ description: 'Adobe Campaign-användare har särskilda roller. Upptäck huvudanv
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Access Management
+feature: Åtkomsthantering
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
+source-git-commit: 7808aea42f417994a61fdde84a44299c0954b346
 workflow-type: tm+mt
-source-wordcount: '1224'
+source-wordcount: '1220'
 ht-degree: 94%
 
 ---
-
 
 # Hantering av användare{#users-management}
 
@@ -38,7 +37,7 @@ Om du vill komma åt gränssnittet för användarhantering från Adobe Campaign 
 
 **Relaterade ämnen:**
 
-* [Video om hantering av användarbehörigheter](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/access-management.html)
+* [Video om hantering av användarbehörigheter](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html)
 * [Lista över roller](../../administration/using/list-of-roles.md)
 * [Lista med tillstånd](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 
