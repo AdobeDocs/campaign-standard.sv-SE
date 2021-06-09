@@ -5,17 +5,16 @@ title: Använda utlösare i Campaign
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-feature: Triggers
+feature: Utlösare
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '750'
 ht-degree: 82%
 
 ---
-
 
 # Använda utlösare i Campaign{#using-triggers-in-campaign}
 
@@ -25,7 +24,7 @@ ht-degree: 82%
 >
 >Om du vill skapa utlösare måste du ha rollen **[!UICONTROL Administration]** eller vara i säkerhetsgruppen **[!UICONTROL Administrators]**. Mer information finns på den här [sidan](../../administration/using/list-of-roles.md).
 
-Du ska se till att definiera de beteenden som du vill övervaka i förväg i Adobe Experience Cloud (**[!UICONTROL Triggers]**-bastjänst). Mer information finns i dokumentationen för [Adobe Experience Cloud](https://docs.adobe.com/content/help/sv-SE/core-services/interface/activation/triggers.html). Observera att när du definierar utlösaren måste du aktivera aliasen. För varje beteende (surfning/formulärborttagning, tillägg/borttagning av produkter, session har gått ut, o.s.v.) måste en ny utlösare läggas till i Adobe Experience Cloud.
+Du ska se till att definiera de beteenden som du vill övervaka i förväg i Adobe Experience Cloud (**[!UICONTROL Triggers]**-bastjänst). Mer information finns i dokumentationen för [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html). Observera att när du definierar utlösaren måste du aktivera aliasen. För varje beteende (surfning/formulärborttagning, tillägg/borttagning av produkter, session har gått ut, o.s.v.) måste en ny utlösare läggas till i Adobe Experience Cloud.
 
 Nu måste du skapa en utlösande händelse i Adobe Campaign baserat på en befintlig Adobe Experience Cloud-utlösare.
 
@@ -102,4 +101,3 @@ Om du vill visa den dedikerade utlösarrapporten i Adobe Campaign öppnar du den
 Rapporten visar antalet bearbetade händelser jämfört med antalet händelser som skickats av Analytics. Den visar också en lista över alla de senaste utlösarna.
 
 ![](assets/trigger_uc_browse_14.png)
-
