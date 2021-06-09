@@ -6,17 +6,16 @@ description: Genom att samla in KPI-data från Adobe Campaign Standard kan ni nu
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
-feature: Triggers
+feature: Utlösare
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ada1a5d1-879b-49cd-b4ef-43d7a40bafdb
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 6%
+source-wordcount: '207'
+ht-degree: 7%
 
 ---
-
 
 # Om Campaign-Analytics-integration{#about-campaign-analytics-integration}
 
@@ -35,6 +34,6 @@ Det finns även en integrering mellan Adobe Analytics bastjänst **Triggers** oc
 
 **Relaterade ämnen:**
 
-* [Översikt över Campaign Standard till Analytics-integrering](https://docs.adobe.com/content/help/en/analytics/integration/adobe-campaign.html)
-* [Konfigurera integrering av Campaign Standarder](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
+* [Översikt över Campaign Standard till Analytics-integrering](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html)
+* [Konfigurera integrering av Campaign Standarder](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
 * [Kampanjdimensioner och mätvärden i Analytics](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
