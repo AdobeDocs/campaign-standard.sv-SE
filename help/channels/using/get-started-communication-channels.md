@@ -6,17 +6,16 @@ description: Skapa personaliserade meddelanden i olika kanaler, använd mallar, 
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-feature: Overview
+feature: Översikt
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 4ea5b0eb-35da-4db6-a529-ba636be7825f
+source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 21%
+source-wordcount: '523'
+ht-degree: 20%
 
 ---
-
 
 # Kom igång med kommunikationskanaler {#discovering-communication-channels}
 
@@ -93,7 +92,7 @@ Landningssidor kan också användas för **hämtning eller uppdatering av befint
 
 Läs mer:
 
-* [Kom igång med landningssidor](../../channels/using/getting-started-with-landing-pages.md)
+* [Komma igång med landningssidor](../../channels/using/getting-started-with-landing-pages.md)
 * [Mallar för landningssidor](../../channels/using/landing-page-templates.md)
 * [Hantera formulärdata på landningssidan](../../channels/using/managing-landing-page-form-data.md)
 * [Konfigurera en process för dubbel anmälan](../../channels/using/setting-up-a-double-opt-in-process.md)
@@ -101,9 +100,9 @@ Läs mer:
 ## Ytterligare resurser
 
 * [Optimera leveransen](../../sending/using/about-deliverability.md)
-* [Bästa praxis för leverans](../../sending/using/delivery-best-practices.md)
+* [God praxis för leverans](../../sending/using/delivery-best-practices.md)
 * [Utforma ett e-postinnehåll](../../designing/using/designing-content-in-adobe-campaign.md)
 * [Importera AEM](../../integrating/using/creating-email-experience-manager.md)
 * [Skicka meddelanden med arbetsflöden](../../automating/using/about-channel-activities.md)
-* [Videor om självstudiekurser om kommunikationskanaler](https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
+* [Videor om självstudiekurser om kommunikationskanaler](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html?lang=sv)
 * [Användningsfall: Skapa en flerkanalsleverans](../../automating/using/workflow-cross-channel-delivery.md)
