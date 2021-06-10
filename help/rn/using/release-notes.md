@@ -10,10 +10,10 @@ feature: Översikt
 role: Business Practitioner
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: d5bea4a96576dc13aa06939876ef6549115a2b75
+source-git-commit: 887396a0871a8ed93642c55a49c8737f5c98bfc2
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,8 +39,6 @@ Nya funktioner, förbättringar och korrigeringar som ingår i nästa Campaign S
 * Vid leveranser med flera varianter kan användare inte längre skapa språkkopior om standardvarianten har tagits bort. Ett meddelande visas nu när en språkkopia skapas. (CAMP-48235)
 
 * Borttagning av profiler i två steg (borttagen från och med Campaign 19.4) är nu inaktiverat som standard. Tidigare var det nödvändigt att manuellt inaktivera funktionen från Campaign-gränssnittet innan man använde Privacy Core-tjänsten. Om du inte gör det kommer borttagningsbegäranden att förbli i väntande läge utan att slutföras.
-
-* En ny &#39;StringAgg&#39;-mängdfunktion har introducerats för att sammanfoga värdena i en strängtypskolumn. (CAMP-47077) [Läs mer](../../automating/using/list-of-functions.md#aggregates)
 
 * I dynamiska rapporter har segmentet **Uteslut korrektur** tagits bort. (CAMP-46161)
 
