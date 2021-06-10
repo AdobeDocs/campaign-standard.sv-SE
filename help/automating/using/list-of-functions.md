@@ -10,10 +10,10 @@ feature: Arbetsflöden
 role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-source-git-commit: 2672d2f58a2d46394454a88e63f8d09ea7e96148
+source-git-commit: 887396a0871a8ed93642c55a49c8737f5c98bfc2
 workflow-type: tm+mt
-source-wordcount: '1971'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -707,11 +707,7 @@ Sammanställningsfunktionerna används för att utföra beräkningar på en upps
    <td> Returnerar det minsta värdet i en numerisk kolumn, en sträng eller en datumkolumn.<br /> </td> 
    <td> Min(&lt;värde&gt;)<br /> </td> 
   </tr>
-  <tr> 
-   <td> <strong>StringAgg</strong>, String-mängd<br /> </td> 
-   <td> Returnerar sammanfogningen av värdena i en strängtypskolumn, avgränsade med tecknet i det andra argumentet (standardavgränsaren är komma).<br /> </td> 
-   <td> StringAgg(&lt;strängvärden&gt;,&lt;avgränsare&gt;)
-  </tr>
+
 
 
 
