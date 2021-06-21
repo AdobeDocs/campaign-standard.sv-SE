@@ -13,7 +13,7 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
 workflow-type: tm+mt
 source-wordcount: '6852'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -21,17 +21,17 @@ ht-degree: 98%
 
 Förutom [versionsinformationen](../../rn/using/release-notes.md) för Adobe Campaign listas alla nya uppdateringar i dokumentationen för Adobe Campaign Standard på den här sidan.
 
-## Version 21.2 - juni 2021 {#release-21-2---june-2021}
+## Version 21.2 – juni 2021 {#release-21-2---june-2021}
 
 **Nya funktioner i denna version**
 
-Validering av landningssidor - Du kan nu lägga till ett obligatoriskt avtalsalternativ på dina landningssidor. [Läs mer](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox)
+Validering av landningssidor – du kan nu lägga till ett obligatoriskt avtalsalternativ på dina landningssidor. [Läs mer](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox)
 
-Avsnittet **E-poststorlek** har uppdaterats med information om den maximala storleken för ett e-postmeddelande, som nu är inställt på 100 MB som standard. [Läs mer](../../sending/using/design-and-personalize.md#email-size)
+Avsnittet **E-poststorlek** har uppdaterats med information om den maximala storleken för ett e-postmeddelande, som nu är inställt som 100 MB som standard. [Läs mer](../../sending/using/design-and-personalize.md#email-size)
 
 **Andra dokumentationsuppdateringar som följer med denna version**
 
-Information har lagts till om hur du ändrar målmappningen i ett transaktionspush-meddelande. [Läs mer](../../channels/using/transactional-push-notifications.md#change-target-mapping)
+Information har lagts till om hur du ändrar målmappningen i ett push-transaktionsmeddelande. [Läs mer](../../channels/using/transactional-push-notifications.md#change-target-mapping)
 
 ## Maj 2021 {#doc-updates-may-2021}
 
