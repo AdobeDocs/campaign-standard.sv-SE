@@ -1,8 +1,8 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Versionsinformation 2021
-description: Den här sidan innehåller alla 2021-versioner av Adobe Campaign Standard.
+title: Versionsinformation för 2021
+description: Den här sidan innehåller alla versioner av Adobe Campaign Standard under 2021.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
@@ -13,13 +13,13 @@ exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
 source-git-commit: 4a8dfc0b8f321447e0ebc23a9f5bbef337454d9f
 workflow-type: tm+mt
 source-wordcount: '2535'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Versionsinformation 2021{#release-notes-2021}
+# Versionsinformation för 2021{#release-notes-2021}
 
-[Lanseringsplanering](../../rn/using/release-planning.md) | [Kontrollpanelsversioner](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=sv) | [Dokumentationsuppdateringar](../../rn/using/documentation-updates.md) | [Information gällande tidigare versioner](../../rn/using/release-notes-2020.md) | [Föråldrade funktioner](../../rn/using/deprecated-features.md)
+[Versionsplanering](../../rn/using/release-planning.md) | [Kontrollpanelsversioner](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=sv) | [Dokumentationsuppdateringar](../../rn/using/documentation-updates.md) | [Tidigare versionsinformation](../../rn/using/release-notes-2020.md) | [Inaktuella funktioner](../../rn/using/deprecated-features.md)
 
 ## Version 21.1 – februari 2021 {#release-21-1---february-2021}
 
@@ -151,11 +151,11 @@ ht-degree: 95%
 
 * Vi har åtgärdat ett arbetsflödesproblem som kunde uppstå när en aktivitet för **avduplicering**, som hade körts en gång och använde en tillfällig resurs, kopierades och klistrades in. När aktiviteten hade duplicerats ställdes dess resurs automatiskt in som tom, vilket ledde till problem i andra aktiviteter i arbetsflödet. När aktiviteten har klistrats in kommer den nu att förbli densamma, så att felet uppstår så snart som möjligt i stället för senare i arbetsflödet. (CAMP-46903)
 
-* Korrigerade problem som gjorde att leveransanalysen misslyckades när målprofiler för transaktionspush-meddelanden skickades, genom att introducera en ny [målmappning](../../administration/using/target-mappings-in-campaign.md): **Profil - Händelse i realtid för Push** (*mapRtEventAppSubRcp*). Loggarna för leverans, uteslutning och spårning för [profilbaserade transaktionspush-meddelanden](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile) lagras nu i tabellerna *broadLogAppSubRcp*, *excludeLogAppSubRcp* och *trackingLogAppSubRcp*.
+* Korrigerade problem som innebar att leveransanalysen misslyckades när ett push-transaktionsmeddelande som riktades till profiler skickades. Det här gjordes genom att introducera en ny [målmappning](../../administration/using/target-mappings-in-campaign.md): **Profil – realtidshändelse för pushmeddelanden** (*mapRtEventAppSubRcp*). Loggarna för leverans, uteslutning och spårning av [profilbaserade push-transaktionsmeddelanden](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile) lagras nu i tabellerna *broadLogAppSubRcp*, *excludeLogAppSubRcp* och *trackingLogAppSubRcp*.
 
    >[!IMPORTANT]
    >
-   >På grund av den här ändringen bör du uppdatera målmappningen till den nya och publicera meddelandet igen om du använder ett befintligt profilbaserat push-transaktionsmeddelande (som skapades innan du uppgraderade till Adobe Campaign 21.1). Se de detaljerade stegen [här](../../channels/using/transactional-push-notifications.md#change-target-mapping). Om du använder den tidigare målmappningen **Profile - Real-time event** (*mapRtEventRcp*) kan det resultera i längre förberedelsetider och prestandaförsämringar.
+   >På grund av den här ändringen är det rekommenderat att du uppdaterar målmappningen till det nya meddelandet och publicera det igen, om du använder ett befintligt profilbaserat push-transaktionsmeddelande (som skapades innan du uppgraderade till Adobe Campaign 21.1). Läs om de detaljerade stegen [här](../../channels/using/transactional-push-notifications.md#change-target-mapping). Om du använder den tidigare målmappningen **Profil – realtidshändelse** (*mapRtEventRcp*) kan det resultera i längre förberedelsetider och prestandaförsämringar.
 
 * Ett problem som innebar att leveransrapporter inte kunde köras när 5 000 rader visades har åtgärdats.
 * Ett problem med A/B-tester som förhindrade att innehåll av variant B uppdaterades efter att leveransmallen hade ändrats har åtgärdats. (CAMP-45235)
