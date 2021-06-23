@@ -14,9 +14,9 @@ role: Business Practitioner
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
 source-git-commit: 694d596ea3c7b85759716ae44b2713ed3f8b5dcf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1478'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -130,7 +130,7 @@ Adobe Campaign erbjuder ytterligare funktioner som underlättar din beredskap so
 
 >[!NOTE]
 >
->Den här uppsättningen verktyg hjälper dig med din integritetsefterlevnad gällande GDPR, CCPA och PDPA. Se [denna sida](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr) för mer information om dessa olika regelverk.
+>Den här uppsättningen verktyg hjälper dig med din integritetsefterlevnad gällande GDPR, CCPA och PDPA. Se [denna sida](https://helpx.adobe.com/se/campaign/kb/campaign-privacy-overview.html#whatisgdpr) för mer information om dessa olika regelverk.
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
@@ -138,7 +138,7 @@ Adobe Campaign erbjuder ytterligare funktioner som underlättar din beredskap so
 
 * **Thailand's PDPA** (Personal Data Protection Act) is the new privacy law that harmonizes and modernizes data protection requirements for Thailand. This regulation applies to Adobe Campaign customers who hold data for Data Subjects residing in this country.-->
 
-Förfrågningar om **åtkomst** och **borttagning** visas på [den här sidan](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=sv#getting-started). Implementeringsstegen för att skapa dessa förfrågningar finns på [den här sidan](https://helpx.adobe.com/se/campaign/kb/acs-privacy.html#ManagingPrivacyRequests). Självstudiekurser finns också [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html).
+Förfrågningar om **åtkomst** och **borttagning** visas på [den här sidan](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=sv#getting-started). Implementeringsstegen för att skapa dessa förfrågningar finns på [den här sidan](https://helpx.adobe.com/se/campaign/kb/acs-privacy.html#ManagingPrivacyRequests). Självstudiekurser finns också [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=sv).
 
 ## Spårningsfunktioner {#tracking-capabilities}
 
