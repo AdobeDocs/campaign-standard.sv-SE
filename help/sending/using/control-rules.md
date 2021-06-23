@@ -10,7 +10,7 @@ feature: Typologiregler
 role: Business Practitioner
 level: Intermediate
 exl-id: 6461c128-1e42-4685-88f8-507244147e6f
-source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
+source-git-commit: f75df49e7957437df72c814aa9055d34770f22d6
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 4%
@@ -30,7 +30,7 @@ Med kontrollregler kan du kontrollera giltigheten och kvaliteten på meddelanden
 En uppsättning standardregler säkerställer standardkontrollerna. Tabellen nedan innehåller information om dessa regler samt deras relaterade kanal och [körningsfaser](#control-rules-execution-phases).
 
 | Etikett | Kanal | Körningsfas | Beskrivning |
-|---------|----------|---------|---------
+|---------|----------|---------|---------|
 | **[!UICONTROL A/B Test]** | E-post | I början av personaliseringen | Extraherar testpopulationen för en leverans med ett A/B-test. |
 | **[!UICONTROL Check delivery size]** | Alla | Efter målinriktning | Kontrollerar meddelandets storlek. |
 | **[!UICONTROL Check email content is not empty]** | E-post | Efter målinriktning | Genererar ett fel om meddelandets innehåll är tomt. |
