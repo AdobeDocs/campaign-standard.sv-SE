@@ -4,17 +4,16 @@ description: Lär dig hur du konfigurerar integrationsappen Campaign-Dynamics
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
-feature: Microsoft CRM Integration
+feature: Microsoft CRM-integrering
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 184bc656-2107-4380-9b35-148cb4380547
+source-git-commit: f75df49e7957437df72c814aa9055d34770f22d6
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 2%
+source-wordcount: '795'
+ht-degree: 4%
 
 ---
-
 
 # Koppla samman system med integrationsappen
 
@@ -34,7 +33,7 @@ Microsoft Dynamics 365-autentiseringsuppgifterna ger integrationsprogrammet beh�
 
 * **[!UICONTROL Tenant]**: Lär dig hur du hittar ditt klient-ID i  [det här avsnittet](../../integrating/using/d365-acs-configure-d365.md#get-the-tenant-id)
 
-* **[!UICONTROL URL]**: URL:en har formatet &quot;https://&lt;servername>.api.crm.dynamics.com/
+* **[!UICONTROL URL]**: URL:en har formatet  `https://&lt;servername&gt;.api.crm.dynamics.com/`
 
 ### Adobe API-autentiseringsuppgifter
 
@@ -79,7 +78,7 @@ Du måste ange:
 
 Upptäck SFTP-hantering med [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=sv) i följande avsnitt:
 
-* [Om SFTP-hantering](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=en#sftp-management)
+* [Om SFTP-hantering](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=sv#sftp-management)
 
 * [Hantera SFTP-lagring](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=en#installing-ssh-key)
 
