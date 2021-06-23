@@ -10,15 +10,14 @@ feature: Levererbarhet
 role: Business Practitioner
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-translation-type: tm+mt
-source-git-commit: dbc176188d936160e04956e7598bd219ba80347e
+source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 66%
 
 ---
 
-# Om leveransfel{#understanding-delivery-failures}
+# Förstå leveransfel{#understanding-delivery-failures}
 
 ## Om leveransfel {#about-delivery-failures}
 
@@ -36,7 +35,7 @@ Meddelanden kan också uteslutas under leveransförberedelsen om en adress sätt
 
 **Relaterade ämnen:**
 
-* [Om karantänhantering](../../sending/using/understanding-quarantine-management.md)
+* [Förstå karantänshantering](../../sending/using/understanding-quarantine-management.md)
 * [Om anmälan och avanmälan i Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 * [studsar](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
@@ -59,7 +58,7 @@ Det finns tre typer av fel när en leverans misslyckas:
 Möjliga orsaker till leveransfel är:
 
 | Feletikett | Feltyp | Beskrivning |
----------|----------|---------
+| ---------|----------|---------|
 | **[!UICONTROL User unknown]** | Hård | Adressen finns inte. Inga fler leveransförsök kommer att göras för den här profilen. |
 | **[!UICONTROL Quarantined address]** | Hård | Adressen placerades i karantän. |
 | **[!UICONTROL Unreachable]** | Mjuk/Hård | Ett fel har uppstått i meddelandeleveranskedjan (t.ex. en domän som inte kan nås temporärt). Enligt det fel som returnerats av leverantören skickas adressen direkt till karantänen eller så utförs leveransen igen tills Campaign får ett fel som motiverar karantänstatusen eller tills antalet fel når 5. |
@@ -67,7 +66,7 @@ Möjliga orsaker till leveransfel är:
 | **[!UICONTROL Mailbox full]** | Mjuk | Den här användarens postlåda är full och kan inte ta emot fler meddelanden. Den här adressen kan tas bort från karantänlistan för att göra ett nytt försök. Den tas bort automatiskt efter 30 dagar. För att adressen automatiskt ska tas bort från listan över adresser i karantän måste det tekniska arbetsflödet **[!UICONTROL Database cleanup]** startas. |
 | **[!UICONTROL Refused]** | Mjuk/Hård | Adressen har placerats i karantän på grund av säkerhetsfeedback som en skräppostrapport. Enligt det fel som returnerats av leverantören skickas adressen direkt till karantänen eller så utförs leveransen igen tills Campaign får ett fel som motiverar karantänstatusen eller tills antalet fel når 5. |
 | **[!UICONTROL Duplicate]** | Ignorerad | Adressen har redan identifierats i segmenteringen. |
-| **[!UICONTROL Not defined]** | Mjuk | adressen är i kvalificeringsläge eftersom fel ännu inte har ökats. Den här typen av fel inträffar när ett nytt felmeddelande skickas av servern: Det kan vara ett isolerat fel, men om det inträffar igen ökar felräknaren, som varnar de tekniska teamen. |
+| **[!UICONTROL Not defined]** | Mjuk | adressen är i kvalificeringsläge eftersom fel inte har ökat. | ännu. Den här typen av fel inträffar när ett nytt felmeddelande skickas av servern: Det kan vara ett isolerat fel, men om det inträffar igen ökar felräknaren, som varnar de tekniska teamen. |
 | **[!UICONTROL Error ignored]** | Ignorerad | Adressen är på tillåtelselista och ett e-postmeddelande kommer att skickas till den i vilket fall som helst. |
 | **[!UICONTROL Address on denylist]** | Hård | Adressen lades till i blockeringslista vid tidpunkten för sändningen. |
 | **[!UICONTROL Account disabled]** | Mjuk/Hård | När IAP (Internet Access Provider) upptäcker en lång inaktivitetsperiod kan den stänga användarens konto: det blir då omöjligt att leverera till användarens adress. Den mjuka eller hårda typen beror på vilken typ av fel som tas emot: Om kontot tillfälligt inaktiveras på grund av sex månaders inaktivitet och fortfarande kan aktiveras, tilldelas statusen **[!UICONTROL Erroneous]** och leveransen provas igen. Om felet får signaler om att kontot är permanent inaktiverat skickas det direkt till karantän. |
@@ -135,7 +134,7 @@ To list the various bounces and their associated error types et reasons, click t
 
 ![](assets/qualification.png)-->
 
-## Optimera e-postleveransen med dubbel anmälningsmekanism {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
+## Optimera e-postleveransen med en mekanism för dubbel anmälan {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
 
 Mekanismen för dubbel anmälan är bäst när du skickar e-post. Den skyddar plattformen från fel eller ogiltiga e-postadresser, skräppost och förhindrar eventuella klagomål om skräppost.
 
