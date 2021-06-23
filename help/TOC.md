@@ -5,18 +5,18 @@ audience: end-user
 user-guide-title: Campaign Standard
 user-guide-description: 'Hjälpcenter för de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som behövs för att använda Campaign Standard. '
 title: Användarhandbok för Campaign Standard
-breadcrumb-title: Adobe Campaign Standard Documentation
+breadcrumb-title: 'Dokumentation om Adobe Campaign Standard '
 source-git-commit: 49b9e97c1eb53b99c8118e08e5ba1ca94bc59c65
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1788'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
 # Hjälp om Adobe Campaign Standard  {#using}
 
-+ [Campaign Standard](campaign-standard-home.md)
++ [Dokumentation om Campaign Standard](campaign-standard-home.md)
 + [Senaste uppdateringarna](rn/using/documentation-updates.md)
 + Versionsinformation {#release-notes}
    + [Senaste versionen](rn/using/release-notes.md)
