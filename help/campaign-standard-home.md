@@ -8,22 +8,22 @@ feature: Översikt
 role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 5b94e57efb29ba1c3feeba21b41e68571bd646b1
-workflow-type: ht
-source-wordcount: '239'
-ht-degree: 100%
+source-git-commit: c0362e6b440f19dcbce965910d9594a1bc3991ae
+workflow-type: tm+mt
+source-wordcount: '241'
+ht-degree: 90%
 
 ---
 
-# Dokumentation om Adobe Campaign Standard {#campaign-standard-documentation}
+# Dokumentation om Adobe Campaign Standard  {#campaign-standard-documentation}
 
 ![](start/using/assets/do-not-localize/banner_acs_doc.jpg)
 
 ## Nyheter
 
-* **[Campaign – RTCDP-integrering](integrating/using/get-started-sources-destinations.md)**<br/> Läs om hur du delar data mellan Campaign och kunddataplattformen i realtid (RTCDP)
+* **[Frågor och ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html)**<br/> svar om Apples integritetsskyddHitta den första vägledningen som svar på Apples meddelande om iOS 15
 
-* **[Uppdatera felaktigt avvisade e-postmeddelanden](https://helpx.adobe.com/se/campaign/kb/update-bounce-qualification.html)**<br/> Läs om hur du uppdaterar felaktigt avvisade e-postmeddelanden efter ett driftstopp hos e-postleverantören
+* **[Campaign – RTCDP-integrering](integrating/using/get-started-sources-destinations.md)**<br/> Läs om hur du delar data mellan Campaign och kunddataplattformen i realtid (RTCDP)
 
 * **[Kontrollgrupper](sending/using/control-group.md)**<br/>
 Mät effekten av dina kampanjer genom att utesluta en del av deras målgrupp
