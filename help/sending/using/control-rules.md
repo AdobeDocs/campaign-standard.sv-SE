@@ -6,17 +6,16 @@ description: Lär dig hur ni kan förbättra kvalitetskontrollen av era meddelan
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-feature: Typology Rules
+feature: Typologiregler
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6461c128-1e42-4685-88f8-507244147e6f
+source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '442'
 ht-degree: 4%
 
 ---
-
 
 # Kontrollregler {#control-rules}
 
@@ -31,7 +30,7 @@ Med kontrollregler kan du kontrollera giltigheten och kvaliteten på meddelanden
 En uppsättning standardregler säkerställer standardkontrollerna. Tabellen nedan innehåller information om dessa regler samt deras relaterade kanal och [körningsfaser](#control-rules-execution-phases).
 
 | Etikett | Kanal | Körningsfas | Beskrivning |
----------|----------|---------|---------
+|---------|----------|---------|---------
 | **[!UICONTROL A/B Test]** | E-post | I början av personaliseringen | Extraherar testpopulationen för en leverans med ett A/B-test. |
 | **[!UICONTROL Check delivery size]** | Alla | Efter målinriktning | Kontrollerar meddelandets storlek. |
 | **[!UICONTROL Check email content is not empty]** | E-post | Efter målinriktning | Genererar ett fel om meddelandets innehåll är tomt. |
@@ -45,7 +44,7 @@ En uppsättning standardregler säkerställer standardkontrollerna. Tabellen ned
 | **[!UICONTROL Check URL labels]** | E-post | I början av personaliseringen | Kontrollerar att varje spårnings-URL har en etikett. |
 | **[!UICONTROL Check URLs]** | E-post | I början av personaliseringen | Kontrollerar spårnings-URL:er (närvaron av tecknet &quot;&amp;&quot;). |
 
-## Kontrollera körningsfaser för regler {#control-rules-execution-phases}
+## Körningsfaser för kontrollregler {#control-rules-execution-phases}
 
 Kontrollregler kan tillämpas i olika faser av leveransens livscykel:
 
