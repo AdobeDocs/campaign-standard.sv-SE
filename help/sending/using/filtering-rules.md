@@ -6,17 +6,16 @@ description: Använd filtreringsregler för att förfina publikationen i dina me
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-feature: Typology Rules
+feature: Typologiregler
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 43e97f3c-ed82-4fcc-ac0d-fcee6a22da35
+source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '655'
 ht-degree: 3%
 
 ---
-
 
 # Filtreringsregler {#filtering-rules}
 
@@ -27,7 +26,7 @@ Med filtreringsregler kan du utesluta en del av meddelandemålet enligt villkor 
 Tabellen nedan innehåller information om de färdiga filtreringsreglerna och deras relaterade kanaler.
 
 | Etikett | Kanal | Beskrivning |
----------|----------|---------
+| ---------|----------|---------|
 | **[!UICONTROL Address not specified]** | Alla | Utesluter målpopulationen utan angiven adress (e-postadress, postadress osv.) enligt den valda kanalen). |
 | **[!UICONTROL Address on denylist]** | Alla | Exkluderar adresser som finns på blockeringslista. |
 | **[!UICONTROL Duplicate]** | Alla | Exkluderar dubbletter som baseras på målpopulationsfältet **[!UICONTROL Address]**. |
@@ -83,7 +82,7 @@ Följ de här stegen för att skapa en filtreringstypologiregel:
 
 När den här regeln används i ett meddelande, kommer de abonnenter som betraktas som minderåriga automatiskt att uteslutas.
 
-## Konfigurerar filtreringsregelns målkontext {#configuring-filtering-rules-targeting-context}
+## Konfigurera filterregelns målkontext {#configuring-filtering-rules-targeting-context}
 
 Med Campaign Standard kan du konfigurera dimensionerna **Mål** och **Filtering** beroende på vilka data du vill använda.
 
