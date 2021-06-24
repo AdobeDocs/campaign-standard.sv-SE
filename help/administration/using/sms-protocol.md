@@ -6,23 +6,22 @@ description: Läs mer om SMS-anslutningen och hur du konfigurerar den.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Instance Settings
+feature: Instansinställningar
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ea936128-1c51-483d-914c-6d06708456d6
+source-git-commit: f849e668cffaaca05261f0b91726a350a47676e4
 workflow-type: tm+mt
-source-wordcount: '8669'
+source-wordcount: '8666'
 ht-degree: 0%
 
 ---
-
 
 # Protokoll och inställningar för SMS-koppling {#sms-connector-protocol}
 
 >[!NOTE]
 >
->**SMS-anslutningsprotokollet och inställningarna** för Adobe Campaign Classic finns på den här [sidan](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.htmln#sending-messages).
+>**SMS-anslutningsprotokollet och inställningarna** för Adobe Campaign Classic finns på den här [sidan](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html).
 >
 >I det här dokumentet hänvisar alla referenser till detaljer om protokollet, fältnamnen och värdena till [SMPP 3.4-specifikationen](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 
@@ -59,7 +58,7 @@ Du måste skilja mellan bekräftelser (RESP PDU, en del av SMPP-protokollet) och
 
 Både bekräftelser och SR kan utlösa fel, och om man skiljer mellan dem blir det lättare att felsöka.
 
-### Information som medföljer ett SMS {#information-sms}
+### Information som medförs av ett sms {#information-sms}
 
 Ett SMS innehåller mer information än text. Här följer en lista över vad du kan förvänta dig i ett SMS:
 
@@ -251,7 +250,7 @@ Det finns två sätt att skicka långt SMS:
 
 Mer information om protokoll och format finns i beskrivningen av fälten `esm_class`, `short_message` och `message_payload` i [SUBMIT_SM PDU](../../administration/using/sms-protocol.md#information-pdu).
 
-### Fästning och fönsterkontroll av dataflöde {#throughput-capping}
+### Plattor och fönsterrutor {#throughput-capping}
 
 De flesta leverantörer kräver en genomströmningsgräns för varje SMPP-anslutning. Detta kan uppnås genom att ange ett antal SMS i det externa kontot. Observera att genomströmningsbegränsning inträffar per anslutning. Den totala effektiva genomströmningen är gränsen per anslutning multiplicerad med det totala antalet anslutningar. Detta beskrivs i avsnittet [Samtidiga anslutningar](../../administration/using/sms-protocol.md#connection-settings).
 
@@ -294,7 +293,7 @@ Felfältet innehåller den providerspecifika felkoden. Leverantören måste ge e
 
 Slutligen innehåller textfältet vanligtvis början av texten i MT. Detta ignoreras av Adobe Campaign och vissa leverantörer skickar inte det för att undvika PII-läckage och bandbreddsförbrukning i nätverket. Den kan användas under felsökning för att identifiera SR-matchning av ett test MT enklare genom att läsa det här fältet.
 
-### Exempel på SR-bearbetning i Adobe Campaign Standard Extended generisk SMPP {#sr-processing}
+### Exempel på SR-bearbetning i Adobe Campaign Standard Extended allmän SMPP {#sr-processing}
 
 I det här exemplet visas fallet med en implementering som följer rekommendationerna i tillägg B, standardvärden i det externa kontot och ett godkänt SMS MT.
 
@@ -359,7 +358,7 @@ Den största tillåtna storleken för ett meddelande beror på dess kodning. I t
 | Kodning | Vanlig data_coding | Meddelandestorlek (tecken) | Delstorlek för multipart-SMS | Tillgängliga tecken |
 |:-:|:-:|:-:|:-:|:-:|
 | GSM7 | 0 | 160 | 152 | Grundläggande GSM7-teckenuppsättning + tillägg (utökade tecken tar 2 tecken) |
-| Latin-1 | 1 | 140 | 134 | ISO-8859-1 |
+| Latin-1 | 3 | 140 | 134 | ISO-8859-1 |
 | UCS-2 <br>UTF-16 | 8 | 70 | 67 | Unicode (varierar från telefon till telefon) |
 
 ## SMPP:s externa kontoparametrar {#SMPP-parameters-external}
@@ -429,7 +428,7 @@ Använd TLS för att ansluta till providern. Anslutningen kommer att krypteras. 
 
 Den här inställningen dumpar all SMPP-trafik i loggfiler. Det krävs ofta att du justerar parametrar under den inledande konfigurationen. Detta måste vara aktiverat vid felsökning av anslutningen och jämfört med den trafik som leverantören ser.
 
-### Inställning för mottagarens anslutning {#receiver-connection}
+### Inställning för mottagaranslutning {#receiver-connection}
 
 Det här avsnittet är bara synligt i separerat **sändare+mottagare**-läge.
 
@@ -445,7 +444,7 @@ Dessa inställningar gäller för mottagaren i **transmitter+receiver**-läge. D
 
 ### SMPP-kanalinställningar {#smpp-channel-settings}
 
-#### Tillåt teckentransformering {#allow-character-transliteration}
+#### Tillåt teckenomläsning {#allow-character-transliteration}
 
 Translitterering är processen att hitta tecken som är likvärdiga med dem som saknas. Det franska specialtecknet&quot;ê&quot; (e med cirkumflex) saknas till exempel i GSM-kodningen, men det kan ersättas med&quot;e&quot; utan att det försämrar läsbarheten.
 
@@ -497,7 +496,7 @@ Det här fältet överförs som det är i fältet `service_type` i `SUBMIT_SM PD
 
 Dessa inställningar styr alla timingaspekter av SMPP-kanalen. Vissa leverantörer kräver mycket exakt kontroll över meddelandehastighet, fönster och tidsinställningar för nya försök. Dessa inställningar bör anges till värden som matchar leverantörens kapacitet och villkoren som anges i deras kontrakt.
 
-#### Skickar fönster {#sending-window}
+#### Skicka fönster {#sending-window}
 
 Fönstret är det antal `SUBMIT_SM PDU`s som kan skickas utan att vänta på en matchande `SUBMIT_SM_RESP`.
 
@@ -530,7 +529,7 @@ Det rekommenderas i allmänhet att denna inställning hålls under 1000, efterso
 
 När TCP-anslutningen bryts väntar anslutningen i så många sekunder innan ett anslutningsförsök görs.
 
-#### Förfallotid för MT {#expiration-period}
+#### MT:s förfalloperiod {#expiration-period}
 
 Timeout mellan `SUBMIT_SM` och dess matchande `SUBMIT_SM_RESP`. Om `RESP` inte tas emot i tid, kommer meddelandet att betraktas som misslyckat och den globala återförsöksprincipen för MTA gäller.
 
@@ -595,7 +594,7 @@ När det här alternativet är markerat är anslutningen inte längre säker, ut
 
 Den kan vara användbar för felsökning och testning.
 
-#### Bind TON/NPI {#bind-ton-npi}
+#### Bindning TON/NPI {#bind-ton-npi}
 
 TON (Number Type of Number) och NPI (Numbering Plan Indicator) beskrivs i avsnitt 5.2.5 i [SMPP 3.4-specifikationen](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) (sidan 117). Dessa värden ska ställas in efter vad providern behöver.
 
@@ -643,7 +642,7 @@ När du justerar den här inställningen måste du ta med så mycket kontext som
 
 Om det inte finns tillräckligt med sammanhang i regionen kan det medföra ett litet säkerhetsfel: det faktiska innehållet i meddelandet kan inkluderas i meddelandet. Om du bara matchar ett specifikt ID-format utan kontext, t.ex. ett UUID, kan det bero på att det faktiska textinnehållet parsas, t.ex. ett UUID som är inbäddat i textfältet, i stället för ID:t.
 
-#### Regex används för att avgöra status för lyckat/fel {#regex-applied}
+#### Regex används för att fastställa status för lyckat/fel {#regex-applied}
 
 När meddelanden med en okänd kombination av stat/fel-fält påträffas, används dessa regex i statusfältet för att avgöra om SR lyckades eller inte. SR med statusvärden som inte matchar någon av dessa regexter ignoreras.
 
@@ -705,7 +704,7 @@ Med den här inställningen kan du bara lägga till ett TLV-alternativ per medde
 >
 >Från och med version 21.1 är det nu möjligt att lägga till fler än en valfri parameter. Mer information om detta hittar du i det här [avsnittet](../../administration/using/sms-protocol.md#automatic-reply-tlv).
 
-### Automatiskt svar skickat till MO{#automatic-reply}
+### Automatiskt svar skickat till MO {#automatic-reply}
 
 Med den här funktionen kan du snabbt svara på text till MO och hantera kortkod som skickas till blockeringslista.
 
@@ -733,7 +732,7 @@ Mer information om valfria parametrar finns i [avsnittet](../../administration/u
 
 Vissa parametrar kan anges per leveransmall.
 
-### Från fältet {#from-field}
+### Från fält {#from-field}
 
 Det här fältet är valfritt. Det tillåter åsidosättande av avsändaradress (oADC). Innehållet i det här fältet placeras i fältet `source_addr` i `SUBMIT_SM PDU`.
 
