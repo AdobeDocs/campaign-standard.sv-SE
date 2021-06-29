@@ -6,10 +6,10 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Hjälpcenter för de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som behövs för att använda Campaign Standard. '
 title: Användarhandbok för Campaign Standard
 breadcrumb-title: 'Dokumentation om Adobe Campaign Standard '
-source-git-commit: 49b9e97c1eb53b99c8118e08e5ba1ca94bc59c65
-workflow-type: ht
-source-wordcount: '1788'
-ht-degree: 100%
+source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
+workflow-type: tm+mt
+source-wordcount: '1790'
+ht-degree: 99%
 
 ---
 
@@ -111,6 +111,7 @@ ht-degree: 100%
       + [Om meddelanden i appen](channels/using/about-in-app-messaging.md)
       + [Förbereda och skicka ett meddelande i appen](channels/using/preparing-and-sending-an-in-app-message.md)
       + [Anpassa ett meddelande i appen](channels/using/customizing-an-in-app-message.md)
+      + [Vanliga frågor om appar](channels/using/in-app-faq.md)
    + Direktutskick {#direct-mail}
       + [Om direktutskick](channels/using/about-direct-mail.md)
       + [Skicka tillbaka till avsändaren](channels/using/return-to-sender.md)
