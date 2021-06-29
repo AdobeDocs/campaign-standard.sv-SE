@@ -6,17 +6,16 @@ description: Vanliga frågor om integrering mellan Adobe Experience Platform SDK
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Instance Settings
+feature: Instansinställningar
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
+source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '916'
 ht-degree: 4%
 
 ---
-
 
 # Vanliga frågor och svar om integrering av Experience Platform SDK {#aep-faq}
 
@@ -27,10 +26,10 @@ I avsnittet nedan visas vanliga frågor om synkroniseringen.
 Mer information om Push eller In-App (Push) finns i följande vanliga frågor och svar:
 
 * [Vanliga frågor om push-meddelanden](../../channels/using/about-push-notifications.md#push-faq)
-* [Vanliga frågor om appar](../../channels/using/about-in-app-messaging.md#in-app-faq)
+* [Vanliga frågor om appar](../../channels/using/in-app-faq.md)
 * [Synkronisera med Starta tekniskt arbetsflöde Frågor och svar](../../administration/using/syncwithlaunch-faq.md)
 
-## Användbara resurser innan du startar {#resource-mobile-property}
+## Användbara resurser före start {#resource-mobile-property}
 
 Mer information om Adobe Experience Platform SDK och integrering av Campaign Standarder finns nedan:
 
