@@ -10,14 +10,14 @@ context-tags: delivery,triggers,back
 feature: I appen
 role: Business Practitioner
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
+source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 29%
+source-wordcount: '460'
+ht-degree: 99%
 
 ---
 
-# Om app-meddelanden{#about-in-app-messaging}
+# Om meddelanden i appen{#about-in-app-messaging}
 
 App-meddelanden är en meddelandekanal som gör att du kan visa ett meddelande när användaren är aktiv i appen. Den här meddelandetypen är kostnadsfri för push-meddelanden som levereras som notifikation till mobilen. Mer information om kanalen för push-meddelande finns i det här [avsnittet](../../channels/using/about-push-notifications.md).
 
@@ -43,76 +43,20 @@ Om du vill börja skicka meddelanden via app-maddelanden till mobil-appar som an
 * [Mobil användning som stöds av Adobe Campaign Standard](https://helpx.adobe.com/se/campaign/kb/configure-launch-rules-acs-use-cases.html)
 * [Guide för Campaign Standard Mobile](https://helpx.adobe.com/se/campaign/kb/acs-mobile.html)
 
-## Vanliga frågor om appar {#in-app-faq}
+## Hantera mobilprofilfält med personliga och känsliga data {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
 
-### Vad skulle vara användbara resursrekommendationer om du vill veta mer om In-App-kanalen i Adobe Campaign Standard? {#resources-inapp}
+I Adobe Campaign lagras data för mobilprofilattribut som skickas från mobila enheter i resursen **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**, vilket gör att du kan definiera de data som du vill samla in från programprenumeranterna.
 
-Läs resurserna nedan:
+Resursen måste utökas för att samla in data som du tänker skicka från den mobila enheten till Adobe Campaign.  Om du vill göra det går du till den här [sidan](../../developing/using/extending-the-subscriptions-to-an-application-resource.md) för detaljerade steg.
 
-* [Självstudiekurser via video](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html)
-* [Blogginlägg](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
-* [Community-sida](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+Om du vill personalisera meddelanden i appen på ett säkrare sätt måste du konfigurera fält för mobilprofiler från den här resursen på rätt sätt. När du skapar nya fält för mobilprofiler i **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** bör du markera **[!UICONTROL Personal and Sensitive]** så att de inte är tillgängliga vid personalisering av meddelanden i appar.
 
-### Vad är syftet med Campaign-tilläggs-API:erna setLinkageField och resetLinkageField? {#extensions-apis}
+>[!NOTE]
+>
+>Om du har en befintlig implementering med ett anpassat resurstillägg i den här tabellen rekommenderar vi att du etiketterar fälten korrekt innan du använder dem för anpassning av meddelanden i appen.
 
-Eftersom meddelanden i appen hämtas av SDK från Campaign vill vi ha en säker mekanism som säkerställer att meddelanden i appen som innehåller PII-data inte hamnar i orätta händer. Därför har vi följande mekanism på plats för att säkerställa säker leverans av meddelanden till enheten:
+![](assets/in_app_personal_data_2.png)
 
-* Kunderna anger fält för mobilprofiler (tabellen appSubscriberRcp) som personliga och känsliga om de vill säkerställa att informationen levereras på ett säkert sätt.
-* Fält som markerats som sådana kan bara användas i profilmallen (inte i AppSubscriber-mallen eller sändningsmallen) som har ytterligare inbyggda säkerhetsfunktioner.
-* Meddelanden som har skapats med hjälp av profilmallen kan bara hanteras när användaren har loggat in i appen.
-* För att underlätta denna säkra handskakning bör utvecklare av mobilappar skicka ytterligare autentiseringsinformation med API:t setLinkageField. Observera att länkningsfältet är det som identifieras som länken mellan mobilprofilen och CRM-profilen när du utökar tabellen appSubscriberRcp.
-* De bör tömma In-App-meddelanden som lagras på enheten och resetLinkagefält när användaren loggar ut från appen med resetLinkageField. Detta säkerställer att om en annan användare loggar in i appen, så ser han/hon inte meddelandena som är avsedda för en tidigare användare.
-* Se [Mobile SDK API:er](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference) för att implementera säkerhetsmekanismens klientsida.
+När den anpassade resursen **[!UICONTROL Subscriptions to an application]** har konfigurerats och publicerats kan du börja förbereda leverans i appen med hjälp av mallen **[!UICONTROL Target users based on their Mobile profile (inApp)]**. Endast icke-personliga och icke-känsliga fält är tillgängliga från resursen **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** för personalisering.
 
-### Vad måste jag göra för att aktivera rapportering i appen i Campaign? {#enable-inapp-reporting}
-
-Du måste konfigurera återanslående i appen. Instruktioner finns [här](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#InApptrackingpostback).
-
-För att implementera lokal meddelandespårning, se den här [sidan](../../administration/using/local-tracking.md).
-
-### Vilka rapporter är tillgängliga för kanalen i appen? {#report-inapp}
-
-En färdig rapport finns tillgänglig i Adobe Campaign för In-App-kanalen. Läs den här [dokumentationen](../../reporting/using/in-app-report.md).
-
-Se den här [sidan](../../reporting/using/indicator-calculation.md#in-app-delivery) för att förstå hur varje värde i appen beräknas.
-
-### Stöder du flerspråkiga innehållsvarianter för appar som liknar Push? {#multilingual-inapp}
-
-Det finns inga flerspråkiga mallar tillgängliga för meddelanden i appen.
-
-Om målet är att skicka ett meddelande i appen på ett annat språk än engelska, kan innehållet klistras in direkt i de tillgängliga textrutorna.
-
-![](assets/faq_inapp.png)
-
-### Kan kampanjanpassningsfält läggas till i anpassad HTML? {#custom-html-inapp}
-
-Nej, det stöds inte ännu.
-
-### Jag har konfigurerat ett varningsmeddelande, men det visas inte på enheten. {#alert-message}
-
-För varningsmeddelanden krävs minst en stängningsknapp (primär eller sekundär bör ha åtgärdsstängning). Annars går det att spara meddelandet, men det kommer inte att tas emot.
-
-### Om lokala meddelanden iOS-anpassat ljud inte spelas upp, spelas standardljudet upp i stället? {#local-notification-sound}
-
-För anpassat ljud på iOS måste du ange ett filnamn med filnamnstillägget när du skapar ett lokalt meddelande (till exempel sound.caf). Om det här tillägget inte anges används standardljudet.
-
-### Stöds deplinks i meddelanden i appen? {#inapp-deeplinks}
-
-Ja, deplinks stöds i meddelanden i appen. Deeplinks ska innehålla:
-
-* språk som anger att leveransspårning måste inaktiveras för att länkarna ska fungera.
-* Appsflyer with Branch as partners that can do the deplink tracking. Mer information om integrationen mellan grenar och Adobe Campaign Standard finns på den här [sidan](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
-
-### Kan ett meddelande i appen utlösas när användaren startar appen från ett push-meddelande? {#inapp-push-trigger}
-
-Ja, de här meddelandena kallas även för meddelanden i kedjan. Följ processen nedan:
-
-1. Skapa ett meddelande i appen.
-
-1. Definiera en anpassad händelse och markera den som en händelseutlösare för denna IAM, t.ex. &quot;Trigger från fall-förhandsvisning Push&quot;.
-
-1. När du skapar ditt push-meddelande definierar du en anpassad variabel vars värde kan anges som en händelse som används för att utlösa IAM, t.ex. Key = &quot;inappkey&quot; och value = &quot;Trigger from fall preview Push&quot;.
-
-1. Implementera händelseutlösare på följande sätt i mobilappskoden:
-
-   ![](assets/faq_inapp_2.png)
+Om du behöver personalisera med fält som är **personliga och känsliga** bör du använda mallen **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**, som har extra säkerhetsfunktioner för att skydda användarnas personuppgifter.
