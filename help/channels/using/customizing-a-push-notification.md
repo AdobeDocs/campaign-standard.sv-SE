@@ -10,14 +10,13 @@ context-tags: delivery,mobileAppContent,back
 feature: Push
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3fe3495b-e360-4169-b295-86ad93753468
+source-git-commit: f19b2d618828cb4d83aa3acbc6fbb3ffb4d3af20
 workflow-type: tm+mt
-source-wordcount: '1498'
-ht-degree: 98%
+source-wordcount: '1511'
+ht-degree: 97%
 
 ---
-
 
 # Anpassa ett push-meddelande{#customizing-a-push-notification}
 
@@ -45,7 +44,9 @@ Ett ljud varnar användarna om ett push-meddelande och ger det mer synlighet. S�
 
    ![](assets/push_notif_advanced_7.png)
 
-1. Ljudfilen spelas upp när meddelandet skickas om filen är definierad i mobilprogrammets paket. Annars spelas enhetens standardljud upp.
+1. Ljudfilen spelas upp när meddelandet skickas om filen är definierad i mobilprogrammets paket. Du kan ställa in det på **standard** för att spela upp enhetens standardljud.
+
+   Om fältet **[!UICONTROL Play a sound]** lämnas tomt spelas inget ljud upp.
 
 Användaren får då ett push-meddelande och ljudet endast om telefonen inte är avstängd.
 
