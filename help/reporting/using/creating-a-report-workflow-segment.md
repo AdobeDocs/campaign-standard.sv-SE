@@ -6,19 +6,21 @@ description: Lär dig hur du kontrollerar leveransresultatet beroende på arbets
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-feature: Reporting
+feature: Rapportering
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 514bffa0-2413-4212-b1b9-e070031c462f
+source-git-commit: c001aaba50bdce8d949acc6daf74f3c7738bd117
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '625'
 ht-degree: 2%
 
 ---
 
-
 # Skapa en rapport baserad på arbetsflödessegment{#creating-a-report-workflow-segment}
+
+>[!CAUTION]
+> **[!UICONTROL Segment code]**kan bara rikta sig till e-post och SMS-leveranser.
 
 När ni har skapat ett arbetsflöde och filtrerat er population till olika målgrupper kan ni mäta effektiviteten hos era marknadsföringskampanjer baserat på segment som definieras i det här arbetsflödet för målinriktning.
 Om du vill inrikta dig på dessa segment i dina rapporter:
@@ -29,9 +31,10 @@ Om du vill inrikta dig på dessa segment i dina rapporter:
 
 >[!CAUTION]
 >Användningsavtalet för dynamisk rapportering måste accepteras för att börja samla in dessa data.
+>
 >Mer information om det här avtalet finns på [sidan](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
-## Steg 1: Uppdatera anpassad resurs med segment{#step-1--update-profiles-custom-resource-segments}
+## Steg 1: Uppdatera profiler, anpassade resurser med segment{#step-1--update-profiles-custom-resource-segments}
 
 Innan du rapporterar om din segmentkod måste du uppdatera din anpassade **[!UICONTROL Profiles]**-resurs för att dina segmentkoder ska lagras.
 
