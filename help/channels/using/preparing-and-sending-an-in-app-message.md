@@ -10,18 +10,14 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: I appen
 role: Business Practitioner
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
+source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1173'
 ht-degree: 98%
 
 ---
 
 # Förbereda och skicka ett meddelande i appen{#preparing-and-sending-an-in-app-message}
-
->[!NOTE]
->
->Anpassning i appen förlitar sig på ett länkningsfält som vanligtvis är ett CRM-ID och/eller inloggnings-ID för mobilapp. Du ansvarar själv för att säkra det här länkningsfältet när det används i samband med Adobe Campaign. Om du inte skyddar länkningsfälten kan ditt personliga meddelande bli sårbart. Adobe ansvarar inte för skador som uppstår på grund av obehörig åtkomst eller användning av profildata om du inte följer säkra metoder för att länkningsfältets disposition, hantering och skydd.
 
 Det finns tre typer av meddelanden i appen i Adobe Campaign:
 
@@ -32,29 +28,15 @@ Det finns tre typer av meddelanden i appen i Adobe Campaign:
 * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**: Med den här meddelandetypen kan du skicka meddelanden till alla användare (nuvarande eller framtida) av ditt mobilprogram, även om de inte har en befintlig profil i Adobe Campaign. Anpassnign är därför inte möjligt när du anpassar meddelandena eftersom användarprofilen kanske inte ens finns i Adobe Campaign.
 * **[!UICONTROL Target users based on their Mobile profile (inApp)]**: Den här meddelandetypen gör att du kan rikta indig på alla kända eller anonyma användare av en mobilapp som har en mobilprofil i Adobe Campaign. Den här meddelandetypen kan endast anpassas med icke-personliga och icke-känsliga attribut och kräver ingen säker handskakning mellan Mobile SDK och Adobe Campaigns meddelandetjänst i appen.
 
-   Mer information om hur du hanterar personliga och känsliga data finns i [Hantera mobilprofilsfält med personliga och känsliga data](#handling-mobile-profile-fields-with-personal-and-sensitive-data).
+   Mer information om hur du hanterar personliga och känsliga data finns i [Hantera mobilprofilsfält med personliga och känsliga data](../../channels/using/about-in-app-messaging.md#handling-mobile-profile-fields-with-personal-and-sensitive-data).
 
 ![](assets/diagram_inapp.png)
 
-## Hantera mobilprofilfält med personliga och känsliga data {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
-
-I Adobe Campaign lagras data för mobilprofilattribut som skickas från mobila enheter i resursen **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**, vilket gör att du kan definiera de data som du vill samla in från programprenumeranterna.
-
-Resursen måste utökas för att samla in data som du tänker skicka från den mobila enheten till Adobe Campaign.  Om du vill göra det går du till den här [sidan](../../developing/using/extending-the-subscriptions-to-an-application-resource.md) för detaljerade steg.
-
-Om du vill personalisera meddelanden i appen på ett säkrare sätt måste du konfigurera fält för mobilprofiler från den här resursen på rätt sätt. När du skapar nya fält för mobilprofiler i **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** bör du markera **[!UICONTROL Personal and Sensitive]** så att de inte är tillgängliga vid personalisering av meddelanden i appar.
-
->[!NOTE]
->
->Om du har en befintlig implementering med ett anpassat resurstillägg i den här tabellen rekommenderar vi att du etiketterar fälten korrekt innan du använder dem för anpassning av meddelanden i appen.
-
-![](assets/in_app_personal_data_2.png)
-
-När den anpassade resursen **[!UICONTROL Subscriptions to an application]** har konfigurerats och publicerats kan du börja förbereda leverans i appen med hjälp av mallen **[!UICONTROL Target users based on their Mobile profile (inApp)]**. Endast icke-personliga och icke-känsliga fält är tillgängliga från resursen **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** för personalisering.
-
-Om du behöver personalisera med fält som är **personliga och känsliga** bör du använda mallen **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**, som har extra säkerhetsfunktioner för att skydda användarnas personuppgifter.
-
 ## Förbereder ditt meddelande i appen {#preparing-your-in-app-message}
+
+>[!CAUTION]
+>
+>Anpassning i appen förlitar sig på ett länkningsfält som vanligtvis är ett CRM-ID och/eller inloggnings-ID för mobilapp. Du ansvarar själv för att säkra det här länkningsfältet när det används i samband med Adobe Campaign. Om du inte skyddar länkningsfälten kan ditt personliga meddelande bli sårbart. Adobe ansvarar inte för skador som uppstår på grund av obehörig åtkomst eller användning av profildata om du inte följer säkra metoder för att länkningsfältets disposition, hantering och skydd.
 
 Stegen för att skapa ett fristående meddelande i appen med Adobe Campaign är följande:
 
@@ -136,6 +118,21 @@ Ditt Meddelande i appen kan nu skickas till din målgrupp.
 * [Anpassa ett meddelande i appen](../../channels/using/customizing-an-in-app-message.md)
 * [Rapport i appen](../../reporting/using/in-app-report.md)
 * [Skicka ett meddelande i appen i ett arbetsflöde](../../automating/using/in-app-delivery.md)
+
+## Förhandsgranska meddelandet i appen {#previewing-the-in-app-message}
+
+Innan du skickar ditt meddelande i appen kan du testa med testprofilerna för att kontrollera vad målgruppen kommer att se när de får leveransen.
+
+1. Klicka på knappen **[!UICONTROL Preview]**.
+
+   ![](assets/inapp_sending_2.png)
+
+1. Klicka på knappen **[!UICONTROL Select a test profile]** och välj en av testprofilerna för att förhandsgranska leveransen. Mer information om testprofiler finns i det här [avsnittet](../../audiences/using/managing-test-profiles.md).
+1. Kontrollera meddelandet på olika enheter som t.ex. Android- och iPhone-telefoner men även surfplattor. Du kan också kontrollera om dina anpassningsfält hämtar rätt data.
+
+   ![](assets/inapp_sending_3.png)
+
+1. Du kan nu skicka ditt meddelande och mäta dess effekt med leveransrapporter.
 
 ## Skicka ditt meddelande i appen {#sending-your-in-app-message}
 
