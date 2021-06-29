@@ -7,19 +7,18 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: fileTransfer,main
-feature: Workflows
+feature: Arbetsflöden
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
+source-git-commit: 643b8cb973a95155e64fed7df04e15aa2332a22d
 workflow-type: tm+mt
-source-wordcount: '1099'
-ht-degree: 92%
+source-wordcount: '1116'
+ht-degree: 91%
 
 ---
 
-
-# Överföringsfil{#transfer-file}
+# För över fil{#transfer-file}
 
 ## Beskrivning {#description}
 
@@ -54,7 +53,7 @@ Du kan använda den här aktiviteten för att återställa data som sedan strukt
    * [HTTP](#HTTP-configuration-wf)
    * [SFTP](#SFTP-configuration-wf)
    * [Amazon S3](#S3-configuration-wf)
-   * [Microsoft Azure Blob Storage](#azure-blob-configuration-wf)
+   * [Microsoft Azure Blob-lagring](#azure-blob-configuration-wf)
    * [Fil(er) på Adobe Campaign-servern](#files-server-configuration-wf)
 
 1. Med avsnitt **[!UICONTROL Additional options]** som är tillgängligt beroende på vilket protokoll som har valts så kan du lägga till parametrar i protokollet. Du kan:
@@ -106,6 +105,12 @@ Med protokollet Amazon S3 så kan du börja ladda ned en fil från en länk elle
 
    ![](assets/wkf_file_transfer_08.png)
 
+   >[!CAUTION]
+   >
+   > Jokertecken stöds inte med Amazon S3.
+   >
+   > Om du vill ha flera målfiler som `my_file_02` och `my _file_3433` kan du använda följande syntax: `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`.
+
 4. Om du vill ta bort dina källfiler när överföringen är slutförd så kontrollerar du **[!UICONTROL Delete the source files after transfer]**.
 
 ### Konfiguration med Microsoft Azure Blob Storage {#azure-blob-configuration-wf}
@@ -136,7 +141,7 @@ Protokollet **[!UICONTROL File(s) present on the Adobe Campaign server]** motsva
 Metat eller jokertecken (exempelvis * eller ?) kan användas för att filtrera filer.
 
 Välj om du vill **[!UICONTROL Define a file path]** eller **[!UICONTROL Use a dynamic file path]**
-**[!UICONTROL Use a dynamic file path]**-alternativet ger dig möjligheten att använda ett standarduttryck och händelsevariabler för att anpassa namnet på filen som ska överföras. Se denna [sida](../../automating/using/customizing-workflow-external-parameters.md) för mer information om detta.
+**[!UICONTROL Use a dynamic file path]**-alternativet ger dig möjligheten att använda ett standarduttryck och händelsevariabler för att anpassa namnet på filen som ska överföras. Mer information finns på [den här sidan](../../automating/using/customizing-workflow-external-parameters.md).
 
 Notera att sökvägen måste vara relativ till Adobe Campaign-serverns lagringsutrymmeskatalog. Filerna finns i katalogen **sftp&lt;instansnamn>/** . Du kan inte heller bläddra bland katalogerna över lagringsutrymmet.
 
@@ -176,5 +181,3 @@ Tillgängliga utdatavariabler är:
 
 * **[!UICONTROL fileName]**: namnet på de överförda filerna.
 * **[!UICONTROL filesCount]**: antal överförda filer.
-
-
