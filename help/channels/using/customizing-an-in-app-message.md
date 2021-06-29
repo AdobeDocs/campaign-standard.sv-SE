@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,inAppContent,back
-feature: In App
+feature: I appen
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7d06cf9c-06b6-4041-8360-4f6bdbd48dd3
+source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '977'
 ht-degree: 99%
 
 ---
-
 
 # Anpassa ett meddelande i appen{#customizing-an-in-app-message}
 
@@ -128,7 +127,7 @@ Du kan lägga till upp till två knappar i meddelandet i appen.
 1. Ange din webb-URL eller djuplänk i **[!UICONTROL Destination URL]**-fältet, om du väljer **[!UICONTROL Redirect]**-åtgärden,
 1. Kontrollera meddelandeinnehållet i förhandsgranskningsfönstret eller genom att klicka på knappen Förhandsgranska.
 
-   Se sidan [Förhandsgranska meddelande i appen](#previewing-the-in-app-message).
+   Se sidan [Förhandsgranska meddelande i appen](../../channels/using/preparing-and-sending-an-in-app-message.md#previewing-the-in-app-message).
 
    ![](assets/inapp_customize_11.png)
 
@@ -190,18 +189,3 @@ Du kan också hitta en lista med anpassade HTML-krav för en slutförd import i 
 ![](assets/inapp_customize_3.png)
 
 När HTML-koden har importerats kan du förhandsgranska filen på olika enheter i förhandsgranskningsfönstret.
-
-## Förhandsgranska meddelandet i appen {#previewing-the-in-app-message}
-
-Innan du skickar ditt meddelande i appen kan du testa med testprofilerna för att kontrollera vad målgruppen kommer att se när de får leveransen.
-
-1. Klicka på knappen **[!UICONTROL Preview]**.
-
-   ![](assets/inapp_sending_2.png)
-
-1. Klicka på knappen **[!UICONTROL Select a test profile]** och välj en av testprofilerna för att förhandsgranska leveransen. Mer information om testprofiler finns i det här [avsnittet](../../audiences/using/managing-test-profiles.md).
-1. Kontrollera meddelandet på olika enheter som t.ex. Android- och iPhone-telefoner men även surfplattor. Du kan också kontrollera om dina anpassningsfält hämtar rätt data.
-
-   ![](assets/inapp_sending_3.png)
-
-1. Du kan nu skicka ditt meddelande och mäta dess effekt med leveransrapporter. Mer information om rapportering finns i [det här avsnittet](../../reporting/using/in-app-report.md).
