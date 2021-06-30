@@ -9,9 +9,9 @@ role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 source-git-commit: c0362e6b440f19dcbce965910d9594a1bc3991ae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '241'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 90%
 
 ## Nyheter
 
-* **[Frågor och ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html)**<br/> svar om Apples integritetsskyddHitta den första vägledningen som svar på Apples meddelande om iOS 15
+* **[Vanliga frågor och svar om integritetsskydd i Apple Mail ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html?lang=sv)**<br/> Hitta inledande vägledning som svar på Apples meddelande om iOS 15
 
 * **[Campaign – RTCDP-integrering](integrating/using/get-started-sources-destinations.md)**<br/> Läs om hur du delar data mellan Campaign och kunddataplattformen i realtid (RTCDP)
 
