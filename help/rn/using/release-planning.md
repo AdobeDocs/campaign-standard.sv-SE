@@ -10,10 +10,10 @@ feature: Översikt
 role: Business Practitioner
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 2daf09071482ab858c73bc8f4f287495e9f8be4b
-workflow-type: ht
+source-git-commit: b020d5c55ae8754bd792eb756dd5eb13ee988a66
+workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -27,7 +27,7 @@ Uppgraderingar distribueras i två faser. För det första uppgraderas stadieins
 
 Alla versionsdatum kan ändras: Vi rekommenderar att du regelbundet besöker den här sidan för att kontrollera om det finns uppdateringar.
 
-## Version 21.2 – version från juni 2021 {#release-21-2-release}
+## Version 21.3 – version från juni 2021 {#release-21-3-release}
 
 Miljöuppdateringar sker stegvis under de angivna tidsramarna nedan. Exakta datum meddelas till varje kund via e-post.
 
@@ -43,11 +43,11 @@ Detaljerad information om den här versionen finns i [Versionsinformationen](../
  <tbody>
   <tr>
    <td>Stadie<br /> </td>
-   <td>7–8 juni 2021<br /> </td>
+   <td>7-8 september 2021<br /> </td>
   </tr>
   <tr>
-   <td> Produktion<br /> </td>
-   <td>14–21 juni 2021<br /> </td>
+   <td>Produktion<br /> </td>
+   <td>14-21 september 2021<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -64,7 +64,7 @@ S: Ändringar visas i [versionsinformationen](../../rn/using/release-notes.md), 
 
 **F: Hur ser valideringsprocessen ut?**
 
-S: När du uppgraderar mellanlagringsinstansen rekommenderar Adobe att du validerar processerna och att användningsfallen fungerar som de ska med den nya versionen och att eventuella problem rapporteras till [Adobe Client Care](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html).
+S: När du uppgraderar mellanlagringsinstansen rekommenderar Adobe att du validerar processerna och att användningsfallen fungerar som de ska med den nya versionen och att eventuella problem rapporteras till [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
 
 **F: Kommer åtkomst att ges till instansen under uppgraderingsprocessen?**
 
@@ -86,4 +86,4 @@ S: Ja, de kommer att fungera. Det går inte att skicka nya e-postmeddelanden und
 
 S: När du loggar in på Campaign visas ett popup-fönster med den senaste versionen.
 
-Kontakta [Adobe Client Care](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) om du har frågor.
+Kontakta [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om du har frågor.
