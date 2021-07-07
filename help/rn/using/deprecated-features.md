@@ -10,10 +10,10 @@ feature: Översikt
 role: Business Practitioner
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: a68adf4de790e30ab9dd1f79e5daeb7feb45c83b
+source-git-commit: e86cc930f9b6b3f3990f3b16b3d8fd2d19e126b7
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 80%
+source-wordcount: '773'
+ht-degree: 76%
 
 ---
 
@@ -39,6 +39,22 @@ I det här avsnittet listas funktioner som har markerats som inaktuella i de sen
 I allmänhet listas de funktioner som ska tas bort i en framtida version först som inaktuella med ett alternativ som tillhandahålls. Dessa funktioner är inte längre tillgängliga för nya Campaign Standard-kunder eller ska inte användas för nya implementeringar. De tas också bort från produktdokumentationen.
 
 Kunder uppmanas att se över om de använder funktionen i den aktuella driftsättningen och planera för en ändring av implementeringen som låter dem använda alternativ som tillhandahålls. Se målversionen för borttagning för att planera miljön och projektuppdateringar utifrån detta.
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Integrering av Experience Cloud Assets</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> Från och med juli 2021 är Assets nu en äldre bastjänst som är under tillsyn. <a href="https://experienceleague.adobe.com/docs/core-services/interface/services/assets/experience-cloud-assets.html?lang=en">Läs mer</a>.</p>
+   <p>För ny implementering kan du inte längre integrera Experience Cloud Assets med Adobe Campaign Standard.</p>
+     <em>Måldatum för borttagning: 2022</em></p>
+     </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 <table> 
  <thead> 
