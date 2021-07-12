@@ -1,25 +1,24 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Definiera rätt publik
+title: Definiera rätt målgrupp
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: '"När ni har ert innehåll klart kan ni lära er hur ni noga definierar vilka som ska få ert meddelande."'
-feature: Deliverability
-role: Business Practitioner
+feature: Levererbarhet
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1e06fd9d-e850-4856-8f7b-b581dbe157df
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '517'
 ht-degree: 11%
 
 ---
 
-
-# Definiera rätt publik {#define-the-right-audience}
+# Definiera rätt målgrupp {#define-the-right-audience}
 
 Målgruppen är följande: skapa listor noggrant, testa e-postmeddelanden på populära e-postklienter och mobila enheter och se till att e-postlistorna är aktuella (utan okända eller föråldrade adresser). Du kan också skicka korrektur som hjälper dig att konfigurera en komplett valideringscykel.
 
@@ -43,7 +42,7 @@ Du kan också skapa och använda en anpassad målmappning. Mer information om de
 
 Du kan leverera till mottagare som lagras i en extern fil i stället för att sparas i databasen. Om du gör det läser du in data i databasen från en fil och skapar en associerad målgrupp.  Läs mer [i det här fallet](../../automating/using/use-case-calling-workflow.md). Se även [Anropa ett arbetsflöde med parametrar](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
-## Skicka till dina prenumeranter {#send-to-subscribers}
+## Skicka till prenumeranterna {#send-to-subscribers}
 
 Om du vill skicka meddelanden till prenumeranterna på ett nyhetsbrev kan du rikta dem direkt till motsvarande informationstjänst. Läs mer [i det här avsnittet](../../audiences/using/about-subscriptions.md).
 
@@ -58,7 +57,7 @@ Läs mer om testprofiler [i det här avsnittet](../../audiences/using/managing-t
 
 Du kan använda [Kontrollgrupper](../../sending/using/control-group.md) för att mäta effekten av dina kampanjer genom att utesluta en del av deras målgrupp. Sedan kan du jämföra beteendet hos målpopulationen som fick meddelandet med beteendet hos kontakter som inte var med i målgrupperna. Baserat på de skickade loggarna kan du även inrikta dig på en kontrollgrupp i framtida kampanjer.
 
-## Ta bort dubblettadresser {#deduplicate-addresses}
+## Deduplicera adresser {#deduplicate-addresses}
 
 Det är viktigt att undvika att ha dubbla e-postadresser, eftersom detta kan påverka ditt mål:
 
