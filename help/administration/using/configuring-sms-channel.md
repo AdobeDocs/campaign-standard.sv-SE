@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
 feature: Instansinställningar
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 95%
@@ -24,7 +24,7 @@ Om du vill skicka SMS-meddelanden måste ett eller flera externa konton konfigur
 
 Stegen för att skapa och ändra ett externt konto finns i avsnittet [Externa konton](../../administration/using/external-accounts.md).  Nedan hittar du specifika parametrar för externa konton för att skicka SMS-meddelanden.
 
-## Definiera en SMS-dirigering{#defining-an-sms-routing}
+## Definiera en SMS-dirigering {#defining-an-sms-routing}
 
 Det externa kontot **[!UICONTROL SMS routing via SMPP]** anges som standard. Det kan dock vara användbart att lägga till andra konton.
 
@@ -316,7 +316,7 @@ Med funktionen **[!UICONTROL Define a specific mapping of encodings]** kan du de
 
    ![](assets/sms_data_coding1.png)
 
-### Automatiskt svar skickat till MO{#automatic-reply-sent-to-the-mo}
+### Automatiskt svar skickat till MO {#automatic-reply-sent-to-the-mo}
 
 När en profil svarar på ett SMS som skickades via Kampanjer kan du konfigurera meddelanden som automatiskt skickas tillbaka till profilen samt vilken åtgärd som ska utföras.
 
