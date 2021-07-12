@@ -1,25 +1,24 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Använda traps
+title: Använda spam-samlare
 description: Lär dig hur du använder svällning i meddelanden.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
-feature: Seed Address
-role: Business Practitioner
+feature: Startadress
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0482a946-35b1-426f-8505-42adcd1c3bbb
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '384'
 ht-degree: 2%
 
 ---
 
-
-# Använda traps {#using-traps}
+# Använda spam-samlare {#using-traps}
 
 När du använder svällningar skickas meddelandet till [testprofilen](../../audiences/using/managing-test-profiles.md) precis som det skickas till huvudmålet, för att identifiera om klientfilen används bedrägligt.
 
