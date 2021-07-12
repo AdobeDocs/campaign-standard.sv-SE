@@ -7,17 +7,16 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: '"Lär dig hur du utför alla kontroller innan du skickar meddelandet när det är klart"'
-feature: Deliverability
-role: Business Practitioner
+feature: Levererbarhet
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: dfc5fc00-87aa-4d22-ad7c-cc0ba1ee21be
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 15%
+source-wordcount: '411'
+ht-degree: 16%
 
 ---
-
 
 # Utför alla kontroller innan du skickar {#perform-all-checks}
 
@@ -25,7 +24,7 @@ När meddelandet är klart ser du till att innehållet visas korrekt på alla en
 
 Innan du skickar meddelandet måste du se till att parametrarna och konfigurationen stämmer överens med leveransen.
 
-## Varför validering är nyckel {#validation-is-key}
+## Varför validering är avgörande {#validation-is-key}
 
 Innan du skickar en leverans måste du se till att mottagarna får det meddelande som du verkligen vill skicka. För att göra detta måste du validera meddelandets innehåll och leveransparametrar.
 
@@ -64,4 +63,3 @@ Om du har flera innehåll för en e-postleverans kan du använda A/B-testning f�
 * Välj den som har högst framgångsfrekvens och skicka den till resten av ditt mål
 
 Läs mer [i det här avsnittet](../../channels/using/designing-an-a-b-test-email.md).
-
