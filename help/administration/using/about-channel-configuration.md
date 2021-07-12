@@ -6,17 +6,16 @@ description: '"Varje kanal måste konfigureras: teknisk konfiguration, meddeland
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Instance Settings
-role: Administrator
+feature: Instansinställningar
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5b4cbe46-7ae6-4985-8195-f73b9b104898
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '143'
 ht-degree: 4%
 
 ---
-
 
 # Om kanalkonfiguration{#about-channel-configuration}
 
