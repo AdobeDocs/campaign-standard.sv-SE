@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: Transaktionsmeddelanden
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: '1674'
 ht-degree: 7%
 
 ---
-
 
 # Konfigurera en transaktionshändelse {#configuring-transactional-event}
 
@@ -102,7 +101,7 @@ Här är API-förhandsvisningen för det här exemplet:
 * [Använda produktlistor i ett transaktionsmeddelande](../../designing/using/using-product-listings.md)
 * [Publicera ett transaktionsmeddelande](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 
-## Angriper händelsen {#enriching-the-transactional-message-content}
+## Förbättra händelsen {#enriching-the-transactional-message-content}
 
 Du kan utöka transaktionsmeddelandets innehåll med information från Adobe Campaign-databasen för att personalisera dina meddelanden. Från efternamnet eller CRM-ID:t för var och en av mottagarna kan du till exempel återställa data som adress eller födelsedatum eller andra anpassade fält som lagts till i profiltabellen, för att anpassa informationen som skickas till dem.
 
@@ -224,7 +223,7 @@ The steps to configure an  event to send an SMS transactional message are the sa
 
 * The specificities to edit the content of an SMS transactional message are the same as for a [standard SMS](../../channels/using/about-sms-and-push-content-design.md).-->
 
-### Push-meddelanden för transaktioner {#transactional-push-notifications}
+### Push-transaktionsmeddelanden {#transactional-push-notifications}
 
 Du kan skicka två typer av push-meddelanden för transaktioner:
 * Ett anonymt transaktionspush-meddelande till alla användare som har valt att ta emot meddelanden från ditt mobilprogram. Se [Konfigurera händelsebaserade push-meddelanden för transaktioner](../../channels/using/transactional-push-notifications.md#event-based-transactional-push-notifications).
