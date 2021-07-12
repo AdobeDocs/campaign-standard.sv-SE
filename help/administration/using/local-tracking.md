@@ -7,21 +7,20 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Instance Settings
-role: Administrator
+feature: Instansinställningar
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
+exl-id: b983d0a3-c345-44d4-bc82-202bf6ed26ab
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
 
-
 # Implementera lokal spårning {#local-tracking}
 
-## Lokal spårning {#about-local-tracking}
+## Om lokal spårning {#about-local-tracking}
 
 På den här sidan kan du se till att lokal meddelandespårning har implementerats korrekt. Observera att detta innebär att lokala meddelanden redan har konfigurerats.
 
@@ -102,7 +101,7 @@ class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
 }
 ```
 
-## Implementera öppningsspårning {#implement-open-tracking}
+## Implementera spärra/knip {#implement-open-tracking}
 
 Du måste skicka &quot;1&quot; och &quot;2&quot; eftersom användaren måste klicka på meddelandet för att kunna öppna programmet. Om programmet inte startas/öppnas via ett lokalt meddelande sker inga spårningshändelser.
 
