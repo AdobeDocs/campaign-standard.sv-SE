@@ -6,17 +6,16 @@ description: Lär dig hur du skickar systemmeddelanden i realtid till dina Adobe
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Instance Settings
-role: Administrator
+feature: Instansinställningar
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7e04275a-5413-4f03-b18c-b64ab482d7d5
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '266'
 ht-degree: 2%
 
 ---
-
 
 # Skicka interna meddelanden{#sending-internal-notifications}
 
