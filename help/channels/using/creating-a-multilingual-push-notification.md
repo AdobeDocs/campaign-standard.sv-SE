@@ -7,16 +7,15 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 feature: Push
-role: Business Practitioner
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1b81f6e9-cb31-4664-af78-22e70043fbc8
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '921'
 ht-degree: 3%
 
 ---
-
 
 # Skapa ett flerspråkigt push-meddelande{#creating-a-multilingual-push-notification}
 
@@ -83,7 +82,7 @@ Innan vi personaliserar ditt flerspråkiga push-meddelande måste vi först öve
 
 Nu kan du börja personalisera ditt flerspråkiga push-meddelande.
 
-## Steg 2: Förhandsgranska och slutför ett push-meddelande med flerspråkiga innehållsvarianter {#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants}
+## Steg 2: Förhandsgranska och färdigställa ett push-meddelande med flerspråkiga innehållsvarianter {#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants}
 
 När du har överfört filen som innehåller innehållsvarianter kan du nu förhandsgranska de olika varianterna från leveransen av push-meddelanden.
 
@@ -111,7 +110,7 @@ Det går också att skapa och redigera fler varianter utöver de som har överf�
 
 Din flerspråkiga push-meddelandeleverans är nu klar att skickas.
 
-## Steg 3: Skicka och analysera flerspråkig push-meddelandeleverans {#step-3--send-and-analyze-multilingual-push-notification-delivery}
+## Steg 3: Skicka och analysera flerspråkig leverans av push-meddelanden {#step-3--send-and-analyze-multilingual-push-notification-delivery}
 
 Dina flerspråkiga innehållsvariantmeddelanden kan nu skickas till dina användare.
 
