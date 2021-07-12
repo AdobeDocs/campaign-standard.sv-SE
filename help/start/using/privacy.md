@@ -10,17 +10,17 @@ content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 feature: Sekretess
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
-source-git-commit: 694d596ea3c7b85759716ae44b2713ed3f8b5dcf
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1478'
 ht-degree: 100%
 
 ---
 
-# Integritet och medgivande{#privacy-and-consent}
+# Sekretess och medgivande{#privacy-and-consent}
 
 ## Allmänna rekommendationer {#general-recommendations}
 
@@ -98,7 +98,7 @@ Med Adobe Campaign kan ni samla in data, inklusive personuppgifter och känslig 
 * Genom medgivande och behörighetshantering kan du spåra mottagarnas preferenser och hantera vem inom organisationen som har tillgång till vilka data. Mer information finns i [det här avsnittet](#consent).
 * Underlätta och hantera förfrågningar om användarens information från era mottagare. Mer information finns i [det här avsnittet](#privacy-requests).
 
-## Integritetshantering {#privacy-management}
+## Sekretesshantering {#privacy-management}
 
 Integritetshantering avser alla processer och verktyg som kan hjälpa er att följa integritetsbestämmelser (GDPR, CCPA, etc.). Få en översikt över vad integritetshantering är på [denna sida](https://helpx.adobe.com/se/campaign/kb/campaign-privacy-overview.html).
 
@@ -130,7 +130,7 @@ Adobe Campaign erbjuder ytterligare funktioner som underlättar din beredskap so
 
 >[!NOTE]
 >
->Den här uppsättningen verktyg hjälper dig med din integritetsefterlevnad gällande GDPR, CCPA och PDPA. Se [denna sida](https://helpx.adobe.com/se/campaign/kb/campaign-privacy-overview.html#whatisgdpr) för mer information om dessa olika regelverk.
+>Den här uppsättningen verktyg hjälper dig med din integritetsefterlevnad gällande GDPR, CCPA och PDPA. Se [denna sida](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr) för mer information om dessa olika regelverk.
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
