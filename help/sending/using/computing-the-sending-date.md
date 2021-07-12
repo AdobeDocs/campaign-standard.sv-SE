@@ -1,28 +1,27 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Beräkna utskicksdatum
+title: Beräkna utskicksdatumet
 description: Upptäck hur du skickar ett meddelande vid ett visst datum och en viss tidpunkt.
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-feature: Performance Monitoring
-role: Business Practitioner
+feature: Prestandaövervakning
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7a0cd10a-24e6-44d1-842c-2067bfbac838
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1000'
 ht-degree: 1%
 
 ---
 
-
-# Beräkna utskicksdatum{#computing-the-sending-date}
+# Beräkna utskicksdatumet{#computing-the-sending-date}
 
 Du kan definiera en formel som skickar meddelandet till varje mottagare vid ett visst datum och en viss tidpunkt.
 
-## Anpassa datumformeln {#customizing-date-formula}
+## Anpassa datumformel {#customizing-date-formula}
 
 Du kan till exempel använda tidsoptimering för sändning under avstämningsprocessen.
 
@@ -178,4 +177,3 @@ Du kan schemalägga detta med ett arbetsflöde.
 * Det andra segmentet får meddelandet två timmar senare (25 maj klockan 10:00).
 * Det tredje segmentet kommer att få meddelandet sex timmar senare (25 maj klockan 2:00).
 * Det fjärde segmentet får meddelandet åtta timmar senare (25 maj klockan 17:00).
-
