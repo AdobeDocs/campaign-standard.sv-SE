@@ -6,17 +6,16 @@ description: Läs mer om riktlinjer för konfiguration av Campaign Standard.
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
-feature: Access Management
-role: Administrator
+feature: Åtkomsthantering
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 88684ed6-6d8d-4691-987f-812e7e1d834c
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 4%
+source-wordcount: '119'
+ht-degree: 5%
 
 ---
-
 
 # Konfigurationsriktlinjer {#about-configuration-guidelines}
 
@@ -49,7 +48,7 @@ Här är de olika slutpunkterna som används i Campaign Standard.
 | Kampanjinstanser | `https://*.experiencecloud.adobe.com` (klient-ID * + klientdomän)<br>`https://*.campaign.adobe.com` (Campaign Instance tenant) |
 | IMS | `https://adobeid-na1.services.adobe.com`<br>`https://*.adobelogin.com` |
 | Experience Cloud | `https://experiencecloud.adobe.com` |
-| Spårning | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net` |
+| Spåra | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net` |
 | Resursintegrering | `https://*.marketing-assets.adobe.com` |
 | Interna Adobe-tjänster | `https://*.adobe.io` |
 | Undersökningar | `https://adobe.allegiancetech.com` |
