@@ -6,17 +6,16 @@ description: Upptäck hur du hanterar e-postformat i e-postdesignern.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: E-postdesign
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 8daeb12d-4170-464f-ba33-afb681f72a91
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1054'
 ht-degree: 2%
 
 ---
-
 
 # Hantera e-postformat {#managing-styles}
 
@@ -100,7 +99,7 @@ För både **[!UICONTROL Padding]** och **[!UICONTROL Margin]** klickar du på l
 
    ![](assets/des_set_vertical_alignment.png)
 
-## Anger bakgrunder {#about-backgrounds}
+## Ange bakgrunder {#about-backgrounds}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
@@ -201,7 +200,7 @@ Du kan stryka under en länk och välja dess färg och mål i e-postdesignern.
 
 1. Spara ändringarna.
 
-## Lägger till textbundna formatattribut {#adding-inline-styling-attributes}
+## Lägga till textbundna formatattribut {#adding-inline-styling-attributes}
 
 När du markerar ett element och visar dess inställningar på sidopanelen i gränssnittet för e-postdesignern kan du anpassa infogade attribut och deras värde för det specifika elementet.
 
