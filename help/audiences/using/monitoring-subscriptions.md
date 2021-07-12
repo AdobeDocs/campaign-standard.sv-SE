@@ -6,17 +6,16 @@ description: Lär dig hur du spårar dina prenumeranter och mäter hur bra dina 
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-feature: Audiences
-role: Business Practitioner
+feature: Målgrupper
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ad380122-6791-4580-b0eb-fce75b1ec863
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '358'
 ht-degree: 1%
 
 ---
-
 
 # Övervaka prenumerationer{#monitoring-subscriptions}
 
@@ -29,7 +28,7 @@ Du kan övervaka prenumerationer och avbeställningar på flera olika sätt:
 * Visa en rapport som beskriver utvecklingen av prenumerationer och avbeställningar i tjänsten **Rapporter**. Se [Tjänstrapporter](#service-reports).
 * Hitta listan med tjänster som en person har prenumererat på i sin **profil**. Se [Händelsehistorik länkad till en profil](#history-of-events-linked-to-a-profile).
 
-## Kontrollpanel för tjänst {#service-dashboard}
+## Instrumentpanel för tjänst {#service-dashboard}
 
 Så här visar du en lista över personer som prenumererar på en tjänst:
 
@@ -49,7 +48,7 @@ Så här läser du historiken för prenumerationer och avprenumerationer:
 
 ![](assets/lp_monitoring_subscriptions_2.png)
 
-## Tjänstrapporter {#service-reports}
+## Servicerapporter {#service-reports}
 
 Så här visar du en rapport med information om utvecklingen av prenumerationer och upphörande av prenumerationer:
 
@@ -63,9 +62,8 @@ Så här visar du en rapport med information om utvecklingen av prenumerationer 
 
 ![](assets/lp_monitoring_subscriptions_4.png)
 
-## Händelsehistorik som är länkad till en profil {#history-of-events-linked-to-a-profile}
+## Historik över händelser som är kopplade till en profil {#history-of-events-linked-to-a-profile}
 
 Om du vill se en lista över tjänster som en kontakt har prenumererat på kan du läsa dess marknadsföringshistorik. Mer information finns i avsnittet [Integrerad kundprofil](../../audiences/using/integrated-customer-profile.md).
 
 ![](assets/lp_monitoring_subscriptions_5.png)
-
