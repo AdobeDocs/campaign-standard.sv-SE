@@ -6,19 +6,18 @@ description: Lär dig hur du arkiverar e-postmeddelanden med Adobe Campaign Stan
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
-feature: Performance Monitoring
-role: Business Practitioner
+feature: Prestandaövervakning
+role: User
 level: Intermediate
 exl-id: 7bf380d7-195e-413d-b14e-85e78b07ba8b
-translation-type: tm+mt
-source-git-commit: f7d77f524a6c141066056e53fc8616f35189fc39
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 7%
+source-wordcount: '364'
+ht-degree: 6%
 
 ---
 
-# Arkivering med e-postkopia{#archiving-emails}
+# Arkivering med e-post med dold mottagare{#archiving-emails}
 
 Du kan konfigurera Adobe Campaign att behålla en kopia av e-postmeddelanden som skickas från din plattform via e-post-BCC.
 
