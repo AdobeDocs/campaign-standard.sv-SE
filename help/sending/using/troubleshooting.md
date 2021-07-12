@@ -7,19 +7,18 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Deliverability
-role: Business Practitioner
+feature: Levererbarhet
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: 0470b986-c00a-4441-8621-82c7112a9953
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '468'
 ht-degree: 2%
 
 ---
 
-
-# Felsökning{#troubleshooting}
+# Felsöka{#troubleshooting}
 
 Har du något leveransproblem? Du kan hitta lösningen här.
 
@@ -49,7 +48,7 @@ Om problemet kvarstår kontaktar du den kommersiella tjänsten, leveransprogramm
 
    Mer information finns i [Om karantänhantering](../../sending/using/understanding-quarantine-management.md).
 
-## Tar bort från blockeringslista {#removing-from-denylist}
+## Ta bort från blockeringslista {#removing-from-denylist}
 
 * **En av mina mottagare lades till i blockeringslista av misstag. Hur tar jag bort dem från blockeringslista så att jag kan börja skicka dem igen?**
 
