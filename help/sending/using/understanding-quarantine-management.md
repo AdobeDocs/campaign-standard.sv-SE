@@ -6,19 +6,18 @@ description: Lär dig hur ni optimerar er leveransbarhet med karantänshantering
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-feature: Deliverability
-role: Business Practitioner
+feature: Levererbarhet
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '782'
 ht-degree: 82%
 
 ---
 
-
-# Om karantänshantering{#understanding-quarantine-management}
+# Förstå karantänshantering{#understanding-quarantine-management}
 
 ## Om karantäner {#about-quarantines}
 
@@ -46,7 +45,7 @@ Om du å andra sidan är på **Blockeringslista** blir profilen inte längre kop
 
 >[!NOTE]
 >
->När en användare svarar på ett SMS-meddelande med ett nyckelord som&quot;STOP&quot; för att avanmäla sig från SMS-leveranser, är profilen inte till blockeringslista som i avanmälningsprocessen. Profilens telefonnummer skickas till karantän med status **[!UICONTROL On denylist]**.    Denna status avser endast telefonnumret, profilen är inte på blockeringslista så att användaren fortsätter att ta emot e-postmeddelanden. Mer information om detta hittar du i [det här avsnittet](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
+>När en användare svarar på ett SMS-meddelande med ett nyckelord som&quot;STOP&quot; för att avanmäla sig från SMS-leveranser, är profilen inte till blockeringslista som i avanmälningsprocessen. Profilens telefonnummer skickas till karantän med status **[!UICONTROL On denylist]**.    Denna status avser endast telefonnumret, profilen är inte på blockeringslista så att användaren fortsätter att ta emot e-postmeddelanden. Mer information om detta finns i [det här avsnittet](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
 ## Identifiera adresser i karantän {#identifying-quarantined-addresses}
 
@@ -94,4 +93,3 @@ Karantänen i Adobe Campaign är skiftlägeskänslig.    Se till att importera e
 I listan med adresser i karantän (se [Identifiera adresser i karantän för hela plattformen](#identifying-quarantined-addresses-for-the-entire-platform)) så visar fältet **[!UICONTROL Error reason]** varför den valda adressen placerades i karantän.
 
 ![](assets/quarantines2.png)
-
