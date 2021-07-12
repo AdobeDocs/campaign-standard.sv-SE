@@ -6,17 +6,16 @@ description: Följ de här stegen för att skapa ett enda e-postmeddelande i Ado
 audience: channels
 content-type: reference
 topic-tags: email-messages
-feature: Email
-role: Business Practitioner
+feature: E-post
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 4483e469-0a2b-494d-b768-950168759727
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '557'
 ht-degree: 18%
 
 ---
-
 
 # Skapa ett e-postmeddelande{#creating-an-email}
 
@@ -97,7 +96,7 @@ Du kan skapa ett e-postmeddelande från en [kampanj](../../start/using/marketing
 * [Integrering med Adobe Campaign och Dreamweaver](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 * [Integrera med Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
 
-## Självstudievideo {#video}
+## Videokurs {#video}
 
 I den här videon visas hur du skapar ett e-postmeddelande.
 
