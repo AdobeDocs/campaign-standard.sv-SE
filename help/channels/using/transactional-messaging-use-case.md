@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: Transaktionsmeddelanden
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ee1a9705-4c21-4d46-a178-fde2e059f443
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '506'
 ht-degree: 4%
 
 ---
-
 
 # Användningsfall med transaktionsmeddelanden {#transactional-messaging-use-case}
 
@@ -87,10 +86,10 @@ De viktigaste stegen för att implementera detta användningsexempel presenteras
 
 1. När innehållet är klart sparar du ändringarna och publicerar meddelandet. Se [Publicera ett transaktionsmeddelande](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
 
-## Steg 3 - Integrera den händelseutlösare {#integrate-event-trigger}
+## Steg 3 - Integrera den händelseutlösande händelsen {#integrate-event-trigger}
 
 Integrera evenemanget på webbplatsen. Se [Integrera händelsen som utlöser](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
 
-## Steg 4 - Meddelandeleverans {#message-delivery}
+## Steg 4 - Leverans av meddelanden {#message-delivery}
 
 När alla dessa steg har utförts får kunden ett personligt bekräftelsemeddelande via e-post med information om köpet så snart kunden köper produkter från din webbplats.
