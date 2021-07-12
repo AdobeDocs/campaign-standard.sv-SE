@@ -7,10 +7,10 @@ audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
 feature: Profiler
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
-source-git-commit: bc55ccea9691d904bbc1b64d93d0a7b8486940e5
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 20%
@@ -51,7 +51,7 @@ Läs mer:
 * [Om profiler](../../audiences/using/about-profiles.md)
 * [Aktiva profiler](../../audiences/using/active-profiles.md)
 * [Hantera testprofiler](../../audiences/using/managing-test-profiles.md)
-* [Berika Campaign-databasen](../../audiences/using/enriching-campaign-database.md)
+* [Berika databasen i Campaign](../../audiences/using/enriching-campaign-database.md)
 * [Om målgrupper](../../audiences/using/about-audiences.md)
 * [Välja en målgrupp i ett meddelande](../../audiences/using/selecting-an-audience-in-a-message.md)
 * [Lägga till en kontrollgrupp](../../sending/using/control-group.md)
