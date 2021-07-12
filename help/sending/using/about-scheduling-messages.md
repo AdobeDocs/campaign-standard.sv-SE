@@ -7,18 +7,17 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Send Time Optimization
-role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+feature: Tidsoptimering för sändning
+role: User
+exl-id: 6b26615b-4aa6-401d-a12d-25cef4cd0524
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '271'
 ht-degree: 98%
 
 ---
 
-
-# Om schemaläggning av meddelanden{#about-scheduling-messages}
+# Om att schemalägga meddelanden{#about-scheduling-messages}
 
 >[!IMPORTANT]
 >
@@ -50,7 +49,6 @@ Med **[!UICONTROL Schedule]**-egenskaperna kan du ange sändningsalternativ för
 
 **Relaterade ämnen**:
 
-* [Optimera sändningstiden](../../sending/using/optimizing-the-sending-time.md)
+* [Optimera utskickstiden](../../sending/using/optimizing-the-sending-time.md)
 * [Skicka meddelanden i mottagarens tidszon](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)
-* [Beräkna utskicksdatum](../../sending/using/computing-the-sending-date.md)
-
+* [Beräkna utskicksdatumet](../../sending/using/computing-the-sending-date.md)
