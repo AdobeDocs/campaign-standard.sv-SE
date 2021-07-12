@@ -1,24 +1,23 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Anpassa e-postinnehåll
+title: Personalisera e-postinnehåll
 description: Läs om hur du anpassar e-postmeddelanden i e-postdesignern.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: E-postdesign
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '2578'
+source-wordcount: '2575'
 ht-degree: 4%
 
 ---
 
-
-# Anpassa e-postinnehåll {#personalization}
+# Personalisera e-postinnehåll {#personalization}
 
 Innehållet i och visningen av meddelanden från Adobe Campaign kan personaliseras på flera olika sätt. Dessa sätt kan kombineras enligt villkor beroende på profilerna. I allmänhet kan du med Adobe Campaign:
 
@@ -28,7 +27,7 @@ Innehållet i och visningen av meddelanden från Adobe Campaign kan personaliser
 * Anpassa ämnet för ett e-postmeddelande. Se [Anpassa ämnesraden i ett e-postmeddelande](../../designing/using/subject-line.md#subject-line).
 * Skapa villkorsstyrt innehåll. Se [Definiera dynamiskt innehåll i ett e-postmeddelande](#defining-dynamic-content-in-an-email).
 
-## Avsändaren {#personalizing-the-sender} anpassas
+## Anpassa avsändaren {#personalizing-the-sender}
 
 Om du vill definiera namnet på avsändaren som ska visas i huvudet för skickade meddelanden går du till fliken **[!UICONTROL Properties]** på e-postdesignerns hemsida (nås via hemikonen). Mer information finns i [Definiera avsändaren av ett e-postmeddelande](../../designing/using/subject-line.md#email-sender).
 
@@ -164,7 +163,7 @@ Ditt innehållsblock kan nu användas i innehållsredigeraren för ett meddeland
 >
 >När du redigerar innehållet i ett block ska du kontrollera att det inte finns några extra tomrum mellan början och slutet av *if*-programsatserna. I HTML visas tomrummen på skärmen och påverkar därför innehållslayouten.
 
-### Om måldimension {#about-targeting-dimension}
+### Om målinriktning {#about-targeting-dimension}
 
 Med måldimensionen kan du definiera i vilken typ av meddelande som du kan använda innehållsblocket. Detta för att förhindra att olämpliga block används i ett meddelande, vilket kan leda till fel.
 
@@ -290,10 +289,10 @@ Att definiera dynamiskt innehåll skiljer sig från [att definiera synlighetsvil
 
 **Relaterade ämnen:**
 
-* [Skicka korrektur](../../sending/using/sending-proofs.md)
+* [Skicka bevis](../../sending/using/sending-proofs.md)
 * [Avancerad redigering av uttryck](../../automating/using/editing-queries.md#about-query-editor)
 
-### Prioritetsordning {#order-of-priority}
+### Prioriteringsordning {#order-of-priority}
 
 När du definierar ett dynamiskt innehåll i uttrycksredigeraren är prioritetsordningen följande.
 
@@ -313,7 +312,7 @@ När du definierar ett dynamiskt innehåll i uttrycksredigeraren är prioritetso
 
 Du kan bara definiera en prioritetsordning per dynamiskt innehåll.
 
-## Exempel: E-postanpassning{#example-email-personalization}
+## Exempel: E-postpersonalisering{#example-email-personalization}
 
 I det här exemplet har en medlem i marknadsföringsteamet skapat ett e-postmeddelande som informerar några av hans kunder om att det finns ett specialerbjudande som är specifikt för dem. Teammedlemmen bestämde sig för att anpassa e-postmeddelandet efter kundens respektive ålder. Kunder mellan 18 och 27 år får ett mejl med en annan bild och slogan än de som kunder över 27 kommer att få.
 
@@ -331,7 +330,7 @@ E-postmeddelandet skapas enligt följande:
 
    Tillägg och konfigurering av anpassningsfälten finns i avsnittet [Infoga ett anpassningsfält](#inserting-a-personalization-field).
 
-### Konfigurerar bilder {#configuring-images}
+### Konfigurera bilder {#configuring-images}
 
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_image"
@@ -429,5 +428,4 @@ Bilden har ändrats tack vare det dynamiska innehållet, och sloganen som visas 
 **Relaterade ämnen:**
 
 * [Skapa målgrupper](../../audiences/using/creating-audiences.md)
-* [Förbered sändningen](../../sending/using/preparing-the-send.md)
-
+* [Förbereda utskickningen](../../sending/using/preparing-the-send.md)
