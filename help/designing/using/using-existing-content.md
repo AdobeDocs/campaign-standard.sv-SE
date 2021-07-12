@@ -6,13 +6,13 @@ description: Upptäck hur du utformar e-postmeddelanden med befintligt e-postinn
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: E-postdesign
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3bda4227-2a6e-4813-a288-93a4388a9787
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1214'
 ht-degree: 5%
 
 ---
@@ -64,7 +64,7 @@ Om hela eller delar av HTML-koden inte har den här taggen läses innehållet in
 
 Om du vill göra ett befintligt externt innehåll helt redigerbart i e-postdesignern läser du avsnittet [Designa ett e-postmeddelande med befintligt innehåll](../../designing/using/using-existing-content.md).
 
-## Importera ett befintligt e-postinnehåll {#importing}
+## Importera befintligt e-postinnehåll {#importing}
 
 ### Importera innehåll från en fil {#importing-content-from-a-file}
 
@@ -112,7 +112,7 @@ Upptäck den här funktionen i en video.
 
 Ytterligare Campaign Standard om instruktionsvideor finns [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv).
 
-### Hämtar innehåll från en URL automatiskt vid förberedelsetiden {#retrieving-content-from-a-url-automatically-at-preparation-time}
+### Hämta innehåll från en URL automatiskt vid förberedelse {#retrieving-content-from-a-url-automatically-at-preparation-time}
 
 Genom att importera innehåll från en URL under meddelandeförberedelsen kan du hämta det senaste HTML-innehållet varje gång e-postmeddelandet förbereds. På så sätt är innehållet i återkommande e-postmeddelanden alltid uppdaterat när de skickas. Med den här funktionen kan du även skapa ett meddelande som schemalagts vid ett visst datum, även om innehållet inte är klart än.
 
