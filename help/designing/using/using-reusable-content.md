@@ -6,13 +6,13 @@ description: Börja bygga återanvändbart e-postinnehåll med e-postdesignern.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: E-postdesign
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1824'
+source-wordcount: '1821'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,7 @@ Den här mallen kan nu användas i alla e-postmeddelanden som skapats med e-post
 
 ![](assets/content_template_new.png)
 
-### Sparar innehåll som mall {#saving-content-as-template}
+### Spara innehåll som mall {#saving-content-as-template}
 
 När du redigerar ett e-postmeddelande med e-postdesignern kan du direkt spara innehållet i det e-postmeddelandet som en mall.
 
@@ -143,7 +143,7 @@ Om du vill använda den skapar du ett e-postmeddelande och väljer den innehåll
 * [Introduktionsvideo till e-postdesignern](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [Designa ett e-postinnehåll från grunden](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
-### Självstudievideo {#video}
+### Videokurs {#video}
 
 I dessa videofilmer visas hur du skapar en egen mall.
 
