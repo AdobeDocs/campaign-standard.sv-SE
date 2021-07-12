@@ -9,13 +9,12 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
-feature: Privacy
-role: Business Practitioner
+feature: Sekretess
+role: User
 level: Intermediate
 exl-id: 8f8ce032-5cff-44d3-9d3b-52511dbcaaab
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 100%
 
@@ -36,7 +35,7 @@ Punkterna nedan är länkade till de viktigaste villkoren och begreppen relatera
 * [Åtkomsträttigheter och rätt att glömmas](../../start/using/privacy-management.md#right-access-forgotten)
 * [Medgivande, lagring och roller](../../start/using/privacy-management.md#consent-retention-roles)
 
-## Beredskap för integritetsreglering{#privacy-regulations-readiness}
+## Beredskap för integritetsreglering {#privacy-regulations-readiness}
 
 **Vad föreslår Adobe Campaign för att följa den senaste integritetsregleringen?**
 
