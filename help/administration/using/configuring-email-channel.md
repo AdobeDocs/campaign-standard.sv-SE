@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
 feature: Instansinställningar
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '2598'
 ht-degree: 76%
@@ -320,7 +320,7 @@ Antalet försök kan ändras globalt (kontakta den tekniska administratören fö
 
 Som standard schemaläggs fem återförsök till den första dagen med ett minsta intervall på en timme, som sprids ut över dygnets 24 timmar. Ett nytt försök per dag programmeras efter detta och fram till leveransdatumet, som definieras globalt i avsnittet **[!UICONTROL Delivery parameters]** på menyn **[!UICONTROL Configuration]**, eller i avsnittet **[!UICONTROL Validity period]** på leveransnivån (se avsnittet [Leveranstid](#legacy-delivery-duration) nedan).
 
-### Leveranstid {#legacy-delivery-duration}
+### Leveransens varaktighet {#legacy-delivery-duration}
 
 Med parametern **[!UICONTROL Message delivery duration]** i [Konfigurationsmenyn](#email-channel-parameters) kan du ange den tidsram i vilken ett meddelande i leveransen som påträffar ett tillfälligt fel eller en mjuk avhoppning kommer att provas igen.
 
