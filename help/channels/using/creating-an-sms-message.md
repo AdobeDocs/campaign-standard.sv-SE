@@ -8,16 +8,15 @@ content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: deliveryCreation,wizard
 feature: SMS
-role: Business Practitioner
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 95%
+source-wordcount: '539'
+ht-degree: 96%
 
 ---
-
 
 # Skapa ett SMS-meddelande{#creating-an-sms-message}
 
@@ -84,7 +83,7 @@ När sändningen är klar kan du börja mäta effekten av meddelandet med inbygg
 * [Om SMS och push-innehållsutgåva](../../channels/using/about-sms-and-push-content-design.md)
 * [Hantera mallar](../../start/using/marketing-activity-templates.md)
 
-## Självstudievideo {#video}
+## Videokurs {#video}
 
 I den här videon visas hur du skapar en SMS-leverans.
 
