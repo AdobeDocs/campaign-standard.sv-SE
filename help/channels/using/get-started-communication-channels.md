@@ -7,10 +7,10 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 feature: Översikt
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 4ea5b0eb-35da-4db6-a529-ba636be7825f
-source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 20%
@@ -79,7 +79,7 @@ Läs mer:
 * [Publicera en transaktionshändelse](../../channels/using/publishing-transactional-event.md)
 * [Redigera ett transaktionsmeddelande](../../channels/using/editing-transactional-message.md)
 * [Publicera ett transaktionsmeddelande](../../channels/using/publishing-transactional-message.md)
-* [Push-meddelanden för transaktioner](../../channels/using/transactional-push-notifications.md)
+* [Push-transaktionsmeddelanden](../../channels/using/transactional-push-notifications.md)
 * [Uppföljningsmeddelanden](../../channels/using/follow-up-messages.md)
 
 ## Landningssidor {#landing-pages}
@@ -94,7 +94,7 @@ Läs mer:
 
 * [Komma igång med landningssidor](../../channels/using/getting-started-with-landing-pages.md)
 * [Mallar för landningssidor](../../channels/using/landing-page-templates.md)
-* [Hantera formulärdata på landningssidan](../../channels/using/managing-landing-page-form-data.md)
+* [Hantera formulärdata på landningssida](../../channels/using/managing-landing-page-form-data.md)
 * [Konfigurera en process för dubbel anmälan](../../channels/using/setting-up-a-double-opt-in-process.md)
 
 ## Ytterligare resurser
