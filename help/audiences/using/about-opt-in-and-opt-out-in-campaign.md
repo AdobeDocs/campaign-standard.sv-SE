@@ -6,17 +6,16 @@ description: Avanmäl dig så att en profil inte längre används av någon leve
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
-feature: Audiences
-role: Business Practitioner
+feature: Målgrupper
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ccb35aeb-2b32-4444-969b-50021111a0d6
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '221'
 ht-degree: 9%
 
 ---
-
 
 # Om anmälan och avanmälan i Campaign{#about-opt-in-and-opt-out-in-campaign}
 
@@ -30,6 +29,6 @@ Profiler för avanmälan exkluderas automatiskt under leveransanalysen för att 
 
 >[!NOTE]
 >
->Avanmäl dig gäller för **profiler**, till skillnad från karantän som är länkad till en **e-postadress** eller **telefonnummer**. Om du väljer att inte använda en profil tas alla adresser som är kopplade till den bort. Om en användare har två profiler i databasen kommer han/hon fortfarande att ha leveransmål eftersom endast en av hans profiler är avanmäld. Om du vill vara säker på att alla hans adresser utesluts lägger du till dem i karantänadresserna. Se denna [sida](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform) för mer information om detta.
+>Avanmäl dig gäller för **profiler**, till skillnad från karantän som är länkad till en **e-postadress** eller **telefonnummer**. Om du väljer att inte använda en profil tas alla adresser som är kopplade till den bort. Om en användare har två profiler i databasen kommer han/hon fortfarande att ha leveransmål eftersom endast en av hans profiler är avanmäld. Om du vill vara säker på att alla hans adresser utesluts lägger du till dem i karantänadresserna. Mer information finns på [den här sidan](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform).
 
 Mer information om tjänstprenumerationer finns på [den här sidan](../../audiences/using/about-subscriptions.md).
