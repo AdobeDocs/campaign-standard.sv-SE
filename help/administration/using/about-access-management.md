@@ -6,17 +6,16 @@ description: Hantera era Adobe Campaign-operatörers roller, grupper och organis
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Access Management
-role: Administrator
+feature: Åtkomsthantering
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6aa53aa9-aa5c-4b29-ad84-d983da241ceb
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 98%
+source-wordcount: '228'
+ht-degree: 99%
 
 ---
-
 
 # Om åtkomsthantering{#about-access-management}
 
@@ -48,4 +47,3 @@ Användare hanteras i Admin Console (se [Hantera grupper och användare](../../a
 * [Organisationsenheter](../../administration/using/organizational-units.md)
 * [Lista över roller](../../administration/using/list-of-roles.md)
 * [Hantera grupper och användare](../../administration/using/managing-groups-and-users.md)
-
