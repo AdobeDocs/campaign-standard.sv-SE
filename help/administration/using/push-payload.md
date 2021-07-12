@@ -7,19 +7,18 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Instance Settings
-role: Administrator
+feature: Instansinställningar
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '1150'
 ht-degree: 3%
 
 ---
 
-
-# Om nyttolaststrukturen för push-meddelanden i {#push-payload}
+# Förstå nyttolaststrukturen för push-meddelanden {#push-payload}
 
 Med Adobe Campaign kan du skicka personaliserade och segmenterade push-meddelanden på iOS- och Android-mobilenheter till mobilprogram (mobilapp).
 
@@ -39,7 +38,7 @@ I det här avsnittet beskrivs en struktur för ett exempel på nyttolast för ol
 
 Nyttolastattributen och deras värden varierar beroende på de konfigurationer som finns i avancerade alternativ för push-meddelanden. I det här avsnittet finns också en mappning mellan dessa konfigurationer i Campaign Standard-användargränssnittet och attributen i nyttolasten för att klargöra hur nyttolasten ändras när ett alternativ konfigureras i Campaign Standarden.
 
-### För iOS-mobilapp {#payload-structure-ios}
+### För iOS Mobile App {#payload-structure-ios}
 
 **Exempel på nyttolast som skickas från Adobe Campaign till iOS-app:**
 
