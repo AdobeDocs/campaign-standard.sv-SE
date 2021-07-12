@@ -8,17 +8,17 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
 feature: Landningssidor
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 7083447c-4cac-41cb-8453-369819e0c7c1
-source-git-commit: d84a11d4064938792a2e2c365b6085c263f55648
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 62%
 
 ---
 
-# Hantera formulärdata på landningssidan{#managing-landing-page-form-data}
+# Hantera formulärdata på landningssida{#managing-landing-page-form-data}
 
 ## Ändra egenskaper för formulärdata på landningssidan{#changing-a-landing-page-form-data-properties}
 
