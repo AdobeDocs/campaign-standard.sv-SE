@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Instance Settings
-role: Administrator
+feature: Instansinställningar
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '951'
 ht-degree: 1%
 
 ---
-
 
 # Implementera push-spårning {#push-tracking}
 
@@ -49,7 +48,7 @@ Om du vill skicka spårningsinformation finns det tre variabler som måste skick
 
 ## Implementering för Android {#implementation-android}
 
-### Så här implementerar du spårning av push-avtryck {#push-impression-tracking-android}
+### Så här implementerar du spårning av push-intrycken {#push-impression-tracking-android}
 
 För att kunna spåra ett intryck måste du skicka värdet 7 för åtgärden när du anropar funktionen **[!UICONTROL trackAction()]**.
 
@@ -83,7 +82,7 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 }
 ```
 
-### Implementera klickspårning {#push-click-tracking-android}
+### Så här implementerar du klickspårning {#push-click-tracking-android}
 
 För klickspårning måste du skicka värdet &quot;2&quot; för åtgärd när du anropar funktionen **[!UICONTROL trackAction()]**.
 
@@ -225,7 +224,7 @@ private void handleTracking() {
 
 ## Implementering för iOS {#implementation-iOS}
 
-### Så här implementerar du spårning av push-avtryck {#push-impression-tracking-iOS}
+### Så här implementerar du spårning av push-intrycken {#push-impression-tracking-iOS}
 
 För att kunna spåra ett intryck måste du skicka värdet 7 för åtgärden när du anropar funktionen **[!UICONTROL trackAction()]**.
 
@@ -297,7 +296,7 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent noti
     }
 ```
 
-### Implementera klickspårning {#push-click-tracking-iOS}
+### Så här implementerar du klickspårning {#push-click-tracking-iOS}
 
 För klickspårning måste du skicka värdet &quot;2&quot; för åtgärd när du anropar funktionen **[!UICONTROL trackAction()]**.
 För leveranser som skapats före version 21.1 eller leveranser med en anpassad mall, se [avsnittet](../../administration/using/push-tracking.md#about-push-tracking).
