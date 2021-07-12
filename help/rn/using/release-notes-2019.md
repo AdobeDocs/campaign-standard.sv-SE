@@ -1,23 +1,23 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Versionsinformation 2019
-description: Den här sidan innehåller alla 2019-versioner av Adobe Campaign Standard.
+title: Versionsinformation för 2019
+description: Den här sidan innehåller alla versioner av Adobe Campaign Standard under 2019.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: Översikt
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '7590'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
-# Versionsinformation 2019{#release-notes-2019}
+# Versionsinformation för 2019{#release-notes-2019}
 
 [Viktig planering](https://helpx.adobe.com/se/campaign/kb/acs-release-planning.html)  |  [Kontrollpanelsversioner](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=sv)  |  [Dokumentationsuppdateringar](../../rn/using/documentation-updates.md)  |  [Senaste versionsinformation](../../rn/using/release-notes.md) |  [Föråldrade funktioner](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=sv#release-notes)
 
@@ -267,13 +267,13 @@ ht-degree: 8%
 * Korrigerade ett problem som kunde hindra icke-administratörsanvändare från att spara eller schemalägga rapporter. (CAMP-31133)
 * Ett problem har korrigerats när &quot;|&quot; användes som datumavgränsare i arbetsflödesaktiviteten Läs in fil. (CAMP-34706)
 
-## Version 19.2.4 - juni 2019 {#release-19-2-4---june-2019}
+## Version 19.2.4 – juni 2019 {#release-19-2-4---june-2019}
 
 **Email Designer**
 
 * Ett problem som gjorde att användare inte kunde redigera fragment när tomma formattaggar användes i HTML har korrigerats. Detta är en uppföljningskorrigering för CAMP-33778 i 19.2.3.
 
-## Version 19.2.3 - juni 2019 {#release-19-2-3---june-2019}
+## Version 19.2.3 – juni 2019 {#release-19-2-3---june-2019}
 
 **E-postdesigner**
 
@@ -366,14 +366,14 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
 * Postnumret har tagits bort från Dynamic Reporting. Vi rekommenderar att du använder måtten Ort, Land, Delstat i stället.
 * Lifecycle-händelseutlösaren&quot;First Launch&quot; för meddelanden i appen har tagits bort.
 * När du exporterar ett paket med säkerhetsgrupper innehåller det nu de roller som tilldelas varje grupp. (CAMP-32960)
-* I aktiviteten Läs in fil kan du med ett nytt alternativ kontrollera att kolumnerna i filen som du överför matchar kolumndefinitionen. Mer information finns i den [detaljerade dokumentationen](../../automating/using/load-file.md). (CAMP-32229)
-* Arbetsflöden kan nu startas med en nyttolast, vilket gör att du kan använda och dela externa parametrar mellan aktiviteter i arbetsflödet. Mer information finns i den [detaljerade dokumentationen](../../automating/using/calling-a-workflow-with-external-parameters.md). (CAMP-29412 &amp; CAMP-29413)
+* I aktiviteten Läs in fil kan du med ett nytt alternativ kontrollera att kolumnerna i filen som du överför matchar kolumndefinitionen. Mer information finns i [den detaljerade dokumentationen](../../automating/using/load-file.md). (CAMP-32229)
+* Arbetsflöden kan nu startas med en nyttolast, vilket gör att du kan använda och dela externa parametrar mellan aktiviteter i arbetsflödet. Mer information finns i [den detaljerade dokumentationen](../../automating/using/calling-a-workflow-with-external-parameters.md). (CAMP-29412 &amp; CAMP-29413)
 * Med Campaign Standard-API:er kan du nu uppdatera profilernas geografiska och organisatoriska enheter med hjälp av en nyttolast. Mer information finns i den [detaljerade dokumentationen](../../api/using/get-started-apis.md).
 * Felmeddelanden när ett objekt från databasen inte är tillgängligt har blivit tydligare.
 * I filaktiviteten Extract har Javascript-funktioner uppdaterats när namnet på en fil som ska exporteras definierades. Endast funktionen formatDate är nu tillgänglig för användning i utdatafältet. Mer information finns i den [detaljerade dokumentationen](../../automating/using/extract-file.md).
 * Automatisk generering av sekvens-ID har förbättrats för anpassade resurser. Primärnycklar för nya anpassade resurser är nu som standard 64 bitar.
 * Testläget för anpassad resurspublikation har förbättrats. Ett varningsmeddelande visas nu för användarna om den senaste anpassade resurspublikationen misslyckades och inte har åtgärdats. Efter ett fel i en anpassad resurspublicering kan du återställa till den senaste arbetsversionen. Mer information finns i den [detaljerade dokumentationen](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
-* Ett nytt alternativ lades till i aktiviteten Överför fil. Du kan sortera filerna i SFTP-läge när du använder filinläsningsåtgärden. Mer information finns i den [detaljerade dokumentationen](../../automating/using/transfer-file.md). (CAMP-33109)
+* Ett nytt alternativ lades till i aktiviteten Överför fil. Du kan sortera filerna i SFTP-läge när du använder filinläsningsåtgärden. Mer information finns i [den detaljerade dokumentationen](../../automating/using/transfer-file.md). (CAMP-33109)
 
 **Felkorrigeringar**
 
@@ -410,7 +410,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
 * Ett problem som gjorde att typologiregler inte kunde redigeras har korrigerats. (CAMP-31750)
 * Korrigerade ett problem med inMail-processen som kunde stoppas oväntat. (CAMP-31238)
 
-## Version 19.1 - februari 2019 {#release-19-1---february-2019}
+## Version 19.1 – februari 2019 {#release-19-1---february-2019}
 
 **Nyheter**
 
@@ -438,7 +438,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
    <td> Förbättrat arbetsflöde<br /> </td> 
    <td> <p>Följande arbetsflödesfunktioner har lagts till:</p> 
     <ul> 
-     <li> Nu kan du kopiera och klistra in aktiviteter i ett arbetsflöde eller i ett annat arbetsflöde från samma Campaign-instans. På så sätt kan du enkelt duplicera ett helt arbetsflöde eller specifika aktiviteter och behålla de inställningar som ursprungligen definierades. Mer information finns i den <a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">detaljerade dokumentationen</a>. (CAMP-20014) </li> 
+     <li> Nu kan du kopiera och klistra in aktiviteter i ett arbetsflöde eller i ett annat arbetsflöde från samma Campaign-instans. På så sätt kan du enkelt duplicera ett helt arbetsflöde eller specifika aktiviteter och behålla de inställningar som ursprungligen definierades. Mer information finns i <a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">den detaljerade dokumentationen</a>. (CAMP-20014) </li> 
      <li> När du använder aktiviteten <strong>Läs in fil</strong> kan du nu lägga till en tidsstämpel till namnet på filen som innehåller de avvisade posterna. Mer information finns i den <a href="../../automating/using/load-file.md#configuration">detaljerade dokumentationen</a>. </li> 
      <li> <strong>Med </strong> fråge- och  <strong></strong> segmenteringsaktiviteter kan du nu aktivera en utgående övergång om aktiviteterna inte hämtar några data. </li> 
     </ul> </td> 
@@ -502,7 +502,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
 * Korrigerade ett problem som kunde inträffa med PKEY-generering när utökade profilresurser användes. (CAMP-30285)
 * Ett problem som kunde inträffa med kalenderdagars trötthetsregler har korrigerats. (CAMP-30136)
 * Korrigerade ett problem som kunde inträffa vid försök att komma åt anpassade resurser med namn som slutade med &quot;Bas&quot;. (CAMP-30109)
-* Korrigerade ett fel som förhindrade att ett PATCH-anrop användes för att prenumerera på en profil för en tjänst. (CAMP-29728)
+* Korrigerade ett problem som förhindrade att ett PATCH-anrop användes för att prenumerera på en profil för en tjänst. (CAMP-29728)
 * Korrigerade ett problem som kunde skada ett arbetsflöde vid import av en XML-fil via aktiviteten Läs in fil. (CAMP-29208 och CAMP-28205)
 * Ett problem har korrigerats vid länkning av anpassade resurser som skulle kunna förhindra att omvända kardinalitetslänkar genereras. (CAMP-30476)
 * Korrigerade ett problem som förhindrade utökning av leveransloggar när endast segmentkoden användes.
@@ -594,7 +594,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
 * Korrigerade ett problem som förhindrade att SMS-meddelanden som innehöll ett&quot;oe&quot;-tecken skickades trots att translitterering godkändes i SMPP:s externa konto. (CAMP-29041)
 * Korrigerade ett problem som kunde visa dubblettposter när en segmenteringsaktivitet användes i arbetsflöden. (CAMP-28743)
 * Korrigerade ett fel som förhindrade att en av värdemappningarna i en kolumn i en arbetsflödesaktivitet togs bort. (CAMP-28708)
-* Korrigerade ett problem i filöverföringsaktiviteten när jokertecken med alternativet &quot;Testa om filen finns&quot; användes. (CAMP-28977)
+* Korrigerade ett problem i filöverföringsaktiviteten när jokertecken användes med alternativet &quot;Testa om filen finns&quot;. (CAMP-28977)
 * Korrigerade ett fel i filöverföringsaktiviteten som kan inträffa vid uppdatering av externa kontoinställningar. (CAMP-28894)
 * Korrigerade ett problem med anpassade filter i frågeredigeraren när villkoret&quot;E-post är inte tomt&quot; användes. (CAMP-28741)
 * Korrigerade ett problem som kunde inträffa vid export av anpassade resurstabeller med fler än 100 kB-poster. (CAMP-28150)
