@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: Transaktionsmeddelanden
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d6aaec6e-c718-46a2-88e8-7402970def1a
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '744'
 ht-degree: 68%
 
 ---
-
 
 # Bästa praxis och begränsningar för transaktionsmeddelanden {#transactional-messaging-limitations}
 
@@ -31,7 +30,7 @@ I det här avsnittet beskrivs de bästa metoderna och begränsningarna som du b�
 
 Endast användare med rollen [Administration](../../administration/using/users-management.md#functional-administrators) kan konfigurera transaktionshändelser och komma åt transaktionsmeddelanden.
 
-## Händelsekonfiguration och publikation {#design-and-publication}
+## Konfiguration och publicering av händelser {#design-and-publication}
 
 Eftersom du konfigurerar och publicerar transaktionshändelser går det inte att ångra vissa av de steg som du måste utföra. Du måste vara medveten om följande begränsningar:
 
