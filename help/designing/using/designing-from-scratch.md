@@ -6,17 +6,16 @@ description: Upptäck hur du utformar e-postmeddelanden från grunden i e-postde
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: E-postdesign
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1241'
 ht-degree: 2%
 
 ---
-
 
 # Designa e-postmeddelanden från grunden {#designing-an-email-content-from-scratch}
 
@@ -84,7 +83,7 @@ Så här redigerar du strukturen för ett e-postmeddelande:
 
 När strukturen har definierats kan du lägga till innehållsfragment och komponenter i e-postmeddelandet.
 
-## Använda ett förhuvud {#preheader}
+## Använda en förrubrik {#preheader}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
@@ -205,6 +204,6 @@ Carousel-komponenten är inte kompatibel med alla e-postprogram. Överför en re
 
 - [Skapa ett e-postmeddelande](../../channels/using/creating-an-email.md)
 - [Välja en målgrupp i ett meddelande](../../audiences/using/selecting-an-audience-in-a-message.md)
-- [Schemaläggning av meddelanden](../../sending/using/about-scheduling-messages.md)
+- [Schemalägga meddelanden](../../sending/using/about-scheduling-messages.md)
 - [Förhandsgranska meddelanden](../../sending/using/previewing-messages.md)
 - [E-poståtergivning](../../sending/using/email-rendering.md)
