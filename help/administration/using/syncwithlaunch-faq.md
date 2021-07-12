@@ -6,19 +6,18 @@ description: Vanliga frågor om det tekniska arbetsflödet i Launch.
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Instance Settings
-role: Administrator
+feature: Instansinställningar
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: aaaceb3a-5e54-47da-9be4-b70747282830
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
 
-
-# Vanliga frågor och svar om startsynkronisering i Adobe {#syncwithlaunch-faq}
+# Vanliga frågor och svar om synkronisering i Adobe Launch {#syncwithlaunch-faq}
 
 Du kan importera mobila egenskaper för Adobe Launch till Adobe Campaign Standard via det dedikerade tekniska arbetsflödet **[!UICONTROL Sync with Launch]**. Mer information finns på den här [sidan](../../administration/using/technical-workflows.md)
 
