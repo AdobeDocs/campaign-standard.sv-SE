@@ -3,11 +3,11 @@ solution: Campaign Standard
 product: campaign
 title: Om prenumerationer
 description: Läs mer om tjänster och prenumerationer i Campaign Standard.
-feature: Publiker
-role: Business Practitioner
+feature: Målgrupper
+role: User
 level: Intermediate
 exl-id: 177f0115-d269-44e8-94e0-123360ea6299
-source-git-commit: 326683683c1564dc4c828d1ed34a3c13bae3a46e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 40%
