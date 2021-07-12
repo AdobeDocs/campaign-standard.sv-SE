@@ -1,24 +1,24 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Push-meddelanden för transaktioner
+title: Push-transaktionsmeddelanden
 description: Lär dig hur du skickar push-meddelanden för transaktioner med Adobe Campaign Standard.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 feature: Transaktionsmeddelanden
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 61988c1d-d538-47b1-94c1-f3fbdf314b65
-source-git-commit: 33d3dc43a64b9670666844a3266e2aa2458a1c40
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1453'
 ht-degree: 4%
 
 ---
 
-# Push-meddelanden för transaktioner{#transactional-push-notifications}
+# Push-transaktionsmeddelanden{#transactional-push-notifications}
 
 Du kan använda Adobe Campaign för att skicka push-meddelanden för transaktioner på iOS- och Android-mobilenheter. Dessa meddelanden tas emot i mobilappar som du konfigurerar i Adobe Campaign genom att utnyttja Experience Cloud Mobile SDK.
 
@@ -33,13 +33,13 @@ Du kan skicka två typer av push-meddelanden för transaktioner:
 * [Transaktionspush-meddelanden för en händelse](#transactional-push-notifications-targeting-an-event)
 * [Transactional push notifications rörande ](#transactional-push-notifications-targeting-a-profile) profiler från Adobe Campaign-databasen
 
-## Transaktionspush-meddelanden som riktar sig till en händelse {#transactional-push-notifications-targeting-an-event}
+## Transaktionspush-meddelanden för en händelse {#transactional-push-notifications-targeting-an-event}
 
 Du kan använda Adobe Campaign för att skicka **anonyma push-meddelanden för transaktioner till alla användare** som har valt att ta emot meddelanden från ditt mobilprogram.
 
 I det här fallet används bara **data i själva händelsen för att definiera leveransmålet**. Inga data från Adobe Campaign integrerade profildatabas används.
 
-### Konfigurera ett händelsebaserat transaktionspush-meddelande {#configuring-event-based-transactional-push-notification}
+### Konfigurera ett händelsebaserat push-meddelande för transaktioner {#configuring-event-based-transactional-push-notification}
 
 Om du vill skicka ett transaktionsmeddelande till alla användare som har valt att ta emot meddelanden från ditt mobilprogram måste du först skapa och konfigurera en händelse som har de data som finns i själva händelsen som mål.
 
@@ -71,7 +71,7 @@ Följ stegen nedan för att konfigurera händelsen:
 
 1. Integrera händelsen på webbplatsen (se [Integrera händelsen som utlöser](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
 
-### Skicka ett händelsebaserat transaktionspush-meddelande {#sending-event-based-transactional-push-notification}
+### Skicka ett händelsebaserat push-meddelande för transaktioner {#sending-event-based-transactional-push-notification}
 
 Ett flygbolag vill till exempel bjuda in sina användare av mobilappar att fortsätta till den relevanta porten för boarding.
 
@@ -119,7 +119,7 @@ Om det finns en registreringstoken får motsvarande användare ett transaktionsp
 
 *&quot;Hej Jane Green, boarding har precis börjat! Fortsätt till Gate B18.&quot;*
 
-## Transaktionspush-meddelanden med en profil {#transactional-push-notifications-targeting-a-profile} som mål
+## Transaktionspush-meddelanden med en profil som mål {#transactional-push-notifications-targeting-a-profile}
 
 Du kan skicka ett transaktionspush-meddelande **till de Adobe Campaign-profiler som har prenumererat på ditt mobilprogram**. Leveransen kan innehålla [anpassningsfält](../../designing/using/personalization.md#inserting-a-personalization-field), t.ex. mottagarens förnamn, som hämtas direkt från Adobe Campaign-databasen.
 
@@ -163,7 +163,7 @@ Om du vill skicka ett transaktionspush-meddelande till de Adobe Campaign-profile
 
 1. Integrera händelsen på webbplatsen (se [Integrera händelsen som utlöser](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
 
-### Skicka ett profilbaserat transaktionspush-meddelande {#sending-profile-based-transactional-push-notification}
+### Skicka ett profilbaserat push-meddelande för transaktioner {#sending-profile-based-transactional-push-notification}
 
 Ett flygbolag vill t.ex. skicka en sista förfrågan om introduktion till alla Adobe Campaign-användare som har prenumererat på sin mobilapp.
 
