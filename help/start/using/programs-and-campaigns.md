@@ -7,17 +7,16 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: campaign,overview;campaignExplorer,main
-feature: Campaigns
-role: Business Practitioner
+feature: Kampanjer
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3f4f9307-c65f-47bb-bc92-ce8b5d06557f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 99%
+source-wordcount: '642'
+ht-degree: 100%
 
 ---
-
 
 # Program och kampanjer{#programs-and-campaigns}
 
@@ -103,4 +102,3 @@ Varje program och kampanj i listan har en visuell symbol och en ikon vars färg 
 * Grön: programmet/kampanjen har slutförts - status **[!UICONTROL Finished]**. Som standard visas det aktuella datumet automatiskt som giltighetens startdatum och slutdatumet beräknas enligt startdatumet (**D+186 dagar**). Du kan ändra dessa datum i programmet eller egenskaperna för kampanjen.
 
 ![](assets/programs_and_campaigns.png)
-
