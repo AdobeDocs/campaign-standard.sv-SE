@@ -1,25 +1,24 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Om Campaign Standard-inställningar
-description: Om Campaign Standard-inställningar
+title: Om inställningar i Campaign Standard
+description: Om inställningar i Campaign Standard
 audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
-feature: Instance Settings
-role: Administrator
+feature: Instansinställningar
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 47ecacbf-2a6a-4f33-972a-b2e47dc0284e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '134'
 ht-degree: 8%
 
 ---
 
-
-# Om Campaign Standard-inställningar{#about-campaign-standard-settings}
+# Om inställningar i Campaign Standard{#about-campaign-standard-settings}
 
 [!DNL Campaign] Standard levereras med olika programelement som kan konfigureras efter dina behov. Du kan till exempel:
 
