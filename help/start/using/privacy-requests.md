@@ -7,11 +7,11 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 feature: Sekretess
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-source-git-commit: 664274abc26925044625a31489b10e5339a2ef7b
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1624'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Det är därför ditt ansvar som personuppgiftsansvarig att bekräfta identitete
 
 ### Namnrymder {#namesspaces}
 
-Innan du skapar förfrågningar om användarens information måste du definiera den namnrymd som ska användas. Namnrymden är nyckeln som används för att identifiera den registrerade i databasen i Adobe Campaign. Det finns två färdiga namnrymder: e-post och mobiltelefon. Om du behöver en annan namnrymd (såsom ett anpassat profilfält) ska du följa de här stegen.
+Innan du skapar förfrågningar om användarens information måste du definiera det namnutrymme som ska användas. Namnrymden är nyckeln som används för att identifiera den registrerade i databasen i Adobe Campaign. Det finns två färdiga namnrymder: e-post och mobiltelefon. Om du behöver en annan namnrymd (såsom ett anpassat profilfält) ska du följa de här stegen.
 
 Se även den här [självstudiekursen](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html?lang=sv#privacy) om hur du skapar en namnrymd.
 
