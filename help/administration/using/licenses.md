@@ -6,17 +6,16 @@ description: Läs mer om licenser som är installerade på din instans.
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Access Management
-role: Administrator
+feature: Åtkomsthantering
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 4a4c14da-d842-4f65-821a-ca9e73a94adc
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '171'
 ht-degree: 1%
 
 ---
-
 
 # Licenser{#licenses}
 
@@ -37,4 +36,3 @@ En administratör måste läsa och bekräfta de nya avtalsvillkoren inom 30 daga
 Dessa 30 dagar har gått, om avtalet inte godkänns, kan inga användare använda den här instansen. Standardanvändarna kommer inte att kunna komma åt Adobe Campaign-funktioner och kommer bara att se följande meddelande tills en funktionell administratör godkänner avtalsvillkoren.
 
 ![](assets/license_4.png)
-
