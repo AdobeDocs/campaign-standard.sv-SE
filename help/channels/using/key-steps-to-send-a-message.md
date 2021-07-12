@@ -6,17 +6,16 @@ description: Följ dessa steg för att skapa och skicka meddelanden med Adobe Ca
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-feature: Overview
-role: Business Practitioner
+feature: Översikt
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
+exl-id: a903d7e2-7654-46b3-bc61-4653a065faad
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 12%
+source-wordcount: '369'
+ht-degree: 14%
 
 ---
-
 
 # Huvudstegen för att skicka ett meddelande{#key-steps-to-send-a-message}
 
@@ -53,7 +52,7 @@ Det finns flera olika typer av målgrupper:
 
 ![](assets/steps-audience.png)
 
-## Designa och personalisera innehåll
+## Designa och anpassa innehåll
 
 I **[!UICONTROL Content]**-blocket utformar och anpassar du innehållet i meddelandet med hjälp av fält från databasen. Mer information om hur du utformar innehåll för en viss kanal finns i avsnitten högst upp på den här sidan.
 
