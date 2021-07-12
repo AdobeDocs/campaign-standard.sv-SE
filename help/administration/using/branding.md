@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: application-settings
 context-tags: branding,overview;branding,main
 feature: Instansinställningar
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1282'
 ht-degree: 80%
@@ -87,11 +87,11 @@ Ett **varumärke** definieras av följande egenskaper:
 
    ![](assets/branding_05.png)
 
-## Skapar ett nytt varumärke {#creating-a-brand}
+## Skapa ett nytt varumärke {#creating-a-brand}
 
 Du kan lägga till nya enheter i organisationen i Campaign eller skapa en ny typ av e-post som du måste skicka under en annan underdomän. Gör så här:
 
-1. **Konfigurera en ny underdomän**  - För alla nya underdomäner som ska användas av Adobe är det första steget att konfigurera den. Du kan göra detta via [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html) eller kontakta din Adobe tekniska kontakt. Läs mer om subdomänkonfigurationen [i den här artikeln](https://helpx.adobe.com/se/campaign/kb/domain-name-delegation.html).
+1. **Konfigurera en ny underdomän**  - För alla nya underdomäner som ska användas av Adobe är det första steget att konfigurera den. Du kan göra detta via [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=sv) eller kontakta din Adobe tekniska kontakt. Läs mer om subdomänkonfigurationen [i den här artikeln](https://helpx.adobe.com/se/campaign/kb/domain-name-delegation.html).
 
    >[!NOTE]
    >
