@@ -6,13 +6,13 @@ description: Börja bygga e-postinnehåll med e-postdesignern.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: E-postdesign
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 47f53290-2190-4181-bcd5-e60287189c41
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '926'
 ht-degree: 5%
 
 ---
@@ -58,7 +58,7 @@ Du kan enkelt skapa e-postmeddelanden, lägga till komponenter och anpassa deras
 
 ![](assets/subject-line-quick-start.png)
 
-### Lägger till strukturkomponenter {#add-structure-components}
+### Lägga till strukturkomponenter {#add-structure-components}
 
 Strukturkomponenter definierar layouten för e-postmeddelandet. Mer information finns i [Definiera strukturen för ett e-postmeddelande](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
