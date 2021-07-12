@@ -1,23 +1,23 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Konfigurera ett mobilprogram
+title: Konfigurera en mobilapplikation
 description: Upptäck hur du konfigurerar Adobe Campaign att skicka push-meddelanden eller meddelanden i appen med SDK V4 eller Experience Platform SDK.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
 feature: Instansinställningar
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 7%
 
 ---
 
-# Konfigurera ett mobilprogram{#configuring-a-mobile-application}
+# Konfigurera en mobilapplikation{#configuring-a-mobile-application}
 
 ## Konfigurera ett mobilprogram med Adobe Experience Platform SDK {#using-adobe-experience-platform-sdk}
 
@@ -65,7 +65,7 @@ I det här steget kan användaren logga in på Experience Platform Launch för a
 1. Om det behövs kan du ta bort egenskapen Experience Platform Launch.
 Mer information finns i [Ta bort ditt Experience Platform Launch-program](../../administration/using/configuring-a-mobile-application.md#delete-app).
 
-## Synkronisera mobilappen AEPSDK från det tekniska arbetsflödet för Launch {#aepsdk-workflow}
+## Synkronisera mobilappen AEPSDK från det tekniska arbetsflödet i Launch {#aepsdk-workflow}
 
 När du har skapat och konfigurerat din mobila egenskap i Experience Platform Launch kommer det **[!UICONTROL Sync Mobile app AEPSDK from Launch]** tekniska arbetsflödet nu att synkronisera de mobila egenskaper för Adobe Launch som importerats till Adobe Campaign Standard.
 
@@ -163,7 +163,7 @@ Ditt mobilprogram kan nu användas i Campaign för push-meddelanden eller levera
 
 1. Klicka på fliken **[!UICONTROL Mobile application subscribers]** om du vill se en lista över prenumeranter och annan information om dessa prenumeranter, till exempel om de har avanmält sig från dina meddelanden.
 
-## Tar bort ditt Adobe Experience Platform Launch-program {#delete-app}
+## Ta bort ditt Adobe Experience Platform Launch-program {#delete-app}
 
 Det går inte att ångra borttagningen av Experience Platform Launch.
 
