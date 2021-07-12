@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 feature: Instansinställningar
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: 6d25a618b2520c867393bf0ef795567de4c57e98
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 95%
