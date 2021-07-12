@@ -6,17 +6,16 @@ description: Lär dig hur du förhandsgranskar ett meddelande i innehållsredige
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-feature: Seed Address
-role: Business Practitioner
+feature: Startadress
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ac8c1265-f530-4438-ab2d-3ca17615ca85
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 14%
+source-wordcount: '626'
+ht-degree: 15%
 
 ---
-
 
 # Förhandsgranska leveranser {#previewing-messages}
 
@@ -52,7 +51,7 @@ Så här förhandsgranskar du ett meddelande med testprofiler:
 
 * [Hantera testprofiler](../../audiences/using/managing-test-profiles.md)
 * [Testa e-postmeddelanden med målprofiler](../../sending/using/testing-messages-using-target.md)
-* [Skicka korrektur](../../sending/using/sending-proofs.md)
+* [Skicka bevis](../../sending/using/sending-proofs.md)
 
 ## Förhandsgranska SMS-meddelanden {#previewing-sms}
 
@@ -84,7 +83,7 @@ Du kan nu se den exakta representationen av ditt meddelande beroende på de vald
 
 * [Om SMS-meddelanden](../../channels/using/about-sms-messages.md)
 * [Skapa ett SMS-meddelande](../../channels/using/creating-an-sms-message.md)
-* [Anpassa SMS-meddelanden](../../channels/using/personalizing-sms-messages.md)
+* [Personalisera SMS-meddelanden](../../channels/using/personalizing-sms-messages.md)
 
 ## Förhandsgranska push-meddelanden {#previewing-push}
 
@@ -138,6 +137,6 @@ Du kan nu se den exakta representationen av ditt meddelande beroende på de vald
 
 **Relaterade ämnen**
 
-* [Om app-meddelanden](../../channels/using/about-in-app-messaging.md)
+* [Om meddelanden i appen](../../channels/using/about-in-app-messaging.md)
 * [Förbereda och skicka ett meddelande i appen](../../channels/using/preparing-and-sending-an-in-app-message.md)
 * [Anpassa ett meddelande i appen](../../channels/using/customizing-an-in-app-message.md)
