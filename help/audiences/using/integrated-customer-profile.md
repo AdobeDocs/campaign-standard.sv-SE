@@ -7,19 +7,18 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 context-tags: marketingHistory,main
-feature: Profiles
-role: Business Practitioner
+feature: Profiler
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: cf3c6408-7fa0-423a-b34b-f4fee771fb47
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '282'
 ht-degree: 48%
 
 ---
 
-
-# Integrerad kundprofil{#integrated-customer-profile}
+# Integrated Customer Profile{#integrated-customer-profile}
 
 En integrerad kundprofil finns tillgänglig för varje kontakt i databasen. Denna marknadshistorik kombinerar all relevant marknadsföringsinformation som rör kontakten med en kund i en enda vy. Du kan sedan komma åt alla digitala beteenden och online/offlinetransaktioner på en central plats: kontaktinformation, mottagna e-postmeddelanden, loggar för spårning, prenumerationer och avbeställningar etc.
 
