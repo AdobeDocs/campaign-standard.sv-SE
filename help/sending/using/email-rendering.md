@@ -6,17 +6,16 @@ description: Upptäck e-poståtergivningsfunktionen.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-feature: Send Time Optimization
-role: Business Practitioner
+feature: Tidsoptimering för sändning
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 31f4e557-55b3-4bf5-8d5d-9d412b7670a6
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '516'
 ht-degree: 82%
 
 ---
-
 
 # E-poståtergivning{#email-rendering}
 
@@ -26,7 +25,7 @@ Adobe Campaign hämtar återgivningen och gör den tillgänglig i en dedikerad r
 
 De mobil-, meddelande- och webbpostklienter som är tillgängliga för **E-poståtergivning** i Adobe Campaign anges på Litmus-[webbplatsen](https://litmus.com/email-testing) (klicka på **Visa alla e-postklienter**).
 
-## Skapar e-poståtergivning {#checking-the-email-rendering-report}
+## Genererar e-poståtergivning {#checking-the-email-rendering-report}
 
 När du har skapat e-postleveransen och definierat innehållet samt målpopulationen följer du stegen nedan.
 
@@ -66,7 +65,7 @@ Den dedikerade återgivningsrapporten för e-post visas. Se [Beskrivning av rapp
 **Relaterade ämnen**:
 
 * [Skapa ett e-postmeddelande](../../channels/using/creating-an-email.md)
-* [Skicka korrektur](../../sending/using/sending-proofs.md)
+* [Skicka bevis](../../sending/using/sending-proofs.md)
 * [Frågeredigerare](../../automating/using/editing-queries.md#about-query-editor)
 
 ## Återgivningsrapport för e-post {#email-rendering-report-description}
