@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: Transaktionsmeddelanden
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 9%
+source-wordcount: '965'
+ht-degree: 10%
 
 ---
-
 
 # Komma igång med transaktionsmeddelanden {#getting-started-with-transactional-messaging}
 
@@ -112,7 +111,7 @@ Det finns information om hur du skapar och publicerar en händelse i avsnitten [
 
 Mer information om hur du redigerar och publicerar ett transaktionsmeddelande finns i [Redigera transaktionsmeddelanden](../../channels/using/editing-transactional-message.md) och [Livscykel för transaktionsmeddelanden](../../channels/using/publishing-transactional-message.md).
 
-### Steg 3 - Integrera den händelseutlösare {#integrate-event-trigger}
+### Steg 3 - Integrera den händelseutlösande händelsen {#integrate-event-trigger}
 
 <img src="assets/do-not-localize/icon_api.svg" width="55px">
 
@@ -126,7 +125,7 @@ När du har skapat en händelse måste du integrera den som utlöser händelsen 
 
 Mer information om hur du använder Campaign REST API för att hantera transaktionsmeddelanden finns i [REST API-dokumentationen](../../api/using/managing-transactional-messages.md).
 
-### Steg 4 - Meddelandeleverans {#message-delivery}
+### Steg 4 - Leverans av meddelanden {#message-delivery}
 
 <img src="assets/do-not-localize/icon_channels.svg" width="60px">
 
@@ -138,5 +137,5 @@ Så snart en användare lämnar webbplatsen utan att beställa produkterna i kun
 
 * [Huvudstegen för att skicka ett meddelande](../../channels/using/key-steps-to-send-a-message.md)
 * [Kom igång med kommunikationskanaler](../../channels/using/get-started-communication-channels.md)
-* [Push-meddelanden för transaktioner](../../channels/using/transactional-push-notifications.md)
+* [Push-transaktionsmeddelanden](../../channels/using/transactional-push-notifications.md)
 * [Uppföljningsmeddelanden](../../channels/using/follow-up-messages.md)
