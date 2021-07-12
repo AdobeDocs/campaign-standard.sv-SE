@@ -6,17 +6,16 @@ description: Lär dig hur du testar och publicerar en landningssida i Adobe Camp
 audience: channels
 content-type: reference
 topic-tags: landing-pages
-feature: Landing Pages
-role: Business Practitioner
+feature: Landningssidor
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: af849377-686f-45b3-bf6e-5069a8966987
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 99%
+source-wordcount: '385'
+ht-degree: 100%
 
 ---
-
 
 # Testa och publicera en landningssida{#testing-publishing--landing-page}
 
