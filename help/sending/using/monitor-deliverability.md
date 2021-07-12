@@ -7,17 +7,16 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Deliverability
-role: Business Practitioner
+feature: Levererbarhet
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: 683341fb-fef5-4aa1-8606-9526d9ae6290
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '307'
 ht-degree: 10%
 
 ---
-
 
 # Övervaka levererbarhet{#monitor-deliverability}
 
@@ -29,7 +28,7 @@ Nedan finns information om **[!UICONTROL Delivery throughput]**-rapporten samt d
 * Kontrollera att antalet fel och nya karantän stämmer överens med andra leveranser.
 * Titta noga i leveransloggarna för att kontrollera vilka typer av fel som markeras (blockeringslista, DNS-problem, antispam-regler osv.).
 
-## Leveransflöde {#delivery-throughput}
+## Leveranskapacitet {#delivery-throughput}
 
 Den här rapporten innehåller information om hela plattformens leveransflöde under en viss period för att mäta den hastighet med vilken meddelandena levereras.
 
@@ -49,7 +48,7 @@ Mer information finns i [Övervaka en leverans](../../sending/using/monitoring-a
 
 ![](assets/sending_delivery1.png)
 
-## Tar emot aviseringar {#receiving-alerts}
+## Få aviseringar {#receiving-alerts}
 
 Funktionen **[!UICONTROL Delivery alerting]** är ett varningshanteringssystem som gör att en grupp användare automatiskt kan ta emot meddelanden som innehåller information om hur deras leveranser utförs.
 
