@@ -8,17 +8,17 @@ content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back;delivery,smsContent,back
 feature: SMS
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 6c01662e-1e19-4cec-aa21-6e84b9b7a677
-source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 100%
 
 ---
 
-# Anpassa SMS-meddelanden{#personalizing-sms-messages}
+# Personalisera SMS-meddelanden{#personalizing-sms-messages}
 
 Principerna för anpassning av SMS-meddelanden är desamma som för [e-post](../../designing/using/personalization.md#inserting-a-personalization-field). Du måste däremot vara medveten om translittereringsalternativen eftersom de kan påverka kodningen och därmed antalet SMS-meddelanden som ska skickas. Mer information finns i avsnittet [Translitterering och SMS-längd](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
 
