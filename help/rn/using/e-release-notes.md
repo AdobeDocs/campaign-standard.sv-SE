@@ -4,12 +4,13 @@ product: campaign
 title: Tidig versionsinformation
 description: Tidig versionsinformation
 feature: Översikt
-role: Business Practitioner
+role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 7eb12fbb89f677eb7184cb5ff200d3f8a466d3c8
-workflow-type: ht
+exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 100%
 
@@ -54,7 +55,7 @@ Den här sidan beskriver nya funktioner, förbättringar och korrigeringar som i
 
 * Ett nytt meddelande har lagts till för att bekräfta en lyckad migrering från en v4-push-applikation till en v5-push-applikation.
 
-* När JSONWeb-token skapas för att autentisera till API:et i Campaign Standard, **beaktas** produktprofilerna. Det innebär att de organisationsenheter och roller som har tilldelats säkerhetsgruppen (som matchar produktprofilen i AdobeIO) tillämpas på det IMS-tekniska kontot som behövs för Rest API-anrop i Campaign Standard. (CAMP-47479)
+* När JSONWeb-token skapas för att autentisera till API:et Campaign Standard, **beaktas nu** produktprofilerna. Det innebär att de organisationsenheter och roller som har tilldelats säkerhetsgruppen (som matchar produktprofilen i AdobeIO) tillämpas på det IMS-tekniska kontot som behövs för Rest API-anrop i Campaign Standard. (CAMP-47479)
 
 
 **Felkorrigeringar**
@@ -75,9 +76,9 @@ Den här sidan beskriver nya funktioner, förbättringar och korrigeringar som i
 
 * Korrigerade ett problem som kunde visa ett felmeddelande när en anpassad rapport skulle redigeras, tas bort eller skickas. (CAMP-47789, CAMP-47798)
 
-* Korrigerade ett problem som medförde att API-anrop misslyckades när en ny anpassad resurs skapades och alternativet **Synkronisera inte** aktiverades. (CAMP-48014)
+* Korrigerade ett problem som gjorde att API-anrop misslyckades när en ny anpassad resurs skapades och alternativet **Synkronisera inte** aktiverades. (CAMP-48014)
 
-* Korrigerade ett problem där anpassade resurser med alternativet **Synkronisera inte** aktiverat kunde referera till ett schema som hade omarbetats eller tagits bort. Det här problemet orsakade ett fel när anpassade resurser publicerades.
+* Korrigerade ett problem där anpassade resurser med alternativet **Synkronisera inte** aktiverat, kunde referera till ett schema som hade omarbetats eller tagits bort. Det här problemet orsakade ett fel när anpassade resurser publicerades.
 
 * Korrigerade ett SMS-avanmälningsproblem när flera korta koder användes på samma externa konto.
 
