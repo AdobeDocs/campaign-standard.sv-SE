@@ -6,17 +6,16 @@ description: Upptäck hur du kan använda e-postmeddelanden som har skapats i de
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: E-postdesign
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 2b024052-ed42-44f3-9990-be7425cc79d7
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '440'
 ht-degree: 8%
 
 ---
-
 
 # Konverterar e-postinnehåll för äldre redigerare {#converting-an-html-content}
 
@@ -49,7 +48,7 @@ I det här exemplet kan du skapa en e-postdesignermall genom att använda ett HT
 1. Lägg till en HTML-komponent i varje strukturelement. Mer information finns i [Lägga till fragment och komponenter](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Kopiera och klistra in HTML i alla komponenter.
 
-## Hantera formatet för din e-post {#manage-the-style-of-your-email}
+## Hantera e-postmeddelandets format {#manage-the-style-of-your-email}
 
 1. Växla till **[!UICONTROL Mobile view]**. Mer information finns i [det här avsnittet](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
