@@ -7,17 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: user,overview;user,main;security,overview;security,main
-feature: Access Management
-role: Administrator
+feature: Åtkomsthantering
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '942'
 ht-degree: 88%
 
 ---
-
 
 # Hantera grupper och användare{#managing-groups-and-users}
 
@@ -150,4 +149,3 @@ Dina användare har nu tilldelats en säkerhetsgrupp och kan ansluta till Adobe 
 >[!IMPORTANT]
 >
 >Om användare tas bort från en säkerhetsgrupp i Admin Console är de fortfarande en del av Adobe Campaign säkerhetsgrupp och kan inte längre logga in i Adobe Campaign. I så fall tar du bort användarens e-postadresser i Admin Console för att förhindra att de får känslig information.
-
