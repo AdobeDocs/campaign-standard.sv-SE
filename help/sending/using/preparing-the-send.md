@@ -1,24 +1,23 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Förbered sändningen
+title: Förbereda utskickningen
 description: Lär dig hur du definierar förberedelser före sändningen.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-feature: Send Time Optimization
-role: Business Practitioner
+feature: Tidsoptimering för sändning
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0140c41a-7255-4b77-a1b7-c6f7b1135e51
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '462'
 ht-degree: 2%
 
 ---
 
-
-# Förbered sändningen{#preparing-the-send}
+# Förbereda utskickningen{#preparing-the-send}
 
 Förberedelsen motsvarar steget att beräkna målpopulationen och generera meddelandeinnehållet för varje profil som ingår i målet. När färdigställandet är klart är meddelandena klara att skickas, antingen omedelbart eller vid [det schemalagda datumet och tiden](../../sending/using/about-scheduling-messages.md).
 
