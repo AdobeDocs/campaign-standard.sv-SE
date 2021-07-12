@@ -1,25 +1,24 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Testa e-post med målprofiler
+title: Testa e-postmeddelanden med målprofiler
 description: Lär dig hur du testar meddelanden med målprofiler och ersättningsadresser.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
-feature: Control Groups
-role: Business Practitioner
+feature: Kontrollgrupper
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1516'
 ht-degree: 4%
 
 ---
 
-
-# Testa e-post med målprofiler {#testing-message-profiles}
+# Testa e-postmeddelanden med målprofiler {#testing-message-profiles}
 
 ## Översikt {#overview}
 
@@ -52,7 +51,7 @@ Om du vill använda målprofiler för testning måste du först markera dem och 
 >
 >Du kan välja högst 100 profiler för testning.
 
-### Välja enskilda profiler {#selecting-individual-profiles}
+### Markera enskilda profiler {#selecting-individual-profiles}
 
 1. Kontrollera att meddelandeförberedelsen fungerar i meddelandekontrollpanelen och klicka sedan på **[!UICONTROL Audience]**-blocket.
 
@@ -270,7 +269,7 @@ De viktigaste stegen för detta är följande:
 
    ![](assets/substitution_uc_proofs.png)
 
-## Självstudievideo {#video}
+## Videokurs {#video}
 
 I den här videon visas hur du kan testa dina e-postmeddelanden med hjälp av profilersättning.
 
