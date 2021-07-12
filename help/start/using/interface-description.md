@@ -6,19 +6,18 @@ description: '"Lär dig att navigera och använda arbetsytan i Adobe Campaign: S
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Overview
-role: Business Practitioner
+feature: Översikt
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1290'
 ht-degree: 92%
 
 ---
 
-
-# Beskrivning av gränssnitt{#interface-description}
+# Beskrivning av gränssnittet{#interface-description}
 
 Med Adobe Campaign kan du navigera i olika menyer och på olika skärmar för att hantera era kampanjer.
 
