@@ -6,17 +6,16 @@ description: Felsöka SMS
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Instance Settings
-role: Administrator
+feature: Instansinställningar
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '2700'
+source-wordcount: '2698'
 ht-degree: 0%
 
 ---
-
 
 # Felsöka SMS {#sms-troubleshooting}
 
@@ -112,7 +111,7 @@ Så här åtgärdar du problem med anslutningsstabilitet:
 
 * Om providern stänger anslutningen efter att ha skickat ett rent fel som `DELIVER_SM_RESP` med en felkod måste de åtgärda sin koppling, annars förhindras andra typer av meddelanden från att överföras och MTA-begränsning aktiveras. Detta är särskilt viktigt i sändningsläge där stängning av anslutningen påverkar både MT och SR.
 
-## Problem vid sändning av MT (vanlig SMS skickad till en slutanvändare){#issue-MT}
+## Problem vid sändning av MT (vanlig SMS skickas till en slutanvändare){#issue-MT}
 
 * Kontrollera att anslutningen är stabil. En SMPP-anslutning bör vara upp till minst en timme kontinuerligt. Se avsnittet [Problem med instabila anslutningar](../../administration/using/troubleshooting-sms.md#issues-unstable-connection).
 
@@ -132,7 +131,7 @@ Så här åtgärdar du problem med anslutningsstabilitet:
 
 * Om det fungerar men flödet inte är konsekvent kan du försöka justera sändande fönster och sänka MT-flödet. Du måste arbeta med leverantören för att justera det. Adobe Campaign kan skicka meddelanden mycket snabbt så att det kan uppstå prestandaproblem på leverantörens utrustning.
 
-## MT är duplicerat (samma SMS skickas flera gånger i rad){#duplicated-MT}
+## MT dupliceras (samma SMS skickas flera gånger i rad){#duplicated-MT}
 
 Dubbletter orsakas ofta av återförsök. Det är normalt att ha dubbletter när du försöker göra om meddelanden. Försök i stället att ta bort grundorsaken till nya försök.
 
@@ -144,7 +143,7 @@ Minska antalet dubbletter när ett nytt försök görs:
 
 * Sänk sändningsfönstret. Sändningsfönstret ska vara tillräckligt stort för att täcka `SUBMIT_SM_RESP`-fördröjning. Dess värde representerar det maximala antalet meddelanden som kan dupliceras om ett fel inträffar när fönstret är fullt.
 
-## Problem vid behandling av SR (leveranskvitton) {#issue-process-SR}
+## Utfärda vid behandling av SR (leveranskvitton) {#issue-process-SR}
 
 * SMPP-spår måste vara aktiverade för att du ska kunna utföra någon typ av SR-felsökning.
 
@@ -176,7 +175,7 @@ Om du har korrigerat allt men vissa ogiltiga SR fortfarande finns i providerns b
 
 * Om `SUBMIT_SM MT PDU` som innehåller svaret finns i spårningarna men SMS:et inte kommer till mobiltelefonen, måste du kontakta leverantören för hjälp med felsökning.
 
-## Problem vid leveransförberedelse, med undantag för mottagare i karantän (som står i karantän av funktionen för autosvar) {#issue-delivery-preparation}
+## Problem vid färdigställande av leveransen, med undantag för mottagare i karantän (i karantän enligt funktionen för autosvar) {#issue-delivery-preparation}
 
 * Kontrollera att telefonnummerformatet är exakt detsamma i karantäntabellen och i leveransloggen.  Om så inte är fallet, gå till det här [avsnittet](../../administration/using/sms-protocol.md#automatic-reply) om du har problem med plusprefixet för det internationella telefonnummerformatet.
 
@@ -236,7 +235,7 @@ När du behöver hjälp med ett SMS-problem, oavsett om det gäller att öppna e
 
 * Inkludera alla ändringar eller förbättringar som gjorts på plattformen. Ta även med eventuella ändringar som leverantören kan ha gjort på sin sida.
 
-### Nätverkskarta {#network-capture}
+### Nätverksinspelning {#network-capture}
 
 Nätverksinspelning behövs inte alltid, vanligen räcker det med omfattande SMPP-meddelanden. Här följer några riktlinjer som hjälper dig att avgöra om en nätverksinhämtning behövs:
 
@@ -298,7 +297,7 @@ Ange följande parametrar i `config-instance.xml`-filen:
 <mta args="-tracefilter:SMPP"/>
 ```
 
-## Kontrollera antalet öppna anslutningar för en behållare {#open-connections}
+## Kontrollera antalet öppna anslutningar i en behållare {#open-connections}
 
 Om du vill kontrollera antalet öppna anslutningar i en behållare kan du använda det här kommandot:
 
