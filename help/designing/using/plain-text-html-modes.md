@@ -6,17 +6,16 @@ description: Upptäck lägena Oformaterad text och HTML
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: E-postdesign
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 760c3c30-c899-4cf4-ba59-fb2fade9fc5e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
-
 
 # Redigera oformaterad text, HTML och e-postformat för mobiler {#plain-text-and-html-modes}
 
@@ -60,7 +59,7 @@ Du kan redigera HTML-versionen av e-postmeddelandet på två sätt:
 
 Om du ändrar HTML-koden kan svarstiden för e-postmeddelandet brytas. Testa den med knappen **[!UICONTROL Preview]**. Se [Förhandsvisa meddelanden](../../sending/using/previewing-messages.md).
 
-## Designa e-postmeddelanden för mobil återgivning {#switching-to-mobile-view}
+## Designa e-postmeddelanden för mobilrendering {#switching-to-mobile-view}
 
 Du kan finjustera den responsiva designen för ett e-postmeddelande genom att redigera alla formatalternativ separat för mobilvisning. Du kan till exempel anpassa marginaler och utfyllnad, använda mindre eller större teckensnittsstorlekar, ändra knappar eller använda olika bakgrundsfärger som är specifika för den mobila versionen av e-postmeddelandet.
 
