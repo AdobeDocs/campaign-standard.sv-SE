@@ -7,17 +7,16 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: Lär dig hur du med Adobe Campaign kan hålla reda på skickade meddelanden och se hur mottagarna reagerar på leveransen
-feature: Deliverability
-role: Business Practitioner
+feature: Levererbarhet
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: dd3bd672-fb9d-4e82-bdf3-d319f372baaa
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '433'
 ht-degree: 4%
 
 ---
-
 
 # Spåra och övervaka {#track-and-monitor}
 
@@ -37,7 +36,7 @@ För att kunna styra era kampanjer måste ni se till att meddelandet verkligen h
 
 Mer information finns i [Övervaka en leverans](../../sending/using/monitoring-a-delivery.md).
 
-## Spårning {#tracking-deliveries}
+## Spåra {#tracking-deliveries}
 
 Om du vill veta mer om hur målprofilerna fungerar kan du spåra hur de reagerar på en leverans: mottagning, öppning, klickningar på länkar, avbeställningar osv. Se fliken **Spårningsloggar** för leveransen.
 
@@ -53,13 +52,13 @@ Med dynamiska rapporter kan ni skapa fullt anpassningsbara realtidsrapporter fö
 
 Mer information finns i [Rapportguiden](../../reporting/using/about-dynamic-reports.md).
 
-## Snabbklickningar
+## Snabbklick
 
 Rapporten Snabbklickningar visar meddelandeinnehållet (HTML och/eller text) med procentandelen klickningar på varje länk. Genom att visa procentandelen klick för varje dynamiskt innehåll kan du mäta vilket innehåll som mest tilltalar mottagarna.
 
 Mer information finns i [Hot Click-rapporten](../../reporting/using/hot-clicks.md).
 
-## Tips för leveransresultat {#performance-tips}
+## Tips om leveransresultat {#performance-tips}
 
 * Behåll inte leveranser i felaktigt tillstånd för instansen eftersom detta bevarar tillfälliga tabeller och påverkar prestandan.
 
