@@ -6,19 +6,18 @@ description: Lär dig hur du ställer in sändningstid och förbättrar den öpp
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-feature: Send Time Optimization
-role: Business Practitioner
+feature: Tidsoptimering för sändning
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: f35b46c6-de88-4efa-b3b7-8bb9024e40a8
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 97%
+source-wordcount: '275'
+ht-degree: 98%
 
 ---
 
-
-# Optimera sändningstiden{#optimizing-the-sending-time}
+# Optimera utskickstiden{#optimizing-the-sending-time}
 
 Om du vill förbättra öppningsfrekvensen för dina meddelanden kan du definiera en sändningstid per mottagare manuellt. Varje profil får meddelandet vid det angivna datumet och den angivna tidpunkten, när det är möjligt.
 
@@ -46,4 +45,3 @@ Flera alternativ är tillgängliga:
 * **[!UICONTROL Send at a custom date defined by a formula]**: Varje mottagare får meddelandet vid det datum och den tidpunkt som har konfigurerats av den angivna formeln.
 
    Se [Beräkna utskicksdatum](../../sending/using/computing-the-sending-date.md).
-
