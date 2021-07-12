@@ -7,17 +7,16 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Deliverability
-role: Business Practitioner
+feature: Levererbarhet
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: debbc70d-4094-44c0-b7cb-c999effda1a6
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '791'
 ht-degree: 8%
 
 ---
-
 
 # Kontrollera e-postinnehåll{#control-email-content}
 
@@ -57,7 +56,7 @@ För att förbättra mottagarnas upplevelse och få dem att öppna ditt e-postme
 
 Om du vill öka öppningshastigheten för dina meddelanden kan du även manuellt definiera en sändningstid per mottagare. Varje profil får meddelandet vid det angivna datumet och den angivna tidpunkten, när det är möjligt. Mer information finns i [Optimera sändningstiden](../../sending/using/optimizing-the-sending-time.md).
 
-## Avanmäl länk och formulär {#opt-out}
+## Länk och formulär för avanmälan {#opt-out}
 
 När meddelandet analyseras kontrollerar en typologiregel som standard om en avanmälningslänk har inkluderats och genererar en varning om den saknas. Mer information om hur du hanterar länkar finns i [det här avsnittet](../../designing/using/links.md).
 
