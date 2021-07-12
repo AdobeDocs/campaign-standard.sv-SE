@@ -7,21 +7,20 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: Transaktionsmeddelanden
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 4cea7207-469c-46c5-9921-ae2f8f12d141
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 62%
+source-wordcount: '742'
+ht-degree: 63%
 
 ---
 
+# Körning och övervakning av transaktionsmeddelanden {#transactional-messaging-execution}
 
-# Körning och övervakning av transaktionsmeddelanden{#transactional-messaging-execution}
-
-## Leverans av körning av transaktionsmeddelande {#transactional-message-execution-delivery}
+## Leverans av körning av transaktionsmeddelanden {#transactional-message-execution-delivery}
 
 När meddelandet har publicerats och webbplatsintegreringen är klar tilldelas den till en körningsleverans när en händelse aktiveras.
 
@@ -60,7 +59,7 @@ När händelsen har tilldelats en körningsleverans kan transaktionsmeddelandet 
 >
 >När en händelse tilldelas till en körningsleverans visas den i sändningsloggarna för den här körningsleveransen, och endast vid det här tillfället. De misslyckade leveranserna visas på fliken **[!UICONTROL Execution list]** i transaktionsmeddelandets sändande loggar.
 
-### Försök igen med processbegränsningar {#limitations}
+### Begränsningar för återförsöksprocess {#limitations}
 
 **Uppdatering av utskicksloggar**
 
