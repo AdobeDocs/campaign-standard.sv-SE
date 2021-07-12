@@ -7,19 +7,18 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back;deliveryCreation,wizard
-feature: Direct Mail
-role: Business Practitioner
+feature: Direktutskick
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 815b4a0d-0486-4867-b751-b5ca8b643cb9
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 97%
+source-wordcount: '457'
+ht-degree: 98%
 
 ---
 
-
-# Om direktmeddelanden{#about-direct-mail}
+# Om direktutskick{#about-direct-mail}
 
 Direktmeddelanden är en offlinekanal som gör att du kan anpassa och generera den fil som leverantören av direktmeddelanden behöver.  Det ger dig möjligheten att blanda online- och offline-kanaler i kundresorna.
 
@@ -45,7 +44,7 @@ Användarprocessen i Adobe Campaign är som följer:
 
 ## Rekommendationer {#recommendations}
 
-### Leverantör av direktmeddelanden{#direct-mail-providers}
+### Leverantör av direktmeddelanden {#direct-mail-providers}
 
 Först och främst måste ni kontakta er leverantör av direktmeddelanden och ta reda på deras rekommendationer. Identifiera vilken profilinformation som behöver inkluderas i extraheringsfilen så att de kan personalisera kommunikationen och skicka den till målgruppen.  Som exempelvis för- och efternamn, postadress, kampanjkod etc.  Dessa fält läggs till i fliken [Definiera extrahering](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) i direktmeddelandets innehåll.
 
