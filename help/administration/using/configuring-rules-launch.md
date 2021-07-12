@@ -8,17 +8,17 @@ content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
 feature: Instansinställningar
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
-source-git-commit: fba2ecddb2ebbf600be28724c8658d6d61eb9ecd
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 1%
 
 ---
 
-# Konfigurera startregler för att ger stöd för användningsfall i Adobe Campaign Standard {#configuring-rules-launch}
+# Konfigurera Launch-regler för att ge stöd för användningsfall i Adobe Campaign Standard {#configuring-rules-launch}
 
 I [!DNL Adobe Experience Platform Launch] måste du skapa dataelement och regler för att skicka PII och andra data från mobilprogram till [!DNL Adobe Campaign Standard].
 
@@ -33,7 +33,7 @@ Så här skapar du regler i [!DNL Experience Platform Launch]:
    * [Eftersläpning av push-meddelanden](../../administration/using/configuring-rules-launch.md#push-tracking-postback)
    * [Positionering](../../administration/using/configuring-rules-launch.md#location-postback)
 
-## Skapar dataelement {#create-data-elements}
+## Skapa dataelement {#create-data-elements}
 
 Här är de dataelement som du bör skapa i [!DNL Experience Platform Launch].
 Du kan skapa ytterligare dataelement efter behov.
@@ -66,7 +66,7 @@ Så här skapar du dessa dataelement:
 
 1. Välj **[!UICONTROL Adobe Campaign Standard]** i listrutan **[!UICONTROL Extension]**. **[!UICONTROL Campaign Server]** i listrutan **[!UICONTROL Data element]**.
 
-## Skapar regler {#creating-rules}
+## Skapa regler {#creating-rules}
 
 Du måste skapa regler för följande:
 
@@ -144,7 +144,7 @@ Om du vill skicka PII-data till [!DNL Adobe Campaign Standard] skapar du en rege
 
 Dina användardata har nu konfigurerats för att skickas till Campaign.
 
-### Spårning i appen, återanslående {#inapp-tracking-postback}
+### Spårning i appen - återanslående {#inapp-tracking-postback}
 
 >[!NOTE]
 >
@@ -182,7 +182,7 @@ Om du vill skicka spårningsdata till [!DNL Adobe Campaign Standard] för att ra
 
    ![](assets/do-not-localize/rules_3.png)
 
-### Eftersläpning av push-meddelanden för spårning {#push-tracking-postback}
+### Eftersläpning av push-meddelanden {#push-tracking-postback}
 
 >[!NOTE]
 >
