@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 feature: Levererbarhet
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 66%
