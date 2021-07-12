@@ -6,17 +6,16 @@ description: Skapa utmattningsregler för att hantera överkommunikation med pro
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-feature: Typology Rules
-role: Business Practitioner
+feature: Typologiregler
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 21abf3c2-d319-40a8-9479-1fc02c82e5d2
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '2347'
-ht-degree: 99%
+source-wordcount: '2344'
+ht-degree: 100%
 
 ---
-
 
 # Utmattningsregler{#fatigue-rules}
 
