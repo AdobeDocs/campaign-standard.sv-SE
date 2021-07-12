@@ -6,19 +6,18 @@ description: Upptäck hur du utformar e-postmeddelanden med hjälp av Adobe Camp
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: E-postdesign
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d5c72f69-68a2-4523-956f-f265ae79b470
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '723'
 ht-degree: 5%
 
 ---
 
-
-# E-postdesign för flera lösningar {#multi-solution-email-design}
+# E-postdesign med flera lösningar {#multi-solution-email-design}
 
 Adobe Campaign har flera alternativ för e-postutveckling. Du kan använda lösningar som Dreamweaver för att redigera e-postinnehåll och skapa responsiva meddelanden i e-postdesignern. Du kan även skicka e-post med innehåll med Adobe Experience Manager och använda det i e-postmeddelanden i Adobe Campaign Standard.
 
@@ -63,7 +62,7 @@ Adobe Campaign har flera alternativ för e-postutveckling. Tabellen nedan visar 
  <thead> 
   <tr> 
    <th> </th> 
-   <th> Email Designer<br /> </th> 
+   <th> E-post-designer<br /> </th> 
    <th> Experience Manager<br /> </th> 
    <th> Dreamweaver<br /> </th> 
   </tr> 
@@ -156,7 +155,7 @@ Adobe Campaign har flera alternativ för e-postutveckling. Tabellen nedan visar 
  </tbody> 
 </table>
 
-## Självstudievideo {#video}
+## Videokurs {#video}
 
 I den här videon visas hur du skapar och redigerar innehåll för Adobe Campaign Standard med Dreamweaver.
 
