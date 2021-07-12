@@ -8,10 +8,10 @@ topic-tags: deliveries-best-practices
 index: y
 description: Lär dig hur du skyddar och optimerar sändningsprocessen uppströms.
 feature: Levererbarhet
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
-source-git-commit: 8a62ee661b77c3e3062e46477bfce5911e9415ff
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 6%
@@ -38,7 +38,7 @@ Flera faktorer kan direkt påverka serverprestanda och göra plattformen långsa
 
 * Du kan använda [funktionerna i panelen Kampanjkontroll](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html) för att övervaka plattformen med [funktioner för prestandaövervakning](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html).
 
-## Kontrollerar nätverkskonfigurationen {#network-config}
+## Kontrollerar nätverkskonfiguration {#network-config}
 
 Om du vill optimera leveransen när du hanterar e-post i stora volymer och undvika att ta fel för en skräppost, kontrollerar du att du har en giltig nätverkskonfiguration som inte försöker dölja serverns identitet.
 
@@ -74,7 +74,7 @@ När du börjar skicka e-post på en ny plattform kan du använda en lista med a
 
 * Hantering av karantäner minskar också SMS-sändningskostnaderna eftersom felaktiga telefonnummer utesluts från leveranser.
 
-## Dubbel anmälningsmekanism {#double-opt-in}
+## Mekanisk för dubbel anmälan {#double-opt-in}
 
 För att undvika att skicka meddelanden till ogiltiga adresser, begränsa felaktig kommunikation och förbättra avsändarens anseende rekommenderar Adobe att du använder en dubbel anmälningsmekanism för bekräftelse efter prenumeration. Detta bidrar till att säkerställa att mottagaren prenumererar avsiktligt.
 
