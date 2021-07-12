@@ -7,19 +7,19 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: Översikt
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '5298'
 ht-degree: 98%
 
 ---
 
-# Versionsinformation 2020{#release-notes-2020}
+# Versionsinformation för 2020{#release-notes-2020}
 
-[Lanseringsplanering](https://helpx.adobe.com/se/campaign/kb/acs-release-planning.html) | [Kontrollpanelsversioner](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=sv) | [Dokumentationsuppdateringar](../../rn/using/documentation-updates.md) | [Information gällande tidigare versioner](../../rn/using/release-notes-2019.md) | [Föråldrade funktioner](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=sv#release-notes)
+[Versionsplanering](https://helpx.adobe.com/se/campaign/kb/acs-release-planning.html) | [Kontrollpanelsversioner](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=sv) | [Dokumentationsuppdateringar](../../rn/using/documentation-updates.md) | [Tidigare versionsinformation](../../rn/using/release-notes-2019.md) | [Inaktuella funktioner](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=sv#release-notes)
 
 ![](assets/do-not-localize/cp-icon.png) **Den senaste versionen av kontrollpanelen från juni** med övervakning av aktiva profiler, granskning av deldomänens levererbarhet och hantering av GPG-nycklar. [Läs mer](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
@@ -380,15 +380,15 @@ ht-degree: 98%
 * Korrigerade ett problem som kunde inträffa i arbetsflöden när en aktivitet med flera inkommande övergångar körs.
 * Korrigerade ett problem som förhindrade standardanvändare från att använda &quot;Prenumerationer på ett program&quot; som måldimension i en arbetsflödesfråga eller leverans. (CAMP-37618)
 
-## Version 20.1.4 - februari 2020 {#release-20-1-4---february-2020}
+## Version 20.1.4 – februari 2020 {#release-20-1-4---february-2020}
 
 * Korrigerade ett problem när en **Läs målgrupp**-aktivitet öppnades i befintliga arbetsflöden. (CAMP-41002)
 
-## Version 20.1.3 - februari 2020 {#release-20-1-3---february-2020}
+## Version 20.1.3 – februari 2020 {#release-20-1-3---february-2020}
 
 * Korrigerade ett regressionsproblem som introducerades i 20.1 av CAMP-39273 för kunder som använder kryphålet. CAMP-39273 återfördes.
 
-## Version 20.1.2 - februari 2020 {#release-20-1-2---february-2020}
+## Version 20.1.2 – februari 2020 {#release-20-1-2---february-2020}
 
 **Förbättringar av E-postdesigner**
 
@@ -396,7 +396,7 @@ ht-degree: 98%
 * Ett problem som lade till ett utrymme när dynamiskt innehåll användes har åtgärdats. (CAMP-40605)
 * Ett problem har korrigerats när en transaktionsmall för e-post konfigurerades. (CAMP-40604)
 
-## Version 20.1 - februari 2020 {#release-20-1---february-2020}
+## Version 20.1 – februari 2020 {#release-20-1---february-2020}
 
 **Vad är nytt?**
 
