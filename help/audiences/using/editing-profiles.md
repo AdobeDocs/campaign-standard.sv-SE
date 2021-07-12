@@ -6,17 +6,16 @@ description: Lär dig hur du redigerar befintliga profiler och får tillgång ti
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-feature: Profiles
-role: Business Practitioner
+feature: Profiler
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d0c7dc09-6f2b-4336-b545-7afe3a704164
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '315'
 ht-degree: 8%
 
 ---
-
 
 # Redigera profiler{#editing-profiles}
 
@@ -42,7 +41,7 @@ Profiles Edition kan också användas med Adobe Campaign Standard API. Mer infor
 
 Relaterat ämne:
 
-* [Integrerad kundprofil](../../audiences/using/integrated-customer-profile.md)
+* [Integrated Customer Profile](../../audiences/using/integrated-customer-profile.md)
 * [Skicka vid mottagarens tidszon](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)
 
 ## Allmänna profildata {#general-profile-data}
