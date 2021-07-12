@@ -6,17 +6,16 @@ description: Förstå hur anmälan och avanmälan hanteras i Adobe Campaign.
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
-feature: Audiences
-role: Business Practitioner
+feature: Målgrupper
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 4aeb90c5-f5b5-4cfe-93fb-2fd01fb8d70e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 8%
+source-wordcount: '310'
+ht-degree: 9%
 
 ---
-
 
 # Hantera anmälan och avanmälan i Campaign{#managing-opt-in-and-opt-out-in-campaign}
 
@@ -36,7 +35,7 @@ Du kan också konfigurera en **[!UICONTROL Denylist]**-landningssida som gör at
 
 >[!NOTE]
 >
->Landningssidor kan också användas för att aktivera serviceabonnemang. Se denna [sida](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service) för mer information om detta.
+>Landningssidor kan också användas för att aktivera serviceabonnemang. Mer information finns på [den här sidan](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service).
 
 1. Skapa en **[!UICONTROL Profile acquisition]**-landningssida (se [det här avsnittet](../../channels/using/getting-started-with-landing-pages.md)).
 1. Lägg till en kryssruta i innehållet på landningssidan för varje önskad kanal och länka den sedan till motsvarande fält från Campaign-databasen.
@@ -52,11 +51,10 @@ Du kan också konfigurera en **[!UICONTROL Denylist]**-landningssida som gör at
 
    ![](assets/optin_landingpage_3.png)
 
-### Konfigurera en startsida för att avanmäla alla leveranser {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
+### Konfigurera en landningssida för att avanmäla sig från alla leveranser {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
 
 Om du vill att användarna ska kunna välja bort från alla leveranser måste du skapa och publicera en **[!UICONTROL Denylist]**-landningssida. Mer information om hur du skapar landningssidor finns på [den här sidan](../../channels/using/getting-started-with-landing-pages.md).
 
 När en användare klickar på startsidans länk markeras automatiskt alternativet **[!UICONTROL No longer contact (by any channel)]** i profilen.
 
 ![](assets/blocklisting_allchannels.png)
-
