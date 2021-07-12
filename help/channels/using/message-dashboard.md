@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 context-tags: delivery,main
-feature: Overview
-role: Business Practitioner
+feature: Översikt
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 886aae39-2029-471c-b4d1-c6ca57d0e568
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '588'
 ht-degree: 4%
 
 ---
-
 
 # Kontrollpanel för meddelanden{#message-dashboard}
 
