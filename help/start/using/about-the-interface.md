@@ -6,17 +6,16 @@ description: Kampanjarbetsytan bygger på koncept som är gemensamma för alla A
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Overview
-role: Business Practitioner
+feature: Översikt
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d32f2dd1-c579-4a3e-8330-b39bce941656
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '433'
 ht-degree: 5%
 
 ---
-
 
 # Om gränssnittet{#about-the-interface}
 
