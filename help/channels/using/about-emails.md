@@ -1,25 +1,24 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Om e-post
+title: Om e-postmeddelanden
 description: Upptäck olika typer av e-postmeddelanden som du kan skicka med Adobe Campaign.
 audience: channels
 content-type: reference
 topic-tags: email-messages
 context-tags: deliveryCreation,wizard
-feature: Email
-role: Business Practitioner
+feature: E-post
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: fd03c6b8-34ed-4b7e-9980-3fc06a2ed726
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '132'
 ht-degree: 3%
 
 ---
 
-
-# Om e-post{#about-emails}
+# Om e-postmeddelanden{#about-emails}
 
 E-postkanalen är en av de viktigaste kanalerna i Adobe Campaign, så att ni kan schemalägga och skicka personaliserade e-postmeddelanden till specifika mål.
 
