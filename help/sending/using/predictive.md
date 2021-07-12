@@ -6,17 +6,16 @@ description: Läs om hur du använder förutsägande sändningstider och engagem
 audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
-feature: Send Time Optimization
-role: Business Practitioner
+feature: Tidsoptimering för sändning
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1067'
 ht-degree: 97%
 
 ---
-
 
 # Optimera design och leverans med AI-baserade e-postmeddelanden{#journey-ai}
 
@@ -37,7 +36,7 @@ Adobe Campaign Standard erbjuder två nya maskininlärningsmodeller: **Förutsä
 >
 >Funktionen kräver att en Azure- eller Amazon S3-lagring som kunden måste tillhandahålla används.
 
-## Förutsägande optimering av sändningstid{#predictive-send-time}
+## Prediktiv optimering av sändningstid{#predictive-send-time}
 
 ### Optimera klick och öppningar{#about-predictive-send-time}
 
@@ -113,7 +112,7 @@ AddHours([currentDelivery/scheduling/@contactDate],
 
 
 
-## Förutsägande engagemangsbedömning {#predictive-scoring}
+## Prediktiv poängsättning för engagemang {#predictive-scoring}
 
 Med förutsägande engagemangsbedömning kan du:
 
@@ -153,26 +152,3 @@ Genom att använda en frågeaktivitet i ett arbetsflöde kan du använda poänge
 Med till exempel villkoren för **kvarhållningsnivå**:
 
 ![](assets/do-not-localize/predictive_score_query.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
