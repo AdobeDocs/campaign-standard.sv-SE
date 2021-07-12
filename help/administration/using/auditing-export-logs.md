@@ -6,17 +6,16 @@ description: Administratörer kan spåra exporter som gjorts från Adobe Campaig
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Access Management
-role: Administrator
+feature: Åtkomsthantering
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 552fa4ac-77a2-4d99-b49a-5dc01acedeb2
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '115'
 ht-degree: 5%
 
 ---
-
 
 # Granska exportloggar{#auditing-export-logs}
 
