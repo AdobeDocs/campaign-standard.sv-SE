@@ -7,27 +7,26 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Deliverability
-role: Business Practitioner
+feature: Levererbarhet
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: 5e523519-7192-4031-9d96-559af23074d9
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 6%
+source-wordcount: '746'
+ht-degree: 8%
 
 ---
 
-
-# Vad är leveransbarhet{#about-deliverability}?
+# Vad är levererbarhet?{#about-deliverability}
 
 Leveransmöjligheterna gör det möjligt att mäta framgången för era kampanjer som når mottagarnas inkorgar utan att studsa, eller markeras som skräppost. [Läs varför levererbarhet är viktigt](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html#why-deliverability-matters).
 
 Mer exakt är att e-postleverans är en uppsättning egenskaper som avgör hur ett meddelande kan nå sin destination, via en personlig e-postadress, inom en kort tid och med den förväntade kvaliteten i fråga om innehåll och format. <!--These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program.-->
 
-Mer information om leveransvillkor och leveranssätt finns i [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
+Mer information om leveransvillkor och leveranssätt finns i [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=sv).
 
-## Så här förbättrar du leveransen {#deliverability-key-points}
+## Hur man förbättrar leveransen {#deliverability-key-points}
 
 Leveransproblem är vanligtvis kopplade till skyddsåtgärder mot skräppost som implementeras av Internetleverantörer och e-postserveradministratörer.
 
@@ -62,12 +61,12 @@ Adobe Campaign har ett antal verktyg för att spåra och förbättra plattformen
 
 När du konfigurerar, utformar och testar ett meddelande måste du följa de bästa metoderna som anges i avsnitten nedan. Genom att utnyttja alla funktioner i Adobe Campaign kan du förbättra leveransen.
 
-* [Bästa praxis för leverans](../../sending/using/delivery-best-practices.md)
+* [God praxis för leverans](../../sending/using/delivery-best-practices.md)
 * [Kontrollera e-postinnehåll](../../sending/using/control-email-content.md)
 * [Förhandsgranska meddelanden](../../sending/using/previewing-messages.md)
-* [Skicka korrektur](../../sending/using/sending-proofs.md)
+* [Skicka bevis](../../sending/using/sending-proofs.md)
 
-### Verifiera samtycke via dubbel anmälan {#double-opt-in}
+### Verifiera samtycke genom dubbel anmälan {#double-opt-in}
 
 För att undvika att skicka meddelanden till ogiltiga adresser, begränsa felaktig kommunikation och förbättra avsändarens anseende rekommenderar Adobe att du använder en mekanism för dubbel anmälan. På så sätt kan du säkerställa att mottagarna prenumererar avsiktligt.
 
@@ -86,7 +85,7 @@ Vissa internetleverantörer betraktar automatisk e-post som skräppost om antale
 Mer information finns i följande avsnitt:
 
 * [Förstå leveransfel](../../sending/using/understanding-delivery-failures.md)
-* [Förstå karantänhantering](../../sending/using/understanding-quarantine-management.md)
+* [Förstå karantänshantering](../../sending/using/understanding-quarantine-management.md)
 * [Karantän mot blockeringslista](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
 
 ### Använd övervaknings- och rapporteringsverktyg
