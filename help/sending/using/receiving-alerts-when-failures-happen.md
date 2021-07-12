@@ -6,17 +6,16 @@ description: Lär dig hur du använder varningshanteringssystemet.
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-feature: Proofs
-role: Business Practitioner
+feature: Korrektur
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '2035'
+source-wordcount: '2032'
 ht-degree: 2%
 
 ---
-
 
 # Få aviseringar när fel uppstår{#receiving-alerts-when-failures-happen}
 
@@ -74,7 +73,7 @@ I Adobe Campaign gränssnitt kan du
 
 ![](assets/delivery-alerting_dashboard.png)
 
-### Skapar en kontrollpanel för leveransvarningar {#creating-a-delivery-alerting-dashboard}
+### Skapa en kontrollpanel för leveransvarningar {#creating-a-delivery-alerting-dashboard}
 
 Om du vill skicka meddelanden baserat på specifika villkor till olika användargrupper måste du använda flera kontrollpaneler. Så här skapar du en ny kontrollpanel:
 
@@ -93,7 +92,7 @@ Om du vill skicka meddelanden baserat på specifika villkor till olika användar
 
 Varje gång en leverans uppfyller de villkor som du har definierat i den här kontrollpanelen skickas ett varningsmeddelande till den angivna användargruppen.
 
-## Leveransaviseringskriterier {#delivery-alerting-criteria}
+## Villkor för leveransvarning {#delivery-alerting-criteria}
 
 ### Om varningsvillkor {#about-alerting-criteria}
 
@@ -183,9 +182,9 @@ När du har skapat dessa villkor kan du lägga till dem i en kontrollpanel för 
 
 [Lägga till eller utöka en resurs](../../developing/using/key-steps-to-add-a-resource.md)
 
-## Leveransvarningsparametrar {#delivery-alerting-parameters}
+## Parametrar för leveransvarning {#delivery-alerting-parameters}
 
-### Villkorsparametrar {#criteria-parameters}
+### Kriterieparametrar {#criteria-parameters}
 
 På fliken **[!UICONTROL Criteria parameters]** på en [kontrollpanel för leveransvarningar](#creating-a-delivery-alerting-dashboard) kan du definiera inställningar som gäller för de villkor som valts i den här kontrollpanelen.
 
@@ -281,6 +280,5 @@ Här är några möjliga orsaker till att du får varningsmeddelanden enligt de 
 **Relaterade ämnen:**
 
 * [Förstå leveransfel](../../sending/using/understanding-delivery-failures.md)
-* [Förstå karantänhantering](../../sending/using/understanding-quarantine-management.md)
+* [Förstå karantänshantering](../../sending/using/understanding-quarantine-management.md)
 * [Om anmälan och avanmälan i Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-
