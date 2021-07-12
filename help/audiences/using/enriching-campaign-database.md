@@ -6,17 +6,16 @@ description: Lär dig mer om de olika metoderna för att utöka databasen.
 audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
-feature: Profiles
-role: Business Practitioner
+feature: Profiler
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9c55a8b3-034e-4319-8a88-7b59e83fa458
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '448'
 ht-degree: 3%
 
 ---
-
 
 # Förbättrar databasen{#enriching-the-database}
 
@@ -71,4 +70,4 @@ Mer information om hur du använder API:erna finns i [dedikerad dokumentation](.
 
 >[!IMPORTANT]
 >
->Innan du skapar eller uppdaterar profiler via API-anrop bör du kontrollera de skalbegränsningar som motsvarar licensavtalet. Se denna [sida](https://helpx.adobe.com/se/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers) för mer information om detta.
+>Innan du skapar eller uppdaterar profiler via API-anrop bör du kontrollera de skalbegränsningar som motsvarar licensavtalet. Mer information finns på [den här sidan](https://helpx.adobe.com/se/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
