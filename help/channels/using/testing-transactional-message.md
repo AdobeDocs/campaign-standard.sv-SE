@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: Transaktionsmeddelanden
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5138826d-ae08-403b-91ef-91027ef6e78e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 39%
+source-wordcount: '280'
+ht-degree: 40%
 
 ---
-
 
 # Testa ett transaktionsmeddelande {#testing-a-transactional-message}
 
@@ -59,7 +58,7 @@ Du kan också skapa en ny testprofil eller använda en som redan finns på **[!U
 * [Hantera testprofiler](../../audiences/using/managing-test-profiles.md)
 * [Skapa målgrupper](../../audiences/using/creating-audiences.md)
 
-## Skicka korrektur {#sending-proof}
+## Skicka korrekturet {#sending-proof}
 
 När du har skapat en eller flera specifika testprofiler och sparat ditt transaktionsmeddelande kan du skicka ett bevis för att testa det.
 
