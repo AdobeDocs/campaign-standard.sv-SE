@@ -7,17 +7,16 @@ audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
 context-tags: service,wizard;service,main
-feature: Audiences
-role: Business Practitioner
+feature: Målgrupper
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6f42251e-75da-4707-a855-6ba9a86256c9
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 94%
+source-wordcount: '441'
+ht-degree: 95%
 
 ---
-
 
 # Skapa en tjänst{#creating-a-service}
 
@@ -64,7 +63,7 @@ När en tjänst har skapats kan du marknadsföra den.
 * [Skapa en målgrupp bestående av abonnenter](../../audiences/using/creating-audiences.md#creating-list-audiences)
 * [Länka en landningssida till en tjänst](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
 
-## Självstudievideo {#video}
+## Videokurs {#video}
 
 I den här videon visas hur du skapar en tjänst och hanterar dess prenumerationer.
 
