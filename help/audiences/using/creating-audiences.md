@@ -7,21 +7,20 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: readAudience,main;audience,overview;delivery,audience,back
-feature: Audiences
-role: Business Practitioner
+feature: Målgrupper
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b40e4f6f-34bb-40f9-80e8-e9f1bce5548c
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 99%
+source-wordcount: '970'
+ht-degree: 100%
 
 ---
 
-
 # Skapa målgrupper{#creating-audiences}
 
-## Skapa förfrågningsmålgrupper{#creating-query-audiences}
+## Skapa förfrågningsmålgrupper {#creating-query-audiences}
 
 I det här avsnittet beskrivs hur du skapar en **förfrågnings** målgrupp.                                Du kan också skapa målgrupper genom att importera en fil eller målinriktning i ett [arbetsflöde](../../automating/using/get-started-workflows.md).
 
@@ -78,7 +77,7 @@ Så här skapar du en **lista** med målgrupper:
 
    ![](assets/audiences_list_4.png)
 
-## Skapa målgruppsfil{#creating-file-audiences}
+## Skapa målgruppsfil {#creating-file-audiences}
 
 I det här avsnittet så beskrivs hur du skapar en målgrupps **fil** genom att importera en fil till ett arbetsflöde.        Du kan också skapa målgrupper via en målinriktningsaktivitet i ett [arbetsflöde](../../automating/using/get-started-workflows.md) eller via en förfrågan i **[!UICONTROL Audiences]**-menyn.
 
@@ -147,4 +146,3 @@ Förfallodatumet har nu konfigurerats. Så fort detta datum har passerat raderas
 Om du istället vill ta bort en målgrupp kan du markera en eller flera målgrupper och sedan klicka på **[!UICONTROL Delete element]**-knappen.
 
 ![](assets/audience_delete_1.png)
-
