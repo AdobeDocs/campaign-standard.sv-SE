@@ -1,30 +1,29 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Kom igång med Campaign Standard-administration
+title: Kom igång med administration av Campaign Standard
 description: Upptäck användar- och behörighetshantering, riktlinjer för övervakning, kanalspecifika konfigurationer och riktlinjer för programinställningar.
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
-feature: Access Management
-role: Administrator
+feature: Åtkomsthantering
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
+exl-id: 9676b5e8-4c34-4848-8616-235e0bac5d6b
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 12%
+source-wordcount: '639'
+ht-degree: 13%
 
 ---
 
-
-# Kom igång med Campaign Standard-administration {#about-administrating-adobe-campaign}
+# Kom igång med administration av Campaign Standard {#about-administrating-adobe-campaign}
 
 <table>
 <tr><td><img src="assets/do-not-localize/icon_menu.svg" width="60px"><p><a href="#administration-menu">Menyn Administration</a></p></td>
 <td><img src="assets/do-not-localize/icon_users.svg" width="60px"><p><a href="#users-security">Användare och säkerhet</a></p></td>
 <td><img src="assets/do-not-localize/icon_channels.svg" width="60px"><p><a href="#channels-configuration">Kanalkonfiguration</a></p></td>
-<td><img src="assets/do-not-localize/icon_settings.svg" width="60px"><p><a href="#application-settings">Programinställningar</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_settings.svg" width="60px"><p><a href="#application-settings">Applikationsinställningar</a></p></td></tr>
 </table>
 
 Adobe Campaign är en molnbaserad lösning som ger administratörer olika sätt att konfigurera programmet. Även om infrastrukturkonfigurationen utförs av Adobe kan funktionsadministratörer utföra olika konfigurationsåtgärder som beskrivs nedan.
@@ -33,9 +32,9 @@ Adobe Campaign är en molnbaserad lösning som ger administratörer olika sätt 
 >
 >Om du har frågor eller frågor om implementerings- och konfigurationsfrågor kontaktar du din kontoansvarige på Adobe.
 
-Observera att administratörsanvändare även kan använda Campaign-kontrollpanelen för att hantera inställningar och spåra användningen för var och en av dina instanser. Mer information om detta hittar du i den [dedikerade dokumentationen](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html).
+Observera att administratörsanvändare även kan använda Campaign-kontrollpanelen för att hantera inställningar och spåra användningen för var och en av dina instanser. Mer information om detta hittar du i den [dedikerade dokumentationen](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=sv).
 
-## Administrationsmeny {#administration-menu}
+## Menyn Administration {#administration-menu}
 
 <img src="assets/do-not-localize/icon_menu.svg" width="60px">
 
@@ -84,9 +83,9 @@ Läs mer:
 * [Om kanalkonfiguration](../../administration/using/about-channel-configuration.md)
 * [Konfigurera e-postkanal](../../administration/using/configuring-email-channel.md)
 * [Konfigurera SMS-kanal](../../administration/using/configuring-sms-channel.md)
-* [Konfigurera ett mobilprogram](../../administration/using/configuring-a-mobile-application.md)
+* [Konfigurera en mobilapplikation](../../administration/using/configuring-a-mobile-application.md)
 
-## Programinställningar {#application-settings}
+## Applikationsinställningar {#application-settings}
 
 <img src="assets/do-not-localize/icon_settings.svg" width="60px">
 
@@ -98,7 +97,7 @@ Definiera ett eller flera **varumärken** för din organisation och konfigurera 
 
 Läs mer:
 
-* [Om Campaign Standard-inställningar](../../administration/using/about-campaign-standard-settings.md)
+* [Om inställningar i Campaign Standard](../../administration/using/about-campaign-standard-settings.md)
 * [Externa konton](../../administration/using/external-accounts.md)
 * [Målmappningar i Campaign](../../administration/using/target-mappings-in-campaign.md)
 * [Tekniska arbetsflöden](../../administration/using/technical-workflows.md)
