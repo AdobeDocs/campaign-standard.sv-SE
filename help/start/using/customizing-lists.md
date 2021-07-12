@@ -6,17 +6,16 @@ description: '"Lär dig hur du anpassar visningen och agerar på listskärmar i 
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Campaigns
-role: Business Practitioner
+feature: Kampanjer
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 651a53b4-e02f-4963-99e6-2e2c324b1c8c
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '394'
 ht-degree: 1%
 
 ---
-
 
 # Anpassa listor{#customizing-lists}
 
