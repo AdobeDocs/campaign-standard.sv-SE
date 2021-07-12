@@ -7,21 +7,20 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
-feature: Access Management
-role: Administrator
+feature: Åtkomsthantering
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: fbab695a-2672-4183-8c3b-78af7aefd5b1
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '844'
 ht-degree: 4%
 
 ---
 
-
 # Organisationsenheter{#organizational-units}
 
-## Enheter {#about-units}
+## Om enheter {#about-units}
 
 Varje objekt och användare av plattformen är länkade till en organisationsenhet. Den här enheten gör att en hierarkisk struktur kan definieras för att ge användarna en filtrerad vy. En användares enhet definierar sin åtkomstnivå för olika plattformsobjekt.
 
@@ -125,4 +124,3 @@ Fältet för organisationsenhet läggs till i dina profiler i **[!UICONTROL Acce
 
 * [Om enheter](../../administration/using/organizational-units.md#about-units)
 * [Om åtkomsthantering](../../administration/using/about-access-management.md)
-
