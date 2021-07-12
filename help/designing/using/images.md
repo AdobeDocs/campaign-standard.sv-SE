@@ -6,17 +6,16 @@ description: Upptäck hur du hanterar bilder i e-postmeddelanden med e-postdesig
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: E-postdesign
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b58a378d-18da-4c0f-b4e7-5d0a02aab4c2
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '305'
 ht-degree: 3%
 
 ---
-
 
 # Arbeta med bilder {#images}
 
