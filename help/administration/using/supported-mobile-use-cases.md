@@ -7,19 +7,18 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Instance Settings
-role: Administrator
+feature: Instansinställningar
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3cd8d756-a271-4e53-8ed0-984ce20298bc
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '955'
 ht-degree: 0%
 
 ---
 
-
-# Mobil användning som stöds av Adobe Campaign Standard {#mobile-use-cases}
+# Mobila användningsfall som stöds av Adobe Campaign Standard {#mobile-use-cases}
 
 På den här sidan hittar du en lista över alla mobilanvändningsfall som stöds i [!DNL Adobe Campaign Standard] med [!DNL Adobe Experience Platform SDKs]. Observera att stöd för de här användningsexemplen innefattar installation och konfigurering av [!DNL Adobe Experience Platform SDKs], [!DNL Adobe Experience Platform Launch] och [!DNL Adobe Campaign Standard]. Mer information finns på den här [sidan](../../administration/using/configuring-a-mobile-application.md).
 
@@ -145,7 +144,7 @@ public void onNewToken(String token) {
 }
 ```
 
-## Berika en mobilprofil med anpassade data från ditt program {#enrich-mobile-profile-custom}
+## Berika en mobilprofil med anpassade data från programmet {#enrich-mobile-profile-custom}
 
 För att detta ska fungera måste du skapa regler för PII-återanslående. Mer information finns i [PII Postbacks](../../administration/using/configuring-rules-launch.md#pii-postback).
 
@@ -177,7 +176,7 @@ data.put("email", emailText);
 MobileCore.collectPii(data);
 ```
 
-## Berika en mobilprofil med livscykeldata från ditt program {#enrich-mobile-profile-lifecycle}
+## Berika en mobilprofil med livscykeldata från programmet {#enrich-mobile-profile-lifecycle}
 
 För att detta ska fungera måste du skapa regler för PII-återanslående. Mer information finns i [PII Postbacks](../../administration/using/configuring-rules-launch.md#pii-postback).
 
