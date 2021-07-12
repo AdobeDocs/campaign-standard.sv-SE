@@ -7,19 +7,18 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Instance Settings
-role: Administrator
+feature: Instansinställningar
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: eb7a209e-069e-4068-966d-05344bd838c7
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1204'
 ht-degree: 1%
 
 ---
 
-
-# Migrera din mobilapplikation från SDK v4 till Adobe Experience Platform SDK {#sdkv4-migration}
+# Så här migrerar du din mobilapplikation från SDK v4 till Adobe Experience Platform SDK {#sdkv4-migration}
 
 >[!IMPORTANT]
 >
@@ -96,7 +95,7 @@ Efter den här migreringen kommer prenumeranter som samlats in via V4-versionen 
 Om du vill skilja på de två olika typerna av prenumeranter kan du lägga till ett nytt anpassat fält av typen **[!UICONTROL Text]** när du utökar den anpassade resursen **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** till exempel som `sdkversion` eller `appVersion`. Mer information om hur du utökar en anpassad resurs finns på den här [sidan](../../developing/using/creating-or-extending-the-resource.md).
 Du måste sedan konfigurera den associerade startsidan **[!UICONTROL Mobile property]** för att skicka det här anpassade fältvärdet i Samla in PII-anropet och ändra mobilprogrammets konfiguration i enlighet med detta.
 
-## Vanliga frågor och svar {#faq}
+## Vanliga frågor och svar  {#faq}
 
 ### F: I SDK v4-mobilprogrammet visas inte migreringen av mobilprogram till Adobe Experience Platform SDK-fliken. {#tab-not-visible}
 
@@ -132,6 +131,6 @@ S: Adobe Experience Platform SDK-programmet är en resurs på samma nivå som **
 I det här fallet bör du flytta dina mobilprogram i samma **[!UICONTROL Organizational unit]** eller i en **[!UICONTROL Organizational unit]** med en överordnad länk.
 Mer information om **[!UICONTROL Organizational unit]** finns i [avsnittet](../../administration/using/organizational-units.md).
 
-### F: På din sida för Adobe Experience Platform SDK-mobilprogram (som migrerats från ditt v4-mobilprogram) visas ingen information, till exempel överföringsdatum/namn, för Android-nyckeln eller iOS-certifikatet {#no-information-v5} under listrutan Push-kanalinställningar
+### F: Från mobilappen för Adobe Experience Platform SDK (som migrerats från mobilappen v4) visas ingen information för Android-nyckeln eller iOS-certifikatet under listrutan Push-kanalinställningar {#no-information-v5}
 
 S: Den här informationen lagras inte i systemet när SDK V4-mobilprogrammet skapas. När du migrerar ditt SDK V4-mobilprogram till ett Adobe Experience Platform SDK-mobilprogram kommer ditt migrerade mobilprogram inte heller att ha den här typen av information. Så snart en användare laddar upp ett nytt iOS- eller Android-certifikat kommer de olika uppgifterna för nyckeln eller certifikatet att lagras och visas korrekt i listrutan **[!UICONTROL Push channel settings]**.
