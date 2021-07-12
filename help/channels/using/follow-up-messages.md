@@ -6,17 +6,16 @@ description: Lär dig hur du skapar, hanterar och skickar ett uppföljningsmedde
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-feature: Transactional Messaging
-role: Business Practitioner
+feature: Transaktionsmeddelanden
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0a05cf20-7c8f-406b-acfd-7aece2c5dd26
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '775'
 ht-degree: 3%
 
 ---
-
 
 # Uppföljningsmeddelanden {#follow-up-messages}
 
