@@ -10,10 +10,10 @@ feature: Tidsoptimering för sändning
 role: User
 level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 356bac989a6bd4c9039910e2d9c59f33ce1153f8
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 97%
+source-wordcount: '1048'
+ht-degree: 99%
 
 ---
 
@@ -33,8 +33,7 @@ Adobe Campaign Standard erbjuder två nya maskininlärningsmodeller: **Förutsä
 
 >[!IMPORTANT]
 >Den här funktionen är inte tillgänglig som en del av produkten. För implementering krävs att Adobe Consulting används. Kontakta din Adobe-representant för mer information.
->
->Funktionen kräver att en Azure- eller Amazon S3-lagring som kunden måste tillhandahålla används.
+
 
 ## Prediktiv optimering av sändningstid{#predictive-send-time}
 
