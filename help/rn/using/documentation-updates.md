@@ -10,16 +10,22 @@ feature: Översikt
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: c56d0e0ab4496ae769dc504107f677ef6ea74068
 workflow-type: tm+mt
-source-wordcount: '6852'
-ht-degree: 100%
+source-wordcount: '6893'
+ht-degree: 99%
 
 ---
 
 # Dokumentationsuppdateringar{#documentation-updates}
 
 Förutom [versionsinformationen](../../rn/using/release-notes.md) för Adobe Campaign listas alla nya uppdateringar i dokumentationen för Adobe Campaign Standard på den här sidan.
+
+## Juli 2021 {#doc-updates-july-2021}
+
+Ett nytt avsnitt har lagts till som beskriver hur användare kan abonnera eller avbryta abonnemang på flera tjänster från en enda landningssida. [Läs mer](../../channels/using/managing-landing-page-form-data.md#multiple-subscriptions)
+
+Avsnittet **Hantera landningssidans formulärdata** har uppdaterats och klargjorts. [Läs mer](../../channels/using/managing-landing-page-form-data.md)
 
 ## Version 21.2 – juni 2021 {#release-21-2---june-2021}
 
