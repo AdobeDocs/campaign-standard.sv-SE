@@ -11,43 +11,70 @@ feature: Landningssidor
 role: User
 level: Intermediate
 exl-id: 7083447c-4cac-41cb-8453-369819e0c7c1
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: c56d0e0ab4496ae769dc504107f677ef6ea74068
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 62%
+source-wordcount: '837'
+ht-degree: 15%
 
 ---
 
 # Hantera formulärdata på landningssida{#managing-landing-page-form-data}
 
-## Ändra egenskaper för formulärdata på landningssidan{#changing-a-landing-page-form-data-properties}
+I innehållet på landningssidan används inmatningsfält för att lagra eller uppdatera data från Campaign-databasen.
 
-Här kan du länka databasfält till fältblock av typen inmatning, radioknapp eller kryssruta. Markera blocket och öppna **[!UICONTROL Form data]** på paletten.
+För att göra detta måste dessa fält mappas till databasfält.
 
-![](assets/delivery_content_9.png)
+Du kan definiera och hantera mappningen i **[!UICONTROL Form data]**-avsnittet på den vänstra paletten.
 
-* I **inmatningsfältet** kan du välja ett databasfält som ska länkas i formulärrutan.
-* Det **obligatoriska** alternativet ger dig möjligheten att endast godkänna en inskickning om användaren har fyllt i fältet. Om ett obligatoriskt fält inte fyllts i så visas ett felmeddelande.
+![](assets/lp_form-data.png)
 
 ## Mappning av formulärfält {#mapping-form-fields}
 
-Inmatningsfält används för att lagra eller uppdatera data i Campaign-databasen.  Därför måste du länka databasfält med fältblock av typen inmatning, radioknapp eller kryssruta. Så här gör du:
+Om du vill uppdatera Campaign-databasen efter dina behov länkar du relevanta databasfält till textblock för indatazon, alternativknapp eller kryssruta på landningssidan.
 
-1. Markera ett område på landningssidan.
-1. Slutför **[!UICONTROL Form data]**-delen på paletten.
+Följ stegen nedan för att göra detta:
 
-   ![](assets/editing_lp_content_4.png)
+1. Markera ett block i innehållet på landningssidan.
 
-1. Välj det databasfält som ska länkas till formulärrutan i **[!UICONTROL Field]**-urvalszonen.  Det går endast att mappa landningssidor med **profiler**.
+   >[!NOTE]
+   >
+   >Standardfälten för de inbyggda landningssidorna är förkonfigurerade.  Du kan ändra dessa efter behov.
 
-1. Markera **[!UICONTROL Mandatory]**-alternativet om det behövs.  Sidan kan endast skickas in om användaren har fyllt i det här fältet.  Om ett obligatoriskt fält inte har fyllts i så visas ett felmeddelande när användaren validerar sidan.
+1. Gå till avsnittet **[!UICONTROL Form data]** på den vänstra paletten.
 
-1. Definiera fälttypen genom att t.ex. välja **[!UICONTROL Text]**, **[!UICONTROL Number]** eller **[!UICONTROL Date]** i **[!UICONTROL HTML type of the field]** markeringsområdet.
-Om du väljer ett obligatoriskt **[!UICONTROL Checkbox]** så kontrollerar du att det är av typen **[!UICONTROL Field]**.
+1. Om du vill ändra fälttyp väljer du ett värde i listrutan **[!UICONTROL HTML type of the field]**.
 
->[!NOTE]
->
->Standardfälten för de inbyggda landningssidorna är förkonfigurerade.  Du kan ändra dessa efter behov.
+   ![](assets/lp_html-field-type.png)
+
+   >[!NOTE]
+   >
+   >Mer information om hur du använder kryssrutetypen på en landningssida finns i avsnitten [Uppdatera flera serviceabonnemang](#multiple-subscriptions) och [Avtalskryssruta](#agreement-checkbox).
+
+1. Om du väljer en fälttyp som inte är kompatibel med det databasfält som är markerat i zonen **[!UICONTROL Field]** visas ett varningsmeddelande. Välj ett lämpligt värde för optimal mappning.
+
+   ![](assets/lp_field-type-warning.png)
+
+1. Använd zonen **[!UICONTROL Field]** för att välja ett databasfält som ska länkas till formulärfältet.
+
+   ![](assets/lp_select-database-field.png)
+
+   >[!NOTE]
+   >
+   >Landningssidor kan bara mappas med resurserna **[!UICONTROL Profiles]** eller **[!UICONTROL Service]**.
+
+   I det här exemplet mappar du fältet **Namn** på landningssidan till fältet **[!UICONTROL Last name]** för resursen **[!UICONTROL Profiles]**.
+
+   ![](assets/lp_database-field-example.png)
+
+1. Markera **[!UICONTROL Mandatory]**-alternativet om det behövs.  I så fall kan landningssidan endast skickas om användaren har fyllt i detta fält.
+
+   ![](assets/lp_mandatory-option.png)
+
+   Om ett obligatoriskt fält inte är ifyllt visas ett felmeddelande när användaren skickar sidan.
+
+1. Klicka på **[!UICONTROL Confirm]** för att spara ändringarna.
+
+<!--If you choose a mandatory **[!UICONTROL Checkbox]**, make sure that it is of **[!UICONTROL Field]** type.-->
 
 ## Datalagring och avstämning{#data-storage-and-reconciliation}
 
@@ -57,11 +84,57 @@ Så här gör du:
 
 1. Redigera landningssidans egenskaper som du kommer åt via ![](assets/edit_darkgrey-24px.png)-ikonen på kontrollpanelen för landningssidan och visa **[!UICONTROL Job]**-parametrarna.
 
-   ![](assets/lp_parameters_4.png)
+   ![](assets/lp_parameters_job.png)
 
-1. Välj **[!UICONTROL Reconciliation key]**: dessa databasfält (till exempel: e-post, förnamn, efternamn) används för att avgöra om besökaren har en profil som redan finns i Adobe Campaign-databasen.  På så sätt kan du uppdatera eller skapa en profil enligt de definierade parametrarna för uppdateringsstrategin.
+1. Välj **[!UICONTROL Reconciliation key]**: det här databasfältet används för att avgöra om besökaren har en profil som redan är känd i Adobe Campaign-databasen. Det kan till exempel vara e-post, förnamn och efternamn. Med avstämningsnyckeln kan du uppdatera eller skapa en profil enligt parametern **[!UICONTROL Update strategy]** som definieras nedan.
+
 1. Definiera **[!UICONTROL Form parameter mapping]**: I denna del kan du mappa fältparametrar för landningssidor och de som används i avstämningsnyckeln.
-1. Välj **[!UICONTROL Update strategy]**: Om avstämningsnyckeln återställer en befintlig databasprofil kan du välja att den här profilen ska uppdateras med data som anges i formuläret eller i stället förhindra att den uppdateras.
+
+1. Välj **[!UICONTROL Update strategy]**: Om avstämningsnyckeln återställer en befintlig databasprofil kan du välja att den här profilen ska uppdateras med data som anges i formuläret, eller i stället förhindra att den uppdateras.
+
+   ![](assets/lp_parameters_update-strategy.png)
+
+## Flera serviceabonnemang {#multiple-subscriptions}
+
+Du kan använda flera kryssrutor på en enda landningssida för att tillåta användare att prenumerera eller avbryta prenumerationen på flera tjänster.
+
+Följ stegen nedan för att göra detta:
+
+1. När landningssidan utformas:
+
+   * Markera ett block och välj **[!UICONTROL Form data]** som fälttyp i avsnittet **[!UICONTROL Checkbox]**.
+
+      ![](assets/lp_field-type-checkbox.png)
+
+   * Om du känner till HTML kan du även infoga en kryssruta manuellt med knappen **[!UICONTROL Show source]**.
+
+      ![](assets/lp_show_source.png)
+
+      På så sätt kan du infoga kryssrutan när det passar på sidan.
+
+      ![](assets/lp_manual-checkbox.png)
+
+1. Kontrollera att kryssrutan är markerad i innehållet. Listrutan **[!UICONTROL Type]** visas i avsnittet **[!UICONTROL Form data]** på den vänstra paletten. Välj **[!UICONTROL Service and subscription]** i listan.
+
+   ![](assets/lp_service-and-subscription.png)
+
+1. Välj ett alternativ i listrutan **[!UICONTROL Behavior]**.
+
+   ![](assets/lp_checkbox-behavior.png)
+
+1. Välj en [tjänst](../../audiences/using/creating-a-service.md) i motsvarande lista.
+
+   ![](assets/lp_checkbox-service.png)
+
+1. Kontrollera att alternativet **[!UICONTROL Mandatory]** inte är markerat. Annars har användarna inget val.
+
+   ![](assets/lp_uncheck-mandatory.png)
+
+1. Om du vill lägga till fler kryssrutor som gör det möjligt att prenumerera på andra tjänster upprepar du stegen ovan så många gånger som behövs.
+
+   ![](assets/lp_multiple-checkboxes.png)
+
+När landningssidan har publicerats kan användarna välja flera kryssrutor för att prenumerera på flera nyhetsbrev från samma sida.
 
 ## Kryssruta för avtal {#agreement-checkbox}
 
@@ -69,39 +142,31 @@ Du kan lägga till en kryssruta som profilen måste kontrollera innan du skickar
 
 Detta gör till exempel att du kan begära användarens samtycke för sekretesspolicy eller få dem att acceptera dina villkor innan de skickar in formuläret.
 
-<!--This is particularly useful in the following case:
-
-When a profile opens the landing page from an Outlook.com mailbox, Outlook checks whether the links on the landing page are suspicious. However, this Outlook security feature (called safelinks) has an unwanted effect: it automatically activates the buttons included on the landing page. Consequently, profiles are automatically subscribed or unsubscribed without confirmation when the landing page is displayed after clicking the email link, even if they do not submit the form.
-
-![](assets/lp_submit_button.png)
-
-To avoid this, Adobe recommends you always add to your landing page a checkbox which enables the profile to agree before proceeding with subscription or unsubscription.-->
-
 >[!IMPORTANT]
 >
 >Det är obligatoriskt för användarna att markera den här kryssrutan. Om de inte väljs kommer de inte att kunna skicka landningssidan.
 
 Så här infogar och konfigurerar du den här kryssrutan:
 
-1. När du utformar landningssidan klickar du på **[!UICONTROL Show source]**.
+1. När landningssidan utformas:
 
-   ![](assets/lp_show_source.png)
+   * Markera ett block och välj **[!UICONTROL Form data]** som fälttyp i avsnittet **[!UICONTROL Checkbox]**.
 
-1. Infoga en kryssruta manuellt, som i exemplet nedan:
+      ![](assets/lp_field-type-checkbox.png)
 
-   ![](assets/lp_checkbox_code.png)
+   * Om du känner till HTML kan du även infoga en kryssruta manuellt med knappen **[!UICONTROL Show source]**.
 
-   <!--
-   <div id="HtmlPage_htmlPage.line3" data-nl-format="datetime"><input type="checkbox" class="nl-dce-todo" data-nl-bindto="agreement" data-nl-agreementmsg="You must agree with the terms and conditions before proceeding" />I agree with the terms and conditions</div>
-   -->
+      ![](assets/lp_show_source.png)
 
-1. Klicka på **[!UICONTROL Hide source]**.
+      <!--Manually insert a checkbox, such as in the example below:
 
-1. Den nya kryssrutan visas. Markera den.
+      <!--Click **[!UICONTROL Hide source]**.-->
+
+1. Kontrollera att kryssrutan är markerad.
 
    ![](assets/lp_select_checkbox.png)
 
-1. Motsvarande nedrullningsbara lista visas i **[!UICONTROL Form data]**-avsnittet på paletten. Välj **[!UICONTROL Agreement]** i listan.
+1. Listrutan **[!UICONTROL Type]** visas i avsnittet **[!UICONTROL Form data]** på den vänstra paletten. Välj **[!UICONTROL Agreement]** i listan.
 
    ![](assets/lp_form_data_drop-down.png)
 
