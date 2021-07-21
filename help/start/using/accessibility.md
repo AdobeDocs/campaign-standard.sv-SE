@@ -11,7 +11,7 @@ role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
 ht-degree: 100%
 
@@ -94,7 +94,7 @@ Observera att språket konfigureras vid installationen och inte kan ändras efte
 | Tabb | Navigera genom de olika elementen i användargränssnittet |
 | Retur eller mellanslag | Aktivera det markerade objektet |
 
-### Email Designer {#email-designer-shortcuts}
+### E-postdesigner {#email-designer-shortcuts}
 
 | Genväg | Åtgärd |
 |:-:|:-:|
@@ -122,7 +122,7 @@ Observera att språket konfigureras vid installationen och inte kan ändras efte
 | Skift + Alt + S | Skicka rapport enligt schema |
 | Skift = Alt + L | Schemalagda rapporter |
 
-## Ytterligare läsning {#further-reading}
+## Vidare läsning {#further-reading}
 
 Vi strävar efter att Adobe Campaign Standard ska tillhandahålla en allt större grad av tillgänglighet som gör produkten enkel att använda för alla.
 
