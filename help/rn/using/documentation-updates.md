@@ -11,9 +11,9 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: c56d0e0ab4496ae769dc504107f677ef6ea74068
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6893'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Förutom [versionsinformationen](../../rn/using/release-notes.md) för Adobe Cam
 
 ## Juli 2021 {#doc-updates-july-2021}
 
-Ett nytt avsnitt har lagts till som beskriver hur användare kan abonnera eller avbryta abonnemang på flera tjänster från en enda landningssida. [Läs mer](../../channels/using/managing-landing-page-form-data.md#multiple-subscriptions)
+Ett nytt avsnitt har lagts till som beskriver hur användare kan prenumerera eller avbryta prenumerationer på flera tjänster från en enda landningssida. [Läs mer](../../channels/using/managing-landing-page-form-data.md#multiple-subscriptions)
 
 Avsnittet **Hantera landningssidans formulärdata** har uppdaterats och klargjorts. [Läs mer](../../channels/using/managing-landing-page-form-data.md)
 
@@ -118,7 +118,7 @@ Avsnittet **Transaktionella meddelanden** har organiserats om och samlats på en
 
 Information har lagts till i avsnittet Adobe Experience Platform Data Connector om valideringsfel gällande datakartläggning som rör integritetshantering och felsökning av detta. [Läs mer](../../integrating/using/aep-mapping-activation.md)
 
-## Version 20.4 - oktober 2020 {#release-20-4---october-2020}
+## Version 20.4 – oktober 2020 {#release-20-4---october-2020}
 
 **Nya funktioner i denna version**
 
@@ -192,7 +192,7 @@ Avsnittet med parametrar för e-postkanaler har klargjorts med ytterligare infor
 
 Konfigurationen av en mobilapplikation med Adobe Experience Platform SDK:er finns nu i huvuddokumentationen med ytterligare information om Sync Mobile-appen AEPSDK från Launch technical workflow. [Läs mer](../../administration/using/configuring-a-mobile-application.md)
 
-## Version 20.3 - maj 2020 {#release-20-3---may-2020}
+## Version 20.3 – maj 2020 {#release-20-3---may-2020}
 
 **Nya funktioner i utgåvan**
 
@@ -238,7 +238,7 @@ Avsnittet Konfigurera e-postkanal har uppdaterats med information om alla e-post
 
 Avsnittet Transaktionsmeddelanden har uppdaterats med ytterligare information om vilka rättigheter som krävs för att redigera händelsekonfigurationer och hur man förbättrar samlingar i transaktionsmeddelanden. [Läs mer](../../channels/using/configuring-transactional-event.md).
 
-## Version 20.2 - april 2020 {#release-20-2---april-2020}
+## Version 20.2 – april 2020 {#release-20-2---april-2020}
 
 **Nya funktioner i utgåvan**
 
@@ -290,7 +290,7 @@ Audience Destinations (beta) - [Läs mer](../../integrating/using/aep-about-audi
 
 **Andra dokumentationsuppdateringar som medföljer utgåvan**
 
-Dokumentationen för sekretesshantering har uppdaterats med information om hur du skapar CCPA-fält för avanmälan för anpassade profilresurser. [Läs mer](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html)
+Dokumentationen för sekretesshantering har uppdaterats med information om hur du skapar CCPA-fält för avanmälan för anpassade profilresurser. [Läs mer](https://helpx.adobe.com/se/campaign/kb/acs-privacy.html)
 
 Versionsinformationen har omstrukturerats och förbättrats. [Läs mer](../../rn/using/release-notes.md)
 
@@ -322,7 +322,7 @@ Arbetet med Campaign och Experience Manager-dokumentationen har uppdaterats med 
 
 Hemsidan för API-dokumentationen har förbättrats med omdirigeringar till de olika avsnitten. [Läs mer](../../api/using/get-started-apis.md)
 
-## Nov.–dec. 2019 {#doc-updates-december-2019}
+## Nov. – dec. 2019 {#doc-updates-december-2019}
 
 Dokumentationen för det externa kontot för konfigurering av S3 har uppdaterats. [Läs mer](../../administration/using/external-accounts.md#amazon-s3-external-account)
 
@@ -350,7 +350,7 @@ Datamodellen har integrerats i dokumentationen för Campaign Standard. [Läs mer
 
 Den nya API-slutpunkten **/customResources** har lagts till i API-dokumentationen.[Läs mer](../../api/using/interacting-with-custom-resources.md)
 
-## Version 19.4 - oktober 2019 {#release-19-4---october-2019}
+## Version 19.4 – oktober 2019 {#release-19-4---october-2019}
 
 **Nya funktioner i denna version**
 
@@ -374,7 +374,7 @@ Ett nytt avsnitt har lagts till som beskriver hur du formaterar länkar med Emai
 
 Sekretessrelaterad information har lagts till i API:ernas dokumentation [Klicka här](../../api/using/creating-a-privacy-request.md)
 
-## Sept.–okt. 2019 {#doc-updates-october-2019}
+## Sept. – okt. 2019 {#doc-updates-october-2019}
 
 Ett nytt avsnitt som är relaterat till inställningarna för Campaign Standard har lagts till. [Läs mer](../../administration/using/about-campaign-standard-settings.md)
 
@@ -390,7 +390,7 @@ Ett nytt exempel som visar hur du skickar ett e-postmeddelande som innehåller y
 
 Ett nytt avsnitt om hur du använder fällor har lagts till. [Läs mer](../../sending/using/using-traps.md).
 
-Ett meddelande om alternativet **Launch_URL_Campaign** har lagts till på sidan om hur du konfigurerar en mobilapp med hjälp av SDK:er för Adobe Experience Platform. [Läs mer](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
+Ett meddelande om alternativet **Launch_URL_Campaign** har lagts till på sidan om hur du konfigurerar en mobilapp med hjälp av SDK:er för Adobe Experience Platform. [Läs mer](https://helpx.adobe.com/se/campaign/kb/configuring-app-sdk.html)
 
 Email Designer-guiden har omstrukturerats. [Läs mer](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -406,7 +406,7 @@ Avsnittet som beskriver innehållsmallar och fragment har uppdaterats. [Läs mer
 
 Ett nytt avsnitt om hur du sparar e-postinnehåll som en mall i Email Designer har lagts till. [Läs mer](../../designing/using/using-reusable-content.md#saving-content-as-template)
 
-## Version 19.3 - juli 2019 {#release-19-3---july-2019}
+## Version 19.3 – juli 2019 {#release-19-3---july-2019}
 
 **Nya funktioner i utgåvan**
 
@@ -446,7 +446,7 @@ Listan med felmeddelanden för Campaign Standard och Classic har uppdaterats. [L
 
 En varning har lagts till i dokumentationen för anpassade resurser. Vi rekommenderar att du använder högst 30 tecken för anpassade resurs-ID:n. Detta gäller även anpassade resursfält, nycklar, index och länkar. [Läs mer](../../developing/using/creating-or-extending-the-resource.md)
 
-## Juni–juli 2019 {#doc-updates-2019}
+## Juni – juli 2019 {#doc-updates-2019}
 
 En ny sida med begränsningar för landningssidor har lagts till. [Läs mer](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
 
@@ -458,11 +458,11 @@ Listan med felmeddelanden för Campaign Standard och Classic har uppdaterats. [L
 
 En varning har lagts till i dokumentationen för anpassade resurser. Vi rekommenderar att du använder högst 30 tecken för anpassade resurs-ID:n. Detta gäller även anpassade resursfält, nycklar, index och länkar. [Läs mer](../../developing/using/creating-or-extending-the-resource.md)
 
-## Version 19.2 - maj 2019 {#release-19-2---may-2019}
+## Version 19.2 – maj 2019 {#release-19-2---may-2019}
 
 **Nya funktioner i denna version**
 
-Kontrollpanelen - [läs mer](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
+Kontrollpanelen - [läs mer](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=sv)
 
 Lokala notifikationer - [Läs mer](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
@@ -582,7 +582,7 @@ Tillagd information i avsnittet uppdatera dataaktivitet i det nya fältet för b
 
 Information har lagts till i extrahera fil-aktivitetsavsnittet om det nya alternativet som gör att du kan inaktivera filgenereringsprocessen om den utgående övergången är tom. [Läs mer](../../automating/using/extract-file.md#configuration)
 
-## Version 19.0 - januari 2019 {#release-19-0---january-2019}
+## Version 19.0 – januari 2019 {#release-19-0---january-2019}
 
 **Nya funktioner i utgåvan**
 
@@ -616,13 +616,13 @@ Lagt till information om det nya alternativet i filaktiviteten extrahera som fö
 
 Konfigurationen av en mobilapp med SDK V4-avsnittet har flyttats [hit](https://helpx.adobe.com/se/campaign/kb/configuring-app-sdkv4.html).
 
-Avsnittet Konfigurera en mobilapp med SDK:er för Adobe Experience Platform har flyttats [hit](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+Avsnittet Konfigurera en mobilapp med SDK:er för Adobe Experience Platform har flyttats [hit](https://helpx.adobe.com/se/campaign/kb/configuring-app-sdk.html).
 
-Videor har uppdaterats och flyttats [hit](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html).
+Videor har uppdaterats och flyttats [hit](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html?lang=sv).
 
 Avsnittet Typ av användare har uppdaterats. [Läs mer](../../administration/using/users-management.md)
 
-## Version 18.9 - september 2018 {#release-18-9---september-2018}
+## Version 18.9 – september 2018 {#release-18-9---september-2018}
 
 **Nya funktioner i utgåvan**
 
@@ -638,7 +638,7 @@ Lagt till information om hur du tar bort en målgrupp. [Läs mer](../../audience
 
 Uppdaterat inbyggt rapportavsnitt för push-meddelanden. [Läs mer](../../reporting/using/push-notification-report.md)
 
-## Version 18.7 - juli 2018 {#release-18-7---july-2018}
+## Version 18.7 – juli 2018 {#release-18-7---july-2018}
 
 **Nya funktioner i utgåvan**
 
@@ -648,7 +648,7 @@ Automatiserad innehållsimport från en länk vid förberedelsetillfället. [Lä
 
 **Andra dokumentationsuppdateringar som medföljer utgåvan**
 
-En ny teknik har lagts till i SMS-anslutningsprotokollet och inställningarna. [Läs mer](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)
+En ny teknik har lagts till i SMS-anslutningsprotokollet och inställningarna. [Läs mer](https://helpx.adobe.com/se/campaign/kb/sms-connector-protocol-and-settings.html)
 
 Experience Manager-integreringen med dokumentationen för Adobe Campaign har uppdaterats. [Läs mer](../../reporting/using/creating-a-custom-profile-dimension.md)
 
@@ -682,7 +682,7 @@ Ett exempel har lagts till i avsnittet för förfrågningsaktivitet om hur målp
 
 Ett avsnitt som rör **anpassade filter** har lagts till i API-dokumentationen. [Läs mer](../../api/using/filtering.md)
 
-## Version 18.5 - maj 2018 {#release-18-5---may-2018}
+## Version 18.5 – maj 2018 {#release-18-5---may-2018}
 
 **Nya funktioner i utgåvan**
 
@@ -716,11 +716,11 @@ Listan över Analytics-SKU:er som stöds för integreringen med triggers har upp
 
 Vissa sidor i dokumentationen för innehållsredigeraren har sammanfogats för att ge en mer heltäckande bild av de olika åtgärder som är tillgängliga. [Läs mer](../../designing/using/designing-content-in-adobe-campaign.md)
 
-## Version 18.3 - mars 2018 {#release-18-3---march-2018}
+## Version 18.3 – mars 2018 {#release-18-3---march-2018}
 
 **Nya funktioner i denna version**
 
-EU:s allmänna dataskyddsförordning (GDPR) - [Läs mer](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
+EU:s allmänna dataskyddsförordning (GDPR) - [Läs mer](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=sv)
 
 Creative Designer för e-post - [läs mer](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -792,7 +792,7 @@ Uppdaterad information om leveransfel och karantän. [Läs mer](../../sending/us
 
 Nya avsnitt som är dedikerade till [målmappningar](../../administration/using/target-mappings-in-campaign.md) och [måldimensioner och resurser](../../automating/using/query.md#targeting-dimensions-and-resources).
 
-## Version 18.1 - januari 2018 {#release-18-1---january-2018}
+## Version 18.1 – januari 2018 {#release-18-1---january-2018}
 
 **Nya funktioner i utgåvan**
 
@@ -820,7 +820,7 @@ Lagt till information om historikinställningar för aktiviteten Överför fil. 
 
 Instruktionerna för att konfigurera integreringen med Audience Manager eller People core service har uppdaterats. [Läs mer](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
-## Version 17.10 - oktober 2017 {#release-17-10---october-2017}
+## Version 17.10 – oktober 2017 {#release-17-10---october-2017}
 
 **Nya funktioner i utgåvan**
 
@@ -850,7 +850,7 @@ Uppdaterade och klargjorde [tekniken](https://helpx.adobe.com/se/campaign/kb/int
 
 Teknisk anteckning har lagts till som förklarar strukturen för den nyttolast som tas emot i en mobilapp. [Läs mer.](https://helpx.adobe.com/se/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)
 
-Konfigurations[avsnittet](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) för push-kanaler har uppdaterats med ny nyttolastdata i OS-versionen som ska läggas till när återanslag definieras i gränssnittet för Adobe Mobile Services.
+Konfigurations[avsnittet](https://helpx.adobe.com/se/campaign/kb/configuring-app-sdkv4.html) för push-kanaler har uppdaterats med ny nyttolastdata i OS-versionen som ska läggas till när återanslag definieras i gränssnittet för Adobe Mobile Services.
 
 SMS-dokumentationen har uppdaterats med ett förtydligande i avsnittet [SMS-automatiska svar](../../channels/using/managing-incoming-sms.md#managing-stop-sms) .
 
@@ -860,7 +860,7 @@ Nytt avsnitt som är dedikerat till primärnycklar och användningen av företag
 
 Information som lagts till om enkel och flera filtreringar i API:t. [Läs mer](../../api/using/filtering.md)
 
-## Version 17.9 - september 2017 {#release-17-9---september-2017}
+## Version 17.9 – september 2017 {#release-17-9---september-2017}
 
 **Nya funktioner i utgåvan**
 
@@ -900,7 +900,7 @@ Uppdaterat avsnitt om arbetsflödesaktiviteten: överför fil. [Läs mer](../../
 
 Information som lagts till i alternativet &quot;Begär bekräftelse innan meddelanden skickas&quot; i arbetsflödesaktiviteten för e-postleverans. [Läs mer](../../automating/using/email-delivery.md)
 
-## Version 17.7 - juli 2017 {#release-17-7---july-2017}
+## Version 17.7 – juli 2017 {#release-17-7---july-2017}
 
 **Nya funktioner i utgåvan**
 
@@ -932,7 +932,7 @@ Mekanismen för dubbel anmälan dokumenteras nu via en stegvis procedur. [Läs m
 
 Listan med roller har uppdaterats. [Läs mer](../../administration/using/list-of-roles.md)
 
-## Version 17.5 - maj 2017 {#release-17-5---may-2017}
+## Version 17.5 – maj 2017 {#release-17-5---may-2017}
 
 **Nya funktioner i utgåvan**
 
@@ -946,7 +946,7 @@ Guiden &quot;Leveranser&quot; har ordnats om och namnet &quot;Kanaler&quot; har 
 
 Många skärmbilder har uppdaterats för att återspegla gränssnittsändringar.
 
-Nu finns en ny teknik: &quot;Integrera Adobe Mobile SDK med mobilappen&quot;. [Läs mer](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
+Nu finns en ny teknik: &quot;Integrera Adobe Mobile SDK med mobilappen&quot;. [Läs mer](https://helpx.adobe.com/se/campaign/kb/integrate-mobile-sdk.html)
 
 Instruktioner för att konfigurera People core service eller Audience Manager integration med Adobe Campaign har lagts till. [Läs mer](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
@@ -954,7 +954,7 @@ Behörighetstabellen har reviderats för att tydliggöra vissa rollers funktion.
 
 Uppdatering av sammanhangsbaserade hjälplänkar som är tillgängliga direkt i Adobe Campaign.
 
-## Version 17.4 - april 2017 {#release-17-4---april-2017}
+## Version 17.4 – april 2017 {#release-17-4---april-2017}
 
 **Nya funktioner i utgåvan**
 
@@ -976,21 +976,21 @@ Handboken för arbetsflöde har omorganiserats och utökats. Hitta enkelt hur ma
 
 Beräkning av rapportindikator finns nu tillgängligt för dynamiska rapporter inklusive fullständig beskrivning och beräkningsformel. [Läs mer](../../reporting/using/indicator-calculation.md)
 
-Nytt dedikerat avsnitt om konfigurationen av Adobe Mobile Services som använder push-meddelanden och intressepunktsdata i Adobe Campaign. [Läs mer](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
+Nytt dedikerat avsnitt om konfigurationen av Adobe Mobile Services som använder push-meddelanden och intressepunktsdata i Adobe Campaign. [Läs mer](https://helpx.adobe.com/se/campaign/kb/configuring-app-sdkv4.html)
 
-Konfigurations- och implementeringsavsnitten för mobilappar har uppdaterats inklusive mer detaljerade steg för att konfigurera och skicka push-meddelanden. [Läs mer](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
+Konfigurations- och implementeringsavsnitten för mobilappar har uppdaterats inklusive mer detaljerade steg för att konfigurera och skicka push-meddelanden. [Läs mer](https://helpx.adobe.com/se/campaign/kb/configuring-app-sdkv4.html)
 
 Uppdaterat avsnitt om hur du arbetar med bilder i Campaign. [Läs mer](../../designing/using/images.md#setting-up-image-properties)
 
 Integrationen med Adobe Analytics for Mobile (Point of Interest) har uppdaterats inklusive konfigurationssteg och användningsfall. [Läs mer](../../integrating/using/about-campaign-points-of-interest-data-integration.md)
 
-## Version 17.2 - mars 2017 {#release-17-2---march-2017}
+## Version 17.2 – mars 2017 {#release-17-2---march-2017}
 
 **Nya funktioner i utgåvan**
 
 Dynamisk rapportering - [läs mer](../../reporting/using/about-dynamic-reports.md)
 
-Dreamweaver-integrering (Labs) - [Läs mer](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
+Dreamweaver-integrering (Labs) - [Läs mer](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=sv)
 
 Tidsoptimering för manuell sändning - [Läs mer](../../sending/using/optimizing-the-sending-time.md)
 
@@ -1012,7 +1012,7 @@ Vi har omdesignat programmeringsgränssnittets dokumentation med ny information 
 
 Upptäck olika exempel för de nya arbetsflödesaktiviteterna för [läsmålgrupper](../../automating/using/read-audience.md) och [externa signaturer](../../automating/using/external-signal.md) .
 
-## Version 17.1 - januari 2017 {#release-17-1---january-2017}
+## Version 17.1 – januari 2017 {#release-17-1---january-2017}
 
 **Nya funktioner i utgåvan**
 
