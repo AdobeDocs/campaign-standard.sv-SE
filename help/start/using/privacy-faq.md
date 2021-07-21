@@ -14,7 +14,7 @@ role: User
 level: Intermediate
 exl-id: 8f8ce032-5cff-44d3-9d3b-52511dbcaaab
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '814'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Punkterna nedan är länkade till de viktigaste villkoren och begreppen relatera
 * [Åtkomsträttigheter och rätt att glömmas](../../start/using/privacy-management.md#right-access-forgotten)
 * [Medgivande, lagring och roller](../../start/using/privacy-management.md#consent-retention-roles)
 
-## Beredskap för integritetsreglering {#privacy-regulations-readiness}
+## Beredskap för integritetsbestämmelser {#privacy-regulations-readiness}
 
 **Vad föreslår Adobe Campaign för att följa den senaste integritetsregleringen?**
 
