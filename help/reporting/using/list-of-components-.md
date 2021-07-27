@@ -1,24 +1,23 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 'Förteckning över komponenter '
+title: 'Lista över komponenter '
 description: Här finns en lista med alla komponenter som finns i     Dynamiska rapporter och definitioner.
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: Reporting
+feature: Rapportering
 role: Leader
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2
+source-git-commit: 8062995481a889d8865267e6134efa74648753f6
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1272'
 ht-degree: 2%
 
 ---
 
-
-# Förteckning över komponenter {#list-of-components}
+# Lista över komponenter {#list-of-components}
 
 Mer information om kompatibilitet mellan dimensioner och mått finns i den här [tabellen](/help/reporting/using/assets/dynamic_report_compatibility.pdf). Om två komponenter inte är kompatibla visas värdet **Ingen** i cellen.
 
@@ -384,10 +383,6 @@ Tabellerna nedan ger dig en lista över de mätvärden som används i rapporter 
 
 ## Segment {#segments}
 
->[!NOTE]
->
->Som standard är **[!UICONTROL Exclude proof]**-segmentet redan valt för att filtrera rapporter, men det kan ändras vid behov.
-
 Tabellen nedan ger dig en lista över de segment som används i rapporter och deras definitioner.
 
 <table> 
@@ -461,11 +456,6 @@ Tabellen nedan ger dig en lista över de segment som används i rapporter och de
   <tr> 
    <td> Alla besök<br /> </td> 
    <td> Alla mottagare<br /> </td> 
-  </tr> 
-    <tr> 
-   <td> Uteslut korrektur<br /> </td> 
-   <td> Uteslut korrektur från rapporter<br /> </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
-
