@@ -10,10 +10,10 @@ feature: Instansinställningar
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 8204ed1118b5445420d99dbc0438752a4dc26846
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 95%
+source-wordcount: '719'
+ht-degree: 93%
 
 ---
 
@@ -107,7 +107,12 @@ Tekniska arbetsflöden används för att hantera självutlösande bakgrundsproce
    <td> <span class="uicontrol">Återställningsspårningsloggar</span> <br /> </td> 
    <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
    <td> Det här arbetsflödet återställer förlorade spårningsloggar. Observera att det här tekniska arbetsflödet används i särskilda sammanhang och begränsas till enbart intern användning i Adobe. <br> Som standard startas det var 10:e minut.<br /> </td> 
-  </tr> 
+  </tr>
+  <tr> 
+   <td> <span class="uicontrol">Uppdatera leveranskörning</span> <br/> </td> 
+   <td> <span class="uicontrol">updateDeliveryExecInfo</span> <br/> </td> 
+   <td> Det här arbetsflödet kopierar utsändnings- och spårningsloggarna i den lokala databasen. Som standard startas det var 10:e minut.<br/> </td> 
+  </tr>
   <tr> 
    <td> <span class="uicontrol">Uppdatera leveransindikatorer</span> <br /> </td> 
    <td> <span class="uicontrol">updateDeliveryIndicators</span> <br /> </td> 
