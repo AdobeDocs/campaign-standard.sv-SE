@@ -1,23 +1,23 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: '"Steg 2: Publicera tillägget"'
+title: '"Steg 2: publicera tillägget"'
+description: Lär dig hur du publicerar tillägget i Campaign Standard. Del 2 av en serie.
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
-feature: Data Model
+feature: Datamodell
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: e3bebded-764c-4d2e-9580-c413f1576a2c
+source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 25%
+source-wordcount: '108'
+ht-degree: 23%
 
 ---
 
-
-# Steg 2: Publicera tillägget{#step-publish-the-extension}
+# Steg 2: publicera tillägget{#step-publish-the-extension}
 
 1. I den avancerade menyn, via Adobe Campaign-logotypen, väljer du **[!UICONTROL Administration]** > **[!UICONTROL Development]** och sedan **[!UICONTROL Publication]**.
 1. Klicka på knappen **[!UICONTROL Prepare Publication]**.
@@ -38,4 +38,3 @@ ht-degree: 25%
    ![](assets/extendpandsapi_diff.png)
 
 1. Klicka på knappen **[!UICONTROL Publish]**.
-
