@@ -2,6 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: Använda utlösare i Campaign
+description: Skapa en utlösarhändelse i Adobe Campaign baserat på en befintlig Adobe Experience Cloud-utlösare.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
@@ -9,10 +10,10 @@ feature: Utlösare
 role: Data Architect
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 82%
+source-wordcount: '765'
+ht-degree: 80%
 
 ---
 
