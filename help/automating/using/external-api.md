@@ -2,21 +2,21 @@
 solution: Campaign Standard
 product: campaign
 title: Externt API
+description: Den externa API-aktiviteten hämtar data till arbetsflödet för Campaign Standard från ett externt system via ett HTTP API-anrop.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
-feature: Workflows
+feature: Arbetsflöden
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
+source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
 workflow-type: tm+mt
-source-wordcount: '2184'
-ht-degree: 95%
+source-wordcount: '2201'
+ht-degree: 94%
 
 ---
-
 
 # Externt API {#external-api}
 
@@ -38,7 +38,7 @@ De viktigaste egenskaperna för denna aktivitet är:
 * Möjlighet att få ett JSON-svar tillbaka, mappa det till utdatatabeller och skicka det vidare till andra arbetsflödesaktiviteter.
 * Felhantering med en utgående specifik övergång
 
-### Meddelanden om bakåtkompatibilitet{#from-beta-to-ga}
+### Meddelanden om bakåtkompatibilitet {#from-beta-to-ga}
 
 I Campaign Standard 20.4 har http-svarets datastorleksgräns och tidsgränsskydd sänkts för att passa in i bästa praxis - se [Begränsningar och skyddsutkast](#guardrails). Dessa skyddsändringar träder ej i kraft för befintliga externa API-aktiviteter. Vi rekommenderar därför att du ersätter befintliga externa API-aktiviteter med nya versioner i alla arbetsflöden.
 
