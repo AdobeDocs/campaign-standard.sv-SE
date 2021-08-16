@@ -2,20 +2,20 @@
 solution: Campaign Standard
 product: campaign
 title: Testa utlösarna
+description: Lär dig felsökningstips som hjälper dig att lösa de vanligaste problemen du kan stöta på när du använder Utlösare med Adobe Campaign.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-feature: Triggers
+feature: Utlösare
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
+source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '464'
 ht-degree: 2%
 
 ---
-
 
 # Testa utlösarna{#testing-your-triggers}
 
@@ -84,4 +84,3 @@ Om meddelandet inte är giltigt kontrollerar du följande:
 
 * För utlösarfält för anrikning som markerats som ogiltiga validerar du transaktionsmallen från de associerade EventCusResource-samlingarna.
 * Validera meddelandeformatet
-
