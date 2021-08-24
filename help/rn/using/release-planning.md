@@ -10,7 +10,7 @@ feature: Översikt
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 0137067de4528a5138a5fdc233fefe99b006eed3
+source-git-commit: 89514dad1e318f32dafd3d8add664c37b03c8fb7
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 96%
@@ -31,7 +31,7 @@ Alla versionsdatum kan ändras: Vi rekommenderar att du regelbundet besöker den
 
 Miljöuppdateringar sker stegvis under de angivna tidsramarna nedan. Exakta datum meddelas till varje kund via e-post.
 
-Detaljerad information om den här versionen finns i [Tidig versionsinformation](../../rn/using/e-release-notes.md).
+Detaljerad information om den här versionen finns i [Tidig versionsinformation](../../rn/using/early-release-notes.md).
 
 <table>
  <thead>
