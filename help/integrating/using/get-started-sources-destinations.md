@@ -1,23 +1,21 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Kom igång med källor och mål
+title: Kom igång med källor och destinationer
 description: Läs mer om Adobe Experience Platform Sources and Destinations.
 audience: integrating
 content-type: reference
-feature: Sources and Destinations
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ebbdea387a547cd95c96681faed0a20b37edaf0f
+exl-id: ba6205fa-dbcf-497a-882f-f15c00f12e68
+source-git-commit: ca8473f50b132b2d5ca58c6403d144fbf62741b0
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 0%
+source-wordcount: '307'
+ht-degree: 8%
 
 ---
 
-
-# Kom igång med källor och mål {#rtcdp}
+# Kom igång med källor och destinationer {#rtcdp}
 
 ## Om Källor och mål
 
@@ -47,5 +45,5 @@ När kopplingarna har konfigurerats kan du konfigurera en dataimport eller expor
 
 Mer information om hur du konfigurerar dessa import- och exportprocesser finns i följande avsnitt:
 
-* [Engagera Adobe Experience Platform-målgrupper i Campaign](../../integrating/using/ingest-aep-data.md)
+* [Mata in målgrupper från Adobe Experience Platform i Campaign](../../integrating/using/ingest-aep-data.md)
 * [Exportera data från Campaign till Adobe Experience Platform](../../integrating/using/export-campaign-data.md)
