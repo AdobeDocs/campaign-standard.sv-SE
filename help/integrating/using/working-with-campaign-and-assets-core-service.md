@@ -6,22 +6,18 @@ description: Använd resurser som delas inom Adobe Experience Cloud i Adobe Camp
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-assets-core-service
-feature: Integrering av tjänsten People Core
+feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: 0ef8bbae-03a2-4369-bc57-a56302e0ab21
-source-git-commit: e86cc930f9b6b3f3990f3b16b3d8fd2d19e126b7
+source-git-commit: 92edfbc2b7bb035d311f107b5b4c39f2521b07f6
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 8%
+source-wordcount: '167'
+ht-degree: 9%
 
 ---
 
 # Arbeta med Campaign och kärntjänsten Assets{#working-with-campaign-and-assets-core-service}
-
->[!CAUTION]
->
-> Experience Cloud Assets är nu avvecklat. För ny implementering kan du inte längre integrera Experience Cloud Assets med Adobe Campaign Standard.
 
 Genom att integrera Assets Core-tjänsten eller Assets on Demand (beroende på hur Adobe Experience Cloud-miljön är konfigurerad) med Adobe Campaign kan du använda alla resurser som delas inom Adobe Experience Cloud i Adobe Campaign e-postmeddelanden och på landningssidor.
 

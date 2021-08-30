@@ -6,14 +6,14 @@ description: Den här sidan visar inaktuella och borttagna funktioner i Adobe Ca
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
-feature: Översikt
+feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 92edfbc2b7bb035d311f107b5b4c39f2521b07f6
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 76%
+source-wordcount: '727'
+ht-degree: 80%
 
 ---
 
@@ -39,22 +39,6 @@ I det här avsnittet listas funktioner som har markerats som inaktuella i de sen
 I allmänhet listas de funktioner som ska tas bort i en framtida version först som inaktuella med ett alternativ som tillhandahålls. Dessa funktioner är inte längre tillgängliga för nya Campaign Standard-kunder eller ska inte användas för nya implementeringar. De tas också bort från produktdokumentationen.
 
 Kunder uppmanas att se över om de använder funktionen i den aktuella driftsättningen och planera för en ändring av implementeringen som låter dem använda alternativ som tillhandahålls. Se målversionen för borttagning för att planera miljön och projektuppdateringar utifrån detta.
-
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>Integrering av Experience Cloud Assets</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p> Från och med juli 2021 är Assets nu en äldre bastjänst som är under tillsyn. <a href="https://experienceleague.adobe.com/docs/core-services/interface/services/assets/experience-cloud-assets.html?lang=en">Läs mer</a>.</p>
-   <p>För ny implementering kan du inte längre integrera Experience Cloud Assets med Adobe Campaign Standard.</p>
-     <em>Måldatum för borttagning: 2022</em></p>
-     </td> 
-  </tr> 
- </tbody> 
-</table>
 
 <table> 
  <thead> 
@@ -169,7 +153,7 @@ Det här avsnittet visar funktioner som har tagits bort från Campaign Standard.
  </tbody> 
 </table>
 
-## Slut på kompatibilitet {#end-of-compatibility}
+## Kompatibilitet upphör {#end-of-compatibility}
 
 <table> 
  <thead> 
