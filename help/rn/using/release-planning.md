@@ -6,14 +6,14 @@ description: På den här sidan visas kommande versioner av Adobe Campaign Stand
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
-feature: Översikt
+feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: 89514dad1e318f32dafd3d8add664c37b03c8fb7
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 96%
+source-wordcount: '426'
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Uppgraderingar distribueras i två faser. För det första uppgraderas stadieins
 
 Alla versionsdatum kan ändras: Vi rekommenderar att du regelbundet besöker den här sidan för att kontrollera om det finns uppdateringar.
 
-## Version 21.3 - september 2021 {#release-21-3-release}
+## Version 21.3 – version från september 2021 {#release-21-3-release}
 
 Miljöuppdateringar sker stegvis under de angivna tidsramarna nedan. Exakta datum meddelas till varje kund via e-post.
 
