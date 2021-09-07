@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Skapa ett flerspråkigt e-postmeddelande med Adobe Experience Manager-integrering.
+title: Skapa ett flerspråkigt e-postmeddelande med Adobe Experience Manager-integreringen.
 description: Tack vare integreringen med Adobe Experience Manager kan du skapa innehåll direkt i AEM och använda det senare i Adobe Campaign.
 audience: integrating
 content-type: reference
@@ -9,16 +9,15 @@ topic-tags: working-with-campaign-and-experience-manager
 feature: Triggers
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0f66fe2b-22b1-49d7-a080-29b00941a2cc
+source-git-commit: b0b1c2978fea84c736f2c7c0fdeb91ab0bd1ac8c
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '617'
 ht-degree: 5%
 
 ---
 
-
-# Skapa ett flerspråkigt e-postmeddelande med Adobe Experience Manager-integrering {#creating-multilingual-email-aem}
+# Skapa ett flerspråkigt e-postmeddelande med Adobe Experience Manager-integreringen {#creating-multilingual-email-aem}
 
 I det här dokumentet får du lära dig hur du skapar flerspråkiga e-postmeddelanden med Adobe Experience Manager innehåll och språkkopior.
 
@@ -58,7 +57,7 @@ Förutsättningarna är:
 
    ![](assets/aem_acs_8.png)
 
-## Skapar språkkopior {#creating-language-copies}
+## Skapa språkkopior {#creating-language-copies}
 
 När du har utformat ditt e-postinnehåll måste du nu skapa språkkopior som ska synkroniseras med Adobe Campaign Standard som varianter.
 
@@ -84,7 +83,7 @@ Dina språkkopior har skapats. Nu kan du redigera innehållet beroende på vilke
 
 ![](assets/aem_acs_11.png)
 
-## Skapa ditt flerspråkiga innehåll i Adobe Campaign Standard {#multilingual-acs}
+## Skapa flerspråkigt innehåll i Adobe Campaign Standard {#multilingual-acs}
 
 1. Klicka på **[!UICONTROL Create an email]** på Adobe Campaign Standard hemsida.
 
@@ -127,5 +126,9 @@ Dina språkkopior har skapats. Nu kan du redigera innehållet beroende på vilke
 1. Om ditt innehåll eller dina varianter uppdateras i Adobe Experience Manager kan du synkronisera det direkt i Adobe Campaign Standard med **[!UICONTROL Refresh AEM contents]**-knappen.
 
 1. Din e-post är nu klar att skickas. Mer information finns på den här [sidan](../../sending/using/get-started-sending-messages.md).
+
+   >[!NOTE]
+   >
+   >Du kan inte skicka e-postmeddelanden i Adobe Campaign om det innehåller ett AEM som inte har godkänts.
 
 Din publik får ditt e-postmeddelande beroende på **[!UICONTROL Preferred languages]**-uppsättningen i **[!UICONTROL Profiles]**. Mer information om hur du redigerar profiler och önskade språk finns på den här [sidan](../../audiences/using/editing-profiles.md).

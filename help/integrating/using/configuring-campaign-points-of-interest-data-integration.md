@@ -1,25 +1,25 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Konfigurera Campaign-Points of Interest-dataintegration
+title: Konfigurera integrering av Campaign och Points of Interest-data
 description: Lär dig hur du konfigurerar datapunkter i Adobe Campaign för att skicka personaliserade meddelanden baserat på var dina prenumeranter befinner sig.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
-feature: Målgrupper
+feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 3%
+source-wordcount: '1330'
+ht-degree: 2%
 
 ---
 
-# Konfigurera Campaign-Points of Interest-dataintegration{#configuring-campaign-points-of-interest-data-integration}
+# Konfigurera integrering av Campaign och Points of Interest-data{#configuring-campaign-points-of-interest-data-integration}
 
-## Konfigurera integrering av Campaign-Points of Interest-data med Adobe Experience Platform SDK {#configuring-campaign-poi-aep-sdk}
+## Konfigurera integrering av Campaign-Points of Interest-data med Adobe Experience Platform SDK:er {#configuring-campaign-poi-aep-sdk}
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ Om du vill använda datapunkten Point of Interest med mobilprogram som konfigure
 
 För att kunna samla in intressedata med Adobe Campaign måste du konfigurera mobilprogrammet som Adobe Campaign ska ta emot data från.
 
-1. Klicka på **[!UICONTROL Adobe Campaign]**-logotypen i det övre vänstra hörnet och välj sedan **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app]**.
+1. Klicka på logotypen **Adobe** i det övre vänstra hörnet och välj sedan **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app]**.
 1. Klicka på **[!UICONTROL Create]** för att konfigurera ett program.
 1. Ange ett namn i fältet **[!UICONTROL Application name]** och klicka på **[!UICONTROL Create]**.
 
@@ -166,13 +166,13 @@ Du måste ha tillgång till Adobe Analytics för att kunna göra följande konfi
 >
 >Mer information om hur du konfigurerar återanslående finns i [dokumentationen för Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html).
 
-### Integrera SDK i ett mobilprogram {#integrating-the-sdk-into-a-mobile-application}
+### Integrera SDK i en mobilapplikation {#integrating-the-sdk-into-a-mobile-application}
 
 Bastjänstens SDK (Software Development Kit) underlättar integreringen av mobilapplikationer i Adobe Campaign.
 
 Det här steget beskrivs på den här [sidan](https://helpx.adobe.com/se/campaign/kb/configuring-app-sdkv4.html).
 
-### Definiera intressepunkter för Adobe mobiltjänster {#defining-points-of-interest-in-adobe-mobile-services}
+### Definiera intressepunkter för Adobe Mobile Services {#defining-points-of-interest-in-adobe-mobile-services}
 
 Så här definierar du de intressepunkter som används för att samla in platsdata:
 
@@ -196,7 +196,7 @@ Det här steget beskrivs på sidan [Konfigurera ett mobilprogram med SDK V4](htt
 
 Så här får du åtkomst till de program som skapats i Adobe Campaign:
 
-1. Klicka på logotypen **[!UICONTROL Adobe Campaign]** i det övre vänstra hörnet.
+1. Klicka på logotypen **Adobe** i det övre vänstra hörnet.
 1. Välj **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (SDK v4)]** eller **[!UICONTROL Mobile app (AEP SDK)]** beroende på SDK.
 1. Välj ett mobilprogram i listan för att visa dess egenskaper.
 

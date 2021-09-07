@@ -7,14 +7,14 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transaktionsmeddelanden
+feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
 source-wordcount: '1674'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
@@ -34,7 +34,7 @@ När konfigurationen är klar måste händelsen publiceras. Se [Publicera en tra
 
 Börja med att skapa den händelse som passar dina behov.
 
-1. Klicka på **[!UICONTROL Adobe Campaign]**-logotypen i det övre vänstra hörnet och välj sedan **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. Klicka på logotypen **Adobe** i det övre vänstra hörnet och välj sedan **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Klicka på knappen **[!UICONTROL Create]**.
 1. Ange en **[!UICONTROL Label]** och en **[!UICONTROL ID]** för händelsen. Fältet **[!UICONTROL ID]** är obligatoriskt och ska börja med prefixet EVT. Om du inte använder det här prefixet läggs det till automatiskt när du klickar på **[!UICONTROL Create]**.
 
@@ -151,7 +151,7 @@ När händelsen och meddelandet har publicerats kan du med den här länken utö
 
 Följ stegen nedan för att få tillgång till och söka efter transaktionshändelser som redan har skapats.
 
-1. Klicka på **[!UICONTROL Adobe Campaign]**-logotypen i det övre vänstra hörnet och välj sedan **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. Klicka på logotypen **Adobe** i det övre vänstra hörnet och välj sedan **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Klicka på knappen **[!UICONTROL Show search]**.
 
    ![](assets/message-center_search-events.png)

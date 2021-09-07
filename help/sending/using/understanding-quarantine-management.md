@@ -6,14 +6,14 @@ description: Lär dig hur ni optimerar er leveransbarhet med karantänshantering
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-feature: Levererbarhet
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 084838ff5ff369aaaa7715f5bec87a5133093750
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 82%
+source-wordcount: '1268'
+ht-degree: 30%
 
 ---
 
@@ -37,23 +37,29 @@ Mer information om de bästa sätten för att skydda och optimera leveranser fin
 
 ### Karantän mot Blockeringslista {#quarantine-vs-denylist}
 
-**Karantän** gäller bara en adress, inte själva profilen.    Det innebär att om två profiler har samma e-postadress så påverkas båda om adressen sätts i karantän.
+Karantän och blockeringslista gäller inte för samma objekt:
 
-På samma sätt kan en profil vars e-postadress sätts i karantän uppdatera profilen och ange en ny adress. Den kan sedan användas vid leveransåtgärder igen.
+* **** Kvartantinegäller bara för en  **adress**  (eller telefonnummer osv.), inte för själva profilen. En profil vars e-postadress är placerad i karantän kan till exempel uppdatera profilen och ange en ny adress. Därefter kan den användas av leveransåtgärder igen. Om två profiler råkar ha samma telefonnummer, påverkas båda om numret sätts i karantän.
 
-Om du å andra sidan är på **Blockeringslista** blir profilen inte längre kopplad till någon leverans, till exempel efter en avanmälan (opt-out). Mer information om blockeringslista finns i [Om deltagande och avanmälan i Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+   Adresserna eller telefonnumren i karantän visas i [exkluderingsloggarna](identifying-quarantined-addresses-for-a-delivery) (för en leverans) eller i [karantänlistan](#identifying-quarantined-addresses-for-the-entire-platform) (för hela plattformen).
+
+* Om du å andra sidan är på **blockeringslista** kommer **profilen** inte längre att anges som mål för leveransen, till exempel efter en avprenumeration (avanmälan) för en viss kanal. Om en profil på blockeringslista för e-postkanalen till exempel har två e-postadresser, kommer båda adresserna inte att levereras. Mer information om blockeringslista finns i [Om deltagande och avanmälan i Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+
+   Du kan kontrollera om det finns en profil på blockeringslista för en eller flera kanaler i **[!UICONTROL No longer contact (on denylist)]**-avsnittet på fliken **[!UICONTROL General]** för profilen. Se [det här avsnittet](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile).
 
 >[!NOTE]
 >
->När en användare svarar på ett SMS-meddelande med ett nyckelord som&quot;STOP&quot; för att avanmäla sig från SMS-leveranser, är profilen inte till blockeringslista som i avanmälningsprocessen. Profilens telefonnummer skickas till karantän med status **[!UICONTROL On denylist]**.    Denna status avser endast telefonnumret, profilen är inte på blockeringslista så att användaren fortsätter att ta emot e-postmeddelanden. Mer information om detta finns i [det här avsnittet](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
+>Karantänen innehåller en **On blockeringslista**-status, som används när mottagare rapporterar ditt meddelande som skräppost eller svarar på ett SMS-meddelande med ett nyckelord som &quot;STOP&quot;. I så fall skickas profilens adress eller telefonnummer till karantän med statusen **[!UICONTROL On denylist]**. Mer information om hur du hanterar STOP SMS-meddelanden finns i [det här avsnittet](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
+
+<!--When a user replies to an SMS message with a keyword such as STOP in order to opt-out from SMS deliveries, his profile is not added to the denylist like in the email opt-out process. Instead, the profile's phone number is sent to quarantine with the **[!UICONTROL On denylist]** status. This status refers to the phone number only, meaning that the profile will continue receiving email messages.<!-- Also, if the profile has another phone number, he can still receive SMS messages on the other number. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).-->
 
 ## Identifiera adresser i karantän {#identifying-quarantined-addresses}
 
-Adresser i karantän kan användas för en viss leverans eller för hela plattformen.
+Adresser i karantän kan visas för en viss leverans eller för hela plattformen.
 
->[!NOTE]
->
->Kontakta din tekniska administratör om du behöver ta bort en adress som är i karantän.
+<!--
+If you need to remove an address from quarantine, contact your technical administrator.
+-->
 
 ### Identifiera adresser i karantän för en leverans {#identifying-quarantined-addresses-for-a-delivery}
 
@@ -63,17 +69,67 @@ Adresser i karantän för en viss leverans visas när leveransen förbereds unde
 
 ### Identifiera adresser i karantän för hela plattformen {#identifying-quarantined-addresses-for-the-entire-platform}
 
-Administratörer kan lista adresserna i karantän för hela plattformen via **[!UICONTROL Administration > Channels > Quarantines > Addresses]**-menyn.
+Administratörer kan komma åt den detaljerade listan över e-postadresser i karantän för hela plattformen via **[!UICONTROL Administration > Channels > Quarantines > Addresses]**-menyn.
 
->[!NOTE]
->
->Den här menyn listar element i karantän för **e-post**, **SMS** och **push-meddelanden** .
+<!--
+This menu lists quarantined elements for **Email**, **SMS** and **Push notification** channels.
+-->
 
 ![](assets/quarantines1.png)
 
 >[!NOTE]
 >
->Ökningen av antalet i karantän är en normal effekt som har med databasens slitage att göra.  Om en e-postadress till exempel anses ha en livslängd på tre år och mottagartabellen ökar med 50 % varje år så kan ökningen av antalet karantän beräknas enligt följande: Slutet av år 1: (1*0.33)/(1+0.5)=22 %.    Slutet av år 2: ((1,22*0,33)+0,33)/(1,5+0,75)=32,5 %.
+>Ökningen av antalet karantän är en normal effekt som har samband med databasens slitage. Om en e-postadress till exempel anses ha en livslängd på tre år och mottagartabellen ökar med 50 % varje år så kan ökningen av antalet karantän beräknas enligt följande: Slutet av år 1: (1*0.33)/(1+0.5)=22 %.    Slutet av år 2: ((1,22*0,33)+0,33)/(1,5+0,75)=32,5 %.
+
+Det finns filter som hjälper dig att bläddra igenom listan. Du kan filtrera efter adress, status och/eller kanal.
+
+![](assets/quarantines-filters.png)
+
+Du kan redigera eller [ta bort](#removing-a-quarantined-address) alla poster samt skapa nya.
+
+Om du vill redigera en post klickar du på motsvarande rad och ändrar fälten efter behov.
+
+![](assets/quarantines-edit.png)
+
+Om du vill lägga till en ny post manuellt använder du knappen **[!UICONTROL Create]**.
+
+![](assets/quarantines-create-button.png)
+
+Definiera adressen (eller telefonnumret osv.) och kanaltyp. Du kan ange en status för att vara i karantänlistan och en felorsak. Du kan också ange datumet då felet inträffade, antalet fel och ange feltexten. Välj vid behov den senaste leveransen som skickades till adressen i listrutan.
+
+![](assets/quarantines-create-last-delivery.png)
+
+### Ta bort en adress i karantän {#removing-a-quarantined-address}
+
+Om det behövs kan du ta bort en adress manuellt från karantänlistan. Dessutom tas adresser som matchar specifika villkor automatiskt bort från karantänlistan av arbetsflödet **[!UICONTROL Database cleanup]**. (Mer information om tekniska arbetsflöden finns i [det här avsnittet](../../administration/using/technical-workflows.md#list-of-technical-workflows).)
+
+Om du vill ta bort en adress manuellt från karantänlistan utför du någon av åtgärderna nedan.
+
+>[!IMPORTANT]
+Om du tar bort en e-postadress manuellt från karantänen börjar du leverera till den här adressen igen. Detta kan få allvarliga konsekvenser för din leveransförmåga och IP-anseende, vilket i slutänden kan leda till att din IP-adress eller sändande domän blockeras. Fortsätt med extra försiktighet när du överväger att ta bort en adress från karantän. Om du är osäker kan du kontakta en expert på slutprodukter.
+
+* Markera adressen i listan **[!UICONTROL Administration > Channels > Quarantines > Addresses]** och välj **[!UICONTROL Delete element]**.
+
+   ![](assets/quarantine-delete-address.png)
+
+* Markera en adress och ändra dess **[!UICONTROL Status]** till **[!UICONTROL Valid]**.
+
+   ![](assets/quarantine-valid-status.png)
+
+   Du kan också ändra dess status till **[!UICONTROL On allowlist]**. I det här fallet finns adressen kvar på karantänlistan, men den kommer att riktas systematiskt, även om ett fel inträffar.
+
+Adresserna tas automatiskt bort från karantänlistan i följande fall:
+
+* Adresser med statusen **[!UICONTROL Erroneous]** kommer att tas bort från karantänlistan efter en slutförd leverans.
+* Adresser med statusen **[!UICONTROL Erroneous]** tas bort från karantänlistan om den senaste mjuka studsen inträffade för mer än 10 dagar sedan. Mer information om mjuk felhantering finns i [det här avsnittet](#soft-error-management).
+* Adresser i en **[!UICONTROL Erroneous]**-status som studsade med felet **[!UICONTROL Mailbox full]** tas bort från karantänlistan efter 30 dagar.
+
+Deras status ändras sedan till **[!UICONTROL Valid]**.
+
+>[!IMPORTANT]
+Mottagare med en adress i en **[!UICONTROL Quarantine]**- eller **[!UICONTROL On denylist]**-status tas aldrig bort automatiskt, även om de får ett e-postmeddelande.
+
+Det maximala antalet återförsök som ska utföras om status är **[!UICONTROL Erroneous]** och den minsta fördröjningen mellan återförsök baseras nu på hur bra en IP fungerar både historiskt och för närvarande på en viss domän.
 
 ## Villkor för att skicka en adress till karantän {#conditions-for-sending-an-address-to-quarantine}
 
@@ -81,11 +137,14 @@ Adobe Campaign hanterar karantäner utifrån typ av leveransfel och orsaken som 
 
 * **Ignorerad avvikelse**: ignorerade avvikelser skickar ingen adress till karantänen.
 * **Kritisk avvikelse**: motsvarande e-postadress skickas omedelbart till karantänen.
-* **Icke-kritisk avvikelse**: En icke-kritiskt avvikelse skickar inte en adress till karantän omedelbart men ökar dock felräknaren.  När felräknaren når gränsvärdet sätts adressen i karantän.    I standardkonfigurationen anges tröskelvärdet till fem avvikelser, där två avvikelser klassas som viktiga om de inträffar med minst 24 timmars mellanrum.        Adressen sätts i karantän vid den femte avvikelsen.    Tröskelvärdet för felräknaren kan ändras.  Mer information om detta hittar du på [den här sidan](../../administration/using/configuring-email-channel.md#email-channel-parameters).
+* **Icke-kritisk avvikelse**: En icke-kritiskt avvikelse skickar inte en adress till karantän omedelbart men ökar dock felräknaren.  Mer information finns i [Mjuk felhantering](#soft-error-management).
 
-   När en leverans lyckas efter ett nytt försök nollställs felräknaren för den adress som tidigare låg i karantän.    Adresstatusen ändras till **[!UICONTROL Valid]** och tas bort från listan med karantäner efter två dagar i **[!UICONTROL Database cleanup]** arbetsflödet.
+   <!--
+  When the error counter reaches the limit threshold, the address goes into quarantine. In the default configuration, the threshold is set at five errors, where two errors are significant if they occur at least 24 hours apart. The address is placed in quarantine at the fifth error. The error counter threshold can be modified. For more on this, refer to this [page](../../administration/using/configuring-email-channel.md#email-channel-parameters).
+  When a delivery is successful after a retry, the error counter of the address which was prior to that quarantined is reinitialized. The address status changes to **[!UICONTROL Valid]** and it is deleted from the list of quarantines after two days by the **[!UICONTROL Database cleanup]** workflow.
+  -->
 
-Om en användare kvalificerar ett e-postmeddelande som skräppost (**feedback-loop**) så dirigeras meddelandet automatiskt om till en teknisk inkorg som hanteras av Campaign.        Användarens e-postadress skickas sedan automatiskt till karantänen med status **[!UICONTROL On denylist]**.    Den här statusen avser endast adressen, profilen finns inte på blockeringslista, så att användaren fortsätter att ta emot SMS-meddelanden och push-meddelanden.
+Om en användare kvalificerar ett e-postmeddelande som en skräppost ([feedbackslinga](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops)) dirigeras meddelandet automatiskt om till en teknisk postlåda som hanteras av Adobe. Användarens e-postadress skickas sedan automatiskt till karantänen med status **[!UICONTROL On denylist]**.    Den här statusen avser endast adressen, profilen finns inte på blockeringslista, så att användaren fortsätter att ta emot SMS-meddelanden och push-meddelanden.
 
 >[!NOTE]
 Karantänen i Adobe Campaign är skiftlägeskänslig.    Se till att importera e-postadresser med små bokstäver så att inte e-postadresserna fortsätter att ta emot meddelanden.
@@ -93,3 +152,14 @@ Karantänen i Adobe Campaign är skiftlägeskänslig.    Se till att importera e
 I listan med adresser i karantän (se [Identifiera adresser i karantän för hela plattformen](#identifying-quarantined-addresses-for-the-entire-platform)) så visar fältet **[!UICONTROL Error reason]** varför den valda adressen placerades i karantän.
 
 ![](assets/quarantines2.png)
+
+### Mjuk felhantering {#soft-error-management}
+
+I motsats till hårda fel skickar inte mjuka fel en adress direkt till karantän, utan i stället ökar de en felräknare.
+
+Försök utförs igen under [leveranstiden](../../administration/using/configuring-email-channel.md#validity-period-parameters). När felräknaren når gränsvärdet sätts adressen i karantän.    Mer information finns i [Försök igen efter ett tillfälligt leveransfel](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+
+<!--In the default configuration, the threshold is set at five errors, where two errors are significant if they occur at least 24 hours apart. The address is placed in quarantine at the fifth error.
+The error counter threshold can be modified.-->
+
+Felräknaren initieras om om det senaste allvarliga felet inträffade för mer än 10 dagar sedan. Adressstatusen ändras sedan till **Giltig** och tas bort från listan över karantäner i arbetsflödet för **Databasrensning**. (Mer information om tekniska arbetsflöden finns i [det här avsnittet](../../administration/using/technical-workflows.md#list-of-technical-workflows).)

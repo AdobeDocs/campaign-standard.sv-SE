@@ -6,13 +6,13 @@ description: Läs om hur du anpassar e-postmeddelanden i e-postdesignern.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: E-postdesign
+feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 671fd9e7ff0551ae9ae5fec26cee0b4c4939ab2f
 workflow-type: tm+mt
-source-wordcount: '2575'
+source-wordcount: '2583'
 ht-degree: 4%
 
 ---
@@ -53,7 +53,9 @@ Med Adobe Campaign kan du anpassa en eller flera URL-adresser i meddelandet geno
 
 >[!NOTE]
 >
->Det går inte att anpassa URL:er till domännamnet eller till URL-tillägget. Ett felmeddelande visas under meddelandeanalys om personaliseringen är felaktig. När du markerar ett innehållsblock kan du inte markera element som **Länka till spegelsida**. Den här typen av block tillåts inte inuti en länk.
+>När funktionen för URL-signatur för att spåra länkar är inaktiverad kan inte personalisering av URL:er tillämpas på domännamnet eller på URL-tillägget. Ett felmeddelande visas under meddelandeanalys om personaliseringen är felaktig.
+>
+>När du markerar ett innehållsblock kan du inte markera element som **Länka till spegelsida**. Den här typen av block tillåts inte inuti en länk.
 
 ## Infoga ett personaliserat fält{#inserting-a-personalization-field}
 

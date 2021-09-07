@@ -9,16 +9,15 @@ topic-tags: working-with-campaign-and-triggers
 feature: Triggers
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '997'
-ht-degree: 99%
+source-wordcount: '994'
+ht-degree: 98%
 
 ---
 
-
-# Användningsexempel för avbrytningsutlösare{#abandonment-triggers-use-cases}
+# Användningsfall för avbrytningsutlösare{#abandonment-triggers-use-cases}
 
 I det här avsnittet beskrivs olika användningsexempel som kan implementeras med hjälp av integreringen mellan Adobe Campaign och Experience Cloud Triggers.    Du hittar två exempel för användningsområden:
 
@@ -47,7 +46,7 @@ Mer information finns i [Konfigurera lösningar och tjänster](../../integrating
 
 I det här fallet ska vi skapa en enkel utlösare som aktiveras varje gång en kund avbryter ett besök på hemsidan.  I det här exemplet förutsätts det att du redan har DTM som samlar in och överför data till Adobe Analytics och har skapat alla händelser.
 
-### Skapa en Experience Cloud-utlösare{#creating-an-experience-cloud-trigger}
+### Skapa en Experience Cloud-utlösare {#creating-an-experience-cloud-trigger}
 
 1. Välj **[!UICONTROL Manage Triggers]** i Experience Cloud Activation Core Service-menyn.
 
@@ -67,7 +66,7 @@ Nu när vi har skapat en Experience Cloud-utlösare kan vi använda den i Adobe 
 
 I Adobe Campaign måste du skapa en utlösare länkad till den du skapade i Experience Cloud.
 
-1. Om du vill skapa utlösaren i Adobe Campaign klickar du på logotypen **[!UICONTROL Adobe Campaign]** i det övre vänstra hörnet och väljer sedan **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
+1. Om du vill skapa utlösaren i Adobe Campaign klickar du på logotypen **Adobe** i det övre vänstra hörnet och väljer sedan **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
 
    ![](assets/remarketing_1.png)
 
@@ -124,7 +123,7 @@ I Adobe Campaign måste du skapa en utlösare länkad till den du skapade i Expe
 
 I det här fallet kommer vi att skapa en utlösare för att återengagera besökare som var på vår hemsida för bokningar och sökte efter en destination utan att få några framgångsrika resultat och därför avbröt besöket. Den allmänna processen är densamma som i det föregående användningsfallet (se [Utlösare för avbruten bläddring](#browse-abandonment-trigger)).  Här fokuserar vi på hur vi personaliserar e-postmeddelanden om återmarknadsföring.
 
-### Skapa en Experience Cloud-utlösare{#creating-an-experience-cloud-trigger-1}
+### Skapa en Experience Cloud-utlösare {#creating-an-experience-cloud-trigger-1}
 
 Följ stegen som beskrivs i det föregående användningsexemplet för att skapa en Experience Cloud-utlösare.  Se [Skapa en Experience Cloud-utlösare](#creating-an-experience-cloud-trigger).  Den största skillnaden är utlösardefinitionen.
 
@@ -164,4 +163,3 @@ I det här **[!UICONTROL Include Meta Data]** avsnittet kan du skicka all data s
 1. En stund senare får samma besökare/mottagare ett meddelande om återmarknadsföring.  Meddelandet innehåller den nyligen sökta destinationen.
 
    ![](assets/trigger_uc_search_7.png)
-

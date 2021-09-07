@@ -1,28 +1,30 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Senaste versionen
-description: På denna sida beskrivs innehållet i den senaste versionen av Campaign Standard
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
+title: Tidig versionsinformation
+description: Tidig versionsinformation
 feature: Overview
 role: User
 level: Beginner
-exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 08d2e4552bcb5f5eef9f92e5a0293270b577f873
+hide: true
+hidefromtoc: true
+exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
+source-git-commit: ac129fd21382d1d89263acae2fdbe280709f5946
 workflow-type: tm+mt
 source-wordcount: '1072'
-ht-degree: 38%
+ht-degree: 42%
 
 ---
 
+# Tidig versionsinformation {#new-release}
 
-# Senaste versionen{#latest-release}
+Den här sidan beskriver nya funktioner, förbättringar och korrigeringar som ingår i nästa version av Campaign Standard.
+
+>[!CAUTION]
+>
+> Innehållet kan ändras utan föregående meddelande fram till uppgraderingsdatumet för mellanlagringsmiljöerna. Läs mer på [sidan för versionsplanering](../../rn/using/release-planning.md).
 
 ## Version 21.3 – september 2021 {#release-21-3---sept-2021}
-
-Nya funktioner, förbättringar och korrigeringar som ingår i den senaste utgåvan av Campaign Standarden listas nedan.
 
 **Nyheter**
 
@@ -98,7 +100,7 @@ Nya funktioner, förbättringar och korrigeringar som ingår i den senaste utgå
 
 * När du skapar en återkommande leverans i ett arbetsflöde som är länkad till ett Adobe Experience Manager-innehåll, kontrolleras nu statusen för innehållsgodkännande innan den skickas.
 * Databasanslutningsgränsen är nu justerad till Campaign-paketet för att undvika anslutningsfel.
-* En ny konsekvenskontroll i en publikation med anpassade resurser förhindrar att användare skapar dubblettindex, vilket gör att publiceringen misslyckas. Ett förbättrat felmeddelande uppmanar användaren att byta namn på indexet om det behövs.
+* En konsekvenskontroll har lagts till när index skapas i anpassade resurser och felmeddelandena har förbättrats.
 
 **Andra ändringar**
 

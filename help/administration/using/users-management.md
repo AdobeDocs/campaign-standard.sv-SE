@@ -6,14 +6,14 @@ description: 'Adobe Campaign-användare har särskilda roller. Upptäck huvudanv
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Åtkomsthantering
+feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 94%
+source-wordcount: '1218'
+ht-degree: 93%
 
 ---
 
@@ -29,7 +29,7 @@ Administratörer kan hantera användare i Admin Console.  Användarna synkronise
 
 ![](assets/do-not-localize/how-to-video.png) [Upptäck den här funktionen i en video](#video)
 
-Om du vill visa användarna i Adobe Campaign klickar du på **[!UICONTROL Adobe Campaign]** logotypen i det övre vänstra hörnet och väljer sedan **[!UICONTROL Administration > Users & Security > Users]**.
+Om du vill visa användare i Adobe Campaign klickar du på logotypen **Adobe** i det övre vänstra hörnet och väljer sedan **[!UICONTROL Administration > Users & Security > Users]**.
 
 Om du vill komma åt gränssnittet för användarhantering från Adobe Campaign så klickar du på **[!UICONTROL User administration]**.
 
@@ -156,7 +156,7 @@ Sedan kan du kontrollera om din användare har synkroniserats korrekt till Adobe
 
 Användaren är nu redo att använda Adobe Campaign Standard.
 
-## Självstudievideo (#video)
+## Videokurs {#video}
 
 I den här videon visas hur du hanterar användaråtkomsträttigheter.
 

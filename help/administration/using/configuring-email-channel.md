@@ -7,13 +7,13 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
-feature: Instansinställningar
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '2598'
+source-wordcount: '2597'
 ht-degree: 76%
 
 ---
@@ -332,7 +332,7 @@ Reglerna **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** och **[!U
 
 ### Kvalifikation av studsmeddelanden {#legacy-bounce-mail-qualification}
 
-Om du vill visa en lista över de olika gränserna och tillhörande feltyper och orsaker klickar du på logotypen **[!UICONTROL Adobe Campaign]** längst upp till vänster och väljer sedan **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
+Om du vill visa en lista över de olika gränserna och tillhörande feltyper och orsaker klickar du på logotypen **Adobe** längst upp till vänster och väljer sedan **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 
 Satser kan ha följande kvalificeringsstatus:
 

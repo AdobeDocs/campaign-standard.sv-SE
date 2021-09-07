@@ -6,9 +6,9 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Hjälpcenter för de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som behövs för att använda Campaign Standard. '
 title: Användarhandbok för Campaign Standard
 breadcrumb-title: 'Dokumentation om Adobe Campaign Standard '
-source-git-commit: 89514dad1e318f32dafd3d8add664c37b03c8fb7
+source-git-commit: 3e62ae3fc6e69710edc8977286c655a6b2203a3a
 workflow-type: tm+mt
-source-wordcount: '1790'
+source-wordcount: '1792'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 + [Senaste uppdateringarna](rn/using/documentation-updates.md)
 + Versionsinformation {#release-notes}
    + [Senaste versionen](rn/using/release-notes.md)
-   + [Tidig versionsinformation](rn/using/early-release-notes.md)
+   + [Tidig versionsinformation](rn/using/e-release-notes.md)
    + Tidigare versioner {#previous-releases}
       + [Versionsinformation för 2021](rn/using/release-notes-2021.md)
       + [Versionsinformation för 2020](rn/using/release-notes-2020.md)
@@ -433,6 +433,7 @@ ht-degree: 100%
 + Administrera {#administrating}
    + [Kom igång med administration av Campaign Standard](administration/using/get-started-campaign-administration.md)
    + [Riktlinjer för övervakning](administration/using/monitoring-guidelines.md)
+   + [Granskningsspår](administration/using/audit.md)
    + [Konfigurationsriktlinjer](administration/using/about-configuration-guidelines.md)
    + Användare och säkerhet {#users-and-security}
       + [Om åtkomsthantering](administration/using/about-access-management.md)

@@ -6,14 +6,14 @@ description: Lär dig hur du skapar, hanterar och skickar ett uppföljningsmedde
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-feature: Transaktionsmeddelanden
+feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 0a05cf20-7c8f-406b-acfd-7aece2c5dd26
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 3%
+source-wordcount: '774'
+ht-degree: 2%
 
 ---
 
@@ -44,7 +44,7 @@ För att hantera en händelse i ett arbetsflöde krävs en leveransmall. När h�
 
 Så här kommer du åt mallen:
 
-1. Klicka på logotypen **[!UICONTROL Adobe Campaign]** i det övre vänstra hörnet.
+1. Klicka på logotypen **Adobe** i det övre vänstra hörnet.
 1. Välj **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Markera rutan **[!UICONTROL Follow-up messages]** i den vänstra rutan.
 
