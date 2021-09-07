@@ -10,7 +10,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: 084838ff5ff369aaaa7715f5bec87a5133093750
+source-git-commit: c37437678a669f7ce90082ee17a7896cddec9284
 workflow-type: tm+mt
 source-wordcount: '1268'
 ht-degree: 30%
@@ -41,7 +41,7 @@ Karantän och blockeringslista gäller inte för samma objekt:
 
 * **** Kvartantinegäller bara för en  **adress**  (eller telefonnummer osv.), inte för själva profilen. En profil vars e-postadress är placerad i karantän kan till exempel uppdatera profilen och ange en ny adress. Därefter kan den användas av leveransåtgärder igen. Om två profiler råkar ha samma telefonnummer, påverkas båda om numret sätts i karantän.
 
-   Adresserna eller telefonnumren i karantän visas i [exkluderingsloggarna](identifying-quarantined-addresses-for-a-delivery) (för en leverans) eller i [karantänlistan](#identifying-quarantined-addresses-for-the-entire-platform) (för hela plattformen).
+   Adresserna eller telefonnumren i karantän visas i [exkluderingsloggarna](#identifying-quarantined-addresses-for-a-delivery) (för en leverans) eller i [karantänlistan](#identifying-quarantined-addresses-for-the-entire-platform) (för hela plattformen).
 
 * Om du å andra sidan är på **blockeringslista** kommer **profilen** inte längre att anges som mål för leveransen, till exempel efter en avprenumeration (avanmälan) för en viss kanal. Om en profil på blockeringslista för e-postkanalen till exempel har två e-postadresser, kommer båda adresserna inte att levereras. Mer information om blockeringslista finns i [Om deltagande och avanmälan i Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
