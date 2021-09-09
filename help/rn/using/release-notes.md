@@ -10,9 +10,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 08d2e4552bcb5f5eef9f92e5a0293270b577f873
+source-git-commit: cedb8a0837d9c0339149efd2a99c777a12ef260d
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1074'
 ht-degree: 38%
 
 ---
@@ -104,7 +104,7 @@ Nya funktioner, förbättringar och korrigeringar som ingår i den senaste utgå
 
 * Adobe Experience Platform Data Connector och målgruppstjänst är nu inaktuellt med Campaign Standard. Om du använder dessa funktioner måste du gå över till Adobe Sources and Destinations och anpassa implementeringen. [Läs mer](../../integrating/using/get-started-sources-destinations.md)
 * Föråldrade och borttagna funktioner listas i [den här sidan](deprecated-features.md).
-* En ny mängdfunktion ”StringAgg” har introducerats för att sammanfoga värdena i en strängtypskolumn. (CAMP-47077)
+* En ny mängdfunktion ”StringAgg” har introducerats för att sammanfoga värdena i en strängtypskolumn. (CAMP-47077) [Läs mer](../../automating/using/list-of-functions.md#aggregates)
 * Det tekniska arbetsflödet för **Uppdatera leveransindikatorer** (updateDeliveryIndicators) har förbättrats för bättre prestanda.
 * Meddelandemallar i appen är nu tillgängliga för alla språk som stöds i Campaign Standarden.
 * Förberedelsetiden för leverans har optimerats för transaktionsmeddelanden genom att minska antalet anrop till spårningsservern under leveransanalysen.
