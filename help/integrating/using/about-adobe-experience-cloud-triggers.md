@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Om Adobe Experience Cloud-utlösare
 description: Genom att spåra specifika beteenden från kunder med Adobe Analytics så kan ni nu skicka personaliserade e-postmeddelanden till era kunder i Adobe Campaign.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 context-tags: trigger,overview;trigger,main
-feature: Utlösare
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '473'
 ht-degree: 98%
 
 ---
@@ -36,7 +34,7 @@ Följande diagram visar hur den här integreringen fungerar.
 * Titta på videon [Trigger Remarketing Messages som baseras på hemsideaktivitet](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two)
 * Upptäck våra två [utlösare vid övergiven kundkorg](../../integrating/using/abandonment-triggers-use-cases.md).
 
-## Användarprocess för utlösare{#triggers-user-process}
+## Användarprocess för utlösare {#triggers-user-process}
 
 >[!CAUTION]
 >

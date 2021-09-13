@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Rapport om push-meddelanden
 description: Med den färdiga push-meddelanderapporten får du veta hur dina push-meddelanden fungerar.
 audience: reporting
@@ -9,14 +7,13 @@ topic-tags: list-of-reports
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: acfe0b9c-77a4-46ad-8151-7bf9c21fa4b0
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '384'
 ht-degree: 1%
 
 ---
-
 
 # Rapport om push-meddelanden{#push-notification-report}
 
@@ -51,4 +48,3 @@ Den andra tabellen **Push notification Click &amp; opens** är uppdelad i tre ka
 * **[!UICONTROL Unique clicks]**: Antal gånger en unik användare interagerar med push-meddelandet, t.ex. klickar på meddelandet eller knappen.
 * **[!UICONTROL Open]**: Totalt antal push-meddelanden som levererats till enheten och användaren klickat på för att öppna appen. Detta liknar kommandot Push Click, men Push Open aktiveras inte om meddelandet stängs.
 * **[!UICONTROL Unique Opens]**: Antal mottagare som öppnade leveransen.
-

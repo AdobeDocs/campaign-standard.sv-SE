@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: 'Inriktning på Adobe Experience Platform-målgrupper '
+title: 'Målinrikta Adobe Experience Platform-målgrupper '
 description: Lär dig att rikta sig till Adobe Experience Platform målgrupper i arbetsflöden.
 audience: automating
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: channel-activities
 feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 11e2cd7e-99b7-45cc-a0c2-41049128fe49
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '404'
 ht-degree: 5%
 
 ---
 
-
-# Inriktning på Adobe Experience Platform-målgrupper {#targeting-aep-audiences}
+# Målinrikta Adobe Experience Platform-målgrupper  {#targeting-aep-audiences}
 
 >[!IMPORTANT]
 >
@@ -67,6 +64,6 @@ Du kan nu konfigurera ditt arbetsflöde med andra aktiviteter. Du kan till exemp
 Mer information om hur du använder arbetsflöden och leveranser finns i följande avsnitt:
 
 * [Identifiera arbetsflöden](../../automating/using/get-started-workflows.md)
-* [Bygga ett arbetsflöde](../../automating/using/building-a-workflow.md)
+* [Skapa ett arbetsflöde](../../automating/using/building-a-workflow.md)
 * [Identifiera kommunikationskanaler](../../channels/using/get-started-communication-channels.md)
 * [Om kanalaktiviteter](../../automating/using/about-channel-activities.md)

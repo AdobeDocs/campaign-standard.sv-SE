@@ -1,16 +1,13 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Om geografiska enheter
 description: Läs mer om geografiska enheter och API:er.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '138'
+ht-degree: 5%
 
 ---
 

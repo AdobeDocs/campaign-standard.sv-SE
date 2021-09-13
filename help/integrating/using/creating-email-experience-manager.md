@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Skapa ett e-postinnehåll i Adobe Experience Manager.
 description: Tack vare integreringen med Adobe Experience Manager kan du skapa innehåll direkt i AEM och använda det senare i Adobe Campaign.
 audience: integrating
@@ -9,14 +7,13 @@ topic-tags: working-with-campaign-and-experience-manager
 feature: Triggers
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 72b99864-d9d9-4cf4-be06-dc5719a2e4f2
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '414'
 ht-degree: 2%
 
 ---
-
 
 # Importera ett Adobe Experience Manager-innehåll till ett Adobe Campaign-e-postmeddelande {#creating-email-aem}
 

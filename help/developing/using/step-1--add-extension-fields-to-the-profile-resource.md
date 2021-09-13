@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: '"Steg 1: Lägg till tilläggsfält i profilresursen"'
+title: '"Steg 1: lägg till tilläggsfält i profilresursen"'
 description: Lär dig hur du utökar profilresursen.
 audience: developing
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: use-case--extending-the-api
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: fdd4d68b-e083-41c9-809d-3a6dc6b71180
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 52%
+source-wordcount: '61'
+ht-degree: 55%
 
 ---
 
-
-# Steg 1: Lägg till tilläggsfält i profilresursen{#step-add-extension-fields-to-the-profile-resource}
+# Steg 1: lägg till tilläggsfält i profilresursen{#step-add-extension-fields-to-the-profile-resource}
 
 1. I den avancerade menyn, via Adobe Campaign-logotypen, väljer du **[!UICONTROL Administration]** > **[!UICONTROL Development]** och sedan **[!UICONTROL Custom resources]**.
 1. Klicka på ikonen **[!UICONTROL Create]** för att skapa en ny anpassad resurs.
@@ -26,4 +23,3 @@ ht-degree: 52%
 1. Välj resursen **[!UICONTROL Profile]**.
 1. Klicka på **[!UICONTROL Create]**.
 1. Lägg till fältet **[!UICONTROL Text]** type **[!UICONTROL Promo code]** med ID:t **[!UICONTROL Brand]** i resursfälten.
-

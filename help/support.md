@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 'Hjälp- och supportalternativ för Campaign Standard '
 description: Behöver du support för Campaign Standard? Du är på rätt ställe!
 audience: rns
@@ -10,8 +8,8 @@ hidefromtoc: true
 role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
-source-git-commit: ca8473f50b132b2d5ca58c6403d144fbf62741b0
-workflow-type: ht
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 100%
 
@@ -129,4 +127,4 @@ Om du skapar ett ärende kan du kontakta Adobe kundsupportteam om problem som du
 
 Anslut till [Adobe Admin Console](https://adminconsole.adobe.com/overview) för att logga ett problem eller starta en chattsession i det nya systemet.
 
-Följ den detaljerade proceduren som beskrivs på [den här sidan](https://helpx.adobe.com/sv/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+Följ den detaljerade proceduren som beskrivs på [den här sidan](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).

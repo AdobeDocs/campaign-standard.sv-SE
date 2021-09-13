@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Om profiler
 description: Kontakter lagras som profiler i Campaign-databasen och uppdateras under hela deras livscykel.
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 context-tags: recipient,overview
-feature: Profiler
+feature: Profiles
 role: User
 level: Beginner
 exl-id: 65310e00-567f-4fae-89bc-b1d5591fca77
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '155'
 ht-degree: 100%
 
 ---

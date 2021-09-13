@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Skapa leveranser med ett komplement
 description: Det här exemplet visar hur du skapar leveranser med ett komplement.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: workflow,use-case,segmentation
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5cd71e07-f955-4c15-bdfb-14b0daccec1a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 40%
+source-wordcount: '239'
+ht-degree: 41%
 
 ---
-
 
 # Skapa leveranser med ett komplement {#deliveries-with-complement}
 

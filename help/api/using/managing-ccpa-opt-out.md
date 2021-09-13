@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Hantera CCPA-avanmälan
 description: Lär dig hur du hanterar CCPA-avanmälan med API:er
 audience: developing
@@ -9,14 +7,13 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: bfc52511-f66f-4948-a939-d0d77e8ef03c
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '148'
 ht-degree: 4%
 
 ---
-
 
 # Hantera CCPA-avanmälan {#managing-ccpa-optout}
 

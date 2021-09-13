@@ -1,23 +1,20 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Importera bästa praxis
+title: God praxis för import
 description: Läs mer om de bästa sätten att följa när du importerar data till databasen.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: bb651b91-145f-4e87-92dd-a8b04662e380
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '568'
 ht-degree: 2%
 
 ---
 
-
-# Importera bästa praxis {#import-best-practices}
+# God praxis för import {#import-best-practices}
 
 >[!CAUTION]
 >
@@ -58,7 +55,7 @@ Exempel:
 * Avgränsare: tabb eller semikolon
 * Första raden med rubriker
 * Ingen strängavgränsare
-* Datumformat: YYYY/MM/DD HH:mm:SS
+* Datumformat: ÅÅÅ/MM/DD HH:mm:SS
 
 Exempel på fil som ska importeras:
 
@@ -79,13 +76,13 @@ Använd zippade filer för import och export när det är möjligt. GZIP stöds 
 * [Läs in filaktivitet](../../automating/using/load-file.md)
 * [Filaktivitet för Extract](../../automating/using/extract-file.md)
 
-## Importerar i Delta-läge {#importing-in-delta-mode}
+## Importera i Delta-läge {#importing-in-delta-mode}
 
 Vanlig import måste ske i deltaläge. Det innebär att endast ändrade eller nya data skickas till Adobe Campaign, i stället för hela tabellen varje gång.
 
 Full import bör endast användas för inledande last.
 
-## Bibehåll konsekvens {#maintaining-consistency}
+## Bevara konsekvensen {#maintaining-consistency}
 
 Följ nedanstående principer för att upprätthålla datakonsekvensen i Adobe Campaign-databasen:
 

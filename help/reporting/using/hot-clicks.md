@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Snabbklickningar
+title: Snabbklick
 description: Med rapporten Hot Click out-of-the-box kan du ta reda på var kunden klickade på leveransen.
 audience: reporting
 content-type: reference
@@ -10,16 +8,15 @@ context-tags: deliveryHotClicksReport,main
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5af37156-e93b-4ae9-9856-053364f211ef
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 1%
+source-wordcount: '477'
+ht-degree: 0%
 
 ---
 
-
-# Snabbklickningar{#hot-clicks}
+# Snabbklick{#hot-clicks}
 
 Den här rapporten kan nås från **[!UICONTROL Reports]**-knappen i varje leverans- eller transaktionsmeddelande.
 

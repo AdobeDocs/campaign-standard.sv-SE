@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Rapport i appen
 description: Läs mer om hur dina meddelanden i appen fungerar med den färdiga rapporten i appen.
 audience: reporting
@@ -9,14 +7,13 @@ topic-tags: list-of-reports
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b2ac9b82-fbe2-4a19-848c-94597b6141f0
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 2%
+source-wordcount: '242'
+ht-degree: 1%
 
 ---
-
 
 # Rapport i appen{#in-app-report}
 
@@ -47,4 +44,3 @@ Den andra tabellen **Klicka och ignorera i appen** är uppdelad i tre kategorier
 * **[!UICONTROL Unique In-App clicks]**: Antal gånger som mottagare klickat på Knapp 1 eller Knapp 2.
 * **[!UICONTROL In-App dismissal]**: Totalt antal meddelanden som mottagarna stängt antingen genom att klicka på stängningsknappen eller genom automatisk stängning.
 * **[!UICONTROL Unique In-App dismissal]**: Antal gånger som mottagarna har stängt ett meddelande i appen.
-

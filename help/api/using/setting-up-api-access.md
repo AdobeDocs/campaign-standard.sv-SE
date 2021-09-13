@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Konfigurera API-åtkomst
 description: Lär dig hur du ställer in åtkomst till Campaign Standards-API:er.
 audience: developing
@@ -9,14 +7,13 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '361'
 ht-degree: 1%
 
 ---
-
 
 # Konfigurera API-åtkomst {#setting-up-api-access}
 
@@ -31,7 +28,7 @@ Adobe Campaign Standard API-åtkomst konfigureras enligt stegen nedan. Var och e
 1. **Skapa en JSON Web Token (JWT)** utifrån de inloggningsuppgifter som tidigare genererats och signera den med din privata nyckel. JWT kodar all identitets- och säkerhetsinformation som Adobe behöver för att verifiera din identitet och ge dig åtkomst till API:t.
 1. **Byt ut din JWT mot en Access-** token via en POST. Denna Access Token måste användas i varje rubrik för dina API-begäranden.
 
-Om du vill skapa en säker tjänst-till-tjänst-API-session mellan Adobe I/O måste varje begäran till en Adobe-tjänst innehålla informationen nedan i auktoriseringshuvudet.
+Om du vill skapa en säker Adobe I/O-till-tjänst-API-session måste alla förfrågningar till en Adobe-tjänst innehålla informationen nedan i auktoriseringshuvudet.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Skicka ett återkommande push-meddelande med ett arbetsflöde
 description: I det här exemplet skickas ett personligt push-meddelande varje dag i månaden kl. 20.00 till prenumeranterna av ditt mobilprogram beroende på deras tidszoner.
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: channel-activities
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d5e6034c-3673-4069-ac0b-49c7ad07259d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '475'
 ht-degree: 4%
 
 ---
-
 
 # Skicka ett återkommande push-meddelande med ett arbetsflöde {#sending-a-recurring-push-notification-with-a-workflow}
 

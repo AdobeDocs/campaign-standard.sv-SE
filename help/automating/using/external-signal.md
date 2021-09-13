@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Extern signal
 description: Den externa signalaktiviteten utlöser ett arbetsflöde när vissa villkor uppfylls i ett annat arbetsflöde.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: signal,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: a4fbd6b5-7cfb-44ad-bf3a-f3aabc122b77
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 95%
+source-wordcount: '600'
+ht-degree: 96%
 
 ---
-
 
 # Extern signal{#external-signal}
 
@@ -54,7 +51,7 @@ När du konfigurerar en extern signal är det viktigt att först konfigurera **[
 1. Markera aktiviteten och öppna den sedan med knappen ![](assets/edit_darkgrey-24px.png) bland de snabbåtgärder som visas.
 1. Redigera aktivitetens etikett. Den här etiketten behövs när du konfigurerar det källarbetsflöde som utlöser **[!UICONTROL External signal]**.
 
-   Om du vill anropa arbetsflödet med parametrar använder du området **[!UICONTROL Parameters]** för att deklarera dem. Se denna [sida](../../automating/using/declaring-parameters-external-signal.md) för mer information om detta.
+   Om du vill anropa arbetsflödet med parametrar använder du området **[!UICONTROL Parameters]** för att deklarera dem. Mer information finns på [den här sidan](../../automating/using/declaring-parameters-external-signal.md).
 
    ![](assets/external_signal_configuration.png)
 
@@ -76,7 +73,7 @@ När du konfigurerar en extern signal är det viktigt att först konfigurera **[
 
    När du anger en **[!UICONTROL End]**-aktivitet som ska utlösa ett annat arbetsflöde uppdateras dess ikon med en extra signatursymbol.
 
-   Om du vill anropa arbetsflödet med parametrar använder du området **[!UICONTROL Parameters and values]**. Se denna [sida](../../automating/using/defining-parameters-calling-workflow.md) för mer information om detta.
+   Om du vill anropa arbetsflödet med parametrar använder du området **[!UICONTROL Parameters and values]**. Mer information finns på [den här sidan](../../automating/using/defining-parameters-calling-workflow.md).
 
    ![](assets/external_signal_end.png)
 

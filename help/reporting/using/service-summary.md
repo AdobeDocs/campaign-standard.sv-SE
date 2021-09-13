@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Tjänstsammanfattning
+title: Tjänstesammanfattning
 description: Läs mer om utvecklingen av prenumerationer och avbeställningar i den färdiga rapporten.
 audience: reporting
 content-type: reference
@@ -10,16 +8,15 @@ context-tags: deliveryTopUrlReport,main;campaignTopUrlReport,main;programTopUrlR
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b680b0c3-a65b-416f-8e28-46a9b494c754
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 15%
+source-wordcount: '82'
+ht-degree: 14%
 
 ---
 
-
-# Tjänstsammanfattning{#service-summary}
+# Tjänstesammanfattning{#service-summary}
 
 **[!UICONTROL Service summary]** beskriver utvecklingen av prenumerationer och avbeställningar av tjänsten.
 Den här rapporten är bara tillgänglig från din tjänstsida via den avancerade menyn **[!UICONTROL Profiles & Audiences]** > **[!UICONTROL Services]**. Se denna [sida](../../audiences/using/monitoring-subscriptions.md#service-reports) för mer information om detta.

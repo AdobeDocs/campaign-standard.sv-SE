@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Uteslutning
 description: Med aktiviteten Uteslutning kan du utesluta element från en population enligt vissa kriterier.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: exclusion,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: dccb9545-0d7e-4d40-9a8f-2915b4da99a7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 98%
+source-wordcount: '249'
+ht-degree: 100%
 
 ---
-
 
 # Uteslutning{#exclusion}
 
@@ -51,4 +48,3 @@ En primär uppsättning definieras bland inkommande övergångar. Medlemmar i an
 I följande exempel visas två frågeaktiviteter som konfigurerats för att filtrera profiler från Adobe Campaign-databasen som är mellan 18 och 27 år gamla och som har en ogiltig e-postadress. Profilerna med ogiltiga e-postadresser tas sedan inte med i den första uppsättningen. På så sätt kan du till exempel skicka ett e-postmeddelande.
 
 ![](assets/wkf_exclusion_example.png)
-

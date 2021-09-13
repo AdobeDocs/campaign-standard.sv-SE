@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Versionsinformation för 2017
 description: Den här sidan innehåller alla versioner av Adobe Campaign Standard under 2017.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Översikt
+feature: Overview
 role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '4624'
+source-wordcount: '4623'
 ht-degree: 4%
 
 ---
@@ -25,7 +23,7 @@ Varje release innehåller nya funktioner och patchar. Klicka på en release för
 
 Visa de senaste [dokumentationsuppdateringarna](../../rn/using/documentation-updates.md) för Adobe Campaign Standard. Om du letar efter en nyare version kan du läsa den här [sidan](../../rn/using/release-notes.md).
 
-## Version 17.10 - oktober 2017 {#release-17-10---october-2017}
+## Version 17.10 – oktober 2017 {#release-17-10---october-2017}
 
 **Nya funktioner**
 
@@ -104,7 +102,7 @@ _Anpassade resurser_
 * Korrigerade ett problem som uppstod i listskärmar där anpassade resursrader kunde visas utan data.
 * Korrigerade ett problem som förhindrade att booleska typfält med värdet Falskt visades i anpassade resurser.
 
-## Version 17.9 - september 2017 {#release-17-9---september-2017}
+## Version 17.9 – september 2017 {#release-17-9---september-2017}
 
 **Nya funktioner**
 
@@ -176,7 +174,7 @@ _Profiler och målgrupper_
 * Adobe Campaign tillhandahåller nu en rapport som visar antalet aktiva profiler. Den här rapporten är bara informativ, den har ingen direkt inverkan på faktureringen. Mer information finns i den [detaljerade dokumentationen](../../audiences/using/active-profiles.md).
 * Korrigerade ett problem som förhindrade profiler från att prenumerera på en tjänst när API:t Profiler och tjänster användes.
 
-## Version 17.7 - juli 2017 {#release-17-7---july-2017}
+## Version 17.7 – juli 2017 {#release-17-7---july-2017}
 
 **Nya funktioner**
 
@@ -252,7 +250,7 @@ _Arbetsflöden_
 * Ett problem som gjorde att du inte kunde ange en utgående övergång i guiden Skapa återkommande leverans har korrigerats.
 * Korrigerade ett problem som uppstod när en arbetsflödesfrågeaktivitet som baseras på ett anpassat resursfält med en uppräkning som hade många värden användes
 
-## Version 17.5 - maj 2017 {#release-17-5---may-2017}
+## Version 17.5 – maj 2017 {#release-17-5---may-2017}
 
 **Nya funktioner**
 
@@ -299,7 +297,7 @@ _Push-meddelanden_
 * Ett problem som gjorde att du inte kunde klicka på en push-händelse i en profils marknadsföringshistorik har korrigerats.
 * Användningen av push-meddelanden i arbetsflöden har förbättrats.
 
-## Version 17.4 - april 2017 {#release-17-4---april-2017}
+## Version 17.4 – april 2017 {#release-17-4---april-2017}
 
 **Nya funktioner**
 
@@ -384,7 +382,7 @@ _Push-meddelanden_
 * Ett problem där ett felmeddelande inte visades när ett Android-program som är länkat till en mobilapp som inte kunde skapas på MCPNS skapades har åtgärdats.
 * Ett problem som gjorde att en användare kunde lägga till ljud i ett tyst meddelande har korrigerats.
 
-## Version 17.2 - mars 2017 {#release-17-2---march-2017}
+## Version 17.2 – mars 2017 {#release-17-2---march-2017}
 
 **Nya funktioner**
 
@@ -467,7 +465,7 @@ _Arbetsflöden_
 * Korrigerade ett problem som kunde förhindra läsning av innehållet i avvisningsövergången för en **[!UICONTROL Load file]**-aktivitet.
 * Ett problem som gjorde att utbytta kolumner inte kunde beaktas korrekt när en **[!UICONTROL Load file]**-aktivitet konfigurerades har åtgärdats.
 
-## Version 17.1 - januari 2017 {#release-17-1---january-2017}
+## Version 17.1 – januari 2017 {#release-17-1---january-2017}
 
 **Nya funktioner**
 

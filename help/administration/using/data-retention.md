@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Datalagring
 description: Standardloggtabeller i Campaign har förinställda kvarhållningsperioder, vilket i allmänhet begränsar datalagringen till 6 månader eller mindre. Lär dig mer om standardvärden för kvarhållning för standardtabeller.
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Instansinställningar
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
-source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 52%
+source-wordcount: '160'
+ht-degree: 53%
 
 ---
 

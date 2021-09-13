@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Redigeringsförfrågningar
 description: Bygg en population tack vare fördefinierade filter och regler.
 audience: automating
@@ -10,18 +8,17 @@ context-tags: queryFilter,overview;audience,main
 feature: Workflows
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: a0adb913-2ee7-4cce-9b4f-74ebb7f1ce6a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 99%
+source-wordcount: '782'
+ht-degree: 100%
 
 ---
 
+# Redigera frågor{#editing-queries}
 
-# Redigeringsförfrågningar{#editing-queries}
-
-## Om förfrågningsredigeraren{#about-query-editor}
+## Om förfrågningsredigeraren {#about-query-editor}
 
 Förfrågningsredigeraren är en guide som du använder för att filtrera data i Adobe Campaign-databasen.
 
@@ -33,7 +30,7 @@ Flera programfunktioner använder detta för att:
 * Definiera mål för **e-post**
 * Definiera populationer i **arbetsflödesaktiviteter**
 
-## Förfrågningsredigerargränssnitt{#query-editor-interface}
+## Förfrågningsredigerargränssnitt {#query-editor-interface}
 
 Förfrågningsredigeraren består av en **palett** och en **arbetsyta**.
 
@@ -59,7 +56,7 @@ Arbetsytan är den centrala zonen där du kan konfigurera och kombinera regler, 
 
 När du flyttar ett element från paletten till arbetsytan öppnas ett nytt fönster och du kan börja [skapa förfrågningar](#creating-queries).
 
-## Skapa förfrågningar{#creating-queries}
+## Skapa frågor {#creating-queries}
 
 Förfrågningsredigeraren kan användas för att definiera en målgrupp eller testprofil i ett meddelande, ett ifyllt fält i ett arbetsflöde och för att skapa en förfrågningstyp.
 

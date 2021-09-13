@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Konfigurera SMS-kanal
 description: '"Ta reda på konfigurationsstegen för SMS: dirigering, kodning, format och avancerade egenskaper.  "'
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
-feature: Instansinställningar
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1565'
 ht-degree: 95%
 
 ---

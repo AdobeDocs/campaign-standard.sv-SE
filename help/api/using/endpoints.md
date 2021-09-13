@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Slutpunkter
 description: Läs mer om API:ernas slutpunkter.
 audience: developing
@@ -9,14 +7,13 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9f6d3da6-374d-47f5-bc8f-b31b19cbb5ca
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '243'
 ht-degree: 10%
 
 ---
-
 
 # Slutpunkter {#endpoints}
 

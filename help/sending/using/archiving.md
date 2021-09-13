@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Arkivera meddelanden i Adobe Campaign Standard
 description: Lär dig hur du arkiverar e-postmeddelanden med Adobe Campaign Standard via en e-postadress från en webbläsare.
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
-feature: Prestandaövervakning
+feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 7bf380d7-195e-413d-b14e-85e78b07ba8b
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '362'
 ht-degree: 6%
 
 ---

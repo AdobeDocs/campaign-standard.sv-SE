@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Utöka prenumerationerna till en programresurs
+title: Utöka prenumerationerna till en applikationsresurs
 description: Lär dig hur du utökar prenumerationen till en programresurs
 audience: developing
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: use-cases--extending-resources
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ac9c556d-c0f6-4b33-8855-1f5f669c148f
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 23%
+source-wordcount: '232'
+ht-degree: 24%
 
 ---
 
-
-# Utöka prenumerationerna till en programresurs{#extending-the-subscriptions-to-an-application-resource}
+# Utöka prenumerationerna till en applikationsresurs{#extending-the-subscriptions-to-an-application-resource}
 
 I Adobe Campaign lagras data för mobilprofilattribut som skickas från mobila enheter i resursen **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**, vilket gör att du kan definiera de data som du vill samla in från programprenumeranterna. Mer information om anpassade resurser finns på [den här sidan](../../developing/using/key-steps-to-add-a-resource.md).
 
@@ -49,4 +46,3 @@ Resursen kan utökas till att samla in data som du vill skicka från den mobila 
    ![](assets/in_app_personal_data_3.png)
 
 1. **[!UICONTROL Save]** och publicera din anpassade resurs. Mer information om anpassad resurspublikation finns på den här [sidan](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
-

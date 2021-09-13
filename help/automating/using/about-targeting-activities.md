@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Om målinriktade aktiviteter
 description: Målaktiviteter finns till vänster på skärmen.
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: targeting-activities
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1cd471e3-5332-4119-b342-2c3c8503fdd1
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '434'
 ht-degree: 48%
 
 ---
-
 
 # Om målinriktade aktiviteter{#about-targeting-activities}
 
@@ -29,7 +26,7 @@ Dessa aktiviteter är specifika för målgruppsanpassning, ändring av populatio
 I **[!UICONTROL Targeting]**-avsnittet beskrivs följande:
 
 * [Fråga](../../automating/using/query.md)
-* [Inkrementell förfrågan](../../automating/using/incremental-query.md)
+* [Inkrementell fråga](../../automating/using/incremental-query.md)
 * [Sammanslutning](../../automating/using/union.md)
 * [Skärningspunkt](../../automating/using/intersection.md)
 * [Uteslutning](../../automating/using/exclusion.md)

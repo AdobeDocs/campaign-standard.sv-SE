@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Schemaläggare
 description: Med aktiviteten Schemaläggare så kan du schemalägga när ett arbetsflöde eller en aktivitet ska starta.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: schedule,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 39f7b216-b3cd-4aa6-b5df-23e6805076df
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 88%
+source-wordcount: '614'
+ht-degree: 89%
 
 ---
-
 
 # Schemaläggare{#scheduler}
 
@@ -37,7 +34,7 @@ När du skapar arbetsflödet ska du endast använda en **[!UICONTROL Scheduler]*
 >
 >Aktivitetens **[!UICONTROL Repetition frequency]** får inte vara under 10 minuter.  Detta innebär att ett arbetsflöde inte kan köras automatiskt mer än en gång var 10:e minut.
 
-När du utformar ett schemalagt arbetsflöde som innehåller flera aktiviteter måste du se till att arbetsflödet inte schemaläggs om förrän det är klart. För att göra detta måste du konfigurera arbetsflödet för att förhindra att det körs om en eller flera uppgifter från en tidigare körning fortfarande väntar. Se denna [sida](../../automating/using/scheduled-workflows-execution.md) för mer information om detta.
+När du utformar ett schemalagt arbetsflöde som innehåller flera aktiviteter måste du se till att arbetsflödet inte schemaläggs om förrän det är klart. För att göra detta måste du konfigurera arbetsflödet för att förhindra att det körs om en eller flera uppgifter från en tidigare körning fortfarande väntar. Mer information finns på [den här sidan](../../automating/using/scheduled-workflows-execution.md).
 
 **Relaterade ämnen:**
 
@@ -82,4 +79,3 @@ När du utformar ett schemalagt arbetsflöde som innehåller flera aktiviteter m
 I följande exempel är aktiviteten konfigurerad så att den startar arbetsflödet på veckobasis varannan måndag klockan 07:00 med obestämd varaktighet.
 
 ![](assets/wkf_scheduler_example.png)
-

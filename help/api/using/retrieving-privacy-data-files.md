@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Hämtar sekretessdatafiler
+title: Hämta sekretessdatafiler
 description: Lär dig hur du hämtar sekretessdatafiler med API:er
 audience: developing
 content-type: reference
@@ -9,20 +7,19 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: df06cb86-dba2-41e4-81d0-66f3a86e47bd
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 4%
+source-wordcount: '194'
+ht-degree: 21%
 
 ---
 
-
-# Hämtar sekretessdatafiler {#retrieving-privacy-data-files}
+# Hämta sekretessdatafiler {#retrieving-privacy-data-files}
 
 >[!CAUTION]
 >
->[Integriteten i bastjänsten](https://adobe.io/apis/cloudplatform/gdpr.html)-integreringen är den metod du bör använda för alla begäranden om åtkomst och borttagning. Från och med 19.4 är användningen av Campaign-API:t och gränssnittet för begäran om åtkomst och borttagning föråldrad. Mer information om borttagna och borttagna funktioner för Campaign Standard finns på [den här sidan](../../rn/using/deprecated-features.md).
+>[Integriteten i bastjänsten](https://adobe.io/apis/cloudplatform/gdpr.html)-integreringen är den metod du bör använda för alla begäranden om åtkomst och borttagning. Från och med version 19.4 är användningen av API:et och gränssnittet i Campaign för förfrågningar om åtkomst och radering inaktuell. Mer information om inaktuella och borttagna funktioner för Campaign Standard finns på [den här sidan](../../rn/using/deprecated-features.md).
 
 Om du vill hämta filen som innehåller all information som är associerad med ett avstämningsvärde följer du den här trestegsproceduren:
 

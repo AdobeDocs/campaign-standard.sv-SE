@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Hantera inkommande SMS
 description: Lär dig hur du hanterar STOP SMS och lagrar inkommande SMS i Adobe Campaign.
 audience: channels
@@ -11,9 +9,9 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: 86cb6f4c-a5a7-4d9d-bbfd-4a70af38cf3a
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '620'
 ht-degree: 7%
 
 ---

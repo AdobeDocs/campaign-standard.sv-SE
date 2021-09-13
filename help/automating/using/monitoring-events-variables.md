@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Anropa ett arbetsflöde med externa parametrar
 description: I det här avsnittet beskrivs hur du anropar ett arbetsflöde med externa parametrar.
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 299a617c-0a38-45b5-922c-c23b0926b8c3
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '87'
 ht-degree: 19%
 
 ---
-
 
 # Övervaka händelsevariablerna {#monitoring-the-events-variables}
 

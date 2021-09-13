@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Anpassa Campaign-meddelanden med Point of Interest-data
+title: Personalisera Campaign-meddelanden med Point of Interest-data
 description: Lär dig hur du skapar ett personligt meddelande baserat på var dina prenumeranter befinner sig med integreringen av punktinformation.
 audience: integrating
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: working-with-campaign-and-analytics-for-mobile
 feature: Audiences
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: fcc79829-902d-4547-87c5-8a213e1257b7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '260'
 ht-degree: 10%
 
 ---
 
-
-# Anpassa Campaign-meddelanden med Point of Interest-data{#personalizing-campaign-messages-with-point-of-interest-data}
+# Personalisera Campaign-meddelanden med Point of Interest-data{#personalizing-campaign-messages-with-point-of-interest-data}
 
 I Adobe Campaign kan du använda de intressepunkter som samlats in från mobilprogrammets prenumeranter för att skicka personaliserade marknadsföringsmeddelanden till dem, till exempel ett e-postmeddelande.
 
@@ -67,4 +64,3 @@ E-postmeddelandet med rabatten på 10 % skickas till prenumeranter som:
 * [Skapa ett e-postmeddelande](../../channels/using/creating-an-email.md)
 * [Definiera innehåll](../../designing/using/personalization.md#example-email-personalization)
 * [Skicka meddelanden](../../sending/using/confirming-the-send.md)
-

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Uppdatera data baserat på en automatisk filhämtning
 description: 'I följande exempel visas resultatet av en automatiskt nedladdad filaktivitet via en aktivitet för en överföringsfil följt av en aktivitet för uppdateringsdata.   '
 audience: automating
@@ -10,14 +8,13 @@ context-tags: fileImport,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 2b21cf45-1c40-4e0e-ae2c-28c9f73e1964
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 78%
+source-wordcount: '279'
+ht-degree: 79%
 
 ---
-
 
 # Uppdatera data baserat på en automatisk filhämtning {#updating-data-automatic-file-download}
 

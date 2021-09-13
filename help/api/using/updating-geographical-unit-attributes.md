@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Uppdatera attribut för en geografisk enhet
 description: Lär dig hur du uppdaterar attribut för geografiska enheter med API:er
 audience: developing
@@ -9,14 +7,13 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 86810821-6f62-46ab-ba0b-2175797fe9dd
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 12%
+source-wordcount: '86'
+ht-degree: 11%
 
 ---
-
 
 # Uppdatera attribut för en geografisk enhet {#managing-geographical-units}
 

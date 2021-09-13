@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Tidslinje
 description: Lär dig hur du visualiserar pågående program och deras innehåll med gränssnittet Adobe Campaign Standard.
 audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: campaignCalendar,main
-feature: Kampanjer
+feature: Campaigns
 role: User
 level: Beginner
 exl-id: d012e2e7-8022-4bfe-8290-3c512b60d9cf
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '372'
 ht-degree: 91%
 
 ---

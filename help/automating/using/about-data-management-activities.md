@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Om datahanteringsaktiviteter
 description: Datahanteringsaktiviteter är tillgängliga från skärmens vänstra sida.
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: data-management-activities
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b780704c-210b-4cab-9016-91726a86de6d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 54%
+source-wordcount: '120'
+ht-degree: 55%
 
 ---
-
 
 # Om datahanteringsaktiviteter{#about-data-management-activities}
 
@@ -30,7 +27,7 @@ I **[!UICONTROL Data management (ETL)]**-avsnittet beskrivs följande:
 
 * [Uppdatera data](../../automating/using/update-data.md)
 * [Ladda fil](../../automating/using/load-file.md)
-* [Överföringsfil](../../automating/using/transfer-file.md)
+* [För över fil](../../automating/using/transfer-file.md)
 * [Avstämning](../../automating/using/reconciliation.md)
 * [Extrahera fil](../../automating/using/extract-file.md)
 * [Prenumerationstjänster](../../automating/using/subscription-services.md)

@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Övervaka körning av arbetsflöde
+title: Övervaka arbetsflödeskörning
 description: Lär dig hur du övervakar körningen av ett arbetsflöde.
 audience: automating
 content-type: reference
@@ -10,16 +8,15 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d2ce702b-92d1-4b94-bd47-34ef46a8bd9f
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '577'
 ht-degree: 3%
 
 ---
 
-
-# Övervaka körning av arbetsflöde {#monitoring}
+# Övervaka arbetsflödeskörning {#monitoring}
 
 ## Arbetsflödeslogg och uppgifter {#workflow-log-and-tasks}
 

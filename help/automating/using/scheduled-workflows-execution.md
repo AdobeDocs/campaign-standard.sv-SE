@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: De schemalagda arbetsflödenas överlappande körning
+title: Överlappande körning av schemalagda arbetsflöden
 description: Lär dig hur du förhindrar överlappande körning av schemalagda arbetsflöden.
 audience: automating
 content-type: reference
@@ -10,16 +8,15 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 8d9820a4-3c44-45f5-815e-4ed48a96276d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 2%
+source-wordcount: '422'
+ht-degree: 1%
 
 ---
 
-
-# De schemalagda arbetsflödenas överlappande körning{#preventing-overlapping-execution-of-scheduled-workflows}
+# Överlappande körning av schemalagda arbetsflöden{#preventing-overlapping-execution-of-scheduled-workflows}
 
 ## Körning av schemalagda arbetsflöden
 

@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Kontrollregler
 description: Lär dig hur ni kan förbättra kvalitetskontrollen av era meddelanden med kontrollregler.
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-feature: Typologiregler
+feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 6461c128-1e42-4685-88f8-507244147e6f
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 4%
+source-wordcount: '440'
+ht-degree: 3%
 
 ---
 

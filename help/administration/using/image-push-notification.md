@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Visa en bild från ett push-meddelande för Adobe Campaign Standard
 description: Lär dig hur du visar en bild från ett push-meddelande från Adobe Campaign på en iOS-enhet.
 audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Instansinställningar
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '426'
 ht-degree: 20%
 
 ---

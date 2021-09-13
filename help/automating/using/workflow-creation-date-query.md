@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Skapa leveranser det datum då profilen skapades
 description: I det här exemplet visas hur du skapar leveranser det datum då profilen skapades.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: workflow,use-case,query
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: f611e023-f74c-476e-83b9-aff451f68c81
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '354'
 ht-degree: 38%
 
 ---
-
 
 # Skapa leveranser på profilens skapandedatum {#creation-date-query}
 
@@ -43,12 +40,12 @@ Du kan skicka ett erbjudande via e-post samma dag som kundens profil skapas.
 
 ![](assets/time_zone.png)
 
-## Skapa en förfrågningsaktivitet{#creating-a-query-activity}
+## Skapa en förfrågningsaktivitet {#creating-a-query-activity}
 
 1. Om du vill välja mottagare drar och släpper du en [Query](../../automating/using/query.md)-aktivitet och dubbelklickar på den.
 1. Lägg till **[!UICONTROL Profiles]** och välj **[!UICONTROL no longer contact by email]** med värdet **[!UICONTROL no]**.
 
-### Hämtar profiler som skapats samma dag som körningsdagen {#retrieving-profiles-created-on-the-same-day}
+### Hämtar profiler som skapats samma dag som körningen {#retrieving-profiles-created-on-the-same-day}
 
 1. Dra och släpp fältet **[!UICONTROL Created]** i **[!UICONTROL Profile]**. och klicka på **[!UICONTROL Advanced Mode]**.
    ![](assets/advanced_mode.png)

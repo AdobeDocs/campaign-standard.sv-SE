@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Förbereda och skicka ett meddelande i appen
 description: Skapa meddelande i appen för att rikta in dig på era programprenumeranter med specifikt innehåll.
 audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,triggers,back;deliveryCreation,wizard
-feature: I appen
+feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1171'
 ht-degree: 98%
 
 ---

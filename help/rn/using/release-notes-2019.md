@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Versionsinformation för 2019
 description: Den här sidan innehåller alla versioner av Adobe Campaign Standard under 2019.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Översikt
+feature: Overview
 role: User
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '7590'
-ht-degree: 7%
+source-wordcount: '7589'
+ht-degree: 8%
 
 ---
 
@@ -147,7 +145,7 @@ ht-degree: 7%
 * Korrigerade ett problem som kunde lämna status för en leverans som &quot;Påbörja väntande&quot; trots att leveransen var klar. (CAMP-35355)
 * Korrigerade ett problem som förhindrade att arbetsflödesloggar visades efter aktivering och sedan inaktiverade SQL-loggar.
 
-## Version 19.3 - juli 2019 {#release-19-3---july-2019}
+## Version 19.3 – juli 2019 {#release-19-3---july-2019}
 
 **Nyheter**
 
@@ -258,7 +256,7 @@ ht-degree: 7%
 * Korrigerade ett säkerhetsproblem som förstörde e-postinnehållet när ämnet innehöll flera rader.
 
 
-## Version 19.2.7 - juli 2019 {#release-19-2-7---july-2019}
+## Version 19.2.7 – juli 2019 {#release-19-2-7---july-2019}
 
 **Förbättringar**
 
@@ -292,7 +290,7 @@ En serie förbättringar och korrigeringar introducerades för att optimera frag
 * Korrigerade ett problem som förhindrade dig från att anrika ett transaktionsmeddelandeinnehåll med information från tjänstresursen. (CAMP-33707)
 * Korrigerade ett fel på startsidorna i blockeringslista som inträffade när profiler skulle avbeställas från en tjänst.
 
-## Version 19.2 - maj 2019 {#release-19-2---may-2019}
+## Version 19.2 – maj 2019 {#release-19-2---may-2019}
 
 **Nyheter**
 
@@ -306,7 +304,7 @@ En serie förbättringar och korrigeringar introducerades för att optimera frag
  <tbody> 
   <tr> 
    <td> Kontrollpanelen<br /> </td> 
-   <td> <p>För att effektivisera arbetet som Admin-användare kan du enkelt övervaka kapaciteten och hantera inställningarna för dina instanser (och börja med SFTP-serverhantering).</p><p>Mer information hittar du i den <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=sv">detaljerade dokumentationen</a> och <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=en">instruktionsvideon</a>.</p></td> 
+   <td> <p>För att effektivisera arbetet som Admin-användare kan du enkelt övervaka kapaciteten och hantera inställningarna för dina instanser (och börja med SFTP-serverhantering).</p><p>Mer information hittar du i den <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=sv">detaljerade dokumentationen</a> och <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=sv">instruktionsvideon</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Lokala meddelanden<br /> </td> 
@@ -396,7 +394,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
 * Korrigerade ett fel som gjorde att leveransarbetsflödet stängdes av om det inte slutfördes korrekt.
 * Korrigerade ett problem som kunde hindra användare från att spara eller schemalägga rapporter. (CAMP-31133)
 
-## Version 19.1.3 - mars 2019 {#release-19-1-3---march-2019}
+## Version 19.1.3 – mars 2019 {#release-19-1-3---march-2019}
 
 **Förbättringar av E-postdesigner**
 
@@ -502,7 +500,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
 * Korrigerade ett problem som kunde inträffa med PKEY-generering när utökade profilresurser användes. (CAMP-30285)
 * Ett problem som kunde inträffa med kalenderdagars trötthetsregler har korrigerats. (CAMP-30136)
 * Korrigerade ett problem som kunde inträffa vid försök att komma åt anpassade resurser med namn som slutade med &quot;Bas&quot;. (CAMP-30109)
-* Korrigerade ett problem som förhindrade att ett PATCH-anrop användes för att prenumerera på en profil för en tjänst. (CAMP-29728)
+* Korrigerade ett fel som förhindrade att ett PATCH-anrop användes för att prenumerera på en profil för en tjänst. (CAMP-29728)
 * Korrigerade ett problem som kunde skada ett arbetsflöde vid import av en XML-fil via aktiviteten Läs in fil. (CAMP-29208 och CAMP-28205)
 * Ett problem har korrigerats vid länkning av anpassade resurser som skulle kunna förhindra att omvända kardinalitetslänkar genereras. (CAMP-30476)
 * Korrigerade ett problem som förhindrade utökning av leveransloggar när endast segmentkoden användes.
@@ -516,7 +514,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
 * Korrigerade ett problem som orsakade diskrepans mellan målprofilerna när en leverans i appen skapades och de som visades på kontrollpanelen för leverans. (CAMP-28722)
 * Ett problem med integrationen av tjänsterna Campaign och Assets Core Service som kan förhindra dig från att välja en delad resurs i ett e-postmeddelande har korrigerats.
 
-## Version 19.0 - januari 2019 {#release-19-0---january-2019}
+## Version 19.0 – januari 2019 {#release-19-0---january-2019}
 
 **Nyheter**
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Studssammanfattning
 description: Med en färdig rapport om studssammanfattning får du reda på status för skickade kampanjer och vilka fel de har råkat ut för.
 audience: reporting
@@ -10,14 +8,13 @@ context-tags: bounceReport,main;campaignCirculationReport,main;programCirculatio
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 03ea2f20-959c-497e-bd71-4e77132d712e
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '277'
 ht-degree: 1%
 
 ---
-
 
 # Studssammanfattning{#bounce-summary}
 

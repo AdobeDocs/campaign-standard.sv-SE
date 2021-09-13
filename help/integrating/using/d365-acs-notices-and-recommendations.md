@@ -1,23 +1,21 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Kampanj och datahantering för Microsoft Dynamics 365
 description: Läs om hur Campaign Standard och Microsoft Dynamics 365 hanterar gemensamma data
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-feature: Microsoft CRM-integrering
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-source-git-commit: f28aab2ac295d8a45598f5d76a86e594deeece4a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2507'
 ht-degree: 1%
 
 ---
 
-# Bästa praxis och begränsningar {#acs-msdyn-best-practices}
+# God praxis och begränsningar {#acs-msdyn-best-practices}
 
 ## Hantera data {#acs-msdyn-manage-data}
 

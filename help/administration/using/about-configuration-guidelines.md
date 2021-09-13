@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Konfigurationsriktlinjer
 description: Läs mer om riktlinjer för konfiguration av Campaign Standard.
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
-feature: Åtkomsthantering
+feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 88684ed6-6d8d-4691-987f-812e7e1d834c
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '117'
 ht-degree: 5%
 
 ---
@@ -50,6 +48,6 @@ Här är de olika slutpunkterna som används i Campaign Standard.
 | Experience Cloud | `https://experiencecloud.adobe.com` |
 | Spåra | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net` |
 | Resursintegrering | `https://*.marketing-assets.adobe.com` |
-| Interna Adobe-tjänster | `https://*.adobe.io` |
+| Adobes interna tjänster | `https://*.adobe.io` |
 | Undersökningar | `https://adobe.allegiancetech.com` |
 | URL för standardprofilering (före klientkonfiguration) | `https://*.adobe-campaign.com` |

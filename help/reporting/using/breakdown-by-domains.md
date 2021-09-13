@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Uppdelning efter domäner
 description: Med rapporten Uppdelning efter domäner som är färdig kan du lära dig mer om prestandadata för dina leveranser beroende på var och en av kundens domäner.
 audience: reporting
@@ -10,14 +8,13 @@ context-tags: deliveryDomainBreakdownReport,main;campaignDomainBreakdownReport,m
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 513d74ae-10c0-4d41-a7d1-8ed655e1a2d1
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '235'
 ht-degree: 3%
 
 ---
-
 
 # Uppdelning efter domäner{#breakdown-by-domains}
 
@@ -41,4 +38,3 @@ Den andra tabellen, **Spårningsstatistik**, innehåller tillgängliga data för
 * **Avbeställ**: Antal klick på prenumerationslänken.
 * **Spegelsida**: Antalet klick på länken för spegelsidan.
 * **På blockeringslista**: Antalet mottagare som har deklarerat ett e-postmeddelande som skräppost eller skräppost. [Läs mer](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-

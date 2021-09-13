@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Förbättra profildata med data som finns i en fil
+title: Berika profildata med data som finns i en fil
 description: I det här exemplet visas hur du förbättrar profildata med inköpsdata som finns i en fil.
 audience: automating
 content-type: reference
@@ -10,16 +8,15 @@ context-tags: enrichment,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d5c19884-5a3e-4676-899c-53074a3b0efc
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '528'
 ht-degree: 78%
 
 ---
 
-
-# Förbättra profildata med data som finns i en fil {#enriching-profile-data-with-data-contained-in-a-file}
+# Berika profildata med data som finns i en fil {#enriching-profile-data-with-data-contained-in-a-file}
 
 I det här exemplet visas hur du förbättrar profildata med inköpsdata som finns i en fil.I det här exemplet anser vi att inköpsdata lagras i ett tredjepartssystem. Varje profil kan innehålla flera köp i filen. Arbetsflödets sista mål är att skicka ett e-postmeddelande till målprofilerna som har köpt minst två objekt för att tacka dem för deras lojalitet.
 

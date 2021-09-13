@@ -1,24 +1,22 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Felsökning av leveransproblem i Adobe Campaign Standard
 description: Lär dig vad du ska göra när du får leveransproblem med Adobe Campaign Standard.
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Levererbarhet
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 0470b986-c00a-4441-8621-82c7112a9953
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '467'
 ht-degree: 2%
 
 ---
 
-# Felsöka{#troubleshooting}
+# Felsökning{#troubleshooting}
 
 Har du något leveransproblem? Du kan hitta lösningen här.
 

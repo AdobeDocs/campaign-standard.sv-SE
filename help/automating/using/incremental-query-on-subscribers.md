@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Inkrementell fråga om prenumeranter på en tjänst
 description: I följande exempel visas hur du konfigurerar en inkrementell frågeaktivitet för att filtrera prenumeranter på en tjänst.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: incremental,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: c80ed1f6-ad8a-4448-a6df-b9881327228a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 66%
+source-wordcount: '211'
+ht-degree: 67%
 
 ---
-
 
 # Inkrementell fråga om prenumeranter på en tjänst {#example--incremental-query-on-subscribers-to-a-service}
 

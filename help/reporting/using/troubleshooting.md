@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Felsökning
 description: Här finns vanliga frågor om dynamisk rapportering.
 audience: reporting
 content-type: reference
 topic-tags: troubleshooting
-feature: Rapportering
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-source-git-commit: 81ffe6a7e59a745a6f61941dff69be85edf4fe45
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '703'
 ht-degree: 5%
 
 ---
@@ -21,7 +19,7 @@ ht-degree: 5%
 
 I det här avsnittet finns vanliga frågor om dynamisk rapportering.
 
-## För unika öppningar och unika klick matchar inte antalet i den samlade raden dem i enskilda rader {#unique-open-clicks-no-match}
+## För Unika öppningar och Unika klick matchar inte antalet i den sammanställda raden dem i enskilda rader {#unique-open-clicks-no-match}
 
 Detta är ett förväntat beteende.
 Vi kan ta följande exempel för att förklara det här beteendet.
@@ -92,7 +90,7 @@ Detta resulterar i följande tabell:
 >
 >Unika antal baseras på en HLL-baserad skiss, vilket kan orsaka små defekter vid stora antal.
 
-## Antalet öppna stämmer inte överens med antalet databaser {#open-counts-no-match-database}
+## Antalet öppna stämmer inte med antalet databaser {#open-counts-no-match-database}
 
 Detta kan bero på att heuristik används i dynamisk rapportering för att spåra öppningar även när vi inte kan spåra åtgärden **[!UICONTROL Open]**.
 
@@ -167,7 +165,7 @@ I exemplet nedan har cellen samma färg eftersom värdet är 100 %.
 
 Om du ändrar **[!UICONTROL Conditional formatting]** till anpassad blir cellen grönare när värdet når den övre gränsen. Om den når den undre gränsen blir den rödare.
 
-Här anger vi till exempel **[!UICONTROL Upper limit]** till 500 och **[!UICONTROL Lower limit]** till 0.
+Här ställer vi till exempel in **[!UICONTROL Upper limit]** på 500 och **[!UICONTROL Lower limit]** på 0.
 
 ![](assets/troubleshooting_2.png)
 

@@ -1,22 +1,19 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Uppdatera studskompetens efter ett avbrott i en Internet-leverantör
+title: Uppdatera studskvalificering efter ett avbrott hos en internetleverantör
 description: Lär dig hur du uppdaterar studskompetens efter ett avbrott i en Internet-leverantör.
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
-translation-type: tm+mt
-source-git-commit: f58a6d067a562e5e157e249e6b97c02669caf3a5
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
-# Uppdatera studskompetens efter ett internetleverantörsavbrott {#update-bounce-qualification.md}
+# Uppdatera studskvalificering efter ett avbrott hos en internetleverantör {#update-bounce-qualification.md}
 
 Om du INTE kör den senaste versionen av Campaign kan det här avsnittet gälla dig. Kontakta din Adobe Campaign-representant.
 
@@ -50,8 +47,8 @@ Baserat på tidsramen för incidenten rekommenderas följande riktlinjer för fr
 För Campaign-instanser med SMTP-studssvarsinformation i fältet **[!UICONTROL Error text]** i karantänlistan:
 
 * **Feltexten (karantänstext)** innehåller&quot;550-5.1.1 E-postkontot som du försökte nå finns inte&quot; OCH  **feltexten (karantänstext)** innehåller&quot;support.google.com&quot; **
-* **Uppdateringsstatus (@lastModified)** 2020-12-14 6:55:00
-* **Uppdateringsstatus (@lastModified)** den 16 december 2020 kl. 6:00:00
+* **Uppdateringsstatus (@lastModified)** den 14/12/2020 6:55:00
+* **Uppdateringsstatus (@lastModified)** den 16/12/2020 6:00:00
 
 När du har en lista över berörda mottagare kan du antingen ange statusen **[!UICONTROL Valid]** så att de tas bort från karantänlistan av arbetsflödet **[!UICONTROL Database cleanup]** eller bara ta bort dem från tabellen.
 

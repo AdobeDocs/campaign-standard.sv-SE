@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Skapa ett arbetsflöde
 description: I det här avsnittet beskrivs de viktigaste principerna och de bästa sätten att skapa ett nytt arbetsflöde.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: workflow,wizard;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '983'
 ht-degree: 96%
 
 ---
-
 
 # Skapa ett arbetsflöde{#building-a-workflow}
 
@@ -134,7 +131,7 @@ Aktiviteter är som standard inte inställda och bearbetar inte data korrekt om 
 1. Spara aktiviteten och upprepa dessa åtgärder för varje aktivitet i arbetsflödet.
 1. Spara arbetsflödet.
 
-## Självstudievideo {#video}
+## Videokurs {#video}
 
 I den här videon visas hur du skapar ett arbetsflöde.
 

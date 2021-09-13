@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Återinriktning på icke-öppnare
 description: Det här användningsexemplet visar hur du återmarknadsför icke-öppnare.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: workflow,use-case,query,wait,delivery
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: cba4e5c6-8acd-47a1-824e-14415e90d451
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '308'
 ht-degree: 38%
 
 ---
-
 
 # Omdirigeringsarbetsflöde som skickar en ny leverans till icke-öppnare{#retargeting-delivery-to-non-openers}
 
@@ -63,7 +60,7 @@ Du kan skicka ett e-postmeddelande till kunder och sedan ett sms till dem som in
 1. Välj operatorn mellan reglerna som **[!UICONTROL except]**.
 1. Klicka på **[!UICONTROL Confirm]**.
 
-## Skapa en SMS-leverans{#creating-a-sms-delivery}
+## Skapa en sms-leverans{#creating-a-sms-delivery}
 
 1. Dra och släpp en liten frakt efter varje segment.
 1. Klicka på aktiviteten och välj ![](assets/edit_darkgrey-24px.png) för att redigera.

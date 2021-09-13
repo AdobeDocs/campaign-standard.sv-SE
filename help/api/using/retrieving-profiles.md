@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Hämtar profiler
+title: Hämta profiler
 description: Lär dig mer om hur du hämtar profiler med API:er.
 audience: developing
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '229'
 ht-degree: 5%
 
 ---
 
-
-# Hämtar profiler {#retrieving-profiles}
+# Hämta profiler {#retrieving-profiles}
 
 Hämtning av profiler utförs med en **GET**-begäran.
 
@@ -89,7 +86,7 @@ Med Campaign Standard-API:er kan du dessutom söka efter profiler som baseras p�
    }
    ```
 
-## Söker efter profiler baserade på ett fält {#searching-field}
+## Söka efter profiler baserade på ett fält {#searching-field}
 
 Med parametern **[!UICONTROL filterType]** kan du hämta profiler baserat på ett av dessa fält: e-post, förnamn, efternamn eller andra anpassade fält som har lagts till i avancerad filtrering när profilresursen utökas.
 

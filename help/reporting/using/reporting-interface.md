@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Rapportgränssnitt
+title: Rapporteringsgränssnitt
 description: Läs mer om Dynamic Report interface och navigering på de olika flikarna och menyerna.
 audience: reporting
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: about-reporting
 feature: Reporting
 role: Leader
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 37e9acff-9576-472f-9fdf-2c0f6da773d1
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '731'
 ht-degree: 3%
 
 ---
 
-
-# Rapportgränssnitt{#reporting-interface}
+# Rapporteringsgränssnitt{#reporting-interface}
 
 I det övre verktygsfältet kan du till exempel ändra, spara eller skriva ut rapporten.
 
@@ -95,7 +92,7 @@ På fliken **Redigera** kan du:
 * **Ångra**: Avbryter din senaste åtgärd på instrumentpanelen.
 * **Radera allt**: Tar bort alla paneler på kontrollpanelen.
 
-### Infoga flik {#insert-tab}
+### Infoga-flik {#insert-tab}
 
 ![](assets/tab_insert.png)
 

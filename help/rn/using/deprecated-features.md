@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Funktioner som är inaktuella och har ersatts i Campaign Standard
 description: Den här sidan visar inaktuella och borttagna funktioner i Adobe Campaign Standard.
 audience: rn
@@ -10,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: bb964907851b11f8cc247425024f6e7c828aed5d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '871'
-ht-degree: 66%
+ht-degree: 67%
 
 ---
 
@@ -136,7 +134,7 @@ Det här avsnittet visar funktioner som har tagits bort från Campaign Standard.
  <tbody> 
   <tr> 
    <td> <p>Från och med Campaign version 21.2 är användningen av API och gränssnitt i Campaign för åtkomst och borttagning inaktuell. Radering av profiler med två steg är inte tillgänglig. Använd <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
-   <p>Se även <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">Hantera förfrågan om användarens information</a>.</p>
+   <p>Se även <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=sv">Hantera förfrågan om användarens information</a>.</p>
   </td> 
   </tr> 
  </tbody> 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Kom igång med dynamisk rapportering
 description: Analysera framgångarna med era kampanjer i inbyggda eller anpassade dynamiska rapporter.
 audience: reporting
@@ -9,14 +7,13 @@ topic-tags: about-reporting
 feature: Reporting
 role: Leader
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9ecb4ba6-c7a3-4b1f-ab73-5eb512ebb016
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '372'
 ht-degree: 16%
 
 ---
-
 
 # Kom igång med dynamisk rapportering {#get-started-reporting}
 
@@ -42,9 +39,9 @@ Med det dynamiska rapporteringsgränssnittet **dra-och-släpp** kan du utforska 
 Läs mer:
 
 * [Om dynamiska rapporter](../../reporting/using/about-dynamic-reports.md)
-* [Rapportgränssnitt](../../reporting/using/reporting-interface.md)
+* [Rapporteringsgränssnitt](../../reporting/using/reporting-interface.md)
 
-## Bygg dina rapporter {#build-reports}
+## Skapa rapporter {#build-reports}
 
 <img src="assets/do-not-localize/icon_build.svg" width="60px">
 
@@ -54,11 +51,11 @@ Campaign Standarden innehåller **färdiga dynamiska rapporter** som gör att du
 
 Läs mer:
 
-* [Förteckning över komponenter](../../reporting/using/list-of-components-.md)
+* [Lista över komponenter](../../reporting/using/list-of-components-.md)
 * [Indikatorberäkning](../../reporting/using/indicator-calculation.md)
 * [Lista över rapporter](../../reporting/using/defining-the-report-period.md)
 
-## Anpassa dina rapporter {#customize-reports}
+## Anpassa rapporter {#customize-reports}
 
 <img src="assets/do-not-localize/icon_customize.svg" width="60px">
 
@@ -78,10 +75,10 @@ Läs mer:
 
 ## Ytterligare resurser
 
-* [Exporterar loggar](../../automating/using/exporting-logs.md)
-* [Om Campaign-Analytics-integration](../../integrating/using/about-campaign-analytics-integration.md)
+* [Exportera loggar](../../automating/using/exporting-logs.md)
+* [Om integrering av Campaign och Analytics](../../integrating/using/about-campaign-analytics-integration.md)
 
-## Självstudievideo {#video}
+## Videokurs {#video}
 
 Den här videon ger en översikt över Adobe Campaign Standard rapporteringsfunktioner.
 

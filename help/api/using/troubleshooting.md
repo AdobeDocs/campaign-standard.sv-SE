@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Felsökning
 description: Läs mer om vanliga problem med Campaign Standard-API:er.
 audience: developing
@@ -9,14 +7,13 @@ topic-tags: use-case--extending-the-api
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
-
 
 # Felsökning {#troubleshooting}
 
@@ -86,7 +83,7 @@ Adobe.io deklarerar din ogiltiga URI: Den URI som du begär är förmodligen int
 
 * **När du gör en begäran till Adobe.io får du {&quot;error_code&quot;:&quot;401013&quot;,&quot;message&quot;:&quot;Oauth-token är inte giltig&quot;}**
 
-Antingen är din token ogiltig (felaktigt IMS-anrop används för att generera en token) eller så har din token gått ut.
+Antingen är din token ogiltig (felaktigt IMS-anrop som används för att generera en token) eller så har din token gått ut.
 
 * **Jag kan inte se min profil efter att jag har skapat den**
 

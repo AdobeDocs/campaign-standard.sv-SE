@@ -1,16 +1,14 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Aktiva profiler för kampanj
 description: Lär dig hur du får tillgång till kundstatistik och aktiva profiler
-feature: Profiler
+feature: Profiles
 role: User
 level: Intermediate
 exl-id: 22516348-7695-4579-99eb-480e5b723ccc
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 1%
+source-wordcount: '227'
+ht-degree: 0%
 
 ---
 
@@ -43,4 +41,3 @@ Längst ned på sidan visas måldimensionerna med antalet profiler för varje. M
 >[!NOTE]
 >
 >Som administratör kan du också övervaka antalet aktiva profiler som används på dina instanser direkt från Kontrollpanelen. Mer information finns i [dokumentationen till kontrollpanelen](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
-

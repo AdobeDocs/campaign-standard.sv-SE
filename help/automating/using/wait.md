@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Vänta
 description: Vänteaktiviteten avbryter tillfälligt körningen av en del i arbetsflödet.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: wait,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 2ddc1b2b-0df5-4c91-a381-451cc094f2eb
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 99%
+source-wordcount: '296'
+ht-degree: 100%
 
 ---
-
 
 # Vänta{#wait}
 
@@ -56,4 +53,3 @@ Arbetsflödet presenteras på följande sätt:
 * En **[!UICONTROL Wait]** aktivitet på 24 timmar skapar en paus mellan utskickandet av inbjudan och resten av arbetsflödet.
 * Ett annat **[!UICONTROL Query]** mål är de profiler som fick det första e-postmeddelandet men som inte klickade på prenumerationslänken som var bifogad.
 * En aktivitet till **[!UICONTROL Email delivery]** skickar en påminnelse om inbjudan till de valda personerna.
-

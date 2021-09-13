@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Arbetsflödesgränssnitt
 description: Lär dig gränssnittet och alternativen för att skapa, redigera och köra ett arbetsflöde.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: workflow,main;workflow,overview
 feature: Workflows
 role: Data Architect
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '802'
 ht-degree: 4%
 
 ---
-
 
 # Arbetsflödesgränssnitt{#workflow-interface}
 
@@ -108,7 +105,7 @@ Beroende på vilka element som är markerade på arbetsytan eller arbetsflödets
 
 ## Snabbåtgärder {#quick-actions}
 
-När en aktivitet är markerad visas snabbåtgärdsknappar runt aktiviteten, så att du kan interagera med den.
+När en aktivitet är markerad visas snabbåtgärdsknappar runt aktiviteten så att du kan interagera med den.
 
 <img height="21px" src="assets/edit_darkgrey-24px.png" /> **[!UICONTROL Open activity]**<br/>Öppnar den markerade aktiviteten.
 
@@ -157,4 +154,3 @@ Det går också att kopiera och klistra in flera aktiviteter, så att du kan dup
 Välj aktiviteter genom att rita en zon runt dem. klickar du på knappen **[!UICONTROL Copy selection]** i åtgärdsfältet (eller trycker på **Ctrl + C**). Du kan sedan klistra in dem på önskad plats.
 
 ![](assets/wkf_copypaste3.png)
-

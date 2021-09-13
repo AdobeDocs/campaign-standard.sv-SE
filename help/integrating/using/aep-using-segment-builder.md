@@ -1,24 +1,22 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Använda verktyget Segment Builder
+title: Använda Segment Builder
 description: Lär dig hur du använder Segment Builder för att skapa målgrupper.
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-feature: Microsoft CRM-integrering
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: 9a6c542e-10ed-4e77-abb3-36324e1cb38f
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 2%
+source-wordcount: '866'
+ht-degree: 3%
 
 ---
 
-# Använda verktyget Segment Builder {#using-the-segment-builder}
+# Använda Segment Builder {#using-the-segment-builder}
 
 >[!IMPORTANT]
 >

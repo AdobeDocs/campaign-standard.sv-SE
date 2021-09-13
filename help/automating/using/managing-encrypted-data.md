@@ -1,29 +1,27 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Hantera krypterade data
 description: Lär dig hur du hanterar krypterade data.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-feature: Arbetsflöden
+feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
-source-git-commit: 05e7de6d59420f532e0095ddb1fd7f158519518b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 4%
+source-wordcount: '924'
+ht-degree: 5%
 
 ---
 
 # Hantera krypterade data {#managing-encrypted-data}
 
-## Om förbearbetningssteg {#about-preprocessing-stages}
+## Om förbearbetningsfaser {#about-preprocessing-stages}
 
 I vissa fall kan data som du vill importera Campaign-servrar behöva krypteras, till exempel om de innehåller PII-data.
 
-För att kunna kryptera utgående data eller dekryptera inkommande data måste du hantera GPG-nycklar med hjälp av [Kontrollpanelen](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html).
+För att kunna kryptera utgående data eller dekryptera inkommande data måste du hantera GPG-nycklar med hjälp av [Kontrollpanelen](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=sv).
 
 >[!NOTE]
 >

@@ -1,23 +1,21 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Om Campaign-Experience Manager-integration
+title: Om integrering av Campaign och Experience Manager
 description: Tack vare integreringen med Adobe Experience Manager kan du skapa innehåll direkt i AEM och använda det senare i Adobe Campaign.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
-feature: Utlösare
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: ff94f69b-3036-4103-a841-6b85feb0eb7e
-source-git-commit: f6e94cf98662e708730be672149d836ef0e56522
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '631'
 ht-degree: 1%
 
 ---
 
-# Om Campaign-Experience Manager-integration{#integrating-with-experience-manager}
+# Om integrering av Campaign och Experience Manager{#integrating-with-experience-manager}
 
 Tack vare integreringen mellan Adobe Campaign Standard och Adobe Experience Manager kan du använda innehåll som skapats i Adobe Experience Manager i Adobe Campaign e-postmeddelanden.
 
@@ -29,7 +27,7 @@ Adobe Campaign Standard är kompatibelt med Adobe Experience Manager 6.1, 6.2, 6
 >
 > Adobe Campaign Standard-mallar är inte längre tillgängliga med Adobe Experience Manager 6.5.
 
-## Tips om hur du använder integrering mellan Campaign och Experience Manager {#tips-aem}
+## Tips om hur man använder integreringen mellan Campaign och Experience Manager {#tips-aem}
 
 * **Ta reda på vilken mall som ska användas med integreringen**
 

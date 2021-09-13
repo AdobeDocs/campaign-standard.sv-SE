@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Test
 description: Testaktiviteten möjliggör en övergång baserat på ett testresultat.
 audience: automating
@@ -10,16 +8,15 @@ context-tags: jstest,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 62a064f7-6d0b-49ca-9834-eccb5bf42496
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 80%
+source-wordcount: '190'
+ht-degree: 82%
 
 ---
 
-
-# Test{#test}
+# Testa{#test}
 
 ## Beskrivning {#description}
 

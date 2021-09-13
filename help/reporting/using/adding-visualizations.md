@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Lägga till visualiseringar
 description: Dynamiska rapporter innehåller en uppsättning visualiseringar som lägger till en grafisk representation i rapporten.
 audience: reporting
@@ -9,14 +7,13 @@ topic-tags: customizing-reports
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: a6bf2393-ebb8-49c8-bdc9-d243c227bee9
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 2%
+source-wordcount: '220'
+ht-degree: 1%
 
 ---
-
 
 # Lägga till visualiseringar{#adding-visualizations}
 

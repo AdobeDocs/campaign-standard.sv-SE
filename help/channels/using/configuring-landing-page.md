@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Konfigurera en landningssida
 description: Lär dig hur du konfigurerar egenskaperna för en landningssida.
 audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
-feature: Landningssidor
+feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 0b9795e9-83e6-4399-a3b1-fc69081f6a82
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '657'
 ht-degree: 97%
 
 ---

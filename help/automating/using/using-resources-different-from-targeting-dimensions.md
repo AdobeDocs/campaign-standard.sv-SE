@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Använda andra resurser än måldimensioner
+title: Använda andra resurser än målinriktningsdimensioner
 description: Lär dig hur du använder en resurs som skiljer sig från måldimensionen.
 audience: automating
 content-type: reference
@@ -10,16 +8,15 @@ context-tags: query,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5805bdfa-fb33-4a46-ba1e-7a10b067349b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '293'
 ht-degree: 81%
 
 ---
 
-
-# Använda andra resurser än måldimensioner {#using-resources-different-from-targeting-dimensions}
+# Använda andra resurser än målinriktningsdimensioner {#using-resources-different-from-targeting-dimensions}
 
 I det här användningsexemplet beskrivs hur du använder en resurs som skiljer sig från måldimensionen, till exempel för att söka efter en viss post i en fjärrtabell.
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Konfigurerar resursens datastruktur
 description: Lär dig hur du konfigurerar datastrukturen.
 audience: developing
@@ -10,16 +8,15 @@ context-tags: cusResource,main
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b00fdeb9-2431-4209-8a3f-59c7e6ce7c31
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1661'
-ht-degree: 99%
+source-wordcount: '1657'
+ht-degree: 100%
 
 ---
 
-
-# Konfigurerar resursens datastruktur{#configuring-the-resource-s-data-structure}
+# Konfigurera resursens datastruktur{#configuring-the-resource-s-data-structure}
 
 När du har skapat en ny anpassad resurs måste du konfigurera datastrukturen.
 

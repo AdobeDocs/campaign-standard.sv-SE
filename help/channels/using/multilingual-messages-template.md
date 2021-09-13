@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Mallar för flerspråkiga meddelanden
 description: Lär dig definiera och köra flerspråkiga e-post och SMS-leveranser genom en enda leverans baserat på det automatiskt segmenterade kundspråk som du föredrar. Rapportera resultatet av varje leverans på såväl språknivåer som individuella nivåer.
 audience: start
 content-type: reference
 topic-tags: managing-templates
-feature: Flerspråkiga meddelanden
+feature: Multilingual Messages
 role: User
 level: Intermediate
 exl-id: 3d869f31-7dfb-4546-aba5-80a2787e00be
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 99%
+source-wordcount: '294'
+ht-degree: 100%
 
 ---
 

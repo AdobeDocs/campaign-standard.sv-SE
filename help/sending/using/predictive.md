@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Funktioner för förutsägande användarengagemang
 description: Läs om hur du använder förutsägande sändningstider och engagemangsbedömning.
 audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
-feature: Tidsoptimering för sändning
+feature: Send Time Optimization
 role: User
 level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
-source-git-commit: 356bac989a6bd4c9039910e2d9c59f33ce1153f8
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 99%
+source-wordcount: '1045'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +31,6 @@ Adobe Campaign Standard erbjuder två nya maskininlärningsmodeller: **Förutsä
 
 >[!IMPORTANT]
 >Den här funktionen är inte tillgänglig som en del av produkten. För implementering krävs att Adobe Consulting används. Kontakta din Adobe-representant för mer information.
-
 
 ## Prediktiv optimering av sändningstid{#predictive-send-time}
 
@@ -108,7 +105,6 @@ AddHours([currentDelivery/scheduling/@contactDate],
 >[!NOTE]
 >
 >Datamodellen kan vara annorlunda beroende på implementeringen.
-
 
 
 ## Prediktiv poängsättning för engagemang {#predictive-scoring}

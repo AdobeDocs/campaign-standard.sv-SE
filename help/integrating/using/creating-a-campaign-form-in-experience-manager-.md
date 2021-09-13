@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 'Skapa ett Campaign-formulär i Experience Manager '
 description: Tack vare integreringen med Adobe Experience Manager kan du skapa formulär direkt i AEM för att skapa och uppdatera profiler eller hantera prenumerationer.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
-feature: Utlösare
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 61683639-3f71-4652-a138-acfc0e91e868
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '181'
 ht-degree: 12%
 
 ---

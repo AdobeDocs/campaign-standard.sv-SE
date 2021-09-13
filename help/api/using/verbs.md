@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: GET / POST / PATCH / DELETE verb
 description: Läs mer om verberna som används i Campaign Standard-API:er.
 audience: developing
@@ -9,14 +7,13 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: de97a194-d497-4665-906e-53178fd3b119
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '129'
 ht-degree: 0%
 
 ---
-
 
 # GET / POST / PATCH / DELETE verb {#verbs}
 

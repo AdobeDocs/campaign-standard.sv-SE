@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Mata in målgrupper från Adobe Experience Platform i Campaign
 description: Lär er hur ni kan få ut Adobe Experience Platform-målgrupper till Campaign Standard.
 audience: integrating
@@ -8,7 +6,7 @@ content-type: reference
 role: Data Architect
 level: Intermediate
 exl-id: 5c266c44-535b-4954-862d-74c83a6f6406
-source-git-commit: ca8473f50b132b2d5ca58c6403d144fbf62741b0
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 7%

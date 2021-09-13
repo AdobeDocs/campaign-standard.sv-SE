@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Extern import av signaler och data
 description: I följande exempel visas den externa signalaktivitet som används vid dataimport.
 audience: automating
@@ -10,16 +8,15 @@ context-tags: signal,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: e2997cf5-861b-4202-aeb7-3a47c4d55bef
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 78%
+source-wordcount: '229'
+ht-degree: 79%
 
 ---
 
-
-# Extern signal- och dataimport {#external-signal-data-import}
+# Extern import av signaler och data {#external-signal-data-import}
 
 I följande exempel visas aktiviteten **[!UICONTROL External signal]** i ett typiskt fall. En dataimport utförs i ett källarbetsflöde. När importen är klar och databasen har uppdaterats aktiveras ett andra arbetsflöde. Det andra arbetsflödet används för att uppdatera en aggregering på de importerade data.
 

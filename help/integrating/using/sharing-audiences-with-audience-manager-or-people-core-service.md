@@ -1,23 +1,21 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Dela målgrupper med Audience Manager eller People Core Service
+title: Dela målgrupper med Audience Manager eller kärntjänsten People
 description: Lär dig hur du importerar eller exporterar målgrupper inom olika Adobe Experience Cloud-lösningar.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-feature: Integrering av tjänsten People Core
+feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: b0d063de-863c-42e7-98dd-c4c86da3281e
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '801'
 ht-degree: 2%
 
 ---
 
-# Dela målgrupper med Audience Manager eller People Core Service{#sharing-audiences-with-audience-manager-or-people-core-service}
+# Dela målgrupper med Audience Manager eller kärntjänsten People{#sharing-audiences-with-audience-manager-or-people-core-service}
 
 ## Importera en målgrupp {#importing-an-audience}
 

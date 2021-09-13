@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Kom igång med administration av Campaign Standard
 description: Upptäck användar- och behörighetshantering, riktlinjer för övervakning, kanalspecifika konfigurationer och riktlinjer för programinställningar.
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
-feature: Åtkomsthantering
+feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 9676b5e8-4c34-4848-8616-235e0bac5d6b
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '637'
 ht-degree: 13%
 
 ---

@@ -1,15 +1,12 @@
 ---
 keywords: Campaign Standard;hemmabruk;populära ämnen
-solution: Campaign Standard
-product: campaign
 title: Produktdokumentation för Adobe Campaign Standard
 description: Bläddra i produktdokumentationen för Adobe Campaign Standard
 topic: Premium
-translation-type: tm+mt
-source-git-commit: 189cd93d12dfd7838dae87dd4c8de19c10926ce6
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '35'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +14,7 @@ ht-degree: 85%
 # Campaign-Standard-TOC {#campaign-standard-partial-ignore}
 
 + Administration{#administration}
-   + [Fatigue-regler](sending/using/fatigue-rules.md)
+   + [Utmattningsregler](sending/using/fatigue-rules.md)
    + [Om typologiregler](sending/using/about-typology-rules.md)
    + [Om typologiregler – lista](sending/using/about-typology-rules.md#typology-rules)
    + [Konfigurera e-postkanal](administration/using/configuring-email-channel.md)

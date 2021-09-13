@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Tekniska arbetsflöden
 description: Tekniska arbetsflöden är färdiga arbetsflöden som är utformade för att hantera tekniska bakgrundsprocesser i Adobe Campaign och säkerställa att plattformen fungerar korrekt.
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Instansinställningar
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: 8204ed1118b5445420d99dbc0438752a4dc26846
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 93%
+source-wordcount: '717'
+ht-degree: 94%
 
 ---
 

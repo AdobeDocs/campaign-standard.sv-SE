@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Definiera rätt målgrupp
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: '"När ni har ert innehåll klart kan ni lära er hur ni noga definierar vilka som ska få ert meddelande."'
-feature: Levererbarhet
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 1e06fd9d-e850-4856-8f7b-b581dbe157df
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '516'
 ht-degree: 11%
 
 ---

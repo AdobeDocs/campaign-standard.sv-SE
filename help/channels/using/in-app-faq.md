@@ -1,24 +1,22 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Vanliga frågor om appar
+title: Vanliga frågor i appen
 description: Vanliga frågor och svar om meddelanden i appen
 audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,triggers,back
-feature: I appen
+feature: In App
 role: User
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '674'
 ht-degree: 2%
 
 ---
 
 
-# Vanliga frågor om appar {#in-app-faq}
+# Vanliga frågor i appen {#in-app-faq}
 
 ## Vad skulle vara användbara resursrekommendationer om du vill veta mer om In-App-kanalen i Adobe Campaign Standard? {#resources-inapp}
 

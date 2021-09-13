@@ -1,16 +1,13 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Om sekretesshantering
 description: Läs mer om sekretesshantering med API:er
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '112'
+ht-degree: 4%
 
 ---
 

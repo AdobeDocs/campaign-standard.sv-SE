@@ -1,19 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Utlösa datainmatning via API:er
 description: Lär dig hur du utlöser datainhämtning via API:er.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Microsoft CRM-integrering
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: d67a796a-0730-4502-802c-d0b3583dd1dc
-translation-type: tm+mt
-source-git-commit: a4e1edc23cf750e44026f388f7b0fff3a80ec663
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '464'
 ht-degree: 5%
 
 ---
@@ -28,7 +25,7 @@ Med Adobe Campaign Standard kan du utlösa direkt inmatning av datamappningar vi
 
 Den här sidan beskriver hur du aktiverar och hämtar inmatningsstatus för dina datamappningar. Global information om Campaign Standard-API:er finns i [det här avsnittet](../../api/using/get-started-apis.md).
 
-## Förutsättningar {#prerequisites}
+## Förhandskrav {#prerequisites}
 
 Innan du använder API:erna måste datamappningen först ha konfigurerats och publicerats i Campaign Standardens gränssnitt. Mer information finns i följande avsnitt:
 
@@ -47,7 +44,7 @@ När datamappningen har skapats måste du stoppa den från att köras så att du
 
 Körningen av datamappningen har stoppats. Du kan använda Campaign Standard-API:er för att utlösa den manuellt.
 
-## Startar direkt inmatning av datamappning {#starting-immediate-ingestion}
+## Börja omedelbart inmatning av datamappning {#starting-immediate-ingestion}
 
 Omedelbart intag av en XDM-mappning i Adobe Experience Platform utlöses av en POST-åtgärd:
 

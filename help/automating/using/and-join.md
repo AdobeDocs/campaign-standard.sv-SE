@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: AND-join
 description: Med aktiviteten AND-join kan du synkronisera flera körningsgrenar i ett arbetsflöde.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: andjoin,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b03c6df3-0104-4900-9468-46824d62e0a6
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 98%
+source-wordcount: '178'
+ht-degree: 100%
 
 ---
-
 
 # AND-join{#and-join}
 
@@ -45,4 +42,3 @@ Med den här **[!UICONTROL AND-join]** aktiviteten kan du synkronisera flera kö
 I följande exempel visas två grenar av arbetsflöden innan de kopplas till **[!UICONTROL AND-join]**-aktiviteten.  Filextraheringen kan bara utföras när de tre inkommande övergångarna för **[!UICONTROL AND-join]**-aktiviteten är aktiverade.
 
 ![](assets/wkf_and-join_example.png)
-

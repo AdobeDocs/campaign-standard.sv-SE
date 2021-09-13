@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Konfigurera Campaign-Analytics-integration
+title: Konfigurera integrering av Campaign och Analytics
 description: Lär dig hur du konfigurerar Adobe Analytics-integreringen för att börja mäta hur bra e-postleveransen är.
 audience: integrating
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: working-with-campaign-and-analytics
 feature: Triggers
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: a6748b4b-36c5-4961-a599-ace73a8504cc
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '216'
 ht-degree: 9%
 
 ---
 
-
-# Konfigurera Campaign-Analytics-integration{#configure-campaign-analytics-integration}
+# Konfigurera integrering av Campaign och Analytics{#configure-campaign-analytics-integration}
 
 Tack vare den här integreringen kan du dela nyckeltal som indikator direkt från Adobe Campaign till Adobe Analytics Standard eller Premium.
 
@@ -55,4 +52,3 @@ Dina data finns nu i Adobe Analytics.
 * [Externa konton](../../administration/using/external-accounts.md)
 * [Tekniska arbetsflöden](../../administration/using/technical-workflows.md)
 * [Dela KPI:er för integrerad Campaign-](https://helpx.adobe.com/se/marketing-cloud/how-to/email-marketing.html) rapportvideoklipp
-

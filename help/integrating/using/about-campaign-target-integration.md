@@ -1,23 +1,21 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Om Campaign-Target-integration
+title: Om integrering av Campaign och Target
 description: Tack vare integreringen med Adobe Target kan du infoga dynamiska bilder som genererats av Adobe Target i dina Adobe Campaign-meddelanden.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
-feature: Utlösare
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: e0d281f7-d522-425c-9854-894e84a0a422
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 4%
+source-wordcount: '164'
+ht-degree: 3%
 
 ---
 
-# Om Campaign-Target-integration{#about-campaign-target-integration}
+# Om integrering av Campaign och Target{#about-campaign-target-integration}
 
 Genom integrationen mellan Adobe Campaign och Adobe Target (Classic och Standard) i Adobe Experience Cloud kan du infoga en dynamisk bild från Adobe Target i en e-postleverans från Adobe Campaign.
 

@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Uppdateringar och underhållsåtgärder
 description: Information om uppdaterings- och underhållsåtgärder för Adobe Campaign-servern.
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Instansinställningar
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 4da0b7b0-a854-4935-9f5f-04bfc764b18d
-source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '166'
 ht-degree: 43%
 
 ---

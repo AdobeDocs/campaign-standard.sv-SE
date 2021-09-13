@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Konfigurera Campaign-Target-integration
+title: Konfigurera integrering av Campaign och Target
 description: Lär dig hur du konfigurerar Adobe Target-integreringen så att du kan börja använda dynamiskt innehåll i Adobe Campaign.
 audience: integrating
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: working-with-campaign-and-target
 feature: Triggers
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d382bfdd-418d-46c1-98dd-df8626f85cac
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '182'
 ht-degree: 4%
 
 ---
 
-
-# Konfigurera Campaign-Target-integration{#configuring-the-campaign-target-integration}
+# Konfigurera integrering av Campaign och Target{#configuring-the-campaign-target-integration}
 
 Tack vare integreringen mellan Adobe Campaign och Adobe Target kan du infoga dynamiskt innehåll i leveransen.
 

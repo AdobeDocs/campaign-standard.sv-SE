@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Versionsinformation 2020
 description: Den här sidan innehåller alla 2020-versioner av Adobe Campaign Standard.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Översikt
+feature: Overview
 role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '5298'
+source-wordcount: '5297'
 ht-degree: 98%
 
 ---
@@ -25,7 +23,7 @@ ht-degree: 98%
 
 ![](assets/do-not-localize/cp-icon.png) **Ny version av kontrollpanelen i oktober** med domänkonfiguration som använder CNAME och nya funktioner för databasövervakning. [Läs mer](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
-## Version 20.4 - oktober 2020 {#release-20-4---october-2020}
+## Version 20.4 – oktober 2020 {#release-20-4---october-2020}
 
 **Nyheter**
 
@@ -191,7 +189,7 @@ ht-degree: 98%
 
 
 
-## Version 20.3 - maj 2020 {#release-20-3---may-2020}
+## Version 20.3 – maj 2020 {#release-20-3---may-2020}
 
 **Vad är nytt?**
 
@@ -295,7 +293,7 @@ ht-degree: 98%
 
 ![](assets/do-not-localize/cp-icon.png) **Den nya versionen av kontrollpanelen från maj** med certifikatförnyelse för CNAME-underdomäner. [Läs mer](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
-## Version 20.2 - april 2020 {#release-20-2---april-2020}
+## Version 20.2 – april 2020 {#release-20-2---april-2020}
 
 **Vad är nytt?**
 

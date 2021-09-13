@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Konfigurera en process för dubbel anmälan
 description: Följ de här stegen för att konfigurera en process för dubbel anmälan med hjälp av landningssidor i Adobe Campaign.
 audience: channels
 content-type: reference
 topic-tags: landing-pages
-feature: Landningssidor
+feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 188b1750-e062-4328-9829-6f2848356b5c
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '1150'
 ht-degree: 90%
 
 ---

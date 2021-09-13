@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Om körningsaktiviteter
 description: Körningsaktiviteter är tillgängliga från skärmens vänstra sida.
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: execution-activities
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: e2841f26-6f87-4bc4-baf7-c3c29dd69eae
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 52%
+source-wordcount: '65'
+ht-degree: 53%
 
 ---
-
 
 # Om körningsaktiviteter{#about-execution-activities}
 
@@ -29,10 +26,9 @@ Följande aktiviteter är specifika för att organisera och köra arbetsflöden.
 I **[!UICONTROL Execution]**-avsnittet beskrivs följande:
 
 * [Start och slut](../../automating/using/start-and-end.md)
-* [Gaffel](../../automating/using/fork.md)
+* [Förgrening](../../automating/using/fork.md)
 * [AND-join](../../automating/using/and-join.md)
 * [Schemaläggare](../../automating/using/scheduler.md)
 * [Vänta](../../automating/using/wait.md)
 * [Extern signal](../../automating/using/external-signal.md)
 * [Test](../../automating/using/test.md)
-

@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Kom igång med Campaign Standard-datamodellen
+title: Kom igång med datamodellen i Campaign Standard
 description: Förbättra Campaign Standardens datamodell med anpassade fält och resurser och utöka REST API:er för att visa utökade fält.
 audience: automating
 content-type: reference
@@ -10,15 +8,14 @@ feature: Data Model
 role: Developer
 level: Intermediate
 exl-id: a8d15053-c20f-4334-a732-3b36cb00794d
-translation-type: tm+mt
-source-git-commit: c5a9c27a2ce459dfd0f04159095bfc8a2cf4c0f6
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 23%
+source-wordcount: '338'
+ht-degree: 25%
 
 ---
 
-# Kom igång med Campaign Standard-datamodellen {#get-started-data-model}
+# Kom igång med datamodellen i Campaign Standard {#get-started-data-model}
 
 <table>
 <tr>
@@ -38,8 +35,8 @@ På menyn **Diagnos** kan du lista de tekniska objekt som genereras av Campaign 
 
 Läs mer:
 
-* [Datamodellkoncept](../../developing/using/data-model-concepts.md)
-* [Bästa praxis för datamodell](../../developing/using/data-model-best-practices.md)
+* [Datamodellskoncept](../../developing/using/data-model-concepts.md)
+* [God praxis för datamodell](../../developing/using/data-model-best-practices.md)
 * [Beskrivning av datamodellen](../../developing/using/datamodel-introduction.md)
 * [Övervaka datamodelländringar](../../developing/using/monitoring-data-model-changes.md)
 

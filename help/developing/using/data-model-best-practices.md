@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Bästa praxis för datamodell i Adobe Campaign Standard
 description: Lär dig mer om de bästa metoderna när du utformar din Adobe Campaign Standard datamodell.
 audience: developing
@@ -10,16 +8,15 @@ context-tags: cusResource,overview;eventCusResource,overview
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 58d4e02f-3c9a-4e5d-a6aa-fdbcec0d8dda
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1560'
+source-wordcount: '1556'
 ht-degree: 1%
 
 ---
 
-
-# Bästa praxis för datamodell{#data-model-best-practices}
+# God praxis för datamodell{#data-model-best-practices}
 
 I det här dokumentet beskrivs viktiga rekommendationer när du utformar din Adobe Campaign-datamodell.
 
@@ -40,7 +37,7 @@ Det här dokumentet innehåller vanliga användningsexempel och metodtips om hur
 
 Adobe Campaign Standard är ett kraftfullt kanalövergripande kampanjhanteringssystem som kan hjälpa er att anpassa era online- och offlinestrategier för att skapa personaliserade kundupplevelser.
 
-### Kundfokuserad metod {#customer-centric-approach}
+### Kundfokuserat tillvägagångssätt {#customer-centric-approach}
 
 De flesta e-postleverantörer kommunicerar med kunderna via en listcentrerad strategi, men Adobe Campaign förlitar sig på en relationsdatabas för att få en bredare bild av kunderna och deras attribut.
 
@@ -82,7 +79,7 @@ Följ de bästa sätten nedan för att konfigurera data i Adobe Campaign för at
 * Längden på ett strängfält ska alltid definieras med kolumnen. Som standard är maxlängden i Adobe Campaign 255 tecken, men Adobe rekommenderar att du håller fältet kortare om du redan vet att storleken inte kommer att överskrida en kortare längd.
 * Det går bra att ha ett fält som är kortare i Adobe Campaign än i källsystemet om du är säker på att storleken i källsystemet var för stor och inte skulle nås. Detta kan betyda en kortare sträng eller ett mindre heltal i Adobe Campaign.
 
-## Konfigurerar datastrukturen {#configuring-data-structure}
+## Konfigurera datastruktur {#configuring-data-structure}
 
 I det här avsnittet beskrivs de effektivaste strategierna när [en resurs datastruktur](../../developing/using/configuring-the-resource-s-data-structure.md) konfigureras.
 

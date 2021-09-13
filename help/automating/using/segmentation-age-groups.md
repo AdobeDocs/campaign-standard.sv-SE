@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Segmentering per åldersgrupp
 description: 'På den här sidan visas en segmentering av databasprofiler utifrån deras åldersgrupp. Målet med arbetsflödet är att skicka ett specifikt e-postmeddelande till varje åldersgrupp.  '
 audience: automating
@@ -10,14 +8,13 @@ context-tags: segmentation,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: dab7ef86-4776-48f4-be9a-37de316e0dd9
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 65%
+source-wordcount: '198'
+ht-degree: 66%
 
 ---
-
 
 # Segmentering per åldersgrupp {#segmentation-age-groups}
 

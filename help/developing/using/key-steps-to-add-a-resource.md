@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Viktiga steg för att lägga till en resurs
 description: Lär dig hur du lägger till en resurs i Adobe Campaign datamodell här.
 audience: developing
@@ -9,23 +7,22 @@ topic-tags: adding-or-extending-a-resource
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: bd9747df-cf2f-4837-8438-d12e695cda47
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 45%
+source-wordcount: '105'
+ht-degree: 47%
 
 ---
-
 
 # Huvudstegen för att lägga till en resurs{#key-steps-to-add-a-resource}
 
 Om du vill skapa en ny resurs eller utöka en befintlig resurs med nya fält krävs flera steg:
 
 1. [Skapa eller utöka resursen](../../developing/using/creating-or-extending-the-resource.md)
-1. [Konfigurering av resursens datastruktur](../../developing/using/configuring-the-resource-s-data-structure.md)
+1. [Konfigurera resursens datastruktur](../../developing/using/configuring-the-resource-s-data-structure.md)
 1. [Konfigurera skärmdefinitionen](../../developing/using/configuring-the-screen-definition.md)
-1. [Konfigurering av filterdefinition](../../developing/using/configuring-filter-definition.md)
+1. [Konfigurera filterdefinition](../../developing/using/configuring-filter-definition.md)
 1. [Uppdatera databasstrukturen](../../developing/using/updating-the-database-structure.md)
 
 >[!IMPORTANT]

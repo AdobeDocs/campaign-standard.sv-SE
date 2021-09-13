@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 'Skapa och använda återanvändbart innehåll '
 description: Börja bygga återanvändbart e-postinnehåll med e-postdesignern.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: E-postdesign
+feature: Email Design
 role: User
 level: Intermediate
 exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1821'
+source-wordcount: '1819'
 ht-degree: 1%
 
 ---

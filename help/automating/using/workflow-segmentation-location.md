@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Segmentering på plats"
 description: Det här användningsexemplet visar hur du utför segmentering på plats.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: workflow,use-case,query,segmentation,delivery
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: feedc2f5-63da-44a5-b8f0-15afdfd47daa
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '268'
 ht-degree: 83%
 
 ---
-
 
 # Segmentering på plats {#segmentation-on-location}
 
@@ -66,4 +63,3 @@ Obs! Om du vill nå alla personer som angav boston avmarkerar du alternativet Sk
 1. Klicka på **[!UICONTROL Save]**.
 
 ![](assets/wf-segmentation-location.png)
-

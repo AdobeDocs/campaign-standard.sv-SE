@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Kom igång med Campaign-integrationer
 description: Använd andra Adobe-lösningar och kombinera deras olika funktioner med Campaign.
 audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
-feature: Utlösare
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 74%
+source-wordcount: '713'
+ht-degree: 75%
 
 ---
 
@@ -104,7 +102,7 @@ Om du vill integrera dataflöden från andra system med Adobe Campaign kan du ta
    <td> Adobe Dreamweaver<br /> </td> 
    <td> Du kan redigera ett e-postinnehåll från Dreamweaver och synkronisera det med Adobe Campaign.<br /> </td> 
    <td> 
-    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">Skapa personliga e-postmeddelanden med </a> Dreamweaver-video,  <a href="https://helpx.adobe.com/se/dreamweaver/using/working-with-dreamweaver-and-campaign.html">använd Campaign-tillägget för Dreamweaver</a> 
+    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=sv">Skapa personliga e-postmeddelanden med </a> Dreamweaver-video,  <a href="https://helpx.adobe.com/se/dreamweaver/using/working-with-dreamweaver-and-campaign.html">använd Campaign-tillägget för Dreamweaver</a> 
   </td> 
   </tr> 
   <tr> 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Om import och export av data
 description: Lär dig olika sätt att importera och exportera data med Adobe Campaign.
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: importing-and-exporting-data
 feature: Workflows
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 208e8629-c3e2-4f36-bae7-46ffc3f56a1b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '324'
 ht-degree: 24%
 
 ---
-
 
 # Om import och export av data{#about-data-import-and-export}
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Om användningsfall för arbetsflöden
 description: Lär dig mer om användningsfall som du kan använda med arbetsflöden för Campaign Standard.
 audience: automating
@@ -8,14 +6,13 @@ content-type: reference
 topic-tags: about-workflows-and-data-management
 feature: Workflows
 role: Data Architect
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 210d1477-9536-4308-bdb7-b9ccfe4c85bc
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '234'
 ht-degree: 71%
 
 ---
-
 
 # Om användningsfall för arbetsflöden {#about-workflow-use-cases}
 
@@ -42,21 +39,21 @@ De hjälper dig att identifiera de olika sammanhang i vilka arbetsflöden kan an
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
-* [Förfrågningsexempel](../../automating/using/query-samples.md)
+* [Exempel på frågor](../../automating/using/query-samples.md)
 * [Sammankoppling av två förfinade målgrupper](../../automating/using/union-on-two-refined-audiences.md)
 * [Skapa en segmentering på plats](../../automating/using/workflow-segmentation-location.md)
 * [Återinriktning på icke-öppnare](../../automating/using/workflow-cross-channel-retargeting.md)
 * [Inkrementell fråga om prenumeranter på en tjänst](../../automating/using/incremental-query-on-subscribers.md)
 * [Segmentering per åldersgrupp](../../automating/using/segmentation-age-groups.md)
-* [Använda andra resurser än måldimensioner](../../automating/using/using-resources-different-from-targeting-dimensions.md)
+* [Använda andra resurser än målinriktningsdimensioner](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
 ## Datahantering {#management}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-* [Förena en målgruppsfil med databasen](../../automating/using/reconcile-file-audience-with-database.md)
+* [Avstämma en filmålgrupp med databasen](../../automating/using/reconcile-file-audience-with-database.md)
 * [Deduplicera data från en importerad fil](../../automating/using/deduplicating-data-imported-file.md)
-* [Förbättra profildata med data som finns i en fil](../../automating/using/enriching-profile-data-file.md)
+* [Berika profildata med data som finns i en fil](../../automating/using/enriching-profile-data-file.md)
 * [Extern signalaktivitet och import av data](../../automating/using/external-signal-data-import.md)
 * [Uppdatera databasen med externa data](../../automating/using/update-database-file.md)
 * [Uppdatera data baserat på en automatisk filhämtning](../../automating/using/update-data-automatic-download.md)

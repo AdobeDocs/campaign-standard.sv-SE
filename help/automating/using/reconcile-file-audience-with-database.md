@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Förena en målgruppsfil med databasen
+title: Avstämma en filmålgrupp med databasen
 description: I det här exemplet visas hur du använder aktiviteten Läs målgrupp för att stämma av en målgrupp som skapats direkt från en filimport.
 audience: automating
 content-type: reference
@@ -10,16 +8,15 @@ context-tags: readAudience,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6a59907d-850e-4d61-b1f7-8fc8b915580e
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 86%
+source-wordcount: '254'
+ht-degree: 87%
 
 ---
 
-
-# Förena en målgruppsfil med databasen {#example--reconcile-a-file-audience-with-the-database}
+# Avstämma en filmålgrupp med databasen {#example--reconcile-a-file-audience-with-the-database}
 
 I detta exemplet visas hur du använder **[!UICONTROL Read audience]**-aktiviteten för att sammankoppla en målgrupp som skapats direkt från en filimport.
 

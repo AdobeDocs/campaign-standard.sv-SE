@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Kom igång med dynamiska rapporter
 description: Med dynamiska rapporter kan du dra och släppa variabler och dimensioner i frihandsmiljön och analysera hur framgångsrika era kampanjer är.
 audience: reporting
@@ -9,14 +7,13 @@ topic-tags: about-reporting
 feature: Reporting
 role: Leader
 level: Beginner
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: fc3b28f3-63f6-4edc-923d-c7eb7925d1b7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '791'
 ht-degree: 5%
 
 ---
-
 
 # Kom igång med dynamiska rapporter {#about-dynamic-reports}
 
@@ -51,7 +48,7 @@ Dynamiska rapporter är indelade i två kategorier:
 
 ![](assets/dynamic_report_overview.png)
 
-## Användningsavtal för dynamisk rapportering {#dynamic-reporting-usage-agreement}
+## Dynamiskt användningsavtal för rapportering {#dynamic-reporting-usage-agreement}
 
 Syftet med användningsavtalet för dynamisk rapportering är att det ska fungera som ett popup-medgivande för databearbetning. Som standard är avtalet bara synligt och kan bara accepteras eller avvisas av användare som tilldelats administrationsrättigheter.
 

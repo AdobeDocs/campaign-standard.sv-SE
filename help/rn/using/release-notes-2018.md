@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Versionsinformation för 2018
 description: Den här sidan innehåller alla versioner av Adobe Campaign Standard under 2018.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Översikt
+feature: Overview
 role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '5401'
+source-wordcount: '5400'
 ht-degree: 4%
 
 ---
@@ -25,7 +23,7 @@ Varje release innehåller nya funktioner och patchar. Klicka på en release för
 
 Visa de senaste [dokumentationsuppdateringarna](../../rn/using/documentation-updates.md) för Adobe Campaign Standard. Om du letar efter en nyare version kan du läsa den här [sidan](../../rn/using/release-notes.md).
 
-## Version 18.9 - september 2018 {#release-18-9---september-2018}
+## Version 18.9 – september 2018 {#release-18-9---september-2018}
 
 **Nyheter**
 
@@ -90,7 +88,7 @@ Visa de senaste [dokumentationsuppdateringarna](../../rn/using/documentation-upd
 * Korrigerade ett problem som förhindrade att de fel som orsakade att arbetsflödet **Databasrensning** inte kunde visas. (CAMP-26876)
 * Ett problem som kunde förhindra att anpassade fält i en push-meddelandedefinition togs bort har åtgärdats. (CAMP-25588)
 
-## Version 18.7 - juli 2018 {#release-18-7---july-2018}
+## Version 18.7 – juli 2018 {#release-18-7---july-2018}
 
 **Nyheter**
 
@@ -191,7 +189,7 @@ Visa de senaste [dokumentationsuppdateringarna](../../rn/using/documentation-upd
 * Korrigerade ett problem med visning av internationella data för kontonivåer i dynamiska rapporter.
 * Nu går det att skapa en tjänst utan ett bekräftelsemeddelande om prenumeration eller avprenumeration.
 
-## Version 18.5 - maj 2018 {#release-18-5---may-2018}
+## Version 18.5 – maj 2018 {#release-18-5---may-2018}
 
 **Nyheter**
 
@@ -263,7 +261,7 @@ Visa de senaste [dokumentationsuppdateringarna](../../rn/using/documentation-upd
 * Ett problem som kunde förhindra att Creative Designer lästes in har åtgärdats. (CAMP-24573)
 * Korrigerade ett problem som tog bort tecken som lagts till efter personaliseringsfält i e-postmeddelandets ämne. (CAMP-24113)
 
-## Version 18.4 - april 2018 {#release-18-4---april-2018}
+## Version 18.4 – april 2018 {#release-18-4---april-2018}
 
 **Felkorrigeringar**
 
@@ -289,7 +287,7 @@ _Anpassade resurser_
 
 * Korrigerade ett fel som gjorde att anpassade resursförberedelser misslyckades.
 
-## Version 18.3 - mars 2018 {#release-18-3---march-2018}
+## Version 18.3 – mars 2018 {#release-18-3---march-2018}
 
 **Nya funktioner**
 
@@ -443,7 +441,7 @@ Vi rekommenderar att du inte använder Internet Explorer version 11 på grund av
 
 Vissa problem kan uppstå när sammanhangsberoende hjälplänkar från gränssnittet för Campaign används. De kommer att korrigeras 18.3.
 
-## Version 18.1 - januari 2018 {#release-18-1---january-2018}
+## Version 18.1 – januari 2018 {#release-18-1---january-2018}
 
 **Nya funktioner**
 

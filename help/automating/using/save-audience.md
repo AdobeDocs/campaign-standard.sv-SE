@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Spara målgrupp
 description: Med aktiviteten Spara målgrupp kan du uppdatera en befintlig målgrupp eller skapa en ny målgrupp utifrån population som beräknas uppströms i ett arbetsflöde.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: saveAudience,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: c3f029d7-779e-47e7-a925-1e8f672da4dd
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 99%
+source-wordcount: '803'
+ht-degree: 100%
 
 ---
-
 
 # Spara målgrupp{#save-audience}
 
@@ -90,4 +87,3 @@ Arbetsflödet som definieras i detta exemplet visar en vanlig målgruppsuppdater
 **[!UICONTROL Save audience]**-aktiviteten är konfigurerad på följande sätt:
 
 ![](assets/save_audience_example_2.png)
-

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Starta och sluta
 description: Med start- och avslutnings-aktiviteterna kan du tydligt markera vart arbetsflödet börjar och slutar.
 audience: automating
@@ -9,16 +7,15 @@ topic-tags: execution-activities
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1dfc547f-747d-403e-a5b7-a68f56191c71
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 98%
+source-wordcount: '274'
+ht-degree: 100%
 
 ---
 
-
-# Starta och sluta{#start-and-end}
+# Start och slut{#start-and-end}
 
 ## Beskrivning {#description}
 
@@ -51,4 +48,3 @@ Om du använder **[!UICONTROL External signal]**-fliken för en **[!UICONTROL En
 I följande exempel visas hur ett komplext arbetsflöde körs med en **[!UICONTROL Start]**-aktivitet och flera **[!UICONTROL End]**-aktiviteter. **[!UICONTROL Stop all tasks in progress]**-rutan har markerats för den första **[!UICONTROL End]**-aktiviteten. När motsvarande uppgift är klar så stoppas hela arbetsflödet: det får samma effekt som om ![](assets/stop_darkgrey-24px.png)-knappen hade markerats (se avsnittet [Åtgärdsfält](../../automating/using/workflow-interface.md#action-bar) ).
 
 ![](assets/wkf_start_end_example.png)
-

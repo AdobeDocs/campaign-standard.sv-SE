@@ -1,19 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Anropa en resurs med en sammansatt identifieringsnyckel
 description: Lär dig hur du anropar en resurs med en sammansatt identifieringsnyckel
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: c7aca0c3-525d-4195-8c04-2fad32ca43b7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '588'
 ht-degree: 7%
 
 ---
-
 
 # Anropa en resurs med en sammansatt identifieringsnyckel{#calling-a-resource-using-a-composite-identification-key}
 

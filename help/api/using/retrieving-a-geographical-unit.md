@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Hämta en profils geografiska enhet
 description: Lär dig hur du hämtar en profils geografiska enhet med API:er.
 audience: developing
@@ -9,14 +7,13 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 313dbb7f-9cf7-43d4-ab6d-f496b04d92b8
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 13%
+source-wordcount: '80'
+ht-degree: 12%
 
 ---
-
 
 # Hämta en profils geografiska enhet {#retrieving-geographical-unit}
 

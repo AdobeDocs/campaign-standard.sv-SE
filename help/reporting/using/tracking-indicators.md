@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Spårningsindikatorer
 description: Med den färdiga rapporten om spårningsindikatorer kan du lära dig mer om hur kunderna beter sig när de får e-postmeddelanden.
 audience: reporting
@@ -10,14 +8,13 @@ context-tags: deliveryTrackingReports,main;campaignTrackingReport,main;programTr
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5071c124-07b7-49c3-8f36-5928ded3c544
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 3%
+source-wordcount: '149'
+ht-degree: 2%
 
 ---
-
 
 # Spårningsindikatorer{#tracking-indicators}
 
@@ -37,4 +34,3 @@ Diagrammet **[!UICONTROL Tracking indicators]** och **De fem vanligaste leverans
 * **Avbeställ**: Antal klick på prenumerationslänken.
 * **Skräppost:** Antalet mottagare som har deklarerat ett e-postmeddelande som skräppost.
 * **Spegelsida**: Antalet klick på länken för spegelsidan.
-

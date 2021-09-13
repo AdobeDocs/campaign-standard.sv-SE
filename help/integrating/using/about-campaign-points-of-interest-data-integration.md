@@ -1,23 +1,21 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Om Campaign-Points of Interest-dataintegration
+title: Om integrering av Campaign och Points of Interest-data
 description: Genom att samla in data om intressepunkter från era mobilappsprenumeranter kan du skicka platsbaserade marknadsföringsmeddelanden till era prenumeranter via integreringen med Adobe Campaign.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
-feature: Målgrupper
+feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: 358194f9-34ce-4dd5-b9b2-1a7d541879ab
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '196'
 ht-degree: 6%
 
 ---
 
-# Om Campaign-Points of Interest-dataintegration{#about-campaign-points-of-interest-data-integration}
+# Om integrering av Campaign och Points of Interest-data{#about-campaign-points-of-interest-data-integration}
 
 Förutom att spåra kundernas närvaro online kan du också utnyttja deras fysiska platser. Genom integrationen med Adobe Analytics for Mobile kan ni använda Adobe Campaign för att skicka platsbaserade marknadsföringsmeddelanden till era mobilappsprenumeranter.
 

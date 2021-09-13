@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Skapa en sekretessförfrågan
 description: Lär dig hur du skapar en sekretessförfrågan med API:er
 audience: developing
@@ -9,20 +7,19 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 06ad2e13-922b-4f35-8726-007427125c63
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 7%
+source-wordcount: '210'
+ht-degree: 22%
 
 ---
-
 
 # Skapa en sekretessförfrågan {#creating-a-privacy-request}
 
 >[!CAUTION]
 >
->[Integriteten i bastjänsten](https://adobe.io/apis/cloudplatform/gdpr.html)-integreringen är den metod du bör använda för alla begäranden om åtkomst och borttagning. Från och med 19.4 är användningen av Campaign-API:t och gränssnittet för begäran om åtkomst och borttagning föråldrad. Mer information om borttagna och borttagna funktioner för Campaign Standard finns på [den här sidan](../../rn/using/deprecated-features.md).
+>[Integriteten i bastjänsten](https://adobe.io/apis/cloudplatform/gdpr.html)-integreringen är den metod du bör använda för alla begäranden om åtkomst och borttagning. Från och med version 19.4 är användningen av API:et och gränssnittet i Campaign för förfrågningar om åtkomst och radering inaktuell. Mer information om inaktuella och borttagna funktioner för Campaign Standard finns på [den här sidan](../../rn/using/deprecated-features.md).
 
 Sekretessbegäranden skapas med en **POST**-begäran.
 

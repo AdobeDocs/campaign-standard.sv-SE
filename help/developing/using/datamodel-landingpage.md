@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: DataModel
 description: Läs mer om datamodellen
 audience: designing
@@ -10,14 +8,13 @@ context-tags: delivery,smsContent,back
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: bd12a214-5998-4fb9-9f54-0c886067b58b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1731'
+source-wordcount: '1727'
 ht-degree: 1%
 
 ---
-
 
 # landingPage (nms:landingPage)
 

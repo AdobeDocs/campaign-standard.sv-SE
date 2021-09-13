@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Födelsedagsleverans
 description: Det här exemplet är ett födelsedagsarbetsflöde. Varje dag skickas ett e-postmeddelande till profiler vars födelsedag infaller på den dagen.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: delivery,workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 535ddbce-d8ba-4578-9e37-10604291c95d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 68%
+source-wordcount: '172'
+ht-degree: 69%
 
 ---
-
 
 # Födelsedagsleverans {#birthday-delivery}
 

@@ -1,20 +1,18 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Marknadsföringsaktiviteter
 description: '"Lär dig hur du skapar och hanterar dina marknadsföringsaktiviteter: kampanjer, E-post, SMS & push-meddelanden, landningssidor, arbetsflöden. Du kan enkelt skapa en ny aktivitet, redigera en befintlig och se status och giltighet för den."'
 audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: activity,overview
-feature: Kampanjer
+feature: Campaigns
 role: User
 level: Beginner
 exl-id: c75471aa-b947-4488-a569-5412d3825c64
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 84%
+source-wordcount: '487'
+ht-degree: 83%
 
 ---
 

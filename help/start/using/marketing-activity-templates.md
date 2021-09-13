@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Om mallar
 description: '"Med Adobe Campaign-mallar kan du förkonfigurera parametrar beroende på dina behov: mallar kan innehålla en fullständig eller delvis konfiguration av marknadsföringsaktiviteten för att förenkla användningen av Adobe Campaign för icke-tekniska slutanvändare."'
 audience: start
 content-type: reference
 topic-tags: managing-templates
-feature: Kampanjer
+feature: Campaigns
 role: User
 level: Beginner
 exl-id: a0f02f69-d72d-48ca-8b38-aaab8d1acfad
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '402'
 ht-degree: 100%
 
 ---

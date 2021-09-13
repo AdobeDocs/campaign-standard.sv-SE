@@ -1,13 +1,10 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Anpassa listor
 description: '"Lär dig hur du anpassar visningen och agerar på listskärmar i Adobe Campaign Standard:sortera, filtrera, ta bort eller duplicera element. Listar skärmar visar element för en eller flera angivna resurser."'
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: tm+mt
-source-git-commit: 1e7359db2de1a9c420af33ac85c0597c098ae3f8
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 5%

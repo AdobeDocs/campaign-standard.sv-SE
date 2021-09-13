@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Målmappningar i Campaign
 description: Målmappningar är tekniska objekt som används av Campaign för att leverera meddelanden. De innehåller alla tekniska inställningar som krävs för att skicka leveranser.
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Instansinställningar
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: d5e5cfa8-03f0-47be-9645-b9ee6ac4643c
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 16%
 
 ---

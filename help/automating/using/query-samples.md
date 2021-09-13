@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Förfrågningsexempel
+title: Exempel på frågor
 description: I det här avsnittet visas hur du använder en Query-aktivitet.
 audience: automating
 content-type: reference
@@ -10,16 +8,15 @@ context-tags: query,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0a71e3a7-60e6-49ec-af2e-099ad0d69a15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 89%
+source-wordcount: '334'
+ht-degree: 90%
 
 ---
 
-
-# Förfrågningsexempel {#query-samples}
+# Exempel på frågor {#query-samples}
 
 I det här avsnittet visas användningsexempel när en **[!UICONTROL Query]**-aktivitet används. Mer information om hur du använder en **[!UICONTROL Query]**-aktivitet finns i [det här avsnittet](../../automating/using/query.md).
 

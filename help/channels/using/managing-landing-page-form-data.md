@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Hantera formulärdata på landningssidan
 description: Lär dig mer om hur du hanterar formulärdata på landningssidan.
 audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
-feature: Landningssidor
+feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 7083447c-4cac-41cb-8453-369819e0c7c1
-source-git-commit: c56d0e0ab4496ae769dc504107f677ef6ea74068
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '835'
 ht-degree: 15%
 
 ---

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Anropa ett arbetsflöde med externa parametrar
 description: I det här avsnittet beskrivs hur du anropar ett arbetsflöde med externa parametrar.
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7a21f4f6-316f-4f3d-9d53-37d406a46aae
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '977'
 ht-degree: 1%
 
 ---
-
 
 # Användningsfall {#use-case}
 
@@ -32,7 +29,7 @@ För att kunna utföra det här användningsfallet måste du utföra åtgärdern
 
 ![](assets/extsignal_uc_process.png)
 
-## Förutsättningar {#prerequisites}
+## Förhandskrav {#prerequisites}
 
 Innan du konfigurerar arbetsflödena måste du skapa arbetsflöden 1 och 2 med en **[!UICONTROL External signal]**-aktivitet i var och en av dem. På så sätt kan du rikta in dig på dessa signalaktiviteter när du anropar arbetsflödena.
 
@@ -132,7 +129,7 @@ Konfigurera arbetsflödet genom att följa stegen nedan:
 
 Arbetsflöde 1 är konfigurerat och du kan nu skapa arbetsflöde 2. Mer information om detta finns i [det här avsnittet](../../automating/using/use-case-calling-workflow.md#step-3--configuring-workflow-2).
 
-## Steg 3: Konfigurerar arbetsflöde 2 {#step-3--configuring-workflow-2}
+## Steg 3: Konfigurera arbetsflöde 2 {#step-3--configuring-workflow-2}
 
 Arbetsflöde 2 byggs enligt nedan:
 
@@ -189,6 +186,6 @@ Konfigurera arbetsflödet genom att följa stegen nedan:
 
    ![](assets/extsignal_uc14.png)
 
-## Köra arbetsflödena {#executing-the-workflows}
+## Köra arbetsflöden {#executing-the-workflows}
 
 När arbetsflödena har skapats kan du köra dem. Kontrollera att de två arbetsflödena har startats innan du utför API-anropet.

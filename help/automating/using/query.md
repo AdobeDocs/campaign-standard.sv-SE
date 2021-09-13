@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Förfrågan
 description: Med förfrågnings-aktiviteten kan du filtrera och extrahera ett populations-element från Adobe Campaign-databasen.
 audience: automating
@@ -10,16 +8,15 @@ context-tags: query,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0c26a0f9-9d71-4692-ae86-d47e2df53bb7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1757'
 ht-degree: 93%
 
 ---
 
-
-# Förfrågan{#query}
+# Fråga{#query}
 
 ## Beskrivning {#description}
 
@@ -31,7 +28,7 @@ Aktiviteten använder förfrågningsredigerings-verktyget. Mer detaljer gälland
 
 **Relaterade ämnen:**
 
-* [Förfrågningsexempel](../../automating/using/query-samples.md)
+* [Exempel på frågor](../../automating/using/query-samples.md)
 * [Användningsfall: Omdirigera arbetsflöde som skickar en ny leverans till icke-öppnare](../../automating/using/workflow-cross-channel-retargeting.md)
 
 ## Kontext för användning {#context-of-use}

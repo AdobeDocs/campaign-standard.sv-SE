@@ -1,23 +1,21 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Lägga till dynamiskt målinnehåll
+title: Lägga till dynamiskt innehåll från Target
 description: Lär dig hur du lägger till dynamiskt Adobe Target-innehåll i en av dina Adobe Campaign-leveranser.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
-feature: Utlösare
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 7dfbd89f-877e-4598-bfe3-d743bb31ae9e
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '444'
 ht-degree: 4%
 
 ---
 
-# Lägga till dynamiskt målinnehåll{#adding-target-dynamic-content}
+# Lägga till dynamiskt innehåll från Target{#adding-target-dynamic-content}
 
 Tack vare integreringen med Adobe Target kan dynamiska bilder läggas in i en leverans för att personalisera ert innehåll beroende på upplevelser.
 

@@ -1,13 +1,10 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Anpassa listor
 description: '"Lär dig hur du anpassar visningen och agerar på listskärmar i Adobe Campaign Standard:sortera, filtrera, ta bort eller duplicera element. Listar skärmar visar element för en eller flera angivna resurser."'
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: tm+mt
-source-git-commit: 434edb8e1c3396ad29edd9ee60866c93e82a2c1b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '788'
 ht-degree: 9%
@@ -51,7 +48,7 @@ Adobe Campaign-profiler representerar alla kontakter som lagras i databasen. Var
 * [Om profiler](../../audiences/using/about-profiles.md)
 * [Åtkomst till antalet aktiva profiler i organisationen](../../audiences/using/active-profiles.md)
 
-## Förbättrar databasen {#populating-database}
+## Förbättra databasen {#populating-database}
 
 <img width="60px" alt="villkor" src="assets/icon_populate.svg"/>
 
@@ -102,7 +99,7 @@ Med Campaign Standard-API:er kan du utföra åtgärder för att uppdatera databa
 
 >[!CAUTION]
 >
->Innan du skapar eller uppdaterar profiler via API-anrop bör du kontrollera de skalbegränsningar som motsvarar licensavtalet. Se denna [sida](https://helpx.adobe.com/se/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers) för mer information om detta.
+>Innan du skapar eller uppdaterar profiler via API-anrop bör du kontrollera de skalbegränsningar som motsvarar licensavtalet. Mer information finns på [den här sidan](https://helpx.adobe.com/se/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
 
 **Läs mer**
 

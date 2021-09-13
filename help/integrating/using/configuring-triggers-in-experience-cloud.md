@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Konfigurera utlösare i Experience Cloud
 description: 'Lär dig hur du konfigurerar Adobe Experience Cloud Triggers-integreringen så att du kan börja skicka personaliserade leveranser till dina kunder baserat på deras tidigare beteenden. '
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-feature: Utlösare
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '858'
 ht-degree: 7%
 
 ---
@@ -29,7 +27,7 @@ Adobe-teamet behöver följande information för att aktivera utlösare:
 * IMS-organisations-ID
 * Analysinloggningsföretag (kan vara samma som Marketing Cloud företagsnamn)
 
-## Konfigurerar lösningar och tjänster {#configuring-solutions-and-services}
+## Konfigurera lösningar och tjänster {#configuring-solutions-and-services}
 
 Om du vill använda den här funktionen måste du ha tillgång till följande lösningar/bastjänster:
 

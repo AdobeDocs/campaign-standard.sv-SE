@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Protokoll och inställningar för SMS-koppling
 description: Läs mer om SMS-anslutningen och hur du konfigurerar den.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Instansinställningar
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '8666'
+source-wordcount: '8664'
 ht-degree: 0%
 
 ---

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Bäst praxis för arbetsflöden
 description: Lär dig hur du använder bäst praxis för arbetsflöden.
 audience: automating
@@ -10,16 +8,15 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Beginner
-translation-type: tm+mt
-source-git-commit: b82335a0c0bf1abc7b9645beee83ac659c4d6b83
+exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1179'
 ht-degree: 84%
 
 ---
 
-
-# Bäst praxis för arbetsflöden{#workflow-best-practices}
+# God praxis för arbetsflöden{#workflow-best-practices}
 
 Med Adobe Campaign kan du konfigurera alla typer av arbetsflöden för att utföra ett stort antal uppgifter. När du utformar och kör arbetsflöden måste du dock vara mycket försiktig eftersom en felaktig implementering kan leda till felaktiga prestanda, avvikelser och plattformsproblem. Nedan finns en lista med bästa praxis och felsökningstips.
 
@@ -113,7 +110,7 @@ Du kan förhandsgranska nästa tio körningar av dina arbetsflöden genom att kl
 
 Mer information finns i [Schemaläggaraktivitet](../../automating/using/scheduler.md).
 
-När du utformar ett schemalagt arbetsflöde som innehåller flera aktiviteter måste du se till att arbetsflödet inte schemaläggs om förrän det är klart. För att göra detta måste du konfigurera arbetsflödet för att förhindra att det körs om en eller flera uppgifter från en tidigare körning fortfarande väntar. Se denna [sida](../../automating/using/scheduled-workflows-execution.md) för mer information om detta.
+När du utformar ett schemalagt arbetsflöde som innehåller flera aktiviteter måste du se till att arbetsflödet inte schemaläggs om förrän det är klart. För att göra detta måste du konfigurera arbetsflödet för att förhindra att det körs om en eller flera uppgifter från en tidigare körning fortfarande väntar. Mer information finns på [den här sidan](../../automating/using/scheduled-workflows-execution.md).
 
 ## Anropa arbetsflöde med parametrar{#workflow-with-parameters}
 
@@ -128,7 +125,7 @@ Mer information finns i [Anropa ett arbetsflöde med externa parametrar](../../a
 Om du vill exportera paket får de exporterade resurserna inte innehålla standard-ID:n. Därför måste ID:n för exporterbara resurser ändras genom att använda ett annat namn än de mallar som finns som standard i Adobe Campaign Standard.
 Mer information finns i [Hantera paket](../../automating/using/managing-packages.md).
 
-## Exporterar listor{#exporting-lists}
+## Exportera listor{#exporting-lists}
 
 Med alternativet för exportlista kan du exportera högst 100 000 rader som standard och som definieras av alternativet **Nms_ExportListLimit**. Det här alternativet kan hanteras av den funktionella administratören under **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
 Mer information finns i [Exportera listor](../../automating/using/exporting-lists.md).

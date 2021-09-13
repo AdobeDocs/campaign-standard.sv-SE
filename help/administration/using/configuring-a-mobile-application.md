@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Konfigurera en mobilapplikation
 description: Upptäck hur du konfigurerar Adobe Campaign att skicka push-meddelanden eller meddelanden i appen med SDK V4 eller Experience Platform SDK.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Instansinställningar
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1279'
 ht-degree: 7%
 
 ---

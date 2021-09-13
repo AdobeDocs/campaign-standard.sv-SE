@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Förgrening
 description: Med förgreningsaktiviteten kan du skapa utgående övergångar och starta flera aktiviteter samtidigt.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: fork,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1a5e1ecd-b3f1-4dbe-a816-12d27a3bc0f7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 98%
+source-wordcount: '210'
+ht-degree: 100%
 
 ---
-
 
 # Förgrening{#fork}
 
@@ -44,4 +41,3 @@ Med den här **[!UICONTROL Fork]**-aktiviteten kan du utföra flera olika aktivi
 I följande exempel visas en förgrening av två förfrågningsaktiviteter som avser profiler från Adobe Campaign-databasen. I det här fallet kvinnor som bor i Paris. Du kan därför använda flera aktiviteter samtidigt i förgreningsaktiviteten. En som sparar målgruppen så att den kommer ihåg den beräknade populationen och en annan som delar in populationen så att den skickar två olika e-postmeddelanden med riktat innehåll för varje segment. Det första e-postmeddelandet skickas till kvinnor boende i Paris som är mellan 18-40 år och kvinnor som är boende i Paris men som är över 40 år gamla.
 
 ![](assets/wkf_fork_example.png)
-

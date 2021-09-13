@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Övervaka leveransen i Adobe Campaign Standard
 description: Använd de verktyg som Adobe Campaign Standard erbjuder för att övervaka plattformens leveransbarhet.
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Levererbarhet
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 683341fb-fef5-4aa1-8606-9526d9ae6290
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '306'
 ht-degree: 10%
 
 ---

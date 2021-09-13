@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Skapa en anpassad profildimension
 description: Lär dig hur du skapar en anpassad profildimension baserad på anpassade profildata.
 audience: reporting
@@ -9,14 +7,13 @@ topic-tags: customizing-reports
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 98516af1-d4dd-4c1f-b360-f19208c22f82
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '813'
 ht-degree: 5%
 
 ---
-
 
 # Skapa en anpassad profildimension{#creating-a-custom-profile-dimension}
 
@@ -59,7 +56,7 @@ För att göra detta:
 
    ![](assets/custom_profile_13.png)
 
-1. Ange **[!UICONTROL Label]** och **[!UICONTROL Value]** och klicka sedan på **[!UICONTROL Add]**. I det här exemplet måste vi skapa värdet guld, silver och brons. Klicka på **[!UICONTROL Confirm]** när du är klar.
+1. Ange **[!UICONTROL Label]** och **[!UICONTROL Value]** och klicka sedan på **[!UICONTROL Add]**. I det här exemplet måste vi skapa värdet guld, silver och brons. Klicka på  **[!UICONTROL Confirm]** när du är klar.
 
    ![](assets/custom_profile_14.png)
 

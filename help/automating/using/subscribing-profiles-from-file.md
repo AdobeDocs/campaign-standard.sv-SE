@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Prenumerera profiler från en fil till en viss tjänst
 description: I det här exemplet visas hur du importerar en fil som innehåller profiler och prenumererar dem på en befintlig tjänst.
 audience: automating
@@ -10,16 +8,15 @@ context-tags: setOfService,workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 06ae4a5c-f112-4aac-b776-437ac35a8f02
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 52%
+source-wordcount: '238'
+ht-degree: 53%
 
 ---
 
-
-# Prenumerera profiler på en viss tjänst efter att ha importerat en fil {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
+# Prenumerera profiler på en viss tjänst efter import av en fil {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
 Det här exemplet visar hur du importerar en fil som innehåller profiler och prenumererar dem på en befintlig tjänst. När filen har importerats måste en avstämning göras så att importerade data kan identifieras som profiler. En borttagningsåtgärd utförs på dessa data för att säkerställa att filen inte innehåller några dubbletter.
 

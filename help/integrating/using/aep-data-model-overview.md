@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Översikt över Experience Data Model
 description: Experience Data Model (XDM) är en standarduppsättning med datamodeller i vilka data kan importeras för användning med Adobe Experience Platform lösningar och produkter.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Microsoft CRM-integrering
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: cc1aa669-30cd-4ea4-9fab-4d1b6c373744
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---

@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Kom igång med processer och datahantering
 description: Automatisera processerna med arbetsflöden, hantera data och målgrupper, skicka meddelanden med mera.
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-feature: Arbetsflöden
+feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: 7808aea42f417994a61fdde84a44299c0954b346
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '517'
 ht-degree: 13%
 
 ---
@@ -52,7 +50,7 @@ Läs mer:
 
 * [Skapa ett arbetsflöde](../../automating/using/building-a-workflow.md)
 * [Köra ett arbetsflöde](../../automating/using/about-workflow-execution.md)
-* [Bästa praxis för arbetsflöden](../../automating/using/best-practices-workflows.md)
+* [God praxis för arbetsflöden](../../automating/using/best-practices-workflows.md)
 
 ## Filtrera data {#filter-data}
 
@@ -64,7 +62,7 @@ Frågeredigeraren innehåller **fördefinierade filter och regler** för snabb o
 
 Läs mer:
 
-* [Redigeringsförfrågningar](../../automating/using/editing-queries.md)
+* [Redigera frågor](../../automating/using/editing-queries.md)
 * [Avancerad redigering av uttryck](../../automating/using/advanced-expression-editing.md)
 * [Lista över funktioner](../../automating/using/list-of-functions.md)
 
@@ -87,10 +85,10 @@ Med [Exportering av listor](../../automating/using/exporting-lists.md) kan du sl
 Läs mer:
 
 * [Importera och exportera data](../../automating/using/about-data-import-and-export.md)
-* [Användningsfall: Exportera/importera anpassade resurser](../../automating/using/exporting-importing-custom-resources.md)
+* [Användningsfall: exportera eller importera anpassade resurser](../../automating/using/exporting-importing-custom-resources.md)
 
 ## Ytterligare resurser
 
 * [Självstudievideor om processer och datahantering](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/managing-processes-and-data/creating-a-workflow.html?lang=sv)
 * [Tekniska arbetsflöden](../../administration/using/technical-workflows.md)
-* [Kom igång med Campaign Standard-datamodellen](../../developing/using/get-started-data-model.md)
+* [Kom igång med datamodellen i Campaign Standard](../../developing/using/get-started-data-model.md)

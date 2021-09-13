@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Extrahera fil
 description: Extrahera fil-aktiviteten gör så att du kan exportera data från Adobe Campaign i form av en extern fil.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: fileExport,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ccf73563-f0f8-4397-ba96-7c5727562acd
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 89%
+source-wordcount: '402'
+ht-degree: 86%
 
 ---
-
 
 # Extrahera fil{#extract-file}
 
@@ -46,7 +43,7 @@ Det sätt som data extraheras på definieras när aktiviteten konfigureras.
    ![](assets/wkf_data_export1.png)
 
 1. Markera aktiviteten och öppna den sedan med ![](assets/edit_darkgrey-24px.png)-knappen bland de snabbåtgärder som visas.
-1. Ange etiketten för **Utmatningsfilen**.    Etiketten för filen fylls automatiskt i med det datum och den tidpunkt då den skapades så att den blir unik.    Exempelvis: templates_20150815_081532.txt för en fil som genererades den 15 augusti 2015 klockan 08:15:32.
+1. Ange etiketten för **Utmatningsfilen**.    Etiketten för filen fylls automatiskt i med det datum och den tidpunkt då den skapades så att den blir unik.    Till exempel: templates_20150815_081532.txt för en fil som genererades den 15 augusti 2015 kl. 08:15:32.
 
    >[!NOTE]
    >

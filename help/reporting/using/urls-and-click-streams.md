@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: URL:er och klickbara strömmar
+title: URL:er och klickströmmar
 description: Med webbadresserna och klickbara strömmar ur kartongen kan du ta reda på hur bra webbadresserna i leveransen är.
 audience: reporting
 content-type: reference
@@ -10,16 +8,15 @@ context-tags: deliveryTopUrlReport,main;campaignTopUrlReport,main;programTopUrlR
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: f9bf39a3-7dca-429e-97bc-454b04f0d2a2
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 7%
+source-wordcount: '116'
+ht-degree: 6%
 
 ---
 
-
-# URL:er och klickbara strömmar{#urls-and-click-streams}
+# URL:er och klickströmmar{#urls-and-click-streams}
 
 URL:erna för **och klicka på strömmar** visar de URL:er som klickades mest under en leverans, eller flera leveranser om de är länkade till en kampanj eller ett program.
 
@@ -31,4 +28,3 @@ Tabellen **De mest besökta länkarna** innehåller tillgängliga data för mott
 
 * **Klicka**: Antalet gånger som innehållet klickades på i en leverans.
 * **Unika klick**: Antalet mottagare som klickat på innehåll i en leverans.
-
