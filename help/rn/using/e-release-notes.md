@@ -10,7 +10,7 @@ exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1072'
-ht-degree: 42%
+ht-degree: 100%
 
 ---
 
@@ -90,7 +90,7 @@ Den här sidan beskriver nya funktioner, förbättringar och korrigeringar som i
 
 **Säkerhetsförbättringar**
 
-* Säkerheten har förbättrats för skydd mot SSRF-attacker. (CAMP-47836)
+* Säkerheten har förbättrats för att skydda mot SSRF-attacker. (CAMP-47836)
 * Listan över användare är nu begränsad till administratörer. (CAMP-47260)
 * Miljövariabler kan inte längre användas som en del av parameterexpansion i en URL. (CAMP-47268)
 
@@ -102,40 +102,40 @@ Den här sidan beskriver nya funktioner, förbättringar och korrigeringar som i
 
 **Andra ändringar**
 
-* Adobe Experience Platform Data Connector och målgruppstjänst är nu inaktuellt med Campaign Standard. Om du använder dessa funktioner måste du gå över till Adobe Sources and Destinations och anpassa implementeringen. [Läs mer](../../integrating/using/get-started-sources-destinations.md)
-* Föråldrade och borttagna funktioner listas i [den här sidan](deprecated-features.md).
+* Adobe Experience Platform Data Connector och tjänsten Audience Destinations är nu inaktuella i Campaign Standard. Om du använder dessa funktioner måste du gå över till Adobe Sources and Destinations och anpassa implementeringen. [Läs mer](../../integrating/using/get-started-sources-destinations.md)
+* Inaktuella och borttagna funktioner beskrivs på [den här sidan](deprecated-features.md).
 * En ny mängdfunktion ”StringAgg” har introducerats för att sammanfoga värdena i en strängtypskolumn. (CAMP-47077)
 * Det tekniska arbetsflödet för **Uppdatera leveransindikatorer** (updateDeliveryIndicators) har förbättrats för bättre prestanda.
-* Meddelandemallar i appen är nu tillgängliga för alla språk som stöds i Campaign Standarden.
+* Meddelandemallar i appen är nu tillgängliga för alla språk som stöds i Campaign Standard.
 * Förberedelsetiden för leverans har optimerats för transaktionsmeddelanden genom att minska antalet anrop till spårningsservern under leveransanalysen.
-* Ett nytt varningsmeddelande informerar användarna om en hög avhoppsfrekvens.
-* Förbättrade felmeddelanden och varningar för loggning som underlättar felsökning när spårningsloggarna inte kunde hämtas korrekt. (CAMP-48939, CAMP-47360)
+* Ett nytt varningsmeddelande informerar användare om en hög studsfrekvens.
+* Förbättrade felmeddelanden och varningar för loggar som underlättar felsökning när det inte går att hämta spårningsloggarna på korrekt sätt. (CAMP-48939, CAMP-47360)
 * Du kan nu anpassa URL:er helt, inklusive domännamnet. [Läs mer](../../designing/using/personalization.md#personalizing-urls)
 
 **Felkorrigeringar**
 
 * Korrigerade ett timeout-fel vid import av e-postinnehåll från en URL. (CAMP-49054)
-* Korrigerade ett fel (-69) som orsakas av slutet av sessionen, vid åtkomst till en URL med bokmärken eller uppdatering av en sida från webbläsaren. (CAMP-49003, CAMP-48930, CAMP-48894)
+* Korrigerade ett fel (-69) som orsakades av ett sessionsslut vid åtkomst av en URL i ett bokmärke eller uppdatering av en sida i webbläsaren. (CAMP-49003, CAMP-48930, CAMP-48894)
 * Ett problem har korrigerats vid synkronisering av regler från den äldre levererbarhetsservern till den nya levererbarhetsservern. (CAMP-48923)
 * Korrigerade ett problem när en e-postmall med HTML-taggar i e-postdesignern lästes in. (CAMP-48243)
 * Korrigerade ett fel där Adobe Experience Manager-innehåll inte lästes in när transaktionsmeddelanden skapades med e-postdesignern. (CAMP-49075)
 * Korrigerade ett problem i gränssnittet där för mycket utfyllnad lades till mellan det övre fältet och innehållet.
-* Ett problem med transaktionsmeddelanden som kan leda till ett publiceringsfel när Campaign-innehållsblock används i Adobe Experience Manager-innehåll har korrigerats. (CAMP-49233)
+* Korrigerade ett problem med transaktionsmeddelanden som kan leda till ett publiceringsfel när Campaign-innehållsblock används i Adobe Experience Manager-innehåll. (CAMP-49233)
 * Korrigerade ett problem som kunde leda till ett felmeddelande när autentiseringen misslyckades. Användaren omdirigeras nu till inloggningssidan.
 * Korrigerade ett problem med visning av token som kunde förhindra användare från att redigera eller dela en rapport.
-* Korrigerade ett problem under publiceringen av en anpassad resurs med ett filteruttryck med 1:n tabellrelationer. (CAMP-48740)
-* Ett problem med datumformatering som förhindrade att kontaktdatum för leverans hämtades i arbetsflödesövergångar har åtgärdats. (CAMP-48871)
-* Korrigerade ett problem som förhindrade tillägg av skickade loggar när en anpassad profildimension skapades.
-* Korrigerade ett problem som kunde få leveranser med flera språkvarianter att misslyckas. Om en användare tar bort standardspråkvarianten måste från och med nu en annan språkvariant anges som standardvariant innan språkvarianterna skapas. (CAMP-48235)
-* Korrigerade ett problem som gjorde att e-postmeddelanden visade extra tomrum i Outlook om användaren hade valt alternativet **Visa endast på mobila enheter** när meddelandet utformades. (CAMP-48902)
-* Korrigerade ett problem som gjorde att det senaste körningsdatumet för aktivitetsfältet för inkrementell fråga saknades på fliken **Bearbetade data** efter att arbetsflödet för inkrementell fråga körts. (CAMP-48879)
-* Ett problem som gjorde att du inte kunde definiera en dynamisk segmentkod korrekt i arbetsflödesaktiviteten **Segmentering** har åtgärdats. (CAMP-48727)
+* Korrigerade ett problem under publiceringen av en anpassad resurs med ett filteruttryck med 1-n-tabellrelationer. (CAMP-48740)
+* Korrigerade ett problem med datumformatering som förhindrade att kontaktdatum för leverans hämtades i arbetsflödesövergångar. (CAMP-48871)
+* Korrigerade ett problem som förhindrade tillägget att skicka loggar när en anpassad profildimension skapades.
+* Korrigerade ett problem som kunde få leveranser med flera språkvarianter att misslyckas. Från och med nu måste en annan språkvariant konfigureras som standardvariant innan språkkopior skapas, om en användare tar bort standardspråkvarianten. (CAMP-48235)
+* Korrigerade ett problem som gjorde att e-postmeddelanden visade extra tomt utrymme i Outlook om användaren hade valt alternativet **Visa endast på mobila enheter** när meddelandet utformades. (CAMP-48902)
+* Korrigerade ett problem som gjorde att det senaste körningsdatumet i den inkrementella frågans aktivitetsfält saknades på fliken **Bearbetade data** efter att arbetsflödet för inkrementell fråga har körts. (CAMP-48879)
+* Korrigerade ett problem som gjorde att du inte kunde definiera en dynamisk segmentkod i arbetsflödesaktiviteten **Segmentering**. (CAMP-48727)
 * Korrigerade ett fel som slumpmässigt inträffade när ett arbetsflöde skulle sparas efter redigering. (CAMP-48695)
 * Korrigerade ett problem som förhindrade dig från att publicera anpassade resurser på grund av att en utlösares dataschema fortfarande fanns kvar efter att utlösaren tagits bort. (CAMP-48523)
 * Korrigerade ett problem som förhindrade att begäran om feedback-slinga kunde hanteras, eftersom det inte gick att hämta de leveransloggar som skulle uppdateras i InMail-processen. (CAMP-48705)
-* Ett problem som gjorde att du inte kunde definiera exkluderingsalternativen i arbetsflödesaktiviteten **Uteslutning** har korrigerats.(CAMP-48355)
-* Korrigerade ett problem som uppstod när anrikningsaktiviteter i arbetsflöden involverade prenumerationer på eller avbeställningar av en tjänst. Detta problem ledde till krascher.
-* Ett problem som kunde förhindra att arbetsflöden kördes har korrigerats.
-* Korrigerade ett problem som kunde förhindra användare från att byta namn på eller ta bort säkerhetsgrupper som inte är installerade på datorn från användargränssnittet.
+* Korrigerade ett problem som gjorde att du inte kunde definiera exkluderingsalternativen i arbetsflödesaktiviteten **Exkludering**.(CAMP-48355)
+* Korrigerade ett problem som uppstod när berikningsaktiviteter i arbetsflöden involverade prenumerationer eller prenumerationsavslut på en tjänst. Det här problemet ledde till krascher.
+* Korrigerade ett problem som kunde förhindra arbetsflöden från att köras.
+* Korrigerade ett problem som kunde förhindra användare från att byta namn på eller ta bort färdiga och medföljande säkerhetsgrupper från användargränssnittet.
 * Korrigerade ett problem som kunde förhindra användare från att ta bort ett ofullständigt publiceringsjobb för händelser.
-* Ett problem har korrigerats där arbetsflödet för databasrensning misslyckades med ett fel. (CAMP-49097)
+* Korrigerade ett problem där arbetsflödet för databasrensning misslyckades med ett fel. (CAMP-49097)

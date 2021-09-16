@@ -11,7 +11,7 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '6954'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,17 +23,17 @@ Förutom [versionsinformationen](../../rn/using/release-notes.md) för Adobe Cam
 
 **Nya funktioner i denna version**
 
-Förbättrat enhetligt gränssnitt för Experience Cloud - [Läs mer](../../start/using/interface-description.md#top-bar)
+Förbättrat enhetligt Experience Cloud-gränssnitt – [Läs mer](../../start/using/interface-description.md#top-bar)
 
-Ny funktion för granskningsspår - [Läs mer](../../administration/using/audit.md)
+Ny funktion för granskningsspår – [Läs mer](../../administration/using/audit.md)
 
-Diagnostikläge för arbetsflöde - [Läs mer](../../automating/using/managing-execution-options.md)
+Diagnostikläge för arbetsflöde – [Läs mer](../../automating/using/managing-execution-options.md)
 
 **Andra dokumentationsuppdateringar som följer med denna version**
 
 Ett nytt avsnitt har lagts till om hur du tar bort en adress från karantänlistan. [Läs mer](../../sending/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
-Avsnittet **Karantän mot Blockeringslista** har klargjorts. [Läs mer](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
+Avsnittet **Karantän jämfört med blockeringslista** har förtydligats. [Läs mer](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
 
 ## Juli 2021 {#doc-updates-july-2021}
 
@@ -62,7 +62,7 @@ Sidan **Versionsplanering** har uppdaterats med nya datum. [Läs mer](../../rn/u
 
 ## April 2021 {#doc-updates-april-2021}
 
-Ett nytt avsnitt har lagts till om hur du arbetar med Adobe Experience Platform Sources and Destinations för att dela data mellan Campaign Standard och Adobe Real-time Customer Data Platform (RTCDP). [Läs mer](../../integrating/using/get-started-sources-destinations.md)
+Ett nytt avsnitt har lagts till om hur du arbetar med källor och destinationer i Adobe Experience Platform för att dela data mellan Campaign Standard och Adobe Real-time Customer Data Platform (RTCDP). [Läs mer](../../integrating/using/get-started-sources-destinations.md)
 
 ## Mars 2021 {#doc-updates-march-2021}
 
