@@ -8,10 +8,10 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: d67a796a-0730-4502-802c-d0b3583dd1dc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -27,7 +27,7 @@ Den här sidan beskriver hur du aktiverar och hämtar inmatningsstatus för dina
 
 ## Förhandskrav {#prerequisites}
 
-Innan du använder API:erna måste datamappningen först ha konfigurerats och publicerats i Campaign Standardens gränssnitt. Mer information finns i följande avsnitt:
+Innan du använder API:erna måste datamappningen först ha konfigurerats och publicerats i Campaign Standardens gränssnitt. Mer information om detta hittar du i dessa avsnitt.
 
 * [Mappningsdefinition](../../integrating/using/aep-mapping-definition.md)
 * [Aktivera mappning](../../integrating/using/aep-mapping-activation.md)

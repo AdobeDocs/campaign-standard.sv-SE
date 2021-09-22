@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '1115'
-ht-degree: 91%
+ht-degree: 88%
 
 ---
 
@@ -72,7 +72,8 @@ Du kan använda den här aktiviteten för att återställa data som sedan strukt
 
 Med HTTP-protokollet så kan du börja ladda ned en fil från ett externt konto eller från en länk.
 
-Med det här verktyget så kan du välja alternativ **[!UICONTROL Use connection parameters defined in an external account]**. I så fall så väljer du det konto som du vill ha och anger sökvägen till filen som ska hämtas.
+Med det här protokollet kan du välja alternativet **[!UICONTROL Use connection parameters defined in an external account]**. I så fall så väljer du det konto som du vill ha och anger sökvägen till filen som ska hämtas.
+
 ![](assets/wkf_file_transfer_03.png)
 
 Du kan även välja alternativ **[!UICONTROL Quick configuration]**. Du behöver endast ange länkadressen i fältet URL.
@@ -82,7 +83,7 @@ Du kan även välja alternativ **[!UICONTROL Quick configuration]**. Du behöver
 
 Med SFTP-protokollet så kan du börja hämta en fil från en länk eller ett externt konto.
 
-Med det här verktyget så kan du välja alternativ **[!UICONTROL Use connection parameters defined in an external account]**, markera det konto som du vill ha och ange sökvägen till filen som ska hämtas.
+Med det här protokollet kan du välja att **[!UICONTROL Use connection parameters defined in an external account]** ska välja ett konto och sedan ange sökvägen till filen som ska hämtas.
 ![](assets/wkf_file_transfer_07.png)
 
 >[!CAUTION]
@@ -177,5 +178,5 @@ Observera att händelsevariabler också kan skickas till ett annat arbetsflöde 
 
 Tillgängliga utdatavariabler är:
 
-* **[!UICONTROL fileName]**: namnet på de överförda filerna.
+* **[!UICONTROL fileName]**: de överförda filernas namn.
 * **[!UICONTROL filesCount]**: antal överförda filer.

@@ -8,10 +8,10 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '1248'
-ht-degree: 89%
+ht-degree: 87%
 
 ---
 
@@ -22,7 +22,7 @@ När du har skapat ett e-postmeddelande i Adobe Campaign måste du definiera des
 Med e-postdesignern kan du skapa engagerande, individuellt anpassade e-postmeddelanden genom att dra och släppa
 gränssnitt. Oavsett om du börjar med en tom sida eller använder befintliga innehållskomponenter eller -mallar kan du designa och förfina allt innehåll för varje e-postmeddelande – oavsett om det är reklam eller en transaktion.
 
-E-postdesignern är designad för att leverera HTML som är optimerad för responsiv design och du kan enkelt definiera och använda synlighetsvillkor. Du kan även använda dynamiskt innehåll i ett e-postmeddelande, en mall eller ett fragment direkt via användargränssnittet. Du kan smidigt växla mellan dra och släpp-gränssnittet och HTML-koden med en enda knapptryckning
+E-postdesignern är designad för att leverera HTML som är optimerad för responsiv design och du kan enkelt definiera och använda synlighetsvillkor. Du kan även använda dynamiskt innehåll i ett e-postmeddelande, en mall eller ett fragment direkt via användargränssnittet. Du kan smidigt växla mellan dra och släpp-gränssnittet och HTML-koden genom att klicka på en knapp.
 
 Med E-postdesignern kan du skapa e-postinnehåll och mallar för e-postinnehåll. Den är kompatibel med enkla e-postmeddelanden, transaktionsmeddelanden, A/B-testmeddelanden, flerspråkiga e-postmeddelanden och återkommande e-postmeddelanden.
 

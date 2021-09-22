@@ -8,10 +8,10 @@ hidefromtoc: true
 role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 87e91e169fedf962471f82754b1d40a14e5fc32a
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 100%
+source-wordcount: '585'
+ht-degree: 98%
 
 ---
 
@@ -72,7 +72,7 @@ Få support via våra vanliga frågor och svar, god praxis, onlineresurser och s
         <li><a href="start/using/privacy-management.md">Sekretess- och medgivandehantering</a></li>
         <li><a href="automating/using/query.md">Utforma en fråga</a></li>
         <li><a href="automating/using/query-samples.md">Exempel på frågor</a></li>
-        <li><a href="https://helpx.adobe.com/sv/campaiacs-mobile.html">Konfigurera mobilkanaler</a></li>
+        <li><a href="administration/using/push-tracking.md">Konfigurera mobilkanaler</a></li>
         </ul>
     </td>
     </tr>
@@ -119,7 +119,7 @@ Det nya biljettsystemet har varit genom [Adobe Admin Console](https://adminconso
 
 ### Fråga experterna!
 
-Gå med i Campaign Classic-communityn: sök efter svar i befintliga frågor eller ställ din fråga till communityn. [Delta i konversationen](https://experienceleaguecommunities.adobe.cadobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+Gå med i Campaign Classic-communityn: sök efter svar i befintliga frågor eller ställ din fråga till communityn. [Delta i konversationen](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Skapa en biljett eller starta en chatt
 
@@ -127,4 +127,4 @@ Om du skapar ett ärende kan du kontakta Adobe kundsupportteam om problem som du
 
 Anslut till [Adobe Admin Console](https://adminconsole.adobe.com/overview) för att logga ett problem eller starta en chattsession i det nya systemet.
 
-Följ den detaljerade proceduren som beskrivs på [den här sidan](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+Följ den detaljerade proceduren som beskrivs i [den här sidan](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).

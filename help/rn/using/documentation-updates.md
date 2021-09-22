@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '6954'
-ht-degree: 100%
+source-wordcount: '6933'
+ht-degree: 99%
 
 ---
 
@@ -204,7 +204,7 @@ Campaign Standard – integreringen av Microsoft Dynamics 365 är inte tillgäng
 
 Avsnittet med parametrar för e-postkanaler har klargjorts med ytterligare information om de godkända maskfälten och ID för leveransrapporter. [Läs mer](../../administration/using/configuring-email-channel.md)
 
-Konfigurationen av en mobilapplikation med Adobe Experience Platform SDK:er finns nu i huvuddokumentationen med ytterligare information om Sync Mobile-appen AEPSDK från Launch technical workflow. [Läs mer](../../administration/using/configuring-a-mobile-application.md)
+Det finns nu mer information i huvuddokumentationen om hur du konfigurerar en mobilapp med Adobe Experience Platform SDK från det tekniska arbetsflödet i Sync Mobile-appen AEPSDK från Launch. [Läs mer](../../administration/using/configuring-a-mobile-application.md)
 
 ## Version 20.3 – maj 2020 {#release-20-3---may-2020}
 
@@ -572,9 +572,9 @@ Ett användningsexempel har lagts till för hur profilens anpassade resurs ska u
 
 Information har lagts till om hur du länkar anpassade resurser. [Läs mer](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)
 
-En ny teknik har lagts till om hur du visar en bild i ett push-meddelande från Adobe Campaign Standard. [Läs mer](https://docs.adobe.com/content/help/sv-SE/campaign-standard/using/communication-channels/push-notifications/image-push-notification.html)
+En ny teknik har lagts till om hur du visar en bild i ett push-meddelande från Adobe Campaign Standard. [Läs mer](../../administration/using/image-push-notification.md)
 
-En ny teknik för push-spårning har lagts till. [Läs mer](https://docs.adobe.com/content/help/sv-SE/campaign-standard/using/communication-channels/push-notifications/push-tracking.html)
+En ny teknik för push-spårning har lagts till. [Läs mer](../../administration/using/push-tracking.md)
 
 Listan med felmeddelanden för Campaign Standard och Classic har uppdaterats. [Läs mer](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
@@ -862,7 +862,7 @@ Avsnittet &quot;Anpassade resurser&quot; har klargjorts med en mer detaljerad pr
 
 Uppdaterade och klargjorde [tekniken](https://helpx.adobe.com/se/campaign/kb/integrate-mobile-sdk.html) för hur Adobe Marketing Cloud Mobile SDK ska integreras med en mobilapp för att få Adobe Campaign Standard push-meddelanden .
 
-Teknisk anteckning har lagts till som förklarar strukturen för den nyttolast som tas emot i en mobilapp. [Läs mer.](https://helpx.adobe.com/se/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)
+Teknisk anteckning har lagts till som förklarar strukturen för den nyttolast som tas emot i en mobilapp. [Läs mer.](../../administration/using/push-payload.md)
 
 Konfigurations[avsnittet](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) för push-kanaler har uppdaterats med ny nyttolastdata i OS-versionen som ska läggas till när återanslag definieras i gränssnittet för Adobe Mobile Services.
 

@@ -9,9 +9,9 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1500'
 ht-degree: 97%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 97%
 
 Med Adobe Campaign kan du finjustera push-meddelanden och få åtkomst till en uppsättning avancerade alternativ när du utformar ett push-meddelande.
 
-Om du är avancerad användare och vill konfigurera mobilprogram i Adobe Campaign, ska du läsa följande tekniska information [Information om strukturen på nyttolasten för Campaign Standard Push-meddelanden](https://helpx.adobe.com/se/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html).
+Om du är avancerad användare och vill konfigurera mobilprogram i Adobe Campaign, ska du läsa följande tekniska information [Information om strukturen på nyttolasten för Campaign Standard Push-meddelanden](../../administration/using/push-payload.md).
 
 ![](assets/push_notif_advanced.png)
 
@@ -150,7 +150,7 @@ Så här inkluderar du multimedia i push-meddelanden:
 1. Öppna push-meddelandet och gå till avsnittet **[!UICONTROL Advanced options]**.
 1. Ange URL-adressen till filen i **[!UICONTROL Rich media content URL]**-fältet för varje format: iOS och Android.
 
-   För iOS 10 eller senare versioner kan du infoga bild-, gif-, ljud- och videofiler. I tidigare iOS-versioner visas push-meddelandet utan omfattande innehåll. Detaljerade steg för hur du visar en bild från ett push-meddelande för Adobe Campaign på en iOS-enhet finns på den här [sidan](https://helpx.adobe.com/se/campaign/kb/display-image-push.html).
+   För iOS 10 eller senare versioner kan du infoga bild-, gif-, ljud- och videofiler. I tidigare iOS-versioner visas push-meddelandet utan omfattande innehåll. Detaljerade steg för hur du visar en bild från ett push-meddelande för Adobe Campaign på en iOS-enhet finns på den här [sidan](../../administration/using/image-push-notification.md).
 
    För Android kan du bara inkludera bilder.
 

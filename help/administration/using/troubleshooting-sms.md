@@ -8,7 +8,7 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '2696'
 ht-degree: 0%
@@ -159,7 +159,7 @@ Om `DELIVER_SM PDU` inte godkänns bör du kontrollera följande:
 
 Om du har korrigerat allt men vissa ogiltiga SR fortfarande finns i providerns buffertar kan du hoppa över dem med alternativet **Ogiltigt antal ID-bekräftelser**. Detta ska användas med försiktighet och återställas till 0 så fort som möjligt efter att buffertarna har tömts.
 
-## Problem vid bearbetning av MO (och svartlistning/autosvar){#issue-process-MO}
+## Problem vid bearbetning av MO (och blockeringslista/autosvar){#issue-process-MO}
 
 * Aktivera SMPP-spår under tester. Om du inte aktiverar TLS bör du göra en nätverksinhämtning när du felsöker MO för att kontrollera att PDU:er innehåller rätt information och är korrekt formaterade.
 

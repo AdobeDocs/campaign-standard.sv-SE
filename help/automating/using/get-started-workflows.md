@@ -8,7 +8,7 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 13%
@@ -78,7 +78,7 @@ Med [Importera mallar](../../automating/using/importing-data-with-import-templat
 
 [Genom att exportera ](../../automating/using/exporting-logs.md) loggdata kan du exportera loggdata via ett enkelt arbetsflöde, så att du kan analysera resultaten av dina marknadsföringskampanjer i dina egna rapporterings- eller BI-verktyg.
 
-Utnyttja [Paket](../../automating/using/managing-packages.md) för att utbyta resurser mellan olika kampanjinstanser, till exempel för att replikera konfigurationen av en instans eller för att överföra data från en server till en annan, inklusive anpassade resurser.
+Använd [Paket](../../automating/using/managing-packages.md) för att utbyta resurser mellan olika kampanjinstanser, t.ex. för att replikera konfigurationen av en instans eller för att överföra data från en server till en annan, inklusive anpassade resurser.
 
 Med [Exportering av listor](../../automating/using/exporting-lists.md) kan du slutligen exportera alla listor från Campaign Standarder, som till exempel en lista med testprofiler, en lista med e-postadresser i karantän, osv.
 

@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Hjälpcenter för de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som behövs för att använda Campaign Standard. '
 title: Användarhandbok för Campaign Standard
 breadcrumb-title: 'Dokumentation om Adobe Campaign Standard '
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 34270a2caff0932b56d00ccf721bdba87eb61f81
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1797'
+ht-degree: 99%
 
 ---
 
@@ -77,6 +77,7 @@ ht-degree: 0%
       + [Åtkomst till meddelanden](channels/using/accessing-messages.md)
       + [Kontrollpanel för meddelanden](channels/using/message-dashboard.md)
       + [Mallar för flerspråkiga meddelanden](channels/using/multilingual-messages-template.md)
+      + [Kom igång med mobilkanaler](channels/using/mobile-guide.md)
    + Bästa praxis för leverans {#delivery-bestpractices}
       + [Lär dig bästa praxis](sending/using/delivery-best-practices.md)
       + [Optimera leverans](sending/using/optimize-delivery.md)

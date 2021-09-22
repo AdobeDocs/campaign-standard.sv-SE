@@ -9,7 +9,7 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 4%
@@ -105,7 +105,7 @@ Beroende på vilka element som är markerade på arbetsytan eller arbetsflödets
 
 ## Snabbåtgärder {#quick-actions}
 
-När en aktivitet är markerad visas snabbåtgärdsknappar runt aktiviteten så att du kan interagera med den.
+När en aktivitet är markerad visas snabbåtgärdsknappar runt aktiviteten, så att du kan interagera med den.
 
 <img height="21px" src="assets/edit_darkgrey-24px.png" /> **[!UICONTROL Open activity]**<br/>Öppnar den markerade aktiviteten.
 

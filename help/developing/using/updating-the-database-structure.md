@@ -9,10 +9,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: fa39eb54-9ec0-4aff-94a8-5459f4c496d0
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 41366b6fa7647dbf0e4e5df71e2755189f4ffc42
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 99%
+source-wordcount: '779'
+ht-degree: 93%
 
 ---
 
@@ -46,6 +46,10 @@ Om du vill använda ändringarna som gjorts på resurserna måste du utföra en 
    Mer information om hur du utför åtgärder på API:t för profiler och tjänster finns i [Publicera en resurs med API-tillägg](#publishing-a-resource-with-api-extension).
 
    ![](assets/schema_extension_13.png)
+
+   >[!NOTE]
+   >
+   >Eftersom dubblettindex gör att publiceringen misslyckas kontrollerar förberedelsesteget om det index som definierats för resursen redan finns med samma namn för en annan resurs. Om detta inträffar visas ett felmeddelande där du ombeds byta namn på indexet. Se [Definiera index](configuring-the-resource-s-data-structure.md#defining-indexes).
 
 1. När publikationen är klar klickar du på **[!UICONTROL Publish]**-knappen för att tillämpa de nya konfigurationerna.
 1. När den publicerats anger rutan **[!UICONTROL Summary]** för varje resurs att statusen nu är **[!UICONTROL Published]** och att datumet för den senaste publikationen anges.

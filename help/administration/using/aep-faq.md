@@ -8,9 +8,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '915'
 ht-degree: 4%
 
 ---
@@ -32,7 +32,7 @@ Mer information om Push eller In-App (Push) finns i följande vanliga frågor oc
 Mer information om Adobe Experience Platform SDK och integrering av Campaign Standarder finns nedan:
 
 * Launch/Mobile [Översikt över video](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
-* Launch/Mobile [Tips &amp; Tricks Guide](https://www.adobe.com/content/dam/www/us/en/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
+* Launch/Mobile [Tips &amp; Tricks Guide](https://www.adobe.com/content/dam/dx/us/en/products/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
 ## Är Adobe Experience Platform SDK-integrering tillgänglig för både Adobe Campaign Standard och Adobe Campaign Classic? {#aep-validity}
 

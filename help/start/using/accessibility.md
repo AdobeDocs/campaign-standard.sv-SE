@@ -8,10 +8,10 @@ feature: Campaigns
 role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 100%
+source-wordcount: '650'
+ht-degree: 88%
 
 ---
 
@@ -87,38 +87,38 @@ Observera att språket konfigureras vid installationen och inte kan ändras efte
 
 ### Startsida {#homepage-shortcuts}
 
-| Genväg | Åtgärd |
-|:-:|:-:|
-| Tabb | Navigera genom de olika elementen i användargränssnittet |
-| Retur eller mellanslag | Aktivera det markerade objektet |
+| Åtgärd | Genväg |
+| --- | --- |
+| Navigera genom de olika elementen i användargränssnittet | Tabb |
+| Aktivera det markerade objektet | Enter eller mellanslagstangenten |
 
 ### E-postdesigner {#email-designer-shortcuts}
 
-| Genväg | Åtgärd |
-|:-:|:-:|
-| CTRL+Z | Ångra |
-| CTRL + Y | Gör om |
+| Åtgärd | Windows-genväg | kortkommando för macOS |
+| --- | --- | --- |
+| Ångra | Ctrl + Z | Cmd + Z |
+| Gör om | Ctrl + Y | Skift + Kommando + Z |
 
 ### Dynamiska rapporter {#report-shortcuts}
 
-| Genväg | Åtgärd |
-|:-:|:-:|
-| CTRL + O | Öppna projekt |
-| CTRL + S | Spara |
-| Skift + CTRL + S | Spara som |
-| Alt + R | Uppdatera projekt |
-| Skift + CTRL + V | Hämta CSV |
-| Alt + P | Skriv ut |
-| CTRL+Z | Ångra |
-| CTRL + Skift + Z | Gör om |
-| Alt + B | Ny tom panel |
-| Alt + A | Ny frihandsfigur |
-| Alt + 1 | Ny frihandstabell |
-| Alt + 2 | Ny rad |
-| Alt + 3 | Nytt fält |
-| Alt + S | Skicka rapport nu |
-| Skift + Alt + S | Skicka rapport enligt schema |
-| Skift = Alt + L | Schemalagda rapporter |
+| Åtgärd | Windows-genväg | kortkommando för macOS |
+| --- | --- | --- |
+| Öppna ett projekt | Ctrl + O | Kommando + O |
+| Spara | Ctrl + S | Cmd + S |
+| Spara som | Skift + Ctrl + S | Skift + Kommando + S |
+| Uppdatera projekt | Alt + R | Kommando + R |
+| Hämta CSV-fil | Skift + Ctrl + V | Skift + Kommando + V |
+| Skriv ut | Alt + P | Cmd + P |
+| Ångra | Ctrl + Z | Cmd + Z |
+| Gör om | Ctrl + Y | Skift + Kommando + Z |
+| Ny tom panel | Alt + B | Alt+B |
+| Ny frihandsfigur | Alt + A | Alt + A |
+| Ny frihandstabell | Alt + 1 | Alt+1 |
+| Ny rad | Alt + 2 | Alt+2 |
+| Nytt fält | Alt + 3 | Alt+3 |
+| Skicka rapport nu | Alt + S | Alt+S |
+| Skicka rapport enligt schema | Skift + Alt + S | Skift+Alt+S |
+| Schemalagda rapporter | Skift+Alt+L | <!-- Should be 'Shift + Option + L ' but does not work on Mac --> |
 
 ## Vidare läsning {#further-reading}
 
