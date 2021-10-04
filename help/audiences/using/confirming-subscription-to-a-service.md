@@ -8,10 +8,10 @@ feature: Audiences
 role: User
 level: Intermediate
 exl-id: 9992a05b-9f3c-4e6c-82e5-151c679565a1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 96%
+source-wordcount: '1315'
+ht-degree: 90%
 
 ---
 
@@ -116,11 +116,11 @@ Bekräftelsemeddelandet är ett transaktionsmeddelande baserat på den händelse
 
 1. Klicka på **[!UICONTROL Confirm]** och spara tjänsten.
 
-Varje gång en profil prenumererar på den här tjänsten får profilen det transaktionsmeddelande som du har definierat,med anpassade fält mappade till den valda tjänsten.
+När profiler prenumererar på den här tjänsten får de transaktionsmeddelandet som du har definierat, med anpassade fält mappade till den valda tjänsten.
 
 >[!NOTE]
 >
->Ett meddelande skickas endast första gången som användaren prenumererar.
+>Ett meddelande skickas endast första gången användaren prenumererar.
 
 ## Konfigurera bekräftelsemeddelande från en landningssida {#configuring-confirmation-message-from-landing-page}
 
@@ -190,8 +190,8 @@ Följ stegen nedan för att skapa och konfigurera den här landningssidan:
 
 1. [Testa och publicera](../../channels/using/testing-publishing-landing-page.md) landningssidan.
 
-Varje gång en profil prenumererar på ditt nyhetsbrev genom att skicka in landningssidan får profilen ett bekräftelsemeddelande som du har definierat med anpassade fält som är mappade till tjänsten.
+När profiler prenumererar på nyhetsbrevet genom att skicka landningssidan får de nu ett bekräftelsemeddelande som du har definierat med anpassade fält mappade till tjänsten.
 
 >[!NOTE]
 >
->Ett meddelande skickas varje gång som landningssidan skickas. Detta sker även om profilen redan är en prenumerant.
+>Ett meddelande skickas varje gång landningssidan skickas, även om profilen redan har prenumererats.

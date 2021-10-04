@@ -8,10 +8,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 625d5e10-3d68-440e-a60c-4fcdfca34b5f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '1022'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -71,7 +71,7 @@ Om du vill skapa fältet **Intresse** för våra profiler måste du först utök
 
 1. Klicka **[!UICONTROL Add an element]** och lägg sedan till så många värden som behövs genom att lägga till en **[!UICONTROL Label]** och en **[!UICONTROL ID]** och sedan klicka **[!UICONTROL Add]**.
 
-   Här skapar vi böckerna, utställningarna, filmerna och N/A-värdena för profiler för att sedan välja mellan dessa alternativ.
+   I det här exemplet kan du välja mellan de här alternativen genom att skapa bokmärken, utställningar, filmer och N/A-värden för profiler.
 
    ![](assets/schema_extension_uc11.png)
 

@@ -8,10 +8,10 @@ feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 21abf3c2-d319-40a8-9479-1fc02c82e5d2
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '2342'
-ht-degree: 100%
+source-wordcount: '2341'
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ Relaterade ämnen:
 
 Så här skapar och konfigurerar du en **[!UICONTROL Fatigue]**-typologiregel:
 
-1. Klicka på Adobe Campaign-logotypen i det övre vänstra hörnet av gränssnittet och välj sedan **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]**.
+1. Klicka på Adobe Campaign logotyp i det övre vänstra hörnet av gränssnittet och välj **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]**.
 
    ![](assets/fatigue4.png)
 

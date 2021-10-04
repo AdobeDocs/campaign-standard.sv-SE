@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Hjälpcenter för de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som behövs för att använda Campaign Standard. '
 title: Användarhandbok för Campaign Standard
 breadcrumb-title: 'Dokumentation om Adobe Campaign Standard '
-source-git-commit: 34270a2caff0932b56d00ccf721bdba87eb61f81
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1798'
 ht-degree: 99%
 
 ---
@@ -281,7 +281,7 @@ ht-degree: 99%
          + [Personalisera kampanjer med Adobe Experience Platform-attribut](integrating/using/aep-personalizing-campaigns.md)
       + Datakoppling med Adobe Experience Platform (beta) {#data-connector}
          + [Om datakoppling med Adobe Experience Platform](integrating/using/aep-about-data-connector.md)
-         + [Översikt över datamodellen i Experience Platform](integrating/using/aep-data-model-overview.md)
+         + [Experience Platform datamodell - översikt](integrating/using/aep-data-model-overview.md)
          + [Mappningsdefinition](integrating/using/aep-mapping-definition.md)
          + [Aktivera mappning](integrating/using/aep-mapping-activation.md)
          + [Utlösa datainmatning via API:er](integrating/using/aep-triggering-data-ingestion.md)

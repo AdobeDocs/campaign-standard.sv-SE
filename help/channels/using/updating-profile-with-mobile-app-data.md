@@ -9,9 +9,9 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1007'
 ht-degree: 4%
 
 ---
@@ -106,7 +106,7 @@ På fliken **[!UICONTROL General]** anger du **[!UICONTROL Execution frequency]*
 
    ![](assets/update_profile_createelement.png)
 
-1. I fältet **[!UICONTROL Source]** väljer du ett fält från tabellen appSubscriptionRcp som ett avstämningsfält. Det kan vara profilens e-postadress, crmId, marketingCloudId osv. I det här exemplet använder vi fältet&quot;Email (cusEmail)&quot;.
+1. I fältet **[!UICONTROL Source]** väljer du ett fält från tabellen appSubscriptionRcp som ett avstämningsfält. Det kan vara profilens e-postadress, crmId, marketingCloudId osv. I det här exemplet använder du fältet&quot;Email (cusEmail)&quot;.
 
 1. I fältet **[!UICONTROL Destination]** väljer du ett fält i profiltabellen för att stämma av data från tabellen appSubscriptionRcp. Det kan vara profilens e-postadress eller ett utökat fält som crmId, marketingCloudId osv. I det här exemplet måste vi markera fältet&quot;E-post (e-post)&quot; för att mappa det med fältet&quot;E-post (cusEmail)&quot; från tabellen appSubscriptionRcp.
 

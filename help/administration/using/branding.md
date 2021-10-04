@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 80%
+source-wordcount: '1279'
+ht-degree: 77%
 
 ---
 
@@ -95,7 +95,7 @@ Du kan lägga till nya enheter i organisationen i Campaign eller skapa en ny typ
    >
    >Kontrollpanelen är tillgänglig för alla administratörsanvändare. Stegen för att bevilja administratörsåtkomst till en användare finns på [den här sidan](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=sv#discover-control-panel).
 
-1. **Skapa en biljett** - När underdomänen har konfigurerats måste Adobe konfigurera den i produktionsmiljön. [Skapa en biljett till Client Care](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) med följande information för att begära detta:
+1. **Skapa en biljett** - När underdomänen har konfigurerats konfigureras den av Adobe i produktionsmiljön. [Skapa en biljett till Client Care](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) med följande information för att begära detta:
 
    * Ämne: ACS Ny varumärkeskonfiguration
 
@@ -145,13 +145,13 @@ Din mall är kopplad till varumärket. I e-postredigeraren kommer element som **
 
 I det här exemplet ska vi skapa ett nytt reserelaterat varumärke och använda det i ett e-postmeddelande.
 
-#### Konfigurera ett nytt varumärke {#configure-a-new-brand}
+#### Steg 1: Konfigurera ett nytt varumärke {#configure-a-new-brand}
 
 >[!IMPORTANT]
 >
 >Varumärkeskonfigurationen hanteras endast av Adobe eftersom den kräver särskilda behörigheter och tekniska inställningar.
 
-1. Adobe Campaign-administratören skapar varumärket i **[!UICONTROL Administration > Instance settings > Brand configuration]**. Han lägger till elementet **Resor i tropikerna** från den avancerade menyn och konfigurerar **[!UICONTROL ID]** och **[!UICONTROL Header parameters of sent emails]** för varumärket.
+1. Adobe Campaign-administratören skapar först varumärket från **[!UICONTROL Administration > Instance settings > Brand configuration]**-menyn och lägger till **Semester i Tropics**-elementet och konfigurerar **[!UICONTROL ID]** och **[!UICONTROL Header parameters of sent emails]** för varumärket.
 
    ![](assets/branding_07.png)
 
@@ -163,7 +163,7 @@ I det här exemplet ska vi skapa ett nytt reserelaterat varumärke och använda 
 
 Varumärket skapas och konfigureras korrekt. Det kan nu användas av marknadsföringsteamen.
 
-#### Implementera ett nytt varumärke {#implement-a-new-brand}
+#### Steg 2: Implementera ett nytt varumärke {#implement-a-new-brand}
 
 Som leveranschef ansvarar du för att skapa leveransmallar för det nya varumärket. Följ stegen nedan för att uppnå detta:
 
@@ -182,7 +182,7 @@ Som leveranschef ansvarar du för att skapa leveransmallar för det nya varumär
 
    Leveransmallen kan nu användas för att skapa e-postmeddelanden som skickas till en målgrupp.
 
-#### Använd det nya varumärket i en leverans {#use-the-new-brand-in-a-delivery}
+#### Steg 3: Använd det nya varumärket i en leverans {#use-the-new-brand-in-a-delivery}
 
 Följ stegen nedan för att skapa ett e-postmeddelande som är kopplat till ett varumärke:
 

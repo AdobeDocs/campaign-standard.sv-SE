@@ -4,10 +4,10 @@ description: Med importeringsmallar kan du minska de inställningar som krävs o
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 100%
+source-wordcount: '786'
+ht-degree: 96%
 
 ---
 
@@ -48,7 +48,7 @@ Standardmallarna är skrivskyddade och visas inte för standardanvändare.  För
 
 1. Gå till fliken **[!UICONTROL Workflow]**. Härifrån kan du förbättra arbetsflödet som erbjuds som standard genom att lägga till nya aktiviteter efter dina behov.
 
-   Mer information om hur du konfigurerar arbetsflödesaktiviteter finns i användningsexemplet som beskrivs i det här avsnittet: [Exempel: Importera mall för arbetsflöde](../../automating/using/creating-import-workflow-templates.md).  Det här användningsexemplet hjälper dig att skapa ett arbetsflöde som kan återanvändas för att importera profiler från en CRM i Adobe Campaign-databasen.
+   Mer information om hur du konfigurerar arbetsflödesaktiviteter finns i användningsexemplet som beskrivs i det här avsnittet: [Exempel: Importera mall för arbetsflöde](../../automating/using/creating-import-workflow-templates.md).  I det här exemplet får du hjälp med att konfigurera ett arbetsflöde som kan återanvändas för att importera profiler från en CRM i Adobe Campaign-databasen.
 
 1. Spara mallen så att arbetsflödets konfiguration korrekt tas i beaktning.
 1. Överför en exempelfil från fliken **[!UICONTROL Properties]**.  Den överförda filen kan endast innehålla kolumner som är nödvändiga för framtida importering eller exempeldata.  Med data i exempelfilen kan du testa den förenklade importeringen när arbetsflödet har definierats.

@@ -8,9 +8,9 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: fa3796ee-a00c-4d70-bf3d-e8d2099f1116
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '94'
 ht-degree: 4%
 
 ---
@@ -23,7 +23,7 @@ Uppdatering av profiler utförs med en **PATCH**-begäran.
 
 1. Det första steget är att **hämta profilen**.
 
-1. I en andra begäran kommer vi att utföra en **PATCH-begäran** på profilen med den fullständiga informationen i nyttolasten.
+1. I en andra begäran ska du utföra en **PATCH-begäran** på profilen med den fullständiga informationen i nyttolasten.
 
 1. För att kontrollera om PATCH har uppdaterat profilen kan vi utföra en slutgiltig begäran om GET.
 

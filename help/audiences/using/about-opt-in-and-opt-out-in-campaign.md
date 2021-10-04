@@ -8,10 +8,10 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: ccb35aeb-2b32-4444-969b-50021111a0d6
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 9%
+source-wordcount: '223'
+ht-degree: 8%
 
 ---
 
@@ -27,6 +27,6 @@ Profiler för avanmälan exkluderas automatiskt under leveransanalysen för att 
 
 >[!NOTE]
 >
->Avanmäl dig gäller för **profiler**, till skillnad från karantän som är länkad till en **e-postadress** eller **telefonnummer**. Om du väljer att inte använda en profil tas alla adresser som är kopplade till den bort. Men om en användare har två profiler i databasen kommer han/hon fortfarande att ha leveransmål eftersom endast en av hans profiler är avanmäld. Om du vill vara säker på att alla hans adresser utesluts lägger du till dem i adresserna i karantän. Mer information finns på [den här sidan](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform).
+>Avanmäl dig gäller för **profiler**, till skillnad från karantän som är länkad till en **e-postadress** eller **telefonnummer**. Om du väljer att inte använda en profil tas alla adresser som är kopplade till den bort. Men om en användare har två profiler i databasen kommer användaren fortfarande att ha leveransmål eftersom endast en av hans profiler är avanmäld. Om du vill vara säker på att alla hans adresser utesluts lägger du till dem i adresserna i karantän. Mer information finns på [den här sidan](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform).
 
 Mer information om tjänstprenumerationer finns på [den här sidan](../../audiences/using/about-subscriptions.md).

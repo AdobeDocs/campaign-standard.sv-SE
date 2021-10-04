@@ -8,27 +8,25 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '672'
 ht-degree: 3%
 
 ---
 
 # Hantera transaktionsmeddelanden {#managing-transactional-messages}
 
-## Om transaktionsmeddelanden
-
 När du har skapat och publicerat en transaktionshändelse måste du integrera den som utlöser den här händelsen på webbplatsen.
 
 >[!NOTE]
 >
->Konfigurationen av en händelse presenteras i [det här avsnittet](../../channels/using/configuring-transactional-event.md).
+>Händelsekonfigurationen beskrivs i [det här avsnittet](../../channels/using/configuring-transactional-event.md).
 
-Du vill t.ex. att en händelse om att kunden överger en varukorg ska utlösas så fort någon av dina kunder lämnar webbplatsen innan de köper produkterna i kundvagnen. För att göra detta måste webbutvecklaren använda REST Transactional Messages API.
+Du vill t.ex. att en händelse om att kunden överger en varukorg ska utlösas så fort någon av dina kunder lämnar webbplatsen innan de köper produkterna i kundvagnen. För att kunna göra detta måste du som webbutvecklare använda API:t REST Transactional Messages.
 
-1. Utvecklaren skickar en begäran enligt metoden POST, som utlöser [sändningen av transaktionshändelsen](#sending-a-transactional-event).
-1. Svaret på begäran om POST innehåller en primärnyckel, som gör att utvecklaren kan skicka en eller flera begäranden via en GET-begäran. På så sätt kan han eller hon hämta [händelsestatus](#transactional-event-status).
+1. Skicka en begäran enligt metoden POST, som utlöser [sändning av transaktionshändelsen](#sending-a-transactional-event).
+1. Svaret på begäran om POST innehåller en primärnyckel, som gör att du kan skicka en eller flera begäranden via en GET-begäran. Du kan sedan hämta [händelsens status](#transactional-event-status).
 
 ## Skicka en transaktionshändelse {#sending-a-transactional-event}
 
@@ -46,7 +44,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
    `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
-   (Observera att API-slutpunkten för transaktionsmeddelanden också visas under API-förhandsgranskningen)
+   Observera att API-slutpunkten för transaktionsmeddelanden också visas under API-förhandsgranskningen.
 
 * **&lt;eventid>**: vilken typ av händelse du vill skicka. Detta ID genereras när händelsekonfigurationen skapas (se [det här avsnittet](../../channels/using/configuring-transactional-event.md#creating-an-event)).
 

@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 79%
+source-wordcount: '1256'
+ht-degree: 77%
 
 ---
 
@@ -51,7 +51,7 @@ Det övre fältet är synligt på alla skärmar och gör att du kan navigera bla
 
 Navigeringsprinciperna är:
 
-* Med logotypen **Adobe** i det övre vänstra hörnet av sidan får du tillgång till de avancerade funktionerna och konfigurationerna. Menyer beror på din profil och dina behörigheter.
+* Logotypen **Adobe** i det övre vänstra hörnet av sidan ger dig tillgång till de avancerade funktionerna och konfigurationerna. Menyer beror på din profil och dina behörigheter.
 
    Den avancerade menyn visas i avsnittet [Avancerad meny](#advanced-menu).
 
@@ -82,7 +82,7 @@ Tre flikar hjälper dig att hitta hjälp och hjälp:
 
 ## Avancerad meny {#advanced-menu}
 
-Du kan visa den avancerade menyn genom att klicka på **Adobe Campaign**-ikonen i det övre vänstra hörnet på varje skärm. Den avancerade menyn kan variera beroende på ditt kontrakt och dina användarbehörigheter.
+Den avancerade menyn visas genom att klicka på ikonen **Adobe Campaign** i det övre vänstra hörnet på varje skärm. Den avancerade menyn kan variera beroende på ditt kontrakt och dina användarbehörigheter.
 
 På den här menyn kan du navigera till specifika funktioner och inställningar.
 

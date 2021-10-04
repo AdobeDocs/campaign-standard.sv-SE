@@ -9,9 +9,9 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: fbab695a-2672-4183-8c3b-78af7aefd5b1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '840'
 ht-degree: 4%
 
 ---
@@ -28,7 +28,7 @@ Varje objekt och användare av plattformen är länkade till en organisationsenh
 >
 >**[!UICONTROL All (all)]** Organisationsenheten tilldelas som standard till **[!UICONTROL Administrators]** säkerhetsgruppen.  Den är skrivskyddad och kan inte ändras.
 
-En användare har skrivskyddad åtkomst till alla objekt i de överordnade enheterna. Han har läs- och skrivåtkomst till alla sina objekt i sin enhet och sina underordnade enheter. En användare har inte åtkomst till objekt i parallella grenar.
+En användare har skrivskyddad åtkomst till alla objekt i de överordnade enheterna. Den här användaren har läs- och skrivåtkomst till alla objekt på sin enhet och sina underordnade enheter. En användare har inte åtkomst till objekt i parallella grenar.
 
 Som standard är bara **[!UICONTROL All]** enheter tillgängliga.
 
@@ -79,17 +79,17 @@ För att se effekten av att tilldela olika enheter till olika säkerhetsgrupper 
 
 1. Följ samma procedurer för att skapa den andra mallen som tilldelats den tidigare skapade organisationsenheten för Geometrixx.
 
-Användaren som är tilldelad standardgrupperna för användare och Geometrixx kan se båda mallarna. På grund av organisationsenheternas hierarkiska struktur har han läs- och skrivåtkomst till den mall som är länkad till Geometrixx Color-enheten och endast skrivskyddad åtkomst till den mall som är länkad till Geometrixx.
+Användare som är tilldelade grupperna **Standardanvändare** och **Geometrixx** kan se båda mallarna. På grund av organisationsenheternas hierarkiska struktur har de läs- och skrivåtkomst till den mall som är länkad till Geometrixx Color-enheten och endast skrivskyddad åtkomst till den mall som är länkad till Geometrixx.
 
 ![](assets/manage_units_7.png)
 
-Eftersom enheten för Geometrixx är en underordnad enhet till Geometrixx visas följande meddelande när användaren försöker ändra Geometrixx:
+Eftersom Geometrixx Clothes-enheten är en underordnad enhet till Geometrixx visas följande meddelande när användare försöker ändra Geometrixx:
 
 ![](assets/manage_units_8.png)
 
-Organisationsenheter kan begränsa åtkomsten till olika funktioner som profiler. Om våra Geometrixx-användare till exempel har åtkomst till fliken **[!UICONTROL Profiles]** kan de få fullständig åtkomst till och ändra profilerna med organisationsenheten för Geometrixx.
+Organisationsenheter kan begränsa åtkomsten till olika funktioner som profiler. Om våra användare av Geometrixx Clinters till exempel har åtkomst till fliken **[!UICONTROL Profiles]** kan de få fullständig åtkomst till och ändra profilerna med organisationsenheten för Geometrixx.
 
-Profilerna med organisationsenheten för Geometrixx kommer att vara skrivskyddade, men följande fel visas om användaren försöker ändra en profil: **[!UICONTROL You do not have the rights needed to modify the 'profile' resource of ID]**.
+Profilerna med organisationsenheten för Geometrixx kommer att vara skrivskyddade, men följande fel visas om användare försöker ändra en profil: **[!UICONTROL You do not have the rights needed to modify the 'profile' resource of ID]**.
 
 ![](assets/manage_units_10.png)
 

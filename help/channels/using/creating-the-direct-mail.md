@@ -9,10 +9,10 @@ feature: Direct Mail
 role: User
 level: Intermediate
 exl-id: 3e94c872-bf44-4d4c-b6eb-7731021c7931
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 96%
+source-wordcount: '593'
+ht-degree: 95%
 
 ---
 
@@ -54,7 +54,7 @@ Processen för att skapa ett direktmeddelande är väldigt lik processen för at
 
 1. Om du har lagt till testprofiler (se [Lägga till test- och trapprofiler](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles)) kan du testa leveransen innan du förbereder den slutliga filen. Du kan skapa en exempelfil som endast innehåller de valda testprofilerna.
 
-   Klicka på **[!UICONTROL Test]** för att generera exempelfilen. Klicka på **[!UICONTROL Summary]**, i det övre vänstra hörnet, och välj sedan **[!UICONTROL Proofs]**. Markera korrekturläsning till vänster på skärmen och klicka på **[!UICONTROL Download file]**.
+   Klicka på **[!UICONTROL Test]** för att generera exempelfilen. Klicka på **[!UICONTROL Summary]** i det övre vänstra hörnet och välj **[!UICONTROL Proofs]**. Markera korrekturläsning till vänster på skärmen och klicka på **[!UICONTROL Download file]**.
 
    >[!NOTE]
    >

@@ -9,10 +9,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 00714c80-bdaf-4241-bf2f-51498ca1dbef
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 84%
+source-wordcount: '231'
+ht-degree: 80%
 
 ---
 
@@ -30,10 +30,10 @@ Standardrättigheterna är:
 
    >[!NOTE]
    >
-   >Om du behöver arbeta med Experience Cloud-utlösare måste du ha **[!UICONTROL Administration]**-rättigheten för att kunna komma åt Experience Cloud-utlösarmenyn. Mer information om utlösare för Experience Cloud finns på den här [sidan](../../integrating/using/about-adobe-experience-cloud-triggers.md).
+   >Om du arbetar med Experience Cloud-utlösare måste du ha **[!UICONTROL Administration]**-rättigheten för att kunna komma åt Experience Cloud-utlösarmenyn. Mer information om utlösare för Experience Cloud finns på den här [sidan](../../integrating/using/about-adobe-experience-cloud-triggers.md).
 
 * **[!UICONTROL Datamodel]**: Rätt att köra publikationer och skapa anpassade resurser.
-* **[!UICONTROL Generic import]**: Rätt att köra en generisk import av data. Du måste koppla **[!UICONTROL Generic import]**-rollen till **[!UICONTROL Workflow]**-rollen för att detta ska fungera.
+* **[!UICONTROL Generic import]**: Rätt att köra en generisk import av data. För att det här ska fungera måste du länka rollen **[!UICONTROL Generic import]** till rollen **[!UICONTROL Workflow]**.
 * **[!UICONTROL Prepare deliveries]**: Rätt att skapa, ändra, förbereda och ta bort leveranser. Användare med den här rollen kan förbereda leveransen, men kan inte skicka den.
 * **[!UICONTROL Start deliveries]**: Rätt att skapa, ändra, förbereda, skicka och ta bort leveranser.
 * **[!UICONTROL Workflow]**: Rätt att hantera körningen av arbetsflöden (starta, stoppa, pausa, o.s.v.). Användare med den här rollen kan inte skicka en leverans – inte ens i ett arbetsflöde.

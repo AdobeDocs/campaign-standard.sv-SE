@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1565'
-ht-degree: 95%
+source-wordcount: '1563'
+ht-degree: 93%
 
 ---
 
@@ -56,9 +56,9 @@ Om du vill använda SMPP-protokollet kan du även skapa ett nytt externt konto. 
 
    Du kan ange maximal genomströmning för utgående meddelanden (&quot;MT&quot;, Mobile Terminated) i MT per sekund.  Om du anger &quot;0&quot; i motsvarande fält är dataflödet obegränsat.
 
-   Samtliga fältvärden som motsvarar varaktighet måste fyllas i som sekunder.
+   Värdena för alla fält som motsvarar varaktighet måste fyllas i i sekunder.
 
-1. Definiera de specifika SMS-C-parametrarna om du behöver definiera en specifik kodmappning.  Mer information finns i avsnittet [SMSC-specifikationer](#smsc-specifics) .
+1. Definiera de SMS-C-specifika parametrarna om du måste definiera en specifik kodmappning. Mer information finns i avsnittet [SMSC-specifikationer](#smsc-specifics) .
 
    Aktivera **[!UICONTROL Send full phone number (send characters other than digits)]**-alternativet om du inte vill följa SMPP-protokollet och överföra **[!UICONTROL +]** prefixet till SMS-leverantörens server (SMS-C).
 

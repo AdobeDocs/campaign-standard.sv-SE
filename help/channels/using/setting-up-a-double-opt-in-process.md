@@ -8,10 +8,10 @@ feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 188b1750-e062-4328-9829-6f2848356b5c
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 90%
+source-wordcount: '1149'
+ht-degree: 89%
 
 ---
 
@@ -143,7 +143,7 @@ Om du vill skapa och konfigurera den här landningssidan måste du:
 
    ![](assets/optin_acquisition_page1.png)
 
-1. Anpassa bekräftelsesidan för att informera den nya prenumeranten om att han behöver validera sin prenumeration.
+1. Anpassa bekräftelsesidan för att informera nya prenumeranter om att de behöver validera prenumerationen.
 
    ![](assets/optin_acquisition_page2.png)
 

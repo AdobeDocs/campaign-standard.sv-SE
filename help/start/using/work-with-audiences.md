@@ -4,9 +4,9 @@ description: '"Lär dig hur du anpassar visningen och agerar på listskärmar i 
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '785'
 ht-degree: 9%
 
 ---
@@ -58,7 +58,7 @@ Campaign Standard har flera verktyg som hjälper er att utöka er marknadsförin
 
 Med arbetsflöden kan ni samla in data och importera dem till Campaign-databasen med hjälp av [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md)-aktiviteter. Allmän information och bästa praxis vid import av data via arbetsflöden finns i [det här avsnittet](../../automating/using/about-data-import-and-export.md).
 
-Dessutom kan du konfigurera mallar för import av data. Det är bäst att använda importmallar om du behöver importera filer med samma struktur regelbundet. Du kan ställa in två typer av mallar:
+Dessutom kan du konfigurera mallar för import av data. Att använda importmallar är ett bra sätt att importera filer med samma struktur regelbundet. Du kan ställa in två typer av mallar:
 
 * **Arbetsflödesmallar**: Detta är förkonfigurerade arbetsflöden som du kan konfigurera en gång efter behov och återanvända varje gång du vill importera data och uppdatera databasen. Ett exempel på en arbetsflödesmall för import av data finns i [det här avsnittet](../../automating/using/creating-import-workflow-templates.md).
 

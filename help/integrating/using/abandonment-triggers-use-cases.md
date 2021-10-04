@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '994'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -101,7 +101,7 @@ I Adobe Campaign måste du skapa en utlösare länkad till den du skapade i Expe
 
    ![](assets/trigger_uc_browse_10.png)
 
-1. Mottagaren klickar på en länk som för mottagaren till din hemsida.  I det här exemplet placerar banderollen mottagaren på startsidan för resebokningssidan.
+1. Mottagaren klickar på en länk som för honom till er webbplats. I det här exemplet placerar banderollen mottagaren på startsidan för resebokningssidan.
 
    ![](assets/trigger_uc_browse_11.png)
 

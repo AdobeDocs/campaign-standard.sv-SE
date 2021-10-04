@@ -8,10 +8,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 93%
+source-wordcount: '1204'
+ht-degree: 82%
 
 ---
 
@@ -23,7 +23,7 @@ Med Adobe Campaign kan ni tilldela en uppsättning roller till era användare f�
 
 De specifika rollerna och de motsvarande behörigheterna beskrivs i följande avsnitt: [förstå roller](../../administration/using/list-of-roles.md) och [behörigheter](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
 
-Administratörer kan hantera användare i Admin Console.  Användarna synkroniseras sedan automatiskt med Adobe Campaign.  Mer information om detta hittar du i dokumentationen för [Admin Console](https://helpx.adobe.com/se/enterprise/using/users.html) .
+Administratörer kan hantera användare från Admin Console. Användarna synkroniseras sedan automatiskt med Adobe Campaign.  Mer information finns i [Admin Console](https://helpx.adobe.com/se/enterprise/using/users.html)-dokumentationen.
 
 ![](assets/do-not-localize/how-to-video.png) [Upptäck den här funktionen i en video](#video)
 
@@ -43,12 +43,12 @@ Om du vill komma åt gränssnittet för användarhantering från Adobe Campaign 
 
 Användarsegmenteringen är inte obligatorisk utan bara en representation av den vanligaste användningsmetoden av Adobe Campaign.
 
-I det här avsnittet så får du hjälp med att förstå huvudtyperna för Adobe Campaign-användare.    Här går vi inte in på alla specifika roller som en användare kan ha (startleveranser, export, förberedning av leveranser osv.).  Mer information om roller finns i [Lista med roller](../../administration/using/list-of-roles.md) och [Hantera grupper och användarsidor](../../administration/using/managing-groups-and-users.md) .
+I det här avsnittet får du hjälp med att förstå de vanligaste typerna av Adobe Campaign-användare. Mer information om vilka roller en användare kan ha (startleveranser, export, förbered leveranser osv.) finns i [Lista över roller](../../administration/using/list-of-roles.md) och [Hantera grupper och användare](../../administration/using/managing-groups-and-users.md) sidor.
 
 Vi fokuserar istället på hur de olika uppgifterna i Adobe Campaign är uppdelade mellan tre huvudanvändartyper:
 
 * [Funktionsadministratörer](#functional-administrators): bland alla användare i organisationen är dessa de tekniska.
-* [Avancerade användare](#advanced-users): dessa konfigurerar alla element som marknadsföringsteamet behöver för att skicka och övervaka sina leveranser.
+* [Avancerade användare](#advanced-users): de lägger upp alla element som marknadsförarna behöver för att skicka och övervaka sina leveranser.
 * [Grundläggande användare](#basic-users): är de marknadsförare som personaliserar, levererar och övervakar sina kampanjer.
 
 >[!NOTE]
@@ -120,7 +120,7 @@ Om du vill lägga till en användare i instansen måste du först skapa den i Ad
 
    ![](assets/create_user_3.png)
 
-1. Tilldela en eller flera säkerhetsgrupper till användaren i fliken **[!UICONTROL Assign products]** .  Mer information om säkerhetsgrupper hittar du på den här [sidan](../../administration/using/managing-groups-and-users.md).
+1. Tilldela en eller flera säkerhetsgrupper till användaren på fliken **[!UICONTROL Assign products]**. Mer information om säkerhetsgrupper hittar du på den här [sidan](../../administration/using/managing-groups-and-users.md).
 
    Klicka på **[!UICONTROL Save]** när du är klar med konfigurationen.
 
@@ -130,7 +130,7 @@ Användaren har nu skapats och ska få ett e-postmeddelande som omdirigeras till
 
 ![](assets/create_user_5.png)
 
-Användaren synkroniseras med Adobe Campaign Standard så snart han eller hon loggar in på instansen.
+När användaren signerar till din instans synkroniseras den till Adobe Campaign Standard.
 
 Sedan kan du kontrollera om din användare har synkroniserats korrekt till Adobe Campaign:
 

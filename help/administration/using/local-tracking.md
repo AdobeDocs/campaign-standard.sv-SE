@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b983d0a3-c345-44d4-bc82-202bf6ed26ab
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ För klickspårning måste du skicka värdet &quot;2&quot; för åtgärd när du
 
 ### För Android {#implement-click-tracking-android}
 
-Om du vill spåra klickningar måste två scenarier hanteras:
+För att spåra klickningar måste två scenarier implementeras:
 
 * Användaren ser meddelandet men rensar det.
 
@@ -105,7 +105,7 @@ Du måste skicka &quot;1&quot; och &quot;2&quot; eftersom användaren måste kli
 
 ### För Android {#implement-open-tracking-android}
 
-Vi måste skapa en avsikt för att kunna spåra öppning. Återgivningsobjekt gör att Android OS kan anropa din metod när vissa åtgärder är klara. I det här fallet klickar du på meddelandet för att öppna programmet.
+Vi måste skapa en avsikt för att kunna spåra öppna. Återgivningsobjekt gör att Android OS kan anropa din metod när vissa åtgärder är klara. I det här fallet klickar du på meddelandet för att öppna programmet.
 
 Den här koden baseras på implementeringen av klickningsvisningsspårning. Med avsikt inställd måste du nu skicka spårningsinformation tillbaka till Adobe Campaign. I det här fallet kommer Android-vyn ([!DNL Activity]) som utlöste meddelandet att öppnas eller visas i förgrunden som ett resultat av klickningen av användaren. Inent-objektet i [!DNL Activity] innehåller meddelandedata som kan användas för att spåra öppning.
 
@@ -128,7 +128,7 @@ private void handleTracking() {
  
     if (data != null) {
 
-        //Opened based on the notification, you need to get the tracking that was passed on.
+        //Opened based on the notification, you must get the tracking that was passed on.
 
         Map<String, String> notificationData = (Map<String, Object>)data.getSerializableExtra("NOTIFICATION_USER_INFO");
         String deliveryId = (String)notificationData.get("deliveryId");

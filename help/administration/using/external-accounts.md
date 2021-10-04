@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 84%
+source-wordcount: '1763'
+ht-degree: 81%
 
 ---
 
@@ -159,7 +159,7 @@ När du konfigurerar det nya externa kontot måste du ange följande information
 
 Med Google reCAPTCHA-mekanismen kan du skydda din landningssida mot skräppost och missbruk som orsakas av bottar. Detta är icke-störande för kunderna eftersom det inte kräver någon interaktion från dem och baseras på interaktioner med webbplatsen. Om du vill registrera webbplatsen ska du läsa den här [sidan](https://www.google.com/recaptcha/admin/create). Du måste välja typen V3 reCAPTCHA.
 
-Om du vill lägga till Google reCAPTCHA V3 på landningssidan måste du först konfigurera den på ditt externa konto. Mer information om hur du lägger till den på landningssidan finns i det här [avsnittet](../../channels/using/configuring-landing-page.md#setting-google-recaptcha).
+Om du vill lägga till Google reCAPTCHA V3 på din landningssida konfigurerar du det på ditt externa konto. Mer information om hur du lägger till den på landningssidan finns i det här [avsnittet](../../channels/using/configuring-landing-page.md#setting-google-recaptcha).
 
 Ange följande information för ett externt Google reCAPTCHA V3-konto:
 
@@ -186,7 +186,7 @@ Ange följande information för ett externt Microsoft Azure Blob Storage-konto:
 * **[!UICONTROL Type]**: Microsoft Azure Blob Storage
 * Din **[!UICONTROL Account name]** och **[!UICONTROL Account key]**. Besök den här [sidan](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage) för information om var du hittar kontonamn och nyckeln.
 * Din **[!UICONTROL Endpoint suffix]**. Den finns i din **[!UICONTROL Connection string]** på menyn **[!UICONTROL Access keys]** i Azure Portal. Mer information om detta finns på den här [sidan](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
-* Ditt **[!UICONTROL Container]**-namn. Om du planerar att använda mer än en behållare måste du skapa lika många externa konton som det finns behållare.
+* Ditt **[!UICONTROL Container]**-namn. Om du planerar att använda mer än en behållare skapar du lika många externa konton som behållare.
 * Med alternativet **[!UICONTROL Concurrency]** kan du finjustera hastigheten på filöverföringar.
 
 ![](assets/external_accounts_4.png)
