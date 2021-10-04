@@ -4,10 +4,10 @@ description: Läs mer om sekretesshantering med API:er
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 210289d44f0ad0ebf0b2654f6e9795adad7dd458
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 4%
+source-wordcount: '107'
+ht-degree: 0%
 
 ---
 
@@ -27,4 +27,4 @@ Sekretess-API-slutpunkten är **/privacy/privacyTool**. Resursbeskrivningen för
 
 CCPA-avanmälan hanteras med profilattributet **ccpaOptOut**.
 
-Mer information om Adobe Campaign Standard och sekretessefterlevnad finns i [dedikerad dokumentation](https://helpx.adobe.com/se/campaign/kb/acs-privacy.html).
+Mer information om Adobe Campaign Standard och sekretessefterlevnad finns i [dedikerad dokumentation](../../start/using/privacy-requests.md).
