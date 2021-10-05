@@ -8,9 +8,9 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '551'
 ht-degree: 17%
 
 ---
@@ -90,7 +90,7 @@ Du kan skapa ett e-postmeddelande från en [kampanj](../../start/using/marketing
 
 **Relaterade ämnen**:
 
-* [Skapa en personlig ](https://helpx.adobe.com/se/campaign/kb/acs-get-started-with-emails.html) e-postguide steg för steg
+* [Skapa en personlig ](../../channels/using/key-steps-to-send-a-message.md) e-postguide steg för steg
 * [Integrering med Adobe Campaign och Dreamweaver](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 * [Integrera med Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
 

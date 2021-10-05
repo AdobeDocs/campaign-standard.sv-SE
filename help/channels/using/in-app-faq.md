@@ -8,9 +8,9 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '668'
 ht-degree: 2%
 
 ---
@@ -39,7 +39,7 @@ Eftersom meddelanden i appen hämtas av SDK från Campaign vill vi ha en säker 
 
 ## Vad måste jag göra för att aktivera rapportering i appen i Campaign? {#enable-inapp-reporting}
 
-Du måste konfigurera återanslående i appen. Instruktioner finns [här](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#InApptrackingpostback).
+Du måste konfigurera återanslående i appen. Instruktioner finns [här](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback).
 
 För att implementera lokal meddelandespårning, se den här [sidan](../../administration/using/local-tracking.md).
 

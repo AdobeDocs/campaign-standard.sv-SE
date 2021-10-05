@@ -9,10 +9,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 50%
+source-wordcount: '1237'
+ht-degree: 49%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 50%
 
 Med Adobe Campaign så kan du skicka personaliserade och segmenterade push-meddelanden till mobilenheter med iOS eller Android.
 
-Dessa meddelanden tas emot i mobilappar som du har skapat i Adobe Campaign genom att använda Experience Platform SDK.  Mer information finns i [Konfigurera ett mobilprogram med SDK:er för Adobe Experience Platform](https://helpx.adobe.com/se/campaign/kb/configuring-app-sdk.html).
+Dessa meddelanden tas emot i mobilappar som du har skapat i Adobe Campaign genom att använda Experience Platform SDK.  Mer information finns i [Konfigurera ett mobilprogram med SDK:er för Adobe Experience Platform](../../administration/using/configuring-a-mobile-application.md).
 
 I Adobe Campaign lagras data för mobilprofilattribut som skickas från mobila enheter i resursen **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**, vilket gör att du kan definiera de data som du vill samla in från programprenumeranterna.
 
@@ -40,8 +40,6 @@ Det finns två typer av push-meddelanden i Adobe Campaign:
 
 Vissa specifika konfigurationer kan konfigureras för att definiera beteendet av ett meddelande.  Mer information om detta hittar du i [det här avsnittet](../../channels/using/customizing-a-push-notification.md).
 
-Om du är en expertanvändare och vill definiera de specifika konfigurationerna, se mobilappens [tekniska anteckningar](https://helpx.adobe.com/se/campaign/kb/acs-article-list.html).
-
 >[!NOTE]
 >
 >Lagar om integritet skiljer sig mellan olika länder.  I vissa länder måste du informera användarna om vilka typer av data som samlas in av mobilappen.  Kontrollera lagstiftningen för mobilappar i ditt land.  Kontrollera att push-meddelanden som skickas till mobilappen uppfyller de krav och villkor som anges av Apple (Apple Push Notification Service) och Google (Google Cloud Messaging eller Firebase Cloud Messaging).
@@ -51,7 +49,7 @@ Om du är en expertanvändare och vill definiera de specifika konfigurationerna,
 * [Förbereda och skicka ett push-meddelande](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [Skapa ett flerspråkigt push-meddelande](../../channels/using/creating-a-multilingual-push-notification.md)
 * [Rapport om push-meddelanden](../../reporting/using/push-notification-report.md)
-* [Guide för Campaign Standard Mobile](https://helpx.adobe.com/se/campaign/kb/acs-mobile.html)
+* [Guide för Campaign Standard Mobile](../../channels/using/get-started-communication-channels.md)
 
 ## Förhandskrav {#prerequisites}
 
@@ -70,11 +68,11 @@ Innan du skickar ett push-meddelanden bör du:
 
 1. Installera tillägg **[!UICONTROL Adobe Campaign Standard]** i Experience Platform Launch.
 
-1. Konfigurera den mobila egenskapen som du skapade i Experience Platform Launch i Adobe Campaign Standard.  Mer information hittar du under [Konfigurera programmet Experience Platform Launch i Adobe Campaign](https://helpx.adobe.com/se/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeExperiencePlatformLaunchapplicationinAdobeCampaign).
+1. Konfigurera den mobila egenskapen som du skapade i Experience Platform Launch i Adobe Campaign Standard.  Mer information hittar du under [Konfigurera programmet Experience Platform Launch i Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
 1. Lägg till den kanalspecifika konfigurationen i installationen av mobilprogrammet.  Mer information finns i [Kanalspecifik programkonfiguration i Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
-1. Information om stöd för implementering av mobilanvändning finns i de detaljerade instruktionerna gällande tillägg och regler för Experience Platform Launch och SDK-implementering i [mobilanvändningsfall som stöds i Adobe Campaign Standard med hjälp av SDK:er](https://helpx.adobe.com/se/campaign/kb/configure-launch-rules-acs-use-cases.html)för Adobe Experience Platform.
+1. Information om stöd för implementering av mobilanvändning finns i de detaljerade instruktionerna gällande tillägg och regler för Experience Platform Launch och SDK-implementering i [mobilanvändningsfall som stöds i Adobe Campaign Standard med hjälp av SDK:er](../../administration/using/configuring-rules-launch.md)för Adobe Experience Platform.
 
 ## Vanliga frågor om push-meddelanden {#push-faq}
 

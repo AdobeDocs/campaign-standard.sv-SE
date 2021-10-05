@@ -8,9 +8,9 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '443'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ Om du vill börja skicka meddelanden via app-maddelanden till mobil-appar som an
 
 1. Kontrollera att du har åtkomst till kanalen **[!UICONTROL In-App]** i Adobe Campaign. Om du inte har tillgång till de här kanalerna kontaktar du kontoteamet.
 
-1. För att kunna använda mobilanvändningsexempel i Adobe Campaign Standard med en Experience Cloud SDK-applikation måste en mobilapp skapas i Adobe Experience Platform Launch och konfigureras i Adobe Campaign Standard. Om du vill ha en steg för steg-guide läser du på den här [sidan](https://helpx.adobe.com/se/campaign/kb/configuring-app-sdk.html).
+1. För att kunna använda mobilanvändningsexempel i Adobe Campaign Standard med en Experience Cloud SDK-applikation måste en mobilapp skapas i Adobe Experience Platform Launch och konfigureras i Adobe Campaign Standard. Om du vill ha en steg för steg-guide läser du på den här [sidan](../../administration/using/configuring-a-mobile-application.md).
 
 1. När du har konfigurerat det kan du nu förbereda ditt meddelande i appen. Mer information om detta hittar du p¨å den här [sidan](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message).
 
@@ -38,8 +38,8 @@ Om du vill börja skicka meddelanden via app-maddelanden till mobil-appar som an
 **Relaterat innehåll:**
 
 * [Rapport i appen](../../reporting/using/in-app-report.md)
-* [Mobil användning som stöds av Adobe Campaign Standard](https://helpx.adobe.com/se/campaign/kb/configure-launch-rules-acs-use-cases.html)
-* [Guide för Campaign Standard Mobile](https://helpx.adobe.com/se/campaign/kb/acs-mobile.html)
+* [Mobila användningsfall som stöds av Adobe Campaign Standard](../../administration/using/configuring-rules-launch.md)
+* [Guide för Campaign Standard Mobile](../../channels/using/get-started-communication-channels.md)
 
 ## Hantera mobilprofilfält med personliga och känsliga data {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
 

@@ -8,10 +8,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b81f6e9-cb31-4664-af78-22e70043fbc8
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 3%
+source-wordcount: '903'
+ht-degree: 2%
 
 ---
 
@@ -59,7 +59,7 @@ Innan vi personaliserar ditt flerspråkiga push-meddelande måste vi först öve
 
 1. I fönstret **[!UICONTROL Manage Content Variants]** drar och släpper du filen eller väljer en fil från datorn.
 
-   Filen måste vara UTF8-kodad och ha en viss layout som du kan hitta genom att klicka på alternativet **[!UICONTROL Download the sample file]**. Du bör också använda rätt syntax för nationella värden. Mer information om filformat och vilka språk som stöds finns i [technote](https://helpx.adobe.com/se/campaign/kb/acs-generate-csv-multilingual-push.html).
+   Filen måste vara UTF8-kodad och ha en viss layout som du kan hitta genom att klicka på alternativet **[!UICONTROL Download the sample file]**. Du bör också använda rätt syntax för nationella värden. Mer information om filformat och vilka språk som stöds finns på den här [sidan](../../channels/using/generating-csv-multilingual-push.md).
 
    ![](assets/multivariant_push_4.png)
 
@@ -132,4 +132,3 @@ Nu kan du mäta effekten av den flerspråkiga push-meddelandeleveransen på mott
 
 * [Rapport om push-meddelanden](../../reporting/using/push-notification-report.md)
 * [Skicka ett push-meddelande inom ett arbetsflöde](../../automating/using/push-notification-delivery.md)
-* [Att nå flerspråkiga målgrupper med ett och samma arbetsflöde](https://helpx.adobe.com/se/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)

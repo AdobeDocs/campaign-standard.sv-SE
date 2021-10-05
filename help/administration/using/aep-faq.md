@@ -8,9 +8,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '907'
 ht-degree: 4%
 
 ---
@@ -76,7 +76,7 @@ För att göra detta, följ nedanstående steg:
 
 ## Vad måste jag göra för att berika en mobilprofil i Campaign? {#enrich-mobile-profile}
 
-Du måste konfigurera en CollectPII-återanslående (se denna [sida](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback)) och implementera CollectPII API från SDK (se denna [sida](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)).
+Du måste konfigurera en CollectPII-återanslående (se denna [sida](../../administration/using/configuring-rules-launch.md#pii-postback)) och implementera CollectPII API från SDK (se denna [sida](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)).
 
 ## Hur ofta ska ett CollectPII-anrop utlösas? {#collect-pii}
 

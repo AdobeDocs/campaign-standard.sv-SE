@@ -9,10 +9,10 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: a7f22d92-dbf9-4c2b-8fc1-1e31d1e5e79c
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 23%
+source-wordcount: '264'
+ht-degree: 21%
 
 ---
 
@@ -40,7 +40,7 @@ För att kunna leverera SMS-meddelanden till en mobiltelefon behöver du:
 * [Hantera mallar](../../start/using/marketing-activity-templates.md)
 * [SMS-konfiguration](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
 * [SMS-rapport](../../reporting/using/sms-report.md)
-* [Guide för Campaign Standard Mobile](https://helpx.adobe.com/se/campaign/kb/acs-mobile.html)
+* [Guide för Campaign Standard Mobile](../../channels/using/get-started-communication-channels.md)
 
 ## SMS-leveransmall {#sms-delivery-template}
 

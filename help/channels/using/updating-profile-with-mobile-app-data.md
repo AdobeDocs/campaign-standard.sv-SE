@@ -9,10 +9,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 4%
+source-wordcount: '996'
+ht-degree: 3%
 
 ---
 
@@ -32,8 +32,8 @@ Målet med det här användningsexemplet är att skapa eller uppdatera en Campai
 Det finns flera konfigurationssteg som ska utföras för att aktivera push-meddelanden i Campaign Standarden, innan profiler kan skapas eller uppdateras baserat på prenumerationsdata för mobilappar:
 
 1. [Skapa ett mobilprogram](../../administration/using/configuring-a-mobile-application.md)
-1. [Integrera Adobe Mobile SDK med mobilapplikationen](https://helpx.adobe.com/se/campaign/kb/integrate-mobile-sdk.html).
-1. [Konfigurera Adobe Campaign för att skicka push-meddelanden](https://helpx.adobe.com/se/campaign/kb/configuring-app-sdkv4.html).
+1. [Integrera Adobe Mobile SDK med mobilapplikationen](../../administration/using/supported-mobile-use-cases.md).
+1. [Konfigurera Adobe Campaign för att skicka push-meddelanden](../../administration/using/configuring-a-mobile-application.md).
 
 ## Steg 1 - Utöka profilresursen för push-meddelanden/prenumerationer
 

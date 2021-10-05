@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 20%
+source-wordcount: '415'
+ht-degree: 18%
 
 ---
 
@@ -30,9 +30,9 @@ Push-meddelanden stöds av Experience Platform SDK:er.
 
 De mobilprogram som tar emot push-meddelanden måste konfigureras av en administratör i Adobe Campaign-gränssnittet.
 
-Genom att konfigurera både Adobe Campaign och Adobe Mobile Services kan ni använda mobilprogrammets data för era kampanjer. Se denna [sida](https://helpx.adobe.com/se/campaign/kb/configuring-app-sdk.html) för mer information om detta.
+Genom att konfigurera både Adobe Campaign och Adobe Mobile Services kan ni använda mobilprogrammets data för era kampanjer. Se denna [sida](../../administration/using/configuring-a-mobile-application.md) för mer information om detta.
 
-Om du vill skicka push-meddelanden med ett Experience Cloud SDK-program måste en mobilapp konfigureras i Adobe Experience Platform Launch och konfigureras i Adobe Campaign. Se denna [sida](https://helpx.adobe.com/se/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign) för mer information om detta.
+Om du vill skicka push-meddelanden med ett Experience Cloud SDK-program måste en mobilapp konfigureras i Adobe Experience Platform Launch och konfigureras i Adobe Campaign. Se denna [sida](../../administration/using/configuring-a-mobile-application.md#channel-specific-config) för mer information om detta.
 
 ## Steg 2: Anpassa push-meddelanden i Adobe Campaign {#customize-push}
 

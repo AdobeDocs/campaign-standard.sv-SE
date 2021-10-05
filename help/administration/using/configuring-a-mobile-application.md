@@ -8,9 +8,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: '1248'
 ht-degree: 5%
 
 ---
@@ -25,11 +25,9 @@ ht-degree: 5%
 
 Om du vill skicka push-meddelanden och meddelanden i appen med Experience Platform SDK-programmet måste ett mobilprogram konfigureras i Adobe Experience Platform Experience Platform Experience Platform Launch och i Adobe Campaign.
 
-Mer information om den borttagna funktionen Mobile version 4 SDK finns på den här [sidan](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4-deprecated.html).
-
 När du har konfigurerat ett mobilprogram kan du hämta de PII-data som samlas in för att skapa eller uppdatera profiler från databasen. Mer information finns i följande avsnitt: [Skapa och uppdatera profilinformation baserat på data för mobilprogram](../../channels/using/updating-profile-with-mobile-app-data.md).
 
-Om du vill veta mer om de olika användningsfall för mobila enheter som stöds i Adobe Campaign Standard med hjälp av Adobe Experience Platform SDK:er kan du gå till den här [sidan](https://helpx.adobe.com/se/campaign/kb/configure-launch-rules-acs-use-cases.html).
+Om du vill veta mer om de olika användningsfall för mobila enheter som stöds i Adobe Campaign Standard med hjälp av Adobe Experience Platform SDK:er kan du gå till den här [sidan](../../administration/using/supported-mobile-use-cases.md).
 
 Slutför konfigurationen genom att utföra följande steg:
 

@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1141'
 ht-degree: 3%
 
 ---
@@ -216,7 +216,7 @@ Mer information om olika aspekter av en android-nyttolast finns i [Messaging Con
 | Mutable Content <br> (Endast tillämpligt för iOS 10 eller senare) | mutable-content | NA | Meddelandetjänsttillägget i din app&quot;fångar&quot; alla fjärrmeddelanden med nyckeln för det ändringsbara innehållet och gör att du kan hantera/ändra innehållet i den begärande nyttolasten, som sedan kan användas för att anpassa meddelandet. Exempel på den här funktionen är att hämta och visa flera media, och dekryptera krypterade data som finns i push-nyttolasten. Mer information finns i [Ändra nyttolasten för ett fjärrmeddelande](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). <br>(Gäller endast iOS 10 eller senare) |
 | Innehåll är tillgängligt | innehållstillgänglig | NA | Om du väljer det här alternativet aktiveras aktivering av en iOS-app när den är i bakgrunden/pausat läge. Uppvaknandet innebär att appen körs i bakgrunden och att den lämpliga händelsehanteraren som ansvarar för att ta emot datanyttolasten för push-meddelanden får en kontroll och kan använda data för att utföra alla beräkningar, inklusive men inte begränsat till att skapa anpassade push-meddelanden och visa samma. Mer information finns i [Starta program med meddelandeleverans](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
 | URL för multimediainnehåll (bildfiler)<br>(Gäller endast för Android) | NA | media-attachment-url | URL-adressen till bildfilerna för att lägga till avancerat innehåll i meddelandet. |
-| NA | _mId<br>_dId | _mId <br>_dId | Värden för broadlogId och deliveryId.<br>Dessa attribut krävs om appen vill anropa ett återanslående som spårar när push-meddelandet klickades/öppnades. Den här informationen beräknas och skickas internt av programservern utan att användaren behöver göra något.<br>Information om återanslående finns på den här  [sidan](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback). |
+| NA | _mId<br>_dId | _mId <br>_dId | Värden för broadlogId och deliveryId.<br>Dessa attribut krävs om appen vill anropa ett återanslående som spårar när push-meddelandet klickades/öppnades. Den här informationen beräknas och skickas internt av programservern utan att användaren behöver göra något.<br>Information om återanslående finns på den här  [sidan](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback). |
 
 ### Hämta nyttolastinformation i mobilappskoden {#payload-information}
 

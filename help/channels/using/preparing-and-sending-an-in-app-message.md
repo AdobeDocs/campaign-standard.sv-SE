@@ -8,9 +8,9 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 2ad76d55785f123b590e00c8d33552f4617c32e2
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1157'
 ht-degree: 98%
 
 ---
@@ -58,7 +58,7 @@ Stegen för att skapa ett fristående meddelande i appen med Adobe Campaign är 
    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**
    * **[!UICONTROL Target users based on their Mobile profile (inApp)]**
 
-1. Ange egenskaperna för Meddelande i appen och välj din mobilapp i fältet **[!UICONTROL Associate a Mobile App to a delivery]**. Observera att om du inte konfigurerade din mobilapp med Adobe Campaign Standard visas den inte i listan. Mer information om konfiguration av mobilprogram finns på den här [sidan](https://helpx.adobe.com/se/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
+1. Ange egenskaperna för Meddelande i appen och välj din mobilapp i fältet **[!UICONTROL Associate a Mobile App to a delivery]**. Observera att om du inte konfigurerade din mobilapp med Adobe Campaign Standard visas den inte i listan. Mer information om konfiguration av mobilprogram finns på den här [sidan](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
    ![](assets/inapp_creating_3.png)
 
@@ -74,7 +74,7 @@ Stegen för att skapa ett fristående meddelande i appen med Adobe Campaign är 
 
    * **[!UICONTROL Mobile Application events]**: Anpassade händelser som implementeras i ditt mobilprogram.
 
-      Mer information om skapande av händelser finns på den här [sidan](https://helpx.adobe.com/se/campaign/kb/configuring-app-sdk.html).
+      Mer information om skapande av händelser finns på den här [sidan](../../administration/using/configuring-a-mobile-application.md).
 
    * **[!UICONTROL Life Cycle events]**: Körklara livscykelhändelser som stöds av Adobe Mobile SDK.
 
@@ -86,7 +86,7 @@ Stegen för att skapa ett fristående meddelande i appen med Adobe Campaign är 
 
    * **[!UICONTROL Places]**: Följande tre kategorier utnyttjar platsdata i realtid för att leverera innehållsmässigt relevanta mobilupplevelser: Placerar kontextdata, Placerar anpassade metadata eller Placerar händelsetyp.
 
-      Mer information om Adobe Platser finns i [Platsdokumentationen](https://placesdocs.com/).
+      Mer information om Adobe Platser finns i [Platsdokumentationen](https://experienceleague.adobe.com/docs/places/using/home.html).
    ![](assets/inapp_creating_4.png)
 
 1. Om du använder ett **[!UICONTROL Analytics Events]** fylls händelserna Adobe Analytics och Vytillstånd i automatiskt baserat på de rapportsviter som konfigurerats i Analytics-tillägget i Adobe Experience Platform Launch, medan kontextdatahändelser måste läggas till manuellt.
@@ -103,7 +103,7 @@ Stegen för att skapa ett fristående meddelande i appen med Adobe Campaign är 
 
    ![](assets/inapp_creating_5.png)
 
-1. Redigera innehållet i meddelandet och definiera de avancerade alternativen. Se [Anpassa ett meddelande i appen](https://helpx.adobe.com/campaign/standard/channels/using/customizing-an-in-app-message.html).
+1. Redigera innehållet i meddelandet och definiera de avancerade alternativen. Se [Anpassa ett meddelande i appen](../../channels/using/customizing-an-in-app-message.md).
 
    ![](assets/inapp_creating_6.png)
 
