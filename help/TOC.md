@@ -77,7 +77,7 @@ ht-degree: 99%
       + [Åtkomst till meddelanden](channels/using/accessing-messages.md)
       + [Kontrollpanel för meddelanden](channels/using/message-dashboard.md)
       + [Mallar för flerspråkiga meddelanden](channels/using/multilingual-messages-template.md)
-      + [Kom igång med mobilkanaler](channels/using/mobile-guide.md)
+      + [Kom igång med mobila kanaler](channels/using/mobile-guide.md)
    + Bästa praxis för leverans {#delivery-bestpractices}
       + [Lär dig bästa praxis](sending/using/delivery-best-practices.md)
       + [Optimera leverans](sending/using/optimize-delivery.md)
