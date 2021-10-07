@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '650'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -94,31 +94,31 @@ Observera att språket konfigureras vid installationen och inte kan ändras efte
 
 ### E-postdesigner {#email-designer-shortcuts}
 
-| Åtgärd | Windows-genväg | kortkommando för macOS |
+| Åtgärd | Windows-genväg | Genväg för macOS |
 | --- | --- | --- |
-| Ångra | Ctrl + Z | Cmd + Z |
-| Gör om | Ctrl + Y | Skift + Kommando + Z |
+| Ångra | Ctrl + Z | Kommando + Z |
+| Göra om | Ctrl + Y | Skift + Kommando + Z |
 
 ### Dynamiska rapporter {#report-shortcuts}
 
-| Åtgärd | Windows-genväg | kortkommando för macOS |
+| Åtgärd | Windows-genväg | Genväg för macOS |
 | --- | --- | --- |
 | Öppna ett projekt | Ctrl + O | Kommando + O |
-| Spara | Ctrl + S | Cmd + S |
+| Spara | Ctrl + S | Kommando + S |
 | Spara som | Skift + Ctrl + S | Skift + Kommando + S |
 | Uppdatera projekt | Alt + R | Kommando + R |
 | Hämta CSV-fil | Skift + Ctrl + V | Skift + Kommando + V |
-| Skriv ut | Alt + P | Cmd + P |
-| Ångra | Ctrl + Z | Cmd + Z |
-| Gör om | Ctrl + Y | Skift + Kommando + Z |
-| Ny tom panel | Alt + B | Alt+B |
-| Ny frihandsfigur | Alt + A | Alt + A |
-| Ny frihandstabell | Alt + 1 | Alt+1 |
-| Ny rad | Alt + 2 | Alt+2 |
-| Nytt fält | Alt + 3 | Alt+3 |
-| Skicka rapport nu | Alt + S | Alt+S |
-| Skicka rapport enligt schema | Skift + Alt + S | Skift+Alt+S |
-| Schemalagda rapporter | Skift+Alt+L | <!-- Should be 'Shift + Option + L ' but does not work on Mac --> |
+| Skriv ut | Alt + P | Kommando + P |
+| Ångra | Ctrl + Z | Kommando + Z |
+| Göra om | Ctrl + Y | Skift + Kommando + Z |
+| Ny tom panel | Alt + B | Option + B |
+| Ny frihandsfigur | Alt + A | Option + A |
+| Ny frihandstabell | Alt + 1 | Option + 1 |
+| Ny rad | Alt + 2 | Option + 2 |
+| Nytt fält | Alt + 3 | Option + 3 |
+| Skicka rapport nu | Alt + S | Option + S |
+| Skicka rapport enligt schema | Skift + Alt + S | Skift + Option + S |
+| Schemalagda rapporter | Skift + Alt + L | <!-- Should be 'Shift + Option + L ' but does not work on Mac --> |
 
 ## Vidare läsning {#further-reading}
 
