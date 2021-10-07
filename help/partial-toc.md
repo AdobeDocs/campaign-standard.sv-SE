@@ -4,7 +4,7 @@ title: Produktdokumentation för Adobe Campaign Standard
 description: Bläddra i produktdokumentationen för Adobe Campaign Standard
 topic: Premium
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '35'
 ht-degree: 100%
 
@@ -19,5 +19,5 @@ ht-degree: 100%
    + [Om typologiregler – lista](sending/using/about-typology-rules.md#typology-rules)
    + [Konfigurera e-postkanal](administration/using/configuring-email-channel.md)
    + [Filtreringsregler](sending/using/filtering-rules.md)
-+ Startar{#starting}
++ Starta{#starting}
    + [Om gränssnittet](start/using/about-the-interface.md)
