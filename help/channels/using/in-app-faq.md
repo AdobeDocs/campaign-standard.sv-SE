@@ -7,8 +7,7 @@ topic-tags: in-app-messaging
 context-tags: delivery,triggers,back
 feature: In App
 role: User
-exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: df7fce6f2fd98688e5a1fb5bc84603e6b3df5cd4
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 2%
@@ -57,7 +56,7 @@ Om målet är att skicka ett meddelande i appen på ett annat språk än engelsk
 
 ![](assets/faq_inapp.png)
 
-## Kan kampanjanpassningsfält läggas till i anpassad HTML? {#custom-html-inapp}
+## Kan fält för kampanjanpassning läggas till i anpassad HTML? {#custom-html-inapp}
 
 Nej, det stöds inte ännu.
 
@@ -65,7 +64,7 @@ Nej, det stöds inte ännu.
 
 För varningsmeddelanden krävs minst en stängningsknapp (primär eller sekundär bör ha åtgärdsstängning). Annars går det att spara meddelandet, men det kommer inte att tas emot.
 
-## Om lokala meddelanden iOS-anpassat ljud inte spelas upp, spelas standardljudet upp i stället? {#local-notification-sound}
+## Om lokala meddelanden visas spelas iOS anpassade ljud inte upp; spelas standardljudet upp i stället? {#local-notification-sound}
 
 För anpassat ljud på iOS måste du ange ett filnamn med filnamnstillägget när du skapar ett lokalt meddelande (till exempel sound.caf). Om det här tillägget inte anges används standardljudet.
 
