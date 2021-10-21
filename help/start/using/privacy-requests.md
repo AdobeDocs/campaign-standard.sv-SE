@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1599'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -45,15 +45,15 @@ Det är därför ditt ansvar som personuppgiftsansvarig att bekräfta identitete
 
 ### Namnrymder {#namesspaces}
 
-Innan du skapar sekretessförfrågningar definierar du det namnutrymme som du ska använda. Namnrymden är nyckeln som används för att identifiera den registrerade i databasen i Adobe Campaign. Det finns två färdiga namnrymder: e-post och mobiltelefon. Om du behöver en annan namnrymd (såsom ett anpassat profilfält) ska du följa de här stegen.
+Innan du skapar förfrågningar om användarens information måste du definiera det namnutrymme som ska användas. Namnrymden är nyckeln som används för att identifiera den registrerade i databasen i Adobe Campaign. Det finns två färdiga namnrymder: e-post och mobiltelefon. Om du behöver en annan namnrymd (såsom ett anpassat profilfält) ska du följa de här stegen.
 
 Se även den här [självstudiekursen](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html?lang=sv#privacy) om hur du skapar en namnrymd.
 
 >[!NOTE]
 >
->Om du använder flera namnutrymmen skapar du en sekretessförfrågan per namnutrymme.
+>Om du använder flera namnutrymmen skapar du en förfrågning om användarens information per namnutrymme.
 
-1. Klicka på Adobe Campaign logotyp i det övre vänstra hörnet och välj sedan **[!UICONTROL Administration]** > **[!UICONTROL Namespaces]**.
+1. Klicka på Adobe Campaign-logotypen i det övre vänstra hörnet och välj sedan **[!UICONTROL Administration]** > **[!UICONTROL Namespaces]**.
 
    ![](assets/privacy-namespaces.png)
 
@@ -75,9 +75,9 @@ Se även den här [självstudiekursen](https://experienceleague.adobe.com/docs/c
 
    Mer information om namnrymder för identiteter finns i dokumentationen för [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=sv) .
 
-1. Namnrymden för en identitetstjänst registreras till en namnrymd i Campaign. Du måste ange hur namnutrymmet ska förenas i Campaign.
+1. Namnrymden för en identitetstjänst registreras till en namnrymd i Campaign. Du måste ange hur namnutrymmet ska stämmas av i Campaign.
 
-   Välj en målregistrering (**[!UICONTROL Recipients]**, **[!UICONTROL Real-time event]** eller **[!UICONTROL Subscriptions to an application]**). Om du vill använda flera målmappningar skapar du ett namnutrymme per målmappning.
+   Välj en målmappning (**[!UICONTROL Recipients]**, **[!UICONTROL Real-time event]** eller **[!UICONTROL Subscriptions to an application]**). Om du vill använda flera målmappningar måste du skapa ett namnutrymme per målmappning.
 
    ![](assets/privacy-namespace-target-mapping.png)
 
@@ -85,7 +85,7 @@ Se även den här [självstudiekursen](https://experienceleague.adobe.com/docs/c
 
    ![](assets/privacy-namespace-reconciliation-key.png)
 
-1. Klicka på **[!UICONTROL Create]**. Du kan nu skapa förfrågningar om användarens information baserat på din nya namnrymd. Om du använder flera namnutrymmen skapar du en sekretessförfrågan per namnutrymme.
+1. Klicka på **[!UICONTROL Create]**. Du kan nu skapa förfrågningar om användarens information baserat på din nya namnrymd. Om du använder flera namnutrymmen skapar du en förfrågning om användarens information per namnutrymme.
 
 ### Skapa en förfrågan om användarens information {#create-privacy-request}
 
@@ -103,8 +103,8 @@ Varje jobb i Privacy core service delas upp i flera förfrågningar om användar
 
 Mönstret för ett filnamn är: `<InstanceName>-<NamespaceId>-<ReconciliationKey>.xml`
 
-* **InstansNamn**: namn på instansen i Campaign
-* **Namnrymd-ID**: identitetstjänstens namnrymd-ID för den namnrymd som används
+* **InstanceName**: namn på instansen i Campaign
+* **NamespaceId**: identitetstjänstens namnrymd-ID för den namnrymd som används
 * **Avstämningsnyckel**: krypterad avstämningsnyckel
 
 ### Lista över resurser {#list-of-resources}
@@ -127,9 +127,9 @@ Om du har skapat anpassade resurser som har en länk till profilresursen (egen t
 
 Se även [den här självstudiekursen](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html?lang=sv#privacy) om hur du modifierar anpassade resurser.
 
-För att detta ska fungera måste du välja alternativet **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** i den anpassade resursen:
+För att det här ska fungera måste du välja alternativet **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** i den anpassade resursen:
 
-1. Klicka på Adobe Campaign logotyp i det övre vänstra hörnet och välj sedan **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]**.
+1. Klicka på Adobe Campaign-logotypen i det övre vänstra hörnet och välj sedan **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]**
 
 1. Välj en anpassad resurs som har en länk till profilresursen (egen typ).
 
