@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '994'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -64,7 +64,7 @@ Nu när vi har skapat en Experience Cloud-utlösare kan vi använda den i Adobe 
 
 I Adobe Campaign måste du skapa en utlösare länkad till den du skapade i Experience Cloud.
 
-1. Om du vill skapa utlösaren i Adobe Campaign klickar du på logotypen **Adobe** i det övre vänstra hörnet och väljer sedan **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
+1. Klicka på knappen **Adobe** logotyp, i det övre vänstra hörnet och välj **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
 
    ![](assets/remarketing_1.png)
 
@@ -81,7 +81,7 @@ I Adobe Campaign måste du skapa en utlösare länkad till den du skapade i Expe
 
    ![](assets/trigger_uc_browse_6.png)
 
-1. Om du vill visa meddelandemallen klickar du på knappen **[!UICONTROL More]** längst upp till höger och sedan på **[!UICONTROL Trigger Transactional Template]**.
+1. Om du vill visa meddelandemallen klickar du på knappen **[!UICONTROL More]** överst till höger klickar du på **[!UICONTROL Trigger Transactional Template]**.
 
 1. Anpassa innehållet och avsändarinformationen.
 
@@ -101,11 +101,11 @@ I Adobe Campaign måste du skapa en utlösare länkad till den du skapade i Expe
 
    ![](assets/trigger_uc_browse_10.png)
 
-1. Mottagaren klickar på en länk som för honom till er webbplats. I det här exemplet placerar banderollen mottagaren på startsidan för resebokningssidan.
+1. Mottagaren klickar på en länk som för dem till webbplatsen. I det här exemplet placerar banderollen mottagaren på startsidan för resebokningssidan.
 
    ![](assets/trigger_uc_browse_11.png)
 
-1. Mottagaren går till sidan &quot;Erbjudanden&quot; men avbryter plötsligt sitt besök. Efter en 10-minutersperiod så utlöser Adobe Campaign sändningen av transaktionsmeddelandet.
+1. Mottagaren går till sidan&quot;Erbjudanden&quot; men avbryter plötsligt besöket. Efter en 10-minutersperiod så utlöser Adobe Campaign sändningen av transaktionsmeddelandet.
 
    ![](assets/trigger_uc_browse_12.png)
 

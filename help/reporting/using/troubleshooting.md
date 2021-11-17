@@ -8,7 +8,7 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 5%
@@ -53,9 +53,9 @@ Här visas en visuell representation av profilernas interaktion med det skickade
  </tbody> 
 </table>
 
-För att förstå det övergripande antalet unika öppningar måste vi summera antalet rader på **[!UICONTROL Unique Opens]** som ger oss värdet 3. Men eftersom e-postmeddelandet endast var avsett för två profiler bör den öppna frekvensen vara 150 %.
+För att förstå det totala antalet unika öppningar måste vi summera antalet rader i **[!UICONTROL Unique Opens]** vilket ger oss värdet 3. Men eftersom e-postmeddelandet endast var avsett för två profiler bör den öppna frekvensen vara 150 %.
 
-Om du inte vill få ett procentvärde som är högre än 100 anges definitionen för **[!UICONTROL Unique Opens]** som antalet unika sändningsloggar som öppnats. Även om P1 öppnade e-postmeddelandet dag 1 och dag 2 är hans unika öppning fortfarande 1.
+Om du inte vill få en högre procentandel än 100 definierar du **[!UICONTROL Unique Opens]** är det antal unika utsändningar som öppnats. Även om P1 öppnade e-postmeddelandet dag 1 och dag 2 är deras unika öppningar fortfarande 1.
 
 Detta resulterar i följande tabell:
 
@@ -70,7 +70,7 @@ Detta resulterar i följande tabell:
  <tbody> 
   <tr> 
    <td align="center"> <strong> Day </strong><br /> </td> 
-   <td align="center"> <strong> 6  </strong><br /> </td> 
+   <td align="center"> <strong> 6 </strong><br /> </td> 
    <td align="center"> <strong> 2</strong><br /> </td>
   </tr> 
   <tr> 
@@ -92,13 +92,13 @@ Detta resulterar i följande tabell:
 
 ## Antalet öppna stämmer inte med antalet databaser {#open-counts-no-match-database}
 
-Detta kan bero på att heuristik används i dynamisk rapportering för att spåra öppningar även när vi inte kan spåra åtgärden **[!UICONTROL Open]**.
+Detta kan bero på att heuristik används i dynamisk rapportering för att spåra öppningar även när vi inte kan spåra **[!UICONTROL Open]** åtgärd.
 
-Om en användare till exempel har inaktiverat bilder på sin klient och klickar på en länk i e-postmeddelandet, kanske inte **[!UICONTROL Open]** spåras av databasen, men **[!UICONTROL Click]** kommer att spåras.
+Om en användare till exempel har inaktiverat bilder på sin klient och klickar på en länk i e-postmeddelandet visas **[!UICONTROL Open]** kan inte spåras av databasen, men **[!UICONTROL Click]** kommer.
 
-Det innebär att antalet spårningsloggar för **[!UICONTROL Open]** kanske inte har samma antal i databasen.
+Därför är **[!UICONTROL Open]** Antalet spårningsloggar kanske inte har samma antal i databasen.
 
-Sådana förekomster läggs till som **&quot;ett e-postklick innebär att ett e-postmeddelande öppnas&quot;**.
+Sådana händelser läggs till som **&quot;ett e-postklick innebär att ett e-postmeddelande öppnas&quot;**.
 
 >[!NOTE]
 >
@@ -107,8 +107,8 @@ Sådana förekomster läggs till som **&quot;ett e-postklick innebär att ett e-
 ## Hur beräknas antalet återkommande/transaktionsbaserade leveranser? {#counts-recurring-deliveries}
 
 Vid arbete med återkommande och transaktionsrelaterade leveranser tillskrivs antalet både överordnade och underordnade leveranser.
-Vi kan ta ett exempel på en återkommande leverans som heter **R1** som är inställd att köras varje dag på dag 1 (RC1), dag 2 (RC2) och dag 3 (RC3).
-Låt oss anta att bara en person har öppnat alla underordnade leveranser flera gånger. I det här fallet visas antalet **[!UICONTROL Open]** som 1 för varje enskild återkommande underordnad leverans.
+Vi kan ta ett exempel på en återkommande leverans med namnet **R1** anges att köras varje dag på dag 1 (RC1), dag 2 (RC2) och dag 3 (RC3).
+Låt oss anta att bara en person har öppnat alla underordnade leveranser flera gånger. I det här fallet visas de enskilda återkommande underordnade leveranserna **[!UICONTROL Open]** räknas som 1 för varje.
 Men eftersom samma person klickade på alla leveranser har den överordnade återkommande leveransen också **[!UICONTROL Unique open]** som 1.
 
 Rapporterna ska se ut så här:
@@ -163,9 +163,9 @@ I exemplet nedan har cellen samma färg eftersom värdet är 100 %.
 
 ![](assets/troubleshooting_1.png)
 
-Om du ändrar **[!UICONTROL Conditional formatting]** till anpassad blir cellen grönare när värdet når den övre gränsen. Om den når den undre gränsen blir den rödare.
+Om du ändrar **[!UICONTROL Conditional formatting]** om värdet är anpassat blir cellen grönare när värdet når den övre gränsen. Om den når den undre gränsen blir den rödare.
 
-Här ställer vi till exempel in **[!UICONTROL Upper limit]** på 500 och **[!UICONTROL Lower limit]** på 0.
+Här ställer vi till exempel in **[!UICONTROL Upper limit]** till 500 och **[!UICONTROL Lower limit]** till 0.
 
 ![](assets/troubleshooting_2.png)
 
@@ -173,11 +173,11 @@ Här ställer vi till exempel in **[!UICONTROL Upper limit]** på 500 och **[!UI
 
 ![](assets/troubleshooting_3.png)
 
-Värdet **N/A** kan ibland visas i dina dynamiska rapporter. Det här kan visas av tre anledningar:
+Värdet **Ej tillämpligt** kan ibland visas i dina dynamiska rapporter. Det här kan visas av tre anledningar:
 
-* Leveransen har tagits bort och visas här som **N/A** för att inte orsaka diskrepans i resultaten.
-* När du drar och släpper dimensionen **[!UICONTROL Transactional Delivery]** i dina rapporter kan värdet **N/A** visas som ett resultat. Det beror på att Dynamic Report hämtar alla leveranser även om de inte är transaktionsbaserade. Detta kan också inträffa när du drar och släpper **[!UICONTROL Delivery]**-dimensionen till rapporten, men i det här fallet representerar **N/A**-värdet transaktionsleveranser.
-* När en dimension används med ett mått som inte är relaterat till dimensionen. I exemplet nedan läggs en uppdelning till med dimensionen **[!UICONTROL Tracking URL]** även om **[!UICONTROL Click]**-antalet är inställt på 0 i den här leveransen.
+* Leveransen har tagits bort och visas här som **Ej tillämpligt** för att inte orsaka avvikelser i resultaten.
+* När du drar och släpper **[!UICONTROL Transactional Delivery]** till dina rapporter, värdet **Ej tillämpligt** kan visas som ett resultat. Det beror på att Dynamic Report hämtar alla leveranser även om de inte är transaktionsbaserade. Det här kan också hända när du drar och släpper **[!UICONTROL Delivery]** till rapporten, men i det här fallet **Ej tillämpligt** värdet representerar transaktionsleveranser.
+* När en dimension används med ett mått som inte är relaterat till dimensionen. I exemplet nedan läggs en uppdelning till med **[!UICONTROL Tracking URL]** även om **[!UICONTROL Click]** count är inställt på 0 i den här leveransen.
 
    ![](assets/troubleshooting_4.png)
 

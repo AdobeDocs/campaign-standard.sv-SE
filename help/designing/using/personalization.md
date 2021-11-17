@@ -8,7 +8,7 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '2583'
 ht-degree: 4%
@@ -27,9 +27,9 @@ Innehållet i och visningen av meddelanden från Adobe Campaign kan personaliser
 
 ## Anpassa avsändaren {#personalizing-the-sender}
 
-Om du vill definiera namnet på avsändaren som ska visas i huvudet för skickade meddelanden går du till fliken **[!UICONTROL Properties]** på e-postdesignerns hemsida (nås via hemikonen). Mer information finns i [Definiera avsändaren av ett e-postmeddelande](../../designing/using/subject-line.md#email-sender).
+Om du vill definiera namnet på avsändaren som ska visas i huvudet för skickade meddelanden går du till **[!UICONTROL Properties]** -fliken på hemsidan för Email Designer (nås via hemikonen). Mer information finns i [Definiera avsändaren av ett e-postmeddelande](../../designing/using/subject-line.md#email-sender).
 
-Du kan ändra avsändarens namn genom att klicka på **avsändarens namn**-blocket. Fältet kan sedan redigeras och du kan ange det namn du vill använda.
+Du kan ändra avsändarens namn genom att klicka på knappen **Avsändarens namn** -block. Fältet kan sedan redigeras och du kan ange det namn du vill använda.
 
 Det här fältet kan anpassas. Om du vill göra det kan du lägga till anpassningsfält, innehållsblock och dynamiskt innehåll genom att klicka på ikonerna under avsändarens namn.
 
@@ -53,7 +53,7 @@ Med Adobe Campaign kan du anpassa en eller flera URL-adresser i meddelandet geno
 >
 >När funktionen för URL-signatur för att spåra länkar är inaktiverad kan inte personalisering av URL:er tillämpas på domännamnet eller på URL-tillägget. Ett felmeddelande visas under meddelandeanalys om personaliseringen är felaktig.
 >
->När du markerar ett innehållsblock kan du inte markera element som **Länka till spegelsida**. Den här typen av block tillåts inte inuti en länk.
+>När du markerar ett innehållsblock får du inte markera element som **Länk till spegelsida**. Den här typen av block tillåts inte inuti en länk.
 
 ## Infoga ett personaliserat fält{#inserting-a-personalization-field}
 
@@ -61,11 +61,11 @@ Med Adobe Campaign kan du infoga ett fält från databasen på sidan, t.ex. prof
 
 >[!NOTE]
 >
->Bilderna nedan visar hur du infogar ett anpassningsfält med [e-postdesignern](../../designing/using/designing-content-in-adobe-campaign.md) för ett e-postmeddelande.
+>Bilderna nedan visar hur du infogar ett anpassningsfält med [E-postdesigner](../../designing/using/designing-content-in-adobe-campaign.md) för ett mejl.
 
 Så här lägger du till ett anpassningsfält i innehållet:
 
-1. Klicka inuti ett textblock, klicka på ikonen **[!UICONTROL Personalize]** i det sammanhangsberoende verktygsfältet och välj **[!UICONTROL Insert personalization field]**. Mer information om gränssnittet för e-postdesignern finns i [det här avsnittet](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
+1. Klicka i ett textblock och klicka på **[!UICONTROL Personalize]** ikonen i det sammanhangsberoende verktygsfältet och välj **[!UICONTROL Insert personalization field]**. Mer information om gränssnittet för e-postdesignern finns i [det här avsnittet](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
 
    ![](assets/email_perso_field_1.png)
 
@@ -83,7 +83,7 @@ När personaliseringen har genererats (när du till exempel förhandsgranskar oc
 
 >[!NOTE]
 >
->Om e-postmeddelandet skapas från ett arbetsflöde är de ytterligare data som beräknas i arbetsflödet även tillgängliga i anpassningsfälten. Mer information om hur du lägger till ytterligare data från ett arbetsflöde finns i avsnittet [Förbättra data](../../automating/using/about-targeting-activities.md#enriching-data).
+>Om e-postmeddelandet skapas från ett arbetsflöde är de ytterligare data som beräknas i arbetsflödet även tillgängliga i anpassningsfälten. Mer information om hur du lägger till ytterligare data från ett arbetsflöde finns i [Förbättra data](../../automating/using/about-targeting-activities.md#enriching-data) -avsnitt.
 
 ## Lägga till ett innehållsblock{#adding-a-content-block}
 
@@ -91,11 +91,11 @@ Adobe Campaign erbjuder en lista med förkonfigurerade innehållsblock. Dessa in
 
 >[!NOTE]
 >
->Bilderna nedan visar hur du infogar ett innehållsblock med [e-postdesignern](../../designing/using/designing-content-in-adobe-campaign.md) för ett e-postmeddelande.
+>Bilderna nedan visar hur du infogar ett innehållsblock med [E-postdesigner](../../designing/using/designing-content-in-adobe-campaign.md) för ett mejl.
 
 Så här lägger du till ett innehållsblock:
 
-1. Klicka inuti ett textblock, klicka på ikonen **[!UICONTROL Personalize]** i det sammanhangsberoende verktygsfältet och välj **[!UICONTROL Insert content block]**. Mer information om gränssnittet för e-postdesignern finns i [det här avsnittet](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
+1. Klicka i ett textblock och klicka på **[!UICONTROL Personalize]** ikonen i det sammanhangsberoende verktygsfältet och välj **[!UICONTROL Insert content block]**. Mer information om gränssnittet för e-postdesignern finns i [det här avsnittet](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
 
    ![](assets/email_content_block_1.png)
 
@@ -111,17 +111,17 @@ Namnet på innehållsblocket visas i redigeraren och markeras med gult. Den anpa
 
 De färdiga innehållsblocken är:
 
-* **[!UICONTROL Database URL in emails (EmailUrlBase)]**: Det här innehållsblocket kan bara användas i en  **leverans**.
-* **[!UICONTROL Mirror page URL (MirrorPageUrl)]**: Det här innehållsblocket kan bara användas i en  **leverans**.
-* **[!UICONTROL Link to mirror page (MirrorPage)]**: Det här innehållsblocket kan bara användas i en  **leverans**.
+* **[!UICONTROL Database URL in emails (EmailUrlBase)]**: Det här innehållsblocket kan bara användas i en **leverans**.
+* **[!UICONTROL Mirror page URL (MirrorPageUrl)]**: Det här innehållsblocket kan bara användas i en **leverans**.
+* **[!UICONTROL Link to mirror page (MirrorPage)]**: Det här innehållsblocket kan bara användas i en **leverans**.
 * **[!UICONTROL Greetings (Greetings)]**
-* **[!UICONTROL Unsubscription link (UnsubscriptionLink)]**: Det här innehållsblocket kan bara användas i en  **leverans**.
-* **[!UICONTROL Social network sharing links (LandingPageViralLinks)]**: Det här innehållsblocket kan bara användas på en  **landningssida**.
-* **[!UICONTROL Default sender name (DefaultSenderName)]**: Det här innehållsblocket kan bara användas i en  **leverans**.
-* **[!UICONTROL Name of default reply-to email address (DefaultReplyName)]**: Det här innehållsblocket kan bara användas i en  **leverans**.
-* **[!UICONTROL Email address of default sender (DefaultSenderAddress)]**: Det här innehållsblocket kan bara användas i en  **leverans**.
-* **[!UICONTROL Default error email address (DefaultErrorAddress)]**: Det här innehållsblocket kan bara användas i en  **leverans**.
-* **[!UICONTROL Default reply-to email address (DefaultReplyAddress)]**: Det här innehållsblocket kan bara användas i en  **leverans**.
+* **[!UICONTROL Unsubscription link (UnsubscriptionLink)]**: Det här innehållsblocket kan bara användas i en **leverans**.
+* **[!UICONTROL Social network sharing links (LandingPageViralLinks)]**: Det här innehållsblocket kan bara användas i en **landningssida**.
+* **[!UICONTROL Default sender name (DefaultSenderName)]**: Det här innehållsblocket kan bara användas i en **leverans**.
+* **[!UICONTROL Name of default reply-to email address (DefaultReplyName)]**: Det här innehållsblocket kan bara användas i en **leverans**.
+* **[!UICONTROL Email address of default sender (DefaultSenderAddress)]**: Det här innehållsblocket kan bara användas i en **leverans**.
+* **[!UICONTROL Default error email address (DefaultErrorAddress)]**: Det här innehållsblocket kan bara användas i en **leverans**.
+* **[!UICONTROL Default reply-to email address (DefaultReplyAddress)]**: Det här innehållsblocket kan bara användas i en **leverans**.
 * **[!UICONTROL Brand name (BrandingUsualName)]**
 * **[!UICONTROL Link to the brand website (BrandingWebSiteLink)]**
 * **[!UICONTROL Brand logo (BrandingLogo)]**
@@ -133,8 +133,8 @@ Du kan definiera nya innehållsblock som ska infogas på en meddelande- eller la
 
 Så här skapar du ett innehållsblock:
 
-1. Klicka på **[!UICONTROL Resources > Content blocks]** på den avancerade menyn för att komma åt listan med innehållsblock.
-1. Klicka på knappen **[!UICONTROL Create]** eller duplicera ett befintligt innehållsblock.
+1. Klicka **[!UICONTROL Resources > Content blocks]** på den avancerade menyn för att komma åt listan med innehållsblock.
+1. Klicka på **[!UICONTROL Create]** eller duplicera ett befintligt innehållsblock.
 
    ![](assets/content_bloc_01.png)
 
@@ -147,21 +147,21 @@ Så här skapar du ett innehållsblock:
 
    ![](assets/content_bloc_02.png)
 
-1. Du kan välja en **[!UICONTROL Targeting dimension]**. Mer information finns i [Om måldimension](#about-targeting-dimension).
+1. Du kan välja en **[!UICONTROL Targeting dimension]**. Mer information finns i [Om målinriktning](#about-targeting-dimension).
 
    ![](assets/content_bloc_04.png)
 
-1. Du kan välja alternativet **[!UICONTROL Depends on format]** för att definiera två olika block: en för HTML-e-post och en för e-post i textformat. Då visas två flikar i redigeraren (HTML och Text) för att definiera motsvarande innehåll.
+1. Du kan välja **[!UICONTROL Depends on format]** alternativ för att definiera två olika block: en för HTML e-post och en för e-post i textformat. Då visas två flikar i redigeraren (HTML och Text) för att definiera motsvarande innehåll.
 
    ![](assets/content_bloc_03.png)
 
-1. Ange innehållet i innehållsblocken och klicka på knappen **[!UICONTROL Create]**.
+1. Ange innehållet i innehållsblocken och klicka på **[!UICONTROL Create]** -knappen.
 
 Ditt innehållsblock kan nu användas i innehållsredigeraren för ett meddelande eller en landningssida.
 
 >[!CAUTION]
 >
->När du redigerar innehållet i ett block ska du kontrollera att det inte finns några extra tomrum mellan början och slutet av *if*-programsatserna. I HTML visas tomrummen på skärmen och påverkar därför innehållslayouten.
+>När du redigerar innehållet i ett block ska du kontrollera att det inte finns några extra blanksteg mellan början och slutet av blocket *if* -programsatser. I HTML visas tomrummen på skärmen och påverkar därför innehållslayouten.
 
 ### Om målinriktning {#about-targeting-dimension}
 
@@ -169,7 +169,7 @@ Med måldimensionen kan du definiera i vilken typ av meddelande som du kan anvä
 
 När du redigerar ett meddelande kan du bara markera innehållsblock med en måldimension som är kompatibel med det meddelandets måldimension.
 
-Måldimensionen för **[!UICONTROL Unsubscription link]**-blocket är till exempel **[!UICONTROL Profiles]** eftersom det innehåller anpassningsfält som är specifika för **[!UICONTROL Profiles]**-resursen. Du kan därför inte använda ett **[!UICONTROL Unsubscription link]**-block i ett [händelsetransmeddelande](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types) eftersom måldimensionen för den typen av meddelande är **[!UICONTROL Real-time events]**. Du kan dock använda **Unsubscription link**-blocket i ett [profiltransaktionsmeddelande](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types) eftersom måldimensionen för den typen av meddelande är **Profiler**. Slutligen har **[!UICONTROL Link to mirror page]**-blocket ingen måldimension, så du kan använda det i alla meddelanden.
+Till exempel **[!UICONTROL Unsubscription link]** målgruppsdimensionen för blocket är **[!UICONTROL Profiles]** eftersom det innehåller anpassningsfält som är specifika för **[!UICONTROL Profiles]** resurs. Därför kan du inte använda en **[!UICONTROL Unsubscription link]** blockera i en [händelsetransaktionsmeddelande](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types), eftersom målgruppsdimensionen för den typen av meddelanden är **[!UICONTROL Real-time events]**. Du kan dock använda **Länk för att avbryta prenumeration** blockera i en [profiltransaktionsmeddelande](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types), eftersom målgruppsdimensionen för den typen av meddelanden är **Profiler**. Slutligen **[!UICONTROL Link to mirror page]** -blocket har ingen målgruppsdimension, så du kan använda det i alla meddelanden.
 
 Om du lämnar det här fältet tomt kommer innehållsblocket att vara kompatibelt med alla meddelanden, oavsett vilken måldimension du har. Om du anger en målinriktningsdimension kommer det blocket endast att vara kompatibelt med meddelanden som har samma målinriktningsdimension.
 
@@ -186,13 +186,13 @@ Mer information om detta hittar du i [Målinställningar och resurser](../../aut
 Med Adobe Campaign kan du anpassa en eller flera bilder i meddelandet efter ett visst kriterium eller använda spårning. Detta görs genom att infoga anpassningsfält, innehållsblock eller dynamiskt innehåll i bildkällan. Så här gör du:
 
 1. Infoga en bild i innehållet i meddelandet eller markera en bild som redan finns.
-1. Markera alternativet **[!UICONTROL Enable personalization]** på paletten Bildegenskaper.
+1. På paletten Bildegenskaper kontrollerar du **[!UICONTROL Enable personalization]** alternativ.
 
    ![](assets/des_personalize_images_1.png)
 
-   Fältet **[!UICONTROL Source]** visas och den valda bilden visas som **anpassad** i redigeraren.
+   The **[!UICONTROL Source]** fältet visas och den valda bilden visas som **personaliserad** i redigeraren.
 
-1. Klicka på pennan bredvid fältknappen **[!UICONTROL Source]** för att komma åt anpassningsalternativen.
+1. Klicka på pennan bredvid **[!UICONTROL Source]** fältknapp för att komma åt personaliseringsalternativen.
 1. När du har lagt till bildkällan lägger du till anpassningsfält, innehållsblock och dynamiskt innehåll som du gillar.
 
    ![](assets/des_personalize_images_2.png)
@@ -209,13 +209,13 @@ Med Adobe Campaign kan du anpassa en eller flera bilder i meddelandet efter ett 
 
 Du kan ange ett synlighetsvillkor för alla element. Den syns bara om villkoret uppfylls.
 
-Om du vill lägga till ett synlighetsvillkor markerar du ett block och anger det villkor som ska respekteras i fältet **[!UICONTROL Visibility condition]** i inställningarna för det.
+Om du vill lägga till ett synlighetsvillkor markerar du ett block och anger det villkor som ska gälla i **[!UICONTROL Visibility condition]** fältet med dess inställningar.
 
 ![](assets/delivery_content_5.png)
 
 Det här alternativet är bara tillgängligt för följande element: ADRESS, BLOCKQUOTE, CENTER, DIR, DIV, DL, FIELDSET, FORM, H1, H2, H3, H4, H5, H6, NOSCRIPT, OL, P, PRE, UL, TR, TD.
 
-Uttrycksredigeraren visas i avsnittet [Avancerad uttrycksredigering](../../automating/using/editing-queries.md#about-query-editor).
+Uttrycksredigeraren visas i [Avancerad redigering av uttryck](../../automating/using/editing-queries.md#about-query-editor) -avsnitt.
 
 De här villkoren använder XTK-uttryckssyntaxen (t.ex. **context.profile.email !=&#39;** eller **context.profile.status=&#39;0&#39;**). Som standard är alla fält synliga.
 
@@ -232,14 +232,14 @@ De här villkoren använder XTK-uttryckssyntaxen (t.ex. **context.profile.email 
 
 I ett e-postmeddelande kan du definiera olika innehåll som ska visas dynamiskt för mottagarna enligt villkoren som definieras via uttrycksredigeraren. Från samma e-postadress kan du till exempel se till att varje profil får olika meddelanden beroende på åldersintervall.
 
-Att definiera dynamiskt innehåll skiljer sig från [att definiera synlighetsvillkor](#defining-a-visibility-condition).
+Att definiera dynamiskt innehåll skiljer sig från [definiera villkor för synlighet](#defining-a-visibility-condition).
 
 1. Markera ett fragment, en komponent eller ett element. I det här exemplet väljer du en bild.
-1. Klicka på ikonen **[!UICONTROL Dynamic content]** i det sammanhangsberoende verktygsfältet.
+1. Klicka på **[!UICONTROL Dynamic content]** ikonen i det sammanhangsberoende verktygsfältet.
 
    ![](assets/dynamic_content_2.png)
 
-   Avsnittet **[!UICONTROL Dynamic content]** visas på paletten till vänster.
+   The **[!UICONTROL Dynamic content]** visas på paletten till vänster.
 
    ![](assets/dynamic_content_3.png)
 
@@ -249,11 +249,11 @@ Att definiera dynamiskt innehåll skiljer sig från [att definiera synlighetsvil
    >
    >Innehållet måste alltid ha en standardvariant. Du kan inte ta bort den.
 
-1. Klicka på knappen **[!UICONTROL Edit]** för att definiera visningsvillkoren för den första alternativa varianten.
+1. Klicka på **[!UICONTROL Edit]** för att definiera visningsvillkoren för den första alternativa varianten.
 
    ![](assets/dynamic_content_4.png)
 
-1. Ange en etikett och markera de fält som du vill ange som villkor. I noden **[!UICONTROL General]** väljer du till exempel fältet **[!UICONTROL Age]**
+1. Ange en etikett och markera de fält som du vill ange som villkor. Från **[!UICONTROL General]** nod, välj **[!UICONTROL Age]** fält
 
    ![](assets/dynamic_content_5.png)
 
@@ -275,7 +275,7 @@ Att definiera dynamiskt innehåll skiljer sig från [att definiera synlighetsvil
 
    ![](assets/dynamic_content_10.png)
 
-1. Klicka på **[!UICONTROL Add a condition]** om du vill lägga till ett nytt innehåll och dess länkade regel.
+1. Klicka **[!UICONTROL Add a condition]** om du vill lägga till ett nytt innehåll och dess länkade regel.
 
    ![](assets/dynamic_content_9.png)
 
@@ -298,15 +298,15 @@ När du definierar ett dynamiskt innehåll i uttrycksredigeraren är prioritetso
 
 1. Du definierar två olika dynamiska innehåll med **två olika villkor**, till exempel:
 
-   **Villkor 1:** Profilens kön är maskuline.
+   **Villkor 1:** Profilens kön är maskulin.
 
-   **Villkor 2:** profilen är mellan 20 och 30 år gammal.
+   **Villkor 2:** profilen är mellan 20 och 30 år.
 
    ![](assets/delivery_content_61.png)
 
    Vissa profiler i databasen motsvarar de två villkoren, men det går bara att skicka ett e-postmeddelande med ett dynamiskt innehåll.
 
-1. Därför måste du definiera prioriteten för det dynamiska innehållet. Ett villkor med prioritetsordningen **1** (och därför det motsvarande dynamiska innehållet) skickas till en profil även om ett annat villkor med prioritetsordningen **2** eller **3** också uppfylls av den här profilen.
+1. Därför måste du definiera prioriteten för det dynamiska innehållet. Ett villkor med prioritetsordningen **1** (och därför det motsvarande dynamiska innehållet) skickas till en profil även om ett annat villkor som har prioritetsordningen **2** eller **3** uppfylls även av den här profilen.
 
    ![](assets/delivery_content_62.png)
 
@@ -314,7 +314,7 @@ Du kan bara definiera en prioritetsordning per dynamiskt innehåll.
 
 ## Exempel: E-postpersonalisering{#example-email-personalization}
 
-I det här exemplet har en medlem i marknadsföringsteamet skapat ett e-postmeddelande som informerar några av hans kunder om att det finns ett specialerbjudande som är specifikt för dem. Teammedlemmen bestämde sig för att anpassa e-postmeddelandet efter kundens respektive ålder. Kunder mellan 18 och 27 år får ett mejl med en annan bild och slogan än de som kunder över 27 kommer att få.
+I det här exemplet har en medlem i marknadsföringsteamet skapat ett e-postmeddelande som informerar några av deras kunder om att det finns ett specialerbjudande som passar just dem. Teammedlemmen bestämde sig för att anpassa e-postmeddelandet efter kundens respektive ålder. Kunder mellan 18 och 27 år får ett mejl med en annan bild och slogan än de som kunder över 27 kommer att få.
 
 E-postmeddelandet skapas enligt följande:
 
@@ -322,13 +322,13 @@ E-postmeddelandet skapas enligt följande:
 
    ![](assets/delivery_content_43.png)
 
-   Det finns information om hur du lägger till och konfigurerar dynamiskt innehåll i avsnittet [Definiera dynamiskt innehåll i ett e-postmeddelande](#defining-dynamic-content-in-an-email).
+   Information om hur du lägger till och konfigurerar dynamiskt innehåll finns i [Definiera dynamiskt innehåll i ett e-postmeddelande](#defining-dynamic-content-in-an-email) -avsnitt.
 
 * Anpassningsfält och dynamiskt innehåll används på texten. Beroende på profilens åldersintervall börjar e-postmeddelandet med antingen profilens förnamn eller profilens titel och efternamn.
 
    ![](assets/delivery_content_44.png)
 
-   Tillägg och konfigurering av anpassningsfälten finns i avsnittet [Infoga ett anpassningsfält](#inserting-a-personalization-field).
+   Information om hur du lägger till och konfigurerar anpassningsfälten finns i [Infoga ett anpassningsfält](#inserting-a-personalization-field) -avsnitt.
 
 ### Konfigurera bilder {#configuring-images}
 
@@ -341,21 +341,21 @@ I det här exemplet konfigureras det dynamiska innehållet som används på bild
 
 **För 18-27 år gamla:**
 
-1. Markera det dynamiska innehållet på paletten **[!UICONTROL Properties]** och klicka på knappen **[!UICONTROL Edit]**.
+1. Markera det dynamiska innehållet i **[!UICONTROL Properties]** och klicka på **[!UICONTROL Edit]** -knappen.
 
    ![](assets/delivery_content_48.png)
 
-1. Redigera etiketten och välj sedan fältet **[!UICONTROL Age]** från noden **[!UICONTROL Profile]**.
+1. Redigera etiketten och välj sedan **[!UICONTROL Age]** fält från **[!UICONTROL Profile]** nod.
 
    ![](assets/delivery_content_49.png)
 
-1. Välj operatorn **Större än eller lika med** och ange sedan **18** för att skapa uttrycket **äldre än 18**.
+1. Välj **Större än eller lika med** operatorn anger sedan **18** för att skapa **äldre än 18** -uttryck.
 
    ![](assets/delivery_content_50.png)
 
-1. Lägg till ett nytt **[!UICONTROL Age]**-villkor.
+1. Lägg till en ny **[!UICONTROL Age]** villkor.
 
-   Välj operatorn **mindre än eller lika med** följt av 27 i värdefältet för att skapa uttrycket **yngre än 27**.
+   Välj **Mindre än eller lika med** operatorn följt av 27 i värdefältet för att skapa **yngre än 27** -uttryck.
 
    ![](assets/delivery_content_51.png)
 
@@ -364,8 +364,8 @@ I det här exemplet konfigureras det dynamiska innehållet som används på bild
 **Så här målprofiler från 27 år och uppåt:**
 
 1. Markera det dynamiska innehållet på paletten och redigera det.
-1. Redigera etiketten och välj sedan fältet **[!UICONTROL Age]** från noden **[!UICONTROL Profile]**.
-1. Lägg till operatorn **Större än** följt av 27 i värdefältet för att skapa uttrycket **äldre än 27**.
+1. Redigera etiketten och välj sedan **[!UICONTROL Age]** fält från **[!UICONTROL Profile]** nod.
+1. Lägg till **Större än** operatorn följt av 27 i värdefältet för att skapa **äldre än 27** -uttryck.
 
    ![](assets/delivery_content_52.png)
 
@@ -381,11 +381,11 @@ I det här exemplet konfigureras det dynamiska innehållet som tillämpas på te
 
 1. Markera den strukturkomponent som du vill ha och lägg till ett dynamiskt innehåll.
 1. Redigera det dynamiska innehållet och konfigurera måluttrycken. Se [Konfigurera bilder](#configuring-images).
-1. I strukturkomponenten klickar du på ikonen **[!UICONTROL Personalize]** i det sammanhangsberoende verktygsfältet vid önskad position och väljer **[!UICONTROL Insert personalization field]**.
+1. I strukturkomponenten klickar du på **[!UICONTROL Personalize]** ikonen i det sammanhangsberoende verktygsfältet och välj **[!UICONTROL Insert personalization field]**.
 
    ![](assets/delivery_content_53.png)
 
-1. Markera fältet **[!UICONTROL First name]** i listan som visas och bekräfta.
+1. I listan som visas väljer du **[!UICONTROL First name]** och bekräfta.
 
    ![](assets/delivery_content_54.png)
 
@@ -395,9 +395,9 @@ I det här exemplet konfigureras det dynamiska innehållet som tillämpas på te
 
 1. Markera den strukturkomponent som du vill ha och lägg till ett dynamiskt innehåll.
 1. Redigera det dynamiska innehållet och konfigurera måluttrycken. Se [Konfigurera bilder](#configuring-images).
-1. I strukturkomponenten klickar du på ikonen **[!UICONTROL Personalize]** i det sammanhangsberoende verktygsfältet vid önskad position och väljer **[!UICONTROL Insert personalization field]**.
+1. I strukturkomponenten klickar du på **[!UICONTROL Personalize]** ikonen i det sammanhangsberoende verktygsfältet och välj **[!UICONTROL Insert personalization field]**.
 1. Välj **[!UICONTROL Title]** i listrutan.
-1. Fortsätt på samma sätt om du vill lägga till fältet **[!UICONTROL Last name]**.
+1. Fortsätt på samma sätt för att lägga till **[!UICONTROL Last name]** fält.
 
    ![](assets/delivery_content_56.png)
 

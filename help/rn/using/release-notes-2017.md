@@ -8,7 +8,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '4623'
 ht-degree: 8%
@@ -21,7 +21,7 @@ Söker du en specifik version av Adobe Campaign Standard 2017?
 
 Varje release innehåller nya funktioner och patchar. Klicka på en release för att visa dess innehåll.
 
-Visa de senaste [dokumentationsuppdateringarna](../../rn/using/documentation-updates.md) för Adobe Campaign Standard. Om du letar efter en nyare version kan du läsa den här [sidan](../../rn/using/release-notes.md).
+Se de senaste [dokumentuppdateringar](../../rn/using/documentation-updates.md) för Adobe Campaign Standard. Om du letar efter en nyare version kan du läsa detta [page](../../rn/using/release-notes.md).
 
 ## Version 17.10 – oktober 2017 {#release-17-10---october-2017}
 
@@ -30,7 +30,7 @@ Visa de senaste [dokumentationsuppdateringarna](../../rn/using/documentation-upd
 <table> 
  <thead> 
   <tr> 
-   <th> Funktion<br /> </th> 
+   <th> Funktionalitet<br /> </th> 
    <th> Beskrivning<br /> </th> 
   </tr> 
  </thead> 
@@ -65,8 +65,8 @@ _E-post, SMS-meddelanden och direktreklam_
 
 _Push-meddelanden_
 
-* När du konfigurerar push-meddelandekanalen ska push-providerplattformen för iOS vara **apns** och för Android **gcm**.
-* Ett fel som gjorde att iOS-mobilappen inte kunde läggas till i Adobe Campaign-gränssnittet har åtgärdats.
+* När du konfigurerar push-meddelandekanalen bör push-providerplattformen för iOS vara **apns** och för Android **gcm**.
+* Ett fel som gjorde att iOS mobilapp inte kunde läggas till i Adobe Campaign-gränssnittet har åtgärdats.
 * Push-meddelanden stöds nu på både GCM- och FCM-aktiverade Android-mobilprogram.
 * Korrigerade ett fel som förhindrade att innehåll sparades när en mall för push-meddelanden skulle dupliceras.
 * Nu går det att skapa eller uppdatera en profil från Adobe Campaign-databasen genom att stämma av mobilprogramanvändarnas data.
@@ -82,11 +82,11 @@ _Rapporter_
 
 _Arbetsflöden_
 
-* Korrigerade ett fel i **[!UICONTROL Load file]**-aktiviteten som kunde leda till fel efter att kolumner i aktiviteten lagts till och tagits bort manuellt.
-* Det tekniska arbetsflödet **[!UICONTROL deliverabilityUpdate]** är nu schemalagt att köras kl. 2.00 på servertid.
+* Ett problem i **[!UICONTROL Load file]** aktivitet som kan leda till fel efter att du manuellt har lagt till och tagit bort kolumner i aktiviteten.
+* The **[!UICONTROL deliverabilityUpdate]** det tekniska arbetsflödet är nu schemalagt att köras kl. 2.00 på servertid.
 * Korrigerade ett säkerhetsproblem som medgav att en listexport kunde utföras utan exportrollen.
-* Ett problem med aktiviteten **[!UICONTROL Reconciliation]** har korrigerats.
-* Ett problem med användningen av jokertecken i aktiviteten **[!UICONTROL File Transfer]** har korrigerats.
+* Ett problem med **[!UICONTROL Reconciliation]** aktivitet.
+* Ett problem med användningen av jokertecken i **[!UICONTROL File Transfer]** aktivitet.
 
 _Profiler och målgrupper_
 
@@ -109,7 +109,7 @@ _Anpassade resurser_
 <table> 
  <thead> 
   <tr> 
-   <th> Funktion<br /> </th> 
+   <th> Funktionalitet<br /> </th> 
    <th> Beskrivning<br /> </th> 
   </tr> 
  </thead> 
@@ -133,14 +133,14 @@ _Anpassade resurser_
 
 _Plattform_
 
-* Vissa kunder måste kunna utnyttja ett ID som kommer från Adobe Campaign Standard eftersom de inte hanterar en unik nyckel för att identifiera sina egna register. Detta ID (**ACS ID**) kan exporteras och användas som en avstämningsnyckel när data uppdateras. Mer information finns i den [detaljerade dokumentationen](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
+* Vissa kunder måste kunna utnyttja ett ID som kommer från Adobe Campaign Standard eftersom de inte hanterar en unik nyckel för att identifiera sina egna register. Detta ID (**ACS-ID**) kan exporteras och användas som en avstämningsnyckel när data uppdateras. Mer information finns i den [detaljerade dokumentationen](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
 * FTP-protokollet har tagits bort. Du bör nu använda SFTP i stället. Befintliga FTP-konfigurationer fungerar fortfarande som tidigare för att inte blockera befintliga implementeringar, men alternativet visas inte för nya aktiviteter.
 
 _E-post, SMS-meddelanden och direktreklam_
 
 * Nu går det att skapa nya varningsvillkor och använda dem i leveransvarningsmeddelanden. Mer information finns i den [detaljerade dokumentationen](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion).
 * Meddelandena om leveransvarningar har en ny design och användarupplevelsen på kontrollpanelen för leveransvarningar har förbättrats.
-* När ett externt konto för routning är inaktiverat visas en varning i de påverkade leveranserna (e-post, SMS och push) och knappen **Förhandsgranska** är dold i dessa leveranser.
+* När ett externt konto för routning är inaktiverat visas en varning i de påverkade leveranserna (e-post, SMS och push) och i **Förhandsgranska** knappen är dold i dessa leveranser.
 * Korrigerade ett problem som orsakade ett fel i förhandsgranskningen av ett A/B-test på e-postinnehållet när dynamisk text aktiverades på ämnesraden.
 
 _Transaktionsmeddelanden_
@@ -154,10 +154,10 @@ _Transaktionsmeddelanden_
 
 _Rapporter_
 
-* **Snabbklicksrapporten** har förbättrats. Nu går det även att visa aktiva klick för varje villkorligt innehåll som definierats i en leverans och visa aktiva klick för varje körning av återkommande leveranser eller transaktionsmeddelanden. Mer information finns i den [detaljerade dokumentationen](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion).
+* The **Snabbklickningar** rapporten har förbättrats. Nu går det även att visa aktiva klick för varje villkorligt innehåll som definierats i en leverans och visa aktiva klick för varje körning av återkommande leveranser eller transaktionsmeddelanden. Mer information finns i den [detaljerade dokumentationen](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion).
 * Korrigerade ett problem som hindrade karantänmätaren från att hämta korrekta data.
 * En ny förinställd tidsram har lagts till i kalenderwidgeten.
-* De dynamiska [rapportmåtten](../../reporting/using/indicator-calculation.md) och [kampanjernas KPI:er](../../sending/using/confirming-the-send.md) (visas på kontrollpanelen för skickade meddelanden) har anpassats för större enhetlighet.
+* The [dynamisk rapportstatistik](../../reporting/using/indicator-calculation.md) och [kampanjens nyckeltal](../../sending/using/confirming-the-send.md) (visas på kontrollpanelen för skickade meddelanden) har anpassats för att bli mer konsekvent.
 * Korrigerade ett problem som kunde få rörledningar att krascha på debian 7.
 
 _Arbetsflöden_
@@ -181,7 +181,7 @@ _Profiler och målgrupper_
 <table> 
  <thead> 
   <tr> 
-   <th> Funktion<br /> </th> 
+   <th> Funktionalitet<br /> </th> 
    <th> Beskrivning<br /> </th> 
   </tr> 
  </thead> 
@@ -208,7 +208,7 @@ _Profiler och målgrupper_
   </tr> 
   <tr> 
    <td> Direkt e-postkanal - återgå till avsändare<br /> </td> 
-   <td> Stöd finns nu för platt filutbyte med Direct Mail-leverantörer med information om att skicka tillbaka till avsändaren. Den här förbättringen av Direct Mail-kanalen gör att motsvarande postadresser kan uteslutas från framtida kommunikation.<br /> På så sätt kan marknadsförarna informeras om en felaktig adress och interagera med kunden via andra kanaler eller uppmuntra honom att uppdatera sin postadress. Detta minskar också antalet bortslösade marknadsföringsbudgeten eftersom marknadsförarna slipper skicka e-post till felaktiga adresser. <br /> Direktreklam är tillgänglig som en tilläggskanal. Mer information finns i den <a href="../../channels/using/return-to-sender.md">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Stöd finns nu för platt filutbyte med Direct Mail-leverantörer med information om att skicka tillbaka till avsändaren. Den här förbättringen av Direct Mail-kanalen gör att motsvarande postadresser kan uteslutas från framtida kommunikation.<br /> Detta gör det möjligt för marknadsförarna att få meddelanden om en felaktig adress och att kontakta kunden via andra kanaler eller uppmuntra dem att uppdatera sin postadress. Detta minskar också antalet bortslösade marknadsföringsbudgeten eftersom marknadsförarna slipper skicka e-post till felaktiga adresser. <br /> Direktreklam är tillgänglig som en tilläggskanal. Mer information finns i den <a href="../../channels/using/return-to-sender.md">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -217,23 +217,23 @@ _Profiler och målgrupper_
 
 _Allmänt_
 
-* Ett problem som gjorde att alla användare kunde exportera listor har korrigerats. Nu tillåts bara användare med rollen **[!UICONTROL Export]**.
+* Ett problem som gjorde att alla användare kunde exportera listor har korrigerats. Nu endast användare med **[!UICONTROL Export]** roller tillåts.
 
 _E-post, SMS-meddelanden och direktreklam_
 
-* Korrigerade ett problem med arbetsflödet **updateDeliveryExecInfo** som angav **att leverera**-indikatorn till 0 för SMS-leveranser.
-* I listrutan **Avancerade parametrar** för leveransmallens egenskaper visar nu listrutan **Routning** endast externa konton som motsvarar mallmeddelandetypen. En mall för e-postleverans visar till exempel endast externa e-postkonton.
-* Ett problem med det **[!UICONTROL Text]** e-postformat som rekommenderas för testprofiler har korrigerats.
+* Ett problem med **updateDeliveryExecInfo** arbetsflöde som anger **Att leverera** indikator till 0 för SMS-leveranser.
+* I **Avancerade parametrar** av leveransmallens egenskaper, **Routning** nedrullningsbar lista visar nu endast externa konton som motsvarar mallmeddelandetypen. En mall för e-postleverans visar till exempel endast externa e-postkonton.
+* Ett problem med **[!UICONTROL Text]** e-postformat som du föredrar definierat för testprofiler.
 * Korrigerade ett problem som ledde till ett Javascript-fel när standardtidszonen valdes i schemadefinitionsfönstret för en leverans.
 * Ett problem som gjorde att svällningar inte kunde visas i de sändande loggarna har korrigerats.
-* Uppföljnings- och A/B-testmallar är nu dolda som standard på mallvalsskärmen i guiden för leveransskapande. Mer information finns i [den detaljerade dokumentationen](../../channels/using/creating-an-email.md).
-* Ett problem som gjorde att användare kunde skicka leveranser har korrigerats. Nu tillåts bara användare med rollen **[!UICONTROL Start deliveries]**. Mer information finns i [den detaljerade dokumentationen](../../sending/using/confirming-the-send.md).
+* Uppföljnings- och A/B-testmallar är nu dolda som standard på mallvalsskärmen i guiden för leveransskapande. Mer information finns i [detaljerad dokumentation](../../channels/using/creating-an-email.md).
+* Ett problem som gjorde att användare kunde skicka leveranser har korrigerats. Nu endast användare med **[!UICONTROL Start deliveries]** roller tillåts. Mer information finns i [detaljerad dokumentation](../../sending/using/confirming-the-send.md).
 
 _Push-meddelanden_
 
-* Ett problem med URL:en **Kampanjspårningsslutpunkt** som förhindrade rapportering har korrigerats.
+* Ett problem med **Slutpunkt för kampanjspårning** URL som förhindrade rapportering.
 * Korrigerade ett problem som förhindrade att rubriken för push-meddelanden visades på Android-enheter.
-* Korrigerade ett problem som förhindrade att push-meddelandet visades på iOS-enheter när push-meddelandet bara innehöll en titel (och inget i meddelandets brödtext).
+* Korrigerade ett problem som förhindrade att push-meddelandet visades på iOS-enheter när push-meddelandet innehöll endast en rubrik (och inget i meddelandets brödtext).
 * Korrigerade ett problem som tvingade URL:er för bifogade mediefiler i en leverans att spåras, vilket förhindrade att videoklipp och bilder bäddas in i leveransen. Spårning av URL:er av typen mediaAttachmentURL inaktiveras nu som standard för push-meddelanden.
 
 _Rapporter_
@@ -245,7 +245,7 @@ _Rapporter_
 
 _Arbetsflöden_
 
-* Du kan nu filtrera arbetsflödesloggar (tidsperiod och textsökning). Mer information finns i [den detaljerade dokumentationen](../../automating/using/monitoring-workflow-execution.md).
+* Du kan nu filtrera arbetsflödesloggar (tidsperiod och textsökning). Mer information finns i [detaljerad dokumentation](../../automating/using/monitoring-workflow-execution.md).
 * Det finns nu ett alternativ i arbetsflödesleveranser för att inaktivera bekräftelsen före sändningen.
 * Ett problem som gjorde att du inte kunde ange en utgående övergång i guiden Skapa återkommande leverans har korrigerats.
 * Korrigerade ett problem som uppstod när en arbetsflödesfrågeaktivitet som baseras på ett anpassat resursfält med en uppräkning som hade många värden användes
@@ -257,7 +257,7 @@ _Arbetsflöden_
 <table> 
  <thead> 
   <tr> 
-   <th> Funktion<br /> </th> 
+   <th> Funktionalitet<br /> </th> 
    <th> Beskrivning<br /> </th> 
   </tr> 
  </thead> 
@@ -267,7 +267,7 @@ _Arbetsflöden_
    <td> Ta dig igenom den digitala barriären och koppla upp dig mot den fysiska världen med Adobe Campaign Standard första offlinekanal, Direct Mail. Med den här funktionen kan ni personalisera och generera den fil som direktreklamleverantörer behöver som en del av era flerkanalskampanjer. Använd Direct Mail för att återengagera kunder eller förbättra kundupplevelsen med en övertygande kontaktyta som lockar kunderna till er app, webbplats eller butik.<br /> Mer information finns i den <a href="../../channels/using/about-direct-mail.md">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Hemlig kopia av e-post<br /> </td> 
+   <td> BCC för e-post<br /> </td> 
    <td> Tack vare BCC för e-post kan unika e-postmeddelanden som skickas till enskilda mottagare sparas, vilket gör att varumärket kan arkivera dessa meddelanden. Genom att lägga till en e-postadress för hemlig kopia till alla e-postmeddelanden kan Adobe Campaign Standard-kunder behålla en exakt kopia av varje e-postmeddelande med den här funktionen. Detta är ett vanligt juridiskt krav för finanssektorn och är till hjälp för kundtjänstcenter att lösa konflikter i realtid.<br /> Mer information finns i den <a href="../../sending/using/archiving.md">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
  </tbody> 
@@ -277,20 +277,20 @@ _Arbetsflöden_
 
 _Gränssnittsuppdateringar_
 
-* I det övre fältet har länken **[!UICONTROL Timeline]** tagits bort och ersatts med en länk till **[!UICONTROL Programs & Campaigns]**.
+* I det övre fältet visas **[!UICONTROL Timeline]** länken har tagits bort och ersatts med en länk till **[!UICONTROL Programs & Campaigns]** .
 
 _E-postmeddelanden och SMS-meddelanden_
 
-* Ett problem som visade fel färg för leveransstatusen **[!UICONTROL Retry in progress]** har korrigerats. Färgen var grå istället för blå.
+* Ett problem som visade fel färg för **[!UICONTROL Retry in progress]** leveransstatus. Färgen var grå istället för blå.
 
 _Arbetsflöden_
 
-* Ett problem som uppstod när åtgärden skulle utföras i en **[!UICONTROL Transfer file]**-aktivitet ändrades har åtgärdats.
+* Ett problem som uppstod när åtgärden ändrades till att utföras i en **[!UICONTROL Transfer file]** aktivitet.
 
 _Rapporter_
 
-* Beräkningarna för indikatorerna **[!UICONTROL Spam]** och **[!UICONTROL Spam rate]** har ändrats.
-* Måtten **[!UICONTROL Bounce]** har förbättrats för ett mer exakt resultat.
+* The **[!UICONTROL Spam]** och **[!UICONTROL Spam rate]** indikatorberäkningarna har ändrats.
+* The **[!UICONTROL Bounce]** mätvärdena har förbättrats för ett mer exakt resultat.
 
 _Push-meddelanden_
 
@@ -304,7 +304,7 @@ _Push-meddelanden_
 <table> 
  <thead> 
   <tr> 
-   <th> Funktion<br /> </th> 
+   <th> Funktionalitet<br /> </th> 
    <th> Beskrivning<br /> </th> 
   </tr> 
  </thead> 
@@ -326,8 +326,8 @@ _Push-meddelanden_
    <td> Kopplingen Amazon Simple Storage Service (S3) kan nu användas för att importera eller exportera data till Adobe Campaign. Den kan ställas in i en arbetsflödesaktivitet. Konfigurationen görs i ett externt konto.<br /> Mer information finns i den <a href="../../administration/using/external-accounts.md">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Integrering med Dreamweaver live<br /> </td> 
-   <td> Integrationen mellan Adobe Campaign och Dreamweaver är nu klar. Det fungerar nu med den senaste officiella versionen av Dreamweaver (17.0.2).<br /> Detta kräver installation av Adobe Campaign Integration-tillägget härifrån:  <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_</a><br /> addonMer information finns i den här  <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=sv">videon</a>.<br /> </td> 
+   <td> Dreamweaver direktintegrering<br /> </td> 
+   <td> Integrationen mellan Adobe Campaign och Dreamweaver är nu klar. Det fungerar nu med den senaste officiella versionen av Dreamweaver (17.0.2).<br /> Detta kräver installation av Adobe Campaign Integration-tillägget härifrån: <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_addon</a><br /> Mer information finns i <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=sv">video</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -353,14 +353,14 @@ _Transaktionsmeddelanden_
 
 _Landningssidor_
 
-* Vi har optimerat det **[!UICONTROL by email]**-filter som används på landningssidor för att stämma av nya prenumeranter med databasprofiler.
+* Vi har optimerat **[!UICONTROL by email]** filter som används på landningssidor för att stämma av nya prenumeranter med databasprofiler.
 * Korrigerade ett problem som visade fritextindata i stället för kryssrutor när booleska fält användes i en formulärkonfiguration.
 * Korrigerade ett problem som förhindrade att miniatyrbilder för landningssidor genererades.
 
 _Arbetsflöden_
 
-* Korrigerade ett visningsfel vid redigering av en **[!UICONTROL End]**- eller **[!UICONTROL External Signal]**-aktivitet (endast i Safari).
-* Förbättrat felmeddelandet som visas när en **[!UICONTROL Read Audience]**-aktivitet som innehåller en felaktig målgrupp redigeras.
+* Korrigerat ett visningsfel vid redigering av ett **[!UICONTROL End]** eller **[!UICONTROL External Signal]** (endast Safari).
+* Förbättrat felmeddelande som visas när du redigerar ett **[!UICONTROL Read Audience]** aktivitet som innehåller en felaktig målgrupp.
 * Korrigerade ett problem som kunde leda till ett SQL-fel när en prenumerationsaktivitet kördes.
 
 _Integreringar_
@@ -389,7 +389,7 @@ _Push-meddelanden_
 <table> 
  <thead> 
   <tr> 
-   <th> Funktion<br /> </th> 
+   <th> Funktionalitet<br /> </th> 
    <th> Beskrivning<br /> </th> 
   </tr> 
  </thead> 
@@ -400,11 +400,11 @@ _Push-meddelanden_
   </tr> 
   <tr> 
    <td> Dreamweaver-integrering (Labs)<br /> </td> 
-   <td> Tack vare integreringen med Adobe Campaign och Dreamweaver har ni nu en integrerad process för att skapa e-postkampanjer med Adobe-lösningar.<br /> Du kan redigera Adobe Campaign-e-post i Dreamweaver och synkronisera innehållet sömlöst mellan båda lösningarna.<br /> I den första versionen finns integreringen som en"Labs"-funktion och fungerar endast med betaversionen av Dreamweaver Pre Release. Om du vill aktivera den kan du kontakta AC-DW-integration@adobe.com.<br /> Mer information finns i den här  <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">videon</a>.<br /> </td> 
+   <td> Tack vare integreringen med Adobe Campaign och Dreamweaver har ni nu en integrerad process för att skapa e-postkampanjer med Adobe-lösningar.<br /> Du kan redigera Adobe Campaign-e-post i Dreamweaver och synkronisera innehållet sömlöst mellan båda lösningarna.<br /> I den första versionen finns integreringen som en"Labs"-funktion och fungerar endast med betaversionen av Dreamweaver Pre Release. Om du vill aktivera den kan du kontakta AC-DW-integration@adobe.com.<br /> Mer information finns i <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">video</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Manuell optimering av sändningstid<br /> </td> 
-   <td> Du kan nu definiera en anpassad sändningstid per mottagare manuellt på leveransnivå eller med ett arbetsflöde. <br /> Det finns två nya alternativ:  <br /> 
+   <td> Du kan nu definiera en anpassad sändningstid per mottagare manuellt på leveransnivå eller med ett arbetsflöde. <br /> Det finns två nya alternativ: <br /> 
     <ul> 
      <li> Alla mottagare får meddelandet med deras tidszon i beaktande. </li> 
      <li> Varje mottagare får meddelandet vid ett beräknat datum och en beräknad tid som definieras av en formel. </li> 
@@ -423,19 +423,19 @@ _Push-meddelanden_
   </tr> 
   <tr> 
    <td> Arbetsflöden: ny signalaktivitet<br /> </td> 
-   <td> Starta ett arbetsflöde från ett annat arbetsflöde med den nya aktiviteten <span class="uicontrol">Signal</span>.<br /> Med möjligheten att starta ett arbetsflöde från ett annat kan ni nu stödja mer komplexa kundresor. Ni kan bättre övervaka kundresan och reagera om det uppstår problem.<br /> Flera arbetsflödesaktiviteter har uppdaterats:<br /> 
+   <td> Starta ett arbetsflöde från ett annat arbetsflöde med hjälp av det nya <span class="uicontrol">Signal</span> aktivitet.<br /> Med möjligheten att starta ett arbetsflöde från ett annat kan ni nu stödja mer komplexa kundresor. Ni kan bättre övervaka kundresan och reagera om det uppstår problem.<br /> Flera arbetsflödesaktiviteter har uppdaterats:<br /> 
     <ul> 
-     <li> <span class="uicontrol"></span> Slutaktivitet: Med en ny flik kan du ange ett arbetsflöde som ska utlösas när aktiviteten har körts. </li> 
-     <li> <span class="uicontrol">Uppdatera </span> dataaktivitet: Använd den nya tomma utgående övergången för att lägga till en  <strong></strong> slutaktivitet som utlöser ett annat arbetsflöde. Tomma utgående övergångar innehåller inga data och förbrukar inte onödigt utrymme i systemet </li> 
+     <li> <span class="uicontrol">End</span> aktivitet: Med en ny flik kan du ange ett arbetsflöde som ska utlösas när aktiviteten har körts. </li> 
+     <li> <span class="uicontrol">Uppdatera data</span> aktivitet: använd den nya tomma utgående övergången för att lägga till en <strong>End</strong> aktivitet som utlöser ett annat arbetsflöde. Tomma utgående övergångar innehåller inga data och förbrukar inte onödigt utrymme i systemet </li> 
     </ul> Mer information finns i den <a href="../../automating/using/external-signal.md">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Arbetsflöden: ny Läs målgruppsaktivitet<br /> </td> 
+   <td> Arbetsflöden: ny målgruppsaktivitet för läsning<br /> </td> 
    <td> Påbörja er målinriktningsprocess med en befintlig målgrupp som ni enkelt kan välja och förfina i en enda aktivitet.<br /> Mer information finns i den <a href="../../automating/using/read-audience.md">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Intressepunktsdata<br /> </td> 
-   <td> Intressepunktsdata integrerar Adobe Campaign med Adobe Analytics for Mobile. Ett varumärke kan samla in data från användarnas mobilplatser - kallas <strong>Intressepunkter</strong> - när användarna öppnar varumärkesappen. På så sätt kan varumärket utnyttja Adobe Campaign arbetsflöden för att skicka personaliserade meddelanden baserat på användarnas platser. Den här kanalen utnyttjar SDK:n för Mobile Core-tjänsten.<br /> Observera att den här funktionen kräver Analytics for Mobile, som är en betald lösning.<br /> Mer information finns i den <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Intressepunktsdata integrerar Adobe Campaign med Adobe Analytics for Mobile. Ett varumärke kan samla in data från användarnas mobila platser - som kallas <strong>Intressepunkter</strong> - när användarna öppnar varumärkesappen. På så sätt kan varumärket utnyttja Adobe Campaign arbetsflöden för att skicka personaliserade meddelanden baserat på användarnas platser. Den här kanalen utnyttjar SDK:n för Mobile Core-tjänsten.<br /> Observera att den här funktionen kräver Analytics for Mobile, som är en betald lösning.<br /> Mer information finns i den <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> REST API:er<br /> </td> 
@@ -452,7 +452,7 @@ _Allmänt_
 
 _E-postmeddelanden och SMS-meddelanden_
 
-* Korrigerade ett problem som medförde att alternativet **[!UICONTROL Request confirmation before sending messages]** fortfarande var markerat även efter att det avmarkerats och leveransen sparats.
+* Ett problem som orsakade **[!UICONTROL Request confirmation before sending messages]** kan du förbli markerad även när du har avmarkerat och sparat leveransen.
 * Korrigerade ett problem som kunde förhindra avpublicering av transaktionsmeddelanden.
 * Korrigerade ett problem där innehållet inte kunde synkroniseras korrekt med de senaste ändringarna innan en leverans förhandsgranskades.
 
@@ -462,8 +462,8 @@ _Landningssidor_
 
 _Arbetsflöden_
 
-* Korrigerade ett problem som kunde förhindra läsning av innehållet i avvisningsövergången för en **[!UICONTROL Load file]**-aktivitet.
-* Ett problem som gjorde att utbytta kolumner inte kunde beaktas korrekt när en **[!UICONTROL Load file]**-aktivitet konfigurerades har åtgärdats.
+* Ett problem som kunde förhindra att innehållet i avvisningsövergången för en **[!UICONTROL Load file]** aktivitet.
+* Ett problem som gjorde att utbytta kolumner inte kunde beaktas korrekt när en **[!UICONTROL Load file]** aktivitet.
 
 ## Version 17.1 – januari 2017 {#release-17-1---january-2017}
 
@@ -472,24 +472,24 @@ _Arbetsflöden_
 <table> 
  <thead> 
   <tr> 
-   <th> Funktion<br /> </th> 
+   <th> Funktionalitet<br /> </th> 
    <th> Beskrivning<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> Loggexport för extern rapportering<br /> </td> 
-   <td> Exportera loggar som leverans- och spårningsloggar för att bearbeta dem i de rapporterings- eller BI-verktyg du föredrar. Du kan använda enkla arbetsflöden med stegvisa frågor för att automatisera regelbunden export av nya loggar.<br /> Förutom tillgängligheten för loggresurser från resursväljaren har  <a href="../../automating/using/incremental-query.md">inkrementella </a> frågor och  <a href="../../automating/using/extract-file.md">extrahera </a> filaktiviteter förbättrats:<br /> 
+   <td> Exportera loggar som leverans- och spårningsloggar för att bearbeta dem i de rapporterings- eller BI-verktyg du föredrar. Du kan använda enkla arbetsflöden med stegvisa frågor för att automatisera regelbunden export av nya loggar.<br /> Förutom tillgängligheten för loggresurser från resursväljaren har förbättringar gjorts i <a href="../../automating/using/incremental-query.md">Inkrementell fråga</a> och <a href="../../automating/using/extract-file.md">Extrahera fil</a> verksamhet:<br /> 
     <ul> 
-     <li> <span class="uicontrol">Med stegvis </span> fråga kan du nu använda ett datumfält för att hämta nya eller uppdaterade data. Tidigare exkluderades alla resultat från tidigare körningar automatiskt, även om de uppdaterades sedan den senaste körningen. </li> 
-     <li> <span class="uicontrol">Extrahera </span> fileckan exporterar nu etiketter för uppräkningsvärden i stället för ID:n. </li> 
-    </ul> Dessa aktiviteter är tillgängliga för administratörer med tillgång till alla geo- och organisationsenheter.<br /> Mer information om att exportera loggar finns i den  <a href="../../automating/using/exporting-logs.md">detaljerade dokumentationen</a>.<br /> </td> 
+     <li> <span class="uicontrol">Inkrementell fråga</span> nu kan du använda ett datumfält för att hämta nya eller uppdaterade data. Tidigare exkluderades alla resultat från tidigare körningar automatiskt, även om de uppdaterades sedan den senaste körningen. </li> 
+     <li> <span class="uicontrol">Extrahera fil</span> kan nu exportera etiketter för uppräkningsvärden i stället för ID:n. </li> 
+    </ul> Dessa aktiviteter är tillgängliga för administratörer med tillgång till alla geo- och organisationsenheter.<br /> Mer information om att exportera loggar finns i <a href="../../automating/using/exporting-logs.md">detaljerad dokumentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Marknadsföringsfunktioner för transaktionsmeddelanden<br /> </td> 
    <td> Marknadsförarna kan nu skicka transaktionsmeddelanden baserat på kundens marknadsföringsprofiler. Detta gör att de kan:<br /> 
     <ul> 
-     <li> Använd typologiregler för marknadsföring, till exempel <span class="uicontrol">Adress på blockeringslista</span>. </li> 
+     <li> Använd typologiregler för marknadsföring som <span class="uicontrol">Adress på blockeringslista</span> . </li> 
      <li> Inkludera avprenumerations-länken i meddelandena. </li> 
      <li> Lägga till transaktionsmeddelanden i den globala leveransrapporten. </li> 
      <li> Använda transaktionsmeddelanden i kundresan. </li> 
@@ -511,7 +511,7 @@ _Arbetsflöden_
 
 _Allmänt_
 
-* Alternativen **[!UICONTROL Access authorization]** har returnerats till egenskaperna för landningssidan.
+* The **[!UICONTROL Access authorization]** alternativen har återgått till landningssidans egenskaper.
 * Korrigerade ett fel som kan ha gjort att en gammal bild återges i stället för rätt bild. Detta inträffade om källbilden hade uppdaterats i innehållsdefinitionen för en leverans- eller landningssida.
 * Ett problem som gjorde att användare inte kunde redigera vissa fält i ett befintligt externt SFTP-konto har åtgärdats.
 * Korrigerade flera gränssnittsproblem. Användarna kan till exempel nu redigera profilattribut och spara ändringar utan att ha problem med användargränssnittet.
@@ -523,20 +523,20 @@ _E-postmeddelanden och SMS-meddelanden_
 _Push-meddelanden_
 
 * Korrigerade ett fel som kan ha förhindrat återanslående från ett program till Adobe Campaign-servern.
-* Korrigerade ett fel som kunde ha förhindrat att **[!UICONTROL Play a sound]** och **[!UICONTROL Custom fields]** skulle beaktas för Android.
+* Korrigerat ett fel som kan ha förhindrats **[!UICONTROL Play a sound]** och **[!UICONTROL Custom fields]** som ska beaktas för Android.
 * Korrigerade ett fel som kan ha orsakat att ett extra escape-tecken lades till i Unicode-tecken som används för Emojis.
 * När en prenumerants registreringstoken läggs till i blockeringslista uppdateras nu motsvarande status omedelbart i programmets lista över prenumeranter i Adobe Campaign.
 
 _Arbetsflöden_
 
 * Korrigerade ett problem som kan ha förhindrat förhandsgranskning av frågor i händelseresurser (t.ex. rtEvent).
-* Avvisningsfilen som genereras av en **[!UICONTROL Load file]**-aktivitet kan nu hämtas i den utgående övergången och bearbetas i nästa aktivitet. Överför till exempel avslagsfilen via en SFTP-server med **[!UICONTROL Transfer file]** .
-* Ett problem som kan ha förhindrat en användare från att begränsa populationen av ett segment om **[!UICONTROL Temporary resource]** har valts på fliken **[!UICONTROL General]** i **[!UICONTROL Segmentation]** har åtgärdats.
+* Avvisningsfilen som genererats av en **[!UICONTROL Load file]** aktiviteten kan nu hämtas i den utgående övergången och bearbetas i nästa aktivitet. Överför till exempel avslagsfilen via en SFTP-server med **[!UICONTROL Transfer file]** .
+* Korrigerat ett problem som kan ha förhindrat en användare från att begränsa populationen i ett segment om **[!UICONTROL Temporary resource]** markerades i **[!UICONTROL General]** flik för **[!UICONTROL Segmentation]** .
 * **[!UICONTROL Scheduler]** aktiviteter kan inte längre anges för att utlösa ett arbetsflöde mer än en gång var 10:e minut.
-* Korrigerade ett fel som kan ha förhindrat **[!UICONTROL Use common columns]** från att fungera korrekt i en **[!UICONTROL Union]**-aktivitet.
+* Korrigerat ett fel som kan ha förhindrats **[!UICONTROL Use common columns]** från att fungera korrekt i en **[!UICONTROL Union]** aktivitet.
 
 _Integreringar_
 
 * Korrigerade ett problem som kan ha orsakat ett fel när en händelseutlösare distribuerades i Adobe Campaign. Det här felet uppstod när metadata för Sannolikhet att returneras om 30 dagar hade lagts till i utlösaren för övergivande i Adobe Marketing Cloud.
 * Korrigerade ett problem som kan ha gjort att det tekniska arbetsflödet rensade fältet Mål-Dimension när målgrupper importerades från huvudtjänsten Personer. Efterföljande frågor kunde inte hämta de importerade målgrupperna.
-* Korrigerade ett problem som kan ha gjort att aktiviteten **[!UICONTROL Save audience]** i ett arbetsflöde misslyckades när alternativet **[!UICONTROL Share in Adobe Marketing Cloud]** markerades.
+* Ett problem som kan ha orsakat **[!UICONTROL Save audience]** en aktivitet i ett arbetsflöde som ska misslyckas när alternativet **[!UICONTROL Share in Adobe Marketing Cloud]** kontrollerades.

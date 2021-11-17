@@ -9,14 +9,14 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
-feature: Sekretess
+feature: Privacy
 role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1478'
-ht-degree: 100%
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+workflow-type: tm+mt
+source-wordcount: '1476'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ För att kunna hantera personuppgifter på ett korrekt sätt bör du arbeta i en
 
 ### Integritet i Adobe Experience Cloud {#experience-cloud-privacy}
 
-Adobe Campaign ingår som en del av Adobe Experience Cloud. Det sätt på vilket integritet hanteras i Campaign följer Adobe Experience Clouds allmänna principer såsom följande:
+Adobe Campaign ingår som en del av Adobe Experience Cloud-lösningarna. Det sätt på vilket integritet hanteras i Campaign följer Adobe Experience Clouds allmänna principer såsom följande:
 
 * **Vilken information samlas in när Adobe Experience Cloud används**
 
@@ -126,11 +126,11 @@ Adobe Campaign erbjuder ytterligare funktioner som underlättar din beredskap so
 
 * **Åtkomsträttigheterna** är den registrerades rätt att från personuppgiftsansvarige få bekräftelse på om personuppgifter som rör dem behandlas eller inte, var de befinner dig och varför.
 
-* **Rätten att glömmas** (förfrågan om borttagning) ger den registrerade rätten att låta personuppgiftsansvarig radera sina personuppgifter.
+* The **Rätt att glömma** (begäran om radering) ger den registrerade rätt att låta den registrerade radera sina personuppgifter.
 
 >[!NOTE]
 >
->Den här uppsättningen verktyg hjälper dig med din integritetsefterlevnad gällande GDPR, CCPA och PDPA. Se [denna sida](https://helpx.adobe.com/se/campaign/kb/campaign-privacy-overview.html#whatisgdpr) för mer information om dessa olika regelverk.
+>Den här uppsättningen verktyg hjälper dig med din integritetsefterlevnad gällande GDPR, CCPA och PDPA. Se [denna sida](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr) för mer information om dessa olika regelverk.
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 

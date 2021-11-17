@@ -9,7 +9,7 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: cf3c6408-7fa0-423a-b34b-f4fee771fb47
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 48%
@@ -22,7 +22,7 @@ En integrerad kundprofil finns tillgänglig för varje kontakt i databasen. Denn
 
 Så här får du tillgång till den integrerade kundprofilen:
 
-1. På Adobe Campaign hemsida klickar du på **[!UICONTROL Customer profiles]**-kortet eller på fliken **Profiler** för att visa profillistan.
+1. På Adobe Campaign hemsida klickar du på **[!UICONTROL Customer profiles]** eller **Profiler** för att visa profillistan.
 
 1. Om du vill söka efter en profil baserat på ett visst fält öppnar du sökrutan och markerar sedan det fält som du vill söka i.
 
@@ -35,7 +35,7 @@ Så här får du tillgång till den integrerade kundprofilen:
    >
    >Observera att sökningar kan utföras baserat på fälten för e-post, förnamn och efternamn samt anpassade fält som har lagts till när resursen utökas.
    >
-   >Sökningar är skiftlägeskänsliga och utförs endast med prefix. Du kommer till exempel inte att kunna leta efter en profil med hjälp av efternamnets sista bokstäver.
+   >Sökningar är skiftlägeskänsliga och utförs endast med prefix. Du kan till exempel inte leta efter en profil med hjälp av efternamnets sista bokstäver.
 
 1. Välj en kontakt för att öppna dess profil.
 

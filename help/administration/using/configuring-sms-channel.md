@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '1566'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -316,7 +316,7 @@ Med funktionen **[!UICONTROL Define a specific mapping of encodings]** kan du de
 
 ### Automatiskt svar skickat till MO {#automatic-reply-sent-to-the-mo}
 
-När en profil svarar på ett SMS som skickades via Kampanjer kan du konfigurera meddelanden som automatiskt skickas tillbaka till profilen samt vilken åtgärd som ska utföras.
+När en profil svarar på ett SMS-meddelande som skickades via Campaign kan ni konfigurera meddelanden som automatiskt skickas tillbaka till dem samt vilken åtgärd som ska utföras.
 
 Mer information hittar du i [det här avsnittet](../../channels/using/managing-incoming-sms.md).
 
@@ -328,15 +328,15 @@ De specifika parametrarna för att skicka SMS grupperas i avsnitten **[!UICONTRO
 
 ![](assets/sms_options.png)
 
-I avsnittet **[!UICONTROL Advanced parameters]**:
+Från **[!UICONTROL Advanced parameters]** avsnitt:
 
-* Med **[!UICONTROL Short code]** kan du lägga till en specifik kortkod i leveransen. Mottagare som valde bort den här korta koden exkluderas automatiskt när meddelandet förbereddes. Mer information om hur du konfigurerar kort kod finns i [det här avsnittet](../../channels/using/managing-incoming-sms.md).
+* The **[!UICONTROL Short code]** gör att du kan lägga till en viss kort kod i leveransen. Mottagare som valde bort den här korta koden exkluderas automatiskt när meddelandet förbereddes. Mer information om hur du konfigurerar kort kod finns i [det här avsnittet](../../channels/using/managing-incoming-sms.md).
 
    >[!NOTE]
    >
-   >Om fältet **[!UICONTROL Short code]** lämnas tomt används värdet för fältet **[!UICONTROL Short code]** som angetts i det externa kontot.
+   >Om **[!UICONTROL Short code]** fältet är tomt, värdet för **[!UICONTROL Short code]** fält som angetts i det externa kontot kommer att användas.
 
-Från avsnittet **[!UICONTROL Send]** i en SMS-mall:
+Från **[!UICONTROL Send]** i en SMS-mall:
 
 * Med det här **[!UICONTROL Maximum number of SMS per message]** alternativet kan du definiera antalet SMS som ska användas för att skicka ett meddelande.  Om det här antalet överskrids skickas inte meddelandet.
 

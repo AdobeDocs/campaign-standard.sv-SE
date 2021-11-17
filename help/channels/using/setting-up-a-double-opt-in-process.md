@@ -8,7 +8,7 @@ feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 188b1750-e062-4328-9829-6f2848356b5c
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '1149'
 ht-degree: 89%
@@ -27,7 +27,7 @@ Principen är att skicka ett e-postmeddelande som bekräftar besökarens samtyck
 
 Gör följande för att ställa in detta:
 
-1. Skapa och publicera en landningssida så att besökarna kan registrera sig och prenumerera. Denna landningssida kommer att vara tillgänglig från en webbplats. Besökare som fyller i och skickar den här landningssidan lagras i databasen men läggs till i blockeringslista, så att de inte kan ta emot någon kommunikation före den slutliga valideringen (se [hantering av Blockeringslista i Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+1. Skapa och publicera en landningssida så att besökarna kan registrera sig och prenumerera. Denna landningssida kommer att vara tillgänglig från en webbplats. Besökare som fyller i och skickar in denna landningssida kommer att lagras i databasen men läggas till blockeringslista, så att de inte kan ta emot någon kommunikation före den slutliga valideringen (se [Hantering av Blockeringslista i Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
 1. Skapa och skicka automatiskt e-postmeddelandet om deltagande med en bekräftelselänk. Det här e-postmeddelandet riktar sig till den målgrupp som skickade landningssidan. Den kommer att baseras på en e-postmall som gör det möjligt att rikta in sig på &quot;avanmälningsprofiler&quot;.
 1. Omdirigering till en bekräftelsestartsida. Den sista landningssidan ska innehålla en bekräftelseknapp: Besökarna måste klicka på den. Du kan skapa ett välkomstmeddelande som ska skickas vid bekräftelse, och du kan till exempel lägga till ett specialerbjudande i e-postmeddelandet för nya mottagare.
 
@@ -101,7 +101,7 @@ Du måste skapa en specifik [typologi](../../sending/using/about-typology-rules.
 1. I Adobe Campaign-logotypen väljer du **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** och klickar på **[!UICONTROL Typologies]**.
 1. Duplicera den färdiga typologin **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**.
 1. När dupliceringen har bekräftats redigerar du den nya typologin och anger etiketten **TYPOLOGIPROFIL**.
-1. Ta bort regeln **Adress på blockeringslista**.
+1. Ta bort **Adress på blockeringslista** regel.
 1. Klicka på **[!UICONTROL Save]**.
 
 Den här typologin kan nu kopplas till bekräftelsemeddelandet via e-post.
@@ -143,7 +143,7 @@ Om du vill skapa och konfigurera den här landningssidan måste du:
 
    ![](assets/optin_acquisition_page1.png)
 
-1. Anpassa bekräftelsesidan för att informera nya prenumeranter om att de behöver validera prenumerationen.
+1. Anpassa bekräftelsesidan för att informera nya prenumeranter om att de behöver validera sin prenumeration.
 
    ![](assets/optin_acquisition_page2.png)
 

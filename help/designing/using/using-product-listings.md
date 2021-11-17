@@ -9,10 +9,10 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3c8ddd46-05b4-4414-ab2e-052d60da09e5
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '849'
-ht-degree: 82%
+ht-degree: 79%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 82%
 
 >[!IMPORTANT]
 >
->Produktlistor är bara tillgängliga för **transaktionsmeddelanden** via gränssnittet [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
+>Produktlistor är bara tillgängliga för **transaktionsmeddelanden** via [E-postdesigner](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) gränssnitt.
 
 När du redigerar innehållet i ett transaktionsmejl kan du skapa produktlistor som refererar till en eller flera datainsamlingar. I ett e-postmeddelande om att kunden överger en kundvagn kan du till exempel inkludera en lista över alla produkter som fanns i kundvagnen när de lämnade webbplatsen, med en bild, priset och en länk till varje produkt.
 
 Följ stegen nedan om du vill lägga till en lista över övergivna produkter i ett transaktionsmeddelande.
 
-Du kan också titta på [den här uppsättningen videor](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=en#configure-product-listings-in-transactional-emails) som förklarar vilka steg som krävs för att konfigurera produktlistor i ett transaktionsmejl.
+Du kan också titta [den här uppsättningen videoklipp](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=en#configure-product-listings-in-transactional-emails) som förklarar de steg som krävs för att konfigurera produktlistor i ett transaktionsmejl.
 
 >[!NOTE]
 >

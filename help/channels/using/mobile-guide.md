@@ -7,14 +7,15 @@ topic-tags: mobile-guide
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: e583ba4e93b16389be9d06c4b7fa8eebf4ee3cfc
+exl-id: d4e1b935-b21f-4a24-99ba-f455db0f7cfc
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '789'
-ht-degree: 23%
+ht-degree: 24%
 
 ---
 
-# Kom igång med mobilkanaler {#mobile-guide}
+# Kom igång med mobila kanaler {#mobile-guide}
 
 <table style="table-layout:fixed">
 <tr>
@@ -97,7 +98,7 @@ Med Adobe Campaign Standard kan ni skicka mobilleveranser via tre olika kanaler:
     <div>
     <p><strong>Konfigurera Adobe Experience Platform Launch-regler som stöder Adobe Campaign Standard användningsfall</strong></p>
     </div>
-    <p><a href="../../administration/using/configuring-rules-launch.md"><strong>Klicka </strong></a> här för att börja skapa dataelement och regler i Adobe Experience Platform Launch för att skicka PII och andra data från mobilprogram till Adobe Campaign Standard.</p>
+    <p><a href="../../administration/using/configuring-rules-launch.md"><strong>Klicka här</strong></a> för att börja skapa dataelement och regler i Adobe Experience Platform Launch för att skicka PII och andra data från mobilprogram till Adobe Campaign Standard.</p>
     <br>
   </td>
   <td>
@@ -118,7 +119,7 @@ Med Adobe Campaign Standard kan ni skicka mobilleveranser via tre olika kanaler:
     <div>
     <p><strong>Förbereda och skicka ett push-meddelande</strong></p>
     </div>
-    <p><a href="../../channels/using/preparing-and-sending-a-push-notification.md"><strong>Läs </strong></a> här hur du förbereder ditt push-meddelande och hur du skickar det till din målgrupp.</p>
+    <p><a href="../../channels/using/preparing-and-sending-a-push-notification.md"><strong>Läs här</strong></a> hur du förbereder ditt push-meddelande och hur du skickar det till målgruppen.</p>
     <br>
   </td>
   <td>
@@ -141,7 +142,7 @@ Med Adobe Campaign Standard kan ni skicka mobilleveranser via tre olika kanaler:
     <div>
     <p><strong>Visa en bild från ett push-meddelande för Adobe Campaign Standard</strong></p>
     </div>
-    <p><a href="../../administration/using/image-push-notification.md"><strong>Lär dig </strong></a> här hur du visar en bild från ett push-meddelande från Adobe Campaign på en iOS-enhet.</p>
+    <p><a href="../../administration/using/image-push-notification.md"><strong>Läs här</strong></a> hur du visar en bild från ett push-meddelande från Adobe Campaign på en iOS-enhet.</p>
     <br>
   </td>
 </tr>
@@ -155,7 +156,7 @@ Med Adobe Campaign Standard kan ni skicka mobilleveranser via tre olika kanaler:
     <div>
     <p><strong>Förbereda och skicka ett meddelande i appen</strong></p>
     </div>
-    <p><a href="../../channels/using/preparing-and-sending-an-in-app-message.md"><strong>Läs </strong></a> här hur du förbereder dina meddelanden i appen och hur du skickar dem till målgruppen.</p>
+    <p><a href="../../channels/using/preparing-and-sending-an-in-app-message.md"><strong>Läs här</strong></a> hur ni förbereder era meddelanden i appen och hur ni skickar dem till er målgrupp.</p>
     <br>
   </td>
   <td>
@@ -192,7 +193,7 @@ Med Adobe Campaign Standard kan ni skicka mobilleveranser via tre olika kanaler:
     <div>
     <p><strong>Skapa ett SMS-meddelande</strong></p>
     </div>
-    <p>Att skapa en SMS-leverans påminner mycket om hur man skapar ett vanligt e-postmeddelande. </br>Stegen  <a href="../../channels/using/creating-an-sms-message.md"><strong>som beskrivs </strong></a> nedan beskriver konfigurationen som är specifik för den här kanalen.</br></p>
+    <p>Att skapa en SMS-leverans påminner mycket om hur man skapar ett vanligt e-postmeddelande. </br>Stegen <a href="../../channels/using/creating-an-sms-message.md"><strong>detaljerad här</strong></a> beskriver konfigurationen som är specifik för den här kanalen.</br></p>
     <br>
   </td>
   <td>
@@ -209,7 +210,7 @@ Med Adobe Campaign Standard kan ni skicka mobilleveranser via tre olika kanaler:
     <div>
     <p><strong>Hantera inkommande SMS</strong></p>
     </div>
-    <p>När en profil svarar på ett SMS-meddelande som skickades via Campaign kan du konfigurera meddelanden som automatiskt skickas tillbaka till honom eller åtgärden som ska utföras. Anpassa en lokal meddelandetyp</br><a href="../../channels/using/managing-incoming-sms.md"><strong>Klicka här om du vill ha mer information.</br><a href="../../channels/using/managing-incoming-sms.md"><strong></p>
+    <p>När en profil svarar på ett SMS-meddelande som skickades via Campaign kan du konfigurera meddelanden som automatiskt skickas tillbaka till dem samt åtgärden som ska utföras.Anpassa en lokal meddelandetyp</br><a href="../../channels/using/managing-incoming-sms.md"><strong>Klicka här om du vill ha mer information.</br><a href="../../channels/using/managing-incoming-sms.md"><strong></p>
     <br>
   </td>
   <td>
@@ -248,5 +249,3 @@ Följande sidor hjälper dig att lösa de vanligaste problemen som kan uppstå n
   </td>
 </tr>
 </table>
-
-

@@ -8,7 +8,7 @@ feature: Direct Mail
 role: User
 level: Intermediate
 exl-id: 6783aa68-7fd7-4f53-86bf-853c0fea5899
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # Skicka tillbaka till avsändaren{#return-to-sender}
 
-Platta filutbyten med Direct Mail-leverantörer med information om att skicka tillbaka till avsändaren stöds. På så sätt kan motsvarande postadresser uteslutas från framtida kommunikation. På så sätt kan ni också få meddelande om en felaktig adress och kontakta kunden via andra kanaler eller uppmuntra honom att uppdatera sin postadress.
+Platta filutbyten med Direct Mail-leverantörer med information om att skicka tillbaka till avsändaren stöds. På så sätt kan motsvarande postadresser uteslutas från framtida kommunikation. På så sätt kan ni också meddelas om en felaktig adress och interagera med kunden via andra kanaler eller uppmuntra dem att uppdatera sin postadress.
 
 En kontakt har till exempel flyttats till en ny plats och har inte försett dig med sin nya postadress. Leverantören hämtar listan över felaktiga adresser och skickar den här informationen till Adobe Campaign som automatiskt blocklist de felaktiga adresserna.
 

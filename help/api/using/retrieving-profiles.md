@@ -8,7 +8,7 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 5%
@@ -17,9 +17,9 @@ ht-degree: 5%
 
 # Hämta profiler {#retrieving-profiles}
 
-Hämtning av profiler utförs med en **GET**-begäran.
+Hämtning av profiler utförs med en **GET** begäran.
 
-Du kan sedan förfina sökningen genom att använda filter, ordning och sidnumrering. Mer information finns i avsnittet [Ytterligare åtgärder](../../api/using/sorting.md).
+Du kan sedan förfina sökningen genom att använda filter, ordning och sidnumrering. Mer information finns i [Ytterligare åtgärder](../../api/using/sorting.md) -avsnitt.
 
 Med Campaign Standard-API:er kan du dessutom söka efter profiler som baseras på något av följande fält: e-post, förnamn, efternamn eller anpassade fält. Mer information om detta finns i [det här avsnittet](#searching-field).
 
@@ -88,11 +88,11 @@ Med Campaign Standard-API:er kan du dessutom söka efter profiler som baseras p�
 
 ## Söka efter profiler baserade på ett fält {#searching-field}
 
-Med parametern **[!UICONTROL filterType]** kan du hämta profiler baserat på ett av dessa fält: e-post, förnamn, efternamn eller andra anpassade fält som har lagts till i avancerad filtrering när profilresursen utökas.
+The **[!UICONTROL filterType]** kan du hämta profiler baserat på något av följande fält: e-post, förnamn, efternamn eller andra anpassade fält som har lagts till i avancerad filtrering när profilresursen utökas.
 
 >[!NOTE]
 >
->Sökningar är skiftlägeskänsliga och utförs endast med prefix. Du kommer till exempel inte att kunna leta efter en profil med hjälp av efternamnets sista bokstäver.
+>Sökningar är skiftlägeskänsliga och utförs endast med prefix. Du kan till exempel inte leta efter en profil med hjälp av efternamnets sista bokstäver.
 
 ***Exempelbegäranden***
 

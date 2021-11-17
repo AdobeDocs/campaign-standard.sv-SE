@@ -9,10 +9,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468
-source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '1500'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -42,11 +42,11 @@ Ett ljud varnar användarna om ett push-meddelande och ger det mer synlighet. S�
 
    ![](assets/push_notif_advanced_7.png)
 
-1. Ljudfilen spelas upp när meddelandet skickas om filen är definierad i mobilprogrammets paket. Du kan ställa in det på **standard** för att spela upp enhetens standardljud.
+1. Ljudfilen spelas upp när meddelandet skickas om filen är definierad i mobilprogrammets paket. Du kan ställa in den på **standard** för att spela upp enhetens standardljud.
 
-   Om fältet **[!UICONTROL Play a sound]** lämnas tomt spelas inget ljud upp.
+   Om **[!UICONTROL Play a sound]** fältet är tomt, inget ljud spelas upp.
 
-Användaren får då ett push-meddelande och ljudet endast om telefonen inte är avstängd.
+Användaren får sedan push-meddelandet och ljudet endast om telefonen inte är avstängd.
 
 ## Uppdatera märkesvärdet {#refresh-the-badge-value}
 
@@ -113,7 +113,7 @@ Om du anger ett förfallodatum för ditt push-meddelande kan du ange ett specifi
 
 Så här lägger du till ett förfallodatum i ditt push-meddelande:
 
-1. Markera alternativet **[!UICONTROL Expire message]**: genom att välja alternativet **[!UICONTROL Expire message]** anges längden automatiskt till 0. Om du inte ändrar värdet försöker både APNS och FCM skicka meddelandet direkt. Om det misslyckas skickas inte meddelandet igen.
+1. Kontrollera **[!UICONTROL Expire message]** alternativ: genom att välja **[!UICONTROL Expire message]** anges längden automatiskt till 0. Om du inte ändrar värdet försöker både APNS och FCM skicka meddelandet direkt. Om det misslyckas skickas inte meddelandet igen.
 
 1. Välj giltigheten för push-meddelandet i **[!UICONTROL Duration]**-fältet.
 

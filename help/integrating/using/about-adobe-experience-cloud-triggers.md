@@ -9,10 +9,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 98%
+ht-degree: 90%
 
 ---
 
@@ -22,7 +22,7 @@ Integrationen mellan huvudtjänsten Experience Cloud Activation **[!UICONTROL Tr
 
 I Adobe Experience Cloud definierar ni olika utlösare, det vill säga de kundbeteenden som ni vill övervaka. Exempelvis alla kunder som avbrutit sitt besök på eran hemsida, gjort en sökning på eran hemsida men inte köpt något, eller till och med de kunder vars session har gått ut. När du skapar en utlösare så definierar du utlösarens villkor och de data som ska skickas i händelsen (uppladdningen) till Adobe Campaign.
 
-I Adobe Campaign väljer du den utlösare som tidigare skapats. Sedan länkar du händelsedatan med datamart-datan och väljer transaktionsmeddelande-mallen som är associerad med utlösaren/händelsen.    När en kund till exempel avbryter sitt besök på din hemsida skickas ett event till Adobe Campaign som sedan kan återanvända eventet genom ett e-postmeddelande som skickas till kunden inom 15 minuter.
+I Adobe Campaign väljer du den utlösare som tidigare skapats. Sedan länkar du händelsedatan med datamart-datan och väljer transaktionsmeddelande-mallen som är associerad med utlösaren/händelsen.    När en kund t.ex. avbryter sitt besök på din webbplats skickas ett event till Adobe Campaign som sedan kan återanvända evenemanget via ett e-postmeddelande som skickas till kunden inom 15 minuter.
 
 Följande diagram visar hur den här integreringen fungerar.
 
