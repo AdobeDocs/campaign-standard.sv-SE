@@ -21,10 +21,10 @@ ht-degree: 4%
 Den här rapporten innehåller data som relaterar till leveransflödet för en sändning eller flera sändningar. Den innehåller följande:
 
 * Antalet meddelanden som bearbetas per timme
-* Tabellen **[!UICONTROL Top 5 deliveries]** och de kompletterande sammanfattningsnumren som visar de fem leveranserna med den största vinsten i återförsök.
+* The **[!UICONTROL Top 5 deliveries]** Tabell och kompletterande sammanfattningsnummer som visar de fem leveranserna med den största vinsten i återförsök.
 
 ![](assets/delivery_reports_1.png)
 
 >[!NOTE]
 >
->På sidan **[!UICONTROL Delivery throughput]** visas dataöverföringshastigheten för vidarebefordran av meddelanden från Campaign till Adobe Campaign Enhanced MTA (Message Transfer Agent).
+>The **[!UICONTROL Delivery throughput]** På sidan visas dataöverföringshastigheten för vidarebefordran av meddelanden från Campaign till Adobe Campaign Enhanced MTA (Message Transfer Agent).

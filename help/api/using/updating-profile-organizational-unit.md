@@ -17,7 +17,7 @@ ht-degree: 10%
 
 # Uppdatera en profils organisationsenhet {#managing-organizational-units}
 
-1. Utför en GET-begäran på resursen **orgUnitBase** för att hämta organisationsenhetens PKey
+1. Utför en GET-förfrågan på **orgUnitBase** resurs för att hämta organisationsenhetens PKey
 1. Utför en PATCH-begäran på profilen PKey, med önskad PKey för organisationsenheten i nyttolasten.
 
 <br/>

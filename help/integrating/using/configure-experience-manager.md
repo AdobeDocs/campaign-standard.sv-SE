@@ -25,8 +25,8 @@ I det här användningsexemplet får du lära dig att skapa och hantera e-postin
 
 Du bör kontrollera att du har följande element i förväg:
 
-* En Adobe Experience Manager **redigeringsinstans**
-* En Adobe Experience Manager **publiceringsinstans**
+* En Adobe Experience Manager **redigering** instance
+* En Adobe Experience Manager **publicera** instance
 * En Adobe Campaign-instans
 
 ## Konfiguration i Adobe Campaign Standard {#config-acs}
@@ -34,15 +34,15 @@ Du bör kontrollera att du har följande element i förväg:
 Om du vill använda dessa två lösningar tillsammans måste du konfigurera dem så att de ansluter till varandra.
 Så här konfigurerar du Adobe Campaign:
 
-1. Du måste först konfigurera det externa **[!UICONTROL Adobe Experience Manager instance]**-kontot under **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts menu]**.
+1. Du måste först konfigurera **[!UICONTROL Adobe Experience Manager instance]** externt konto under **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts menu]**.
 
-1. Konfigurera det externa Adobe Experience Manager-kontot med din **[!UICONTROL Server]**-URL, **[!UICONTROL Account]** och **[!UICONTROL Password]**.
+1. Konfigurera ett externt Adobe Experience Manager-konto med ditt **[!UICONTROL Server]** URL, **[!UICONTROL Account]** och **[!UICONTROL Password]**.
 
    ![](assets/aem_1.png)
 
-1. Kontrollera att alternativet **[!UICONTROL AEMResourceTypeFilter]** har konfigurerats korrekt. Gå till menyn **[!UICONTROL Options]** under **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
+1. Kontrollera att **[!UICONTROL AEMResourceTypeFilter]** alternativet har konfigurerats korrekt. Öppna **[!UICONTROL Options]** meny under **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** -menyn.
 
-1. Kontrollera att följande syntax är korrekt i fältet **[!UICONTROL Value (text)]**:
+1. I **[!UICONTROL Value (text)]** kontrollerar du att följande syntax är korrekt:
 
    ```
    mcm/campaign/components/newsletter,mcm/campaign/components/campaign_newsletterpage,mcm/neolane/components/newsletter
@@ -50,15 +50,15 @@ Så här konfigurerar du Adobe Campaign:
 
    ![](assets/aem_2.png)
 
-1. På den avancerade menyn under **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** duplicerar du en av de befintliga mallarna för att skapa en e-postmall som är specifik för Adobe Experience Manager.
+1. På den avancerade menyn under **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**, duplicera en av de befintliga mallarna för att skapa en e-postmall som är specifik för Adobe Experience Manager.
 
    ![](assets/aem_3.png)
 
-1. Klicka på ikonen **[!UICONTROL Edit properties]**.
+1. Klicka på **[!UICONTROL Edit properties]** ikon.
 
    ![](assets/aem_4.png)
 
-1. Under listrutan **[!UICONTROL Content]** väljer du **[!UICONTROL Adobe Experience Manager]** i fältet **[!UICONTROL Content source]** och sedan det externa konto du skapade tidigare i **[!UICONTROL Adobe Experience Manager account]**.
+1. Under **[!UICONTROL Content]** nedrullningsbar meny, välja **[!UICONTROL Adobe Experience Manager]** i **[!UICONTROL Content source]** fältet och sedan ditt tidigare skapade externa konto i **[!UICONTROL Adobe Experience Manager account]**.
 
 Nu måste du konfigurera integreringen i Adobe Experience Manager.
 
@@ -66,8 +66,8 @@ Nu måste du konfigurera integreringen i Adobe Experience Manager.
 
 Om du vill konfigurera Adobe Experience Manager med Adobe Campaign Standard måste du följa dessa steg:
 
-1. Du måste först konfigurera replikeringen mellan Adobe Experience Manager redigerings- och publiceringsinstanser. Se det här [avsnittet](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#configuring-adobe-experience-manager).
+1. Du måste först konfigurera replikeringen mellan Adobe Experience Manager redigerings- och publiceringsinstanser. Se detta [section](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#configuring-adobe-experience-manager).
 
-1. Anslut sedan Adobe Experience Manager till Adobe Campaign genom att konfigurera en dedikerad **[!UICONTROL Cloud Service]**. Se det här [avsnittet](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#connecting-aem-to-adobe-campaign).
+1. Anslut sedan Adobe Experience Manager till Adobe Campaign genom att konfigurera en dedikerad **[!UICONTROL Cloud Service]**. Se detta [section](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#connecting-aem-to-adobe-campaign).
 
-1. Nu måste du konfigurera externaliseraren i Adobe Experience Manager på din författarinstans. Se det här [avsnittet](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#configuring-the-externalizer).
+1. Nu måste du konfigurera externaliseraren i Adobe Experience Manager på din författarinstans. Se detta [section](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#configuring-the-externalizer).

@@ -15,7 +15,7 @@ ht-degree: 2%
 
 ---
 
-# Konfiguration av Adobe Campaign Standard och Adobe I/O för Microsoft Dynamics 365-integrering
+# Konfiguration av Adobe Campaign Standard och Adobe I/O för integrering av Microsoft Dynamics 365
 
 I den här artikeln beskrivs hur du konfigurerar Adobe Campaign Standard och Adobe I/O för att ge integreringsprogrammet åtkomst till data.
 
@@ -55,7 +55,7 @@ Följ nedanstående procedur för att uppnå detta:
 
    ![](assets/adobeIO1.png)
 
-1. Klicka på **[!UICONTROL Add API]** under **[!UICONTROL Get started with your new project]**.
+1. Under **[!UICONTROL Get started with your new project]**, klicka **[!UICONTROL Add API]**.
 
    ![](assets/adobeIO2.png)
 
@@ -63,7 +63,7 @@ Följ nedanstående procedur för att uppnå detta:
 
    ![](assets/adobeIO3.png)
 
-1. På nästa skärm kan du ladda upp en egen offentlig nyckel eller låta Adobe I/O generera nyckelparet åt dig. Dessa instruktioner följer det senare alternativet. Om du väljer att låta Adobe I/O generera nyckelparet klickar du på alternativ 1; klickar du på knappen **[!UICONTROL Generate keypair]**.
+1. På nästa skärm kan du ladda upp en egen offentlig nyckel eller låta Adobe I/O generera nyckelparet åt dig. Dessa instruktioner följer det senare alternativet. Om du väljer att låta Adobe I/O generera nyckelparet klickar du på alternativ 1; klickar du på **[!UICONTROL Generate keypair]** -knappen.
 
    ![](assets/adobeIO4.png)
 
@@ -71,7 +71,7 @@ Följ nedanstående procedur för att uppnå detta:
 
 När filen har laddats ned kan du packa upp den för att visa offentliga och privata nycklar. Adobe IO har redan använt den offentliga nyckeln i ditt Adobe IO-projekt. Du måste behålla din privata nyckel senare; den privata nyckeln kommer att användas under förintegreringsinställningarna för integrationsverktyget.
 
-1. Klicka på **[!UICONTROL Next]** för att fortsätta
+1. Klicka **[!UICONTROL Next]** fortsätta
 
    ![](assets/adobeIO5.png)
 
@@ -83,26 +83,26 @@ När filen har laddats ned kan du packa upp den för att visa offentliga och pri
 
    ![](assets/adobeIO6.png)
 
-1. På nästa skärm visas information om ditt nya Adobe IO-projekt. Klicka på **[!UICONTROL Add to Project]** längst upp till vänster på skärmen och välj **API** i listrutan.
+1. På nästa skärm visas information om ditt nya Adobe IO-projekt. Klicka **[!UICONTROL Add to Project]** längst upp till vänster på skärmen och välj **API** från listrutan.
 
    ![](assets/adobeIO7.png)
 
 1. På nästa skärm måste du välja API:t för I/O-händelser och sedan klicka på **[!UICONTROL Next]**.
 
-1. På nästa skärm klickar du på **[!UICONTROL Save the configured API]**.  Du kommer tillbaka till skärmen med projektinformation.
+1. På nästa skärm klickar du **[!UICONTROL Save the configured API]**.  Du kommer tillbaka till skärmen med projektinformation.
 
-1. Klicka nu på **[!UICONTROL Add to Project]** längst upp till vänster på skärmen och välj **API** i listrutan, precis som du gjorde tidigare.
+1. Klicka nu **[!UICONTROL Add to Project]** längst upp till vänster på skärmen och välj **API** från listrutan, som du gjorde tidigare.
 
 1. På nästa skärm måste du välja I/O Management API och klicka på **[!UICONTROL Next]**.
 
-1. På nästa skärm klickar du på **[!UICONTROL Save the configured API]**.
+1. På nästa skärm klickar du **[!UICONTROL Save the configured API]**.
 
 Inställningen av förintegrering i Campaign är nu klar.
 
 **Relaterade ämnen**
 
-* [Konfigurera Adobe IO för Microsoft Dynamics 365-](../../integrating/using/d365-acs-configure-adobe-io.md) integration är nästa steg i konfigurationen av integreringen
-* [I ](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) översikten över självbetjäningsprogram för integrering finns en fullständig lista över steg som krävs för att få integreringen att fungera.
+* [Konfigurera integrering av Adobe IO för Microsoft Dynamics 365](../../integrating/using/d365-acs-configure-adobe-io.md) är nästa steg i konfigurationen av integreringen
+* [Översikt över självbetjäningsprogram för integrering](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) innehåller en fullständig lista över steg som krävs för att få integreringen att fungera.
 
 
 * [Adobe IO - Integrering av tjänstkonto](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)

@@ -17,25 +17,25 @@ ht-degree: 2%
 
 # Förbereda utskickningen{#preparing-the-send}
 
-Förberedelsen motsvarar steget att beräkna målpopulationen och generera meddelandeinnehållet för varje profil som ingår i målet. När färdigställandet är klart är meddelandena klara att skickas, antingen omedelbart eller vid [det schemalagda datumet och tiden](../../sending/using/about-scheduling-messages.md).
+Förberedelsen motsvarar steget att beräkna målpopulationen och generera meddelandeinnehållet för varje profil som ingår i målet. När färdigställandet är klart är meddelandena klara att skickas, antingen omedelbart eller vid [schemalagt datum och tid](../../sending/using/about-scheduling-messages.md).
 
-1. Klicka på knappen **Förbered** i åtgärdsfältet för att börja förbereda sändningen.
+1. Klicka på knappen **Förbered** i åtgärdsfältet.
 
    ![](assets/preparing_delivery_2.png)
 
-1. Blocket **[!UICONTROL Deployment]** visar förloppet för förberedelsen och sedan förberedelsematerialet: antal riktade meddelanden, antal meddelanden som ska skickas osv.
+1. The **[!UICONTROL Deployment]** -blocket visar förloppet för förberedelsen och sedan färdigställandestatistiken: antal riktade meddelanden, antal meddelanden som ska skickas osv.
 
    Beroende på storleken på målpopulationen kan den här åtgärden ta en stund.
 
    ![](assets/preparing_delivery.png)
 
-1. Stoppa beredningen när som helst med knappen **Stoppa** i åtgärdsfältet.
+1. Avsluta beredningen när som helst med **Stoppa** i åtgärdsfältet.
 
    Under beredningsfasen skickas inga meddelanden. Du kan därför starta eller stoppa detta utan risk för att påverka något.
 
    ![](assets/preparing_delivery_6.png)
 
-1. Meddelandet sparas automatiskt när du förbereder för leveransfasen. Om du behöver göra några ändringar i schemat för ditt meddelande efter förberedelsesteget måste du kontrollera att du klickar på **[!UICONTROL Prepare]** igen för att dessa ändringar ska beaktas. Mer information om hur du schemalägger ett meddelande finns på den här [sidan](../../sending/using/about-scheduling-messages.md).
+1. Meddelandet sparas automatiskt när du förbereder för leveransfasen. Om du behöver göra några ändringar i schemat efter förberedelsesteget måste du se till att du klickar på **[!UICONTROL Prepare]** igen för att dessa ändringar ska beaktas. Mer information om hur du schemalägger ett meddelande finns i [page](../../sending/using/about-scheduling-messages.md).
 
    ![](assets/preparing_delivery_5.png)
 
@@ -43,13 +43,13 @@ Förberedelsen motsvarar steget att beräkna målpopulationen och generera medde
 
    ![](assets/preparing_delivery_4.png)
 
-1. Fönstret **[!UICONTROL Deployment]** öppnas, åtgärda eventuella fel och starta sedan om förberedelsen.
+1. The **[!UICONTROL Deployment]** öppnas, korrigerar eventuella fel och startar sedan om förberedelsen.
 
    I det sista loggmeddelandet visas eventuella felmeddelanden och antalet fel. En specifik ikon visar den påträffade feltypen: Om den gula ikonen anger ett icke-kritiskt bearbetningsfel visas ett kritiskt fel som gör att leveransen inte kan startas.
 
    ![](assets/preparing_delivery_3.png)
 
-1. Kontrollera färdigställandestatistiken innan du bekräftar att meddelandena skickas. Om antalet meddelanden som ska skickas inte motsvarar din konfiguration redigerar du målpopulationen (se [Välja en målgrupp i ett meddelande](../../audiences/using/selecting-an-audience-in-a-message.md)) och startar om förberedelsen.
+1. Kontrollera färdigställandestatistiken innan du bekräftar att meddelandena skickas. Om antalet meddelanden som ska skickas inte motsvarar din konfiguration redigerar du målpopulationen (se [Välja en målgrupp i ett meddelande](../../audiences/using/selecting-an-audience-in-a-message.md)) och starta om preparatet.
 
 När färdigställandet är klart är ditt meddelande klart att skickas. Mer information finns i [Bekräfta sändning](../../sending/using/confirming-the-send.md).
 
@@ -61,4 +61,4 @@ Adobe Campaign innehåller en uppsättning typologiregler som tillämpas under m
 
 Om du har infogat anpassningsfält eller villkorlig text i innehållet i SMS-meddelandet kan dessa faktorer medföra tecken som inte beaktas av GSM-kodningen. När förberedelsen körs övervakas meddelandets längd och ett varningsmeddelande visas om gränsen överskrids.
 
-Mer information finns i avsnitten [SMS-kodning, längd och transkribering](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) och [Anpassa SMS-meddelanden](../../channels/using/personalizing-sms-messages.md).
+Mer information finns i [SMS-kodning, längd och transkribering](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) och [Anpassa SMS-meddelanden](../../channels/using/personalizing-sms-messages.md) -avsnitt.

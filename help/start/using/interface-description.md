@@ -38,7 +38,7 @@ Startsidan består av en uppsättning kort som ger dig snabb åtkomst till huvud
 * Kortet **[!UICONTROL Create an SMS]** tar dig till assistenten för att skapa SMS. Med den här assistenten kan du välja en SMS-typ, välja meddelandemottagare och definiera innehållet. Se avsnittet [Skapa ett SMS](../../channels/using/creating-an-sms-message.md).
 * Kortet **[!UICONTROL Create a Direct mail]** tar dig till assistenten för att skapa direktmeddelanden. Mer information finns i avsnittet [Skapa direktmeddelanden](../../channels/using/creating-the-direct-mail.md).
 * Kortet **[!UICONTROL Create a push notification]** tar dig till assistenten för att skapa meddelanden. Med den här assistenten kan du välja en typ av push-meddelanden, välja meddelandemottagare och definiera innehållet. Se avsnittet [Skapa ett push-meddelande](../../channels/using/preparing-and-sending-a-push-notification.md) .
-* **[!UICONTROL Create an In-App message]**-kortet tar dig till assistenten för att skapa i appen. Med den här assistenten kan du välja vilken typ av meddelanden i appen som du vill skapa, definiera dess egenskaper, målgrupp och innehåll. Se avsnittet [Skapa ett meddelande i appen](../../channels/using/about-in-app-messaging.md).
+* The **[!UICONTROL Create an In-App message]** kortet tar dig till assistenten för att skapa i appen. Med den här assistenten kan du välja vilken typ av meddelanden i appen som du vill skapa, definiera dess egenskaper, målgrupp och innehåll. Se [Skapa ett meddelande i appen](../../channels/using/about-in-app-messaging.md) -avsnitt.
 * På kortet **[!UICONTROL Marketing activities]** finns en fullständig lista över alla aktiviteter, program och kampanjer, särskilt e-postmeddelanden, SMS, arbetsflöden och landningssidor. Härifrån kan du filtrera elementen genom att söka efter namn, datum, status eller aktivitetstyp. Mer information om detta hittar du i avsnittet [Listan över marknadsföringsaktiviteter](../../start/using/marketing-activities.md#about-marketing-activities).
 * På kortet **[!UICONTROL Programs & campaigns]** finns en lista med program där du kan skapa och hantera kampanjer. Se [Programlista](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns).
 * Kortet **[!UICONTROL Timeline]** tar dig direkt till en interaktiv tidslinje för dina marknadsföringsaktiviteter, där du kan läsa de pågående programmen och deras innehåll. Se [Tidslinjen](../../start/using/timeline.md).
@@ -51,38 +51,38 @@ Det övre fältet är synligt på alla skärmar och gör att du kan navigera bla
 
 Navigeringsprinciperna är:
 
-* Logotypen **Adobe** i det övre vänstra hörnet av sidan ger dig tillgång till de avancerade funktionerna och konfigurationerna. Menyer beror på din profil och dina behörigheter.
+* The **Adobe** logotypen i det övre vänstra hörnet av sidan ger dig tillgång till de avancerade funktionerna och konfigurationerna. Menyer beror på din profil och dina behörigheter.
 
    Den avancerade menyn visas i avsnittet [Avancerad meny](#advanced-menu).
 
 * Använd länken **[!UICONTROL Home]** för att visa startsidan för Adobe Campaign.
 * Med länkarna **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** och **[!UICONTROL Reports]** kan du komma åt de vyer som är kopplade till dessa funktioner.
-* Med ikonen **Solution Switcher** kan du växla mellan olika organisationer eller till ett annat program.
-* Ikonen **[!UICONTROL Help]** beskrivs [nedan](#help).
+* The **Lösningsväljare** kan du växla mellan olika organisationer eller till ett annat program.
+* The **[!UICONTROL Help]** ikon beskrivs [nedan](#help).
 * Ikonen **Meddelanden** visar de senaste varningarna eller informationen.
 * Med ikonen **Användare** kan du visa information som är kopplad till din profil. Använd den här ikonen om du behöver **[!UICONTROL Sign out]**.
 
 ### Hjälp {#help}
 
-I det övre högra hörnet visas ikonen **Help** för in Adobe Experience League i produkten.
+I det övre högra hörnet visas **Hjälp** -ikonen för in Adobe Experience League i produkten.
 
 ![](assets/ux_help.png)
 
-Använd fältet **[!UICONTROL Search]** för att hitta vägledning. Sökresultaten innehåller dokumentation och hjälpartiklar, resultat från communityforum och videoinnehåll, som ger dig enklare åtkomst till mer innehåll och hjälper dig att få ut så mycket som möjligt av programmet.
+Använd **[!UICONTROL Search]** fält för att hitta vägledning. Sökresultaten innehåller dokumentation och hjälpartiklar, resultat från communityforum och videoinnehåll, som ger dig enklare åtkomst till mer innehåll och hjälper dig att få ut så mycket som möjligt av programmet.
 
 Tre flikar hjälper dig att hitta hjälp och hjälp:
 
-1. Fliken **[!UICONTROL Help]** innehåller:
+1. The **[!UICONTROL Help]** -fliken innehåller:
    * snabb åtkomst till Adobe Campaign Standard-dokumentation med sammanhangsbaserade länkar.
-   * en **[!UICONTROL Learning]**-länk som gör att du kan komma åt Adobe Campaign kursbibliotek.
-   * en **[!UICONTROL Community]**-länk för att komma åt det forum som är dedikerat till dina frågor i Campaign.
-   * direkt åtkomst till Help Center, Customer Care, Experience Cloud produktstatus, Developer Connection, Release Notes, Release Planning och skärmen **[!UICONTROL About]**.
-1. På fliken **[!UICONTROL Support]** kan du öppna ett supportärende och kontakta oss via telefon eller Twitter.
-1. Fliken **[!UICONTROL Feedback]** gör det enklare att rapportera problem eller dela med dig av dina idéer.
+   * a **[!UICONTROL Learning]** som gör att du kan komma åt Adobe Campaign kursbibliotek.
+   * a **[!UICONTROL Community]** om du vill gå till forumet för dina frågor om Campaign.
+   * direkt åtkomst till Help Center, Customer Care, Experience Cloud product status, Developer connection, Release Notes, Release Planning och **[!UICONTROL About]** skärm.
+1. The **[!UICONTROL Support]** kan du öppna ett supportärende och kontakta oss via telefon eller Twitter.
+1. The **[!UICONTROL Feedback]**  gör det enklare att rapportera problem eller dela med dig av dina idéer.
 
 ## Avancerad meny {#advanced-menu}
 
-Den avancerade menyn visas genom att klicka på ikonen **Adobe Campaign** i det övre vänstra hörnet på varje skärm. Den avancerade menyn kan variera beroende på ditt kontrakt och dina användarbehörigheter.
+Den avancerade menyn visas genom att klicka på **Adobe Campaign** -ikonen i det övre vänstra hörnet av varje skärm. Den avancerade menyn kan variera beroende på ditt kontrakt och dina användarbehörigheter.
 
 På den här menyn kan du navigera till specifika funktioner och inställningar.
 

@@ -23,8 +23,8 @@ Låt oss ta följande exempel, där vi vill skicka e-post direkt från ett CMS-s
 
 Processen för att anropa ett arbetsflöde med parametrar är följande:
 
-1. Deklarera parametrarna i aktiviteten **[!UICONTROL External signal]**. Se [Deklarera parametrarna i den externa signalaktiviteten](../../automating/using/declaring-parameters-external-signal.md).
-1. Konfigurera aktiviteten **[!UICONTROL End]** eller API-anropet för att definiera parametrarna och utlösa aktiviteten **[!UICONTROL External signal]** för arbetsflödet. Läs [den här sidan](../../automating/using/defining-parameters-calling-workflow.md)
+1. Deklarera parametrarna i **[!UICONTROL External signal]** aktivitet. Se [Deklarera parametrarna i den externa signalaktiviteten](../../automating/using/declaring-parameters-external-signal.md).
+1. Konfigurera **[!UICONTROL End]** aktiviteten eller API-anropet för att definiera parametrarna och utlösa arbetsflödet **[!UICONTROL External signal]** aktivitet. Läs [den här sidan](../../automating/using/defining-parameters-calling-workflow.md)
 1. När arbetsflödet har utlösts hämtas parametrarna in i arbetsflödets händelsevariabler och kan användas i arbetsflödet. Läs [den här sidan](../../automating/using/customizing-workflow-external-parameters.md).
 
 ![](assets/extsignal_process.png)

@@ -20,7 +20,7 @@ ht-degree: 81%
 
 I det här användningsexemplet beskrivs hur du använder en resurs som skiljer sig från måldimensionen, till exempel för att söka efter en viss post i en fjärrtabell.
 
-Mer information om målinriktningsdimensioner och resurser finns i [det här avsnittet](../../automating/using/query.md#targeting-dimensions-and-resources)
+Mer information om målinriktning av dimensioner och resurser finns i [det här avsnittet](../../automating/using/query.md#targeting-dimensions-and-resources)
 
 **Exempel 1: Identifiera profiler som är avsedda för leveransen med etiketten &quot;Välkommen tillbaka!&quot;**.
 

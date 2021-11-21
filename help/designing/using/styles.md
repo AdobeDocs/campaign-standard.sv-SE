@@ -18,14 +18,14 @@ ht-degree: 2%
 # Hantera e-postformat {#managing-styles}
 
 
-När du markerar ett element i e-postdesignern visas flera alternativ som är specifika för den valda innehållstypen i rutan **[!UICONTROL Settings]**. Du kan använda de här alternativen för att enkelt ändra formatet på din e-post.
+När du markerar ett element i e-postdesignern visas flera alternativ som är specifika för den valda innehållstypen i **[!UICONTROL Settings]** fönster. Du kan använda de här alternativen för att enkelt ändra formatet på din e-post.
 
 ## Markera ett element {#selecting-an-element}
 
 Om du vill välja ett element i e-postdesignerns gränssnitt kan du antingen:
 
 * klicka direkt i e-postmeddelandet,
-* eller bläddra bland strukturträdet som finns bland alternativen i den vänstra **paletten**.
+* eller bläddra bland strukturträdet som finns bland alternativen till vänster **Palett**.
 
 ![](assets/des_tree_structure.png)
 
@@ -39,19 +39,19 @@ Genom att bläddra i strukturträdet kan du göra en mer exakt markering. Du kan
 
 Om du vill markera en kolumn kan du även göra följande:
 
-1. Välj en strukturkomponent (direkt i e-postmeddelandet eller med strukturträdet som är tillgängligt från vänster **palett**).
-1. Klicka på **[!UICONTROL Select a column]** i det sammanhangsberoende verktygsfältet **och välj önskad kolumn.**
+1. Välj en strukturkomponent (direkt i e-postmeddelandet eller med strukturträdet som är tillgängligt från vänster) **Palett**).
+1. Från **kontextuellt verktygsfält**, klicka **[!UICONTROL Select a column]** för att välja den önskade kolumnen.
 
 Se ett exempel i [det här avsnittet](#example--adjusting-vertical-alignment-and-padding).
 
 ## Justera formatinställningar {#adjusting-style-settings}
 
 1. Markera ett element i e-postmeddelandet. Mer information finns i [Markera ett element](#selecting-an-element).
-1. Justera inställningarna efter dina behov. För varje markerat element finns olika inställningar.
+1. Justera inställningarna efter dina behov. Varje markerat element har olika inställningar.
 
-   Du kan infoga bakgrunder, ändra storlek, ändra vågrät eller lodrät justering, hantera färger, lägga till [utfyllnad eller marginal](#selecting-an-element) och så vidare.
+   Du kan infoga bakgrunder, ändra storlek, ändra vågrät eller lodrät justering, hantera färger, lägga till [utfyllnad eller marginal](#selecting-an-element)och så vidare.
 
-   Det gör du genom att använda alternativen som visas i rutan **[!UICONTROL Settings]** eller [lägga till inline-formatattribut](#adding-inline-styling-attributes).
+   Om du vill göra det använder du alternativen som visas i **[!UICONTROL Settings]** fönster eller [lägga till textbundna formatattribut](#adding-inline-styling-attributes).
 
    ![](assets/des_settings_pane.png)
 
@@ -68,7 +68,7 @@ I e-postdesignerns gränssnitt kan du snabbt justera utfyllnads- och marginalins
 Exempel:
 
 * Använd utfyllnad för att ange marginaler till vänster och höger om en bild.
-* Använd den övre och undre utfyllnaden för att lägga till mer utrymme i en **[!UICONTROL Text]**- eller **[!UICONTROL Divider]**-komponent.
+* Använd utfyllnad upptill och nedtill för att lägga till mer avstånd i en **[!UICONTROL Text]** eller en **[!UICONTROL Divider]** -komponenten.
 * Om du vill ange kantlinjer mellan kolumner inuti ett strukturelement definierar du utfyllnad för varje kolumn.
 
 **[!UICONTROL Margin]**: Med den här inställningen kan du hantera mellanrummet mellan elementets kant och nästa element.
@@ -77,9 +77,9 @@ Exempel:
 
 >[!NOTE]
 >
->Beroende på vad du har valt (strukturkomponent, kolumn eller innehållskomponent) blir resultatet inte detsamma. Adobe rekommenderar att du ställer in parametrarna **[!UICONTROL Padding]** och **[!UICONTROL Margin]** på kolumnnivå.
+>Beroende på vad du har valt (strukturkomponent, kolumn eller innehållskomponent) blir resultatet inte detsamma. Adobe rekommenderar att du anger **[!UICONTROL Padding]** och **[!UICONTROL Margin]** -parametrar på kolumnnivå.
 
-För både **[!UICONTROL Padding]** och **[!UICONTROL Margin]** klickar du på låsikonen för att bryta synkroniseringen mellan parametrarna top och bottom eller right och left. På så sätt kan du justera varje parameter separat.
+För båda **[!UICONTROL Padding]** och **[!UICONTROL Margin]** klickar du på låsikonen för att bryta synkroniseringen mellan parametrarna längst upp och längst ned eller till höger och vänster. På så sätt kan du justera varje parameter separat.
 
 ![](assets/des_padding_lock_icon.png)
 
@@ -89,11 +89,11 @@ För både **[!UICONTROL Padding]** och **[!UICONTROL Margin]** klickar du på l
 
    ![](assets/des_text_alignment.png)
 
-* **Vågrät** justering kan användas på text, bilder och knappar - för närvarande inte på  **[!UICONTROL Divider]** och  **[!UICONTROL Social]** komponenter.
+* **Vågrät justering** kan användas på text, bilder och knappar - för närvarande inte på **[!UICONTROL Divider]** och **[!UICONTROL Social]** -komponenter.
 
    ![](assets/des_horizontal_alignment.png)
 
-* Om du vill ställa in **lodrät justering** markerar du en kolumn i en strukturkomponent och väljer ett alternativ i inställningspanelen.
+* Till **lodrät justering** markerar du en kolumn i en strukturkomponent och väljer ett alternativ i inställningspanelen.
 
    ![](assets/des_set_vertical_alignment.png)
 
@@ -113,11 +113,11 @@ När det gäller att ange bakgrunder med e-postdesignern rekommenderar Adobe fö
 
 Nedan visas de tillgängliga bakgrundsinställningarna som du kan använda.
 
-* Ange ett **[!UICONTROL Background color]**-värde för hela e-postmeddelandet. Se till att du väljer brödtextinställningarna i navigeringsträdet som du kommer åt från den vänstra paletten.
+* Ange en **[!UICONTROL Background color]** för hela e-postmeddelandet. Se till att du väljer brödtextinställningarna i navigeringsträdet som du kommer åt från den vänstra paletten.
 
    ![](assets/des_background_body.png)
 
-* Ange samma bakgrundsfärg för alla strukturkomponenter genom att välja **[!UICONTROL Viewport background color]**. Med det här alternativet kan du välja en annan inställning från bakgrundsfärgen.
+* Ange samma bakgrundsfärg för alla strukturkomponenter genom att markera **[!UICONTROL Viewport background color]**. Med det här alternativet kan du välja en annan inställning från bakgrundsfärgen.
 
    ![](assets/des_background_viewport.png)
 
@@ -127,7 +127,7 @@ Nedan visas de tillgängliga bakgrundsinställningarna som du kan använda.
 
    Se till att du inte anger någon bakgrundsfärg för visningsrutan eftersom den kan dölja strukturens bakgrundsfärger.
 
-* Ange **[!UICONTROL Background image]** som innehåll för en strukturkomponent.
+* Ange en **[!UICONTROL Background image]** för innehållet i en strukturkomponent.
 
    ![](assets/des_background_image.png)
 
@@ -149,12 +149,12 @@ Nedan visas de tillgängliga bakgrundsinställningarna som du kan använda.
 
 Du vill justera utfyllnaden och den lodräta justeringen inuti en strukturkomponent som består av tre kolumner. Följ stegen nedan för att göra detta:
 
-1. Markera strukturkomponenten direkt i e-postmeddelandet eller använd det strukturträd som finns till vänster **Palett**.
-1. Klicka på **[!UICONTROL Select a column]** i det sammanhangsberoende verktygsfältet **och välj det som du vill redigera.** Du kan också välja det i strukturträdet.
+1. Markera strukturkomponenten direkt i e-postmeddelandet eller med strukturträdet som är tillgängligt från vänster **Palett**.
+1. Från **kontextuellt verktygsfält**, klicka **[!UICONTROL Select a column]** och välj den som du vill redigera. Du kan också välja det i strukturträdet.
 
    ![](assets/des_selecting_column.png)
 
-   De redigerbara parametrarna för den kolumnen visas i rutan **[!UICONTROL Settings]** till höger.
+   De redigerbara parametrarna för den kolumnen visas i **[!UICONTROL Settings]** till höger.
 
 1. Under **[!UICONTROL Vertical alignment]** väljer du **[!UICONTROL Up]**.
 
@@ -162,7 +162,7 @@ Du vill justera utfyllnaden och den lodräta justeringen inuti en strukturkompon
 
    Innehållskomponenten visas ovanpå kolumnen.
 
-1. Ange den översta utfyllnaden i kolumnen under **[!UICONTROL Padding]**. Klicka på låsikonen om du vill bryta synkroniseringen med den nedre utfyllnaden.
+1. Under **[!UICONTROL Padding]** definierar du den översta utfyllnaden i kolumnen. Klicka på låsikonen om du vill bryta synkroniseringen med den nedre utfyllnaden.
 
    Definiera vänster och höger utfyllnad för den kolumnen.
 
@@ -180,11 +180,11 @@ Du kan stryka under en länk och välja dess färg och mål i e-postdesignern.
 
 1. I en komponent där en länk infogas, markerar du etikettexten för länken.
 
-1. Markera **[!UICONTROL Underline link]** i komponentinställningarna för att stryka under etikettexten för länken.
+1. Kontrollera komponentinställningarna i **[!UICONTROL Underline link]** om du vill stryka under etikettexten för länken.
 
    ![](assets/stylelinks-selecttext.png)
 
-1. Välj en **[!UICONTROL Target]** om du vill välja i vilket webbläsarsammanhang länken ska öppnas.
+1. Välj i vilken webbläsarkontext länken ska öppnas genom att välja en **[!UICONTROL Target]**.
 
    ![](assets/stylelinks-target.png)
 
@@ -203,10 +203,10 @@ Du kan stryka under en länk och välja dess färg och mål i e-postdesignern.
 När du markerar ett element och visar dess inställningar på sidopanelen i gränssnittet för e-postdesignern kan du anpassa infogade attribut och deras värde för det specifika elementet.
 
 1. Markera ett element i innehållet.
-1. På sidopanelen letar du efter **[!UICONTROL Styles Inline]**-inställningarna.
+1. På sidopanelen letar du efter **[!UICONTROL Styles Inline]** inställningar.
 
    ![](assets/email_designer_inlineattributes.png)
 
-1. Ändra värdena för befintliga attribut eller lägg till nya med knappen **+**. Du kan lägga till alla attribut och värden som är CSS-kompatibla.
+1. Ändra värdena för de befintliga attributen eller lägg till nya med **+** -knappen. Du kan lägga till alla attribut och värden som är CSS-kompatibla.
 
 Formateringen används sedan på det markerade elementet. Om de underordnade elementen inte har några definierade formatattribut ärvs det överordnade elementets formatering.

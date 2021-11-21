@@ -33,10 +33,10 @@ Endast följande inbyggda resurser kan utökas:
 
 Så här skapar eller utökar du en resurs:
 
-1. Klicka på **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]**.**[!UICONTROL Create]**
+1. Från **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]** klickar du på **[!UICONTROL Create]** -knappen.
 1. Välj den åtgärd som du vill utföra:
 
-   * **[!UICONTROL Create a new resource]**: Ange  **[!UICONTROL Label]** fälten och  **[!UICONTROL ID]** fälten. Fältet **[!UICONTROL ID]** är obligatoriskt.  Om du lämnar fältet Etikett tomt fylls det automatiskt i från ID:t.
+   * **[!UICONTROL Create a new resource]**: Ange **[!UICONTROL Label]** och **[!UICONTROL ID]** fält. Fältet **[!UICONTROL ID]** är obligatoriskt.  Om du lämnar fältet Etikett tomt fylls det automatiskt i från ID:t.
 
       ![](assets/schema_extension_2.png)
 
@@ -48,6 +48,6 @@ Så här skapar eller utökar du en resurs:
 
       ![](assets/schema_extension_10.png)
 
-1. Klicka på **[!UICONTROL Create]** för att skapa resursen, som sedan får statusen **[!UICONTROL Draft]** om det finns en ny resurs eller **[!UICONTROL Editing]**-statusen om det finns ett tillägg.
+1. Klicka **[!UICONTROL Create]** för att skapa resursen, som sedan tar **[!UICONTROL Draft]** status vid ny resurs eller **[!UICONTROL Editing]** status vid förlängning.
 
-Den nya resursen skapas och kan nu konfigureras. Mer information om resurskonfiguration finns i [Konfigurera resursens datastruktur](../../developing/using/configuring-the-resource-s-data-structure.md).
+Den nya resursen skapas och kan nu konfigureras. Mer information om resurskonfiguration finns i [Konfigurerar resursens datastruktur](../../developing/using/configuring-the-resource-s-data-structure.md).

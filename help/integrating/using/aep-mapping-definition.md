@@ -28,7 +28,7 @@ För att kunna utföra den här uppgiften måste du:
 * en XDM-schemadefinition via gränssnittet eller genom att använda REST-API:t som är associerat med XDM
 * en datauppsättning som baseras på XDM-schemadefinitionen
 
-1. Gå till **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** och välj posten **[!UICONTROL Data mappings]**.
+1. Gå till **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** och väljer **[!UICONTROL Data mappings]** post.
 
 1. Klicka på **[!UICONTROL Create]** för att starta en ny XDM-mappning.
 
@@ -37,7 +37,7 @@ För att kunna utföra den här uppgiften måste du:
 1. Fyll i de obligatoriska fälten och välj:
 
    * a **måldimension**: det här är det schema som Campaign Standarden ska mappas till
-   * a **dataset**: detta är det datapaket som är kopplat till ett XDM-schema i Adobe Experience Platform.
+   * a **datauppsättning**: detta är det datapaket som är kopplat till ett XDM-schema i Adobe Experience Platform.
 
 >[!NOTE]
 >
@@ -45,11 +45,11 @@ För att kunna utföra den här uppgiften måste du:
 >
 >Om den datauppsättning du väljer redan används i en befintlig datamappning visas en varning om att dina data kan skrivas över på Adobe Experience Platform. Detta kan inträffa när det finns vissa vanliga mottagare i datamappningar som använder samma datamängd.
 
-Följande skärm visar avsnittet **[!UICONTROL Field mappings]** där du kan skapa en ny mappning för varje fält i Campaign Standardens schema.
+Följande skärm visar **[!UICONTROL Field mappings]** där du kan skapa en ny mappning för varje fält i Campaign Standardens schema.
 
 ![](assets/aep_fieldmappings.png)
 
-Med knappen **[!UICONTROL Create new field mapping]** kan du markera Campaign Standarden och motsvarande fältsökvägsuttryck i XDM-schemat.
+The **[!UICONTROL Create new field mapping]** kan du markera Campaign Standarden och motsvarande fältsökvägsuttryck i XDM-schemat.
 
 Om du inte kan hitta något Adobe Campaign Standard-fält kan du använda sökfältet för att söka efter fältet. För närvarande fungerar sökningen endast för fält som är öppna i hierarkin.
 
@@ -61,13 +61,13 @@ De utökade resurser som definieras i Campaign Standarden mappas som alla inbygg
 
 Du kan anpassa XDM-tillägget via API:t och definiera ett eget tillägg så att du får bättre kontroll över mappningen.
 
-Mer information om XDM API finns i [API-självstudiekursen för schemaregistret](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
+Se [API-självstudiekurs för schematabell](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) för mer information om XDM API.
 
 Om du vill mappa ett uppräkningsfält måste du använda uttrycksredigeraren för att definiera varje uppräkningsvärde som motsvarar XDM-värdet. Postaladressfältet måste till exempel definieras som:
 
 ![](assets/aep_enummapping.png)
 
-Om XDM-värdet definieras som en uppräkning i XDM-schemat kan du använda den inbyggda EXDM-funktionen som automatiskt ersätter syntaxen **lif**.
+Om XDM-värdet definieras som en uppräkning i XDM-schemat kan du använda den inbyggda EXDM-funktionen som automatiskt ersätter **lif** syntax.
 
 ![](assets/aep_enummappingexdm.png)
 
@@ -77,4 +77,4 @@ Om du vill redigera en XDM-mappning öppnar du den, ändrar informationen och sp
 
 >[!IMPORTANT]
 >
->Om du för närvarande redigerar ett värde i **[!UICONTROL Field mappings]**-avsnittet och sedan klickar utanför fältet, visas inte ändringen i gränssnittet förrän du klickar på **[!UICONTROL Save]**-knappen. Det här beteendet inträffar bara en gång när redigeringen **[!UICONTROL Field Mappings]** är den första redigeringen på sidan.
+>Om du redigerar ett värde i **[!UICONTROL Field mappings]** klickar du utanför fältet. Ändringen visas inte i gränssnittet förrän du klickar på **[!UICONTROL Save]** -knappen. Det här beteendet inträffar bara en gång, när redigeringen **[!UICONTROL Field Mappings]** är den första redigeringen på sidan.

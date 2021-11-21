@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # Spårningsindikatorer{#tracking-indicators}
 
-Rapporten **[!UICONTROL Tracking indicators]** innehåller nyckelindikatorer för spårning av beteende efter att e-postmeddelanden har tagits emot.
+The **[!UICONTROL Tracking indicators]** rapporten innehåller nyckelindikatorer för spårning av beteenden efter att e-postmeddelanden har tagits emot.
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ Rapporten **[!UICONTROL Tracking indicators]** innehåller nyckelindikatorer fö
 
 ![](assets/delivery_reports_2.png)
 
-Diagrammet **[!UICONTROL Tracking indicators]** och **De fem vanligaste leveranserna** innehåller tillgängliga data för e-postspårning, till exempel:
+The **[!UICONTROL Tracking indicators]** tabell och **De fem vanligaste leveranserna** diagrammet innehåller tillgängliga data för e-postspårning, till exempel:
 
 * **[!UICONTROL Delivered]**: Antal meddelanden som har skickats. Fel som uppstår (studsar) beaktas. Men klagomål (skräppostdeklarationer) och meddelanden som&quot;frånvaromeddelanden&quot; tas inte med i beräkningen.
 * **Öppna**: Antalet gånger ett meddelande öppnades i en leverans.

@@ -5,7 +5,7 @@ user-guide-description: 'Hjälpcenter för de viktigaste funktionerna, åtgärde
 title: Användarhandbok för Campaign Standard
 breadcrumb-title: 'Dokumentation om Adobe Campaign Standard '
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1798'
 ht-degree: 100%
 

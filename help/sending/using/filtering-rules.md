@@ -27,7 +27,7 @@ Tabellen nedan innehåller information om de färdiga filtreringsreglerna och de
 | ---------|----------|---------|
 | **[!UICONTROL Address not specified]** | Alla | Utesluter målpopulationen utan angiven adress (e-postadress, postadress osv.) enligt den valda kanalen). |
 | **[!UICONTROL Address on denylist]** | Alla | Exkluderar adresser som finns på blockeringslista. |
-| **[!UICONTROL Duplicate]** | Alla | Exkluderar dubbletter som baseras på målpopulationsfältet **[!UICONTROL Address]**. |
+| **[!UICONTROL Duplicate]** | Alla | Exkluderar dubbletter som baseras på målpopulationen **[!UICONTROL Address]** fält. |
 | **[!UICONTROL Exclude mobile applications]** | Mobilapplikation | Utesluter appprenumerationer som inte matchar mobilappen som definieras i meddelandet. |
 | **[!UICONTROL Exclude mobile applications for In-App]** | I appen | Utesluter appprenumerationer som inte matchar det mobilprogram som definieras i meddelandet (mall i appen). |
 | **[!UICONTROL Exclude mobile applications for In-App broadcast]** | I appen | Utesluter appprenumerationer som inte matchar det mobilprogram som definieras i meddelandet (sändningsmall i appen) |
@@ -54,23 +54,23 @@ Du kan skapa egna filtreringsregler efter behov. Du kan t.ex. filtrera målpopul
 
 Följ de här stegen för att skapa en filtreringstypologiregel:
 
-1. Skapa en ny typologiregel. De viktigaste stegen för att skapa typologiregler beskrivs i [det här avsnittet](../../sending/using/managing-typology-rules.md).
+1. Skapa en ny typologiregel. De viktigaste stegen för att skapa typologiregler finns i [det här avsnittet](../../sending/using/managing-typology-rules.md).
 
-1. Välj regeltypen **[!UICONTROL Filtering]** och ange sedan önskad kanal.
+1. Välj **[!UICONTROL Filtering]** regeltyp och ange sedan önskad kanal.
 
-1. På fliken **[!UICONTROL Filtering criteria]** väljer du prenumerationerna i kategorin **[!UICONTROL Subscription]**.
+1. I **[!UICONTROL Filtering criteria]** väljer du prenumerationer på **[!UICONTROL Subscription]** kategori.
 
    ![](assets/typology_create-rule-subscription.png)
 
-1. På fliken **[!UICONTROL Explorer]** i frågeredigeraren drar och släpper du noden **[!UICONTROL Subscriber]** i skärmens huvuddel.
+1. I **[!UICONTROL Explorer]** -fliken i frågeredigeraren drar och släpper du **[!UICONTROL Subscriber]** noden i skärmens huvuddel.
 
    ![](assets/typology_create-rule-subscriber.png)
 
-1. Markera fältet **[!UICONTROL Age]** och definiera filtreringsvillkoren så att prenumerantens ålder är 18 år eller äldre.
+1. Välj **[!UICONTROL Age]** och definiera filtreringsvillkoren så att prenumeranternas ålder är 18 år eller äldre.
 
    ![](assets/typology_create-rule-age.png)
 
-1. Länka den här regeln till en typologi på fliken **[!UICONTROL Typologies]**.
+1. I **[!UICONTROL Typologies]** länka den här regeln till en typologi.
 
    ![](assets/typology_create-rule-typology.png)
 
@@ -82,11 +82,11 @@ När den här regeln används i ett meddelande, kommer de abonnenter som betrakt
 
 ## Konfigurera filterregelns målkontext {#configuring-filtering-rules-targeting-context}
 
-Med Campaign Standard kan du konfigurera dimensionerna **Mål** och **Filtering** beroende på vilka data du vill använda.
+Med Campaign Standarden kan du konfigurera  **Målinriktning** och **Filtrering** vilka dimensioner som ska användas beroende på vilka data du vill använda som mål.
 
-Det gör du genom att öppna typologiregelns egenskaper och sedan gå till avsnittet **[!UICONTROL Advanced information]**.
+Du gör detta genom att öppna typologiregelns egenskaper och sedan gå till **[!UICONTROL Advanced information]** -avsnitt.
 
-Som standard utförs filtrering på **[!UICONTROL Profiles]**. Om regeln till exempel är avsedd för ett mobilprogram kan du ändra **[!UICONTROL Filtering dimension]** till **[!UICONTROL Subscriptions to an application]**.
+Som standard utförs filtrering på **[!UICONTROL Profiles]**. Om regeln till exempel är avsedd för ett mobilprogram, **[!UICONTROL Filtering dimension]** kan ändras till **[!UICONTROL Subscriptions to an application]**.
 
 ![](assets/typology_rule-order_2.png)
 
@@ -94,7 +94,7 @@ Som standard utförs filtrering på **[!UICONTROL Profiles]**. Om regeln till ex
 
 Du kan begränsa tillämpligheten för en filtreringsregel enligt meddelandet som ska skickas.
 
-1. På typologiregelns **[!UICONTROL Application criteria]**-flik avmarkerar du alternativet **[!UICONTROL Apply the rule on all deliveries]** som är aktiverat som standard.
+1. I typologiregelns **[!UICONTROL Application criteria]** -flik, avmarkera **[!UICONTROL Apply the rule on all deliveries]** som är aktiverat som standard.
 
    ![](assets/typology_limit.png)
 

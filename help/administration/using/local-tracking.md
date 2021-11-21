@@ -24,11 +24,11 @@ På den här sidan kan du se till att lokal meddelandespårning har implementera
 
 Lokal meddelandespårning kan delas upp i tre typer:
 
-* **Lokala avtryck**  - När ett lokalt meddelande har levererats till enheten och sitter på meddelandecentret, men inte har berörts alls. I de flesta fall bör imponeringsnumret vara likartat eller inte detsamma som det levererade talet. Det ser till att enheten fick meddelandet och vidarebefordrade informationen till servern.
+* **Lokalt tryck** - När ett lokalt meddelande har levererats till enheten och sitter på meddelandecentret, men inte har berörts alls. I de flesta fall bör imponeringsnumret vara likartat eller inte detsamma som det levererade talet. Det ser till att enheten fick meddelandet och vidarebefordrade informationen till servern.
 
-* **Klicka**  lokalt - När ett lokalt meddelande har levererats till enheten och användaren har klickat på meddelandet. Användaren ville antingen visa meddelandet (som i sin tur ska gå till lokal öppen spårning) eller stänga meddelandet.
+* **Klicka lokalt** - När ett lokalt meddelande har levererats till enheten och användaren har klickat på meddelandet. Användaren ville antingen visa meddelandet (som i sin tur ska gå till lokal öppen spårning) eller stänga meddelandet.
 
-* **Lokal öppning**  - När ett lokalt meddelande har levererats till enheten och användaren har klickat på meddelandet som gjorde att programmet öppnades. Detta liknar det lokala klickläget, förutom att ett lokalt öppningsfönster inte aktiveras om meddelandet stängs.
+* **Lokal öppning** - När ett lokalt meddelande har levererats till enheten och användaren har klickat på meddelandet som gjorde att programmet öppnades. Detta liknar det lokala klickläget, förutom att ett lokalt öppningsfönster inte aktiveras om meddelandet stängs.
 
 För att implementera spårning för Adobe Campaign Standard måste mobilprogrammet inkludera Mobile SDK i programmet. Dessa SDK:er är tillgängliga i [!DNL Adobe Mobile Services].
 
@@ -36,8 +36,8 @@ Om du vill skicka spårningsinformation finns det tre variabler som måste skick
 
 | Variabel | Värde |
 | :-: | :-: |
-| deliveryId | `deliveryId` från inkommande data (liknar push-spårning där  `_dld` används) |
-| broadlogId | `broadlogId` från inkommande data (liknar push-spårning där  `_mld` används) |
+| deliveryId | `deliveryId` från inkommande data (liknande push-spårning där `_dld` används) |
+| broadlogId | `broadlogId` från inkommande data (liknande push-spårning där `_mld` används) |
 | åtgärd | &quot;1&quot; för Open, &quot;2&quot; för Click och &quot;7&quot; för Impression |
 
 ## Implementera lokal visningsspårning {#implement-local-impression-tracking}
@@ -46,7 +46,7 @@ Adobe Experience Platform Mobile SDK skickar automatiskt en inställningshändel
 
 ## Implementera klickspårning {#implementing-click-tracking}
 
-För klickspårning måste du skicka värdet &quot;2&quot; för åtgärd när du anropar funktionerna `collectMessageInfo()` eller `trackAction()`.
+För klickspårning måste du skicka värdet &quot;2&quot; för åtgärd när du anropar `collectMessageInfo()` eller `trackAction()` funktioner.
 
 ### För Android {#implement-click-tracking-android}
 
@@ -54,7 +54,7 @@ För att spåra klickningar måste två scenarier implementeras:
 
 * Användaren ser meddelandet men rensar det.
 
-   Om du vill spåra en klickning om ett avvisningsscenario inträffar lägger du till sändningsmottagaren `NotificationDismissalHandler` i programmodulens AndroidManifest-fil.
+   Om du vill spåra en klickning i händelse av ett avvisningsscenario lägger du till sändningsmottagaren `NotificationDismissalHandler` i programmodulens AndroidManifest-fil.
 
    ```
    <receiver
@@ -107,9 +107,9 @@ Du måste skicka &quot;1&quot; och &quot;2&quot; eftersom användaren måste kli
 
 Vi måste skapa en avsikt för att kunna spåra öppna. Återgivningsobjekt gör att Android OS kan anropa din metod när vissa åtgärder är klara. I det här fallet klickar du på meddelandet för att öppna programmet.
 
-Den här koden baseras på implementeringen av klickningsvisningsspårning. Med avsikt inställd måste du nu skicka spårningsinformation tillbaka till Adobe Campaign. I det här fallet kommer Android-vyn ([!DNL Activity]) som utlöste meddelandet att öppnas eller visas i förgrunden som ett resultat av klickningen av användaren. Inent-objektet i [!DNL Activity] innehåller meddelandedata som kan användas för att spåra öppning.
+Den här koden baseras på implementeringen av klickningsvisningsspårning. Med avsikt inställd måste du nu skicka spårningsinformation tillbaka till Adobe Campaign. I det här fallet, Android-vyn([!DNL Activity]) som utlöste meddelandet kommer att öppnas eller läggas i förgrunden som ett resultat av användarens klickning. Intent-objektet i [!DNL Activity] innehåller meddelandedata som kan användas för att spåra öppningar.
 
-MainActivity.java (extends [!DNL Activity])
+MainActivity.java (extends) [!DNL Activity])
 
 ```
 @Override

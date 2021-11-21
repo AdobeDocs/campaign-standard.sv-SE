@@ -23,11 +23,11 @@ Du kan påbörja rapporten genom att lägga till en uppsättning paneler i en se
 
 Med den här panelen kan du skapa rapporter efter behov. Du kan lägga till så många paneler du vill i dina rapporter för att filtrera data med olika tidsperioder.
 
-1. Klicka på ikonen **Paneler**. Du kan också lägga till en panel genom att klicka på fliken **Infoga** och välja **Ny tom panel**.
+1. Klicka på **Paneler** ikon. Du kan också lägga till en panel genom att klicka på **Infoga-flik** och markera **Ny tom panel**.
 
    ![](assets/dynamic_report_panel_1.png)
 
-1. Dra och släpp **panelen Tom** på instrumentpanelen.
+1. Dra och släpp **Tom panel** till din instrumentpanel.
 
    ![](assets/dynamic_report_panel.png)
 
@@ -35,33 +35,33 @@ Nu kan du lägga till en friformstabell på panelen för att börja målinrikta 
 
 ## Lägga till en frihandstabell {#adding-a-freeform-table}
 
-Med frihandstabeller kan du skapa en tabell för att analysera data med hjälp av de olika mätvärden och dimensioner som finns i tabellen **Component**.
+Med frihandstabeller kan du skapa en tabell för att analysera data med hjälp av de olika mätvärden och dimensioner som finns i **Komponent** tabell.
 
 Det går att ändra storlek på alla tabeller och visualiseringar och de kan flyttas för att bättre anpassa rapporten.
 
-1. Klicka på ikonen **[!UICONTROL Panels]**.
+1. Klicka på **[!UICONTROL Panels]** ikon.
 
    ![](assets/dynamic_report_panel_1.png)
 
-1. Dra och släpp **[!UICONTROL Freeform]**-objektet på instrumentpanelen.
+1. Dra och släpp **[!UICONTROL Freeform]** objekt på kontrollpanelen.
 
-   Du kan också lägga till en tabell genom att klicka på fliken **[!UICONTROL Insert]** och välja **[!UICONTROL New Freeform]** eller genom att klicka på **[!UICONTROL Add a freeform table]** i en tom panel.
+   Du kan också lägga till en tabell genom att klicka på **[!UICONTROL Insert]** flik och markera **[!UICONTROL New Freeform]** eller genom att klicka **[!UICONTROL Add a freeform table]** i en tom panel.
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. I fältet **[!UICONTROL Drop a segment here]** lägger du till en **[!UICONTROL Segment]** från fliken **[!UICONTROL Components]** i det övre fältet.
+1. I **[!UICONTROL Drop a segment here]** fält, lägga till **[!UICONTROL Segment]** från **[!UICONTROL Components]** i det övre fältet.
 
    ![](assets/dynamic_report_panel_3.png)
 
-1. Dra och släpp objekt från fliken **[!UICONTROL Components]** till kolumnerna och raderna för att skapa tabellen.
+1. Dra och släpp objekt från **[!UICONTROL Components]** i kolumnerna och raderna för att skapa tabellen.
 
    ![](assets/dynamic_report_freeform_3.png)
 
-1. Klicka på ikonen **[!UICONTROL Settings]** för att ändra hur data visas i kolumnerna.
+1. Klicka på **[!UICONTROL Settings]** om du vill ändra hur data visas i kolumnerna.
 
    ![](assets/dynamic_report_freeform_4.png)
 
-   **[!UICONTROL Column settings]** består av:
+   The **[!UICONTROL Column settings]** består av
 
    * **[!UICONTROL Number]**: I kan du visa eller dölja sammanfattningsnummer i kolumnen.
    * **[!UICONTROL Percent]**: I kan du visa eller dölja procent i kolumnen.
@@ -69,7 +69,7 @@ Det går att ändra storlek på alla tabeller och visualiseringar och de kan fly
    * **[!UICONTROL Background]**: I kan du visa eller dölja den vågräta förloppsindikatorn i celler.
    * **[!UICONTROL Include retries]**: gör att du kan inkludera återförsök i resultatet. Detta är endast tillgängligt för **[!UICONTROL Sent]** och **[!UICONTROL Bounces + Errors]**.
 
-1. Markera en eller flera rader och klicka på ikonen **[!UICONTROL Visualize]**. En visualisering läggs till för att återspegla de rader du har valt.
+1. Markera en eller flera rader och klicka på **[!UICONTROL Visualize]** ikon. En visualisering läggs till för att återspegla de rader du har valt.
 
    ![](assets/dynamic_report_freeform_5.png)
 

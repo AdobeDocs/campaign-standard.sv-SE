@@ -52,19 +52,19 @@ Stegen nedan beskriver ett stegvis användningsfall för att importera och anvä
 >
 >I vårt exempel används Postman. Du kan dock använda din REST-klient.
 
-1. Hämta JSON-samlingen genom att klicka [här](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip).
+1. Hämta JSON-samlingen genom att klicka på [här](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip).
 
-1. Öppna Postman och välj sedan menyn **Arkiv** / **Importera**.
+1. Öppna Postman och välj sedan **Fil** / **Importera** -menyn.
 
 1. Dra och släpp den hämtade filen i fönstret. Fördesignad API-begäran visas, klar att användas.
 
    ![alt-text](assets/postman_collection.png)
 
-1. Markera **Skapa en profil**-begäran och uppdatera sedan begäran om POST och fliken **Sidhuvuden** med din egen information (&lt;ORGANIZATION>, &lt;API_KEY>, &lt;ACCESS_TOKEN>). Mer information om detta finns i [det här avsnittet](../../api/using/setting-up-api-access.md).
+1. Välj **Skapa en profil** begära, sedan uppdatera POSTEN och **Sidhuvuden** med egen information (&lt;organization>, &lt;api_key>, &lt;access_token>). Mer information om detta finns i [det här avsnittet](../../api/using/setting-up-api-access.md).
 
    ![alt-text](assets/postman_uc1.png)
 
-1. Fyll i fliken **Body** med den information du vill lägga till i den nya profilen och klicka sedan på knappen **Skicka** för att utföra begäran.
+1. Fyll i **Brödtext** med den information som du vill lägga till i den nya profilen och klicka sedan på **Skicka** för att köra begäran.
 
    ![alt-text](assets/postman_uc2.png)
 

@@ -19,6 +19,6 @@ ht-degree: 16%
 
 Målmappningar är tekniska objekt som används av Campaign för att leverera meddelanden. De innehåller alla tekniska inställningar som krävs för att skicka leveranser (adresser, telefonnummer, anmälningsindikatorer, ytterligare identifierare...).
 
-Administratörer har åtkomst till målmappningar på menyn **[!UICONTROL Administration > Application settings > Target mappings]**.
+Administratörer har åtkomst till målmappningar i **[!UICONTROL Administration > Application settings > Target mappings]** -menyn.
 
-Målmappning kan skapas eller ändras för att tillgodose specifika behov. I vilket fall som helst ska deras målinriktningsdimension alltid motsvara profiler ( **[!UICONTROL nms:recipient]**-tabell). Mer information om målinkriktningsdimensioner finns i [det här avsnittet](../../automating/using/query.md#targeting-dimensions-and-resources).
+Målmappning kan skapas eller ändras för att tillgodose specifika behov. I vilket fall som helst bör deras målinriktningsdimension alltid motsvara profiler ( **[!UICONTROL nms:recipient]** tabell). Mer information om målinkriktningsdimensioner finns i [det här avsnittet](../../automating/using/query.md#targeting-dimensions-and-resources).

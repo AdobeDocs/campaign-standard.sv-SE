@@ -30,7 +30,7 @@ Här är de viktigaste stegen för att skapa och designa ett e-postinnehåll fr�
 1. Förhandsgranska din e-post.
 1. Spara innehållet och fortsätt med meddelandet efter att du har definierat en målgrupp och schemalagt sändningen.
 
-Du kan även kolla in den här [introduktionsvideon](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).
+Du kan även kolla in det här [introduktionsvideo](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Med e-postdesignern kan du enkelt definiera e-postens struktur. Genom att lägga
 Så här redigerar du strukturen för ett e-postmeddelande:
 
 1. Öppna ett befintligt innehåll eller skapa ett nytt e-postinnehåll.
-1. Du kommer åt **[!UICONTROL Structure components]** genom att välja ikonen **+** till vänster.
+1. Öppna **[!UICONTROL Structure components]** genom att välja **+** till vänster.
 
    ![](assets/email_designer_structure.png)
 
@@ -71,7 +71,7 @@ Så här redigerar du strukturen för ett e-postmeddelande:
 
 1. Flera strukturkomponenter som består av en eller flera kolumner är tillgängliga.
 
-   Välj **[!UICONTROL n:n column]**-komponenten för att definiera antalet kolumner du vill använda (mellan 3 och 10). Du kan också definiera bredden på varje kolumn genom att flytta pilarna längst ned i varje kolumn.
+   Välj **[!UICONTROL n:n column]** -komponent för att definiera hur många kolumner du vill ha (mellan 3 och 10). Du kan också definiera bredden på varje kolumn genom att flytta pilarna längst ned i varje kolumn.
 
    ![](assets/email_designer_n-n-column.png)
 
@@ -90,11 +90,11 @@ När strukturen har definierats kan du lägga till innehållsfragment och kompon
 
 En förrubrik är en kort sammanfattningstext som följer efter ämnesraden när du visar ett e-postmeddelande från inkorgen. Förhuvudet ger en högre öppningshastighet.
 
-Markera redigeringsrutan **[!UICONTROL Preheader]** och fyll i innehållet.
+Välj **[!UICONTROL Preheader]** och färdigställ innehållet.
 
 ![](assets/email_designer_preheader.png)
 
-Du kan lägga till en **[!UICONTROL Content block]**, en **[!UICONTROL Dynamic content]** eller en **[!UICONTROL Personalization fields]** i innehållet i preheader.
+Du kan lägga till en **[!UICONTROL Content block]**, a **[!UICONTROL Dynamic content]** eller en **[!UICONTROL Personalization fields]** i innehållet i förrubriken.
 
 >[!NOTE]
 >
@@ -115,11 +115,11 @@ Här är en lista över tillgängliga komponenter i e-postdesignern:
 
 ### **[!UICONTROL Button]**
 
-Om du behöver använda flera knappar, i stället för att redigera varje knapp från början, kan du duplicera komponenten **[!UICONTROL Button]** med det sammanhangsberoende verktygsfältet.
+Om du behöver använda flera knappar, i stället för att redigera varje knapp från början, kan du duplicera **[!UICONTROL Button]** med hjälp av kontextverktygsfältet.
 
 Du kan också spara knappar i fragment som kan återanvändas. Mer information finns i [Skapa ett innehållsfragment](../../designing/using/using-reusable-content.md#creating-a-content-fragment) och [Spara innehåll som ett fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
 
-Välj **[!UICONTROL Fallback view]** om du vill visa reservbilden i e-postdesignern.
+Välj **[!UICONTROL Fallback view]** för att visa reservbilden i e-postdesignern.
 
 ### **[!UICONTROL Text]**
 
@@ -127,19 +127,19 @@ Använd den här komponenten för att infoga text i e-postmeddelandet. Du kan ju
 
 ### **[!UICONTROL Divider]**
 
-Använd den här komponenten för att infoga en avdelningslinje i e-postmeddelandet. Du kan välja färg, format och storlek för brytningsraden i **[!UICONTROL Component Settings]**.
+Använd den här komponenten för att infoga en avdelningslinje i e-postmeddelandet. Du kan välja färg, stil och storlek för den brutna linjen i **[!UICONTROL Component Settings]**.
 
 ### **[!UICONTROL HTML]**
 
-Använd den här komponenten för att kopiera och klistra in de olika delarna av din befintliga HTML-kod. På så sätt kan du skapa kostnadsfria modulära HTML-komponenter.
+Använd den här komponenten för att kopiera och klistra in de olika delarna av din befintliga HTML. På så sätt kan du skapa kostnadsfria modulära HTML-komponenter.
 
 >[!NOTE]
 >
->En kostnadsfri HTML-komponent kan redigeras med begränsade alternativ. Om alla format inte är infogade måste du lägga till rätt CSS i avsnittet **head** i HTML-koden, annars kommer e-postmeddelandet inte att svara. Använd knappen **[!UICONTROL Preview]** för att testa svarstiden för ditt innehåll (se [Förhandsvisa meddelanden](../../sending/using/previewing-messages.md)).
+>En kostnadsfri HTML-komponent kan redigeras med begränsade alternativ. Om alla format inte är infogade ska du lägga till rätt CSS i **head** i HTML-koden, annars kommer e-postmeddelandet inte att svara. Använd **[!UICONTROL Preview]** för att testa hur responsivt ditt innehåll är (se [Förhandsgranska meddelanden](../../sending/using/previewing-messages.md)).
 
 Adobe rekommenderar att du skapar ett meddelande från grunden och kopierar innehållet från din befintliga e-post till fragment och komponenter för att enkelt göra ett externt innehåll kompatibelt med e-postdesignern.
 
-När du har ett innehåll som inte kan återskapas kan du kopiera och klistra in HTML-koden från det ursprungliga e-postmeddelandet med innehållskomponenten **[!UICONTROL Html]**. Kontrollera att du känner till HTML innan du fortsätter.
+När du har ett innehåll som inte kan återskapas kan du kopiera och klistra in HTML-koden från det ursprungliga e-postmeddelandet med **[!UICONTROL Html]** innehållskomponent. Kontrollera att du känner till HTML innan du fortsätter.
 
 >[!NOTE]
 >
@@ -149,7 +149,7 @@ När du har ett innehåll som inte kan återskapas kan du kopiera och klistra in
 
 1. I det ursprungliga e-postmeddelandet identifierar du de återanvändbara avsnitten från de avsnitt som ska vara unika för varje e-postmeddelande som du ska skicka.
 1. Spara alla bilder och resurser som du vill använda.
-1. Om du känner till HTML kan du dela upp ditt ursprungliga HTML-innehåll i olika delar.
+1. Om du är bekant med HTML kan du dela upp ditt ursprungliga HTML-innehåll i olika delar.
 
 ### Video {#video-settings}
 
@@ -182,12 +182,12 @@ Använd den här komponenten för att infoga länkar till sidor för sociala med
 >title="Carousel-inställningar"
 >abstract="Lär dig hur du infogar och konfigurerar en Carousel i ditt innehåll.Observera att Carousel inte fungerar på alla e-postklienter och att en reservbild visas om den inte stöds."
 
-1. Dra och släpp **[!UICONTROL Carousel]**-komponenten inuti en strukturkomponent.
+1. Dra och släpp **[!UICONTROL Carousel]** -komponent inuti en strukturkomponent.
 1. Bläddra och välj bilder från datorn.
 
    ![](assets/des_carousel_browse.png)
 
-1. I rutan **[!UICONTROL Settings]** anger du antalet miniatyrbilder som du vill ha i karusellen.
+1. Från **[!UICONTROL Settings]** anger du antalet miniatyrbilder som du vill ha i karusellen.
 1. Välj en reservbild från datorn.
 
    ![](assets/des_carousel_fallback.png)
@@ -196,7 +196,7 @@ Carousel-komponenten är inte kompatibel med alla e-postprogram. Överför en re
 
 >[!NOTE]
 >
->Carousel-komponenten är kompatibel med följande e-postplattformar: Apple Mail 7, Apple Mail 8, Outlook 2011 för Mac, Outlook 2016 för Mac, Mozilla Thunderbird, iPad och iPad miniOS, iPhone iOS, Android, AOL (Chrome, Firefox och Safari).
+>Carousel-komponenten är kompatibel med följande e-postplattformar: Apple Mail 7, Apple Mail 8, Outlook 2011 för Mac, Outlook 2016 för Mac, Mozilla Thunderbird, iPad och iPad mini iOS, iPhone iOS, Android, AOL (Chrome, Firefox och Safari).
 
 **Relaterade ämnen**:
 

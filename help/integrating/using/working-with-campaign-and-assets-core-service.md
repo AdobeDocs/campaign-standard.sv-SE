@@ -19,7 +19,7 @@ ht-degree: 9%
 
 Genom att integrera Assets Core-tjänsten eller Assets on Demand (beroende på hur Adobe Experience Cloud-miljön är konfigurerad) med Adobe Campaign kan du använda alla resurser som delas inom Adobe Experience Cloud i Adobe Campaign e-postmeddelanden och på landningssidor.
 
-Integrationen med bastjänsten Assets är begränsad till [Funktionella administratörer](../../administration/using/users-management.md#functional-administrators).
+Integrationen med bastjänsten Assets är begränsad till [Funktionsadministratörer](../../administration/using/users-management.md#functional-administrators).
 
 Resurser som delas från Adobe Experience Cloud kan användas i e-postmeddelanden och på landningssidor enligt följande:
 

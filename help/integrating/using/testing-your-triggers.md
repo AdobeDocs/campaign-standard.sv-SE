@@ -21,7 +21,7 @@ Följande felsökningstips hjälper dig att lösa de vanligaste problemen du kan
 
 **Är funktionen aktiverad?**
 
-Om du vill kontrollera om integreringen av utlösare - kampanj är aktiverad klickar du på Adobe Campaign logotyp i det övre vänstra hörnet och väljer sedan **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. Du bör se **[!UICONTROL Experience Cloud Triggers]**-objektet.
+Om du vill kontrollera om integreringen av utlösare - kampanj är aktiverad klickar du på Adobe Campaign logotyp i det övre vänstra hörnet och väljer sedan **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. Du borde se **[!UICONTROL Experience Cloud Triggers]** objekt.
 
 Om du ser det går du vidare till nästa steg.
 

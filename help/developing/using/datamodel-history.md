@@ -285,7 +285,7 @@ ht-degree: 1%
                         <li>(GMT-10.00) Hawai - Pacific_Honolulu - Pacific/Honolulu</li>
                         <li>(GMT+04.00) Baku - Asien_Baku - Asien/Baku</li>
                         <li>(GMT+10.00) Vladivostok - Asien_Vladivostok - Asien/Vladivostok</li>
-                        <li>(GMT+09.00) Söul - Asien_Seoul - Asien/Söul</li>
+                        <li>(GMT+09.00) Söul - Asien_Söul - Asien/Söul</li>
                         <li>(GMT+01.00) Sarajevo, Skoplje, Sofia, Warszawa, Zagreb - Europe_Sarajevo - Europa/Sarajevo</li>
                         <li>(GMT+04.00) Abu Dhabi, Muscat - Asia_Muscat - Asien/Muscat</li>
                         <li>(GMT+08.00) Kuala Lumpur, Singapore - Asien_Kuala_Lumpur - Asien/Kuala_Lumpur</li>
@@ -357,7 +357,7 @@ ht-degree: 1%
                         <li>(GMT+07.00) Greenwich Mean Time plus 7 timmar - Gmt_p7 - ETC/GMT-7</li>
                         <li>(GMT+06.00) Greenwich Mean Time plus 6 timmar - Gmt_p6 - ETC/GMT-6</li>
                         <li>(GMT+01:00) Greenwich Mean Time plus 1 timme - Gmt_p1 - ETC/GMT-1</li>
-                        <li>(GMT-08:00) Stilla havet (USA och Kanada) - America_Los Angeles - America/Los Angeles</li>
+                        <li>(GMT-08.00) Stilla havet (USA och Kanada) - America_Los Angeles - America/Los Angeles</li>
                         <li>(GMT+02.00) Greenwich Mean Time plus 2 timmar - Gmt_p2 - ETC/GMT-2</li>
                         <li>(GMT+07.00) Krasnoïarsk - Asien_Krasnojarsk - Asien/Krasnojarsk</li>
                         <li>(GMT+09.00) Greenwich Mean Time plus 9 timmar - Gmt_p9 - ETC/GMT-9</li>

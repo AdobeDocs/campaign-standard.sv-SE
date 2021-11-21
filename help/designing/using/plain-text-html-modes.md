@@ -17,11 +17,11 @@ ht-degree: 0%
 
 # Redigera oformaterad text, HTML och e-postformat för mobiler {#plain-text-and-html-modes}
 
-Med e-postdesignern kan du redigera flera återgivningar av dina e-postmeddelanden. Du kan generera en textversion av e-postmeddelandet, redigera HTML-källan för ett e-postmeddelande och utforma e-postmeddelanden för mobilvyn.
+Med e-postdesignern kan du redigera flera återgivningar av dina e-postmeddelanden. Du kan generera en textversion av ditt e-postmeddelande, redigera HTML-källan för ett e-postmeddelande och utforma e-postmeddelanden för mobilvyn.
 
 ## Generera en textversion av e-postmeddelandet {#generating-a-text-version-of-the-email}
 
-Som standard genereras och synkroniseras **[!UICONTROL Plain text]**-versionen av ditt e-postmeddelande automatiskt med **[!UICONTROL Edit]**-versionen.
+Som standard är **[!UICONTROL Plain text]** versionen av e-postmeddelandet genereras och synkroniseras automatiskt med **[!UICONTROL Edit]** version.
 
 Anpassningsfält och innehållsblock som läggs till i HTML-versionen synkroniseras också med den vanliga textversionen.
 
@@ -29,7 +29,7 @@ Anpassningsfält och innehållsblock som läggs till i HTML-versionen synkronise
 >
 >Om du vill använda innehållsblock i oformaterad text måste de inte innehålla HTML-kod.
 
-Om du vill ha en annan oformaterad textversion än HTML-versionen kan du inaktivera synkroniseringen genom att klicka på **[!UICONTROL Sync with HTML]**-växeln från **[!UICONTROL Plain text]**-vyn i ditt e-postmeddelande.
+Om du vill ha en annan oformaterad textversion än HTML kan du inaktivera synkroniseringen genom att klicka på **[!UICONTROL Sync with HTML]** växla från **[!UICONTROL Plain text]** visning av din e-post.
 
 ![](assets/email_designer_textversion.png)
 
@@ -37,25 +37,25 @@ Du kan sedan redigera den oformaterade textversionen efter behov.
 
 >[!NOTE]
 >
->Om du redigerar **[!UICONTROL Plain text]**-versionen medan synkroniseringen är inaktiverad nästa gång du aktiverar alternativet **[!UICONTROL Sync with HTML]** ersätts alla ändringar som du har gjort i den oformaterade textversionen med HTML-versionen. Ändringarna som görs i vyn **[!UICONTROL Plain text]** kan inte återspeglas i vyn **[!UICONTROL HTML]**.
+>Om du redigerar **[!UICONTROL Plain text]** version när synkronisering är inaktiverad, nästa gång du aktiverar **[!UICONTROL Sync with HTML]** så ersätts alla ändringar du har gjort i den oformaterade textversionen med HTML. Ändringarna i **[!UICONTROL Plain text]** vyn inte kan återspeglas i **[!UICONTROL HTML]** vy.
 
 ## Redigera en e-postinnehållskälla i HTML {#editing-an-email-content-source-in-html}
 
 För de mest avancerade användarna och felsökningsfunktionerna kan du visa och redigera e-postinnehållet direkt i HTML.
 
-Du kan redigera HTML-versionen av e-postmeddelandet på två sätt:
+Du kan redigera e-postmeddelandets HTML-version på två sätt:
 
 * Välj **[!UICONTROL Edit]** > **[!UICONTROL HTML]** för att öppna HTML-versionen av hela e-postmeddelandet.
 
    ![](assets/email_designer_html1.png)
 
-* I WYSIWYG-gränssnittet markerar du ett element och klickar på ikonen **[!UICONTROL Source code]**.
+* I WYSIWYG-gränssnittet väljer du ett element och klickar på **[!UICONTROL Source code]** ikon.
 
-   Endast det markerade elementets källa visas. Du kan redigera källkoden om det markerade elementet är en **[!UICONTROL HTML]**-innehållskomponent. Andra komponenter är skrivskyddade, men kan fortfarande redigeras i den fullständiga HTML-versionen av e-postmeddelandet.
+   Endast det markerade elementets källa visas. Du kan redigera källkoden om det markerade elementet är ett **[!UICONTROL HTML]** innehållskomponent. Andra komponenter är skrivskyddade, men kan fortfarande redigeras i den fullständiga HTML-versionen av e-postmeddelandet.
 
    ![](assets/email_designer_html2.png)
 
-Om du ändrar HTML-koden kan svarstiden för e-postmeddelandet brytas. Testa den med knappen **[!UICONTROL Preview]**. Se [Förhandsvisa meddelanden](../../sending/using/previewing-messages.md).
+Om du ändrar koden HTML kan svarstiden för e-postmeddelandet bli bruten. Se till att testa den med **[!UICONTROL Preview]** -knappen. Se [Förhandsvisa meddelanden](../../sending/using/previewing-messages.md).
 
 ## Designa e-postmeddelanden för mobilrendering {#switching-to-mobile-view}
 
@@ -64,7 +64,7 @@ Du kan finjustera den responsiva designen för ett e-postmeddelande genom att re
 Alla formatalternativ är tillgängliga i mobilvyn. Formatinställningarna för e-postdesignern visas tidigare på den här sidan.
 
 1. Skapa ett e-postmeddelande och börja redigera innehållet. Mer information finns i [Designa ett e-postinnehåll från grunden](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
-1. Om du vill komma åt den dedikerade mobilvyn väljer du knappen **[!UICONTROL Switch to mobile view]**.
+1. Om du vill komma åt den dedikerade mobilvyn väljer du **[!UICONTROL Switch to mobile view]** -knappen.
 
    ![](assets/email_designer_mobile_view_switch.png)
 
@@ -80,9 +80,9 @@ Alla formatalternativ är tillgängliga i mobilvyn. Formatinställningarna för 
 
    ![](assets/email_designer_mobile_view_change.png)
 
-1. Du kan dölja en komponent när den visas på en mobil enhet. Om du vill göra det väljer du **[!UICONTROL Show only on desktop devices]** i **[!UICONTROL Display options]**.
+1. Du kan dölja en komponent när den visas på en mobil enhet. Välj **[!UICONTROL Show only on desktop devices]** från **[!UICONTROL Display options]**.
 
-   Du kan också välja att dölja den här komponenten på skrivbordsenheter, vilket innebär att den bara visas på mobila enheter. Välj **[!UICONTROL Show only on mobile devices]** om du vill göra det.
+   Du kan också välja att dölja den här komponenten på skrivbordsenheter, vilket innebär att den bara visas på mobila enheter. Välj **[!UICONTROL Show only on mobile devices]**.
 
    Med det här alternativet kan du till exempel visa en viss bild på mobila enheter och en annan bild på stationära enheter.
 
@@ -90,13 +90,13 @@ Alla formatalternativ är tillgängliga i mobilvyn. Formatinställningarna för 
 
    ![](assets/email_designer_mobile_hide.png)
 
-1. Klicka en gång till på **[!UICONTROL Switch to mobile view]**-knappen för att gå tillbaka till standardskrivbordsvyn. De formatändringar du just gjorde återspeglas inte.
+1. Klicka igen **[!UICONTROL Switch to mobile view]** om du vill gå tillbaka till standardskrivbordsvyn. De formatändringar du just gjorde återspeglas inte.
 
    ![](assets/email_designer_mobile_view_desktop_no-change.png)
 
    >[!NOTE]
    >
-   >Det enda undantaget är **[!UICONTROL Style inline]**-inställningarna. Alla ändringar av textbundna inställningar för format används även i standardskrivbordsvyn.
+   >Det enda undantaget är **[!UICONTROL Style inline]** inställningar. Alla ändringar av textbundna inställningar för format används även i standardskrivbordsvyn.
 
 1. Andra ändringar av strukturen eller innehållet i e-postmeddelandet, som textredigeringar, överföring av en ny bild, tillägg av en ny komponent osv. används även i standardvyn.
 
@@ -104,7 +104,7 @@ Alla formatalternativ är tillgängliga i mobilvyn. Formatinställningarna för 
 
    ![](assets/email_designer_mobile_view_change_content.png)
 
-1. Klicka en gång till på **[!UICONTROL Switch to mobile view]**-knappen för att gå tillbaka till standardskrivbordsvyn. Ändringarna återspeglas.
+1. Klicka igen **[!UICONTROL Switch to mobile view]** om du vill gå tillbaka till standardskrivbordsvyn. Ändringarna återspeglas.
 
    ![](assets/email_designer_mobile_view_desktop_content-change.png)
 
@@ -118,13 +118,13 @@ Alla formatalternativ är tillgängliga i mobilvyn. Formatinställningarna för 
 
    ![](assets/email_designer_mobile_view_background_desktop.png)
 
-1. Växla igen till mobilvyn och inaktivera nu inställningen **[!UICONTROL Background color]**.
+1. Växla igen till mobilvyn och inaktivera nu **[!UICONTROL Background color]** inställning.
 
    ![](assets/email_designer_mobile_view_background_mobile_disabled.png)
 
    Bakgrundsfärgen som definieras i skrivbordsvyn används nu: den blir grå (inte tom).
 
-   Det enda undantaget är inställningen **[!UICONTROL Border color]**. När det är inaktiverat i mobilvyn används ingen kantlinje längre, även om en kantfärg har definierats i skrivbordsvyn.
+   Det enda undantaget är **[!UICONTROL Border color]** inställning. När det är inaktiverat i mobilvyn används ingen kantlinje längre, även om en kantfärg har definierats i skrivbordsvyn.
 
 >[!NOTE]
 >

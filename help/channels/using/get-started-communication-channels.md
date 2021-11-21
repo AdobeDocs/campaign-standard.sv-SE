@@ -32,9 +32,9 @@ Att harmonisera alla era marknadsföringskanaler är inte en omöjlig uppgift. M
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-**Använd** kontrollpanelen för Campaign-meddelanden för att konfigurera och skicka meddelanden från en och samma plats, samt få tillgång till olika funktioner som schemaläggning och flerspråkiga meddelanden...
+**Instrumentpanel för kampanjmeddelanden** för att konfigurera och skicka meddelanden från en och samma plats, samt få tillgång till olika funktioner som schemaläggning och flerspråkiga meddelanden..
 
-**Hantera** mallar för att konfigurera meddelandeegenskaper så att ni får tid och enhetlighet i er meddelandestrategi. För e-postmeddelanden kan till exempel den funktionella administratör som ansvarar för att konfigurera mallarna definiera standardparametrarna för ett e-postmeddelande, till exempel målgrupp, schema eller innehåll, avancerade parametrar för sändning, giltighet, spårning osv. eller förkonfigurationsparametrar för målinriktning och personalisering (målgruppskontext).
+**Hantera mallar** för att konfigurera meddelandeegenskaper så att ni får tid och enhetlighet i er meddelandestrategi. För e-postmeddelanden kan till exempel den funktionella administratör som ansvarar för att konfigurera mallarna definiera standardparametrarna för ett e-postmeddelande, till exempel målgrupp, schema eller innehåll, avancerade parametrar för sändning, giltighet, spårning osv. eller förkonfigurationsparametrar för målinriktning och personalisering (målgruppskontext).
 
 Läs mer:
 
@@ -48,11 +48,11 @@ Läs mer:
 
 <img src="assets/do-not-localize/icon_channels.svg"  width="60px">
 
-**Det finns fem** kommunikationskanaler i Adobe Campaign: E-post, SMS-meddelande, push-meddelanden, meddelande i appen och direktleverans av e-post.
+**Fem kommunikationskanaler** finns i Adobe Campaign: E-post, SMS-meddelande, push-meddelanden, meddelande i appen och direktleverans av e-post.
 
 För varje kanal finns specifika funktioner tillgängliga. Med e-postkanalen kan du till exempel utföra A/B-tester för att testa upp till tre versioner av ett e-postmeddelande. Med SMS-kanalen hanterar du STOP SMS-meddelanden och lagrar inkommande SMS från mottagarna i databasen.
 
-Utnyttja också Campaign Standard **personalisering och funktioner för dynamiskt innehåll** för att fånga målgruppens intresse.
+Dessutom kan du utnyttja Campaign Standarden **personalisering och funktioner för dynamiskt innehåll** för att fånga målgruppens intresse.
 
 Läs mer:
 
@@ -66,9 +66,9 @@ Läs mer:
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-**Skicka individuella och unika** meddelanden till era kunder i realtid: välkomstmeddelanden, orderleveransbekräftelser, lösenordsändringar osv.
+**Skicka individuella och unika meddelanden** till era kunder i realtid: välkomstmeddelanden, orderleveransbekräftelser, lösenordsändringar osv.
 
-Transaktionsmeddelanden är tillgängliga för e-post-, SMS- och push-meddelandekanaler, beroende på vilka alternativ du har. Det finns två typer av meddelanden: **händelsetransmeddelanden** för händelser utan profilinformation och **profiltransaktionsmeddelanden** målprofiler från databasen.
+Transaktionsmeddelanden är tillgängliga för e-post-, SMS- och push-meddelandekanaler, beroende på vilka alternativ du har. Det finns två typer av meddelanden: **händelsetransaktionsmeddelanden** målinrikta händelser utan profilinformation, och **profiltransaktionsmeddelanden** målprofiler från databasen.
 
 Läs mer:
 
@@ -84,9 +84,9 @@ Läs mer:
 
 <img src="assets/do-not-localize/icon_landing.svg" width="60px">
 
-Campaign innehåller landningssidor som är webbformulär som kan användas för att **samla in information om era målgrupper**, erbjuda prenumerationer på en tjänst, visa data och utöka databasen.
+Campaign innehåller landningssidor som är webbformulär som kan användas för att **samla in information om era målgrupper**, erbjuder prenumerationer på en tjänst, visar data och utökar databasen.
 
-Landningssidor kan också användas för **hämtning eller uppdatering av befintliga profiler** och för att ställa in en mekanism för dubbel anmälan, så att du kan skydda plattformen från felaktiga eller ogiltiga e-postadresser eller skräppost.
+Landningssidor kan också användas för **hämta eller uppdatera befintliga profiler** och för att skapa en mekanism för dubbel anmälan, så att du kan skydda plattformen mot fel eller ogiltiga e-postadresser eller skräppost.
 
 Läs mer:
 

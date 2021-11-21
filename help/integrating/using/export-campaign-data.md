@@ -9,15 +9,15 @@ exl-id: eccd2922-0e75-4525-9b60-b48f628deeae
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
 # Exportera data från Campaign till Adobe Experience Platform {#sources}
 
-Om du vill exportera kunddata till Adobe Real-time Customer Data Platform (RTCDP) måste du först skapa ett arbetsflöde i Campaign Standard för att kunna exportera de data du vill dela till din Amazon Storage Service (S3) eller Azure Blob-lagringsplats.
+Om du vill exportera Campaign Standard data till Adobe Real-time Customer Data Platform (RTCDP) måste du först skapa ett arbetsflöde i Campaign Standard för att kunna exportera de data du vill dela till din Amazon-lagringstjänst (S3) eller Azure Blob-lagringsplats.
 
-När arbetsflödet har konfigurerats och data har skickats till din lagringsplats måste du ansluta din S3- eller Azure-blobblagringsplats som en **källa** i Adobe Experience Platform.
+När arbetsflödet har konfigurerats och data har skickats till din lagringsplats måste du ansluta din S3- eller Azure-blob-lagringsplats som en **Källa** i Adobe Experience Platform.
 
 >[!NOTE]
 >
@@ -29,11 +29,11 @@ Om du vill exportera data från Campaign Standard till din S3- eller Azure Blob-
 
 Lägg till och konfigurera:
 
-* En **[!UICONTROL Extract file]**-aktivitet som extraherar måldata till en CSV-fil. Mer information om hur du konfigurerar den här aktiviteten finns i [det här avsnittet](../../automating/using/extract-file.md).
+* A **[!UICONTROL Extract file]** -aktivitet för att extrahera måldata till en CSV-fil. Mer information om hur du konfigurerar den här aktiviteten finns i [det här avsnittet](../../automating/using/extract-file.md).
 
    ![](assets/rtcdp-extract-file.png)
 
-* En **[!UICONTROL Transfer file]**-aktivitet som överför CSV-filen till lagringsplatsen. Mer information om hur du konfigurerar den här aktiviteten finns i [det här avsnittet](../../automating/using/transfer-file.md).
+* A **[!UICONTROL Transfer file]** -aktivitet för att överföra CSV-filen till lagringsplatsen. Mer information om hur du konfigurerar den här aktiviteten finns i [det här avsnittet](../../automating/using/transfer-file.md).
 
    ![](assets/rtcdp-transfer-file.png)
 
@@ -41,7 +41,7 @@ Arbetsflödet nedan extraherar till exempel regelbundet loggar in i en CSV-fil o
 
 ![](assets/aep-export.png)
 
-Exempel på arbetsflöden för datahantering finns i [arbetsflödena använder avsnittet](../../automating/using/about-workflow-use-cases.md#management).
+Exempel på arbetsflöden för datahantering finns i [arbetsflöden använder exempel](../../automating/using/about-workflow-use-cases.md#management) -avsnitt.
 
 Relaterade ämnen:
 
@@ -51,9 +51,9 @@ Relaterade ämnen:
 
 ## Anslut lagringsplatsen som en källa
 
-De viktigaste stegen för att ansluta din Amazon Storage Service (S3) eller Azure Blob-lagringsplats som en **källa** i Adobe Experience Platform anges nedan. Detaljerad information om de här stegen finns i [dokumentationen för källanslutningar](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html).
+De viktigaste stegen för att ansluta din Amazon Storage Service (S3) eller Azure Blob-lagringsplats som en **Källa** i Adobe Experience Platform listas nedan. Detaljerad information om varje steg finns i [Dokumentation för källkopplingar](https://experienceleague.adobe.com/docs/experience-platform/sources/home.htmll?lang=sv).
 
-1. Skapa en anslutning till din lagringsplats på Adobe Experience-plattformens **[!UICONTROL Sources]**-meny:
+1. På Adobe Experience-plattformen **[!UICONTROL Sources]** skapar du en anslutning till lagringsplatsen:
 
    * [Skapa en Amazon S3-källanslutning](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html)
    * [Azure Blob-koppling](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob.html)

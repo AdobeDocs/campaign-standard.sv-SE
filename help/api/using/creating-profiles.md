@@ -17,13 +17,13 @@ ht-degree: 3%
 
 # Skapa profiler {#creating-profiles}
 
-Profiler skapas med en **POST**-begäran på profilresursen.
+Skapa profiler med en **POST** begäran på profilresursen.
 
 >[!CAUTION]
 >
->Om du vill associera en <b>orgUnit</b> med den skapade profilen måste du utöka profilresursen med det här fältet och, efter att tillägget har publicerats, utföra en POST på <b>ProfileAndServicesExt</b>-slutpunkten.
+>Om du vill associera en <b>orgUnit</b> till den skapade profilen måste du utöka profilresursen med det här fältet och, efter att tillägget har publicerats, utföra en begäran om POST på <b>ProfileAndServicesExt</b> slutpunkt.
 >
->Mer information om profilens resurstillägg finns i <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Kampanjdokumentationen</a>.
+>Mer information om profilens resurstillägg finns i <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Kampanjdokumentation</a>.
 
 <br/>
 

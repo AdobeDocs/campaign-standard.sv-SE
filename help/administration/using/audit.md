@@ -7,7 +7,8 @@ topic-tags: users-and-security
 feature: Access Management
 role: Admin
 level: Experienced
-source-git-commit: df7fce6f2fd98688e5a1fb5bc84603e6b3df5cd4
+exl-id: bda6f8d5-3bcf-498c-a7c4-d3c2c79b9510
+source-git-commit: 462ebaf8e8f1f056aa92118226ef77aea37b972b
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 1%
@@ -16,7 +17,7 @@ ht-degree: 1%
 
 # Granskningskedja {#audit}
 
-**[!UICONTROL Audit trail]** ger dig tillgång till den fullständiga historiken för ändringar som gjorts i din instans.
+The **[!UICONTROL Audit trail]** ger dig tillgång till den fullständiga historiken över ändringar som gjorts i instansen.
 
 **[!UICONTROL Audit trail]** i realtid innehåller en omfattande lista över åtgärder och händelser som inträffar i din Adobe Campaign Standard-instans. Det innehåller ett självbetjäningssätt att komma åt en datahistorik som kan hjälpa dig att besvara frågor som: vad som hände med dina arbetsflöden, anpassade resurser och alternativ, vem som senast uppdaterade dem eller vad användarna gjorde i instansen.
 
@@ -24,11 +25,11 @@ ht-degree: 1%
 
 **[!UICONTROL Audit trail]** består av tre komponenter:
 
-* **Granskningsspår** för anpassade resurser: kontrollera aktiviteten och senast gjorda ändringar av anpassade resurser.
+* **Granskningsspår för anpassade resurser**: kontrollera aktiviteten och senast gjorda ändringar av anpassade resurser.
 
-   Mer information om **[!UICONTROL Custom resources]** finns på den här [sidan](../../developing/using/key-steps-to-add-a-resource.md).
+   Mer information om **[!UICONTROL Custom resources]**, se [page](../../developing/using/key-steps-to-add-a-resource.md).
 
-* **Granskningsspår** för arbetsflöde: kontrollera aktiviteten och den senaste ändringen av arbetsflödena, och dessutom status för dina arbetsflöden, som:
+* **Granskningsspår för arbetsflöde**: kontrollera aktiviteten och den senaste ändringen av arbetsflödena, och dessutom status för dina arbetsflöden, som:
 
    * Skapad
    * Ändrad
@@ -44,11 +45,11 @@ ht-degree: 1%
    * Starta om arbetsflödet med samma användare
    * Kommandot Starta om okänt arbetsflöde
 
-   Mer information om **[!UICONTROL Workflows]** finns på den här [sidan](../../automating/using/get-started-workflows.md).
+   Mer information om **[!UICONTROL Workflows]**, se [page](../../automating/using/get-started-workflows.md).
 
 * **Alternativ granskningsspår**: kontrollera aktiviteten och senast gjorda ändringar av alternativen.
 
-   Mer information om **[!UICONTROL Options]** finns på den här [sidan](../../administration/using/about-campaign-standard-settings.md).
+   Mer information om **[!UICONTROL Options]**, se [page](../../administration/using/about-campaign-standard-settings.md).
 
 Observera att som standard är kvarhållningsperioden 30 dagar.
 
@@ -56,13 +57,13 @@ Observera att som standard är kvarhållningsperioden 30 dagar.
 
 Så här kommer du åt instansens granskningsspår:
 
-1. I Adobe Campaign Standard väljer du **[!UICONTROL Administration]** > **[!UICONTROL Audit trail]** på den avancerade menyn.
+1. I Adobe Campaign Standard väljer du **[!UICONTROL Administration]** > **[!UICONTROL Audit trail]**.
 
    ![](assets/audit-trail.png)
 
-1. Fönstret **[!UICONTROL Audit trail]** öppnas med listan över dina enheter. Adobe Campaign Standard granskar åtgärderna för att skapa, redigera och ta bort för arbetsflöden, alternativ och anpassade resurser.
+1. The **[!UICONTROL Audit trail]** öppnas med listan över dina enheter. Adobe Campaign Standard granskar åtgärderna för att skapa, redigera och ta bort för arbetsflöden, alternativ och anpassade resurser.
 
-   På **[!UICONTROL Search]**-menyn kan du filtrera din entitet på:
+   Från **[!UICONTROL Search]** kan du filtrera din enhet på:
 
    * **[!UICONTROL Start date]**
    * **[!UICONTROL End date]**
@@ -91,7 +92,7 @@ Granskningsspårning kan enkelt aktiveras eller inaktiveras för en viss aktivit
 
 För att göra detta:
 
-1. I Adobe Campaign Standard väljer du **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** på den avancerade menyn.
+1. I Adobe Campaign Standard väljer du **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
 
    ![](assets/audit-trail_4.png)
 
@@ -104,10 +105,10 @@ För att göra detta:
 
       >[!NOTE]
       >
-      >Om alternativet **[!UICONTROL XtkAudit_Enable_All]** är 0 inaktiveras funktionen **[!UICONTROL Audit trail]** helt, oavsett andra individuella alternativvärden.
+      >Om **[!UICONTROL XtkAudit_Enable_All]** är inställt på 0, **[!UICONTROL Audit trail]** -funktionen är helt inaktiverad, oavsett andra enskilda alternativvärden.
    ![](assets/audit-trail_5.png)
 
-1. På din **[!UICONTROL Options]**-sida anger du värdet 0 för **[!UICONTROL Value (integer)]** om du vill inaktivera **[!UICONTROL Audit trail]** eller till 1 för att aktivera det.
+1. Från **[!UICONTROL Options]** sida, ange **[!UICONTROL Value (integer)]** till 0 om du vill inaktivera **[!UICONTROL Audit trail]** eller till 1 för att aktivera det.
 
    ![](assets/audit-trail_6.png)
 

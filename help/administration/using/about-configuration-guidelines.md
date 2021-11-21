@@ -43,7 +43,7 @@ Här är de olika slutpunkterna som används i Campaign Standard.
 
 | Kontext | URL |
 |--- |--- |
-| Kampanjinstanser | `https://*.experiencecloud.adobe.com` (klient-ID * + klientdomän)<br>`https://*.campaign.adobe.com` (Campaign Instance tenant) |
+| Kampanjinstanser | `https://*.experiencecloud.adobe.com` (klientens ID * + klientdomän)<br>`https://*.campaign.adobe.com` (Campaign Instance-klientorganisation) |
 | IMS | `https://adobeid-na1.services.adobe.com`<br>`https://*.adobelogin.com` |
 | Experience Cloud | `https://experiencecloud.adobe.com` |
 | Spåra | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net` |

@@ -107,13 +107,13 @@ Följande meddelande visas.
 
 ![](assets/faq_2.png)
 
-### Kan jag överföra både Production- och Sandbox-certifikat samtidigt för iOS-appen (N/A för Android)? {#prod-sandbox-certificate}
+### Kan jag överföra både Production- och Sandbox-certifikat samtidigt för iOS App (N/A för Android)? {#prod-sandbox-certificate}
 
 Nej, program fungerar i antingen sandlådan eller produktionsläget och kan inte ändras till det andra (dvs. sandlådan till produktionsappen) när de har konfigurerats. Vi rekommenderar att du testar din app i sandlådeläge först och sedan övergår till produktionsläge.
 
 Om du vill byta till produktionsläge måste du skapa ett annat program. Se även till att inte markera kryssrutan för sandlådan och att överföra ett produktionscertifikat.
 
-### Kan jag överföra både iOS- och Android-referenser samtidigt? {#ios-android-credentials}
+### Kan jag överföra både iOS- och Android-uppgifter samtidigt? {#ios-android-credentials}
 
 Ja, Campaign har stöd för båda plattformarna samtidigt och gör att du kan överföra autentiseringsuppgifter för båda plattformarna.
 
@@ -137,26 +137,26 @@ Vänligen öppna en kundtjänstbiljett.
 
 ### Push-meddelanden levereras från Campaign men mediefilen visas inte.{#media-file-unavailable}
 
-Mobilappsutvecklare måste hantera stödet för mediefiler i appen. Ibland kan nätverkets bandbredd även förhindra att en mediefil återges. Mer information finns på den här [sidan](../../administration/using/image-push-notification.md) om du vill ha fler pekare.
+Mobilappsutvecklare måste hantera stödet för mediefiler i appen. Ibland kan nätverkets bandbredd även förhindra att en mediefil återges. Se detta [page](../../administration/using/image-push-notification.md) för ytterligare pekare.
 
 ### Vad måste jag göra för att aktivera push-rapportering i Campaign? {#push-reporting-enable}
 
 Följ stegen nedan:
 
 * Konfigurera ett återanslående. Instruktioner finns [här](../../administration/using/configuring-a-mobile-application.md).
-* Implementera trackAction API från Mobile Core. Mer information finns på den här [sidan](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference).
+* Implementera trackAction API från Mobile Core. Se detta [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) för mer information.
 
-Mer detaljerade instruktioner finns på den här [sidan](../../administration/using/push-tracking.md).
+Mer detaljerade instruktioner finns i detta [page](../../administration/using/push-tracking.md).
 
 ### Vilka rapporter finns för Push-kanalen? {#push-report-available}
 
-Det finns en färdig rapport i Adobe Campaign för Push-kanalen. Läs den här [dokumentationen](../../reporting/using/push-notification-report.md).
+Det finns en färdig rapport i Adobe Campaign för Push-kanalen. Se detta [dokumentation](../../reporting/using/push-notification-report.md).
 
-Se den här [sidan](../../reporting/using/indicator-calculation.md#push-notification-delivery) för att förstå hur varje push-mått beräknas.
+Se det här [page](../../reporting/using/indicator-calculation.md#push-notification-delivery) för att förstå hur varje push-mätvärde beräknas.
 
 ### Stöds deplinks i push- och In-App-meddelanden? {#deeplink-push}
 
 Ja, deplinks stöds i push-meddelanden. Deeplinks ska innehålla:
 
 * Språk som anger att leveransspårning måste inaktiveras för att länkarna ska fungera.
-* Appsflyer with Branch as partners that can do the deplink tracking. Mer information om integrationen mellan grenar och Adobe Campaign Standard finns på den här [sidan](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
+* Appsflyer with Branch as partners that can do the deplink tracking. Mer information om integrationen mellan grenar och Adobe Campaign Standard finns i [page](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).

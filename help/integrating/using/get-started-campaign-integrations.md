@@ -49,14 +49,14 @@ Om du vill integrera dataflöden från andra system med Adobe Campaign kan du ta
    <td> Adobe Experience Manager<br /> </td> 
    <td> Du kan skapa e-postinnehåll eller -formulär som kopplas till databasen i Adobe Campaign direkt i Adobe Experience Manager.<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">Arbeta med Campaign och Experience Manager</a>,  <a href="https://helpx.adobe.com/se/experience-manager/6-4/sites/administering/using/campaignstandard.html">Integrera Experience Manager och Campaign Standard</a>,  <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">Skapa ett e-postmeddelande med Experience Manager och Campaign</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">Arbeta med Campaign och Experience Manager</a>, <a href="https://helpx.adobe.com/se/experience-manager/6-4/sites/administering/using/campaignstandard.html">Integrera Experience Manager och Campaign Standard</a>, <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">Skapa ett e-postmeddelande med Experience Manager och Campaign</a> 
     </td> 
   </tr> 
   <tr> 
    <td> Adobe Target<br /> </td> 
    <td> Du kan infoga bilder som behandlas dynamiskt av Adobe Target när användaren öppnar ett e-postmeddelande som har skapats och skickats av Adobe Campaign.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">Arbeta med Campaign och Target</a>,  <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html">Integrera Campaign och Target</a>,  <a href="https://helpx.adobe.com/se/marketing-cloud/how-to/email-marketing.html">Anpassa e-postbilder i realtidsvideo (</a> steg 3)
+    <a href="../../integrating/using/about-campaign-target-integration.md">Arbeta med Campaign och Target</a>, <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html">Integrera Campaign och Target</a>, <a href="https://helpx.adobe.com/se/marketing-cloud/how-to/email-marketing.html">Anpassa e-postbilder i realtid</a> video (steg 3)
     </td> 
   </tr> 
   <tr> 
@@ -73,7 +73,7 @@ Om du vill integrera dataflöden från andra system med Adobe Campaign kan du ta
   </tr> 
    <tr> 
    <td> Adobe Real-time Customer Data Platform (RTCDP)<br /> </td> 
-   <td> Integrationen mellan Adobe Campaign och Adobe Real-time Customer Data Platform (RTCDP) gör att ni kan dela segmentdata och importera målgrupper till Adobe Campaign.</td>
+   <td> Tack vare integreringen mellan Adobe Campaign och Adobe Real-time Customer Data Platform (RTCDP) kan ni dela segmentdata och importera målgrupper till Adobe Campaign.</td>
    <td><a href="../../integrating/using/get-started-sources-destinations.md">Kom igång med källor och destinationer</a></td>
   </tr> 
   <tr> 
@@ -95,18 +95,18 @@ Om du vill integrera dataflöden från andra system med Adobe Campaign kan du ta
   </tr> 
     <tr> 
    <td> Adobe Journey Orchestration<br /> </td> 
-   <td> Skicka e-postmeddelanden, push-meddelanden och SMS med Adobe Campaign Standard Transactional Messaging-funktioner i Adobe Journey Orchestration, via en körklar åtgärd.<br /> </td> 
+   <td> Skicka e-postmeddelanden, push-meddelanden och SMS med Adobe Campaign Standard Transactional Messaging-funktioner i Adobe Journey Orchestration genom en körklar åtgärd.<br /> </td> 
    <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html?lang=en">Arbeta med Adobe Journey Orchestration och Adobe Campaign Standard</a><br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Dreamweaver<br /> </td> 
    <td> Du kan redigera ett e-postinnehåll från Dreamweaver och synkronisera det med Adobe Campaign.<br /> </td> 
    <td> 
-    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=sv">Skapa personliga e-postmeddelanden med </a> Dreamweaver-video,  <a href="https://helpx.adobe.com/se/dreamweaver/using/working-with-dreamweaver-and-campaign.html">använd Campaign-tillägget för Dreamweaver</a> 
+    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=sv">Skapa personaliserade e-postmeddelanden med Dreamweaver</a> video, <a href="https://helpx.adobe.com/se/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Använd Campaign-tillägget för Dreamweaver</a> 
   </td> 
   </tr> 
   <tr> 
-   <td> Adobe Experience Platform SDK<br /> </td> 
+   <td> Adobe Experience Platform SDKs<br /> </td> 
    <td> Möjliggör automatisering gällande processen för aktivering av egenskaper i mobila appar i Adobe Campaign med hjälp av SDK:er i Experience Platform.<br /> </td> 
    <td> <a href="https://helpx.adobe.com/se/campaign/kb/configuring-app-sdk.html">Konfigurera ett mobilprogram med SDK:er i Experience Platform</a><br /> </td> 
   </tr> 

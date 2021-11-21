@@ -72,7 +72,7 @@ Du kan använda den här aktiviteten för att återställa data som sedan strukt
 
 Med HTTP-protokollet så kan du börja ladda ned en fil från ett externt konto eller från en länk.
 
-Med det här protokollet kan du välja alternativet **[!UICONTROL Use connection parameters defined in an external account]**. I så fall så väljer du det konto som du vill ha och anger sökvägen till filen som ska hämtas.
+Med det här protokollet kan du välja att **[!UICONTROL Use connection parameters defined in an external account]** alternativ. I så fall så väljer du det konto som du vill ha och anger sökvägen till filen som ska hämtas.
 
 ![](assets/wkf_file_transfer_03.png)
 
@@ -83,7 +83,7 @@ Du kan även välja alternativ **[!UICONTROL Quick configuration]**. Du behöver
 
 Med SFTP-protokollet så kan du börja hämta en fil från en länk eller ett externt konto.
 
-Med det här protokollet kan du välja att **[!UICONTROL Use connection parameters defined in an external account]** ska välja ett konto och sedan ange sökvägen till filen som ska hämtas.
+Med det här protokollet kan du välja att **[!UICONTROL Use connection parameters defined in an external account]** väljer du det konto du vill ha och anger sökvägen till filen som ska hämtas.
 ![](assets/wkf_file_transfer_07.png)
 
 >[!CAUTION]
@@ -108,7 +108,7 @@ Med protokollet Amazon S3 så kan du börja ladda ned en fil från en länk elle
    >
    > Jokertecken stöds inte med Amazon S3.
    >
-   > Om du vill ha flera målfiler som `my_file_02` och `my _file_3433` kan du använda följande syntax: `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`.
+   > Om du vill ha flera filer som `my_file_02` och `my _file_3433`kan du använda följande syntax: `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`.
 
 4. Om du vill ta bort dina källfiler när överföringen är slutförd så kontrollerar du **[!UICONTROL Delete the source files after transfer]**.
 
@@ -172,7 +172,7 @@ Varje gång aktiviteten körs så kontrolleras mappen enligt följande:
 
 ## Utdatavariabler {#output-variables}
 
-Aktiviteten **[!UICONTROL Transfer file]** genererar händelsevariabler som utdata, som du kan använda i andra aktiviteter, till exempel för att kontrollera antalet hämtade filer med en [Test](../../automating/using/test.md)-aktivitet.
+The **[!UICONTROL Transfer file]** aktiviteten genererar händelsevariabler som utdata, som du kan använda i andra aktiviteter, t.ex. för att kontrollera antalet nedladdade filer med en [Testa](../../automating/using/test.md) aktivitet.
 
 Observera att händelsevariabler också kan skickas till ett annat arbetsflöde med hjälp av en extern signal (se [Anpassa ett arbetsflöde med externa parametrar](../../automating/using/customizing-workflow-external-parameters.md)).
 

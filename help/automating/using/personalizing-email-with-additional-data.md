@@ -18,7 +18,7 @@ ht-degree: 86%
 
 # Personalisera ett e-postmeddelande med ytterligare data {#example--personalizing-an-email-with-additional-data}
 
-I följande exempel visas hur du lägger till olika typer av ytterligare data i en förfrågan och hur de används som ett personaliserat fält i ett e-postmeddelande. Mer information om hur du förbättrar data som används av en **[!UICONTROL Query]**-aktivitet finns i [det här avsnittet](../../automating/using/query.md#enriching-data).
+I följande exempel visas hur du lägger till olika typer av ytterligare data i en förfrågan och hur de används som ett personaliserat fält i ett e-postmeddelande. Mer information om hur man berikar data som **[!UICONTROL Query]** aktivitet, se [det här avsnittet](../../automating/using/query.md#enriching-data).
 
 I det här exemplet används [anpassade resurser](../../developing/using/data-model-concepts.md) :
 
@@ -32,7 +32,7 @@ Arbetsflödet presenteras på följande sätt:
 
 ![](assets/enrichment_example1.png)
 
-1. Lägg till en [Query](../../automating/using/query.md)-aktivitet, som gör att du kan ange de profiler som har utfört minst en transaktion som mål.
+1. Lägg till en [Fråga](../../automating/using/query.md) -aktivitet, som gör att du kan ange målprofiler som har utfört minst en transaktion som mål.
 
    ![](assets/enrichment_example2.png)
 
@@ -53,7 +53,7 @@ Arbetsflödet presenteras på följande sätt:
 
    ![](assets/enrichment_example5.png)
 
-1. Lägg till en [e-postleveransaktivitet](../../automating/using/email-delivery.md). I e-postinnehållet infogar du de personaliserade fält som motsvarar den data som beräknas i förfrågan.  Du hittar den via **[!UICONTROL Additional data (targetData)]**-länken i utforskaren för personaliserade fält.
+1. Lägg till en [E-postleverans](../../automating/using/email-delivery.md) aktivitet. I e-postinnehållet infogar du de personaliserade fält som motsvarar den data som beräknas i förfrågan.  Du hittar den via **[!UICONTROL Additional data (targetData)]**-länken i utforskaren för personaliserade fält.
 
    ![](assets/enrichment_example3.png)
 

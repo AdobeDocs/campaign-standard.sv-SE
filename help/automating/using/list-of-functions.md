@@ -220,7 +220,7 @@ Datumfunktionerna används för att ändra datum- och tidsvärden.
   </tr> 
   <tr> 
    <td> <strong>ToDateTimeWithTimezone</strong><br /> </td> 
-   <td> Konverterar en sträng till ett datum + en tidszon.<br /> Exempel: ToDateTimeWithTimezone ("2019-02-19 08:09:00", "Asien/Teheran")<br /> </td> 
+   <td> Konverterar en sträng till ett datum + en tidszon.<br /> Exempel: ToDateTimeWithTimezone ("2019-02-19 08"):09:00","Asien/Teheran")<br /> </td> 
    <td> ToDateTimeWithTimezone(&lt;sträng&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -657,7 +657,7 @@ Strängfunktionerna används för att ändra en uppsättning strängar.
   <tr> 
    <td> <strong>encryption_aescbcEncrypt</strong><br /> </td> 
    <td> Krypterar med AES-algoritm (CBC-blockläge) en teckensträng (första parametern) med en nyckel (andra parametern) och en initieringsvektor (tredje parametern). Nyckeln och initieringsvektorn måste anges i en hexadecimal representation (med början <strong>\x</strong>). Resultatet anges hexadecimalt utan <strong>\x</strong>.<br /> Observera att nyckelstorleken kan vara 128 bitar, 192 bitar, 256 bitar (16, 24, 32 hexadecimala tecken), men vi rekommenderar att du använder 256 bitar och ett randomiserat IV med samma längd som nyckeln.<br /> </td> 
-   <td> encryption_aescbcEncrypt(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br /> Till exempel: encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456 789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
+   <td> encryption_aescbcEncrypt()&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /> Till exempel: encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -708,7 +708,7 @@ Sammanställningsfunktionerna används för att utföra beräkningar på en upps
   <tr>
    <td> <strong>StringAgg</strong>, String-mängd<br /> </td>
    <td> Returnerar sammanfogningen av värdena i en strängtypskolumn, avgränsade med tecknet i det andra argumentet (standardavgränsaren är komma).<br /> </td>
-   <td> StringAgg(&lt;strängvärden&gt;,&lt;avgränsare&gt;)
+   <td> StringAgg(&lt;string values=""&gt;,&lt;separator&gt;)
   </tr>
   <tr> 
    <td> <strong>Sum</strong>, Sum<br /> </td> 

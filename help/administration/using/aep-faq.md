@@ -31,12 +31,12 @@ Mer information om Push eller In-App (Push) finns i följande vanliga frågor oc
 
 Mer information om Adobe Experience Platform SDK och integrering av Campaign Standarder finns nedan:
 
-* Launch/Mobile [Översikt över video](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
+* Launch/Mobile [Videoöversikt](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
 * Launch/Mobile [Tips &amp; Tricks Guide](https://www.adobe.com/content/dam/dx/us/en/products/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
 ## Är Adobe Experience Platform SDK-integrering tillgänglig för både Adobe Campaign Standard och Adobe Campaign Classic? {#aep-validity}
 
-Ja, [!DNL Adobe Experience Platform SDK]-integrering är tillgänglig för både Adobe Campaign Standard och Adobe Campaign Classic. Du måste installera motsvarande **[!UICONTROL Extension]** via [!DNL Adobe Launch] för att aktivera integreringen.
+Ja, [!DNL Adobe Experience Platform SDK] kan integreras med både Adobe Campaign Standard och Adobe Campaign Classic. Du måste installera motsvarande **[!UICONTROL Extension]** via [!DNL Adobe Launch] för att aktivera integreringen.
 
 Se denna [sida](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) för mer information om detta.
 
@@ -48,14 +48,14 @@ Se tabellen nedan för mer information om dessa funktioner.
 
 >[!NOTE]
 >
->[!DNL Places] integreringen innefattar platshändelser som utlösare för meddelanden i appen (N/A för push-meddelanden), berikande profiler med  [!DNL Places] data och stöd för lokala meddelanden. Mer information finns på den här [sidan](../../channels/using/preparing-and-sending-an-in-app-message.md). <br>[!DNL Places] begränsad integrering innefattar berikande profiler med  [!DNL Places] data.
+>[!DNL Places] integreringen innefattar platshändelser som utlösare för meddelanden i appen (N/A för push-meddelanden), berikande profiler med [!DNL Places] stöd för data och lokala meddelanden. Se detta [page](../../channels/using/preparing-and-sending-an-in-app-message.md) för mer information. <br>[!DNL Places] begränsad integrering inkluderar berikande profiler med [!DNL Places] data.
 
 ## Hur fungerar Adobe Experience Platform SDK-integrering i Adobe Campaign Standard? {#aep-use-cases}
 
 Följande användningsområden stöds:
 
-* Hämta en **[!UICONTROL Mobile Profile]** i Campaign (identifieras med ECID i **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]** > fliken **[!UICONTROL Mobile Application subscribers]**)
-* Fyll i en **[!UICONTROL Mobile Profile]** i Adobe Campaign (kräver **[!UICONTROL Custom resource Extension]** i tabellen appSubscriberRcp)
+* Hämta en **[!UICONTROL Mobile Profile]** i Campaign (identifieras med ECID i **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]** > **[!UICONTROL Mobile Application subscribers]** tabb)
+* Berika **[!UICONTROL Mobile Profile]** i Adobe Campaign (kräver **[!UICONTROL Custom resource Extension]** av appenSubscriberRcp-tabell)
 * Hämta en push-token för att skicka push-meddelanden (kräver att användaren väljer att ta emot push-meddelanden)
 * Skicka push- och In-App-meddelanden
 * Spåra användarens interaktion med push- och In-App-meddelanden och rapportera om detta
@@ -64,19 +64,19 @@ Följande användningsområden stöds:
 
 För att göra detta, följ nedanstående steg:
 
-1. Konfigurera en **[!UICONTROL Mobile property]** i [!DNL Launch].
-1. Installera Adobe Campaign Standard-tillägget. Observera att Adobe Campaign Standard-tillägget också kräver **[!UICONTROL Mobile Core]**, **[!UICONTROL Profile]** och **[!UICONTROL Lifecycle]** tillägg som installeras som standard i [!DNL Launch].
-   * Användare bör konfigurera timeout för sessioner i tillägget **[!UICONTROL Mobile Core]** som påverkar frekvensen för livscykelhändelser.
+1. Konfigurera en **[!UICONTROL Mobile property]** in [!DNL Launch].
+1. Installera Adobe Campaign Standard-tillägget. Observera att Adobe Campaign Standard Extension också kräver **[!UICONTROL Mobile Core]**, **[!UICONTROL Profile]** och **[!UICONTROL Lifecycle]** tillägg som installeras som standard i [!DNL Launch].
+   * Användare bör konfigurera timeout för session i **[!UICONTROL Mobile Core]** tillägg som påverkar frekvensen av livscykelhändelser.
    * När tillägget har konfigurerats bör användarna lägga till lämpliga beroenden i mobilappen med Cocoapods för iOS och Gradle för Android. Följ instruktionerna [här](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
    * Ta alltid de senaste versionerna av biblioteken.
-   * Registrera tilläggen **[!UICONTROL Campaign]**, **[!UICONTROL UserProfile]**, **[!UICONTROL Identity]**, **[!UICONTROL Lifecycle]** och **[!UICONTROL Signal]** i mobilappen. Följ instruktionerna [här](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#register-the-campaign-standard-extension-with-mobile-core).
+   * Registrera dig i mobilappen **[!UICONTROL Campaign]**, **[!UICONTROL UserProfile]**, **[!UICONTROL Identity]**, **[!UICONTROL Lifecycle]** och **[!UICONTROL Signal]** tillägg. Följ instruktionerna [här](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#register-the-campaign-standard-extension-with-mobile-core).
    * När tilläggen har registrerats startar du ACPCore. För Android måste du se till att ställa in Application onCreate(). Följ de exakta instruktionerna i Mobile Install Instructions för din mobila egenskap i Launch.
-   * Du måste också följa SDK API:er. Implementera API:er för livscykelstart och paus enligt beskrivningen [här](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-android) för Android och här för iOS.
+   * Du måste också följa SDK API:er. Implementera API:er för start och paus i livscykeln enligt beskrivningen [här](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-android) för Android och här för iOS.
 1. Konfigurera en **[!UICONTROL Mobile Property]** i Adobe Campaign Standard. Följ proceduren [här](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
 ## Vad måste jag göra för att berika en mobilprofil i Campaign? {#enrich-mobile-profile}
 
-Du måste konfigurera en CollectPII-återanslående (se denna [sida](../../administration/using/configuring-rules-launch.md#pii-postback)) och implementera CollectPII API från SDK (se denna [sida](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)).
+Du måste konfigurera ett CollectPII-återanslående (se [page](../../administration/using/configuring-rules-launch.md#pii-postback)) och implementera CollectPII API från SDK (se [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)).
 
 ## Hur ofta ska ett CollectPII-anrop utlösas? {#collect-pii}
 

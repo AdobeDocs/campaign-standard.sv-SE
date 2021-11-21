@@ -22,27 +22,27 @@ Lär dig de bästa metoderna för leveransdesign och leverans med Adobe Campaign
 
 <img src="assets/do-not-localize/optimize.svg"  width="60px">
 
-**[Optimera leveransen](optimize-delivery.md)**  - Säkra och optimera sändningsprocessen
+**[Optimera leveransen](optimize-delivery.md)** - Säkra och optimera sändningsprocessen
 
 <img src="assets/do-not-localize/design.svg"  width="60px">
 
-**[Använd mallar](use-templates.md)**  - Underlätta och snabba upp nya leveranser
+**[Använd mallar](use-templates.md)** - Underlätta och snabba upp nya leveranser
 
 <img src="assets/do-not-localize/custom.svg"  width="60px">
 
-**[Anpassa innehåll](design-and-personalize.md)**  - Använd rätt inställningar
+**[Anpassa innehåll](design-and-personalize.md)** - Använd korrekta inställningar
 
 <img src="assets/do-not-localize/profiles.svg"  width="60px">
 
-**[Definiera rätt målgrupp](define-the-right-audience.md)**  - Använd rätt inställningar
+**[Definiera rätt målgrupp](define-the-right-audience.md)** - Använd korrekta inställningar
 
 <img src="assets/do-not-localize/start.svg"  width="60px">
 
-**[Kontrollera innan du skickar](check-before-sending.md)**  - Undvik vanliga misstag
+**[Kontrollera före sändning](check-before-sending.md)** - Undvik vanliga misstag
 
 <img src="assets/do-not-localize/troubleshoot.svg"  width="60px">
 
-**[Spåra och övervaka](track-and-monitor.md)**  - Styra skickning och felsökning
+**[Spåra och övervaka](track-and-monitor.md)** - Styr hur du skickar och felsöker
 
 ## Relaterat innehåll
 

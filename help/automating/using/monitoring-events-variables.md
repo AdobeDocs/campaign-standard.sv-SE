@@ -19,8 +19,8 @@ ht-degree: 19%
 
 Det är möjligt att övervaka de händelsevariabler som är tillgängliga i arbetsflödet, inklusive de deklarerade externa parametrarna. Följ stegen nedan för att göra detta:
 
-1. Markera aktiviteten som följer aktiviteten **[!UICONTROL External signal]** och klicka sedan på knappen **[!UICONTROL Log and tasks]**.
-1. Klicka på knappen ![](assets/edit_darkgrey-24px.png) på fliken **[!UICONTROL Tasks]**.
+1. Välj aktiviteten som följer efter **[!UICONTROL External signal]** klickar du på **[!UICONTROL Log and tasks]** -knappen.
+1. I **[!UICONTROL Tasks]** flik, klicka ![](assets/edit_darkgrey-24px.png) -knappen.
 
    ![](assets/extsignal_monitoring_2.png)
 

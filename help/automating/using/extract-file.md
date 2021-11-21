@@ -51,9 +51,9 @@ Det sätt som data extraheras på definieras när aktiviteten konfigureras.
 
 1. Om du vill så kan du komprimera utmatningsfilen genom att välja **[!UICONTROL Compression]** i **[!UICONTROL Add a post-processing stage]**-fältet.    Utmatningsfilen komprimeras till en GZIP-fil (.gz).
 
-   I fältet **[!UICONTROL Add a post-processing stage]** kan du även kryptera en fil innan du extraherar den. Mer information om hur du arbetar med krypterade filer finns i [det här avsnittet](../../automating/using/managing-encrypted-data.md)
+   The **[!UICONTROL Add a post-processing stage]** I kan du även kryptera en fil innan du extraherar den. Mer information om hur du arbetar med krypterade filer finns i [det här avsnittet](../../automating/using/managing-encrypted-data.md)
 
-1. Klicka på knappen **[!UICONTROL Create element]** för att lägga till en utdatakolumn.
+1. Klicka på **[!UICONTROL Create element]** om du vill lägga till en utdatakolumn.
 
    ![](assets/wkf_data_export2.png)
 

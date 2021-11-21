@@ -18,15 +18,15 @@ ht-degree: 1%
 
 # Studssammanfattning{#bounce-summary}
 
-Den här rapporten innehåller information om de övergripande hårdfel och mjuka fel som uppstått under leveranser samt den automatiska bearbetningen av studsar (se [Förstå leveransfel](../../sending/using/understanding-delivery-failures.md)).
+Den här rapporten innehåller information om de övergripande hårdfel och mjuka fel som uppstått under leveranser samt den automatiska bearbetningen av studsar (se [Om leveransfel](../../sending/using/understanding-delivery-failures.md)).
 
 ![](assets/campaign_reports_bounces.png)
 
 Varje tabell representeras av sammanfattande nummer och diagram. Du kan ändra hur detaljerna visas i deras respektive visualiseringsinställningar.
 
-**Flöde 5** ompartitionerar de fem leveranser som har det högsta antalet karantän:
+**Ompartition med flyttal 5** anger de fem leveranser som har det högsta antalet karantän:
 
-Tabellen **studsorsaker** innehåller tillgängliga data för de typer av fel som orsakade studsar för varje leverans:
+The **Brytningsorsaker** tabellen innehåller tillgängliga data för de typer av fel som orsakade studsar för varje leverans:
 
 * **[!UICONTROL User unknown]**: Den typ av fel som genereras när en leverans skickas till en ogiltig e-postadress.
 * **[!UICONTROL Invalid domain]**: Den typ av fel som genereras när en leverans skickas till en e-postadress vars domän är felaktig eller inte längre finns.
@@ -41,4 +41,4 @@ Tabellen **studsorsaker** innehåller tillgängliga data för de typer av fel so
 
 * **[!UICONTROL Refused]**: Den typ av fel som genereras när en adress nekas av Internet-leverantören. Exempel: när en säkerhetsregel har tillämpats av antispam-program.
 
-Tabellen **Domänompartition** visar de övergripande problem som uppstått under leveranser enligt mottagardomänen.
+The **Domänompartition** tabellen visar de övergripande problem som uppstått under leveranser enligt mottagardomänen.

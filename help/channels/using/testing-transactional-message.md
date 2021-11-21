@@ -24,7 +24,7 @@ Innan du publicerar ditt transaktionsmeddelande kan du skapa en specifik testpro
 
 Definiera en testprofil som ska länkas till din händelse så att du kan förhandsgranska meddelandet och skicka ett relevant bevis.
 
-1. Klicka på knappen **[!UICONTROL Create test profile]** på kontrollpanelen för transaktionsmeddelanden](../../channels/using/editing-transactional-message.md#accessing-transactional-messages).[
+1. Från [kontrollpanel för transaktionsmeddelande](../../channels/using/editing-transactional-message.md#accessing-transactional-messages)klickar du på **[!UICONTROL Create test profile]** -knappen.
 
    ![](assets/message-center_test-profile.png)
 
@@ -34,7 +34,7 @@ Definiera en testprofil som ska länkas till din händelse så att du kan förha
 
    >[!NOTE]
    >
-   >Om du har fördjupat ditt meddelande kan du även ange information som hör till en annan tabell, till exempel **[!UICONTROL Profile]**. Se [Förbättra händelsen](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) och [Anpassa ett transaktionsmeddelande](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
+   >Om du har fördjupat ditt meddelande kan du även ange information som hör till en annan tabell, t.ex. **[!UICONTROL Profile]**. Se [Förbättra händelsen](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) och [Anpassa ett transaktionsmeddelande](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 
 1. När du har skapat testprofilen föranges den i transaktionsmeddelandet. Klicka på **[!UICONTROL Test profiles]**-blocket i meddelandet för att kontrollera målet för korrekturläsningen.
 
@@ -42,14 +42,14 @@ Definiera en testprofil som ska länkas till din händelse så att du kan förha
 
 Du kan också skapa en ny testprofil eller använda en som redan finns på **[!UICONTROL Test profiles]**-menyn. Så här gör du:
 
-1. Klicka på logotypen **Adobe** i det övre vänstra hörnet och välj sedan **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
-1. I avsnittet **[!UICONTROL Event]** väljer du händelsen som du just har skapat. I det här exemplet väljer du &quot;Överge kundvagnen (EVTcartAbandonment)&quot;.
+1. Klicka på **Adobe** logotyp, i det övre vänstra hörnet och välj **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
+1. I **[!UICONTROL Event]** markerar du händelsen som du nyss skapade. I det här exemplet väljer du &quot;Överge kundvagnen (EVTcartAbandonment)&quot;.
 1. Ange den information som ska skickas i JSON-format i **[!UICONTROL Event data]**-textrutan.
 
    ![](assets/message-center_3.png)
 
 1. Spara ändringarna.
-1. [Öppna det ](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) meddelande du skapade och välj den uppdaterade testprofilen.
+1. [Få åtkomst till meddelandet](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) som du har skapat och valt den uppdaterade testprofilen.
 
 **Relaterade ämnen:**
 
@@ -62,4 +62,4 @@ När du har skapat en eller flera specifika testprofiler och sparat ditt transak
 
 ![](assets/message-center_10.png)
 
-Stegen för att skicka ett korrektur beskrivs i avsnittet [Skicka korrektur](../../sending/using/sending-proofs.md).
+Stegen för att skicka ett korrektur finns i [Skicka korrektur](../../sending/using/sending-proofs.md) -avsnitt.

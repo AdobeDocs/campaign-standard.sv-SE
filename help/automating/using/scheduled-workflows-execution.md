@@ -22,7 +22,7 @@ ht-degree: 1%
 
 I Campaign Standard garanterar arbetsflödesmotorn att en arbetsflödesinstans endast körs av en process. Genom att blockera aktiviteter som import, långvariga frågor eller skrivningar i databasen kan du förhindra att andra åtgärder utförs när du kör dem.
 
-Icke-blockerande aktiviteter blockerar däremot inte körningen av andra uppgifter (vanligtvis aktiviteter som väntar på en händelse som **[!UICONTROL Scheduler]**-aktiviteten).
+Icke-blockerande aktiviteter blockerar däremot inte utförandet av andra uppgifter (vanligen aktiviteter som väntar på en händelse som **[!UICONTROL Scheduler]** aktivitet).
 
 Detta kan leda till ett scenario där ett schemabaserat arbetsflöde kan börja köras även när den tidigare körningen av samma arbetsflöde ännu inte har slutförts, vilket kan leda till oväntade dataproblem.
 
@@ -30,11 +30,11 @@ När du utformar ett schemalagt arbetsflöde som innehåller flera aktiviteter m
 
 ## Konfigurera arbetsflödet
 
-Om du vill kontrollera om en eller flera uppgifter från en tidigare arbetsflödeskörning fortfarande väntar måste du använda en **[!UICONTROL Query]**- och **[!UICONTROL Test]**-aktivitet.
+Om du vill kontrollera om en eller flera uppgifter från en tidigare arbetsflödeskörning fortfarande väntar, måste du använda en **[!UICONTROL Query]** och **[!UICONTROL Test]** aktivitet.
 
-1. Lägg till en **[!UICONTROL Query]**-aktivitet efter **[!UICONTROL Scheduler]**-aktiviteten och konfigurera den sedan enligt följande.
+1. Lägg till en **[!UICONTROL Query]** efter **[!UICONTROL Scheduler]** och konfigurera den sedan enligt följande.
 
-1. Ändra aktivitetens resurs till **[!UICONTROL WorkflowTaskDetail]**, vilket innebär att den riktar sig till arbetsflödets aktuella uppgifter.
+1. Ändra aktivitetens resurs till **[!UICONTROL WorkflowTaskDetail]**, vilket innebär att arbetsflödets aktuella uppgifter anges som mål.
 
    ![](assets/scheduled-wkf-resource.png)
 
@@ -46,11 +46,11 @@ Om du vill kontrollera om en eller flera uppgifter från en tidigare arbetsflöd
 
       >[!NOTE]
       >
-      >När en **[!UICONTROL Scheduler]**-aktivitet startas lägger den omedelbart till en annan schemauppgift som ska köras vid nästa schemalagda tidpunkt och starta arbetsflödet. Därför är det viktigt att filtrera både frågan och schemalägga aktiviteter när du söker efter väntande aktiviteter från en tidigare körning.
+      >När en **[!UICONTROL Scheduler]** aktiviteten startar lägger den omedelbart till en annan schemauppgift som ska köras vid nästa schemalagda tillfälle och starta arbetsflödet. Därför är det viktigt att filtrera både frågan och schemalägga aktiviteter när du söker efter väntande aktiviteter från en tidigare körning.
 
    * Den andra regeln avgör om några uppgifter från en tidigare körning av arbetsflödet fortfarande är aktiva (väntande), vilket motsvarar körningsstatusen 0.
 
-1. Lägg till en **[!UICONTROL Test]**-aktivitet för att kontrollera antalet väntande uppgifter som returneras av aktiviteten **[!UICONTROL Query]**. Det gör du genom att konfigurera två utgående övergångar.
+1. Lägg till en **[!UICONTROL Test]** aktivitet för att kontrollera antalet väntande uppgifter som returneras av **[!UICONTROL Query]** aktivitet. Det gör du genom att konfigurera två utgående övergångar.
 
    ![](assets/scheduled-wkf-test.png)
 

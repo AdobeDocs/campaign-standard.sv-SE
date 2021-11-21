@@ -36,30 +36,30 @@ I **[!UICONTROL Targeting]**-avsnittet beskrivs följande:
 * [Deduplicering](../../automating/using/deduplication.md)
 * [Berikning](../../automating/using/enrichment.md)
 
-**[!UICONTROL Targeting]** Med -aktiviteter kan du definiera  **segmentkoder** för utgående övergångar. Sedan kan du skapa rapporter baserade på dessa segmentkoder för att mäta effektiviteten hos dina marknadsföringskampanjer. Mer information om detta finns i [det här avsnittet](../../reporting/using/creating-a-report-workflow-segment.md).
+**[!UICONTROL Targeting]** kan du definiera **segmentkoder** för utgående övergångar. Sedan kan du skapa rapporter baserade på dessa segmentkoder för att mäta effektiviteten hos dina marknadsföringskampanjer. Mer information om detta finns i [det här avsnittet](../../reporting/using/creating-a-report-workflow-segment.md).
 
 ## Markera data {#selecting-data}
 
 Du kan välja data med följande aktiviteter:
 
-* Med **[!UICONTROL Query]**-aktiviteten kan du filtrera och extrahera ett populations-element från Adobe Campaign-databasen. Se avsnittet [Fråga](../../automating/using/query.md).
-* Med aktiviteten **[!UICONTROL Incremental query]** kan du filtrera och extrahera en population av element från Adobe Campaign-databasen. Varje gång den här aktiviteten körs utesluts resultaten från tidigare körningar. Detta gör att du bara kan ange nya element som mål Se. [Inkrementell ](../../automating/using/incremental-query.md) frågesektion.
-* Med aktiviteten **[!UICONTROL Read audience]** kan du hämta en befintlig målgrupp och förfina den genom att tillämpa ytterligare filtervillkor.Se avsnittet [Läs målgrupp](../../automating/using/read-audience.md).
+* Med **[!UICONTROL Query]**-aktiviteten kan du filtrera och extrahera ett populations-element från Adobe Campaign-databasen. Se [Fråga](../../automating/using/query.md) -avsnitt.
+* Med aktiviteten **[!UICONTROL Incremental query]** kan du filtrera och extrahera en population av element från Adobe Campaign-databasen. Varje gång den här aktiviteten körs utesluts resultaten från tidigare körningar. Detta gör att du bara kan ange nya element som mål Se. [Inkrementell fråga](../../automating/using/incremental-query.md) -avsnitt.
+* The **[!UICONTROL Read audience]** kan du hämta en befintlig målgrupp och förfina den genom att använda ytterligare filtervillkor.Se [Läsa målgrupper](../../automating/using/read-audience.md) -avsnitt.
 
 ## Segmentera data {#segmenting-data}
 
 Med Adobe Campaign kan du bearbeta uppsättningar på inkommande data. Du kan alltså kombinera flera populationer, utesluta en del av dem eller bara behålla data som är gemensamma för flera mål.
 
-* Med den här **[!UICONTROL Union]** aktiviteten kan du gruppera om resultatet av flera aktiviteter till ett enda mål. Se avsnittet [Union](../../automating/using/union.md).
-* Med hjälp av den här **[!UICONTROL Intersection]** aktiviteten kan du välja att endast behålla de element som är gemensamma för de olika inkommande populationerna i aktiviteten. Se avsnittet [Skärningspunkt](../../automating/using/intersection.md).
-* Med aktiviteten **[!UICONTROL Exclusion]** kan du utesluta element från en population enligt vissa kriterier. Se avsnittet [Uteslutning](../../automating/using/exclusion.md).
-* Med aktiviteten **[!UICONTROL Segmentation]** kan du skapa ett eller flera segment från en population som beräknas av aktiviteter som placerats tidigare i arbetsflödet.  I slutet av aktiviteten kan de bearbetas i en eller olika övergångar. Se avsnittet [Segmentering](../../automating/using/segmentation.md).
+* Med den här **[!UICONTROL Union]** aktiviteten kan du gruppera om resultatet av flera aktiviteter till ett enda mål. Se [Union](../../automating/using/union.md) -avsnitt.
+* Med hjälp av den här **[!UICONTROL Intersection]** aktiviteten kan du välja att endast behålla de element som är gemensamma för de olika inkommande populationerna i aktiviteten. Se [Skärningspunkt](../../automating/using/intersection.md) -avsnitt.
+* Med aktiviteten **[!UICONTROL Exclusion]** kan du utesluta element från en population enligt vissa kriterier. Se [Uteslutning](../../automating/using/exclusion.md) -avsnitt.
+* Med aktiviteten **[!UICONTROL Segmentation]** kan du skapa ett eller flera segment från en population som beräknas av aktiviteter som placerats tidigare i arbetsflödet.  I slutet av aktiviteten kan de bearbetas i en eller olika övergångar. Se [Segmentering](../../automating/using/segmentation.md) -avsnitt.
 
 ## Berika data {#enriching-data}
 
 Identifierade och insamlade data kan berikas, aggregeras och ändras för att optimera målkonstruktionen. Ni kan förenkla och optimera målgruppsprocesserna genom att inkludera data som inte är modellerade i datamarknaden.
 
-På fliken **[!UICONTROL Additional data]** i aktiviteterna **[!UICONTROL Query]** och **[!UICONTROL Incremental query]** kan du utöka de data som frågan riktar sig till och överföra dessa data till följande arbetsflödesaktiviteter, där de kan användas. Du kan mer specifikt lägga till:
+The **[!UICONTROL Additional data]** -fliken i **[!UICONTROL Query]** och **[!UICONTROL Incremental query]** Med -aktiviteter kan du utöka de data som frågan riktar sig till och överföra dessa data till följande arbetsflödesaktiviteter, där de kan användas. Du kan mer specifikt lägga till:
 
 * Enkel data
 * Sammanställningar

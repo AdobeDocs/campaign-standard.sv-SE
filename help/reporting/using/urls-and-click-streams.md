@@ -18,13 +18,13 @@ ht-degree: 6%
 
 # URL:er och klickströmmar{#urls-and-click-streams}
 
-URL:erna för **och klicka på strömmar** visar de URL:er som klickades mest under en leverans, eller flera leveranser om de är länkade till en kampanj eller ett program.
+The **URL:er och klickbara strömmar** visar de URL:er som klickades mest under en leverans, eller flera leveranser om de är länkade till en kampanj eller ett program.
 
 ![](assets/delivery_reports_8.png)
 
 Varje tabell representeras av sammanfattande nummer och diagram. Du kan ändra hur detaljerna visas i deras respektive visualiseringsinställningar.
 
-Tabellen **De mest besökta länkarna** innehåller tillgängliga data för mottagarnas beteende per leverans, till exempel:
+The **De mest besökta länkarna** tabellen innehåller tillgängliga data för mottagarnas beteende per leverans, t.ex.:
 
 * **Klicka**: Antalet gånger som innehållet klickades på i en leverans.
 * **Unika klick**: Antalet mottagare som klickat på innehåll i en leverans.

@@ -21,57 +21,57 @@ Loggdata kan exporteras via ett enkelt arbetsflöde, oavsett om de är relaterad
 
 >[!CAUTION]
 >
->Endast funktionella [administratörer](../../administration/using/users-management.md#functional-administrators) med **[!UICONTROL Administration]**-roll och åtkomst till **Alla**-enheter har åtkomst till sändande loggar, meddelandeloggar, spårningsloggar, undantags- eller prenumerationsloggar. En icke-admin-användare kan ha loggarna som mål, men med början i en länkad tabell (profiler, leverans).
+>Endast funktionell [administratörer](../../administration/using/users-management.md#functional-administrators), med **[!UICONTROL Administration]** roll och åtkomst till **Alla** kan komma åt loggar, meddelandeloggar, spårningsloggar, undantags- och prenumerationsloggar. En icke-admin-användare kan ha loggarna som mål, men med början i en länkad tabell (profiler, leverans).
 
-Genom att använda en **[!UICONTROL Incremental query]** som bara hämtar nya loggar varje gång arbetsflödet körs och en enkel **[!UICONTROL Extract file]**-aktivitet som definierar utdatakolumner, kan du hämta en fil med det format och alla data som du behöver. Använd sedan en **[!UICONTROL Transfer file]**-aktivitet för att hämta den slutliga filen. Varje arbetsflödeskörning planeras av en **[!UICONTROL Scheduler]**.
+Genom att använda en **[!UICONTROL Incremental query]** som bara hämtar nya loggar varje gång arbetsflödet körs och en enkel **[!UICONTROL Extract file]** för att definiera utdatakolumner kan du hämta en fil med det format och alla data du behöver. Använd sedan en **[!UICONTROL Transfer file]** aktivitet för att hämta den slutliga filen. Varje arbetsflödeskörning planeras av en **[!UICONTROL Scheduler]**.
 
-Exportloggsåtgärden kan utföras av standardanvändare. Privata resurser som: bloggar, spårningsloggar, undantagsloggar prenumerationsloggar och prenumerationshistorik på **Profiler** kan bara hanteras av funktionsadministratören.
+Exportloggsåtgärden kan utföras av standardanvändare. Privata resurser som: programloggar, spårningsloggar, undantagsloggar prenumerationsloggar och loggar över prenumerationshistorik **Profiler** kan bara hanteras av funktionsadministratören.
 
-1. Skapa ett nytt arbetsflöde enligt beskrivningen i [det här avsnittet](../../automating/using/building-a-workflow.md#creating-a-workflow).
-1. Lägg till en **[!UICONTROL Scheduler]**-aktivitet och ställ in den efter dina behov. Nedan visas ett exempel på en månatlig exekvering.
+1. Skapa ett nytt arbetsflöde enligt informationen i [det här avsnittet](../../automating/using/building-a-workflow.md#creating-a-workflow).
+1. Lägg till en **[!UICONTROL Scheduler]** och anpassa den efter dina behov. Nedan visas ett exempel på en månatlig exekvering.
 
    ![](assets/export_logs_scheduler.png)
 
-1. Lägg till en **[!UICONTROL Incremental query]**-aktivitet och konfigurera den så att den väljer de loggar du behöver. Om du till exempel vill välja alla nya eller uppdaterade utsändningsloggar (profilleveransloggar):
+1. Lägg till en **[!UICONTROL Incremental query]** -aktiviteten och konfigurera den så att den väljer de loggar du behöver. Om du till exempel vill välja alla nya eller uppdaterade utsändningsloggar (profilleveransloggar):
 
-   * Ändra målresursen till **Leveransloggar** (broadLogRcp) på fliken **[!UICONTROL Properties]**.
+   * I **[!UICONTROL Properties]** ändra målresursen till **Leveransloggar** (broadLogRcp).
 
       ![](assets/export_logs_query_properties.png)
 
-   * På fliken **[!UICONTROL Target]** anger du ett villkor för att hämta alla leveransloggar som motsvarar leveranser som skickats 2016 eller senare. Mer information finns i avsnittet [Redigera frågor](../../automating/using/editing-queries.md#creating-queries).
+   * I **[!UICONTROL Target]** anger du ett villkor för att hämta alla leveransloggar som motsvarar leveranser som skickats 2016 eller senare. Mer information finns i [Redigera frågor](../../automating/using/editing-queries.md#creating-queries) -avsnitt.
 
       ![](assets/export_logs_query_target.png)
 
-   * På fliken **[!UICONTROL Processed data]** väljer du **[!UICONTROL Use a date field]** och väljer fältet **lastModified**. Vid nästa körning av arbetsflödet hämtas endast loggar som har ändrats eller skapats efter den senaste körningen.
+   * I **[!UICONTROL Processed data]** flik, välja **[!UICONTROL Use a date field]** och väljer **lastModified** fält. Vid nästa körning av arbetsflödet hämtas endast loggar som har ändrats eller skapats efter den senaste körningen.
 
       ![](assets/export_logs_query_processeddata.png)
 
       Efter den första körningen av arbetsflödet kan du på den här fliken se det senaste körningsdatumet som ska användas för nästa körning. Den uppdateras automatiskt varje gång arbetsflödet körs. Du kan fortfarande åsidosätta det här värdet genom att ange ett nytt värde manuellt så att det passar dina behov.
 
-1. Lägg till en **[!UICONTROL Extract file]**-aktivitet som exporterar data som efterfrågas i en fil:
+1. Lägg till en **[!UICONTROL Extract file]** aktivitet som exporterar data som efterfrågas i en fil:
 
-   * Ange filens namn på fliken **[!UICONTROL Extraction]**.
+   * I **[!UICONTROL Extraction]** anger du filens namn.
 
-      Om du väljer alternativet **[!UICONTROL Add date and time to the file name]** fylls det här namnet automatiskt i med exportdatumet för att säkerställa att alla extraherade filer är unika. Markera de kolumner som du vill exportera i filen. Du kan välja här data som kommer från relaterade resurser som leverans- eller profilinformation.
+      Om du väljer **[!UICONTROL Add date and time to the file name]** det här namnet fylls i automatiskt med exportdatumet för att säkerställa att alla extraherade filer är unika. Markera de kolumner som du vill exportera i filen. Du kan välja här data som kommer från relaterade resurser som leverans- eller profilinformation.
 
       >[!NOTE]
       >
-      >Om du vill exportera en unik identifierare för varje logg väljer du elementet **[!UICONTROL Delivery log ID]**.
+      >Om du vill exportera en unik identifierare för varje logg väljer du **[!UICONTROL Delivery log ID]** -element.
 
       Om du vill ordna den slutliga filen kan du använda en sortering. Till exempel på loggdatumet, vilket visas i exemplet nedan.
 
       ![](assets/export_logs_extractfile_extraction.png)
 
-   * På fliken **[!UICONTROL File structure]** definierar du formatet för utdatafilen efter dina behov.
+   * I **[!UICONTROL File structure]** definierar du formatet för utdatafilen efter dina behov.
 
       Markera alternativet **[!UICONTROL Export labels instead of internal values of enumerations]** om du vill exportera uppräkningsvärden.  Med det här alternativet kan motta kortare etiketter som är enkla att förstå i stället för ID:n.
 
-1. Lägg till en **[!UICONTROL Transfer file]**-aktivitet och konfigurera den så att den överför den nyligen skapade filen från Adobe Campaign-servern till en annan plats där du kan komma åt den, till exempel en SFTP-server.
+1. Lägg till en **[!UICONTROL Transfer file]** -aktiviteten och konfigurera den så att den överför den nyligen skapade filen från Adobe Campaign-servern till en annan plats där du kan komma åt den, till exempel en SFTP-server.
 
-   * På fliken **[!UICONTROL General]** väljer du **[!UICONTROL File upload]** eftersom syftet är att skicka filen från Adobe Campaign till en annan server.
-   * På fliken **[!UICONTROL Protocol]** anger du överföringsparametrarna och väljer det [externa konto](../../administration/using/external-accounts.md#creating-an-external-account) som ska användas.
+   * I **[!UICONTROL General]** flik, välja **[!UICONTROL File upload]** eftersom syftet är att skicka filen från Adobe Campaign till en annan server.
+   * I **[!UICONTROL Protocol]** anger du överföringsparametrarna och väljer [externt konto](../../administration/using/external-accounts.md#creating-an-external-account) att använda.
 
-1. Lägg till en **[!UICONTROL End]**-aktivitet för att säkerställa att den avslutas korrekt och att arbetsflödet sparas.
+1. Lägg till en **[!UICONTROL End]** aktiviteten för att säkerställa att den avslutas på rätt sätt och att arbetsflödet sparas.
 
    ![](assets/export_logs_example_workflow.png)
 

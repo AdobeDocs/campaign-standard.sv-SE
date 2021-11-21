@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # Om organisationsenheter {#about-organizational-units}
 
-Med slutpunkten **orgUnitBase** kan du interagera med organisationsenheter, vilket t.ex. gör att du kan uppdatera deras attribut eller uppdatera en profils organisationsenhet. Mer information om organisationsenheter i Campaign finns i [Kampanjdokumentationen](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=en#administrating).
+The **orgUnitBase** kan du använda organisationsenheter, vilket gör att du till exempel kan uppdatera deras attribut eller uppdatera en profils organisationsenhet. Mer information om organisationsenheter i Campaign finns i [Kampanjdokumentation](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=en#administrating).
 
-Fältet **Organisationsenhet** läggs till i en profil när profilresursen utökas. Kom därför ihåg att alltid använda slutpunkten **profileAndServicesExt** för att interagera med geografiska enheter. Mer information om profilens resurstillägg finns i [Kampanjdokumentationen](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=en#partitioning-profiles).
+The **Organisationsenhet** fältet läggs till i en profil när profilresursen utökas. Kom därför ihåg att alltid använda **profileAndServicesExt** slutpunkt för interaktion med geografiska enheter. Mer information om profilens resurstillägg finns i [Kampanjdokumentation](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=en#partitioning-profiles).

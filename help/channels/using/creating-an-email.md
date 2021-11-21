@@ -17,7 +17,7 @@ ht-degree: 17%
 
 # Skapa ett e-postmeddelande{#creating-an-email}
 
-Du kan skapa ett e-postmeddelande från en [kampanj](../../start/using/marketing-activities.md#creating-a-marketing-activity), från Adobe Campaign [hemsida](../../start/using/interface-description.md#home-page) eller i [listan över marknadsföringsaktiviteter](../../start/using/marketing-activities.md#about-marketing-activities). Du kan också skapa e-postmeddelanden som skickas en gång eller som upprepas i ett arbetsflöde.
+Du kan skapa ett e-postmeddelande från en [kampanj](../../start/using/marketing-activities.md#creating-a-marketing-activity)från Adobe Campaign [hemsida](../../start/using/interface-description.md#home-page)eller i [lista över marknadsföringsaktiviteter](../../start/using/marketing-activities.md#about-marketing-activities). Du kan också skapa e-postmeddelanden som skickas en gång eller som upprepas i ett arbetsflöde.
 
 ![](assets/do-not-localize/how-to-video.png) [Upptäck den här funktionen i en video](#video)
 
@@ -31,7 +31,7 @@ Du kan skapa ett e-postmeddelande från en [kampanj](../../start/using/marketing
    >
    >Uppföljnings- och A/B-testmallar är dolda som standard. Markera rutorna till vänster ( **[!UICONTROL Filter]** sidopanel) om du vill visa dem.
 
-1. Ange de allmänna egenskaperna för e-postmeddelandet. Du kan ange ett namn i fältet **Etikett** och redigera ID:t. Både aktivitetsnamnet och dess ID visas i gränssnittet, men de är inte synliga för meddelandemottagarna.
+1. Ange de allmänna egenskaperna för e-postmeddelandet. Du kan ange ett namn i dialogrutan **Etikett** och redigera ID:t. Både aktivitetsnamnet och dess ID visas i gränssnittet, men de är inte synliga för meddelandemottagarna.
 
    Du kan lägga till en beskrivning som användaren kan se i kampanjinnehållet.
 
@@ -47,7 +47,7 @@ Du kan skapa ett e-postmeddelande från en [kampanj](../../start/using/marketing
 
    ![](assets/email_creation_3.png)
 
-1. Definiera och anpassa meddelandeinnehåll, avsändarnamn och ämne med [e-postdesignern](../../designing/using/designing-content-in-adobe-campaign.md). Mer information finns i [Om design av e-postinnehåll](../../designing/using/designing-content-in-adobe-campaign.md).
+1. Definiera och anpassa meddelandets innehåll, avsändarens namn och ämne med [E-postdesigner](../../designing/using/designing-content-in-adobe-campaign.md). Mer information finns i [Om design av e-postinnehåll](../../designing/using/designing-content-in-adobe-campaign.md).
 
    ![](assets/email_creation_4.png)
 
@@ -58,11 +58,11 @@ Du kan skapa ett e-postmeddelande från en [kampanj](../../start/using/marketing
 
    >[!NOTE]
    >
-   >Om du vill kunna spara e-postmeddelandet måste du först göra några ändringar i innehållet. Om du klickar på **[!UICONTROL Cancel]** nu kommer du inte att slutföra guiden och ditt e-postmeddelande kommer inte att skapas.
+   >Om du vill kunna spara e-postmeddelandet måste du först göra några ändringar i innehållet. Om du klickar **[!UICONTROL Cancel]** Nu kommer du inte att slutföra guiden och ditt e-postmeddelande kommer inte att skapas.
 
-   E-postkontrollpanelen visas sedan. Du kan kontrollera meddelandet och [förbereda sändningen](../../sending/using/preparing-the-send.md).
+   E-postkontrollpanelen visas sedan. Det gör att du kan kontrollera ditt meddelande och [förbereda sändningen](../../sending/using/preparing-the-send.md).
 
-   Med knappen **[!UICONTROL Edit properties]** i det övre högra hörnet kan du redigera egenskaperna för e-postmeddelandet. Du kan till exempel konfigurera e-postmeddelandet så att etiketten beräknas när leveransen förbereds.  Tillgängliga parametrar visas i [det här avsnittet](../../administration/using/configuring-email-channel.md#list-of-email-properties).
+   The **[!UICONTROL Edit properties]** i det övre högra hörnet kan du redigera egenskaperna för e-postmeddelandet. Du kan till exempel konfigurera e-postmeddelandet så att etiketten beräknas när leveransen förbereds.  Tillgängliga parametrar visas i [det här avsnittet](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 
    ![](assets/delivery_dashboard_2.png)
 
@@ -70,7 +70,7 @@ Du kan skapa ett e-postmeddelande från en [kampanj](../../start/using/marketing
 
    ![](assets/delivery_planning.png)
 
-1. Förbered meddelandet för att analysera dess mål. Se [Förbereda sändningen](../../sending/using/confirming-the-send.md).
+1. Förbered meddelandet för att analysera dess mål. Se [Förbereder sändningen](../../sending/using/confirming-the-send.md).
 
    ![](assets/preparing_delivery_2.png)
 
@@ -78,7 +78,7 @@ Du kan skapa ett e-postmeddelande från en [kampanj](../../start/using/marketing
    >
    >Du kan ange globala fatigue-regler för intersektionskanaler som automatiskt utesluter överdimensionerade profiler från kampanjer. Mer information finns i [Trötthetsregler](../../sending/using/fatigue-rules.md).
 
-1. Skicka korrektur för att kontrollera och validera meddelandet och övervaka återgivningen i inkorgen. Se [Skicka korrektur](../../sending/using/sending-proofs.md).
+1. Skicka korrektur för att kontrollera och validera meddelandet och övervaka återgivningen i inkorgen. Se [Skicka bevis](../../sending/using/sending-proofs.md).
 
    ![](assets/bat_select.png)
 
@@ -90,7 +90,7 @@ Du kan skapa ett e-postmeddelande från en [kampanj](../../start/using/marketing
 
 **Relaterade ämnen**:
 
-* [Skapa en personlig ](../../channels/using/key-steps-to-send-a-message.md) e-postguide steg för steg
+* [Skapa ett personligt e-postmeddelande](../../channels/using/key-steps-to-send-a-message.md) steg-för-steg-guide
 * [Integrering med Adobe Campaign och Dreamweaver](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 * [Integrera med Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
 
@@ -100,4 +100,4 @@ I den här videon visas hur du skapar ett e-postmeddelande.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23721?quality=12)
 
-Ytterligare Campaign Standard om instruktionsvideor finns [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv).
+Det finns fler videor med Campaign Standard om hur man gör [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv).

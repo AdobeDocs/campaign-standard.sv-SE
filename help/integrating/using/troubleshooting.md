@@ -23,7 +23,7 @@ I så fall måste du kontrollera att följande element är korrekt konfigurerade
 
 * **Externa konton**
 
-   Kontrollera att följande externa S3-konton är korrekt konfigurerade i **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts]**. De nämnda S3-servrarna bör ha konfigurerats under etableringen.
+   I **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts]** kontrollerar du att följande externa S3-konton är korrekt konfigurerade. De nämnda S3-servrarna bör ha konfigurerats under etableringen.
 
    * **[!UICONTROL importSharedAudience]**: S3-konto för att importera målgrupper.
    * **[!UICONTROL exportSharedAudience]**: S3-konto för export av målgrupper.
@@ -43,9 +43,9 @@ I så fall måste du kontrollera att följande element är korrekt konfigurerade
    Om AES-krypteringsalgoritmen är markerad måste följande ytterligare fält anges korrekt:
 
    * **Krypteringsnyckel** för AES
-   * **Kryptering IV**  (initieringsvektor) för AES
-   * **Kanal**  (e-post/SMS/annan): I det här fältet kan du dekryptera e-postadresser och SMS-nummer direkt. Kontrollera att avstämningsnyckeln matchar inställningen för fältet **Kanal**. Om du väljer Annat kommer denna specifika dekryptering inte att ske och avstämningsnyckeln används för att stämma av data.
+   * **Kryptering IV** (Initialiseringsvektor) för AES
+   * **Kanal** (E-post/SMS/annan): I det här fältet kan du dekryptera e-postadresser och SMS-nummer direkt. Kontrollera att avstämningsnyckeln matchar inställningen för **Kanal** fält. Om du väljer Annat kommer denna specifika dekryptering inte att ske och avstämningsnyckeln används för att stämma av data.
 
-   Experience Cloud målgrupper kanske inte delas eftersom det tekniska arbetsflödet har stoppats eller pausats. Du kommer åt arbetsflödet **[!UICONTROL Import shared audience]** genom att klicka direkt på alternativet **[!UICONTROL Show ImportShared Audience workflow]** i datakällan.
+   Experience Cloud målgrupper kanske inte delas eftersom det tekniska arbetsflödet har stoppats eller pausats. Öppna **[!UICONTROL Import shared audience]** genom att klicka direkt på **[!UICONTROL Show ImportShared Audience workflow]** i datakällan.
 
 Det kan inträffa att vissa data saknas när en målgrupp delas via personbastjänsten eller när en målgrupp importeras. Det är bara poster som ID:t (&#39;besökar-ID&#39; eller &#39;Deklarerat ID&#39;) kunde förenas med profildimensionen som överförs. ID:n från People core service segments som inte känns igen av Adobe Campaign importeras inte.

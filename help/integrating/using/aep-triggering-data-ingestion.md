@@ -23,7 +23,7 @@ ht-degree: 6%
 
 Med Adobe Campaign Standard kan du utlösa direkt inmatning av datamappningar via API:er och hämta status för dina önskemål om inmatning.
 
-Den här sidan beskriver hur du aktiverar och hämtar inmatningsstatus för dina datamappningar. Global information om Campaign Standard-API:er finns i [det här avsnittet](../../api/using/get-started-apis.md).
+Den här sidan beskriver hur du aktiverar och hämtar inmatningsstatus för dina datamappningar. Global information om Campaign Standards-API:er finns i [det här avsnittet](../../api/using/get-started-apis.md).
 
 ## Förhandskrav {#prerequisites}
 
@@ -34,9 +34,9 @@ Innan du använder API:erna måste datamappningen först ha konfigurerats och pu
 
 När datamappningen har skapats måste du stoppa den från att köras så att du kan utlösa den från API:erna när du vill. Följ dessa steg för att göra detta:
 
-1. Gå till menyn **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** i Campaign Standard.
+1. I Campaign Standarden går du till **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** -menyn.
 
-1. Dubbelklicka på datamappningen för att öppna den och klicka sedan på knappen **[!UICONTROL Stop]**.
+1. Dubbelklicka på datamappningen för att öppna den och klicka sedan på **[!UICONTROL Stop]** -knappen.
 
    ![](assets/aep_datamapping_stop.png)
 
@@ -52,7 +52,7 @@ Omedelbart intag av en XDM-mappning i Adobe Experience Platform utlöses av en P
 
 >[!NOTE]
 >
->För att kunna köra anropet till API:t för inklistring av POSTER måste användaren ha en **SQL-funktionskörningsroll**, som kan tillhandahållas av en Campaign Standard-administratör genom att köra JS-skriptet nedan:
+>Användaren måste ha en **SQL-funktionskörning** roll, som kan tillhandahållas av en Campaign Standard-administratör genom att köra nedan JS-skript:
 >
 >
 ```
@@ -95,7 +95,7 @@ POSTEN returnerar information om status för skapad begäran:
 }
 ```
 
-## Hämtar status för en begäran om hämtning {#retrieving-status}
+## Hämtar status för en ingressbegäran {#retrieving-status}
 
 Status för en begäran om att få tillgång kan hämtas med en GET-åtgärd och önskat ID för begäran i parametrarna:
 
@@ -106,7 +106,7 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->Detaljerad information om status för XDM-mappningsbegäran och relaterade jobb finns i Campaign Standardens gränssnitt på menyn **[!UICONTROL Status of data export to platform]** (se [Mappningsaktivering](../../integrating/using/aep-mapping-activation.md)).
+>Detaljerad information om status för XDM-mappningsbegäran och relaterade jobb finns i Campaign Standarden i **[!UICONTROL Status of data export to platform]** meny (se [Aktivera mappning](../../integrating/using/aep-mapping-activation.md)).
 
 GETEN returnerar informationen nedan:
 

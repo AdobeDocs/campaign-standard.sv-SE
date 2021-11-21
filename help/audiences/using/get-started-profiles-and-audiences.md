@@ -40,9 +40,9 @@ Identifiera kunder effektivare i alla kanaler med **integrerade kundprofiler**, 
 
 Adobe Campaign skapar omfattande kundprofiler i realtid, så att ni kan leverera mer relevanta och personaliserade erbjudanden när kundens önskemål förändras. Dessutom integrerar Adobe Campaign avancerade funktioner för analys, datahantering och målinriktning för att skapa målgrupper.
 
-**** Profiler är enskilda kontakter som lagras i databasen. Varje profil motsvarar en post i databasen som innehåller den information som krävs för att den profilen ska kunna användas, kvalificeras och spåras individuellt: Adobe Campaign kan spåra alla interaktioner från både online- och offlinekanaler och sammanfoga dem i en enda profil.
+**Profiler** är enskilda kontakter som lagras i databasen. Varje profil motsvarar en post i databasen som innehåller den information som krävs för att den profilen ska kunna användas, kvalificeras och spåras individuellt: Adobe Campaign kan spåra alla interaktioner från både online- och offlinekanaler och sammanfoga dem i en enda profil.
 
-**Målgrupper** är listor med profiler som bygger på ett specifikt villkor, eller uppsättning med villkor. Med hjälp av arbetsflöden och frågeredigeraren kan ni skapa målgrupper som ska vara inriktade på era marknadsföringskampanjer, beroende på vilken information ni har om dem, deras aktiviteter och deras marknadsföringshistorik. På så sätt kan du filtrera prenumererade profiler, sampla eller skapa målgrupper utifrån ett obegränsat antal kriterier.
+**Målgrupper** är listor med profiler som bygger på ett specifikt villkor eller en uppsättning villkor. Med hjälp av arbetsflöden och frågeredigeraren kan ni skapa målgrupper som ska vara inriktade på era marknadsföringskampanjer, beroende på vilken information ni har om dem, deras aktiviteter och deras marknadsföringshistorik. På så sätt kan du filtrera prenumererade profiler, sampla eller skapa målgrupper utifrån ett obegränsat antal kriterier.
 
 Läs mer:
 
@@ -60,9 +60,9 @@ Läs mer:
 
 Innan du börjar skicka meddelanden till en kontakt måste du se till att du får deras tillstånd. Annars kan dina e-postmeddelanden markeras som skräppost vilket påverkar plattformens leveransförmåga. För att vara säker på att du skapar en felfri profildatabas måste du först skydda behörigheten.
 
-Med Campaign rekommenderar vi att du använder **enkla mekanismer för anmälan och avanmälan** till [tjänster](../../audiences/using/creating-a-service.md) och [landningssidor](../../channels/using/getting-started-with-landing-pages.md) för att uppdatera din kontaktinformation och utöka databasen.
+Med Campaign rekommenderar vi att du använder **enkla anmälnings- och avanmälningsmekanismer** via [tjänster](../../audiences/using/creating-a-service.md)och [landningssidor](../../channels/using/getting-started-with-landing-pages.md) för att uppdatera din kontaktinformation och utöka databasen.
 
-Om du anger **avprenumerationslänkar** i dina meddelanden kan profiler vid behov läggas till i blockeringslista och därmed förbättra plattformens leveransförmåga. Mer information om hantering av blockeringslista finns i [Om deltagande och avanmälan i Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Tillhandahållande **prenumerationslänkar** i dina meddelanden gör det möjligt att lägga till profiler i blockeringslista vid behov, vilket förbättrar plattformens leveransförmåga. Mer information om hantering av blockeringslista finns i [Om anmälan och avanmälan i Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!IMPORTANT]
 >
@@ -77,9 +77,9 @@ Läs mer:
 
 <img src="assets/do-not-localize/icon_privacy.svg" width="60px">
 
-Adobe Campaign erbjuder en uppsättning verktyg som hjälper dig med din **sekretessefterlevnad** för GDPR, CCPA och andra integritetslagar.
+Adobe Campaign har en uppsättning verktyg som hjälper dig att **Integritetsefterlevnad** för GDPR, CCPA och andra integritetslagar.
 
-Läs mer i den här [artikeln](https://helpx.adobe.com/se/campaign/kb/campaign-privacy.html) om sekretesshantering och de funktioner vi tillhandahåller för att hantera behörighet till åtkomst, rätt att bli glömd, samtycke, datalagring och användarroller.
+Läs mer om detta [den här artikeln](https://helpx.adobe.com/se/campaign/kb/campaign-privacy.html) om sekretesshantering och de funktioner vi tillhandahåller för att hantera rätten till åtkomst, rätten att bli glömd, samtycke, datalagring och användarroller.
 
 Integritet och samtycke i Campaign och hur du hanterar dem presenteras i [det här avsnittet](../../start/using/privacy.md). Du hittar också bästa praxis som hjälper dig att följa din sekretesspraxis när du använder vår tjänst.
 

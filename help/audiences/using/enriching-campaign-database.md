@@ -21,19 +21,19 @@ Campaign Standard har flera verktyg som hjälper er att utöka er marknadsförin
 
 ## Importera data via arbetsflöden {#importing-data-through-workflows}
 
-Med arbetsflöden kan ni samla in data och importera dem till Campaign-databasen med hjälp av [[!UICONTROL Data management]](../../automating/using/about-data-management-activities.md)-aktiviteter.
+Med arbetsflöden kan ni samla in data och importera dem till Campaign-databasen med hjälp av [[!UICONTROL Data management]](../../automating/using/about-data-management-activities.md) verksamhet.
 
-Allmän information och bästa praxis vid import av data via arbetsflöden finns i [det här avsnittet](../../automating/using/about-data-import-and-export.md).
+Allmän information och bästa praxis vid import av data via arbetsflöden visas i [det här avsnittet](../../automating/using/about-data-import-and-export.md).
 
 Dessutom kan du konfigurera mallar för import av data. Det är bäst att använda importmallar om du behöver importera filer med samma struktur regelbundet.
 
-Du kan ställa in två typer av mallar:
+Du kan konfigurera två typer av mallar:
 
 * **Arbetsflödesmallar**: Detta är förkonfigurerade arbetsflöden som du kan konfigurera en gång efter behov och återanvända varje gång du vill importera data och uppdatera databasen.
 
    Ett exempel på en arbetsflödesmall för import av data finns i [det här avsnittet](../../automating/using/creating-import-workflow-templates.md).
 
-* **Importera datamallar**: som arbetsflödesmallar är dessa mallar baserade på arbetsflöden, som är inställda på att överföra filer för att uppdatera databasen. När de har konfigurerats blir de tillgängliga för användare med en förenklad vy på **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]**-menyn.
+* **Importera datamallar**: som arbetsflödesmallar är dessa mallar baserade på arbetsflöden, som är inställda på att överföra filer för att uppdatera databasen. När de har konfigurerats blir de tillgängliga för användare med en förenklad vy i **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** -menyn.
 
    Mer information om hur du importerar datamallar finns i [dedikerad dokumentation](../../automating/using/importing-data-with-import-templates.md).
 
@@ -51,14 +51,14 @@ Mer information om landningssidor finns i [dedikerad dokumentation](../../channe
 
 ## Synkroniserar profiler från Microsoft Dynamics 365
 
-Tack vare integreringen av Campaign Standarder med Microsoft Dynamics 365 kan du skicka kontaktdata från Microsoft Dynamics 365 till Campaign-databasen.
+Tack vare integreringen med Microsoft Dynamics 365 kan du skicka kontaktdata från Microsoft Dynamics 365 till Campaign-databasen.
 Kontakterna visas sedan i profillistan och kan användas i marknadsföringskampanjer.
 
 Mer information om den här integreringen finns i [dedikerad dokumentation](../../integrating/using/d365-acs-get-started.md).
 
 >[!NOTE]
 >
->Observera att Campaign Standard-Microsoft Dynamics 365-kopplingen för närvarande har begränsad tillgänglighet och att den har flera begränsningar, som beskrivs i dokumentationen.
+>Observera att Campaign Standard-Microsoft Dynamics 365-kopplingen för närvarande har begränsad tillgänglighet och att den har flera begränsningar som beskrivs i dokumentationen.
 
 ## Importera data via API-anrop
 

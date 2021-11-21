@@ -66,10 +66,10 @@ Utför en GET-begäran på URL:en. Den returnerar listan med filter för profilr
 
 Samma metadatastruktur är tillgänglig för varje filter:
 
-* Fälten **@formType** och **@webPage** är tekniska fält.
-* Fältet **data** innehåller ett exempel på hur filtret ska användas.
-* Noden **metadata** beskriver filterparametrarna.
-* Noden **condition** beskriver vad filtret är avsett att göra. Filterparametrarna som beskrivs i metadatanoden används för att skapa filtervillkor. Om **enabledIf** är true används **uttrycket** för varje filtervillkor.
+* The **@formType** och **@webPage** fält är tekniska fält.
+* The **data** innehåller ett exempel på hur filtret ska användas.
+* The **metadata** noden beskriver filterparametrarna.
+* The **villkor** noden beskriver vad filtret är tänkt att göra. Filterparametrarna som beskrivs i metadatanoden används för att skapa filtervillkor. För varje filtervillkor, om **enabledIf** är sant, **expr** kommer att tillämpas.
 
 <br/>
 
@@ -133,8 +133,7 @@ Det går att kombinera flera filter i en enda begäran:
    }
    ```
 
-* Exempel på GET-förfrågan om att hämta profilresurser som innehåller &quot;Do&quot; i
-e-post- eller efternamnsfälten (filtret byText söker i både e-post- och efternamnsfälten).
+* Sample GET request to retrieve the &quot;profile&quot; resources containing &quot;Do&quot; in the email or last name fields (filtret byText söker i både e-post- och efternamnsfälten).
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \

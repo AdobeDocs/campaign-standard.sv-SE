@@ -17,9 +17,9 @@ ht-degree: 25%
 
 # Övervaka en sekretessförfrågan {#monitoring-a-privacy-request}
 
-Du kan övervaka information om en skapad sekretessbegäran med en **GET**-begäran.
+Du kan övervaka information om en skapad sekretessförfrågan med en **GET** begäran.
 
-Beskrivningen av statuslistan finns i [sekretesshanteringsdokumentationen](https://helpx.adobe.com/se/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
+Beskrivningen av statuslistan finns i [Dokumentation för sekretesshantering](https://helpx.adobe.com/se/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
 
 <br/>
 

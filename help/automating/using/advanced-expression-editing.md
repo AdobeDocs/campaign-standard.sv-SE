@@ -155,7 +155,7 @@ Villkoren måste kopplas till värden med någon av följande operatörer.
   <tr> 
    <td> <span class="uicontrol">Less than</span> <br /> </td> 
    <td> &lt;<br /> </td> 
-   <td> &lt;&gt;<br /> </td> 
+   <td> &lt;<br /> </td> 
    <td> Det första värdet måste vara mindre än det andra värdet.<br /> </td> 
    <td> <strong>@created &lt; DaysAgo(100)</strong> hämtar alla profiler som skapats i databasen för mindre än 100 dagar sedan.<br /> </td> 
   </tr> 
@@ -169,7 +169,7 @@ Villkoren måste kopplas till värden med någon av följande operatörer.
   <tr> 
    <td> <span class="uicontrol">Less than or equal to</span> <br /> </td> 
    <td> &lt;=<br /> </td> 
-   <td> &lt;&gt;<br /> </td> 
+   <td> &lt;=<br /> </td> 
    <td> Det första värdet måste vara mindre än eller lika med det andra värdet.<br /> </td> 
    <td> <strong>@age &lt;= 60</strong> hämtar profiler som är 60 år eller yngre.<br /> </td> 
   </tr> 

@@ -33,9 +33,9 @@ Tack vare Adobe Campaign Standard-integreringen med Dreamweaver kan du redigera 
 
 * **Lägg till kampanjanpassning i Dreamweaver**
 
-   E-postutvecklaren behöver inte längre lägga till text som `[[FIRSTNAME_PLACEHOLDER]]` eller slå upp syntaxen för datamodellens tabeller. Verktygsfältet Campaign i Dreamweaver är direkt kopplat till datamodellen för din Campaign-instans. Det innebär att ni kan hämta in alla data som ni vill ha för personalisering från något som Förnamn till Adress. Om ni har skapat innehållsblock i Campaign kan ni även hämta dessa direkt till Dreamweaver.
+   E-postutvecklaren behöver inte längre lägga till text som `[[FIRSTNAME_PLACEHOLDER]]` eller för att slå upp syntaxen för datamodellens tabeller. Verktygsfältet Campaign i Dreamweaver är direkt kopplat till datamodellen för din Campaign-instans. Det innebär att ni kan hämta in alla data som ni vill ha för personalisering från något som Förnamn till Adress. Om ni har skapat innehållsblock i Campaign kan ni även hämta dessa direkt till Dreamweaver.
 
-Den här funktionen beskrivs i den Dreamweaver-dokumentation som är tillgänglig [här](https://helpx.adobe.com/se/dreamweaver/using/working-with-dreamweaver-and-campaign.html).
+Den här funktionen finns i Dreamweaver Documentation [här](https://helpx.adobe.com/se/dreamweaver/using/working-with-dreamweaver-and-campaign.html).
 
 ![](assets/do-not-localize/how-to-video.png) [Upptäck den här funktionen i en video](#video)
 
@@ -50,7 +50,7 @@ E-postinnehåll kan redigeras i Experience Manager och sedan användas för ett 
 >title="Använda produktlistor"
 >abstract="Med produktlistorna kan du referera till en datainsamling och visa den i e-postinnehållet."
 
-Med produktlistorna kan du referera till en eller flera datainsamlingar i e-postinnehållet. Dessa listor är tillgängliga för transaktionsmeddelanden. Ett dedikerat avsnitt för den här funktionen finns [här](../../designing/using/using-product-listings.md).
+Med produktlistorna kan du referera till en eller flera datainsamlingar i e-postinnehållet. Dessa listor är tillgängliga för transaktionsmeddelanden. Ett dedikerat avsnitt för den här funktionen är tillgängligt [här](../../designing/using/using-product-listings.md).
 
 ## Jämförelse av alternativ för e-postdesign {#email-design-options-comparison}
 
@@ -148,7 +148,7 @@ Adobe Campaign har flera alternativ för e-postutveckling. Tabellen nedan visar 
    <td> <strong>Mer information</strong><br /> </td> 
    <td> Se <a href="../../designing/using/designing-content-in-adobe-campaign.md">Om e-postdesignern</a>.<br /> </td> 
    <td> Se <a href="../../integrating/using/integrating-with-experience-manager.md">Integrera med Experience Manager</a>.<br /> </td> 
-   <td> Se <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver och Campaign</a> och se den här <a href="#video">videon</a>.<br /> </td> 
+   <td> Se <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver och Campaign</a> och se detta <a href="#video">video</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -159,4 +159,4 @@ I den här videon visas hur du skapar och redigerar innehåll för Adobe Campaig
 
 >[!VIDEO](https://video.tv.adobe.com/v/23121?quality=12&captions=eng)
 
-Ytterligare Campaign Standard om instruktionsvideor finns [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv).
+Det finns fler videor med Campaign Standard om hur man gör [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv).

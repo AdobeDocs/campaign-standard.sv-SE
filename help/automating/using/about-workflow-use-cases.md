@@ -62,5 +62,5 @@ De hjälper dig att identifiera de olika sammanhang i vilka arbetsflöden kan an
 * [Exportera profiler i en extern fil](../../automating/using/exporting-profiles-in-file.md)
 * [Uppdatera flera prenumerationsstatusar från en fil](../../automating/using/updating-subscriptions-from-file.md)
 * [Prenumerera profiler från en fil till en viss tjänst](../../automating/using/subscribing-profiles-from-file.md)
-* [Importera data krypterade med en nyckel som genererats av Kontrollpanelen](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)
+* [Importera data som krypterats med en nyckel som genererats av Kontrollpanelen](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)
 * [Kryptera och exportera data med en tangent som är installerad på Kontrollpanelen](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)

@@ -17,7 +17,7 @@ ht-degree: 4%
 
 # Hantera CCPA-avanmälan {#managing-ccpa-optout}
 
-En profils CCPA-avanmälningsstatus kan övervakas och hanteras med profilattributet **ccpaOptOut** och värdena &quot;true&quot; eller &quot;false&quot;:
+En profils CCPA-avanmälningsstatus kan övervakas och hanteras med **ccpaOptOut** profilattribut och värdena &quot;true&quot; eller &quot;false&quot;:
 
 `"ccpaOptOut": <value>`
 
@@ -28,7 +28,7 @@ En profils CCPA-avanmälningsstatus kan övervakas och hanteras med profilattrib
 >
 >Attributet &quot;CCPA Opt-Out&quot; är endast tillgängligt från och med 19.4. I 19.3-miljöer måste du utöka profilresursen och lägga till ett booleskt fält. Det här fältet läggs till i API:t med den valda etiketten. Vi föreslår att du använder&quot;Avanmäl dig för CCPA&quot;.
 >
->Mer information om detta finns i [Handboken Hantera sekretessförfrågningar](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
+>Mer information finns i [Hantera dokumentation om sekretessförfrågningar](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
 
 <br/>
 

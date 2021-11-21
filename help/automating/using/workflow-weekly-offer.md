@@ -26,7 +26,7 @@ Du kan skicka ett e-postmeddelande med specialerbjudanden varje tisdag till alla
 
 ## Skapa en schemaläggningsaktivitet{#creating-a-scheduler-activity}
 
-1. I **[!UICONTROL Activities]** > **[!UICONTROL Execution]** drar och släpper du en [schemaläggaraktivitet](../../automating/using/scheduler.md).
+1. I **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, dra och släppa [Schemaläggare](../../automating/using/scheduler.md) aktivitet.
 1. Dubbelklicka på aktiviteten.
 1. Konfigurera leveransen.
 1. I **[!UICONTROL Execution frequency]** väljer du **[!UICONTROL Weekly]**.
@@ -43,7 +43,7 @@ Du kan skicka ett e-postmeddelande med specialerbjudanden varje tisdag till alla
 
 ## Skapa en förfrågningsaktivitet{#creating-a-query-activity}
 
-1. I **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** väljer du mottagare genom att dra och släppa en [Query](../../automating/using/query.md)-aktivitet och dubbelklicka på den.
+1. I **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, för att välja mottagare, dra och släppa [Fråga](../../automating/using/query.md) och dubbelklicka på den.
 1. I **[!UICONTROL Shortcuts]** > **[!UICONTROL Profile]**, dra och släpp **[!UICONTROL Email]**.
 1. Välj **[!UICONTROL is not empty]** som operator.
 1. I **[!UICONTROL Shortcuts]** > **[!UICONTROL General]**, lägg till profiler och välj **[!UICONTROL no longer contact by email]** med värdet **[!UICONTROL No]**.
@@ -53,7 +53,7 @@ Du kan skicka ett e-postmeddelande med specialerbjudanden varje tisdag till alla
 
 ## Skapa en e-postleverans{#creating-an-email-delivery}
 
-1. I **[!UICONTROL Activities]** > **[!UICONTROL Channels]** drar och släpper du en [e-postleverans](../../automating/using/email-delivery.md)-aktivitet.
+1. I **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, dra och släppa [E-postleverans](../../automating/using/email-delivery.md) aktivitet.
 1. Klicka på aktiviteten och välj ![](assets/edit_darkgrey-24px.png) för att redigera.
 1. Markera **[!UICONTROL Recurring email]** och klicka på **[!UICONTROL Next]**.
 1. Välj en e-postmall och klicka på **[!UICONTROL Next]**.

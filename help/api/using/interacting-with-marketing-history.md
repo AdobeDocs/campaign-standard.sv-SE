@@ -17,12 +17,12 @@ ht-degree: 10%
 
 # Interaktion med marknadsföringshistorik {#interacting-with-marketing-history}
 
-Med **historiken**-slutpunkten kan du interagera med en profils marknadsföringshistorik.
+The **historik** kan du interagera med en profils marknadsföringshistorik.
 På så sätt kan du till exempel enkelt hämta spegelsidan för en leverans som skickades till en profil. Följ stegen nedan för att göra detta:
 
-1. Utför en GET med slutpunkten **history** och profilens primärnyckel.
-1. Utför en GET-begäran på den **händelse**-href som returnerats.
-1. Den returnerar listan med händelser för profilen med länkar till spegelsidor i noden **mirrorPage**.
+1. Utför en GET med **historik** slutpunkt och profilens primärnyckel.
+1. Utför en GET-förfrågan på **händelser** href returnerades.
+1. Den returnerar listan med händelser för profilen med länkar till spegelsidor i **mirrorPage** nod.
 
 <br/>
 

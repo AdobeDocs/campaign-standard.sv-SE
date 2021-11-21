@@ -26,7 +26,7 @@ Detta är en tvåstegsprocedur.
 
 >[!CAUTION]
 >
->REST API returnerar egenskapen &quot;href&quot; som innehåller den URL som ska användas. <b>Använd alltid den URL som finns i svaret för att göra den efterföljande API-begäran</b>.
+>REST API returnerar egenskapen &quot;href&quot; som innehåller den URL som ska användas. <b>Använd alltid den URL som finns i svaret för att göra efterföljande API-begäran</b>.
 
 <br/>
 

@@ -20,7 +20,7 @@ ht-degree: 0%
 ## Tekniska krav
 
 * Adobe Campaign API:er får endast användas på servern.
-* Kontakta alltid den tekniska kontaktpersonen på Adobe om det användningsfall du vill implementera är anpassat till den skala som tillåts av Adobe Campaign API:er.
+* Kontrollera alltid med den tekniska kontaktpersonen på Adobe om det användningsfall du vill implementera är anpassat till den skala som tillåts av Adobe Campaign API:er.
 * Om du vill konfigurera en AdobeIO-åtkomst måste du ha särskilda behörigheter. Kontakta Adobe Support om du har problem.
 
 ## Rättigheter och tillgång
@@ -31,13 +31,13 @@ ht-degree: 0%
 
 ## Resursrepresentation
 
-Alla API-resurser är tillgängliga i **JSON** med ett URL-tillägg eller i ett HTTP Accept Header:
+Alla API-resurser är tillgängliga i **JSON** med ett URL-tillägg eller i ett HTTP Accept-huvud:
 
 `GET /profileAndServices/<resourceName>.json`
 
 >[!NOTE]
 >
->Utan tillägg i URL:en är formatet **json standardformatet** för innehållstypen.
+>Utan tillägg i URL:en **json-formatet är standardformatet** för innehållstypen.
 
 <br/>
 
@@ -67,7 +67,7 @@ Om profilresursen har utökats med ett anpassat nyckelfält kan du använda det 
 
 Det går inte att ändra anpassade nycklar med hjälp av en PATCH-åtgärd om nyckelvärdet skiljer sig från ursprungsnyckeln eller om du använder din egen affärsnyckel som URI i stället för den som tillhandahålls av Adobe.
 
-Använd endast en anpassad nyckel för **profilresurser på den översta nivån**. URL:er returneras av API:t och bör aldrig skapas av dig själv.
+Använd en anpassad nyckel för **profilresurser på den översta nivån** endast. URL:er returneras av API:t och bör aldrig skapas av dig själv.
 
 <br/>
 

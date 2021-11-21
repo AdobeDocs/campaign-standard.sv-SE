@@ -26,7 +26,7 @@ Följande åtgärder är tillgängliga:
 
 **Starta**
 
-Knappen ![](assets/play_darkgrey-24px.png) startar körningen av ett arbetsflöde, som sedan får statusen **Pågår** (blå). Om arbetsflödet pausades återupptas det, i annat fall startas det och de inledande aktiviteterna aktiveras sedan.
+The ![](assets/play_darkgrey-24px.png) knappen startar körningen av ett arbetsflöde som sedan **Pågår** (blå) status. Om arbetsflödet pausades återupptas det, i annat fall startas det och de inledande aktiviteterna aktiveras sedan.
 
 >[!NOTE]
 >
@@ -34,33 +34,33 @@ Knappen ![](assets/play_darkgrey-24px.png) startar körningen av ett arbetsflöd
 
 **Pausa**
 
-Knappen ![](assets/pause_darkgrey-24px.png) pausar körningen. Arbetsflödet får statusen **Varning** (gul). Inga nya aktiviteter aktiveras förrän de återupptas, men pågående åtgärder avbryts inte.
+The ![](assets/pause_darkgrey-24px.png) knappen pausar körningen. Arbetsflödet börjar med **Varning** (gult). Inga nya aktiviteter aktiveras förrän de återupptas, men pågående åtgärder avbryts inte.
 
 **Stoppa**
 
-Knappen ![](assets/stop_darkgrey-24px.png) stoppar ett arbetsflöde som körs, som sedan får statusen **Slutförd** (grön). De pågående åtgärderna avbryts om det är möjligt, och import- eller SQL-frågor avbryts omedelbart. Du kan inte återuppta arbetsflödet från samma plats som det stoppades.
+The ![](assets/stop_darkgrey-24px.png) knappen stoppar ett arbetsflöde som körs, som sedan tar **Slutförd** (grön) status. De pågående åtgärderna avbryts om det är möjligt, och import- eller SQL-frågor avbryts omedelbart. Du kan inte återuppta arbetsflödet från samma plats som det stoppades.
 
 **Starta om**
 
-Knappen ![](assets/pauseplay_darkgrey-24px.png) innebär att stoppa och sedan starta om ett arbetsflöde. I de flesta fall kan du starta om snabbare. Det kan också vara användbart att automatisera omstarten när stoppet tar en viss tid, eftersom knappen ![](assets/play_darkgrey-24px.png) bara är tillgänglig när stoppet är aktivt.
+The ![](assets/pauseplay_darkgrey-24px.png) -knappen innebär att stoppa och sedan starta om ett arbetsflöde. I de flesta fall kan du starta om snabbare. Det kan också vara användbart att automatisera omstarten när stoppet tar en viss tid, eftersom ![](assets/play_darkgrey-24px.png) -knappen är bara tillgänglig när stoppet är aktiverat.
 
 När en eller flera aktiviteter i ett arbetsflöde är markerade finns det andra åtgärder du kan utföra, till exempel:
 
 **Omedelbar exekvering**
 
-Knappen ![](assets/pending_darkgrey-24px.png) startar alla väntande aktiviteter som markerats så snart som möjligt.
+The ![](assets/pending_darkgrey-24px.png) startar alla väntande aktiviteter som väljs så snart som möjligt.
 
 **Normal körning**
 
-Knappen ![](assets/check_darkgrey-24px.png) återaktiverar alla pausade eller inaktiverade aktiviteter.
+The ![](assets/check_darkgrey-24px.png) återaktiverar alla pausade eller inaktiverade aktiviteter.
 
 **Körningen har pausats**
 
-Knappen ![](assets/check_pause_darkgrey-24px.png) pausar arbetsflödet vid den valda aktiviteten: den här aktiviteten och alla efterföljande aktiviteter (i samma gren) utförs inte.
+The ![](assets/check_pause_darkgrey-24px.png) pausar arbetsflödet vid den valda aktiviteten: den här aktiviteten och alla efterföljande aktiviteter (i samma gren) utförs inte.
 
 **Ingen körning**
 
-Knappen ![](assets/checkdisable.png) inaktiverar alla markerade aktiviteter.
+The ![](assets/checkdisable.png) inaktiverar alla markerade aktiviteter.
 
 >[!NOTE]
 >

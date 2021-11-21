@@ -22,9 +22,9 @@ ht-degree: 3%
 >
 >Målgruppstjänsten är för närvarande i betaversion, som kan uppdateras ofta utan föregående meddelande. Kunderna måste vara värdbaserade på Azure (för närvarande endast betaversioner för Nordamerika) för att få tillgång till dessa funktioner. Kontakta Adobe kundtjänst om du vill ha tillgång till tjänsten.
 
-Med segmentbyggaren kan du skapa målgrupper genom att definiera regler som baseras på data från [kundprofilen i realtid](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
+Med segmentbyggaren kan ni skapa målgrupper genom att definiera regler som baseras på data från [Kundprofil i realtid](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
 
-I det här avsnittet beskrivs globala koncept när du skapar ett segment. Mer information om själva segmentbyggaren finns i [användarhandboken för Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+I det här avsnittet beskrivs globala koncept när du skapar ett segment. Mer information om själva segmentbyggaren finns i [Användarhandbok för Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
 Gränssnittet i Segment Builder består av följande:
 
@@ -46,7 +46,7 @@ Segmentverktyget bör nu visas på arbetsytan. Det gör att ni kan skapa ett seg
 
 1. Se till att den sammanfogningsprincip du vill använda är markerad i inställningspanelen.
 
-   Mer information om kopplingsprofiler finns i det dedikerade avsnittet i [användarhandboken för Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   Mer information om kopplingsprofiler finns i det dedikerade avsnittet i [Användarhandbok för Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -78,11 +78,11 @@ Fälten är ordnade i flikar:
 
 >[!NOTE]
 >
->**Med** segmentering för flera enheter kan du utöka profildata med ytterligare data baserat på produkter, butiker eller andra icke-profilklasser. När de är anslutna blir data från ytterligare klasser tillgängliga som om de vore inbyggda i profilschemat.
+>**Segmentering för flera enheter** Med kan du utöka profildata med ytterligare data baserat på produkter, butiker eller andra klasser som inte är profiler. När de är anslutna blir data från ytterligare klasser tillgängliga som om de vore inbyggda i profilschemat.
 >
 >Mer information om detta hittar du i den [dedikerade dokumentationen](https://experienceleague.adobe.com/docs/experience-platform/segmentation/multi-entity-segmentation.html).
 
-Som standard visar Segment Builder fält där data redan finns. Om du vill visa det fullständiga schemat, inklusive fält för vilka data inte finns, aktiverar du alternativet **[!UICONTROL Show full XDM schema]** från inställningarna.
+Som standard visar Segment Builder fält där data redan finns. Om du vill visa det fullständiga schemat, inklusive fält där data saknas, aktiverar du **[!UICONTROL Show full XDM schema]** från inställningarna.
 
 ![](assets/aep_audiences_populatedfields.png)
 
@@ -94,7 +94,7 @@ Symbolen i slutet av varje fält innehåller ytterligare information om attribut
 
 >[!NOTE]
 >
->Avsnittet nedan innehåller global information om regeldefinition. Mer information finns i [användarhandboken för Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+>Avsnittet nedan innehåller global information om regeldefinition. Mer information finns i [Användarhandbok för Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
 Så här skapar du en regel:
 
@@ -106,9 +106,9 @@ Så här skapar du en regel:
 
    ![](assets/aep_audiences_malegender.png)
 
-   Den beräknade populationen som motsvarar segmentet beräknas om automatiskt i avsnittet **[!UICONTROL Segment Properties]**.
+   Den beräknade populationen som motsvarar segmentet beräknas om automatiskt i **[!UICONTROL Segment Properties]** -avsnitt.
 
-1. Med knappen **[!UICONTROL View Profiles]** kan du förhandsgranska de första 20 posterna som motsvarar regeln, vilket gör att du snabbt kan validera segmentet.
+1. The **[!UICONTROL View Profiles]** ger dig en förhandsgranskning av de första 20 posterna som motsvarar regeln, så att du snabbt kan validera segmentet.
 
    ![](assets/aep_audiences_samplepreview.png)
 
@@ -132,7 +132,7 @@ Följ dessa steg för att göra detta:
 
 1. Välj det andra fältet (t.ex. arbetsadressens postnummer) som ska jämföras med det första fältet.
 
-   Dra den till arbetsytan i mitten, i samma behållare som det första fältet, i rutan **[!UICONTROL Drop here to compare operands]**.
+   Dra den till arbetsytan i mitten, i samma behållare som det första fältet, i **[!UICONTROL Drop here to compare operands]** box.
 
    ![](assets/aep_audiences_comparing_2.png)
 

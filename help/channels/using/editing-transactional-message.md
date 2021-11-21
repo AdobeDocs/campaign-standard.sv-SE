@@ -18,23 +18,23 @@ ht-degree: 30%
 
 # Redigera ett transaktionsmeddelande {#editing-transactional-message}
 
-När du har skapat och publicerat en händelse<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))--> skapas motsvarande transaktionsmeddelande automatiskt.
+När du har skapat och publicerat en händelse<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))-->skapas automatiskt motsvarande transaktionsmeddelande.
 
-Stegen för att konfigurera och publicera händelsen beskrivs i avsnittet [Konfigurera en transaktionshändelse](../../channels/using/configuring-transactional-event.md) och [Publicera en transaktionshändelse](../../channels/using/publishing-transactional-event.md).
+Stegen för att konfigurera och publicera händelsen finns i [Konfigurera en transaktionshändelse](../../channels/using/configuring-transactional-event.md) och [Publicera en transaktionshändelse](../../channels/using/publishing-transactional-event.md) -avsnitt.
 
 Stegen för att komma åt, redigera och anpassa det här meddelandet beskrivs nedan.
 
 >[!IMPORTANT]
 >
->Endast användare med rollen [Administration](../../administration/using/users-management.md#functional-administrators) kan komma åt och redigera transaktionsmeddelanden.
+>Endast användare med [Administration](../../administration/using/users-management.md#functional-administrators) roller kan komma åt och redigera transaktionsmeddelanden.
 
-När meddelandet är klart kan det testas och publiceras. Se [Testa ett transaktionsmeddelande](../../channels/using/testing-transactional-message.md) och [Livslängd för transaktionsmeddelande](../../channels/using/publishing-transactional-message.md).
+När meddelandet är klart kan det testas och publiceras. Se [Testa ett transaktionsmeddelande](../../channels/using/testing-transactional-message.md) och [Livslängd för transaktionsmeddelanden](../../channels/using/publishing-transactional-message.md).
 
 ## Åtkomst till transaktionsmeddelanden {#accessing-transactional-messages}
 
 Så här kommer du åt transaktionsmeddelandet som du har skapat:
 
-1. Klicka på logotypen **Adobe** i det övre vänstra hörnet.
+1. Klicka på **Adobe** logotyp i det övre vänstra hörnet.
 1. Välj **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
 
    ![](assets/message-center_4.png)
@@ -51,13 +51,13 @@ Följ stegen nedan om du vill redigera och anpassa ett transaktionsmeddelande.
 
 >[!NOTE]
 >
->I det här avsnittet beskrivs hur du redigerar ett **händelsebaserat** transaktionsmeddelande. Specifikationerna för **profilbaserade** transaktionsmeddelanden beskrivs [nedan](#profile-transactional-message-specificities).
+>I det här avsnittet beskrivs hur du redigerar en **händelsebaserad** transaktionsmeddelande. The **profilbaserad** specifika transaktionsmeddelanden är detaljerade [nedan](#profile-transactional-message-specificities).
 >
 >Konfigurationsstegen för att skapa ett händelsebaserat transaktionsmeddelande visas i [det här avsnittet](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
 
-Du vill till exempel skicka ett meddelande till webbplatsanvändare som har lagt till produkter i kundvagnen och lämnat webbplatsen utan att gå igenom sina inköp. Det här exemplet presenteras i [Transactional messaging operating policy](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)-avsnittet.
+Du vill till exempel skicka ett meddelande till webbplatsanvändare som har lagt till produkter i kundvagnen och lämnat webbplatsen utan att gå igenom sina inköp. Det här exemplet presenteras i [Transactional messaging operating policy policy](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) -avsnitt.
 
-1. Klicka på **[!UICONTROL Content]**-blocket för att ändra meddelandets ämne och innehåll. I det här exemplet väljer du en mall som innehåller bilder och text. Mer information om mallar för e-postinnehåll finns i [Designa e-postmeddelanden med mallar](../../designing/using/using-reusable-content.md#designing-templates).
+1. Klicka på **[!UICONTROL Content]**-blocket för att ändra meddelandets ämne och innehåll. I det här exemplet väljer du en mall som innehåller bilder och text. Mer information om mallar för e-postinnehåll finns i [Utforma e-postmeddelanden med mallar](../../designing/using/using-reusable-content.md#designing-templates).
 
    ![](assets/message-center_6.png)
 
@@ -73,7 +73,7 @@ Du vill till exempel skicka ett meddelande till webbplatsanvändare som har lagt
 
    ![](assets/message-center_7.png)
 
-1. Du kan också förbättra innehållet i ditt meddelande. Det gör du genom att lägga till fält från tabellen som du länkade till händelsekonfigurationen (se [Förbättra händelsen](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)). I det här exemplet väljer du fältet **[!UICONTROL Title (salutation)]** från tabellen **[!UICONTROL Profile]** via **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
+1. Du kan också förbättra innehållet i ditt meddelande. Det gör du genom att lägga till fält från tabellen som du länkade till din händelsekonfiguration (se [Förbättra händelsen](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)). I det här exemplet väljer du **[!UICONTROL Title (salutation)]** fält från **[!UICONTROL Profile]** tabell genom **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
 
    ![](assets/message-center_7-enrichment.png)
 
@@ -211,7 +211,7 @@ For more on creating a collection and related fields when configuring the event,
 
 ## Specifikationer för profilbaserade transaktionsmeddelanden {#profile-transactional-message-specificities}
 
-Du kan skicka transaktionsmeddelanden baserat på kundmarknadsföringsprofiler, vilket gör att du kan använda all profilinformation för att anpassa meddelandeinnehållet, använda länken för att ta bort prenumerationen och tillämpa typologiregler för marknadsföring som [trötthetsregler](../../sending/using/fatigue-rules.md).
+Ni kan skicka transaktionsmeddelanden baserat på kundmarknadsföringsprofiler, vilket gör att ni kan utnyttja all profilinformation för att personalisera meddelandeinnehållet, använda länken för att ta bort prenumerationen och tillämpa typologiregler för marknadsföring, som [trötthetsregler](../../sending/using/fatigue-rules.md).
 
 * Mer information om skillnaderna mellan händelsebaserade och profilbaserade transaktionsmeddelanden finns i [det här avsnittet](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types).
 
@@ -222,17 +222,17 @@ Stegen för att skapa, redigera och personalisera ett profiltransaktionsmeddelan
 Skillnaderna mellan dessa anges nedan.
 
 1. [Gå till transaktionsmeddelandet som skapades för att redigera det.](#accessing-transactional-messages)
-1. Klicka på **[!UICONTROL Content]**-avsnittet i transaktionsmeddelandet.  Förutom e-postmallar för transaktioner kan du även välja valfri e-postmall för resursen **[!UICONTROL Profile]**.
+1. Klicka på **[!UICONTROL Content]**-avsnittet i transaktionsmeddelandet.  Förutom e-postmallarna för transaktioner kan du även välja valfri e-postmall för **[!UICONTROL Profile]** resurs.
 
    ![](assets/message-center_marketing_templates.png)
 
-1. Välj standardmall för e-post. Liknar alla marknadsföringsmejl innehåller den en **länk för att avbryta prenumerationen**.
+1. Välj standardmall för e-post. Precis som alla marknadsföringsmejl innehåller det en **länk för avprenumeration**.
 
    ![](assets/message-center_marketing_perso_unsubscription.png)
 
    Mer information om mallar finns i [det här avsnittet](../../designing/using/using-reusable-content.md#content-templates).
 
-1. Till skillnad från konfigurationer som baseras på realtidshändelser har du **direkt åtkomst till all profilinformation** för att anpassa ditt meddelande. Du kan lägga till [anpassningsfält](../../designing/using/personalization.md#inserting-a-personalization-field) på samma sätt som du gör för andra vanliga marknadsföringsmeddelanden.
+1. I motsats till konfigurationer som baseras på realtidshändelser har du också **direkt åtkomst till all profilinformation** för att personalisera ert budskap. Du kan lägga till [personaliseringsfält](../../designing/using/personalization.md#inserting-a-personalization-field) som du skulle göra för andra vanliga e-postmeddelanden om marknadsföring.
 
 1. Spara ändringarna innan du publicerar meddelandet. Mer information finns i [Publicera ett transaktionsmeddelande](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
 

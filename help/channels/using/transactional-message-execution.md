@@ -24,7 +24,7 @@ När meddelandet har publicerats och webbplatsintegreringen är klar tilldelas d
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-En **körningsleverans** är ett icke-åtgärdbart och icke-funktionellt tekniskt meddelande som skapas en gång i månaden för varje transaktionsmeddelande och varje gång ett transaktionsmeddelande redigeras och publiceras igen.
+An **körningsleverans** är ett icke-åtgärdbart och icke-funktionellt tekniskt meddelande som skapas en gång i månaden för varje transaktionsmeddelande och varje gång ett transaktionsmeddelande redigeras och publiceras igen.
 
 **Relaterade ämnen**:
 * [Publicera ett transaktionsmeddelande](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
@@ -55,7 +55,7 @@ När händelsen har tilldelats en körningsleverans kan transaktionsmeddelandet 
 
 >[!NOTE]
 >
->När en händelse tilldelas till en körningsleverans visas den i sändningsloggarna för den här körningsleveransen, och endast vid det här tillfället. De misslyckade leveranserna visas på fliken **[!UICONTROL Execution list]** i transaktionsmeddelandets sändande loggar.
+>När en händelse tilldelas till en körningsleverans visas den i sändningsloggarna för den här körningsleveransen, och endast vid det här tillfället. Misslyckade leveranser visas i **[!UICONTROL Execution list]** fliken för transaktionsmeddelandets sändande loggar.
 
 ### Begränsningar för återförsöksprocess {#limitations}
 
@@ -67,17 +67,17 @@ Under återförsöksprocessen uppdateras inte de utskicksloggarna för den nya k
 
 Du kan inte stoppa en körningsleverans. Om den aktuella körningsleveransen misslyckas skapas en ny så snart en ny händelse tas emot och alla nya händelser bearbetas av den nya körningsleveransen. Inga nya händelser bearbetas av den misslyckade körningsleveransen.
 
-Om vissa händelser som redan har tilldelats en körningsleverans har skjutits upp som en del av återförsöksprocessen och om körningsleveransen misslyckas, tilldelar återförsökssystemet inte de uppskjutna händelserna till den nya körningsleveransen, vilket innebär att dessa händelser går förlorade. Kontrollera [leveransloggarna](#monitoring-transactional-message-delivery) för att se vilka mottagare som kan ha påverkats.
+Om vissa händelser som redan har tilldelats en körningsleverans har skjutits upp som en del av återförsöksprocessen och om körningsleveransen misslyckas, tilldelar återförsökssystemet inte de uppskjutna händelserna till den nya körningsleveransen, vilket innebär att dessa händelser går förlorade. Kontrollera [leveransloggar](#monitoring-transactional-message-delivery) för att se vilka mottagare som kan ha påverkats.
 
 ## Övervaka transaktionsmeddelanden {#monitoring-transactional-message-delivery}
 
-Om du vill övervaka ett transaktionsmeddelande måste du komma åt motsvarande [leveranser](#transactional-message-execution-delivery).
+Om du vill övervaka ett transaktionsmeddelande måste du komma åt motsvarande [körningsleveranser](#transactional-message-execution-delivery).
 
 1. Om du vill visa meddelandets leveranslogg klickar du på ikonen längst ned till höger i **[!UICONTROL Deployment]**-blocket.
 
    ![](assets/message-center_access_logs.png)
 
-1. Klicka på fliken **[!UICONTROL Execution list]**.
+1. Klicka på **[!UICONTROL Execution list]** -fliken.
 
    ![](assets/message-center_execution_tab.png)
 
@@ -85,11 +85,11 @@ Om du vill övervaka ett transaktionsmeddelande måste du komma åt motsvarande 
 
    ![](assets/message-center_execution_delivery.png)
 
-1. Klicka igen på ikonen längst ned till höger i **[!UICONTROL Deployment]**-blocket.
+1. Klicka igen på ikonen längst ned till höger i **[!UICONTROL Deployment]** -block.
 
    ![](assets/message-center_execution_access_logs.png)
 
-   För varje körningsleverans kan du läsa leveransloggarna på samma sätt som för en standardleverans. Mer information om hur du får åtkomst till och använder loggarna finns i [Övervaka en leverans](../../sending/using/monitoring-a-delivery.md).
+   För varje körningsleverans kan du läsa leveransloggarna på samma sätt som för en standardleverans. Mer information om hur du kommer åt och använder loggarna finns i [Övervaka leverans](../../sending/using/monitoring-a-delivery.md).
 
 ### Specifikationer för profilbaserade transaktionsmeddelanden {#profile-transactional-message-monitoring}
 
@@ -99,7 +99,7 @@ Klicka på fliken **[!UICONTROL Sending logs]**.  I kolumnen **[!UICONTROL Statu
 
 ![](assets/message-center_marketing_sending_logs.png)
 
-Välj fliken **[!UICONTROL Exclusions logs]** om du vill visa mottagare som har uteslutits från meddelandemålet, till exempel adresser på blockeringslista.
+Välj **[!UICONTROL Exclusions logs]** om du vill visa mottagare som har uteslutits från meddelandemålet, till exempel adresser på blockeringslista.
 
 ![](assets/message-center_marketing_exclusion_logs.png)
 

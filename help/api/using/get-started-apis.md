@@ -1,6 +1,6 @@
 ---
 title: Kom igång med Campaign Standard-API:er
-description: Skapa integreringar och skapa ett eget ekosystem genom att interagera Campaign med en panel med teknologier.
+description: Skapa integreringar och skapa ett eget ekosystem genom att interagera Campaign med en panel med tekniker.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis

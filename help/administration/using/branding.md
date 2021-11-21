@@ -28,7 +28,7 @@ Tekniska administratörer kan definiera ett eller flera varumärken för att cen
 
 Huvudprincipen för att konfigurera och använda varumärken är att:
 
-1. skapa och konfigurera varumärket – den här åtgärden kräver specifika behörigheter och utförs av den tekniska administratören för Adobe Campaign. Steg för att få ett nytt varumärke i Campaign beskrivs i [det här avsnittet](#creating-a-brand).
+1. skapa och konfigurera varumärket – den här åtgärden kräver specifika behörigheter och utförs av den tekniska administratören för Adobe Campaign. Steg för att få ett nytt varumärke i Campaign är detaljerade [i det här avsnittet](#creating-a-brand).
 1. skapa en eller flera mallar för leverans- och landningssidor för det här varumärket. Mer information finns i avsnittet [Skapa en mall](../../start/using/marketing-activity-templates.md).
 1. Skapa meddelanden och landningssidor baserade på den här mallen. Se avsnitten [Skapa ett e-postmeddelande](../../channels/using/creating-an-email.md) och [Skapa en landningssida](../../channels/using/designing-a-landing-page.md).
 
@@ -89,13 +89,13 @@ Ett **varumärke** definieras av följande egenskaper:
 
 Du kan lägga till nya enheter i organisationen i Campaign eller skapa en ny typ av e-post som du måste skicka under en annan underdomän. Gör så här:
 
-1. **Konfigurera en ny underdomän**  - För alla nya underdomäner som ska användas av Adobe är det första steget att konfigurera den. Du kan göra detta via [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=sv) eller kontakta din Adobe tekniska kontakt. Läs mer om subdomänkonfigurationen [i den här artikeln](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html).
+1. **Konfigurera en ny underdomän** - För alla nya underdomäner som ska användas av Adobe är det första steget att konfigurera den. Du kan göra detta genom att [Kontrollpanelen för kampanj](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=sv) eller kontakta Adobe tekniska kontaktpersoner. Läs mer om konfiguration av underdomäner [i den här artikeln](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html).
 
    >[!NOTE]
    >
    >Kontrollpanelen är tillgänglig för alla administratörsanvändare. Stegen för att bevilja administratörsåtkomst till en användare finns på [den här sidan](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=sv#discover-control-panel).
 
-1. **Skapa en biljett** - När underdomänen har konfigurerats konfigureras den av Adobe i produktionsmiljön. [Skapa en biljett till Client Care](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) med följande information för att begära detta:
+1. **Skapa en biljett** - När underdomänen har konfigurerats konfigureras den av Adobe i din produktionsmiljö. För att begära detta [skapa en biljett till kundtjänst](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) med följande information:
 
    * Ämne: ACS Ny varumärkeskonfiguration
 
@@ -105,9 +105,9 @@ Du kan lägga till nya enheter i organisationen i Campaign eller skapa en ny typ
 
    * Produktions-URL: XXX.campaign.adobe.com
 
-1. **Skapa en leveransmall**  - När det nya varumärket blir tillgängligt är det bästa sättet att skapa minst en ny tom leveransmall som refererar till det nya varumärket. [Läs mer](#linking-a-brand-to-a-template).
+1. **Skapa en leveransmall** - När det nya varumärket finns tillgängligt är det bästa sättet att skapa minst en ny tom leveransmall som refererar till det nya varumärket. [Läs mer](#linking-a-brand-to-a-template).
 
-1. **Riktlinjer**  för kontroll av slutprodukt - Innan du börjar använda den nya domänen bör strategin diskuteras med Adobe Deliverability-teamet. De hjälper dig att definiera de bästa metoderna om en ny tillhörighet ska skapas för att till exempel dela IP-adresser mellan domäner och/eller om en rampplan ska definieras. Läs mer om Bästa praxis för slutprodukter [i det här avsnittet](../../sending/using/about-deliverability.md).
+1. **Riktlinjer för kontroll av leveransbarhet** - Innan du börjar använda den nya domänen bör strategin diskuteras med Adobe Deliverability-teamet. De hjälper dig att definiera de bästa metoderna om en ny tillhörighet ska skapas för att till exempel dela IP-adresser mellan domäner och/eller om en rampplan ska definieras. Läs mer om god praxis för slutprodukter [i det här avsnittet](../../sending/using/about-deliverability.md).
 
 ## Tilldela ett varumärke till ett e-postmeddelande {#assigning-a-brand-to-an-email}
 
@@ -151,7 +151,7 @@ I det här exemplet ska vi skapa ett nytt reserelaterat varumärke och använda 
 >
 >Varumärkeskonfigurationen hanteras endast av Adobe eftersom den kräver särskilda behörigheter och tekniska inställningar.
 
-1. Adobe Campaign-administratören skapar först varumärket från **[!UICONTROL Administration > Instance settings > Brand configuration]**-menyn och lägger till **Semester i Tropics**-elementet och konfigurerar **[!UICONTROL ID]** och **[!UICONTROL Header parameters of sent emails]** för varumärket.
+1. Adobe Campaign-administratören skapar först varumärket från **[!UICONTROL Administration > Instance settings > Brand configuration]** och lägger till **Semester i Tropica** -element och konfigurerar **[!UICONTROL ID]** och **[!UICONTROL Header parameters of sent emails]** av varumärket.
 
    ![](assets/branding_07.png)
 

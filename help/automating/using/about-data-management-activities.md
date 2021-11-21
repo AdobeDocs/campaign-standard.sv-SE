@@ -32,4 +32,4 @@ I **[!UICONTROL Data management (ETL)]**-avsnittet beskrivs följande:
 * [Extrahera fil](../../automating/using/extract-file.md)
 * [Prenumerationstjänster](../../automating/using/subscription-services.md)
 
-**[!UICONTROL Data management (ETL)]** Med -aktiviteter kan du definiera  **segmentkoder** för utgående övergångar. Sedan kan du skapa rapporter baserade på dessa segmentkoder för att mäta effektiviteten hos dina marknadsföringskampanjer. Mer information om detta finns i [det här avsnittet](../../reporting/using/creating-a-report-workflow-segment.md).
+**[!UICONTROL Data management (ETL)]** kan du definiera **segmentkoder** för utgående övergångar. Sedan kan du skapa rapporter baserade på dessa segmentkoder för att mäta effektiviteten hos dina marknadsföringskampanjer. Mer information om detta finns i [det här avsnittet](../../reporting/using/creating-a-report-workflow-segment.md).

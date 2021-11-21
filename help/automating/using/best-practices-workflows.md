@@ -52,7 +52,7 @@ I vissa sammanhang kan du behöva köra fler än 20 arbetsflöden. Det gäller i
 
 >[!NOTE]
 >
->Innan du startar ett arbetsflöde kontrollerar [!DNL Campaign Standard] om det finns tillräckligt med fysiskt systemminne för att köra arbetsflödet. Om det inte finns tillräckligt med minne visas ett meddelande om att arbetsflödets körning kommer att fördröjas tills inläsningen på servern går ned och systemminnet ökar.
+>Innan du startar ett arbetsflöde [!DNL Campaign Standard] kontrollerar om det finns tillräckligt med fysiskt systemminne för att köra arbetsflödet. Om det inte finns tillräckligt med minne visas ett meddelande om att arbetsflödets körning kommer att fördröjas tills inläsningen på servern går ned och systemminnet ökar.
 
 ### Frekvens
 
@@ -114,7 +114,7 @@ När du utformar ett schemalagt arbetsflöde som innehåller flera aktiviteter m
 
 ## Anropa arbetsflöde med parametrar{#workflow-with-parameters}
 
-Kontrollera att parameterns namn och antal är identiska med vad som är definierat när du anropar arbetsflödet (se [den här sidan](../../automating/using/defining-parameters-calling-workflow.md). Parametrarnas typer måste även vara konsekventa med de värden som förväntas.
+Kontrollera att namnet och antalet parametrar är identiska med vad som är definierat när du anropar arbetsflödet (se [den här sidan](../../automating/using/defining-parameters-calling-workflow.md). Parametrarnas typer måste även vara konsekventa med de värden som förväntas.
 
 Kontrollera att alla parametrar har deklarerats i **[!UICONTROL External signal activity]**. Annars inträffar ett fel när aktiviteten körs.
 

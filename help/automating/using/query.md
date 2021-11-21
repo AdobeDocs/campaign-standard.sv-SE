@@ -53,7 +53,7 @@ Aktiviteten **[!UICONTROL Query]** kan användas för olika typer av användning
 
    >[!NOTE]
    >
-   >Observera att målgruppens definition inte refereras när målgruppen är målgrupp, men **kopieras** till frågan. Om du ändrar målgruppen efter att den har angetts som mål i en fråga måste du konfigurera frågan igen så att den nya definitionen beaktas.
+   >Observera att målgruppens definition inte refereras till när målgruppen är målgrupp, men **kopierad** i frågan. Om du ändrar målgruppen efter att den har angetts som mål i en fråga måste du konfigurera frågan igen så att den nya definitionen beaktas.
 
 1. Du kan definiera **[!UICONTROL Additional data]** målpopulationen via en dedikerad flik. Dessa data lagras i ytterligare kolumner och kan bara användas för det aktuella arbetsflödet. Du kan t.ex. lägga till data från Adobe Campaign-databastabeller som är länkade till frågans måldimension.  Mer information finns i avsnittet [Berikningsdata](#enriching-data) .
 
@@ -71,7 +71,7 @@ Aktiviteten **[!UICONTROL Query]** kan användas för olika typer av användning
 
 Med måldimensionerna och resurserna kan du definiera vilka element en fråga ska baseras på för att avgöra målet för en leverans.
 
-De konfigureras i [målmappningar](../../administration/using/target-mappings-in-campaign.md) och definieras när du skapar ett arbetsflöde på fliken **[!UICONTROL Properties]** för en Query-aktivitet.
+De är konfigurerade i [målmappningar](../../administration/using/target-mappings-in-campaign.md)och definieras när du skapar ett arbetsflöde i **[!UICONTROL Properties]** -fliken för en Query-aktivitet.
 
 >[!NOTE]
 >
@@ -101,7 +101,7 @@ Exempel på tillgängliga filter för **[!UICONTROL Deliveries (delivery)]**-res
 
 Måldimensionen och målresursen anges som standard för målprofiler. Det kan dock vara användbart att använda en annan resurs än måldimensionen om du vill söka efter en viss post i en annan tabell.
 
-Mer information finns i följande exempel: [Använda andra resurser än måldimensioner](../../automating/using/using-resources-different-from-targeting-dimensions.md)
+Mer information finns i följande exempel: [Använda andra resurser än målinriktade dimensioner](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
 ## Berika data {#enriching-data}
 
@@ -123,7 +123,7 @@ När du har lagt till ytterligare data kan du använda en extra filternivå för
 >
 >Alternativet är som standard markerat i **[!UICONTROL Remove duplicate rows (DISTINCT)]** slutet **[!UICONTROL Advanced options]** av **[!UICONTROL Additional data]** förfrågningsfliken. Om **[!UICONTROL Query]**-aktiviteten innehåller mycket (från 100) ytterligare data som definierats så bör du avmarkera detta alternativ av prestandaskäl. Om du avmarkerar det här alternativet kan dubbletter hämtas, beroende på vilken data som efterfrågas.
 
-Ett användningsexempel om hur du anpassar ett e-postmeddelande med ytterligare data finns i [det här avsnittet](../../automating/using/personalizing-email-with-additional-data.md).
+Ett användningsexempel om hur du anpassar ett e-postmeddelande med ytterligare data presenteras i [det här avsnittet](../../automating/using/personalizing-email-with-additional-data.md).
 
 ### Lägga till ett enkelt fält {#adding-a-simple-field}
 

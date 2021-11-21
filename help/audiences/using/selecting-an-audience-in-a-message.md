@@ -47,7 +47,7 @@ Målgrupper kan definieras när meddelandet skapas via meddelandeskaparhjälpare
 
    >[!NOTE]
    >
-   >Observera att målgruppens definition inte refereras när målgruppen är målgrupp, men **kopieras** till frågan. Om du ändrar målgruppen efter att den har angetts som mål i en fråga måste du konfigurera frågan igen så att den nya definitionen beaktas.
+   >Observera att målgruppens definition inte refereras till när målgruppen är målgrupp, men **kopierad** i frågan. Om du ändrar målgruppen efter att den har angetts som mål i en fråga måste du konfigurera frågan igen så att den nya definitionen beaktas.
 
 1. Definiera det **[!UICONTROL Test profiles]** du vill använda för e-postmeddelandet.  Testprofilerna får den version som du kan skicka innan för att testa e-postmeddelandet innan du skickar ut det till huvudmålet.
 

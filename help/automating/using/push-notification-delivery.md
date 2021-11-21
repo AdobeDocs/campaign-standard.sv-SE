@@ -23,14 +23,14 @@ ht-degree: 47%
 
 ![](assets/recurrentpush.png)
 
-Med aktiviteten **[!UICONTROL Push notification]** kan du konfigurera sändning av ett push-meddelande i ett arbetsflöde. Detta kan vara ett enda skicka-meddelande och skickas bara en gång, eller så kan det vara ett återkommande meddelande.
+The **[!UICONTROL Push notification]** kan du konfigurera sändning av push-meddelanden i ett arbetsflöde. Detta kan vara ett enda skicka-meddelande och skickas bara en gång, eller så kan det vara ett återkommande meddelande.
 
-* **** Singlesend-meddelanden är standardmeddelanden för push-meddelanden för mobilappar som skickas en gång.
-* **Med** återkommande meddelanden kan du skicka samma push-meddelande för mobilappar flera gånger till olika mål under en angiven period. Du kan samla leveranser per period för att få rapporter som motsvarar dina behov.
+* **Enkelt** skicka-meddelanden är standardmeddelanden för push-meddelanden för mobilappar som skickas en gång.
+* **Återkommande** Med hjälp av meddelanden kan du skicka samma push-meddelandeleverans för mobilappar flera gånger till olika mål under en angiven period. Du kan samla leveranser per period för att få rapporter som motsvarar dina behov.
 
 ## Kontext för användning {#context-of-use}
 
-Aktiviteten **[!UICONTROL Push notification]** används vanligtvis för att automatisera sändning av ett meddelande till ett mål som beräknas i samma arbetsflöde.
+The **[!UICONTROL Push notification]** aktiviteten används vanligtvis för att automatisera sändning av ett meddelande till ett mål som beräknas i samma arbetsflöde.
 
 När du är länkad till en schemaläggare kan du definiera återkommande push-meddelanden.
 
@@ -54,11 +54,11 @@ Förberedelsen av meddelande utlöses enligt arbetsflödets körningsparametrar.
 1. Välj sändningsläget för push-meddelanden:
 
    * **[!UICONTROL Single notification]**: push-meddelandet skickas en gång. Här kan du ange om du vill lägga till en utgående övergång till aktiviteten. De olika övergångstyperna beskrivs närmare i steg 7 i den här proceduren.
-   * **[!UICONTROL Recurring notification]**: push-meddelandet skickas flera gånger, enligt den frekvens som definieras i en  **[!UICONTROL Scheduler]** aktivitet. Välj aggregeringsperioden för utskicken. Detta gör att du kan gruppera om alla meddelanden som inträffar under den angivna perioden i ett enda push-meddelande som också kallas **återkommande körning** och som du kommer åt från programmets lista över marknadsföringsaktiviteter.
+   * **[!UICONTROL Recurring notification]**: push-meddelandet skickas flera gånger, enligt den frekvens som anges i **[!UICONTROL Scheduler]** aktivitet. Välj aggregeringsperioden för utskicken. Detta gör att du kan gruppera om alla meddelanden som inträffar under den angivna perioden i ett enda push-meddelande som också anropas **återkommande körning** och kan hämtas från programmets lista över marknadsföringsaktiviteter.
 
       Om du till exempel vill få ett återkommande födelsedagsmeddelande, som skickas varje dag, kan du välja att samla in varje månad. På så sätt kan du få rapporter om leveransen månadsvis även om meddelandet skickas varje dag.
 
-1. Välj en meddelandetyp. De här typerna kommer från mallar för push-meddelanden som definieras i menyn **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
+1. Välj en meddelandetyp. De här typerna kommer från mallar för push-meddelanden som definieras i **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** -menyn.
 1. Ange de allmänna egenskaperna för push-meddelandet. Du kan även bifoga den till en befintlig kampanj. Etiketten för arbetsflödets leveransaktivitet uppdateras med push-meddelandeetiketten.
 1. Definiera innehållet i push-meddelanden. Se [Skapa ett push-meddelande](../../channels/using/preparing-and-sending-a-push-notification.md)
 1. Som standard innehåller aktiviteten **[!UICONTROL Push notification]** inga utgående övergångar. Om du vill lägga till en utgående övergång till din **[!UICONTROL Push Notification]**-aktivitet går du till fliken **[!UICONTROL General]** med de avancerade aktivitetsalternativen (knappen ![](assets/dlv_activity_params-24px.png) i aktivitetens snabbåtgärder) och markerar något av följande alternativ:
@@ -76,4 +76,4 @@ Som standard utlöses meddelandeförberedelsen endast när ett leveransarbetsfl�
 
 Leveranser som skapas i ett arbetsflöde kan nås i programmets lista över marknadsföringsaktiviteter. Du kan visa arbetsflödets körningsstatus med kontrollpanelen. Med hjälp av länkarna i rutan push-meddelandesammanfattning får du direktåtkomst till länkade element (arbetsflöde, kampanj, osv.).
 
-I de överordnade leveranserna, som du kommer åt från listan över marknadsföringsaktiviteter, kan du visa det totala antalet skickade som har bearbetats (enligt den aggregeringsperiod som angavs när aktiviteten **[!UICONTROL Push notification]** konfigurerades). Det gör du genom att öppna detaljvyn för den överordnade leveransens **[!UICONTROL Deployment]**-block genom att markera ![](assets/wkf_dlv_detail_button.png).
+I de överordnade leveranserna, som du kommer åt från listan över marknadsföringsaktiviteter, kan du visa det totala antalet försändelser som har bearbetats (enligt den sammanställningsperiod som anges när **[!UICONTROL Push notification]** aktiviteten har konfigurerats). Det gör du genom att öppna detaljvyn för den överordnade leveransens **[!UICONTROL Deployment]**-block genom att markera ![](assets/wkf_dlv_detail_button.png).

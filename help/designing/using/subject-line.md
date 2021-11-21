@@ -26,8 +26,8 @@ ht-degree: 3%
 >Om ämnesraden är tom visas en varning i meddelandekontrollpanelen och i e-postdesignern.
 
 1. Skapa ett e-postmeddelande.
-1. Gå till fliken **[!UICONTROL Properties]** på e-postdesignerns hemsida (nås via hemikonen).
-1. Fyll i avsnittet **[!UICONTROL Subject]**.
+1. Gå till **[!UICONTROL Properties]** -fliken på hemsidan för Email Designer (nås via hemikonen).
+1. Fyll i **[!UICONTROL Subject]** -avsnitt.
 
    ![](assets/email_designer_subject.png)
 
@@ -35,17 +35,17 @@ ht-degree: 3%
 
 ## Definiera e-postavsändare för ett e-postmeddelande {#email-sender}
 
-Om du vill definiera namnet på avsändaren som ska visas i huvudet för skickade meddelanden går du till fliken **[!UICONTROL Properties]** på e-postdesignerns hemsida (nås via hemikonen).
+Om du vill definiera namnet på avsändaren som ska visas i huvudet för skickade meddelanden går du till **[!UICONTROL Properties]** -fliken på hemsidan för Email Designer (nås via hemikonen).
 
 ![](assets/delivery_content_edition16.png)
 
-* I fältet **[!UICONTROL From: name]** kan du ange avsändarens namn. Som standard anges standardblocket **Avsändarnamn** automatiskt i fältet. Standardavsändarens e-postadress och avsändarnamn definieras i **[!UICONTROL Brands]** som är tillgängliga via Adobe Campaign logotyp på den avancerade menyn **[!UICONTROL Administration > Instance settings > Brand configuration]**.
+* The **[!UICONTROL From: name]** kan du ange avsändarens namn. Som standard är **Avsändarens namn** -block anges automatiskt i fältet. Standardavsändarens e-postadress och avsändarens namn definieras i **[!UICONTROL Brands]** via Adobe Campaign logotyp på den avancerade menyn **[!UICONTROL Administration > Instance settings > Brand configuration]** .
 
-   Du kan ändra avsändarens namn genom att klicka på **avsändarens namn**-blocket. Fältet kan sedan redigeras och du kan ange det namn du vill använda.
+   Du kan ändra avsändarens namn genom att klicka på knappen **Avsändarens namn** -block. Fältet kan sedan redigeras och du kan ange det namn du vill använda.
 
    Det här fältet kan anpassas. Om du vill göra det kan du lägga till anpassningsfält, innehållsblock och dynamiskt innehåll genom att klicka på ikonerna under avsändarens namn. Mer information finns i [Personalisering](../../designing/using/personalization.md).
 
-* Det går inte att redigera fältet **[!UICONTROL From: email address]** från det här avsnittet. Du kan ändra det genom att redigera egenskaperna för e-postmeddelandet från kontrollpanelen. Mer information finns i [Lista över avancerade e-postparametrar](../../administration/using/configuring-email-channel.md#advanced-parameters).
+* The **[!UICONTROL From: email address]** kan inte redigeras från det här avsnittet. Du kan ändra det genom att redigera egenskaperna för e-postmeddelandet från kontrollpanelen. Mer information finns i [Lista med avancerade e-postparametrar](../../administration/using/configuring-email-channel.md#advanced-parameters).
 
 >[!NOTE]
 >

@@ -21,15 +21,15 @@ Du kan skapa&quot;formulär&quot; på dina AEM webbplatser och mappa fälten i e
 
 Så här skapar du ett Adobe Campaign-formulär på din AEM webbplats:
 
-1. Skapa en ny sida baserat på mallen **Adobe Campaign Profile** på din AEM webbplats.
+1. Skapa en ny sida baserat på AEM **Adobe Campaign-profil** mall.
 
    ![](assets/aem_content_forms.png)
 
-1. I sidegenskaperna väljer du den **[!UICONTROL Cloud Service]** som motsvarar din Adobe Campaign-instans.
+1. I sidegenskaperna väljer du **[!UICONTROL Cloud Service]** motsvarar din Adobe Campaign-instans.
 
    ![](assets/aem_content_forms_2.png)
 
-1. Välj formulärtypen från **[!UICONTROL Form Start]**-komponenten:
+1. Välj formulärtyp på menyn **[!UICONTROL Form Start]** komponent:
 
    * **Adobe Campaign: Spara profil**
    * **Adobe Campaign: Prenumerera på tjänster**

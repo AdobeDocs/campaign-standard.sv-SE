@@ -19,7 +19,7 @@ ht-degree: 3%
 
 Tack vare integreringen med Adobe Campaign och Adobe Analytics kan ni se hur väl era e-postleveranser fungerar direkt i Adobe Analytics.
 
-Kampanjen **[!UICONTROL dimensions]** som hittas i Analytics listas nedan:
+Campaign **[!UICONTROL dimensions]** som finns i Analytics listas nedan:
 
 <table> 
  <thead> 
@@ -31,7 +31,7 @@ Kampanjen **[!UICONTROL dimensions]** som hittas i Analytics listas nedan:
  <tbody> 
   <tr> 
    <td> Kampanj-ID<br /> </td> 
-   <td> Kampanjens interna namn enligt Campaign<br /> </td> 
+   <td> Campaigns interna namn så som det visas i Campaign<br /> </td> 
   </tr> 
   <tr> 
    <td> Kampanjetikett<br /> </td> 
@@ -56,7 +56,7 @@ Kampanjen **[!UICONTROL dimensions]** som hittas i Analytics listas nedan:
  </tbody> 
 </table>
 
-Kampanjen **[!UICONTROL metrics]** som hittas i Analytics listas nedan:
+Campaign **[!UICONTROL metrics]** som finns i Analytics listas nedan:
 
 <table> 
  <thead> 
@@ -67,12 +67,12 @@ Kampanjen **[!UICONTROL metrics]** som hittas i Analytics listas nedan:
  </thead> 
  <tbody> 
   <tr> 
-   <td> Klickade<br /> </td> 
+   <td> Klickat<br /> </td> 
    <td> Antal gånger som ett innehåll klickades i en leverans.<br /> </td> 
   </tr> 
   <tr> 
    <td> Levererat<br /> </td> 
-   <td> Antal meddelanden som har skickats i relation till totalt antal skickade meddelanden.<br /> </td> 
+   <td> Antal meddelanden som har skickats, i relation till det totala antalet skickade meddelanden.<br /> </td> 
   </tr> 
   <tr> 
    <td> Öppnad<br /> </td> 
@@ -83,8 +83,8 @@ Kampanjen **[!UICONTROL metrics]** som hittas i Analytics listas nedan:
    <td> Totalt antal försändelser för leveransen.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Totalt antal studsar<br /> </td> 
-   <td> Totalt antal fel som sammanställts under leverans och automatisk returbearbetning i relation till totalt antal skickade meddelanden.<br /> </td> 
+   <td> Summa studsar<br /> </td> 
+   <td> Totalt antal fel som sammanställts under leverans och automatisk returbehandling i relation till totalt antal skickade meddelanden.<br /> </td> 
   </tr> 
   <tr> 
    <td> Unik öppning<br /> </td> 

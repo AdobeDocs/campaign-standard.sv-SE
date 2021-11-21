@@ -12,7 +12,7 @@ exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '746'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -26,15 +26,15 @@ I följande avsnitt beskrivs god praxis och rekommenderade procedurer för optim
 
 Flera faktorer kan direkt påverka serverprestanda och göra plattformen långsammare:
 
-* Antal och typ av personaliseringselement: personalisering i e-post hämtar data från databasen för varje mottagare. Om det finns många personaliseringselement ökar detta mängden data som behövs för att förbereda leveransen.  Läs mer om anpassning av e-post i [det här avsnittet](../../designing/using/personalization.md)
+* Antal och typ av personaliseringselement: personalisering i e-post hämtar data från databasen för varje mottagare. Om det finns många personaliseringselement ökar detta mängden data som behövs för att förbereda leveransen.  Läs mer om e-postpersonalisering i [det här avsnittet](../../designing/using/personalization.md)
 
 * Serverbelastningen: när Campaign hanterar många olika uppgifter samtidigt kan det göra prestandan långsammare. Servern måste koordinera alla inkommande och utgående data för alla leveranser för att säkerställa att data är korrekta och i tid.
 
-   **TIPS** - För att undvika detta bör du samordna schemaläggningen av leveranser med övriga medlemmar i teamet för att säkerställa bästa möjliga prestanda.
+   **TIPS** - Undvik detta genom att samordna schemaläggningen av leveranser med övriga medlemmar i teamet för att säkerställa bästa möjliga prestanda.
 
-* [körning av arbetsflöde](../../automating/using/about-workflow-execution.md): övervakning av arbetsflödena är avgörande för att undvika problem med plattformens prestanda. Följ riktlinjerna [på den här sidan](../../automating/using/monitoring-workflow-execution.md). Läs mer i [arbetsflödets bästa praxis](../../automating/using/best-practices-workflows.md)-avsnittet.
+* The [arbetsflödeskörning](../../automating/using/about-workflow-execution.md): övervakning av arbetsflödena är avgörande för att undvika problem med plattformens prestanda. Följ riktlinjerna som anges [på den här sidan](../../automating/using/monitoring-workflow-execution.md). Läs mer i [arbetsflöden](../../automating/using/best-practices-workflows.md) -avsnitt.
 
-* Du kan använda [funktionerna i Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html) för att övervaka plattformen med [prestandaövervakning](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html)-funktioner.
+* Du kan utnyttja [Funktioner i Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html) övervaka plattformen med [prestandaövervakning](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=sv) funktioner.
 
 ## Kontrollerar nätverkskonfiguration {#network-config}
 
@@ -50,9 +50,9 @@ Om du vill nå mottagarnas inkorg utan att studsa eller markeras som skräppost 
 
    * Det avser de faktorer i ett e-postmeddelande som avgör om det kan accepteras av en mottagares server. Internet-leverantörer (Internet Service Providers) filtrerar bort e-postmeddelanden som de identifierar som SPAM eller blockerar bilder från hämtning. Om de fastställer att en viss domän skickar för många e-postmeddelanden, kommer de att ange en gräns för hur många e-postmeddelanden de accepterar från den avsändaren.
 
-   * När du kontrollerar om e-postmeddelandet kan levereras vill du fokusera på fyra huvudkategorier: datakvalitet, meddelande och innehåll, utskick av infrastruktur och anseende. Mer information om detta avsnitt finns i [det här avsnittet](../../sending/using/about-deliverability.md).
+   * När du kontrollerar om e-postmeddelandet kan levereras vill du fokusera på fyra huvudkategorier: datakvalitet, meddelande och innehåll, utskick av infrastruktur och anseende. Mer information om detta finns i [det här avsnittet](../../sending/using/about-deliverability.md).
 
-* När du startar en ny plattform bör du följa rekommendationerna som anges på [den här sidan](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process).
+* När du startar en ny plattform bör du följa de rekommendationer som beskrivs i [den här sidan](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process).
 
 * Kontakta din Adobe-representant om du behöver hjälp.
 
@@ -76,6 +76,6 @@ När du börjar skicka e-post på en ny plattform kan du använda en lista med a
 
 För att undvika att skicka meddelanden till ogiltiga adresser, begränsa felaktig kommunikation och förbättra avsändarens anseende rekommenderar Adobe att du använder en dubbel anmälningsmekanism för bekräftelse efter prenumeration. Detta bidrar till att säkerställa att mottagaren prenumererar avsiktligt.
 
-Information om hur du implementerar den här mekanismen beskrivs i [det här avsnittet](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Information om hur denna mekanism genomförs finns i [det här avsnittet](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 Läs mer i [Kom igång med profiler och målgrupper](../../audiences/using/get-started-profiles-and-audiences.md).

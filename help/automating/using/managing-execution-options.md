@@ -18,7 +18,7 @@ ht-degree: 6%
 
 # Hantera körningsalternativ {#managing-execution-options}
 
-Om du vill ändra ett arbetsflödes körningsalternativ använder du knappen ![](assets/edit_darkgrey-24px.png) för att komma åt arbetsflödesegenskaperna och väljer avsnittet **[!UICONTROL Execution]**.
+Om du vill ändra ett arbetsflödes körningsalternativ använder du ![](assets/edit_darkgrey-24px.png) för att komma åt arbetsflödesegenskaperna och välja **[!UICONTROL Execution]** -avsnitt.
 
 ![](assets/wkf_execution_6.png)
 
@@ -26,19 +26,19 @@ Möjliga alternativ är:
 
 * **[!UICONTROL Default affinity]**: I det här fältet kan du tvinga ett arbetsflöde eller en arbetsflödesaktivitet att köras på en viss dator.
 
-* **[!UICONTROL History in days]**: Anger antalet dagar efter vilka historiken måste rensas. Historiken innehåller element som är relaterade till arbetsflödet: loggar, uppgifter, händelser (tekniska objekt som är länkade till arbetsflödesåtgärden) samt filer som hämtats av aktiviteten **[!UICONTROL Transfer file]**. Standardvärdet är 30 dagar för färdiga arbetsflödesmallar.
+* **[!UICONTROL History in days]**: Anger antalet dagar efter vilka historiken måste rensas. Historiken innehåller element som är relaterade till arbetsflödet: loggar, uppgifter, händelser (tekniska objekt som är länkade till arbetsflödet) samt filer som hämtats av **[!UICONTROL Transfer file]** aktivitet. Standardvärdet är 30 dagar för färdiga arbetsflödesmallar.
 
-   Historiken rensas av det tekniska arbetsflödet för databasrensning, som körs som standard varje dag (se [Lista över tekniska arbetsflöden](../../administration/using/technical-workflows.md).)
+   Historiken rensas av det tekniska arbetsflödet för databasrensning som utförs som standard varje dag (se [Förteckning över tekniska arbetsflöden](../../administration/using/technical-workflows.md).)
 
    >[!IMPORTANT]
    >
-   >Om fältet **[!UICONTROL History in days]** lämnas tomt betraktas dess värde som &quot;1&quot;, vilket innebär att historiken rensas efter 1 dag.
+   >Om **[!UICONTROL History in days]** fältet lämnas tomt, dess värde betraktas som&quot;1&quot;, vilket innebär att historiken rensas efter 1 dag.
 
 * **[!UICONTROL Save SQL queries in the log]**: Med kan du spara SQL-frågor från arbetsflödet i loggarna.
 
 * **[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]**: Markera det här alternativet om du vill att hela körningsplanen ska loggas. Det är inaktiverat som standard.
 
-   Mer information om det här alternativet finns i [avsnittet](#diagnostic-mode).
+   Mer information om det här alternativet finns i [section](#diagnostic-mode).
 
 * **[!UICONTROL Keep interim results]**: Markera det här alternativet om du vill kunna se detaljerna i övergångarna.
 
@@ -50,7 +50,7 @@ Möjliga alternativ är:
 
 * **[!UICONTROL Severity]**: I kan du ange en prioritetsnivå för att köra arbetsflöden i din Adobe Campaign-instans. Detta fält används endast av Adobe-team i övervakningssyfte.
 
-Avsnittet **[!UICONTROL Error management]** innehåller ytterligare alternativ som gör att du kan hantera hur arbetsflöden fungerar vid fel. Dessa alternativ beskrivs i avsnittet [Felhantering](../../automating/using/monitoring-workflow-execution.md#error-management).
+The **[!UICONTROL Error management]** I finns ytterligare alternativ som du kan använda för att hantera hur arbetsflöden fungerar vid fel. Dessa alternativ beskrivs i [Felhantering](../../automating/using/monitoring-workflow-execution.md#error-management) -avsnitt.
 
 ## Diagnostikläge {#diagnostic-mode}
 
@@ -58,7 +58,7 @@ Avsnittet **[!UICONTROL Error management]** innehåller ytterligare alternativ s
 >
 >Det här alternativet kan påverka arbetsflödets prestanda avsevärt och bör användas sparsamt.
 
-När alternativet **[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]** är aktiverat loggas hela körningsplanen om en fråga tar mer än en minut.**[!UICONTROL Execution]**
+När det här alternativet är aktiverat visas **[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]** i **[!UICONTROL Execution]** i arbetsflödesegenskaperna loggar hela körningsplanen om en fråga tar mer än en minut.
 
 ![](assets/wkf_diagnostic.png)
 
@@ -66,7 +66,7 @@ När du har aktiverat det här alternativet och startat arbetsflödet loggas kö
 
 Mer information finns i [PostgreSQL-dokumentation](https://www.postgresql.org/docs/9.4/using-explain.html).
 
-Om du har en sekvenssökning i den här frågan ger **[!UICONTROL Diagnostic mode]** även rekommendationer om att skapa ett index med hjälp av ett filteruttryck.
+Om du har en sekvenssökning i den här frågan **[!UICONTROL Diagnostic mode]** ger även rekommendationer om hur du skapar ett index med hjälp av ett filteruttryck.
 
 >[!NOTE]
 >
@@ -82,10 +82,10 @@ Följande två villkor måste uppfyllas under körningen av arbetsflödet för a
 
 Du kan hantera alternativet från den avancerade menyn genom att välja **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**:
 
-* **[!UICONTROL Time of query execution (in milliseconds)(DiagnosticModeQueryTime)]**: I  **[!UICONTROL Value]** fältet kan du ange en ny tidpunkt för frågekörningen. Om frågekörningen överskrider det här värdet loggas körningsplanen.
+* **[!UICONTROL Time of query execution (in milliseconds)(DiagnosticModeQueryTime)]**: Från **[!UICONTROL Value]** kan du ange en ny tid för frågekörningen. Om frågekörningen överskrider det här värdet loggas körningsplanen.
 
    ![](assets/wkf_diagnostic_2.png)
 
-* **[!UICONTROL Percentage of seq scan time (DiagnosticModeSeqScanPercentage)]**: I  **[!UICONTROL Value]** fältet kan du ändra den procentandel av frågetiden som sekvenssökningen måste ta för att rekommendationen ska genereras.
+* **[!UICONTROL Percentage of seq scan time (DiagnosticModeSeqScanPercentage)]**: Från **[!UICONTROL Value]** kan du ändra den procentandel av frågetiden som sekvenssökningen måste ta för att rekommendationen ska genereras.
 
    ![](assets/wkf_diagnostic_3.png)

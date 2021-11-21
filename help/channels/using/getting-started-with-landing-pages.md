@@ -138,4 +138,4 @@ I den här videon visas hur du skapar och redigerar en landningssida.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
 
-Ytterligare Campaign Standard om instruktionsvideor finns [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv).
+Det finns fler videor med Campaign Standard om hur man gör [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv).

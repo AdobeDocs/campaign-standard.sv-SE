@@ -30,17 +30,17 @@ Du kan komma åt meddelanden:
 
 Så här får du tillgång till en lista över en kampanjs marknadsföringsaktiviteter:
 
-1. Gå till **[!UICONTROL Marketing activities]** från det övre navigeringsfältet.
+1. Gå till **[!UICONTROL Marketing activities]** i det övre navigeringsfältet.
 1. Välj **[!UICONTROL Marketing activities > Marketing plans > Programs & Campaigns]**.
 
-   Du kan också klicka direkt på **[!UICONTROL Programs & Campaigns]**-kortet från startsidan. Mer information om kampanjer finns i avsnittet [Program och kampanjer](../../start/using/programs-and-campaigns.md).
+   Du kan också klicka direkt på **[!UICONTROL Programs & Campaigns]** från startsidan. Mer information om kampanjer finns i [Program och kampanjer](../../start/using/programs-and-campaigns.md) -avsnitt.
 
 1. Välj ett program och sedan en kampanj.
 
    ![](assets/delivery_list_1.png)
 
-1. Klicka på listrutan **[!UICONTROL Summary]**.
-1. Klicka på **[!UICONTROL Search]** om du vill filtrera hur meddelanden visas (efter namn, datum eller status).
+1. Klicka på **[!UICONTROL Summary]** nedrullningsbar lista.
+1. Klicka **[!UICONTROL Search]** om du vill filtrera hur meddelanden visas (efter namn, datum eller status).
 
    Om du vill filtrera återkommande meddelanden markerar du motsvarande ruta.
 
@@ -50,9 +50,9 @@ För att få tillgång till en fullständig lista över alla marknadsföringsakt
 
 1. Välj **[!UICONTROL Marketing activities]** i det övre navigeringsfältet.
 
-   Du kan även komma åt den från **[!UICONTROL Marketing activities]**-kortet på startsidan. Mer information om listan över marknadsföringsaktiviteter finns i avsnittet [Hantera marknadsföringsaktiviteter](../../start/using/marketing-activities.md#creating-a-marketing-activity).
+   Du kan även komma åt den via **[!UICONTROL Marketing activities]** på startsidan. För mer information om listan över marknadsföringsaktiviteter, se [Hantera marknadsföringsaktiviteter](../../start/using/marketing-activities.md#creating-a-marketing-activity) -avsnitt.
 
-1. Om du vill filtrera marknadsföringsaktiviteterna (efter namn, datum, status eller aktivitetstyp) använder du fälten **[!UICONTROL Search]** till vänster om listan över marknadsföringsaktiviteter.
+1. Om du vill filtrera marknadsföringsaktiviteterna (efter namn, datum, status eller aktivitetstyp) använder du **[!UICONTROL Search]** fält till vänster om listan över marknadsföringsaktiviteter.
 
 ![](assets/delivery_list_2.png)
 

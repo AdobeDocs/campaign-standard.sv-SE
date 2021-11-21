@@ -21,11 +21,11 @@ ht-degree: 47%
 
 ![](assets/wkf_in_app_1.png)
 
-Med aktiviteten **Leverans i appen** kan du konfigurera sändning av meddelanden i appen i ett arbetsflöde. Med meddelanden i appen kan du visa ett meddelande när användaren är aktiv i programmet. Mer information om leverans i appen finns i det här [avsnittet](../../channels/using/about-in-app-messaging.md).
+The **Leverans i appen** Med -aktivitet kan du konfigurera sändning av ett meddelande i appen i ett arbetsflöde. Med meddelanden i appen kan du visa ett meddelande när användaren är aktiv i programmet. Mer information om leverans i appen finns i [section](../../channels/using/about-in-app-messaging.md).
 
 ## Kontext för användning {#context-of-use}
 
-Aktiviteten **[!UICONTROL In-App delivery]** används vanligtvis för att automatisera sändning av ett meddelande i appen till en målgrupp som beräknas i samma arbetsflöde.
+The **[!UICONTROL In-App delivery]** aktiviteten används vanligtvis för att automatisera sändning av ett meddelande i appen till en målgrupp som beräknas i samma arbetsflöde.
 
 Mottagarna definieras uppströms aktiviteten i samma arbetsflöde, via målinriktade aktiviteter som frågor, skärningar osv.
 
@@ -33,7 +33,7 @@ Förberedelsen av meddelande utlöses enligt arbetsflödets körningsparametrar.
 
 ## Konfiguration {#configuration}
 
-1. Dra och släpp en **[!UICONTROL Query]**-aktivitet i arbetsflödet. Observera att **[!UICONTROL Query]**-aktivitetens målinriktningsdimension på fliken **[!UICONTROL Properties]** måste uppdateras enligt den mall som valts i steg 4:
+1. Dra och släpp en **[!UICONTROL Query]** till arbetsflödet. Observera att **[!UICONTROL Query]** aktivitetens målinriktning i **[!UICONTROL Properties]** måste uppdateras enligt den mall som valts i steg 4:
 
    * Måldimensionen ska ställas in på **[!UICONTROL mobileApp (mobileAppV5)]** för mallen **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**.
    * Måldimensionen ska ställas in på **[!UICONTROL profile (profile)]** för mallen **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**.
@@ -48,7 +48,7 @@ Förberedelsen av meddelande utlöses enligt arbetsflödets körningsparametrar.
 
    ![](assets/wkf_in_app_3.png)
 
-1. Välj meddelandetypen i appen. Detta beror på vilka data som används i din **[!UICONTROL Query]**-aktivitet.
+1. Välj meddelandetypen i appen. Detta beror på vilka data som finns i **[!UICONTROL Query]** aktivitet.
 
    * **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**: Den här meddelandetypen gör att du kan rikta in dig på Adobe Campaign-profiler som har prenumererat på ditt mobilprogram och anpassa meddelanden i appen med profilattribut som är tillgängliga i Campaign.
    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**: Med den här meddelandetypen kan du skicka ett meddelande till alla användare av ditt mobilprogram, även om de inte har en befintlig profil i Campaign.
@@ -56,9 +56,9 @@ Förberedelsen av meddelande utlöses enligt arbetsflödets körningsparametrar.
 
    ![](assets/wkf_in_app_4.png)
 
-1. Ange meddelandeegenskaperna i appen och välj din mobilapp i fältet **[!UICONTROL Associate a Mobile App to a delivery]**.
+1. Ange meddelandeegenskaperna i appen och välj din mobilapp i dialogrutan **[!UICONTROL Associate a Mobile App to a delivery]** fält.
 1. Dra och släpp den händelse som ska utlösa meddelandet på fliken **[!UICONTROL Triggers]**. Tre kategorier av händelser är tillgängliga:
-1. Definiera innehåll i appen. Se avsnittet [Anpassning i appen](../../channels/using/customizing-an-in-app-message.md).
+1. Definiera innehåll i appen. Se avsnittet om [Anpassning i appen](../../channels/using/customizing-an-in-app-message.md).
 1. Som standard innehåller aktiviteten **[!UICONTROL In-App delivery]** inga utgående övergångar. Om du vill lägga till en utgående övergång till din **[!UICONTROL In-App delivery]**-aktivitet går du till fliken **[!UICONTROL General]** med de avancerade aktivitetsalternativen (knappen ![](assets/dlv_activity_params-24px.png) i aktivitetens snabbåtgärder) och markerar något av följande alternativ:
 
    * **[!UICONTROL Add outbound transition without the population]**: Detta gör att du kan generera en utgående övergång som innehåller exakt samma population som den inkommande övergången.
@@ -76,4 +76,4 @@ Som standard utlöses meddelandeförberedelsen endast när ett leveransarbetsfl�
 
 Leveranser som skapas i ett arbetsflöde kan nås i programmets lista över marknadsföringsaktiviteter. Du kan visa arbetsflödets körningsstatus med kontrollpanelen. Med hjälp av länkarna i rutan push-meddelandesammanfattning får du direktåtkomst till länkade element (arbetsflöde, kampanj, osv.).
 
-I de överordnade leveranserna, som du kommer åt från listan över marknadsföringsaktiviteter, kan du visa det totala antalet skickade som har bearbetats (enligt den aggregeringsperiod som angavs när aktiviteten **[!UICONTROL In-App delivery]** konfigurerades). Det gör du genom att öppna detaljvyn för den överordnade leveransens **[!UICONTROL Deployment]**-block genom att markera ![](assets/wkf_dlv_detail_button.png).
+I de överordnade leveranserna, som du kommer åt från listan över marknadsföringsaktiviteter, kan du visa det totala antalet försändelser som har bearbetats (enligt den sammanställningsperiod som anges när **[!UICONTROL In-App delivery]** aktiviteten har konfigurerats). Det gör du genom att öppna detaljvyn för den överordnade leveransens **[!UICONTROL Deployment]**-block genom att markera ![](assets/wkf_dlv_detail_button.png).

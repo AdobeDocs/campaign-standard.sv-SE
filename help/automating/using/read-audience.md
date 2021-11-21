@@ -41,7 +41,7 @@ Med den här **[!UICONTROL Read audience]** aktiviteten kan du hämta en befintl
 
    Du kan hämta målgrupper av följande typer: **[!UICONTROL List]**, **[!UICONTROL Query]**, **[!UICONTROL File]** och **[!UICONTROL Experience Cloud]**.  Mer information om målgruppstyper finns i dokumentationen för [publiker](../../audiences/using/about-audiences.md) .
 
-   Med alternativet **[!UICONTROL Use a dynamic audience]** kan du definiera namnet på målgruppen baserat på arbetsflödets händelsevariabler.  Mer information finns i avsnittet [den här sidan](../../automating/using/customizing-workflow-external-parameters.md).
+   Med alternativet **[!UICONTROL Use a dynamic audience]** kan du definiera namnet på målgruppen baserat på arbetsflödets händelsevariabler.  Mer information finns i [den här sidan](../../automating/using/customizing-workflow-external-parameters.md) -avsnitt.
 
    ![](assets/readaudience_activity1.png)
 

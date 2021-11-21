@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # Använda spam-samlare {#using-traps}
 
-När du använder svällningar skickas meddelandet till [testprofilen](../../audiences/using/managing-test-profiles.md) precis som det skickas till huvudmålet, för att identifiera om klientfilen används bedrägligt.
+När svällning används skickas meddelandet till [testprofil](../../audiences/using/managing-test-profiles.md) på samma sätt som den skickas till huvudmålet, för att identifiera om din klientfil används bedrägligt.
 
 Svällningar är ursprungligen avsedda för direktreklam. De gör att du kan:
 
@@ -27,7 +27,7 @@ Svällningar är ursprungligen avsedda för direktreklam. De gör att du kan:
 * Behåll en exakt kopia av det skickade meddelandet.
 * Kontrollera att din klientlista inte används felaktigt av din direktmeddelandeleverantör. Om någon annan kommunikation skickas till testprofilens adress kan din klientfil ha använts utan att du visste om det. Därför bör testprofilens adress endast användas i detta syfte.
 
-Mer information om hur du lägger till svällningar till en målgrupp för ett direktutskick finns i [Lägga till test- och svällningsprofiler](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles).
+Mer information om hur du lägger till svällningar till en direktutskick finns i [Lägga till test- och svällningsprofiler](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles).
 
 För de andra kommunikationskanalerna kan du lägga till svällningstestprofiler i huvudmålet för att:
 
@@ -39,15 +39,15 @@ Om du vill använda en testprofil som en svällning måste den ingå i meddeland
 
 >[!NOTE]
 >
->Till skillnad från testprofiler som används för [korrektur](../../sending/using/sending-proofs.md) eller [e-poståtergivning](../../sending/using/email-rendering.md) skickas meddelandet samtidigt till huvudmålet och till testprofilerna som används som svällningar.
+>Till skillnad från testprofiler som används för [korrektur](../../sending/using/sending-proofs.md) eller [e-poståtergivning](../../sending/using/email-rendering.md), skickas meddelandet samtidigt till huvudmålet och till testprofilerna som används som svällningar.
 
 När du definierar målgruppen för ett meddelande:
 
-1. Välj en testprofil på fliken **[!UICONTROL Test profiles]**. Kontrollera att den har **[!UICONTROL Trap]** som avsett användningsområde.
+1. Från **[!UICONTROL Test profiles]** väljer du en testprofil. Se till att den har **[!UICONTROL Trap]** som avsedd användning.
 
    ![](assets/trap_select.png)
 
-1. När meddelandeinnehållet är klart klickar du på **[!UICONTROL Prepare]**-knappen. Se [Förbereda sändningen](../../sending/using/preparing-the-send.md).
+1. När meddelandeinnehållet är klart klickar du på **[!UICONTROL Prepare]** -knappen. Se [Förbereder sändningen](../../sending/using/preparing-the-send.md).
    >[!NOTE]
    >
    >Se till att du har valt ett huvudmål. Annars går det inte att skicka meddelandet.
@@ -58,8 +58,8 @@ När du definierar målgruppen för ett meddelande:
 
 Meddelandet skickas till huvudmålet och till testprofilen.
 
-Du kan använda svällning när du skickar transaktionsmeddelanden. I det här fallet får testprofilen ett meddelande per händelsekonfiguration. Mer information om transaktionsmeddelanden finns i det här [avsnittet](../../channels/using/getting-started-with-transactional-msg.md).
+Du kan använda svällning när du skickar transaktionsmeddelanden. I det här fallet får testprofilen ett meddelande per händelsekonfiguration. Mer information om transaktionsmeddelanden finns i det här [section](../../channels/using/getting-started-with-transactional-msg.md).
 
 >[!NOTE]
 >
->När du använder en testprofil som en svällning väljs motsvarande ytterligare data slumpmässigt ut från en verklig målprofil och tilldelas till svällningstestprofilen för alla inkapslade fält i ett meddelande. Mer information om anrikning finns i [det här exemplet](../../automating/using/enriching-profile-data-file.md).
+>När du använder en testprofil som en svällning väljs motsvarande ytterligare data slumpmässigt ut från en verklig målprofil och tilldelas till svällningstestprofilen för alla inkapslade fält i ett meddelande. Mer information om berikning finns i [det här exemplet](../../automating/using/enriching-profile-data-file.md).

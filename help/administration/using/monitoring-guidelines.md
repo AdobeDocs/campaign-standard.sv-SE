@@ -49,7 +49,7 @@ På Kontrollpanelen kan du hantera flera inställningar för din instans: URL-be
 
 **Tekniska objekt**
 
-Menyn **[!UICONTROL Diagnosis]** är ett nyckelverktyg för att övervaka och analysera de olika tekniska objekt som genereras av programmet: datascheman, webbsidor, batchjobb osv. [Läs mer](../../developing/using/monitoring-data-model-changes.md)
+The **[!UICONTROL Diagnosis]** är ett nyckelverktyg för att övervaka och analysera de olika tekniska objekt som genereras av programmet: datascheman, webbsidor, batchjobb osv. [Läs mer](../../developing/using/monitoring-data-model-changes.md)
 
 **Exportrevisioner**
 
@@ -58,7 +58,7 @@ Med exportgranskningar kan du övervaka exporten som utförs på dina instanser:
 
 **Licenser**
 
-Med **[!UICONTROL Licenses]**-menyn kan du övervaka information om dina instanser: installerade licenser, versioner och avtalsvillkor som accepteras.
+Med **[!UICONTROL Licenses]** -menyn, övervaka information om dina instanser: installerade licenser, byggversioner och avtalsvillkor som accepteras.
 [Läs mer](../../administration/using/licenses.md)
 
 ## Övervaka arbetsflöden {#monitoring-workflows}

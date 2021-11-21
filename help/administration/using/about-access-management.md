@@ -32,7 +32,7 @@ Roller, grupper och organisationsenheter kan hanteras av plattformens funktionsa
 
 ![](assets/user_management_1.png)
 
-Användare hanteras i Admin Console (se [Hantera grupper och användare](../../administration/using/managing-groups-and-users.md) eller [Admin Console-dokumentationen](https://helpx.adobe.com/se/enterprise/managing/user-guide.html)).
+Användare hanteras i Admin Console (se [Hantera grupper och användare](../../administration/using/managing-groups-and-users.md) eller [Admin Console dokumentation](https://helpx.adobe.com/se/enterprise/managing/user-guide.html)).
 
 ![](assets/user_management_6.png)
 

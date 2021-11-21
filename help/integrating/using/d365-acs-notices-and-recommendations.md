@@ -1,5 +1,5 @@
 ---
-title: Kampanj och datahantering för Microsoft Dynamics 365
+title: Kampanj och datahantering i Microsoft Dynamics 365
 description: Läs om hur Campaign Standard och Microsoft Dynamics 365 hanterar gemensamma data
 audience: integrating
 content-type: reference
@@ -19,17 +19,17 @@ ht-degree: 1%
 
 ## Hantera data {#acs-msdyn-manage-data}
 
-För synkronisering av kontakter och anpassade entiteter behandlar den här integreringen **Microsoft Dynamics 365 som källan till sanningen**.  Ändringar av synkroniserade attribut ska göras i Dynamics 365 och inte i Adobe Campaign Standard).  Om ändringar görs i Campaign kan de så småningom skrivas över i Campaign under synkroniseringen, eftersom synkroniseringen sker i en riktning.
+För synkronisering av kontakter och anpassade entiteter behandlas den här integreringen **Microsoft Dynamics 365 som källa till sanning**.  Ändringar av synkroniserade attribut ska göras i Dynamics 365 och inte i Adobe Campaign Standard).  Om ändringar görs i Campaign kan de så småningom skrivas över i Campaign under synkroniseringen, eftersom synkroniseringen sker i en riktning.
 
-Integrationen kan konfigureras som tillval för att utfärda profilborttagningsanrop till Campaign när en kontakt tas bort i Dynamics 365 för att upprätthålla dataintegriteten. En profilborttagning skiljer sig dock från en sekretessborttagning. En sekretessborttagning i Campaign tar bort posten för kampanjprofilen och tillhörande loggposter. Om du tar bort en vanlig profil tas endast posten för Campaign-profilen bort, vilket innebär att det inte finns några kvar kvar i Campaign-loggarna. Om funktionen för att ta bort profiler är aktiverad i integreringen måste ytterligare steg vidtas för att de ska kunna behandla förfrågningar om integritet. Se stegen i [Sekretessavsnittet nedan](#manage-privacy-requests).
+Integrationen kan konfigureras som tillval för att utfärda profilborttagningsanrop till Campaign när en kontakt tas bort i Dynamics 365 för att upprätthålla dataintegriteten. En profilborttagning skiljer sig dock från en sekretessborttagning. En sekretessborttagning i Campaign tar bort posten för kampanjprofilen och tillhörande loggposter. Om du tar bort en vanlig profil tas endast posten för Campaign-profilen bort, vilket innebär att det inte finns några kvar kvar i Campaign-loggarna. Om funktionen för att ta bort profiler är aktiverad i integreringen måste ytterligare steg vidtas för att de ska kunna behandla förfrågningar om integritet. Se stegen i [Sektionen Sekretess nedan](#manage-privacy-requests).
 
 ## Sekretess{#acs-msdyn-manage-privacy}
 
-Den här integreringen är avsedd för överföring av slutanvändardata mellan Microsoft Dynamics 365 och Adobe Campaign Standard. Dessa data innehåller personuppgifter om de finns i dina slutanvändardata.  Som personuppgiftsansvarig ansvarar ditt företag för att följa de sekretessbestämmelser som gäller för din insamling och användning av personuppgifter.
+Integrationen är utformad för att överföra slutanvändardata mellan Microsoft Dynamics 365 och Adobe Campaign Standard. Dessa data innehåller personuppgifter om de finns i dina slutanvändardata.  Som personuppgiftsansvarig ansvarar ditt företag för att följa de sekretessbestämmelser som gäller för din insamling och användning av personuppgifter.
 
 Integreringen är avsedd för överföring av slutanvändardata (inklusive, men inte begränsat till, personlig information, om den finns i dina slutanvändardata) mellan Microsoft Dynamics 365 och Adobe Campaign Standard. Som personuppgiftsansvarig ansvarar ditt företag för att följa de sekretessbestämmelser som gäller för din insamling och användning av personuppgifter.
 
-Integreringen ger inte upphov till några integritetsfrågor (t.ex. GDPR) som tar bort eller hanterar andra förfrågningar om sekretess (med undantag för avanmälan). När du bearbetar sekretessförfrågningar bör du göra det i både Microsoft Dynamics 365 och Campaign (via Adobe Experience Platform Privacy Service), oberoende av varandra.
+Integreringen ger inte upphov till några integritetsfrågor (t.ex. GDPR) som tar bort eller hanterar andra förfrågningar om sekretess (med undantag för avanmälan). När du bearbetar sekretessförfrågningar bör du göra det både i Microsoft Dynamics 365 och Campaign (via Adobe Experience Platform Privacy Service), oberoende av varandra.
 
 Om du har konfigurerat integreringen för att utfärda vanliga profilborttagningsanrop till Campaign när en kontakt tas bort i Dynamics 365 bör du följa stegen nedan. Se till att inga uppdateringar görs av posten i fråga under den här processen.
 
@@ -70,24 +70,24 @@ I Dynamics 365 har de flesta avanmälningsfält prefixet &quot;donot&quot;, men 
 När du etablerar integreringen kan du ange vilken avanmälningskonfiguration du behöver för ditt företag:
 
 * **Enkelriktad (Microsoft Dynamics 365 till Campaign)**: Dynamics 365 är en källa till sanning för avanmälan. Attributen för avanmälan synkroniseras i en riktning från Dynamics 365 till Campaign Standard
-* **Unidirectional (Campaign to Microsoft Dynamics 365)**: Campaign Standard är källan till sanning för avanmälan. Attribut för avanmälan synkroniseras i en riktning från Campaign Standard till Dynamics 365
+* **Enkelriktad (Campaign till Microsoft Dynamics 365)**: Campaign Standard är källan till sanning för avanmälan. Attribut för avanmälan synkroniseras i en riktning från Campaign Standard till Dynamics 365
 * **Dubbelriktad**: Dynamics 365 OCH Campaign Standard är båda sanningskällor. Attributen för avanmälan synkroniseras dubbelriktat mellan Campaign Standard och Dynamics 365
 
 Om du har en separat process för att hantera avanmälningssynkronisering mellan systemen kan även integreringens avanmälningsdataflöde inaktiveras.
 
 Konfigurationen med dubbelriktad avanmälan använder logik för att avgöra vilket värde som ska skrivas till båda systemen. Logiken jämför tidsstämplar mellan de två systemen (ändring på postnivå i Dynamics 365, ändring på attributnivå i Campaign) för att avgöra vilket system som gäller. Om Campaign innehåller den senaste tidsstämpeln gäller kampanjvärdet. Om Dynamics 365 innehåller den senaste tidsstämpeln eller om de är lika, kommer opt-out=TRUE att vinna (förutsatt att ett av värdena är TRUE).
 
-Lär dig hur du väljer alternativ för anmälan/utanmälan i [det här avsnittet](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
+Lär dig hur du väljer alternativ för anmälan/avanmälan i [det här avsnittet](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
 
 >[!NOTE]
 >
 >Granska och vid behov uppdatera standardreglerna och de specifika typologireglerna i Adobe Campaign innan du gör några ändringar här för att säkerställa att sådana ändringar tillämpas korrekt på all utgående kommunikation. Se till att eventuella mappningar för att avanmäla sig korrekt återspeglar mottagarens avsikt-/kommunikationsalternativ och inte oavsiktligt avbryter leveransen av relationer eller transaktionsmeddelanden som bekräftelser på kundorder.
 
-Om du valde **dubbelriktad** eller **enkelriktad (Campaign to Microsoft Dynamics 365)** avanmälningskonfiguration, exporteras kampanjavanmälningsdata regelbundet via ett arbetsflöde till din Campaign SFTP-lagringsplats (se&quot;Användning av Campaign SFTP nedan&quot;). Om arbetsflödena för din Campaign-avanmälan slutar att fungera måste du starta om manuellt så snart som möjligt för att minska risken för missade avanmälningssynkroniseringar.
+Om du valde **Dubbelriktad** eller **Enkelriktad (Campaign till Microsoft Dynamics 365)** avanmälningskonfiguration, kommer Campaign-avanmälningsdata regelbundet att exporteras via arbetsflöde till din Campaign SFTP-lagringsplats (se&quot;Campaign SFTP Usage below&quot;). Om arbetsflödena för din Campaign-avanmälan slutar att fungera måste du starta om manuellt så snart som möjligt för att minska risken för missade avanmälningssynkroniseringar.
 
 >[!IMPORTANT]
 >
->Om du behöver **avanmälningskonfigurationen dubbelriktad** eller **enkelriktad (Campaign to Microsoft Dynamics 365)** måste du skicka en begäran till den tekniska kontaktpersonen på Adobe om att avanmälningsarbetsflödena ska konfigureras för Campaign-instansen
+>Om du behöver **Dubbelriktad** eller **Enkelriktad (Campaign till Microsoft Dynamics 365)** konfiguration för avanmälan måste du skicka en begäran till din tekniska kontakt på Adobe om att arbetsflöden för avanmälan ska konfigureras för din Campaign-instans
 
 ## Användning av kampanjens SFTP
 
@@ -95,7 +95,7 @@ Din Campaign SFTP-lagring måste utnyttjas av integreringen i användningsexempl
 
 | Användningsfall | Beskrivning |
 |---|---|
-| Dubbelriktad och enkelriktad (Campaign till Microsoft Dynamics 365) | Avanvisningsdataflöden för dubbelriktad och enkelriktad (Campaign till Microsoft Dynamics 365) använder Campaign SFTP-lagring. Ett Campaign-arbetsflöde exporterar stegvisa ändringar till SFTP-mappen. Därifrån kommer integreringen att hämta upp register och processer. |
+| Dubbelriktad och enkelriktad (Campaign to Microsoft Dynamics 365) | Avanvisningsdataflöden för dubbelriktad och enkelriktad (Campaign to Microsoft Dynamics 365) använder Campaign SFTP-lagring. Ett Campaign-arbetsflöde exporterar stegvisa ändringar till SFTP-mappen. Därifrån kommer integreringen att hämta upp register och processer. |
 | Loggar för avanmälan | Utdataloggar från anslutningen är användbara när du felsöker integreringen. Utdataloggar kan aktiveras och inaktiveras. |
 
 
@@ -109,9 +109,9 @@ Din Campaign SFTP-lagring måste utnyttjas av integreringen i användningsexempl
 
 Den här integreringen synkroniserar kontakter och anpassade enheter från Microsoft Dynamics 365 till Campaign. Kampanjposter som skapas utanför integreringen (d.v.s. inte skapas av synkroniseringsjobbet) ändras inte av integreringen, inklusive Campaign-poster som finns vid tidpunkten för integreringskonfigurationen.
 
-Eftersom den här integreringen använder fältet **[!UICONTROL externalId]** i Campaign för att synkronisera Campaign-profilposter med Dynamics 365-kontaktposter, måste det här kampanjfältet (**[!UICONTROL externalId]**) fyllas i med Microsoft Dynamics 365 **[!UICONTROL contactId]** för de poster som du vill synkroniseras från Microsoft Dynamics 365.  Anpassade entiteter synkroniseras också med ett unikt ID i Microsoft Dynamics 365. Kampanjens anpassade entitet måste inkludera det här ID-attributet som en tabellkolumn. Kolumnen externalId kan användas för att lagra det här attributvärdet, men det krävs inte för anpassade enheter i Campaign.
+Eftersom den här integreringen använder **[!UICONTROL externalId]** fält i Campaign för att synkronisera Campaign-profilposter med Dynamics 365-kontaktposter, det här kampanjfältet (**[!UICONTROL externalId]** ) måste fyllas i med Microsoft Dynamics 365 **[!UICONTROL contactId]** för de poster som du vill ska synkroniseras från Microsoft Dynamics 365.  Anpassade enheter synkroniseras också med ett unikt Microsoft Dynamics 365-ID. Kampanjens anpassade entitet måste inkludera det här ID-attributet som en tabellkolumn. Kolumnen externalId kan användas för att lagra det här attributvärdet, men det krävs inte för anpassade enheter i Campaign.
 
-Kom ihåg att Microsoft Dynamics 365 fortfarande är källan till sanning och att Campaign-profildata kan skrivas över när integreringen upptäcker uppdateringar på Dynamics 365-sidan.  Det kan också finnas andra steg som krävs för att aktivera integreringen, beroende på din befintliga driftsättning. Vi rekommenderar därför att du samarbetar nära med din tekniska kontakt med Adobe.
+Tänk på att Microsoft Dynamics 365 fortfarande är sanningskällan och att Campaign-profildata kan skrivas över när integreringen upptäcker uppdateringar på Dynamics 365-sidan.  Det kan också finnas andra steg som krävs för att aktivera integreringen, beroende på din befintliga driftsättning. Vi rekommenderar därför att du samarbetar nära med din tekniska kontakt med Adobe.
 
 >[!NOTE]
 >
@@ -135,7 +135,7 @@ Om du befinner dig i EMEA- eller APAC-regioner kommer en del av dina data att be
 
 ### Anpassade entiteter
 
-[Integreringen av Microsoft Dynamics 365-Adobe Campaign Standard](../../integrating/using/d365-acs-get-started.md) stöder anpassade entiteter, vilket gör att anpassade entiteter i Dynamics 365 kan synkroniseras med motsvarande anpassade resurser i Campaign.
+The [Integrering av Microsoft Dynamics 365-Adobe Campaign Standard](../../integrating/using/d365-acs-get-started.md) stöder anpassade entiteter, vilket gör att anpassade entiteter i Dynamics 365 kan synkroniseras med motsvarande anpassade resurser i Campaign.
 
 Integreringen stöder både länkade och icke-länkade tabeller.
 
@@ -145,13 +145,13 @@ När du konfigurerar dataflöden för anpassade entiteter är det viktigt att du
 * För anpassade entitetsdataflöden måste ändringsspårning vara aktiverat i Dynamics 365 för synkroniserade anpassade entiteter.
 * Om en överordnad och länkad underordnad post skapas nära samma tid i Dynamics 365, på grund av den parallella bearbetningen av integreringen, finns det en liten risk för att en ny underordnad post kan skrivas till Campaign före den överordnade posten.
 
-* Om den överordnade och underordnade posten är länkad på Campaign-sidan med alternativet **1 enkel kardinalitetslänk**, förblir den underordnade posten dold och otillgänglig (via gränssnittet eller API) tills den överordnade posten kommer till Campaign.
+* Om det överordnade och underordnade objektet är länkade på Campaign-sidan använder du **1 enkel kardinalitetslänk** om du väljer det här alternativet förblir den underordnade posten dold och otillgänglig (via gränssnittet eller API) tills den överordnade posten kommer till Campaign.
 
-* (Om du antar **1 enkel kardinalitetslänk** i Campaign) Om den underordnade posten uppdateras eller tas bort i Dynamics 365, och den ändringen skrivs till Campaign innan den överordnade posten visas i Campaign (inte troligt, men med en fjärrfunktion), kommer uppdateringen eller borttagningen inte att bearbetas i Campaign och ett fel kommer att genereras. Vid uppdatering måste posten i fråga uppdateras i Dynamics 365 igen för att den uppdaterade posten ska kunna synkroniseras. Vid radering måste posten i fråga hanteras separat på Campaign-sidan eftersom det inte längre finns en post i Dynamics 365 att radera eller uppdatera.
+* (Antar **1 enkel kardinalitetslänk** i Campaign) Om den underordnade posten uppdateras eller tas bort i Dynamics 365, och den ändringen skrivs till Campaign innan den överordnade posten visas i Campaign (inte sannolikt, utan en fjärrfunktion), kommer den uppdateringen eller borttagningen inte att bearbetas i Campaign och ett fel kommer att genereras. Vid uppdatering måste posten i fråga uppdateras i Dynamics 365 igen för att den uppdaterade posten ska kunna synkroniseras. Vid radering måste posten i fråga hanteras separat på Campaign-sidan eftersom det inte längre finns en post i Dynamics 365 att radera eller uppdatera.
 
-* Om du stöter på en situation där du tror att du har dolda underordnade poster och inte kan komma åt dem, kan du tillfälligt ändra kardinalitetslänktypen till **0 eller 1 enkel kardinalitetslänk** för att komma åt dessa poster.
+* Om du stöter på en situation där du tror att du har dolda underordnade poster och inte kan komma åt dem, kan du tillfälligt ändra kardinalitetslänktypen till **0 eller 1 enkel kardinalitetslänk** för att få tillgång till dessa register.
 
-En mer utförlig översikt över anpassade resurser för Campaign finns [i det här avsnittet](../../developing/using/key-steps-to-add-a-resource.md).
+En mer omfattande översikt över anpassade resurser för Campaign finns [i det här avsnittet](../../developing/using/key-steps-to-add-a-resource.md).
 
 ### Integreringsgurkor
 
@@ -177,9 +177,9 @@ Följande skyddsförslag bör beaktas när du planerar att använda integreringe
 
 * Det maximala tabelldjupet vid länkning av tabeller är två (d.v.s. tabell1->tabell2->tabell3)
 
-* Integreringen stöder upp till 5 länkade kolumner per anpassad resurs. Att länka flera kolumner mellan anpassade resurser kan få dramatiska prestandaeffekter. **0 eller 1 enkel** kardinalitetslänkning föredras framför  **1 enkel kardinalitetslänk**.
+* Integreringen stöder upp till 5 länkade kolumner per anpassad resurs. Att länka flera kolumner mellan anpassade resurser kan få dramatiska prestandaeffekter. **0 eller 1 enkel kardinalitetslänk** är att föredra framför **1 enkel kardinalitetslänk**.
 
-* Integreringen stöder transformering mellan primitiva datatyper i Microsoft Dynamics 365 (Boolean, Integer, Decimal, Double, String, DateTime, Date) och datatyperna Adobe Campaign Standard (heltal, boolesk, float, double, date, datetime, string). Mer avancerade datatyper tolkas som strängar och synkroniseras som de är.
+* Integreringen stöder transformering mellan primitiva datatyper i Microsoft Dynamics 365 (datatyperna Boolean, Integer, Decimal, Double, String, DateTime, Date) och Adobe Campaign Standard (heltal, boolesk, float, double, date, datetime, string). Mer avancerade datatyper tolkas som strängar och synkroniseras som de är.
 
 * Underhållstider för introduktion kan behöva upprättas mellan Adobe och kunden.
 
@@ -193,7 +193,7 @@ Följande skyddsförslag bör beaktas när du planerar att använda integreringe
 
 Integreringen var utformad för att lösa det allmänna användningsfallet för datarörelser mellan Microsoft Dynamics 365 och Campaign, men är inte avsedd att hantera alla användningsfall som är specifika för varje kund:
 
-* Integreringen ger inte upphov till någon sekretess (t.ex. GDPR). Kunden ansvarar för att slutanvändarnas sekretessförfrågningar uppfylls. sådana förfrågningar bör göras både i Campaign (via Adobe Experience Platform Privacy Service) och Dynamics 365 oberoende av varandra. Integreringen kan vid behov ta bort regelbundet för att underlätta datasynkroniseringen.   Mer information finns i [avsnittet Sekretess](#manage-privacy-requests).
+* Integreringen ger inte upphov till någon sekretess (t.ex. GDPR). Kunden ansvarar för att slutanvändarnas sekretessförfrågningar uppfylls. sådana förfrågningar bör göras både i Campaign (via Adobe Experience Platform Privacy Service) och Dynamics 365 oberoende av varandra. Integreringen kan vid behov ta bort regelbundet för att underlätta datasynkroniseringen.   Granska [Sektionen Sekretess](#manage-privacy-requests) för mer information.
 
 * Inga profildata eller anpassade entitetsdata kommer att synkroniseras från Campaign till Dynamics 365, med undantag för avanmälningsinformation (om den har konfigurerats av kunden).
 
@@ -201,4 +201,4 @@ Integreringen var utformad för att lösa det allmänna användningsfallet för 
 
 * Disponering och utlösning av e-postkampanjer för Campaign inifrån Dynamics 365 stöds inte.
 
-* Integreringen stöder **inte** omformning av data mellan datamodellerna i Dynamics 365 och Campaign Standard. Integrationen förväntas synkronisera en Dynamics 365-tabell till en Campaign-tabell.
+* Integreringen gör **not** har stöd för omformning av data mellan datamodellerna i Dynamics 365 och Campaign Standard. Integrationen förväntas synkronisera en Dynamics 365-tabell till en Campaign-tabell.

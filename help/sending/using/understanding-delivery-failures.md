@@ -82,7 +82,7 @@ Möjliga orsaker till leveransfel är:
 
 Om ett meddelande misslyckas på grund av ett tillfälligt fel, kommer nya försök att utföras under leveransens varaktighet. Mer information om olika typer av fel finns i [Leveransfeltyper och orsaker](#delivery-failure-types-and-reasons).
 
-Antalet återförsök (hur många försök som ska utföras dagen efter att sändningen har startats) och den minsta fördröjningen mellan återförsök är nu <!--managed by the Adobe Campaign Enhanced MTA,--> baserat på hur bra en IP fungerar både historiskt och för närvarande på en viss domän. Inställningarna för **Återförsök** i Campaign ignoreras.
+Antalet återförsök (hur många återförsök som ska utföras dagen efter att sändningen har startats) och den minsta fördröjningen mellan återförsök är nu<!--managed by the Adobe Campaign Enhanced MTA,--> baserat på hur väl en IP fungerar både historiskt och för närvarande på en viss domän. Inställningarna för **Återförsök** i Campaign ignoreras.
 
 <!--Please note that Adobe Campaign Enhanced MTA is not available for the Push channel.-->
 
@@ -92,11 +92,11 @@ Om du vill ändra varaktigheten för en leverans går du till de avancerade para
 >
 >**Parametern **[!UICONTROL Delivery duration]**i dina Campaign-leveranser används nu bara om den är inställd på 3,5 dagar eller mindre.** Om du anger ett värde som är högre än 3,5 dagar kommer det inte att tas med i beräkningen.
 
-Om du till exempel vill att återförsök för en leverans ska stoppas efter en dag kan du ange leveranstiden till **1d**, och meddelandena i kön för återförsök kommer att tas bort efter en dag.
+Om du till exempel vill att återförsök för en leverans ska sluta efter en dag, kan du ställa in leveranstiden på **1d** och meddelandena i kön för nya försök tas bort efter en dag.
 
 >[!NOTE]
 >
->När ett meddelande har varit i återförsökskön i högst 3,5 dagar och inte kunnat levereras, kommer det att gå ut och dess status kommer att uppdateras<!--from **[!UICONTROL Sent]**--> till **[!UICONTROL Failed]** i [leveransloggarna](../../sending/using/monitoring-a-delivery.md#delivery-logs).
+>När ett meddelande har varit i återförsökskön i högst 3,5 dagar och inte kunnat levereras, kommer det att gå ut och dess status kommer att uppdateras<!--from **[!UICONTROL Sent]**--> till **[!UICONTROL Failed]** i [leveransloggar](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
@@ -116,7 +116,7 @@ För synkrona felmeddelanden vid leveransfel avgör Adobe Campaign Enhanced MTA 
 >
 >Studskvalifikationer i Campaign **[!UICONTROL Message qualification]**-tabellen används inte längre.
 
-Asynkrona studsningar är fortfarande kvalificerade inMail-processen enligt **[!UICONTROL Inbound email]**-reglerna. Om du vill komma åt dessa regler klickar du på logotypen **Adobe** längst upp till vänster, väljer **[!UICONTROL Administration > Channels > Email > Email processing rules]** och väljer **[!UICONTROL Bounce mails]**. Mer information om den här regeln finns i [det här avsnittet](../../administration/using/configuring-email-channel.md#email-processing-rules).
+Asynkrona studsningar är fortfarande kvalificerade inMail-processen enligt **[!UICONTROL Inbound email]**-reglerna. Klicka på **Adobe** logotyp, längst upp till vänster och välj **[!UICONTROL Administration > Channels > Email > Email processing rules]** och markera **[!UICONTROL Bounce mails]**. Mer information om den här regeln finns i [det här avsnittet](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
 Mer information om studsar och olika typer av studsar finns i [det här avsnittet](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
 

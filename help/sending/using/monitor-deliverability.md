@@ -18,7 +18,7 @@ ht-degree: 10%
 
 # Övervaka levererbarhet{#monitor-deliverability}
 
-Nedan finns information om **[!UICONTROL Delivery throughput]**-rapporten samt de olika övervakningsverktyg som Adobe Campaign erbjuder. Här följer ytterligare riktlinjer för leveransövervakning:
+Här nedan hittar du information om **[!UICONTROL Delivery throughput]** samt de olika övervakningsverktyg som Adobe Campaign erbjuder. Här följer ytterligare riktlinjer för leveransövervakning:
 * Kontrollera regelbundet leveransflödet för hela plattformen för att kontrollera om det stämmer överens med den ursprungliga konfigurationen.
 * Kontrollera att återförsök har konfigurerats korrekt (30 minuter för återförsöksperiod och mer än 20 återförsök) i leveransmallar.
 * Kontrollera regelbundet att studspostlådan är tillgänglig och att kontot inte håller på att förfalla.
@@ -42,15 +42,15 @@ Det finns andra rapporter, till exempel **[!UICONTROL Delivery summary]** eller 
 
 Via meddelandekontrollpanelen får du åtkomst till leveransloggarna: **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]**, **[!UICONTROL Tracking logs]** och **[!UICONTROL Tracked URLs]**. De visar detaljerna för utskicket, vilket eller vilka mål som har uteslutits och varför de har uteslutits. De visar även spårningsinformation som exempelvis öppningar och klick.
 
-Mer information finns i [Övervaka en leverans](../../sending/using/monitoring-a-delivery.md).
+Mer information finns i [Övervaka leverans](../../sending/using/monitoring-a-delivery.md).
 
 ![](assets/sending_delivery1.png)
 
 ## Få aviseringar {#receiving-alerts}
 
-Funktionen **[!UICONTROL Delivery alerting]** är ett varningshanteringssystem som gör att en grupp användare automatiskt kan ta emot meddelanden som innehåller information om hur deras leveranser utförs.
+The **[!UICONTROL Delivery alerting]** är ett varningshanteringssystem som gör det möjligt för en grupp användare att automatiskt få meddelanden som innehåller information om hur deras leveranser utförs.
 
-Mer information finns i [Få aviseringar när fel inträffar](../../sending/using/receiving-alerts-when-failures-happen.md).
+Mer information finns i [Få aviseringar när fel uppstår](../../sending/using/receiving-alerts-when-failures-happen.md).
 
 <!--## External tools (#external-tools)
 

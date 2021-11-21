@@ -22,7 +22,7 @@ Den här rapporten innehåller prestandadata för varje domän som representeras
 
 ![](assets/delivery_reports_6.png)
 
-Tabellen **Sändningsstatistik** innehåller tillgängliga data för möjliga fel som påträffats i varje domän, som:
+Tabellen **Sändningsstatistik** innehåller tillgängliga data för eventuella fel som påträffats i varje domän, som:
 
 * **Behandlad/skickad**: Antal skickade e-postmeddelanden.
 * **Levererat**: Antalet e-postmeddelanden som levereras.
@@ -30,7 +30,7 @@ Tabellen **Sändningsstatistik** innehåller tillgängliga data för möjliga fe
 * **Hård studs**: Det totala antalet permanenta fel, t.ex. fel e-postadress.
 * **Mjuk studsa**: Det totala antalet tillfälliga fel, t.ex. en fullständig inkorg.
 
-Den andra tabellen, **Spårningsstatistik**, innehåller tillgängliga data för mottagarnas reaktivitet till leverans, som:
+Den andra tabellen **Spårningsstatistik**, innehåller tillgängliga data för mottagarnas reaktivitet till leveransen, t.ex.:
 
 * **Levererat**: Antalet e-postmeddelanden som levereras
 * **Öppna**: Antalet gånger ett meddelande öppnades i en leverans.

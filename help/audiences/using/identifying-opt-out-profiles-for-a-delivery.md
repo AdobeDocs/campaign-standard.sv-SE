@@ -17,7 +17,7 @@ ht-degree: 41%
 
 # Identifiera avanmälningsprofiler för en leverans{#identifying-opt-out-profiles-for-a-delivery}
 
-Profiler för avanmälan för en viss leverans visas efter förberedelsefasen på fliken **[!UICONTROL Exclusion logs]** på kontrollpanelen för leverans.
+Profiler för avanmälan för en viss leverans listas efter förberedelsefasen i **[!UICONTROL Exclusion logs]** -fliken på kontrollpanelen för leverans.
 
 ![](assets/exclusion_blocklisting.png)
 

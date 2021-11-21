@@ -27,4 +27,4 @@ Du kan skicka olika typer av e-postmeddelanden:
 * A/B-testning av e-post: testa upp till tre versioner av ett e-postmeddelande.
 * Transactional emails: enhetliga e-postmeddelanden som triggas utifrån kundernas beteende.
 
-Om du vill veta mer om de bästa sätten att skapa och skicka e-postmeddelanden läser du i avsnittet [Bästa tillvägagångssätt vid leverans](../../sending/using/delivery-best-practices.md).
+Om du vill lära dig de bästa sätten att skapa och skicka e-postmeddelanden kan du läsa [Bästa praxis](../../sending/using/delivery-best-practices.md) -avsnitt.

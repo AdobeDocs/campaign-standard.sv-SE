@@ -71,18 +71,18 @@ Få kundernas uppmärksamhet och förbättra svarsfrekvensen genom att använda 
 
 Personaliserade meddelanden är avgörande för att skicka relevant innehåll, erbjuda personaliserade upplevelser och öka öppnings- och konverteringsgraden. Flerkanalsmeddelanden från Adobe Campaign kan personaliseras på flera olika sätt. De här sätten kan kombineras med villkor beroende på profilerna. Du kan:
 
-* Infoga [fält för dynamisk personalisering](../../designing/using/personalization.md#inserting-a-personalization-field) i dina meddelanden
+* Infoga [dynamiska personaliseringsfält](../../designing/using/personalization.md#inserting-a-personalization-field) i dina meddelanden
 * Infoga [fördefinierade personaliseringsblock](../../designing/using/personalization.md#adding-a-content-block)
-* [Anpassa avsändaren ](../../designing/using/subject-line.md) av ett e-postmeddelande eller ett SMS
-* [Anpassa ämnesraden ](../../designing/using/subject-line.md) i ett e-postmeddelande
-* Skapa [villkorligt innehåll i ett e-postmeddelande](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) eller [på en startsida](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
-* Infoga [dynamisk text](../../channels/using/defining-dynamic-text.md) i ett SMS-meddelande eller ett push-meddelande
+* [Anpassa avsändaren](../../designing/using/subject-line.md) av ett e-postmeddelande eller ett sms
+* [Anpassa ämnesraden](../../designing/using/subject-line.md) av ett e-postmeddelande
+* Skapa [villkorligt innehåll i ett e-postmeddelande](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) eller [på en landningssida](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
+* Infoga [Dynamisk text](../../channels/using/defining-dynamic-text.md) i ett SMS-meddelande eller ett push-meddelande
 
 ![](assets/delivery_content_43.png)
 
 **Läs mer**
 
-* Upptäck e-postpersonalisering via ett [heltäckande exempel](../../designing/using/personalization.md#example-email-personalization)
+* Upptäck e-postpersonalisering via en [prov från början till slut](../../designing/using/personalization.md#example-email-personalization)
 * [Anpassa URL:er](../../designing/using/personalization.md#personalizing-urls)
 * [Konfigurera personalisering av en bild](../../designing/using/personalization.md#personalizing-an-image-source)
 

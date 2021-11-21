@@ -72,7 +72,7 @@ Avsnittet [Skapa marknadsföringsaktiviteter](../../start/using/marketing-activi
 
    Du kan till exempel definiera en specifik tidszon som ska användas som standard i alla arbetsflödets aktiviteter. Som standard är arbetsflödets tidszon den som definieras för den aktuella Campaign-operatören.
 
-   Mer information om arbetsflödesegenskaper finns i [den här sidan](../../automating/using/managing-execution-options.md).
+   Mer information om arbetsflödenas egenskaper finns i [den här sidan](../../automating/using/managing-execution-options.md).
 
    ![](assets/workflow_properties.png)
 
@@ -137,4 +137,4 @@ I den här videon visas hur du skapar ett arbetsflöde.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
-Ytterligare Campaign Standard om instruktionsvideor finns [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv).
+Det finns fler videor med Campaign Standard om hur man gör [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv).

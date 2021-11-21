@@ -54,7 +54,7 @@ Processen för att skapa ett direktmeddelande är väldigt lik processen för at
 
 1. Om du har lagt till testprofiler (se [Lägga till test- och trapprofiler](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles)) kan du testa leveransen innan du förbereder den slutliga filen. Du kan skapa en exempelfil som endast innehåller de valda testprofilerna.
 
-   Klicka på **[!UICONTROL Test]** för att generera exempelfilen. Klicka på **[!UICONTROL Summary]** i det övre vänstra hörnet och välj **[!UICONTROL Proofs]**. Markera korrekturläsning till vänster på skärmen och klicka på **[!UICONTROL Download file]**.
+   Klicka på **[!UICONTROL Test]** för att generera exempelfilen. Klicka på **[!UICONTROL Summary]**, i det övre vänstra hörnet och sedan markera **[!UICONTROL Proofs]**. Markera korrekturläsning till vänster på skärmen och klicka på **[!UICONTROL Download file]**.
 
    >[!NOTE]
    >

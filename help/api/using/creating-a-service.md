@@ -17,7 +17,7 @@ ht-degree: 8%
 
 # Skapa en tjänst {#creating-a-service}
 
-Tjänsterna skapas med en **POST**-begäran på tjänstresursen.
+Skapande av tjänster utförs med en **POST** förfrågan om tjänstresursen.
 
 Om du vill skapa tjänsten med specifika attribut lägger du till dem i nyttolasten. I annat fall skapas den nya tjänsten med standardtjänster.
 

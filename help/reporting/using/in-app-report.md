@@ -19,15 +19,15 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->Observera att du måste dra och släppa **[!UICONTROL Message type]**-måtten i dina tabeller för att dela upp data beroende på leveranstyp, i det här fallet leveranserna i appen.
+>Observera att du måste dra och släppa **[!UICONTROL Message type]** mätvärden till era tabeller för att dela upp data beroende på vilka leveranstyper ni har, i det här fallet för leveranser i appen.
 
-Rapporten **In-App** innehåller information om leveranser i appen.
+The **I appen** rapporten innehåller information om leveranser i appen.
 
 Varje tabell representeras av sammanfattande nummer och diagram. Du kan ändra hur detaljerna visas i deras respektive visualiseringsinställningar.
 
 ![](assets/inapp_report.png)
 
-Den första tabellen **Sammanfattning av appengagemang** är uppdelad i tre kategorier: per dag, per mobilapp och per leverans. Den innehåller tillgängliga data för mottagarens reaktivitet för leveransen:
+Den första tabellen **Sammanfattning av appengagemang** delas in i tre kategorier: per dag, per mobilapp och per leverans. Den innehåller tillgängliga data för mottagarens reaktivitet för leveransen:
 
 * **[!UICONTROL Processed/sent]**: Totalt antal överföringar för leverans i appen.
 * **[!UICONTROL Delivered]**: Antal skickade meddelanden i appen i relation till det totala antalet skickade meddelanden.
@@ -38,7 +38,7 @@ Den första tabellen **Sammanfattning av appengagemang** är uppdelad i tre kate
 
 ![](assets/inapp_report_1.png)
 
-Den andra tabellen **Klicka och ignorera i appen** är uppdelad i tre kategorier: per dag, per mobilapp och per leverans. Den innehåller tillgängliga data för mottagarnas beteende per leverans:
+Den andra tabellen **Klicka och avvisa i appen** delas in i tre kategorier: per dag, per mobilapp och per leverans. Den innehåller tillgängliga data för mottagarnas beteende per leverans:
 
 * **[!UICONTROL In-App clicks]**: Totalt antal mottagare som klickat på Knapp 1 eller Knapp 2.
 * **[!UICONTROL Unique In-App clicks]**: Antal gånger som mottagare klickat på Knapp 1 eller Knapp 2.

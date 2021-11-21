@@ -20,7 +20,7 @@ ht-degree: 11%
 
 Målgruppen är följande: skapa listor noggrant, testa e-postmeddelanden på populära e-postklienter och mobila enheter och se till att e-postlistorna är aktuella (utan okända eller föråldrade adresser). Du kan också skicka korrektur som hjälper dig att konfigurera en komplett valideringscykel.
 
-Läs mer om målpopulationer [i detta avsnitt](../../audiences/using/selecting-an-audience-in-a-message.md)
+Läs mer om målpopulationer [i det här avsnittet](../../audiences/using/selecting-an-audience-in-a-message.md)
 
 ## Rikta er till rätt målgrupp {#target-the-right-audience}
 
@@ -30,9 +30,9 @@ För att leveransen ska bli framgångsrik vill ni skicka det mest relevanta pers
 
 ## Målmappningar {#target-mappings}
 
-Som standard är leveransmallar avsedda för **profiler**. Adobe Campaign erbjuder andra målmappningar för leveranser som du kan ändra efter behov.
+Som standard är målet för leveransmallar **Profiler**. Adobe Campaign erbjuder andra målmappningar för leveranser som du kan ändra efter behov.
 
-Dessa mappningar visas [i det här avsnittet](../../automating/using/query.md#targeting-dimensions-and-resources).
+De här mappningarna visas [i det här avsnittet](../../automating/using/query.md#targeting-dimensions-and-resources).
 
 Du kan också skapa och använda en anpassad målmappning. Mer information om detta finns i [det här avsnittet](../../administration/using/target-mappings-in-campaign.md).
 
@@ -53,7 +53,7 @@ Se till att du väljer rätt korrekturmottagare eftersom de validerar formuläre
 
 Läs mer om testprofiler [i det här avsnittet](../../audiences/using/managing-test-profiles.md).
 
-Du kan använda [Kontrollgrupper](../../sending/using/control-group.md) för att mäta effekten av dina kampanjer genom att utesluta en del av deras målgrupp. Sedan kan du jämföra beteendet hos målpopulationen som fick meddelandet med beteendet hos kontakter som inte var med i målgrupperna. Baserat på de skickade loggarna kan du även inrikta dig på en kontrollgrupp i framtida kampanjer.
+Du kan använda [Kontrollgrupper](../../sending/using/control-group.md) för att mäta effekten av era kampanjer genom att utesluta en del av deras målgrupp. Sedan kan du jämföra beteendet hos målpopulationen som fick meddelandet med beteendet hos kontakter som inte var med i målgrupperna. Baserat på de skickade loggarna kan du även inrikta dig på en kontrollgrupp i framtida kampanjer.
 
 ## Deduplicera adresser {#deduplicate-addresses}
 

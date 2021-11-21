@@ -18,14 +18,14 @@ ht-degree: 7%
 
 # Skapa personaliserat innehåll {#build-personalized-content}
 
-När du utformar meddelandeinnehållet bör du undvika vanliga problem som kan hindra dig från att utföra leveransen. Oftast är möjliga fel relaterade till [personalisering](../../designing/using/personalization.md), formatering när [används med befintligt innehåll](../../designing/using/using-existing-content.md) - och [konvertering av HTML-innehåll](../../designing/using/using-existing-content.md#converting-an-html-content) - och [bilder](../../designing/using/images.md).
+När du utformar meddelandeinnehållet bör du undvika vanliga problem som kan hindra dig från att utföra leveransen. För det mesta är möjliga fel relaterade till [personalisering](../../designing/using/personalization.md), formatera när [använda befintligt innehåll](../../designing/using/using-existing-content.md) - och [konvertera ett HTML-innehåll](../../designing/using/using-existing-content.md#converting-an-html-content) - och [bilder](../../designing/using/images.md).
 
 ## Optimera personalisering {#optimize-personalization}
 
 För att undvika vanliga problem som kan hindra dig från att utföra leveransen och för att förbättra mottagarnas upplevelse kan du anpassa dina meddelanden med Adobe Campaign.
 
-Du kan använda mottagarnas data som lagras i Adobe Campaign-databasen, eller som samlats in via spårning, landningssidor, prenumerationer osv.
-Grundläggande om anpassning presenteras i [det här avsnittet](../../designing/using/personalization.md).
+Du kan använda mottagarnas data som lagras i Adobe Campaign-databasen eller som samlats in via spårning, landningssidor, prenumerationer osv.
+Grundläggande om personalisering presenteras i [det här avsnittet](../../designing/using/personalization.md).
 
 Se till att meddelandeinnehållet är rätt utformat för att undvika fel, som vanligtvis är relaterade till personalisering.
 
@@ -50,7 +50,7 @@ När du skapar e-postmeddelanden bör du tänka på de allmänna bästa metodern
 
 ### Subject line
 
-Arbeta på [ärenderaden](../../designing/using/subject-line.md) för att förbättra öppna frekvenser:
+Arbeta på [ämnesrad](../../designing/using/subject-line.md) för att förbättra öppna frekvenser:
 
 * Undvik för långa motiv. Använd högst 50 tecken
 
@@ -64,9 +64,9 @@ Inkludera alltid en länk för spegelsida. Önskad position är högst upp i e-p
 
 ### Avprenumerationslänk
 
-Avprenumerationslänken är viktig. Den måste vara synlig och giltig och formuläret måste vara funktionellt. Lär dig riktlinjerna för att ta bort prenumerationen [i det här avsnittet](../../designing/using/personalization.md#about-targeting-dimension).
+Avprenumerationslänken är viktig. Den måste vara synlig och giltig och formuläret måste vara funktionellt. Lär dig riktlinjerna för prenumerationslänk [i det här avsnittet](../../designing/using/personalization.md#about-targeting-dimension).
 
-När meddelandet analyseras kontrollerar en [typologiregel](../../sending/using/control-rules.md) som standard om en avanmälningslänk har inkluderats och genererar en varning om den saknas.
+När meddelandet analyseras är som standard en kontroll [typologiregel](../../sending/using/control-rules.md) kontrollerar om en avanmälningslänk har inkluderats och genererar en varning om den saknas.
 
 **Tips**: Eftersom mänskliga fel alltid är möjliga bör du kontrollera att länken för avanmälan fungerar korrekt före varje gång du skickar. När du t.ex. skickar ett bevis ska du kontrollera att länken är giltig, att formuläret är online och att fältet för att inte längre kontakta den här mottagaren har ändrats till Ja.
 
@@ -74,7 +74,7 @@ Lär dig hur du infogar en länk för avanmälan [i det här avsnittet](../../de
 
 ### E-poststorlek {#email-size}
 
-För att undvika problem med prestanda och leverans bör du ha en maximal storlek på ett e-postmeddelande på cirka **35 kB**.
+För att undvika problem med prestanda och leverans är den rekommenderade maximala storleken på ett e-postmeddelande ungefär **35 kB**.
 
 Tänk på följande om du vill hålla din e-post under gränsen:
 
@@ -90,7 +90,7 @@ I Adobe Campaign är standardstorleken för ett e-postmeddelande inställd på *
 
 Om gränsen nås kommer det meddelande som överskrider gränsen att misslyckas och ett felmeddelande visas i leveransloggarna. Övriga meddelanden i samma leverans påverkas inte. I så fall måste du anpassa den dynamiska delen av e-postmallen eller de innehållsfragment som används av leveransen. <!--If you need assistance, or if you have any question or request about the **[!UICONTROL Maximum message size]** option, reach out to your Adobe contact.-->
 
-Adobe rekommenderar att du behåller standardvärdet för maximal meddelandestorlek. Det här värdet kan dock ändras i alternativet **[!UICONTROL Maximum message size]**, via menyn **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**, endast av [funktionsadministratörer](../../administration/using/users-management.md#functional-administrators).
+Adobe rekommenderar att du behåller standardvärdet för maximal meddelandestorlek. Det här värdet kan dock ändras i **[!UICONTROL Maximum message size]** via **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** meny, av [funktionsadministratörer](../../administration/using/users-management.md#functional-administrators) endast.
 
 >[!IMPORTANT]
 >
@@ -100,7 +100,7 @@ Adobe rekommenderar att du behåller standardvärdet för maximal meddelandestor
 
 Som standard uppfyller antalet tecken i ett SMS-meddelande GSM-standarden (Global System for Mobile Communications). SMS-meddelanden som använder GSM-kodning kan innehålla högst 160 tecken eller 153 tecken per SMS för meddelanden som skickas i flera delar.
 
-Transkriberingen ersätter ett tecken i ett SMS med ett annat om det tecknet inte beaktas av GSM-standarden. Observera att om du infogar anpassningsfält i innehållet i SMS-meddelandet kan det medföra tecken som GSM-kodningen inte tar hänsyn till. Du kan godkänna teckentranskribering genom att markera motsvarande ruta på fliken SMPP-kanalinställningar i motsvarande **[!UICONTROL External account]**.
+Transkriberingen ersätter ett tecken i ett SMS med ett annat om det tecknet inte beaktas av GSM-standarden. Observera att om du infogar anpassningsfält i innehållet i SMS-meddelandet kan det medföra tecken som GSM-kodningen inte tar hänsyn till. Du kan auktorisera teckentranskribering genom att markera motsvarande ruta på fliken SMPP-kanalinställningar i motsvarande **[!UICONTROL External account]**.
 Läs mer [i det här avsnittet](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
 
 **Tips**:
@@ -115,9 +115,9 @@ Läs mer [i det här avsnittet](../../administration/using/configuring-sms-chann
 
 Responsiv design säkerställer att ett e-postmeddelande återges optimalt för den enhet där det öppnas.
 
-* Använd responsiv e-post-HTML i stället för webb-HTML
+* Använd responsiv e-post HTML i stället för HTML på webben
 
-* Använd förhandsgranskningsläget och skicka provtryck för att testa återgivningen på så många enheter som möjligt. Lär dig hur du [förhandsgranskar meddelande](../../sending/using/previewing-messages.md) innan du skickar.
+* Använd förhandsgranskningsläget och skicka provtryck för att testa återgivningen på så många enheter som möjligt. Lär dig hur [förhandsgranskningsmeddelande](../../sending/using/previewing-messages.md) före sändning.
 
 * Campaign Email Designer innehåller responsiva designformaterade mallar för mobiler. Läs mer [på den här sidan](../../designing/using/using-reusable-content.md#content-templates).
 
@@ -147,4 +147,4 @@ För att vara tillgängliga utifrån måste de bilder som används i e-postmedde
 
 Adobe rekommenderar att du förhandsgranskar ditt meddelande för att kontrollera hur det är anpassat och hur mottagarna ser det.
 
-I e-postdesignern kan du med knappen **[!UICONTROL Preview]** visa återgivningen av varje innehåll för en mottagare. Anpassningsfälten och de villkorliga elementen i innehållet ersätts med motsvarande information för den valda profilen. [Läs mer](../../sending/using/previewing-messages.md)
+I e-postdesignern **[!UICONTROL Preview]** kan du visa återgivningen av varje innehåll för en mottagare. Anpassningsfälten och de villkorliga elementen i innehållet ersätts med motsvarande information för den valda profilen. [Läs mer](../../sending/using/previewing-messages.md)

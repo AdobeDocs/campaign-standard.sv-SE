@@ -17,26 +17,26 @@ ht-degree: 6%
 
 # Exportera listor{#exporting-lists}
 
-Med Adobe Campaign kan du exportera listor direkt i en fil för framtida bruk. När du exporterar en lista i en fil skapas en loggpost på **[!UICONTROL Export audits]**-menyn. Mer information om exportgranskningar finns i avsnittet [Granska exportering](../../administration/using/auditing-export-logs.md).
+Med Adobe Campaign kan du exportera listor direkt i en fil för framtida bruk. När du exporterar en lista i en fil skapas en loggpost i **[!UICONTROL Export audits]** -menyn. Mer information om exportgranskningar finns i avsnittet [Granska exportering](../../administration/using/auditing-export-logs.md).
 
 ![](assets/do-not-localize/how-to-video.png) [Upptäck hur du konfigurerar en lista i en video](#video)
 
-Med alternativet för exportlista kan du exportera högst 100 000 rader som standard och som definieras av alternativet **Nms_ExportListLimit**. Det här alternativet kan hanteras av den funktionella administratören under menyn **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
+Med alternativet för exportlista kan du exportera högst 100 000 rader som standard och som definieras av **Nms_ExportListLimit** alternativ. Det här alternativet kan hanteras av den funktionella administratören under **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** -menyn.
 
-Exportlistan är tillgänglig på alla skärmar som har en **List**-lägesvy för användare med rollen **[!UICONTROL EXPORT (export)]**.
+Exportlistan är tillgänglig på alla skärmar som har en **Lista** lägesvy, för användare med **[!UICONTROL EXPORT (export)]** roll.
 
-1. Gå till den valda **listskärmen**. Testprofilens översiktsskärm ( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** ).
-1. Kontrollera att skärmen är i **listläge**.
+1. Gå till vald **Lista** skärm. Exempelvis testprofilens översiktsskärm ( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** ).
+1. Kontrollera att skärmen är i **Lista** läge.
 
    ![](assets/export_list_mode_switch.png)
 
-1. Ordna kolumnerna i listan i den ordning som du vill exportera dem med knappen **[!UICONTROL Configure list]** i det övre högra hörnet. Förutom konfigurerade kolumner exporteras även resursens primärnyckel.
+1. Ordna kolumnerna i listan i den ordning som du vill exportera dem med **[!UICONTROL Configure list]** i det övre högra hörnet. Förutom konfigurerade kolumner exporteras även resursens primärnyckel.
 1. Om du vill kan du använda ett filter. Om du vill göra det klickar du på knappen i det övre vänstra hörnet för att visa sökfönstret.
 
    Om du exporterar från en lista som innehåller olika resurser måste du tillämpa filtren så att endast en typ av resurs visas i listan.
 
 1. Om du vill kan du sortera de kolumner du har valt.
-1. Välj exportknappen ![](assets/exportlistbutton.png).
+1. Markera exportknappen ![](assets/exportlistbutton.png).
 
    Ett popup-fönster visas som bekräftar exporten. När du har bekräftat exporten hämtas filen automatiskt till datorn.
 
@@ -44,7 +44,7 @@ Filen genereras i CSV-format med filtillägget .TXT. Det namnges enligt den expo
 
 De numeriska värdena och datumen tar hänsyn till lokal tid (nationella inställningar) för användaren som utför exporten. Till exempel: DD-MM-YYYY eller MM-DD-YYYY
 
-Om du vill exportera filer som är större än detta måste du skapa ett dedikerat arbetsflöde. Se avsnittet [Extrahera fil](../../automating/using/extract-file.md).
+Om du vill exportera filer som är större än detta måste du skapa ett dedikerat arbetsflöde. Se [Extrahera fil](../../automating/using/extract-file.md) -avsnitt.
 
 **Exempel**
 
@@ -82,4 +82,4 @@ I den här videon visas hur du konfigurerar listor.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25288/?quality=12)
 
-Ytterligare Campaign Standard om instruktionsvideor finns [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv).
+Det finns fler videor med Campaign Standard om hur man gör [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv).

@@ -17,33 +17,33 @@ ht-degree: 8%
 
 # Konverterar e-postinnehåll för äldre redigerare {#converting-an-html-content}
 
-Börja arbeta med e-postdesignern och skapa återanvändbara mallar och fragment från din e-post-HTML som skapats i den äldre redigeraren.
+Börja arbeta med e-postdesignern och bygg återanvändbara mallar och fragment från e-postmeddelandet HTML som har skapats i den äldre redigeraren.
 
 I det här exemplet kan du skapa en e-postdesignermall genom att använda ett HTML-e-postmeddelande och dela upp den i HTML-komponenter i e-postdesignern.
 
 >[!NOTE]
 >
->Precis som kompatibilitetsläget är en HTML-komponent redigerbar med begränsade alternativ: kan du bara utföra en utgåva på plats.
+>Som i kompatibilitetsläget kan en HTML-komponent redigeras med begränsade alternativ: kan du bara utföra en utgåva på plats.
 
 >[!IMPORTANT]
 >
->Det här avsnittet är avsett för avancerade användare som känner till HTML-kod.
+>Det här avsnittet är avsett för avancerade användare som är bekanta med HTML-kod.
 
 ## Förbereda ditt e-postinnehåll
 
-1. Välj ett HTML-e-postmeddelande.
-1. Identifiera avsnitt för att dela upp HTML-e-postmeddelandet.
-1. Klipp ut de olika blocken från HTML-koden.
+1. Markera ett HTML-e-postmeddelande.
+1. Identifiera avsnitt som ska delas upp i e-postmeddelanden från HTML.
+1. Klipp ut de olika blocken från HTML.
 
 ## Skapa en e-poststruktur
 
-1. Öppna **[!UICONTROL Email Designer]** för att skapa ett tomt e-postinnehåll.
+1. Öppna **[!UICONTROL Email Designer]**  för att skapa ett tomt e-postinnehåll.
 1. Ange attributen för innehållsnivå: bakgrundsfärger, bredd osv. Mer information finns i [Redigera e-postformat](../../designing/using/styles.md).
 1. Lägg till så många strukturkomponenter som du har avsnitt. Mer information finns i [Redigera e-poststrukturen](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-## Lägga till HTML-innehåll
+## Lägg till HTML-innehåll
 
-1. Lägg till en HTML-komponent i varje strukturelement. Mer information finns i [Lägga till fragment och komponenter](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Lägg till en HTML-komponent i varje strukturkomponent. Mer information finns i [Lägga till fragment och komponenter](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Kopiera och klistra in HTML i alla komponenter.
 
 ## Hantera e-postmeddelandets format {#manage-the-style-of-your-email}
@@ -78,7 +78,7 @@ I det här exemplet kan du skapa en e-postdesignermall genom att använda ett HT
 
 ## Användningsfall
 
-Vi försöker konvertera det här e-postmeddelandet, som har skapats i den äldre redigeraren, till en **[!UICONTROL Email Designer]**-mall.
+Vi försöker konvertera det här e-postmeddelandet, som har skapats i den äldre redigeraren, till en **[!UICONTROL Email Designer]** mall.
 
 ### Identifiera avsnittet i ditt e-postmeddelande
 
@@ -86,7 +86,7 @@ Vi kan identifiera 11 avsnitt i det här e-postmeddelandet.
 
 ![](assets/html-dce-view-mail.png)
 
-Om du vill identifiera vilket element som är vilket avsnitt i HTML-koden kan du markera det.
+Om du vill se vilket element som är det i HTML kan du markera det.
 
 ![](assets/breadcrumbs.png)
 
@@ -94,7 +94,7 @@ Om du vill visa HTML-versionen av e-postmeddelandet klickar du på **[!UICONTROL
 
 ### Skapa e-postmallen och dess struktur
 
-1. Dra och släpp **[!UICONTROL Structure components]** som återspeglar layouten för e-postmeddelandet.
+1. Dra och släpp **[!UICONTROL Structure components]**  som återspeglar layouten för vårt e-postmeddelande.
 
 1. Upprepa så många gånger som behövs. Vi måste skapa 11 strukturkomponenter.
 
@@ -102,15 +102,15 @@ Om du vill visa HTML-versionen av e-postmeddelandet klickar du på **[!UICONTROL
 
 ### Infoga HTML-innehållskomponenter
 
-1. Infoga en **[!UICONTROL HTML component]** i varje **[!UICONTROL Structure component]**.
+1. Infoga en **[!UICONTROL HTML component]**  i varje **[!UICONTROL Structure component]** .
 
    ![](assets/html-components.png)
 
-1. Klicka på **[!UICONTROL Show source code]** för varje avsnitt.
+1. För varje avsnitt klickar du på **[!UICONTROL Show source code]** .
 
    ![](assets/show-source-code.png)
 
-1. Infoga HTML-avsnittet.
+1. Infoga HTML.
 
 1. Klicka på **[!UICONTROL Save]**.
 
@@ -124,6 +124,6 @@ Nu kan du kontrollera återgivningen av ditt e-postmeddelande.
 
 1. Växla till källkod och kopiera och klistra in stilavsnittet i ett nytt stilavsnitt.
 
-Mer information finns i [Hantera formatet för ditt e-postmeddelande](#manage-the-style-of-your-email).
+Mer information finns i [Hantera e-postmeddelandets format](#manage-the-style-of-your-email).
 
 Din gamla e-postadress är nu tillgänglig i e-postdesignern.

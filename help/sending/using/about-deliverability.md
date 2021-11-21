@@ -18,23 +18,23 @@ ht-degree: 7%
 
 # Vad är levererbarhet?{#about-deliverability}
 
-Leveransmöjligheterna gör det möjligt att mäta framgången för era kampanjer som når mottagarnas inkorgar utan att studsa, eller markeras som skräppost. [Läs varför levererbarhet är viktigt](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html#why-deliverability-matters).
+Leveransmöjligheterna gör det möjligt att mäta framgången för era kampanjer som når mottagarnas inkorgar utan att studsa, eller markeras som skräppost. [Läs varför leveranssäkerhet är viktigt](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html#why-deliverability-matters).
 
 Mer exakt är att e-postleverans är en uppsättning egenskaper som avgör hur ett meddelande kan nå sin destination, via en personlig e-postadress, inom en kort tid och med den förväntade kvaliteten i fråga om innehåll och format. <!--These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program.-->
 
-Mer information om leveransvillkor och leveranssätt finns i [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=sv).
+En djupdykning i vad som är möjligt och mer information om termer, begrepp och metoder för leverans finns i [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=sv).
 
 ## Hur man förbättrar leveransen {#deliverability-key-points}
 
 Leveransproblem är vanligtvis kopplade till skyddsåtgärder mot skräppost som implementeras av Internetleverantörer och e-postserveradministratörer.
 
-* Allmänna rekommendationer om hur du utformar lyckade e-postmarknadsföringskampanjer finns i [Leveransstrategi och definition](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html).
+* Allmänna rekommendationer om hur du utformar framgångsrika e-postmarknadsföringskampanjer finns i [Leveransstrategi och definition](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html).
 
 * För mer specifika rekommendationer om hur du optimerar leveransen av dina Adobe Campaign-e-postmeddelanden rekommenderar vi att du använder de bästa metoderna som listas i det här avsnittet.
 
 >[!NOTE]
 >
->Eftersom internetleverantörer ständigt måste utveckla nya sofistikerade filtreringstekniker för att skydda sina kunder mot skräppost kännetecknas e-postleveransen av ständigt föränderliga kriterier och regler. Se till att du läser [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html) som uppdateras regelbundet.
+>Eftersom internetleverantörer ständigt måste utveckla nya sofistikerade filtreringstekniker för att skydda sina kunder mot skräppost kännetecknas e-postleveransen av ständigt föränderliga kriterier och regler. Se till att du refererar till [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html) som uppdateras regelbundet.
 
 ### Leveransgrad
 
@@ -43,13 +43,13 @@ Leveransgraden är antalet meddelanden som når mottagarnas inkorgar jämfört m
 Med Adobe Campaign beror leveransgraden på många faktorer, bland annat:
 
 * Korrekt konfiguration av dina instanser: kontakta din Adobe-representant för att få hjälp.
-* Legitimal nätverkskonfiguration: se [det här avsnittet](../../sending/using/optimize-delivery.md#network-config) och [Domänkonfiguration och -strategi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#domain-setup-and-strategy).
+* Legitimal nätverkskonfiguration: se [det här avsnittet](../../sending/using/optimize-delivery.md#network-config) och [Domäninställningar och -strategi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#domain-setup-and-strategy).
 * Din IP-adress: se [IP-strategi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#ip-strategy).
 * Kvaliteten på adresserna: se [Karantänhantering](../../sending/using/optimize-delivery.md#quarantine-management).
-* Låga [antal klagomål](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html) och [antal studsar](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces).
+* Låg [klagomål](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html) och [hård studsa](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces) räntenivåer.
 * Ditt meddelandeinnehåll: se [Kontrollera e-postinnehåll](../../sending/using/control-email-content.md).
 * Meddelandeautentisering (SPF, DKIM, DMARC): se [det här avsnittet](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).
-* Avsändarens rykte: Om du vill veta mer om hur viktiga Internet-leverantörer utvärderar ett avsändarrykte kan du läsa [det här avsnittet](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html).
+* Avsändarens rykte: om du vill veta hur de viktigaste internetleverantörerna utvärderar ett avsändarrykte kan du läsa [det här avsnittet](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html).
 
 ## Verktyg för kampanjleverans {#deliverability-tools}
 
@@ -68,9 +68,9 @@ När du konfigurerar, utformar och testar ett meddelande måste du följa de bä
 
 För att undvika att skicka meddelanden till ogiltiga adresser, begränsa felaktig kommunikation och förbättra avsändarens anseende rekommenderar Adobe att du använder en mekanism för dubbel anmälan. På så sätt kan du säkerställa att mottagarna prenumererar avsiktligt.
 
-Mer information finns i [Om deltagande och avanmälan i Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Mer information finns i [Om anmälan och avanmälan i Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
-Mer information om de bästa sätten att samla in data från dina kunder finns i [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html#data-quality-and-hygiene).
+Mer information om de bästa metoderna för att samla in data från kunderna finns i [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html#data-quality-and-hygiene).
 
 ### Hantering av bruttokarantän
 

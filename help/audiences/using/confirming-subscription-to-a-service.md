@@ -52,7 +52,7 @@ Bekräftelsemeddelandet är ett transaktionsmeddelande som reagerar på en händ
 1. Skapa en händelse i menyn **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** som du kommer åt via Adobe Campaign-logotypen.
 1. Ange en etikett, välj en måldimension och klicka sedan **[!UICONTROL Create]**.
 
-   Konfigurationsstegen beskrivs i avsnittet [Konfigurera en transaktionshändelse](../../channels/using/configuring-transactional-event.md).
+   Konfigurationsstegen beskrivs i [Konfigurera en transaktionshändelse](../../channels/using/configuring-transactional-event.md) -avsnitt.
 
 1. I avsnittet **[!UICONTROL Fields]** klickar du på **[!UICONTROL Create element]** och lägger till **[!UICONTROL publicLabel]** i datastrukturen för att aktivera avstämning.
 
@@ -85,7 +85,7 @@ Bekräftelsemeddelandet är ett transaktionsmeddelande baserat på den händelse
 1. Via Adobe Campaign-logotypen väljer du **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** och klickar sedan på **[!UICONTROL Transactional messages]**.
 1. Välj den transaktionsbaserade e-postadress som motsvarar händelsen du just publicerade.
 
-1. Klicka på avsnittet **[!UICONTROL Content]** och välj en mailmall.  Mer information om hur du redigerar innehåll i transaktionsmeddelanden finns i [Redigera transaktionsmeddelanden](../../channels/using/editing-transactional-message.md).
+1. Klicka på avsnittet **[!UICONTROL Content]** och välj en mailmall.  Mer information om hur du redigerar ett transaktionsmeddelandeinnehåll finns i [Redigera transaktionsmeddelanden](../../channels/using/editing-transactional-message.md).
 1. När du har direktåtkomst till alla fält i resurs **[!UICONTROL Service]** så kan du personalisera innehållet genom att välja valfritt fält från noden **[!UICONTROL Context]** > **[!UICONTROL Real-time event (rtEvent)]** > **[!UICONTROL Event context (ctx)]** >**[!UICONTROL Service]** .
 
    ![](assets/confirmation_personalization-service.png)
@@ -141,7 +141,7 @@ Bekräftelsemeddelandet är ett [transaktionsmeddelande](../../channels/using/ge
 1. Skapa en händelse i menyn **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** som du kommer åt via Adobe Campaign-logotypen.
 1. Ange en etikett, välj en måldimension och klicka sedan **[!UICONTROL Create]**.
 
-   Konfigurationsstegen beskrivs i avsnittet [Konfigurera en transaktionshändelse](../../channels/using/configuring-transactional-event.md).
+   Konfigurationsstegen beskrivs i [Konfigurera en transaktionshändelse](../../channels/using/configuring-transactional-event.md) -avsnitt.
 
 1. I avsnittet **[!UICONTROL Fields]** klickar du på **[!UICONTROL Create element]** och lägger till **[!UICONTROL serviceName]** i datastrukturen för att aktivera avstämning.
 

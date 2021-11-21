@@ -18,11 +18,11 @@ ht-degree: 14%
 
 # Tjänstesammanfattning{#service-summary}
 
-**[!UICONTROL Service summary]** beskriver utvecklingen av prenumerationer och avbeställningar av tjänsten.
+The **[!UICONTROL Service summary]** information om utvecklingen av prenumerationer och avbeställningar av tjänsten.
 Den här rapporten är bara tillgänglig från din tjänstsida via den avancerade menyn **[!UICONTROL Profiles & Audiences]** > **[!UICONTROL Services]**. Se denna [sida](../../audiences/using/monitoring-subscriptions.md#service-reports) för mer information om detta.
 
 ![](assets/service-summary.png)
 
-Visualiseringen **[!UICONTROL Subscription evolution curves]** visar antalet prenumerationer och avbeställningar beroende på **[!UICONTROL Period]** som valts i listrutan.
+The **[!UICONTROL Subscription evolution curves]** visualisering visar antalet prenumerationer och avbeställningar beroende på **[!UICONTROL Period]** som valts i listrutan.
 
-Med **[!UICONTROL Overall subscription evolution]** kan du se hur dina prenumeranter utvecklas under olika tidsperioder.
+The **[!UICONTROL Overall subscription evolution]** gör att du kan se hur era prenumeranter utvecklas under olika tidsperioder.

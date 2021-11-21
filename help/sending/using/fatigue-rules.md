@@ -38,7 +38,7 @@ Relaterade ämnen:
 
 Så här skapar och konfigurerar du en **[!UICONTROL Fatigue]**-typologiregel:
 
-1. Klicka på Adobe Campaign logotyp i det övre vänstra hörnet av gränssnittet och välj **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]**.
+1. Klicka på Adobe Campaign logotyp i det övre vänstra hörnet av gränssnittet och välj sedan **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]**.
 
    ![](assets/fatigue4.png)
 

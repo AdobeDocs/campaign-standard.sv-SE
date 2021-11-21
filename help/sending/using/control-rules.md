@@ -38,7 +38,7 @@ En uppsättning standardregler säkerställer standardkontrollerna. Tabellen ned
 | **[!UICONTROL Check proof size]** | Alla | Efter målinriktning | Genererar ett felmeddelande om målgruppen för korrektur överstiger 100 mottagare. |
 | **[!UICONTROL Check social network sharing link]** | E-post | I början av personaliseringen | Kontrollerar om det finns en länk till en spegelsida när en länk för delning av sociala nätverk (ViralLinks) inkluderas i innehållet. |
 | **[!UICONTROL Check subject]** | E-post | I början av personaliseringen | Kontrollerar att ämnet och avsändaradressen inte innehåller specialtecken som kan orsaka problem för vissa e-postöverföringsagenter, och kontrollerar att meddelandets ämne har fyllts i. |
-| **[!UICONTROL Check unsubscription link]** | E-post | I början av personaliseringen | Kontrollerar om det finns minst en avanmälan (avanmälan)-URL i varje innehåll (HTML och text). |
+| **[!UICONTROL Check unsubscription link]** | E-post | I början av personaliseringen | Kontrollerar om det finns minst en avanmälan (avanmälan)-URL i varje innehåll (HTML och Text). |
 | **[!UICONTROL Check URL labels]** | E-post | I början av personaliseringen | Kontrollerar att varje spårnings-URL har en etikett. |
 | **[!UICONTROL Check URLs]** | E-post | I början av personaliseringen | Kontrollerar spårnings-URL:er (närvaron av tecknet &quot;&amp;&quot;). |
 
@@ -46,11 +46,11 @@ En uppsättning standardregler säkerställer standardkontrollerna. Tabellen ned
 
 Kontrollregler kan tillämpas i olika faser av leveransens livscykel:
 
-* **I början av målgruppsanpassningen**: Kontrollregeln kan tillämpas i den här fasen så att personaliseringssteget inte körs i händelse av ett fel.
+* **I början av målinriktningen**: Kontrollregeln kan tillämpas i den här fasen så att personaliseringssteget inte körs i händelse av ett fel.
 
-* **Efter mål**: Om du kör efter målanpassning kan du känna till målets volym för att kunna tillämpa kontrollregeln.
+* **Efter målinriktning**: Om du kör efter målanpassning kan du känna till målets volym för att kunna tillämpa kontrollregeln.
 
-   Kontrollregeln **Kontrollera korrekturstorlek** gäller till exempel efter målläget: den här regeln förhindrar förberedelse av meddelandepersonalisering om det finns för många korrekturmottagare.
+   Till exempel **Kontrollera korrekturstorlek** kontrollregeln tillämpas efter målinriktningsfasen: den här regeln förhindrar förberedelse av meddelandepersonalisering om det finns för många korrekturmottagare.
 
 * **I början av personaliseringen**: Gäller när kontrollen gäller godkännande av meddelandepersonalisering. Anpassning av meddelanden utförs under analysfasen.
 

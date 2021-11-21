@@ -31,7 +31,7 @@ På skärmen för e-postkonfiguration kan du definiera parametrar för e-postkan
    I avsnittet **[!UICONTROL Header parameters of sent emails]** visas de auktoriserade e-postadresser som du kan använda för att skicka e-post till dina mottagare (avsändaradress) och för att de ska kunna skicka tillbaka automatiska svar som asynkrona studsar, frånvaromeddelanden, o.s.v. (feladress).  Adobe Campaign kontrollerar att de angivna adresserna är giltiga under fasen för förberedelse av meddelande. Det här operativläget ser till att inga adresser används som kan utlösa levererbarhetsproblem.
    * Både avsändar- och feladresser konfigureras av Adobe. Dessa fält får inte vara tomma.
    * Du kan inte redigera dessa fält. Om du vill uppdatera en adress kontaktar du Adobes kundtjänstteam.
-   * Om du vill lägga till ytterligare en adress kan du använda [Kontrollpanelen](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) för att konfigurera en ny underdomän eller kontakta Adobes kundtjänstteam. Observera att om flera masker används kommer de att avgränsas med kommatecken.
+   * Om du vill lägga till ytterligare en adress kan du använda [Kontrollpanelen](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=sv) för att konfigurera en ny underdomän eller kontakta Adobes kundtjänstteam. Observera att om flera masker används kommer de att avgränsas med kommatecken.
    * Det är en god vana att ange adresser med en stjärna som *@yourdomain.com: det gör att du kan använda alla adresser som slutar med ditt underdomännamn.
 
 * **levererbarhet**
@@ -57,7 +57,7 @@ På skärmen för e-postkonfiguration kan du definiera parametrar för e-postkan
 
    >[!IMPORTANT]
    >
-   >Det maximala antalet återförsök och den minsta fördröjningen mellan återförsök baseras nu på hur bra en IP fungerar både historiskt och för närvarande på en viss domän. Inställningarna **[!UICONTROL Retry period]** och **[!UICONTROL Number of retries]** i Campaign ignoreras.
+   >Det maximala antalet återförsök och den minsta fördröjningen mellan återförsök baseras nu på hur bra en IP fungerar både historiskt och för närvarande på en viss domän. The **[!UICONTROL Retry period]** och **[!UICONTROL Number of retries]** inställningarna i Campaign ignoreras.
 
    <!--This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**). By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.-->
 
@@ -90,7 +90,7 @@ Administratörer **[!UICONTROL Email processing rules]** kan komma åt informati
 >
 >E-postdomänerna och MX-reglerna hanteras nu automatiskt<!--by the Adobe Campaign Enhanced MTA (Message Transfer Agent)--> och kan inte ändras.
 
-* **DKIM (DomainKeys Identified Mail)** Signering via e-post utförs för alla meddelanden med alla domäner. Det signerar inte med **avsändar-ID**, **DomainKeys** eller **S/MIME**.
+* **DKIM (DomainKeys Identified Mail)** Signering med e-postautentisering utförs för alla meddelanden med alla domäner. Den signerar inte med **Avsändarens ID**, **DomainKeys**, eller **S/MIME**.
 * MX-reglerna anpassar automatiskt ditt dataflöde efter domän baserat på ditt eget tidigare anseende och på feedback i realtid från de domäner du skickar e-post till.
 
 <!--Note that the email domains and the MX rules are now managed by the Adobe Campaign Enhanced MTA:
@@ -161,7 +161,7 @@ Försök att skicka tillfälligt olevererade meddelanden kan utföras automatisk
 
 >[!IMPORTANT]
 >
->Den minsta fördröjningen mellan återförsök och det maximala antalet återförsök som ska utföras baseras nu på hur bra en IP fungerar både historiskt och för närvarande på en viss domän. Inställningarna **[!UICONTROL Retry period]** och **[!UICONTROL Max. number of retries]** i Campaign ignoreras.
+>Den minsta fördröjningen mellan återförsök och det maximala antalet återförsök som ska utföras baseras nu på hur bra en IP fungerar både historiskt och för närvarande på en viss domän. The **[!UICONTROL Retry period]** och **[!UICONTROL Max. number of retries]** inställningarna i Campaign ignoreras.
 
 Inställningen för **leveranstid** (som definieras i avsnittet [Parametrar för giltighetsperiod](#validity-period-parameters)) som **har konfigurerats i Campaign gäller fortfarande, men bara upp till 3,5 dagar**. Då tas alla meddelanden i kön för nya försök bort och skickas tillbaka som en studsning. Mer information om leveransfel finns i det här [avsnittet](../../sending/using/understanding-delivery-failures.md#about-delivery-failures).
 
@@ -308,35 +308,35 @@ Avsnittet **[!UICONTROL Access authorization]** innehåller följande parametrar
 
 ## Äldre inställningar {#legacy-settings}
 
-Om du **INTE** kör den senaste versionen av Campaign gäller fortfarande de parametrar och gränssnittsavsnitt som beskrivs nedan för dig.
+Om du **NOT** om du kör den senaste versionen av Campaign gäller fortfarande de parametrar och gränssnittsavsnitt som beskrivs nedan för dig.
 
 ### Återförsök {#legacy-retries}
 
-Inställningarna **[!UICONTROL Retries]** i [konfigurationsmenyn](#email-channel-parameters) och i [Skicka-parametrarna](#retries-parameters) för e-postegenskaperna anger hur många försök som ska utföras dagen efter att sändningen har startats (**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**) och den minsta fördröjningen mellan försök (**[!UICONTROL Retry period]**).
+The **[!UICONTROL Retries]** inställningarna i [Konfigurationsmeny](#email-channel-parameters) och i [Skickar parametrar](#retries-parameters) av e-postegenskaperna anger hur många försök som ska utföras dagen efter att sändningen har startats (**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**) och minsta fördröjning mellan återförsök (**[!UICONTROL Retry period]**).
 
 Antalet försök kan ändras globalt (kontakta den tekniska administratören för Adobe) eller för varje leverans- eller leveransmall.
 
-Som standard schemaläggs fem återförsök till den första dagen med ett minsta intervall på en timme, som sprids ut över dygnets 24 timmar. Ett nytt försök per dag programmeras efter detta och fram till leveransdatumet, som definieras globalt i avsnittet **[!UICONTROL Delivery parameters]** på menyn **[!UICONTROL Configuration]**, eller i avsnittet **[!UICONTROL Validity period]** på leveransnivån (se avsnittet [Leveranstid](#legacy-delivery-duration) nedan).
+Som standard schemaläggs fem återförsök till den första dagen med ett minsta intervall på en timme, som sprids ut över dygnets 24 timmar. Ett nytt försök per dag planeras efter detta och fram till leveransdatumet, som definieras globalt i **[!UICONTROL Delivery parameters]** i **[!UICONTROL Configuration]** eller på **[!UICONTROL Validity period]** på leveransnivå (se [Leveransens varaktighet](#legacy-delivery-duration) nedan).
 
 ### Leveransens varaktighet {#legacy-delivery-duration}
 
-Med parametern **[!UICONTROL Message delivery duration]** i [Konfigurationsmenyn](#email-channel-parameters) kan du ange den tidsram i vilken ett meddelande i leveransen som påträffar ett tillfälligt fel eller en mjuk avhoppning kommer att provas igen.
+The **[!UICONTROL Message delivery duration]** -parametern i [Konfigurationsmeny](#email-channel-parameters) gör att du kan ange den tidsram inom vilken ett meddelande i leveransen som påträffar ett tillfälligt fel eller ett försök att studsa kommer att göras igen.
 
-Med parametern **[!UICONTROL Delivery duration]** eller **[!UICONTROL Validity limit for sending messages]** i avsnittet [Giltighetsperiodens parametrar](#validity-period-parameters) kan du ange under vilken tid meddelandena kan skickas.
+The **[!UICONTROL Delivery duration]** eller **[!UICONTROL Validity limit for sending messages]** -parametern i [Giltighetsperiodens parametrar](#validity-period-parameters) kan du ange hur länge meddelanden kan skickas.
 
 ### Regler för e-postbearbetning {#legacy-email-processing-rules}
 
-Reglerna **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** och **[!UICONTROL Domain management]** kan nås och ändras av administratörer via **[!UICONTROL Administration > Channels > Email > Email processing rules]** [menyn](#email-processing-rules).
+The **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** och **[!UICONTROL Domain management]** regler kan nås och ändras av administratörer via **[!UICONTROL Administration > Channels > Email > Email processing rules]** [meny](#email-processing-rules).
 
 ### Kvalifikation av studsmeddelanden {#legacy-bounce-mail-qualification}
 
-Om du vill visa en lista över de olika gränserna och tillhörande feltyper och orsaker klickar du på logotypen **Adobe** längst upp till vänster och väljer sedan **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
+Om du vill visa de olika gränserna och deras associerade feltyper och orsaker klickar du på **Adobe** logotyp, i det övre vänstra hörnet och välj **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 
 Satser kan ha följande kvalificeringsstatus:
 
 * **[!UICONTROL To qualify]**: studsposten måste kvalificeras. Kvalificering måste utföras av Deliverability-teamet för att säkerställa att plattformens leveransbarhet fungerar korrekt. Så länge som det inte är kvalificerat används studsmeddelandet inte för att utöka listan med regler för e-postbearbetning.
-* **[!UICONTROL Keep]**: studsmeddelandet har kvalificerats och kommer att användas av  **Update for** deliverability-arbetsflödet som ska jämföras med befintliga regler för e-postbearbetning och berika listan.
-* **[!UICONTROL Ignore]**: studsmeddelandet har kvalificerats men kommer inte att användas av  **Update for** deliverability workflow. Det skickas alltså inte till klientinstanserna.
+* **[!UICONTROL Keep]**: studsmeddelandet är kvalificerat och kommer att användas av **Uppdatering för leverans** arbetsflöde som ska jämföras med befintliga regler för e-postbearbetning och berika listan.
+* **[!UICONTROL Ignore]**: studsmeddelandet har kvalificerats men kommer inte att användas av **Uppdatering för leverans** arbetsflöde. Det skickas alltså inte till klientinstanserna.
 
 >[!NOTE]
 >
@@ -346,6 +346,6 @@ Satser kan ha följande kvalificeringsstatus:
 
 ### Levererad indikatorrapportering {#legacy-delivered-status-report}
 
-I vyn **[!UICONTROL Summary]** för varje meddelande kommer procentandelen **[!UICONTROL Delivered]** att gradvis öka under hela giltighetsperioden för leveransen, allt eftersom mjuka och hårda studsar rapporteras tillbaka.
+I **[!UICONTROL Summary]** för varje meddelande, **[!UICONTROL Delivered]** Procentandelen kommer gradvis att öka under hela leveransperioden, allt eftersom de mjuka och hårda studenterna rapporteras tillbaka.
 
-Mjuka studsmeddelanden visas som **[!UICONTROL Failed]** efter dag 1 av leveransen, och de provas på nytt varje ytterligare dag i giltighetsperioden för leveransen.
+Mjuka studsmeddelanden visas som **[!UICONTROL Failed]** efter leveransdag ett av leveransdatumet och de provas på nytt varje ytterligare dag i leveransens giltighetsperiod.

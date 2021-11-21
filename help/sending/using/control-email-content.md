@@ -29,18 +29,18 @@ Följ nedanstående principer när du utformar ditt meddelandeinnehåll:
    <!--**Subject**: Avoid excessive capitalization and punctuation, and words that are frequently used by spammers ("Win", "Free", etc.).-->
 * [Optimering av personalisering och sändningstid](#perso-send-time-optimization): genom att personalisera innehåll och definiera en sändningstid per mottagare ökar chanserna för att meddelandet öppnas.
 * Bilder och text: respekterar ett bra förhållande mellan text och bild (till exempel 60 % text och 40 % bilder).
-* [Unsubscription ](#opt-out) linkor and landing page: länken för att avbeställa prenumerationer är viktig. Den måste vara synlig och giltig och formuläret måste vara funktionellt.
-* Förhandsgranska: Använd de verktyg som Adobe Campaign erbjuder för att kontrollera och optimera innehållet i e-postmeddelandet ([skräppostanalys](#anti-spam-analysis), [E-poståtergivning](#message-responsiveness)).
+* [Länk för att avbryta prenumeration](#opt-out) och landningssida: länken för att avbeställa prenumerationer är viktig. Den måste vara synlig och giltig och formuläret måste vara funktionellt.
+* Förhandsgranska: använda de verktyg som Adobe Campaign erbjuder för att kontrollera och optimera innehållet i e-postmeddelandet ([Analys av skräppostskydd](#anti-spam-analysis), [E-poståtergivning](#message-responsiveness)).
 
-Fler tips om hur du kan optimera slutprodukten när du utformar innehåll finns i [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html).
+Fler tips om hur du optimerar slutprodukten när du utformar innehåll finns i [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html).
 
 >[!NOTE]
 >
->Mer information om hur du redigerar e-postinnehåll finns i [e-postdesigneröversikten](../../designing/using/designing-content-in-adobe-campaign.md) och [Bästa praxis för meddelandedesign](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices).
+>Mer information om hur du redigerar e-postinnehåll finns i [Översikt över e-postdesignern](../../designing/using/designing-content-in-adobe-campaign.md) och [Bästa praxis för meddelandedesign](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices).
 
 ## Avsändarens namn och adress {#sender-name}
 
-Vissa Internet-leverantörer kontrollerar giltigheten för avsändaradressen (**[!UICONTROL From]**) innan meddelanden accepteras. En felformaterad adress kan leda till att den nekas av den mottagande servern.
+Vissa Internetleverantörer kontrollerar avsändaradressens giltighet (**[!UICONTROL From]**) innan du accepterar meddelanden. En felformaterad adress kan leda till att den nekas av den mottagande servern.
 
 ![](assets/delivery_content_edition16.png)
 
@@ -58,7 +58,7 @@ Om du vill öka öppningshastigheten för dina meddelanden kan du även manuellt
 
 När meddelandet analyseras kontrollerar en typologiregel som standard om en avanmälningslänk har inkluderats och genererar en varning om den saknas. Mer information om hur du hanterar länkar finns i [det här avsnittet](../../designing/using/links.md).
 
-Du måste kontrollera att avanmälningslänken fungerar som den ska innan du skickar iväg den. När du till exempel [skickar korrekturet](../../sending/using/sending-proofs.md), kontrollerar du att länken är giltig, att formuläret är online och att valideringen av detta kontrollerar rutorna **[!UICONTROL No longer contact]**. Du bör göra den här kontrollen systematiskt eftersom det alltid är möjligt att göra mänskliga fel när du anger länken eller när du ändrar formuläret. Mer information om hur du hanterar anmälan och avanmälan finns i [det här avsnittet](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md).
+Du måste kontrollera att avanmälningslänken fungerar som den ska innan du skickar iväg den. När [skicka korrektur](../../sending/using/sending-proofs.md)kontrollerar du att länken är giltig, att formuläret är online och att valideringen kontrollerar att **[!UICONTROL No longer contact]** rutor. Du bör göra den här kontrollen systematiskt eftersom det alltid är möjligt att göra mänskliga fel när du anger länken eller när du ändrar formuläret. Mer information om hur du hanterar anmälan och avanmälan finns i [det här avsnittet](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md).
 
 ![](assets/optin_landingpage_3.png)
 
@@ -70,9 +70,9 @@ Begäran om ytterligare bekräftelse är inte tillförlitlig: en användare kan 
 
 ## Analys av skräppostskydd {#anti-spam-analysis}
 
-Adobe Campaign meddelanderedigerare integrerar en **skräppostanalys** som gör att du kan poängsätta e-postmeddelanden för att avgöra om ett meddelande löper risk att betraktas som skräppost av de skräppostverktyg som används vid mottagande. Mer information finns i [Förhandsvisa meddelanden](../../sending/using/previewing-messages.md).
+Adobe Campaign meddelanderedigerare integrerar en **Analys av skräppostskydd** som gör det möjligt att poängsätta e-postmeddelanden för att avgöra om ett meddelande löper risk att betraktas som skräppost av de antispam-verktyg som används vid mottagande. Mer information finns i [Förhandsgranska meddelanden](../../sending/using/previewing-messages.md).
 
-Klicka på **[!UICONTROL Preview]** i meddelandets redigerare. Ett meddelande varnar dig om skräppostkontrollen har upptäckt en hög risk för det här meddelandet. Klicka på **[!UICONTROL Anti-spam analysis]** om du vill visa information.
+Klicka på **[!UICONTROL Preview]**. Ett meddelande varnar dig om skräppostkontrollen har upptäckt en hög risk för det här meddelandet. Klicka **[!UICONTROL Anti-spam analysis]** för att visa information.
 
 ![](assets/sending_anti-spam_analysis.png)
 

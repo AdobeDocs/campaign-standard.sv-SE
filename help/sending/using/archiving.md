@@ -21,7 +21,7 @@ Du kan konfigurera Adobe Campaign att behålla en kopia av e-postmeddelanden som
 
 Om din organisation behöver arkivera alla utgående e-postmeddelanden för att uppfylla kraven kan du aktivera den funktionen. Det gör att du kan skicka en exakt dold kopia av motsvarande skickade meddelanden till en e-postadress (osynlig för leveransmottagarna) som du måste ange.
 
-När den är aktiverad måste du aktivera e-postkopia från alternativet **[!UICONTROL Archive emails]** i e-postleveransmallen.
+När funktionen är aktiverad måste du aktivera e-postkopia från **[!UICONTROL Archive emails]** i e-postleveransmallen.
 
 >[!NOTE]
 >
@@ -42,17 +42,17 @@ När den är aktiverad måste du aktivera e-postkopia från alternativet **[!UIC
 
 ## Aktivera e-postarkivering {#activating-email-archiving}
 
-När du har aktiverat funktionen för e-postkopia aktiveras den i [e-postmallen](../../start/using/marketing-activity-templates.md), via ett dedikerat alternativ:
+När funktionen är aktiverad aktiveras e-postkopia i [e-postmall](../../start/using/marketing-activity-templates.md), via ett dedikerat alternativ:
 
-1. Gå till **Resources** > **Mallar** > **Leveransmallar**.
-1. Duplicera den färdiga **[!UICONTROL Send via email]**-mallen.
+1. Gå till **Resurser** > **Mallar** > **Leveransmallar**.
+1. Duplicera färdiga **[!UICONTROL Send via email]** mall.
 1. Markera den duplicerade mallen.
-1. Klicka på knappen **[!UICONTROL Edit properties]** för att redigera mallens egenskaper.
+1. Klicka på **[!UICONTROL Edit properties]** om du vill redigera mallens egenskaper.
 1. Expandera avsnittet **[!UICONTROL Send]**.
-1. Markera rutan **[!UICONTROL Archive emails]** om du vill behålla en kopia av alla skickade meddelanden för varje leverans baserat på den här mallen.
+1. Kontrollera **[!UICONTROL Archive emails]** om du vill behålla en kopia av alla skickade meddelanden för varje leverans baserat på den här mallen.
 
    ![](assets/email_archiving.png)
 
 >[!NOTE]
 >
->Om e-postmeddelanden som skickas till BCC-adressen öppnas och klickas igenom, kommer detta att beaktas i **[!UICONTROL Total opens]** och **[!UICONTROL Clicks]** från sändningsanalysen, vilket kan orsaka felberäkningar.
+>Om e-postmeddelanden som skickas till BCC-adressen öppnas och klickas igenom, kommer detta att beaktas i **[!UICONTROL Total opens]** och **[!UICONTROL Clicks]** från sändningsanalysen, vilket kan orsaka några felberäkningar.

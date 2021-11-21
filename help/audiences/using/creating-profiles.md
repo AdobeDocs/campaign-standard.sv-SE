@@ -52,7 +52,7 @@ Om du exempelvis vill skapa en ny profil direkt i användargränssnittet följer
    * I kategorin **[!UICONTROL Channels]** som innehåller e-postadress, mobiltelefonnummer och avanmälningsinformation kan du se via vilken kanal profilen kan nås.
    * Kategorin uppdateras så snart som **[!UICONTROL No longer contact]** profilen avprenumererar från en kanal.
    * Kategorin innehåller **[!UICONTROL Address]** den postadress som måste fyllas i tillsammans med **[!UICONTROL Address specified]** alternativet att skicka [direktmeddelanden](../../channels/using/about-direct-mail.md) till den här profilen.  Om alternativ **[!UICONTROL Address specified]** inte är markerat utesluts den här profilen från alla direktmeddelanden.
-   * Kategorin **[!UICONTROL Access authorization]** anger profilens organisationsenheter som [hanterar behörigheter](../../administration/using/about-access-management.md). Om du vill lägga till fält för organisation i dina profiler, se avsnittet [Partitionsprofiler](../../administration/using/organizational-units.md#partitioning-profiles) .
+   * The **[!UICONTROL Access authorization]** kategori anger profilens organisationsenheter till [hantera behörigheter](../../administration/using/about-access-management.md). Om du vill lägga till fält för organisation i dina profiler, se avsnittet [Partitionsprofiler](../../administration/using/organizational-units.md#partitioning-profiles) .
    * **[!UICONTROL Traceability]**-kategorin uppdateras automatiskt med information om den användare som skapade eller ändrade profilen.
 
 1. Klicka **[!UICONTROL Create]** för att spara profilen.
@@ -68,4 +68,4 @@ I den här videon visas hur du importerar profiler med ett arbetsflöde.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12)
 
-Ytterligare Campaign Standard om instruktionsvideor finns [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv).
+Det finns fler videor med Campaign Standard om hur man gör [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv).

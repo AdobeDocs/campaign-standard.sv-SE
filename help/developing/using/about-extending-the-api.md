@@ -21,7 +21,7 @@ Det här användningsexemplet innehåller information om utökade fält för anp
 
 >[!NOTE]
 >
->Om du vill publicera API:t måste du ha rollen **[!UICONTROL Datamodel]**.
+>Om du vill publicera API:t måste du ha **[!UICONTROL Datamodel]** roll.
 
 Stegen för att visa utökade fält i det offentliga API:t är följande:
 

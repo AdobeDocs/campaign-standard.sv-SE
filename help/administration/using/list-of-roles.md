@@ -30,10 +30,10 @@ Standardrättigheterna är:
 
    >[!NOTE]
    >
-   >Om du arbetar med Experience Cloud-utlösare måste du ha **[!UICONTROL Administration]**-rättigheten för att kunna komma åt Experience Cloud-utlösarmenyn. Mer information om utlösare för Experience Cloud finns på den här [sidan](../../integrating/using/about-adobe-experience-cloud-triggers.md).
+   >Om du arbetar med Experience Cloud-utlösare behöver du **[!UICONTROL Administration]** höger för att komma åt Experience Cloud-menyn Utlösare. Mer information om utlösare för Experience Cloud finns i detta [page](../../integrating/using/about-adobe-experience-cloud-triggers.md).
 
 * **[!UICONTROL Datamodel]**: Rätt att köra publikationer och skapa anpassade resurser.
-* **[!UICONTROL Generic import]**: Rätt att köra en generisk import av data. För att det här ska fungera måste du länka rollen **[!UICONTROL Generic import]** till rollen **[!UICONTROL Workflow]**.
+* **[!UICONTROL Generic import]**: Rätt att köra en generisk import av data. För att detta ska fungera måste du länka **[!UICONTROL Generic import]** roll till **[!UICONTROL Workflow]** roll.
 * **[!UICONTROL Prepare deliveries]**: Rätt att skapa, ändra, förbereda och ta bort leveranser. Användare med den här rollen kan förbereda leveransen, men kan inte skicka den.
 * **[!UICONTROL Start deliveries]**: Rätt att skapa, ändra, förbereda, skicka och ta bort leveranser.
 * **[!UICONTROL Workflow]**: Rätt att hantera körningen av arbetsflöden (starta, stoppa, pausa, o.s.v.). Användare med den här rollen kan inte skicka en leverans – inte ens i ett arbetsflöde.

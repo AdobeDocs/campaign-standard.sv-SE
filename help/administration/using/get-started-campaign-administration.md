@@ -36,7 +36,7 @@ Observera att administratörsanvändare även kan använda Campaign-kontrollpane
 
 <img src="assets/do-not-localize/icon_menu.svg" width="60px">
 
-De olika administratörsåtgärderna för Adobe Campaign utförs via menyn **[!UICONTROL Administration]** som är tillgänglig när du klickar på Adobe Campaign logotyp i det övre vänstra hörnet. Den här delen av gränssnittet kan bara nås av funktionsadministratörer för plattformen.
+De olika administratörsåtgärderna för Adobe Campaign utförs via **[!UICONTROL Administration]** som du kan använda när du klickar på Adobe Campaign logotyp i det övre vänstra hörnet. Den här delen av gränssnittet kan bara nås av funktionsadministratörer för plattformen.
 
 De olika menyerna är:
 
@@ -44,7 +44,7 @@ De olika menyerna är:
 * [Kanaler](../../administration/using/about-channel-configuration.md): Den här menyn grupperar de tekniska parametrar som är länkade till de olika plattformskanalerna (e-post, mobil) samt typologi och karantänhantering.
 * [Programinställningar](../../administration/using/external-accounts.md): På den här menyn kan du konfigurera olika programelement (externa konton, alternativ, tekniska arbetsflöden).
 * [Utveckling](../../developing/using/data-model-concepts.md): På den här menyn kan du hantera anpassade resurser och komma åt diagnostikverktyg.
-* [Förekomstinställningar](../../administration/using/branding.md): På den här menyn definierar du dina olika varumärken och konfigurerar deras inställningar (logotyp, hantering av spårning, URL-domän för att komma åt landningssidorna, osv.).
+* [Instansinställningar](../../administration/using/branding.md): På den här menyn definierar du dina olika varumärken och konfigurerar deras inställningar (logotyp, hantering av spårning, URL-domän för att komma åt landningssidorna, osv.).
 * [Distribution](../../automating/using/managing-packages.md): Den här menyn grupperar alternativen för paketimport och -export.
 * [Kundstatistik](../../audiences/using/active-profiles.md): Adobe Campaign tillhandahåller en rapport som visar antalet aktiva profiler. Den här rapporten är bara informativ, den har ingen direkt inverkan på faktureringen.
 * [Sekretessverktyg](../../start/using/privacy-management.md): På den här menyn kan du skapa GDPR-åtkomst och ta bort begäranden och spåra deras utveckling.
@@ -53,9 +53,9 @@ De olika menyerna är:
 
 <img src="assets/do-not-localize/icon_users.svg"  width="60px">
 
-Bjud in användare att komma åt programmet och hantera **säkerhetsgrupper**, som är uppsättningar användare som delar samma roller och rättigheter i organisationen. Som standard erbjuder Adobe Campaign en uppsättning **roller** som gör att du kan definiera enhetsauktoriseringar som tilldelats användare och användargrupper. I kombination med **organisationsenheter** ger roller användarna en filtrerad vy av gränssnittet och definierar deras åtkomst till de olika funktionerna.
+Bjud in användare att komma åt programmet och hantera **säkerhetsgrupper**, som är uppsättningar användare som delar samma roller och rättigheter inom organisationen. Som standard erbjuder Adobe Campaign en uppsättning **roller** som gör att du kan definiera enhetsbehörigheter som tilldelats användare och användargrupper. Kombinerat med **organisationsenheter**, ger roller användarna en filtrerad vy av gränssnittet och definierar deras åtkomst till de olika funktionerna.
 
-Med Campaign-standarden kan ni också övervaka säkerhetsrelaterad information. Du kan hämta information om dataexport som utförs av användare via **[!UICONTROL Export audits]**-skärmen och använda **[!UICONTROL Licenses]**-skärmen för att övervaka alla installerade Campaign-licenser inom organisationen, samt annan information, till exempel versionsnummer, frisläppningsversion och avtalsvillkor.
+Med Campaign-standarden kan ni också övervaka säkerhetsrelaterad information. Du kan hämta information om dataexporter som utförs av användare via **[!UICONTROL Export audits]** och använda **[!UICONTROL Licenses]** skärm för att övervaka alla installerade Campaign-licenser inom organisationen samt annan information, till exempel build-nummer, releaseversion och avtalsvillkor.
 
 Läs mer:
 
@@ -70,11 +70,11 @@ Läs mer:
 
 <img src="assets/do-not-localize/icon_channels.svg" width="60px">
 
-Alla kommunikationskanaler i Adobe Campaign måste vara rätt konfigurerade för att effektivt kunna skicka meddelanden.,Med **[!UICONTROL Channel]**-menyn kan du hantera de tekniska parametrar som är länkade till de olika kanalerna.
+Alla kommunikationskanaler i Adobe Campaign måste vara korrekt konfigurerade för att effektivt kunna skicka meddelanden.,The **[!UICONTROL Channel]**  kan du hantera de tekniska parametrar som är länkade till de olika kanalerna.
 
-Konfigurera olika **e-postparametrar**: bearbetningsregler för studsar, karantän, e-postegenskaper och routningsparametrar, typoregler. Definiera routningskonfigurationer och egenskaper för **SMS**-kanalen samt för SMS-kodning och format.
+Konfigurera olika **e-post** parametrar: bearbetningsregler för studsar, karantän, e-postegenskaper och routningsparametrar, typoregler. Definiera routningskonfigurationer och egenskaper för **SMS** samt SMS-kodning och format.
 
-Konfigurera **mobilprogram** för att kunna skicka meddelanden i appen och push-meddelanden med Adobe Experience Platform SDK:er.
+Konfigurera **mobilappar** för att kunna skicka meddelanden i appen och skicka push-meddelanden med Adobe Experience Platform SDK:er.
 
 Läs mer:
 
@@ -91,7 +91,7 @@ Campaign Standarden innehåller olika programelement som kan konfigureras efter 
 
 Konfigurera **externa konton** som används för att ansluta Adobe Campaign till externa servrar. Få åtkomst till målmappningar för Campaign Standarder och övervaka plattformen med **tekniska arbetsflöden**.
 
-Definiera ett eller flera **varumärken** för din organisation och konfigurera sändning av **meddelanden i realtid** i programmet om det finns viktiga systemaktiviteter.
+Definiera en eller flera **varumärken** för din organisation och konfigurera sändning av **meddelanden i realtid** i programmet om det rör sig om viktiga systemaktiviteter.
 
 Läs mer:
 
