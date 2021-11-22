@@ -47,7 +47,7 @@ Se ett exempel i [det här avsnittet](#example--adjusting-vertical-alignment-and
 ## Justera formatinställningar {#adjusting-style-settings}
 
 1. Markera ett element i e-postmeddelandet. Mer information finns i [Markera ett element](#selecting-an-element).
-1. Justera inställningarna efter dina behov. Varje markerat element har olika inställningar.
+1. Justera inställningarna efter dina behov. För varje markerat element finns olika inställningar.
 
    Du kan infoga bakgrunder, ändra storlek, ändra vågrät eller lodrät justering, hantera färger, lägga till [utfyllnad eller marginal](#selecting-an-element)och så vidare.
 

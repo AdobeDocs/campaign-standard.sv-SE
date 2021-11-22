@@ -83,7 +83,7 @@ Adobe.io deklarerar din ogiltiga URI: Den URI som du begär är förmodligen int
 
 * **När du gör en begäran till Adobe.io får du {&quot;error_code&quot;:&quot;401013&quot;,&quot;message&quot;:&quot;Oauth-token är inte giltig&quot;}**
 
-Antingen är din token ogiltig (felaktigt IMS-anrop som används för att generera en token) eller så har din token gått ut.
+Antingen är din token ogiltig (felaktigt IMS-anrop används för att generera en token) eller så har din token gått ut.
 
 * **Jag kan inte se min profil efter att jag har skapat den**
 

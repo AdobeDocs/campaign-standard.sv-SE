@@ -17,10 +17,10 @@ ht-degree: 5%
 
 # Deklarera parametrarna i den externa signalaktiviteten {#declaring-the-parameters-in-the-external-signal-activity}
 
-Det första steget för att anropa ett arbetsflöde med parametrar är att deklarera dem i en **[!UICONTROL External signal]** aktivitet.
+The first step to call a workflow with parameters is to declare them in an **[!UICONTROL External signal]** activity.
 
-1. Öppna **[!UICONTROL External signal]** väljer du **[!UICONTROL Parameters]** -fliken.
-1. Klicka på **[!UICONTROL Create element]** och sedan ange namn och typ för varje parameter.
+1. Open the **[!UICONTROL External signal]** activity, then select the **[!UICONTROL Parameters]** tab.
+1. Click the **[!UICONTROL Create element]** button, then specify the name and type of each parameter.
 
    >[!CAUTION]
    >
@@ -28,4 +28,4 @@ Det första steget för att anropa ett arbetsflöde med parametrar är att dekla
 
    ![](assets/extsignal_declaringparameters_1.png)
 
-1. När parametrarna har deklarerats slutför du arbetsflödeskonfigurationen och kör den.
+1. Once the parameters have been declared, finish the workflow configuration, then run it.
