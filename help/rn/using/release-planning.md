@@ -11,7 +11,7 @@ exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: 85c42129e105999483d23865f2534c90406251e4
 workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -21,15 +21,15 @@ Adobe förbättrar sina lösningar kontinuerligt genom att lägga till nya funkt
 
 Alla instanser av Adobe Campaign Standard uppgraderas i varje ny version. Ingen åtgärd krävs för att uppgradera.
 
-Uppgraderingar distribueras i två faser. För det första uppgraderas Stage-instanser så att du kan testa nya funktioner och anpassa konfigurationen om det behövs. Produktionsinstanser uppgraderas sedan.
+Uppgraderingar distribueras i två faser. För det första uppgraderas stadieinstanserna så att du kan testa nya funktioner och anpassa din konfiguration vid behov. Produktionsinstanser uppgraderas sedan.
 
-Alla releasedatum kan ändras: besöka den här sidan regelbundet för att söka efter uppdateringar.
+Alla versionsdatum kan ändras: besöka den här sidan regelbundet för att söka efter uppdateringar.
 
-## Version 22.1 - februari 2022 {#release-22-1-release}
+## Version 22.1 – februari 2022-versionen {#release-22-1-release}
 
 Miljöuppdateringar sker stegvis under de angivna tidsramarna nedan. Exakta datum meddelas till varje kund via e-post.
 
-Detaljerad information om den här versionen finns i [Versionsinformation](../../rn/using/release-notes.md) på uppgraderingsdatumet för scenmiljön.
+Detaljerad information om denna version finns i [versionsinformationen](../../rn/using/release-notes.md) när uppgraderingarna av stadiemiljön startar.
 
 <table>
  <thead>
@@ -41,11 +41,11 @@ Detaljerad information om den här versionen finns i [Versionsinformation](../..
  <tbody>
   <tr>
    <td>Stadie<br /> </td>
-   <td>8-9 feb 2022<br /> </td>
+   <td>8–9 februari 2022<br /> </td>
   </tr>
   <tr>
    <td>Produktion<br /> </td>
-   <td>15-22 feb 2022<br /> </td>
+   <td>15–22 februari 2022<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -68,11 +68,11 @@ S: Nej. Under en instansuppgradering är det inte säkert att databasen är till
 
 **F: Kommer meddelandena att fortsätta att skickas?**
 
-S: Nej. Meddelanden skickas inte inom några minuter. När uppgraderingen är klar startas processerna om automatiskt.
+S: Nej. Meddelanden skickas inte inom några minuter. Processerna startas om automatiskt när uppgraderingen är klar.
 
 **F: Kommer arbetsflödena att fortsätta att köras och skicka leveranserna?**
 
-S: Nej. Under versionsuppgraderingen stoppas både arbetsflödesservern och MTA. Det innebär att arbetsflöden inte körs och att leveranser inte skickas inom några minuter. Ingen åtgärd krävs: Arbetsflödena startar om så snart instansen har uppgraderats.
+S: Nej. Under versionsuppgraderingen stoppas både arbetsflödesservern och MTA. Detta innebär att arbetsflöden inte kan köras och att leveranser inte skickas på några minuter. Ingen åtgärd krävs: Arbetsflödena startar om så snart instansen har uppgraderats.
 
 **F: Fungerar det fortfarande att spåra länkar i meddelanden under uppgraderingen?**
 

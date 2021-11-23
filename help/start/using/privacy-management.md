@@ -11,7 +11,7 @@ exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '963'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ För att underlätta beredskapen gällande din integritet kan du hantera förfr�
 
 * **Åtkomsträttigheterna** är den registrerades rätt att från personuppgiftsansvarige få bekräftelse på om personuppgifter som rör dem behandlas eller inte, var de befinner sig och för vilket syfte. Den personuppgiftsansvarige ska tillhandahålla en kostnadsfri kopia av personuppgifterna i elektroniskt format.
 
-* Kallas även datautsuddgummi, **Rätt att glömma** (framställan om radering) ger den registrerade rätt att låta den registrerade radera sina personuppgifter, upphöra med vidare spridning av uppgifterna och eventuellt låta tredje part stoppa behandlingen av uppgifterna.
+* **Rätten att glömmas** (förfrågan om borttagning), även känd som Radering av data, ger den registrerade rätt att låta den personuppgiftsansvarige radera sina personuppgifter, upphöra med ytterligare spridning av uppgifterna och eventuellt få tredje part att stoppa behandlingen av uppgifterna.
 
 Se [implementeringsstegen](../../start/using/privacy-requests.md#about-privacy-requests) för att läsa om hur du kan skapa förfrågningar om **åtkomst** och **borttagning** och hur Adobe Campaign bearbetar dem.
 
