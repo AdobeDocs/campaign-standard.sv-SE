@@ -8,9 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: a6748b4b-36c5-4961-a599-ace73a8504cc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 26260b9e633d8be1652eeb46c982864a7477da27
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '221'
 ht-degree: 9%
 
 ---
@@ -41,7 +41,7 @@ Externa konton och tekniska arbetsflöden kan bara hanteras av plattformens funk
 
    ![](assets/analytics.png)
 
-The **[!UICONTROL Share KPIs with Adobe Analytics]** det tekniska arbetsflödet startas nu automatiskt och kan visas från den avancerade menyn genom att välja **[!UICONTROL Administration > Application settings > Workflow]**. Det här tekniska arbetsflödet körs automatiskt var 15:e minut och kommer att överföra upp till 6 månaders gamla data i Adobe Analytics.
+The **[!UICONTROL Share KPIs with Adobe Analytics]** det tekniska arbetsflödet startas nu automatiskt och kan visas från den avancerade menyn genom att välja **[!UICONTROL Administration > Application settings > Workflow]**. Det här tekniska arbetsflödet kan behålla upp till sex månaders gamla utsändningar. Observera att det här arbetsflödet är inkrementellt och kommer att överföra data från föregående dag.
 
 ![](assets/analytics_3.png)
 
