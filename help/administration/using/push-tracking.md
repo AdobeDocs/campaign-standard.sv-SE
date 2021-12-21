@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 95d4b9fbb41f5204f387971be3710817a281a8c4
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '954'
 ht-degree: 1%
 
 ---
@@ -232,13 +232,11 @@ För att förstå hur iOS-meddelanden fungerar måste appens tre lägen vara det
 * **Bakgrund**: när programmet inte visas på skärmen men processen inte är stängd. När du dubbelklickar på hemknappen visas vanligtvis alla program som finns i bakgrunden.
 * **Av/stängd**: en app vars process har avbrutits.
 
-Om ett program stängs kommer Apple inte att anropa programmet förrän programmet har startats om. Det innebär att du inte kan veta när meddelandet har tagits emot på iOS.
-
 För att fortfarande ha **[!UICONTROL Impression]** spåra arbete medan programmet finns i bakgrunden som vi måste skicka **[!UICONTROL Content-Available]** för att meddela programmet att en spårning måste göras.
 
 >[!CAUTION]
 >
->iOS Trace är inte korrekt och ska inte ses som tillförlitligt.
+> Om ett program stängs kommer Apple inte att anropa programmet förrän programmet har startats om. Det innebär att du inte kan veta när meddelandet har tagits emot på iOS. </br> På grund av detta kanske iOS Trace inte är korrekt och inte ska ses som tillförlitligt.
 
 För leveranser som skapats före version 21.1 eller leveranser med anpassad mall, se denna [section](../../administration/using/push-tracking.md#about-push-tracking).
 
