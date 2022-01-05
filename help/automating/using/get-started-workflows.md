@@ -8,10 +8,10 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 13%
+source-wordcount: '553'
+ht-degree: 12%
 
 ---
 
@@ -33,6 +33,10 @@ Arbetsflöden kan användas i olika sammanhang, till exempel:
 * Datahantering (ETL) för att hantera data.
 * Importera data till Campaign-databasen.
 * Tekniska processer som rensning av databaser, återställning av spårningsinformation osv.
+
+>[!IMPORTANT]
+>
+> Adobe rekommenderar att man inte kör fler än 20 aktiva arbetsflöden samtidigt och prioriterar och sprider arbetsflödet över tid. Mer information finns i [den här sidan](../../automating/using/best-practices-workflows.md).
 
 ## Arbetsflödesaktiviteter {#workflow-activities}
 

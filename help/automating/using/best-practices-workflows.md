@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 84%
+source-wordcount: '1200'
+ht-degree: 80%
 
 ---
 
@@ -47,12 +47,15 @@ Du kan duplicera arbetsflöden. Håll **[!UICONTROL Marketing Activities]** mark
 
 ### Antal arbetsflöden
 
-Som standard rekommenderar vi att du inte kör fler än 20 aktiva arbetsflöden samtidigt. När du har nått den gränsen köas arbetsflöden för att inte påverka prestandan. På samma sätt rekommenderar Adobe att du distribuerar arbetsflödeskörningen över tid.
-I vissa sammanhang kan du behöva köra fler än 20 arbetsflöden. Det gäller inte arbetsflöden som väntar på en schemalagd körning.  Om så är fallet måste du kontrollera användningsexemplen med en Campaign-expert och kontakta Adobes kundtjänst för att höja gränsen.
+Som standard rekommenderar vi **inte köra fler än 20 aktiva arbetsflöden samtidigt** (detta gäller inte arbetsflöden som väntar på en schemalagd körning). När du har nått den gränsen köas arbetsflöden för att inte påverka prestandan.
 
->[!NOTE]
+I vissa sammanhang kan du behöva köra fler än 20 arbetsflöden. Om så är fallet måste du kontrollera användningsexemplen med en Campaign-expert och kontakta Adobes kundtjänst för att höja gränsen.
+
+>[!IMPORTANT]
 >
->Innan du startar ett arbetsflöde [!DNL Campaign Standard] kontrollerar om det finns tillräckligt med fysiskt systemminne för att köra arbetsflödet. Om det inte finns tillräckligt med minne visas ett meddelande om att arbetsflödets körning kommer att fördröjas tills inläsningen på servern går ned och systemminnet ökar.
+>Även om du inte når tröskelvärdet på 20 arbetsflöden rekommenderar Adobe dig att **sprida arbetsflödets körning över tid**. Om du programmerar körningen av arbetsflödena får du bättre prestanda för instansen.
+
+Innan du startar ett arbetsflöde [!DNL Campaign Standard] kontrollerar om det finns tillräckligt med fysiskt systemminne för att köra arbetsflödet. Om det inte finns tillräckligt med minne visas ett meddelande om att arbetsflödets körning kommer att fördröjas tills inläsningen på servern går ned och systemminnet ökar.
 
 ### Frekvens
 

@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 5805bdfa-fb33-4a46-ba1e-7a10b067349b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 9c14fc3de60d8e0304f8a7ebd46e7be34d2e0499
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 81%
+ht-degree: 76%
 
 ---
 
@@ -25,7 +25,7 @@ Mer information om målinriktning av dimensioner och resurser finns i [det här 
 **Exempel 1: Identifiera profiler som är avsedda för leveransen med etiketten &quot;Välkommen tillbaka!&quot;**.
 
 * I det här fallet så är vi ute efter målprofiler.  Vi sätter måldimensionen till **[!UICONTROL Profiles (profile)]**.
-* Vi vill filtrera de valda profilerna enligt leveransetiketten.  Vi väljer därför **[!UICONTROL Delivery logs]**-resursen. På så sätt så filtrerar vi direkt i leverans-loggstabellen, som i sin tur ger bättre prestanda.
+* Vi vill filtrera de valda profilerna enligt leveransetiketten.  Vi väljer därför **[!UICONTROL Delivery logs]**-resursen. På så sätt filtreras vi direkt i leveransloggtabellen, vilket ger bättre prestanda.
 
 ![](assets/targeting_dimension6.png)
 

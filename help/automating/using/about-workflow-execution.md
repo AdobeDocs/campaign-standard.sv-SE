@@ -9,9 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 3b95fc66-d6f4-44b2-be33-925c1109a57f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '353'
 ht-degree: 8%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 8%
 
 Ett arbetsflöde startas alltid manuellt. När programmet väl har startats kan det dock vara inaktivt, beroende på vilken information som har angetts i [Schemaläggare](../../automating/using/scheduler.md) aktivitet.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
-> Adobe rekommenderar att kunderna prioriterar arbetsflödeskörningar och kör upp till tjugo samtidiga arbetsflödeskörningar för att konsekvent uppnå maximala prestanda i alla instanser. Fler än tjugo samtidiga arbetsflödeskörningar kan planeras och kommer att köras sekventiellt som standard. Du kan justera standardinställningarna för maximalt antal samtidiga arbetsflödeskörningar genom att skicka en biljett till Kundtjänst.
+> Adobe rekommenderar att man inte kör fler än 20 aktiva arbetsflöden samtidigt och prioriterar och sprider arbetsflödet över tid. Mer information finns i [den här sidan](../../automating/using/best-practices-workflows.md).
 
 Körningsrelaterade åtgärder (start, stopp, paus osv.) är **asynkron** processer: kommandot sparas och träder i kraft när servern är tillgänglig för att använda det.
 

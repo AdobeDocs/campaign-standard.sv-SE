@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Hjälpcenter för de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som behövs för att använda Campaign Standard. '
 title: Användarhandbok för Campaign Standard
 breadcrumb-title: 'Dokumentation om Adobe Campaign Standard '
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 4c316778c34c14b8d5e5aa1812999ee024a581a0
 workflow-type: tm+mt
-source-wordcount: '1798'
+source-wordcount: '1807'
 ht-degree: 100%
 
 ---
@@ -515,3 +515,4 @@ ht-degree: 100%
       + [Uppdatera en profils geografiska enhet](api/using/updating-a-geographical-unit.md)
       + [Uppdatera attribut för en geografisk enhet](api/using/updating-geographical-unit-attributes.md)
    + [Felsöka](api/using/troubleshooting.md)
++ [Kontrollpanelen i Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=sv)
