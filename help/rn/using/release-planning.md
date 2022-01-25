@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 85c42129e105999483d23865f2534c90406251e4
+source-git-commit: 830b81a8adffd39f00b7568dde56cf482eab0806
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '418'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ Alla versionsdatum kan ändras: besöka den här sidan regelbundet för att sök
 
 Miljöuppdateringar sker stegvis under de angivna tidsramarna nedan. Exakta datum meddelas till varje kund via e-post.
 
-Detaljerad information om denna version finns i [versionsinformationen](../../rn/using/release-notes.md) när uppgraderingarna av stadiemiljön startar.
+Detaljerad information om den här versionen finns i [Tidig versionsinformation](../../rn/using/e-release-notes.md).
 
 <table>
  <thead>
