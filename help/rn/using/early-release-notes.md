@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8bc0b1186e177b6937c1ae72c1f8763c480b12a9
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 100%
+source-wordcount: '684'
+ht-degree: 10%
 
 ---
 
@@ -22,7 +22,7 @@ Den här sidan beskriver nya funktioner, förbättringar och korrigeringar som i
 >
 > Innehållet kan ändras utan föregående meddelande fram till uppgraderingsdatumet för mellanlagringsmiljöerna. Läs mer på [sidan för versionsplanering](../../rn/using/release-planning.md).
 
-## Version 21.3 – september 2021 {#release-21-3---sept-2021}
+## Version 22.1 – februari 2022 {#feb-2022}
 
 
 **Nyheter**
@@ -31,75 +31,46 @@ Den här sidan beskriver nya funktioner, förbättringar och korrigeringar som i
 <table> 
 <thead> 
 <tr> 
-<th> <strong>Enhetligt Experience Cloud-gränssnitt</strong><br /> </th> 
+<th> <strong>Säkerhetsuppdatering för Apache Log4j Security Vulnerabilities</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
 <td>
-<p>Adobe Campaigns huvudfält har ändrats för att ge dig en enhetlig och förbättrad upplevelse av alla produkter och tjänster i Experience Cloud. Dessa förändringar gör livet enklare – bland annat på följande sätt:</p>
-<ul>
-<li>Du kan enklare växla mellan olika organisationer och olika applikationer.</li>
-<li>Användarhjälpen är förbättrad – Experience League tillförs till produkten, sökresultaten innehåller även resultat från användarforum och videoinnehållet har utökats, vilket ger dig enklare tillgång till mer innehåll som hjälper dig att få ut det mesta av programmet. Vi har också lagt till en funktion för feedback direkt i hjälpmenyn, så att du enklare kan rapportera problem eller dela dina idéer.</li>
-<li>Förbättrade meddelanden – listrutan för meddelanden har nu två flikar: en för dina egna produktmeddelanden och en för globala produktmeddelanden.</li>
-</ul>
-<!--<p>For more information refer to the <a href="../../start/using/interface-description.md#top-bar">detailed documentation</a>.
-</p>-->
+<p>Apache log4j har åtgärdat de rapporterade säkerhetsluckorna i version 2.17.1 av Apache log4j. Adobe Campaign Standard använder Apache log4j och i den här versionen ingår den senaste versionen av Apache log4j v2.17.1 </p>
 </td> 
 </tr> 
 </tbody> 
 </table>
 
-<table> 
-<thead> 
-<tr> 
-<th> <strong>Granskningsspår</strong><br /> </th> 
-</tr> 
-</thead> 
-<tbody> 
-<tr> 
-<td>
-<p>Med den nya funktionen för granskningsspår registreras en omfattande lista i realtid över åtgärder och händelser som inträffar i Adobe Campaign. Den innehåller ett sätt att själv få tillgång till en historik med data som kan hjälpa dig att svara på frågor som:</p>
-<ul>
-<li>Vad hände med det här arbetsflödet och vem uppdaterade det senast?</li>
-<li>Vem gjorde de senaste ändringarna?</li>
-<li>Vilket var det tidigare tillståndet?</li>
-</ul>
-<p>Adobe Campaign granskar nu åtgärder för att skapa, redigera och ta bort: arbetsflöden, alternativ och anpassade resurser. Ändringar av dessa objekt spåras också.</p>
-<!--<p>For more information refer to the <a href="../../administration/using/audit.md">detailed documentation</a>.
-</p>-->
-</td> 
-</tr> 
-</tbody> 
-</table>
+**Säkerhetskorrigeringar**
 
-
-<table> 
-<thead> 
-<tr> 
-<th> <strong>Diagnostikläge för arbetsflöde</strong><br /> </th> 
-</tr> 
-</thead> 
-<tbody> 
-<tr> 
-<td>
-<p>Nu kan du köra Campaign-arbetsflöden i diagnostikläge. I det här läget loggas information som kan hjälpa dig att felsöka körningsproblem. Hela körningsplanen loggas om en arbetsflödesfråga som standard tar mer än en minut.</p>
-<!--<p>For more information refer to the <a href="../../administration/using/audit.md">detailed documentation</a>.
-</p>-->
-</td> 
-</tr> 
-</tbody> 
-</table>
+* Ny mekanism för URL-signering för spårning som ingår i den här versionen. Den tidigare funktionen hade inaktiverats för att förhindra ett problem som orsakade att vissa giltiga signerade spårningslänkar blockerades felaktigt efter att ha ändrats av säkerhetsverktyg från tredje part. (CAMP-48983)
 
 **Förbättringar**
 
-* När du skapar en återkommande leverans i ett arbetsflöde som är länkad till ett Adobe Experience Manager-innehåll, kontrolleras nu statusen för innehållsgodkännande innan den skickas.
-* Databasanslutningsgränsen är nu justerad till Campaign-paketet för att undvika anslutningsfel.
-* En konsekvenskontroll har lagts till när index skapas i anpassade resurser och felmeddelandena har förbättrats.
+* Förbättrad bearbetning av rapportdata för att undvika överbelastning av systemet. (CAMP-47578)
+* När du har skickat meddelanden i appen kan du nu välja att inaktivera leveransen. På så sätt kan du ta bort leveransen utan att förlora några rapportdata. (CAMP-48469)
+* För att förhindra problem kan användare inte längre använda samma namn för en anpassad tabellkolumn som den som används för den automatiska primärnyckeln i databasen. `"<dataType><resourceName>Id"`. (CAMP-49358)
+* Nu kan du övervaka leveransen och spåra jobbloggar med nya **Jobbhistorik** nedrullningsbar meny från meddelandets kontrollpanel. (CAMP-49840)
 
 **Felkorrigeringar**
 
-* Korrigerade ett timeout-fel vid import av e-postinnehåll från en URL. (CAMP-49054)
-* Korrigerade ett fel (-69) som orsakades av sessionsslut vid åtkomst till en URL i ett bokmärke eller uppdatering av en sida i webbläsaren. (CAMP-49003, CAMP-48930, CAMP-48894)
-* Ett problem har korrigerats vid synkronisering av regler från den äldre levererbarhetsservern till den nya levererbarhetsservern. (CAMP-48923)
-* Korrigerade ett problem när en e-postmall med HTML-taggar i e-postdesignern lästes in. (CAMP-48243)
+* Ett problem med **Skicka rapporten nu** i Dynamiska rapporter: PDF-genereringsjobben misslyckades med leveranser inklusive multivarianter. (CAMP-49120)
+* Ett problem som gjorde att användare inte kunde uppdatera eller bryta länken till Adobe Experience Manager (AEM)-innehåll från sina Adobe Campaign Standard-leveranser när ett duplicerat innehåll i AEM delade samma nyckel (cq:uuid) har åtgärdats. (CAMP-49161)
+* Korrigerade ett fel vid åtkomst till en instans där sidorna inte lästes in, leveranser inte kunde öppnas eller väntande ändringar inte kunde sparas. (CAMP-50195)
+* Korrigerade ett problem som förhindrade att leveransvarningsvillkor skulle öppnas om fältet **Leveransfilter** som tillämpas enligt detta kriterium inte har fyllts i. (CAMP-49093)
+* Ett problem har korrigerats vid redigering av **Sekundär** -knappen i leveranser i appen som förhindrar att ändringar beaktas. (CAMP-50250)
+* Korrigerade ett fel i japanska förekomster som hindrade användare att välja flera gånger om dagen som **Körningsfrekvens** i **Schemaläggare** aktivitet. (CAMP-50247)
+* Korrigerade ett problem när du arbetade i ett japanskt användargränssnitt som visade ett felmeddelande när du valde en tid i en schemaläggaraktivitet. (CAMP-49289)
+* Korrigerat ett fel med push-meddelanderapporter som visade inaktiverade push-meddelanden som **Öppna** i stället för **Impression**. (CAMP-45980)
+* Korrigerade ett problem som kunde leda till fel när en rapport öppnades. (CAMP-49222)
+* Korrigerade ett problem som kunde leda till att e-postförberedelserna misslyckades efter att en länk till AEM tagits bort. (CAMP-49877)
+* För att lösa olika problem har återförsöksmekanismen förbättrats för leveranser inklusive innehåll som importerats från en URL. (CAMP-48888)
+* Korrigerade ett problem som uppstod efter att ett nytt filter skapades i en anpassad resurs och sedan användes som en avstämningsnyckel på en landningssida. Om den anpassade resursen publicerades igen togs filtret bort från listan över tillgängliga avstämningsnycklar för landningssidan. (CAMP-49516)
+* Korrigerade ett problem på landningssidor vid användning av dynamiska villkor med kryssrutor. (CAMP-48604)
+* Ett problem som uppstod i en **Fråga** aktivitet när filtervillkoret &quot;På eller före oktober&quot; används. När du arbetade från en instans inställd på en europeisk tidszon visade den valda månaden för filtret september i stället för oktober på grund av ett problem när tidszonen konverterades. (CAMP-48602)
+* För att optimera leveransmöjligheterna skickar Adobe Campaign nu e-postmeddelanden med 7-bitars kodning i stället för 8-bitars. Detta förhindrar att mellanliggande relä gör DKIM-signaturen ogiltig vilket kan påverka meddelandets autenticitet. (CAMP-49016)
+* Prestanda vid duplicering av målgrupper har förbättrats för att undvika problem när man arbetar med stora målgrupper. (CAMP-49639)
+* Ett problem som kunde förhindra att ett anpassat filter visade rätt resultat när det användes i en **Fråga** aktivitet. (CAMP-49417)
+* Korrigerade ett fel som visade ett felmeddelande när ett fragment skulle användas i en leverans med kommatecken i dess namn. Problemet har lösts, kommatecken kan nu användas i fragmentnamn. (CAMP-49216)
