@@ -8,9 +8,9 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 8daeb12d-4170-464f-ba33-afb681f72a91
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 5435e1dbfbe08399c488322320ac5bb8e681a79d
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1038'
 ht-degree: 2%
 
 ---
@@ -47,7 +47,7 @@ Se ett exempel i [det här avsnittet](#example--adjusting-vertical-alignment-and
 ## Justera formatinställningar {#adjusting-style-settings}
 
 1. Markera ett element i e-postmeddelandet. Mer information finns i [Markera ett element](#selecting-an-element).
-1. Justera inställningarna efter dina behov. För varje markerat element finns olika inställningar.
+1. Justera inställningarna efter dina behov. Varje markerat element har olika inställningar.
 
    Du kan infoga bakgrunder, ändra storlek, ändra vågrät eller lodrät justering, hantera färger, lägga till [utfyllnad eller marginal](#selecting-an-element)och så vidare.
 
@@ -103,7 +103,6 @@ För båda **[!UICONTROL Padding]** och **[!UICONTROL Margin]** klickar du på l
 >id="ac_edition_backgroundimage"
 >title="Bakgrundsinställningar"
 >abstract="Med e-postdesignern kan du anpassa bakgrundsfärg eller bakgrundsbild för innehållet.Observera att bakgrundsbilden inte stöds av alla e-postklienter."
->additional-url="https://docs.google.com/spreadsheets/d/1TLo62YKm3tThUWDOIliCQFWs3dpNjpDfw6DdTr1oGOw/edit#gid=0" text="Ytterligare information"
 
 När det gäller att ange bakgrunder med e-postdesignern rekommenderar Adobe följande:
 

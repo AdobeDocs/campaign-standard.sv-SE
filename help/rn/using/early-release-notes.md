@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 8bc0b1186e177b6937c1ae72c1f8763c480b12a9
+source-git-commit: 5435e1dbfbe08399c488322320ac5bb8e681a79d
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '734'
 ht-degree: 10%
 
 ---
@@ -53,6 +53,9 @@ Den här sidan beskriver nya funktioner, förbättringar och korrigeringar som i
 * När du har skickat meddelanden i appen kan du nu välja att inaktivera leveransen. På så sätt kan du ta bort leveransen utan att förlora några rapportdata. (CAMP-48469)
 * För att förhindra problem kan användare inte längre använda samma namn för en anpassad tabellkolumn som den som används för den automatiska primärnyckeln i databasen. `"<dataType><resourceName>Id"`. (CAMP-49358)
 * Nu kan du övervaka leveransen och spåra jobbloggar med nya **Jobbhistorik** nedrullningsbar meny från meddelandets kontrollpanel. (CAMP-49840)
+* Förbättrad stabilitet och databashälsa genom att minska antalet döda tupplar när ett stort antal meddelanden skickas över alla kanaler över tiden. (CAMP-49755, CAMP-49792, CAMP-49849)
+* För att databasanslutningarna ska uppdateras automatiskt om databasen kraschar eller startas om har förbättringar implementerats i Campaign Mail Transfer Agent (MTA). (CAMP-48063)
+
 
 **Felkorrigeringar**
 
