@@ -5,15 +5,17 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 9aae75653e3f517e59aae91eaa94c65d247a14dc
+source-git-commit: 46bb0c52b5437d29173ab4ccb510aeef67bd5c2d
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 99%
+source-wordcount: '722'
+ht-degree: 98%
 
 ---
 
 
 # Senaste versionen{#latest-release}
+
+![](assets/do-not-localize/cp-icon.png) **Ny kontrollpanel, januariversion** med genomströmning och fördröjningsövervakning. [Läs mer](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=sv).
 
 ## Version 22.1 – februari 2022 {#feb-2022}
 
