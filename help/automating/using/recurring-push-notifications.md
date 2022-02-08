@@ -1,14 +1,11 @@
 ---
 title: Skicka ett återkommande push-meddelande med ett arbetsflöde
-description: I det här exemplet skickas ett personligt push-meddelande varje dag i månaden kl. 20.00 till prenumeranterna av ditt mobilprogram beroende på deras tidszoner.
-audience: automating
-content-type: reference
-topic-tags: channel-activities
+description: I det här exemplet skickas ett personligt push-meddelande varje dag i månaden kl. 20.00 till prenumeranterna av ditt mobilprogram beroende på deras tidszoner
 feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: d5e6034c-3673-4069-ac0b-49c7ad07259d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 0ab950d4124bf459ba889e2f1c2954210dd350e0
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 4%

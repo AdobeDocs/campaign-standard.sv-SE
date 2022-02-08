@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: 41be9f7c13a4b3e0a20e714cc42b9d054812ec07
+source-git-commit: 53852538ac1e092dc9376119f29d969ed4b02952
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 84%
+source-wordcount: '1168'
+ht-degree: 83%
 
 ---
 
@@ -59,7 +59,11 @@ Du kan använda den här aktiviteten för att återställa data som sedan strukt
    Du kan:
 
    * **[!UICONTROL Delete the source files after transfer]**: raderar filerna på fjärrservern. Om alternativet inte är markerat kontrollerar du att du manuellt övervakar storleken på ditt arkiverade innehåll i SFTP-katalogen.
-   * **[!UICONTROL Disable passive mode]**: gör att du kan ange anslutningsporten som ska användas för dataöverföring.
+
+   * **[!UICONTROL Sorting files]**: gör att du kan sortera filer alfanumeriskt. Det här alternativet är inaktiverat som standard.
+
+      <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
+
    * **[!UICONTROL List all files]**: det här alternativet är tillgängligt när du väljer **[!UICONTROL File listing]** i **[!UICONTROL General]** -fliken. Du kan indexera samtliga filer på servern i **variabeln vars.filenames** där filnamnet avgränsas med ett **&#39;n&#39;** -tecken.
 
 1. I avsnitt **[!UICONTROL If no files are found]** i fliken **[!UICONTROL Advanced options]** så kan du konfigurera specifika åtgärder om fel eller obefintliga filer upptäcks när aktiviteten startas.
@@ -80,6 +84,8 @@ Med det här protokollet kan du välja att **[!UICONTROL Use connection paramete
 
 Du kan även välja alternativ **[!UICONTROL Quick configuration]**. Du behöver endast ange länkadressen i fältet URL.
 ![](assets/wkf_file_transfer_04.png)
+
+**[!UICONTROL Follow redirections]**, **[!UICONTROL Ignore the HTTP return code]** och **[!UICONTROL Add received HTTP headers to the file]** är de ytterligare alternativ som är tillgängliga när du väljer HTTP-protokollet.
 
 ### Konfiguration med SFTP {#SFTP-configuration-wf}
 
