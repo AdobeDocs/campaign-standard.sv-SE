@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 0523c7cc68661a5593ae2c58382f839c2379f2db
+source-git-commit: 99111a0d8d3bf46aae39b80851ebcabaf30be0a0
 workflow-type: tm+mt
-source-wordcount: '1170'
-ht-degree: 95%
+source-wordcount: '1245'
+ht-degree: 89%
 
 ---
 
@@ -159,6 +159,18 @@ När du är klar med leveransen och godkännandestegen har utförts kan du skick
    ![](assets/inapp_sending_7.png)
 
 1. Mät effekten av dina Meddelanden i appen med leveransrapporter. Mer information om rapportering finns i [det här avsnittet](../../reporting/using/in-app-report.md).
+
+1. När du har skickat meddelanden i appen kan du välja att inaktivera leveransen. Detta kan vara användbart om du vill stoppa en viss leverans eller om du till exempel vill köra en ny leverans med samma utlösare.
+
+   Klicka **[!UICONTROL Deactivate]** sedan **[!UICONTROL Ok]** för att starta avaktiveringsbegäran.
+
+   ![](assets/inapp_sending_8.png)
+
+1. När förfrågan har skickats inaktiveras leveransen och inget annat meddelande skickas.
+
+   Observera att dina rapporter för den här leveransen fortfarande är tillgängliga.
+
+   ![](assets/inapp_sending_9.png)
 
 **Relaterade ämnen:**
 

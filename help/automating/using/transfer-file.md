@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 41be9f7c13a4b3e0a20e714cc42b9d054812ec07
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 88%
+source-wordcount: '1157'
+ht-degree: 84%
 
 ---
 
@@ -54,11 +54,13 @@ Du kan använda den här aktiviteten för att återställa data som sedan strukt
    * [Microsoft Azure Blob-lagring](#azure-blob-configuration-wf)
    * [Fil(er) på Adobe Campaign-servern](#files-server-configuration-wf)
 
-1. Med avsnitt **[!UICONTROL Additional options]** som är tillgängligt beroende på vilket protokoll som har valts så kan du lägga till parametrar i protokollet. Du kan:
+1. Med avsnitt **[!UICONTROL Additional options]** som är tillgängligt beroende på vilket protokoll som har valts så kan du lägga till parametrar i protokollet.
 
-   * **[!UICONTROL Delete the source files after transfer]**
-   * **[!UICONTROL Disable passive mode]**
-   * **[!UICONTROL List all files]**: det här alternativet är tillgängligt när du väljer åtgärd **[!UICONTROL File listing]** i fliken **[!UICONTROL General]**. Du kan indexera samtliga filer på servern i **variabeln vars.filenames** där filnamnet avgränsas med ett **&#39;n&#39;** -tecken.
+   Du kan:
+
+   * **[!UICONTROL Delete the source files after transfer]**: raderar filerna på fjärrservern. Om alternativet inte är markerat kontrollerar du att du manuellt övervakar storleken på ditt arkiverade innehåll i SFTP-katalogen.
+   * **[!UICONTROL Disable passive mode]**: gör att du kan ange anslutningsporten som ska användas för dataöverföring.
+   * **[!UICONTROL List all files]**: det här alternativet är tillgängligt när du väljer **[!UICONTROL File listing]** i **[!UICONTROL General]** -fliken. Du kan indexera samtliga filer på servern i **variabeln vars.filenames** där filnamnet avgränsas med ett **&#39;n&#39;** -tecken.
 
 1. I avsnitt **[!UICONTROL If no files are found]** i fliken **[!UICONTROL Advanced options]** så kan du konfigurera specifika åtgärder om fel eller obefintliga filer upptäcks när aktiviteten startas.
 

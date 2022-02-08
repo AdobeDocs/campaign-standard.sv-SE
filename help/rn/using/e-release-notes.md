@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 5435e1dbfbe08399c488322320ac5bb8e681a79d
-workflow-type: ht
-source-wordcount: '734'
-ht-degree: 100%
+source-git-commit: fcc4dc0789a02f2a58abed858561f023a53a9d95
+workflow-type: tm+mt
+source-wordcount: '736'
+ht-degree: 99%
 
 ---
 
@@ -69,7 +69,7 @@ Den här sidan beskriver nya funktioner, förbättringar och korrigeringar som i
 * Åtgärdade ett fel med rapporter om push-meddelanden som visade avvisade push-meddelanden som **öppnat** istället för **visat**. (CAMP-45980)
 * Åtgärdade ett problem som kunde leda till fel när en rapport öppnades. (CAMP-49222)
 * Åtgärdade ett problem som kunde leda till att e-postförberedelsen misslyckades efter att ha tagit bort en länk till AEM-innehåll. (CAMP-49877)
-* Återförsöksmekanismen har förbättrats för leveranser, inklusive innehåll som importerats från en URL, för att åtgärda olika problem. (CAMP-48888)
+* Återförsöksmekanismen har förbättrats för leveranser, inklusive innehåll som importerats från en URL, för att åtgärda olika problem. [Läs mer](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time) (CAMP-48888)
 * Åtgärdade ett problem som uppstod efter att ett nytt filter skapades i en anpassad resurs och sedan användes som en avstämningsnyckel på en landningssida. Om den anpassade resursen publicerades igen togs filtret bort från listan över tillgängliga avstämningsnycklar för landningssidan. (CAMP-49516)
 * Åtgärdade ett problem på landningssidor vid användning av dynamiska villkor med kryssrutor. (CAMP-48604)
 * Fixade ett problem som uppstod i en **Fråga**-aktivitet när filtervillkoret &quot;On or before October&quot; användes. När du arbetade från en instans inställd på en europeisk tidszon visade den valda månaden för filtret september i stället för oktober på grund av ett problem när tidszonen konverterades. (CAMP-48602)

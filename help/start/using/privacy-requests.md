@@ -8,10 +8,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
 workflow-type: tm+mt
-source-wordcount: '1599'
-ht-degree: 100%
+source-wordcount: '1591'
+ht-degree: 94%
 
 ---
 
@@ -23,9 +23,7 @@ Denna information gäller för GDPR, CCPA, PDPA och LGPD. Se [det här avsnittet
 
 [Det här avsnittet](#sale-of-personal-information-ccpa) förklarar avanmälan till försäljning av personuppgifter vilken är specifik för CCPA.
 
->[!IMPORTANT]
->
->Från och med version 19.4 är användningen av API och gränssnitt i Campaign för förfrågningar gällande åtkomst och borttagning inaktuell. För alla förfrågningar om åtkomst och borttagning gällande GDPR, CCPA, PDPA eller LGPD måste du använda integreringsmetoden [Privacy Core Service](#create-privacy-request).
+<!--Starting 19.4, the use of the Campaign API and interface for Access and Delete requests is deprecated. For any GDPR, CCPA, PDPA, or LGPD Access and Delete requests, you need to use the [Privacy Core Service](#create-privacy-request) integration method.-->
 
 ## Om förfrågningar om användarens information {#about-privacy-requests}
 
@@ -89,15 +87,17 @@ Se även den här [självstudiekursen](https://experienceleague.adobe.com/docs/c
 
 ### Skapa en förfrågan om användarens information {#create-privacy-request}
 
->[!IMPORTANT]
->
->Integreringen av **Privacy Core Service** är den metod du bör använda för alla förfrågningar om åtkomst och borttagning.
->
->Från och med version 19.4 är användningen av API och gränssnitt i Campaign för förfrågningar gällande åtkomst och borttagning inaktuell. Använd Core Privacy Service för alla förfrågningar om åtkomst och borttagning gällande GDPR, CCPA, PDPA eller LGPD.
+<!--Starting 19.4, the use of the Campaign API and interface for Access and Delete requests is deprecated. Use the **Privacy Core Service** for any GDPR, CCPA, PDPA, or LGPD Access and Delete requests.-->
 
 Integrationen av Privacy Core Service låter dig automatisera dina förfrågningar om användarens information i ett sammanhang med flera olika lösningar via ett enda JSON API-anrop. Förfrågningar om användarens information som skickas från Privacy Core Service till alla lösningar i Experience Cloud hanteras automatiskt av Campaign via ett dedikerat arbetsflöde.
 
 Läs dokumentationen för [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=sv) om hur du skapar förfrågningar om användarens information via Privacy Core Service.
+
+>[!IMPORTANT]
+>
+>Om du vill skicka en begäran med den anpassade namnområdestypen använder du [JSON-metod](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#json){target=&quot;_blank&quot;} och lägg till namespaceId i begäran eller använd kommandot [API-anrop](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=en#access-delete){target=&quot;_blank&quot;} för att göra begäran.
+>
+>Använd bara [Sekretessgränssnitt](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#request-builder){target=&quot;_blank&quot;} om du vill skicka begäranden med standardnamnområdestypen.
 
 Varje jobb i Privacy core service delas upp i flera förfrågningar om användarens information i Campaign baserat på hur många namnrymder som används. En förfrågan motsvarar en namnrymd. Ett jobb kan även köras på flera instanser. Därför skapas flera filer för ett jobb. Om en förfrågan till exempel har två namnrymder och körs i tre instanser skickas totalt sex filer. En fil per namnrymd och instans.
 
@@ -189,7 +189,7 @@ När användare via ditt system beslutar att de inte tillåter att deras personu
 
 ### Krav för anpassade tabeller {#ccpa-prerequisite}
 
-Från och med version 19.4 visas fältet **[!UICONTROL CCPA Opt-Out]** som ett färdigt fält i gränssnittet och API:et i Campaign. Som standard är fältet tillgängligt för standardresursen **[!UICONTROL Profile]**.
+The **[!UICONTROL CCPA Opt-Out]** finns i körklart fält i Campaign-gränssnittet och API:t. Som standard är fältet tillgängligt för standardresursen **[!UICONTROL Profile]**.
 
 Om du använder en anpassad profilresurs måste du utöka resursen och lägga till fältet. Vi rekommenderar att du använder ett annat namn än det färdiga fältets, såsom: **[!UICONTROL Opt-Out for CCPA]** (optoutccpa). När ett nytt fält skapas stöds det automatiskt av API:et i Campaign.
 

@@ -9,10 +9,10 @@ feature: Performance Monitoring
 role: User
 level: Beginner
 exl-id: ddc92077-df73-411d-a161-3263581e6945
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ed60bde4785da9a8cc5a6cc0efcdb24e2c1f65e3
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 89%
+source-wordcount: '499'
+ht-degree: 82%
 
 ---
 
@@ -37,6 +37,12 @@ Det finns flera sätt att övervaka en leverans och mäta dess påverkan. Som fu
    Du kan exportera loggen genom att klicka på **[!UICONTROL Export list]**-knappen.
 
    ![](assets/sending_delivery2.png)
+
+* **Jobbloggar**: En lista över batchjobb som utlöses av leveransen kan nås från meddelandekontrollpanelen genom att välja **[!UICONTROL Job history]** från **[!UICONTROL Summary]** nedrullningsbar lista.
+
+   Välj ett jobb i listan om du vill visa information om det valda **[!UICONTROL Batch job]**.
+
+   ![](assets/sending_delivery8.png)
 
 * **Leveransmeddelanden**: För att hålla koll på framgångar eller fel i leveranser så tillhandahåller Adobe Campaign ett varningssystem för e-post som skickar meddelanden till användarna gällande viktiga systemaktiviteter.
 * **Rapporter**: Från meddelandepanelen kan du få åtkomst till flera rapporter för det specifika meddelandet.    Du har också en **[!UICONTROL Reports]**-meny där du kan få tillgång till en komplett lista med inbyggda eller anpassade rapporter som du kan använda för att skapa mätvärden som är relaterade till ditt meddelande eller din kampanj.

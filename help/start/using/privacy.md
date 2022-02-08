@@ -13,9 +13,9 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 013293fce8a923e771e10585c41e4ad482003080
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1424'
 ht-degree: 100%
 
 ---
@@ -42,7 +42,7 @@ För att kunna hantera personuppgifter på ett korrekt sätt bör du arbeta i en
 
 >[!NOTE]
 >
->Se [denna sida](https://helpx.adobe.com/se/campaign/kb/campaign-privacy-overview.html#whatisgdpr) för mer information om hur GDPR, CCPA och PDPA tillämpas i Adobe Campaign.
+>Se [denna sida](../../start/using/privacy-management.md#privacy-management-regulations) för mer information om hur GDPR, CCPA och PDPA tillämpas i Adobe Campaign.
 
 ### Integritet i Adobe Experience Cloud {#experience-cloud-privacy}
 
@@ -59,7 +59,7 @@ Adobe Campaign ingår som en del av Adobe Experience Cloud-lösningarna. Det sä
 * **Så används Adobe Experience Cloud för att samla in information**
 
    * Adobe Experience Cloud-lösningar använder cookies och liknande tekniker såsom webb-beacons (kallas även för taggar eller pixlar) för att göra det möjligt att samla in information. Se [det här avsnittet](#tracking-capabilities) för mer information om cookies och spårningsfunktioner med Adobe Campaign.
-   * Du kan också använda Adobe Experience Cloud-tekniker i dina mobilappar. Se [den här sidan](https://helpx.adobe.com/se/campaign/kb/acs-mobile.html) för mer information om hur du skickar mobila leveranser med Campaign.
+   * Du kan också använda Adobe Experience Cloud-tekniker i dina mobilappar. Se [den här sidan](../../channels/using/mobile-guide.md) för mer information om hur du skickar mobila leveranser med Campaign.
 
 * **Dina användares integritetsinställningar gällande hur du använder Adobe Experience Cloud**
 
@@ -100,14 +100,14 @@ Med Adobe Campaign kan ni samla in data, inklusive personuppgifter och känslig 
 
 ## Integritetshantering {#privacy-management}
 
-Integritetshantering avser alla processer och verktyg som kan hjälpa dig att följa integritetsbestämmelser (GDPR, CCPA, osv.). Få en översikt över vad integritetshantering är på [denna sida](https://helpx.adobe.com/se/campaign/kb/campaign-privacy-overview.html).
+Integritetshantering avser alla processer och verktyg som kan hjälpa dig att följa integritetsbestämmelser (GDPR, CCPA, osv.). Få en översikt över vad integritetshantering är på [denna sida](../../start/using/privacy-management.md#privacy-management-regulations).
 
 Adobe Campaign tillhandahåller olika funktioner för integritetshantering:
 * Medgivandehantering, datalagring och användarroller. Se [det här avsnittet](#consent).
 * Förfrågningar om användarens information (åtkomsträttigheter och rätt att glömmas). Se [det här avsnittet](#privacy-requests).
-* Avanmäl dig gällande försäljning av personuppgifter (CCPA-specifik) Se [det här avsnittet](https://helpx.adobe.com/se/campaign/kb/acs-privacy.html#ccpa).
+* Avanmäl dig gällande försäljning av personuppgifter (CCPA-specifik) Se [det här avsnittet](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
 
-De viktigaste integritetsfunktionerna i Campaign och ett exempel på vilka personer som berörs, presenteras i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-faq.html?lang=sv#getting-started).
+De viktigaste integritetsfunktionerna i Campaign och ett exempel på vilka personer som berörs, presenteras i [det här avsnittet](#personal-data).
 
 
 ### Medgivande, lagring och roller {#consent}
@@ -118,7 +118,7 @@ Adobe Campaign erbjuder viktiga funktioner som är grundläggande för integrite
 * **Datalagring**: alla inbyggda standardiserade loggtabeller har förinställda lagringsperioder vilket i allmänhet begränsar datalagringen till 6 månader eller mindre. Ytterligare lagringsperioder kan ställas in med arbetsflöden. Kontakta Adobes konsulter eller teknikadministratörer för mer information om detta.
 * **Hantering av rättigheter**: Adobe Campaign ger dig möjligheten att hantera de rättigheter som tilldelats olika operatörer i Campaign via olika färdiga eller anpassade roller. Det här låter dig hantera vilka inom företaget som kan få åtkomst till, ändra eller exportera olika typer av data. Se [Om åtkomsthantering](../../administration/using/about-access-management.md) för mer information.
 
-Se [denna sida](https://helpx.adobe.com/se/campaign/kb/campaign-privacy-overview.html#consent) för mer information om de här funktionerna och hur du hanterar dem i Adobe Campaign.
+Se [denna sida](../../start/using/privacy-management.md#consent-retention-roles) för mer information om de här funktionerna och hur du hanterar dem i Adobe Campaign.
 
 ### Förfrågningar om användarens information {#privacy-requests}
 
@@ -130,15 +130,9 @@ Adobe Campaign erbjuder ytterligare funktioner som underlättar din beredskap so
 
 >[!NOTE]
 >
->Detta verktyg hjälper dig med din integritetsefterlevnad gällande GDPR, CCPA och PDPA. Se [denna sida](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr) för mer information om dessa olika regelverk.
+>Detta verktyg hjälper dig med din integritetsefterlevnad gällande GDPR, CCPA och PDPA. Se [denna sida](../../start/using/privacy-management.md#privacy-management-regulations) för mer information om dessa olika regelverk.
 
-<!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
-
-* **CCPA** (California Consumer Privacy Act) provides California residents new rights in regards to their personal information and imposes data protection responsibilities on certain entities whom conduct business in California.
-
-* **Thailand's PDPA** (Personal Data Protection Act) is the new privacy law that harmonizes and modernizes data protection requirements for Thailand. This regulation applies to Adobe Campaign customers who hold data for Data Subjects residing in this country.-->
-
-Förfrågningar om **åtkomst** och **borttagning** visas på [den här sidan](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=sv#getting-started). Implementeringsstegen för att skapa dessa förfrågningar finns på [den här sidan](https://helpx.adobe.com/se/campaign/kb/acs-privacy.html#ManagingPrivacyRequests). Självstudiekurser finns också [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=sv).
+Förfrågningar om **åtkomst** och **borttagning** visas på [den här sidan](../../start/using/privacy-management.md#right-access-forgotten). Implementeringsstegen för att skapa dessa förfrågningar finns på [den här sidan](../../start/using/privacy-requests.md#about-privacy-requests). Självstudiekurser finns också [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=sv).
 
 ## Spårningsfunktioner {#tracking-capabilities}
 

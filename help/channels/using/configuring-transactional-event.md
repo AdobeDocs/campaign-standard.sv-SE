@@ -9,9 +9,9 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: a6768af0cea8891411f81e1782a873b5adb70a0e
 workflow-type: tm+mt
-source-wordcount: '1672'
+source-wordcount: '1705'
 ht-degree: 6%
 
 ---
@@ -122,6 +122,10 @@ Mer information om att skapa och publicera resurser finns i [det här avsnittet]
 1. Använd **[!UICONTROL Create element]** om du vill länka ett fält från den valda resursen till ett av de fält som du tidigare lagt till i händelsen (se [Definiera händelseattributen](#defining-the-event-attributes)).
 
    ![](assets/message-center_enrichment-join.png)
+
+   >[!NOTE]
+   >
+   >Om du definierar ett villkor som skulle kunna göra det möjligt att markera flera mottagare (till exempel ett fält som kan ha samma värde för flera profiler), används bara en profil.
 
 1. I det här exemplet förenar vi **[!UICONTROL Last name]** och **[!UICONTROL First name]** fält med motsvarande fält i **[!UICONTROL Profile]** resurs.
 

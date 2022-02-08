@@ -9,9 +9,9 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: 86cb6f4c-a5a7-4d9d-bbfd-4a70af38cf3a
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 30d0c2552bea3a7cbd8500be4e8c0c74e5a40a99
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '625'
 ht-degree: 2%
 
 ---
@@ -34,6 +34,10 @@ För att göra detta:
 1. Välj det nyckelord som ska utlösa det här automatiska svaret. Nyckelorden är inte skiftlägeskänsliga. Om mottagarna till exempel skickar nyckelordet &quot;STOP&quot; får de det automatiska svaret här.
 
    Lämna den här kolumnen tom om du vill skicka samma svar oavsett nyckelordet.
+
+   >[!IMPORTANT]
+   >
+   >Endast alfanumeriska tecken tillåts.
 
    ![](assets/sms_mo_2.png)
 

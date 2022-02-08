@@ -9,10 +9,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: e6939330e0f9a519507f467cc56e3d5a9a995b17
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 77%
+source-wordcount: '933'
+ht-degree: 73%
 
 ---
 
@@ -20,9 +20,13 @@ ht-degree: 77%
 
 ## Om säkerhetsgrupper {#about-security-groups}
 
+>[!IMPORTANT]
+>
+>The **[!UICONTROL Access to the deliverability parameters (Deliverability)]** och **[!UICONTROL Message Center agents (mcExec)]** säkerhetsgrupperna är endast Adobe internal och ska inte tilldelas någon användare.
+
 Säkerhetsgrupper är uppsättningar av användare som delar samma roller och rättigheter inom organisationen.
 
-Användare måste alltid vara länkade till en säkerhetsgrupp.  På så sätt kan du tilldela dem specifika roller och organisationsenheter.
+Användare måste alltid vara länkade till en säkerhetsgrupp.  På så sätt kan du tilldela dem specifika roller och organisationsenheter. Om du vill begränsa en användares åtkomst ska du inte lägga till användaren i Campaign **[!UICONTROL Standard Users]** grupp eftersom den är länkad till **[!UICONTROL All]** organisationsenhet.
 
 För mer information om roller visas i tabellen på följande sida möjliga åtgärder som är tillgängliga beroende på en användares roll(er): [Adobe Campaign Standard-auktoriseringar](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
 
@@ -33,17 +37,7 @@ De säkerhetsgrupper som finns som standard är:
 * **[!UICONTROL Standard Users]**
 * **[!UICONTROL Workflow supervisors]**
 
->[!IMPORTANT]
->
->The **[!UICONTROL Access to the deliverability parameters (Deliverability)]** och **[!UICONTROL Message Center agents (mcExec)]** säkerhetsgrupperna är endast Adobe internal och ska inte tilldelas någon användare.
-
-För att få åtkomst till Adobe Campaign måste varje användare tilldelas en säkerhetsgrupp.
-
-Om du vill begränsa en användares åtkomst ska du inte lägga till användaren i användargruppen för Campaign Standard eftersom den redan är länkad till **[!UICONTROL All]** organisationsenheten.
-
->[!NOTE]
->
->**[!UICONTROL All (all)]** Organisationsenheten tilldelas som standard till **[!UICONTROL Administrators]** säkerhetsgruppen.  Den är skrivskyddad och kan inte ändras.
+Observera att dessa inbyggda säkerhetsgrupper är skrivskyddade och inte kan ändras. Om du vill skapa en egen säkerhetsgrupp med en uppsättning specifika roller kan du läsa avsnittet nedan.
 
 ## Skapa en säkerhetsgrupp och tilldela användare {#creating-a-security-group-and-assigning-users}
 

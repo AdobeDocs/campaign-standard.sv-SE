@@ -8,10 +8,10 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: bfc52511-f66f-4948-a939-d0d77e8ef03c
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 4%
+source-wordcount: '96'
+ht-degree: 6%
 
 ---
 
@@ -24,11 +24,9 @@ En profils CCPA-avanmälningsstatus kan övervakas och hanteras med **ccpaOptOut
 * **true**: förbjuder försäljning av personuppgifter.
 * **false**: tillåter försäljning av personuppgifter.
 
->[!CAUTION]
+<!--The “CCPA Opt-Out” attribute is only available starting 19.4. For 19.3 environments, you need to extend the Profiles resource and add a boolean field. This field will be added to the API with the chosen label. We suggest you use “Opt-Out for CCPA”.
 >
->Attributet &quot;CCPA Opt-Out&quot; är endast tillgängligt från och med 19.4. I 19.3-miljöer måste du utöka profilresursen och lägga till ett booleskt fält. Det här fältet läggs till i API:t med den valda etiketten. Vi föreslår att du använder&quot;Avanmäl dig för CCPA&quot;.
->
->Mer information finns i [Hantera dokumentation om sekretessförfrågningar](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
+>For more on this, refer to the [Managing Privacy requests documentation](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).-->
 
 <br/>
 
