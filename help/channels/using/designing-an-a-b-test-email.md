@@ -9,10 +9,10 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 07cbf39c-4f53-49b1-8e85-c6df39f014b5
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 2adead5903eb2710207d7aeaaa85418bd616ca5d
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 100%
+source-wordcount: '836'
+ht-degree: 95%
 
 ---
 
@@ -50,6 +50,11 @@ I det specifika sammanhanget för ett A/B-test:
    * **[!UICONTROL Number of variants]**: Du kan välja att använda två eller tre varianter. Om du väljer tre varianter kan det här alternativet inte ändras efter att det här steget har bekräftats i guiden.
    * **[!UICONTROL Winning strategy]**: Välj det kriterium som ska användas för att bestämma vinnande variant.
    * **[!UICONTROL Target breakdown]**: Välj vilken procentandel av målet som ska ta emot varje variant. Den återstående procentandelen får den vinnande varianten när den har bestämts. Målprofilerna väljs slumpmässigt.
+
+      >[!NOTE]
+      >
+      >Om den totala befolkningen är mindre än 50 kB måste varje variant motsvara minst 10 % av den totala befolkningen.
+
    * **[!UICONTROL Winner sending method]**: Välj om du vill att den vinnande varianten ska skickas automatiskt när den har bestämts eller om du vill bekräfta att den ska skickas till den återstående populationen manuellt.
    * **[!UICONTROL Test duration]**: Ange testets varaktighet. Den vinnande varianten bestäms automatiskt efter denna varaktighet. Du kan välja vinnande variant manuellt före testets slut från e-postkontrollpanelen.
 
@@ -88,4 +93,4 @@ Din e-post är nu definierad och skickad. Du har åtkomst till loggarna och rapp
 
 I kontrollpanelen för e-postmeddelanden finns flera indikatorer som hjälper dig att mäta ditt A/B-test: Antal klick, öppningar, studsningar, o.s.v.
 
-Observera att **[!UICONTROL Estimated recipient reactivity]**-indikatorn är en frekvens som jämför antalet mottagare som klickade mot antalet mottagare som öppnade e-postmeddelandet. Om till exempel 10 mottagare öppnade e-postmeddelandet och 5 mottagare klickade på det. Reaktivitetsfrekvensen är 50 %.
+Observera att **[!UICONTROL Estimated recipient reactivity]**-indikatorn är en frekvens som jämför antalet mottagare som klickade mot antalet mottagare som öppnade e-postmeddelandet. Om till exempel 10 mottagare öppnade e-postmeddelandet och 5 mottagare klickade på det, är reaktiviteten 50 %.
