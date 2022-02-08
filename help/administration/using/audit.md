@@ -2,13 +2,11 @@
 title: Granskningsspår
 description: Övervaka åtgärder och händelser med granskningsspår för kampanjer
 audience: administration
-content-type: reference
-topic-tags: users-and-security
 feature: Access Management
 role: Admin
 level: Experienced
 exl-id: bda6f8d5-3bcf-498c-a7c4-d3c2c79b9510
-source-git-commit: b7b9b137de1c62b00895550c7f5bec8ae508bd3b
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 3%
@@ -25,27 +23,27 @@ The **[!UICONTROL Audit trail]** ger dig tillgång till den fullständiga histor
 
 **[!UICONTROL Audit trail]** består av tre komponenter:
 
-* **Granskningsspår för anpassade resurser**: kontrollera aktiviteten och senast gjorda ändringar av anpassade resurser.
+* **Custom Resources Audit trail**: check the activity and last modification done to custom resources.
 
    Mer information om **[!UICONTROL Custom resources]**, se [page](../../developing/using/key-steps-to-add-a-resource.md).
 
-* **Granskningsspår för arbetsflöde**: kontrollera aktiviteten och den senaste ändringen av arbetsflödena, och dessutom status för dina arbetsflöden, som:
+* **Workflow Audit trail**: check the activity and last modification done to workflows, and additionally, the state of your workflows such as:
 
    * Skapad
-   * Ändrad
+   * Modified
    * Borttagen
-   * Start av arbetsflöde
+   * Workflow Start
    * Pausa arbetsflöde
    * Stoppa arbetsflöde
-   * Starta om arbetsflödet
+   * Workflow Restart
    * Rensa arbetsflöde
    * Simulera arbetsflöde
    * Arbetsflödesaktivering
    * Arbetsflöde - omedelbart stopp
-   * Starta om arbetsflödet med samma användare
-   * Kommandot Starta om okänt arbetsflöde
+   * Workflow Restart with same user
+   * Workflow Restart Unknown command
 
-   Mer information om **[!UICONTROL Workflows]**, se [page](../../automating/using/get-started-workflows.md).
+   For more information on **[!UICONTROL Workflows]**, refer to this [page](../../automating/using/get-started-workflows.md).
 
 * **Alternativ granskningsspår**: kontrollera aktiviteten och senast gjorda ändringar av alternativen.
 
@@ -61,7 +59,7 @@ Så här kommer du åt instansens granskningsspår:
 
    ![](assets/audit-trail.png)
 
-1. The **[!UICONTROL Audit trail]** öppnas med listan över dina enheter. Adobe Campaign Standard granskar åtgärderna för att skapa, redigera och ta bort för arbetsflöden, alternativ och anpassade resurser.
+1. The **[!UICONTROL Audit trail]** öppnas med listan över dina enheter. Adobe Campaign Standard will audit the create, edit and delete actions for workflows, options and custom resources.
 
    Från **[!UICONTROL Search]** kan du filtrera din enhet på:
 
@@ -72,12 +70,12 @@ Så här kommer du åt instansens granskningsspår:
 
    ![](assets/audit-trail_2.png)
 
-1. Välj en av enheterna om du vill veta mer om de senaste ändringarna.
+1. Select one of the entities to learn more about the last modifications.
 
 1. Fönstret Granskningsenhet ger dig mer detaljerad information om den valda enheten, till exempel:
 
    * **[!UICONTROL Entity]**: ID för arbetsflöde, alternativ eller anpassad resurs.
-   * **[!UICONTROL Action]**: Senaste åtgärd utförd på den här entiteten.
+   * **[!UICONTROL Action]**: Last action performed on this entity.
    * **[!UICONTROL Changed by]**: Användarnamn för den senaste personen som senast ändrade den här entiteten.
    * **[!UICONTROL Changed date]**: Datum för den senaste åtgärden som utfördes på den här entiteten.
    * **[!UICONTROL Content]**: Kodblock som ger dig mer information om exakt vad som har ändrats i din enhet.
@@ -86,25 +84,25 @@ Så här kommer du åt instansens granskningsspår:
 
    ![](assets/audit-trail_3.png)
 
-## Aktivera/inaktivera granskningsspår {#enable-disable-audit}
+## Enable/disable Audit trail {#enable-disable-audit}
 
 >[!NOTE]
 >
-> Endast funktionsadministratörer kan aktivera eller inaktivera granskningsspår. Se denna [sida](../../administration/using/users-management.md#functional-administrators) för mer information om detta.
+> Only Functional administrators can enable or disable Audit trail. Se denna [sida](../../administration/using/users-management.md#functional-administrators) för mer information om detta.
 
 Granskningsspårning kan enkelt aktiveras eller inaktiveras för en viss aktivitet.
 
 För att göra detta:
 
-1. I Adobe Campaign Standard väljer du **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
+1. In Adobe Campaign Standard, from the advanced menu, select **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
 
    ![](assets/audit-trail_4.png)
 
-1. Välj något av följande alternativ beroende på vilken enhet du vill inaktivera:
+1. Select one of the following options depending on the entity you want to disable:
 
    * **[!UICONTROL XtkAudit_Workflows]** för att hantera granskningsspår för arbetsflöden.
    * **[!UICONTROL XtkAudit_Option]** för att hantera granskningsspår för alternativ.
-   * **[!UICONTROL XtkAudit_CusResource]** för att hantera granskningsspår för anpassade resurser.
+   * **[!UICONTROL XtkAudit_CusResource]** option to manage the Audit trail for Custom resources.
    * **[!UICONTROL XtkAudit_Enable_All]** alternativ för att hantera granskningsspår för varje enhet.
 
       >[!NOTE]

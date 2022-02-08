@@ -1,17 +1,14 @@
 ---
 title: Mobil användning som stöds i Adobe Campaign Standard med Adobe Experience Platform SDK
-description: Det här dokumentet innehåller information om hur du kan använda mobilt material.
+description: Lär dig hur man kan ge stöd för mobila användningsområden
 audience: channels
-content-type: reference
-topic-tags: push-notifications
-context-tags: mobileApp,overview
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 3cd8d756-a271-4e53-8ed0-984ce20298bc
-source-git-commit: 8c4e38a3fc66e4d819575fcd64616a822e0e1f82
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '949'
 ht-degree: 0%
 
 ---

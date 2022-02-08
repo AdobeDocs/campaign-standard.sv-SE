@@ -1,14 +1,12 @@
 ---
 title: Om kanalkonfiguration
-description: '"Varje kanal måste konfigureras: teknisk konfiguration, meddelandeegenskaper och mallar."'
+description: Lär dig konfigurera kanaler, inklusive teknisk konfiguration, meddelandeegenskaper och mallar
 audience: administration
-content-type: reference
-topic-tags: configuring-channels
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5b4cbe46-7ae6-4985-8195-f73b9b104898
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 4%
@@ -17,15 +15,15 @@ ht-degree: 4%
 
 # Om kanalkonfiguration{#about-channel-configuration}
 
-Alla kommunikationskanaler i Adobe Campaign måste vara korrekt konfigurerade för att effektivt kunna skicka meddelanden.
+All communication channels in Adobe Campaign must be correctly configured to be able to effectively send messages.
 
-De olika konfigurationerna är följande:
+The different configurations are as follows:
 
-* Kanalens tekniska konfiguration, inklusive routning, bearbetningsregler, parametrar för leveransförmåga osv.
-* Meddelandemallar och egenskaper. Alla meddelanden är baserade på en mall. Adobe Campaign innehåller en uppsättning fördefinierade mallar för alla aktiverade kanaler. Du kan duplicera och anpassa de här mallarna.
-* Meddelandeegenskaper. När du skapar ett nytt meddelande kan du finjustera egenskaperna efter behov.
-* Vissa kanaler erbjuder ytterligare konfigurationer som är valfria, till exempel e-postkopia.
+* Technical configuration of the channel, including routing, processing rules, deliverability parameters, etc.
+* Meddelandemallar och egenskaper. All messages are based on a template. Adobe Campaign innehåller en uppsättning fördefinierade mallar för alla aktiverade kanaler. Du kan duplicera och anpassa de här mallarna.
+* Meddelandeegenskaper. When creating a new message, you can finetune the properties depending on your needs.
+* Some channels offer additional configurations that are optional, such as Email BCC.
 
-The **[!UICONTROL Channel]** Menyn grupperar de tekniska parametrar som är länkade till olika programkanaler (e-post, SMS) samt typologi och karantänhantering.
+The **[!UICONTROL Channel]** menu regroups the technical parameters linked to the different application channels (Email, SMS) as well as typology and quarantine management.
 
 Administratörer har åtkomst till dessa konfigurationer i **[!UICONTROL Administration]** > **[!UICONTROL Channels]** -menyn.
