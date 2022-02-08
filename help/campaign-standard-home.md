@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 9aae75653e3f517e59aae91eaa94c65d247a14dc
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 100%
+source-wordcount: '251'
+ht-degree: 93%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 ![](start/using/assets/do-not-localize/banner_acs_doc.jpg)
 
 ## Nyheter
+
+* **[Versionsinformation för Campaign 2.1 finns live](rn/using/release-notes.md)**<br/> Upptäck nya funktioner, förbättringar och korrigeringar i Campaign Standard 2.1
 
 * **[Vanliga frågor och svar om integritetsskydd i Apple Mail ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html?lang=sv)**<br/> Hitta inledande vägledning som svar på Apples meddelande om iOS 15
 
