@@ -1,21 +1,18 @@
 ---
 title: Interaktion med marknadsföringshistorik
-description: Lär dig interagera med profilernas marknadsföringshistorik.
-audience: developing
-content-type: reference
-topic-tags: campaign-standard-apis
+description: Lär dig interagera med profilernas marknadsföringshistorik
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 67282d21-b4ed-4af5-b751-848a6d705118
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 10%
 
 ---
 
-# Interaktion med marknadsföringshistorik {#interacting-with-marketing-history}
+# Interaktion med marknadsföringshistorik{#interacting-with-marketing-history}
 
 The **historik** kan du interagera med en profils marknadsföringshistorik.
 På så sätt kan du till exempel enkelt hämta spegelsidan för en leverans som skickades till en profil. Följ stegen nedan för att göra detta:

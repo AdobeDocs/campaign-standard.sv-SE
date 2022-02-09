@@ -4,8 +4,8 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Hjälpcenter för de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som behövs för att använda Campaign Standard. '
 title: Användarhandbok för Campaign Standard
 breadcrumb-title: 'Dokumentation om Adobe Campaign Standard '
-source-git-commit: 4c316778c34c14b8d5e5aa1812999ee024a581a0
-workflow-type: ht
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+workflow-type: tm+mt
 source-wordcount: '1807'
 ht-degree: 100%
 
@@ -490,7 +490,7 @@ ht-degree: 100%
    + Hantera profiler {#managing-profiles}
       + [Hämta profiler](api/using/retrieving-profiles.md)
       + [Uppdatera profiler](api/using/updating-profiles.md)
-      + [Skapa profiler](api/using/creating-profiles.md)
+      + [Skapa profiler](api/using/creating-profiles-api.md)
    + Hantera tjänster och prenumerationer {#managing-services-and-subscriptiopns}
       + [Skapa en tjänst](api/using/creating-a-service.md)
       + [Hämta prenumerationer](api/using/retrieving-subscriptions.md)

@@ -1,21 +1,18 @@
 ---
 title: Felsökning
-description: Läs mer om vanliga problem med Campaign Standard-API:er.
-audience: developing
-content-type: reference
-topic-tags: use-case--extending-the-api
+description: Läs mer om vanliga problem med Campaign Standard-API:er
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
 
-# Felsökning {#troubleshooting}
+# API-felsökning {#troubleshooting}
 
 * **När du går till Adobe.io-konsolen visas följande fel: &quot;Konsolen Adobe I/O är bara tillgänglig för att välja medlemmar i företagskonton. Kontakta systemadministratören om du anser att du bör ha åtkomst.&quot;**
 
@@ -87,7 +84,7 @@ Antingen är din token ogiltig (felaktigt IMS-anrop används för att generera e
 
 * **Jag kan inte se min profil efter att jag har skapat den**
 
-Beroende på instanskonfigurationen måste den skapade profilen kopplas till en **orgUnit**. Mer information om hur du lägger till det här fältet när du skapar finns i [det här avsnittet](../../api/using/creating-profiles.md).
+Beroende på instanskonfigurationen måste den skapade profilen kopplas till en **orgUnit**. Mer information om hur du lägger till det här fältet när du skapar finns i [det här avsnittet](../../api/using/creating-profiles-api.md).
 
 <!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu’un POST)
 

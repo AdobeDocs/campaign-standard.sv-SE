@@ -1,21 +1,18 @@
 ---
 title: Hämta prenumerationer
-description: Lär dig hur du hämtar prenumerationer med API:er.
-audience: developing
-content-type: reference
-topic-tags: campaign-standard-apis
+description: Lär dig hur du hämtar prenumerationer med API:er
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 6d935074-3196-45c5-97cd-ccb7c80bbba8
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 2%
+source-wordcount: '198'
+ht-degree: 1%
 
 ---
 
-# Hämta prenumerationer {#retrieving-subscriptions}
+# Hämta prenumerationer med API:er {#retrieving-subscriptions-api}
 
 ## Hämta profiler som prenumererar på en tjänst
 

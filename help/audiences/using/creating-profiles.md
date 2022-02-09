@@ -8,10 +8,10 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: 827df9f6-070c-466a-890c-e363de6b129b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 89%
+source-wordcount: '379'
+ht-degree: 87%
 
 ---
 
@@ -21,7 +21,7 @@ I Adobe Campaign används profiler som standard för att definiera meddelandets 
 
 >[!NOTE]
 >
->Det går även att skapa profiler med API:n för Adobe Campaign Standard.  Mer information om detta hittar du i den [dedikerade dokumentationen](../../api/using/creating-profiles.md).
+>Det går även att skapa profiler med API:n för Adobe Campaign Standard.  Mer information om detta hittar du i den [dedikerade dokumentationen](../../api/using/creating-profiles-api.md).
 
 ![](assets/do-not-localize/how-to-video.png) [Se hur du importerar profiler med hjälp av ett arbetsflöde i en video](#video)
 
@@ -31,7 +31,7 @@ Om du vill skapa eller uppdatera en profil i Campaign kan du:
 * Samla in data online via [landningssidor](../../channels/using/getting-started-with-landing-pages.md)
 * Skapa bulk via [REST API](../../api/using/get-started-apis.md)
 * Synkronisera profiler från [Microsoft Dynamics](../../integrating/using/d365-acs-get-started.md)
-* Ange data med hjälp av de grafiska gränssnittsskärmarna som förklaras nedan
+* Ange data med användargränssnittet enligt nedan
 
 Om du exempelvis vill skapa en ny profil direkt i användargränssnittet följer du stegen nedan:
 

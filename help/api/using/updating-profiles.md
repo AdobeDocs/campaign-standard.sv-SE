@@ -1,21 +1,18 @@
 ---
 title: Uppdatera profiler
-description: Lär dig mer om hur du uppdaterar profiler med API:er.
-audience: developing
-content-type: reference
-topic-tags: campaign-standard-apis
+description: Läs mer om hur du uppdaterar profiler med API:er
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: fa3796ee-a00c-4d70-bf3d-e8d2099f1116
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 4%
+source-wordcount: '96'
+ht-degree: 2%
 
 ---
 
-# Uppdatera profiler {#updating-profiles}
+# Uppdatera profiler med API:er{#updating-profiles-api}
 
 Uppdatering av profiler utförs med en **PATCH** begäran.
 
