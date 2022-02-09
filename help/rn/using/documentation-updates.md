@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 85c32143f87b1c46dd9aa32e9aac17f5fa9b7c62
+source-git-commit: 1311b88313910acd9fa6585adecbd7c8315e2d77
 workflow-type: tm+mt
-source-wordcount: '7089'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,17 +18,27 @@ Förutom [versionsinformationen](../../rn/using/release-notes.md) för Adobe Cam
 
 ## Februari 2022 {#doc-updates-feb-2022}
 
+## Version 22.1 – februari 2022 {#release-22-1}
+
+**Förbättringar som ingår i releasen**
+
 Förbättrad återförsöksfunktion för leveranser, inklusive innehåll som importerats från en URL. [Läs mer](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
-En varningsanteckning om nyckelord som utlöser automatiska SMS-svar har lagts till: De får endast innehålla alfanumeriska tecken. [Läs mer](../../channels/using/managing-incoming-sms.md)
-
 Uppdaterad åtkomstnivå för alternativen som styr Granskning: tidigare alternativ för aktivering/inaktivering [Granskningsspår](../../administration/using/audit.md) var inte tillgängliga för [funktionsadministratörer](../../administration/using/users-management.md#functional-administrators). Den här ändringen innebär att åtkomstnivån för granskning ändras så att funktionell administratör får kontroll. [Läs mer](../../administration/using/audit.md#enable-disable-audit)
+
+Den nya **Jobbhistorik** listrutan har lagts till i meddelandekontrollpanelen. [Läs mer](../../sending/using/monitoring-a-delivery.md)
+
+**Andra ändringar**
+
+En varningsanteckning om nyckelord som utlöser automatiska SMS-svar har lagts till: De får endast innehålla alfanumeriska tecken. [Läs mer](../../channels/using/managing-incoming-sms.md)
 
 En anteckning har lagts till i e-postavsnittet för A/B-tester: Om den totala befolkningen är mindre än 50 kB måste varje variant motsvara minst 10 % av den totala befolkningen. Annars visas en varning i loggarna. [Läs mer](../../channels/using/designing-an-a-b-test-email.md)
 
 Beskrivningen av **[!UICONTROL Delete the source files after transfer]** i **Överföringsfil** -aktivitet, inklusive en påminnelse om att manuellt övervaka storleken på det arkiverade innehållet i SFTP-katalogen om alternativet inte väljs. [Läs mer](../../automating/using/transfer-file.md)
 
 Uppdaterade alla föråldrade länkar i **Integritet** -avsnitt. [Läs mer](../../start/using/privacy.md)
+
+En direktlänk har lagts till i dokumentationen till Kontrollpanelen för Campaign i innehållsdokumentationstabellen för Campaign Standard.
 
 ## Version 21.3 – september 2021 {#release-21-3---september-2021}
 

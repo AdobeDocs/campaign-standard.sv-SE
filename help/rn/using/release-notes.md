@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 46bb0c52b5437d29173ab4ccb510aeef67bd5c2d
+source-git-commit: 13894dd2ce3922a54e8754dfcb164eb37b18c76c
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 98%
 * Förbättrad bearbetning av rapporteringsdata för att undvika överbelastning av systemet. (CAMP-47578)
 * När du har skickat meddelanden i appen kan du nu välja att inaktivera leveransen. På så sätt kan du ta bort leveransen utan att förlora några rapporteringsdata. (CAMP-48469)
 * För att förhindra problem kan användare inte längre använda samma namn för en anpassad tabellkolumn som den som används för den automatiska primärnyckeln i databasen. `"<dataType><resourceName>Id"`. (CAMP-49358)
-* Du kan nu övervaka leveransen och spåra jobbloggar med den nya rullgardinsmenyn **Jobbhistorik** från kontrollpanelen för dina meddelanden. (CAMP-49840)
+* Du kan nu övervaka leveransen och spåra jobbloggar med den nya rullgardinsmenyn **Jobbhistorik** från kontrollpanelen för dina meddelanden. [Läs mer](../../sending/using/monitoring-a-delivery.md) (CAMP-49840)
 * Förbättrad stabilitet och databashälsa genom att minska antalet döda tupler när ett stort antal meddelanden skickas över alla kanaler över tiden. (CAMP-49755, CAMP-49792, CAMP-49849)
 * För att säkerställa att databasanslutningar uppdateras automatiskt i händelse av databaskrasch eller omstart, har förbättringar implementerats i Campaign Mail Transfer Agent (MTA). (CAMP-48063)
 
