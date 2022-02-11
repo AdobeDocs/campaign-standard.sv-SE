@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1591'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ Se även den här [självstudiekursen](https://experienceleague.adobe.com/docs/c
 
 1. Klicka på **[!UICONTROL Create]**. Du kan nu skapa förfrågningar om användarens information baserat på din nya namnrymd. Om du använder flera namnutrymmen skapar du en förfrågning om användarens information per namnutrymme.
 
-### Skapa en förfrågan om användarens information {#create-privacy-request}
+### Skapa en sekretessförfrågan {#create-privacy-request}
 
 <!--Starting 19.4, the use of the Campaign API and interface for Access and Delete requests is deprecated. Use the **Privacy Core Service** for any GDPR, CCPA, PDPA, or LGPD Access and Delete requests.-->
 
@@ -95,9 +95,9 @@ Läs dokumentationen för [Experience Platform Privacy Service](https://experien
 
 >[!IMPORTANT]
 >
->Om du vill skicka en begäran med den anpassade namnområdestypen använder du [JSON-metod](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#json){target=&quot;_blank&quot;} och lägg till namespaceId i begäran eller använd kommandot [API-anrop](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=en#access-delete){target=&quot;_blank&quot;} för att göra begäran.
+>För att skicka en begäran med den anpassade namnrymdstypen använder du [JSON-metoden](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=sv#json) {target=&quot;_blank&quot;} och lägger till ID:et för namnrymden i begäran. Du kan också använda [API-anropet](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=sv#access-delete){target=&quot;_blank&quot;} för att skicka begäran.
 >
->Använd bara [Sekretessgränssnitt](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#request-builder){target=&quot;_blank&quot;} om du vill skicka begäranden med standardnamnområdestypen.
+>Använd bara [Användargränssnittet för sekretess](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=sv#request-builder){target=&quot;_blank&quot;} om du vill skicka begäranden med standardnamnrymdstypen.
 
 Varje jobb i Privacy core service delas upp i flera förfrågningar om användarens information i Campaign baserat på hur många namnrymder som används. En förfrågan motsvarar en namnrymd. Ett jobb kan även köras på flera instanser. Därför skapas flera filer för ett jobb. Om en förfrågan till exempel har två namnrymder och körs i tre instanser skickas totalt sex filer. En fil per namnrymd och instans.
 
@@ -189,7 +189,7 @@ När användare via ditt system beslutar att de inte tillåter att deras personu
 
 ### Krav för anpassade tabeller {#ccpa-prerequisite}
 
-The **[!UICONTROL CCPA Opt-Out]** finns i körklart fält i Campaign-gränssnittet och API:t. Som standard är fältet tillgängligt för standardresursen **[!UICONTROL Profile]**.
+Fältet **[!UICONTROL CCPA Opt-Out]** tillhandahålls direkt i Campaign-gränssnittet och API:et. Som standard är fältet tillgängligt för standardresursen för **[!UICONTROL Profile]**.
 
 Om du använder en anpassad profilresurs måste du utöka resursen och lägga till fältet. Vi rekommenderar att du använder ett annat namn än det färdiga fältets, såsom: **[!UICONTROL Opt-Out for CCPA]** (optoutccpa). När ett nytt fält skapas stöds det automatiskt av API:et i Campaign.
 
