@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: acbe5f1990738f586e4310d13f0e19baab11d771
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 1%
+source-wordcount: '958'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ Push-spårning är indelad i tre typer:
 
 * **Öppna push** - När ett push-meddelande har levererats till enheten och användaren har klickat på meddelandet som får programmet att öppnas.  Detta liknar kommandot Push Click, men Push Open aktiveras inte om meddelandet stängs.
 
-För att implementera spårning för Campaign Standard måste mobilappen innehålla Mobile SDK. Dessa SDK är tillgängliga för Adobe mobiltjänster. Se denna [sida](../../administration/using/configuring-a-mobile-application.md) för mer information om detta.
+För att implementera spårning för Campaign Standard måste mobilappen innehålla Adobe Experience Platform SDK:er. Dessa SDK:er är tillgängliga i [Adobe Experience Platform SDKs-dokumentation](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
 Om du vill skicka spårningsinformation finns det tre variabler som måste skickas. Två som är en del av data som har tagits emot från Campaign Standarden och en åtgärdsvariabel som anger om det är en **Impression**, **Klicka** eller **Öppna**.
 
@@ -39,13 +39,13 @@ Om du vill skicka spårningsinformation finns det tre variabler som måste skick
 |:-:|:-:|
 | broadlogId | _mId från data |
 | deliveryId | _dId från data |
-| åtgärd | 1 för Open, 2 för Click och 7 för Impression |
+| åtgärd | &quot;1&quot; för Open, &quot;2&quot; för Click och &quot;7&quot; för Impression |
 
 ## Implementering för Android {#implementation-android}
 
 ### Så här implementerar du spårning av push-intrycken {#push-impression-tracking-android}
 
-Om du vill spåra ett intryck måste du skicka värdet 7 för åtgärd när du anropar **[!UICONTROL trackAction()]** funktion.
+Om du vill spåra ett intryck måste du skicka värdet 7 för åtgärd när du anropar `collectMessageInfo()` eller `trackAction()` funktioner.
 
 För leveranser som skapats före version 21.1 eller leveranser med anpassad mall, se denna [section](../../administration/using/push-tracking.md#about-push-tracking).
 
@@ -67,11 +67,18 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
     }
  
     HashMap<String, String> contextData = new HashMap<>();
-    if (deliveryId != null && messageId != null && acsDeliveryTracking.equals("on")) {
-                contextData.put("deliveryId", deliveryId);
-                contextData.put("broadlogId", messageId);
-                contextData.put("action", "7");
-                MobileCore.trackAction("tracking", contextData);
+    if( deliveryId != null && messageId != null && acsDeliveryTracking.equals("on")) {
+      contextData.put("deliveryId", deliveryId);
+      contextData.put("broadlogId", messageId);
+      contextData.put("action", "7");
+
+    //If you are using ACPCore v1.4.0 or later, use the next line.
+      
+      MobileCore.collectMessageInfo(contextData);
+      
+    //Else comment out the above line and uncomment the line below
+        
+    //MobileCore.trackAction("tracking", contextData) ;
     }
   }
 }
@@ -79,8 +86,7 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 
 ### Så här implementerar du klickspårning {#push-click-tracking-android}
 
-För klickspårning måste du skicka värdet &quot;2&quot; för åtgärd när du anropar **[!UICONTROL trackAction()]** funktion.
-
+För klickspårning måste du skicka värdet &quot;2&quot; för åtgärd när du anropar `collectMessageInfo()` eller `trackAction()` funktioner.
 Om du vill spåra klickningar måste två scenarier hanteras:
 
 * Användaren ser meddelandet men rensar det.
@@ -157,7 +163,14 @@ public class NotificationDismissedReceiver extends BroadcastReceiver {
             contextData.put("deliveryId", deliveryId);
             contextData.put("broadlogId", messageId);
             contextData.put("action", "2");
-            MobileCore.trackAction("tracking", contextData);
+            
+        //If you are using ACPCore v1.4.0 or later, use the next line.
+        
+            MobileCore.collectMessageInfo(contextData);
+            
+        //Else comment out the above line and uncomment the line below
+        
+            //MobileCore.trackAction("tracking", contextData);
         }
     }
 }
@@ -204,14 +217,28 @@ private void handleTracking() {
         if (deliveryId != null && messageId != null && acsDeliveryTracking.equals("on")) {
             contextData.put("deliveryId", deliveryId);
             contextData.put("broadlogId", messageId);
- 
-            //Send Click Tracking since the user did click on the notification
             contextData.put("action", "2");
-            MobileCore.trackAction("tracking", contextData);
+            
+            //Send Click Tracking since the user did click on the notification
+              
+                //If you are using ACPCore v1.4.0 or later, use the next line.
+
+                MobileCore.collectMessageInfo(contextData);
+                  
+                //Else comment out the above line and uncomment the line below
+        
+                //MobileCore.trackAction("tracking", contextData);
  
-            //Send Open Tracking since the user opened the app
-            contextData.put("action", "1");
-            MobileCore.trackAction("tracking", contextData);
+                //Send Open Tracking since the user opened the app
+            
+                contextData.put("action", "1");
+                
+                //If you are using ACPCore v1.4.0 or later, use the next line.
+
+                MobileCore.collectMessageInfo(contextData);
+                //Else comment out the above line and uncomment the line below
+        
+                //MobileCore.trackAction("tracking", contextData);
         }
     }
 }
@@ -221,7 +248,7 @@ private void handleTracking() {
 
 ### Så här implementerar du spårning av push-intrycken {#push-impression-tracking-iOS}
 
-Om du vill spåra ett intryck måste du skicka värdet 7 för åtgärd när du anropar **[!UICONTROL trackAction()]** funktion.
+Om du vill spåra ett intryck måste du skicka värdet 7 för åtgärd när du anropar `collectMessageInfo()` eller `trackAction()` funktioner.
 
 För att förstå hur iOS-meddelanden fungerar måste appens tre lägen vara detaljerade:
 
@@ -257,7 +284,14 @@ func application(_ application: UIApplication, didReceiveRemoteNotification user
                 acsDeliveryTracking = "on";
             }
             if (deliveryId != nil && broadlogId != nil && acsDeliveryTracking?.caseInsensitiveCompare("on") == ComparisonResult.orderedSame) {
-               ADBMobile.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"7"])
+
+            //If you are using ACPCore v2.3.0 or later, use the next line.
+
+                ACPCore.collectMessageInfo(["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"7"])
+                
+            //Else comment out the above line and uncomment the line below
+        
+                //ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"7"])
             }
         }
         completionHandler(UIBackgroundFetchResult.noData)
@@ -283,15 +317,22 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent noti
             acsDeliveryTracking = "on";
         }
         if (deliveryId != nil && broadlogId != nil && acsDeliveryTracking?.caseInsensitiveCompare("on") == ComparisonResult.orderedSame) {
-             ADBMobile.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"7"])
-        }
+
+            //If you are using ACPCore v2.3.0 or later, use the next line.
+
+                ACPCore.collectMessageInfo(["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"7"])
+                
+            //Else comment out the above line and uncomment the line below
+        
+                //ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"7"])        
+            }
         completionHandler([.alert,.sound])
     }
 ```
 
 ### Så här implementerar du klickspårning {#push-click-tracking-iOS}
 
-För klickspårning måste du skicka värdet &quot;2&quot; för åtgärd när du anropar **[!UICONTROL trackAction()]** funktion.
+För klickspårning måste du skicka värdet &quot;2&quot; för åtgärd när du anropar `collectMessageInfo()` eller `trackAction()` funktioner.
 För leveranser som skapats före version 21.1 eller leveranser med anpassad mall, se denna [section](../../administration/using/push-tracking.md#about-push-tracking).
 
 ```
@@ -351,7 +392,14 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive respo
                 acsDeliveryTracking = "on";
             }
             if (deliveryId != nil && broadlogId != nil && acsDeliveryTracking?.caseInsensitiveCompare("on") == ComparisonResult.orderedSame) {
-                ADBMobile.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
+
+            //If you are using ACPCore v2.3.0 or later, use the next line.
+
+                ACPCore.collectMessageInfo(["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
+                
+            //Else comment out the above line and uncomment the line below
+        
+                //ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])   
             }
         default:
             ////MORE CODE
@@ -391,7 +439,15 @@ class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
                 acsDeliveryTracking = "on";
             }
             if (deliveryId != nil && broadlogId != nil && acsDeliveryTracking?.caseInsensitiveCompare("on") == ComparisonResult.orderedSame) {
-                ADBMobile.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
+
+            //If you are using ACPCore v2.3.0 or later, use the next line.
+
+                ACPCore.collectMessageInfo(["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
+                
+            //Else comment out the above line and uncomment the line below
+        
+                //ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
+
             }
         default:
             //This is to handle the tracking when the app opens
@@ -405,8 +461,22 @@ class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
                 acsDeliveryTracking = "on";
             }
             if (deliveryId != nil && broadlogId != nil && acsDeliveryTracking?.caseInsensitiveCompare("on") == ComparisonResult.orderedSame) {
-                ADBMobile.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
-                ADBMobile.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"1"])
+            //If you are using ACPCore v2.3.0 or later, use the next line.
+
+                ACPCore.collectMessageInfo(["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
+                
+            //Else comment out the above line and uncomment the line below
+        
+                //ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])                
+                
+            //If you are using ACPCore v2.3.0 or later, use the next line.
+
+                ACPCore.collectMessageInfo(["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"1"])
+                
+            //Else comment out the above line and uncomment the line below
+        
+                //ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"1"])
+                
             }
         }
         completionHandler()
