@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 0d473db5013ecc33b100aa884daac53f36fb2e93
 workflow-type: tm+mt
-source-wordcount: '2596'
-ht-degree: 76%
+source-wordcount: '2614'
+ht-degree: 75%
 
 ---
 
@@ -234,6 +234,7 @@ Avsnittet **[!UICONTROL Tracking]** innehåller följande parametrar:
 * **[!UICONTROL Activate tracking]**: Används om du vill aktivera/inaktivera spårning av meddelande-URL. Om du vill hantera spårning för varje meddelande-URL använder du **[!UICONTROL Links]**-ikonen i åtgärdsfältet för e-postdesignern. Se [Om spårade URL:er](../../designing/using/links.md#about-tracked-urls).
 * **[!UICONTROL Tracking validity limit]**: Används om du vill definiera hur länge spårningen ska aktiveras på URL-adresserna.
 * **[!UICONTROL Substitution URL for expired URLs]**: Du kan ange en URL till en webbsida som visas när spårningen har upphört att gälla.
+* **[!UICONTROL Use tracking pixel at the top of email]**: Med kan du flytta spårningspunkten högst upp i e-postmeddelandet i stället för längst ned.
 
 ### Avancerade parametrar {#advanced-parameters}
 

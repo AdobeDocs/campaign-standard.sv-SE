@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
-source-git-commit: 97d1de796397f4f801d97790cec39a94734d2af7
-workflow-type: ht
-source-wordcount: '4571'
-ht-degree: 100%
+source-git-commit: 8f04bb9fa8b47b990f0cd6359ce6569d836a9b64
+workflow-type: tm+mt
+source-wordcount: '4587'
+ht-degree: 99%
 
 ---
 
@@ -110,6 +110,7 @@ Nya funktioner, förbättringar och korrigeringar som ingår i nästa version av
 * Ett nytt varningsmeddelande informerar användare om en hög studsfrekvens.
 * Förbättrade felmeddelanden och varningar för loggar som underlättar felsökning när det inte går att hämta spårningsloggarna på korrekt sätt. (CAMP-48939, CAMP-47360)
 * Du kan nu anpassa URL:er helt, inklusive domännamnet. [Läs mer](../../designing/using/personalization.md#personalizing-urls)
+* Profiler för korrektur och svällning har nu exkluderats från beräkning av leveransprestanda i dynamiska rapporter. (CAMP-47338)
 
 **Felkorrigeringar**
 
