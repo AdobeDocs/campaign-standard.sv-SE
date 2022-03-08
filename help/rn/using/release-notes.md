@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 0d473db5013ecc33b100aa884daac53f36fb2e93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '762'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 95%
 * Du kan nu övervaka leveransen och spåra jobbloggar med den nya rullgardinsmenyn **Jobbhistorik** från kontrollpanelen för dina meddelanden. [Läs mer](../../sending/using/monitoring-a-delivery.md) (CAMP-49840)
 * Förbättrad stabilitet och databashälsa genom att minska antalet döda tupler när ett stort antal meddelanden skickas över alla kanaler över tiden. (CAMP-49755, CAMP-49792, CAMP-49849)
 * För att säkerställa att databasanslutningar uppdateras automatiskt i händelse av databaskrasch eller omstart, har förbättringar implementerats i Campaign Mail Transfer Agent (MTA). (CAMP-48063)
-* Ett nytt spårningsalternativ **Använd pixeln Spärra/knip högst upp i e-postmeddelandet** har lagts till i e-postegenskaperna så att du kan flytta spårningspixeln längst upp i e-postmeddelandet i stället för längst ned. (CAMP-49672)
+* Ett nytt spårningsalternativ **Använd spårningspixel överst i e-postmeddelandet** har lagts till i e-postegenskaperna så att du kan flytta spårningspixeln överst i e-postmeddelandet i stället för längst ned. (CAMP-49672)
 
 **Felkorrigeringar**
 
