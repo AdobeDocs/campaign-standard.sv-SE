@@ -6,10 +6,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6aa53aa9-aa5c-4b29-ad84-d983da241ceb
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 98aa27e4fb5eab9abbce5a9a9ba2c17d04424d70
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 85%
+source-wordcount: '237'
+ht-degree: 82%
 
 ---
 
@@ -28,11 +28,11 @@ Med Adobe Campaign kan du definiera och hantera behörigheter som tilldelats til
 
 Roller, grupper och organisationsenheter kan hanteras av plattformens funktionsadministratör i meny **[!UICONTROL Administration > Users & Security]**.
 
-![](assets/user_management_1.png)
+![Menyn Användarhantering](assets/user_management_1.png)
 
-Användare hanteras i Admin Console (se [Hantera grupper och användare](../../administration/using/managing-groups-and-users.md) eller [Admin Console dokumentation](https://helpx.adobe.com/se/enterprise/managing/user-guide.html)).
+Användare hanteras i Admin Console. Läs mer i [Hantera grupper och användare](../../administration/using/managing-groups-and-users.md) och i [Admin Console dokumentation](https://helpx.adobe.com/se/enterprise/managing/user-guide.html).
 
-![](assets/user_management_6.png)
+![Åtkomst till produktprofiler](assets/user_management_6.png)
 
 >[!IMPORTANT]
 >

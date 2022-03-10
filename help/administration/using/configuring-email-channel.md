@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 0d473db5013ecc33b100aa884daac53f36fb2e93
+source-git-commit: 98aa27e4fb5eab9abbce5a9a9ba2c17d04424d70
 workflow-type: tm+mt
-source-wordcount: '2614'
-ht-degree: 75%
+source-wordcount: '2660'
+ht-degree: 74%
 
 ---
 
@@ -234,7 +234,7 @@ Avsnittet **[!UICONTROL Tracking]** innehåller följande parametrar:
 * **[!UICONTROL Activate tracking]**: Används om du vill aktivera/inaktivera spårning av meddelande-URL. Om du vill hantera spårning för varje meddelande-URL använder du **[!UICONTROL Links]**-ikonen i åtgärdsfältet för e-postdesignern. Se [Om spårade URL:er](../../designing/using/links.md#about-tracked-urls).
 * **[!UICONTROL Tracking validity limit]**: Används om du vill definiera hur länge spårningen ska aktiveras på URL-adresserna.
 * **[!UICONTROL Substitution URL for expired URLs]**: Du kan ange en URL till en webbsida som visas när spårningen har upphört att gälla.
-* **[!UICONTROL Use tracking pixel at the top of email]**: Med kan du flytta spårningspunkten högst upp i e-postmeddelandet i stället för längst ned.
+* **[!UICONTROL Use tracking pixel at the top of email]**: Med kan du flytta spårningspunkten högst upp i e-postmeddelandet i stället för längst ned. Som standard finns den här pixeln längst ned i dina e-postmeddelanden. Om du skickar stora meddelanden bör du överväga att flytta den här pixeln högst upp i e-postmeddelandena i stället för längst ned för att förbättra den öppna spårningen. I annat fall kan spårningspixeln kapas av vissa e-postleverantörer.
 
 ### Avancerade parametrar {#advanced-parameters}
 
