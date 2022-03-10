@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 98aa27e4fb5eab9abbce5a9a9ba2c17d04424d70
+source-git-commit: 897ec46abace9debce45e7dc174e17074b29a0c2
 workflow-type: tm+mt
-source-wordcount: '2660'
-ht-degree: 74%
+source-wordcount: '2655'
+ht-degree: 62%
 
 ---
 
@@ -28,7 +28,7 @@ På skärmen för e-postkonfiguration kan du definiera parametrar för e-postkan
    I avsnittet **[!UICONTROL Header parameters of sent emails]** visas de auktoriserade e-postadresser som du kan använda för att skicka e-post till dina mottagare (avsändaradress) och för att de ska kunna skicka tillbaka automatiska svar som asynkrona studsar, frånvaromeddelanden, o.s.v. (feladress).  Adobe Campaign kontrollerar att de angivna adresserna är giltiga under fasen för förberedelse av meddelande. Det här operativläget ser till att inga adresser används som kan utlösa levererbarhetsproblem.
    * Både avsändar- och feladresser konfigureras av Adobe. Dessa fält får inte vara tomma.
    * Du kan inte redigera dessa fält. Om du vill uppdatera en adress kontaktar du Adobes kundtjänstteam.
-   * Om du vill lägga till ytterligare en adress kan du använda [Kontrollpanelen](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=sv) för att konfigurera en ny underdomän eller kontakta Adobes kundtjänstteam. Observera att om flera masker används kommer de att avgränsas med kommatecken.
+   * Om du vill lägga till ytterligare en adress kan du använda [Kontrollpanelen för kampanj](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=sv) om du vill konfigurera en ny underdomän, eller kontakta Adobe kundtjänstteam. Observera att om flera masker används avgränsas de med kommatecken.
    * Det är en god vana att ange adresser med en stjärna som *@yourdomain.com: det gör att du kan använda alla adresser som slutar med ditt underdomännamn.
 
 * **levererbarhet**
@@ -40,7 +40,7 @@ På skärmen för e-postkonfiguration kan du definiera parametrar för e-postkan
 
    Adobe Campaign skickar meddelanden som börjar på startdatumet.
 
-   I fältet **[!UICONTROL Message delivery duration]** kan du ange den tidsram i vilken ett meddelande i leveransen som påträffar ett tillfälligt fel eller en mjuk studsning kommer att provas igen.
+   När ett meddelande i en leverans avvisas på grund av ett tillfälligt fel eller ett mjukt avhopp, försöker Campaign att skicka det här meddelandet varje dag. Använd **[!UICONTROL Message delivery duration]** för att ange tidsramen när nya försök kan göras.
 
    >[!IMPORTANT]
    >
@@ -142,9 +142,9 @@ Identifiera e-postmeddelandet med hjälp av fälten **[!UICONTROL Label]** och *
 >
 >ID måste vara unikt.
 
-I fältet **[!UICONTROL Brand]** kan du välja det varumärke som är kopplat till leveransen. Mer information om hur du använder och konfigurerar varumärken finns i avsnittet [Varumärke](../../administration/using/branding.md).
+Använd **[!UICONTROL Brand]** för att välja det varumärke som är kopplat till leveransen. Mer information om hur du använder och konfigurerar varumärken finns i avsnittet [Varumärke](../../administration/using/branding.md).
 
-I fältet **[!UICONTROL Campaign]** kan du ange kampanjen som är kopplad till e-postmeddelandet.
+I **[!UICONTROL Campaign]** anger du kampanjen som är kopplad till e-postmeddelandet.
 
 Du kan också lägga till en **[!UICONTROL Description]** i motsvarande fält och redigera bilden som visas på e-postminiatyrbilden i listorna.
 
@@ -177,7 +177,8 @@ Du kan konfigurera formatet för e-postmeddelanden som ska skickas. Det finns tr
 
 #### SMTP-testläge {#smtp-test-mode}
 
-Med **[!UICONTROL Enable SMTP test mode]**-alternativet kan du testa att skicka e-postmeddelanden via en SMTP-anslutning utan att skicka meddelanden.
+Använd **[!UICONTROL Enable SMTP test mode]** möjlighet att testa att skicka e-postmeddelanden via en SMTP-anslutning utan att faktiskt skicka meddelanden.
+
 Meddelandena behandlas tills anslutningen till SMTP-servern har upprättats, men de skickas inte.
 
 ![](assets/smtp-test-mode.png)
@@ -205,36 +206,35 @@ Avsnittet **[!UICONTROL Validity period]** innehåller följande parametrar:
 
    ![](assets/delivery-set-explicit-dates.png)
 
-* **[!UICONTROL Delivery duration]**/**[!UICONTROL Validity limit for sending messages]**: Adobe Campaign skickar meddelanden som börjar på startdatumet. I det här fältet kan du ange hur länge meddelanden kan skickas.
+* **[!UICONTROL Delivery duration]**/**[!UICONTROL Validity limit for sending messages]**: Adobe Campaign skickar meddelanden som börjar på startdatumet. Använd det här fältet för att ange under vilken period som meddelanden kan skickas.
 
    >[!IMPORTANT]
    >
    >**Du måste definiera ett värde på upp till 3,5 dagar.** Om du anger ett värde som är högre än 3,5 dagar beaktas det inte.
+   >
+   >Parametern **[!UICONTROL Delivery duration]** gäller inte för transaktionsmeddelanden. Mer information om transaktionsmeddelanden finns i [det här avsnittet](../../channels/using/getting-started-with-transactional-msg.md).
 
 * **[!UICONTROL Resource validity duration]**/**[!UICONTROL Validity limit date for resources]**: Det här fältet används för överförda resurser, huvudsakligen för spegelsidan och bilder. Resurserna på den här sidan är giltiga under en begränsad tid (för att spara diskutrymme).
-* **[!UICONTROL Mirror page management]**: Spegelsidan är en HTML-sida som är tillgänglig online via en webbläsare. Innehållet är identiskt med e-postinnehållet. Spegelsidan genereras som standard om länken infogas i postinnehållet. I det här fältet kan du ändra hur sidan genereras:
-
-   >[!IMPORTANT]
-   >
-   >HTML-innehåll måste ha definierats för e-postmeddelandet för den spegelsida som ska skapas.
+* **[!UICONTROL Mirror page management]**: Spegelsidan är en HTML-sida som är tillgänglig online via en webbläsare. Innehållet är identiskt med e-postinnehållet. Spegelsidan genereras som standard om länken infogas i postinnehållet. Använd det här fältet om du vill ändra hur sidan genereras:
 
    * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]** (standardläge): Spegelsidan genereras om länken infogas i postinnehållet.
    * **Framtvinga generering av spegelsidan**: Spegelsidan skapas även om ingen länk till spegelsidan infogas i meddelandena.
    * **Generera inte spegelsidan**: Ingen spegelsida genereras, även om länken finns i meddelandena.
    * **Generera en spegelsida som bara är tillgänglig med meddelande-ID**: Med det här alternativet kan du komma åt spegelsidans innehåll, med anpassningsinformation, i fönstret för leveransloggen.
 
->[!NOTE]
->
->Parametern **[!UICONTROL Delivery duration]** gäller inte för transaktionsmeddelanden. Mer information om transaktionsmeddelanden finns i [det här avsnittet](../../channels/using/getting-started-with-transactional-msg.md).
+   >[!IMPORTANT]
+   >
+   >Spegelsidan genereras bara om ett HTML-innehåll har definierats för e-postmeddelandet.
+
 
 ### Spårningsparametrar {#tracking-parameters}
 
 Avsnittet **[!UICONTROL Tracking]** innehåller följande parametrar:
 
-* **[!UICONTROL Activate tracking]**: Används om du vill aktivera/inaktivera spårning av meddelande-URL. Om du vill hantera spårning för varje meddelande-URL använder du **[!UICONTROL Links]**-ikonen i åtgärdsfältet för e-postdesignern. Se [Om spårade URL:er](../../designing/using/links.md#about-tracked-urls).
-* **[!UICONTROL Tracking validity limit]**: Används om du vill definiera hur länge spårningen ska aktiveras på URL-adresserna.
-* **[!UICONTROL Substitution URL for expired URLs]**: Du kan ange en URL till en webbsida som visas när spårningen har upphört att gälla.
-* **[!UICONTROL Use tracking pixel at the top of email]**: Med kan du flytta spårningspunkten högst upp i e-postmeddelandet i stället för längst ned. Som standard finns den här pixeln längst ned i dina e-postmeddelanden. Om du skickar stora meddelanden bör du överväga att flytta den här pixeln högst upp i e-postmeddelandena i stället för längst ned för att förbättra den öppna spårningen. I annat fall kan spårningspixeln kapas av vissa e-postleverantörer.
+* **[!UICONTROL Activate tracking]**: Använd det här alternativet om du vill aktivera/inaktivera spårning av meddelande-URL. Om du vill hantera spårning för varje meddelande-URL använder du **[!UICONTROL Links]**-ikonen i åtgärdsfältet för e-postdesignern. Se [Om spårade URL:er](../../designing/using/links.md#about-tracked-urls).
+* **[!UICONTROL Tracking validity limit]**: Använd det här alternativet om du vill ange hur länge spårningen ska aktiveras på URL-adresserna.
+* **[!UICONTROL Substitution URL for expired URLs]**: Använd det här alternativet för att ange en URL till en reservwebbsida: den visas när spårningen har upphört att gälla.
+* **[!UICONTROL Use tracking pixel at the top of email]**: Använd det här alternativet om du vill flytta spårningspunkten högst upp i e-postmeddelandet i stället för längst ned. Som standard finns den här pixeln längst ned i dina e-postmeddelanden. Om du skickar stora meddelanden bör du överväga att flytta den här pixeln högst upp i e-postmeddelandena i stället för längst ned för att förbättra den öppna spårningen. I annat fall kan spårningspixeln kapas av vissa e-postleverantörer.
 
 ### Avancerade parametrar {#advanced-parameters}
 
@@ -250,7 +250,7 @@ Infogning och användning av anpassningsinnehåll finns i dokumentationen [Anpas
 
 #### Målkontext {#target-context}
 
-Med målkontexten kan du definiera en uppsättning tabeller som ska användas för e-postmarknadsföring (på skärmen för målgruppsdefinition) och anpassning (definiera anpassningsfält i HTML-innehållsredigeraren).
+Använd målgruppskontexten för att definiera en uppsättning tabeller som ska användas för e-postmarknadsföring (i målgruppsdefinitionsskärmen) och personalisering (definiera personaliseringsfält i HTML innehållsredigeraren).
 
 #### Dirigering {#routing}
 
@@ -270,15 +270,15 @@ Förberedelse av meddelanden beskrivs i avsnittet [Godkänna meddelanden](../../
    >
    >Typologier, som du kommer åt via menyn **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]**, presenteras i [det här avsnittet](../../sending/using/about-typology-rules.md).
 
-* **[!UICONTROL Compute the label during delivery preparation]**: Kan användas för att beräkna etikettvärdet för e-postmeddelandet under meddelandets förberedelsefas med anpassningsfält, innehållsblock och dynamisk text.
+* **[!UICONTROL Compute the label during delivery preparation]**: Använd det här alternativet för att beräkna e-postens etikettvärde under meddelandeförberedelsefasen med hjälp av anpassningsfält, innehållsblock och dynamisk text.
 
    Det går också att anpassa leveransetiketten med händelsevariabler som har deklarerats i arbetsflödets externa signalaktivitet. Mer information om detta hittar du i [det här avsnittet](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
-* **[!UICONTROL Save SQL queries in the log]**: Med det här alternativet kan du lägga till SQL-frågeloggar i journalen under förberedelsefasen.
+* **[!UICONTROL Save SQL queries in the log]**: Använd det här alternativet om du vill lägga till SQL-frågeloggar i journalen under förberedelsefasen.
 
 #### Korrekturinställningar {#proof-settings}
 
-I det här avsnittet kan du konfigurera standardprefixet som ska användas i korrekturets ämnesrad. Mer information om detta finns i [det här avsnittet](../../sending/using/sending-proofs.md).
+I det här avsnittet kan du konfigurera standardprefixet som ska användas på ärenderaden i korrekturmeddelandena. Läs mer om korrektur i [det här avsnittet](../../sending/using/sending-proofs.md).
 
 ### Lista över SMTP-parametrar för e-post {#list-of-email-smtp-parameters}
 
@@ -296,7 +296,7 @@ Avsnittet **[!UICONTROL SMTP]** innehåller följande parametrar:
 
 Avsnittet **[!UICONTROL Access authorization]** innehåller följande parametrar:
 
-* I fältet **[!UICONTROL Organizational unit]** kan du begränsa åtkomsten till det här e-postmeddelandet till vissa användare. De användare som är associerade med den angivna enheten eller överordnade enheter har läs- och skrivåtkomst till det här e-postmeddelandet. Användare som är associerade med underordnade enheter har endast läsåtkomst till det här e-postmeddelandet.
+* The **[!UICONTROL Organizational unit]** fältet används för att begränsa åtkomsten till det här e-postmeddelandet till vissa användare. De användare som är associerade med den angivna enheten eller överordnade enheter har läs- och skrivåtkomst till det här e-postmeddelandet. Användare som är associerade med underordnade enheter har endast läsåtkomst till det här e-postmeddelandet.
 
    >[!NOTE]
    >
@@ -318,17 +318,17 @@ Som standard schemaläggs fem återförsök till den första dagen med ett minst
 
 ### Leveransens varaktighet {#legacy-delivery-duration}
 
-The **[!UICONTROL Message delivery duration]** -parametern i [Konfigurationsmeny](#email-channel-parameters) gör att du kan ange den tidsram inom vilken ett meddelande i leveransen som påträffar ett tillfälligt fel eller ett försök att studsa kommer att göras igen.
+Använd **[!UICONTROL Message delivery duration]** -parametern i [Konfigurationsmeny](#email-channel-parameters) för att ange den tidsram inom vilken ett meddelande i leveransen som påträffar ett tillfälligt fel eller en mjuk avhoppning kommer att provas igen.
 
-The **[!UICONTROL Delivery duration]** eller **[!UICONTROL Validity limit for sending messages]** -parametern i [Giltighetsperiodens parametrar](#validity-period-parameters) kan du ange hur länge meddelanden kan skickas.
+Använd **[!UICONTROL Delivery duration]** eller **[!UICONTROL Validity limit for sending messages]** -parametern i [Giltighetsperiodens parametrar](#validity-period-parameters) för att ange hur länge meddelanden kan skickas.
 
 ### Regler för e-postbearbetning {#legacy-email-processing-rules}
 
-The **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** och **[!UICONTROL Domain management]** regler kan nås och ändras av administratörer via **[!UICONTROL Administration > Channels > Email > Email processing rules]** [meny](#email-processing-rules).
+The **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** och **[!UICONTROL Domain management]** regler kan nås och ändras av administratörer via **[!UICONTROL Administration > Channels > Email > Email processing rules]** -menyn. [Läs mer](#email-processing-rules).
 
 ### Kvalifikation av studsmeddelanden {#legacy-bounce-mail-qualification}
 
-Om du vill visa de olika gränserna och deras associerade feltyper och orsaker klickar du på **Adobe** logotyp, i det övre vänstra hörnet och välj **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
+Om du vill visa de olika gränserna och deras associerade feltyper och orsaker klickar du på knappen **Adobe** logotyp, i det övre vänstra hörnet och välj **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 
 Satser kan ha följande kvalificeringsstatus:
 
@@ -338,12 +338,12 @@ Satser kan ha följande kvalificeringsstatus:
 
 >[!NOTE]
 >
->Om en Internet-leverantör skulle råka ut för ett avbrott markeras e-post som skickas via Campaign felaktigt som studsar. För att korrigera detta måste du uppdatera studskompetens. Mer information finns på [den här sidan](../../administration/using/update-bounce-qualification.md).
+>Om en Internet-leverantör skulle råka ut för ett avbrott markeras e-post som skickas via Campaign felaktigt som studsar. För att korrigera detta måste du uppdatera studskompetens. [Läs mer](../../administration/using/update-bounce-qualification.md).
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
 
 ### Levererad indikatorrapportering {#legacy-delivered-status-report}
 
-I **[!UICONTROL Summary]** för varje meddelande, **[!UICONTROL Delivered]** Procentandelen kommer gradvis att öka under hela leveransperioden, allt eftersom de mjuka och hårda studenterna rapporteras tillbaka.
+I **[!UICONTROL Summary]** för varje meddelande, **[!UICONTROL Delivered]** Procentandelen ökar stegvis under hela leveransens giltighetsperiod, när mjuka och hårda studsar rapporteras tillbaka.
 
-Mjuka studsmeddelanden visas som **[!UICONTROL Failed]** efter leveransdag ett av leveransdatumet och de provas på nytt varje ytterligare dag i leveransens giltighetsperiod.
+Mjuka studsmeddelanden visas som **[!UICONTROL Failed]** första dagen efter leveransen. Dessa meddelanden provas igen varje dag tills giltighetsperioden för leveransen är slut.
