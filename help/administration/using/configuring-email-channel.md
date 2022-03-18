@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 897ec46abace9debce45e7dc174e17074b29a0c2
+source-git-commit: a1b947acf70803a7350dd626e697318e0ed35f26
 workflow-type: tm+mt
-source-wordcount: '2655'
-ht-degree: 62%
+source-wordcount: '2681'
+ht-degree: 60%
 
 ---
 
@@ -177,9 +177,7 @@ Du kan konfigurera formatet för e-postmeddelanden som ska skickas. Det finns tr
 
 #### SMTP-testläge {#smtp-test-mode}
 
-Använd **[!UICONTROL Enable SMTP test mode]** möjlighet att testa att skicka e-postmeddelanden via en SMTP-anslutning utan att faktiskt skicka meddelanden.
-
-Meddelandena behandlas tills anslutningen till SMTP-servern har upprättats, men de skickas inte.
+Använd **[!UICONTROL Enable SMTP test mode]** möjlighet att testa att skicka e-postmeddelanden via en SMTP-anslutning utan att faktiskt skicka meddelanden. Leveransen behandlas upp till anslutningen till SMTP-servern men skickas inte: för varje mottagare av leveransen ansluter Campaign till SMTP-providerservern, kör SMTP RCPT TO-kommandot och stänger anslutningen före SMTP DATA-kommandot.
 
 ![](assets/smtp-test-mode.png)
 
@@ -233,7 +231,7 @@ Avsnittet **[!UICONTROL Tracking]** innehåller följande parametrar:
 
 * **[!UICONTROL Activate tracking]**: Använd det här alternativet om du vill aktivera/inaktivera spårning av meddelande-URL. Om du vill hantera spårning för varje meddelande-URL använder du **[!UICONTROL Links]**-ikonen i åtgärdsfältet för e-postdesignern. Se [Om spårade URL:er](../../designing/using/links.md#about-tracked-urls).
 * **[!UICONTROL Tracking validity limit]**: Använd det här alternativet om du vill ange hur länge spårningen ska aktiveras på URL-adresserna.
-* **[!UICONTROL Substitution URL for expired URLs]**: Använd det här alternativet för att ange en URL till en reservwebbsida: den visas när spårningen har upphört att gälla.
+* **[!UICONTROL Substitution URL for expired URLs]**: Använd det här alternativet om du vill ange en URL till en reservwebbsida: den visas när spårningen har upphört att gälla.
 * **[!UICONTROL Use tracking pixel at the top of email]**: Använd det här alternativet om du vill flytta spårningspunkten högst upp i e-postmeddelandet i stället för längst ned. Som standard finns den här pixeln längst ned i dina e-postmeddelanden. Om du skickar stora meddelanden bör du överväga att flytta den här pixeln högst upp i e-postmeddelandena i stället för längst ned för att förbättra den öppna spårningen. I annat fall kan spårningspixeln kapas av vissa e-postleverantörer.
 
 ### Avancerade parametrar {#advanced-parameters}
