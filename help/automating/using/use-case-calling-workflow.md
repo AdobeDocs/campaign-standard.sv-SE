@@ -1,5 +1,5 @@
 ---
-title: Anropa ett arbetsflöde med externa parametrar
+title: Använd ärende för att anropa arbetsflöde
 description: I det här avsnittet beskrivs hur du anropar ett arbetsflöde med externa parametrar.
 audience: automating
 content-type: reference
@@ -8,9 +8,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 7a21f4f6-316f-4f3d-9d53-37d406a46aae
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '976'
 ht-degree: 1%
 
 ---
@@ -74,7 +74,7 @@ Arbetsflöde 1 byggs enligt nedan:
 
 Konfigurera arbetsflödet genom att följa stegen nedan:
 
-1. Deklarera de parametrar som har definierats i API-anropet. Öppna **[!UICONTROL External signal]** lägger sedan till parameternamn och typer.
+1. Deklarera de parametrar som har definierats i API-anropet. Öppna **[!UICONTROL External signal]** lägger du sedan till parameternamn och typer.
 
    ![](assets/extsignal_uc1.png)
 
