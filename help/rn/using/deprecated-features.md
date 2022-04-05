@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
 workflow-type: tm+mt
 source-wordcount: '864'
-ht-degree: 65%
+ht-degree: 64%
 
 ---
 
@@ -133,7 +133,7 @@ Det här avsnittet visar funktioner som har tagits bort från Campaign Standard.
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Från och med Campaign version 21.2 är användningen av API och gränssnitt i Campaign för åtkomst och borttagning inaktuell. Radering av profiler med två steg är inte tillgänglig. Använd <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
+   <td> <p>Från och med Campaign version 21.2 är användningen av API och gränssnitt i Campaign för åtkomst och borttagning inaktuell. Radering av profiler med två steg är inte tillgänglig. Använd <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">Adobe Privacy Core Service</a>.</p></br>
    <p>Se även <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=sv">Hantera förfrågan om användarens information</a>.</p>
   </td> 
   </tr> 

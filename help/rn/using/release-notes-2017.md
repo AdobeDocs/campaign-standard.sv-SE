@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
 workflow-type: tm+mt
-source-wordcount: '4623'
+source-wordcount: '4613'
 ht-degree: 8%
 
 ---
@@ -315,7 +315,7 @@ _Push-meddelanden_
   </tr> 
   <tr> 
    <td> Push-transaktionsmeddelanden<br /> </td> 
-   <td> Mobilappskanalen har lagts till i Adobe Campaign transaktionsmeddelandefunktioner. Tre kanaler stöds nu för transaktionsmeddelanden: e-post, SMS och push-meddelanden.<br /> Mer information finns i den <a href="../../channels/using/transactional-push-notifications.md">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Mobile programkanal har lagts till i Adobe Campaign transaktionsmeddelandefunktioner. Tre kanaler stöds nu för transaktionsmeddelanden: e-post, SMS och push-meddelanden.<br /> Mer information finns i den <a href="../../channels/using/transactional-push-notifications.md">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Återkommande push-meddelanden<br /> </td> 
@@ -327,7 +327,7 @@ _Push-meddelanden_
   </tr> 
   <tr> 
    <td> Dreamweaver direktintegrering<br /> </td> 
-   <td> Integrationen mellan Adobe Campaign och Dreamweaver är nu klar. Det fungerar nu med den senaste officiella versionen av Dreamweaver (17.0.2).<br /> Detta kräver installation av Adobe Campaign Integration-tillägget härifrån: <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_addon</a><br /> Mer information finns i <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=sv">video</a>.<br /> </td> 
+   <td> Integrationen mellan Adobe Campaign och Dreamweaver är nu klar. Det fungerar nu med den senaste officiella versionen av Dreamweaver (17.0.2).<br /> Detta kräver installation av Adobe Campaign Integration-tillägget. Mer information finns i <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=sv">video</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -435,7 +435,7 @@ _Push-meddelanden_
   </tr> 
   <tr> 
    <td> Intressepunktsdata<br /> </td> 
-   <td> Intressepunktsdata integrerar Adobe Campaign med Adobe Analytics for Mobile. Ett varumärke kan samla in data från användarnas mobila platser - som kallas <strong>Intressepunkter</strong> - när användarna öppnar varumärkesappen. På så sätt kan varumärket utnyttja Adobe Campaign arbetsflöden för att skicka personaliserade meddelanden baserat på användarnas platser. Den här kanalen utnyttjar SDK:n för Mobile Core-tjänsten.<br /> Observera att den här funktionen kräver Analytics for Mobile, som är en betald lösning.<br /> Mer information finns i den <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Intressepunktsdata integrerar Adobe Campaign med Adobe Analytics för Mobile. Ett varumärke kan samla in data från användarnas mobila platser - som kallas <strong>Intressepunkter</strong> - när användarna öppnar varumärkesappen. På så sätt kan varumärket utnyttja Adobe Campaign arbetsflöden för att skicka personaliserade meddelanden baserat på användarnas platser. Den här kanalen utnyttjar Mobile bastjänsts SDK.<br /> Observera att för att använda den här funktionen krävs Analytics för Mobile, som är en betald lösning.<br /> Mer information finns i den <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> REST API:er<br /> </td> 

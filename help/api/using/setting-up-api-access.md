@@ -8,9 +8,9 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '364'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ Om du vill skapa en säker Adobe I/O-till-tjänst-API-session måste alla förfr
    * &lt;organization> : din produktionsinstans,
    * &lt;organization-mkt-stage>: din sceninstans.
 
-   Kontakta din administratör eller din Adobe tekniska kontakt för att få ditt organisations-ID-värde. Du kan även hämta den till Adobe I/O när du skapar en ny integrering i licenslistan (se <a href="https://www.adobe.io/authentication.html">Adobe IO-dokumentation</a>).
+   Kontakta din administratör eller din Adobe tekniska kontakt för att få ditt organisations-ID-värde. Du kan även hämta den till Adobe I/O när du skapar en ny integrering i licenslistan (se <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Adobe IO-dokumentation</a>).
 
 * **&lt;access_token>**: Din personliga åtkomsttoken, som hämtades när din JSON-webbtoken byttes ut via en POST.
 

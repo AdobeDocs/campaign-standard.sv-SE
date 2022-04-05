@@ -8,7 +8,7 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
 workflow-type: tm+mt
 source-wordcount: '2507'
 ht-degree: 1%
@@ -33,7 +33,7 @@ Integreringen ger inte upphov till några integritetsfrågor (t.ex. GDPR) som ta
 
 Om du har konfigurerat integreringen för att utfärda vanliga profilborttagningsanrop till Campaign när en kontakt tas bort i Dynamics 365 bör du följa stegen nedan. Se till att inga uppdateringar görs av posten i fråga under den här processen.
 
-1. Skicka begäran om borttagning av sekretess till [Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experiencecloud/gdpr.html)
+1. Skicka begäran om borttagning av sekretess till [Adobe Experience Platform Privacy Service](https://developer.adobe.com/experience-platform-apis/references/privacy-service)
 
 1. Övervaka begäran tills den har slutförts
 
