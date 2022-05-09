@@ -8,9 +8,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
-source-git-commit: 7c34df594d4f649f259fb7edd946477f7b8d92d7
+source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '625'
 ht-degree: 2%
 
 ---
@@ -49,7 +49,7 @@ Du måste skapa ett nytt Adobe IO-projekt och konfigurera det för integreringen
 
 Följ nedanstående procedur för att uppnå detta:
 
-1. Navigera till [Adobe IO Console](https://console.adobe.io/home#) och välj ditt Adobe IMS-organisations-ID i listrutan längst upp till höger på skärmen.
+1. Navigera till [Adobe IO Console](https://console.adobe.io/home#) och välj ditt organisations-ID för Adobe i listrutan längst upp till höger på skärmen.
 
 1. Klicka sedan på **[!UICONTROL Create new project]** under **[!UICONTROL Quick Start]**.
 

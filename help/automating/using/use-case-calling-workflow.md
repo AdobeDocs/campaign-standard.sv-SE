@@ -74,7 +74,7 @@ Arbetsflöde 1 byggs enligt nedan:
 
 Konfigurera arbetsflödet genom att följa stegen nedan:
 
-1. Deklarera de parametrar som har definierats i API-anropet. Öppna **[!UICONTROL External signal]** lägger du sedan till parameternamn och typer.
+1. Deklarera de parametrar som har definierats i API-anropet. Öppna **[!UICONTROL External signal]** lägger sedan till parameternamn och typer.
 
    ![](assets/extsignal_uc1.png)
 

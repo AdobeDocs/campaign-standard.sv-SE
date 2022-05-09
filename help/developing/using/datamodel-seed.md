@@ -105,7 +105,7 @@ ht-degree: 10%
                </tr>
                <tr>
                   <td>mobileApp</td>
-                  <td>Mobile</td>
+                  <td>Mobilapplikation</td>
                   <td>artikel </td>
                   <td> </td>
                </tr>

@@ -8,9 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '460'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Följ stegen som beskrivs i [Skapa en mappad utlösare i Campaign](../../integra
 Om utlösaren skapas går du vidare till nästa steg. Annars innebär det att slutpunktsanslutningen för utlösaren misslyckades. Kontrollera om utlösare har etablerats i Experience Cloud (aktiveringstjänster). Om så inte är fallet kontaktar du din kontoansvarige eller partner för professionella tjänster på Adobe. Följande information krävs:
 
 * Marketing Cloud företagsnamn
-* IMS-organisations-ID
+* Organisations-ID
 * Analysinloggningsföretag (kan vara samma som Marketing Cloud företagsnamn)
 
 **Prova att publicera utlösaren**

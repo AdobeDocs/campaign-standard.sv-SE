@@ -246,7 +246,7 @@ ht-degree: 6%
                         <li>Telefon - telefon - 2</li>
                         <li>Övrigt - annat - 120</li>
                         <li>Återkommande SMS - smsRefresh - 31</li>
-                        <li>Mobile-program - pushNotification - 40</li>
+                        <li>Mobilprogram - pushNotification - 40</li>
                         <li>Transactional SMS - smsLightning - 61</li>
                         <li>E-post - e-post - 0</li>
                         <li>OGILTIGT VÄRDE - __Invalid_value__ - __Invalid_value__</li>
@@ -359,11 +359,11 @@ ht-degree: 6%
                   <td>
                      <ul>
                         <li>Fax - fax - 4</li>
-                        <li>Mobile (SMS) - sms - 1</li>
+                        <li>Mobil (SMS) - sms - 1</li>
                         <li>E-post - e-post - 0</li>
                         <li>Telefon - telefon - 2</li>
                         <li>Direktreklam - papper - 3</li>
-                        <li>Mobile-program - pushNotification - 40</li>
+                        <li>Mobilprogram - pushNotification - 40</li>
                         <li>Övrigt - annat - 120</li>
                         <li>OGILTIGT VÄRDE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
@@ -490,7 +490,7 @@ ht-degree: 6%
                         <li>Misslyckades - misslyckades - 87</li>
                         <li>Pågår - startat - 55</li>
                         <li>Väntande mål - targetPrepPending - 11</li>
-                        <li>Väntande Personalization - messagePrepPending - 21</li>
+                        <li>Personalisering väntar - messagePrepPending - 21</li>
                         <li>Pausad - pausad - 75</li>
                         <li>Redigering - utgåva - 0</li>
                         <li>Slutförd - färdig - 95</li>
@@ -498,7 +498,7 @@ ht-degree: 6%
                         <li>Meddelandet har slutförts - messageReady - 25</li>
                         <li>Personalization eller antal misslyckades - PreparationError - 37</li>
                         <li>Stoppad - annullerad - 85</li>
-                        <li>Personalization in progress - messagePreparation - 22</li>
+                        <li>Personalisering pågår - messagePreparation - 22</li>
                         <li>Klart som mål - targetReady - 15</li>
                         <li>OGILTIGT VÄRDE - __Invalid_value__ - __Invalid_value__</li>
                         <li>Godkännande pågår - targetArbitration - 13</li>

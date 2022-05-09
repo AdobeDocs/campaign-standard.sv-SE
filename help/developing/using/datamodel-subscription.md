@@ -64,7 +64,7 @@ ht-degree: 6%
     </tr>
     <tr>
         <td>mobilePhone</td>
-        <td>Mobile</td>
+        <td>Mobilnummer</td>
         <td>sträng (32)</td>
         <td> </td>
     </tr>

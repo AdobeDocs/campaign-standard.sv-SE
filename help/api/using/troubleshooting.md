@@ -5,9 +5,9 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: b65bf28565c25072c6a95cebdb999ce38a2e2e1a
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 * **När du går till Adobe.io-konsolen visas följande fel: &quot;Konsolen Adobe I/O är bara tillgänglig för att välja medlemmar i företagskonton. Kontakta systemadministratören om du anser att du bör ha åtkomst.&quot;**
 
-Du kan bara skapa API-nycklar för de IMS-organisationer som du administrerar. Om det här meddelandet visas och du vill skapa API-nycklar och du vill fråga en administratör för IMS-organisationen.
+Du kan bara skapa API-nycklar för de organisationer som du är administratör för. Om det här meddelandet visas och du vill skapa API-nycklar och du vill fråga en administratör i organisationen.
 
 * **När du gör en begäran till Adobe.io får du {&quot;error_code&quot;:&quot;403023&quot;,&quot;message&quot;:&quot;Profilen är inte giltig&quot;}**
 

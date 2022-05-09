@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 7%
+source-wordcount: '853'
+ht-degree: 6%
 
 ---
 
@@ -24,7 +24,7 @@ Funktionen måste aktiveras i Adobe Campaign av Adobe. Kontakta er kontoansvarig
 Adobe-teamet behöver följande information för att aktivera utlösare:
 
 * Marketing Cloud företagsnamn
-* IMS-organisations-ID
+* Organisations-ID
 * Analysinloggningsföretag (kan vara samma som Marketing Cloud företagsnamn)
 
 ## Konfigurera lösningar och tjänster {#configuring-solutions-and-services}
@@ -57,7 +57,7 @@ Du måste konfigurera [Experience Cloud DTM Core Service](#configuring-experienc
 
 ### Konfigurerar Experience Cloud DTM Core Service {#configuring-experience-cloud-dtm-core-service}
 
-1. I Experience Cloud DTM Core Service (Dynamic Tag Management) aktiverar du Experience Cloud ID och Adobe Analytics för dina webbplatssidor.
+1. I Experience Cloud DTM Core Service (Dynamic Tag Management) aktiverar du Experience Cloud ID och Adobe Analytics för dina webbsidor.
 
    ![](assets/trigger_uc_conf_1.png)
 
@@ -101,7 +101,7 @@ Se [Adobe Experience Cloud-dokumentation](https://experienceleague.adobe.com/doc
 
 Här följer en lista över bästa praxis och begränsningar för användningen av Campaign - integrering av utlösare:
 
-* Om du har flera instanser av Campaign Standard kan utlösare tas emot av alla instanser så länge de finns i samma IMS-organisations-ID. Analyserna måste också finnas på samma IMS-organisations-ID.
+* Om du har flera instanser av Campaign Standard kan utlösare tas emot av alla instanser så länge de finns i samma organisation. Analyserna måste också finnas i samma organisation.
 * Du kan inte skapa en utlösare i Trigger Core Service med händelser från två olika rapportsviter.
 * Utlösare baseras på transaktionsmeddelanden. Transaktionsmeddelanden används när du måste skicka ett meddelande mycket snabbt. Du kan inte placera transaktionsmeddelanden i kö och sedan slinga dem i grupp.
 * Utlösare är inte deterministiska till sin natur. När en utlösare genereras skickas alla alias som är kopplade till cookien, så när det gäller delade webbläsare som kioskdatorer, bibliotek, cyber cafes eller delade enheter hemma (man och fru loggar in från samma enhet) går det inte att mappa till rätt ID. Alla ID:n som används för att logga in med webbläsaren skickas till Campaign som skickar ett meddelande baserat på den första avstämningen. Om det finns flera e-post-ID:n som är berättigade för avstämning skickar Campaign inget e-postmeddelande. Det finns inget sätt för Campaign att veta vilket e-post-ID som är rätt om det inte hämtas och skickas av Analytics.
