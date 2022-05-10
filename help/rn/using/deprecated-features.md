@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: 47d0f4c42d84e2107da65fae5528af0705f2165f
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 64%
+source-wordcount: '868'
+ht-degree: 63%
 
 ---
 
@@ -48,7 +48,7 @@ Kunder uppmanas att se över om de använder funktionen i den aktuella driftsät
   <tr> 
    <td> <p> Från och med Campaign Standard 21.3 är integreringen med tjänsten Målgruppsanpassningar föråldrad. </p>
    <p>För ny implementering kan du inte längre integrera målgruppsanpassningen med Adobe Campaign Standard. Ni kan dock integrera Campaign och Adobe Experience Platform via Källor och Destinationer. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">Läs mer</a>.</p>
-     <em>Måldatum för borttagning: 2022</em></p>
+     <em>Datum för målborttagning: September 2022</em></p>
      </td> 
   </tr> 
  </tbody> 
@@ -64,7 +64,7 @@ Kunder uppmanas att se över om de använder funktionen i den aktuella driftsät
   <tr> 
    <td> <p> Från och med Campaign Standard 21.3 är integreringen med Adobe Experience Platform Data Connector föråldrad. </p>
    <p>För ny implementering kan du inte längre integrera Adobe Experience Platform Data Connector med Adobe Campaign Standard. Ni kan dock integrera Campaign och Adobe Experience Platform via Källor och Destinationer. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">Läs mer</a>.</p>
-     <em>Måldatum för borttagning: 2022</em></p>
+     <em>Datum för målborttagning: September 2022</em></p>
      </td> 
   </tr> 
  </tbody> 
@@ -82,7 +82,7 @@ Kunder uppmanas att se över om de använder funktionen i den aktuella driftsät
    <td> <p>Från och med Campaign 19.0 är den gamla e-postredigeraren inaktuell. Använd <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">E-postdesigner för kampanj</a> för att skapa och personalisera ert e-postinnehåll. </p></br>
    <p>Läs <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">det här avsnittet</a> för att lära dig hur du anpassar e-postmallarna till den nya redigeraren.</p></br>
   <p> 
-  <em>Måldatum för borttagning: 2022</em></p>
+  <em>Måldatum för borttagning: i slutet av 2022</em></p>
    </td> 
   </tr> 
  </tbody> 
