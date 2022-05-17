@@ -9,9 +9,9 @@ feature: Control Groups
 role: User
 level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: d903c6b5e9eefd65f7494fc17fd754a97e44e49e
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1532'
 ht-degree: 4%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 4%
 
 Ytterligare till [testprofiler](../../audiences/using/managing-test-profiles.md)kan du testa ett e-postmeddelande genom att placera dig själv i positionen för en av målprofilerna. På så sätt kan du få en exakt representation av meddelandet som profilen kommer att få (anpassade fält, dynamisk och personlig information, inklusive ytterligare data från arbetsflöden..).
 
->[!NOTE]
+>[!IMPORTANT]
 >
-> Den här funktionen är endast tillgänglig för e-postmeddelanden.
+>Med den här funktionen kan du skicka en profils personuppgifter till externa e-postadresser. Kom ihåg att när du kör förfrågningar om användaruppgifter (GDPR och CCPA) i Campaign Standard VERKSTÄLLS INTE den förfrågan externt.
 
 De huvudsakliga stegen är följande:
 
@@ -35,9 +35,9 @@ De huvudsakliga stegen är följande:
 1. **Förhandsgranska** i e-postdesignern hur meddelandet visas för profilerna.
 1. Skicka korrektur.
 
->[!IMPORTANT]
->
->Med den här funktionen kan du skicka en profils personuppgifter till externa e-postadresser. Kom ihåg att när du kör förfrågningar om användaruppgifter (GDPR och CCPA) i Campaign Standard VERKSTÄLLS INTE den förfrågan externt.
+   >[!IMPORTANT]
+   >
+   >Korrektur bearbetas av [!DNL Campaign Standard] som standardleveranser. Om du skickar korrektur med hjälp av profilersättning läggs poster till i leverans- och spårningsloggarna för de valda profilerna.
 
 ![](assets/do-not-localize/how-to-video.png) [Upptäck den här funktionen i en video](#video)
 
