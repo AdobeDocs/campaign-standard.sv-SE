@@ -4,8 +4,8 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Hjälpcenter för de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som behövs för att använda Campaign Standard. '
 title: Användarhandbok för Campaign Standard
 breadcrumb-title: 'Dokumentation om Adobe Campaign Standard '
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
-workflow-type: ht
+source-git-commit: 5a7e48da3d62b186f96cd7451fb5a7b2cf94e09c
+workflow-type: tm+mt
 source-wordcount: '1807'
 ht-degree: 100%
 
@@ -242,7 +242,7 @@ ht-degree: 100%
       + [Dimensioner och nyckeltal från Campaign i Analytics](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
    + Campaign och Audience Manager eller kärntjänsten People {#working-with-campaign-and-audience-manager-or-people-core-service}
       + [Om integrering av Campaign och Audience Manager eller kärntjänsten People](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
-      + [Etablering och konfigurering av integration med Audience Manager eller kärntjänsten People](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+      + [Etablering och konfigurering av integration med Audience Manager eller kärntjänsten People](integrating/using/integration-with-audience-manager-or-people-core-service.md)
       + [Felsöka](integrating/using/troubleshooting.md)
       + [Dela målgrupper med Audience Manager eller kärntjänsten People](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
       + [Arbeta med Campaign och kärntjänsten Assets](integrating/using/working-with-campaign-and-assets-core-service.md)
