@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 75bc042701ac29d2e525884dc929063147c1cdce
+source-git-commit: b00a0b9e4536d388ccfef3cca0315cabd0d99670
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 37%
+source-wordcount: '468'
+ht-degree: 30%
 
 ---
 
@@ -24,11 +24,18 @@ Den här sidan beskriver nya funktioner, förbättringar och korrigeringar som i
 
 ## Version 22.2 – juni 2022 {#rn-2022}
 
-**Förbättring**
+**Förbättringar**
 
 * **Adobes meddelandetjänst** – Campaign innehåller Adobes meddelandetjänst, som gör det möjligt för Experience Cloud-lösningar att avisera användare i Experience Cloud om aktiviteter som är viktiga för dem att känna till. Från och med version 22.2 har användarupplevelsen förbättrats: meddelanden prioriteras och produktgenererade meddelanden skiljs från statusmeddelanden i Adobe. När meddelandet dessutom hänvisar till ett specifikt arbetsflöde kan du nu komma åt motsvarande arbetsflöde direkt från e-postmeddelandet eller aviseringen i produkten.  Mer information om Adobe Campaign-meddelanden finns i [Adobe Campaign-meddelanden](../../administration/using/sending-internal-notifications.md).
 
 * **Optimering vid start av arbetsflöde** - Adobe har lagt till en ny funktion som kan justera antalet arbetsflöden som startar ungefär samtidigt. Detta skulle förhindra processortoppar som kan ha orsakat avbrott i tjänsten eller driftavbrott. Adobe skulle aktivera det efter version 22.2. Det finns ingen ytterligare åtgärdsuppgift för kunden angående detta.
+
+* **Tillgänglighet** - Adobe har gjort många tillgänglighetskorrigeringar för att förbättra programmets övergripande användarvänlighet. Dessa funktioner är för närvarande bara aktiverade för en uppsättning tidiga användare, och de kommer att introduceras för alla kunder i ACS 2.3-versionen. Exempel på tillgänglighetsförbättringar är:
+
+   * Kontrollera att det finns en synlig fokusindikator för fokuserbara element på varje skärm
+   * Skapa sidlandmärken för enklare navigering
+   * Lägga till namn, roll, värde och tillstånd för många kontroller
+   * Åtgärda problem med dynamisk fokusordning på huvudskärmar
 
 **Säkerhetsuppgradering**
 
