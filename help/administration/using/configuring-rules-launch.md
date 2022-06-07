@@ -1,6 +1,6 @@
 ---
-title: Konfigurera Adobe Experience Platform Launch-regler som stöder Adobe Campaign Standard användningsfall
-description: Lär dig hur du konfigurerar Adobe Experience Platform Launch-regler för att stödja Adobe Campaign Standard användningsfall
+title: Konfigurera taggregler som stöder Adobe Campaign Standard användningsfall
+description: Lär dig hur du konfigurerar taggregler som stöder Adobe Campaign Standard användningsfall
 audience: channels
 content-type: reference
 topic-tags: push-notifications
@@ -9,20 +9,20 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 1%
+source-wordcount: '998'
+ht-degree: 0%
 
 ---
 
-# Konfigurera Launch-regler för att ge stöd för användningsfall i Adobe Campaign Standard {#configuring-rules-launch}
+# Konfigurera taggregler som stöder Adobe Campaign Standard användningsfall {#configuring-rules-launch}
 
-I [!DNL Adobe Experience Platform Launch], skapa dataelement och regler för att skicka PII-filer och andra data från mobilprogram till [!DNL Adobe Campaign Standard].
+Skapa dataelement och regler för att skicka PII och andra data från mobilprogram till [!DNL Adobe Campaign Standard].
 
-För att säkerställa att all konfiguration ändras i [!DNL Adobe Experience Platform Launch] måste du publicera ändringarna. Mer information finns i [Publicering](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration).
+För att säkerställa att alla konfigurationsändringar i användargränssnittet för datainsamling börjar gälla måste du publicera dessa ändringar. Mer information finns i [Publicering](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration).
 
-Skapa regler i [!DNL Experience Platform Launch]gör du så här:
+Så här skapar du regler i användargränssnittet för datainsamling:
 
 1. [Skapa dataelement](../../administration/using/configuring-rules-launch.md#create-data-elements)
 2. [Skapa regler](../../administration/using/configuring-rules-launch.md#create-data-elements) för de användningsområden som du vill ha stöd för:
@@ -33,7 +33,7 @@ Skapa regler i [!DNL Experience Platform Launch]gör du så här:
 
 ## Skapa dataelement {#create-data-elements}
 
-Här är de dataelement som du bör skapa i [!DNL Experience Platform Launch].
+Här är de dataelement som du bör skapa i användargränssnittet för datainsamling.
 Du kan skapa ytterligare dataelement efter behov.
 
 * **[!UICONTROL Experience Cloud ID]**
@@ -42,7 +42,7 @@ Du kan skapa ytterligare dataelement efter behov.
 
 Så här skapar du dessa dataelement:
 
-1. I [!DNL Experience Platform Launch]klickar du på **[!UICONTROL Data Elements]** -fliken.
+1. I användargränssnittet för datainsamling klickar du på **[!UICONTROL Data Elements]** -fliken.
 
 1. Skapa **[!UICONTROL Experience Cloud ID]** dataelement, klicka **[!UICONTROL Create New Data Element]**.
 
@@ -79,9 +79,9 @@ Du måste skapa regler för följande:
 >
 >Om du vill skicka PII-information från en mobilapp till Adobe Campaign måste du implementera ett SDK API. Mer information finns på [CollectPII](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii).
 
-Skicka PII-data till [!DNL Adobe Campaign Standard], skapa en regel i [!DNL Experience Platform Launch]:
+Skicka PII-data till [!DNL Adobe Campaign Standard]skapar du en regel i användargränssnittet för datainsamling:
 
-1. I [!DNL Experience Platform Launch]klickar du på **[!UICONTROL Rules]** tabba sedan **[!UICONTROL Create New Rule]**.
+1. I användargränssnittet för datainsamling klickar du på **[!UICONTROL Rules]** tabba sedan **[!UICONTROL Create New Rule]**.
 
 1. Skriv ett namn, till exempel **Mobile Core - Samla in PII**.
 
@@ -135,7 +135,7 @@ Skicka PII-data till [!DNL Adobe Campaign Standard], skapa en regel i [!DNL Expe
    }
    ```
 
-   De dataelement som definieras i [!DNL Experience Platform Launch] ska omslutas av dubbla procentsatser, till exempel %%mcid%%, och kontextvariabler från programmet ska omslutas av enstaka procentsatser, till exempel %contextdata.email%.
+   Dataelementen som definieras i användargränssnittet för datainsamling ska omslutas med dubbla procentsatser, till exempel `%%mcid%%`och sammanhangsvariabler från appen ska omslutas av enstaka procentsatser, till exempel %contextdata.email%.
 
 1. I **[!UICONTROL Content Type]**, typ **application/json**.
 
@@ -151,9 +151,9 @@ Dina användardata har nu konfigurerats för att skickas till Campaign.
 >
 >Om du använder Android ACPCore v1.4.0 eller senare/ iOS ACPCore v2.3.0 eller senare behövs ingen konfigurering av återanslående.
 
-Skicka spårningsdata till [!DNL Adobe Campaign Standard] för att få rapporter om hur användarna interagerar med meddelanden i appen i ditt mobilprogram skapar du följande regel i [!DNL Experience Platform Launch]:
+Skicka spårningsdata till [!DNL Adobe Campaign Standard] Om du vill få rapporter om hur användarna interagerar med meddelanden i appen i ditt mobilprogram skapar du följande regel i användargränssnittet för datainsamling:
 
-1. I [!DNL Experience Platform Launch]väljer du **[!UICONTROL Rules]** och klicka **[!UICONTROL Add Rule]**.
+1. I användargränssnittet för datainsamling väljer du **[!UICONTROL Rules]** och klicka **[!UICONTROL Add Rule]**.
 
 1. Skriv ett namn, till exempel **Adobe Campaign - Klickspårning i appen**.
 
@@ -189,13 +189,13 @@ Skicka spårningsdata till [!DNL Adobe Campaign Standard] för att få rapporter
 >
 >Om du använder Android ACPCore v1.4.0 eller senare/ iOS ACPCore v2.3.0 eller senare behövs ingen konfigurering av återanslående.
 
-Skicka spårningsdata till [!DNL Adobe Campaign Standard], som hjälper dig att spåra dina leveranser av push-meddelanden och hur användarna interagerar med ditt mobilprogram, måste du skapa en regel i [!DNL Experience Platform Launch].
+Skicka spårningsdata till [!DNL Adobe Campaign Standard], som hjälper dig att spåra dina leveranser av push-meddelanden och hur användarna interagerar med ditt mobilprogram, måste du skapa en regel i användargränssnittet för datainsamling.
 
 Mer information om push-spårning finns i [Push-spårning](../../administration/using/push-tracking.md).
 
 Använd API:t trackAction om du vill spåra programåtgärder. Mer information finns i [Spåra appåtgärder](https://app.gitbook.com/@aep-sdks/s/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions).
 
-1. I [!DNL Experience Platform Launch]klickar du på **[!UICONTROL Rules]** och klicka **[!UICONTROL Add Rule]**.
+1. I användargränssnittet för datainsamling klickar du på **[!UICONTROL Rules]** och klicka **[!UICONTROL Add Rule]**.
 
 1. Skriv ett namn, till exempel **Adobe Campaign - spåra push-klick**.
 
@@ -225,7 +225,7 @@ Använd API:t trackAction om du vill spåra programåtgärder. Mer information f
 
 ### Positionering {#location-postback}
 
-1. I [!DNL Experience Platform Launch]klickar du på **[!UICONTROL Rules]** och klicka **[!UICONTROL Add Rule]**.
+1. I användargränssnittet för datainsamling klickar du på **[!UICONTROL Rules]** och klicka **[!UICONTROL Add Rule]**.
 
 1. Skriv ett namn, till exempel **Positionering**.
 
@@ -264,7 +264,7 @@ Använd API:t trackAction om du vill spåra programåtgärder. Mer information f
 
    >[!NOTE]
    >
-   >I exemplet ovan måste dataelementen till höger konfigureras i [!DNL Experience Platform Launch] genom att utnyttja stegen i [Skapa dataelement](../../administration/using/configuring-rules-launch.md#create-data-elements). Dataelementen till vänster stöds i [!DNL Adobe Campaign Standard] och behöver ingen konfiguration. Om du behöver ytterligare data måste du utföra anpassade resurstillägg i [!DNL Adobe Campaign Standard].
+   >I exemplet ovan måste dataelementen till höger konfigureras i användargränssnittet för datainsamling genom att utnyttja stegen i [Skapa dataelement](../../administration/using/configuring-rules-launch.md#create-data-elements). Dataelementen till vänster stöds i [!DNL Adobe Campaign Standard] och behöver ingen konfiguration. Om du behöver ytterligare data måste du utföra anpassade resurstillägg i [!DNL Adobe Campaign Standard].
 
 1. I **[!UICONTROL Content Type]**, typ **application/json**.
 

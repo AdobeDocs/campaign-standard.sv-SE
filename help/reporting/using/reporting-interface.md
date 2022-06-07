@@ -8,9 +8,9 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 37e9acff-9576-472f-9fdf-2c0f6da773d1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '717'
 ht-degree: 3%
 
 ---
@@ -115,14 +115,14 @@ The **[!UICONTROL Share]** kan du skicka rapporter till Adobe Campaign-användar
 
       ![](assets/tab_share_4.png)
 
-   1. Markera mottagarna i e-postmeddelandet genom att klicka på fältet och välja dem i listrutan eller genom att skriva deras e-postadresser.
+   1. Välj mottagare i listrutan. Observera att du inte kan välja användare utanför din organisation.
    1. Kontrollera **[!UICONTROL Show scheduling options]** om du vill skicka återkommande e-postmeddelanden. Detta kan även göras genom att markera **[!UICONTROL Send Report on schedule]** i **[!UICONTROL Share]** -fliken.
    1. Klicka på **[!UICONTROL Send now]**. Mottagarna får sedan ett e-postmeddelande med rapporten bifogad.
 
 * **[!UICONTROL Send report on schedule]**: Schemalägg rapporten och skicka återkommande e-postmeddelanden till mottagarna.
 
    1. I **[!UICONTROL Send report]** -fönstret, lägg till en beskrivning om det behövs.
-   1. Markera mottagarna i e-postmeddelandet genom att klicka på fältet och välja dem i listrutan eller genom att skriva deras e-postadresser.
+   1. Välj mottagare i listrutan. Observera att du inte kan välja användare utanför din organisation.
 
       ![](assets/tab_share_5.png)
 

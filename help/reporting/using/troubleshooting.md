@@ -8,10 +8,10 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 5%
+source-wordcount: '790'
+ht-degree: 4%
 
 ---
 
@@ -181,3 +181,12 @@ Värdet **Ej tillämpligt** kan ibland visas i dina dynamiska rapporter. Det hä
 
    ![](assets/troubleshooting_4.png)
 
+## Leveransrapporter visar ofullständiga data när anpassad målmappning används
+
+Om du använder importerade anpassade målmappningar i leveranser och inga data visas i de olika rapporterna, kan det betyda att rapportmappningarna inte skapades för dessa målmappningar.
+
+Så här löser du det:
+
+* När du har importerat målmappningen från en XML-fil måste du också importera rapportanrikningen.
+
+* I stället för att importera målmappningen kan du skapa den direkt i Adobe Campaign Standard, som automatiskt skapar rapportbearbetningen.

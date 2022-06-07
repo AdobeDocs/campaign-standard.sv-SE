@@ -6,20 +6,20 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: aaaceb3a-5e54-47da-9be4-b70747282830
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
 
-# Vanliga frågor och svar om synkronisering i Adobe Launch {#syncwithlaunch-faq}
+# Taggar i Adobe Experience Platform-synkronisering - frågor och svar {#syncwithlaunch-faq}
 
-Du kan importera mobila egenskaper för Adobe Launch till Adobe Campaign Standard via **[!UICONTROL Sync with Launch]** dedikerat tekniskt arbetsflöde. Mer information finns i [page](../../administration/using/technical-workflows.md)
+Du kan importera taggens mobila egenskaper till Adobe Campaign Standard via **[!UICONTROL Sync with Launch]** dedikerat tekniskt arbetsflöde. Mer information finns i [page](../../administration/using/technical-workflows.md)
 
 I avsnittet nedan visas vanliga frågor om synkroniseringen.
 
-## Jag skapade en egenskap i [!DNL Launch] (icke-administratör för organisationsenhet ALL). Mitt program är i tillståndet Ready to Configure i Adobe Campaign, men jag kan inte öppna/konfigurera det. {#configuring-property}
+## Jag skapade en taggegenskap (som inte är administratör för Org-unit ALL). Mitt program är i tillståndet Ready to Configure i Adobe Campaign, men jag kan inte öppna/konfigurera det. {#configuring-property}
 
 Det är bara administratören av organisationsenheten ALL som kan konfigurera mobilprogram i Adobe Campaign Standard. När programmet har konfigurerats kan endast användare i den tilldelade organisationsenheten redigera det. Mer information om organisationsenhet finns i [page](../../administration/using/organizational-units.md).
 
@@ -31,21 +31,21 @@ Mer information om organisationsenhet finns i [page](../../administration/using/
 
 ## Jag är administratör med organisationsenheten ALL i Adobe Campaign Standard, men jag kan inte konfigurera mobilprogram. {#org-unit-mobile}
 
-En administratör med organisationsenheten inställd på ALL bör ha behörighet till alla mobila egenskaper i [!DNL Launch] för att konfigurera mobilprogrammet.
+En administratör med organisationsenheten inställd på ALL bör ha behörighet till alla taggegenskaper för att konfigurera mobilprogrammet.
 
 Mer information om organisationsenhet finns i [page](../../administration/using/organizational-units.md).
 
-## Jag skapade en mobil egenskap i [!DNL Launch] men min egenskap syns inte i Adobe Campaign Standard. {#visibility-mobile-property}
+## Jag skapade en tagg för mobil, men min egenskap syns inte i Adobe Campaign Standard. {#visibility-mobile-property}
 
-1. Kontrollera att Adobe Campaign Standard-tillägget är installerat i egenskapen mobile i [!DNL Launch].
+1. Kontrollera att Adobe Campaign Standard-tillägget är installerat i egenskapen mobile i användargränssnittet för datainsamling.
 
 1. Kontrollera att slutpunkterna för instansen är korrekt konfigurerade i tillägget.
 
 1. Kontrollera att Launch_URL_Campaign eller NmsServer_URL är korrekta.
 
-1. Kontrollera sedan att synkroniseringen mellan [!DNL Launch] och Adobe Campaign slutförs med **[!UICONTROL syncWithLaunch]** tekniskt arbetsflöde.
+1. Kontrollera sedan att synkroniseringen är klar med **[!UICONTROL syncWithLaunch]** tekniskt arbetsflöde.
 
-## Hur kontrollerar jag om synkroniseringen mellan Adobe Campaign och Launch har slutförts? {#sync-campaign-launch}
+## Hur kontrollerar jag om synkroniseringen mellan Adobe Campaign och taggar i Adobe Experience Platform har slutförts? {#sync-campaign-launch}
 
 1. I Adobe Campaign Standard väljer du **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]**.
 
@@ -55,15 +55,15 @@ Mer information om organisationsenhet finns i [page](../../administration/using/
 
 1. Kontrollera i loggarna att arbetsflödessynkroniseringen är aktiverad och slutförd.
 
-## Jag återställer nyckeln för ett konfigurerat mobilprogram i Launch. Hur konfigurerar du om nyckeln igen i Launch? {#configuring-pkey}
+## Jag återställer nyckeln för ett konfigurerat tagg-mobilprogram. Hur konfigurerar du om nyckeln igen i användargränssnittet för datainsamling? {#configuring-pkey}
 
-1. Öppna egenskapen mobile i Adobe Launch.
+1. Öppna egenskapen mobile i användargränssnittet för datainsamling.
 
 1. Ange en ny URL i Adobe Campaign Standard-tillägget som PKey återställdes för.
 
-1. Spara den och låt arbetsflödet synkroniseras mellan Adobe Campaign och [!DNL Launch].
+1. Spara den och låt arbetsflödet synkroniseras.
 
-1. När synkroniseringen är klar öppnar du egenskapen mobile i [!DNL Launch].
+1. När synkroniseringen är klar öppnar du egenskapen mobile i användargränssnittet för datainsamling.
 
 1. Ange rätt URL i det Adobe Campaign Standard-tillägg som PKey återställdes för.
 
@@ -71,7 +71,7 @@ Mer information om organisationsenhet finns i [page](../../administration/using/
 
 1. Endast då visas egenskapen i **[!UICONTROL Ready to Configure]** i Adobe Campaign och kan nu konfigureras.
 
-## Jag vill konfigurera en mobil egenskap i Adobe Campaign. Måste jag vänta på att det tekniska arbetsflödet ska synkroniseras mellan Adobe Launch och Adobe Campaign?
+## Jag vill konfigurera en mobil egenskap i Adobe Campaign. Måste jag vänta på att det tekniska arbetsflödet ska synkroniseras mellan taggar i Adobe Experience Platform och Adobe Campaign?
 
 Du kan köra arbetsflödet direkt:
 

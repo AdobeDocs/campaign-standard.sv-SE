@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 3761ee4a-1ce5-4f9e-b2a5-84388b6b9db8
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 92%
+source-wordcount: '878'
+ht-degree: 82%
 
 ---
 
@@ -94,8 +94,10 @@ Aktiviteten **[!UICONTROL Segmentation]** placeras vanligtvis efter målaktivite
 1. Lägg till så många segment som behövs genom att upprepa steg 6 till 10.
 1. Redigera parametrarna i flik **[!UICONTROL Advanced options]** om det behövs:
 
-   * Markera alternativet **[!UICONTROL Enable overlapping of outbound populations]** om du vill att en medlem i den inkommande populationen samtidigt ska tillhöra flera segment.  Den utgående population av aktiviteten kan överskrida den inkommande populationen.
-   * Markera alternativet **[!UICONTROL Concatenate the code of each segment]** om den inkommande populationen redan har tilldelats en segmentkod som du vill behålla.  Segmentkoden som anges i aktiviteten läggs till i den inledande segmentkoden.
-   * Markera alternativet **[!UICONTROL Generate complement]** om du vill utnyttja den återstående populationen. Se [Användningsfall: Skapa leveranser med ett komplement](../../automating/using/workflow-created-query-with-complement.md).
+   * The **[!UICONTROL Enable overlapping of outbound populations]** anger hur profiler som tillhör flera segment ska hanteras:
+      * När alternativet inte är aktiverat visas **[!UICONTROL Segmentation]** aktivitetskontrollerar att en profil inte finns i flera utdataövergångar, även om den här profilen uppfyller villkoren för flera deluppsättningar.
+      * När alternativet är aktiverat kan profilerna hittas i flera deluppsättningar om de uppfyller filtervillkoren.
+   * Om den inkommande populationen redan har tilldelats en segmentkod som du vill behålla kontrollerar du **[!UICONTROL Concatenate the code of each segment]** alternativ. Segmentkoden som anges i aktiviteten läggs till i den inledande segmentkoden.
+   * Om du behöver utnyttja den återstående populationen ska du kontrollera **[!UICONTROL Generate complement]** alternativ. Se [Användningsfall: Skapa leveranser med ett komplement](../../automating/using/workflow-created-query-with-complement.md).
 
 1. Bekräfta aktivitetens konfiguration och spara arbetsflödet.

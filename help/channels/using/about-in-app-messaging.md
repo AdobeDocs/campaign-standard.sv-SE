@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: 462ebaf8e8f1f056aa92118226ef77aea37b972b
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 App-meddelanden är en meddelandekanal som gör att du kan visa ett meddelande när användaren är aktiv i appen. Den här meddelandetypen är kostnadsfri för push-meddelanden som levereras som notifikation till mobilen. Mer information om kanalen för push-meddelande finns i det här [avsnittet](../../channels/using/about-push-notifications.md).
 
-Den här kanalen kräver att mobil-appar integreras med Adobe Experience Platform SDK. Dessa program måste aktiveras i Adobe Experience Platform Launch innan de är tillgängliga i Adobe Campaign för leveranser i appen.
+Den här kanalen kräver att mobil-appar integreras med Adobe Experience Platform SDK. Dessa program måste aktiveras i användargränssnittet för datainsamling innan de blir tillgängliga i Adobe Campaign för leveranser i appen.
 
 ![](assets/launch_campaign.png)
 
@@ -27,7 +27,7 @@ Om du vill börja skicka meddelanden via app-maddelanden till mobil-appar som an
 
 1. Kontrollera att du har åtkomst till kanalen **[!UICONTROL In-App]** i Adobe Campaign. Om du inte har tillgång till de här kanalerna kontaktar du kontoteamet.
 
-1. För att kunna använda mobilanvändningsexempel i Adobe Campaign Standard med en Experience Cloud SDK-applikation måste en mobilapp skapas i Adobe Experience Platform Launch och konfigureras i Adobe Campaign Standard. Om du vill ha en steg för steg-guide läser du på den här [sidan](../../administration/using/configuring-a-mobile-application.md).
+1. För att kunna utnyttja mobilanvändningsexempel i Adobe Campaign Standard med ett Experience Cloud SDK-program måste en mobilapp skapas i användargränssnittet för datainsamling och konfigureras i Adobe Campaign Standard. Om du vill ha en steg för steg-guide läser du på den här [sidan](../../administration/using/configuring-a-mobile-application.md).
 
 1. När du har konfigurerat det kan du nu förbereda ditt meddelande i appen. Mer information om detta hittar du p¨å den här [sidan](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message).
 

@@ -9,10 +9,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 49%
+source-wordcount: '1238'
+ht-degree: 41%
 
 ---
 
@@ -62,17 +62,17 @@ Innan du skickar ett push-meddelanden bör du:
 
 1. Kontrollera att du har åtkomst till kanalen **[!UICONTROL Push notification]** i Adobe Campaign.  Om du inte har tillgång till de här kanalerna kontaktar du kontoteamet.
 
-1. Kontrollera att användaren har de behörigheter som krävs i Adobe Campaign Standard och Experience Platform Launch.
+1. Kontrollera att din användare har de behörigheter som krävs i Adobe Campaign Standard och taggar i Adobe Experience Platform.
 
-1. Skapa en egenskap för mobiler i Experience Platform Launch.  Mer information finns i [Konfigurera en mobil egenskap](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property).
+1. Skapa en mobil egenskap i användargränssnittet för datainsamling. Mer information finns i [Konfigurera en mobil egenskap](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property).
 
-1. Installera tillägg **[!UICONTROL Adobe Campaign Standard]** i Experience Platform Launch.
+1. I användargränssnittet för datainsamling installerar du **[!UICONTROL Adobe Campaign Standard]** tillägg.
 
-1. Konfigurera den mobila egenskapen som du skapade i Experience Platform Launch i Adobe Campaign Standard.  Mer information hittar du under [Konfigurera programmet Experience Platform Launch i Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
+1. Konfigurera den mobila egenskap som du skapade i användargränssnittet för datainsamling i Adobe Campaign Standard. Mer information finns i [Konfigurera taggprogrammet i Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
 1. Lägg till den kanalspecifika konfigurationen i installationen av mobilprogrammet.  Mer information finns i [Kanalspecifik programkonfiguration i Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
-1. Information om stöd för implementering av mobilanvändning finns i de detaljerade instruktionerna gällande tillägg och regler för Experience Platform Launch och SDK-implementering i [mobilanvändningsfall som stöds i Adobe Campaign Standard med hjälp av SDK:er](../../administration/using/configuring-rules-launch.md)för Adobe Experience Platform.
+1. Mer information om hur du hanterar implementering av ärenden för mobilanvändning finns i detaljerade instruktioner om tillägg, taggregler och SDK-implementering i [Mobil användning som stöds i Adobe Campaign Standard med Adobe Experience Platform SDK](../../administration/using/configuring-rules-launch.md).
 
 ## Vanliga frågor om push-meddelanden {#push-faq}
 

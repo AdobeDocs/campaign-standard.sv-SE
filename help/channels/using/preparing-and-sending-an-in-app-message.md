@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 99111a0d8d3bf46aae39b80851ebcabaf30be0a0
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '1245'
-ht-degree: 89%
+source-wordcount: '1246'
+ht-degree: 84%
 
 ---
 
@@ -91,7 +91,7 @@ Stegen för att skapa ett fristående meddelande i appen med Adobe Campaign är 
       Mer information om Adobe Platser finns i [Platsdokumentationen](https://experienceleague.adobe.com/docs/places/using/home.html).
    ![](assets/inapp_creating_4.png)
 
-1. Om du använder ett **[!UICONTROL Analytics Events]** fylls händelserna Adobe Analytics och Vytillstånd i automatiskt baserat på de rapportsviter som konfigurerats i Analytics-tillägget i Adobe Experience Platform Launch, medan kontextdatahändelser måste läggas till manuellt.
+1. Om du använder en **[!UICONTROL Analytics Events]**, Adobe Analytics- och View-statushändelser fylls i automatiskt baserat på de rapportsviter som konfigurerats i Analytics-tillägget i användargränssnittet för datainsamling, medan kontextdatahändelser måste läggas till manuellt.
 
    Observera att dessa händelser endast är tillgängliga om du har en Adobe Analytics-licens.
 
@@ -99,7 +99,7 @@ Stegen för att skapa ett fristående meddelande i appen med Adobe Campaign är 
 
 1. Om du använder en **[!UICONTROL Places]**-utlösare fylls Placerar kontextdata, Placerar anpassade metadata eller Placerar händelsetyp automatiskt i baserat på alla bibliotek och deras intressepunkter som skapats i Adobe Places.
 
-   Observera att den här utlösaren endast används på enheten för de intressepunkter från biblioteken som valts i Places-tillägget i Experience Platform Launch. Mer information om tillägget-tillägget och hur du installerar det finns i den här [dokumentationen](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
+   Observera att den här utlösaren endast används på enheten för de intressepunkter från bibliotek som valts i tillägget Platser i användargränssnittet för datainsamling. Mer information om tillägget-tillägget och hur du installerar det finns i den här [dokumentationen](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
 
 1. På fliken **[!UICONTROL Frequency & duration]** väljer du frekvens för utlösaren, start- och slutdatum, veckodag och tidpunkt på dagen då ditt Meddelande i appen ska vara aktivt.
 

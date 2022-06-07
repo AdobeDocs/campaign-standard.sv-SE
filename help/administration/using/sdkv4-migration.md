@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: eb7a209e-069e-4068-966d-05344bd838c7
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1193'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ När du har uppgraderat Adobe SDK-versionen från v4 till Adobe Experience Platf
 |:-:|
 | Mobilappen kommer att finnas i **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (Adobe Experience Platform SDK)]**. Före migreringen var den tillgänglig i **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (SDK V4)]**. |
 | The **[!UICONTROL Collect PII Endpoint]** kommer att ändras. Äldre **[!UICONTROL Collect PII Endpoint]** fortsätter att fungera, skickade data går inte förlorade. |
-| Programmet är knutet till en Adobe Experience Platform Launch **[!UICONTROL Mobile Property]**. Det kommer att bearbetas som ett nytt mobilprogram. |
+| Programmet är knutet till en tagg **[!UICONTROL Mobile Property]**. Det kommer att bearbetas som ett nytt mobilprogram. |
 | Det ursprungliga Adobe Experience Platform SDK-programmet som användes vid migreringen kommer inte att finnas som ett separat program. Endast det migrerade SDK v4-programmet är tillgängligt. |
 
 ## Migrera ditt mobilprogram från SDK v4 till Adobe Experience Platform SDK {#how-to-migrate}
@@ -53,9 +53,9 @@ Innan du migrerar bör du ta hänsyn till följande rekommendationer:
 * Migreringsprocessen är oåterkallelig.
 * Du bör inte köra migrering av flera program samtidigt. Du bör också se till att migreringen av ett program inte aktiveras av flera fönster samtidigt.
 * Innan du migrerar måste du kontrollera att du har tilldelats **[!UICONTROL Organizational unit]** av mobilprogrammet som du vill migrera och av Adobe Experience Platform-programmet som du använder för migrering.
-* Efter migreringen blir programmet ett Adobe Experience Platform SDK-program. Ändringarna länkas till motsvarande Launch **[!UICONTROL Mobile Property]**.
+* Efter migreringen blir programmet ett Adobe Experience Platform SDK-program. Ändringarna länkas till motsvarande tagg **[!UICONTROL Mobile Property]**.
 
-1. Skapa ett nytt **[!UICONTROL Mobile property]** i Adobe Experience Platform Launch. Mer information finns i [Adobe Experience Platform Launch-dokumentation](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#create-a-mobile-property).
+1. Skapa ett nytt **[!UICONTROL Mobile property]** i användargränssnittet för datainsamling. Mer information finns i [dokumentation](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#create-a-mobile-property).
 
 1. I Adobe Campaign Standard väljer du **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]** och öppna **[!UICONTROL syncWithLaunch]** arbetsflöde. Kontrollera om arbetsflödet har avslutats utan fel.
 
@@ -88,7 +88,7 @@ Innan du migrerar bör du ta hänsyn till följande rekommendationer:
 Efter den här migreringen kommer prenumeranter som samlats in via V4-versionen av mobilprogrammet och nya prenumeranter som samlats in via AEP-versionen av mobilprogrammet att vara tillgängliga i den migrerade applikationen.
 
 Om du vill skilja på de två olika typerna av prenumeranter kan du lägga till ett nytt anpassat fält med **[!UICONTROL Text]** typ när den anpassade resursen utökas **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** as `sdkversion` eller `appVersion` till exempel. Mer information om hur du utökar en anpassad resurs finns i [page](../../developing/using/creating-or-extending-the-resource.md).
-Sedan måste du konfigurera den associerade startsidan **[!UICONTROL Mobile property]** om du vill skicka det här anpassade fältvärdet i Samla in PII-anropet och ändra mobilprogrammets konfiguration i enlighet med detta.
+Sedan måste du konfigurera den associerade taggen **[!UICONTROL Mobile property]** om du vill skicka det här anpassade fältvärdet i Samla in PII-anropet och ändra mobilprogrammets konfiguration i enlighet med detta.
 
 ## Vanliga frågor och svar  {#faq}
 
@@ -106,7 +106,7 @@ S: Endast programvara som ger rätt till rabatt **[!UICONTROL Organizational uni
 
 ### F: Varför kan inte Adobe Experience Platform SDK-programmet med den konfigurerade egenskapsstatusen användas för migrering? {#property-status}
 
-S: Migreringsprocessen behåller SDK v4-prenumeranterna och -attributen. Det sparar bara startrelaterad information från Adobe Experience Platform SDK-programmet. Prenumeranter och andra data från Adobe Experience Platform SDK-programmet kommer att gå förlorade. För att undvika dataförluster är det bara Adobe Experience Platform SDK-program med **[!UICONTROL Ready to Configure]** **[!UICONTROL Property Status]** är berättigade till migrering.
+S: Migreringsprocessen behåller SDK v4-prenumeranterna och -attributen. Det sparar bara taggrelaterad information från Adobe Experience Platform SDK-programmet. Prenumeranter och andra data från Adobe Experience Platform SDK-programmet kommer att gå förlorade. För att undvika dataförluster är det bara Adobe Experience Platform SDK-program med **[!UICONTROL Ready to Configure]** **[!UICONTROL Property Status]** är berättigade till migrering.
 
 ### F: Efter migreringen, var hittar jag mitt tidigare SDK v4-mobilprogram? {#v4-app-not-visible}
 

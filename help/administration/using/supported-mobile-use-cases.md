@@ -6,7 +6,7 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 3cd8d756-a271-4e53-8ed0-984ce20298bc
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Mobila användningsfall som stöds av Adobe Campaign Standard {#mobile-use-cases}
 
-På den här sidan hittar du en lista över alla mobilanvändningsfall som stöds i [!DNL Adobe Campaign Standard] med [!DNL Adobe Experience Platform SDKs]. Observera att för att stödja dessa användningsområden måste du installera och konfigurera [!DNL Adobe Experience Platform SDKs], [!DNL Adobe Experience Platform Launch]och [!DNL Adobe Campaign Standard]. Mer information finns i [page](../../administration/using/configuring-a-mobile-application.md).
+På den här sidan hittar du en lista över alla mobilanvändningsfall som stöds i [!DNL Adobe Campaign Standard] med [!DNL Adobe Experience Platform SDKs]. Observera att för att stödja dessa användningsområden måste du installera och konfigurera [!DNL Adobe Experience Platform SDKs], [!DNL tags in Adobe Experience Platform]och [!DNL Adobe Campaign Standard]. Mer information finns i [page](../../administration/using/configuring-a-mobile-application.md).
 
 Adobe Campaign Standard har stöd för följande användningsområden:
 
@@ -27,9 +27,9 @@ Adobe Campaign Standard har stöd för följande användningsområden:
 * [Implementera en anpassad händelse i din mobilapp för att utlösa meddelanden i appen](../../administration/using/supported-mobile-use-cases.md#custom-event-inapp)
 * [Ange länkningsfält för ytterligare autentisering för profilmallen som är baserad på meddelanden i appen](../../administration/using/supported-mobile-use-cases.md#linkage-fields-inapp)
 
-Om du vill konfigurera dessa användningsfall behöver du följande tillägg från [!DNL Experience Platform Launch]:
+För att konfigurera dessa användningsfall behöver du följande tillägg:
 
-* **[!DNL Adobe Campaign Standard]** <br>Information om hur du installerar och konfigurerar Campaign Standarden finns i [Konfigurera tillägget Campaign Standard i Experience Platform Launch](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#configure-the-campaign-standard-extension-in-experience-platform-launch).
+* **[!DNL Adobe Campaign Standard]** <br>Information om hur du installerar och konfigurerar Campaign Standarden finns i [Konfigurera tillägget Campaign Standard i användargränssnittet för datainsamling](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#configure-the-campaign-standard-extension-in-experience-platform-launch).
 * **[!DNL Mobile Core]**, som installeras automatiskt. <br>Mer information om tillägget Mobile Core finns i [Mobile Core](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core).
 * **[!DNL Profile]**, som installeras automatiskt. <br>Mer information om profiltillägget finns i [Profil](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/profile).
 

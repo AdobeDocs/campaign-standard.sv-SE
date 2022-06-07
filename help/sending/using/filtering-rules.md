@@ -8,7 +8,7 @@ feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 43e97f3c-ed82-4fcc-ac0d-fcee6a22da35
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 3%
@@ -66,7 +66,7 @@ Följ de här stegen för att skapa en filtreringstypologiregel:
 
    ![](assets/typology_create-rule-subscriber.png)
 
-1. Välj **[!UICONTROL Age]** och definiera filtreringsvillkoren så att prenumeranternas ålder är 18 år eller äldre.
+1. Välj **[!UICONTROL Age]** och definiera filtreringsvillkoren så att prenumeranternas ålder är mindre än 18.
 
    ![](assets/typology_create-rule-age.png)
 

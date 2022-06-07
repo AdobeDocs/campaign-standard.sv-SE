@@ -9,7 +9,7 @@ feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 5ef66b1b-1c81-42fb-a18c-fcf7f21e1ff7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 96%
@@ -30,7 +30,7 @@ Typologiregler är affärsregler som gör att du kan kontrollera och filtrera me
 
 Typologiregler finns under **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]**.
 
-Som standard finns flera färdiga **filtrerings**- och **kontrolltypologiregler** tillgängliga. De beskrivs i avsnitten [Filtreringsregler](../../sending/using/fatigue-rules.md) och [Kontrollregler](../../sending/using/control-rules.md).
+Som standard finns flera färdiga **filtrerings**- och **kontrolltypologiregler** tillgängliga. De beskrivs i avsnitten [Filtreringsregler](../../sending/using/filtering-rules.md) och [Kontrollregler](../../sending/using/control-rules.md).
 
 Beroende på dina behov kan du ändra befintliga typologiregler eller skapa nya, med undantag för **[!UICONTROL Control]**-regler som är skrivskyddade och inte kan ändras.
 
