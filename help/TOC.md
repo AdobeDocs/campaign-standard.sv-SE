@@ -5,9 +5,9 @@ user-guide-description: 'Hjälpcenter för de viktigaste funktionerna, åtgärde
 title: Användarhandbok för Campaign Standard
 breadcrumb-title: 'Dokumentation om Adobe Campaign Standard '
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1810'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -452,9 +452,9 @@ ht-degree: 99%
       + [Lägga till bilder och videor i iOS](administration/using/image-push-notification.md)
       + [Förstå nyttolaststrukturen för push-meddelanden](administration/using/push-payload.md)
       + [Implementera lokal meddelandespårning](administration/using/local-tracking.md)
-      + [Taggar i Adobe Experience Platform-synkronisering - frågor och svar](administration/using/syncwithlaunch-faq.md)
+      + [Vanliga frågor och svar om taggar i Adobe Experience Platform-synkronisering](administration/using/syncwithlaunch-faq.md)
       + [Vanliga frågor och svar om integrering av Experience Platform SDK](administration/using/aep-faq.md)
-      + [Konfigurera taggregler som stöder Adobe Campaign Standard användningsfall](administration/using/configuring-rules-launch.md)
+      + [Konfigurera taggningsregler för att stödja användningsfall i Adobe Campaign Standard](administration/using/configuring-rules-launch.md)
       + [Mobila användningsfall som stöds av Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
       + [Så här migrerar du din mobilapplikation från SDK v4 till Adobe Experience Platform SDK](administration/using/sdkv4-migration.md)
    + Konfigurera SMS-kanal {#configuring-sms}
