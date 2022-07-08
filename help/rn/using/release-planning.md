@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 98aa27e4fb5eab9abbce5a9a9ba2c17d04424d70
-workflow-type: ht
+source-git-commit: 8b049f7decc95d3959feb0193bf51287422ddaec
+workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,7 @@ Uppgraderingar distribueras i två faser. För det första uppgraderas stadieins
 
 Alla versionsdatum kan ändras: besöka den här sidan regelbundet för att söka efter uppdateringar.
 
-## Version 22.2 – version från juni 2022 {#release-22-2-release}
+## Version 22.3 – version från september 2022 {#release-22-3-release}
 
 Miljöuppdateringar sker stegvis under de angivna tidsramarna nedan. Exakta datum meddelas till varje kund via e-post.
 
@@ -41,11 +41,11 @@ Detaljerad information om den här versionen finns tillgänglig i Tidig versions
  <tbody>
   <tr>
    <td>Stadie<br /> </td>
-   <td>7–8 juni 2022<br /> </td>
+   <td>6-7 sept 2022<br /> </td>
   </tr>
   <tr>
    <td>Produktion<br /> </td>
-   <td>14–21 juni 2022<br /> </td>
+   <td>13-29 sept 2022<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -60,7 +60,7 @@ S: Ändringar visas i [versionsinformationen](../../rn/using/release-notes.md), 
 
 **F: Hur ser valideringsprocessen ut?**
 
-S: När du uppgraderar mellanlagringsinstansen rekommenderar Adobe att du validerar processerna och att användningsfallen fungerar som de ska med den nya versionen och att eventuella problem rapporteras till [Adobe Client Care](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html).
+S: När du uppgraderar mellanlagringsinstansen rekommenderar Adobe att du validerar processerna och att användningsfallen fungerar som de ska med den nya versionen och att eventuella problem rapporteras till [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
 
 **F: Kommer åtkomst att ges till instansen under uppgraderingsprocessen?**
 
@@ -82,4 +82,4 @@ S: Ja, de kommer att fungera. Det går inte att skicka nya e-postmeddelanden und
 
 S: När du loggar in på Campaign visas ett popup-fönster med den senaste versionen.
 
-Kontakta [Adobe Client Care](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) om du har frågor.
+Kontakta [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om du har frågor.
