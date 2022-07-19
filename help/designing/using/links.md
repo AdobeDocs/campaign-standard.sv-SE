@@ -8,7 +8,7 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: d1714101-bad0-40c1-8d60-90469d033197
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 146dfea38bd456a5d9200b0632d4aa279b10a7b9
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 3%
@@ -35,7 +35,7 @@ Du kan infoga en länk i valfritt sidelement: bild, ord, ordgrupp, textblock osv
 
    * **Extern länk**: infoga en länk till en extern URL.
 
-      Du kan definiera personalisering för dina URL-adresser. Se [Anpassa URL:er](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
+      Du kan definiera personalisering för dina URL-adresser. Se [Anpassa URL:er](personalization.md#personalizing-urls).
 
    * **Landningssida**: ge tillgång till en Adobe Campaign landningssida.
    * **Prenumerationslänk**: infoga en länk för att prenumerera på en Adobe Campaign-tjänst.
