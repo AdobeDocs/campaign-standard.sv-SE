@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: e74ce4aea097e5078aabf83f424e855db72b04a1
+source-git-commit: e18d2e42c76a85f2f80a4d58dba9161993864ce5
 workflow-type: tm+mt
 source-wordcount: '182'
-ht-degree: 21%
+ht-degree: 20%
 
 ---
 
@@ -25,7 +25,7 @@ Den här sidan beskriver de förbättringar och korrigeringar som ingår i näst
 
 ## Version 22.3 – september 2022 {#e-rn-2022}
 
-**Förbättringar**
+### Förbättring{#e-rn-improvements}
 
 **Tillgänglighet**
 
@@ -39,11 +39,11 @@ Dessa funktioner lanseras i begränsad tillgänglighet och introduceras endast f
     Data retention periods have been reduced to avoid overloading Campaign server. However, you can still modify these values and define a custom period of time based on your needs and data retention policies. To change retention periods, contact Adobe.
 -->
 
-**Säkerhetsuppdatering**
+### Säkerhetsuppdatering{#e-rn-security}
 
 Den här versionen innehåller följande säkerhetsuppgradering: Apache Tomcat har uppgraderats från v7.0 till v8.0.
 
-**Korrigeringar**
+### Korrigeringar{#e-rn-fixes}
 
 * Korrigerade ett problem med schemalagda rapporter, som utlöstes en timme före den schemalagda tidpunkten. (CAMP-51502)
 * Korrigerade ett problem med leveransindikatorerna på kontrollpanelen för leverans som inte matchade skickade loggar (nms:broadLogRcp). (CAMP-51127)
