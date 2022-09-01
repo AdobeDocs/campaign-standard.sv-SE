@@ -1,14 +1,12 @@
 ---
 title: Versionsinformation för 2019
 description: Den här sidan innehåller alla versioner av Adobe Campaign Standard under 2019.
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
 workflow-type: tm+mt
 source-wordcount: '7588'
 ht-degree: 8%
@@ -118,7 +116,7 @@ ht-degree: 8%
 * I Campaign Standard-API:er kan inte anpassade nycklar ändras med en PATCH-åtgärd om nyckelvärdet skiljer sig från ursprungsnyckeln, eller om du använder din egen affärsnyckel som URI i stället för den som tillhandahålls av Adobe.
 * Språket&quot;Albanska - Makedonien&quot; har lagts till i den önskade språklistan. (CAMP-35396)
 
-**Felkorrigeringar**
+**Korrigeringar**
 
 * Ett problem som gjorde att schemalagda rapporter inte kunde sorteras eller sökas har åtgärdats.
 * Korrigerade ett problem med utlösarregler som gjorde att AND- och OR-reglerna blandades.
@@ -222,7 +220,7 @@ ht-degree: 8%
 * När en &quot;Överför fil&quot;-aktivitet används loggas nu ett fel om filstorleken överskrider det tillgängliga diskutrymmet.
 * Det går inte längre att välja åtgärden Omdirigera till mål-URL för den sekundära knappen i meddelanden i appen.
 
-**Felkorrigeringar**
+**Korrigeringar**
 
 * Korrigerade ett problem som kunde få GDPR-åtkomstbegäranden att misslyckas.
 * Korrigerade ett problem som kunde leda till att utlösare ignorerades när flera utlösare togs emot för en unik profil.
@@ -373,7 +371,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
 * Testläget för anpassad resurspublikation har förbättrats. Ett varningsmeddelande visas nu för användarna om den senaste anpassade resurspublikationen misslyckades och inte har åtgärdats. Efter ett fel i en anpassad resurspublicering kan du återställa till den senaste arbetsversionen. Mer information finns i den [detaljerade dokumentationen](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 * Ett nytt alternativ lades till i aktiviteten Överför fil. Du kan sortera filerna i SFTP-läge när du använder filinläsningsåtgärden. Mer information finns i den [detaljerade dokumentationen](../../automating/using/transfer-file.md). (CAMP-33109)
 
-**Felkorrigeringar**
+**Korrigeringar**
 
 * Ett problem som kunde orsaka minnesläckage till MTA när SMS-inställningarna lästes in på nytt har åtgärdats.
 * Korrigerade ett problem som kunde förhindra publicering av databasuppdateringar i reparationsläge.
@@ -491,7 +489,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
 * Adobe Campaign och Adobe Experience Cloud upphör med stödet för Microsoft Internet Explorer 11 från och med våren 2019 och Campaign Standard 19.2. Byt till Microsoft Edge eller en annan webbläsare som stöds. Se [Föråldrade och borttagna funktioner](../../rn/using/deprecated-features.md) sida.
 * The **Landskod** fältet från profilresursen har bytt namn till **Landskod**.
 
-**Felkorrigeringar**
+**Korrigeringar**
 
 * Korrigerade ett problem som förhindrade att meddelandet skickades när en testprofil lades till i ett e-posttransaktionsmeddelande. (CAMP-29854)
 * Korrigerade ett problem som gjorde att meddelandet skickades från andra kanaler långsammare om det var lågt för en kanal när meddelandet som skickades från alla kanaler utlöstes samtidigt.
@@ -584,7 +582,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
 * Nu går det att skapa profiltransaktionsmeddelanden med e-postdesignern. (CAMP-28900)
 * Korrigerade ett fel i e-postdesignern som gjorde innehållet redigerbart när innehållet hämtades från en URL automatiskt vid förberedelsetillfället, medan det borde vara låst.
 
-**Felkorrigeringar**
+**Korrigeringar**
 
 * Ett problem som visade felaktiga leveransloggar i dynamisk rapportering har korrigerats. (CAMP-23446)
 * Korrigerade ett problem som kunde påverka siffrorna i studssammanfattningsrapporten (CAMP-28703)

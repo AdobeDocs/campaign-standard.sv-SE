@@ -1,14 +1,12 @@
 ---
 title: Versionsinformation för 2018
 description: Den här sidan innehåller alla versioner av Adobe Campaign Standard under 2018.
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
 workflow-type: tm+mt
 source-wordcount: '5401'
 ht-degree: 6%
@@ -65,7 +63,7 @@ Se de senaste [dokumentuppdateringar](../../rn/using/documentation-updates.md) f
 
    Mer information finns i [detaljerad dokumentation](../../designing/using/personalization.md#adding-a-content-block).
 
-**Felkorrigeringar**
+**Korrigeringar**
 
 * Korrigerade ett problem som visade en diskrepans i antalet loggar mellan e-postinstrumentpanelen och e-postsammanfattningsrapporten för transaktionsmeddelanden. (CAMP-28237
 * Korrigerade ett fel i arbetsflöden som kunde visa ett felmeddelande när en fil importerades via en filöverföringsaktivitet. (CAMP-27435)
@@ -135,10 +133,10 @@ Se de senaste [dokumentuppdateringar](../../rn/using/documentation-updates.md) f
 * I Creative Designer kan en ny innehållskomponent nu läggas till i ett e-postmeddelande: Carousel. Mer information finns i [detaljerad dokumentation](../../designing/using/designing-from-scratch.md#about-content-components).
 * I ett transaktionsmeddelande klickar du på rapporten när du klickar på **Ändra profil** finns nu bara de testprofiler som är länkade till den händelse som du har definierat för ditt transaktionsmeddelande med.
 
-**Felkorrigeringar**
+**Korrigeringar**
 
 * Ett problem med byEmail-frågefiltret som inte returnerade några resultat har korrigerats. (CAMP-23420)
-* Korrigerade ett problem som gjorde att en standardanvändare kunde få åtkomst till vissa funktioner eller skärmar som var begränsade till administratörer (/rest/head/* slutpunkter, transaktionsmeddelandeskärmar, profiler och målgrupper importskärmar).
+* Ett problem som gjorde att en standardanvändare kunde komma åt vissa funktioner eller skärmar som var begränsade till administratörer (/rest/head/) har åtgärdats&#42; slutpunkter, transaktionsmeddelandeskärmar, profiler och målgrupper (importskärmar).
 * Korrigerade ett problem som förhindrade begäran om borttagning av sekretess i GDPR från bearbetning av anpassade resurser om deras namn startades med ett nummer.
 * Korrigerade ett fel som förhindrade aktiviteten Spara publik från att dela programprenumeranter i Adobe Experience Cloud.
 * Korrigerade ett problem med filöverföringsaktiviteten som kunde inträffa när filnamnet innehöll blanksteg. (CAMP-25936)
@@ -170,7 +168,7 @@ Se de senaste [dokumentuppdateringar](../../rn/using/documentation-updates.md) f
 * Användare med **[!UICONTROL Delivery preparation]** kan nu skicka korrektur. (CAMP-24313)
 * The **Aktivera TLS över SMPP** har lagts till i **SMS-routning via SMPP** externt konto. Mer information om detta finns i [section](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
 
-**Felkorrigeringar**
+**Korrigeringar**
 
 * Korrigerade ett problem som kunde förhindra att e-postmeddelanden skickades när en dynamisk bild från Adobe Target (CAMP-24848) inkluderades.
 * Ett problem med **[!UICONTROL Privacy Access/Delete Request]** tekniska arbetsflöden som inte slutfördes om någon av förfrågningarna misslyckades.
@@ -244,7 +242,7 @@ Se de senaste [dokumentuppdateringar](../../rn/using/documentation-updates.md) f
 * När du använder en segmenteringsaktivitet med en Additional data-länk (targetData) visas nu ett meddelande om att data inte är tillgängliga utanför arbetsflödet. Det här meddelandet visas när du klickar på knappen Antal eller Förhandsvisa i segmenteringsaktiviteten. (CAMP-23651)
 * Förbättringar har gjorts för att optimera det diskutrymme som används i arbetsflöden: (CAMP-21979): Filerna som bearbetas av aktiviteten Läs in fil tas nu bort som standard. Med ett alternativ kan du behålla dem för specifika behov. När ett arbetsflöde tas bort undertrycks dess dedikerade mapp automatiskt från serverkatalogen.
 
-**Felkorrigeringar**
+**Korrigeringar**
 
 * Ett problem har korrigerats där vissa obearbetade rapporthändelser inte hade associerade spårningshändelser eftersom fältet eventDate inte fylldes i korrekt.
 * Korrigerade ett problem som gjorde att anpassade fält inte kunde visas i förhandsgranskningsfönstret för en leverans av push-meddelanden.
@@ -263,7 +261,7 @@ Se de senaste [dokumentuppdateringar](../../rn/using/documentation-updates.md) f
 
 ## Version 18.4 – april 2018 {#release-18-4---april-2018}
 
-**Felkorrigeringar**
+**Korrigeringar**
 
 _Plattform_
 
@@ -332,7 +330,7 @@ _Anpassade resurser_
  </tbody> 
 </table>
 
-**Felkorrigeringar**
+**Korrigeringar**
 
 _Plattform_
 
@@ -400,7 +398,7 @@ _Transaktionsmeddelanden_
  </tbody> 
 </table>
 
-**Felkorrigeringar**
+**Korrigeringar**
 
 _Plattform_
 
@@ -482,7 +480,7 @@ Vissa problem kan uppstå när sammanhangsberoende hjälplänkar från gränssni
  </tbody> 
 </table>
 
-**Felkorrigeringar**
+**Korrigeringar**
 
 _Plattform_
 

@@ -1,14 +1,12 @@
 ---
 title: Versionsinformation för 2017
 description: Den här sidan innehåller alla versioner av Adobe Campaign Standard under 2017.
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
 workflow-type: tm+mt
 source-wordcount: '4613'
 ht-degree: 8%
@@ -46,7 +44,7 @@ Se de senaste [dokumentuppdateringar](../../rn/using/documentation-updates.md) f
  </tbody> 
 </table>
 
-**Felkorrigeringar**
+**Korrigeringar**
 
 _Plattform_
 
@@ -129,7 +127,7 @@ _Anpassade resurser_
  </tbody> 
 </table>
 
-**Felkorrigeringar**
+**Korrigeringar**
 
 _Plattform_
 
@@ -213,7 +211,7 @@ _Profiler och målgrupper_
  </tbody> 
 </table>
 
-**Felkorrigeringar**
+**Korrigeringar**
 
 _Allmänt_
 
@@ -273,7 +271,7 @@ _Arbetsflöden_
  </tbody> 
 </table>
 
-**Felkorrigeringar**
+**Korrigeringar**
 
 _Gränssnittsuppdateringar_
 
@@ -332,7 +330,7 @@ _Push-meddelanden_
  </tbody> 
 </table>
 
-**Felkorrigeringar**
+**Korrigeringar**
 
 _Plattform_
 
@@ -435,7 +433,7 @@ _Push-meddelanden_
   </tr> 
   <tr> 
    <td> Intressepunktsdata<br /> </td> 
-   <td> Intressepunktsdata integrerar Adobe Campaign med Adobe Analytics for Mobile. Ett varumärke kan samla in data från användarnas mobila platser - som kallas <strong>Intressepunkter</strong> - när användarna öppnar varumärkesappen. På så sätt kan varumärket utnyttja Adobe Campaign arbetsflöden för att skicka personaliserade meddelanden baserat på användarnas platser. Den här kanalen utnyttjar Mobile bastjänsts SDK.<br /> Observera att den här funktionen kräver Analytics for Mobile, som är en betald lösning.<br /> Mer information finns i den <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Intressepunktsdata integrerar Adobe Campaign med Adobe Analytics for Mobile. Ett varumärke kan samla in data från användarnas mobila platser - som kallas <strong>Intressepunkter</strong> - när användarna öppnar varumärkesappen. På så sätt kan varumärket utnyttja Adobe Campaign arbetsflöden för att skicka personaliserade meddelanden baserat på användarnas platser. Den här kanalen utnyttjar SDK:n för Mobile Core-tjänsten.<br /> Observera att den här funktionen kräver Analytics for Mobile, som är en betald lösning.<br /> Mer information finns i den <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> REST API:er<br /> </td> 
@@ -444,7 +442,7 @@ _Push-meddelanden_
  </tbody> 
 </table>
 
-**Felkorrigeringar**
+**Korrigeringar**
 
 _Allmänt_
 
@@ -507,7 +505,7 @@ _Arbetsflöden_
  </tbody> 
 </table>
 
-**Felkorrigeringar**
+**Korrigeringar**
 
 _Allmänt_
 
