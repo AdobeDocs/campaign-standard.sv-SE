@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: ab4abe7221c88f2c92e765ba2d158b6fb9c2075f
+source-git-commit: 17baeabf1e01c58fe0ecbb03f9d4b45831fbaaf7
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 99%
+source-wordcount: '421'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ Uppgraderingar distribueras i två faser. För det första uppgraderas stadieins
 
 Alla versionsdatum kan ändras: besöka den här sidan regelbundet för att söka efter uppdateringar.
 
-## Version 22.3 – version från september 2022 {#release-22-3-release}
+## Version 22.3 - 2022 års utgåva, höst/vinter {#release-22-3-release}
 
 Miljöuppdateringar sker stegvis under de angivna tidsramarna nedan. Exakta datum meddelas till varje kund via e-post.
 
@@ -41,11 +41,11 @@ Detaljerad information om den här versionen finns i [Tidig versionsinformation]
  <tbody>
   <tr>
    <td>Stadie<br /> </td>
-   <td>6-7 sept 2022<br /> </td>
+   <td>8 sept 2022 - början 2023<br /> </td>
   </tr>
   <tr>
    <td>Produktion<br /> </td>
-   <td>13-29 sept 2022<br /> </td>
+   <td>15 sept 2022 - början 2023<br /> </td>
   </tr>
  </tbody>
 </table>
