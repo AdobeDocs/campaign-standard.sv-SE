@@ -4,16 +4,43 @@ description: Den här sidan innehåller alla versioner av Adobe Campaign Standar
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: 1d1869a6c503773f4aaecb6a77f1b72585c88865
+source-git-commit: 20a59e064afeb93a2a6260439b09790692971071
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 100%
+source-wordcount: '1098'
+ht-degree: 97%
 
 ---
 
 # Versionsinformation för 2022{#release-notes-2022}
 
-[Versionsplanering](../../rn/using/release-planning.md) | [Kontrollpanelsversioner](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=sv) | [Dokumentationsuppdateringar](../../rn/using/documentation-updates.md) | [Tidigare versionsinformation](../../rn/using/release-notes-2020.md) | [Inaktuella funktioner](../../rn/using/deprecated-features.md)
+## Version 22.2 – juni 2022 {#june-2022}
+
+**Förbättringar**
+
+* **Adobes meddelandetjänst** – Campaign innehåller Adobes meddelandetjänst, som gör det möjligt för Experience Cloud-lösningar att avisera användare i Experience Cloud om aktiviteter som är viktiga för dem att känna till. Från och med version 22.2 har användarupplevelsen förbättrats: meddelanden prioriteras och produktgenererade meddelanden skiljs från statusmeddelanden i Adobe. När meddelandet dessutom hänvisar till ett specifikt arbetsflöde kan du nu komma åt motsvarande arbetsflöde direkt från e-postmeddelandet eller aviseringen i produkten.  Mer information om Adobe Campaign-meddelanden finns i [Adobe Campaign-meddelanden](../../administration/using/sending-internal-notifications.md).
+
+<!--
+* **Optimization in Workflow startup** - Adobe has added a new capability which can tune the number of workflows that start around the same time. This would help prevent CPU spikes that could have led to service interruptions or downtime. Adobe would enable it after 22.2 release. There is no further action item on customer regarding the same.
+-->
+
+* **Tillgänglighet** – Adobe har gjort många tillgänglighetskorrigeringar för att förbättra programmets övergripande användarvänlighet. Dessa funktioner är för närvarande bara aktiverade för en uppsättning tidiga användare, och de kommer att lanseras för alla kunder i framtida versioner. Exempel på tillgänglighetsförbättringar inkluderar:
+
+   * Kontrollera att det finns en synlig fokusindikator för fokuserbara element på varje skärm
+   * Skapa landmärken för sidor för enklare navigering
+   * Lägga till namn, roll, värde och tillstånd för många kontroller
+   * Åtgärda problem med dynamisk fokusordning på huvudskärmar
+
+
+**Felkorrigeringar**
+
+* Korrigerade ett problem med det tekniska arbetsflödet för fakturering på grund av ett dubblettnyckelfel. (CAMP-51029)
+* Lade till den saknade webbläsarkategorin Microsoft Edge i spårningsrapporter. De kategoriserades tidigare med Microsoft Chrome-öppningar. (CAMP-51165)
+* Korrigerade ett problem med GDPR-begäranden som inte tog bort data från underordnade tabeller. (CAMP-48276)
+* Korrigerade ett fel i e-postdesignern som gjorde att synlighetsvillkoret för ett fragment inte sparades i en transaktionsmeddelandemall. (CAMP-50338)
+* Korrigerade ett problem i Campaign-rapporter som gjorde att datumintervallet inte kunde beaktas. (CAMP-50991)
+* Korrigerade ett fel som gjorde att schemalagda e-postmeddelanden misslyckades: leveransanalysen kunde inte starta eftersom leveransen fortfarande hade statusen &quot;Nytt försök väntar&quot;. (CAMP-50302)
+* Korrigerade ett problem i e-postdesignern vid förhandsgranskning av ett e-postmeddelande med en profilersättning. (CAMP-49312)
+* Korrigerade ett problem med tomt värde i anpassade uppräkningar: när du skapar en anpassad resurs med ett fält som är en textuppräkning och bara innehåller ett värde, ställs det här värdet nu in som standard så att du kan skapa en fråga i det här fältet som en enkel begäran. (CAMP-50606)
 
 
 ## Version 22.1 – februari 2022 {#feb-2022}

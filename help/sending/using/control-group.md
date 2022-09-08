@@ -9,10 +9,10 @@ feature: Control Groups
 role: User
 level: Intermediate
 exl-id: 553897d4-2652-453f-960e-bb2993889f37
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 9bfae9e956fa86254578eda821aedd240c81288c
 workflow-type: tm+mt
-source-wordcount: '1332'
-ht-degree: 100%
+source-wordcount: '1300'
+ht-degree: 98%
 
 ---
 
@@ -155,7 +155,7 @@ Du kan extrahera **loggarna med skickade meddelanden** för att jämföra hur ko
 
 >[!IMPORTANT]
 >
->Du måste ha en [administratörsroll](../../administration/using/users-management.md#functional-administrators) och vara en del av [organisationsenheten](../../administration/using/organizational-units.md) för **[!UICONTROL All]** för att kunna ansluta till Adobe Campaign. Om du vill begränsa åtkomsten för en viss användare eller grupp av användare ska du inte länka den till **[!UICONTROL All]**-enheter för att kunna komma åt leveransloggar.
+>För att få åtkomst till leveransloggar måste du ha en [Administratörsroll](../../administration/using/users-management.md#functional-administrators) och att vara en del av **[!UICONTROL All]** [organisationsenhet](../../administration/using/organizational-units.md). <!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
 
 ### Kontrollera leveransloggarna {#checking-logs}
 

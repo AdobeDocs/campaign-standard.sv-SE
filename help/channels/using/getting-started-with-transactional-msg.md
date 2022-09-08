@@ -9,18 +9,14 @@ feature: Transactional Messaging
 role: User
 level: Beginner
 exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
-source-git-commit: 0538958289ce19982889f76ed195090a8455fdeb
+source-git-commit: 0e486e87c94e273442de23d6eb65c99f065e5a71
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '988'
 ht-degree: 9%
 
 ---
 
 # Komma igång med transaktionsmeddelanden {#getting-started-with-transactional-messaging}
-
-## Översikt {#overview}
-
-<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
 Ett transaktionsmeddelande är en individ och en unik kommunikation som skickas i realtid av en leverantör, till exempel en webbplats. Det är särskilt väntat eftersom det innehåller viktig information som mottagaren vill kontrollera eller bekräfta.
 
@@ -93,9 +89,9 @@ Dessa steg beskrivs närmare nedan.
 
 <!--<img src="assets/do-not-localize/icon_config.svg" width="60px">-->
 
-| Användare | Åtgärd | Resultat |
-|--- |--- |--- |
-| Det här steget måste utföras av en administratör som har [administrationsrättigheter](../../administration/using/users-management.md#functional-administrators). | Konfigurera en händelse med namnet&quot;Avsluta kundvagn&quot; och publicera händelsekonfigurationen. | Det API som kommer att användas av webbplatsutvecklaren distribueras och ett transaktionsmeddelande skapas automatiskt. |
+| Skapa en händelse | Användare | Åtgärd | Resultat |
+| --- |--- |--- |--- |
+| <img src="assets/do-not-localize/icon_config.svg" width="60px"> | Det här steget måste utföras av en administratör som har [administrationsrättigheter](../../administration/using/users-management.md#functional-administrators). | Konfigurera en händelse med namnet&quot;Avsluta kundvagn&quot; och publicera händelsekonfigurationen. | Det API som kommer att användas av webbplatsutvecklaren distribueras och ett transaktionsmeddelande skapas automatiskt. |
 
 Skapa och publicera en händelse presenteras i [Konfigurera en transaktionshändelse](../../channels/using/configuring-transactional-event.md) och [Publicera en transaktionshändelse](../../channels/using/publishing-transactional-event.md) -avsnitt.
 
@@ -103,9 +99,9 @@ Skapa och publicera en händelse presenteras i [Konfigurera en transaktionshänd
 
 <!--<img src="assets/do-not-localize/icon_notification.svg" width="40px">-->
 
-| Användare | Åtgärd | Resultat |
-|--- |--- |--- |
-| Detta steg kan utföras av en marknadsföringsanvändare som innehar [administrationsrättigheter](../../administration/using/users-management.md#functional-administrators). | Redigera och anpassa transaktionsmeddelandet, testa det och publicera det sedan. | Transaktionsmeddelandet är sedan klart att skickas. |
+| Redigera meddelandet | Användare | Åtgärd | Resultat |
+| --- |--- |--- |--- |
+| <img src="assets/do-not-localize/icon_notification.svg" width="40px"> | Detta steg kan utföras av en marknadsföringsanvändare som innehar [administrationsrättigheter](../../administration/using/users-management.md#functional-administrators). | Redigera och anpassa transaktionsmeddelandet, testa det och publicera det sedan. | Transaktionsmeddelandet är sedan klart att skickas. |
 
 Mer information om hur du redigerar och publicerar ett transaktionsmeddelande finns i [Redigera transaktionsmeddelanden](../../channels/using/editing-transactional-message.md) och [Livscykel för transaktionsmeddelande](../../channels/using/publishing-transactional-message.md).
 
@@ -113,13 +109,11 @@ Mer information om hur du redigerar och publicerar ett transaktionsmeddelande fi
 
 <!--<img src="assets/do-not-localize/icon_api.svg" width="55px">-->
 
-<!--**Event triggering integration**-->
-
-| Användare | Åtgärd | Resultat |
-|--- |--- |--- |
-| Det här steget utförs av utvecklaren av din webbplats. | Använd REST Transactional Messages API för att integrera händelsen på din webbplats. | Händelsen utlöses när en kund överger sin kundvagn. |
-
 När du har skapat en händelse måste du integrera den som utlöser händelsen på webbplatsen.<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.--> För att göra detta måste webbutvecklaren använda **Adobe Campaign Standard REST API**.
+
+| Implementera utlösaren | Användare | Åtgärd | Resultat |
+| --- |--- |--- |--- |
+| <img src="assets/do-not-localize/icon_api.svg" width="55px"> | Det här steget utförs av utvecklaren av din webbplats. | Använd REST Transactional Messages API för att integrera händelsen på din webbplats. | Händelsen utlöses när en kund överger sin kundvagn. |
 
 Mer information om hur du använder Campaign REST API för att hantera transaktionsmeddelanden finns i [REST API-dokumentation](../../api/using/managing-transactional-messages.md).
 
@@ -127,9 +121,11 @@ Mer information om hur du använder Campaign REST API för att hantera transakti
 
 <!--<img src="assets/do-not-localize/icon_channels.svg" width="60px">-->
 
-När alla dessa steg har utförts kan meddelandet levereras.
+När alla steg ovan har utförts kan meddelandet levereras.
 
-Så snart en användare lämnar webbplatsen utan att beställa produkterna i kundvagnen utlöses motsvarande Campaign-händelse. Användaren får automatiskt ett e-postmeddelande.
+| Skicka meddelandet | Användare | Åtgärd | Resultat |
+| --- |--- |--- |--- |
+| <img src="assets/do-not-localize/icon_channels.svg" width="60px"> | Det här steget utförs av kunder som besöker din webbplats. | Så snart en användare lämnar webbplatsen utan att beställa produkterna i kundvagnen utlöses motsvarande Campaign-händelse. | Användaren får automatiskt ett e-postmeddelande. |
 
 ## Relaterade ämnen
 

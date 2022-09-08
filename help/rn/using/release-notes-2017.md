@@ -6,20 +6,14 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
+source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
 workflow-type: tm+mt
-source-wordcount: '4613'
+source-wordcount: '4569'
 ht-degree: 8%
 
 ---
 
 # Versionsinformation för 2017{#release-notes}
-
-Söker du en specifik version av Adobe Campaign Standard 2017?
-
-Varje release innehåller nya funktioner och patchar. Klicka på en release för att visa dess innehåll.
-
-Se de senaste [dokumentuppdateringar](../../rn/using/documentation-updates.md) för Adobe Campaign Standard. Om du letar efter en nyare version kan du läsa detta [page](../../rn/using/release-notes.md).
 
 ## Version 17.10 – oktober 2017 {#release-17-10---october-2017}
 
