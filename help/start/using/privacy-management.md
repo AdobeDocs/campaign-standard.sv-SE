@@ -8,9 +8,9 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
-workflow-type: tm+mt
-source-wordcount: '963'
+source-git-commit: ede4bd97ffddca4a5e24f1e4114d50ca5140a01d
+workflow-type: ht
+source-wordcount: '827'
 ht-degree: 100%
 
 ---
@@ -68,7 +68,7 @@ För att underlätta beredskapen gällande din integritet kan du hantera förfr�
 
 * **Rätten att glömmas** (förfrågan om borttagning), även känd som Radering av data, ger den registrerade rätt att låta den personuppgiftsansvarige radera sina personuppgifter, upphöra med ytterligare spridning av uppgifterna och eventuellt få tredje part att stoppa behandlingen av uppgifterna.
 
-Se [implementeringsstegen](../../start/using/privacy-requests.md#about-privacy-requests) för att läsa om hur du kan skapa förfrågningar om **åtkomst** och **borttagning** och hur Adobe Campaign bearbetar dem.
+Se [implementeringsstegen](../../start/using/privacy-requests.md#about-privacy-requests) för att läsa om hur du kan skapa förfrågningar om **åtkomst** och **radering** och hur Adobe Campaign bearbetar dem.
 
 Självstudiekurser om integritetshantering i Campaign Standard finns också [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=sv#privacy).
 
@@ -81,7 +81,7 @@ Självstudiekurser om integritetshantering i Campaign Standard finns också [hä
 Förutom de senaste funktionerna gällande **åtkomsträttigheter** och **rätt att glömmas** erbjuder Adobe Campaign andra viktiga funktioner som är viktiga för integritet:
 
 * [Medgivandehantering](#consent-management): prenumerationsfunktioner för hantering av preferenser
-* [Datalagring](#data-retention): datalagringsperioder för alla standardiserade loggtabeller. Ytterligare datalagringsperioder kan ställas in med arbetsflöden
+* [Datalagring](../../administration/using/data-retention.md): datalagringsperioder för alla standardiserade loggtabeller. Ytterligare datalagringsperioder kan ställas in med arbetsflöden
 * [Hantering av rättigheter](#rights-management): dataåtkomst hanterad utifrån namngiven rättighet
 
 ### Medgivandehantering {#consent-management}
@@ -95,27 +95,6 @@ Funktionerna som hjälper till att hantera vissa aspekter av medgivandet har var
 Mer information om hantering av medgivande finns i [Om prenumerationer](../../audiences/using/about-subscriptions.md) och [Kom igång med landningssidor](../../channels/using/getting-started-with-landing-pages.md).
 
 Förutom de verktyg för medgivandehantering som tillhandahålls av Adobe Campaign har du möjligheten att spåra om en konsument har avanmält sig till försäljning av personuppgifter. Se [det här avsnittet](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
-
-### Datalagring {#data-retention}
-
-När det gäller lagring har inbyggda loggtabeller i Campaign förinställda lagringsperioder vilket generellt begränsar datalagringen till sex månader eller mindre.
-
-Följande är standardvärden gällande lagring för inbyggda tabeller. Var medveten om att lagringskonfigurationen ställs in av Adobes tekniska administratörer under implementeringen och att värdena kan variera för varje implementering baserat på kundens krav.
-
-* **Konsoliderad spårning**: 6 månader
-* **Leveransloggar**: 6 månader
-* **Spårningsloggar**: 6 månader
-* **Händelser**: 1 månad
-* **Statistik för händelsebearbetning**: 6 månader
-* **Arkiverade händelser**: 6 månader
-* **Tillfälliga enheter**: 7 dagar
-* **Ignorerade pipeline-händelser**: 1 månad
-* **Leveransmeddelanden**: 1 månad
-* **Exportgranskning**: 6 månader
-
-Och på samma sätt som att ta bort kan man med standardiserad arbetsflödesfunktionalitet ställa in lagringsperioder för alla anpassade tabeller.
-
-Kontakta Adobes konsulter eller teknikadministratörer för att veta mer om lagring eller om ni behöver ställa in lagring för anpassade tabeller.
 
 ### Right Management {#rights-management}
 
