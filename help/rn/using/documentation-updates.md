@@ -5,16 +5,23 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 9000b7737e8579aa2389d517d83fde958d8945fe
+source-git-commit: 5814bf107a252793911cd34c0dceed35ce58bf69
 workflow-type: tm+mt
-source-wordcount: '7221'
-ht-degree: 100%
+source-wordcount: '7251'
+ht-degree: 99%
 
 ---
 
 # Dokumentationsuppdateringar{#documentation-updates}
 
 Förutom [versionsinformationen](../../rn/using/release-notes.md) för Adobe Campaign listas alla nya uppdateringar i dokumentationen för Adobe Campaign Standard på den här sidan.
+
+## Version 22.3 - hösten 2022 {#release-22-3}
+
+Versionsinformation för Campaign Standard 2.3 höst-/vinterversion har publicerats. [Läs mer](release-notes.md)
+
+Datalagringsperioderna har uppdaterats för att återspegla ändringar som kommer i version 2.3. [Läs mer](../../administration/using/data-retention.md)
+
 
 ## Version 22.2 – juni 2022 {#release-22-2}
 
