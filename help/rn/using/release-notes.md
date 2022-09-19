@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: bba1461acf0db47fd2eefca30f5e759c503a6dc7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '116'
-ht-degree: 29%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 29%
 ![Kontrollpanelen](assets/do-not-localize/cp-icon.png) **Ny version av Kontrollpanelen**. [Läs mer](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=sv){target=&quot;_blank&quot;}.
 
 
-## Version 22.3 - hösten 2022 {#sept-22}
+## Version 22.3 – höst/vinter 2022 {#sept-22}
 
 ### Säkerhetsuppdatering{#rn-security}
 
