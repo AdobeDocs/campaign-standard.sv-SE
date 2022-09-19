@@ -8,22 +8,22 @@ hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: 20a59e064afeb93a2a6260439b09790692971071
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '130'
-ht-degree: 26%
+ht-degree: 100%
 
 ---
 
 
 # Tidig versionsinformation {#e-new-release}
 
-Den här sidan beskriver de förbättringar och korrigeringar som ingår i nästa Campaign Standard.
+Den här sidan beskriver förbättringar och korrigeringar som ingår i nästa version av Campaign Standard.
 
 >[!CAUTION]
 >
 > Innehållet kan ändras utan föregående meddelande fram till uppgraderingsdatumet för mellanlagringsmiljöerna. Läs mer på [sidan för versionsplanering](../../rn/using/release-planning.md).
 
-## Version 22.3 - hösten 2022 {#e-rn-2022}
+## Version 22.3 – höst/vinter 2022 {#e-rn-2022}
 
 <!--
 ### Improvement{#e-rn-improvements}
