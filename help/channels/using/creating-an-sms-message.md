@@ -9,9 +9,9 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: add823f51b0907628ed52cb2f4453743bc939cbf
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '518'
 ht-degree: 96%
 
 ---
@@ -43,9 +43,9 @@ Om du vill skapa och skicka SMS-meddelanden till en mobiltelefon behöver du:
 
 1. Ange de allmänna egenskaperna för SMS:et.
 
-   ![](assets/sms_creation_2.png)
+   {{$include /help/_includes/channel-activities-name-id-fields.md}}
 
-   Både aktivitetsetikett och ID visas i gränssnittet men är inte synliga för meddelandemottagarna.
+   ![](assets/sms_creation_2.png)
 
 1. Ange målgruppen. Du kan välja en befintlig målgrupp eller rikta dig direkt mot en population genom att definiera och kombinera regler.
 

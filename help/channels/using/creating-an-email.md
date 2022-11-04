@@ -8,9 +8,9 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: add823f51b0907628ed52cb2f4453743bc939cbf
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '531'
 ht-degree: 17%
 
 ---
@@ -31,7 +31,9 @@ Du kan skapa ett e-postmeddelande från en [kampanj](../../start/using/marketing
    >
    >Uppföljnings- och A/B-testmallar är dolda som standard. Markera rutorna till vänster ( **[!UICONTROL Filter]** sidopanel) om du vill visa dem.
 
-1. Ange de allmänna egenskaperna för e-postmeddelandet. Du kan ange ett namn i dialogrutan **Etikett** och redigera ID:t. Både aktivitetsnamnet och dess ID visas i gränssnittet, men de är inte synliga för meddelandemottagarna.
+1. Ange de allmänna egenskaperna för e-postmeddelandet. Du kan ange ett namn i dialogrutan **Etikett** och redigera ID:t.
+
+   {{$include /help/_includes/channel-activities-name-id-fields.md}}
 
    Du kan lägga till en beskrivning som användaren kan se i kampanjinnehållet.
 

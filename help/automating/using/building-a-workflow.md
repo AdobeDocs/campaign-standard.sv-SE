@@ -9,9 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: add823f51b0907628ed52cb2f4453743bc939cbf
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '964'
 ht-degree: 96%
 
 ---
@@ -56,7 +56,7 @@ Avsnittet [Skapa marknadsföringsaktiviteter](../../start/using/marketing-activi
 
    ![](assets/workflow_creation_2.png)
 
-   Du kan ange ett namn i fältet **Etikett** och ändra ID:t. Aktivitetsnamnet och dess ID visas i gränssnittet, men de meddelandemottagarna kan inte se dem.
+   Du kan ange ett namn i fältet **Etikett** och ändra ID:t.
 
    >[!NOTE]
    >

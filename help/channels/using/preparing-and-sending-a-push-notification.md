@@ -9,7 +9,7 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 41b83014-aea9-4ec2-b20e-c0a05bcad503
-source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
+source-git-commit: add823f51b0907628ed52cb2f4453743bc939cbf
 workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 9%
@@ -45,6 +45,8 @@ Stegen för att skapa ett push-meddelande med Adobe Campaign är:
 1. Ange dina egenskaper för push-meddelanden och välj din mobilapp i **[!UICONTROL Associate a Mobile App to a delivery]** fält.
 
    Observera att listrutan kommer att visa både SDK V4- och Experience Platform SDK-program.
+
+   {{$include /help/_includes/channel-activities-name-id-fields.md}}
 
    ![](assets/push_notif_properties.png)
 
