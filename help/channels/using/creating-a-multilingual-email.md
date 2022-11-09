@@ -8,7 +8,7 @@ feature: Email
 role: User
 level: Intermediate
 exl-id: fcf192cb-f2d5-4340-bc2f-add0c195ad4e
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 24%
@@ -28,6 +28,7 @@ Publiken baseras på profiler med en färdig språkinfo.
    ![](assets/multi_create1.png)
 
 1. Definiera de allmänna egenskaperna och målgruppen för e-postmeddelandet, precis som för ett vanligt e-postmeddelande. Se avsnittet [Skapa målgrupper](../../audiences/using/creating-audiences.md).
+
 1. I det fjärde steget i guiden för att skapa definierar du variantalternativen. Om [flerspråkig mall](../../channels/using/multilingual-messages-template.md) innehåller redan rätt parametrar kan du klicka direkt på **[!UICONTROL Create]** -knappen.
 
    ![](assets/multi_create4.png)

@@ -9,10 +9,10 @@ feature: Direct Mail
 role: User
 level: Intermediate
 exl-id: 3e94c872-bf44-4d4c-b6eb-7731021c7931
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 95%
+source-wordcount: '636'
+ht-degree: 88%
 
 ---
 
@@ -35,6 +35,12 @@ Processen för att skapa ett direktmeddelande är väldigt lik processen för at
 1. Ange de allmänna egenskaperna för leveransen.
 
    ![](assets/direct_mail_3.png)
+
+   >[!NOTE]
+   >
+   >Både aktivitetsnamnet och dess ID visas i gränssnittet, men de är inte synliga för meddelandemottagarna.
+   >
+   >Se till att ID-fältet inte innehåller något tomt utrymme för att undvika diskrepanser, till exempel vid integrering med Adobe Analytics.
 
 1. Definiera målgruppen som du vill inkludera i extraktionsfilen samt test- och svällningsprofilerna. Se [Definiera målgrupp för direktmeddelanden](../../channels/using/defining-the-direct-mail-audience.md).
 

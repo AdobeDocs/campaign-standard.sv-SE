@@ -8,10 +8,10 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
-source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
+source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 17%
+source-wordcount: '574'
+ht-degree: 16%
 
 ---
 
@@ -31,7 +31,13 @@ Du kan skapa ett e-postmeddelande från en [kampanj](../../start/using/marketing
    >
    >Uppföljnings- och A/B-testmallar är dolda som standard. Markera rutorna till vänster ( **[!UICONTROL Filter]** sidopanel) om du vill visa dem.
 
-1. Ange de allmänna egenskaperna för e-postmeddelandet. Du kan ange ett namn i dialogrutan **Etikett** och redigera ID:t. Både aktivitetsnamnet och dess ID visas i gränssnittet, men de är inte synliga för meddelandemottagarna.
+1. Ange de allmänna egenskaperna för e-postmeddelandet. Du kan ange ett namn i dialogrutan **Etikett** och redigera ID:t.
+
+   >[!NOTE]
+   >
+   >Både aktivitetsnamnet och dess ID visas i gränssnittet, men de är inte synliga för meddelandemottagarna.
+   >
+   >Se till att ID-fältet inte innehåller något tomt utrymme för att undvika diskrepanser, till exempel vid integrering med Adobe Analytics.
 
    Du kan lägga till en beskrivning som användaren kan se i kampanjinnehållet.
 

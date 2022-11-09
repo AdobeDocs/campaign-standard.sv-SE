@@ -9,10 +9,10 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
-source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
+source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 96%
+source-wordcount: '561'
+ht-degree: 88%
 
 ---
 
@@ -45,7 +45,11 @@ Om du vill skapa och skicka SMS-meddelanden till en mobiltelefon behöver du:
 
    ![](assets/sms_creation_2.png)
 
-   Både aktivitetsetikett och ID visas i gränssnittet men är inte synliga för meddelandemottagarna.
+   >[!NOTE]
+   >
+   >Både aktivitetsnamnet och dess ID visas i gränssnittet, men de är inte synliga för meddelandemottagarna.
+   >
+   >Se till att ID-fältet inte innehåller något tomt utrymme för att undvika diskrepanser, till exempel vid integrering med Adobe Analytics.
 
 1. Ange målgruppen. Du kan välja en befintlig målgrupp eller rikta dig direkt mot en population genom att definiera och kombinera regler.
 
