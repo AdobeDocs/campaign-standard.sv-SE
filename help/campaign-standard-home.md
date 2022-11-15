@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: bba1461acf0db47fd2eefca30f5e759c503a6dc7
-workflow-type: ht
-source-wordcount: '254'
+source-git-commit: 7a5d317fb1ebef91a72da73aec387fa671ccf19a
+workflow-type: tm+mt
+source-wordcount: '232'
 ht-degree: 100%
 
 ---
@@ -19,9 +19,7 @@ ht-degree: 100%
 
 ## Nyheter
 
-* **[Versionsinformation för Campaign 22.3 finns live](rn/using/release-notes.md)**<br/> Upptäck nya funktioner, förbättringar och korrigeringar som kommer med versionen Campaign Standard 22.2
-
-* **[Vanliga frågor och svar om integritetsskydd i Apple Mail ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html?lang=sv)**<br/> Hitta inledande vägledning som svar på Apples meddelande om iOS 15
+* **[Versionsinformation för Campaign 22.3 finns live](rn/using/release-notes.md)**<br/> Upptäck nya funktioner, förbättringar och korrigeringar som kommer med versionen Campaign Standard 22.3
 
 * **[Campaign – RTCDP-integrering](integrating/using/get-started-sources-destinations.md)**<br/> Läs om hur du delar data mellan Campaign och kunddataplattformen i realtid (RTCDP)
 
