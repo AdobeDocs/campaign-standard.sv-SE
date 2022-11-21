@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: ccf73563-f0f8-4397-ba96-7c5727562acd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 88035d0e4f77d66e8b2a74650857bf4ef45744c3
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 86%
+source-wordcount: '438'
+ht-degree: 79%
 
 ---
 
@@ -73,6 +73,12 @@ Det sätt som data extraheras på definieras när aktiviteten konfigureras.
 1. Klicka på **[!UICONTROL File structure]**-fliken för att konfigurera utmatningsdata, datum och tal för filen som ska exporteras.
 
    Markera alternativet **[!UICONTROL Export labels instead of internal values of enumerations]** om du vill exportera uppräkningsvärden.  Med det här alternativet kan motta kortare etiketter som är enkla att förstå i stället för ID:n.
+
+   ![](assets/extract-file-file-structure.png)
+
+   >[!NOTE]
+   >
+   >Om du vill extrahera data till en CSV-fil med en viss kodning väljer du först utdataformatet &quot;Text&quot;. Välj önskad kodning i listrutan och ändra sedan utdataformatet till &quot;CSV (Excel)&quot;.
 
 1. I **[!UICONTROL Properties]**-fliken så väljer du **[!UICONTROL Do not generate a file if the inbound transition is empty]**-alternativet för att undvika att skapa och överföra tomma filer på SFTP-servrar om den inkommande övergången är tom.
 1. Bekräfta aktivitetens konfiguration och spara arbetsflödet.

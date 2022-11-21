@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
+source-git-commit: 88035d0e4f77d66e8b2a74650857bf4ef45744c3
 workflow-type: tm+mt
-source-wordcount: '7270'
-ht-degree: 100%
+source-wordcount: '7293'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +19,8 @@ Förutom [versionsinformationen](../../rn/using/release-notes.md) för Adobe Cam
 ## November 2022 {#doc-updates-november-2022}
 
 En anteckning har lagts till med en rekommendation om att undvika blanksteg i ID-fältet för leveranser. [Läs mer](../../channels/using/creating-an-email.md)
+
+Information har lagts till i **[!UICONTROL Extract file]** sida för arbetsflödesaktivitet vidare för att extrahera data till en CSV-fil med en viss kodning. [Läs mer](../../automating/using/extract-file.md)
 
 ## Version 22.3 – höst/vinter 2022 {#release-22-3}
 
