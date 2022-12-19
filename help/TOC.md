@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Hjälpcenter för de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som behövs för att använda Campaign Standard.
 title: Användarhandbok för Campaign Standard
 breadcrumb-title: Dokumentation om Adobe Campaign Standard
-source-git-commit: 1d1869a6c503773f4aaecb6a77f1b72585c88865
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: e9d0add383410681dfee43c5a67d37455bc31373
+workflow-type: tm+mt
+source-wordcount: '1814'
 ht-degree: 100%
 
 ---
@@ -163,7 +163,7 @@ ht-degree: 100%
       + [Förhandsgranska leveranser](sending/using/previewing-messages.md)
       + [Skicka bevis](sending/using/sending-proofs.md)
       + [Testa e-postmeddelanden med målprofiler](sending/using/testing-messages-using-target.md)
-      + [AI-baserade e-postmeddelanden](sending/using/predictive.md)
+      + [Funktioner för förutsägande användarengagemang](sending/using/predictive.md)
       + [E-poståtergivning](sending/using/email-rendering.md)
       + [Lägga till en kontrollgrupp](sending/using/control-group.md)
       + [Använda spam-samlare](sending/using/using-traps.md)
