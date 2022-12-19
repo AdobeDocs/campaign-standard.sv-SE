@@ -8,7 +8,7 @@ feature: Send Time Optimization
 role: User
 level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
-source-git-commit: e9d0add383410681dfee43c5a67d37455bc31373
+source-git-commit: 16801092547f41dd94f12e4dbe9c9afe0b550a36
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 56%
@@ -20,6 +20,7 @@ ht-degree: 56%
 Med Campaign kan du optimera designen och leveransen av kundresor för att förutse varje enskild individs engagemang. Med hjälp av AI och maskininlärning kan Adobe Campaign Scoring (Send-Time Optimization) och Predictive Engagement Scoring analysera och förutse öppningsfrekvenser, optimala sändningstider och sannolika bortfall baserat på historiska interaktionsvärden.
 
 >[!IMPORTANT]
+>
 >Den här funktionen är inte tillgänglig som en del av produkten. För implementering krävs att Adobe Consulting används. Kontakta din Adobe-representant för mer information.
 
 Adobe Campaign erbjuder två nya Machine Learning-modeller: **Prediktiv optimering av sändningstid** och **Poängberäkning för prediktiv engagemang**. Dessa två modeller är maskininlärningsmodeller som är specifika för att designa och leverera bättre kundresor.
@@ -35,6 +36,7 @@ Med prediktiv optimering av sändningstid förutspås vilken som är den bästa 
 I modellen Predictive Send-Time Optimization finns det två undermodeller:
 
 * **Förutsägbar sändningstid för att öppnas är den bästa tidpunkt då ett meddelande ska skickas till kunden för att maximera chansen att det öppnas**
+
 * **Förutsägbar sändningstid för att klickas på är den bästa tidpunkt då ett meddelande ska skickas till kunden för att maximera chansen att kunden klickar**
 
 **Indata från modellen**: leveransloggar, spårningsloggar och profilattribut (ej PII)
@@ -77,6 +79,7 @@ Som standard ger profilpoängen den bästa tiden på dagen för varje veckodag o
 ### Skicka meddelanden vid den bästa tidpunkten{#use-predictive-send-time}
 
 För att e-postmeddelandena ska skickas ut vid den optimala tidpunkten per profil måste leveransen schemaläggas med alternativet **[!UICONTROL Send at a custom date defined by a formula]**.
+
 Läs mer [i det här avsnittet](../../sending/using/computing-the-sending-date.md) om hur du beräknar sändningsdatumet.
 
 Formeln måste fyllas i med den angivna bästa tiden för den aktuella dagen när leveransen ska skickas.
@@ -86,7 +89,7 @@ Formeln måste fyllas i med den angivna bästa tiden för den aktuella dagen nä
 Exempel på formel:
 
 ```
-AddHours([currentDelivery/scheduling/@contactDate], 
+AddHours([currentDelivery/scheduling/@contactDate],
 [cusSendTimeScoreByClickprofile_link/@EMAIL_BEST_TIME_TO_CLICK_WEDNESDAY])
 ```
 
