@@ -8,10 +8,10 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: 827df9f6-070c-466a-890c-e363de6b129b
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: e26d0d78126a7795f3341d4f07ee380605d83c77
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 87%
+source-wordcount: '393'
+ht-degree: 83%
 
 ---
 
@@ -50,6 +50,10 @@ Om du exempelvis vill skapa en ny profil direkt i användargränssnittet följer
    * Kontaktinformationen som exempelvis förnamn, efternamn, kön, födelsedatum, foto, föredraget språk (för [flerspråkiga e-postmeddelanden](../../channels/using/creating-a-multilingual-email.md)) hjälper till att bättre personalisera leveranser.
    * Profilens **[!UICONTROL Time zone]** används för att skicka leveranser i profilens tidszon.  Mer information om detta hittar du i det här [avsnittet](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
    * I kategorin **[!UICONTROL Channels]** som innehåller e-postadress, mobiltelefonnummer och avanmälningsinformation kan du se via vilken kanal profilen kan nås.
+
+      >[!NOTE]
+      > Mobiltelefonnummer måste alltid vara i internationellt format (`+<country><number>`) i profiltabellen.
+
    * Kategorin uppdateras så snart som **[!UICONTROL No longer contact]** profilen avprenumererar från en kanal.
    * Kategorin innehåller **[!UICONTROL Address]** den postadress som måste fyllas i tillsammans med **[!UICONTROL Address specified]** alternativet att skicka [direktmeddelanden](../../channels/using/about-direct-mail.md) till den här profilen.  Om alternativ **[!UICONTROL Address specified]** inte är markerat utesluts den här profilen från alla direktmeddelanden.
    * The **[!UICONTROL Access authorization]** kategori anger profilens organisationsenheter till [hantera behörigheter](../../administration/using/about-access-management.md). Om du vill lägga till fält för organisation i dina profiler, se avsnittet [Partitionsprofiler](../../administration/using/organizational-units.md#partitioning-profiles) .
