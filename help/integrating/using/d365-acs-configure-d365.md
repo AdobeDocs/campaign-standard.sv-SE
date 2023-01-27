@@ -8,9 +8,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8b450d6570ae26a32daab185621319dd1ac3e983
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '913'
 ht-degree: 1%
 
 ---
@@ -43,20 +43,18 @@ Följ stegen nedan för att generera OAuth-åtkomsttoken.
 
 ### Registrera ett nytt program {#register-a-new-app}
 
-1. Under administratörsinloggningen loggar du in på portal.azure.com.
+1. Under administratörsinloggningen loggar du in på [portal.azure.com](https://portal.azure.com){target="_blank"}.
 
 1. Klicka på **[!UICONTROL Azure Active Directory]** på den vänstra menyn, sedan klicka **[!UICONTROL App registrations]** på undermenyn som visas.
 
 1. Klicka **[!UICONTROL New registration]** längst upp på skärmen.
-
-   ![](assets/do-not-localize/MSdynACSIntegration-7.png)
 
 1. Fyll i appregistreringsskärmen:
 
    * Namn: adobe campaign `<stage or prod>`
    * Kontotyp som stöds: **[!UICONTROL Accounts in this organizational directory only]** (standardvärde)
 
-Mer information om hur du skapar ett nytt program finns i [det här avsnittet](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app).
+Mer information om hur du skapar ett nytt program finns i [det här avsnittet](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app){target="_blank"}.
 
 >[!NOTE]
 >
@@ -65,8 +63,6 @@ Mer information om hur du skapar ett nytt program finns i [det här avsnittet](h
 ### Generera klienthemlighet {#generate-a-client-secret}
 
 1. På översiktsskärmen för programmet klickar du på **[!UICONTROL Certificates and Secrets > New client secret]**
-
-   ![](assets/do-not-localize/MSdynACSIntegration-8.png)
 
 1. Ange en beskrivning, ange varaktighet och klicka **[!UICONTROL OK]**.
 
@@ -81,13 +77,9 @@ Din klienthemlighet har skapats. Behåll värdet tillfälligt för att slutföra
 
 1. På den här skärmen eller i programöversikten klickar du på **[!UICONTROL API permissions]** i undermenyn till vänster.  Efter klickning **[!UICONTROL Add a permission]** måste du välja **[!UICONTROL Dynamics CRM]** på menyn.
 
-   ![](assets/do-not-localize/MSdynACSIntegration-9.png)
-
 1. Markera sedan kryssrutan för **[!UICONTROL user_impersonation]** och klickar på **[!UICONTROL Add permissions]** -knappen.
 
-   ![](assets/do-not-localize/MSdynACSIntegration-10.png)
-
-Mer information om behörighetsinställningar finns i [det här avsnittet](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-configure-app-access-web-apis#add-permissions-to-access-web-apis).
+Mer information om behörighetsinställningar finns i [det här avsnittet](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-configure-app-access-web-apis#add-permissions-to-access-web-apis){target="_blank"}.
 
 ### Skapa appanvändaren
 
@@ -109,7 +101,7 @@ Den nya användaren är en allmän användare. Det kommer att användas av progr
    * **[!UICONTROL Full Name]**: Adobe API `<stage or prod>`
    * **[!UICONTROL Email]**: samma som **[!UICONTROL User Name]** (eller administratörens e-postadress om du vill)
 
-   Mer information om hur du skapar appanvändare finns i [det här avsnittet](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
+   Mer information om hur du skapar appanvändare finns i [det här avsnittet](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user){target="_blank"}.
 
 1. Klicka på användarikonen och ladda upp en Adobe Campaign-ikon; det här är ikonen som visas i tidslinjevyn när nya Adobe-händelser visas i Dynamics 365.
 
@@ -128,7 +120,8 @@ Följ instruktionerna [på den här sidan](https://docs.microsoft.com/en-us/oned
 Följ stegen nedan för att integrera appen Dynamics 365 i din Campaign Standard-miljö:
 
 1. Navigera till följande länk: [https://appsource.microsoft.com/en-us/marketplace/apps](https://appsource.microsoft.com/en-us/marketplace/apps) och söka efter _Adobe Campaign för Dynamics 365_ i sökfältet.
-Du kan även navigera till detta [link](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&amp;tab=Overview).
+Du kan även navigera till detta [link](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&amp;tab=Overview)
+{target="_blank"}.
 1. Följ instruktionerna för att installera appen för din Dynamics 365-instans.
 1. Navigera till din Dynamics 365-instans och logga in som administratör när du har installerat den.
 1. Klicka på kugghjulsikonen i det övre högra hörnet och klicka på **[!UICONTROL Advanced Settings]**. I den övre banderollen klickar du på listrutan bredvid **[!UICONTROL Settings]**, klicka på **[!UICONTROL Processes]** under **[!UICONTROL Process Center]**.
