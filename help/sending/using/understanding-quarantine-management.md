@@ -8,10 +8,10 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 7243a97bdc8f0b6ecba42b606d048a3fbd322a63
 workflow-type: tm+mt
-source-wordcount: '1268'
-ht-degree: 30%
+source-wordcount: '1365'
+ht-degree: 25%
 
 ---
 
@@ -77,7 +77,7 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
 >[!NOTE]
 >
->Ökningen av antalet karantän är en normal effekt som har samband med databasens slitage. Om en e-postadress till exempel anses ha en livslängd på tre år och mottagartabellen ökar med 50 % varje år så kan ökningen av antalet karantän beräknas enligt följande: Slutet av år 1: (1*0.33)/(1+0.5)=22 %.    Slutet av år 2: ((1,22*0,33)+0,33)/(1,5+0,75)=32,5 %.
+>Ökningen av antalet karantän är en normal effekt som har samband med databasens slitage. Om en e-postadress till exempel anses ha en livslängd på tre år och mottagartabellen ökar med 50 % varje år, kan ökningen av antalet karantän beräknas enligt följande: Slutet av år 1: (1&#42;0,33)/(1+0.5)=22 %. Slutet av år 2: (1.22)&#42;0,33)+0,33)/(1,5+0,75)=32,5 %.
 
 Det finns filter som hjälper dig att bläddra igenom listan. Du kan filtrera efter adress, status och/eller kanal.
 
@@ -97,24 +97,14 @@ Definiera adressen (eller telefonnumret osv.) och kanaltyp. Du kan ange en statu
 
 ![](assets/quarantines-create-last-delivery.png)
 
-### Ta bort en adress i karantän {#removing-a-quarantined-address}
+## Ta bort en adress från karantän {#removing-a-quarantined-address}
 
-Om det behövs kan du ta bort en adress manuellt från karantänlistan. Dessutom tas adresser som matchar specifika villkor automatiskt bort från karantänlistan av **[!UICONTROL Database cleanup]** arbetsflöde. (Mer information om tekniska arbetsflöden finns i [det här avsnittet](../../administration/using/technical-workflows.md#list-of-technical-workflows).)
 
-Om du vill ta bort en adress manuellt från karantänlistan utför du någon av åtgärderna nedan.
 
->[!IMPORTANT]
-Om du tar bort en e-postadress manuellt från karantänen börjar du leverera till den här adressen igen. Detta kan få allvarliga konsekvenser för din leveransförmåga och IP-anseende, vilket i slutänden kan leda till att din IP-adress eller sändande domän blockeras. Fortsätt med extra försiktighet när du överväger att ta bort en adress från karantän. Om du är osäker kan du kontakta en expert på slutprodukter.
 
-* Välj adressen i **[!UICONTROL Administration > Channels > Quarantines > Addresses]** lista och markera **[!UICONTROL Delete element]**.
+### Automatiska uppdateringar {#unquarantine-auto}
 
-   ![](assets/quarantine-delete-address.png)
-
-* Markera en adress och ändra dess **[!UICONTROL Status]** till **[!UICONTROL Valid]**.
-
-   ![](assets/quarantine-valid-status.png)
-
-   Du kan också ändra dess status till **[!UICONTROL On allowlist]**. I det här fallet finns adressen kvar på karantänlistan, men den kommer att riktas systematiskt, även om ett fel inträffar.
+Adresser som matchar specifika villkor tas automatiskt bort från karantänlistan i arbetsflödet för databasrensning. Läs mer om tekniska arbetsflöden i [det här avsnittet](../../administration/using/technical-workflows.md#list-of-technical-workflows).
 
 Adresserna tas automatiskt bort från karantänlistan i följande fall:
 
@@ -124,10 +114,43 @@ Adresserna tas automatiskt bort från karantänlistan i följande fall:
 
 Status ändras sedan till **[!UICONTROL Valid]**.
 
->[!IMPORTANT]
-Mottagare med en adress i en **[!UICONTROL Quarantine]** eller **[!UICONTROL On denylist]** status tas aldrig bort automatiskt, även om de får ett e-postmeddelande.
-
 Högsta antal återförsök som ska utföras om **[!UICONTROL Erroneous]** status och minsta fördröjning mellan återförsök baseras nu på hur bra en IP-adress fungerar både historiskt och för närvarande på en viss domän.
+
+
+>[!IMPORTANT]
+>
+>Mottagare med en adress i en **[!UICONTROL Quarantine]** eller **[!UICONTROL Denylisted]** status tas aldrig bort, även om de får ett e-postmeddelande.
+
+
+### Manuella uppdateringar {#unquarantine-manual}
+
+Du kan också ta bort karantänen för en adress manuellt.  Om du vill ta bort en adress från karantänlistan manuellt kan du ta bort den från karantänlistan eller ändra dess status till **[!UICONTROL Valid]**.
+
+* Välj adressen i **[!UICONTROL Administration > Channels > Quarantines > Addresses]** lista och markera **[!UICONTROL Delete element]**.
+
+   ![](assets/quarantine-delete-address.png)
+
+* Markera en adress och ändra dess **[!UICONTROL Status]** till **[!UICONTROL Valid]**.
+
+   ![](assets/quarantine-valid-status.png)
+
+
+### Massuppdateringar {#unquarantine-bulk}
+
+Du kan behöva göra satsvisa uppdateringar i karantänlistan, t.ex. om en Internet-leverantör är i ett driftstopp. I så fall markeras e-postmeddelanden felaktigt som studsar eftersom de inte kan levereras till mottagaren. Dessa adresser måste tas bort från karantänlistan.
+
+Skapa ett arbetsflöde och lägg till en **[!UICONTROL Query]** aktivitet i karantäntabellen för att filtrera bort alla påverkade mottagare. När de har identifierats kan de tas bort från karantänlistan och inkluderas i framtida e-postleveranser för kampanjer.
+
+Baserat på tidsramen för incidenten rekommenderas följande riktlinjer för frågan.
+
+* **Feltext (karantäntext)** innehåller &quot;550-5.1.1&quot; AND **Feltext (karantäntext)** innehåller &quot;support.ISP.com&quot;
+
+   där &quot;support.ISP.com&quot; kan vara: &quot;support.apple.com&quot; eller &quot;support.google.com&quot;, till exempel
+
+* **Uppdateringsstatus (@lastModified)** på eller efter MM/DD/ÅÅÅÅ HH:MM:SS AM
+* **Uppdateringsstatus (@lastModified)** på eller före MM/DD/ÅÅÅÅ HH:MM:SS PM
+
+När du har en lista över mottagare som påverkas lägger du till en **[!UICONTROL Update data]** aktivitet för att ange e-postadressstatus till **[!UICONTROL Valid]** så att de tas bort från karantänlistan av **[!UICONTROL Database cleanup]** arbetsflöde. Du kan även ta bort dem från karantäntabellen.
 
 ## Villkor för att skicka en adress till karantän {#conditions-for-sending-an-address-to-quarantine}
 
@@ -145,7 +168,8 @@ Adobe Campaign hanterar karantäner utifrån typ av leveransfel och orsaken som 
 Om en användare kvalificerar ett e-postmeddelande som skräppost ([feedback-slinga](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops)) dirigeras meddelandet automatiskt om till en teknisk brevlåda som hanteras av Adobe. Användarens e-postadress skickas sedan automatiskt till karantänen med status **[!UICONTROL On denylist]**.    Den här statusen avser endast adressen, profilen finns inte på blockeringslista, så att användaren fortsätter att ta emot SMS-meddelanden och push-meddelanden.
 
 >[!NOTE]
-Karantänen i Adobe Campaign är skiftlägeskänslig.    Se till att importera e-postadresser med små bokstäver så att inte e-postadresserna fortsätter att ta emot meddelanden.
+>
+>Karantänen i Adobe Campaign är skiftlägeskänslig.    Se till att importera e-postadresser med små bokstäver så att inte e-postadresserna fortsätter att ta emot meddelanden.
 
 I listan med adresser i karantän (se [Identifiera adresser i karantän för hela plattformen](#identifying-quarantined-addresses-for-the-entire-platform)) så visar fältet **[!UICONTROL Error reason]** varför den valda adressen placerades i karantän.
 
