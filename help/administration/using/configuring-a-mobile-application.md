@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 884cd5e9c09aa85e744ca06b202eb46f73a33a76
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1260'
 ht-degree: 4%
 
 ---
@@ -50,9 +50,7 @@ I det här steget kan användaren logga in på användargränssnittet för datai
 
 1. I användargränssnittet för datainsamling klickar du på **[!UICONTROL Extensions]** flik, gå till **[!UICONTROL Catalog]** och sök efter **[!UICONTROL Adobe Campaign Standard]** tillägg. Mer information finns i [Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 
-1. Om du vill ha stöd för platsanvändningsfall i Campaign Standard installerar du **[!UICONTROL Places]** och **[!UICONTROL Places Monitor]** tillägg.
-   * Installera **[!UICONTROL Places]** i användargränssnittet för datainsamling. Se detta [page](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
-   * Installera **[!UICONTROL Places Monitor]** i användargränssnittet för datainsamling. Se detta [page](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html)
+1. Om du vill ha stöd för platsanvändningsfall i Campaign Standard installerar du **[!UICONTROL Places]** i användargränssnittet för datainsamling. Se detta [page](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
 
 1. Konfigurera den mobila egenskap som du skapade i användargränssnittet för datainsamling i Adobe Campaign Standard. Se [Konfigurera ditt Adobe Experience Platform Launch-program i Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
