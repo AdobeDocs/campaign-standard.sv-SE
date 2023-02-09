@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: bfa34136950218d2fd56870247d39be00c725427
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '7279'
+source-wordcount: '7229'
 ht-degree: 100%
 
 ---
@@ -422,7 +422,7 @@ Integrering av Microsoft Dynamics 365 (GA) - [Läs mer](../../integrating/using/
 
 **Andra dokumentationsuppdateringar som medföljer utgåvan**
 
-Listan med felmeddelanden i Adobe Campaign har uppdaterats. [Läs mer](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Listan med felmeddelanden i Adobe Campaign har uppdaterats. [Läs mer](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=sv)
 
 Starthandboken GDPR har förbättrats och berikats. Det finns nu en dokumentation om sekretesshantering som inkluderar GDPR och CCPA. [Läs mer](https://helpx.adobe.com/se/campaign/kb/campaign-privacy.html)
 
@@ -504,7 +504,7 @@ Ett nytt avsnitt om rekommenderade uppdateringar i e-postskaparen har lagts till
 
 Ett nytt avsnitt om bästa praxis för arbetsflödet har lagts till. [Läs mer](../../automating/using/best-practices-workflows.md)
 
-Listan med felmeddelanden för Campaign Standard och Classic har uppdaterats. [Läs mer](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Listan med felmeddelanden för Campaign Standard och Classic har uppdaterats. [Läs mer](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=sv)
 
 En varning har lagts till i dokumentationen för anpassade resurser. Vi rekommenderar att du använder högst 30 tecken för anpassade resurs-ID:n. Detta gäller även anpassade resursfält, nycklar, index och länkar. [Läs mer](../../developing/using/creating-or-extending-the-resource.md)
 
@@ -516,7 +516,7 @@ Ett användningsexempel har lagts till om hur du anropar en profil med hjälp av
 
 En rekommendation har lagts till om användning av återkommande leveranser utan aggregeringsperiod när ett arbetsflöde med parametrar anropas. [Läs mer](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-Listan med felmeddelanden för Campaign Standard och Classic har uppdaterats. [Läs mer](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Listan med felmeddelanden för Campaign Standard och Classic har uppdaterats. [Läs mer](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=sv)
 
 En varning har lagts till i dokumentationen för anpassade resurser. Vi rekommenderar att du använder högst 30 tecken för anpassade resurs-ID:n. Detta gäller även anpassade resursfält, nycklar, index och länkar. [Läs mer](../../developing/using/creating-or-extending-the-resource.md)
 
@@ -624,7 +624,7 @@ En ny teknik har lagts till om hur du visar en bild i ett push-meddelande från 
 
 En ny teknik för push-spårning har lagts till. [Läs mer](../../administration/using/push-tracking.md)
 
-Listan med felmeddelanden för Campaign Standard och Classic har uppdaterats. [Läs mer](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Listan med felmeddelanden för Campaign Standard och Classic har uppdaterats. [Läs mer](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=sv)
 
 Dokumentationen för integrering av Campaign har uppdaterats. [Läs mer](../../integrating/using/about-adobe-experience-cloud-triggers.md)
 
@@ -748,7 +748,7 @@ Ett avsnitt som rör **anpassade filter** har lagts till i API-dokumentationen. 
 
 **Nya funktioner i utgåvan**
 
-GDPR: Integrering av bastjänst - [läs mer](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=sv)
+GDPR: Integrering av bastjänst - [läs mer](../../start/using/privacy-management.md)
 
 Förbättrade push-funktioner - detaljerad feedback vid leverans - [Läs mer](../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification)
 
@@ -782,7 +782,7 @@ Vissa sidor i dokumentationen för innehållsredigeraren har sammanfogats för a
 
 **Nya funktioner i denna version**
 
-EU:s allmänna dataskyddsförordning (GDPR) - [Läs mer](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=sv)
+EU:s allmänna dataskyddsförordning (GDPR) - [Läs mer](../../start/using/privacy.md)
 
 Creative Designer för e-post - [läs mer](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -822,7 +822,7 @@ Berikningsaktivitet - berika data baserat på tidigare övergångar - [Läs mer]
 
 De flesta länkar för integreringar med Campaign och Adobe-lösningar har ändrats! Kolla dina bokmärken [Läs mer](../../integrating/using/get-started-campaign-integrations.md)
 
-Datamodell v1 är nu tillgänglig med SQL-strukturen för inbyggda resurser - [Läs mer](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/datamodel/datamodel-audience.html?lang=sv)
+Datamodell v1 är nu tillgänglig med SQL-strukturen för inbyggda resurser - [Läs mer](../../developing/using/datamodel-introduction.md)
 
 Tillagd information om hur du förbereder ett meddelande vid en leverans [Läs mer](../../sending/using/preparing-the-send.md)
 
@@ -950,7 +950,7 @@ Dokumentation har lagts till i rapporten för aktiva profiler. [Läs mer](../../
 
 Dokumentationen för [leveransvarningar](../../sending/using/receiving-alerts-when-failures-happen.md#delivery-alerting-reasons) har uppdaterats med ett felsökningsavsnitt som innehåller tips om vilka åtgärder du kan vidta när du får varningar.
 
-Det finns en ny guide för att komma igång. Den innehåller bästa praxis som kan användas för att leverera med Adobe Campaign. Från att skapa och målinrikta till att skicka och övervaka. [Läs mer](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/delivery-best-practices.html?lang=sv)
+Det finns en ny guide för att komma igång. Den innehåller bästa praxis som kan användas för att leverera med Adobe Campaign. Från att skapa och målinrikta till att skicka och övervaka. [Läs mer](../../sending/using/delivery-best-practices.md)
 
 Dokumentationen för uppföljningsmeddelanden har uppdaterats med ett förbättrat användningsexempel. [Läs mer](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)
 

@@ -8,10 +8,10 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1239'
+ht-degree: 88%
 
 ---
 
@@ -119,7 +119,7 @@ Vi rekommenderar att du tillämpar följande principer för att kunna använda e
 
 * Referensmeta-taggen stöds inte i e-postdesignern.
 
-Mer information om design och bästa praxis angående meddelanden finns i följande steg-för-steg-guide om Adobe Campaign: [följ bästa praxis med Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/delivery-best-practices.html?lang=sv).
+Mer information om design och bästa praxis angående meddelanden finns i följande steg-för-steg-guide om Adobe Campaign: [följ bästa praxis med Adobe Campaign](../../sending/using/delivery-best-practices.md).
 
 ### Uppdaterar fragment {#email-designer-updates}
 

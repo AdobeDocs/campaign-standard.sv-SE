@@ -6,9 +6,9 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '4569'
+source-wordcount: '4562'
 ht-degree: 8%
 
 ---
@@ -392,7 +392,7 @@ _Push-meddelanden_
   </tr> 
   <tr> 
    <td> Dreamweaver-integrering (Labs)<br /> </td> 
-   <td> Tack vare integreringen med Adobe Campaign och Dreamweaver har ni nu en integrerad process för att skapa e-postkampanjer med Adobe-lösningar.<br /> Du kan redigera Adobe Campaign-e-post i Dreamweaver och synkronisera innehållet sömlöst mellan båda lösningarna.<br /> I den första versionen finns integreringen som en"Labs"-funktion och fungerar endast med betaversionen av Dreamweaver Pre Release. Om du vill aktivera den kan du kontakta AC-DW-integration@adobe.com.<br /> Mer information finns i <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">video</a>.<br /> </td> 
+   <td> Tack vare integreringen med Adobe Campaign och Dreamweaver har ni nu en integrerad process för att skapa e-postkampanjer med Adobe-lösningar.<br /> Du kan redigera Adobe Campaign-e-post i Dreamweaver och synkronisera innehållet sömlöst mellan båda lösningarna.<br /> I den första versionen finns integreringen som en"Labs"-funktion och fungerar endast med betaversionen av Dreamweaver Pre Release. Om du vill aktivera den kan du kontakta AC-DW-integration@adobe.com.<br /> Mer information finns i <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=sv">video</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Manuell optimering av sändningstid<br /> </td> 
@@ -489,9 +489,9 @@ _Arbetsflöden_
   </tr> 
   <tr> 
    <td> Transactional Messaging API<br /> </td> 
-   <td> API:t för transaktionsmeddelanden är nu tillgängligt via <a href="https://docs.campaign.adobe.com/doc/standard/en/adobeio.html">adobe.io</a>, vilket gör det enklare att använda och övervaka:<br /> 
+   <td> API:t för transaktionsmeddelanden är nu tillgängligt, vilket gör det enklare att använda och övervaka:<br /> 
     <ul> 
-     <li> Du kan dra nytta av funktionerna för rapportering och övervakning i adobe.io-plattformen. </li> 
+     <li> Du kan dra nytta av Adobe Developer plattformsrapportering och övervakningsfunktioner. </li> 
      <li> Autentisering utförs nu med tokenbaserad autentisering för adobe.io i stället för IP-tillåtelselistning, vilket förenklar säkerhetsprocessen. </li> 
      <li> Alla API:er är nu integrerade på en enda plattform, vilket gör det enklare än någonsin att lägga till funktioner för transaktionsmeddelanden i integreringen om du redan har stöd för profil- och Services-API:t. </li> 
     </ul> </td> 

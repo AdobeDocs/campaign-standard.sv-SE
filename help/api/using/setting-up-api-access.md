@@ -8,23 +8,23 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '369'
 ht-degree: 1%
 
 ---
 
 # Konfigurera API-åtkomst {#setting-up-api-access}
 
-Adobe Campaign Standard API-åtkomst konfigureras enligt stegen nedan. Varje steg beskrivs i [Adobe IO-dokumentation](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
+Adobe Campaign Standard API-åtkomst konfigureras enligt stegen nedan. Varje steg beskrivs i [Adobe Developer-dokumentation](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
 
 >[!IMPORTANT]
 >
->Kontrollera att du har <b>Systemadministratör</b> rättigheter till organisationen eller [utvecklarkonto](https://helpx.adobe.com/enterprise/using/manage-developers.html)</a> i Admin Console.
+>Hantera certifikat i [Adobe Developer](https://developer.adobe.com/), kontrollera att du har **Systemadministratör** rättigheter till organisationen eller [utvecklarkonto](https://helpx.adobe.com/enterprise/using/manage-developers.html) i Admin Console.
 
 1. **Kontrollera att du har ett digitalt certifikat** eller skapa en vid behov. De offentliga och privata nycklarna som tillhandahålls med certifikatet behövs i följande steg.
-1. **Skapa en ny integrering av Adobe Campaign Service** i Adobe IO och konfigurera det. Dina autentiseringsuppgifter genereras sedan (API-nyckel, klienthemlighet...).
+1. **Skapa en ny integrering av Adobe Campaign Service** in [Adobe Developer](https://developer.adobe.com/) och konfigurera det. Dina autentiseringsuppgifter genereras sedan (API-nyckel, klienthemlighet...).
 1. **Skapa en JSON-webbtoken (JWT)** från de inloggningsuppgifter som tidigare genererats och signera med din privata nyckel. JWT kodar all identitets- och säkerhetsinformation som Adobe behöver för att verifiera din identitet och ge dig åtkomst till API:t.
 1. **Byt ut din JWT mot en åtkomsttoken** via en POST. Denna Access Token måste användas i varje rubrik för dina API-begäranden.
 
@@ -43,7 +43,7 @@ Om du vill skapa en säker Adobe I/O-till-tjänst-API-session måste alla förfr
    * &lt;organization> : din produktionsinstans,
    * &lt;organization-mkt-stage>: din sceninstans.
 
-   Kontakta din administratör eller din Adobe tekniska kontakt för att få ditt organisations-ID-värde. Du kan även hämta den till Adobe I/O när du skapar en ny integrering i licenslistan (se <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Adobe IO-dokumentation</a>).
+   Kontakta din administratör eller din Adobe tekniska kontakt för att få ditt organisations-ID-värde. Du kan även hämta den till Adobe I/O när du skapar en ny integrering i licenslistan (se <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Adobe Developer-dokumentation</a>).
 
 * **&lt;access_token>**: Din personliga åtkomsttoken, som hämtades när din JSON-webbtoken byttes ut via en POST.
 
