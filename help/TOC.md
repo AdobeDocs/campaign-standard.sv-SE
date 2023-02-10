@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: Hjälpcenter för de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som behövs för att använda Campaign Standard.
 title: Användarhandbok för Campaign Standard
 breadcrumb-title: Dokumentation om Adobe Campaign Standard
-source-git-commit: 7243a97bdc8f0b6ecba42b606d048a3fbd322a63
+source-git-commit: f81b8a3b076a6e29b697f21ea4d99fa7d5b6788c
 workflow-type: tm+mt
-source-wordcount: '1822'
-ht-degree: 99%
+source-wordcount: '1814'
+ht-degree: 100%
 
 ---
 
@@ -182,7 +182,6 @@ ht-degree: 99%
       + [Få aviseringar när fel uppstår](sending/using/receiving-alerts-when-failures-happen.md)
       + [Förstå leveransfel](sending/using/understanding-delivery-failures.md)
       + [Förstå karantänshantering](sending/using/understanding-quarantine-management.md)
-      + [Uppdatera felaktiga fasta studsar efter avbrott i Italia Online](sending/using/update-bounce-it.md)
    + Hantera levererbarhet {#managing-deliverability}
       + [Om levererbarhet](sending/using/about-deliverability.md)
       + [Kontrollera e-postinnehåll](sending/using/control-email-content.md)
