@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7229'
 ht-degree: 100%
 
@@ -416,7 +416,7 @@ Den nya API-slutpunkten **/customResources** har lagts till i API-dokumentatione
 
 **Nya funktioner i denna version**
 
-California Consumer Privacy Act (CCPA) - [Läs mer](https://helpx.adobe.com/se/campaign/kb/acs-privacy.html#ccpa)
+California Consumer Privacy Act (CCPA) - [Läs mer](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=sv#privacy-requests)
 
 Integrering av Microsoft Dynamics 365 (GA) - [Läs mer](../../integrating/using/d365-acs-get-started.md)
 
@@ -424,7 +424,7 @@ Integrering av Microsoft Dynamics 365 (GA) - [Läs mer](../../integrating/using/
 
 Listan med felmeddelanden i Adobe Campaign har uppdaterats. [Läs mer](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=sv)
 
-Starthandboken GDPR har förbättrats och berikats. Det finns nu en dokumentation om sekretesshantering som inkluderar GDPR och CCPA. [Läs mer](https://helpx.adobe.com/se/campaign/kb/campaign-privacy.html)
+Starthandboken GDPR har förbättrats och berikats. Det finns nu en dokumentation om sekretesshantering som inkluderar GDPR och CCPA. [Läs mer](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=sv)
 
 Ett nytt diagram som presenterar processen för transaktionsmeddelanden har lagts till. [Läs mer](../../channels/using/publishing-transactional-message.md#transactional-messaging-pub-process)
 
@@ -798,7 +798,7 @@ Information har lagts till om hur du ställer in landningssidor för att ge dina
 
 Avsnittet [Konfigurera transaktionsmeddelanden](../../channels/using/configuring-transactional-event.md) har omstrukturerats och ett [steg för steg-användningsexempel](../../channels/using/transactional-messaging-use-case.md) har lagts till.
 
-En ny teknik har lagts till för att lära dig hur du skapar en flerspråkig CSV-fil som kan användas för push-meddelanden. [Läs mer](https://helpx.adobe.com/se/campaign/kb/acs-generate-csv-multilingual-push.html).
+En ny teknik har lagts till för att lära dig hur du skapar en flerspråkig CSV-fil som kan användas för push-meddelanden. [Läs mer](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/push-notifications/generating-csv-multilingual-push.html?lang=sv).
 
 Lagt till information om importmallen **Uppdatera direktmeddelandekarantän och leveransloggar** . [Läs mer](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)
 
@@ -912,7 +912,7 @@ Uppdaterade och klargjorde [tekniken](https://helpx.adobe.com/se/campaign/kb/int
 
 Teknisk anteckning har lagts till som förklarar strukturen för den nyttolast som tas emot i en mobilapp. [Läs mer.](../../administration/using/push-payload.md)
 
-Konfigurations[avsnittet](https://helpx.adobe.com/se/campaign/kb/configuring-app-sdkv4.html) för push-kanaler har uppdaterats med ny nyttolastdata i OS-versionen som ska läggas till när återanslag definieras i gränssnittet för Adobe Mobile Services.
+Konfigurations[avsnittet](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html?lang=sv) för push-kanaler har uppdaterats med ny nyttolastdata i OS-versionen som ska läggas till när återanslag definieras i gränssnittet för Adobe Mobile Services.
 
 SMS-dokumentationen har uppdaterats med ett förtydligande i avsnittet [SMS-automatiska svar](../../channels/using/managing-incoming-sms.md#managing-stop-sms) .
 
@@ -1008,7 +1008,7 @@ Guiden &quot;Leveranser&quot; har ordnats om och namnet &quot;Kanaler&quot; har 
 
 Många skärmbilder har uppdaterats för att återspegla gränssnittsändringar.
 
-Nu finns en ny teknik: &quot;Integrera Adobe Mobile SDK med mobilappen&quot;. [Läs mer](https://helpx.adobe.com/se/campaign/kb/integrate-mobile-sdk.html)
+Nu finns en ny teknik: &quot;Integrera Adobe Mobile SDK med mobilappen&quot;. [Läs mer](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/supported-mobile-use-cases.html?lang=sv)
 
 Instruktioner för att konfigurera People core service eller Audience Manager integration med Adobe Campaign har lagts till. [Läs mer](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
