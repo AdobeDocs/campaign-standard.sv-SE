@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: e56c8398b48409bca664054007c642d0ce7e344f
 workflow-type: tm+mt
-source-wordcount: '1565'
-ht-degree: 90%
+source-wordcount: '1591'
+ht-degree: 89%
 
 ---
 
@@ -20,6 +20,10 @@ Om du vill skicka SMS-meddelanden måste ett eller flera externa konton konfigur
 Stegen för att skapa och ändra ett externt konto finns i avsnittet [Externa konton](../../administration/using/external-accounts.md).  Nedan hittar du specifika parametrar för externa konton för att skicka SMS-meddelanden.
 
 ## Definiera en SMS-dirigering {#defining-an-sms-routing}
+
+>[!IMPORTANT]
+>
+>Om du använder samma konto och lösenord för flera externa SMS-konton kan det leda till konflikter och överlappning mellan kontona. Se [Felsökningssida för SMS](troubleshooting-sms#external-account-conflict).
 
 Det externa kontot **[!UICONTROL SMS routing via SMPP]** anges som standard. Det kan dock vara användbart att lägga till andra konton.
 
