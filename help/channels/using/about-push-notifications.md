@@ -9,10 +9,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '1238'
-ht-degree: 41%
+source-wordcount: '1239'
+ht-degree: 40%
 
 ---
 
@@ -64,7 +64,7 @@ Innan du skickar ett push-meddelanden bör du:
 
 1. Kontrollera att din användare har de behörigheter som krävs i Adobe Campaign Standard och taggar i Adobe Experience Platform.
 
-1. Skapa en mobil egenskap i användargränssnittet för datainsamling. Mer information finns i [Konfigurera en mobil egenskap](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property).
+1. Skapa en mobil egenskap i användargränssnittet för datainsamling. Mer information finns i [Konfigurera en mobil egenskap](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/).
 
 1. I användargränssnittet för datainsamling installerar du **[!UICONTROL Adobe Campaign Standard]** tillägg.
 
@@ -87,7 +87,7 @@ Läs resurserna nedan:
 
 ### Vad måste jag göra för att få en push-token i Campaign? {#push-token-acquisition}
 
-Se till att provisioneringsteamet har slutfört etableringen av push-kanalen i Adobe Campaign Standard. Implementera setPushIdentifier API från SDK. Se denna [sida](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#set-up-push-messaging) för mer information om detta.
+Se till att provisioneringsteamet har slutfört etableringen av push-kanalen i Adobe Campaign Standard. Implementera setPushIdentifier API från SDK. Se denna [sida](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#set-up-push-messaging) för mer information om detta.
 
 ### När jag har Push-token och ECID i Campaign, vad mer behöver jag skicka ett push-meddelande? {#sending-push}
 
@@ -144,7 +144,7 @@ Mobilappsutvecklare måste hantera stödet för mediefiler i appen. Ibland kan n
 Följ stegen nedan:
 
 * Konfigurera ett återanslående. Instruktioner finns [här](../../administration/using/configuring-a-mobile-application.md).
-* Implementera trackAction API från Mobile Core. Se detta [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) för mer information.
+* Implementera trackAction API från Mobile Core. Se detta [page](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/) för mer information.
 
 Mer detaljerade instruktioner finns i detta [page](../../administration/using/push-tracking.md).
 

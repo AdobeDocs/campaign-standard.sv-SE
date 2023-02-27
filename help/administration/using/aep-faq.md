@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 4%
+source-wordcount: '910'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ Mer information om Push eller In-App (Push) finns i följande vanliga frågor oc
 
 * [Vanliga frågor om push-meddelanden](../../channels/using/about-push-notifications.md#push-faq)
 * [Vanliga frågor i appen](../../channels/using/in-app-faq.md)
-* [Taggar i Adobe Experience Platform-synkronisering - frågor och svar](../../administration/using/syncwithlaunch-faq.md)
+* [Vanliga frågor och svar om taggar i Adobe Experience Platform-synkronisering](../../administration/using/syncwithlaunch-faq.md)
 
 ## Användbara resurser före start {#resource-mobile-property}
 
@@ -36,7 +36,7 @@ Mer information om Adobe Experience Platform SDK och integrering av Campaign Sta
 
 Ja, [!DNL Adobe Experience Platform SDK] kan integreras med både Adobe Campaign Standard och Adobe Campaign Classic. Du måste installera motsvarande **[!UICONTROL Extension]** via [!DNL Data Collection UI] för att aktivera integreringen.
 
-Se denna [sida](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) för mer information om detta.
+Mer information finns i [page]https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
 
 ## Vilka funktioner underlättar Adobe Experience Platform SDK-integreringen i Adobe Campaign? {#aep-capabilities}
 
@@ -65,16 +65,16 @@ För att göra detta, följ nedanstående steg:
 1. Konfigurera en **[!UICONTROL Mobile property]** in [!DNL Launch].
 1. Installera Adobe Campaign Standard-tillägget. Observera att Adobe Campaign Standard Extension också kräver **[!UICONTROL Mobile Core]**, **[!UICONTROL Profile]** och **[!UICONTROL Lifecycle]** tillägg som installeras som standard i [!DNL Launch].
    * Användare bör konfigurera timeout för session i **[!UICONTROL Mobile Core]** tillägg som påverkar frekvensen av livscykelhändelser.
-   * När tillägget har konfigurerats bör användarna lägga till lämpliga beroenden i mobilappen med Cocoapods för iOS och Gradle för Android. Följ instruktionerna [här](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
+   * När tillägget har konfigurerats bör användarna lägga till lämpliga beroenden i mobilappen med Cocoapods för iOS och Gradle för Android. Följ instruktionerna [här](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
    * Ta alltid de senaste versionerna av biblioteken.
-   * Registrera dig i mobilappen **[!UICONTROL Campaign]**, **[!UICONTROL UserProfile]**, **[!UICONTROL Identity]**, **[!UICONTROL Lifecycle]** och **[!UICONTROL Signal]** tillägg. Följ instruktionerna [här](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#register-the-campaign-standard-extension-with-mobile-core).
+   * Registrera dig i mobilappen **[!UICONTROL Campaign]**, **[!UICONTROL UserProfile]**, **[!UICONTROL Identity]**, **[!UICONTROL Lifecycle]** och **[!UICONTROL Signal]** tillägg. Följ instruktionerna [här](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#register-the-campaign-standard-extension-with-mobile-core).
    * När tilläggen har registrerats startar du ACPCore. För Android måste du se till att ställa in Application onCreate(). Följ de exakta instruktionerna i Mobile Install Instructions för din mobila egenskap i Launch.
-   * Du måste också följa SDK API:er. Implementera API:er för start och paus i livscykeln enligt beskrivningen [här](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-android) för Android och här för iOS.
+   * Du måste också följa SDK API:er. Implementera API:er för start och paus i livscykeln enligt beskrivningen [här](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/android) för Android och här för iOS.
 1. Konfigurera en **[!UICONTROL Mobile Property]** i Adobe Campaign Standard. Följ proceduren [här](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
 ## Vad måste jag göra för att berika en mobilprofil i Campaign? {#enrich-mobile-profile}
 
-Du måste konfigurera ett CollectPII-återanslående (se [page](../../administration/using/configuring-rules-launch.md#pii-postback)) och implementera CollectPII API från SDK (se [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)).
+Du måste konfigurera ett CollectPII-återanslående (se [page](../../administration/using/configuring-rules-launch.md#pii-postback)) och implementera CollectPII API från SDK (se [page](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference)).
 
 ## Hur ofta ska ett CollectPII-anrop utlösas? {#collect-pii}
 
@@ -96,9 +96,9 @@ Detta är ett känt problem och inträffar på grund av att token har gått ut. 
 
 Läs resurserna nedan:
 
-* Experience Platform SDK [dokumentation](https://aep-sdks.gitbook.io/docs/)
-* Komma igång med Launch &amp; Experience Platform SDK [dokumentation](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)
-* Uppgraderar till Experience Platform SDK [dokumentation](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep)
+* Experience Platform SDK [dokumentation](https://developer.adobe.com/client-sdks/documentation/)
+* Komma igång med Launch &amp; Experience Platform SDK [dokumentation](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/)
+* Uppgraderar till Experience Platform SDK [dokumentation](https://developer.adobe.com/client-sdks/documentation/upgrade-platform-sdks)
 * Github Experience Platform SDK [dokumentation](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
 
 ## Jag får felmeddelandet&quot;Du har inte skrivåtkomst vid leverans&quot; när du skapar en leverans med push-meddelanden. {#write-access-error}

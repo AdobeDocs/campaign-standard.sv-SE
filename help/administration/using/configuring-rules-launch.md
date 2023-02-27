@@ -1,5 +1,5 @@
 ---
-title: Konfigurera taggregler som stöder Adobe Campaign Standard användningsfall
+title: Konfigurera taggningsregler för att stödja användningsfall i Adobe Campaign Standard
 description: Lär dig hur du konfigurerar taggregler som stöder Adobe Campaign Standard användningsfall
 audience: channels
 content-type: reference
@@ -9,18 +9,18 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 0%
+source-wordcount: '999'
+ht-degree: 2%
 
 ---
 
-# Konfigurera taggregler som stöder Adobe Campaign Standard användningsfall {#configuring-rules-launch}
+# Konfigurera taggningsregler för att stödja användningsfall i Adobe Campaign Standard {#configuring-rules-launch}
 
 Skapa dataelement och regler för att skicka PII och andra data från mobilprogram till [!DNL Adobe Campaign Standard].
 
-För att säkerställa att alla konfigurationsändringar i användargränssnittet för datainsamling börjar gälla måste du publicera dessa ändringar. Mer information finns i [Publicering](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration).
+För att säkerställa att alla konfigurationsändringar i användargränssnittet för datainsamling börjar gälla måste du publicera dessa ändringar. Mer information finns i [Publicering](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration).
 
 Så här skapar du regler i användargränssnittet för datainsamling:
 
@@ -77,7 +77,7 @@ Du måste skapa regler för följande:
 
 >[!NOTE]
 >
->Om du vill skicka PII-information från en mobilapp till Adobe Campaign måste du implementera ett SDK API. Mer information finns på [CollectPII](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii).
+>Om du vill skicka PII-information från en mobilapp till Adobe Campaign måste du implementera ett SDK API. Mer information finns på [CollectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii).
 
 Skicka PII-data till [!DNL Adobe Campaign Standard]skapar du en regel i användargränssnittet för datainsamling:
 

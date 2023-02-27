@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
 source-wordcount: '1246'
-ht-degree: 84%
+ht-degree: 83%
 
 ---
 
@@ -21,7 +21,7 @@ Det finns tre typer av meddelanden i appen i Adobe Campaign:
 
 * **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**: Den här meddelandetypen gör att du kan ange Adobe Campaign-profiler (CRM-profiler) som prenumererar på ditt mobilprogram som mål. Den här meddelandetypen kan anpassas med alla tillgängliga profilattribut i Adobe Campaign, men kräver en säker handskakning mellan Mobile SDK och Campaigns meddelandetjänst i appen för att säkerställa att meddelanden med personlig och känslig information endast används av behöriga användare.
 
-   Om du vill hämta den här meddelandetypen på användarnas enheter måste Mobile SDK skicka länkningsfält som används för att ansluta en mobilprofil till en CRM-profil i Adobe Campaign. Mer information om SDK-API:er som krävs för att stödja appar finns på den här [sidan](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference).
+   Om du vill hämta den här meddelandetypen på användarnas enheter måste Mobile SDK skicka länkningsfält som används för att ansluta en mobilprofil till en CRM-profil i Adobe Campaign. Mer information om SDK-API:er som krävs för att stödja appar finns på den här [sidan](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/).
 
 * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**: Med den här meddelandetypen kan du skicka meddelanden till alla användare (nuvarande eller framtida) av ditt mobilprogram, även om de inte har en befintlig profil i Adobe Campaign. Anpassnign är därför inte möjligt när du anpassar meddelandena eftersom användarprofilen kanske inte ens finns i Adobe Campaign.
 * **[!UICONTROL Target users based on their Mobile profile (inApp)]**: Den här meddelandetypen gör att du kan rikta indig på alla kända eller anonyma användare av en mobilapp som har en mobilprofil i Adobe Campaign. Den här meddelandetypen kan endast anpassas med icke-personliga och icke-känsliga attribut och kräver ingen säker handskakning mellan Mobile SDK och Adobe Campaigns meddelandetjänst i appen.

@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 0101773d-b109-49a3-89d4-b4bb226d9ebd
-source-git-commit: 462ebaf8e8f1f056aa92118226ef77aea37b972b
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -34,7 +34,7 @@ Eftersom meddelanden i appen hämtas av SDK från Campaign vill vi ha en säker 
 * Meddelanden som har skapats med hjälp av profilmallen kan bara hanteras när användaren har loggat in i appen.
 * För att underlätta denna säkra handskakning bör utvecklare av mobilappar skicka ytterligare autentiseringsinformation med API:t setLinkageField. Observera att länkningsfältet är det som identifieras som länken mellan mobilprofilen och CRM-profilen när du utökar tabellen appSubscriberRcp.
 * De bör tömma In-App-meddelanden som lagras på enheten och resetLinkagefält när användaren loggar ut från appen med resetLinkageField. Detta säkerställer att om en annan användare loggar in i appen, så ser han/hon inte meddelandena som är avsedda för en tidigare användare.
-* Se [Mobile SDK API:er](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference) för att implementera säkerhetsmekanismen på klientsidan.
+* Se [Mobile SDK API:er](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/) för att implementera säkerhetsmekanismen på klientsidan.
 
 ## Vad måste jag göra för att aktivera rapportering i appen i Campaign? {#enable-inapp-reporting}
 

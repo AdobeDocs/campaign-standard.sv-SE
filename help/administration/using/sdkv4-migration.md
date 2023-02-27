@@ -6,7 +6,7 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: eb7a209e-069e-4068-966d-05344bd838c7
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 1%
@@ -55,7 +55,7 @@ Innan du migrerar bör du ta hänsyn till följande rekommendationer:
 * Innan du migrerar måste du kontrollera att du har tilldelats **[!UICONTROL Organizational unit]** av mobilprogrammet som du vill migrera och av Adobe Experience Platform-programmet som du använder för migrering.
 * Efter migreringen blir programmet ett Adobe Experience Platform SDK-program. Ändringarna länkas till motsvarande tagg **[!UICONTROL Mobile Property]**.
 
-1. Skapa ett nytt **[!UICONTROL Mobile property]** i användargränssnittet för datainsamling. Mer information finns i [dokumentation](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#create-a-mobile-property).
+1. Skapa ett nytt **[!UICONTROL Mobile property]** i användargränssnittet för datainsamling. Mer information finns i [dokumentation](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/).
 
 1. I Adobe Campaign Standard väljer du **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]** och öppna **[!UICONTROL syncWithLaunch]** arbetsflöde. Kontrollera om arbetsflödet har avslutats utan fel.
 

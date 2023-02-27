@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 884cd5e9c09aa85e744ca06b202eb46f73a33a76
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 4%
+source-wordcount: '1262'
+ht-degree: 3%
 
 ---
 
@@ -46,9 +46,9 @@ I det här steget kan användaren logga in på användargränssnittet för datai
 
    Om du vill utföra ytterligare åtgärder som att installera ett tillägg, publicera ett program, konfigurera miljöer och så vidare, måste du ange behörigheter i produktprofilen.
 
-1. Skapa en **[!UICONTROL Mobile property]**. Mer information finns i [Konfigurera en mobil egenskap](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property).
+1. Skapa en **[!UICONTROL Mobile property]**. Mer information finns i [Konfigurera en mobil egenskap](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property).
 
-1. I användargränssnittet för datainsamling klickar du på **[!UICONTROL Extensions]** flik, gå till **[!UICONTROL Catalog]** och sök efter **[!UICONTROL Adobe Campaign Standard]** tillägg. Mer information finns i [Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
+1. I användargränssnittet för datainsamling klickar du på **[!UICONTROL Extensions]** flik, gå till **[!UICONTROL Catalog]** och sök efter **[!UICONTROL Adobe Campaign Standard]** tillägg. Mer information finns i [Adobe Campaign Standard](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
 
 1. Om du vill ha stöd för platsanvändningsfall i Campaign Standard installerar du **[!UICONTROL Places]** i användargränssnittet för datainsamling. Se detta [page](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
 
@@ -121,7 +121,7 @@ dess **[!UICONTROL Property Status]** bör **[!UICONTROL Ready to configure]**.
 
 1. För att den här konfigurationen ska börja gälla måste ändringarna publiceras i användargränssnittet för datainsamling.
 
-   Mer information finns i [Publicera konfiguration](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-configuration).
+   Mer information finns i [Publicera konfiguration](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration)
 
 ## Kanalspecifik programkonfiguration i Adobe Campaign {#channel-specific-config}
 
@@ -163,7 +163,7 @@ Ditt mobilprogram kan nu användas i Campaign för push-meddelanden eller levera
 >
 >Det går inte att ångra borttagningen av programmet.
 
-Om du vill ta bort programmet följer du stegen i [Ta bort mobila egenskaper](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#deleting-mobile-properties-in-experience-platform-launch).
+Om du vill ta bort programmet följer du stegen i [Ta bort mobila egenskaper](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#deleting-mobile-properties-in-the-data-collection-ui).
 
 När programmet har tagits bort kontrollerar du i Adobe Campaign om programmets egenskapsstatus har uppdaterats korrekt till Borttaget vid start.
 

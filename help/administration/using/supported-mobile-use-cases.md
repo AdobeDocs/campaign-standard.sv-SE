@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 3cd8d756-a271-4e53-8ed0-984ce20298bc
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '947'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,9 @@ Adobe Campaign Standard har stöd för följande användningsområden:
 
 För att konfigurera dessa användningsfall behöver du följande tillägg:
 
-* **[!DNL Adobe Campaign Standard]** <br>Information om hur du installerar och konfigurerar Campaign Standarden finns i [Konfigurera tillägget Campaign Standard i användargränssnittet för datainsamling](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#configure-the-campaign-standard-extension-in-experience-platform-launch).
-* **[!DNL Mobile Core]**, som installeras automatiskt. <br>Mer information om tillägget Mobile Core finns i [Mobile Core](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core).
-* **[!DNL Profile]**, som installeras automatiskt. <br>Mer information om profiltillägget finns i [Profil](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/profile).
+* **[!DNL Adobe Campaign Standard]** <br>Information om hur du installerar och konfigurerar Campaign Standarden finns i [Konfigurera tillägget Campaign Standard i användargränssnittet för datainsamling](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#configure-the-campaign-standard-extension).
+* **[!DNL Mobile Core]**, som installeras automatiskt. <br>Mer information om tillägget Mobile Core finns i [Mobile Core](https://developer.adobe.com/client-sdks/documentation/mobile-core/).
+* **[!DNL Profile]**, som installeras automatiskt. <br>Mer information om profiltillägget finns i [Profil](https://developer.adobe.com/client-sdks/documentation/profile/).
 
 ## Registrera en mobilprofil i Campaign Standarden {#register-mobile-profile}
 
@@ -42,7 +42,7 @@ I iOS [!DNL Experience Platform APIs] krävs:
 * **[!UICONTROL Lifecycle Start]**, när appen startas och när appen finns i förgrunden.
 * **[!UICONTROL Lifecycle Pause]**, när programmet finns i bakgrunden.
 
-Mer information finns i [Livscykeltillägg i iOS](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-ios).
+Mer information finns i [Livscykeltillägg i iOS](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/ios/).
 
 Här följer ett exempel på implementering av det här användningsexemplet med iOS:
 
@@ -85,7 +85,7 @@ I Android har du följande [!DNL Experience Platform APIs] krävs:
 * **[!UICONTROL OnResume]**
 * **[!UICONTROL OnPause]**
 
-Mer information finns i [Livscykeltillägg i Android](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-android).
+Mer information finns i [Livscykeltillägg i Android](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/android/).
 
 Här följer ett exempel på implementering för det här användningsexemplet med Android:
 
@@ -112,7 +112,7 @@ public void onResume() {
 
 I iOS [!DNL Experience Platform SDK] krävs:
 
-* **[!UICONTROL setPushIdentifier]** <br>Mer information finns i [setPushIdentifier](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference#setpushidentifier).
+* **[!UICONTROL setPushIdentifier]** <br>Mer information finns i [setPushIdentifier](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/).
 
 Här följer exempelimplementeringen för det här användningsexemplet med iOS:
 
@@ -127,7 +127,7 @@ func application(_ application: UIApplication, didRegisterForRemoteNotifications
 
 I Android har du följande [!DNL Experience Platform SDK] krävs:
 
-* **[!UICONTROL setPushIdentifier]** <br>Mer information finns i [setPushIdentifier](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference#setpushidentifier).
+* **[!UICONTROL setPushIdentifier]** <br>Mer information finns i [setPushIdentifier](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/).
 
 Här följer exempelimplementeringen för det här användningsexemplet med Android:
 
@@ -187,7 +187,7 @@ I iOS [!DNL Experience Platform APIs] krävs:
 * **[!UICONTROL Lifecycle Start]**, när appen startas och när appen finns i förgrunden.
 * **[!UICONTROL Lifecycle Pause]**, när programmet finns i bakgrunden.
 
-Mer information finns i [Livscykeltillägg i iOS](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-ios).
+Mer information finns i [Livscykeltillägg i iOS](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/ios/).
 
 Här följer ett exempel på implementering av det här användningsexemplet med iOS:
 
@@ -230,7 +230,7 @@ I Android har du följande [!DNL Experience Platform APIs] krävs:
 * **[!UICONTROL OnResume]**
 * **[!UICONTROL OnPause]**
 
-Mer information finns i [Livscykeltillägg i Android](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-android).
+Mer information finns i [Livscykeltillägg i Android](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/android/).
 
 Här följer ett exempel på implementering för det här användningsexemplet med Android:
 
@@ -259,7 +259,7 @@ Du måste skapa regler för push-meddelanden som spårar återanslående. Mer in
 
 I iOS [!DNL Experience Platform SDK] krävs:
 
-* **[!UICONTROL trackAction]**. Mer information finns i [Spåra appåtgärder](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions).
+* **[!UICONTROL trackAction]**. Mer information finns i [Spåra appåtgärder](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
 
 Här följer ett exempel på implementering av det här användningsexemplet med iOS:
 
@@ -276,7 +276,7 @@ if (deliveryId != nil && broadlogId != nil) {
 I Android har du följande [!DNL Experience Platform SDK] krävs:
 
 * **[!UICONTROL trackAction]**
-Mer information finns i [Spåra appåtgärder](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions).
+Mer information finns i [Spåra appåtgärder](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
 
 Här följer ett exempel på implementering för det här användningsexemplet med Android:
 
@@ -293,7 +293,7 @@ MobileCore.trackAction("tracking", contextData);
 
 I iOS [!DNL Experience Platform SDK] krävs:
 
-* **[!UICONTROL trackAction]**. Mer information finns i [Spåra appåtgärder](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions).
+* **[!UICONTROL trackAction]**. Mer information finns i [Spåra appåtgärder](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
 
 Här följer ett exempel på implementering av det här användningsexemplet med iOS:
 
@@ -306,7 +306,7 @@ ACPCore.trackAction(mobileEventName, data: [:] )
 I Android har du följande [!DNL Experience Platform SDK] krävs:
 
 * **[!UICONTROL trackAction]**
-Mer information finns i [Spåra appåtgärder](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions).
+Mer information finns i [Spåra appåtgärder](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
 
 Här följer ett exempel på implementering för det här användningsexemplet med Android:
 
@@ -320,8 +320,8 @@ MobileCore.trackAction(mobileEventText, new HashMap<String,String>());
 
 Så här anger du länkningsfält för ytterligare autentisering för profilmallen som baseras på meddelanden i appen i iOS: [!DNL Experience Platform SDK] krävs:
 
-* Ange länkningsfält <br>Mer information finns i [Ange länkningsfält](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference#set-linkage-fields).
-* Återställ länkningsfält <br>Mer information finns i [Återställ länkningsfält](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference#reset-linkage-fields).
+* Ange länkningsfält <br>Mer information finns i [Ange länkningsfält](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#setlinkagefields).
+* Återställ länkningsfält <br>Mer information finns i [Återställ länkningsfält](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#setlinkagefields).
 
 Här är några exempel på implementeringar av det här användningsexemplet med iOS.
 
@@ -343,8 +343,8 @@ ACPCampaign.resetLinkageFields(linkageFields)
 
 Om du vill ange länkningsfält för ytterligare autentisering för profilmallen som är baserad på meddelanden i appen i Android, krävs följande Experience Platform SDK:
 
-* Ange länkningsfält <br>Mer information finns i [Ange länkningsfält](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference#set-linkage-fields).
-* Återställ länkningsfält <br>Mer information finns i [Återställ länkningsfält](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference#reset-linkage-fields).
+* Ange länkningsfält <br>Mer information finns i [Ange länkningsfält](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#setlinkagefields).
+* Återställ länkningsfält <br>Mer information finns i [Återställ länkningsfält](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#resetlinkagefields).
 
 Här är några exempel på implementeringar av det här användningsexemplet för Android.
 

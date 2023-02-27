@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: 5b5b3fc968c43be734677f7184b9957a8eb3684f
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 64%
+source-wordcount: '863'
+ht-degree: 63%
 
 ---
 
@@ -111,8 +111,8 @@ Det här avsnittet visar funktioner som har tagits bort från Campaign Standard.
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> Från och med Campaign 20.1 är SDK v4 föråldrat. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Läs mer</a>.</p><br/>
-   <p>The <a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a> (tidigare kallat v5) har nu exklusivt stöd för kommande Adobe Experience Cloud-funktioner.</p>
+   <td> <p> Från och med Campaign 20.1 är SDK v4 föråldrat. <a href="https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/">Läs mer</a>.</p><br/>
+   <p>The <a href="https://developer.adobe.com/client-sdks/documentation/">Adobe Experience Platform Mobile SDK</a> (tidigare kallat v5) har nu exklusivt stöd för kommande Adobe Experience Cloud-funktioner.</p>
    <p>Efter den 31 augusti 2021 kan kunder fortsätta att hämta och använda version 4 SDK:er, men det finns ingen kundtjänst eller tillgång till forum.</p>
    <p>Lär dig hur du migrerar från SDK v4 till Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">på den här sidan</a>.</p></br>
      </td> 
