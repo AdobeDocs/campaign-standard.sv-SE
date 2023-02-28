@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: ed2e3793-6164-48af-9043-42dc43fa8ed4
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: c2c8d2d05bbc376e2153448ca0a9e6ba0f367420
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 95%
+source-wordcount: '558'
+ht-degree: 78%
 
 ---
 
@@ -42,13 +42,10 @@ Aktiviteten används huvudsakligen för datahantering och kan innebära två sak
 
    Du kan exempelvis sedan spara en målgrupp, uppdatera databasen etc.
 
-**[!UICONTROL Reconciliation]**-aktiviteten kan exempelvis placeras efter en inläsning av dataaktivitet i syfte att importera icke-standardiserad data till databasen.  
+Till exempel **[!UICONTROL Reconciliation]** -aktiviteten kan placeras efter en inläsningsdataaktivitet för att importera icke-standarddata till databasen.
 
-**Relaterade ämnen:**
+Med **Berikning** kan du definiera ytterligare data som ska bearbetas i arbetsflödet (använda en **Berikning** aktivitet för att kombinera data från flera uppsättningar eller för att skapa länkar till en tillfällig resurs), **Avstämning** kan du länka oidentifierade data till befintliga resurser. Avstämningsåtgärden innebär att data för de länkade dimensionerna redan finns i databasen. Användningsexempel finns i [det här avsnittet](#use-cases-reconciliation).
 
-* [Användningsfall: Datavstämning med hjälp av relationer](../../automating/using/reconciliation-using-relations.md)
-* [Användningsfall: Datauppdatering med avstämning](../../automating/using/data-update-reconciliation.md)
-* [Användningsfall: Städa av en filpublik med databasen](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## Konfiguration {#configuration}
 
@@ -70,3 +67,12 @@ Aktiviteten används huvudsakligen för datahantering och kan innebära två sak
    * **[!UICONTROL Keep in the outbound population]**: all data från den inkommande övergången sparas i aktivitetens utgående övergång.
 
 1. Bekräfta aktivitetens konfiguration och spara arbetsflödet.
+
+
+## Användningsfall{#use-cases-reconciliation}
+
+Lär dig hur du använder den här aktiviteten i följande fall:
+
+* [Användningsfall: Datavstämning med hjälp av relationer](../../automating/using/reconciliation-using-relations.md)
+* [Användningsfall: Datauppdatering med avstämning](../../automating/using/data-update-reconciliation.md)
+* [Användningsfall: Städa av en filpublik med databasen](../../automating/using/reconcile-file-audience-with-database.md)
