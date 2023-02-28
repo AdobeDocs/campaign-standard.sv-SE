@@ -63,7 +63,7 @@ Om du vill integrera dataflöden från andra system med Adobe Campaign kan du ta
    <td> Adobe Analytics<br /> </td> 
    <td> Du kan spåra hur bra e-postleveransen är direkt i Adobe Analytics.<br /> </td> 
    <td> 
-    Video om att <a href="../../integrating/using/about-campaign-analytics-integration.md">dela data i Campaign med Analytics</a> och <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">dela KPI:er för integrerad rapportering</a> (steg 1)
+    Video om att <a href="../../integrating/using/about-campaign-analytics-integration.md">dela data i Campaign med Analytics</a> och <a href="https://helpx.adobe.com/se/marketing-cloud/how-to/email-marketing.html">dela KPI:er för integrerad rapportering</a> (steg 1)
     </td> 
   </tr> 
   <tr> 
@@ -90,7 +90,7 @@ Om du vill integrera dataflöden från andra system med Adobe Campaign kan du ta
    <td> Utlösare i Adobe Experience Cloud<br /> </td> 
    <td> Du kan skicka personaliserade e-postmeddelanden till dina kunder i Adobe Campaign som en reaktion på specifika beteenden som spåras på din webbplats med hjälp av Adobe Analytics.<br /> </td> 
    <td> 
-    Video om hur du <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">använder Experience Cloud-utlösare i Campaign Standard</a>, <a href="../../integrating/using/abandonment-triggers-use-cases.md">användningsfall med övergivande utlösare i Campaign</a> och <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">utlösare för meddelanden med återmarknadsföring baserat på webbplatsaktivitet</a> (steg 2)
+    Video om hur du <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">använder Experience Cloud-utlösare i Campaign Standard</a>, <a href="../../integrating/using/abandonment-triggers-use-cases.md">användningsfall med övergivande utlösare i Campaign</a> och <a href="https://helpx.adobe.com/se/marketing-cloud/how-to/email-marketing.html">utlösare för meddelanden med återmarknadsföring baserat på webbplatsaktivitet</a> (steg 2)
     </td> 
   </tr> 
     <tr> 

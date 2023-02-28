@@ -1,6 +1,6 @@
 ---
 title: Kom igång med dynamisk rapportering
-description: Analysera framgångarna med era kampanjer i inbyggda eller anpassade dynamiska rapporter.
+description: Analysera framgångarna med dina kampanjer i inbyggda eller anpassade dynamiska rapporter.
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 9ecb4ba6-c7a3-4b1f-ab73-5eb512ebb016
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '372'
+ht-degree: 19%
 
 ---
 

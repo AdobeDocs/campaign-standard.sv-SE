@@ -1,6 +1,6 @@
 ---
 title: Kom igång med datamodellen i Campaign Standard
-description: Förbättra Campaign Standardens datamodell med anpassade fält och resurser och utöka REST API:er för att visa utökade fält.
+description: Förbättra datamodellen i Campaign Standard med anpassade fält och resurser och utöka REST API:er för att visa utökade fält.
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management

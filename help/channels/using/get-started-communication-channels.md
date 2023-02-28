@@ -1,6 +1,6 @@
 ---
 title: Kom igång med kommunikationskanaler
-description: Skapa personaliserade meddelanden i olika kanaler, använd mallar, skapa landningssidor och kontrollera bästa praxis.
+description: Skapa personanpassade meddelanden i olika kanaler, använd mallar, skapa landningssidor och kontrollera bästa praxis.
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
