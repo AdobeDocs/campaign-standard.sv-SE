@@ -5,20 +5,20 @@ feature: Profiles
 role: User
 level: Intermediate
 exl-id: 22516348-7695-4579-99eb-480e5b723ccc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 0ae2501b5c3ecf6dc9562bb53b5354c52aff7323
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
 
 # Aktiva profiler{#active-profiles}
 
-Kampanjfunktionsadministratörer har tillgång till **[!UICONTROL Customer metrics]** rapport från **[!UICONTROL Administration > Customer metrics]**.
+Du kommer åt information om de aktiva profilerna via **[!UICONTROL Customer metrics]** rapport. Den här rapporten är endast tillgänglig för funktionsadministratörer för Campaign. Klicka på Adobe Campaign-ikonen längst upp till vänster i [användargränssnitt](../../start/using/interface-description.md#advanced-menu)och bläddra till **[!UICONTROL Administration > Customer metrics]**.
 
 ![](assets/audience_customer_metrics.png)
 
-Den här rapporten genereras varje månad av **[!UICONTROL Billing]** tekniskt arbetsflöde och visar antalet **aktiva profiler**.
+Den här rapporten genereras varje månad av **[!UICONTROL Billing]** tekniskt arbetsflöde och visar antalet **aktiva profiler**. Läs mer om tekniska arbetsflöden i [den här sidan](../../administration/using/technical-workflows.md).
 
 En &quot;profil&quot; är ett register över information som representerar en slutkund, potentiell kund eller lead. Profiler beaktas **aktiv** om de har varit inriktade på en kampanjleverans de senaste tolv månaderna via någon kanal.
 
