@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: Hjälpcenter för de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som behövs för att använda Campaign Standard.
 title: Användarhandbok för Campaign Standard
 breadcrumb-title: Dokumentation om Adobe Campaign Standard
-source-git-commit: f81b8a3b076a6e29b697f21ea4d99fa7d5b6788c
+source-git-commit: d7e0912dd7d19a1f5dd2172235f28a40e130cac1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1818'
+ht-degree: 99%
 
 ---
 
@@ -121,6 +121,7 @@ ht-degree: 0%
    + Transaktionsmeddelanden {#transactional-messaging}
       + [Komma igång med transaktionsmeddelanden](channels/using/getting-started-with-transactional-msg.md)
       + [God praxis och begränsningar](channels/using/transactional-messaging-limitations.md)
+      + [Behörighetsuppdateringar för transaktionsmeddelanden](channels/using/transactional-message-permission.md)
       + Händelsekonfiguration {#event-configuration}
          + [Konfigurera en transaktionshändelse](channels/using/configuring-transactional-event.md)
          + [Publicera en transaktionshändelse](channels/using/publishing-transactional-event.md)
