@@ -1,13 +1,27 @@
 ---
-source-git-commit: 48b6c5de8871e9e1f12c91474376abc53a199bc8
+title: Tidig versionsinformation
+description: Tidig versionsinformation
+feature: Overview
+role: User
+level: Beginner
+hide: true
+hidefromtoc: true
+exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
+source-git-commit: 1a8e623c034a2fbacd9ddf37711488a8f6b99442
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '147'
 ht-degree: 100%
 
 ---
+
+
+# Tidig versionsinformation {#e-new-release}
+
+Den här sidan beskriver förbättringar och korrigeringar som ingår i nästa version av Campaign Standard.
 >[!CAUTION]
 >
 > Innehållet kan ändras utan föregående meddelande fram till uppgraderingsdatumet för mellanlagringsmiljöerna. Läs mer på [sidan för versionsplanering](../../rn/using/release-planning.md).
+
 ## Version 22.3.2 {#dec-22}
 
 ### Säkerhetsuppdatering{#rn-security2}
