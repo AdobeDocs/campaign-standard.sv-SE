@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 1a8e623c034a2fbacd9ddf37711488a8f6b99442
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 25e842d2b012a07b3f1ef1ff5490a6b4afa0e887
+workflow-type: tm+mt
+source-wordcount: '216'
+ht-degree: 27%
 
 ---
 
@@ -22,21 +22,19 @@ Den här sidan beskriver förbättringar och korrigeringar som ingår i nästa v
 >
 > Innehållet kan ändras utan föregående meddelande fram till uppgraderingsdatumet för mellanlagringsmiljöerna. Läs mer på [sidan för versionsplanering](../../rn/using/release-planning.md).
 
-## Version 22.3.2 {#dec-22}
+## Version 23.1 – vår-/sommarversion 2023 {#apr-23}
 
-### Säkerhetsuppdatering{#rn-security2}
+### Förbättringar {#e-rn-improvements}
 
-Den här versionen innehåller följande säkerhetsuppgradering: Debian har uppgraderats till v11.0.
+* Push-meddelandetjänsten har moderniserats för att optimera underhållet. (CAMP-47959)
+* SMS-meddelandetjänsten har moderniserats för att ge en förbättrad stabilitet. (CAMP-52217)
+* En färdig lösning **Arbetsflöde för att skapa anrikningar för rapportering** har lagts till. När du har importerat en målmappning från en instans till en annan kör du arbetsflödet för att importera motsvarande poster för rapportanrikning. (CAMP-52452)
 
-## Version 22.3 – höst/vinter 2022 {#sept-22}
+### Korrigeringar{#e-rn-patches}
 
-### Säkerhetsuppdatering{#rn-security}
-
-Den här versionen innehåller följande säkerhetsuppgradering: Apache Tomcat har uppgraderats från v7.0 till v8.0.
-
-### Korrigeringar{#e-rn-fixes}
-
-* Korrigerade ett problem med schemalagda rapporter, som utlöstes en timme före den schemalagda tidpunkten. (CAMP-51502)
-* Korrigerade ett problem med leveransindikatorerna på kontrollpanelen för leverans som inte matchade skickade loggar (nms:broadLogRcp). (CAMP-51127)
-* Korrigerade ett problem som förhindrade tillägg av anpassade resurser med ACS Connector (Prime Offering). (CAMP-51033)
-* Förbättrade publiceringsprocessen för svar på förfrågningar om sekretess för att undvika förseningar. (CAMP-50613)
+* Ett problem som kan leda till ett timeout-fel vid visning av **Snabbklickning** rapport. (CAMP-51582)
+* Ett problem som kunde förhindra dig från att använda integreringen med **Platser** service. (CAMP-51923)
+* Ett problem som kunde förhindra att arbetsflödets schemaläggare fungerade korrekt har korrigerats. (CAMP-52003)
+* Korrigerade ett problem som förhindrade att detaljerna för nedbrytning visades när PDF-versionen av en anpassad dynamisk rapport med stora datamängder visades. (CAMP-52178)
+* Korrigerade ett problem som kunde visa ett fel vid åtkomst av rapporter. (CAMP-52500)
+* Ett problem som felaktigt tillämpade **Begränsa MTA-instanser för det här kontot** SMS-kopplingsparameter för alla kanaler i stället för att bara gälla för SMS. (CAMP-52640)
