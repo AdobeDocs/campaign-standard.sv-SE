@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 25e842d2b012a07b3f1ef1ff5490a6b4afa0e887
+source-git-commit: 485927b217fb68064897dd877c2f4a6dd208d443
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 27%
+source-wordcount: '275'
+ht-degree: 21%
 
 ---
 
@@ -26,11 +26,18 @@ Den här sidan beskriver förbättringar och korrigeringar som ingår i nästa v
 
 ### Förbättringar {#e-rn-improvements}
 
-* Push-meddelandetjänsten har moderniserats för att optimera underhållet. (CAMP-47959)
-* SMS-meddelandetjänsten har moderniserats för att ge en förbättrad stabilitet. (CAMP-52217)
+* Push-meddelandetjänsten har moderniserats för att ge bättre support. (CAMP-47959)
+* SMS-meddelandetjänsten har förbättrats för att ge bättre stabilitet. (CAMP-52217)
+* Adobe har gjort många tillgänglighetskorrigeringar för att förbättra programmets övergripande användarvänlighet. Här är några exempel på tillgänglighetsförbättringar:
+   * Gränssnittets tangentbordstillgänglighet har optimerats på många skärmar.
+   * Programmet har ändrats för pekskärmsanvändare.
+   * Färgen på flera objekt i gränssnittet har ändrats för att förbättra synligheten.
+
+### Andra ändringar {#e-rn-changes}
+
 * En färdig lösning **Arbetsflöde för att skapa anrikningar för rapportering** har lagts till. När du har importerat en målmappning från en instans till en annan kör du arbetsflödet för att importera motsvarande poster för rapportanrikning. (CAMP-52452)
 
-### Korrigeringar{#e-rn-patches}
+### Åtgärdade problem{#e-rn-patches}
 
 * Ett problem som kan leda till ett timeout-fel vid visning av **Snabbklickning** rapport. (CAMP-51582)
 * Ett problem som kunde förhindra dig från att använda integreringen med **Platser** service. (CAMP-51923)
