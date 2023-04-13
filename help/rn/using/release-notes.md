@@ -7,8 +7,8 @@ level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: f9bd5901d68c09ba20d5d48d263f4818c2e1e86a
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 16%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,13 +30,13 @@ ht-degree: 16%
 
 ### Andra ändringar {#e-rn-changes}
 
-* En färdig lösning **Arbetsflöde för att skapa anrikningar för rapportering** har lagts till. När du har importerat en målmappning från en instans till en annan kör du arbetsflödet för att importera motsvarande poster för rapportanrikning. (CAMP-52452)
+* Den färdiga lösningen **Arbetsflöde för att skapa rapporteringsberikning** har lagts till. När du har importerat en målmappning från en instans till en annan kör du arbetsflödet för att importera motsvarande poster för rapporteringsberikning. (CAMP-52452)
 
 ### Åtgärdade problem{#e-rn-patches}
 
-* Ett problem som kan leda till ett timeout-fel vid visning av **Snabbklickning** rapport. (CAMP-51582)
-* Ett problem som kunde förhindra dig från att använda integreringen med **Platser** service. (CAMP-51923)
-* Ett problem som kunde förhindra att arbetsflödets schemaläggare fungerade korrekt har korrigerats. (CAMP-52003)
+* Korrigerade ett problem som kan leda till ett timeout-fel vid visning av rapporten **Snabbklickning**. (CAMP-51582)
+* Korrigerade ett problem som kunde förhindra dig från att använda integreringen med tjänsten **Platser**. (CAMP-51923)
+* Korrigerade ett problem som kunde förhindra att arbetsflödets schemaläggare fungerade korrekt. (CAMP-52003)
 * Korrigerade ett problem som förhindrade att detaljerna för nedbrytning visades när PDF-versionen av en anpassad dynamisk rapport med stora datamängder visades. (CAMP-52178)
-* Korrigerade ett problem som kunde visa ett fel vid åtkomst av rapporter. (CAMP-52500)
-* Ett problem som felaktigt tillämpade **Begränsa MTA-instanser för det här kontot** SMS-kopplingsparameter för alla kanaler i stället för att bara gälla för SMS. (CAMP-52640)
+* Korrigerade ett problem som kunde visa ett fel vid åtkomst till rapporter. (CAMP-52500)
+* Korrigerade ett problem som felaktigt tillämpade SMS-kopplingsparametern **Begränsa MTA-instanser för det här kontot** för alla kanaler i stället för att bara gälla för SMS. (CAMP-52640)
