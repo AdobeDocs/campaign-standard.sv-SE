@@ -32,7 +32,7 @@ ht-degree: 8%
    <ul>
     <li>Rätt till åtkomst och rätt att ta bort: vi utnyttjar de funktioner som tillkommit för GDPR. <a href="https://helpx.adobe.com/se/campaign/kb/acs-privacy.html#righttoaccess">Läs mer</a> </li>
     <li><p>När en sekretessförfrågan skapas har regeltypen (GDPR eller CCPA) lagts till i bastjänsten för sekretess. Det är den här metoden du bör använda för alla förfrågningar gällande åtkomst och borttagning.  Användningen av Campaign-API:n och gränssnittet för förfrågan gällande åtkomst och borttagning är föråldrad.    Se <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=sv#release-notes">artikeln Föråldrade och borttagna funktioner</a>.</p></li>
-    <li>A <strong>CCPA-avanmälan</strong> har lagts till i profilresursen så att Adobe Campaign-användare kan spåra om en konsument har valt att sälja personuppgifter. <a href="https://helpx.adobe.com/se/campaign/kb/acs-privacy.html#ccpa">Läs mer</a>.</li>
+    <li>A <strong>CCPA-avanmälan</strong> har lagts till i profilresursen så att Adobe Campaign-användare kan spåra om en konsument har valt att sälja personuppgifter. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=sv#privacy-requests">Läs mer</a>.</li>
   </ul>
     <p>Se <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">instruktionsvideon</a>.</p>
 </td> 
@@ -269,7 +269,7 @@ ht-degree: 8%
 
 ## Version 19.2.3 – juni 2019 {#release-19-2-3---june-2019}
 
-**E-postdesigner**
+**Email Designer**
 
 En serie förbättringar och korrigeringar introducerades för att optimera fragment i version 19.2. Nyligen skapade fragment fungerar smidigt. Fragment som tidigare byggts har blivit nedtonade och måste migreras till det nya formatet. Om du vill göra det klickar du på varje fragment och validerar migreringen till det nya formatet. Vi rekommenderar att du testar några fragment innan du migrerar alla.
 
@@ -531,7 +531,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
      <li> Möjlighet att <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">hämta innehåll från en URL automatiskt vid förberedelse</a> </li> 
      <li> Fullt kompatibel <a href="../../designing/using/using-reusable-content.md#content-templates">färdiga innehållsmallar</a>. </li> 
     </ul> 
-    <p>Mer information hittar du i den <a href="../../designing/using/designing-content-in-adobe-campaign.md">detaljerade dokumentationen</a> och <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">instruktionsvideon</a>. Förbättringar och korrigeringar visas nedan.</p><p>Därför är den äldre redigeraren för e-postinnehåll nu föråldrad. Mer information finns i <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">page</a>.</p> </td> 
+    <p>Mer information hittar du i den <a href="../../designing/using/designing-content-in-adobe-campaign.md">detaljerade dokumentationen</a> och <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">instruktionsvideon</a>. Förbättringar och korrigeringar visas nedan.</p><p>Därför är den äldre redigeraren för e-postinnehåll nu föråldrad. Mer information finns i <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=sv#release-notes">page</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Produktlistor i transaktionsmejl<br /> </td> 
@@ -564,7 +564,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
 * Listan över tillgängliga länder när en profils adress definieras har ökats. (CAMP-26707)
 * Ett felmeddelande visas nu när du försöker importera ett inbyggt arbetsflöde.
 
-**E-postdesigner**
+**Email Designer**
 
 * Korrigerade ett problem som aktiverade funktionen för geografiska enheter för en e-postmall eller ett innehållsavbrott som skapats med e-postdesignern, även om den här funktionen inaktiverades i Adobe Campaign, vilket gjorde att mallen eller fragmentet inte var tillgängliga när det försökte komma åt den igen. (CAMP-28174)
 * Korrigerade ett problem som förhindrade att dynamiska innehållsvillkor sparades när innehåll redigerades med e-postdesignern. (CAMP-27905)

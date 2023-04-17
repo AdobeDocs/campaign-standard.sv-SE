@@ -19,7 +19,7 @@ ht-degree: 98%
 
 ![](assets/do-not-localize/cp-icon.png) **Den senaste versionen av kontrollpanelen från juni** med övervakning av aktiva profiler, granskning av deldomänens levererbarhet och hantering av GPG-nycklar. [Läs mer](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=sv).
 
-![](assets/do-not-localize/cp-icon.png) **Ny version av kontrollpanelen i oktober** med domänkonfiguration som använder CNAME och nya funktioner för databasövervakning. [Läs mer](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Ny version av kontrollpanelen i oktober** med domänkonfiguration som använder CNAME och nya funktioner för databasövervakning. [Läs mer](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=sv).
 
 ## Version 20.4 – oktober 2020 {#release-20-4---october-2020}
 
@@ -289,7 +289,7 @@ ht-degree: 98%
 * Korrigerade ett fel som hindrade användare från att göra ändringar i rapporter.  (CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **Den nya versionen av kontrollpanelen från maj** med certifikatförnyelse för CNAME-underdomäner. [Läs mer](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Den nya versionen av kontrollpanelen från maj** med certifikatförnyelse för CNAME-underdomäner. [Läs mer](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=sv).
 
 ## Version 20.2 – april 2020 {#release-20-2---april-2020}
 
@@ -327,7 +327,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->Nya funktioner kommer att lanseras i Campaign Control Panel i april, inklusive Google TXT-posthantering, övervakning av databasutrymme och e-postaviseringar. Mer information om de här funktionerna finns i [Versionsinformation för Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
+>Nya funktioner kommer att lanseras i Campaign Control Panel i april, inklusive Google TXT-posthantering, övervakning av databasutrymme och e-postaviseringar. Mer information om de här funktionerna finns i [Versionsinformation för Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=sv).
 
 **Förbättringar**
 
