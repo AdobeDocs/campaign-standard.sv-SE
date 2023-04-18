@@ -10,7 +10,7 @@ exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: 485927b217fb68064897dd877c2f4a6dd208d443
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -26,11 +26,11 @@ Den här sidan beskriver förbättringar och korrigeringar som ingår i nästa v
 
 ### Förbättringar {#e-rn-improvements}
 
-* Push-meddelandetjänsten har moderniserats för att ge bättre support. (CAMP-47959)
-* SMS-meddelandetjänsten har förbättrats för att ge bättre stabilitet. (CAMP-52217)
+* Push-meddelandetjänsten har moderniserats för att optimera supporten. (CAMP-47959)
+* SMS-meddelandetjänsten har moderniserats för att ge en förbättrad stabilitet. (CAMP-52217)
 * Adobe har gjort många tillgänglighetskorrigeringar för att förbättra programmets övergripande användarvänlighet. Här är några exempel på tillgänglighetsförbättringar:
    * Gränssnittets tangentbordstillgänglighet har optimerats på många skärmar.
-   * Programmet har ändrats för pekskärmsanvändare.
+   * Programmet har förbättrats för pekskärmsanvändare.
    * Färgen på flera objekt i gränssnittet har ändrats för att förbättra synligheten.
 
 ### Andra ändringar {#e-rn-changes}
