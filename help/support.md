@@ -1,5 +1,5 @@
 ---
-title: 'Hjälp- och supportalternativ för Campaign Standard '
+title: Hjälp- och supportalternativ för Campaign Standard
 description: Behöver du support för Campaign Standard? Du är på rätt ställe!
 audience: rns
 content-type: reference
@@ -127,4 +127,4 @@ Om du skapar ett ärende kan du kontakta Adobe kundsupportteam om problem som du
 
 Anslut till [Adobe Admin Console](https://adminconsole.adobe.com/overview) för att logga ett problem eller starta en chattsession i det nya systemet.
 
-Följ den detaljerade proceduren som beskrivs på [den här sidan](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+Följ den detaljerade proceduren som beskrivs på [den här sidan](https://helpx.adobe.com/sv/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
