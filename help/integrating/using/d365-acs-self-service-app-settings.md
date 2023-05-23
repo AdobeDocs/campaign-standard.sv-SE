@@ -8,10 +8,10 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547
-source-git-commit: f75df49e7957437df72c814aa9055d34770f22d6
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 4%
+source-wordcount: '778'
+ht-degree: 3%
 
 ---
 
@@ -77,16 +77,16 @@ Du måste ange:
 
 Upptäck SFTP-hantering med [Kontrollpanelen för kampanj](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=sv) i dessa avsnitt:
 
-* [Om SFTP-hantering](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=sv#sftp-management)
+* [Om SFTP-hantering](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html#sftp-management)
 
-* [Hantera SFTP-lagring](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=en#installing-ssh-key)
+* [Hantera SFTP-lagring](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#installing-ssh-key)
 
-* [Lägg till IP-intervall](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html?lang=en#sftp-management)
+* [Lägg till IP-intervall](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html#sftp-management)
 
-* [Hantera nycklar](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=en#sftp-management)
+* [Hantera nycklar](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#sftp-management)
 
-* [Logga in på SFTP-servern](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html?lang=en#sftp-management)
+* [Logga in på SFTP-servern](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html#sftp-management)
 
 När konfigurationen är klar loggar du in på SFTP-servern med den privata nyckeln och skapar katalogen &quot;d365_loads/exporting&quot;.
 
-[Besök den här sidan](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=en#sftp-management) om du vill ha information om Adobe Campaign Standard SFTP-servern.
+[Besök den här sidan](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=sv#sftp-management) om du vill ha information om Adobe Campaign Standard SFTP-servern.

@@ -9,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: f5dcb715-7cbd-49f2-8713-7e16cfa04184
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 30%
@@ -99,7 +99,7 @@ When editing the content of a transactional email, you can create product listin
 
 To add a list of abandoned products in a transactional message, follow the steps below.
 
-You can also watch [this set of videos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=en#configure-product-listings-in-transactional-emails) explaining the steps that are required to configure product listings in a transactional email.
+You can also watch [this set of videos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html#configure-product-listings-in-transactional-emails) explaining the steps that are required to configure product listings in a transactional email.
 
 >[!NOTE]
 >

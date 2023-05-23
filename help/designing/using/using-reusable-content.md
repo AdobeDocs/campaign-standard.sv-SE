@@ -1,5 +1,5 @@
 ---
-title: 'Skapa och använda återanvändbart innehåll '
+title: Skapa och använda återanvändbart innehåll
 description: Börja bygga återanvändbart e-postinnehåll med e-postdesignern.
 audience: designing
 content-type: reference
@@ -8,9 +8,9 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1817'
 ht-degree: 1%
 
 ---
@@ -249,7 +249,7 @@ När du redigerar ett e-postmeddelande med e-postdesignern kan du direkt spara e
 
 * Du kan inte spara en struktur som innehåller anpassningsfält, dynamiskt innehåll eller något annat fragment som fragment.
 * Du kan bara markera strukturer som ligger intill varandra.
-<!-- - You cannot select an empty structure.-->
+   <!-- - You cannot select an empty structure.-->
 
 1. När du redigerar ett e-postmeddelande i e-postdesignern väljer du **[!UICONTROL Save as fragment]** i huvudverktygsfältet.
 

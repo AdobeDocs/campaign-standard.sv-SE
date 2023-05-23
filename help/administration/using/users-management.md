@@ -1,15 +1,15 @@
 ---
 title: Hantering av användare
-description: 'Adobe Campaign-användare har särskilda roller. Upptäck huvudanvändartyperna. '
+description: Adobe Campaign-användare har särskilda roller. Upptäck huvudanvändartyperna.
 audience: administration
 feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1204'
-ht-degree: 82%
+source-wordcount: '1198'
+ht-degree: 81%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 82%
 
 Med Adobe Campaign kan ni tilldela en uppsättning roller till era användare för att definiera vilken del av gränssnittet de kan komma åt.
 
-De specifika rollerna och de motsvarande behörigheterna beskrivs i följande avsnitt: [förstå roller](../../administration/using/list-of-roles.md) och [behörigheter](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
+De specifika rollerna och de motsvarande behörigheterna beskrivs i följande avsnitt: [förstå roller](../../administration/using/list-of-roles.md) och [behörigheter](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf).
 
 Administratörer kan hantera användare från Admin Console. Användarna synkroniseras sedan automatiskt med Adobe Campaign.  Mer information finns i [Admin Console](https://helpx.adobe.com/se/enterprise/using/users.html) dokumentation.
 
@@ -35,7 +35,7 @@ Om du vill komma åt gränssnittet för användarhantering från Adobe Campaign 
 
 * [Video om hantering av användarbehörigheter](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html)
 * [Lista över roller](../../administration/using/list-of-roles.md)
-* [Lista med tillstånd](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
+* [Lista med tillstånd](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 ## Typ av användare {#type-of-users}
 

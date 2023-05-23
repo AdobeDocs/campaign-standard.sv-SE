@@ -1,5 +1,5 @@
 ---
-title: 'Utforma e-postmeddelanden via Adobe Campaign integreringar '
+title: Utforma e-postmeddelanden via Adobe Campaign integreringar
 description: Upptäck hur du utformar e-postmeddelanden med hjälp av Adobe Campaign integreringar i e-postdesignern.
 audience: designing
 content-type: reference
@@ -8,9 +8,9 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: d5c72f69-68a2-4523-956f-f265ae79b470
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '719'
 ht-degree: 5%
 
 ---
@@ -148,7 +148,7 @@ Adobe Campaign har flera alternativ för e-postutveckling. Tabellen nedan visar 
    <td> <strong>Mer information</strong><br /> </td> 
    <td> Se <a href="../../designing/using/designing-content-in-adobe-campaign.md">Om e-postdesignern</a>.<br /> </td> 
    <td> Se <a href="../../integrating/using/integrating-with-experience-manager.md">Integrera med Experience Manager</a>.<br /> </td> 
-   <td> Se <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver och Campaign</a> och se detta <a href="#video">video</a>.<br /> </td> 
+   <td> Se <a href="https://helpx.adobe.com/se/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver och Campaign</a> och se detta <a href="#video">video</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

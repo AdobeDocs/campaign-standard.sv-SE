@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1260'
 ht-degree: 3%
 
 ---
@@ -42,7 +42,7 @@ Slutför konfigurationen genom att utföra följande steg:
    * Kontrollera att IMS-användaren är en del av standardproduktprofilerna för användare och administratörer i Adobe Campaign Standard. I det här steget kan användaren logga in på Adobe Campaign Standard, navigera till Experience Platform SDK-mobilappssidan och visa mobilappsegenskaperna som du skapade i användargränssnittet för datainsamling.
 
    * I användargränssnittet för datainsamling kontrollerar du att IMS-användaren är en del av produktprofilen för Experience Platform Launch.
-I det här steget kan användaren logga in på användargränssnittet för datainsamling för att skapa och visa egenskaperna. Mer information om produktprofiler i användargränssnittet för datainsamling finns i [Skapa en produktprofil](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html?lang=en#gain-admin-rights-for-a-tags-product-profile). I produktprofilen bör det inte finnas någon behörighet för företaget eller egenskaperna, men användaren bör fortfarande kunna logga in.
+I det här steget kan användaren logga in på användargränssnittet för datainsamling för att skapa och visa egenskaperna. Mer information om produktprofiler i användargränssnittet för datainsamling finns i [Skapa en produktprofil](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html#gain-admin-rights-for-a-tags-product-profile). I produktprofilen bör det inte finnas någon behörighet för företaget eller egenskaperna, men användaren bör fortfarande kunna logga in.
 
    Om du vill utföra ytterligare åtgärder som att installera ett tillägg, publicera ett program, konfigurera miljöer och så vidare, måste du ange behörigheter i produktprofilen.
 

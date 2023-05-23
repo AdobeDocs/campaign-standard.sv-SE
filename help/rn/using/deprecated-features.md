@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '857'
 ht-degree: 63%
 
 ---
@@ -44,7 +44,7 @@ Kunder uppmanas att se över om de använder funktionen i den aktuella driftsät
  <tbody> 
   <tr> 
    <td> <p> Från och med Campaign Standard 21.3 är integreringen med tjänsten Målgruppsanpassningar föråldrad. </p>
-   <p>För ny implementering kan du inte längre integrera målgruppsanpassningen med Adobe Campaign Standard. Ni kan dock integrera Campaign och Adobe Experience Platform via Källor och Destinationer. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">Läs mer</a>.</p>
+   <p>För ny implementering kan du inte längre integrera målgruppsanpassningen med Adobe Campaign Standard. Ni kan dock integrera Campaign och Adobe Experience Platform via Källor och Destinationer. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">Läs mer</a>.</p>
      <em>Måldatum för borttagning: 2023</em></p>
      </td> 
   </tr> 
@@ -60,7 +60,7 @@ Kunder uppmanas att se över om de använder funktionen i den aktuella driftsät
  <tbody> 
   <tr> 
    <td> <p> Från och med Campaign Standard 21.3 är integreringen med Adobe Experience Platform Data Connector föråldrad. </p>
-   <p>För ny implementering kan du inte längre integrera Adobe Experience Platform Data Connector med Adobe Campaign Standard. Ni kan dock integrera Campaign och Adobe Experience Platform via Källor och Destinationer. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">Läs mer</a>.</p>
+   <p>För ny implementering kan du inte längre integrera Adobe Experience Platform Data Connector med Adobe Campaign Standard. Ni kan dock integrera Campaign och Adobe Experience Platform via Källor och Destinationer. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">Läs mer</a>.</p>
      <em>Måldatum för borttagning: 2023</em></p>
      </td> 
   </tr> 
@@ -129,7 +129,7 @@ Det här avsnittet visar funktioner som har tagits bort från Campaign Standard.
  <tbody> 
   <tr> 
    <td> <p>Från och med Campaign version 21.2 är användningen av API och gränssnitt i Campaign för åtkomst och borttagning inaktuell. Radering av profiler med två steg är inte tillgänglig. Använd <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">Adobe Privacy Core Service</a>.</p></br>
-   <p>Se även <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=sv">Hantera förfrågan om användarens information</a>.</p>
+   <p>Se även <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html">Hantera förfrågan om användarens information</a>.</p>
   </td> 
   </tr> 
  </tbody> 

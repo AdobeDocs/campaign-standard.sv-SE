@@ -7,9 +7,9 @@ topic-tags: about-sending-messages-with-campaign
 role: User
 level: Intermediate
 exl-id: bcb28ef5-5cad-43c1-b11b-080abc791a72
-source-git-commit: 013293fce8a923e771e10585c41e4ad482003080
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '588'
 ht-degree: 14%
 
 ---

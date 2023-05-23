@@ -9,9 +9,9 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
-source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '559'
 ht-degree: 88%
 
 ---

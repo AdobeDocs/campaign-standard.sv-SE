@@ -8,10 +8,10 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 5%
+source-wordcount: '914'
+ht-degree: 4%
 
 ---
 

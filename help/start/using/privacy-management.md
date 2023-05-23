@@ -8,10 +8,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
-source-git-commit: ede4bd97ffddca4a5e24f1e4114d50ca5140a01d
-workflow-type: ht
-source-wordcount: '827'
-ht-degree: 100%
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+workflow-type: tm+mt
+source-wordcount: '825'
+ht-degree: 99%
 
 ---
 
@@ -70,7 +70,7 @@ För att underlätta beredskapen gällande din integritet kan du hantera förfr�
 
 Se [implementeringsstegen](../../start/using/privacy-requests.md#about-privacy-requests) för att läsa om hur du kan skapa förfrågningar om **åtkomst** och **radering** och hur Adobe Campaign bearbetar dem.
 
-Självstudiekurser om integritetshantering i Campaign Standard finns också [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=sv#privacy).
+Självstudiekurser om integritetshantering i Campaign Standard finns också [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html#privacy).
 
 >[!NOTE]
 >

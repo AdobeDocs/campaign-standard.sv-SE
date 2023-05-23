@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '7230'
-ht-degree: 100%
+source-wordcount: '7224'
+ht-degree: 99%
 
 ---
 
@@ -562,7 +562,7 @@ Automatiseringsguiden har uppdaterats med länkar till relaterade arbetsflödesa
 
 Avsnittet för indikatorberäkning av dynamiska rapporter har uppdaterats. [Läs mer](../../reporting/using/indicator-calculation.md)
 
-Kompatibilitetstabellen för dynamisk rapportering har lagts till för att bättre förstå kompatibiliteten mellan dimensioner och mått. [Läs mer](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=en)
+Kompatibilitetstabellen för dynamisk rapportering har lagts till för att bättre förstå kompatibiliteten mellan dimensioner och mått. [Läs mer](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 Listan med funktioner för arbetsflöden har uppdaterats. [Läs mer](../../automating/using/list-of-functions.md)
 
@@ -840,7 +840,7 @@ Aktiviteten **[!UICONTROL Subscription Services]** har uppdaterats för att ge s
 
 Ett steg för steg-exempel på hur man förbereder en leverans har lagts till. [Läs mer](../../sending/using/preparing-the-send.md)
 
-Avsnittet med listan över tillstånd har tagits bort. [Läs mer](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en) (PDF).
+Avsnittet med listan över tillstånd har tagits bort. [Läs mer](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf) (PDF).
 
 Ett steg för steg-exempel på hur du använder SMS-autosvar har lagts till. [Läs mer](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -1012,7 +1012,7 @@ Nu finns en ny teknik: &quot;Integrera Adobe Mobile SDK med mobilappen&quot;. [L
 
 Instruktioner för att konfigurera People core service eller Audience Manager integration med Adobe Campaign har lagts till. [Läs mer](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-Behörighetstabellen har reviderats för att tydliggöra vissa rollers funktion. [Läs mer](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
+Behörighetstabellen har reviderats för att tydliggöra vissa rollers funktion. [Läs mer](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Uppdatering av sammanhangsbaserade hjälplänkar som är tillgängliga direkt i Adobe Campaign.
 

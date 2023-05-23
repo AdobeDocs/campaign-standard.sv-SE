@@ -1,5 +1,5 @@
 ---
-title: 'Lista över komponenter '
+title: Lista över komponenter
 description: Här finns en lista över alla komponenter som är tillgängliga i Dynamic-rapporter samt deras definitioner.
 audience: reporting
 content-type: reference
@@ -8,10 +8,10 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1271'
-ht-degree: 2%
+source-wordcount: '1269'
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 Mer information om kompatibilitet mellan dimensioner och mätvärden finns i detta [table](/help/reporting/using/assets/dynamic_report_compatibility.pdf). Om två komponenter inte är kompatibla visas värdet i cellen **Ingen**.
 
-[![image](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=en)
+[![image](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 ## Dimensioner {#dimensions}
 

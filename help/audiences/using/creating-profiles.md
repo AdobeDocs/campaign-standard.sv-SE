@@ -8,9 +8,9 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: 827df9f6-070c-466a-890c-e363de6b129b
-source-git-commit: e26d0d78126a7795f3341d4f07ee380605d83c77
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '391'
 ht-degree: 83%
 
 ---
