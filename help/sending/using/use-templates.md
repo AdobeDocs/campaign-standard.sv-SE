@@ -4,7 +4,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: '"Leveransmallar möjliggör ökad effektivitet genom att tillhandahålla färdiga scenarier för de flesta vanliga typer av aktiviteter."'
+description: "Leveransmallar möjliggör ökad effektivitet genom att tillhandahålla färdiga scenarier för de flesta vanliga typer av aktiviteter."
 feature: Deliverability
 role: User
 level: Intermediate

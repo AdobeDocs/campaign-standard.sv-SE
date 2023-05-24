@@ -1,5 +1,5 @@
 ---
-title: '"Steg 3: verifiera tillägget"'
+title: "Steg 3: verifiera tillägget"
 description: Lär dig hur du får åtkomst till det utökade fältet med Rest API.
 audience: developing
 content-type: reference

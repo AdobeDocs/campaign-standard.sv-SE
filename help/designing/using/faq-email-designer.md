@@ -1,5 +1,5 @@
 ---
-title: 'Vanliga frågor om e-postdesignern '
+title: Vanliga frågor om e-postdesignern
 description: Frågor och svar om e-postdesignern.
 audience: designing
 content-type: reference

@@ -105,7 +105,7 @@ Beroende på vilka element som är markerade på arbetsytan eller arbetsflödets
 
 ## Snabbåtgärder {#quick-actions}
 
-När en aktivitet är markerad visas snabbåtgärdsknappar runt aktiviteten så att du kan interagera med den.
+När en aktivitet är markerad visas snabbåtgärdsknappar runt aktiviteten, så att du kan interagera med den.
 
 <img height="21px" src="assets/edit_darkgrey-24px.png" /> **[!UICONTROL Open activity]**<br/>Öppnar den markerade aktiviteten.
 

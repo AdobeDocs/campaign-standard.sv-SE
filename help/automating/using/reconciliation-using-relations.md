@@ -1,6 +1,6 @@
 ---
 title: Dataavstämning med hjälp av relationer
-description: 'I följande exempel visas ett arbetsflöde som uppdaterar databasen med hjälp av inköpsdata i en fil.  '
+description: I följande exempel visas ett arbetsflöde som uppdaterar databasen med hjälp av inköpsdata i en fil.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities

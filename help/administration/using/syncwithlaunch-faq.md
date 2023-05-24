@@ -9,11 +9,11 @@ exl-id: aaaceb3a-5e54-47da-9be4-b70747282830
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Taggar i Adobe Experience Platform-synkronisering - frågor och svar {#syncwithlaunch-faq}
+# Vanliga frågor och svar om taggar i Adobe Experience Platform-synkronisering {#syncwithlaunch-faq}
 
 Du kan importera taggens mobila egenskaper till Adobe Campaign Standard via **[!UICONTROL Sync with Launch]** dedikerat tekniskt arbetsflöde. Mer information finns i [page](../../administration/using/technical-workflows.md)
 

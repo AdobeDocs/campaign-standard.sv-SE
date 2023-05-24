@@ -168,7 +168,7 @@ Du måste ha tillgång till Adobe Analytics för att kunna göra följande konfi
 
 Bastjänstens SDK (Software Development Kit) underlättar integreringen av mobilapplikationer i Adobe Campaign.
 
-Det här steget beskrivs i det här [page](https://helpx.adobe.com/se/campaign/kb/configuring-app-sdkv4.html).
+Det här steget beskrivs i det här [page](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html?lang=sv).
 
 ### Definiera intressepunkter för Adobe Mobile Services {#defining-points-of-interest-in-adobe-mobile-services}
 
@@ -187,7 +187,7 @@ Så här definierar du de intressepunkter som används för att samla in platsda
 
 Med en specifik anpassad resurs kan du definiera de data som du vill samla in från programprenumeranterna.
 
-Det här steget beskrivs i [Konfigurera ett mobilprogram med SDK V4](https://helpx.adobe.com/se/campaign/kb/configuring-app-sdkv4.html) sida.
+Det här steget beskrivs i [Konfigurera ett mobilprogram med SDK V4](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html?lang=sv) sida.
 
 ## Åtkomst till mobilappar som används för att samla in platsdata {#accessing-mobile-apps-used-to-collect-location-data}
 

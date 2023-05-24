@@ -1,6 +1,6 @@
 ---
 title: Ta bort en resurs
-description: 'Lär dig hur du tar bort en resurs '
+description: Lär dig hur du tar bort en resurs
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource

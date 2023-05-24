@@ -143,7 +143,7 @@ Marknadsföringshändelsetyper som stöds:
 * Skicka - e-post har skickats till mottagare
 * Öppna - e-post öppnad av mottagare
 * Klicka - URL i e-post som mottagaren klickat på
-* Studsa - e-post till mottagare fick en hård studsning
+* Studsa - e-post till mottagaren fick en hård studs
 
 Följande händelseattribut visas i Dynamics 365:
 * Namn på marknadsföringskampanj

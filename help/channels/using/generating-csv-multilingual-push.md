@@ -98,7 +98,7 @@ I intervallet finns två obligatoriska attribut:
 
 Följande språk stöds:
 
-| locale | språk |
+| locale | language |
 |:-:|:-:|
 | af_za | Afrikaans - Sydafrika |
 | sq_al | Albanska - Albanien |

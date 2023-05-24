@@ -1,5 +1,5 @@
 ---
-title: '"Steg 2: publicera tillägget"'
+title: "Steg 2: publicera tillägget"
 description: Lär dig hur du publicerar tillägget i Campaign Standard. Del 2 av en serie.
 audience: developing
 content-type: reference

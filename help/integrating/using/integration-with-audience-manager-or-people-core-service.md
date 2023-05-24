@@ -1,6 +1,6 @@
 ---
 title: Etablering och konfigurering av integration med Audience Manager eller kärntjänsten People
-description: 'Lär dig hur du konfigurerar integreringen av bastjänsterna mellan Audience Manager och människor för att börja dela målgrupper eller segment med olika Adobe Experience Cloud-lösningar. '
+description: Lär dig hur du konfigurerar integreringen av bastjänsterna mellan Audience Manager och människor för att börja dela målgrupper eller segment med olika Adobe Experience Cloud-lösningar.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service

@@ -1,6 +1,6 @@
 ---
 title: Datauppdatering med avstämning
-description: 'I följande exempel visas ett arbetsflöde som skapar en publik med profiler direkt från en importerad fil som innehåller nya klienter.  '
+description: I följande exempel visas ett arbetsflöde som skapar en publik med profiler direkt från en importerad fil som innehåller nya klienter.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities

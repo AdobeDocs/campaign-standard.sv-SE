@@ -1,6 +1,6 @@
 ---
 title: Marknadsföringsaktiviteter
-description: '"Lär dig hur du skapar och hanterar dina marknadsföringsaktiviteter: kampanjer, E-post, SMS & push-meddelanden, landningssidor, arbetsflöden. Du kan enkelt skapa en ny aktivitet, redigera en befintlig och se status och giltighet för den."'
+description: "Lär dig hur du skapar och hanterar dina marknadsföringsaktiviteter: kampanjer, E-post, SMS & push-meddelanden, landningssidor, arbetsflöden. Du kan enkelt skapa en ny aktivitet, redigera en befintlig och se status och giltighet för den."
 audience: start
 content-type: reference
 topic-tags: marketing-plans

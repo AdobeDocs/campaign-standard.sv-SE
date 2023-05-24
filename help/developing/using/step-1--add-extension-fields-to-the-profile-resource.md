@@ -1,5 +1,5 @@
 ---
-title: '"Steg 1: lägg till tilläggsfält i profilresursen"'
+title: "Steg 1: lägg till tilläggsfält i profilresursen"
 description: Lär dig hur du utökar profilresursen.
 audience: developing
 content-type: reference

@@ -1,5 +1,5 @@
 ---
-title: 'Konverterar e-post från äldre redigerare till e-postdesignern '
+title: Konverterar e-post från äldre redigerare till e-postdesignern
 description: Upptäck hur du kan använda e-postmeddelanden som har skapats i det äldre redigeringsprogrammets e-postmeddelande till e-postdesignern.
 audience: designing
 content-type: reference

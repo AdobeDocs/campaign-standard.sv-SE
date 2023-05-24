@@ -1,5 +1,5 @@
 ---
-title: 'Designa e-postmeddelanden från grunden '
+title: Designa e-postmeddelanden från grunden
 description: Upptäck hur du utformar e-postmeddelanden från grunden i e-postdesignern.
 audience: designing
 content-type: reference

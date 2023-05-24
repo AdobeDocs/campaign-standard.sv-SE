@@ -4,7 +4,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: '"När ni har ert innehåll klart kan ni lära er hur ni noga definierar vilka som ska få ert meddelande."'
+description: "När ni har ert innehåll klart kan ni lära er hur ni noga definierar vilka som ska få ert meddelande."
 feature: Deliverability
 role: User
 level: Intermediate

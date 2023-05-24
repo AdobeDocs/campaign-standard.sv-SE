@@ -1,6 +1,6 @@
 ---
 title: Integrerad kundprofil
-description: '"Spåra varje kundinteraktion i en enda vy: Den integrerade kundprofilen i Adobe Campaign uppdateras under hela kundens livscykel."'
+description: "Spåra varje kundinteraktion i en enda vy: Den integrerade kundprofilen i Adobe Campaign uppdateras under hela kundens livscykel."
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles

@@ -25,7 +25,6 @@ För att vara säker på att dina e-postmeddelanden når dina mottagare och för
 Följ nedanstående principer när du utformar ditt meddelandeinnehåll:
 
 * [Avsändarens namn och adress](#sender-name): adressen måste uttryckligen identifiera avsändaren. Domänen måste ägas av och registreras hos avsändaren. Domänregistret får inte privatiseras.
-
    <!--**Subject**: Avoid excessive capitalization and punctuation, and words that are frequently used by spammers ("Win", "Free", etc.).-->
 * [Optimering av personalisering och sändningstid](#perso-send-time-optimization): genom att personalisera innehåll och definiera en sändningstid per mottagare ökar chanserna för att meddelandet öppnas.
 * Bilder och text: respekterar ett bra förhållande mellan text och bild (till exempel 60 % text och 40 % bilder).

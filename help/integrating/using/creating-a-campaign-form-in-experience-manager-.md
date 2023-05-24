@@ -1,5 +1,5 @@
 ---
-title: 'Skapa ett Campaign-formulär i Experience Manager '
+title: Skapa ett Campaign-formulär i Experience Manager
 description: Tack vare integreringen med Adobe Experience Manager kan du skapa formulär direkt i AEM för att skapa och uppdatera profiler eller hantera prenumerationer.
 audience: integrating
 content-type: reference

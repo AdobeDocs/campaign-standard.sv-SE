@@ -1,6 +1,6 @@
 ---
 title: Skicka ett e-postmeddelande med berikade fält
-description: 'I exemplet nedan visas hur du skickar ett e-postmeddelande med ytterligare data som hämtats från en extern fil via aktiviteten för inläsningsfilen.  '
+description: I exemplet nedan visas hur du skickar ett e-postmeddelande med ytterligare data som hämtats från en extern fil via aktiviteten för inläsningsfilen.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities

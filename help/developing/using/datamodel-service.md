@@ -121,7 +121,7 @@ ht-degree: 7%
                   <td>uppräkning (byte) </td>
                   <td>
                      <ul>
-                        <li>Mobile (SMS) - sms - 1</li>
+                        <li>Mobil (SMS) - sms - 1</li>
                         <li>E-post - e-post - 0</li>
                         <li>OGILTIGT VÄRDE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>

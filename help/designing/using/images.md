@@ -19,22 +19,22 @@ ht-degree: 3%
 
 ## Infoga bilder{#inserting-images}
 
-Du kan infoga bilder i e-postmeddelanden och på landningssidor.
+Du kan infoga bilder i dina e-postmeddelanden och landningssidor.
 
-Följande typer av bilder är tillgängliga, beroende på din konfiguration:
+Följande typer av bilder är tillgängliga beroende på din konfiguration:
 
 * Lokala bilder
-* Bilder som delas från Adobe Experience Cloud - se [Arbeta med bastjänsten för kampanj och resurser](../../integrating/using/working-with-campaign-and-assets-core-service.md) / Assets On Demand
+* Bilder som delas från Adobe Experience Cloud - se [Arbeta med huvudtjänsten Campaign och Assets Core Service](../../integrating/using/working-with-campaign-and-assets-core-service.md) / Assets On Demand
 * Dynamiska bilder från Adobe Target - se [Arbeta med Campaign och Target](../../integrating/using/about-campaign-target-integration.md)
 
 >[!CAUTION]
 >
->If you choose to add an image directly by editing the HTML version of the email, you must not call up **external files in a &lt;script> tag** of the HTML page. Dessa filer kommer inte att importeras till Adobe Campaign-servern.
+>Om du vill lägga till en bild direkt genom att redigera HTML-versionen av e-postmeddelandet får du inte anropa **externa filer i en &lt;script>-tagg** på HTML. Dessa filer importeras inte till Adobe Campaign-servern.
 
 ### Infoga bilder i ett e-postmeddelande {#inserting-images-in-an-email}
 
 1. Lägg till en strukturkomponent. Mer information finns i [Redigera e-poststrukturen](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
-1. Lägg till en **[!UICONTROL Image]** innehållskomponent.
+1. Lägg till en **[!UICONTROL Image]**-innehållskomponent i den här strukturkomponenten.
 
    ![](assets/des_insert_images_1.png)
 
@@ -42,20 +42,20 @@ Följande typer av bilder är tillgängliga, beroende på din konfiguration:
 
    ![](assets/des_insert_images_2.png)
 
-1. Markera innehållskomponenten som du just lade till.
-1. Kontrollera bildegenskaperna och justera dem vid behov.
+1. Markera innehållskomponenten som du nyss lade till.
+1. Markera innehållskomponenten som du nyss lade till.Kontrollera bildegenskaperna och justera dem vid behov.
 
    ![](assets/des_insert_images_3.png)
 
-## Konfigurera bildegenskaper{#setting-up-image-properties}
+## Ställa in bildegenskaper{#setting-up-image-properties}
 
-När du markerar ett block som innehåller en bild visas följande egenskaper på paletten:
+När du markerar ett block som innehåller en bild finns följande egenskaper på paletten:
 
-* **Aktivera personalisering** använder du för att anpassa bildkällan. Se [Anpassa en bildkälla](../../designing/using/personalization.md#personalizing-an-image-source).
-* **Bildtitel** I kan du ange en titel för bilden.
-* **Alt-text** (e-post) eller **Bildtext** (landningssida) kan du definiera bildtexten som är länkad till bilden (motsvarar **alt** HTML).
-* När du redigerar ett e-postmeddelande **Stil** Med kan du ange bildstorlek, bakgrund och kant.
-* När du redigerar en landningssida **Dimensioner** I kan du ange bildstorleken i pixlar.
+* **Aktivera personalisering** gör att du kan anpassa bildkällan. See [Personalizing an image source](../../designing/using/personalization.md#personalizing-an-image-source).
+* Med **Bildrubrik** kan du definiera en rubrik för bilden.
+* Med **Alt-text** (e-post) eller **Bildtext** (landningssida) kan du definiera bildtexten som är kopplad till bilden (motsvarar attributet **alt** HTML).
+* När du redigerar ett e-postmeddelande kan du använda **Format** för att ange bildstorlek, bakgrund och kantlinje.
+* När du redigerar en landningssida kan du ange bildstorleken i pixlar med **Dimensioner**.
 
 Med redigeraren kan du arbeta med **alla bildtyper** vars format är kompatibla med webbläsare. För att vara kompatibel med redigeraren **animeringar av typen &quot;Flash&quot;** ska infogas på en HTML-sida enligt följande:
 

@@ -1,5 +1,5 @@
 ---
-title: 'Kom igång med integreringsverktyget '
+title: Kom igång med integreringsverktyget
 description: Kom igång med integreringsverktyget
 products: SG_CAMPAIGN/STANDARD
 audience: integrating

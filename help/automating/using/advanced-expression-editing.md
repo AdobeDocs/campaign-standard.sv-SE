@@ -190,21 +190,21 @@ Villkoren måste kopplas till värden med någon av följande operatörer.
   <tr> 
    <td> <span class="uicontrol">Like</span> <br /> </td> 
    <td> LIKE<br /> </td> 
-   <td> Ej tillämpligt<br /> </td> 
+   <td> N/A<br /> </td> 
    <td> <span class="uicontrol">Like</span> är mycket lik operatören <span class="uicontrol">Contains</span>. Du kan infoga ett <span class="uicontrol">%</span>-jokertecken i värdet som eftersöks.<br /> </td> 
    <td> <strong>@lastName LIKE Mart%n</strong>. Här fungerar ersättningstecknet <strong>%</strong> som ett "jokertecken" för att hitta namnet "Martin" i det hypotetiska fallet att stavningen inte är korrekt.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Not like</span> <br /> </td> 
    <td> NOT<br /> </td> 
-   <td> Ej tillämpligt<br /> </td> 
+   <td> N/A<br /> </td> 
    <td> Liknar <span class="uicontrol">Like</span>. Du kan inte återställa det angivna värdet. Även här måste det angivna värdet innehålla jokertecknet <span class="uicontrol">%</span>.<br /> </td> 
    <td> <strong>@lastName NOT Smi%h</strong>. Här motsvarar mottagarna namnet "Smi%h" (så Smith, o.s.v.) returneras inte som ett resultat.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Is empty</span> <br /> </td> 
    <td> IS NULL<br /> </td> 
-   <td> Ej tillämpligt<br /> </td> 
+   <td> N/A<br /> </td> 
    <td> Det första värdet måste motsvara ett tomt värde.<br /> </td> 
    <td> <strong>@mobilePhone IS NULL</strong> hämtar alla profiler vars mobiltelefonnummer inte har angetts.<br /> </td> 
   </tr> 

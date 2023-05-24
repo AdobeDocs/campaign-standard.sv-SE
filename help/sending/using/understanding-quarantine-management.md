@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
 source-git-commit: eec8c66d4947e04cd0eb3dcf0f09d395d9db68b9
 workflow-type: tm+mt
-source-wordcount: '1365'
-ht-degree: 25%
+source-wordcount: '1429'
+ht-degree: 24%
 
 ---
 
@@ -49,7 +49,7 @@ Karantän och blockeringslista gäller inte för samma objekt:
 >
 >Karantänen innehåller **På blockeringslista** status, som används när mottagarna rapporterar ditt meddelande som skräppost eller svarar på ett SMS-meddelande med ett nyckelord som &quot;STOP&quot;. I så fall skickas profilens adress eller telefonnummer till karantänen tillsammans med **[!UICONTROL On denylist]** status. Mer information om hur du hanterar STOP SMS-meddelanden finns i [det här avsnittet](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
-<!--When a user replies to an SMS message with a keyword such as STOP in order to opt-out from SMS deliveries, his profile is not added to the denylist like in the email opt-out process. Instead, the profile's phone number is sent to quarantine with the **[!UICONTROL On denylist]** status. This status refers to the phone number only, meaning that the profile will continue receiving email messages.<!-- Also, if the profile has another phone number, he can still receive SMS messages on the other number. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).-->
+&lt;!- När en användare svarar på ett SMS-meddelande med ett nyckelord som STOP för att avanmäla sig från SMS-leveranser, läggs denna profil inte till blockeringslista, som i avanmälningsprocessen via e-post. Istället skickas profilens telefonnummer till karantän med **[!UICONTROL On denylist]** status. Denna status avser endast telefonnumret, vilket innebär att profilen kommer att fortsätta ta emot e-postmeddelanden.<!-- Also, if the profile has another phone number, he can still receive SMS messages on the other number. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).-->
 
 ## Identifiera adresser i karantän {#identifying-quarantined-addresses}
 

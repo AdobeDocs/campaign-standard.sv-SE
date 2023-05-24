@@ -1,6 +1,6 @@
 ---
 title: Uppdatera data baserat på en automatisk filhämtning
-description: 'I följande exempel visas resultatet av en automatiskt nedladdad filaktivitet via en aktivitet för en överföringsfil följt av en aktivitet för uppdateringsdata.   '
+description: I följande exempel visas resultatet av en automatiskt nedladdad filaktivitet via en aktivitet för en överföringsfil följt av en aktivitet för uppdateringsdata.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities

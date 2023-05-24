@@ -240,7 +240,7 @@ ht-degree: 6%
                      <ul>
                         <li>Transaktionell e-post - e-postLightning - 60</li>
                         <li>Fax - fax - 4</li>
-                        <li>Mobile (SMS) - sms - 1</li>
+                        <li>Mobil (SMS) - sms - 1</li>
                         <li>Återkommande e-post - e-postUppdatera - 30</li>
                         <li>Direktreklam - papper - 3</li>
                         <li>Telefon - telefon - 2</li>
@@ -496,7 +496,7 @@ ht-degree: 6%
                         <li>Slutförd - färdig - 95</li>
                         <li>Antal pågående - targetSelection - 12</li>
                         <li>Meddelandet har slutförts - messageReady - 25</li>
-                        <li>Personalization eller antal misslyckades - PreparationError - 37</li>
+                        <li>Personalisering eller antal misslyckades - PreparationError - 37</li>
                         <li>Stoppad - annullerad - 85</li>
                         <li>Personalisering pågår - messagePreparation - 22</li>
                         <li>Klart som mål - targetReady - 15</li>

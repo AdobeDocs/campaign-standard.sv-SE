@@ -1,6 +1,6 @@
 ---
 title: SMS-rapport
-description: 'Med SMS-rapporten är du välbekant och lär dig mer om hur era SMS-leveranser fungerar. '
+description: Med SMS-rapporten är du välbekant och lär dig mer om hur era SMS-leveranser fungerar.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports

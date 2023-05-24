@@ -1,6 +1,6 @@
 ---
 title: Välja en målgrupp i ett meddelande
-description: '"Stegvisa procedurer för att välja målgrupper i ett e-postmeddelande. Huvudmålpopulation och testprofiler."'
+description: "Stegvisa procedurer för att välja målgrupper i ett e-postmeddelande. Huvudmålpopulation och testprofiler."
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences

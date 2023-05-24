@@ -15,15 +15,15 @@ ht-degree: 4%
 
 # Om kanalkonfiguration{#about-channel-configuration}
 
-All communication channels in Adobe Campaign must be correctly configured to be able to effectively send messages.
+Alla kommunikationskanaler i Adobe Campaign måste vara korrekt konfigurerade för att effektivt kunna skicka meddelanden.
 
-The different configurations are as follows:
+De olika konfigurationerna är följande:
 
-* Technical configuration of the channel, including routing, processing rules, deliverability parameters, etc.
-* Meddelandemallar och egenskaper. All messages are based on a template. Adobe Campaign innehåller en uppsättning fördefinierade mallar för alla aktiverade kanaler. Du kan duplicera och anpassa de här mallarna.
-* Meddelandeegenskaper. When creating a new message, you can finetune the properties depending on your needs.
-* Some channels offer additional configurations that are optional, such as Email BCC.
+* Kanalens tekniska konfiguration, inklusive routning, bearbetningsregler, parametrar för leveransförmåga osv.
+* Meddelandemallar och egenskaper. Alla meddelanden är baserade på en mall. Adobe Campaign innehåller en uppsättning fördefinierade mallar för alla aktiverade kanaler. Du kan duplicera och anpassa de här mallarna.
+* Meddelandeegenskaper. När du skapar ett nytt meddelande kan du finjustera egenskaperna efter behov.
+* Vissa kanaler erbjuder ytterligare konfigurationer som är valfria, till exempel e-postkopia.
 
-The **[!UICONTROL Channel]** menu regroups the technical parameters linked to the different application channels (Email, SMS) as well as typology and quarantine management.
+The **[!UICONTROL Channel]** Menyn grupperar de tekniska parametrar som är länkade till olika programkanaler (e-post, SMS) samt typologi och karantänhantering.
 
 Administratörer har åtkomst till dessa konfigurationer i **[!UICONTROL Administration]** > **[!UICONTROL Channels]** -menyn.

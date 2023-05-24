@@ -1,5 +1,5 @@
 ---
-title: 'Målinrikta Adobe Experience Platform-målgrupper '
+title: Målinrikta Adobe Experience Platform-målgrupper
 description: Lär dig att rikta sig till Adobe Experience Platform målgrupper i arbetsflöden.
 audience: automating
 content-type: reference

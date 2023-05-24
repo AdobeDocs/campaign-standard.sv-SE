@@ -1,6 +1,6 @@
 ---
 title: Beskrivning av gränssnitt
-description: '"Lär dig att navigera och använda arbetsytan i Adobe Campaign: Startsida, övre raden, avancerade menyer och åtgärdsfält."'
+description: "Lär dig att navigera och använda arbetsytan i Adobe Campaign: Startsida, övre raden, avancerade menyer och åtgärdsfält."
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface

@@ -1,6 +1,6 @@
 ---
 title: Segmentering per åldersgrupp
-description: 'På den här sidan visas en segmentering av databasprofiler utifrån deras åldersgrupp. Målet med arbetsflödet är att skicka ett specifikt e-postmeddelande till varje åldersgrupp.  '
+description: På den här sidan visas en segmentering av databasprofiler utifrån deras åldersgrupp. Målet med arbetsflödet är att skicka ett specifikt e-postmeddelande till varje åldersgrupp.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities

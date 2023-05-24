@@ -1,6 +1,6 @@
 ---
 title: Om mallar
-description: '"Med Adobe Campaign-mallar kan du förkonfigurera parametrar beroende på dina behov: mallar kan innehålla en fullständig eller delvis konfiguration av marknadsföringsaktiviteten för att förenkla användningen av Adobe Campaign för icke-tekniska slutanvändare."'
+description: "Med Adobe Campaign-mallar kan du förkonfigurera parametrar beroende på dina behov: mallar kan innehålla en fullständig eller delvis konfiguration av marknadsföringsaktiviteten för att förenkla användningen av Adobe Campaign för icke-tekniska slutanvändare."
 audience: start
 content-type: reference
 topic-tags: managing-templates

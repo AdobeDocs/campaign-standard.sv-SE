@@ -261,7 +261,7 @@ Dessa loggmeddelanden används för att logga information om oväntade feltillst
   </tr> 
   <tr> 
    <td> WKF-560247 - Ett HTTP-rubrikvärde är felaktigt (rubrikvärde: '%s').</td> 
-   <td> <p>HTTP-rubrikvärdet är felaktigt (rubrikvärde: '%s'). </p>
+   <td> <p>HTTP header value is bad (header value: '%s'). </p>
     <p>Obs! Det här felet loggas när det anpassade rubrikvärdet inte kan valideras enligt <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr> 
   <tr> 

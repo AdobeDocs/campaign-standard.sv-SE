@@ -1,6 +1,6 @@
 ---
 title: Ej levererbara och studsningar
-description: 'Med rapporten Non-deliverables and bounces out-of-the-box får du reda på vilka fel som kan uppstå vid leveransen. '
+description: Med rapporten Non-deliverables and bounces out-of-the-box får du reda på vilka fel som kan uppstå vid leveransen.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports

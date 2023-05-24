@@ -12,7 +12,7 @@ exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
 source-git-commit: 53852538ac1e092dc9376119f29d969ed4b02952
 workflow-type: tm+mt
 source-wordcount: '1168'
-ht-degree: 83%
+ht-degree: 82%
 
 ---
 
@@ -145,7 +145,7 @@ Med protokollet Microsoft Azure Blob så kan du komma åt blob som finns på ett
 ### Konfiguration med filer som finns på Adobe Campaign-servern {#files-server-configuration-wf}
 
 Protokollet **[!UICONTROL File(s) present on the Adobe Campaign server]** motsvarar den databas som innehåller de filer som ska återställas.  
-Metat eller jokertecken (exempelvis * eller ?) kan användas för att filtrera filer.
+Metatecken eller jokertecken (till exempel &#42; eller ?) kan användas för att filtrera filer.
 
 Välj om du vill **[!UICONTROL Define a file path]** eller **[!UICONTROL Use a dynamic file path]**
 **[!UICONTROL Use a dynamic file path]**-alternativet ger dig möjligheten att använda ett standarduttryck och händelsevariabler för att anpassa namnet på filen som ska överföras. Mer information finns på [den här sidan](../../automating/using/customizing-workflow-external-parameters.md).

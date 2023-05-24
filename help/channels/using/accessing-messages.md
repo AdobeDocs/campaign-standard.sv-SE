@@ -1,6 +1,6 @@
 ---
 title: Åtkomst till meddelanden
-description: '"Lär dig hur du får åtkomst till meddelanden och deras avancerade funktioner: skapande, målinriktning, personalisering, utförande och rapportering."'
+description: "Lär dig hur du får åtkomst till meddelanden och deras avancerade funktioner: skapande, målinriktning, personalisering, utförande och rapportering."
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels

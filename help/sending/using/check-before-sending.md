@@ -4,7 +4,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: '"Lär dig hur du utför alla kontroller innan du skickar meddelandet när det är klart"'
+description: "Lär dig hur du utför alla kontroller innan du skickar meddelandet när det är klart"
 feature: Deliverability
 role: User
 level: Intermediate

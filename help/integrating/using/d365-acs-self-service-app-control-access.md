@@ -88,4 +88,4 @@ Från **[!UICONTROL Products]**  väljer du Campaign-instansen och följer stege
 
    Om det här är första gången som användaren läggs till i organisationen anger du information.
 
-1. Klicka **[!UICONTROL Save]** för att bekräfta.
+1. Klicka på **[!UICONTROL Save]** för att bekräfta.
