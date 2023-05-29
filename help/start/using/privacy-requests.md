@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1559'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Det är därför ditt ansvar som personuppgiftsansvarig att bekräfta identitete
 
 Innan du skapar förfrågningar om användarens information måste du definiera det namnutrymme som ska användas. Namnrymden är nyckeln som används för att identifiera den registrerade i databasen i Adobe Campaign. Det finns två färdiga namnrymder: e-post och mobiltelefon. Om du behöver en annan namnrymd (såsom ett anpassat profilfält) ska du följa de här stegen.
 
-Se även den här [självstudiekursen](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html#privacy) om hur du skapar en namnrymd.
+Se även den här [självstudiekursen](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html?lang=sv#privacy) om hur du skapar en namnrymd.
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Se även den här [självstudiekursen](https://experienceleague.adobe.com/docs/c
 
    ![](assets/privacy-create-new-namespace.png)
 
-   Mer information om namnrymder för identiteter finns i dokumentationen för [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html) .
+   Mer information om namnrymder för identiteter finns i dokumentationen för [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=sv) .
 
 1. Namnrymden för en identitetstjänst registreras till en namnrymd i Campaign. Du måste ange hur namnutrymmet ska stämmas av i Campaign.
 
@@ -91,13 +91,13 @@ Se även den här [självstudiekursen](https://experienceleague.adobe.com/docs/c
 
 Integrationen av Privacy Core Service låter dig automatisera dina förfrågningar om användarens information i ett sammanhang med flera olika lösningar via ett enda JSON API-anrop. Förfrågningar om användarens information som skickas från Privacy Core Service till alla lösningar i Experience Cloud hanteras automatiskt av Campaign via ett dedikerat arbetsflöde.
 
-Läs dokumentationen för [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) om hur du skapar förfrågningar om användarens information via Privacy Core Service.
+Läs dokumentationen för [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=sv) om hur du skapar förfrågningar om användarens information via Privacy Core Service.
 
 >[!IMPORTANT]
 >
->Om du vill skicka en begäran med den anpassade namnområdestypen använder du [JSON-metod](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html#access-delete){target="_blank"} för att göra en förfrågan.
+>Om du vill skicka en begäran med den anpassade namnrymdstypen utnyttjar du [JSON-metoden](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=sv#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=sv#access-delete){target="_blank"} för att skicka den.
 >
->Använd bara [Sekretessgränssnitt](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#request-builder){target="_blank"} för att skicka begäranden med standardnamnområdestypen.
+>Använd bara [Användargränssnittet för sekretess](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=sv#request-builder){target="_blank"} om du vill skicka begäranden med standardnamnrymdstypen.
 
 Varje jobb i Privacy core service delas upp i flera förfrågningar om användarens information i Campaign baserat på hur många namnrymder som används. En förfrågan motsvarar en namnrymd. Ett jobb kan även köras på flera instanser. Därför skapas flera filer för ett jobb. Om en förfrågan till exempel har två namnrymder och körs i tre instanser skickas totalt sex filer. En fil per namnrymd och instans.
 
@@ -125,7 +125,7 @@ Här följer en lista över färdiga resurser som tas i beaktande när förfråg
 
 Om du har skapat anpassade resurser som har en länk till profilresursen (egen typ) beaktas även de. Om du till exempel har en transaktionsresurs länkad till profilresursen och en transaktionsinformationsresurs länkad till transaktionsresursen beaktas båda.
 
-Se även [den här självstudiekursen](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html#privacy) om hur du modifierar anpassade resurser.
+Se även [den här självstudiekursen](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html?lang=sv#privacy) om hur du modifierar anpassade resurser.
 
 För att det här ska fungera måste du välja alternativet **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** i den anpassade resursen:
 
