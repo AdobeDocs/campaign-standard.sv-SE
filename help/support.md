@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '569'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ Få support via våra vanliga frågor och svar, god praxis, onlineresurser och s
 ### Vad är Kontrollpanelen?
 
 Med Kontrollpanelen kan du effektivisera arbetet som produktadministratör för Campaign Standard genom att hantera inställningar och spåra användningen för var och en av instanserna.
-[Klicka här](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html#discover-control-panel) för mer information.
+[Klicka här](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=sv#discover-control-panel) för mer information.
 
 >[!NOTE]
 >
@@ -93,23 +93,23 @@ Med Kontrollpanelen kan du effektivisera arbetet som produktadministratör för 
 
 ### Hur kommer jag åt Kontrollpanelen?
 
-Kontrollpanelen är tillgänglig direkt från Adobe Experience Cloud. [Klicka här](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html#discover-control-panel) för mer information.
+Kontrollpanelen är tillgänglig direkt från Adobe Experience Cloud. [Klicka här](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=sv#discover-control-panel) för mer information.
 
 ### Vanliga frågor och svar om Kontrollpanelen
 
-[Klicka här](https://experienceleague.adobe.com/docs/control-panel/using/faq.html) för att läsa vanliga frågor och svar om Kontrollpanelen i Campaign.
+[Klicka här](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=sv) för att läsa vanliga frågor och svar om Kontrollpanelen i Campaign.
 
 ### SFTP-hantering
 
-På Kontrollpanelen kan du interagera med alla SFTP-servrar som är anslutna till Campaign-instanser som du har tillgång till. Du kan övervaka deras lagringskapacitet och hantera IP-adresser på tillåtelselistan och offentliga SSH-nycklar. [Klicka här](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html#sftp-management) för mer information.
+På Kontrollpanelen kan du interagera med alla SFTP-servrar som är anslutna till Campaign-instanser som du har tillgång till. Du kan övervaka deras lagringskapacitet och hantera IP-adresser på tillåtelselistan och offentliga SSH-nycklar. [Klicka här](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=sv#sftp-management) för mer information.
 
 ### Underdomäner och certifikat
 
 Du kan övervaka dina underdomäner och deras certifikat. Läs mer:
 
-* [Märkning av underdomäner](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html#subdomains-and-certificates)
-* [Konfigurera en ny underdomän](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html#subdomains-and-certificates)
-* [Övervaka SSL-certifikat](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#subdomains-and-certificates)
+* [Märkning av underdomäner](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=sv#subdomains-and-certificates)
+* [Konfigurera en ny underdomän](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=sv#subdomains-and-certificates)
+* [Övervaka SSL-certifikat](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=sv#subdomains-and-certificates)
 
 ## Begär hjälp
 
