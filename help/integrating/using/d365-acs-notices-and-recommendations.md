@@ -8,10 +8,10 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
 workflow-type: tm+mt
-source-wordcount: '2507'
-ht-degree: 1%
+source-wordcount: '2471'
+ht-degree: 0%
 
 ---
 
@@ -43,11 +43,6 @@ Om du har konfigurerat integreringen för att utfärda vanliga profilborttagning
 
 1. Verifiera att posten har tagits bort från båda systemen
 
-Nedan finns länkar som hjälper dig att implementera och/eller ta bort sekretessrelaterade förfrågningar i varje system:
-
-* [Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/)
-
-* [Adobe Campaign Standard](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)
 
 >[!IMPORTANT]
 >
