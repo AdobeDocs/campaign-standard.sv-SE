@@ -40,13 +40,13 @@ Flerspråkig push kräver 14 kolumner i CSV-filen:
 
 Kontrollera CSV-exemplet genom att klicka på **[!UICONTROL Download a sample file]** i **[!UICONTROL Manage Content Variants]** -fönstret. Mer information finns i [section](../../channels/using/creating-a-multilingual-push-notification.md).
 
-* **title, messageBody, sound, badge, deplinkURI, category, iosMediaAttachmentURL, androidMediaAttachmentURL**: regelbundet push-nyttolastinnehåll. Du måste ange den här informationen på liknande sätt som när du skapar push-leveranser.
-* **Anpassade fält**: använda JSON-format för anpassade fält, t.ex. `{"key1":"value1","key2":"value2"}`. I exempelfilen ovan finns ett exempel på anpassade fält.
-* **isContentAvailable**: -flagga för kontroll av tillgängligt innehåll, värde 1 betyder true, värde 0 betyder false. Standardvärdet är 0. Om du lämnar den här kolumnen tom räknas värdet som 0.
-* **isMutableContent**: -flagga för Mutable Content, value 1 betyder true, value 0 betyder false. Standardvärdet är 0. Om du lämnar den här kolumnen tom räknas värdet som 0.
-* **locale**: språkinställning är fältet för språkvarianter, t.ex. &quot;en_us&quot; för amerikansk-engelska och &quot;fr_fr&quot; för Frankrike-franska.
+* **title, messageBody, sound, badge, deplinkURI, category, iosMediaAttachmentURL, androidMediaAttachmentURL**: reguljärt push-nyttolastinnehåll. Du måste ange den här informationen på liknande sätt som när du skapar push-leveranser.
+* **Anpassade fält**: använd JSON-format för anpassade fält, t.ex. `{"key1":"value1","key2":"value2"}`. I exempelfilen ovan finns ett exempel på anpassade fält.
+* **isContentAvailable**: flagga för kontrollen Tillgängligt innehåll, värde 1 betyder true, värde 0 betyder false. Standardvärdet är 0. Om du lämnar den här kolumnen tom räknas värdet som 0.
+* **isMutableContent**: flagga för muterbart innehåll, värde 1 betyder true, värde 0 betyder false. Standardvärdet är 0. Om du lämnar den här kolumnen tom räknas värdet som 0.
+* **locale**: locale is the field for language variants, e.g. &quot;en_us&quot; for US-English and &quot;fr_fr&quot; for France-French.
 * **språk**: namnet på det språk som är associerat med språkinställningen. Om språkinställningen till exempel är &quot;en_us&quot; ska namnet på språket vara &quot; English-United States&quot;.
-* **silentPush**: -flagga för push-meddelandetypen. Om det är ett vanligt push-meddelande ska värdet vara 0. Om det är en tyst överföring ska värdet vara 1. Standardvärdet är 0. Om du lämnar den här kolumnen tom räknas värdet som 0.
+* **silentPush**:-flagga för push-meddelandetypen. Om det är ett vanligt push-meddelande ska värdet vara 0. Om det är en tyst överföring ska värdet vara 1. Standardvärdet är 0. Om du lämnar den här kolumnen tom räknas värdet som 0.
 
 ## Begränsningar och riktlinjer för att skapa CSV-filer {#constraints-guideline-csv}
 
@@ -88,9 +88,9 @@ I intervallet finns två obligatoriska attribut:
 
 * Ett annat är data-nl-expr, som är sökvägen till personaliseringsfältet. Om du till exempel infogar anpassningsfältet&quot;firstName&quot; från användargränssnittet, blir navigeringssökvägen **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** (vilket visas i bilden nedan). I det här fallet blir sökvägen
 
-   ```
-   /context/profile/firstName. data-nl-expr="/context/profile/firstName".
-   ```
+  ```
+  /context/profile/firstName. data-nl-expr="/context/profile/firstName".
+  ```
 
 ![](assets/multilingual_push_2.png)
 
@@ -122,7 +122,7 @@ Följande språk stöds:
 | be_by | Vitryska - Vitryssland |
 | bs_ba | Bosniska - Bosnien |
 | bg_bg | Bulgariska - Bulgarien |
-| ca_es | Katalanska - Spanien |
+| _ca | Katalanska - Spanien |
 | zh_cn | Kinesiska (förenklad) - Kina |
 | zh_sg | Kinesiska (förenklad) - Singapore |
 | zh_hk | Kinesiska (traditionell) - Hongkong SAR of China |
@@ -131,9 +131,9 @@ Följande språk stöds:
 | cs_cz | Tjeckiska - Czechia |
 | da_dk | Danska - Danmark |
 | nl_be | Nederländska - Belgien |
-| nl_nl | Nederländska - Nederländerna |
-| en_au | Engelska - Australien |
-| en_bz | Engelska - Belize |
+| n_l | Nederländska - Nederländerna |
+| en_au | English - Australien |
+| en_bz | English - Belize |
 | en_ca | Engelska - Kanada |
 | en_in | Engelska - Indien |
 | en_ie | Engelska - Irland |
@@ -153,7 +153,7 @@ Följande språk stöds:
 | fr_lu | Franska - Luxemburg |
 | fr_ch | Franska - Schweiz |
 | de_at | Tyska - Österrike |
-| de_de | Tyska - Tyskland |
+| de | Tyska - Tyskland |
 | de_lu | Tyska - Luxemburg |
 | de_ch | Tyska - Schweiz |
 | el_cy | Grekiska - Cypern |
@@ -171,7 +171,7 @@ Följande språk stöds:
 | k_kz | Kazakiska - Kazakstan |
 | ko_kr | Koreanska - Sydkorea |
 | lv_lv | Lettiska - Lettland |
-| lt_lt | Litauiska - Litauen |
+| l_it | Litauiska - Litauen |
 | mk_mk | Makedonska - Makedonien |
 | ms_my | Malajiska - Malaysia |
 | M_in | Marathi - Indien |

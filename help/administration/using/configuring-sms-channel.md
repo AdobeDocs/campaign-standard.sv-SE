@@ -59,7 +59,7 @@ Om du vill använda SMPP-protokollet kan du även skapa ett nytt externt konto. 
 
    Värdena för alla fält som motsvarar varaktighet måste fyllas i i sekunder.
 
-1. Definiera de SMS-C-specifika parametrarna om du måste definiera en specifik kodmappning. Mer information finns i avsnittet [SMSC-specifikationer](#smsc-specifics) .
+1. Definiera SMS-C-specifika parametrar om du måste definiera en specifik kodmappning. Mer information finns i avsnittet [SMSC-specifikationer](#smsc-specifics) .
 
    Aktivera **[!UICONTROL Send full phone number (send characters other than digits)]**-alternativet om du inte vill följa SMPP-protokollet och överföra **[!UICONTROL +]** prefixet till SMS-leverantörens server (SMS-C).
 
@@ -280,7 +280,7 @@ CR: Radretur
 
 **Avancerade tecken (räknas två gånger)**
 
-^ { } [ ~ ] | €
+^ { } [~] | €
 
 ### SMSC-specifikationer {#smsc-specifics}
 
@@ -305,15 +305,15 @@ Med funktionen **[!UICONTROL Define a specific mapping of encodings]** kan du de
    * Den försöker då använda GSM-kodning som den tilldelar värdet **data_coding = 0**.
    * Om GSM-kodningen misslyckas används **UCS2**-kodning som värdet **data_coding = 8** tilldelas till.
 
-   ![](assets/sms_data_coding.png)
+  ![](assets/sms_data_coding.png)
 
 * När funktionen **[!UICONTROL Define a specific mapping of encodings]** är markerad kan du definiera de kodningar som du vill använda samt de länkade **[!UICONTROL data_coding]** fältvärdena.  Adobe Campaign kommer att försöka använda den första kodningen i listan om den första kodningen visar sig vara omöjlig. Därefter kommer den försöka följande:
 
-   Deklarationsordningen är viktig: Vi rekommenderar att du placerar listan i stigande ordning **för omkostnader** så att du kan välja kodningar som gör att du får plats med så många tecken som möjligt i varje SMS.
+  Deklarationsordningen är viktig: Vi rekommenderar att du placerar listan i stigande ordning **för omkostnader** så att du kan välja kodningar som gör att du får plats med så många tecken som möjligt i varje SMS.
 
-   Deklarera bara de kodningar som du vill använda.  Om vissa av kodningarna som tillhandahålls av SMS-C inte stämmer överens med ditt användningsändamål bör du inte deklarera dem i listan.
+  Deklarera bara de kodningar som du vill använda.  Om vissa av kodningarna som tillhandahålls av SMS-C inte stämmer överens med ditt användningsändamål bör du inte deklarera dem i listan.
 
-   ![](assets/sms_data_coding1.png)
+  ![](assets/sms_data_coding1.png)
 
 ### Automatiskt svar skickat till MO {#automatic-reply-sent-to-the-mo}
 
@@ -333,19 +333,19 @@ Från **[!UICONTROL Advanced parameters]** avsnitt:
 
 * The **[!UICONTROL Short code]** gör att du kan lägga till en viss kort kod i leveransen. Mottagare som valde bort den här korta koden exkluderas automatiskt när meddelandet förbereddes. Mer information om hur du konfigurerar kort kod finns i [det här avsnittet](../../channels/using/managing-incoming-sms.md).
 
-   >[!NOTE]
-   >
-   >Om **[!UICONTROL Short code]** fältet är tomt, värdet för **[!UICONTROL Short code]** fält som angetts i det externa kontot kommer att användas.
+  >[!NOTE]
+  >
+  >Om **[!UICONTROL Short code]** fältet är tomt, värdet för **[!UICONTROL Short code]** fält som angetts i det externa kontot kommer att användas.
 
 Från **[!UICONTROL Send]** i en SMS-mall:
 
 * Med det här **[!UICONTROL Maximum number of SMS per message]** alternativet kan du definiera antalet SMS som ska användas för att skicka ett meddelande.  Om det här antalet överskrids skickas inte meddelandet.
 
-   >[!IMPORTANT]
-   >
-   >Om du har infogat ett personaliserat fält eller villkorlig text i innehållet av SMS-meddelandet kan längden på meddelandet och därmed antalet SMS som skickas variera från en mottagare till en annan.  Mer information om detta hittar du i avsnittet [Anpassa SMS-meddelanden](../../channels/using/personalizing-sms-messages.md) .
+  >[!IMPORTANT]
+  >
+  >Om du har infogat ett personaliserat fält eller villkorlig text i innehållet av SMS-meddelandet kan längden på meddelandet och därmed antalet SMS som skickas variera från en mottagare till en annan.  Mer information om detta hittar du i avsnittet [Anpassa SMS-meddelanden](../../channels/using/personalizing-sms-messages.md) .
 
-   ![](assets/sms_smpp_3.png)
+  ![](assets/sms_smpp_3.png)
 
 * I fältet **[!UICONTROL Transmission mode]** kan du bestämma leveransmetoden för SMS-meddelanden:
 

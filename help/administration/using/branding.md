@@ -44,7 +44,7 @@ Ett **varumärke** definieras av följande egenskaper:
 
 * En **identitet**, som definierar och personanpassar varumärket. Det här avsnittet innehåller följande fält:
 
-   ![](assets/branding_01.png)
+  ![](assets/branding_01.png)
 
    * **Etikett** som visas i gränssnittet
    * **Varumärkets namn**
@@ -53,7 +53,7 @@ Ett **varumärke** definieras av följande egenskaper:
 
 * **[!UICONTROL Header parameters of sent emails]** som anpassar vad mottagarna av dina kampanjer kommer att se. Det här avsnittet innehåller följande fält:
 
-   ![](assets/branding_04_header.png)
+  ![](assets/branding_04_header.png)
 
    * **Avsändare (e-postadress)** med varumärkets e-postadress.
    * **Avsändare (namn)** med varumärkets namn.
@@ -61,33 +61,33 @@ Ett **varumärke** definieras av följande egenskaper:
    * **Skicka svar till (namn)** med varumärkets namn.
    * **Fel (e-postadress)** med den e-postadress som ska användas om ett fel uppstår.
 
-   >[!IMPORTANT]
-   >
-   >Om avsändarens namn och e-postadress inte har ändrats i det e-postmeddelande som skapas från mallen ska du kontrollera mallens avancerade inställningar när du har uppdaterat rubrikparametrarna för e-postmeddelandena.
+  >[!IMPORTANT]
+  >
+  >Om avsändarens namn och e-postadress inte har ändrats i det e-postmeddelande som skapas från mallen ska du kontrollera mallens avancerade inställningar när du har uppdaterat rubrikparametrarna för e-postmeddelandena.
 
 * **Server som visas på Internet** definierar de servrar som används för spårning men även för åtkomst till landningssidor. Det här avsnittet innehåller följande fält:
 
-   ![](assets/configure_branding_04.png)
+  ![](assets/configure_branding_04.png)
 
    * **Extern URL för den programserver** används som värd och för åtkomst till de olika landningssidor som du skapar.
    * **Extern URL för spårningsservern** används som spårad URL under leveranser.
    * **Extern URL för spegelsidservern** används som standardspegelsida i dina leveranser.
 
-   >[!NOTE]
-   >
-   >Om du vill visa förhandsgranskningen av landningssidan och återgivningen av spegelsidan i användargränssnittet för Campaign måste URL:erna för programservern och spegelsidservern vara säkra. I så fall ska du använda https:// i stället för http:// när du konfigurerar dessa URL-adresser.
+  >[!NOTE]
+  >
+  >Om du vill visa förhandsgranskningen av landningssidan och återgivningen av spegelsidan i användargränssnittet för Campaign måste URL:erna för programservern och spegelsidservern vara säkra. I så fall ska du använda https:// i stället för http:// när du konfigurerar dessa URL-adresser.
 
 * **[!UICONTROL Tracking URL configuration (Web Analytics)]**, som definierar konfigurationen för spårning av URL:er för ert varumärke.
 
-   De ytterligare parametrar som gör det möjligt att spåra länkar på externa system, som Web Analytics-verktyg som Adobe Analytics eller Google Analytics, definieras här.
+  De ytterligare parametrar som gör det möjligt att spåra länkar på externa system, som Web Analytics-verktyg som Adobe Analytics eller Google Analytics, definieras här.
 
-   ![](assets/branding_05.png)
+  ![](assets/branding_05.png)
 
 ## Skapa ett nytt varumärke {#creating-a-brand}
 
-Du kan lägga till nya enheter i organisationen i Campaign eller skapa en ny typ av e-post som du måste skicka under en annan underdomän. Gör så här:
+Du kan lägga till nya entiteter i organisationen i Campaign eller skapa en ny typ av e-post som du måste skicka under en annan underdomän. Gör så här:
 
-1. **Konfigurera en ny underdomän** - För alla nya underdomäner som ska användas av Adobe är det första steget att konfigurera den. Du kan göra detta genom att [Kontrollpanelen för kampanj](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=sv) eller kontakta Adobe tekniska kontaktpersoner. Läs mer om konfiguration av underdomäner [i den här artikeln](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html).
+1. **Konfigurera en ny underdomän** - För alla nya underdomäner som ska användas av Adobe är det första steget att konfigurera den. Du kan göra detta genom att [Kampanjkontrollpanelen](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=sv) eller kontakta Adobe tekniska kontaktpersoner. Läs mer om konfiguration av underdomäner [i den här artikeln](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html).
 
    >[!NOTE]
    >
@@ -95,7 +95,7 @@ Du kan lägga till nya enheter i organisationen i Campaign eller skapa en ny typ
 
 1. **Skapa en biljett** - När underdomänen har konfigurerats konfigureras den av Adobe i din produktionsmiljö. För att begära detta [skapa en biljett till kundtjänst](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) med följande information:
 
-   * Ämne: ACS Ny varumärkeskonfiguration
+   * Angående: ACS Nytt varumärke
 
    * Innehåll: En ny domän har konfigurerats och vi vill konfigurera den i vår Campaign-plattform
 
@@ -180,7 +180,7 @@ Som leveranschef ansvarar du för att skapa leveransmallar för det nya varumär
 
    Leveransmallen kan nu användas för att skapa e-postmeddelanden som skickas till en målgrupp.
 
-#### Steg 3: Använd det nya varumärket i en leverans {#use-the-new-brand-in-a-delivery}
+#### Steg 3: Använd det nya varumärket {#use-the-new-brand-in-a-delivery}
 
 Följ stegen nedan för att skapa ett e-postmeddelande som är kopplat till ett varumärke:
 

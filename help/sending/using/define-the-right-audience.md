@@ -18,7 +18,7 @@ ht-degree: 11%
 
 # Definiera rätt målgrupp {#define-the-right-audience}
 
-Målgruppen är följande: skapa listor noggrant, testa e-postmeddelanden på populära e-postklienter och mobila enheter och se till att e-postlistorna är aktuella (utan okända eller föråldrade adresser). Du kan också skicka korrektur som hjälper dig att konfigurera en komplett valideringscykel.
+Målgruppspopulationen är avgörande: skapa listor noggrant, testa e-postmeddelanden på populära e-postklienter och mobila enheter och se till att e-postlistorna är aktuella (utan okända eller föråldrade adresser). Du kan också skicka korrektur som hjälper dig att konfigurera en komplett valideringscykel.
 
 Läs mer om målpopulationer [i det här avsnittet](../../audiences/using/selecting-an-audience-in-a-message.md)
 
@@ -26,7 +26,7 @@ Läs mer om målpopulationer [i det här avsnittet](../../audiences/using/select
 
 När innehållet är klart måste du noga definiera vem som ska få meddelandet.
 
-För att leveransen ska bli framgångsrik vill ni skicka det mest relevanta personaliserade innehållet till rätt mottagare. Med Adobe Campaign kan ni skapa det mest korrekta målet: kan du välja mottagare utifrån deras ålder, lokalisering, vad de har köpt, om de har klickat på en länk i en tidigare leverans osv. Med Adobe Campaign kan du även definiera testprofiler, kontrollgrupper och startadresser för att vara säker på att målet är korrekt.
+För att leveransen ska bli framgångsrik vill ni skicka det mest relevanta personaliserade innehållet till rätt mottagare. Med Adobe Campaign kan du skapa det mest korrekta målet: du kan välja mottagare utifrån deras ålder, lokalisering, vad de köpt, om de klickat på en länk i en tidigare leverans osv. Med Adobe Campaign kan du även definiera testprofiler, kontrollgrupper och startadresser för att vara säker på att målet är korrekt.
 
 ## Målmappningar {#target-mappings}
 

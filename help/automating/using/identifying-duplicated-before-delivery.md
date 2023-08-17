@@ -26,15 +26,15 @@ Arbetsflödet består av:
 
 * A [Fråga](../../automating/using/query.md) som gör att du kan definiera målet för e-postmeddelandet. Här riktar sig arbetsflödet till alla profiler mellan 18 och 25 år som har funnits i klientdatabasen i mer än ett år.
 
-   ![](assets/deduplication_example_query.png)
+  ![](assets/deduplication_example_query.png)
 
 * A [Deduplicering](../../automating/using/deduplication.md) -aktivitet som gör att du kan identifiera de dubbletter som kommer från föregående fråga. I det här exemplet sparas bara en post för varje dubblett. Dubbletterna identifieras med e-postadressen. Det innebär att e-postleveransen bara kan skickas en gång för varje e-postadress som ska finnas i målgruppen.
 
-   Den valda dedupliceringsmetoden är **[!UICONTROL Non-empty value]**. På så vis kan du se till att poster med **förnamn** som har dubbletter prioriteras. Detta gör det mer sammanhängande om förnamnet används i anpassningsfältet i e-postinnehållet.
+  Den valda dedupliceringsmetoden är **[!UICONTROL Non-empty value]**. På så vis kan du se till att poster med **förnamn** som har dubbletter prioriteras. Detta gör det mer sammanhängande om förnamnet används i anpassningsfältet i e-postinnehållet.
 
-   Dessutom läggs en extra övergång till för att behålla dubbletterna och kunna visa dem.
+  Dessutom läggs en extra övergång till för att behålla dubbletterna och kunna visa dem.
 
-   ![](assets/deduplication_example_dedup.png)
+  ![](assets/deduplication_example_dedup.png)
 
 * An [E-postleverans](../../automating/using/email-delivery.md) placeras efter den huvudsakliga utgående övergången för dedupliceringen.
 * A [Spara målgrupper](../../automating/using/save-audience.md) aktivitet som placerats efter den extra övergången av dedupliceringen för att spara dubbletterna i en **Dubbletter** målgrupp. Den här målgruppen kan återanvändas för att direkt exkludera medlemmarna från alla e-postleveranser.

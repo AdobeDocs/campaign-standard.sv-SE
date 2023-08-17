@@ -19,7 +19,7 @@ ht-degree: 6%
 
 Med Adobe Campaign kan du exportera listor direkt i en fil för framtida bruk. När du exporterar en lista i en fil skapas en loggpost i **[!UICONTROL Export audits]** -menyn. Mer information om exportgranskningar finns i avsnittet [Granska exportering](../../administration/using/auditing-export-logs.md).
 
-![](assets/do-not-localize/how-to-video.png) [Upptäck hur du konfigurerar en lista i en video](#video)
+![](assets/do-not-localize/how-to-video.png) [Upptäck hur du konfigurerar en lista i video](#video)
 
 Med alternativet för exportlista kan du exportera högst 100 000 rader som standard och som definieras av **Nms_ExportListLimit** alternativ. Det här alternativet kan hanteras av den funktionella administratören under **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** -menyn.
 
@@ -40,9 +40,9 @@ Exportlistan är tillgänglig på alla skärmar som har en **Lista** lägesvy, f
 
    Ett popup-fönster visas som bekräftar exporten. När du har bekräftat exporten hämtas filen automatiskt till datorn.
 
-Filen genereras i CSV-format med filtillägget .TXT. Det namnges enligt den exporterade resursen och exportdatumet. Till exempel: namnet profileBase_20150426_120253.txt skulle tillämpas på en profilexport som utfördes den 26 april 2015 kl. 12:02:53. Den är kodad i UTF-8-format.
+Filen genereras i CSV-format med filtillägget .TXT. Det namnges enligt den exporterade resursen och exportdatumet. Exempel: namnet profileBase_20150426_120253.txt används för en profilexport som utförs den 26 april 2015 kl. 12:02:53. Den är kodad i UTF-8-format.
 
-De numeriska värdena och datumen tar hänsyn till lokal tid (nationella inställningar) för användaren som utför exporten. Till exempel: DD-MM-YYYY eller MM-DD-YYYY
+De numeriska värdena och datumen tar hänsyn till lokal tid (nationella inställningar) för användaren som utför exporten. Exempel: DD-MM-YYY eller MM-DD-YYY.
 
 Om du vill exportera filer som är större än detta måste du skapa ett dedikerat arbetsflöde. Se [Extrahera fil](../../automating/using/extract-file.md) -avsnitt.
 
@@ -50,7 +50,7 @@ Om du vill exportera filer som är större än detta måste du skapa ett dediker
 
 Följande exempel är en export som utförs från profillistan som definieras nedan:
 
-* Visade kolumner (i ordning): Efternamn, Förnamn, Födelsedatum, E-postadress.
+* Kolumner som visas (i ordning): Efternamn, Förnamn, Födelsedatum, E-postadress.
 * Namnen sorteras i alfabetisk ordning.
 
 ![](assets/export_list_example1.png)
@@ -76,7 +76,7 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 * [Roller](../../administration/using/list-of-roles.md)
 * [Anpassa listor](../../start/using/customizing-lists.md)
 
-## Videokurs {#video}
+## Självstudievideo {#video}
 
 I den här videon visas hur du konfigurerar listor.
 

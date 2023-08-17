@@ -22,15 +22,15 @@ The **[!UICONTROL Tracking indicators]** rapporten innehåller nyckelindikatorer
 
 >[!NOTE]
 >
->För att få åtkomst till dessa data måste spårning aktiveras när en leverans förbereds.
+>För att få åtkomst till dessa data måste spårning vara aktiverat när en leverans förbereds.
 
 ![](assets/delivery_reports_2.png)
 
 The **[!UICONTROL Tracking indicators]** tabell och **De fem vanligaste leveranserna** diagrammet innehåller tillgängliga data för e-postspårning, till exempel:
 
-* **[!UICONTROL Delivered]**: Antal meddelanden som har skickats. Fel som uppstår (studsar) beaktas. Men klagomål (skräppostdeklarationer) och meddelanden som&quot;frånvaromeddelanden&quot; tas inte med i beräkningen.
-* **Öppna**: Antalet gånger ett meddelande öppnades i en leverans.
-* **Klicka**: Antalet gånger som innehållet klickades på i en leverans.
+* **[!UICONTROL Delivered]**: Antal meddelanden som har skickats. Fel som uppstår (studsar) beaktas. Men klagomål (skräppostdeklarationer) och meddelanden som&quot;frånvaromeddelanden&quot; beaktas inte.
+* **Öppna**: Antal gånger ett meddelande öppnades i en leverans.
+* **Klicka**: Antal gånger som innehållet klickades i en leverans.
 * **Avbeställ**: Antal klick på prenumerationslänken.
-* **Skräppost:** Antalet mottagare som har deklarerat ett e-postmeddelande som skräppost.
+* **Spam:** Antalet mottagare som har deklarerat ett e-postmeddelande som skräppost.
 * **Spegelsida**: Antalet klick på länken för spegelsidan.

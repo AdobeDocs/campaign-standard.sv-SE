@@ -26,17 +26,17 @@ Det finns två typer av korrekturmottagare:
 
 * **Testprofiler** ger dig möjligheten att rikta in dig på fler mottagare som inte matchar de definierade målkriterierna.
 
-   De kan läggas in i målgruppen för ett meddelande för att upptäcka om mottagardatabasen används på ett bedrägligt sätt eller för att säkerställa att e-postmeddelanden kommer fram till inkorgen. Mer information finns i [Hantera testprofiler](../../audiences/using/managing-test-profiles.md).
+  De kan läggas in i målgruppen för ett meddelande för att upptäcka om mottagardatabasen används på ett bedrägligt sätt eller för att säkerställa att e-postmeddelanden kommer fram till inkorgen. Mer information finns i [Hantera testprofiler](../../audiences/using/managing-test-profiles.md).
 
-   >[!NOTE]
-   >
-   >Om du vill skicka korrektur måste testprofilerna inkluderas i meddelandets målgrupp.
+  >[!NOTE]
+  >
+  >Om du vill skicka korrektur måste testprofilerna inkluderas i meddelandets målgrupp.
 
 * **Med ersättningsprofiler** kan du placera dig själv som en av målprofilerna och få en exakt representation av meddelandet som profilen får. Mer information finns i [Testa e-postmeddelanden med målprofiler](../../sending/using/testing-messages-using-target.md).
 
-   >[!NOTE]
-   >
-   >Den här funktionen är endast tillgänglig för e-postkanalen.
+  >[!NOTE]
+  >
+  >Den här funktionen är endast tillgänglig för e-postkanalen.
 
 ## Skicka en korrektur {#sending-a-proof}
 

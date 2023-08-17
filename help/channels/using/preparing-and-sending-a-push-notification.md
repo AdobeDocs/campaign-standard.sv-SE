@@ -35,8 +35,8 @@ Stegen för att skapa ett push-meddelande med Adobe Campaign är:
 
    Som standard kan du välja någon av följande två mallar:
 
-   * **[!UICONTROL Send push to Campaign profiles]**: Använd den här mallen för att rikta sig till de Adobe Campaign CRM-profiler som har prenumererat på ditt mobilprogram och som har valt att ta emot push-meddelanden. Du kan infoga [personalisering](../../designing/using/personalization.md#inserting-a-personalization-field) fält i ditt push-meddelande, t.ex. mottagarens förnamn.
-   * **[!UICONTROL Send push to app subscribers]**: Använd den här mallen för att skicka ett push-meddelande till alla kända och anonyma mobilprogramanvändare som har valt att ta emot meddelanden från programmet. Ni kan personalisera dessa meddelanden med data som samlats in från ert mobilprogram.
+   * **[!UICONTROL Send push to Campaign profiles]**: använd den här mallen för att rikta sig till de Adobe Campaign CRM-profiler som har prenumererat på ditt mobilprogram och som har valt att ta emot push-meddelanden. Du kan infoga [personalisering](../../designing/using/personalization.md#inserting-a-personalization-field) fält i ditt push-meddelande, till exempel mottagarens förnamn.
+   * **[!UICONTROL Send push to app subscribers]**: använd den här mallen för att skicka ett push-meddelande till alla kända och anonyma mobilprogramanvändare som har valt att ta emot meddelanden från ditt program. Ni kan personalisera dessa meddelanden med data som samlats in från ert mobilprogram.
 
    Du kan också välja flerspråkiga mallar. Mer information finns i [Skapa ett flerspråkigt push-meddelande](../../channels/using/creating-a-multilingual-push-notification.md).
 
@@ -48,7 +48,7 @@ Stegen för att skapa ett push-meddelande med Adobe Campaign är:
 
    ![](assets/push_notif_properties.png)
 
-   Du kan länka push-meddelandet till en kampanj. Välj det bland de kampanjer som redan har skapats.
+   Du kan länka push-meddelandet till en kampanj. Det gör du genom att välja det bland de kampanjer som redan har skapats.
 
 1. På följande skärm kan du ange en målgrupp, till exempel alla VIP som prenumererar på ett visst mobilprogram. Mer information finns i [Skapa målgrupper](../../audiences/using/creating-audiences.md).
 
@@ -68,12 +68,12 @@ Stegen för att skapa ett push-meddelande med Adobe Campaign är:
 
    ![](assets/push_notif_content_2.png)
 
-1. Innan du skickar meddelandet kan du testa det med testprofiler och sedan se exakt vad mottagarna kommer att se innan leveransen skickas. Välj **[!UICONTROL Audiences]** i leveranssammanfattningen och klicka på **[!UICONTROL Test profiles]** -fliken.
+1. Innan du skickar meddelandet kan du testa det med testprofiler och sedan se exakt vad mottagarna ser innan leveransen skickas. Välj **[!UICONTROL Audiences]** i leveranssammanfattningen och klicka på **[!UICONTROL Test profiles]** -fliken.
 
    Mer information om hur du skickar tester finns i [Testprofiler](../../sending/using/sending-proofs.md).
 
-1. Välj testprofiler och klicka på **[!UICONTROL Preview]** för att visa meddelandet: innehållet är personaliserat med testprofildata.
-1. Kontrollera layouten för push-meddelanden på olika enheter: Välj iPhone, Android-telefon, iPad eller Android-surfplatta för att förhandsgranska återgivningen.
+1. Välj testprofiler och klicka på **[!UICONTROL Preview]** för att visa meddelandet: innehållet anpassas efter testprofilens data.
+1. Kontrollera layouten för push-meddelanden på olika enheter: välj iPhone, Android-telefon, iPad- eller Android-surfplatta för att förhandsgranska återgivningen.
 
    ![](assets/push_notif_preview.png)
 
@@ -81,7 +81,7 @@ Stegen för att skapa ett push-meddelande med Adobe Campaign är:
 
    >[!CAUTION]
    >
-   >Om nyttolastens storlek överskrider 4 kB-gränsen levereras inte meddelandet.
+   >Om nyttolastens storlek överskrider 4 kB-gränsen kommer meddelandet inte att levereras.
 
 Observera att personaliseringsdata påverkar meddelandets storlek.
 

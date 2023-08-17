@@ -17,13 +17,13 @@ ht-degree: 1%
 
 # Skapa och använda återanvändbart innehåll {#using-reusable-content}
 
-Lär dig hur du överordnad publicerar e-postinnehåll. Med e-postdesignern kan du skapa mallar och fragment med ditt eget fördefinierade innehåll och återanvända dem för följande leveranser.
+Lär dig hur du hanterar utgåvor av e-postinnehåll. Med e-postdesignern kan du skapa mallar och fragment med ditt eget fördefinierade innehåll och återanvända dem för följande leveranser.
 
 ## Utforma e-postmeddelanden med mallar {#designing-templates}
 
 >[!NOTE]
 >
-> I Adobe Campaign Standard kan du skapa olika typer av mallar som du kommer åt via **Resurser** > **Mallar** -menyn. Mallarna som används i e-postdesignern är innehållsmallar. Mer information finns i [Om mallar](../../start/using/marketing-activity-templates.md).
+> I Adobe Campaign Standard kan du skapa olika typer av mallar som du kommer åt via **Resurs** > **Mallar** -menyn. Mallarna som används i e-postdesignern är innehållsmallar. Mer information finns i [Om mallar](../../start/using/marketing-activity-templates.md).
 
 ![](assets/do-not-localize/how-to-video.png) [Upptäck hur du skapar mallar i video](#video)
 
@@ -59,8 +59,8 @@ I följande exempel visas hur du skapar en mall för e-postinnehåll.
 1. Klicka på e-postetiketten för att komma åt **[!UICONTROL Properties]** i e-postdesignern.
 1. Ange en identifierbar etikett och välj följande parametrar för att kunna använda den här mallen i e-postmeddelanden:
 
-   * Välj **[!UICONTROL Shared]** eller **[!UICONTROL Delivery]** från **[!UICONTROL Content type]** nedrullningsbar lista.
-   * Välj **[!UICONTROL Template]** från **[!UICONTROL HTML type]** nedrullningsbar lista.
+   * Välj **[!UICONTROL Shared]** eller **[!UICONTROL Delivery]** från **[!UICONTROL Content type]** listruta.
+   * Välj **[!UICONTROL Template]** från **[!UICONTROL HTML type]** listruta.
 
    ![](assets/email_designer_create-template.png)
 
@@ -141,7 +141,7 @@ Om du vill använda den skapar du ett e-postmeddelande och väljer den innehåll
 * [Introduktionsvideo till e-postdesignern](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [Designa ett e-postinnehåll från grunden](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
-### Videokurs {#video}
+### Självstudievideo {#video}
 
 I dessa videofilmer visas hur du skapar en egen mall.
 
@@ -157,13 +157,13 @@ Det finns fler videor med Campaign Standard om hur man gör [här](https://exper
 >abstract="Ett fragment är ett återanvändbart innehållsblock som kan refereras i ett eller flera e-postmeddelanden."
 
 Ett fragment är en återanvändbar komponent som kan refereras i ett eller flera e-postmeddelanden.
-De finns i gränssnittet under **Resurser** > **Innehållsfragment och mallar**.
+De finns i gränssnittet under **Resurs** > **Innehållsfragment och mallar**.
 
 Så här använder du fragment på bästa sätt i e-postdesignern:
 
 * Skapa egna fragment. Se [Skapa ett innehållsfragment](#creating-a-content-fragment) och [Spara innehåll som ett fragment](#saving-content-as-a-fragment).
 * Använd dem så många gånger som behövs i e-postmeddelandena. Se [Infoga element i ett e-postmeddelande](#inserting-elements-into-an-email).
-* När du redigerar ett fragment synkroniseras ändringarna: De sprids automatiskt till alla e-postmeddelanden (förutsatt att de inte har förberetts eller skickats ännu) som innehåller det fragmentet.
+* När du redigerar ett fragment synkroniseras ändringarna: de sprids automatiskt till alla e-postmeddelanden (förutsatt att de inte har förberetts eller skickats än) som innehåller det fragmentet.
 
 När fragment läggs till i ett e-postmeddelande låses de som standard. Om du vill ändra ett fragment för ett visst e-postmeddelande kan du bryta synkroniseringen med det ursprungliga fragmentet genom att låsa upp det i det e-postmeddelande där det används. Ändringarna kommer inte att synkroniseras längre.
 
@@ -171,7 +171,7 @@ Om du vill låsa upp ett fragment i ett e-postmeddelande markerar du det och kli
 
 ![](assets/des_unlocking_fragment.png)
 
-Det fragmentet blir en fristående komponent som inte längre är länkad till det ursprungliga fragmentet. Den kan sedan redigeras som vilken annan innehållskomponent som helst. Se [Om innehållskomponenter](../../designing/using/designing-from-scratch.md#about-content-components).
+Det fragmentet blir en fristående komponent som inte längre är länkad till det ursprungliga fragmentet. Den kan sedan redigeras som en annan innehållskomponent. Se [Om innehållskomponenter](../../designing/using/designing-from-scratch.md#about-content-components).
 
 ### Infoga fragment i ett e-postmeddelande {#inserting-elements-into-an-email}
 
@@ -190,7 +190,7 @@ Om du vill definiera innehållet i ditt e-postmeddelande kan du lägga till inne
 
    ![](assets/email_designer_movefragment.png)
 
-1. Redigera elementet så att det matchar det här e-postmeddelandets exakta behov. Du kan lägga till text, länkar, bilder och så vidare.
+1. Redigera elementet så att det matchar e-postmeddelandets exakta behov. Du kan lägga till text, länkar, bilder och så vidare.
 
    >[!NOTE]
    >
@@ -213,7 +213,7 @@ Du kan skapa egna innehållsfragment och använda dem efter behov i ett eller fl
 1. Klicka på e-postetiketten för att komma åt **[!UICONTROL Properties]** i e-postdesignern.
 1. Ange en identifierbar etikett och välj följande parametrar för att hitta fragmentet när du redigerar e-postinnehåll:
 
-   * Eftersom fragment endast är kompatibla med e-post väljer du **[!UICONTROL Delivery]** från **[!UICONTROL Content type]** nedrullningsbar lista.
+   * Eftersom fragment endast är kompatibla med e-post väljer du **[!UICONTROL Delivery]** från **[!UICONTROL Content type]** listruta.
    * Välj **[!UICONTROL Fragment]** från **[!UICONTROL HTML type]** för att kunna använda det här innehållet som ett fragment.
 
    ![](assets/email_designer_createfragment.png)
@@ -231,7 +231,7 @@ Du kan skapa egna innehållsfragment och använda dem efter behov i ett eller fl
    >
    >Fragment kan inte innehålla anpassningsfält, dynamiskt innehåll eller något annat fragment.
    >
-   >Undvik att spara som fragmentinnehåll med tomma strukturkomponenter. När >fragment har infogats går det inte att redigera dem.
+   >Undvik att spara som fragmentinnehåll med tomma strukturkomponenter. När >fragment infogas går det inte att redigera dem.
    >
    >The [mobilvy](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) är inte tillgängligt i fragment.
 
@@ -245,11 +245,11 @@ Detta fragment kan nu användas i alla e-postmeddelanden som skapats med e-postd
 
 ### Spara innehåll som ett fragment {#saving-content-as-a-fragment}
 
-När du redigerar ett e-postmeddelande med e-postdesignern kan du direkt spara en del av det e-postmeddelandet som ett fragment.
+När du redigerar ett e-postmeddelande med e-postdesignern kan du spara en del av det som ett fragment direkt.
 
 * Du kan inte spara en struktur som innehåller anpassningsfält, dynamiskt innehåll eller något annat fragment som fragment.
 * Du kan bara markera strukturer som ligger intill varandra.
-   <!-- - You cannot select an empty structure.-->
+  <!-- - You cannot select an empty structure.-->
 
 1. När du redigerar ett e-postmeddelande i e-postdesignern väljer du **[!UICONTROL Save as fragment]** i huvudverktygsfältet.
 
@@ -299,7 +299,7 @@ To save as a fragment some email content that you created, follow the steps belo
 
 ## Skapa återanvändbara sidhuvuden och sidfötter med fragment {#header-footer-fragments}
 
-Skapa ett fragment för varje återanvändningsbart avsnitt med e-postdesignern. I det här exemplet skapar du två fragment: en för sidhuvudet och en för sidfoten. Sedan kan du kopiera relevanta delar från ditt befintliga innehåll till dessa fragment.
+Skapa ett fragment för varje återanvändningsbart avsnitt med e-postdesignern. I det här exemplet skapar du två fragment: ett för sidhuvudet och ett för sidfoten. Sedan kan du kopiera relevanta delar från ditt befintliga innehåll till dessa fragment.
 
 Följ stegen nedan för att göra detta:
 

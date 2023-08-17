@@ -59,13 +59,13 @@ När meddelandet har skickats till kontakterna visar zon **[!UICONTROL Deploymen
 * Procentandel öppna meddelanden
 * Procentandel klick i meddelanden (för e-post)
 
-   >[!NOTE]
-   >
-   >**[!UICONTROL Open rate]** och **[!UICONTROL Click-through rate]** uppdateras varje timme.
+  >[!NOTE]
+  >
+  >**[!UICONTROL Open rate]** och **[!UICONTROL Click-through rate]** uppdateras varje timme.
 
 ![](assets/sending_delivery.png)
 
-Om KPI:erna tar för lång tid att uppdatera eller inte visar resultaten från sändningsloggarna klickar du på **[!UICONTROL Compute stats]** i **[!UICONTROL Deployment]** -fönstret.
+Om KPI:erna tar för lång tid att uppdatera eller inte visar resultaten från sändningsloggarna klickar du på **[!UICONTROL Compute stats]** knappen i **[!UICONTROL Deployment]** -fönstret.
 
 ![](assets/sending_delivery7.png)
 
@@ -82,7 +82,7 @@ När ett meddelande har skickats kan du spåra mottagarnas beteende och övervak
 >
 >Det här avsnittet gäller endast för e-postkanaler.
 
-I **[!UICONTROL Summary]** varje e-postmeddelande, **[!UICONTROL Delivered]** från 100 % och sedan gradvis sjunker under hela leveransen [giltighetsperiod](../../administration/using/configuring-email-channel.md#validity-period-parameters), när de mjuka och hårda studenterna återrapporteras<!--from the Enhanced MTA to Campaign-->.
+I **[!UICONTROL Summary]** för varje e-postmeddelande, **[!UICONTROL Delivered]** från 100 % och sedan gradvis sjunker under hela leveransen [giltighetsperiod](../../administration/using/configuring-email-channel.md#validity-period-parameters), när de mjuka och hårda studenterna återrapporteras<!--from the Enhanced MTA to Campaign-->.
 
 Alla meddelanden visas som **[!UICONTROL Sent]** i [skicka loggar](../../sending/using/monitoring-a-delivery.md#sending-logs) så snart de har vidarebefordrats från Campaign till den förbättrade MTA-agenten (Message Transfer Agent). De är kvar i denna status såvida inte eller till [studsa](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) för det meddelandet kommuniceras tillbaka från Förbättrat MTA till Campaign.
 
@@ -112,7 +112,7 @@ Leveransloggarna visar **[!UICONTROL Pending]** status för varje måladress.
 
 ![](assets/efs-pending.png)
 
-När meddelandeleveransen till målprofilerna rapporteras i realtid från Enhanced MTA visar leveransloggarna **[!UICONTROL Sent]** status för varje adress som tog emot meddelandet. The **[!UICONTROL Delivered]** procentandelen ökas i enlighet med varje framgångsrik leverans.
+När meddelandeleveransen till målprofilerna rapporteras i realtid från Enhanced MTA visar leveransloggarna **[!UICONTROL Sent]** status för varje adress som har tagit emot meddelandet. The **[!UICONTROL Delivered]** procentandelen ökas i enlighet med varje lyckad leverans.
 
 När hårda studsmeddelanden rapporteras tillbaka från Förbättrat MTA ändras deras loggstatus från **[!UICONTROL Pending]** till **[!UICONTROL Failed]** och **[!UICONTROL Bounces + errors]** procentandelen ökas därefter.
 
@@ -132,7 +132,7 @@ När meddelanden med mjuk studsning rapporteras tillbaka från Förbättrat MTA 
 
 ### Ändringar som införs av EFS {#changes-introduced-by-efs}
 
-Tabellerna nedan visar de förändringar i KPI:er och överföring av loggstatus som införts av EFS-funktionen.
+Tabellerna nedan visar ändringar i KPI:er och överföring av loggstatus som införts av EFS-funktionen.
 
 **Med tjänsten för e-postfeedback**
 

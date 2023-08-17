@@ -43,7 +43,7 @@ Klicka på knappen **[!UICONTROL Change profile]** och välj en hontestprofil. O
 
 ![](assets/delivery_reports_hot-clicks_2.png)
 
-Klicka på knappen **[!UICONTROL Change profile]** och välj en testprofil vars födelsedatum matchar det här villkoret.
+Om du vill visa klick för mottagare över 25 klickar du på **[!UICONTROL Change profile]** och välj en testprofil vars födelsedatum matchar det här villkoret.
 
 Mer information om testprofiler finns i [Om testprofiler](../../audiences/using/managing-test-profiles.md).
 
@@ -57,13 +57,13 @@ En körningsleverans är ett icke-åtgärdbart och icke-funktionellt tekniskt me
 
 * Varje gång en återkommande leverans körs eller uppdateras.
 
-   Om arbetsflödet som hanterar den här leveransen till exempel körs en gång i månaden kommer det att finnas en körningsleverans per månad. Dessutom skapas ytterligare en körningsleverans varje gång innehållet i leveransen uppdateras.
+  Om arbetsflödet som hanterar den här leveransen till exempel körs en gång i månaden kommer det att finnas en körningsleverans per månad. Dessutom skapas ytterligare en körningsleverans varje gång innehållet i leveransen uppdateras.
 
-   Mer information om återkommande e-postleveranser finns i [E-postleverans](../../automating/using/email-delivery.md).
+  Mer information om återkommande e-postleveranser finns i [E-postleverans](../../automating/using/email-delivery.md).
 
-* Som standard en gång i månaden för transaktionsmeddelanden och varje gång redigeras ett transaktionsmeddelande och publiceras igen.
+* Som standard en gång i månaden för transaktionsmeddelanden, och varje gång som ett transaktionsmeddelande redigeras och publiceras igen.
 
-   Mer information om transaktionsmeddelanden finns i [Komma igång med transaktionsmeddelanden](../../channels/using/getting-started-with-transactional-msg.md).
+  Mer information om transaktionsmeddelanden finns i [Komma igång med transaktionsmeddelanden](../../channels/using/getting-started-with-transactional-msg.md).
 
 >[!NOTE]
 >

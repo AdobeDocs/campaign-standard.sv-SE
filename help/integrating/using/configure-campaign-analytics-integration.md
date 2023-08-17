@@ -23,7 +23,7 @@ För att starta integreringen mellan Adobe Campaign Standard och Adobe Analytics
 
 Externa konton och tekniska arbetsflöden kan bara hanteras av plattformens funktionsadministratör.
 
-1. På den avancerade menyn, via Adobe Campaign logotyp, väljer du **[!UICONTROL Administration > Application settings > External accounts]**.
+1. På den avancerade menyn via Adobe Campaign logotyp väljer du **[!UICONTROL Administration > Application settings > External accounts]**.
 1. Välj **[!UICONTROL Share KPIs with Adobe Analytics]** externt konto.
 
    ![](assets/analytics_2.png)
@@ -35,7 +35,7 @@ Externa konton och tekniska arbetsflöden kan bara hanteras av plattformens funk
    ![](assets/analytics_1.png)
 
 1. Klicka på knappen **[!UICONTROL Refresh report suites]**.
-1. Välj i dialogrutan **[!UICONTROL Analytics default report suite]** listruta för den Adobe Analytics-rapportsserie som du vill utöka med Adobe Campaign-data.
+1. Välj i dialogrutan **[!UICONTROL Analytics default report suite]** listruta för den Adobe Analytics-rapportsserie som du vill berika med Adobe Campaign-data.
 
    Ditt externa konto är nu klart och länkat med Adobe Analytics. Du kan när som helst inaktivera den genom att kontrollera **[!UICONTROL Enabled]** box.
 

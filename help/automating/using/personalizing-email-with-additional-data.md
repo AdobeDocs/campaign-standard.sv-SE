@@ -42,11 +42,12 @@ Arbetsflödet presenteras på följande sätt:
    * Två sammanställningar baserade på transaktionssamlingen: antalet köpta produkter och det totala inköpsbeloppet. Du kan lägga till dessa från **[!UICONTROL Data]**-fliken i det aggregerade konfigurationsfönstret med hjälp av sammanställningarna **Count** och **Sum** .  Se avsnittet [Lägg till en sammanställning](../../automating/using/query.md#adding-an-aggregate) .
    * En samling som anger belopp, datum och produkt för den senaste transaktionen.
 
-      För att göra detta så måste du lägga till de olika fälten som du vill visa i fliken **[!UICONTROL Data]** i fönstret för samlingskonfigurationen.
+     För att göra detta så måste du lägga till de olika fälten som du vill visa i fliken **[!UICONTROL Data]** i fönstret för samlingskonfigurationen.
 
-      Om du endast vill visa den senaste transaktionen så måste du ange &quot;1&quot; för **[!UICONTROL Number of lines to return]** och tillämpa en fallande sortering i fältet **Datum** i samlingen från **[!UICONTROL Sort]**-fliken.
+     Om du endast vill visa den senaste transaktionen så måste du ange &quot;1&quot; för **[!UICONTROL Number of lines to return]** och tillämpa en fallande sortering i fältet **Datum** i samlingen från **[!UICONTROL Sort]**-fliken.
 
-      Mer information finns i avsnitten [Lägg till en samling](../../automating/using/query.md#adding-a-collection) och [Sortera ytterligare data](../../automating/using/query.md#sorting-additional-data) .
+     Mer information finns i avsnitten [Lägg till en samling](../../automating/using/query.md#adding-a-collection) och [Sortera ytterligare data](../../automating/using/query.md#sorting-additional-data) .
+
    ![](assets/enrichment_example4.png)
 
 1. Om du vill kontrollera att data överförs korrekt av aktivitetens utgående övergång så startar du arbetsflödet för första gången (utan **[!UICONTROL Email delivery]** aktiviteten) och öppnar förfrågans utgående övergång.

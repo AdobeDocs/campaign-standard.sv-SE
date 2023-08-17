@@ -9,7 +9,7 @@ exl-id: 00714c80-bdaf-4241-bf2f-51498ca1dbef
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '229'
-ht-degree: 77%
+ht-degree: 80%
 
 ---
 
@@ -25,9 +25,9 @@ Standardrättigheterna är:
 
 * **[!UICONTROL Administration]**: Allmän administrationsrätt.
 
-   >[!NOTE]
-   >
-   >Om du arbetar med Experience Cloud-utlösare behöver du **[!UICONTROL Administration]** höger för att komma åt Experience Cloud-menyn Utlösare. Mer information om utlösare för Experience Cloud finns i detta [page](../../integrating/using/about-adobe-experience-cloud-triggers.md).
+  >[!NOTE]
+  >
+  >Om du arbetar med Experience Cloud-utlösare behöver du **[!UICONTROL Administration]** höger för att komma åt Experience Cloud-menyn Utlösare. Mer information om utlösare för Experience Cloud finns i detta [page](../../integrating/using/about-adobe-experience-cloud-triggers.md).
 
 * **[!UICONTROL Datamodel]**: Rätt att köra publikationer och skapa anpassade resurser.
 * **[!UICONTROL Generic import]**: Rätt att köra en generisk import av data. För att detta ska fungera måste du länka **[!UICONTROL Generic import]** roll till **[!UICONTROL Workflow]** roll.

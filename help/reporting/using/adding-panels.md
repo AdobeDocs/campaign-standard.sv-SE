@@ -23,7 +23,7 @@ Du kan påbörja rapporten genom att lägga till en uppsättning paneler i en se
 
 Med den här panelen kan du skapa rapporter efter behov. Du kan lägga till så många paneler du vill i dina rapporter för att filtrera data med olika tidsperioder.
 
-1. Klicka på **Paneler** ikon. Du kan också lägga till en panel genom att klicka på **Infoga-flik** och markera **Ny tom panel**.
+1. Klicka på **Panel** -ikon. Du kan också lägga till en panel genom att klicka på **Infoga-flik** och markera **Ny tom panel**.
 
    ![](assets/dynamic_report_panel_1.png)
 
@@ -39,7 +39,7 @@ Med frihandstabeller kan du skapa en tabell för att analysera data med hjälp a
 
 Det går att ändra storlek på alla tabeller och visualiseringar och de kan flyttas för att bättre anpassa rapporten.
 
-1. Klicka på **[!UICONTROL Panels]** ikon.
+1. Klicka på **[!UICONTROL Panels]** -ikon.
 
    ![](assets/dynamic_report_panel_1.png)
 
@@ -63,13 +63,13 @@ Det går att ändra storlek på alla tabeller och visualiseringar och de kan fly
 
    The **[!UICONTROL Column settings]** består av
 
-   * **[!UICONTROL Number]**: I kan du visa eller dölja sammanfattningsnummer i kolumnen.
-   * **[!UICONTROL Percent]**: I kan du visa eller dölja procent i kolumnen.
-   * **[!UICONTROL Interpret zero as no value]**: gör att du kan visa eller dölja när värdet är lika med noll.
-   * **[!UICONTROL Background]**: I kan du visa eller dölja den vågräta förloppsindikatorn i celler.
-   * **[!UICONTROL Include retries]**: gör att du kan inkludera återförsök i resultatet. Detta är endast tillgängligt för **[!UICONTROL Sent]** och **[!UICONTROL Bounces + Errors]**.
+   * **[!UICONTROL Number]**: gör att du kan visa eller dölja sammanfattningsnummer i kolumnen.
+   * **[!UICONTROL Percent]**: gör att du kan visa eller dölja procent i kolumnen.
+   * **[!UICONTROL Interpret zero as no value]**: låter dig visa eller dölja när värdet är lika med noll.
+   * **[!UICONTROL Background]**: gör att du kan visa eller dölja den vågräta förloppsindikatorn i celler.
+   * **[!UICONTROL Include retries]**: gör att du kan ta med återförsök i resultatet. Detta är endast tillgängligt för **[!UICONTROL Sent]** och **[!UICONTROL Bounces + Errors]**.
 
-1. Markera en eller flera rader och klicka på **[!UICONTROL Visualize]** ikon. En visualisering läggs till för att återspegla de rader du har valt.
+1. Markera en eller flera rader och klicka på **[!UICONTROL Visualize]** -ikon. En visualisering läggs till för att återspegla de rader du har valt.
 
    ![](assets/dynamic_report_freeform_5.png)
 

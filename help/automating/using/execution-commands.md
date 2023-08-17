@@ -26,15 +26,15 @@ Följande åtgärder är tillgängliga:
 
 **Starta**
 
-The ![](assets/play_darkgrey-24px.png) knappen startar körningen av ett arbetsflöde som sedan **Pågår** (blå) status. Om arbetsflödet pausades återupptas det, i annat fall startas det och de inledande aktiviteterna aktiveras sedan.
+The ![](assets/play_darkgrey-24px.png) knappen startar körningen av ett arbetsflöde som sedan **Pågår** (blå) status. Om arbetsflödet pausades återupptas det, annars startas det och de inledande aktiviteterna aktiveras sedan.
 
 >[!NOTE]
 >
->Starten är en asynkron process: begäran sparas och behandlas så snart som möjligt av arbetsflödets körningsmotor.
+>Start är en asynkron process: begäran sparas och kommer att behandlas så snart som möjligt av arbetsflödets körningsmotor.
 
 **Pausa**
 
-The ![](assets/pause_darkgrey-24px.png) knappen pausar körningen. Arbetsflödet börjar med **Varning** (gult). Inga nya aktiviteter aktiveras förrän de återupptas, men pågående åtgärder avbryts inte.
+The ![](assets/pause_darkgrey-24px.png) knappen pausar körningen. Arbetsflödet börjar med **Varning** (gul) status. Inga nya aktiviteter kommer att aktiveras förrän de återupptas, men pågående åtgärder avbryts inte.
 
 **Stoppa**
 
@@ -56,7 +56,7 @@ The ![](assets/check_darkgrey-24px.png) återaktiverar alla pausade eller inakti
 
 **Körningen har pausats**
 
-The ![](assets/check_pause_darkgrey-24px.png) pausar arbetsflödet vid den valda aktiviteten: den här aktiviteten och alla efterföljande aktiviteter (i samma gren) utförs inte.
+The ![](assets/check_pause_darkgrey-24px.png) pausar arbetsflödet vid den valda aktiviteten: den här aktiviteten och alla efterföljande aktiviteter (i samma gren) körs inte.
 
 **Ingen körning**
 

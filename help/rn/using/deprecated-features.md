@@ -114,7 +114,7 @@ Det här avsnittet visar funktioner som har tagits bort från Campaign Standard.
    <td> <p> Från och med Campaign 20.1 är SDK v4 föråldrat. <a href="https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/">Läs mer</a>.</p><br/>
    <p>The <a href="https://developer.adobe.com/client-sdks/documentation/">Adobe Experience Platform Mobile SDK</a> (tidigare kallat v5) har nu exklusivt stöd för kommande Adobe Experience Cloud-funktioner.</p>
    <p>Efter den 31 augusti 2021 kan kunder fortsätta att hämta och använda version 4 SDK:er, men det finns ingen kundtjänst eller tillgång till forum.</p>
-   <p>Lär dig hur du migrerar från SDK v4 till Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">på den här sidan</a>.</p></br>
+   <p>Lär dig migrera från SDK v4 till Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">på den här sidan</a>.</p></br>
      </td> 
   </tr> 
  </tbody> 

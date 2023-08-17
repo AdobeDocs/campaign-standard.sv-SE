@@ -108,7 +108,7 @@ ht-degree: 8%
                         <li>Slutförd - avslutad - avslutad</li>
                         <li>Varning - varning - varning</li>
                         <li>Fel - fel - fel</li>
-                        <li>OGILTIGT VÄRDE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -157,7 +157,7 @@ ht-degree: 8%
                         <li>Startat - startat - 1</li>
                         <li>Redigering - utgåva - 0</li>
                         <li>Slutförd - färdig - 2</li>
-                        <li>OGILTIGT VÄRDE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -252,7 +252,7 @@ Inkludera underprogram (med överordnad)
         </tr>
     </table>
 
-Endast berättigade föräldrar (berättigad förälder)
+Endast berättigade föräldrar (eligibilityParents)
 
 <table>
     <tr>
@@ -282,7 +282,7 @@ Planerad för angiven period (perPlanering)
     </tr>
 </table>
 
-Finns under angiven period (efter kalender)
+Presentera under angiven period (efter kalender)
 
 <table>
     <tr>

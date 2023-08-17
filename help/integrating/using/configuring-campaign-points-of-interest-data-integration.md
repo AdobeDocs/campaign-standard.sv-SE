@@ -58,7 +58,7 @@ Om du vill använda datapunkten Point of Interest med mobilprogram som konfigure
 
 ### Konfigurera en mobilapp i Adobe Campaign med SDK V4 {#setting-up-a-mobile-app-in-campaign}
 
-För att kunna samla in intressedata med Adobe Campaign måste du konfigurera mobilprogrammet som Adobe Campaign ska ta emot data från.
+För att kunna samla in data om intressepunkter med Adobe Campaign måste du konfigurera mobilprogrammet som Adobe Campaign ska ta emot data från.
 
 1. Klicka på **Adobe** logotyp, i det övre vänstra hörnet och välj **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app]**.
 1. Klicka **[!UICONTROL Create]** för att konfigurera ett program.
@@ -103,31 +103,31 @@ Du måste ha tillgång till Adobe Analytics för att kunna göra följande konfi
    * I **[!UICONTROL URL]** fält, kopiera **[!UICONTROL Collect PII Endpoint]** URL från mobilprogrammet som du konfigurerade i Adobe Campaign-gränssnittet, föregånget av servernamnet. Se [Konfigurera en mobilapp i Campaign](#setting-up-a-mobile-app-in-campaign).
    * Fyll i **[!UICONTROL Post Body]** fält enligt följande:
 
-      För iOS:
+     För iOS:
 
-      ```
-      {
-      "userKey": "{userKey}",
-      "pushPlatform":"apns",
-      "marketingCloudId":"{%mcid%}",
-      "cusEmail":"{email}",
-      "cusFirstName":"{firstName}",
-      "cusLastName":"{lastName}"
-      }
-      ```
+     ```
+     {
+     "userKey": "{userKey}",
+     "pushPlatform":"apns",
+     "marketingCloudId":"{%mcid%}",
+     "cusEmail":"{email}",
+     "cusFirstName":"{firstName}",
+     "cusLastName":"{lastName}"
+     }
+     ```
 
-      För Android:
+     För Android:
 
-      ```
-      {
-      "userKey": "{userKey}",
-      "pushPlatform":"gcm",
-      "marketingCloudId":"{%mcid%}",
-      "cusEmail":"{email}",
-      "cusFirstName":"{firstName}",
-      "cusLastName":"{lastName}"
-      }
-      ```
+     ```
+     {
+     "userKey": "{userKey}",
+     "pushPlatform":"gcm",
+     "marketingCloudId":"{%mcid%}",
+     "cusEmail":"{email}",
+     "cusFirstName":"{firstName}",
+     "cusLastName":"{lastName}"
+     }
+     ```
 
    * Ange **Innehållstyp** as **[!UICONTROL application/json]**.
    * I **Vilka datataggar utlöser återanslående?** väljer du en händelse, vanligen **[!UICONTROL Launched]** och **[!UICONTROL exists]**.
@@ -139,22 +139,22 @@ Du måste ha tillgång till Adobe Analytics för att kunna göra följande konfi
    * I **[!UICONTROL URL]** fält, kopiera **[!UICONTROL Location Services Endpoint]** URL från mobilprogrammet som du konfigurerade i Adobe Campaign-gränssnittet, föregånget av servernamnet. Se [Konfigurera en mobilapp i Campaign](#setting-up-a-mobile-app-in-campaign).
    * Fyll i **[!UICONTROL Post Body]** fält enligt följande:
 
-      ```
-      {
-      "locationData":{
-      "distances":"{a.loc.dist}",
-      "poiLabel":"{a.loc.poi}",
-      "latitude.a":"{a.loc.lat.a}",
-      "latitude.b":"{a.loc.lat.b}",
-      "latitude.c":"{a.loc.lat.c}",
-      "longitude.a":"{a.loc.lon.a}",
-      "longitude.b":"{a.loc.lon.b}",
-      "longitude.c":"{a.loc.lon.c}",
-      "appId":"{a.appid}",
-      "marketingCloudId":"{mid}"
-      }
-      }
-      ```
+     ```
+     {
+     "locationData":{
+     "distances":"{a.loc.dist}",
+     "poiLabel":"{a.loc.poi}",
+     "latitude.a":"{a.loc.lat.a}",
+     "latitude.b":"{a.loc.lat.b}",
+     "latitude.c":"{a.loc.lat.c}",
+     "longitude.a":"{a.loc.lon.a}",
+     "longitude.b":"{a.loc.lon.b}",
+     "longitude.c":"{a.loc.lon.c}",
+     "appId":"{a.appid}",
+     "marketingCloudId":"{mid}"
+     }
+     }
+     ```
 
    * Ange **Innehållstyp** as **[!UICONTROL application/json]**.
    * I **Vilka datataggar utlöser återanslående?**, markera **[!UICONTROL campaign.test]** och **[!UICONTROL exists]**.
@@ -168,7 +168,7 @@ Du måste ha tillgång till Adobe Analytics för att kunna göra följande konfi
 
 Bastjänstens SDK (Software Development Kit) underlättar integreringen av mobilapplikationer i Adobe Campaign.
 
-Det här steget beskrivs i det här [page](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html?lang=sv).
+Det här steget beskrivs i detta [page](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html?lang=sv).
 
 ### Definiera intressepunkter för Adobe Mobile Services {#defining-points-of-interest-in-adobe-mobile-services}
 
@@ -203,7 +203,7 @@ En lista över programmets prenumeranter visas även i **[!UICONTROL Mobile appl
 
 ## Åtkomst till insamlade platsdata {#accessing-collected-location-data}
 
-När konfigurationen är klar visas de insamlade intressepunkterna i **[!UICONTROL Places]** för varje profil. Så här öppnar du listan:
+När konfigurationen är klar visas de insamlade intressepunkterna i **[!UICONTROL Places]** -fliken för varje profil. Så här öppnar du listan:
 
 1. Välj en profil.
 1. Klicka på **[!UICONTROL Edit profile properties]** till höger.

@@ -386,7 +386,7 @@ De numeriska värdefunktionerna används för att konvertera text till tal.
 
 ## Övrigt {#others}
 
-Tabellen innehåller de återstående funktionerna.
+Tabellen innehåller de återstående funktionerna som är tillgängliga.
 
 <table> 
  <tbody> 
@@ -657,7 +657,7 @@ Strängfunktionerna används för att ändra en uppsättning strängar.
   <tr> 
    <td> <strong>encryption_aescbcEncrypt</strong><br /> </td> 
    <td> Krypterar med AES-algoritm (CBC-blockläge) en teckensträng (första parametern) med en nyckel (andra parametern) och en initieringsvektor (tredje parametern). Nyckeln och initieringsvektorn måste anges i en hexadecimal representation (med början <strong>\x</strong>). Resultatet anges hexadecimalt utan <strong>\x</strong>.<br /> Observera att nyckelstorleken kan vara 128 bitar, 192 bitar, 256 bitar (16, 24, 32 hexadecimala tecken), men vi rekommenderar att du använder 256 bitar och ett randomiserat IV med samma längd som nyckeln.<br /> </td> 
-   <td> encryption_aescbcEncrypt()&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /> Till exempel: encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
+   <td> encryption_aescbcEncrypt()&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /> Exempel: encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
   </tr> 
  </tbody> 
 </table>

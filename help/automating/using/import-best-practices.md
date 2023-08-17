@@ -30,7 +30,7 @@ Med importmallar är det mycket bekvämt att förbereda liknande importer och s�
 
 I många projekt byggs import utan **[!UICONTROL Deduplication]** eftersom filerna som används i projektet inte har dubbletter. Det kan ibland visas dubbletter när du importerar olika filer. Det är då svårt att deduplicera. Därför är ett borttagningssteg en bra försiktighetsåtgärd i alla importarbetsflöden.
 
-Du kan inte utgå från att inkommande data är konsekventa och korrekta eller att IT-avdelningen eller Adobe Campaign-administratören kommer att ta hand om dem. Under projektet bör du tänka på datarensningen. Ta bort dubbletter, stämma av och bibehåll enhetligheten när du importerar data.
+Du kan inte utgå från att inkommande data är konsekventa och korrekta, eller att IT-avdelningen eller Adobe Campaign-administratören kommer att ta hand om dem. Under projektet bör du tänka på datarensningen. Ta bort dubbletter, stämma av och bibehåll enhetligheten när du importerar data.
 
 Ett exempel på en allmän arbetsflödesmall som utformats för import av data finns i [Exempel: Importera arbetsflödesmall](../../automating/using/creating-import-workflow-templates.md) -avsnitt.
 
@@ -46,7 +46,7 @@ Ett exempel på en allmän arbetsflödesmall som utformats för import av data f
 * [Dedupliceringsaktivitet](../../automating/using/deduplication.md)
 * [Uppdatera dataaktivitet](../../automating/using/update-data.md)
 
-## Använda platta filformat {#using-flat-file-formats}
+## Använda plattformat {#using-flat-file-formats}
 
 Det mest effektiva formatet för import är platta filer. Platta filer kan importeras i gruppläge på databasnivå.
 
@@ -55,7 +55,7 @@ Exempel:
 * Avgränsare: tabb eller semikolon
 * Första raden med rubriker
 * Ingen strängavgränsare
-* Datumformat: YYYY/MM/DD HH:mm:SS
+* Datumformat: ÅÅÅ/MM/DD HH:mm:SS
 
 Exempel på fil som ska importeras:
 
@@ -78,7 +78,7 @@ Använd zippade filer för import och export när det är möjligt. GZIP stöds 
 
 ## Importera i Delta-läge {#importing-in-delta-mode}
 
-Vanlig import måste ske i deltaläge. Det innebär att endast ändrade eller nya data skickas till Adobe Campaign, i stället för hela tabellen varje gång.
+Vanlig import måste ske i deltaläge. Det innebär att endast ändrade eller nya data skickas till Adobe Campaign, i stället för till hela tabellen varje gång.
 
 Full import bör endast användas för inledande last.
 

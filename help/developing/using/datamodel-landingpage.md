@@ -120,7 +120,7 @@ ht-degree: 1%
                <li>Italienska (Italien) - it_IT - it_IT</li>
                <li>Italienska - it - it</li>
                <li>Dutch (Belgium) - nl_BE - nl_BE</li>
-               <li>Norwegian (Norway) - no_NO - no_NO</li>
+               <li>Norska (Norge) - no_NO - no_NO</li>
                <li>Nederländska (Nederländerna) - nl_NL - nl_NL</li>
                <li>Arabiska - ar - ar</li>
                <li>Engelska (USA) - en_US - en_US</li>
@@ -155,7 +155,7 @@ ht-degree: 1%
                <li>Italian (Schweiz) - it_CH - it_CH</li>
                <li>Polish - pl - pl</li>
                <li>Slovenska - sl - sl</li>
-               <li>OGILTIGT VÄRDE - __Invalid_value__ - __Invalid_value__</li>
+               <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
             </ul>
          </td>
       </tr>
@@ -186,7 +186,7 @@ ht-degree: 1%
                <li>Italienska (Italien) - it_IT - it_IT</li>
                <li>Italienska - it - it</li>
                <li>Dutch (Belgium) - nl_BE - nl_BE</li>
-               <li>Norwegian (Norway) - no_NO - no_NO</li>
+               <li>Norska (Norge) - no_NO - no_NO</li>
                <li>Nederländska (Nederländerna) - nl_NL - nl_NL</li>
                <li>Arabiska - ar - ar</li>
                <li>Engelska (USA) - en_US - en_US</li>
@@ -221,7 +221,7 @@ ht-degree: 1%
                <li>Italian (Schweiz) - it_CH - it_CH</li>
                <li>Polish - pl - pl</li>
                <li>Slovenska - sl - sl</li>
-               <li>OGILTIGT VÄRDE - __Invalid_value__ - __Invalid_value__</li>
+               <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
             </ul>
          </td>
       </tr>
@@ -311,7 +311,7 @@ ht-degree: 1%
       </tr>
       <tr>
          <td>loadingFilter (queryFilterBase)</td>
-         <td>Inläsningsnyckel</td>
+         <td>Läser in tangent</td>
          <td>link </td>
          <td> </td>
       </tr>
@@ -332,7 +332,7 @@ ht-degree: 1%
                <li>Slutförd - avslutad - avslutad</li>
                <li>Varning - varning - varning</li>
                <li>Fel - fel - fel</li>
-               <li>OGILTIGT VÄRDE - __Invalid_value__ - __Invalid_value__</li>
+               <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
             </ul>
          </td>
       </tr>
@@ -410,7 +410,7 @@ ht-degree: 1%
             <ul>
                <li>Uppdatering - updateTarget - 1</li>
                <li>Obehörig - obehörig - 0</li>
-               <li>OGILTIGT VÄRDE - __Invalid_value__ - __Invalid_value__</li>
+               <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
             </ul>
          </td>
       </tr>
@@ -429,7 +429,7 @@ ht-degree: 1%
                <li>Blacklist - blackList - 3</li>
                <li>Ingen specifik åtgärd - ingen - 0</li>
                <li>Unsubscription - unsubscription - 2</li>
-               <li>OGILTIGT VÄRDE - __Invalid_value__ - __Invalid_value__</li>
+               <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                <li>Prenumeration - prenumeration - 1</li>
             </ul>
          </td>
@@ -449,7 +449,7 @@ ht-degree: 1%
                <li>Redigering - redigera - 0</li>
                <li>Publiceringen misslyckades - misslyckades - 99</li>
                <li>Stängd - stängd - 20</li>
-               <li>OGILTIGT VÄRDE - __Invalid_value__ - __Invalid_value__</li>
+               <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                <li>Online - öppnad - 10</li>
             </ul>
          </td>
@@ -503,7 +503,7 @@ ht-degree: 1%
                <li>(GMT-10.00) Hawai - Pacific_Honolulu - Pacific/Honolulu</li>
                <li>(GMT+04.00) Baku - Asien_Baku - Asien/Baku</li>
                <li>(GMT+10.00) Vladivostok - Asien_Vladivostok - Asien/Vladivostok</li>
-               <li>(GMT+09.00) Söul - Asien_Söul - Asien/Söul</li>
+               <li>(GMT+09.00) Söul - Asien_Seoul - Asien/Söul</li>
                <li>(GMT+01.00) Sarajevo, Skoplje, Sofia, Warszawa, Zagreb - Europe_Sarajevo - Europa/Sarajevo</li>
                <li>Servertidszon - _server_ - _server_</li>
                <li>(GMT+04.00) Abu Dhabi, Muscat - Asia_Muscat - Asien/Muscat</li>
@@ -542,7 +542,7 @@ ht-degree: 1%
                <li>(GMT+12.00) Fidji - Pacific_Fiji - Stilla havet/Fiji</li>
                <li>(GMT+02.00) Aten, Istanbul, Minsk - Europa_Aten - Europa/Aten</li>
                <li>(GMT+04.00) Tbilissi - Asien_Tbilisi - Asien/Tbilisi</li>
-               <li>OGILTIGT VÄRDE - __Invalid_value__ - __Invalid_value__</li>
+               <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                <li>(GMT+05:45) Katmandu - Asien_Katmandu - Asien/Katmandu</li>
                <li>(GMT-05:00) Indiana (östra) - America_Indianapolis - Amerika/Indianapolis</li>
                <li>(GMT-01:00) Kap Verde-öarna - Atlanten_Kap Verde - Atlanten/Kap Verde</li>
@@ -554,12 +554,12 @@ ht-degree: 1%
                <li>(GMT+02.00) Kairo - Afrika_Kairo - Afrika/Kairo</li>
                <li>(GMT+05.00) Iekaterinburg - Asien_Jekaterinburg - Asien/Jekaterinburg</li>
                <li>(GMT+08.00) Irkoutsk - Asien_Irkutsk - Asien/Irkutsk</li>
-               <li>(GMT+10.00) Guam, Port Moresby - Pacific_Guam - Pacific/Guam</li>
+               <li>(GMT+10.00) Guam, Port Moresby - Pacific_Guam - Stilla havet/Guam</li>
                <li>(GMT-04.00) Atlantic, normaltid (Kanada) - America_Halifax - America/Halifax</li>
                <li>(GMT) Greenwich, medeltid - GMT - GMT</li>
                <li>(GMT-04.00) La Paz - America_La_Paz - America/La_Paz</li>
                <li>Operatörens tidszon - _login_ - _login_</li>
-               <li>(GMT-06:00) Guadalajara, Mexico, Monterrey - America_Mexico_City - Amerika/Mexico_City</li>
+               <li>(GMT-06:00) Guadalajara, Mexico, Monterrey - America_Mexico_City - America/Mexico_City</li>
                <li>(GMT+09.30) Darwin - Australia_Darwin - Australien/Darwin</li>
                <li>(GMT-05:00) Est (USA och Kanada) - America_New_York - America/New_York</li>
                <li>(GMT-05:00) Greenwich Mean Time minus 5 timmar - Gmt_m5 - ETC/GMT+5</li>
@@ -578,7 +578,7 @@ ht-degree: 1%
                <li>(GMT+07.00) Greenwich Mean Time plus 7 timmar - Gmt_p7 - ETC/GMT-7</li>
                <li>(GMT+06.00) Greenwich Mean Time plus 6 timmar - Gmt_p6 - ETC/GMT-6</li>
                <li>(GMT+01:00) Greenwich Mean Time plus 1 timme - Gmt_p1 - ETC/GMT-1</li>
-               <li>(GMT-08.00) Stilla havet (USA och Kanada) - America_Los Angeles - America/Los Angeles</li>
+               <li>(GMT-08:00) Stilla havet (USA och Kanada) - America_Los Angeles - America/Los Angeles</li>
                <li>(GMT+02.00) Greenwich Mean Time plus 2 timmar - Gmt_p2 - ETC/GMT-2</li>
                <li>(GMT+07.00) Krasnoïarsk - Asien_Krasnojarsk - Asien/Krasnojarsk</li>
                <li>(GMT+09.00) Greenwich Mean Time plus 9 timmar - Gmt_p9 - ETC/GMT-9</li>
@@ -590,7 +590,7 @@ ht-degree: 1%
                <li>(GMT-07:00) Rocky Mountains (USA och Kanada) - America_Denver - Amerika/Denver</li>
                <li>(GMT+01.00) Centralafrika - Väst - Afrika_Luanda - Afrika/Luanda</li>
                <li>(GMT+02.00) Helsingfors, Kiev, Riga, Sofia, Tallinn, Vilnius - Europe_Helsingfors - Europa/Helsingfors</li>
-               <li>(GMT) Greenwich Mean Time: Dublin, Edinburgh, Lissabon - London - Europa_London - Europa/London</li>
+               <li>(GMT) Greenwich Mean Time: Dublin, Edinburgh, Lissabon, London - Europa_London - Europa/London</li>
                <li>(GMT-07.00) Arizona - America_Phoenix - America/Phoenix</li>
                <li>(GMT+02.00) Beirut - Asien_Beirut - Asien/Beirut</li>
                <li>(GMT+04.30) Kabul - Asien_Kabul - Asien/Kabul</li>
@@ -632,7 +632,7 @@ ht-degree: 1%
                <li>Allmän - allmän - 0</li>
                <li>Avbeställ en tjänst - avbeprenumeration - 3</li>
                <li>Blacklist - blackList - 4</li>
-               <li>OGILTIGT VÄRDE - __Invalid_value__ - __Invalid_value__</li>
+               <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                <li>Anskaffning - förvärv - 1</li>
                <li>Prenumeration på en tjänst - prenumeration - 2</li>
             </ul>
@@ -732,7 +732,7 @@ Inkludera kontinuerliga leveranser från en heterogen lista (withContinuous)
         </tr>
     </table>
 
-Finns under angiven period (efter kalender)
+Presentera under angiven period (efter kalender)
 
 <table>
         <tr>

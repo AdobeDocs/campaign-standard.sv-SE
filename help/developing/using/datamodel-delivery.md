@@ -10,7 +10,7 @@ exl-id: aea3e72d-8e89-46c7-a796-bf856414c654
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '688'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -129,7 +129,7 @@ ht-degree: 6%
                      <ul>
                         <li>Adobe Experience Manager - aem - 1</li>
                         <li>Adobe Campaign - kampanj - 0</li>
-                        <li>OGILTIGT VÄRDE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -160,7 +160,7 @@ ht-degree: 6%
                         <li>Massleverans - bulk - 1</li>
                         <li>Mid-sourcing - middagsförsäljning - 4</li>
                         <li>Beskrivning - beskrivande - 2</li>
-                        <li>OGILTIGT VÄRDE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                         <li>Extern - extern - 0</li>
                      </ul>
                   </td>
@@ -210,7 +210,7 @@ ht-degree: 6%
                         <li>Unik - en gång - 0</li>
                         <li>Kontinuerlig - kontinuerlig - 1</li>
                         <li>Message Center - messageCenter - 2</li>
-                        <li>OGILTIGT VÄRDE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -249,7 +249,7 @@ ht-degree: 6%
                         <li>Mobilprogram - pushNotification - 40</li>
                         <li>Transactional SMS - smsLightning - 61</li>
                         <li>E-post - e-post - 0</li>
-                        <li>OGILTIGT VÄRDE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -261,7 +261,7 @@ ht-degree: 6%
                </tr>
                <tr>
                   <td>isMaster</td>
-                  <td>Överordnad</td>
+                  <td>Master</td>
                   <td>boolesk </td>
                   <td> </td>
                </tr>
@@ -318,7 +318,7 @@ ht-degree: 6%
                         <li>Slutförd - avslutad - avslutad</li>
                         <li>Varning - varning - varning</li>
                         <li>Fel - fel - fel</li>
-                        <li>OGILTIGT VÄRDE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -341,14 +341,14 @@ ht-degree: 6%
                   <td> </td>
                </tr>
                <tr>
-                  <td>överordnad (deliveryBase)</td>
-                  <td>Överordnad instans</td>
+                  <td>master (deliveryBase)</td>
+                  <td>Huvudinstans</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>masterKpis</td>
-                  <td>Överordnad indikatorer</td>
+                  <td>Huvudindikatorer</td>
                   <td>artikel </td>
                   <td> </td>
                </tr>
@@ -365,7 +365,7 @@ ht-degree: 6%
                         <li>Direktreklam - papper - 3</li>
                         <li>Mobilprogram - pushNotification - 40</li>
                         <li>Övrigt - annat - 120</li>
-                        <li>OGILTIGT VÄRDE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -406,7 +406,7 @@ ht-degree: 6%
                   <td>
                      <ul>
                         <li>Hög - hög - 20</li>
-                        <li>OGILTIGT VÄRDE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                         <li>Normal - normal - 10</li>
                      </ul>
                   </td>
@@ -449,7 +449,7 @@ ht-degree: 6%
                </tr>
                <tr>
                   <td>ribbonMessage</td>
-                  <td>Ribbon-meddelande</td>
+                  <td>Ribbon message</td>
                   <td>string </td>
                   <td> </td>
                </tr>
@@ -500,7 +500,7 @@ ht-degree: 6%
                         <li>Stoppad - annullerad - 85</li>
                         <li>Personalisering pågår - messagePreparation - 22</li>
                         <li>Klart som mål - targetReady - 15</li>
-                        <li>OGILTIGT VÄRDE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                         <li>Godkännande pågår - targetArbitration - 13</li>
                      </ul>
                   </td>
@@ -576,7 +576,7 @@ ht-degree: 6%
                         <li>Slutförd - avslutad - avslutad</li>
                         <li>Varning - varning - varning</li>
                         <li>Fel - fel - fel</li>
-                        <li>OGILTIGT VÄRDE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -765,7 +765,7 @@ Planerad under angiven period (perPlanning)
     </tr>
 </table>
 
-Finns under angiven period (efter kalender)
+Presentera under angiven period (efter kalender)
 
 <table>
     <tr>

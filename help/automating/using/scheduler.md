@@ -39,7 +39,7 @@ När du utformar ett schemalagt arbetsflöde som innehåller flera aktiviteter m
 **Relaterade ämnen:**
 
 * [Användningsfall: Skapa leveranser på profilens skapandedatum](../../automating/using/workflow-creation-date-query.md)
-* [Användningsfall: Skapa en e-postleverans varje tisdag](../../automating/using/workflow-weekly-offer.md)
+* [Användningsexempel: Skapa en e-postleverans varje tisdag](../../automating/using/workflow-weekly-offer.md)
 
 ## Konfiguration {#configuration}
 

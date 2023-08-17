@@ -30,7 +30,7 @@ Följande element krävs för den här proceduren:
 1. På den avancerade menyn, via Adobe Campaign logotyp i det övre vänstra hörnet, väljer du **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
 1. Om du vill konfigurera server- och klientalternativ för Adobe Target fyller du i följande fält i enlighet med detta:
 
-   * **[!UICONTROL TNT_TenantName]**: namnet på Adobe Target-klienten. Detta värde motsvarar namnet på Adobe Target **[!UICONTROL Client]**.
+   * **[!UICONTROL TNT_TenantName]**: namn på Adobe Target-klienten. Detta värde motsvarar namnet på Adobe Target **[!UICONTROL Client]**.
    * **[!UICONTROL TNT_EdgeServer]**: Adobe Target-server som används för integrering. Det här alternativet finns redan som standard. Detta värde motsvarar Adobe Target **[!UICONTROL Server Domain]**, följt av **/m2** värde. Till exempel: **tt.omtrdc.net/m2**.
 
    ![](assets/tar_options.png)

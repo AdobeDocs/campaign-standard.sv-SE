@@ -41,7 +41,6 @@ I följande avsnitt beskrivs de viktigaste stegen för att utföra en datamappni
 >* [Aktivera en datauppsättning för kundprofil i realtid](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html)
 >* [Konfigurera en datauppsättning för kundprofil och identitetstjänst i realtid med API:er](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html)
 
-
 ## Viktiga begrepp {#key-concepts}
 
 * Utanför rutan är mappning bara tillgängligt för fält som anges i Campaign Standard som standard. För att kunna inhämta alla anpassade fält och resurser måste varje kund definiera sin egen mappning.
@@ -60,11 +59,11 @@ I följande avsnitt beskrivs de viktigaste stegen för att utföra en datamappni
 
 * Experience Cloud ID-tjänsten (ECID) är en enhetsidentifierare som skickas som standard med Experience Events.
 
-   Det är ett unikt och beständigt ID som tilldelats en besökare och som kan användas av Platform Identity Service för att identifiera samma besökare och deras data i olika Experience Cloud-lösningar. Mer information finns i [Hjälp om Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+  Det är ett unikt och beständigt ID som tilldelats en besökare och som kan användas av Platform Identity Service för att identifiera samma besökare och deras data i olika Experience Cloud-lösningar. Mer information finns i [Hjälp om Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 
-   >[!NOTE]
-   >
-   >Observera att om två eller flera profiler delar samma enhet skulle ECID vara samma för dessa båda profiler i tjänsten för enhetlig identitet.
+  >[!NOTE]
+  >
+  >Observera att om två eller flera profiler delar samma enhet skulle ECID vara samma för dessa båda profiler i tjänsten för enhetlig identitet.
 
 ## Begränsningar {#limitations}
 
@@ -72,13 +71,13 @@ I följande avsnitt beskrivs de viktigaste stegen för att utföra en datamappni
 
 * När det gäller förfrågningar om sekretess (både åtkomst- och borttagningsåtgärder) måste kunderna göra separata förfrågningar via [Integritet - grundtjänst](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests): en för Campaign och en för Adobe Experience Platform. Mer information finns i [Om sekretessförfrågningar](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=sv#getting-started) och [Hantera sekretessförfrågningar](https://helpx.adobe.com/se/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) i Campaign.
 
-* För varje XDM-fält måste DULE-etiketteringen göras i Adobe Experience Platform. Det är kundens ansvar att använda DULE-etiketter.
+* För varje XDM-fält måste DULE-märkning göras i Adobe Experience Platform. Det är kundens ansvar att använda DULE-etiketter.
 
 * Begränsningar för marknadsföringsåtgärder blir bara tillämpliga efter att DULE-etiketter har tillämpats i Adobe Experience Platform. Innan dess finns alla data tillgängliga för alla typer av marknadsföringsåtgärder.
 
-* Var 15:e minut körs batchjobbet och identifierar de poster som har ändrats sedan den senaste batchen. Om alla poster ändras vid samma tidsstämpel kan det uppstå en flaskhals i prestandan för att hantera åtkomsten till alla profiler
+* Var 15:e minut körs batchjobbet och identifierar de poster som har ändrats sedan den senaste batchen. Om alla poster ändras vid samma tidsstämpel kan en flaskhals i prestandan visa sig för att hantera åtkomsten till alla profiler
 
-## Videokurs {#video}
+## Självstudievideo {#video}
 
 Den här videon ger en översikt över Adobe Experience Platform Data Connector.
 

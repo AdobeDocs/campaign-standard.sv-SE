@@ -20,11 +20,11 @@ ht-degree: 25%
 <table style="table-layout:fixed">
 <tr>
 <td><img src="assets/do-not-localize/config_push.png" width="60px"><p>Lär dig hur du konfigurerar ditt mobilprogram för push-meddelanden </br><a href="#configuration-push">Klicka här</a></p></td>
-<td><img src="assets/do-not-localize/config_inapp.png" width="60px"><p>Lär dig hur du konfigurerar ditt mobilprogram för meddelanden i appen </br><a href="#configuring-mobile-app">Klicka här</a></p></td>
+<td><img src="assets/do-not-localize/config_inapp.png" width="60px"><p>Lär dig konfigurera ditt mobilprogram för meddelanden i appen </br><a href="#configuring-mobile-app">Klicka här</a></p></td>
 </tr>
 <tr>
 <td><img src="assets/do-not-localize/push2.png" width="60px"><p>Läs mer om hur du skapar push-meddelanden </br><a href="#create-push">Klicka här</a></p></td>
-<td><img src="assets/do-not-localize/inapp.png" width="60px"><p>Lär dig hur du skapar meddelanden i appen</br><a href="#create-inapp">Klicka här</a></p></td></tr>
+<td><img src="assets/do-not-localize/inapp.png" width="60px"><p>Lär dig hur du skapar meddelanden i programmet</br><a href="#create-inapp">Klicka här</a></p></td></tr>
 </table>
 
 ## Om mobilleverans {#about-mobile}
@@ -163,7 +163,7 @@ Med Adobe Campaign Standard kan ni skicka mobilleveranser via tre olika kanaler:
     <div>
     <p><strong>Anpassa meddelanden i appen</strong></p>
     </div>
-    <p>För att finjustera leveransen kan du med Adobe Campaign få tillgång till en uppsättning avancerade alternativ när du utformar en app.</br><a href="../../channels/using/customizing-an-in-app-message.md"><strong>Klicka här</strong></a> för mer information.</p>
+    <p>Om du vill finjustera leveransen kan du använda Adobe Campaign till att få tillgång till en uppsättning avancerade alternativ när du utformar en app.</br><a href="../../channels/using/customizing-an-in-app-message.md"><strong>Klicka här</strong></a> för mer information.</p>
     <br>
   </td>
 </tr>
@@ -193,15 +193,15 @@ Med Adobe Campaign Standard kan ni skicka mobilleveranser via tre olika kanaler:
     <div>
     <p><strong>Skapa ett SMS-meddelande</strong></p>
     </div>
-    <p>Att skapa en SMS-leverans påminner mycket om hur man skapar ett vanligt e-postmeddelande. </br>Stegen <a href="../../channels/using/creating-an-sms-message.md"><strong>detaljerad här</strong></a> beskriver konfigurationen som är specifik för den här kanalen.</br></p>
+    <p>Att skapa en SMS-leverans påminner mycket om hur man skapar ett vanligt e-postmeddelande. </br>Stegen <a href="../../channels/using/creating-an-sms-message.md"><strong>detaljerad här</strong></a> beskriver konfigurationen som är specifik för den här kanalen.</p>
     <br>
   </td>
   <td>
     <div>
-    <p><strong>Anpassa ett SMS-meddelande
+    <p><strong>Anpassa ett SMS
 </strong></p>
     </div>
-    <p>För att finjustera leveransen kan du med Adobe Campaign få tillgång till en uppsättning avancerade alternativ när du utformar ett SMS-meddelande.</br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong>Klicka här för mer information.</br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong></p>
+    <p>För att finjustera leveransen kan du med Adobe Campaign få tillgång till en uppsättning avancerade alternativ när du utformar ett SMS-meddelande.</br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong>Klicka här för mer information.</p>
     <br>
   </td>
 </tr>
@@ -210,7 +210,7 @@ Med Adobe Campaign Standard kan ni skicka mobilleveranser via tre olika kanaler:
     <div>
     <p><strong>Hantera inkommande SMS</strong></p>
     </div>
-    <p>När en profil svarar på ett SMS-meddelande som skickades via Campaign kan du konfigurera meddelanden som automatiskt skickas tillbaka till dem samt åtgärden som ska utföras.Anpassa en lokal meddelandetyp</br><a href="../../channels/using/managing-incoming-sms.md"><strong>Klicka här om du vill ha mer information.</br><a href="../../channels/using/managing-incoming-sms.md"><strong></p>
+    <p>När en profil svarar på ett SMS-meddelande som skickades via Campaign kan du konfigurera meddelanden som automatiskt skickas tillbaka till dem samt åtgärden som ska utföras.Anpassa en lokal meddelandetyp</br><a href="../../channels/using/managing-incoming-sms.md"><strong>Klicka här för mer information.</p>
     <br>
   </td>
   <td>

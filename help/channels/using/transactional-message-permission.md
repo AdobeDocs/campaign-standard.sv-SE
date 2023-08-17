@@ -20,13 +20,13 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->Dessa funktioner är för närvarande bara tillgängliga för en uppsättning organisationer (begränsad tillgänglighet). Kontakta din Adobe-representant om du vill ha mer information.
+>Dessa funktioner är för närvarande bara tillgängliga för en uppsättning organisationer (begränsad tillgänglighet). Kontakta din Adobe-representant om du vill veta mer.
 
 I Adobe Campaign Standard kan för närvarande användare som saknar säkerhetsgruppen Administratör inte få åtkomst till, skapa eller publicera transaktionshändelser, vilket orsakar problem för företagsanvändare som måste konfigurera och publicera händelser men som saknar administratörsbehörighet. Det går inte heller att duplicera transaktionshändelser.
 
 Vi har implementerat följande förbättringar för åtkomstkontroll för transaktionsmeddelanden:
 
-* En ny **[!UICONTROL Role]**, anropas **MC-användare**, har lagts till så att icke-administratörsanvändare kan hantera transaktionshändelsekonfiguration. The **MC-användare** rollen ger dessa användare möjlighet att komma åt, skapa, publicera och avpublicera transaktionshändelser och meddelanden.
+* En ny **[!UICONTROL Role]**, anropas **MC-användare**, har lagts till för att tillåta icke-administratörsanvändare att hantera transaktionshändelsekonfiguration. The **MC-användare** rollen ger dessa användare möjlighet att komma åt, skapa, publicera och avpublicera transaktionshändelser och meddelanden.
 
 * Körningsleveranser (t.ex. tekniska meddelanden som skapas varje gång ett transaktionsmeddelande redigeras och publiceras igen, eller en gång i månaden som standard) ställs nu in på **[!UICONTROL Organizational unit]** för säkerhetsgruppen som användaren som skapar händelsen tillhör, i stället för att begränsas till **[!UICONTROL Organizational unit]** i **Meddelandecenteragent (mcExec)** säkerhetsgrupp.
 
@@ -52,7 +52,7 @@ Tilldela **MC-användare** roll för din säkerhetsgrupp:
 
 1. När konfigurationen är klar klickar du på **[!UICONTROL Save]**.
 
-Användare länkade till detta **[!UICONTROL Security group]** kan nu komma åt, skapa och publicera transaktionshändelser och meddelanden.
+Användare som är länkade till detta **[!UICONTROL Security group]** kan nu komma åt, skapa och publicera transaktionshändelser och meddelanden.
 
 ## Tilldela användarsäkerhetsgruppen för MC {#assign-group}
 

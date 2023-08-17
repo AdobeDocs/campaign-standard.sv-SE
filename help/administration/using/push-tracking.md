@@ -29,7 +29,7 @@ Push-spårning är indelad i tre typer:
 
 * **Tryck och klicka** - När ett push-meddelande har levererats till enheten och användaren har klickat på enheten.  Användaren ville antingen visa meddelandet (som i sin tur går till Push Open tracking) eller stänga meddelandet.
 
-* **Öppna push** - När ett push-meddelande har levererats till enheten och användaren har klickat på meddelandet som får programmet att öppnas.  Detta liknar kommandot Push Click, men Push Open aktiveras inte om meddelandet stängs.
+* **Öppna push** - När ett push-meddelande har levererats till enheten och användaren har klickat på meddelandet som får programmet att öppnas.  Det här liknar kommandot Push Click (Push-klicka), förutom att Push Open (Push Open) inte aktiveras om meddelandet stängs.
 
 För att implementera spårning för Campaign Standard måste mobilappen innehålla Adobe Experience Platform SDK:er. Dessa SDK:er är tillgängliga i [Adobe Experience Platform SDKs-dokumentation](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
@@ -86,7 +86,7 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 
 ### Så här implementerar du klickspårning {#push-click-tracking-android}
 
-För klickspårning måste du skicka värdet &quot;2&quot; för åtgärd när du anropar `collectMessageInfo()` eller `trackAction()` funktioner.
+För klickspårning måste du skicka värdet 2 för åtgärd när du anropar `collectMessageInfo()` eller `trackAction()` funktioner.
 Om du vill spåra klickningar måste två scenarier hanteras:
 
 * Användaren ser meddelandet men rensar det.
@@ -260,7 +260,7 @@ För att fortfarande ha **[!UICONTROL Impression]** spåra arbete medan programm
 
 >[!CAUTION]
 >
-> Om ett program stängs kommer Apple inte att anropa programmet förrän programmet har startats om. Det innebär att du inte kan veta när meddelandet har tagits emot på iOS. </br> På grund av detta kanske iOS Trace inte är korrekt och inte ska ses som tillförlitligt.
+> Om ett program stängs kommer Apple inte att anropa programmet förrän appen har startats om. Det innebär att du inte kan veta när meddelandet har tagits emot på iOS. </br> På grund av detta kanske iOS Trace inte är korrekt och inte ska ses som tillförlitligt.
 
 För leveranser som skapats före version 21.1 eller leveranser med anpassad mall, se denna [section](../../administration/using/push-tracking.md#about-push-tracking).
 
@@ -332,7 +332,7 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent noti
 
 ### Så här implementerar du klickspårning {#push-click-tracking-iOS}
 
-För klickspårning måste du skicka värdet &quot;2&quot; för åtgärd när du anropar `collectMessageInfo()` eller `trackAction()` funktioner.
+För klickspårning måste du skicka värdet 2 för åtgärd när du anropar `collectMessageInfo()` eller `trackAction()` funktioner.
 För leveranser som skapats före version 21.1 eller leveranser med anpassad mall, se denna [section](../../administration/using/push-tracking.md#about-push-tracking).
 
 ```

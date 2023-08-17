@@ -1,6 +1,6 @@
 ---
 title: Skapa leveranser med ett komplement
-description: Det här exemplet visar hur du skapar leveranser med ett komplement.
+description: I det här exemplet visas hur du skapar leveranser med ett komplement.
 audience: automating
 content-type: reference
 topic-tags: execution-activities
@@ -18,7 +18,7 @@ ht-degree: 41%
 
 # Skapa leveranser med ett komplement {#deliveries-with-complement}
 
-Du kan skicka ett e-postmeddelande till kunder: en för kunder som skapats för mindre än ett år sedan, en för kunder som skapats för mer än ett år sedan.
+Du kan skicka ett e-postmeddelande till kunder: ett för kunder som skapats för mindre än ett år sedan, ett för kunder som skapats för mer än ett år sedan.
 
 1. I **[!UICONTROL Marketing Activities]**, klicka på **[!UICONTROL Create]** och markera **[!UICONTROL Workflow]**.
 1. Välj **[!UICONTROL New Workflow]** som arbetsflödestyp och klicka på **[!UICONTROL Next]**.
@@ -36,7 +36,7 @@ Du kan skicka ett e-postmeddelande till kunder: en för kunder som skapats för 
 
 ## Skapa en segmenteringsaktivitet {#create-a-segmentation-activity}
 
-1. I **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, dra och släppa [Segmentering](../../automating/using/segmentation.md) och dubbelklicka på den.
+1. I **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, dra och släppa en [Segmentering](../../automating/using/segmentation.md) och dubbelklicka på den.
 1. Håll pekaren över segmentet och klicka sedan på ![](assets/edit_darkgrey-24px.png) för att inrikta sig på kunder som läggs till i år i databasen.
 1. Dra och släpp **[!UICONTROL Profiles]** och markera **[!UICONTROL Created]** med filtertypen **[!UICONTROL Relative]**.
 1. Ändra **[!UICONTROL Level of precision]** till **[!UICONTROL Year]** och markera **[!UICONTROL This year]**.

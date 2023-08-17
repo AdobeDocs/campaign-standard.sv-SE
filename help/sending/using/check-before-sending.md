@@ -38,7 +38,7 @@ Adobe Campaign hämtar återgivningen och gör den tillgänglig i en dedikerad r
 
 **Tips**:
 
-* Du kan visa det skickade meddelandet i olika sammanhang där det kan tas emot: webbpost, meddelandetjänst, mobil osv.
+* Du kan visa det skickade meddelandet i olika sammanhang som det kan tas emot i: webbpost, meddelandetjänst, mobil osv.
 
 * Funktioner för e-poståtergivning är avgörande för att ni ska kunna identifiera om era e-postkampanjer klarar de filter som finns hos viktiga internetleverantörer (Internet Service Providers) och webbposttjänster. Sådana verktyg skickar en kopia av ett e-postmeddelande till ett nätverk av testinkorgar, så att du kan se hur meddelandet kommer att visas, eller återges, i alla dessa tjänster. De kan även innehålla rapporter och kodkorrigeringsalternativ som hjälper dig att snabbt identifiera och göra korrigeringar som förbättrar leveransen.
 

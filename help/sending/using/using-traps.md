@@ -18,13 +18,13 @@ ht-degree: 2%
 
 # Använda spam-samlare {#using-traps}
 
-När svällning används skickas meddelandet till [testprofil](../../audiences/using/managing-test-profiles.md) på samma sätt som den skickas till huvudmålet, för att identifiera om din klientfil används bedrägligt.
+När svällning används skickas meddelandet till [testprofil](../../audiences/using/managing-test-profiles.md) på samma sätt som den skickas till huvudmålet, som ett sätt att identifiera om din klientfil används bedrägligt.
 
 Svällningar är ursprungligen avsedda för direktreklam. De gör att du kan:
 
 * Kontrollera att din direktmeddelandeleverantör verkligen skickar kommunikationen.
-* Ta emot e-postmeddelandet samtidigt och på samma villkor som dina kunder.
-* Behåll en exakt kopia av det skickade meddelandet.
+* Ta emot posten samtidigt och på samma villkor som dina kunder.
+* Behåll en exakt kopia av det e-postmeddelande som skickades.
 * Kontrollera att din klientlista inte används felaktigt av din direktmeddelandeleverantör. Om någon annan kommunikation skickas till testprofilens adress kan din klientfil ha använts utan att du visste om det. Därför bör testprofilens adress endast användas i detta syfte.
 
 Mer information om hur du lägger till svällningar till en direktutskick finns i [Lägga till test- och svällningsprofiler](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles).
@@ -62,4 +62,4 @@ Du kan använda svällning när du skickar transaktionsmeddelanden. I det här f
 
 >[!NOTE]
 >
->När du använder en testprofil som en svällning väljs motsvarande ytterligare data slumpmässigt ut från en verklig målprofil och tilldelas till svällningstestprofilen för alla inkapslade fält i ett meddelande. Mer information om berikning finns i [det här exemplet](../../automating/using/enriching-profile-data-file.md).
+>När du använder en testprofil som en svällning väljs motsvarande ytterligare data slumpmässigt ut från en verklig målprofil och tilldelas till svällningstestprofilen för alla inkapslade fält i ett meddelande. Mer information om berikning finns i [detta exempel](../../automating/using/enriching-profile-data-file.md).

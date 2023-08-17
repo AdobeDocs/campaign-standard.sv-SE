@@ -95,7 +95,7 @@ Tabellen nedan visar en lista över de dimensioner som används i rapporter och 
   </tr> 
   <tr> 
    <td> Återkommande leverans<br /> </td> 
-   <td> Etikett och ID för den återkommande leveransen.<br /> </td> 
+   <td> Etikett och ID för återkommande leverans.<br /> </td> 
   </tr> 
   <tr> 
    <td> Avsändardomän<br /> </td> 
@@ -232,7 +232,7 @@ Tabellerna nedan ger dig en lista över de mätvärden som används i rapporter 
   </tr> 
   <tr> 
    <td> Mjuk studsa<br /> </td> 
-   <td> Totalt antal tillfälliga fel, t.ex. en fullständig inkorg.<br /> </td> 
+   <td> Totalt antal tillfälliga fel, till exempel en fullständig inkorg.<br /> </td> 
   </tr> 
   <tr> 
    <td> Mjuk studsfrekvens<br /> </td> 
@@ -305,7 +305,7 @@ Tabellerna nedan ger dig en lista över de mätvärden som används i rapporter 
   </tr> 
   <tr> 
    <td> Öppna<br /> </td> 
-   <td> Totalt antal push-meddelanden som levererats till enheten och användaren klickat på för att öppna appen. Detta liknar kommandot Push Click, men Push Open aktiveras inte om meddelandet stängs.<br /> </td> 
+   <td> Totalt antal push-meddelanden som levererats till enheten och användaren klickat på för att öppna appen. Det här liknar kommandot Push Click (Push-klicka), förutom att Push Open (Push Open) inte aktiveras om meddelandet stängs.<br /> </td> 
   </tr> 
   <tr> 
    <td> Öppen kurs<br /> </td> 
@@ -353,7 +353,7 @@ Tabellerna nedan ger dig en lista över de mätvärden som används i rapporter 
    <td> Procentandel användare som klickade på Knapp 1 eller Knapp 2 jämfört med användare som såg meddelandet.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Avvisning i appen<br /> </td> 
+   <td> Inaktivering i appen<br /> </td> 
    <td> Totalt antal meddelanden som mottagarna stängt antingen genom att klicka på stängningsknappen eller genom automatisk stängning.<br /> </td> 
   </tr> 
   <tr> 
@@ -369,7 +369,7 @@ Tabellerna nedan ger dig en lista över de mätvärden som används i rapporter 
    <td> Antal visningar av en unik mottagare.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unika klick i appen<br /> </td> 
+   <td> Unika klick i programmet<br /> </td> 
    <td> Antal gånger som mottagare klickat på Knapp 1 eller Knapp 2.<br /> </td> 
   </tr> 
   <tr> 
@@ -392,15 +392,15 @@ Tabellen nedan ger dig en lista över de segment som används i rapporter och de
  </thead> 
  <tbody> 
   <tr> 
-   <td> Ålder: Boomerer 1<br /> </td> 
+   <td> Ålder: boomer 1<br /> </td> 
    <td> Mottagare från 1946 till 1954.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Ålder: Boomerer 2<br /> </td> 
+   <td> Ålder: Boomer 2<br /> </td> 
    <td> Mottagare från 1955 till 1965.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Ålder: Från 18 till 25<br /> </td> 
+   <td> Ålder: från 18 till 25<br /> </td> 
    <td> Mottagare mellan 18 och 25 år.<br /> </td> 
   </tr> 
   <tr> 
@@ -408,11 +408,11 @@ Tabellen nedan ger dig en lista över de segment som används i rapporter och de
    <td> Mottagare mellan 26 och 30 år.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Ålder: Från 31 till 40<br /> </td> 
+   <td> Ålder: från 31 till 40<br /> </td> 
    <td> Mottagare mellan 31 och 40 år.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Ålder: Från 41 till 50<br /> </td> 
+   <td> Ålder: från 41 till 50<br /> </td> 
    <td> Mottagare mellan 41 och 50 år.<br /> </td> 
   </tr> 
   <tr> 
@@ -428,11 +428,11 @@ Tabellen nedan ger dig en lista över de segment som används i rapporter och de
    <td> Mottagare från 1995 till idag.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Ålder: Mer än 50<br /> </td> 
+   <td> Ålder: större än 50<br /> </td> 
    <td> Mottagare vars ålder är större än 50.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Ålder: Mindre än 25<br /> </td> 
+   <td> Ålder: mindre än 25<br /> </td> 
    <td> Mottagare vars ålder är mindre än 25 år.<br /> </td> 
   </tr> 
   <tr> 
@@ -440,15 +440,15 @@ Tabellen nedan ger dig en lista över de segment som används i rapporter och de
    <td> Mottagare vars ålder är mindre än 30.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Ålder: Mindre än 40<br /> </td> 
+   <td> Ålder: mindre än 40<br /> </td> 
    <td> Mottagare vars ålder är mindre än 40.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Ålder: Mindre än 50<br /> </td> 
+   <td> Ålder: mindre än 50<br /> </td> 
    <td> Mottagare vars ålder är mindre än 50.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Ålder: Tyst generering<br /> </td> 
+   <td> Ålder: tyst generering<br /> </td> 
    <td> Mottagare födda 1945 eller tidigare.<br /> </td> 
   </tr> 
   <tr> 

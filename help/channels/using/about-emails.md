@@ -23,8 +23,8 @@ E-postkanalen är en av de viktigaste kanalerna i Adobe Campaign, så att ni kan
 Du kan skicka olika typer av e-postmeddelanden:
 
 * E-post för enstaka sändning: grundläggande e-postmeddelanden som du kan skicka en gång till ett definierat mål.
-* Återkommande e-postmeddelanden: skicka samma e-post regelbundet och sammanställa varje sändning och dess rapporter regelbundet. Ett vanligt exempel är ett födelsedagsmeddelande. Återkommande e-postmeddelanden är endast tillgängliga via arbetsflöden.
-* A/B-testning av e-post: testa upp till tre versioner av ett e-postmeddelande.
-* Transactional emails: enhetliga e-postmeddelanden som triggas utifrån kundernas beteende.
+* Återkommande e-postmeddelanden: skicka samma e-postmeddelande regelbundet och samla varje sändning och dess rapporter regelbundet. Ett vanligt exempel är ett födelsedagsmeddelande. Återkommande e-postmeddelanden är endast tillgängliga via arbetsflöden.
+* A/B-testning av e-postmeddelanden: testa upp till 3 versioner av ett e-postmeddelande.
+* Transaktionsbaserade e-postmeddelanden: enhetliga e-postmeddelanden som utlöses utifrån kundernas beteende.
 
-Om du vill lära dig de bästa sätten att skapa och skicka e-postmeddelanden kan du läsa [Bästa praxis](../../sending/using/delivery-best-practices.md) -avsnitt.
+Om du vill veta mer om de bästa sätten att skapa och skicka e-postmeddelanden kan du läsa [Bästa praxis för leverans](../../sending/using/delivery-best-practices.md) -avsnitt.

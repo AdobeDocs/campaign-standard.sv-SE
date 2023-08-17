@@ -82,7 +82,7 @@ Personaliserade meddelanden är avgörande för att skicka relevant innehåll, e
 
 **Läs mer**
 
-* Upptäck e-postpersonalisering via en [prov från början till slut](../../designing/using/personalization.md#example-email-personalization)
+* Upptäck e-postpersonalisering via en [end-to-end sample](../../designing/using/personalization.md#example-email-personalization)
 * [Anpassa URL:er](../../designing/using/personalization.md#personalizing-urls)
 * [Konfigurera personalisering av en bild](../../designing/using/personalization.md#personalizing-an-image-source)
 

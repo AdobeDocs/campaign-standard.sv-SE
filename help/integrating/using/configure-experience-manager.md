@@ -32,7 +32,7 @@ Du bör kontrollera att du har följande element i förväg:
 ## Konfiguration i Adobe Campaign Standard {#config-acs}
 
 Om du vill använda dessa två lösningar tillsammans måste du konfigurera dem så att de ansluter till varandra.
-Så här konfigurerar du Adobe Campaign:
+Konfigurera Adobe Campaign:
 
 1. Du måste först konfigurera **[!UICONTROL Adobe Experience Manager instance]** externt konto under **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts menu]**.
 
@@ -54,7 +54,7 @@ Så här konfigurerar du Adobe Campaign:
 
    ![](assets/aem_3.png)
 
-1. Klicka på **[!UICONTROL Edit properties]** ikon.
+1. Klicka på **[!UICONTROL Edit properties]** -ikon.
 
    ![](assets/aem_4.png)
 

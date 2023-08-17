@@ -50,7 +50,7 @@ Relaterade ämnen:
    ![](assets/uc_idkey3.png)
 
    >[!NOTE]
-   > Om du vill visa de två anpassade fälten i profilens gränssnitt konfigurerar du **[!UICONTROL Screen definition]** -fliken. Mer information om detta finns i [det här avsnittet](../../developing/using/configuring-the-screen-definition.md).
+   > Konfigurera **[!UICONTROL Screen definition]** -fliken. Mer information om detta finns i [det här avsnittet](../../developing/using/configuring-the-screen-definition.md).
 
 1. Nu kan du konfigurera filterdefinitionen så att den kan anropa resursen med hjälp av dess identifieringsnyckel.
 
@@ -90,7 +90,7 @@ Relaterade ämnen:
 
 När identifieringsnyckeln och filterdefinitionen har konfigurerats kan du använda dem för att anropa resursen, antingen från standardgränssnittet för Campaign eller från REST-API:er.
 
-Använd en **[!UICONTROL Query]** aktivitet i ett arbetsflöde (se [det här avsnittet](../../automating/using/query.md)). Filtret är sedan tillgängligt i den vänstra rutan.
+Om du vill använda filterdefinitionen från gränssnittet använder du en **[!UICONTROL Query]** aktivitet i ett arbetsflöde (se [det här avsnittet](../../automating/using/query.md)). Filtret är sedan tillgängligt i den vänstra rutan.
 
 ![](assets/uc_idkey9.png)
 

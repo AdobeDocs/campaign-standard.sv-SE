@@ -34,7 +34,7 @@ Mer information om Adobe Experience Platform SDK och integrering av Campaign Sta
 
 ## Är Adobe Experience Platform SDK-integrering tillgänglig för både Adobe Campaign Standard och Adobe Campaign Classic? {#aep-validity}
 
-Ja, [!DNL Adobe Experience Platform SDK] kan integreras med både Adobe Campaign Standard och Adobe Campaign Classic. Du måste installera motsvarande **[!UICONTROL Extension]** via [!DNL Data Collection UI] för att aktivera integreringen.
+Ja, [!DNL Adobe Experience Platform SDK] för både Adobe Campaign Standard och Adobe Campaign Classic. Du måste installera motsvarande **[!UICONTROL Extension]** via [!DNL Data Collection UI] för att aktivera integreringen.
 
 Mer information finns i [page]https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
 
@@ -53,7 +53,7 @@ Se tabellen nedan för mer information om dessa funktioner.
 Följande användningsområden stöds:
 
 * Hämta en **[!UICONTROL Mobile Profile]** i Campaign (identifieras med ECID i **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]** > **[!UICONTROL Mobile Application subscribers]** tabb)
-* Berika **[!UICONTROL Mobile Profile]** i Adobe Campaign (kräver **[!UICONTROL Custom resource Extension]** av appenSubscriberRcp-tabell)
+* Berika **[!UICONTROL Mobile Profile]** i ADOBE CAMPAIGN **[!UICONTROL Custom resource Extension]** av appenSubscriberRcp-tabell)
 * Hämta en push-token för att skicka push-meddelanden (kräver att användaren väljer att ta emot push-meddelanden)
 * Skicka push- och In-App-meddelanden
 * Spåra användarens interaktion med push- och In-App-meddelanden och rapportera om detta
@@ -67,14 +67,14 @@ För att göra detta, följ nedanstående steg:
    * Användare bör konfigurera timeout för session i **[!UICONTROL Mobile Core]** tillägg som påverkar frekvensen av livscykelhändelser.
    * När tillägget har konfigurerats bör användarna lägga till lämpliga beroenden i mobilappen med Cocoapods för iOS och Gradle för Android. Följ instruktionerna [här](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
    * Ta alltid de senaste versionerna av biblioteken.
-   * Registrera dig i mobilappen **[!UICONTROL Campaign]**, **[!UICONTROL UserProfile]**, **[!UICONTROL Identity]**, **[!UICONTROL Lifecycle]** och **[!UICONTROL Signal]** tillägg. Följ instruktionerna [här](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#register-the-campaign-standard-extension-with-mobile-core).
+   * Registrera i mobilapp **[!UICONTROL Campaign]**, **[!UICONTROL UserProfile]**, **[!UICONTROL Identity]**, **[!UICONTROL Lifecycle]** och **[!UICONTROL Signal]** tillägg. Följ instruktionerna [här](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#register-the-campaign-standard-extension-with-mobile-core).
    * När tilläggen har registrerats startar du ACPCore. För Android måste du se till att ställa in Application onCreate(). Följ de exakta instruktionerna i Mobile Install Instructions för din mobila egenskap i Launch.
    * Du måste också följa SDK API:er. Implementera API:er för start och paus i livscykeln enligt beskrivningen [här](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/android) för Android och här för iOS.
 1. Konfigurera en **[!UICONTROL Mobile Property]** i Adobe Campaign Standard. Följ proceduren [här](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
 ## Vad måste jag göra för att berika en mobilprofil i Campaign? {#enrich-mobile-profile}
 
-Du måste konfigurera ett CollectPII-återanslående (se [page](../../administration/using/configuring-rules-launch.md#pii-postback)) och implementera CollectPII API från SDK (se [page](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference)).
+Du måste konfigurera ett CollectPII-återanslag (se [page](../../administration/using/configuring-rules-launch.md#pii-postback)) och implementera CollectPII API från SDK (se [page](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference)).
 
 ## Hur ofta ska ett CollectPII-anrop utlösas? {#collect-pii}
 
@@ -84,7 +84,7 @@ Målet med CollectPII-anropet är att berika mobilprofilen i Campaign. Det bör 
 
 Ja. Beroende på ditt företags behov kan du utlösa CollectPII-anrop som svar på användarens inloggning i appen, eller köpa något, livscykelhändelse eller användarens inmatning av en geofence osv. Sammanfattningsvis är det en interaktion mellan användaren och appen som genererar information som du vill använda för profilberikning.
 
-## Kan jag bara ringa CollectPII-samtal som svar på alla mobilhändelser? {#collect-pii-events}
+## Kan jag bara ringa CollectPII-anrop som svar på alla mobilhändelser? {#collect-pii-events}
 
 Frekvensen och utformningen av CollectPII-anrop ska styras av affärsbehoven och ska inte avfyras blint eftersom det skapar extra belastning på DB.
 

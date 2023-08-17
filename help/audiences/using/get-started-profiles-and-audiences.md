@@ -40,7 +40,7 @@ Identifiera kunder effektivare i alla kanaler med **integrerade kundprofiler**, 
 
 Adobe Campaign skapar omfattande kundprofiler i realtid, så att ni kan leverera mer relevanta och personaliserade erbjudanden när kundens önskemål förändras. Dessutom integrerar Adobe Campaign avancerade funktioner för analys, datahantering och målinriktning för att skapa målgrupper.
 
-**Profiler** är enskilda kontakter som lagras i databasen. Varje profil motsvarar en post i databasen som innehåller den information som krävs för att den profilen ska kunna användas, kvalificeras och spåras individuellt: Adobe Campaign kan spåra alla interaktioner från både online- och offlinekanaler och sammanfoga dem i en enda profil.
+**Profiler** är enskilda kontakter som lagras i databasen. Varje profil motsvarar en post i databasen som innehåller den information som krävs för att den profilen ska kunna användas, kvalificeras och spåras individuellt: Adobe Campaign kan spåra varje interaktion från både online- och offlinekanaler och sammanfoga den i en enda profil.
 
 **Målgrupper** är listor med profiler som bygger på ett specifikt villkor eller en uppsättning villkor. Med hjälp av arbetsflöden och frågeredigeraren kan ni skapa målgrupper som ska vara inriktade på era marknadsföringskampanjer, beroende på vilken information ni har om dem, deras aktiviteter och deras marknadsföringshistorik. På så sätt kan du filtrera prenumererade profiler, sampla eller skapa målgrupper utifrån ett obegränsat antal kriterier.
 
@@ -88,5 +88,5 @@ Integritet och samtycke i Campaign och hur du hanterar dem presenteras i [det h�
 * [Mata in målgrupper från Adobe Experience Platform i Campaign](../../integrating/using/ingest-aep-data.md)
 * [Arbeta med Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
 * [Delade målgrupper i Adobe](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
-* [Importera profiler med arbetsflöden](../../automating/using/creating-import-workflow-templates.md)
+* [Använda arbetsflöden för att importera profiler](../../automating/using/creating-import-workflow-templates.md)
 * [Profiler och målgrupper - videor](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)

@@ -33,7 +33,7 @@ Läs mer i följande avsnitt:
 
 ## Förhandskrav {#self-service-app-prerequisites}
 
-Du måste konfigurera Microsoft Dynamics 365 och Adobe Campaign Standard så att integrationsappen har åtkomst till dina data. Det här tar tid att konfigurera i Dynamics 365, Adobe Campaign Standard och Adobe I/O. När de har konfigurerats kan du dock styra integreringen via självbetjäningsprogrammets användargränssnitt.
+Du måste konfigurera Microsoft Dynamics 365 och Adobe Campaign Standard så att integrationsappen har åtkomst till dina data. Detta tar en stund att konfigurera i Dynamics 365, Adobe Campaign Standard och Adobe I/O. När de har konfigurerats kan du dock styra integreringen via självbetjäningsprogrammets användargränssnitt.
 
 Läs mer i följande avsnitt:
 
@@ -88,7 +88,7 @@ I **[!UICONTROL Settings]** fyller du i följande avsnitt:
 * Microsoft Dynamics 365-autentiseringsuppgifter
 * Adobe-autentiseringsuppgifter
 
-Gå [här](../../integrating/using/d365-acs-self-service-app-settings.md) för att hitta mer detaljerad information om var informationen för varje inmatning finns. När du är klar klickar du på **[!UICONTROL Save]** längst ned.
+Gå [här](../../integrating/using/d365-acs-self-service-app-settings.md) för att hitta mer detaljerad information om var informationen för varje inmatning finns. Klicka på **[!UICONTROL Save]** längst ned.
 
 ## Kontrollera den ursprungliga konfigurationen {#self-service-app-initial-config}
 
@@ -111,6 +111,7 @@ När konfigurationen är korrekt klickar du på **[!UICONTROL Play]** knappen br
 >[!IMPORTANT]
 >
 >Vi **starkt** rekommenderar att du först kör detta i Stage- eller Dev-miljöer innan du kör det i Production. Kontrollera att stage-/dev-instansen är markerad i sidhuvudet.
+>
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
 
@@ -135,7 +136,7 @@ Posterna på den nedrullningsbara menyn är:
 
 * **Kundtjänst**: Det här är en länk till Experience Cloud dokumentation som rör öppning av kundtjänstbiljett
 
-* **Logga ut**: Detta loggar ut dig från programmet och gör att du kan logga in igen som en annan användare.
+* **Logga ut**: Du loggas ut från programmet och kan logga in igen som en annan användare.
 
 * **Om**: Här visas en dialogruta med information om programmet, inklusive copyrightinformation.
 

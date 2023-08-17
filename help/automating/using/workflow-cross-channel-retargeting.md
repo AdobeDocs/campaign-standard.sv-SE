@@ -29,7 +29,7 @@ Du kan skicka ett e-postmeddelande till kunder och sedan ett sms till dem som in
 1. Dra och släpp en [Fråge](../../automating/using/query.md)-aktivitet i **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**.
 1. Dubbelklicka på aktiviteten.
 1. I **[!UICONTROL Shortcuts]**, dra och släppa **[!UICONTROL Profiles]** och markera **[!UICONTROL email]** med operatorn **[!UICONTROL is not empty]**.
-1. I **[!UICONTROL Shortcuts]**, dra och släppa **[!UICONTROL Profiles]** och markera **[!UICONTROL no longer contact by email]** med värdet **[!UICONTROL no ]**.
+1. I **[!UICONTROL Shortcuts]**, dra och släppa **[!UICONTROL Profiles]** och markera **[!UICONTROL no longer contact by email]** med värdet **[!UICONTROL no]**.
 1. Klicka på **[!UICONTROL Confirm]**.
 
 ![](assets/wf-complement-query.png)
@@ -50,7 +50,7 @@ Du kan skicka ett e-postmeddelande till kunder och sedan ett sms till dem som in
 
 ## Rikta in icke-öppnare i en frågeaktivitet{#targeting-non-openers-in-a-query-activity}
 
-1. I **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, dra och släppa [Vänta](../../automating/using/wait.md) aktivitet.
+1. I **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, dra och släppa en [Vänta](../../automating/using/wait.md) aktivitet.
 1. I **[!UICONTROL Duration]**, klicka på ![](assets/duration-icon.png) och välj en dag.
 1. Dra och släpp en **[!UICONTROL Query activity]** i **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**.
 1. Dubbelklicka på aktiviteten.

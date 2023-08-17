@@ -45,9 +45,9 @@ Så här konfigurerar du en tjänst:
    * **[!UICONTROL No message]**: I det här läget kan du skapa en tjänst utan ett bekräftelsemeddelande.
    * **[!UICONTROL Default message]**: I det här läget används standardtransaktionsmeddelandet för prenumerationen eller avprenumerationsbekräftelsen.  Standardbekräftelsemeddelandena är generiska och kommer att vara detsamma för alla tjänster som använder standardläget.
 
-      >[!NOTE]
-      >
-      >Du kan ändra ett standardmeddelande genom att klicka på meddelandets etikett i avsnittet **[!UICONTROL Service properties]** eller genom att markera det i listan med transaktionsmeddelanden i Adobe Campaign efter att du har markerat rutan **[!UICONTROL Show internal transactional messages]**.
+     >[!NOTE]
+     >
+     >Du kan ändra ett standardmeddelande genom att klicka på meddelandets etikett i avsnittet **[!UICONTROL Service properties]** eller genom att markera det i listan med transaktionsmeddelanden i Adobe Campaign efter att du har markerat rutan **[!UICONTROL Show internal transactional messages]**.
 
    * **[!UICONTROL Custom message]**: I det här läget kan du hantera anpassade bekräftelsemeddelanden som är specifika för varje tjänst.  Sedan väljer du den **[!UICONTROL Custom subscription event configuration]** som är associerad med en viss [mall för transaktionsmeddelanden](../../channels/using/getting-started-with-transactional-msg.md) .  Mer information finns i [Bekräfta prenumeration på en tjänst](../../audiences/using/confirming-subscription-to-a-service.md).
 
@@ -61,7 +61,7 @@ När en tjänst har skapats kan du marknadsföra den.
 * [Skapa en målgrupp bestående av abonnenter](../../audiences/using/creating-audiences.md#creating-list-audiences)
 * [Länka en landningssida till en tjänst](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
 
-## Videokurs {#video}
+## Självstudievideo {#video}
 
 I den här videon visas hur du skapar en tjänst och hanterar dess prenumerationer.
 

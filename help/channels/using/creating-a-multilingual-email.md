@@ -17,7 +17,7 @@ ht-degree: 24%
 
 # Skapa ett flerspråkigt e-postmeddelande{#creating-a-multilingual-email}
 
-Du kan skicka ett flerspråkigt e-postmeddelande till profiler på olika språk: varje profil får en variant av e-postmeddelandet på det språk de föredrar.
+Du kan skicka ett flerspråkigt e-postmeddelande till profiler med olika språk: varje profil får en variant av e-postmeddelandet på det språk de föredrar.
 
 Det gör du genom att kontrollera att det finns en tillgänglig flerspråkig e-postmall. Om inte, lär dig hur du skapar en i [det här avsnittet](../../channels/using/multilingual-messages-template.md).
 
@@ -33,14 +33,14 @@ Publiken baseras på profiler med en färdig språkinfo.
 
    ![](assets/multi_create4.png)
 
-   Lägg till varianter med **[!UICONTROL Add an element]** -knappen. **[!UICONTROL Default]** får inte tas bort. När inställt på **[!UICONTROL default]**, [vilket språk profilen föredrar](../../audiences/using/creating-profiles.md) används för att välja varianten. Du kan också ange **[!UICONTROL Default]** variant för något annat språk.
+   Lägg till varianter med **[!UICONTROL Add an element]** -knappen. **[!UICONTROL Default]** får inte tas bort. När inställt på **[!UICONTROL default]**, [vilket språk profilen föredrar](../../audiences/using/creating-profiles.md) används för att välja varianten. Du kan också ange **[!UICONTROL Default]** varierar med andra språk.
 
-1. Bekräfta skapande av e-post: e-postkontrollpanelen visas då.
-1. Definiera e-postinnehållet för varje variant. Du kan definiera flera ämnen, flera avsändarnamn eller flera olika innehåll beroende på vilken mall du har valt. Använd listrutan för att navigera mellan elementets olika varianter. Mer information finns i avsnittet [Innehållsredigeraren](../../designing/using/designing-content-in-adobe-campaign.md).
+1. Bekräfta att e-postmeddelanden skapas: e-postinstrumentpanelen visas sedan.
+1. Definiera e-postinnehållet för varje variant. Du kan definiera flera ämnen, flera avsändarnamn eller flera olika innehåll beroende på vilken mall du har valt. Använd den nedrullningsbara menyn för att navigera mellan elementets olika varianter. Mer information finns i avsnittet [Innehållsredigeraren](../../designing/using/designing-content-in-adobe-campaign.md).
 
    ![](assets/multi_selectcontent.png)
 
 1. Testa och validera meddelandet. Se [Skicka bevis](../../sending/using/sending-proofs.md) -avsnitt.
 1. Schemalägg sändning med **[!UICONTROL Send after confirmation option]**.
-1. När e-postmeddelandet har skickats kan du få tillgång till loggarna och rapporterna för att mäta kampanjens framgångar. Mer information om rapportering finns i [det här avsnittet](../../reporting/using/about-dynamic-reports.md).
+1. När e-postmeddelandet har skickats kan du komma åt loggarna och rapporterna för att mäta kampanjens framgångar. Mer information om rapportering finns i [det här avsnittet](../../reporting/using/about-dynamic-reports.md).
 

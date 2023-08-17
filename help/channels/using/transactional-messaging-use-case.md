@@ -32,7 +32,7 @@ De viktigaste stegen för att implementera detta användningsexempel presenteras
 
 >[!NOTE]
 >
->En grafisk representation av den allmänna processen för transaktionsmeddelanden finns på [det här schemat](../../channels/using/getting-started-with-transactional-msg.md#key-steps).
+>En grafisk representation av den allmänna processen för transaktionsmeddelanden finns på [detta schema](../../channels/using/getting-started-with-transactional-msg.md#key-steps).
 
 ## Steg 1 - Skapa och publicera händelsekonfigurationen {#create-event-configuration}
 
@@ -78,7 +78,7 @@ De viktigaste stegen för att implementera detta användningsexempel presenteras
 
    ![](assets/message-center_usecase7.png)
 
-   Välj **[!UICONTROL Insert personalization field]** i kontextverktygsfältet. Från **[!UICONTROL Context]** > **[!UICONTROL Transactional event]** > **[!UICONTROL Event context]** nod, öppna noden som motsvarar **[!UICONTROL Purchase]** egen resurs och välj ett fält.
+   Gör detta genom att välja **[!UICONTROL Insert personalization field]** i kontextverktygsfältet. Från **[!UICONTROL Context]** > **[!UICONTROL Transactional event]** > **[!UICONTROL Event context]** nod, öppna noden som motsvarar **[!UICONTROL Purchase]** egen resurs och välj ett fält.
 
 1. Du kan testa meddelandet med en specifik testprofil. Se [Testa ett transaktionsmeddelande](../../channels/using/testing-transactional-message.md#testing-a-transactional-message).
 

@@ -49,14 +49,14 @@ Förberedelsen av meddelande utlöses enligt arbetsflödets körningsparametrar.
 
    >[!NOTE]
    >
-   >Du kan komma åt de allmänna egenskaperna och de avancerade alternativen för aktiviteten (och inte för själva leveransen) via ![](assets/dlv_activity_params-24px.png)-knappen från aktivitetens snabbåtgärder. Den här knappen är specifik för **[!UICONTROL Push notification]**-aktiviteten. Du kommer åt egenskaperna för push-meddelandet via åtgärdsfältet på kontrollpanelen för push-meddelanden.
+   >Du kan komma åt de allmänna egenskaperna och de avancerade alternativen för aktiviteten (och inte för själva leveransen) via ![](assets/dlv_activity_params-24px.png)-knappen från aktivitetens snabbåtgärder. Den här knappen är specifik för **[!UICONTROL Push notification]**-aktiviteten. Du kommer åt egenskaperna för push-meddelandet via åtgärdsfältet på kontrollpanelen.
 
 1. Välj sändningsläget för push-meddelanden:
 
    * **[!UICONTROL Single notification]**: push-meddelandet skickas en gång. Här kan du ange om du vill lägga till en utgående övergång till aktiviteten. De olika övergångstyperna beskrivs närmare i steg 7 i den här proceduren.
    * **[!UICONTROL Recurring notification]**: push-meddelandet skickas flera gånger, enligt den frekvens som anges i **[!UICONTROL Scheduler]** aktivitet. Välj aggregeringsperioden för utskicken. Detta gör att du kan gruppera om alla meddelanden som inträffar under den angivna perioden i ett enda push-meddelande som också anropas **återkommande körning** och kan hämtas från programmets lista över marknadsföringsaktiviteter.
 
-      Om du till exempel vill få ett återkommande födelsedagsmeddelande, som skickas varje dag, kan du välja att samla in varje månad. På så sätt kan du få rapporter om leveransen månadsvis även om meddelandet skickas varje dag.
+     Om du till exempel vill få ett återkommande födelsedagsmeddelande, som skickas varje dag, kan du välja att samla in varje månad. På så sätt kan du få rapporter om leveransen månadsvis även om meddelandet skickas varje dag.
 
 1. Välj en meddelandetyp. De här typerna kommer från mallar för push-meddelanden som definieras i **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** -menyn.
 1. Ange de allmänna egenskaperna för push-meddelandet. Du kan även bifoga den till en befintlig kampanj. Etiketten för arbetsflödets leveransaktivitet uppdateras med push-meddelandeetiketten.
@@ -64,7 +64,7 @@ Förberedelsen av meddelande utlöses enligt arbetsflödets körningsparametrar.
 1. Som standard innehåller aktiviteten **[!UICONTROL Push notification]** inga utgående övergångar. Om du vill lägga till en utgående övergång till din **[!UICONTROL Push Notification]**-aktivitet går du till fliken **[!UICONTROL General]** med de avancerade aktivitetsalternativen (knappen ![](assets/dlv_activity_params-24px.png) i aktivitetens snabbåtgärder) och markerar något av följande alternativ:
 
    * **[!UICONTROL Add outbound transition without the population]**: Detta gör att du kan generera en utgående övergång som innehåller exakt samma population som den inkommande övergången.
-   * **[!UICONTROL Add outbound transition with the population]**: Detta gör att du kan generera en utgående övergång som innehåller den population som meddelandet skickades till. De målmedlemmar som utesluts under färdigställandet av leveransen undantas från denna övergång.
+   * **[!UICONTROL Add outbound transition with the population]**: detta gör att du kan generera en utgående övergång som innehåller den population som meddelandet skickades till. De målmedlemmar som utesluts under färdigställandet av leveransen undantas från denna övergång.
 
 1. Bekräfta aktivitetens konfiguration och spara arbetsflödet.
 

@@ -38,14 +38,14 @@ De olika administratörsåtgärderna för Adobe Campaign utförs via **[!UICONTR
 
 De olika menyerna är:
 
-* [Användare och säkerhet](../../administration/using/about-access-management.md): På den här menyn kan du hantera åtkomst till plattformen (användare, roller, säkerhetsgrupper, enheter).
-* [Kanaler](../../administration/using/about-channel-configuration.md): Den här menyn grupperar de tekniska parametrar som är länkade till de olika plattformskanalerna (e-post, mobil) samt typologi och karantänhantering.
+* [Användare och säkerhet](../../administration/using/about-access-management.md): Med den här menyn kan du hantera åtkomst till plattformen (användare, roller, säkerhetsgrupper, enheter).
+* [Kanaler](../../administration/using/about-channel-configuration.md): Den här menyn grupperar de tekniska parametrar som är länkade till de olika plattformskanalerna (e-post, mobil) samt typologi- och karantänhantering.
 * [Programinställningar](../../administration/using/external-accounts.md): På den här menyn kan du konfigurera olika programelement (externa konton, alternativ, tekniska arbetsflöden).
 * [Utveckling](../../developing/using/data-model-concepts.md): På den här menyn kan du hantera anpassade resurser och komma åt diagnostikverktyg.
-* [Instansinställningar](../../administration/using/branding.md): På den här menyn definierar du dina olika varumärken och konfigurerar deras inställningar (logotyp, hantering av spårning, URL-domän för att komma åt landningssidorna, osv.).
-* [Distribution](../../automating/using/managing-packages.md): Den här menyn grupperar alternativen för paketimport och -export.
+* [Instansinställningar](../../administration/using/branding.md): På den här menyn definierar du dina olika varumärken och konfigurerar deras inställningar (logotyp, hantering av spårning, URL-domän för åtkomst till landningssidorna osv.).
+* [Distribution](../../automating/using/managing-packages.md): Den här menyn grupperar om alternativen för paketimport och -export.
 * [Kundstatistik](../../audiences/using/active-profiles.md): Adobe Campaign tillhandahåller en rapport som visar antalet aktiva profiler. Den här rapporten är bara informativ, den har ingen direkt inverkan på faktureringen.
-* [Sekretessverktyg](../../start/using/privacy-management.md): På den här menyn kan du skapa GDPR-åtkomst och ta bort begäranden och spåra deras utveckling.
+* [Sekretessverktyg](../../start/using/privacy-management.md): Med den här menyn kan du skapa GDPR-åtkomst och ta bort begäranden och spåra deras utveckling.
 
 ## Användare och säkerhet {#users-security}
 
@@ -72,7 +72,7 @@ Alla kommunikationskanaler i Adobe Campaign måste vara korrekt konfigurerade f�
 
 Konfigurera olika **e-post** parametrar: bearbetningsregler för studsar, karantän, e-postegenskaper och routningsparametrar, typoregler. Definiera routningskonfigurationer och egenskaper för **SMS** samt SMS-kodning och format.
 
-Konfigurera **mobilappar** för att kunna skicka meddelanden i appen och skicka push-meddelanden med Adobe Experience Platform SDK:er.
+Konfigurera **mobilapplikationer** för att kunna skicka meddelanden i appen och skicka push-meddelanden med Adobe Experience Platform SDK:er.
 
 Läs mer:
 
@@ -87,7 +87,7 @@ Läs mer:
 
 Campaign Standarden innehåller olika programelement som kan konfigureras efter dina behov.
 
-Konfigurera **externa konton** som används för att ansluta Adobe Campaign till externa servrar. Få åtkomst till målmappningar för Campaign Standarder och övervaka plattformen med **tekniska arbetsflöden**.
+Konfigurera **externa konton**, som används för att ansluta Adobe Campaign till externa servrar. Få åtkomst till målmappningar för Campaign Standarder och övervaka plattformen med **tekniska arbetsflöden**.
 
 Definiera en eller flera **varumärken** för din organisation och konfigurera sändning av **meddelanden i realtid** i programmet om det rör sig om viktiga systemaktiviteter.
 

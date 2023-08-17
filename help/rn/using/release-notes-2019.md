@@ -30,7 +30,7 @@ ht-degree: 8%
    <td> <p>CCPA är delstaten Kaliforniens nya integritetslagstiftning som harmoniserar och moderniserar dataskyddskraven som träder i kraft den 1 januari 2020. CCPA gäller för Adobe Campaign-kunder som lagrar data för registrerade i Kalifornien.</p>
    <p>Förutom de sekretessfunktioner som redan finns i Adobe Campaign (inklusive samtyckeshantering, datalagringsinställningar och användarroller) tar vi tillfället i akt att inkludera ytterligare funktioner som underlättar din beredskap för CCPA:</p>
    <ul>
-    <li>Rätt till åtkomst och rätt att ta bort: vi utnyttjar de funktioner som tillkommit för GDPR. <a href="https://helpx.adobe.com/se/campaign/kb/acs-privacy.html#righttoaccess">Läs mer</a> </li>
+    <li>Rätt till åtkomst och rätt att radera: vi utnyttjar de funktioner som lagts till för GDPR. <a href="https://helpx.adobe.com/se/campaign/kb/acs-privacy.html#righttoaccess">Läs mer</a> </li>
     <li><p>När en sekretessförfrågan skapas har regeltypen (GDPR eller CCPA) lagts till i bastjänsten för sekretess. Det är den här metoden du bör använda för alla förfrågningar gällande åtkomst och borttagning.  Användningen av Campaign-API:n och gränssnittet för förfrågan gällande åtkomst och borttagning är föråldrad.    Se <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=sv#release-notes">artikeln Föråldrade och borttagna funktioner</a>.</p></li>
     <li>A <strong>CCPA-avanmälan</strong> har lagts till i profilresursen så att Adobe Campaign-användare kan spåra om en konsument har valt att sälja personuppgifter. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=sv#privacy-requests">Läs mer</a>.</li>
   </ul>
@@ -62,13 +62,13 @@ ht-degree: 8%
 * Ett problem som visade felaktiga kontaktdatum när leveransmeddelanden togs emot har korrigerats.
 * När en händelse för transaktionsmeddelanden skickas med en okänd kontextparameter returnerar Campaign nu felmeddelandet&quot;400&quot; i stället för&quot;500&quot;. (CAMP-28632)
 * En ny **Uteslut korrektur** segment har lagts till i dynamisk rapportering. Det här segmentet är nu markerat som standard för att filtrera rapporter. [Läs mer](../../reporting/using/list-of-components-.md#segments)
-* The **Meddelande förfaller** alternativet har lagts till i push-meddelanden. Du kan ange ett förfallodatum när meddelandet inte längre ska skickas av Apple (APNS) eller Android (FCM). [Läs mer](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
-* Förbättringar har gjorts i **Läs in fil** aktivitet: arbetsflödesloggar har gjorts tydligare och mer detaljerade om det fel som inträffar när en fil inte kan läsas in. Den utgående övergång som genereras vid aktivering av **Behåll avvisningarna i en fil** alternativet har bytt namn **Avslag**. [Läs mer](../../automating/using/load-file.md)
+* The **Meddelandets förfallodatum** alternativet har lagts till i push-meddelanden. Du kan ange ett förfallodatum när meddelandet inte längre ska skickas av Apple (APNS) eller Android (FCM). [Läs mer](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
+* Förbättringar har gjorts i **Läs in fil** aktivitet: arbetsflödesloggarna har gjorts tydligare och mer detaljerade om det fel som inträffar när en fil inte kan läsas in. Den utgående övergång som genereras när **Behåll avvisningarna i en fil** alternativet har bytt namn **Avslag**. [Läs mer](../../automating/using/load-file.md)
 * Flerspråkiga relaterade loggar har lagts till i de sändande loggarna för att bättre förstå hur fel skickas på grund av att språk saknas i de överförda CSV-filerna.
 
 **Säkerhetsförbättringar**
 
-* Ett problem som uppstod när information för en kvantinerad profil skulle tas bort via en sekretessförfrågan, som tog bort alla data utom e-postadressen i karantänlistan, har åtgärdats.
+* Korrigerade ett problem när information för en kvantinerad profil skulle tas bort via en sekretessförfrågan, som tog bort alla data utom e-postadressen i karantänlistan.
 * Säkerheten har förbättrats för att skydda mot injektioner i e-posthuvuden.
 * Säkerheten har förbättrats för skydd mot SSRF-attacker där xtk-uttryck kan användas (e-post, textinnehåll och ämne, SMS och push-meddelandeinnehåll).
 
@@ -76,10 +76,10 @@ ht-degree: 8%
 
 * Korrigerade ett problem som förhindrade att länkar till avprenumerationer, prenumerationer och landningssidor spårades när de infogades i ett e-postmeddelande. (CAMP-37809)
 * Korrigerade ett problem som kunde leda till fel när ett nytt e-postmeddelande skapades och en mall valdes. (CAMP-38000)
-* När du redigerar en länk med e-postdesignern kan du nu använda **Understrykningslänk** alternativ. Dessutom har **Mål** egenskapen har lagts till med standardvärdet inställt på **Ingen**. [Läs mer](../../designing/using/styles.md#about-styling-links)
+* Nu kan du använda **Understrykningslänk** alternativ. Dessutom har **Mål** egenskapen har lagts till med standardvärdet inställt på **Ingen**. [Läs mer](../../designing/using/styles.md#about-styling-links)
 * Korrigerade ett färgproblem med länkar i textkomponenter i brödtexten i ett e-postmeddelande. (CAMP-37330)
 * Korrigerade ett problem som förhindrade att associerade länkar togs bort när en bild togs bort. (CAMP-37234)
-* Ett problem som gjorde att ändringar i formuläret inte kunde sparas har åtgärdats **Order** inställningar för dynamiskt innehåll i ett villkor. (CAMP-36883)
+* Ett problem som gjorde att ändringar i formuläret inte kunde sparas har åtgärdats **Beställning** inställningar för dynamiskt innehåll i ett villkor. (CAMP-36883)
 * Ett problem har korrigerats vid sökning på landningssidor. Sökningen har utökats från de 50 som skapades till att omfatta hela databasen. (CAMP-36839)
 * Ett problem har korrigerats när ändringar sparades i e-postavsändaren i **Från: Namn** fält. (CAMP-36606)
 * Carousel-komponentens kompatibilitetsvarning har ändrats så att den återspeglar e-postklienter som stöds.
@@ -96,7 +96,7 @@ ht-degree: 8%
 * Ett problem med att spara när du växlade från HTML till oformaterad text har åtgärdats.
 * Korrigerade ett problem när du klickade på lås- och upplåsningsalternativet som lade till marginalvärden på egenskapspanelen för det infogade formatet.
 * Korrigerade ett problem med storleken på förhandsvisningen i mobilen för bättre återgivning.
-* Ett problem med storleken på knappar i mallar och fragment har korrigerats.
+* Ett problem med knappstorleken i mallar och fragment har korrigerats.
 * Korrigerade ett problem med storleken på bilder när de infogades i en knappkomponent.
 
 **Andra ändringar**
@@ -109,8 +109,8 @@ ht-degree: 8%
 * Förbättrade databasprestanda för stora resurser.
 * Beskrivningarna av vissa fel som inträffar när SMS-meddelanden skickas har gjorts tydligare. (CAMP-36558)
 * Ett felmeddelande visas nu när ett arbetsflödes körs **Schemaläggare** aktivitet som är kopplad till sig själv, antingen direkt eller via flera aktiviteter, eftersom det kan leda till att instansens arbetsflödesserver fastnar.
-* Förbättringar har gjorts för att hjälpa till att felsöka transaktionsmeddelanden: Om länken &quot;Data&quot; har bytt namn till &quot;Last transactional events&quot; i händelsekonfigurationsfönstret, visas nu de mottagna händelserna sorterade i fallande ordning. Dessutom har en ny status för transaktionshändelser skapats: &quot;targetingFailed&quot;. När transaktionsmeddelandemodulen inte kan utöka en länk som används för meddelandemål, kommer transaktionshändelsen nu att vara i det nya läget (i stället för statusen&quot;routingFailed&quot;).
-* Gränssnittet har förbättrats när det gäller att begränsa åtkomsten till landningssidor till särskilda geografiska eller organisatoriska enheter. Syftet är att varna för att landningssidan kan vara föremål för synlighetsvillkor: Det är nu obligatoriskt att välja en geografisk och organisatorisk enhet när en landningssida skapas. En banderoll med relaterad information visas nu när en enhet har valts. Felmeddelandet som visas när landningssidan testas har blivit tydligare.
+* Förbättringar har gjorts för att hjälpa till att felsöka transaktionsmeddelanden: länken&quot;Data&quot; har fått namnet&quot;Last transactional events&quot; i händelsekonfigurationsfönstret och visar nu de mottagna händelserna sorterade i fallande ordning. Dessutom har en ny status för transaktionshändelser skapats:&quot;targetingFailed&quot;. När transaktionsmeddelandemodulen inte kan utöka en länk som används för meddelandemål, kommer transaktionshändelsen nu att vara i det nya läget (i stället för statusen&quot;routingFailed&quot;).
+* Gränssnittet har förbättrats när det gäller att begränsa åtkomsten till landningssidor till särskilda geografiska eller organisatoriska enheter. Syftet är att varna för att landningssidan kan vara föremål för synlighetsvillkor: valet av geografisk och organisatorisk enhet när en landningssida skapas är nu obligatoriskt. En banderoll med relaterad information visas nu när en enhet har valts. Felmeddelandet som visas när landningssidan testas har blivit tydligare.
 * I Campaign Standard-API:er kan inte anpassade nycklar ändras med en PATCH-åtgärd om nyckelvärdet skiljer sig från ursprungsnyckeln, eller om du använder din egen affärsnyckel som URI i stället för den som tillhandahålls av Adobe.
 * Språket&quot;Albanska - Makedonien&quot; har lagts till i den önskade språklistan. (CAMP-35396)
 
@@ -118,7 +118,7 @@ ht-degree: 8%
 
 * Ett problem som gjorde att schemalagda rapporter inte kunde sorteras eller sökas har åtgärdats.
 * Korrigerade ett problem med utlösarregler som gjorde att AND- och OR-reglerna blandades.
-* Korrigerade ett problem som visade egenskapen Mobile som Deleted i Launch. (CAMP-35382)
+* Korrigerade ett problem som visade Mobile-egenskapen som Borttagen i Launch. (CAMP-35382)
 * Ett problem som gjorde att mobila egenskaper för Adobe Launch inte kunde synkroniseras i Adobe Campaign har åtgärdats. (CAMP-35411, CAMP-35089, CAMP-35014, CAMP-35487)
 * Korrigerade ett problem där transaktionspush-meddelanden misslyckades när händelser berikades med profildata. (CAMP-34385)
 * Ett problem med att mobila egenskaper inte synkroniseras i flera miljöer har åtgärdats. (CAMP-37060)
@@ -126,10 +126,10 @@ ht-degree: 8%
 * Korrigerade ett problem som kunde få meddelandetjänsten att krascha. (CAMP-35287)
 * Ett problem med återkommande direktreklam som alla definierades med det första händelsedatumet har korrigerats. (CAMP-35139)
 * Ett problem med nyligen utökad åtgärd har korrigerats **Profiler** anpassade resurser som inte var tillgängliga för frågor. (CAMP-35119)
-* Korrigerade **Reparera databasstruktur** läge för instanser där delningskonfigurationen är aktiverad. (CAMP-35118)
+* Korrigerade **Reparera databasstruktur** läge för instanser med Delningskonfiguration aktiverat. (CAMP-35118)
 * Korrigerade ett problem som ledde till ett SQL-loggfel när aggregerade data lades till i utsändningsloggar. (CAMP-35034)
 * Ett problem med övergångar när en **Segmentering** aktivitet. (CAMP-35033)
-* Ett problem i **Fråga** verksamhet som hindrade **encryption_aescbcDecrypt** funktion från dekryptering av **encryption_aescbcEncrypt** funktion. (CAMP-34952)
+* Korrigerat ett problem i **Fråga** verksamhet som hindrade **encryption_aescbcDecrypt** funktion från dekryptering av **encryption_aescbcEncrypt** funktion. (CAMP-34952)
 * Ett problem som kunde förhindra **Spårningsloggar** från att visas i leveranser. (CAMP-34855)
 * Ett problem som uppstod när en **Tidsoptimering för sändning** anpassad datumformel, som kan förhindra att push-meddelanden skickas på grund av fel i arbetsflödets ytterligare data. (CAMP-30336)
 * Ett problem som kunde förhindra att anpassade resurser publicerades har åtgärdats. (CAMP-37425)
@@ -190,7 +190,7 @@ ht-degree: 8%
 * Ett problem som kunde förhindra att ämnet i ett e-postmeddelande uppdaterades efter att det ändrades har åtgärdats.
 * Korrigerade ett problem som förhindrade att en n:n-kolumnstruktur markerades när den släpptes in på arbetsytan.
 * Korrigerade ett problem som gjorde att miniatyrbilden av meddelandet såg suddig ut på e-postinstrumentpanelen.
-* Ett problem som gjorde att bakgrunden inte kunde visas korrekt för e-post som togs emot i Outlook har korrigerats.
+* Ett problem som gjorde att bakgrunden inte kunde visas korrekt för e-postmeddelanden som togs emot i Outlook har åtgärdats.
 * Korrigerade några sorteringsproblem på e-postdesignerns hemsida.
 * Korrigerade ett problem som uppstod vid duplicering av varianter när dynamiskt innehåll användes.
 * Vissa oönskade fält har tagits bort från inställningspanelen för e-postdesignern.
@@ -212,7 +212,7 @@ ht-degree: 8%
 * En varning har lagts till i gränssnittet för leveransegenskaper. Det anger att leveranser förbereds baserat på deras sammanställningsperiod och tina för att anropa arbetsflödet flera gånger om dagen, du bör se till att de inte har någon period. (CAMP-34393)
 * En varning har lagts till i anpassade resurskonfigurationsskärmar. Vi rekommenderar att du använder högst 30 tecken för anpassade resurs-ID:n. Detta gäller även anpassade resursfält, nycklar, index och länkar.
 * Ett meddelande visas nu när du försöker ta bort ett transaktionsmeddelande som används av en landningssida som ett bekräftelsemeddelande.
-* En varning visas nu i arbetsflödesloggarna när en aktivitet har körts i mer än 6 timmar. Detta gäller inte push-meddelanden, leverans, signal, start, slut, gaffel, AND-joint, schemaläggning och vänteaktiviteter.
+* En varning visas nu i arbetsflödesloggar när en aktivitet har körts i mer än 6 timmar. Detta gäller inte push-meddelanden, leverans, signal, start, slut, gaffel, AND-joint, schemaläggning och vänteaktiviteter.
 * En varning visas nu i arbetsflödesloggar när du når maximalt antal arbetsflöden som körs samtidigt.
 * Arbetsflöden som har pausats eller misslyckats i mer än 7 dagar stoppas nu för att ta upp mindre diskutrymme. Rengöringsaktiviteten visas i loggarna för arbetsflödet.
 * När en &quot;Överför fil&quot;-aktivitet används loggas nu ett fel om filstorleken överskrider det tillgängliga diskutrymmet.
@@ -233,7 +233,7 @@ ht-degree: 8%
 * Korrigerade ett problem i arbetsflöden som uppstod när gaffel- och exkluderingsaktiviteter kombinerades för att skapa målgrupper. (CAMP-33401)
 * Korrigerade ett problem som kunde förhindra att innehåll på en speglad sida visades och korrekturmeddelanden skickades för återkommande leveranser. (CAMP-33413)
 * Korrigerade ett problem som ledde till ett fel när en unionsaktivitet användes mellan profiler och målgrupper. Problemet orsakades av en inkompatibilitet mellan identifieringsnycklarna i indataövergångar. (CAMP-33713)
-* Korrigerade ett fel i testaktiviteterna som hindrade uttrycket &quot;recCount&quot; från att använda rätt syntax när det dubbelklickade. (CAMP-33756)
+* Korrigerade ett fel i testaktiviteterna som hindrade uttrycket &quot;recCount&quot; från att använda rätt syntax när det dubbelklickade på det. (CAMP-33756)
 * Korrigerade ett problem som kunde leda till ett felmeddelande när de tekniska arbetsflödesloggarna för fakturering öppnades. (CAMP-34313)
 * Korrigerade ett problem på landningssidor som kunde inträffa när kryssrutefält konfigurerades med prenumerationer. (CAMP-34369)
 * Ett problem som uppstod när en lista konfigurerades och när ikonfältet lades till i listan har åtgärdats. (CAMP-34585)
@@ -355,10 +355,10 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
 
 **Andra ändringar**
 
-* Ett nytt alternativ har lagts till i det externa SMS-kontot. Det gör det möjligt att begränsa det maximala antalet MTA-processer som skickar SMS för att bättre kontrollera antalet parallella anslutningar. Mer information finns i [Protokoll och inställningar för SMS-anslutning](https://helpx.adobe.com/se/campaign/kb/sms-connector-protocol-and-settings.html) Tech.
+* Ett nytt alternativ har lagts till i SMS-kontot. Det gör det möjligt att begränsa det maximala antalet MTA-processer som skickar SMS för att bättre kontrollera antalet parallella anslutningar. Mer information finns i [Protokoll och inställningar för SMS-anslutning](https://helpx.adobe.com/se/campaign/kb/sms-connector-protocol-and-settings.html) Tech.
 * När en resurs med API-tillägg publiceras uppdateras den nu automatiskt varje gång den publiceras igen, om API:t redan har publicerats. Tidigare var den här åtgärden manuell och om API:t inte uppdaterades kunde profilen eller tjänstresursen i API:t brytas. Mer information finns i [detaljerad dokumentation](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
 * Postnumret har tagits bort från Dynamic Reporting. Vi rekommenderar att du använder måtten Ort, Land, Delstat i stället.
-* Lifecycle-händelseutlösaren&quot;First Launch&quot; för meddelanden i appen har tagits bort.
+* Den första starthändelseutlösaren för livscykeln för meddelanden i appen har tagits bort.
 * När du exporterar ett paket med säkerhetsgrupper innehåller det nu de roller som tilldelas varje grupp. (CAMP-32960)
 * I aktiviteten Läs in fil kan du med ett nytt alternativ kontrollera att kolumnerna i filen som du överför matchar kolumndefinitionen. Mer information finns i den [detaljerade dokumentationen](../../automating/using/load-file.md). (CAMP-32229)
 * Arbetsflöden kan nu startas med en nyttolast, vilket gör att du kan använda och dela externa parametrar mellan aktiviteter i arbetsflödet. Mer information finns i den [detaljerade dokumentationen](../../automating/using/calling-a-workflow-with-external-parameters.md). (CAMP-29412 &amp; CAMP-29413)
@@ -378,7 +378,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
 * Korrigerade ett fel som hindrade användare från att skicka meddelanden i appen med bara medie-URL:en.
 * Korrigerade ett problem som visade en mobilapp även om dess certifikat inte överfördes till instansen.
 * Ett fel som hindrade personaliseringsfält från att fungera när **Alla användare av en mobilapp** mall.
-* Nya Campaign Standard-instanser etablerades. (CAMP-32635 och CAMP-32344)
+* Nya instanser av Campaign Standarden har etablerats. (CAMP-32635 och CAMP-32344)
 * Korrigerade ett fel som förhindrade anpassning av datumformeln i ett arbetsflöde. (CAMP-30336)
 * Ett problem har korrigerats vid definiering av en anpassad datumformel som kan förhindra att fälten&quot;Ytterligare data&quot; och&quot;Segmentkod&quot; är tillgängliga i listrutan. (CAMP-32383)
 * Ett problem som kunde förhindra att aktiviteten &quot;Överför fil&quot; och &quot;Extrahera fil&quot; kunde hitta filerna som avvisade om de var krypterade har åtgärdats. (CAMP-32377)
@@ -418,10 +418,10 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
  <tbody> 
   <tr> 
    <td> Förbättrad rapportering av push-kanaler<br /> </td> 
-   <td> <p>Flera förbättringar har lagts till i push-kanalrapportering så att ni kan mäta användarengagemanget mer intuitivt. I den här versionen expanderar vi listan över Push-kanalmått till tre olika mätvärden: Impressions, Click, Open (App Open) hjälper dig att mäta och analysera användarnas interaktion med push-meddelanden mer effektivt. Dessutom standardiserar vi definitionen och genomförandet av dessa mätvärden. Den inbyggda rapporten för push-meddelanden har också förbättrats med visualiseringar och mätvärden som används ofta.</p><p> Mer information finns i den <a href="../../reporting/using/push-notification-report.md">detaljerade dokumentationen</a>.</p> </td> 
+   <td> <p>Flera förbättringar har lagts till i push-kanalrapportering så att ni kan mäta användarengagemanget mer intuitivt. I den här versionen utökar vi listan över push-kanalsvärden till tre olika mätvärden: Impressions, Clicks, Open (App Open) för att hjälpa dig att mäta och analysera användarnas interaktion med push-meddelanden mer effektivt. Dessutom standardiserar vi definitionen och genomförandet av dessa mätvärden. Den inbyggda rapporten för push-meddelanden har också förbättrats med visualiseringar och mätvärden som ofta används.</p><p> Mer information finns i den <a href="../../reporting/using/push-notification-report.md">detaljerade dokumentationen</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> Starta integrering för mobilappar<br /> </td> 
+   <td> Starta integrering för mobilappen<br /> </td> 
    <td> <p>Den här versionen innehåller integreringen av Adobe Campaign med GA-versionerna av Android- och iOS-tilläggen för Adobe Campaign Standard i Adobe Experience Platform Launch och Mobile SDK. Dessa tillägg har stöd för push-meddelanden, meddelanden i appen och profiluppdateringar för mobilappar.</p><p> Mer information finns i den <a href="https://helpx.adobe.com/se/campaign/kb/configuring-app-sdk.html">detaljerade dokumentationen</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -448,19 +448,19 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
 
 * Det finns nu fyra mallar för responsiv e-post i toppklass som utformats av Behance-artister.
 
-   Mer information finns i den [detaljerade dokumentationen](../../designing/using/using-reusable-content.md#content-templates).
+  Mer information finns i den [detaljerade dokumentationen](../../designing/using/using-reusable-content.md#content-templates).
 
 * Vår nya introduktionsupplevelse hjälper er att börja skapa e-postmeddelanden snabbare och ge er enklare åtkomst till dokumentation och självstudiekurser.
 
-   Mer information finns i den [detaljerade dokumentationen](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page).
+  Mer information finns i den [detaljerade dokumentationen](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page).
 
 * Nu kan du konfigurera antalet kolumner och bredder utifrån dina behov.
 
-   Mer information finns i den [detaljerade dokumentationen](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+  Mer information finns i den [detaljerade dokumentationen](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 * När du redigerar i mobilvyn kan du dölja vissa komponenter bara i den mobila visningen för effektiv utrymmesanvändning.
 
-   Mer information finns i den [detaljerade dokumentationen](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
+  Mer information finns i den [detaljerade dokumentationen](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
 * Du kan nu lägga till anpassade sociala kanaler i din e-postmall ovanpå de som redan är tillgängliga.
 * Korrigerade ett fel som förhindrade rullning nedåt på strukturmenyn när fler än 18 strukturer användes. (CAMP-31173)
@@ -480,7 +480,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
 * Listrutan Tidszon i fönstret Skapa profil har flyttats från avsnittet Adress till den övre delen av gränssnittet.
 * Nu kan du lägga till avgränsare när du konfigurerar anpassade resursskärmar, så att du kan ordna dina fält i kategorier.
 
-   Mer information finns i den [detaljerade dokumentationen](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration).
+  Mer information finns i den [detaljerade dokumentationen](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration).
 
 **Andra ändringar**
 
@@ -496,13 +496,13 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
 * Korrigerade ett problem som kunde inträffa med PKEY-generering när utökade profilresurser användes. (CAMP-30285)
 * Ett problem som kunde inträffa med kalenderdagars trötthetsregler har korrigerats. (CAMP-30136)
 * Korrigerade ett problem som kunde inträffa vid försök att komma åt anpassade resurser med namn som slutade med &quot;Bas&quot;. (CAMP-30109)
-* Korrigerade ett fel som förhindrade att ett PATCH-anrop användes för att prenumerera på en profil för en tjänst. (CAMP-29728)
+* Korrigerade ett problem som förhindrade att ett PATCH-anrop användes för att prenumerera på en profil för en tjänst. (CAMP-29728)
 * Korrigerade ett problem som kunde skada ett arbetsflöde vid import av en XML-fil via aktiviteten Läs in fil. (CAMP-29208 och CAMP-28205)
 * Ett problem har korrigerats vid länkning av anpassade resurser som skulle kunna förhindra att omvända kardinalitetslänkar genereras. (CAMP-30476)
 * Korrigerade ett problem som förhindrade utökning av leveransloggar när endast segmentkoden användes.
 * Korrigerade ett problem som kunde duplicera rader när filöverföringsaktiviteten användes i arbetsflöden.
 * Korrigerade ett problem som förhindrade att schemalagda rapporter skickades vid den valda tidpunkten.
-* Korrigerade ett problem som orsakade diskrepans mellan KPI:erna &quot;Att leverera&quot; och &quot;Skickat&quot; för en leverans i appen i ett arbetsflöde.
+* Korrigerade ett problem som orsakade diskrepans mellan nyckeltal för att leverera och skicka för en leverans i appen i ett arbetsflöde.
 * Ett problem som hindrade spårning från att arbeta med ett meddelande i appen som skapats med en anpassad HTML har korrigerats.
 * Korrigerade ett problem som förhindrade att innehåll för leverans i appen sparades när det användes i ett arbetsflöde.
 * Ett problem som gjorde att mobilprogram inte kunde visas för administratörer har åtgärdats.
@@ -542,7 +542,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
    <td> <p>Nu kan du växla till en dedikerad mobilvy när du redigerar e-postinnehåll. På så sätt kan du finjustera den responsiva designen för ett e-postmeddelande genom att redigera alla formatalternativ separat för mobildisplayen, till exempel för att anpassa marginaler, mindre teckenstorlek, olika bakgrundsfärger osv.</p><p> Mer information finns i den <a href="../../designing/using/plain-text-html-modes.md#switching-to-mobile-view">detaljerade dokumentationen</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> Förbättringar av betaversionen av meddelanden i appen<br /> </td> 
+   <td> Betaversioner av meddelanden i appen<br /> </td> 
    <td> <p>Betafunktionen för meddelanden i appen har förbättrats med följande funktioner:</p> 
     <ul> 
      <li> Betakanalen i appen är GDPR-kompatibel </li> 
@@ -560,7 +560,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
 * Med ett nytt alternativ i aktiviteten Uppdatera data kan du nu konfigurera den maximala batchstorleken för data som ska överföras. (CAMP-28400)
 * Förbättrade profilers val av adresstillstånd. När du väljer ett land uppdateras nu listrutan Läge automatiskt med relevanta statusvärden. (CAMP-28874)
 * Ett nytt alternativ i filaktiviteten Extract förhindrar nu att en fil genereras om den inkommande övergången är tom. På så sätt undviker du att skapa och överföra tomma filer på SFTP-servrar.
-* Sammanfattningsrapporten för leverans har förbättrats.
+* Sammanfattningsrapporten har förbättrats.
 * Listan över tillgängliga länder när en profils adress definieras har ökats. (CAMP-26707)
 * Ett felmeddelande visas nu när du försöker importera ett inbyggt arbetsflöde.
 
@@ -584,7 +584,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
 
 * Ett problem som visade felaktiga leveransloggar i dynamisk rapportering har korrigerats. (CAMP-23446)
 * Korrigerade ett problem som kunde påverka siffrorna i studssammanfattningsrapporten (CAMP-28703)
-* Ett problem med integreringen av grundtjänsten för kampanj och resurser som kunde förhindra att resurser visas när du valde har åtgärdats **[!UICONTROL Image shared from Adobe Experience Cloud]** i ett e-postmeddelande (CAMP-28732).
+* Ett problem med integreringen av grundtjänsten för kampanj och resurser som kunde förhindra att resurser visas när du valde har åtgärdats **[!UICONTROL Image shared from Adobe Experience Cloud]** i ett mejl (CAMP-28732).
 * Korrigerade ett problem som förhindrade att SMS-meddelanden som innehöll ett&quot;oe&quot;-tecken skickades trots att translitterering godkändes i SMPP:s externa konto. (CAMP-29041)
 * Korrigerade ett problem som kunde visa dubblettposter när en segmenteringsaktivitet användes i arbetsflöden. (CAMP-28743)
 * Korrigerade ett fel som förhindrade att en av värdemappningarna i en kolumn i en arbetsflödesaktivitet togs bort. (CAMP-28708)

@@ -51,14 +51,15 @@ I det specifika sammanhanget för ett A/B-test:
    * **[!UICONTROL Winning strategy]**: Välj det kriterium som ska användas för att bestämma vinnande variant.
    * **[!UICONTROL Target breakdown]**: Välj vilken procentandel av målet som ska ta emot varje variant. Den återstående procentandelen får den vinnande varianten när den har bestämts. Målprofilerna väljs slumpmässigt.
 
-      >[!NOTE]
-      >
-      >Om den totala befolkningen är mindre än 50 kB måste varje variant motsvara minst 10 % av den totala befolkningen.
+     >[!NOTE]
+     >
+     >Om den totala befolkningen är mindre än 50 kB måste varje variant motsvara minst 10 % av den totala befolkningen.
 
    * **[!UICONTROL Winner sending method]**: Välj om du vill att den vinnande varianten ska skickas automatiskt när den har bestämts eller om du vill bekräfta att den ska skickas till den återstående populationen manuellt.
    * **[!UICONTROL Test duration]**: Ange testets varaktighet. Den vinnande varianten bestäms automatiskt efter denna varaktighet. Du kan välja vinnande variant manuellt före testets slut från e-postkontrollpanelen.
 
-      Testet måste vara minst en timme för att alla spårningsdata ska kunna samlas in och tas med i beräkningen så att den vinnande varianten kan väljas.
+     Testet måste vara minst en timme för att alla spårningsdata ska kunna samlas in och tas med i beräkningen så att den vinnande varianten kan väljas.
+
    ![](assets/ab_parameters.png)
 
 1. När A/B-testparametrarna har definierats, går du vidare till nästa steg i guiden och definierar e-postinnehållet. Du kan definiera flera ämnen, flera avsändarnamn eller flera olika innehåll beroende på vilken mall du har valt. Använd karusellen för att navigera mellan elementets olika varianter. Mer information finns i avsnittet [Innehållsredigeraren](../../designing/using/designing-content-in-adobe-campaign.md).

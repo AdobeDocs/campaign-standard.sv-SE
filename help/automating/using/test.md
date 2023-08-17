@@ -49,10 +49,10 @@ Villkoren kan baseras på **funktioner** eller på **variabler** som exempelvis 
 
    * ![](assets/extsignal_picker.png): välj händelsvariabeln bland alla variabler som är tillgängliga i arbetsflödet (se [den här sidan](../../automating/using/customizing-workflow-external-parameters.md)).
 
-      Du kan till exempel kontrollera antalet hämtade filer efter en [Filöverföring](../../automating/using/transfer-file.md) aktivitet med **[!UICONTROL filesCount]** variabel.
+     Du kan till exempel kontrollera antalet hämtade filer efter en [Filöverföring](../../automating/using/transfer-file.md) aktivitet med **[!UICONTROL filesCount]** variabel.
 
-      ![](assets/wkf_test_activity_variables.png)
+     ![](assets/wkf_test_activity_variables.png)
 
    * ![](assets/extsignal_expression_editor.png): redigera uttryck genom att kombinera variabler och funktioner.  Mer information om uttrycksredigeraren finns i [detta avsnittet](../../automating/using/advanced-expression-editing.md).
 
-      ![](assets/wkf_test_activity_variables_expression.png)
+     ![](assets/wkf_test_activity_variables_expression.png)

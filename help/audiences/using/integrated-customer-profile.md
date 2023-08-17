@@ -22,7 +22,7 @@ En integrerad kundprofil finns tillgänglig för varje kontakt i databasen. Denn
 
 Så här får du tillgång till den integrerade kundprofilen:
 
-1. På Adobe Campaign hemsida klickar du på **[!UICONTROL Customer profiles]** eller **Profiler** för att visa profillistan.
+1. På Adobe Campaign hemsida klickar du på **[!UICONTROL Customer profiles]** kortet eller **Profiler** för att visa profillistan.
 
 1. Om du vill söka efter en profil baserat på ett visst fält öppnar du sökrutan och markerar sedan det fält som du vill söka i.
 
@@ -45,7 +45,7 @@ Du kan sedan komma åt den här kontaktens **marknadsföringshistorik** .
 
 Nyckelinformation för profilen samlas in på den här sidan samt i listan med händelser.
 
-Klicka på en händelse i listan för att öppna den: du får tillgång till meddelanden som har skickats eller tjänster som profilen har prenumererat på.
+Klicka på en händelse i listan för att öppna den: du kan komma åt de meddelanden som har skickats eller de tjänster som profilen har prenumererat på.
 
 ![](assets/mkt_hist_view.png)
 

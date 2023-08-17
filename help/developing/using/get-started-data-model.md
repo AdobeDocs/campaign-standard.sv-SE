@@ -29,9 +29,9 @@ Utöka datamodellen i Campaign Standard med egna fält och resurser och övervak
 
 <img src="assets/do-not-localize/icon_datamodel.svg" width="60px">
 
-Data som används av Campaign definieras med olika resurser som definieras i en **fördefinierad datamodell**. Datamodellen visar en färdig SQL-struktur för en uppsättning marknadsföringsrelaterade resurser: leverans, målgrupp, landningssidor, profil osv. Varje resurs har tillhörande filter som gör att du kan navigera bland resurserna.
+Data som används av Campaign definieras med olika resurser som definieras i en **fördefinierad datamodell**. Datamodellen visar en körklar SQL-struktur för en uppsättning marknadsföringsrelaterade resurser: leverans, målgrupp, landningssidor, profil osv. Varje resurs har tillhörande filter som gör att du kan navigera bland resurserna.
 
-The **Diagnos** kan du visa en lista över de tekniska objekt som genereras av Campaign Standarden: datamodeller, webbsidor, filter osv. som gör att du kan övervaka datamodellen och ändringar som gjorts i den.
+The **Diagnos** Med kan du lista de tekniska objekt som genereras av Campaign Standarden: datamodeller, webbsidor, filter, osv., så att du kan övervaka datamodellen och ändringar som gjorts i den.
 
 Läs mer:
 
@@ -52,7 +52,7 @@ Läs mer:
 
 * [Lägga till eller utöka en resurs](../../developing/using/key-steps-to-add-a-resource.md)
 * [Utöka API](../../developing/using/about-extending-the-api.md)
-* [Användningsfall: Utöka profilresursen med ett nytt fält](../../developing/using/extending-the-profile-resource-with-a-new-field.md)
+* [Använd skiftläge: Utöka profilresursen med ett nytt fält](../../developing/using/extending-the-profile-resource-with-a-new-field.md)
 * [Användningsfall: Utöka prenumerationerna till en programresurs](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)
 
 ## Arbeta med API:er {#apis}

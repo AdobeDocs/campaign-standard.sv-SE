@@ -37,7 +37,7 @@ Du kan sedan redigera den oformaterade textversionen efter behov.
 
 >[!NOTE]
 >
->Om du redigerar **[!UICONTROL Plain text]** version när synkronisering är inaktiverad, nästa gång du aktiverar **[!UICONTROL Sync with HTML]** så ersätts alla ändringar du har gjort i den oformaterade textversionen med HTML. Ändringarna i **[!UICONTROL Plain text]** vyn inte kan återspeglas i **[!UICONTROL HTML]** vy.
+>Om du redigerar **[!UICONTROL Plain text]** version när synkronisering är inaktiverad, nästa gång du aktiverar **[!UICONTROL Sync with HTML]** så ersätts alla ändringar du har gjort i den oformaterade textversionen med HTML. De ändringar som gjorts i **[!UICONTROL Plain text]** vyn inte kan återspeglas i **[!UICONTROL HTML]** vy.
 
 ## Redigera en e-postinnehållskälla i HTML {#editing-an-email-content-source-in-html}
 
@@ -47,15 +47,15 @@ Du kan redigera e-postmeddelandets HTML-version på två sätt:
 
 * Välj **[!UICONTROL Edit]** > **[!UICONTROL HTML]** för att öppna HTML-versionen av hela e-postmeddelandet.
 
-   ![](assets/email_designer_html1.png)
+  ![](assets/email_designer_html1.png)
 
-* I WYSIWYG-gränssnittet väljer du ett element och klickar på **[!UICONTROL Source code]** ikon.
+* I WYSIWYG-gränssnittet väljer du ett element och klickar på **[!UICONTROL Source code]** -ikon.
 
-   Endast det markerade elementets källa visas. Du kan redigera källkoden om det markerade elementet är ett **[!UICONTROL HTML]** innehållskomponent. Andra komponenter är skrivskyddade, men kan fortfarande redigeras i den fullständiga HTML-versionen av e-postmeddelandet.
+  Endast det markerade elementets källa visas. Du kan redigera källkoden om det markerade elementet är ett **[!UICONTROL HTML]** innehållskomponent. Andra komponenter är skrivskyddade, men kan fortfarande redigeras i den fullständiga HTML-versionen av e-postmeddelandet.
 
-   ![](assets/email_designer_html2.png)
+  ![](assets/email_designer_html2.png)
 
-Om du ändrar koden HTML kan svarstiden för e-postmeddelandet bli bruten. Se till att testa den med **[!UICONTROL Preview]** -knappen. Se [Förhandsvisa meddelanden](../../sending/using/previewing-messages.md).
+Om du ändrar HTML i koden kan svarstiden för e-postmeddelandet brytas. Se till att testa den med **[!UICONTROL Preview]** -knappen. Se [Förhandsvisa meddelanden](../../sending/using/previewing-messages.md).
 
 ## Designa e-postmeddelanden för mobilrendering {#switching-to-mobile-view}
 
@@ -80,9 +80,9 @@ Alla formatalternativ är tillgängliga i mobilvyn. Formatinställningarna för 
 
    ![](assets/email_designer_mobile_view_change.png)
 
-1. Du kan dölja en komponent när den visas på en mobil enhet. Välj **[!UICONTROL Show only on desktop devices]** från **[!UICONTROL Display options]**.
+1. Du kan dölja en komponent när den visas på en mobil enhet. Gör detta genom att välja **[!UICONTROL Show only on desktop devices]** från **[!UICONTROL Display options]**.
 
-   Du kan också välja att dölja den här komponenten på skrivbordsenheter, vilket innebär att den bara visas på mobila enheter. Välj **[!UICONTROL Show only on mobile devices]**.
+   Du kan också välja att dölja den här komponenten på skrivbordsenheter, vilket innebär att den bara visas på mobila enheter. Gör detta genom att välja **[!UICONTROL Show only on mobile devices]**.
 
    Med det här alternativet kan du till exempel visa en viss bild på mobila enheter och en annan bild på stationära enheter.
 
@@ -90,7 +90,7 @@ Alla formatalternativ är tillgängliga i mobilvyn. Formatinställningarna för 
 
    ![](assets/email_designer_mobile_hide.png)
 
-1. Klicka igen **[!UICONTROL Switch to mobile view]** om du vill gå tillbaka till standardskrivbordsvyn. De formatändringar du just gjorde återspeglas inte.
+1. Klicka igen på **[!UICONTROL Switch to mobile view]** om du vill gå tillbaka till standardskrivbordsvyn. De formatändringar du just gjorde återspeglas inte.
 
    ![](assets/email_designer_mobile_view_desktop_no-change.png)
 
@@ -104,7 +104,7 @@ Alla formatalternativ är tillgängliga i mobilvyn. Formatinställningarna för 
 
    ![](assets/email_designer_mobile_view_change_content.png)
 
-1. Klicka igen **[!UICONTROL Switch to mobile view]** om du vill gå tillbaka till standardskrivbordsvyn. Ändringarna återspeglas.
+1. Klicka igen på **[!UICONTROL Switch to mobile view]** om du vill gå tillbaka till standardskrivbordsvyn. Ändringarna återspeglas.
 
    ![](assets/email_designer_mobile_view_desktop_content-change.png)
 

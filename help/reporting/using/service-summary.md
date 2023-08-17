@@ -23,6 +23,6 @@ Den här rapporten är bara tillgänglig från din tjänstsida via den avancerad
 
 ![](assets/service-summary.png)
 
-The **[!UICONTROL Subscription evolution curves]** visualisering visar antalet prenumerationer och avbeställningar beroende på **[!UICONTROL Period]** som valts i listrutan.
+The **[!UICONTROL Subscription evolution curves]** visualiseringsinformation om antalet prenumerationer och avbeställningar beroende på **[!UICONTROL Period]** som valts i listrutan.
 
 The **[!UICONTROL Overall subscription evolution]** gör att du kan se hur era prenumeranter utvecklas under olika tidsperioder.

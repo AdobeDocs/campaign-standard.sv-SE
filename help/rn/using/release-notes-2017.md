@@ -44,7 +44,7 @@ _Plattform_
 
 * Ett problem som kunde förhindra att stora zippade filer packades upp korrekt har åtgärdats.
 * Säkerheten inom varumärkeshantering har förbättrats. Det är nu reserverat för Adobe tekniska administratörer att ändra ett varumärkes namn och avsändaradress.
-* För att förbättra säkerheten har användargenererat innehåll (bilder, spegelsidor, landningssidor osv.) kan inte hanteras av domänen adobe.com längre. Det är nu obligatoriskt att använda din egen domän för att hantera dessa resurser via varumärkesprofilering.
+* För att förbättra säkerheten har användargenererat innehåll (bilder, spegelsidor, landningssidor osv.) kan inte längre hanteras av adobe.com. Det är nu obligatoriskt att använda din egen domän för att hantera dessa resurser via varumärkesprofilering.
 * Ett gränssnittsproblem har korrigerats vid visning och filtrering av marknadsföringsaktiviteter.
 * Korrigerade ett problem som förhindrade att prenumerationsdatumfält uppdaterades med ett Rest API-anrop för POST.
 
@@ -74,7 +74,7 @@ _Rapporter_
 
 _Arbetsflöden_
 
-* Ett problem i **[!UICONTROL Load file]** aktivitet som kan leda till fel efter att du manuellt har lagt till och tagit bort kolumner i aktiviteten.
+* Korrigerat ett problem i **[!UICONTROL Load file]** aktivitet som kan leda till fel efter att du manuellt har lagt till och tagit bort kolumner i aktiviteten.
 * The **[!UICONTROL deliverabilityUpdate]** det tekniska arbetsflödet är nu schemalagt att köras kl. 2.00 på servertid.
 * Korrigerade ett säkerhetsproblem som medgav att en listexport kunde utföras utan exportrollen.
 * Ett problem med **[!UICONTROL Reconciliation]** aktivitet.
@@ -126,7 +126,7 @@ _Anpassade resurser_
 _Plattform_
 
 * Vissa kunder måste kunna utnyttja ett ID som kommer från Adobe Campaign Standard eftersom de inte hanterar en unik nyckel för att identifiera sina egna register. Detta ID (**ACS-ID**) kan exporteras och användas som en avstämningsnyckel när data uppdateras. Mer information finns i den [detaljerade dokumentationen](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
-* FTP-protokollet har tagits bort. Du bör nu använda SFTP i stället. Befintliga FTP-konfigurationer fungerar fortfarande som tidigare för att inte blockera befintliga implementeringar, men alternativet visas inte för nya aktiviteter.
+* FTP-protokollet är föråldrat. Du bör nu använda SFTP i stället. Befintliga FTP-konfigurationer fungerar fortfarande som tidigare för att inte blockera befintliga implementeringar, men alternativet visas inte för nya aktiviteter.
 
 _E-post, SMS-meddelanden och direktreklam_
 
@@ -180,7 +180,7 @@ _Profiler och målgrupper_
  <tbody> 
   <tr> 
    <td> Flerspråkiga e-post- och SMS-leveranser<br /> </td> 
-   <td> Definiera och genomför flerspråkiga e-post- och SMS-leveranser via en enda leverans baserat på era automatiskt segmenterade kunders önskade språk. Rapportera resultatet av varje leverans på såväl språknivåer som individuella nivåer.<br /> Fler och fler företag ställs inför utmaningen att leverera innehåll på flera språk allt eftersom de växer både hemma och utomlands. Effektiv leverans av lokaliserade meddelanden är därför en viktig del i en effektiv strategi för kundkommunikation för multinationella företag. företag i länder med flera språk, och företag som vill personalisera sitt innehåll ytterligare på språknivå oavsett var kunderna bor. Mer information finns i den <a href="../../channels/using/creating-a-multilingual-email.md">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Definiera och genomför flerspråkiga e-post- och SMS-leveranser via en enda leverans baserat på era automatiskt segmenterade kunders önskade språk. Rapportera resultatet av varje leverans på såväl språknivåer som individuella nivåer.<br /> Fler och fler företag ställs inför utmaningen att leverera innehåll på flera språk allt eftersom de växer både hemma och utomlands. Att effektivisera leveransen av lokaliserade meddelanden är en viktig del av en effektiv kundkommunikationsstrategi för multinationella företag, företag i länder med flera språk och företag som vill personalisera sitt innehåll ytterligare på språknivå oavsett var kunderna bor. Mer information finns i den <a href="../../channels/using/creating-a-multilingual-email.md">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Campaign Notifications<br /> </td> 
@@ -196,7 +196,7 @@ _Profiler och målgrupper_
   </tr> 
   <tr> 
    <td> KPI-delning från Campaign till Analytics<br /> </td> 
-   <td> Dela kampanjdata med Adobe Analytics för att mäta marknadsföringsstatistik för e-post från Campaign tillsammans med andra marknadsförings- och annonsinsatser genom konvertering, vilket ger ett enhetligt beteende för- och efterklick.<br /> Spåra övergripande resultat direkt och identifiera synergier med externa program i Analytics. Använd inlärningen från den här samlade vyn i era kampanjer; i slutänden förbättra öppnings-, klicknings- och konverteringsgraden, vilket ökar intäkterna och kampanjresultatet. <br /> Adobe Analytics krävs. Mer information finns i den <a href="../../integrating/using/about-campaign-analytics-integration.md">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Dela kampanjdata med Adobe Analytics för att mäta marknadsföringsstatistik för e-post från Campaign tillsammans med andra marknadsförings- och annonsinsatser genom konvertering, vilket ger ett enhetligt beteende för- och efterklick.<br /> Spåra övergripande resultat direkt och identifiera synergier med externa program i Analytics. Använd inlärningen från denna konsoliderade vy tillbaka i era kampanjer och förbättra öppnings-, klicknings- och konverteringsgraden, vilket ökar intäkterna och kampanjresultatet som helhet. <br /> Adobe Analytics krävs. Mer information finns i den <a href="../../integrating/using/about-campaign-analytics-integration.md">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Direkt e-postkanal - återgå till avsändare<br /> </td> 
@@ -271,7 +271,7 @@ _Gränssnittsuppdateringar_
 
 * I det övre fältet visas **[!UICONTROL Timeline]** länken har tagits bort och ersatts med en länk till **[!UICONTROL Programs & Campaigns]** .
 
-_E-postmeddelanden och SMS-meddelanden_
+_E-post och SMS-meddelanden_
 
 * Ett problem som visade fel färg för **[!UICONTROL Retry in progress]** leveransstatus. Färgen var grå istället för blå.
 
@@ -282,7 +282,7 @@ _Arbetsflöden_
 _Rapporter_
 
 * The **[!UICONTROL Spam]** och **[!UICONTROL Spam rate]** indikatorberäkningarna har ändrats.
-* The **[!UICONTROL Bounce]** mätvärdena har förbättrats för ett mer exakt resultat.
+* The **[!UICONTROL Bounce]** mätvärdena har förbättrats för att resultatet ska bli mer exakt.
 
 _Push-meddelanden_
 
@@ -303,7 +303,7 @@ _Push-meddelanden_
  <tbody> 
   <tr> 
    <td> Förbättrade funktioner i Image Edition med Creative SDK<br /> </td> 
-   <td> Nu har du tillgång till en komplett uppsättning funktioner som bygger på Creative SDK för att förbättra dina bilder direkt i innehållsredigeraren när du redigerar e-post eller landningssidor.<br /> Den här funktionen kräver inte förvärv av ytterligare Creative Cloud-lösningar.<br /> Mer information finns i den <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Nu har du tillgång till en komplett uppsättning funktioner som bygger på Creative SDK för att förbättra dina bilder direkt i innehållsredigeraren när du redigerar e-postmeddelanden eller landningssidor.<br /> Den här funktionen kräver inte förvärv av ytterligare Creative Cloud-lösningar.<br /> Mer information finns i den <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Push-transaktionsmeddelanden<br /> </td> 
@@ -330,7 +330,7 @@ _Plattform_
 
 * Korrigerade ett minnesförbrukningsproblem.
 
-_E-postmeddelanden och SMS-meddelanden_
+_E-post och SMS-meddelanden_
 
 * Korrigerade ett problem där innehåll inte kunde synkroniseras korrekt med de senaste ändringarna vid förhandsgranskning av ett meddelande.
 * Korrigerade ett problem som förhindrade att en MX- eller Domain-e-postbearbetningsregel skapades eller togs bort.
@@ -357,7 +357,7 @@ _Arbetsflöden_
 
 _Integreringar_
 
-* Intressepunktsdata: åtgärdade ett fel som inträffade när platsprenumeranter räknades.
+* Intressepunktsdata: Ett fel som inträffade när platsprenumeranter räknades har korrigerats.
 
 _Målgrupper och frågor_
 
@@ -417,12 +417,12 @@ _Push-meddelanden_
    <td> Arbetsflöden: ny signalaktivitet<br /> </td> 
    <td> Starta ett arbetsflöde från ett annat arbetsflöde med hjälp av det nya <span class="uicontrol">Signal</span> aktivitet.<br /> Med möjligheten att starta ett arbetsflöde från ett annat kan ni nu stödja mer komplexa kundresor. Ni kan bättre övervaka kundresan och reagera om det uppstår problem.<br /> Flera arbetsflödesaktiviteter har uppdaterats:<br /> 
     <ul> 
-     <li> <span class="uicontrol">End</span> aktivitet: Med en ny flik kan du ange ett arbetsflöde som ska utlösas när aktiviteten har körts. </li> 
+     <li> <span class="uicontrol">End</span> aktivitet: en ny flik gör att du kan ange ett arbetsflöde som ska utlösas när aktiviteten har körts. </li> 
      <li> <span class="uicontrol">Uppdatera data</span> aktivitet: använd den nya tomma utgående övergången för att lägga till en <strong>End</strong> aktivitet som utlöser ett annat arbetsflöde. Tomma utgående övergångar innehåller inga data och förbrukar inte onödigt utrymme i systemet </li> 
     </ul> Mer information finns i den <a href="../../automating/using/external-signal.md">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Arbetsflöden: ny målgruppsaktivitet för läsning<br /> </td> 
+   <td> Arbetsflöden: ny aktivitet för läsare<br /> </td> 
    <td> Påbörja er målinriktningsprocess med en befintlig målgrupp som ni enkelt kan välja och förfina i en enda aktivitet.<br /> Mer information finns i den <a href="../../automating/using/read-audience.md">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
   <tr> 
@@ -442,7 +442,7 @@ _Allmänt_
 
 * Nu går det att lägga till profildata när leveransloggar exporteras.
 
-_E-postmeddelanden och SMS-meddelanden_
+_E-post och SMS-meddelanden_
 
 * Ett problem som orsakade **[!UICONTROL Request confirmation before sending messages]** kan du förbli markerad även när du har avmarkerat och sparat leveransen.
 * Korrigerade ett problem som kunde förhindra avpublicering av transaktionsmeddelanden.
@@ -508,7 +508,7 @@ _Allmänt_
 * Ett problem som gjorde att användare inte kunde redigera vissa fält i ett befintligt externt SFTP-konto har åtgärdats.
 * Korrigerade flera gränssnittsproblem. Användarna kan till exempel nu redigera profilattribut och spara ändringar utan att ha problem med användargränssnittet.
 
-_E-postmeddelanden och SMS-meddelanden_
+_E-post och SMS-meddelanden_
 
 * Ett problem som gäller leveransmallar med HTML-innehåll som innehåller en
 
@@ -522,9 +522,9 @@ _Push-meddelanden_
 _Arbetsflöden_
 
 * Korrigerade ett problem som kan ha förhindrat förhandsgranskning av frågor i händelseresurser (t.ex. rtEvent).
-* Avvisningsfilen som genererats av en **[!UICONTROL Load file]** aktiviteten kan nu hämtas i den utgående övergången och bearbetas i nästa aktivitet. Överför till exempel avslagsfilen via en SFTP-server med **[!UICONTROL Transfer file]** .
+* Avvisningsfilen som genererats av en **[!UICONTROL Load file]** aktiviteten kan nu hämtas i den utgående övergången och bearbetas i nästa aktivitet. Du kan till exempel överföra avslagsfilen via en SFTP-server med **[!UICONTROL Transfer file]** .
 * Korrigerat ett problem som kan ha förhindrat en användare från att begränsa populationen i ett segment om **[!UICONTROL Temporary resource]** markerades i **[!UICONTROL General]** flik för **[!UICONTROL Segmentation]** .
-* **[!UICONTROL Scheduler]** aktiviteter kan inte längre anges för att utlösa ett arbetsflöde mer än en gång var 10:e minut.
+* **[!UICONTROL Scheduler]** aktiviteter kan inte längre anges för att utlösa ett arbetsflöde mer än en gång var tionde minut.
 * Korrigerat ett fel som kan ha förhindrats **[!UICONTROL Use common columns]** från att fungera korrekt i en **[!UICONTROL Union]** aktivitet.
 
 _Integreringar_

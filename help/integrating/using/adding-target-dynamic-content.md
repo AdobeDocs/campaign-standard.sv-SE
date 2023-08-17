@@ -37,7 +37,7 @@ Innan du får åtkomst till bilden i Adobe Campaign måste du utföra följande 
 
    Integreringen stöder bara statiska bilder. Resten av innehållet går inte att anpassa.
 
-1. Ange namnet på radrutan som anges i Adobe Target.
+1. Ange namnet på den radruta som anges i Adobe Target.
 1. Om du använder Enterprise-behörigheter i inställningarna för Adobe Target lägger du till motsvarande egenskap i det här fältet. Läs mer om behörigheter för Target Enterprise i [den här sidan](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html). Det här fältet är valfritt och inte obligatoriskt om du inte använder företagsbehörigheter i Target.
 1. I **[!UICONTROL Additional decision parameters]** anger du mappningen mellan de fält som definieras i Adobe Target-segmenten och Adobe Campaign-fälten.
 

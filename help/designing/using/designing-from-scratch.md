@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # Designa e-postmeddelanden från grunden {#designing-an-email-content-from-scratch}
 
-Lär dig hur du överordnad publicerar e-postinnehåll. Med e-postdesignern kan du skapa e-postmeddelanden och mallar som börjar med eller utan ditt eget fördefinierade innehåll.
+Lär dig hur du hanterar utgåvor av e-postinnehåll. Med e-postdesignern kan du skapa e-postmeddelanden och mallar som börjar med eller utan ditt eget fördefinierade innehåll.
 
 Här är de viktigaste stegen för att skapa och designa ett e-postinnehåll från grunden med hjälp av e-postdesignern:
 
@@ -65,7 +65,7 @@ Så här redigerar du strukturen för ett e-postmeddelande:
 
    >[!NOTE]
    >
-   >Observera att stapeln med kolumner inte är kompatibel med alla e-postprogram. Om det inte finns stöd för det här alternativet staplas inte kolumner.
+   >Observera att staplar inte är kompatibla med alla e-postprogram. Om det inte finns stöd för det här alternativet staplas inte kolumner.
    >
    >När du har placerat i e-postmeddelandet kan du inte flytta eller ta bort dina komponenter om det inte redan finns en innehållskomponent eller ett fragment inuti.
 
@@ -183,7 +183,7 @@ Använd den här komponenten för att infoga länkar till sidor för sociala med
 >abstract="Lär dig hur du infogar och konfigurerar en Carousel i ditt innehåll.Observera att Carousel inte fungerar på alla e-postklienter och att en reservbild visas om den inte stöds."
 
 1. Dra och släpp **[!UICONTROL Carousel]** -komponent inuti en strukturkomponent.
-1. Bläddra och välj bilder från datorn.
+1. Bläddra för att välja bilder från datorn.
 
    ![](assets/des_carousel_browse.png)
 

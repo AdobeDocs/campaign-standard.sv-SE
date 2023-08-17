@@ -42,7 +42,7 @@ Aktiviteten **Uppdatera data** kan användas efter att en fil har importerats f�
    * **[!UICONTROL Insert or update]**: infoga data eller uppdatera dem om det redan finns poster i databasen.
    * **[!UICONTROL Insert only]**: infoga enbart data. Posterna som redan finns uppdateras inte. Om avstämningskriterier definieras läggs endast icke avstämda poster till.
 
-      Markera rutan **[!UICONTROL Generate an outbound transition for rejects]** om den importerade datan innehåller vissa poster som redan finns i databasen för att undvika eventuella fel.
+     Markera rutan **[!UICONTROL Generate an outbound transition for rejects]** om den importerade datan innehåller vissa poster som redan finns i databasen för att undvika eventuella fel.
 
    * **[!UICONTROL Update]**: uppdaterar data för de poster som redan finns i databasen.
    * **[!UICONTROL Delete]**: ta bort data.

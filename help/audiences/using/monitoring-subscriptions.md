@@ -42,7 +42,7 @@ Så här läser du historiken för prenumerationer och avprenumerationer:
 
 1. Gå till listan med tjänster via den avancerade menyn **Profiler och målgrupper** > **Tjänster** som du kommer åt via Adobe Campaign logotyp.
 1. Välj vilken tjänst du vill använda för att visa motsvarande instrumentpanel.
-1. Välj **Prenumerationshistorik** om du vill visa de datum som varje person prenumererade på och avbröt prenumerationen på.
+1. Välj **Prenumerationshistorik** om du vill visa de datum som varje person prenumererar på och avbeställer.
 
 ![](assets/lp_monitoring_subscriptions_2.png)
 

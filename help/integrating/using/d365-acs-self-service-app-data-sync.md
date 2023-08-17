@@ -22,6 +22,7 @@ Du kan synkronisera tabeller från Microsoft Dynamics 365 till marknadsföringss
 
 >[!IMPORTANT]
 >Du måste stoppa/starta **[!UICONTROL Microsoft Dynamics 365 to Campaign]** för att ta hänsyn till dina ändringar. [Läs mer](../../integrating/using/d365-acs-self-service-app-workflows.md)
+>
 
 ## Mappa tabeller från Microsoft Dynamics 365 till Campaign
 
@@ -37,25 +38,25 @@ Här följer en beskrivning av varje kolumn i tabellen:
 
 * **[!UICONTROL ACTIONS]**: möjliga åtgärder listas nedan:
 
-   * Klicka på **[!UICONTROL Edit]** om du vill redigera den här mappningen.
+   * Klicka på **[!UICONTROL Edit]** om du vill redigera mappningen.
 
    * Använd  **[!UICONTROL Delete]** om du vill ta bort en tabellmappning.
 
    * Klicka på **[!UICONTROL Replay Data]** om du vill synkronisera om alla data i Microsoft Dynamics 365-tabellen. Integreringsprogrammet synkroniserar normalt bara de data i Microsoft Dynamics 365 som nyligen har ändrats.  I vissa fall (t.ex. har du gjort en ändring eller gjort ett misstag) kanske du vill att alla data ska synkroniseras igen.  I dessa fall klickar du på den här knappen och nästa gång du stoppar/startar **[!UICONTROL Microsoft Dynamics 365 to Campaign]** arbetsflöde, skulle dina data börja synkroniseras.
 
-      Om du klickar på **[!UICONTROL Replay Data]** och kontrollerna har slutförts inaktiveras ikonen: anger att data för det här tabellmappningsparet kommer att synkroniseras igen vid nästa körning av **[!UICONTROL Microsoft Dynamics 365 to Campaign]** arbetsflöde.
+     Klicka på **[!UICONTROL Replay Data]** och kontrollerna har slutförts inaktiveras ikonen: det indikerar att data för det här tabellmappningsparet synkroniseras igen nästa gång **[!UICONTROL Microsoft Dynamics 365 to Campaign]** arbetsflöde.
 
-      Du kan inte välja att spela upp data när följande är sant:
+     Du kan inte välja att spela upp data när följande är sant:
 
       * Om det finns 2 000 000 objekt (eller fler) i det eftersläpningsmått som är kopplat till **[!UICONTROL Microsoft Dynamics 365 to Campaign]** arbetsflöde (visas i **[!UICONTROL Workflows]** sida)
       * Om det finns 2 000 000 eller fler poster i tabellen för Microsoft Dynamics 365
 
-      Antalet poster som behöver synkroniseras på nytt varierar. Om du har ett stort antal poster kan det ta lite tid att slutföra synkroniseringsprocessen. Se **[!UICONTROL Backlog]** i **[!UICONTROL Workflows]** sida när integrationsprogrammet fungerar för att slutföra synkroniseringsprocessen.
+     Antalet poster som behöver synkroniseras på nytt varierar. Om du har ett stort antal poster kan det ta lite tid att slutföra synkroniseringsprocessen. Se **[!UICONTROL Backlog]** i **[!UICONTROL Workflows]** sida när integrationsprogrammet fungerar för att slutföra synkroniseringsprocessen.
 
-      >[!IMPORTANT]
-      >
-      > Vi rekommenderar starkt att du avbryter integreringsarbetsflödet när du publicerar ändringar i antingen Adobe Campaign Standard eller Microsoft Dynamics 365. Tillämpliga ändringar: uppdateringar av resurser/entiteter (och deras associerade fält), länkar, identifierarkolumner osv. som för närvarande används av integreringen.
-
+     >[!IMPORTANT]
+     >
+     > Vi rekommenderar starkt att du avbryter integreringsarbetsflödet när du publicerar ändringar i antingen Adobe Campaign Standard eller Microsoft Dynamics 365. Tillämpliga ändringar är bland annat: uppdateringar av resurser/entiteter (och tillhörande fält), länkar, identifierarkolumner osv. som för närvarande används av integreringen.
+     >
 
 ## Skapa en ny mappning {#add-a-new-mapping}
 
@@ -89,11 +90,11 @@ Detta är som design eftersom indata längre ned på sidan baseras på fälten s
 
 ### Konfigurera en individuell tabellmappning {#new-mapping-settings}
 
-I det här avsnittet får du lära dig hur du konfigurerar en **enkel** mappning av en Microsoft Dynamics 365-tabell till en Adobe Campaign-tabell.
+I det här avsnittet får du lära dig att konfigurera en **enkel** mappning av en Microsoft Dynamics 365-tabell till en Adobe Campaign-tabell.
 
 Du kan definiera följande inställningar:
 
-* **[!UICONTROL Tables]**: I det här avsnittet anges namnet på Microsoft Dynamics 365-tabellen och den Campaign-tabell som den ska mappas till.
+* **[!UICONTROL Tables]**: det här avsnittet innehåller namnet på Microsoft Dynamics 365-tabellen och den Campaign-tabell som den ska mappas till.
 * **[!UICONTROL Field Mappings]**: läs mer i [det här avsnittet](#field-mappings)
 * **[!UICONTROL Field Replacements]**: läs mer i [det här avsnittet](#field-replacements)
 * **[!UICONTROL Filters]**: läs mer i [det här avsnittet](#filters)
@@ -137,6 +138,7 @@ The **[!UICONTROL Apply updates]** Med väljaren kan du styra om uppdateringar a
 >[!NOTE]
 >
 >Klicka på **[!UICONTROL Apply updates]** kolumnrubrik som ska uppdateras **alla** av växlarna till på eller av.
+>
 
 När du väljer fältvärden visas datatypen nedanför de nedrullningsbara menyerna.   Detta är något att tänka på när du mappar värden från ett fält till ett annat.
 
@@ -175,6 +177,7 @@ Alternativet **[!UICONTROL Do you want to delete records in Adobe Campaign Stand
 >[!NOTE]
 >
 > Om inga filter läggs till kommer alla poster som har ändrats att spridas till Adobe Campaign.
+>
 
 ### Avancerade inställningar {#advanced-settings}
 
@@ -188,13 +191,13 @@ Du kan ange följande alternativ när du konfigurerar en mappning:
 
 The **[!UICONTROL Campaign to Microsoft Dynamics 365]** kan du identifiera vilka e-postmarknadsföringshändelser som mappas från Adobe Campaign till Microsoft Dynamics 365.
 
-De fyra mätvärden du kan kontrollera är: **Skickar**, **Klickningar**, **Öppnar** och **studsar**.
+De fyra mätvärden som du kan kontrollera är: **Skickar**, **Klickningar**, **Öppnar** och **studsar**.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-egress.png)
 
 Välj **Ja** för att bekräfta att du inte vill att händelser av den typen ska flöda till Microsoft Dynamics 365.
 
-Klicka [här](../../integrating/using/d365-acs-self-service-app-workflows.md) om du vill ha mer information om dessa e-posthändelseflöden.
+Klicka [här](../../integrating/using/d365-acs-self-service-app-workflows.md) för mer information om dessa e-posthändelseflöden.
 
 ## Anmäl dig till/från arbetsflöde {#opt-in-out-wf}
 
@@ -210,9 +213,9 @@ Kom ihåg att du måste klicka på Spara för att spara dina val. Kom ihåg att 
 
 Nedan visas en lista med tillgängliga alternativ för att synkronisera data:
 
-* **[!UICONTROL Disabled]**: när det här alternativet är markerat kommer ingen information om anmälan/avstängning att flyttas mellan Adobe Campaign och Microsoft Dynamics 365.
+* **[!UICONTROL Disabled]**: När det här alternativet är markerat flyttas ingen information om anmälan/avstängning mellan Adobe Campaign och Microsoft Dynamics 365.
 
-* **[!UICONTROL Unidirectional (Microsoft Dynamics 365 to Campaign)]**: Det här alternativet används endast för att flöda anmälan/utanmälan från Microsoft Dynamics 365 till Adobe Campaign. Integreringsprogrammet kommer inte att göra att du kan konfigurera flödet på den här skärmen; i stället klickar du på **[!UICONTROL Save button]** och navigera till **[!UICONTROL Microsoft Dynamics 365 to Campaign]** arbetsflöde. I det här arbetsflödet kan du redigera kontakter-/profiltabellmappningen för att identifiera hur du vill att dina in-/utanmälningsfält ska mappas.
+* **[!UICONTROL Unidirectional (Microsoft Dynamics 365 to Campaign)]**: det här alternativet används endast för att flöda anmälan/utträde från Microsoft Dynamics 365 till Adobe Campaign. Integreringsprogrammet låter dig inte konfigurera flödet på den här skärmen. Klicka i stället på knappen **[!UICONTROL Save button]** och navigera till **[!UICONTROL Microsoft Dynamics 365 to Campaign]** arbetsflöde. I det här arbetsflödet kan du redigera kontakter-/profiltabellmappningen för att identifiera hur du vill att dina in-/utanmälningsfält ska mappas.
 
 * **[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]**: det här alternativet gör att **Mappningar** -avsnitt. Dessa indata gör att du kan definiera vilka Adobe Campaign-fält som ska mappa data till vilka fält i Microsoft Dynamics 365. Det innebär att om du uppdaterar ett värde i Microsoft Dynamics 365 manuellt skrivs dess värde över med Adobe Campaign-värdet om det ändras.
 

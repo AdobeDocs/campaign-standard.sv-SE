@@ -26,11 +26,11 @@ Du kan skicka ett erbjudande via e-post samma dag som kundens profil skapas.
 
 ## Skapa en schemaläggningsaktivitet {#creating-a-scheduler-activity}
 
-1. I **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, dra och släppa [Schemaläggare](../../automating/using/scheduler.md) aktivitet.
+1. I **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, dra och släppa en [Schemaläggare](../../automating/using/scheduler.md) aktivitet.
 1. Dubbelklicka på aktiviteten.
 1. Konfigurera leveransen.
 1. I **[!UICONTROL Execution frequency]** väljer du **[!UICONTROL Daily]**.
-1. Välj en **[!UICONTROL Time]** och **[!UICONTROL Repetition frequency]** av körning för ditt arbetsflöde.
+1. Välj en **[!UICONTROL Time]** och **[!UICONTROL Repetition frequency]** körning för arbetsflödet.
 1. Välj en **[!UICONTROL Start]** datum och **[!UICONTROL Expiration]** för ditt arbetsflöde.
 1. Bekräfta aktiviteten och spara arbetsflödet.
 
@@ -42,7 +42,7 @@ Du kan skicka ett erbjudande via e-post samma dag som kundens profil skapas.
 
 ## Skapa en förfrågningsaktivitet {#creating-a-query-activity}
 
-1. Om du vill välja mottagare drar och släpper du en [Fråga](../../automating/using/query.md) och dubbelklicka på den.
+1. Dra och släpp en mottagare [Fråga](../../automating/using/query.md) och dubbelklicka på den.
 1. Lägg till **[!UICONTROL Profiles]** och markera **[!UICONTROL no longer contact by email]** med värdet **[!UICONTROL no]**.
 
 ### Hämtar profiler som skapats samma dag som körningen {#retrieving-profiles-created-on-the-same-day}
@@ -52,7 +52,7 @@ Du kan skicka ett erbjudande via e-post samma dag som kundens profil skapas.
 1. I **[!UICONTROL list of functions]**, dubbelklicka **[!UICONTROL Day]** från **[!UICONTROL Date]** nod.
 1. Infoga sedan fältet **[!UICONTROL Created]** som argument.
 1. Välj **[!UICONTROL equals to (=)]** som -operatorn.
-1. För Värde väljer du **[!UICONTROL Day]** från **[!UICONTROL Date]** noden i **[!UICONTROL List of functions]**.
+1. Välj Värde **[!UICONTROL Day]** från **[!UICONTROL Date]** noden i **[!UICONTROL List of functions]**.
 1. Infoga **[!UICONTROL GetDate()]** function as argument.
 
 Du har hämtat profiler där skapandedagen är lika med den aktuella dagen.
@@ -74,7 +74,7 @@ Klicka på **[!UICONTROL Confirm]**.
 
 ![](assets/month_rule.png)
 
-Du borde få det här:
+Du borde sluta med det här:
 
 ``` Month(@created) = Month(GetDate()) ```
 

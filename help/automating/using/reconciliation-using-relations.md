@@ -34,32 +34,32 @@ Arbetsflödet består av följande aktiviteter:
    * Klientens e-postadress
    * Kod för köpta produkter
 
-   ```
-   date;client;product
-   2015-05-19 09:00:00;mail1@email.com;ZZ1
-   2015-05-19 09:01:00;mail2@email.com;ZZ2
-   2015-05-19 09:01:01;mail3@email.com;ZZ2
-   2015-05-19 09:01:02;mail4@email.com;ZZ2
-   2015-05-19 09:02:00;mail5@email.com;ZZ3
-   2015-05-19 09:03:00;mail6@email.com;ZZ4
-   2015-05-19 09:04:00;mail7@email.com;ZZ5
-   2015-05-19 09:05:00;mail8@email.com;ZZ7
-   2015-05-19 09:06:00;mail9@email.com;ZZ6
-   ```
+  ```
+  date;client;product
+  2015-05-19 09:00:00;mail1@email.com;ZZ1
+  2015-05-19 09:01:00;mail2@email.com;ZZ2
+  2015-05-19 09:01:01;mail3@email.com;ZZ2
+  2015-05-19 09:01:02;mail4@email.com;ZZ2
+  2015-05-19 09:02:00;mail5@email.com;ZZ3
+  2015-05-19 09:03:00;mail6@email.com;ZZ4
+  2015-05-19 09:04:00;mail7@email.com;ZZ5
+  2015-05-19 09:05:00;mail8@email.com;ZZ7
+  2015-05-19 09:06:00;mail9@email.com;ZZ6
+  ```
 
 * A [Avstämning](../../automating/using/reconciliation.md) för att binda inköpsuppgifter till databasprofiler och produkter. Det är därför nödvändigt att definiera en relation mellan fildata och profil och produkttabellen.  Den här konfigurationen utförs i aktivitetens **[!UICONTROL Relations]** flik:
 
    * Relationen till **profilerna**: filens **klient**-kolumn är länkad till **e-post**-fältet i dimensionen **Profiler**.
    * Relationen till **produkterna**: filens **produkt**-kolumn är länkad till fältet **Produktkod** i dimensionen **Profiler**.
 
-   Kolumner läggs till i inkommande data för att referera till de länkade dimensionernas främmande nycklar.
+  Kolumner läggs till i inkommande data för att referera till de länkade dimensionernas främmande nycklar.
 
-   ![](assets/reconciliation_example3.png)
+  ![](assets/reconciliation_example3.png)
 
 * An [Uppdatera data](../../automating/using/update-data.md) kan du definiera de databasfält som ska uppdateras med importerade data. Eftersom data redan har identifierats som tillhörande dimensionen **transaktioner** i den tidigare aktiviteten så kan du använda identifieringsalternativet **[!UICONTROL Directly using the targeting dimension]** här.
 
-   Genom att använda alternativet som automatiskt identifierar fält som ska uppdateras läggs länkarna som konfigurerats i den tidigare aktiviteten (till profiler och produkter) till i listan med **[!UICONTROL Fields to update]**.  Du måste också se till att fältet som motsvarar transaktionsdatumet läggs till korrekt i den här listan.
+  Genom att använda alternativet som automatiskt identifierar fält som ska uppdateras läggs länkarna som konfigurerats i den tidigare aktiviteten (till profiler och produkter) till i listan med **[!UICONTROL Fields to update]**.  Du måste också se till att fältet som motsvarar transaktionsdatumet läggs till korrekt i den här listan.
 
-   ![](assets/reconciliation_example5.png)
+  ![](assets/reconciliation_example5.png)
 
-   ![](assets/reconciliation_example4.png)
+  ![](assets/reconciliation_example4.png)

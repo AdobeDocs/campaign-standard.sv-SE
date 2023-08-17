@@ -46,7 +46,7 @@ Förberedelsen av meddelande utlöses enligt arbetsflödets körningsparametrar.
 * [Användningsfall: Skapa en leverans som segmenterats på plats](../../automating/using/workflow-segmentation-location.md)
 * [Användningsfall: Skapa leveranser med ett komplement](../../automating/using/workflow-created-query-with-complement.md)
 * [Användningsfall: Omdirigera arbetsflöde som skickar en ny leverans till icke-öppnare](../../automating/using/workflow-cross-channel-retargeting.md)
-* [Användningsfall: Födelsedagsleverans](../../automating/using/birthday-delivery.md)
+* [Användningsexempel: Födelsedag](../../automating/using/birthday-delivery.md)
 
 ## Konfiguration {#configuration}
 
@@ -62,7 +62,8 @@ Förberedelsen av meddelande utlöses enligt arbetsflödets körningsparametrar.
    * **[!UICONTROL Email]**: E-postmeddelandet skickas en gång. Här kan du ange om du vill lägga till en utgående övergång till aktiviteten. De olika övergångstyperna beskrivs närmare i steg 7 i den här proceduren.
    * **[!UICONTROL Recurring email]**: E-postmeddelandet skickas flera gånger, enligt den frekvens som definieras i en **[!UICONTROL Scheduler]**-aktivitet. Välj aggregeringsperioden för utskicken. Detta gör att du kan gruppera om alla meddelanden som inträffar under den angivna perioden i ett enda e-postmeddelande som också kallas för **Återkommande körning** och som kan nås från programmets lista över marknadsföringsaktiviteter.
 
-      Om du till exempel har ett återkommande födelsedags-e-postmeddelande, som skickas varje dag, kan du välja att samla in varje månad. Detta gör att du kan få rapporter om leveransen månadsvis, även om e-postmeddelandet skickas varje dag.
+     Om du till exempel har ett återkommande födelsedags-e-postmeddelande, som skickas varje dag, kan du välja att samla in varje månad. Detta gör att du kan få rapporter om leveransen månadsvis, även om e-postmeddelandet skickas varje dag.
+
    >[!NOTE]
    >
    >Återkommande leveranser förbereds baserat på **sammanställningsperiod**. Om t.ex. aggregeringsperioden är &quot;per dag&quot; förbereds leveransen endast en gång per dag. Om du planerar att anropa det här arbetsflödet flera gånger om dagen kan du använda [!UICONTROL No aggregation].

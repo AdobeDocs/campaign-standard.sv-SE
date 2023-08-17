@@ -25,15 +25,15 @@ Tack vare Adobe Campaign Standard-integreringen med Dreamweaver kan du redigera 
 
 * **Dubbelriktad synkronisering**
 
-   När en redigering görs i en produkt uppdateras den i realtid i den andra. Om du vill ändra textfärgen i Dreamweaver så fort du gör den redigeringen är textfärgen aktiv i Campaign. När du markerar kod i antingen Dreamweaver eller Campaign, eftersom radnumren är desamma, förblir valet mellan de två produkterna, vilket är mycket användbart när du letar efter något specifikt i koden.
+  När en redigering görs i en produkt uppdateras den i realtid i den andra. Om du vill ändra textfärgen i Dreamweaver så fort du gör den redigeringen är textfärgen aktiv i Campaign. När du markerar kod i antingen Dreamweaver eller Campaign, eftersom radnumren är desamma, behålls urvalet mellan de två produkterna, vilket är mycket användbart när du letar efter något specifikt i koden.
 
 * **Ladda upp lokala bilder till Adobe Campaign via Dreamweaver**
 
-   När du skapar eller redigerar ett e-postmeddelande i Dreamweaver behöver du bara välja en bild på din dator eller dator. Dreamweaver har alltid tillåtit dig att göra detta, men när Dreamweaver och Campaign är anslutna överförs den lokala filen omedelbart till Adobe Campaign-servern: behöver inte ladda upp bilder manuellt när innehållet ändras. Dessutom säkerställer det att de senaste bilderna alltid finns i Campaign.
+  När du skapar eller redigerar ett e-postmeddelande i Dreamweaver behöver du bara välja en bild på din dator eller dator. Dreamweaver har alltid tillåtit dig att göra detta, men när Dreamweaver och Campaign är anslutna, överförs den lokala filen omedelbart till Adobe Campaign-servern: du behöver inte överföra bilder manuellt när innehållet ändras. Dessutom säkerställer det att de senaste bilderna alltid finns i Campaign.
 
 * **Lägg till kampanjanpassning i Dreamweaver**
 
-   E-postutvecklaren behöver inte längre lägga till text som `[[FIRSTNAME_PLACEHOLDER]]` eller för att slå upp syntaxen för datamodellens tabeller. Verktygsfältet Campaign i Dreamweaver är direkt kopplat till datamodellen för din Campaign-instans. Det innebär att ni kan hämta in alla data som ni vill ha för personalisering från något som Förnamn till Adress. Om ni har skapat innehållsblock i Campaign kan ni även hämta dessa direkt till Dreamweaver.
+  E-postutvecklaren behöver inte längre lägga till text som `[[FIRSTNAME_PLACEHOLDER]]` eller för att slå upp syntaxen för datamodellens tabeller. Verktygsfältet Campaign i Dreamweaver är direkt kopplat till datamodellen för din Campaign-instans. Det innebär att ni kan hämta in alla data som ni vill ha för personalisering från något som Förnamn till Adress. Om ni har skapat innehållsblock i Campaign kan ni även hämta dessa direkt till Dreamweaver.
 
 Den här funktionen finns i Dreamweaver Documentation [här](https://helpx.adobe.com/se/dreamweaver/using/working-with-dreamweaver-and-campaign.html).
 
@@ -120,7 +120,7 @@ Adobe Campaign har flera alternativ för e-postutveckling. Tabellen nedan visar 
      <p>- Utnyttja Experience Manager i e-postinnehåll</p>
     </td> 
    <td> 
-    <p>- Möjlighet för utvecklare att direkt koda ett e-postmeddelande</p>
+    <p>- Möjlighet för utvecklare att direkt koda e-post</p>
     <p>- Dubbelriktad synkronisering</p>
     <p>- Redigera offline i Dreamweaver och synkronisera senare</p>
     <p>- Överföra bilder till Adobe Campaign via Dreamweaver</p>
@@ -148,12 +148,12 @@ Adobe Campaign har flera alternativ för e-postutveckling. Tabellen nedan visar 
    <td> <strong>Mer information</strong><br /> </td> 
    <td> Se <a href="../../designing/using/designing-content-in-adobe-campaign.md">Om e-postdesignern</a>.<br /> </td> 
    <td> Se <a href="../../integrating/using/integrating-with-experience-manager.md">Integrera med Experience Manager</a>.<br /> </td> 
-   <td> Se <a href="https://helpx.adobe.com/se/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver och Campaign</a> och se detta <a href="#video">video</a>.<br /> </td> 
+   <td> Se <a href="https://helpx.adobe.com/se/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver och Campaign</a> och se det här <a href="#video">video</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Videokurs {#video}
+## Självstudievideo {#video}
 
 I den här videon visas hur du skapar och redigerar innehåll för Adobe Campaign Standard med Dreamweaver.
 

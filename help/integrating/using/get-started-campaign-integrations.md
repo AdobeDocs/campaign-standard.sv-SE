@@ -72,7 +72,7 @@ Om du vill integrera dataflöden från andra system med Adobe Campaign kan du ta
    <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">People core service (profiler och målgrupper)</a><br /> </td> 
   </tr> 
    <tr> 
-   <td> Adobe Real-time Customer Data Platform (RTCDP)<br /> </td> 
+   <td> Adobe Real-time Customer Data Platform (RTC)<br /> </td> 
    <td> Tack vare integreringen mellan Adobe Campaign och Adobe Real-time Customer Data Platform (RTCDP) kan ni dela segmentdata och importera målgrupper till Adobe Campaign.</td>
    <td><a href="../../integrating/using/get-started-sources-destinations.md">Kom igång med källor och destinationer</a></td>
   </tr> 

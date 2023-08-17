@@ -24,14 +24,14 @@ Innan du definierar parametrarna bör du kontrollera att:
 * Parametrarna har deklarerats i **[!UICONTROL External Signal]** aktivitet. Läs [den här sidan](../../automating/using/declaring-parameters-external-signal.md).
 * Arbetsflödet som innehåller signalaktiviteten körs.
 
-Så här konfigurerar du **[!UICONTROL End]** följer du stegen nedan:
+Konfigurera **[!UICONTROL End]** följer du stegen nedan:
 
 1. Öppna **[!UICONTROL End]** väljer du **[!UICONTROL External signal]** -fliken.
 1. Välj arbetsflödet och den externa signalaktivitet som du vill anropa.
 1. Klicka på **[!UICONTROL Create element]** om du vill lägga till en parameter och sedan fylla i dess namn och värde.
 
-   * **[!UICONTROL Name]**: namnet som har deklarerats i **[!UICONTROL External signal]** aktivitet (se [den här sidan](../../automating/using/declaring-parameters-external-signal.md)).
-   * **[!UICONTROL Value]**: värdet som du vill tilldela parametern. Värdet ska följa **Standardsyntax**, som beskrivs i [det här avsnittet](../../automating/using/advanced-expression-editing.md#standard-syntax).
+   * **[!UICONTROL Name]**: det namn som har deklarerats i **[!UICONTROL External signal]** aktivitet (se [den här sidan](../../automating/using/declaring-parameters-external-signal.md)).
+   * **[!UICONTROL Value]**: det värde som du vill tilldela parametern. Värdet ska följa **Standardsyntax**, som beskrivs i [det här avsnittet](../../automating/using/advanced-expression-editing.md#standard-syntax).
 
    ![](assets/extsignal_definingparameters_2.png)
 

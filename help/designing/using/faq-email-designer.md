@@ -34,7 +34,7 @@ Du kan lägga till utfyllnad med hjälp av HTML breadcrumb.
    ![](assets/do-not-localize/breadcrumb.png)
 
 1. Klicka på elementet som du vill lägga till.
-1. Klicka på den överordnade taggen i HTML breadcrumb.
+1. Klicka på den överordnade taggen i HTML.
 Du kan nu lägga till en utfyllnad till det här elementet.
 
 ## Kan jag importera HTML i e-postdesignern?

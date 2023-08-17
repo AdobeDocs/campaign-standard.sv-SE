@@ -52,12 +52,12 @@ I så fall bestämmer du dig för att skicka ett e-postmeddelande till alla pren
    ![](assets/poi_email_content.png)
 
 1. Bekräfta att du har skapat aktiviteten för att visa e-postens instrumentpanel.
-1. Skicka meddelandet.
+1. Skicka ditt meddelande.
 
 E-postmeddelandet med rabatten på 10 % skickas till prenumeranter som:
 
 * Besök din Boston-butik minst en gång de senaste två veckorna.
-* Var i förgrunden med mobilapplikationen minst en gång under besöket.
+* Jag hade mobilapplikationen i förgrunden minst en gång under besöket.
 
 **Relaterade ämnen:**
 

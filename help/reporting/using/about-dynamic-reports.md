@@ -29,18 +29,18 @@ Du kan få åtkomst till rapporter:
 
 * Från startsidan genom att välja **[!UICONTROL Reports]** i det övre fältet eller **[!UICONTROL Reports]** för att få tillgång till rapporter för alla leveranser.
 
-   ![](assets/campaign_reports_access.png)
+  ![](assets/campaign_reports_access.png)
 
 * I varje program, kampanj och meddelande från **Rapporter** genom att klicka **Dynamiska rapporter** om du bara vill visa rapporter som är specifika för leveransen.
 
-   ![](assets/campaign_reports_description.png)
+  ![](assets/campaign_reports_description.png)
 
 Vissa rapporter är inte tillgängliga omedelbart efter en leverans, beroende på hur lång tid det tar att samla in och bearbeta information.
 
 Dynamiska rapporter är indelade i två kategorier:
 
 * **Mallar**, som kan ändras genom att de kopieras med **Spara som** option (**Projekt > Spara som..**) i mallen.
-* **Anpassade rapporter** (identifieras i blått), som kan skapas direkt genom att klicka på **Skapa nytt projekt** på **Rapporter** hemsida.
+* **Anpassade rapporter** (identifieras i blått), som du kan skapa direkt genom att klicka på **Skapa nytt projekt** på **Rapporter** hemsida.
 
 >[!NOTE]
 >
@@ -54,8 +54,8 @@ Syftet med användningsavtalet för dynamisk rapportering är att det ska funger
 
 Tre alternativ är tillgängliga:
 
-* **[!UICONTROL Ask me later]**: Genom att klicka **Fråga mig senare** kommer fönstret att sluta visas i 24 timmar. Innan du har godkänt eller avvisat avtalet visas inte profildimensionerna i dina rapporter och dina kunders personliga ID-information samlas inte in eller skickas.
-* **[!UICONTROL Accept]**: Genom att godkänna det här avtalet ger du Adobe Campaign tillstånd att samla in dina kunders personuppgifter och överföra dem till rapportören eller datacentret.
+* **[!UICONTROL Ask me later]**: Genom att klicka på **Fråga mig senare** kommer fönstret att sluta visas i 24 timmar. Innan du har godkänt eller avvisat avtalet visas inte profildimensionerna i dina rapporter och dina kunders personliga ID-information samlas inte in eller skickas.
+* **[!UICONTROL Accept]**: Genom att godkänna det här avtalet ger du Adobe Campaign tillstånd att samla in dina kunders personuppgifter och överföra dem till rapporteringen eller datacentret.
 * **[!UICONTROL Decline]**: Om du avböjer avtalet visas inte profildimensionerna i dina rapporter och dina kunders personliga ID-information samlas inte in eller skickas. Observera att i det här fallet kommer externalID fortfarande att samlas in och användas för att identifiera slutanvändare.
 
 Tabellen nedan visar vad som händer efter att du har godkänt det här avtalet beroende på din region.

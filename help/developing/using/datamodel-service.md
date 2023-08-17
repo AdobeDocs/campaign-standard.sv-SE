@@ -123,7 +123,7 @@ ht-degree: 7%
                      <ul>
                         <li>Mobil (SMS) - sms - 1</li>
                         <li>E-post - e-post - 0</li>
-                        <li>OGILTIGT VÄRDE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -135,7 +135,7 @@ ht-degree: 7%
                      <ul>
                         <li>Virusvirus - virus - 1</li>
                         <li>Nyhetsbrev - nyhetsbrev - 0</li>
-                        <li>OGILTIGT VÄRDE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>

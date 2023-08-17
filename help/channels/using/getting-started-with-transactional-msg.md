@@ -46,7 +46,7 @@ Den övergripande processen för transaktionsmeddelanden beskrivs på följande 
 
 Tänk dig att du är ett företag med en webbplats där kunderna kan köpa produkter.
 
-Med Adobe Campaign kan du skicka ett e-postmeddelande till kunder som har lagt till produkter i kundvagnen. När någon av dem lämnar er webbplats utan att gå igenom sina inköp (en extern händelse som utlöser en Campaign-händelse) skickas ett e-postmeddelande om att kunden har lämnat en kundvagn (leverans av transaktionsmeddelande).
+Med Adobe Campaign kan du skicka ett e-postmeddelande till kunder som har lagt till produkter i kundvagnen. När någon av dem lämnar er webbplats utan att gå igenom sina inköp (en extern händelse som utlöser en Campaign-händelse) skickas ett e-postmeddelande om att kunden överger en kundvagn automatiskt till dem (leverans av transaktionsmeddelanden).
 
 De viktigaste stegen för att implementera detta beskrivs nedan i [det här avsnittet](#key-steps).
 
@@ -56,7 +56,7 @@ Det finns två typer av transaktionsmeddelanden i Adobe Campaign.
 
 **Transaktionsmeddelanden för händelser** måldata som finns i själva händelsen. Dessa meddelanden:
 * Innehåller ingen profilinformation och kan därför inte innehålla länkar för att avbryta prenumerationen.
-* Är inte kompatibla med trötthetsregler (även om det rör sig om en anrikning med profiler).
+* Är inte kompatibla med trötthetsregler (även om det gäller en anrikning med profiler).
 * Låt leveransmålet definieras av data som finns i själva händelsen.
 
 Du kanske vill skicka ett transaktionsmeddelande för en händelse till en kund som till exempel behöver hämta ett glömt lösenord eller bekräfta en beställning. Du vill inte att mottagaren ska avbeställa den här typen av kommunikation, och det här meddelandet ska inte läggas till som en del av en trötthetsregel i utskicksmeddelandet.
@@ -109,7 +109,7 @@ Mer information om hur du redigerar och publicerar ett transaktionsmeddelande fi
 
 <!--<img src="assets/do-not-localize/icon_api.svg" width="55px">-->
 
-När du har skapat en händelse måste du integrera den som utlöser händelsen på webbplatsen.<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.--> För att göra detta måste webbutvecklaren använda **Adobe Campaign Standard REST API**.
+När du har skapat en händelse måste du integrera den som utlöser händelsen på webbplatsen.<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.--> För att göra detta måste webbutvecklaren använda **ADOBE CAMPAIGN STANDARD REST API**.
 
 | Implementera utlösaren | Användare | Åtgärd | Resultat |
 | --- |--- |--- |--- |
@@ -123,7 +123,7 @@ Mer information om hur du använder Campaign REST API för att hantera transakti
 
 När alla steg ovan har utförts kan meddelandet levereras.
 
-| Skicka meddelandet | Användare | Åtgärd | Resultat |
+| Leverera meddelandet | Användare | Åtgärd | Resultat |
 | --- |--- |--- |--- |
 | <img src="assets/do-not-localize/icon_channels.svg" width="60px"> | Det här steget utförs av kunder som besöker din webbplats. | Så snart en användare lämnar webbplatsen utan att beställa produkterna i kundvagnen utlöses motsvarande Campaign-händelse. | Användaren får automatiskt ett e-postmeddelande. |
 

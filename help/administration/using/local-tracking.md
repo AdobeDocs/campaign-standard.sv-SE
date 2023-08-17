@@ -21,7 +21,7 @@ På den här sidan kan du se till att lokal meddelandespårning har implementera
 
 Lokal meddelandespårning kan delas upp i tre typer:
 
-* **Lokalt tryck** - När ett lokalt meddelande har levererats till enheten och sitter på meddelandecentret, men inte har berörts alls. I de flesta fall bör imponeringsnumret vara likartat eller inte detsamma som det levererade talet. Det ser till att enheten fick meddelandet och vidarebefordrade informationen till servern.
+* **Lokalt tryck** - När ett lokalt meddelande har levererats till enheten och sitter på meddelandecentret, men inte har berörts alls. I de flesta fall bör imponeringsnumret vara likartat om det inte är detsamma som det levererade talet. Det ser till att enheten fick meddelandet och vidarebefordrade informationen till servern.
 
 * **Klicka lokalt** - När ett lokalt meddelande har levererats till enheten och användaren har klickat på meddelandet. Användaren ville antingen visa meddelandet (som i sin tur ska gå till lokal öppen spårning) eller stänga meddelandet.
 
@@ -29,7 +29,7 @@ Lokal meddelandespårning kan delas upp i tre typer:
 
 För att implementera spårning för Adobe Campaign Standard måste mobilprogrammet inkludera Mobile SDK i programmet. Dessa SDK:er är tillgängliga i [!DNL Adobe Mobile Services].
 
-Om du vill skicka spårningsinformation finns det tre variabler som måste skickas: två är en del av de data som tas emot från Adobe Campaign och den andra är en åtgärdsvariabel som avgör om det är ett intryck, ett klick eller en öppen händelse.
+Om du vill skicka spårningsinformation finns det tre variabler som måste skickas: två är en del av de data som tas emot från Adobe Campaign och den andra är en åtgärdsvariabel som anger om det är ett intryck, ett klick eller en öppen händelse.
 
 | Variabel | Värde |
 | :-: | :-: |
@@ -43,7 +43,7 @@ Adobe Experience Platform Mobile SDK skickar automatiskt en inställningshändel
 
 ## Implementera klickspårning {#implementing-click-tracking}
 
-För klickspårning måste du skicka värdet &quot;2&quot; för åtgärd när du anropar `collectMessageInfo()` eller `trackAction()` funktioner.
+För klickspårning måste du skicka värdet 2 för åtgärd när du anropar `collectMessageInfo()` eller `trackAction()` funktioner.
 
 ### För Android {#implement-click-tracking-android}
 
@@ -51,17 +51,17 @@ För att spåra klickningar måste två scenarier implementeras:
 
 * Användaren ser meddelandet men rensar det.
 
-   Om du vill spåra en klickning i händelse av ett avvisningsscenario lägger du till sändningsmottagaren `NotificationDismissalHandler` i programmodulens AndroidManifest-fil.
+  Om du vill spåra en klickning i händelse av ett avvisningsscenario lägger du till sändningsmottagaren `NotificationDismissalHandler` i programmets AndroidManifest-fil.
 
-   ```
-   <receiver
-   android:name="com.adobe.marketing.mobile.NotificationDismissalHandler">
-   </receiver>
-   ```
+  ```
+  <receiver
+  android:name="com.adobe.marketing.mobile.NotificationDismissalHandler">
+  </receiver>
+  ```
 
 * Användaren ser meddelandet och klickar på det. Detta blir en öppen spårning.
 
-   Scenariot ska skapa ett klick och en öppen händelse. Spårning av klickningen är en del av implementeringen som krävs för att spåra öppningen. Se [Implementera öppen spårning](#implement-open-tracking).
+  Scenariot ska skapa ett klick och en öppen händelse. Spårning av klickningen är en del av implementeringen som krävs för att spåra öppningen. Se [Implementera öppen spårning](#implement-open-tracking).
 
 ### För iOS {#implement-click-tracking-ios}
 
@@ -98,7 +98,7 @@ class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
 
 ## Implementera spärra/knip {#implement-open-tracking}
 
-Du måste skicka &quot;1&quot; och &quot;2&quot; eftersom användaren måste klicka på meddelandet för att kunna öppna programmet. Om programmet inte startas/öppnas via ett lokalt meddelande sker inga spårningshändelser.
+Du måste skicka 1 och 2 eftersom användaren måste klicka på meddelandet för att kunna öppna programmet. Om programmet inte startas/öppnas via ett lokalt meddelande sker inga spårningshändelser.
 
 ### För Android {#implement-open-tracking-android}
 

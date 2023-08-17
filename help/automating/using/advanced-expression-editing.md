@@ -30,7 +30,7 @@ Du kan redigera uttryck för att:
 
 * definiera en fråga via alternativet **[!UICONTROL Advanced mode]** som är tillgängligt när en regel läggs till.
 
-   ![](assets/expression_editor_2.png)
+  ![](assets/expression_editor_2.png)
 
 * redigera ett uttryck i ett arbetsflöde. Om du till exempel vill lägga till ytterligare data i en aktivitet.
 * Redigera ett synlighetsvillkor för att definiera hur ett block i HTML-redigeraren ska visas. I det här fallet redigeras uttrycket i JavaScript-format och erbjuder inte avancerade funktioner som standard.
@@ -76,9 +76,9 @@ Standarduttrycken består av ett eller flera villkor som överensstämmer med f�
    * **&lt;comparison operator>** är en av operatörerna i avsnittet [Jämförelseoperatörer](../../automating/using/advanced-expression-editing.md#comparison-operators). Den här operatören definierar jämförelsemetoden mellan **&lt;value1>** och **&lt;value2>**.
    * **&lt;value2>** är ett fält, en funktion eller ett värde som matas in manuellt.
 
-   >[!NOTE]
-   >
-   >Typdata för **&lt;value1>** och **&lt;value2>** måste vara identiska. Om till exempel **&lt;value1>** är ett datum måste även **&lt;value2>** vara ett datum.
+  >[!NOTE]
+  >
+  >Typdata för **&lt;value1>** och **&lt;value2>** måste vara identiska. Om till exempel **&lt;value1>** är ett datum måste även **&lt;value2>** vara ett datum.
 
 * Om du vill använda flera villkor kan de kombineras med logiska operatörer.
 
@@ -105,8 +105,9 @@ JavaScript-uttryck består av ett eller flera villkor och de använder följande
    * **&lt;comparison operator>** är en av operatörerna i avsnittet [Jämförelseoperatörer](../../automating/using/advanced-expression-editing.md#comparison-operators). Den här operatören definierar jämförelsemetoden mellan **&lt;context>** och **&lt;value2>**.
    * **&lt;value2>** är ett fält, en funktion eller ett värde som matas in manuellt.
 
-   >[!NOTE]
-   Typdata för **&lt;context>** och **&lt;value2>** måste vara identiska. Om till exempel **&lt;context>** är ett datum måste även **&lt;value2>** vara ett datum.
+  >[!NOTE]
+  >
+  Typdata för **&lt;context>** och **&lt;value2>** måste vara identiska. Om till exempel **&lt;context>** är ett datum måste även **&lt;value2>** vara ett datum.
 
 * Om du vill använda flera villkor kan de kombineras med logiska operatörer.
 

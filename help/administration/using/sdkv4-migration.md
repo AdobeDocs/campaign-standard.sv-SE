@@ -24,7 +24,7 @@ ht-degree: 1%
 ## Om SDK V4-migrering
 
 Adobe Campaign Standard behandlar mobilapplikationer med SDK V4 som separata applikationer jämfört med de som använder Adobe Experience Platform SDK.
-När du har uppgraderat Adobe SDK-versionen från v4 till Adobe Experience Platform måste mobilapplikationer fortsätta använda befintliga prenumerationsdata och kampanjer: Det behövs därför en migrering.
+När du har uppgraderat Adobe SDK-versionen från v4 till Adobe Experience Platform måste mobilapplikationer fortsätta använda befintliga prenumerationsdata och kampanjer. Därför krävs en migrering.
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ När du har uppgraderat Adobe SDK-versionen från v4 till Adobe Experience Platf
 |:-:|
 | Befintliga leveranser och kampanjer som använder den migrerade SDK V4-applikationen påverkas inte. |
 | Namnet på mobilprogrammet ändras inte. |
-| Plattformsautentiseringsuppgifterna för iOS och Android behålls. |
+| Plattformsautentiseringsuppgifterna för iOS och Android bevaras. |
 | Alla som prenumererar på programmet och deras data kommer att behållas. |
 | Det befintliga SDK v4-mobilprogrammet fortsätter att skicka data (PII-data, prenumerations- och tokeninformation) till Adobe Campaign Standard. |
 | The **[!UICONTROL Organizational unit]** för mobilapplikationen kommer att förbli densamma. |
@@ -48,7 +48,7 @@ När du har uppgraderat Adobe SDK-versionen från v4 till Adobe Experience Platf
 
 ## Migrera ditt mobilprogram från SDK v4 till Adobe Experience Platform SDK {#how-to-migrate}
 
-Innan du migrerar bör du ta hänsyn till följande rekommendationer:
+Innan du migrerar bör du beakta följande rekommendationer:
 
 * Migreringsprocessen är oåterkallelig.
 * Du bör inte köra migrering av flera program samtidigt. Du bör också se till att migreringen av ett program inte aktiveras av flera fönster samtidigt.
@@ -59,7 +59,7 @@ Innan du migrerar bör du ta hänsyn till följande rekommendationer:
 
 1. I Adobe Campaign Standard väljer du **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]** och öppna **[!UICONTROL syncWithLaunch]** arbetsflöde. Kontrollera om arbetsflödet har avslutats utan fel.
 
-1. När arbetsflödet är klart, från **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (Adobe Experience Platform SDK)]** kontrollerar du om mobilprogrammet är tillgängligt i Adobe Campaign Standard och finns i **[!UICONTROL Ready to Configure]** tillstånd.
+1. När arbetsflödet är klart, från **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (Adobe Experience Platform SDK)]** kontrollerar du om mobilprogrammet är tillgängligt i Adobe Campaign Standard och i **[!UICONTROL Ready to Configure]** tillstånd.
 
    ![](assets/aep_v4_2.png)
 
@@ -92,40 +92,40 @@ Sedan måste du konfigurera den associerade taggen **[!UICONTROL Mobile property
 
 ## Vanliga frågor och svar  {#faq}
 
-### F: I SDK v4-mobilprogrammet visas inte migreringen av mobilprogram till Adobe Experience Platform SDK-fliken. {#tab-not-visible}
+### F: I SDK v4-mobilprogrammet är migreringen av mobilprogram till Adobe Experience Platform SDK-fliken inte synlig. {#tab-not-visible}
 
-S: Från den avancerade menyn **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**, kontrollerar värdet för **[!UICONTROL Enable migration of mobile app from SDK v4 to Adobe Experience Platform SDK option]** alternativ. Den ska vara inställd på 1 och aktiverad som standard. Administratören kan ha inaktiverat det manuellt.
+A: Från den avancerade menyn **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**, kontrollerar värdet för **[!UICONTROL Enable migration of mobile app from SDK v4 to Adobe Experience Platform SDK option]** alternativ. Den ska vara inställd på 1 och aktiverad som standard. Administratören kan ha inaktiverat det manuellt.
 
 ![](assets/aep_v4_1.png)
 
 ### F: Från fliken för migrering av mobilprogram till Adobe Experience Platform SDK visas meddelandet Inga data. {#no-data}
 
-S: Endast programvara som ger rätt till rabatt **[!UICONTROL Organizational unit]** visas i listan. Kontrollera att du har rätt Adobe Experience Platform-program för migreringen. The **[!UICONTROL Property Status]** av ditt Adobe Experience Platform-program bör vara inställt på **[!UICONTROL Ready to Configure]**  och **[!UICONTROL Mobile app migration status]** ange till **[!UICONTROL Not Migrated]**.
+A: Endast ditt program kan komma i fråga **[!UICONTROL Organizational unit]** visas i listan. Kontrollera att du har rätt Adobe Experience Platform-program för migreringen. The **[!UICONTROL Property Status]** av ditt Adobe Experience Platform-program bör vara inställt på **[!UICONTROL Ready to Configure]**  och **[!UICONTROL Mobile app migration status]** ange till **[!UICONTROL Not Migrated]**.
 
 ![](assets/aep_v4_6.png)
 
 ### F: Varför kan inte Adobe Experience Platform SDK-programmet med den konfigurerade egenskapsstatusen användas för migrering? {#property-status}
 
-S: Migreringsprocessen behåller SDK v4-prenumeranterna och -attributen. Det sparar bara taggrelaterad information från Adobe Experience Platform SDK-programmet. Prenumeranter och andra data från Adobe Experience Platform SDK-programmet kommer att gå förlorade. För att undvika dataförluster är det bara Adobe Experience Platform SDK-program med **[!UICONTROL Ready to Configure]** **[!UICONTROL Property Status]** är berättigade till migrering.
+S: Migreringsprocessen bevarar SDK v4-prenumeranterna och -attributen. Det sparar bara taggrelaterad information från Adobe Experience Platform SDK-programmet. Prenumeranter och andra data från Adobe Experience Platform SDK-programmet kommer att gå förlorade. För att undvika dataförluster är det bara Adobe Experience Platform SDK-program med **[!UICONTROL Ready to Configure]** **[!UICONTROL Property Status]** är berättigade till migrering.
 
 ### F: Efter migreringen, var hittar jag mitt tidigare SDK v4-mobilprogram? {#v4-app-not-visible}
 
 S: Mobilprogrammet efter migreringen visas på den avancerade menyn **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (Adobe Experience Platform SDK)]**.
 
-### F: Efter migreringen, var hittar jag mitt nya Adobe Experience Platform SDK-program? {#aep-not-visible}
+### F: Efter migreringen, var hittar jag mitt nyskapade Adobe Experience Platform SDK-program? {#aep-not-visible}
 
 S: Det nyskapade Adobe Experience Platform SDK-programmet som används för migreringen finns inte som ett separat program. Endast det migrerade SDK v4-programmet är tillgängligt.
 
-### F: Om den mobila programorganisationsenheten SDK v4 är inställd på A (underordnad till organisationsenheten ALL) och Adobe Experience Platform SDK är inställd på ALL. Hur migrerar jag mitt mobilprogram? {#v4-org-unit}
+### F: Om den mobila programenheten SDK v4 är inställd på A (underordnad till organisationsenheten ALL) och Adobe Experience Platform SDK är inställd på ALL. Hur migrerar jag mitt mobilprogram? {#v4-org-unit}
 
-S: Administratörer för **[!UICONTROL Organizational unit]** ALLA har rätt att hantera båda mobilapparna och ansvarar för migreringen.
+A: Administratörer för **[!UICONTROL Organizational unit]** ALLA har rätt att hantera båda mobilapparna och ansvarar för migreringen.
 
-### F: Om den mobila programorganisationsenheten SDK v4 är inställd på A och Adobe Experience Platform SDK är inställd på B (en jämställd enhet i organisationsenheten A). Hur migrerar jag mitt mobilprogram? {#aep-org-unit}
+### F: Om mobilappen SDK v4 är inställd på A och Adobe Experience Platform SDK är inställd på B (en jämställd enhet i organisationsenheten A). Hur migrerar jag mitt mobilprogram? {#aep-org-unit}
 
-S: Adobe Experience Platform SDK-applikation på samma nivå **[!UICONTROL Organizational unit]**, kommer mobilprogrammet inte att vara synligt för användare av **[!UICONTROL Organizational unit]** S. Mobilappen blir tillgänglig för administratörerna av **[!UICONTROL Organizational unit]** ALLA, men vi rekommenderar inte dessa administratörer att migrera mobilprogrammet.
+A: Adobe Experience Platform SDK-applikation på samma nivå **[!UICONTROL Organizational unit]**, visas inte mobilprogrammet för användare av **[!UICONTROL Organizational unit]** S. Mobilappen är tillgänglig för administratörerna av **[!UICONTROL Organizational unit]** ALLA, men vi rekommenderar inte dessa administratörer att migrera mobilprogrammet.
 I det här fallet bör du flytta dina mobilprogram i samma **[!UICONTROL Organizational unit]** eller i en **[!UICONTROL Organizational unit]** med en överordnad länk.
 Mer information om **[!UICONTROL Organizational unit]**, se det här [section](../../administration/using/organizational-units.md).
 
-### F: Från mobilappen för Adobe Experience Platform SDK (som migrerats från mobilappen v4) visas ingen information, till exempel överföringsdatum/namn, för Android-nyckeln eller iOS-certifikatet, i listrutan Push-kanalinställningar {#no-information-v5}
+### F: Från mobilappen för Adobe Experience Platform SDK (som migrerats från mobilappen v4), under listrutan Push channel settings (Inställningar för push-kanal), visas ingen information som överföringsdatum/namn för Android-nyckeln eller iOS-certifikatet {#no-information-v5}
 
-S: Den här informationen lagras inte i systemet när SDK V4-mobilprogrammet skapas. När du migrerar ditt SDK V4-mobilprogram till ett Adobe Experience Platform SDK-mobilprogram har ditt migrerade mobilprogram inte heller den här typen av information. Så snart en användare laddar upp ett nytt iOS-certifikat eller en Android-nyckel kommer de olika uppgifterna för nyckeln eller certifikatet att lagras och visas korrekt under **[!UICONTROL Push channel settings]** nedrullningsbar meny.
+S: Systemet lagrar inte den här informationen när SDK V4-mobilprogrammet skapas. När du migrerar ditt SDK V4-mobilprogram till ett Adobe Experience Platform SDK-mobilprogram kommer ditt migrerade mobilprogram inte heller att ha den här typen av information. Så snart en användare laddar upp ett nytt iOS-certifikat eller en Android-nyckel kommer de olika uppgifterna för nyckeln eller certifikatet att lagras och visas korrekt under **[!UICONTROL Push channel settings]** nedrullningsbar meny.

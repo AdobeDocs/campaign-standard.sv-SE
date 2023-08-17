@@ -32,7 +32,7 @@ Den här integreringen måste först konfigureras. Om du vill begära provisione
    <td> Konfigurera AAM/kundtjänst - kampanjintegrering </td> 
   </tr> 
   <tr> 
-   <td> <strong>Organisationsnamn:</strong><br /> </td> 
+   <td> <strong>Organisation:</strong><br /> </td> 
    <td> Organisationens namn </td> 
   </tr> 
   <tr> 
@@ -45,7 +45,7 @@ Den här integreringen måste först konfigureras. Om du vill begära provisione
   </tr> 
   <tr> 
    <td> <strong>AAM eller persontjänst</strong><br /> </td> 
-   <td> Exempel: Adobe Audience Manager. Se till att tala om för provisioneringsteamet om du äger Audience Manager-licens eller inte.</td> 
+   <td> Exempel: Adobe Audience Manager. Var noga med att tala om för provisioneringsteamet om du äger Audience Manager-licens eller inte.</td> 
   </tr> 
   <tr> 
    <td> <strong>Deklarerat ID eller besökar-ID</strong><br /> </td> 
@@ -63,7 +63,7 @@ Den här integreringen måste först konfigureras. Om du vill begära provisione
 När du har skickat in den här begäran fortsätter Adobe till att tillhandahålla integreringen åt dig och kontaktar dig för att ange information och information som du måste slutföra konfigurationen:
 
 * [Steg 1: Konfigurera eller kontrollera externa konton i Adobe Campaign](#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)
-* [Steg 2: Konfigurera datakällor](#step-2--configure-the-data-sources)
+* [Steg 2: Konfigurera datakällorna](#step-2--configure-the-data-sources)
 * [Steg 3: Konfigurera kampanjspårningsserver](#step-3--configure-campaign-tracking-server)
 * [Steg 4: Konfigurera besökar-ID-tjänsten](#step-4--configure-the-visitor-id-service)
 
@@ -73,7 +73,7 @@ Först måste vi konfigurera eller kontrollera externa konton i Adobe Campaign. 
 
 För att göra detta:
 
-1. Välj **Administration > Programinställningar > Externa konton**.
+1. Välj på den avancerade menyn **Administration > Programinställningar > Externa konton**.
 
    Välj ett av följande externa konton som är tillgängliga för den här integreringen:
 
@@ -84,7 +84,7 @@ För att göra detta:
 
 Dina externa konton har nu konfigurerats för den här integreringen.
 
-### Steg 2: Konfigurera datakällor {#step-2--configure-the-data-sources}
+### Steg 2: Konfigurera datakällorna {#step-2--configure-the-data-sources}
 
 De två följande datakällorna skapas i Audience Manager: Adobe Campaign (MID) och Adobe Campaign (DeclaredId). Samtidigt finns dessa två datakällor i Adobe Campaign:
 
@@ -93,7 +93,7 @@ De två följande datakällorna skapas i Audience Manager: Adobe Campaign (MID) 
 
 Observera att Adobe Campaign inte stöder avstämning baserad på ECID för flera webbplatser med olika domäner.
 
-Så här konfigurerar du **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]** datakälla:
+Konfigurera **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]** datakälla:
 
 1. I **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**, markera **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**.
 

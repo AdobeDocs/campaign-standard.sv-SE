@@ -39,7 +39,7 @@ Campaign **[!UICONTROL dimensions]** som finns i Analytics listas nedan:
   </tr> 
   <tr> 
    <td> Leverans-ID<br /> </td> 
-   <td> Delivery's internal name as see in Campaign.<br /> DM1 är till exempel en återkommande leverans som schemaläggs att skicka underordnade leveranser varje vecka. DM2, DM3 och DM4 skickas de första tre veckorna. I leverans-ID-dimensionen visas sedan resultatet för varje leverans, dvs. DM1 till DM4. <br /> </td> 
+   <td> Leveransens interna namn enligt Campaign.<br /> DM1 är till exempel en återkommande leverans som schemaläggs att skicka underordnade leveranser varje vecka. DM2, DM3 och DM4 skickas de första tre veckorna. I leverans-ID-dimensionen visas sedan resultatet för varje leverans, dvs. DM1 till DM4. <br /> </td> 
   </tr> 
   <tr> 
    <td> Leveransetikett<br /> </td> 
@@ -47,11 +47,11 @@ Campaign **[!UICONTROL dimensions]** som finns i Analytics listas nedan:
   </tr> 
   <tr> 
    <td> Kört leverans-ID<br /> </td> 
-   <td> Delivery's internal name as see in Campaign. Detta gäller endast leverans i körning i Campaign.<br /> DM1 är till exempel en återkommande leverans som schemaläggs att skicka underordnade leveranser varje vecka. DM2, DM3 och DM4 skickas de första tre veckorna. Dimensionen för exekverat leverans-ID visar sedan resultaten för de utförda leveranserna, dvs. de underordnade leveranserna DM2, DM3 och DM4. <br /> </td> 
+   <td> Leveransens interna namn enligt Campaign. Detta gäller endast leverans i körning i Campaign.<br /> DM1 är till exempel en återkommande leverans som schemaläggs att skicka underordnade leveranser varje vecka. DM2, DM3 och DM4 skickas de första tre veckorna. Dimensionen för exekverat leverans-ID visar sedan resultaten för de utförda leveranserna, dvs. de underordnade leveranserna DM2, DM3 och DM4. <br /> </td> 
   </tr> 
   <tr> 
    <td> Körd leveransetikett<br /> </td> 
-   <td> Leveransens etikett som den visas i Campaign. Detta gäller endast leverans i körning i Campaign.<br /> </td> 
+   <td> Leveransens etikett, enligt Campaign. Detta gäller endast leverans i körning i Campaign.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

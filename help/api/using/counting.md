@@ -33,7 +33,7 @@ Räkna alla tjänster som har en **messageType** ett värde som är lika med &qu
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Den returnerar tjänsterna som motsvarar filtret.
+Den returnerar de tjänster som motsvarar filtret.
 
 ```
 {

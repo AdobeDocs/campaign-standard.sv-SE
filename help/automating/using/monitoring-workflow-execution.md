@@ -1,6 +1,6 @@
 ---
 title: Övervaka arbetsflödeskörning
-description: Lär dig hur du övervakar körningen av ett arbetsflöde.
+description: Lär dig övervaka körningen av ett arbetsflöde.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -36,7 +36,7 @@ I dessa två listor:
 
 * Klicka på räknaren för att visa det totala antalet aktiviteter enligt det filter som används. Räknaren visas som standard om antalet element i listan är mindre än 30.
 * The **[!UICONTROL Configure list]** kan du välja vilken information som ska visas, definiera kolumnordningen och sortera listan.
-* Du kan använda filter för att hitta den information du behöver snabbare. Använd sökfältet för att söka efter en viss text i aktivitetsnamnen för arbetsflödet (till exempel: &quot;query&quot;) och loggar.
+* Du kan använda filter för att hitta den information du behöver snabbare. Använd sökfältet för att söka efter en viss text i arbetsflödets aktivitetsnamn (t.ex. &quot;query&quot;) och loggar.
 
 ## Felhantering {#error-management}
 
@@ -44,7 +44,7 @@ När ett fel inträffar pausas arbetsflödet och aktiviteten som kördes när fe
 
 Arbetsflödets status ändras till rött och felet registreras i loggen.
 
-Du kan konfigurera arbetsflödet så att det inte pausar och fortsätter att köras utan fel. Det gör du genom att gå till arbetsflödesegenskaperna via ![](assets/edit_darkgrey-24px.png) och **[!UICONTROL Execution]** väljer du **Ignorera** i **Vid fel** fält.
+Du kan konfigurera arbetsflödet så att det inte pausar och fortsätter att köras utan fel. Det gör du genom att gå till arbetsflödesegenskaperna via ![](assets/edit_darkgrey-24px.png) och **[!UICONTROL Execution]** väljer du **Ignorera** i **Om fel uppstår** fält.
 
 I det här fallet avbryts den felaktiga aktiviteten. Det här läget passar särskilt bra för arbetsflöden som är utformade för att försöka utföra åtgärden senare (periodiska åtgärder).
 
@@ -58,14 +58,14 @@ I [arbetsflödets egenskaper](../../automating/using/managing-execution-options.
 
 Möjliga alternativ är:
 
-* **[!UICONTROL Supervisors]**: Med kan du definiera gruppen med personer som ska meddelas (e-post och meddelanden i appen) om arbetsflödet stöter på ett fel. Om ingen grupp är definierad meddelas ingen. Mer information om Adobe Campaign-meddelanden finns i [Adobe Campaign-meddelanden](../../administration/using/sending-internal-notifications.md).
+* **[!UICONTROL Supervisors]**: låter dig definiera gruppen med personer som ska meddelas (e-post och meddelanden i appen) om arbetsflödet stöter på ett fel. Om ingen grupp är definierad meddelas ingen. Mer information om Adobe Campaign-meddelanden finns i [Adobe Campaign-meddelanden](../../administration/using/sending-internal-notifications.md).
 
-* **[!UICONTROL In case of error]**: gör att du kan ange vilken åtgärd som ska utföras om aktiviteten stöter på ett fel. Det finns två alternativ:
+* **[!UICONTROL In case of error]**: låter dig ange vilken åtgärd som ska utföras om aktiviteten stöter på ett fel. Det finns två alternativ:
 
    * **Skjut upp processen**: arbetsflödet pausas automatiskt. Arbetsflödets status är då **Fel** och färgen blir röd. Starta om arbetsflödet när problemet är löst.
    * **Ignorera**: aktiviteten inte utförs och därför är ingen av de aktiviteter som följer den (i samma gren). Detta kan vara användbart för återkommande uppgifter. Om grenen har en schemaläggare placerad uppströms ska detta utlösas på nästa körningsdatum.
 
-* **[!UICONTROL Consecutive errors]** : gör att du kan definiera ett antal på varandra följande fel som är auktoriserade innan arbetsflödets körning pausas automatiskt.
+* **[!UICONTROL Consecutive errors]** : gör att du kan definiera ett antal på varandra följande fel som är auktoriserade innan arbetsflödets körning automatiskt pausas.
 
    * Om det angivna talet är **[!UICONTROL 0]**, eller så länge som det angivna antalet inte nås, ignoreras aktiviteter som påträffar fel. De andra arbetsflödesgrenarna körs normalt.
 

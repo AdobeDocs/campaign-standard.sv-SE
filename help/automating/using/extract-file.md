@@ -43,7 +43,7 @@ Det sätt som data extraheras på definieras när aktiviteten konfigureras.
    ![](assets/wkf_data_export1.png)
 
 1. Markera aktiviteten och öppna den sedan med ![](assets/edit_darkgrey-24px.png)-knappen bland de snabbåtgärder som visas.
-1. Ange etiketten för **Utmatningsfilen**.    Etiketten för filen fylls automatiskt i med det datum och den tidpunkt då den skapades så att den blir unik.    Till exempel: templates_20150815_081532.txt för en fil som genererades den 15 augusti 2015 kl. 08:15:32.
+1. Ange etiketten för **Utmatningsfilen**.    Etiketten för filen fylls automatiskt i med det datum och den tidpunkt då den skapades så att den blir unik.    Till exempel: templates_20150815_081532.txt för en fil genererades den 15 augusti 2015 kl. 08:15:32.
 
    >[!NOTE]
    >

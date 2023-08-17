@@ -23,6 +23,6 @@ The **SMS** rapporten innehåller information om SMS-leveranser, som levererade 
 
 The **SMS-sammanfattning** tabell, diagram och sammanfattningsnummer innehåller tillgängliga data för SMS-leveranser som har skickats.
 
-* **Behandlad/skickad**: Antalet SMS som skickats.
-* **Levererat**: Antal SMS som levererats.
+* **Behandlad/skickad**: Antal SMS som skickats.
+* **Levererat**: Antal SMS-levererade.
 * **studsar + fel**: Antalet meddelanden som inte kunde levereras.

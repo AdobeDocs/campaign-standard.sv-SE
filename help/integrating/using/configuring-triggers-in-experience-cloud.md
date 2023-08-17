@@ -35,15 +35,15 @@ Om du vill använda den här funktionen måste du ha tillgång till följande l�
 * Adobe Analytics Ultimate, Premium, Foundation, OD, Select, Prime, Mobile Apps, Select eller Standard.
 * Bastjänsten Experience Cloud-utlösare
 
-   ![](assets/trigger_uc_prereq_1.png)
+  ![](assets/trigger_uc_prereq_1.png)
 
 * Bastjänsten Experience Cloud DTM
 
-   ![](assets/trigger_uc_prereq_2.png)
+  ![](assets/trigger_uc_prereq_2.png)
 
 * Bastjänsterna Experience Cloud Visitor ID och Experience Cloud People
 
-   ![](assets/trigger_uc_prereq_3.png)
+  ![](assets/trigger_uc_prereq_3.png)
 
 Du måste även ha en fungerande hemsida.
 
@@ -57,7 +57,7 @@ Du måste konfigurera [Experience Cloud DTM Core Service](#configuring-experienc
 
 ### Konfigurerar Experience Cloud DTM Core Service {#configuring-experience-cloud-dtm-core-service}
 
-1. I Experience Cloud DTM Core Service (Dynamic Tag Management) aktiverar du Experience Cloud ID och Adobe Analytics för dina webbsidor.
+1. I Experience Cloud DTM Core Service (Dynamic Tag Management) aktiverar du Experience Cloud ID och Adobe Analytics för dina webbplatssidor.
 
    ![](assets/trigger_uc_conf_1.png)
 
@@ -95,7 +95,7 @@ En Adobe Experience Cloud-utlösare måste skapas så att du kan använda den i 
 
 Skapa en ny utlösare i Experience Cloud och se till att du väljer den rapportsvit som används på webbplatsen. Se till att du väljer rätt dimension så att utlösaren aktiveras.
 
-Se [Adobe Experience Cloud-dokumentation](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html) och se detta [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
+Se [Adobe Experience Cloud-dokumentation](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html) och se det här [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
 
 ## Utlöser bästa praxis och begränsningar {#triggers-best-practices-and-limitations}
 

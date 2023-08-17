@@ -38,15 +38,16 @@ Om problemet kvarstår kontaktar du den kommersiella tjänsten, leveransprogramm
    * Status **[!UICONTROL On denylist]** är ett resultat av [feedback-slinga](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops) (när en person rapporterar ett meddelande som skräppost).
 
    * Status **[!UICONTROL Quarantined]** är ett resultat av ett mjukt eller hårt studsande.
-   Mer information finns i [det här avsnittet](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist).
+
+  Mer information finns i [det här avsnittet](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist).
 
 * **Vad betyder de olika anledningarna till karantänfel?**
 
-   Här följer tio möjliga orsaker: inte definierad, okänd användare, ogiltig domän, adress på blockeringslista, nekad, fel ignorerad, ej tillgänglig, konto inaktiverat, postlåda full, inte ansluten.
+  Här är tio möjliga orsaker: inte definierad, okänd användare, ogiltig domän, adress på blockeringslista, nekad, fel ignorerad, kontot inaktiverat, postlådan full, inte ansluten.
 
-   Mer information finns i [Om karantänhantering](../../sending/using/understanding-quarantine-management.md).
+  Mer information finns i [Om karantänhantering](../../sending/using/understanding-quarantine-management.md).
 
-## Ta bort från blockeringslista {#removing-from-denylist}
+## Tar bort från blockeringslista {#removing-from-denylist}
 
 * **En av mina mottagare lades till i blockeringslista av misstag. Hur tar jag bort dem från blockeringslista så att jag kan börja skicka dem igen?**
 
@@ -54,18 +55,18 @@ Om problemet kvarstår kontaktar du den kommersiella tjänsten, leveransprogramm
    * Ange värdet för **[!UICONTROL Status]** fält till **[!UICONTROL Valid]**.
    * Spara posten.
 
-* **Hur kan jag ta reda på om en av mina IP-adresser finns på blockeringslista? Hur tar jag bort mina IP-adresser från ett blockeringslista?**
+* **Hur kan jag ta reda på om en av mina IP-adresser finns på blockeringslista? Hur tar jag bort mina IP-adresser från blockeringslista?**
 
-   Om du vill kontrollera om din IP-adress finns i blockeringslista kan du använda olika webbplatser för att verifiera den, till exempel:
+  Om du vill kontrollera om din IP-adress finns i blockeringslista kan du använda olika webbplatser för att verifiera den, till exempel:
    * [MX Toolbox](https://mxtoolbox.com/)
    * [Vad är min IP-adress?](https://whatismyipaddress.com)
 
-   I allmänhet returnerar resultatet av IP-adresskontrollen en lista som innehåller information om blockeringslista och även namnet på den webbplats som blockerade IP-adressen.
+  I allmänhet returnerar resultatet av IP-adresskontrollen en lista som innehåller information om blockeringslista och även namnet på den webbplats som blockerade IP-adressen.
 
-   Genom att klicka på motsvarande länk kan du komma åt webbplatsinformationen.
+  Genom att klicka på motsvarande länk kan du komma åt webbplatsinformationen.
 
-   Sedan kan du begära att din webbplats tas bort från den webbplats som lade till IP-adressen till blockeringslista.
+  Sedan kan du begära att din webbplats tas bort från den webbplats som lade till IP-adressen till blockeringslista.
 
-   >[!NOTE]
-   >
-   >Borttagningsprocessen kan variera beroende på webbplatsen. Vissa webbplatser kräver att du skapar ett konto, medan andra bara behöver du ange IP-adressen.
+  >[!NOTE]
+  >
+  >Borttagningsprocessen kan variera beroende på webbplatsen. Vissa webbplatser kräver att du skapar ett konto, medan andra bara behöver du ange IP-adressen.

@@ -30,17 +30,17 @@ Aktiviteten används huvudsakligen för datahantering och kan innebära två sak
 
 * Lägga till relationer: I en **[!UICONTROL Links]**-flik kan du lägga till länkar mellan inkommande data och flera andra datadimensioner i Adobe Campaign.
 
-   En fil som innehåller inköpsuppgifter kan till exempelvis även innehålla information som identifierar de köpta produkterna samt köparen.  Ytterligare två dimensioner (utöver **Inköp**) berörs därför av uppgifterna. Dimensionerna **Produkter** och **Profiler**.  Relationer måste sedan skapas mellan dessa och **inköpsdimensionen** (se följande exempel).
+  En fil som innehåller inköpsuppgifter kan till exempelvis även innehålla information som identifierar de köpta produkterna samt köparen.  Ytterligare två dimensioner (utöver **Inköp**) berörs därför av uppgifterna. Dimensionerna **Produkter** och **Profiler**.  Relationer måste sedan skapas mellan dessa och **inköpsdimensionen** (se följande exempel).
 
-   När du definierar en relation läggs en kolumn till i inkommande data som referens till den länkade dimensionens främmande nyckel.
+  När du definierar en relation läggs en kolumn till i inkommande data som referens till den länkade dimensionens främmande nyckel.
 
-   >[!NOTE]
-   >
-   >Den här åtgärden innebär att data för de länkade dimensionerna redan finns i databasen.  Om du till exempel importerar en inköpsfil som visar vilken produkt som köptes vid en viss tidpunkt, av en viss klient och så vidare, så måste produkten och klienten redan finnas i databasen.
+  >[!NOTE]
+  >
+  >Den här åtgärden innebär att data för de länkade dimensionerna redan finns i databasen.  Om du till exempel importerar en inköpsfil som visar vilken produkt som köptes vid en viss tidpunkt, av en viss klient och så vidare, så måste produkten och klienten redan finnas i databasen.
 
 * Identifiering av data: Med en **[!UICONTROL Identification]**-flik kan du enkelt länka inkommande data till kolumner med en befintlig dimension i Adobe Campaign-databasen.  Efter aktiviteten identifieras data som tillhörande den definierade dimensionen.
 
-   Du kan exempelvis sedan spara en målgrupp, uppdatera databasen etc.
+  Du kan exempelvis sedan spara en målgrupp, uppdatera databasen etc.
 
 Till exempel **[!UICONTROL Reconciliation]** -aktiviteten kan placeras efter en inläsningsdataaktivitet för att importera icke-standarddata till databasen.
 

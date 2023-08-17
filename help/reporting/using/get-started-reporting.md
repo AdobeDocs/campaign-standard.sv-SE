@@ -20,8 +20,8 @@ ht-degree: 19%
 <table>
 <tr>
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#manage-share-reports">Hantera och dela dynamiska rapporter</a></p></td>
-<td><img src="assets/do-not-localize/icon_build.svg" width="60px"><p><a href="#build-reports">Skapa rapporter</a></p></td>
-<td><img src="assets/do-not-localize/icon_customize.svg" width="60px"><p><a href="#customize-reports">Anpassa rapporter</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_build.svg" width="60px"><p><a href="#build-reports">Bygg era rapporter</a></p></td>
+<td><img src="assets/do-not-localize/icon_customize.svg" width="60px"><p><a href="#customize-reports">Anpassa dina rapporter</a></p></td></tr>
 </table>
 
 Dynamic Reporting ger helt anpassningsbara realtidsrapporter för att mäta effekten av era marknadsföringsaktiviteter. Det ger åtkomst till profildata, vilket möjliggör demografiska analyser efter profildimensioner som kön, ort och ålder, utöver funktionella e-postkampanjdata som öppningar och klick.
@@ -34,18 +34,18 @@ Dynamic Reporting ger helt anpassningsbara realtidsrapporter för att mäta effe
 
 Med dynamisk rapportering **dra-och-släpp-gränssnitt** kan ni utforska data, avgöra hur era e-postkampanjer har fungerat i förhållande till era viktigaste kundsegment och mäta deras påverkan på mottagare från ett och samma ställe.
 
-**Hantera dynamiska rapporter** tack vare olika funktioner: uppdatera data i realtid, skriva ut rapporter eller exportera dem som CSV-filer. Du kan också dela dina rapporter med Campaign Standarder via e-post med ett eller flera skott.
+**Hantera dynamiska rapporter** tack vare olika funktioner: uppdatera data i realtid, skriv ut rapporter eller exportera dem som CSV-filer. Du kan också dela dina rapporter med Campaign Standarder via e-post med ett eller flera skott.
 
 Läs mer:
 
 * [Om dynamiska rapporter](../../reporting/using/about-dynamic-reports.md)
 * [Rapporteringsgränssnitt](../../reporting/using/reporting-interface.md)
 
-## Skapa rapporter {#build-reports}
+## Bygg era rapporter {#build-reports}
 
 <img src="assets/do-not-localize/icon_build.svg" width="60px">
 
-Campaign Standarden innehåller en uppsättning **färdiga dynamiska rapporter** så att ni kan mäta flera olika aspekter av era marknadsföringskampanjer: studsar, leveranser som har deklarerats som mest som skräppost eller skräppost, de flesta visade leveranser från mottagare, kanalrelaterade rapporter, leveransflöde och spårningsrapporter...
+Campaign Standarden innehåller en uppsättning **färdiga dynamiska rapporter** kan ni mäta flera aspekter av era marknadsföringskampanjer: studsar, leveranser som har deklarerats som mest som skräppost eller skräppost, de flesta visade leveranser från mottagare, kanalrelaterade rapporter, leveransflöde och spårningsrapporter...
 
 **Kombinera olika komponenter** (mått, mätvärden och segment, tidsperioder) för att skapa egna rapporter eller personalisera färdiga rapporter.
 
@@ -55,15 +55,15 @@ Läs mer:
 * [Indikatorberäkning](../../reporting/using/indicator-calculation.md)
 * [Lista över rapporter](../../reporting/using/defining-the-report-period.md)
 
-## Anpassa rapporter {#customize-reports}
+## Anpassa dina rapporter {#customize-reports}
 
 <img src="assets/do-not-localize/icon_customize.svg" width="60px">
 
-**Anpassa rapporter** med funktioner för dynamisk rapportdesign: lägg till så många komponenter du behöver (paneler och frihandstabeller) för att analysera data med tillgängliga mått och mått.
+**Anpassa dina rapporter** genom att utnyttja funktioner för dynamisk rapportdesign: lägg till så många komponenter du behöver (paneler och frihandstabeller) för att analysera data med tillgängliga mätvärden och dimensioner.
 
 Dra och släpp **visualiseringsobjekt** för att lägga till grafiska representationer av dina data i dina rapporter och konfigurera dem efter behov.
 
-Skapa rapporter baserade på **anpassade profildata** som skapades under profilresurstillägget, och **rapporter baserade på segment** definieras i arbetsflöden för målinriktning.
+Skapa rapporter baserade på **anpassade profildata** som skapades under profilresurstillägget, och **rapporter baserade på segment** som definieras i arbetsflöden för målinriktning.
 
 Läs mer:
 
@@ -78,7 +78,7 @@ Läs mer:
 * [Exportera loggar](../../automating/using/exporting-logs.md)
 * [Om integrering av Campaign och Analytics](../../integrating/using/about-campaign-analytics-integration.md)
 
-## Videokurs {#video}
+## Självstudievideo {#video}
 
 Den här videon ger en översikt över Adobe Campaign Standard rapporteringsfunktioner.
 

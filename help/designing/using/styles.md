@@ -24,7 +24,7 @@ När du markerar ett element i e-postdesignern visas flera alternativ som är sp
 
 Om du vill välja ett element i e-postdesignerns gränssnitt kan du antingen:
 
-* klicka direkt i e-postmeddelandet,
+* klicka direkt i e-postmeddelandet
 * eller bläddra bland strukturträdet som finns bland alternativen till vänster **Palett**.
 
 ![](assets/des_tree_structure.png)
@@ -47,7 +47,7 @@ Se ett exempel i [det här avsnittet](#example--adjusting-vertical-alignment-and
 ## Justera formatinställningar {#adjusting-style-settings}
 
 1. Markera ett element i e-postmeddelandet. Mer information finns i [Markera ett element](#selecting-an-element).
-1. Justera inställningarna efter dina behov. Varje markerat element har olika inställningar.
+1. Justera inställningarna efter dina behov. För varje markerat element finns olika inställningar.
 
    Du kan infoga bakgrunder, ändra storlek, ändra vågrät eller lodrät justering, hantera färger, lägga till [utfyllnad eller marginal](#selecting-an-element)och så vidare.
 
@@ -61,7 +61,7 @@ Se ett exempel i [det här avsnittet](#example--adjusting-vertical-alignment-and
 
 I e-postdesignerns gränssnitt kan du snabbt justera utfyllnads- och marginalinställningar.
 
-**[!UICONTROL Padding]**: Med den här inställningen kan du hantera utrymmet som finns innanför elementets kant.
+**[!UICONTROL Padding]**: den här inställningen gör att du kan hantera utrymmet som finns innanför elementets kant.
 
 ![](assets/des_padding.png)
 
@@ -71,7 +71,7 @@ Exempel:
 * Använd utfyllnad upptill och nedtill för att lägga till mer avstånd i en **[!UICONTROL Text]** eller en **[!UICONTROL Divider]** -komponenten.
 * Om du vill ange kantlinjer mellan kolumner inuti ett strukturelement definierar du utfyllnad för varje kolumn.
 
-**[!UICONTROL Margin]**: Med den här inställningen kan du hantera mellanrummet mellan elementets kant och nästa element.
+**[!UICONTROL Margin]**: den här inställningen gör att du kan hantera mellanrummet mellan elementets kant och nästa element.
 
 ![](assets/des_margin.png)
 
@@ -85,17 +85,17 @@ För båda **[!UICONTROL Padding]** och **[!UICONTROL Margin]** klickar du på l
 
 ## Formatjustering {#about-alignment}
 
-* **Textjustering**: Placera markören på text och använd det sammanhangsberoende verktygsfältet för att justera den.
+* **Textjustering**: placera muspekaren på text och använd det sammanhangsberoende verktygsfältet för att justera den.
 
-   ![](assets/des_text_alignment.png)
+  ![](assets/des_text_alignment.png)
 
 * **Vågrät justering** kan användas på text, bilder och knappar - för närvarande inte på **[!UICONTROL Divider]** och **[!UICONTROL Social]** -komponenter.
 
-   ![](assets/des_horizontal_alignment.png)
+  ![](assets/des_horizontal_alignment.png)
 
 * Till **lodrät justering** markerar du en kolumn i en strukturkomponent och väljer ett alternativ i inställningspanelen.
 
-   ![](assets/des_set_vertical_alignment.png)
+  ![](assets/des_set_vertical_alignment.png)
 
 ## Ange bakgrunder {#about-backgrounds}
 
@@ -112,37 +112,37 @@ När det gäller att ange bakgrunder med e-postdesignern rekommenderar Adobe fö
 
 Nedan visas de tillgängliga bakgrundsinställningarna som du kan använda.
 
-* Ange en **[!UICONTROL Background color]** för hela e-postmeddelandet. Se till att du väljer brödtextinställningarna i navigeringsträdet som du kommer åt från den vänstra paletten.
+* Ange en **[!UICONTROL Background color]** för hela mejlet. Se till att du väljer brödtextinställningarna i navigeringsträdet som du kommer åt från den vänstra paletten.
 
-   ![](assets/des_background_body.png)
+  ![](assets/des_background_body.png)
 
 * Ange samma bakgrundsfärg för alla strukturkomponenter genom att markera **[!UICONTROL Viewport background color]**. Med det här alternativet kan du välja en annan inställning från bakgrundsfärgen.
 
-   ![](assets/des_background_viewport.png)
+  ![](assets/des_background_viewport.png)
 
 * Ange olika bakgrundsfärger för varje strukturelement. Välj en struktur i navigeringsträdet som du kommer åt från den vänstra paletten om du bara vill använda en viss bakgrundsfärg på den strukturen.
 
-   ![](assets/des_background_structure.png)
+  ![](assets/des_background_structure.png)
 
-   Se till att du inte anger någon bakgrundsfärg för visningsrutan eftersom den kan dölja strukturens bakgrundsfärger.
+  Se till att du inte anger någon bakgrundsfärg för visningsrutan eftersom den kan dölja strukturens bakgrundsfärger.
 
 * Ange en **[!UICONTROL Background image]** för innehållet i en strukturkomponent.
 
-   ![](assets/des_background_image.png)
+  ![](assets/des_background_image.png)
 
-   >[!NOTE]
-   >
-   >Vissa e-postprogram stöder inte bakgrundsbilder. Om alternativet inte stöds används radens bakgrundsfärg i stället. Se till att du väljer en lämplig bakgrundsfärg om bilden inte kan visas.
+  >[!NOTE]
+  >
+  >Vissa e-postprogram stöder inte bakgrundsbilder. Om alternativet inte stöds används radens bakgrundsfärg i stället. Se till att du väljer en lämplig bakgrundsfärg om bilden inte kan visas.
 
 * Ange en bakgrundsfärg på kolumnnivå.
 
-   ![](assets/des_background_column.png)
+  ![](assets/des_background_column.png)
 
-   >[!NOTE]
-   >
-   >Detta är det vanligaste användningsfallet. Adobe rekommenderar att du ställer in bakgrundsfärger på kolumnnivå eftersom detta ger större flexibilitet när du redigerar hela e-postinnehållet.
+  >[!NOTE]
+  >
+  >Detta är det vanligaste användningsfallet. Adobe rekommenderar att du ställer in bakgrundsfärger på kolumnnivå eftersom detta ger större flexibilitet när du redigerar hela e-postinnehållet.
 
-   Du kan också ange en bakgrundsbild på kolumnnivå, men den används sällan.
+  Du kan också ange en bakgrundsbild på kolumnnivå, men den används sällan.
 
 ### Exempel: justera lodrät justering och utfyllnad {#example--adjusting-vertical-alignment-and-padding}
 

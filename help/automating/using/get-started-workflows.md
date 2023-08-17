@@ -44,9 +44,9 @@ Arbetsflöden kan användas i olika sammanhang, till exempel:
 
 Det finns olika aktiviteter som du kan använda för att utforma arbetsflöden.
 
-[Verksamheter som riktar sig till](../../automating/using/about-targeting-activities.md) kan du skapa ett eller flera mål genom att definiera uppsättningar och dela eller kombinera dessa uppsättningar med hjälp av skärnings-, union- eller exkluderingsåtgärder.
+[Verksamheter som riktar sig till](../../automating/using/about-targeting-activities.md) gör att du kan skapa ett eller flera mål genom att definiera uppsättningar och dela eller kombinera dessa uppsättningar med hjälp av skärnings-, union- eller exkluderingsåtgärder.
 
-Med [Verksamhet](../../automating/using/about-execution-activities.md), samordna ditt arbetsflöde och dess aktiviteter, samtidigt som [Kanalaktiviteter](../../automating/using/about-channel-activities.md) kan ni kombinera Campaign Standard kommunikationskanaler för att skapa arbetsflöden för flera kanaler.
+Med [Verksamhet](../../automating/using/about-execution-activities.md), samordna ditt arbetsflöde och dess aktiviteter, samtidigt [Kanalaktiviteter](../../automating/using/about-channel-activities.md) kan ni kombinera Campaign Standard kommunikationskanaler för att skapa arbetsflöden för flera kanaler.
 
 Äntligen [Datahanteringsaktiviteter](../../automating/using/about-data-management-activities.md) kan du hantera data från din databas.
 
@@ -60,7 +60,7 @@ Läs mer:
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
-Utnyttja **frågeredigerare** för att filtrera data från databasen och bygga en population som bättre riktar sig till mottagarna. Frågeredigeraren är tillgänglig för att utföra flera åtgärder i Campaign Standarden: skapa målgrupper av frågetyper, definiera leveransmål eller populationer i arbetsflödesaktiviteter.
+Utnyttja **frågeredigerare** för att filtrera data från databasen och bygga en population som bättre riktar sig till mottagarna. Frågeredigeraren är tillgänglig för att utföra flera åtgärder i Campaign Standarden: skapa frågetypsmålgrupper, definiera leveransmål eller populationer i arbetsflödesaktiviteter.
 
 Frågeredigeraren har **fördefinierade filter och regler** för snabb och enkel filtrering. Du kan dock även använda **avancerad uttrycksredigering** funktioner. På så sätt kan du manuellt ange villkor och använda funktioner för att skapa egna regler.
 

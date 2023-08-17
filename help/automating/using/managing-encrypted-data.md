@@ -58,7 +58,7 @@ Så här utför du det här användningsfallet:
 
 1. I det externa systemet använder du den offentliga nyckel som hämtats från Kontrollpanelen för att kryptera de data som ska importeras till Campaign Standarden.
 
-1. Bygg ett arbetsflöde i Campaign Standard för att importera krypterade data och dekryptera dem med den privata nyckel som har installerats via Kontrollpanelen. Gör så här:
+1. Bygg ett arbetsflöde i Campaign Standard för att importera krypterade data och dekryptera dem med den privata nyckel som har installerats via Kontrollpanelen. Du kan göra detta genom att skapa ett arbetsflöde enligt följande:
 
    ![](assets/gpg_workflow.png)
 
@@ -97,11 +97,11 @@ Så här utför du det här användningsfallet:
 
    ![](assets/gpg_install.png)
 
-1. Bygg ett arbetsflöde i Campaign Standard för att exportera data och kryptera dem med den privata nyckel som har installerats via Kontrollpanelen. Gör så här:
+1. Bygg ett arbetsflöde i Campaign Standard för att exportera data och kryptera dem med den privata nyckel som har installerats via Kontrollpanelen. Du kan göra detta genom att skapa ett arbetsflöde enligt följande:
 
    ![](assets/gpg-workflow-export.png)
 
-   * **[!UICONTROL Query]** aktivitet: I det här exemplet vill vi köra en fråga för att rikta data från den databas som vi vill exportera.
+   * **[!UICONTROL Query]** aktivitet: I det här exemplet vill vi köra en fråga som mål för data från den databas som vi vill exportera.
    * **[!UICONTROL Extract file]** aktivitet: Krypterar och extraherar data till en fil.
    * **[!UICONTROL Transfer file]** aktivitet: Överför filen som innehåller krypterade data till en SFTP-server.
 

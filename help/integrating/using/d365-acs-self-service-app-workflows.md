@@ -34,7 +34,7 @@ Integreringsprogrammet har tre arbetsflöden:
 
 **Opt-In/Out**
 
-Opt-out-status (t.ex. blockeringslista) kan synkroniseras från Microsoft Dynamics 365 till Adobe Campaign eller från Adobe Campaign till Microsoft Dynamics 365. Data kan också synkroniseras dubbelriktat (dvs. dataflöden i båda riktningarna). [Läs mer](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
+Opt-out-status (t.ex. blocklist) kan synkroniseras från Microsoft Dynamics 365 till Adobe Campaign eller från Adobe Campaign till Microsoft Dynamics 365. Data kan också synkroniseras dubbelriktat (dvs. dataflöden i båda riktningarna). [Läs mer](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
 
 >[!IMPORTANT]
 >
@@ -46,15 +46,16 @@ Integreringsprogrammet läser först in data och skriver sedan data till målet.
 
 >[!NOTE]
 >Om dina Microsoft Dynamics 365- och/eller Campaign-poster inte uppdateras bör du först kontrollera om det finns ett stort antal poster som väntar på att skrivas till målet.
+>
 
 ## Arbetsflödesstatus {#workflow-status}
 
 The **[!UICONTROL Status]** -kolumnen anger läget för bakgrundsprocesserna som är kopplade till arbetsflödet. Möjliga värden är:
 
-* **KÖRS**: Processen körs och dina data bör synkroniseras.
-* **STOPPAD**: Processen körs inte just nu, så du bör inte förvänta dig att dina data ska synkroniseras.
+* **KÖRS**: Processen körs för närvarande och dina data bör synkroniseras.
+* **STOPPAD**: Processen körs inte för närvarande, så du bör inte förvänta dig att dina data ska synkroniseras.
 * **STARTAR**: Du har begärt att arbetsflödesprocesserna ska startas. Programmet har ännu inte börjat synkronisera data som är kopplade till arbetsflödet, men du kan förvänta dig det efter några minuter (när det sedan visas statusen för **KÖRS**)
-* **MISSLYCKADES**: Arbetsflödesprocesserna kördes men fel uppstod och de kunde inte återskapas från dessa.
+* **MISSLYCKAD**: Arbetsflödesprocesserna kördes men fel uppstod och de kunde inte återställas från dessa.
 
 ## Tillgängliga åtgärder
 
@@ -64,12 +65,12 @@ Möjliga åtgärder listas nedan.
 
 * **Starta**: En Start-knapp begär att ett stoppat arbetsflöde ska startas. Den här knappen visas endast när processerna som är kopplade till arbetsflödet har stoppats. Processerna ändras först till&quot;STARTING&quot; och sedan till&quot;RUNNING&quot;. De data som är associerade med arbetsflödet kommer inte att börja synkroniseras förrän arbetsflödet är i tillståndet &quot;RUNNING&quot;.
 
-   Startknappen är en växlingsknapp. Om arbetsflödesprocesserna redan har startats ändras knappen till **Stoppa** -knappen.
+  Startknappen är en växlingsknapp. Om arbetsflödet redan har startats ändras knappen till **Stoppa** -knappen.
 
 * **Stoppa**: A **Stoppa** begär att ett arbetsflöde som körs stoppas. Den här knappen visas endast när processerna som är kopplade till arbetsflödet körs.
 
 När du redigerar ett arbetsflöde införlivas dina uppdateringar INTE direkt i de processer som körs, förrän du avbryter arbetsflödet och sedan klickar på knappen **Starta** -knappen. Därefter ingår uppdateringarna i de processer som körs (när processen återgår till en **KÖRS** status).
 
-En varningsindikation läggs till i **Stoppa** för att tala om när (a) har uppdaterat arbetsflödet, men (b) inte har utfört ett stopp/start av det här arbetsflödet.
+En varningsindikation läggs till i **Stoppa** för att tala om när (a) har uppdaterat arbetsflödet, men (b) inte har utfört ett stopp/start av arbetsflödet.
 
 ![](assets/do-not-localize/d365-to-acs-icon-stop-with-changes.png)

@@ -112,7 +112,7 @@ Din andra övergång är nu också konfigurerad.
 
 ## Skapa leveranser {#creating-deliveries}
 
-När två övergångar redan har skapats måste du nu lägga till två typer av leveranser till de utgående övergångarna för segmenteringsaktiviteten: en [E-postleverans](../../automating/using/email-delivery.md) aktivitet och [SMS-leverans](../../automating/using/sms-delivery.md) aktivitet.
+När två övergångar redan har skapats måste du nu lägga till två typer av leveranser till de utgående övergångarna i segmenteringsaktiviteten: [E-postleverans](../../automating/using/email-delivery.md) aktivitet och [SMS-leverans](../../automating/using/sms-delivery.md) aktivitet.
 
 Med Adobe Campaign kan du lägga till leveranser i ett arbetsflöde. Det gör du genom att välja en leverans i **[!UICONTROL Channels]**-kategorin på aktivitetspaletten i arbetsflödet.
 

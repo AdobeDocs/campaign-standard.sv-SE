@@ -11,7 +11,7 @@ exl-id: 184bc656-2107-4380-9b35-148cb4380547
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '778'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -27,7 +27,7 @@ Microsoft Dynamics 365-autentiseringsuppgifterna ger integrationsprogrammet beh�
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-d365.png)
 
-* **[!UICONTROL Client ID]**: Lär dig hur du refererar till ditt klient-ID i [det här avsnittet](../../integrating/using/d365-acs-configure-d365.md#register-a-new-app)
+* **[!UICONTROL Client ID]**: Lär dig referera till ditt klient-ID i [det här avsnittet](../../integrating/using/d365-acs-configure-d365.md#register-a-new-app)
 
 * **[!UICONTROL Client Secret]**: Lär dig hur du genererar din klienthemlighet i [det här avsnittet](../../integrating/using/d365-acs-configure-d365.md#generate-a-client-secret)
 
@@ -45,7 +45,7 @@ I följande bild förklaras i detalj mappningen mellan Adobe I/O och inställnin
 
 * *Privat nyckel*: processen att definiera detta börjar med att klicka på knappen&quot;Generera offentlig/privat nyckelpar&quot;. Då skapas en zip-fil som du måste hämta. När du har laddat ned den packar du upp filen vilket resulterar i två filer med namnen certificate_pub.crt och private.key. Var noga med att placera private.key på en säker plats och dela den inte. Öppna filen private.key i en textredigerare. Kopiera hela värdet i textredigeraren (ctrl-A, sedan ctrl-C på en dator eller cmd-A och sedan cmd-C på en Mac). Detta ska inkludera raderna med&quot;BEGIN PRIVATE KEY&quot; och&quot;END PRIVATE KEY&quot; i sin helhet. Klistra in hela den här flerradiga texten i indata för &quot;Privat nyckel&quot; på inställningsskärmen.
 
-* *URL*: Det här värdet passar för mönstret https\://mc.adobe.io/&lt;campaign-instance-name>. Integreringsprogrammets huvud innehåller både&quot;Org&quot; och&quot;Instance&quot;. Delen&quot;campaign-instance-name&quot; i URL:en är bara det namn som finns i det här instansvärdet.
+* *URL*: Det här värdet passar mönstret /mc.adobe.io/&lt;campaign-instance-name>. Integreringsprogrammets huvud innehåller både&quot;Org&quot; och&quot;Instance&quot;. Delen&quot;campaign-instance-name&quot; i URL:en är bara det namn som finns i det här instansvärdet.
 
 ## Adobe Campaign SFTP-inställningar {#ac-smtp-settings}
 
@@ -56,6 +56,7 @@ Den andra anledningen till att konfigurera SFTP-servern är om du planerar att k
 >[!IMPORTANT]
 >
 >Du ansvarar för den information du får tillgång till och hämtar från SFTP-mapparna. Om informationen innehåller personuppgifter är du ansvarig för att följa gällande sekretesslagstiftning och -bestämmelser. [Läs mer](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy).
+>
 
 Du kan definiera inställningar för Campaign SFTP för Microsoft Dynamics 365-integreringen i följande avsnitt:
 
@@ -63,7 +64,7 @@ Du kan definiera inställningar för Campaign SFTP för Microsoft Dynamics 365-i
 
 Du måste ange:
 
-* **SFTP-värd**: det här fältet kommer att innehålla &lt;campaign-instance-name>.campaign.adobe.com. Integreringsprogrammets huvud innehåller båda **Org** och **Instance**. Delen&quot;campaign-instance-name&quot; i URL:en är bara det namn som finns i det här instansvärdet.
+* **SFTP-värd**: det här fältet innehåller &lt;campaign-instance-name>.campaign.adobe.com. Integreringsprogrammets huvud innehåller båda **Org** och **Instance**. Delen&quot;campaign-instance-name&quot; i URL:en är bara det namn som finns i det här instansvärdet.
 
 * **SFTP-användare**: Om du har SFTP-användaren lägger du till den här. Annars, se [det här avsnittet](#ac-control-panel-settings). Som en del av processen visas användarnamnet.
 
@@ -75,9 +76,9 @@ Du måste ange:
 
 ## SFTP-konfiguration i Adobe Campaign {#ac-control-panel-settings}
 
-Upptäck SFTP-hantering med [Kontrollpanelen för kampanj](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=sv) i dessa avsnitt:
+Upptäck SFTP-hantering med [Kampanjkontrollpanelen](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=sv) i dessa avsnitt:
 
-* [Om SFTP-hantering](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html#sftp-management)
+* [Om SFTP-hantering](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=sv#sftp-management)
 
 * [Hantera SFTP-lagring](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#installing-ssh-key)
 

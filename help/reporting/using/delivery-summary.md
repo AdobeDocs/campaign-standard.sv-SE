@@ -26,14 +26,14 @@ Varje tabell representeras av sammanfattande nummer och diagram. Du kan ändra h
 
 The **Leveransstatistik** tabellen innehåller de data som är tillgängliga för skickade e-postmeddelanden, som:
 
-* **[!UICONTROL Processed/sent]**: Det totala antalet försändelser för leveransen.
-* **[!UICONTROL Delivered]**: Antalet meddelanden som har skickats, i relation till det totala antalet skickade meddelanden. Fel som uppstår (studsar) beaktas. Klagomål (skräppostdeklarationer) och meddelanden som&quot;frånvaromeddelanden&quot; tas dock inte med i beräkningen.
-* **[!UICONTROL Bounces + Errors]**: Det totala antalet fel som har ackumulerats under leverans och automatisk returbehandling i förhållande till det totala antalet skickade meddelanden.
+* **[!UICONTROL Processed/sent]**: Det totala antalet sändningar för leveransen.
+* **[!UICONTROL Delivered]**: Antalet meddelanden som har skickats, i relation till det totala antalet skickade meddelanden. Fel som uppstår (studsar) beaktas. Klagomål (skräppostdeklarationer) och meddelanden som&quot;frånvaromeddelanden&quot; beaktas dock inte.
+* **[!UICONTROL Bounces + Errors]**: Det totala antalet fel som sammanställs under leverans och automatisk returbehandling i relation till det totala antalet skickade meddelanden.
 
 The **Öppna och klicka** tabellen innehåller tillgängliga data för mottagaraktivitet för varje leverans, som:
 
-* **Klicka**: Antalet gånger som ett innehåll klickades i en leverans.
-* **Öppna**: Antalet gånger ett meddelande öppnades i en leverans.
+* **Klicka**: Antal gånger som ett innehåll klickades i en leverans.
+* **Öppna**: Antal gånger ett meddelande öppnades i en leverans.
 * **Unika öppningar**: Antalet mottagare som öppnade leveransen.
 * **Unika klick**: Antalet mottagare som klickat på ett innehåll i en leverans.
 

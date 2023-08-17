@@ -22,7 +22,7 @@ Adobe Campaign Standard har stöd för följande användningsområden:
 * [Registrera en mobilprofil i Campaign Standarden](../../administration/using/supported-mobile-use-cases.md#register-mobile-profile)
 * [Skicka en push-token till Campaign Standarden](../../administration/using/supported-mobile-use-cases.md#send-push-token)
 * [Berika en mobilprofil med anpassade data från programmet](../../administration/using/supported-mobile-use-cases.md#enrich-mobile-profile-custom)
-* [Berika en mobilprofil med livscykeldata från programmet](../../administration/using/supported-mobile-use-cases.md#enrich-mobile-profile-lifecycle)
+* [Berika en mobilprofil med livscykeldata från ditt program](../../administration/using/supported-mobile-use-cases.md#enrich-mobile-profile-lifecycle)
 * [Spåra användarinteraktion med push-meddelanden](../../administration/using/supported-mobile-use-cases.md#track-user-push)
 * [Implementera en anpassad händelse i din mobilapp för att utlösa meddelanden i appen](../../administration/using/supported-mobile-use-cases.md#custom-event-inapp)
 * [Ange länkningsfält för ytterligare autentisering för profilmallen som är baserad på meddelanden i appen](../../administration/using/supported-mobile-use-cases.md#linkage-fields-inapp)
@@ -37,7 +37,7 @@ För att konfigurera dessa användningsfall behöver du följande tillägg:
 
 ### Med iOS {#register-mobile-profile-ios}
 
-I iOS [!DNL Experience Platform APIs] krävs:
+I IOS [!DNL Experience Platform APIs] krävs:
 
 * **[!UICONTROL Lifecycle Start]**, när appen startas och när appen finns i förgrunden.
 * **[!UICONTROL Lifecycle Pause]**, när programmet finns i bakgrunden.
@@ -110,7 +110,7 @@ public void onResume() {
 
 ### Med iOS {#send-push-token-ios}
 
-I iOS [!DNL Experience Platform SDK] krävs:
+I IOS [!DNL Experience Platform SDK] krävs:
 
 * **[!UICONTROL setPushIdentifier]** <br>Mer information finns i [setPushIdentifier](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/).
 
@@ -145,7 +145,7 @@ För att detta ska fungera måste du skapa regler för PII-återanslående. Mer 
 
 ### Med iOS {#enrich-mobile-profile-custom-ios}
 
-I iOS [!DNL Experience Platform API] krävs:
+I IOS [!DNL Experience Platform API] krävs:
 
 * collectPII <br> Mer information finns i collectPII.
 
@@ -172,7 +172,7 @@ data.put("email", emailText);
 MobileCore.collectPii(data);
 ```
 
-## Berika en mobilprofil med livscykeldata från programmet {#enrich-mobile-profile-lifecycle}
+## Berika en mobilprofil med livscykeldata från ditt program {#enrich-mobile-profile-lifecycle}
 
 För att detta ska fungera måste du skapa regler för PII-återanslående. Mer information finns i [PII-eftersläpningar](../../administration/using/configuring-rules-launch.md#pii-postback).
 
@@ -182,7 +182,7 @@ För att detta ska fungera måste du skapa regler för PII-återanslående. Mer 
 
 ### Med iOS {#enrich-mobile-profile-lifecycle-ios}
 
-I iOS [!DNL Experience Platform APIs] krävs:
+I IOS [!DNL Experience Platform APIs] krävs:
 
 * **[!UICONTROL Lifecycle Start]**, när appen startas och när appen finns i förgrunden.
 * **[!UICONTROL Lifecycle Pause]**, när programmet finns i bakgrunden.
@@ -257,7 +257,7 @@ Du måste skapa regler för push-meddelanden som spårar återanslående. Mer in
 
 ### Med iOS {#track-user-push-ios}
 
-I iOS [!DNL Experience Platform SDK] krävs:
+I IOS [!DNL Experience Platform SDK] krävs:
 
 * **[!UICONTROL trackAction]**. Mer information finns i [Spåra appåtgärder](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
 
@@ -291,7 +291,7 @@ MobileCore.trackAction("tracking", contextData);
 
 ### Med iOS {#custom-event-inapp-ios}
 
-I iOS [!DNL Experience Platform SDK] krävs:
+I IOS [!DNL Experience Platform SDK] krävs:
 
 * **[!UICONTROL trackAction]**. Mer information finns i [Spåra appåtgärder](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
 

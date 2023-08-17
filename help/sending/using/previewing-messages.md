@@ -61,7 +61,7 @@ Så här förhandsgranskar du ett SMS-meddelande med testprofiler:
 
    ![](assets/sms_preview.png)
 
-1. När du har anpassat innehållet klickar du på **[!UICONTROL Create]** för att komma åt **[!UICONTROL Summary]** -fönstret.
+1. När du har anpassat innehållet klickar du **[!UICONTROL Create]** för att komma åt **[!UICONTROL Summary]** -fönstret.
 
 1. Från **[!UICONTROL Summary]** fönster, klicka **[!UICONTROL Content]** för att förhandsgranska materialet.
 

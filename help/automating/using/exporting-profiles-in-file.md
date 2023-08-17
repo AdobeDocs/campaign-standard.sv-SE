@@ -38,14 +38,14 @@ Målet med detta arbetsflödet är att exportera en lista med profiler i form av
 
    * CSV-utmatningsformat
 
-      ![](assets/wkf_data_export7.png)
+     ![](assets/wkf_data_export7.png)
 
    * Datumformat
 
-      ![](assets/wkf_data_export9.png)
+     ![](assets/wkf_data_export9.png)
 
 1. Bekräfta din aktivitet.
-1. Dra och släpp en [Överföringsfil](../../automating/using/transfer-file.md) efter **[!UICONTROL Extract file]** aktivitet för att återställa extraheringsfilen på ett externt konto.
+1. Dra och släpp en [Överföringsfil](../../automating/using/transfer-file.md) aktivitet efter **[!UICONTROL Extract file]** aktivitet för att återställa extraheringsfilen på ett externt konto.
 1. Öppna aktiviteten och välj **[!UICONTROL File upload]**-åtgärden.
 
    ![](assets/wkf_data_export11.png)

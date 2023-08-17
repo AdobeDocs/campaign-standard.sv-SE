@@ -172,7 +172,7 @@ ht-degree: 1%
                         <li>Ospecificerad - okänd - 0</li>
                         <li>Man - man - man - 1</li>
                         <li>Kvinna - kvinna - 2</li>
-                        <li>OGILTIGT VÄRDE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -243,7 +243,7 @@ ht-degree: 1%
                   <td> </td>
                </tr>
                <tr>
-                  <td>hälsning</td>
+                  <td>hälsningsfras</td>
                   <td>Titel</td>
                   <td>sträng (20)</td>
                   <td> </td>
@@ -285,7 +285,7 @@ ht-degree: 1%
                         <li>(GMT-10.00) Hawai - Pacific_Honolulu - Pacific/Honolulu</li>
                         <li>(GMT+04.00) Baku - Asien_Baku - Asien/Baku</li>
                         <li>(GMT+10.00) Vladivostok - Asien_Vladivostok - Asien/Vladivostok</li>
-                        <li>(GMT+09.00) Söul - Asien_Söul - Asien/Söul</li>
+                        <li>(GMT+09.00) Söul - Asien_Seoul - Asien/Söul</li>
                         <li>(GMT+01.00) Sarajevo, Skoplje, Sofia, Warszawa, Zagreb - Europe_Sarajevo - Europa/Sarajevo</li>
                         <li>(GMT+04.00) Abu Dhabi, Muscat - Asia_Muscat - Asien/Muscat</li>
                         <li>(GMT+08.00) Kuala Lumpur, Singapore - Asien_Kuala_Lumpur - Asien/Kuala_Lumpur</li>
@@ -322,7 +322,7 @@ ht-degree: 1%
                         <li>(GMT+12.00) Fidji - Pacific_Fiji - Stilla havet/Fiji</li>
                         <li>(GMT+02.00) Aten, Istanbul, Minsk - Europa_Aten - Europa/Aten</li>
                         <li>(GMT+04.00) Tbilissi - Asien_Tbilisi - Asien/Tbilisi</li>
-                        <li>OGILTIGT VÄRDE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                         <li>(GMT+05:45) Katmandu - Asien_Katmandu - Asien/Katmandu</li>
                         <li>(GMT-05:00) Indiana (östra) - America_Indianapolis - Amerika/Indianapolis</li>
                         <li>(GMT-01:00) Kap Verde-öarna - Atlanten_Kap Verde - Atlanten/Kap Verde</li>
@@ -333,12 +333,12 @@ ht-degree: 1%
                         <li>(GMT+02.00) Kairo - Afrika_Kairo - Afrika/Kairo</li>
                         <li>(GMT+05.00) Iekaterinburg - Asien_Jekaterinburg - Asien/Jekaterinburg</li>
                         <li>(GMT+08.00) Irkoutsk - Asien_Irkutsk - Asien/Irkutsk</li>
-                        <li>(GMT+10.00) Guam, Port Moresby - Pacific_Guam - Pacific/Guam</li>
+                        <li>(GMT+10.00) Guam, Port Moresby - Pacific_Guam - Stilla havet/Guam</li>
                         <li>(GMT-04.00) Atlantic, normaltid (Kanada) - America_Halifax - America/Halifax</li>
                         <li>(GMT) Greenwich, medeltid - GMT - GMT</li>
                         <li>Standard - ingen - ingen</li>
                         <li>(GMT-04.00) La Paz - America_La_Paz - America/La_Paz</li>
-                        <li>(GMT-06:00) Guadalajara, Mexico, Monterrey - America_Mexico_City - Amerika/Mexico_City</li>
+                        <li>(GMT-06:00) Guadalajara, Mexico, Monterrey - America_Mexico_City - America/Mexico_City</li>
                         <li>(GMT+09.30) Darwin - Australia_Darwin - Australien/Darwin</li>
                         <li>(GMT-05:00) Est (USA och Kanada) - America_New_York - America/New_York</li>
                         <li>(GMT-05:00) Greenwich Mean Time minus 5 timmar - Gmt_m5 - ETC/GMT+5</li>
@@ -357,7 +357,7 @@ ht-degree: 1%
                         <li>(GMT+07.00) Greenwich Mean Time plus 7 timmar - Gmt_p7 - ETC/GMT-7</li>
                         <li>(GMT+06.00) Greenwich Mean Time plus 6 timmar - Gmt_p6 - ETC/GMT-6</li>
                         <li>(GMT+01:00) Greenwich Mean Time plus 1 timme - Gmt_p1 - ETC/GMT-1</li>
-                        <li>(GMT-08.00) Stilla havet (USA och Kanada) - America_Los Angeles - America/Los Angeles</li>
+                        <li>(GMT-08:00) Stilla havet (USA och Kanada) - America_Los Angeles - America/Los Angeles</li>
                         <li>(GMT+02.00) Greenwich Mean Time plus 2 timmar - Gmt_p2 - ETC/GMT-2</li>
                         <li>(GMT+07.00) Krasnoïarsk - Asien_Krasnojarsk - Asien/Krasnojarsk</li>
                         <li>(GMT+09.00) Greenwich Mean Time plus 9 timmar - Gmt_p9 - ETC/GMT-9</li>
@@ -369,7 +369,7 @@ ht-degree: 1%
                         <li>(GMT-07:00) Rocky Mountains (USA och Kanada) - America_Denver - Amerika/Denver</li>
                         <li>(GMT+01.00) Centralafrika - Väst - Afrika_Luanda - Afrika/Luanda</li>
                         <li>(GMT+02.00) Helsingfors, Kiev, Riga, Sofia, Tallinn, Vilnius - Europe_Helsingfors - Europa/Helsingfors</li>
-                        <li>(GMT) Greenwich Mean Time: Dublin, Edinburgh, Lissabon - London - Europa_London - Europa/London</li>
+                        <li>(GMT) Greenwich Mean Time: Dublin, Edinburgh, Lissabon, London - Europa_London - Europa/London</li>
                         <li>(GMT-07.00) Arizona - America_Phoenix - America/Phoenix</li>
                         <li>(GMT+02.00) Beirut - Asien_Beirut - Asien/Beirut</li>
                         <li>(GMT+04.30) Kabul - Asien_Kabul - Asien/Kabul</li>

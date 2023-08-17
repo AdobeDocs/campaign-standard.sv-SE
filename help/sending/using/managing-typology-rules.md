@@ -67,7 +67,7 @@ I standarddriftsläget används reglerna i följande sekvens:
 1. Kontrollregler, om de tillämpas i början av målinriktningen.
 1. Filtreringsregler:
 
-   * Interna ansökningsregler för adresskvalifikation: angiven adress/overifierad adress/adress på blockeringslista/i karantän adress/adresskvalitet.
+   * Interna ansökningsregler för adresskvalifikation: definierad adress/ej verifierad adress/adress på blockeringslista/adress i karantän/adresskvalitet.
    * Filtreringsregler som definieras av användaren.
 
 1. Kontrollregler, om de tillämpas när målinriktningen är slut.

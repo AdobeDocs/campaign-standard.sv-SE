@@ -47,15 +47,15 @@ ht-degree: 6%
 * I utsändningarna görs nu en skillnad mellan det maximala antalet anslutningar och det maximala antalet meddelanden per timme. När gränserna nås är det sedan möjligt att veta varför genomströmningen är begränsad. Tidigare gällde samma meddelande (&quot;kvoten uppfylldes&quot;) i båda fallen.
 * När du konfigurerar ett mobilprogram i Campaign kan användaren nu veta om iOS-certifikatet och Android-servernyckeln har överförts och deras förfallodatum.
 
-   Mer information finns i den detaljerade dokumentationen om hur du konfigurerar ett mobilprogram med [SDK V4](https://helpx.adobe.com/se/campaign/kb/configuring-app-sdkv4.html) och [SDK V5](https://helpx.adobe.com/se/campaign/kb/configuring-app-sdk.html).
+  Mer information finns i den detaljerade dokumentationen om hur du konfigurerar ett mobilprogram med [SDK V4](https://helpx.adobe.com/se/campaign/kb/configuring-app-sdkv4.html) och [SDK V5](https://helpx.adobe.com/se/campaign/kb/configuring-app-sdk.html).
 
 * Rikta användarna mot en viss mobilapp genom att välja en mobilapp när du definierar Campaign-egenskaperna. Den här funktionen är till för både push- och In-App Messaging-kanaler.
 
-   Mer information finns i den [detaljerade dokumentationen](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification).
+  Mer information finns i den [detaljerade dokumentationen](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification).
 
 * När du väljer ett innehållsblock med hjälp av gränssnittet i Creative Designer, läses alla innehållsblock in och visas. (CAMP-27311)
 
-   Mer information finns i [detaljerad dokumentation](../../designing/using/personalization.md#adding-a-content-block).
+  Mer information finns i [detaljerad dokumentation](../../designing/using/personalization.md#adding-a-content-block).
 
 **Korrigeringar**
 
@@ -69,7 +69,7 @@ ht-degree: 6%
 * Korrigerade ett fel med inläsningsfilaktiviteten som förhindrade arbetsflöden från att importera filer (CAMP-27068).
 * Korrigerade ett problem som visade fel antal prenumerationer i servicesammanfattningsrapporterna (CAMP-25587).
 * Korrigerade ett problem med datavalsavvikelser mellan Adobe Analytics- och Adobe Campaign-rapporter. (CAMP-25393)
-* Ett problem som kunde förhindra en begränsad användare från att logga in har åtgärdats. (CAMP-27381)
+* Korrigerade ett problem som kunde förhindra en begränsad åtkomstanvändare från att logga in. (CAMP-27381)
 * Korrigerade ett problem som kunde förhindra att listan med Adobe Experience Manager-innehåll visas när du redigerade ett e-postmeddelande med Creative Designer. (CAMP-27181)
 * Ett problem som kunde förhindra att Creative Designer öppnades har korrigerats och orsakat ett fel. (CAMP-27304)
 * Ett problem som gjorde att dra och släpp inte fungerade korrekt i Creative Designer när Internet Explorer 11 användes har åtgärdats.
@@ -124,13 +124,13 @@ ht-degree: 6%
 
 * Tidsgränsen för rapportdelning har ökat från en till fyra minuter för att undvika timeout-fel.
 * När du redigerar innehållet i ett e-postmeddelande öppnas det nya Creative Designer som standard. Om du vill kan du när som helst gå tillbaka till standardredigeraren för innehåll när du har sparat ändringarna. Mer information finns i [detaljerad dokumentation](../../designing/using/designing-content-in-adobe-campaign.md).
-* I Creative Designer kan en ny innehållskomponent nu läggas till i ett e-postmeddelande: Carousel. Mer information finns i [detaljerad dokumentation](../../designing/using/designing-from-scratch.md#about-content-components).
+* I Creative Designer kan nu en ny innehållskomponent läggas till i ett e-postmeddelande: karusellen. Mer information finns i [detaljerad dokumentation](../../designing/using/designing-from-scratch.md#about-content-components).
 * I ett transaktionsmeddelande klickar du på rapporten när du klickar på **Ändra profil** finns nu bara de testprofiler som är länkade till den händelse som du har definierat för ditt transaktionsmeddelande med.
 
 **Korrigeringar**
 
 * Ett problem med byEmail-frågefiltret som inte returnerade några resultat har korrigerats. (CAMP-23420)
-* Ett problem som gjorde att en standardanvändare kunde komma åt vissa funktioner eller skärmar som var begränsade till administratörer (/rest/head/) har åtgärdats&#42; slutpunkter, transaktionsmeddelandeskärmar, profiler och målgrupper (importskärmar).
+* Ett problem som gjorde att en standardanvändare kunde komma åt vissa funktioner eller skärmar som var begränsade till administratörer (/rest/head/&#42; slutpunkter, transaktionsmeddelanden, profiler och målgrupper (importskärmar).
 * Korrigerade ett problem som förhindrade begäran om borttagning av sekretess i GDPR från bearbetning av anpassade resurser om deras namn startades med ett nummer.
 * Korrigerade ett fel som förhindrade aktiviteten Spara publik från att dela programprenumeranter i Adobe Experience Cloud.
 * Korrigerade ett problem med filöverföringsaktiviteten som kunde inträffa när filnamnet innehöll blanksteg. (CAMP-25936)
@@ -147,7 +147,7 @@ ht-degree: 6%
 
 **Förbättringar**
 
-* The **[!UICONTROL History]** API har lagts till i Adobe.IO. Det ger dig åtkomst till information som rör en profils marknadsföringshistorik: antal kontaktytor, skickade leveranser, URL för spegelsida osv. Mer information finns i [specialfall](../../api/using/interacting-with-marketing-history.md) .
+* The **[!UICONTROL History]** API har lagts till i Adobe.IO. Det gör att du kan komma åt information som rör en profils marknadsföringshistorik: antal kontaktytor, skickade leveranser, URL för spegelsida osv. Mer information finns i [specialfall](../../api/using/interacting-with-marketing-history.md) .
 * The **[!UICONTROL Database cleanup]** det tekniska arbetsflödet har optimerats för att säkerställa bättre prestanda vid säkerhetskopiering av databaser.
 * Creative Designer for Email finns nu även på franska och tyska.
 
@@ -157,9 +157,9 @@ ht-degree: 6%
 * I **Uppdatering för leverans** direkt i det tekniska arbetsflödet kan nu funktionsadministratörer definiera antalet på varandra följande fel som ska ignoreras i **Uppdatera regler** javascript-aktivitet. Som standard är fältvärdet inställt på 0, vilket innebär att alla fel ignoreras.
 * Den SQL som genererades när villkoren för enhetsåtkomstbegränsning hanterades har optimerats.
 * The **[!UICONTROL Update]** Nu kan du lägga till, uppdatera eller ta bort data för prenumerationer (tabellen nms:appSubscriptionRcp).
-* The **[!UICONTROL Update delivery execution]** det tekniska arbetsflödet har delats upp i två arbetsflöden för att optimera prestanda: - **[!UICONTROL Update delivery execution]**: uppdaterar leveransspårningen. Den startas var 10:e minut som standard. **[!UICONTROL Update delivery indicators]**: uppdaterar leveransens KPI:er. Den startas som standard varje timme. Mer information om tekniska arbetsflöden finns i [section](../../administration/using/technical-workflows.md#list-of-technical-workflows).
-* När en leverans skickar meddelanden, statusvärdet i **[!UICONTROL Deployment]** -avsnittet kan nu ha två värden: **[!UICONTROL Sending]**: meddelanden skickas. **[!UICONTROL Sending (retry)]**: ett återförsökspass pågår.
-* Användare med **[!UICONTROL Delivery preparation]** kan nu skicka korrektur. (CAMP-24313)
+* The **[!UICONTROL Update delivery execution]** det tekniska arbetsflödet har delats upp i två arbetsflöden för att optimera prestanda: - **[!UICONTROL Update delivery execution]**: uppdaterar leveransspårningen. Den startas var 10:e minut som standard. **[!UICONTROL Update delivery indicators]**: uppdaterar leveransens KPI:er, den startas som standard varje timme. Mer information om tekniska arbetsflöden finns i [section](../../administration/using/technical-workflows.md#list-of-technical-workflows).
+* När en leverans skickar meddelanden, statusvärdet i **[!UICONTROL Deployment]** -avsnittet kan nu ha två värden: **[!UICONTROL Sending]**: meddelandena skickas. **[!UICONTROL Sending (retry)]**: ett återförsökspass pågår.
+* Användare med **[!UICONTROL Delivery preparation]** rollerna kan nu skicka korrektur. (CAMP-24313)
 * The **Aktivera TLS över SMPP** har lagts till i **SMS-routning via SMPP** externt konto. Mer information om detta finns i [section](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
 
 **Korrigeringar**
@@ -205,8 +205,8 @@ ht-degree: 6%
    <td> Tillägget Leveransloggar<br /> </td> 
    <td> Med tillägget Leveransloggar kan du utöka skickade loggar med profildata och segmentkod som kommer från arbetsflöden. Den här informationen kan sedan användas i dynamiska rapporter, och du kan spara en ögonblicksbild av viss information när du skickar en leverans.<br /> Det finns ytterligare två användningsområden:<br /> 
     <ul> 
-     <li> Exportera utökade sändningsloggar med "frysta" data: Som marknadsförare vill jag exportera alla profiler där segmentkoden är lika med"A" (kommer från arbetsflödesmotorn). </li> 
-     <li> Segmentering av "frysta" data: Som marknadsförare vill jag <strong>återmål</strong> alla profiler som har vunnit 1000 förmånspoäng sedan den senaste sändningen eller där segmentkoden var lika med"A". </li> 
+     <li> Exportera utökade sändningsloggar med "frysta" data: som marknadsförare vill jag exportera alla profiler där segmentkoden är lika med "A" (kommer från arbetsflödesmotorn). </li> 
+     <li> Segmentering på "frysta" data: som marknadsförare vill jag <strong>återmål</strong> alla profiler som har vunnit 1000 förmånspoäng sedan den senaste sändningen eller där segmentkoden var lika med"A". </li> 
     </ul> Mer information finns i den <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
   <tr> 
@@ -228,13 +228,13 @@ ht-degree: 6%
 * AWS S3 externa konton har nu stöd för regioner och autentiseringsmekanismen version 4. Se [detaljerad dokumentation](../../administration/using/external-accounts.md).
 * Fönstret för val av resurs bör nu läsas in snabbare så att du kan välja en resurs och sedan stänga fönstret utan något problem.
 * Egenskaperna och strukturen för de tekniska arbetsflödena kan nu ändras av användare med administrationsbehörighet och som tillhör den organisatoriska och geografiska enheten&quot;Alla&quot;.
-* Förbättringar har gjorts i segmenteringsaktivitetsgränssnittet när nya segment skapas: Fliken Begränsning visas nu direkt när du har lagt till en begränsning. Namnen på de nya segmenten ökas nu stegvis (&quot;Segment 1&quot;, &quot;Segment 2&quot; osv.).
+* Förbättringar har gjorts i segmenteringsaktivitetsgränssnittet när nya segment skapas: Fliken Begränsning visas nu direkt efter att en begränsning har lagts till. Namnen på de nya segmenten ökas nu stegvis (&quot;Segment 1&quot;, &quot;Segment 2&quot; osv.).
 * Fältet &quot;nextProcessingDate&quot; läggs till i arbetsflödesresursen. Det här fältet är bara synligt via REST API-anrop, vilket gör att du kan visualisera arbetsflöden vid nästa bearbetningsdatum.
 * Fältet &quot;sourceId&quot; visas nu i spårningsloggresursen (nms:trackingLog).
 * Värdena&quot;Totalt antal öppningar&quot; och&quot;Totalt antal klick&quot; kan nu exporteras i en platt fil via ett arbetsflöde. (CAMP-24186)
 * &quot;Engelska - Danmark&quot; finns nu i listan över önskade språk i profiler. (CAMP-23728)
 * När du använder en segmenteringsaktivitet med en Additional data-länk (targetData) visas nu ett meddelande om att data inte är tillgängliga utanför arbetsflödet. Det här meddelandet visas när du klickar på knappen Antal eller Förhandsvisa i segmenteringsaktiviteten. (CAMP-23651)
-* Förbättringar har gjorts för att optimera det diskutrymme som används i arbetsflöden: (CAMP-21979): Filerna som bearbetas av aktiviteten Läs in fil tas nu bort som standard. Med ett alternativ kan du behålla dem för specifika behov. När ett arbetsflöde tas bort undertrycks dess dedikerade mapp automatiskt från serverkatalogen.
+* Förbättringar har gjorts för att optimera det diskutrymme som används i arbetsflöden: (CAMP-21979): De filer som bearbetas av aktiviteten Läs in fil tas nu bort som standard. Med ett alternativ kan du behålla dem för specifika behov. När ett arbetsflöde tas bort undertrycks dess dedikerade mapp automatiskt från serverkatalogen.
 
 **Korrigeringar**
 
@@ -259,7 +259,7 @@ ht-degree: 6%
 
 _Plattform_
 
-* Korrigerade ett fel som kunde förhindra att GDPR-begäranden om åtkomst eller borttagning bearbetades korrekt. Detta beteende har observerats i vissa sällsynta fall där extraherade data innehöll ett av följande tecken: &amp; &lt; > &quot;.
+* Korrigerade ett fel som kunde förhindra att GDPR-begäranden om åtkomst eller borttagning bearbetades korrekt. Detta beteende har observerats i vissa sällsynta fall där extraherade data innehöll ett av följande tecken: &amp; &lt; > &quot; &#39;.
 
 _E-post, SMS-meddelanden och direktreklam_
 
@@ -295,8 +295,8 @@ _Anpassade resurser_
    <td> EU:s allmänna dataskyddsförordning (GDPR)<br /> </td> 
    <td> GDPR är EU:s (EU) nya integritetslagstiftning som harmoniserar och moderniserar dataskyddskraven som träder i kraft den 25 maj 2018. GDPR gäller för Adobe Campaign-kunder som innehar uppgifter för registrerade personer som bor i EU.<br /> Förutom de sekretessfunktioner som redan finns i Adobe Campaign (inklusive samtyckeshantering, datalagringsinställningar och användarroller) tar vi denna möjlighet i vår roll som dataprocessor att inkludera ytterligare funktioner för att underlätta din beredskap som Data Controller för vissa GDPR-förfrågningar:<br /> 
     <ul> 
-     <li> Åtkomst: ger den registrerade möjlighet att få en kopia av sina personuppgifter som samlats in av personuppgiftsansvariga, inklusive data som lagrats i Adobe Campaign. </li> 
-     <li> Höger att ta bort: ger den registrerade rätt att få sina personuppgifter som samlats in av personuppgiftsansvariga raderade, inklusive data som lagrats i Adobe Campaign. </li> 
+     <li> Åtkomst: ger den registrerade möjlighet att få en kopia av sina personuppgifter som samlats in av personuppgiftsansvariga, inklusive uppgifter som lagrats i Adobe Campaign. </li> 
+     <li> Rätt att radera: ger den registrerade rätt att radera sina personuppgifter som registrerats av personuppgiftsansvariga, inklusive uppgifter som lagrats i Adobe Campaign. </li> 
     </ul> Mer information finns i den <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
   <tr> 
@@ -306,12 +306,12 @@ _Anpassade resurser_
      <li> Designa och skapa personaliserade, responsiva e-postmeddelanden visuellt via ett dra-och-släpp-gränssnitt, utökat av integrering med Creative Cloud </li> 
      <li> Skapa och spara en mall för e-postinnehåll och utnyttja sparade mallar för att skalförändra e-postgenereringen </li> 
      <li> Skapa och spara innehållsfragment (t.ex. sidhuvud, sidfot, artikel) effektivisera framtagning av innehåll och säkerställa varumärkets enhetlighet </li> 
-     <li> Växla smidigt mellan att skapa i dra-och-släpp-gränssnittet och redigera direkt HTML i ett e-postmeddelande med en enkel musklickning </li> 
-    </ul> Creative Designer for Email finns endast på engelska.<br /> Mer information finns i <a href="../../designing/using/designing-content-in-adobe-campaign.md">detaljerad dokumentation</a> och se detta <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">video</a>.<br /> </td> 
+     <li> Växla smidigt mellan att skapa i dra-och-släpp-gränssnittet och redigera direkt HTML i ett mejl med en enkel musklickning </li> 
+    </ul> Creative Designer for Email finns endast på engelska.<br /> Mer information finns i <a href="../../designing/using/designing-content-in-adobe-campaign.md">detaljerad dokumentation</a> och se det här <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">video</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Flerspråkiga push-leveranser<br /> </td> 
-   <td> Samma enkla flerspråkiga gränssnitt, som redan finns i e-post- och SMS-kanalerna, har lagts till i Push-kanalen och hjälper er att engagera kunderna oavsett vilket språk de föredrar.<br /> Den här funktionen erbjuder en skalbar och automatisk lösning för kunder som hanterar push-kampanjer i flera regioner och vill rikta sig till användare på det språk de föredrar. Du kan ladda upp alla språkliga varianter via ett kalkylblad till en enda push-leverans med ett enda klick. Adobe Campaign utför sedan en automatisk segmentering baserat på användarnas språkinställningar, vilket minskar redundansen genom att förenkla arbetsflödena och rapporteringen.<br /> Mer information finns i den <a href="../../channels/using/creating-a-multilingual-push-notification.md">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Samma enkla flerspråkiga gränssnitt, som redan finns i e-post- och SMS-kanalerna, har lagts till i Push-kanalen och hjälper er att engagera kunderna oavsett vilket språk de föredrar.<br /> Den här funktionen erbjuder en skalbar och automatisk lösning för kunder som hanterar push-kampanjer i flera regioner och vill rikta sig till användare på det språk de föredrar. Du kan ladda upp alla språkliga varianter via ett kalkylblad till en enda push-leverans med ett enda klick. Adobe Campaign utför sedan en automatisk segmentering baserat på användarnas språkinställningar, vilket minskar redundansen genom enklare arbetsflöden och rapportering.<br /> Mer information finns i den <a href="../../channels/using/creating-a-multilingual-push-notification.md">detaljerade dokumentationen</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Användning av anpassade resurser i transaktionsmeddelanden<br /> </td> 
@@ -341,7 +341,7 @@ _E-post, SMS-meddelanden och direktreklam_
 * Ett problem som kan orsaka bildåtergivningsproblem vid redigering av innehållet i en leverans har åtgärdats.
 * Ett problem med korrektur när en kampanj duplicerades har korrigerats.
 * Korrigerade ett problem som ledde till ett felmeddelande när en kampanjmall öppnades via navigeringsfältet efter att en leverans lagts till i arbetsflödet.
-* Korrigerade ett problem som kunde förhindra att vinnaren av ett A/B-testmeddelande valdes automatiskt, vilket ledde till att e-postmeddelandet inte skickades. Det här beteendet kan inträffa om leveransen **[!UICONTROL retryInProgress]** tillstånd.
+* Korrigerade ett problem som kunde förhindra att vinnaren av ett A/B-testmeddelande valdes automatiskt, vilket ledde till att e-postmeddelandet inte skickades. Detta beteende kan inträffa om leveransen **[!UICONTROL retryInProgress]** tillstånd.
 * Korrigerade ett problem som kunde leda till att ett felmeddelande visades när parametrarna för ett A/B-testmeddelande öppnades igen.
 
 _Målgrupper och frågor_
@@ -353,7 +353,7 @@ _Arbetsflöden_
 
 * The **Fakturering** arbetsflödet har optimerats för att förbättra leveransens förberedelsefördröjning.
 * Korrigerade ett problem som förhindrade att populationsdata visades i en utgående övergång när en återkommande leveransaktivitet användes.
-* Korrigerat ett problem som förhindrade att avvisade poster visades i en övergång efter en **Uppdatera data** aktivitet.
+* Ett problem har korrigerats som förhindrade att avvisande poster visades i en övergång efter en **Uppdatera data** aktivitet.
 * Ett problem som kunde orsaka **deliverabilityUpdate** tekniska arbetsflöden som misslyckas.
 
 _Integreringar_
@@ -461,7 +461,7 @@ Vissa problem kan uppstå när sammanhangsberoende hjälplänkar från gränssni
      <li> hämta bilder eller andra mediefiler och lägga till dem som bilagor i ett meddelande </li> 
      <li> ändra brödtexten eller rubriktexten i ett meddelande </li> 
      <li> lägga till en trådidentifierare i ett meddelande </li> 
-    </ul> Mer information om innehåll finns i <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">detaljerad dokumentation</a>.<br /> <strong>Varning:</strong> dessa uppdateringar i push-meddelanden kräver att kunderna uppgraderar sina mobilappar. Se <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html">den här tekniken</a> för mer information.<br /> </td> 
+    </ul> Mer information om innehåll finns i <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">detaljerad dokumentation</a>.<br /> <strong>Varning:</strong> dessa uppdateringar i push-meddelanden kräver att kunderna uppgraderar sina mobilappar. Se <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html">den här teknologin</a> för mer information.<br /> </td> 
   </tr> 
   <tr> 
    <td> Tidszonsoptimerade leveranser<br /> </td> 

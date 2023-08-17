@@ -44,8 +44,8 @@ Du kan:
 **Relaterade ämnen:**
 
 * [Användningsfall: Uppdatera databasen med externa data](../../automating/using/update-database-file.md)
-* [Användningsfall: Uppdatera data baserat på en automatisk filhämtning](../../automating/using/update-data-automatic-download.md)
-* [Användningsfall: Skicka ett e-postmeddelande med fördjupade fält](../../automating/using/sending-email-enriched-fields.md)
+* [Användningsexempel: Uppdatera data baserat på en automatisk filhämtning](../../automating/using/update-data-automatic-download.md)
+* [Användningsfall: Skicka ett e-postmeddelande med berikade fält](../../automating/using/sending-email-enriched-fields.md)
 * [Användningsfall: Städa av en filpublik med databasen](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## Konfiguration {#configuration}
@@ -71,19 +71,19 @@ Aktivitetskonfigurationen omfattar två steg.  Först måste du definiera den f�
    * Du kan välja att använda strukturen för en annan fil genom att markera alternativet **[!UICONTROL Detect structure from a new file]**.
    * Du kan ändra standardparametrarna för identifiering genom att anpassa dem till filen.    I fältet **[!UICONTROL File type]** kan du ange om den fil du vill importera består av kolumner med fast längd.    I så fall måste du även ange maximalt antal tecken för varje kolumn i flik **[!UICONTROL Column definition]**.
 
-      Alla identifieringsalternativ som krävs för att korrekt återskapa data från filen grupperas om i **[!UICONTROL File format]**.  Du kan ändra dessa och sedan återupptäcka strukturen på den senast inlästa filen i aktiviteten genom att ta hänsyn till dessa nya inställningar.  Använd knappen **[!UICONTROL Apply configuration]** för att göra detta.  Du kan exempelvis ange en annan kolumnavgränsare.
+     Alla identifieringsalternativ som krävs för att korrekt återskapa data från filen grupperas om i **[!UICONTROL File format]**.  Du kan ändra dessa och sedan återupptäcka strukturen på den senast inlästa filen i aktiviteten genom att ta hänsyn till dessa nya inställningar.  Använd knappen **[!UICONTROL Apply configuration]** för att göra detta.  Du kan exempelvis ange en annan kolumnavgränsare.
 
-      >[!NOTE]
-      >
-      >Den här åtgärden tar hänsyn till den senaste filen som lästes in i aktiviteten.  Om filen som identifieras är stor visas bara de första 30 raderna i förhandsvisningen.
+     >[!NOTE]
+     >
+     >Den här åtgärden tar hänsyn till den senaste filen som lästes in i aktiviteten.  Om filen som identifieras är stor visas bara de första 30 raderna i förhandsvisningen.
 
-      ![](assets/wkf_file_loading3.png)
+     ![](assets/wkf_file_loading3.png)
 
-      I avsnittet **[!UICONTROL File format]** kan du med alternativet **[!UICONTROL Check columns from file against column definitions]** verifiera att kolumnerna i filen som du överför motsvarar kolumndefinitionen.
+     I avsnittet **[!UICONTROL File format]** kan du med alternativet **[!UICONTROL Check columns from file against column definitions]** verifiera att kolumnerna i filen som du överför motsvarar kolumndefinitionen.
 
-      Om antalet kolumner och/eller namnet inte matchar kolumndefinitionen visas ett felmeddelande när arbetsflödet körs.  Om alternativet inte är aktiverat visas varningar i loggfilen.
+     Om antalet kolumner och/eller namnet inte matchar kolumndefinitionen visas ett felmeddelande när arbetsflödet körs.  Om alternativet inte är aktiverat visas varningar i loggfilen.
 
-      ![](assets/wkf_file_loading_check.png)
+     ![](assets/wkf_file_loading_check.png)
 
 1. Gå till fliken **[!UICONTROL Column definition]** för att kontrollera dataformatet för varje kolumn och justera parametrarna om det behövs.
 
@@ -101,7 +101,7 @@ Aktivitetskonfigurationen omfattar två steg.  Först måste du definiera den f�
    * Är den som du överförde under föregående steg.
    * Är en ny fil som ska överföras från den lokala datorn.  Alternativet **[!UICONTROL Upload a new file from local machine]** visas om du redan har överfört en första fil i arbetsflödet.  På så sätt kan du överföra en annan fil som ska bearbetas om den aktuella filen inte passar dina behov.
 
-      ![](assets/wkf_file_loading1.png)
+     ![](assets/wkf_file_loading1.png)
 
 1. Om filen du vill läsa in data från är komprimerad till en GZIP-fil (.gz) väljer du alternativ **[!UICONTROL Decompression]** i fält **[!UICONTROL Add a pre-processing stage]**.  På så sätt kan du packa upp filen innan du läser in data.  Det här alternativet är endast tillgängligt om filen kommer från aktivitetens ingående övergång.
 
@@ -137,7 +137,7 @@ Med kolumnformateringen kan du definiera värdebearbetningen för varje kolumn:
 
    * **[!UICONTROL Maximum number of characters]**: Anger maximalt antal tecken för strängtypskolumner.
 
-      Det här fältet måste fyllas i när filer som består av kolumner med fast längd laddas.
+     Det här fältet måste fyllas i när filer som består av kolumner med fast längd laddas.
 
    * **[!UICONTROL Letter case management]**: definierar om en teckenskiftsprocess måste tillämpas för **textdata** .
    * **[!UICONTROL White space management]**: anger om vissa mellanslag måste ignoreras i en sträng för **textdata** .
@@ -154,9 +154,9 @@ Med kolumnformateringen kan du definiera värdebearbetningen för varje kolumn:
    * **[!UICONTROL Use a default value in case the value is not remapped]**: ersätter det värde som orsakar felet med ett standardvärde som definieras i fältet **[!UICONTROL Default value]** såvida inte en mappning har definierats för det felaktiga värdet (se alternativ **[!UICONTROL Remapping of values]** ovan).
    * **[!UICONTROL Reject the line when there is no remapping value]**: hela raden bearbetas inte om inte en mappning har definierats för det felaktiga värdet (se alternativet ovan **[!UICONTROL Remapping of values]**).
 
-   >[!NOTE]
-   >
-   >**[!UICONTROL Error processing]** gäller fel avseende värden i den importerade filen.  En felaktig datatyp har påträffats (&quot;fyra&quot; skrivet i bokstäver för en heltalskolumn). En sträng som innehåller fler tecken än det tillåtna maxtalet, ett datum med felaktiga avgränsare etc.  Det här alternativet gäller dock inte fel som genereras av hantering av tomma värden.
+  >[!NOTE]
+  >
+  >**[!UICONTROL Error processing]** gäller fel avseende värden i den importerade filen.  En felaktig datatyp har påträffats (&quot;fyra&quot; skrivet i bokstäver för en heltalskolumn). En sträng som innehåller fler tecken än det tillåtna maxtalet, ett datum med felaktiga avgränsare etc.  Det här alternativet gäller dock inte fel som genereras av hantering av tomma värden.
 
 * **[!UICONTROL Default value]**: anger standardvärdet enligt vald felbearbetning.
 * **[!UICONTROL Empty value management]**: används för att ange hur tomma värden ska hanteras vid inläsning av data.

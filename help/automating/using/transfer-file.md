@@ -32,7 +32,7 @@ Du kan använda den här aktiviteten för att återställa data som sedan strukt
 
 **Relaterade ämnen:**
 
-* [Användningsfall: Uppdatera data baserat på en automatisk filhämtning](../../automating/using/update-data-automatic-download.md)
+* [Användningsexempel: Uppdatera data baserat på en automatisk filhämtning](../../automating/using/update-data-automatic-download.md)
 
 ## Konfiguration {#configuration}
 
@@ -62,7 +62,7 @@ Du kan använda den här aktiviteten för att återställa data som sedan strukt
 
    * **[!UICONTROL Sorting files]**: gör att du kan sortera filer alfanumeriskt. Det här alternativet är inaktiverat som standard.
 
-      <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
+     <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
 
    * **[!UICONTROL List all files]**: det här alternativet är tillgängligt när du väljer **[!UICONTROL File listing]** i **[!UICONTROL General]** -fliken. Du kan indexera samtliga filer på servern i **variabeln vars.filenames** där filnamnet avgränsas med ett **&#39;n&#39;** -tecken.
 
@@ -154,7 +154,7 @@ Notera att sökvägen måste vara relativ till Adobe Campaign-serverns lagringsu
 
 Exempel:
 
-`user&lt;yourinstancename>/my_recipients.csv` stämmer.
+`user&lt;yourinstancename>/my_recipients.csv` är korrekt.
 
 `../hello/my_recipients.csv` är felaktigt.
 
@@ -180,11 +180,11 @@ Varje gång aktiviteten körs så kontrolleras mappen enligt följande:
 
 ## Utdatavariabler {#output-variables}
 
-The **[!UICONTROL Transfer file]** aktiviteten genererar händelsevariabler som utdata, som du kan använda i andra aktiviteter, t.ex. för att kontrollera antalet nedladdade filer med en [Testa](../../automating/using/test.md) aktivitet.
+The **[!UICONTROL Transfer file]** aktiviteten genererar händelsevariabler som utdata, som du kan använda i andra aktiviteter, t.ex. för att kontrollera antalet hämtade filer med en [Testa](../../automating/using/test.md) aktivitet.
 
 Observera att händelsevariabler också kan skickas till ett annat arbetsflöde med hjälp av en extern signal (se [Anpassa ett arbetsflöde med externa parametrar](../../automating/using/customizing-workflow-external-parameters.md)).
 
-Tillgängliga utdatavariabler är:
+Tillgängliga utdatavariabler:
 
-* **[!UICONTROL fileName]**: de överförda filernas namn.
+* **[!UICONTROL fileName]**: namn på de överförda filerna.
 * **[!UICONTROL filesCount]**: antal överförda filer.

@@ -21,7 +21,7 @@ Det finns flera dataflöden som Adobe Campaign Standard-integreringen med Micros
 
 Mer information om dataflödena finns längre ned i det här dokumentet i [Dataflöden](#data-flows)  -avsnitt.
 
-## Adobe Campaign Standard användarupplevelse
+## Adobe Campaign Standard användargränssnitt
 
 När en kontakt skapas, ändras eller tas bort (om borttagen är aktiverad) i Microsoft Dynamics 365 skickas den vidare till Campaign Standarden. Dessa kontakter visas på profilskärmen i Campaign och kan användas i marknadsföringskampanjer. Se skärmen Profiler nedan.
 
@@ -41,13 +41,13 @@ För egress skickas följande e-postmarknadsföringshändelser från Campaign ti
 
 * Adobe Campaign Email Bounce
 
-Om du vill visa en kontakts tidslinje går du till din kontaktlista genom att klicka på Försäljningssida i listrutan Dynamics 365. Klicka sedan på Kontakter på den vänstra menyraden och välj en kontakt.
+Om du vill visa en kontakts tidslinje går du till din kontaktlista genom att klicka på Försäljningshubb i listrutan Dynamics 365. Klicka sedan på Kontakter på den vänstra menyraden och välj en kontakt.
 
 >[!NOTE]
 >
 >The **Adobe Campaign för Microsoft Dynamics 365** app i AppSource måste installeras i din Microsoft Dynamics 365-instans för att du ska kunna visa dessa händelser. [Läs mer](../../integrating/using/d365-acs-configure-d365.md#install-appsource-app).
 
-Här nedan ser du en ögonblicksbild av kontaktskärmen för&quot;Dynamics-användare&quot;. I tidslinjevyn kommer du att märka att Dynamics-användaren har fått ett e-postmeddelande som är kopplat till kampanjnamnet&quot;2019LoyaltyCamp&quot; och leveransnamnet&quot;DM190&quot;. Dynamics-användaren öppnade e-postmeddelandet och klickade också på en URL i e-postmeddelandet. båda dessa åtgärder skapade händelser som också visas nedan. Om du tittar till höger kommer du att se kortet för Relationship Assistant (RA); för närvarande innehåller det en uppgift att följa upp den klickade URL:en.
+Här nedan ser du en ögonblicksbild av kontaktskärmen för&quot;Dynamics-användare&quot;. I tidslinjevyn kommer du att märka att Dynamics-användaren har fått ett e-postmeddelande som är kopplat till kampanjnamnet&quot;2019LoyaltyCamp&quot; och leveransnamnet&quot;DM190&quot;. Dynamics User öppnade e-postmeddelandet och klickade också på en URL i e-postmeddelandet. Båda dessa åtgärder skapade händelser som också visas nedan. Om du tittar till det högra hörnet ser du kortet för Relationsassistenten (RA). För närvarande innehåller det en uppgift att följa upp den klickade URL:en.
 
 ![](assets/do-not-localize/MSdynamicsACS-usage4.png)
 
@@ -69,9 +69,9 @@ Formuläret för klickningshändelser för e-post-URL lägger till ett extra att
 
 Här följer en lista över attributen och en beskrivning:
 
-* **Ämne**: Föremålet för evenemanget. bestående av kampanj-ID och leverans-ID för e-postleveransen
+* **Ämne**: Ämne för händelsen; består av kampanj-ID och leverans-ID för e-postleveransen
 
-* **Ägare**: Programanvändaren som skapas i stegen efter etableringen
+* **Ägare**: Den programanvändare som skapas i stegen efter etableringen
 
 * **Angående**: Kontaktens namn
 
@@ -93,17 +93,17 @@ Här följer en lista över attributen och en beskrivning:
 
 ### Kontakt och anpassad entitetsinspelning
 
-Nya, uppdaterade och borttagna poster (Obs! borttagen måste vara aktiverad) skickas från kontaktregistret för Microsoft Dynamics 365 till profiltabellen för Campaign.
+Nya, uppdaterade och borttagna poster (Obs! Borttagna måste vara aktiverade) skickas från kontakttabellen för Microsoft Dynamics 365 till profiltabellen för Campaign.
 
 Tabellmappningar kan konfigureras i integreringsprogrammets användargränssnitt för att mappa registerattribut för Microsoft Dynamics 365 till registerattribut för Campaign. Tabellmappningarna kan ändras för att lägga till/ta bort attribut efter behov.
 
-Dataflödets inledande körning är avsedd för överföring av alla mappade poster, inklusive sådana som markerats som &quot;inaktiva&quot;. kommer integreringen endast att bearbeta inkrementella uppdateringar. Undantaget är om data spelas upp eller om ett filter har konfigurerats. grundläggande, attributbaserade filtreringsregler kan konfigureras för att avgöra vilka poster som ska synkroniseras med Campaign.
+Den första körningen av dataflödet är utformad för att överföra alla mappade poster, inklusive de som markerats som &quot;inaktiva&quot;. Integreringen kommer därefter endast att bearbeta inkrementella uppdateringar. Undantaget är om data spelas upp eller om ett filter har konfigurerats. Grundläggande, attributbaserade filtreringsregler kan konfigureras för att avgöra vilka poster som ska synkroniseras med Campaign.
 
 Grundläggande ersättningsregler kan konfigureras i integreringsprogrammets användargränssnitt för att ersätta ett attributvärde med ett annat värde (t.ex. &quot;green&quot; för &quot;#00FF00&quot;, &quot;F&quot; för 1 osv.).
 
 Beroende på hur många poster du har kan du behöva använda din Campaign SFTP-lagring för den första dataöverföringen. [Läs mer](#initial-data-transfer).
 
-Kampanjprofiltabellattributet externalId måste fyllas i med kontaktattributet contactId i Dynamics 365 för att kontaktingress ska fungera. Anpassade kampanjentiteter måste också fyllas i med ett unikt ID-attribut för Dynamics 365. Det här attributet kan dock lagras i alla anpassade enhetsattribut för Campaign (d.v.s. behöver inte vara externalId).
+Kampanjprofiltabellattributet externalId måste fyllas i med kontaktattributet contactId i Dynamics 365 för att kontaktingress ska fungera. Anpassade kampanjentiteter måste också fyllas i med ett unikt ID-attribut i Dynamics 365. Det här attributet kan dock lagras i alla anpassade entitetsattribut för Campaign (d.v.s. behöver inte vara externalId).
 
 >[!NOTE]
 >
@@ -120,6 +120,7 @@ Integreringen stöder både länkade och icke-länkade tabeller. Länkning stöd
 >[!IMPORTANT]
 >
 >Om någon anpassad kampanjresurspost innehåller personlig information, gäller speciella rekommendationer. Läs mer [i det här avsnittet](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-data).
+>
 
 När du konfigurerar dataflöden för anpassade entiteter är det viktigt att du är medveten om följande:
 
@@ -127,9 +128,9 @@ När du konfigurerar dataflöden för anpassade entiteter är det viktigt att du
 * För anpassade entitetsdataflöden måste ändringsspårning vara aktiverat i Dynamics 365 för synkroniserade anpassade entiteter.
 * Om en överordnad och länkad underordnad post skapas nära samma tid i Dynamics 365, på grund av den parallella bearbetningen av integreringen, finns det en liten risk för att en ny underordnad post kan skrivas till Campaign före den överordnade posten.
 
-* Om det överordnade och underordnade objektet är länkade på Campaign-sidan använder du **1 enkel kardinalitetslänk** om du väljer det här alternativet förblir den underordnade posten dold och otillgänglig (via gränssnittet eller API) tills den överordnade posten kommer till Campaign.
+* Om det överordnade och underordnade objektet är länkade på Campaign-sidan använder du **1 enkel kardinallänk** om du väljer det här alternativet förblir den underordnade posten dold och otillgänglig (via gränssnittet eller API) tills den överordnade posten kommer till Campaign.
 
-* (Antar **1 enkel kardinalitetslänk** i Campaign) Om den underordnade posten uppdateras eller tas bort i Dynamics 365, och den ändringen skrivs till Campaign innan den överordnade posten visas i Campaign (inte sannolikt, utan en fjärrfunktion), kommer den uppdateringen eller borttagningen inte att bearbetas i Campaign och ett fel kommer att genereras. Vid uppdatering måste posten i fråga uppdateras i Dynamics 365 igen för att den uppdaterade posten ska kunna synkroniseras. Vid radering måste posten i fråga hanteras separat på Campaign-sidan eftersom det inte längre finns en post i Dynamics 365 att radera eller uppdatera.
+* (Antar **1 enkel kardinallänk** i Campaign) Om den underordnade posten uppdateras eller tas bort i Dynamics 365, och den ändringen skrivs till Campaign innan den överordnade posten visas i Campaign (inte sannolikt, utan en fjärrfunktion), kommer den uppdateringen eller borttagningen inte att bearbetas i Campaign och ett fel kommer att genereras. Vid uppdatering måste posten i fråga uppdateras i Dynamics 365 igen för att den uppdaterade posten ska kunna synkroniseras. Vid radering måste posten i fråga hanteras separat på Campaign-sidan eftersom det inte längre finns en post i Dynamics 365 att radera eller uppdatera.
 
 * Om du stöter på en situation där du tror att du har dolda underordnade poster och inte kan komma åt dem, kan du tillfälligt ändra kardinalitetslänktypen till **0 eller 1 enkel kardinalitetslänk** för att få tillgång till dessa register.
 
@@ -143,7 +144,7 @@ Marknadsföringshändelsetyper som stöds:
 * Skicka - e-post har skickats till mottagare
 * Öppna - e-post öppnad av mottagare
 * Klicka - URL i e-post som mottagaren klickat på
-* Studsa - e-post till mottagaren fick en hård studs
+* Studsa - e-post till mottagare fick en hård studsning
 
 Följande händelseattribut visas i Dynamics 365:
 * Namn på marknadsföringskampanj
@@ -156,11 +157,11 @@ E-postmarknadsföringshändelser kan aktiveras/inaktiveras per typ (skicka, öpp
 
 ### Avanvisningsflöde {#opt-out-flow}
 
-Värden för avanmälan (t.ex. blockeringslista) synkroniseras mellan systemen. har du följande alternativ att välja mellan när du registrerar dig:
+Värden för avanmälan (t.ex. blockeringslista) synkroniseras mellan system. Du kan välja mellan följande alternativ när du registrerar:
 
 * **Enkelriktad (Microsoft Dynamics 365 till Campaign)**: Dynamics 365 är en källa till sanning för avanmälan. Attributen för avanmälan synkroniseras i en riktning från Dynamics 365 till Campaign Standard&quot;
 * **Enkelriktad (Campaign till Microsoft Dynamics 365)**: Campaign Standard är källan till sanning för avanmälan. Attribut för avanmälan synkroniseras i en riktning från Campaign Standard till Dynamics 365
-* **Dubbelriktad**: Dynamics 365 OCH Campaign Standard är båda sanningskällor. Attributen för avanmälan synkroniseras dubbelriktat mellan Campaign Standard och Dynamics 365
+* **Dubbelriktad**: Dynamics 365 AND Campaign Standard är båda sanningskällor. Attributen för avanmälan synkroniseras dubbelriktat mellan Campaign Standard och Dynamics 365
 
 Om du har en separat process för att hantera avanmälningssynkronisering mellan systemen kan även integreringens avanmälningsdataflöde inaktiveras.
 
@@ -168,7 +169,8 @@ Om du har en separat process för att hantera avanmälningssynkronisering mellan
 >
 >I integreringsprogrammets användargränssnitt visas **Enkelriktad (Microsoft Dynamics 365 till Campaign)** och **Dubbelriktad** användningsfall för avanmälan har konfigurerats i ett separat avanmälningsarbetsflöde. [Läs mer](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
 >
->The **Enkelriktad (Campaign till Microsoft Dynamics 365)** Användningsfall vid avanmälan är ett undantag. den är konfigurerad i ingressen (kontakt till profil).
+>The **Enkelriktad (Campaign till Microsoft Dynamics 365)** användningsfall för avanmälan är ett undantag. Det är konfigurerat i arbetsflödet för ingress (kontakt till profil).
+>
 
 Flödesmappning för avanmälan ska anges av kunden eftersom affärskraven kan skilja sig mellan olika företag. På Campaign-sidan kan endast OTB-avanmälningsattribut användas för avanmälningsmappning:
 
@@ -181,7 +183,7 @@ Flödesmappning för avanmälan ska anges av kunden eftersom affärskraven kan s
 * denyListPushnotification
 * ccpaOptOut
 
-I Dynamics 365 har de flesta avanmälningsfält prefixet &quot;donot&quot;. Du kan dock även använda andra attribut för avanmälan om datatyperna är kompatibla.
+I Dynamics 365 har de flesta avanmälningsfält prefixet &quot;donot&quot;, men du kan också använda andra attribut för avanmälningsändamål om datatyperna är kompatibla.
 
 ### Inledande dataöverföring {#initial-data-transfer}
 

@@ -53,7 +53,7 @@ Navigeringsprinciperna är:
 
 * The **Adobe** logotypen i det övre vänstra hörnet av sidan ger dig tillgång till de avancerade funktionerna och konfigurationerna. Menyer beror på din profil och dina behörigheter.
 
-   Den avancerade menyn visas i avsnittet [Avancerad meny](#advanced-menu).
+  Den avancerade menyn visas i avsnittet [Avancerad meny](#advanced-menu).
 
 * Använd länken **[!UICONTROL Home]** för att visa startsidan för Adobe Campaign.
 * Med länkarna **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** och **[!UICONTROL Reports]** kan du komma åt de vyer som är kopplade till dessa funktioner.
@@ -72,13 +72,13 @@ Använd **[!UICONTROL Search]** fält för att hitta vägledning. Sökresultaten
 
 Tre flikar hjälper dig att hitta hjälp och hjälp:
 
-1. The **[!UICONTROL Help]** -fliken innehåller:
+1. The **[!UICONTROL Help]** innehåller:
    * snabb åtkomst till Adobe Campaign Standard-dokumentation med sammanhangsbaserade länkar.
    * a **[!UICONTROL Learning]** som gör att du kan komma åt Adobe Campaign kursbibliotek.
    * a **[!UICONTROL Community]** om du vill gå till forumet för dina frågor om Campaign.
-   * direkt åtkomst till Help Center, Customer Care, Experience Cloud product status, Developer connection, Release Notes, Release Planning och **[!UICONTROL About]** skärm.
+   * direkt åtkomst till: Help Center, Customer Care, Experience Cloud produktstatus, Developer Connection, Release Notes, Release Planning och **[!UICONTROL About]** skärm.
 1. The **[!UICONTROL Support]** kan du öppna ett supportärende och kontakta oss via telefon eller Twitter.
-1. The **[!UICONTROL Feedback]**  gör det enklare att rapportera problem eller dela med dig av dina idéer.
+1. The **[!UICONTROL Feedback]**  gör det enklare att rapportera problem eller utbyta idéer.
 
 ## Avancerad meny {#advanced-menu}
 
@@ -126,23 +126,23 @@ Den centrala zonens innehåll och visningsformat kan variera:
 
 * En **lista** med olika element som program, kampanjer, profiler, o.s.v. Dessa element kan visas i **[!UICONTROL Card]**- eller **[!UICONTROL List]**-läget. Använd knappen för att ändra läge om du vill växla från det ena till det andra. Varje element visar indikatorer.
 
-   ![](assets/ux_liste.png)
+  ![](assets/ux_liste.png)
 
-   Med en räknare kan du se antalet element. Om det här antalet överstiger 30 måste du klicka på den här räknaren för att få fram det totala antalet.
+  Med en räknare kan du se antalet element. Om det här antalet överstiger 30 måste du klicka på den här räknaren för att få fram det totala antalet.
 
 * En **kontrollpanel** med en översikt över alla parametrar som är kopplade till en aktivitet. Den här skärmen innehåller interaktiva zoner där du kan separera och konfigurera de olika begreppen separat.
 
-   ![](assets/ux_dashboard.png)
+  ![](assets/ux_dashboard.png)
 
 * Om flera erbjudanden är möjliga när du skapar ett element, kan du på en **urvalsskärm** välja vilken typ av element du vill lägga till (kampanjer, leveranser). Den här urvalsskärmen kan även användas för åtkomst till rapporterna.
 
-   ![](assets/ux_activityselection.png)
+  ![](assets/ux_activityselection.png)
 
 * En **arbetsyta** med en palett görs tillgänglig för arbetsflödena och frågeredigeraren så att du kan utforma objektet.
 
-   Du kan dra och släppa element från paletten till arbetsytan för att konfigurera elementet i fråga.
+  Du kan dra och släppa element från paletten till arbetsytan för att konfigurera elementet i fråga.
 
-   ![](assets/ux_workspace.png)
+  ![](assets/ux_workspace.png)
 
 ## Åtgärdsfält {#action-bar}
 

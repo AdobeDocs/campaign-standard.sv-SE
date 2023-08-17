@@ -23,11 +23,11 @@ I det här exemplet kan du skapa en e-postdesignermall genom att använda ett HT
 
 >[!NOTE]
 >
->Som i kompatibilitetsläget kan en HTML-komponent redigeras med begränsade alternativ: kan du bara utföra en utgåva på plats.
+>Kompatibilitetsläget är precis som kompatibilitetsläget redigerbart för en HTML-komponent med begränsade alternativ: du kan bara utföra en version på plats.
 
 >[!IMPORTANT]
 >
->Det här avsnittet är avsett för avancerade användare som är bekanta med HTML-kod.
+>Det här avsnittet är avsett för avancerade användare som känner till HTML-kod.
 
 ## Förbereda ditt e-postinnehåll
 
@@ -37,8 +37,8 @@ I det här exemplet kan du skapa en e-postdesignermall genom att använda ett HT
 
 ## Skapa en e-poststruktur
 
-1. Öppna **[!UICONTROL Email Designer]**  för att skapa ett tomt e-postinnehåll.
-1. Ange attributen för innehållsnivå: bakgrundsfärger, bredd osv. Mer information finns i [Redigera e-postformat](../../designing/using/styles.md).
+1. Öppna **[!UICONTROL Email Designer]**  om du vill skapa ett tomt e-postinnehåll.
+1. Ange attribut för innehållsnivå: bakgrundsfärger, bredd osv. Mer information finns i [Redigera e-postformat](../../designing/using/styles.md).
 1. Lägg till så många strukturkomponenter som du har avsnitt. Mer information finns i [Redigera e-poststrukturen](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 ## Lägg till HTML-innehåll
@@ -50,7 +50,7 @@ I det här exemplet kan du skapa en e-postdesignermall genom att använda ett HT
 
 1. Växla till **[!UICONTROL Mobile view]**. Mer information finns i [det här avsnittet](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
-1. Du åtgärdar detta genom att växla till källkodsläge och kopiera och klistra in formatavsnittet i ett nytt formatavsnitt. Exempel:
+1. Du åtgärdar detta genom att växla till källkodsläge och kopiera och klistra in stilavsnittet i ett nytt stilavsnitt. Exempel:
 
    ```
    <style type="text/css">
@@ -72,7 +72,6 @@ I det här exemplet kan du skapa en e-postdesignermall genom att använda ett HT
    >* `<style data-name="mediaIOS8" type="text/css">(##)</style>`
    >* `<style data-name="media-default-max-width-500px" type="text/css">(##)</style>`
    >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
-
 
 1. Gå tillbaka till mobilvyn för att kontrollera att ditt innehåll visas korrekt och spara ändringarna.
 
@@ -106,7 +105,7 @@ Om du vill visa HTML-versionen av e-postmeddelandet klickar du på **[!UICONTROL
 
    ![](assets/html-components.png)
 
-1. För varje avsnitt klickar du på **[!UICONTROL Show source code]** .
+1. För varje avsnitt klickar du **[!UICONTROL Show source code]** .
 
    ![](assets/show-source-code.png)
 

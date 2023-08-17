@@ -38,7 +38,7 @@ Tekniska arbetsflöden är operationer eller jobb som schemalagts för att utfö
 
 **Kontrollpanelen**
 
-På Kontrollpanelen kan du hantera flera inställningar för din instans: URL-behörigheter, kontrollera instansinformation som serverns build-versioner, övervaka aktiv profilanvändning osv. Du kan också övervaka det tillgängliga utrymmet på de SFTP-servrar som är anslutna till din instans. [Läs mer](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=sv).
+På Kontrollpanelen kan du hantera flera inställningar för instansen: URL-behörigheter, kontrollera instansinformation som serverns build-versioner, övervaka aktiv profilanvändning osv. Du kan också övervaka det tillgängliga utrymmet på de SFTP-servrar som är anslutna till din instans. [Läs mer](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=sv).
 
 >[!NOTE]
 >
@@ -46,16 +46,16 @@ På Kontrollpanelen kan du hantera flera inställningar för din instans: URL-be
 
 **Tekniska objekt**
 
-The **[!UICONTROL Diagnosis]** är ett nyckelverktyg för att övervaka och analysera de olika tekniska objekt som genereras av programmet: datascheman, webbsidor, batchjobb osv. [Läs mer](../../developing/using/monitoring-data-model-changes.md)
+The **[!UICONTROL Diagnosis]** -menyn är ett nyckelverktyg för att övervaka och analysera de olika tekniska objekt som genereras av programmet: dataram, webbsidor, batchjobb osv. [Läs mer](../../developing/using/monitoring-data-model-changes.md)
 
 **Exportrevisioner**
 
-Med exportgranskningar kan du övervaka exporten som utförs på dina instanser: filer som överförts från arbetsflöden, listexporter och filer som hämtats från direktmeddelanden.
+Med exportgranskningar kan du övervaka exporten som utförs på dina instanser: filer som överförs från arbetsflöden, listexporter och filer som hämtas från direktmeddelanden.
 [Läs mer](../../administration/using/auditing-export-logs.md)
 
 **Licenser**
 
-Med **[!UICONTROL Licenses]** -menyn, övervaka information om dina instanser: installerade licenser, byggversioner och avtalsvillkor som accepteras.
+Med **[!UICONTROL Licenses]** kan du övervaka information om dina instanser: installerade licenser, byggversioner och avtalsvillkor.
 [Läs mer](../../administration/using/licenses.md)
 
 ## Övervaka arbetsflöden {#monitoring-workflows}
@@ -93,10 +93,10 @@ När dina meddelanden har skickats kan ni med hjälp av detaljerade loggar över
 
 **Leveransvarningar**
 
-Med funktionen Leveransvarningar kan du skapa varningar som automatiskt skickas till en grupp användare för leveranskörning: misslyckades med att skicka eller förbereda, dålig studentkvot, låg genomströmning osv.
+Med funktionen Leveransvarning kan du ställa in varningar som automatiskt skickas till en grupp användare för körning av leveranser: misslyckad sändning eller förberedelse, dålig studentfrekvens, låg genomströmning osv.
 [Läs mer](../../sending/using/receiving-alerts-when-failures-happen.md)
 
 **Dynamisk rapportering**
 
-Dynamisk rapportering innehåller olika rapporter som hjälper dig att hålla dig informerad om hur leveranserna fungerar: studsar, de flesta visade leveranser av mottagare, leveransens dataflöde osv.
+Dynamisk rapportering innehåller olika rapporter som hjälper dig att hålla dig informerad om hur leveranserna fungerar: studsar, de vanligaste leveranser som mottagarna har gjort, leveransens dataflöde osv.
 [Läs mer](../../reporting/using/about-dynamic-reports.md)

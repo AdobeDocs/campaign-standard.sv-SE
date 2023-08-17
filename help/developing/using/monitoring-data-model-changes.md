@@ -45,7 +45,7 @@ Du kan filtrera listan:
 
 * Du kan inkludera eller exkludera inbyggda datamappningar, webbsidor, filter och navigeringsobjekt.
 * Du kan söka efter objekt efter deras namn.
-* Du kan filtrera batchjobb efter status, startdatum och slutdatum.
+* Du kan filtrera batchjobb efter deras status, startdatum och slutdatum.
 
 Du kan hämta den visade listan i en fil i TXT-format med kommaseparerade värden.
 

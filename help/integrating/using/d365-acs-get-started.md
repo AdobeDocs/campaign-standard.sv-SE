@@ -18,7 +18,7 @@ ht-degree: 5%
 
 # Kom igång med Microsoft Dynamics 365-integration
 
-Aktivera dina CRM-data för kommunikation över flera kanaler: Lär dig hur du skickar kontakter från Microsoft Dynamics 365 till Adobe Campaign och delar kampanjresultatdata (skickar, öppnar, klickar och studsar) tillbaka från Adobe Campaign till Microsoft Dynamics 365.
+Aktivera dina CRM-data för kommunikation över flera kanaler: lär dig hur du skickar kontakter från Microsoft Dynamics 365 till Adobe Campaign och delar kampanjresultatdata (skickar, öppnar, klickar och studsar) tillbaka från Adobe Campaign till Microsoft Dynamics 365.
 
 För den här integreringen krävs följande programversioner:
 
@@ -29,12 +29,13 @@ För den här integreringen krävs följande programversioner:
 >[!CAUTION]
 >
 >Den här funktionen är inte tillgänglig som en del av produkten. För implementering krävs att Adobe Consulting används. Kontakta din Adobe-representant för mer information.
+>
 
 ## Principer
 
 Adobe Campaign Standard-integrationen med Microsoft Dynamics 365 gör att alla tillgängliga kontaktdata i CRM-systemet kan synkroniseras, vilket gör alla relevanta kontaktdata tillgängliga för kampanjaktiviteter.
 
-Omvänt gäller att när profiler i Adobe Campaign Standard interagerar med meddelanden, dessa data (t.ex.: skickar, öppnar, klickar och studsar) automatiskt in i Microsoft Dynamics 365 för att hålla kontaktuppgifter komplett med marknadsföringsaktiviteter.
+När profiler i Adobe Campaign Standard interagerar med meddelanden flödar dessa data (t.ex.: skickar, öppnar, klickar och studsar) automatiskt in i Microsoft Dynamics 365 för att hålla kontaktuppgifter kompletta med marknadsföringsaktiviteter.
 
 Integreringen stöder även aktivering [anpassade entiteter](../../integrating/using/d365-acs-self-service-app-settings.md) i Dynamics 365 som ska synkroniseras med motsvarande **anpassade resurser** i Campaign.
 
@@ -47,15 +48,16 @@ Integrationen är utformad för fyra huvudsakliga användningsområden:
 
 De viktigaste fördelarna är:
 
-* Enhetliga meddelanden mellan försäljning och marknadsföring: Adobe Campaign Standard integrering med Dynamics 365 ger både systemåtkomst till kundinsikter och e-postmarknadsföringshistorik så att alla meddelanden till kunden kan dela samma enhetliga budskap.
+* Enhetliga meddelanden mellan försäljning och marknadsföring: Adobe Campaign Standard-integreringen med Dynamics 365 ger både systemåtkomst till kundinsikter och e-postmarknadsföringshistorik som gör att alla meddelanden till kunden kan dela samma enhetliga meddelanden.
 
-* Holistisk bild av alla potentiella kunder och kunddata: genom att integrera Adobe Campaign Standard med Dynamics 365 är det möjligt att dela och komma åt marknadshistorik via e-post för varje kontakt inifrån CRM-systemet.
+* Holistisk bild av alla potentiella kunder och kunddata: genom att integrera Adobe Campaign Standard med Dynamics 365 är det möjligt att dela och komma åt e-postmarknadsföringshistorik för varje kontakt inifrån CRM-systemet.
 
-* Aktivera Dynamics 365-data i valfri kanal: med kontaktdata synkroniserade med Adobe Campaign kan kommunikationen skickas via valfri online- eller offlinekanal med Campaign, inklusive mobil-push, app-kommunikation, e-post eller direktreklam. Kampanjen&quot;har ni täckt&quot; oavsett vilken kanal varje kontakt föredrar.
+* Aktivera Dynamics 365-data i valfri kanal: när kontaktdata är synkroniserade med Adobe Campaign kan kommunikationen skickas i valfri online- eller offlinekanal med Campaign, inklusive mobil-push, in-app, e-post eller direktreklam. Kampanjen&quot;har ni täckt&quot; oavsett vilken kanal varje kontakt föredrar.
 
 >[!CAUTION]
 >
->Den här integreringen ser Dynamics 365 som en källa till sanning för kontakt- och anpassad entitetssynkronisering.  Ändringar av synkroniserade attribut bör göras i Dynamics 365, inte i Adobe Campaign Standard.  Om ändringar görs i Campaign kan de skrivas över under synkroniseringen.
+>Den här integreringen ser Dynamics 365 som en källa till sanning för kontakt- och anpassad entitetssynkronisering.  Ändringar av synkroniserade attribut ska göras i Dynamics 365, inte i Adobe Campaign Standard.  Om ändringar görs i Campaign kan de skrivas över under synkroniseringen.
+>
 
 ## Viktiga steg för att implementera integreringen av Microsoft Dynamics 365{#request-and-implement-this-integration}
 
@@ -68,28 +70,29 @@ Följ informationen i flödesschemat och flödesschemat nedan för att begära o
 Information om flödesschema (mappas till steg ovan):
 
 * **Steg 1** - Du förutsätts redan ha, eller håller på att köpa, en licens för Microsoft Dynamics 365 för försäljning och för Adobe Campaign Standard.
-* **Steg 2** - Standardintegrationserbjudandet är kostnadsfritt för alla kunder. ytterligare kostnader kan tillkomma beroende på dina behov. Läs mer om [God praxis och begränsningar](../../integrating/using/d365-acs-notices-and-recommendations.md). En ny försäljningsorder måste signeras för att kunna utnyttja integreringen om den inte ingick i den ursprungliga SO:n.
-* **Steg 3** - Slutför förintegreringsstegen för Dynamics 365 och Campaign. Se [Konfigurera den här integreringen](#configure-this-integration).
+* **Steg 2** - Standardintegrationserbjudandet är kostnadsfritt för alla kunder, men ytterligare kostnader kan tillkomma beroende på dina behov. Läs mer om [Bästa praxis och begränsningar](../../integrating/using/d365-acs-notices-and-recommendations.md). En ny försäljningsorder måste signeras för att kunna utnyttja integreringen om den inte ingick i den ursprungliga SO:n.
+* **Steg 3** - Slutför förintegreringsstegen för Dynamics 365 och Campaign. Se [Konfigurera integreringen](#configure-this-integration).
 * **Steg 4** - Adobe onboarding-teamet ger dig tillgång till användargränssnittet för integreringsprogrammet.
 * **Steg 5** - Du kommer att kunna konfigurera datamappningar, ersättningar, filter osv. och testa integreringen inifrån integreringsprogrammets gränssnitt.
 
-   >[!IMPORTANT]
-   >
-   > Om du vill att avanmälningskonfigurationen för dubbelriktad marknadsföring eller Campaign ska ske till Dynamics 365 måste du göra en begäran till din tekniska Adobe om att avanmälningsarbetsflödena ska konfigureras på din Campaign-instans. [Läs mer](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out).
+  >[!IMPORTANT]
+  >
+  > Om du vill att avanmälningskonfigurationen för dubbelriktad marknadsföring eller Campaign ska ske till Dynamics 365 måste du göra en begäran till din tekniska Adobe om att avanmälningsarbetsflödena ska konfigureras på din Campaign-instans. [Läs mer](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out).
 
-### Konfigurera den här integreringen {#configure-this-integration}
+### Konfigurera integreringen {#configure-this-integration}
 
 Tre system måste etableras och konfigureras för den här integreringen:
 
 * **Adobe Campaign Standard**: du måste konfigurera API-åtkomst och konfigurera en ny integrering för integreringsverktyget. För att uppnå detta, se [den här artikeln](../../integrating/using/d365-acs-configure-adobe-io.md).
 * **Microsoft Dynamics 365**: du måste skapa en ny appregistrering och göra det möjligt för en programanvändare att använda integreringen.  Information om hur du konfigurerar Microsoft Dynamics 365 för den här integreringen finns i [den här artikeln](../../integrating/using/d365-acs-configure-d365.md).
-* **Adobe Campaign Standard-integrering med Microsoft Dynamics 365 Self-Service App**: måste du följa stegen i [den här artikeln](../../integrating/using/d365-acs-self-service-app-control-access.md).
+* **Adobe Campaign Standard-integrering med Microsoft Dynamics 365 Self-Service App**: du måste följa stegen i [den här artikeln](../../integrating/using/d365-acs-self-service-app-control-access.md).
 
 >[!IMPORTANT]
 >
 >För varje system måste dessa steg utföras av en **administratör**.
 >
 >Steg i den här dokumentationen hjälper dig att skapa integreringar/registreringar som inbegriper tilldelning av behörigheter och/eller administratörsåtkomst.  Det är ditt ansvar att se till att dessa steg följer företagets regler innan de utförs och att de utförs med omsorg.
+>
 
 ### Begär support
 

@@ -96,7 +96,7 @@ JSON-tolkaren är utformad för att rymma JSON-standardstrukturmönstertyper, me
 JSON-exempeldefinitionen måste ha **följande egenskaper**:
 
 * **Matriselement** måste innehålla egenskaper på första nivån (djupare nivåer stöds inte).
-   **Egenskapsnamn** blir till kolumnnamn för utdatabladet i den tillfälliga utdatatabellen.
+  **Egenskapsnamn** blir till kolumnnamn för utdatabladet i den tillfälliga utdatatabellen.
 * **JSON-element** som ska hämtas måste vara på 10 eller färre kapslingsnivåer inom JSON-svaret.
 * **Kolumnnamnsdefinitionen** baseras på det första elementet i matrisen &quot;data&quot;.
 Kolumndefinition (lägg till/ta bort) och egenskapens typvärde kan redigeras på fliken **Kolumndefinition**.
@@ -118,7 +118,7 @@ Med den här fliken kan du definiera anslutningens slutpunkt. The **[!UICONTROL 
 
 Om slutpunkten kräver det finns det två typer av autentiseringsmetoder:
 
-* Grundläggande autentisering: ange ditt användarnamn/lösenord i **[!UICONTROL Request Header(s)]** -avsnitt.
+* Grundläggande autentisering: ange användarnamn/lösenord i dialogrutan **[!UICONTROL Request Header(s)]** -avsnitt.
 
 * OAuth-autentisering: Genom att klicka på **[!UICONTROL Use connection parameters defined in an external account]** i ett externt konto kan du välja ett externt konto där OAuth-autentisering definieras. Se avsnittet [Externa konton](../../administration/using/external-accounts.md) för mer information.
 

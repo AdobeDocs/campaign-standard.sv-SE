@@ -54,7 +54,7 @@ Om du vill hantera meddelandenas mottagare, ange aviseringskriterier och komma �
 
 >[!NOTE]
 >
->Om du vill få åtkomst till och konfigurera kontrollpanelerna och aviseringskriterierna måste du ha administratörsbehörighet eller visas i **Leveransansvariga** säkerhetsgrupp. Standardanvändare har inte åtkomst till kontrollpanelerna i Adobe Campaign-gränssnittet. De kan bara ta emot varningsmeddelanden. Mer information om användare och säkerhet i Adobe Campaign finns på [Typer av användare](../../administration/using/users-management.md) och [Om säkerhetsgrupper](../../administration/using/managing-groups-and-users.md#about-security-groups).
+>Om du vill få åtkomst till och konfigurera kontrollpanelerna och aviseringskriterierna måste du ha administratörsbehörighet eller visas i dialogrutan **Leveransansvariga** säkerhetsgrupp. Standardanvändare har inte åtkomst till kontrollpanelerna i Adobe Campaign-gränssnittet. De kan bara ta emot varningsmeddelanden. Mer information om användare och säkerhet i Adobe Campaign finns på [Typer av användare](../../administration/using/users-management.md) och [Om säkerhetsgrupper](../../administration/using/managing-groups-and-users.md#about-security-groups).
 
 I Adobe Campaign gränssnitt kan du
 
@@ -63,11 +63,11 @@ I Adobe Campaign gränssnitt kan du
 * Ändra villkorsparametrarna för varje kontrollpanel. Se [Kriterieparametrar](#criteria-parameters).
 * Definiera en grupp mottagare för varje kontrollpanel.
 
-   Du vill till exempel bara informera användare med administrationsbehörighet om misslyckade leveranser. Ni vill dock att marknadsföringsanvändarna ska få information om leveranser med ett felförhållande som inte är tillräckligt bra för att studsa. Därför måste du skapa två olika kontrollpaneler och definiera villkoren som du vill använda för varje grupp av mottagare.
+  Du vill till exempel bara informera användare med administrationsbehörighet om misslyckade leveranser. Ni vill dock att marknadsföringsanvändarna ska få information om leveranser med ett felförhållande som inte är tillräckligt bra för att studsa. Därför måste du skapa två olika kontrollpaneler och definiera villkoren som du vill använda för varje grupp av mottagare.
 
 * Få åtkomst till historiken för alla skickade aviseringar för varje instrumentpanel.
 
-   När du väljer en kontrollpanel visas den senaste skickade varningen för den här instrumentpanelen som standard. Alla skickade aviseringar visas till vänster på skärmen. Klicka på ett objekt i **[!UICONTROL History]** -lista för att komma åt motsvarande aviseringar.
+  När du väljer en kontrollpanel visas den senaste skickade varningen för den här instrumentpanelen som standard. Alla skickade aviseringar visas till vänster på skärmen. Klicka på ett objekt i **[!UICONTROL History]** -lista för att komma åt motsvarande aviseringar.
 
 ![](assets/delivery-alerting_dashboard.png)
 
@@ -83,7 +83,7 @@ Om du vill skicka meddelanden baserat på specifika villkor till olika användar
 
    ![](assets/delivery-alerting_dashboard_general.png)
 
-1. Välj den grupp av mottagare som du vill meddela i dialogrutan **[!UICONTROL Alert group]** nedrullningsbar lista. Information om hur du ändrar eller skapar en grupp finns i [Skapa en säkerhetsgrupp och tilldela användare](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users).
+1. Välj den grupp av mottagare som du vill meddela i dialogrutan **[!UICONTROL Alert group]** listruta. Information om hur du ändrar eller skapar en grupp finns i [Skapa en säkerhetsgrupp och tilldela användare](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users).
 1. Från **[!UICONTROL Delivery alerting criteria]** avsnitt, klicka **[!UICONTROL Create element]** för att lägga till villkor. Se [Om varningsvillkor](#about-alerting-criteria).
 1. Markera knappen **[!UICONTROL Edit properties]**. I **[!UICONTROL Criteria parameters]** definierar du hur villkoren ska tillämpas. Se [Kriterieparametrar](#criteria-parameters).
 1. Klicka **[!UICONTROL Create]** för att spara instrumentpanelen.
@@ -94,7 +94,7 @@ Varje gång en leverans uppfyller de villkor som du har definierat i den här ko
 
 ### Om varningsvillkor {#about-alerting-criteria}
 
-Gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]** och markera **[!UICONTROL Delivery alerting criteria]**.
+Om du vill få åtkomst till leveransaviseringskriterierna går du till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]** och markera **[!UICONTROL Delivery alerting criteria]**.
 
 ![](assets/delivery-alerting_criteria.png)
 
@@ -102,11 +102,11 @@ Följande kriterier kan användas i kontrollpanelerna för leveransvarningar:
 
 * **[!UICONTROL Deliveries failed]**: Alla leveranser som schemalagts inom ett definierat intervall, med en felaktig status.
 * **[!UICONTROL Deliveries with preparation failed]**: Alla leveranser som har ändrats inom ett definierat intervall och för vilka förberedelsesteget (målberäkning och innehållsgenerering) har misslyckats. Mer information finns i [Förbereder sändningen](../../sending/using/preparing-the-send.md).
-* **[!UICONTROL Delivery with bad error ratio for soft bounces]**: Alla leveranser som schemalagts inom ett definierat intervall, med en status på minst **[!UICONTROL In progress]**, med ett felförhållande för mjukt studs som är större än ett definierat procenttal.
-* **[!UICONTROL Delivery with bad error ratio for hard bounces]**: Alla leveranser som schemalagts inom ett definierat intervall, med en status på minst **[!UICONTROL In progress]**, med ett felförhållande för skarpt studs som är större än ett definierat procenttal.
+* **[!UICONTROL Delivery with bad error ratio for soft bounces]**: Alla schemalagda leveranser inom ett definierat intervall med en status på minst **[!UICONTROL In progress]**, med ett felförhållande för mjukt studs som är större än ett definierat procenttal.
+* **[!UICONTROL Delivery with bad error ratio for hard bounces]**: Alla schemalagda leveranser inom ett definierat intervall med en status på minst **[!UICONTROL In progress]**, med ett felförhållande för skarpt studs som är större än ett definierat procenttal.
 * **[!UICONTROL Deliveries with long start pending]**: Alla schemalagda leveranser inom ett definierat intervall, med en **[!UICONTROL Start pending]** status för längre tid än en definierad varaktighet, **[!UICONTROL Start pending]** status, vilket innebär att meddelanden ännu inte har beaktats av systemet.
-* **[!UICONTROL Deliveries with low throughput]**: Alla leveranser har startat under längre tid än en definierad varaktighet, med mindre än en definierad procentandel av bearbetade meddelanden, med ett dataflöde som är lägre än ett definierat värde.
-* **[!UICONTROL Deliveries in progress]**: Alla leveranser som är schemalagda inom ett definierat intervall, med **[!UICONTROL In progress]** status.
+* **[!UICONTROL Deliveries with low throughput]**: Alla leveranser påbörjades under längre tid än en definierad varaktighet, med mindre än en definierad procentandel av bearbetade meddelanden, med ett dataflöde som är lägre än ett definierat värde.
+* **[!UICONTROL Deliveries in progress]**: Alla schemalagda leveranser inom ett definierat intervall, med **[!UICONTROL In progress]** status.
 
 >[!NOTE]
 >
@@ -118,17 +118,17 @@ Du kan välja valfritt objekt i **[!UICONTROL Delivery alerting criteria]** -lis
 
 För varje kriterium kan du definiera följande inställningar:
 
-* **[!UICONTROL Indicators to add in alerts]**, vilket innebär de kolumner som ska visas i meddelandenas **[!UICONTROL Details]** för leveranser som motsvarar det valda kriteriet.
+* **[!UICONTROL Indicators to add in alerts]**, vilket innebär de kolumner som ska visas i meddelandenas **[!UICONTROL Details]** för de leveranser som motsvarar det valda kriteriet.
 
-   ![](assets/delivery-alerting_notification_colums.png)
+  ![](assets/delivery-alerting_notification_colums.png)
 
 * **[!UICONTROL Alert type]**, vilket innebär etiketten och färgen som visas bredvid leveransvillkoret i sammanfattningen av meddelandet.
 
-   ![](assets/delivery-alerting_notification_labels.png)
+  ![](assets/delivery-alerting_notification_labels.png)
 
 * **[!UICONTROL Criteria frequency]**: Om ett kriterium är uppfyllt för en leverans upprepas detta i varje anmälan som skickas inom övervakningsperioden. I annat fall skickas endast en avisering om dagen (vid den första förekomsten) enligt ett aviseringskriterium för en leverans.
 
-   Som standard är det här alternativet inställt på en gång om dagen för alla villkor.
+  Som standard är det här alternativet inställt på en gång om dagen för alla villkor.
 
 **Relaterade ämnen:**
 
@@ -166,7 +166,7 @@ För att göra detta måste du först utöka **Leverans** resurs och lägg till 
    Filtret skapas och kan nu väljas med ett nytt leveransvarningsvillkor.
 
 1. Gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]**, markera **[!UICONTROL Delivery alerting criteria]** och klicka **[!UICONTROL Create]**.
-1. I **[!UICONTROL Delivery filter applied by this criterion]** väljer du det filter du just har skapat.
+1. I **[!UICONTROL Delivery filter applied by this criterion]** väljer du filtret som du just skapade.
 
    ![](assets/delivery-alerting_cus-filter.png)
 
@@ -180,7 +180,7 @@ När du har skapat dessa villkor kan du lägga till dem i en kontrollpanel för 
 
 [Lägga till eller utöka en resurs](../../developing/using/key-steps-to-add-a-resource.md)
 
-## Parametrar för leveransvarning {#delivery-alerting-parameters}
+## Parametrar för leveransavisering {#delivery-alerting-parameters}
 
 ### Kriterieparametrar {#criteria-parameters}
 
@@ -189,22 +189,22 @@ I **[!UICONTROL Criteria parameters]** -flik i en [kontrollpanel för leveransva
 ![](assets/delivery-alerting_dashboard_criteria-parameters.png)
 
 * **[!UICONTROL Delivery target minimum size]**: Om du till exempel anger 100 i det här fältet skickas ett meddelande endast för leveranser med ett mål som är lika med eller större än 100 mottagare. Den här parametern gäller för alla villkor.
-* **[!UICONTROL Monitoring period before and after the contact date (in hours)]**: Antal timmar före och efter den aktuella tiden. Endast leveranser som har ett kontaktdatum i det här tidsintervallet tas med i beräkningen. Den här parametern gäller för alla villkor. Som standard är värdet för det här fältet inställt på 24 timmar.
+* **[!UICONTROL Monitoring period before and after the contact date (in hours)]**: Antal timmar före och efter den aktuella tiden. Endast leveranser som har ett kontaktdatum i det här tidsintervallet beaktas. Den här parametern gäller för alla villkor. Som standard är värdet för det här fältet inställt på 24 timmar.
 
-   Mer information om kontaktdatum finns i [Om schemaläggning](../../sending/using/about-scheduling-messages.md).
+  Mer information om kontaktdatum finns i [Om schemaläggning](../../sending/using/about-scheduling-messages.md).
 
 * **[!UICONTROL Maximum ratio of soft bounce errors]**: Ett meddelande skickas för alla leveranser med ett felförhållande för mjukt studs som är större än det angivna värdet. Som standard är fältets värde inställt på 0,05 (5 %).
 
-   Mer information om mjuka studsfel finns i [E-poststudsar](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) och [Lista över leveransfeltyper](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+  Mer information om mjuka studsfel finns i [E-poststudsar](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) och [Lista över leveransfeltyper](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
 * **[!UICONTROL Maximum ratio of hard bounce errors]**: Ett meddelande skickas för alla leveranser med ett felförhållande för hårda studs som är större än det angivna värdet. Som standard är fältets värde inställt på 0,05 (5 %).
 
-   Mer information om hårda studsfel finns i [E-poststudsar](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) och [Lista över leveransfeltyper](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+  Mer information om hårda studsfel finns i [E-poststudsar](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) och [Lista över leveransfeltyper](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
 * **[!UICONTROL Minimum time threshold for delivery in 'Start pending' status (in minutes)]**: Ett meddelande skickas för alla leveranser med en **[!UICONTROL Start pending]** status för längre tid än vad som anges i detta fält, **[!UICONTROL Start pending]** status, vilket innebär att meddelanden ännu inte har beaktats av systemet.
 * **[!UICONTROL Minimum time required for the computation of the throughput (in minutes)]**: Endast leveranser startade (med **[!UICONTROL In progress]** status) för mer än den angivna varaktigheten beaktas för **[!UICONTROL Deliveries with low throughput]** kriterium.
 * **[!UICONTROL Maximum percentage of processed messages for the computation of the throughput]**: Endast leveranser med en procentandel av bearbetade meddelanden som är lägre än den angivna procentandelen beaktas för **[!UICONTROL Deliveries with low throughput]** kriterium.
-* **[!UICONTROL Minimum expected throughput (in sent messages per hour)]**: Endast leveranser med ett dataflöde som är lägre än det angivna värdet beaktas för **[!UICONTROL Deliveries with low throughput]** kriterium.
+* **[!UICONTROL Minimum expected throughput (in sent messages per hour)]**: Endast leveranser med en dataström som är lägre än det angivna värdet beaktas för **[!UICONTROL Deliveries with low throughput]** kriterium.
 * **[!UICONTROL Minimum processed ratio required for 'Deliveries in progress' criterion]**: Endast leveranser med en procentandel av bearbetade meddelanden som är högre än den angivna procentandelen tas med i beräkningen.
 
 ### Varningsfrekvens {#alerting-frequency}
@@ -234,46 +234,44 @@ Här är några möjliga orsaker till att du får varningsmeddelanden enligt de 
    * Ett problem med leveransservern (MTA, Message Transfer Agent)
    * En timeout för anslutningen mellan Adobe Campaign-leveransservern och den mottagande servern
    * Ett leveransproblem
-   * Ett felaktigt arbetsflöde
+   * Felaktigt arbetsflöde
 
-   Om leveransen har utlösts med ett arbetsflöde kontrollerar du om arbetsflödet har startats korrekt. Mer information finns i [Köra ett arbetsflöde](../../automating/using/about-workflow-execution.md). Annars kontaktar du Adobe Campaign-administratören för att lösa problemet.
+  Om leveransen har utlösts med ett arbetsflöde kontrollerar du om arbetsflödet har startats korrekt. Mer information finns i [Köra ett arbetsflöde](../../automating/using/about-workflow-execution.md). Annars kontaktar du Adobe Campaign-administratören för att lösa problemet.
 
-* **[!UICONTROL Deliveries with preparation failed]**: Ett fel kan uppstå under färdigställande av leveransen i följande fall:
+* **[!UICONTROL Deliveries with preparation failed]**: Ett fel kan uppstå under färdigställande av leverans i följande fall:
 
    * Leveransen saknar ämne.
    * Det finns en felaktig syntax i personaliseringsfälten.
    * Målet saknas.
    * Leveransen överskrider storleksgränsen.
 
-   Mer information finns i [Förbereder sändningen](../../sending/using/preparing-the-send.md). Dessa fel upptäcks dock vanligtvis under meddelandeanalysen. Se [Kontrollregler](../../sending/using/control-rules.md).
+  Mer information finns i [Förbereder sändningen](../../sending/using/preparing-the-send.md). Dessa fel upptäcks dock vanligtvis under meddelandeanalysen. Se [Kontrollregler](../../sending/using/control-rules.md).
 
 * Möjliga orsaker till **[!UICONTROL Delivery with bad error ratio for soft bounces]** varning kan vara:
 
    * Mottagarens server är inte tillgänglig.
    * Mottagarens postlåda är full.
 
-   Mer information finns i **[!UICONTROL Exclusion logs]** och **[!UICONTROL Exclusion causes]** -flikar i leveransloggarna. Se [Uteslutningsloggar](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
+  Mer information finns i **[!UICONTROL Exclusion logs]** och **[!UICONTROL Exclusion causes]** -flikar i leveransloggarna. Se [Uteslutningsloggar](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
 
-   Möjliga orsaker till **[!UICONTROL Delivery with bad error ratio for hard bounces]** varning kan vara:
+  Möjliga orsaker till **[!UICONTROL Delivery with bad error ratio for hard bounces]** varning kan vara:
 
    * Mottagaren läggs till i blockeringslista, vilket innebär att han/hon inte längre vill bli kontaktad.
    * Mottagarens e-postadress finns inte.
    * Mottagarens domän finns inte.
    * Mottagarens server blockerar leveransen.
 
-   Följ de bästa metoderna nedan för att undvika mjuka och hårda studsfel:
+  Följ de bästa metoderna nedan för att undvika mjuka och hårda studsfel:
 
-   * Bygg filtreringstypologiregler för att exkludera en del av meddelandemålet under leveransanalysen, till exempel mottagare i karantän. Se [Skapa en filtreringsregel](../../sending/using/filtering-rules.md).
+   * Bygg filtreringstypologiregler som utesluter en del av meddelandemålet under leveransanalysen, till exempel mottagare i karantän. Se [Skapa en filtreringsregel](../../sending/using/filtering-rules.md).
    * Uppdatera regelbundet kunddatabasen för att upprätthålla goda karantänhanteringsprocesser. Se [Om karantäner](../../sending/using/understanding-quarantine-management.md#about-quarantines).
    * Generellt sett kan du förbättra slutresultatet så bra som möjligt. Se Adobe Campaign [Leverans](../../sending/using/about-deliverability.md) utförlig dokumentation och kontakta Adobe Campaign-administratören för att få hjälp.
 
+* **[!UICONTROL Deliveries with long start pending]**: Vanligtvis innebär detta att det finns ett problem på MTA-nivå (Message Transfer Agent). Körningsprocessen väntar på att vissa resurser ska vara tillgängliga. MTA har kanske inte startats.
 
+  **[!UICONTROL Deliveries with low throughput]**: Återigen är detta ett leveransproblem, vilket innebär att MTA är för långsamt.
 
-* **[!UICONTROL Deliveries with long start pending]**: Vanligtvis innebär detta att det finns ett problem på MTA-nivån (Message Transfer Agent). Körningsprocessen väntar på att vissa resurser ska vara tillgängliga. MTA har kanske inte startats.
-
-   **[!UICONTROL Deliveries with low throughput]**: Återigen är detta ett leveransproblem, vilket innebär att leveransavtalet är för långsamt.
-
-   Kontakta Adobe Campaign-administratören om du vill ha mer information om dessa problem.
+  Kontakta Adobe Campaign-administratören om du vill ha mer information om dessa problem.
 
 **Relaterade ämnen:**
 

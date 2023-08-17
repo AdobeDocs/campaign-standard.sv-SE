@@ -49,7 +49,7 @@ De olika stegen för export av paket beskrivs i avsnittet [Exportera ett paket](
 * **[!UICONTROL Platform]**-paketet grupperar samtliga resurser som lagts till under den tekniska konfigurationen: anpassade resurser, anpassade resursuppsättningar, utlösare och programalternativ med typen **[!UICONTROL System]**.
 * **[!UICONTROL Administration]**-paketet grupperar alla objekt som lagts till under företagskonfigurationen som exempelvis: kampanjmallar, innehållsmallar, leveransmallar, mallar för landningssidor, programmallar och mallar för arbetsflöden.
 
-   Den innehåller även följande objekt: innehållsblock, målmappningar, externa konton, organisationsenheter, programalternativ med typen **[!UICONTROL User]**, roller, typologier, typologiregler och användare.
+  Den innehåller även följande objekt: innehållsblock, målmappningar, externa konton, organisationsenheter, programalternativ med typen **[!UICONTROL User]**, roller, typologier, typologiregler och användare.
 
 >[!NOTE]
 >
@@ -112,11 +112,11 @@ När åtgärden är klar visas flera avsnitt:
 
 * **[!UICONTROL Export status]**: I det här avsnittet visas om åtgärden har utförts på rätt sätt.
 
-   ![](assets/packages_6.png)
+  ![](assets/packages_6.png)
 
 * Du kan se de olika stegen av exporten via fliken **[!UICONTROL Log]**.    Detta innehåller statusvärden för alla tidigare exporter.
 
-   ![](assets/packages_7.png)
+  ![](assets/packages_7.png)
 
 >[!NOTE]
 >
@@ -168,7 +168,7 @@ När åtgärden är klar visas flera avsnitt:
 * **[!UICONTROL Import status]**: I det här avsnittet visas om åtgärden har utförts på rätt sätt.
 * Du kan se de olika stegen i importen via fliken **[!UICONTROL Execution logs]**.  Detta är speciellt viktigt för att se eventuella fel.
 
-   ![](assets/packages_20.png)
+  ![](assets/packages_20.png)
 
 När ett paket har importerats kan du inte importera det igen från samma element.  Du kan endast ändra etiketten och ID:t.
 

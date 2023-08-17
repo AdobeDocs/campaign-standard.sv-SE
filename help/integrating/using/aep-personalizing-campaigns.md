@@ -51,7 +51,7 @@ Om du vill göra det måste du lägga till attributen i **[!UICONTROL Read audie
    >
    >Du kan lägga till högst 20 XDM-fält i en **[!UICONTROL Read audience]** aktivitet.
 
-1. När alla fält har lagts till klickar du på **[!UICONTROL Confirm]** för att spara ändringarna. De kommer nu att vara tillgängliga för att personalisera era leveranser.
+1. Klicka på knappen **[!UICONTROL Confirm]** för att spara ändringarna. De kommer nu att vara tillgängliga för att personalisera era leveranser.
 
 Mer information om hur du skapar och anpassar leveranser finns i Campaign Standardens dokumentation:
 

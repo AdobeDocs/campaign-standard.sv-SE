@@ -25,8 +25,8 @@ Adobe Campaign Standard API-åtkomst konfigureras enligt stegen nedan. Varje ste
 
 1. **Kontrollera att du har ett digitalt certifikat** eller skapa en vid behov. De offentliga och privata nycklarna som tillhandahålls med certifikatet behövs i följande steg.
 1. **Skapa en ny integrering av Adobe Campaign Service** in [Adobe Developer](https://developer.adobe.com/) och konfigurera det. Dina autentiseringsuppgifter genereras sedan (API-nyckel, klienthemlighet...).
-1. **Skapa en JSON-webbtoken (JWT)** från de inloggningsuppgifter som tidigare genererats och signera med din privata nyckel. JWT kodar all identitets- och säkerhetsinformation som Adobe behöver för att verifiera din identitet och ge dig åtkomst till API:t.
-1. **Byt ut din JWT mot en åtkomsttoken** via en POST. Denna Access Token måste användas i varje rubrik för dina API-begäranden.
+1. **Skapa en JSON-webbtoken (JWT)** från de inloggningsuppgifter som tidigare genererats och signera dem med din privata nyckel. JWT kodar all identitets- och säkerhetsinformation som Adobe behöver för att verifiera din identitet och ge dig åtkomst till API:t.
+1. **Byt ut din JWT mot en åtkomsttoken** genom en begäran om POST. Denna Access Token måste användas i varje rubrik för dina API-begäranden.
 
 Om du vill skapa en säker Adobe I/O-till-tjänst-API-session måste alla förfrågningar till en Adobe-tjänst innehålla informationen nedan i auktoriseringshuvudet.
 
@@ -38,18 +38,18 @@ Om du vill skapa en säker Adobe I/O-till-tjänst-API-session måste alla förfr
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-* **&lt;organization>**: Detta är ditt personliga organisations-ID, och Adobe tillhandahåller ett organisations-ID för varje instans:
+* **&lt;organization>**: Detta är ditt personliga organisations-ID, och Adobe tillhandahåller ett organisations-ID för var och en av dina instanser:
 
    * &lt;organization> : din produktionsinstans,
    * &lt;organization-mkt-stage>: din sceninstans.
 
-   Kontakta din administratör eller din Adobe tekniska kontakt för att få ditt organisations-ID-värde. Du kan även hämta den till Adobe I/O när du skapar en ny integrering i licenslistan (se <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Adobe Developer-dokumentation</a>).
+  Kontakta din administratör eller din Adobe tekniska kontakt för att få ditt organisations-ID-värde. Du kan även hämta den till Adobe I/O när du skapar en ny integrering i licenslistan (se <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Adobe Developer-dokumentation</a>).
 
 * **&lt;access_token>**: Din personliga åtkomsttoken, som hämtades när din JSON-webbtoken byttes ut via en POST.
 
 * **&lt;api_key>**: din egen API-nyckel. Det tillhandahålls i Adobe I/O efter att en ny integrering med Adobe Campaign Service har skapats.
 
-   ![alt-text](assets/tenant.png)
+  ![alt-text](assets/tenant.png)
 
 ## Felsökning
 

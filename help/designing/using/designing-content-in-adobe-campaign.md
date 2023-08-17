@@ -27,7 +27,7 @@ Med E-postdesignern kan du skapa e-postinnehåll och mallar för e-postinnehåll
 
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
-![](assets/do-not-localize/how-to-video.png) [Upptäck e-postdesignern i video](#video)
+![](assets/do-not-localize/how-to-video.png) [Upptäck e-postdesignern i en video](#video)
 
 * Se [Kom igång med e-postdesignern](../../designing/using/quick-start.md) för information om hur du skapar e-postinnehåll.
 * Se [Använda e-postdesignern](../../designing/using/designing-content-in-adobe-campaign.md) för en översikt över e-postdesignern.
@@ -105,17 +105,17 @@ Vi rekommenderar att du tillämpar följande principer för att kunna använda e
 
 * Använd textbunden formatering i stället för en separat CSS och CSS i &lt;head>-avsnittet i HTML-koden. Genom att använda textbunden formatering kan du optimera innehållets fragment för att sedan spara och återanvända det.
 
-   Se [Lägga till textbundna formateringsattribut](../../designing/using/styles.md#adding-inline-styling-attributes).
+  Se [Lägga till textbundna formateringsattribut](../../designing/using/styles.md#adding-inline-styling-attributes).
 
 * Om du importerar ZIP-filer som innehåller ditt HTML-innehåll ska du använda vanlig CSS. SCSS-formatmallar stöds inte.
 
 * Placera ditt varumärke enkelt genom att skapa och återanvända innehållsfragment för att få enhetliga marknadsföringskampanjer.
 
-   Se [Skapa ett innehållsfragment](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
+  Se [Skapa ett innehållsfragment](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
 
 * När du redigerar **e-postinnehåll**:
 
-   förhandsgranska dina meddelanden innan du skickar dem. Adobe Campaign erbjuder ett sätt att testa e-poståtergivning med Litmus. Se [E-poståtergivning](../../sending/using/email-rendering.md) för mer information.
+  förhandsgranska dina meddelanden innan du skickar dem. Adobe Campaign erbjuder ett sätt att testa e-poståtergivning med Litmus. Se [E-poståtergivning](../../sending/using/email-rendering.md) för mer information.
 
 * Referensmeta-taggen stöds inte i e-postdesignern.
 
@@ -161,7 +161,7 @@ Observera följande när det gäller fragment:
 * [Skapa ett SMS-meddelande](../../channels/using/creating-an-sms-message.md)
 * [Skapa och skicka ett push-meddelande](../../channels/using/preparing-and-sending-a-push-notification.md)
 
-## Videokurs {#video}
+## Självstudievideo {#video}
 
 Den här videon ger en översikt över e-postdesignern.
 

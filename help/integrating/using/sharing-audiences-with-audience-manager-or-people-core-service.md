@@ -33,7 +33,7 @@ Import av målgrupper/segment från People core service i Adobe Campaign kan utf
 
 1. Välj motsvarande **[!UICONTROL Shared Data Source]**.
 
-   Om den valda datakällan är konfigurerad att använda en krypteringsalgoritm kan du med ytterligare ett alternativ **[!UICONTROL Force reconciliation with a profile]**. Markera det här alternativet om **[!UICONTROL Channel]** -fältet i datakällan är inställt på E-post eller Mobil (SMS) och om du vill utnyttja profildata.
+   Om den valda datakällan är konfigurerad att använda en krypteringsalgoritm kan du med ytterligare ett alternativ **[!UICONTROL Force reconciliation with a profile]**. Markera alternativet om **[!UICONTROL Channel]** -fältet i datakällan är inställt på E-post eller Mobil (SMS) och om du vill utnyttja profildata.
 
    Om du inte markerar **[!UICONTROL Force reconciliation with a profile]** och if **[!UICONTROL Channel]** är inställt på E-post eller Mobil (SMS) i AMC-datakällan och alla krypterade deklarerade ID:n dekrypteras. En publik av typen **Fil** med en lista över alla e-postadresser/mobiltelefonnummer skapas/uppdateras. På så sätt förloras ingen e-postadress/inget mobiltelefonnummer när en delad målgrupp importeras via den här integreringen, även om profilen inte finns i Campaign. Observera att den här typen av målgrupper inte kan användas direkt eftersom de måste förenas manuellt med hjälp av arbetsflöden.
 

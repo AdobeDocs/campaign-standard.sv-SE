@@ -1,5 +1,5 @@
 ---
-title: DataModel-prenumerationshändelse
+title: Prenumerationshändelse för DataModel
 description: Läs mer om datamodellen
 audience: developing
 content-type: reference
@@ -51,7 +51,7 @@ ht-degree: 6%
             <ul>
             <li>Text - text - 1</li>
             <li>HTML - html - 2</li>
-            <li>OGILTIGT VÄRDE - __Invalid_value__ - __Invalid_value__</li>
+            <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
             <li>Okänd - okänd - 0</li>
             </ul>
         </td>

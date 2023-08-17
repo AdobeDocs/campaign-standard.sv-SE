@@ -96,9 +96,9 @@ Med de här inställningarna kan du visa ett kontrollfält på den anpassade res
 
 * **[!UICONTROL Authorize creating]**: Med det här alternativet kan du aktivera skapande av resurselement. Användaren kan därför lägga till fler poster.
 
-   >[!NOTE]
-   >
-   >Du måste först aktivera detaljskärmen som är kopplad till resursen för att göra det här alternativet tillgängligt.
+  >[!NOTE]
+  >
+  >Du måste först aktivera detaljskärmen som är kopplad till resursen för att göra det här alternativet tillgängligt.
 
 * **[!UICONTROL Authorize duplicating]**: Med det här alternativet kan du aktivera dubblettposter som är kopplade till den anpassade resursen.
 * **[!UICONTROL Authorize deleting]**: Med det här alternativet kan du aktivera borttagning av poster som är kopplade till den anpassade resursen.

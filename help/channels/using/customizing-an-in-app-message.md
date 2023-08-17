@@ -45,23 +45,23 @@ I **[!UICONTROL Layout]**-listrutan finns fyra olika alternativ att välja mella
 
 * **[!UICONTROL Full page]**: Den här typen av layout täcker hela skärmen på målenheterna.
 
-   Den stöder medie- (bild, video), text- och knappkomponenter.
+  Den stöder medie- (bild, video), text- och knappkomponenter.
 
 * **[!UICONTROL Large modal]**: Layouten visas i ett stort varningsfönster och programmet visas fortfarande i bakgrunden.
 
-   Den stöder medie- (bild, video), text- och knappkomponenter.
+  Den stöder medie- (bild, video), text- och knappkomponenter.
 
 * **[!UICONTROL Small modal]**: Den här layouten visas som ett litet fönster med en viss typ av varning. Programmet visas fortfarande i bakgrunden.
 
-   Den stöder medie- (bild, video), text- och knappkomponenter.
+  Den stöder medie- (bild, video), text- och knappkomponenter.
 
 * **[!UICONTROL Alert]**: Den här typen av layout visas som ett systemspecifikt varningsmeddelande.
 
-   Det har bara stöd för text- och knappkomponenter.
+  Det har bara stöd för text- och knappkomponenter.
 
 * **[!UICONTROL Local notification]**: Den här typen av layout visas som ett banderollmeddelande.
 
-   Det kan bara hantera ljud, text och mål. Mer information om lokala meddelanden finns i [Anpassa en lokal meddelandetyp](#customizing-a-local-notification-message-type).
+  Det kan bara hantera ljud, text och mål. Mer information om lokala meddelanden finns i [Anpassa en lokal meddelandetyp](#customizing-a-local-notification-message-type).
 
 Varje typ av layout kan förhandsgranskas på olika enheter, t.ex. telefon, surfplatta, plattform, t.ex. Android eller iOS, och orientering, t.ex. liggande eller stående i det högra fönstret i innehållsredigeraren.
 

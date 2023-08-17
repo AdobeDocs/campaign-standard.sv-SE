@@ -30,9 +30,9 @@ När du utformar ett schemalagt arbetsflöde som innehåller flera aktiviteter m
 
 ## Konfigurera arbetsflödet
 
-Om du vill kontrollera om en eller flera uppgifter från en tidigare arbetsflödeskörning fortfarande väntar, måste du använda en **[!UICONTROL Query]** och **[!UICONTROL Test]** aktivitet.
+Om du vill kontrollera om en eller flera uppgifter från en tidigare arbetsflödeskörning fortfarande väntar måste du använda en **[!UICONTROL Query]** och **[!UICONTROL Test]** aktivitet.
 
-1. Lägg till en **[!UICONTROL Query]** efter **[!UICONTROL Scheduler]** och konfigurera den sedan enligt följande.
+1. Lägg till en **[!UICONTROL Query]** aktivitet efter **[!UICONTROL Scheduler]** och konfigurera den sedan enligt följande.
 
 1. Ändra aktivitetens resurs till **[!UICONTROL WorkflowTaskDetail]**, vilket innebär att arbetsflödets aktuella uppgifter anges som mål.
 
@@ -44,9 +44,9 @@ Om du vill kontrollera om en eller flera uppgifter från en tidigare arbetsflöd
 
    * Den första regeln filtrerar bort den aktuella aktiviteten (fråga2) samt nästa schemauppgift (schema2) som hör till det aktuella arbetsflödet.
 
-      >[!NOTE]
-      >
-      >När en **[!UICONTROL Scheduler]** aktiviteten startar lägger den omedelbart till en annan schemauppgift som ska köras vid nästa schemalagda tillfälle och starta arbetsflödet. Därför är det viktigt att filtrera både frågan och schemalägga aktiviteter när du söker efter väntande aktiviteter från en tidigare körning.
+     >[!NOTE]
+     >
+     >När en **[!UICONTROL Scheduler]** aktiviteten startar lägger den omedelbart till en annan schemauppgift som ska köras vid nästa schemalagda tillfälle och starta arbetsflödet. Därför är det viktigt att filtrera både frågan och schemalägga aktiviteter när du söker efter väntande aktiviteter från en tidigare körning.
 
    * Den andra regeln avgör om några uppgifter från en tidigare körning av arbetsflödet fortfarande är aktiva (väntande), vilket motsvarar körningsstatusen 0.
 

@@ -63,13 +63,13 @@ Följ nedanstående procedur för att uppnå detta:
 
    ![](assets/adobeIO3.png)
 
-1. På nästa skärm kan du ladda upp en egen offentlig nyckel eller låta Adobe Developer generera nyckelparet åt dig. Dessa instruktioner följer det senare alternativet. Om du vill låta Adobe Developer generera nyckelparet klickar du på alternativ 1; klickar du på **[!UICONTROL Generate keypair]** -knappen.
+1. På nästa skärm kan du ladda upp en egen offentlig nyckel eller låta Adobe Developer generera nyckelparet åt dig. Dessa instruktioner följer det senare alternativet. Om du bestämmer dig för att låta Adobe Developer generera nyckelparet klickar du på alternativ 1 och sedan på knappen **[!UICONTROL Generate keypair]** -knappen.
 
    ![](assets/adobeIO4.png)
 
 1. På nästa skärm uppmanas du att namnge och välja hämtningsplats för nyckelparets zip-fil.
 
-När filen har laddats ned kan du packa upp den för att visa offentliga och privata nycklar. Adobe Developer har redan använt den offentliga nyckeln i ditt Adobe Developer-projekt. Du måste behålla din privata nyckel senare; den privata nyckeln kommer att användas under förintegreringsinställningarna för integrationsverktyget.
+När filen har laddats ned kan du packa upp den för att visa offentliga och privata nycklar. Adobe Developer har redan använt den offentliga nyckeln i ditt Adobe Developer-projekt. Du måste behålla din privata nyckel senare. Den privata nyckeln kommer att användas under förintegreringsinställningarna för integrationsverktyget.
 
 1. Klicka **[!UICONTROL Next]** fortsätta
 
@@ -87,7 +87,7 @@ När filen har laddats ned kan du packa upp den för att visa offentliga och pri
 
    ![](assets/adobeIO7.png)
 
-1. På nästa skärm måste du välja API:t för I/O-händelser och sedan klicka på **[!UICONTROL Next]**.
+1. På nästa skärm måste du välja API:t för I/O-händelser och sedan klicka **[!UICONTROL Next]**.
 
 1. På nästa skärm klickar du **[!UICONTROL Save the configured API]**.  Du kommer tillbaka till skärmen med projektinformation.
 

@@ -64,7 +64,7 @@ Nu när vi har skapat en Experience Cloud-utlösare kan vi använda den i Adobe 
 
 I Adobe Campaign måste du skapa en utlösare länkad till den du skapade i Experience Cloud.
 
-1. Klicka på knappen **Adobe** logotyp, i det övre vänstra hörnet och välj **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
+1. Om du vill skapa utlösaren i Adobe Campaign klickar du på **Adobe** logotyp, i det övre vänstra hörnet och välj **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
 
    ![](assets/remarketing_1.png)
 
@@ -81,7 +81,7 @@ I Adobe Campaign måste du skapa en utlösare länkad till den du skapade i Expe
 
    ![](assets/trigger_uc_browse_6.png)
 
-1. Om du vill visa meddelandemallen klickar du på knappen **[!UICONTROL More]** överst till höger klickar du på **[!UICONTROL Trigger Transactional Template]**.
+1. Klicka på knappen **[!UICONTROL More]** överst till höger klickar du på **[!UICONTROL Trigger Transactional Template]**.
 
 1. Anpassa innehållet och avsändarinformationen.
 

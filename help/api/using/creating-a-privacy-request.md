@@ -30,9 +30,9 @@ Nyttolasten måste innehålla följande parametrar:
 * **name**: ett unikt internt namn
 * **namespace**: namnområdesnamnet som konfigurerats i Campaign Standardens gränssnitt
 * **Avstämningsvärde**: avstämningsvärdet baserat på avstämningsnyckeln som definierats i namnutrymmet
-* **label**: begäranetikett
+* **label**: etiketten för begäran
 * **type**: begärandetypen. Godkända värden är &quot;access&quot; eller &quot;delete&quot;.
-* **reglering**: Regeltypen. Exempel: &quot;GDPR&quot;, &quot;CCPA&quot;. Den här parametern är obligatorisk och tillgänglig från och med Campaign Standard 19.4. Om du använder en äldre version behöver du inte lägga till den i din nyttolast.
+* **reglering**: Regeltypen. Exempel:&quot;GDPR&quot;,&quot;CCPA&quot;. Den här parametern är obligatorisk och tillgänglig från och med Campaign Standard 19.4. Om du använder en äldre version behöver du inte lägga till den i din nyttolast.
 
 <br/>
 

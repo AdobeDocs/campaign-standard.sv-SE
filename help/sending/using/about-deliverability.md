@@ -43,13 +43,13 @@ Leveransgraden är antalet meddelanden som når mottagarnas inkorgar jämfört m
 Med Adobe Campaign beror leveransgraden på många faktorer, bland annat:
 
 * Korrekt konfiguration av dina instanser: kontakta din Adobe-representant för att få hjälp.
-* Legitimal nätverkskonfiguration: se [det här avsnittet](../../sending/using/optimize-delivery.md#network-config) och [Domäninställningar och -strategi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#domain-setup-and-strategy).
-* Din IP-adress: se [IP-strategi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#ip-strategy).
+* Legitimerad nätverkskonfiguration: se [det här avsnittet](../../sending/using/optimize-delivery.md#network-config) och [Domäninställningar och -strategi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#domain-setup-and-strategy).
+* Din IP-adress är känd: se [IP-strategi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#ip-strategy).
 * Kvaliteten på adresserna: se [Karantänhantering](../../sending/using/optimize-delivery.md#quarantine-management).
 * Låg [klagomål](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html) och [hård studsa](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces) räntenivåer.
 * Ditt meddelandeinnehåll: se [Kontrollera e-postinnehåll](../../sending/using/control-email-content.md).
 * Meddelandeautentisering (SPF, DKIM, DMARC): se [det här avsnittet](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).
-* Avsändarens rykte: om du vill veta hur de viktigaste internetleverantörerna utvärderar ett avsändarrykte kan du läsa [det här avsnittet](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html).
+* Avsändarens rykte: om du vill veta hur de viktigaste internetleverantörerna utvärderar ett avsändarens rykte kan du läsa [det här avsnittet](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html).
 
 ## Verktyg för kampanjleverans {#deliverability-tools}
 
@@ -88,15 +88,14 @@ Mer information finns i följande avsnitt:
 
 ### Använd övervaknings- och rapporteringsverktyg
 
-Använd Adobe Campaign funktioner för att övervaka leveransen.
+Använd de funktioner som Adobe Campaign erbjuder för att övervaka leveransen.
 
 Med Adobe Campaign kan ni kontrollera hur era leveranser fungerar med hjälp av en uppsättning inbyggda realtidsindikatorer. <!--For example, you can check the number of messages that are successfully executed, sent and delivered. You can also verify the number of messages that have been opened and the number of messages/links that have been clicked.-->Ni kan också skapa anpassningsbara realtidsrapporter för bättre insikt i era leveranser.
 
 Mer information finns i följande avsnitt:
 
 * [Övervaka levererbarhet](../../sending/using/monitor-deliverability.md)
-
-   <!--[Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)-->
+  <!--[Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)-->
 * [Få aviseringar när fel uppstår](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Dynamiska rapporter](../../reporting/using/about-dynamic-reports.md)
 

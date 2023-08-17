@@ -19,7 +19,7 @@ ht-degree: 5%
 
 Adobe Campaign Standard är kompatibelt med de flesta webbläsare, både för datorer och operativsystem för surfplattor.
 
-Adobe Campaign Standard stöder endast liggande som visningsläge på surfplattor.
+Adobe Campaign Standard har bara stöd för liggande som visningsläge på surfplattor.
 
 Här är en lista över webbläsare som är kompatibla med Adobe Campaign Standard:
 
@@ -46,6 +46,6 @@ Här är de olika slutpunkterna som används i Campaign Standard.
 | Experience Cloud | `https://experiencecloud.adobe.com` |
 | Spåra | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net` |
 | Resursintegrering | `https://*.marketing-assets.adobe.com` |
-| Adobes interna tjänster | `https://*.adobe.io` |
+| Interna Adobe-tjänster | `https://*.adobe.io` |
 | Undersökningar | `https://adobe.allegiancetech.com` |
 | URL för standardprofilering (före klientkonfiguration) | `https://*.adobe-campaign.com` |

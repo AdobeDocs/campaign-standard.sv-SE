@@ -61,7 +61,7 @@ Spårning med Adobe Campaign Standard ger åtkomst till följande funktioner:
 
 ## Spårningsloggar {#tracking-logs}
 
-The **[!UICONTROL Tracking logs]** På -fliken visas spårningshistoriken för leveransen. På den här fliken visas spårningsinformation för skickade meddelanden, t.ex. alla URL:er som har spårats av Adobe Campaign. Spårningsinformationen på den här fliken uppdateras var 10:e minut.
+The **[!UICONTROL Tracking logs]** På -fliken visas spårningshistoriken för leveransen. På den här fliken visas spårningsinformation för skickade meddelanden, till exempel alla URL:er som har spårats av Adobe Campaign. Spårningsinformationen på den här fliken uppdateras var 10:e minut.
 
 >[!NOTE]
 >

@@ -26,7 +26,7 @@ Adobe Campaign har två typer av listor:
 
 Listorna visas i kolumner. Varje kolumn kan sorteras i stigande eller fallande ordning en i taget.
 
-Elementen i en lista har en kryssruta där du kan markera dem. Genom att markera ett eller flera element kan du utföra flera åtgärder, t.ex. redigera, duplicera och ta bort dessa element.
+Elementen i en lista har en kryssruta där du kan markera dem. Genom att markera ett eller flera element kan du utföra flera åtgärder, som att redigera, duplicera och ta bort dessa element.
 
 När du hovrar över ett element i listan, **snabbåtgärder**. Dessa åtgärder gör att användaren kan utföra olika åtgärder för elementet som hovras över, till exempel redigera, markera, ta bort eller visa information.
 
@@ -50,10 +50,10 @@ Du kan också konfigurera om kolumner i en lista ska visas eller inte. Så här 
 
    * **[!UICONTROL NO]**: Ingen sortering i kolumnen
    * **[!UICONTROL ASC]**: Använder en stigande (stigande) sortering i kolumnen
-   * **[!UICONTROL DESC]**: Tillämpar en fallande (fallande) sortering på kolumnen.
+   * **[!UICONTROL DESC]**: Tillämpar en fallande (nekande) sortering på kolumnen.
 
 1. Ta bort de kolumner som du inte vill ska visas genom att markera rutorna för de kolumner som ska tas bort. Använd sedan ![](assets/delete.png) i åtgärdsfältet för att bekräfta att du vill ta bort dem.
 1. När listan innehåller rätt kolumner kan du ändra visningsordningen genom att markera de kolumner som du vill flytta. Använd sedan ![](assets/arrowdown.png) och ![](assets/arrowup.png) pilar.
 1. Bekräfta listkonfigurationen genom att välja **[!UICONTROL OK]**.
 
-Listan visas nu som du har konfigurerat den.
+Listan visas nu som den har konfigurerats.

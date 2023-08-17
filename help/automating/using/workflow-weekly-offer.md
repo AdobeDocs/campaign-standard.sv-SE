@@ -26,7 +26,7 @@ Du kan skicka ett e-postmeddelande med specialerbjudanden varje tisdag till alla
 
 ## Skapa en schemaläggningsaktivitet{#creating-a-scheduler-activity}
 
-1. I **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, dra och släppa [Schemaläggare](../../automating/using/scheduler.md) aktivitet.
+1. I **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, dra och släppa en [Schemaläggare](../../automating/using/scheduler.md) aktivitet.
 1. Dubbelklicka på aktiviteten.
 1. Konfigurera leveransen.
 1. I **[!UICONTROL Execution frequency]** väljer du **[!UICONTROL Weekly]**.

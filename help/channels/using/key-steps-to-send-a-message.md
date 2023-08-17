@@ -27,7 +27,7 @@ Specifik information om hur du skapar och konfigurerar varje kommunikationskanal
 * [Skapa ett push-meddelande](../../channels/using/preparing-and-sending-a-push-notification.md).
 * [Förbereda och skicka ett meddelande i appen](../../channels/using/preparing-and-sending-an-in-app-message.md)
 
-Om du vill veta mer om de effektivaste strategierna för leverans kan du läsa [Bästa praxis](../../sending/using/delivery-best-practices.md) -avsnitt.
+Om du vill veta mer om de effektivaste strategierna för leverans kan du läsa [Bästa praxis för leverans](../../sending/using/delivery-best-practices.md) -avsnitt.
 
 ## Skapa ett meddelande
 
@@ -35,13 +35,13 @@ Utnyttja Campaign Standard [marknadsföringsverksamhet](../../start/using/market
 
 ![](assets/marketing-activities.png)
 
-Meddelanden kan skapas antingen från listan över marknadsföringsaktiviteter eller från ett arbetsflöde med [särskilda aktiviteter](../../automating/using/about-channel-activities.md).
+Meddelanden kan skapas antingen från listan över marknadsföringsaktiviteter eller från ett arbetsflöde med [dedikerad verksamhet](../../automating/using/about-channel-activities.md).
 
 ![](assets/steps-channel.png)
 
 ## Definiera målgruppen
 
-Definiera mottagarna av meddelandet. Om du vill göra det använder du [frågeredigerare](../../automating/using/editing-queries.md) från den vänstra rutan för att filtrera data i databasen och skapa regler som riktar sig till er målgrupp.
+Definiera mottagarna av meddelandet. Använd [frågeredigerare](../../automating/using/editing-queries.md) från den vänstra rutan för att filtrera data i databasen och skapa regler som riktar sig till er målgrupp.
 
 Det finns flera olika typer av målgrupper:
 
@@ -62,7 +62,7 @@ I **[!UICONTROL Content]** blockera, utforma och anpassa innehållet i meddeland
 
 ![](assets/steps-prepare.png)
 
-**Kontrollera och testa meddelandet** innan den skickas med Campaign Standard: förhandsgranskning, e-poståtergivning, korrektur o.s.v. Mer information om detta finns i [det här avsnittet](../../sending/using/previewing-messages.md).
+**Kontrollera och testa meddelandet** innan du skickar det med Campaign Standard: förhandsgranskning, e-poståtergivning, korrektur osv. Mer information om detta finns i [det här avsnittet](../../sending/using/previewing-messages.md).
 
 Använd **[!UICONTROL Schedule]** block för att definiera när meddelanden ska skickas (se [Schemaläggningsmeddelanden](../../sending/using/about-scheduling-messages.md)).
 

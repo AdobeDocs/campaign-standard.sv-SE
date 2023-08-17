@@ -87,7 +87,7 @@ Om du vill använda målprofiler för testning måste du först markera dem och 
 
    ![](assets/substitution_multiple_addresses.png)
 
-1. När du har definierat alla profiler och ersättningsadresser kan du testa meddelandet genom att skicka ett korrektur. Om du vill göra det klickar du på **[!UICONTROL Test]** och välj sedan den testtyp som ska utföras.
+1. När du har definierat alla profiler och ersättningsadresser kan du testa meddelandet genom att skicka ett korrektur. Klicka på **[!UICONTROL Test]** och välj sedan den testtyp som ska utföras.
 
    Observera att om ingen testprofil har lagts till i meddelandemålet, kommer **[!UICONTROL Email rendering]** och **[!UICONTROL Proof + Email rendering]** är inte tillgängliga.  Mer information om hur du skickar korrektur finns i [det här avsnittet](../../sending/using/sending-proofs.md).
 
@@ -145,7 +145,7 @@ Så här importerar du profiler som ska användas för testning från en målgru
 
 Om du vill kunna förhandsgranska meddelanden med målprofiler måste du se till att du har lagt till de här profilerna i **[!UICONTROL Profile substitution]** lista (se [Definiera profiler och ersättningsadresser](#selecting-profiles)).
 
-Om du vill använda anpassningsfält i meddelandet måste de läggas till **före** starta förberedelsen av meddelandet. I annat fall beaktas de inte i förhandsgranskningen. Därför måste du starta meddelandeförberedelsen igen om några ändringar görs i personaliseringsfälten.
+Om du vill använda anpassningsfält i meddelandet måste de läggas till **före** starta förberedelsen av meddelandet. I annat fall tas de inte med i förhandsgranskningen. Därför måste du starta meddelandeförberedelsen igen om några ändringar görs i personaliseringsfälten.
 
 Så här förhandsgranskar du meddelanden med hjälp av profilersättning:
 
@@ -153,11 +153,11 @@ Så här förhandsgranskar du meddelanden med hjälp av profilersättning:
 
    ![](assets/substitution_preview_access.png)
 
-1. Välj **[!UICONTROL Preview]** tabbtangenten och sedan klicka **[!UICONTROL Change profile]**.
+1. Välj **[!UICONTROL Preview]** tabbtangenten och klicka sedan på **[!UICONTROL Change profile]**.
 
    ![](assets/substitution_preview_changeprofile.png)
 
-1. Klicka på **[!UICONTROL Profile Substitution]** för att visa ersättningsprofiler som har lagts till för testning.
+1. Klicka på **[!UICONTROL Profile Substitution]** om du vill visa ersättningsprofiler som har lagts till för testning.
 
    Markera de profiler som du vill använda för förhandsgranskning och klicka sedan på **[!UICONTROL Select]**.
 
@@ -215,7 +215,7 @@ De viktigaste stegen för detta är följande:
 
    ![](assets/substitution_uc5.png)
 
-1. Välj **[!UICONTROL Profile substitutions]** tabbtangenten och sedan klicka **[!UICONTROL Import from an audience]**.
+1. Välj **[!UICONTROL Profile substitutions]** tabbtangenten och klicka sedan på **[!UICONTROL Import from an audience]**.
 
    ![](assets/substitution_uc6.png)
 
@@ -243,7 +243,7 @@ De viktigaste stegen för detta är följande:
 
    ![](assets/substitution_uc10.png)
 
-1. Välj **[!UICONTROL Preview]** tabbtangenten och sedan klicka **[!UICONTROL Change profile]**.
+1. Välj **[!UICONTROL Preview]** tabbtangenten och klicka sedan på **[!UICONTROL Change profile]**.
 
    ![](assets/substitution_uc_preview.png)
 
@@ -267,7 +267,7 @@ De viktigaste stegen för detta är följande:
 
    ![](assets/substitution_uc_proofs.png)
 
-## Videokurs {#video}
+## Självstudievideo {#video}
 
 I den här videon visas hur du kan testa dina e-postmeddelanden med hjälp av profilersättning.
 

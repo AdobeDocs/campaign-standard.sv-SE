@@ -34,7 +34,7 @@ Det finns två typer av push-meddelanden i Adobe Campaign:
 
 * Typ **[!UICONTROL Alert/Message/Badge]**-meddelanden gör att du kan skicka standardtextbaserade meddelanden med ytterligare innehåll (ljud, emblem, länk etc.)  detta kan du definiera i **[!UICONTROL Advanced options]**-avsnittet.
 
-   Med den här meddelandetypen kan du lägga till en rubrik och ett meddelande där du kan använda personaliserade fält.    Om du vill anpassa meddelandet måste du markera mall **[!UICONTROL Send push on profiles]**.
+  Med den här meddelandetypen kan du lägga till en rubrik och ett meddelande där du kan använda personaliserade fält.    Om du vill anpassa meddelandet måste du markera mall **[!UICONTROL Send push on profiles]**.
 
 * Typ **[!UICONTROL Silent push]**-meddelanden används för att i tysthet meddela programmet utan att något meddelande eller innehåll visas för slutanvändaren.  Ett typiskt användningsfall för den här typen av meddelanden är att göra programmet medvetet om att det finns innehåll på servern som ska hämtas.
 
@@ -68,7 +68,7 @@ Innan du skickar ett push-meddelanden bör du:
 
 1. I användargränssnittet för datainsamling installerar du **[!UICONTROL Adobe Campaign Standard]** tillägg.
 
-1. Konfigurera den mobila egenskap som du skapade i användargränssnittet för datainsamling i Adobe Campaign Standard. Mer information finns i [Konfigurera taggprogrammet i Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
+1. Konfigurera den mobila egenskap som du skapade i användargränssnittet för datainsamling i Adobe Campaign Standard. Mer information finns i [Konfigurera ditt taggprogram i Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
 1. Lägg till den kanalspecifika konfigurationen i installationen av mobilprogrammet.  Mer information finns i [Kanalspecifik programkonfiguration i Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 

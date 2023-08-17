@@ -30,7 +30,7 @@ En uppsättning standardregler säkerställer standardkontrollerna. Tabellen ned
 | Etikett | Kanal | Körningsfas | Beskrivning |
 |---------|----------|---------|---------|
 | **[!UICONTROL A/B Test]** | E-post | I början av personaliseringen | Extraherar testpopulationen för en leverans med ett A/B-test. |
-| **[!UICONTROL Check delivery size]** | Alla | Efter målinriktning | Kontrollerar meddelandets storlek. |
+| **[!UICONTROL Check delivery size]** | Alla | Efter målinriktning | Kontrollerar storleken på meddelandena. |
 | **[!UICONTROL Check email content is not empty]** | E-post | Efter målinriktning | Genererar ett fel om meddelandets innehåll är tomt. |
 | **[!UICONTROL Check In-App content for broadcast template]** | I appen | Börja personaliseringen | Kontrollerar att innehåll/utlösare i appen inte är tomma för sändningsmallen. |
 | **[!UICONTROL Check In-App content for profile template]** | I appen | I början av personaliseringen | Kontrollerar att innehåll/utlösare i appen inte är tomma för profilmallen. |
@@ -48,10 +48,10 @@ Kontrollregler kan tillämpas i olika faser av leveransens livscykel:
 
 * **I början av målinriktningen**: Kontrollregeln kan tillämpas i den här fasen så att personaliseringssteget inte körs i händelse av ett fel.
 
-* **Efter målinriktning**: Om du kör efter målanpassning kan du känna till målets volym för att kunna tillämpa kontrollregeln.
+* **Efter målinriktning**: Om du kör efter mål kan du känna till målets volym för att kunna tillämpa kontrollregeln.
 
-   Till exempel **Kontrollera korrekturstorlek** kontrollregeln tillämpas efter målinriktningsfasen: den här regeln förhindrar förberedelse av meddelandepersonalisering om det finns för många korrekturmottagare.
+  Till exempel **Kontrollera korrekturstorlek** kontrollregeln gäller efter målfasen: den här regeln förhindrar förberedelse av meddelandeanpassning om det finns för många korrekturmottagare.
 
 * **I början av personaliseringen**: Gäller när kontrollen gäller godkännande av meddelandepersonalisering. Anpassning av meddelanden utförs under analysfasen.
 
-* **I slutet av analysen**: När en kontroll kräver att meddelandepersonalisering är slutförd.
+* **Efter analysen**: När en kontroll kräver att meddelandepersonalisering är slutförd.

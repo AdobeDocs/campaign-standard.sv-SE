@@ -28,16 +28,16 @@ Arbetsflödet består av följande element:
 
 * A [Schemaläggaraktivitet](../../automating/using/segmentation.md) för att ange arbetsflödets körningsdatum.
 * A [Fråga](../../automating/using/query.md) till målprofiler för personer vars födelsedag och e-postadress har angetts.
-* A [Segmentering](../../automating/using/segmentation.md) aktivitet för att skapa tre segment indelade i olika utgående övergångar: 18-25 år gamla, 26-32 år gamla och profiler som är över 32 år gamla. Segmenten definieras enligt följande parametrar:
+* A [Segmentering](../../automating/using/segmentation.md) aktivitet för att skapa tre segment indelade i olika utgående övergångar: 18-25 år gammal, 26-32 år gammal och profiler som är över 32 år gamla. Segmenten definieras enligt följande parametrar:
 
-   ![](assets/wkf_segment_example_3.png)
+  ![](assets/wkf_segment_example_3.png)
 
    * Ett filter på sidan som definierar segmentets åldersgrupp
 
-      ![](assets/wkf_segment_new_segment.png)
+     ![](assets/wkf_segment_new_segment.png)
 
    * En typgräns **[!UICONTROL Random sampling]** som är länkad till en gräns **[!UICONTROL Maximum size]** på 100
 
-      ![](assets/wkf_segment_example_1.png)
+     ![](assets/wkf_segment_example_1.png)
 
 * An [E-postleverans](../../automating/using/email-delivery.md) aktivitet per segment.

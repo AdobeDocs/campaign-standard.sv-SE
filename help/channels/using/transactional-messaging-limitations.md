@@ -28,7 +28,7 @@ I det här avsnittet beskrivs de bästa metoderna och begränsningarna som du b�
 
 Endast användare med [Administration](../../administration/using/users-management.md#functional-administrators) kan konfigurera transaktionshändelser och få åtkomst till transaktionsmeddelanden.
 
-## Konfiguration och publicering av händelser {#design-and-publication}
+## Händelsekonfiguration och publicering {#design-and-publication}
 
 Eftersom du konfigurerar och publicerar transaktionshändelser går det inte att ångra vissa av de steg som du måste utföra. Du måste vara medveten om följande begränsningar:
 

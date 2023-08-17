@@ -20,7 +20,7 @@ ht-degree: 79%
 
 >[!IMPORTANT]
 >
->Produktlistor är bara tillgängliga för **transaktionsmeddelanden** via [E-postdesigner](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) gränssnitt.
+>Produktlistor är bara tillgängliga för **e-postmeddelanden för transaktioner** via [E-postdesigner](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) gränssnitt.
 
 När du redigerar innehållet i ett transaktionsmejl kan du skapa produktlistor som refererar till en eller flera datainsamlingar. I ett e-postmeddelande om att kunden överger en kundvagn kan du till exempel inkludera en lista över alla produkter som fanns i kundvagnen när de lämnade webbplatsen, med en bild, priset och en länk till varje produkt.
 

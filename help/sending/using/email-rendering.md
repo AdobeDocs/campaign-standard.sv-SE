@@ -70,13 +70,13 @@ Den dedikerade återgivningsrapporten för e-post visas. Se [Beskrivning av rapp
 
 I den här rapporten visas e-poståtergivningarna så som de visas för mottagaren. E-poståtergivningen kan variera beroende på hur mottagaren öppnar e-postleveransen: i en webbläsare, på en mobil enhet eller via ett e-postprogram.
 
-### Återgivningstoken
+### Återgivningstoken för e-post
 
 Antalet tillgängliga återgivningar visas i licensavtalet. Varje leverans med **E-poståtergivning** aktiverat minskar antalet tillgängliga återgivningar (så kallade tokens) med ett.
 
 Tokens-konto för varje enskild återgivning och inte för hela återgivningsrapporten för e-post, vilket innebär att:
 
-* **Varje gång** Om rapporten för e-poståtergivning genereras dras en token per meddelandeklient av: en token för Outlook 2000-återgivning, en för Outlook-återgivningen, en för Apple Mail-återgivningen och så vidare.
+* **Varje gång** Om rapporten för e-poståtergivning genereras dras en token per meddelandeklient av: en token för Outlook 2000-återgivningen, en för Outlook-återgivningen, en för Apple Mail-återgivningen och så vidare.
 
 * **För samma leverans** Om du genererar återgivningen av e-post igen minskas antalet tillgängliga tokens igen med antalet genererade återgivningar.
 

@@ -33,7 +33,7 @@ Du kan nu konfigurera ett arbetsflöde för Campaign Standard så att du kan imp
 
 När Campaign Standarden har konfigurerats som mål måste du skapa ett dedikerat arbetsflöde för att importera filen som har exporterats av Adobe Experience Platform.
 
-För att göra detta måste du lägga till och konfigurera en **[!UICONTROL Transfer file]** aktivitet. Mer information om hur du konfigurerar den här aktiviteten finns i [det här avsnittet](../../automating/using/transfer-file.md).
+Om du vill göra det måste du lägga till och konfigurera en **[!UICONTROL Transfer file]** aktivitet. Mer information om hur du konfigurerar den här aktiviteten finns i [det här avsnittet](../../automating/using/transfer-file.md).
 
 ![](assets/rtcdp-transfer-file.png)
 

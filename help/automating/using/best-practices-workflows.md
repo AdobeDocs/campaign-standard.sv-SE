@@ -55,7 +55,7 @@ I vissa sammanhang kan du behöva köra fler än 20 arbetsflöden. Om så är fa
 >
 >Även om du inte når tröskelvärdet på 20 arbetsflöden rekommenderar Adobe dig att **sprida arbetsflödets körning över tid**. Om du programmerar körningen av arbetsflödena får du bättre prestanda för instansen.
 
-Innan du startar ett arbetsflöde [!DNL Campaign Standard] kontrollerar om det finns tillräckligt med fysiskt systemminne för att köra arbetsflödet. Om det inte finns tillräckligt med minne visas ett meddelande om att arbetsflödets körning kommer att fördröjas tills inläsningen på servern går ned och systemminnet ökar.
+Innan du startar ett arbetsflöde [!DNL Campaign Standard] kontrollerar om det finns tillräckligt med fysiskt systemminne för att köra arbetsflödet. Om det inte finns tillräckligt med ledigt minne visas ett meddelande om att arbetsflödets körning kommer att fördröjas tills inläsningen på servern går ned och systemminnet ökar.
 
 ### Frekvens
 

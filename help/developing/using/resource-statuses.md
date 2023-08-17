@@ -28,11 +28,11 @@ Det finns två kolumner som är dedikerade till att visa dessa statusvärden i *
 * **Utkast**: resursen har precis skapats eller omformulerats. Om du vill skapa databastabellerna och motsvarande API:er måste resursen publiceras på nytt. Om en resurs skrivs om blir den automatiskt inaktiv efter publiceringssteget.
 * **Väntande omutkast**: resursen har omarbetats. Utkastet görs om under nästa publicering. Omformulering är oåterkalleligt. Flera varningsmeddelanden visas för att informera användaren, både när de skriver om och förbereder publicering.
 
-   Mer information om omformulering finns i [Tar bort en resurs](../../developing/using/deleting-a-resource.md).
+  Mer information om omformulering finns i [Tar bort en resurs](../../developing/using/deleting-a-resource.md).
 
-   >[!NOTE]
-   >
-   >The **[!UICONTROL Cancel re-draft]** är tillgängligt när den resurs som du vill göra om utkast fortfarande innehåller länkar via andra resurser med statusen Publicerad. Med det här alternativet kan du återställa processen för att göra om utkast. De anpassade resurserna återgår sedan till sin ursprungliga status.
+  >[!NOTE]
+  >
+  >The **[!UICONTROL Cancel re-draft]** är tillgängligt när den resurs som du vill göra om utkast fortfarande innehåller länkar via andra resurser med statusen Publicerad. Med det här alternativet kan du återställa processen för att göra om utkast. De anpassade resurserna återgår sedan till sin ursprungliga status.
 
 * **Publicerad**: resursen har publicerats. Om resursen ändras efter det senaste ändringsdatumet visas ett meddelande som bjuder in dig att publicera resursen igen för att ta hänsyn till de senaste ändringarna.
 

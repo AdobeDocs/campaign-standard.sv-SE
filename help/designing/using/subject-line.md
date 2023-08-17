@@ -39,13 +39,13 @@ Om du vill definiera namnet på avsändaren som ska visas i huvudet för skickad
 
 ![](assets/delivery_content_edition16.png)
 
-* The **[!UICONTROL From: name]** kan du ange avsändarens namn. Som standard är **Avsändarens namn** -block anges automatiskt i fältet. Standardavsändarens e-postadress och avsändarens namn definieras i **[!UICONTROL Brands]** via Adobe Campaign logotyp på den avancerade menyn **[!UICONTROL Administration > Instance settings > Brand configuration]** .
+* The **[!UICONTROL From: name]** I kan du ange avsändarens namn. Som standard är **Avsändarens namn** -block anges automatiskt i fältet. Standardavsändarens e-postadress och avsändarens namn definieras i **[!UICONTROL Brands]** via Adobe Campaign logotyp på den avancerade menyn **[!UICONTROL Administration > Instance settings > Brand configuration]** .
 
-   Du kan ändra avsändarens namn genom att klicka på knappen **Avsändarens namn** -block. Fältet kan sedan redigeras och du kan ange det namn du vill använda.
+  Du kan ändra avsändarens namn genom att klicka på knappen **Avsändarens namn** -block. Fältet kan sedan redigeras och du kan ange det namn du vill använda.
 
-   Det här fältet kan anpassas. Om du vill göra det kan du lägga till anpassningsfält, innehållsblock och dynamiskt innehåll genom att klicka på ikonerna under avsändarens namn. Mer information finns i [Personalisering](../../designing/using/personalization.md).
+  Det här fältet kan anpassas. Om du vill göra det kan du lägga till anpassningsfält, innehållsblock och dynamiskt innehåll genom att klicka på ikonerna under avsändarens namn. Mer information finns i [Personalisering](../../designing/using/personalization.md).
 
-* The **[!UICONTROL From: email address]** kan inte redigeras från det här avsnittet. Du kan ändra det genom att redigera egenskaperna för e-postmeddelandet från kontrollpanelen. Mer information finns i [Lista med avancerade e-postparametrar](../../administration/using/configuring-email-channel.md#advanced-parameters).
+* The **[!UICONTROL From: email address]** kan inte redigeras från det här avsnittet. Du kan ändra det genom att redigera egenskaperna för e-postmeddelandet från dess kontrollpanel. Mer information finns i [Lista med avancerade e-postparametrar](../../administration/using/configuring-email-channel.md#advanced-parameters).
 
 >[!NOTE]
 >

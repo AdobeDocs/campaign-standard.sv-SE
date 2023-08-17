@@ -32,5 +32,5 @@ Här är ett exempel på ett arbetsflöde som kombinerar direktmeddelanden och e
 
 **Relaterade ämnen:**
 
-* [Aktivitet för direktleverans av e-post](../../automating/using/direct-mail-delivery.md)
+* [Leveransaktivitet för direktreklam](../../automating/using/direct-mail-delivery.md)
 * [Om direktutskick](../../channels/using/about-direct-mail.md)

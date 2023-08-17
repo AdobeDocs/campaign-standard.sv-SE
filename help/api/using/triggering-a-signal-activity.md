@@ -19,7 +19,7 @@ ht-degree: 2%
 
 I ett Adobe Campaign Standard-arbetsflöde kan det finnas en eller flera **Extern signal** verksamhet. Dessa aktiviteter är &#39;avlyssnare&#39; som väntar på att aktiveras.
 
-Med Campaign Standard-API:er kan du aktivera en **Extern signal** aktivitet för att anropa ett arbetsflöde. API-anropet kan innehålla parametrar som ska infogas i arbetsflödets händelsevariabler (ett målgruppsnamn, ett filnamn som ska importeras, en del av meddelandeinnehållet osv.). På så sätt kan ni enkelt integrera era Campaign-automatiseringar med ert externa system.
+Med Campaign Standard-API:er kan du aktivera en **Extern signal** aktivitet för att anropa ett arbetsflöde. API-anropet kan innehålla parametrar som ska infogas i arbetsflödets händelsevariabler (ett målnamn, ett filnamn som ska importeras, en del av meddelandeinnehållet osv.). På så sätt kan ni enkelt integrera era Campaign-automatiseringar med ert externa system.
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Om du vill anropa arbetsflödet med parametrar lägger du till dem i nyttolasten
 
 >[!NOTE]
 >
->När du lägger till en parameter i nyttolasten ska du se till att dess **name** och **type** värdena överensstämmer med den information som deklarerats i den externa signalaktiviteten. Dessutom bör nyttolastens storlek inte överstiga 64 kB.
+>När du lägger till en parameter i nyttolasten ska du kontrollera att dess **name** och **type** värdena överensstämmer med den information som deklarerats i den externa signalaktiviteten. Dessutom bör nyttolastens storlek inte överstiga 64 kB.
 
 <br/>
 

@@ -113,11 +113,11 @@ Det finns olika sätt att redigera en målgrupp beroende på målgruppstypen:
 
 * Om du vill redigera en **förfrågan** av målgrupp så går du till listan över målgrupper via **[!UICONTROL Audiences]** menyn eller **[!UICONTROL Audiences]** kortet för Adobe Campaign på hemsidan.
 
-   Öppna den relevanta målgruppen.        Samtliga element i en tidigare skapad målgrupp kan redigeras.
+  Öppna den relevanta målgruppen.        Samtliga element i en tidigare skapad målgrupp kan redigeras.
 
-   >[!CAUTION]
-   >
-   >Om du ändrar **[!UICONTROL Filtering dimension]** i förfrågningen så kommer de regler som tidigare har definierats att gå förlorade.
+  >[!CAUTION]
+  >
+  >Om du ändrar **[!UICONTROL Filtering dimension]** i förfrågningen så kommer de regler som tidigare har definierats att gå förlorade.
 
 * Om du vill redigera en målgrupps **lista** eller **fil** så redigerar du arbetsflödet som där det skapades och ändrar **[!UICONTROL Save audience]** aktiviteten.    Starta arbetsflödet så att målgruppen ändras.
 * Om du vill redigera en **Experience Cloud**-målgrupp så läser du avsnittet [Importera/exportera målgrupper med](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md) personbastjänsten.

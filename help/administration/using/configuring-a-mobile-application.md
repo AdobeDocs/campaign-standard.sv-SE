@@ -19,7 +19,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
-> Adobe Experience Platform Launch har omklassificerats som en serie datainsamlingstekniker i Adobe Experience Platform. Som ett resultat av detta har flera terminologiska förändringar införts i produktdokumentationen. Se [följande dokument](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html) för en konsoliderad hänvisning till terminologiska förändringar.
+> Adobe Experience Platform Launch har omklassificerats som en serie datainsamlingstekniker i Adobe Experience Platform. Som ett resultat av detta har flera terminologiska förändringar införts i produktdokumentationen. Läs mer i [följande dokument](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html) för en konsoliderad hänvisning till terminologiska förändringar.
 
 Observera att push-meddelanden och implementeringar i appen måste utföras av expertanvändare. Kontakta er kontoansvarige på Adobe eller er partner inom Professional Services om du behöver hjälp.
 
@@ -29,9 +29,9 @@ När du har konfigurerat ett mobilprogram kan du hämta de PII-data som samlas i
 
 Om du vill veta mer om de olika användningsfall för mobila enheter som stöds i Adobe Campaign Standard med Adobe Experience Platform SDK:er kan du läsa detta [page](../../administration/using/supported-mobile-use-cases.md).
 
-Slutför konfigurationen genom att utföra följande steg:
+Så här slutför du konfigurationen:
 
-1. I Adobe Campaign ser du till att du har tillgång till följande:
+1. Kontrollera att du har åtkomst till följande i Adobe Campaign:
    * **[!UICONTROL Push notification]**
    * **[!UICONTROL In-App message]**
    * **[!UICONTROL Adobe Places]**
@@ -61,7 +61,7 @@ Mer information finns i [Tar bort programmet](../../administration/using/configu
 
 ## Synkronisera mobilappen AEPSDK från det tekniska arbetsflödet i Launch {#aepsdk-workflow}
 
-När du har skapat och konfigurerat din mobila egenskap i användargränssnittet för datainsamling kan du **[!UICONTROL Sync Mobile app AEPSDK from Launch]** det tekniska arbetsflödet synkroniserar nu de taggegenskaper som importeras i Adobe Campaign Standard.
+När du har skapat och konfigurerat din mobila egenskap i användargränssnittet för datainsamling **[!UICONTROL Sync Mobile app AEPSDK from Launch]** det tekniska arbetsflödet synkroniserar nu de taggegenskaper som importeras i Adobe Campaign Standard.
 
 Som standard startar det tekniska arbetsflödet var 15:e minut. Vid behov kan den startas om manuellt:
 
@@ -90,7 +90,7 @@ Mer information om Synkronisera mobilappen AEPSDK från det tekniska arbetsflöd
 >
 >Som standard kan administratörer med organisationsenhet inställd på ALL redigera mobilprogrammet.
 
-1. Välj **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
+1. Välj på den avancerade menyn **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
 
    ![](assets/launch.png)
 
@@ -101,7 +101,7 @@ dess **[!UICONTROL Property Status]** bör **[!UICONTROL Ready to configure]**.
    >
    >Som standard används det värde som definieras i alternativet NmsServer_URL för att söka efter matchande egenskaper för att hämta listan med mobilprogram som skapats i användargränssnittet för datainsamling.
    >
-   >I vissa fall kan Campaign-slutpunkten för ett mobilprogram skilja sig från den som definieras i NmsServer_URL. I så fall definierar du slutpunkten i `Launch_URL_Campaign` alternativ. Campaign använder värdet från det här alternativet för att söka efter matchande egenskaper i användargränssnittet för datainsamling.
+   >I vissa fall kan Campaign-slutpunkten för ett mobilprogram skilja sig från den som definieras i NmsServer_URL. I så fall definierar du slutpunkten i `Launch_URL_Campaign` alternativ. I Campaign används värdet från det här alternativet för att söka efter matchande egenskaper i användargränssnittet för datainsamling.
 
    ![](assets/launch_4.png)
 
@@ -127,7 +127,7 @@ dess **[!UICONTROL Property Status]** bör **[!UICONTROL Ready to configure]**.
 
 Ditt mobilprogram kan nu användas i Campaign för push-meddelanden eller leveranser i appen. Du kan nu konfigurera det ytterligare om det behövs för att skapa händelser som utlöser dina meddelanden i appen och/eller överför push-certifikat.
 
-1. Välj **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
+1. Välj på den avancerade menyn **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
 
 1. Välj det mobilprogram du skapade och konfigurerade i användargränssnittet för datainsamling.
 

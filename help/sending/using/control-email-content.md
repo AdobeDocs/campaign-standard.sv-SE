@@ -25,11 +25,11 @@ För att vara säker på att dina e-postmeddelanden når dina mottagare och för
 Följ nedanstående principer när du utformar ditt meddelandeinnehåll:
 
 * [Avsändarens namn och adress](#sender-name): adressen måste uttryckligen identifiera avsändaren. Domänen måste ägas av och registreras hos avsändaren. Domänregistret får inte privatiseras.
-   <!--**Subject**: Avoid excessive capitalization and punctuation, and words that are frequently used by spammers ("Win", "Free", etc.).-->
-* [Optimering av personalisering och sändningstid](#perso-send-time-optimization): genom att personalisera innehåll och definiera en sändningstid per mottagare ökar chanserna för att meddelandet öppnas.
-* Bilder och text: respekterar ett bra förhållande mellan text och bild (till exempel 60 % text och 40 % bilder).
-* [Länk för att avbryta prenumeration](#opt-out) och landningssida: länken för att avbeställa prenumerationer är viktig. Den måste vara synlig och giltig och formuläret måste vara funktionellt.
-* Förhandsgranska: använda de verktyg som Adobe Campaign erbjuder för att kontrollera och optimera innehållet i e-postmeddelandet ([Analys av skräppostskydd](#anti-spam-analysis), [E-poståtergivning](#message-responsiveness)).
+  <!--**Subject**: Avoid excessive capitalization and punctuation, and words that are frequently used by spammers ("Win", "Free", etc.).-->
+* [Optimering av personalisering och sändningstid](#perso-send-time-optimization): om du personaliserar innehåll och definierar en sändningstid per mottagare ökar chanserna att meddelandet öppnas.
+* Bilder och text: Använd ett bra förhållande mellan text och bild (till exempel 60 % text och 40 % bilder).
+* [Länk för att avbryta prenumeration](#opt-out) och landningssida: länken för att avbeställa prenumerationen är viktig. Den måste vara synlig och giltig och formuläret måste vara funktionellt.
+* Förhandsgranska: använd verktygen i Adobe Campaign för att kontrollera och optimera innehållet i e-postmeddelandet ([Analys av skräppostskydd](#anti-spam-analysis), [E-poståtergivning](#message-responsiveness)).
 
 Fler tips om hur du optimerar slutprodukten när du utformar innehåll finns i [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html).
 
@@ -39,7 +39,7 @@ Fler tips om hur du optimerar slutprodukten när du utformar innehåll finns i [
 
 ## Avsändarens namn och adress {#sender-name}
 
-Vissa Internetleverantörer kontrollerar avsändaradressens giltighet (**[!UICONTROL From]**) innan du accepterar meddelanden. En felformaterad adress kan leda till att den nekas av den mottagande servern.
+Vissa Internet-leverantörer kontrollerar avsändaradressens giltighet (**[!UICONTROL From]**) innan du accepterar meddelanden. En felformaterad adress kan leda till att den nekas av den mottagande servern.
 
 ![](assets/delivery_content_edition16.png)
 
@@ -71,7 +71,7 @@ Begäran om ytterligare bekräftelse är inte tillförlitlig: en användare kan 
 
 Adobe Campaign meddelanderedigerare integrerar en **Analys av skräppostskydd** som gör det möjligt att poängsätta e-postmeddelanden för att avgöra om ett meddelande löper risk att betraktas som skräppost av de antispam-verktyg som används vid mottagande. Mer information finns i [Förhandsgranska meddelanden](../../sending/using/previewing-messages.md).
 
-Klicka på **[!UICONTROL Preview]**. Ett meddelande varnar dig om skräppostkontrollen har upptäckt en hög risk för det här meddelandet. Klicka **[!UICONTROL Anti-spam analysis]** för att visa information.
+Klicka på **[!UICONTROL Preview]**. Ett meddelande varnar dig om skräppostkontrollen har upptäckt en hög risk för det här meddelandet. Klicka **[!UICONTROL Anti-spam analysis]** om du vill visa information.
 
 ![](assets/sending_anti-spam_analysis.png)
 

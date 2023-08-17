@@ -31,11 +31,11 @@ Så här öppnar du redigeraren för SMS och push-innehåll:
 
 * Klicka på blocket **[!UICONTROL Content]** i SMS:ets konrollpanel.
 
-   ![](assets/des_sms_content.png)
+  ![](assets/des_sms_content.png)
 
 * Klicka på pennan bredvid fältet **[!UICONTROL Message body]** på kontrollpanelen för push-meddelanden.
 
-   ![](assets/des_push_body.png)
+  ![](assets/des_push_body.png)
 
 **Relaterade ämnen:**
 

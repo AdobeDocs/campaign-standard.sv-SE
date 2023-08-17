@@ -25,7 +25,7 @@ Förutsättningarna är:
 
 * **En eller flera anpassade resurser** som är tillgängliga och publicerade.
 
-   Dessutom måste du ha definierat en unik nyckel för de här resurserna eftersom de automatiska primärnycklarna inte exporteras i paketen. Resursen kan därför ha en primärnyckel och en extra unik nyckel för att garantera att posterna är unika.
+  Dessutom måste du ha definierat en unik nyckel för de här resurserna eftersom de automatiska primärnycklarna inte exporteras i paketen. Resursen kan därför ha en primärnyckel och en extra unik nyckel för att garantera att posterna är unika.
 * **Nödvändiga rättigheter** för att skapa och exportera ett paket.
 
 Ytterligare resurser:

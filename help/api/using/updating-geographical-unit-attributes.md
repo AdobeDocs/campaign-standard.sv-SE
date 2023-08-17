@@ -18,7 +18,7 @@ ht-degree: 11%
 # Uppdatera attribut för en geografisk enhet {#managing-geographical-units}
 
 1. Utför en GET-förfrågan på **geoUnitBase** resurs för att hämta den geografiska enheten PKey.
-1. Utför en begäran från PATCH på den geografiska enheten med de attribut som ska uppdateras i nyttolasten.
+1. Utför en begäran från PATCH på den geografiska enheten, med de attribut som ska uppdateras i nyttolasten.
 
 <br/>
 
@@ -34,7 +34,7 @@ Hämta listan med geografiska enheter.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Den returnerar alla geografiska enheter. Hämta den önskade enhetens PKey.
+Den returnerar alla geografiska enheter. Hämta PKey för önskad enhet.
 
 ```
 {
@@ -50,7 +50,7 @@ Den returnerar alla geografiska enheter. Hämta den önskade enhetens PKey.
 },
 ```
 
-Utför en begäran från PATCH på den geografiska enheten med de attribut som ska uppdateras i nyttolasten.
+Utför en begäran från PATCH på den geografiska enheten, med de attribut som ska uppdateras i nyttolasten.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \

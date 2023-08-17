@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Prenumerera med API:er{#performing-subscriptions}
 
-## Metod 1: Prenumerera på en profil för en tjänst
+## Metod 1: Prenumerera på en profil på en tjänst
 
 Utför en GET-förfrågan för att hämta profilen.
 

@@ -83,11 +83,11 @@ Du kan välja det här alternativet på publikationsskärmen.
 
 * Om API:t inte har publicerats än (d.v.s. om du aldrig har utökat resursen eller om du aldrig har markerat det här alternativet för den här resursen eller en annan resurs) kan du välja att skapa det eller inte.
 
-   ![](assets/create-profile-and-services-api.png)
+  ![](assets/create-profile-and-services-api.png)
 
 * Om API:t redan har publicerats (d.v.s. om du redan har utökat resursen och markerat det här alternativet en gång) tvingas API-uppdateringen att uppdateras.
 
-   När API:t har skapats uppdateras det automatiskt varje gång du publicerar det igen. Detta ser till profilen eller tjänstresursen för detta API inte förstörs och skadar din instans.
+  När API:t har skapats uppdateras det automatiskt varje gång du publicerar det igen. Detta ser till profilen eller tjänstresursen för detta API inte förstörs och skadar din instans.
 
 Observera att den anpassade resursen är integrerad som standard, men om du inte vill publicera den här resursen kan du välja det alternativet **[!UICONTROL Hide this resource from APIs]** som är tillgängligt i **[!UICONTROL Resource Properties]**.
 

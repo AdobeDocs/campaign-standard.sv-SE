@@ -32,14 +32,14 @@ Flera alternativ är tillgängliga:
 
 * **[!UICONTROL No optimization]**: Meddelanden skickas när användaren gör det.
 
-   Om tidszonen till exempel är GMT+1 och du anger 09.00 i **[!UICONTROL Start sending from]**-fältet får en mottagare i tidszonen GMT+3 meddelandet kl. 11.00 lokal tid för den mottagaren.
+  Om tidszonen till exempel är GMT+1 och du anger 09.00 i **[!UICONTROL Start sending from]**-fältet får en mottagare i tidszonen GMT+3 meddelandet kl. 11.00 lokal tid för den mottagaren.
 
 * **[!UICONTROL Send at the recipient's time zone]**: Alla mottagare får meddelandet med deras tidszon i beaktande.
 
-   Om du till exempel anger 09.00 i **[!UICONTROL Start sending from]**-fältet får en mottagare som finns i tidszonen GMT+3 meddelandet lokal tid 09.00 för den mottagaren.
+  Om du till exempel anger 09.00 i **[!UICONTROL Start sending from]**-fältet får en mottagare som finns i tidszonen GMT+3 meddelandet lokal tid 09.00 för den mottagaren.
 
-   Se [Skicka meddelanden i mottagarens tidszon](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
+  Se [Skicka meddelanden i mottagarens tidszon](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
 
 * **[!UICONTROL Send at a custom date defined by a formula]**: Varje mottagare får meddelandet vid det datum och den tidpunkt som har konfigurerats av den angivna formeln.
 
-   Se [Beräkna utskicksdatum](../../sending/using/computing-the-sending-date.md).
+  Se [Beräkna utskicksdatum](../../sending/using/computing-the-sending-date.md).

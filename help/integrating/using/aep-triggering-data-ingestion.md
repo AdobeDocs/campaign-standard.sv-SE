@@ -54,11 +54,11 @@ Omedelbart intag av en XDM-mappning i Adobe Experience Platform utlöses av en P
 >
 >Användaren måste ha en **SQL-funktionskörning** roll, som kan tillhandahållas av en Campaign Standard-administratör genom att köra nedan JS-skript:
 >
->
-```
+>```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```
+>
 
 POSTEN returnerar information om status för skapad begäran:
 
@@ -106,73 +106,73 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->Detaljerad information om status för XDM-mappningsbegäran och relaterade jobb finns i Campaign Standarden i **[!UICONTROL Status of data export to platform]** meny (se [Aktivera mappning](../../integrating/using/aep-mapping-activation.md)).
+>Detaljerad information om status för XDM-mappningsbegäran och relaterade jobb finns i Campaign Standarden i **[!UICONTROL Status of data export to platform]** meny (se [Mappningsaktivering](../../integrating/using/aep-mapping-activation.md)).
 
 GETEN returnerar informationen nedan:
 
-* **batchId**: detta fält fylls i endast om fel uppstår efter gruppbearbetning och överföring,
-* **info**: XDM-mappnings-ID,
+* **batchId**: det här fältet fylls i endast om fel uppstod efter gruppbearbetning och överföring,
+* **info**: XDM-mappnings-ID
 * **numRecords**: antalet poster som har importerats (endast framgångsstatus),
 * **status**: status för importbegäran (lyckad/misslyckades/pågår)
 
-Möjliga svar på GET-åtgärden är:
+Möjliga svar på GETEN är:
 
 * Ingest-begäran lyckades:
 
-   ```
-   {
-   "batchId": "",
-   "info": "Mapping Id: <value>. ",
-   "numRecords": 15,
-   "requestId": 3520,
-   "status": "Success"
-   }
-   ```
+  ```
+  {
+  "batchId": "",
+  "info": "Mapping Id: <value>. ",
+  "numRecords": 15,
+  "requestId": 3520,
+  "status": "Success"
+  }
+  ```
 
 * Ingest-begäran misslyckades med 0 inkapslade poster:
 
-   ```
-   {
-   "batchId": "",
-   "info": "Mapping Id: <value>. ACP-880056 Failed to fetch the record from the database.",
-   "numRecords": 0,
-   "requestId": 3520,
-   "status": "Failed"
-   }
-   ```
+  ```
+  {
+  "batchId": "",
+  "info": "Mapping Id: <value>. ACP-880056 Failed to fetch the record from the database.",
+  "numRecords": 0,
+  "requestId": 3520,
+  "status": "Failed"
+  }
+  ```
 
 * Ingest-begäran misslyckades, och en del post överfördes under en batch:
 
-   ```
-   {
-   "batchId": "<value>",
-   "info": "Mapping Id: <value>. ACP-880096 Sync Job failed to upload. Please check the error in the Platform UI.",
-   "numRecords": 0,
-   "requestId": <value>,
-   "status": "Failed"
-   }
-   ```
+  ```
+  {
+  "batchId": "<value>",
+  "info": "Mapping Id: <value>. ACP-880096 Sync Job failed to upload. Please check the error in the Platform UI.",
+  "numRecords": 0,
+  "requestId": <value>,
+  "status": "Failed"
+  }
+  ```
 
 * Ingest-begäran avbröts efter att vissa poster har importerats (detta kan inträffa i kraschscenarier):
 
-   ```
-   {
-   "batchId": "",
-   "info": "Mapping Id: <value>. Ingestion request aborted due to some issue with data ingestion service. Please submit a new request",
-   "numRecords": 0,
-   "requestId": <value>,
-   "status": "Aborted"
-   }
-   ```
+  ```
+  {
+  "batchId": "",
+  "info": "Mapping Id: <value>. Ingestion request aborted due to some issue with data ingestion service. Please submit a new request",
+  "numRecords": 0,
+  "requestId": <value>,
+  "status": "Aborted"
+  }
+  ```
 
 * Pågående inmatningsbegäran (när begäran överförde data i en batch eller när batchen förbereds för begäran):
 
-   ```
-   {
-   "batchId": "",
-   "info": "Mapping Id: <value>.",
-   "numRecords": 0,
-   "requestId": <value>,
-   "status": "In Progress"
-   }
-   ```
+  ```
+  {
+  "batchId": "",
+  "info": "Mapping Id: <value>.",
+  "numRecords": 0,
+  "requestId": <value>,
+  "status": "In Progress"
+  }
+  ```

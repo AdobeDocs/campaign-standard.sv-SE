@@ -18,7 +18,7 @@ ht-degree: 5%
 Från **[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]** kan administratörer visa en lista med alla följande exporter, inklusive datum och användare som utförde exporten:
 
 * Filöverföring från en **[!UICONTROL Transfer file]** i ett arbetsflöde.
-* Lista exporten från en lista eller en underlista.
+* Visa export från en lista eller en underlista.
 * Filen har hämtats från kontrollpanelen för ett direktmeddelandets leverans.
 
 >[!NOTE]

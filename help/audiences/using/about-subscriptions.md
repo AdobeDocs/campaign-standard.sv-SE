@@ -31,13 +31,13 @@ Prenumerationer kan också hanteras med Adobe Campaign Standard API:n.  Mer info
 Följ stegen nedan för att skapa en prenumerationsmekanism:
 
 1. **Skapa en tjänst** - följ de steg som beskrivs [i det här avsnittet](../../audiences/using/creating-a-service.md) skapa en prenumerationstjänst
-1. **Dela länken** - lär dig hur du marknadsför och delar med dig av din tjänst [på den här sidan](../../audiences/using/promoting-a-service.md)
+1. **Dela länken** - Lär dig hur du marknadsför och delar din tjänst [på den här sidan](../../audiences/using/promoting-a-service.md)
 1. **Övervaka prenumerationer** - Upptäck flera sätt att övervaka prenumerationer på tjänsten [i det här avsnittet](../../audiences/using/monitoring-subscriptions.md)
-1. **Bekräfta prenumerationer** - följ [den här självstudiekursen](../../audiences/using/confirming-subscription-to-a-service.md) för att skicka ett bekräftelsemeddelande om en prenumeration
+1. **Bekräfta prenumerationer** - följ [denna självstudiekurs](../../audiences/using/confirming-subscription-to-a-service.md) för att skicka ett bekräftelsemeddelande om en prenumeration
 
 ## Ytterligare resurser
 
-* [Användningsfall: Stegvis fråga om prenumeranter på en tjänst](../../automating/using/incremental-query-on-subscribers.md)
-* [Användningsfall: Uppdatera flera prenumerationsstatusar från en fil](../../automating/using/updating-subscriptions-from-file.md)
+* [Användningsfall: Inkrementell fråga för prenumeranter på en tjänst](../../automating/using/incremental-query-on-subscribers.md)
+* [Användningsexempel: Uppdatera flera prenumerationsstatusar från en fil](../../automating/using/updating-subscriptions-from-file.md)
 * [Prenumerera profiler på en viss tjänst efter import av en fil](../../automating/using/subscribing-profiles-from-file.md)
 * [Anmäl dig och avanmäl dig i Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)

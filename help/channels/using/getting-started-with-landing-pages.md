@@ -132,7 +132,7 @@ När landningssidan har publicerats är den klar att användas.    Du kan sedan 
 
 Mer information om publicering av landningssidor hittar du i [det här avsnittet](../../channels/using/testing-publishing-landing-page.md#publishing-a-landing-page).
 
-## Videokurs {#video}
+## Självstudievideo {#video}
 
 I den här videon visas hur du skapar och redigerar en landningssida.
 

@@ -358,9 +358,9 @@ Nya funktioner, förbättringar och korrigeringar som ingår i nästa version av
 
 * Korrigerade problem som innebar att leveransanalysen misslyckades när ett push-transaktionsmeddelande som riktades till profiler skickades. Det här gjordes genom att introducera en ny [målmappning](../../administration/using/target-mappings-in-campaign.md): **Profil – realtidshändelse för pushmeddelanden** (*mapRtEventAppSubRcp*). Loggarna för leverans, uteslutning och spårning av [profilbaserade push-transaktionsmeddelanden](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile) lagras nu i tabellerna *broadLogAppSubRcp*, *excludeLogAppSubRcp* och *trackingLogAppSubRcp*.
 
-   >[!IMPORTANT]
-   >
-   >På grund av den här ändringen är det rekommenderat att du uppdaterar målmappningen till det nya meddelandet och publicera det igen, om du använder ett befintligt profilbaserat push-transaktionsmeddelande (som skapades innan du uppgraderade till Adobe Campaign 21.1). Läs om de detaljerade stegen [här](../../channels/using/transactional-push-notifications.md#change-target-mapping). Om du använder den tidigare målmappningen **Profil – realtidshändelse** (*mapRtEventRcp*) kan det resultera i längre förberedelsetider och prestandaförsämringar.
+  >[!IMPORTANT]
+  >
+  >På grund av den här ändringen är det rekommenderat att du uppdaterar målmappningen till det nya meddelandet och publicera det igen, om du använder ett befintligt profilbaserat push-transaktionsmeddelande (som skapades innan du uppgraderade till Adobe Campaign 21.1). Läs om de detaljerade stegen [här](../../channels/using/transactional-push-notifications.md#change-target-mapping). Om du använder den tidigare målmappningen **Profil – realtidshändelse** (*mapRtEventRcp*) kan det resultera i längre förberedelsetider och prestandaförsämringar.
 
 * Ett problem som innebar att leveransrapporter inte kunde köras när 5 000 rader visades har åtgärdats.
 * Ett problem med A/B-tester som förhindrade att innehåll av variant B uppdaterades efter att leveransmallen hade ändrats har åtgärdats. (CAMP-45235)

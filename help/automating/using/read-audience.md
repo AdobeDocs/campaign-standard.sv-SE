@@ -30,7 +30,7 @@ Med den här **[!UICONTROL Read audience]** aktiviteten kan du hämta en befintl
 
 **Relaterade ämnen**
 
-* [Användningsfall: Förena på två förfinade målgrupper](../../automating/using/union-on-two-refined-audiences.md)
+* [Användningsexempel: Förena på två förfinade målgrupper](../../automating/using/union-on-two-refined-audiences.md)
 * [Användningsfall: Städa av en filpublik med databasen](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## Konfiguration {#configuration}

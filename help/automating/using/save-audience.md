@@ -45,25 +45,27 @@ Aktiviteten **[!UICONTROL Save audience]** används i huvudsak för att hålla p
 
       * **[!UICONTROL Replace audience content with new data]**: Hela målgruppsinnehållet ersätts.  Gammal data går förlorad.  Endast datan från den inkommande övergången av målgruppsaktiviteten för att spara sparas.
       * **[!UICONTROL Complete audience with new data]**: Gammal målgruppsdata sparas och data från den sparade målgruppsaktivitetens inkommande övergång läggs till i den.
+
    * **[!UICONTROL Create then update an audience]**: Ange målgruppens namn och välj uppdateringstyp.  Om målgruppen inte redan finns så skapas den.  Om den redan finns så uppdateras den enligt det valda läget:
 
       * **[!UICONTROL Replace audience content with new data]**: Hela målgruppsinnehållet ersätts. Gammal data går förlorad.  Endast datan från den inkommande övergången av målgruppsaktiviteten för att spara sparas.
 
-         Varning! Det här alternativet raderar målgruppstypen och målgruppsdimensionen för den uppdaterade målgruppen.
+        Varning! Det här alternativet raderar målgruppstypen och målgruppsdimensionen för den uppdaterade målgruppen.
 
       * **[!UICONTROL Complete audience with new data]**: Gammal målgruppsdata sparas och data från den sparade målgruppsaktivitetens inkommande övergång läggs till i den.
 
-         Varning! Detta alternativet orsakar ett fel om målgruppstypen eller måldimensionen för den uppdaterade målgruppen inte är kompatibel med arbetsflödets aktuella konfiguration.  Du kan exempelvis inte slutföra en filtypsgrupp med profiler som kommer från en förfrågan.
+        Varning! Detta alternativet orsakar ett fel om målgruppstypen eller måldimensionen för den uppdaterade målgruppen inte är kompatibel med arbetsflödets aktuella konfiguration.  Du kan exempelvis inte slutföra en filtypsgrupp med profiler som kommer från en förfrågan.
+
    * **[!UICONTROL Create a new audience]**: Ange namnet på målgruppen som ska skapas.  Tid och datum då målgruppen skapades läggs automatiskt till i målgruppens namn.  Detta gör målgruppen unik varje gång som arbetsflödet körs.
    * **[!UICONTROL Share in Adobe Experience Cloud]**: Om du har målgruppsprofiler och vill exportera målgruppen till Adobe Experience Cloud väljer du detta alternativ och väljer sedan en befintlig delad målgrupp eller skapar en ny målgrupp.
 
-      Välj också en **[!UICONTROL Shared Data source]** som motsvarar resursen för data som finns i målgruppen så att data är korrekt sammankopplad i Adobe Experience Cloud.
+     Välj också en **[!UICONTROL Shared Data source]** som motsvarar resursen för data som finns i målgruppen så att data är korrekt sammankopplad i Adobe Experience Cloud.
 
-      Med det här alternativet läggs den delade målgruppen inte till i listan med Adobe Campaign-målgrupper som är tillgängliga via menyn **[!UICONTROL Audiences]**.
+     Med det här alternativet läggs den delade målgruppen inte till i listan med Adobe Campaign-målgrupper som är tillgängliga via menyn **[!UICONTROL Audiences]**.
 
-      >[!NOTE]
-      >
-      >Det här alternativet är endast tillgängligt om administratören har konfigurerat funktionerna för delade målgrupper med Adobe Experience Cloud.  Mer information finns under [Arbeta med Campaign och People Core Service](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
+     >[!NOTE]
+     >
+     >Det här alternativet är endast tillgängligt om administratören har konfigurerat funktionerna för delade målgrupper med Adobe Experience Cloud.  Mer information finns under [Arbeta med Campaign och People Core Service](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
 
    Vilken typ av målgrupper som sparas eller finns tillgänglig under en uppdatering beror på vilka aktiviteter som läggs upp i arbetsflödet.
 

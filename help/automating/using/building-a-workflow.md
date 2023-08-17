@@ -131,7 +131,7 @@ Aktiviteter är som standard inte inställda och bearbetar inte data korrekt om 
 1. Spara aktiviteten och upprepa dessa åtgärder för varje aktivitet i arbetsflödet.
 1. Spara arbetsflödet.
 
-## Videokurs {#video}
+## Självstudievideo {#video}
 
 I den här videon visas hur du skapar ett arbetsflöde.
 

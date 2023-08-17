@@ -24,7 +24,7 @@ ht-degree: 5%
 
 De här inställningarna är tillgängliga i **[!UICONTROL Administration]** / **[!UICONTROL Application settings]** -menyn.
 
-Dessutom finns tekniska alternativ i **[!UICONTROL Options]** -menyn, så att du kan konfigurera programmet mer specifikt. Vissa av dem är inbyggda när du installerar Campaign, och andra kan läggas till manuellt när det behövs (tillgängliga alternativ varierar beroende på vilka paket som installeras med instansen).
+Dessutom finns tekniska alternativ i **[!UICONTROL Options]** så att du kan konfigurera programmet mer specifikt. Vissa av dem är inbyggda när du installerar Campaign, och andra kan läggas till manuellt när det behövs (tillgängliga alternativ varierar beroende på vilka paket som installeras med instansen).
 
 >[!IMPORTANT]
 >

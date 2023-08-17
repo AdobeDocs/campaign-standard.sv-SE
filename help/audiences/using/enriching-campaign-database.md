@@ -27,15 +27,15 @@ Allmän information och bästa praxis vid import av data via arbetsflöden visas
 
 Dessutom kan du konfigurera mallar för import av data. Det är bäst att använda importmallar om du behöver importera filer med samma struktur regelbundet.
 
-Du kan konfigurera två typer av mallar:
+Du kan ställa in två typer av mallar:
 
-* **Arbetsflödesmallar**: Detta är förkonfigurerade arbetsflöden som du kan konfigurera en gång efter behov och återanvända varje gång du vill importera data och uppdatera databasen.
+* **Arbetsflödesmallar**: det här är förkonfigurerade arbetsflöden som du kan konfigurera en gång efter behov och återanvända varje gång du vill importera data och uppdatera databasen.
 
-   Ett exempel på en arbetsflödesmall för import av data finns i [det här avsnittet](../../automating/using/creating-import-workflow-templates.md).
+  Ett exempel på en arbetsflödesmall för import av data finns i [det här avsnittet](../../automating/using/creating-import-workflow-templates.md).
 
-* **Importera datamallar**: som arbetsflödesmallar är dessa mallar baserade på arbetsflöden, som är inställda på att överföra filer för att uppdatera databasen. När de har konfigurerats blir de tillgängliga för användare med en förenklad vy i **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** -menyn.
+* **Importera datamallar**: Precis som arbetsflödesmallar är dessa mallar baserade på arbetsflöden, som är konfigurerade för att överföra filer för att uppdatera databasen. När de har konfigurerats blir de tillgängliga för användare med en förenklad vy i **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** -menyn.
 
-   Mer information om hur du importerar datamallar finns i [dedikerad dokumentation](../../automating/using/importing-data-with-import-templates.md).
+  Mer information om hur du importerar datamallar finns i [dedikerad dokumentation](../../automating/using/importing-data-with-import-templates.md).
 
 ## Samla in data från landningssidor {#collecting-data-from-landing-pages}
 

@@ -61,7 +61,7 @@ Så här skapar du ett e-postinnehåll i Adobe Experience Manager:
 
 1. Redigera både motivet och **[!UICONTROL Plain text]** version av e-postmeddelandet genom att gå till **[!UICONTROL Page properties]** > **[!UICONTROL Email]** från sidosparken.
 
-1. Lägg till **[!UICONTROL Personalization fields]** via **[!UICONTROL Text & Personalization]** -komponenten. Varje komponent motsvarar en viss användning: infoga bilder, lägga till personalisering osv.
+1. Lägg till **[!UICONTROL Personalization fields]** via **[!UICONTROL Text & Personalization]** -komponenten. Varje komponent motsvarar en viss användning: infoga bilder, lägga till personalisering, osv.
 
    Titta på följande video om du vill ha mer information:
    >[!VIDEO](https://video.tv.adobe.com/v/29998)

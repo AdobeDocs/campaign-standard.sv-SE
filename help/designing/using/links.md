@@ -21,7 +21,7 @@ ht-degree: 3%
 
 Med redigeraren kan du anpassa en e-post- eller landningssida genom att infoga länkar i HTML innehållselementen.
 
-Du kan infoga en länk i valfritt sidelement: bild, ord, ordgrupp, textblock osv.
+Du kan infoga en länk i vilket sidelement som helst: bild, ord, ordgrupp, textblock osv.
 
 >[!NOTE]
 >
@@ -35,16 +35,16 @@ Du kan infoga en länk i valfritt sidelement: bild, ord, ordgrupp, textblock osv
 
    * **Extern länk**: infoga en länk till en extern URL.
 
-      Du kan definiera personalisering för dina URL-adresser. Se [Anpassa URL:er](personalization.md#personalizing-urls).
+     Du kan definiera personalisering för dina URL-adresser. Se [Anpassa URL:er](personalization.md#personalizing-urls).
 
-   * **Landningssida**: ge tillgång till en Adobe Campaign landningssida.
+   * **Landningssida**: ge åtkomst till en Adobe Campaign-landningssida.
    * **Prenumerationslänk**: infoga en länk för att prenumerera på en Adobe Campaign-tjänst.
-   * **Länk för att avbryta prenumeration**: infoga en länk för att avbeställa en Adobe Campaign-tjänst.
-   * **Länk som definierar en åtgärd**: Definiera en åtgärd när någon klickar på ett element på landningssidan.
+   * **Länk för att avbryta prenumeration**: infoga en länk för att avbryta prenumerationen på en Adobe Campaign-tjänst.
+   * **Länk som definierar en åtgärd**: definierar en åtgärd när någon klickar på ett element på landningssidan.
 
-      >[!NOTE]
-      >
-      >Den här typen av länk är bara tillgänglig för landningssidor.
+     >[!NOTE]
+     >
+     >Den här typen av länk är bara tillgänglig för landningssidor.
 
 1. Du kan ändra texten som visas för mottagaren.
 1. Du kan ange webbläsarbeteende när användaren klickar på länken (till exempel öppna ett nytt fönster).
@@ -65,7 +65,7 @@ När du redigerar ett e-postmeddelande med [E-postdesigner](../../designing/usin
 
 >[!NOTE]
 >
->Personaliserade URL-adresser som **URL för speglingssida** eller **Avsluta prenumeration** det går inte att ändra länken från den här listan. Alla andra länkar kan redigeras.
+>Personaliserade URL-adresser som **URL för speglingssida** eller **Avsluta prenumeration** länk kan inte ändras från den här listan. Alla andra länkar kan redigeras.
 
 **Relaterade ämnen**:
 
@@ -92,9 +92,9 @@ URL, kategori, etikett och spårningstyp för varje länk kan ändras i den här
 För varje spårad URL-adress kan du ange spårningsläget till något av följande värden:
 
 * **Spårat**: aktiverar spårning på den här URL:en.
-* **Spegelsida**: anser att denna URL är en URL för en speglad sida.
-* **Aldrig**: aktiverar aldrig spårning av den här URL:en. Den här informationen sparas: Om URL:en visas igen i ett framtida meddelande inaktiveras spårningen automatiskt.
-* **Avanmäl dig**: hanterar denna URL som en avanmälnings- eller avanmälnings-URL.
+* **Spegelsida**: anser att den här URL:en är en URL för en speglad sida.
+* **Aldrig**: aktiverar aldrig spårning av den här URL:en. Den här informationen sparas: om URL:en visas igen i ett framtida meddelande inaktiveras spårningen automatiskt.
+* **Avanmäl dig**: hanterar den här URL:en som en avanmälnings- eller avanmälnings-URL.
 
 ![](assets/des_link_tracking_type.png)
 

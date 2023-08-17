@@ -29,25 +29,25 @@ Med Adobe Campaign kan ni utbyta och dela målgrupper/segment med olika Adobe Ex
 Integrationen stöder två typer av Adobe Experience Cloud ID:
 
 * **Besökar-ID**: Med den här typen av ID kan du stämma av Adobe Experience Cloud-besökare mot Adobe Campaign-profiler. Så snart en anslutning har aktiverats via Adobe IMS aktiveras Marketing Cloud Visitor ID Service, som ersätter den permanenta cookie som används av Adobe Campaign. På så sätt kan du identifiera en besökare och sedan länka den till en profil.
-   <br>Ett besökar-ID länkas till en profil så snart profilen klickar i ett e-postmeddelande som skickas via Adobe Campaign:
+  <br>Ett besökar-ID länkas till en profil så snart profilen klickar i ett e-postmeddelande som skickas via Adobe Campaign:
    * Om profilen redan har ett besökar-ID kan profilens webbläsardata användas av Adobe Campaign för att återskapa profilen och automatiskt länka den till besökar-ID:t.
    * Om inget besökar-ID hittas skapas ett nytt ID. Detta besökar-ID lagras i profilspårningsloggarna.
 
-   ID:t känns sedan igen av de andra Adobe Marketing Cloud-programmen med samma CNAME.
+  ID:t känns sedan igen av de andra Adobe Marketing Cloud-programmen med samma CNAME.
 
-* **Deklarerat ID**: Med den här typen av ID kan du stämma av alla typer av data med element från Adobe Campaign-databasen. Den representeras i Adobe Campaign som en fördefinierad avstämningsnyckel. När du utbyter data hashas Adobe Campaign-databasidentifierare. Dessa hash-kodade ID:n jämförs sedan med hash-kodade ID:n för den Adobe Marketing Cloud-publik som är involverad i importen eller exporten.
-   <br>Integreringen stöder vanliga deklarerade ID:n, hashade deklarerade ID:n och krypterade deklarerade ID:n.
+* **Deklarerat ID**: den här typen av ID gör att du kan stämma av alla typer av data med element från Adobe Campaign-databasen. Den representeras i Adobe Campaign som en fördefinierad avstämningsnyckel. När du utbyter data hashas Adobe Campaign-databasidentifierare. Dessa hash-kodade ID:n jämförs sedan med hash-kodade ID:n för den Adobe Marketing Cloud-publik som är involverad i importen eller exporten.
+  <br>Integreringen stöder vanliga deklarerade ID:n, hashade deklarerade ID:n och krypterade deklarerade ID:n.
 
-   >[!NOTE]
-   >
-   >Deklarerad  ID-datakälla kan nu även användas med integreringen av den grundläggande tjänsten People.
-   >
-   >Om du använder integreringen med huvudtjänsten Kontakter och vill lägga till integreringen med Audience Manager måste du få hjälp av en Adobe Audience Manager-konsults för att undvika att förlora alla ID-synkroniseringar som samlas in när du går över till att använda den här deklarerade ID-datakällan i ett Adobe Audience Manager-sammanhang.
+  >[!NOTE]
+  >
+  >Deklarerad  ID-datakälla kan nu även användas med integreringen av den grundläggande tjänsten People.
+  >
+  >Om du använder integreringen med huvudtjänsten Kontakter och vill lägga till integreringen med Audience Manager måste du få hjälp av en Adobe Audience Manager-konsults för att undvika att förlora alla ID-synkroniseringar som samlas in när du går över till att använda den här deklarerade ID-datakällan i ett Adobe Audience Manager-sammanhang.
 
 
-   Med kryptering kan du dela krypterade data i datakällor (till exempel PII) med det deklarerade ID:t genom att ange krypteringsalgoritmen.
+  Med kryptering kan du dela krypterade data i datakällor (till exempel PII) med det deklarerade ID:t genom att ange krypteringsalgoritmen.
 
-   Om du till exempel kan dekryptera krypterade e-postadresser eller SMS-nummer kan du även skicka utlösta meddelanden till dina användare även om deras profil inte finns i Adobe Campaign-databasen.
+  Om du till exempel kan dekryptera krypterade e-postadresser eller SMS-nummer kan du även skicka utlösta meddelanden till dina användare även om deras profil inte finns i Adobe Campaign-databasen.
 
 Följande diagram visar hur den här integreringen fungerar. Här står AAM för Adobe Audience Manager och ACS för Adobe Campaign Standard.
 

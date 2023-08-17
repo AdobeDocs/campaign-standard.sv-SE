@@ -57,7 +57,7 @@ ht-degree: 6%
                </tr>
                <tr>
                   <td>audiensMetadata</td>
-                  <td>AudienceMetadata</td>
+                  <td>Målgruppsmetadata</td>
                   <td>sträng (255)</td>
                   <td> </td>
                </tr>
@@ -117,7 +117,7 @@ ht-degree: 6%
                </tr>
                <tr>
                   <td>expirationDate</td>
-                  <td>Upphör</td>
+                  <td>Förfaller den</td>
                   <td>datum </td>
                   <td> </td>
                </tr>
@@ -220,7 +220,7 @@ ht-degree: 6%
                         <li>Fråga - fråga - fråga</li>
                         <li>Lista - lista - lista</li>
                         <li>Fil - fil - fil</li>
-                        <li>OGILTIGT VÄRDE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>

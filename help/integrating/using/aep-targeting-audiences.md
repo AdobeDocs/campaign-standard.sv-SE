@@ -57,7 +57,7 @@ Du kan nu konfigurera ditt arbetsflöde med andra aktiviteter. Du kan till exemp
 
 >[!NOTE]
 >
->Med Campaign Standard kan ni inrikta er på Adobe Experience Platform målgrupper i alla distributionskanaler: E-post, SMS-meddelanden, direktmeddelanden, push-meddelanden och meddelanden i appen.
+>Med Campaign Standard kan ni inrikta er på Adobe Experience Platform målgrupper i alla leveranskanaler: e-post, SMS-meddelanden, direktmeddelanden, push-meddelanden och meddelanden i appen.
 >
 >*Obs! För alla push- och In-App-meddelanden stöder Campaign Standard endast leveranser för kända profiler.
 

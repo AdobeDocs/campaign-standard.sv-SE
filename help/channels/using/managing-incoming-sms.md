@@ -26,7 +26,7 @@ Den här konfigurationen definieras i **[!UICONTROL Automatic reply sent to the 
 
 För att göra detta:
 
-1. På den avancerade menyn, via Adobe Campaign logotyp, väljer du **[!UICONTROL Administration > Application settings > External accounts]** sedan **[!UICONTROL SMS routing via SMPP]** externt konto.
+1. På den avancerade menyn via Adobe Campaign logotyp väljer du **[!UICONTROL Administration > Application settings > External accounts]** sedan **[!UICONTROL SMS routing via SMPP]** externt konto.
 1. Under **[!UICONTROL Automatic reply sent to the MO]** kategori, klicka på **[!UICONTROL Create element]** för att börja konfigurera ditt automatiska svar.
 
    ![](assets/sms_mo_1.png)
@@ -41,7 +41,7 @@ För att göra detta:
 
    ![](assets/sms_mo_2.png)
 
-1. I **[!UICONTROL Short code]** anger du ett nummer som vanligtvis används för att skicka leveranser och som fungerar som avsändarnamn. Du kan också bestämma dig för att lämna **[!UICONTROL Short code]** tom kolumn, om du vill skicka samma svar oavsett den korta koden.
+1. I **[!UICONTROL Short code]** anger du ett nummer som vanligtvis används för att skicka leveranser och som fungerar som avsändarnamn. Du kan också välja att lämna **[!UICONTROL Short code]** tom kolumn, om du vill skicka samma svar oavsett den korta koden.
 
    ![](assets/sms_mo_4.png)
 

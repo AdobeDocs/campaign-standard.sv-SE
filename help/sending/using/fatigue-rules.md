@@ -99,9 +99,9 @@ Följande kanaler är tillgängliga:
 * Direktmeddelande
 * Mobilprogram: Med den här kanalen kan du skicka push-meddelanden till profiler eller till apprenumeranter. Om du väljer att skicka meddelanden till profiler är de kompatibla med utmattningsregler för flera kanaler.
 
-   >[!IMPORTANT]
-   >
-   >Utmattningsregler är inte kompatibla med push-meddelanden som skickas till programprenumeranter. Om du skickar meddelanden till programprenumeranter gäller inte utmattningsregler.
+  >[!IMPORTANT]
+  >
+  >Utmattningsregler är inte kompatibla med push-meddelanden som skickas till programprenumeranter. Om du skickar meddelanden till programprenumeranter gäller inte utmattningsregler.
 
 * Alla kanaler: Med det här alternativet kan du tillämpa regeln på alla kanaler. Du kan till exempel bestämma dig för att skicka högst tre meddelanden per månad på valfri kanal. Samma profil kommer att uteslutas om du skickade två e-postmeddelanden till en profil förra veckan och du försöker skicka ett push-meddelande idag.
 
@@ -135,11 +135,11 @@ Sedan finns det två alternativ:
 
 * välj ett profilfält: Tröskelvärdet varierar för varje profil enligt det valda fältet. Om du t.ex. har utökat profilresursen med fältet Kommunikationsfrekvens klickar du på knappen till höger om fältet **[!UICONTROL Threshold computation formula]** och väljer fältet. För varje profil kommer tröskelvärdet att motsvara värdet i fältet Kommunikationsfrekvens.
 
-   ![](assets/fatigue21.png)
+  ![](assets/fatigue21.png)
 
 * definiera en formel: Klicka på den andra knappen till höger om fältet **[!UICONTROL Threshold computation formula]** för att definiera en avancerad beräkningsformel för tröskelvärde. Du kan till exempel indexera antalet auktoriserade meddelanden enligt det segment som profilen tillhör. Det innebär att en profil som tillhör segmentet &quot;Webb&quot; kan ta emot fler meddelanden än andra profiler. En formel av typ **[!UICONTROL Iif (@origin='Web', 5, 3)]** tillåter leverans av 5 meddelanden till profiler i webbsegmentet och 3 för andra segment.
 
-   ![](assets/fatigue14.png)
+  ![](assets/fatigue14.png)
 
 **Förfina tröskelvärdet för profiler och leveranser**
 
@@ -176,15 +176,15 @@ Det finns tre flikar som visar information om resultaten utmattningskörning, in
 
 * Leveransloggar:
 
-   ![](assets/fatigue17.png)
+  ![](assets/fatigue17.png)
 
 * Uteslutningsloggar:
 
-   ![](assets/fatigue18.png)
+  ![](assets/fatigue18.png)
 
 * Uteslutningsorsaker:
 
-   ![](assets/fatigue19.png)
+  ![](assets/fatigue19.png)
 
 ## Visa sammanfattningsrapporten om utmattningsregler {#viewing-the-fatigue-rule-summary-report}
 
@@ -221,33 +221,33 @@ Det finns många möjligheter när det gäller genomförandet av utmattningshant
 
 * Skapa en utmattningsregel med ett **konstant tröskelvärde** som gäller för **alla kanaler**:
 
-   Låt oss säga att du skapar en flerkanalsregel med ett konstant tröskelvärde på 3 under en glidande period på 7 dagar.
+  Låt oss säga att du skapar en flerkanalsregel med ett konstant tröskelvärde på 3 under en glidande period på 7 dagar.
 
-   Förra veckan fick dina premiumprofiler ett e-postmeddelande om erbjudanden och ett e-postmeddelande om transaktionell återmarknadsföring. Du har också schemalagt ett SMS som ska skickas nästa vecka. Idag bestämmer du dig för att skicka ett push-meddelande för alla dina profiler. Premiumprofilerna kommer inte att ingå i dagens push-process eftersom det maximala antalet meddelanden under en tvåveckorsperiod redan har uppnåtts.
+  Förra veckan fick dina premiumprofiler ett e-postmeddelande om erbjudanden och ett e-postmeddelande om transaktionell återmarknadsföring. Du har också schemalagt ett SMS som ska skickas nästa vecka. Idag bestämmer du dig för att skicka ett push-meddelande för alla dina profiler. Premiumprofilerna kommer inte att ingå i dagens push-process eftersom det maximala antalet meddelanden under en tvåveckorsperiod redan har uppnåtts.
 
-   ![](assets/fatigue23.png)
+  ![](assets/fatigue23.png)
 
 * Skapa en utmattningsregel med hjälp av ett **variabelt tröskelvärde** baserat på ett **profilfält**:
 
-   Du har utökat profilresursen med ett &quot;Kommunikationsgräns&quot;-fält för att definiera olika tröskelvärden för varje profil. I utmattningsregeln definierar du ett variabeltröskelvärde baserat på det här fältet och väljer en glidande period på 2 dagar. Låt oss ta två exempel på profiler: John har en kommunikationsgräns på 1 och David har ett tröskelvärde på 2. Båda har redan fått ett nyhetsbrev i går. Du bestämmer dig för att skicka ett e-postmeddelande till dem idag. Bara David får det, eftersom John har uteslutits från målet.
+  Du har utökat profilresursen med ett &quot;Kommunikationsgräns&quot;-fält för att definiera olika tröskelvärden för varje profil. I utmattningsregeln definierar du ett variabeltröskelvärde baserat på det här fältet och väljer en glidande period på 2 dagar. Låt oss ta två exempel på profiler: John har en kommunikationsgräns på 1 och David har ett tröskelvärde på 2. Båda har redan fått ett nyhetsbrev i går. Du bestämmer dig för att skicka ett e-postmeddelande till dem idag. Bara David får det, eftersom John har uteslutits från målet.
 
-   ![](assets/fatigue24.png)
+  ![](assets/fatigue24.png)
 
 * Skapa en utmattningsregel med en **beräkningsformel** för tröskelvärde:
 
-   Du vill ändra tröskelvärdet baserat på åldern på dina profiler. Om en profil är under 40 vill du definiera en gräns på 4 och för äldre profiler en gräns på 2. I stället för att definiera det här tröskelvärdet för varje profil med ett utökat fält kan du skapa en formel direkt i utmattningsregeln för att beräkna tröskelvärdet utifrån profilens ålder. I vårt exempel är formeln **[!UICONTROL Iif (@age<40, 4, 2)]**.
+  Du vill ändra tröskelvärdet baserat på åldern på dina profiler. Om en profil är under 40 vill du definiera en gräns på 4 och för äldre profiler en gräns på 2. I stället för att definiera det här tröskelvärdet för varje profil med ett utökat fält kan du skapa en formel direkt i utmattningsregeln för att beräkna tröskelvärdet utifrån profilens ålder. I vårt exempel är formeln **[!UICONTROL Iif (@age<40, 4, 2)]**.
 
-   ![](assets/fatigue25.png)
+  ![](assets/fatigue25.png)
 
-   >[!NOTE]
-   >
-   >I det här avsnittet finns också ett steg-för-steg-exempel på en formel för beräkning av tröskelvärde.
+  >[!NOTE]
+  >
+  >I det här avsnittet finns också ett steg-för-steg-exempel på en formel för beräkning av tröskelvärde.
 
 * Skapa en utmattningsregel som **förfinar tröskelvärdet** för profiler och leveranser:
 
-   Du har utökat profilresursen med ett poängfält och du har även utökat leveransresursen med ett &quot;Typ&quot;-fält. Du vill definiera ett konstant tröskelvärde på 3, men du vill utesluta alla leveranser av typen &quot;Varning&quot; eller &quot;Black Friday&quot; och alla profiler med ett poängvärde på mer än 10. När regeln ska köras räknas alla leveranser som inte är av typen &quot;Varning&quot; eller &quot;Black Friday&quot;, bland tidigare och schemalagda leveranser, som skickas till profiler vars poäng är mindre än 10.
+  Du har utökat profilresursen med ett poängfält och du har även utökat leveransresursen med ett &quot;Typ&quot;-fält. Du vill definiera ett konstant tröskelvärde på 3, men du vill utesluta alla leveranser av typen &quot;Varning&quot; eller &quot;Black Friday&quot; och alla profiler med ett poängvärde på mer än 10. När regeln ska köras räknas alla leveranser som inte är av typen &quot;Varning&quot; eller &quot;Black Friday&quot;, bland tidigare och schemalagda leveranser, som skickas till profiler vars poäng är mindre än 10.
 
-   ![](assets/fatigue26.png)
+  ![](assets/fatigue26.png)
 
 Här följer ett stegvist exempel på en utmattningsregel som använder en formel för beräkning av tröskelvärde.
 

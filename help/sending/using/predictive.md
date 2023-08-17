@@ -27,7 +27,7 @@ Adobe Campaign erbjuder två nya Machine Learning-modeller: **Prediktiv optimeri
 
 * **Prediktiv optimering av sändningstid** anger vilken som är den bästa sändningstiden för varje mottagarprofil för e-postöppningar eller -klick och för push-meddelanden-öppningar. För varje mottagarprofil anger poängen den bästa sändningstiden för varje veckodag och vilken veckodag som är bäst att använda för bästa resultat.
 
-* **Prediktiv poängsättning av engagemang**: förutser sannolikheten för att en mottagare kommer med ett meddelande samt sannolikheten för att avanmäla sig inom 7 dagar efter nästa e-postutskick. Sannolikheten för detta delas upp ytterligare i grupper efter den förväntade nivån av engagemang i ert innehåll: high, medium eller low. Dessa modeller ger också en percentil för avbruten risk för kunderna för att förstå var en viss kunds rangordning är i förhållande till andra.
+* **Prediktiv poängsättning av engagemang**: anger sannolikheten för att en mottagare ska få ett meddelande samt sannolikheten för att avanmäla sig inom 7 dagar efter nästa e-postutskick. Sannolikheten för detta delas upp ytterligare i grupper efter den förväntade nivån av engagemang med ert innehåll: högt, medelhögt eller lågt. Dessa modeller ger också en percentil för avbruten risk för kunderna för att förstå var en viss kunds rangordning är i förhållande till andra.
 
 ## Prediktiv optimering av sändningstid{#predictive-send-time}
 
@@ -45,7 +45,7 @@ I modellen Predictive Send-Time Optimization finns det två undermodeller:
 
 Information om utdata
 
-* Beräknar den bästa tidpunkten på dagen för att skicka ett e-postmeddelande för inom 7 dagar av veckan med 1 timmes intervall (t.ex.: 9:00, 10:00, 11:00)
+* Beräknar den bästa tidpunkten på dagen för att skicka ett e-postmeddelande för inom 7 dagar av veckan med 1 timmes intervall (t.ex. 09:00, 10:00, 11:00)
 * Modellen visar den bästa dagen i veckan och den bästa timmen på den dagen
 * Varje optimal tid beräknas två gånger: en gång för att maximera öppningsfrekvensen och en gång för att maximera klickfrekvensen
 * 16 fält ges (14 för veckodagar och 2 för hela veckan):
@@ -105,11 +105,11 @@ AddHours([currentDelivery/scheduling/@contactDate],
 
 Predictive Engagement Scoring förutser sannolikheten för att en mottagare engagerar sig i ett meddelande samt sannolikheten för att avanmäla sig inom 7 dagar efter nästa e-postutskick.
 
-Sannolikheten för detta delas upp ytterligare i grupper efter den förväntade nivån av engagemang i ert innehåll: high, medium eller low. Dessa modeller ger också en percentil för avbruten risk för kunderna för att förstå var en viss kunds rangordning är i förhållande till andra.
+Sannolikheten för detta delas upp ytterligare i grupper efter den förväntade nivån av engagemang med ert innehåll: högt, medelhögt eller lågt. Dessa modeller ger också en percentil för avbruten risk för kunderna för att förstå var en viss kunds rangordning är i förhållande till andra.
 
 Predictive Engagement Scoring:
 
-* **Välj en målgrupp**: genom att använda frågeaktivitet kan du välja målgruppen som ska interagera med ett visst meddelande
+* **Välj en målgrupp**: genom att använda frågeaktivitet kan du välja vilken målgrupp som ska interagera med ett visst meddelande
 * **Uteslut en målgrupp**: genom att använda frågeaktivitet kan du ta bort den målgrupp som troligen kommer att avbryta prenumerationen
 * **Anpassa**: personalisera meddelanden baserat på nivå av engagemang (mycket engagerade användare får ett annat budskap än oengagerade)
 

@@ -21,7 +21,7 @@ ht-degree: 8%
 
 Så här redigerar du en befintlig profil och läser data som är kopplade till den, eller ändrar den:
 
-1. På Adobe Campaign hemsida klickar du på **[!UICONTROL Customer profiles]** eller **[!UICONTROL Profiles]** -fliken.
+1. På Adobe Campaign hemsida klickar du på **[!UICONTROL Customer profiles]** kortet eller **[!UICONTROL Profiles]** -fliken.
 1. Välj en kontakt.
 1. Klicka på **[!UICONTROL Edit profile properties]** om du vill komma åt profilens detaljerade information.
 

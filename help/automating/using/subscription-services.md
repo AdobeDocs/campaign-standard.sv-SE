@@ -38,7 +38,7 @@ Om den här aktiviteten anges i en fil via dedikerade kolumner kan du även väl
 
 **Relaterade ämnen:**
 
-* [Användningsfall: Uppdatera flera prenumerationsstatusar från en fil](../../automating/using/updating-subscriptions-from-file.md)
+* [Användningsexempel: Uppdatera flera prenumerationsstatusar från en fil](../../automating/using/updating-subscriptions-from-file.md)
 * [Användningsfall: Prenumerera profiler från en fil till en viss tjänst](../../automating/using/subscribing-profiles-from-file.md)
 
 ## Konfiguration {#configuration}
@@ -51,16 +51,16 @@ Om den här aktiviteten anges i en fil via dedikerade kolumner kan du även väl
    * **[!UICONTROL Select a specific service]**: Välj en tjänst manuellt.
    * **[!UICONTROL Select services from the inbound transition]**: Tjänsten anges i övergången för inkommande trafik. Du kan till exempel importera en fil som anger vilken tjänst som ska hanteras för varje rad. Om du väljer det här alternativet måste du se till att en länk har skapats i förväg mellan dessa data och resursen **Tjänst**, vilket visas i [det här exemplet](#example--updating-multiple-subscription-statuses-from-a-file).
 
-      Tjänsten som åtgärden ska utföras på väljs sedan dynamiskt för varje post.
+     Tjänsten som åtgärden ska utföras på väljs sedan dynamiskt för varje post.
 
 1. Välj det **[!UICONTROL Operation type]** som ska köras med något av följande alternativ:
 
    * **[!UICONTROL Select a specific operation type]**: Markera om du vill **[!UICONTROL Subscribe]** eller **[!UICONTROL Unsubscribe]** profiler.
    * **[!UICONTROL Select an operation type from a path of inbound transition]**: Markera kolumnen med inkommande data som anger vilken åtgärd som ska utföras för varje post.
 
-      I den här kolumnen måste åtgärden anges som ett booleskt värde eller heltal. Använd **0** om du vill avprenumerera på en post och **1** för att prenumerera.
+     I den här kolumnen måste åtgärden anges som ett booleskt värde eller heltal. Använd **0** om du vill avprenumerera på en post och **1** för att prenumerera.
 
-      Om värdena i en importerad fil inte matchar ovanstående krav kan du fortfarande använda alternativet [Ändra värden](../../automating/using/load-file.md#column-format) som är tillgängligt i **[!UICONTROL Load file]**-aktiviteten.
+     Om värdena i en importerad fil inte matchar ovanstående krav kan du fortfarande använda alternativet [Ändra värden](../../automating/using/load-file.md#column-format) som är tillgängligt i **[!UICONTROL Load file]**-aktiviteten.
 
 1. Om inkommande data innehåller en kolumn som motsvarar prenumerationsdatumet för profilen för tjänsten markerar du den. Du kan lämna det tomt men inget prenumerationsdatum anges när arbetsflödet körs.
 1. Definiera prenumerationens ursprung. Du kan ställa in den på ett av fälten för inkommande data eller på ett konstant värde genom att markera alternativet **[!UICONTROL Set a constant as origin]**. Du kan lämna det tomt men inget ursprung anges när arbetsflödet körs.
@@ -79,34 +79,34 @@ Arbetsflödet presenteras på följande sätt:
 
 * En **[!UICONTROL Load file]**-aktivitet läser in profilfilen och definierar strukturen för de importerade kolumnerna.
 
-   I det här exemplet är den inlästa filen i CSV-format och innehåller följande data:
+  I det här exemplet är den inlästa filen i CSV-format och innehåller följande data:
 
-   ```
-   lastname;firstname;email;birthdate;subdate
-   jackman;megan;megan.jackman@testmail.com;07/08/1975;10/08/2017
-   phillips;edward;phillips@testmail.com;09/03/1986;10/08/2017
-   weaver;justin;justin_w@testmail.com;11/15/1990;10/08/2017
-   martin;babeth;babeth_martin@testmail.net;11/25/1964;10/08/2017
-   reese;richard;rreese@testmail.com;02/08/1987;11/08/2017
-   cage;nathalie;cage.nathalie227@testmail.com;07/03/1989;11/08/2017
-   xiuxiu;andrea;andrea.xiuxiu@testmail.com;09/12/1992;11/08/2017
-   grimes;daryl;daryl_890@testmail.com;12/06/1979;12/08/2017
-   tycoon;tyreese;tyreese_t@testmail.net;10/08/1971;12/08/2017
-   ```
+  ```
+  lastname;firstname;email;birthdate;subdate
+  jackman;megan;megan.jackman@testmail.com;07/08/1975;10/08/2017
+  phillips;edward;phillips@testmail.com;09/03/1986;10/08/2017
+  weaver;justin;justin_w@testmail.com;11/15/1990;10/08/2017
+  martin;babeth;babeth_martin@testmail.net;11/25/1964;10/08/2017
+  reese;richard;rreese@testmail.com;02/08/1987;11/08/2017
+  cage;nathalie;cage.nathalie227@testmail.com;07/03/1989;11/08/2017
+  xiuxiu;andrea;andrea.xiuxiu@testmail.com;09/12/1992;11/08/2017
+  grimes;daryl;daryl_890@testmail.com;12/06/1979;12/08/2017
+  tycoon;tyreese;tyreese_t@testmail.net;10/08/1971;12/08/2017
+  ```
 
-   ![](assets/subscription_activity_example2.png)
+  ![](assets/subscription_activity_example2.png)
 
 * En **[!UICONTROL Reconciliation]**-aktivitet identifierar att data från filen tillhör profildimensionen i Adobe Campaign-databasen. Endast fliken **[!UICONTROL Identification]** är konfigurerad. Den identifierar fildata enligt profilernas e-postadresser.
 
-   ![](assets/subscription_activity_example3.png)
+  ![](assets/subscription_activity_example3.png)
 
 * En **[!UICONTROL Deduplication]** som baseras på **e-postfältet** för den tillfälliga resursen (som är ett resultat av avstämningen) identifierar eventuella dubbletter. Om de data som importeras från filen innehåller dubbletter, kommer prenumerationen på en tjänst att misslyckas för alla data.
 
-   ![](assets/subscription_activity_example5.png)
+  ![](assets/subscription_activity_example5.png)
 
 * Med en **[!UICONTROL Subscription Services]**-aktivitet kan du välja den tjänst som profilerna ska prenumerera på, fältet som motsvarar prenumerationsdatumet och prenumerationens ursprung.
 
-   ![](assets/subscription_activity_example4.png)
+  ![](assets/subscription_activity_example4.png)
 
 ## Exempel: Uppdatera flera prenumerationsstatusar från en fil {#example--updating-multiple-subscription-statuses-from-a-file}
 
@@ -118,43 +118,43 @@ Arbetsflödet presenteras på följande sätt:
 
 * En **[!UICONTROL Load file]**-aktivitet läser in profilfilen och definierar strukturen för de importerade kolumnerna.
 
-   I det här exemplet är den inlästa filen i CSV-format och innehåller följande data:
+  I det här exemplet är den inlästa filen i CSV-format och innehåller följande data:
 
-   ```
-   lastname;firstname;email;birthdate;service;operation
-   jackman;megan;megan.jackman@testmail.com;07/08/1975;SVC2;sub
-   phillips;edward;phillips@testmail.com;09/03/1986;SVC3;unsub
-   weaver;justin;justin_w@testmail.com;11/15/1990;SVC3;sub
-   martin;babeth;babeth_martin@testmail.net;11/25/1964;SVC3;unsub
-   reese;richard;rreese@testmail.com;02/08/1987;SVC3;sub
-   cage;nathalie;cage.nathalie227@testmail.com;07/03/1989;SVC3;sub
-   xiuxiu;andrea;andrea.xiuxiu@testmail.com;09/12/1992;SVC4;sub
-   grimes;daryl;daryl_890@testmail.com;12/06/1979;SVC3;unsub
-   tycoon;tyreese;tyreese_t@testmail.net;10/08/1971;SVC2;sub
-   ```
+  ```
+  lastname;firstname;email;birthdate;service;operation
+  jackman;megan;megan.jackman@testmail.com;07/08/1975;SVC2;sub
+  phillips;edward;phillips@testmail.com;09/03/1986;SVC3;unsub
+  weaver;justin;justin_w@testmail.com;11/15/1990;SVC3;sub
+  martin;babeth;babeth_martin@testmail.net;11/25/1964;SVC3;unsub
+  reese;richard;rreese@testmail.com;02/08/1987;SVC3;sub
+  cage;nathalie;cage.nathalie227@testmail.com;07/03/1989;SVC3;sub
+  xiuxiu;andrea;andrea.xiuxiu@testmail.com;09/12/1992;SVC4;sub
+  grimes;daryl;daryl_890@testmail.com;12/06/1979;SVC3;unsub
+  tycoon;tyreese;tyreese_t@testmail.net;10/08/1971;SVC2;sub
+  ```
 
-   ![](assets/subscription_example_load_file.png)
+  ![](assets/subscription_example_load_file.png)
 
-   Som du kanske har märkt anges åtgärden i filen som &quot;sub&quot; eller &quot;unsub&quot;. Systemet förväntar sig ett **booleskt värde** eller **heltalsvärde** som identifierar åtgärden som ska utföras: &quot;0&quot; för att avprenumerera och &quot;1&quot; för att prenumerera. En ommappning av värden görs i detaljen i kolumnen &quot;operation&quot; för att matcha detta krav.
+  Som du kanske har märkt anges åtgärden i filen som &quot;sub&quot; eller &quot;unsub&quot;. Systemet förväntar sig ett **booleskt värde** eller **heltalsvärde** som identifierar åtgärden som ska utföras: &quot;0&quot; för att avprenumerera och &quot;1&quot; för att prenumerera. En ommappning av värden görs i detaljen i kolumnen &quot;operation&quot; för att matcha detta krav.
 
-   ![](assets/subscription_example_remapping.png)
+  ![](assets/subscription_example_remapping.png)
 
-   Om filen redan använder &quot;0&quot; och &quot;1&quot; för att identifiera operationen behöver du inte mappa om dessa värden. Kontrollera bara att kolumnen bearbetas som ett **booleskt värde** eller **heltalsvärde** på fliken **[!UICONTROL Column definition]**.
+  Om filen redan använder &quot;0&quot; och &quot;1&quot; för att identifiera operationen behöver du inte mappa om dessa värden. Kontrollera bara att kolumnen bearbetas som ett **booleskt värde** eller **heltalsvärde** på fliken **[!UICONTROL Column definition]**.
 
 * En **[!UICONTROL Reconciliation]**-aktivitet identifierar att data från filen tillhör profildimensionen i Adobe Campaign-databasen. Via fliken **[!UICONTROL Identification]** matchas filens **e-postfält** mot profilresursens **e-postfält**.
 
-   ![](assets/subscription_activity_example3.png)
+  ![](assets/subscription_activity_example3.png)
 
-   På fliken **[!UICONTROL Relations]** skapas en länk med tjänstresursen som gör att filens **tjänstfält** kan identifieras. I det här exemplet matchar värdena tjänstresursens **namnfält**.
+  På fliken **[!UICONTROL Relations]** skapas en länk med tjänstresursen som gör att filens **tjänstfält** kan identifieras. I det här exemplet matchar värdena tjänstresursens **namnfält**.
 
-   ![](assets/subscription_example_service_relation.png)
+  ![](assets/subscription_example_service_relation.png)
 
 * En **[!UICONTROL Deduplication]** som baseras på **e-postfältet** för den tillfälliga resursen (som är ett resultat av avstämningen) identifierar dubbletter. Det är viktigt att ta bort dubbletter eftersom prenumerationen på en tjänst misslyckas för alla data om dubbletter förekommer.
 
-   ![](assets/subscription_activity_example5.png)
+  ![](assets/subscription_activity_example5.png)
 
 * En **[!UICONTROL Subscription Services]** identifierar de tjänster som ska uppdateras från övergången via länken som skapas i **[!UICONTROL Reconciliation]**-aktiviteten.
 
-   **[!UICONTROL Operation type]** identifieras som att det kommer från fältet **operation** i filen. Endast fälten Booleskt värde eller Heltalsvärde kan markeras här. Om kolumnen i filen som innehåller åtgärden som ska utföras inte visas i listan, ska du kontrollera att du har angett kolumnformatet korrekt i **[!UICONTROL Load file]**-aktiviteten, vilket förklaras ovan i det här exemplet.
+  **[!UICONTROL Operation type]** identifieras som att det kommer från fältet **operation** i filen. Endast fälten Booleskt värde eller Heltalsvärde kan markeras här. Om kolumnen i filen som innehåller åtgärden som ska utföras inte visas i listan, ska du kontrollera att du har angett kolumnformatet korrekt i **[!UICONTROL Load file]**-aktiviteten, vilket förklaras ovan i det här exemplet.
 
-   ![](assets/subscription_activity_example_from_file.png)
+  ![](assets/subscription_activity_example_from_file.png)

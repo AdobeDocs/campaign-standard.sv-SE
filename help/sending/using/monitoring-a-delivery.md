@@ -26,23 +26,23 @@ Det finns flera sätt att övervaka en leverans och mäta dess påverkan. Som fu
 
 * **Meddelandeloggar**: Loggarna kan hittas direkt i meddelandepanelen. De visar detaljerna för utskicket, vilket eller vilka mål som har uteslutits och varför de har uteslutits. De visar även spårningsinformation som exempelvis öppningar och klick.
 
-   Om du vill visa meddelandeloggarna klickar du på ikonen längst ned till höger i **[!UICONTROL Deployment]**-sektionen.
+  Om du vill visa meddelandeloggarna klickar du på ikonen längst ned till höger i **[!UICONTROL Deployment]**-sektionen.
 
-   Flera flikar innehåller information (om de finns) gällande **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]** och **[!UICONTROL Tracking logs]****[!UICONTROL Tracked URLs]**.    Se [Leveransloggar](#delivery-logs).
+  Flera flikar innehåller information (om de finns) gällande **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]** och **[!UICONTROL Tracking logs]****[!UICONTROL Tracked URLs]**.    Se [Leveransloggar](#delivery-logs).
 
-   ![](assets/sending_delivery1.png)
+  ![](assets/sending_delivery1.png)
 
-   Loggen innehåller alla meddelanden som har levererats eller testutskickats.  Med specifika ikoner kan du identifiera fel eller varningar.    Mer information finns i [Godkänna meddelanden](../../sending/using/previewing-messages.md).
+  Loggen innehåller alla meddelanden som har levererats eller testutskickats.  Med specifika ikoner kan du identifiera fel eller varningar.    Mer information finns i [Godkänna meddelanden](../../sending/using/previewing-messages.md).
 
-   Du kan exportera loggen genom att klicka på **[!UICONTROL Export list]**-knappen.
+  Du kan exportera loggen genom att klicka på **[!UICONTROL Export list]**-knappen.
 
-   ![](assets/sending_delivery2.png)
+  ![](assets/sending_delivery2.png)
 
-* **Jobbloggar**: En lista över batchjobb som utlöses av leveransen kan nås från meddelandekontrollpanelen genom att välja **[!UICONTROL Job history]** från **[!UICONTROL Summary]** nedrullningsbar lista.
+* **Jobbloggar**: En lista över batchjobb som utlöses av leveransen kan nås från meddelandekontrollpanelen genom att välja **[!UICONTROL Job history]** från **[!UICONTROL Summary]** listruta.
 
-   Välj ett jobb i listan om du vill visa information om det valda **[!UICONTROL Batch job]**.
+  Välj ett jobb i listan om du vill visa information om det valda **[!UICONTROL Batch job]**.
 
-   ![](assets/sending_delivery8.png)
+  ![](assets/sending_delivery8.png)
 
 * **Leveransmeddelanden**: För att hålla koll på framgångar eller fel i leveranser så tillhandahåller Adobe Campaign ett varningssystem för e-post som skickar meddelanden till användarna gällande viktiga systemaktiviteter.
 * **Rapporter**: Från meddelandepanelen kan du få åtkomst till flera rapporter för det specifika meddelandet.    Du har också en **[!UICONTROL Reports]**-meny där du kan få tillgång till en komplett lista med inbyggda eller anpassade rapporter som du kan använda för att skapa mätvärden som är relaterade till ditt meddelande eller din kampanj.

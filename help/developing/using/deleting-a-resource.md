@@ -37,7 +37,7 @@ Så här gör du om utkast och tar bort en publicerad resurs:
 
    >[!IMPORTANT]
    >
-   >Denna åtgärd är definitiv: resursens databastabell eller -kolumner och deras data tas bort permanent när ändringen publiceras, vilket kan leda till brutna länkar från andra anpassade resurser. Endast resursdefinitionen förblir tillgänglig.
+   >Den här åtgärden är slutgiltig: resursens databastabell eller -kolumner och deras data tas bort permanent när ändringen publiceras, vilket kan leda till brutna länkar från andra anpassade resurser. Endast resursdefinitionen är fortfarande tillgänglig.
 
    ![](assets/schema_extension_uc27.png)
 
@@ -49,7 +49,7 @@ Så här gör du om utkast och tar bort en publicerad resurs:
 
    Resursen går sedan in **Utkast** läge och aktiveringsstatus är **[!UICONTROL Inactive]**.
 
-1. I **[!UICONTROL List]** läge, kontrollera resursen som ska tas bort och klicka sedan på ![](assets/delete_darkgrey-24px.png) **[!UICONTROL Delete element]** ikon.
+1. I **[!UICONTROL List]** läge, kontrollera resursen som ska tas bort och klicka sedan på ![](assets/delete_darkgrey-24px.png) **[!UICONTROL Delete element]** -ikon.
 
    ![](assets/schema_extension_uc28.png)
 

@@ -61,7 +61,7 @@ Aktiviteten **[!UICONTROL Segmentation]** placeras vanligtvis efter målaktivite
    * **[!UICONTROL Limit segment population]**: använder du för att begränsa storleken på segmentet.
    * **[!UICONTROL Filter and limit segment population]**: här kan du filtrera populationen av segmentet och begränsa dess storlek.
    * **[!UICONTROL Label]**: segmentets etikett.
-   * **[!UICONTROL Segment code]**: kod som tilldelats segmentpopulationen.Segmentkoden kan anpassas med ett standarduttryck och händelsemariabler (se [den här sidan](../../automating/using/customizing-workflow-external-parameters.md)).
+   * **[!UICONTROL Segment code]**: kod tilldelad segmentpopulationen. Segmentkoden kan anpassas med ett standarduttryck och händelsvariabler (se [den här sidan](../../automating/using/customizing-workflow-external-parameters.md)).
    * **[!UICONTROL Exclude segment from population]**: gör så att du kan utesluta det angivna segmentet från aktivitetens utgående population.  Det här alternativet kan endast användas om alternativet **[!UICONTROL Generate all segments in the same transition]** är markerat.
 
    ![](assets/wkf_segment_new_segment.png)
@@ -85,9 +85,10 @@ Aktiviteten **[!UICONTROL Segmentation]** placeras vanligtvis efter målaktivite
    * **[!UICONTROL By data grouping]**: Du kan begränsa segmentpopulationen enligt värdena för ett specifikt fält i den inkommande populationen.  Markera fältet för gruppering och ange sedan vilka värden som ska användas.
    * **[!UICONTROL By data grouping (as a %)]**: Du kan begränsa segmentpopulationen enligt värdena i ett specifikt fält för inkommande population genom att använda en procentandel.  Markera fältet som du vill använda grupperingen i och ange sedan vilka värden som ska användas.
 
-      >[!NOTE]
-      >
-      >Olika begränsningar för varje enskilt värde kan användas.  Du kan exempelvis ange en gruppering för fält **[!UICONTROL Gender]** och begränsa populationen med **[!UICONTROL Male]**-medlemmar till 10 och **[!UICONTROL Female]**-medlemmar till 30 personer.  Om du använder flera fält för datagruppering måste alla grupperingar ha samma storlek.
+     >[!NOTE]
+     >
+     >Olika begränsningar för varje enskilt värde kan användas.  Du kan exempelvis ange en gruppering för fält **[!UICONTROL Gender]** och begränsa populationen med **[!UICONTROL Male]**-medlemmar till 10 och **[!UICONTROL Female]**-medlemmar till 30 personer.  Om du använder flera fält för datagruppering måste alla grupperingar ha samma storlek.
+
    ![](assets/wkf_segment_limit_by_grouping.png)
 
 1. Bekräfta konfigurationen av segmentet.

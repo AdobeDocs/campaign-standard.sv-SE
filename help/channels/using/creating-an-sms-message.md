@@ -85,7 +85,7 @@ När sändningen är klar kan du börja mäta effekten av meddelandet med inbygg
 * [Om SMS och push-innehållsutgåva](../../channels/using/about-sms-and-push-content-design.md)
 * [Hantera mallar](../../start/using/marketing-activity-templates.md)
 
-## Videokurs {#video}
+## Självstudievideo {#video}
 
 I den här videon visas hur du skapar en SMS-leverans.
 

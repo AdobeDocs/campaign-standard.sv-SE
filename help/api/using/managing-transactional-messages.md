@@ -40,17 +40,17 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 * **&lt;transactionalapi>**: API:t endPoints för transaktionsmeddelanden.
 
-   Namnet på API-slutpunkten för transaktionsmeddelanden beror på instanskonfigurationen. Det motsvarar värdet &quot;mc&quot; följt av ditt personliga organisations-ID. Låt oss ta Geometrixx exempel med&quot;geometrixx&quot; som företags-ID. I så fall skulle begäran om POST vara följande:
+  Namnet på API-slutpunkten för transaktionsmeddelanden beror på instanskonfigurationen. Det motsvarar värdet &quot;mc&quot; följt av ditt personliga organisations-ID. Låt oss ta Geometrixx exempel med&quot;geometrixx&quot; som företags-ID. I så fall skulle begäran om POST vara följande:
 
-   `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
+  `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
-   Observera att API-slutpunkten för transaktionsmeddelanden också visas under API-förhandsgranskningen.
+  Observera att API-slutpunkten för transaktionsmeddelanden också visas under API-förhandsgranskningen.
 
-* **&lt;eventid>**: vilken typ av händelse du vill skicka. Detta ID genereras när händelsekonfigurationen skapas (se [det här avsnittet](../../channels/using/configuring-transactional-event.md#creating-an-event)).
+* **&lt;eventid>**: den typ av händelse som du vill skicka. Detta ID genereras när händelsekonfigurationen skapas (se [det här avsnittet](../../channels/using/configuring-transactional-event.md#creating-an-event)).
 
 ### Rubrik för begäran om POST
 
-Begäran måste innehålla en&quot;Content-Type: application/json&quot; header.
+Begäran måste innehålla rubriken&quot;Content-Type: application/json&quot;.
 
 Du måste till exempel lägga till en teckenuppsättning **utf-8**. Observera att det här värdet beror på vilket REST-program du använder.
 
@@ -134,12 +134,12 @@ Svar på begäran om POST.
 
 I svaret kan du i statusfältet se om händelsen har bearbetats eller inte:
 
-* **väntar**: händelsen är väntande - händelsen får denna status när den precis har utlösts.
-* **bearbetning**: händelsen väntar på att levereras - den håller på att omvandlas till ett meddelande och meddelandet skickas.
+* **väntande**: händelsen är väntande - händelsen får denna status när den precis har utlösts.
+* **bearbetning**: händelsen väntar på leverans - den håller på att omvandlas till ett meddelande och meddelandet skickas.
 * **pausad**: händelseprocessen pausas. Den bearbetas inte längre, utan ligger i en kö i Adobe Campaign-databasen. Mer information om detta finns i [det här avsnittet](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication).
 * **bearbetade**: händelsen bearbetades och meddelandet skickades.
 * **ignorerad**: händelsen ignorerades av leveransen, vanligtvis när en adress är i karantän.
 * **deliveryFailed**: ett leveransfel inträffade när händelsen bearbetades.
 * **routingFailed**: routningsfasen misslyckades - detta kan till exempel inträffa när den angivna händelsetypen inte kan hittas.
-* **tooOld**: händelsen gick ut innan den kunde bearbetas - detta kan inträffa av olika anledningar, till exempel om en sändning misslyckas flera gånger (detta leder till att händelsen inte längre är aktuell) eller när servern inte längre kan bearbeta händelser efter att den har blivit överlagrad.
+* **tooOld**: händelsen gick ut innan den kunde bearbetas - detta kan inträffa av olika anledningar, till exempel om en sändning misslyckas flera gånger (detta leder till att händelsen inte längre är aktuell) eller när servern inte längre kan bearbeta händelser efter att den har överlagrats.
 * **targetingFailed**: Campaign Standarden kunde inte utöka en länk som används för att rikta meddelanden.

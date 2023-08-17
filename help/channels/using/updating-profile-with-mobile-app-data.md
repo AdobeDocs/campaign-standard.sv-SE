@@ -44,9 +44,9 @@ Om du vill kunna skapa eller uppdatera profilresursen med PII-data måste du fö
 
 ![](assets/update_profile1.png)
 
-I det här exemplet **[!UICONTROL Fields]** -avsnittet återspeglar de PII-data som skickas av mobilprogrammet. The **[!UICONTROL Link to profiles]** anger det fält som används för att associera PII-filen med profildata, där **cusEmail** mappar till **@email**.
+I det här exemplet **[!UICONTROL Fields]** -avsnittet återspeglar de PII-data som skickas av mobilprogrammet. The **[!UICONTROL Link to profiles]** anger det fält som används för att associera PII med profildata, där **cusEmail** mappar till **@email**.
 
-Mappningen för profildata utökas **[!UICONTROL Subscriptions to an Application]** resursen är SKRIVSKYDDAD. Det används för avstämning. Profilen måste registreras i systemet med de data som krävs för att stämma av profilen med PII-data. I det här fallet måste en e-postadress för profilen matcha ett e-postmeddelande från Hämta PII för att avstämningen ska ske:
+Mappningen för profildata utökas **[!UICONTROL Subscriptions to an Application]** resursen är skrivskyddad. Det används för avstämning. Profilen måste registreras i systemet med de data som krävs för att stämma av profilen med PII-data. I det här fallet måste en e-postadress för profilen matcha ett e-postmeddelande från Hämta PII för att avstämningen ska ske:
 
 * Samla in PII tas emot från en mobilapp för en användare där förnamnet är &quot;Jane, efternamnet är &quot;Doe&quot; och e-postadressen är janedoe@doe.com.
 * Profildata måste finnas separat (data måste till exempel anges manuellt eller redan komma från en annan resurs) där profilens e-postadress är janedoe@doe.com.
@@ -82,7 +82,7 @@ Följ sedan stegen nedan för att konfigurera varje aktivitet.
 
 ### Konfigurera **[!UICONTROL Scheduler]** aktivitet
 
-I **[!UICONTROL General]** -fliken, ange **[!UICONTROL Execution frequency]** (till exempel&quot;Dagligen&quot;), **[!UICONTROL Time]** (t.ex. &quot;1:00:00 AM&quot;) och **[!UICONTROL Start]** (till exempel dagens datum).
+I **[!UICONTROL General]** -flik, ange **[!UICONTROL Execution frequency]** (till exempel&quot;Dagligen&quot;), **[!UICONTROL Time]** (t.ex. &quot;1:00:00 AM&quot;) och **[!UICONTROL Start]** (till exempel dagens datum).
 
 ![](assets/update_profile2.png)
 

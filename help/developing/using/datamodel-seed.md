@@ -99,7 +99,7 @@ ht-degree: 10%
                </tr>
                <tr>
                   <td>marketingCloudId</td>
-                  <td>Marketing Cloud ID</td>
+                  <td>MARKETING CLOUD ID</td>
                   <td>sträng (256)</td>
                   <td> </td>
                </tr>

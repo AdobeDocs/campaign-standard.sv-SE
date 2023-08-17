@@ -41,7 +41,7 @@ Förberedelsen av meddelande utlöses enligt arbetsflödets körningsparametrar.
 
 **Relaterade ämnen:**
 
-* [Användningsfall: Koppla e-post och direktreklam](../../automating/using/coupling-email-direct-mail.md)
+* [Användningsexempel: Koppla e-post och direktreklam](../../automating/using/coupling-email-direct-mail.md)
 * [Om direktutskick](../../channels/using/about-direct-mail.md)
 
 ## Konfiguration {#configuration}
@@ -58,11 +58,11 @@ Förberedelsen av meddelande utlöses enligt arbetsflödets körningsparametrar.
    * **[!UICONTROL Direct mail]**: Direktmeddelandet skickas en gång. Här kan du ange om du vill lägga till en utgående övergång till aktiviteten. De olika övergångstyperna beskrivs närmare i steg 7 i den här proceduren.
    * **[!UICONTROL Recurring direct mail]**: Direktmeddelandet skickas flera gånger, enligt den frekvens som definieras i en **[!UICONTROL Scheduler]**-aktivitet. Välj aggregeringsperioden för utskicken. Detta gör att du kan gruppera om alla meddelanden som inträffar under den angivna perioden i ett enda direktmeddelande som också kallas för **Återkommande körning** och som kan nås från programmets lista över marknadsföringsaktiviteter.
 
-      Om du till exempel har ett återkommande födelsedags-e-postmeddelande, som bearbetas varje dag, kan du välja att samla in varje månad. Detta gör att du kan få rapporter om leveransen månadsvis, även om e-postmeddelandet bearbetas varje dag.
+     Om du till exempel har ett återkommande födelsedags-e-postmeddelande, som bearbetas varje dag, kan du välja att samla in varje månad. Detta gör att du kan få rapporter om leveransen månadsvis, även om e-postmeddelandet bearbetas varje dag.
 
-      >[!NOTE]
-      >
-      >För återkommande direktmeddelanden skapas en ny fil vid varje körning av arbetsflödet. Den valda aggregeringsperioden har ingen effekt på det här beteendet.
+     >[!NOTE]
+     >
+     >För återkommande direktmeddelanden skapas en ny fil vid varje körning av arbetsflödet. Den valda aggregeringsperioden har ingen effekt på det här beteendet.
 
 1. Välj en typ av direktmeddelande. Typerna av direktmeddelanden kommer från mallar som definieras på menyn **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Ange de allmänna egenskaperna för direktmeddelandet. Du kan även bifoga den till en befintlig kampanj. Etiketten för arbetsflödets leveransaktivitet uppdateras med etiketten för direktmeddelanden.

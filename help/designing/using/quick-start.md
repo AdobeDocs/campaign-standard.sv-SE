@@ -60,7 +60,7 @@ Du kan enkelt skapa e-postmeddelanden, lägga till komponenter och anpassa deras
 
 Strukturkomponenter definierar layouten för e-postmeddelandet. Mer information finns i [Definiera strukturen för ett e-postmeddelande](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-Dra och släpp komponenter för den layout du vill använda i Strukturkomponenter.
+Dra och släpp komponenter för den layout som du vill använda i Strukturkomponenter.
 
 >[!NOTE]
 >
@@ -78,16 +78,16 @@ Du kan lägga till flera innehållskomponenter i e-postmeddelandet, till exempel
    1. Klicka **Bläddra**.
    1. Välj bildfilen på datorn.
 
-   ![](assets/browse-image-quick-start.png)
+  ![](assets/browse-image-quick-start.png)
 
 * **Text med personalisering**
 
    1. I **Innehållskomponenter** drar och släpper du text i en av strukturkomponenterna.
    1. Klicka på komponenten och ange texten.
    1. Om du vill lägga till ett anpassningsfält klickar du på **Infoga anpassningsfält** i verktygsfältet.
-   1. Markera fältet som du behöver, t.ex. Förnamn.
+   1. Markera det fält som du behöver, t.ex. Förnamn.
 
-   ![](assets/edit-text-quick-start.png)
+  ![](assets/edit-text-quick-start.png)
 
 * **HTML**
 
@@ -96,11 +96,11 @@ Du kan lägga till flera innehållskomponenter i e-postmeddelandet, till exempel
    1. Ange HTML innehåll.
    1. Klicka **Spara**.
 
-   ![](assets/html-component-source-code.png)
+  ![](assets/html-component-source-code.png)
 
-   Om du känner till HTML kan du kopiera och klistra in HTML-koden från den ursprungliga sidfoten med **[!UICONTROL Html]** innehållskomponent. Mer information finns i [Om innehållskomponenter](../../designing/using/designing-from-scratch.md#about-content-components).
+  Om du känner till HTML kan du kopiera och klistra in HTML-koden från den ursprungliga sidfoten med **[!UICONTROL Html]** innehållskomponent. Mer information finns i [Om innehållskomponenter](../../designing/using/designing-from-scratch.md#about-content-components).
 
-   ![](assets/des_loading_compatible_fragment_9.png)
+  ![](assets/des_loading_compatible_fragment_9.png)
 
 ### Utforma e-postkomponenten
 
@@ -109,7 +109,7 @@ Du kan justera din e-poststil, till exempel genom att ändra utfyllnaden för en
 1. Klicka på **Textkomponent**.
 1. Till höger, på paletten, går du till **Utfyllnad**.
 1. Klicka på låsikonen om du vill bryta synkroniseringen mellan parametrarna längst upp, längst ned eller till höger och vänster.
-1. Justera **Utfyllnad** efter behov.
+1. Justera **Utfyllnad** som du behöver.
 1. Klicka **Spara**.
 
 ![](assets/padding-quick-start.png)
@@ -121,7 +121,7 @@ Nu kan du spara och skicka e-postmeddelanden.
 Ni kan skapa ett e-postmeddelande utifrån färdiga mallar, som välkomstmeddelanden, nyhetsbrev och e-postmeddelanden om återengagemang och personalisera dem.
 
 1. Skapa ett e-postmeddelande och öppna innehållet i det. Mer information finns i [Skapa ett e-postmeddelande](../../channels/using/creating-an-email.md).
-1. Klicka på hemikonen för att öppna **[!UICONTROL Email Designer]** hemsida.
+1. Klicka på hemikonen för att komma åt **[!UICONTROL Email Designer]** hemsida.
 1. Klicka på **[!UICONTROL Templates]** -fliken.
 1. Välj en färdig HTML-mall.
 De olika mallarna innehåller olika kombinationer av olika typer av element. Mallar av typen &quot;Ludd&quot; har till exempel marginaler medan mallar av typen &quot;Astro&quot; inte har några. Mer information finns i [Innehållsmallar](../../designing/using/using-reusable-content.md#content-templates).
@@ -146,7 +146,7 @@ Det här är ett snabbt sätt att konvertera HTML-e-post till e-postdesignerkomp
 
 >[!NOTE]
 >
->Som i kompatibilitetsläget kan en HTML-komponent redigeras med begränsade alternativ: kan du bara utföra en utgåva på plats.
+>Kompatibilitetsläget är precis som kompatibilitetsläget redigerbart för en HTML-komponent med begränsade alternativ: du kan bara utföra en version på plats.
 
 
 ### Importera och redigera ett e-postmeddelande från HTML {#compatibility-mode}

@@ -18,12 +18,12 @@ ht-degree: 2%
 # Skapa en rapport baserad på arbetsflödessegment{#creating-a-report-workflow-segment}
 
 >[!CAUTION]
-> **[!UICONTROL Segment code]**kan bara rikta sig till e-post och SMS-leveranser.
+> **[!UICONTROL Segment code]** kan bara rikta sig till e-post och SMS-leveranser.
 
 När ni har skapat ett arbetsflöde och filtrerat er population till olika målgrupper kan ni mäta effektiviteten hos era marknadsföringskampanjer baserat på segment som definieras i det här arbetsflödet för målinriktning.
 Om du vill inrikta dig på dessa segment i dina rapporter:
 
-* [Steg 1: Uppdatera profiler, anpassade resurser med segment](#step-1--update-profiles-custom-resource-segments)
+* [Steg 1: Uppdatera anpassade resurser med profiler](#step-1--update-profiles-custom-resource-segments)
 * [Steg 2: Skapa ett arbetsflöde med segment](#step-2--create-a-workflow-segments)
 * [Steg 3: Skapa en dynamisk rapport för att filtrera segment](#step-3--create-a-dynamic-report-filter-segments)
 
@@ -32,11 +32,11 @@ Om du vill inrikta dig på dessa segment i dina rapporter:
 >
 >Mer information om det här avtalet finns i [page](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
-## Steg 1: Uppdatera profiler, anpassade resurser med segment{#step-1--update-profiles-custom-resource-segments}
+## Steg 1: Uppdatera anpassade resurser med profiler{#step-1--update-profiles-custom-resource-segments}
 
-Innan du rapporterar om din segmentkod måste du uppdatera **[!UICONTROL Profiles]** anpassad resurs för de segmentkoder som ska lagras.
+Innan du rapporterar segmentkoden måste du uppdatera **[!UICONTROL Profiles]** anpassad resurs för de segmentkoder som ska lagras.
 
-1. På den avancerade menyn, via Adobe Campaign logotyp, väljer du **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]** väljer du **[!UICONTROL Profile (profile)]** resurs.
+1. På den avancerade menyn via Adobe Campaign logotyp väljer du **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]** väljer du **[!UICONTROL Profile (profile)]** resurs.
 1. I **[!UICONTROL Sending logs extension]** från **[!UICONTROL Data structure]** flik, kontrollera **[!UICONTROL Add segment code]** för att tillåta lagring av era segmentkoder från målarbetsflöden och skicka dem till dynamisk rapportering.
 
    The **[!UICONTROL Segment code]** blir då tillgängligt i **[!UICONTROL Profile]** dimensionsavsnittet i rapporten.
@@ -46,7 +46,7 @@ Innan du rapporterar om din segmentkod måste du uppdatera **[!UICONTROL Profile
 1. Spara din anpassade resurs.
 
 1. Nu måste du publicera din anpassade resurs.
-Välj **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Publishing]**.
+Välj på den avancerade menyn **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Publishing]**.
 
    ![](assets/custom_profile_7.png)
 
@@ -61,7 +61,7 @@ Observera att segmentkoder samlas in så snart du aktiverar segmentkoden i **[!U
 >[!NOTE]
 >Om indataövergången för e-postleveransen är tom läggs segmentkoden från den föregående övergången till som standard.
 
-Du måste först skapa ett arbetsflöde med olika målgrupper. Här vill vi skicka ett e-postmeddelande som personaliseras beroende på målgruppens ålder: en leverans för 20 till 30 år gamla profiler och en annan för profiler mellan 30 och 40 år gamla.
+Du måste först skapa ett arbetsflöde med olika målgrupper. Här vill vi skicka ett e-postmeddelande som kommer att personaliseras beroende på målgruppens ålder: en leverans för 20 till 30 år gamla profiler och en annan för profiler mellan 30 och 40 år gamla.
 
 1. Skapa ett arbetsflöde. Mer information om hur du skapar arbetsflöden finns i [page](../../automating/using/building-a-workflow.md).
 
@@ -113,7 +113,7 @@ När du har skickat leveranser i arbetsflödet kan du dela upp rapporter med hj�
 
    ![](assets/report_segment_5.png)
 
-1. Dra och släpp olika mätvärden i tabellen, t.ex. **[!UICONTROL Open]** och **[!UICONTROL Click]** mätvärden för att börja filtrera data.
+1. Dra och släpp olika mätvärden i tabellen, till exempel **[!UICONTROL Open]** och **[!UICONTROL Click]** mätvärden för att börja filtrera data.
 1. I **[!UICONTROL Dimensions]** klickar du på **[!UICONTROL Profile]** sedan dra och släpp **[!UICONTROL Segment code]** dimensionen på arbetsflödets leverans för att mäta hur framgångsrik e-postleveransen är beroende på målgrupperna.
 
    ![](assets/report_segment_6.png)

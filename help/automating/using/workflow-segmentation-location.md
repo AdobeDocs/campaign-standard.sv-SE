@@ -26,7 +26,7 @@ Du kan skicka riktade e-postmeddelanden till kunderna med erbjudanden i deras lo
 
 ## Välja mottagare som kan kontaktas via e-post{#selecting-recipients-contactable-via-email}
 
-1. I **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, dra och släppa [Fråga](../../automating/using/query.md) aktivitet ![](assets/query.png).
+1. I **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, dra och släppa en [Fråga](../../automating/using/query.md) aktivitet ![](assets/query.png).
 1. Dubbelklicka på aktiviteten.
 1. I **[!UICONTROL Shortcuts]** drar och släpper du **[!UICONTROL Profiles]** och markerar fältet **[!UICONTROL email]** med operatorn **[!UICONTROL is not empty]**.
 1. I **[!UICONTROL Shortcuts]** drar och släpper du **[!UICONTROL Profiles]** och markerar fältet **[!UICONTROL no longer contact by email]** med värdet **[!UICONTROL no]**.

@@ -23,21 +23,21 @@ Målet är att utlösa ett arbetsflöde från ett API-anrop med externa parametr
 
 För att kunna utföra det här användningsfallet måste du utföra åtgärderna nedan:
 
-1. **Göra ett API-anrop** för att aktivera arbetsflöde 1 med externa parametrar. Se [Steg 1: Konfigurera API-anropet](../../automating/using/use-case-calling-workflow.md#step-1--configuring-the-api-call).
-1. **Bygg arbetsflöde 1**: arbetsflödet överför en fil och läser in den i databasen. Sedan testas om data är tomma eller inte och slutligen sparas profilerna i en målgrupp. Slutligen utlöses arbetsflöde 2. Se [Steg 2: Konfigurerar arbetsflöde 1](../../automating/using/use-case-calling-workflow.md#step-2--configuring-workflow-1).
+1. **Anropa ett API** för att utlösa arbetsflöde 1 med externa parametrar. Se [Steg 1: Konfigurera API-anropet](../../automating/using/use-case-calling-workflow.md#step-1--configuring-the-api-call).
+1. **Bygg arbetsflöde 1**: arbetsflödet överför en fil och läser in den i databasen. Sedan testas om data är tomma eller inte och slutligen sparas profilerna i en målgrupp. Slutligen utlöses arbetsflöde 2. Se [Steg 2: Konfigurera arbetsflöde 1](../../automating/using/use-case-calling-workflow.md#step-2--configuring-workflow-1).
 1. **Bygg arbetsflöde 2**: arbetsflödet läser målgruppen som har skapats i arbetsflöde 1 och skickar sedan ett anpassat meddelande till profilerna, med en segmentkod som är anpassad efter parametrarna. Se [Steg 3: Konfigurera arbetsflöde 2](../../automating/using/use-case-calling-workflow.md#step-3--configuring-workflow-2).
 
 ![](assets/extsignal_uc_process.png)
 
 ## Förhandskrav {#prerequisites}
 
-Innan du konfigurerar arbetsflödena måste du skapa arbetsflödet 1 och 2 med en **[!UICONTROL External signal]** aktivitet i var och en av dem. På så sätt kan du rikta in dig på dessa signalaktiviteter när du anropar arbetsflödena.
+Innan du konfigurerar arbetsflödena måste du skapa arbetsflödet 1 och 2 med en **[!UICONTROL External signal]** aktivitet i var och en av dem. På så sätt kan du rikta in dig på de här signalaktiviteterna när du anropar arbetsflödena.
 
 ## Steg 1: Konfigurera API-anropet {#step-1--configuring-the-api-call}
 
 Gör ett API-anrop för att utlösa arbetsflöde 1 med parametrar. Mer information om API-anropssyntaxen finns i [Campaign Standard REST API:er - dokumentation](../../api/using/triggering-a-signal-activity.md).
 
-I det här fallet vill vi anropa arbetsflödet med parametrarna nedan:
+I det här fallet vill vi anropa arbetsflödet med följande parametrar:
 
 * **fileToTarget**: namnet på filen som ska importeras till databasen.
 * **rabattDesc**: den beskrivning som vi vill visa i rabattleveransen.
@@ -58,17 +58,17 @@ I det här fallet vill vi anropa arbetsflödet med parametrarna nedan:
 -d } 
 ```
 
-## Steg 2: Konfigurerar arbetsflöde 1 {#step-2--configuring-workflow-1}
+## Steg 2: Konfigurera arbetsflöde 1 {#step-2--configuring-workflow-1}
 
 Arbetsflöde 1 byggs enligt nedan:
 
 * **[!UICONTROL External signal]** aktivitet: där de externa parametrarna måste deklareras för att kunna användas i arbetsflödet.
 * **[!UICONTROL Transfer file]** aktivitet: importerar filen med det namn som definieras i parametrarna.
 * **[!UICONTROL Load file]** aktivitet: läser in data från den importerade filen till databasen.
-* **[!UICONTROL Update data]** aktivitet: infogar eller uppdaterar databasen med data från den importerade filen.
-* **[!UICONTROL Test]** aktivitet: kontrollerar om data har importerats.
-* **[!UICONTROL Save audience]** aktivitet: om filen innehåller data, sparar profilerna i en målgrupp.
-* **[!UICONTROL End activity]** aktivitet: anropar Workflow 2 med de parametrar som du vill använda i det.
+* **[!UICONTROL Update data]** aktivitet: infoga eller uppdatera databasen med data från den importerade filen.
+* **[!UICONTROL Test]** aktivitet: kontrollerar om det finns importerade data.
+* **[!UICONTROL Save audience]** aktivitet: om filen innehåller data sparar profilerna i en målgrupp.
+* **[!UICONTROL End activity]** aktivitet: anropar arbetsflöde 2 med de parametrar som du vill använda i det.
 
 ![](assets/extsignal_uc_wkf1.png)
 
@@ -79,7 +79,7 @@ Konfigurera arbetsflödet genom att följa stegen nedan:
    ![](assets/extsignal_uc1.png)
 
 1. Lägg till en **[!UICONTROL Transfer file]** aktiviteten att importera data till databasen.Det gör du genom att dra och släppa aktiviteten, öppna den och sedan välja **[!UICONTROL Protocol]** -fliken.
-1. Välj **[!UICONTROL Use a dynamic file path]** kan du sedan använda **fileToTarget** parametern som filen som ska överföras:
+1. Välj **[!UICONTROL Use a dynamic file path]** kan du sedan använda **fileToTarget** -parameter som filen som ska överföras:
 
    ```
    $(vars/@fileToTarget)

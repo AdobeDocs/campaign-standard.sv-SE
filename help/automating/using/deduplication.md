@@ -36,8 +36,8 @@ Därför rekommenderar vi att en deduplicering endast har en ingående övergån
 
 **Relaterade ämnen**
 
-* [Användningsfall: Identifiera dubbletter före leverans](../../automating/using/identifying-duplicated-before-delivery.md)
-* [Användningsfall: Deduplicera data från en importerad fil](../../automating/using/deduplicating-data-imported-file.md)
+* [Användningsfall: Identifiera dubbletter före en leverans](../../automating/using/identifying-duplicated-before-delivery.md)
+* [Använd skiftläge: Ta bort dubbletter av data från en importerad fil](../../automating/using/deduplicating-data-imported-file.md)
 
 ## Konfiguration {#configuration}
 
@@ -67,15 +67,15 @@ Om du vill konfigurera en dedupliceringsaktivitet måste du ange en etikett, met
    * **[!UICONTROL Choose for me]**: Markerar slumpmässigt den post som ska hållas utanför dubbletterna.
    * **[!UICONTROL Following a list of values]**: Låter dig definiera en värdeprioritet för ett eller flera fält. Om du vill definiera värdena markerar du ett fält eller skapar ett uttryck och lägger sedan till värdena i rätt tabell. Om du vill definiera ett nytt fält klickar du på knappen **[!UICONTROL Add]** ovanför listan med värden.
 
-      ![](assets/deduplication_2.png)
+     ![](assets/deduplication_2.png)
 
    * **[!UICONTROL Non-empty value]**: Låter dig behålla poster där värdet för det valda uttrycket inte är tomt som prioritet.
 
-      ![](assets/deduplication_3.png)
+     ![](assets/deduplication_3.png)
 
    * **[!UICONTROL Using an expression]**: Låter dig behålla de poster där det angivna uttryckets värde är det minsta eller det största.
 
-      ![](assets/deduplication_4.png)
+     ![](assets/deduplication_4.png)
 
 1. Hantera vid behov aktivitetens [övergångar](../../automating/using/activity-properties.md) för åtkomst till de avancerade alternativen för den utgående populationen.
 1. Bekräfta aktivitetens konfiguration och spara arbetsflödet.

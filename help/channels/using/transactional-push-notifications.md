@@ -33,7 +33,7 @@ Du kan skicka två typer av push-meddelanden för transaktioner:
 
 ## Transaktionspush-meddelanden för en händelse {#transactional-push-notifications-targeting-an-event}
 
-Du kan använda Adobe Campaign för att skicka **anonyma push-meddelanden för transaktioner till alla användare** som har valt att ta emot meddelanden från ditt mobilprogram.
+Du kan skicka med Adobe Campaign **anonyma push-meddelanden för transaktioner till alla användare** som har valt att ta emot meddelanden från ditt mobilprogram.
 
 I det här fallet är det bara **data i själva händelsen används för att definiera leveransmålet**. Inga data från Adobe Campaign integrerade profildatabas används.
 
@@ -53,7 +53,7 @@ Händelsen måste innehålla följande tre element:
 
 Följ stegen nedan för att konfigurera händelsen:
 
-1. När du skapar händelsekonfigurationen väljer du **[!UICONTROL Push notification]** kanal och **[!UICONTROL Real-time event]** målinriktning (se [Skapa en händelse](../../channels/using/configuring-transactional-event.md#creating-an-event)).
+1. Välj knappen **[!UICONTROL Push notification]** kanal och **[!UICONTROL Real-time event]** målinriktning (se [Skapa en händelse](../../channels/using/configuring-transactional-event.md#creating-an-event)).
 1. Lägg till fält i händelsen. Detta gör att du kan anpassa transaktionsmeddelandet (se [Definiera händelseattributen](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes)). I det här exemplet definierar du fälten&quot;gateNumber&quot;,&quot;lastname&quot; och&quot;firstname&quot;.
 1. Du kan också förbättra innehållet i ditt meddelande. Det gör du genom att lägga till fält från tabellen som du länkade till din händelsekonfiguration (se [Förbättra händelsen](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)).
 
@@ -79,7 +79,7 @@ Företaget skickar ett transaktionsmeddelande per användare (identifieras med e
 
    ![](assets/message-center_push_message.png)
 
-1. Klicka på **[!UICONTROL Content]** om du vill ändra meddelandets rubrik och brödtext.
+1. Klicka på **[!UICONTROL Content]** -block för att ändra meddelandets rubrik och brödtext.
 
 1. Du kan infoga anpassningsfält för att lägga till element som du definierade när du skapade din händelse (se [Definiera händelseattributen](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes)).
 
@@ -135,7 +135,7 @@ Mer information om hur du öppnar och redigerar profiler finns i [Om profiler](.
 
 Om du vill skicka ett transaktionspush-meddelande till de Adobe Campaign-profiler som har prenumererat på ditt mobilprogram måste du först skapa och konfigurera en händelse för Adobe Campaign-databasen.
 
-1. När du skapar händelsekonfigurationen väljer du **[!UICONTROL Push notification]** kanal och **[!UICONTROL Profile]** målinriktning (se [Skapa en händelse](../../channels/using/configuring-transactional-event.md#creating-an-event)).
+1. Välj knappen **[!UICONTROL Push notification]** kanal och **[!UICONTROL Profile]** målinriktning (se [Skapa en händelse](../../channels/using/configuring-transactional-event.md#creating-an-event)).
 
    Som standard skickas transaktionsmeddelandet till alla mobilprogram som mottagarna prenumererar på. Om du vill skicka push-meddelandet till ett visst mobilprogram markerar du det i listan. De andra mobilapparna kommer att adresseras av meddelandet, men kommer inte att kunna skickas.
 
@@ -167,7 +167,7 @@ Ett flygbolag vill t.ex. skicka en sista förfrågan om introduktion till alla A
 
 1. Gå till transaktionsmeddelandet som skapades för att redigera det. Se [Åtkomst till transaktionsmeddelanden](../../channels/using/editing-transactional-message.md#accessing-transactional-messages).
 
-1. Klicka på **[!UICONTROL Content]** om du vill ändra meddelandets rubrik och brödtext.
+1. Klicka på **[!UICONTROL Content]** -block för att ändra meddelandets rubrik och brödtext.
 
    I motsats till konfigurationer som baseras på realtidshändelser har du direkt tillgång till all profilinformation för att personalisera meddelandet. Se [Infoga ett personaliserat fält](../../designing/using/personalization.md#inserting-a-personalization-field).
 
@@ -188,7 +188,7 @@ Ett flygbolag vill t.ex. skicka en sista förfrågan om introduktion till alla A
 
 Mer information om hur du integrerar utlösande av en händelse i ett externt system finns i [Integrera händelseutlösaren](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
 
-Motsvarande användare får ett transaktionspush-meddelande som innehåller alla personaliseringselement som hämtats från Adobe Campaign-databasen.
+Motsvarande användare får ett transaktionsmeddelande om push-överföring som innehåller alla personaliseringselement som hämtats från Adobe Campaign-databasen.
 
 >[!NOTE]
 >

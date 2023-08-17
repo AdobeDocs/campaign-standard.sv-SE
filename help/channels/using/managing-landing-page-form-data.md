@@ -40,7 +40,7 @@ Följ stegen nedan för att göra detta:
 
 1. Öppna **[!UICONTROL Form data]** till vänster.
 
-1. Om du vill ändra fälttyp väljer du ett värde i **[!UICONTROL HTML type of the field]** nedrullningsbar lista.
+1. Om du vill ändra fälttyp väljer du ett värde på menyn **[!UICONTROL HTML type of the field]** listruta.
 
    ![](assets/lp_html-field-type.png)
 
@@ -58,7 +58,7 @@ Följ stegen nedan för att göra detta:
 
    >[!NOTE]
    >
-   >Landningssidor kan bara mappas med **[!UICONTROL Profiles]** eller **[!UICONTROL Service]** resurser.
+   >Det går endast att mappa landningssidor med **[!UICONTROL Profiles]** eller **[!UICONTROL Service]** resurser.
 
    I det här exemplet mappar du **Namn** landningssidans fält till **[!UICONTROL Last name]** fält för **[!UICONTROL Profiles]** resurs.
 
@@ -102,21 +102,21 @@ Följ stegen nedan för att göra detta:
 
    * Markera ett block och gå till **[!UICONTROL Form data]** avsnitt, välja **[!UICONTROL Checkbox]** som fälttyp.
 
-      ![](assets/lp_field-type-checkbox.png)
+     ![](assets/lp_field-type-checkbox.png)
 
    * Om du känner till HTML kan du även infoga en kryssruta manuellt med hjälp av **[!UICONTROL Show source]** -knappen.
 
-      ![](assets/lp_show_source.png)
+     ![](assets/lp_show_source.png)
 
-      På så sätt kan du infoga kryssrutan när det passar på sidan.
+     På så sätt kan du infoga kryssrutan när det passar på sidan.
 
-      ![](assets/lp_manual-checkbox.png)
+     ![](assets/lp_manual-checkbox.png)
 
-1. Kontrollera att kryssrutan är markerad i innehållet. The **[!UICONTROL Type]** nedrullningsbar lista visas i **[!UICONTROL Form data]** i den vänstra paletten. Välj **[!UICONTROL Service and subscription]** från listan.
+1. Kontrollera att kryssrutan är markerad i innehållet. The **[!UICONTROL Type]** listrutan visas i **[!UICONTROL Form data]** i den vänstra paletten. Välj **[!UICONTROL Service and subscription]** från listan.
 
    ![](assets/lp_service-and-subscription.png)
 
-1. Välj ett alternativ på menyn **[!UICONTROL Behavior]** nedrullningsbar lista.
+1. Välj ett alternativ på menyn **[!UICONTROL Behavior]** listruta.
 
    ![](assets/lp_checkbox-behavior.png)
 
@@ -150,13 +150,13 @@ Så här infogar och konfigurerar du den här kryssrutan:
 
    * Markera ett block och gå till **[!UICONTROL Form data]** avsnitt, välja **[!UICONTROL Checkbox]** som fälttyp.
 
-      ![](assets/lp_field-type-checkbox.png)
+     ![](assets/lp_field-type-checkbox.png)
 
    * Om du känner till HTML kan du även infoga en kryssruta manuellt med hjälp av **[!UICONTROL Show source]** -knappen.
 
-      ![](assets/lp_show_source.png)
+     ![](assets/lp_show_source.png)
 
-      <!--Manually insert a checkbox, such as in the example below:
+     <!--Manually insert a checkbox, such as in the example below:
 
       <!--Click **[!UICONTROL Hide source]**.-->
 
@@ -164,7 +164,7 @@ Så här infogar och konfigurerar du den här kryssrutan:
 
    ![](assets/lp_select_checkbox.png)
 
-1. The **[!UICONTROL Type]** nedrullningsbar lista visas i **[!UICONTROL Form data]** i den vänstra paletten. Välj **[!UICONTROL Agreement]** från listan.
+1. The **[!UICONTROL Type]** listrutan visas i **[!UICONTROL Form data]** i den vänstra paletten. Välj **[!UICONTROL Agreement]** från listan.
 
    ![](assets/lp_form_data_drop-down.png)
 

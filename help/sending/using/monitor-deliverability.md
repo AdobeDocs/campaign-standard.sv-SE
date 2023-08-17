@@ -22,7 +22,7 @@ Här nedan hittar du information om **[!UICONTROL Delivery throughput]** samt de
 * Kontrollera regelbundet leveransflödet för hela plattformen för att kontrollera om det stämmer överens med den ursprungliga konfigurationen.
 * Kontrollera att återförsök har konfigurerats korrekt (30 minuter för återförsöksperiod och mer än 20 återförsök) i leveransmallar.
 * Kontrollera regelbundet att studspostlådan är tillgänglig och att kontot inte håller på att förfalla.
-* Kontrollera varje leveransflöde för att säkerställa att det stämmer överens med leveransinnehållets giltighet (t.ex. &quot;flash sales&quot; ska levereras på några minuter, inte dagar).
+* Kontrollera varje leveransflöde för att se till att det stämmer överens med leveransinnehållets giltighet (t.ex. ska &#39;flash sales&#39; levereras på några minuter, inte dagar).
 * Kontrollera att antalet fel och nya karantän stämmer överens med andra leveranser.
 * Titta noga i leveransloggarna för att kontrollera vilka typer av fel som markeras (blockeringslista, DNS-problem, antispam-regler osv.).
 

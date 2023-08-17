@@ -31,7 +31,7 @@ ht-degree: 23%
 
    Detta visar de ändringar som publiceringen av API:t kommer att gälla för den aktuella versionen av API:t profilesAndServicesExt.
 
-   Här visas fältet Promo Code (ID: cusBrand) infogas i API:t.
+   Här infogas fältet Promo Code (ID: cusBrand) i API:t.
 
    ![](assets/extendpandsapi_diff.png)
 

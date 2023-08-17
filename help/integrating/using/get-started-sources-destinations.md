@@ -35,7 +35,7 @@ En mer detaljerad översikt över Adobe Real-time Customer Data Platform, Destin
 
 ## Koppla samman Campaign Standard med Adobe Experience Platform
 
-För att kunna dela data mellan Adobe Experience Platform och Campaign Standard måste du först koppla Adobe Campaign som en **Mål** och ansluta din AWS S3- eller Azure-blobblagringsplats som en **Källa** i Adobe Experience Platform.
+För att kunna dela data mellan Adobe Experience Platform och Campaign Standard måste du först koppla Adobe Campaign som en **Mål** och ansluta din AWS S3- eller Azure-blobblagringsplats som **Källa** i Adobe Experience Platform.
 
 När kopplingarna har konfigurerats kan du konfigurera en dataimport eller exportera till Campaign Standard med hjälp av arbetsflöden.
 

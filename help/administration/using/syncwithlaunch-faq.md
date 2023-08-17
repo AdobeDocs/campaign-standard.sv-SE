@@ -19,7 +19,7 @@ Du kan importera taggens mobila egenskaper till Adobe Campaign Standard via **[!
 
 I avsnittet nedan visas vanliga frågor om synkroniseringen.
 
-## Jag skapade en taggegenskap (som inte är administratör för Org-unit ALL). Mitt program är i tillståndet Ready to Configure i Adobe Campaign, men jag kan inte öppna/konfigurera det. {#configuring-property}
+## Jag skapade en taggegenskap (som inte är administratör för organisationsenhet ALL). Mitt program är i tillståndet Ready to Configure i Adobe Campaign, men jag kan inte öppna/konfigurera det. {#configuring-property}
 
 Det är bara administratören av organisationsenheten ALL som kan konfigurera mobilprogram i Adobe Campaign Standard. När programmet har konfigurerats kan endast användare i den tilldelade organisationsenheten redigera det. Mer information om organisationsenhet finns i [page](../../administration/using/organizational-units.md).
 

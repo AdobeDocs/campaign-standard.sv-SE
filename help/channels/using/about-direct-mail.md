@@ -38,7 +38,7 @@ Användarprocessen i Adobe Campaign är som följer:
 
 **Relaterade ämnen:**
 
-* [Användningsfall: Koppla e-post och direktreklam](../../automating/using/coupling-email-direct-mail.md)
+* [Användningsexempel: Koppla e-post och direktreklam](../../automating/using/coupling-email-direct-mail.md)
 
 ## Rekommendationer {#recommendations}
 

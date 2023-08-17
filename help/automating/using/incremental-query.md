@@ -40,11 +40,11 @@ Aktiviteten **[!UICONTROL Incremental query]** kan användas för olika typer av
 
 * Exportera data.
 
-   Du kan använda en **[!UICONTROL Incremental query]**-aktivitet för att regelbundet exportera nya loggar i filer. Det kan till exempel vara användbart om du vill använda dina loggdata i externa rapporterings- eller BI-verktyg. Ett fullständigt exempel finns i avsnittet [Exportera loggar](../../automating/using/exporting-logs.md).
+  Du kan använda en **[!UICONTROL Incremental query]**-aktivitet för att regelbundet exportera nya loggar i filer. Det kan till exempel vara användbart om du vill använda dina loggdata i externa rapporterings- eller BI-verktyg. Ett fullständigt exempel finns i avsnittet [Exportera loggar](../../automating/using/exporting-logs.md).
 
 **Relaterade ämnen**
 
-* [Användningsfall: Stegvis fråga om prenumeranter på en tjänst](../../automating/using/incremental-query-on-subscribers.md)
+* [Användningsfall: Inkrementell fråga för prenumeranter på en tjänst](../../automating/using/incremental-query-on-subscribers.md)
 
 ## Konfiguration {#configuration}
 
@@ -60,7 +60,8 @@ Aktiviteten **[!UICONTROL Incremental query]** kan användas för olika typer av
    * **[!UICONTROL Use the exclusion of the results of previous executions]**: Resultaten från tidigare körningar för varje ny körning utesluts.
    * **[!UICONTROL Use a date field]**: Vid nästa körning beaktas endast resultat som har det valda datumfältet större eller lika med det senaste körningsdatumet för aktiviteten **[!UICONTROL Incremental query]**. Du kan välja ett datumfält som gäller för den valda resursen på fliken **[!UICONTROL Properties]**. Det här läget har bättre prestanda när stora resurser, som t.ex. loggdata, efterfrågas.
 
-      Efter den första körningen av arbetsflödet kan du på den här fliken se det senaste körningsdatumet som ska användas för nästa körning. Den uppdateras automatiskt varje gång arbetsflödet körs. Du kan fortfarande åsidosätta det här värdet genom att ange ett nytt värde manuellt så att det passar dina behov.
+     Efter den första körningen av arbetsflödet kan du på den här fliken se det senaste körningsdatumet som ska användas för nästa körning. Den uppdateras automatiskt varje gång arbetsflödet körs. Du kan fortfarande åsidosätta det här värdet genom att ange ett nytt värde manuellt så att det passar dina behov.
+
    >[!NOTE]
    >
    >**[!UICONTROL Use a date field]**-läget ger större flexibilitet beroende på vilket datumfält som är markerat. Om det markerade fältet till exempel motsvarar ett ändringsdatum, kan du i läget för datumfält hämta data som nyligen uppdaterats, medan det andra läget helt enkelt utelämnar inspelningar som redan har valts i en tidigare körning, även om de har ändrats sedan den senaste körningen av arbetsflödet.

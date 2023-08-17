@@ -26,13 +26,13 @@ I följande avsnitt beskrivs god praxis och rekommenderade procedurer för optim
 
 Flera faktorer kan direkt påverka serverprestanda och göra plattformen långsammare:
 
-* Antal och typ av personaliseringselement: personalisering i e-post hämtar data från databasen för varje mottagare. Om det finns många personaliseringselement ökar detta mängden data som behövs för att förbereda leveransen.  Läs mer om e-postpersonalisering i [det här avsnittet](../../designing/using/personalization.md)
+* Antalet och typen av personaliseringselement: personalisering i e-postmeddelanden hämtar data från databasen för varje mottagare. Om det finns många personaliseringselement ökar detta mängden data som behövs för att förbereda leveransen.  Läs mer om e-postpersonalisering i [det här avsnittet](../../designing/using/personalization.md)
 
-* Serverbelastningen: när Campaign hanterar många olika uppgifter samtidigt kan det göra prestandan långsammare. Servern måste koordinera alla inkommande och utgående data för alla leveranser för att säkerställa att data är korrekta och i tid.
+* Serverbelastningen: när Campaign hanterar många olika uppgifter samtidigt kan det försämra prestandan. Servern måste koordinera alla inkommande och utgående data för alla leveranser för att säkerställa att data är korrekta och i tid.
 
-   **TIPS** - Undvik detta genom att samordna schemaläggningen av leveranser med övriga medlemmar i teamet för att säkerställa bästa möjliga prestanda.
+  **TIPS** - Undvik detta genom att samordna schemaläggningen av leveranser med övriga medlemmar i teamet för att säkerställa bästa möjliga prestanda.
 
-* The [arbetsflödeskörning](../../automating/using/about-workflow-execution.md): övervakning av arbetsflödena är avgörande för att undvika problem med plattformens prestanda. Följ riktlinjerna som anges [på den här sidan](../../automating/using/monitoring-workflow-execution.md). Läs mer i [arbetsflöden](../../automating/using/best-practices-workflows.md) -avsnitt.
+* The [arbetsflödeskörning](../../automating/using/about-workflow-execution.md): för att undvika problem med prestanda på plattformen är det viktigt att du övervakar arbetsflödena. Följ riktlinjerna som anges [på den här sidan](../../automating/using/monitoring-workflow-execution.md). Läs mer i [arbetsflöden](../../automating/using/best-practices-workflows.md) -avsnitt.
 
 * Du kan utnyttja [Funktioner i Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html) övervaka plattformen med [prestandaövervakning](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=sv) funktioner.
 
@@ -40,7 +40,7 @@ Flera faktorer kan direkt påverka serverprestanda och göra plattformen långsa
 
 Om du vill optimera leveransen när du hanterar e-post i stora volymer och undvika att ta fel för en skräppost, kontrollerar du att du har en giltig nätverkskonfiguration som inte försöker dölja serverns identitet.
 
-**Tips**: Använd en transparent avsändaradress som motsvarar ert varumärkes webbplats. Exempel: företaget TravelAgency hanterar hotellkedjan Valentino. Företaget äger domänen valentino.com för sin webbplats. För att marknadsföra alla hjärtans dag-hotell i Paris använder man underdomänen paris.valentino.com. Därför kan en relevant avsändaradress vara hotel@paris.valentino.com.
+**Tips**: Använd en transparent avsändaradress som motsvarar ert varumärkes webbplats. Exempel: företaget TravelAgency hanterar hotellkedjan Valentino. Företaget äger valentino.com domän för sin webbplats. För att marknadsföra alla hjärtans dag-hotell i Paris använder man underdomänen paris.valentino.com. Därför kan en relevant avsändaradress vara hotel@paris.valentino.com.
 
 ## Levererbarhetshantering {#deliverability-management}
 
@@ -50,7 +50,7 @@ Om du vill nå mottagarnas inkorg utan att studsa eller markeras som skräppost 
 
    * Det avser de faktorer i ett e-postmeddelande som avgör om det kan accepteras av en mottagares server. Internet-leverantörer (Internet Service Providers) filtrerar bort e-postmeddelanden som de identifierar som SPAM eller blockerar bilder från hämtning. Om de fastställer att en viss domän skickar för många e-postmeddelanden, kommer de att ange en gräns för hur många e-postmeddelanden de accepterar från den avsändaren.
 
-   * När du kontrollerar om e-postmeddelandet kan levereras vill du fokusera på fyra huvudkategorier: datakvalitet, meddelande och innehåll, utskick av infrastruktur och anseende. Mer information om detta finns i [det här avsnittet](../../sending/using/about-deliverability.md).
+   * När du kontrollerar om e-postmeddelandet kan levereras vill du fokusera på fyra huvudkategorier: datakvalitet, meddelande och innehåll, avsändarinfrastruktur och anseende. Mer information om detta finns i [det här avsnittet](../../sending/using/about-deliverability.md).
 
 * När du startar en ny plattform bör du följa de rekommendationer som beskrivs i [den här sidan](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process).
 
@@ -60,11 +60,11 @@ Om du vill nå mottagarnas inkorg utan att studsa eller markeras som skräppost 
 
 Det ligger i ditt bästa intresse att upprätthålla goda karantänhanteringsprocesser.
 
-När du börjar skicka e-post på en ny plattform kan du använda en lista med adresser som inte är fullständigt kvalificerade. Om du skickar till ogiltiga adresser eller till honeypoadresser (postlådor som bara skapats för att lura skräppost) börjar detta minska din plattforms anseende. Goda rutiner för hantering av karantäner hjälper till att upprätthålla adresskvaliteten, undvika blockeringslista från internetleverantörer och minska felfrekvensen, snabba upp leveranser och dataflöde.
+När du börjar skicka e-post på en ny plattform kan du använda en lista med adresser som inte är fullständigt kvalificerade. Om du skickar till ogiltiga adresser eller till honeypoadresser (postlådor som bara skapats för att lura skräppost) börjar detta minska din plattforms anseende. Bra processer för hantering av karantän hjälper till att: upprätthålla adresskvaliteten, undvika blockeringslista från internetleverantörer och minska felfrekvensen, påskynda leveranser och dataflöde.
 
 **Tips**
 
-* Mottagare vars adresser sätts i karantän exkluderas som standard vid leveransanalysen: de inte är riktade. Detta snabbar upp leveranserna eftersom felfrekvensen avsevärt påverkar leveranshastigheten. En e-postadress kan sättas i karantän när inkorgen är full eller om adressen inte finns. [Läs mer](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses)
+* Mottagare vars adresser sätts i karantän exkluderas som standard under leveransanalysen: de är inte riktade. Detta snabbar upp leveranserna eftersom felfrekvensen avsevärt påverkar leveranshastigheten. En e-postadress kan sättas i karantän när inkorgen är full eller om adressen inte finns. [Läs mer](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses)
 
 * Adobe Campaign hanterar felaktiga adresser beroende på vilken typ av fel som returneras. Mer information om detta finns i [det här avsnittet](../../sending/using/understanding-quarantine-management.md).
 

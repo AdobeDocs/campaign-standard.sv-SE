@@ -21,7 +21,7 @@ Varje objekt och användare av plattformen är länkade till en organisationsenh
 
 >[!IMPORTANT]
 >
->Om en användare inte är länkad till någon enhet kommer den användaren inte att kunna ansluta till Adobe Campaign. Om du vill begränsa åtkomsten för en viss användare eller grupp av användare ska du inte länka den till **[!UICONTROL All]** enhet. Vi rekommenderar att du lägger till alternativet **Åtkomst till behörighetshanteringsfält** innan du importerar några profiler. Mer information om detta hittar du i det här [avsnittet](../../administration/using/organizational-units.md#partitioning-profiles).
+>Om en användare inte är länkad till någon enhet kan den användaren inte ansluta till Adobe Campaign. Om du vill begränsa åtkomsten för en viss användare eller grupp av användare ska du inte länka den till **[!UICONTROL All]** enhet. Vi rekommenderar att du lägger till alternativet **Åtkomst till behörighetshanteringsfält** innan du importerar några profiler. Mer information om detta hittar du i det här [avsnittet](../../administration/using/organizational-units.md#partitioning-profiles).
 >
 >**[!UICONTROL All (all)]** Organisationsenheten tilldelas som standard till **[!UICONTROL Administrators]** säkerhetsgruppen.  Den är skrivskyddad och kan inte ändras.
 
@@ -41,7 +41,7 @@ När användaren tilldelas en organisationsenhet används alltid den här enhete
 
 Med organisationsenheter kan du filtrera instansen beroende på vilken organisation användarna är länkade till. Den här enheten kan representera en region, ett land eller till och med ett varumärke i din instans.
 
-Här har vi tidigare skapat säkerhetsgrupper med olika roller för två användare: en användare tilldelas säkerhetsgrupperna Administratörer och Geometrixx, den andra användaren tillhör säkerhetsgrupperna Standard användare och Geometrixx Se [Skapa en säkerhetsgrupp och tilldela användare](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users) i det fullständiga exemplet.
+Här har vi tidigare skapat säkerhetsgrupper med olika roller för två användare: en användare har tilldelats säkerhetsgrupperna Administratörer och Geometrixx, den andra användaren tillhör säkerhetsgrupperna Standardanvändare och Geometrixx Se [Skapa en säkerhetsgrupp och tilldela användare](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users) i det fullständiga exemplet.
 
 Nu måste vi skapa organisationsenheter för Geometrixx- och Geometrixx säkerhetsgrupper:
 
@@ -51,18 +51,18 @@ Nu måste vi skapa organisationsenheter för Geometrixx- och Geometrixx säkerhe
    ![](assets/manage_units_1.png)
 
 1. Ändra standardinställningen **[!UICONTROL Label]** och **[!UICONTROL ID]** till Geometrixx.
-1. Länka sedan den här enheten till en överordnad enhet. Här väljer vi **[!UICONTROL All]**.
+1. Länka sedan enheten till en överordnad enhet. Här väljer vi **[!UICONTROL All]**.
 
    ![](assets/manage_units_2.png)
 
 1. Klicka slutligen **[!UICONTROL Create]** för att börja tilldela din nya organisationsenhet till säkerhetsgruppen.
-1. Följ samma procedur för enheten Geometrixx Clothes, förutom att dess överordnade enhet måste vara den tidigare skapade enheten, Geometrixx.
+1. Följ samma procedur för enheten Geometrixx, förutom att dess överordnade enhet måste vara den tidigare skapade enheten, Geometrixx.
 
    ![](assets/manage_units_3.png)
 
 För att se effekten av att tilldela olika enheter till olika säkerhetsgrupper skapar den användare som tilldelats administratörs- och Geometrixx-grupperna två e-postmallar för att se vad den andra användaren som tilldelats standardanvändare och Geometrixx kan eller inte kan komma åt.
 
-1. Välj **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery Templates]**.
+1. Välj på den avancerade menyn **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery Templates]**.
 1. Duplicera en befintlig mall och anpassa den efter behov. Mer information finns i [Om mallar](../../start/using/marketing-activity-templates.md) -avsnitt.
 1. När mallen skapas väljer du **[!UICONTROL Edit properties]** om du vill tilldela enheter till mallen.
 
@@ -76,7 +76,7 @@ För att se effekten av att tilldela olika enheter till olika säkerhetsgrupper 
 
 1. Följ samma procedurer för att skapa den andra mallen som tilldelats den tidigare skapade organisationsenheten för Geometrixx.
 
-Användare som tilldelats **Standardanvändare** och **Geometrixx** grupper kan se båda mallarna. På grund av organisationsenheternas hierarkiska struktur har de läs- och skrivåtkomst till den mall som är länkad till Geometrixx Color-enheten och endast skrivskyddad åtkomst till den mall som är länkad till Geometrixx.
+Användare som är tilldelade **Standardanvändare** och **Geometrixx** grupper kan se båda mallarna. På grund av organisationsenheternas hierarkiska struktur har de läs- och skrivåtkomst till den mall som är länkad till Geometrixx Color-enheten och endast skrivskyddad åtkomst till den mall som är länkad till Geometrixx.
 
 ![](assets/manage_units_7.png)
 
@@ -102,7 +102,7 @@ Om din organisation behöver isolera profilerna som kontaktas av alla dina olika
 
 Som standard är organisationsenhetsfälten inte tillgängliga i dina profiler och behöver läggas till.
 
-1. På den avancerade menyn, via Adobe Campaign logotyp, väljer du **Administration > Utveckling > Anpassade resurser**.
+1. På den avancerade menyn via Adobe Campaign logotyp väljer du **Administration > Utveckling > Anpassade resurser**.
 1. Välj **Profil** eller skapa en ny anpassad resurs för att utöka profilerna. Mer information om hur du utökar profilerna finns i [page](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-1--extend-the-profile-resource).
 1. Kontrollera **Lägg till åtkomstbehörighetshanteringsfält** om du vill lägga till organisationsenheter i **Profil** tillägg.
 
@@ -111,7 +111,7 @@ Som standard är organisationsenhetsfälten inte tillgängliga i dina profiler o
 1. Klicka på **[!UICONTROL Save]**.
 1. Uppdatera strukturen genom att publicera om anpassade resurser. Mer information om publiceringsprocessen finns i [Uppdaterar strukturen](../../developing/using/updating-the-database-structure.md) -avsnitt.
 
-Fältet Organisationsenhet läggs till dina profiler i **[!UICONTROL Access authorization]** -avsnitt.
+Fältet Organisationsenhet läggs till i dina profiler i **[!UICONTROL Access authorization]** -avsnitt.
 
 ![](assets/user_management_10.png)
 

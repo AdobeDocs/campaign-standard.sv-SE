@@ -33,7 +33,7 @@ Så här skapar du ett Adobe Campaign-formulär på din AEM webbplats:
 
    * **Adobe Campaign: Spara profil**
    * **Adobe Campaign: Prenumerera på tjänster**
-   * **Adobe Campaign: Avbeställ Services**
+   * **Adobe Campaign: Avbeställ tjänsterna**
 
 1. Redigera innehållet i formuläret genom att lägga till olika fält och komponenter som du kan mappa till databasfälten i Adobe Campaign.
 1. Testa och publicera formuläret så att det blir tillgängligt på din AEM webbplats.

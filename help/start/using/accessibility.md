@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 100%
 
@@ -31,13 +31,13 @@ Vi strävar efter att användargränssnittet i Adobe Campaign Standard ska erbju
 
 * Stor text och stora rubriker har förbättrats så att kontrastförhållandet på 3:1 uppfylls.
 
-   ![](assets/accessibility_2.png)
+  ![](assets/accessibility_2.png)
 
 * Hjälpinnehåll och brödtext i programmet har uppdaterats för att uppnå ett kontrastförhållande på 4,5:1.
 
 * Ikonerna för paus och avbryt i arbetsflöden har uppdaterats för att förbättra kontrasten mellan färger i bakgrunden och i förgrunden.
 
-   ![](assets/accessibility_1.png)
+  ![](assets/accessibility_1.png)
 
 * Färg, form och plats är inte de enda metoder som används för att förmedla information eller hierarki i programmet.
 
@@ -47,11 +47,11 @@ Användargränssnittet i Adobe Campaign Standard gör det enklare för alla anv�
 
 * När användaren lämnar ett obligatoriskt ID-fält tomt visar en bild visuellt vilket fält som har felet med felmeddelandetext och samma information skickas programmatiskt till användare med hjälpmedelstekniker såsom skärmläsare.
 
-   ![](assets/accessibility_3.png)
+  ![](assets/accessibility_3.png)
 
 * Innehåll som visas vid hovring eller fokus kan stängas av om användaren så väljer och döljer inte annat innehåll.
 
-   ![](assets/accessibility_4.png)
+  ![](assets/accessibility_4.png)
 
 * Alternativa texter för bilder och tillgänglighetsnamn för knappar har lagts till och kan läsas högt med hjälpmedelsteknik i stället för att endast förlita sig på visuella indikeringsfunktioner för att identifiera element.
 

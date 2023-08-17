@@ -36,7 +36,7 @@ Så här skapar du arbetsflödet:
 
    ![](assets/load_file_activity.png)
 
-1. Dra och släpp en [Berikning](../../automating/using/enrichment.md) till arbetsflödet och länka inläsningsfilen och frågeaktiviteterna till det.
+1. Dra och släpp en [Berikning](../../automating/using/enrichment.md) -aktiviteten i arbetsflödet och länka inläsningsfilen och frågeaktiviteterna till den.
 
 1. På fliken **[!UICONTROL Advanced relations]** för berikningsaktiviteter markerar du **[!UICONTROL 0 or 1 cardinality simple link]** och definierar fälten som ska användas för avstämning.  Här använder vi efternamnet för att stämma av data med databasprofilerna.
 
@@ -56,7 +56,7 @@ Så här skapar du arbetsflödet:
 
    Mer information finns i avsnittet [Segmentering](../../automating/using/segmentation.md) .
 
-1. Dra och släpp en [E-postleverans](../../automating/using/email-delivery.md) -aktivitet i arbetsflödet och öppna det.
+1. Dra och släpp en [E-postleverans](../../automating/using/email-delivery.md) -aktivitet i ditt arbetsflöde och öppna det.
 
    <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
 

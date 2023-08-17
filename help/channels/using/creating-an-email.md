@@ -47,7 +47,7 @@ Du kan skapa ett e-postmeddelande från en [kampanj](../../start/using/marketing
    >
    >Du kan skapa e-post inom en överordnad kampanj från startsidan eller listan över marknadsföringsaktiviteter. Välj det bland de kampanjer som redan har skapats.
 
-1. Definiera målet för meddelandet utifrån dina affärskriterier. Se [Om profiler](../../audiences/using/about-profiles.md).
+1. Definiera målet för ditt meddelande baserat på dina affärskriterier. Se [Om profiler](../../audiences/using/about-profiles.md).
 
    Du kan också definiera testprofilerna som ska validera meddelandet. Se [Hantera testprofiler](../../audiences/using/managing-test-profiles.md).
 
@@ -64,9 +64,9 @@ Du kan skapa ett e-postmeddelande från en [kampanj](../../start/using/marketing
 
    >[!NOTE]
    >
-   >Om du vill kunna spara e-postmeddelandet måste du först göra några ändringar i innehållet. Om du klickar **[!UICONTROL Cancel]** Nu kommer du inte att slutföra guiden och ditt e-postmeddelande kommer inte att skapas.
+   >Om du vill kunna spara e-postmeddelandet måste du först göra några ändringar i innehållet. Klicka **[!UICONTROL Cancel]** Nu kommer du inte att slutföra guiden och ditt e-postmeddelande kommer inte att skapas.
 
-   E-postkontrollpanelen visas sedan. Det gör att du kan kontrollera ditt meddelande och [förbereda sändningen](../../sending/using/preparing-the-send.md).
+   E-postkontrollpanelen visas sedan. Det gör att du kan kontrollera meddelandet och [förbereda sändningen](../../sending/using/preparing-the-send.md).
 
    The **[!UICONTROL Edit properties]** i det övre högra hörnet kan du redigera egenskaperna för e-postmeddelandet. Du kan till exempel konfigurera e-postmeddelandet så att etiketten beräknas när leveransen förbereds.  Tillgängliga parametrar visas i [det här avsnittet](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 
@@ -96,11 +96,11 @@ Du kan skapa ett e-postmeddelande från en [kampanj](../../start/using/marketing
 
 **Relaterade ämnen**:
 
-* [Skapa ett personligt e-postmeddelande](../../channels/using/key-steps-to-send-a-message.md) steg-för-steg-guide
+* [Skapa ett personligt e-postmeddelande](../../channels/using/key-steps-to-send-a-message.md) stegvis handbok
 * [Integrering med Adobe Campaign och Dreamweaver](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 * [Integrera med Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
 
-## Videokurs {#video}
+## Självstudievideo {#video}
 
 I den här videon visas hur du skapar ett e-postmeddelande.
 

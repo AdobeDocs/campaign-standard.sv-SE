@@ -17,7 +17,7 @@ ht-degree: 5%
 
 # Anpassade resurser {#custom-resources}
 
-Adobe Campaign har en fördefinierad datamodell där data definieras med olika resurser. Du kan utöka datamodellen som tillhandahålls genom att utöka resurserna för att lägga till egna anpassade fält eller anpassade tabeller, till exempel köp- eller produkttabeller.
+Adobe Campaign levereras med en fördefinierad datamodell, där data definieras med olika resurser. Du kan utöka datamodellen som tillhandahålls genom att utöka resurserna för att lägga till egna anpassade fält eller anpassade tabeller, till exempel köp- eller produkttabeller.
 
 Anpassade resurser är tillgängliga via API:er med **/profileAndServicesExt** slutpunkt och det anpassade resursnamnet.
 
@@ -37,7 +37,7 @@ I så fall kommer alla resurser från **Transaktion**, **TransactionDetails** oc
 
 ***Exempelbegäran***
 
-Exempelbegäran om GET för att komma åt den utökade profilen AndServicesExt-resursen.
+Exempelbegäran om GET för att få åtkomst till den utökade profilen AndServicesExt-resursen.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/\

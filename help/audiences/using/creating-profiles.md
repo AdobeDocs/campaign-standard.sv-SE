@@ -51,8 +51,8 @@ Om du exempelvis vill skapa en ny profil direkt i användargränssnittet följer
    * Profilens **[!UICONTROL Time zone]** används för att skicka leveranser i profilens tidszon.  Mer information om detta hittar du i det här [avsnittet](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
    * I kategorin **[!UICONTROL Channels]** som innehåller e-postadress, mobiltelefonnummer och avanmälningsinformation kan du se via vilken kanal profilen kan nås.
 
-      >[!NOTE]
-      > Mobiltelefonnummer måste alltid vara i internationellt format (`+<country><number>`) i profiltabellen.
+     >[!NOTE]
+     > Mobiltelefonnummer måste alltid vara i internationellt format (`+<country><number>`) i profiltabellen.
 
    * Kategorin uppdateras så snart som **[!UICONTROL No longer contact]** profilen avprenumererar från en kanal.
    * Kategorin innehåller **[!UICONTROL Address]** den postadress som måste fyllas i tillsammans med **[!UICONTROL Address specified]** alternativet att skicka [direktmeddelanden](../../channels/using/about-direct-mail.md) till den här profilen.  Om alternativ **[!UICONTROL Address specified]** inte är markerat utesluts den här profilen från alla direktmeddelanden.
@@ -66,7 +66,7 @@ Profilen visas nu i listan.
 >[!NOTE]
 >Det önskade språkfältet används för att välja språk när flerspråkiga meddelanden skickas.  Mer information om de flerspråkiga meddelandena [finns på den här sidan](../../channels/using/creating-a-multilingual-email.md).
 
-## Videokurs {#video}
+## Självstudievideo {#video}
 
 I den här videon visas hur du importerar profiler med ett arbetsflöde.
 

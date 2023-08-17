@@ -26,7 +26,7 @@ The **[!UICONTROL Overview]** tabellen innehåller tillgängliga uppgifter om ev
 
 * **Behandlad/skickad**: Antal skickade e-postmeddelanden.
 * **Levererat**: Antalet e-postmeddelanden som levereras.
-* **Mjuk studsa**: Det totala antalet tillfälliga fel, t.ex. en fullständig inkorg.
+* **Mjuk studsa**: Det totala antalet tillfälliga fel, till exempel en fullständig inkorg.
 * **Hård studs**: Det totala antalet permanenta fel, t.ex. fel e-postadress.
 * **studsar + fel**: Antalet meddelanden som inte kunde levereras.
 

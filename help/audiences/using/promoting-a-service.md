@@ -25,8 +25,8 @@ Du kan använda Campaign för att marknadsföra en tjänst genom att:
 
 * [Infoga en länk till en prenumerations- eller prenumerationssida i ett e-postmeddelande](../../designing/using/links.md). I det här fallet måste det finnas en direkt referens till tjänsten i de relaterade landningssidornas egenskaper (se [Länka en landningssida till en tjänst](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)).
 
-   >[!NOTE]
-   >
-   >Det är också viktigt att ge abonnenterna möjlighet att säga upp prenumerationen. Om du vill göra det infogar du en tjänst <b>Länk för att avbryta prenumeration</b> i bekräftelsemeddelandet (som definieras i tjänsteegenskaperna) som skickas automatiskt till de nya prenumeranterna samt i framtida nyhetsbrev via e-post.
+  >[!NOTE]
+  >
+  >Det är också viktigt att ge abonnenterna möjlighet att säga upp prenumerationen. Infoga en tjänst om du vill göra det <b>Länk för att avbryta prenumeration</b> i bekräftelsemeddelandet (som definieras i tjänsteegenskaperna) som skickas automatiskt till de nya prenumeranterna samt i framtida nyhetsbrev.
 
 * Göra en landningssida för en prenumeration eller en prenumeration tillgänglig på en webbplats. De URL:er som ger dig åtkomst till landningssidan måste ange parametrar som den associerade tjänsten samt profil-ID:t som får åtkomst till den. Detta ID kan definieras i parametrarna på landningssidan (se [Konfigurera en landningssida](../../channels/using/configuring-landing-page.md)).

@@ -34,7 +34,7 @@ En övergång avslutas inte om den inte är länkad till en målaktivitet.
 
 >[!NOTE]
 >
->Ett arbetsflöde som innehåller oavslutade övergångar kan fortfarande köras: ett varningsmeddelande genereras och arbetsflödet pausas när övergången är klar, men detta genererar inget fel. Du kan också starta ett arbetsflöde utan att ha slutfört designen helt och du kan slutföra det medan du går.
+>Ett arbetsflöde som innehåller oavslutade övergångar kan fortfarande köras: ett varningsmeddelande genereras och arbetsflödet pausas när övergången har nåtts, men detta genererar inget fel. Du kan också starta ett arbetsflöde utan att ha slutfört designen helt och du kan slutföra det medan du går.
 
 När en aktivitet har körts visas antalet poster som skickats i övergången ovanför den.
 

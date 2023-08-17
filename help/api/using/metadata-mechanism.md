@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # Metadatamekanism {#metadata-mechanism}
 
-Du kan hämta resursmetadata med **resourceType** i en GET:
+Du kan hämta resursmetadata med **resourceType** i en GET-förfrågan:
 
 `GET /profileAndServices/resourceType/<resourceName>`
 
@@ -26,13 +26,13 @@ Svaret returnerar huvudmetadata från resursen (alla andra fält är beskrivande
 * The **Innehåll** noden returnerar resursens fält. För varje fält i **innehåll** nod hittar vi följande fält:
 
    * &quot;apiName&quot;: namnet på attributet som används i API:erna.
-   * &quot;type&quot;: det här är typdefinitionen på hög nivå (sträng, tal, länk, samling, uppräkning...).
+   * &quot;type&quot;: det här är definitionen på högnivåtyp (sträng, tal, länk, samling, uppräkning...).
    * &quot;dataPolicy&quot;: fältets värde måste följa givna policyregler. Om regeln dataPolicy till exempel har värdet &quot;email&quot; måste värdet vara en giltig e-postadress. Under en PATCH eller POST kan dataPolicy kontrollera värdet eller ändra värdet till transform (till exempel smartCase).
-   * kategori: ger fältets kategori i frågeredigeraren.
-   * &quot;resType&quot;: detta är den tekniska typen.
+   * &quot;category&quot;: anger fältets kategori i frågeredigeraren.
+   * &quot;resType&quot;: Detta är den tekniska typen.
 
-      Om&quot;type&quot; har fyllts i med värdet&quot;link&quot; eller&quot;collection&quot; är värdet resTarget namnet på resursen som länken pekar på.
-Om &quot;type&quot; har fyllts i med värdet &quot;enumeration&quot; läggs ett &quot;values&quot;-fält till och varje uppräkningsvärde beskrivs i **values** nod.
+     Om&quot;type&quot; har fyllts i med värdet&quot;link&quot; eller&quot;collection&quot; är värdet resTarget namnet på resursen som länken pekar på.
+Om &quot;type&quot; har fyllts i med värdet &quot;enumeration&quot;, läggs ett &quot;values&quot;-fält till och varje uppräkningsvärde beskrivs i **values** nod.
 
 * The **Filter** noden returnerar URL:en för att hämta associerade filter. Mer information om filter finns i [det här avsnittet](../../api/using/filtering.md) -avsnitt.
 

@@ -33,7 +33,7 @@ Förberedelsen av meddelande utlöses enligt arbetsflödets körningsparametrar.
 
 ## Konfiguration {#configuration}
 
-1. Dra och släpp en **[!UICONTROL Query]** till arbetsflödet. Observera att **[!UICONTROL Query]** aktivitetens målinriktning i **[!UICONTROL Properties]** måste uppdateras enligt den mall som valts i steg 4:
+1. Dra och släpp en **[!UICONTROL Query]** till ditt arbetsflöde. Observera att **[!UICONTROL Query]** aktivitetens målinriktning i **[!UICONTROL Properties]** måste uppdateras enligt den mall som valts i steg 4:
 
    * Måldimensionen ska ställas in på **[!UICONTROL mobileApp (mobileAppV5)]** för mallen **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**.
    * Måldimensionen ska ställas in på **[!UICONTROL profile (profile)]** för mallen **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**.
@@ -50,9 +50,9 @@ Förberedelsen av meddelande utlöses enligt arbetsflödets körningsparametrar.
 
 1. Välj meddelandetypen i appen. Detta beror på vilka data som finns i **[!UICONTROL Query]** aktivitet.
 
-   * **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**: Den här meddelandetypen gör att du kan rikta in dig på Adobe Campaign-profiler som har prenumererat på ditt mobilprogram och anpassa meddelanden i appen med profilattribut som är tillgängliga i Campaign.
-   * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**: Med den här meddelandetypen kan du skicka ett meddelande till alla användare av ditt mobilprogram, även om de inte har en befintlig profil i Campaign.
-   * **[!UICONTROL Target users based on their Mobile profile (inApp)]**: Den här meddelandetypen gör att du kan rikta dig till alla användare av en mobilapp som har en mobilprofil i Campaign, oavsett om den är känd eller okänd, och anpassa meddelanden i appen med alla profilattribut som har hämtats från den mobila enheten.
+   * **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**: Den här meddelandetypen gör att du kan rikta in dig på Adobe Campaign-profiler som har prenumererat på ditt mobilprogram och anpassa meddelanden i appen med profilattribut tillgängliga i Campaign.
+   * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**: Den här meddelandetypen gör att du kan skicka ett meddelande till alla användare av ditt mobilprogram, även om de inte har en befintlig profil i Campaign.
+   * **[!UICONTROL Target users based on their Mobile profile (inApp)]**: Den här meddelandetypen gör att du kan rikta in dig på alla användare av en mobilapp som har en mobilprofil i Campaign, oavsett om den är känd eller okänd, och anpassa meddelanden i appen med alla profilattribut som har hämtats från den mobila enheten.
 
    ![](assets/wkf_in_app_4.png)
 
@@ -62,7 +62,7 @@ Förberedelsen av meddelande utlöses enligt arbetsflödets körningsparametrar.
 1. Som standard innehåller aktiviteten **[!UICONTROL In-App delivery]** inga utgående övergångar. Om du vill lägga till en utgående övergång till din **[!UICONTROL In-App delivery]**-aktivitet går du till fliken **[!UICONTROL General]** med de avancerade aktivitetsalternativen (knappen ![](assets/dlv_activity_params-24px.png) i aktivitetens snabbåtgärder) och markerar något av följande alternativ:
 
    * **[!UICONTROL Add outbound transition without the population]**: Detta gör att du kan generera en utgående övergång som innehåller exakt samma population som den inkommande övergången.
-   * **[!UICONTROL Add outbound transition with the population]**: Detta gör att du kan generera en utgående övergång som innehåller den population som meddelandet skickades till. De målmedlemmar som utesluts under färdigställandet av leveransen undantas från denna övergång.
+   * **[!UICONTROL Add outbound transition with the population]**: detta gör att du kan generera en utgående övergång som innehåller den population som meddelandet skickades till. De målmedlemmar som utesluts under färdigställandet av leveransen undantas från denna övergång.
 
    ![](assets/wkf_in_app_5.png)
 

@@ -27,7 +27,7 @@ Du kan ställa in följande typer av externa konton:
 * Adobe Analytics. Mer information om detta finns i [det här avsnittet](../../integrating/using/configure-campaign-analytics-integration.md).
 * Google reCAPTCHA. Mer information om detta finns i [det här avsnittet](#google-recaptcha-external-account).
 * Microsoft Azure Blob-lagring. Mer information om detta finns i [det här avsnittet](#microsoft-azure-external-account).
-* OAuth 2.0. Mer information finns i [det här avsnittet](#oauth-account).
+* OAuth 2.0 Mer information finns i [det här avsnittet](#oauth-account).
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ Adobe rekommenderar att du följer god praxis nedan för att undvika sådana pro
 * Det kan hända att du loggar in på SFTP för att direkt kontrollera vad som finns där.
 * Kom ihåg att SFTP-diskhantering i första hand är ditt ansvar.
 
-Observera också att de offentliga IP-adresserna som du försöker initiera SFTP-anslutningen från måste läggas till i tillåtelselista i Campaign-instansen. Du kan begära att få lägga till IP-adresser till tillåtelselista via en [supportanmälan](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html), tillsammans med den offentliga nyckeln som ska användas för autentisering.
+Observera också att de offentliga IP-adresserna som du försöker initiera SFTP-anslutningen från måste läggas till i tillåtelselista i Campaign-instansen. Du kan begära att få lägga till IP-adresser till tillåtelselista via en [supportbiljett](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html), tillsammans med den offentliga nyckeln som ska användas för autentisering.
 
 SFTP-servrar kan hanteras från kontrollpanelen. Mer information finns i dokumentationen för [Kontrollpanelen](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html).
 
@@ -93,8 +93,8 @@ Ange följande information för ett externt OAuth 2.0-konto:
 
 * A **Typ av bidrag**: endast **klientautentiseringsuppgifter** stöds.
 * A **Säker API-URL**: Ange slutpunkten för auktoriseringen.
-* **OAuth 2.0-känsliga autentiseringsuppgifter**: Det här avsnittet är avsett för autentiseringsuppgifter som är känsliga till sin natur. Autentiseringsvärden maskeras på skärmen när de har lagts till, då inte går att läsa eller redigera. Om auktoriseringsslutpunkten kräver att en viss autentiseringsuppgift infogas i HTTP-auktoriseringshuvudet i stället för i POSTENS body-parameter, kan du markera alternativet Include i header för den autentiseringen.
-* **OAuth 2.0 - icke-känsliga autentiseringsuppgifter**: Det här avsnittet är avsett för autentiseringsuppgifter som är icke-känsliga till sin natur. Autentiseringsvärden visas på skärmen när de har lagts till. de kan också redigeras.  Om auktoriseringsslutpunkten kräver att en viss autentiseringsuppgift infogas i HTTP-auktoriseringshuvudet i stället för i POSTENS body-parameter, kan du markera alternativet Include i header för den autentiseringen.
+* **OAuth 2.0-känsliga autentiseringsuppgifter**: Det här avsnittet är avsett för autentiseringsuppgifter som är känsliga till sin natur. Autentiseringsvärden maskeras på skärmen när de har lagts till. Då går de inte att läsa eller redigera. Om auktoriseringsslutpunkten kräver att en viss autentiseringsuppgift infogas i HTTP-auktoriseringshuvudet i stället för i POSTENS body-parameter, kan du markera alternativet Include i header för den autentiseringen.
+* **OAuth 2.0 - icke-känsliga autentiseringsuppgifter**: Det här avsnittet är avsett för autentiseringsuppgifter som inte är känsliga. Autentiseringsvärden visas på skärmen när de har lagts till. De kan också redigeras.  Om auktoriseringsslutpunkten kräver att en viss autentiseringsuppgift infogas i HTTP-auktoriseringshuvudet i stället för i POSTENS body-parameter, kan du markera alternativet Include i header för den autentiseringen.
 
 När du har angett kontoinformationen klickar du på **Testanslutning** för att verifiera att det externa kontot har konfigurerats korrekt.
 
@@ -102,7 +102,7 @@ När du har angett kontoinformationen klickar du på **Testanslutning** för att
 
 >[!NOTE]
 >
->Autentiseringsuppgifterna&quot;Content-Type: application/x-www-form-urlencoded och &quot;grant_type=client_credentials&quot; läggs automatiskt till i API-anropet. Därför behöver du inte lägga till dem i avsnittet med autentiseringsuppgifter.
+>Autentiseringsuppgifterna&quot;Content-Type: application/x-www-form-urlencoded&quot; och&quot;grant_type=client_credentials&quot; läggs automatiskt till i API-anropet. Därför behöver du inte lägga till dem i avsnittet med autentiseringsuppgifter.
 
 ## Externt Amazon S3-konto {#amazon-s3-external-account}
 
@@ -142,9 +142,9 @@ När du konfigurerar det nya externa kontot måste du ange följande information
 
 * Server: Ange webbadressen till Adobe Experience Manager-servern. Exempel:
 
-   ```
-   http://aem.domain.com:4502
-   ```
+  ```
+  http://aem.domain.com:4502
+  ```
 
 * Autentiseringsuppgifter för AEM-konto: Använd det konto som kommer att få åtkomst till Adobe Experience Manager-instansen. Det ska vara ett konto i Campaign-fjärrgruppen i Experience Manager.
 
@@ -165,7 +165,7 @@ Ange följande information för ett externt Google reCAPTCHA V3-konto:
 * Din **[!UICONTROL Site key]** och **[!UICONTROL Site secret]**
 * En **[!UICONTROL Threshold]** mellan 0 och 1
 
-   Värdet 0,0 **[!UICONTROL Threshold]** innebär att det troligtvis är en bott och 1,0 troligtvis en bra interaktion. Som standard kan du använda ett tröskelvärde på 0,5.
+  Värdet 0,0 **[!UICONTROL Threshold]** innebär att det troligtvis är en bott och 1,0 troligtvis en bra interaktion. Som standard kan du använda ett tröskelvärde på 0,5.
 
 ![](assets/external_accounts_3.png)
 

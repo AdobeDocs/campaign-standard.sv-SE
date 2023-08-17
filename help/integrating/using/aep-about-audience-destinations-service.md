@@ -26,7 +26,7 @@ ht-degree: 2%
 
 Ge era kundupplevelser större kraft genom att utnyttja [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html) för att skapa välinriktade målgrupper baserat på stora, komplexa datauppsättningar. Adobe Experience Platform konsoliderar profil-, beteendes- och multientitetsdata över både online- och offlinekällor, inklusive Adobe Analytics, för att hjälpa er att skapa en helhetsbild av era kunder, så att ni effektivt kan hantera era kundupplevelser.
 
-Adobe Campaign Standard kommer sedan att använda **Målgrupper** för att hämta en samling profiler, så kallade **Målgrupper** från Adobe Experience Platform för flerstegs- och/eller flerkanalskampanjer.
+Adobe Campaign Standard använder sedan **Målgrupper** för att hämta en samling profiler, så kallade **Målgrupper** från Adobe Experience Platform för flerstegs- och/eller flerkanalskampanjer.
 
 **Målgrupper** skapas av den första byggnaden **segment**, som i princip är en uppsättning regler som baseras på praktiskt taget alla variabler (t.ex. profil, händelse, multientitetsdata) i en kundprofil från Adobe Experience Platform för att skapa ett flerdimensionellt mål. Det finns referenser till globala koncept för kundprofiler och segmenteringstjänster i realtid i dessa dedikerade dokument:
 
@@ -39,14 +39,14 @@ När ett segment har skapats kan du sedan aktivera det som en målgrupp för en 
 
 Termer som används i dessa avsnitt:
 
-* **Profil**: Profilen är en Experience Platform-standarddatamodell som används för att definiera konsumenternas attribut. En profil kan också vara en sammanställning av händelsedata och attribut som relaterar till en person och/eller enhet.
+* **Profil**: Profil är en Experience Platform-standarddatamodell som används för att definiera konsumenternas attribut. En profil kan också vara en sammanställning av händelsedata och attribut som relaterar till en person och/eller enhet.
 
-   Exempel: &quot;John Doe är en 55-årig man.&quot;
+  Exempel: &quot;John Doe är en 55-årig man.&quot;
 
 * **Segment**: En uppsättning regler som definierar en deluppsättning av profiler från databasen, med både attribut och händelsedata.
 
-   Exempel: &quot;Män > 50 år.&quot;
+  Exempel:&quot;Män > 50 år.&quot;
 
 * **Målgrupp**: En samling profiler som uppfyller segmentreglerna.
 
-   Exempel: Lista med profiler som motsvarar alla män > 50 år i databasen.
+  Exempel: Lista med profiler som motsvarar alla män > 50 år i databasen.

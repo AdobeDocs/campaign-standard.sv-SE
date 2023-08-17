@@ -56,7 +56,7 @@ Stegen nedan beskriver ett stegvis användningsfall för att importera och anvä
 
 1. Öppna Postman och välj sedan **Fil** / **Importera** -menyn.
 
-1. Dra och släpp den hämtade filen i fönstret. Fördesignad API-begäran visas, klar att användas.
+1. Dra och släpp den hämtade filen i fönstret. Fördesignad API-begärandevisning, klar att användas.
 
    ![alt-text](assets/postman_collection.png)
 

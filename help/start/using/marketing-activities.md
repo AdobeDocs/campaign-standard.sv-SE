@@ -81,7 +81,7 @@ Program och kampanjer presenteras i avsnittet [Program och kampanjer](../../star
 
 I sammanhanget kan man
 
-* Skapa ett e-postmeddelande - [Läs mer](../../channels/using/creating-an-email.md)
+* Skapa ett mejl - [Läs mer](../../channels/using/creating-an-email.md)
 * Skapa ett SMS - [Läs mer](../../channels/using/creating-an-sms-message.md)
 * Skapa ett push-meddelande - [Läs mer](../../channels/using/preparing-and-sending-a-push-notification.md)
 * Skapa ett meddelande i appen - [Läs mer](../../channels/using/about-in-app-messaging.md)

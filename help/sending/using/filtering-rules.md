@@ -19,7 +19,7 @@ ht-degree: 3%
 
 Med filtreringsregler kan du utesluta en del av meddelandemålet enligt villkor som definierats i en fråga, till exempel profiler i karantän eller profiler som redan har skickats ett visst antal e-postmeddelanden.
 
-## Typologiregler för standardfiltrering {#default-filtering-typology-rules}
+## Standardregler för filtreringstyp {#default-filtering-typology-rules}
 
 Tabellen nedan innehåller information om de färdiga filtreringsreglerna och deras relaterade kanaler.
 
@@ -52,7 +52,7 @@ Detta för att undvika att läggas till i blockeringslista på grund av skadlig 
 
 Du kan skapa egna filtreringsregler efter behov. Du kan t.ex. filtrera målpopulationen för nyhetsbrev så att de som är yngre än 18 år aldrig får någon kommunikation.
 
-Följ de här stegen för att skapa en filtreringstypologiregel:
+Så här skapar du en filtreringstypologiregel:
 
 1. Skapa en ny typologiregel. De viktigaste stegen för att skapa typologiregler finns i [det här avsnittet](../../sending/using/managing-typology-rules.md).
 

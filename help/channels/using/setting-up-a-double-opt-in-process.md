@@ -27,7 +27,7 @@ Principen är att skicka ett e-postmeddelande som bekräftar besökarens samtyck
 
 Gör följande för att ställa in detta:
 
-1. Skapa och publicera en landningssida så att besökarna kan registrera sig och prenumerera. Denna landningssida kommer att vara tillgänglig från en webbplats. Besökare som fyller i och skickar in denna landningssida kommer att lagras i databasen men läggas till blockeringslista, så att de inte kan ta emot någon kommunikation före den slutliga valideringen (se [Hantering av Blockeringslista i Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+1. Skapa och publicera en landningssida så att besökarna kan registrera sig och prenumerera. Denna landningssida kommer att vara tillgänglig från en webbplats. Besökare som fyller i och skickar in denna landningssida kommer att lagras i databasen men läggas till blockeringslista, så att de inte kan ta emot någon kommunikation före den slutliga valideringen (se [Hantera Blockeringslista i Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
 1. Skapa och skicka automatiskt e-postmeddelandet om deltagande med en bekräftelselänk. Det här e-postmeddelandet riktar sig till den målgrupp som skickade landningssidan. Den kommer att baseras på en e-postmall som gör det möjligt att rikta in sig på &quot;avanmälningsprofiler&quot;.
 1. Omdirigering till en bekräftelsestartsida. Den sista landningssidan ska innehålla en bekräftelseknapp: Besökarna måste klicka på den. Du kan skapa ett välkomstmeddelande som ska skickas vid bekräftelse, och du kan till exempel lägga till ett specialerbjudande i e-postmeddelandet för nya mottagare.
 
@@ -143,7 +143,7 @@ Om du vill skapa och konfigurera den här landningssidan måste du:
 
    ![](assets/optin_acquisition_page1.png)
 
-1. Anpassa bekräftelsesidan för att informera nya prenumeranter om att de behöver validera sin prenumeration.
+1. Anpassa bekräftelsesidan för att informera nya prenumeranter om att de behöver validera prenumerationen.
 
    ![](assets/optin_acquisition_page2.png)
 

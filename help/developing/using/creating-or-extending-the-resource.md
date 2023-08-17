@@ -38,15 +38,15 @@ Så här skapar eller utökar du en resurs:
 
    * **[!UICONTROL Create a new resource]**: Ange **[!UICONTROL Label]** och **[!UICONTROL ID]** fält. Fältet **[!UICONTROL ID]** är obligatoriskt.  Om du lämnar fältet Etikett tomt fylls det automatiskt i från ID:t.
 
-      ![](assets/schema_extension_2.png)
+     ![](assets/schema_extension_2.png)
 
-      >[!NOTE]
-      >
-      >Använd högst 30 tecken.
+     >[!NOTE]
+     >
+     >Använd högst 30 tecken.
 
    * **[!UICONTROL Extend an existing resource]**: Välj den resurs som du vill utöka.
 
-      ![](assets/schema_extension_10.png)
+     ![](assets/schema_extension_10.png)
 
 1. Klicka **[!UICONTROL Create]** för att skapa resursen, som sedan tar **[!UICONTROL Draft]** status vid ny resurs eller **[!UICONTROL Editing]** status vid förlängning.
 

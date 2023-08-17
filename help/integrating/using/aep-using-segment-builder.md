@@ -26,10 +26,10 @@ Med segmentbyggaren kan ni skapa målgrupper genom att definiera regler som base
 
 I det här avsnittet beskrivs globala koncept när du skapar ett segment. Mer information om själva segmentbyggaren finns i [Användarhandbok för Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
-Gränssnittet i Segment Builder består av följande:
+Segment Builder-gränssnittet består av följande:
 
 * Den vänstra rutan innehåller alla attribut, händelser och målgrupper som är tillgängliga för att skapa segmentet genom att dra och släppa önskade fält på arbetsytan för segmentbyggaren.
-* I mittområdet finns en arbetsyta för att skapa segmentet genom att definiera och kombinera regler från de tillgängliga fälten.
+* I mittområdet finns en arbetsyta som du kan använda för att skapa segmentet genom att definiera och kombinera regler från de tillgängliga fälten.
 * I huvudet och den högra rutan visas segmentets egenskaper (d.v.s. namn, beskrivning och beräknade kvalificerade profiler för segmentet).
 
 ![](assets/aep_audiences_interface.png)
@@ -68,13 +68,13 @@ Fälten i listan är attribut som hämtats av ditt företag och har gjorts tillg
 
 Fälten är ordnade i flikar:
 
-* **[!UICONTROL Attributes]**: Befintliga profilattribut som kan härröra från din Adobe Campaign-databas och/eller Adobe Experience Platform. De avser statisk information som bifogas en profil (t.ex. e-postadress, bosättningsland, lojalitetsprogrammets status osv.).
+* **[!UICONTROL Attributes]**: Befintliga profilattribut som kan komma från din Adobe Campaign-databas och/eller Adobe Experience Platform. De avser statisk information som bifogas en profil (t.ex. e-postadress, bosättningsland, lojalitetsprogrammets status osv.).
 
-   ![](assets/aep_audiences_attributestab.png)
+  ![](assets/aep_audiences_attributestab.png)
 
-* **[!UICONTROL Events]**: Aktiviteter som identifierar konsumenter som har haft någon interaktion med företagets kontaktytor mot kunderna, till exempel&quot;alla som har beställt två gånger på två veckor&quot;. Detta kan strömmas från Adobe Analytics eller kapslas direkt in i Adobe Experience Platform med ETL-verktyg från tredje part.
+* **[!UICONTROL Events]**: Aktiviteter som identifierar konsumenter som har haft någon interaktion med företagets kontaktytor mot kunderna, till exempel&quot;vem som helst som har beställt två gånger på två veckor&quot;. Detta kan strömmas från Adobe Analytics eller kapslas direkt in i Adobe Experience Platform med ETL-verktyg från tredje part.
 
-   ![](assets/aep_audiences_eventstab.png)
+  ![](assets/aep_audiences_eventstab.png)
 
 >[!NOTE]
 >
@@ -108,7 +108,7 @@ Så här skapar du en regel:
 
    Den beräknade populationen som motsvarar segmentet beräknas om automatiskt i **[!UICONTROL Segment Properties]** -avsnitt.
 
-1. The **[!UICONTROL View Profiles]** ger dig en förhandsgranskning av de första 20 posterna som motsvarar regeln, så att du snabbt kan validera segmentet.
+1. The **[!UICONTROL View Profiles]** ger dig en förhandsgranskning av de första 20 posterna som motsvarar regeln, vilket gör att du snabbt kan validera segmentet.
 
    ![](assets/aep_audiences_samplepreview.png)
 

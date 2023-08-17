@@ -23,7 +23,7 @@ Så här skapar du arbetsflödet:
 1. The [Schemaläggare](../../automating/using/scheduler.md) Med aktiviteten kan du starta arbetsflödesdagarna innan leveransen påbörjas för att kunna skicka meddelandet till alla prenumeranter kl. 20 i en given tidszon:
 
    * I **[!UICONTROL Execution frequency]** väljer du Månadsvis.
-   * Välj kl. 8 i **[!UICONTROL Time]** fält.
+   * Välj kl. 8 i dialogrutan **[!UICONTROL Time]** fält.
    * Välj vilken dag leveransen ska skickas varje månad.
    * Välj ett startdatum för arbetsflödet minst en dag innan leveransen påbörjas. Annars kan vissa mottagare få meddelandet en dag senare om den valda tiden redan har passerat i sina tidszoner.
    * I **[!UICONTROL Execution options]** väljer du vilken tidszon arbetsflödet ska starta i **[!UICONTROL Time zone]** fält. Här börjar till exempel arbetsflödet klockan 08.00 PST, en vecka före den första dagen i månaden, så att leveranserna kan skapas för alla tillämpliga tidszoner.
@@ -42,7 +42,7 @@ Så här skapar du arbetsflödet:
    * Dra och släpp **Leveransloggar (loggar)** element på arbetsytan och markera **Finns** för att rikta sig till alla kunder som fick e-postmeddelandet.
    * Dra och släpp **Spårningsloggar (spårning)** element på arbetsytan och markera **Finns inte** för att rikta sig till alla kunder som inte öppnade e-postmeddelandet.
 
-      ![](assets/wkf_push_example_2.png)
+     ![](assets/wkf_push_example_2.png)
 
 1. The [Leverans av push-meddelanden](../../automating/using/push-notification-delivery.md) kan du ange innehållet i meddelandet och välja de anpassningsfält som du vill använda:
 
@@ -51,7 +51,7 @@ Så här skapar du arbetsflödet:
    * I **[!UICONTROL Schedule]** block, markera **[!UICONTROL Messages to be sent automatically on the time zone specified below]**. Här väljer vi **[!UICONTROL Time zone of the contact date]** Stillahavsområdet som i arbetsflödet **[!UICONTROL Scheduler]**.
    * Markera **[!UICONTROL Optimize the sending time per recipient]** i fältet **[!UICONTROL Send at the recipient's time zone]**.
 
-      ![](assets/wkf_push_example_4.png)
+     ![](assets/wkf_push_example_4.png)
 
 1. Klicka på **[!UICONTROL Start]** för att starta det återkommande arbetsflödet.
 

@@ -1,6 +1,6 @@
 ---
 title: Skapa en tjänst med API:er
-description: Lär dig hur du skapar en tjänst med API:er
+description: Lär dig skapa en tjänst med API:er
 feature: API
 role: Data Engineer
 level: Experienced
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Skapa en tjänst med API:er{#creating-a-service-api}
 
-Skapande av tjänster utförs med en **POST** förfrågan om tjänstresursen.
+Tjänsterna skapas med en **POST** förfrågan om tjänstresursen.
 
 Om du vill skapa tjänsten med specifika attribut lägger du till dem i nyttolasten. I annat fall skapas den nya tjänsten med standardtjänster.
 

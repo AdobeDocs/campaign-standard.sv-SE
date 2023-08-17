@@ -17,11 +17,11 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->Det här dokumentet gäller endast iOS-enheter.
+>Det här dokumentet gäller endast för iOS-enheter.
 
 Läs om hur du visar en bild från ett push-meddelande för Adobe Campaign Standard iOS i det här dokumentet.
 
-## Steg 1: Ställ in push-meddelande {#set-up-push}
+## Steg 1: Ange push-meddelanden {#set-up-push}
 
 Push-meddelanden stöds av Experience Platform SDK:er.
 
@@ -149,7 +149,7 @@ userInfo: [AnyHashable("media-attachment-url"): https://pbs.twimg.com/profile_im
 }]
 ```
 
-## Steg 4: Testa skicka push-meddelanden {#test-send-push}
+## Steg 4: Testa att skicka push {#test-send-push}
 
 Nu kan du testa hur du skapar programmet och leveransen som du skapade i steg 2 ovan. Mer information om hur du förbereder och skickar push-meddelanden finns i [page](../../channels/using/preparing-and-sending-a-push-notification.md).
 

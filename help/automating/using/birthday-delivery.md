@@ -26,12 +26,12 @@ Så här skapar du arbetsflödet:
 
 * The [Schemaläggare](../../automating/using/scheduler.md) Med kan du starta arbetsflödet varje dag kl. 8.00.
 
-   ![](assets/wkf_delivery_example_2.png)
+  ![](assets/wkf_delivery_example_2.png)
 
 * The [Fråga](../../automating/using/query.md) Med -aktivitet kan du beräkna de profiler som har skickat ett e-postmeddelande och vars födelsedag är den aktuella dagen, varje gång arbetsflödet körs. Födelsedagsberäkningen utförs med ett fördefinierat filter som finns på paletten i frågeredigeringsverktyget.
 
-   ![](assets/wkf_delivery_example_3.png)
+  ![](assets/wkf_delivery_example_3.png)
 
 * The [E-postleverans](../../automating/using/email-delivery.md) är återkommande. Sändningarna sammanställs per månad. Alla e-postmeddelanden som skickas under en månad sammanställs alltså i en enda vy. På ett år utförs 365 leveranser, men de grupperas sedan in i 12 vyer (kallas även **återkommande körningar**) i Adobe Campaign-gränssnittet. Historik och rapportinformation visas varje månad och inte för varje sändning.
 
-   ![](assets/wkf_delivery_example_4.png)
+  ![](assets/wkf_delivery_example_4.png)

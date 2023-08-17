@@ -41,7 +41,7 @@ Observera att en **[!UICONTROL External signal]**-aktivitet kan aktiveras från 
 **Relaterade ämnen**
 
 * [Användningsfall: Extern signalaktivitet och dataimport](../../automating/using/external-signal-data-import.md).
-* [Användningsfall: Anropa ett arbetsflöde för att skapa en målgrupp från en fil med hjälp av externa parametrar](../../automating/using/use-case-calling-workflow.md)
+* [Användningsfall: Anropa ett arbetsflöde för att skapa en målgrupp från en fil med externa parametrar](../../automating/using/use-case-calling-workflow.md)
 
 ## Konfiguration {#configuration}
 

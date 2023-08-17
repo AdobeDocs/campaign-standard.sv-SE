@@ -48,11 +48,11 @@ Läs mer:
 
 <img src="assets/do-not-localize/icon_channels.svg"  width="60px">
 
-**Fem kommunikationskanaler** finns i Adobe Campaign: E-post, SMS-meddelande, push-meddelanden, meddelande i appen och direktleverans av e-post.
+**Fem kommunikationskanaler** finns i Adobe Campaign: E-post, SMS, push-meddelanden, meddelanden i appen och direktutskick.
 
 För varje kanal finns specifika funktioner tillgängliga. Med e-postkanalen kan du till exempel utföra A/B-tester för att testa upp till tre versioner av ett e-postmeddelande. Med SMS-kanalen hanterar du STOP SMS-meddelanden och lagrar inkommande SMS från mottagarna i databasen.
 
-Dessutom kan du utnyttja Campaign Standarden **personalisering och funktioner för dynamiskt innehåll** för att fånga målgruppens intresse.
+Dessutom kan du utnyttja Campaign Standarden **personalisering och funktioner för dynamiskt innehåll** för att fånga era målgruppers intresse.
 
 Läs mer:
 
@@ -66,9 +66,9 @@ Läs mer:
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-**Skicka individuella och unika meddelanden** till era kunder i realtid: välkomstmeddelanden, orderleveransbekräftelser, lösenordsändringar osv.
+**Skicka individuella och unika meddelanden** till era kunder i realtid: välkomstmeddelanden, orderbekräftelser, lösenordsändringar osv.
 
-Transaktionsmeddelanden är tillgängliga för e-post-, SMS- och push-meddelandekanaler, beroende på vilka alternativ du har. Det finns två typer av meddelanden: **händelsetransaktionsmeddelanden** målinrikta händelser utan profilinformation, och **profiltransaktionsmeddelanden** målprofiler från databasen.
+Transaktionsmeddelanden är tillgängliga för e-post-, SMS- och push-meddelandekanaler, beroende på vilka alternativ du har. Det finns två typer av meddelanden: **händelsetransaktionsmeddelanden** riktade händelser utan profilinformation, och **profiltransaktionsmeddelanden** målprofiler från databasen.
 
 Läs mer:
 

@@ -26,7 +26,7 @@ Läs mer om leveransmallar i [det här avsnittet](../../start/using/marketing-ac
 
 A [leveransmall](../../start/using/marketing-activity-templates.md#creating-a-new-template) Med kan du definiera en uppsättning tekniska och funktionella egenskaper som passar dina behov och som kan återanvändas för framtida leveranser. Sedan kan ni spara tid och standardisera leveranser vid behov.
 
-När du hanterar flera varumärken i Adobe Campaign rekommenderar Adobe att du har en underdomän per varumärke. En bank kan till exempel ha flera underdomäner som motsvarar var och en av dess regionala myndigheter. Om en bank äger domänen bluebank.com kan dess underdomäner vara @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com osv. Med en leveransmall per underdomän kan ni alltid använda rätt förkonfigurerade parametrar för varje varumärke, vilket undviker fel och sparar tid.
+När du hanterar flera varumärken i Adobe Campaign rekommenderar Adobe att du har en underdomän per varumärke. En bank kan till exempel ha flera underdomäner som motsvarar var och en av dess regionala myndigheter. Om en bank äger bluebank.com kan dess underdomäner vara @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com osv. Med en leveransmall per underdomän kan ni alltid använda rätt förkonfigurerade parametrar för varje varumärke, vilket undviker fel och sparar tid.
 
 **Tips**: För att undvika konfigurationsfel i Campaign rekommenderar vi att du duplicerar en inbyggd mall och ändrar dess egenskaper i stället för att skapa en ny mall.
 
@@ -42,7 +42,7 @@ När du hanterar flera varumärken i Adobe Campaign rekommenderar Adobe att du h
 
 * Adobe rekommenderar att du skapar e-postkonton som motsvarar adresserna som angetts för leveranser och svar. Kontakta systemadministratören för meddelanden.
 
-I **[!UICONTROL Advanced parameters]** i egenskaperna för en e-postmall, **[!UICONTROL From (email address)]** -fältet motsvarar avsändarens adress.
+I **[!UICONTROL Advanced parameters]** i egenskaperna för en e-postmall, **[!UICONTROL From (email address)]** motsvarar avsändarens adress.
 
 ![](assets/template-parameters.png)
 
@@ -50,7 +50,7 @@ Adressdomänen måste vara samma som den underdomän som du konfigurerade.
 
 The **[!UICONTROL Reply to]** fälten motsvarar den e-postadress och det namn som används för svaren.
 
-**Tips** - Adobe rekommenderar att man använder en befintlig riktig adress som till exempel kundtjänst för ert varumärke. Om en mottagare skickar ett svar kan kundtjänst hantera det.
+**Tips** - Adobe rekommenderar att man använder en befintlig riktig adress som kundtjänst för ert varumärke. Om en mottagare skickar ett svar kan kundtjänst hantera det.
 
 Om du vill ändra namnet på avsändaren som ska visas i huvudet för skickade meddelanden går du till **[!UICONTROL Properties]**  -fliken på startsidan för Email Designer (som du kommer åt via hemikonen) och klickar på **[!UICONTROL Default sender name]** -block.
 
@@ -90,10 +90,10 @@ Parametrarna för skickade e-postmeddelanden som rör ett varumärkes identitet 
 
 Mer information om hur du använder och konfigurerar varumärken i Adobe Campaign finns i Varumärke.
 
-Om du vill visa eller ändra varumärket som tilldelats en leveransmall väljer du mallens Redigera-egenskapsknapp och går till varumärkets detaljnivå.
+Om du vill visa eller ändra det varumärke som tilldelats en leveransmall väljer du mallens Redigera-egenskapsknapp och går till varumärkets detaljrikedom.
 
 ![](assets/template-brand.png)
 
 Mer information om hur du länkar ett varumärke till en mall finns i [Tilldela ett varumärke till ett e-postmeddelande](../../administration/using/branding.md#assigning-a-brand-to-an-email).
 
-Lär dig hur du skapar och konfigurerar ett varumärke [i det här avsnittet](../../administration/using/branding.md#creating-a-brand).
+Lär dig skapa och konfigurera ett varumärke [i det här avsnittet](../../administration/using/branding.md#creating-a-brand).

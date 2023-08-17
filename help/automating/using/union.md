@@ -34,7 +34,7 @@ Aktiviteten **[!UICONTROL Union]** används exempelvis för att kombinera popula
 
 **Relaterade ämnen:**
 
-* [Användningsfall: Förena på två förfinade målgrupper](../../automating/using/union-on-two-refined-audiences.md)
+* [Användningsexempel: Förena på två förfinade målgrupper](../../automating/using/union-on-two-refined-audiences.md)
 
 ## Konfiguration {#configuration}
 

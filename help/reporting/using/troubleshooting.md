@@ -102,7 +102,7 @@ Sådana händelser läggs till som **&quot;ett e-postklick innebär att ett e-po
 
 >[!NOTE]
 >
->Eftersom antalet är unikt och bygger på en HLL-baserad skiss, kan mindre avvikelser mellan räkningarna upplevas.
+>Eftersom antalet är unikt och bygger på en HLL-baserad skiss, kan mindre avvikelser mellan antalet uppstå.
 
 ## Hur beräknas antalet återkommande/transaktionsbaserade leveranser? {#counts-recurring-deliveries}
 
@@ -177,9 +177,9 @@ Värdet **Ej tillämpligt** kan ibland visas i dina dynamiska rapporter. Det hä
 
 * Leveransen har tagits bort och visas här som **Ej tillämpligt** för att inte orsaka avvikelser i resultaten.
 * När du drar och släpper **[!UICONTROL Transactional Delivery]** till dina rapporter, värdet **Ej tillämpligt** kan visas som ett resultat. Det beror på att Dynamic Report hämtar alla leveranser även om de inte är transaktionsbaserade. Det här kan också hända när du drar och släpper **[!UICONTROL Delivery]** till rapporten, men i det här fallet **Ej tillämpligt** värdet representerar transaktionsleveranser.
-* När en dimension används med ett mått som inte är relaterat till dimensionen. I exemplet nedan läggs en uppdelning till med **[!UICONTROL Tracking URL]** även om **[!UICONTROL Click]** count är inställt på 0 i den här leveransen.
+* När en dimension används med ett mått som inte är relaterat till dimensionen. I exemplet nedan läggs en uppdelning till med **[!UICONTROL Tracking URL]** även om **[!UICONTROL Click]** count har värdet 0 i den här leveransen.
 
-   ![](assets/troubleshooting_4.png)
+  ![](assets/troubleshooting_4.png)
 
 ## Leveransrapporter visar ofullständiga data när anpassad målmappning används
 
@@ -189,4 +189,4 @@ Så här löser du det:
 
 * När du har importerat målmappningen från en XML-fil måste du också importera rapportanrikningen.
 
-* I stället för att importera målmappningen kan du skapa den direkt i Adobe Campaign Standard, som automatiskt skapar rapportbearbetningen.
+* I stället för att importera målmappningen kan du skapa den direkt i Adobe Campaign Standard, som automatiskt skapar rapportanrikningen.

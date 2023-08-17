@@ -33,10 +33,10 @@ Skärmen för arbetsflödesredigering består av följande element:
 
 Paletten finns till vänster på skärmen. Alla tillgängliga aktiviteter är sorterade i flera kategorier:
 
-* [Målinriktning](../../automating/using/about-targeting-activities.md): verksamhet som är specifik för målgruppsanpassning, hantering av populationsdata och filtrering
+* [Målinriktning](../../automating/using/about-targeting-activities.md): aktiviteter som är specifika för målgruppsanpassning, hantering av populationsdata och filtrering
 * [Körning](../../automating/using/about-execution-activities.md): aktiviteter som är specifika för att organisera och köra arbetsflöden
 * [Kanaler](../../automating/using/about-channel-activities.md): aktiviteter som representerar olika tillgängliga kommunikationskanaler
-* [Datahantering (ETL)](../../automating/using/about-data-management-activities.md): åtgärder som är specifika för att hantera data
+* [Datahantering (ETL)](../../automating/using/about-data-management-activities.md): aktiviteter som är specifika för att hantera data
 
 Om du vill använda en aktivitet från paletten i arbetsflödet drar och släpper du den på arbetsytan.
 
@@ -135,7 +135,7 @@ När en aktivitet har duplicerats behålls hela dess konfiguration. För leveran
 
 Så här duplicerar du en aktivitet:
 
-1. Markera aktiviteten och klicka sedan på **[!UICONTROL Copy selection]** från snabbåtgärderna.
+1. Markera aktiviteten och klicka sedan på knappen **[!UICONTROL Copy selection]** från snabbåtgärderna.
 
    Du kan också använda **Ctrl + C** kortkommando.
 

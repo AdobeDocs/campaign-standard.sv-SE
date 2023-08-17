@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Som standard läses 25 resurser in i en lista.
 
-The **_lineCount** kan du begränsa antalet resurser som anges i svaret.  Du kan sedan använda **nästa** nod för att visa nästa resultat.
+The **_lineCount** kan du begränsa antalet resurser som anges i svaret.  Du kan sedan använda **nästa** för att visa nästa resultat.
 
 >[!NOTE]
 >

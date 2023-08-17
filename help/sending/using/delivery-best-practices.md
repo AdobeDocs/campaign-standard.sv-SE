@@ -4,7 +4,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: Lär dig de bästa metoderna för leveransdesign och leverans med Adobe Campaign.
+description: Lär dig de bästa metoderna för leveransdesign och att skicka med Adobe Campaign.
 feature: Deliverability
 role: User
 level: Intermediate
@@ -18,7 +18,7 @@ ht-degree: 9%
 
 # God praxis för leverans {#delivery-best-practices}
 
-Lär dig de bästa metoderna för leveransdesign och leverans med Adobe Campaign. Använd länkarna nedan för att navigera bland ämnen och hitta vägledning.
+Lär dig de bästa metoderna för leveransdesign och att skicka med Adobe Campaign. Använd länkarna nedan för att navigera bland ämnen och hitta vägledning.
 
 <img src="assets/do-not-localize/optimize.svg"  width="60px">
 

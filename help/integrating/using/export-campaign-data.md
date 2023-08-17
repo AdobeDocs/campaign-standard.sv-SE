@@ -1,6 +1,6 @@
 ---
 title: Exportera data från Campaign till Adobe Experience Platform
-description: Lär dig hur du exporterar data från Campaign Standard till Adobe Experience Platform.
+description: Lär dig exportera data från Campaign Standard till Adobe Experience Platform.
 audience: integrating
 content-type: reference
 role: Data Architect
@@ -31,11 +31,11 @@ Lägg till och konfigurera:
 
 * A **[!UICONTROL Extract file]** -aktivitet för att extrahera måldata till en CSV-fil. Mer information om hur du konfigurerar den här aktiviteten finns i [det här avsnittet](../../automating/using/extract-file.md).
 
-   ![](assets/rtcdp-extract-file.png)
+  ![](assets/rtcdp-extract-file.png)
 
 * A **[!UICONTROL Transfer file]** -aktivitet för att överföra CSV-filen till lagringsplatsen. Mer information om hur du konfigurerar den här aktiviteten finns i [det här avsnittet](../../automating/using/transfer-file.md).
 
-   ![](assets/rtcdp-transfer-file.png)
+  ![](assets/rtcdp-transfer-file.png)
 
 Arbetsflödet nedan extraherar till exempel regelbundet loggar in i en CSV-fil och överför sedan filen till en lagringsplats.
 
@@ -53,7 +53,7 @@ Relaterade ämnen:
 
 De viktigaste stegen för att ansluta din Amazon Storage Service (S3) eller Azure Blob-lagringsplats som en **Källa** i Adobe Experience Platform listas nedan. Detaljerad information om varje steg finns i [Dokumentation för källkopplingar](https://experienceleague.adobe.com/docs/experience-platform/sources/home.htmll?lang=sv).
 
-1. På Adobe Experience-plattformen **[!UICONTROL Sources]** skapar du en anslutning till lagringsplatsen:
+1. I Adobe Experience Platform **[!UICONTROL Sources]** skapar du en anslutning till lagringsplatsen:
 
    * [Skapa en Amazon S3-källanslutning](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html)
    * [Azure Blob-koppling](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob.html)
@@ -72,4 +72,4 @@ De viktigaste stegen för att ansluta din Amazon Storage Service (S3) eller Azur
 
 1. När källan har konfigurerats importerar Adobe Experience Platform filen från lagringsplatsen som du angav.
 
-   Den här åtgärden kan schemaläggas efter dina behov. Vi rekommenderar att du exporterar upp till 6 gånger per dag, beroende på vilken belastning som finns på instansen.
+   Den här åtgärden kan schemaläggas efter dina behov. Vi rekommenderar att du exporterar upp till 6 gånger per dag, beroende på vilken belastning som redan finns på instansen.

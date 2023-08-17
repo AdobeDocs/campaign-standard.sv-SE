@@ -66,34 +66,34 @@ Förfrågningar kan definieras i **[!UICONTROL Audience]**-fönstret när en lev
 
    * För en sträng eller ett numeriskt **fält** anger du jämförelseoperatören och värdet.
 
-      ![](assets/query_editor_audience_definition2.png)
+     ![](assets/query_editor_audience_definition2.png)
 
    * För ett datum- eller datum- och **tidsfält** kan du välja att definiera ett specifikt datum, ett intervall mellan två datum eller en period som är relativ till datumet då förfrågan skapades.
 
-      ![](assets/query_editor_date_field.png)
+     ![](assets/query_editor_date_field.png)
 
    * För ett booleskt **fält** markerar du de rutor som är länkade till fältets möjliga värden.
    * För ett **grupperingsfält** väljer du grupperingsfältet som du vill skapa regeln för och definierar sedan villkoret på samma sätt som för de andra fälten.
 
-      ![](assets/query_editor_audience_definition4.png)
+     ![](assets/query_editor_audience_definition4.png)
 
    * För en **1-1**-länk med en annan databasresurs väljer du ett värde direkt från måltabellen.
 
-      ![](assets/query_editor_audience_definition5.png)
+     ![](assets/query_editor_audience_definition5.png)
 
    * För en **1-N**-länk med en annan databasresurs kan du definiera en underfråga i fälten för den andra resursen.
 
-      Du behöver inte ange något undervillkor.
+     Du behöver inte ange något undervillkor.
 
-      Du kan exempelvis välja endast **[!UICONTROL Exists]** operatören i profilspårningsloggarna och godkänna regeln.  Regeln visar alla profiler som det finns spårningsloggar för.
+     Du kan exempelvis välja endast **[!UICONTROL Exists]** operatören i profilspårningsloggarna och godkänna regeln.  Regeln visar alla profiler som det finns spårningsloggar för.
 
-      ![](assets/query_editor_audience_definition6.png)
+     ![](assets/query_editor_audience_definition6.png)
 
    * För ett **fördefinierat filter** anger du eller väljer de element som du vill se i enlighet med befintliga kriterier.
 
-      Administratörer kan skapa filter för att underlätta komplexa och repetitiva förfrågningar.    Dessa visas i förfrågningsredigeraren i form av förkonfigurerade regler och de begränsar antalet steg som användaren behöver utföra.
+     Administratörer kan skapa filter för att underlätta komplexa och repetitiva förfrågningar.    Dessa visas i förfrågningsredigeraren i form av förkonfigurerade regler och de begränsar antalet steg som användaren behöver utföra.
 
-      ![](assets/query-editor_filter_email-audience_filter.png)
+     ![](assets/query-editor_filter_email-audience_filter.png)
 
 1. Du kan ange ett namn för regeln.    Detta visas sedan som regelnamn på arbetsytan.  Om du inte namnger regeln så visas en automatisk beskrivning av villkoren.
 1. Om du vill kombinera arbetsytans element låser du ihop dem för att skapa olika grupper och/eller gruppnivåer.    Du kan sedan välja en logisk operatör för att kombinera element på samma nivå:

@@ -48,23 +48,23 @@ Välj något av följande i avsnittet **[!UICONTROL Target extraction]**:
 
 * **[!UICONTROL Random sampling]**: när leveransen förbereds extraherar Adobe Campaign slumpmässigt ett antal profiler som motsvarar procentandelen eller det högsta antal som du anger som [storleksgräns](#size-limit).
 
-   Om du till exempel sedan anger tröskelvärdet 10 i avsnittet **[!UICONTROL Limits]** består kontrollgruppen av 10 % som väljs slumpmässigt från målpopulationen.<!--Change screenshot to match example)-->
+  Om du till exempel sedan anger tröskelvärdet 10 i avsnittet **[!UICONTROL Limits]** består kontrollgruppen av 10 % som väljs slumpmässigt från målpopulationen.<!--Change screenshot to match example)-->
 
-   ![](assets/control-group-random-sampling.png)
+  ![](assets/control-group-random-sampling.png)
 
 * **[!UICONTROL Keep only the first records after sorting]**: med det här alternativet kan du definiera en begränsning baserat på en eller flera sorteringsvillkor.
 
-   Exempel:
+  Exempel:
 
    * Välj fältet **[!UICONTROL Age]** som sorteringsvillkor.
    * Definiera 100 som tröskelvärde i avsnittet **[!UICONTROL Limits]** (se [Storleksgräns](#size-limit)).
    * Låt alternativet **[!UICONTROL Descending sort]** vara markerat.
 
-   Resultatet blir att kontrollgruppen består av de 100 äldsta mottagarna.<!--Change screenshot to match example)-->
+  Resultatet blir att kontrollgruppen består av de 100 äldsta mottagarna.<!--Change screenshot to match example)-->
 
-   ![](assets/control-group-keep-first-records.png)
+  ![](assets/control-group-keep-first-records.png)
 
-   Det kan vara intressant att definiera en kontrollgrupp som innehåller profiler som gör få eller återkommande inköp och att jämföra deras beteende med de kontaktade mottagarna.
+  Det kan vara intressant att definiera en kontrollgrupp som innehåller profiler som gör få eller återkommande inköp och att jämföra deras beteende med de kontaktade mottagarna.
 
 >[!NOTE]
 >
@@ -78,23 +78,23 @@ Oavsett om du har valt **[!UICONTROL Random sampling]** eller **[!UICONTROL Keep
 
 * Välj **[!UICONTROL Size (as a % of the initial population)]** och fyll i motsvarande bildruta.
 
-   Om du till exempel anger 10, beroende på vilket alternativ du har valt ovan, kommer Adobe Campaign antingen att:
+  Om du till exempel anger 10, beroende på vilket alternativ du har valt ovan, kommer Adobe Campaign antingen att:
    * Extrahera slumpmässigt 10 % av målpopulationen.
    * Om du valt fältet **[!UICONTROL Age]** som sorteringsvillkor extraheras 10 % av de äldsta profilerna från målpopulationen.
 
-   >[!NOTE]
-   >
-   >Om du avmarkerar alternativet **[!UICONTROL Descending sort]** extraheras 10 % av de yngsta profilerna.
+  >[!NOTE]
+  >
+  >Om du avmarkerar alternativet **[!UICONTROL Descending sort]** extraheras 10 % av de yngsta profilerna.
 
 * Välj **[!UICONTROL Maximum size]** och fyll i motsvarande bildruta.
 
-   Om du till exempel anger 100 kommer Adobe Campaign att antingen:
+  Om du till exempel anger 100 kommer Adobe Campaign att antingen:
    * Slumpmässigt extrahera 100 profiler från målpopulationen.
    * Om du valt fältet **[!UICONTROL Age]** som sorteringsvillkor extraheras 100 av de äldsta profilerna från målpopulationen.
 
-   >[!NOTE]
-   >
-   >Om du avmarkerar alternativet **[!UICONTROL Descending sort]** extraheras 100 av de yngsta profilerna.
+  >[!NOTE]
+  >
+  >Om du avmarkerar alternativet **[!UICONTROL Descending sort]** extraheras 100 av de yngsta profilerna.
 
 ## Utesluta en viss population {#excluding-specific-population}
 
@@ -163,11 +163,11 @@ Välj **[!UICONTROL Delivery logs]** för att se vilka profiler som har tagits b
 
 * På fliken **[!UICONTROL Sending logs]** kan du se de extraherade och exkluderade profilerna. De har samma status **[!UICONTROL Ignored]** och **[!UICONTROL Control group]** som orsaken till misslyckandet.
 
-   ![](assets/control-group-sending-logs.png)
+  ![](assets/control-group-sending-logs.png)
 
 * Du kan även kontrollera fliken **[!UICONTROL Exclusion causes]** för att se hur många profiler som inte inkluderades i leveransen.
 
-   ![](assets/control-group-exclusion-causes.png)
+  ![](assets/control-group-exclusion-causes.png)
 
 ### Använda kontrollgruppens loggar {#using-logs}
 

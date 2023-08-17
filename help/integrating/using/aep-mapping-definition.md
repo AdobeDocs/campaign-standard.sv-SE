@@ -25,7 +25,7 @@ I det här avsnittet får du lära dig att mappa ett fält för Campaign Standar
 
 För att kunna utföra den här uppgiften måste du:
 
-* en XDM-schemadefinition via gränssnittet eller genom att använda REST-API:t som är associerat med XDM
+* en XDM-schemadefinition via gränssnittet eller genom att använda REST API som är associerat med XDM
 * en datauppsättning som baseras på XDM-schemadefinitionen
 
 1. Gå till **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** och väljer **[!UICONTROL Data mappings]** post.
@@ -36,7 +36,7 @@ För att kunna utföra den här uppgiften måste du:
 
 1. Fyll i de obligatoriska fälten och välj:
 
-   * a **måldimension**: det här är det schema som Campaign Standarden ska mappas till
+   * a **måldimension**: det här är det schema som ska mappas för Campaign Standarden
    * a **datauppsättning**: detta är det datapaket som är kopplat till ett XDM-schema i Adobe Experience Platform.
 
 >[!NOTE]
@@ -61,7 +61,7 @@ De utökade resurser som definieras i Campaign Standarden mappas som alla inbygg
 
 Du kan anpassa XDM-tillägget via API:t och definiera ett eget tillägg så att du får bättre kontroll över mappningen.
 
-Se [API-självstudiekurs för schematabell](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) för mer information om XDM API.
+Se [API-självstudiekurs för schematabell](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) om du vill ha mer information om XDM API.
 
 Om du vill mappa ett uppräkningsfält måste du använda uttrycksredigeraren för att definiera varje uppräkningsvärde som motsvarar XDM-värdet. Postaladressfältet måste till exempel definieras som:
 

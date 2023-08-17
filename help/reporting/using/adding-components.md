@@ -31,7 +31,7 @@ Med komponenter kan du anpassa rapporter med olika dimensioner, mätvärden och 
    * **Mått**: Hämta information om status för ett meddelande. Om ett meddelande till exempel levererades och användaren öppnade det.
    * **[!UICONTROL Segments]**: Filtrera data beroende på mottagarens åldersintervall. **[!UICONTROL Segments]** kan dras och släppas direkt i en frihandstabell eller i panelens övre fält.
 
-      Den här kategorin är bara tillgänglig när administratören har godkänt villkoren i det dynamiska användningsavtalet för rapportering som visas på skärmen. Om administratören avböjer avtalet visas inte segmenten i **[!UICONTROL Components]** och data samlas inte in.
+     Den här kategorin är bara tillgänglig när administratören har godkänt villkoren i det dynamiska användningsavtalet för rapportering som visas på skärmen. Om administratören avböjer avtalet visas inte segmenten i **[!UICONTROL Components]** och data samlas inte in.
 
    * **Tid**: Ange en tidsperiod för tabellen.
 
@@ -43,7 +43,7 @@ Med komponenter kan du anpassa rapporter med olika dimensioner, mätvärden och 
 
    ![](assets/dynamic_report_components_3.png)
 
-1. Du kan även filtrera tabellen ytterligare genom att klicka på **Sök** ikon. Med den här sökningen kan du söka efter specifika resultat, t.ex. en viss leverans eller webbläsare.
+1. Du kan även filtrera tabellen ytterligare genom att klicka på **Sök** -ikon. Med den här sökningen kan du söka efter specifika resultat, t.ex. en viss leverans eller webbläsare.
 
    ![](assets/dynamic_report_components_4.png)
 

@@ -53,7 +53,7 @@ Förberedelsen av meddelande utlöses enligt arbetsflödets körningsparametrar.
    * **[!UICONTROL SMS]**: SMS-meddelandet skickas en gång. Här kan du ange om du vill lägga till en utgående övergång till aktiviteten. De olika övergångstyperna beskrivs närmare i steg 7 i den här proceduren.
    * **[!UICONTROL Recurring SMS]**: SMS-meddelandet skickas flera gånger, enligt den frekvens som definieras i en **[!UICONTROL Scheduler]**-aktivitet. Välj aggregeringsperioden för utskicken. Detta gör att du kan gruppera om alla meddelanden som inträffar under den angivna perioden i en enda vy som också kallas för **Återkommande körning** och som kan nås från programmets lista över marknadsföringsaktiviteter.
 
-      Om du till exempel har ett återkommande födelsedags-SMS, som skickas varje dag, kan du välja att samla in varje månad. Detta gör att du kan få rapporter om leveransen månadsvis, även om SMS-meddelandet skickas varje dag.
+     Om du till exempel har ett återkommande födelsedags-SMS, som skickas varje dag, kan du välja att samla in varje månad. Detta gör att du kan få rapporter om leveransen månadsvis, även om SMS-meddelandet skickas varje dag.
 
 1. Välj en SMS-typ. SMS-typerna kommer från SMS-mallar som definieras i menyn **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Ange de allmänna egenskaperna för SMS:et. Du kan även bifoga den till en befintlig kampanj. Etiketten för arbetsflödets leveransaktivitet uppdateras med SMS-etiketten.

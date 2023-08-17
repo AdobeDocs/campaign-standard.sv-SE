@@ -31,6 +31,7 @@ I det här avsnittet får du lära dig att ge åtkomst till Adobe Campaign Stand
 >[!IMPORTANT]
 >
 > Dessa steg kräver **Administratör** i Experience Cloud för er organisation.
+>
 
 1. Gå till https://experience.adobe.com/ och logga in på Adobe Experience Cloud.
 1. Öppna **Admin Console**.
@@ -45,6 +46,7 @@ I det här avsnittet får du lära dig att ge åtkomst till Adobe Campaign Stand
    >[!IMPORTANT]
    >
    >De återstående stegen i det här avsnittet kommer att utföras för var och en av dina Campaign-instanser (dev, text, production).
+   >
 
 1. Klicka på den första instansen som ska konfigureras.
 
@@ -84,7 +86,7 @@ Från **[!UICONTROL Products]**  väljer du Campaign-instansen och följer stege
 
 1. Klicka på **[!UICONTROL Add Developer]** knapp
 
-1. Ange namnet eller e-postadressen för användaren som du vill lägga till.  Välj resultatet som matchar användaren.
+1. Ange namnet eller e-postadressen för användaren som du vill lägga till.  Välj det resultat som matchar användaren.
 
    Om det här är första gången som användaren läggs till i organisationen anger du information.
 

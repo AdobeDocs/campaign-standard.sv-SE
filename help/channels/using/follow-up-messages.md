@@ -19,7 +19,7 @@ ht-degree: 2%
 
 Ett uppföljningsmeddelande är en fördefinierad mall för marknadsföringsleverans som kan användas i ett arbetsflöde för att skicka ytterligare en kommunikation till mottagarna av ett visst transaktionsmeddelande.
 
-Vi återanvänder exemplet som beskrivs i [Transactional messaging operating policy policy](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) avsnitt: ett e-postmeddelande om att kunden överger en varukorg skickas till webbplatsanvändare som har lagt till produkter i kundvagnen, men som har lämnat webbplatsen utan att behöva göra något med sina inköp.
+Vi återanvänder exemplet som beskrivs i [Transactional messaging operating policy policy](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) avsnitt: ett e-postmeddelande om att kunden överger en varukorg skickas till webbplatsanvändare som har lagt till produkter i kundvagnen, men som har lämnat webbplatsen utan att behöva göra något av sina inköp.
 
 Du vill skicka en påminnelse till alla kunder som fick meddelande om att kunden övergett kundvagnen men som inte öppnade den efter tre dagar. De får ett uppföljningsmeddelande baserat på samma data som användes i det första e-postmeddelandet som skickades.
 
@@ -28,7 +28,7 @@ Du vill skicka en påminnelse till alla kunder som fick meddelande om att kunden
 Om du vill skicka ett uppföljningsmeddelande måste du först konfigurera händelsen som motsvarar det transaktionsmeddelande som redan har tagits emot.
 
 1. Använd samma händelsekonfiguration som du skapade för att skicka ett händelsetransaktionsmeddelande. Se [Konfigurera en transaktionshändelse](../../channels/using/configuring-transactional-event.md).
-1. När du konfigurerar en händelse bör du kontrollera **[!UICONTROL Create follow-up delivery template for this event]** innan händelsen publiceras.
+1. Kontrollera **[!UICONTROL Create follow-up delivery template for this event]** innan händelsen publiceras.
 
    ![](assets/message-center_follow-up-checkbox.png)
 
@@ -62,17 +62,17 @@ När du har skapat leveransmallen för uppföljning kan du använda den i ett ar
 
 1. Få tillgång till listan över marknadsföringsaktiviteter och skapa ett nytt arbetsflöde.
 
-   Se [Bygga ett arbetsflöde](../../automating/using/building-a-workflow.md#creating-a-workflow).
+   Se [Skapa ett arbetsflöde](../../automating/using/building-a-workflow.md#creating-a-workflow).
 
-1. Dra och släpp en **[!UICONTROL Scheduler]** -aktivitet i arbetsflödet och öppna det. Ställ in körningsfrekvensen på en gång om dagen.
+1. Dra och släpp en **[!UICONTROL Scheduler]** -aktivitet i ditt arbetsflöde och öppna det. Ställ in körningsfrekvensen på en gång om dagen.
 
    Aktiviteten Schemaläggaren visas i [Schemaläggare](../../automating/using/scheduler.md) -avsnitt.
 
-1. Dra och släpp en **[!UICONTROL Query]** -aktivitet i arbetsflödet och öppna det.
+1. Dra och släpp en **[!UICONTROL Query]** -aktivitet i ditt arbetsflöde och öppna det.
 
    Frågeaktiviteten visas i [Fråga](../../automating/using/query.md) -avsnitt.
 
-1. Om du vill köra frågan på en annan resurs än profilresursen går du till aktivitetens **[!UICONTROL Properties]** och klicka på **[!UICONTROL Resource]** nedrullningsbar lista.
+1. Om du vill köra frågan på en annan resurs än profilresursen går du till aktivitetens **[!UICONTROL Properties]** och klicka på **[!UICONTROL Resource]** listruta.
 
    ![](assets/message-center_follow-up-query-properties.png)
 
@@ -96,7 +96,7 @@ När du har skapat leveransmallen för uppföljning kan du använda den i ett ar
 
    ![](assets/message-center_follow-up-delivery-and-tracking-logs.png)
 
-1. Dra och släpp den händelse som du riktar dig mot (**Övergivna kundvagnar** i det här exemplet) från paletten till arbetsytan. Definiera sedan en regel för att rikta alla meddelanden som skickades för tre dagar sedan.
+1. Dra och släpp den händelse som du riktar dig mot (**Övergivna kundvagnar** i detta exempel) från paletten till arbetsytan. Definiera sedan en regel för att rikta alla meddelanden som skickades för tre dagar sedan.
 
    ![](assets/message-center_follow-up-created.png)
 

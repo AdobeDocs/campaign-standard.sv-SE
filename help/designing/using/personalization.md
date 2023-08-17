@@ -17,7 +17,7 @@ ht-degree: 4%
 
 # Personalisera e-postinnehåll {#personalization}
 
-Innehållet i och visningen av meddelanden från Adobe Campaign kan personaliseras på flera olika sätt. Dessa sätt kan kombineras enligt villkor beroende på profilerna. I allmänhet kan du med Adobe Campaign:
+Innehållet i och visningen av meddelanden från Adobe Campaign kan personaliseras på flera olika sätt. De här sätten kan kombineras enligt villkor beroende på profilerna. I allmänhet kan du med Adobe Campaign:
 
 * Infoga dynamiska personaliseringsfält. Se [Infoga ett personaliserat fält](#inserting-a-personalization-field).
 * Infoga fördefinierade personaliseringsblock. Se [Lägg till ett innehållsblock](#adding-a-content-block).
@@ -57,7 +57,7 @@ Med Adobe Campaign kan du anpassa en eller flera URL-adresser i meddelandet geno
 
 ## Infoga ett personaliserat fält{#inserting-a-personalization-field}
 
-Med Adobe Campaign kan du infoga ett fält från databasen på sidan, t.ex. profilens förnamn.
+Med Adobe Campaign kan du infoga ett fält från databasen på din sida, t.ex. profilens förnamn.
 
 >[!NOTE]
 >
@@ -151,7 +151,7 @@ Så här skapar du ett innehållsblock:
 
    ![](assets/content_bloc_04.png)
 
-1. Du kan välja **[!UICONTROL Depends on format]** alternativ för att definiera två olika block: en för HTML e-post och en för e-post i textformat. Då visas två flikar i redigeraren (HTML och Text) för att definiera motsvarande innehåll.
+1. Du kan välja **[!UICONTROL Depends on format]** om du vill definiera två olika block: ett för HTML e-post och ett för e-post i textformat. Då visas två flikar i redigeraren (HTML och Text) för att definiera motsvarande innehåll.
 
    ![](assets/content_bloc_03.png)
 
@@ -161,7 +161,7 @@ Ditt innehållsblock kan nu användas i innehållsredigeraren för ett meddeland
 
 >[!CAUTION]
 >
->När du redigerar innehållet i ett block ska du kontrollera att det inte finns några extra blanksteg mellan början och slutet av blocket *if* -programsatser. I HTML visas tomrummen på skärmen och påverkar därför innehållslayouten.
+>När du redigerar innehållet i ett block ska du kontrollera att det inte finns några extra blanksteg mellan början och slutet av blocket *if* -programsatser. I HTML visas tomrummen på skärmen och de påverkar därför innehållslayouten.
 
 ### Om målinriktning {#about-targeting-dimension}
 
@@ -207,13 +207,13 @@ Med Adobe Campaign kan du anpassa en eller flera bilder i meddelandet efter ett 
 
 ### Definiera ett synlighetsvillkor{#defining-a-visibility-condition}
 
-Du kan ange ett synlighetsvillkor för alla element. Den syns bara om villkoret uppfylls.
+Du kan ange ett synlighetsvillkor för alla element. Den är bara synlig om villkoret uppfylls.
 
 Om du vill lägga till ett synlighetsvillkor markerar du ett block och anger det villkor som ska gälla i **[!UICONTROL Visibility condition]** fältet med dess inställningar.
 
 ![](assets/delivery_content_5.png)
 
-Det här alternativet är bara tillgängligt för följande element: ADRESS, BLOCKQUOTE, CENTER, DIR, DIV, DL, FIELDSET, FORM, H1, H2, H3, H4, H5, H6, NOSCRIPT, OL, P, PRE, UL, TR, TD.
+Det här alternativet är bara tillgängligt för följande element: ADDRESS, BLOCKQUOTE, CENTER, DIR, DIV, DL, FIELDSET, FORM, H1, H2, H3, H4, H6, NOSCRIPT, OL, P, PRE, UL, TR, TD.
 
 Uttrycksredigeraren visas i [Avancerad redigering av uttryck](../../automating/using/editing-queries.md#about-query-editor) -avsnitt.
 
@@ -243,7 +243,7 @@ Att definiera dynamiskt innehåll skiljer sig från [definiera villkor för synl
 
    ![](assets/dynamic_content_3.png)
 
-   Det här avsnittet innehåller som standard två element: standardvarianten och en ny variant.
+   Som standard innehåller det här avsnittet två element: standardvarianten och en ny variant.
 
    >[!NOTE]
    >
@@ -320,15 +320,15 @@ E-postmeddelandet skapas enligt följande:
 
 * Dynamiskt innehåll används på bilden och det dynamiska innehållet konfigureras enligt åldersintervall.
 
-   ![](assets/delivery_content_43.png)
+  ![](assets/delivery_content_43.png)
 
-   Information om hur du lägger till och konfigurerar dynamiskt innehåll finns i [Definiera dynamiskt innehåll i ett e-postmeddelande](#defining-dynamic-content-in-an-email) -avsnitt.
+  Information om hur du lägger till och konfigurerar dynamiskt innehåll finns i [Definiera dynamiskt innehåll i ett e-postmeddelande](#defining-dynamic-content-in-an-email) -avsnitt.
 
 * Anpassningsfält och dynamiskt innehåll används på texten. Beroende på profilens åldersintervall börjar e-postmeddelandet med antingen profilens förnamn eller profilens titel och efternamn.
 
-   ![](assets/delivery_content_44.png)
+  ![](assets/delivery_content_44.png)
 
-   Information om hur du lägger till och konfigurerar anpassningsfälten finns i [Infoga ett anpassningsfält](#inserting-a-personalization-field) -avsnitt.
+  Information om hur du lägger till och konfigurerar anpassningsfälten finns i [Infoga ett anpassningsfält](#inserting-a-personalization-field) -avsnitt.
 
 ### Konfigurera bilder {#configuring-images}
 
@@ -355,7 +355,7 @@ I det här exemplet konfigureras det dynamiska innehållet som används på bild
 
 1. Lägg till en ny **[!UICONTROL Age]** villkor.
 
-   Välj **Mindre än eller lika med** operatorn följt av 27 i värdefältet för att skapa **yngre än 27** -uttryck.
+   Välj **Mindre än eller lika med** följt av 27 i värdefältet för att skapa **yngre än 27** -uttryck.
 
    ![](assets/delivery_content_51.png)
 
@@ -365,7 +365,7 @@ I det här exemplet konfigureras det dynamiska innehållet som används på bild
 
 1. Markera det dynamiska innehållet på paletten och redigera det.
 1. Redigera etiketten och välj sedan **[!UICONTROL Age]** fält från **[!UICONTROL Profile]** nod.
-1. Lägg till **Större än** operatorn följt av 27 i värdefältet för att skapa **äldre än 27** -uttryck.
+1. Lägg till **Större än** följt av 27 i värdefältet för att skapa **äldre än 27** -uttryck.
 
    ![](assets/delivery_content_52.png)
 
@@ -397,7 +397,7 @@ I det här exemplet konfigureras det dynamiska innehållet som tillämpas på te
 1. Redigera det dynamiska innehållet och konfigurera måluttrycken. Se [Konfigurera bilder](#configuring-images).
 1. I strukturkomponenten klickar du på **[!UICONTROL Personalize]** ikonen i det sammanhangsberoende verktygsfältet och välj **[!UICONTROL Insert personalization field]**.
 1. Välj **[!UICONTROL Title]** i listrutan.
-1. Fortsätt på samma sätt för att lägga till **[!UICONTROL Last name]** fält.
+1. Fortsätt på samma sätt om du vill lägga till **[!UICONTROL Last name]** fält.
 
    ![](assets/delivery_content_56.png)
 

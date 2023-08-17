@@ -32,11 +32,11 @@ The **Visualiseringar** Med -fliken kan du dra och släppa visualiseringsobjekt,
 
    * **Procenttal**: Visar värdena i procent.
    * **Fästpunkt Y-axel vid noll**: Tvingar y-axeln att vara noll även om värdena ligger över noll.
-   * **Förklaring synlig**: Gör att du kan dölja teckenförklaringen.
+   * **Förklaring synlig**: Dölj teckenförklaringen.
    * **Normalisering**: Tvingar värdena att matcha.
    * **Visa dubbel axel**: Lägger till en annan axel i diagrammet.
    * **Begränsa maximalt antal objekt**: Begränsar antalet diagram som visas.
-   * **Tröskelvärde**: Här kan du ange ett tröskelvärde för diagrammet. Det visas som en svart prickad linje.
+   * **Tröskelvärde**: Ange ett tröskelvärde för diagrammet. Det visas som en svart prickad linje.
 
    ![](assets/dynamic_report_visualization_3.png)
 

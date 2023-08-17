@@ -57,7 +57,7 @@ ht-degree: 5%
     </tr>
     <tr>
         <td>deliveryId</td>
-        <td>ID för senaste leverans</td>
+        <td>ID för den senaste leveransen</td>
         <td>heltal </td>
         <td> </td>
     </tr>
@@ -128,7 +128,7 @@ ht-degree: 5%
         <td>
             <ul>
             <li>Odefinierad - odefinierad - 0</li>
-            <li>OGILTIGT VÄRDE - __Invalid_value__ - __Invalid_value__</li>
+            <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
             </ul>
         </td>
     </tr>

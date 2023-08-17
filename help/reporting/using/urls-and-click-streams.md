@@ -24,7 +24,7 @@ The **URL:er och klickbara strömmar** visar de URL:er som klickades mest under 
 
 Varje tabell representeras av sammanfattande nummer och diagram. Du kan ändra hur detaljerna visas i deras respektive visualiseringsinställningar.
 
-The **De mest besökta länkarna** tabellen innehåller tillgängliga data för mottagarnas beteende per leverans, t.ex.:
+The **De mest besökta länkarna** tabellen innehåller tillgängliga data för mottagarnas beteende per leverans, som:
 
-* **Klicka**: Antalet gånger som innehållet klickades på i en leverans.
+* **Klicka**: Antal gånger som innehållet klickades i en leverans.
 * **Unika klick**: Antalet mottagare som klickat på innehåll i en leverans.

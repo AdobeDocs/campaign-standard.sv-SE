@@ -30,7 +30,7 @@ Varje tabell representeras av sammanfattande nummer och diagram. Du kan ändra h
 Den första tabellen **Sammanfattning av appengagemang** delas in i tre kategorier: per dag, per mobilapp och per leverans. Den innehåller tillgängliga data för mottagarens reaktivitet för leveransen:
 
 * **[!UICONTROL Processed/sent]**: Totalt antal överföringar för leverans i appen.
-* **[!UICONTROL Delivered]**: Antal skickade meddelanden i appen i relation till det totala antalet skickade meddelanden.
+* **[!UICONTROL Delivered]**: Antal meddelanden i appen som skickats, i relation till det totala antalet skickade meddelanden.
 * **[!UICONTROL Impressions]**: Totalt antal meddelanden i appen som visas av mottagarna beroende på om utlösarvillkoret uppfylls.
 * **[!UICONTROL Unique impressions]**: Antal visningar per mottagare.
 * **[!UICONTROL In-App click through rate]**: Procentandel användare som klickade på Knapp 1 eller Knapp 2 jämfört med användare som såg meddelandet.
@@ -42,5 +42,5 @@ Den andra tabellen **Klicka och avvisa i appen** delas in i tre kategorier: per 
 
 * **[!UICONTROL In-App clicks]**: Totalt antal mottagare som klickat på Knapp 1 eller Knapp 2.
 * **[!UICONTROL Unique In-App clicks]**: Antal gånger som mottagare klickat på Knapp 1 eller Knapp 2.
-* **[!UICONTROL In-App dismissal]**: Totalt antal meddelanden som mottagarna stängt antingen genom att klicka på stängningsknappen eller genom automatisk stängning.
+* **[!UICONTROL In-App dismissal]**: Totalt antal meddelanden som mottagarna stängde genom att klicka på stängningsknappen eller automatiskt stänga.
 * **[!UICONTROL Unique In-App dismissal]**: Antal gånger som mottagarna har stängt ett meddelande i appen.

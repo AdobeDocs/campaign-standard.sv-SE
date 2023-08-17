@@ -24,7 +24,7 @@ Stegen för att publicera, pausa, avpublicera och ta bort ett transaktionsmeddel
 
 >[!IMPORTANT]
 >
->Endast användare med [Administration](../../administration/using/users-management.md#functional-administrators) kan komma åt och publicera transaktionsmeddelanden.
+>Endast användare med [Administration](../../administration/using/users-management.md#functional-administrators) roller kan komma åt och publicera transaktionsmeddelanden.
 
 ## Publiceringsprocess för transaktionsmeddelanden {#transactional-messaging-pub-process}
 
@@ -147,9 +147,9 @@ Du kan bara ta bort ett transaktionsmeddelande under vissa förhållanden:
 
 * **Transaktionsmeddelanden**: Om inte ett annat transaktionsmeddelande är kopplat till motsvarande händelse måste även händelsekonfigurationen avpubliceras om transaktionsmeddelandet inte har publicerats för att ditt transaktionsmeddelande ska kunna tas bort. Mer information finns i [Avpublicera en händelse](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
 
-   >[!IMPORTANT]
-   >
-   >Om du tar bort ett transaktionsmeddelande som redan har skickat meddelanden tas även dess loggar för sändning och spårning bort.
+  >[!IMPORTANT]
+  >
+  >Om du tar bort ett transaktionsmeddelande som redan har skickat meddelanden tas även dess loggar för sändning och spårning bort.
 
 * **Transaktionsmeddelanden från en färdig händelsemall (interna transaktionsmeddelanden)**: Om ett internt transaktionsmeddelande är det enda som är associerat med den motsvarande interna händelsen kan det inte tas bort. Du måste först skapa ett annat transaktionsmeddelande genom att duplicera det eller via menyn **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Transactional message templates]**.
 

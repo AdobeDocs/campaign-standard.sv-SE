@@ -44,8 +44,8 @@ När funktionen är aktiverad måste du aktivera e-postkopia från **[!UICONTROL
 
 När funktionen är aktiverad aktiveras e-postkopia i [e-postmall](../../start/using/marketing-activity-templates.md), via ett dedikerat alternativ:
 
-1. Gå till **Resurser** > **Mallar** > **Leveransmallar**.
-1. Duplicera färdiga **[!UICONTROL Send via email]** mall.
+1. Gå till **Resurs** > **Mallar** > **Leveransmallar**.
+1. Duplicera färdiga filer **[!UICONTROL Send via email]** mall.
 1. Markera den duplicerade mallen.
 1. Klicka på **[!UICONTROL Edit properties]** om du vill redigera mallens egenskaper.
 1. Expandera avsnittet **[!UICONTROL Send]**.

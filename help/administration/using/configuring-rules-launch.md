@@ -81,7 +81,7 @@ Du måste skapa regler för följande:
 
 Skicka PII-data till [!DNL Adobe Campaign Standard]skapar du en regel i användargränssnittet för datainsamling:
 
-1. I användargränssnittet för datainsamling klickar du på **[!UICONTROL Rules]** tabba sedan **[!UICONTROL Create New Rule]**.
+1. I användargränssnittet för datainsamling klickar du på **[!UICONTROL Rules]** tabba **[!UICONTROL Create New Rule]**.
 
 1. Skriv ett namn, till exempel **Mobile Core - Samla in PII**.
 
@@ -217,7 +217,7 @@ Använd API:t trackAction om du vill spåra programåtgärder. Mer information f
 
 1. Välj **[!UICONTROL Add post body]** kryssruta.
 
-1. Lägg till ditt inlägg, till exempel {}.
+1. Lägg till ditt inlägg, till exempel, {}.
 
 1. I **[!UICONTROL Content Type]**, typ **application/json**.
 

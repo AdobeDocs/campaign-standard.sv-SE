@@ -23,7 +23,7 @@ I det här exemplet vill vi skapa det anpassade profilfältet **Lojalitetsprogra
 
 * [Steg 1: Skapa ett nytt profilfält](#step-1--create-a-new-profile-field)
 * [Steg 2: Utöka de sändande loggarna med profilfältet](#step-2--extend-the-sending-logs-with-the-profile-field)
-* [Steg 3: Skapa en leverans som riktar sig till mottagare som är registrerade i lojalitetsprogrammet](#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program)
+* [Steg 3: Skapa en leverans riktad till mottagare som är registrerade i lojalitetsprogrammet](#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program)
 * [Steg 4: Skapa en dynamisk rapport för att filtrera mottagare med den anpassade profildimensionen](#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension)
 
 ## Steg 1: Skapa ett nytt profilfält {#step-1--create-a-new-profile-field}
@@ -36,7 +36,7 @@ Vi måste först skapa det nya profilfältet **Förmånsprogram** som tilldelar 
 
 För att göra detta:
 
-1. Välj **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]** sedan **[!UICONTROL Profile (profile)]** anpassad resurs.
+1. Välj på den avancerade menyn **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]** sedan **[!UICONTROL Profile (profile)]** anpassad resurs.
 
    ![](assets/custom_profile_1.png)
 
@@ -56,7 +56,7 @@ För att göra detta:
 
    ![](assets/custom_profile_13.png)
 
-1. Ange **[!UICONTROL Label]** och **[!UICONTROL Value]** sedan klicka **[!UICONTROL Add]**. I det här exemplet måste vi skapa värdet guld, silver och brons. Klicka på **[!UICONTROL Confirm]** när du är klar.
+1. Ange **[!UICONTROL Label]** och **[!UICONTROL Value]** klicka sedan på **[!UICONTROL Add]**. I det här exemplet måste vi skapa värdet guld, silver och brons. Klicka på **[!UICONTROL Confirm]** när du är klar.
 
    ![](assets/custom_profile_14.png)
 
@@ -74,7 +74,7 @@ För att göra detta:
 
    ![](assets/custom_profile_6.png)
 
-1. Välj **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Publication]** för att börja publicera din anpassade resurs.
+1. Välj på den avancerade menyn **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Publication]** för att börja publicera din anpassade resurs.
 1. Klicka **[!UICONTROL Prepare publication]** när färdigställandet är klart klickar du på **[!UICONTROL Publish]** -knappen.
 
    ![](assets/custom_profile_7.png)
@@ -93,7 +93,7 @@ Innan du utökar loggen med vårt profilfält bör du kontrollera att PII-fönst
 >
 >Loggar kan bara utökas med profilfält av administratören.
 
-1. Välj **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]** sedan **[!UICONTROL Profile (profile)]** anpassad resurs.
+1. Välj på den avancerade menyn **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]** sedan **[!UICONTROL Profile (profile)]** anpassad resurs.
 1. Öppna **[!UICONTROL Sending logs extension]** nedrullningsbar meny.
 1. Klicka på knappen **[!UICONTROL Create element]**.
 
@@ -109,7 +109,7 @@ Innan du utökar loggen med vårt profilfält bör du kontrollera att PII-fönst
 1. Klicka **[!UICONTROL Add]** spara sedan din anpassade resurs.
 1. Eftersom den anpassade resursen ändrades måste den publiceras för att implementera de nya ändringarna.
 
-   Välj **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Publication]** för att börja publicera din anpassade resurs.
+   Välj på den avancerade menyn **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Publication]** för att börja publicera din anpassade resurs.
 
 1. Klicka **[!UICONTROL Prepare publication]** när färdigställandet är klart klickar du på **[!UICONTROL Publish]** -knappen.
 
@@ -119,12 +119,12 @@ Din anpassade profil är nu tillgänglig som en anpassad profildimension i dina 
 
 Nu när fältet har skapats och loggen har utökats med det här profilfältet kan du börja rikta in mottagare i leveranser.
 
-## Steg 3: Skapa en leverans som riktar sig till mottagare som är registrerade i lojalitetsprogrammet {#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program}
+## Steg 3: Skapa en leverans riktad till mottagare som är registrerade i lojalitetsprogrammet {#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program}
 
 När profilfältet har publicerats kan du påbörja leveransen. I det här exemplet vill vi inrikta oss på alla mottagare som är registrerade i lojalitetsprogrammet.
 
 1. På fliken **[!UICONTROL Marketing activities]**, klicka på **[!UICONTROL Create]** och välj sedan **[!UICONTROL Email]**.
-1. Välj en **[!UICONTROL Email type]** Ange sedan e-postens egenskaper.
+1. Välj en **[!UICONTROL Email type]** Ange sedan egenskaperna för e-postmeddelandet.
 1. Dra och släpp **[!UICONTROL Profiles (attributes)]** aktivitet.
 1. Välj det fält du skapat tidigare från **[!UICONTROL Field]** nedrullningsbar meny.
 
@@ -135,13 +135,13 @@ När profilfältet har publicerats kan du påbörja leveransen. I det här exemp
    ![](assets/custom_profile_17.png)
 
 1. Klicka **[!UICONTROL Confirm]** när du är klar med filtreringen klickar du **[!UICONTROL Next]**.
-1. Definiera och anpassa meddelandeinnehåll, avsändarens namn och ämne. Mer information om hur du skapar e-postmeddelanden finns i [page](../../designing/using/designing-content-in-adobe-campaign.md).
+1. Definiera och anpassa meddelandeinnehåll, avsändarens namn och ämne. Mer information om att skapa e-post finns i [page](../../designing/using/designing-content-in-adobe-campaign.md).
 
    Klicka sedan på **[!UICONTROL Create]**.
 
 1. När det är klart kan du förhandsgranska och skicka meddelandet. Mer information om hur du förbereder och skickar meddelanden finns i [page](../../sending/using/preparing-the-send.md).
 
-När e-postmeddelandet har skickats korrekt till de valda mottagarna kan du börja filtrera dina data och spåra hur bra leveransen är med rapporter.
+När e-postmeddelandet har skickats korrekt till de valda mottagarna kan du börja filtrera dina data och spåra hur framgångsrik leveransen är med hjälp av rapporter.
 
 ## Steg 4: Skapa en dynamisk rapport för att filtrera mottagare med den anpassade profildimensionen {#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension}
 
@@ -165,4 +165,4 @@ När leveransen är klar kan du dela upp rapporter med hjälp av din anpassade p
 
 **Relaterat ämne:**
 
-* [Använda anpassade profildata för att skapa insiktsfulla rapporter](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
+* [Använda anpassade profildata för att skapa insikter om rapporter](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)

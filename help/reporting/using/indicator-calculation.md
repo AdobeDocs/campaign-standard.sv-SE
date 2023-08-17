@@ -31,7 +31,7 @@ Tabellerna nedan visar en lista över indikatorer som används i de olika rappor
    <th> <strong>Etikett</strong> <br /> </th> 
    <th> <strong>Fältnamn</strong> <br /> </th> 
    <th> <strong>Beräkningsformel för indikator</strong> <br /> </th> 
-   <th> <strong>Kommentarer</strong><br /> </th> 
+   <th> <strong>Kommentar</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -306,7 +306,7 @@ Tabellerna nedan visar en lista över indikatorer som används i de olika rappor
    <th> <strong>Etikett</strong> <br /> </th> 
    <th> <strong>Fältnamn</strong> <br /> </th> 
    <th> <strong>Beräkningsformel för indikator</strong> <br /> </th> 
-   <th> <strong>Kommentarer</strong><br /> </th> 
+   <th> <strong>Kommentar</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -341,7 +341,7 @@ Tabellerna nedan visar en lista över indikatorer som används i de olika rappor
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unika klick i appen<br /> </td> 
+   <td> Unika klick i programmet<br /> </td> 
    <td> @uniqueinapp<br /> </td> 
    <td> @unique(@count (status=klickningar))<br /> </td> 
    <td> För <span class="uicontrol">Målanvändare baserat på deras Campaign-profil (inAppProfile)</span> template, user = mottagar-ID.<br /> För <span class="uicontrol">Alla användare av en mobilapp som mål (inAppBroadcast)</span> och <span class="uicontrol">Målanvändare baserat på deras mobilprofil (inApp)</span> -mallar, användare = MC Id eller motsvarande som representerar en unik kombination av användare, mobilapp och enhet.<br /> </td> 
@@ -353,8 +353,8 @@ Tabellerna nedan visar en lista över indikatorer som används i de olika rappor
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Avvisning i appen<br /> </td> 
-   <td> @dissaknar<br /> </td> 
+   <td> Inaktivering i appen<br /> </td> 
+   <td> @dismissation<br /> </td> 
    <td> @count (status=close)<br /> </td> 
    <td> </td> 
   </tr> 

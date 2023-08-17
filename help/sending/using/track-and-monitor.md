@@ -36,15 +36,15 @@ Mer information finns i [Övervaka leverans](../../sending/using/monitoring-a-de
 
 ## Spåra {#tracking-deliveries}
 
-Om du vill veta mer om hur målprofilerna fungerar kan du spåra hur de reagerar på en leverans: mottagning, öppning, klickningar på länkar, avbeställningar osv. Se **Spårningsloggar** leveransfliken.
+Om du vill veta mer om hur målprofilerna fungerar kan du spåra hur de reagerar på en leverans: mottagning, öppning, klickningar på länkar, prenumerationer osv. Se **Spårningsloggar** leveransfliken.
 
 **Tips**: Spårning av meddelanden är aktiverat som standard. Om du vill konfigurera URL-adresser väljer du alternativet Visa URL-adresser i det nedre avsnittet av leveransguiden. För varje URL för meddelandet kan du välja om spårning ska aktiveras.
 
-Mer information finns i [Spåra meddelanden](../../sending/using/tracking-messages.md) och [Spårningsindikatorer](../../reporting/using/tracking-indicators.md) description.
+Mer information finns i [Spåra meddelanden](../../sending/using/tracking-messages.md) -avsnittet och [Spårningsindikatorer](../../reporting/using/tracking-indicators.md) description.
 
 ## Dynamiska rapporter {#dyn-reports}
 
-Med dynamiska rapporter kan ni skapa fullt anpassningsbara realtidsrapporter för att övervaka era kampanjer. Dimensioner, mätvärden och visualiseringar gör att ni kan mäta hur effektiva era kampanjer är för mottagarna.
+Med dynamiska rapporter kan ni skapa fullt anpassningsbara realtidsrapporter för att övervaka era kampanjer. Dimensioner, mätvärden och visualiseringar gör att ni kan mäta effekten och framgången av era kampanjer för mottagarna.
 
 **Tips** - Inbyggda rapporter finns tillgängliga så att ni kan övervaka era kampanjer, men dessa rapporter kan också anpassas genom att dra och släppa mätvärden eller dimensioner i rapporten.
 

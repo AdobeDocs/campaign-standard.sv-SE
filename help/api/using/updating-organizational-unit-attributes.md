@@ -34,7 +34,7 @@ Hämta listan med organisationsenheter.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Den returnerar alla organisationsenheter. Hämta den önskade enhetens PKey.
+Den returnerar alla organisationsenheter. Hämta PKey för önskad enhet.
 
 ```
 {

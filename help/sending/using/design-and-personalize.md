@@ -18,13 +18,13 @@ ht-degree: 7%
 
 # Skapa personaliserat innehåll {#build-personalized-content}
 
-När du utformar meddelandeinnehållet bör du undvika vanliga problem som kan hindra dig från att utföra leveransen. För det mesta är möjliga fel relaterade till [personalisering](../../designing/using/personalization.md), formatera när [använda befintligt innehåll](../../designing/using/using-existing-content.md) - och [konvertera ett HTML-innehåll](../../designing/using/using-existing-content.md#converting-an-html-content) - och [bilder](../../designing/using/images.md).
+När du utformar meddelandeinnehållet bör du undvika vanliga problem som kan hindra dig från att utföra leveransen. För det mesta är möjliga fel relaterade till [personalisering](../../designing/using/personalization.md), formatera när [använda befintligt innehåll](../../designing/using/using-existing-content.md) - och [konvertera HTML](../../designing/using/using-existing-content.md#converting-an-html-content) - och [bilder](../../designing/using/images.md).
 
 ## Optimera personalisering {#optimize-personalization}
 
 För att undvika vanliga problem som kan hindra dig från att utföra leveransen och för att förbättra mottagarnas upplevelse kan du anpassa dina meddelanden med Adobe Campaign.
 
-Du kan använda mottagarnas data som lagras i Adobe Campaign-databasen eller som samlats in via spårning, landningssidor, prenumerationer osv.
+Du kan använda mottagarnas data som lagras i Adobe Campaign-databasen, eller som samlats in via spårning, landningssidor, prenumerationer osv.
 Grundläggande om personalisering presenteras i [det här avsnittet](../../designing/using/personalization.md).
 
 Se till att meddelandeinnehållet är rätt utformat för att undvika fel, som vanligtvis är relaterade till personalisering.
@@ -34,7 +34,7 @@ Mer information om dynamiskt innehåll finns i [det här avsnittet](../../design
 
 **Tips** - Förhandsgranska e-postmeddelandet med olika testprofiler för att kontrollera att det dynamiska innehållet har konfigurerats korrekt.
 
-## Skapa optimerat innehåll {#optimize-content}
+## Bygg optimerat innehåll {#optimize-content}
 
 När du skapar e-postmeddelanden bör du tänka på de allmänna bästa metoderna nedan.
 
@@ -42,7 +42,7 @@ När du skapar e-postmeddelanden bör du tänka på de allmänna bästa metodern
 
 * Tänk på mobilanvändare
 
-* Undvik helt bildbaserade e-postmeddelanden
+* Undvik helt bildbaserade mejl
 
 * Använda e-postsäkra teckensnitt
 
@@ -50,7 +50,7 @@ När du skapar e-postmeddelanden bör du tänka på de allmänna bästa metodern
 
 ### Subject line
 
-Arbeta på [ämnesrad](../../designing/using/subject-line.md) för att förbättra öppna frekvenser:
+Arbeta på [ämnesrad](../../designing/using/subject-line.md) för att förbättra öppningsfrekvenserna:
 
 * Undvik för långa motiv. Använd högst 50 tecken
 
@@ -64,7 +64,7 @@ Inkludera alltid en länk för spegelsida. Önskad position är högst upp i e-p
 
 ### Avprenumerationslänk
 
-Avprenumerationslänken är viktig. Den måste vara synlig och giltig och formuläret måste vara funktionellt. Lär dig riktlinjerna för prenumerationslänk [i det här avsnittet](../../designing/using/personalization.md#about-targeting-dimension).
+Länken för att avbeställa prenumerationer är viktig. Den måste vara synlig och giltig och formuläret måste vara funktionellt. Lär dig riktlinjerna för prenumerationslänk [i det här avsnittet](../../designing/using/personalization.md#about-targeting-dimension).
 
 När meddelandet analyseras är som standard en kontroll [typologiregel](../../sending/using/control-rules.md) kontrollerar om en avanmälningslänk har inkluderats och genererar en varning om den saknas.
 
@@ -74,7 +74,7 @@ Lär dig hur du infogar en länk för avanmälan [i det här avsnittet](../../de
 
 ### E-poststorlek {#email-size}
 
-För att undvika problem med prestanda och leverans är den rekommenderade maximala storleken på ett e-postmeddelande ungefär **35 kB**.
+För att undvika problem med prestanda och leverans är den rekommenderade maxstorleken för ett e-postmeddelande ungefär **35 kB**.
 
 Tänk på följande om du vill hålla din e-post under gränsen:
 
@@ -115,9 +115,9 @@ Läs mer [i det här avsnittet](../../administration/using/configuring-sms-chann
 
 Responsiv design säkerställer att ett e-postmeddelande återges optimalt för den enhet där det öppnas.
 
-* Använd responsiv e-post HTML i stället för HTML på webben
+* Använd responsiv e-post HTML i stället för web HTML
 
-* Använd förhandsgranskningsläget och skicka provtryck för att testa återgivningen på så många enheter som möjligt. Lär dig hur [förhandsgranskningsmeddelande](../../sending/using/previewing-messages.md) före sändning.
+* Använd förhandsgranskningsläget och skicka korrektur för att testa återgivningen på så många enheter som möjligt. Lär dig hur [förhandsgranskningsmeddelande](../../sending/using/previewing-messages.md) före sändning.
 
 * Campaign Email Designer innehåller responsiva designformaterade mallar för mobiler. Läs mer [på den här sidan](../../designing/using/using-reusable-content.md#content-templates).
 

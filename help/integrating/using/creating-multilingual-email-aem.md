@@ -129,4 +129,4 @@ Dina språkkopior har skapats. Nu kan du redigera innehållet beroende på vilke
    >
    >Du kan inte skicka e-postmeddelanden i Adobe Campaign om det innehåller ett AEM som inte har godkänts.
 
-Din målgrupp får ditt mejl beroende på **[!UICONTROL Preferred languages]** i sina **[!UICONTROL Profiles]**. Mer information om hur du redigerar profiler och önskade språk finns i [page](../../audiences/using/editing-profiles.md).
+Din målgrupp får ditt mejl beroende på **[!UICONTROL Preferred languages]** i sina **[!UICONTROL Profiles]**. Mer information om hur du redigerar profiler och önskade språk finns i detta [page](../../audiences/using/editing-profiles.md).

@@ -1,6 +1,6 @@
 ---
 title: Konfigurera en transaktionshändelse
-description: Lär dig hur du konfigurerar transaktionshändelser i Adobe Campaign.
+description: Lär dig konfigurera transaktionshändelser i Adobe Campaign.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
@@ -34,7 +34,7 @@ Börja med att skapa den händelse som passar dina behov.
 
 1. Klicka på **Adobe** logotyp, i det övre vänstra hörnet och välj **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Klicka på knappen **[!UICONTROL Create]**.
-1. Ange **[!UICONTROL Label]** och **[!UICONTROL ID]** för händelsen. The **[!UICONTROL ID]** fältet är obligatoriskt och ska börja med prefixet&quot;EVT&quot;. Om du inte använder det här prefixet läggs det till automatiskt när du klickar på **[!UICONTROL Create]**.
+1. Ange en **[!UICONTROL Label]** och **[!UICONTROL ID]** för händelsen. The **[!UICONTROL ID]** fältet är obligatoriskt och ska börja med prefixet&quot;EVT&quot;. Om du inte använder det här prefixet läggs det till automatiskt när du klickar **[!UICONTROL Create]**.
 
    ![](assets/message-center_1.png)
 
@@ -85,7 +85,7 @@ Den här samlingen kan användas i ett transaktionsmejl för att lägga till [pr
 
 >[!NOTE]
 >
->Stegen för att berika elementen i en samling är desamma som beskrivs i [Förbättra händelsen](#enriching-the-transactional-message-content) -avsnitt. Observera att du inte kan utöka en samling genom att berika händelsen: du behöver lägga till en berikning i själva samlingen i **[!UICONTROL Collections]** -avsnitt.
+>Stegen för att berika elementen i en samling är desamma som beskrivs i [Förbättra händelsen](#enriching-the-transactional-message-content) -avsnitt. Observera att du inte kan berika en samling genom att berika händelsen: du måste lägga till en berikning i själva samlingen i **[!UICONTROL Collections]** -avsnitt.
 
 När händelsen och meddelandet har publicerats kan du använda den här samlingen i ditt transaktionsmeddelande.
 
@@ -103,7 +103,7 @@ Här är API-förhandsvisningen för det här exemplet:
 
 Du kan utöka transaktionsmeddelandets innehåll med information från Adobe Campaign-databasen för att personalisera dina meddelanden. Från efternamnet eller CRM-ID:t för var och en av mottagarna kan du till exempel återställa data som adress eller födelsedatum eller andra anpassade fält som lagts till i profiltabellen, för att anpassa informationen som skickas till dem.
 
-Det går att utöka transaktionsmeddelandets innehåll med information från utökade **[!UICONTROL Profile and services Ext API]**. Mer information finns i [Utöka API: Publicera tillägget](../../developing/using/step-2--publish-the-extension.md)
+Det går att utöka transaktionsmeddelandets innehåll med information från utökade **[!UICONTROL Profile and services Ext API]**. Mer information finns i [Utöka API: publicera tillägget](../../developing/using/step-2--publish-the-extension.md)
 
 Den här informationen kan också lagras i nya resurser. I så fall måste resursen vara länkad till **[!UICONTROL Profile]** eller **[!UICONTROL Service]** resurser antingen direkt eller via en annan tabell. I konfigurationen nedan är det t.ex. möjligt att utöka transaktionsmeddelandets innehåll med information från **[!UICONTROL Product]** som produktkategorin eller ID, om **[!UICONTROL Product]** resursen är länkad till **[!UICONTROL Profile]** resurs.
 
@@ -159,7 +159,7 @@ Följ stegen nedan för att få tillgång till och söka efter transaktionshänd
    ![](assets/message-center_search-events.png)
 
 1. Du kan filtrera på **[!UICONTROL Publication status]**. På så sätt kan du till exempel bara visa publicerade händelser.
-1. Du kan också filtrera händelserna med **[!UICONTROL Last event received]**. Om du till exempel anger 10 visas bara de händelsekonfigurationer som innehåller den senaste händelsen som togs emot för 10 dagar sedan eller mer. Detta gör att du kan visa vilka händelser som har varit inaktiva under en viss period.
+1. Du kan också filtrera händelserna med **[!UICONTROL Last event received]**. Om du till exempel anger 10 visas bara de händelsekonfigurationer som har den senaste händelsen som togs emot för 10 dagar sedan eller mer. Detta gör att du kan visa vilka händelser som har varit inaktiva under en viss period.
 
    ![](assets/message-center_last-event-received.png)
 
@@ -177,9 +177,9 @@ I följande avsnitt beskrivs vilken specifik konfiguration som ska ställas in e
 
 Du kan skicka transaktionsmeddelanden för en händelse. Den här typen av transaktionsmeddelanden innehåller inte profilinformation: leveransmålet definieras av data som finns i själva händelsen.
 
-Om du vill skicka ett händelsebaserat transaktionsmeddelande måste du först skapa och konfigurera en händelse som riktar sig till **data som finns i själva händelsen**.
+Om du vill skicka ett händelsebaserat transaktionsmeddelande måste du först skapa och konfigurera en händelse som riktar sig till **data i själva händelsen**.
 
-1. När du skapar händelsekonfigurationen väljer du **[!UICONTROL Real-time event]** målinriktning (se [Skapa en händelse](#creating-an-event)).
+1. Välj knappen **[!UICONTROL Real-time event]** målinriktning (se [Skapa en händelse](#creating-an-event)).
 1. Lägg till fält i händelsen för att kunna anpassa transaktionsmeddelandet (se [Definiera händelseattributen](#defining-the-event-attributes)).
 1. Händelsebaserade transaktionsmeddelanden ska bara använda de data som finns i den skickade händelsen för att definiera mottagaren och meddelandets innehållspersonalisering.        
 
@@ -199,7 +199,7 @@ Ni kan skicka transaktionsmeddelanden baserat på kundprofiler, som gör att ni 
 
 Om du vill skicka ett profilbaserat transaktionsmeddelande måste du först skapa och konfigurera ett händelsemål **data från Adobe Campaign-databasen**.
 
-1. När du skapar händelsekonfigurationen väljer du **[!UICONTROL Profile event]** målinriktning (se [Skapa en händelse](#creating-an-event)).
+1. Välj knappen **[!UICONTROL Profile event]** målinriktning (se [Skapa en händelse](#creating-an-event)).
 1. Lägg till fält i händelsen för att kunna anpassa transaktionsmeddelandet (se [Definiera händelseattributen](#defining-the-event-attributes)). Du måste lägga till minst ett fält för att skapa en anrikning. Du behöver inte skapa andra fält som **Förnamn** och **Efternamn** eftersom du kommer att kunna använda personaliseringsfält från Adobe Campaign-databasen.
 1. Skapa en berikning för att länka evenemanget till **[!UICONTROL Profile]** resurs (se [Förbättra händelsen](#enriching-the-transactional-message-content)) och välj den här berikningen som **[!UICONTROL Targeting enrichment]**.
 

@@ -21,12 +21,12 @@ Det finns tre typer av meddelanden i appen i Adobe Campaign:
 
 * **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**: Den här meddelandetypen gör att du kan ange Adobe Campaign-profiler (CRM-profiler) som prenumererar på ditt mobilprogram som mål. Den här meddelandetypen kan anpassas med alla tillgängliga profilattribut i Adobe Campaign, men kräver en säker handskakning mellan Mobile SDK och Campaigns meddelandetjänst i appen för att säkerställa att meddelanden med personlig och känslig information endast används av behöriga användare.
 
-   Om du vill hämta den här meddelandetypen på användarnas enheter måste Mobile SDK skicka länkningsfält som används för att ansluta en mobilprofil till en CRM-profil i Adobe Campaign. Mer information om SDK-API:er som krävs för att stödja appar finns på den här [sidan](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/).
+  Om du vill hämta den här meddelandetypen på användarnas enheter måste Mobile SDK skicka länkningsfält som används för att ansluta en mobilprofil till en CRM-profil i Adobe Campaign. Mer information om SDK-API:er som krävs för att stödja appar finns på den här [sidan](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/).
 
 * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**: Med den här meddelandetypen kan du skicka meddelanden till alla användare (nuvarande eller framtida) av ditt mobilprogram, även om de inte har en befintlig profil i Adobe Campaign. Anpassnign är därför inte möjligt när du anpassar meddelandena eftersom användarprofilen kanske inte ens finns i Adobe Campaign.
 * **[!UICONTROL Target users based on their Mobile profile (inApp)]**: Den här meddelandetypen gör att du kan rikta indig på alla kända eller anonyma användare av en mobilapp som har en mobilprofil i Adobe Campaign. Den här meddelandetypen kan endast anpassas med icke-personliga och icke-känsliga attribut och kräver ingen säker handskakning mellan Mobile SDK och Adobe Campaigns meddelandetjänst i appen.
 
-   Mer information om hur du hanterar personliga och känsliga data finns i [Hantera mobilprofilsfält med personliga och känsliga data](../../channels/using/about-in-app-messaging.md#handling-mobile-profile-fields-with-personal-and-sensitive-data).
+  Mer information om hur du hanterar personliga och känsliga data finns i [Hantera mobilprofilsfält med personliga och känsliga data](../../channels/using/about-in-app-messaging.md#handling-mobile-profile-fields-with-personal-and-sensitive-data).
 
 ![](assets/diagram_inapp.png)
 
@@ -60,7 +60,7 @@ Stegen för att skapa ett fristående meddelande i appen med Adobe Campaign är 
 
 1. Ange egenskaperna för Meddelande i appen och välj din mobilapp i fältet **[!UICONTROL Associate a Mobile App to a delivery]**. 
 
-   Om du inte ser något program i listrutan kontrollerar du att dina mobilprogram finns i en **Konfigurerad** tillstånd. Program i en **Klar att konfigureras** visas inte i listan. Mer information om konfiguration av mobilprogram finns på den här [sidan](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
+   Om inga program visas i listrutan kontrollerar du att dina mobilprogram finns i en **Konfigurerad** tillstånd. Program i en **Klar att konfigureras** visas inte i listan. Mer information om konfiguration av mobilprogram finns på den här [sidan](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
    ![](assets/inapp_creating_3.png)
 
@@ -76,19 +76,20 @@ Stegen för att skapa ett fristående meddelande i appen med Adobe Campaign är 
 
    * **[!UICONTROL Mobile Application events]**: Anpassade händelser som implementeras i ditt mobilprogram.
 
-      Mer information om skapande av händelser finns på den här [sidan](../../administration/using/configuring-a-mobile-application.md).
+     Mer information om skapande av händelser finns på den här [sidan](../../administration/using/configuring-a-mobile-application.md).
 
    * **[!UICONTROL Life Cycle events]**: Körklara livscykelhändelser som stöds av Adobe Mobile SDK.
 
-      Mer information om livscykelhändelser finns på den här [sidan](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html).
+     Mer information om livscykelhändelser finns på den här [sidan](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html).
 
    * **[!UICONTROL Analytics Events]**: Följande tre kategorier stöds beroende på vad som finns i din mobilapp: Adobe Analytics, Kontextdata eller Vytillstånd.
 
-      Observera att dessa händelser endast är tillgängliga om du har en Adobe Analytics-licens.
+     Observera att dessa händelser endast är tillgängliga om du har en Adobe Analytics-licens.
 
    * **[!UICONTROL Places]**: Följande tre kategorier utnyttjar platsdata i realtid för att leverera innehållsmässigt relevanta mobilupplevelser: Placerar kontextdata, Placerar anpassade metadata eller Placerar händelsetyp.
 
-      Mer information om Adobe Platser finns i [Platsdokumentationen](https://experienceleague.adobe.com/docs/places/using/home.html).
+     Mer information om Adobe Platser finns i [Platsdokumentationen](https://experienceleague.adobe.com/docs/places/using/home.html).
+
    ![](assets/inapp_creating_4.png)
 
 1. Om du använder en **[!UICONTROL Analytics Events]**, Adobe Analytics- och View-statushändelser fylls i automatiskt baserat på de rapportsviter som konfigurerats i Analytics-tillägget i användargränssnittet för datainsamling, medan kontextdatahändelser måste läggas till manuellt.
@@ -160,7 +161,7 @@ När du är klar med leveransen och godkännandestegen har utförts kan du skick
 
 1. Mät effekten av dina Meddelanden i appen med leveransrapporter. Mer information om rapportering finns i [det här avsnittet](../../reporting/using/in-app-report.md).
 
-1. När du har skickat meddelanden i appen kan du välja att inaktivera leveransen. Detta kan vara användbart om du vill stoppa en viss leverans eller om du till exempel vill köra en ny leverans med samma utlösare.
+1. När du har skickat meddelanden i appen kan du välja att inaktivera leveransen. Detta kan vara användbart om du vill stoppa en viss leverans eller om du vill köra en ny leverans med samma utlösare.
 
    Klicka **[!UICONTROL Deactivate]** sedan **[!UICONTROL Ok]** för att starta avaktiveringsbegäran.
 

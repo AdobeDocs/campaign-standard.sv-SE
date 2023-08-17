@@ -20,7 +20,7 @@ Med Adobe Campaign kan du definiera och hantera behörigheter som tilldelats til
 * **Organisationsenheter**: Med dessa kan du definiera en hierarki av behörigheter för de olika objekten på plattformen (e-post, arbetsflöden, mallar, användare, profiler etc.).  Se avsnittet [Organisationsenheter](../../administration/using/organizational-units.md).
 * **Roller**: En uppsättning enhetsbehörigheter som gör att du kan definiera de behörigheter som tilldelats olika användare och användargrupper.  Se avsnittet [Lista med roller](../../administration/using/list-of-roles.md) .
 
-   I kombination med organisationsenheter ger roller användarna en filtrerad vy av gränssnittet och definierar deras åtkomst till de olika funktionerna.  Mer information om detta hittar du i [auktoriseringstabellen](../../administration/using/list-of-roles.md).
+  I kombination med organisationsenheter ger roller användarna en filtrerad vy av gränssnittet och definierar deras åtkomst till de olika funktionerna.  Mer information om detta hittar du i [auktoriseringstabellen](../../administration/using/list-of-roles.md).
 
 >[!IMPORTANT]
 >

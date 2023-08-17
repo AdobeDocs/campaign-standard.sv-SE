@@ -28,14 +28,14 @@ När du skapar ett e-postmeddelande eller en landningssida kan du välja att lä
 >Bilderna nedan visar hur du läser in ett befintligt innehåll med [E-postdesigner](../../designing/using/designing-content-in-adobe-campaign.md).
 
 1. Öppna e-postsidans eller landningssidans innehåll när du har skapat den.
-1. Klicka på hemikonen för att öppna **[!UICONTROL Email Designer]** hemsida.
+1. Klicka på hemikonen för att komma åt **[!UICONTROL Email Designer]** hemsida.
 
    ![](assets/des_loading_1.png)
 
 1. Välj källan för innehållet som du vill läsa in:
 
    * [Innehållsmallar](../../designing/using/using-reusable-content.md#content-templates): klicka på **[!UICONTROL Templates]** -fliken.
-   * [Innehåll från scratch](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch), för att börja om: klicka på **[!UICONTROL Create]** -knappen.
+   * [Innehåll från grunden](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch), för att börja om: klicka på **[!UICONTROL Create]** -knappen.
    * [Innehåll från datorn som en ZIP- eller HTML-fil](#importing-content-from-a-file): klicka på **[!UICONTROL Upload]** -knappen.
    * [Innehåll från en befintlig URL](#importing-content-from-a-url) (endast för e-post): klicka på **[!UICONTROL Import from URL]** -knappen.
 
@@ -87,9 +87,9 @@ Innan du importerar innehåll från en URL måste du kontrollera att det uppfyll
 * Av säkerhetsskäl är det bara URL:er som börjar med **[!UICONTROL https]** tillåts.
 * Kontrollera att alla resurser (bilder, CSS) är inställda i absoluta länkar och i HTTPS. Om du inte skickar e-postmeddelandet visas spegelsidan utan resurser. Här är ett exempel på en absolut länkdefinition:
 
-   ```
-   <a href="https://www.mywebsite.com/images/myimage.png">
-   ```
+  ```
+  <a href="https://www.mywebsite.com/images/myimage.png">
+  ```
 
 >[!NOTE]
 >
@@ -126,11 +126,11 @@ Följ stegen nedan för att hämta innehåll vid förberedelsetiden:
    >
    >I det här steget ska du inte ta hänsyn till HTML i innehållsredigeraren. Den kommer att hämtas under beredningsfasen.
 
-1. Om du vill förhandsgranska URL-innehållet som har hämtats öppnar du meddelandet när det har skapats och klickar sedan på knappen **[!UICONTROL Preview]** -knappen.
+1. Om du vill förhandsgranska URL-innehållet som har hämtats öppnar du meddelandet när det har skapats och klickar sedan på **[!UICONTROL Preview]** -knappen.
 
 Det går att anpassa den fjärr-URL som innehållet hämtas från. Följ stegen nedan för att göra detta:
 
-1. Klicka på e-postetiketten överst på skärmen för att komma åt e-postdesignern **[!UICONTROL Properties]** -fliken.
+1. Klicka på e-postetiketten ovanför skärmen för att komma åt e-postdesignern **[!UICONTROL Properties]** -fliken.
 1. Hitta **[!UICONTROL Remote URL]** fält.
 
    ![](assets/email_designer_importfromurl4.png)
@@ -163,7 +163,7 @@ När ett innehåll läses in i kompatibilitetsläge kan du fortfarande utföra f
 
 * Ändra texten eller ändra en bild
 * Infoga länkar och anpassningsfält
-* Redigera vissa formatalternativ i det markerade HTML-blocket
+* Redigera vissa formatalternativ på det markerade HTML-blocket
 * Definiera villkorligt innehåll
 
 ![](assets/email_designer_compatibility.png)
@@ -186,11 +186,11 @@ Det här är ett snabbt sätt att konvertera HTML-e-post till e-postdesignerkomp
 
 >[!CAUTION]
 >
->Det här avsnittet är avsett för avancerade användare som är bekanta med HTML-kod.
+>Det här avsnittet är avsett för avancerade användare som känner till HTML-kod.
 
 >[!NOTE]
 >
->Som i kompatibilitetsläget kan en HTML-komponent redigeras med begränsade alternativ: kan du bara utföra en utgåva på plats.
+>Kompatibilitetsläget är precis som kompatibilitetsläget redigerbart för en HTML-komponent med begränsade alternativ: du kan bara utföra en version på plats.
 
 Utanför e-postdesignern ser du till att den ursprungliga HTML är uppdelad i återanvändbara avsnitt.
 
@@ -219,7 +219,7 @@ Om så inte är fallet, klipper du ut de olika blocken från HTML. Exempel:
 När du har identifierat alla blocken i e-postdesignern upprepar du följande procedur för varje avsnitt i ditt befintliga e-postmeddelande:
 
 1. Öppna e-postdesignern för att skapa ett tomt e-postinnehåll.
-1. Ange attributen för innehållsnivå: bakgrundsfärger, bredd osv. Mer information finns i [Redigera e-postformat](../../designing/using/styles.md).
+1. Ange attribut för innehållsnivå: bakgrundsfärger, bredd osv. Mer information finns i [Redigera e-postformat](../../designing/using/styles.md).
 1. Lägg till en strukturkomponent. Mer information finns i [Redigera e-poststrukturen](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Lägg till en HTML-komponent. Mer information finns i [Lägga till fragment och komponenter](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Kopiera och klistra in HTML i den komponenten.
@@ -227,7 +227,7 @@ När du har identifierat alla blocken i e-postdesignern upprepar du följande pr
 
    Den responsiva vyn är bruten eftersom CSS saknas.
 
-1. Du åtgärdar detta genom att växla till källkodsläge och kopiera och klistra in formatavsnittet i ett nytt formatavsnitt. Exempel:
+1. Du åtgärdar detta genom att växla till källkodsläge och kopiera och klistra in stilavsnittet i ett nytt stilavsnitt. Exempel:
 
    ```
    <style type="text/css">
@@ -249,6 +249,5 @@ När du har identifierat alla blocken i e-postdesignern upprepar du följande pr
    >* `<style data-name="mediaIOS8" type="text/css">(##)</style>`
    >* `<style data-name="media-default-max-width-500px" type="text/css">(##)</style>`
    >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
-
 
 1. Gå tillbaka till mobilvyn för att kontrollera att ditt innehåll visas korrekt och spara ändringarna.

@@ -31,7 +31,7 @@ En testprofil innehåller fiktiv kontaktinformation, eller kontaktinformation so
 * Skicka **korrekturläsningar**: Korrekturläsningen är ett specifikt meddelande som används för att kontrollera meddelandet innan den slutliga leveransen skickas till mottagarna. En testprofil för korrekturläsning kontrollerar leveransens innehåll och format. Se [Skicka korrekturläsningar](../../sending/using/sending-proofs.md).
 * För **e-poståtergivning**: Testprofilen för e-poståtergivning används för att kontrollera hur ett meddelande visas i den mottagande meddelandeinkorgen. Exempel: webbpost, meddelandetjänst, mobil, o.s.v. Se [E-poståtergivning](../../sending/using/email-rendering.md).
 
-   Användningen av **E-poståtergivning** är skrivskyddat. Testprofiler med den här tillämpningen är bara tillgängliga i Adobe Campaign.
+  Användningen av **E-poståtergivning** är skrivskyddat. Testprofiler med den här tillämpningen är bara tillgängliga i Adobe Campaign.
 
 * Som en **Trap**: Meddelandet skickas till testprofilen på samma sätt som det skickas till huvudmålet. Se [Använda traps](../../sending/using/using-traps.md).
 * Så här **förhandsgranskar** du meddelanden: Du kan välja en testprofil när du förhandsgranskar ett meddelande för att testa anpassningselementen. Se [Förhandsvisa meddelanden](/help/sending/using/previewing-messages.md).
@@ -78,7 +78,7 @@ Så här redigerar du en testprofil och läser data som är kopplade till den, e
 
 1. Klicka på **[!UICONTROL Save]** om du har angett ändringarna eller markera namnet på testprofilen och sedan **[!UICONTROL Test profiles]** i avsnittet högst upp på skärmen för att gå tillbaka till kontrollpanelen för testprofiler.
 
-## Videokurs {#video}
+## Självstudievideo {#video}
 
 I den här videon visas hur du skapar en testprofil.
 

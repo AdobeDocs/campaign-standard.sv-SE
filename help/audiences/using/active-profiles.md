@@ -41,3 +41,4 @@ Längst ned på sidan visas måldimensionerna med antalet profiler för varje. M
 >[!NOTE]
 >
 >Som administratör kan du också övervaka antalet aktiva profiler som används på dina instanser direkt från Kontrollpanelen. Mer information finns i [Dokumentation för kontrollpanelen](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+>

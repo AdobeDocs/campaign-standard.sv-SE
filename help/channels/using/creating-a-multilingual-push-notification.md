@@ -21,17 +21,17 @@ ht-degree: 2%
 
 Anpassa innehållet i push-meddelanden genom att skicka meddelanden baserat på de språk och regioner användarna föredrar. Du kan importera innehållsvarianter för flerspråkiga push-meddelanden direkt i innehållsredigeraren och skicka ett flerspråkigt push-meddelande i en enda leverans.
 
-Den här funktionen utnyttjar antingen önskade språk som anges i mottagarnas profiler eller systemspråkinställningen för mobilappsprenumeranter beroende på leveransmallen som används för push-meddelanden. Om språkinställningen inte fylls i för en viss användare använder systemet standardvarianten som definieras när ett flerspråkigt push-meddelande skapas. Mer information om hur du hanterar profiler och prenumeranter finns i [guide](../../audiences/using/get-started-profiles-and-audiences.md).
+Den här funktionen utnyttjar antingen önskade språk som anges i mottagarnas profiler eller systemspråkinställningen för mobilappsprenumeranter beroende på leveransmallen som används för push-meddelanden. Om språkinställningen inte fylls i för en viss användare använder systemet standardvarianten som definieras när ett flerspråkigt push-meddelande skapas. Mer information om hur du hanterar profiler och prenumeranter finns i [stödlinje](../../audiences/using/get-started-profiles-and-audiences.md).
 
 ![](assets/multivariant_push_1.png)
 
 Följ de här stegen om du vill använda flerspråkiga innehållsvarianter för leverans av push-meddelanden:
 
-* [Steg 1: Överför variant av flerspråkigt innehåll](#step-1--upload-multilingual-content-variant)
+* [Steg 1: Överför flerspråkig innehållsvariant](#step-1--upload-multilingual-content-variant)
 * [Steg 2: Förhandsgranska och färdigställa ett push-meddelande med flerspråkiga innehållsvarianter](#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
 * [Steg 3: Skicka och analysera flerspråkig leverans av push-meddelanden](#step-3--send-and-analyze-multilingual-push-notification-delivery)
 
-## Steg 1: Överför variant av flerspråkigt innehåll {#step-1--upload-multilingual-content-variant}
+## Steg 1: Överför flerspråkig innehållsvariant {#step-1--upload-multilingual-content-variant}
 
 Innan vi personaliserar ditt flerspråkiga push-meddelande måste vi först överföra innehållsvarianterna i en flerspråkig leveransmall och skapa leveransen.
 
@@ -50,7 +50,7 @@ Innan vi personaliserar ditt flerspråkiga push-meddelande måste vi först öve
 
 1. I **[!UICONTROL Audiences]** fönster, dra och släpp frågor för att finjustera målgruppen.
 
-   Vilka frågor som läggs till beror på den valda mallen: om du valde **[!UICONTROL Send multilingual push to Campaign profiles]** -mallar kan du fråga kända mottagare av ditt mobilprogram. Om du väljer **[!UICONTROL Send multilingual push to app subscriber]** kan du fråga alla prenumeranter på ett visst program som har valt att använda.
+   Vilka frågor som läggs till beror på den valda mallen: om du väljer **[!UICONTROL Send multilingual push to Campaign profiles]** -mallar kan du fråga kända mottagare av ditt mobilprogram. Om du väljer **[!UICONTROL Send multilingual push to app subscriber]** -mall kan du fråga alla prenumeranter på ett visst program som har valt att använda.
    >[!NOTE]
    >
    >Om ni riktar er till målgrupper med specifika språk måste ni ange alla målspråk i CSV-filen.
@@ -92,7 +92,7 @@ Det går också att skapa och redigera fler varianter utöver de som har överf�
 
 1. Om ingen innehållsvariant har angetts för ett visst språk klickar du på klockikonen under förhandsvisningen för att börja lägga till innehåll i den här språkvarianten.
 
-   Genom att klicka på **[!UICONTROL Content]** -fönstret representerar push-meddelandet innehållet från det språk som valts i listrutan. Ändringar som görs i det här fönstret påverkar bara ett språk.
+   Klicka på **[!UICONTROL Content]** -fönstret representerar push-meddelandet innehållet från det språk som valts i listrutan. Ändringar som görs i det här fönstret påverkar bara ett språk.
 
 1. Du kan också klicka på en innehållsvariant för att anpassa den ytterligare, till exempel med personaliseringsfält.
 

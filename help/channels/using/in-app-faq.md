@@ -1,6 +1,6 @@
 ---
 title: Vanliga frågor i appen
-description: Vanliga frågor och svar om meddelanden i appen
+description: Frågor och svar om meddelanden i appen
 audience: channels
 content-type: reference
 topic-tags: in-app-messaging
@@ -33,7 +33,7 @@ Eftersom meddelanden i appen hämtas av SDK från Campaign vill vi ha en säker 
 * Fält som markerats som sådana kan bara användas i profilmallen (inte i AppSubscriber-mallen eller sändningsmallen) som har ytterligare inbyggda säkerhetsfunktioner.
 * Meddelanden som har skapats med hjälp av profilmallen kan bara hanteras när användaren har loggat in i appen.
 * För att underlätta denna säkra handskakning bör utvecklare av mobilappar skicka ytterligare autentiseringsinformation med API:t setLinkageField. Observera att länkningsfältet är det som identifieras som länken mellan mobilprofilen och CRM-profilen när du utökar tabellen appSubscriberRcp.
-* De bör tömma In-App-meddelanden som lagras på enheten och resetLinkagefält när användaren loggar ut från appen med resetLinkageField. Detta säkerställer att om en annan användare loggar in i appen, så ser han/hon inte meddelandena som är avsedda för en tidigare användare.
+* De bör tömma In-App-meddelanden som lagras på enheten och resetLinkagefält när användaren loggar ut från appen med resetLinkageField. Detta säkerställer att om en annan användare loggar in i appen, så ser han/hon inte de meddelanden som är avsedda för den tidigare användaren.
 * Se [Mobile SDK API:er](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/) för att implementera säkerhetsmekanismen på klientsidan.
 
 ## Vad måste jag göra för att aktivera rapportering i appen i Campaign? {#enable-inapp-reporting}
@@ -64,13 +64,13 @@ Nej, det stöds inte ännu.
 
 För varningsmeddelanden krävs minst en stängningsknapp (primär eller sekundär bör ha åtgärdsstängning). Annars går det att spara meddelandet, men det kommer inte att tas emot.
 
-## Om lokala meddelanden visas spelas iOS anpassade ljud inte upp; spelas standardljudet upp i stället? {#local-notification-sound}
+## Om lokala meddelanden visas spelas iOS anpassade ljud inte upp, spelas standardljudet upp i stället? {#local-notification-sound}
 
 För anpassat ljud på iOS måste du ange ett filnamn med filnamnstillägget när du skapar ett lokalt meddelande (till exempel sound.caf). Om det här tillägget inte anges används standardljudet.
 
 ## Stöds deplinks i meddelanden i appen? {#inapp-deeplinks}
 
-Ja, deplinks stöds i meddelanden i appen. Deeplinks ska innehålla:
+Ja, e-postmeddelanden stöds i appar. Deeplinks ska innehålla:
 
 * språk som anger att leveransspårning måste inaktiveras för att länkarna ska fungera.
 * Appsflyer with Branch as partners that can do the deplink tracking. Mer information om integrationen mellan grenar och Adobe Campaign Standard finns i [page](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
@@ -81,7 +81,7 @@ Ja, de här meddelandena kallas även för meddelanden i kedjan. Följ processen
 
 1. Skapa ett meddelande i appen.
 
-1. Definiera en anpassad händelse och markera den som en händelseutlösare för denna IAM, t.ex. &quot;Trigger från fall-förhandsvisning Push&quot;.
+1. Definiera en anpassad händelse och markera den som en händelseutlösare för denna IAM (In-Design), t.ex.&quot;Trigger from fall preview Push&quot; (Utlös från förhandsgranskning av fall)&quot;.
 
 1. När du skapar ditt push-meddelande definierar du en anpassad variabel vars värde kan anges som en händelse som används för att utlösa IAM, t.ex. Key = &quot;inappkey&quot; och value = &quot;Trigger from fall preview Push&quot;.
 

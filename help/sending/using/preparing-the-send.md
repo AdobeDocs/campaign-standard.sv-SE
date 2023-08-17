@@ -23,7 +23,7 @@ Förberedelsen motsvarar steget att beräkna målpopulationen och generera medde
 
    ![](assets/preparing_delivery_2.png)
 
-1. The **[!UICONTROL Deployment]** -blocket visar förloppet för förberedelsen och sedan färdigställandestatistiken: antal riktade meddelanden, antal meddelanden som ska skickas osv.
+1. The **[!UICONTROL Deployment]** -blocket visar förloppet för förberedelsen och sedan beredningsstatistiken: antal målmeddelanden, antal meddelanden som ska skickas osv.
 
    Beroende på storleken på målpopulationen kan den här åtgärden ta en stund.
 
@@ -45,13 +45,13 @@ Förberedelsen motsvarar steget att beräkna målpopulationen och generera medde
 
 1. The **[!UICONTROL Deployment]** öppnas, korrigerar eventuella fel och startar sedan om förberedelsen.
 
-   I det sista loggmeddelandet visas eventuella felmeddelanden och antalet fel. En specifik ikon visar den påträffade feltypen: Om den gula ikonen anger ett icke-kritiskt bearbetningsfel visas ett kritiskt fel som gör att leveransen inte kan startas.
+   I det sista loggmeddelandet visas eventuella felmeddelanden och antalet fel. En specifik ikon visar den påträffade feltypen: den gula ikonen anger ett icke-kritiskt bearbetningsfel, den röda ikonen anger ett kritiskt fel som gör att leveransen inte kan startas.
 
    ![](assets/preparing_delivery_3.png)
 
 1. Kontrollera färdigställandestatistiken innan du bekräftar att meddelandena skickas. Om antalet meddelanden som ska skickas inte motsvarar din konfiguration redigerar du målpopulationen (se [Välja en målgrupp i ett meddelande](../../audiences/using/selecting-an-audience-in-a-message.md)) och starta om preparatet.
 
-När färdigställandet är klart är ditt meddelande klart att skickas. Mer information finns i [Bekräfta sändning](../../sending/using/confirming-the-send.md).
+När färdigställandet är klart är ditt meddelande klart att skickas. Mer information finns i [Bekräftar sändning](../../sending/using/confirming-the-send.md).
 
 **Regler för typologi**
 
