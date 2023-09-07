@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Hjälpcenter för de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som behövs för att använda Campaign Standard.
 title: Användarhandbok för Campaign Standard
 breadcrumb-title: Dokumentation om Adobe Campaign Standard
-source-git-commit: 957064f708390c33a3295ed7d107cc9c488be875
-workflow-type: tm+mt
-source-wordcount: '1812'
+source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
+workflow-type: ht
+source-wordcount: '1756'
 ht-degree: 100%
 
 ---
@@ -274,18 +274,6 @@ ht-degree: 100%
       + [Kom igång med källor och destinationer](integrating/using/get-started-sources-destinations.md)
       + [Mata in målgrupper från Adobe Experience Platform i Campaign](integrating/using/ingest-aep-data.md)
       + [Exportera data från Campaign till Adobe Experience Platform](integrating/using/export-campaign-data.md)
-         + Tjänsten Målgruppsdestinationer (beta) {#audience-destinations}
-            + [Om tjänsten Målgruppsdestinationer](integrating/using/aep-about-audience-destinations-service.md)
-            + [Hantera Adobe Experience Platform-målgrupper](integrating/using/aep-managing-audiences.md)
-            + [Använda Segment Builder](integrating/using/aep-using-segment-builder.md)
-            + [Målinrikta Adobe Experience Platform-målgrupper ](integrating/using/aep-targeting-audiences.md)
-            + [Personalisera kampanjer med Adobe Experience Platform-attribut](integrating/using/aep-personalizing-campaigns.md)
-         + Datakoppling med Adobe Experience Platform (beta) {#data-connector}
-            + [Om datakoppling med Adobe Experience Platform](integrating/using/aep-about-data-connector.md)
-            + [Översikt över datamodellen i Experience Platform](integrating/using/aep-data-model-overview.md)
-            + [Mappningsdefinition](integrating/using/aep-mapping-definition.md)
-            + [Aktivera mappning](integrating/using/aep-mapping-activation.md)
-            + [Utlösa datainmatning via API:er](integrating/using/aep-triggering-data-ingestion.md)
 + Hantera processer och data {#managing-processes-and-data}
    + [Kom igång med data- och processhantering](automating/using/get-started-workflows.md)
    + Allmänt om arbetsflöden {#workflow-general-operation}
@@ -517,3 +505,4 @@ ht-degree: 100%
       + [Uppdatera attribut för en geografisk enhet](api/using/updating-geographical-unit-attributes.md)
    + [Felsöka](api/using/troubleshooting.md)
 + [Kontrollpanelen i Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=sv)
+
