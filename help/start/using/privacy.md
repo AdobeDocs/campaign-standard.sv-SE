@@ -13,10 +13,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
-source-git-commit: 013293fce8a923e771e10585c41e4ad482003080
+source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
 workflow-type: tm+mt
-source-wordcount: '1424'
-ht-degree: 100%
+source-wordcount: '1418'
+ht-degree: 96%
 
 ---
 
@@ -87,7 +87,7 @@ Den [viktigaste lagstiftningen](#privacy-regulations) avser de olika enheter som
 
 Som företag som samlar in och delar personuppgifter är du den personuppgiftsansvarige, dina kunder är de registrerade och Adobe Campaign fungerar som personuppgiftsbiträde när vi hanterar deras personuppgifter enligt dina anvisningar. Observera att det är ditt ansvar som personuppgiftsansvarige att hantera relationen med de registrerade såsom vid hantering av [förfrågningar om användarens information](#privacy-requests).
 
-När ni integrerar Campaign med andra Experience Cloud-lösningar där målgrupper kan överföras från ett system till ett annat såsom [tjänsten Målgruppsdestinationer](../../integrating/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager eller People core service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md) eller med andra lösningar såsom [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md) måste ni vara extra noga med att skydda personuppgifter.
+När Campaign integreras med andra Experience Cloud-lösningar där målgrupper kan överföras från ett system till ett annat, [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager eller People core service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)eller med andra lösningar som [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)måste ni vara extra noga med att skydda personuppgifter.
 
 ## Datainsamling {#data-acquisition}
 

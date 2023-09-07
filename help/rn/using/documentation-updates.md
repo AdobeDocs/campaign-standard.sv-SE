@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
 workflow-type: tm+mt
-source-wordcount: '7224'
+source-wordcount: '7214'
 ht-degree: 100%
 
 ---
@@ -120,7 +120,7 @@ Avsnittet som innehåller de viktigaste stegen för att skicka ett meddelande ha
 
 Information har lagts till för att specificera att när man väljer en målgrupp i en fråga, kopieras dess definition istället för att refereras. [Läs mer](../../audiences/using/selecting-an-audience-in-a-message.md)
 
-Information om tjänsten målgruppsdestinationer och Adobe Experience Platform Data Connector har grupperats om till ett nytt avsnitt. [Läs mer](../../integrating/using/aep-about-audience-destinations-service.md)
+Information om tjänsten målgruppsdestinationer och Adobe Experience Platform Data Connector har grupperats om till ett nytt avsnitt.
 
 **Deklarerad** ID-datakälla kan nu även användas med integreringen av den grundläggande tjänsten People. Information har lagts till i integreringsdokumentationen om de grundläggande tjänsterna Campaign-Audience Manager eller People. [Läs mer](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
@@ -178,7 +178,7 @@ Avsnittet **Sekretess** har flyttats och utökats med två nya sidor: [Integrite
 
 Avsnittet **Transaktionella meddelanden** har organiserats om och samlats på en plats för förbättrad navigering. [Läs mer](../../channels/using/getting-started-with-transactional-msg.md)
 
-Information har lagts till i avsnittet Adobe Experience Platform Data Connector om valideringsfel gällande datakartläggning som rör integritetshantering och felsökning av detta. [Läs mer](../../integrating/using/aep-mapping-activation.md)
+Information har lagts till i avsnittet Adobe Experience Platform Data Connector om valideringsfel gällande datakartläggning som rör integritetshantering och felsökning av detta.
 
 ## Version 20.4 – oktober 2020 {#release-20-4---october-2020}
 
@@ -280,7 +280,7 @@ Integreringen av Microsoft Dynamics 365 med Adobe Campaign Standard-dokumentatio
 
 Ytterligare resurser har lagts till på startsidan för dokumentationen. [Läs mer](../../campaign-standard-home.md)
 
-Information om Experience Cloud ID Service (ECID) har lagts till i dokumentationen för Adobe Experience Platform Data Connector. [Läs mer](../../integrating/using/aep-about-data-connector.md#key-concepts)
+Information om Experience Cloud ID Service (ECID) har lagts till i dokumentationen för Adobe Experience Platform Data Connector.
 
 Avsnittet Transaktionsmeddelanden har förbättrats med information om hur man får tillgång till de senaste transaktionshändelserna och uppdaterade skärmbilder. [Läs mer](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
@@ -344,11 +344,11 @@ Information har lagts till om de **[!UICONTROL History in days field]** tillgän
 
 ## Version 20.1 – februari 2020 {#release-20-1---february-2020}
 
-**Nya funktioner i utgåvan**
+**Nya funktioner i denna version**
 
-Adobe Experience Platform Data Connector (beta) - [läs mer](../../integrating/using/aep-about-data-connector.md)
+Datakoppling med Adobe Experience Platform (beta)
 
-Audience Destinations (beta) - [Läs mer](../../integrating/using/aep-about-audience-destinations-service.md)
+Målgruppsdestinationer (beta)
 
 **Andra dokumentationsuppdateringar som medföljer utgåvan**
 
