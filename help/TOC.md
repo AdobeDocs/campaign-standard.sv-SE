@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Hjälpcenter för de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som behövs för att använda Campaign Standard.
 title: Användarhandbok för Campaign Standard
 breadcrumb-title: Dokumentation om Adobe Campaign Standard
-source-git-commit: d7e0912dd7d19a1f5dd2172235f28a40e130cac1
-workflow-type: tm+mt
-source-wordcount: '1818'
+source-git-commit: 957064f708390c33a3295ed7d107cc9c488be875
+workflow-type: ht
+source-wordcount: '1812'
 ht-degree: 100%
 
 ---
@@ -271,22 +271,21 @@ ht-degree: 100%
          + [Mappa data mellan Microsoft Dynamics 365 och Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [Använda integreringen av Microsoft Dynamics 365](integrating/using/d365-acs-using-the-integration.md)
    + Campaign och Adobe Experience Platform {#adobe-experience-platform}
-      + Källor och destinationer i Adobe Experience Platform {#aep-sources-destinations}
-         + [Kom igång med källor och destinationer](integrating/using/get-started-sources-destinations.md)
-         + [Mata in målgrupper från Adobe Experience Platform i Campaign](integrating/using/ingest-aep-data.md)
-         + [Exportera data från Campaign till Adobe Experience Platform](integrating/using/export-campaign-data.md)
-      + Tjänsten Målgruppsdestinationer (beta) {#audience-destinations}
-         + [Om tjänsten Målgruppsdestinationer](integrating/using/aep-about-audience-destinations-service.md)
-         + [Hantera Adobe Experience Platform-målgrupper](integrating/using/aep-managing-audiences.md)
-         + [Använda Segment Builder](integrating/using/aep-using-segment-builder.md)
-         + [Målinrikta Adobe Experience Platform-målgrupper ](integrating/using/aep-targeting-audiences.md)
-         + [Personalisera kampanjer med Adobe Experience Platform-attribut](integrating/using/aep-personalizing-campaigns.md)
-      + Datakoppling med Adobe Experience Platform (beta) {#data-connector}
-         + [Om datakoppling med Adobe Experience Platform](integrating/using/aep-about-data-connector.md)
-         + [Översikt över datamodellen i Experience Platform](integrating/using/aep-data-model-overview.md)
-         + [Mappningsdefinition](integrating/using/aep-mapping-definition.md)
-         + [Aktivera mappning](integrating/using/aep-mapping-activation.md)
-         + [Utlösa datainmatning via API:er](integrating/using/aep-triggering-data-ingestion.md)
+      + [Kom igång med källor och destinationer](integrating/using/get-started-sources-destinations.md)
+      + [Mata in målgrupper från Adobe Experience Platform i Campaign](integrating/using/ingest-aep-data.md)
+      + [Exportera data från Campaign till Adobe Experience Platform](integrating/using/export-campaign-data.md)
+         + Tjänsten Målgruppsdestinationer (beta) {#audience-destinations}
+            + [Om tjänsten Målgruppsdestinationer](integrating/using/aep-about-audience-destinations-service.md)
+            + [Hantera Adobe Experience Platform-målgrupper](integrating/using/aep-managing-audiences.md)
+            + [Använda Segment Builder](integrating/using/aep-using-segment-builder.md)
+            + [Målinrikta Adobe Experience Platform-målgrupper ](integrating/using/aep-targeting-audiences.md)
+            + [Personalisera kampanjer med Adobe Experience Platform-attribut](integrating/using/aep-personalizing-campaigns.md)
+         + Datakoppling med Adobe Experience Platform (beta) {#data-connector}
+            + [Om datakoppling med Adobe Experience Platform](integrating/using/aep-about-data-connector.md)
+            + [Översikt över datamodellen i Experience Platform](integrating/using/aep-data-model-overview.md)
+            + [Mappningsdefinition](integrating/using/aep-mapping-definition.md)
+            + [Aktivera mappning](integrating/using/aep-mapping-activation.md)
+            + [Utlösa datainmatning via API:er](integrating/using/aep-triggering-data-ingestion.md)
 + Hantera processer och data {#managing-processes-and-data}
    + [Kom igång med data- och processhantering](automating/using/get-started-workflows.md)
    + Allmänt om arbetsflöden {#workflow-general-operation}
