@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7214'
 ht-degree: 100%
 
@@ -346,7 +346,7 @@ Information har lagts till om de **[!UICONTROL History in days field]** tillgän
 
 **Nya funktioner i denna version**
 
-Datakoppling med Adobe Experience Platform (beta)
+Adobe Experience Platform Data Connector (beta)
 
 Målgruppsdestinationer (beta)
 
