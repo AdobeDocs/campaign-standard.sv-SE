@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 362f1f6605bc9667a80cddf2bd1bef4338cda31a
+source-git-commit: a15959b34979678e6ed53758e0ba5a00401a765b
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 100%
+source-wordcount: '426'
+ht-degree: 95%
 
 ---
 
@@ -25,11 +25,15 @@ Uppgraderingar distribueras i två faser. För det första uppgraderas stadieins
 
 Alla versionsdatum kan ändras: besöka den här sidan regelbundet för att söka efter uppdateringar.
 
-## Version 23.1 – vår-/sommarversion 2023 {#release-23-1-release}
+## Version 23.2 – höst-/vinterversion 2023 {#release-23-2-release}
 
 Miljöuppdateringar sker stegvis under de angivna tidsramarna nedan. Exakta datum meddelas till varje kund via e-post.
 
-Detaljerad information om den här versionen finns i [Versionsinformationen](release-notes.md).
+>[!AVAILABILITY]
+>
+>Den här versionen är endast tillgänglig för en uppsättning organisationer (begränsad tillgänglighet). Kontakta din Adobe-representant om du vill veta mer.
+
+<!--Detailed information about this release is available in the [Release Notes](release-notes.md).-->
 
 <table>
  <thead>
@@ -41,11 +45,11 @@ Detaljerad information om den här versionen finns i [Versionsinformationen](rel
  <tbody>
   <tr>
    <td>Stadie </td>
-   <td>11 april 2023 – juli 2023 </td>
+   <td>3-9 oktober 2023 </td>
   </tr>
   <tr>
    <td>Produktion </td>
-   <td>18 april 2023 – juli 2023 </td>
+   <td>12-18 oktober 2023 </td>
   </tr>
  </tbody>
 </table>
