@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 1437559bc1310e8daadcdeeb1a3874e673bff75f
+source-git-commit: 637ec6d0f98be7b76ed3f26821a9f66541503ca6
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '250'
 ht-degree: 19%
 
 ---
@@ -31,9 +31,9 @@ Den här sidan beskriver förbättringar och korrigeringar som ingår i nästa v
 
 ### Förbättringar {#e-rn-improvements}
 
-* **Integrering med Adobe Experience Manager**. När du skapar en leveransmall för transaktionsmeddelanden i Adobe Experience Manager kan du nu anpassa meddelandet genom att markera och använda de anpassningsfält som definieras i Campaign Standarden. En ny listruta finns i Adobe Experience Manager.
+* **Integrering med Adobe Experience Manager**. När du skapar en anpassad leveransmall för transaktionsmeddelanden i Adobe Experience Manager kan du nu markera och använda de anpassningsfält som definieras i Campaign Standard i en listruta.
 
-* **Cookie-förfallodatum** - Standardförfallotiden för cookie är nu inställd på 6 månader, för att anpassas till den franska förordningen.
+* **Cookie-förfallodatum** - Standardförfallotiden för cookie är nu inställd på 6 månader, i linje med rekommendationerna från den franska dataskyddsmyndigheten (CNIL).
 
 * **Förbättrad profilsökning** - Profilsökningen har optimerats så att timeoutscenarier för sökningar kan minskas
 
