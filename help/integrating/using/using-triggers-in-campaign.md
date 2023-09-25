@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: cf2ded703e53d6db27e62712734f7ea846da9a21
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 79%
+source-wordcount: '740'
+ht-degree: 78%
 
 ---
 
@@ -23,11 +23,9 @@ ht-degree: 79%
 >
 >Om du vill skapa utlösare måste du ha **[!UICONTROL Administration]** eller vara med i **[!UICONTROL Administrators]** säkerhetsgrupp. Mer information finns i [page](../../administration/using/list-of-roles.md).
 
-Du ska se till att definiera de beteenden som du vill övervaka i förväg i Adobe Experience Cloud (**[!UICONTROL Triggers]**-bastjänst). Mer information finns i dokumentationen för [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html). Observera att när du definierar utlösaren måste du aktivera aliasen. För varje beteende (surfning/formulärborttagning, tillägg/borttagning av produkter, session har gått ut, o.s.v.) måste en ny utlösare läggas till i Adobe Experience Cloud.
+Du ska se till att definiera de beteenden som du vill övervaka i förväg i Adobe Experience Cloud (**[!UICONTROL Triggers]**-bastjänst). Mer information finns i dokumentationen för [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html). Observera att när du definierar utlösaren måste du aktivera aliasen. För varje beteende (surfning/formulärborttagning, tillägg/borttagning av produkter, session har gått ut, o.s.v.) måste en ny utlösare läggas till i Adobe Experience Cloud.
 
 Nu måste du skapa en utlösande händelse i Adobe Campaign baserat på en befintlig Adobe Experience Cloud-utlösare.
-
-Den här [videon](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) hjälper dig att förstå hur utlösare konfigureras i Adobe Campaign.
 
 Stegen för att implementera detta är:
 

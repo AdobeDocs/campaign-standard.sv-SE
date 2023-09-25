@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: 5a7e48da3d62b186f96cd7451fb5a7b2cf94e09c
+source-git-commit: cf2ded703e53d6db27e62712734f7ea846da9a21
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 7%
+source-wordcount: '842'
+ht-degree: 6%
 
 ---
 
@@ -95,7 +95,7 @@ En Adobe Experience Cloud-utlösare måste skapas så att du kan använda den i 
 
 Skapa en ny utlösare i Experience Cloud och se till att du väljer den rapportsvit som används på webbplatsen. Se till att du väljer rätt dimension så att utlösaren aktiveras.
 
-Se [Adobe Experience Cloud-dokumentation](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html) och se det här [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
+Se [Adobe Experience Cloud-dokumentation](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html).
 
 ## Utlöser bästa praxis och begränsningar {#triggers-best-practices-and-limitations}
 
