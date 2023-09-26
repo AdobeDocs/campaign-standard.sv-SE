@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: a15959b34979678e6ed53758e0ba5a00401a765b
+source-git-commit: 668412b6385aafcaf8bb55096758731b8076666a
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 95%
+source-wordcount: '438'
+ht-degree: 92%
 
 ---
 
@@ -33,7 +33,7 @@ Miljöuppdateringar sker stegvis under de angivna tidsramarna nedan. Exakta datu
 >
 >Den här versionen är endast tillgänglig för en uppsättning organisationer (begränsad tillgänglighet). Kontakta din Adobe-representant om du vill veta mer.
 
-<!--Detailed information about this release is available in the [Release Notes](release-notes.md).-->
+Detaljerad information om den här versionen finns i [Tidig versionsinformation](e-release-notes.md).
 
 <table>
  <thead>
