@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 668412b6385aafcaf8bb55096758731b8076666a
+source-git-commit: b1158d718cd799914e46f53947e840b1af8c7a37
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 19%
+source-wordcount: '192'
+ht-degree: 25%
 
 ---
 
@@ -45,6 +45,3 @@ Den här sidan beskriver förbättringar och korrigeringar som ingår i nästa v
 
   Dessa ändringar kommer gradvis att införas i nästa version av användargränssnittet och dokumentationen.
 
-* **Integrering med Adobe Experience Cloud Triggers** - Det nya användargränssnittet för Experience Cloud-utlösare är nu tillgängligt. Det ger en intuitiv upplevelse för att hantera konsumentbeteenden och personalisera användarupplevelser. Adobe Experience Cloud Triggers nya användargränssnitt introduceras stegvis för alla kunder mellan 11 och 16 oktober 2023.
-
-  Läs mer om Adobe Campaign och Experience Cloud Triggers på [den här sidan](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.

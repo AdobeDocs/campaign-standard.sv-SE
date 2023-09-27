@@ -5,16 +5,29 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
-workflow-type: ht
-source-wordcount: '7214'
-ht-degree: 100%
+source-git-commit: b1158d718cd799914e46f53947e840b1af8c7a37
+workflow-type: tm+mt
+source-wordcount: '7263'
+ht-degree: 98%
 
 ---
 
 # Dokumentationsuppdateringar{#documentation-updates}
 
 Förutom [versionsinformationen](../../rn/using/release-notes.md) för Adobe Campaign listas alla nya uppdateringar i dokumentationen för Adobe Campaign Standard på den här sidan.
+
+<!--## Release 23.2 - Fall/Winter 2023 {#release-23-2}
+
+Release notes for Campaign Standard 23.2 Fall/Winter 2023 release have been published. [Read more](release-notes.md)-->
+
+## September 2023 {#doc-updates-sept-2023}
+
+* Det nya användargränssnittet för Experience Cloud-utlösare är nu tillgängligt. Det ger en intuitiv upplevelse för att hantera konsumentbeteenden och personalisera användarupplevelser. [Läs mer](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
+
+## Version 23.1 - Våren/sommaren 2023 {#release-23-1}
+
+Versionsinformation för Campaign Standard 23.1, utgåva våren/sommaren 2023, har publicerats. [Läs mer](release-notes.md)
+
 
 ## November 2022 {#doc-updates-november-2022}
 
@@ -24,7 +37,7 @@ Information har lagts till på sidan för arbetsflödesaktivitet **[!UICONTROL E
 
 ## Version 22.3 – höst/vinter 2022 {#release-22-3}
 
-Versionsinformation för Campaign Standard 22.3 höst-/vinterversionen har publicerats. [Läs mer](release-notes.md)
+Versionsinformation för Campaign Standard 22.3 höst/vinter 2022 har publicerats. [Läs mer](release-notes.md)
 
 <!--Data retention periods have been updated to reflect changes coming with 22.3 release. [Read more](../../administration/using/data-retention.md)-->
 
@@ -226,7 +239,7 @@ Ett nytt avsnitt har lagts till med riktlinjer gällande att övervaka Campaign 
 
 Avsnittet Externt API-skydd och -begränsningar har uppdaterats. [Läs mer](../../automating/using/external-api.md#guardrails)
 
-Sidan Översikt över integritetshantering har uppdaterats med information om Thailands lag för persondataskydd (PDPA) och Brasiliens Lei Geral de Proteção de Dados (LGPD). [Läs mer](https://helpx.adobe.com/se/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+Sidan Sekretesshanteringsöversikt har uppdaterats med information om Thailands lag för skydd av personuppgifter (PDPA) och Brasiliens Lei Geral de Proteção de Dados (LGPD). [Läs mer](https://helpx.adobe.com/se/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
 Guiden om mobila kanaler har omstrukturerats och förbättrats. En ny guide vid namn Konfigurera mobila kanaler har lagts till med teknisk dokumentation om mobil konfiguration. [Läs mer](../../administration/using/push-tracking.md)
 
@@ -396,7 +409,7 @@ Kom igång-guiden om hur du exporterar/importerar anpassade resurser har integre
 
 Ett nytt användningsexempel har lagts till som beskriver hur du skapar en kontrollgrupp med hjälp av ett arbetsflöde i Campaign Standard.
 
-Information om landningssidornas egenskaper har flyttats till ett dedikerat avsnitt. [Läs mer](../../channels/using/configuring-landing-page.md)
+Information om landningssidornas egenskaper har flyttats till ett särskilt avsnitt. [Läs mer](../../channels/using/configuring-landing-page.md)
 
 Kontrollpanelens dokumentation har integrerats i den nya dokumentationsuppsättningen för samarbete. [Läs mer](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=sv)
 
@@ -484,7 +497,7 @@ En uppsättning nya hjälpartiklar har skapats för implementering och användni
 
 En anteckning har lagts till i avsnittet [Anropa ett arbetsflöde med parametrar](../../automating/using/calling-a-workflow-with-external-parameters.md) om leveransförberedelse och deras aggregeringsperiod.
 
-Information har lagts till om hur du anpassar en leveransetikett med händelsevariabler som har deklarerats i arbetsflödets externa signalaktivitet. [Läs mer](../../automating/using/external-signal.md)
+Information lades till om hur du anpassar en leveransetikett med händelsevariabler som har deklarerats i arbetsflödets externa signalaktivitet. [Läs mer](../../automating/using/external-signal.md)
 
 Ett nytt avsnitt har lagts till som beskriver hur du skapar en användare i Adobe Campaign Standard. [Läs mer](../../administration/using/users-management.md)
 
@@ -770,7 +783,7 @@ Lagt till information om loggtyper för spårning. [Läs mer](../../sending/usin
 
 Förfrågningsaktivitets-avsnittet har uppdaterats med förfrågningsexempel. [Läs mer](../../automating/using/query.md#query-samples)
 
-Avsnittet om blockeringslistor har fått namnet ”Om anmälnings- och avanmälningsprocesser”. Det har uppdaterats med information om hur man hanterar anmälan till specifika kanaler och hur man ställer in landningssidor för att hantera anmälan och avanmälan. [Läs mer](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+Avsnittet som handlar om blockeringslista har bytt namn till&quot;Förstå avanmälnings- och avanmälningsprocesser&quot;. Det har uppdaterats med information om hur man hanterar anmälan till specifika kanaler och hur man ställer in landningssidor för att hantera anmälan och avanmälan. [Läs mer](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Lär dig bästa praxis för att använda Adobes värdservrar för SFTP-servrar. [Läs mer](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -1012,7 +1025,7 @@ Nu finns en ny teknik: &quot;Integrera Adobe Mobile SDK med mobilappen&quot;. [L
 
 Instruktioner för att konfigurera People core service eller Audience Manager integration med Adobe Campaign har lagts till. [Läs mer](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-Behörighetstabellen har reviderats för att tydliggöra vissa rollers funktion. [Läs mer](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
+Auktoriseringstabellen har reviderats för att göra vissa rollers funktion tydligare. [Läs mer](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Uppdatering av sammanhangsbaserade hjälplänkar som är tillgängliga direkt i Adobe Campaign.
 
