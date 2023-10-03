@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
-source-git-commit: 362f1f6605bc9667a80cddf2bd1bef4338cda31a
+source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
 workflow-type: tm+mt
 source-wordcount: '1201'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -43,7 +43,7 @@ Den här versionen innehåller följande säkerhetsuppgradering: Apache Tomcat h
 * **Optimization in Workflow startup** - Adobe has added a new capability which can tune the number of workflows that start around the same time. This would help prevent CPU spikes that could have led to service interruptions or downtime. Adobe would enable it after 22.2 release. There is no further action item on customer regarding the same.
 -->
 
-* **Tillgänglighet** – Adobe har gjort många tillgänglighetskorrigeringar för att förbättra programmets övergripande användarvänlighet. Dessa funktioner är för närvarande bara aktiverade för en uppsättning tidiga användare och kommer att introduceras för alla kunder i framtida versioner. Exempel på tillgänglighetsförbättringar inkluderar:
+* **Tillgänglighet** - Adobe har gjort många tillgänglighetskorrigeringar för att förbättra programmets övergripande användarvänlighet. Dessa funktioner är för närvarande bara aktiverade för en uppsättning tidiga användare och kommer att introduceras för alla kunder i framtida versioner. Exempel på tillgänglighetsförbättringar inkluderar:
 
    * Kontrollera att det finns en synlig fokusindikator för fokuserbara element på varje skärm
    * Skapa landmärken för sidor för enklare navigering
@@ -111,8 +111,8 @@ Den här versionen innehåller följande säkerhetsuppgradering: Apache Tomcat h
 * Återförsöksmekanismen har förbättrats för leveranser, inklusive innehåll som importerats från en URL, för att åtgärda olika problem. [Läs mer](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time) (CAMP-48888)
 * Åtgärdade ett problem som uppstod efter att ett nytt filter skapades i en anpassad resurs och sedan användes som en avstämningsnyckel på en landningssida. Om den anpassade resursen publicerades igen togs filtret bort från listan över tillgängliga avstämningsnycklar för landningssidan. (CAMP-49516)
 * Åtgärdade ett problem på landningssidor vid användning av dynamiska villkor med kryssrutor. (CAMP-48604)
-* Fixade ett problem som uppstod i en **Fråga**-aktivitet när filtervillkoret &quot;On or before October&quot; användes. När du arbetade från en instans inställd på en europeisk tidszon visade den valda månaden för filtret september i stället för oktober på grund av ett problem när tidszonen konverterades. (CAMP-48602)
+* Ett problem som uppstod i en **Fråga** aktivitet när filtervillkoret &quot;På eller före oktober&quot; används. När du arbetade från en instans inställd på en europeisk tidszon visade den valda månaden för filtret september i stället för oktober på grund av ett problem när tidszonen konverterades. (CAMP-48602)
 * För att optimera leveransmöjligheterna skickar Adobe Campaign nu e-postmeddelanden med 7-bitars kodning i stället för 8-bitars. Detta förhindrar mellanliggande reläer från att ogiltigförklara DKIM-signaturen, vilket kan påverka meddelandenas äkthet. (CAMP-49016)
 * Prestanda vid duplicering av målgrupper har förbättrats för att undvika problem när man arbetar med stora målgrupper. (CAMP-49639)
 * Åtgärdade ett problem som kunde hindra ett anpassat filter från att visa rätt resultat när det användes i en **Fråga**-aktivitet. (CAMP-49417)
-* Åtgärdade ett fel som visade ett felmeddelande när ett fragment skulle användas i en leverans med kommatecken i namnet. Problemet har åtgärdats, kommatecken kan nu användas i fragmentnamn. (CAMP-49216)
+* Åtgärdade ett fel som visade ett felmeddelande när ett fragment skulle användas i en leverans med kommatecken i namnet. Problemet har lösts, kommatecken kan nu användas i fragmentnamn. (CAMP-49216)

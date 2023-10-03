@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: f9bd5901d68c09ba20d5d48d263f4818c2e1e86a
+source-git-commit: c1271bc0128c583e9b39ef98a422487e1df20fce
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 100%
+source-wordcount: '452'
+ht-degree: 59%
 
 ---
 
@@ -16,6 +16,40 @@ ht-degree: 100%
 # Senaste versionen{#latest-release}
 
 ![Kontrollpanelen](assets/do-not-localize/cp-icon.png) **Ny version av Kontrollpanelen**. [Läs mer](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=sv){target="_blank"}.
+
+
+
+## Version 23.2 – höst-/vinterversion 2023 {#fall-23}
+
+>[!AVAILABILITY]
+>
+>Den här versionen är endast tillgänglig för en uppsättning organisationer (begränsad tillgänglighet). Kontakta din Adobe-representant om du vill veta mer.
+
+### Förbättringar {#fall-23-rn-improvements}
+
+* **Integrering med Adobe Experience Manager**. När du skapar en anpassad leveransmall för transaktionsmeddelanden i Adobe Experience Manager kan du nu markera och använda de anpassningsfält som definieras i Campaign Standard i en listruta. [Läs mer](../../integrating/using/creating-email-experience-manager.md)
+
+* **Cookie-förfallodatum** - Standardförfallotiden för cookie är nu inställd på 6 månader, i linje med rekommendationerna från den franska dataskyddsmyndigheten (CNIL).
+
+* **Förbättrad profilsökning** - Profilsökningen har optimerats så att timeoutscenarier för sökningar kan minskas
+
+* **Lokalisering** - Översättningarna av termen&quot;publik&quot; när de avser en grupp profiler som är avsedda att ta emot ett meddelande harmoniserades för alla Digital Experience-produkter för följande språk:
+
+   * Tyska: Zielgruppe
+   * Brasiliansk portugisiska: público-alvo
+   * Spanska: público destinatario
+
+  Dessa ändringar kommer gradvis att införas i nästa version av användargränssnittet och dokumentationen.
+
+
+### Andra ändringar {#fall-23-rn-other-changes}
+
+* Transactional Messaging har nu stöd för användning av flera kommaavgränsade tillhörigheter.
+
+### Korrigeringar {#fall-23-rn-fixes}
+
+* Korrigerade en regression som kunde orsaka prestandaproblem när stora arbetsflöden användes. (CAMP-53369)
+* Ett problem som förhindrade e-postlänken i ett arbetsflödesmeddelande eller ett meddelande från att fungera har korrigerats. (CAMP-51874)
 
 ## Version 23.1 – vår-/sommarversion 2023 {#apr-23}
 
