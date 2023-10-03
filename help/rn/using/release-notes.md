@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: c1271bc0128c583e9b39ef98a422487e1df20fce
+source-git-commit: 4158a5aedf990651a0205f7eac4f4294e2538cba
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 59%
+source-wordcount: '454'
+ht-degree: 60%
 
 ---
 
@@ -44,12 +44,12 @@ ht-degree: 59%
 
 ### Andra ändringar {#fall-23-rn-other-changes}
 
-* Transactional Messaging har nu stöd för användning av flera kommaavgränsade tillhörigheter.
+* Transactional Messaging har nu stöd för användning av flera kommaavgränsade tillhörigheter. [Läs mer](../../sending/using/managing-typologies.md)
 
 ### Korrigeringar {#fall-23-rn-fixes}
 
 * Korrigerade en regression som kunde orsaka prestandaproblem när stora arbetsflöden användes. (CAMP-53369)
-* Ett problem som förhindrade e-postlänken i ett arbetsflödesmeddelande eller ett meddelande från att fungera har korrigerats. (CAMP-51874)
+* Ett problem som gjorde att länken i ett arbetsflödes-e-postmeddelande eller ett meddelande inte fungerade har åtgärdats. (CAMP-51874)
 
 ## Version 23.1 – vår-/sommarversion 2023 {#apr-23}
 
