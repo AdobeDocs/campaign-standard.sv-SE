@@ -11,7 +11,7 @@ exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -45,11 +45,11 @@ Detaljerad information om den här versionen finns i [Versionsinformationen](rel
  <tbody>
   <tr>
    <td>Stadie </td>
-   <td>3-9 oktober 2023 </td>
+   <td>3–9 oktober 2023 </td>
   </tr>
   <tr>
    <td>Produktion </td>
-   <td>12-18 oktober 2023 </td>
+   <td>12–18 oktober 2023 </td>
   </tr>
  </tbody>
 </table>
