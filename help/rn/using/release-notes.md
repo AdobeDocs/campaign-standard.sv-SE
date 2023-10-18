@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 4158a5aedf990651a0205f7eac4f4294e2538cba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '454'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -27,29 +27,29 @@ ht-degree: 60%
 
 ### Förbättringar {#fall-23-rn-improvements}
 
-* **Integrering med Adobe Experience Manager**. När du skapar en anpassad leveransmall för transaktionsmeddelanden i Adobe Experience Manager kan du nu markera och använda de anpassningsfält som definieras i Campaign Standard i en listruta. [Läs mer](../../integrating/using/creating-email-experience-manager.md)
+* **Integration med Adobe Experience Manager**. När du skapar en anpassad leveransmall för transaktionsmeddelanden i Adobe Experience Manager kan du nu markera och använda personaliseringsfälten som definieras i Campaign Standard i en rullgardinsmeny. [Läs mer](../../integrating/using/creating-email-experience-manager.md)
 
-* **Cookie-förfallodatum** - Standardförfallotiden för cookie är nu inställd på 6 månader, i linje med rekommendationerna från den franska dataskyddsmyndigheten (CNIL).
+* **Cookie-förfallodatum** – standardförfallotiden för cookies är nu inställd på sex månader, i linje med rekommendationerna från den franska dataskyddsmyndigheten (CNIL).
 
-* **Förbättrad profilsökning** - Profilsökningen har optimerats så att timeoutscenarier för sökningar kan minskas
+* **Förbättrad profilsökning** – profilsökningen har optimerats så att timeoutscenarier för sökningar kan minskas
 
-* **Lokalisering** - Översättningarna av termen&quot;publik&quot; när de avser en grupp profiler som är avsedda att ta emot ett meddelande harmoniserades för alla Digital Experience-produkter för följande språk:
+* **Lokalisering** – översättningarna av termen ”målgrupp” när de avser en grupp profiler som är avsedda att ta emot ett meddelande harmoniserades för alla Digital Experience-produkter för följande språk:
 
    * Tyska: Zielgruppe
    * Brasiliansk portugisiska: público-alvo
    * Spanska: público destinatario
 
-  Dessa ändringar kommer gradvis att införas i nästa version av användargränssnittet och dokumentationen.
+  Dessa ändringar införs gradvis i kommande versioner av användargränssnittet och dokumentationen.
 
 
 ### Andra ändringar {#fall-23-rn-other-changes}
 
-* Transactional Messaging har nu stöd för användning av flera kommaavgränsade tillhörigheter. [Läs mer](../../sending/using/managing-typologies.md)
+* Transaktionsmeddelanden har nu stöd för användning av flera kommaavgränsade tillhörigheter. [Läs mer](../../sending/using/managing-typologies.md)
 
 ### Korrigeringar {#fall-23-rn-fixes}
 
-* Korrigerade en regression som kunde orsaka prestandaproblem när stora arbetsflöden användes. (CAMP-53369)
-* Ett problem som gjorde att länken i ett arbetsflödes-e-postmeddelande eller ett meddelande inte fungerade har åtgärdats. (CAMP-51874)
+* Korrigerade en regression som kunde orsaka prestandaproblem under användning av stora arbetsflöden. (CAMP-53369)
+* Korrigerade ett problem som gjorde att länken i ett e-postmeddelande för arbetsflöden eller ett meddelande inte fungerade. (CAMP-51874)
 
 ## Version 23.1 – vår-/sommarversion 2023 {#apr-23}
 
