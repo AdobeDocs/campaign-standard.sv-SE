@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: 46c5454ad712910c88bfda7c067fda0337b043d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '235'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -47,9 +47,9 @@ Den här sidan beskriver förbättringar och korrigeringar som ingår i nästa v
 
 ### Andra ändringar {#e-rn-other-changes}
 
-* Transactional Messaging har nu stöd för användning av flera kommaavgränsade tillhörigheter.
+* Transaktionsmeddelanden har nu stöd för användning av flera kommaavgränsade tillhörigheter.
 
 ### Korrigeringar {#e-rn-fixes}
 
-* Korrigerade en regression som kunde orsaka prestandaproblem när stora arbetsflöden användes. (CAMP-53369)
-* Ett problem som förhindrade e-postlänken i ett arbetsflödesmeddelande eller ett meddelande från att fungera har korrigerats. (CAMP-51874)
+* Korrigerade en regression som kunde orsaka prestandaproblem under användning av stora arbetsflöden. (CAMP-53369)
+* Korrigerade ett problem som förhindrade e-postlänken i ett arbetsflödesmeddelande eller ett meddelande från att fungera. (CAMP-51874)
