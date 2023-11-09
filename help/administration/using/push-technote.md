@@ -7,22 +7,22 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 870b01f118974ed62755dd79143b990cfa2e4e85
+source-git-commit: 6d1a5cb1d467d7d74fe41e66125fe0fcbf2e3d9b
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
 
 # Kommande ändringar i push-meddelandekanalen {#push-upgrade}
 
-Den här sidan beskriver de kommande ändringarna av Android- och iOS Push Notification Channel i Adobe Campaign Standard.
-
 Det finns viktiga uppdateringar om kommande ändringar av Push Notification Channel på Android- och iOS-enheter som kan påverka Adobe Campaign Standard-implementeringen.
 
 ## Android {#push-android}
 
-Som en del av Google kontinuerliga arbete med att förbättra sina tjänster gör Google ändringar i HTTP-protokollet för Firebase Cloud Messaging. Detta innebär att Firebase Cloud Messaging &quot;HTTP legacy APIs&quot; som togs bort den 20 juni 2023 kommer att ersättas med &quot;HTTP v1 APIs&quot; i juni 2024. (https://firebase.google.com/docs/cloud-messaging/http-server-ref). För närvarande använder Adobe Campaign Standard äldre HTTP-API:er för att skicka push-meddelanden för Android och kommer att göra ändringar under de kommande månaderna för att uppgradera till API:erna för HTTP v1. Mer information om dessa ändringar kommer att ges när Adobe arbetar med dessa uppdateringar.
+Som en del av Google kontinuerliga insatser för att förbättra sina tjänster gör Google ändringar i [HTTP-protokoll för Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging/http-server-ref). Detta innebär att Firebase Cloud Messaging &quot;HTTP legacy APIs&quot; som togs bort den 20 juni 2023 kommer att ersättas med &quot;HTTP v1 APIs&quot; i juni 2024.
+
+För närvarande använder Adobe Campaign Standard äldre HTTP-API:er för att skicka push-meddelanden för Android och kommer att göra ändringar under de kommande månaderna för att uppgradera till API:erna för HTTP v1. Mer information om dessa ändringar kommer att ges när Adobe arbetar med dessa uppdateringar.
 
 ## iOS {#push-ios}
 
