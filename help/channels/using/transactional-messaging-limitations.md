@@ -9,10 +9,10 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: d6aaec6e-c718-46a2-88e8-7402970def1a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 2d3ef53d5ea5603d90da169366be6ea516d96823
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 68%
+source-wordcount: '755'
+ht-degree: 67%
 
 ---
 
@@ -41,7 +41,7 @@ Eftersom du konfigurerar och publicerar transaktionshändelser går det inte att
 
 ## Antal transaktionsmeddelanden {#transactional-message-number}
 
-Antalet publicerade transaktionsmeddelanden kan ha stor effekt på din plattform. För optimala prestanda bör antalet publicerade transaktionsmeddelanden förbli under 100. För att försäkra dig om detta avpublicerar eller tar du bort oanvända transaktionsmeddelanden. Se [Avpublicera ett transaktionsmeddelande](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) och [Ta bort ett transaktionsmeddelande](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
+Antalet publicerade transaktionsmeddelanden kan ha stor effekt på din plattform. För optimala prestanda bör antalet publicerade transaktionsmeddelanden förbli under 100, annars kan prestandaförsämringar påträffas. För att säkerställa detta bör du avpublicera eller ta bort oanvända transaktionsmeddelanden för att uppfylla det ovan nämnda skyddsutkastet. Se [Avpublicera ett transaktionsmeddelande](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) och [Ta bort ett transaktionsmeddelande](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
 
 För att få bästa prestanda kan du även avpublicera eller ta bort oanvända händelser. Om du avpublicerar eller tar bort en händelse avpubliceras eller raderas även motsvarande transaktionsmeddelanden och eventuella sändnings- och spårningsloggar. Se [Avpublicera en händelse](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) och [Ta bort en händelse](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
