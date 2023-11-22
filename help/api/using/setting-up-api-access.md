@@ -8,9 +8,9 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+source-git-commit: 7ca7e9bd9541a4db708565e65e2ff87e44393238
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '406'
 ht-degree: 1%
 
 ---
@@ -26,6 +26,11 @@ Adobe Campaign Standard API-åtkomst konfigureras enligt stegen nedan. Varje ste
 1. **Kontrollera att du har ett digitalt certifikat** eller skapa en vid behov. De offentliga och privata nycklarna som tillhandahålls med certifikatet behövs i följande steg.
 1. **Skapa en ny integrering av Adobe Campaign Service** in [Adobe Developer](https://developer.adobe.com/) och konfigurera det. Dina autentiseringsuppgifter genereras sedan (API-nyckel, klienthemlighet...).
 1. **Skapa en JSON-webbtoken (JWT)** från de inloggningsuppgifter som tidigare genererats och signera dem med din privata nyckel. JWT kodar all identitets- och säkerhetsinformation som Adobe behöver för att verifiera din identitet och ge dig åtkomst till API:t.
+
+   >[!AVAILABILITY]
+   >
+   >JWT (JSON Web Tokens) håller på att skrivas av och ersätts med OAuth. Övergången genomförs stegvis i de kommande versionerna av Campaign och dokumentationen kommer att uppdateras för att återspegla dessa uppdateringar.
+
 1. **Byt ut din JWT mot en åtkomsttoken** genom en begäran om POST. Denna Access Token måste användas i varje rubrik för dina API-begäranden.
 
 Om du vill skapa en säker Adobe I/O-till-tjänst-API-session måste alla förfrågningar till en Adobe-tjänst innehålla informationen nedan i auktoriseringshuvudet.

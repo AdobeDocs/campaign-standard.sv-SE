@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 59404b16e145ded31bf3a374adf4087f6d1817c6
-workflow-type: ht
-source-wordcount: '7299'
-ht-degree: 100%
+source-git-commit: 7ca7e9bd9541a4db708565e65e2ff87e44393238
+workflow-type: tm+mt
+source-wordcount: '7336'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,9 @@ Förutom [versionsinformationen](../../rn/using/release-notes.md) för Adobe Cam
 
 ## Version 23.2 – höst/vinter 2023 {#release-23-2}
 
-Versionsinformation för Campaign Standard 23.2 höst-/vinterversionen 2023 har publicerats. [Läs mer](release-notes.md)
+* Versionsinformation för Campaign Standard 23.2 höst-/vinterversionen 2023 har publicerats. [Läs mer](release-notes.md)
+
+* JWT (JSON Web Tokens) håller på att skrivas av och ersätts med OAuth. Övergången genomförs stegvis i de kommande versionerna av Campaign och dokumentationen kommer att uppdateras för att återspegla dessa uppdateringar.
 
 ## Oktober 2023 {#doc-updates-oct-2023}
 
@@ -29,7 +31,6 @@ Versionsinformation för Campaign Standard 23.2 höst-/vinterversionen 2023 har 
 ## Version 23.1 – våren/sommaren 2023 {#release-23-1}
 
 Versionsinformation för Campaign Standard 23.1 vår-/sommarversionen 2023 har publicerats. [Läs mer](release-notes.md)
-
 
 ## November 2022 {#doc-updates-november-2022}
 
