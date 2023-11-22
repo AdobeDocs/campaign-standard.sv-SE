@@ -8,10 +8,10 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 4%
+source-wordcount: '670'
+ht-degree: 5%
 
 ---
 
@@ -39,11 +39,10 @@ Microsoft Dynamics 365-autentiseringsuppgifterna ger integrationsprogrammet beh�
 
 Adobe Campaign-inloggningsuppgifterna genereras med [Adobe I/O](https://www.adobe.io/). Du måste besöka skärmen [Konfigurera Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md) och följ instruktionerna där innan du kan fylla i indata i det här avsnittet.
 
-I följande bild förklaras i detalj mappningen mellan Adobe I/O och inställningsskärmens indata.
+* Välj autentiseringstypen som Oauth eftersom JWT-baserad autentisering är inaktuell.
+* I följande bild förklaras i detalj mappningen mellan Adobe I/O och inställningsskärmens indata.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-adobeio.png)
-
-* *Privat nyckel*: processen att definiera detta börjar med att klicka på knappen&quot;Generera offentlig/privat nyckelpar&quot;. Då skapas en zip-fil som du måste hämta. När du har laddat ned den packar du upp filen vilket resulterar i två filer med namnen certificate_pub.crt och private.key. Var noga med att placera private.key på en säker plats och dela den inte. Öppna filen private.key i en textredigerare. Kopiera hela värdet i textredigeraren (ctrl-A, sedan ctrl-C på en dator eller cmd-A och sedan cmd-C på en Mac). Detta ska inkludera raderna med&quot;BEGIN PRIVATE KEY&quot; och&quot;END PRIVATE KEY&quot; i sin helhet. Klistra in hela den här flerradiga texten i indata för &quot;Privat nyckel&quot; på inställningsskärmen.
 
 * *URL*: Det här värdet passar mönstret /mc.adobe.io/&lt;campaign-instance-name>. Integreringsprogrammets huvud innehåller både&quot;Org&quot; och&quot;Instance&quot;. Delen&quot;campaign-instance-name&quot; i URL:en är bara det namn som finns i det här instansvärdet.
 
