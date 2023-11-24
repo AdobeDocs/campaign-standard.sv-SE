@@ -8,10 +8,10 @@ feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
-source-git-commit: 5a7e48da3d62b186f96cd7451fb5a7b2cf94e09c
+source-git-commit: 26e37cea37b33924ac634c5e4ab7c60804a738f1
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 10%
+source-wordcount: '769'
+ht-degree: 9%
 
 ---
 
@@ -124,10 +124,16 @@ Skapa **[!UICONTROL Declared ID]** datakälla:
 
 För konfigurationen av integreringen med tjänsten People Core eller Audience Manager måste vi även konfigurera Campaign Tracking-servern.
 
-Här måste du se till att Campaign Tracking Server är registrerad på domänen (CNAME). Mer information om konfigurationen av domännamn finns i [den här artikeln](https://helpx.adobe.com/se/campaign/kb/domain-name-delegation.html).
+Om du vill att delade målgrupper ska kunna fungera med besökar-ID, måste spårningsserverdomänen vara en underdomän till den klickade URL:en eller huvudwebbplatsen.
+
+>[!IMPORTANT]
+>
+> Du måste kontrollera att Campaign Tracking Server är registrerad på domänen (CNAME). Mer information om konfigurationen av domännamn finns i [den här artikeln](https://helpx.adobe.com/se/campaign/kb/domain-name-delegation.html).
 
 ### Steg 4: Konfigurera besökar-ID-tjänsten {#step-4--configure-the-visitor-id-service}
 
 Om din Visitor ID-tjänst aldrig har konfigurerats på dina webbegenskaper eller webbplatser kan du läsa följande [dokument](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html) om du vill veta mer om hur du konfigurerar tjänsten eller följande [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
+
+Synkronisera kundidentifierare med deklarerat ID med `setCustomerID` i Experience Cloud ID-tjänsten med integreringskoden: `AdobeCampaignID`. The `AdobeCampaignID` ska matcha värdet för avstämningsnyckeln som angetts i mottagardatakällan som konfigurerats i [Steg 2: Konfigurera datakällorna](#step-2--configure-the-data-sources).
 
 Din konfiguration och etablering är färdiga, och integreringen kan nu användas för att importera och exportera målgrupper eller segment.
