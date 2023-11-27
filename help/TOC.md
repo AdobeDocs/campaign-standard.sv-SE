@@ -5,9 +5,9 @@ user-guide-description: Hjälpcenter för de viktigaste funktionerna, åtgärder
 title: Användarhandbok för Campaign Standard
 breadcrumb-title: Dokumentation om Adobe Campaign Standard
 source-git-commit: 01ac9b91a5b4af445bdd6209a0b9494731a47362
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1768'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -269,7 +269,7 @@ ht-degree: 99%
          + [Koppla samman system med integrationsappen](integrating/using/d365-acs-self-service-app-settings.md)
          + [Hantera synkroniseringsarbetsflöden](integrating/using/d365-acs-self-service-app-workflows.md)
          + [Mappa data mellan Microsoft Dynamics 365 och Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
-         + [Migrera autentiseringsuppgifter från JWT till OAuth Server-till-Server](integrating/using/d365-acs-self-service-app-migrate-credentials.md)
+         + [Migrera autentiseringsuppgifter från JWT till OAuth:s server till server](integrating/using/d365-acs-self-service-app-migrate-credentials.md)
       + [Använda integreringen av Microsoft Dynamics 365](integrating/using/d365-acs-using-the-integration.md)
    + Campaign och Adobe Experience Platform {#adobe-experience-platform}
       + [Kom igång med källor och destinationer](integrating/using/get-started-sources-destinations.md)
