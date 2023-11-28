@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 9faf94d3f2643d1fdeeed9156355147bf3b6be58
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1260'
 ht-degree: 77%
 
 ---
@@ -77,7 +77,7 @@ Tre flikar hjälper dig att hitta hjälp och hjälp:
    * a **[!UICONTROL Learning]** som gör att du kan komma åt Adobe Campaign kursbibliotek.
    * a **[!UICONTROL Community]** om du vill gå till forumet för dina frågor om Campaign.
    * direkt åtkomst till: Help Center, Customer Care, Experience Cloud produktstatus, Developer Connection, Release Notes, Release Planning och **[!UICONTROL About]** skärm.
-1. The **[!UICONTROL Support]** kan du öppna ett supportärende och kontakta oss via telefon eller Twitter.
+1. The **[!UICONTROL Support]** kan du öppna ett supportärende och kontakta oss via telefon eller X (tidigare Twitter).
 1. The **[!UICONTROL Feedback]**  gör det enklare att rapportera problem eller utbyta idéer.
 
 ## Avancerad meny {#advanced-menu}
