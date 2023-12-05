@@ -5,14 +5,14 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: 99a2ae8b383d5a8437882be065781a2317b88bfe
+source-git-commit: 70a30f5df33af3faaaa564903de60ca45f96899c
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 61%
+source-wordcount: '882'
+ht-degree: 57%
 
 ---
 
-# Inaktuella och borttagna funktioner {#deprecated-and-removed-features}
+# Föråldrade och borttagna funktioner {#deprecated-and-removed-features}
 
 Adobe utvärderar ständigt produktfunktioner för att identifiera äldre funktioner som bör ersättas med modernare alternativ för att förbättra det övergripande kundvärdet. Detta sker alltid under noggrant övervägande gällande bakåtkompatibilitet.
 
@@ -34,6 +34,26 @@ I det här avsnittet listas funktioner som har markerats som inaktuella i de sen
 I allmänhet listas de funktioner som ska tas bort i en framtida version först som inaktuella med ett alternativ som tillhandahålls. Dessa funktioner är inte längre tillgängliga för nya Campaign Standard-kunder eller ska inte användas för nya implementeringar. De tas också bort från produktdokumentationen.
 
 Kunder uppmanas att se över om de använder funktionen i den aktuella driftsättningen och planera för en ändring av implementeringen som låter dem använda alternativ som tillhandahålls. Se målversionen för borttagning för att planera miljön och projektuppdateringar utifrån detta.
+
+
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>SDK V4 för mobilappar</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>Stödet för Adobe Experience Platform Mobile version 4 SDK upphör den 31 augusti 2021. Om du fortfarande använder den här äldre versionen av SDK i Adobe Campaign Standard måste du uppdatera implementeringen med Adobe Experience Platform SDK <strong>före utgången av juni 2024</strong>. </p></br>
+   <p>Läs <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">den här artikeln</a> om du vill lära dig hur ni kan anpassa er implementering och gå över till den senaste Experience Platform SDK-versionen.</p></br>
+   <p><strong>Varning</strong>: Stöd för SDK V4 kommer inte längre att finnas i Campaign Standarden från juni 2024.</p>
+  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
 
 
 <table> 
@@ -124,7 +144,7 @@ Det här avsnittet visar funktioner som har tagits bort från Campaign Standard.
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Från och med Campaign version 21.2 är användningen av API och gränssnitt i Campaign för åtkomst och borttagning inaktuell. Borttagningen av en profil i två steg är inte längre tillgänglig. Använd <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">Adobe Privacy Core Service</a>.</p></br>
+   <td> <p>Från och med Campaign version 21.2 är användningen av API och gränssnitt i Campaign för åtkomst och borttagning inaktuell. Borttagningen av en profil i två steg är inte längre tillgänglig. Använd <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">Adobe bastjänst för sekretess</a>.</p></br>
    <p>Se även <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html">Hantera förfrågan om användarens information</a>.</p>
   </td> 
   </tr> 
