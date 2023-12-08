@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 83%
+source-wordcount: '1224'
+ht-degree: 80%
 
 ---
 
@@ -58,7 +58,7 @@ Stegen för att skapa ett fristående meddelande i appen med Adobe Campaign är 
    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**
    * **[!UICONTROL Target users based on their Mobile profile (inApp)]**
 
-1. Ange egenskaperna för Meddelande i appen och välj din mobilapp i fältet **[!UICONTROL Associate a Mobile App to a delivery]**. 
+1. Ange meddelandeegenskaperna i appen och välj din mobilapp i dialogrutan **[!UICONTROL Associate a Mobile App to a delivery]** fält.
 
    Om inga program visas i listrutan kontrollerar du att dina mobilprogram finns i en **Konfigurerad** tillstånd. Program i en **Klar att konfigureras** visas inte i listan. Mer information om konfiguration av mobilprogram finns på den här [sidan](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
@@ -100,7 +100,7 @@ Stegen för att skapa ett fristående meddelande i appen med Adobe Campaign är 
 
 1. Om du använder en **[!UICONTROL Places]**-utlösare fylls Placerar kontextdata, Placerar anpassade metadata eller Placerar händelsetyp automatiskt i baserat på alla bibliotek och deras intressepunkter som skapats i Adobe Places.
 
-   Observera att den här utlösaren endast används på enheten för de intressepunkter från bibliotek som valts i tillägget Platser i användargränssnittet för datainsamling. Mer information om tillägget-tillägget och hur du installerar det finns i den här [dokumentationen](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
+   Observera att den här utlösaren endast används på enheten för de intressepunkter från bibliotek som valts i tillägget Platser i användargränssnittet för datainsamling. Mer information om tillägget-tillägget och hur du installerar det finns i den här [dokumentationen](https://developer.adobe.com/client-sdks/solution/places).
 
 1. På fliken **[!UICONTROL Frequency & duration]** väljer du frekvens för utlösaren, start- och slutdatum, veckodag och tidpunkt på dagen då ditt Meddelande i appen ska vara aktivt.
 

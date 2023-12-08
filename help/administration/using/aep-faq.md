@@ -6,14 +6,14 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '856'
 ht-degree: 2%
 
 ---
 
-# Vanliga frågor och svar om integrering av Experience Platform SDK {#aep-faq}
+# Vanliga frågor om integrering av Experience Platform SDK {#aep-faq}
 
 För att skicka push-meddelanden och meddelanden i appen med Experience Platform SDK-programmet måste ett mobilprogram konfigureras i Adobe Experience Platform SDK och konfigureras i Adobe Campaign.
 
@@ -36,7 +36,7 @@ Mer information om Adobe Experience Platform SDK och integrering av Campaign Sta
 
 Ja, [!DNL Adobe Experience Platform SDK] för både Adobe Campaign Standard och Adobe Campaign Classic. Du måste installera motsvarande **[!UICONTROL Extension]** via [!DNL Data Collection UI] för att aktivera integreringen.
 
-Mer information finns i [page]https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
+Se denna [sida](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard) för mer information om detta.
 
 ## Vilka funktioner underlättar Adobe Experience Platform SDK-integreringen i Adobe Campaign? {#aep-capabilities}
 
@@ -98,7 +98,7 @@ Läs resurserna nedan:
 
 * Experience Platform SDK [dokumentation](https://developer.adobe.com/client-sdks/documentation/)
 * Komma igång med Launch &amp; Experience Platform SDK [dokumentation](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/)
-* Uppgraderar till Experience Platform SDK [dokumentation](https://developer.adobe.com/client-sdks/documentation/upgrade-platform-sdks)
+* Uppgraderar till Experience Platform SDK [dokumentation](https://developer.adobe.com/client-sdks/resources/upgrade-platform-sdks/)
 * Github Experience Platform SDK [dokumentation](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
 
 ## Jag får felmeddelandet&quot;Du har inte skrivåtkomst vid leverans&quot; när du skapar en leverans med push-meddelanden. {#write-access-error}

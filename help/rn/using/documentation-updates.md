@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 7ca7e9bd9541a4db708565e65e2ff87e44393238
-workflow-type: ht
-source-wordcount: '7336'
-ht-degree: 100%
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
+workflow-type: tm+mt
+source-wordcount: '7211'
+ht-degree: 99%
 
 ---
 
@@ -232,7 +232,7 @@ Information har lagts till om anonyma källor i rapporten Aktiva profiler. [Läs
 
 Ett nytt och uppdaterat avsnitt om hur du kommer igång med transaktionsmeddelanden finns nu tillgängligt. [Läs mer](../../channels/using/getting-started-with-transactional-msg.md)
 
-Avsnittet **Begränsningar för transaktionsmeddelanden** har flyttats [hit](../../channels/using/transactional-messaging-limitations.md).
+The **Begränsningar för transaktionsmeddelanden** avsnittet har flyttats [här](../../channels/using/transactional-messaging-limitations.md).
 
 Avsnittet **Förbereda sändningen** har flyttats [hit](../../sending/using/preparing-the-send.md).
 
@@ -346,7 +346,7 @@ Mer detaljerad information om Förbättrad MTA har lagts till i den centrala dok
 
 Avsnittet som är avsett för arkivering med e-postkopia har flyttats och uppdaterats. [Läs mer](../../sending/using/archiving.md)
 
-Konfigurationen av en mobilapps-dokumentation och relaterade sidor har uppdaterats för att återspegla SDK V4-avskrivning. [Läs mer](https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/)
+Konfigurationen av en mobilapps-dokumentation och relaterade sidor har uppdaterats för att återspegla SDK V4-avskrivning. [Läs mer](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)
 
 Integreringsdokumentationen för Adobe Campaign Standard/Adobe Experience Manager har uppdaterats och förbättrats. [Läs mer](../../integrating/using/configure-experience-manager.md)
 

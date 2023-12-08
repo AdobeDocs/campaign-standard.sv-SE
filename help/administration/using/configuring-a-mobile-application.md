@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 3%
+source-wordcount: '1220'
+ht-degree: 2%
 
 ---
 
@@ -50,11 +50,12 @@ I det här steget kan användaren logga in på användargränssnittet för datai
 
 1. I användargränssnittet för datainsamling klickar du på **[!UICONTROL Extensions]** flik, gå till **[!UICONTROL Catalog]** och sök efter **[!UICONTROL Adobe Campaign Standard]** tillägg. Mer information finns i [Adobe Campaign Standard](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
 
-1. Om du vill ha stöd för platsanvändningsfall i Campaign Standard installerar du **[!UICONTROL Places]** i användargränssnittet för datainsamling. Se detta [page](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
+1. Om du vill ha stöd för platsanvändningsfall i Campaign Standard installerar du **[!UICONTROL Places]** i användargränssnittet för datainsamling. Se detta [page](https://developer.adobe.com/client-sdks/solution/places).
 
 1. Konfigurera den mobila egenskap som du skapade i användargränssnittet för datainsamling i Adobe Campaign Standard. Se [Konfigurera ditt Adobe Experience Platform Launch-program i Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
-1. Lägg till den kanalspecifika konfigurationen i installationen av mobilprogrammet.  Mer information finns i [Kanalspecifik programkonfiguration i Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
+1. Lägg till den kanalspecifika konfigurationen i konfigurationen för mobilprogrammet.
+Mer information finns i [Kanalspecifik programkonfiguration i Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
 1. Om det behövs kan du ta bort taggegenskapen.
 Mer information finns i [Tar bort programmet](../../administration/using/configuring-a-mobile-application.md#delete-app).
@@ -105,7 +106,7 @@ dess **[!UICONTROL Property Status]** bör **[!UICONTROL Ready to configure]**.
 
    ![](assets/launch_4.png)
 
-1. Du kan ändra organisationsenheten för ditt mobilprogram under **[!UICONTROL Access Authorization]** för att begränsa åtkomsten till det här mobilprogrammet till vissa organisationsenheter. För mer information om detta hittar du i det här avsnittet.
+1. Du kan ändra organisationsenheten för ditt mobilprogram under **[!UICONTROL Access Authorization]** för att begränsa åtkomsten till det här mobilprogrammet till vissa organisationsenheter. Mer information finns på den här sidan.
 
    Här kan administratören tilldela underorganisationsenheter genom att välja dem i listrutan.
 

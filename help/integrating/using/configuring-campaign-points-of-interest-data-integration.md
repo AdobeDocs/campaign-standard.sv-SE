@@ -8,10 +8,10 @@ feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: 884cd5e9c09aa85e744ca06b202eb46f73a33a76
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 2%
+source-wordcount: '1252'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ De mobilprogram som används för att samla in platsdata måste konfigureras av 
 
 För att kunna använda Adobe Experience Platform Location Services med mobilprogram som konfigurerats med Adobe Experience Platform SDK måste du:
 
-1. Lägg till **[!UICONTROL Places]** tillägg till din mobilappskonfiguration i användargränssnittet för datainsamling. Konfigurera mobilappen i Adobe Campaign. Se [Installera tillägget Platser](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch).
+1. Lägg till **[!UICONTROL Places]** tillägg till din mobilappskonfiguration i användargränssnittet för datainsamling. Konfigurera mobilappen i Adobe Campaign. Se [Installera tillägget Platser](https://developer.adobe.com/client-sdks/solution/places).
 
 1. När du har konfigurerat tilläggen skapar du dataelement i användargränssnittet för datainsamling för att hämta data från tilläggen. Se detta [page](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) för att skapa dataelement.
 
@@ -166,7 +166,7 @@ Du måste ha tillgång till Adobe Analytics för att kunna göra följande konfi
 
 ### Integrera SDK i en mobilapplikation {#integrating-the-sdk-into-a-mobile-application}
 
-Bastjänstens SDK (Software Development Kit) underlättar integreringen av mobilapplikationer i Adobe Campaign.
+Mobilbastjänstens SDK (Software Development Kit) underlättar integreringen av mobilapplikationer i Adobe Campaign.
 
 Det här steget beskrivs i detta [page](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html?lang=sv).
 
