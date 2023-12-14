@@ -7,11 +7,12 @@ topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: true
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
+source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
 workflow-type: tm+mt
-source-wordcount: '5211'
-ht-degree: 99%
+source-wordcount: '5267'
+ht-degree: 97%
 
 ---
 
@@ -68,7 +69,7 @@ ht-degree: 99%
 <tbody> 
 <tr> 
   <td> <p>Vi är glada över att kunna presentera Journey AI för alla kunder som använder Adobe Campaign Standard.</p>
-  <p>Journey AI använder sig av avancerad maskininlärning (ML) som gör att företag kan optimera designen och leveransen av kundresor genom att förutsäga varje individs engagemang.</p>
+  <p>Journey AI använder sig av avancerat maskininlärningsprogram (ML) för att företag ska kunna optimera utformningen och leveransen av kundresor genom att förutsäga varje individs engagemang.</p>
   <P>Journey AI består av två ML-funktioner:</p>
 <ul> 
      <li> <strong>Förutsägande engagemangsbedömning</strong> – identifierar på ett intelligent sätt kundernas preferenser för att bättre målinrikta och personalisera meddelanden vilket i sig ökar konverteringar och kvarhållning. Titta på <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">instruktionsvideon</a>.</li> 
@@ -235,7 +236,7 @@ ht-degree: 99%
 **Ytterligare funktioner** (från 13 juli)
 
 * **AI-driven optimering av sändningstid och profilpoäng** – nu kan du optimera designen och leveransen av kundresor för att förutse varje individs engagemang. Med Journey AI som bas kan Adobe Campaign analysera och förutse öppningsfrekvenser, optimala sändningstider och sannolika bortfall baserat på historiska engagemangsmått. [Läs mer](../../sending/using/predictive.md)
-* **Brasiliens nya integritetsreglering** – förutom de integritetsfunktioner som redan finns i Campaign hjälper Adobe till att underlätta beredskapen för Brasiliens Lei Geral de Proteçao de Datos (LGPD). När du skapar en förfrågan om användarens information har LGPD-regleringen lagts till i Adobe Privacy Core Service. [Läs mer](https://helpx.adobe.com/se/campaign/kb/campaign-privacy-overview.html)
+* **Brasiliens nya sekretessbestämmelser** - Förutom de integritetsfunktioner som redan finns i Campaign kan Adobe underlätta beredskapen för Brasiliens Lei Geral de Proteçao de Datos (LGPD). När du skapar en förfrågan om användarens information har LGPD-regleringen lagts till i Adobe Privacy Core Service. [Läs mer](https://helpx.adobe.com/se/campaign/kb/campaign-privacy-overview.html)
 
 **Förbättringar**
 
@@ -266,7 +267,7 @@ ht-degree: 99%
 
 **Experience Platform-integrationer**
 
-* Aktiveringen av Adobe Experience Platform-målgrupper från **Läs målgrupp** har förbättrats för att ge bättre prestanda och stabilitet.  Arbetsflödesloggar har dessutom gjorts tydligare och mer detaljerade när det gäller aktiveringsjobb. Detta gör det enklare att övervaka och felsöka när Adobe Experience Platform-målgrupper läses in.
+* Aktivering av Adobe Experience Platform-målgrupper från **Läsa målgrupper** aktiviteten har förbättrats för att ge bättre prestanda och stabilitet. Arbetsflödesloggar har dessutom gjorts tydligare och mer detaljerade när det gäller aktiveringsjobb. Detta gör det enklare att övervaka och felsöka när Adobe Experience Platform-målgrupper läses in.
 
 **Patchar**
 
@@ -359,7 +360,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->Adobe Experience Platform-funktionerna i Campaign Standard är för närvarande i betastadiet, som kan komma att uppdateras ofta utan föregående meddelande. Mer information finns i den detaljerade dokumentationen: Experience Platform Data Connector, Målgruppsdestinationer
+>Adobe Experience Platform-funktionerna i Campaign Standard är för närvarande i betastadiet, som kan komma att uppdateras ofta utan föregående meddelande. Se den detaljerade dokumentationen: Experience Platform Data Connector, målgruppsmål
 
 * I arbetsflödesloggar visas nu antalet poster som redan har bearbetats av jobbet som körs var 10:e minut.
 * Ett problem som kunde inträffa vid import av en Adobe Experience Platform-profil som har tagits bort från databasen har korrigerats.
@@ -376,15 +377,15 @@ ht-degree: 99%
 * Korrigerade ett problem som kunde inträffa i arbetsflöden när en aktivitet med flera inkommande övergångar körs.
 * Korrigerade ett problem som förhindrade standardanvändare från att använda &quot;Prenumerationer på ett program&quot; som måldimension i en arbetsflödesfråga eller leverans. (CAMP-37618)
 
-## Version 20.1.4 – februari 2020 {#release-20-1-4---february-2020}
+## Version 20.1.4 - februari 2020 {#release-20-1-4---february-2020}
 
 * Korrigerade ett problem när en **Läs målgrupp**-aktivitet öppnades i befintliga arbetsflöden. (CAMP-41002)
 
-## Version 20.1.3 – februari 2020 {#release-20-1-3---february-2020}
+## Version 20.1.3 - februari 2020 {#release-20-1-3---february-2020}
 
 * Korrigerade ett regressionsproblem som introducerades i 20.1 av CAMP-39273 för kunder som använder kryphålet. CAMP-39273 återfördes.
 
-## Version 20.1.2 – februari 2020 {#release-20-1-2---february-2020}
+## Version 20.1.2 - februari 2020 {#release-20-1-2---february-2020}
 
 **Förbättringar av E-postdesigner**
 

@@ -5,12 +5,11 @@ audience: channels
 feature: Push
 role: Admin
 level: Experienced
-hide: true
-hidefromtoc: true
-source-git-commit: 9b7b127d92628169249c64ce85147d530b32a2cc
+exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
+source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 1%
+source-wordcount: '322'
+ht-degree: 5%
 
 ---
 

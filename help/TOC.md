@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Hjälpcenter för de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som behövs för att använda Campaign Standard.
 title: Användarhandbok för Campaign Standard
 breadcrumb-title: Dokumentation om Adobe Campaign Standard
-source-git-commit: 01ac9b91a5b4af445bdd6209a0b9494731a47362
-workflow-type: ht
-source-wordcount: '1768'
+source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
+workflow-type: tm+mt
+source-wordcount: '1772'
 ht-degree: 100%
 
 ---
@@ -447,7 +447,6 @@ ht-degree: 100%
       + [Konfigurera taggningsregler för att stödja användningsfall i Adobe Campaign Standard](administration/using/configuring-rules-launch.md)
       + [Mobila användningsfall som stöds av Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
       + [Så här migrerar du din mobilapplikation från SDK v4 till Adobe Experience Platform SDK](administration/using/sdkv4-migration.md)
-      + [Kommande ändringar i push-meddelandekanalen](administration/using/push-technote.md)
    + Konfigurera SMS-kanal {#configuring-sms}
       + [Implementera SMS-kanalen](administration/using/configuring-sms-channel.md)
       + [Protokoll och inställningar för SMS-koppling](administration/using/sms-protocol.md)
