@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
+source-git-commit: cd1650801bf31edc99d93901da232ff618673eed
 workflow-type: tm+mt
-source-wordcount: '7241'
+source-wordcount: '7240'
 ht-degree: 99%
 
 ---
@@ -20,7 +20,7 @@ Förutom [versionsinformationen](../../rn/using/release-notes.md) för Adobe Cam
 
 Vissa viktiga ändringar av tjänsten Android Firebase Cloud Messaging (FCM) kommer att släppas 2024 och kommer att påverka din Adobe Campaign-implementering. Läs mer i [den här teknologin](../../administration/using/push-technote.md).
 
-## Version 23.2 – höst/vinter 2023 {#release-23-2}
+## Version 23.2 - hösten 2023 {#release-23-2}
 
 * Versionsinformation för Campaign Standard 23.2 höst-/vinterversionen 2023 har publicerats. [Läs mer](release-notes.md)
 
