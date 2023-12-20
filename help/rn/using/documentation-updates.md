@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: cd1650801bf31edc99d93901da232ff618673eed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7240'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ Förutom [versionsinformationen](../../rn/using/release-notes.md) för Adobe Cam
 
 ## December 2023 {#doc-updates-dec-2023}
 
-Vissa viktiga ändringar av tjänsten Android Firebase Cloud Messaging (FCM) kommer att släppas 2024 och kommer att påverka din Adobe Campaign-implementering. Läs mer i [den här teknologin](../../administration/using/push-technote.md).
+Vissa viktiga ändringar av tjänsten Android Firebase Cloud Messaging (FCM) kommer att släppas 2024 och kommer att påverka din Adobe Campaign-implementering. Läs mer i [detta tekniska dokument](../../administration/using/push-technote.md).
 
-## Version 23.2 - hösten 2023 {#release-23-2}
+## Version 23.2 – hösten 2023 {#release-23-2}
 
 * Versionsinformation för Campaign Standard 23.2 höst-/vinterversionen 2023 har publicerats. [Läs mer](release-notes.md)
 
@@ -236,7 +236,7 @@ Information har lagts till om anonyma källor i rapporten Aktiva profiler. [Läs
 
 Ett nytt och uppdaterat avsnitt om hur du kommer igång med transaktionsmeddelanden finns nu tillgängligt. [Läs mer](../../channels/using/getting-started-with-transactional-msg.md)
 
-The **Begränsningar för transaktionsmeddelanden** avsnittet har flyttats [här](../../channels/using/transactional-messaging-limitations.md).
+Avsnittet **Begränsningar för transaktionsmeddelanden** har flyttats [hit](../../channels/using/transactional-messaging-limitations.md)
 
 Avsnittet **Förbereda sändningen** har flyttats [hit](../../sending/using/preparing-the-send.md).
 
@@ -350,7 +350,7 @@ Mer detaljerad information om Förbättrad MTA har lagts till i den centrala dok
 
 Avsnittet som är avsett för arkivering med e-postkopia har flyttats och uppdaterats. [Läs mer](../../sending/using/archiving.md)
 
-Konfigurationen av en mobilapps-dokumentation och relaterade sidor har uppdaterats för att återspegla SDK V4-avskrivning. [Läs mer](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)
+Konfigurationen av en mobilapps-dokumentation och relaterade sidor har uppdaterats för att återspegla SDK V4-avskrivning. [Läs mer](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.htmlhtml?lang=sv)
 
 Integreringsdokumentationen för Adobe Campaign Standard/Adobe Experience Manager har uppdaterats och förbättrats. [Läs mer](../../integrating/using/configure-experience-manager.md)
 
