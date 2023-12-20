@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: 311fdf000333c03cb3b21fc6fea786251ced045f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '472'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ Alla instanser av Adobe Campaign Standard uppgraderas i varje ny version. Ingen 
 
 Uppgraderingar distribueras i två faser. För det första uppgraderas stadieinstanserna så att du kan testa nya funktioner och anpassa din konfiguration vid behov. Produktionsinstanser uppgraderas sedan.
 
-Alla releasedatum kan ändras: gå till den här sidan regelbundet för att kontrollera om det finns uppdateringar. Miljöuppdateringar sker stegvis under de angivna tidsramarna nedan. Exakta datum meddelas till varje kund via e-post.
+Alla versionsdatum kan ändras: besök den här sidan regelbundet för att se om det finns några uppdateringar. Miljöuppdateringar sker stegvis under de angivna tidsramarna nedan. Exakta datum meddelas till varje kund via e-post.
 
-## Version 24.1 - 2024 Winter Release {#release-24-1-release}
+## Version 24.1 – vinterversion 2024 {#release-24-1-release}
 
-Detaljerad information om den här versionen finns i [Versionsinformation](release-notes.md) en vecka innan scenens miljöuppgraderingar börjar.
+Detaljerad information om denna version finns i [versionsinformationen](release-notes.md) en vecka innan uppgraderingarna av stadiemiljön startar.
 
 <table>
  <thead>
@@ -39,17 +39,17 @@ Detaljerad information om den här versionen finns i [Versionsinformation](relea
  <tbody>
   <tr>
    <td>Stadie </td>
-   <td>16 jan - 13 feb 2024 </td>
+   <td>16 jan till 13 feb 2024 </td>
   </tr>
   <tr>
    <td>Produktion </td>
-   <td>23 jan - 20 feb 2024 </td>
+   <td>23 jan till 20 feb 2024 </td>
   </tr>
  </tbody>
 </table>
 
 
-## Version 23.2 - 2023 Fall Limited Release {#release-23-2-release}
+## Version 23.2 – begränsad höstversion 2023 {#release-23-2-release}
 
 
 >[!AVAILABILITY]
