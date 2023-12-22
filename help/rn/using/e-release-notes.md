@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 46c5454ad712910c88bfda7c067fda0337b043d9
-workflow-type: ht
-source-wordcount: '235'
-ht-degree: 100%
+source-git-commit: 602aca18af81625b9756a8f2020b5bc636199b96
+workflow-type: tm+mt
+source-wordcount: '112'
+ht-degree: 68%
 
 ---
 
@@ -23,7 +23,7 @@ Den här sidan beskriver förbättringar och korrigeringar som ingår i nästa v
 >
 > Innehållet kan ändras utan föregående meddelande fram till uppgraderingsdatumet för mellanlagringsmiljöerna. Läs mer på [sidan för versionsplanering](../../rn/using/release-planning.md).
 
-## Version 23.2 – höst-/vinterversion 2023 {#fall-23}
+## Version 24.1 – vinterversion 2024 {#winter-24}
 
 >[!AVAILABILITY]
 >
@@ -31,25 +31,9 @@ Den här sidan beskriver förbättringar och korrigeringar som ingår i nästa v
 
 ### Förbättringar {#e-rn-improvements}
 
-* **Integration med Adobe Experience Manager**. När du skapar en anpassad leveransmall för transaktionsmeddelanden i Adobe Experience Manager kan du nu markera och använda personaliseringsfälten som definieras i Campaign Standard i en rullgardinsmeny.
+Adobe Campaign Standard 24.1 använder HTTP v1-API:erna för att skicka push-meddelanden för Android, för att säkerställa kompatibilitet med kommande FCM-ändringar. Läs mer i [detta tekniska dokument](../../administration/using/push-technote.md).
 
-* **Cookie-förfallodatum** – standardförfallotiden för cookies är nu inställd på sex månader, i linje med rekommendationerna från den franska dataskyddsmyndigheten (CNIL).
-
-* **Förbättrad profilsökning** – profilsökningen har optimerats så att timeoutscenarier för sökningar kan minskas
-
-* **Lokalisering** – översättningarna av termen ”målgrupp” när de avser en grupp profiler som är avsedda att ta emot ett meddelande harmoniserades för alla Digital Experience-produkter för följande språk:
-
-   * Tyska: Zielgruppe
-   * Brasiliansk portugisiska: público-alvo
-   * Spanska: público destinatario
-
-  Dessa ändringar införs gradvis i kommande versioner av användargränssnittet och dokumentationen.
-
-### Andra ändringar {#e-rn-other-changes}
-
-* Transaktionsmeddelanden har nu stöd för användning av flera kommaavgränsade tillhörigheter.
 
 ### Korrigeringar {#e-rn-fixes}
 
-* Korrigerade en regression som kunde orsaka prestandaproblem under användning av stora arbetsflöden. (CAMP-53369)
-* Korrigerade ett problem som förhindrade e-postlänken i ett arbetsflödesmeddelande eller ett meddelande från att fungera. (CAMP-51874)
+* Ett problem som stoppade leveransvarningsarbetsflödet med följande fel har korrigerats: `division by zero`. (CAMP-49786)
