@@ -10,8 +10,8 @@ level: Experienced
 exl-id: cdb050b7-d327-42f7-b534-d32d988c8ffb
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 1%
+source-wordcount: '421'
+ht-degree: 0%
 
 ---
 
@@ -201,7 +201,7 @@ Om du vill använda ett eget filter måste du skapa och anpassa det i Adobe Camp
 
 Mer information finns i Campaign Standardens dokumentation:
 
-* [Konfigurering av filterdefinition](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
+* [Konfigurerar filterdefinition](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
 * [Användningsfall: Anropa en resurs med en sammansatt identifieringsnyckel](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
 
 <br/>

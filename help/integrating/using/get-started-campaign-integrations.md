@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '657'
 ht-degree: 77%
 
 ---
@@ -87,7 +87,7 @@ Om du vill integrera dataflöden från andra system med Adobe Campaign kan du ta
    <td> <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">Skicka platsbaserade marknadsföringsmeddelanden med data i Campaign och data från intressepunkter</a> (Analytics for Mobile)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Utlösare i Adobe Experience Cloud<br /> </td> 
+   <td> Adobe Experience Cloud Triggers<br /> </td> 
    <td> Du kan skicka personaliserade e-postmeddelanden till dina kunder i Adobe Campaign som en reaktion på specifika beteenden som spåras på din webbplats med hjälp av Adobe Analytics.<br /> </td> 
    <td> 
     Video om hur du <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">använder Experience Cloud-utlösare i Campaign Standard</a>, <a href="../../integrating/using/abandonment-triggers-use-cases.md">användningsfall med övergivande utlösare i Campaign</a> och <a href="https://helpx.adobe.com/se/marketing-cloud/how-to/email-marketing.html">utlösare för meddelanden med återmarknadsföring baserat på webbplatsaktivitet</a> (steg 2)

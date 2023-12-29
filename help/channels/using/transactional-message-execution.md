@@ -12,7 +12,7 @@ exl-id: 4cea7207-469c-46c5-9921-ae2f8f12d141
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '740'
-ht-degree: 62%
+ht-degree: 61%
 
 ---
 
@@ -49,7 +49,7 @@ När en händelse aktiveras tilldelas den till en körningsleverans. Om händels
 
 Händelsen kunde till exempel inte tilldelas en körningsleverans eftersom dess innehåll inte var korrekt, det uppstod ett problem med åtkomsträttigheter eller varumärke, ett fel upptäcktes när regler för typologi tillämpades, o.s.v. I så fall kan du pausa meddelandet, redigera det för att åtgärda problemet och publicera det igen. Återförsökssystemet tilldelar det sedan till en ny körningsleverans.
 
-### Återförsöksprocess för att skicka meddelande {#message-sending-retry-process}
+### Meddelande som skickar återförsöksprocess {#message-sending-retry-process}
 
 När händelsen har tilldelats en körningsleverans kan transaktionsmeddelandet misslyckas på grund av ett tillfälligt fel, t.ex. om mottagarens brevlåda är full. Mer information finns i [Försök igen efter ett tillfälligt leveransfel](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 

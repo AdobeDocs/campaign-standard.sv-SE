@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 17%
+source-wordcount: '947'
+ht-degree: 15%
 
 ---
 
@@ -50,7 +50,7 @@ Om du anv채nder en 책terkommande leverans utan aggregeringsperiod s책 kan du kr�
 
 ## Om meddelandeindikatorer {#message-indicators}
 
-N채r meddelandet har skickats till kontakterna visar zon **[!UICONTROL Deployment]** din KPI-data (Key Performance Indicator). Detta inkluderar:
+N채r meddelandet har skickats till kontakterna **[!UICONTROL Deployment]** -zonen visar dina KPI-data (Key Performance Indicator), inklusive:
 
 * Samtliga meddelanden som ska levereras
 * Antal skickade meddelanden

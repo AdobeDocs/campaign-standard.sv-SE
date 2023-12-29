@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: bcb28ef5-5cad-43c1-b11b-080abc791a72
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 14%
+source-wordcount: '578'
+ht-degree: 11%
 
 ---
 
@@ -49,7 +49,7 @@ Läs mer:
 * [Förhandsgranska meddelanden](../../sending/using/previewing-messages.md)
 * [Skicka bevis](../../sending/using/sending-proofs.md)
 * [E-poståtergivning](../../sending/using/email-rendering.md)
-* [Schemalägga meddelanden](../../sending/using/about-scheduling-messages.md)
+* [Schemaläggningsmeddelanden](../../sending/using/about-scheduling-messages.md)
 * [Om typologier och typologiregler](../../sending/using/about-typology-rules.md)
 
 ## Skicka, övervaka och spåra {#send-track-messages}

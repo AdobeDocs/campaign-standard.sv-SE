@@ -7,7 +7,7 @@ topic-tags: discovering-the-interface
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
 
@@ -30,14 +30,14 @@ ht-degree: 8%
     </td>
 </tr>
 <tr>
-<td>Datamodell i Campaign</td>
+<td>Kampanjdatamodell</td>
 <td>Arbeta med REST API:er</td>
 <td>Hantera användare</td>
 <td>Konfigurera och övervaka din instans</td>
 </tr>
 </table>
 
-## Datamodell i Campaign
+## Kampanjdatamodell
 
 <img width="60px" alt="villkor" src="assets/icon_profile.svg"/>
 

@@ -11,14 +11,14 @@ level: Experienced
 exl-id: a0adb913-2ee7-4cce-9b4f-74ebb7f1ce6a
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 100%
+source-wordcount: '788'
+ht-degree: 94%
 
 ---
 
 # Redigera frågor{#editing-queries}
 
-## Om förfrågningsredigeraren {#about-query-editor}
+## Om frågeditor {#about-query-editor}
 
 Förfrågningsredigeraren är en guide som du använder för att filtrera data i Adobe Campaign-databasen.
 
@@ -30,7 +30,7 @@ Flera programfunktioner använder detta för att:
 * Definiera mål för **e-post**
 * Definiera populationer i **arbetsflödesaktiviteter**
 
-## Förfrågningsredigerargränssnitt {#query-editor-interface}
+## Frågeredigeringsgränssnitt {#query-editor-interface}
 
 Förfrågningsredigeraren består av en **palett** och en **arbetsyta**.
 
@@ -114,7 +114,7 @@ Dina frågor har nu skapats och definierats, vilket gör att du kan skapa en pop
 
 * [Avancerade funktioner](../../automating/using/advanced-expression-editing.md)
 * [Definiera filter](../../developing/using/configuring-filter-definition.md)
-* [Användningsfall: Skapa en e-postleverans en gång i veckan](../../automating/using/workflow-weekly-offer.md)
-* [Användningsfall: Skapa en leverans som segmenterats på plats](../../automating/using/workflow-segmentation-location.md)
+* [Användningsexempel: Skapa en e-postleverans en gång i veckan](../../automating/using/workflow-weekly-offer.md)
+* [Användningsfall: Skapa en leverans segmenterad på plats](../../automating/using/workflow-segmentation-location.md)
 * [Användningsfall: Skapa leveranser med ett komplement](../../automating/using/workflow-created-query-with-complement.md)
-* [Användningsfall: Omdirigera arbetsflöde som skickar en ny leverans till icke-öppnare](../../automating/using/workflow-cross-channel-retargeting.md)
+* [Användningsexempel: Omdirigeringsarbetsflöde som skickar en ny leverans till icke-öppnare](../../automating/using/workflow-cross-channel-retargeting.md)

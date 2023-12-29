@@ -11,7 +11,7 @@ exl-id: 47f53290-2190-4181-bcd5-e60287189c41
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '924'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
@@ -45,7 +45,7 @@ Du kan också skapa ett e-postmeddelande [med befintligt innehåll](#with-existi
 
 Du kan enkelt skapa e-postmeddelanden, lägga till komponenter och anpassa deras innehåll för att snabbt skicka en leverans. Du kan anpassa formatalternativen efter ditt innehåll om det behövs. Mer information om hur du hanterar formatinställningar och infogade attribut finns i [Redigera e-postformat](../../designing/using/styles.md).
 
-1. Skapa ett e-postmeddelande.
+1. Skapa ett mejl.
 1. Stäng hemsidan.
 
 ### Lägga till en ämnesrad {#add-a-subject-line}

@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 3bda4227-2a6e-4813-a288-93a4388a9787
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 5%
+source-wordcount: '1277'
+ht-degree: 3%
 
 ---
 
@@ -104,7 +104,7 @@ Följ stegen nedan för att hämta befintligt innehåll från en URL-adress:
 1. Definiera den URL som innehållet ska hämtas från.
 1. Klicka på **[!UICONTROL Confirm]**.
 
-Upptäck den här funktionen i en video.
+Upptäck den här funktionen i video.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25926?quality=12)
 
@@ -128,7 +128,7 @@ Följ stegen nedan för att hämta innehåll vid förberedelsetiden:
 
 1. Om du vill förhandsgranska URL-innehållet som har hämtats öppnar du meddelandet när det har skapats och klickar sedan på **[!UICONTROL Preview]** -knappen.
 
-Det går att anpassa den fjärr-URL som innehållet hämtas från. Följ stegen nedan för att göra detta:
+Det går att anpassa den fjärr-URL som innehållet hämtas från. Gör så här:
 
 1. Klicka på e-postetiketten ovanför skärmen för att komma åt e-postdesignern **[!UICONTROL Properties]** -fliken.
 1. Hitta **[!UICONTROL Remote URL]** fält.

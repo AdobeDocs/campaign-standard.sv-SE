@@ -11,7 +11,7 @@ exl-id: 22112517-40f7-4966-84bf-40794e5d0f79
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 3%
 >
 >Om ämnesraden är tom visas en varning i meddelandekontrollpanelen och i e-postdesignern.
 
-1. Skapa ett e-postmeddelande.
+1. Skapa ett mejl.
 1. Gå till **[!UICONTROL Properties]** -fliken på hemsidan för Email Designer (nås via hemikonen).
 1. Fyll i **[!UICONTROL Subject]** -avsnitt.
 
@@ -53,6 +53,6 @@ Om du vill definiera namnet på avsändaren som ska visas i huvudet för skickad
 
 **Relaterade ämnen:**
 
-* [Infoga ett personaliserat fält](../../designing/using/personalization.md#inserting-a-personalization-field)
+* [Infoga ett anpassningsfält](../../designing/using/personalization.md#inserting-a-personalization-field)
 * [Lägga till ett innehållsblock](../../designing/using/personalization.md#adding-a-content-block)
 * [Definiera dynamiskt innehåll i ett e-postmeddelande](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)

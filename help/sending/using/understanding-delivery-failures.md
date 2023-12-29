@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1302'
-ht-degree: 64%
+source-wordcount: '1281'
+ht-degree: 62%
 
 ---
 
@@ -108,7 +108,7 @@ En leverans kan misslyckas omedelbart (synkront fel), eller senare, efter att de
 * **Synkront fel**: Om fjärrservern som kontaktades av Adobe Campaign-leveransservern omedelbart returnerade ett felmeddelande får leveransen inte skickas till profilens server.
 * **Asynkront fel**: Ett studsmeddelande eller en SR skickades senare av den mottagande servern. Asynkrona fel kan uppstå upp till en vecka efter att en leverans har skickats.
 
-## Kvalifikation av studsmeddelanden {#bounce-mail-qualification}
+## E-poststudsar {#bounce-mail-qualification}
 
 För synkrona felmeddelanden vid leveransfel avgör Adobe Campaign Enhanced MTA (Message Transfer Agent) studstyp och kvalificering och skickar tillbaka informationen till Campaign.
 

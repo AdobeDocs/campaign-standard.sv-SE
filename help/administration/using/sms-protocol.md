@@ -8,7 +8,7 @@ level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '8650'
+source-wordcount: '8640'
 ht-degree: 0%
 
 ---
@@ -700,7 +700,7 @@ Med den här inställningen kan du bara lägga till ett TLV-alternativ per medde
 >
 >Från och med version 21.1 är det nu möjligt att lägga till fler än en valfri parameter. Mer information om detta hittar du i det här [avsnittet](../../administration/using/sms-protocol.md#automatic-reply-tlv).
 
-### Automatiskt svar skickat till MO {#automatic-reply}
+### Automatiskt svar skickat till flerlägesobjektet {#automatic-reply}
 
 Med den här funktionen kan du snabbt svara på text till MO och hantera kortkod som skickas till blockeringslista.
 

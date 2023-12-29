@@ -11,8 +11,8 @@ level: Beginner
 exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
 source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 80%
+source-wordcount: '1212'
+ht-degree: 77%
 
 ---
 
@@ -47,7 +47,7 @@ Du kan duplicera arbetsflöden. Håll **[!UICONTROL Marketing Activities]** mark
 
 ### Antal arbetsflöden
 
-Som standard rekommenderar vi **inte köra fler än 20 aktiva arbetsflöden samtidigt** (detta gäller inte arbetsflöden som väntar på en schemalagd körning). När du har nått den gränsen köas arbetsflöden för att inte påverka prestandan.
+Som standard rekommenderar vi **inte köra fler än 20 aktiva arbetsflöden samtidigt** (detta gäller inte arbetsflöden som väntar på en schemalagd körning). När du har klickat på den gränsen köas arbetsflöden för att inte påverka prestanda.
 
 I vissa sammanhang kan du behöva köra fler än 20 arbetsflöden. Om så är fallet måste du kontrollera användningsexemplen med en Campaign-expert och kontakta Adobes kundtjänst för att höja gränsen.
 
@@ -95,7 +95,7 @@ Om du vill få åtkomst till detaljvyn för övergångarna markerar du alternati
 ![](assets/keep_interim_best_practices.png)
 
 
-### Märkningsaktiviteter{#activity-labeling}
+### Märkningsverksamhet{#activity-labeling}
 
 När du utvecklar ditt arbetsflöde genereras ett namn för varje aktivitet precis som för alla Adobe Campaign-objekt. Namnet på en aktivitet genereras av verktyget och kan inte redigeras men vi rekommenderar att du ger den ett unikt namn när du konfigurerar den.
 
@@ -143,7 +143,7 @@ Du kan komma åt arbetsflödesloggar för att övervaka utförandet av dina akti
 Fliken Åtgärder innehåller information om aktiviteternas körningssekvens. Klicka på en aktivitet om du vill ha mer information om en aktivitet.
 Mer information finns i [Övervaka arbetsflödeskörning](../../automating/using/monitoring-workflow-execution.md).
 
-#### Felsökning av datahanteringsaktiviteter{#troubleshooting-data-management-activities}
+#### Felsöka datahanteringsaktiviteter{#troubleshooting-data-management-activities}
 
 Du kan analysera SQL-förfrågningar på fliken Logg.
 
@@ -157,12 +157,12 @@ Du kan analysera SQL-förfrågningar på fliken Logg.
 
 Förfrågningen visas i loggkolumnen **[!UICONTROL Message]** .
 
-### Användning av leveransloggar{#using-delivery-logs}
+### Använda leveransloggar{#using-delivery-logs}
 
 Leveransloggar gör det möjligt att övervaka leveransprocessen. Uteslutningsloggar returnerar uteslutna meddelanden när sändningen förbereds. När du skickar loggar visas leveransstatus för varje profil.
 Mer information finns i [Om leveransfel](../../sending/using/understanding-delivery-failures.md).
 
-### Användning av leveransvarningar{#delivery-alerting}
+### Använda leveransvarningar{#delivery-alerting}
 
 Funktionen för leveransvarning är ett varningssystem som gör att en grupp användare automatiskt kan ta emot meddelanden som innehåller information om hur leveransen utförs.
 Mer information finns i [Leveransvarning](../../sending/using/receiving-alerts-when-failures-happen.md).

@@ -10,8 +10,8 @@ level: Beginner
 exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '2031'
-ht-degree: 2%
+source-wordcount: '2038'
+ht-degree: 1%
 
 ---
 
@@ -85,7 +85,7 @@ Om du vill skicka meddelanden baserat på specifika villkor till olika användar
 
 1. Välj den grupp av mottagare som du vill meddela i dialogrutan **[!UICONTROL Alert group]** listruta. Information om hur du ändrar eller skapar en grupp finns i [Skapa en säkerhetsgrupp och tilldela användare](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users).
 1. Från **[!UICONTROL Delivery alerting criteria]** avsnitt, klicka **[!UICONTROL Create element]** för att lägga till villkor. Se [Om varningsvillkor](#about-alerting-criteria).
-1. Markera knappen **[!UICONTROL Edit properties]**. I **[!UICONTROL Criteria parameters]** definierar du hur villkoren ska tillämpas. Se [Kriterieparametrar](#criteria-parameters).
+1. Välj **[!UICONTROL Edit properties]** -knappen. I **[!UICONTROL Criteria parameters]** definierar du hur villkoren ska tillämpas. Se [Kriterieparametrar](#criteria-parameters).
 1. Klicka **[!UICONTROL Create]** för att spara instrumentpanelen.
 
 Varje gång en leverans uppfyller de villkor som du har definierat i den här kontrollpanelen skickas ett varningsmeddelande till den angivna användargruppen.
@@ -134,7 +134,7 @@ För varje kriterium kan du definiera följande inställningar:
 
 * [Skicka loggar](../../sending/using/monitoring-a-delivery.md#sending-logs)
 * [Varningsfrekvens](#alerting-frequency)
-* [Ikoner för marknadsföringsaktiviteter och statusar](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
+* [Marknadsföringsaktivitetsikoner och statusar](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
 
 ### Skapa ett leveransvarningsvillkor {#creating-a-delivery-alerting-criterion}
 

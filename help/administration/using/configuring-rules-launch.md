@@ -11,7 +11,7 @@ level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
 source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '983'
 ht-degree: 2%
 
 ---
@@ -175,7 +175,7 @@ Skicka spårningsdata till [!DNL Adobe Campaign Standard] Om du vill få rapport
 
 1. Välj **[!UICONTROL Add post body]** kryssruta.
 
-1. Skriv **i **[!UICONTROL Post Body]**{}**.
+1. I **[!UICONTROL Post Body]**, typ **{}**.
 
 1. I **[!UICONTROL Content Type]**, typ **application/json**.
 

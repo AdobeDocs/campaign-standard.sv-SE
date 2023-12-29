@@ -12,7 +12,7 @@ exl-id: d430d0e7-1201-49c6-aad3-a2c03d02290c
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -23,7 +23,7 @@ Redigeraren för SMS- och push-innehåll är indelad i två olika delar där du 
 1. I **åtgärdsfältet** finns de allmänna alternativen för sidan.  Du kan infoga personaliserade fält eller innehållsblock, lägga till villkorlig text och förhandsgranska SMS-innehållet här.  Se [åtgärdsfältet för redigeraren av SMS- och push-innehåll](#sms-and-push-content-editor-action-bar).
 1. I skärmens **redigeringszon** kan du ange textmeddelandet direkt och välja vart du vill infoga personaliseringen.  Se [Lägen för SMS- och push-innehåll](#sms-and-push-content-edition-modes).
 
-## Åtgärdsfält för redigering av SMS- och push-innehåll {#sms-and-push-content-editor-action-bar}
+## Åtgärdsfält för SMS och push-redigering av innehåll {#sms-and-push-content-editor-action-bar}
 
 Åtgärdsfältet har olika knappar som gör att du kan interagera med innehållet som skapas.
 
@@ -82,7 +82,7 @@ Redigeraren för SMS- och push-innehåll är indelad i två olika delar där du 
  </tbody> 
 </table>
 
-## Lägen för SMS och push-innehållsredigering {#sms-and-push-content-edition-modes}
+## Lägen för SMS och push-innehållsutgåvor {#sms-and-push-content-edition-modes}
 
 Redigeraren av SMS- och push-innehåll har följande funktioner:
 

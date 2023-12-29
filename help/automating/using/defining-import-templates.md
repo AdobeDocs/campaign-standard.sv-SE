@@ -6,8 +6,8 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 96%
+source-wordcount: '787'
+ht-degree: 95%
 
 ---
 
@@ -80,5 +80,5 @@ importeringsmallen är nu tillgänglig för användarna och kan användas för a
 
 * [Arbetsflöden](../../automating/using/get-started-workflows.md)
 * [Importera och exportera data](../../automating/using/about-data-import-and-export.md)
-* [Exempel: Importera mall för arbetsflöde](../../automating/using/creating-import-workflow-templates.md)
+* [Exempel: Importera arbetsflödesmall](../../automating/using/creating-import-workflow-templates.md)
 

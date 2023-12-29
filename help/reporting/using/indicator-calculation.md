@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 47cc11d7-89e8-4d1c-9638-5f66a53cef7e
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 2%
+source-wordcount: '738'
+ht-degree: 1%
 
 ---
 
@@ -66,7 +66,7 @@ Tabellerna nedan visar en lista över indikatorer som används i de olika rappor
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Klicka på<br /> </td> 
+   <td> Klicka<br /> </td> 
    <td> @klickningar<br /> </td> 
    <td> count(@trackingUrlType=1, 10 eller 11)<br /> </td> 
    <td> </td> 
@@ -281,7 +281,7 @@ Tabellerna nedan visar en lista över indikatorer som används i de olika rappor
    <td> @unique(@count(status=vy))<br /> </td> 
   </tr> 
   <tr> 
-   <td> Klicka på<br /> </td> 
+   <td> Klicka<br /> </td> 
    <td> @klickningar<br /> </td> 
    <td> @count(status=interact)<br /> </td> 
   </tr> 

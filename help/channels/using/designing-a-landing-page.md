@@ -11,14 +11,14 @@ level: Intermediate
 exl-id: 28398843-a170-48cf-b9c0-dca7af56236d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1666'
-ht-degree: 97%
+source-wordcount: '1672'
+ht-degree: 93%
 
 ---
 
 # Utforma en landningssida{#designing-a-landing-page}
 
-## Om utformning av innehållet på en landningssida {#about-content-design}
+## Innehållsdesign för landningssidans innehåll {#about-content-design}
 
 Landningssidor skapas på samma sätt som alla andra [marknadsföringsaktiviteter](../../start/using/marketing-activities.md#about-marketing-activities).
 
@@ -32,11 +32,11 @@ Innehållet på landningssidor utformas med Campaign-innehållsredigeraren.
 
 Den här sidan beskriver egenskaperna för redigeraren för landningssidans innehåll. Mer information om åtgärder som är gemensamma för en eller flera marknadsföringsaktiviteter finns i följande avsnitt i guiden **Designa e-postinnehåll**:
 
-* [Infoga ett personaliserat fält](../../designing/using/personalization.md#inserting-a-personalization-field)
+* [Infoga ett anpassningsfält](../../designing/using/personalization.md#inserting-a-personalization-field)
 * [Lägga till ett innehållsblock](../../designing/using/personalization.md#adding-a-content-block)
 * [Infoga en länk](../../designing/using/links.md#inserting-a-link)
 * [Infoga bilder](../../designing/using/images.md)
-* [Allmänna tips för innehållsdesign](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)
+* [Allmänna bästa metoder för innehållsdesign](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)
 
 >[!NOTE]
 >Om du har en landningssida som redan är fördefinierad i HTML-format kan du importera den direkt med knappen **[!UICONTROL Change content]**.
@@ -237,7 +237,7 @@ Innehållsredigeraren är indelad i tre olika avsnitt. I de här avsnitten kan d
  </tbody> 
 </table>
 
-## Hantera landningssidans struktur och format{#managing-landing-page-structure-and-style}
+## Hantera landningssidans struktur och stil{#managing-landing-page-structure-and-style}
 
 ### Hantera block i innehållsredigeraren {#managing-blocks-in-the-content-editor}
 

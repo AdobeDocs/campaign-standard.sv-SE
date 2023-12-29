@@ -1,6 +1,6 @@
 ---
 title: Segmentering per åldersgrupp
-description: På den här sidan visas en segmentering av databasprofiler utifrån deras åldersgrupp. Målet med arbetsflödet är att skicka ett specifikt e-postmeddelande till varje åldersgrupp.
+description: På den här sidan visas en segmentering av databasprofiler utifrån deras åldersgrupp. Målet med arbetsflödet är att skicka ett specifikt e-postmeddelande för varje åldersgrupp.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -11,14 +11,14 @@ level: Intermediate
 exl-id: dab7ef86-4776-48f4-be9a-37de316e0dd9
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 66%
+source-wordcount: '204'
+ht-degree: 51%
 
 ---
 
 # Segmentering per åldersgrupp {#segmentation-age-groups}
 
-I följande exempel visas en segmentering av databasprofiler utifrån deras åldersgrupp.  
+I följande exempel visas en segmentering av databasprofiler utifrån deras åldersgrupp.
 
 Målet med arbetsflödet är att skicka ett specifikt e-postmeddelande till varje åldersgrupp.  Med tanke på att det här arbetsflödet är en del av en testkampanj så kan varje segment endast innehålla maximalt 100 profiler som väljs slumpmässigt för att både använda begränsade och representativa målgrupper.
 

@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: e38ff3dd-8fb0-419b-9090-a3165852bf83
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 94%
+source-wordcount: '858'
+ht-degree: 90%
 
 ---
 
@@ -42,10 +42,10 @@ Förberedelsen av meddelande utlöses enligt arbetsflödets körningsparametrar.
 
 **Relaterade ämnen:**
 
-* [Användningsfall: Skapa en e-postleverans en gång i veckan](../../automating/using/workflow-weekly-offer.md)
-* [Användningsfall: Skapa en leverans som segmenterats på plats](../../automating/using/workflow-segmentation-location.md)
+* [Användningsexempel: Skapa en e-postleverans en gång i veckan](../../automating/using/workflow-weekly-offer.md)
+* [Användningsfall: Skapa en leverans segmenterad på plats](../../automating/using/workflow-segmentation-location.md)
 * [Användningsfall: Skapa leveranser med ett komplement](../../automating/using/workflow-created-query-with-complement.md)
-* [Användningsfall: Omdirigera arbetsflöde som skickar en ny leverans till icke-öppnare](../../automating/using/workflow-cross-channel-retargeting.md)
+* [Användningsexempel: Omdirigeringsarbetsflöde som skickar en ny leverans till icke-öppnare](../../automating/using/workflow-cross-channel-retargeting.md)
 * [Användningsexempel: Födelsedag](../../automating/using/birthday-delivery.md)
 
 ## Konfiguration {#configuration}

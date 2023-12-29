@@ -10,14 +10,14 @@ level: Intermediate
 exl-id: 21abf3c2-d319-40a8-9479-1fc02c82e5d2
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '2341'
-ht-degree: 99%
+source-wordcount: '2374'
+ht-degree: 98%
 
 ---
 
 # Utmattningsregler{#fatigue-rules}
 
-## Om utmattningsregler {#about-fatigue-rules}
+## Om trötthetsregler {#about-fatigue-rules}
 
 Utmattningsregler gör det möjligt för marknadsförare att ange globala affärsregler för flera kanaler som automatiskt utesluter profiler som redan fått meddelanden från kampanjer.
 
@@ -84,7 +84,7 @@ Vid leveransförberedelsen exkluderas profiler från leveransen, om tillämpligt
 >
 >Ska utmattningsregler gälla måste du definiera ett kontaktdatum för leveransen. Om du väljer att skicka meddelanden direkt kommer utmattningsregler inte att tillämpas.
 
-## Välja kanalen {#choosing-the-channel}
+## Välja kanal {#choosing-the-channel}
 
 Utmattningsregler är tillgängliga för olika kanaler. Kanalen definieras i fältet **[!UICONTROL Channel]** för inställningarna av typologiregler. Du kan antingen välja en kanal eller markera **[!UICONTROL All channels]**.
 
@@ -154,7 +154,7 @@ Att förfina tröskelvärdet för leveranser skiljer sig från att begränsa til
 * **[!UICONTROL Application criteria]**: du väljer att köra regeln eller inte enligt specifika villkor. Om ditt programvillkor till exempel är &quot;Etikett börjar med nyhetsbrev&quot;, gäller regeln bara för leveranser som uppfyller det här villkoret. Om leveransetiketten börjar med &quot;Kampanj&quot; kommer regeln inte att köras alls.
 * **[!UICONTROL Refine threshold on profiles and deliveries > Deliveries to count]**: alla leveranser som använder den här typologiregeln kommer att köra regeln, men du bestämmer vilka du vill räkna bland de tidigare och schemalagda leveranserna. Om begränsningen till exempel är &quot;Etikett börjar med nyhetsbrev&quot; kommer regeln att köras även om leveransetiketten börjar med &quot;Kampanj&quot;. Under den valda glidande perioden räknas antalet leveranser vars etikett börjar med &quot;Nyhetsbrev&quot;.
 
-## Ange glidande period {#setting-the-sliding-period}
+## Ställa in glidande period {#setting-the-sliding-period}
 
 Utmattningsregler definieras i vardagar. Perioden konfigureras i avsnittet **[!UICONTROL Sliding period]**, till exempel 2 veckor, 7 dagar eller 5 timmar.
 
@@ -166,7 +166,7 @@ Om du till exempel definierar en 48-timmarsperiod kommer systemet att leta 48 ti
 
 Om du vill begränsa antalet leveranser som beaktas till en tvåveckorsperiod anger du **Dag** och **7** eller 1 vecka i avsnittet **Glidande period**. Leveranser som skickas upp till 7 dagar före leveransdatumet och som schemaläggs upp till 7 dagar efter leveransdatumet då regeln tillämpas tas med i beräkningen.
 
-## Visa utmattningsresultaten {#viewing-the-fatigue-results}
+## Visa resultaten av trötthet {#viewing-the-fatigue-results}
 
 Vid leveransförberedelsen exkluderas profiler från leveransen, om tillämpligt, beroende på hur många leveranser som redan har skickats till dem. Klicka på knappen längst ned till höger i blocket **[!UICONTROL Deployment]** om du vill visa resultaten av körning av utmattningsregeln.
 
@@ -186,7 +186,7 @@ Det finns tre flikar som visar information om resultaten utmattningskörning, in
 
   ![](assets/fatigue19.png)
 
-## Visa sammanfattningsrapporten om utmattningsregler {#viewing-the-fatigue-rule-summary-report}
+## Visa sammanfattningsrapporten om trötthetsregler {#viewing-the-fatigue-rule-summary-report}
 
 Adobe Campaign innehåller en dedikerad rapport om utmattningsregler som hjälper er att förstå hur de tillämpas på era kampanjer. På så sätt kan ni lära er hur era kampanjer påverkar varandra och göra rätt justeringar.
 

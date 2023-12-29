@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1764'
-ht-degree: 80%
+source-wordcount: '1720'
+ht-degree: 77%
 
 ---
 
@@ -62,7 +62,7 @@ Ange följande information för ett externt SFTP-konto:
 * Portnummer. Till exempel **22**.
 * Autentiseringsuppgifter för SFTP-server: Kontonamn och lösenord som används för att ansluta till servern.
 
-### Adobe SFTP-serverrekommendationer {#adobe-hosted-sftp-server-recommendations}
+### SFTP-serverrekommendationer från Adobe {#adobe-hosted-sftp-server-recommendations}
 
 När du hanterar filer och data för ETL-ändamål lagras dessa filer på en SFTP-värdserver som tillhandahålls av Adobe. Denna SFTP är avsedd att vara ett tillfälligt lagringsutrymme där du kan styra lagring och borttagning av filer.
 
@@ -124,7 +124,7 @@ Ange slutpunkten som är associerad med **[!UICONTROL AWS Region]**. Du kan kont
 >
 >Din **[!UICONTROL Receiver server]** ska ange din adress utan din AWS-region. Den läggs sedan automatiskt till i din URL.
 
-### Kontorekommendationer för Amazon S3 {#amazon-s3-account-recommendations}
+### Amazon S3-kontorekommendationer {#amazon-s3-account-recommendations}
 
 Vi rekommenderar att du följer dessa rekommendationer för att hjälpa dig att konfigurera ditt Amazon S3-konto:
 
@@ -132,7 +132,7 @@ Vi rekommenderar att du följer dessa rekommendationer för att hjälpa dig att 
 * När du skapar ett externt konto aktiverar du krypteringen för att lagra känsliga data i S3-bucket genom att markera rutan **[!UICONTROL Keep files in S3 encrypted]**.
 * Bevilja bucketbehörigheter för att ange vem som får åtkomst till objektet i en bucket. Mer information om bucketbehörighet finns i [Amazon S3-dokumentationen](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html).
 
-## Externt Adobe Experience Manager-konto {#adobe-experience-manager-external-account}
+## Adobe Experience Manager externt konto {#adobe-experience-manager-external-account}
 
 Externa Adobe Experience Manager-konton används vid integrering av Campaign med Experience Manager.
 
@@ -190,7 +190,7 @@ Ange följande information för ett externt Microsoft Azure Blob Storage-konto:
 
 När konfigurationen är klar klickar du på **[!UICONTROL Test connection]** för att koppla Adobe Campaign till Microsoft Azure Blob Storage.
 
-### Rekommendationer för Microsoft Azure Blob Storage {#azure-blob-recommendations}
+### Microsoft Azure Blob Storage-rekommendationer {#azure-blob-recommendations}
 
 **Kryptering**
 

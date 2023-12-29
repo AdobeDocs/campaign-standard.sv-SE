@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
 source-git-commit: 6c96a5d294c6e96d20571d176898290c9c026f0b
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 89%
+source-wordcount: '1596'
+ht-degree: 87%
 
 ---
 
@@ -19,7 +19,7 @@ Om du vill skicka SMS-meddelanden måste ett eller flera externa konton konfigur
 
 Stegen för att skapa och ändra ett externt konto finns i avsnittet [Externa konton](../../administration/using/external-accounts.md).  Nedan hittar du specifika parametrar för externa konton för att skicka SMS-meddelanden.
 
-## Definiera en SMS-dirigering {#defining-an-sms-routing}
+## Definiera en SMS-routning {#defining-an-sms-routing}
 
 >[!IMPORTANT]
 >
@@ -280,7 +280,7 @@ CR: Radretur
 
 **Avancerade tecken (räknas två gånger)**
 
-^ { } [~] | €
+^ {} [~] | €
 
 ### SMSC-specifikationer {#smsc-specifics}
 
@@ -315,7 +315,7 @@ Med funktionen **[!UICONTROL Define a specific mapping of encodings]** kan du de
 
   ![](assets/sms_data_coding1.png)
 
-### Automatiskt svar skickat till MO {#automatic-reply-sent-to-the-mo}
+### Automatiskt svar skickat till flerlägesobjektet {#automatic-reply-sent-to-the-mo}
 
 När en profil svarar på ett SMS-meddelande som skickades via Campaign kan ni konfigurera meddelanden som automatiskt skickas tillbaka till dem samt vilken åtgärd som ska utföras.
 

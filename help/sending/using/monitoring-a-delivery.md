@@ -12,13 +12,13 @@ exl-id: ddc92077-df73-411d-a161-3263581e6945
 source-git-commit: ed60bde4785da9a8cc5a6cc0efcdb24e2c1f65e3
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 82%
+ht-degree: 78%
 
 ---
 
 # Övervaka en leverans{#monitoring-a-delivery}
 
-Det finns flera sätt att övervaka en leverans och mäta dess påverkan. Som funktionell administratör kan du komma åt meddelandeloggar och leveransloggar.
+Det finns flera sätt att övervaka en leverans och mäta dess effekt. Som funktionell administratör kan du komma åt meddelandeloggar och leveransloggar.
 
 >[!IMPORTANT]
 >

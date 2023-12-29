@@ -12,7 +12,7 @@ exl-id: d012e2e7-8022-4bfe-8290-3c512b60d9cf
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 91%
+ht-degree: 89%
 
 ---
 
@@ -48,7 +48,7 @@ När innehållet i ett program eller en kampanj visas blir motsvarande ruta blå
 Varje element har en ikon som motsvarar dess typ:
 
 * ![](assets/timeline_program_icon.png) Program
-* ![](assets/timeline_campaign_icon.png) Kampanj
+* ![](assets/timeline_campaign_icon.png) Campaign
 * ![](assets/timeline_lp_icon.png) Landningssida
 * ![](assets/timeline_email_icon.png) E-post
 * ![](assets/timeline_sms_icon.png) SMS

@@ -11,7 +11,7 @@ exl-id: 1cd471e3-5332-4119-b342-2c3c8503fdd1
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 48%
+ht-degree: 33%
 
 ---
 
@@ -50,12 +50,12 @@ Du kan välja data med följande aktiviteter:
 
 Med Adobe Campaign kan du bearbeta uppsättningar på inkommande data. Du kan alltså kombinera flera populationer, utesluta en del av dem eller bara behålla data som är gemensamma för flera mål.
 
-* Med den här **[!UICONTROL Union]** aktiviteten kan du gruppera om resultatet av flera aktiviteter till ett enda mål. Se [Union](../../automating/using/union.md) -avsnitt.
-* Med hjälp av den här **[!UICONTROL Intersection]** aktiviteten kan du välja att endast behålla de element som är gemensamma för de olika inkommande populationerna i aktiviteten. Se [Skärningspunkt](../../automating/using/intersection.md) -avsnitt.
-* Med aktiviteten **[!UICONTROL Exclusion]** kan du utesluta element från en population enligt vissa kriterier. Se [Uteslutning](../../automating/using/exclusion.md) -avsnitt.
-* Med aktiviteten **[!UICONTROL Segmentation]** kan du skapa ett eller flera segment från en population som beräknas av aktiviteter som placerats tidigare i arbetsflödet.  I slutet av aktiviteten kan de bearbetas i en eller olika övergångar. Se [Segmentering](../../automating/using/segmentation.md) -avsnitt.
+* The **[!UICONTROL Union]** kan du gruppera om resultatet av flera aktiviteter till ett enda mål. Se [Union](../../automating/using/union.md) -avsnitt.
+* The **[!UICONTROL Intersection]** Med hjälp av aktiviteten kan du bara behålla de element som är gemensamma för de olika inkommande populationerna i aktiviteten. Se [Skärningspunkt](../../automating/using/intersection.md) -avsnitt.
+* The **[!UICONTROL Exclusion]** kan du utesluta element från en population enligt vissa kriterier. Se [Uteslutning](../../automating/using/exclusion.md) -avsnitt.
+* Med aktiviteten **[!UICONTROL Segmentation]** kan du skapa ett eller flera segment från en population som beräknas av aktiviteter som placerats tidigare i arbetsflödet.  I slutet av aktiviteten kan de bearbetas i en enda övergång eller i olika övergångar. Se [Segmentering](../../automating/using/segmentation.md) -avsnitt.
 
-## Berika data {#enriching-data}
+## Förbättra data {#enriching-data}
 
 Identifierade och insamlade data kan berikas, aggregeras och ändras för att optimera målkonstruktionen. Ni kan förenkla och optimera målgruppsprocesserna genom att inkludera data som inte är modellerade i datamarknaden.
 

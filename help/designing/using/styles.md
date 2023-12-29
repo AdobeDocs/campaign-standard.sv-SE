@@ -11,7 +11,7 @@ exl-id: 8daeb12d-4170-464f-ba33-afb681f72a91
 source-git-commit: 5435e1dbfbe08399c488322320ac5bb8e681a79d
 workflow-type: tm+mt
 source-wordcount: '1038'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -146,7 +146,7 @@ Nedan visas de tillgängliga bakgrundsinställningarna som du kan använda.
 
 ### Exempel: justera lodrät justering och utfyllnad {#example--adjusting-vertical-alignment-and-padding}
 
-Du vill justera utfyllnaden och den lodräta justeringen inuti en strukturkomponent som består av tre kolumner. Följ stegen nedan för att göra detta:
+Du vill justera utfyllnaden och den lodräta justeringen inuti en strukturkomponent som består av tre kolumner. Gör så här:
 
 1. Markera strukturkomponenten direkt i e-postmeddelandet eller med strukturträdet som är tillgängligt från vänster **Palett**.
 1. Från **kontextuellt verktygsfält**, klicka **[!UICONTROL Select a column]** och välj den som du vill redigera. Du kan också välja det i strukturträdet.
@@ -155,7 +155,7 @@ Du vill justera utfyllnaden och den lodräta justeringen inuti en strukturkompon
 
    De redigerbara parametrarna för den kolumnen visas i **[!UICONTROL Settings]** till höger.
 
-1. Under **[!UICONTROL Vertical alignment]** väljer du **[!UICONTROL Up]**.
+1. Under **[!UICONTROL Vertical alignment]**, markera **[!UICONTROL Up]**.
 
    ![](assets/des_vertical_alignment.png)
 

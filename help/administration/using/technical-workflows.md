@@ -8,8 +8,8 @@ level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 89%
+source-wordcount: '704'
+ht-degree: 88%
 
 ---
 
@@ -102,7 +102,7 @@ Tekniska arbetsflöden används för att hantera självutlösande bakgrundsproce
   <tr> 
    <td> <span class="uicontrol">Återställningsspårningsloggar</span> <br /> </td> 
    <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
-   <td> Det här arbetsflödet återställer förlorade spårningsloggar. Observera att det här tekniska arbetsflödet används i särskilda sammanhang och begränsas till enbart intern användning i Adobe. <br> Som standard startas det var 10:e minut.<br /> </td> 
+   <td> Det här arbetsflödet återställer förlorade spårningsloggar. Observera att det här tekniska arbetsflödet används i särskilda sammanhang och begränsas till enbart intern användning i Adobe. <br> Som standard startas den var 10:e minut.<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">Uppdatera leveranskörning</span> <br/> </td> 

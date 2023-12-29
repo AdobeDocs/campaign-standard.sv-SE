@@ -12,7 +12,7 @@ exl-id: c75471aa-b947-4488-a569-5412d3825c64
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 83%
+ht-degree: 79%
 
 ---
 
@@ -38,12 +38,12 @@ Om du vill få direkt åtkomst till innehållet i varje aktivitet väljer du ett
 
 Knappen **[!UICONTROL Create]** kan användas för att skapa en ny aktivitet. Mer information om detta hittar du i avsnittet [Skapa en marknadsföringsaktivitet](#creating-a-marketing-activity) .
 
-## Ikoner för marknadsföringsaktiviteter och statusar {#marketing-activity-icons-and-statuses}
+## Marknadsföringsaktivitetsikoner och statusar {#marketing-activity-icons-and-statuses}
 
 I huvudzonen har varje typ av aktivitet i listan en ikon:
 
 * ![](assets/marketing_program_icon.png) Program
-* ![](assets/marketing_campaign_icon.png) Kampanj
+* ![](assets/marketing_campaign_icon.png) Campaign
 * ![](assets/marketing_email_icon.png) E-post
 * ![](assets/marketing_sms_icon.png) SMS
 * ![](assets/marketing_push_icon.png) Push-meddelande

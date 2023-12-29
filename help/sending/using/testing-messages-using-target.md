@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1533'
 ht-degree: 4%
 
 ---
@@ -177,7 +177,7 @@ De viktigaste stegen för detta är följande:
 1. Bygg ett arbetsflöde för målprofiler och skicka nyhetsbrevet.
 1. Konfigurera meddelandets profilersättningar.
 1. Förhandsgranska meddelandet med målprofiler.
-1. Skicka korrektur.    
+1. Skicka korrektur
 
 ### Steg 1: Skapa målgruppen som ska användas för testning
 

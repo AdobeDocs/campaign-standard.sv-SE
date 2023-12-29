@@ -11,7 +11,7 @@ exl-id: d1714101-bad0-40c1-8d60-90469d033197
 source-git-commit: 146dfea38bd456a5d9200b0632d4aa279b10a7b9
 workflow-type: tm+mt
 source-wordcount: '592'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -69,7 +69,7 @@ När du redigerar ett e-postmeddelande med [E-postdesigner](../../designing/usin
 
 **Relaterade ämnen**:
 
-* [Infoga ett personaliserat fält](../../designing/using/personalization.md#inserting-a-personalization-field)
+* [Infoga ett anpassningsfält](../../designing/using/personalization.md#inserting-a-personalization-field)
 * [Lägga till innehållsblock](../../designing/using/personalization.md#adding-a-content-block)
 * [Definiera dynamiskt innehåll](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
 

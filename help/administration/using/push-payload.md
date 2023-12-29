@@ -8,8 +8,8 @@ level: Experienced
 exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 3%
+source-wordcount: '1088'
+ht-degree: 2%
 
 ---
 
@@ -206,7 +206,7 @@ Om du vill förstå aspekter av en android-nyttolast hänvisar du till [Meddelan
 | Meddelanderubrik <br>Meddelandetext | alert → title <br> alert → body | title <br>brödtext | Dessa data innehåller information om varningsmeddelandet.<br>Titel- och brödnycklarna anger innehållet i aviseringen. |
 | Spela upp ett ljud | ljud | ljud | Ett anpassat ljud som spelas upp med varningen. |
 | Värde för märket | bricka | bricka | Ett heltalsvärde som ska användas för att märka appens ikon. |
-| Lägg till en djuplänk | uri | NA | Med en djuplänk kan du dirigera användarna direkt till innehåll som finns inuti programmet (i stället för att öppna en webbläsarsida). |
+| Lägg till en deeplink | uri | NA | Med en djuplänk kan du dirigera användarna direkt till innehåll som finns inuti programmet (i stället för att öppna en webbläsarsida). |
 | Kategori | kategori | kategori | Visa anpassade åtgärder med ett fjärrmeddelande. <br>Kategorinyckeln hjälper systemet att visa åtgärder för den kategorin som knappar i varningsgränssnittet. |
 | Anpassade fält | custom_field1, custom_field2 ... | custom_field1, custom_field2 ... | Alla anpassade data som du vill skicka till appen. |
 | URL för multimediainnehåll (bild-, gif-, ljud- och videofiler)<br>(Gäller endast iOS 10 eller senare) | media-attachment-url | NA | URL:er till dina mediefiler för att lägga till avancerat innehåll i meddelandet. <br>När du anger ett värde för denna URL skickas flaggan för ändringsbart innehåll automatiskt till nyttolasten. <br> (Gäller endast iOS 10 eller senare) |

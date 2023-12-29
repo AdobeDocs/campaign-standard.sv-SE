@@ -1,6 +1,6 @@
 ---
 title: Födelsedagsleverans
-description: Det här exemplet är ett födelsedagsarbetsflöde. Varje dag skickas ett e-postmeddelande till profiler vars födelsedag infaller på den dagen.
+description: Det här exemplet är ett födelsedagsarbetsflöde. Varje dag skickas ett e-postmeddelande till profiler vars födelsedag är den dagen.
 audience: automating
 content-type: reference
 topic-tags: channel-activities
@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 535ddbce-d8ba-4578-9e37-10604291c95d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 69%
+source-wordcount: '174'
+ht-degree: 52%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 69%
 
 ![](assets/wkf_delivery_example_1.png)
 
-Det här exemplet är ett födelsedagsarbetsflöde. Varje dag skickas ett e-postmeddelande till profiler vars födelsedag infaller på den dagen.
+Det här exemplet är ett födelsedagsarbetsflöde. Varje dag skickas ett e-postmeddelande till profiler vars födelsedag är den dagen.
 
 Så här skapar du arbetsflödet:
 

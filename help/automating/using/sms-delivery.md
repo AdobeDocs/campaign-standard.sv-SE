@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 65d3f3d8-039d-4188-a6a4-0065724aa82b
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 100%
+source-wordcount: '785'
+ht-degree: 93%
 
 ---
 
@@ -24,10 +24,10 @@ ht-degree: 100%
 
 ![](assets/recurrentsms.png)
 
-Med den här **[!UICONTROL SMS delivery]**-aktiviteten kan du konfigurera sändning av ett SMS i ett arbetsflöde. Det kan vara sändning av ett SMS som bara skickas en gång, eller ett återkommande SMS.
+Med den här **[!UICONTROL SMS delivery]**-aktiviteten kan du konfigurera sändning av ett SMS i ett arbetsflöde. Detta kan vara ett enda SMS som skickas endast en gång, eller ett återkommande SMS.
 
-* **SMS-meddelanden som skickas en gång är förinställda SMS.**
-* **Med återkommande SMS kan du skicka samma SMS flera gånger till olika mål under en angiven period.** Du kan samla leveranser per period för att få rapporter som motsvarar dina behov.
+* **Skicka en gång** SMS-meddelanden är standard-SMS som skickas en gång.
+* **Återkommande** Med SMS-meddelanden kan du skicka samma SMS flera gånger till olika mål under en angiven period. Du kan samla leveranser per period för att få rapporter som motsvarar dina behov.
 
 ## Kontext för användning {#context-of-use}
 

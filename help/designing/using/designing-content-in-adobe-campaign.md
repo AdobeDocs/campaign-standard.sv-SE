@@ -11,7 +11,7 @@ exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
 source-wordcount: '1239'
-ht-degree: 88%
+ht-degree: 84%
 
 ---
 
@@ -45,7 +45,7 @@ Du kan även definiera dynamiskt innehåll som varierar beroende på vilken prof
 
 Förbättra meddelanden och landningssidor med både länkar och bilder. Se [Infoga en länk](../../designing/using/links.md#inserting-a-link) och [Infoga bilder](../../designing/using/images.md#inserting-images).
 
-## Gränssnitt i e-postdesignern {#email-designer-interface}
+## Gränssnitt för e-postdesignern {#email-designer-interface}
 
 E-postdesignern erbjuder många olika alternativ som du kan använda för att skapa, redigera och anpassa alla delar av ditt innehåll.
 
@@ -65,7 +65,7 @@ Du hittar fler allmänna alternativ och inställningar i **Verktygsfältet** (4)
 
 Det **sammanhangsbaserade verktygsfältet** i redigeringsgränssnittet innehåller olika funktioner beroende på vilken zon som är vald. Det innehåller åtgärdsknappar och knappar som du kan använda för att ändra textens format. De ändringar som görs gäller alltid för den markerade zonen.
 
-### E-postdesigner – startsida {#email-designer-home-page}
+### Email Designer - startsida {#email-designer-home-page}
 
 När du [skapar ett e-postmeddelande](../../channels/using/creating-an-email.md) visas hemsidan för **[!UICONTROL Email Designer]** automatiskt när du väljer e-postinnehållet.
 
@@ -143,7 +143,7 @@ Observera följande när det gäller fragment:
 
 * Att uppdatera fragment som används i e-postmeddelanden som redan har förberetts påverkar inte dessa e-postmeddelanden.
 
-## Begränsningar i e-postdesignern {#email-designer-limitations}
+## Begränsningar för e-postdesignern {#email-designer-limitations}
 
 * Du kan inte använda personaliseringsfält i ett fragment. Se [det här avsnittet](../../designing/using/using-reusable-content.md#about-fragments) för mer information.
 
@@ -167,4 +167,4 @@ Den här videon ger en översikt över e-postdesignern.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
-Kom igång med e-postdesignern genom att titta på den här [uppsättningen videor](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) som förklarar de allmänna funktionerna i programmet och hur du designar ett e-postmeddelande från grunden eller använder mallar
+Om du vill komma igång med e-postdesignern kan du titta på det här [uppsättning videoklipp](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) som förklarar de allmänna funktionerna i e-postdesignern och hur du utformar ett e-postmeddelande från grunden eller använder mallar

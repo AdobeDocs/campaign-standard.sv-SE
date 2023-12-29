@@ -10,8 +10,8 @@ level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
 source-git-commit: 9faf94d3f2643d1fdeeed9156355147bf3b6be58
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 77%
+source-wordcount: '1261'
+ht-degree: 76%
 
 ---
 
@@ -45,7 +45,7 @@ Startsidan består av en uppsättning kort som ger dig snabb åtkomst till huvud
 * Kortet **[!UICONTROL Customer profiles]** tar dig direkt till listan med profiler. Här kan du se vilka händelser som gäller respektive profil i listan. Se [Hantera profiler](../../audiences/using/about-profiles.md).
 * Kortet **[!UICONTROL Audiences]** tar dig direkt till listan med målgrupper. Härifrån kan du få åtkomst till befintliga målgrupper och skapa nya. Se [Hantera målgrupper](../../audiences/using/about-audiences.md).
 
-## Övre fält {#top-bar}
+## Övre stapel {#top-bar}
 
 Det övre fältet är synligt på alla skärmar och gör att du kan navigera bland Adobe Campaign-funktioner och komma åt den anslutna Adobe-profilen, meddelanden, Adobe Experience Cloud-lösningar och Campaign-dokumentationen.
 
@@ -104,7 +104,7 @@ Ikonen **[!UICONTROL Profiles & audiences]** ger dig åtkomst till följande fun
 * **[!UICONTROL Audiences]** – mer information om detta hittar du i avsnittet [Hantera målgrupper](../../audiences/using/about-audiences.md).
 * **[!UICONTROL Services]** – mer information om detta hittar du i avsnittet [Skapa en tjänst](../../audiences/using/creating-a-service.md).
 
-### Resurser {#resources}
+### Resurs {#resources}
 
 Ikonen **[!UICONTROL Resources]** ger dig åtkomst till följande funktioner:
 
@@ -116,7 +116,7 @@ Ikonen **[!UICONTROL Resources]** ger dig åtkomst till följande funktioner:
 
 Ikonen **[!UICONTROL Administration]** ger dig åtkomst till avancerade funktioner som bara kan utföras av en funktionell administratör. Mer information om detta hittar du i avsnittet [Administration](../../administration/using/get-started-campaign-administration.md).
 
-## Central zon {#central-zone}
+## Centralzon {#central-zone}
 
 Den centrala zonen i användargränssnittet är en dynamisk zon som bl.a. innehåller en lista med element eller en uppsättning kort. Du kan redigera befintliga element och skapa resurser.
 

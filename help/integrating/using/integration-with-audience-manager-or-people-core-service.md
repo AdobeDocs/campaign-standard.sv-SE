@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
 source-git-commit: 26e37cea37b33924ac634c5e4ab7c60804a738f1
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 9%
+source-wordcount: '759'
+ht-degree: 6%
 
 ---
 
@@ -40,7 +40,7 @@ Den här integreringen måste först konfigureras. Om du vill begära provisione
    <td> Ditt företags-ID. <br> Om du vill hitta ditt organisations-ID går du till <a href="https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=sv">den här sidan</a></td> 
   </tr> 
   <tr> 
-   <td> <strong>Miljö:</strong><br /> </td> 
+   <td> <strong>Environment:</strong><br /> </td> 
    <td> Exempel: Produktion </td> 
   </tr> 
   <tr> 

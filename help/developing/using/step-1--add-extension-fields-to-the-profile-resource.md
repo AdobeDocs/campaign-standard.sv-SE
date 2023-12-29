@@ -1,5 +1,5 @@
 ---
-title: "Steg 1: lägg till tilläggsfält i profilresursen"
+title: "Steg 1: Lägg till tilläggsfält i profilresursen"
 description: Lär dig hur du utökar profilresursen.
 audience: developing
 content-type: reference
@@ -10,8 +10,8 @@ level: Experienced
 exl-id: fdd4d68b-e083-41c9-809d-3a6dc6b71180
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 55%
+source-wordcount: '63'
+ht-degree: 42%
 
 ---
 

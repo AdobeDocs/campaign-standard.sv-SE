@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
 source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 40%
+source-wordcount: '1206'
+ht-degree: 39%
 
 ---
 
@@ -49,12 +49,12 @@ Vissa specifika konfigurationer kan konfigureras för att definiera beteendet av
 * [Förbereda och skicka ett push-meddelande](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [Skapa ett flerspråkigt push-meddelande](../../channels/using/creating-a-multilingual-push-notification.md)
 * [Rapport om push-meddelanden](../../reporting/using/push-notification-report.md)
-* [Guide för Campaign Standard Mobile](../../channels/using/get-started-communication-channels.md)
+* [Campaign Standard Mobile Guide](../../channels/using/get-started-communication-channels.md)
 
 ## Förhandskrav {#prerequisites}
 
 >[!NOTE]
->Om du vill använda funktionen för push-meddelanden från Kampanjer så måste du tillhandahålla ett giltigt push-certifikat i .pem-format utan lösenord.
+>Om du vill använda funktionen för push-meddelanden från Campaign måste du tillhandahålla ett giltigt push-certifikat i .pem-format utan lösenord.
 >
 >Om du har ett giltigt p12-certifikat kan du enkelt konvertera det till en .pem-fil med hjälp av onlineresurser.
 
@@ -80,7 +80,7 @@ Innan du skickar ett push-meddelanden bör du:
 
 Läs resurserna nedan:
 
-* [Självstudiekurser via video](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
+* [Video Tutorials](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
 * [Produktdokumentation](../../channels/using/about-push-notifications.md)
 * Konfigurera med AEP SDK [dokumentation](../../administration/using/configuring-a-mobile-application.md)
 * [Community-sida](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)

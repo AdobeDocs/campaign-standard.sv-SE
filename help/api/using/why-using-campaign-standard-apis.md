@@ -1,5 +1,5 @@
 ---
-title: Därför använder man API:er i Campaign Standard?
+title: Varför använda Campaign Standard-API:er?
 description: Läs mer om Campaign Standard-API:er och varför du använder dem.
 audience: developing
 content-type: reference
@@ -10,8 +10,8 @@ level: Experienced
 exl-id: ef045e5d-cd02-44a0-9a1e-d468483a38d9
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 3%
+source-wordcount: '472'
+ht-degree: 1%
 
 ---
 

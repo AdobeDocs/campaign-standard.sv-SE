@@ -6,8 +6,8 @@ content-type: reference
 topic-tags: discovering-the-interface
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 7%
+source-wordcount: '775'
+ht-degree: 5%
 
 ---
 
@@ -123,7 +123,7 @@ Tack vare arbetsflödena och frågeredigeraren kan ni skapa målgrupper som mål
 
 <img width="60px" alt="villkor" src="assets/icon_privacy.svg"/>
 
-GDPR är EU:s (EU) nya integritetslagstiftning som harmoniserar och moderniserar kraven på skydd av personuppgifter. GDPR gäller för Adobe Campaign-kunder som innehar uppgifter för registrerade personer som bor i EU. Förutom de sekretessfunktioner som redan finns i Adobe Campaign (inklusive samtyckeshantering, datalagringsinställningar och användarroller) tar vi denna möjlighet i vår roll som dataprocessor för att inkludera ytterligare funktioner som hjälper dig att bli redo som Data Controller för vissa GDPR-förfrågningar.
+GDPR är EU:s (EU) nya integritetslagstiftning som harmoniserar och moderniserar kraven på skydd av personuppgifter. GDPR gäller för Adobe Campaign-kunder som innehar uppgifter för registrerade i EU. Förutom de sekretessfunktioner som redan finns i Adobe Campaign (inklusive samtyckeshantering, datalagringsinställningar och användarroller) tar vi denna möjlighet i vår roll som dataprocessor för att inkludera ytterligare funktioner som hjälper dig att bli redo som Data Controller för vissa GDPR-förfrågningar.
 
 Se [det här avsnittet](../../start/using/privacy.md) om du vill veta mer om de verktyg och funktioner som Adobe Campaign tillhandahåller för att hjälpa er att bli GDPR-kompatibla.
 

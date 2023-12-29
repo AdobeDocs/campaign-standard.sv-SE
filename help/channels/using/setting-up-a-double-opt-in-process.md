@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 188b1750-e062-4328-9829-6f2848356b5c
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
-source-wordcount: '1149'
-ht-degree: 89%
+source-wordcount: '1152'
+ht-degree: 86%
 
 ---
 
@@ -33,7 +33,7 @@ Gör följande för att ställa in detta:
 
 Dessa steg måste konfigureras i Adobe Campaign i en specifik ordning för att alla parametrar ska aktiveras korrekt.
 
-## Steg 1: Skapa landningssidan för bekräftelse {#step-1--create-the-confirmation-landing-page}
+## Steg 1: Skapa bekräftelsestartsidan {#step-1--create-the-confirmation-landing-page}
 
 Processen för att ställa in mekanismen för dubbel anmälan börjar med att skapa en landningssida för bekräftelse: den här sidan visas när besökarna klickar på bekräftelsemeddelandet för att registrera sig.
 
@@ -67,7 +67,7 @@ Om du vill skapa och konfigurera den här landningssidan måste du:
 
 1. [Testa och publicera](../../channels/using/testing-publishing-landing-page.md) landningssidan.
 
-## Steg 2: Skapa bekräftelsemeddelandet {#step-2--create-the-confirmation-email}
+## Steg 2: Skapa bekräftelsemeddelandet via e-post {#step-2--create-the-confirmation-email}
 
 När landningssidan för bekräftelse har skapats kan du skapa bekräftelsemeddelandet via e-post: Det här e-postmeddelandet skickas automatiskt till alla besökare som validerar kundens landningssida. Valideringen betraktas som en händelse och e-postmeddelandet är ett transaktionsmeddelande som är kopplat till en viss typologiregel som gör att man kan rikta in sig på grupper som avanmäler sig.
 
@@ -106,7 +106,7 @@ Du måste skapa en specifik [typologi](../../sending/using/about-typology-rules.
 
 Den här typologin kan nu kopplas till bekräftelsemeddelandet via e-post.
 
-### Skapa bekräftelsemeddelandet {#design-the-confirmation-message}
+### Utforma bekräftelsemeddelandet {#design-the-confirmation-message}
 
 Bekräftelsemeddelandet är ett transaktionsmeddelande baserat på den händelse som skapades tidigare. Skapa det här meddelandet genom att följa stegen nedan:
 
@@ -119,7 +119,7 @@ Bekräftelsemeddelandet är ett transaktionsmeddelande baserat på den händelse
 1. Redigera e-postmallens egenskaper. I avsnittet **[!UICONTROL Advanced parameters]** > **[!UICONTROL Preparation]** väljer du typologin **TYPOLOGIPROFIL** som skapades tidigare.
 1. Spara och publicera transaktionsmeddelandet.
 
-## Steg 3: Skapa landningssidan för förvärv {#step-3--create-the-acquisition-landing-page}
+## Steg 3: Skapa startsidan för förvärvet {#step-3--create-the-acquisition-landing-page}
 
 Du måste skapa den inledande landningssidan för förvärv: Det här anmälningsformuläret kommer att publiceras på din webbplats.
 

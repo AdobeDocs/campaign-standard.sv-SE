@@ -12,7 +12,7 @@ exl-id: ba080b64-9106-4d5b-958b-3c5e738cb42a
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '95'
-ht-degree: 9%
+ht-degree: 7%
 
 ---
 

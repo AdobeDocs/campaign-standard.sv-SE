@@ -11,13 +11,13 @@ exl-id: af849377-686f-45b3-bf6e-5069a8966987
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '383'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
 # Testa och publicera en landningssida{#testing-publishing--landing-page}
 
-## Om publicering av landningssida {#about-landing-page-publication}
+## Om publicering på landningssida {#about-landing-page-publication}
 
 Innan du publicerar en landningssida så måste du utföra tester som exempelvis validera körningen, konfigurera åtkomsten och konfigurera avslutningsdatum för landningssidan.  Dessa steg är nödvändiga och måste utföras med försiktighet.
 

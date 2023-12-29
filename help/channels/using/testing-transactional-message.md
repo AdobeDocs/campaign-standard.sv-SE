@@ -12,7 +12,7 @@ exl-id: 5138826d-ae08-403b-91ef-91027ef6e78e
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 36%
+ht-degree: 30%
 
 ---
 
@@ -40,7 +40,7 @@ Definiera en testprofil som ska länkas till din händelse så att du kan förha
 
    ![](assets/message-center_5.png)
 
-Du kan också skapa en ny testprofil eller använda en som redan finns på **[!UICONTROL Test profiles]**-menyn. Så här gör du:
+Du kan också skapa en ny testprofil eller använda en som redan finns i **[!UICONTROL Test profiles]** -menyn. Så här gör du:
 
 1. Klicka på **Adobe** logotyp, i det övre vänstra hörnet och välj **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
 1. I **[!UICONTROL Event]** markerar du händelsen som du nyss skapade. I det här exemplet väljer du &quot;Överge kundvagnen (EVTcartAbandonment)&quot;.

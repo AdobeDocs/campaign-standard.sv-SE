@@ -12,13 +12,13 @@ exl-id: b40e4f6f-34bb-40f9-80e8-e9f1bce5548c
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '969'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Skapa målgrupper{#creating-audiences}
 
-## Skapa förfrågningsmålgrupper {#creating-query-audiences}
+## Skapa frågemålgrupper {#creating-query-audiences}
 
 I det här avsnittet beskrivs hur du skapar en **förfrågnings** målgrupp.                                Du kan också skapa målgrupper genom att importera en fil eller målinriktning i ett [arbetsflöde](../../automating/using/get-started-workflows.md).
 
@@ -45,7 +45,7 @@ Från målgruppslistan kan du skapa målgrupper genom att utföra förfrågninga
 >
 >Du kan lägga till en beskrivning till den här målgruppen och definiera åtkomstauktoriseringen via **[!UICONTROL Edit properties]**-ikonen.
 
-## Skapa lista med målgrupper {#creating-list-audiences}
+## Skapa listmålgrupper {#creating-list-audiences}
 
 I det här avsnittet beskrivs hur du skapar en **lista** med målgrupper enligt målen i ett arbetsflöde.  Du kan också skapa målgrupper genom att importera en fil till ett [arbetsflöde](../../automating/using/get-started-workflows.md) eller via en fråga i **[!UICONTROL Audiences]** menyn.
 
@@ -75,7 +75,7 @@ Så här skapar du en **lista** med målgrupper:
 
    ![](assets/audiences_list_4.png)
 
-## Skapa målgruppsfil {#creating-file-audiences}
+## Skapa filmålgrupper {#creating-file-audiences}
 
 I det här avsnittet så beskrivs hur du skapar en målgrupps **fil** genom att importera en fil till ett arbetsflöde.        Du kan också skapa målgrupper via en målinriktningsaktivitet i ett [arbetsflöde](../../automating/using/get-started-workflows.md) eller via en förfrågan i **[!UICONTROL Audiences]**-menyn.
 
@@ -97,7 +97,7 @@ Så här gör du för att skapa en **fil** med innehållande publik:
 
    ![](assets/audience_files_3.png)
 
-## Att skapa Experience Cloud-målgrupper {#creating-experience-cloud-audiences}
+## Skapa Experience Cloud-målgrupper {#creating-experience-cloud-audiences}
 
 Med Adobe Campaign kan du dela och byta ut målgrupper med Adobe Experience Cloud.    En publik av typen **Experience Cloud** importeras direkt från personbastjänsten i Adobe Campaign med det **[!UICONTROL Import shared audience]** tekniska arbetsflödet.
 

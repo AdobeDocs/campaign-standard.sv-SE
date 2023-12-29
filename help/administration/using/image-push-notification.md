@@ -1,5 +1,5 @@
 ---
-title: Visa en bild från ett push-meddelande för Adobe Campaign Standard
+title: Visa en bild från ett push-meddelande från Adobe Campaign Standard
 description: Lär dig hur du visar en bild från ett push-meddelande från Adobe Campaign på en iOS-enhet
 audience: channels
 feature: Instance Settings
@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 18%
+source-wordcount: '414'
+ht-degree: 12%
 
 ---
 
@@ -40,7 +40,7 @@ Med Adobe Campaign kan du finjustera push-meddelanden och få åtkomst till en u
 1. Från innehållssidan för push-meddelanden kommer du åt **[!UICONTROL Advanced options]** -avsnitt.
 
 1. Ange URL-adressen till filen i dialogrutan **[!UICONTROL Rich media content URL]** fält.
-För iOS 10 eller senare versioner kan du infoga bild-, gif-, ljud- och videofiler.
+För iOS 10 eller senare kan du infoga bild-, gif-, ljud- och videofiler.
 
    ![](assets/push_notif_advanced_6.png)
 

@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 94%
+source-wordcount: '996'
+ht-degree: 90%
 
 ---
 
@@ -40,7 +40,7 @@ Du måste även ha en fungerande hemsida.
 
 Mer information finns i [Konfigurera lösningar och tjänster](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services).
 
-## Utlösare för avbruten bläddring {#browse-abandonment-trigger}
+## Bläddra efter utlösare för övergivna {#browse-abandonment-trigger}
 
 I det här fallet ska vi skapa en enkel utlösare som aktiveras varje gång en kund avbryter ett besök på hemsidan.  I det här exemplet förutsätts det att du redan har DTM som samlar in och överför data till Adobe Analytics och har skapat alla händelser.
 

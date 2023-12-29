@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 9676b5e8-4c34-4848-8616-235e0bac5d6b
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 15%
+source-wordcount: '631'
+ht-degree: 12%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 15%
 <tr><td><img src="assets/do-not-localize/icon_menu.svg" width="60px"><p><a href="#administration-menu">Menyn Administration</a></p></td>
 <td><img src="assets/do-not-localize/icon_users.svg" width="60px"><p><a href="#users-security">Användare och säkerhet</a></p></td>
 <td><img src="assets/do-not-localize/icon_channels.svg" width="60px"><p><a href="#channels-configuration">Kanalkonfiguration</a></p></td>
-<td><img src="assets/do-not-localize/icon_settings.svg" width="60px"><p><a href="#application-settings">Applikationsinställningar</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_settings.svg" width="60px"><p><a href="#application-settings">Programinställningar</a></p></td></tr>
 </table>
 
 Adobe Campaign är en molnbaserad lösning som ger administratörer olika sätt att konfigurera programmet. Även om infrastrukturkonfigurationen utförs av Adobe kan funktionsadministratörer utföra olika konfigurationsåtgärder som beskrivs nedan.
@@ -81,7 +81,7 @@ Läs mer:
 * [Konfigurera SMS-kanal](../../administration/using/configuring-sms-channel.md)
 * [Konfigurera en mobilapplikation](../../administration/using/configuring-a-mobile-application.md)
 
-## Applikationsinställningar {#application-settings}
+## Programinställningar {#application-settings}
 
 <img src="assets/do-not-localize/icon_settings.svg" width="60px">
 

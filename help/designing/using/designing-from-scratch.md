@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 2%
+source-wordcount: '1232'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ Här är de viktigaste stegen för att skapa och designa ett e-postinnehåll fr�
 1. Lägg till bilder och redigera texten i e-postmeddelandet. Se [Infoga bilder](../../designing/using/images.md#inserting-images).
 1. Anpassa e-postmeddelandet genom att lägga till fält, länkar och så vidare för personalisering. Se [Infoga ett anpassningsfält](../../designing/using/personalization.md#inserting-a-personalization-field), [Infoga en länk](../../designing/using/links.md#inserting-a-link) och [Definiera dynamiskt innehåll i ett e-postmeddelande](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 1. Definiera ämnesraden i ditt e-postmeddelande. Se [Anpassa ämnesraden i ett e-postmeddelande](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
-1. Förhandsgranska din e-post.
+1. Förhandsgranska e-postmeddelandet.
 1. Spara innehållet och fortsätt med meddelandet efter att du har definierat en målgrupp och schemalagt sändningen.
 
 Du kan även kolla in det här [introduktionsvideo](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).
@@ -202,6 +202,6 @@ Carousel-komponenten är inte kompatibel med alla e-postprogram. Överför en re
 
 - [Skapa ett e-postmeddelande](../../channels/using/creating-an-email.md)
 - [Välja en målgrupp i ett meddelande](../../audiences/using/selecting-an-audience-in-a-message.md)
-- [Schemalägga meddelanden](../../sending/using/about-scheduling-messages.md)
+- [Schemaläggningsmeddelanden](../../sending/using/about-scheduling-messages.md)
 - [Förhandsgranska meddelanden](../../sending/using/previewing-messages.md)
 - [E-poståtergivning](../../sending/using/email-rendering.md)

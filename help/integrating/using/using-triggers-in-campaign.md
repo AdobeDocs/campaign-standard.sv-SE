@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
 source-git-commit: cf2ded703e53d6db27e62712734f7ea846da9a21
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 78%
+source-wordcount: '736'
+ht-degree: 74%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 78%
 >
 >Om du vill skapa utlösare måste du ha **[!UICONTROL Administration]** eller vara med i **[!UICONTROL Administrators]** säkerhetsgrupp. Mer information finns i [page](../../administration/using/list-of-roles.md).
 
-Du ska se till att definiera de beteenden som du vill övervaka i förväg i Adobe Experience Cloud (**[!UICONTROL Triggers]**-bastjänst). Mer information finns i dokumentationen för [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html). Observera att när du definierar utlösaren måste du aktivera aliasen. För varje beteende (surfning/formulärborttagning, tillägg/borttagning av produkter, session har gått ut, o.s.v.) måste en ny utlösare läggas till i Adobe Experience Cloud.
+Du bör se till att definiera de beteenden som du vill övervaka i förväg i Adobe Experience Cloud (**[!UICONTROL Triggers]** bastjänst). Mer information finns i dokumentationen för [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html). Observera att när du definierar utlösaren måste du aktivera aliasen. För varje beteende (surfning/formulärborttagning, tillägg/borttagning av produkter, session har gått ut, o.s.v.) måste en ny utlösare läggas till i Adobe Experience Cloud.
 
 Nu måste du skapa en utlösande händelse i Adobe Campaign baserat på en befintlig Adobe Experience Cloud-utlösare.
 
@@ -75,7 +75,7 @@ När du har skapat en utlösarhändelse i Adobe Campaign baserat på en befintli
 
 När händelsen har publicerats skapas sedan en transaktionsmall som är kopplad till den nya händelsen automatiskt. Sedan måste du ändra och publicera mallen som skapades. Mer information finns i avsnittet [Redigera mallen](../../start/using/marketing-activity-templates.md).
 
-## Redigera mallen för transaktionsmeddelanden {#editing-the-transactional-message-template}
+## Redigera transaktionsmeddelandemallen {#editing-the-transactional-message-template}
 
 När du har skapat och publicerat utlösarhändelsen skapas motsvarande transaktionsmall automatiskt. Mer information finns i avsnittet [Skapa en mappad utlösare i Campaign](#creating-a-mapped-trigger-in-campaign).
 

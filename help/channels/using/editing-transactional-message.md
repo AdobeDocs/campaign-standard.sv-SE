@@ -12,7 +12,7 @@ exl-id: f5dcb715-7cbd-49f2-8713-7e16cfa04184
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 30%
+ht-degree: 27%
 
 ---
 
@@ -221,7 +221,7 @@ Stegen för att skapa, redigera och personalisera ett profiltransaktionsmeddelan
 
 Skillnaderna mellan dessa anges nedan.
 
-1. [Gå till transaktionsmeddelandet som skapades för att redigera det.](#accessing-transactional-messages)
+1. [Gå till transaktionsmeddelandet](#accessing-transactional-messages) som skapades för att redigera den.
 1. Klicka på **[!UICONTROL Content]**-avsnittet i transaktionsmeddelandet.  Förutom e-postmallarna för transaktioner kan du även välja valfri e-postmall för **[!UICONTROL Profile]** resurs.
 
    ![](assets/message-center_marketing_templates.png)

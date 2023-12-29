@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '2695'
+source-wordcount: '2710'
 ht-degree: 0%
 
 ---
@@ -43,9 +43,9 @@ När du har markerat varje konto separat finns det två möjliga scenarier:
 Du måste kontakta leverantören för att diagnostisera potentiella konflikter hos dem.
 
    * Vissa externa konton har samma kombination av inloggning och lösenord.
-Leverantören har inget sätt att berätta från vilket externt konto det `BIND PDU` kommer från, så de behandlar alla anslutningar från flera konton som en enda. De kan ha dirigerat MO och SR slumpmässigt över de två kontona, vilket orsakade problem.
-Om leverantören stöder flera kortkoder för samma kombination av inloggning / lösenord måste du fråga dem var de ska placera den korta koden i `BIND PDU`. Observera att denna information måste placeras i , och inte i `BIND PDU``SUBMIT_SM`, eftersom det är det `BIND PDU` enda stället som tillåter routing MOs korrekt.
-[Se avsnittet Information i varje typ av PDU](../../administration/using/sms-protocol.md#information-pdu) ovan för att veta vilket fält som är tillgängligt i , vanligtvis lägger du till kortkoden i `address_range``BIND PDU`, men det kräver särskilt stöd från leverantören. Kontakta dem för att veta hur de förväntar sig att dirigera flera kortkoder oberoende av varandra.
+Leverantören har inget sätt att avgöra från vilket externt konto de kommer från, så de `BIND PDU` behandlar alla anslutningar från flera konton som en enda. De kan ha dirigerat MO och SR slumpmässigt över de två kontona, vilket orsakar problem.
+Om leverantören stöder flera korta koder för samma kombination av inloggning/lösenord måste du fråga dem var de ska placera den korta koden i .`BIND PDU` Observera att den här informationen måste placeras i , och inte i `BIND PDU``SUBMIT_SM`, eftersom det `BIND PDU` är den enda platsen som tillåter dirigering av MO:er korrekt.
+[Se avsnittet Information i varje typ av PDU](../../administration/using/sms-protocol.md#information-pdu) ovan för att veta vilket fält som är tillgängligt i , vanligtvis lägger du till den korta koden i `BIND PDU``address_range`, men det kräver särskilt stöd från leverantören. Kontakta dem för att ta reda på hur de förväntar sig att dirigera flera korta koder oberoende av varandra.
 Adobe Campaign stöder hantering av flera korta koder på samma externa konto.
 
 ## Problem med externt konto i allmänhet {#external-account-issues}
@@ -64,14 +64,14 @@ Adobe Campaign stöder hantering av flera korta koder på samma externa konto.
   from nmsextaccount N0 LEFT JOIN xtkoperator X0 ON (N0.icreatedbyid=X0.ioperatorid) order by 8 DESC LIMIT 50;
   ```
 
-* Undersök (i katalogen /postupgrade) om systemet har uppgraderats och när
+* Undersök (i /postupgrade-katalogen) om systemet uppgraderades och när
 * Undersök om några paket som påverkar SMS kan ha uppgraderats nyligen (/var/log/dpkg.log).
 
-## Problem vid anslutning till leverantören {#issue-provider}
+## Problem vid anslutning till providern {#issue-provider}
 
-* Om den returnerar en kod som `BIND PDU` inte är noll `command_status` ber du leverantören om mer information.
+* Om returnerar en kod som `BIND PDU` inte är noll `command_status` ber du providern om mer information.
 
-* Kontrollera att nätverket är korrekt konfigurerat så att TCP-anslutningen kan göras till leverantören.
+* Kontrollera att nätverket är korrekt konfigurerat så att TCP-anslutningen kan göras till providern.
 
 * Be leverantören kontrollera att de har lagt till IP-adresserna till tillåtelselista i Adobe Campaign-instansen.
 
@@ -145,9 +145,9 @@ Minska antalet dubbletter när ett nytt försök görs:
 
 * Kontrollera att `DELIVER_SM PDU` kommer från leverantören och är välformad.
 
-* Kontrollera att Adobe Campaign svarar med ett framgångsrikt `DELIVER_SM_RESP PDU` svar i tid. På Adobe Campaign Standard garanterar detta att hela bearbetningslogiken har tillämpats, om så inte är fallet är det garanterat att det finns ett felmeddelande i loggarna som berättar varför bearbetningen misslyckades.
+* Kontrollera att Adobe Campaign svarar med ett lyckat `DELIVER_SM_RESP PDU` svar i tid. På Adobe Campaign Standard garanterar detta att hela bearbetningslogiken har tillämpats, om så inte är fallet kommer det garanterat att visas ett felmeddelande i loggarna som anger varför bearbetningen misslyckades.
 
-Om det `DELIVER_SM PDU` inte har bekräftats bör du kontrollera följande:
+Om det `DELIVER_SM PDU` inte lyckas bör du kontrollera följande:
 
 * Kontrollera regex för id-extrahering och felbearbetning i **Externt konto**. Du kan behöva validera dem mot innehållet i `DELIVER_SM PDU`.
 
@@ -155,13 +155,13 @@ Om det `DELIVER_SM PDU` inte har bekräftats bör du kontrollera följande:
 
 * För Adobe Campaign Standard ska du kontrollera att `broadLog` och `broadLogExec` tabeller är korrekt synkroniserade.
 
-Om du har åtgärdat allt men vissa ogiltiga SR fortfarande finns i leverantörens buffertar kan du hoppa över dem med hjälp **av alternativet** Ogiltigt antal ID-bekräftelser. Detta bör användas med försiktighet och återställas till 0 så snabbt som möjligt efter att buffertarna är rena.
+Om du har åtgärdat allt men vissa ogiltiga SR fortfarande finns i providerns buffertar kan du hoppa över dem med hjälp **av alternativet Antal ogiltiga ID-bekräftelser** . Detta bör användas med försiktighet och återställas till 0 så snabbt som möjligt efter att buffertarna är rena.
 
 ## Problem vid bearbetning av MO (och blockeringslista/autosvar){#issue-process-MO}
 
 * Aktivera SMPP-spårningar under tester. Om du inte aktiverar TLS bör du göra en nätverksavbildning när du felsöker MO för att kontrollera att PDU:er innehåller rätt information och är korrekt formaterade.
 
-* När du samlar in nätverkstrafik eller analyserar SMPP-spårningar måste du fånga hela konversationen med MO och dess svars-MT om ett svar har konfigurerats.
+* När du samlar in nätverkstrafik eller analyserar SMPP-spårningar måste du samla in hela konversationen med MO och dess svars-MT om ett svar har konfigurerats.
 
 * Om flerlägesobjektet (`DELIVER_SM PDU`) visas inte i spårningarna, problemet ligger på leverantörssidan. De måste felsöka på sin plattform.
 
@@ -237,9 +237,9 @@ Nätverksinspelning behövs inte alltid, vanligen räcker det med omfattande SMP
 
 * Anslutningsproblem, men de detaljerade meddelandena visar inga `BIND_RESP PDU`.
 
-* Oförklarliga frånkopplingar utan felmeddelande, det vanliga beteendet hos anslutningsappen när den upptäcker ett protokollfel på låg nivå.
+* Oförklarliga frånkopplingar utan felmeddelande, det vanliga beteendet för anslutningsappen när den identifierar ett protokollfel på låg nivå.
 
-* Leverantören klagar över avbindnings-/frånkopplingsprocessen.
+* Leverantören klagar på avbindnings-/frånkopplingsprocessen.
 
 * Kodningsproblem i valfria TLV-fält.
 
@@ -249,7 +249,7 @@ I alla andra situationer kan du försöka analysera detaljerade SMPP-meddelanden
 
 I vissa fall behövs ingen hämtning av nätverkstrafik. Här är de vanligaste situationerna:
 
-* TLS aktiverat: Per definition krypteras TLS-trafik så att den inte kan avbildas.
+* TLS aktiverat: TLS-trafik krypteras per definition så att den inte kan avbildas.
 
 * Prestandaproblem: Loggar innehåller all information som behövs för att spåra prestandaproblem.
 

@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 source-git-commit: a1b947acf70803a7350dd626e697318e0ed35f26
 workflow-type: tm+mt
-source-wordcount: '2681'
-ht-degree: 60%
+source-wordcount: '2683'
+ht-degree: 58%
 
 ---
 
@@ -67,7 +67,7 @@ På skärmen för e-postkonfiguration kan du definiera parametrar för e-postkan
 
   Mer information om karantäner finns i [Information om karantänhantering](../../sending/using/understanding-quarantine-management.md).
 
-## E-postdirigeringskonton {#email-routing-accounts}
+## E-postroutningskonton {#email-routing-accounts}
 
 Det externa **[!UICONTROL Integrated email routing]**-kontot anges som standard. Den innehåller de tekniska parametrar som gör att programmet kan skicka e-post.
 
@@ -94,7 +94,7 @@ Administratörer **[!UICONTROL Email processing rules]** kan komma åt informati
 * **DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
 * The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.-->
 
-### Studsmeddelanden {#bounce-mails}
+### Studsa e-post {#bounce-mails}
 
 Asynkrona studsningar är fortfarande kvalificerade av Campaign inMail-processen enligt **[!UICONTROL Bounce mails]**-reglerna.
 
@@ -251,7 +251,7 @@ Infogning och användning av anpassningsinnehåll finns i dokumentationen [Anpas
 
 Använd målgruppskontexten för att definiera en uppsättning tabeller som ska användas för e-postmarknadsföring (i målgruppsdefinitionsskärmen) och personalisering (definiera personaliseringsfält i HTML innehållsredigeraren).
 
-#### Dirigering {#routing}
+#### Routning {#routing}
 
 I det här fältet visas det dirigeringsläge som används. Det hänvisar till ett externt konto. Detta kan till exempel användas om du vill använda ett externt konto som innehåller specifika varumärkningskonfigurationer.
 
@@ -291,7 +291,7 @@ Avsnittet **[!UICONTROL SMTP]** innehåller följande parametrar:
   >
   >Tillägg av ett skript för att infoga ytterligare SMTP-rubriker är reserverat för avancerade användare. Syntaxen för det här skriptet måste uppfylla kraven för den här innehållstypen: Inget oanvänt utrymme, ingen tom rad, o.s.v.
 
-### Lista över parametrar för åtkomstauktorisering {#list-of-access-authorization-parameters}
+### Lista över åtkomstauktoriseringsparametrar {#list-of-access-authorization-parameters}
 
 Avsnittet **[!UICONTROL Access authorization]** innehåller följande parametrar:
 
@@ -307,7 +307,7 @@ Avsnittet **[!UICONTROL Access authorization]** innehåller följande parametrar
 
 Om du **NOT** om du kör den senaste versionen av Campaign gäller fortfarande de parametrar och gränssnittsavsnitt som beskrivs nedan för dig.
 
-### Återförsök {#legacy-retries}
+### Försök igen {#legacy-retries}
 
 The **[!UICONTROL Retries]** inställningarna i [Konfigurationsmeny](#email-channel-parameters) och i [Skickar parametrar](#retries-parameters) av e-postegenskaperna anger hur många försök som ska utföras dagen efter att sändningen har startats (**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**) och minsta fördröjning mellan återförsök (**[!UICONTROL Retry period]**).
 
@@ -325,7 +325,7 @@ Använd **[!UICONTROL Delivery duration]** eller **[!UICONTROL Validity limit fo
 
 The **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** och **[!UICONTROL Domain management]** regler kan nås och ändras av administratörer via **[!UICONTROL Administration > Channels > Email > Email processing rules]** -menyn. [Läs mer](#email-processing-rules).
 
-### Kvalifikation av studsmeddelanden {#legacy-bounce-mail-qualification}
+### E-poststudsar {#legacy-bounce-mail-qualification}
 
 Om du vill visa de olika gränserna och deras associerade feltyper och orsaker klickar du på knappen **Adobe** logotyp, i det övre vänstra hörnet och välj **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 

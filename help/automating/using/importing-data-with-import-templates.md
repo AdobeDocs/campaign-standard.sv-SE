@@ -10,7 +10,7 @@ level: Experienced
 exl-id: 5e93b39e-cdd1-4632-8f65-dfa76a735626
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1091'
 ht-degree: 99%
 
 ---
@@ -109,4 +109,4 @@ importeringsmallen är nu tillgänglig för användarna och kan användas för a
 **Relaterade ämnen:**
 
 * [Arbetsflöden](../../automating/using/get-started-workflows.md)
-* [Exempel: Importera mall för arbetsflöde](../../automating/using/creating-import-workflow-templates.md)
+* [Exempel: Importera arbetsflödesmall](../../automating/using/creating-import-workflow-templates.md)

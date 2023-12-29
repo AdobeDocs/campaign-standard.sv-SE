@@ -1,5 +1,5 @@
 ---
-title: Skapa ett flerspråkigt e-postmeddelande med Adobe Experience Manager-integreringen.
+title: Skapa ett flerspråkigt e-postmeddelande med Adobe Experience Manager-integrering.
 description: Tack vare integreringen med Adobe Experience Manager kan du skapa innehåll direkt i AEM och använda det senare i Adobe Campaign.
 audience: integrating
 content-type: reference
@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 0f66fe2b-22b1-49d7-a080-29b00941a2cc
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 5%
+source-wordcount: '616'
+ht-degree: 3%
 
 ---
 
@@ -51,7 +51,7 @@ Förutsättningarna är:
 
 1. Klicka **[!UICONTROL Complete]** sedan **[!UICONTROL Newsletter review]** från **[!UICONTROL Complete work item]** -fönstret.
 
-1. Klicka **[!UICONTROL Complete]** och sen **[!UICONTROL Newsletter approval]**. När parametrarna för innehåll och sändning har definierats kan du godkänna, förbereda och skicka e-postmeddelandet i Adobe Campaign Standard.
+1. Klicka **[!UICONTROL Complete]** sedan **[!UICONTROL Newsletter approval]**. När parametrarna för innehåll och sändning har definierats kan du godkänna, förbereda och skicka e-postmeddelandet i Adobe Campaign Standard.
 
    ![](assets/aem_acs_8.png)
 

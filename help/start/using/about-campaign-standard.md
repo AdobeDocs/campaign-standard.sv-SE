@@ -10,8 +10,8 @@ level: Beginner
 exl-id: b62c70fe-c838-4a0e-9b0a-2e916a06ff39
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 100%
+source-wordcount: '778'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Campaign Standard är ett kraftfullt kanalövergripande verktyg för kampa
 
 Kontrollera hela processen med att skapa, köra och spåra kampanjer över flera olika kanaler samt skicka meddelanden som är personaliserade utifrån kundens profil, beteende, preferenser och behov. Du kan enkelt orkestrera, förbättra och automatisera hela marknadsföringsprocessen och integrera den med andra lösningar från Adobe.
 
-## Expandera din marknadsföringsdatabas {#grow-database}
+## Utöka er marknadsföringsdatabas {#grow-database}
 
 <img width="60px" alt="villkor" src="assets/icon_segment.svg"/>
 
@@ -35,7 +35,7 @@ Med **Integrerade kundprofiler i kampanjen** kan du spåra alla interaktioner me
 
 [Kom igång med profiler och målgrupper](../../audiences/using/get-started-profiles-and-audiences.md)
 
-## Orkestrera marknadsföringskampanjer över flera kanaler {#orchestrate-campaigns}
+## Samordna flerkanalskampanjer {#orchestrate-campaigns}
 
 <img width="60px" alt="villkor" src="assets/icon_workflows.svg"/>
 
@@ -57,7 +57,7 @@ Designa och skicka meddelanden via online- och offlinekanaler, inklusive optimer
 
 **Analysera och kontrollera innehållet i dina meddelanden** innan du skickar dem med hjälp av flera testfunktioner såsom förhandsgranskning, korrektur, tester av ämnesraden i e-post och e-poståtergivning osv. Se till att dina meddelanden levereras i rätt tid genom att optimera deras sändningstid (schemaläggning och hantering av tidszoner). [Kom igång med tester av meddelanden och sändning](../../sending/using/get-started-sending-messages.md)
 
-## Spåra effekten av dina kampanjer {#track-impact-campaigns}
+## Spåra effekten av era kampanjer {#track-impact-campaigns}
 
 <img width="60px" alt="villkor" src="assets/icon_report.svg"/>
 

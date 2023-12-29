@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: bd9ec3f9-e047-42dc-ab64-9fb274cb4656
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1016'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Flerspråkig push kräver 14 kolumner i CSV-filen:
 1. isMutableContent
 1. customFields
 1. locale
-1. language
+1. språk
 1. silentPush
 
 Kontrollera CSV-exemplet genom att klicka på **[!UICONTROL Download a sample file]** i **[!UICONTROL Manage Content Variants]** -fönstret. Mer information finns i [section](../../channels/using/creating-a-multilingual-push-notification.md).
@@ -98,7 +98,7 @@ I intervallet finns två obligatoriska attribut:
 
 Följande språk stöds:
 
-| locale | language |
+| locale | språk |
 |:-:|:-:|
 | af_za | Afrikaans - Sydafrika |
 | sq_al | Albanska - Albanien |

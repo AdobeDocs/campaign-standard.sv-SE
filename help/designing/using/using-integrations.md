@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: d5c72f69-68a2-4523-956f-f265ae79b470
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 5%
+source-wordcount: '706'
+ht-degree: 2%
 
 ---
 
@@ -27,7 +27,7 @@ Tack vare Adobe Campaign Standard-integreringen med Dreamweaver kan du redigera 
 
   När en redigering görs i en produkt uppdateras den i realtid i den andra. Om du vill ändra textfärgen i Dreamweaver så fort du gör den redigeringen är textfärgen aktiv i Campaign. När du markerar kod i antingen Dreamweaver eller Campaign, eftersom radnumren är desamma, behålls urvalet mellan de två produkterna, vilket är mycket användbart när du letar efter något specifikt i koden.
 
-* **Ladda upp lokala bilder till Adobe Campaign via Dreamweaver**
+* **Överför lokala bilder till Adobe Campaign via Dreamweaver**
 
   När du skapar eller redigerar ett e-postmeddelande i Dreamweaver behöver du bara välja en bild på din dator eller dator. Dreamweaver har alltid tillåtit dig att göra detta, men när Dreamweaver och Campaign är anslutna, överförs den lokala filen omedelbart till Adobe Campaign-servern: du behöver inte överföra bilder manuellt när innehållet ändras. Dessutom säkerställer det att de senaste bilderna alltid finns i Campaign.
 

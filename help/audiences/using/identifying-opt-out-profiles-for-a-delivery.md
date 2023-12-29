@@ -11,7 +11,7 @@ exl-id: 70f6038d-9c5e-4e30-a958-913b454e6d61
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '48'
-ht-degree: 41%
+ht-degree: 29%
 
 ---
 
@@ -23,5 +23,5 @@ Profiler för avanmälan för en viss leverans listas efter förberedelsefasen i
 
 **Relaterade ämnen:**
 
-* [Övervaka en leverans](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
-* [Förbered sändningen](../../sending/using/preparing-the-send.md).
+* [Övervaka leverans](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
+* [Förbereder sändningen](../../sending/using/preparing-the-send.md).

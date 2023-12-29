@@ -11,8 +11,8 @@ level: Experienced
 exl-id: b00fdeb9-2431-4209-8a3f-59c7e6ce7c31
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1657'
-ht-degree: 100%
+source-wordcount: '1663'
+ht-degree: 97%
 
 ---
 
@@ -215,7 +215,7 @@ Genom att lägga till den här länken läggs fliken **Inköp** till på skärme
 
 ![](assets/custom_resource_link_to_profile.png)
 
-## Definiera tillägget för sändningsloggar {#defining-sending-logs-extension}
+## Definiera avsändande loggtillägg {#defining-sending-logs-extension}
 
 Med tillägget för sändningsloggar kan du:
 

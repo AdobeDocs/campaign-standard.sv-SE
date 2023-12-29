@@ -11,7 +11,7 @@ exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 87%
+ht-degree: 84%
 
 ---
 
@@ -39,9 +39,9 @@ Om du vill börja skicka meddelanden via app-maddelanden till mobil-appar som an
 
 * [Rapport i appen](../../reporting/using/in-app-report.md)
 * [Mobila användningsfall som stöds av Adobe Campaign Standard](../../administration/using/configuring-rules-launch.md)
-* [Guide för Campaign Standard Mobile](../../channels/using/get-started-communication-channels.md)
+* [Campaign Standard Mobile Guide](../../channels/using/get-started-communication-channels.md)
 
-## Hantera mobilprofilfält med personliga och känsliga data {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
+## Hantera mobilprofilsfält med personliga och känsliga data {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
 
 I Adobe Campaign lagras data för mobilprofilattribut som skickas från mobila enheter i resursen **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**, vilket gör att du kan definiera de data som du vill samla in från programprenumeranterna.
 

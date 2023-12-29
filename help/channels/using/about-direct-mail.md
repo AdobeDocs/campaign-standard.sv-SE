@@ -12,7 +12,7 @@ exl-id: 815b4a0d-0486-4867-b751-b5ca8b643cb9
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '455'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -42,7 +42,7 @@ Användarprocessen i Adobe Campaign är som följer:
 
 ## Rekommendationer {#recommendations}
 
-### Leverantör av direktmeddelanden {#direct-mail-providers}
+### Direktreklamleverantörer {#direct-mail-providers}
 
 Först och främst måste ni kontakta er leverantör av direktmeddelanden och ta reda på deras rekommendationer. Identifiera vilken profilinformation som behöver inkluderas i extraheringsfilen så att de kan personalisera kommunikationen och skicka den till målgruppen.  Som exempelvis för- och efternamn, postadress, kampanjkod etc.  Dessa fält läggs till i fliken [Definiera extrahering](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) i direktmeddelandets innehåll.
 

@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 553897d4-2652-453f-960e-bb2993889f37
 source-git-commit: 9bfae9e956fa86254578eda821aedd240c81288c
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 98%
+source-wordcount: '1317'
+ht-degree: 95%
 
 ---
 
@@ -40,7 +40,7 @@ Alla profiler som är en del av kontrollgruppen vid leveransens förberedelseste
 
 För att definiera en kontrollgrupp kan du välja att extrahera – slumpmässigt eller baserat på en sortering – en procentandel eller ett fast antal profiler från målpopulationen.
 
-### Extrahera från mål {#target-extraction}
+### Målextrahering {#target-extraction}
 
 Definiera först hur profilerna ska extraheras från målet: **slumpmässigt** eller baserat på en **sortering**.
 

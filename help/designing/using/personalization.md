@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
-source-wordcount: '2583'
-ht-degree: 4%
+source-wordcount: '2611'
+ht-degree: 3%
 
 ---
 
@@ -55,7 +55,7 @@ Med Adobe Campaign kan du anpassa en eller flera URL-adresser i meddelandet geno
 >
 >När du markerar ett innehållsblock får du inte markera element som **Länk till spegelsida**. Den här typen av block tillåts inte inuti en länk.
 
-## Infoga ett personaliserat fält{#inserting-a-personalization-field}
+## Infoga ett anpassningsfält{#inserting-a-personalization-field}
 
 Med Adobe Campaign kan du infoga ett fält från databasen på din sida, t.ex. profilens förnamn.
 
@@ -177,7 +177,7 @@ Mer information om detta hittar du i [Målinställningar och resurser](../../aut
 
 **Relaterade ämnen:**
 
-* [Infoga ett personaliserat fält](#inserting-a-personalization-field)
+* [Infoga ett anpassningsfält](#inserting-a-personalization-field)
 * [Lägga till ett innehållsblock](#adding-a-content-block)
 * [Definiera dynamiskt innehåll i ett e-postmeddelande](#defining-dynamic-content-in-an-email)
 

@@ -12,7 +12,7 @@ exl-id: f9b36b4d-0e9d-4dcf-9079-91dc83764102
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -122,7 +122,7 @@ När åtgärden är klar visas flera avsnitt:
 >
 >När du väljer ett element i listan med paketinnehåll som redan har exporterats är flikarna **[!UICONTROL Log]** och **[!UICONTROL Last export]** fortfarande tillgängliga.
 
-## Paketimporteringar {#package-imports}
+## Paketimporter {#package-imports}
 
 ### Systemuppdateringar {#system-updates}
 

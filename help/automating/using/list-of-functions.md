@@ -10,14 +10,14 @@ level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 95%
+source-wordcount: '2011'
+ht-degree: 94%
 
 ---
 
 # Lista över funktioner{#list-of-functions}
 
-## Om funktioner {#about-functions}
+## Funktioner {#about-functions}
 
 Med verktyget för frågeredigering kan du använda avancerade funktioner för komplex filtrering. Du kan göra detta med elementet **[!UICONTROL Expression]** på verktygspaletten som du kan använda på arbetsytan. Ytterligare information om detta finns i ett [specifikt avsnitt](../../automating/using/advanced-expression-editing.md).
 
@@ -384,7 +384,7 @@ De numeriska värdefunktionerna används för att konvertera text till tal.
  </tbody> 
 </table>
 
-## Övrigt {#others}
+## Övriga {#others}
 
 Tabellen innehåller de återstående funktionerna som är tillgängliga.
 

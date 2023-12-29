@@ -11,14 +11,14 @@ level: Intermediate
 exl-id: b207dc73-03dc-4f25-95e5-573e4b4bce54
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 86%
+source-wordcount: '480'
+ht-degree: 81%
 
 ---
 
 # Personalisera ett e-postmeddelande med ytterligare data {#example--personalizing-an-email-with-additional-data}
 
-I följande exempel visas hur du lägger till olika typer av ytterligare data i en förfrågan och hur de används som ett personaliserat fält i ett e-postmeddelande. Mer information om hur man berikar data som **[!UICONTROL Query]** aktivitet, se [det här avsnittet](../../automating/using/query.md#enriching-data).
+I följande exempel visas hur du lägger till olika typer av ytterligare data i en fråga och hur de används som ett anpassningsfält i ett e-postmeddelande. Mer information om hur man berikar data som **[!UICONTROL Query]** aktivitet, se [det här avsnittet](../../automating/using/query.md#enriching-data).
 
 I det här exemplet används [anpassade resurser](../../developing/using/data-model-concepts.md) :
 

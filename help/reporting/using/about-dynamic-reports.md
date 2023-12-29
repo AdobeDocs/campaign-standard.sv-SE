@@ -10,14 +10,14 @@ level: Beginner
 exl-id: fc3b28f3-63f6-4edc-923d-c7eb7925d1b7
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 5%
+source-wordcount: '800'
+ht-degree: 2%
 
 ---
 
 # Kom igång med dynamiska rapporter {#about-dynamic-reports}
 
-Dynamic Reporting ger helt anpassningsbara rapporter i realtid. Det ger åtkomst till profildata, vilket möjliggör demografiska analyser efter profildimensioner som kön, ort och ålder, utöver funktionella e-postkampanjdata som öppningar och klick. Med dra och släpp-gränssnittet kan du utforska data, avgöra hur framgångsrika e-postkampanjerna är för dina viktigaste kundsegment och mäta deras påverkan på mottagarna.
+Dynamic Reporting ger helt anpassningsbara rapporter i realtid. Det ger åtkomst till profildata, vilket möjliggör demografiska analyser efter profildimensioner som kön, ort och ålder, utöver funktionella e-postkampanjdata som öppningar och klick. Med dra-och-släpp-gränssnittet kan ni utforska data, avgöra hur era e-postkampanjer har genomförts mot era viktigaste kundsegment och mäta deras påverkan på mottagarna.
 
 >[!NOTE]
 >

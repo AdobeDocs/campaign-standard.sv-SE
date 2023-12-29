@@ -12,7 +12,7 @@ exl-id: ea167fec-d4df-4147-9dcd-33001d8a1c9b
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -32,7 +32,7 @@ För varje målprofil läggs en ny rad till i extraheringsfilen. Mängden profil
 >
 >Se till att dina profiler innehåller en postadress eftersom den här informationen är viktig för leverantören av direktutskick. Se även till att du har markerat rutan **[!UICONTROL Address specified]** i profilinformationen.  Se [Rekommendationer](../../channels/using/about-direct-mail.md#recommendations).
 
-## Lägga till test- och trapprofiler {#adding-test-and-trap-profiles}
+## Lägga till test- och svällningsprofiler {#adding-test-and-trap-profiles}
 
 Lägg till testprofiler så att du kan testa filen med ett litet antal profiler. Du kan snabbt skapa ett filexempel för att testa och validera strukturen innan du förbereder den faktiska filen. Se [Hantera testprofiler](../../audiences/using/managing-test-profiles.md).
 

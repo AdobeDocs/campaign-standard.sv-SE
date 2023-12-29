@@ -11,8 +11,8 @@ level: Beginner
 exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
 source-git-commit: 0e486e87c94e273442de23d6eb65c99f065e5a71
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 9%
+source-wordcount: '992'
+ht-degree: 7%
 
 ---
 
@@ -24,7 +24,7 @@ Ett transaktionsmeddelande är en individ och en unik kommunikation som skickas 
 
 * **Varför är det viktigt?** Vanligtvis har ett transaktionsmeddelande höga öppningsfrekvenser. Den bör därför utformas noggrant, eftersom den kan ha stor inverkan på kundernas beteende när den definierar kundrelationen.
 
-* **Exempel?** Det kan vara ett välkomstmeddelande när du har skapat ett konto, en bekräftelse på att en beställning har skickats, en faktura, ett meddelande som bekräftar en lösenordsändring eller ett meddelande efter att en kund har bläddrat på din webbplats osv.
+* **Till exempel?** Det kan vara ett välkomstmeddelande när du har skapat ett konto, en bekräftelse på att en beställning har skickats, en faktura, ett meddelande som bekräftar en lösenordsändring eller ett meddelande efter att en kund har bläddrat på din webbplats osv.
 
 Med Adobe Campaign kan ni integrera den här funktionen med ett informationssystem som skickar händelser som ska omvandlas till anpassade transaktionsmeddelanden.
 
@@ -38,7 +38,7 @@ Transaktionsmeddelanden kan skickas via e-post, SMS eller [push-meddelande](../.
 
 Innan du börjar med transaktionsmeddelanden bör du kontrollera att du har läst motsvarande [bästa praxis och begränsningar](../../channels/using/transactional-messaging-limitations.md).
 
-## Driftspolicy för transaktionsmeddelanden {#transactional-messaging-operating-principle}
+## Transactional messaging operating policy policy {#transactional-messaging-operating-principle}
 
 Den övergripande processen för transaktionsmeddelanden beskrivs på följande sätt:
 

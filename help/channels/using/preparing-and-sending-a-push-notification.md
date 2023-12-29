@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 41b83014-aea9-4ec2-b20e-c0a05bcad503
 source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 9%
+source-wordcount: '841'
+ht-degree: 7%
 
 ---
 
@@ -40,7 +40,7 @@ Stegen för att skapa ett push-meddelande med Adobe Campaign är:
 
    Du kan också välja flerspråkiga mallar. Mer information finns i [Skapa ett flerspråkigt push-meddelande](../../channels/using/creating-a-multilingual-push-notification.md).
 
-   Mer om mallar finns i avsnittet [Hantera mallar](../../start/using/marketing-activity-templates.md).
+   Mer information om mallar finns i [Hantera mallar](../../start/using/marketing-activity-templates.md) -avsnitt.
 
 1. Ange dina egenskaper för push-meddelanden och välj din mobilapp i **[!UICONTROL Associate a Mobile App to a delivery]** fält.
 

@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 0a71e3a7-60e6-49ec-af2e-099ad0d69a15
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 90%
+source-wordcount: '338'
+ht-degree: 76%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 90%
 
 I det här avsnittet visas hur du använder **[!UICONTROL Query]** aktivitet. Mer information om hur du använder en **[!UICONTROL Query]** aktivitet, se [det här avsnittet](../../automating/using/query.md).
 
-## Målriktat mot enkla profilattribut {#targeting-on-simple-profile-attributes}
+## Målinriktning mot enkla profilattribut {#targeting-on-simple-profile-attributes}
 
 I följande exempel så visas en frågeaktivitet som är konfigurerad för att rikta sig till män mellan 18 och 30 år och som bor i London.
 
 ![](assets/query_sample_1.png)
 
-## Inriktat på e-postattribut {#targeting-on-email-attributes}
+## Riktning på e-postattribut {#targeting-on-email-attributes}
 
 I följande exempel så visas en frågeaktivitet som har konfigurerats för målprofiler med e-postadressdomänen orange.co.uk.
 
@@ -60,7 +60,7 @@ I följande exempel visas en förfrågan som konfigurerats för att filtrera pro
 
    ![](assets/query_sample_opened2.png)
 
-## Målprofiler för vilka leveranser som misslyckades av en viss anledning {#targeting-profiles-for-whom-deliveries-failed-for-a-specific-reason}
+## Målprofiler för vilka leveranser misslyckades av en viss anledning {#targeting-profiles-for-whom-deliveries-failed-for-a-specific-reason}
 
 I följande exempel visas en förfrågan som konfigurerats för att filtrera profiler för vilka leveranser som misslyckades på grund av att deras brevlåda var full.  Förfrågan är bara tillgänglig för användare med administrationsrättigheter och som tillhör **[!UICONTROL All (all)]** organisationsenheterna (se [det här avsnittet](../../administration/using/organizational-units.md)).
 
@@ -76,7 +76,7 @@ I följande exempel visas en förfrågan som konfigurerats för att filtrera pro
 
    ![](assets/query_sample_failure3.png)
 
-## Målprofiler som inte har kontaktats under de 7 senaste dagarna {#targeting-profiles-not-contacted-during-the-last-7-days}
+## Målprofiler som inte kontaktats under de senaste 7 dagarna {#targeting-profiles-not-contacted-during-the-last-7-days}
 
 I följande exempel så visas en förfrågan som konfigurerats för att filtrera profiler som inte kontaktats under de 7 senaste dagarna.
 

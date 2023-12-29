@@ -11,13 +11,13 @@ exl-id: ac9c556d-c0f6-4b33-8855-1f5f669c148f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '232'
-ht-degree: 24%
+ht-degree: 10%
 
 ---
 
 # Utöka prenumerationerna till en applikationsresurs{#extending-the-subscriptions-to-an-application-resource}
 
-I Adobe Campaign lagras data för mobilprofilattribut som skickas från mobila enheter i resursen **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**, vilket gör att du kan definiera de data som du vill samla in från programprenumeranterna. Mer information om anpassade resurser finns i [den här sidan](../../developing/using/key-steps-to-add-a-resource.md).
+I Adobe Campaign lagras data för attribut för mobilprofiler som skickas från mobila enheter i **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** en resurs som gör att du kan definiera de data som du vill samla in från programprenumeranterna. Mer information om anpassade resurser finns i [den här sidan](../../developing/using/key-steps-to-add-a-resource.md).
 
 Resursen kan utökas till att samla in data som du vill skicka från den mobila enheten till Adobe Campaign.
 

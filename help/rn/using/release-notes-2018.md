@@ -8,8 +8,8 @@ hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '5355'
-ht-degree: 6%
+source-wordcount: '5386'
+ht-degree: 3%
 
 ---
 
@@ -29,11 +29,11 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> Meddelanden i appen (beta)<br /> </td> 
-   <td> Med meddelanden i appen kan ni engagera mobilappsanvändare mer effektivt genom att tillhandahålla sammanhangsberoende interaktion och göra det möjligt att nå användare som har valt att inte använda push-meddelanden. Använd meddelanden i appen tillsammans med push-meddelanden för att skapa en personaliserad och relevant upplevelse. Detta leder till bättre konvertering och lojalitet hos appanvändarna.<br /> Mer information finns i den <a href="../../channels/using/about-in-app-messaging.md">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Med meddelanden i appen kan ni engagera mobilappsanvändare mer effektivt genom att tillhandahålla sammanhangsberoende interaktion och göra det möjligt att nå användare som har valt att inte använda push-meddelanden. Använd meddelanden i appen tillsammans med push-meddelanden för att skapa en personaliserad och relevant upplevelse. Detta leder till bättre konvertering och lojalitet hos appanvändarna.<br /> Mer information finns i <a href="../../channels/using/about-in-app-messaging.md">detaljerad dokumentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Launch-integrering för mobilappar (beta)<br /> </td> 
-   <td> Adobe Launch-integrering med Adobe Campaign förenklar och automatiserar nu processen för aktivering av mobilappsegenskaper i Campaign med Mobile SDK V5.<br /> Mer information finns i den <a href="https://helpx.adobe.com/se/campaign/kb/configuring-app-sdk.html">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Adobe Launch-integrering med Adobe Campaign förenklar och automatiserar nu processen för aktivering av mobilappsegenskaper i Campaign med Mobile SDK V5.<br /> Mer information finns i <a href="https://helpx.adobe.com/se/campaign/kb/configuring-app-sdk.html">detaljerad dokumentation</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,7 +59,7 @@ ht-degree: 6%
 
 **Korrigeringar**
 
-* Korrigerade ett problem som visade en diskrepans i antalet loggar mellan e-postinstrumentpanelen och e-postsammanfattningsrapporten för transaktionsmeddelanden. (CAMP-28237
+* Korrigerade ett problem som visade en diskrepans i antalet loggar mellan e-postinstrumentpanelen och e-postsammanfattningsrapporten för transaktionsmeddelanden. (CAMP-28237)
 * Korrigerade ett fel i arbetsflöden som kunde visa ett felmeddelande när en fil importerades via en filöverföringsaktivitet. (CAMP-27435)
 * Korrigerade ett problem med landningssidor som innehöll fler än 25 tjänster, vilket ledde till att tjänster avmarkerades slumpmässigt i formuläret. (CAMP-26572)
 * Korrigerade ett problem i arbetsflöden som hindrade externa konton från att konfigureras med en SFTP-URL när filöverföringsaktiviteten användes. (CAMP-26475)
@@ -94,15 +94,15 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> Flagga med hög prioritet för Android-push-meddelanden<br /> </td> 
-   <td> Flagga med hög prioritet för Android - Aktivera leverans av ett push-meddelande med hög prioritet för Android-program, vilket gör att vilolägesenheten vaknar och kör begränsad bearbetning. Observera att standardprioriteten är Normal, vilket kan fördröja meddelandeleveransen för att spara batteri. <br /> Mer information finns i den <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Flagga med hög prioritet för Android - Aktivera leverans av ett push-meddelande med hög prioritet för Android-program, vilket gör att vilolägesenheten vaknar och kör begränsad bearbetning. Observera att standardprioriteten är Normal, vilket kan fördröja meddelandeleveransen för att spara batteri. <br /> Mer information finns i <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android">detaljerad dokumentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Typologifilter för mobilappsprenumerationer<br /> </td> 
-   <td> Stöd för prenumerationer i typologifilter - När du anger filtervillkoren för en typologiregel kan du välja programprenumerationer som filtrerings- och måldimensioner, vilket ger möjlighet att filtrera på attribut för användare med eller utan en profil. <br /> Mer information finns i den <a href="../../sending/using/about-typology-rules.md">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Stöd för prenumerationer i typologifilter - När du anger filtervillkoren för en typologiregel kan du välja programprenumerationer som filtrerings- och måldimensioner, vilket ger möjlighet att filtrera på attribut för användare med eller utan en profil. <br /> Mer information finns i <a href="../../sending/using/about-typology-rules.md">detaljerad dokumentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Automatisk innehållsimport från en URL under meddelandeförberedelse<br /> </td> 
-   <td> Nu går det att importera e-postinnehåll från en URL-adress under förberedelsefasen. För återkommande e-postleveranser hämtas det senaste HTML-innehållet varje gång meddelandet förbereds, så att innehållet alltid är uppdaterat när e-postmeddelandet skickas. Med den här funktionen kan du också skapa en schemalagd leverans med innehåll från en URL även om innehållet inte är klart än.<br /> Mer information finns i den <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Nu går det att importera e-postinnehåll från en URL-adress under förberedelsefasen. För återkommande e-postleveranser hämtas det senaste HTML-innehållet varje gång meddelandet förbereds, så att innehållet alltid är uppdaterat när e-postmeddelandet skickas. Med den här funktionen kan du också skapa en schemalagd leverans med innehåll från en URL även om innehållet inte är klart än.<br /> Mer information finns i <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">detaljerad dokumentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Meddelande om kampanjrelease<br /> </td> 
@@ -110,7 +110,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> Användarhantering<br /> </td> 
-   <td> Funktionen för geografiska enheter är nu inte tillgänglig för nya Campaign Standarder, liksom för befintliga instanser utan geografiska enheter, från och med version 18.7.<br /><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=sv#release-notes"> För mer information om detta hittar du i det här avsnittet</a>.<br /> </td> 
+   <td> Funktionen för geografiska enheter är nu inte tillgänglig för nya Campaign Standarder, liksom för befintliga instanser utan geografiska enheter, från och med version 18.7.<br /> Mer information finns i <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=sv#release-notes">page</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -195,11 +195,11 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> GDPR: Integrering av bastjänst<br /> </td> 
-   <td> Integritet Core Service Integration gör att ni kan automatisera era GDPR-förfrågningar i ett flerlösningssammanhang via ett enda JSON API-anrop. <br /> GDPR-begäranden som skickas från sekretesskärntjänsten till alla Experience Cloud-lösningar hanteras nu automatiskt av Campaign. <br /> Mer information finns i den <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Integritet Core Service Integration gör att ni kan automatisera era GDPR-förfrågningar i ett flerlösningssammanhang via ett enda JSON API-anrop. <br /> GDPR-begäranden som skickas från sekretesskärntjänsten till alla Experience Cloud-lösningar hanteras nu automatiskt av Campaign. <br /> Mer information finns i <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">detaljerad dokumentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Förbättrade push-funktioner - detaljerad feedback<br /> </td> 
-   <td> Adobe Campaign ger nu möjlighet att få detaljerad feedback (skicka loggar och exkluderingsloggar) om push-meddelanden från leverantörer (APNS/GCM) via MCPNS.<br /> Mer information finns i den <a href="../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Adobe Campaign ger nu möjlighet att få detaljerad feedback (skicka loggar och exkluderingsloggar) om push-meddelanden från leverantörer (APNS/GCM) via MCPNS.<br /> Mer information finns i <a href="../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification">detaljerad dokumentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Tillägget Leveransloggar<br /> </td> 
@@ -207,11 +207,11 @@ ht-degree: 6%
     <ul> 
      <li> Exportera utökade sändningsloggar med "frysta" data: som marknadsförare vill jag exportera alla profiler där segmentkoden är lika med "A" (kommer från arbetsflödesmotorn). </li> 
      <li> Segmentering på "frysta" data: som marknadsförare vill jag <strong>återmål</strong> alla profiler som har vunnit 1000 förmånspoäng sedan den senaste sändningen eller där segmentkoden var lika med"A". </li> 
-    </ul> Mer information finns i den <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">detaljerade dokumentationen</a>.<br /> </td> 
+    </ul> Mer information finns i <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">detaljerad dokumentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Dynamisk rapportering med anpassade profildata<br /> </td> 
-   <td> Med den här funktionen kan du skapa och hantera rapporter baserat på anpassade profildata som skapats under profilresurstillägget. Du kan dela upp rapporter efter profilattribut som lojalitetsprogram, föredragen kanal osv.<br /> Mer information finns i den <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Med den här funktionen kan du skapa och hantera rapporter baserat på anpassade profildata som skapats under profilresurstillägget. Du kan dela upp rapporter efter profilattribut som lojalitetsprogram, föredragen kanal osv.<br /> Mer information finns i <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">detaljerad dokumentation</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -297,7 +297,7 @@ _Anpassade resurser_
     <ul> 
      <li> Åtkomst: ger den registrerade möjlighet att få en kopia av sina personuppgifter som samlats in av personuppgiftsansvariga, inklusive uppgifter som lagrats i Adobe Campaign. </li> 
      <li> Rätt att radera: ger den registrerade rätt att radera sina personuppgifter som registrerats av personuppgiftsansvariga, inklusive uppgifter som lagrats i Adobe Campaign. </li> 
-    </ul> Mer information finns i den <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">detaljerade dokumentationen</a>.<br /> </td> 
+    </ul> Mer information finns i <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">detaljerad dokumentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer for Email (Beta)<br /> </td> 
@@ -311,15 +311,15 @@ _Anpassade resurser_
   </tr> 
   <tr> 
    <td> Flerspråkiga push-leveranser<br /> </td> 
-   <td> Samma enkla flerspråkiga gränssnitt, som redan finns i e-post- och SMS-kanalerna, har lagts till i Push-kanalen och hjälper er att engagera kunderna oavsett vilket språk de föredrar.<br /> Den här funktionen erbjuder en skalbar och automatisk lösning för kunder som hanterar push-kampanjer i flera regioner och vill rikta sig till användare på det språk de föredrar. Du kan ladda upp alla språkliga varianter via ett kalkylblad till en enda push-leverans med ett enda klick. Adobe Campaign utför sedan en automatisk segmentering baserat på användarnas språkinställningar, vilket minskar redundansen genom enklare arbetsflöden och rapportering.<br /> Mer information finns i den <a href="../../channels/using/creating-a-multilingual-push-notification.md">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Samma enkla flerspråkiga gränssnitt, som redan finns i e-post- och SMS-kanalerna, har lagts till i Push-kanalen och hjälper er att engagera kunderna oavsett vilket språk de föredrar.<br /> Den här funktionen erbjuder en skalbar och automatisk lösning för kunder som hanterar push-kampanjer i flera regioner och vill rikta sig till användare på det språk de föredrar. Du kan ladda upp alla språkliga varianter via ett kalkylblad till en enda push-leverans med ett enda klick. Adobe Campaign utför sedan en automatisk segmentering baserat på användarnas språkinställningar, vilket minskar redundansen genom enklare arbetsflöden och rapportering.<br /> Mer information finns i <a href="../../channels/using/creating-a-multilingual-push-notification.md">detaljerad dokumentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Användning av anpassade resurser i transaktionsmeddelanden<br /> </td> 
-   <td> Utöver färdiga fält kan du nu använda anpassade resurser för att förbättra innehållet i dina meddelanden med transaktionsmeddelanden.<br /> Exempel:<br /> 
+   <td> Utöver färdiga fält kan du nu använda anpassade resurser för att förbättra innehållet i dina meddelanden med transaktionsmeddelanden.<br /> Till exempel:<br /> 
     <ul> 
      <li> Använd anpassade fält som avstämningskriterier för att matcha ett transaktionsmeddelande med en profil </li> 
      <li> Utnyttja fullständiga profiler, tjänster och länkade data för att ytterligare personalisera transaktionsmeddelanden </li> 
-    </ul> Mer information finns i den <a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">detaljerade dokumentationen</a>.<br /> </td> 
+    </ul> Mer information finns i <a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">detaljerad dokumentation</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -383,11 +383,11 @@ _Transaktionsmeddelanden_
  <tbody> 
   <tr> 
    <td> Prenumeration - prenumerera eller avbeställ en lista över profiler för flera tjänster<br /> </td> 
-   <td> The <strong>Prenumerationstjänster</strong> Nu kan du prenumerera på eller avbryta prenumerationen på en lista med profiler för flera tjänster. I arbetsflödet importerar du en fil som innehåller profilerna och för varje profil åtgärdstypen och tjänsten. The <strong>Prenumerationstjänster</strong> kommer att kunna använda den här informationen och hantera dynamiskt alla dina profiler, prenumerationer och avbeställningar samtidigt.<br /> Mer information finns i den <a href="../../automating/using/subscription-services.md">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> The <strong>Prenumerationstjänster</strong> Nu kan du prenumerera på eller avbryta prenumerationen på en lista med profiler för flera tjänster. I arbetsflödet importerar du en fil som innehåller profilerna och för varje profil åtgärdstypen och tjänsten. The <strong>Prenumerationstjänster</strong> kommer att kunna använda den här informationen och hantera dynamiskt alla dina profiler, prenumerationer och avbeställningar samtidigt.<br /> Mer information finns i <a href="../../automating/using/subscription-services.md">detaljerad dokumentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Anrikningsaktivitet - berika data baserat på tidigare övergångar<br /> </td> 
-   <td> Den nya <span class="uicontrol">Berikning</span> Med arbetsflödesaktiviteten kan du utnyttja inkommande övergångar och slutföra utdataövergången med ytterligare data. Om du har målprofiler kan du med hjälp av anrikningsaktiviteten utöka profilinformationen med ytterligare data som inte lagras i databasen (till exempel från en importerad fil).<br /> Mer information finns i den <a href="../../automating/using/enrichment.md">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Den nya <span class="uicontrol">Berikning</span> Med arbetsflödesaktiviteten kan du utnyttja inkommande övergångar och slutföra utdataövergången med ytterligare data. Om du har målprofiler kan du med hjälp av anrikningsaktiviteten utöka profilinformationen med ytterligare data som inte lagras i databasen (till exempel från en importerad fil).<br /> Mer information finns i <a href="../../automating/using/enrichment.md">detaljerad dokumentation</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -447,15 +447,15 @@ Vissa problem kan uppstå när sammanhangsberoende hjälplänkar från gränssni
  <tbody> 
   <tr> 
    <td> Rapportering om trötthetshantering<br /> </td> 
-   <td> Rapportering för trötthetshantering är en dedikerad, konfigurerbar rapport som visar hur utmattningsreglerna påverkar leveranser i kanalerna för e-post, push, SMS och direktreklam inom ett angivet datumintervall före sändning. Med den nya insikten att snabbt kunna se alla kampanjer i konflikt i en enda vy kan marknadsförarna planera marknadsföringskampanjer enligt trötthetsreglerna mer effektivt och prioritera kommunikation.<br /> Mer information finns i den <a href="../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Rapportering för trötthetshantering är en dedikerad, konfigurerbar rapport som visar hur utmattningsreglerna påverkar leveranser i kanalerna för e-post, push, SMS och direktreklam inom ett angivet datumintervall före sändning. Med den nya insikten att snabbt kunna se alla kampanjer i konflikt i en enda vy kan marknadsförarna planera marknadsföringskampanjer enligt trötthetsreglerna mer effektivt och prioritera kommunikation.<br /> Mer information finns i <a href="../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">detaljerad dokumentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Rapportdelning<br /> </td> 
-   <td> Med Rapportdelning kan du dela rapporter med Adobe Campaign-användare som e-postbilagor, inklusive automatiskt återkommande rapporter. Användare som får återkommande rapporter kan avbeställa dem via en speciell länk i varje mejl.<br /> Mer information finns i den <a href="../../reporting/using/reporting-interface.md#share-tab">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Med Rapportdelning kan du dela rapporter med Adobe Campaign-användare som e-postbilagor, inklusive automatiskt återkommande rapporter. Användare som får återkommande rapporter kan avbeställa dem via en speciell länk i varje mejl.<br /> Mer information finns i <a href="../../reporting/using/reporting-interface.md#share-tab">detaljerad dokumentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Push New capabilities<br /> </td> 
-   <td> Förhandsgranska push-meddelanden - Förhandsgranska push-meddelanden på iOS- och Android-enheter i innehållsredigeraren för push-meddelanden för att se exakt vad mottagarna kommer att se innan leveransen testas eller körs.<br /> Mer information finns i den <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">detaljerade dokumentationen</a>.<br /> Tillgängligt innehåll - När appar inte öppnas över längre tidsperioder kan deras data bli inaktuella. Detta medför att data måste uppdateras eller ersättas när en användare öppnar appen, vilket kan orsaka förseningar när appen används. Med det nya stödet för tillgängligt innehåll kan Adobe Campaign-användare väcka appen och uppdatera sina data i bakgrunden när de skickar ett push-meddelande, vilket ger större enhetlighet och bättre kontroll över användarens upplevelse i appen.<br /> Mutable Content - Med det nya stödet för Mutable Content kan Adobe Campaign-användare nu utnyttja sina mobilappstillägg för att ytterligare modifiera innehållet i eller presentationen av push-meddelanden som skickas från Adobe Campaign. Användare kan till exempel utnyttja muterbart innehåll för att: <br /> 
+   <td> Förhandsgranska push-meddelanden - Förhandsgranska push-meddelanden på iOS- och Android-enheter i innehållsredigeraren för push-meddelanden för att se exakt vad mottagarna kommer att se innan leveransen testas eller körs.<br /> Mer information finns i <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">detaljerad dokumentation</a>.<br /> Tillgängligt innehåll - När appar inte öppnas över längre tidsperioder kan deras data bli inaktuella. Detta medför att data måste uppdateras eller ersättas när en användare öppnar appen, vilket kan orsaka förseningar när appen används. Med det nya stödet för tillgängligt innehåll kan Adobe Campaign-användare väcka appen och uppdatera sina data i bakgrunden när de skickar ett push-meddelande, vilket ger större enhetlighet och bättre kontroll över användarens upplevelse i appen.<br /> Mutable Content - Med det nya stödet för Mutable Content kan Adobe Campaign-användare nu utnyttja sina mobilappstillägg för att ytterligare modifiera innehållet i eller presentationen av push-meddelanden som skickas från Adobe Campaign. Användare kan till exempel utnyttja muterbart innehåll för att: <br /> 
     <ul> 
      <li> dekryptera data som levererats i krypterat format </li> 
      <li> hämta bilder eller andra mediefiler och lägga till dem som bilagor i ett meddelande </li> 
@@ -465,11 +465,11 @@ Vissa problem kan uppstå när sammanhangsberoende hjälplänkar från gränssni
   </tr> 
   <tr> 
    <td> Tidszonsoptimerade leveranser<br /> </td> 
-   <td> Schemalägg återkommande e-post-, SMS- och push-meddelanden som ska levereras vid en viss dag/tid i varje mottagares tidszon för att säkerställa att dina meddelanden levereras vid rätt tidpunkt utan att behöva ställa in flera leveranser. <br /> Mer information finns i den <a href="../../automating/using/scheduler.md">detaljerade dokumentationen</a>.<br /> </td> 
+   <td> Schemalägg återkommande e-post-, SMS- och push-meddelanden som ska levereras vid en viss dag/tid i varje mottagares tidszon för att säkerställa att dina meddelanden levereras vid rätt tidpunkt utan att behöva ställa in flera leveranser. <br /> Mer information finns i <a href="../../automating/using/scheduler.md">detaljerad dokumentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> API-signalaktivitet som utlöser<br /> </td> 
-   <td> Nu kan du aktivera en signalaktivitet för dina arbetsflöden direkt från Adobe Campaign Standard API.<br /> Mer information finns i den <a href="/help/api/using/triggering-a-signal-activity.md">detaljerade dokumentationen</a> .<br /> </td> 
+   <td> Nu kan du aktivera en signalaktivitet för dina arbetsflöden direkt från Adobe Campaign Standard API.<br /> Mer information finns i <a href="/help/api/using/triggering-a-signal-activity.md">detaljerad dokumentation</a> .<br /> </td> 
   </tr> 
  </tbody> 
 </table>

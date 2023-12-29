@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 31f4e557-55b3-4bf5-8d5d-9d412b7670a6
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 83%
+source-wordcount: '512'
+ht-degree: 79%
 
 ---
 
@@ -72,7 +72,7 @@ I den här rapporten visas e-poståtergivningarna så som de visas för mottagar
 
 ### Återgivningstoken för e-post
 
-Antalet tillgängliga återgivningar visas i licensavtalet. Varje leverans med **E-poståtergivning** aktiverat minskar antalet tillgängliga återgivningar (så kallade tokens) med ett.
+Antalet tillgängliga återgivningar visas i licensavtalet. Varje leverans med **E-poståtergivning** aktiverad minskar dina tillgängliga återgivningar (kallas tokens) med ett.
 
 Tokens-konto för varje enskild återgivning och inte för hela återgivningsrapporten för e-post, vilket innebär att:
 

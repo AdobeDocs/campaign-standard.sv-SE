@@ -1,5 +1,5 @@
 ---
-title: Kom igång med Microsoft Dynamics 365-integration
+title: Kom igång med Microsoft Dynamics 365-integrering
 description: Kom igång med Microsoft Dynamics 365-integrering
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
@@ -11,12 +11,12 @@ level: Intermediate
 exl-id: fa0f790d-6a4d-4b83-a51f-f565e9545a1a
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 5%
+source-wordcount: '874'
+ht-degree: 4%
 
 ---
 
-# Kom igång med Microsoft Dynamics 365-integration
+# Kom igång med Microsoft Dynamics 365-integrering
 
 Aktivera dina CRM-data för kommunikation över flera kanaler: lär dig hur du skickar kontakter från Microsoft Dynamics 365 till Adobe Campaign och delar kampanjresultatdata (skickar, öppnar, klickar och studsar) tillbaka från Adobe Campaign till Microsoft Dynamics 365.
 

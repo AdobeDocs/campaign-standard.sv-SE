@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
 source-git-commit: 4d67d1d0239c7439cc1f4b8e1fd7fb2f7a99adec
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 13%
+source-wordcount: '194'
+ht-degree: 10%
 
 ---
 
@@ -34,4 +34,4 @@ Nedan visas standardkvarhållningsperioderna för standardtabeller. När det är
 * **Tillfälliga enheter**: 7 dagar
 * **Ignorerade pipeline-händelser**: 1 månad
 * **Leveransmeddelanden**: 1 månad
-* **Exportgranskning**: 6 månader (rekommenderas: 1 månad)
+* **Exportera granskning**: 6 månader (rekommenderas: 1 månad)

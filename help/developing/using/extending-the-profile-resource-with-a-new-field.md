@@ -10,14 +10,14 @@ level: Experienced
 exl-id: 625d5e10-3d68-440e-a60c-4fcdfca34b5f
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 98%
+source-wordcount: '1032'
+ht-degree: 92%
 
 ---
 
 # Utöka profilresursen med ett nytt fält{#extending-the-profile-resource-with-a-new-field}
 
-## Om utökning av profiler {#about-extending-profiles}
+## Om att utöka profiler {#about-extending-profiles}
 
 Här beskrivs hur du utökar en profil och en testprofil med ett dedikerat fält.
 
@@ -28,7 +28,7 @@ För att göra detta, följ nedanstående steg:
 * [Steg 1: Utöka profilresursen](#step-1--extend-the-profile-resource)
 * [Steg 2: Utöka testprofilen](#step-2--extend-the-test-profile)
 * [Steg 3: Publicera din anpassade resurs](#step-3--publish-your-custom-resource)
-* [Steg 4: Uppdatera och ange målprofiler i ett arbetsflöde](#step-4--update-and-target-profiles-with-a-workflow)
+* [Steg 4: Uppdatera och ange målprofiler med ett arbetsflöde](#step-4--update-and-target-profiles-with-a-workflow)
 
 Följande fält läggs sedan till i våra profiler och kan användas vid en leverans:
 
@@ -143,7 +143,7 @@ Om du vill tillämpa ändringarna som gjorts på resurserna och kunna använda d
 
 Ditt nya resursfält är nu klart att användas som mål vid exempelvis en leverans.
 
-## Steg 4: Uppdatera och ange målprofiler i ett arbetsflöde {#step-4--update-and-target-profiles-with-a-workflow}
+## Steg 4: Uppdatera och ange målprofiler med ett arbetsflöde {#step-4--update-and-target-profiles-with-a-workflow}
 
 För att uppdatera profiler med data för det nya anpassade fältet kan du skapa en landningssida med hjälp av mall **[!UICONTROL Profile acquisition]**.  Mer information om landningssidor hittar du på den här [sidan](../../channels/using/getting-started-with-landing-pages.md).
 

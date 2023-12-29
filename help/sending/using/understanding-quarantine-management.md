@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
 source-git-commit: eec8c66d4947e04cd0eb3dcf0f09d395d9db68b9
 workflow-type: tm+mt
-source-wordcount: '1429'
-ht-degree: 24%
+source-wordcount: '1442'
+ht-degree: 22%
 
 ---
 
@@ -23,7 +23,7 @@ En e-postadress eller ett telefonnummer kan sättas i karantän om exempelvis in
 
 Under alla omständigheter så uppfyller karantänproceduren de särskilda regler som beskrivs i detta [avsnitt](#conditions-for-sending-an-address-to-quarantine).
 
-### Optimera leveransen genom karantäner {#optimizing-your-delivery-through-quarantines}
+### Optimera leveransen genom karantän {#optimizing-your-delivery-through-quarantines}
 
 De profiler vars e-postadresser eller telefonnummer är i karantän exkluderas automatiskt vid förberedelse av meddelanden (se [Identifiera karantänadresser vid en leverans](#identifying-quarantined-addresses-for-a-delivery)).  Detta snabbar upp leveranserna eftersom felfrekvensen avsevärt påverkar leveranshastigheten.
 

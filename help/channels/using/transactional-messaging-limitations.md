@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: d6aaec6e-c718-46a2-88e8-7402970def1a
 source-git-commit: 2d3ef53d5ea5603d90da169366be6ea516d96823
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 67%
+source-wordcount: '756'
+ht-degree: 61%
 
 ---
 
@@ -54,7 +54,7 @@ Hur du kan anpassa ett meddelandeinnehåll beroende på typen av transaktionsmed
 * Personaliseringsinformationen hämtas från data som finns i själva händelsen.        Se [Händelsebaserad konfiguration av transaktionsmeddelande](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
 * Du **inte** use **[!UICONTROL Unsubscription link]** innehållsblock i ett händelsetransaktionsmeddelande.
 * Händelsebaserade transaktionsmeddelanden ska bara använda de data som finns i den skickade händelsen för att definiera mottagaren och meddelandets innehållspersonalisering.        Du kan dock utöka innehållet i transaktionsmeddelandet med information från Adobe Campaign-databasen.        Se [Anpassa en händelse](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) och [Anpassa ett transaktionsmeddelande](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
-* Eftersom transaktionsmeddelanden inte innehåller någon profilinformation är de inte kompatibla med fatigue-regler, även om de är berikade med ett antal profiler.
+* Eftersom transaktionsmeddelanden inte innehåller någon profilinformation är de inte kompatibla med trötthetsregler, även om det finns en anrikning med profiler.
 
 ### Profilbaserade transaktionsmeddelanden
 

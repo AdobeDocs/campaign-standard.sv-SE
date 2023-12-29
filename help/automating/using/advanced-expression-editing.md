@@ -11,8 +11,8 @@ level: Experienced
 exl-id: f11754fb-188e-4cae-bd5b-0dfbf74befb3
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1092'
-ht-degree: 98%
+source-wordcount: '1100'
+ht-degree: 97%
 
 ---
 
@@ -122,7 +122,7 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
 
 I det här exemplet används profiler som är äldre än 21 år och vars förnamn har angetts (symboliseras av att fältet **firstName** innehåller minst ett tecken).
 
-## Jämförelseoperatörer {#comparison-operators}
+## Jämförelseoperatorer {#comparison-operators}
 
 För vissa regler kan du med frågeredigeraren välja ett värde som definierar villkoret.
 

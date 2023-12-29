@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 1%
+source-wordcount: '1308'
+ht-degree: 0%
 
 ---
 
@@ -163,7 +163,7 @@ Tabellerna nedan ger dig en lista över de mätvärden som används i rapporter 
    <td> Procentandel e-postmeddelanden som studsade jämfört med e-postmeddelanden som skickades.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Klicka på<br /> </td> 
+   <td> Klicka<br /> </td> 
    <td> Antal gånger som ett innehåll klickades i en leverans.<br /> </td> 
   </tr> 
   <tr> 
@@ -280,7 +280,7 @@ Tabellerna nedan ger dig en lista över de mätvärden som används i rapporter 
    <td> Procentandel push-meddelanden som studsade jämfört med skickade push-meddelanden.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Klicka på<br /> </td> 
+   <td> Klicka<br /> </td> 
    <td> Antal gånger ett push-meddelande har levererats till enheten och användaren klickat på det. Användaren ville antingen visa meddelandet, som sedan flyttas till Push Open tracking, eller stänga det.<br /> </td> 
   </tr> 
   <tr> 

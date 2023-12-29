@@ -12,7 +12,7 @@ exl-id: 18d6ffc0-cfc3-436e-8f0c-ea9c307541e4
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 98%
+ht-degree: 94%
 
 ---
 
@@ -71,6 +71,6 @@ Aktiviteten **[!UICONTROL Incremental query]** kan användas för olika typer av
 1. Du kan definiera **[!UICONTROL Additional data]** för målpopulationen via en dedikerad flik. Dessa data lagras i ytterligare kolumner och kan bara användas för det aktuella arbetsflödet. Du kan t.ex. lägga till data från Adobe Campaign-databastabeller som är länkade till frågans måldimension.  Mer information finns i avsnittet [Berikningsdata](../../automating/using/query.md#enriching-data).
 1. Bekräfta aktivitetens konfiguration och spara arbetsflödet.
 
-## Berika data {#enriching-data}
+## Förbättra data {#enriching-data}
 
 Precis som för en fråga kan du berika data från en **[!UICONTROL Incremental query]**. Mer information finns i avsnittet [Berikningsdata](../../automating/using/query.md#enriching-data).

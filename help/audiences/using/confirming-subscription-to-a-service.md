@@ -10,14 +10,14 @@ level: Intermediate
 exl-id: 9992a05b-9f3c-4e6c-82e5-151c679565a1
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1315'
-ht-degree: 90%
+source-wordcount: '1320'
+ht-degree: 85%
 
 ---
 
 # Bekräfta prenumeration på en tjänst{#confirming-subscription-to-a-service}
 
-## Om utskick av prenumerationsbekräftelse {#sending-subscription-confirmation}
+## Om att skicka en prenumerationsbekräftelse {#sending-subscription-confirmation}
 
 I det här avsnittet beskrivs hur du skickar ett automatiskt anpassat bekräftelsemeddelande via e-post till de profiler som prenumererar på en viss tjänst.
 
@@ -39,7 +39,7 @@ Du måste konfigurera ett transaktionsmeddelande och referera till det meddeland
 
 När den konfigureras från tjänsten skickas bekräftelsemeddelandet endast första gången varje besökare prenumererar på tjänsten.  Om en profil redan prenumererar så skickas inget bekräftelsemeddelande igen till den profilen.
 
-### Steg 1: Skapa bekräftelsemeddelandet {#step-1--create-the-confirmation-email-1}
+### Steg 1: Skapa bekräftelsemeddelandet via e-post {#step-1--create-the-confirmation-email-1}
 
 Ett bekräftelsemeddelande skickas automatiskt till varje profil som prenumererat på nyhetsbrevet (via en landningssida eller på något annat sätt).  Prenumerationen betraktas som en händelse och e-postmeddelandet är ett [transaktionsmeddelande](../../channels/using/getting-started-with-transactional-msg.md) som riktar sig till varje profil som prenumererar på tjänsten.
 
@@ -78,7 +78,7 @@ Bekräftelsemeddelandet är ett transaktionsmeddelande som reagerar på en händ
 
 Händelsen är klar.  Nu kan du skapa e-postmeddelandet för transaktioner.
 
-#### Skapa bekräftelsemeddelandet {#design-the-confirmation-message-1}
+#### Utforma bekräftelsemeddelandet {#design-the-confirmation-message-1}
 
 Bekräftelsemeddelandet är ett transaktionsmeddelande baserat på den händelse som du just publicerade.
 
@@ -128,7 +128,7 @@ Du kan också referera till bekräftelsemeddelandet från en prenumerationsstart
 
 När bekräftelsemeddelandet från landningssidan refereras till så skickas ett meddelande varje gång som landningssidan skickas (även om profilen redan prenumererar).
 
-### Steg 1: Skapa bekräftelsemeddelandet {#step-1--create-the-confirmation-email-2}
+### Steg 1: Skapa bekräftelsemeddelandet via e-post {#step-1--create-the-confirmation-email-2}
 
 Ett bekräftelsemeddelande skickas automatiskt till varje profil som prenumererar på nyhetsbrevet via en landningssida.  Prenumerationen betraktas som en händelse och e-postmeddelandet är ett [transaktionsmeddelande](../../channels/using/getting-started-with-transactional-msg.md) som riktar sig till varje profil som prenumererar på tjänsten.
 
@@ -160,7 +160,7 @@ Bekräftelsemeddelandet är ett [transaktionsmeddelande](../../channels/using/ge
    >
    >Detta gör att du kan använda personaliserade fält från [!UICONTROL Service] resursen i transaktionsmeddelandet.
 
-#### Skapa bekräftelsemeddelandet {#design-the-confirmation-message-2}
+#### Utforma bekräftelsemeddelandet {#design-the-confirmation-message-2}
 
 Stegen för att utforma transaktionsmeddelandet beskrivs i det här [avsnittet](#design-the-confirmation-message-1).
 

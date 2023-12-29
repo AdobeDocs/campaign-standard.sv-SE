@@ -11,7 +11,7 @@ level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '2200'
+source-wordcount: '2208'
 ht-degree: 93%
 
 ---
@@ -36,7 +36,7 @@ De viktigaste egenskaperna för denna aktivitet är:
 * Möjlighet att få ett JSON-svar tillbaka, mappa det till utdatatabeller och skicka det vidare till andra arbetsflödesaktiviteter.
 * Felhantering med en utgående specifik övergång
 
-### Meddelanden om bakåtkompatibilitet {#from-beta-to-ga}
+### Bakåtkompatibilitetsmeddelanden {#from-beta-to-ga}
 
 I Campaign Standard 20.4 har http-svarets datastorleksgräns och timeout-skydd sänkts för att anpassas till bästa praxis - se [Begränsningar och skyddsräcken](#guardrails). Dessa skyddsändringar träder ej i kraft för befintliga externa API-aktiviteter. Vi rekommenderar därför att du ersätter befintliga externa API-aktiviteter med nya versioner i alla arbetsflöden.
 

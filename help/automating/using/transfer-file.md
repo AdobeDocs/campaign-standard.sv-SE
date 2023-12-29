@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
 source-git-commit: 53852538ac1e092dc9376119f29d969ed4b02952
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 82%
+source-wordcount: '1170'
+ht-degree: 75%
 
 ---
 
@@ -51,10 +51,10 @@ Du kan använda den här aktiviteten för att återställa data som sedan strukt
    * [HTTP](#HTTP-configuration-wf)
    * [SFTP](#SFTP-configuration-wf)
    * [Amazon S3](#S3-configuration-wf)
-   * [Microsoft Azure Blob-lagring](#azure-blob-configuration-wf)
+   * [Microsoft Azure Blob Storage](#azure-blob-configuration-wf)
    * [Fil(er) på Adobe Campaign-servern](#files-server-configuration-wf)
 
-1. Med avsnitt **[!UICONTROL Additional options]** som är tillgängligt beroende på vilket protokoll som har valts så kan du lägga till parametrar i protokollet.
+1. The **[!UICONTROL Additional options]** -avsnittet, som är tillgängligt beroende på vilket protokoll som har valts, gör att du kan lägga till parametrar i ditt protokoll.
 
    Du kan:
 
@@ -78,7 +78,7 @@ Du kan använda den här aktiviteten för att återställa data som sedan strukt
 
 Med HTTP-protokollet så kan du börja ladda ned en fil från ett externt konto eller från en länk.
 
-Med det här protokollet kan du välja att **[!UICONTROL Use connection parameters defined in an external account]** alternativ. I så fall så väljer du det konto som du vill ha och anger sökvägen till filen som ska hämtas.
+Med det här protokollet kan du välja att **[!UICONTROL Use connection parameters defined in an external account]** alternativ. I så fall väljer du det konto du vill ha och anger sökvägen till filen som ska hämtas.
 
 ![](assets/wkf_file_transfer_03.png)
 
@@ -142,7 +142,7 @@ Med protokollet Microsoft Azure Blob så kan du komma åt blob som finns på ett
    * **&quot;campaign/new-&quot;**: matchar alla blobbar med ett filnamn som börjar på &quot;new-&quot; och som finns under Kampanj-mappen.
    * **&quot;&quot;**: Om du lägger till en tom sökväg så kan du matcha alla blobbar som finns i behållaren.
 
-### Konfiguration med filer som finns på Adobe Campaign-servern {#files-server-configuration-wf}
+### Konfiguration med filer på Adobe Campaign-servern {#files-server-configuration-wf}
 
 Protokollet **[!UICONTROL File(s) present on the Adobe Campaign server]** motsvarar den databas som innehåller de filer som ska återställas.  
 Metatecken eller jokertecken (till exempel &#42; eller ?) kan användas för att filtrera filer.
@@ -150,7 +150,7 @@ Metatecken eller jokertecken (till exempel &#42; eller ?) kan användas för att
 Välj om du vill **[!UICONTROL Define a file path]** eller **[!UICONTROL Use a dynamic file path]**
 **[!UICONTROL Use a dynamic file path]**-alternativet ger dig möjligheten att använda ett standarduttryck och händelsevariabler för att anpassa namnet på filen som ska överföras. Mer information finns på [den här sidan](../../automating/using/customizing-workflow-external-parameters.md).
 
-Notera att sökvägen måste vara relativ till Adobe Campaign-serverns lagringsutrymmeskatalog. Filerna finns i katalogen **sftp&lt;instansnamn>/** . Du kan inte heller bläddra bland katalogerna över lagringsutrymmet.
+Notera att sökvägen måste vara relativ till Adobe Campaign-serverns lagringsutrymmeskatalog. Filerna finns i katalogen **sftp&lt;instansnamn>/** . Du kan inte heller bläddra bland katalogerna ovanför lagringsutrymmet.
 
 Exempel:
 

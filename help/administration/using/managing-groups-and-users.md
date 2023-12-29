@@ -1,6 +1,6 @@
 ---
 title: Hantera grupper och användare
-description: Lär dig hur du skapar säkerhetsgrupper och hanterar användare
+description: Lär dig skapa säkerhetsgrupper och hantera användare
 audience: administration
 feature: Access Management
 role: Admin
@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 73%
+source-wordcount: '921'
+ht-degree: 70%
 
 ---
 

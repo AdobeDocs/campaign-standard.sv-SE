@@ -9,8 +9,8 @@ level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 76%
+source-wordcount: '1259'
+ht-degree: 72%
 
 ---
 
@@ -26,7 +26,7 @@ Tekniska administratörer kan definiera ett eller flera varumärken för att cen
 
 Huvudprincipen för att konfigurera och använda varumärken är att:
 
-1. skapa och konfigurera varumärket – den här åtgärden kräver specifika behörigheter och utförs av den tekniska administratören för Adobe Campaign. Steg för att få ett nytt varumärke i Campaign är detaljerade [i det här avsnittet](#creating-a-brand).
+1. Skapa och konfigurera varumärket - den här åtgärden kräver särskilda behörigheter och utförs av Adobe Campaign tekniska administratör. Steg för att få ett nytt varumärke i Campaign är detaljerade [i det här avsnittet](#creating-a-brand).
 1. skapa en eller flera mallar för leverans- och landningssidor för det här varumärket. Mer information finns i avsnittet [Skapa en mall](../../start/using/marketing-activity-templates.md).
 1. Skapa meddelanden och landningssidor baserade på den här mallen. Se avsnitten [Skapa ett e-postmeddelande](../../channels/using/creating-an-email.md) och [Skapa en landningssida](../../channels/using/designing-a-landing-page.md).
 
@@ -139,7 +139,7 @@ När mallen har skapats kan du koppla den till ett varumärke. Så här gör du:
 
 Din mall är kopplad till varumärket. I e-postredigeraren kommer element som **e-postadressen till standardavsändaren**, **standardavsändarens namn** eller **logotypen** att använda konfigurerade varumärkesdata.
 
-### Användningsfall för varumärke {#branding-use-case}
+### Märkesanvändningsfall {#branding-use-case}
 
 I det här exemplet ska vi skapa ett nytt reserelaterat varumärke och använda det i ett e-postmeddelande.
 

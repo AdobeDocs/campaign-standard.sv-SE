@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
 source-git-commit: 75628ed8a2f9b21def23e5b257a3592e1a721536
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 56%
+source-wordcount: '1103'
+ht-degree: 47%
 
 ---
 
@@ -35,9 +35,9 @@ Med prediktiv optimering av sändningstid förutspås vilken som är den bästa 
 
 I modellen Predictive Send-Time Optimization finns det två undermodeller:
 
-* **Förutsägbar sändningstid för att öppnas är den bästa tidpunkt då ett meddelande ska skickas till kunden för att maximera chansen att det öppnas**
+* **Prediktiv sändningstid för öppning** är den bästa tidpunkten då ett meddelande måste skickas till kunden för att maximera öppnandet
 
-* **Förutsägbar sändningstid för att klickas på är den bästa tidpunkt då ett meddelande ska skickas till kunden för att maximera chansen att kunden klickar**
+* **Prediktiv sändningstid för klickning** är den bästa tidpunkten då ett meddelande måste skickas till kunden för att maximera klickningarna
 
 **Indata från modellen**: leveransloggar, spårningsloggar och profilattribut (ej PII)
 
@@ -80,7 +80,7 @@ Som standard ger profilpoängen den bästa tiden på dagen för varje veckodag o
 
 ### Skicka meddelanden vid den bästa tidpunkten{#use-predictive-send-time}
 
-För att e-postmeddelandena ska skickas ut vid den optimala tidpunkten per profil måste leveransen schemaläggas med alternativet **[!UICONTROL Send at a custom date defined by a formula]**.
+För att e-postmeddelandena ska gå ut vid den optimala tidpunkten per profil måste leveransen schemaläggas med alternativet **[!UICONTROL Send at a custom date defined by a formula]**.
 
 Läs mer [i det här avsnittet](../../sending/using/computing-the-sending-date.md) om hur du beräknar sändningsdatumet.
 
@@ -117,7 +117,7 @@ I den här modellen används flera olika poäng för att ange:
 
 * **Engagemangsbedömning per öppning/engagemangsbedömning per klick**: det här värdet matchar sannolikheten för att en prenumerant ska interagera med ett visst meddelande (öppna eller klicka). Värdena kan ligga mellan 0,0 och 1,0.
 * **Sannolikheten att avbryta prenumerationen**: det här värdet matchar sannolikheten för att mottagaren avbeställer e-postkanalen när ett e-postmeddelande öppnas. Värdena kan ligga mellan 0,0 och 1,0.
-* **Kvarhållningsnivå**: det här värdet rangordnar användare på tre nivåer: låg, medel och hög. Högt värde är mest sannolikt att stanna kvar hos varumärket och lågt värde är mest sannolikt att avbryta prenumerationen.
+* **Bevarandenivå**: det här värdet rankar användare på tre nivåer: låg, medel och hög. Högt värde är mest sannolikt att stanna kvar hos varumärket och lågt värde är mest sannolikt att avbryta prenumerationen.
 * **Procentuell rangordning för kvarhållning**: profilrangordning beträffande sannolikheten att avbryta prenumerationen. Värdena kan ligga mellan 0,0 och 1,0. Om kundlojaliteten till exempel är 0,953 stannar den här mottagaren troligtvis kvar med varumärket och är mindre benägen att avbryta prenumerationen än 95,3 % av alla mottagare.
 
 >[!NOTE]

@@ -12,7 +12,7 @@ exl-id: f611e023-f74c-476e-83b9-aff451f68c81
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '354'
-ht-degree: 38%
+ht-degree: 32%
 
 ---
 
@@ -40,7 +40,7 @@ Du kan skicka ett erbjudande via e-post samma dag som kundens profil skapas.
 
 ![](assets/time_zone.png)
 
-## Skapa en förfrågningsaktivitet {#creating-a-query-activity}
+## Skapa en frågeaktivitet {#creating-a-query-activity}
 
 1. Dra och släpp en mottagare [Fråga](../../automating/using/query.md) och dubbelklicka på den.
 1. Lägg till **[!UICONTROL Profiles]** och markera **[!UICONTROL no longer contact by email]** med värdet **[!UICONTROL no]**.

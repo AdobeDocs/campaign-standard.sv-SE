@@ -8,7 +8,7 @@ hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '7556'
+source-wordcount: '7674'
 ht-degree: 8%
 
 ---
@@ -252,7 +252,7 @@ ht-degree: 8%
 * Korrigerade ett säkerhetsproblem som förstörde e-postinnehållet när ämnet innehöll flera rader.
 
 
-## Version 19.2.7 – juli 2019 {#release-19-2-7---july-2019}
+## Version 19.2.7 - juli 2019 {#release-19-2-7---july-2019}
 
 **Förbättringar**
 
@@ -261,13 +261,13 @@ ht-degree: 8%
 * Korrigerade ett problem som kunde hindra icke-administratörsanvändare från att spara eller schemalägga rapporter. (CAMP-31133)
 * Ett problem har korrigerats när &quot;|&quot; användes som datumavgränsare i arbetsflödesaktiviteten Läs in fil. (CAMP-34706)
 
-## Version 19.2.4 – juni 2019 {#release-19-2-4---june-2019}
+## Version 19.2.4 - juni 2019 {#release-19-2-4---june-2019}
 
 **Email Designer**
 
 * Ett problem som gjorde att användare inte kunde redigera fragment när tomma formattaggar användes i HTML har korrigerats. Detta är en uppföljningskorrigering för CAMP-33778 i 19.2.3.
 
-## Version 19.2.3 – juni 2019 {#release-19-2-3---june-2019}
+## Version 19.2.3 - juni 2019 {#release-19-2-3---june-2019}
 
 **Email Designer**
 
@@ -360,14 +360,14 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
 * Postnumret har tagits bort från Dynamic Reporting. Vi rekommenderar att du använder måtten Ort, Land, Delstat i stället.
 * Den första starthändelseutlösaren för livscykeln för meddelanden i appen har tagits bort.
 * När du exporterar ett paket med säkerhetsgrupper innehåller det nu de roller som tilldelas varje grupp. (CAMP-32960)
-* I aktiviteten Läs in fil kan du med ett nytt alternativ kontrollera att kolumnerna i filen som du överför matchar kolumndefinitionen. Mer information finns i den [detaljerade dokumentationen](../../automating/using/load-file.md). (CAMP-32229)
-* Arbetsflöden kan nu startas med en nyttolast, vilket gör att du kan använda och dela externa parametrar mellan aktiviteter i arbetsflödet. Mer information finns i den [detaljerade dokumentationen](../../automating/using/calling-a-workflow-with-external-parameters.md). (CAMP-29412 &amp; CAMP-29413)
+* I aktiviteten Läs in fil kan du med ett nytt alternativ kontrollera att kolumnerna i filen som du överför matchar kolumndefinitionen. Mer information finns i [detaljerad dokumentation](../../automating/using/load-file.md). (CAMP-32229)
+* Arbetsflöden kan nu startas med en nyttolast, vilket gör att du kan använda och dela externa parametrar mellan aktiviteter i arbetsflödet. Mer information finns i [detaljerad dokumentation](../../automating/using/calling-a-workflow-with-external-parameters.md). (CAMP-29412 &amp; CAMP-29413)
 * Med Campaign Standard-API:er kan du nu uppdatera profilernas geografiska och organisatoriska enheter med hjälp av en nyttolast. Mer information finns i den [detaljerade dokumentationen](../../api/using/get-started-apis.md).
 * Felmeddelanden när ett objekt från databasen inte är tillgängligt har blivit tydligare.
 * I filaktiviteten Extract har Javascript-funktioner uppdaterats när namnet på en fil som ska exporteras definierades. Endast funktionen formatDate är nu tillgänglig för användning i utdatafältet. Mer information finns i den [detaljerade dokumentationen](../../automating/using/extract-file.md).
 * Automatisk generering av sekvens-ID har förbättrats för anpassade resurser. Primärnycklar för nya anpassade resurser är nu som standard 64 bitar.
 * Testläget för anpassad resurspublikation har förbättrats. Ett varningsmeddelande visas nu för användarna om den senaste anpassade resurspublikationen misslyckades och inte har åtgärdats. Efter ett fel i en anpassad resurspublicering kan du återställa till den senaste arbetsversionen. Mer information finns i den [detaljerade dokumentationen](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
-* Ett nytt alternativ lades till i aktiviteten Överför fil. Du kan sortera filerna i SFTP-läge när du använder filinläsningsåtgärden. Mer information finns i den [detaljerade dokumentationen](../../automating/using/transfer-file.md). (CAMP-33109)
+* Ett nytt alternativ lades till i aktiviteten Överför fil. Du kan sortera filerna i SFTP-läge när du använder filinläsningsåtgärden. Mer information finns i [detaljerad dokumentation](../../automating/using/transfer-file.md). (CAMP-33109)
 
 **Korrigeringar**
 
@@ -390,7 +390,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
 * Korrigerade ett fel som gjorde att leveransarbetsflödet stängdes av om det inte slutfördes korrekt.
 * Korrigerade ett problem som kunde hindra användare från att spara eller schemalägga rapporter. (CAMP-31133)
 
-## Version 19.1.3 – mars 2019 {#release-19-1-3---march-2019}
+## Version 19.1.3 - mars 2019 {#release-19-1-3---march-2019}
 
 **Förbättringar av E-postdesigner**
 
@@ -432,7 +432,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
    <td> Förbättrat arbetsflöde<br /> </td> 
    <td> <p>Följande arbetsflödesfunktioner har lagts till:</p> 
     <ul> 
-     <li> Nu kan du kopiera och klistra in aktiviteter i ett arbetsflöde eller i ett annat arbetsflöde från samma Campaign-instans. På så sätt kan du enkelt duplicera ett helt arbetsflöde eller specifika aktiviteter och behålla de inställningar som ursprungligen definierades. Mer information finns i den <a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">detaljerade dokumentationen</a>. (CAMP-20014) </li> 
+     <li> Nu kan du kopiera och klistra in aktiviteter i ett arbetsflöde eller i ett annat arbetsflöde från samma Campaign-instans. På så sätt kan du enkelt duplicera ett helt arbetsflöde eller specifika aktiviteter och behålla de inställningar som ursprungligen definierades. Mer information finns i <a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">detaljerad dokumentation</a>. (CAMP-20014) </li> 
      <li> När du använder <strong>Läs in fil</strong> kan du nu lägga till en tidsstämpel till namnet på filen som innehåller de avvisade posterna. Mer information finns i den <a href="../../automating/using/load-file.md#configuration">detaljerade dokumentationen</a>. </li> 
      <li> <strong>Fråga</strong> och <strong>Segmentering</strong> Nu kan du aktivera en utgående övergång om aktiviteterna inte hämtar några data. </li> 
     </ul> </td> 
@@ -531,7 +531,7 @@ Flera förbättringar har lagts till i Transactional Messaging-kanalen för att 
      <li> Möjlighet att <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">hämta innehåll från en URL automatiskt vid förberedelse</a> </li> 
      <li> Fullt kompatibel <a href="../../designing/using/using-reusable-content.md#content-templates">färdiga innehållsmallar</a>. </li> 
     </ul> 
-    <p>Mer information hittar du i den <a href="../../designing/using/designing-content-in-adobe-campaign.md">detaljerade dokumentationen</a> och <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">instruktionsvideon</a>. Förbättringar och korrigeringar visas nedan.</p><p>Därför är den äldre redigeraren för e-postinnehåll nu föråldrad. Mer information finns i <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=sv#release-notes">page</a>.</p> </td> 
+    <p>Mer information finns i <a href="../../designing/using/designing-content-in-adobe-campaign.md">detaljerad dokumentation</a> och <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">instruktionsvideo</a>. Förbättringar och korrigeringar visas nedan.</p><p>Därför är den äldre redigeraren för e-postinnehåll nu föråldrad. Mer information finns i <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=sv#release-notes">page</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Produktlistor i transaktionsmejl<br /> </td> 

@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 20%
+source-wordcount: '491'
+ht-degree: 12%
 
 ---
 
@@ -34,7 +34,7 @@ Campaign Standardens gränssnitt innehåller ett meddelandefönster där du kan 
 
 **Tekniska arbetsflöden**
 
-Tekniska arbetsflöden är operationer eller jobb som schemalagts för att utföras regelbundet på servern. För att instansen ska fungera på rätt sätt måste du se till att den alltid körs. [Läs mer](../../administration/using/technical-workflows.md)
+Tekniska arbetsflöden är operationer eller jobb som schemalagts att utföras regelbundet på servern. För att instansen ska fungera på rätt sätt måste du se till att den alltid körs. [Läs mer](../../administration/using/technical-workflows.md)
 
 **Kontrollpanelen**
 

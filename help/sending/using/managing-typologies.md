@@ -12,7 +12,7 @@ exl-id: 10bd4e4f-78b4-4318-bded-4cf33b466f1d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -54,7 +54,7 @@ Följ dessa steg för att skapa en ny typologi:
 
 1. Klicka **[!UICONTROL Create]** för att bekräfta valet.  Din typologi kan nu användas i meddelanden.
 
-## Applicera typologier i meddelanden {#applying-typologies-to-messages}
+## Använda typologier i meddelanden {#applying-typologies-to-messages}
 
 När du associerar en typologi med ett meddelande eller en meddelandemall kommer de typologiregler som ingår i typologin att köras för att kontrollera meddelandets giltighet.
 

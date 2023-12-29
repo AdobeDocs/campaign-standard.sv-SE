@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 0c26a0f9-9d71-4692-ae86-d47e2df53bb7
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1757'
-ht-degree: 93%
+source-wordcount: '1765'
+ht-degree: 90%
 
 ---
 
@@ -29,7 +29,7 @@ Aktiviteten använder förfrågningsredigerings-verktyget. Mer detaljer gälland
 **Relaterade ämnen:**
 
 * [Exempel på frågor](../../automating/using/query-samples.md)
-* [Användningsfall: Omdirigera arbetsflöde som skickar en ny leverans till icke-öppnare](../../automating/using/workflow-cross-channel-retargeting.md)
+* [Användningsexempel: Omdirigeringsarbetsflöde som skickar en ny leverans till icke-öppnare](../../automating/using/workflow-cross-channel-retargeting.md)
 
 ## Kontext för användning {#context-of-use}
 
@@ -67,7 +67,7 @@ Aktiviteten **[!UICONTROL Query]** kan användas för olika typer av användning
 
 1. Bekräfta aktivitetens konfiguration och spara arbetsflödet.
 
-## Måldimensioner och resurser {#targeting-dimensions-and-resources}
+## Målinriktade dimensioner och resurser {#targeting-dimensions-and-resources}
 
 Med måldimensionerna och resurserna kan du definiera vilka element en fråga ska baseras på för att avgöra målet för en leverans.
 
@@ -103,7 +103,7 @@ Måldimensionen och målresursen anges som standard för målprofiler. Det kan d
 
 Mer information finns i följande exempel: [Använda andra resurser än målinriktade dimensioner](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
-## Berika data {#enriching-data}
+## Förbättra data {#enriching-data}
 
 På fliken **[!UICONTROL Additional data]** i **[!UICONTROL Query]** och **[!UICONTROL Incremental query]****[!UICONTROL Enrichment]**­aktiviteterna kan du utöka måldata och överföra denna data till följande arbetsflödesaktiviteter där de kan användas.  Du kan mer specifikt lägga till:
 
@@ -175,7 +175,7 @@ Observera att om du behöver använda sortering på ditt aggregerade värde så 
 >
 >Du kan inte skapa ett uttryck som innehåller en mängd direkt från **[!UICONTROL Expression]**-fältet i **[!UICONTROL New additional data]**-fönstret.
 
-### Lägg till en samling {#adding-a-collection}
+### Lägga till en samling {#adding-a-collection}
 
 1. Lägg till ett nytt element under **[!UICONTROL Additional data]**-fliken.
 1. I det fönster som öppnas så väljer du den samling som du vill lägga till i **[!UICONTROL Expression]**-fältet.  En **[!UICONTROL Alias]** skapas automatiskt. Om du vill kan du ändra den genom att gå tillbaka till frågans **[!UICONTROL Additional data]**-flik.
@@ -201,7 +201,7 @@ Observera att om du behöver använda sortering på ditt aggregerade värde så 
 1. Se avsnittet [Sortera ytterligare data](#sorting-additional-data) .
 1. Välj **[!UICONTROL Confirm]** att lägga till samlingen.
 
-### Filtrera tillagd data {#filtering-added-data}
+### Filtrera tillagda data {#filtering-added-data}
 
 När du lägger till en aggregerad mängd eller en samling kan du ange ytterligare ett filter för att begränsa vilken data som ska visas.
 

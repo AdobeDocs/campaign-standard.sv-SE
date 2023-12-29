@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 90%
+source-wordcount: '466'
+ht-degree: 91%
 
 ---
 
@@ -34,7 +34,7 @@ Följande diagram visar hur den här integreringen fungerar.
 * Titta på videon [Trigger Remarketing Messages som baseras på hemsideaktivitet](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two)
 * Upptäck våra två [utlösare vid övergiven kundkorg](../../integrating/using/abandonment-triggers-use-cases.md).
 
-## Användarprocess för utlösare {#triggers-user-process}
+## Utlöser användarprocess {#triggers-user-process}
 
 >[!CAUTION]
 >

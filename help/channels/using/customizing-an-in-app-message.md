@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 7d06cf9c-06b6-4041-8360-4f6bdbd48dd3
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '975'
-ht-degree: 100%
+source-wordcount: '976'
+ht-degree: 97%
 
 ---
 
@@ -107,7 +107,7 @@ Om det behövs kan du även lägga till en meddelandetitel och innehåll i medde
 
    ![](assets/inapp_customize_11.png)
 
-### Knapparna {#buttons}
+### Knappar {#buttons}
 
 Du kan lägga till upp till två knappar i meddelandet i appen.
 

@@ -11,14 +11,14 @@ level: Beginner
 exl-id: 3f4f9307-c65f-47bb-bc92-ce8b5d06557f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 100%
+source-wordcount: '642'
+ht-degree: 97%
 
 ---
 
 # Program och kampanjer{#programs-and-campaigns}
 
-## Om planering, program och kampanjer {#about-plans--programs-and-campaigns}
+## Om planer, program och kampanjer {#about-plans--programs-and-campaigns}
 
 Med Adobe Campaign kan du planera marknadsföringskampanjer där du kan skapa och hantera olika typer av aktiviteter: e-post, SMS-meddelanden, push-meddelanden, arbetsflöden och landningssidor. Dessa kampanjer och deras innehåll kan samlas i program.
 
@@ -91,7 +91,7 @@ Kampanjen skapas och visas. Använd knappen **[!UICONTROL Create]** för att lä
 
 Du kan också skapa en kampanj från listan med marknadsföringsaktiviteter. Du kan välja att länka marknadsföringsaktiviteten till ett överordnat program eller delprogram via kampanjens fönster med egenskaper.
 
-## Ikoner för program och kampanjer samt status {#programs-and-campaigns-icons-and-statuses}
+## Program- och kampanjikoner och status {#programs-and-campaigns-icons-and-statuses}
 
 Varje program och kampanj i listan har en visuell symbol och en ikon vars färg anger körningsstatus. Statusen baseras på programmets eller kampanjens giltighetsperiod.
 

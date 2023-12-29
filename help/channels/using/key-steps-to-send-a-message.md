@@ -11,7 +11,7 @@ exl-id: a903d7e2-7654-46b3-bc61-4653a065faad
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 14%
+ht-degree: 11%
 
 ---
 
@@ -50,7 +50,7 @@ Det finns flera olika typer av målgrupper:
 
 ![](assets/steps-audience.png)
 
-## Designa och anpassa innehåll
+## Designa och personalisera innehåll
 
 I **[!UICONTROL Content]** blockera, utforma och anpassa innehållet i meddelandet med hjälp av fält från databasen. Mer information om hur du utformar innehåll för en viss kanal finns i avsnitten högst upp på den här sidan.
 

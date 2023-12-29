@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '981'
-ht-degree: 96%
+source-wordcount: '976'
+ht-degree: 90%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
 
 I det här avsnittet beskrivs de viktigaste principerna och de bästa sätten att skapa ett nytt arbetsflöde.
 
-## Arbetsprinciper för arbetsflöde{#workflow-operating-principles}
+## Principer för arbetsflödesoperation{#workflow-operating-principles}
 
 Ett arbetsflöde är en **sekvens med konfigurerbara aktiviteter**. Varje aktivitet har en specifik roll i processen. Resultatet av varje aktivitet vidarebefordras till följande aktivitet med en **övergång**, vilken representeras av en pil.
 
@@ -68,7 +68,7 @@ Avsnittet [Skapa marknadsföringsaktiviteter](../../start/using/marketing-activi
 
 1. Bekräfta att aktiviteten har skapats så visas kontrollpanelen för aktiviteten. Mer information finns i avsnittet [Arbetsflödesgränssnitt](../../automating/using/workflow-interface.md).
 
-1. När arbetsflödet är redo att konfigureras kan du komma åt ytterligare alternativ genom att klicka på **[!UICONTROL Edit properties]**-knappen.
+1. När arbetsflödet är klart att konfigureras kan du komma åt ytterligare alternativ genom att klicka på **[!UICONTROL Edit properties]** -knappen.
 
    Du kan till exempel definiera en specifik tidszon som ska användas som standard i alla arbetsflödets aktiviteter. Som standard är arbetsflödets tidszon den som definieras för den aktuella Campaign-operatören.
 
@@ -76,7 +76,7 @@ Avsnittet [Skapa marknadsföringsaktiviteter](../../start/using/marketing-activi
 
    ![](assets/workflow_properties.png)
 
-## Lägga till och koppla aktiviteter {#adding-and-linking-activities}
+## Lägga till och länka aktiviteter {#adding-and-linking-activities}
 
 Du måste nu definiera de olika aktiviteterna och koppla samman dem i diagrammet.
 
@@ -115,10 +115,10 @@ Dessutom kan du definiera **segmentkoder** för de utgående övergångarna för
 
 **Användningsfall för arbetsflöde:**
 
-* [Användningsfall: Skapa en e-postleverans en gång i veckan](../../automating/using/workflow-weekly-offer.md)
-* [Användningsfall: Skapa en leverans som segmenterats på plats](../../automating/using/workflow-segmentation-location.md)
+* [Användningsexempel: Skapa en e-postleverans en gång i veckan](../../automating/using/workflow-weekly-offer.md)
+* [Användningsfall: Skapa en leverans segmenterad på plats](../../automating/using/workflow-segmentation-location.md)
 * [Användningsfall: Skapa leveranser med ett komplement](../../automating/using/workflow-created-query-with-complement.md)
-* [Användningsfall: Omdirigera arbetsflöde som skickar en ny leverans till icke-öppnare](../../automating/using/workflow-cross-channel-retargeting.md)
+* [Användningsexempel: Omdirigeringsarbetsflöde som skickar en ny leverans till icke-öppnare](../../automating/using/workflow-cross-channel-retargeting.md)
 
 ## Konfigurera aktiviteter {#configuring-activities}
 

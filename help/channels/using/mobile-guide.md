@@ -1,5 +1,5 @@
 ---
-title: Guide för Campaign Standard Mobile
+title: Campaign Standard Mobile Guide
 description: Läs mer om de allmänna riktlinjerna för mobila leveranser i Adobe Campaign Standard, till exempel hur du konfigurerar dina mobilprogram eller skapar push-meddelanden och meddelanden i appen.
 audience: channels
 content-type: reference
@@ -11,7 +11,7 @@ exl-id: d4e1b935-b21f-4a24-99ba-f455db0f7cfc
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 25%
+ht-degree: 19%
 
 ---
 
@@ -140,7 +140,7 @@ Med Adobe Campaign Standard kan ni skicka mobilleveranser via tre olika kanaler:
   </td>
   <td>
     <div>
-    <p><strong>Visa en bild från ett push-meddelande för Adobe Campaign Standard</strong></p>
+    <p><strong>Visa en bild från ett push-meddelande från Adobe Campaign Standard</strong></p>
     </div>
     <p><a href="../../administration/using/image-push-notification.md"><strong>Läs här</strong></a> hur du visar en bild från ett push-meddelande från Adobe Campaign på en iOS-enhet.</p>
     <br>

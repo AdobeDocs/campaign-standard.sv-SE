@@ -12,7 +12,7 @@ exl-id: 32d9d174-8438-48d7-b876-33a0c35d9549
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '242'
-ht-degree: 81%
+ht-degree: 76%
 
 ---
 
@@ -41,7 +41,7 @@ Du kan skicka ett e-postmeddelande med specialerbjudanden varje tisdag till alla
 >
 >Om du vill starta arbetsflödet vid en specifik tidpunkt i **[!UICONTROL Time Zone]** ställer du in tidszonen för schemaläggaren i fältet Tidszon under **[!UICONTROL Execution options]**-fliken. Som standard är den markerade tidszonen den som definieras i arbetsflödesegenskaperna (se [Skapa ett arbetsflöde](../../automating/using/building-a-workflow.md)).
 
-## Skapa en förfrågningsaktivitet{#creating-a-query-activity}
+## Skapa en frågeaktivitet{#creating-a-query-activity}
 
 1. I **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, för att välja mottagare, dra och släppa [Fråga](../../automating/using/query.md) och dubbelklicka på den.
 1. I **[!UICONTROL Shortcuts]** > **[!UICONTROL Profile]**, dra och släpp **[!UICONTROL Email]**.

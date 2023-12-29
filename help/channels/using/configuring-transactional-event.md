@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
 source-git-commit: fc6788bf62fa66bd43b3e50fb9bc676ccb466078
 workflow-type: tm+mt
-source-wordcount: '1705'
-ht-degree: 6%
+source-wordcount: '1709'
+ht-degree: 3%
 
 ---
 
@@ -181,7 +181,7 @@ Om du vill skicka ett händelsebaserat transaktionsmeddelande måste du först s
 
 1. Välj knappen **[!UICONTROL Real-time event]** målinriktning (se [Skapa en händelse](#creating-an-event)).
 1. Lägg till fält i händelsen för att kunna anpassa transaktionsmeddelandet (se [Definiera händelseattributen](#defining-the-event-attributes)).
-1. Händelsebaserade transaktionsmeddelanden ska bara använda de data som finns i den skickade händelsen för att definiera mottagaren och meddelandets innehållspersonalisering.        
+1. Händelsebaserade transaktionsmeddelanden ska bara använda de data som finns i den skickade händelsen för att definiera mottagaren och meddelandets innehållspersonalisering.
 
    Om du vill använda ytterligare information från Adobe Campaign-databasen kan du däremot utöka transaktionsmeddelandets innehåll (se [Förbättra transaktionens meddelandeinnehåll](#enriching-the-transactional-message-content)).
 

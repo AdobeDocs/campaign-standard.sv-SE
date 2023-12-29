@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1817'
-ht-degree: 1%
+source-wordcount: '1812'
+ht-degree: 0%
 
 ---
 
@@ -129,7 +129,7 @@ Nu kan du skapa en e-postmall med e-postdesignern. Använd innehållskomponenter
 
    ![](assets/des_loading_compatible_fragment_10.png)
 
-1. Spara mallen.  
+1. Spara mallen.
 
 Du kan nu hantera den här mallen helt och hållet i e-postdesignern för att skapa och uppdatera nyhetsbrevet som du skickar till mottagarna varje månad.
 
@@ -301,7 +301,7 @@ To save as a fragment some email content that you created, follow the steps belo
 
 Skapa ett fragment för varje återanvändningsbart avsnitt med e-postdesignern. I det här exemplet skapar du två fragment: ett för sidhuvudet och ett för sidfoten. Sedan kan du kopiera relevanta delar från ditt befintliga innehåll till dessa fragment.
 
-Följ stegen nedan för att göra detta:
+Gör så här:
 
 1. I Adobe Campaign går du till **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** och skapa ett fragment för sidhuvudet. Mer information finns i [Skapa ett innehållsfragment](#creating-a-content-fragment).
 1. Lägg till så många strukturkomponenter du behöver i fragmentet.

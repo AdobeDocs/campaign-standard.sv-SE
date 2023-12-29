@@ -12,13 +12,13 @@ exl-id: 0b9795e9-83e6-4399-a3b1-fc69081f6a82
 source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 97%
+ht-degree: 93%
 
 ---
 
 # Konfigurera en landningssida {#configuring-landing-page}
 
-## Bekräfta inskickning via landningssida {#confirm-a-landing-page-submission}
+## Bekräfta inskickning av landningssida {#confirm-a-landing-page-submission}
 
 När en landningssida skickas av en besökare kan du konfigurera de åtgärder som triggas.  Så här gör du:
 
@@ -54,7 +54,7 @@ För att kunna välja vilken tjänst som ska länkas måste du:
 
    Använd alternativet **[!UICONTROL Specified service in the URL]** för att tillåta att landningssidan kan användas för flera tjänster.  Du måste därför referera till landningssidan när du konfigurerar tjänsten.
 
-## Ställa in behörigheter och läs in data i förväg {#setting-permissions-and-pre-loading-data}
+## Ställa in behörigheter och läsa in data i förväg {#setting-permissions-and-pre-loading-data}
 
 Åtkomsten till en landningssida kan begränsas till identifierade besökare som kommer från en länk i ett meddelande som skickas av Campaign till exempel eller till en viss organisationsenhet.
 När det gäller identifierade besökare kan du förhandsladda deras data på landningssidan.  Så här gör du:
@@ -93,7 +93,7 @@ Din landningssida kan nu endast nås och hanteras av användare inom den valda o
 
 ![](assets/lp_org_unit_3.png)
 
-## Ange Google reCAPTCHA {#setting-google-recaptcha}
+## Ställa in Google reCAPTCHA {#setting-google-recaptcha}
 
 Du kan konfigurera Google reCAPTCHA V3 med din landningssida för att skydda den mot skräppost och missbruk av bottar.  För att kunna använda den med landningssidan måste du först skapa ett externt konto.  Mer information om hur du konfigurerar det finns i det här [avsnittet](../../administration/using/external-accounts.md#google-recaptcha-external-account).
 
@@ -115,4 +115,4 @@ Din landningssida är nu konfigurerad med Google reCAPTCHA som visas längst ned
 
 ![](assets/lp_parameters_google2.png)
 
-Google reCAPTCHA returnerar sedan ett poängvärde baserat på användarnas interaktioner med din sida.  Anslut till din Google Admin Consoleför att kontrollera resultatet.
+Google reCAPTCHA returnerar sedan ett poängvärde baserat på användarnas interaktioner med din sida.  Anslut till Google Admin Console för att kontrollera resultatet.

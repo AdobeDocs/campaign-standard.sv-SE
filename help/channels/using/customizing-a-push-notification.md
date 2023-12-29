@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
-source-wordcount: '1500'
-ht-degree: 96%
+source-wordcount: '1439'
+ht-degree: 93%
 
 ---
 
@@ -48,7 +48,7 @@ Ett ljud varnar användarna om ett push-meddelande och ger det mer synlighet. S�
 
 Användaren får sedan push-meddelandet och ljudet endast om telefonen inte är avstängd.
 
-## Uppdatera märkesvärdet {#refresh-the-badge-value}
+## Uppdatera märkordsvärdet {#refresh-the-badge-value}
 
 Ett märke används för att visa antalet nya olästa uppgifter direkt på programikonen. Märkesvärdet försvinner när användaren öppnar eller läser det nya innehållet från programmet.
 
@@ -69,7 +69,7 @@ När ett meddelande tas emot på en enhet kan det uppdatera eller lägga till et
 
    ![](assets/push_notif_advanced_1.png)
 
-## Lägg till en djuplänk {#add-a-deeplink}
+## Lägg till en deeplink {#add-a-deeplink}
 
 Med en djuplänk kan du dirigera användarna direkt till innehåll som finns inuti programmet (i stället för att öppna en webbläsarsida).
 
@@ -139,7 +139,7 @@ För att göra detta:
 
    ![](assets/push_notif_actionable_buttons.png)
 
-## Lägg till multimediematerial {#add-rich-media-content}
+## Lägg in multimediematerial {#add-rich-media-content}
 
 Med multimediematerial kan du skapa bättre användarengagemang, vilket innebär att användaren blir mer benägen att öppna push-meddelanden.
 

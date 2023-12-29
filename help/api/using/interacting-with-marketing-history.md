@@ -8,14 +8,14 @@ exl-id: 67282d21-b4ed-4af5-b751-848a6d705118
 source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
 source-wordcount: '147'
-ht-degree: 10%
+ht-degree: 0%
 
 ---
 
 # Interaktion med marknadsföringshistorik{#interacting-with-marketing-history}
 
 The **historik** kan du interagera med en profils marknadsföringshistorik.
-På så sätt kan du till exempel enkelt hämta spegelsidan för en leverans som skickades till en profil. Följ stegen nedan för att göra detta:
+På så sätt kan du till exempel enkelt hämta spegelsidan för en leverans som skickades till en profil. Gör så här:
 
 1. Utför en GET med **historik** slutpunkt och profilens primärnyckel.
 1. Utför en GET-förfrågan på **händelser** href returnerades.

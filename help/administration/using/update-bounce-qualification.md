@@ -6,12 +6,12 @@ hidefromtoc: true
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
 source-git-commit: f81b8a3b076a6e29b697f21ea4d99fa7d5b6788c
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 4%
+source-wordcount: '435'
+ht-degree: 2%
 
 ---
 
-# Uppdatera studskvalificering efter ett avbrott hos en internetleverantör {#update-bounce-qualification.md}
+# Uppdatera studskompetens efter ett avbrott i en Internet-leverantör {#update-bounce-qualification.md}
 
 ## Kontext
 
@@ -50,4 +50,4 @@ När du har en lista över mottagare som påverkas kan du antingen ställa in de
 
 **Relaterade ämnen:**
 * [Förstå leveransfel](../../sending/using/understanding-delivery-failures.md)
-* [Kvalifikation av studsmeddelanden](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)
+* [E-poststudsar](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)

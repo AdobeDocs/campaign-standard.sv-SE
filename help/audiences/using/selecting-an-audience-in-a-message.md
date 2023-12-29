@@ -12,7 +12,7 @@ exl-id: 239959ad-6386-42bf-a86a-5694cdaecd83
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 74%
+ht-degree: 70%
 
 ---
 
@@ -39,7 +39,7 @@ Målgrupper kan definieras när meddelandet skapas via meddelandeskaparhjälpare
 
 1. Definiera huvuddelen **[!UICONTROL Target]** av e-postmeddelandet.    Det här är den vanliga målgruppen för e-postmeddelandet.
 
-   Målet definieras i fliken **[!UICONTROL Target]** och består av identifierade profiler från databasen. Du kan etablera huvudmålet med funktionerna för [förfrågningsredigering](../../automating/using/editing-queries.md#creating-queries).
+   Målet definieras i **[!UICONTROL Target]** och består av identifierade profiler från databasen. Du kan etablera huvudmålet med funktionerna för [förfrågningsredigering](../../automating/using/editing-queries.md#creating-queries).
 
    I den här fliken innehåller **[!UICONTROL Shortcuts]** paletten endast fördefinierade filter och de målgrupper som har definierats i de identifierade profilerna.  På fliken **[!UICONTROL Explorer]** kan du komma åt ytterligare konfigurationer.
 

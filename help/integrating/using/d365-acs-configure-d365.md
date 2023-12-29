@@ -1,5 +1,5 @@
 ---
-title: Konfigurera Microsoft Dynamics 365 för Campaign-integration
+title: Konfigurera integrering av Microsoft Dynamics 365 för Campaign
 description: Lär dig hur du konfigurerar integrering av Microsoft Dynamics 365 för Campaign.
 audience: integrating
 content-type: reference
@@ -10,8 +10,8 @@ level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
 source-git-commit: 6947d163119dd6fc5966fdc723530b02bdd4a469
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 1%
+source-wordcount: '879'
+ht-degree: 0%
 
 ---
 

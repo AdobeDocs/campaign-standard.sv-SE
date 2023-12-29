@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 8d5a35c4-e22b-498e-b71c-c5922cf8c2fd
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 47%
+source-wordcount: '693'
+ht-degree: 43%
 
 ---
 
@@ -44,7 +44,7 @@ Förberedelsen av meddelande utlöses enligt arbetsflödets körningsparametrar.
 
    >[!NOTE]
    >
-   >Du kan komma åt de allmänna egenskaperna och de avancerade alternativen för aktiviteten (och inte för själva leveransen) via ![](assets/dlv_activity_params-24px.png)-knappen från aktivitetens snabbåtgärder.
+   >Du kan komma åt de allmänna och avancerade alternativen för aktiviteten (och inte för själva leveransen) via ![](assets/dlv_activity_params-24px.png) från aktivitetens snabbåtgärder.
 
    ![](assets/wkf_in_app_3.png)
 

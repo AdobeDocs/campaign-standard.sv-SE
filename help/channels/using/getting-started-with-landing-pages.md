@@ -11,7 +11,7 @@ exl-id: 8015c555-9521-478c-8669-66b9cc145887
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '1025'
-ht-degree: 97%
+ht-degree: 93%
 
 ---
 
@@ -30,7 +30,7 @@ På den här sidan hittar du information om vart och ett av de här stegen samt 
 * [Skapa en tjänst](../../audiences/using/creating-a-service.md)
 * [Konfigurera en process för dubbel anmälan](setting-up-a-double-opt-in-process.md)
 
-## Begränsningar för landningssidor{#landing-page-limitations}
+## Begränsningar för landningssida{#landing-page-limitations}
 
 I avsnittet nedan listas de begränsningar som du bör känna till innan du börjar konfigurera landningssidor.
 
@@ -67,7 +67,7 @@ Här har bara den första profilen uppdaterats då det var den äldsta posten.
 
 * Landningssidor fungerar bara på riktiga profiler, inte på testprofiler. Detta innebär att landningssidor inte kan testas som en del av testmeddelanden
 
-## Steg 1 - Konfigurera mallen för landningssidan {#configure-the-landing-page-template}
+## Steg 1 - Konfigurera landningssidmallen {#configure-the-landing-page-template}
 
 Innan du skapar en landningssida så är det första steget att konfigurera en mall för landningssidor som passar dina behov.  När mallen är klar så kommer alla landningssidor som är baserade på den att förkonfigureras med de valda parametrarna.
 

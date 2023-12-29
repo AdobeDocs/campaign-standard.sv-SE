@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: e73e2069-e86d-4be2-bf73-22e6dc164340
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 2%
+source-wordcount: '1079'
+ht-degree: 1%
 
 ---
 
@@ -26,7 +26,7 @@ Innan du börjar med integreringsverktyget måste du förstå de koncept och sky
 
 Läs mer i följande avsnitt:
 
-* [Kom igång med Microsoft Dynamics 365-integration](../../integrating/using/d365-acs-get-started.md)
+* [Kom igång med Microsoft Dynamics 365-integrering](../../integrating/using/d365-acs-get-started.md)
 * [Bästa praxis och begränsningar för integrering](../../integrating/using/d365-acs-notices-and-recommendations.md)
 * [Lär dig de viktigaste stegen för att implementera integreringen](../../integrating/using/d365-acs-get-started.md#request-and-implement-this-integration)
 * [Använda integreringen av Microsoft Dynamics 365](../../integrating/using/d365-acs-using-the-integration.md)
@@ -37,7 +37,7 @@ Du måste konfigurera Microsoft Dynamics 365 och Adobe Campaign Standard så att
 
 Läs mer i följande avsnitt:
 
-* [Konfigurera Microsoft Dynamics 365 för Campaign-integration](../../integrating/using/d365-acs-configure-d365.md)
+* [Konfigurera integrering av Microsoft Dynamics 365 för Campaign](../../integrating/using/d365-acs-configure-d365.md)
 * [Konfigurera Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md)
 * [Mappa anpassade resurser för Campaign och anpassade enheter för Microsoft Dynamics 365](../../integrating/using/d365-acs-notices-and-recommendations.md)
 
