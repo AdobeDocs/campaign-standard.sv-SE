@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: 6c96a5d294c6e96d20571d176898290c9c026f0b
+source-git-commit: b023e07c337e3352b8d1e26254ce342e0d560a27
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1595'
 ht-degree: 87%
 
 ---
@@ -27,7 +27,7 @@ Stegen för att skapa och ändra ett externt konto finns i avsnittet [Externa ko
 
 Det externa kontot **[!UICONTROL SMS routing via SMPP]** anges som standard. Det kan dock vara användbart att lägga till andra konton.
 
-Om du vill använda SMPP-protokollet kan du även skapa ett nytt externt konto.  Mer information om SMS-protokoll och inställningar finns i den här [tekniska informationen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html).
+Om du vill använda SMPP-protokollet kan du även skapa ett nytt externt konto.  Mer information om SMS-protokoll och inställningar finns i den här [tekniska informationen](../../administration/using/sms-protocol.md).
 
 1. Skapa ett nytt externt konto från **[!UICONTROL Administration > Application settings > External accounts]**.
 1. Definiera kontotypen som **[!UICONTROL Routing]**, kanalen som **[!UICONTROL Mobile (SMS)]** och leveransläget som **[!UICONTROL Bulk delivery]**.
