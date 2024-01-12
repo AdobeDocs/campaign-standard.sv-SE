@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
-source-git-commit: acbe5f1990738f586e4310d13f0e19baab11d771
+source-git-commit: 1346f7d833515fb2e6feabb39d199ffd5610c88e
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ För att säkerställa att push-meddelandet har utvecklats fullt ut måste du se
 
 Push-spårning är indelad i tre typer:
 
-* **Push Impressions** - När ett push-meddelande har levererats till enheten och sitter på meddelandecentret men inte har berörts alls.  Detta betraktas som ett intryck.  I de flesta fall bör antalet visningar vara lika med eller inte detsamma som antalet som skickas. Det ser till att enheten fick meddelandet och vidarebefordrade informationen till servern.
+* **Push Impressions** - När ett push-meddelande har levererats till enheten finns det i meddelandecentret utan någon användarinteraktion.
 
 * **Tryck och klicka** - När ett push-meddelande har levererats till enheten och användaren har klickat på enheten.  Användaren ville antingen visa meddelandet (som i sin tur går till Push Open tracking) eller stänga meddelandet.
 
-* **Öppna push** - När ett push-meddelande har levererats till enheten och användaren har klickat på meddelandet som får programmet att öppnas.  Det här liknar kommandot Push Click (Push-klicka), förutom att Push Open (Push Open) inte aktiveras om meddelandet stängs.
+* **Öppna push** - När ett push-meddelande har levererats till enheten och användaren har klickat på meddelandet som får programmet att öppnas. Det här liknar kommandot Push Click (Push-klicka), förutom att Push Open (Push Open) inte aktiveras om meddelandet stängs.
 
 För att implementera spårning för Campaign Standard måste mobilappen innehålla Adobe Experience Platform SDK:er. Dessa SDK:er är tillgängliga i [Adobe Experience Platform SDKs-dokumentation](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
