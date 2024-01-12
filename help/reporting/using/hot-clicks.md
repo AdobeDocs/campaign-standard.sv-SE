@@ -9,20 +9,24 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 5af37156-e93b-4ae9-9856-053364f211ef
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: d0ef11f26a52603107af28231d70821b44753abb
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
 
 # Snabbklick{#hot-clicks}
 
+>[!IMPORTANT]
+>
+>Hot Clicks-rapporten visar endast HTML-versionen av e-postmeddelandet och stöder inte textversionen.
+
 Den här rapporten kan du få åtkomst till via **[!UICONTROL Reports]** i varje leverans- eller transaktionsmeddelande.
 
 ![](assets/delivery_reports_hot-clicks_4.png)
 
-Det visar meddelandeinnehållet (HTML och/eller text) med procentandelen klick på varje länk.
+Meddelandeinnehållet visas med procentandelen klickningar på varje länk.
 
 ![](assets/delivery_reports_10.png)
 
