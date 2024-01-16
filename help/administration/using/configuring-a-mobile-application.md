@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
+source-git-commit: 630a4d0d0ced73d469fe81431f8bcf954b74cb45
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1271'
 ht-degree: 2%
 
 ---
@@ -146,15 +146,31 @@ Ditt mobilprogram kan nu användas i Campaign för push-meddelanden eller levera
 
    Din händelse är nu tillgänglig på fliken Utlösare när du skapar ett meddelande i appen. Mer information finns i [Förbereda och skicka ett meddelande i appen](../../channels/using/preparing-and-sending-an-in-app-message.md).
 
-1. I **[!UICONTROL Device-specific settings]** på en kontrollpanel för mobilprogram, för varje enhet, innehåller programinformationen, inklusive certifikatet för iOS och servernyckeln för Android.
+1. I **[!UICONTROL Device-specific settings]** -avsnittet på en kontrollpanel för mobilprogram, för varje enhet, innehåller programinformationen.
 
-   När ditt certifikat har överförts visas ett meddelande om att överföringen lyckades och certifikatets förfallodatum visas.
+   * +++ För iOS
 
-   >[!NOTE]
-   >
-   >När du har lagt till certifikatet i Adobe Campaign Standard kan du inte längre ändra tillbaka inställningarna eftersom bara en APNS-plattform (produktion eller sandlåda) kan läggas till i MCPNS-appen.
+     Ange följande programinformation:
 
-   ![](assets/launch_8.png)
+      * **Program-ID (iOS Bundle-ID)**: Se [Apple-dokumentation](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) om du vill ha mer information om paket-ID.
+      * **iOS-certifikatfil (P8)**: Dra och släpp .p8-autentiseringsnyckeln.
+      * **Nyckel-ID**: Se [Apple-dokumentation](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/) om du vill ha mer information om nyckel-ID.
+      * **iOS Team ID**: Se [Apple-dokumentation](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id//) om du vill ha mer information om iOS Team ID.
+
+        ![](assets/mobile_app_ios_config.png)
++++
+
+   * +++ För Android
+
+     Ange följande programinformation:
+
+      * **Program-ID (Android-paketnamn)**: Se [Android-dokumentation](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) om du vill ha mer information om paketnamnet.
+      * **Android-nyckelfil (Json)**: Dra och släpp .json-filen med den privata nyckeln.
+
+        ![](assets/mobile_app_android_config.png)
++++
+
+1. När ditt certifikat har överförts visas ett meddelande om att överföringen lyckades och certifikatets förfallodatum visas.
 
 1. Klicka på **[!UICONTROL Mobile application subscribers]** om du vill visa en lista över prenumeranter och annan information om dessa prenumeranter, till exempel om de avanmälde sig från dina meddelanden.
 
