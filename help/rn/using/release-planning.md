@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 7678628193f025ae9bfe4c70afe0cb5f0bbc4a4d
-workflow-type: ht
-source-wordcount: '464'
-ht-degree: 100%
+source-git-commit: ff6e926b66547632b74e58cc0e419c83a4ea556e
+workflow-type: tm+mt
+source-wordcount: '408'
+ht-degree: 96%
 
 ---
 
@@ -27,7 +27,7 @@ Alla versionsdatum kan ändras: besök den här sidan regelbundet för att se om
 
 ## Version 24.1 – vinterversion 2024 {#release-24-1-release}
 
-Detaljerad information om den här versionen finns i [Tidig versionsinformation](e-release-notes.md).
+Detaljerad information om den här versionen finns i [Versionsinformation](release-notes.md) när uppgraderingar av scenmiljön börjar.
 
 <table>
  <thead>
@@ -47,37 +47,6 @@ Detaljerad information om den här versionen finns i [Tidig versionsinformation]
   </tr>
  </tbody>
 </table>
-
-
-## Version 23.2 – begränsad höstversion 2023 {#release-23-2-release}
-
-
->[!AVAILABILITY]
->
->Den här versionen är endast tillgänglig för en uppsättning organisationer (begränsad tillgänglighet). Kontakta din Adobe-representant om du vill veta mer.
-
-Detaljerad information om den här versionen finns i [Versionsinformationen](release-notes.md).
-
-<table>
- <thead>
-  <tr>
-   <th> Miljöer </th>
-   <th> Datum </th>
-  </tr>
- </thead>
- <tbody>
-  <tr>
-   <td>Stadie </td>
-   <td>3–9 oktober 2023 </td>
-  </tr>
-  <tr>
-   <td>Produktion </td>
-   <td>12–18 oktober 2023 </td>
-  </tr>
- </tbody>
-</table>
-
-Kontakta [Adobe Client Care](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) om du har ytterligare frågor.
 
 ## Frågor och svar {#questions-and-answers}
 

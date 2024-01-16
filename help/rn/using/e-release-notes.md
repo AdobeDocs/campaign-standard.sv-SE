@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: ac4a52263482557a6d5c370af6df5d54a42671b4
-workflow-type: ht
-source-wordcount: '159'
+source-git-commit: d6421cda301eed85fddf2df7b2d6fc2cf1db96b3
+workflow-type: tm+mt
+source-wordcount: '140'
 ht-degree: 100%
 
 ---
@@ -24,10 +24,6 @@ Den här sidan beskriver förbättringar och korrigeringar som ingår i nästa v
 > Innehållet kan ändras utan föregående meddelande fram till uppgraderingsdatumet för mellanlagringsmiljöerna. Läs mer på [sidan för versionsplanering](../../rn/using/release-planning.md).
 
 ## Version 24.1 – vinterversion 2024 {#winter-24}
-
->[!AVAILABILITY]
->
->Den här versionen är endast tillgänglig för en uppsättning organisationer (begränsad tillgänglighet). Kontakta din Adobe-representant om du vill veta mer.
 
 ### Förbättringar {#e-rn-improvements}
 

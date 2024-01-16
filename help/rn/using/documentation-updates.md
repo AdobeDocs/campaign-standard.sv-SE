@@ -5,16 +5,20 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: cd1650801bf31edc99d93901da232ff618673eed
+source-git-commit: 8702a07c50afa82a24b79cf768ab079f6384cf3f
 workflow-type: tm+mt
-source-wordcount: '7240'
-ht-degree: 100%
+source-wordcount: '7258'
+ht-degree: 99%
 
 ---
 
 # Dokumentationsuppdateringar{#documentation-updates}
 
 Förutom [versionsinformationen](../../rn/using/release-notes.md) för Adobe Campaign listas alla nya uppdateringar i dokumentationen för Adobe Campaign Standard på den här sidan.
+
+## Version 24.1 - Vinter 2024 {#release-24-1}
+
+Versionsinformation för Campaign Standard 24.1 Vinter 2024 har publicerats. [Läs mer](release-notes.md)
 
 ## December 2023 {#doc-updates-dec-2023}
 
