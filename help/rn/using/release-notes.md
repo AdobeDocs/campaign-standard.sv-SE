@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: d6421cda301eed85fddf2df7b2d6fc2cf1db96b3
+source-git-commit: 54114df89724c995d9140453356251a7d2fa5708
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '110'
 ht-degree: 100%
 
 ---
@@ -15,7 +15,8 @@ ht-degree: 100%
 
 # Senaste versionen{#latest-release}
 
-![Kontrollpanelen](assets/do-not-localize/cp-icon.png) **Ny version av Kontrollpanelen**. [Läs mer](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=sv){target="_blank"}.
+<!--
+![Control Panel](assets/do-not-localize/cp-icon.png) **New Control Panel release**. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html){target="_blank"}.-->
 
 ## Version 24.1 – vinterversion 2024 {#winter-24}
 
