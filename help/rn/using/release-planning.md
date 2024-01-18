@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: ff6e926b66547632b74e58cc0e419c83a4ea556e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '408'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Alla versionsdatum kan ändras: besök den här sidan regelbundet för att se om
 
 ## Version 24.1 – vinterversion 2024 {#release-24-1-release}
 
-Detaljerad information om den här versionen finns i [Versionsinformation](release-notes.md) när uppgraderingar av scenmiljön börjar.
+Detaljerad information om denna version finns i [versionsinformationen](release-notes.md) när uppgraderingarna av stadiemiljön startar.
 
 <table>
  <thead>
