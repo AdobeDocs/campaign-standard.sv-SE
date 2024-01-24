@@ -8,10 +8,10 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
+source-git-commit: 31f62227736daf4f215fcbe1cf7b0a0a8574cda3
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 8%
+source-wordcount: '506'
+ht-degree: 9%
 
 ---
 
@@ -24,8 +24,6 @@ ht-degree: 8%
 </table>
 
 Adobe Campaign erbjuder en omfattande grafisk miljö där du kan utforma komplexa processer som segmentering, kampanjutförande, filhantering osv. Du kan till exempel använda ett arbetsflöde för att hämta en fil från en server, expandera den och sedan importera dess poster till Adobe Campaign-databasen.
-
-Ett arbetsflöde kan även omfatta användare genom att tilldela dem uppgifter eller låta dem godkänna utförda uppgifter. Det innebär att du kan tilldela en eller flera användare en uppgift att arbeta med innehåll eller ange mål och godkänna korrektur innan meddelandet skickas.
 
 Arbetsflöden kan användas i olika sammanhang, till exempel:
 
