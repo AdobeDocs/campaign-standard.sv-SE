@@ -3,7 +3,7 @@ keywords: Campaign Standard;hemmabruk;populära ämnen
 title: Produktdokumentation för Adobe Campaign Standard
 description: Bläddra i produktdokumentationen för Adobe Campaign Standard
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 7dc9871c3fdc12242e22d094907bd48777a9a95a
+source-git-commit: 8b94b632bbc4fc8e190cccb05018043cdeb00fdd
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 100%
@@ -18,9 +18,9 @@ Få en glimt av de senaste förbättringarna i Adobe Campaign Standards produkte
 
 >[!BEGINTABS]
 
->[!TAB Campaign 23.2 är här!]
+>[!TAB Campaign 24.1 är här!]
 
-Upptäck nya funktioner, förbättringar och korrigeringar som ingår i Campaign Standard 23.2.
+Upptäck nya funktioner, förbättringar och korrigeringar som ingår i Campaign Standard 24.1.
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](rn/using/release-notes.md)
 
