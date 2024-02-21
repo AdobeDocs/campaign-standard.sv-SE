@@ -6,7 +6,7 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '7674'
 ht-degree: 8%
@@ -61,7 +61,7 @@ ht-degree: 8%
 * Popup-fönstret för godkännande av dynamisk rapportering har uppdaterats med integrering av Adobe Campaign Standard och Microsoft Dynamics 365. Genom att acceptera villkoren inkluderas profildata när du använder Adobe Campaign Standard/Microsoft Dynamics 365-integreringen och Dynamic Reporting. [Läs mer](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * Ett problem som visade felaktiga kontaktdatum när leveransmeddelanden togs emot har korrigerats.
 * När en händelse för transaktionsmeddelanden skickas med en okänd kontextparameter returnerar Campaign nu felmeddelandet&quot;400&quot; i stället för&quot;500&quot;. (CAMP-28632)
-* En ny **Uteslut korrektur** segment har lagts till i dynamisk rapportering. Det här segmentet är nu markerat som standard för att filtrera rapporter. [Läs mer](../../reporting/using/list-of-components-.md#segments)
+* En ny **Uteslut korrektur** segment har lagts till i dynamisk rapportering. Det här segmentet är nu markerat som standard för att filtrera rapporter. [Läs mer](../../reporting/using/list-of-components.md#segments)
 * The **Meddelandets förfallodatum** alternativet har lagts till i push-meddelanden. Du kan ange ett förfallodatum när meddelandet inte längre ska skickas av Apple (APNS) eller Android (FCM). [Läs mer](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
 * Förbättringar har gjorts i **Läs in fil** aktivitet: arbetsflödesloggarna har gjorts tydligare och mer detaljerade om det fel som inträffar när en fil inte kan läsas in. Den utgående övergång som genereras när **Behåll avvisningarna i en fil** alternativet har bytt namn **Avslag**. [Läs mer](../../automating/using/load-file.md)
 * Flerspråkiga relaterade loggar har lagts till i de sändande loggarna för att bättre förstå hur fel skickas på grund av att språk saknas i de överförda CSV-filerna.

@@ -5,8 +5,8 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 8702a07c50afa82a24b79cf768ab079f6384cf3f
-workflow-type: ht
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+workflow-type: tm+mt
 source-wordcount: '7258'
 ht-degree: 100%
 
@@ -898,7 +898,7 @@ Avsnittet för skapande av tjänst har uppdaterats. [Läs mer](../../audiences/u
 
 Lagt till användningsexempel för att få en bättre förståelse för säkerhetsgrupper och säkerhetsenheter. [Läs mer](../../administration/using/organizational-units.md)
 
-Förbättrade definitioner och beräkningar av dimensioner, mätvärden och segment i dynamiska rapporter. [Läs mer](../../reporting/using/list-of-components-.md)
+Förbättrade definitioner och beräkningar av dimensioner, mätvärden och segment i dynamiska rapporter. [Läs mer](../../reporting/using/list-of-components.md)
 
 Lagt till information om hämtning av inkommande SMS-meddelanden med ett arbetsflöde. [Läs mer](../../administration/using/configuring-sms-channel.md)
 
@@ -958,7 +958,7 @@ Förbättring av massprenumeration - [Läs mer](../../automating/using/subscript
 
 **Andra dokumentationsuppdateringar som medföljer utgåvan**
 
-Detaljerad lista över alla komponenter som är tillgängliga i dynamiska rapporter och vissa förändringar i formler. [Läs mer](../../reporting/using/list-of-components-.md)
+Detaljerad lista över alla komponenter som är tillgängliga i dynamiska rapporter och vissa förändringar i formler. [Läs mer](../../reporting/using/list-of-components.md)
 
 Detaljerad lista med nyckeltal som delas med Adobe Analytics. [Läs mer](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 
@@ -1010,7 +1010,7 @@ Dokumentationen för e-poståtergivning har uppdaterats. [Läs mer](../../sendin
 
 Beräkningstabellen för rapportindikatorn har uppdaterats. [Läs mer](../../reporting/using/indicator-calculation.md)
 
-Rapportdokumentationen har uppdaterats med fyra nya mätvärden. [Läs mer](../../reporting/using/list-of-components-.md)
+Rapportdokumentationen har uppdaterats med fyra nya mätvärden. [Läs mer](../../reporting/using/list-of-components.md)
 
 Dokumentation har lagts till i unik ID-generering för profiler. [Läs mer](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)
 

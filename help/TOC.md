@@ -4,8 +4,8 @@ user-guide-title: Campaign Standard
 user-guide-description: Produktdokumentation för Adobe Campaign Standard.
 title: Användarhandbok för Campaign Standard
 breadcrumb-title: Dokumentation om Campaign Standard
-source-git-commit: 64e3bb463497548d6fbae80f00b8c963b65c4f40
-workflow-type: ht
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 100%
 
@@ -201,7 +201,7 @@ ht-degree: 100%
    + Om rapportering {#about-reporting}
       + [Om dynamiska rapporter](reporting/using/about-dynamic-reports.md)
       + [Rapporteringsgränssnitt](reporting/using/reporting-interface.md)
-      + [Lista över komponenter](reporting/using/list-of-components-.md)
+      + [Lista över komponenter](reporting/using/list-of-components.md)
       + [Indikatorberäkning](reporting/using/indicator-calculation.md)
       + [Felsöka](reporting/using/troubleshooting.md)
    + Lista över rapporter {#list-of-reports}
@@ -233,7 +233,7 @@ ht-degree: 100%
       + [Om integrering av Campaign och Experience Manager](integrating/using/integrating-with-experience-manager.md)
       + [Konfigurera integrering av Experience Manager och Campaign](integrating/using/configure-experience-manager.md)
       + [Skapa ett e-postinnehåll i Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
-      + [Skapa ett Campaign-formulär i Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
+      + [Skapa ett Campaign-formulär i Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager.md)
       + [Skapa ett flerspråkigt e-postmeddelande med Adobe Experience Manager-integreringen](integrating/using/creating-multilingual-email-aem.md)
    + Campaign och Target {#working-with-campaign-and-target}
       + [Om integrering av Campaign och Target](integrating/using/about-campaign-target-integration.md)
@@ -397,11 +397,11 @@ ht-degree: 100%
       + [Uppdatera databasstrukturen](developing/using/updating-the-database-structure.md)
       + [Ta bort en resurs](developing/using/deleting-a-resource.md)
       + [Anropa en resurs med en sammansatt identifieringsnyckel](developing/using/uc-calling-resource-id-key.md)
-   + Användningsfall: utöka API:et {#use-case--extending-the-api}
+   + Användningsfall: utöka API:et {#use-case-extending-the-api}
       + [Om att utöka API:et](developing/using/about-extending-the-api.md)
-      + [Steg 1: lägg till tilläggsfält i profilresursen](developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
-      + [Steg 2: publicera tillägget](developing/using/step-2--publish-the-extension.md)
-      + [Steg 3: verifiera tillägget](developing/using/step-3--verify-the-extension.md)
+      + [Steg 1: lägg till tilläggsfält i profilresursen](developing/using/step-1-add-extension-fields-to-the-profile-resource.md)
+      + [Steg 2: publicera tillägget](developing/using/step-2-publish-the-extension.md)
+      + [Steg 3: verifiera tillägget](developing/using/step-3-verify-the-extension.md)
    + Användningsfall: utöka resurser {#use-cases--extending-resources}
       + [Utöka profilresursen med ett nytt fält](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [Utöka prenumerationerna till en applikationsresurs](developing/using/extending-the-subscriptions-to-an-application-resource.md)

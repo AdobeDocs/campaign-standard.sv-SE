@@ -8,7 +8,7 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 9ecb4ba6-c7a3-4b1f-ab73-5eb512ebb016
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 13%
@@ -51,7 +51,7 @@ Campaign Standarden innehåller en uppsättning **färdiga dynamiska rapporter**
 
 Läs mer:
 
-* [Lista över komponenter](../../reporting/using/list-of-components-.md)
+* [Lista över komponenter](../../reporting/using/list-of-components.md)
 * [Indikatorberäkning](../../reporting/using/indicator-calculation.md)
 * [Lista över rapporter](../../reporting/using/defining-the-report-period.md)
 

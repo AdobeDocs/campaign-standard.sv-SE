@@ -8,7 +8,7 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: fc3b28f3-63f6-4edc-923d-c7eb7925d1b7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 2%
@@ -62,8 +62,8 @@ Tabellen nedan visar vad som händer efter att du har godkänt det här avtalet 
 
 |  | Dynamisk rapportering | Microsoft Dynamics 365-anslutning |
 |---|---|---|
-| Amerika och Asien-Stillahavsregionen | **Tillgängliga funktioner**. <br>All körklar information (t.ex. ort, land/region, stat, kön och segment baserat på ålder) och anpassad profilinformation som överförts till USA:s rapportcenter. Mer information om profildimensioner finns i [page](../../reporting/using/list-of-components-.md) | **Tillgängliga funktioner**. <br>Alla färdiga och anpassade profilfält och händelsefält i Adobe Campaign Standard behandlas i datacentret i USA. |
-| EMEA (Europa, Mellanöstern och Afrika) | **Tillgängliga funktioner**. <br>All körklar information (t.ex. ort, land/region, stat, kön och segment baserat på ålder) och information om anpassade profiler skickas till EMEA: s rapportcenter. Mer information om profildimensioner finns i [page](../../reporting/using/list-of-components-.md) | **Tillgänglig funktion.** <br>Alla färdiga och anpassade profilfält och Adobe Campaign Standard händelsefält bearbetas i EMEA:s datacenter. <br>**[!UICONTROL Control data]**som innehåller Adobe I/O-registreringsdata och ID:n för kundslutanvändarhändelser som skickas och lagras i datacentret i USA. |
+| Amerika och Asien-Stillahavsregionen | **Tillgängliga funktioner**. <br>All körklar information (t.ex. ort, land/region, stat, kön och segment baserat på ålder) och anpassad profilinformation som överförts till USA:s rapportcenter. Mer information om profildimensioner finns i [page](../../reporting/using/list-of-components.md) | **Tillgängliga funktioner**. <br>Alla färdiga och anpassade profilfält och händelsefält i Adobe Campaign Standard behandlas i datacentret i USA. |
+| EMEA (Europa, Mellanöstern och Afrika) | **Tillgängliga funktioner**. <br>All körklar information (t.ex. ort, land/region, stat, kön och segment baserat på ålder) och information om anpassade profiler skickas till EMEA: s rapportcenter. Mer information om profildimensioner finns i [page](../../reporting/using/list-of-components.md) | **Tillgänglig funktion.** <br>Alla färdiga och anpassade profilfält och Adobe Campaign Standard händelsefält bearbetas i EMEA:s datacenter. <br>**[!UICONTROL Control data]**som innehåller Adobe I/O-registreringsdata och ID:n för kundslutanvändarhändelser som skickas och lagras i datacentret i USA. |
 
 Tabellen nedan visar vad som händer efter att avtalet har avböjts beroende på din region. Observera att även om du avböjer det här avtalet är rapportering om leveranser och integrering med Microsoft Dynamics 365 fortfarande tillgänglig.
 

@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: a1b947acf70803a7350dd626e697318e0ed35f26
+source-git-commit: 3acca24c9a5616ae993b7e734e2448c3520baf79
 workflow-type: tm+mt
-source-wordcount: '2683'
-ht-degree: 58%
+source-wordcount: '2714'
+ht-degree: 56%
 
 ---
 
@@ -25,11 +25,15 @@ På skärmen för e-postkonfiguration kan du definiera parametrar för e-postkan
 
 * **Auktoriserade maskeringsfält**
 
-  I avsnittet **[!UICONTROL Header parameters of sent emails]** visas de auktoriserade e-postadresser som du kan använda för att skicka e-post till dina mottagare (avsändaradress) och för att de ska kunna skicka tillbaka automatiska svar som asynkrona studsar, frånvaromeddelanden, o.s.v. (feladress).  Adobe Campaign kontrollerar att de angivna adresserna är giltiga under fasen för förberedelse av meddelande. Det här operativläget ser till att inga adresser används som kan utlösa levererbarhetsproblem.
+  I avsnittet **[!UICONTROL Header parameters of sent emails]** visas de auktoriserade e-postadresser som du kan använda för att skicka e-post till dina mottagare (avsändaradress) och för att de ska kunna skicka tillbaka automatiska svar som asynkrona studsar, frånvaromeddelanden, o.s.v. (feladress).
+
+  Adobe Campaign kontrollerar att de angivna adresserna är giltiga under fasen för förberedelse av meddelande. Det här operativläget ser till att inga adresser används som kan utlösa levererbarhetsproblem.
+
    * Både avsändar- och feladresser konfigureras av Adobe. Dessa fält får inte vara tomma.
    * Du kan inte redigera dessa fält. Om du vill uppdatera en adress kontaktar du Adobes kundtjänstteam.
    * Om du vill lägga till ytterligare en adress kan du använda [Kampanjkontrollpanelen](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=sv) om du vill konfigurera en ny underdomän, eller kontakta kundtjänstteamet på Adobe. Observera att om flera masker används avgränsas de med kommatecken.
-   * Det är en god vana att ange adresser med en stjärna som *@yourdomain.com: det gör att du kan använda alla adresser som slutar med ditt underdomännamn.
+   * Det är en god vana att ange adresser med en stjärna som **@yourdomain.com**: du kan använda alla adresser som slutar med ditt underdomännamn.
+   * Campaign-stöd, körklart, Google och Yahoo **One-Click List-Unsubscribe** funktioner. Tänk på att om du ändrar rubrikvärdet i anpassade mallar kan det bryta kompatibiliteten med Google/Yahoo **One-Click List-Unsubscribe**.
 
 * **levererbarhet**
 

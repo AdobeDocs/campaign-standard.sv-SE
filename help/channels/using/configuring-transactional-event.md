@@ -9,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-source-git-commit: fc6788bf62fa66bd43b3e50fb9bc676ccb466078
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '1709'
 ht-degree: 3%
@@ -103,7 +103,7 @@ Här är API-förhandsvisningen för det här exemplet:
 
 Du kan utöka transaktionsmeddelandets innehåll med information från Adobe Campaign-databasen för att personalisera dina meddelanden. Från efternamnet eller CRM-ID:t för var och en av mottagarna kan du till exempel återställa data som adress eller födelsedatum eller andra anpassade fält som lagts till i profiltabellen, för att anpassa informationen som skickas till dem.
 
-Det går att utöka transaktionsmeddelandets innehåll med information från utökade **[!UICONTROL Profile and services Ext API]**. Mer information finns i [Utöka API: publicera tillägget](../../developing/using/step-2--publish-the-extension.md)
+Det går att utöka transaktionsmeddelandets innehåll med information från utökade **[!UICONTROL Profile and services Ext API]**. Mer information finns i [Utöka API: publicera tillägget](../../developing/using/step-2-publish-the-extension.md)
 
 Den här informationen kan också lagras i nya resurser. I så fall måste resursen vara länkad till **[!UICONTROL Profile]** eller **[!UICONTROL Service]** resurser antingen direkt eller via en annan tabell. I konfigurationen nedan är det t.ex. möjligt att utöka transaktionsmeddelandets innehåll med information från **[!UICONTROL Product]** som produktkategorin eller ID, om **[!UICONTROL Product]** resursen är länkad till **[!UICONTROL Profile]** resurs.
 
