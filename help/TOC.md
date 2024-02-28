@@ -4,7 +4,7 @@ user-guide-title: Campaign Standard
 user-guide-description: Produktdokumentation för Adobe Campaign Standard.
 title: Användarhandbok för Campaign Standard
 breadcrumb-title: Dokumentation om Campaign Standard
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+source-git-commit: 1b218f7f19b0ebc4d77903688e1f2c502d8b5234
 workflow-type: ht
 source-wordcount: '1769'
 ht-degree: 100%
@@ -402,7 +402,7 @@ ht-degree: 100%
       + [Steg 1: lägg till tilläggsfält i profilresursen](developing/using/step-1-add-extension-fields-to-the-profile-resource.md)
       + [Steg 2: publicera tillägget](developing/using/step-2-publish-the-extension.md)
       + [Steg 3: verifiera tillägget](developing/using/step-3-verify-the-extension.md)
-   + Användningsfall: utöka resurser {#use-cases--extending-resources}
+   + Användningsfall: utöka resurser {#use-cases-extending-resources}
       + [Utöka profilresursen med ett nytt fält](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [Utöka prenumerationerna till en applikationsresurs](developing/using/extending-the-subscriptions-to-an-application-resource.md)
    + Datamodell {#datamodel}
