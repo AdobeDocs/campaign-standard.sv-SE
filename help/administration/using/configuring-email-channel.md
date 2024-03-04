@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 3acca24c9a5616ae993b7e734e2448c3520baf79
+source-git-commit: 3baadaf774092bb48a029e098e8f56170660400b
 workflow-type: tm+mt
-source-wordcount: '2714'
-ht-degree: 56%
+source-wordcount: '2737'
+ht-degree: 55%
 
 ---
 
@@ -33,7 +33,6 @@ På skärmen för e-postkonfiguration kan du definiera parametrar för e-postkan
    * Du kan inte redigera dessa fält. Om du vill uppdatera en adress kontaktar du Adobes kundtjänstteam.
    * Om du vill lägga till ytterligare en adress kan du använda [Kampanjkontrollpanelen](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=sv) om du vill konfigurera en ny underdomän, eller kontakta kundtjänstteamet på Adobe. Observera att om flera masker används avgränsas de med kommatecken.
    * Det är en god vana att ange adresser med en stjärna som **@yourdomain.com**: du kan använda alla adresser som slutar med ditt underdomännamn.
-   * Campaign-stöd, körklart, Google och Yahoo **One-Click List-Unsubscribe** funktioner. Tänk på att om du ändrar rubrikvärdet i anpassade mallar kan det bryta kompatibiliteten med Google/Yahoo **One-Click List-Unsubscribe**.
 
 * **levererbarhet**
 
@@ -294,6 +293,14 @@ Avsnittet **[!UICONTROL SMTP]** innehåller följande parametrar:
   >[!IMPORTANT]
   >
   >Tillägg av ett skript för att infoga ytterligare SMTP-rubriker är reserverat för avancerade användare. Syntaxen för det här skriptet måste uppfylla kraven för den här innehållstypen: Inget oanvänt utrymme, ingen tom rad, o.s.v.
+
+  Från och med 1 juni 2024, Google och Yahoo! kräver att avsändarna följer **One-Click List-Unsubscribe**. Campaign stöder den här funktionen direkt. [Läs mer om den här ändringen](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#1-click-(list)-unsubscribe%3A){target="_blank"}
+
+  >[!CAUTION]
+  >
+  >Om du ändrar rubrikvärdet i **[!UICONTROL Additional SMTP headers]** av dina e-postmallar kan det bryta mot **One-Click List-Unsubscribe** krav från Google och Yahoo!
+
+  <!--Campaign supports, out-of-the-box, Google and Yahoo **One-Click List-Unsubscribe** capability. Be aware that if you modify the header value in custom templates, it could break the compliance with Google/Yahoo **One-Click List-Unsubscribe**.-->
 
 ### Lista över åtkomstauktoriseringsparametrar {#list-of-access-authorization-parameters}
 

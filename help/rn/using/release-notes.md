@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 6cf259751c39e3f9391641d192d018239f8399d4
+source-git-commit: 3baadaf774092bb48a029e098e8f56170660400b
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 85%
+source-wordcount: '136'
+ht-degree: 80%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign Standard 24.1 använder HTTP v1-API:erna för att skicka pushmedd
 
 Adobe Campaign Standard 24.1 har nu stöd för p8-autentiseringscertifikat för iOS-pushmeddelanden. Implementeringen måste anpassas för att aktivera dessa ändringar. Läs mer i [detta tekniska dokument](../../administration/using/push-technote.md).
 
-Från och med 19 februari 2024 har Campaign stöd, körklar, Google och Yahoo **One-Click List-Unsubscribe** funktioner. Läs mer i [den här sidan](../../administration/using/configuring-email-channel.md#email-channel-parameters).
+Från och med 1 juni 2024, Google och Yahoo! kommer att kräva att avsändarna följer One-Click List-Unsubscribe. Campaign har nu stöd för den här funktionen. Läs mer i [det här avsnittet](../../administration/using/configuring-email-channel.md#email-channel-parameters).
 
 
 ### Korrigeringar {#e-rn-fixes}
