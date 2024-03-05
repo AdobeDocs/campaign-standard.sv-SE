@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 3baadaf774092bb48a029e098e8f56170660400b
+source-git-commit: 26a1c36003645446fb8b827d76afba749d64e9f2
 workflow-type: tm+mt
-source-wordcount: '2737'
-ht-degree: 55%
+source-wordcount: '2729'
+ht-degree: 56%
 
 ---
 
@@ -294,13 +294,11 @@ Avsnittet **[!UICONTROL SMTP]** innehåller följande parametrar:
   >
   >Tillägg av ett skript för att infoga ytterligare SMTP-rubriker är reserverat för avancerade användare. Syntaxen för det här skriptet måste uppfylla kraven för den här innehållstypen: Inget oanvänt utrymme, ingen tom rad, o.s.v.
 
-  Från och med 1 juni 2024, Google och Yahoo! kräver att avsändarna följer **One-Click List-Unsubscribe**. Campaign stöder den här funktionen direkt. [Läs mer om den här ändringen](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#1-click-(list)-unsubscribe%3A){target="_blank"}
+  Från och med 1 juni 2024, Google och Yahoo! kräver att avsändarna följer **One-Click List-Unsubscribe**. Campaign har stöd för den här funktionen.
 
   >[!CAUTION]
   >
   >Om du ändrar rubrikvärdet i **[!UICONTROL Additional SMTP headers]** av dina e-postmallar kan det bryta mot **One-Click List-Unsubscribe** krav från Google och Yahoo!
-
-  <!--Campaign supports, out-of-the-box, Google and Yahoo **One-Click List-Unsubscribe** capability. Be aware that if you modify the header value in custom templates, it could break the compliance with Google/Yahoo **One-Click List-Unsubscribe**.-->
 
 ### Lista över åtkomstauktoriseringsparametrar {#list-of-access-authorization-parameters}
 
