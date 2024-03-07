@@ -8,9 +8,9 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 7a0cd10a-24e6-44d1-842c-2067bfbac838
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1022'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Du kan schemalägga detta med ett arbetsflöde.
 
    * Fyll i **[!UICONTROL Segment code]** fält: ange datum och tid för när meddelandet ska skickas manuellt.
 
-     Du vill till exempel skicka den första gruppen den 1 juni kl. 10:00 GMT+1. Använd följande format: **YYY-MM-DD hh:mm:ss+tz**.
+     Du vill till exempel skicka den första gruppen den 1 juni kl. 10:00 GMT+1. Använd följande format: **`YYYY-MM-DD hh:mm:ss+tz`**.
 
      ![](assets/send-time_opt_segment_configuration.png)
 

@@ -8,10 +8,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 8d5a35c4-e22b-498e-b71c-c5922cf8c2fd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
 workflow-type: tm+mt
 source-wordcount: '693'
-ht-degree: 43%
+ht-degree: 41%
 
 ---
 
@@ -37,7 +37,7 @@ Förberedelsen av meddelande utlöses enligt arbetsflödets körningsparametrar.
 
    * Måldimensionen ska ställas in på **[!UICONTROL mobileApp (mobileAppV5)]** för mallen **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**.
    * Måldimensionen ska ställas in på **[!UICONTROL profile (profile)]** för mallen **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**.
-   * Måldimensionen ska ställas in på **[!UICONTROL subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** för mallen **[!UICONTROL Target users based on their Mobile profile (inApp)]**.
+   * Måldimensionen ska anges till **[!UICONTROL subscriptions to an application (`nms:appSubscriptionRcp:appSubscriptionRcpDetail`)]** för **[!UICONTROL Target users based on their Mobile profile (inApp)]** mall.
 
 1. Dra och släpp en **[!UICONTROL In-App delivery]**-aktivitet i arbetsflödet.
 1. Markera aktiviteten och öppna den sedan med ![](assets/edit_darkgrey-24px.png)-knappen bland de snabbåtgärder som visas.

@@ -7,9 +7,9 @@ topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
 exl-id: bb651b91-145f-4e87-92dd-a8b04662e380
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '563'
 ht-degree: 2%
 
 ---
@@ -55,7 +55,7 @@ Exempel:
 * Avgränsare: tabb eller semikolon
 * Första raden med rubriker
 * Ingen strängavgränsare
-* Datumformat: ÅÅÅ/MM/DD HH:mm:SS
+* Datum: `YYYY/MM/DD HH:mm:SS`
 
 Exempel på fil som ska importeras:
 
