@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 39f7b216-b3cd-4aa6-b5df-23e6805076df
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 7deb1147febfcc8956768715a65416806752c92f
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 88%
+source-wordcount: '877'
+ht-degree: 52%
 
 ---
 
@@ -48,17 +48,45 @@ När du utformar ett schemalagt arbetsflöde som innehåller flera aktiviteter m
 1. Ange **[!UICONTROL Execution frequency]**:
 
    * **[!UICONTROL Once]**: arbetsflödet körs en enda gång.
-   * **[!UICONTROL Several times a day]**: arbetsflödet körs regelbundet flera gånger om dagen.  Du kan ställa in körningar vid specifika tidpunkter eller med jämna mellanrum.
+   * **[!UICONTROL Several times a day]**: arbetsflödet körs regelbundet flera gånger om dagen.
    * **[!UICONTROL Daily]**: arbetsflödet körs vid en viss tidpunkt en gång om dagen.
    * **[!UICONTROL Weekly]**: arbetsflödet körs vid ett angivet tillfälle en eller flera gånger i veckan.
    * **[!UICONTROL Monthly]**: arbetsflödet körs vid ett angivet tillfälle en eller flera gånger i månaden.  Du kan välja de månader du vill att arbetsflödet ska köras.  Du kan också ställa in körningar på vissa veckodagar i månaden som till exempel den andra tisdagen i månaden.
    * **[!UICONTROL Yearly]**: arbetsflödet körs vid ett angivet tillfälle en eller flera gånger per år.
 
-1. Definiera körningsinformationen utifrån den valda frekvensen.  Detaljfälten kan variera beroende på vilken frekvens som används (tid, repetitionsfrekvens, angivna dagar etc.).
+1. Konfigurera körningsinställningarna så att de passar dina behov. Tillgängliga alternativ kan variera beroende på vald körningsfrekvens (körningstid eller dagar, upprepningsfrekvens osv.).
 
    >[!NOTE]
    >
-   >I **[!UICONTROL Repetition frequency]**-fältet kan du utvidga tidpunkterna för när arbetsflödet aktiveras.  Om du exempelvis väljer en daglig körningsperiod och repetitionsfrekvensen är inställd på **2** dagar så kommer arbetsflödet att aktiveras varannan dag.  Det får inte vara under 10 minuter.  Om repetitionsfrekvensen är inställd på **0** (som även är standardvärdet) så beaktas inte det här alternativet och arbetsflödet körs enligt angiven körningsfrekvens.
+   >The **[!UICONTROL Repetition frequency]** som är tillgängliga för körningsfrekvenserna Daily och Monthly gör att du kan göra det möjligt att ta bort de tidpunkter då arbetsflödet aktiveras. Om du exempelvis väljer en daglig körningsperiod och repetitionsfrekvensen är inställd på **2** dagar så kommer arbetsflödet att aktiveras varannan dag.  Det får inte vara under 10 minuter.  Om repetitionsfrekvensen anges till **0** (även standardvärdet), beaktas inte det här alternativet och arbetsflödet körs enligt den angivna körningsfrekvensen.
+
+   När körningsfrekvensen ställs in på **[!UICONTROL Several times a day]** kan du välja mellan att köra arbetsflödet vid specifika tidpunkter på dygnet eller regelbundet under hela dygnet.
+
++++ Lär dig konfigurera en **[!UICONTROL "Several times a day"]** körningsfrekvens
+
+   * Om du vill köra arbetsflödet flera gånger under en viss tid på dagen aktiverar du **[!UICONTROL Specific times]** sedan klicka på **[!UICONTROL Add an element]** för att ange önskad körningstid. Lägg till så många gånger som behövs för att anpassa er efter era behov.
+
+   * Aktivera alternativet **[!UICONTROL Periodic]** konfigurera sedan körningsfrekvensen:
+
+      1. I **[!UICONTROL Repeat processing according to the following frequency (e.g. 2h)]** anger du med vilket intervall arbetsflödet ska köras (t.ex. var 30:e minut, varannan timme).
+
+         >[!NOTE]
+         >
+         >Det här alternativet tillåter även dagliga, månatliga eller årliga repetitionsfrekvenser. Observera att i det här fallet kommer arbetsflödet inte att köras flera gånger om dagen, utan snarare enligt den frekvens som du har angett i det här fältet.
+         >
+         > Om ditt arbetsflöde inte kräver flera körningar under en dag, utan i stället måste köras varje dag, månad eller år, bör du använda **[!UICONTROL Daily]**, **[!UICONTROL Monthly]** eller **[!UICONTROL Yearly]** alternativ i **[!UICONTROL Execution frequency]** listruta.
+
+      1. I **[!UICONTROL Start]**/**[!UICONTROL End]** tidsfält, ange den tid då arbetsflödeskörningen ska starta och avslutas.
+
+         Om ingen sluttid anges avslutas körningen vid midnatt 00:00:00 timmar och nästa körning startar nästa dag vid den angivna starttiden.
+
+      1. I **[!UICONTROL Start]** datumfält, välj det datum då den första körningen ska börja.
+
+   I exemplet nedan är aktiviteten konfigurerad att köra arbetsflödet varannan timme mellan 08:00 och 17:00 den 1 mars.
+
+   ![](assets/wkf_scheduler_day.png)
+
++++
 
 1. Ange när körningen ska upphöra:
 
