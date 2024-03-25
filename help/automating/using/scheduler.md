@@ -9,7 +9,7 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 39f7b216-b3cd-4aa6-b5df-23e6805076df
-source-git-commit: 7deb1147febfcc8956768715a65416806752c92f
+source-git-commit: 6107f5e43b25037f7f5a7f130922a3a22d0047af
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 52%
@@ -107,3 +107,4 @@ När du utformar ett schemalagt arbetsflöde som innehåller flera aktiviteter m
 I följande exempel är aktiviteten konfigurerad så att den startar arbetsflödet på veckobasis varannan måndag klockan 07:00 med obestämd varaktighet.
 
 ![](assets/wkf_scheduler_example.png)
+
