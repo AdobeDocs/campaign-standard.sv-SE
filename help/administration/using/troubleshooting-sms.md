@@ -43,9 +43,9 @@ När du har markerat varje konto separat finns det två möjliga scenarier:
 Du måste kontakta leverantören för att diagnostisera potentiella konflikter hos dem.
 
    * Vissa externa konton har samma kombination av inloggning och lösenord.
-Leverantören har inget sätt att avgöra från vilket externt konto de kommer från, så de `BIND PDU` behandlar alla anslutningar från flera konton som en enda. De kan ha dirigerat MO och SR slumpmässigt över de två kontona, vilket orsakar problem.
-Om leverantören stöder flera korta koder för samma kombination av inloggning/lösenord måste du fråga dem var de ska placera den korta koden i .`BIND PDU` Observera att den här informationen måste placeras i , och inte i `BIND PDU``SUBMIT_SM`, eftersom det `BIND PDU` är den enda platsen som tillåter dirigering av MO:er korrekt.
-[Se avsnittet Information i varje typ av PDU](../../administration/using/sms-protocol.md#information-pdu) ovan för att veta vilket fält som är tillgängligt i , vanligtvis lägger du till den korta koden i `BIND PDU``address_range`, men det kräver särskilt stöd från leverantören. Kontakta dem för att ta reda på hur de förväntar sig att dirigera flera korta koder oberoende av varandra.
+Leverantören har inget sätt att avgöra från vilket externt konto de `BIND PDU` kommer från, så de behandlar alla anslutningar från flera konton som en enda. De kan ha dirigerat MO och SR slumpmässigt över de två kontona, vilket orsakar problem.
+Om leverantören stöder flera korta koder för samma kombination av inloggning/lösenord måste du fråga dem var de ska placera den korta koden i .`BIND PDU` Observera att den här informationen måste placeras i `BIND PDU`, och inte i `SUBMIT_SM`, eftersom `BIND PDU` det är den enda platsen som tillåter dirigering av MO:er korrekt.
+[Se avsnittet Information i varje typ av PDU](../../administration/using/sms-protocol.md#information-pdu) ovan för att veta vilket fält som är tillgängligt i `BIND PDU`, vanligtvis lägger du till den korta koden i `address_range`, men det kräver särskilt stöd från leverantören. Kontakta dem för att få veta hur de förväntar sig att dirigera flera korta koder oberoende av varandra.
 Adobe Campaign stöder hantering av flera korta koder på samma externa konto.
 
 ## Problem med externt konto i allmänhet {#external-account-issues}
@@ -145,7 +145,7 @@ Minska antalet dubbletter när ett nytt försök görs:
 
 * Kontrollera att `DELIVER_SM PDU` kommer från leverantören och är välformad.
 
-* Kontrollera att Adobe Campaign svarar med ett lyckat `DELIVER_SM_RESP PDU` svar i tid. På Adobe Campaign Standard garanterar detta att hela bearbetningslogiken har tillämpats, om så inte är fallet kommer det garanterat att visas ett felmeddelande i loggarna som anger varför bearbetningen misslyckades.
+* Kontrollera att Adobe Campaign svarar med ett lyckat `DELIVER_SM_RESP PDU` i tid. På Adobe Campaign Standard garanterar detta att hela bearbetningslogiken har tillämpats, om så inte är fallet kommer det garanterat att visas ett felmeddelande i loggarna som anger varför bearbetningen misslyckades.
 
 Om det `DELIVER_SM PDU` inte lyckas bör du kontrollera följande:
 

@@ -294,7 +294,7 @@ Avsnittet **[!UICONTROL SMTP]** innehåller följande parametrar:
   >
   >Tillägg av ett skript för att infoga ytterligare SMTP-rubriker är reserverat för avancerade användare. Syntaxen för det här skriptet måste uppfylla kraven för den här innehållstypen: Inget oanvänt utrymme, ingen tom rad, o.s.v.
 
-  Från och med 1 juni 2024, Google och Yahoo! kräver att avsändarna följer **One-Click List-Unsubscribe**. Campaign har stöd för den här funktionen.
+  Från och med 1 juni 2024 kommer Google och Yahoo! kräver att avsändarna följer **One-Click List-Unsubscribe**. Campaign har stöd för den här funktionen.
 
   >[!CAUTION]
   >
