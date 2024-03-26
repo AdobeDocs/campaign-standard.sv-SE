@@ -6,7 +6,7 @@ feature: Push
 role: Admin
 level: Experienced
 exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
-source-git-commit: 2d3210f681bef0f94b7f22f43906ac62b29541f2
+source-git-commit: db035a41515e94836bdfbfc3d620586dc1f5ce31
 workflow-type: tm+mt
 source-wordcount: '1134'
 ht-degree: 1%
@@ -31,7 +31,7 @@ För att säkerställa oavbruten service måste du uppgradera dina mobilappar so
 
 Som en del av Google kontinuerliga arbete med att förbättra sina tjänster kommer de äldre FCM-API:erna att upphöra på **20 juni 2024**. Läs mer om HTTP-protokollet för Firebase Cloud Messaging i [Google Firebase-dokumentation](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
 
-Från och med version 24.2 stöder Adobe Campaign Standard HTTP v1-API:erna för att skicka push-meddelanden för Android.
+Startar [24.1-utgåvan](../../rn/using/release-notes.md), stöder Adobe Campaign Standard HTTP v1-API:erna för att skicka push-meddelanden för Android.
 
 ### Påverkas du? {#fcm-impact}
 
@@ -49,7 +49,7 @@ Om du redan använder Adobe Campaign Standard för att skicka push-meddelanden m
 
 #### Förhandskrav {#fcm-transition-prerequisites}
 
-* Stödet för **HTTP v1 AP** Läget har lagts till i version 24.1. Om miljön körs på en äldre version är en förutsättning för den här ändringen att du uppgraderar miljön till [senaste Campaign Standarden](../../rn/using/release-notes.md).
+* Stödet för **HTTP v1 API** Läget har lagts till i version 24.1. Om miljön körs på en äldre version är en förutsättning för den här ändringen att du uppgraderar miljön till [senaste Campaign Standarden](../../rn/using/release-notes.md).
 
 * JSON-filen för kontot för Android-administratören för SDK-tjänsten behövs för att mobilprogrammet ska kunna flyttas till HTTP v1. Lär dig hur du hämtar den här filen i [Google Firebase-dokumentation](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
@@ -118,7 +118,7 @@ Om den aktuella implementeringen är beroende av certifikatbaserade begäranden 
 
 #### Förhandskrav {#ios-transition-prerequisites}
 
-* Stödet för **Tokenbaserad autentisering** Läget har lagts till i version 24.1. Om miljön körs på en äldre version är en förutsättning för den här ändringen att du uppgraderar miljön till [senaste Campaign Standarden](../../rn/using/release-notes.md).
+* Stödet för **Tokenbaserad autentisering** läge har lagts till i [24.1-utgåvan](../../rn/using/release-notes.md). Om miljön körs på en äldre version är en förutsättning för den här ändringen att du uppgraderar miljön till [senaste Campaign Standarden](../../rn/using/release-notes.md).
 
 * Du behöver en signeringsnyckel för APN:s autentiseringstoken för att generera de tokens som servern använder. Du begär den här nyckeln från ditt Apple-utvecklarkonto, vilket förklaras i [Dokumentation för Apple Developer](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
 
