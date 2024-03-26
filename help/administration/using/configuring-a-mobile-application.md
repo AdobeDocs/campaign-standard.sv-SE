@@ -6,7 +6,7 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 1619e1f434742b89d0f0802c40e82d7b59773a59
+source-git-commit: 58b07f023f52e2bf4972b4a86bf4412f613f38da
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> Adobe Experience Platform Launch har omklassificerats som en serie datainsamlingstekniker i Adobe Experience Platform. Som ett resultat av detta har flera terminologiska förändringar införts i produktdokumentationen. Läs mer i [följande dokument](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html) för en konsoliderad hänvisning till terminologiska förändringar.
+> Adobe Experience Platform Launch har omklassificerats som en serie datainsamlingstekniker i Adobe Experience Platform. Som ett resultat av detta har flera terminologiska förändringar införts i produktdokumentationen. Läs mer i [följande dokument](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html){target="_blank"} för en konsoliderad hänvisning till terminologiska förändringar.
 
 Observera att push-meddelanden och implementeringar i appen måste utföras av expertanvändare. Kontakta er kontoansvarige på Adobe eller er partner inom Professional Services om du behöver hjälp.
 
@@ -39,6 +39,7 @@ Så här slutför du konfigurationen:
    Om inte, kontakta ditt kontoteam.
 
 1. Kontrollera att din användare har nödvändig behörighet i Adobe Campaign Standard och taggar i Adobe Experience Platform.
+
    * Kontrollera att IMS-användaren är en del av standardproduktprofilerna för användare och administratörer i Adobe Campaign Standard. I det här steget kan användaren logga in på Adobe Campaign Standard, navigera till Experience Platform SDK-mobilappssidan och visa mobilappsegenskaperna som du skapade i användargränssnittet för datainsamling.
 
    * I användargränssnittet för datainsamling kontrollerar du att IMS-användaren är en del av produktprofilen för Experience Platform Launch.
@@ -152,10 +153,10 @@ Ditt mobilprogram kan nu användas i Campaign för push-meddelanden eller levera
 
      Ange följande programinformation:
 
-      * **Program-ID (iOS Bundle-ID)**: Se [Apple-dokumentation](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) om du vill ha mer information om paket-ID.
-      * **iOS-certifikatfil (P8)**: Dra och släpp .p8-autentiseringsnyckeln. Instruktioner om hur du genererar .p8-autentiseringsfilen finns i [Apple utvecklarkonto](https://developer.apple.com/account/ios/authkey/create).
-      * **Nyckel-ID**: Se [Apple-dokumentation](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/) om du vill ha mer information om nyckel-ID.
-      * **iOS Team ID**: Se [Apple-dokumentation](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id//) om du vill ha mer information om iOS Team ID.
+      * **Program-ID (iOS Bundle-ID)**: Se [Apple-dokumentation](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids){target="_blank"} om du vill ha mer information om paket-ID.
+      * **iOS-certifikatfil (P8)**: Dra och släpp .p8-autentiseringsnyckeln. Instruktioner om hur du genererar .p8-autentiseringsfilen finns i [Apple utvecklarkonto](https://developer.apple.com/account/ios/authkey/create){target="_blank"}.
+      * **Nyckel-ID**: Se [Apple-dokumentation](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"} om du vill ha mer information om nyckel-ID.
+      * **iOS Team ID**: Se [Apple-dokumentation](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"} om du vill ha mer information om iOS Team ID.
 
         ![](assets/mobile_app_ios_config.png)
 +++
@@ -164,8 +165,8 @@ Ditt mobilprogram kan nu användas i Campaign för push-meddelanden eller levera
 
      Ange följande programinformation:
 
-      * **Program-ID (Android-paketnamn)**: Se [Android-dokumentation](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) om du vill ha mer information om paketnamnet.
-      * **Android-nyckelfil (Json)**: Dra och släpp .json-filen med den privata nyckeln. Instruktioner om hur du genererar den privata .json-nyckelfilen finns i [Utvecklardokumentation för Firebase](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments).
+      * **Program-ID (Android-paketnamn)**: Se [Android-dokumentation](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores){target="_blank"} om du vill ha mer information om paketnamnet.
+      * **Android-nyckelfil (Json)**: Dra och släpp .json-filen med den privata nyckeln. Instruktioner om hur du genererar den privata .json-nyckelfilen finns i [Utvecklardokumentation för Firebase](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}.
 
         ![](assets/mobile_app_android_config.png)
 +++
