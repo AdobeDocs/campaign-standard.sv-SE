@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 source-git-commit: afb988281f00dc17b484872259d44f51864d55f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '492'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -115,11 +115,11 @@ Du kan övervaka dina underdomäner och deras certifikat. Läs mer:
 
 <img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-Det nya biljettsystemet har varit genom [Adobe Admin Console](https://adminconsole.adobe.com/overview). Det nya systemet kräver nya individuella konton för varje användare, med rätt behörigheter. Om du inte kan logga in med din Adobe ID begär du åtkomst via Experience League, så kommer kundtjänstteamet att få dig konfigurerad så snart som möjligt. [Läs mer](https://helpx.adobe.com/sv/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+Det nya biljettsystemet har varit genom [Adobe Admin Console](https://adminconsole.adobe.com/overview). I det nya systemet krävs nya individuella konton för varje användare, med rätt behörigheter. Om du upptäcker att du inte kan logga in med ditt Adobe-ID begär du åtkomst via Experience League, så registrerar kundtjänstteamet dig så snart som möjligt. [Läs mer](https://helpx.adobe.com/sv/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
 ### Fråga experterna!
 
-Gå med i Campaign Community: sök efter svar i befintliga frågor eller ställ din fråga till communityn. [Delta i konversationen](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+Gå med i Campaign-communityn: sök efter svar i befintliga frågor eller ställ din fråga till communityn. [Delta i konversationen](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Skapa en biljett eller starta en chatt
 
