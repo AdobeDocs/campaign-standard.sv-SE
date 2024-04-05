@@ -8,9 +8,9 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 8625a26686570d555d7f5614b38536c248ee16a3
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '1205'
 ht-degree: 1%
 
 ---
@@ -190,3 +190,25 @@ Så här löser du det:
 * När du har importerat målmappningen från en XML-fil måste du också importera rapportanrikningen.
 
 * I stället för att importera målmappningen kan du skapa den direkt i Adobe Campaign Standard, som automatiskt skapar rapportanrikningen.
+
+## Skillnad mellan kolumnrubrikens nummer och summan av raderna
+
+Skillnaden mellan kolumnrubriksnumret och summan av alla rader förväntas i följande fall:
+
+* **Unika mått**: Om du använder unika mått kan det totala antalet som visas i rubriken ändras, eftersom det baseras på mottagar-ID:n i stället för på en enkel summa radantal. Följaktligen kan en enda profil utlösa flera händelser i olika dimensioner, vilket leder till flera rader i datauppsättningen. I sidhuvudet räknas dock varje profil bara en gång.
+
+  Exempel:
+
+   * Om en profil A öppnar ett e-postmeddelande på tre olika dagar visas A på tre rader per dag, men A räknas som 1 i rubriken.
+
+   * Om profil A klickar på tre olika länkar i ett e-postmeddelande samma dag visas A på tre rader vid nedbrytning per URL, men i rubriken räknas A som 1. Detsamma gäller för uppdelningar per enhet och webbläsare.
+
+* **Öppna mått**: Antalet öppningar bestäms genom att totalen för både de faktiska öppna händelserna och de unika klickhändelserna (per mottagar-ID) aggregeras, exklusive fall där en öppen händelse inte har inträffat sedan en e-postlänk inte kan klickas utan en open-händelse.
+
+  Exempel:
+
+   * När profil A öppnar ett spårat e-postmeddelande (med URL U1) registreras det som en open-händelse med URL:en angiven som null. När du klickar på U1 skapas en klickningshändelse senare. Även om A:s klickning på U1 räknas som en öppen händelse finns det ingen specifik öppen händelse för U1. A räknas därför bara en gång i det unika antalet öppna.
+
+   * En profil R öppnar ett e-postmeddelande dag 1, registrerar en öppen händelse och klickar på en länk. Under de kommande två dagarna öppnar R e-postmeddelandet igen och klickar på länken igen, vilket genererar en klickhändelse varje dag. R:s engagemang spåras dagligen i Open-numret, men R räknas bara en gång i kolumnrubriken, med fokus på unika åtaganden.
+
+* **Negerad händelse**: I Rapporter betyder negerad händelse leveransförsök som till en början markerades som lyckade men som misslyckades efter återförsök. Dessa indikeras av antalet -1. För att undvika missförstånd exkluderas dessa negativa tal från de leveranspått som visas. Det innebär att summan av alla rader för leveransmåttet kanske inte matchar kolumnrubriknumret.
