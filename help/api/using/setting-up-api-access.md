@@ -8,10 +8,10 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-source-git-commit: 7ca7e9bd9541a4db708565e65e2ff87e44393238
+source-git-commit: 3450c549f4910a6c5f6be7bf82fbc93ac06625e8
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 10%
+source-wordcount: '442'
+ht-degree: 4%
 
 ---
 
@@ -27,9 +27,12 @@ Adobe Campaign Standard API-åtkomst konfigureras enligt stegen nedan. Varje ste
 1. **Skapa en ny integrering av Adobe Campaign Service** in [Adobe Developer](https://developer.adobe.com/) och konfigurera det. Dina autentiseringsuppgifter genereras sedan (API-nyckel, klienthemlighet...).
 1. **Skapa en JSON-webbtoken (JWT)** från de inloggningsuppgifter som tidigare genererats och signera dem med din privata nyckel. JWT kodar all identitets- och säkerhetsinformation som Adobe behöver för att verifiera din identitet och ge dig åtkomst till API:t.
 
-   >[!AVAILABILITY]
+   >[!IMPORTANT]
    >
-   >JWT (JSON Web Tokens) håller på att tas ur bruk och ersätts med OAuth. Övergången genomförs stegvis i de kommande versionerna av Campaign och dokumentationen kommer att uppdateras för att återspegla dessa uppdateringar.
+   >JWT (JSON Web Tokens) håller på att tas ur bruk och ersätts med OAuth. Övergången genomförs stegvis inom ramen för Campaigns kommande releaser. JWT-autentiseringsuppgifterna (Service Account) har markerats som inaktuella och fortsätter att fungera till och med 27 januari 2025. Därför måste du migrera programmet eller integreringen för att använda de nya autentiseringsuppgifterna för OAuth Server-till-Server före 27 januari 2025. OAuth-autentisering rekommenderas. Du hittar alla element som ska migreras från JWT-autentisering till OAuth-autentisering på dessa sidor:
+   >* [Migrering](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)
+   >* [Implementering](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
+   >* [Vanliga frågor om JWT-borttagning](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)
 
 1. **Byt ut din JWT mot en åtkomsttoken** genom en begäran om POST. Denna Access Token måste användas i varje rubrik för dina API-begäranden.
 
