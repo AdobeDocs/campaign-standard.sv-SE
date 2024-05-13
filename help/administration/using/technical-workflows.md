@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 88%
+source-wordcount: '820'
+ht-degree: 75%
 
 ---
 
@@ -47,6 +47,12 @@ Tekniska arbetsflöden används för att hantera självutlösande bakgrundsproce
    <td> <span class="uicontrol">Fakturering</span> <br /> </td> 
    <td> <span class="uicontrol">billing</span> <br /> </td> 
    <td> Det här arbetsflödet skickar systemaktivitetsrapporten till användaren för fakturering via e-post.        Som standard startas det automatiskt varje dag kl. 01:00.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">Kopiera rubriker från leveransmallar</span> <br /> </td> 
+   <td> <span class="uicontrol">smtpHeaderupdate</span> <br /> </td> 
+   <td> Det här arbetsflödet kopierar SMTP-huvuden som angetts för mallar för e-postleverans till motsvarande underordnade leveranser som inte är mallar. Endast e-postmarknadsföringsleveranser hämtas av det här arbetsflödet. SMTP-huvuden kopieras inte till transaktionsleveranser och korrekturleveranser. <br> Det här arbetsflödet körs inte regelbundet. Den måste startas av användaren per användning. <!--So it'not really a technical workflow like all workflows on this page, because it's not run automatically - TBC--> <br> Om det finns många leveranser på din instans kan du uppdatera alternativet NmsCleanup_DeliveryPurgeDelay i dialogrutan <strong>Programinställningar</strong>. Om du ändrar något i SMTP-rubriker för en mall måste du sedan köra arbetsflödet igen efter ändringen så att de korrigerade rubrikerna kopieras till leveranser som inte är mallbaserade.<a href="data-retention.md#deliveries">Läs mer</a>
+   <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Databasrensning</span> <br /> </td> 

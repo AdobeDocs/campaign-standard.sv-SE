@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 26a1c36003645446fb8b827d76afba749d64e9f2
+source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
 workflow-type: tm+mt
-source-wordcount: '2729'
-ht-degree: 56%
+source-wordcount: '2749'
+ht-degree: 55%
 
 ---
 
@@ -294,7 +294,9 @@ Avsnittet **[!UICONTROL SMTP]** innehåller följande parametrar:
   >
   >Tillägg av ett skript för att infoga ytterligare SMTP-rubriker är reserverat för avancerade användare. Syntaxen för det här skriptet måste uppfylla kraven för den här innehållstypen: Inget oanvänt utrymme, ingen tom rad, o.s.v.
 
-  Från och med 1 juni 2024 kommer Google och Yahoo! kräver att avsändarna följer **One-Click List-Unsubscribe**. Campaign har stöd för den här funktionen.
+  Från och med 1 juni 2024 kommer Google och Yahoo! kräver att avsändarna följer **One-Click List-Unsubscribe**. Campaign har stöd för den här funktionen när det gäller leveransmallar.
+
+  Tillämpa **One-Click List-Unsubscribe** för alla e-postleveranser som inte är mallbaserade måste du köra **[!UICONTROL Copy headers from delivery templates]** tekniskt arbetsflöde. [Läs mer](technical-workflows.md)
 
   >[!CAUTION]
   >
@@ -332,7 +334,7 @@ Använd **[!UICONTROL Delivery duration]** eller **[!UICONTROL Validity limit fo
 
 ### Regler för e-postbearbetning {#legacy-email-processing-rules}
 
-The **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** och **[!UICONTROL Domain management]** regler kan nås och ändras av administratörer via **[!UICONTROL Administration > Channels > Email > Email processing rules]** -menyn. [Läs mer](#email-processing-rules).
+The **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** och **[!UICONTROL Domain management]** regler kan nås och ändras av administratörer via **[!UICONTROL Administration > Channels > Email > Email processing rules]** -menyn. [Läs mer](#email-processing-rules)
 
 ### E-poststudsar {#legacy-bounce-mail-qualification}
 
