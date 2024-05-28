@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: Produktdokumentation för Adobe Campaign Standard.
 title: Användarhandbok för Campaign Standard
 breadcrumb-title: Dokumentation om Campaign Standard
-source-git-commit: db035a41515e94836bdfbfc3d620586dc1f5ce31
+source-git-commit: 63cd437c5a19791ffb9d3c0b8690ee1532a4774d
 workflow-type: tm+mt
-source-wordcount: '1768'
-ht-degree: 99%
+source-wordcount: '1754'
+ht-degree: 100%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 99%
    + [Senaste versionen](rn/using/release-notes.md)
    + [Tidig versionsinformation](rn/using/e-release-notes.md)
    + Tidigare versioner {#previous-releases}
-      + [Versionsinformation för 2023](rn/using/release-notes-2023.md)
-      + [Versionsinformation för 2022](rn/using/release-notes-2022.md)
-      + [Versionsinformation för 2021](rn/using/release-notes-2021.md)
-      + [Versionsinformation för 2020](rn/using/release-notes-2020.md)
-      + [Versionsinformation för 2019](rn/using/release-notes-2019.md)
-      + [Versionsinformation för 2018](rn/using/release-notes-2018.md)
-      + [Versionsinformation för 2017](rn/using/release-notes-2017.md)
+      + [2023](rn/using/release-notes-2023.md)
+      + [2022](rn/using/release-notes-2022.md)
+      + [2021](rn/using/release-notes-2021.md)
+      + [2020](rn/using/release-notes-2020.md)
+      + [2019](rn/using/release-notes-2019.md)
+      + [2018](rn/using/release-notes-2018.md)
+      + [2017](rn/using/release-notes-2017.md)
    + [Versionsplanering](rn/using/release-planning.md)
    + [Inaktuella funktioner](rn/using/deprecated-features.md)
    + [Signaturproblem med spårade URL:er](rn/using/tracked-urls.md)
@@ -448,7 +448,7 @@ ht-degree: 99%
       + [Konfigurera taggningsregler för att stödja användningsfall i Adobe Campaign Standard](administration/using/configuring-rules-launch.md)
       + [Mobila användningsfall som stöds av Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
       + [Så här migrerar du din mobilapplikation från SDK v4 till Adobe Experience Platform SDK](administration/using/sdkv4-migration.md)
-      + [Push Notification Channel-ändringar](administration/using/push-technote.md)
+      + [Ändringar i push-meddelandekanalen](administration/using/push-technote.md)
    + Konfigurera SMS-kanal {#configuring-sms}
       + [Implementera SMS-kanalen](administration/using/configuring-sms-channel.md)
       + [Protokoll och inställningar för SMS-koppling](administration/using/sms-protocol.md)
