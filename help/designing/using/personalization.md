@@ -8,7 +8,7 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 9291eb06c35b1d06c0a992fa64a460215477f57e
 workflow-type: tm+mt
 source-wordcount: '2611'
 ht-degree: 3%
@@ -37,7 +37,7 @@ Det här fältet kan anpassas. Om du vill göra det kan du lägga till anpassnin
 >
 >Huvudparametrarna får inte vara tomma. Avsändarens adress är obligatorisk för att tillåta att ett e-postmeddelande skickas (RFC-standard). Adobe Campaign kontrollerar syntaxen för de e-postadresser som anges.
 
-## Anpassa URL:er{#personalizing-urls}
+## Anpassa URL:er {#personalizing-urls}
 
 Med Adobe Campaign kan du anpassa en eller flera URL-adresser i meddelandet genom att lägga till fält för anpassning, innehållsblock eller dynamiskt innehåll. Så här gör du:
 
@@ -85,7 +85,7 @@ När personaliseringen har genererats (när du till exempel förhandsgranskar oc
 >
 >Om e-postmeddelandet skapas från ett arbetsflöde är de ytterligare data som beräknas i arbetsflödet även tillgängliga i anpassningsfälten. Mer information om hur du lägger till ytterligare data från ett arbetsflöde finns i [Förbättra data](../../automating/using/about-targeting-activities.md#enriching-data) -avsnitt.
 
-## Lägga till ett innehållsblock{#adding-a-content-block}
+## Lägga till ett innehållsblock {#adding-a-content-block}
 
 Adobe Campaign erbjuder en lista med förkonfigurerade innehållsblock. Dessa innehållsblock är dynamiska, personaliserade och har en specifik rendering. Du kan till exempel lägga till en hälsning eller en länk till spegelsidan.
 
