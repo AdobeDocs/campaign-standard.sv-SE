@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: ff6e926b66547632b74e58cc0e419c83a4ea556e
+source-git-commit: c35f8caeab9b6605b042618705eecc347d13fd18
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 100%
+source-wordcount: '419'
+ht-degree: 94%
 
 ---
 
@@ -25,7 +25,7 @@ Uppgraderingar distribueras i två faser. För det första uppgraderas stadieins
 
 Alla versionsdatum kan ändras: besök den här sidan regelbundet för att se om det finns några uppdateringar. Miljöuppdateringar sker stegvis under de angivna tidsramarna nedan. Exakta datum meddelas till varje kund via e-post.
 
-## Version 24.1 – vinterversion 2024 {#release-24-1-release}
+## Version 24.2 - 2024, sommarversion {#release-24-2-release}
 
 Detaljerad information om denna version finns i [versionsinformationen](release-notes.md) när uppgraderingarna av stadiemiljön startar.
 
@@ -33,17 +33,20 @@ Detaljerad information om denna version finns i [versionsinformationen](release-
  <thead>
   <tr>
    <th> Miljöer </th>
-   <th> Datum </th>
+   <th> Begränsad tillgänglighet </th>
+   <th> Allmän tillgänglighet </th>
   </tr>
  </thead>
  <tbody>
   <tr>
    <td>Stadie </td>
-   <td>16 jan till 13 feb 2024 </td>
+   <td>6-13 augusti 2024 </td>
+   <td>2025 - datum som ska bekräftas</td>
   </tr>
   <tr>
    <td>Produktion </td>
-   <td>23 jan till 20 feb 2024 </td>
+   <td>20-27 augusti 2024 </td>
+   <td>2025 - datum som ska bekräftas</td>
   </tr>
  </tbody>
 </table>
