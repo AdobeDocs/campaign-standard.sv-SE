@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
+source-git-commit: dba7ed7d68a33ddf1a1e62ea0f20e855c0b7eb20
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 75%
+source-wordcount: '839'
+ht-degree: 72%
 
 ---
 
@@ -62,7 +62,8 @@ Tekniska arbetsflöden används för att hantera självutlösande bakgrundsproce
   <tr> 
    <td> <span class="uicontrol">Prognos</span> <br /> </td> 
    <td> <span class="uicontrol">forecasting</span><br /> </td> 
-   <td> Detta arbetsflöde utför analysen av leveranser som lagras i den preliminära prognosen (skapandet av de preliminära loggarna).        Som standard startas det varje dag kl. 01:00. <br /> </td> 
+   <td> Detta arbetsflöde utför analysen av leveranser som lagras i den preliminära prognosen (skapandet av de preliminära loggarna).        Som standard startas den varje dag kl. 1:00. <br />
+   Prognosarbetsflöde är ett äldre arbetsflöde som nu har stoppats i Campaign Standard och inte längre fungerar.</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Importera en delad målgrupp</span> <br /> </td> 
