@@ -9,7 +9,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 0470b986-c00a-4441-8621-82c7112a9953
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 1%
@@ -25,7 +25,8 @@ Har du något leveransproblem? Du kan hitta lösningen här.
 **Varför får jag alltid samma felmeddelande för en viss Internet-leverantör?**
 
 Om du alltid får samma felmeddelande för en Internet-leverantör, kan din e-postadress eller IP-adress ha identifierats som defekt av Internet-leverantören. Utför följande rekommendationer:
-* Kontrollera om du får en stor andel fel som är kopplade till obefintliga e-postadresser (**Okänd användare** fel).
+
+* Kontrollera om du får ett stort antal fel som är kopplade till obefintliga e-postadresser (**Okänd användare**).
 * Uppdatera dina prenumerationsformulär för att upptäcka eventuella fel i de angivna domännamnen (till exempel: gmaul.com eller yaho.com).
 * Om du märker fel som anger att dina meddelanden har deklarerats som skräppost, eller att dina meddelanden alltid är blockerade, kan du försöka utesluta mottagare som inte har öppnat eller klickat i något av dina meddelanden de senaste 12 månaderna från målet.
 
@@ -35,13 +36,13 @@ Om problemet kvarstår kontaktar du den kommersiella tjänsten, leveransprogramm
 
 * **Vad är skillnaden mellan en e-postadress på blockeringslista och en e-postadress i karantän?**
 
-   * Status **[!UICONTROL On denylist]** är ett resultat av [feedback-slinga](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops) (när en person rapporterar ett meddelande som skräppost).
+   * Statusen **[!UICONTROL On denylist]** är ett resultat av en [feedbackslinga](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops) (när en person rapporterar ett meddelande som skräppost).
 
-   * Status **[!UICONTROL Quarantined]** är ett resultat av ett mjukt eller hårt studsande.
+   * Statusen **[!UICONTROL Quarantined]** är ett resultat av ett mjukt eller hårt studsande.
 
   Mer information finns i [det här avsnittet](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist).
 
-* **Vad betyder de olika anledningarna till karantänfel?**
+* **Vad betyder de olika karantänfelen?**
 
   Här är tio möjliga orsaker: inte definierad, okänd användare, ogiltig domän, adress på blockeringslista, nekad, fel ignorerad, kontot inaktiverat, postlådan full, inte ansluten.
 
@@ -52,14 +53,14 @@ Om problemet kvarstår kontaktar du den kommersiella tjänsten, leveransprogramm
 * **En av mina mottagare lades till i blockeringslista av misstag. Hur tar jag bort dem från blockeringslista så att jag kan börja skicka dem igen?**
 
    * Gå till **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
-   * Ange värdet för **[!UICONTROL Status]** fält till **[!UICONTROL Valid]**.
+   * Ange värdet för fältet **[!UICONTROL Status]** till **[!UICONTROL Valid]** i informationen för motsvarande post.
    * Spara posten.
 
-* **Hur kan jag ta reda på om en av mina IP-adresser finns på blockeringslista? Hur tar jag bort mina IP-adresser från blockeringslista?**
+* **Hur kan jag ta reda på om en av mina IP-adresser finns på blockeringslista? Hur tar jag bort mina IP-adresser från en blockeringslista?**
 
   Om du vill kontrollera om din IP-adress finns i blockeringslista kan du använda olika webbplatser för att verifiera den, till exempel:
-   * [MX Toolbox](https://mxtoolbox.com/)
-   * [Vad är min IP-adress?](https://whatismyipaddress.com)
+   * [MX-verktygslåda](https://mxtoolbox.com/)
+   * [Vad är min IP-adress](https://whatismyipaddress.com)
 
   I allmänhet returnerar resultatet av IP-adresskontrollen en lista som innehåller information om blockeringslista och även namnet på den webbplats som blockerade IP-adressen.
 

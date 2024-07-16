@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: dba7ed7d68a33ddf1a1e62ea0f20e855c0b7eb20
+source-git-commit: f87795ee2378a1e9e1b393c6cce002bcb70178b8
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 72%
+source-wordcount: '791'
+ht-degree: 74%
 
 ---
 
@@ -51,20 +51,14 @@ Tekniska arbetsflöden används för att hantera självutlösande bakgrundsproce
   <tr> 
    <td> <span class="uicontrol">Kopiera rubriker från leveransmallar</span> <br /> </td> 
    <td> <span class="uicontrol">smtpHeaderupdate</span> <br /> </td> 
-   <td> Det här arbetsflödet kopierar SMTP-huvuden som angetts för mallar för e-postleverans till motsvarande underordnade leveranser som inte är mallar. Endast e-postmarknadsföringsleveranser hämtas av det här arbetsflödet. SMTP-huvuden kopieras inte till transaktionsleveranser och korrekturleveranser. <br> Det här arbetsflödet körs inte regelbundet. Den måste startas av användaren per användning. <!--So it'not really a technical workflow like all workflows on this page, because it's not run automatically - TBC--> <br> Om det finns många leveranser på din instans kan du uppdatera alternativet NmsCleanup_DeliveryPurgeDelay i dialogrutan <strong>Programinställningar</strong>. Om du ändrar något i SMTP-rubriker för en mall måste du sedan köra arbetsflödet igen efter ändringen så att de korrigerade rubrikerna kopieras till leveranser som inte är mallbaserade.<a href="data-retention.md#deliveries">Läs mer</a>
+   <td> Det här arbetsflödet kopierar SMTP-huvuden som angetts för mallar för e-postleverans till motsvarande underordnade leveranser som inte är mallar. Endast e-postmarknadsföringsleveranser hämtas av det här arbetsflödet. SMTP-huvuden kopieras inte till transaktionsleveranser och korrekturleveranser. <br> Det här arbetsflödet körs inte regelbundet. Den måste startas av användaren per användning. <!--So it'not really a technical workflow like all workflows on this page, because it's not run automatically - TBC--> <br> Om det finns många leveranser på din instans kan du uppdatera alternativet NmsCleanup_DeliveryPurgeDelay i <strong>programinställningarna</strong>. Om du ändrar något i SMTP-rubriker för en mall måste du sedan köra arbetsflödet igen efter ändringen så att de korrigerade rubrikerna kopieras till leveranser som inte är mallbaserade.<a href="data-retention.md#deliveries">Läs mer</a>
    <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Databasrensning</span> <br /> </td> 
    <td> <span class="uicontrol">cleanup</span> <br /> </td> 
    <td> Det här arbetsflödet är arbetsflödet för databasunderhåll. Det kör olika statistik och processer och tar bort föråldrade data från databasen enligt den konfiguration som har definierats. Som standard startas det automatiskt varje dag klockan 04:00.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">Prognos</span> <br /> </td> 
-   <td> <span class="uicontrol">forecasting</span><br /> </td> 
-   <td> Detta arbetsflöde utför analysen av leveranser som lagras i den preliminära prognosen (skapandet av de preliminära loggarna).        Som standard startas den varje dag kl. 1:00. <br />
-   Prognosarbetsflöde är ett äldre arbetsflöde som nu har stoppats i Campaign Standard och inte längre fungerar.</td> 
-  </tr> 
+  </tr>
   <tr> 
    <td> <span class="uicontrol">Importera en delad målgrupp</span> <br /> </td> 
    <td> <span class="uicontrol">importSharedAudience</span> <br /> </td> 
@@ -102,7 +96,7 @@ Tekniska arbetsflöden används för att hantera självutlösande bakgrundsproce
    <td> I det här arbetsflödet synkroniseras de taggegenskaper som importeras i Adobe Campaign Standard. Det startar var 15:e minut.<br /> </td> 
   </tr>
   <tr> 
-   <td> <span class="uicontrol">Återställning av spårningsloggar</span> <br /> </td> 
+   <td> <span class="uicontrol">Återställning av loggar för spårning</span> <br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
    <td> I det här arbetsflödet synkroniseras de taggegenskaper som importeras i Adobe Campaign Standard. Det startar var 15:e minut.<br /> </td> 
   </tr>

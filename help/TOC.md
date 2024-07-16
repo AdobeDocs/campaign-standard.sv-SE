@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Produktdokumentation för Adobe Campaign Standard.
 title: Användarhandbok för Campaign Standard
 breadcrumb-title: Dokumentation om Campaign Standard
-source-git-commit: 63cd437c5a19791ffb9d3c0b8690ee1532a4774d
-workflow-type: ht
-source-wordcount: '1754'
+source-git-commit: e8cf96da88f68680be1ff5f770036b012654b160
+workflow-type: tm+mt
+source-wordcount: '1752'
 ht-degree: 100%
 
 ---
@@ -15,10 +15,8 @@ ht-degree: 100%
 # Dokumentation om Adobe Campaign Standard  {#using}
 
 + [Dokumentation om Campaign Standard](campaign-standard-home.md)
-+ [Senaste uppdateringarna](rn/using/documentation-updates.md)
 + Versionsinformation {#release-notes}
    + [Senaste versionen](rn/using/release-notes.md)
-   + [Tidig versionsinformation](rn/using/e-release-notes.md)
    + Tidigare versioner {#previous-releases}
       + [2023](rn/using/release-notes-2023.md)
       + [2022](rn/using/release-notes-2022.md)
@@ -30,6 +28,7 @@ ht-degree: 100%
    + [Versionsplanering](rn/using/release-planning.md)
    + [Inaktuella funktioner](rn/using/deprecated-features.md)
    + [Signaturproblem med spårade URL:er](rn/using/tracked-urls.md)
+   + [Senaste dokumentationsuppdateringarna](rn/using/documentation-updates.md)
 + Komma igång {#getting-started}
    + [Om Adobe Campaign Standard](start/using/about-campaign-standard.md)
    + Upptäcka gränssnittet {#discovering-the-interface}

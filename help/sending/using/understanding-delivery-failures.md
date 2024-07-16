@@ -8,10 +8,10 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
 workflow-type: tm+mt
 source-wordcount: '1281'
-ht-degree: 62%
+ht-degree: 59%
 
 ---
 
@@ -82,7 +82,7 @@ Möjliga orsaker till leveransfel är:
 
 Om ett meddelande misslyckas på grund av ett tillfälligt fel, kommer nya försök att utföras under leveransens varaktighet. Mer information om olika typer av fel finns i [Leveransfeltyper och orsaker](#delivery-failure-types-and-reasons).
 
-Antalet återförsök (hur många återförsök som ska utföras dagen efter att sändningen har startats) och den minsta fördröjningen mellan återförsök är nu<!--managed by the Adobe Campaign Enhanced MTA,--> baserat på hur väl en IP fungerar både historiskt och för närvarande på en viss domän. Inställningarna för **Återförsök** i Campaign ignoreras.
+Antalet återförsök (hur många försök som ska utföras dagen efter att sändningen har startats) och den minsta fördröjningen mellan återförsök är nu <!--managed by the Adobe Campaign Enhanced MTA,--> baserat på hur bra en IP fungerar både historiskt och för närvarande på en viss domän. Inställningarna för **Återförsök** i Campaign ignoreras.
 
 <!--Please note that Adobe Campaign Enhanced MTA is not available for the Push channel.-->
 
@@ -92,11 +92,11 @@ Om du vill ändra varaktigheten för en leverans går du till de avancerade para
 >
 >**Parametern **[!UICONTROL Delivery duration]**i dina Campaign-leveranser används nu bara om den är inställd på 3,5 dagar eller mindre.** Om du anger ett värde som är högre än 3,5 dagar kommer det inte att tas med i beräkningen.
 
-Om du till exempel vill att återförsök för en leverans ska sluta efter en dag, kan du ställa in leveranstiden på **1d** och meddelandena i kön för nya försök tas bort efter en dag.
+Om du till exempel vill att återförsök för en leverans ska stoppas efter en dag kan du ange leveransens varaktighet till **1d** och meddelandena i kön för återförsök kommer att tas bort efter en dag.
 
 >[!NOTE]
 >
->När ett meddelande har varit i återförsökskön i högst 3,5 dagar och inte kunnat levereras, kommer det att gå ut och dess status uppdateras<!--from **[!UICONTROL Sent]**--> till **[!UICONTROL Failed]** i [leveransloggar](../../sending/using/monitoring-a-delivery.md#delivery-logs).
+>När ett meddelande har varit i återförsökskön i högst 3,5 dagar och inte kunnat levereras, kommer det att gå ut och dess status uppdateras <!--from **[!UICONTROL Sent]**--> till **[!UICONTROL Failed]** i [leveransloggarna](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
@@ -116,9 +116,9 @@ För synkrona felmeddelanden vid leveransfel avgör Adobe Campaign Enhanced MTA 
 >
 >Studskvalifikationer i Campaign **[!UICONTROL Message qualification]**-tabellen används inte längre.
 
-Asynkrona studsningar är fortfarande kvalificerade inMail-processen enligt **[!UICONTROL Inbound email]**-reglerna. Klicka på knappen **Adobe** logotyp, längst upp till vänster och välj **[!UICONTROL Administration > Channels > Email > Email processing rules]** och markera **[!UICONTROL Bounce mails]**. Mer information om den här regeln finns i [det här avsnittet](../../administration/using/configuring-email-channel.md#email-processing-rules).
+Asynkrona studsningar är fortfarande kvalificerade inMail-processen enligt **[!UICONTROL Inbound email]**-reglerna. Om du vill komma åt de här reglerna klickar du på logotypen **Adobe** längst upp till vänster, markerar **[!UICONTROL Administration > Channels > Email > Email processing rules]** och väljer **[!UICONTROL Bounce mails]**. Mer information om den här regeln finns i [det här avsnittet](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
-Mer information om studsar och de olika typerna av studsar finns i [det här avsnittet](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
+Mer information om studsar och olika typer av studsar finns i [det här avsnittet](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 
@@ -136,6 +136,6 @@ To list the various bounces and their associated error types et reasons, click t
 
 Mekanismen för dubbel anmälan är bäst när du skickar e-post. Den skyddar plattformen från fel eller ogiltiga e-postadresser, skräppost och förhindrar eventuella klagomål om skräppost.
 
-Principen är att skicka ett e-postmeddelande som bekräftar besökarens samtycke innan de lagras som &quot;profiler&quot; i Campaign-databasen: Besökaren fyller i en landningssida online, får ett e-postmeddelande och måste klicka på bekräftelselänken för att slutföra prenumerationen.
+Principen är att skicka ett e-postmeddelande för att bekräfta besökarens samtycke innan de lagras som profiler i din Campaign-databas: besökaren fyller i en onlinelandningssida, får ett e-postmeddelande och måste klicka på bekräftelselänken för att slutföra prenumerationen.
 
 Mer information finns i [det här avsnittet](../../channels/using/setting-up-a-double-opt-in-process.md).
