@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Interagera med anpassade resurser {#interacting-with-custom-resources}
 
-The **/customResources** kan du visa anpassade resurser för Campaign i REST. Baserat på detta API finns det en integrering mellan anpassade entiteter och externa slutpunkter.
+Med slutpunkten **/customResources** kan du visa anpassade resurser för Campaign i REST. Baserat på detta API finns det en integrering mellan anpassade entiteter och externa slutpunkter.
 
 Slutpunkten /customResources har exakt samma beteende som slutpunkten /profileAndServices.
 
@@ -45,4 +45,4 @@ POST /customResources/<customResourceName>
 
 >[!NOTE]
 >Sekretess-API-slutpunkten och arbetsflödena (/privacy/privacyTool) hanterar inte anpassade resurser som inte är länkade till profilentiteten.
->Du ansvarar för att hantera och rensa alla PII-filer för dessa anpassade resurser. Mer information om sekretessverktyget finns i [klicka här](../../api/using/creating-a-privacy-request.md).
+>Du ansvarar för att hantera och rensa alla PII-filer för dessa anpassade resurser. [Klicka här](../../api/using/creating-a-privacy-request.md) om du vill ha mer information om sekretessverktyget.

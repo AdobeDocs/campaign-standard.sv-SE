@@ -33,4 +33,4 @@ I den här videon visas hur du skapar anpassade resurser.
 
 >[!VIDEO](https://video.tv.adobe.com/v/27715?quality=9&captions=eng)
 
-Det finns fler videor med Campaign Standard om hur man gör [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv).
+Ytterligare Campaign Standard om instruktionsvideor finns [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv).

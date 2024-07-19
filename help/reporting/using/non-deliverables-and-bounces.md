@@ -18,16 +18,16 @@ ht-degree: 5%
 
 # Ej levererbara och studsningar{#non-deliverables-and-bounces}
 
-The **[!UICONTROL Non-deliverables and bounces]** rapporten innehåller information om alla fel som uppstått under en leverans.
+Rapporten **[!UICONTROL Non-deliverables and bounces]** innehåller information om alla fel som påträffats under en leverans.
 
 ![](assets/delivery_reports_7.png)
 
-The **[!UICONTROL Overview]** tabellen innehåller tillgängliga uppgifter om eventuella fel som kan uppstå vid varje leverans, till exempel:
+Tabellen **[!UICONTROL Overview]** innehåller tillgängliga data om möjliga fel som kan uppstå för varje leverans, till exempel:
 
-* **Behandlad/skickad**: Antal skickade e-postmeddelanden.
-* **Levererat**: Antalet e-postmeddelanden som levereras.
-* **Mjuk studsa**: Det totala antalet tillfälliga fel, till exempel en fullständig inkorg.
-* **Hård studs**: Det totala antalet permanenta fel, t.ex. fel e-postadress.
+* **Behandlad/skickad**: Antalet skickade e-postmeddelanden.
+* **Levererat**: Antalet e-postmeddelanden som levererats.
+* **Mjukt studs**: Det totala antalet tillfälliga fel, till exempel en fullständig inkorg.
+* **Hårt studs**: Det totala antalet permanenta fel, till exempel en felaktig e-postadress.
 * **studsar + fel**: Antalet meddelanden som inte kunde levereras.
 
-The **Uppdelning efter domän** tabellen listar studenterna per mottagares domäner.
+I tabellen **Uppdelning efter domän** visas gränserna per mottagares domäner.

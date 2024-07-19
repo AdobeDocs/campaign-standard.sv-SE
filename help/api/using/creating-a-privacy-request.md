@@ -19,20 +19,20 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->The [Integritet - grundtjänst](https://developer.adobe.com/experience-platform-apis/references/privacy-service) Integrering är den metod du bör använda för alla begäranden om åtkomst och borttagning. <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
+>Integreringen av [kärntjänsten för sekretess](https://developer.adobe.com/experience-platform-apis/references/privacy-service) är den metod som du bör använda för alla begäranden om åtkomst och borttagning. <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
 
-Sekretessförfrågningar skapas med en **POST** begäran.
+Sekretessbegäranden skapas med en **POST**-begäran.
 
-Innan du skapar begäranden måste du definiera det namnutrymme som du ska använda. Mer information finns i [Dokumentation för sekretesshantering](../../start/using/privacy-requests.md).
+Innan du skapar begäranden måste du definiera det namnutrymme som du ska använda. Mer information finns i [dokumentationen för sekretesshantering](../../start/using/privacy-requests.md).
 
 Nyttolasten måste innehålla följande parametrar:
 
-* **name**: ett unikt internt namn
+* **namn**: ett unikt internt namn
 * **namespace**: namnområdesnamnet som konfigurerats i Campaign Standardens gränssnitt
 * **Avstämningsvärde**: avstämningsvärdet baserat på avstämningsnyckeln som definierats i namnutrymmet
 * **label**: etiketten för begäran
-* **type**: begärandetypen. Godkända värden är &quot;access&quot; eller &quot;delete&quot;.
-* **reglering**: Regeltypen. Exempel:&quot;GDPR&quot;,&quot;CCPA&quot;. Den här parametern är obligatorisk och tillgänglig från och med Campaign Standard 19.4. Om du använder en äldre version behöver du inte lägga till den i din nyttolast.
+* **typ**: begärandetypen. Godkända värden är &quot;access&quot; eller &quot;delete&quot;.
+* **regel**: Regeringstypen. Exempel:&quot;GDPR&quot;,&quot;CCPA&quot;. Den här parametern är obligatorisk och tillgänglig från och med Campaign Standard 19.4. Om du använder en äldre version behöver du inte lägga till den i din nyttolast.
 
 <br/>
 

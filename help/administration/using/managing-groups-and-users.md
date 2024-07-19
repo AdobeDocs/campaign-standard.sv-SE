@@ -19,13 +19,13 @@ ht-degree: 70%
 
 >[!IMPORTANT]
 >
->The **[!UICONTROL Access to the deliverability parameters (Deliverability)]** och **[!UICONTROL Message Center agents (mcExec)]** säkerhetsgrupperna är endast Adobe internal och ska inte tilldelas någon användare.
+>Säkerhetsgrupperna **[!UICONTROL Access to the deliverability parameters (Deliverability)]** och **[!UICONTROL Message Center agents (mcExec)]** är endast Adobe internal och ska inte tilldelas till någon användare.
 
 Säkerhetsgrupper är uppsättningar av användare som delar samma roller och rättigheter inom organisationen.
 
-Användare måste alltid vara länkade till en säkerhetsgrupp.  På så sätt kan du tilldela dem specifika roller och organisationsenheter. Om du vill begränsa en användares åtkomst ska du inte lägga till användaren i Campaign **[!UICONTROL Standard Users]** grupp eftersom den är länkad till **[!UICONTROL All]** organisationsenhet.
+Användare måste alltid vara länkade till en säkerhetsgrupp.  På så sätt kan du tilldela dem specifika roller och organisationsenheter. Om du vill begränsa en användares åtkomst ska du inte lägga till användaren i gruppen Campaign **[!UICONTROL Standard Users]** eftersom den är länkad till organisationsenheten **[!UICONTROL All]**.
 
-För mer information om roller visas i tabellen på följande sida möjliga åtgärder som är tillgängliga beroende på en användares roll(er): [Adobe Campaign Standard-auktoriseringar](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf).
+Om du vill ha mer information om roller visar tabellen på följande sida möjliga åtgärder som är tillgängliga enligt en användares roll(er): [Adobe Campaign Standard-auktoriseringar](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf).
 
 De säkerhetsgrupper som finns som standard är:
 
@@ -42,7 +42,7 @@ Observera att dessa inbyggda säkerhetsgrupper är skrivskyddade och inte kan ä
 >
 >Observera att säkerhetsgrupperna i Admin Console kallas för profiler.
 
-Du kan skapa egna säkerhetsgrupper om de inbyggda grupperna inte räcker till för att hantera användarna.  De kan hanteras av administratörer som har tillgång till både Adobe Campaign administrationsmenyer och Admin Console. Mer information om Admin Console finns i [dokumentation](https://helpx.adobe.com/se/enterprise/managing/user-guide.html).
+Du kan skapa egna säkerhetsgrupper om de inbyggda grupperna inte räcker till för att hantera användarna.  De kan hanteras av administratörer som har tillgång till både Adobe Campaign administrationsmenyer och Admin Console. Mer information om Admin Console finns i [dokumentationen](https://helpx.adobe.com/se/enterprise/managing/user-guide.html).
 
 Här måste vi först tilldela de två inbyggda grupperna Standardanvändare och Administratörer till våra användare.  Dessa säkerhetsgrupper begränsar vissa funktioner i Adobe Campaign. Standardanvändaren har grundläggande åtkomst till Adobe Campaign medan administratören exempelvis kan komma åt administrationsmenyerna.
 
@@ -54,7 +54,7 @@ Sedan skapar vi en uppsättning av säkerhetsgrupper, Geometrixx- och Geometrixx
 
 Du måste först tilldela dina användare en av de inbyggda säkerhetsgrupperna:
 
-1. I Admin Console väljer du instansen och sedan **Användare** -fliken.
+1. Markera instansen i Admin Console och sedan fliken **Användare**.
 
    ![](assets/manage_security_group_2.png)
 
@@ -69,7 +69,7 @@ Du måste först tilldela dina användare en av de inbyggda säkerhetsgrupperna:
 
 När de två användarna är anslutna till de inbyggda säkerhetsgrupperna **[!UICONTROL Administrators]** och **[!UICONTROL Standard users]** som tilldelar roller till våra användare, så kan administratören nu skapa de två säkerhetsgrupperna **Geometrixx** och **Geometrixx Clothes** som tilldelar organisationsenheter till våra användare utöver de inbyggda säkerhetsgrupperna.
 
-1. I Admin Console väljer du instansen och sedan **Produkter** -fliken.
+1. Markera instansen i Admin Console och sedan fliken **Produkter**.
 1. Klicka på knappen **Ny profil** för att skapa säkerhetsgruppen **Geometrixx**.
 
    ![](assets/create_security_1.png)
@@ -115,7 +115,7 @@ De nya säkerhetsgrupperna skapas nu i Admin Console. För att de ska synkas ful
 
 Administratörsanvändaren måste skapa en uppsättning av säkerhetsgrupper som används för att tilldela organisationsenheterna Geometrixx och Geometrix Clothes.  Mer information om hur du skapar organisationsenheter hittar du i [Skapa och hantera enheter](../../administration/using/organizational-units.md#creating-and-managing-units) .
 
-1. Klicka på **Adobe** logotyp, i det övre vänstra hörnet och välj **[!UICONTROL Administration > Users & Security > Security groups]**.
+1. Klicka på logotypen **Adobe** i det övre vänstra hörnet och välj sedan **[!UICONTROL Administration > Users & Security > Security groups]**.
 1. Skapa en ny säkerhetsgrupp och ange dess **[!UICONTROL Label]** och **[!UICONTROL ID]**.
 
    ID:t måste vara samma som det som valts i Admin Console.

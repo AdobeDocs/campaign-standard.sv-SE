@@ -19,13 +19,13 @@ ht-degree: 1%
 
 Som standard läses 25 resurser in i en lista.
 
-The **_lineCount** kan du begränsa antalet resurser som anges i svaret.  Du kan sedan använda **nästa** för att visa nästa resultat.
+Med parametern **_lineCount** kan du begränsa antalet resurser som anges i svaret.  Du kan sedan använda noden **next** för att visa nästa resultat.
 
 >[!NOTE]
 >
->Använd alltid URL-värdet som returneras i **nästa** nod för att utföra en sidnumreringsbegäran.
+>Använd alltid URL-värdet som returneras i noden **next** för att utföra en sidnumreringsbegäran.
 >
->The **_lineStart** begäran beräknas och måste alltid användas inom den URL som returneras i **nästa** nod.
+>**_lineStart**-begäran beräknas och måste alltid användas inom den URL som returneras i noden **next**.
 
 <br/>
 
@@ -41,7 +41,7 @@ Exempelbegäran om GET för att visa 1 post för profilresursen.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Svar på begäran, med **nästa** nod som ska utföra sidnumrering.
+Svar på begäran, med noden **next** som utför sidnumrering.
 
 ```
 {
@@ -62,7 +62,7 @@ Svar på begäran, med **nästa** nod som ska utföra sidnumrering.
 }
 ```
 
-Som standard är **nästa** noden är inte tillgänglig vid interaktion med tabeller med stora mängder data. Om du vill kunna utföra sidnumreringen måste du lägga till **_forcePagination=true** parameter till din call URL.
+Som standard är noden **next** inte tillgänglig när den interagerar med tabeller med stora mängder data. För att kunna utföra paginering måste du lägga till parametern **_forcePagination=true** i din anrops-URL.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
@@ -74,4 +74,4 @@ Som standard är **nästa** noden är inte tillgänglig vid interaktion med tabe
 
 >[!NOTE]
 >
->Antalet poster över vilka en tabell anses vara stor definieras i Campaign Standard **XtkBigTableThreshold** alternativ. Standardvärdet är 100 000 poster.
+>Antalet poster över vilka en tabell anses vara stor definieras i Campaign Standarden **XtkBigTableThreshold** . Standardvärdet är 100 000 poster.

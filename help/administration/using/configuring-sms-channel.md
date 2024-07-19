@@ -23,7 +23,7 @@ Stegen för att skapa och ändra ett externt konto finns i avsnittet [Externa ko
 
 >[!IMPORTANT]
 >
->Om du använder samma konto och lösenord för flera externa SMS-konton kan det leda till konflikter och överlappning mellan kontona. Se [Felsökningssida för SMS](troubleshooting-sms.md#external-account-conflict).
+>Om du använder samma konto och lösenord för flera externa SMS-konton kan det leda till konflikter och överlappning mellan kontona. Se sidan [SMS-felsökning](troubleshooting-sms.md#external-account-conflict).
 
 Det externa kontot **[!UICONTROL SMS routing via SMPP]** anges som standard. Det kan dock vara användbart att lägga till andra konton.
 
@@ -280,7 +280,7 @@ CR: Radretur
 
 **Avancerade tecken (räknas två gånger)**
 
-^ {} [~] | €
+^ { } [~] | €
 
 ### SMSC-specifikationer {#smsc-specifics}
 
@@ -329,15 +329,15 @@ De specifika parametrarna för att skicka SMS grupperas i avsnitten **[!UICONTRO
 
 ![](assets/sms_options.png)
 
-Från **[!UICONTROL Advanced parameters]** avsnitt:
+Från avsnittet **[!UICONTROL Advanced parameters]**:
 
-* The **[!UICONTROL Short code]** gör att du kan lägga till en viss kort kod i leveransen. Mottagare som valde bort den här korta koden exkluderas automatiskt när meddelandet förbereddes. Mer information om hur du konfigurerar kort kod finns i [det här avsnittet](../../channels/using/managing-incoming-sms.md).
+* Med **[!UICONTROL Short code]** kan du lägga till en specifik kortkod i leveransen. Mottagare som valde bort den här korta koden exkluderas automatiskt när meddelandet förbereddes. Mer information om hur du konfigurerar kort kod finns i [det här avsnittet](../../channels/using/managing-incoming-sms.md).
 
   >[!NOTE]
   >
-  >Om **[!UICONTROL Short code]** fältet är tomt, värdet för **[!UICONTROL Short code]** fält som angetts i det externa kontot kommer att användas.
+  >Om fältet **[!UICONTROL Short code]** lämnas tomt används värdet för fältet **[!UICONTROL Short code]** som angetts i det externa kontot.
 
-Från **[!UICONTROL Send]** i en SMS-mall:
+Från avsnittet **[!UICONTROL Send]** i en SMS-mall:
 
 * Med det här **[!UICONTROL Maximum number of SMS per message]** alternativet kan du definiera antalet SMS som ska användas för att skicka ett meddelande.  Om det här antalet överskrids skickas inte meddelandet.
 

@@ -14,9 +14,9 @@ ht-degree: 4%
 
 # Hämta profiler med API:er {#retrieving-profiles}
 
-Hämtning av profiler utförs med en **GET** begäran.
+Hämtning av profiler utförs med en **GET**-begäran.
 
-Du kan sedan förfina sökningen med filter, ordning och sidnumrering. Mer information finns i [Ytterligare åtgärder](../../api/using/sorting.md) -avsnitt.
+Du kan sedan förfina sökningen med filter, ordning och sidnumrering. Mer information finns i avsnittet [Ytterligare åtgärder](../../api/using/sorting.md).
 
 Med Campaign Standard-API:er kan du dessutom söka efter profiler som baseras på något av dessa fält: e-post, förnamn, efternamn eller andra anpassade fält. Mer information om detta finns i [det här avsnittet](#searching-field).
 
@@ -85,7 +85,7 @@ Med Campaign Standard-API:er kan du dessutom söka efter profiler som baseras p�
 
 ## Söka efter profiler baserade på ett fält {#searching-field}
 
-The **[!UICONTROL filterType]** kan du hämta profiler baserat på något av dessa fält: e-post, förnamn, efternamn eller andra anpassade fält som har lagts till i avancerad filtrering när profilresursen utökas.
+Med parametern **[!UICONTROL filterType]** kan du hämta profiler baserat på något av följande fält: e-post, förnamn, efternamn eller andra anpassade fält som har lagts till i avancerad filtrering när profilresursen utökas.
 
 >[!NOTE]
 >

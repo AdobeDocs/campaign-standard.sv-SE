@@ -17,7 +17,7 @@ ht-degree: 12%
 
 # Hämta en profils geografiska enhet {#retrieving-geographical-unit}
 
-1. Utför en GET-förfrågan på profilen PKey för att hämta **geoUnit** URL.
+1. Utför en GET-begäran på PKey-profilen för att hämta URL:en **geoUnit**.
 1. Gör en GET-förfrågan på URL:en för att få mer information om den geografiska enheten.
 
 <br/>

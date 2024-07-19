@@ -38,13 +38,13 @@ Aktiviteten **[!UICONTROL Segmentation]** placeras vanligtvis efter målaktivite
 
 **Relaterade ämnen**
 
-* [Användningsfall: Segmentera profiler utifrån deras åldersgrupper](../../automating/using/segmentation-age-groups.md).
+* [Använd skiftläge: Segmentera profiler utifrån deras åldersgrupper](../../automating/using/segmentation-age-groups.md).
 
 ## Konfiguration {#configuration}
 
 1. Dra och släpp en **[!UICONTROL Segmentation]**-aktivitet i arbetsflödet.
 1. Markera aktiviteten och öppna den sedan med ![](assets/edit_darkgrey-24px.png)-knappen bland de snabbåtgärder som visas.
-1. I **[!UICONTROL General]** väljer du **[!UICONTROL Resource type]** som segmenteringen ska genomföras på:
+1. På fliken **[!UICONTROL General]** väljer du **[!UICONTROL Resource type]** som segmenteringen ska utföras på:
 
    * **[!UICONTROL Database resource]** om segmenteringen utförs på data som redan finns i databasen. Markera **[!UICONTROL Filtering dimension]** beroende på vilka data du vill segmentera. Som standard segmenteras **profilerna**.
    * **[!UICONTROL Temporary resource]** Om segmenteringen utförs på arbetsflödets tillfälliga data, markera den **[!UICONTROL Targeted set]** som innehåller den datan som ska segmenteras.  Detta kan inträffa när du har importerat en fil eller när data i databasen har berikats.
@@ -61,7 +61,7 @@ Aktiviteten **[!UICONTROL Segmentation]** placeras vanligtvis efter målaktivite
    * **[!UICONTROL Limit segment population]**: använder du för att begränsa storleken på segmentet.
    * **[!UICONTROL Filter and limit segment population]**: här kan du filtrera populationen av segmentet och begränsa dess storlek.
    * **[!UICONTROL Label]**: segmentets etikett.
-   * **[!UICONTROL Segment code]**: kod tilldelad segmentpopulationen. Segmentkoden kan anpassas med ett standarduttryck och händelsvariabler (se [den här sidan](../../automating/using/customizing-workflow-external-parameters.md)).
+   * **[!UICONTROL Segment code]**: Kod tilldelad segmentpopulationen. Segmentkoden kan anpassas med ett standarduttryck och händelsevariabler (se [den här sidan](../../automating/using/customizing-workflow-external-parameters.md)).
    * **[!UICONTROL Exclude segment from population]**: gör så att du kan utesluta det angivna segmentet från aktivitetens utgående population.  Det här alternativet kan endast användas om alternativet **[!UICONTROL Generate all segments in the same transition]** är markerat.
 
    ![](assets/wkf_segment_new_segment.png)
@@ -95,10 +95,10 @@ Aktiviteten **[!UICONTROL Segmentation]** placeras vanligtvis efter målaktivite
 1. Lägg till så många segment som behövs genom att upprepa steg 6 till 10.
 1. Redigera parametrarna i flik **[!UICONTROL Advanced options]** om det behövs:
 
-   * The **[!UICONTROL Enable overlapping of outbound populations]** anger hur profiler som tillhör flera segment ska hanteras:
-      * När alternativet inte är aktiverat visas **[!UICONTROL Segmentation]** aktivitetskontrollerar att en profil inte finns i flera utdataövergångar, även om den här profilen uppfyller villkoren för flera deluppsättningar.
+   * Alternativet **[!UICONTROL Enable overlapping of outbound populations]** definierar hur profiler som tillhör flera segment ska hanteras:
+      * När alternativet inte är aktiverat kontrollerar aktiviteten **[!UICONTROL Segmentation]** att en profil inte finns i flera utdataövergångar, även om den här profilen uppfyller villkoren för flera delmängder.
       * När alternativet är aktiverat kan profilerna hittas i flera deluppsättningar om de uppfyller filtervillkoren.
-   * Om den inkommande populationen redan har tilldelats en segmentkod som du vill behålla kontrollerar du **[!UICONTROL Concatenate the code of each segment]** alternativ. Segmentkoden som anges i aktiviteten läggs till i den inledande segmentkoden.
-   * Om du behöver utnyttja den återstående populationen ska du kontrollera **[!UICONTROL Generate complement]** alternativ. Se [Användningsfall: Skapa leveranser med ett komplement](../../automating/using/workflow-created-query-with-complement.md).
+   * Om den inkommande populationen redan har tilldelats en segmentkod som du vill behålla kontrollerar du alternativet **[!UICONTROL Concatenate the code of each segment]**. Segmentkoden som anges i aktiviteten läggs till i den inledande segmentkoden.
+   * Om du behöver utnyttja den återstående populationen kontrollerar du alternativet **[!UICONTROL Generate complement]**. Se [Använd skiftläge: Skapa leveranser med ett komplement](../../automating/using/workflow-created-query-with-complement.md).
 
 1. Bekräfta aktivitetens konfiguration och spara arbetsflödet.

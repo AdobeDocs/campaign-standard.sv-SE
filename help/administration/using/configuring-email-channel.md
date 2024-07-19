@@ -31,8 +31,8 @@ På skärmen för e-postkonfiguration kan du definiera parametrar för e-postkan
 
    * Både avsändar- och feladresser konfigureras av Adobe. Dessa fält får inte vara tomma.
    * Du kan inte redigera dessa fält. Om du vill uppdatera en adress kontaktar du Adobes kundtjänstteam.
-   * Om du vill lägga till ytterligare en adress kan du använda [Kampanjkontrollpanelen](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=sv) om du vill konfigurera en ny underdomän, eller kontakta kundtjänstteamet på Adobe. Observera att om flera masker används avgränsas de med kommatecken.
-   * Det är en god vana att ange adresser med en stjärna som **@yourdomain.com**: du kan använda alla adresser som slutar med ditt underdomännamn.
+   * Om du vill lägga till en till adress kan du använda [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=sv) för att konfigurera en ny underdomän, eller kontakta kundtjänstteamet på Adobe. Observera att om flera masker används avgränsas de med kommatecken.
+   * Det är en god vana att ange adresser med en stjärna som **@dindomän.com**: du kan använda alla adresser som slutar med ditt underdomännamn.
 
 * **levererbarhet**
 
@@ -43,7 +43,7 @@ På skärmen för e-postkonfiguration kan du definiera parametrar för e-postkan
 
   Adobe Campaign skickar meddelanden som börjar på startdatumet.
 
-  När ett meddelande i en leverans avvisas på grund av ett tillfälligt fel eller ett mjukt avhopp, försöker Campaign att skicka det här meddelandet varje dag. Använd **[!UICONTROL Message delivery duration]** för att ange tidsramen när nya försök kan göras.
+  När ett meddelande i en leverans avvisas på grund av ett tillfälligt fel eller ett mjukt avhopp, försöker Campaign att skicka det här meddelandet varje dag. Använd fältet **[!UICONTROL Message delivery duration]** för att ange tidsramen när försök kan göras.
 
   >[!IMPORTANT]
   >
@@ -57,7 +57,7 @@ På skärmen för e-postkonfiguration kan du definiera parametrar för e-postkan
 
   >[!IMPORTANT]
   >
-  >Det maximala antalet återförsök och den minsta fördröjningen mellan återförsök baseras nu på hur bra en IP fungerar både historiskt och för närvarande på en viss domän. The **[!UICONTROL Retry period]** och **[!UICONTROL Number of retries]** inställningarna i Campaign ignoreras.
+  >Det maximala antalet återförsök och den minsta fördröjningen mellan återförsök baseras nu på hur bra en IP fungerar både historiskt och för närvarande på en viss domän. Inställningarna **[!UICONTROL Retry period]** och **[!UICONTROL Number of retries]** i Campaign ignoreras.
 
   <!--This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**). By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.-->
 
@@ -90,7 +90,7 @@ Administratörer **[!UICONTROL Email processing rules]** kan komma åt informati
 >
 >E-postdomänerna och MX-reglerna hanteras nu automatiskt<!--by the Adobe Campaign Enhanced MTA (Message Transfer Agent)--> och kan inte ändras.
 
-* **DKIM (DomainKeys Identified Mail)** Signering med e-postautentisering utförs för alla meddelanden med alla domäner. Den signerar inte med **Avsändarens ID**, **DomainKeys**, eller **S/MIME**.
+* **DKIM (DomainKeys Identified Mail)** Signering för e-postautentisering utförs för alla meddelanden med alla domäner. Den signerar inte med **avsändar-ID**, **DomainKeys** eller **S/MIME**.
 * MX-reglerna anpassar automatiskt ditt dataflöde efter domän baserat på ditt eget tidigare anseende och på feedback i realtid från de domäner du skickar e-post till.
 
 <!--Note that the email domains and the MX rules are now managed by the Adobe Campaign Enhanced MTA:
@@ -145,9 +145,9 @@ Identifiera e-postmeddelandet med hjälp av fälten **[!UICONTROL Label]** och *
 >
 >ID måste vara unikt.
 
-Använd **[!UICONTROL Brand]** för att välja det varumärke som är kopplat till leveransen. Mer information om hur du använder och konfigurerar varumärken finns i avsnittet [Varumärke](../../administration/using/branding.md).
+Använd fältet **[!UICONTROL Brand]** för att välja det varumärke som är länkat till leveransen. Mer information om hur du använder och konfigurerar varumärken finns i avsnittet [Varumärke](../../administration/using/branding.md).
 
-I **[!UICONTROL Campaign]** anger du kampanjen som är kopplad till e-postmeddelandet.
+I fältet **[!UICONTROL Campaign]** anger du kampanjen som är associerad med e-postmeddelandet.
 
 Du kan också lägga till en **[!UICONTROL Description]** i motsvarande fält och redigera bilden som visas på e-postminiatyrbilden i listorna.
 
@@ -161,7 +161,7 @@ Försök att skicka tillfälligt olevererade meddelanden kan utföras automatisk
 
 >[!IMPORTANT]
 >
->Den minsta fördröjningen mellan återförsök och det maximala antalet återförsök som ska utföras baseras nu på hur bra en IP fungerar både historiskt och för närvarande på en viss domän. The **[!UICONTROL Retry period]** och **[!UICONTROL Max. number of retries]** inställningarna i Campaign ignoreras.
+>Den minsta fördröjningen mellan återförsök och det maximala antalet återförsök som ska utföras baseras nu på hur bra en IP fungerar både historiskt och för närvarande på en viss domän. Inställningarna **[!UICONTROL Retry period]** och **[!UICONTROL Max. number of retries]** i Campaign ignoreras.
 
 Inställningen för **leveranstid** (som definieras i avsnittet [Parametrar för giltighetsperiod](#validity-period-parameters)) som **har konfigurerats i Campaign gäller fortfarande, men bara upp till 3,5 dagar**. Då tas alla meddelanden i kön för nya försök bort och skickas tillbaka som en studsning. Mer information om leveransfel finns i det här [avsnittet](../../sending/using/understanding-delivery-failures.md#about-delivery-failures).
 
@@ -180,7 +180,7 @@ Du kan konfigurera formatet för e-postmeddelanden som ska skickas. Det finns tr
 
 #### SMTP-testläge {#smtp-test-mode}
 
-Använd **[!UICONTROL Enable SMTP test mode]** möjlighet att testa att skicka e-postmeddelanden via en SMTP-anslutning utan att faktiskt skicka meddelanden. Leveransen behandlas upp till anslutning till SMTP-servern men skickas inte: För varje mottagare av leveransen ansluter Campaign till SMTP-providerservern, kör SMTP RCPT TO-kommandot och stänger anslutningen före SMTP DATA-kommandot.
+Använd alternativet **[!UICONTROL Enable SMTP test mode]** om du vill testa att skicka e-postmeddelanden via en SMTP-anslutning utan att skicka meddelanden. Leveransen behandlas upp till anslutning till SMTP-servern men skickas inte: För varje mottagare av leveransen ansluter Campaign till SMTP-providerservern, kör SMTP RCPT TO-kommandot och stänger anslutningen före SMTP DATA-kommandot.
 
 ![](assets/smtp-test-mode.png)
 
@@ -211,7 +211,7 @@ Avsnittet **[!UICONTROL Validity period]** innehåller följande parametrar:
 
   >[!IMPORTANT]
   >
-  >**Du måste definiera ett värde på upp till 3,5 dagar.** Om du anger ett värde som är högre än 3,5 dagar beaktas det inte.
+  >**Du måste definiera ett värde på upp till 3,5 dagar.** Om du anger ett värde som är högre än 3,5 dagar kommer det inte att beaktas.
   >
   >Parametern **[!UICONTROL Delivery duration]** gäller inte för transaktionsmeddelanden. Mer information om transaktionsmeddelanden finns i [det här avsnittet](../../channels/using/getting-started-with-transactional-msg.md).
 
@@ -272,11 +272,11 @@ Förberedelse av meddelanden beskrivs i avsnittet [Godkänna meddelanden](../../
   >
   >Typologier, som du kommer åt via menyn **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]**, presenteras i [det här avsnittet](../../sending/using/about-typology-rules.md).
 
-* **[!UICONTROL Compute the label during delivery preparation]**: använd det här alternativet för att beräkna e-postens etikettvärde under meddelandeförberedelsefasen med hjälp av anpassningsfält, innehållsblock och dynamisk text.
+* **[!UICONTROL Compute the label during delivery preparation]**: använd det här alternativet för att beräkna etikettvärdet för e-postmeddelandet under meddelandeförberedelsefasen med hjälp av anpassningsfält, innehållsblock och dynamisk text.
 
   Det går också att anpassa leveransetiketten med händelsevariabler som har deklarerats i arbetsflödets externa signalaktivitet. Mer information om detta hittar du i [det här avsnittet](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
-* **[!UICONTROL Save SQL queries in the log]**: använd det här alternativet för att lägga till SQL-frågeloggar i journalen under förberedelsefasen.
+* **[!UICONTROL Save SQL queries in the log]**: Använd det här alternativet om du vill lägga till SQL-frågeloggar i journalen under förberedelsefasen.
 
 #### Korrekturinställningar {#proof-settings}
 
@@ -294,19 +294,19 @@ Avsnittet **[!UICONTROL SMTP]** innehåller följande parametrar:
   >
   >Tillägg av ett skript för att infoga ytterligare SMTP-rubriker är reserverat för avancerade användare. Syntaxen för det här skriptet måste uppfylla kraven för den här innehållstypen: Inget oanvänt utrymme, ingen tom rad, o.s.v.
 
-  Från och med 1 juni 2024 kommer Google och Yahoo! kräver att avsändarna följer **One-Click List-Unsubscribe**. Campaign har stöd för den här funktionen när det gäller leveransmallar.
+  Från och med 1 juni 2024 kommer Google och Yahoo! kommer att kräva att avsändare följer **One-Click List-Unsubscribe**. Campaign har stöd för den här funktionen när det gäller leveransmallar.
 
-  Tillämpa **One-Click List-Unsubscribe** för alla e-postleveranser som inte är mallbaserade måste du köra **[!UICONTROL Copy headers from delivery templates]** tekniskt arbetsflöde. [Läs mer](technical-workflows.md)
+  Om du vill använda **En-klickning-Avbeställ** för alla e-postleveranser som inte är mallbaserade måste du köra det tekniska arbetsflödet för **[!UICONTROL Copy headers from delivery templates]**. [Läs mer](technical-workflows.md)
 
   >[!CAUTION]
   >
-  >Om du ändrar rubrikvärdet i **[!UICONTROL Additional SMTP headers]** av dina e-postmallar kan det bryta mot **One-Click List-Unsubscribe** krav från Google och Yahoo!
+  >Om du ändrar rubrikvärdet i **[!UICONTROL Additional SMTP headers]** för dina e-postmallar kan det bryta kompatibiliteten med **One-Click List-Unsubscribe** -kravet från Google och Yahoo!.
 
 ### Lista över åtkomstauktoriseringsparametrar {#list-of-access-authorization-parameters}
 
 Avsnittet **[!UICONTROL Access authorization]** innehåller följande parametrar:
 
-* The **[!UICONTROL Organizational unit]** fältet används för att begränsa åtkomsten till det här e-postmeddelandet till vissa användare. De användare som är associerade med den angivna enheten eller överordnade enheter har läs- och skrivåtkomst till det här e-postmeddelandet. Användare som är associerade med underordnade enheter har endast läsåtkomst till det här e-postmeddelandet.
+* Fältet **[!UICONTROL Organizational unit]** används för att begränsa åtkomsten till det här e-postmeddelandet till vissa användare. De användare som är associerade med den angivna enheten eller överordnade enheter har läs- och skrivåtkomst till det här e-postmeddelandet. Användare som är associerade med underordnade enheter har endast läsåtkomst till det här e-postmeddelandet.
 
   >[!NOTE]
   >
@@ -316,35 +316,35 @@ Avsnittet **[!UICONTROL Access authorization]** innehåller följande parametrar
 
 ## Äldre inställningar {#legacy-settings}
 
-Om du **NOT** om du kör den senaste versionen av Campaign gäller fortfarande de parametrar och gränssnittsavsnitt som beskrivs nedan för dig.
+Om du **INTE** kör den senaste versionen av Campaign gäller fortfarande de parametrar och gränssnittsavsnitt som beskrivs nedan för dig.
 
 ### Försök igen {#legacy-retries}
 
-The **[!UICONTROL Retries]** inställningarna i [Konfigurationsmeny](#email-channel-parameters) och i [Skickar parametrar](#retries-parameters) av e-postegenskaperna anger hur många försök som ska utföras dagen efter att sändningen har startats (**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**) och minsta fördröjning mellan återförsök (**[!UICONTROL Retry period]**).
+Inställningarna **[!UICONTROL Retries]** på [Konfigurationsmenyn](#email-channel-parameters) och i [ Skicka-parametrar](#retries-parameters) för e-postegenskaperna anger hur många försök som ska utföras dagen efter att sändningen har startats (**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**) och den minsta fördröjningen mellan försök (**[!UICONTROL Retry period]**).
 
 Antalet försök kan ändras globalt (kontakta den tekniska administratören för Adobe) eller för varje leverans- eller leveransmall.
 
-Som standard schemaläggs fem återförsök till den första dagen med ett minsta intervall på en timme, som sprids ut över dygnets 24 timmar. Ett nytt försök per dag planeras efter detta och fram till leveransdatumet, som definieras globalt i **[!UICONTROL Delivery parameters]** i **[!UICONTROL Configuration]** eller på **[!UICONTROL Validity period]** på leveransnivå (se [Leveransens varaktighet](#legacy-delivery-duration) nedan).
+Som standard schemaläggs fem återförsök till den första dagen med ett minsta intervall på en timme, som sprids ut över dygnets 24 timmar. Ett nytt försök per dag programmeras efter detta och fram till leveransdatumet, som definieras globalt i avsnittet **[!UICONTROL Delivery parameters]** på **[!UICONTROL Configuration]**-menyn, eller i avsnittet **[!UICONTROL Validity period]** på leveransnivån (se avsnittet [ Leveranstid ](#legacy-delivery-duration) nedan).
 
 ### Leveransens varaktighet {#legacy-delivery-duration}
 
-Använd **[!UICONTROL Message delivery duration]** -parametern i [Konfigurationsmeny](#email-channel-parameters) för att ange den tidsram inom vilken ett meddelande i leveransen som påträffar ett tillfälligt fel eller en mjuk avhoppning kommer att provas igen.
+Använd parametern **[!UICONTROL Message delivery duration]** på [konfigurationsmenyn](#email-channel-parameters) för att ange den tidsram i vilken ett meddelande i leveransen som påträffar ett tillfälligt fel eller en mjuk avhoppning kommer att provas igen.
 
-Använd **[!UICONTROL Delivery duration]** eller **[!UICONTROL Validity limit for sending messages]** -parametern i [Giltighetsperiodens parametrar](#validity-period-parameters) för att ange hur länge meddelanden kan skickas.
+Använd parametern **[!UICONTROL Delivery duration]** eller **[!UICONTROL Validity limit for sending messages]** i avsnittet [Giltighetsperiodens parametrar](#validity-period-parameters) för att ange den varaktighet under vilken meddelanden kan skickas.
 
 ### Regler för e-postbearbetning {#legacy-email-processing-rules}
 
-The **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** och **[!UICONTROL Domain management]** regler kan nås och ändras av administratörer via **[!UICONTROL Administration > Channels > Email > Email processing rules]** -menyn. [Läs mer](#email-processing-rules)
+Reglerna **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** och **[!UICONTROL Domain management]** kan nås och ändras av administratörer via menyn **[!UICONTROL Administration > Channels > Email > Email processing rules]**. [Läs mer](#email-processing-rules)
 
 ### E-poststudsar {#legacy-bounce-mail-qualification}
 
-Om du vill visa de olika gränserna och deras associerade feltyper och orsaker klickar du på knappen **Adobe** logotyp, i det övre vänstra hörnet och välj **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
+Klicka på logotypen **Adobe** högst upp till vänster och välj sedan **[!UICONTROL Administration > Channels > Quarantines > Message qualification]** om du vill visa en lista över de olika gränserna och deras associerade feltyper och orsaker.
 
 Satser kan ha följande kvalificeringsstatusar:
 
-* **[!UICONTROL To qualify]**: studsposten måste kvalificeras. Kvalificering måste utföras av Deliverability-teamet för att säkerställa att plattformens leveransbarhet fungerar korrekt. Så länge som det inte är kvalificerat används studsmeddelandet inte för att utöka listan med regler för e-postbearbetning.
-* **[!UICONTROL Keep]**: studsmeddelandet har kvalificerats och kommer att användas av **Uppdatering för leverans** arbetsflöde som ska jämföras med befintliga regler för e-postbearbetning och berika listan.
-* **[!UICONTROL Ignore]**: studsmeddelandet kvalificerades men kommer inte att användas av **Uppdatering för leverans** arbetsflöde. Det skickas alltså inte till klientinstanserna.
+* **[!UICONTROL To qualify]**: studsmeddelandet måste kvalificeras. Kvalificering måste utföras av Deliverability-teamet för att säkerställa att plattformens leveransbarhet fungerar korrekt. Så länge som det inte är kvalificerat används studsmeddelandet inte för att utöka listan med regler för e-postbearbetning.
+* **[!UICONTROL Keep]**: studsmeddelandet har kvalificerats och kommer att användas av arbetsflödet **Uppdatera för leverans** som ska jämföras med befintliga regler för e-postbearbetning och berika listan.
+* **[!UICONTROL Ignore]**: studsmeddelandet kvalificerades men kommer inte att användas av arbetsflödet **Uppdatera för leverans**. Det skickas alltså inte till klientinstanserna.
 
 >[!NOTE]
 >
@@ -354,6 +354,6 @@ Satser kan ha följande kvalificeringsstatusar:
 
 ### Levererad indikatorrapportering {#legacy-delivered-status-report}
 
-I **[!UICONTROL Summary]** för varje meddelande, **[!UICONTROL Delivered]** Procentandelen ökar stegvis under hela leveransens giltighetsperiod, när mjuka och hårda studsar rapporteras tillbaka.
+I vyn **[!UICONTROL Summary]** för varje meddelande ökar procentandelen **[!UICONTROL Delivered]** stegvis under hela giltighetsperioden för leveransen, allt eftersom mjuka och hårda studsar rapporteras tillbaka.
 
-Mjuka studsmeddelanden visas som **[!UICONTROL Failed]** första dagen efter leveransen. Dessa meddelanden provas igen varje dag tills giltighetsperioden för leveransen är slut.
+Mjuka studsmeddelanden visas som **[!UICONTROL Failed]** första dagen efter leveransen. Dessa meddelanden provas igen varje dag tills giltighetsperioden för leveransen är slut.

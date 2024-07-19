@@ -1,6 +1,6 @@
 ---
-title: Vanliga frågor om e-postdesignern
-description: Frågor och svar om e-postdesignern.
+title: Skicka e-post till Designer Frågor och svar
+description: Frågor och svar om e-post-Designer.
 audience: designing
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 ---
 
-# Vanliga frågor om e-postdesignern
+# Skicka e-post till Designer Frågor och svar
 
 ## Vad är skillnaden mellan innehållsblock och innehållsfragment?
 
@@ -23,7 +23,7 @@ Innehållsblock och innehållsfragment är delar av återanvändbart innehåll s
 
 * Innehållsblock är rena HTML där HTML-kod infogas manuellt (användarvänligt gränssnitt, det är direktkällkod). Även om programmet verkligen riktar sig till personer med kunskap om HTML kan personalisering inte ske i innehållsfragment.
 
-* Innehållsfragment är visuellt innehåll som skapas via e-postdesignern med hjälp av det användarvänliga användargränssnittet. Det går dock inte att anpassa innehållet. Om personalisering krävs kan det bara göras via innehållsblock.
+* Innehållsfragment är visuellt innehåll som skapas via e-post-Designer med hjälp av det användarvänliga användargränssnittet. Det går dock inte att anpassa innehållet. Om personalisering krävs kan det bara göras via innehållsblock.
 
 ## Hur lägger jag till utfyllnad till ett element från strukturen HTML?
 
@@ -37,9 +37,9 @@ Du kan lägga till utfyllnad med hjälp av HTML breadcrumb.
 1. Klicka på den överordnade taggen i HTML.
 Du kan nu lägga till en utfyllnad till det här elementet.
 
-## Kan jag importera HTML i e-postdesignern?
+## Kan jag importera HTML-innehåll i e-post-Designer?
 
-Du kan överföra ditt eget HTML-innehåll till e-postdesignern. Om det inte har skapats med e-postdesignern läses det in i kompatibilitetsläge som har utformats för att behålla den ursprungliga HTML men begränsar vissa utgåvefunktioner via användargränssnittet.
+Du kan överföra ditt eget HTML-innehåll till e-postDesigner. Om det inte har skapats via e-post-Designer läses det in i kompatibilitetsläge, som har utformats för att behålla din ursprungliga HTML, men begränsar vissa utgåvefunktioner via användargränssnittet.
 
 Mer information finns i [Kompatibilitetsläge](../../designing/using/using-existing-content.md#compatibility-mode)
 
@@ -54,13 +54,13 @@ Mer information finns i [Skapa ett e-postmeddelande från grunden](../../designi
 
 E-postdesignern förbättras kontinuerligt. Om du har skapat ett e-postinnehåll från grunden, från en mall som inte är klar att användas eller om du har skapat fragment, kan du behöva uppdatera innehållet till den senaste versionen för att undvika problem som CSS-kollisionsproblem.
 
-Mer information finns i [Uppdaterar fragment](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)
+Mer information finns i [Uppdatera fragment](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)
 
 ## Kan jag spara format i ett tema?
 
 Det går inte att spara format som ett tema för framtida återanvändning. CSS-formatet kan dock sparas i en innehållsmall eller i ett e-postmeddelande.
 
-Mer information finns i [Stilar](../../designing/using/styles.md)
+Mer information finns i [Format](../../designing/using/styles.md)
 
 ## Vilka teckensnitt finns?
 

@@ -17,7 +17,7 @@ ht-degree: 12%
 
 # Hämta en profils organisationsenhet {#retrieving-organizational-units}
 
-1. Utför en GET-förfrågan på profilen PKey för att hämta **orgUnit** URL.
+1. Utför en GET-begäran på PKey-profilen för att hämta URL:en **orgUnit**.
 1. Gör en GET-förfrågan på URL:en för att få mer information om organisationsenheten.
 
 <br/>

@@ -16,15 +16,15 @@ ht-degree: 5%
 
 # Om inställningar i Campaign Standard{#about-campaign-standard-settings}
 
-[!DNL Campaign] Standard levereras med olika programelement som kan konfigureras efter dina behov. Du kan till exempel:
+[!DNL Campaign] Standard innehåller olika programelement som kan konfigureras för att passa dina behov. Du kan till exempel:
 
 * Konfigurera externa konton,
 * Konfigurera målmappningar för att hantera de tekniska inställningar som krävs för att skicka leveranser,
 * Ställ in interna meddelanden i programmet osv.
 
-De här inställningarna är tillgängliga i **[!UICONTROL Administration]** / **[!UICONTROL Application settings]** -menyn.
+De här inställningarna är tillgängliga på menyn **[!UICONTROL Administration]** / **[!UICONTROL Application settings]**.
 
-Dessutom finns tekniska alternativ i **[!UICONTROL Options]** så att du kan konfigurera programmet mer specifikt. Vissa av dem är inbyggda när du installerar Campaign, och andra kan läggas till manuellt när det behövs (tillgängliga alternativ varierar beroende på vilka paket som installeras med instansen).
+Dessutom finns det tekniska alternativ på menyn **[!UICONTROL Options]** som gör att du kan konfigurera programmet mer specifikt. Vissa av dem är inbyggda när du installerar Campaign, och andra kan läggas till manuellt när det behövs (tillgängliga alternativ varierar beroende på vilka paket som installeras med instansen).
 
 >[!IMPORTANT]
 >

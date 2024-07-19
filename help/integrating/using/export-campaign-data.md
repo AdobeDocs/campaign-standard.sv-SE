@@ -17,7 +17,7 @@ ht-degree: 4%
 
 Om du vill exportera Campaign Standard data till Adobe Real-time Customer Data Platform (RTCDP) måste du först skapa ett arbetsflöde i Campaign Standard för att kunna exportera de data du vill dela till din Amazon-lagringstjänst (S3) eller Azure Blob-lagringsplats.
 
-När arbetsflödet har konfigurerats och data har skickats till din lagringsplats måste du ansluta din S3- eller Azure-blob-lagringsplats som en **Källa** i Adobe Experience Platform.
+När arbetsflödet har konfigurerats och data har skickats till din lagringsplats måste du ansluta din S3- eller Azure-blobblagringsplats som en **Source** i Adobe Experience Platform.
 
 >[!NOTE]
 >
@@ -29,11 +29,11 @@ Om du vill exportera data från Campaign Standard till din S3- eller Azure Blob-
 
 Lägg till och konfigurera:
 
-* A **[!UICONTROL Extract file]** -aktivitet för att extrahera måldata till en CSV-fil. Mer information om hur du konfigurerar den här aktiviteten finns i [det här avsnittet](../../automating/using/extract-file.md).
+* En **[!UICONTROL Extract file]**-aktivitet som extraherar måldata till en CSV-fil. Mer information om hur du konfigurerar den här aktiviteten finns i [det här avsnittet](../../automating/using/extract-file.md).
 
   ![](assets/rtcdp-extract-file.png)
 
-* A **[!UICONTROL Transfer file]** -aktivitet för att överföra CSV-filen till lagringsplatsen. Mer information om hur du konfigurerar den här aktiviteten finns i [det här avsnittet](../../automating/using/transfer-file.md).
+* En **[!UICONTROL Transfer file]**-aktivitet som överför CSV-filen till din lagringsplats. Mer information om hur du konfigurerar den här aktiviteten finns i [det här avsnittet](../../automating/using/transfer-file.md).
 
   ![](assets/rtcdp-transfer-file.png)
 
@@ -41,7 +41,7 @@ Arbetsflödet nedan extraherar till exempel regelbundet loggar in i en CSV-fil o
 
 ![](assets/aep-export.png)
 
-Exempel på arbetsflöden för datahantering finns i [arbetsflöden använder exempel](../../automating/using/about-workflow-use-cases.md#management) -avsnitt.
+Exempel på arbetsflöden för datahantering finns i avsnittet [arbetsflöden använder fall](../../automating/using/about-workflow-use-cases.md#management).
 
 Relaterade ämnen:
 
@@ -49,11 +49,11 @@ Relaterade ämnen:
 * [Om import och export av data](../../automating/using/about-data-import-and-export.md)
 
 
-## Anslut lagringsplatsen som en källa
+## Anslut lagringsplatsen som en Source
 
-De viktigaste stegen för att ansluta din Amazon Storage Service (S3) eller Azure Blob-lagringsplats som en **Källa** i Adobe Experience Platform listas nedan. Detaljerad information om varje steg finns i [Dokumentation för källkopplingar](https://experienceleague.adobe.com/docs/experience-platform/sources/home.htmll?lang=sv).
+De viktigaste stegen för att ansluta din Amazon Storage Service (S3) eller Azure Blob-lagringsplats som **Source** i Adobe Experience Platform anges nedan. Detaljerad information om de här stegen finns i [Source Connectors-dokumentationen](https://experienceleague.adobe.com/docs/experience-platform/sources/home.htmll?lang=sv).
 
-1. I Adobe Experience Platform **[!UICONTROL Sources]** skapar du en anslutning till lagringsplatsen:
+1. Skapa en anslutning till din lagringsplats på Adobe Experience-plattformen **[!UICONTROL Sources]**:
 
    * [Skapa en Amazon S3-källanslutning](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html)
    * [Azure Blob-koppling](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob.html)
@@ -66,10 +66,10 @@ De viktigaste stegen för att ansluta din Amazon Storage Service (S3) eller Azur
 
 1. Konfigurera ett dataflöde för en batchanslutning till molnlagring. Ett dataflöde är en schemalagd aktivitet som hämtar och importerar data från lagringsplatsen till en Adobe Experience Platform-datauppsättning. Med det här steget kan du konfigurera datainmatningen från lagringsplatsen, inklusive dataval och mappning av CSV-fälten till ett XDM-schema.
 
-   Detaljerad information finns i [den här sidan](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/cloud-storage.html).
+   Detaljerad information finns på [den här sidan](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/cloud-storage.html).
 
    ![](assets/rtcdp-map-xdm.png)
 
-1. När källan har konfigurerats importerar Adobe Experience Platform filen från lagringsplatsen som du angav.
+1. När Source har konfigurerats kommer Adobe Experience Platform att importera filen från lagringsplatsen som du angav.
 
    Den här åtgärden kan schemaläggas efter dina behov. Vi rekommenderar att du exporterar upp till 6 gånger per dag, beroende på vilken belastning som redan finns på instansen.

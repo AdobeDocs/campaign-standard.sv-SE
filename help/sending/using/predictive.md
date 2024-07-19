@@ -23,11 +23,11 @@ Med Campaign kan du optimera designen och leveransen av kundresor för att föru
 >
 >Den här funktionen är inte tillgänglig som en del av produkten. För implementering krävs att Adobe Consulting används. Kontakta din Adobe-representant för mer information.
 
-Adobe Campaign erbjuder två nya Machine Learning-modeller: **Prediktiv optimering av sändningstid** och **Poängberäkning för prediktiv engagemang**. Dessa två modeller är maskininlärningsmodeller som är specifika för att designa och leverera bättre kundresor.
+Adobe Campaign erbjuder två nya maskininlärningsmodeller: **Predictive Send Time Optimization** och **Predictive Engagement Scoring**. Dessa två modeller är maskininlärningsmodeller som är specifika för att designa och leverera bättre kundresor.
 
-* **Prediktiv optimering av sändningstid** anger vilken som är den bästa sändningstiden för varje mottagarprofil för e-postöppningar eller -klick och för push-meddelanden-öppningar. För varje mottagarprofil anger poängen den bästa sändningstiden för varje veckodag och vilken veckodag som är bäst att använda för bästa resultat.
+* **Prediktiv optimering av sändningstid** förutsäger vilken som är den bästa sändningstiden för varje mottagarprofil för e-postöppningar eller -klick och för push-meddelanden-öppning. För varje mottagarprofil anger poängen den bästa sändningstiden för varje veckodag och vilken veckodag som är bäst att använda för bästa resultat.
 
-* **Prediktiv poängsättning av engagemang**: anger sannolikheten för att en mottagare ska få ett meddelande samt sannolikheten för att avanmäla sig inom 7 dagar efter nästa e-postutskick. Sannolikheten för detta delas upp ytterligare i grupper efter den förväntade nivån av engagemang med ert innehåll: högt, medelhögt eller lågt. Dessa modeller ger också en percentil för avbruten risk för kunderna för att förstå var en viss kunds rangordning är i förhållande till andra.
+* **Prediktiv poängsättning för engagemang**: förutsäger sannolikheten för att en mottagare engagerar sig i ett meddelande samt sannolikheten för att avanmäla sig (avbryta prenumerationen) inom 7 dagar efter nästa e-postmeddelande. Sannolikheten för detta delas upp ytterligare i grupper efter den förväntade nivån av engagemang med ert innehåll: högt, medelhögt eller lågt. Dessa modeller ger också en percentil för avbruten risk för kunderna för att förstå var en viss kunds rangordning är i förhållande till andra.
 
 ## Prediktiv optimering av sändningstid{#predictive-send-time}
 
@@ -35,7 +35,7 @@ Med prediktiv optimering av sändningstid förutspås vilken som är den bästa 
 
 I modellen Predictive Send-Time Optimization finns det två undermodeller:
 
-* **Prediktiv sändningstid för öppning** är den bästa tidpunkten då ett meddelande måste skickas till kunden för att maximera öppnandet
+* **Prediktiv sändningstid för öppna** är den bästa tidpunkten då ett meddelande måste skickas till kunden för att maximera öppningar
 
 * **Prediktiv sändningstid för klickning** är den bästa tidpunkten då ett meddelande måste skickas till kunden för att maximera klickningarna
 
@@ -110,14 +110,14 @@ Sannolikheten för detta delas upp ytterligare i grupper efter den förväntade 
 Predictive Engagement Scoring:
 
 * **Välj en målgrupp**: genom att använda frågeaktivitet kan du välja vilken målgrupp som ska interagera med ett visst meddelande
-* **Uteslut en målgrupp**: genom att använda frågeaktivitet kan du ta bort den målgrupp som troligen kommer att avbryta prenumerationen
-* **Anpassa**: personalisera meddelanden baserat på nivå av engagemang (mycket engagerade användare får ett annat budskap än oengagerade)
+* **Uteslut en målgrupp**: genom att använda frågeaktivitet kan du ta bort den målgrupp som troligtvis kommer att avsluta prenumerationen
+* **Anpassa**: personalisera meddelanden baserat på nivå av engagemang (mycket engagerade användare får ett annat meddelande än oengagerade)
 
 I den här modellen används flera olika poäng för att ange:
 
 * **Engagemangsbedömning per öppning/engagemangsbedömning per klick**: det här värdet matchar sannolikheten för att en prenumerant ska interagera med ett visst meddelande (öppna eller klicka). Värdena kan ligga mellan 0,0 och 1,0.
 * **Sannolikheten att avbryta prenumerationen**: det här värdet matchar sannolikheten för att mottagaren avbeställer e-postkanalen när ett e-postmeddelande öppnas. Värdena kan ligga mellan 0,0 och 1,0.
-* **Bevarandenivå**: det här värdet rankar användare på tre nivåer: låg, medel och hög. Högt värde är mest sannolikt att stanna kvar hos varumärket och lågt värde är mest sannolikt att avbryta prenumerationen.
+* **Kvarhållningsnivå**: det här värdet rankar användare i tre nivåer: låg, medel och hög. Högt värde är mest sannolikt att stanna kvar hos varumärket och lågt värde är mest sannolikt att avbryta prenumerationen.
 * **Procentuell rangordning för kvarhållning**: profilrangordning beträffande sannolikheten att avbryta prenumerationen. Värdena kan ligga mellan 0,0 och 1,0. Om kundlojaliteten till exempel är 0,953 stannar den här mottagaren troligtvis kvar med varumärket och är mindre benägen att avbryta prenumerationen än 95,3 % av alla mottagare.
 
 >[!NOTE]

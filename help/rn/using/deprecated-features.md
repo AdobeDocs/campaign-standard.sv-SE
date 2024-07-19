@@ -40,14 +40,14 @@ Kunder uppmanas att se över om de använder funktionen i den aktuella driftsät
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>SDK V4 för mobilappar</strong><br /> </th> 
+   <th> <strong>SDK V4 för mobilprogram</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Stödet för Adobe Experience Platform Mobile version 4 SDK upphör den 31 augusti 2021. Om du fortfarande använder den här äldre versionen av SDK i Adobe Campaign Standard måste du uppdatera implementeringen med Adobe Experience Platform SDK <strong>före utgången av juni 2024</strong>. </p></br>
-   <p>Läs <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">den här artikeln</a> om du vill lära dig hur ni kan anpassa er implementering och gå över till den senaste Experience Platform SDK-versionen.</p></br>
-   <p><strong>Varning</strong>: Stöd för SDK V4 kommer inte längre att finnas i Campaign Standarden från juni 2024.</p>
+   <td> <p>Stödet för Adobe Experience Platform Mobile version 4 SDK upphör den 31 augusti 2021. Om du fortfarande använder den här äldre versionen av SDK i Adobe Campaign Standard måste du uppdatera din implementering med Adobe Experience Platform SDK <strong>före slutet av juni 2024</strong>. </p></br>
+   <p>Läs <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">den här artikeln</a> om du vill veta hur du kan anpassa implementeringen och gå över till den senaste Experience Platform SDK-versionen.</p></br>
+   <p><strong>Varning</strong>: SDK V4 stöds inte längre i Campaign Standarden från juni 2024.</p>
   </td> 
   </tr> 
  </tbody> 
@@ -64,7 +64,7 @@ Kunder uppmanas att se över om de använder funktionen i den aktuella driftsät
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Från och med Campaign 19.0 är den gamla e-postredigeraren inaktuell. Använd <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">E-postdesigner för kampanj</a> för att skapa och personalisera ert e-postinnehåll. </p></br>
+   <td> <p>Från och med Campaign 19.0 är den gamla e-postredigeraren inaktuell. Använd <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campaign Email Designer</a> för att skapa och anpassa ditt e-postinnehåll. </p></br>
    <p>Läs <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">det här avsnittet</a> för att lära dig hur du anpassar e-postmallarna till den nya redigeraren.</p></br>
   </td> 
   </tr> 
@@ -92,7 +92,7 @@ Det här avsnittet visar funktioner som har tagits bort från Campaign Standard.
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Integrering med målgruppstjänst</strong><br /> </th> 
+   <th> <strong>Integrering med målgruppstjänsten</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -128,9 +128,9 @@ Det här avsnittet visar funktioner som har tagits bort från Campaign Standard.
  <tbody> 
   <tr> 
    <td> <p> Från och med Campaign 20.1 är SDK v4 föråldrat. Den har nu tagits bort. <a href="https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.htmlhtml?lang=sv">Läs mer</a>.</p><br/>
-   <p>The <a href="https://developer.adobe.com/client-sdks/documentation/">Adobe Experience Platform Mobile SDK</a> (tidigare kallat v5) har nu exklusivt stöd för kommande Adobe Experience Cloud-funktioner.</p>
+   <p><a href="https://developer.adobe.com/client-sdks/documentation/">Adobe Experience Platform Mobile SDK</a> (tidigare kallat v5) stöder nu endast kommande funktioner och funktioner i Adobe Experience Cloud.</p>
    <p>Efter den 31 augusti 2021 kan kunder fortsätta att hämta och använda version 4 SDK:er, men det finns ingen kundtjänst eller tillgång till forum.</p>
-   <p>Lär dig migrera från SDK v4 till Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">på den här sidan</a>.</p></br>
+   <p>Lär dig hur du migrerar från SDK v4 till Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">på den här sidan</a>.</p></br>
      </td> 
   </tr> 
  </tbody> 
@@ -144,7 +144,7 @@ Det här avsnittet visar funktioner som har tagits bort från Campaign Standard.
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Från och med Campaign version 21.2 är användningen av API och gränssnitt i Campaign för åtkomst och borttagning inaktuell. Borttagningen av en profil i två steg är inte längre tillgänglig. Använd <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">Adobe bastjänst för sekretess</a>.</p></br>
+   <td> <p>Från och med Campaign version 21.2 är användningen av API och gränssnitt i Campaign för åtkomst och borttagning inaktuell. Borttagningen av en profil i två steg är inte längre tillgänglig. Använd <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">Adobe sekretessbastjänst</a>.</p></br>
    <p>Se även <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html">Hantera förfrågan om användarens information</a>.</p>
   </td> 
   </tr> 
@@ -189,7 +189,7 @@ Det här avsnittet visar funktioner som har tagits bort från Campaign Standard.
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Creative SDK] har avvecklats. Som en följd av detta använder [!DNL Creative SDK] e-postmeddelanden med Campaign Standard är inte längre tillgängliga från och med Campaign 20.2.</p></br>
+   <td> <p>[!DNL Adobe Creative SDK] har avvecklats. Som en följd av detta är bildutgåvan som drivs av [!DNL Creative SDK] i e-postmeddelanden med Campaign Standard inte längre tillgänglig från och med Campaign 20.2.</p></br>
    </td> 
   </tr> 
  </tbody> 

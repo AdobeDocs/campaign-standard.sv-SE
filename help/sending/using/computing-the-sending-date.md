@@ -34,18 +34,18 @@ Du kan schemalägga detta med ett arbetsflöde.
 ![](assets/send-time_opt_workflow1.png)
 
 1. Få tillgång till listan över marknadsföringsaktiviteter och skapa ett nytt arbetsflöde. Se [Skapa ett arbetsflöde](../../automating/using/building-a-workflow.md#creating-a-workflow).
-1. Dra och släpp en **Fråga** -aktivitet i ditt arbetsflöde och öppna det. Se [Fråga](../../automating/using/query.md) -avsnitt.
-1. Välj en målgrupp, till exempel alla dina guldkunder och klicka på **[!UICONTROL Confirm]** för att spara frågan.
-1. Dra och släpp en **Segmentering** -aktivitet i ditt arbetsflöde och öppna det. Se [Segmentering](../../automating/using/segmentation.md) -avsnitt.
+1. Dra och släpp en **Query**-aktivitet i ditt arbetsflöde och öppna den. Se avsnittet [Fråga](../../automating/using/query.md).
+1. Välj en målgrupp, till exempel alla dina guldkunder, och klicka på **[!UICONTROL Confirm]** för att spara frågan.
+1. Dra och släpp en **segmenteringsaktivitet** i ditt arbetsflöde och öppna den. Se avsnittet [Segmentering](../../automating/using/segmentation.md).
 1. Definiera fem segment. För varje segment:
 
-   * Fyll i **[!UICONTROL Segment code]** fält: ange datum och tid för när meddelandet ska skickas manuellt.
+   * Fyll i fältet **[!UICONTROL Segment code]**: ange manuellt datum och tid för att skicka meddelandet.
 
      Du vill till exempel skicka den första gruppen den 1 juni kl. 10:00 GMT+1. Använd följande format: **`YYYY-MM-DD hh:mm:ss+tz`**.
 
      ![](assets/send-time_opt_segment_configuration.png)
 
-     Om du vill skicka nästa batch dagen efter anger du **2017-06-02 10:00:00+01** för det andra segmentet.
+     Om du vill skicka nästa grupp dagen efter anger du **2017-06-02 10:00:00+01** för det andra segmentet.
 
      För de återstående segmenten definierar du nästa grupp enligt följande:
 
@@ -53,37 +53,37 @@ Du kan schemalägga detta med ett arbetsflöde.
       * **2017-06-04 10:00:00+01**
       * **2017-06-05 10:00:00+01**
 
-   * Se till att du väljer **[!UICONTROL Limit the population of this segment]** alternativ.
+   * Se till att du väljer alternativet **[!UICONTROL Limit the population of this segment]**.
 
-     I **[!UICONTROL Limitation]** flik, välja **[!UICONTROL Random sampling]** och ange önskad procentandel för varje segment: 10 för den första gruppen, 15 för den andra och så vidare.
+     Välj **[!UICONTROL Random sampling]** på fliken **[!UICONTROL Limitation]** och ange önskad procentsats för varje segment: 10 för den första gruppen, 15 för den andra och så vidare.
 
      ![](assets/send-time_opt_segment_limitation.png)
 
-1. När alla segment är definierade väljer du **[!UICONTROL Generate all segments in the same transition]** och klicka **[!UICONTROL Confirm]**.
+1. När alla segment har definierats väljer du **[!UICONTROL Generate all segments in the same transition]** och klickar på **[!UICONTROL Confirm]**.
 
    ![](assets/send-time_opt_segment_dates.png)
 
-1. Dra och släpp en **E-postleverans** -aktivitet i ditt arbetsflöde och öppna det. Se [E-postleverans](../../automating/using/email-delivery.md) -avsnitt.
-1. Klicka på **[!UICONTROL Schedule]** i e-postkontrollpanelen och väljer **[!UICONTROL Messages to be sent automatically on the date specified below]**.
-1. I **[!UICONTROL Start sending from]** anger du ett kontaktdatum.
-1. I listrutan Tidsoptimering för sändning väljer du **[!UICONTROL Send at a custom date defined by a formula]**.
-1. Klicka på **[!UICONTROL Edit an expression]** knappen på **[!UICONTROL Custom date formula]** fält.
+1. Dra och släpp en **e-postleveransaktivitet** i ditt arbetsflöde och öppna den. Se avsnittet [E-postleverans](../../automating/using/email-delivery.md).
+1. Klicka på avsnittet **[!UICONTROL Schedule]** i e-postinstrumentpanelen och välj **[!UICONTROL Messages to be sent automatically on the date specified below]**.
+1. Ange ett kontaktdatum i fältet **[!UICONTROL Start sending from]**.
+1. Välj **[!UICONTROL Send at a custom date defined by a formula]** i listrutan Tidsoptimering för sändning.
+1. Klicka på knappen **[!UICONTROL Edit an expression]** i fältet **[!UICONTROL Custom date formula]**.
 
    ![](assets/send-time_opt_formula_define.png)
 
-1. Skapa följande uttryck med **[!UICONTROL ToDateTime]** -funktionen och **[!UICONTROL Segment code]** fält. Du kan även skriva direkt i uttrycket men se till att använda rätt syntax och stavning.
+1. Skapa följande uttryck med funktionen **[!UICONTROL ToDateTime]** och fältet **[!UICONTROL Segment code]**. Du kan även skriva direkt i uttrycket men se till att använda rätt syntax och stavning.
 
    ```
    ToDateTime([targetData/@segmentCode])
    ```
 
-   The **[!UICONTROL ToDateTime]** funktionen omformar segmentkoden från en textsträng till ett datum- och tidsvärde.
+   Funktionen **[!UICONTROL ToDateTime]** omformar segmentkoden från en textsträng till ett datum- och tidsvärde.
 
    Bekräfta uttrycket för att återgå till föregående skärm.
 
    ![](assets/send-time_opt_formula_define_segment.png)
 
-   I **[!UICONTROL Schedule]** fönstret visas den anpassade datumformeln enligt följande:
+   I fönstret **[!UICONTROL Schedule]** visas den anpassade datumformeln enligt följande:
 
    ```
    ToDateTime([targetData/@segmentCode])
@@ -110,53 +110,53 @@ Du kan schemalägga detta med ett arbetsflöde.
 ![](assets/send-time_opt_workflow2.png)
 
 1. Få tillgång till listan över marknadsföringsaktiviteter och skapa ett nytt arbetsflöde. Se [Skapa ett arbetsflöde](../../automating/using/building-a-workflow.md#creating-a-workflow).
-1. Dra och släpp en **Fråga** -aktivitet i ditt arbetsflöde och öppna det. Se [Fråga](../../automating/using/query.md) -avsnitt.
+1. Dra och släpp en **Query**-aktivitet i ditt arbetsflöde och öppna den. Se avsnittet [Fråga](../../automating/using/query.md).
 1. Välj en målgrupp, till exempel över 35 profiler, och klicka på **[!UICONTROL Confirm]** för att spara frågan.
-1. Dra och släpp en **Segmentering** -aktivitet i ditt arbetsflöde och öppna det. Se [Segmentering](../../automating/using/segmentation.md) -avsnitt.
+1. Dra och släpp en **segmenteringsaktivitet** i ditt arbetsflöde och öppna den. Se avsnittet [Segmentering](../../automating/using/segmentation.md).
 1. Definiera fyra segment. För varje segment:
 
    * Definiera segmentkoderna enligt följande:
 
-      * 08:00-10:00: **0**. Meddelandet skickas till målpopulationens första kvartal kl. 8.00 (kontaktdatum).
-      * 10:00-12:00: **2**. Meddelandet skickas till målpopulationens andra kvartal kl. 10.00 (kontaktdatum + 2 timmar).
-      * 2:00 PM - 17:00: **6**. Samtalscentret stängs mellan kl. 12.00 och kl. 2:00, och meddelandet skickas till målpopulationens tredje kvartal kl. 2:00 (kontaktdatum + 6 timmar).
-      * 4:00 PM - 18:00: **8**. Meddelandet skickas till målpopulationens sista kvartal kl. 17:00 (kontaktdatum + 8 timmar).
+      * 8:00-10:00: **0**. Meddelandet skickas till målpopulationens första kvartal kl. 8.00 (kontaktdatum).
+      * 10:00 - 12:00: **2**. Meddelandet skickas till målpopulationens andra kvartal kl. 10.00 (kontaktdatum + 2 timmar).
+      * 2:00 PM - 4:00 PM: **6**. Samtalscentret stängs mellan kl. 12.00 och kl. 2:00, och meddelandet skickas till målpopulationens tredje kvartal kl. 2:00 (kontaktdatum + 6 timmar).
+      * 4:00 PM - 6:00 PM: **8**. Meddelandet skickas till målpopulationens sista kvartal kl. 17:00 (kontaktdatum + 8 timmar).
 
      >[!NOTE]
      >
      >Kontaktdatumet definieras i e-postleveransaktiviteten senare i arbetsflödet.
 
-   * Se till att du väljer **[!UICONTROL Limit the population of this segment]** alternativ.
-   * I **[!UICONTROL Limitation]** flik, välja **[!UICONTROL Random sampling]** och ange önskad procentandel för varje segment: **25**.
+   * Se till att du väljer alternativet **[!UICONTROL Limit the population of this segment]**.
+   * Välj **[!UICONTROL Random sampling]** på fliken **[!UICONTROL Limitation]** och ange önskad procentsats för varje segment: **25**.
 
-1. När alla segment är definierade väljer du **[!UICONTROL Generate all segments in the same transition]** och klicka **[!UICONTROL Confirm]**.
+1. När alla segment har definierats väljer du **[!UICONTROL Generate all segments in the same transition]** och klickar på **[!UICONTROL Confirm]**.
 
    ![](assets/send-time_opt_segment.png)
 
-1. Dra och släpp en **E-postleverans** -aktivitet i ditt arbetsflöde och öppna det. Se [E-postleverans](../../automating/using/email-delivery.md) -avsnitt.
-1. Klicka på **[!UICONTROL Schedule]** i e-postkontrollpanelen.
+1. Dra och släpp en **e-postleveransaktivitet** i ditt arbetsflöde och öppna den. Se avsnittet [E-postleverans](../../automating/using/email-delivery.md).
+1. Klicka på avsnittet **[!UICONTROL Schedule]** i e-postinstrumentpanelen.
 1. Välj **[!UICONTROL Messages to be sent automatically on the date specified below]**.
-1. I **[!UICONTROL Start sending from]** anger du ett kontaktdatum.
+1. Ange ett kontaktdatum i fältet **[!UICONTROL Start sending from]**.
 
    I det här exemplet väljer du 25 maj 08:00.
 
-1. I listrutan Tidsoptimering för sändning väljer du **[!UICONTROL Send at a custom date defined by a formula]** och klicka på **[!UICONTROL Edit an expression]** -knappen.
+1. Välj **[!UICONTROL Send at a custom date defined by a formula]** i listrutan Tidsoptimering för sändning och klicka på knappen **[!UICONTROL Edit an expression]**.
 
    ![](assets/send-time_opt_formula_expression.png)
 
-1. I **[!UICONTROL Expression editor]**, ange datum och segmentkoder för att beräkna data för varje kund.
+1. I **[!UICONTROL Expression editor]** anger du datum och segmentkoder för att beräkna data för varje kund.
 
-   Välj i listan över funktioner **[!UICONTROL AddHours]**.
+   Välj **[!UICONTROL AddHours]** i listan över funktioner.
 
    ![](assets/send-time_opt_formula_expression_addhours.png)
 
-   Välj i de tillgängliga fälten **[!UICONTROL Current delivery]** > **[!UICONTROL Delivery scheduling]** > **[!UICONTROL Contact date]**.
+   I de tillgängliga fälten väljer du **[!UICONTROL Current delivery]** > **[!UICONTROL Delivery scheduling]** > **[!UICONTROL Contact date]**.
 
    ![](assets/send-time_opt_formula_expression_contact_date.png)
 
-   Detta gör att du kan hämta datum och tid som anges i **[!UICONTROL Start sending from]** fält.
+   Detta gör att du kan hämta datumet och tiden som anges i fältet **[!UICONTROL Start sending from]**.
 
-   Välj i listan över funktioner **[!UICONTROL ToInteger]**. Välj i de tillgängliga fälten **[!UICONTROL Additional data]** > **[!UICONTROL Segment code]**.
+   Välj **[!UICONTROL ToInteger]** i listan över funktioner. Välj **[!UICONTROL Additional data]** > **[!UICONTROL Segment code]** i de tillgängliga fälten.
 
    ![](assets/send-time_opt_formula_expression_segment_code.png)
 

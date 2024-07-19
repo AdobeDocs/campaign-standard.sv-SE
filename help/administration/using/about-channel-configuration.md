@@ -24,6 +24,6 @@ De olika konfigurationerna är följande:
 * Meddelandeegenskaper. När du skapar ett nytt meddelande kan du finjustera egenskaperna efter behov.
 * Vissa kanaler erbjuder ytterligare konfigurationer som är valfria, till exempel e-postkopia.
 
-The **[!UICONTROL Channel]** Menyn grupperar de tekniska parametrar som är länkade till de olika programkanalerna (e-post, SMS) samt typologi och karantänhantering.
+Menyn **[!UICONTROL Channel]** grupperar de tekniska parametrar som är länkade till de olika programkanalerna (e-post, SMS) samt typologi- och karantänhantering.
 
-Administratörer har åtkomst till dessa konfigurationer i **[!UICONTROL Administration]** > **[!UICONTROL Channels]** -menyn.
+Administratörer har åtkomst till dessa konfigurationer på menyn **[!UICONTROL Administration]** > **[!UICONTROL Channels]**.

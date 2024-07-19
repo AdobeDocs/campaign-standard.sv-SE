@@ -37,7 +37,7 @@ Adobe Campaign Standard-integrationen med Microsoft Dynamics 365 gör att alla t
 
 När profiler i Adobe Campaign Standard interagerar med meddelanden flödar dessa data (t.ex.: skickar, öppnar, klickar och studsar) automatiskt in i Microsoft Dynamics 365 för att hålla kontaktuppgifter kompletta med marknadsföringsaktiviteter.
 
-Integreringen stöder även aktivering [anpassade entiteter](../../integrating/using/d365-acs-self-service-app-settings.md) i Dynamics 365 som ska synkroniseras med motsvarande **anpassade resurser** i Campaign.
+Integreringen stöder även att [anpassade entiteter](../../integrating/using/d365-acs-self-service-app-settings.md) i Dynamics 365 kan synkroniseras med motsvarande **anpassade resurser** i Campaign.
 
 Integrationen är utformad för fyra huvudsakliga användningsområden:
 
@@ -69,11 +69,11 @@ Följ informationen i flödesschemat och flödesschemat nedan för att begära o
 
 Information om flödesschema (mappas till steg ovan):
 
-* **Steg 1** - Du förutsätts redan ha, eller håller på att köpa, en licens för Microsoft Dynamics 365 för försäljning och för Adobe Campaign Standard.
-* **Steg 2** - Standardintegrationserbjudandet är kostnadsfritt för alla kunder, men ytterligare kostnader kan tillkomma beroende på dina behov. Läs mer om [Bästa praxis och begränsningar](../../integrating/using/d365-acs-notices-and-recommendations.md). En ny försäljningsorder måste signeras för att kunna utnyttja integreringen om den inte ingick i den ursprungliga SO:n.
-* **Steg 3** - Slutför förintegreringsstegen för Dynamics 365 och Campaign. Se [Konfigurera integreringen](#configure-this-integration).
-* **Steg 4** - Adobe onboarding-teamet ger dig tillgång till användargränssnittet för integreringsprogrammet.
-* **Steg 5** - Du kommer att kunna konfigurera datamappningar, ersättningar, filter osv. och testa integreringen inifrån integreringsprogrammets gränssnitt.
+* **Steg 1** - Du förutsätts redan ha, eller håller på att köpa, en licens för Microsoft Dynamics 365 för Försäljning och för Adobe Campaign Standard.
+* **Steg 2** - Standardintegrationserbjudandet är kostnadsfritt för alla kunder, men ytterligare kostnader kan tillkomma beroende på dina behov. Läs mer om [Bästa tillvägagångssätt och begränsningar](../../integrating/using/d365-acs-notices-and-recommendations.md). En ny försäljningsorder måste signeras för att kunna utnyttja integreringen om den inte ingick i den ursprungliga SO:n.
+* **Steg 3** - Slutför förintegreringsstegen för Dynamics 365 och Campaign. Se [Konfigurera den här integreringen](#configure-this-integration).
+* **Steg 4** - Adobe-introduktionsteamet ger dig tillgång till användargränssnittet för integreringsprogrammet.
+* **Steg 5** - Du kan konfigurera datamappningar, ersättningar, filter osv. och testa integreringen inifrån integreringsprogrammets gränssnitt.
 
   >[!IMPORTANT]
   >
@@ -83,9 +83,9 @@ Information om flödesschema (mappas till steg ovan):
 
 Tre system måste etableras och konfigureras för den här integreringen:
 
-* **Adobe Campaign Standard**: du måste konfigurera API-åtkomst och konfigurera en ny integrering för integreringsverktyget. För att uppnå detta, se [den här artikeln](../../integrating/using/d365-acs-configure-adobe-io.md).
+* **Adobe Campaign Standard**: du måste konfigurera API-åtkomst och konfigurera en ny integrering för integrationsverktyget. Läs [den här artikeln](../../integrating/using/d365-acs-configure-adobe-io.md) om du vill uppnå detta.
 * **Microsoft Dynamics 365**: du måste skapa en ny appregistrering och göra det möjligt för en programanvändare att använda integreringen.  Information om hur du konfigurerar Microsoft Dynamics 365 för den här integreringen finns i [den här artikeln](../../integrating/using/d365-acs-configure-d365.md).
-* **Adobe Campaign Standard-integrering med Microsoft Dynamics 365 Self-Service App**: du måste följa stegen i [den här artikeln](../../integrating/using/d365-acs-self-service-app-control-access.md).
+* **Adobe Campaign Standard-integrering med självbetjäningsappen Microsoft Dynamics 365**: du måste följa stegen i [den här artikeln](../../integrating/using/d365-acs-self-service-app-control-access.md).
 
 >[!IMPORTANT]
 >
@@ -100,8 +100,8 @@ Supportärenden kan loggas med Adobe kundtjänst.
 
 Om du har problem med integreringsdataflöden bör du ta med följande information:
 
-* **Processägare**: Ingenjörsarkitekter
-* **ES Process-ID**: Tillhandahålls under introduktionsprocessen
+* **Processägare**: Teknikarkitekter
+* **ES Process ID**: Tillhandahålls under introduktionsprocessen
 * **Processtitel**: Microsoft Dynamics 365/Adobe Campaign Standard-integrering
 * **Ärendebeskrivning**: Beskrivning av problemet
 

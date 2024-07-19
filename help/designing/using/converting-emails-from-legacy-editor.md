@@ -1,6 +1,6 @@
 ---
-title: Konverterar e-post från äldre redigerare till e-postdesignern
-description: Upptäck hur du kan använda e-postmeddelanden som har skapats i det äldre redigeringsprogrammets e-postmeddelande till e-postdesignern.
+title: Konverterar äldre redigeringsmeddelanden till e-postmeddelandet för Designer
+description: Upptäck hur du använder e-postmeddelanden som har skapats i det äldre redigeringsprogrammets e-postmeddelande till e-postprogrammet Designer.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -17,9 +17,9 @@ ht-degree: 8%
 
 # Konverterar e-postinnehåll för äldre redigerare {#converting-an-html-content}
 
-Börja arbeta med e-postdesignern och bygg återanvändbara mallar och fragment från e-postmeddelandet HTML som har skapats i den äldre redigeraren.
+Börja arbeta med e-post-Designer och skapa återanvändbara mallar och fragment från e-post-HTML som skapats i den äldre redigeraren.
 
-I det här exemplet kan du skapa en e-postdesignermall genom att använda ett HTML-e-postmeddelande och dela upp den i HTML-komponenter i e-postdesignern.
+I det här exemplet kan du skapa en e-postmall för Designer genom att använda ett HTML-e-postmeddelande och dela upp den i HTML-komponenter i e-post-Designer.
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ I det här exemplet kan du skapa en e-postdesignermall genom att använda ett HT
 
 ## Skapa en e-poststruktur
 
-1. Öppna **[!UICONTROL Email Designer]**  om du vill skapa ett tomt e-postinnehåll.
+1. Öppna **[!UICONTROL Email Designer]** om du vill skapa ett tomt e-postinnehåll.
 1. Ange attribut för innehållsnivå: bakgrundsfärger, bredd osv. Mer information finns i [Redigera e-postformat](../../designing/using/styles.md).
 1. Lägg till så många strukturkomponenter som du har avsnitt. Mer information finns i [Redigera e-poststrukturen](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
@@ -65,7 +65,7 @@ I det här exemplet kan du skapa en e-postdesignermall genom att använda ett HT
    >
    >Se till att du lägger till formatet efter detta i en annan anpassad formattagg.
    >
-   >Ändra inte CSS som genererats av e-postdesignern:
+   >Ändra inte CSS som genererats av e-post-Designer:
    >
    >* `<style data-name="default" type="text/css">(##)</style>`
    >* `<style data-name="supportIOS10" type="text/css">(##)</style>`
@@ -77,7 +77,7 @@ I det här exemplet kan du skapa en e-postdesignermall genom att använda ett HT
 
 ## Användningsfall
 
-Vi försöker konvertera det här e-postmeddelandet, som har skapats i den äldre redigeraren, till en **[!UICONTROL Email Designer]** mall.
+Vi försöker konvertera det här e-postmeddelandet, som har skapats i den äldre redigeraren, till en **[!UICONTROL Email Designer]**-mall.
 
 ### Identifiera avsnittet i ditt e-postmeddelande
 
@@ -89,11 +89,11 @@ Om du vill se vilket element som är det i HTML kan du markera det.
 
 ![](assets/breadcrumbs.png)
 
-Om du vill visa HTML-versionen av e-postmeddelandet klickar du på **[!UICONTROL Show source]**.
+Klicka på **[!UICONTROL Show source]** om du vill visa HTML-versionen av e-postmeddelandet.
 
 ### Skapa e-postmallen och dess struktur
 
-1. Dra och släpp **[!UICONTROL Structure components]**  som återspeglar layouten för vårt e-postmeddelande.
+1. Dra och släpp **[!UICONTROL Structure components]** som återspeglar layouten för e-postmeddelandet.
 
 1. Upprepa så många gånger som behövs. Vi måste skapa 11 strukturkomponenter.
 
@@ -101,11 +101,11 @@ Om du vill visa HTML-versionen av e-postmeddelandet klickar du på **[!UICONTROL
 
 ### Infoga HTML-innehållskomponenter
 
-1. Infoga en **[!UICONTROL HTML component]**  i varje **[!UICONTROL Structure component]** .
+1. Infoga en **[!UICONTROL HTML component]** i varje **[!UICONTROL Structure component]** .
 
    ![](assets/html-components.png)
 
-1. För varje avsnitt klickar du **[!UICONTROL Show source code]** .
+1. Klicka på **[!UICONTROL Show source code]** för varje avsnitt.
 
    ![](assets/show-source-code.png)
 
@@ -123,6 +123,6 @@ Nu kan du kontrollera återgivningen av ditt e-postmeddelande.
 
 1. Växla till källkod och kopiera och klistra in stilavsnittet i ett nytt stilavsnitt.
 
-Mer information finns i [Hantera e-postmeddelandets format](#manage-the-style-of-your-email).
+Mer information finns i [Hantera formatet för ditt e-postmeddelande](#manage-the-style-of-your-email).
 
-Din gamla e-postadress är nu tillgänglig i e-postdesignern.
+Din gamla e-postadress finns nu i e-post-Designer.

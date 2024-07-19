@@ -31,7 +31,7 @@ Utöka Campaign Standardens datamodell med egna fält och resurser och övervaka
 
 Data som används av Campaign definieras med olika resurser som definieras i en **fördefinierad datamodell**. Datamodellen visar en körklar SQL-struktur för en uppsättning marknadsföringsrelaterade resurser: leverans, målgrupp, landningssidor, profil osv. Varje resurs har tillhörande filter som gör att du kan navigera bland resurserna.
 
-The **Diagnos** Med kan du lista de tekniska objekt som genereras av Campaign Standarden: datamodeller, webbsidor, filter, osv., så att du kan övervaka datamodellen och ändringar som gjorts i den.
+På menyn **Diagnos** kan du visa de tekniska objekt som genereras av Campaign Standarden: datamodeller, webbsidor, filter, osv., så att du kan övervaka datamodellen och ändringar som gjorts i den.
 
 Läs mer:
 
@@ -44,9 +44,9 @@ Läs mer:
 
 <img src="assets/do-not-localize/icon_custom.svg" width="60px">
 
-Med Campaign Standard kan du **Berika den fördefinierade datamodellen** för att skapa egna resurser (t.ex. för att lägga till inköpstabeller eller produkttabeller) eller för att utöka befintliga resurser med nya fält. Du kan också konfigurera Campaign-skärmar för att optimera navigeringen genom de nya resurser och fält som har skapats.
+Med Campaign Standard kan du **utöka den fördefinierade datamodellen** för att skapa egna resurser (till exempel för att lägga till Inköp- eller Produkttabeller) eller utöka befintliga resurser med nya fält. Du kan också konfigurera Campaign-skärmar för att optimera navigeringen genom de nya resurser och fält som har skapats.
 
-Dessutom kan du **utöka REST API:er för Campaign Standard** för att i API:erna visa utökade fält för anpassade resursprofiler. På så sätt kan du till exempel uppdatera en kunds profil med en kampanjkod som genereras från ett faktureringssystem.
+Dessutom kan du **utöka Campaign Standardens REST API:er** för att visa utökade fält för anpassade resursprofiler i API:erna. På så sätt kan du till exempel uppdatera en kunds profil med en kampanjkod som genereras från ett faktureringssystem.
 
 Läs mer:
 
@@ -63,5 +63,5 @@ Med Campaign Standard-API:er kan du skapa integreringar för Adobe Campaign Stan
 
 ## Ytterligare resurser
 
-* [Exportera/importera anpassade resurser](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)
+* [Exporterar/importerar anpassade resurser](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)
 * [Exportera data från Campaign till Adobe Experience Platform](../../integrating/using/export-campaign-data.md)

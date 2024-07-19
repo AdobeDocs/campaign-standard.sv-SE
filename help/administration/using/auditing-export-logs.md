@@ -15,9 +15,9 @@ ht-degree: 5%
 
 # Granska exportloggar{#auditing-export-logs}
 
-Från **[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]** kan administratörer visa en lista med alla följande exporter, inklusive datum och användare som utförde exporten:
+Från **[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]** kan administratörer visa en lista över alla följande exporter, inklusive deras datum och användaren som utförde exporten:
 
-* Filöverföring från en **[!UICONTROL Transfer file]** i ett arbetsflöde.
+* Filöverföring från en **[!UICONTROL Transfer file]**-aktivitet i ett arbetsflöde.
 * Visa export från en lista eller en underlista.
 * Filen har hämtats från kontrollpanelen för ett direktmeddelandets leverans.
 
@@ -27,4 +27,4 @@ Från **[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!
 
 I den vänstra rutan kan du filtrera exporten som du vill visa efter behov.
 
-Du kan exportera listan som en separat fil, vilket beskrivs i [Exporterar listor](../../automating/using/exporting-lists.md) -avsnitt.
+Du kan exportera listan som en separat fil, vilket beskrivs i avsnittet [Exportera listor](../../automating/using/exporting-lists.md).

@@ -26,8 +26,8 @@ ht-degree: 93%
 
 Med **[!UICONTROL Direct mail delivery]**-aktiviteten kan du konfigurera och förbereda en fil som innehåller profildata som du vill använda för en kampanj för direktmeddelanden. Det kan vara en direktreklam som bara används en gång eller en återkommande direktreklam.
 
-* **Standard** direktreklam skickas en gång.
-* **Återkommande** Med hjälp av e-post kan du skicka samma direktreklam flera gånger till olika mål under en angiven period. Du kan samla leveranser per period för att få rapporter som motsvarar dina behov.
+* **Standarddirektreklam** skickas en gång.
+* Med **återkommande**-e-postmeddelanden kan du skicka samma direktutskick flera gånger till olika mål under en angiven period. Du kan samla leveranser per period för att få rapporter som motsvarar dina behov.
 
 ## Kontext för användning {#context-of-use}
 

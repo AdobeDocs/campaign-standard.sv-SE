@@ -24,35 +24,35 @@ Specifik information om hur du skapar och konfigurerar varje kommunikationskanal
 * [Skapa ett e-postmeddelande](../../channels/using/creating-an-email.md)
 * [Skapa ett SMS](../../channels/using/creating-an-sms-message.md)
 * [Skapa direktutskick](../../channels/using/creating-the-direct-mail.md)
-* [Skapa ett push-meddelande](../../channels/using/preparing-and-sending-a-push-notification.md).
+* [Skapar ett push-meddelande](../../channels/using/preparing-and-sending-a-push-notification.md).
 * [Förbereda och skicka ett meddelande i appen](../../channels/using/preparing-and-sending-an-in-app-message.md)
 
-Om du vill veta mer om de effektivaste strategierna för leverans kan du läsa [Bästa praxis för leverans](../../sending/using/delivery-best-practices.md) -avsnitt.
+Mer information om god leveranspraxis finns i avsnittet [Bästa leveransmetoder](../../sending/using/delivery-best-practices.md).
 
 ## Skapa ett meddelande
 
-Utnyttja Campaign Standard [marknadsföringsverksamhet](../../start/using/marketing-activities.md) för att skapa e-post, SMS, direktreklam, push-meddelanden eller meddelanden i appen.
+Utnyttja Campaign Standardens [marknadsföringsaktiviteter](../../start/using/marketing-activities.md) för att skapa ett e-postmeddelande, SMS, direktreklam, push-meddelanden eller meddelanden i appen.
 
 ![](assets/marketing-activities.png)
 
-Meddelanden kan skapas antingen från listan över marknadsföringsaktiviteter eller från ett arbetsflöde med [dedikerad verksamhet](../../automating/using/about-channel-activities.md).
+Meddelanden kan skapas antingen från marknadsföringsaktivitetslistan eller från ett arbetsflöde med [dedikerade aktiviteter](../../automating/using/about-channel-activities.md).
 
 ![](assets/steps-channel.png)
 
 ## Definiera målgruppen
 
-Definiera mottagarna av meddelandet. Använd [frågeredigerare](../../automating/using/editing-queries.md) från den vänstra rutan för att filtrera data i databasen och skapa regler som riktar sig till er målgrupp.
+Definiera mottagarna av meddelandet. Om du vill göra det använder du [frågeredigeraren](../../automating/using/editing-queries.md) från den vänstra rutan för att filtrera data som finns i databasen och skapa regler för målgruppen.
 
 Det finns flera olika typer av målgrupper:
 
 * **[!UICONTROL Target]** är huvudmålet för ditt e-postmeddelande,
-* **[!UICONTROL Test profiles]** är profilerna som används för att testa och validera din e-post (se [Hantera testprofiler](../../audiences/using/managing-test-profiles.md)).
+* **[!UICONTROL Test profiles]** är de profiler som används för att testa och validera din e-post (se [Hantera testprofiler](../../audiences/using/managing-test-profiles.md)).
 
 ![](assets/steps-audience.png)
 
 ## Designa och personalisera innehåll
 
-I **[!UICONTROL Content]** blockera, utforma och anpassa innehållet i meddelandet med hjälp av fält från databasen. Mer information om hur du utformar innehåll för en viss kanal finns i avsnitten högst upp på den här sidan.
+I blocket **[!UICONTROL Content]** utformar och anpassar du innehållet i meddelandet med hjälp av fält från databasen. Mer information om hur du utformar innehåll för en viss kanal finns i avsnitten högst upp på den här sidan.
 
 ![](assets/steps-content.png)
 
@@ -62,19 +62,19 @@ I **[!UICONTROL Content]** blockera, utforma och anpassa innehållet i meddeland
 
 ![](assets/steps-prepare.png)
 
-**Kontrollera och testa meddelandet** innan du skickar det med Campaign Standard: förhandsgranskning, e-poståtergivning, korrektur osv. Mer information om detta finns i [det här avsnittet](../../sending/using/previewing-messages.md).
+**Kontrollera och testa ditt meddelande** innan du skickar det med hjälp av Campaign Standarder: förhandsgranskning, e-poståtergivning, korrektur osv. Mer information om detta finns i [det här avsnittet](../../sending/using/previewing-messages.md).
 
-Använd **[!UICONTROL Schedule]** block för att definiera när meddelanden ska skickas (se [Schemaläggningsmeddelanden](../../sending/using/about-scheduling-messages.md)).
+Använd blocket **[!UICONTROL Schedule]** för att definiera när meddelanden ska skickas (se [Schemaläggningsmeddelanden](../../sending/using/about-scheduling-messages.md)).
 
 ![](assets/steps-schedule.png)
 
 ## Skicka och spåra
 
-När meddelandet är klart kan du bekräfta det. The **[!UICONTROL Deployment]** -blocket visar sändningsförloppet och resultatet.
+När meddelandet är klart kan du bekräfta det. Blocket **[!UICONTROL Deployment]** visar sändningsförloppet och resultatet.
 
 ![](assets/steps-send.png)
 
-Det finns flera loggar som hjälper dig att övervaka hur dina meddelanden levereras (se [övervaka en leverans](../../sending/using/monitoring-a-delivery.md)). Du kan också spåra leveransmottagarnas beteende tack vare Campaign Standardens [spårningsfunktioner](../../sending/using/tracking-messages.md).
+Det finns flera tillgängliga loggar som hjälper dig att övervaka leveransen av dina meddelanden (se [övervaka en leverans](../../sending/using/monitoring-a-delivery.md)). Du kan också spåra beteendet hos leveransmottagarna tack vare Campaign Standardens [spårningsfunktioner](../../sending/using/tracking-messages.md).
 
 ![](../../sending/using/assets/tracking_logs.png)
 

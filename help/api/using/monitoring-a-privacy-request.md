@@ -17,9 +17,9 @@ ht-degree: 16%
 
 # Övervaka en sekretessförfrågan {#monitoring-a-privacy-request}
 
-Du kan övervaka information om en skapad sekretessförfrågan med en **GET** begäran.
+Du kan övervaka information om en skapad sekretessförfrågan med en **GET** -begäran.
 
-Beskrivningen av statuslistan finns i [Dokumentation för sekretesshantering](../../start/using/privacy-requests.md).
+Beskrivningen av statuslistan finns i [dokumentationen för sekretesshantering](../../start/using/privacy-requests.md).
 
 <br/>
 

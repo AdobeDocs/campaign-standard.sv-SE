@@ -28,20 +28,20 @@ Du kan skicka ett e-postmeddelande till kunder: ett för kunder som skapats för
 
 1. Dra och släpp en [Fråge](../../automating/using/query.md)-aktivitet i **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**.
 1. Dubbelklicka på aktiviteten.
-1. I **[!UICONTROL Shortcuts]**, dra och släppa **[!UICONTROL Profiles]** och markera **[!UICONTROL email]** med operatorn **[!UICONTROL is not empty]**.
-1. I **[!UICONTROL Shortcuts]**, dra och släppa **[!UICONTROL Profiles]** och markera **[!UICONTROL no longer contact by email]** med värdet **[!UICONTROL no]**.
+1. I **[!UICONTROL Shortcuts]** drar och släpper du **[!UICONTROL Profiles]** och väljer **[!UICONTROL email]** med operatorn **[!UICONTROL is not empty]**.
+1. I **[!UICONTROL Shortcuts]** drar och släpper du **[!UICONTROL Profiles]** och väljer **[!UICONTROL no longer contact by email]** med värdet **[!UICONTROL no]**.
 1. Klicka på **[!UICONTROL Confirm]**.
 
 ![](assets/wf-complement-query.png)
 
 ## Skapa en segmenteringsaktivitet {#create-a-segmentation-activity}
 
-1. I **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, dra och släppa en [Segmentering](../../automating/using/segmentation.md) och dubbelklicka på den.
-1. Håll pekaren över segmentet och klicka sedan på ![](assets/edit_darkgrey-24px.png) för att inrikta sig på kunder som läggs till i år i databasen.
-1. Dra och släpp **[!UICONTROL Profiles]** och markera **[!UICONTROL Created]** med filtertypen **[!UICONTROL Relative]**.
-1. Ändra **[!UICONTROL Level of precision]** till **[!UICONTROL Year]** och markera **[!UICONTROL This year]**.
+1. I **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** drar och släpper du en [segmenteringsaktivitet](../../automating/using/segmentation.md) och dubbelklickar på den.
+1. Hovra över segmentet och klicka sedan på ![](assets/edit_darkgrey-24px.png) för att rikta in dig på kunder som lagts till i år i databasen.
+1. Dra och släpp **[!UICONTROL Profiles]** och välj **[!UICONTROL Created]** med filtertypen **[!UICONTROL Relative]**.
+1. Ändra **[!UICONTROL Level of precision]** till **[!UICONTROL Year]** och välj **[!UICONTROL This year]**.
 1. Klicka på **[!UICONTROL Confirm]** två gånger.
-1. I **[!UICONTROL Advanced Options]**, kontrollera **[!UICONTROL Generate complement]** för att skapa ett segment som riktar sig till de återstående mottagarna.
+1. I **[!UICONTROL Advanced Options]** markerar du **[!UICONTROL Generate complement]** för att skapa ett segment som riktar sig till de återstående mottagarna.
 1. Klicka på **[!UICONTROL Confirm]**.
 1. Klicka på **[!UICONTROL Save]**.
 
@@ -53,7 +53,7 @@ Du kan skicka ett e-postmeddelande till kunder: ett för kunder som skapats för
 
 ## Skapa en e-postleverans {#create-an-email-delivery}
 
-1. I **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, dra och släppa [E-postleverans](../../automating/using/email-delivery.md) efter varje segment.
+1. Dra och släpp en [e-postleveransaktivitet](../../automating/using/email-delivery.md) efter varje segment i **[!UICONTROL Activities]** > **[!UICONTROL Channels]**.
 1. Klicka på aktiviteten och välj ![](assets/edit_darkgrey-24px.png) för att redigera.
 1. Markera **[!UICONTROL Single send email]** och klicka på **[!UICONTROL Next]**.
 1. Välj en e-postmall och klicka på **[!UICONTROL Next]**.

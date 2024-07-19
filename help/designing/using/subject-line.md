@@ -1,6 +1,6 @@
 ---
 title: Definiera ämnesraden och avsändaren av ett e-postmeddelande
-description: Läs om hur du definierar ämnesraden och avsändaren av ett e-postmeddelande i e-postdesignern.
+description: Läs om hur du definierar ämnesraden och avsändaren av ett e-postmeddelande i e-postmeddelandet Designer.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -23,29 +23,29 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Om ämnesraden är tom visas en varning i meddelandekontrollpanelen och i e-postdesignern.
+>Om ämnesraden är tom visas en varning i meddelandekontrollpanelen och i e-postens Designer.
 
 1. Skapa ett mejl.
-1. Gå till **[!UICONTROL Properties]** -fliken på hemsidan för Email Designer (nås via hemikonen).
-1. Fyll i **[!UICONTROL Subject]** -avsnitt.
+1. Gå till fliken **[!UICONTROL Properties]** på e-posthemsidan för Designer (nås via hemikonen).
+1. Fyll i avsnittet **[!UICONTROL Subject]**.
 
    ![](assets/email_designer_subject.png)
 
-1. Du kan också lägga till anpassningsfält, innehållsblock och dynamiskt innehåll på ämnesraden genom att klicka på motsvarande ikoner. Mer information finns i [Personalisering](../../designing/using/personalization.md).
+1. Du kan också lägga till anpassningsfält, innehållsblock och dynamiskt innehåll på ämnesraden genom att klicka på motsvarande ikoner. Mer information finns i [Personalization](../../designing/using/personalization.md).
 
 ## Definiera e-postavsändare för ett e-postmeddelande {#email-sender}
 
-Om du vill definiera namnet på avsändaren som ska visas i huvudet för skickade meddelanden går du till **[!UICONTROL Properties]** -fliken på hemsidan för Email Designer (nås via hemikonen).
+Om du vill definiera namnet på den avsändare som ska visas i meddelandehuvudet går du till fliken **[!UICONTROL Properties]** på Designer hemsida för e-post (nås via hemikonen).
 
 ![](assets/delivery_content_edition16.png)
 
-* The **[!UICONTROL From: name]** I kan du ange avsändarens namn. Som standard är **Avsändarens namn** -block anges automatiskt i fältet. Standardavsändarens e-postadress och avsändarens namn definieras i **[!UICONTROL Brands]** via Adobe Campaign logotyp på den avancerade menyn **[!UICONTROL Administration > Instance settings > Brand configuration]** .
+* I fältet **[!UICONTROL From: name]** kan du ange avsändarens namn. Som standard anges standardblocket **Avsändarnamn** automatiskt i fältet. Standardavsändarens e-postadress och avsändarens namn definieras i **[!UICONTROL Brands]** som är tillgängliga via Adobe Campaign-logotypen på den avancerade menyn **[!UICONTROL Administration > Instance settings > Brand configuration]** .
 
-  Du kan ändra avsändarens namn genom att klicka på knappen **Avsändarens namn** -block. Fältet kan sedan redigeras och du kan ange det namn du vill använda.
+  Du kan ändra avsändarens namn genom att klicka på blocket **Avsändarnamn**. Fältet kan sedan redigeras och du kan ange det namn du vill använda.
 
-  Det här fältet kan anpassas. Om du vill göra det kan du lägga till anpassningsfält, innehållsblock och dynamiskt innehåll genom att klicka på ikonerna under avsändarens namn. Mer information finns i [Personalisering](../../designing/using/personalization.md).
+  Det här fältet kan anpassas. Om du vill göra det kan du lägga till anpassningsfält, innehållsblock och dynamiskt innehåll genom att klicka på ikonerna under avsändarens namn. Mer information finns i [Personalization](../../designing/using/personalization.md).
 
-* The **[!UICONTROL From: email address]** kan inte redigeras från det här avsnittet. Du kan ändra det genom att redigera egenskaperna för e-postmeddelandet från dess kontrollpanel. Mer information finns i [Lista med avancerade e-postparametrar](../../administration/using/configuring-email-channel.md#advanced-parameters).
+* Fältet **[!UICONTROL From: email address]** kan inte redigeras från det här avsnittet. Du kan ändra det genom att redigera egenskaperna för e-postmeddelandet från dess kontrollpanel. Mer information finns i [Lista över avancerade e-postparametrar](../../administration/using/configuring-email-channel.md#advanced-parameters).
 
 >[!NOTE]
 >

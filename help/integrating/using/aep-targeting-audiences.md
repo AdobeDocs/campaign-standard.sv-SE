@@ -23,13 +23,13 @@ ht-degree: 3%
 >
 >Målgruppstjänsten är för närvarande i betaversion, som kan uppdateras ofta utan föregående meddelande. Kunderna måste vara värdbaserade på Azure (för närvarande endast betaversioner för Nordamerika) för att få tillgång till dessa funktioner. Kontakta Adobe kundtjänst om du vill ha tillgång till tjänsten.
 
-När du har skapat en [Adobe Experience Platform](../../integrating/using/aep-about-audience-destinations-service.md) Med segmentbyggaren kan ni använda den på samma sätt som ni gör för en Campaign-målgrupp inom arbetsflöden att personalisera och skicka meddelanden.
+När du har skapat en [Adobe Experience Platform-målgrupp](../../integrating/using/aep-about-audience-destinations-service.md) med hjälp av Segment Builder kan du använda den på samma sätt som du gör för en Campaign-målgrupp i arbetsflöden att personalisera och skicka meddelanden.
 
 Så här aktiverar du en Adobe Experience Platform-målgrupp i dina arbetsflöden:
 
-1. Lägg till en **[!UICONTROL Read audience]** till arbetsflödet och öppna det.
+1. Lägg till en **[!UICONTROL Read audience]**-aktivitet i arbetsflödet och öppna den.
 
-1. Välj **[!UICONTROL Adobe Experience Platform]** option under **[!UICONTROL Type of audience]** och sedan lägga till önskad målgrupp.
+1. Välj alternativet **[!UICONTROL Adobe Experience Platform]** under **[!UICONTROL Type of audience]** och lägg sedan till önskad målgrupp.
 
    ![](assets/aep_wkf_readaudience.png)
 
@@ -37,9 +37,9 @@ Så här aktiverar du en Adobe Experience Platform-målgrupp i dina arbetsflöde
 
    Om du klickar på ögonknappen dirigeras du till segmentbyggaren (på en annan flik) som är kopplad till den valda målgruppen i Campaign.
 
-1. Välj en **[!UICONTROL Platform data mapping]** -element för att ange önskad måldimension för den valda Adobe Experience Platform-målgruppen.
+1. Välj ett **[!UICONTROL Platform data mapping]**-element för att ange önskad måldimension för den valda Adobe Experience Platform-målgruppen.
 
-   Som standard är primärnyckeln (t.ex. iRecipientID för profiltabellen, iAppSubscriptionID för AppSubscription-tabellen) som används för avstämning automatiskt tillgänglig i listrutan. Om du vill ange mål utanför primärnyckeln måste du skapa en egen **Namnutrymme**.
+   Som standard är primärnyckeln (t.ex. iRecipientID för profiltabellen, iAppSubscriptionID för AppSubscription-tabellen) som används för avstämning automatiskt tillgänglig i listrutan. Om du vill ange mål utanför primärnyckeln måste du skapa ett anpassat **namnområde**.
 
    >[!NOTE]
    >
@@ -51,9 +51,9 @@ Så här aktiverar du en Adobe Experience Platform-målgrupp i dina arbetsflöde
 
    ![](assets/aep_wkf_readaudience_namespace2.png)
 
-1. När målgrupps- och målinriktningsdimensionerna är korrekt konfigurerade klickar du på **[!UICONTROL Confirm]** för att spara ändringarna.
+1. När målgrupps- och målgruppsdimensionerna har konfigurerats korrekt klickar du på knappen **[!UICONTROL Confirm]** för att spara ändringarna.
 
-Du kan nu konfigurera ditt arbetsflöde med andra aktiviteter. Du kan till exempel länka en **[!UICONTROL Email delivery]** aktivitet för att skicka ett e-postmeddelande till den valda målgruppen.
+Du kan nu konfigurera ditt arbetsflöde med andra aktiviteter. Du kan till exempel länka en **[!UICONTROL Email delivery]**-aktivitet för att skicka ett e-postmeddelande till den valda målgruppen.
 
 ![](assets/aep_wkf_email.png)
 

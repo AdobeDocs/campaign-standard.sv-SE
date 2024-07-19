@@ -42,9 +42,9 @@ Aktiviteten används huvudsakligen för datahantering och kan innebära två sak
 
   Du kan exempelvis sedan spara en målgrupp, uppdatera databasen etc.
 
-Till exempel **[!UICONTROL Reconciliation]** -aktiviteten kan placeras efter en inläsningsdataaktivitet för att importera icke-standarddata till databasen.
+Aktiviteten **[!UICONTROL Reconciliation]** kan till exempel placeras efter en inläsningsdataaktivitet för att importera icke-standarddata till databasen.
 
-Med **Berikning** kan du definiera ytterligare data som ska bearbetas i arbetsflödet (använda en **Berikning** aktivitet för att kombinera data från flera uppsättningar eller för att skapa länkar till en tillfällig resurs), **Avstämning** kan du länka oidentifierade data till befintliga resurser. Avstämningsåtgärden innebär att data för de länkade dimensionerna redan finns i databasen. Användningsexempel finns i [det här avsnittet](#use-cases-reconciliation).
+Med aktiviteten **Enrichment** kan du definiera ytterligare data som ska bearbetas i arbetsflödet (använd en **Enrichment**-aktivitet för att kombinera data från flera uppsättningar eller för att skapa länkar till en tillfällig resurs), men med aktiviteten **Avstämning** kan du länka oidentifierade data till befintliga resurser. Avstämningsåtgärden innebär att data för de länkade dimensionerna redan finns i databasen. Användningsexempel finns i [det här avsnittet](#use-cases-reconciliation).
 
 
 ## Konfiguration {#configuration}

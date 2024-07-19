@@ -29,11 +29,11 @@ Det går att skapa och hantera XDM-scheman med ett dedikerat API eller med XDM-a
 
 ## XDM-arbetsyta {#xdm-workspace}
 
-Med XDM Workspace kan du visa, skapa och utöka datascheman.
+XDM Workspace ger möjlighet att visa, skapa och utöka datarotor.
 
 Öppna Adobe Experience Platform för att få åtkomst till XDM-användargränssnittet. Navigera till datamodellfönstret för att skapa eller utöka ett XDM-schema.
 
-Läs hela [Dokumentation för XDM-arbetsyta](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
+Läs den fullständiga [XDM Workspace-dokumentationen](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
 
 ![](assets/aep_xdmworkspace.png)
 

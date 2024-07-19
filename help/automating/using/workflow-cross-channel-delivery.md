@@ -65,7 +65,7 @@ Använd knappen **[!UICONTROL Count]** för att se en uppskattning av antalet pr
 
 När målet har identifierats av aktiviteten Fråga måste du välja ett villkor för att segmentera målet i två olika populationer: en får ett e-postmeddelande och den andra får ett SMS.
 
-Du måste använda en [Segmentering](../../automating/using/segmentation.md) -aktivitet för att skapa ett eller flera segment från en population som beräknas uppströms i en fråga.
+Du måste använda en [segmenteringsaktivitet](../../automating/using/segmentation.md) för att skapa ett eller flera segment från en population som beräknas uppströms i en fråga.
 
 ![](assets/wkf_segment_activity.png)
 
@@ -112,7 +112,7 @@ Din andra övergång är nu också konfigurerad.
 
 ## Skapa leveranser {#creating-deliveries}
 
-När två övergångar redan har skapats måste du nu lägga till två typer av leveranser till de utgående övergångarna i segmenteringsaktiviteten: [E-postleverans](../../automating/using/email-delivery.md) aktivitet och [SMS-leverans](../../automating/using/sms-delivery.md) aktivitet.
+När två övergångar redan har skapats måste du nu lägga till två typer av leveranser till de utgående övergångarna för segmenteringsaktiviteten: en [e-postleveransaktivitet](../../automating/using/email-delivery.md) och en [SMS-leveransaktivitet](../../automating/using/sms-delivery.md) .
 
 Med Adobe Campaign kan du lägga till leveranser i ett arbetsflöde. Det gör du genom att välja en leverans i **[!UICONTROL Channels]**-kategorin på aktivitetspaletten i arbetsflödet.
 
@@ -120,7 +120,7 @@ Med Adobe Campaign kan du lägga till leveranser i ett arbetsflöde. Det gör du
 
 Så här skapar du en e-postleverans:
 
-1. Dra och släpp en [E-postleverans](../../automating/using/email-delivery.md) efter det första segmentet.
+1. Dra och släpp en [e-postleveransaktivitet](../../automating/using/email-delivery.md) efter det första segmentet.
 1. Dubbelklicka på aktiviteten för att redigera den.
 1. Välj **[!UICONTROL Simple email]**.
 1. Markera **[!UICONTROL Add an outbound transition with the population]** och klicka på **[!UICONTROL Next]**.
@@ -133,11 +133,11 @@ Så här skapar du en e-postleverans:
 1. Ange e-postegenskaperna och klicka på **[!UICONTROL Next]**.
 1. Om du vill skapa layouten för e-postmeddelandet väljer du **[!UICONTROL Use the Email Designer]**.
 1. Redigera och spara innehållet.
-1. I **[!UICONTROL Schedule]** i meddelandekontrollpanelen avmarkerar du **[!UICONTROL Request confirmation before sending messages]** alternativ.
+1. Avmarkera alternativet **[!UICONTROL Request confirmation before sending messages]** i avsnittet **[!UICONTROL Schedule]** på meddelandekontrollpanelen.
 
 Så här skapar du en SMS-leverans:
 
-1. Dra och släpp en [SMS-leverans](../../automating/using/sms-delivery.md) efter det andra segmentet.
+1. Dra och släpp en [SMS-leveransaktivitet](../../automating/using/sms-delivery.md) efter det andra segmentet.
 1. Dubbelklicka på aktiviteten för att redigera den.
 1. Markera **[!UICONTROL SMS]** och klicka på **[!UICONTROL Next]**.
 1. Välj en SMS-mall och klicka på **[!UICONTROL Next]**.
@@ -150,7 +150,7 @@ När leveransen har skapats och redigerats är arbetsflödet klart att startas.
 
 ## Köra arbetsflödet {#running-the-workflow}
 
-När arbetsflödet har startats är målgruppen **[!UICONTROL Query]** aktiviteten segmenteras för att ta emot en e-post- eller SMS-leverans.
+När arbetsflödet har startats segmenteras populationen som är mål för aktiviteten **[!UICONTROL Query]** för att ta emot en e-post- eller SMS-leverans.
 
 Klicka på knappen i åtgärdsfältet för att köra arbetsflödet **[!UICONTROL Start]**.
 

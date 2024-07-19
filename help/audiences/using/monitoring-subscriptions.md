@@ -21,18 +21,18 @@ Använd Adobe Campaign gränssnitt för att spåra era prenumeranter och mäta h
 
 Du kan övervaka prenumerationer och avbeställningar på flera olika sätt:
 
-* Visa en lista över personer som för närvarande prenumererar på din tjänst från kontrollpanelen för tjänster. Se [Instrumentpanel för tjänst](#service-dashboard).
-* Se historiken över prenumerationer och avbeställningar i **Prenumerationshistorik** på tjänstkontrollpanelen. Se [Prenumerationshistorik](#subscription-history).
-* Visa en rapport som beskriver utvecklingen av prenumerationer och avbeställningar i tjänsten **Rapporter**. Se [Servicerapporter](#service-reports).
-* Hitta en lista över tjänster som en person har prenumererat på **Profil**. Se [Historik över händelser som är kopplade till en profil](#history-of-events-linked-to-a-profile).
+* Visa en lista över personer som för närvarande prenumererar på din tjänst från kontrollpanelen för tjänster. Se [Tjänstinstrumentpanel](#service-dashboard).
+* Information om prenumerationshistorik och avbrutna prenumerationer finns på fliken **Prenumerationshistorik** på kontrollpanelen för tjänster. Se [Prenumerationshistorik](#subscription-history).
+* Visa en rapport som beskriver utvecklingen av prenumerationer och avbeställningar i tjänsten **Rapporter**. Se [Tjänstrapporter](#service-reports).
+* Hitta listan över tjänster som en person har prenumererat på i sin **profil**. Se [Historik över händelser som är länkade till en profil](#history-of-events-linked-to-a-profile).
 
 ## Instrumentpanel för tjänst {#service-dashboard}
 
 Så här visar du en lista över personer som prenumererar på en tjänst:
 
-1. Gå till listan med tjänster via den avancerade menyn **Profiler och målgrupper** > **Tjänster** som du kommer åt via Adobe Campaign logotyp.
+1. Gå till listan över tjänster via den avancerade menyn **Profiler och målgrupper** > **Tjänster** som du kommer åt via Adobe Campaign logotyp.
 1. Välj vilken tjänst du vill använda för att visa motsvarande instrumentpanel.
-1. Listan över personer som prenumererar på tjänsten finns i **Prenumerationer** -fliken.
+1. Listan över personer som prenumererar på tjänsten finns på fliken **Prenumerationer**.
 
 ![](assets/lp_monitoring_subscriptions_1.png)
 
@@ -40,9 +40,9 @@ Så här visar du en lista över personer som prenumererar på en tjänst:
 
 Så här läser du historiken för prenumerationer och avprenumerationer:
 
-1. Gå till listan med tjänster via den avancerade menyn **Profiler och målgrupper** > **Tjänster** som du kommer åt via Adobe Campaign logotyp.
+1. Gå till listan över tjänster via den avancerade menyn **Profiler och målgrupper** > **Tjänster** som du kommer åt via Adobe Campaign logotyp.
 1. Välj vilken tjänst du vill använda för att visa motsvarande instrumentpanel.
-1. Välj **Prenumerationshistorik** om du vill visa de datum som varje person prenumererar på och avbeställer.
+1. Välj fliken **Prenumerationshistorik** för att visa de datum som varje person prenumererade på och avbröt prenumerationen på.
 
 ![](assets/lp_monitoring_subscriptions_2.png)
 
@@ -50,18 +50,18 @@ Så här läser du historiken för prenumerationer och avprenumerationer:
 
 Så här visar du en rapport med information om utvecklingen av prenumerationer och upphörande av prenumerationer:
 
-1. Gå till listan med tjänster via den avancerade menyn **Profiler och målgrupper** > **Tjänster** som du kommer åt via Adobe Campaign logotyp.
+1. Gå till listan över tjänster via den avancerade menyn **Profiler och målgrupper** > **Tjänster** som du kommer åt via Adobe Campaign logotyp.
 1. Välj vilken tjänst du vill använda för att visa motsvarande instrumentpanel.
-1. Klicka på **Rapporter** i åtgärdsfältet och sedan **Prenumerationsövervakning** på markeringsskärmen.
+1. Klicka på knappen **Rapporter** i åtgärdsfältet och sedan på **Prenumerationsövervakning** i urvalsfönstret.
 
    ![](assets/lp_monitoring_subscriptions_3.png)
 
-1. The **Tjänstsammanfattning** rapporten visar antalet prenumerationer, den övergripande utvecklingen av prenumerationer och en kurva som visar hur lång tid det tar.
+1. Rapporten **Sammanfattning av tjänster** visar antalet prenumerationer, den övergripande utvecklingen av prenumerationer och en kurva som visar förloppet över tid.
 
 ![](assets/lp_monitoring_subscriptions_4.png)
 
 ## Historik över händelser som är kopplade till en profil {#history-of-events-linked-to-a-profile}
 
-Om du vill se en lista över tjänster som en kontakt har prenumererat på kan du läsa dess marknadsföringshistorik. Mer information finns i [Integrerad kundprofil](../../audiences/using/integrated-customer-profile.md) -avsnitt.
+Om du vill se en lista över tjänster som en kontakt har prenumererat på kan du läsa dess marknadsföringshistorik. Mer information finns i avsnittet [Integrerad kundprofil](../../audiences/using/integrated-customer-profile.md).
 
 ![](assets/lp_monitoring_subscriptions_5.png)

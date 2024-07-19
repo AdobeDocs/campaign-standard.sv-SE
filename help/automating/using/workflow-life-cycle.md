@@ -34,13 +34,13 @@ Arbetsflödets livscykel består av tre huvudsteg och varje steg är länkat til
 
 När arbetsflödet har startats kan det även ha två andra statusar:
 
-* **Varning** (gul)
+* **Varning** (gult)
 
-  Arbetsflödet kunde inte slutföras eller pausades med ![](assets/pause_darkgrey-24px.png) eller ![](assets/check_pause_darkgrey-24px.png) knappar.
+  Arbetsflödet kunde inte slutföras eller pausades med knapparna ![](assets/pause_darkgrey-24px.png) eller ![](assets/check_pause_darkgrey-24px.png).
 
 * **Fel** (röd)
 
-  Ett fel uppstod när ett arbetsflöde kördes. Arbetsflödet stoppades och användaren måste utföra en åtgärd. Om du vill veta mer om det här felet använder du ![](assets/printpreview_darkgrey-24px.png) knapp för att komma åt arbetsflödesloggen (se [Övervakning](../../automating/using/monitoring-workflow-execution.md)).
+  Ett fel uppstod när ett arbetsflöde kördes. Arbetsflödet stoppades och användaren måste utföra en åtgärd. Om du vill veta mer om det här felet använder du knappen ![](assets/printpreview_darkgrey-24px.png) för att få åtkomst till arbetsflödesloggen (se [Övervakning](../../automating/using/monitoring-workflow-execution.md)).
 
 Med listan över marknadsföringsaktiviteter kan du visa alla arbetsflöden och deras status. Mer information finns i [Hantera marknadsföringsaktiviteter](../../start/using/marketing-activities.md#about-marketing-activities).
 

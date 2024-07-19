@@ -28,15 +28,15 @@ I exemplet nedan visas hur du skickar ett e-postmeddelande med ytterligare data 
 
 Så här skapar du arbetsflödet:
 
-1. Dra och släpp en [Fråga](../../automating/using/query.md) -aktiviteten i arbetsflödet och öppna den för att definiera huvudmålet.
+1. Dra och släpp en [Query](../../automating/using/query.md)-aktivitet i arbetsflödet och öppna den för att definiera huvudmålet.
 
    <!--The Query activity is presented in the [Query](../../automating/using/query.md) section.-->
 
-1. Dra och släpp en [Läs in fil](../../automating/using/load-file.md) aktivitet för att tilldela vissa data till en profil. I det här exemplet läser du in en fil som innehåller kontonummer som motsvarar vissa profiler i databasen.
+1. Dra och släpp en [Läs in fil](../../automating/using/load-file.md)-aktivitet för att tilldela vissa data till en profil. I det här exemplet läser du in en fil som innehåller kontonummer som motsvarar vissa profiler i databasen.
 
    ![](assets/load_file_activity.png)
 
-1. Dra och släpp en [Berikning](../../automating/using/enrichment.md) -aktiviteten i arbetsflödet och länka inläsningsfilen och frågeaktiviteterna till den.
+1. Dra och släpp en [Enrichment](../../automating/using/enrichment.md)-aktivitet i ditt arbetsflöde och länka inläsningsfilen och frågeaktiviteterna till den.
 
 1. På fliken **[!UICONTROL Advanced relations]** för berikningsaktiviteter markerar du **[!UICONTROL 0 or 1 cardinality simple link]** och definierar fälten som ska användas för avstämning.  Här använder vi efternamnet för att stämma av data med databasprofilerna.
 
@@ -50,13 +50,13 @@ Så här skapar du arbetsflödet:
 
    Mer information finns i [beriknings](../../automating/using/enrichment.md)-avsnittet.
 
-1. Dra och släpp en [Segmentering](../../automating/using/segmentation.md) till ditt arbetsflöde och öppna det för att förfina huvudmålet.
+1. Dra och släpp en [segmenteringsaktivitet](../../automating/using/segmentation.md) i arbetsflödet och öppna den för att förfina huvudmålet.
 
    ![](assets/load_file_segmentation.png)
 
    Mer information finns i avsnittet [Segmentering](../../automating/using/segmentation.md) .
 
-1. Dra och släpp en [E-postleverans](../../automating/using/email-delivery.md) -aktivitet i ditt arbetsflöde och öppna det.
+1. Dra och släpp en [e-postleveransaktivitet](../../automating/using/email-delivery.md) i ditt arbetsflöde och öppna den.
 
    <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
 

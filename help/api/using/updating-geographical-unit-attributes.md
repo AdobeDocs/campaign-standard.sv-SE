@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Uppdatera attribut för en geografisk enhet {#managing-geographical-units}
 
-1. Utför en GET-förfrågan på **geoUnitBase** resurs för att hämta den geografiska enheten PKey.
+1. Utför en GET-begäran på **geoUnitBase**-resursen för att hämta den geografiska enhetens PKey.
 1. Utför en begäran från PATCH på den geografiska enheten, med de attribut som ska uppdateras i nyttolasten.
 
 <br/>

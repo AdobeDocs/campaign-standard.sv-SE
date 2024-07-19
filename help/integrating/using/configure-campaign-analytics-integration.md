@@ -23,25 +23,25 @@ För att starta integreringen mellan Adobe Campaign Standard och Adobe Analytics
 
 Externa konton och tekniska arbetsflöden kan bara hanteras av plattformens funktionsadministratör.
 
-1. På den avancerade menyn via Adobe Campaign logotyp väljer du **[!UICONTROL Administration > Application settings > External accounts]**.
-1. Välj **[!UICONTROL Share KPIs with Adobe Analytics]** externt konto.
+1. Välj **[!UICONTROL Administration > Application settings > External accounts]** på den avancerade menyn via Adobe Campaign logotyp.
+1. Välj det **[!UICONTROL Share KPIs with Adobe Analytics]** externa kontot.
 
    ![](assets/analytics_2.png)
 
-1. Ange **[!UICONTROL Web services user name]** och **[!UICONTROL Web services share secret]** i **[!UICONTROL Connection]** fält.
+1. Ange **[!UICONTROL Web services user name]** och **[!UICONTROL Web services share secret]** i fältet **[!UICONTROL Connection]**.
 
    Dessa parametrar finns i Analytics genom att välja **[!UICONTROL Admin > Company settings > Web services]**.
 
    ![](assets/analytics_1.png)
 
 1. Klicka på knappen **[!UICONTROL Refresh report suites]**.
-1. Välj i dialogrutan **[!UICONTROL Analytics default report suite]** listruta för den Adobe Analytics-rapportsserie som du vill berika med Adobe Campaign-data.
+1. I listrutan **[!UICONTROL Analytics default report suite]** väljer du den Adobe Analytics-rapportserie som du vill utöka med Adobe Campaign-data.
 
-   Ditt externa konto är nu klart och länkat med Adobe Analytics. Du kan när som helst inaktivera den genom att kontrollera **[!UICONTROL Enabled]** box.
+   Ditt externa konto är nu klart och länkat med Adobe Analytics. Du kan inaktivera det när som helst genom att markera rutan **[!UICONTROL Enabled]**.
 
    ![](assets/analytics.png)
 
-The **[!UICONTROL Share KPIs with Adobe Analytics]** det tekniska arbetsflödet startas nu automatiskt och kan visas från den avancerade menyn genom att välja **[!UICONTROL Administration > Application settings > Workflow]**. Det här tekniska arbetsflödet kan behålla upp till sex månaders gamla utsändningar. Observera att det här arbetsflödet är inkrementellt och kommer att överföra data från föregående dag.
+Det tekniska arbetsflödet **[!UICONTROL Share KPIs with Adobe Analytics]** startar nu automatiskt och kan visas från den avancerade menyn genom att välja **[!UICONTROL Administration > Application settings > Workflow]**. Det här tekniska arbetsflödet kan behålla upp till sex månaders gamla utsändningar. Observera att det här arbetsflödet är inkrementellt och kommer att överföra data från föregående dag.
 
 ![](assets/analytics_3.png)
 
@@ -51,4 +51,4 @@ Dina data finns nu i Adobe Analytics.
 
 * [Externa konton](../../administration/using/external-accounts.md)
 * [Tekniska arbetsflöden](../../administration/using/technical-workflows.md)
-* [Dela nyckeltal för integrerad kampanjrapportering](https://helpx.adobe.com/se/marketing-cloud/how-to/email-marketing.html) video
+* [Dela KPI:er för integrerad kampanjrapportering](https://helpx.adobe.com/se/marketing-cloud/how-to/email-marketing.html) - video

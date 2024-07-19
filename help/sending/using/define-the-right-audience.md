@@ -30,21 +30,21 @@ För att leveransen ska bli framgångsrik vill ni skicka det mest relevanta pers
 
 ## Målmappningar {#target-mappings}
 
-Som standard är målet för leveransmallar **Profiler**. Adobe Campaign erbjuder andra målmappningar för leveranser som du kan ändra efter behov.
+Som standard är leveransmallar avsedda för **profiler**. Adobe Campaign erbjuder andra målmappningar för leveranser som du kan ändra efter behov.
 
-De här mappningarna visas [i det här avsnittet](../../automating/using/query.md#targeting-dimensions-and-resources).
+Dessa mappningar presenteras [ i det här avsnittet](../../automating/using/query.md#targeting-dimensions-and-resources).
 
 Du kan också skapa och använda en anpassad målmappning. Mer information om detta finns i [det här avsnittet](../../administration/using/target-mappings-in-campaign.md).
 
 ## Externa data {#external-data}
 
-Du kan leverera till mottagare som lagras i en extern fil i stället för att sparas i databasen. Om du gör det läser du in data i databasen från en fil och skapar en associerad målgrupp.  Läs mer [i det här fallet](../../automating/using/use-case-calling-workflow.md). Se även [Anropa ett arbetsflöde med parametrar](../../automating/using/calling-a-workflow-with-external-parameters.md).
+Du kan leverera till mottagare som lagras i en extern fil i stället för att sparas i databasen. Om du gör det läser du in data i databasen från en fil och skapar en associerad målgrupp.  Läs mer [i det här användningsfallet](../../automating/using/use-case-calling-workflow.md). Se även [Anropa ett arbetsflöde med parametrar](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
 ## Skicka till prenumeranterna {#send-to-subscribers}
 
 Om du vill skicka meddelanden till prenumeranterna på ett nyhetsbrev kan du rikta dem direkt till motsvarande informationstjänst. Läs mer [i det här avsnittet](../../audiences/using/about-subscriptions.md).
 
-**Tips** - Du kan skapa en List-publik som riktar sig till prenumeranterna i ditt nyhetsbrev med hjälp av ett arbetsflöde. Sedan kan ni välja den här målgruppen i en leverans. Mer information finns i [Skapa listmålgrupper](../../audiences/using/creating-audiences.md#creating-list-audiences).
+**Tips** - Du kan skapa en List-målgrupp som riktar sig till prenumeranterna i ditt nyhetsbrev med hjälp av ett arbetsflöde. Sedan kan ni välja den här målgruppen i en leverans. Mer information finns i [Skapa listmålgrupper](../../audiences/using/creating-audiences.md#creating-list-audiences).
 
 ## Korrektur, testprofiler och kontrollgrupper {#proofs-test-control-groups}
 
@@ -53,7 +53,7 @@ Se till att du väljer rätt korrekturmottagare eftersom de validerar formuläre
 
 Läs mer om testprofiler [i det här avsnittet](../../audiences/using/managing-test-profiles.md).
 
-Du kan använda [Kontrollgrupper](../../sending/using/control-group.md) för att mäta effekten av era kampanjer genom att utesluta en del av deras målgrupp. Sedan kan du jämföra beteendet hos målpopulationen som fick meddelandet med beteendet hos kontakter som inte var med i målgrupperna. Baserat på de skickade loggarna kan du även inrikta dig på en kontrollgrupp i framtida kampanjer.
+Du kan använda [Kontrollgrupper](../../sending/using/control-group.md) för att mäta effekten av dina kampanjer genom att utesluta en del av deras målgrupp. Sedan kan du jämföra beteendet hos målpopulationen som fick meddelandet med beteendet hos kontakter som inte var med i målgrupperna. Baserat på de skickade loggarna kan du även inrikta dig på en kontrollgrupp i framtida kampanjer.
 
 ## Deduplicera adresser {#deduplicate-addresses}
 
@@ -65,4 +65,4 @@ Det är viktigt att undvika att ha dubbla e-postadresser, eftersom detta kan på
 
 Borttagning av dubbletter skyddar det avsändande anseendet och garanterar en god karantänhantering.
 
-Läs mer [i det här fallet](../../automating/using/deduplicating-data-imported-file.md).
+Läs mer [i det här användningsfallet](../../automating/using/deduplicating-data-imported-file.md).

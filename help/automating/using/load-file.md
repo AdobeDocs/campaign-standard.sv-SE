@@ -105,7 +105,7 @@ Aktivitetskonfigurationen omfattar två steg.  Först måste du definiera den f�
 
 1. Om filen du vill läsa in data från är komprimerad till en GZIP-fil (.gz) väljer du alternativ **[!UICONTROL Decompression]** i fält **[!UICONTROL Add a pre-processing stage]**.  På så sätt kan du packa upp filen innan du läser in data.  Det här alternativet är endast tillgängligt om filen kommer från aktivitetens ingående övergång.
 
-   The **[!UICONTROL Add a pre-processing stage]** I kan du även dekryptera en fil innan du importerar den till databasen. Mer information om hur du arbetar med krypterade filer finns i [det här avsnittet](../../automating/using/managing-encrypted-data.md)
+   I fältet **[!UICONTROL Add a pre-processing stage]** kan du även dekryptera en fil innan du importerar den till databasen. Mer information om hur du arbetar med krypterade filer finns i [det här avsnittet](../../automating/using/managing-encrypted-data.md)
 
 1. Med det här **[!UICONTROL Keep the rejects in a file]** alternativet kan du hämta en fil som innehåller fel som inträffade under importeringen och använda den i ett steg efter bearbetningen.  När alternativet är aktiverat får den utgående övergången namnet &quot;Avvisade&quot;.
 

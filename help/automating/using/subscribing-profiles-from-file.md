@@ -24,7 +24,7 @@ Arbetsflödet presenteras på följande sätt:
 
 ![](assets/subscription_activity_example1.png)
 
-* A [Läs in fil](../../automating/using/load-file.md) aktiviteten läser in profilfilen och definierar strukturen för de importerade kolumnerna.
+* En [Läs in fil](../../automating/using/load-file.md)-aktivitet läser in profilfilen och definierar strukturen för de importerade kolumnerna.
 
   I det här exemplet är den inlästa filen i CSV-format och innehåller följande data:
 
@@ -43,14 +43,14 @@ Arbetsflödet presenteras på följande sätt:
 
   ![](assets/subscription_activity_example2.png)
 
-* A [Avstämning](../../automating/using/reconciliation.md) anger att data från filen tillhör profildimensionen i Adobe Campaign-databasen. Endast fliken **[!UICONTROL Identification]** är konfigurerad. Den identifierar fildata enligt profilernas e-postadresser.
+* En [avstämningsaktivitet](../../automating/using/reconciliation.md) identifierar data från filen som tillhör profildimensionen i Adobe Campaign-databasen. Endast fliken **[!UICONTROL Identification]** är konfigurerad. Den identifierar fildata enligt profilernas e-postadresser.
 
   ![](assets/subscription_activity_example3.png)
 
-* A [Deduplicering](../../automating/using/deduplication.md) baserat på **e-post** fältet för den tillfälliga resursen (som är ett resultat av avstämningen) identifierar eventuella dubbletter. Om de data som importeras från filen innehåller dubbletter, kommer prenumerationen på en tjänst att misslyckas för alla data.
+* En [deduplicering](../../automating/using/deduplication.md) som baseras på fältet **email** för den tillfälliga resursen (som är ett resultat av avstämningen) identifierar eventuella dubbletter. Om de data som importeras från filen innehåller dubbletter, kommer prenumerationen på en tjänst att misslyckas för alla data.
 
   ![](assets/subscription_activity_example5.png)
 
-* A [Prenumerationstjänster](../../automating/using/subscription-services.md) Med -aktiviteten kan du välja den tjänst som profilerna ska prenumereras på, det fält som motsvarar prenumerationsdatumet och prenumerationens ursprung.
+* Med en [prenumerationstjänst](../../automating/using/subscription-services.md)-aktivitet kan du välja den tjänst som profilerna ska prenumerera på, fältet som motsvarar prenumerationsdatumet och prenumerationens ursprung.
 
   ![](assets/subscription_activity_example4.png)

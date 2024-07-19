@@ -46,23 +46,23 @@ På Kontrollpanelen kan du hantera flera inställningar för instansen: URL-beh�
 
 **Tekniska objekt**
 
-The **[!UICONTROL Diagnosis]** -menyn är ett nyckelverktyg för att övervaka och analysera de olika tekniska objekt som genereras av programmet: dataram, webbsidor, batchjobb osv. [Läs mer](../../developing/using/monitoring-data-model-changes.md)
+Menyn **[!UICONTROL Diagnosis]** är ett nyckelverktyg för att övervaka och analysera de olika tekniska objekt som genereras av programmet: datamodeller, webbsidor, batchjobb osv. [Läs mer](../../developing/using/monitoring-data-model-changes.md)
 
-**Exportrevisioner**
+**Exportera granskningar**
 
 Med exportgranskningar kan du övervaka exporten som utförs på dina instanser: filer som överförs från arbetsflöden, listexporter och filer som hämtas från direktmeddelanden.
 [Läs mer](../../administration/using/auditing-export-logs.md)
 
 **Licenser**
 
-Med **[!UICONTROL Licenses]** kan du övervaka information om dina instanser: installerade licenser, byggversioner och avtalsvillkor.
+Med menyn **[!UICONTROL Licenses]** kan du övervaka information om dina instanser: installerade licenser, build-versioner och avtalsvillkor som accepteras.
 [Läs mer](../../administration/using/licenses.md)
 
 ## Övervaka arbetsflöden {#monitoring-workflows}
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
-**Bästa praxis och felsökning**
+**God praxis och felsökning**
 
 Du kan förbättra prestandan genom att följa vedertagna standarder och felsökningsriktlinjer när du använder arbetsflöden.
 [Läs mer](../../automating/using/best-practices-workflows.md)
@@ -91,7 +91,7 @@ Campaign Standard innehåller flera leveransverktyg som hjälper dig att förbä
 När dina meddelanden har skickats kan ni med hjälp av detaljerade loggar övervaka leveranserna och mäta kampanjens framgångar, samt spåra beteendet hos meddelandemottagarna.
 [Läs mer](../../sending/using/monitoring-a-delivery.md)
 
-**Leveransvarningar**
+**Leveransvarning**
 
 Med funktionen Leveransvarning kan du ställa in varningar som automatiskt skickas till en grupp användare för körning av leveranser: misslyckad sändning eller förberedelse, dålig studentfrekvens, låg genomströmning osv.
 [Läs mer](../../sending/using/receiving-alerts-when-failures-happen.md)

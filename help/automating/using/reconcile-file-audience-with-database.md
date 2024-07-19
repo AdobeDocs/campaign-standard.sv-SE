@@ -50,6 +50,6 @@ Arbetsflödet för sammankoppling är utformat så här:
 
 ![](assets/readaudience_activity_example2.png)
 
-* A [Läsa målgrupper](../../automating/using/read-audience.md) -aktiviteten överför den filmålgrupp som skapades i importarbetsflödet. Målgruppsdata är ännu inte sammankopplat med Adobe Campaign-databasen.
+* En [målgruppsaktivitet för läsning](../../automating/using/read-audience.md) överför den målgrupp som skapats i importarbetsflödet. Målgruppsdata är ännu inte sammankopplat med Adobe Campaign-databasen.
 * En [sammankopplings](../../automating/using/reconciliation.md)-aktivitet identifierar inkommande data som profiler på fliken **[!UICONTROL Identification]**.    Du kan exempelvis använda **e-post** fältet som sammankopplingskriterie.
 * En [Uppdatera data](../../automating/using/update-data.md)-aktivitet infogar och uppdaterar profilresursen för databasen med inkommande data.  Eftersom data redan har identifierats som profiler kan du markera **[!UICONTROL Directly using the targeting dimension]** alternativet och välja **[!UICONTROL Profiles]** i aktivitetens **[!UICONTROL Identification]** flik.  Sedan behöver du endast lägga till listan med fält som behöver uppdateras på fliken.

@@ -58,9 +58,9 @@ Stegen för att skapa ett fristående meddelande i appen med Adobe Campaign är 
    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**
    * **[!UICONTROL Target users based on their Mobile profile (inApp)]**
 
-1. Ange meddelandeegenskaperna i appen och välj din mobilapp i dialogrutan **[!UICONTROL Associate a Mobile App to a delivery]** fält.
+1. Ange meddelandeegenskaperna i appen och välj din mobilapp i fältet **[!UICONTROL Associate a Mobile App to a delivery]**.
 
-   Om inga program visas i listrutan kontrollerar du att dina mobilprogram finns i en **Konfigurerad** tillstånd. Program i en **Klar att konfigureras** visas inte i listan. Mer information om konfiguration av mobilprogram finns på den här [sidan](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
+   Om inga program visas i listrutan kontrollerar du att dina mobilprogram är i läget **Konfigurerad**. Program i tillståndet **Klar att konfigureras** visas inte i listan. Mer information om konfiguration av mobilprogram finns på den här [sidan](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
    ![](assets/inapp_creating_3.png)
 
@@ -92,7 +92,7 @@ Stegen för att skapa ett fristående meddelande i appen med Adobe Campaign är 
 
    ![](assets/inapp_creating_4.png)
 
-1. Om du använder en **[!UICONTROL Analytics Events]**, Adobe Analytics- och View-statushändelser fylls i automatiskt baserat på de rapportsviter som konfigurerats i Analytics-tillägget i användargränssnittet för datainsamling, medan kontextdatahändelser måste läggas till manuellt.
+1. Om du använder en **[!UICONTROL Analytics Events]** fylls Adobe Analytics- och View-tillståndshändelser i automatiskt baserat på de rapportsviter som konfigurerats i Analytics-tillägget i användargränssnittet för datainsamling, medan kontextdatahändelser måste läggas till manuellt.
 
    Observera att dessa händelser endast är tillgängliga om du har en Adobe Analytics-licens.
 
@@ -163,7 +163,7 @@ När du är klar med leveransen och godkännandestegen har utförts kan du skick
 
 1. När du har skickat meddelanden i appen kan du välja att inaktivera leveransen. Detta kan vara användbart om du vill stoppa en viss leverans eller om du vill köra en ny leverans med samma utlösare.
 
-   Klicka **[!UICONTROL Deactivate]** sedan **[!UICONTROL Ok]** för att starta avaktiveringsbegäran.
+   Klicka på **[!UICONTROL Deactivate]** och sedan **[!UICONTROL Ok]** för att starta inaktiveringsbegäran.
 
    ![](assets/inapp_sending_8.png)
 

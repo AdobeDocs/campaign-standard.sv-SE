@@ -19,12 +19,12 @@ ht-degree: 19%
 
 <table style="table-layout:fixed">
 <tr>
-<td><img src="assets/do-not-localize/config_push.png" width="60px"><p>Lär dig hur du konfigurerar ditt mobilprogram för push-meddelanden </br><a href="#configuration-push">Klicka här</a></p></td>
+<td><img src="assets/do-not-localize/config_push.png" width="60px"><p>Lär dig konfigurera ditt mobilprogram för push-meddelanden </br><a href="#configuration-push">Klicka här</a></p></td>
 <td><img src="assets/do-not-localize/config_inapp.png" width="60px"><p>Lär dig konfigurera ditt mobilprogram för meddelanden i appen </br><a href="#configuring-mobile-app">Klicka här</a></p></td>
 </tr>
 <tr>
 <td><img src="assets/do-not-localize/push2.png" width="60px"><p>Läs mer om hur du skapar push-meddelanden </br><a href="#create-push">Klicka här</a></p></td>
-<td><img src="assets/do-not-localize/inapp.png" width="60px"><p>Lär dig hur du skapar meddelanden i programmet</br><a href="#create-inapp">Klicka här</a></p></td></tr>
+<td><img src="assets/do-not-localize/inapp.png" width="60px"><p>Lär dig hur du skapar meddelanden i appen</br><a href="#create-inapp">Klicka här</a></p></td></tr>
 </table>
 
 ## Om mobilleverans {#about-mobile}
@@ -68,7 +68,7 @@ Med Adobe Campaign Standard kan ni skicka mobilleveranser via tre olika kanaler:
     <div>
     <p><strong>Implementera push-spårning</strong></p>
     </div>
-    <p>Lär dig hur du kontrollerar att spårning av push-meddelanden har implementerats korrekt på iOS och Android.</br><a href="../../administration/using/push-tracking.md"><strong>Klicka här</strong></a> för mer information.</p>
+    <p>Lär dig hur du säkerställer att spårning av push-meddelanden har implementerats korrekt på iOS och Android.</br><a href="../../administration/using/push-tracking.md"><strong>Klicka här</strong></a> för mer information.</p>
     <br>
   </td>
 </tr>
@@ -98,7 +98,7 @@ Med Adobe Campaign Standard kan ni skicka mobilleveranser via tre olika kanaler:
     <div>
     <p><strong>Konfigurera taggningsregler för att stödja användningsfall i Adobe Campaign Standard</strong></p>
     </div>
-    <p><a href="../../administration/using/configuring-rules-launch.md"><strong>Klicka här</strong></a> för att börja skapa dataelement och regler i användargränssnittet för datainsamling för att skicka PII och andra data från mobilprogram till Adobe Campaign Standard.</p>
+    <p><a href="../../administration/using/configuring-rules-launch.md"><strong>Klicka här</strong></a> för att börja skapa dataelement och regler i användargränssnittet för datainsamling och skicka PII och andra data från mobilprogram till Adobe Campaign Standard.</p>
     <br>
   </td>
   <td>
@@ -119,7 +119,7 @@ Med Adobe Campaign Standard kan ni skicka mobilleveranser via tre olika kanaler:
     <div>
     <p><strong>Förbereda och skicka ett push-meddelande</strong></p>
     </div>
-    <p><a href="../../channels/using/preparing-and-sending-a-push-notification.md"><strong>Läs här</strong></a> hur du förbereder ditt push-meddelande och hur du skickar det till målgruppen.</p>
+    <p><a href="../../channels/using/preparing-and-sending-a-push-notification.md"><strong>Lär dig här</strong></a> hur du förbereder ditt push-meddelande och hur du skickar det till din målgrupp.</p>
     <br>
   </td>
   <td>
@@ -142,7 +142,7 @@ Med Adobe Campaign Standard kan ni skicka mobilleveranser via tre olika kanaler:
     <div>
     <p><strong>Visa en bild från ett push-meddelande från Adobe Campaign Standard</strong></p>
     </div>
-    <p><a href="../../administration/using/image-push-notification.md"><strong>Läs här</strong></a> hur du visar en bild från ett push-meddelande från Adobe Campaign på en iOS-enhet.</p>
+    <p><a href="../../administration/using/image-push-notification.md"><strong>Lär dig här</strong></a> hur du visar en bild från ett push-meddelande från Adobe Campaign på en iOS-enhet.</p>
     <br>
   </td>
 </tr>
@@ -156,7 +156,7 @@ Med Adobe Campaign Standard kan ni skicka mobilleveranser via tre olika kanaler:
     <div>
     <p><strong>Förbereda och skicka ett meddelande i appen</strong></p>
     </div>
-    <p><a href="../../channels/using/preparing-and-sending-an-in-app-message.md"><strong>Läs här</strong></a> hur ni förbereder era meddelanden i appen och hur ni skickar dem till er målgrupp.</p>
+    <p><a href="../../channels/using/preparing-and-sending-an-in-app-message.md"><strong>Lär dig här</strong></a> hur du förbereder dina meddelanden i appen och skickar dem till din målgrupp.</p>
     <br>
   </td>
   <td>
@@ -193,7 +193,7 @@ Med Adobe Campaign Standard kan ni skicka mobilleveranser via tre olika kanaler:
     <div>
     <p><strong>Skapa ett SMS-meddelande</strong></p>
     </div>
-    <p>Att skapa en SMS-leverans påminner mycket om hur man skapar ett vanligt e-postmeddelande. </br>Stegen <a href="../../channels/using/creating-an-sms-message.md"><strong>detaljerad här</strong></a> beskriver konfigurationen som är specifik för den här kanalen.</p>
+    <p>Att skapa en SMS-leverans påminner mycket om hur man skapar ett vanligt e-postmeddelande. </br>Stegen <a href="../../channels/using/creating-an-sms-message.md"><strong>som beskrivs här</strong></a> beskriver konfigurationen som är specifik för den här kanalen.</p>
     <br>
   </td>
   <td>
@@ -210,7 +210,7 @@ Med Adobe Campaign Standard kan ni skicka mobilleveranser via tre olika kanaler:
     <div>
     <p><strong>Hantera inkommande SMS</strong></p>
     </div>
-    <p>När en profil svarar på ett SMS-meddelande som skickades via Campaign kan du konfigurera meddelanden som automatiskt skickas tillbaka till dem samt åtgärden som ska utföras.Anpassa en lokal meddelandetyp</br><a href="../../channels/using/managing-incoming-sms.md"><strong>Klicka här för mer information.</p>
+    <p>När en profil svarar på ett SMS-meddelande som skickades via Campaign kan du konfigurera meddelanden som automatiskt skickas tillbaka till dem samt åtgärden som ska utföras. Anpassa en lokal meddelandetyp</br><a href="../../channels/using/managing-incoming-sms.md"><strong>Klicka här om du vill ha mer information.</p>
     <br>
   </td>
   <td>

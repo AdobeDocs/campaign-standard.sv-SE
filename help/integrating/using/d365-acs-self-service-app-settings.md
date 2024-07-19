@@ -19,11 +19,11 @@ ht-degree: 2%
 
 ## Lägg till inloggningsuppgifter i integreringsappen
 
-The **[!UICONTROL Settings]** kan du ange Microsoft Dynamics 365- och Adobe API-autentiseringsuppgifter. Du kan också konfigurera inställningar för Adobe Campaign SFTP-instansen.
+På skärmen **[!UICONTROL Settings]** kan du ange Microsoft Dynamics 365- och Adobe API-autentiseringsuppgifter. Du kan också konfigurera inställningar för Adobe Campaign SFTP-instansen.
 
 ### Microsoft Dynamics 365-autentiseringsuppgifter
 
-Microsoft Dynamics 365-autentiseringsuppgifterna ger integrationsprogrammet behörighet att hämta data från Microsoft Dynamics 365.  Du måste först följa stegen på skärmen [Konfigurera integrering av Microsoft Dynamics 365 för Campaign](../../integrating/using/d365-acs-configure-d365.md) för att generera de värden som ska klistras in på skärmen. Indata som beskrivs nedan kommer att hänvisa till den här skärmen.
+Microsoft Dynamics 365-autentiseringsuppgifterna ger integrationsprogrammet behörighet att hämta data från Microsoft Dynamics 365.  Du måste först följa stegen på skärmen [Konfigurera Microsoft Dynamics 365 för Campaign-integrering](../../integrating/using/d365-acs-configure-d365.md) för att kunna generera de värden som ska klistras in på den här skärmen. Indata som beskrivs nedan kommer att hänvisa till den här skärmen.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-d365.png)
 
@@ -37,20 +37,20 @@ Microsoft Dynamics 365-autentiseringsuppgifterna ger integrationsprogrammet beh�
 
 ### Adobe API-autentiseringsuppgifter
 
-Adobe Campaign-inloggningsuppgifterna genereras med [Adobe I/O](https://www.adobe.io/). Du måste besöka skärmen [Konfigurera Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md) och följ instruktionerna där innan du kan fylla i indata i det här avsnittet.
+Adobe Campaign-autentiseringsuppgifterna genereras med [Adobe I/O](https://www.adobe.io/). Du måste besöka skärmen [Konfigurera Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md) och följa instruktionerna där innan du kan fylla i indata i det här avsnittet.
 
 * Välj autentiseringstypen som Oauth eftersom JWT-baserad autentisering är inaktuell.
 * I följande bild förklaras i detalj mappningen mellan Adobe I/O och inställningsskärmens indata.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-adobeio.png)
 
-* *URL*: Det här värdet passar mönstret /mc.adobe.io/&lt;campaign-instance-name>. Integreringsprogrammets huvud innehåller både&quot;Org&quot; och&quot;Instance&quot;. Delen&quot;campaign-instance-name&quot; i URL:en är bara det namn som finns i det här instansvärdet.
+* *URL*: Det här värdet passar mönstret https\://mc.adobe.io/&lt;campaign-instance-name>. Integreringsprogrammets huvud innehåller både&quot;Org&quot; och&quot;Instance&quot;. Delen&quot;campaign-instance-name&quot; i URL:en är bara det namn som finns i det här instansvärdet.
 
 ## Adobe Campaign SFTP-inställningar {#ac-smtp-settings}
 
 Dessa inställningar är valfria. Du måste definiera dem om du tänker använda din Adobe Campaign SFTP-instans för att skriva ut loggar från anslutningen. Detta är praktiskt om du får problem när integreringen körs och du behöver felsöka varför utdata inte uppfyller dina förväntningar.
 
-Den andra anledningen till att konfigurera SFTP-servern är om du planerar att köra arbetsflödet för anmälan/utanmälan och det finns ett dataflöde från Adobe Campaign till Microsoft Dynamics 365, antingen **[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]** eller **[!UICONTROL Bidirectional]**.
+Ett annat skäl till att konfigurera SFTP-servern är om du planerar att köra arbetsflödet för anmälan/utanmälan och det finns ett dataflöde från Adobe Campaign till Microsoft Dynamics 365, antingen **[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]** eller **[!UICONTROL Bidirectional]**.
 
 >[!IMPORTANT]
 >
@@ -63,19 +63,19 @@ Du kan definiera inställningar för Campaign SFTP för Microsoft Dynamics 365-i
 
 Du måste ange:
 
-* **SFTP-värd**: det här fältet innehåller &lt;campaign-instance-name>.campaign.adobe.com. Integreringsprogrammets huvud innehåller båda **Org** och **Instance**. Delen&quot;campaign-instance-name&quot; i URL:en är bara det namn som finns i det här instansvärdet.
+* **SFTP-värd**: det här fältet innehåller &lt;campaign-instance-name>.campaign.adobe.com. Integreringsprogrammets huvud innehåller både **organisationen** och **instansen**. Delen&quot;campaign-instance-name&quot; i URL:en är bara det namn som finns i det här instansvärdet.
 
-* **SFTP-användare**: Om du har SFTP-användaren lägger du till den här. Annars, se [det här avsnittet](#ac-control-panel-settings). Som en del av processen visas användarnamnet.
+* **SFTP-användare**: Om du har SFTP-användare lägger du till den här. Se även [det här avsnittet](#ac-control-panel-settings). Som en del av processen visas användarnamnet.
 
-* **SFTP-nyckel**: Om du har en SSH-nyckel lägger du till den här. Annars, se [det här avsnittet](#ac-control-panel-settings).
+* **SFTP-nyckel**: Om du har en SSH-nyckel lägger du till den här. Se även [det här avsnittet](#ac-control-panel-settings).
 
-* The **IP-intervall** måste ingå i din Adobe Campaign SFTP-konfiguration. Dessa måste tillåtslista för att integreringen ska kunna använda SFTP-slutpunkten.
+* **IP-intervallen** måste inkluderas i din Adobe Campaign SFTP-konfiguration. Dessa måste tillåtslista för att integreringen ska kunna använda SFTP-slutpunkten.
 
-* The **Vill du exportera loggar till din Adobe Campaign SFTP?** Med kan du avgöra om integreringen kommer att skicka loggningsinformation till SFTP-slutpunkten. Detta kan användas som hjälp vid felsökning om Adobe Campaign eller Microsoft Dynamics 365 inte visar den information du väntar dig.
+* **Vill du exportera loggar till din Adobe Campaign SFTP?Med** kan du avgöra om integreringen kommer att skicka loggningsinformation till SFTP-slutpunkten. Detta kan användas som hjälp vid felsökning om Adobe Campaign eller Microsoft Dynamics 365 inte visar den information du väntar dig.
 
 ## SFTP-konfiguration i Adobe Campaign {#ac-control-panel-settings}
 
-Upptäck SFTP-hantering med [Kampanjkontrollpanelen](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=sv) i dessa avsnitt:
+Upptäck SFTP-hantering med [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=sv) i följande avsnitt:
 
 * [Om SFTP-hantering](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=sv#sftp-management)
 
@@ -89,4 +89,4 @@ Upptäck SFTP-hantering med [Kampanjkontrollpanelen](https://experienceleague.ad
 
 När konfigurationen är klar loggar du in på SFTP-servern med den privata nyckeln och skapar katalogen &quot;d365_loads/exporting&quot;.
 
-[Besök den här sidan](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=sv#sftp-management) om du vill ha information om Adobe Campaign Standard SFTP-servern.
+[På den här sidan](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=sv#sftp-management) finns information om Adobe Campaign Standard SFTP-servern.

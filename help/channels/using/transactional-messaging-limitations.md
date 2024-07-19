@@ -26,7 +26,7 @@ I det här avsnittet beskrivs de bästa metoderna och begränsningarna som du b�
 
 ## Behörigheter {#permissions}
 
-Endast användare med [Administration](../../administration/using/users-management.md#functional-administrators) kan konfigurera transaktionshändelser och få åtkomst till transaktionsmeddelanden.
+Endast användare med rollen [Administration](../../administration/using/users-management.md#functional-administrators) kan konfigurera transaktionshändelser och komma åt transaktionsmeddelanden.
 
 ## Händelsekonfiguration och publicering {#design-and-publication}
 
@@ -45,26 +45,26 @@ Antalet publicerade transaktionsmeddelanden kan ha stor effekt på din plattform
 
 För att få bästa prestanda kan du även avpublicera eller ta bort oanvända händelser. Om du avpublicerar eller tar bort en händelse avpubliceras eller raderas även motsvarande transaktionsmeddelanden och eventuella sändnings- och spårningsloggar. Se [Avpublicera en händelse](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) och [Ta bort en händelse](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
-## Personalisering {#personalization}
+## Personalization {#personalization}
 
 Hur du kan anpassa ett meddelandeinnehåll beroende på typen av transaktionsmeddelande.    Specifikationer anges nedan.
 
 ### Händelsebaserade transaktionsmeddelanden
 
-* Personaliseringsinformationen hämtas från data som finns i själva händelsen.        Se [Händelsebaserad konfiguration av transaktionsmeddelande](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
-* Du **inte** use **[!UICONTROL Unsubscription link]** innehållsblock i ett händelsetransaktionsmeddelande.
-* Händelsebaserade transaktionsmeddelanden ska bara använda de data som finns i den skickade händelsen för att definiera mottagaren och meddelandets innehållspersonalisering.        Du kan dock utöka innehållet i transaktionsmeddelandet med information från Adobe Campaign-databasen.        Se [Anpassa en händelse](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) och [Anpassa ett transaktionsmeddelande](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
+* Personaliseringsinformationen hämtas från data som finns i själva händelsen.        Se [Händelsebaserad konfiguration för transaktionsmeddelande](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
+* Du **kan inte** använda **[!UICONTROL Unsubscription link]** innehållsblock i ett händelsetransaktionsmeddelande.
+* Händelsebaserade transaktionsmeddelanden ska bara använda de data som finns i den skickade händelsen för att definiera mottagaren och meddelandets innehållspersonalisering.        Du kan dock utöka innehållet i transaktionsmeddelandet med information från Adobe Campaign-databasen.        Se [Förbättra en händelse](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) och [Anpassa ett transaktionsmeddelande](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 * Eftersom transaktionsmeddelanden inte innehåller någon profilinformation är de inte kompatibla med trötthetsregler, även om det finns en anrikning med profiler.
 
 ### Profilbaserade transaktionsmeddelanden
 
-* Personaliseringsinformationen kan hämtas från data som finns i händelsen eller från profildatan.        Se [Profilbaserad konfiguration för transaktionsmeddelande](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) och [Specifikationer för profilbaserade transaktionsmeddelanden](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).
-* Du **kan** use **[!UICONTROL Unsubscription link]** innehållsblock i ett profiltransaktionsmeddelande. Se [Lägg till ett innehållsblock](../../designing/using/personalization.md#adding-a-content-block).
+* Personaliseringsinformationen kan hämtas från data som finns i händelsen eller från profildatan.        Se [Profilbaserad konfiguration för transaktionsmeddelande](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) och [Profilbaserade transaktionsmeddelandespecifikationer](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).
+* Du **kan** använda **[!UICONTROL Unsubscription link]** innehållsblock i ett profiltransaktionsmeddelande. Se [Lägg till ett innehållsblock](../../designing/using/personalization.md#adding-a-content-block).
 * Fatigue-regler är kompatibla med profilbaserade transaktionsmeddelanden. Se [Fatigue-regler](../../sending/using/fatigue-rules.md).
 
 ### Produktlistor
 
-Observera att produktlistor är tillgängliga i transaktionsform **e-postmeddelanden** endast. Se [Använda produktlistor i ett transaktionsmeddelande](../../designing/using/using-product-listings.md).
+Observera att produktlistor endast är tillgängliga i transaktionsmeddelanden **via e-post**. Se [Använda produktlistor i ett transaktionsmeddelande](../../designing/using/using-product-listings.md).
 
 ## Varumärke {#permissions-and-branding}
 

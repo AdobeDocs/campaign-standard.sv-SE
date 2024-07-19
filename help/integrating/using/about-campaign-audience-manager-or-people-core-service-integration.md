@@ -21,10 +21,10 @@ ht-degree: 3%
 >
 >Beroende på vilka data som utväxlas kan det finnas juridiska begränsningar för att importera målgrupper i Adobe Campaign.
 
-Med Adobe Campaign kan ni utbyta och dela målgrupper/segment med olika Adobe Experience Cloud-program. Integrera **Adobe Campaign** med **Bastjänst för människor** (kallas även **Bastjänst för profiler och målgrupper**) eller Adobe Audience Manager:
+Med Adobe Campaign kan ni utbyta och dela målgrupper/segment med olika Adobe Experience Cloud-program. Genom att integrera **Adobe Campaign** med **Personkärntjänsten** (kallas även **kärntjänsten Profiler &amp; Publiker**) eller Adobe Audience Manager kan du:
 
-* Importera målgrupper/segment från olika Adobe Experience Cloud-lösningar till Adobe Campaign. Publiker kan importeras från **[!UICONTROL Audiences]** i Adobe Campaign.
-* Exportera målgrupper som delade målgrupper/segment. Dessa målgrupper kan användas i de olika Adobe Experience Cloud-lösningar ni använder. Målgrupper kan exporteras efter målaktiviteter i ett arbetsflöde med **[!UICONTROL Save audience]** aktivitet.
+* Importera målgrupper/segment från olika Adobe Experience Cloud-lösningar till Adobe Campaign. Publiker kan importeras från menyn **[!UICONTROL Audiences]** i Adobe Campaign.
+* Exportera målgrupper som delade målgrupper/segment. Dessa målgrupper kan användas i de olika Adobe Experience Cloud-lösningar ni använder. Publiker kan exporteras efter målaktiviteter i ett arbetsflöde med aktiviteten **[!UICONTROL Save audience]**.
 
 Integrationen stöder två typer av Adobe Experience Cloud ID:
 
@@ -35,8 +35,8 @@ Integrationen stöder två typer av Adobe Experience Cloud ID:
 
   ID:t känns sedan igen av de andra Adobe Marketing Cloud-programmen med samma CNAME.
 
-* **Deklarerat ID**: den här typen av ID gör att du kan stämma av alla typer av data med element från Adobe Campaign-databasen. Den representeras i Adobe Campaign som en fördefinierad avstämningsnyckel. När du utbyter data hashas Adobe Campaign-databasidentifierare. Dessa hash-kodade ID:n jämförs sedan med hash-kodade ID:n för den Adobe Marketing Cloud-publik som är involverad i importen eller exporten.
-  <br>Integreringen stöder vanliga deklarerade ID:n, hashade deklarerade ID:n och krypterade deklarerade ID:n.
+* **Deklarerat ID**: Med den här typen av ID kan du stämma av alla typer av data med element från Adobe Campaign-databasen. Den representeras i Adobe Campaign som en fördefinierad avstämningsnyckel. När du utbyter data hashas Adobe Campaign-databasidentifierare. Dessa hash-kodade ID:n jämförs sedan med hash-kodade ID:n för den Adobe Marketing Cloud-publik som är involverad i importen eller exporten.
+  <br>Den här integreringen stöder vanliga deklarerade ID:n, hashade deklarerade ID:n och krypterade deklarerade ID:n.
 
   >[!NOTE]
   >

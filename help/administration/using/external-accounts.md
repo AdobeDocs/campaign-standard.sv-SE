@@ -91,12 +91,12 @@ SFTP-servrar kan hanteras från kontrollpanelen. Mer information finns i dokumen
 
 Ange följande information för ett externt OAuth 2.0-konto:
 
-* A **Typ av bidrag**: endast **klientautentiseringsuppgifter** stöds.
-* A **Säker API-URL**: Ange slutpunkten för auktoriseringen.
-* **OAuth 2.0-känsliga autentiseringsuppgifter**: Det här avsnittet är avsett för autentiseringsuppgifter som är känsliga till sin natur. Autentiseringsvärden maskeras på skärmen när de har lagts till. Då går de inte att läsa eller redigera. Om auktoriseringsslutpunkten kräver att en viss autentiseringsuppgift infogas i HTTP-auktoriseringshuvudet i stället för i POSTENS body-parameter, kan du markera alternativet Include i header för den autentiseringen.
-* **OAuth 2.0 - icke-känsliga autentiseringsuppgifter**: Det här avsnittet är avsett för autentiseringsuppgifter som inte är känsliga. Autentiseringsvärden visas på skärmen när de har lagts till. De kan också redigeras.  Om auktoriseringsslutpunkten kräver att en viss autentiseringsuppgift infogas i HTTP-auktoriseringshuvudet i stället för i POSTENS body-parameter, kan du markera alternativet Include i header för den autentiseringen.
+* En **Typ av beviljande**: endast **klientautentiseringsuppgifter** stöds.
+* En **säker API-URL**: Ange auktoriseringsslutpunkten.
+* **OAuth 2.0-känsliga autentiseringsuppgifter**: Det här avsnittet är avsett för autentiseringsuppgifter som är känsliga till naturen. Autentiseringsvärden maskeras på skärmen när de har lagts till. Då går de inte att läsa eller redigera. Om auktoriseringsslutpunkten kräver att en viss autentiseringsuppgift infogas i HTTP-auktoriseringshuvudet i stället för i POSTENS body-parameter, kan du markera alternativet Include i header för den autentiseringen.
+* **OAuth 2.0, icke-känsliga autentiseringsuppgifter**: Det här avsnittet är avsett för autentiseringsuppgifter som är icke-känsliga till sin natur. Autentiseringsvärden visas på skärmen när de har lagts till. De kan också redigeras.  Om auktoriseringsslutpunkten kräver att en viss autentiseringsuppgift infogas i HTTP-auktoriseringshuvudet i stället för i POSTENS body-parameter, kan du markera alternativet Include i header för den autentiseringen.
 
-När du har angett kontoinformationen klickar du på **Testanslutning** för att verifiera att det externa kontot har konfigurerats korrekt.
+När du har angett kontoinformationen klickar du på **Testa anslutningen** för att verifiera att det externa kontot har konfigurerats korrekt.
 
 ![](assets/external_accounts_OAuth.png)
 

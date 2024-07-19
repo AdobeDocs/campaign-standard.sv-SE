@@ -30,17 +30,17 @@ Flera faktorer kan direkt påverka serverprestanda och göra plattformen långsa
 
 * Serverbelastningen: när Campaign hanterar många olika uppgifter samtidigt kan det försämra prestandan. Servern måste koordinera alla inkommande och utgående data för alla leveranser för att säkerställa att data är korrekta och i tid.
 
-  **TIPS** - Undvik detta genom att samordna schemaläggningen av leveranser med övriga medlemmar i teamet för att säkerställa bästa möjliga prestanda.
+  **TIP** - Undvik detta genom att koordinera schemaläggningen av leveranser med andra medlemmar i teamet för att säkerställa bästa prestanda.
 
-* The [arbetsflödeskörning](../../automating/using/about-workflow-execution.md): för att undvika problem med prestanda på plattformen är det viktigt att du övervakar arbetsflödena. Följ riktlinjerna som anges [på den här sidan](../../automating/using/monitoring-workflow-execution.md). Läs mer i [arbetsflöden](../../automating/using/best-practices-workflows.md) -avsnitt.
+* Körningen av [arbetsflödet](../../automating/using/about-workflow-execution.md): för att undvika problem med plattformsprestanda är det viktigt att du övervakar dina arbetsflöden. Följ riktlinjerna [på den här sidan](../../automating/using/monitoring-workflow-execution.md). Läs mer i avsnittet [bästa arbetssätten för arbetsflöden](../../automating/using/best-practices-workflows.md).
 
-* Du kan utnyttja [Funktioner i Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=sv) övervaka plattformen med [prestandaövervakning](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=sv) funktioner.
+* Du kan använda funktionerna i [Campaign-kontrollpanelen](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=sv) för att övervaka plattformen med funktionerna för [prestandaövervakning](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=sv).
 
 ## Kontrollerar nätverkskonfiguration {#network-config}
 
 Om du vill optimera leveransen när du hanterar e-post i stora volymer och undvika att ta fel för en skräppost, kontrollerar du att du har en giltig nätverkskonfiguration som inte försöker dölja serverns identitet.
 
-**Tips**: Använd en transparent avsändaradress som motsvarar ert varumärkes webbplats. Exempel: företaget TravelAgency hanterar hotellkedjan Valentino. Företaget äger valentino.com domän för sin webbplats. För att marknadsföra alla hjärtans dag-hotell i Paris använder man underdomänen paris.valentino.com. Därför kan en relevant avsändaradress vara hotel@paris.valentino.com.
+**Tips**: Använd en transparent avsändaradress som motsvarar ditt varumärkes webbplats. Exempel: företaget TravelAgency hanterar hotellkedjan Valentino. Företaget äger valentino.com domän för sin webbplats. För att marknadsföra alla hjärtans dag-hotell i Paris använder man underdomänen paris.valentino.com. Därför kan en relevant avsändaradress vara hotel@paris.valentino.com.
 
 ## Leveranshantering {#deliverability-management}
 
@@ -50,9 +50,9 @@ Om du vill nå mottagarnas inkorg utan att studsa eller markeras som skräppost 
 
    * Det avser de faktorer i ett e-postmeddelande som avgör om det kan accepteras av en mottagares server. Internet-leverantörer (Internet Service Providers) filtrerar bort e-postmeddelanden som de identifierar som SPAM eller blockerar bilder från hämtning. Om de fastställer att en viss domän skickar för många e-postmeddelanden, kommer de att ange en gräns för hur många e-postmeddelanden de accepterar från den avsändaren.
 
-   * När du kontrollerar om e-postmeddelandet kan levereras vill du fokusera på fyra huvudkategorier: datakvalitet, meddelande och innehåll, avsändarinfrastruktur och anseende. Mer information om detta finns i [det här avsnittet](../../sending/using/about-deliverability.md).
+   * När du kontrollerar om e-postmeddelandet kan levereras vill du fokusera på fyra huvudkategorier: datakvalitet, meddelande och innehåll, avsändarinfrastruktur och anseende. Mer information om det här avsnittet finns i [det här avsnittet](../../sending/using/about-deliverability.md).
 
-* När du startar en ny plattform bör du följa de rekommendationer som beskrivs i [den här sidan](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process).
+* När du startar en ny plattform ska du tillämpa de rekommendationer som anges på [den här sidan](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process).
 
 * Kontakta din Adobe-representant om du behöver hjälp.
 
@@ -76,6 +76,6 @@ När du börjar skicka e-post på en ny plattform kan du använda en lista med a
 
 För att undvika att skicka meddelanden till ogiltiga adresser, begränsa felaktig kommunikation och förbättra avsändarens anseende rekommenderar Adobe att du använder en dubbel anmälningsmekanism för bekräftelse efter prenumeration. Detta bidrar till att säkerställa att mottagaren prenumererar avsiktligt.
 
-Information om hur denna mekanism genomförs finns i [det här avsnittet](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Information om hur du implementerar den här mekanismen beskrivs i [det här avsnittet](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 Läs mer i [Kom igång med profiler och målgrupper](../../audiences/using/get-started-profiles-and-audiences.md).

@@ -69,7 +69,7 @@ När det gäller identifierade besökare kan du förhandsladda deras data på la
 
    ![](assets/lp_parameters_3_temp.png)
 
-Du kan också ge alla besökare behörighet att komma åt landningssidan med hjälp av **[!UICONTROL Authorize unidentified visitors]** alternativ.
+Du kan också ge alla besökare åtkomst till landningssidan med alternativet **[!UICONTROL Authorize unidentified visitors]**.
 
 <!--Use the URL parameters to identify the visitors, using the **[!UICONTROL Authorize visitor identification via URL parameters]** option: then you must choose the loading key and map the filter parameters with the parameters of the corresponding URL.-->
 

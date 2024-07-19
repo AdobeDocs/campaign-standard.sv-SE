@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Förstå nyttolaststrukturen för push-meddelanden {#push-payload}
 
-Med Adobe Campaign kan du skicka personaliserade och segmenterade push-meddelanden på iOS- och Android-mobilenheter till mobilprogram (mobilapp).
+Med Adobe Campaign kan ni skicka personaliserade och segmenterade push-meddelanden på iOS- och Android-mobilenheter till mobilappar (mobilappar).
 
 Varje push-meddelande som tas emot på en mobilapp innehåller viss information som används av appen för att visa push-meddelandet om ett varningsmeddelande skickas, och troligen även för att göra ytterligare beräkningar, särskilt om ett tyst push-meddelande skickas.
 
@@ -25,7 +25,7 @@ Det här dokumentet beskriver strukturen för den nyttolast som tas emot i en mo
 
 >[!NOTE]
 >
->Nyttolaststrukturen varierar beroende på typ av mobilapp (t.ex. iOS-app, FCM-aktiverad Android-app).
+>Nyttolaststrukturen varierar beroende på typ av mobilapp (t.ex. iOS-app, Android-app med FCM-funktioner).
 
 ## Push-nyttolaststruktur {#push-payload-structure}
 
@@ -35,7 +35,7 @@ Nyttolastattributen och deras värden varierar beroende på de konfigurationer s
 
 ### För iOS Mobile App {#payload-structure-ios}
 
-**Sample Payload sent from Adobe Campaign to iOS app:**
+**Sample Payload skickat från Adobe Campaign till iOS-appen:**
 
 ```
 {
@@ -75,7 +75,7 @@ Nyttolastattributen och deras värden varierar beroende på de konfigurationer s
     "_mId":"h138a"} 
 ```
 
-**JSON-provnyttolast som ska användas med [iOS APNS Tester](https://pushtry.com/)**
+**JSON-provnyttolast som ska användas med [iOS APNS-testaren](https://pushtry.com/)**
 
 ```
 {
@@ -105,11 +105,11 @@ Nyttolastattributen och deras värden varierar beroende på de konfigurationer s
 
 Det viktigaste avsnittet i nyttolasten är aps-ordlistan, som innehåller Apple-definierade nycklar och används för att avgöra hur det system som tar emot meddelandet ska informera användaren, om något alls. Det här avsnittet innehåller fördefinierade nycklar som används av mobilappen för att formulera beteendet för push-meddelandet.
 
-Detaljerad information om attributen i appar finns i Apple utvecklardokument: [Skapa fjärrmeddelandenyttolast](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1).
+Detaljerad information om attributen i appar finns i Apple utvecklardokument: [Skapar fjärrmeddelandenyttolasten](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1).
 
-### För Android-app {#payload-structure-android}
+### För Android App {#payload-structure-android}
 
-**Exempel på nyttolast som skickas från Adobe Campaign till Android-app**
+**Sample Payload send from Adobe Campaign to Android app**
 
 ```
 {
@@ -149,7 +149,7 @@ Detaljerad information om attributen i appar finns i Apple utvecklardokument: [S
 }
 ```
 
-**JSON-provnyttolast som ska användas [Google FCM-testare](https://pushtry.com/)**
+**JSON-provnyttolast som ska använda [Google FCM-provare](https://pushtry.com/)**
 
 ```
 {
@@ -193,34 +193,34 @@ Detaljerad information om attributen i appar finns i Apple utvecklardokument: [S
 
 Nyttolasten innehåller ett datameddelande som innehåller allt leveransinnehåll för push-meddelanden, inklusive anpassade nyckel-/värdepar, och klientappen måste hantera meddelandet för att skapa och visa push-meddelanden, om det behövs, eller för att lägga till någon annan affärslogik.
 
-Om du vill förstå aspekter av en android-nyttolast hänvisar du till [Meddelandebegrepp och alternativ (fcm)](https://firebase.google.com/docs/cloud-messaging/concept-options).
+Om du vill förstå aspekter av en android-nyttolast kan du läsa [Meddelandebegrepp och alternativ (fcm)](https://firebase.google.com/docs/cloud-messaging/concept-options).
 
 >[!NOTE]
 >
->Stöd för meddelandemeddelanden i Android-nyttolasten togs bort från och med januari 2018 för att aktivera appen och skicka kontrollen till mobilappen utan att användaren behöver interagera med appen.
+>Stöd för aviseringsmeddelanden i Android-nyttolast togs bort från och med januari 2018 för att appen ska kunna aktiveras och kontrollen skickas till mobilappen utan att användaren behöver interagera med appen.
 
 ### Mappning mellan Campaign Standard Configurations och Payload Attributes {#mapping-payload}
 
 | Kampanjkonfiguration | Attribut som påverkas i iOS | Attribut som påverkas i Android | Beskrivning |
 |:-:|:-:|:-:|:-:|
-| Meddelanderubrik <br>Meddelandetext | alert → title <br> alert → body | title <br>brödtext | Dessa data innehåller information om varningsmeddelandet.<br>Titel- och brödnycklarna anger innehållet i aviseringen. |
+| Meddelanderubrik <br>Meddelandetext | alert → title <br> alert → body | rubrik <br>brödtext | Dessa data innehåller information om varningsmeddelandet.<br>Rubrik- och brödnycklarna anger innehållet i aviseringen. |
 | Spela upp ett ljud | ljud | ljud | Ett anpassat ljud som spelas upp med varningen. |
 | Värde för märket | bricka | bricka | Ett heltalsvärde som ska användas för att märka appens ikon. |
 | Lägg till en deeplink | uri | NA | Med en djuplänk kan du dirigera användarna direkt till innehåll som finns inuti programmet (i stället för att öppna en webbläsarsida). |
 | Kategori | kategori | kategori | Visa anpassade åtgärder med ett fjärrmeddelande. <br>Kategorinyckeln hjälper systemet att visa åtgärder för den kategorin som knappar i varningsgränssnittet. |
 | Anpassade fält | custom_field1, custom_field2 ... | custom_field1, custom_field2 ... | Alla anpassade data som du vill skicka till appen. |
-| URL för multimediainnehåll (bild-, gif-, ljud- och videofiler)<br>(Gäller endast iOS 10 eller senare) | media-attachment-url | NA | URL:er till dina mediefiler för att lägga till avancerat innehåll i meddelandet. <br>När du anger ett värde för denna URL skickas flaggan för ändringsbart innehåll automatiskt till nyttolasten. <br> (Gäller endast iOS 10 eller senare) |
-| Muterbart innehåll <br> (Gäller endast iOS 10 eller senare) | mutable-content | NA | Meddelandetjänsttillägget i din app&quot;fångar&quot; alla fjärrmeddelanden med nyckeln för det ändringsbara innehållet och gör att du kan hantera/ändra innehållet i den begärande nyttolasten, som sedan kan användas för att anpassa meddelandet. Exempel på den här funktionen är att hämta och visa flera media, och dekryptera krypterade data som finns i push-nyttolasten. Mer information finns i [Ändra nyttolasten för ett fjärrmeddelande](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). <br>(Gäller endast iOS 10 eller senare) |
-| Innehåll är tillgängligt | innehållstillgänglig | NA | Om du väljer det här alternativet aktiveras aktivering av en iOS-app när den är i bakgrunden/pausat läge. Uppvaknandet innebär att appen körs i bakgrunden och att den lämpliga händelsehanteraren som ansvarar för att ta emot datanyttolasten för push-meddelanden får en kontroll och kan använda data för att utföra alla beräkningar, inklusive men inte begränsat till att skapa anpassade push-meddelanden och visa samma. Mer information finns i [Aktivera app med meddelandeleverans](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
-| URL för multimediainnehåll (bildfiler)<br>(Gäller endast Android) | NA | media-attachment-url | URL-adressen till bildfilerna för att lägga till avancerat innehåll i meddelandet. |
-| NA | _mId<br>_dId | _mId <br>_dId | Värden för broadlogId och deliveryId.<br>Dessa attribut krävs om appen vill anropa ett återanslående som spårar när push-meddelandet klickades/öppnades. Den här informationen beräknas och skickas internt av programservern utan att användaren behöver göra något.<br>Information om återanslående finns i den här [page](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback). |
+| URL för multimediainnehåll (bild-, gif-, ljud- och videofiler)<br> (Gäller endast iOS 10 eller senare) | media-attachment-url | NA | URL:er till dina mediefiler för att lägga till avancerat innehåll i meddelandet. <br>När du anger ett värde för denna URL skickas flaggan för ändringsbart innehåll automatiskt till nyttolasten. <br> (Gäller endast iOS 10 eller senare) |
+| Mutable Content <br> (Gäller endast iOS 10 eller senare) | mutable-content | NA | Meddelandetjänsttillägget i din app&quot;fångar&quot; alla fjärrmeddelanden med nyckeln för det ändringsbara innehållet och gör att du kan hantera/ändra innehållet i den begärande nyttolasten, som sedan kan användas för att anpassa meddelandet. Exempel på den här funktionen är att hämta och visa flera media, och dekryptera krypterade data som finns i push-nyttolasten. Mer information finns i [Ändra nyttolasten för ett fjärrmeddelande](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). <br>(Gäller endast iOS 10 eller senare) |
+| Innehåll är tillgängligt | innehållstillgänglig | NA | Om du väljer det här alternativet aktiveras aktivering av en iOS-app när den är i bakgrunden/pausat läge. Uppvaknandet innebär att appen körs i bakgrunden och att den lämpliga händelsehanteraren som ansvarar för att ta emot datanyttolasten för push-meddelanden får en kontroll och kan använda data för att utföra alla beräkningar, inklusive men inte begränsat till att skapa anpassade push-meddelanden och visa samma. Mer information finns i [väckningsappen med meddelandeleverans](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
+| URL för multimediainnehåll (bildfiler)<br>(Gäller endast för Android) | NA | media-attachment-url | URL-adressen till bildfilerna för att lägga till avancerat innehåll i meddelandet. |
+| NA | _mId<br>_dId | _mId <br>_dId | Värden för broadlogId och deliveryId.<br>De här attributen krävs om din app vill anropa ett återanslående för att spåra när push-meddelandet klickades/öppnades. Den här informationen beräknas och skickas internt av programservern utan att användaren behöver göra något.<br>Information om återanslående finns på den här [sidan](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback). |
 
 ### Hämta nyttolastinformation i mobilappskoden {#payload-information}
 
 Nyttolastinformationen som skickas av appservern tas emot av mobilappskoden i en händelsehanterare som anger att ett push-meddelande har tagits emot. Händelsen varierar beroende på vilken mobilplattform som du arbetar med och även beroende på om appen körs i förgrunden eller i bakgrunden. Följande dokumentation hjälper dig att identifiera den händelsehanterare som du vill hantera baserat på ditt användningsfall.
 
-* iOS-program: **Hantera fjärrmeddelanden** avsnitt i [Fjärrmeddelanden](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html).
-* Android-program: [Ta emot meddelanden i en Android-klientapp](https://firebase.google.com/docs/cloud-messaging/android/receive)
+* iOS-program: **Hantera fjärrmeddelanden** i avsnittet [Fjärrmeddelanden](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html).
+* Android-program: [Tar emot meddelanden i en Android-klientapp](https://firebase.google.com/docs/cloud-messaging/android/receive)
 
 **Exempel för iOS Mobile App**
 

@@ -40,20 +40,20 @@ Nedan visas standardkvarhållningsperioderna för standardtabeller. När det är
 
 Som standard är kvarhållningsperioden för leveranser obegränsad.
 
-Om det finns många leveranser på din instans kan du dock uppdatera **NmsCleanup_DeliveryPurgeDelay** som finns på **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** -menyn.
+Om det finns många leveranser på din instans kan du uppdatera alternativet **NmsCleanup_DeliveryPurgeDelay** som finns på menyn **[!UICONTROL Administration]** > **[!UICONTROL Application settings]**.
 
-Varje gång **[!UICONTROL Database cleanup]** arbetsflödet körs, leveranser som uppfyller villkoren för det här alternativet tas bort.
+Varje gång arbetsflödet **[!UICONTROL Database cleanup]** körs tas leveranser som uppfyller villkoren för det här alternativet bort.
 
-Den här åtgärden kan snabba upp processer som **[!UICONTROL Copy headers from delivery templates]** arbetsflöde.
+Den här åtgärden kan hjälpa till att påskynda processer som arbetsflödet **[!UICONTROL Copy headers from delivery templates]**.
 
 >[!NOTE]
 >
 >Läs mer om tekniska arbetsflöden i [det här avsnittet](technical-workflows.md).
 
 
-Standardvärdet för **NmsCleanup_DeliveryPurgeDelay** option is `-1`. I det här fallet tas ingen leverans bort.
+Standardvärdet för alternativet **NmsCleanup_DeliveryPurgeDelay** är `-1`. I det här fallet tas ingen leverans bort.
 
-Om du t.ex. ställer in den på `180`, kommer alla leveranser som inte är mallar och som inte har uppdaterats under de senaste 180 dagarna att tas bort när **[!UICONTROL Database cleanup]** arbetsflödet körs.
+Om du till exempel anger `180` tas alla leveranser som inte är mallbaserade och som inte har uppdaterats under de senaste 180 dagarna bort när arbetsflödet i **[!UICONTROL Database cleanup]** körs.
 
 >[!NOTE]
 >
@@ -61,5 +61,5 @@ Om du t.ex. ställer in den på `180`, kommer alla leveranser som inte är malla
 >
 >* För återkommande leveranser raderas inte underordnade leveranser med en aggregeringsperiod som har angetts som månad eller år.
 
-Vid uppdatering av **NmsCleanup_DeliveryPurgeDelay** rekommenderar vi att du fortsätter gradvis med flera iterationer. Du kan till exempel börja med genom att ange värdet 300 dagar, sedan 180 dagar, sedan 120 dagar och så vidare, och se till att iterationerna är minst två dagars emellan. I annat fall **[!UICONTROL Database cleanup]** arbetsflödet kan ta mycket längre tid på grund av ett stort antal leveranser att ta bort.
+När du uppdaterar alternativet **NmsCleanup_DeliveryPurgeDelay** bör du fortsätta gradvis med flera iterationer. Du kan till exempel börja med genom att ange värdet 300 dagar, sedan 180 dagar, sedan 120 dagar och så vidare, och se till att iterationerna är minst två dagars emellan. Annars kan arbetsflödet för **[!UICONTROL Database cleanup]** ta lång tid på grund av ett stort antal leveranser att ta bort.
 

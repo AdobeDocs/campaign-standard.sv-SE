@@ -14,13 +14,13 @@ ht-degree: 2%
 
 # Uppdatera profiler med API:er{#updating-profiles-api}
 
-Uppdatering av profiler utförs med en **PATCH** begäran.
+Uppdatering av profiler utförs med en **PATCH**-begäran.
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/<apiName>/<resourceName>/<PKEY>`
 
 1. Det första steget är att **hämta profilen**.
 
-1. I en andra begäran gör du en **PATCH begäran** på profilen med den fullständiga informationen i nyttolasten.
+1. I en andra begäran utför du en **PATCH-begäran** på profilen med den fullständiga informationen i nyttolasten.
 
 1. För att kontrollera om PATCH har uppdaterat profilen kan vi utföra en slutgiltig begäran om GET.
 

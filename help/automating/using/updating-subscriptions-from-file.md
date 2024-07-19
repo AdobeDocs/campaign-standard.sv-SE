@@ -24,7 +24,7 @@ Arbetsflödet presenteras på följande sätt:
 
 ![](assets/subscription_activity_example1.png)
 
-* A [Läs in fil](../../automating/using/load-file.md) aktiviteten läser in profilfilen och definierar strukturen för de importerade kolumnerna.
+* En [Läs in fil](../../automating/using/load-file.md)-aktivitet läser in profilfilen och definierar strukturen för de importerade kolumnerna.
 
   I det här exemplet är den inlästa filen i CSV-format och innehåller följande data:
 
@@ -49,7 +49,7 @@ Arbetsflödet presenteras på följande sätt:
 
   Om filen redan använder &quot;0&quot; och &quot;1&quot; för att identifiera operationen behöver du inte mappa om dessa värden. Kontrollera bara att kolumnen bearbetas som ett **booleskt värde** eller **heltalsvärde** på fliken **[!UICONTROL Column definition]**.
 
-* A [Avstämning](../../automating/using/reconciliation.md) anger att data från filen tillhör profildimensionen i Adobe Campaign-databasen. Via fliken **[!UICONTROL Identification]** matchas filens **e-postfält** mot profilresursens **e-postfält**.
+* En [avstämningsaktivitet](../../automating/using/reconciliation.md) identifierar data från filen som tillhör profildimensionen i Adobe Campaign-databasen. Via fliken **[!UICONTROL Identification]** matchas filens **e-postfält** mot profilresursens **e-postfält**.
 
   ![](assets/subscription_activity_example3.png)
 
@@ -57,11 +57,11 @@ Arbetsflödet presenteras på följande sätt:
 
   ![](assets/subscription_example_service_relation.png)
 
-* A [Deduplicering](../../automating/using/deduplication.md) baserat på **e-post** fältet för den tillfälliga resursen (som är ett resultat av avstämningen) identifierar dubbletter. Det är viktigt att ta bort dubbletter eftersom prenumerationen på en tjänst misslyckas för alla data om dubbletter förekommer.
+* En [deduplicering](../../automating/using/deduplication.md) som baseras på fältet **email** för den tillfälliga resursen (som är ett resultat av avstämningen) identifierar dubbletter. Det är viktigt att ta bort dubbletter eftersom prenumerationen på en tjänst misslyckas för alla data om dubbletter förekommer.
 
   ![](assets/subscription_activity_example5.png)
 
-* A [Prenumerationstjänster](../../automating/using/subscription-services.md) aktiviteten identifierar de tjänster som ska uppdateras från övergången via länken som skapas i **[!UICONTROL Reconciliation]** aktivitet.
+* En [prenumerationstjänst](../../automating/using/subscription-services.md)-aktivitet identifierar de tjänster som ska uppdateras från övergången via länken som skapas i **[!UICONTROL Reconciliation]**-aktiviteten.
 
   **[!UICONTROL Operation type]** identifieras som att det kommer från fältet **operation** i filen. Endast fälten Booleskt värde eller Heltalsvärde kan markeras här. Om kolumnen i filen som innehåller åtgärden som ska utföras inte visas i listan, ska du kontrollera att du har angett kolumnformatet korrekt i **[!UICONTROL Load file]**-aktiviteten, vilket förklaras ovan i det här exemplet.
 

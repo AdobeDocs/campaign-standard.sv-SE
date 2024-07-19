@@ -25,7 +25,7 @@ ht-degree: 6%
 
 Med Adobe Campaign Standard kan du utlösa direkt inmatning av datamappningar via API:er och hämta status för dina önskemål om inmatning.
 
-Den här sidan beskriver hur du aktiverar och hämtar inmatningsstatus för dina datamappningar. Global information om Campaign Standards-API:er finns i [det här avsnittet](../../api/using/get-started-apis.md).
+Den här sidan beskriver hur du aktiverar och hämtar inmatningsstatus för dina datamappningar. Global information om Campaign Standard-API:er finns i [det här avsnittet](../../api/using/get-started-apis.md).
 
 ## Förhandskrav {#prerequisites}
 
@@ -36,9 +36,9 @@ Innan du använder API:erna måste datamappningen först ha konfigurerats och pu
 
 När datamappningen har skapats måste du stoppa den från att köras så att du kan utlösa den från API:erna när du vill. Följ dessa steg för att göra detta:
 
-1. I Campaign Standarden går du till **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** -menyn.
+1. Gå till menyn **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** i Campaign Standard.
 
-1. Dubbelklicka på datamappningen för att öppna den och klicka sedan på **[!UICONTROL Stop]** -knappen.
+1. Dubbelklicka på datamappningen för att öppna den och klicka sedan på knappen **[!UICONTROL Stop]**.
 
    ![](assets/aep_datamapping_stop.png)
 
@@ -54,7 +54,7 @@ Omedelbart intag av en XDM-mappning i Adobe Experience Platform utlöses av en P
 
 >[!NOTE]
 >
->Användaren måste ha en **SQL-funktionskörning** roll, som kan tillhandahållas av en Campaign Standard-administratör genom att köra nedan JS-skript:
+>För att kunna köra anropet till API:t för import av POST måste användaren ha en **SQL-funktionskörningsroll** som en Campaign Standard-administratör kan ge genom att köra nedan JS-skript:
 >
 >```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
@@ -108,14 +108,14 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->Detaljerad information om status för XDM-mappningsbegäran och relaterade jobb finns i Campaign Standarden i **[!UICONTROL Status of data export to platform]** meny (se [Mappningsaktivering](../../integrating/using/aep-mapping-activation.md)).
+>Detaljerad information om status för XDM-mappningsbegäran och dess relaterade jobb finns i användargränssnittet på menyn **[!UICONTROL Status of data export to platform]** (se [Mappningsaktivering](../../integrating/using/aep-mapping-activation.md)).
 
 GETEN returnerar informationen nedan:
 
-* **batchId**: det här fältet fylls i endast om fel uppstod efter gruppbearbetning och överföring,
-* **info**: XDM-mappnings-ID
-* **numRecords**: antalet poster som har importerats (endast framgångsstatus),
-* **status**: status för importbegäran (lyckad/misslyckades/pågår)
+* **batchId**: Det här fältet fylls bara i om fel uppstod efter gruppbearbetning och överföring,
+* **info**: XDM-mappnings-ID,
+* **numRecords**: antalet poster som har importerats (endast status för lyckade försök),
+* **status**: Status för importbegäran (slutförd/misslyckades/pågår)
 
 Möjliga svar på GETEN är:
 

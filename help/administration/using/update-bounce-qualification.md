@@ -11,22 +11,22 @@ ht-degree: 2%
 
 ---
 
-# Uppdatera studskompetens efter ett avbrott i en Internet-leverantör {#update-bounce-qualification.md}
+# Uppdatera studskompetens efter ett ISP-avbrott {#update-bounce-qualification.md}
 
 ## Kontext
 
 Om en Internet-leverantör skulle råka ut kan e-postmeddelanden som skickas via Campaign inte levereras till mottagaren: dessa e-postmeddelanden markeras felaktigt som studsar.
 
-I december 2020 resulterade ett globalt problem på Gmail i att vissa e-postmeddelanden som skickades till giltiga Gmail-e-postadresser felaktigt studsade som ogiltiga e-postadresser av Gmail-servrar med följande studssvar: *&quot;550-5.1.1 E-postkontot som du försökte nå finns inte.&quot;*
+I december 2020 resulterade ett globalt problem på Gmail i att vissa e-postmeddelanden som skickades till giltiga Gmail-e-postadresser felaktigt studsades som ogiltiga e-postadresser av Gmail-servrar med följande studssvar: *&quot;550-5.1.1 E-postkontot som du försökte nå finns inte.&quot;*
 
 Google har uppgett att de Gmail-avbrott och -avbrott som orsakade problemet började 14 december kl. 6:55 och upphörde kl. 18:09 EST den 15 december. Vår dataanalys visade också en mycket kort topp i Gmail-studsar kl. 02:06 EST den 16 december, där majoriteten inträffar den 15 december mellan kl. 2:00 EST och kl. 18.30 EST.
 
 >[!NOTE]
 >
->Du kan kontrollera statusinstrumentpanelen för Google Workspace på [den här sidan](https://www.google.com/appsstatus#hl=en&amp;v=status).
+>Du kan kontrollera Google Workspace Status Dashboard på [den här sidan](https://www.google.com/appsstatus#hl=en&amp;v=status).
 
 
-Enligt standardlogiken för studshantering har Adobe Campaign automatiskt lagt till dessa mottagare i karantänlistan med en **[!UICONTROL Status]** inställning för **[!UICONTROL Quarantine]**. För att korrigera detta måste du uppdatera din karantäntabell i Campaign genom att söka efter och ta bort de här mottagarna eller ändra deras **[!UICONTROL Status]** till **[!UICONTROL Valid]** så att nattrensningsarbetsflödet tar bort dem.
+Med hjälp av standardlogik för studshantering har Adobe Campaign automatiskt lagt till de här mottagarna i karantänlistan med **[!UICONTROL Status]**-inställningen **[!UICONTROL Quarantine]**. För att korrigera detta måste du uppdatera karantäntabellen i Campaign genom att hitta och ta bort de här mottagarna, eller ändra deras **[!UICONTROL Status]** till **[!UICONTROL Valid]** så att de tas bort i nattrensningsarbetsflödet.
 
 Om du vill hitta de mottagare som påverkades av Gmail-problemet, eller om det skulle inträffa igen med någon annan Internet-leverantör, läser du instruktionerna nedan.
 
@@ -40,13 +40,13 @@ Baserat på tidsramen för incidenten är nedanstående de rekommenderade riktli
 >
 >Dessa datum/tider baseras på EST (Eastern Standard Time Zone). Justera efter instansens tidszon.
 
-För Campaign-instanser med SMTP-studssvarsinformation i **[!UICONTROL Error text]** karantänlistans fält:
+För Campaign-instanser med SMTP-studssvarsinformation i fältet **[!UICONTROL Error text]** i karantänlistan:
 
-* **Feltext (karantäntext)** innehåller&quot;550-5.1.1 E-postkontot som du försökte nå finns inte&quot; OCH **Feltext (karantäntext)** innehåller &quot;support.google.com&quot; **
-* **Uppdateringsstatus (@lastModified)** den 12/14/2020 6 eller senare:55:00:00
-* **Uppdateringsstatus (@lastModified)** senast 12/16/2020 6:00:00:00
+* **Feltext (karantänstext)** innehåller &quot;550-5.1.1 E-postkontot som du försökte nå finns inte&quot; OCH **Feltexten (karantänstext)** innehåller &quot;support.google.com&quot; **
+* **Uppdatera status (@lastModified)** den 12/14/2020 6:55:00
+* **Uppdatera status (@lastModified)** den 12/16/2020 6:00:00
 
-När du har en lista över mottagare som påverkas kan du antingen ställa in deras status **[!UICONTROL Valid]** så att de tas bort från karantänlistan av **[!UICONTROL Database cleanup]** eller bara ta bort dem från tabellen.
+När du har en lista över berörda mottagare kan du antingen ange statusen **[!UICONTROL Valid]** så att de tas bort från karantänlistan av arbetsflödet i **[!UICONTROL Database cleanup]** eller bara ta bort dem från tabellen.
 
 **Relaterade ämnen:**
 * [Förstå leveransfel](../../sending/using/understanding-delivery-failures.md)

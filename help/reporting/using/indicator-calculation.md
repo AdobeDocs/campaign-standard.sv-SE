@@ -31,78 +31,78 @@ Tabellerna nedan visar en lista över indikatorer som används i de olika rappor
    <th> <strong>Etikett</strong> <br /> </th> 
    <th> <strong>Fältnamn</strong> <br /> </th> 
    <th> <strong>Beräkningsformel för indikator</strong> <br /> </th> 
-   <th> <strong>Kommentar</strong><br /> </th> 
+   <th> <strong>Kommentarer</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Kontot är inaktiverat<br /> </td> 
+   <td> Konto inaktiverat <br /> </td> 
    <td> @disabled<br /> </td> 
    <td> count(@errorReason=4)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> På blockeringslista<br /> </td> 
+   <td> På blockeringslista <br /> </td> 
    <td> @svartlistad<br /> </td> 
    <td> count(@errorReason=8, @errorType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Blockeringslista<br /> </td> 
+   <td> Blocklist frekvens <br /> </td> 
    <td> @rateBlacklisted<br /> </td> 
    <td> @svartlistad/@skickad<br /> </td> 
-   <td> Nämnaren för tariffberäkning baseras på antalet skickade (Levererade + studsar).<br /> </td> 
+   <td> Nämnaren för tariffberäkning baseras på antalet skickade (levererade + studsar).<br /> </td> 
   </tr> 
   <tr> 
-   <td> studsar + fel<br /> </td> 
+   <td> studsar + fel <br /> </td> 
    <td> @bounces<br /> </td> 
    <td> count(@status=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Studsa + Felfrekvens<br /> </td> 
+   <td> Studsa + felfrekvens <br /> </td> 
    <td> @rateBounces<br /> </td> 
    <td> @bounces/@sent<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Klicka<br /> </td> 
+   <td> Klicka på<br /> </td> 
    <td> @klickningar<br /> </td> 
    <td> count(@trackingUrlType=1, 10 eller 11)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Klicka igenom hastigheten<br /> </td> 
+   <td> Klicka igenom frekvensen <br /> </td> 
    <td> @clickthrough<br /> </td> 
-   <td> @uniqueclicks/@levererad<br /> </td> 
-   <td> Nämnaren för tariffberäkning baseras endast på Levererad.<br /> </td> 
+   <td> @uniqueclicks/@deliver<br /> </td> 
+   <td> Nämnaren för tariffberäkning är endast baserad på Levererad.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Levererat<br /> </td> 
+   <td> Levererad<br /> </td> 
    <td> @levererad<br /> </td> 
    <td> count(@status=1)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Levererad ränta<br /> </td> 
+   <td> Levererad frekvens <br /> </td> 
    <td> @rateDelived<br /> </td> 
    <td> @levererad/@skickad<br /> </td> 
-   <td> Nämnaren för tariffberäkning baseras på antalet skickade (Levererade + studsar).<br /> </td> 
+   <td> Nämnaren för tariffberäkning baseras på antalet skickade (levererade + studsar).<br /> </td> 
   </tr> 
   <tr> 
-   <td> Hårda studsar<br /> </td> 
+   <td> Hårda studsar <br /> </td> 
    <td> @hardBounces<br /> </td> 
    <td> count(@errorType=2 OCH @errorReason=8)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Hård studentfrekvens<br /> </td> 
+   <td> Hård studentfrekvens <br /> </td> 
    <td> @rateHardBounces<br /> </td> 
    <td> @hardBounces/@sent<br /> </td> 
-   <td> Nämnaren för tariffberäkning baseras på antalet skickade (Levererade + studsar).<br /> </td> 
+   <td> Nämnaren för tariffberäkning baseras på antalet skickade (levererade + studsar).<br /> </td> 
   </tr> 
   <tr> 
-   <td> Ogiltig domän<br /> </td> 
+   <td> Ogiltig domän <br /> </td> 
    <td> @invalidDomain<br /> </td> 
    <td> count(@errorReason=2)<br /> </td> 
    <td> </td> 
@@ -114,15 +114,15 @@ Tabellerna nedan visar en lista över indikatorer som används i de olika rappor
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Spegelsida<br /> </td> 
+   <td> Spegelsida <br /> </td> 
    <td> @mirrorPage<br /> </td> 
    <td> count(@trackingUrlType=6)<br /> </td> 
-   <td> Nämnaren för tariffberäkning baseras endast på Levererad.<br /> </td> 
+   <td> Nämnaren för tariffberäkning är endast baserad på Levererad.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Spegelsidhastighet<br /> </td> 
+   <td> Spegelsidhastighet <br /> </td> 
    <td> @rateMirrorPage<br /> </td> 
-   <td> @mirrorPage/@levererad<br /> </td> 
+   <td> @mirrorPage/@deliver<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -138,10 +138,10 @@ Tabellerna nedan visar en lista över indikatorer som används i de olika rappor
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Öppen kurs<br /> </td> 
-   <td> @rateOpen<br /> </td> 
+   <td> Öppen frekvens <br /> </td> 
+   <td> @rateÖppnas<br /> </td> 
    <td> @opens/@deliver<br /> </td> 
-   <td> Nämnaren för tariffberäkning baseras endast på Levererad.<br /> </td> 
+   <td> Nämnaren för tariffberäkning är endast baserad på Levererad.<br /> </td> 
   </tr> 
   <tr> 
    <td> Karantän<br /> </td> 
@@ -150,10 +150,10 @@ Tabellerna nedan visar en lista över indikatorer som används i de olika rappor
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Karantänsats<br /> </td> 
+   <td> Karantänsats <br /> </td> 
    <td> @rateQuarantine<br /> </td> 
    <td> @karantän/@skickad<br /> </td> 
-   <td> Nämnaren för tariffberäkning baseras på antalet skickade (Levererade + studsar).<br /> </td> 
+   <td> Nämnaren för tariffberäkning baseras på antalet skickade (levererade + studsar).<br /> </td> 
   </tr>
   <tr> 
    <td> Avvisad<br /> </td> 
@@ -162,33 +162,33 @@ Tabellerna nedan visar en lista över indikatorer som används i de olika rappor
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Avvisad ränta<br /> </td> 
+   <td> Avvisad frekvens <br /> </td> 
    <td> @rateRejected<br /> </td> 
    <td> @avvisad/@skickad<br /> </td> 
-   <td> Nämnaren för tariffberäkning baseras på antalet skickade (Levererade + studsar).<br /> </td> 
+   <td> Nämnaren för tariffberäkning baseras på antalet skickade (levererade + studsar).<br /> </td> 
   </tr> 
   <tr> 
    <td> Behandlad/skickad<br /> </td> 
-   <td> @skickat<br /> </td> 
-   <td> @deliver + @bounces<br /> </td> 
+   <td> @sent<br /> </td> 
+   <td> @levererad + @studsar<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Mjuk studsa<br /> </td> 
+   <td> Mjuk studs <br /> </td> 
    <td> @softBounces<br /> </td> 
    <td> count(@errorType=1)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Mjuk studsfrekvens<br /> </td> 
+   <td> Mjuk studsfrekvens <br /> </td> 
    <td> @rateSoftBounces<br /> </td> 
    <td> @softBounces/@sent<br /> </td> 
-   <td> Nämnaren för tariffberäkning baseras på antalet skickade (Levererade + studsar).<br /> </td> 
+   <td> Nämnaren för tariffberäkning baseras på antalet skickade (levererade + studsar).<br /> </td> 
   </tr> 
   <tr> 
    <td> Unika klick<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Unika klick beräknas med ThetaSketch-koncept. Mer information finns i <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exempel</a>.<br /> </td> 
+   <td> Unika klick beräknas med ThetaSketch-koncept. Mer information finns i <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exemplet</a>.<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -204,19 +204,19 @@ Tabellerna nedan visar en lista över indikatorer som används i de olika rappor
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Avbeställ<br /> </td> 
-   <td> @unsubscribe<br /> </td> 
+   <td> Avbeställ <br /> </td> 
+   <td> @unsubscribes<br /> </td> 
    <td> count(@trackingUrlType=3)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Avbeställningsfrekvens<br /> </td> 
-   <td> @rateUnsubscribe<br /> </td> 
-   <td> @unsubscribe/@deliver<br /> </td> 
-   <td> Nämnaren för tariffberäkning baseras endast på Levererad.<br /> </td> 
+   <td> Avbeställningsfrekvens <br /> </td> 
+   <td> @rateUnsubscribes<br /> </td> 
+   <td> @unsubscribes/@deliver<br /> </td> 
+   <td> Nämnaren för tariffberäkning är endast baserad på Levererad.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Okänd användare<br /> </td> 
+   <td> Okänd användare: <br /> </td> 
    <td> @unknownUser<br /> </td> 
    <td> count(@errorReason=1)<br /> </td> 
    <td> </td> 
@@ -237,61 +237,61 @@ Tabellerna nedan visar en lista över indikatorer som används i de olika rappor
  <tbody> 
   <tr> 
    <td> Behandlad/skickad<br /> </td> 
-   <td> @skickat<br /> </td> 
+   <td> @sent<br /> </td> 
    <td> @count(status=skickat)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Levererat<br /> </td> 
+   <td> Levererad<br /> </td> 
    <td> @levererad<br /> </td> 
    <td> @count(status=levererad)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Levererad ränta<br /> </td> 
+   <td> Levererad frekvens <br /> </td> 
    <td> @rateDelived<br /> </td> 
    <td> (@deliver/@sent)*100<br /> </td> 
   </tr> 
   <tr> 
-   <td> Studsa + Felfrekvens<br /> </td> 
+   <td> Studsa + felfrekvens <br /> </td> 
    <td> @rateBounces<br /> </td> 
    <td> (@deliver/@sent)*100<br /> </td> 
   </tr> 
   <tr> 
    <td> Öppna<br /> </td> 
-   <td> @opens<br /> </td> 
-   <td> @count(status=open)<br /> </td> 
+   <td> @öppnar<br /> </td> 
+   <td> @count(status=öppna)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Öppen kurs<br /> </td> 
-   <td> @rateOpen<br /> </td> 
+   <td> Öppen frekvens <br /> </td> 
+   <td> @rateÖppnas<br /> </td> 
    <td> (@opens/@deliver)*100<br /> </td> 
   </tr> 
   <tr> 
    <td> Unika öppningar<br /> </td> 
    <td> @uniqueopens<br /> </td> 
-   <td> Unika öppningar beräknas med ThetaSketch-koncept för unika RecipientIds. Mer information finns i <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exempel</a>.<br /> </td> 
+   <td> Unika öppningar beräknas med ThetaSketch-koncept för unika RecipientIds. Mer information finns i <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exemplet</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Impressions<br /> </td> 
-   <td> @imponations<br /> </td> 
+   <td> @impressions<br /> </td> 
    <td> @count(status=levererad)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unika intryck<br /> </td> 
-   <td> @uniqueimponations<br /> </td> 
+   <td> Unika avtryck <br /> </td> 
+   <td> @uniqueimponsions<br /> </td> 
    <td> @unique(@count(status=vy))<br /> </td> 
   </tr> 
   <tr> 
-   <td> Klicka<br /> </td> 
+   <td> Klicka på<br /> </td> 
    <td> @klickningar<br /> </td> 
-   <td> @count(status=interact)<br /> </td> 
+   <td> @count(status=interagera)<br /> </td> 
   </tr> 
   <tr> 
    <td> Unika klick<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Unika klick beräknas med ThetaSketch-koncept. Mer information finns i <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exempel</a>.<br /> </td> 
+   <td> Unika klick beräknas med ThetaSketch-koncept. Mer information finns i <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exemplet</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Klicka igenom hastigheten<br /> </td> 
+   <td> Klicka igenom frekvensen <br /> </td> 
    <td> @clickthrough<br /> </td> 
    <td> (@interact/@levererad)*100<br /> </td> 
   </tr> 
@@ -306,66 +306,66 @@ Tabellerna nedan visar en lista över indikatorer som används i de olika rappor
    <th> <strong>Etikett</strong> <br /> </th> 
    <th> <strong>Fältnamn</strong> <br /> </th> 
    <th> <strong>Beräkningsformel för indikator</strong> <br /> </th> 
-   <th> <strong>Kommentar</strong><br /> </th> 
+   <th> <strong>Kommentarer</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> Behandlad/skickad<br /> </td> 
-   <td> @skickat<br /> </td> 
+   <td> @sent<br /> </td> 
    <td> @count(status=skickat)<br /> </td> 
-   <td> skickat=levererat<br /> </td> 
+   <td> sent=levererat<br /> </td> 
   </tr> 
   <tr> 
-   <td> Levererat<br /> </td> 
+   <td> Levererad<br /> </td> 
    <td> @levererad<br /> </td> 
    <td> @count(status=levererad)<br /> </td> 
-   <td> levererad=skickad<br /> </td> 
+   <td> levererat=skickat<br /> </td> 
   </tr> 
   <tr> 
    <td> Impressions<br /> </td> 
-   <td> @imponations<br /> </td> 
+   <td> @impressions<br /> </td> 
    <td> @count(status=vy) eller @count(status=knapp 1 klicka + knapp 2 klicka + avvisa)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unika intryck<br /> </td> 
-   <td> @uniqueimponations<br /> </td> 
+   <td> Unika avtryck <br /> </td> 
+   <td> @uniqueimponsions<br /> </td> 
    <td> @unique(@count(status=vy))<br /> </td> 
-   <td> För <span class="uicontrol">Målanvändare baserat på deras Campaign-profil (inAppProfile)</span> template, user = mottagar-ID.<br /> För <span class="uicontrol">Alla användare av en mobilapp som mål (inAppBroadcast)</span> och <span class="uicontrol">Målanvändare baserat på deras mobilprofil (inApp)</span> -mallar, användare = MC Id eller motsvarande som representerar en unik kombination av användare, mobilapp och enhet.<br /> </td> 
+   <td> För <span class="uicontrol">målanvändare baserat på deras Campaign-profil (inAppProfile)</span>-mall, user = mottagar-ID.<br /> För <span class="uicontrol">Alla användare av en mobilapp (inAppBroadcast)</span> och <span class="uicontrol">Målanvändare baserat på deras mallar för mobilprofilen (inApp)</span>, användare = MC Id eller motsvarande som representerar en unik kombination av användare, mobilapp och enhet.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Klicka i appen <br /> </td> 
+   <td> Klicka i appen på <br /> </td> 
    <td> @inappclicks<br /> </td> 
    <td> @count (status=klicka)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unika klick i programmet<br /> </td> 
+   <td> Unika appklickningar<br /> </td> 
    <td> @uniqueinapp<br /> </td> 
    <td> @unique(@count (status=klickningar))<br /> </td> 
-   <td> För <span class="uicontrol">Målanvändare baserat på deras Campaign-profil (inAppProfile)</span> template, user = mottagar-ID.<br /> För <span class="uicontrol">Alla användare av en mobilapp som mål (inAppBroadcast)</span> och <span class="uicontrol">Målanvändare baserat på deras mobilprofil (inApp)</span> -mallar, användare = MC Id eller motsvarande som representerar en unik kombination av användare, mobilapp och enhet.<br /> </td> 
+   <td> För <span class="uicontrol">målanvändare baserat på deras Campaign-profil (inAppProfile)</span>-mall, user = mottagar-ID.<br /> För <span class="uicontrol">Alla användare av en mobilapp (inAppBroadcast)</span> och <span class="uicontrol">Målanvändare baserat på deras mallar för mobilprofilen (inApp)</span>, användare = MC Id eller motsvarande som representerar en unik kombination av användare, mobilapp och enhet.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Klickfrekvens i appen<br /> </td> 
+   <td> Klicka i appen genom frekvensen <br /> </td> 
    <td> @inappclickthrough<br /> </td> 
    <td> Totalt antal klick på tryck på Button 1 eller Button 2/totalt antal*100<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Inaktivering i appen<br /> </td> 
-   <td> @dismissation<br /> </td> 
+   <td> Inaktivera i appen <br /> </td> 
+   <td> @dismissal<br /> </td> 
    <td> @count (status=close)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unika rabatter i appen<br /> </td> 
+   <td> Unika inaktiveringar i appen <br /> </td> 
    <td> @uniquedismissal<br /> </td> 
    <td> @unique(@count (status=close))<br /> </td> 
-   <td> För <span class="uicontrol">Målanvändare baserat på deras Campaign-profil (inAppProfile)</span> template, user = mottagar-ID.<br /> För <span class="uicontrol">Alla användare av en mobilapp som mål (inAppBroadcast)</span> och <span class="uicontrol">Målanvändare baserat på deras mobilprofil (inApp)</span> -mallar, användare = MC Id eller motsvarande som representerar en unik kombination av användare, mobilapp och enhet.<br /> </td> 
+   <td> För <span class="uicontrol">målanvändare baserat på deras Campaign-profil (inAppProfile)</span>-mall, user = mottagar-ID.<br /> För <span class="uicontrol">Alla användare av en mobilapp (inAppBroadcast)</span> och <span class="uicontrol">Målanvändare baserat på deras mallar för mobilprofilen (inApp)</span>, användare = MC Id eller motsvarande som representerar en unik kombination av användare, mobilapp och enhet.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Avdragsfrekvens i appen<br /> </td> 
+   <td> Frekvens för uppsägning i appen <br /> </td> 
    <td> @dismissalrate<br /> </td> 
    <td> Totalt antal närbilder*100<br /> </td> 
    <td> </td> 

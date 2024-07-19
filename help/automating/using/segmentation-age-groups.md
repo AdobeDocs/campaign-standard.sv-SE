@@ -26,9 +26,9 @@ Målet med arbetsflödet är att skicka ett specifikt e-postmeddelande till varj
 
 Arbetsflödet består av följande element:
 
-* A [Schemaläggaraktivitet](../../automating/using/segmentation.md) för att ange arbetsflödets körningsdatum.
-* A [Fråga](../../automating/using/query.md) till målprofiler för personer vars födelsedag och e-postadress har angetts.
-* A [Segmentering](../../automating/using/segmentation.md) aktivitet för att skapa tre segment indelade i olika utgående övergångar: 18-25 år gammal, 26-32 år gammal och profiler som är över 32 år gamla. Segmenten definieras enligt följande parametrar:
+* En [schemaläggaraktivitet](../../automating/using/segmentation.md) som anger arbetsflödets körningsdatum.
+* En [Fråga](../../automating/using/query.md)-aktivitet för målprofiler för personer vars födelsedag och e-postadress har angetts.
+* En [segmenteringsaktivitet](../../automating/using/segmentation.md) för att skapa 3 segment som delas in i olika utgående övergångar: 18-25 år gammal, 26-32 år gammal och profiler som är över 32 år gamla. Segmenten definieras enligt följande parametrar:
 
   ![](assets/wkf_segment_example_3.png)
 
@@ -40,4 +40,4 @@ Arbetsflödet består av följande element:
 
      ![](assets/wkf_segment_example_1.png)
 
-* An [E-postleverans](../../automating/using/email-delivery.md) aktivitet per segment.
+* En [e-postleveransaktivitet](../../automating/using/email-delivery.md) per segment.

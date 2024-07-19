@@ -21,9 +21,9 @@ ht-degree: 7%
 
 Så här redigerar du en befintlig profil och läser data som är kopplade till den, eller ändrar den:
 
-1. På Adobe Campaign hemsida klickar du på **[!UICONTROL Customer profiles]** kortet eller **[!UICONTROL Profiles]** -fliken.
+1. Klicka på **[!UICONTROL Customer profiles]**-kortet eller fliken **[!UICONTROL Profiles]** på startsidan för Adobe Campaign.
 1. Välj en kontakt.
-1. Klicka på **[!UICONTROL Edit profile properties]** om du vill komma åt profilens detaljerade information.
+1. Klicka på ikonen **[!UICONTROL Edit profile properties]** för att komma åt profilens detaljerade information.
 
    ![](assets/profile_creation2.png)
 
@@ -33,7 +33,7 @@ Så här redigerar du en befintlig profil och läser data som är kopplade till 
 
    >[!NOTE]
    >
-   >Du kan bara ändra informationen i **[!UICONTROL General]** -tabb - förutom för **[!UICONTROL Traceability]** -avsnitt.
+   >Du kan bara ändra informationen på fliken **[!UICONTROL General]**, förutom avsnittet **[!UICONTROL Traceability]**.
 
 Profiles Edition kan också användas med Adobe Campaign Standard API. Mer information om detta hittar du i den [dedikerade dokumentationen](../../api/using/updating-profiles.md) .
 
@@ -44,23 +44,23 @@ Relaterat ämne:
 
 ## Allmänna profildata {#general-profile-data}
 
-The **[!UICONTROL General]** I grupperas följande information om profilen:
+På fliken **[!UICONTROL General]** grupperas följande information om profilen:
 
-* Kontaktinformation, som innehåller mottagarens förnamn, efternamn, födelsedatum, foto, språk (t.ex. [flerspråkiga e-postmeddelanden](../../channels/using/creating-a-multilingual-email.md)), etc.
+* Kontaktinformation, som innehåller mottagarens förnamn, efternamn, födelsedatum, foto, språk (för [flerspråkiga e-postmeddelanden](../../channels/using/creating-a-multilingual-email.md)) osv.
 * Kanaler som profilen kan kontaktas på, som innehåller mottagarens e-postadress, mobiltelefonnummer, avanmälningsinformation.
-* Postadress (för [direktreklam](../../channels/using/about-direct-mail.md)) och kontaktens tidszon (till [schemalägg meddelanden i sin tidszon](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)).
-* Åtkomstauktorisering, som anger mottagarens organisationsenhet (till [hantera behörigheter](../../administration/using/about-access-management.md)). Se även [Partitionsprofiler](../../administration/using/organizational-units.md#partitioning-profiles).
+* Postadress (för [direktreklam](../../channels/using/about-direct-mail.md)) och kontaktens tidszon (för att [schemalägga meddelanden i dess tidszon](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)).
+* Åtkomstauktorisering, som anger mottagarens organisationsenhet (för att [hantera behörigheter](../../administration/using/about-access-management.md)). Se även [Partitionsprofiler](../../administration/using/organizational-units.md#partitioning-profiles).
 
 ![](assets/profile_creation4.png)
 
 ## Skicka och spåra loggar {#sending-and-tracking-logs}
 
-The **[!UICONTROL Sending logs]** och **[!UICONTROL Tracking logs]** På flikarna grupperas listan över leveranser som skickades till profilen och alla relaterade spårningsdata.
+Flikarna **[!UICONTROL Sending logs]** och **[!UICONTROL Tracking logs]** grupperar listan över leveranser som skickades till profilen och alla relaterade spårningsdata.
 
-Mer information om att skicka och spåra loggar finns i [leveransloggar](../../sending/using/monitoring-a-delivery.md#delivery-logs) och [spåra meddelanden](../../sending/using/tracking-messages.md) -avsnitt.
+Mer information om att skicka och spåra loggar finns i avsnitten [leveransloggar](../../sending/using/monitoring-a-delivery.md#delivery-logs) och [spårningsmeddelanden](../../sending/using/tracking-messages.md).
 
 ## Prenumerationer {#subscriptions}
 
 Kontaktens prenumerationer visas på motsvarande flik. Mer information om hur du prenumererar på en tjänst finns i [det här avsnittet](../../audiences/using/about-subscriptions.md).
 
-The **[!UICONTROL Mobile App Subscriptions]** -fliken hänvisar till push-meddelanden. Mer information finns i [Push-meddelande](../../channels/using/about-push-notifications.md) kanal.
+Fliken **[!UICONTROL Mobile App Subscriptions]** hänvisar till push-meddelanden. Mer information finns i kanalen [Push-meddelanden](../../channels/using/about-push-notifications.md).

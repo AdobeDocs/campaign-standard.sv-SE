@@ -38,13 +38,13 @@ Källarbetsflödet visas på följande sätt:
 
 * En aktivitet för [Avstämning](../../automating/using/reconciliation.md) skapar länkarna mellan importerade data och databasen så att transaktionsdata är korrekt anslutna till profiler och produkter.
 * En aktivitet för [Uppdatera data](../../automating/using/update-data.md) infogar och uppdaterar transaktionsresursen för databasen med inkommande data.
-* An [End](../../automating/using/start-and-end.md) -aktiviteten utlöser målarbetsflödet, som används för att uppdatera aggregeringar.
+* En [End](../../automating/using/start-and-end.md)-aktivitet utlöser målarbetsflödet, som används för att uppdatera aggregat.
 
 ![](assets/signal_example_source1.png)
 
 Destinationsarbetsflödet visas på följande sätt:
 
-* An [Extern signal](../../automating/using/external-signal.md) aktiviteten väntar på att källarbetsflödet ska slutföras.
+* En [extern signal](../../automating/using/external-signal.md)-aktivitet väntar på att källarbetsflödet ska slutföras.
 * En aktivitet för [Fråga](../../automating/using/query.md#enriching-data) har profiler som mål och berikar dem med en samlingsuppsättning för att hämta det senaste inköpsdatumet.
 * En aktivitet för [Uppdatera data](../../automating/using/update-data.md) lagrar ytterligare data i ett dedikerat anpassat fält. Observera att profilresursen har utökats för att lägga till fältet **Senaste inköpsdatum**.
 

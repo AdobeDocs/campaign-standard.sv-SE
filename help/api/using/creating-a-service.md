@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Skapa en tjänst med API:er{#creating-a-service-api}
 
-Tjänsterna skapas med en **POST** förfrågan om tjänstresursen.
+Tjänsterna skapas med en **POST**-begäran på tjänstresursen.
 
 Om du vill skapa tjänsten med specifika attribut lägger du till dem i nyttolasten. I annat fall skapas den nya tjänsten med standardtjänster.
 

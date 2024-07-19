@@ -9,13 +9,13 @@ exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
 source-git-commit: db035a41515e94836bdfbfc3d620586dc1f5ce31
 workflow-type: tm+mt
 source-wordcount: '1134'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Push Notification Channel-ändringar {#push-upgrade}
+# Ändringar i push-meddelandekanalen {#push-upgrade}
 
-Du kan använda Campaign för att skicka push-meddelanden på Android- och iOS-enheter. För att kunna göra detta förlitar sig Campaign på specifika prenumerationstjänster. Vissa viktiga ändringar av tjänsten Android Firebase Cloud Messaging (FCM) släpps 2024 och kan påverka din Adobe Campaign-implementering. Din prenumerationstjänstkonfiguration för push-meddelanden för Android kan behöva uppdateras för att den här ändringen ska fungera.
+Du kan använda Campaign för att skicka push-meddelanden på Android- och iOS-enheter. För att kunna göra detta förlitar sig Campaign på specifika prenumerationstjänster. Vissa viktiga ändringar av tjänsten Android Firebase Cloud Messaging (FCM) släpps 2024, vilket kan påverka implementeringen av Adobe Campaign. Din prenumerationstjänstkonfiguration för Android push-meddelanden kan behöva uppdateras för att den här ändringen ska fungera.
 
 Dessutom rekommenderar Adobe att du går över till den tokenbaserade anslutningen till APN:er i stället för en certifikatbaserad anslutning, som är säkrare och mer skalbar.
 
@@ -29,9 +29,9 @@ För att säkerställa oavbruten service måste du uppgradera dina mobilappar so
 
 ### Vad har ändrats? {#fcm-changes}
 
-Som en del av Google kontinuerliga arbete med att förbättra sina tjänster kommer de äldre FCM-API:erna att upphöra på **20 juni 2024**. Läs mer om HTTP-protokollet för Firebase Cloud Messaging i [Google Firebase-dokumentation](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
+Som en del av Google kontinuerliga arbete med att förbättra sina tjänster kommer de äldre FCM-API:erna att upphöra den **20 juni 2024**. Läs mer om HTTP-protokollet för meddelanden i Firebase Cloud i [Google Firebase-dokumentationen](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
 
-Startar [24.1-utgåvan](../../rn/using/release-notes.md), stöder Adobe Campaign Standard HTTP v1-API:erna för att skicka push-meddelanden för Android.
+Från och med [24.1-utgåvan](../../rn/using/release-notes.md) stöder Adobe Campaign Standard HTTP v1-API:erna för att skicka push-meddelanden från Android.
 
 ### Påverkas du? {#fcm-impact}
 
@@ -49,40 +49,40 @@ Om du redan använder Adobe Campaign Standard för att skicka push-meddelanden m
 
 #### Förhandskrav {#fcm-transition-prerequisites}
 
-* Stödet för **HTTP v1 API** Läget har lagts till i version 24.1. Om miljön körs på en äldre version är en förutsättning för den här ändringen att du uppgraderar miljön till [senaste Campaign Standarden](../../rn/using/release-notes.md).
+* Stöd för läget **HTTP v1 API** har lagts till i version 24.1. Om din miljö körs på en äldre version är en förutsättning för den här ändringen att du uppgraderar miljön till den [senaste Campaign Standarden](../../rn/using/release-notes.md).
 
-* JSON-filen för kontot för Android-administratören för SDK-tjänsten behövs för att mobilprogrammet ska kunna flyttas till HTTP v1. Lär dig hur du hämtar den här filen i [Google Firebase-dokumentation](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
+* Android Firebase Admin SDK-tjänstens konto-JSON-fil behövs för att mobilprogrammet ska kunna flyttas till HTTP v1. Lär dig hur du hämtar den här filen i [Google Firebase-dokumentationen](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
 * Om du fortfarande använder den här äldre versionen av SDK måste du uppdatera implementeringen med Adobe Experience Platform SDK. Lär dig hur du migrerar till Adobe Experience Platform SDK i [den här artikeln](sdkv4-migration.md).
 
-* Se till att du har **Konfiguration av mobilappar** behörighet i Adobe Experience Platform Data Collection Mobile innan du utför stegen nedan. [Läs mer](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=en#adobe-experience-platform-data-collection-permissions){target="_blank"}.
+* Kontrollera att du har behörighet **Mobile App Configuration** i Adobe Experience Platform Data Collection Mobile innan du utför stegen nedan. [Läs mer](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=en#adobe-experience-platform-data-collection-permissions){target="_blank"}.
 
 
 #### Övergångsförfarande {#fcm-transition-steps}
 
 Så här flyttar du miljön till HTTP v1:
 
-1. Bläddra till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
+1. Gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
 
    ![](assets/push_technote_1.png)
 
 1. Välj det specifika mobilprogram som kräver certifikatuppdateringen.
 
-1. Kontrollera **[!UICONTROL Update app credentials]** kryssrutan.
+1. Markera kryssrutan **[!UICONTROL Update app credentials]**.
 
    ![](assets/push_technote_5.png)
 
-1. Ange program-ID (Android-paketnamn) från Android-projektets `build.gradle` -fil. Till exempel: `com.android.test.testApp`. Se till att använda olika ID:n för staging- och produktionsmiljöer.
+1. Ange program-ID (namn på Android-paket) från Android-projektets `build.gradle`-fil. Exempel: `com.android.test.testApp`. Se till att använda olika ID:n för staging- och produktionsmiljöer.
 
-1. Överför din JSON-nyckelfil för den privata Android-nyckeln.
+1. Ladda upp din JSON-nyckelfil för privat nyckel från Android.
 
    ![](assets/push_technote_3.png)
 
-1. Klicka på **Spara** -knappen.
+1. Klicka på knappen **Spara**.
 
 >[!NOTE]
 >
->När dessa ändringar har tillämpats använder alla nya push-meddelandeleveranser till Android-enheter HTTP v1 API. Befintliga push-leveranser som används, pågår och används, använder fortfarande HTTP-API:t (äldre).
+>När dessa ändringar har tillämpats används HTTP v1-API:t för alla nya push-meddelandeleveranser till Android-enheter. Befintliga push-leveranser som används, pågår och används, använder fortfarande HTTP-API:t (äldre).
 
 
 ## Apple iOS Push Notification service (APN:er) {#apns-push-upgrade}
@@ -97,7 +97,7 @@ Tokenbaserad autentisering är ett tillståndslöst sätt att kommunicera med AP
 
 * Du kan använda en token för att distribuera meddelanden för alla företagets appar.
 
-Läs mer om tokenbaserade anslutningar till APN:er i [Dokumentation för Apple Developer](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
+Läs mer om tokenbaserade anslutningar till APN:er i [dokumentationen för Apple Developer](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
 
 Adobe Campaign Standard stöder både tokenbaserade och certifikatbaserade anslutningar. Om implementeringen bygger på en certifikatbaserad anslutning rekommenderar Adobe att du uppdaterar den till en tokenbaserad anslutning.
 
@@ -118,28 +118,28 @@ Om den aktuella implementeringen är beroende av certifikatbaserade begäranden 
 
 #### Förhandskrav {#ios-transition-prerequisites}
 
-* Stödet för **Tokenbaserad autentisering** läge har lagts till i [24.1-utgåvan](../../rn/using/release-notes.md). Om miljön körs på en äldre version är en förutsättning för den här ändringen att du uppgraderar miljön till [senaste Campaign Standarden](../../rn/using/release-notes.md).
+* Stöd för **tokenbaserad autentisering** har lagts till i [ 24.1-versionen](../../rn/using/release-notes.md). Om din miljö körs på en äldre version är en förutsättning för den här ändringen att du uppgraderar miljön till den [senaste Campaign Standarden](../../rn/using/release-notes.md).
 
-* Du behöver en signeringsnyckel för APN:s autentiseringstoken för att generera de tokens som servern använder. Du begär den här nyckeln från ditt Apple-utvecklarkonto, vilket förklaras i [Dokumentation för Apple Developer](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
+* Du behöver en signeringsnyckel för APN:s autentiseringstoken för att generera de tokens som servern använder. Du begär den här nyckeln från ditt Apple-utvecklarkonto, vilket förklaras i [Apple Developer-dokumentationen](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
 
 
 #### Övergångsförfarande {#ios-transition-steps}
 
 Så här flyttar du dina iOS-mobilprogram till det tokenbaserade autentiseringsläget:
 
-1. Bläddra till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
+1. Gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
 
    ![](assets/push_technote_1.png)
 
 1. Välj det specifika mobilprogram som kräver certifikatuppdateringen.
 
-1. Kontrollera **[!UICONTROL Update app credentials]** kryssrutan.
+1. Markera kryssrutan **[!UICONTROL Update app credentials]**.
 
    ![](assets/push_technote_2.png)
 
-1. Ange **Program-ID** (iOS Bundle-ID). Du hittar iOS Bundle ID (App ID) i din apps primära mål i Xcode.
+1. Ange **program-ID** (iOS Bundle-ID). Du hittar iOS Bundle ID (App ID) i din apps primära mål i Xcode.
 
-1. Ladda upp **iOS p8-certifikatfil**.
+1. Överför din **iOS p8-certifikatfil**.
 
 1. Fyll i APN-anslutningsinställningarna **[!UICONTROL Key Id]** och **[!UICONTROL iOS Team Id]**.
 
@@ -153,14 +153,14 @@ Ditt iOS-program flyttas nu till det tokenbaserade autentiseringsläget.
 
 +++Kan vi behålla samma program-ID på scen- och produktinstansen?
 
-För iOS mobilprogram kan du använda samma program-ID, som är ditt iOS-programpaket-ID, för både testnings- och produktionsmiljöer. På Android bör dock program-ID:t vara unikt för varje miljö. Därför föreslår vi att du lägger till&quot;stage&quot; i det program-ID som skapas i mellanlagringsmiljön
+För iOS mobilprogram kan du använda samma program-ID, som är ditt iOS-programpaket-ID, för både testnings- och produktionsmiljöer. I Android bör dock program-ID:t vara unikt för varje miljö. Därför föreslår vi att du lägger till&quot;stage&quot; i det program-ID som skapas i mellanlagringsmiljön
 
 +++
 
 
 +++Kan vi bara migrera Android-appen?
 
-Nej, både Android- och iOS-program måste migreras enligt stegen ovan.
+Nej, både Android- och iOS-appar måste migreras enligt stegen ovan.
 
 +++
 
@@ -190,7 +190,7 @@ Nej, efter migreringen behöver du inte uppdatera iOS-certifikatet varje år.
 
 +++Vad händer om migreringen inte är klar?
 
-push-meddelandena från Android börjar misslyckas efter den 20 juni 2024, enligt meddelandet från Google. [Läs mer](https://firebase.google.com/docs/cloud-messaging/migrate-v1){target="_blank"}.
+Android push-meddelanden kommer att börja misslyckas efter den 20 juni 2024, enligt Google anmälan. [Läs mer](https://firebase.google.com/docs/cloud-messaging/migrate-v1){target="_blank"}.
 
 +++
 

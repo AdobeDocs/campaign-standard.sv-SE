@@ -34,7 +34,7 @@ Med den här aktiviteten **[!UICONTROL Enrichment]** kan du använda den inkomma
 
 **Relaterade ämnen**
 
-* [Användningsfall: Förbättra profildata med data i en fil](../../automating/using/enriching-profile-data-file.md).
+* [Använd skiftläge: Åtleder profildata med data i en fil](../../automating/using/enriching-profile-data-file.md).
 * [Användningsfall: Skicka ett e-postmeddelande med berikade fält](../../automating/using/sending-email-enriched-fields.md)
 
 ## Konfiguration {#configuration}

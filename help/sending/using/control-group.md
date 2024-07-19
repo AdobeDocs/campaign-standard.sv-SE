@@ -155,7 +155,7 @@ Du kan extrahera **loggarna med skickade meddelanden** för att jämföra hur ko
 
 >[!IMPORTANT]
 >
->För att få åtkomst till leveransloggar måste du ha en [Administratörsroll](../../administration/using/users-management.md#functional-administrators) och att vara en del av **[!UICONTROL All]** [organisationsenhet](../../administration/using/organizational-units.md). <!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
+>Om du vill komma åt leveransloggar måste du ha en [administratörsroll](../../administration/using/users-management.md#functional-administrators) och vara en del av **[!UICONTROL All]** [organisationsenheten](../../administration/using/organizational-units.md). <!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
 
 ### Kontrollera leveransloggarna {#checking-logs}
 

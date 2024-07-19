@@ -42,14 +42,14 @@ Knappen **[!UICONTROL Create]** kan användas för att skapa en ny aktivitet. Me
 
 I huvudzonen har varje typ av aktivitet i listan en ikon:
 
-* ![](assets/marketing_program_icon.png) Program
-* ![](assets/marketing_campaign_icon.png) Campaign
-* ![](assets/marketing_email_icon.png) E-post
+* ![](assets/marketing_program_icon.png)-program
+* Kampanj för ![](assets/marketing_campaign_icon.png)
+* ![](assets/marketing_email_icon.png)-e-post
 * ![](assets/marketing_sms_icon.png) SMS
-* ![](assets/marketing_push_icon.png) Push-meddelande
-* ![](assets/marketing_lp_icon.png) Meddelande i appen
-* ![](assets/marketing_lp_icon.png) Landningssida
-* ![](assets/marketing_workflow_icon.png) Arbetsflöde
+* ![](assets/marketing_push_icon.png) push-meddelande
+* ![](assets/marketing_lp_icon.png)-meddelande i appen
+* ![](assets/marketing_lp_icon.png) landningssida
+* ![](assets/marketing_workflow_icon.png)-arbetsflöde
 
 Beroende på giltighetsperiod och status visar färgen som är associerad med den här ikonen den motsvarande aktivitetens körningsstatus.
 
@@ -81,7 +81,7 @@ Program och kampanjer presenteras i avsnittet [Program och kampanjer](../../star
 
 I sammanhanget kan man
 
-* Skapa ett mejl - [Läs mer](../../channels/using/creating-an-email.md)
+* Skapa ett e-postmeddelande - [Läs mer](../../channels/using/creating-an-email.md)
 * Skapa ett SMS - [Läs mer](../../channels/using/creating-an-sms-message.md)
 * Skapa ett push-meddelande - [Läs mer](../../channels/using/preparing-and-sending-a-push-notification.md)
 * Skapa ett meddelande i appen - [Läs mer](../../channels/using/about-in-app-messaging.md)

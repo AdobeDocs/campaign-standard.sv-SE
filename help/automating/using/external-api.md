@@ -38,7 +38,7 @@ De viktigaste egenskaperna för denna aktivitet är:
 
 ### Bakåtkompatibilitetsmeddelanden {#from-beta-to-ga}
 
-I Campaign Standard 20.4 har http-svarets datastorleksgräns och timeout-skydd sänkts för att anpassas till bästa praxis - se [Begränsningar och skyddsräcken](#guardrails). Dessa skyddsändringar träder ej i kraft för befintliga externa API-aktiviteter. Vi rekommenderar därför att du ersätter befintliga externa API-aktiviteter med nya versioner i alla arbetsflöden.
+I Campaign Standard 20.4 har http-svarets datastorleksgräns och timeout-skydd sänkts för att anpassas till bästa praxis - se [Begränsningar och skyddsutkast](#guardrails). Dessa skyddsändringar träder ej i kraft för befintliga externa API-aktiviteter. Vi rekommenderar därför att du ersätter befintliga externa API-aktiviteter med nya versioner i alla arbetsflöden.
 
 När du ersätter Extern API-aktiviteter lägger du till den nya Extern API-aktiviteten i arbetsflödet, kopierar manuellt över konfigurationsinformationen och tar sedan bort den gamla aktiviteten.
 
@@ -114,13 +114,13 @@ Om **tolkningen valideras** visas ett meddelande som uppmanar dig att anpassa da
 
 ### Körning
 
-Med den här fliken kan du definiera anslutningens slutpunkt. The **[!UICONTROL URL]** kan du definiera **HTTPS-slutpunkt** som Campaign Standarden kommer att kommunicera med.
+Med den här fliken kan du definiera anslutningens slutpunkt. I fältet **[!UICONTROL URL]** kan du definiera den **HTTPS-slutpunkt** som Campaign Standarden ska kommunicera med.
 
 Om slutpunkten kräver det finns det två typer av autentiseringsmetoder:
 
-* Grundläggande autentisering: ange användarnamn/lösenord i dialogrutan **[!UICONTROL Request Header(s)]** -avsnitt.
+* Grundläggande autentisering: ange användarnamn/lösenord i avsnittet **[!UICONTROL Request Header(s)]**.
 
-* OAuth-autentisering: Genom att klicka på **[!UICONTROL Use connection parameters defined in an external account]** i ett externt konto kan du välja ett externt konto där OAuth-autentisering definieras. Se avsnittet [Externa konton](../../administration/using/external-accounts.md) för mer information.
+* OAuth-autentisering: Genom att klicka på **[!UICONTROL Use connection parameters defined in an external account]** i ett externt konto kan du välja ett externt konto där OAuth-autentiseringen definieras. Se avsnittet [Externa konton](../../administration/using/external-accounts.md) för mer information.
 
 ![](assets/externalAPI-execution.png)
 

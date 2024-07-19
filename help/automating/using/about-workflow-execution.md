@@ -18,13 +18,13 @@ ht-degree: 8%
 
 # Om arbetsflödeskörning {#about-workflow-execution}
 
-Ett arbetsflöde startas alltid manuellt. När programmet väl har startats kan det dock vara inaktivt, beroende på vilken information som har angetts i [Schemaläggare](../../automating/using/scheduler.md) aktivitet.
+Ett arbetsflöde startas alltid manuellt. När den väl har startats kan den dock vara inaktiv, beroende på informationen som har angetts i en [schemaläggaraktivitet](../../automating/using/scheduler.md).
 
 >[!IMPORTANT]
 >
-> Adobe rekommenderar att man inte kör fler än 20 aktiva arbetsflöden samtidigt och prioriterar och sprider arbetsflödet över tid. Mer information finns i [den här sidan](../../automating/using/best-practices-workflows.md).
+> Adobe rekommenderar att man inte kör fler än 20 aktiva arbetsflöden samtidigt och prioriterar och sprider arbetsflödet över tid. Mer information finns i de bästa sätten som finns på [den här sidan](../../automating/using/best-practices-workflows.md).
 
-Körningsrelaterade åtgärder (start, stopp, paus osv.) är **asynkron** processer: kommandot sparas och träder i kraft när servern är tillgänglig för att använda det.
+Körningsrelaterade åtgärder (start, stopp, paus osv.) är **asynkrona** processer: kommandot sparas och träder i kraft när servern är tillgänglig för att använda det.
 
 I ett arbetsflöde skickas resultatet av varje aktivitet vanligtvis till följande aktivitet via en övergång, som representeras av en pil.
 
@@ -42,12 +42,12 @@ När en aktivitet har körts visas antalet poster som skickats i övergången ov
 
 Du kan öppna övergångar om du vill kontrollera att skickade data är korrekta under eller efter arbetsflödets körning. Du kan visa data och datastrukturen.
 
-Som standard går det bara att komma åt information om den senaste övergången i arbetsflödet. Om du vill komma åt resultaten av föregående aktiviteter måste du kontrollera **[!UICONTROL Keep interim results]** i **[!UICONTROL Execution]** i arbetsflödesegenskaperna innan arbetsflödet startas.
+Som standard går det bara att komma åt information om den senaste övergången i arbetsflödet. Om du vill komma åt resultaten av föregående aktiviteter måste du kontrollera alternativet **[!UICONTROL Keep interim results]** i avsnittet **[!UICONTROL Execution]** i arbetsflödesegenskaperna innan du startar arbetsflödet.
 
 >[!NOTE]
 >
 >Det här alternativet kräver mycket minne och är utformat för att skapa ett arbetsflöde och säkerställa att det är korrekt konfigurerat och fungerar korrekt. Låt det vara omarkerat vid produktionsinstanser.
 
-När en övergång är öppen kan du redigera den **[!UICONTROL Label]** eller länka en **[!UICONTROL Segment code]** till den. Om du vill göra det redigerar du motsvarande fält och bekräftar ändringarna.
+När en övergång är öppen kan du redigera dess **[!UICONTROL Label]** eller länka en **[!UICONTROL Segment code]** till den. Om du vill göra det redigerar du motsvarande fält och bekräftar ändringarna.
 
-Med Campaign Standard REST API:er kan du **start**, **paus**, **meritförteckning** och **stop** ett arbetsflöde. Mer information och exempel på REST-anrop finns i [API-dokumentation.](../../api/using/controlling-a-workflow.md)
+Med hjälp av Campaign Standard REST API:er kan du **starta**, **pausa**, **återuppta** och **stoppa** ett arbetsflöde. Mer information och exempel på REST-anrop finns i [API-dokumentationen.](../../api/using/controlling-a-workflow.md)

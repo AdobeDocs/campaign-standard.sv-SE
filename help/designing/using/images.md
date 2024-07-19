@@ -1,6 +1,6 @@
 ---
 title: Arbeta med bilder
-description: Upptäck hur du hanterar bilder i e-postmeddelanden med e-postdesignern.
+description: Upptäck hur du hanterar bilder i e-postmeddelanden med e-post-Designer.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -24,17 +24,17 @@ Du kan infoga bilder i e-postmeddelanden och på landningssidor.
 Följande typer av bilder är tillgängliga, beroende på din konfiguration:
 
 * Lokala bilder
-* Bilder som delas från Adobe Experience Cloud - se [Arbeta med bastjänsten för kampanj och resurser](../../integrating/using/working-with-campaign-and-assets-core-service.md) / Assets On Demand
+* Bilder som delas från Adobe Experience Cloud - se [Arbeta med Campaign och Assets Core Service](../../integrating/using/working-with-campaign-and-assets-core-service.md) / Assets On Demand
 * Dynamiska bilder från Adobe Target - se [Arbeta med Campaign och Target](../../integrating/using/about-campaign-target-integration.md)
 
 >[!CAUTION]
 >
->Om du väljer att lägga till en bild direkt genom att redigera HTML-versionen av e-postmeddelandet får du inte ringa upp **externa filer i en &lt;script> tag** på HTML-sidan. Dessa filer kommer inte att importeras till Adobe Campaign-servern.
+>Om du väljer att lägga till en bild direkt genom att redigera HTML-versionen av e-postmeddelandet får du inte anropa **externa filer i en &lt;script> -tagg** på HTML-sidan. Dessa filer kommer inte att importeras till Adobe Campaign-servern.
 
 ### Infoga bilder i ett e-postmeddelande {#inserting-images-in-an-email}
 
 1. Lägg till en strukturkomponent. Mer information finns i [Redigera e-poststrukturen](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
-1. I den här strukturkomponenten lägger du till en **[!UICONTROL Image]** innehållskomponent.
+1. Lägg till en **[!UICONTROL Image]**-innehållskomponent inuti den här strukturkomponenten.
 
    ![](assets/des_insert_images_1.png)
 
@@ -51,13 +51,13 @@ Följande typer av bilder är tillgängliga, beroende på din konfiguration:
 
 När du markerar ett block som innehåller en bild visas följande egenskaper på paletten:
 
-* **Aktivera personalisering** använder du för att anpassa bildkällan. Se [Anpassa en bildkälla](../../designing/using/personalization.md#personalizing-an-image-source).
-* **Bildtitel** I kan du ange en titel för bilden.
-* **Alt-text** (e-post) eller **Bildtext** (landningssida) kan du definiera bildtexten som är länkad till bilden (motsvarar **alt** HTML).
-* När du redigerar ett e-postmeddelande **Stil** Med kan du ange bildstorlek, bakgrund och kant.
-* När du redigerar en landningssida **Dimensioner** I kan du ange bildstorleken i pixlar.
+* **Aktivera personalisering** gör att du kan anpassa bildkällan. Se [Anpassa en bildkälla](../../designing/using/personalization.md#personalizing-an-image-source).
+* Med **Bildrubrik** kan du definiera en titel för bilden.
+* Med **Alt-text** (e-post) eller **Bildtext** (landningssida) kan du definiera bildtexten som är länkad till bilden (motsvarar attributet **alt** HTML).
+* När du redigerar ett e-postmeddelande kan du med **Format** ange bildstorlek, bakgrund och kant.
+* När du redigerar en landningssida kan du med **Dimensioner** ange bildstorleken i pixlar.
 
-Med redigeraren kan du arbeta med **alla bildtyper** vars format är kompatibla med webbläsare. För att vara kompatibel med redigeraren **animeringar av typen &quot;Flash&quot;** ska infogas på en HTML-sida enligt följande:
+Med redigeraren kan du arbeta med **alla bildtyper** vars format är kompatibla med webbläsare. För att vara kompatibel med redigeraren måste animeringarna av typen **av typen**&quot;Flash&quot; infogas på en HTML-sida enligt följande:
 
 ```
 <object type="application/x-shockwave-flash" data="http://www.mydomain.com/flash/your_animation.swf" width="200" height="400">

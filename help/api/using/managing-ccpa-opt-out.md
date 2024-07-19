@@ -17,12 +17,12 @@ ht-degree: 6%
 
 # Hantera CCPA-avanmälan {#managing-ccpa-optout}
 
-En profils CCPA-avanmälningsstatus kan övervakas och hanteras med **ccpaOptOut** profile-attribut och &quot;true&quot; eller &quot;false&quot;-värden:
+En profils CCPA-avanmälningsstatus kan övervakas och hanteras med profilattributet **ccpaOptOut** och värdena &quot;true&quot; eller &quot;false&quot;:
 
 `"ccpaOptOut": <value>`
 
 * **true**: förbjuder försäljning av personuppgifter.
-* **false**: tillåter försäljning av personuppgifter.
+* **false**: auktoriserar försäljning av personlig information.
 
 <!--The “CCPA Opt-Out” attribute is only available starting 19.4. For 19.3 environments, you need to extend the Profiles resource and add a boolean field. This field will be added to the API with the chosen label. We suggest you use “Opt-Out for CCPA”.
 >

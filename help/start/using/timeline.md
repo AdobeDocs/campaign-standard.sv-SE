@@ -32,8 +32,8 @@ Den blå lodräta linjen är en kronologisk markör som markerar det aktuella da
 
 Använd ikonerna för att
 
-* ![](assets/timeline_zoom_in.png) minska perimetern eller öka detaljnivån under en mer begränsad period tills dagar visas
-* ![](assets/timeline_zoom_out.png) öka perimetern eller visa en större tidsram
+* ![](assets/timeline_zoom_in.png) minskar perimetern eller ökar detaljnivån under en mer begränsad period, tills dagar visas
+* ![](assets/timeline_zoom_out.png) ökar perimetern eller visar en större tidsram
 
 Klicka på pilen till höger om respektive programnamn för att visa motsvarande innehåll. Ett program kan innehålla delprogram, kampanjer och landningssidor. En kampanj körs på samma sätt som ett program och kan innehålla e-post, SMS och landningssidor.
 
@@ -47,12 +47,12 @@ När innehållet i ett program eller en kampanj visas blir motsvarande ruta blå
 
 Varje element har en ikon som motsvarar dess typ:
 
-* ![](assets/timeline_program_icon.png) Program
-* ![](assets/timeline_campaign_icon.png) Campaign
-* ![](assets/timeline_lp_icon.png) Landningssida
-* ![](assets/timeline_email_icon.png) E-post
+* ![](assets/timeline_program_icon.png)-program
+* Kampanj för ![](assets/timeline_campaign_icon.png)
+* ![](assets/timeline_lp_icon.png) landningssida
+* ![](assets/timeline_email_icon.png)-e-post
 * ![](assets/timeline_sms_icon.png) SMS
-* ![](assets/timeline_push_icon.png) Push-meddelande
+* ![](assets/timeline_push_icon.png) push-meddelande
 
 Den färgade raden till vänster om varje ruta anger statusen för det aktuella elementet.
 

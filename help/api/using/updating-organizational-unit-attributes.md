@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Uppdatera attribut för en organisationsenhet {#updating-organizational-unit-attributes}
 
-1. Utför en GET-förfrågan på **orgUnitBase** resurs för att hämta organisationsenhetens PKey.
+1. Utför en GET-begäran på **orgUnitBase**-resursen för att hämta organisationsenhetens PKey.
 1. Utför en begäran från PATCH på organisationsenheten med de attribut som ska uppdateras i nyttolasten.
 
 <br/>

@@ -18,13 +18,13 @@ ht-degree: 70%
 
 # Livscykeln för ett transaktionsmeddelande {#publishing-transactional-message}
 
-När [transaktionsmeddelande](../../channels/using/editing-transactional-message.md) är redo att skickas, kan publiceras.
+När [transaktionsmeddelandet](../../channels/using/editing-transactional-message.md) är klart att skickas kan det publiceras.
 
 Stegen för att publicera, pausa, avpublicera och ta bort ett transaktionsmeddelande beskrivs nedan.
 
 >[!IMPORTANT]
 >
->Endast användare med [Administration](../../administration/using/users-management.md#functional-administrators) roller kan komma åt och publicera transaktionsmeddelanden.
+>Endast användare med rollen [Administration](../../administration/using/users-management.md#functional-administrators) har åtkomst till och kan publicera transaktionsmeddelanden.
 
 ## Publiceringsprocess för transaktionsmeddelanden {#transactional-messaging-pub-process}
 
@@ -88,7 +88,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 ## Publicera ett transaktionsmeddelande {#publishing-a-transactional-message}
 
-När du har redigerat och testat ditt transaktionsmeddelande kan du publicera det. Klicka bara på **[!UICONTROL Publish]** -knappen.
+När du har redigerat och testat ditt transaktionsmeddelande kan du publicera det. Klicka bara på knappen **[!UICONTROL Publish]**.
 
 ![](assets/message-center_12.png)
 
@@ -107,7 +107,7 @@ Använd knappen **[!UICONTROL Reports]** för att få åtkomst till rapporter om
 
 Du kan pausa publiceringen av ditt transaktionsmeddelande med **[!UICONTROL Pause]**-knappen för att t.ex. ändra data i meddelandet. Händelserna behandlas därför inte längre utan hålls i en kö i Adobe Campaign-databasen.
 
-De köade händelserna behålls under en tidsperiod som definieras i REST API (se [REST API-dokumentation](../../api/using/managing-transactional-messages.md)) eller i utlösarhändelsen om du använder kärntjänsten Utlösare (se [Om Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
+Händelserna som står i kö behålls under en tidsperiod som definieras i REST API (se [REST API-dokumentationen](../../api/using/managing-transactional-messages.md)) eller i utlösarhändelsen om du använder kärntjänsten Utlösare (se [Om Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
 ![](assets/message-center_pause.png)
 
@@ -123,7 +123,7 @@ Om du klickar på **[!UICONTROL Unpublish]** kan du avbryta publikationen för t
 
 >[!NOTE]
 >
->Om du vill publicera meddelandet igen måste du gå tillbaka till motsvarande händelsekonfiguration, [publicera händelsen](../../channels/using/publishing-transactional-event.md)och sedan [publicera meddelandet](#publishing-a-transactional-message).
+>Om du vill publicera meddelandet igen måste du gå tillbaka till motsvarande händelsekonfiguration, [publicera händelsen](../../channels/using/publishing-transactional-event.md) och sedan [publicera meddelandet](#publishing-a-transactional-message).
 
 Om du avpublicerar ett pausat transaktionsmeddelande kan du behöva vänta upp till 24 timmar innan du kan publicera det igen. Detta gör att alla händelser som skickades till kön kan rensas i arbetsflödet **[!UICONTROL Database cleanup]**.
 
@@ -135,7 +135,7 @@ Arbetsflödet **[!UICONTROL Database cleanup]**, som körs varje dag kl. 04.00, 
 
 När ett transaktionsmeddelande har avpublicerats, eller om ett transaktionsmeddelande inte har publicerats ännu, kan du ta bort det från transaktionsmeddelandelistan. Så här gör du:
 
-1. Klicka på **Adobe** logotyp, i det övre vänstra hörnet och välj **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
+1. Klicka på logotypen **Adobe** i det övre vänstra hörnet och välj sedan **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
 1. Håll muspekaren över valfritt meddelande.
 1. Klicka på knappen **[!UICONTROL Delete element]**.
 

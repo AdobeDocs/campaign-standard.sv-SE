@@ -114,7 +114,7 @@ Paketet som skapas finns i mappen Nedladdningar. Namnet på zip-filen genereras 
 
    ![](assets/cusresources_import3.png)
 
-### Publicera {#publish-structure}
+### Publish {#publish-structure}
 
 1. Gå till menyn **[!UICONTROL Administration]**/**[!UICONTROL Development]**/**[!UICONTROL Publication]**.
 1. Klicka på **[!UICONTROL Prepare publication]** och sedan **[!UICONTROL Publish]** för att uppdatera instansen med data från de nya anpassade resurserna.
@@ -137,7 +137,7 @@ På samma sätt som i föregående steg delas den upp i två delar: Importera pa
 
    ![](assets/cusresources_importdata.png)
 
-### Publicera {#publish-data}
+### Publish {#publish-data}
 
 1. Gå till menyn **[!UICONTROL Administration]**/**[!UICONTROL Development]**/**[!UICONTROL Publication]**.
 1. Klicka på **[!UICONTROL Prepare publication]** och sedan **[!UICONTROL Publish]** för att uppdatera instansen med data från de anpassade resurserna.

@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Använda integreringen med Microsoft Dynamics 365
 
-Det finns flera dataflöden som Adobe Campaign Standard-integreringen med Microsoft Dynamics 365 utför. Dessa flöden beskrivs i [den här sidan](../../integrating/using/d365-acs-self-service-app-workflows.md).
+Det finns flera dataflöden som Adobe Campaign Standard-integreringen med Microsoft Dynamics 365 utför. De här flödena beskrivs närmare på [den här sidan](../../integrating/using/d365-acs-self-service-app-workflows.md).
 
-Mer information om dataflödena finns längre ned i det här dokumentet i [Dataflöden](#data-flows)  -avsnitt.
+Mer information om dataflödena finns längre ned i det här dokumentet i avsnittet [Dataflöden](#data-flows).
 
 ## Adobe Campaign Standard användargränssnitt
 
@@ -27,7 +27,7 @@ När en kontakt skapas, ändras eller tas bort (om borttagen är aktiverad) i Mi
 
 ![](assets/MSdynamicsACS-usage1.png)
 
-När ett avanmälningsattribut ändras i Campaign återspeglas det i Dynamics 365 om du har valt **Enkelriktad (Campaign till Microsoft Dynamics 365)** eller **Dubbelriktad** avanmälningskonfiguration, och om du har just det attributet mappat korrekt.
+När ett avanmälningsattribut ändras i Campaign återspeglas det i Dynamics 365 om du har valt avanmälningskonfigurationen **Unidirectional (Campaign to Microsoft Dynamics 365)** eller **Dubbelriktad** och om du har det attributet korrekt mappat.
 
 ## Microsoft Dynamics 365 - användarupplevelse
 
@@ -45,7 +45,7 @@ Om du vill visa en kontakts tidslinje går du till din kontaktlista genom att kl
 
 >[!NOTE]
 >
->The **Adobe Campaign för Microsoft Dynamics 365** app i AppSource måste installeras i din Microsoft Dynamics 365-instans för att du ska kunna visa dessa händelser. [Läs mer](../../integrating/using/d365-acs-configure-d365.md#install-appsource-app).
+>Appen **Adobe Campaign för Microsoft Dynamics 365** i AppSource måste installeras i din Microsoft Dynamics 365-instans för att du ska kunna visa de här händelserna. [Läs mer](../../integrating/using/d365-acs-configure-d365.md#install-appsource-app).
 
 Här nedan ser du en ögonblicksbild av kontaktskärmen för&quot;Dynamics-användare&quot;. I tidslinjevyn kommer du att märka att Dynamics-användaren har fått ett e-postmeddelande som är kopplat till kampanjnamnet&quot;2019LoyaltyCamp&quot; och leveransnamnet&quot;DM190&quot;. Dynamics User öppnade e-postmeddelandet och klickade också på en URL i e-postmeddelandet. Båda dessa åtgärder skapade händelser som också visas nedan. Om du tittar till det högra hörnet ser du kortet för Relationsassistenten (RA). För närvarande innehåller det en uppgift att följa upp den klickade URL:en.
 
@@ -71,23 +71,23 @@ Här följer en lista över attributen och en beskrivning:
 
 * **Ämne**: Ämne för händelsen; består av kampanj-ID och leverans-ID för e-postleveransen
 
-* **Ägare**: Den programanvändare som skapas i stegen efter etableringen
+* **Ägare**: Programanvändaren som skapas i stegen efter etableringen
 
 * **Angående**: Kontaktens namn
 
-* **Kampanjnamn**: Kampanj-ID i Campaign Standard
+* **Kampanjnamn**: Kampanj-ID:t i Campaign Standarden
 
 * **Leveransnamn**: Leverans-ID i Campaign Standard
 
-* **Skickat/öppnat/klickat/studsat**: Datum/tid när händelsen skapades
+* **Datum skickat/öppnat/klickat/studsat**: Datum/tid när händelsen skapades
 
-* **Spårnings-URL**: URL som användaren klickade på
+* **URL för spårning**: URL som klickades på
 
 * **URL för speglingssida**: URL:en till spegelsidan för e-postmeddelandet som skickades/öppnades/klickades/studsades. Utgångsperioden för e-postspegelsidan kan ändras på konfigurationsskärmen för motsvarande aktivitet i e-postkanalen för Campaign. [Läs mer](../../administration/using/configuring-email-channel.md#validity-period-parameters).
 
 >[!NOTE]
 >
->Om du väljer att avanmäla dig och ett avanmälningsattribut ändras i Microsoft Dynamics 365 återspeglas det i Campaign om du valde **Enkelriktad (Campaign till Microsoft Dynamics 365)** eller **Dubbelriktad** avanmälningskonfiguration, och om du har just det attributet mappat korrekt.
+>Om du vill avanmäla dig återspeglas det i Campaign när ett avanmälningsattribut ändras i Microsoft Dynamics 365 om du har valt avanmälningskonfigurationen **Unidirectional (Campaign till Microsoft Dynamics 365)** eller **Dubbelriktad** och om du har det attributet korrekt mappat.
 
 ## Dataflöden {#data-flows}
 
@@ -111,7 +111,7 @@ Kampanjprofiltabellattributet externalId måste fyllas i med kontaktattributet c
 
 #### Anpassade entiteter
 
-The [Integrering av Microsoft Dynamics 365-Adobe Campaign Standard](../../integrating/using/d365-acs-get-started.md) stöder anpassade entiteter, vilket gör att anpassade entiteter i Dynamics 365 kan synkroniseras med motsvarande anpassade resurser i Campaign.
+Integreringen [Microsoft Dynamics 365-Adobe Campaign Standard](../../integrating/using/d365-acs-get-started.md) har stöd för anpassade entiteter, vilket gör att anpassade entiteter i Dynamics 365 kan synkroniseras med motsvarande anpassade resurser i Campaign.
 
 De nya uppgifterna i de anpassade resurserna kan användas för flera syften, inklusive segmentering och personalisering.
 
@@ -128,13 +128,13 @@ När du konfigurerar dataflöden för anpassade entiteter är det viktigt att du
 * För anpassade entitetsdataflöden måste ändringsspårning vara aktiverat i Dynamics 365 för synkroniserade anpassade entiteter.
 * Om en överordnad och länkad underordnad post skapas nära samma tid i Dynamics 365, på grund av den parallella bearbetningen av integreringen, finns det en liten risk för att en ny underordnad post kan skrivas till Campaign före den överordnade posten.
 
-* Om det överordnade och underordnade objektet är länkade på Campaign-sidan använder du **1 enkel kardinallänk** om du väljer det här alternativet förblir den underordnade posten dold och otillgänglig (via gränssnittet eller API) tills den överordnade posten kommer till Campaign.
+* Om den överordnade och underordnade posten är länkad på Campaign-sidan med alternativet **1 enkel kardinalitetslänk**, förblir den underordnade posten dold och otillgänglig (via gränssnittet eller API) tills den överordnade posten kommer till Campaign.
 
-* (Antar **1 enkel kardinallänk** i Campaign) Om den underordnade posten uppdateras eller tas bort i Dynamics 365, och den ändringen skrivs till Campaign innan den överordnade posten visas i Campaign (inte sannolikt, utan en fjärrfunktion), kommer den uppdateringen eller borttagningen inte att bearbetas i Campaign och ett fel kommer att genereras. Vid uppdatering måste posten i fråga uppdateras i Dynamics 365 igen för att den uppdaterade posten ska kunna synkroniseras. Vid radering måste posten i fråga hanteras separat på Campaign-sidan eftersom det inte längre finns en post i Dynamics 365 att radera eller uppdatera.
+* (Anta att **1 enkel kardinalitetslänk** finns i Campaign) Om den underordnade posten uppdateras eller tas bort i Dynamics 365, och den ändringen skrivs till Campaign innan den överordnade posten visas i Campaign (inte troligt, men med en fjärrfunktion), kommer uppdateringen eller borttagningen inte att bearbetas i Campaign och ett fel kommer att genereras. Vid uppdatering måste posten i fråga uppdateras i Dynamics 365 igen för att den uppdaterade posten ska kunna synkroniseras. Vid radering måste posten i fråga hanteras separat på Campaign-sidan eftersom det inte längre finns en post i Dynamics 365 att radera eller uppdatera.
 
-* Om du stöter på en situation där du tror att du har dolda underordnade poster och inte kan komma åt dem, kan du tillfälligt ändra kardinalitetslänktypen till **0 eller 1 enkel kardinalitetslänk** för att få tillgång till dessa register.
+* Om du stöter på en situation där du tror att du har dolda underordnade poster och inte kan komma åt dem, kan du tillfälligt ändra kardinalitetslänktypen till **0 eller 1 enkel kardinalitetslänk** för att komma åt dessa poster.
 
-En mer omfattande översikt över anpassade resurser för Campaign finns [i det här avsnittet](../../developing/using/key-steps-to-add-a-resource.md).
+En mer utförlig översikt över anpassade resurser för Campaign finns [i det här avsnittet](../../developing/using/key-steps-to-add-a-resource.md).
 
 ### Händelseflöde för e-postmarknadsföring{#email-marketing-event-flow}
 
@@ -159,17 +159,17 @@ E-postmarknadsföringshändelser kan aktiveras/inaktiveras per typ (skicka, öpp
 
 Värden för avanmälan (t.ex. blockeringslista) synkroniseras mellan system. Du kan välja mellan följande alternativ när du registrerar:
 
-* **Enkelriktad (Microsoft Dynamics 365 till Campaign)**: Dynamics 365 är en källa till sanning för avanmälan. Attributen för avanmälan synkroniseras i en riktning från Dynamics 365 till Campaign Standard&quot;
-* **Enkelriktad (Campaign till Microsoft Dynamics 365)**: Campaign Standard är källan till sanning för avanmälan. Attribut för avanmälan synkroniseras i en riktning från Campaign Standard till Dynamics 365
-* **Dubbelriktad**: Dynamics 365 AND Campaign Standard är båda sanningskällor. Attributen för avanmälan synkroniseras dubbelriktat mellan Campaign Standard och Dynamics 365
+* **Unidirectional (Microsoft Dynamics 365 till Campaign)**: Dynamics 365 är en källa till sanning för avanmälan. Attributen för avanmälan synkroniseras i en riktning från Dynamics 365 till Campaign Standard&quot;
+* **Unidirectional (Campaign to Microsoft Dynamics 365)**: Campaign Standarden är källan till sanning för avanmälan. Attribut för avanmälan synkroniseras i en riktning från Campaign Standard till Dynamics 365
+* **Dubbelriktad**: Dynamics 365 AND-Campaign Standard är båda sanningens källor. Attributen för avanmälan synkroniseras dubbelriktat mellan Campaign Standard och Dynamics 365
 
 Om du har en separat process för att hantera avanmälningssynkronisering mellan systemen kan även integreringens avanmälningsdataflöde inaktiveras.
 
 >[!NOTE]
 >
->I integreringsprogrammets användargränssnitt visas **Enkelriktad (Microsoft Dynamics 365 till Campaign)** och **Dubbelriktad** användningsfall för avanmälan har konfigurerats i ett separat avanmälningsarbetsflöde. [Läs mer](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
+>I integreringsprogrammets användargränssnitt är användningsfall för **Unidirectional (Microsoft Dynamics 365 till Campaign)** och **dubbelriktad** för avanmälan konfigurerade i ett separat avanmälningsarbetsflöde. [Läs mer](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
 >
->The **Enkelriktad (Campaign till Microsoft Dynamics 365)** användningsfall för avanmälan är ett undantag. Det är konfigurerat i arbetsflödet för ingress (kontakt till profil).
+>Användningsfallet **Unidirectional (Campaign to Microsoft Dynamics 365)** för avanmälan är ett undantag. Det är konfigurerat i arbetsflödet för ingress (kontakt till profil).
 >
 
 Flödesmappning för avanmälan ska anges av kunden eftersom affärskraven kan skilja sig mellan olika företag. På Campaign-sidan kan endast OTB-avanmälningsattribut användas för avanmälningsmappning:

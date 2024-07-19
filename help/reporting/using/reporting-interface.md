@@ -21,22 +21,22 @@ I det övre verktygsfältet kan du till exempel ändra, spara eller skriva ut ra
 
 ![](assets/dynamic_report_toolbar.png)
 
-Använd **Projekt** till:
+Använd fliken **Projekt** för att:
 
 * **Öppna...**: Öppnar en rapport eller mall som skapats tidigare.
-* **Spara som...**: Mallar dupliceras så att de kan ändras.
+* **Spara som..**: Mallar dupliceras för att kunna ändra dem.
 * **Uppdatera projekt**: Uppdaterar rapporten baserat på nya data och ändringar i filter.
 * **Hämta CSV**: Exporterar dina rapporter till en CSV-fil.
 
-The **Redigera** kan du
+På fliken **Redigera** kan du:
 
 * **Ångra**: Avbryter din senaste åtgärd på instrumentpanelen.
-* **Rensa alla**: Tar bort alla paneler på kontrollpanelen.
+* **Radera alla**: Tar bort alla paneler på instrumentpanelen.
 
-The **Infoga** Med tabell kan du anpassa rapporter genom att lägga till diagram och tabeller på kontrollpanelen:
+Med tabellen **Infoga** kan du anpassa dina rapporter genom att lägga till diagram och tabeller på kontrollpanelen:
 
 * **Ny tom panel**: Lägger till en ny tom panel på instrumentpanelen.
-* **Ny frihandsfigur**: Lägger till en ny friformstabell på kontrollpanelen.
+* **Ny frihandsfigur**: Lägger till en ny frihandstabell på kontrollpanelen.
 * **Ny rad**: Lägger till ett nytt linjediagram på instrumentpanelen.
 * **Nytt fält**: Lägger till ett nytt stapeldiagram på instrumentpanelen.
 
@@ -55,9 +55,9 @@ Med de vänstra flikarna kan du skapa en rapport och filtrera data efter behov.
 
 Med de här flikarna får du tillgång till följande objekt:
 
-* **[!UICONTROL Panels]**: lägg till en tom panel eller ett frihandsritat i rapporten för att börja filtrera dina data. Mer information finns i avsnittet Lägga till paneler
+* **[!UICONTROL Panels]**: lägg till en tom panel eller ett frihandsformulär i rapporten för att börja filtrera dina data. Mer information finns i avsnittet Lägga till paneler
 * **[!UICONTROL Visualizations]**: dra och släpp ett urval av visualiseringsobjekt för att ge rapporten en grafisk dimension. Mer information finns i avsnittet Lägga till visualiseringar.
-* **[!UICONTROL Components]**: anpassa rapporter med olika dimensioner, mätvärden, segment och tidsperioder.
+* **[!UICONTROL Components]**: anpassa dina rapporter med olika dimensioner, mätvärden, segment och tidsperioder.
 
 ## Verktygsfält {#toolbar}
 
@@ -75,10 +75,10 @@ Verktygsfältet finns ovanför arbetsytan. Med olika flikar kan du till exempel 
 
 ![](assets/tab_project.png)
 
-Använd **Projekt** till:
+Använd fliken **Projekt** för att:
 
 * **Öppna...**: Öppnar en rapport eller mall som skapats tidigare.
-* **Spara som...**: Mallar dupliceras så att de kan ändras.
+* **Spara som..**: Mallar dupliceras för att kunna ändra dem.
 * **Uppdatera projekt**: Uppdaterar rapporten baserat på nya data och ändringar i filter.
 * **Hämta CSV**: Exporterar dina rapporter till en CSV-fil.
 * **[!UICONTROL Print]**: Skriv ut rapporten.
@@ -87,19 +87,19 @@ Använd **Projekt** till:
 
 ![](assets/tab_edit.png)
 
-The **Redigera** kan du
+På fliken **Redigera** kan du:
 
 * **Ångra**: Avbryter din senaste åtgärd på instrumentpanelen.
-* **Rensa alla**: Tar bort alla paneler på kontrollpanelen.
+* **Radera alla**: Tar bort alla paneler på instrumentpanelen.
 
 ### Infoga-flik {#insert-tab}
 
 ![](assets/tab_insert.png)
 
-The **Infoga** kan du anpassa rapporter genom att lägga till diagram och tabeller på kontrollpanelen:
+På fliken **Infoga** kan du anpassa rapporter genom att lägga till diagram och tabeller på kontrollpanelen:
 
 * **Ny tom panel**: Lägger till en ny tom panel på instrumentpanelen.
-* **Ny frihandsfigur**: Lägger till en ny friformstabell på kontrollpanelen.
+* **Ny frihandsfigur**: Lägger till en ny frihandstabell på kontrollpanelen.
 * **Ny rad**: Lägger till ett nytt linjediagram på instrumentpanelen.
 * **Nytt fält**: Lägger till ett nytt stapeldiagram på instrumentpanelen.
 
@@ -107,41 +107,41 @@ The **Infoga** kan du anpassa rapporter genom att lägga till diagram och tabell
 
 ![](assets/tab_share_1.png)
 
-The **[!UICONTROL Share]** kan du skicka rapporter till Adobe Campaign-användare via e-post med ett eller flera skott. Målanvändarna får sedan ett e-postmeddelande med din rapport bifogad.
+På fliken **[!UICONTROL Share]** kan du skicka dina rapporter med Adobe Campaign-användare via e-post med en bild eller återkommande meddelanden. Målanvändarna får sedan ett e-postmeddelande med din rapport bifogad.
 
-* **[!UICONTROL Send report now]**: Skicka rapporten till en lista med valda mottagare via ett e-postmeddelande.
+* **[!UICONTROL Send report now]**: Skicka rapporten till en lista över valda mottagare via ett e-postmeddelande.
 
-   1. I **[!UICONTROL Send report]** -fönstret, lägg till en beskrivning om det behövs.
+   1. Lägg till en beskrivning i fönstret **[!UICONTROL Send report]** om det behövs.
 
       ![](assets/tab_share_4.png)
 
    1. Välj mottagare i listrutan. Observera att du inte kan välja användare utanför din organisation.
-   1. Kontrollera **[!UICONTROL Show scheduling options]** om du vill skicka återkommande e-postmeddelanden. Detta kan även göras genom att markera **[!UICONTROL Send Report on schedule]** i **[!UICONTROL Share]** -fliken.
+   1. Markera **[!UICONTROL Show scheduling options]** om du vill skicka återkommande e-postmeddelanden. Detta kan även göras genom att välja **[!UICONTROL Send Report on schedule]** på fliken **[!UICONTROL Share]**.
    1. Klicka på **[!UICONTROL Send now]**. Mottagarna får sedan ett e-postmeddelande med rapporten bifogad.
 
 * **[!UICONTROL Send report on schedule]**: Schemalägg rapporten och skicka återkommande e-postmeddelanden till mottagarna.
 
-   1. I **[!UICONTROL Send report]** -fönstret, lägg till en beskrivning om det behövs.
+   1. Lägg till en beskrivning i fönstret **[!UICONTROL Send report]** om det behövs.
    1. Välj mottagare i listrutan. Observera att du inte kan välja användare utanför din organisation.
 
       ![](assets/tab_share_5.png)
 
-   1. Välj start- och slutdatum för att konfigurera din e-postgiltighet i **[!UICONTROL Starting on]** och **[!UICONTROL Ending on]** fält.
+   1. Välj start- och slutdatum för att konfigurera e-postgiltigheten i fälten **[!UICONTROL Starting on]** och **[!UICONTROL Ending on]**.
    1. Välj hur ofta ditt e-postmeddelande ska skickas.
 
       ![](assets/tab_share_2.png)
 
-   1. Klicka **[!UICONTROL Send on schedule]**, får mottagarna ditt återkommande e-postmeddelande beroende på hur ofta du väljer.
+   1. Klicka på **[!UICONTROL Send on schedule]** så får dina mottagare din återkommande e-post beroende på vald frekvens.
 
-* **[!UICONTROL Scheduled reports]**: Sök efter och konfigurera alla schemalagda rapporter.
+* **[!UICONTROL Scheduled reports]**: Sök efter och konfigurera alla dina schemalagda rapporter.
 
-   1. I **[!UICONTROL Scheduled reports]** söker du efter alla dina återkommande skickade rapporter.
+   1. I fönstret **[!UICONTROL Scheduled reports]** hittar du alla dina återkommande skickade rapporter.
 
       ![](assets/tab_share_3.png)
 
    1. Om du behöver ta bort en schemalagd rapport markerar du den schemalagda rapport som du vill ta bort och klickar sedan på **[!UICONTROL Delete the section]**.
    1. Om du vill konfigurera eller kontrollera dina schemalagda rapporter klickar du direkt på den rapport du vill ändra.
-   1. The **[!UICONTROL Edit scheduled report]** visas kan du nu ändra mottagare eller frekvens för e-postmeddelandet om det behövs.
+   1. Fönstret **[!UICONTROL Edit scheduled report]** visas. Nu kan du ändra mottagare eller frekvens för ditt e-postmeddelande om det behövs.
 
 Målanvändarna får sedan ett e-postmeddelande med din rapport bifogad direkt i sina inkorgar. Användare kan alltid bestämma sig för att sluta ta emot återkommande e-postmeddelanden via en länk för att avbryta prenumerationen som finns i varje återkommande e-postmeddelande.
 

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Mobila användningsfall som stöds av Adobe Campaign Standard {#mobile-use-cases}
 
-På den här sidan hittar du en lista över alla mobilanvändningsfall som stöds i [!DNL Adobe Campaign Standard] med [!DNL Adobe Experience Platform SDKs]. Observera att för att stödja dessa användningsområden måste du installera och konfigurera [!DNL Adobe Experience Platform SDKs], [!DNL tags in Adobe Experience Platform]och [!DNL Adobe Campaign Standard]. Mer information finns i [page](../../administration/using/configuring-a-mobile-application.md).
+På den här sidan hittar du en lista över alla mobilanvändningsfall som stöds i [!DNL Adobe Campaign Standard] med hjälp av [!DNL Adobe Experience Platform SDKs]. Observera att stöd för de här användningsexemplen innefattar installation och konfigurering av [!DNL Adobe Experience Platform SDKs], [!DNL tags in Adobe Experience Platform] och [!DNL Adobe Campaign Standard]. Mer information finns på [sidan](../../administration/using/configuring-a-mobile-application.md).
 
 Adobe Campaign Standard har stöd för följande användningsområden:
 
@@ -29,7 +29,7 @@ Adobe Campaign Standard har stöd för följande användningsområden:
 
 För att konfigurera dessa användningsfall behöver du följande tillägg:
 
-* **[!DNL Adobe Campaign Standard]** <br>Information om hur du installerar och konfigurerar Campaign Standarden finns i [Konfigurera tillägget Campaign Standard i användargränssnittet för datainsamling](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#configure-the-campaign-standard-extension).
+* **[!DNL Adobe Campaign Standard]** <br>Mer information om hur du installerar och konfigurerar Campaign Standarden finns i [Konfigurera Campaign Standarden i användargränssnittet för datainsamling](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#configure-the-campaign-standard-extension).
 * **[!DNL Mobile Core]**, som installeras automatiskt. <br>Mer information om tillägget Mobile Core finns i [Mobile Core](https://developer.adobe.com/client-sdks/documentation/mobile-core/).
 * **[!DNL Profile]**, som installeras automatiskt. <br>Mer information om profiltillägget finns i [Profil](https://developer.adobe.com/client-sdks/documentation/profile/).
 
@@ -37,10 +37,10 @@ För att konfigurera dessa användningsfall behöver du följande tillägg:
 
 ### Med iOS {#register-mobile-profile-ios}
 
-I IOS [!DNL Experience Platform APIs] krävs:
+I iOS krävs följande [!DNL Experience Platform APIs]:
 
 * **[!UICONTROL Lifecycle Start]**, när appen startas och när appen finns i förgrunden.
-* **[!UICONTROL Lifecycle Pause]**, när programmet finns i bakgrunden.
+* **[!UICONTROL Lifecycle Pause]**, när appen finns i bakgrunden.
 
 Mer information finns i [Livscykeltillägg i iOS](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/ios/).
 
@@ -80,7 +80,7 @@ func applicationDidEnterBackground(_ application: UIApplication) {
 
 ### Med Android {#register-mobile-profile-android}
 
-I Android har du följande [!DNL Experience Platform APIs] krävs:
+I Android krävs följande [!DNL Experience Platform APIs]:
 
 * **[!UICONTROL OnResume]**
 * **[!UICONTROL OnPause]**
@@ -110,7 +110,7 @@ public void onResume() {
 
 ### Med iOS {#send-push-token-ios}
 
-I IOS [!DNL Experience Platform SDK] krävs:
+I iOS krävs följande [!DNL Experience Platform SDK]:
 
 * **[!UICONTROL setPushIdentifier]** <br>Mer information finns i [setPushIdentifier](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/).
 
@@ -125,7 +125,7 @@ func application(_ application: UIApplication, didRegisterForRemoteNotifications
 
 ### Med Android {#send-push-token-android}
 
-I Android har du följande [!DNL Experience Platform SDK] krävs:
+I Android krävs följande [!DNL Experience Platform SDK]:
 
 * **[!UICONTROL setPushIdentifier]** <br>Mer information finns i [setPushIdentifier](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/).
 
@@ -141,11 +141,11 @@ public void onNewToken(String token) {
 
 ## Berika en mobilprofil med anpassade data från programmet {#enrich-mobile-profile-custom}
 
-För att detta ska fungera måste du skapa regler för PII-återanslående. Mer information finns i [PII-eftersläpningar](../../administration/using/configuring-rules-launch.md#pii-postback).
+För att detta ska fungera måste du skapa regler för PII-återanslående. Mer information finns i [PII Postback](../../administration/using/configuring-rules-launch.md#pii-postback).
 
 ### Med iOS {#enrich-mobile-profile-custom-ios}
 
-I IOS [!DNL Experience Platform API] krävs:
+I iOS krävs följande [!DNL Experience Platform API]:
 
 * collectPII <br> Mer information finns i collectPII.
 
@@ -157,7 +157,7 @@ ACPCore.collectPii(["pushPlatform":"apns", "email":email, "firstName":firstName,
 
 ### Med Android {#enrich-mobile-profile-custom-android}
 
-I Android har du följande [!DNL Experience Platform API] krävs:
+I Android krävs följande [!DNL Experience Platform API]:
 
 * collectPII <br> Mer information finns i collectPII.
 
@@ -174,7 +174,7 @@ MobileCore.collectPii(data);
 
 ## Berika en mobilprofil med livscykeldata från ditt program {#enrich-mobile-profile-lifecycle}
 
-För att detta ska fungera måste du skapa regler för PII-återanslående. Mer information finns i [PII-eftersläpningar](../../administration/using/configuring-rules-launch.md#pii-postback).
+För att detta ska fungera måste du skapa regler för PII-återanslående. Mer information finns i [PII Postback](../../administration/using/configuring-rules-launch.md#pii-postback).
 
 >[!NOTE]
 >
@@ -182,10 +182,10 @@ För att detta ska fungera måste du skapa regler för PII-återanslående. Mer 
 
 ### Med iOS {#enrich-mobile-profile-lifecycle-ios}
 
-I IOS [!DNL Experience Platform APIs] krävs:
+I iOS krävs följande [!DNL Experience Platform APIs]:
 
 * **[!UICONTROL Lifecycle Start]**, när appen startas och när appen finns i förgrunden.
-* **[!UICONTROL Lifecycle Pause]**, när programmet finns i bakgrunden.
+* **[!UICONTROL Lifecycle Pause]**, när appen finns i bakgrunden.
 
 Mer information finns i [Livscykeltillägg i iOS](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/ios/).
 
@@ -225,7 +225,7 @@ func applicationDidEnterBackground(_ application: UIApplication) {
 
 ### Med Android {#enrich-mobile-profile-lifecycle-android}
 
-I Android har du följande [!DNL Experience Platform APIs] krävs:
+I Android krävs följande [!DNL Experience Platform APIs]:
 
 * **[!UICONTROL OnResume]**
 * **[!UICONTROL OnPause]**
@@ -257,7 +257,7 @@ Du måste skapa regler för push-meddelanden som spårar återanslående. Mer in
 
 ### Med iOS {#track-user-push-ios}
 
-I IOS [!DNL Experience Platform SDK] krävs:
+I iOS krävs följande [!DNL Experience Platform SDK]:
 
 * **[!UICONTROL trackAction]**. Mer information finns i [Spåra appåtgärder](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
 
@@ -273,10 +273,10 @@ if (deliveryId != nil && broadlogId != nil) {
 
 ### Med Android {#track-user-push-android}
 
-I Android har du följande [!DNL Experience Platform SDK] krävs:
+I Android krävs följande [!DNL Experience Platform SDK]:
 
 * **[!UICONTROL trackAction]**
-Mer information finns i [Spåra appåtgärder](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
+Mer information finns i [Spåra programåtgärder ](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) .
 
 Här följer ett exempel på implementering för det här användningsexemplet med Android:
 
@@ -291,7 +291,7 @@ MobileCore.trackAction("tracking", contextData);
 
 ### Med iOS {#custom-event-inapp-ios}
 
-I IOS [!DNL Experience Platform SDK] krävs:
+I iOS krävs följande [!DNL Experience Platform SDK]:
 
 * **[!UICONTROL trackAction]**. Mer information finns i [Spåra appåtgärder](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
 
@@ -303,10 +303,10 @@ ACPCore.trackAction(mobileEventName, data: [:] )
 
 ### Med Android {#custom-event-inapp-android}
 
-I Android har du följande [!DNL Experience Platform SDK] krävs:
+I Android krävs följande [!DNL Experience Platform SDK]:
 
 * **[!UICONTROL trackAction]**
-Mer information finns i [Spåra appåtgärder](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
+Mer information finns i [Spåra programåtgärder ](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) .
 
 Här följer ett exempel på implementering för det här användningsexemplet med Android:
 
@@ -318,7 +318,7 @@ MobileCore.trackAction(mobileEventText, new HashMap<String,String>());
 
 ### Med iOS {#linkage-fields-inapp-ios}
 
-Så här anger du länkningsfält för ytterligare autentisering för profilmallen som baseras på meddelanden i appen i iOS: [!DNL Experience Platform SDK] krävs:
+Om du vill ange länkningsfält för ytterligare autentisering för profilmallen som är baserad på meddelanden i appen i iOS, krävs följande [!DNL Experience Platform SDK]:
 
 * Ange länkningsfält <br>Mer information finns i [Ange länkningsfält](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#setlinkagefields).
 * Återställ länkningsfält <br>Mer information finns i [Återställ länkningsfält](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#setlinkagefields).
@@ -341,12 +341,12 @@ ACPCampaign.resetLinkageFields(linkageFields)
 
 ### Med Android {#linkage-fields-inapp-android}
 
-Om du vill ange länkningsfält för ytterligare autentisering för profilmallen som är baserad på meddelanden i appen i Android, krävs följande Experience Platform SDK:
+Om du vill ange länkningsfält för ytterligare autentisering för profilmallen som baseras på meddelanden i appen i Android, krävs följande Experience Platform SDK:
 
 * Ange länkningsfält <br>Mer information finns i [Ange länkningsfält](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#setlinkagefields).
 * Återställ länkningsfält <br>Mer information finns i [Återställ länkningsfält](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#resetlinkagefields).
 
-Här är några exempel på implementeringar av det här användningsexemplet för Android.
+Här är några exempel på implementeringar av det här användningsexemplet med Android.
 
 Så här anger du länkningsfält:
 

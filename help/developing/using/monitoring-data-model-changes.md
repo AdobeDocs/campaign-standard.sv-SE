@@ -17,7 +17,7 @@ ht-degree: 5%
 
 # Övervaka datamodelländringar{#monitoring-data-model-changes}
 
-Från **[!UICONTROL Diagnosis]** kan du visa de tekniska objekt som genereras av programmet för att analysera dem.
+På menyn **[!UICONTROL Diagnosis]** kan du visa de tekniska objekt som genereras av programmet för att analysera dem.
 
 >[!NOTE]
 >

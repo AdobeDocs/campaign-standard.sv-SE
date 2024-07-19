@@ -1,6 +1,6 @@
 ---
 title: Förhandsgranska meddelanden
-description: Lär dig hur du förhandsgranskar ett meddelande i innehållsredigeraren eller i e-postdesignern.
+description: Lär dig hur du förhandsgranskar ett meddelande i innehållsredigeraren eller i e-postmeddelandet för Designer.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
@@ -23,25 +23,25 @@ Med Campaign Standard kan du förhandsgranska meddelanden innan de skickas, för
 
 Förhandsgranskning av meddelanden utförs med **Testprofiler** som du lägger till i meddelandets mål.
 
-För **e-post** -meddelanden kan du med Campaign Standard förhandsgranska meddelanden med målprofiler i stället för testprofiler. På så sätt kan du få en exakt representation av meddelandet som en viss profil får. Mer information finns i [Testa e-postmeddelanden med målprofiler](../../sending/using/testing-messages-using-target.md).
+För **e-post**-meddelanden kan du med Campaign Standard förhandsgranska meddelanden med målprofiler i stället för testprofiler. På så sätt kan du få en exakt representation av meddelandet som en viss profil får. Mer information finns i [Testa e-postmeddelanden med målprofiler](../../sending/using/testing-messages-using-target.md).
 
 Så här förhandsgranskar du ett meddelande med testprofiler:
 
-1. I [E-postdesigner](../../designing/using/designing-content-in-adobe-campaign.md)klickar du på **[!UICONTROL Preview]** -knappen.
+1. Klicka på knappen **[!UICONTROL Preview]** i [Skicka e-post till Designer](../../designing/using/designing-content-in-adobe-campaign.md).
 
    ![](assets/sending_preview.png)
 
    En skrivbordsvy och en responsiv mobilvy av e-postmeddelandet visas sida vid sida.
 
-1. En automatisk skräppostkontroll utförs under varje förhandsgranskning. Klicka på **[!UICONTROL Anti-spam analysis]** om du vill veta mer om varningen.
+1. En automatisk skräppostkontroll utförs under varje förhandsgranskning. Klicka på knappen **[!UICONTROL Anti-spam analysis]** om du vill veta mer om varningen.
 
    ![](assets/sending_anti-spam_analysis.png)
 
-1. Välj **[!UICONTROL Change profile]** för att välja den testprofil som du vill testa personaliseringselementen på.
+1. Välj knappen **[!UICONTROL Change profile]** för att välja den testprofil som du vill testa personaliseringselementen på.
 
    ![](assets/sending_test-profile.png)
 
-1. Avsluta **[!UICONTROL Preview]** läge, klicka på **[!UICONTROL Edit]** överst till vänster på skärmen.
+1. Om du vill avsluta **[!UICONTROL Preview]**-läget klickar du på knappen **[!UICONTROL Edit]** överst till vänster på skärmen.
 
    ![](assets/sending_preview_edit.png)
 
@@ -53,25 +53,25 @@ Så här förhandsgranskar du ett meddelande med testprofiler:
 
 ## Förhandsgranska SMS-meddelanden {#previewing-sms}
 
-För **SMS** -meddelanden kan du med Campaign Standard förhandsgranska meddelanden med testprofiler. På så sätt kan du få en exakt representation av meddelandet som en viss profil får. Mer information finns i [Hantera testprofiler](../../audiences/using/managing-test-profiles.md).
+För **SMS**-meddelanden kan du med Campaign Standard förhandsgranska meddelanden med testprofiler. På så sätt kan du få en exakt representation av meddelandet som en viss profil får. Mer information finns i [Hantera testprofiler](../../audiences/using/managing-test-profiles.md).
 
 Så här förhandsgranskar du ett SMS-meddelande med testprofiler:
 
-1. När du fyllt i **[!UICONTROL Properties]** av SMS-meddelandet och valda målgrupper kan ni personalisera leveransen. Mer information finns i [section](../../channels/using/personalizing-sms-messages.md).
+1. När du har fyllt i **[!UICONTROL Properties]** i SMS-meddelandet och valt dina målgrupper kan du anpassa leveransen. Mer information finns i [avsnittet](../../channels/using/personalizing-sms-messages.md).
 
    ![](assets/sms_preview.png)
 
-1. När du har anpassat innehållet klickar du **[!UICONTROL Create]** för att komma åt **[!UICONTROL Summary]** -fönstret.
+1. När du har anpassat innehållet klickar du på **[!UICONTROL Create]** för att öppna fönstret **[!UICONTROL Summary]**.
 
-1. Från **[!UICONTROL Summary]** fönster, klicka **[!UICONTROL Content]** för att förhandsgranska materialet.
+1. Klicka på **[!UICONTROL Content]** i fönstret **[!UICONTROL Summary]** för att förhandsgranska leveransen.
 
    ![](assets/sms_preview_2.png)
 
-1. Klicka **[!UICONTROL Preview]** i verktygsfältet.
+1. Klicka på **[!UICONTROL Preview]** i verktygsfältet.
 
    ![](assets/sms_preview_3.png)
 
-1. Klicka **[!UICONTROL Change profile]** för att välja testprofil och sedan **[!UICONTROL Confirm]**.
+1. Klicka på **[!UICONTROL Change profile]** för att välja din testprofil och sedan **[!UICONTROL Confirm]**.
 
    ![](assets/sms_preview_4.png)
 
@@ -85,21 +85,21 @@ Du kan nu se den exakta representationen av ditt meddelande beroende på de vald
 
 ## Förhandsgranska push-meddelanden {#previewing-push}
 
-För **Push-meddelande** Med Campaign Standard kan du förhandsgranska meddelanden med testprofiler. På så sätt kan du få en exakt representation av meddelandet som en viss profil får. Mer information finns i [Hantera testprofiler](../../audiences/using/managing-test-profiles.md).
+För **push-meddelanden** kan du med Campaign Standard förhandsgranska meddelanden med testprofiler. På så sätt kan du få en exakt representation av meddelandet som en viss profil får. Mer information finns i [Hantera testprofiler](../../audiences/using/managing-test-profiles.md).
 
 Så här förhandsgranskar du ett push-meddelande med testprofiler:
 
-1. När du fyllt i **[!UICONTROL Properties]** av era push-meddelanden och valda målgrupper kan ni personalisera era leveranser. Mer information finns i [Anpassa ett push-meddelande](../../channels/using/customizing-a-push-notification.md).
+1. När du har fyllt i **[!UICONTROL Properties]** av ditt push-meddelande och valt dina målgrupper kan du anpassa leveransen. Mer information finns i [Anpassa ett push-meddelande](../../channels/using/customizing-a-push-notification.md).
 
 1. När du har anpassat innehållet kan du kontrollera återgivningen av dina push-meddelanden direkt, beroende på enheter och operativsystem, i förhandsgranskningsfönstret.
 
    ![](assets/push_preview.png)
 
-1. Om du vill förhandsgranska ditt push-meddelande med testprofiler klickar du på **[!UICONTROL Preview with test profile]**.
+1. Klicka på **[!UICONTROL Preview with test profile]** om du vill förhandsgranska ditt push-meddelande med testprofiler.
 
    ![](assets/push_preview_2.png)
 
-1. Välj testprofil och sedan **[!UICONTROL Confirm]**.
+1. Välj din testprofil och sedan **[!UICONTROL Confirm]**.
 
 Du kan nu se den exakta representationen av ditt meddelande beroende på de valda testprofilerna.
 
@@ -113,21 +113,21 @@ Du kan nu se den exakta representationen av ditt meddelande beroende på de vald
 
 ## Förhandsgranska meddelanden i appen {#previewing-in-app}
 
-För **I appen** Med Campaign Standard kan du förhandsgranska meddelanden med testprofiler. På så sätt kan du få en exakt representation av meddelandet som en viss profil får. Mer information finns i [Hantera testprofiler](../../audiences/using/managing-test-profiles.md).
+För **In-App** kan du med Campaign Standard förhandsgranska meddelanden med testprofiler. På så sätt kan du få en exakt representation av meddelandet som en viss profil får. Mer information finns i [Hantera testprofiler](../../audiences/using/managing-test-profiles.md).
 
 Så här förhandsgranskar du ett meddelande i appen med testprofiler:
 
-1. När du fyllt i **[!UICONTROL Properties]** i ert meddelande i appen valde ni era målgrupper och satte er **[!UICONTROL Triggers]** kan ni personalisera leveransen. Mer information finns i [Anpassa ett meddelande i appen](../../channels/using/customizing-an-in-app-message.md).
+1. När du har fyllt i **[!UICONTROL Properties]** i meddelandet i appen, valt dina målgrupper och angett din **[!UICONTROL Triggers]** kan du anpassa leveransen. Mer information finns i [Anpassa ett meddelande i appen](../../channels/using/customizing-an-in-app-message.md).
 
 1. När du har anpassat innehållet kan du kontrollera återgivningen av ditt In-App-meddelande direkt, beroende på enheter och operativsystem, i förhandsgranskningsfönstret.
 
    ![](assets/in_app_preview.png)
 
-1. Om du vill förhandsgranska ditt meddelande i appen med testprofiler klickar du på **[!UICONTROL Preview]**.
+1. Klicka på **[!UICONTROL Preview]** om du vill förhandsgranska ditt meddelande i appen med testprofiler.
 
    ![](assets/in_app_preview_2.png)
 
-1. Välj testprofil och sedan **[!UICONTROL Confirm]**.
+1. Välj din testprofil och sedan **[!UICONTROL Confirm]**.
 
 Du kan nu se den exakta representationen av ditt meddelande beroende på de valda testprofilerna.
 

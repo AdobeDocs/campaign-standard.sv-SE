@@ -19,7 +19,8 @@ ht-degree: 84%
 
 När du har skapat ett e-postmeddelande i Adobe Campaign måste du definiera dess innehåll.
 
-Med e-postdesignern kan du skapa engagerande, individuellt anpassade e-postmeddelanden via ett dra och släpp-gränssnitt. Oavsett om du börjar med en tom sida eller använder befintliga innehållskomponenter eller -mallar kan du designa och förfina allt innehåll för varje e-postmeddelande – oavsett om det är reklam eller en transaktion.
+Med e-postprogrammet Designer kan du skapa engagerande, individuellt anpassade e-postmeddelanden genom att dra och släppa
+gränssnitt. Oavsett om du börjar med en tom sida eller använder befintliga innehållskomponenter eller -mallar kan du designa och förfina allt innehåll för varje e-postmeddelande – oavsett om det är reklam eller en transaktion.
 
 E-postdesignern är designad för att leverera HTML som är optimerad för responsiv design och du kan enkelt definiera och använda synlighetsvillkor. Du kan även använda dynamiskt innehåll i ett e-postmeddelande, en mall eller ett fragment direkt via användargränssnittet. Du kan enkelt växla mellan dra och släpp-gränssnittet och HTML-koden genom att klicka på en knapp.
 
@@ -27,7 +28,7 @@ Med E-postdesignern kan du skapa e-postinnehåll och mallar för e-postinnehåll
 
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
-![](assets/do-not-localize/how-to-video.png) [Upptäck e-postdesignern i en video](#video)
+![](assets/do-not-localize/how-to-video.png) [Upptäck e-post-Designer i video](#video)
 
 * Se [Kom igång med e-postdesignern](../../designing/using/quick-start.md) för information om hur du skapar e-postinnehåll.
 * Se [Använda e-postdesignern](../../designing/using/designing-content-in-adobe-campaign.md) för en översikt över e-postdesignern.
@@ -45,7 +46,7 @@ Du kan även definiera dynamiskt innehåll som varierar beroende på vilken prof
 
 Förbättra meddelanden och landningssidor med både länkar och bilder. Se [Infoga en länk](../../designing/using/links.md#inserting-a-link) och [Infoga bilder](../../designing/using/images.md#inserting-images).
 
-## Gränssnitt för e-postdesignern {#email-designer-interface}
+## Designer-gränssnitt {#email-designer-interface}
 
 E-postdesignern erbjuder många olika alternativ som du kan använda för att skapa, redigera och anpassa alla delar av ditt innehåll.
 
@@ -65,7 +66,7 @@ Du hittar fler allmänna alternativ och inställningar i **Verktygsfältet** (4)
 
 Det **sammanhangsbaserade verktygsfältet** i redigeringsgränssnittet innehåller olika funktioner beroende på vilken zon som är vald. Det innehåller åtgärdsknappar och knappar som du kan använda för att ändra textens format. De ändringar som görs gäller alltid för den markerade zonen.
 
-### Email Designer - startsida {#email-designer-home-page}
+### E-posta Designer hemsida {#email-designer-home-page}
 
 När du [skapar ett e-postmeddelande](../../channels/using/creating-an-email.md) visas hemsidan för **[!UICONTROL Email Designer]** automatiskt när du väljer e-postinnehållet.
 
@@ -143,7 +144,7 @@ Observera följande när det gäller fragment:
 
 * Att uppdatera fragment som används i e-postmeddelanden som redan har förberetts påverkar inte dessa e-postmeddelanden.
 
-## Begränsningar för e-postdesignern {#email-designer-limitations}
+## Designer-begränsningar för e-post {#email-designer-limitations}
 
 * Du kan inte använda personaliseringsfält i ett fragment. Se [det här avsnittet](../../designing/using/using-reusable-content.md#about-fragments) för mer information.
 
@@ -152,7 +153,7 @@ Observera följande när det gäller fragment:
 * När du redigerar format ger de flesta tillgängliga e-postklienterna endast officiellt stöd för webbtypsnitt.
 * Det går inte att spara format som ett tema för framtida återanvändning. CSS-formatet kan dock sparas i en innehållsmall eller i ett e-postmeddelande. Se [det här avsnittet](../../designing/using/styles.md) för mer information om format.
 * Referensmeta-taggen stöds inte i e-postdesignern.
-* Surrogate-par, tecken som inte ingår i Unicode-teckenuppsättningens grundläggande flerspråkiga plan, kan inte lagras i 2 byte (16 bitar) och måste kodas till 2 UTF-16-tecken. Dessa tecken innehåller vissa CJK-ideogram, de flesta känslolägesikoner och vissa språk.<br>Dessa tecken kan orsaka vissa inkompatibilitetsproblem i dynamisk text. Du måste göra starka tester innan du skickar meddelanden.
+* Surrogate-par, tecken som inte ingår i Unicode-teckenuppsättningens grundläggande flerspråkiga plan, kan inte lagras i 2 byte (16 bitar) och måste kodas till 2 UTF-16-tecken. Dessa tecken innehåller vissa CJK-ideogram, de flesta känslolägesikoner och vissa språk.<br>Dessa tecken kan orsaka inkompatibilitetsproblem i dynamisk text. Du måste göra starka tester innan du skickar meddelanden.
 
 **Relaterade ämnen**
 
@@ -163,8 +164,8 @@ Observera följande när det gäller fragment:
 
 ## Självstudievideo {#video}
 
-Den här videon ger en översikt över e-postdesignern.
+I den här videon visas en översikt över e-post-Designer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
-Om du vill komma igång med e-postdesignern kan du titta på det här [uppsättning videoklipp](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) som förklarar de allmänna funktionerna i e-postdesignern och hur du utformar ett e-postmeddelande från grunden eller använder mallar
+Titta på den här [uppsättningen videor](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) som förklarar de allmänna funktionerna i e-postprogrammet för Designer och hur du utformar ett e-postmeddelande från grunden eller använder mallar för att komma igång med e-postprogrammet

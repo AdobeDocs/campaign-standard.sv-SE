@@ -17,7 +17,7 @@ ht-degree: 10%
 
 # Uppdatera en profils geografiska enhet {#updating-a-geographical-unit}
 
-1. Utför en GET-förfrågan på **geoUnitBase** resurs för att hämta den geografiska enheten PKey.
+1. Utför en GET-begäran på **geoUnitBase**-resursen för att hämta den geografiska enhetens PKey.
 1. Utför en PATCH-begäran på profilen PKey, med den önskade geografiska enheten PKey i nyttolasten.
 
 <br/>

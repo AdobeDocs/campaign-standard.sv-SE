@@ -14,7 +14,7 @@ ht-degree: 40%
 
 # Om prenumerationer{#about-subscriptions}
 
-Använd Adobe Campaign för att skapa och hantera nyhetsbrev och flerkanalskommunikation via en uppsättning **tjänster**: meddelanden skickas endast till profiler som prenumererar på tjänsten (anmälan). Dessa profiler identifieras med ett dedikerat filter vid skapandet av ett meddelande.
+Använd Adobe Campaign för att skapa och hantera nyhetsbrev och kommunikation över flera kanaler via en uppsättning **tjänster**: meddelanden skickas bara till profiler som prenumererar på tjänsten (anmälan). Dessa profiler identifieras med ett dedikerat filter vid skapandet av ett meddelande.
 
 Prenumerationsfunktioner kan konfigureras för att ge kunderna möjligheten att prenumerera på dessa tjänster via **e-post** och **landningssidor**.
 
@@ -30,10 +30,10 @@ Prenumerationer kan också hanteras med Adobe Campaign Standard API:n.  Mer info
 
 Följ stegen nedan för att skapa en prenumerationsmekanism:
 
-1. **Skapa en tjänst** - följ de steg som beskrivs [i det här avsnittet](../../audiences/using/creating-a-service.md) skapa en prenumerationstjänst
-1. **Dela länken** - Lär dig hur du marknadsför och delar din tjänst [på den här sidan](../../audiences/using/promoting-a-service.md)
+1. **Skapa en tjänst** - följ stegen som beskrivs [i det här avsnittet](../../audiences/using/creating-a-service.md) för att skapa en prenumerationstjänst
+1. **Dela länken** - lär dig hur du marknadsför och delar din tjänst [på den här sidan](../../audiences/using/promoting-a-service.md)
 1. **Övervaka prenumerationer** - Upptäck flera sätt att övervaka prenumerationer på tjänsten [i det här avsnittet](../../audiences/using/monitoring-subscriptions.md)
-1. **Bekräfta prenumerationer** - följ [denna självstudiekurs](../../audiences/using/confirming-subscription-to-a-service.md) för att skicka ett bekräftelsemeddelande om en prenumeration
+1. **Bekräfta prenumerationer** - följ [den här självstudiekursen](../../audiences/using/confirming-subscription-to-a-service.md) för att skicka ett bekräftelsemeddelande om prenumerationen
 
 ## Ytterligare resurser
 

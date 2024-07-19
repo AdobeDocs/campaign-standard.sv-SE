@@ -25,7 +25,7 @@ Här är en lista över webbläsare som är kompatibla med Adobe Campaign Standa
 
 **Dator:**
 
-* Krom (senaste versionen)
+* Chrome (senaste versionen)
 * Firefox (senaste versionen)
 * Safari (senaste versionen)
 * Microsoft Edge (senaste versionen)
@@ -41,11 +41,11 @@ Här är de olika slutpunkterna som används i Campaign Standard.
 
 | Kontext | URL |
 |--- |--- |
-| Kampanjinstanser | `https://*.experiencecloud.adobe.com` (klientens ID * + klientdomän)<br>`https://*.campaign.adobe.com` (Campaign Instance-klientorganisation) |
+| Kampanjinstanser | `https://*.experiencecloud.adobe.com` (klient-ID * + klientdomän)<br>`https://*.campaign.adobe.com` (klientklient för Campaign-instans) |
 | IMS | `https://adobeid-na1.services.adobe.com`<br>`https://*.adobelogin.com` |
 | Experience Cloud | `https://experiencecloud.adobe.com` |
 | Spåra | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net` |
-| Resursintegrering | `https://*.marketing-assets.adobe.com` |
+| Assets Integration | `https://*.marketing-assets.adobe.com` |
 | Interna Adobe-tjänster | `https://*.adobe.io` |
 | Undersökningar | `https://adobe.allegiancetech.com` |
 | URL för standardprofilering (före klientkonfiguration) | `https://*.adobe-campaign.com` |

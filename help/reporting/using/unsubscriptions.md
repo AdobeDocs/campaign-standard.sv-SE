@@ -22,4 +22,4 @@ Rapporten **[!UICONTROL Unsubscriptions]** identifierar de leveranser som har fl
 
 ![](assets/delivery_reports_unsub.png)
 
-The **[!UICONTROL TOP 5 deliveries]** tabell och diagram visar de fem vanligaste leveranserna med det högsta antalet levererade meddelanden och antalet mottagare som har avbeställt prenumerationen. De data som visas här baseras på antalet klick på meddelandets länk för att avbryta prenumerationen.
+Tabellen och diagrammet **[!UICONTROL TOP 5 deliveries]** visar de fem främsta leveranserna med det högsta antalet levererade meddelanden och antalet mottagare som har avbeställt prenumerationen. De data som visas här baseras på antalet klick på meddelandets länk för att avbryta prenumerationen.

@@ -19,19 +19,19 @@ ht-degree: 3%
 
 Adobe Campaign levereras med en fördefinierad datamodell, där data definieras med olika resurser. Du kan utöka datamodellen som tillhandahålls genom att utöka resurserna för att lägga till egna anpassade fält eller anpassade tabeller, till exempel köp- eller produkttabeller.
 
-Anpassade resurser är tillgängliga via API:er med **/profileAndServicesExt** slutpunkt och det anpassade resursnamnet.
+Anpassade resurser är tillgängliga via API:er med slutpunkten **/profileAndServicesExt** och det anpassade resursnamnet.
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/`
 
 >[!NOTE]
 >
->Använd alltid <b>&quot;cus&quot;</b> prefix före resursens namn.
+>Använd alltid prefixet <b>&quot;cus&quot;</b> före resursens namn för resurser som inte är färdiga.
 
 Du kan utföra vilken åtgärd som helst med anpassade resurser, förutsatt att de är länkade till profiltabellen. Låt oss titta på tabellstrukturen nedan:
 
-![alt-text](assets/cusresources.png)
+![Alt-text](assets/cusresources.png)
 
-I så fall kommer alla resurser från **Transaktion**, **TransactionDetails** och **Produkt** tabeller är tillgängliga så länge de är länkade till **Profil** tabell.
+I så fall är alla resurser från tabellerna **Transaction**, **TransactionDetails** och **Product** tillgängliga så länge de är länkade till tabellen **Profile** .
 
 <br/>
 

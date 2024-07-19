@@ -26,9 +26,9 @@ Med Adobe Campaign kan du leverera SMS-meddelanden (Short Message Service).
 
 För SMS-meddelanden kan du skapa, ändra och anpassa meddelanden endast i textformat. Du kan även förhandsgranska dina SMS-meddelanden innan de skickas.
 
-Ett SMS-meddelande får innehålla högst 160 tecken om det är i GSM-kodning och endast 70 tecken om det är i Unicode. Vissa specialtecken kan dock påverka meddelandets längd. Mer information finns i [SMS-kodning](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) -avsnitt.
+Ett SMS-meddelande får innehålla högst 160 tecken om det är i GSM-kodning och endast 70 tecken om det är i Unicode. Vissa specialtecken kan dock påverka meddelandets längd. Mer information finns i avsnittet [SMS-kodning](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
 
-SMS-meddelanden kan skapas från **[!UICONTROL Marketing activities]** meny, från en kampanj eller i ett arbetsflöde, se [Skapa ett SMS-meddelande](../../channels/using/creating-an-sms-message.md).
+SMS-meddelanden kan skapas från menyn **[!UICONTROL Marketing activities]**, från en kampanj eller i ett arbetsflöde, se [Skapa ett SMS-meddelande](../../channels/using/creating-an-sms-message.md).
 
 För att kunna leverera SMS-meddelanden till en mobiltelefon behöver du:
 
@@ -44,13 +44,13 @@ För att kunna leverera SMS-meddelanden till en mobiltelefon behöver du:
 
 ## SMS-leveransmall {#sms-delivery-template}
 
-Adobe Campaign erbjuder en leveransmall för mobila enheter. Den här mallen måste vara korrekt länkad till det externa konto som används för **[!UICONTROL Mobile (SMS)]** kanal. Så här öppnar och ändrar du den:
+Adobe Campaign erbjuder en leveransmall för mobila enheter. Den här mallen måste vara korrekt länkad till det externa konto som används för kanalen **[!UICONTROL Mobile (SMS)]**. Så här öppnar och ändrar du den:
 
 1. Välj **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** på den avancerade menyn.
-1. Hovra över **[!UICONTROL Send via SMS]** -mallen med musen och välj **Duplicera element** alternativ.
+1. Håll pekaren över mallen **[!UICONTROL Send via SMS]** med musen och välj alternativet **Duplicera element** .
 1. Välj den nya mallen.
 1. Klicka på knappen **[!UICONTROL Edit properties]**.
-1. I **[!UICONTROL Advanced parameters]** i mallegenskaperna, kontrollera att mallen är länkad till det externa konto som ska användas för att leverera SMS.
+1. I avsnittet **[!UICONTROL Advanced parameters]** i mallegenskaperna kontrollerar du att mallen är länkad till det externa konto som ska användas för att leverera SMS.
 
    ![](assets/sms_template.png)
 

@@ -72,13 +72,13 @@ I den här rapporten visas e-poståtergivningarna så som de visas för mottagar
 
 ### Återgivningstoken för e-post
 
-Antalet tillgängliga återgivningar visas i licensavtalet. Varje leverans med **E-poståtergivning** aktiverad minskar dina tillgängliga återgivningar (kallas tokens) med ett.
+Antalet tillgängliga återgivningar visas i licensavtalet. Varje leverans med **E-poståtergivning** aktiverat minskar dina tillgängliga återgivningar (kallas token) med ett.
 
 Tokens-konto för varje enskild återgivning och inte för hela återgivningsrapporten för e-post, vilket innebär att:
 
-* **Varje gång** Om rapporten för e-poståtergivning genereras dras en token per meddelandeklient av: en token för Outlook 2000-återgivningen, en för Outlook-återgivningen, en för Apple Mail-återgivningen och så vidare.
+* **Varje gång** återgivningsrapporten för e-post genereras dras en token per meddelandeklient av: en token för Outlook 2000-återgivningen, en för Outlook-återgivningen, en för Apple Mail-återgivningen och så vidare.
 
-* **För samma leverans** Om du genererar återgivningen av e-post igen minskas antalet tillgängliga tokens igen med antalet genererade återgivningar.
+* **Om du genererar återgivningen av e-post igen för samma leverans** minskas antalet tillgängliga token igen med antalet genererade återgivningar.
 
 ### Rapportsammanfattning
 

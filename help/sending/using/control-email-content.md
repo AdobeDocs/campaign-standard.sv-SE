@@ -26,20 +26,20 @@ Följ nedanstående principer när du utformar ditt meddelandeinnehåll:
 
 * [Avsändarens namn och adress](#sender-name): adressen måste uttryckligen identifiera avsändaren. Domänen måste ägas av och registreras hos avsändaren. Domänregistret får inte privatiseras.
   <!--**Subject**: Avoid excessive capitalization and punctuation, and words that are frequently used by spammers ("Win", "Free", etc.).-->
-* [Optimering av personalisering och sändningstid](#perso-send-time-optimization): om du personaliserar innehåll och definierar en sändningstid per mottagare ökar chanserna att meddelandet öppnas.
+* [Personalization och tidsoptimering för sändning](#perso-send-time-optimization): Om du anpassar innehåll och definierar en sändningstid per mottagare ökar riskerna för att meddelandet öppnas.
 * Bilder och text: Använd ett bra förhållande mellan text och bild (till exempel 60 % text och 40 % bilder).
-* [Länk för att avbryta prenumeration](#opt-out) och landningssida: länken för att avbeställa prenumerationen är viktig. Den måste vara synlig och giltig och formuläret måste vara funktionellt.
-* Förhandsgranska: använd verktygen i Adobe Campaign för att kontrollera och optimera innehållet i e-postmeddelandet ([Analys av skräppostskydd](#anti-spam-analysis), [E-poståtergivning](#message-responsiveness)).
+* [Bryt prenumerationslänk](#opt-out) och landningssida: länken för att avsluta prenumerationen är nödvändig. Den måste vara synlig och giltig och formuläret måste vara funktionellt.
+* Förhandsgranska: använd de verktyg som Adobe Campaign erbjuder för att kontrollera och optimera innehållet i ditt e-postmeddelande ([skräppostanalys](#anti-spam-analysis), [Återgivning via e-post](#message-responsiveness)).
 
-Fler tips om hur du optimerar slutprodukten när du utformar innehåll finns i [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html).
+Fler tips om hur du kan optimera leveransen när du utformar innehåll finns i [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html).
 
 >[!NOTE]
 >
->Mer information om hur du redigerar e-postinnehåll finns i [Översikt över e-postdesignern](../../designing/using/designing-content-in-adobe-campaign.md) och [Bästa praxis för meddelandedesign](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices).
+>Mer information om hur du redigerar e-postinnehåll finns i [Översikt över Designer-e-post](../../designing/using/designing-content-in-adobe-campaign.md) och [Bästa tillvägagångssätt för meddelandedesign](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices).
 
 ## Avsändarens namn och adress {#sender-name}
 
-Vissa Internet-leverantörer kontrollerar avsändaradressens giltighet (**[!UICONTROL From]**) innan du accepterar meddelanden. En felformaterad adress kan leda till att den nekas av den mottagande servern.
+Vissa Internetleverantörer kontrollerar giltigheten för avsändaradressen (**[!UICONTROL From]**) innan de accepterar meddelanden. En felformaterad adress kan leda till att den nekas av den mottagande servern.
 
 ![](assets/delivery_content_edition16.png)
 
@@ -47,7 +47,7 @@ Du måste se till att rätt adress anges på förekomstnivå eller i de vanligas
 
 Mer information finns i [Definiera e-postavsändare för ett e-postmeddelande](../../designing/using/subject-line.md#email-sender).
 
-## Optimering av personalisering och sändningstid {#perso-send-time-optimization}
+## Personalization och tidsoptimering för sändning {#perso-send-time-optimization}
 
 För att förbättra mottagarnas upplevelse och få dem att öppna ditt e-postmeddelande kan du anpassa dina meddelanden med Adobe Campaign. Mer information finns i [det här avsnittet](../../designing/using/personalization.md).
 
@@ -57,7 +57,7 @@ Om du vill öka öppningshastigheten för dina meddelanden kan du även manuellt
 
 När meddelandet analyseras kontrollerar en typologiregel som standard om en avanmälningslänk har inkluderats och genererar en varning om den saknas. Mer information om hur du hanterar länkar finns i [det här avsnittet](../../designing/using/links.md).
 
-Du måste kontrollera att avanmälningslänken fungerar som den ska innan du skickar iväg den. När [skicka korrektur](../../sending/using/sending-proofs.md)kontrollerar du att länken är giltig, att formuläret är online och att valideringen kontrollerar att **[!UICONTROL No longer contact]** rutor. Du bör göra den här kontrollen systematiskt eftersom det alltid är möjligt att göra mänskliga fel när du anger länken eller när du ändrar formuläret. Mer information om hur du hanterar anmälan och avanmälan finns i [det här avsnittet](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md).
+Du måste kontrollera att avanmälningslänken fungerar som den ska innan du skickar iväg den. När du till exempel [skickar korrekturet](../../sending/using/sending-proofs.md) kontrollerar du att länken är giltig, att formuläret är online och att valideringen kontrollerar kryssrutorna i **[!UICONTROL No longer contact]**. Du bör göra den här kontrollen systematiskt eftersom det alltid är möjligt att göra mänskliga fel när du anger länken eller när du ändrar formuläret. Mer information om hur du hanterar anmälan och avanmälan finns i [det här avsnittet](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md).
 
 ![](assets/optin_landingpage_3.png)
 
@@ -69,9 +69,9 @@ Begäran om ytterligare bekräftelse är inte tillförlitlig: en användare kan 
 
 ## Analys av skräppostskydd {#anti-spam-analysis}
 
-Adobe Campaign meddelanderedigerare integrerar en **Analys av skräppostskydd** som gör det möjligt att poängsätta e-postmeddelanden för att avgöra om ett meddelande löper risk att betraktas som skräppost av de antispam-verktyg som används vid mottagande. Mer information finns i [Förhandsgranska meddelanden](../../sending/using/previewing-messages.md).
+Adobe Campaign meddelanderedigerare integrerar en **skräppostanalys** som gör att du kan göra e-postpoäng för att avgöra om ett meddelande löper risk att betraktas som skräppost av de skräppostverktyg som används vid mottagande. Mer information finns i [Förhandsgranska meddelanden](../../sending/using/previewing-messages.md).
 
-Klicka på **[!UICONTROL Preview]**. Ett meddelande varnar dig om skräppostkontrollen har upptäckt en hög risk för det här meddelandet. Klicka **[!UICONTROL Anti-spam analysis]** om du vill visa information.
+Klicka på **[!UICONTROL Preview]** i meddelandets innehållsredigerare. Ett meddelande varnar dig om skräppostkontrollen har upptäckt en hög risk för det här meddelandet. Klicka på **[!UICONTROL Anti-spam analysis]** om du vill visa information.
 
 ![](assets/sending_anti-spam_analysis.png)
 

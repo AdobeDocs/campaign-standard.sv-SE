@@ -54,7 +54,7 @@ Du kan använda den här aktiviteten för att återställa data som sedan strukt
    * [Microsoft Azure Blob Storage](#azure-blob-configuration-wf)
    * [Fil(er) på Adobe Campaign-servern](#files-server-configuration-wf)
 
-1. The **[!UICONTROL Additional options]** -avsnittet, som är tillgängligt beroende på vilket protokoll som har valts, gör att du kan lägga till parametrar i ditt protokoll.
+1. Avsnittet **[!UICONTROL Additional options]**, som är tillgängligt beroende på vilket protokoll som valts, gör att du kan lägga till parametrar i protokollet.
 
    Du kan:
 
@@ -64,7 +64,7 @@ Du kan använda den här aktiviteten för att återställa data som sedan strukt
 
      <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
 
-   * **[!UICONTROL List all files]**: det här alternativet är tillgängligt när du väljer **[!UICONTROL File listing]** i **[!UICONTROL General]** -fliken. Du kan indexera samtliga filer på servern i **variabeln vars.filenames** där filnamnet avgränsas med ett **&#39;n&#39;** -tecken.
+   * **[!UICONTROL List all files]**: Det här alternativet är tillgängligt när du väljer åtgärden **[!UICONTROL File listing]** på fliken **[!UICONTROL General]**. Du kan indexera samtliga filer på servern i **variabeln vars.filenames** där filnamnet avgränsas med ett **&#39;n&#39;** -tecken.
 
 1. I avsnitt **[!UICONTROL If no files are found]** i fliken **[!UICONTROL Advanced options]** så kan du konfigurera specifika åtgärder om fel eller obefintliga filer upptäcks när aktiviteten startas.
 
@@ -78,7 +78,7 @@ Du kan använda den här aktiviteten för att återställa data som sedan strukt
 
 Med HTTP-protokollet så kan du börja ladda ned en fil från ett externt konto eller från en länk.
 
-Med det här protokollet kan du välja att **[!UICONTROL Use connection parameters defined in an external account]** alternativ. I så fall väljer du det konto du vill ha och anger sökvägen till filen som ska hämtas.
+Med det här protokollet kan du välja alternativet **[!UICONTROL Use connection parameters defined in an external account]**. I så fall väljer du det konto du vill ha och anger sökvägen till filen som ska hämtas.
 
 ![](assets/wkf_file_transfer_03.png)
 
@@ -91,7 +91,7 @@ Du kan även välja alternativ **[!UICONTROL Quick configuration]**. Du behöver
 
 Med SFTP-protokollet så kan du börja hämta en fil från en länk eller ett externt konto.
 
-Med det här protokollet kan du välja att **[!UICONTROL Use connection parameters defined in an external account]** väljer du det konto du vill ha och anger sökvägen till filen som ska hämtas.
+Med det här protokollet kan du välja alternativet **[!UICONTROL Use connection parameters defined in an external account]**, markera det konto du vill ha och ange sökvägen till filen som ska hämtas.
 ![](assets/wkf_file_transfer_07.png)
 
 >[!CAUTION]
@@ -116,7 +116,7 @@ Med protokollet Amazon S3 så kan du börja ladda ned en fil från en länk elle
    >
    > Jokertecken stöds inte med Amazon S3.
    >
-   > Om du vill ha flera filer som `my_file_02` och `my _file_3433`kan du använda följande syntax: `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`.
+   > Om du vill ha flera filer som `my_file_02` och `my _file_3433` som mål kan du använda följande syntax: `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`.
 
 4. Om du vill ta bort dina källfiler när överföringen är slutförd så kontrollerar du **[!UICONTROL Delete the source files after transfer]**.
 
@@ -180,7 +180,7 @@ Varje gång aktiviteten körs så kontrolleras mappen enligt följande:
 
 ## Utdatavariabler {#output-variables}
 
-The **[!UICONTROL Transfer file]** aktiviteten genererar händelsevariabler som utdata, som du kan använda i andra aktiviteter, t.ex. för att kontrollera antalet hämtade filer med en [Testa](../../automating/using/test.md) aktivitet.
+Aktiviteten **[!UICONTROL Transfer file]** genererar händelsevariabler som utdata, som du kan använda i andra aktiviteter, till exempel för att kontrollera antalet hämtade filer med en [Test](../../automating/using/test.md) -aktivitet.
 
 Observera att händelsevariabler också kan skickas till ett annat arbetsflöde med hjälp av en extern signal (se [Anpassa ett arbetsflöde med externa parametrar](../../automating/using/customizing-workflow-external-parameters.md)).
 

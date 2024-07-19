@@ -19,83 +19,83 @@ ht-degree: 3%
 
 Tack vare integreringen med Adobe Campaign och Adobe Analytics kan ni se hur väl era e-postleveranser fungerar direkt i Adobe Analytics.
 
-Campaign **[!UICONTROL dimensions]** som finns i Analytics listas nedan:
+Kampanjen **[!UICONTROL dimensions]** som hittades i Analytics listas nedan:
 
 <table> 
  <thead> 
   <tr> 
    <th> Dimension<br /> </th> 
-   <th> Definition<br /> </th> 
+   <th> Definition <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Kampanj-ID<br /> </td> 
-   <td> Campaigns interna namn så som det visas i Campaign<br /> </td> 
+   <td> Kampanj-ID <br /> </td> 
+   <td> Kampanjens interna namn så som det visas i Campaign<br /> </td> 
   </tr> 
   <tr> 
-   <td> Kampanjetikett<br /> </td> 
+   <td> Kampanjetikett <br /> </td> 
    <td> Kampanjens etikett enligt Campaign<br /> </td> 
   </tr> 
   <tr> 
-   <td> Leverans-ID<br /> </td> 
-   <td> Leveransens interna namn enligt Campaign.<br /> DM1 är till exempel en återkommande leverans som schemaläggs att skicka underordnade leveranser varje vecka. DM2, DM3 och DM4 skickas de första tre veckorna. I leverans-ID-dimensionen visas sedan resultatet för varje leverans, dvs. DM1 till DM4. <br /> </td> 
+   <td> Leverans-ID <br /> </td> 
+   <td> Leveransens interna namn enligt Campaign.<br /> DM1 är till exempel en återkommande leverans som schemalagts att skicka underordnade leveranser varje vecka. DM2, DM3 och DM4 skickas de första tre veckorna. Dimensionen för leverans-ID visar sedan resultatet för varje leverans, dm1 till DM4. <br /> </td> 
   </tr> 
   <tr> 
-   <td> Leveransetikett<br /> </td> 
-   <td> Leveransetikett enligt Campaign<br /> </td> 
+   <td> Leveransetikett <br /> </td> 
+   <td> Leveransetikett enligt kampanjen<br /> </td> 
   </tr> 
   <tr> 
-   <td> Kört leverans-ID<br /> </td> 
-   <td> Leveransens interna namn enligt Campaign. Detta gäller endast leverans i körning i Campaign.<br /> DM1 är till exempel en återkommande leverans som schemaläggs att skicka underordnade leveranser varje vecka. DM2, DM3 och DM4 skickas de första tre veckorna. Dimensionen för exekverat leverans-ID visar sedan resultaten för de utförda leveranserna, dvs. de underordnade leveranserna DM2, DM3 och DM4. <br /> </td> 
+   <td> Leverans-ID <br /> har körts </td> 
+   <td> Leveransens interna namn enligt Campaign. Detta gäller endast leverans i körning i Campaign.<br /> DM1 är till exempel en återkommande leverans som schemalagts att skicka underordnade leveranser varje vecka. DM2, DM3 och DM4 skickas de första tre veckorna. Dimensionen för exekverat leverans-ID visar sedan resultaten för de utförda leveranserna, dvs. underordnade leveranser DM2, DM3 och DM4. <br /> </td> 
   </tr> 
   <tr> 
-   <td> Körd leveransetikett<br /> </td> 
+   <td> Leveransetiketten <br /> har körts </td> 
    <td> Leveransens etikett, enligt Campaign. Detta gäller endast leverans i körning i Campaign.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Campaign **[!UICONTROL metrics]** som finns i Analytics listas nedan:
+Kampanjen **[!UICONTROL metrics]** som hittades i Analytics listas nedan:
 
 <table> 
  <thead> 
   <tr> 
-   <th> Mått<br /> </th> 
-   <th> Definition<br /> </th> 
+   <th> Mått <br /> </th> 
+   <th> Definition <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Klickat<br /> </td> 
+   <td> Klickade på <br /> </td> 
    <td> Antal gånger som ett innehåll klickades i en leverans.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Levererat<br /> </td> 
-   <td> Antal meddelanden som har skickats, i relation till det totala antalet skickade meddelanden.<br /> </td> 
+   <td> Levererad<br /> </td> 
+   <td> Antal meddelanden som har skickats, i relation till totalt antal skickade meddelanden.<br /> </td> 
   </tr> 
   <tr> 
    <td> Öppnad<br /> </td> 
    <td> Antal gånger ett meddelande öppnades i en leverans.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Skickat<br /> </td> 
+   <td> Skickat <br /> </td> 
    <td> Totalt antal försändelser för leveransen.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Summa studsar<br /> </td> 
-   <td> Totalt antal fel som sammanställts under leverans och automatisk returbehandling i relation till totalt antal skickade meddelanden.<br /> </td> 
+   <td> Totalt antal studsar <br /> </td> 
+   <td> Totalt antal fel som sammanställts under leverans och automatisk returbearbetning i relation till totalt antal skickade meddelanden.<br /> </td> 
   </tr> 
   <tr> 
    <td> Unik öppning<br /> </td> 
    <td> Antal mottagare som öppnade leveransen.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unik klickning<br /> </td> 
+   <td> Unik klickning <br /> </td> 
    <td> Antal mottagare som klickat på ett innehåll i en leverans.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Avbeställ<br /> </td> 
+   <td> Avbeställ <br /> </td> 
    <td> Antal klick på länken för att avbryta prenumerationen.<br /> </td> 
   </tr> 
  </tbody> 

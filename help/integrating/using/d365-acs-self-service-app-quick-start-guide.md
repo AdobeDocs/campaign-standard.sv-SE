@@ -56,7 +56,7 @@ Sedan kan du börja med integreringsverktyget. Följ stegen nedan:
 
 * [Asien/Stillahavsområdet](https://d365-acs-ap.ea.adobe.com/)
 * [Europa, Mellanöstern eller Afrika (EMEA)](https://d365-acs-em.ea.adobe.com/)
-* [Amerika](https://d365-acs-am.ea.adobe.com/)
+* [Nord- och Sydamerika](https://d365-acs-am.ea.adobe.com/)
 
 ## Bekräftelse av begäran om sekretess {#self-service-app-acknowledgement}
 
@@ -77,40 +77,40 @@ Kontrollera att det är de alternativ för ORG och INSTANCE som du tänker konfi
 
 >[!IMPORTANT]
 >
-> Om du konfigurerar anslutningsprogrammet för första gången och/eller om du är ny i den här processen, så är vi **starkt** Du måste markera instansen&quot;stage&quot; eller&quot;dev&quot;. Du måste kontrollera att konfigurationen fungerar bra innan du försöker installera i produktion.
+> Om du konfigurerar anslutningsprogrammet för första gången och/eller om du inte har använt den här processen tidigare ber vi dig **starkt** att välja instansen &quot;stage&quot; eller &quot;dev&quot;. Du måste kontrollera att konfigurationen fungerar bra innan du försöker installera i produktion.
 
-Om du har rätt organisation och förekomst klickar du på hamburger-menyn för att visa en listruta. Klicka sedan på **[!UICONTROL Settings...]** i listrutan för att besöka sidan där du anger dina uppgifter för Microsoft Dynamics 365 och Campaign (se nedan).
+Om du har rätt organisation och förekomst klickar du på hamburger-menyn för att visa en listruta. Klicka sedan på **[!UICONTROL Settings...]** i listrutan för att gå till sidan där du anger dina autentiseringsuppgifter för Microsoft Dynamics 365 och Campaign (se nedan).
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-menu-pointers.png)
 
-I **[!UICONTROL Settings]** fyller du i följande avsnitt:
+Fyll i följande avsnitt på sidan **[!UICONTROL Settings]**:
 
 * Microsoft Dynamics 365-autentiseringsuppgifter
 * Adobe-autentiseringsuppgifter
 
-Gå [här](../../integrating/using/d365-acs-self-service-app-settings.md) för att hitta mer detaljerad information om var informationen för varje inmatning finns. Klicka på **[!UICONTROL Save]** längst ned.
+Gå [hit](../../integrating/using/d365-acs-self-service-app-settings.md) om du vill ha mer detaljerad information om var du hittar informationen för varje inmatning. När du är klar klickar du på knappen **[!UICONTROL Save]** längst ned.
 
 ## Kontrollera den ursprungliga konfigurationen {#self-service-app-initial-config}
 
-Förutsatt att du har slutfört kraven ovan och lagt till alla dina uppgifter korrekt, går vi nu till **[!UICONTROL Workflows]** sida. Läs mer om arbetsflödena för integreringsappar i [den här sidan](../../integrating/using/d365-acs-self-service-app-workflows.md).
+Förutsatt att du har slutfört kraven ovan och lagt till alla dina autentiseringsuppgifter korrekt går vi nu till sidan **[!UICONTROL Workflows]**. Läs mer om arbetsflödena för integreringsappen i [den här sidan](../../integrating/using/d365-acs-self-service-app-workflows.md).
 
-I  **[!UICONTROL Workflows]** klickar du på pennikonen som är kopplad till **[!UICONTROL Microsoft Dynamics 365 to Campaign]** arbetsflöde för att redigera konfigurationen.
+På sidan **[!UICONTROL Workflows]** klickar du på pennikonen som är kopplad till arbetsflödet för **[!UICONTROL Microsoft Dynamics 365 to Campaign]** för att redigera dess konfiguration.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-edit-pointer.png)
 
-I **[!UICONTROL Microsoft Dynamics 365 to Campaign]** kan du komma åt listan med tabellmappningar som du har konfigurerat.  Du får som standard en kontakt-/profilmappning som är körklar. Alla andra anpassade entiteter måste konfigureras separat.
+På sidan **[!UICONTROL Microsoft Dynamics 365 to Campaign]** kan du komma åt listan med tabellmappningar som du har konfigurerat.  Du får som standard en kontakt-/profilmappning som är körklar. Alla andra anpassade entiteter måste konfigureras separat.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top-pointers.png)
 
-I **[!UICONTROL Edit Table Mapping]** sidan, kontrollera **[!UICONTROL Mappings]** för att se till att fält från Microsoft Dynamics 365 mappas till rätt fält i Campaign. Om du behöver lägga till andra mappningar gör du det nu, liksom eventuella ersättningar eller filter. [Läs mer](../../integrating/using/d365-acs-self-service-app-data-sync.md).
+På sidan **[!UICONTROL Edit Table Mapping]** kontrollerar du avsnittet **[!UICONTROL Mappings]** för att se till att fält från Microsoft Dynamics 365 mappas till rätt fält i Campaign. Om du behöver lägga till andra mappningar gör du det nu, liksom eventuella ersättningar eller filter. [Läs mer](../../integrating/using/d365-acs-self-service-app-data-sync.md).
 
-Om du vill lägga till nya mappningar kan du läsa [det här avsnittet](../../integrating/using/d365-acs-self-service-app-data-sync.md#add-a-new-mapping) för mer information.
+Om du vill lägga till nya mappningar finns mer information i [det här avsnittet](../../integrating/using/d365-acs-self-service-app-data-sync.md#add-a-new-mapping).
 
-När konfigurationen är korrekt klickar du på **[!UICONTROL Play]** knappen bredvid **[!UICONTROL Microsoft Dynamics 365 to Campaign]** arbetsflöde för att starta integreringen och dataflödet.
+När konfigurationen är korrekt klickar du på knappen **[!UICONTROL Play]** bredvid arbetsflödet **[!UICONTROL Microsoft Dynamics 365 to Campaign]** för att starta integreringen och dataflödet.
 
 >[!IMPORTANT]
 >
->Vi **starkt** rekommenderar att du först kör detta i Stage- eller Dev-miljöer innan du kör det i Production. Kontrollera att stage-/dev-instansen är markerad i sidhuvudet.
+>Vi **rekommenderar starkt** att du först kör detta i Stage- eller Dev-miljöer innan du kör i Production. Kontrollera att stage-/dev-instansen är markerad i sidhuvudet.
 >
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
@@ -124,17 +124,17 @@ När du är igång bör du kunna testa genom att lägga till eller ändra poster
 
 Med rubriken i självbetjäningsappen kan du definiera vilken organisation och instans du för närvarande visar och/eller konfigurerar.
 
-Välj **ORG** och **INSTANS** du vill visa/redigera. Dessa fält är skrivskyddade, men de kan redigeras när du placerar muspekaren över dem.
+Markera **ORG** och **INSTANCE** som du vill visa/redigera. Dessa fält är skrivskyddade, men de kan redigeras när du placerar muspekaren över dem.
 
-En listruta visas när du klickar på knappen med de tre vågräta linjerna ![](assets//do-not-localize/d365-to-acs-icon-hamburger.png) till höger om huvudet.
+En rullgardinsmeny visas när du klickar på knappen med de tre vågräta linjerna ![](assets//do-not-localize/d365-to-acs-icon-hamburger.png) till höger om huvudet.
 
 Posterna på den nedrullningsbara menyn är:
 
-* **Inställningar**: Om du väljer det här alternativet skickas du till en skärm där du kan ange API-autentiseringsuppgifter för Microsoft Dynamics 365 och Adobe Campaign, samt andra allmänna inställningar för programmet.
+* **Inställningar**: Om du väljer det här alternativet skickas du till en skärm där du kan ange API-autentiseringsuppgifter för Microsoft Dynamics 365 och Adobe Campaign samt andra allmänna inställningar för programmet.
 
-* **Dokumentation**: Det här alternativet är en länk till Adobe Campaign-dokumentationen som är specifik för integreringen
+* **Dokumentation**: Det här alternativet är en länk till Adobe Campaign-dokumentationen som är specifik för den här integreringen
 
-* **Kundtjänst**: Det här är en länk till Experience Cloud dokumentation som rör öppning av kundtjänstbiljett
+* **Kundtjänst**: Det här är en länk till Experience Cloud-dokumentation som rör öppning av kundtjänstbiljett
 
 * **Logga ut**: Du loggas ut från programmet och kan logga in igen som en annan användare.
 
@@ -146,7 +146,7 @@ Brödraperier visas högst upp på vissa skärmar när du navigerar i programmet
 
 **Exempel:**
 
-Nedan visas ett exempel från **[!UICONTROL Edit Table Mapping]** som visar vägbeskrivningar och sidrubriken. I så fall kan du klicka på **[!UICONTROL Workflows]** eller **[!UICONTROL Microsoft Dynamics 365 to Campaign]** text för att gå till en av de föregående skärmarna. **[!UICONTROL Edit Table Mapping]** i vägbeskrivningarna inte går att klicka på eftersom det är den aktuella skärmen.
+Nedan visas ett exempel från skärmen **[!UICONTROL Edit Table Mapping]** som visar vägbeskrivningar och sidrubriken. I det här fallet kan du klicka på texten **[!UICONTROL Workflows]** eller **[!UICONTROL Microsoft Dynamics 365 to Campaign]** för att gå till en av de föregående skärmarna. **[!UICONTROL Edit Table Mapping]** i vägbeskrivningarna går inte att klicka på eftersom det är den aktuella skärmen.
 
 ![](assets/do-not-localize/d365-to-acs-breadcrumbs-ingress.png)
 
@@ -158,4 +158,4 @@ Följande ikoner används på flera sidor i självbetjäningsappen.
 
 ![](assets/do-not-localize/d365-to-acs-icon-edit.png) - Redigera något som redan finns
 
-![](assets/do-not-localize/d365-to-acs-icon-delete.png) - Ta bort ett objekt från en lista med objekt
+![](assets/do-not-localize/d365-to-acs-icon-delete.png) - Ta bort ett objekt från en objektlista

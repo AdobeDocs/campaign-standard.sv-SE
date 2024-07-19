@@ -30,15 +30,15 @@ I det här avsnittet får du lära dig att ge åtkomst till Adobe Campaign Stand
 
 >[!IMPORTANT]
 >
-> Dessa steg kräver **Administratör** i Experience Cloud för er organisation.
+> Dessa steg kräver **administratörsrollen** i Experience Cloud för din organisation.
 >
 
 1. Gå till https://experience.adobe.com/ och logga in på Adobe Experience Cloud.
-1. Öppna **Admin Console**.
+1. Gå till **Admin Console**.
 
    ![](assets/do-not-localize/d365-to-acs-access-3.png)
 
-1. Klicka på **[!UICONTROL Products]** för att få tillgång till era Experience Cloud-lösningar.
+1. Klicka på **[!UICONTROL Products]** för att komma åt dina Experience Cloud-lösningar.
 
    ![](assets/do-not-localize/d365-to-acs-access-6.png)
 
@@ -56,15 +56,15 @@ I det här avsnittet får du lära dig att ge åtkomst till Adobe Campaign Stand
 
    ![](assets/do-not-localize/d365-to-acs-access-8.png)
 
-1. Klicka på **[!UICONTROL New Profile]** och lägg till en ny post med namnet: **Campaign Standard - your-prod-instance-name - D365/ACS-integrering**
+1. Klicka på knappen **[!UICONTROL New Profile]** och lägg till en ny post med namnet: **Campaign Standard - your-prod-instance-name - D365/ACS Integration**
 
    * Om du ser den här posten i listan behöver du inte fortsätta. Klicka på **Adobe Campaign Standard** i den vänstra menyn och kontrollera de andra Campaign-instanserna.
 
    * Se till att ersätta&quot;your-prod-instance-name&quot; med det faktiska namnet för din instans.
 
-1. Du kan lämna **[!UICONTROL Permission Group]** listruta med standardvärdet.
+1. Du kan lämna listrutan **[!UICONTROL Permission Group]** med standardvärdet.
 
-1. Om dina tävlingsbidrag ser ut som följer klickar du på **[!UICONTROL Done]** -knappen.
+1. Om dina tävlingsbidrag ser ut ungefär som följande klickar du på knappen **[!UICONTROL Done]**.
 
    ![](assets/do-not-localize/d365-to-acs-access-14.png)
 
@@ -74,17 +74,17 @@ I det här avsnittet får du lära dig att ge åtkomst till Adobe Campaign Stand
 
 ## Bevilja åtkomst för användare {#add-users-to-profile}
 
-Från **[!UICONTROL Products]**  väljer du Campaign-instansen och följer stegen nedan:
+Välj Campaign-instansen på sidan **[!UICONTROL Products]** och följ stegen nedan:
 
-1. Klicka på den nya profilen som du har skapat tidigare:  **Campaign Standard - your-prod-instance-name - D365/ACS-integrering**
+1. Klicka på den nya profilen som du har skapat tidigare: **Campaign Standard - your-prod-instance-name - D365/ACS Integration**
 
    ![](assets/do-not-localize/d365-to-acs-access-15.png)
 
-1. Klicka på **[!UICONTROL Developers]** -fliken.
+1. Klicka på fliken **[!UICONTROL Developers]**.
 
    ![](assets/do-not-localize/d365-to-acs-access-18.png)
 
-1. Klicka på **[!UICONTROL Add Developer]** knapp
+1. Klicka på knappen **[!UICONTROL Add Developer]**
 
 1. Ange namnet eller e-postadressen för användaren som du vill lägga till.  Välj det resultat som matchar användaren.
 

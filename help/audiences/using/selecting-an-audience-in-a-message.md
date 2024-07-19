@@ -39,7 +39,7 @@ Målgrupper kan definieras när meddelandet skapas via meddelandeskaparhjälpare
 
 1. Definiera huvuddelen **[!UICONTROL Target]** av e-postmeddelandet.    Det här är den vanliga målgruppen för e-postmeddelandet.
 
-   Målet definieras i **[!UICONTROL Target]** och består av identifierade profiler från databasen. Du kan etablera huvudmålet med funktionerna för [förfrågningsredigering](../../automating/using/editing-queries.md#creating-queries).
+   Målet definieras på fliken **[!UICONTROL Target]** och består av identifierade profiler från din databas. Du kan etablera huvudmålet med funktionerna för [förfrågningsredigering](../../automating/using/editing-queries.md#creating-queries).
 
    I den här fliken innehåller **[!UICONTROL Shortcuts]** paletten endast fördefinierade filter och de målgrupper som har definierats i de identifierade profilerna.  På fliken **[!UICONTROL Explorer]** kan du komma åt ytterligare konfigurationer.
 
@@ -47,7 +47,7 @@ Målgrupper kan definieras när meddelandet skapas via meddelandeskaparhjälpare
 
    >[!NOTE]
    >
-   >Observera att målgruppens definition inte refereras till när målgruppen är målgrupp, men **kopierad** i frågan. Om du ändrar målgruppen efter att den har angetts som mål i en fråga måste du konfigurera frågan igen så att den nya definitionen beaktas.
+   >Observera att målgruppens definition inte refereras till när målgruppen är riktad till någon annan, men att **kopierad** är i frågan. Om du ändrar målgruppen efter att den har angetts som mål i en fråga måste du konfigurera frågan igen så att den nya definitionen beaktas.
 
 1. Definiera det **[!UICONTROL Test profiles]** du vill använda för e-postmeddelandet.  Testprofilerna får den version som du kan skicka innan för att testa e-postmeddelandet innan du skickar ut det till huvudmålet.
 

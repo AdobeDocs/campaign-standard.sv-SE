@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >Hot Clicks-rapporten visar endast HTML-versionen av e-postmeddelandet och stöder inte textversionen.
 
-Den här rapporten kan du få åtkomst till via **[!UICONTROL Reports]** i varje leverans- eller transaktionsmeddelande.
+Den här rapporten kan nås från knappen **[!UICONTROL Reports]** i varje leverans- eller transaktionsmeddelande.
 
 ![](assets/delivery_reports_hot-clicks_4.png)
 
@@ -37,17 +37,17 @@ Tänk dig att du har skapat en leverans med följande villkor:
 * Länken på huvudbilden är annorlunda om mottagaren är en man eller kvinna.
 * Du har också lagt till en länk till ett specialerbjudande som bara är synligt för mottagare över 25 år.
 
-När meddelandet har skickats väljer du **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** från kontrollpanelen för leverans.
+När meddelandet har skickats väljer du **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** på kontrollpanelen för leverans.
 
 Som standard är ingen profil vald. Endast klick för mottagare vars kön är okänd och för mottagare som är under 25 år eller vars ålder är okänd visas.
 
 ![](assets/delivery_reports_hot-clicks_1.png)
 
-Klicka på knappen **[!UICONTROL Change profile]** och välj en hontestprofil. Om du vill visa klick för män fortsätter du på liknande sätt och väljer en manlig testprofil.
+Om du vill visa klick för kvinnor klickar du på knappen **[!UICONTROL Change profile]** och väljer en kvinnlig testprofil. Om du vill visa klick för män fortsätter du på liknande sätt och väljer en manlig testprofil.
 
 ![](assets/delivery_reports_hot-clicks_2.png)
 
-Om du vill visa klick för mottagare över 25 klickar du på **[!UICONTROL Change profile]** och välj en testprofil vars födelsedatum matchar det här villkoret.
+Om du vill visa klick för mottagare över 25 klickar du på knappen **[!UICONTROL Change profile]** och väljer en testprofil vars födelsedatum matchar det här villkoret.
 
 Mer information om testprofiler finns i [Om testprofiler](../../audiences/using/managing-test-profiles.md).
 
@@ -73,9 +73,9 @@ En körningsleverans är ett icke-åtgärdbart och icke-funktionellt tekniskt me
 >
 >Eftersom de spårade URL:ernas ID:n är olika för varje körning, kan inte klickdata aggregeras för alla körningsleveranser för ett visst meddelande. Den kan bara visas för en körningsleverans i taget.
 
-När meddelandet har skickats väljer du **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** från kontrollpanelen för leverans.
+När meddelandet har skickats väljer du **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** på kontrollpanelen för leverans.
 
-Som standard är den senaste körningsleveransen vald. Klicka på **[!UICONTROL Change execution delivery]** om du vill välja en annan.
+Som standard är den senaste körningsleveransen vald. Klicka på knappen **[!UICONTROL Change execution delivery]** om du vill välja en annan.
 
 ![](assets/delivery_reports_hot-clicks_3.png)
 

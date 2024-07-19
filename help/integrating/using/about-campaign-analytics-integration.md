@@ -28,10 +28,10 @@ Detta fungerar genom att först skapa ett externt konto som är länkat till Ado
 
 Den här integreringen är endast tillgänglig för e-postleveranser.
 
-Integrering mellan Adobe Analytics bastjänst **Utlösare** och Adobe Campaign finns också. Det gör att ni kan skicka personaliserade e-postmeddelanden till era kunder som en reaktion på specifika beteenden som spåras på er webbplats av Adobe Analytics (inom 15 minuter).
+Det finns även en integrering mellan Adobe Analytics bastjänst **Triggers** och Adobe Campaign. Det gör att ni kan skicka personaliserade e-postmeddelanden till era kunder som en reaktion på specifika beteenden som spåras på er webbplats av Adobe Analytics (inom 15 minuter).
 
 **Relaterade ämnen:**
 
-* [Översikt över Campaign Standard till Analytics-integrering](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html)
+* [Översikt över Campaign Standard till analysintegrering](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html)
 * [Konfigurera integrering av Campaign Standarder](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
 * [Dimensioner och nyckeltal från Campaign i Analytics](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)

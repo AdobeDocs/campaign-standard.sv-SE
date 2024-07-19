@@ -26,8 +26,8 @@ ht-degree: 93%
 
 Med den här **[!UICONTROL SMS delivery]**-aktiviteten kan du konfigurera sändning av ett SMS i ett arbetsflöde. Detta kan vara ett enda SMS som skickas endast en gång, eller ett återkommande SMS.
 
-* **Skicka en gång** SMS-meddelanden är standard-SMS som skickas en gång.
-* **Återkommande** Med SMS-meddelanden kan du skicka samma SMS flera gånger till olika mål under en angiven period. Du kan samla leveranser per period för att få rapporter som motsvarar dina behov.
+* **SMS-meddelanden som skickas en gång är standard-SMS.**
+* **Återkommande** SMS-meddelanden gör att du kan skicka samma SMS flera gånger till olika mål under en angiven period. Du kan samla leveranser per period för att få rapporter som motsvarar dina behov.
 
 ## Kontext för användning {#context-of-use}
 

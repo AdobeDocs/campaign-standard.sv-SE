@@ -34,7 +34,7 @@ Arbetsflöden kan användas i olika sammanhang, till exempel:
 
 >[!IMPORTANT]
 >
-> Adobe rekommenderar att man inte kör fler än 20 aktiva arbetsflöden samtidigt och prioriterar och sprider arbetsflödet över tid. Mer information finns i [den här sidan](../../automating/using/best-practices-workflows.md).
+> Adobe rekommenderar att man inte kör fler än 20 aktiva arbetsflöden samtidigt och prioriterar och sprider arbetsflödet över tid. Mer information finns i de bästa sätten som finns på [den här sidan](../../automating/using/best-practices-workflows.md).
 
 ## Arbetsflödesaktiviteter {#workflow-activities}
 
@@ -42,11 +42,11 @@ Arbetsflöden kan användas i olika sammanhang, till exempel:
 
 Det finns olika aktiviteter som du kan använda för att utforma arbetsflöden.
 
-[Verksamheter som riktar sig till](../../automating/using/about-targeting-activities.md) gör att du kan skapa ett eller flera mål genom att definiera uppsättningar och dela eller kombinera dessa uppsättningar med hjälp av skärnings-, union- eller exkluderingsåtgärder.
+[Målaktiviteter](../../automating/using/about-targeting-activities.md) gör att du kan skapa ett eller flera mål genom att definiera uppsättningar och dela eller kombinera dessa uppsättningar med hjälp av korsnings-, union- eller exkluderingsåtgärder.
 
-Med [Verksamhet](../../automating/using/about-execution-activities.md), samordna ditt arbetsflöde och dess aktiviteter, samtidigt [Kanalaktiviteter](../../automating/using/about-channel-activities.md) kan ni kombinera Campaign Standard kommunikationskanaler för att skapa arbetsflöden för flera kanaler.
+Med [Körningsaktiviteter](../../automating/using/about-execution-activities.md) kan du samordna ditt arbetsflöde och dess aktiviteter, medan du med [Kanalaktiviteter](../../automating/using/about-channel-activities.md) kan kombinera Campaign Standardens kommunikationskanaler för att skapa arbetsflöden mellan kanaler.
 
-Äntligen [Datahanteringsaktiviteter](../../automating/using/about-data-management-activities.md) kan du hantera data från din databas.
+Slutligen kan du med [datahanteringsaktiviteter](../../automating/using/about-data-management-activities.md) hantera data från din databas.
 
 Läs mer:
 
@@ -58,9 +58,9 @@ Läs mer:
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
-Utnyttja **frågeredigerare** för att filtrera data från databasen och bygga en population som bättre riktar sig till mottagarna. Frågeredigeraren är tillgänglig för att utföra flera åtgärder i Campaign Standarden: skapa frågetypsmålgrupper, definiera leveransmål eller populationer i arbetsflödesaktiviteter.
+Använd **frågeredigeraren** för att filtrera data från databasen och skapa en population som bättre riktar sig till mottagarna. Frågeredigeraren är tillgänglig för att utföra flera åtgärder i Campaign Standarden: skapa frågetypsmålgrupper, definiera leveransmål eller populationer i arbetsflödesaktiviteter.
 
-Frågeredigeraren har **fördefinierade filter och regler** för snabb och enkel filtrering. Du kan dock även använda **avancerad uttrycksredigering** funktioner. På så sätt kan du manuellt ange villkor och använda funktioner för att skapa egna regler.
+Frågeredigeraren innehåller **fördefinierade filter och regler** för snabb och enkel filtrering. Du kan dock även använda **avancerade redigeringsfunktioner för uttryck**. På så sätt kan du manuellt ange villkor och använda funktioner för att skapa egna regler.
 
 Läs mer:
 
@@ -72,17 +72,17 @@ Läs mer:
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-Campaign Standarden innehåller flera **datahanteringsfunktioner** för att importera och exportera data.
+Campaign Standarden innehåller flera **datahanteringsfunktioner** för import och export av data.
 
-[Datahanteringsaktiviteter för arbetsflöden](../../automating/using/about-data-management-activities.md) gör att du kan importera data, utföra massuppdateringar i fält, ta emot eller skicka filer eller länka oidentifierade data till befintliga resurser.
+[Med datahanteringsaktiviteter i arbetsflöden](../../automating/using/about-data-management-activities.md) kan du importera data, utföra massuppdateringar i fält, ta emot eller skicka filer eller länka oidentifierade data till befintliga resurser.
 
-Med [Importera mallar](../../automating/using/importing-data-with-import-templates.md)kan du hantera vissa typer av import som definierats av administratörer med hjälp av förenklade importfunktioner.
+Med [Importera mallar](../../automating/using/importing-data-with-import-templates.md) kan du hantera vissa typer av import som definierats av administratörer via förenklade importfunktioner.
 
-[Exporterar loggar](../../automating/using/exporting-logs.md) låter er exportera loggdata via ett enkelt arbetsflöde, så att ni kan analysera resultaten av era marknadsföringskampanjer i era egna rapporterings- eller BI-verktyg.
+Med [Exportera loggar](../../automating/using/exporting-logs.md) kan du exportera loggdata via ett enkelt arbetsflöde, så att du kan analysera resultaten av dina marknadsföringskampanjer i dina egna rapporterings- eller BI-verktyg.
 
-Utnyttja [Paket](../../automating/using/managing-packages.md) för att utbyta resurser mellan olika kampanjinstanser, till exempel för att replikera konfigurationen av en instans eller för att överföra data från en server till en annan inklusive anpassade resurser.
+Utnyttja [Paket](../../automating/using/managing-packages.md) för att utbyta resurser mellan olika kampanjinstanser, till exempel för att replikera konfigurationen för en instans eller för att överföra data från en server till en annan, inklusive anpassade resurser.
 
-Äntligen [Exporterar listor](../../automating/using/exporting-lists.md) gör att du kan exportera alla listor från Campaign Standarder, till exempel en lista med testprofiler, en lista med karantänadresser, e-postadresser osv.
+Slutligen kan du med [Export av listor](../../automating/using/exporting-lists.md) exportera alla listor från Campaign Standarder, till exempel en lista med testprofiler, en lista med karantänadresser, e-postadresser etc.
 
 Läs mer:
 

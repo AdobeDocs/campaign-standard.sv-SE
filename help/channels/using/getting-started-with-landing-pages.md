@@ -120,7 +120,7 @@ Om du är nöjd med hur landningssidan fungerar kan du publicera den så att den
 
 Mer information om hur du testar en landningssida hittar du i [detta avsnittet](../../channels/using/testing-publishing-landing-page.md#testing-the-landing-page-).
 
-## Steg 5 - Publicera landningssidan {#publish-the-landing-page}
+## Steg 5 - Publish landningssida {#publish-the-landing-page}
 
 När testerna har slutförts kan du publicera landningssidan med knappen **[!UICONTROL Publish]** i åtgärdsfältet på instrumentpanelen.    En övervakningspanel visar publiceringens förlopp och status.
 
@@ -138,4 +138,4 @@ I den här videon visas hur du skapar och redigerar en landningssida.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
 
-Det finns fler videor med Campaign Standard om hur man gör [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv).
+Ytterligare Campaign Standard om instruktionsvideor finns [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv).

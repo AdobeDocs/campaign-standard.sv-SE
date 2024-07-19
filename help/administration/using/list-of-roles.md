@@ -27,17 +27,17 @@ Standardrättigheterna är:
 
   >[!NOTE]
   >
-  >Om du arbetar med Experience Cloud-utlösare behöver du **[!UICONTROL Administration]** höger för att komma åt Experience Cloud-menyn Utlösare. Mer information om utlösare för Experience Cloud finns i detta [page](../../integrating/using/about-adobe-experience-cloud-triggers.md).
+  >Om du arbetar med Experience Cloud-utlösare måste du ha **[!UICONTROL Administration]**-behörighet för att komma åt Experience Cloud-utlösarmenyn. Mer information om utlösare för Experience Cloud finns på [sidan](../../integrating/using/about-adobe-experience-cloud-triggers.md).
 
 * **[!UICONTROL Datamodel]**: Rätt att köra publikationer och skapa anpassade resurser.
-* **[!UICONTROL Generic import]**: Rätt att köra en generisk import av data. För att detta ska fungera måste du länka **[!UICONTROL Generic import]** roll till **[!UICONTROL Workflow]** roll.
+* **[!UICONTROL Generic import]**: Rätt att köra en generisk import av data. För att det här ska fungera måste du länka rollen **[!UICONTROL Generic import]** till rollen **[!UICONTROL Workflow]**.
 * **[!UICONTROL Prepare deliveries]**: Rätt att skapa, ändra, förbereda och ta bort leveranser. Användare med den här rollen kan förbereda leveransen, men kan inte skicka den.
 * **[!UICONTROL Start deliveries]**: Rätt att skapa, ändra, förbereda, skicka och ta bort leveranser.
 * **[!UICONTROL Workflow]**: Rätt att hantera körningen av arbetsflöden (starta, stoppa, pausa, o.s.v.). Användare med den här rollen kan inte skicka en leverans – inte ens i ett arbetsflöde.
 
 Mer information finns i tabellen [Roller och behörigheter](/help/administration/using/assets/acs_rights.pdf), som beskriver vilka funktioner som är tillgängliga i gränssnittet beroende på de valda auktoriseringarna.
 
-[![image](assets/user_management_3.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
+[![bild](assets/user_management_3.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 **Relaterade ämnen:**
 

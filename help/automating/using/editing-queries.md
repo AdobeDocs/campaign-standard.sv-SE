@@ -50,7 +50,7 @@ Elementen under flikarna måste flyttas till arbetsytan för att kunna konfigure
 * Definiera enkla regler för olika valda fält
 * Definiera avancerade regler som gör att du kan tillämpa funktioner på vissa fält
 
-### Arbetsyta {#workspace}
+### Workspace {#workspace}
 
 Arbetsytan är den centrala zonen där du kan konfigurera och kombinera regler, målgrupper och fördefinierade filter som läggs till från paletten.
 

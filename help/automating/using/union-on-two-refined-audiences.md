@@ -24,7 +24,7 @@ Arbetsflödet är då utformat så här:
 
 ![](assets/readaudience_activity_example1.png)
 
-* A first [Läsa målgrupper](../../automating/using/read-audience.md) som hämtar Gold-medlemsgruppen och förfinar den genom att endast välja profiler mellan 18 och 30 år.
+* En första [läsmålgruppsaktivitet](../../automating/using/read-audience.md) som hämtar Gold-medlemsmålgruppen och finjusterar den genom att endast välja profiler mellan 18 och 30 år.
 * En andra **[!UICONTROL Read audience]** aktivitet som hämtar Silver-medlemmar och finjusterar den genom att endast välja profiler mellan 18-30 år.
-* A [Union](../../automating/using/union.md) aktivitet som förenar populationer från båda **[!UICONTROL Read audiences]** aktiviteter till en enda slutpopulation.
-* An [E-postleverans](../../automating/using/email-delivery.md) aktivitet som skickar e-post till populationen som kommer från **[!UICONTROL Union]** aktivitet.
+* En [union](../../automating/using/union.md)-aktivitet som förenar populationer från båda **[!UICONTROL Read audiences]**-aktiviteterna till en slutlig population.
+* En [e-postleveransaktivitet](../../automating/using/email-delivery.md) som skickar e-postmeddelandet till populationen som kommer från aktiviteten **[!UICONTROL Union]**.

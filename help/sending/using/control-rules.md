@@ -46,12 +46,12 @@ En uppsättning standardregler säkerställer standardkontrollerna. Tabellen ned
 
 Kontrollregler kan tillämpas i olika faser av leveransens livscykel:
 
-* **I början av målinriktningen**: Kontrollregeln kan tillämpas i den här fasen så att personaliseringssteget inte körs i händelse av ett fel.
+* **I början av målinriktning**: Kontrollregeln kan tillämpas i den här fasen så att personaliseringssteget inte körs i händelse av ett fel.
 
-* **Efter målinriktning**: Om du kör efter mål kan du känna till målets volym för att kunna tillämpa kontrollregeln.
+* **Efter målinriktning**: Om du kör efter målinriktning kan du känna till målvolymen för att kunna tillämpa kontrollregeln.
 
-  Till exempel **Kontrollera korrekturstorlek** kontrollregeln gäller efter målfasen: den här regeln förhindrar förberedelse av meddelandeanpassning om det finns för många korrekturmottagare.
+  Kontrollregeln **Kontrollera korrekturstorlek** gäller till exempel efter målfasen: den här regeln förhindrar förberedelse av meddelandepersonalisering om det finns för många korrekturmottagare.
 
-* **I början av personaliseringen**: Gäller när kontrollen gäller godkännande av meddelandepersonalisering. Anpassning av meddelanden utförs under analysfasen.
+* **I början av personalisering**: Gäller när kontrollen gäller godkännande av meddelandepersonalisering. Anpassning av meddelanden utförs under analysfasen.
 
-* **Efter analysen**: När en kontroll kräver att meddelandepersonalisering är slutförd.
+* **I slutet av analysen**: När en kontroll kräver att meddelandepersonalisering är slutförd.

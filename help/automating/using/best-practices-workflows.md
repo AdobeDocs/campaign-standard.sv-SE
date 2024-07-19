@@ -47,15 +47,15 @@ Du kan duplicera arbetsflöden. Håll **[!UICONTROL Marketing Activities]** mark
 
 ### Antal arbetsflöden
 
-Som standard rekommenderar vi **inte köra fler än 20 aktiva arbetsflöden samtidigt** (detta gäller inte arbetsflöden som väntar på en schemalagd körning). När du har klickat på den gränsen köas arbetsflöden för att inte påverka prestanda.
+Som standard rekommenderar vi att **inte kör fler än 20 aktiva arbetsflöden samtidigt** (detta gäller inte arbetsflöden som väntar på en schemalagd körning). När du har klickat på den gränsen köas arbetsflöden för att inte påverka prestanda.
 
 I vissa sammanhang kan du behöva köra fler än 20 arbetsflöden. Om så är fallet måste du kontrollera användningsexemplen med en Campaign-expert och kontakta Adobes kundtjänst för att höja gränsen.
 
 >[!IMPORTANT]
 >
->Även om du inte når tröskelvärdet på 20 arbetsflöden rekommenderar Adobe dig att **sprida arbetsflödets körning över tid**. Om du programmerar körningen av arbetsflödena får du bättre prestanda för instansen.
+>Även om du inte når tröskelvärdet på 20 arbetsflöden rekommenderar Adobe att du **distribuerar arbetsflödeskörningen över tid**. Om du programmerar körningen av arbetsflödena får du bättre prestanda för instansen.
 
-Innan du startar ett arbetsflöde [!DNL Campaign Standard] kontrollerar om det finns tillräckligt med fysiskt systemminne för att köra arbetsflödet. Om det inte finns tillräckligt med ledigt minne visas ett meddelande om att arbetsflödets körning kommer att fördröjas tills inläsningen på servern går ned och systemminnet ökar.
+Innan du startar ett arbetsflöde kontrollerar [!DNL Campaign Standard] om det finns tillräckligt med fysiskt systemminne för att köra arbetsflödet. Om det inte finns tillräckligt med ledigt minne visas ett meddelande om att arbetsflödets körning kommer att fördröjas tills inläsningen på servern går ned och systemminnet ökar.
 
 ### Frekvens
 
@@ -84,7 +84,7 @@ Vi rekommenderar att du använder upp till 100 aktiviteter i ett enda arbetsflö
 
 ### Arbetsflödesdesign
 
-För att arbetsflödet ska avslutas på rätt sätt bör du undvika att lämna den sista övergången i ett arbetsflöde separat genom att använda en **[!UICONTROL End activity]**.
+Om du vill vara säker på att arbetsflödet avslutas på rätt sätt ska du undvika att lämna den sista övergången i ett arbetsflöde separat genom att använda en **[!UICONTROL End activity]**.
 
 Om du vill få åtkomst till detaljvyn för övergångarna markerar du alternativet **[!UICONTROL Keep interim results]** i avsnittet Körning i egenskaperna för arbetsflödet. 
 
@@ -117,7 +117,7 @@ När du utformar ett schemalagt arbetsflöde som innehåller flera aktiviteter m
 
 ## Anropa arbetsflöde med parametrar{#workflow-with-parameters}
 
-Kontrollera att namnet och antalet parametrar är identiska med vad som är definierat när du anropar arbetsflödet (se [den här sidan](../../automating/using/defining-parameters-calling-workflow.md). Parametrarnas typer måste även vara konsekventa med de värden som förväntas.
+Kontrollera att parameterns namn och antal är identiska med vad som är definierat när arbetsflödet anropas (se [den här sidan](../../automating/using/defining-parameters-calling-workflow.md)). Parametrarnas typer måste även vara konsekventa med de värden som förväntas.
 
 Kontrollera att alla parametrar har deklarerats i **[!UICONTROL External signal activity]**. Annars inträffar ett fel när aktiviteten körs.
 

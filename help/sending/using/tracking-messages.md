@@ -61,11 +61,11 @@ Spårning med Adobe Campaign Standard ger åtkomst till följande funktioner:
 
 ## Spårningsloggar {#tracking-logs}
 
-The **[!UICONTROL Tracking logs]** På -fliken visas spårningshistoriken för leveransen. På den här fliken visas spårningsinformation för skickade meddelanden, till exempel alla URL:er som har spårats av Adobe Campaign. Spårningsinformationen på den här fliken uppdateras var 10:e minut.
+Fliken **[!UICONTROL Tracking logs]** visar spårningshistoriken för den här leveransen. På den här fliken visas spårningsinformation för skickade meddelanden, till exempel alla URL:er som har spårats av Adobe Campaign. Spårningsinformationen på den här fliken uppdateras var 10:e minut.
 
 >[!NOTE]
 >
->Om spårning inte är aktiverat för en leverans visas inte den här fliken. Spårningsloggar finns tillgängliga för **e-post** och **push-meddelande** endast kanaler.
+>Om spårning inte är aktiverat för en leverans visas inte den här fliken. Spårningsloggar är endast tillgängliga för kanalerna **email** och **push notification**.
 
 ![](assets/tracking_logs.png)
 
@@ -75,7 +75,7 @@ I exemplet ovan:
 * Klicka på länken för spegelsidan.
 * Klicka på den anpassade länken&quot;LÄS MER&quot;.
 
-I **[!UICONTROL Type]** -kolumn är de möjliga värdena:
+I kolumnen **[!UICONTROL Type]** är de möjliga värdena:
 
 * **[!UICONTROL Email click]**: mottagarna klickade på en anpassad länk.
 * **[!UICONTROL Mirror page]**: mottagaren klickade på en länk till spegelsidan.
@@ -84,15 +84,15 @@ I **[!UICONTROL Type]** -kolumn är de möjliga värdena:
 
 >[!NOTE]
 >
->För **push-meddelande** kanaler spåras bara klickningar på mobilmeddelanden. I så fall blir värdet **[!UICONTROL Click on mobile notification]**.
+>För kanalen **push-meddelanden** spåras bara klick på mobilmeddelanden. I så fall blir värdet **[!UICONTROL Click on mobile notification]**.
 
-Mer information om hur du infogar spårningslänkar finns i [den här sidan](../../designing/using/links.md#inserting-a-link).
+Mer information om hur du infogar spårningslänkar finns på [den här sidan](../../designing/using/links.md#inserting-a-link).
 
-The **[!UICONTROL Tracking indicators]** rapporten innehåller nyckelindikatorer för spårning av beteenden efter att e-postmeddelanden har tagits emot. Se denna [sida](../../reporting/using/tracking-indicators.md) för mer information om detta.
+Rapporten **[!UICONTROL Tracking indicators]** innehåller nyckelindikatorer för spårning av beteende efter att e-postmeddelanden har tagits emot. Se denna [sida](../../reporting/using/tracking-indicators.md) för mer information om detta.
 
 ## Spårade URL:er {#tracked-urls}
 
-The **[!UICONTROL Tracked URLs]** På fliken grupperas URL:erna i det skickade meddelandet, inklusive deras URL-typ och deras käll-URL.
+Fliken **[!UICONTROL Tracked URLs]** grupperar URL-adresserna som finns i det skickade meddelandet, inklusive deras URL-typ och deras käll-URL.
 
 ![](assets/sending_delivery6.png)
 

@@ -1,6 +1,6 @@
 ---
 title: Implementera push-spårning
-description: Lär dig hur du kontrollerar att spårning av push-meddelanden har implementerats korrekt på iOS och Android
+description: Lär dig hur du säkerställer att spårning av push-meddelanden har implementerats korrekt på iOS och Android
 audience: channels
 feature: Instance Settings
 role: Admin
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## Om push-spårning {#about-push-tracking}
 
-För att säkerställa att push-meddelandet har utvecklats fullt ut måste du se till att spårningsdelen har implementerats korrekt eftersom inte alla push-meddelanden har spårning aktiverat. För att detta ska kunna aktiveras måste utvecklarna identifiera vilka leveranser som har spårning aktiverat. Adobe Campaign Standard skickar då en flagga som kallas `_acsDeliveryTracking` med två värden **på** eller **av**. Apputvecklaren bör bara skicka en spårningsbegäran för leveranser som har variabeln inställd som **på**.
+För att säkerställa att push-meddelandet har utvecklats fullt ut måste du se till att spårningsdelen har implementerats korrekt eftersom inte alla push-meddelanden har spårning aktiverat. För att kunna aktivera detta måste utvecklare identifiera vilka leveranser som har spårning aktiverat. Adobe Campaign Standard skickar en flagga med namnet `_acsDeliveryTracking` med två värden **den** eller **av**. Apputvecklaren bör bara skicka en spårningsbegäran för leveranser som har variabeln inställd på **den**.
 
 >[!IMPORTANT]
 >
@@ -27,13 +27,13 @@ Push-spårning är indelad i tre typer:
 
 * **Push Impressions** - När ett push-meddelande har levererats till enheten finns det i meddelandecentret utan någon användarinteraktion.
 
-* **Tryck och klicka** - När ett push-meddelande har levererats till enheten och användaren har klickat på enheten.  Användaren ville antingen visa meddelandet (som i sin tur går till Push Open tracking) eller stänga meddelandet.
+* **Tryck på klicka** - När ett push-meddelande har levererats till enheten och användaren har klickat på enheten.  Användaren ville antingen visa meddelandet (som i sin tur går till Push Open tracking) eller stänga meddelandet.
 
-* **Öppna push** - När ett push-meddelande har levererats till enheten och användaren har klickat på meddelandet som får programmet att öppnas. Det här liknar kommandot Push Click (Push-klicka), förutom att Push Open (Push Open) inte aktiveras om meddelandet stängs.
+* **Push Open** - När ett push-meddelande har levererats till enheten och användaren har klickat på meddelandet som får programmet att öppnas. Det här liknar kommandot Push Click (Push-klicka), förutom att Push Open (Push Open) inte aktiveras om meddelandet stängs.
 
-För att implementera spårning för Campaign Standard måste mobilappen innehålla Adobe Experience Platform SDK:er. Dessa SDK:er är tillgängliga i [Adobe Experience Platform SDKs-dokumentation](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
+För att implementera spårning för Campaign Standard måste mobilappen innehålla Adobe Experience Platform SDK:er. Dessa SDK:er är tillgängliga i [dokumentationen för Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
-Om du vill skicka spårningsinformation finns det tre variabler som måste skickas. Två som är en del av data som har tagits emot från Campaign Standarden och en åtgärdsvariabel som anger om det är en **Impression**, **Klicka** eller **Öppna**.
+Om du vill skicka spårningsinformation finns det tre variabler som måste skickas. Två som är en del av data som har tagits emot från Campaign Standarden och en åtgärdsvariabel som anger om det är en **Impression**, **Click** eller **Open**.
 
 | Variabel | Värde |
 |:-:|:-:|
@@ -45,9 +45,9 @@ Om du vill skicka spårningsinformation finns det tre variabler som måste skick
 
 ### Så här implementerar du spårning av push-intrycken {#push-impression-tracking-android}
 
-Om du vill spåra ett intryck måste du skicka värdet 7 för åtgärd när du anropar `collectMessageInfo()` eller `trackAction()` funktioner.
+För att kunna spåra ett intryck måste du skicka värdet 7 för åtgärden när du anropar funktionerna `collectMessageInfo()` eller `trackAction()`.
 
-För leveranser som skapats före version 21.1 eller leveranser med anpassad mall, se denna [section](../../administration/using/push-tracking.md#about-push-tracking).
+För leveranser som skapats före version 21.1 eller leveranser med en anpassad mall, se [avsnittet](../../administration/using/push-tracking.md#about-push-tracking).
 
 ```
 @Override
@@ -86,7 +86,7 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 
 ### Så här implementerar du klickspårning {#push-click-tracking-android}
 
-För klickspårning måste du skicka värdet 2 för åtgärd när du anropar `collectMessageInfo()` eller `trackAction()` funktioner.
+För klickspårning måste du skicka värdet &quot;2&quot; för åtgärd när du anropar `collectMessageInfo()`- eller `trackAction()`-funktioner.
 Om du vill spåra klickningar måste två scenarier hanteras:
 
 * Användaren ser meddelandet men rensar det.
@@ -94,7 +94,7 @@ Om du vill spåra klickningar måste två scenarier hanteras:
 
 För att kunna hantera detta måste du använda två metoder: en för att klicka på meddelandet och en annan för att stänga meddelandet.
 
-För leveranser som skapats före version 21.1 eller leveranser med anpassad mall, se denna [section](../../administration/using/push-tracking.md#about-push-tracking).
+För leveranser som skapats före version 21.1 eller leveranser med en anpassad mall, se [avsnittet](../../administration/using/push-tracking.md#about-push-tracking).
 
 **[!UICONTROL MyFirebaseMessagingService.java]**
 
@@ -125,7 +125,7 @@ private void sendNotification(Map<String, String> data) {
 }
 ```
 
-För att **[!UICONTROL BroadcastReceiver]** måste du registrera dig för **[!UICONTROL AndroidManifest.xml]**
+För att **[!UICONTROL BroadcastReceiver]** ska fungera måste du registrera den för **[!UICONTROL AndroidManifest.xml]**
 
 ```
 <manifest>
@@ -180,11 +180,11 @@ public class NotificationDismissedReceiver extends BroadcastReceiver {
 
 Du måste skicka&quot;1&quot; och&quot;2&quot; eftersom användaren måste klicka på meddelandet för att kunna öppna appen. Om appen inte startas/öppnas via push-meddelanden inträffar inga spårningshändelser.
 
-För att kunna spåra öppning måste du skapa återgivning. Intent-objekt gör att Android OS kan anropa din metod när vissa åtgärder är klara. I det här fallet klickar du på meddelandet för att öppna programmet.
+För att kunna spåra öppning måste du skapa återgivning. Med återgivningsobjekt kan Android OS anropa din metod när vissa åtgärder är klara. I det här fallet klickar du på meddelandet för att öppna programmet.
 
-Den här koden baseras på implementeringen av klickningsvisningsspårning. Med **[!UICONTROL Intent]** måste du skicka spårningsinformation tillbaka till Adobe Campaign Standard. I det här fallet måste du ange **[!UICONTROL Open Intent]** om du vill öppna en viss vy i appen anropar detta metoden onResume med meddelandedata i **[!UICONTROL Intent Object]**.
+Den här koden baseras på implementeringen av klickningsvisningsspårning. När **[!UICONTROL Intent]** har angetts måste du skicka spårningsinformation tillbaka till Adobe Campaign Standard. I det här fallet måste du ställa in **[!UICONTROL Open Intent]** så att den öppnas för en viss vy i din app. Detta anropar metoden onResume med meddelandedata i **[!UICONTROL Intent Object]**.
 
-För leveranser som skapats före version 21.1 eller leveranser med anpassad mall, se denna [section](../../administration/using/push-tracking.md#about-push-tracking).
+För leveranser som skapats före version 21.1 eller leveranser med en anpassad mall, se [avsnittet](../../administration/using/push-tracking.md#about-push-tracking).
 
 ```
 @Override
@@ -248,21 +248,21 @@ private void handleTracking() {
 
 ### Så här implementerar du spårning av push-intrycken {#push-impression-tracking-iOS}
 
-Om du vill spåra ett intryck måste du skicka värdet 7 för åtgärd när du anropar `collectMessageInfo()` eller `trackAction()` funktioner.
+För att kunna spåra ett intryck måste du skicka värdet 7 för åtgärden när du anropar funktionerna `collectMessageInfo()` eller `trackAction()`.
 
 För att förstå hur iOS-meddelanden fungerar måste appens tre lägen vara detaljerade:
 
-* **Förgrund**: när appen är aktiv och finns på skärmen (i förgrunden).
-* **Bakgrund**: när programmet inte visas på skärmen men processen inte är stängd. När du dubbelklickar på hemknappen visas vanligtvis alla program som finns i bakgrunden.
-* **Av/stängd**: en app vars process har avbrutits.
+* **Förgrund**: När appen är aktiv och finns på skärmen (i förgrunden).
+* **Bakgrund**: När det är en app som inte visas men processen inte är stängd. När du dubbelklickar på hemknappen visas vanligtvis alla program som finns i bakgrunden.
+* **Av/stängd**: en app vars process har avslutats.
 
-För att fortfarande ha **[!UICONTROL Impression]** spåra arbete medan programmet finns i bakgrunden som vi måste skicka **[!UICONTROL Content-Available]** för att meddela programmet att en spårning måste göras.
+För att **[!UICONTROL Impression]** fortfarande ska kunna spåras när appen är i bakgrunden måste vi skicka **[!UICONTROL Content-Available]** för att meddela appen att en spårning måste göras.
 
 >[!CAUTION]
 >
-> Om ett program stängs kommer Apple inte att anropa programmet förrän appen har startats om. Det innebär att du inte kan veta när meddelandet har tagits emot på iOS. </br> På grund av detta kanske iOS Trace inte är korrekt och inte ska ses som tillförlitligt.
+> Om ett program stängs kommer Apple inte att anropa programmet förrän appen har startats om. Det innebär att du inte kan veta när meddelandet har tagits emot på iOS. </br> På grund av det här kan det bero på att iOS visningsspårning inte är korrekt och inte bör betraktas som tillförlitlig.
 
-För leveranser som skapats före version 21.1 eller leveranser med anpassad mall, se denna [section](../../administration/using/push-tracking.md#about-push-tracking).
+För leveranser som skapats före version 21.1 eller leveranser med en anpassad mall, se [avsnittet](../../administration/using/push-tracking.md#about-push-tracking).
 
 Följande kod har bakgrundsprogrammet som mål:
 
@@ -332,8 +332,8 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent noti
 
 ### Så här implementerar du klickspårning {#push-click-tracking-iOS}
 
-För klickspårning måste du skicka värdet 2 för åtgärd när du anropar `collectMessageInfo()` eller `trackAction()` funktioner.
-För leveranser som skapats före version 21.1 eller leveranser med anpassad mall, se denna [section](../../administration/using/push-tracking.md#about-push-tracking).
+För klickspårning måste du skicka värdet &quot;2&quot; för åtgärd när du anropar `collectMessageInfo()`- eller `trackAction()`-funktioner.
+För leveranser som skapats före version 21.1 eller leveranser med en anpassad mall, se [avsnittet](../../administration/using/push-tracking.md#about-push-tracking).
 
 ```
 // AppDelegate.swift
@@ -374,7 +374,7 @@ Nu när du skickar push-meddelanden måste du lägga till en kategori. I det hä
 
 ![](assets/tracking_push.png)
 
-Hantera sedan **[!UICONTROL Dismiss]** och skicka en spårningsinformation som du behöver lägga till:
+Om du sedan vill hantera **[!UICONTROL Dismiss]** och skicka en spårningsinformation måste du lägga till följande:
 
 ```
 func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
@@ -412,7 +412,7 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive respo
 
 Du måste skicka&quot;1&quot; och&quot;2&quot; eftersom användaren måste klicka på meddelandet för att kunna öppna appen. Om appen inte startas/öppnas via push-meddelanden inträffar inga spårningshändelser.
 
-För leveranser som skapats före version 21.1 eller leveranser med anpassad mall, se denna [section](../../administration/using/push-tracking.md#about-push-tracking).
+För leveranser som skapats före version 21.1 eller leveranser med en anpassad mall, se [avsnittet](../../administration/using/push-tracking.md#about-push-tracking).
 
 ```
 import Foundation

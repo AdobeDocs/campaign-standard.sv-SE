@@ -26,7 +26,7 @@ ht-degree: 2%
 
 ## Åtkomst till Adobe Experience Platform-målgrupper
 
-Gå till Adobe Experience Platform segmentbyggare **[!UICONTROL Audiences]** på Campaign Standardens startsida (eller **[!UICONTROL Audiences]** i sidhuvudet) och sedan väljer du **[!UICONTROL Adobe Experience Platform]** miljö.
+Om du vill komma åt Adobe Experience Platform segmentbyggare går du till startsidan för **[!UICONTROL Audiences]**-kortet på Campaign Standarden (eller till **[!UICONTROL Audiences]**-länken i sidhuvudet) och väljer sedan **[!UICONTROL Adobe Experience Platform]**-miljön.
 
 ![](assets/aep_audiences_access.png)
 
@@ -40,7 +40,7 @@ Det finns ett sökfält och filter som hjälper dig att hitta det önskade Adobe
 
 Så här skapar du en Adobe Experience Platform-publik direkt i Campaign Standarden:
 
-1. På listsidan för Adobe Experience Platform-segment klickar du på **[!UICONTROL New audience]** i det högra hörnet.
+1. Klicka på knappen **[!UICONTROL New audience]** i det högra hörnet på listsidan för Adobe Experience Platform-segment.
 
    ![](assets/aep_audiences_creation_create.png)
 
@@ -50,24 +50,24 @@ Så här skapar du en Adobe Experience Platform-publik direkt i Campaign Standar
 
    ![](assets/aep_audiences_creation_edit_name.png)
 
-1. För att kunna skapa ett segment måste du välja ett **sammanfogningsprincip** som matchar ert marknadsföringssyfte för detta segment.
+1. För att kunna skapa ett segment måste du välja en **sammanfogningsprincip** som matchar ditt marknadsföringssyfte för det här segmentet.
 
-   I inställningsfönstret är en standardprincip för sammanfogning av plattform vald. Mer information om kopplingsprofiler finns i det dedikerade avsnittet i [Användarhandbok för Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   I inställningsfönstret är en standardprincip för sammanfogning av plattform vald. Mer information om sammanfogningsprinciper finns i det dedikerade avsnittet i användarhandboken för [Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
 1. Definiera reglerna som identifierar de profiler som ska hämtas hos er målgrupp.
 
-   Det gör du genom att dra de önskade attributen och/eller händelserna från den vänstra rutan till arbetsytan, definiera motsvarande regler och sedan klicka på knappen **[!UICONTROL Create segment]** knappen för att spara segmentet (se [Använda Segment Builder](../../integrating/using/aep-using-segment-builder.md)).
+   Det gör du genom att dra önskade attribut och/eller händelser från den vänstra rutan till arbetsytan, definiera motsvarande regler och sedan klicka på knappen **[!UICONTROL Create segment]** för att spara segmentet (se [Använda segmentverktyget](../../integrating/using/aep-using-segment-builder.md)).
 
    ![](assets/aep_audiences_creation_query.png)
 
-Publiken är nu redo att aktiveras, du kan använda den som mål för dina kampanjer (se [Målgrupper för Adobe Experience Platform](../../integrating/using/aep-targeting-audiences.md)).
+Publiken är nu redo att aktiveras, du kan använda den som mål för dina kampanjer (se [Målgruppsanpassning för Adobe Experience Platform](../../integrating/using/aep-targeting-audiences.md)).
 
 ## Redigera målgrupper
 
-Om du vill redigera en målgrupp öppnar du den och ändrar reglerna efter behov i gränssnittet i Segment Builder (se [Använda Segment Builder](../../integrating/using/aep-using-segment-builder.md)).
+Om du vill redigera en målgrupp öppnar du den och ändrar reglerna efter behov i segmentbyggargränssnittet (se [Använda segmentbyggaren](../../integrating/using/aep-using-segment-builder.md)).
 
-När ändringarna är klara klickar du på **[!UICONTROL Save segment]** för att uppdatera er målgrupp.
+När ändringarna är klara klickar du på knappen **[!UICONTROL Save segment]** för att uppdatera målgruppen.
 
 ![](assets/aep_audiences_editing.png)

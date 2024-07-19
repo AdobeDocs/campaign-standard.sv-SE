@@ -49,13 +49,13 @@ Du måste skapa ett nytt Adobe Developer-projekt och konfigurera det för integr
 
 Följ nedanstående procedur för att uppnå detta:
 
-1. Navigera till [Adobe Developer Console](https://console.adobe.io/home#) och välj ditt organisations-ID för Adobe i listrutan längst upp till höger på skärmen.
+1. Navigera till [Adobe Developer Console](https://console.adobe.io/home#) och välj ditt Adobe organisation-ID i listrutan längst upp till höger på skärmen.
 
 1. Klicka sedan på **[!UICONTROL Create new project]** under **[!UICONTROL Quick Start]**.
 
    ![](assets/adobeIO1.png)
 
-1. Under **[!UICONTROL Get started with your new project]**, klicka **[!UICONTROL Add API]**.
+1. Klicka på **[!UICONTROL Add API]** under **[!UICONTROL Get started with your new project]**.
 
    ![](assets/adobeIO2.png)
 
@@ -75,27 +75,27 @@ Följ nedanstående procedur för att uppnå detta:
 
    ![](assets/adobeIO5.png)
 
-1. På nästa skärm ser du detaljerna om ditt nya Adobe Developer-projekt. Klicka **[!UICONTROL Add to Project]** längst upp till vänster på skärmen och välj **API** från listrutan.
+1. På nästa skärm ser du detaljerna om ditt nya Adobe Developer-projekt. Klicka på **[!UICONTROL Add to Project]** längst upp till vänster på skärmen och välj **API** i listrutan.
 
    ![](assets/adobeIO6.png)
 
-1. På nästa skärm måste du välja API:t för I/O-händelser och sedan klicka **[!UICONTROL Next]**.
+1. På nästa skärm måste du välja I/O Events-API och sedan klicka på **[!UICONTROL Next]**.
 
-1. På nästa skärm klickar du **[!UICONTROL Save the configured API]**.  Du kommer tillbaka till skärmen med projektinformation.
+1. På nästa skärm klickar du på **[!UICONTROL Save the configured API]**.  Du kommer tillbaka till skärmen med projektinformation.
 
-1. Klicka nu **[!UICONTROL Add to Project]** längst upp till vänster på skärmen och välj **API** från listrutan, som du gjorde tidigare.
+1. Klicka nu på **[!UICONTROL Add to Project]** längst upp till vänster på skärmen och välj **API** i listrutan, precis som du gjorde tidigare.
 
 1. På nästa skärm måste du välja I/O Management API och klicka på **[!UICONTROL Next]**.
 
-1. På nästa skärm klickar du **[!UICONTROL Save the configured API]**.
+1. På nästa skärm klickar du på **[!UICONTROL Save the configured API]**.
 
 Inställningen av förintegrering i Campaign är nu klar.
 
 **Relaterade ämnen**
 
-* [Konfigurera integrering av Adobe Developer för Microsoft Dynamics 365](../../integrating/using/d365-acs-configure-adobe-io.md) är nästa steg i konfigurationen av integreringen
-* [Översikt över självbetjäningsprogram för integrering](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) innehåller en fullständig lista över steg som krävs för att få integreringen att fungera.
-* [Adobe Developer - Integrering av tjänstkonto](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
+* [Konfigurera integrering med Adobe Developer för Microsoft Dynamics 365](../../integrating/using/d365-acs-configure-adobe-io.md) är nästa steg i konfigurationen av integreringen
+* [Översikt över självbetjäningsprogrammet för integrering](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) innehåller en fullständig lista över steg som krävs för att få integreringen att fungera.
+* [Adobe Developer - Integrering med tjänstkonto](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard - API-åtkomstinställningar](../../api/using/setting-up-api-access.md)
 * [Campaign Standard - Dynamics 365-integrering](../../integrating/using/d365-acs-configure-d365.md)
-* [Migrera autentiseringsuppgifter från JWT till OAuth Server-till-Server](../../integrating/using/d365-acs-self-service-app-migrate-credentials.md) innehåller stegen för att migrera autentiseringsuppgifter från JWT till OAuth Server-till-Server.
+* [Migrera autentiseringsuppgifter från JWT till OAuth Server-till-server](../../integrating/using/d365-acs-self-service-app-migrate-credentials.md) innehåller stegen för att migrera autentiseringsuppgifter från JWT till OAuth Server-till-server.

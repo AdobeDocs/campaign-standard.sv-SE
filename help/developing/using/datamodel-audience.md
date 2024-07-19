@@ -195,13 +195,13 @@ ht-degree: 1%
                </tr>
                <tr>
                   <td>källa</td>
-                  <td>Källa</td>
+                  <td>Source</td>
                   <td>artikel </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>sourceId</td>
-                  <td>Käll-ID</td>
+                  <td>SOURCE ID</td>
                   <td>heltal </td>
                   <td> </td>
                </tr>

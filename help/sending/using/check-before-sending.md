@@ -28,7 +28,7 @@ Innan du skickar en leverans måste du se till att mottagarna får det meddeland
 
 Med det här steget kan du identifiera eventuella fel och åtgärda dem innan du levererar till huvudmålet.
 
-Stegen för validering av leverans visas [i det här avsnittet](../../sending/using/get-started-sending-messages.md#prepare-test-send).
+Stegen för att validera en leverans visas [i det här avsnittet](../../sending/using/get-started-sending-messages.md#prepare-test-send).
 
 ## E-poståtergivning {#email-rendering}
 

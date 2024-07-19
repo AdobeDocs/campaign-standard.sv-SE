@@ -23,15 +23,15 @@ ht-degree: 6%
 >
 >Målgruppstjänsten är för närvarande i betaversion, som kan uppdateras ofta utan föregående meddelande. Kunderna måste vara värdbaserade på Azure (för närvarande endast betaversioner för Nordamerika) för att få tillgång till dessa funktioner. Kontakta Adobe kundtjänst om du vill ha tillgång till tjänsten.
 >
->**Push** och **I appen** Kanalerna är ännu inte tillgängliga för personalisering med kontextuella data från Adobe Experience Platform.
+>**Push**- och **In-App**-kanaler är ännu inte tillgängliga för personalisering med kontextuella data från Adobe Experience Platform.
 
-När arbetsflödet har konfigurerats med en [Adobe Experience Platform](../../integrating/using/aep-about-audience-destinations-service.md)kan ni personalisera meddelanden med profilattribut som finns exklusivt i Experience Data Model (XDM).
+När arbetsflödet har konfigurerats med en [Adobe Experience Platform-målgrupp](../../integrating/using/aep-about-audience-destinations-service.md) kan du anpassa meddelanden med profilattribut som finns exklusivt i Experience Data Model (XDM).
 
-Om du vill göra det måste du lägga till attributen i **[!UICONTROL Read audience]** aktivitet:
+Du måste lägga till följande attribut i aktiviteten **[!UICONTROL Read audience]** om du vill göra det:
 
-1. Öppna **[!UICONTROL Read audience]** aktivitet. I **[!UICONTROL Additional data]** klickar du på **[!UICONTROL Create element]** -knappen.
+1. Öppna aktiviteten **[!UICONTROL Read audience]**. Klicka på knappen **[!UICONTROL Create element]** på fliken **[!UICONTROL Additional data]**.
 
-   Observera att **[!UICONTROL Additional data]** -fliken är bara tillgänglig när en Adobe Experience Platform-publik har valts.
+   Observera att fliken **[!UICONTROL Additional data]** bara är tillgänglig när en Adobe Experience Platform-målgrupp har valts.
 
    ![](assets/aep_wkf_readaudience_attributes.png)
 
@@ -43,7 +43,7 @@ Om du vill göra det måste du lägga till attributen i **[!UICONTROL Read audie
 
    ![](assets/aep_wkf_readaudience_perso1.png)
 
-1. Klicka på **[!UICONTROL Add]** om du vill lägga till den i listan med ytterligare data.
+1. Klicka på knappen **[!UICONTROL Add]** om du vill lägga till den i listan med ytterligare data.
 
    ![](assets/aep_wkf_readaudience_perso3.png)
 
@@ -51,9 +51,9 @@ Om du vill göra det måste du lägga till attributen i **[!UICONTROL Read audie
 
    >[!NOTE]
    >
-   >Du kan lägga till högst 20 XDM-fält i en **[!UICONTROL Read audience]** aktivitet.
+   >Du kan lägga till högst 20 XDM-fält i en **[!UICONTROL Read audience]**-aktivitet.
 
-1. Klicka på knappen **[!UICONTROL Confirm]** för att spara ändringarna. De kommer nu att vara tillgängliga för att personalisera era leveranser.
+1. När alla fält har lagts till klickar du på knappen **[!UICONTROL Confirm]** för att spara ändringarna. De kommer nu att vara tillgängliga för att personalisera era leveranser.
 
 Mer information om hur du skapar och anpassar leveranser finns i Campaign Standardens dokumentation:
 

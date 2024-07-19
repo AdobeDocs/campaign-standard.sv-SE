@@ -21,7 +21,7 @@ Följande felsökningstips hjälper dig att lösa de vanligaste problemen du kan
 
 **Är funktionen aktiverad?**
 
-Om du vill kontrollera om integreringen av utlösare - kampanj är aktiverad klickar du på Adobe Campaign logotyp i det övre vänstra hörnet och väljer sedan **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. Du borde se **[!UICONTROL Experience Cloud Triggers]** objekt.
+Om du vill kontrollera om integreringen av utlösare - kampanj är aktiverad klickar du på Adobe Campaign-logotypen i det övre vänstra hörnet och väljer sedan **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. Du bör se objektet **[!UICONTROL Experience Cloud Triggers]**.
 
 Om du ser det går du vidare till nästa steg.
 
@@ -37,7 +37,7 @@ Om utlösaren skapas går du vidare till nästa steg. Annars innebär det att sl
 * Organisations-ID
 * Analysinloggningsföretag (kan vara samma som Marketing Cloud företagsnamn)
 
-**Prova att publicera utlösaren**
+**Försök publicera utlösaren**
 
 Följ stegen som beskrivs i [Skapa en mappad utlösare i Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) för att publicera utlösaren.
 
@@ -53,7 +53,7 @@ Om utlösaren tas emot av Analytics går du vidare till nästa steg. Om inte, ko
 * Den webbplats som används för MCID och Analytics är aktiverad i DTM
 * Den korrekta rapportsviten för Analytics används när utlösare skapas
 
-**Tar Campaign emot utlösaren?**
+**Är utlösaren mottagen av Campaign?**
 
 Om inte, kontrollerar du om utlösaren tas emot från pipelinen.
 

@@ -22,19 +22,19 @@ Den här rapporten innehåller prestandadata för varje domän som representeras
 
 ![](assets/delivery_reports_6.png)
 
-Tabellen **Sändningsstatistik** innehåller tillgängliga data för eventuella fel som påträffats i varje domän, som:
+Tabellen **Sändningsstatistik** innehåller tillgängliga data för möjliga fel som påträffats i varje domän, som:
 
-* **Behandlad/skickad**: Antal skickade e-postmeddelanden.
-* **Levererat**: Antalet e-postmeddelanden som levereras.
+* **Behandlad/skickad**: Antalet skickade e-postmeddelanden.
+* **Levererat**: Antalet e-postmeddelanden som levererats.
 * **studsar + fel**: Antalet meddelanden som inte kunde levereras.
-* **Hård studs**: Det totala antalet permanenta fel, t.ex. fel e-postadress.
-* **Mjuk studsa**: Det totala antalet tillfälliga fel, till exempel en fullständig inkorg.
+* **Hårt studs**: Det totala antalet permanenta fel, till exempel en felaktig e-postadress.
+* **Mjuk studs**: Det totala antalet tillfälliga fel, till exempel en fullständig inkorg.
 
-Den andra tabellen **Spårningsstatistik**, innehåller tillgängliga data för mottagarnas reaktivitet till leveransen, som:
+Den andra tabellen, **Spårningsstatistik**, innehåller tillgängliga data för mottagareaktivitet till leverans, som:
 
-* **Levererat**: Antal e-postmeddelanden
-* **Öppna**: Antal gånger ett meddelande öppnades i en leverans.
-* **Klicka**: Antal gånger som innehållet klickades i en leverans.
+* **Levererat**: Antal e-postmeddelanden som levererats
+* **Öppna**: Antalet gånger som ett meddelande öppnades i en leverans.
+* **Klicka**: Antalet gånger som innehållet klickades på i en leverans.
 * **Avbeställ**: Antal klick på prenumerationslänken.
 * **Spegelsida**: Antalet klick på länken för spegelsidan.
 * **På blockeringslista**: Antalet mottagare som har deklarerat ett e-postmeddelande som skräppost eller skräppost. [Läs mer](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)

@@ -21,11 +21,11 @@ Med Adobe Campaign kan ni tilldela en uppsättning roller till era användare f�
 
 De specifika rollerna och de motsvarande behörigheterna beskrivs i följande avsnitt: [förstå roller](../../administration/using/list-of-roles.md) och [behörigheter](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf).
 
-Administratörer kan hantera användare från Admin Console. Användarna synkroniseras sedan automatiskt med Adobe Campaign.  Mer information finns i [Admin Console](https://helpx.adobe.com/se/enterprise/using/users.html) dokumentation.
+Administratörer kan hantera användare från Admin Console. Användarna synkroniseras sedan automatiskt med Adobe Campaign.  Mer information finns i dokumentationen för [Admin Console](https://helpx.adobe.com/se/enterprise/using/users.html).
 
 ![](assets/do-not-localize/how-to-video.png) [Upptäck den här funktionen i en video](#video)
 
-Om du vill visa användare i Adobe Campaign klickar du på **Adobe** logotyp, i det övre vänstra hörnet och välj **[!UICONTROL Administration > Users & Security > Users]**.
+Om du vill visa användare i Adobe Campaign klickar du på logotypen **Adobe** i det övre vänstra hörnet och väljer sedan **[!UICONTROL Administration > Users & Security > Users]**.
 
 Om du vill komma åt gränssnittet för användarhantering från Adobe Campaign så klickar du på **[!UICONTROL User administration]**.
 
@@ -41,12 +41,12 @@ Om du vill komma åt gränssnittet för användarhantering från Adobe Campaign 
 
 Användarsegmenteringen är inte obligatorisk utan bara en representation av den vanligaste användningsmetoden av Adobe Campaign.
 
-I det här avsnittet får du hjälp med att förstå de vanligaste typerna av Adobe Campaign-användare. Mer information om vilka roller en användare kan ha (startleveranser, export, förbered leveranser osv.) finns i [Lista över roller](../../administration/using/list-of-roles.md) och [Hantera grupper och användare](../../administration/using/managing-groups-and-users.md) sidor.
+I det här avsnittet får du hjälp med att förstå de vanligaste typerna av Adobe Campaign-användare. Mer information om specifika roller som en användare kan ha (startleveranser, export, förbered leveranser osv.) finns i [Lista över roller](../../administration/using/list-of-roles.md) och [Hantera grupper och användare](../../administration/using/managing-groups-and-users.md) sidor.
 
 Vi fokuserar istället på hur de olika uppgifterna i Adobe Campaign är uppdelade mellan tre huvudanvändartyper:
 
 * [Funktionsadministratörer](#functional-administrators): bland alla användare i organisationen är dessa de tekniska.
-* [Avancerade användare](#advanced-users): de lägger upp alla element som marknadsförarna behöver för att skicka och övervaka sina leveranser.
+* [Avancerade användare](#advanced-users): de konfigurerar alla element som marknadsförarna behöver för att skicka och övervaka sina leveranser.
 * [Grundläggande användare](#basic-users): är de marknadsförare som personaliserar, levererar och övervakar sina kampanjer.
 
 >[!NOTE]
@@ -59,7 +59,7 @@ Funktionsadministratörer är användare som har tillgång till de flesta teknis
 
 >[!IMPORTANT]
 >
->Endast funktionsadministratörer, med **[!UICONTROL Administration]** roll och åtkomst till **Alla** Enheterna har åtkomst till sändningsloggar, meddelandeloggar, spårningsloggar, undantagsloggar, förslagsloggar och prenumerationsloggar. En icke-admin-användare kan ha loggarna som mål, men med början i en länkad tabell (profiler, leverans).
+>Endast funktionsadministratörer med rollen **[!UICONTROL Administration]** och åtkomst till **alla** enheter har åtkomst till sändande loggar, meddelandeloggar, spårningsloggar, undantagsloggar, förslagsloggar och prenumerationsloggar. En icke-admin-användare kan ha loggarna som mål, men med början i en länkad tabell (profiler, leverans).
 
 Funktionsadministratörer är de enda användare som har åtkomst till **[!UICONTROL Administration]**-menyn i Adobe Campaign-gränssnittet.    Eftersom de här användarna behöver åtkomst till tekniska resurser så bör de tilldelas mer avancerade roller som till exempel **[!UICONTROL Administration]** och **[!UICONTROL Datamodel]**-roller.    Dessa roller kombineras i den **[!UICONTROL Administrators]** inbyggda säkerhetsgruppen.  Mer information om detta hittar du i det här [avsnittet](../../administration/using/list-of-roles.md).
 
@@ -118,7 +118,7 @@ Om du vill lägga till en användare i instansen måste du först skapa den i Ad
 
    ![](assets/create_user_3.png)
 
-1. Från **[!UICONTROL Assign products]** tilldelar du en eller flera säkerhetsgrupper till användaren. Mer information om säkerhetsgrupper hittar du på den här [sidan](../../administration/using/managing-groups-and-users.md).
+1. Tilldela en eller flera säkerhetsgrupper till användaren på fliken **[!UICONTROL Assign products]**. Mer information om säkerhetsgrupper hittar du på den här [sidan](../../administration/using/managing-groups-and-users.md).
 
    Klicka på **[!UICONTROL Save]** när du är klar med konfigurationen.
 
@@ -158,4 +158,4 @@ I den här videon visas hur du hanterar användaråtkomsträttigheter.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12)
 
-Det finns fler videor med Campaign Standard om hur man gör [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv).
+Ytterligare Campaign Standard om instruktionsvideor finns [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv).

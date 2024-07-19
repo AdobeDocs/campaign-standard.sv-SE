@@ -22,7 +22,7 @@ I innehållet på landningssidan används inmatningsfält för att lagra eller u
 
 För att göra detta måste dessa fält mappas till databasfält.
 
-Du kan definiera och hantera deras mappning via **[!UICONTROL Form data]** till vänster.
+Du kan definiera och hantera deras mappning i avsnittet **[!UICONTROL Form data]** på den vänstra paletten.
 
 ![](assets/lp_form-data.png)
 
@@ -38,29 +38,29 @@ Gör så här:
    >
    >Standardfälten för de inbyggda landningssidorna är förkonfigurerade.  Du kan ändra dessa efter behov.
 
-1. Öppna **[!UICONTROL Form data]** till vänster.
+1. Gå till avsnittet **[!UICONTROL Form data]** på den vänstra paletten.
 
-1. Om du vill ändra fälttyp väljer du ett värde på menyn **[!UICONTROL HTML type of the field]** listruta.
+1. Om du vill ändra fälttyp väljer du ett värde i listrutan **[!UICONTROL HTML type of the field]**.
 
    ![](assets/lp_html-field-type.png)
 
    >[!NOTE]
    >
-   >Mer information om hur du använder kryssrutetypen på en landningssida finns i [Uppdatera flera serviceabonnemang](#multiple-subscriptions) och [Kryssruta för avtal](#agreement-checkbox) -avsnitt.
+   >Mer information om hur du använder kryssrutetypen på en landningssida finns i avsnitten [Uppdatera flera serviceabonnemang](#multiple-subscriptions) och [Avtalskryssruta](#agreement-checkbox).
 
-1. Om du väljer en fälttyp som inte är kompatibel med det databasfält som är markerat i dialogrutan **[!UICONTROL Field]** visas ett varningsmeddelande. Välj ett lämpligt värde för optimal mappning.
+1. Om du väljer en fälttyp som inte är kompatibel med det databasfält som är markerat i zonen **[!UICONTROL Field]** visas ett varningsmeddelande. Välj ett lämpligt värde för optimal mappning.
 
    ![](assets/lp_field-type-warning.png)
 
-1. Använd **[!UICONTROL Field]** för att markera ett databasfält som ska länkas till formulärfältet.
+1. Använd zonen **[!UICONTROL Field]** för att välja ett databasfält som ska länkas till formulärfältet.
 
    ![](assets/lp_select-database-field.png)
 
    >[!NOTE]
    >
-   >Det går endast att mappa landningssidor med **[!UICONTROL Profiles]** eller **[!UICONTROL Service]** resurser.
+   >Det går bara att mappa landningssidor med resurserna **[!UICONTROL Profiles]** eller **[!UICONTROL Service]**.
 
-   I det här exemplet mappar du **Namn** landningssidans fält till **[!UICONTROL Last name]** fält för **[!UICONTROL Profiles]** resurs.
+   I det här exemplet mappar du fältet **Namn** på landningssidan till fältet **[!UICONTROL Last name]** för resursen **[!UICONTROL Profiles]**.
 
    ![](assets/lp_database-field-example.png)
 
@@ -70,7 +70,7 @@ Gör så här:
 
    Om ett obligatoriskt fält inte är ifyllt visas ett felmeddelande när användaren skickar sidan.
 
-1. Klicka **[!UICONTROL Confirm]** för att spara ändringarna.
+1. Klicka på **[!UICONTROL Confirm]** om du vill spara ändringarna.
 
 <!--If you choose a mandatory **[!UICONTROL Checkbox]**, make sure that it is of **[!UICONTROL Field]** type.-->
 
@@ -84,7 +84,7 @@ Så här gör du:
 
    ![](assets/lp_parameters_job.png)
 
-1. Välj **[!UICONTROL Reconciliation key]**: det här databasfältet används för att avgöra om besökaren har en profil som redan är känd i Adobe Campaign-databasen. Det kan till exempel vara e-post, förnamn och efternamn. Med avstämningsnyckeln kan du uppdatera eller skapa en profil enligt **[!UICONTROL Update strategy]** parametern definieras nedan.
+1. Välj **[!UICONTROL Reconciliation key]**: Det här databasfältet används för att avgöra om besökaren har en profil som redan är känd i Adobe Campaign-databasen. Det kan till exempel vara e-post, förnamn och efternamn. Med avstämningsnyckeln kan du uppdatera eller skapa en profil enligt parametern **[!UICONTROL Update strategy]** som definieras nedan.
 
 1. Definiera **[!UICONTROL Form parameter mapping]**: I denna del kan du mappa fältparametrar för landningssidor och de som används i avstämningsnyckeln.
 
@@ -100,11 +100,11 @@ Gör så här:
 
 1. När landningssidan utformas:
 
-   * Markera ett block och gå till **[!UICONTROL Form data]** avsnitt, välja **[!UICONTROL Checkbox]** som fälttyp.
+   * Markera ett block och välj **[!UICONTROL Checkbox]** som fälttyp i avsnittet **[!UICONTROL Form data]**.
 
      ![](assets/lp_field-type-checkbox.png)
 
-   * Om du känner till HTML kan du även infoga en kryssruta manuellt med hjälp av **[!UICONTROL Show source]** -knappen.
+   * Om du känner till HTML kan du även infoga en kryssruta manuellt med knappen **[!UICONTROL Show source]**.
 
      ![](assets/lp_show_source.png)
 
@@ -112,19 +112,19 @@ Gör så här:
 
      ![](assets/lp_manual-checkbox.png)
 
-1. Kontrollera att kryssrutan är markerad i innehållet. The **[!UICONTROL Type]** listrutan visas i **[!UICONTROL Form data]** i den vänstra paletten. Välj **[!UICONTROL Service and subscription]** från listan.
+1. Kontrollera att kryssrutan är markerad i innehållet. Listrutan **[!UICONTROL Type]** visas i avsnittet **[!UICONTROL Form data]** på den vänstra paletten. Välj **[!UICONTROL Service and subscription]** i listan.
 
    ![](assets/lp_service-and-subscription.png)
 
-1. Välj ett alternativ på menyn **[!UICONTROL Behavior]** listruta.
+1. Välj ett alternativ i listrutan **[!UICONTROL Behavior]**.
 
    ![](assets/lp_checkbox-behavior.png)
 
-1. Välj en [service](../../audiences/using/creating-a-service.md) från motsvarande lista.
+1. Välj en [tjänst](../../audiences/using/creating-a-service.md) i motsvarande lista.
 
    ![](assets/lp_checkbox-service.png)
 
-1. Se till att **[!UICONTROL Mandatory]** alternativet är inte markerat. Annars har användarna inget val.
+1. Kontrollera att alternativet **[!UICONTROL Mandatory]** inte är markerat. Annars har användarna inget val.
 
    ![](assets/lp_uncheck-mandatory.png)
 
@@ -148,11 +148,11 @@ Så här infogar och konfigurerar du den här kryssrutan:
 
 1. När landningssidan utformas:
 
-   * Markera ett block och gå till **[!UICONTROL Form data]** avsnitt, välja **[!UICONTROL Checkbox]** som fälttyp.
+   * Markera ett block och välj **[!UICONTROL Checkbox]** som fälttyp i avsnittet **[!UICONTROL Form data]**.
 
      ![](assets/lp_field-type-checkbox.png)
 
-   * Om du känner till HTML kan du även infoga en kryssruta manuellt med hjälp av **[!UICONTROL Show source]** -knappen.
+   * Om du känner till HTML kan du även infoga en kryssruta manuellt med knappen **[!UICONTROL Show source]**.
 
      ![](assets/lp_show_source.png)
 
@@ -164,15 +164,15 @@ Så här infogar och konfigurerar du den här kryssrutan:
 
    ![](assets/lp_select_checkbox.png)
 
-1. The **[!UICONTROL Type]** listrutan visas i **[!UICONTROL Form data]** i den vänstra paletten. Välj **[!UICONTROL Agreement]** från listan.
+1. Listrutan **[!UICONTROL Type]** visas i avsnittet **[!UICONTROL Form data]** på den vänstra paletten. Välj **[!UICONTROL Agreement]** i listan.
 
    ![](assets/lp_form_data_drop-down.png)
 
    >[!NOTE]
    >
-   >The **[!UICONTROL Agreement]** -elementet är inte mappat till ett fält i Campaign-databasen.
+   >Elementet **[!UICONTROL Agreement]** är inte mappat till ett fält i Campaign-databasen.
 
-1. Klicka på ![](assets/lp-properties-icon.png) ikon bredvid **[!UICONTROL Form data]** för att komma åt kryssrutans avancerade egenskaper.
+1. Klicka på ikonen ![](assets/lp-properties-icon.png) bredvid **[!UICONTROL Form data]** för att komma åt de avancerade egenskaperna för kryssrutan.
 
 1. Du kan redigera meddelandet om det behövs.
 

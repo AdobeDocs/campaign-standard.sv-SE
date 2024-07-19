@@ -42,9 +42,9 @@ Ett ljud varnar användarna om ett push-meddelande och ger det mer synlighet. S�
 
    ![](assets/push_notif_advanced_7.png)
 
-1. Ljudfilen spelas upp när meddelandet skickas om filen är definierad i mobilprogrammets paket. Du kan ställa in den på **standard** för att spela upp enhetens standardljud.
+1. Ljudfilen spelas upp när meddelandet skickas om filen är definierad i mobilprogrammets paket. Du kan ställa in det på **standard** om du vill spela upp enhetens standardljud.
 
-   Om **[!UICONTROL Play a sound]** fältet är tomt, inget ljud spelas upp.
+   Om fältet **[!UICONTROL Play a sound]** lämnas tomt spelas inget ljud upp.
 
 Användaren får sedan push-meddelandet och ljudet endast om telefonen inte är avstängd.
 
@@ -113,7 +113,7 @@ Om du anger ett förfallodatum för ditt push-meddelande kan du ange ett specifi
 
 Så här lägger du till ett förfallodatum i ditt push-meddelande:
 
-1. Kontrollera **[!UICONTROL Expire message]** alternativ: genom att välja **[!UICONTROL Expire message]** anges längden automatiskt till 0. Om du inte ändrar värdet försöker både APNS och FCM skicka meddelandet direkt. Om det misslyckas skickas inte meddelandet igen.
+1. Markera alternativet **[!UICONTROL Expire message]**: genom att välja alternativet **[!UICONTROL Expire message]** anges längden automatiskt till 0. Om du inte ändrar värdet försöker både APNS och FCM skicka meddelandet direkt. Om det misslyckas skickas inte meddelandet igen.
 
 1. Välj giltigheten för push-meddelandet i **[!UICONTROL Duration]**-fältet.
 

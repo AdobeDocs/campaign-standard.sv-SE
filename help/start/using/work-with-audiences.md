@@ -56,13 +56,13 @@ Campaign Standard har flera verktyg som hjälper er att utöka er marknadsförin
 
 ### Importera data via arbetsflöden {#importing-data-through-workflows}
 
-Med arbetsflöden kan ni samla in data och importera dem till Campaign-databasen med hjälp av [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) verksamhet. Allmän information och bästa praxis vid import av data via arbetsflöden visas i [det här avsnittet](../../automating/using/about-data-import-and-export.md).
+Med arbetsflöden kan du samla in data och importera dem till Campaign-databasen med hjälp av [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md)-aktiviteter. Allmän information och bästa praxis vid import av data via arbetsflöden visas i [det här avsnittet](../../automating/using/about-data-import-and-export.md).
 
 Dessutom kan du konfigurera mallar för import av data. Att använda importmallar är ett bra sätt att importera filer med samma struktur regelbundet. Du kan ställa in två typer av mallar:
 
-* **Arbetsflödesmallar**: dessa är förkonfigurerade arbetsflöden som du kan konfigurera en gång efter behov och återanvända varje gång du vill importera data och uppdatera databasen. Ett exempel på en arbetsflödesmall för import av data finns i [det här avsnittet](../../automating/using/creating-import-workflow-templates.md).
+* **Arbetsflödesmallar**: det här är förkonfigurerade arbetsflöden som du kan konfigurera en gång efter behov och återanvända varje gång du vill importera data och uppdatera databasen. Ett exempel på en arbetsflödesmall för import av data finns i [det här avsnittet](../../automating/using/creating-import-workflow-templates.md).
 
-* **Importera datamallar**: Precis som arbetsflödesmallar är dessa mallar baserade på arbetsflöden, som är konfigurerade för att överföra filer för att uppdatera databasen. När de har konfigurerats blir de tillgängliga för användare med en förenklad vy i **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** -menyn. Mer information om hur du importerar datamallar finns i [dedikerad dokumentation](../../automating/using/importing-data-with-import-templates.md).
+* **Importera datamallar**: precis som arbetsflödesmallar är de här mallar som baseras på arbetsflöden, som är konfigurerade för att överföra filer för att uppdatera databasen. När de har konfigurerats blir de tillgängliga för användare med en förenklad vy på menyn **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** . Mer information om hur du importerar datamallar finns i [dedikerad dokumentation](../../automating/using/importing-data-with-import-templates.md).
 
 ### Samla in data från landningssidor {#collecting-data-from-landing-pages}
 
@@ -125,7 +125,7 @@ Tack vare arbetsflödena och frågeredigeraren kan ni skapa målgrupper som mål
 
 GDPR är EU:s (EU) nya integritetslagstiftning som harmoniserar och moderniserar kraven på skydd av personuppgifter. GDPR gäller för Adobe Campaign-kunder som innehar uppgifter för registrerade i EU. Förutom de sekretessfunktioner som redan finns i Adobe Campaign (inklusive samtyckeshantering, datalagringsinställningar och användarroller) tar vi denna möjlighet i vår roll som dataprocessor för att inkludera ytterligare funktioner som hjälper dig att bli redo som Data Controller för vissa GDPR-förfrågningar.
 
-Se [det här avsnittet](../../start/using/privacy.md) om du vill veta mer om de verktyg och funktioner som Adobe Campaign tillhandahåller för att hjälpa er att bli GDPR-kompatibla.
+Mer information om de verktyg och funktioner som Adobe Campaign tillhandahåller för att hjälpa dig att bli GDPR-kompatibel finns i [det här avsnittet](../../start/using/privacy.md).
 
 **Läs mer**
 

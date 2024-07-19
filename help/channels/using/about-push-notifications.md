@@ -66,13 +66,13 @@ Innan du skickar ett push-meddelanden bör du:
 
 1. Skapa en mobil egenskap i användargränssnittet för datainsamling. Mer information finns i [Konfigurera en mobil egenskap](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/).
 
-1. I användargränssnittet för datainsamling installerar du **[!UICONTROL Adobe Campaign Standard]** tillägg.
+1. Installera tillägget **[!UICONTROL Adobe Campaign Standard]** i användargränssnittet för datainsamling.
 
-1. Konfigurera den mobila egenskap som du skapade i användargränssnittet för datainsamling i Adobe Campaign Standard. Mer information finns i [Konfigurera ditt taggprogram i Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
+1. Konfigurera den mobila egenskap som du skapade i användargränssnittet för datainsamling i Adobe Campaign Standard. Mer information finns i [Konfigurera taggprogrammet i Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
 1. Lägg till den kanalspecifika konfigurationen i installationen av mobilprogrammet.  Mer information finns i [Kanalspecifik programkonfiguration i Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
-1. Mer information om hur du hanterar implementering av ärenden för mobilanvändning finns i detaljerade instruktioner om tillägg, taggregler och SDK-implementering i [Mobil användning som stöds i Adobe Campaign Standard med Adobe Experience Platform SDK](../../administration/using/configuring-rules-launch.md).
+1. Information om stöd för implementering av mobilanvändningsfall finns i detaljerade instruktioner om tillägg, taggregler och SDK-implementering i [Mobila användningsfall som stöds i Adobe Campaign Standard med Adobe Experience Platform SDK:er](../../administration/using/configuring-rules-launch.md).
 
 ## Vanliga frågor om push-meddelanden {#push-faq}
 
@@ -80,7 +80,7 @@ Innan du skickar ett push-meddelanden bör du:
 
 Läs resurserna nedan:
 
-* [Video Tutorials](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
+* [Tutorials Video](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
 * [Produktdokumentation](../../channels/using/about-push-notifications.md)
 * Konfigurera med AEP SDK [dokumentation](../../administration/using/configuring-a-mobile-application.md)
 * [Community-sida](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
@@ -113,7 +113,7 @@ Nej, program fungerar i antingen sandlådan eller produktionsläget och kan inte
 
 Om du vill byta till produktionsläge måste du skapa ett annat program. Se även till att inte markera kryssrutan för sandlådan och att överföra ett produktionscertifikat.
 
-### Kan jag överföra både iOS- och Android-uppgifter samtidigt? {#ios-android-credentials}
+### Kan jag ladda upp både iOS- och Android-uppgifter samtidigt? {#ios-android-credentials}
 
 Ja, Campaign har stöd för båda plattformarna samtidigt och gör att du kan överföra autentiseringsuppgifter för båda plattformarna.
 
@@ -125,7 +125,7 @@ Kontrollera att dina push-certifikat är giltiga genom att testa dem [här](http
 
 Kontrollera att du följer instruktionerna för push-nyttolast som anges [här](../../administration/using/push-payload.md).
 
-Observera att för Android har Campaign bara stöd för datanyttolast, inte meddelandenyttolast
+Observera att Campaign endast stöder datanyttolast och inte meddelandenyttolast för Android
 
 ### Jag har konfigurerat en app i administrationsdelen av Adobe Campaign Standard, men mobilappen är inte tillgänglig i leveransegenskaperna. {#mobile-app-unavailable}
 
@@ -137,26 +137,26 @@ Vänligen öppna en kundtjänstbiljett.
 
 ### Push-meddelanden levereras från Campaign men mediefilen visas inte.{#media-file-unavailable}
 
-Mobilappsutvecklare måste hantera stödet för mediefiler i appen. Ibland kan nätverkets bandbredd även förhindra att en mediefil återges. Se detta [page](../../administration/using/image-push-notification.md) för ytterligare pekare.
+Mobilappsutvecklare måste hantera stödet för mediefiler i appen. Ibland kan nätverkets bandbredd även förhindra att en mediefil återges. Mer information finns på [sidan](../../administration/using/image-push-notification.md) om du vill ha fler pekare.
 
 ### Vad måste jag göra för att aktivera push-rapportering i Campaign? {#push-reporting-enable}
 
 Följ stegen nedan:
 
 * Konfigurera ett återanslående. Instruktioner finns [här](../../administration/using/configuring-a-mobile-application.md).
-* Implementera trackAction API från Mobile Core. Se detta [page](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/) för mer information.
+* Implementera trackAction API från Mobile Core. Mer information finns på [sidan](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/).
 
-Mer detaljerade instruktioner finns i detta [page](../../administration/using/push-tracking.md).
+Mer detaljerade instruktioner finns på den här [sidan](../../administration/using/push-tracking.md).
 
 ### Vilka rapporter finns för Push-kanalen? {#push-report-available}
 
-Det finns en färdig rapport i Adobe Campaign för Push-kanalen. Se detta [dokumentation](../../reporting/using/push-notification-report.md).
+Det finns en färdig rapport i Adobe Campaign för Push-kanalen. Läs den här [dokumentationen](../../reporting/using/push-notification-report.md).
 
-Se det här [page](../../reporting/using/indicator-calculation.md#push-notification-delivery) för att förstå hur varje push-mätvärde beräknas.
+Se den här [sidan](../../reporting/using/indicator-calculation.md#push-notification-delivery) för att förstå hur varje push-mått beräknas.
 
 ### Stöds deplinks i push- och In-App-meddelanden? {#deeplink-push}
 
 Ja, deplinks stöds i push-meddelanden. Deeplinks ska innehålla:
 
 * Språk som anger att leveransspårning måste inaktiveras för att länkarna ska fungera.
-* Appsflyer with Branch as partners that can do the deplink tracking. Mer information om integrationen mellan grenar och Adobe Campaign Standard finns i [page](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
+* Appsflyer with Branch as partners that can do the deplink tracking. Mer information om integrering mellan grenar och Adobe Campaign Standard finns på [sidan](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).

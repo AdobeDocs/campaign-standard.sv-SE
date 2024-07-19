@@ -22,7 +22,7 @@ Det finns flera sätt att övervaka en leverans och mäta dess effekt. Som funkt
 
 >[!IMPORTANT]
 >
->Endast funktionell [administratörer](../../administration/using/users-management.md#functional-administrators), med **[!UICONTROL Administration]** roll och åtkomst till **Alla** kan komma åt loggar, meddelandeloggar, spårningsloggar, undantags- och prenumerationsloggar. En icke-admin-användare kan ha loggarna som mål, men med början i en länkad tabell (profiler, leverans).
+>Det är bara funktionella [administratörer](../../administration/using/users-management.md#functional-administrators), med rollen **[!UICONTROL Administration]** och åtkomst till **alla** enheter som har åtkomst till sändande loggar, meddelandeloggar, spårningsloggar, undantags- eller prenumerationsloggar. En icke-admin-användare kan ha loggarna som mål, men med början i en länkad tabell (profiler, leverans).
 
 * **Meddelandeloggar**: Loggarna kan hittas direkt i meddelandepanelen. De visar detaljerna för utskicket, vilket eller vilka mål som har uteslutits och varför de har uteslutits. De visar även spårningsinformation som exempelvis öppningar och klick.
 
@@ -38,9 +38,9 @@ Det finns flera sätt att övervaka en leverans och mäta dess effekt. Som funkt
 
   ![](assets/sending_delivery2.png)
 
-* **Jobbloggar**: En lista över batchjobb som utlöses av leveransen kan nås från meddelandekontrollpanelen genom att välja **[!UICONTROL Job history]** från **[!UICONTROL Summary]** listruta.
+* **Jobbloggar**: En lista över batchjobb som utlöses av leveransen kan nås från meddelandekontrollpanelen genom att välja **[!UICONTROL Job history]** i listrutan **[!UICONTROL Summary]**.
 
-  Välj ett jobb i listan om du vill visa information om det valda **[!UICONTROL Batch job]**.
+  Välj ett jobb i listan om du vill visa information om de valda **[!UICONTROL Batch job]**.
 
   ![](assets/sending_delivery8.png)
 

@@ -66,7 +66,7 @@ Förberedelsen av meddelande utlöses enligt arbetsflödets körningsparametrar.
 
    >[!NOTE]
    >
-   >Återkommande leveranser förbereds baserat på **sammanställningsperiod**. Om t.ex. aggregeringsperioden är &quot;per dag&quot; förbereds leveransen endast en gång per dag. Om du planerar att anropa det här arbetsflödet flera gånger om dagen kan du använda [!UICONTROL No aggregation].
+   >Återkommande leveranser förbereds baserat på **aggregeringsperioden**. Om t.ex. aggregeringsperioden är &quot;per dag&quot; förbereds leveransen endast en gång per dag. Om du planerar att anropa det här arbetsflödet flera gånger om dagen använder du [!UICONTROL No aggregation].
 
 1. Välj en e-posttyp. E-posttyperna kommer från e-postmallar som definieras på menyn **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Ange de allmänna egenskaperna för e-postmeddelandet. Du kan även bifoga den till en befintlig kampanj. Etiketten för arbetsflödets leveransaktivitet uppdateras med e-postetiketten.

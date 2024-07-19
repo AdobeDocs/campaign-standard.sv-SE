@@ -93,7 +93,7 @@ Year(@created) = Year(GetDate()) AND Month(@created) = Month(GetDate())
 
 I det här exemplet används de profiler vars skapandedatum är den aktuella månaden och det aktuella året.
 
-### JavaScript-syntax {#javascript-syntax}
+### JavaScript syntax {#javascript-syntax}
 
 När du definierar synlighetsvillkoren för ett textblock i HTML-redigeraren måste du använda ett uttryck med JavaScript-typsyntax.
 

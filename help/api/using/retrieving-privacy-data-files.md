@@ -19,15 +19,15 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->The [Integritet - grundtjänst](https://developer.adobe.com/experience-platform-apis/references/privacy-service) Integrering är den metod du bör använda för alla begäranden om åtkomst och borttagning. <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
+>Integreringen av [kärntjänsten för sekretess](https://developer.adobe.com/experience-platform-apis/references/privacy-service) är den metod som du bör använda för alla begäranden om åtkomst och borttagning. <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
 
 Om du vill hämta filen som innehåller all information som är associerad med ett avstämningsvärde följer du den här trestegsproceduren:
 
-1. Utför en **POST** begäran om att skapa en ny begäran med attributet **type=&quot;access&quot;**, se [Skapa en ny sekretessbegäran](../../api/using/creating-a-privacy-request.md).
+1. Utför en **POST**-begäran om att skapa en ny begäran med attributet **type=&quot;access&quot;**, se [Skapa en ny sekretessförfrågan](../../api/using/creating-a-privacy-request.md).
 
-1. Utför en **GET** begär att få information om begäran.
+1. Utför en **GET**-begäran för att hämta information om begäran.
 
-1. Hämta datafilen genom att utföra en **POST** begäran på den returnerade **privacyRequestData** URL, med sekretessbegärans interna namn inuti nyttolasten. Till exempel: {&quot;name&quot;:&quot;PT17&quot;}.
+1. Hämta datafilen genom att utföra en **POST**-begäran på den returnerade URL:en **privacyRequestData** med det interna namnet för sekretessbegäran inuti nyttolasten. Till exempel: {&quot;name&quot;:&quot;PT17&quot;}.
 
 <br/>
 

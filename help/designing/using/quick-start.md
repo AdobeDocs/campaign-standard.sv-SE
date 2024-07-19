@@ -1,6 +1,6 @@
 ---
 title: Komma igång med e-postdesignern
-description: Börja bygga e-postinnehåll med e-postdesignern.
+description: Bygg e-postinnehåll med e-post-Designer.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -17,29 +17,29 @@ ht-degree: 4%
 
 # Komma igång med e-postdesignern {#quick-start}
 
-E-postdesignern har fyra sätt att skapa e-postmeddelanden.
+I e-postmeddelandet från Designer finns fyra sätt att skapa e-postmeddelanden.
 
-Du kan skapa ett e-postmeddelande [starta nytt i e-postdesignern](#without-existing-content):
+Du kan skapa ett e-postmeddelande [som börjar om i e-postmeddelandet Designer](#without-existing-content):
 
-1. Du kan **skapa ett e-postmeddelande från en tom arbetsyta** genom att enkelt lägga till struktur- och innehållskomponenter och anpassa deras innehåll för att snabbt skicka en leverans. Du kan också hantera formatelement helt. Mer information finns i [komma igång snabbt](#from-scratch-email) eller se [fullständig dokumentation](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+1. Du kan **skapa ett e-postmeddelande från en tom arbetsyta** genom att enkelt lägga till struktur- och innehållskomponenter och anpassa deras innehåll för att skicka en leverans snabbt. Du kan också hantera formatelement helt. Om du vill ha mer information kan du [komma igång snabbt](#from-scratch-email) eller läsa den [fullständiga dokumentationen](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
 1. Du kan **skapa ett e-postmeddelande från en färdig mall** genom att välja en mall och skapa ditt nya e-postinnehåll härifrån. [Läs mer](#building-content-from-an-out-of-the-box-template)
 
 Du kan också skapa ett e-postmeddelande [med befintligt innehåll](#with-existing-content):
 
-1. Du kan **konvertera ett befintligt HTML-innehåll** (skapas externt eller i den äldre redigeraren). [Läs mer](#converting-an-html-content)
+1. Du kan **konvertera ett befintligt HTML-innehåll** (skapat externt eller i den äldre redigeraren). [Läs mer](#converting-an-html-content)
 1. Du kan **importera ett befintligt HTML-innehåll** direkt i kompatibilitetsläge. [Läs mer](#compatibility-mode)
 
 | Utan innehåll | Med innehåll |
 |---|---|
-| [Skapa ett e-postmeddelande från grunden](#from-scratch-email) | [Konvertera ett befintligt HTML-innehåll](#converting-an-html-content) |
-| [Bygga innehåll från en färdig mall](#building-content-from-an-out-of-the-box-template) | [Importera en befintlig HTML](#compatibility-mode) |
+| [Skapa ett e-postmeddelande från grunden](#from-scratch-email) | [Konverterar befintligt HTML-innehåll](#converting-an-html-content) |
+| [Skapa innehåll från en mall som inte är installerad](#building-content-from-an-out-of-the-box-template) | [Importera en befintlig HTML](#compatibility-mode) |
 
 ## Utforma e-postmeddelanden med redigeraren {#without-existing-content}
 
 >[!NOTE]
 >
->I båda dessa strategier är det viktigt att du fyller i ämnesraden innan du skickar e-postmeddelandet. Lär dig hur [Lägg till en ämnesrad](#add-a-subject-line).
+>I båda dessa strategier är det viktigt att du fyller i ämnesraden innan du skickar e-postmeddelandet. Lär dig hur du [lägger till en ämnesrad](#add-a-subject-line).
 
 ### Skapa ett e-postmeddelande från grunden {#from-scratch-email}
 
@@ -52,7 +52,7 @@ Du kan enkelt skapa e-postmeddelanden, lägga till komponenter och anpassa deras
 
 Ärenderader är obligatoriska när du skickar e-post. Mer information finns i [Definiera ämnesraden i ett e-postmeddelande](../../designing/using/subject-line.md).
 
-1. Gå till **[!UICONTROL Properties]** -fliken på e-postdesignerns hemsida (tillgänglig via hemikonen) och fyll i **[!UICONTROL Subject]** -avsnitt.
+1. Gå till fliken **[!UICONTROL Properties]** på e-posthemsidan för Designer (nås via hemikonen) och fyll i avsnittet **[!UICONTROL Subject]**.
 
 ![](assets/subject-line-quick-start.png)
 
@@ -74,8 +74,8 @@ Du kan lägga till flera innehållskomponenter i e-postmeddelandet, till exempel
 
 * **Bild**
 
-   1. I **Innehållskomponenter** drar och släpper du bilder i en av strukturkomponenterna.
-   1. Klicka **Bläddra**.
+   1. I **Innehållskomponenter** drar och släpper du en bild i en av strukturkomponenterna.
+   1. Klicka på **Bläddra**.
    1. Välj bildfilen på datorn.
 
   ![](assets/browse-image-quick-start.png)
@@ -92,13 +92,13 @@ Du kan lägga till flera innehållskomponenter i e-postmeddelandet, till exempel
 * **HTML**
 
    1. I **Innehållskomponenter** drar och släpper du HTML i en av strukturkomponenterna.
-   1. Klicka **Visa källkoden**.
+   1. Klicka på **Visa källkoden**.
    1. Ange HTML innehåll.
-   1. Klicka **Spara**.
+   1. Klicka på **Spara**.
 
   ![](assets/html-component-source-code.png)
 
-  Om du känner till HTML kan du kopiera och klistra in HTML-koden från den ursprungliga sidfoten med **[!UICONTROL Html]** innehållskomponent. Mer information finns i [Om innehållskomponenter](../../designing/using/designing-from-scratch.md#about-content-components).
+  Om du är bekant med HTML kan du kopiera och klistra in HTML-koden från den ursprungliga sidfoten med innehållskomponenten **[!UICONTROL Html]**. Mer information finns i [Om innehållskomponenter](../../designing/using/designing-from-scratch.md#about-content-components).
 
   ![](assets/des_loading_compatible_fragment_9.png)
 
@@ -106,11 +106,11 @@ Du kan lägga till flera innehållskomponenter i e-postmeddelandet, till exempel
 
 Du kan justera din e-poststil, till exempel genom att ändra utfyllnaden för en komponent. Mer information om hur du hanterar formatinställningar och infogade attribut finns i [Redigera e-postformat](../../designing/using/styles.md).
 
-1. Klicka på **Textkomponent**.
-1. Till höger, på paletten, går du till **Utfyllnad**.
+1. Klicka på din **textkomponent**.
+1. Gå till **Utfyllnad** till höger på paletten.
 1. Klicka på låsikonen om du vill bryta synkroniseringen mellan parametrarna längst upp, längst ned eller till höger och vänster.
-1. Justera **Utfyllnad** som du behöver.
-1. Klicka **Spara**.
+1. Justera **Utfyllnaden** efter behov.
+1. Klicka på **Spara**.
 
 ![](assets/padding-quick-start.png)
 
@@ -121,12 +121,12 @@ Nu kan du spara och skicka e-postmeddelanden.
 Ni kan skapa ett e-postmeddelande utifrån färdiga mallar, som välkomstmeddelanden, nyhetsbrev och e-postmeddelanden om återengagemang och personalisera dem.
 
 1. Skapa ett e-postmeddelande och öppna innehållet i det. Mer information finns i [Skapa ett e-postmeddelande](../../channels/using/creating-an-email.md).
-1. Klicka på hemikonen för att komma åt **[!UICONTROL Email Designer]** hemsida.
-1. Klicka på **[!UICONTROL Templates]** -fliken.
+1. Klicka på hemikonen för att komma åt startsidan för **[!UICONTROL Email Designer]**.
+1. Klicka på fliken **[!UICONTROL Templates]**.
 1. Välj en färdig HTML-mall.
 De olika mallarna innehåller olika kombinationer av olika typer av element. Mallar av typen &quot;Ludd&quot; har till exempel marginaler medan mallar av typen &quot;Astro&quot; inte har några. Mer information finns i [Innehållsmallar](../../designing/using/using-reusable-content.md#content-templates).
-1. Gå till **[!UICONTROL Properties]** -fliken på e-postdesignerns hemsida (tillgänglig via hemikonen) och fyll i **[!UICONTROL Subject]** -avsnitt.
-1. Du kan kombinera dessa element för att skapa ett antal e-postvarianter. Du kan till exempel duplicera ett e-postavsnitt genom att markera en strukturkomponent och klicka på **[!UICONTROL Duplicate]** i kontextverktygsfältet.
+1. Gå till fliken **[!UICONTROL Properties]** på e-posthemsidan för Designer (nås via hemikonen) och fyll i avsnittet **[!UICONTROL Subject]**.
+1. Du kan kombinera dessa element för att skapa ett antal e-postvarianter. Du kan till exempel duplicera ett e-postavsnitt genom att markera en strukturkomponent och klicka på **[!UICONTROL Duplicate]** i det sammanhangsberoende verktygsfältet.
 1. Du kan flytta runt elementen med hjälp av den blå pilen till vänster om du vill dra en strukturkomponent under eller över en annan. Mer information finns i [Redigera e-poststrukturen](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Du kan också flytta runt komponenter för att ändra ordningen på varje strukturelement. Mer information finns i [Lägga till fragment och komponenter](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Ändra innehållet i varje element efter dina behov: bilder, text, länkar.
@@ -134,11 +134,11 @@ De olika mallarna innehåller olika kombinationer av olika typer av element. Mal
 
 ## Använda befintligt e-postinnehåll {#with-existing-content}
 
-Om du vill skapa ett ramverk med modulära mallar och fragment som kan kombineras för återanvändning i flera e-postmeddelanden bör du överväga att konvertera e-postmeddelandet HTML till en e-postdesignermall.
+Om du vill skapa ett ramverk med modulära mallar och fragment som kan kombineras för återanvändning i flera e-postmeddelanden bör du överväga att konvertera e-postmeddelandet till en Designer-mall för e-post.
 
 ### Konverterar HTML-innehåll {#converting-an-html-content}
 
-Det här är ett snabbt sätt att konvertera HTML-e-post till e-postdesignerkomponenter. Mer information om det här avsnittet finns på [Konverterar HTML-innehåll](../../designing/using/using-existing-content.md#converting-an-html-content).
+Det här är ett snabbt sätt att konvertera HTML-e-post till e-postkomponenter i Designer. Mer information om det här avsnittet finns i [Konvertera HTML-innehåll](../../designing/using/using-existing-content.md#converting-an-html-content).
 
 >[!CAUTION]
 >
@@ -151,6 +151,6 @@ Det här är ett snabbt sätt att konvertera HTML-e-post till e-postdesignerkomp
 
 ### Importera och redigera ett e-postmeddelande från HTML {#compatibility-mode}
 
-När du överför ett innehåll måste det innehålla specifik taggning för att vara helt kompatibelt och redigerbart med WYSIWYG-redigeraren i e-postdesignern.
+När du överför ett innehåll måste det innehålla specifik taggning för att vara helt kompatibelt och redigerbart med WYSIWYG-redigeraren i e-postprogrammet för Designer.
 
-Mer information om hur du konverterar ett befintligt e-postmeddelande till ett e-postdesignerkompatibelt e-postmeddelande finns i [det här avsnittet](../../designing/using/using-existing-content.md#compatibility-mode).
+Mer information om hur du konverterar ett befintligt e-postmeddelande till ett e-postkompatibelt Designer-e-postmeddelande finns i [det här avsnittet](../../designing/using/using-existing-content.md#compatibility-mode).

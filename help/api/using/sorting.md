@@ -17,7 +17,7 @@ ht-degree: 11%
 
 # Sortering
 
-Sortering är tillgängligt som standard i stigande ordning. Om du vill sortera i fallande ordning lägger du till **%20desc** till **_ordning** parameterns värde.
+Sortering är tillgängligt som standard i stigande ordning. Om du vill sortera i fallande ordning lägger du till **%20desc** i värdet för parametern **_order**.
 
 Om du vill veta om ett fält kan sorteras kontrollerar du parametern &quot;sorterable&quot; i metadata för resursen. Mer information om detta finns i [det här avsnittet](../../api/using/metadata-mechanism.md).
 

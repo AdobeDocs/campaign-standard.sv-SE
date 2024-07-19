@@ -27,7 +27,7 @@ För att göra detta, följ nedanstående steg:
 
 * [Steg 1: Utöka profilresursen](#step-1--extend-the-profile-resource)
 * [Steg 2: Utöka testprofilen](#step-2--extend-the-test-profile)
-* [Steg 3: Publicera din anpassade resurs](#step-3--publish-your-custom-resource)
+* [Steg 3: Publish din anpassade resurs](#step-3--publish-your-custom-resource)
 * [Steg 4: Uppdatera och ange målprofiler med ett arbetsflöde](#step-4--update-and-target-profiles-with-a-workflow)
 
 Följande fält läggs sedan till i våra profiler och kan användas vid en leverans:
@@ -119,7 +119,7 @@ Om du vill testa om det nya skapade fältet är korrekt konfigurerat kan du test
 
 Ditt nya fält är nu tillgängligt för både profiler och testprofiler.  För att den ska kunna konfigureras på rätt sätt måste du publicera din anpassade resurs.
 
-## Steg 3: Publicera din anpassade resurs {#step-3--publish-your-custom-resource}
+## Steg 3: Publish din anpassade resurs {#step-3--publish-your-custom-resource}
 
 Om du vill tillämpa ändringarna som gjorts på resurserna och kunna använda dem måste du utföra en databasuppdatering.
 

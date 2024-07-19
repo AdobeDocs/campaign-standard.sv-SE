@@ -490,15 +490,15 @@ ht-degree: 1%
                         <li>Misslyckades - misslyckades - 87</li>
                         <li>Pågår - startat - 55</li>
                         <li>Väntande mål - targetPrepPending - 11</li>
-                        <li>Personalisering väntar - messagePrepPending - 21</li>
+                        <li>Väntande Personalization - messagePrepPending - 21</li>
                         <li>Pausad - pausad - 75</li>
                         <li>Redigering - utgåva - 0</li>
                         <li>Slutförd - färdig - 95</li>
                         <li>Antal pågående - targetSelection - 12</li>
                         <li>Meddelandet har slutförts - messageReady - 25</li>
-                        <li>Personalisering eller antal misslyckades - PreparationError - 37</li>
+                        <li>Personalization eller antal misslyckades - PreparationError - 37</li>
                         <li>Stoppad - annullerad - 85</li>
-                        <li>Personalisering pågår - messagePreparation - 22</li>
+                        <li>Personalization in progress - messagePreparation - 22</li>
                         <li>Klart som mål - targetReady - 15</li>
                         <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                         <li>Godkännande pågår - targetArbitration - 13</li>

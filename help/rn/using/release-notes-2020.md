@@ -236,7 +236,7 @@ ht-degree: 97%
 **Ytterligare funktioner** (från 13 juli)
 
 * **AI-driven optimering av sändningstid och profilpoäng** – nu kan du optimera designen och leveransen av kundresor för att förutse varje individs engagemang. Med Journey AI som bas kan Adobe Campaign analysera och förutse öppningsfrekvenser, optimala sändningstider och sannolika bortfall baserat på historiska engagemangsmått. [Läs mer](../../sending/using/predictive.md)
-* **Brasiliens nya sekretessbestämmelser** - Förutom de integritetsfunktioner som redan finns i Campaign kan Adobe underlätta beredskapen för Brasiliens Lei Geral de Proteçao de Datos (LGPD). När du skapar en förfrågan om användarens information har LGPD-regleringen lagts till i Adobe Privacy Core Service. [Läs mer](https://helpx.adobe.com/se/campaign/kb/campaign-privacy-overview.html)
+* **Brasiliens nya sekretessregel** - Förutom de sekretessfunktioner som redan finns i Campaign kan Adobe underlätta beredskapen för Brasiliens Lei Geral de Proteçao de Datos (LGPD). När du skapar en förfrågan om användarens information har LGPD-regleringen lagts till i Adobe Privacy Core Service. [Läs mer](https://helpx.adobe.com/se/campaign/kb/campaign-privacy-overview.html)
 
 **Förbättringar**
 
@@ -267,7 +267,7 @@ ht-degree: 97%
 
 **Experience Platform-integrationer**
 
-* Aktivering av Adobe Experience Platform-målgrupper från **Läsa målgrupper** aktiviteten har förbättrats för att ge bättre prestanda och stabilitet. Arbetsflödesloggar har dessutom gjorts tydligare och mer detaljerade när det gäller aktiveringsjobb. Detta gör det enklare att övervaka och felsöka när Adobe Experience Platform-målgrupper läses in.
+* Aktiveringen av Adobe Experience Platform-målgrupper från aktiviteten **Läs målgrupp** har förbättrats för att ge bättre prestanda och stabilitet. Arbetsflödesloggar har dessutom gjorts tydligare och mer detaljerade när det gäller aktiveringsjobb. Detta gör det enklare att övervaka och felsöka när Adobe Experience Platform-målgrupper läses in.
 
 **Patchar**
 

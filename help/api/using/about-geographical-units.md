@@ -20,8 +20,8 @@ ht-degree: 0%
 >
 >Detta innebär att nya Campaign Standarder, liksom befintliga instanser utan geografiska enheter, inte kan implementeras från och med version 18.7.
 >
->Mer information finns i <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=sv#release-notes">Föråldrade funktioner</a> sida.
+>Mer information finns på sidan <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=sv#release-notes">Föråldrade funktioner</a>.
 
-The **geoUnitBase** kan du använda geografiska enheter för att t.ex. uppdatera deras attribut eller uppdatera en profils enhet.
+Med slutpunkten **geoUnitBase** kan du interagera med geografiska enheter, så att du till exempel kan uppdatera deras attribut eller uppdatera en profils enhet.
 
-The **Geografisk enhet** fältet läggs till i en profil när profilresursen utökas. Kom därför ihåg att alltid använda **profileAndServicesExt** slutpunkt för interaktion med geografiska enheter. Mer information om profilens resurstillägg finns i [Kampanjdokumentation](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles).
+Fältet **Geografisk enhet** läggs till i en profil när profilresursen utökas. Kom därför ihåg att alltid använda slutpunkten **profileAndServicesExt** för att interagera med geografiska enheter. Mer information om profilens resurstillägg finns i [Kampanjdokumentationen](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles).

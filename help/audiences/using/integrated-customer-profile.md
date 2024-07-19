@@ -22,7 +22,7 @@ En integrerad kundprofil finns tillgänglig för varje kontakt i databasen. Denn
 
 Så här får du tillgång till den integrerade kundprofilen:
 
-1. På Adobe Campaign hemsida klickar du på **[!UICONTROL Customer profiles]** kortet eller **Profiler** för att visa profillistan.
+1. Klicka på **[!UICONTROL Customer profiles]**-kortet eller fliken **Profiler** på startsidan för Adobe Campaign för att visa profillistan.
 
 1. Om du vill söka efter en profil baserat på ett visst fält öppnar du sökrutan och markerar sedan det fält som du vill söka i.
 

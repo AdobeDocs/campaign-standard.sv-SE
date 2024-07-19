@@ -22,10 +22,10 @@ Ni kan skapa arbetsflöden för att hantera hela processer i era kampanjer och p
 
 Skärmen för arbetsflödesredigering består av följande element:
 
-* The [Palett](#palette), som refererar till tillgängliga aktiviteter.
-* The [Arbetsyta](#workspace), där aktiviteterna är konfigurerade och ordnade.
-* The [Åtgärdsfält](#action-bar), som består av knappar som gör att du kan interagera med arbetsflödet och/eller dess komponenter.
-* The [Snabbåtgärder](#quick-actions), som visas runt en vald aktivitet, gör att du kan interagera med den.
+* [Paletten](#palette) som refererar till tillgängliga aktiviteter.
+* [Workspace](#workspace) där aktiviteterna är konfigurerade och ordnade.
+* Åtgärdsfältet [Åtgärd](#action-bar), som består av knappar som gör att du kan interagera med arbetsflödet och/eller dess komponenter.
+* Med [snabbåtgärderna](#quick-actions), som visas runt en markerad aktivitet, kan du interagera med den.
 
 ![](assets/wkf_overview.png)
 
@@ -33,7 +33,7 @@ Skärmen för arbetsflödesredigering består av följande element:
 
 Paletten finns till vänster på skärmen. Alla tillgängliga aktiviteter är sorterade i flera kategorier:
 
-* [Målinriktning](../../automating/using/about-targeting-activities.md): aktiviteter som är specifika för målgruppsanpassning, hantering av populationsdata och filtrering
+* [Riktning](../../automating/using/about-targeting-activities.md): aktiviteter som är specifika för målgruppsanpassning, manipulering av populationsdata och filtrering
 * [Körning](../../automating/using/about-execution-activities.md): aktiviteter som är specifika för att organisera och köra arbetsflöden
 * [Kanaler](../../automating/using/about-channel-activities.md): aktiviteter som representerar olika tillgängliga kommunikationskanaler
 * [Datahantering (ETL)](../../automating/using/about-data-management-activities.md): aktiviteter som är specifika för att hantera data
@@ -44,28 +44,28 @@ Du måste konfigurera varje aktivitet som läggs till från paletten innan du st
 
 ![](assets/workflow_palette.png)
 
-## Arbetsyta {#workspace}
+## Workspace {#workspace}
 
 Arbetsytan är den centrala zonen i arbetsflödesredigeraren. Det är i den här zonen som du kan släppa dina aktiviteter, länka samman dem med övergångar och konfigurera dem.
 
 Om du vill länka två aktiviteter flyttar du pilslutet från den första aktiviteten till nästa tills de ansluter. Du kan också flytta aktiviteten mot pilen bakom för att länka den till föregående aktivitet. Om du flyttar någon av aktiviteterna kommer de att vara länkade.
 
-Övergångar som följer på aktiviteter som behandlar data innehåller de mellanliggande populationerna. Du kan komma åt dem om du markerar **[!UICONTROL Keep interim results]** i **[!UICONTROL Execution]** i arbetsflödesegenskaperna.
+Övergångar som följer på aktiviteter som behandlar data innehåller de mellanliggande populationerna. Du kan komma åt dem om du markerar alternativet **[!UICONTROL Keep interim results]** i avsnittet **[!UICONTROL Execution]** i arbetsflödesegenskaperna.
 
 >[!CAUTION]
 >
 >Det här alternativet kräver mycket diskutrymme och är utformat för att hjälpa dig att skapa ett arbetsflöde och säkerställa korrekt konfiguration och beteende. Låt det vara omarkerat vid produktionsinstanser.
 
 
-När en aktivitet är markerad visas snabbåtgärder runt aktiviteten så att du kan interagera med den. Om du till exempel vill konfigurera en aktivitet markerar du den och öppnar den med ![](assets/edit_darkgrey-24px_table.png) i snabbåtgärderna.
+När en aktivitet är markerad visas snabbåtgärder runt aktiviteten så att du kan interagera med den. Om du till exempel vill konfigurera en aktivitet markerar du den och öppnar den sedan med knappen ![](assets/edit_darkgrey-24px_table.png) i snabbåtgärderna.
 
 Vissa funktioner är bara aktiverade på arbetsytan:
 
 * Välj flera aktiviteter och övergångar genom att dra en zon runt dem.
-* Tryck **Ctrl** + vänsterklicka för att välja flera aktiviteter och/eller övergångar.
-* Tryck **Retur** om du vill visa information om den valda aktiviteten eller övergången.
-* Tryck **Ta bort** om du vill ta bort den markerade aktiviteten.
-* Tryck **Ctrl + C** för att kopiera de valda aktiviteterna, och **Ctrl + V** för att klistra in dem på arbetsytan.
+* Tryck på **Ctrl** + vänsterklicka för att markera flera aktiviteter och/eller övergångar.
+* Tryck på **Retur** om du vill visa detaljerna för den markerade aktiviteten eller övergången.
+* Tryck på **Ta bort** om du vill ta bort den markerade aktiviteten.
+* Tryck på **Ctrl + C** för att kopiera de markerade aktiviteterna och **Ctrl + V** för att klistra in dem på arbetsytan.
 
 ![](assets/workflow_workspace.png)
 
@@ -79,13 +79,13 @@ Beroende på vilka element som är markerade på arbetsytan eller arbetsflödets
 
 <img height="21px" src="assets/pause_darkgrey-24px_table.png" /> **[!UICONTROL Pause]**<br/>Pausar arbetsflödet.
 
-<img height="21px" src="assets/stop_darkgrey-24px_table.png" /> **[!UICONTROL Stop]**<br/>Avbryter arbetsflödeskörning. Det går inte att fortsätta från där den stoppades.
+<img height="21px" src="assets/stop_darkgrey-24px_table.png" /> **[!UICONTROL Stop]**<br/>Avbryter körningen av arbetsflödet. Det går inte att fortsätta från där den stoppades.
 
 <img height="21px" src="assets/pauseplay_darkgrey-24px_table.png" /> **[!UICONTROL Restart]**<br/>Startar om arbetsflödet.
 
 <img height="21px" src="assets/printpreview_darkgrey-24px_table.png" /> **[!UICONTROL Log and tasks]**<br/>Öppnar arbetsflödets körningslogg.
 
-<img height="21px" src="assets/checkcircle_darkgrey-24px_table.png" /> **[!UICONTROL Enable multi-selection]**<br/>Aktiverar flermarkeringsläge. Arbetsflödet måste bestå av minst två aktiviteter.
+<img height="21px" src="assets/checkcircle_darkgrey-24px_table.png" /> **[!UICONTROL Enable multi-selection]**<br/>Aktiverar flervalsläge. Arbetsflödet måste bestå av minst två aktiviteter.
 
 <img height="21px" src="assets/closecircle_darkgrey-24px_table.png" /> **[!UICONTROL Disable multi-selection]**<br/>Inaktiverar flervalsläge.<br />
 
@@ -97,9 +97,9 @@ Beroende på vilka element som är markerade på arbetsytan eller arbetsflödets
 
 <img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL No execution]**<br/>Inaktiverar aktiviteten.<br />
 
-<img height="21px" src="assets/delete_darkgrey-24px_table.png" /> **[!UICONTROL Delete selection]**<br/>Tar bort de aktiviteter som är markerade.<br />
+<img height="21px" src="assets/delete_darkgrey-24px_table.png" /> **[!UICONTROL Delete selection]**<br/>Tar bort de markerade aktiviteterna.<br />
 
-<img height="21px" src="assets/copy_24px.png" /> **[!UICONTROL Copy selection]**<br/>Kopierar de aktiviteter som är markerade.
+<img height="21px" src="assets/copy_24px.png" /> **[!UICONTROL Copy selection]**<br/>Kopierar de markerade aktiviteterna.
 
 <img height="21px" src="assets/paste_24px.png" /> **[!UICONTROL Paste]**<br/>Klistrar in de aktiviteter som har kopierats.
 
@@ -109,7 +109,7 @@ När en aktivitet är markerad visas snabbåtgärdsknappar runt aktiviteten, så
 
 <img height="21px" src="assets/edit_darkgrey-24px.png" /> **[!UICONTROL Open activity]**<br/>Öppnar den markerade aktiviteten.
 
-<img height="21px" src="assets/copy_24px.png" /> **[!UICONTROL Copy selection]**<br/>Kopierar den valda aktiviteten.
+<img height="21px" src="assets/copy_24px.png" /> **[!UICONTROL Copy selection]**<br/>Kopierar den markerade aktiviteten.
 
 <img height="21px" src="assets/wkf_dlv_act_params_icon.png" /> **[!UICONTROL Open the activity's advanced options]**<br/>Öppnar de avancerade alternativen för den valda e-post- eller SMS-leveransaktiviteten.
 
@@ -119,7 +119,7 @@ När en aktivitet är markerad visas snabbåtgärdsknappar runt aktiviteten, så
 
 <img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL No execution]**<br/>Inaktiverar aktiviteten.
 
-<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>Tvingar fram omedelbar bearbetning av markeringen. Den här knappen är bara tillgänglig för <span class="uicontrol">Schemaläggare</span> och <span class="uicontrol">Vänta</span> verksamhet.
+<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>Tvingar fram omedelbar bearbetning av markeringen. Den här knappen är bara tillgänglig för aktiviteterna <span class="uicontrol">Schemaläggaren</span> och <span class="uicontrol">Vänta</span>.
 
 <img height="21px" src="assets/delete_darkgrey-24px_table.png" /> **[!UICONTROL Delete selection]**<br/>Tar bort de aktiviteter som är markerade.
 
@@ -135,15 +135,15 @@ När en aktivitet har duplicerats behålls hela dess konfiguration. För leveran
 
 Så här duplicerar du en aktivitet:
 
-1. Markera aktiviteten och klicka sedan på knappen **[!UICONTROL Copy selection]** från snabbåtgärderna.
+1. Markera aktiviteten och klicka sedan på knappen **[!UICONTROL Copy selection]** bland snabbåtgärderna.
 
-   Du kan också använda **Ctrl + C** kortkommando.
+   Du kan också använda kortkommandot **Ctrl + C**.
 
    ![](assets/wkf_copypaste1.png)
 
-1. Högerklicka på arbetsflödets målarbetsyta och klicka sedan på **[!UICONTROL Paste]** -knappen.
+1. Högerklicka på arbetsflödets målarbetsyta och klicka sedan på knappen **[!UICONTROL Paste]**.
 
-   Du kan också använda **CTRL + V** kortkommando.
+   Du kan också använda kortkommandot **CTRL + V**.
 
    ![](assets/wkf_copypaste2.png)
 
@@ -151,6 +151,6 @@ Så här duplicerar du en aktivitet:
 
 Det går också att kopiera och klistra in flera aktiviteter, så att du kan duplicera ett helt arbetsflöde.
 
-Välj aktiviteter genom att rita en zon runt dem. klickar du på **[!UICONTROL Copy selection]** från åtgärdsfältet (eller tryck på **Ctrl + C**). Du kan sedan klistra in dem på önskad plats.
+Välj aktiviteter genom att rita en zon runt dem. Klicka sedan på knappen **[!UICONTROL Copy selection]** i åtgärdsfältet (eller tryck på **Ctrl + C**). Du kan sedan klistra in dem på önskad plats.
 
 ![](assets/wkf_copypaste3.png)

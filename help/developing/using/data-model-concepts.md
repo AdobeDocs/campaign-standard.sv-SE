@@ -34,7 +34,7 @@ Tilläggsfält genereras med ett prefix så att de aldrig hamnar i konflikt med 
 
 >[!NOTE]
 >
->Du kan hitta en datamodellrepresentation för de inbyggda resurserna i [den här sidan](../../developing/using/datamodel-introduction.md).
+>Du kan hitta en datamodellrepresentation för de inbyggda resurserna på [den här sidan](../../developing/using/datamodel-introduction.md).
 
 Du kan också [konfigurera navigeringen](configuring-the-screen-definition.md) på skärmar som motsvarar den skapade resursen.
 
@@ -42,4 +42,4 @@ Det går att **exportera och importera** anpassade resurser, exempelvis från en
 
 >[!CAUTION]
 >
->Endast funktionell [administratörer](../../administration/using/users-management.md#functional-administrators), med **[!UICONTROL Administration]** roll och åtkomst till **Alla** kan komma åt loggar, meddelandeloggar, spårningsloggar, undantags- och prenumerationsloggar. En icke-admin-användare kan ha loggarna som mål, men med början i en länkad tabell (profiler, leverans).
+>Det är bara funktionella [administratörer](../../administration/using/users-management.md#functional-administrators), med rollen **[!UICONTROL Administration]** och åtkomst till **alla** enheter som har åtkomst till sändande loggar, meddelandeloggar, spårningsloggar, undantags- eller prenumerationsloggar. En icke-admin-användare kan ha loggarna som mål, men med början i en länkad tabell (profiler, leverans).

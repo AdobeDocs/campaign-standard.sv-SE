@@ -26,23 +26,23 @@ I Adobe Campaign Standard kan för närvarande användare som saknar säkerhetsg
 
 Vi har implementerat följande förbättringar för åtkomstkontroll för transaktionsmeddelanden:
 
-* En ny **[!UICONTROL Role]**, anropas **MC-användare**, har lagts till för att tillåta icke-administratörsanvändare att hantera transaktionshändelsekonfiguration. The **MC-användare** rollen ger dessa användare möjlighet att komma åt, skapa, publicera och avpublicera transaktionshändelser och meddelanden.
+* En ny **[!UICONTROL Role]** med namnet **MC-användare** har lagts till så att icke-administratörsanvändare kan hantera transaktionshändelsekonfigurationen. Rollen **MC-användare** ger dessa användare möjlighet att komma åt, skapa, publicera och avpublicera transaktionshändelser och meddelanden.
 
-* Körningsleveranser (t.ex. tekniska meddelanden som skapas varje gång ett transaktionsmeddelande redigeras och publiceras igen, eller en gång i månaden som standard) ställs nu in på **[!UICONTROL Organizational unit]** för säkerhetsgruppen som användaren som skapar händelsen tillhör, i stället för att begränsas till **[!UICONTROL Organizational unit]** i **Meddelandecenteragent (mcExec)** säkerhetsgrupp.
+* Körningsleveranser (t.ex. tekniska meddelanden som skapas varje gång ett transaktionsmeddelande redigeras och publiceras igen, eller en gång i månaden som standard) ställs nu in på **[!UICONTROL Organizational unit]** för säkerhetsgruppen som användaren som skapar händelsen tillhör, i stället för att begränsas till **[!UICONTROL Organizational unit]** för **Message Center-agenten (mcExec)**.
 
-* **Administratörer** kan nu duplicera publicerade transaktionshändelser samt användare med **MC-användare** rollen förutsatt att de finns i samma **Organisationsenhet** hierarkin som användaren som skapade händelsen.
+* **Administratörer** kan nu duplicera publicerade transaktionshändelser samt användare med rollen **MC-användare**, förutsatt att de finns i samma hierarki för **organisationsenhet** som användaren som skapade händelsen.
 
 ## Tilldela användarrollen för MC {#assign-role}
 
-Tilldela **MC-användare** roll för din säkerhetsgrupp:
+Så här tilldelar du rollen **MC-användare** till din säkerhetsgrupp:
 
-1. Skapa ett nytt **[!UICONTROL Security group]** eller uppdatera en befintlig. [Läs mer](../../administration/using/managing-groups-and-users.md).
+1. Skapa en ny **[!UICONTROL Security group]** eller uppdatera en befintlig. [Läs mer](../../administration/using/managing-groups-and-users.md).
 
-1. Klicka **[!UICONTROL Create element]** för att tilldela roller till din säkerhetsgrupp.
+1. Klicka på **[!UICONTROL Create element]** om du vill tilldela roller till din säkerhetsgrupp.
 
    ![](assets/event_access_1.png)
 
-1. Välj MC-användare **[!UICONTROL Role]** och klicka **[!UICONTROL Confirm]**.
+1. Markera MC-användaren **[!UICONTROL Role]** och klicka på **[!UICONTROL Confirm]**.
 
    >[!IMPORTANT]
    >
@@ -50,29 +50,29 @@ Tilldela **MC-användare** roll för din säkerhetsgrupp:
 
    ![](assets/event_access_2.png)
 
-1. När konfigurationen är klar klickar du på **[!UICONTROL Save]**.
+1. När du har konfigurerat klickar du på **[!UICONTROL Save]**.
 
-Användare som är länkade till detta **[!UICONTROL Security group]** kan nu komma åt, skapa och publicera transaktionshändelser och meddelanden.
+Användare som är länkade till denna **[!UICONTROL Security group]** kan nu komma åt, skapa och publicera transaktionshändelser och meddelanden.
 
 ## Tilldela användarsäkerhetsgruppen för MC {#assign-group}
 
-1. I Admin Console väljer du **Produkter** -fliken.
+1. I Admin Console väljer du fliken **Produkter**.
 
-1. Välj **Adobe Campaign Standard** välj sedan din instans.
+1. Välj **Adobe Campaign Standard** och välj sedan din instans.
 
-1. Från **Produktprofiler** väljer du **MC-användare** grupp.
+1. Välj gruppen **MC-användare** i listan **Produktprofiler**.
 
-1. Klicka **Lägg till användare** och ange namn, användargrupp eller e-postadress för profilen som du vill lägga till i produktprofilen.
+1. Klicka på **Lägg till användare** och ange namn, användargrupp eller e-postadress för profilen som du vill lägga till i produktprofilen.
 
-1. Klicka på **Spara**.
+1. Klicka på **Spara** när du har lagt till den.
 
-Användare har lagts till i detta **[!UICONTROL Security group]** kan nu komma åt, skapa och publicera transaktionshändelser och meddelanden.
+Användare som läggs till i denna/detta **[!UICONTROL Security group]** kan nu komma åt, skapa och publicera transaktionshändelser och meddelanden.
 
 ## Duplicera transaktionshändelser {#duplicate-transactional-events}
 
-En användare med **Administratör** säkerhetsgrupp<!--([Functional administrators](../../administration/using/users-management.md#functional-administrators)?)--> kan nu duplicera en händelsekonfiguration om händelsen har **publicerad**.
+En användare med säkerhetsgruppen **Administratör**<!--([Functional administrators](../../administration/using/users-management.md#functional-administrators)?)--> kan nu duplicera en händelsekonfiguration om händelsen har **publicerats**.
 
-Dessutom har icke-administratörsanvändare med **MC-användare** rollen har nu åtkomst till händelsekonfigurationer, men deras behörighet att duplicera bestäms av **Organisationsenhet** de tillhör. Om den aktuella användaren och den användare som skapade händelsen tillhör samma organisationsenhetshierarki tillåts duplicering.
+Dessutom kan icke-administratörsanvändare med rollen **MC-användare** nu komma åt händelsekonfigurationer, men deras behörighet att duplicera bestäms av den **organisationsenhet** de tillhör. Om den aktuella användaren och den användare som skapade händelsen tillhör samma organisationsenhetshierarki tillåts duplicering.
 
 Om en användare som tillhör organisationsenheten Försäljning i Frankrike till exempel skapar en händelsekonfiguration:
 
@@ -82,9 +82,9 @@ Om en användare som tillhör organisationsenheten Försäljning i Frankrike til
 
 Om du vill duplicera en händelsekonfiguration följer du stegen nedan.
 
-1. Klicka på **Adobe** logotyp, i det övre vänstra hörnet och välj **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. Klicka på logotypen **Adobe** i det övre vänstra hörnet och välj sedan **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 
-1. Håll muspekaren över den publicerade händelsekonfiguration du vill ha och välj **[!UICONTROL Duplicate element]** -knappen.
+1. Håll muspekaren över den publicerade händelsekonfiguration du vill ha och välj knappen **[!UICONTROL Duplicate element]**.
 
    ![](assets/message-center_duplicate-button.png)
 
@@ -92,15 +92,15 @@ Om du vill duplicera en händelsekonfiguration följer du stegen nedan.
    >
    >Du kan inte duplicera en händelsekonfiguration som inte har publicerats. [Läs mer](publishing-transactional-event.md)
 
-1. Den duplicerade händelsen visas automatiskt. Den innehåller samma konfiguration som du definierade för den ursprungliga händelsen, men den har **[!UICONTROL Draft]** status.
+1. Den duplicerade händelsen visas automatiskt. Den innehåller samma konfiguration som du definierade för den ursprungliga händelsen, men har statusen **[!UICONTROL Draft]**.
 
    ![](assets/message-center_duplicated-draft-event.png)
 
-1. Motsvarande transaktionsmeddelande skapas automatiskt. Gå till **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
+1. Motsvarande transaktionsmeddelande skapas automatiskt. Gå till **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]** om du vill komma åt den.
 
    ![](assets/message-center_duplicated-message.png)
 
-1. Öppna det duplicerade meddelandet. Den innehåller samma design som du definierade för det ursprungliga meddelandet, men den har **[!UICONTROL Draft]** status, även om det ursprungliga transaktionsmeddelandet publicerades.
+1. Öppna det duplicerade meddelandet. Det innehåller samma design som du definierade för det ursprungliga meddelandet, men har statusen **[!UICONTROL Draft]**, även om det ursprungliga transaktionsmeddelandet publicerades.
 
    ![](assets/message-center_duplicated-draft-message.png)
 
@@ -112,10 +112,10 @@ Tabellen nedan visar effekten av dessa förbättringar:
 
 | Objekt | Före den här ändringen | Efter den här ändringen |
 |:-: | :--: | :-:|
-| Transaktionshändelser | Endast användare inom **Administratör** kan skapa och publicera händelser. | The **MC-användare** Med roll kan användare skapa och publicera händelser. |
-| Transaktionsmeddelanden | Transaktionsmeddelanden anges till **Organisationsenhet** i **Meddelandecenteragent (mcExec)** säkerhetsgrupp. | Transaktionsmeddelanden anges till **Organisationsenhet** för den säkerhetsgrupp som användaren som skapar transaktionshändelsen/meddelandet tillhör. |
-| Körningsleveranser | Körningsleveranser ställs in på **Organisationsenhet** i **Meddelandecenteragent (mcExec)** säkerhetsgrupp. | Körningsleveranser ställs in på **Organisationsenhet** för den säkerhetsgrupp som användaren som skapar transaktionshändelsen/meddelandet tillhör. |
-| Publicerade transaktionshändelser | Det går inte att duplicera en användare. | <ul><li>Användare med **Administratör** kan duplicera publicerade händelser.</li> <li>Användare med **MC-användare** kan duplicera publicerade händelser under förutsättning att de finns i samma **Organisationsenhet** hierarkin som användaren som skapade händelsen.</li></ul> |
+| Transaktionshändelser | Endast användare i säkerhetsgruppen **Administratör** kan skapa och publicera händelser. | Med rollen **MC-användare** kan användare skapa och publicera händelser. |
+| Transaktionsmeddelanden | Transaktionsmeddelanden är inställda på **organisationsenheten** i säkerhetsgruppen **Message Center Agent (mcExec)**. | Transaktionsmeddelanden anges till **organisationsenheten** för den säkerhetsgrupp som användaren som skapar transaktionshändelsen/meddelandet tillhör. |
+| Körningsleveranser | Körningsleveranser anges till **organisationsenheten** för säkerhetsgruppen **Message Center Agent (mcExec)**. | Körningsleveranser anges till **organisationsenheten** för den säkerhetsgrupp som användaren som skapar transaktionshändelsen/meddelandet tillhör. |
+| Publicerade transaktionshändelser | Det går inte att duplicera en användare. | <ul><li>Användare med säkerhetsgruppen **Administratör** kan duplicera publicerade händelser.</li> <li>Användare med rollen **MC-användare** kan duplicera publicerade händelser förutsatt att de finns i samma hierarki för **organisationsenheter** som den användare som skapade händelsen.</li></ul> |
 
 
 <!--Transactional Message Templates| Transactional Message templates are set to the Organizational unit **All**. | Transaction Message Template will be set to the **Organizational unit** of the security group to which the user creating the message template belongs.-->

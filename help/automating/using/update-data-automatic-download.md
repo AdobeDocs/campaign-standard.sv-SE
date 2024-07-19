@@ -36,13 +36,13 @@ Så här skapar du arbetsflödet:
    ![](assets/wkf_file_transfer_07.png)
 
 1. Bekräfta din aktivitet.
-1. Dra och släpp en [Läs in fil](../../automating/using/load-file.md) -aktiviteten i arbetsflödet och placera den efter **[!UICONTROL Transfer file]** aktivitet.
+1. Dra och släpp en [Läs in fil](../../automating/using/load-file.md)-aktivitet i arbetsflödet och placera den efter **[!UICONTROL Transfer file]**-aktiviteten.
 1. Markera aktiviteten och öppna den sedan med knappen ![](assets/edit_darkgrey-24px.png) bland de snabbåtgärder som visas.
 1. I **[!UICONTROL File to load]**-avsnittet på fliken **[!UICONTROL Execution]**, kryssa i **[!UICONTROL Use the file specified in the inbound transition]**-rutan.
 
    ![](assets/wkf_file_loading8.png)
 
 1. Konfigurera din aktivitet enligt den tidigare specifikationen.
-1. Dra och släpp en [Uppdatera data](../../automating/using/update-data.md) -aktiviteten i arbetsflödet och placera den efter **[!UICONTROL Load file]** och sedan konfigurera den.
+1. Dra och släpp en [Uppdatera data](../../automating/using/update-data.md)-aktivitet i ditt arbetsflöde och placera den efter **[!UICONTROL Load file]**-aktiviteten och konfigurera den.
 
 När arbetsflödet har startats extraheras data från den överförda filen och används sedan för att utöka Adobe Campaign-databasen.

@@ -21,12 +21,12 @@ Det här användningsexemplet innehåller information om utökade fält för anp
 
 >[!NOTE]
 >
->Om du vill publicera API:t måste du ha **[!UICONTROL Datamodel]** roll.
+>Om du vill publicera API:t måste du ha rollen **[!UICONTROL Datamodel]**.
 
 Stegen för att visa utökade fält i det offentliga API:t är följande:
 
 1. [Lägg till tilläggsfälten i profilresursen](../../developing/using/step-1-add-extension-fields-to-the-profile-resource.md)
-1. [Publicera tillägget](../../developing/using/step-2-publish-the-extension.md)
+1. [Publish-tillägget](../../developing/using/step-2-publish-the-extension.md)
 1. [Kontrollera att de nya utökade fälten är tillgängliga i API:t](../../developing/using/step-3-verify-the-extension.md)
 
 **Relaterade ämnen:**

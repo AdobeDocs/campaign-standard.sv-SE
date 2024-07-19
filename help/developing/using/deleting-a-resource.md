@@ -17,7 +17,7 @@ ht-degree: 14%
 
 # Ta bort en resurs{#deleting-a-resource}
 
-Om du vill ta bort en resurs måste den aktuella resursen vara en **[!UICONTROL Draft]**. Resursen finns i **[!UICONTROL Draft]** status om:
+Om du vill ta bort en resurs måste den aktuella resursen vara en **[!UICONTROL Draft]**. Resursen har statusen **[!UICONTROL Draft]** om:
 
 * Den har precis skapats och har ännu inte publicerats.
 * Om den redan har publicerats måste resursen omarbetas.
@@ -43,13 +43,13 @@ Så här gör du om utkast och tar bort en publicerad resurs:
 
    >[!NOTE]
    >
-   >Om du gör om ett utkast för ett tillägg som är klart **Profiler (profil)** resurs, du måste också göra om utkast **Testprofil (seedMember)** tillägg som du kan ha definierat. Mer information om hur du utökar profilresursen finns i [det här avsnittet](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
+   >Om du gör om ett utkast för ett tillägg för den körklara **profilresursen (profil)** måste du också göra om alla **testprofiler (seedMember)**-tillägg som du har definierat. Mer information om hur du utökar profilresursen finns i [det här avsnittet](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
 
-1. Publicera resursen. Mer detaljerad information finns i [Publicera en anpassad resurs](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
+1. Publish resursen. Mer detaljerad information finns i [Publicera en anpassad resurs](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
-   Resursen går sedan in **Utkast** läge och aktiveringsstatus är **[!UICONTROL Inactive]**.
+   Resursen försätts sedan i läget **Utkast** och dess aktiveringsstatus är **[!UICONTROL Inactive]**.
 
-1. I **[!UICONTROL List]** läge, kontrollera resursen som ska tas bort och klicka sedan på ![](assets/delete_darkgrey-24px.png) **[!UICONTROL Delete element]** -ikon.
+1. I **[!UICONTROL List]**-läget kontrollerar du den resurs du vill ta bort och klickar sedan på ikonen ![](assets/delete_darkgrey-24px.png) **[!UICONTROL Delete element]** .
 
    ![](assets/schema_extension_uc28.png)
 

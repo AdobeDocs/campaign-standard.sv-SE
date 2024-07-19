@@ -77,17 +77,17 @@ Aliaset som tidigare refererats i DTM måste skapas i Experience Cloud People Co
 
 ### Konfigurera utlösare och alias i Campaign {#configuring-triggers-and-aliases-in-campaign}
 
-1. Se till att du har **[!UICONTROL Experience Cloud triggers]** visas på din Adobe Campaign Standard-instans. Om du inte gör det kontaktar du Adobe Campaign administratörer.
+1. Kontrollera att **[!UICONTROL Experience Cloud triggers]** är synligt på din Adobe Campaign Standard-instans. Om du inte gör det kontaktar du Adobe Campaign administratörer.
 
    ![](assets/remarketing_1.png)
 
-1. Med alias kan en kontakt i Analytics förenas med en profil i Campaign. Du måste matcha de alias som definieras i Experience Cloud ID-tjänsten med en delad datakälla i Campaign. Du måste konfigurera aliasupplösningen i Adobe Campaign via en datakälla ( **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]** ). Se till att du väljer rätt datakälla i dialogrutan **[!UICONTROL Data Source/Alias]** nedrullningsbar meny som mappas med samma datakälla för kundattribut som skapades i föregående steg.
+1. Med alias kan en kontakt i Analytics förenas med en profil i Campaign. Du måste matcha de alias som definieras i Experience Cloud ID-tjänsten med en delad data-Source i Campaign. Du måste konfigurera aliasupplösningen i Adobe Campaign via en datakälla ( **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]** ). Se till att du väljer rätt datakälla på den nedrullningsbara menyn **[!UICONTROL Data Source/Alias]**, som är mappad med samma datakälla för kundattribut som skapades i föregående steg.
 
    ![](assets/trigger_uc_conf_5.png)
 
    >[!NOTE]
    >
-   >Du kan stämma av utlösarna för både anonyma och inloggade användare. För anonyma användare bör profilen finnas i Adobe Campaign och ett e-postmeddelande har skickats till användaren tidigare. Det räcker med konfiguration av besökar-ID. Om du vill stämma av utlösare för inloggade användare måste du konfigurera deklarerad ID-datakälla. Mer information finns i [Datakällans konfiguration](../../integrating/using/integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
+   >Du kan stämma av utlösarna för både anonyma och inloggade användare. För anonyma användare bör profilen finnas i Adobe Campaign och ett e-postmeddelande har skickats till användaren tidigare. Det räcker med konfiguration av besökar-ID. Om du vill stämma av utlösare för inloggade användare måste du konfigurera deklarerade ID-data Source. Mer information finns i [Data Source-konfiguration](../../integrating/using/integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
 
 ## Skapa en utlösare i Experience Cloud-gränssnittet {#creating-a-trigger-in-the-experience-cloud-interface}
 
@@ -95,7 +95,7 @@ En Adobe Experience Cloud-utlösare måste skapas så att du kan använda den i 
 
 Skapa en ny utlösare i Experience Cloud och se till att du väljer den rapportsvit som används på webbplatsen. Se till att du väljer rätt dimension så att utlösaren aktiveras.
 
-Se [Adobe Experience Cloud-dokumentation](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html).
+Mer information finns i [Adobe Experience Cloud-dokumentationen](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html).
 
 ## Utlöser bästa praxis och begränsningar {#triggers-best-practices-and-limitations}
 

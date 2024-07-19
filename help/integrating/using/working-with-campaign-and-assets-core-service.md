@@ -1,6 +1,6 @@
 ---
 title: Arbeta med Campaign och kärntjänsten Assets
-description: Använd resurser som delas inom Adobe Experience Cloud i Adobe Campaign-meddelanden och på landningssidor tack vare integreringen av bastjänsterna i Assets.
+description: Utnyttja alla resurser som delas inom Adobe Experience Cloud i era Adobe Campaign-meddelanden och landningssidor tack vare integreringen av Assets bastjänster.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-assets-core-service
@@ -17,9 +17,9 @@ ht-degree: 9%
 
 # Arbeta med Campaign och kärntjänsten Assets{#working-with-campaign-and-assets-core-service}
 
-Genom att integrera Assets Core-tjänsten eller Assets on Demand (beroende på hur Adobe Experience Cloud-miljön är konfigurerad) med Adobe Campaign kan du använda alla resurser som delas inom Adobe Experience Cloud i Adobe Campaign e-postmeddelanden och på landningssidor.
+Genom att integrera Assets bastjänst eller Assets on Demand (beroende på hur Adobe Experience Cloud-miljön är konfigurerad) med Adobe Campaign kan du använda allt material som delas inom Adobe Experience Cloud i dina Adobe Campaign-meddelanden och landningssidor.
 
-Integrationen med bastjänsten Assets är begränsad till [Funktionsadministratörer](../../administration/using/users-management.md#functional-administrators).
+Integrationen med Assets Core Service är begränsad till [Funktionella administratörer](../../administration/using/users-management.md#functional-administrators).
 
 Resurser som delas från Adobe Experience Cloud kan användas i e-postmeddelanden och på landningssidor enligt följande:
 
@@ -35,5 +35,5 @@ Bilden infogas sedan. Leveransen kan nu anpassas efter behov och skickas.
 
 **Relaterade ämnen:**
 
-* [Resurser och delning](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html)
+* [Assets och delning](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html)
 * [Innehållsredigerare](../../designing/using/personalization.md#example-email-personalization)

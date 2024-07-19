@@ -23,7 +23,7 @@ Campaign har en uppsättning inbyggda mallar för landningssidor:
 * **[!UICONTROL Acquisition]**: Det här är standardmallen för landningssidor, som gör att du kan hämta och uppdatera data i Campaign-databasen.
 * **[!UICONTROL Subscription]**: Den här mallen ska användas för att erbjuda prenumerationer på en tjänst.
 * **[!UICONTROL Unsubscription]**: Den här mallen kan kopplas från ett e-postmeddelande som skickas till prenumeranter till en tjänst, så att de kan avbryta prenumerationen på tjänsten.
-* **[!UICONTROL Denylist]**: Den här mallen ska användas när en profil inte längre vill bli kontaktad av Campaign. Mer information om hantering av blockeringslista finns i [Om anmälan och avanmälan i Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+* **[!UICONTROL Denylist]**: Den här mallen ska användas när en profil inte längre vill bli kontaktad av Campaign. Mer information om hantering av blockeringslista finns i [Om deltagande och avanmälan i Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 Dessa mallar föreslås som standard när en ny landningssida skapas.
 
