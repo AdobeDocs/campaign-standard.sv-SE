@@ -8,10 +8,10 @@ feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
-source-git-commit: 26e37cea37b33924ac634c5e4ab7c60804a738f1
+source-git-commit: 60386a9e6e424d76b1de0f2ecbeab48dd06fb354
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 6%
+source-wordcount: '757'
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,7 @@ Etableringen och konfigureringen av kärnan Audience Manager och Personer i Adob
 
 Med integreringen av bastjänsterna Audience Manager (AAM) och People Core kan du importera och exportera målgrupper eller segment i Adobe Campaign.
 
-Den här integreringen måste först konfigureras. Om du vill begära provisionering av den här integreringen skriver du ett e-postmeddelande till [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) med följande information:
+Den här integreringen måste först konfigureras. Om du vill begära etablering av den här integreringen kontaktar du Adobe Support med följande information:
 
 <table> 
  <tbody> 
