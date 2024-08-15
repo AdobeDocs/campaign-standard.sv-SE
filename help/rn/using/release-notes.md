@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 44c436a74a0a4aa688427bfb36d506566d57ac3a
+source-git-commit: 625b2341b1f7da17d202ef1edcdf97f3cb46b801
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 100%
+source-wordcount: '489'
+ht-degree: 73%
 
 ---
 
@@ -18,25 +18,38 @@ ht-degree: 100%
 <!--
 ![Control Panel](assets/do-not-localize/cp-icon.png) **New Control Panel release**. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html){target="_blank"}.-->
 
+<!--
+## Early release notes {#e-new-release}
 
-## Tidig versionsinformation {#e-new-release}
-
-I det här avsnittet listas förbättringar och ändringar som ingår i nästa version av Campaign Standard.
+This section lists improvements and changes included in the next Campaign Standard release.
 
 >[!CAUTION]
 >
->Innehållet kan ändras utan föregående meddelande fram till uppgraderingsdatumet för mellanlagringsmiljöerna. Läs mer om [versionen på planeringssidan](../../rn/using/release-planning.md).
+>This content is subject to changes without prior notice until the stage environments upgrade date. Learn more in the [Release planning page](../../rn/using/release-planning.md).
+-->
 
-**Version 24.2 – 2024 sommarversion**
+## Version 24.2 – Sommarversion 2024 {#summer-24}
 
-* **Versionsdatum**: Augusti 2024 (begränsad tillgänglighet) – [Läs mer](../../rn/using/release-planning.md).
+<!--**Release date**: August 2024 (Limited Availability) - [Learn more](../../rn/using/release-planning.md).-->
 
-* **Migrering till autentiseringsuppgifter för OAuth Server-till-server**
+### Förbättring {#summer-24-rn-improvements}
 
-  Från och med den här versionen, med servicekontot (JWT) som inte längre används av Adobe, förlitar sig Campaign utgående integrationer med Adobes lösningar och appar nu på OAuth Server-to-Server-autentiseringsuppgift. Adobe utför migreringen från JWT till OAuth för dina utgående integrationer, till exempel Campaign-Analytics-integration eller Experience Cloud Triggers-integration.
+**Migrering till autentiseringsuppgifter för OAuth Server-till-server**
 
-  Om du har implementerat inkommande integrationer med Campaign och om du använder [Campaign API:er](../../api/using/get-started-apis.md) måste du migrera ditt tekniska konto enligt beskrivningen i [den här dokumentationen](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. Befintliga JWT-autentiseringsuppgifter (Service Account) kommer att sluta fungera den **27 januari 2025**.
+Från och med den här versionen, med servicekontot (JWT) som inte längre används av Adobe, förlitar sig Campaign utgående integrationer med Adobes lösningar och appar nu på OAuth Server-to-Server-autentiseringsuppgift. Adobe utför migreringen från JWT till OAuth för dina utgående integrationer, till exempel Campaign-Analytics-integration eller Experience Cloud Triggers-integration.
 
+Om du har implementerat inkommande integrationer med Campaign och om du använder [Campaign API:er](../../api/using/get-started-apis.md) måste du migrera ditt tekniska konto enligt beskrivningen i [den här dokumentationen](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. Befintliga JWT-autentiseringsuppgifter (Service Account) kommer att sluta fungera den **27 januari 2025**.
+
+### Korrigeringar {#summer-24-rn-fixes}
+
+* Ett problem som gjorde att arbetsflödets schemaläggare startades före schemalagd tid har korrigerats. (CAMP-55412)
+* Korrigerade ett problem som orsakade ett fel vid duplicering av anpassade fält i transaktionspush-meddelanden. (CAMP-54459)
+* Korrigerade problem som påverkade användbarheten för tids- och datumschemaläggaren för meddelanden i appen. (CAMP-54495)
+* Korrigerade ett problem som gjorde att spårning inte fungerade när funktionen för anpassade spårningsalias användes och att hela länken var dynamisk. (CAMP-56044)
+* Korrigerade ett problem som gjorde att ett begränsat antal mallar visades när sökningen gjordes för att hitta specifika mallar. (CAMP-55273)
+* Följande språk har lagts till i den önskade språklistrutan: en_kz (engelska - Kazakstan) och en_ua (engelska - Ukraina). (CAMP-55336)
+* Ett problem som gjorde att tidsjusteringsknapparna inte fungerade i schemaläggningsinställningarna har korrigerats. (CAMP-53602)
+* Flera gränssnittsproblem som rör tidsjusteringsfältet i schemaläggningsinställningarna har korrigerats. (CAMP-55291)
 
 ## Version 24.1 – vinterversion 2024 {#winter-24}
 
