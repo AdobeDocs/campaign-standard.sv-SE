@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 625b2341b1f7da17d202ef1edcdf97f3cb46b801
+source-git-commit: 0beb4934d1412c3f64d28106f9243673907629f3
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '497'
 ht-degree: 73%
 
 ---
@@ -30,7 +30,7 @@ This section lists improvements and changes included in the next Campaign Standa
 
 ## Version 24.2 – Sommarversion 2024 {#summer-24}
 
-<!--**Release date**: August 2024 (Limited Availability) - [Learn more](../../rn/using/release-planning.md).-->
+**Versionsdatum**: Augusti 2024 (begränsad tillgänglighet) – [Läs mer](../../rn/using/release-planning.md).
 
 ### Förbättring {#summer-24-rn-improvements}
 
