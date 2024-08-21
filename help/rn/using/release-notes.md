@@ -8,7 +8,7 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 0beb4934d1412c3f64d28106f9243673907629f3
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -42,14 +42,14 @@ Om du har implementerat inkommande integrationer med Campaign och om du använde
 
 ### Korrigeringar {#summer-24-rn-fixes}
 
-* Ett problem som gjorde att arbetsflödets schemaläggare startades före schemalagd tid har korrigerats. (CAMP-55412)
-* Korrigerade ett problem som orsakade ett fel vid duplicering av anpassade fält i transaktionspush-meddelanden. (CAMP-54459)
-* Korrigerade problem som påverkade användbarheten för tids- och datumschemaläggaren för meddelanden i appen. (CAMP-54495)
-* Korrigerade ett problem som gjorde att spårning inte fungerade när funktionen för anpassade spårningsalias användes och att hela länken var dynamisk. (CAMP-56044)
-* Korrigerade ett problem som gjorde att ett begränsat antal mallar visades när sökningen gjordes för att hitta specifika mallar. (CAMP-55273)
-* Följande språk har lagts till i den önskade språklistrutan: en_kz (engelska - Kazakstan) och en_ua (engelska - Ukraina). (CAMP-55336)
-* Ett problem som gjorde att tidsjusteringsknapparna inte fungerade i schemaläggningsinställningarna har korrigerats. (CAMP-53602)
-* Flera gränssnittsproblem som rör tidsjusteringsfältet i schemaläggningsinställningarna har korrigerats. (CAMP-55291)
+* Åtgärdade ett problem som ledde till att schemaläggaren för arbetsflödet startade före utsatt tid. (CAMP-55412)
+* Åtgärdade ett problem som orsakade ett fel vid duplicering av anpassade fält i push-meddelanden för transaktioner. (CAMP-54459)
+* Åtgärdade problem som påverkade användbarheten av tids- och datumschemaläggaren för meddelanden i appen. (CAMP-54495)
+* Åtgärdade ett problem som gjorde att spårning inte fungerade när funktionen Anpassat spårningsalias användes och hela länken är dynamisk. (CAMP-56044)
+* Åtgärdade ett problem som ledde till att ett begränsat antal mallar visades när man använde sökfunktionen för att hitta specifika mallar. (CAMP-55273)
+* Följande språk har lagts till i rullgardinsmenyn för önskat språk: en_kz (engelska – Kazakstan) och en_ua (engelska – Ukraina). (CAMP-55336)
+* Åtgärdade ett problem som gjorde att knapparna för tidsjustering inte fungerade i inställningarna för schemaläggning. (CAMP-53602)
+* Åtgärdade flera problem med användargränssnittet gällande tidsjusteringsfältet i inställningarna för schemaläggning. (CAMP-55291)
 
 ## Version 24.1 – vinterversion 2024 {#winter-24}
 
