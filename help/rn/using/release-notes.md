@@ -16,7 +16,8 @@ ht-degree: 100%
 # Information om den senaste versionen {#latest-release}
 
 <!--
-![Control Panel](assets/do-not-localize/cp-icon.png) **New Control Panel release**. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html){target="_blank"}.-->
+![Control Panel](assets/do-not-localize/cp-icon.png) **New Control Panel release**. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html){target="_blank"}.
+-->
 
 <!--
 ## Early release notes {#e-new-release}
