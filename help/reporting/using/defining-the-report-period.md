@@ -8,14 +8,18 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 1fa05187-0488-4649-b903-079bfa4628f1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 99c092bc40c9176a25a6ec2a164ee1d3f85d5cbe
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '230'
 ht-degree: 3%
 
 ---
 
 # Definiera rapportperioden{#defining-the-report-period}
+
+>[!NOTE]
+>
+>Datarapportering är endast tillgänglig för de senaste tre åren. Mer information om lagringsperioder för data får du om du kontaktar Adobe konsulter eller tekniska administratörer.
 
 Innan du startar eller öppnar en rapport måste du använda en tidsperiod. Den angivna perioden finns längst upp till höger i rapporten.
 

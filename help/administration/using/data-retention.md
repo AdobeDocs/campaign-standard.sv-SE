@@ -6,14 +6,18 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
-source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
+source-git-commit: 99c092bc40c9176a25a6ec2a164ee1d3f85d5cbe
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 5%
+source-wordcount: '420'
+ht-degree: 4%
 
 ---
 
 # Datalagring{#data-retention}
+
+>[!NOTE]
+>
+>Datarapportering är endast tillgänglig för de senaste tre åren. Mer information om lagringsperioder för data får du om du kontaktar Adobe konsulter eller tekniska administratörer.
 
 Standardloggtabeller i Campaign har förinställda kvarhållningsperioder som begränsar datalagringstiden, för att undvika att överbelasta systemet.
 
