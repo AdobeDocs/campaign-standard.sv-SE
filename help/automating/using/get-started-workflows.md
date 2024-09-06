@@ -8,7 +8,7 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: 47f47a624b8a1d941d1ab4b49e67f0260ac68cf1
+source-git-commit: c7c4826f69ac988911b9d72a3e06240ed9582862
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 9%
@@ -38,7 +38,7 @@ Arbetsflöden kan användas i olika sammanhang, till exempel:
 
 ## Arbetsflödesaktiviteter {#workflow-activities}
 
-<img src="assets/do-not-localize/icon_workflows.svg" width="10%px">
+<img src="assets/do-not-localize/icon_workflows.svg" width="10px">
 
 Det finns olika aktiviteter som du kan använda för att utforma arbetsflöden.
 
@@ -56,7 +56,7 @@ Läs mer:
 
 ## Filtrera data {#filter-data}
 
-<img src="assets/do-not-localize/icon_filter.svg" width="60px">
+<img src="assets/do-not-localize/icon_filter.svg" width="15px">
 
 Använd **frågeredigeraren** för att filtrera data från databasen och skapa en population som bättre riktar sig till mottagarna. Frågeredigeraren är tillgänglig för att utföra flera åtgärder i Campaign Standarden: skapa frågetypsmålgrupper, definiera leveransmål eller populationer i arbetsflödesaktiviteter.
 
@@ -70,7 +70,7 @@ Läs mer:
 
 ## Importera/exportera data {#import-export-data}
 
-<img src="assets/do-not-localize/icon_manage.svg" width="60px">
+<img src="assets/do-not-localize/icon_manage.svg" width="20px">
 
 Campaign Standarden innehåller flera **datahanteringsfunktioner** för import och export av data.
 
