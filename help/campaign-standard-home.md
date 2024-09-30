@@ -3,10 +3,10 @@ keywords: Campaign Standard;hemmabruk;populära ämnen
 title: Produktdokumentation för Adobe Campaign Standard
 description: Bläddra i produktdokumentationen för Adobe Campaign Standard
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 0beb4934d1412c3f64d28106f9243673907629f3
+source-git-commit: 2f3a0f4233df2915c5b7d293452246c688d69228
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 100%
+source-wordcount: '301'
+ht-degree: 91%
 
 ---
 
@@ -18,17 +18,17 @@ Få en glimt av de senaste förbättringarna i Adobe Campaign Standards produkte
 
 >[!BEGINTABS]
 
+>[!TAB Övergång till kampanj v8]
+
+Vi är glada över att kunna meddela att Adobe Campaign Standard-användare nu har rätt att gå över till Adobe Campaign Managed Cloud Services v8.
+
+[![bild](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/home){target="_blank"}
+
 >[!TAB Campaign 24.2 är här!]
 
 Upptäck nya funktioner, förbättringar och korrigeringar som ingår i Campaign Standard 24.2.
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](rn/using/release-notes.md)
-
->[!TAB AI-baserade e-postmeddelanden]
-
-Optimera design och leverans med AI-baserade e-postmeddelanden.
-
-[![Bild](assets/do-not-localize/learn-more-button.svg)](sending/using/predictive.md)
 
 >[!TAB Campaign – RTCDP-integrering]
 
