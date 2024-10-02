@@ -9,9 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: ea524bdcef0324c7fc4b9da0bb443b6abc66a23a
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '829'
 ht-degree: 4%
 
 ---
@@ -28,6 +28,8 @@ Skärmen för arbetsflödesredigering består av följande element:
 * Med [snabbåtgärderna](#quick-actions), som visas runt en markerad aktivitet, kan du interagera med den.
 
 ![](assets/wkf_overview.png)
+
+![](assets/do-not-localize/how-to-video.png) [Upptäck hur du skapar ett arbetsflöde i en video](#video)
 
 ## Palett {#palette}
 
@@ -154,3 +156,11 @@ Det går också att kopiera och klistra in flera aktiviteter, så att du kan dup
 Välj aktiviteter genom att rita en zon runt dem. Klicka sedan på knappen **[!UICONTROL Copy selection]** i åtgärdsfältet (eller tryck på **Ctrl + C**). Du kan sedan klistra in dem på önskad plats.
 
 ![](assets/wkf_copypaste3.png)
+
+## Självstudievideo {#video}
+
+I den här videon visas hur du skapar ett arbetsflöde.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
+
+Ytterligare Campaign Standard om instruktionsvideor finns [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv).
