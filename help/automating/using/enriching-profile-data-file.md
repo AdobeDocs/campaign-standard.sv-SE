@@ -9,16 +9,16 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: d5c19884-5a3e-4676-899c-53074a3b0efc
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 7bc90f353a804680eb58514737d65cdd0d873fc5
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 72%
+source-wordcount: '522'
+ht-degree: 77%
 
 ---
 
 # Berika profildata med data som finns i en fil {#enriching-profile-data-with-data-contained-in-a-file}
 
-I det här exemplet visas hur du förbättrar profildata med inköpsdata som finns i en fil.I det här exemplet anser vi att inköpsdata lagras i ett tredjepartssystem. Varje profil kan innehålla flera köp i filen. Arbetsflödets sista mål är att skicka ett e-postmeddelande till målprofilerna som har köpt minst två objekt för att tacka dem för deras lojalitet.
+I det här exemplet visas hur du förbättrar profildata med inköpsdata som finns i en fil. Vi räknar här med att inköpsdata lagras i ett tredjepartssystem. Varje profil kan innehålla flera köp i filen. Arbetsflödets sista mål är att skicka ett e-postmeddelande till målprofilerna som har köpt minst två objekt för att tacka dem för deras lojalitet.
 
 Arbetsflödet är konfigurerat på följande sätt:
 
