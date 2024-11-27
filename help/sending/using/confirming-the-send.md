@@ -9,9 +9,9 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 058c59136c28e7fce2a79686919f900f410e324a
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '982'
 ht-degree: 15%
 
 ---
@@ -49,6 +49,10 @@ Om du använder en återkommande leverans utan aggregeringsperiod så kan du kr�
 ![](assets/confirmation_recurring_deliveries.png)
 
 ## Om meddelandeindikatorer {#message-indicators}
+
+>[!NOTE]
+>
+> Kontrollpanelen **Distribution** innehåller data för snabb referens, vilket kanske inte matchar siffrorna i dynamiska rapporter. För korrekt och tillförlitlig information rekommenderar vi att du använder den dynamiska rapporteringen som källa till sanningen. [Läs mer](../../reporting/using/get-started-reporting.md)
 
 När meddelandet har skickats till kontakterna visar zonen **[!UICONTROL Deployment]** dina KPI-data (Key Performance Indicator), inklusive:
 
