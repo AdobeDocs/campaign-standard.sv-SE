@@ -4,9 +4,9 @@ title: Produktdokumentation för Adobe Campaign Standard
 description: Bläddra i produktdokumentationen för Adobe Campaign Standard
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 source-git-commit: 2f3a0f4233df2915c5b7d293452246c688d69228
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '301'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -18,15 +18,15 @@ Få en glimt av de senaste förbättringarna i Adobe Campaign Standards produkte
 
 >[!BEGINTABS]
 
->[!TAB Övergång till kampanj v8]
+>[!TAB Gå över till Campaign v8]
 
-Vi är glada över att kunna meddela att Adobe Campaign Standard-användare nu har rätt att gå över till Adobe Campaign Managed Cloud Services v8.
+Vi är glada över att kunna meddela att Adobe Campaign Standard-användare nu kan gå över till Adobe Campaign Managed Cloud Services v8.
 
-[![bild](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/home){target="_blank"}
+[![bild](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/sv/docs/campaign-web/acs-to-ac/home){target="_blank"}
 
->[!TAB Campaign 24.2 är här!]
+>[!TAB Campaign version 24.2 är här!]
 
-Upptäck nya funktioner, förbättringar och korrigeringar som ingår i Campaign Standard 24.2.
+Upptäck nya funktioner, förbättringar och korrigeringar som ingår i versionen Campaign Standard 24.2.
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](rn/using/release-notes.md)
 

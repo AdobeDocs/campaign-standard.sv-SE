@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 0beb4934d1412c3f64d28106f9243673907629f3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '497'
 ht-degree: 100%
 
@@ -16,8 +16,7 @@ ht-degree: 100%
 # Information om den senaste versionen {#latest-release}
 
 <!--
-![Control Panel](assets/do-not-localize/cp-icon.png) **New Control Panel release**. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html){target="_blank"}.
--->
+![Control Panel](assets/do-not-localize/cp-icon.png) **New Control Panel release**. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html){target="_blank"}.-->
 
 <!--
 ## Early release notes {#e-new-release}
@@ -31,7 +30,7 @@ This section lists improvements and changes included in the next Campaign Standa
 
 ## Version 24.2 – Sommarversion 2024 {#summer-24}
 
-**Versionsdatum**: Augusti 2024 (begränsad tillgänglighet) – [Läs mer](../../rn/using/release-planning.md).
+**Versionsdatum**: augusti 2024 (begränsad tillgänglighet) – [Läs mer](../../rn/using/release-planning.md).
 
 ### Förbättring {#summer-24-rn-improvements}
 
