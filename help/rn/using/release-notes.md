@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 0beb4934d1412c3f64d28106f9243673907629f3
-workflow-type: ht
-source-wordcount: '497'
-ht-degree: 100%
+source-git-commit: c2d2f3843801d108f007fea52a76e41abe16d76c
+workflow-type: tm+mt
+source-wordcount: '390'
+ht-degree: 76%
 
 ---
 
@@ -18,19 +18,32 @@ ht-degree: 100%
 <!--
 ![Control Panel](assets/do-not-localize/cp-icon.png) **New Control Panel release**. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html){target="_blank"}.-->
 
-<!--
-## Early release notes {#e-new-release}
 
-This section lists improvements and changes included in the next Campaign Standard release.
+## Tidig versionsinformation {#e-new-release}
+
+I det här avsnittet listas förbättringar och ändringar som ingår i nästa version av Campaign Standard.
 
 >[!CAUTION]
 >
->This content is subject to changes without prior notice until the stage environments upgrade date. Learn more in the [Release planning page](../../rn/using/release-planning.md).
--->
+>Innehållet kan ändras utan föregående meddelande fram till uppgraderingsdatumet för mellanlagringsmiljöerna. Läs mer om [versionen på planeringssidan](../../rn/using/release-planning.md).
 
-## Version 24.2 – Sommarversion 2024 {#summer-24}
+### Version 25.1 – vinterversion 2025 {#winter-25}
 
-**Versionsdatum**: augusti 2024 (begränsad tillgänglighet) – [Läs mer](../../rn/using/release-planning.md).
+#### Säkerhetskorrigeringar {#winter-25-security}
+
+* Den här versionen innehåller säkerhetskorrigeringar.
+* Den här versionen innehåller följande säkerhetsuppgradering: Apache Tomcat har uppgraderats till v10.1.33.
+
+#### Andra korrigeringar {#winter-25-fixes}
+
+* Korrigerade ett dupliceringsproblem i mallar (CAMP-56340)
+* Korrigerade en spårningsregression när dynamiska URL:er användes i Adobe Experience Manager-mallar (CAMP-51932)
+* Korrigerade ett prestandaproblem i faktureringsprocessen (CAMP-56796)
+* Korrigerade ett kodningsfel för HTML med tecknet `>` på JSSP-webbsidor (CAMP-56497)
+* Korrigerade ett problem i dynamisk rapportering när alternativet **Visning på valda rader** användes (CAMP-55895)
+
+
+## Version 24.2 - 2024 Sommarrelease (LA) {#summer-24}
 
 ### Förbättring {#summer-24-rn-improvements}
 
@@ -50,25 +63,3 @@ Om du har implementerat inkommande integrationer med Campaign och om du använde
 * Följande språk har lagts till i rullgardinsmenyn för önskat språk: en_kz (engelska – Kazakstan) och en_ua (engelska – Ukraina). (CAMP-55336)
 * Åtgärdade ett problem som gjorde att knapparna för tidsjustering inte fungerade i inställningarna för schemaläggning. (CAMP-53602)
 * Åtgärdade flera problem med användargränssnittet gällande tidsjusteringsfältet i inställningarna för schemaläggning. (CAMP-55291)
-
-## Version 24.1 – vinterversion 2024 {#winter-24}
-
-### Förbättringar {#e-rn-improvements}
-
-* **Android push-notiser** – Adobe Campaign Standard 24.1 använder HTTP v1 API:er för att skicka Android Push-notiser för att säkerställa kompatibilitet med kommande FCM-ändringar. Läs mer i [detta tekniska dokument](../../administration/using/push-technote.md).
-
-* **iOS push-notiser** – Adobe Campaign Standard 24.1 stöder nu p8-autentiseringscertifikat för iOS push-notiser. Implementeringen måste anpassas för att aktivera dessa ändringar. Läs mer i [detta tekniska dokument](../../administration/using/push-technote.md).
-
-* **One-Click List-Unsubscribe** – Från och med den 1 juni 2024 kommer Google och Yahoo! att kräva att avsändarna följer One-Click List-Unsubscribe. Campaign har nu stöd för den här färdiga funktionen. Läs mer i [det här avsnittet](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters).
-
-* **Infrastruktur** – Postgres-databasen har uppgraderats från version 11.2 till version 12.17.
-
-* **CTA tracking** – När användarna öppnar och klickar på en anpassad URL spåras den matchade anpassade URL:en i stället för den kodade anpassade URL:en. Denna ändring är inte aktiverad som standard. Om du vill aktivera det i Campaign-instansen kontaktar du Adobe.
-
-* **Listruta för personaliseringsfält** – När du skapar transaktionsbaserade e-postmeddelandemallar i Adobe Experience Manager kan du nu välja personaliseringsfält i en listruta. Denna ändring är inte aktiverad som standard. Om du vill aktivera det i Campaign-instansen kontaktar du Adobe.
-
-### Korrigeringar {#e-rn-fixes}
-
-* Korrigerade ett problem som förhindrade att studsade e-postadresser togs bort från karantänen efter 30 dagar. (CAMP-52977)
-* Korrigerade ett problem som stoppade leveransvarningsarbetsflödet med följande fel: `division by zero`. (CAMP-49786)
-
