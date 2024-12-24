@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: c2d2f3843801d108f007fea52a76e41abe16d76c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '390'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -37,13 +37,13 @@ I det här avsnittet listas förbättringar och ändringar som ingår i nästa v
 #### Andra korrigeringar {#winter-25-fixes}
 
 * Korrigerade ett dupliceringsproblem i mallar (CAMP-56340)
-* Korrigerade en spårningsregression när dynamiska URL:er användes i Adobe Experience Manager-mallar (CAMP-51932)
+* Åtgärdade en spårningsregression när dynamiska webbadresser användes i Adobe Experience Manager-mallar (CAMP-51932)
 * Korrigerade ett prestandaproblem i faktureringsprocessen (CAMP-56796)
 * Korrigerade ett kodningsfel för HTML med tecknet `>` på JSSP-webbsidor (CAMP-56497)
 * Korrigerade ett problem i dynamisk rapportering när alternativet **Visning på valda rader** användes (CAMP-55895)
 
 
-## Version 24.2 - 2024 Sommarrelease (LA) {#summer-24}
+## Version 24.2 – Sommarversion 2024 (LA) {#summer-24}
 
 ### Förbättring {#summer-24-rn-improvements}
 
