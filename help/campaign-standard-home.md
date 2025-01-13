@@ -4,9 +4,9 @@ title: Produktdokumentation för Adobe Campaign Standard
 description: Bläddra i produktdokumentationen för Adobe Campaign Standard
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 source-git-commit: 9924d811359a6845ee6fd230eb6ffd73985404ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '284'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 91%
 
 ## Nyheter
 
-Få en glimt av de senaste förbättringarna i Adobe Campaign Standards produkter och dokumentation! En omfattande lista med funktioner, förbättringar och korrigeringar finns i den detaljerade [versionsinformationen](rn/using/release-notes.md).
+Få en glimt av de senaste förbättringarna i Adobe Campaign Standards produkter och dokumentation! En omfattande lista över funktioner, förbättringar och korrigeringar finns i [versionsinformationen](rn/using/release-notes.md). 
 
 >[!BEGINTABS]
 
@@ -26,7 +26,7 @@ Vi är glada över att kunna meddela att Adobe Campaign Standard-användare nu k
 
 >[!TAB Campaign version 25.1 är här!]
 
-Upptäck förbättringar och korrigeringar i Campaign Standard 25.1.
+Upptäck förbättringar och korrigeringar som ingår i Campaign Standard version 25.1.
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](rn/using/release-notes.md)
 

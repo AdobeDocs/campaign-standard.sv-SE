@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: ec96a9c3320a570f80863b1189f350c5f62f8466
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '143'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ This section lists improvements and changes included in the next Campaign Standa
 ### Andra korrigeringar {#winter-25-fixes}
 
 
-* Åtgärdade URL:en för &#39;dataschema&#39; i prenumerationssammanfattningsfönstret (CAMP-56168, CAMP-56296)
+* Åtgärdade URL:en för ”dataschema” i prenumerationssammanfattningsfönstret (CAMP-56168, CAMP-56296)
 * Korrigerade ett problem med att kringgå trötthetsreglerna när alternativet **Meddelande som ska skickas omedelbart** används (CAMP-56866, CAMP-57033)
 * Korrigerade ett dupliceringsproblem i mallar (CAMP-56340)
 * Åtgärdade en spårningsregression när dynamiska webbadresser användes i Adobe Experience Manager-mallar (CAMP-51932)
