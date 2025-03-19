@@ -8,9 +8,9 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 0079a924db522de8afc628ef50aa2c861e5a12ee
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1229'
 ht-degree: 1%
 
 ---
@@ -135,7 +135,7 @@ Använd den här komponenten för att kopiera och klistra in de olika delarna av
 
 >[!NOTE]
 >
->En kostnadsfri HTML-komponent kan redigeras med begränsade alternativ. Om alla format inte är infogade måste du lägga till rätt CSS i **head** -avsnittet i HTML-koden, annars kommer e-postmeddelandet inte att svara. Använd knappen **[!UICONTROL Preview]** om du vill testa svarstiden för ditt innehåll (se [Förhandsvisa meddelanden](../../sending/using/previewing-messages.md)).
+>En kostnadsfri HTML-komponent kan redigeras med begränsade alternativ. Om alla format inte är infogade ska du lägga till rätt CSS i avsnittet **head** i HTML-koden, annars kommer e-postmeddelandet inte att svara. Använd knappen **[!UICONTROL Preview]** om du vill testa svarstiden för ditt innehåll (se [Förhandsvisa meddelanden](../../sending/using/previewing-messages.md)).
 
 Adobe rekommenderar att du skapar ett meddelande från grunden och kopierar innehållet från ditt befintliga e-postmeddelande till fragment och komponenter för att få ett externt innehåll som är kompatibelt med e-postprogrammet Designer.
 
@@ -149,7 +149,7 @@ När du har ett innehåll som inte kan återskapas kan du kopiera och klistra in
 
 1. I det ursprungliga e-postmeddelandet identifierar du de återanvändbara avsnitten från de avsnitt som ska vara unika för varje e-postmeddelande som du ska skicka.
 1. Spara alla bilder och resurser som du vill använda.
-1. Om du är bekant med HTML kan du dela upp ditt ursprungliga HTML-innehåll i olika delar.
+1. Om du känner till HTML kan du dela upp ditt ursprungliga HTML-innehåll i olika delar.
 
 ### Video {#video-settings}
 
@@ -157,7 +157,6 @@ När du har ett innehåll som inte kan återskapas kan du kopiera och klistra in
 >id="ac_edition_video"
 >title="Videoinställningar"
 >abstract="Använd den här komponenten för att infoga en video i e-postmeddelandet. Observera att videoklipp inte fungerar på alla e-postklienter. Vi rekommenderar att du ställer in en reservbild."
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Ytterligare information"
 
 Infoga videokomponenten i en strukturkomponent i e-postmeddelandet och ange videolänken i **[!UICONTROL Component Settings]**.
 

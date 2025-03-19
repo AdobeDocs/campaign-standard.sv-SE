@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
-source-git-commit: 99c092bc40c9176a25a6ec2a164ee1d3f85d5cbe
+source-git-commit: 0079a924db522de8afc628ef50aa2c861e5a12ee
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 4%
+source-wordcount: '353'
+ht-degree: 5%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->Datarapportering är endast tillgänglig för de senaste tre åren. Mer information om lagringsperioder för data får du om du kontaktar Adobe konsulter eller tekniska administratörer.
+>Datarapportering är endast tillgänglig för de senaste tre åren. Mer information om lagringsperioder får du av Adobe konsulter eller tekniska administratörer.
 
 Standardloggtabeller i Campaign har förinställda kvarhållningsperioder som begränsar datalagringstiden, för att undvika att överbelasta systemet.
 
 Konfigurationen av datalagring anges av Adobe tekniska administratörer under implementeringen och värdena kan variera för varje implementering, baserat på kundens krav.
 
-Kontakta Adobe-konsulterna eller teknikadministratörerna för att få veta mer om lagringsperioder som gäller för er miljö eller för att ange anpassade lagringsperioder.
+Kontakta Adobe konsulter eller teknikadministratörer för att få veta mer om lagringsperioder som gäller för din miljö eller för att ange anpassade lagringsperioder.
 
 Observera att det går att ange kvarhållningsperioder för anpassade tabeller med hjälp av standardfunktioner för arbetsflöden.
 
@@ -39,31 +39,40 @@ Nedan visas standardkvarhållningsperioderna för standardtabeller. När det är
 * **Ignorerade pipeline-händelser**: 1 månad
 * **Leveransmeddelanden**: 1 månad
 * **Exportera granskning**: 6 månader (rekommenderas: 1 månad)
+* **Leveranser**: 2 år
 
 ## Kvarhållningsperiod för leveranser {#deliveries}
 
-Som standard är kvarhållningsperioden för leveranser obegränsad.
+<!-- By default, the retention period for deliveries is unlimited.-->
 
-Om det finns många leveranser på din instans kan du uppdatera alternativet **NmsCleanup_DeliveryPurgeDelay** som finns på menyn **[!UICONTROL Administration]** > **[!UICONTROL Application settings]**.
+Från och med 1 juni 2025 är endast leveranser från de senaste två åren tillgängliga i systemet. Mer information finns nedan:
 
-Varje gång arbetsflödet **[!UICONTROL Database cleanup]** körs tas leveranser som uppfyller villkoren för det här alternativet bort.
+* Leveranser som är äldre än två år kommer att tas bort permanent och inte längre vara tillgängliga.
+* Rensningen innehåller endast skickade och felaktiga leveranser. Återkommande leveranser, utkastleveranser och mallar påverkas inte.
+* När en leverans har tagits bort tas även länkad spårningsinformation eller sändningsinformation bort permanent.
+* Mallar för marknadsföring eller transaktionsleverans tas inte bort.
+* För återkommande leveranser raderas inte underordnade leveranser med en aggregeringsperiod som har angetts som månad eller år.
 
-Den här åtgärden kan hjälpa till att påskynda processer som arbetsflödet **[!UICONTROL Copy headers from delivery templates]**.
+Om du vill snabba upp processer som arbetsflödet **[!UICONTROL Copy headers from delivery templates]** kan kvarhållningsperioden för leverans minskas. Kontakta Adobe om du vill göra det.
 
->[!NOTE]
->
->Läs mer om tekniska arbetsflöden i [det här avsnittet](technical-workflows.md).
+<!--
 
+However, if there is a high volume of deliveries on your instance, you can update the **NmsCleanup_DeliveryPurgeDelay** option available from the **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** menu.
 
-Standardvärdet för alternativet **NmsCleanup_DeliveryPurgeDelay** är `-1`. I det här fallet tas ingen leverans bort.
+Each time the **[!UICONTROL Database cleanup]** workflow is run, the deliveries meeting the conditions set for this option will be deleted.
 
-Om du till exempel anger `180` tas alla leveranser som inte är mallbaserade och som inte har uppdaterats under de senaste 180 dagarna bort när arbetsflödet i **[!UICONTROL Database cleanup]** körs.
+-->
 
->[!NOTE]
->
->* Mallar för marknadsföring eller transaktionsleverans tas inte bort.
->
->* För återkommande leveranser raderas inte underordnade leveranser med en aggregeringsperiod som har angetts som månad eller år.
+<!--
 
-När du uppdaterar alternativet **NmsCleanup_DeliveryPurgeDelay** bör du fortsätta gradvis med flera iterationer. Du kan till exempel börja med genom att ange värdet 300 dagar, sedan 180 dagar, sedan 120 dagar och så vidare, och se till att iterationerna är minst två dagars emellan. Annars kan arbetsflödet för **[!UICONTROL Database cleanup]** ta lång tid på grund av ett stort antal leveranser att ta bort.
+When updating the **NmsCleanup_DeliveryPurgeDelay** option, it is recommended to proceed gradually with multiple iterations. For example, you can start by setting the value to 300 days, then 180 days, then 120 days, and so on - making sure iterations are at least 2 days apart. Otherwise, the **[!UICONTROL Database cleanup]** workflow may take much longer because of a large number of deliveries to delete.
+
+This action can help speeding up processes such as the **[!UICONTROL Copy headers from delivery templates]** workflow. Learn more on technical workflows in [this section](technical-workflows.md).
+
+The default value for the **NmsCleanup_DeliveryPurgeDelay** option is `-1`. In this case, no delivery is deleted.
+
+For example, if you set it to `180`, any non-template deliveries that have not been updated in the last 180 days will be deleted when the **[!UICONTROL Database cleanup]** workflow is run.
+
+-->
+
 
