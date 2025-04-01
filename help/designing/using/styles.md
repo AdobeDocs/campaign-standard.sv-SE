@@ -11,7 +11,7 @@ exl-id: 8daeb12d-4170-464f-ba33-afb681f72a91
 source-git-commit: 5435e1dbfbe08399c488322320ac5bb8e681a79d
 workflow-type: tm+mt
 source-wordcount: '1038'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -102,7 +102,7 @@ Klicka på låsikonen för både **[!UICONTROL Padding]** och **[!UICONTROL Marg
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="Bakgrundsinställningar"
->abstract="Med e-post-Designer kan du anpassa bakgrundsfärg eller bakgrundsbild för ditt innehåll.Observera att bakgrundsbilden inte stöds av alla e-postklienter."
+>abstract="Med E-postdesigner kan du anpassa bakgrundsfärg eller bakgrundsbild för ditt innehåll. Observera att bakgrundsbilden inte stöds av alla e-postklienter."
 
 När det gäller att ange bakgrunder med e-post-Designer rekommenderar Adobe följande:
 
@@ -140,7 +140,7 @@ Nedan visas de tillgängliga bakgrundsinställningarna som du kan använda.
 
   >[!NOTE]
   >
-  >Detta är det vanligaste användningsfallet. Adobe rekommenderar att du ställer in bakgrundsfärger på kolumnnivå eftersom detta ger större flexibilitet när du redigerar hela e-postinnehållet.
+  >Detta är det vanligaste användningsfallet. Adobe rekommenderar att du ställer in bakgrundsfärger på kolumnnivå så att du får större flexibilitet när du redigerar hela e-postinnehållet.
 
   Du kan också ange en bakgrundsbild på kolumnnivå, men den används sällan.
 

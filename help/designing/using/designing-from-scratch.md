@@ -11,7 +11,7 @@ exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 source-git-commit: 0079a924db522de8afc628ef50aa2c861e5a12ee
 workflow-type: tm+mt
 source-wordcount: '1229'
-ht-degree: 1%
+ht-degree: 13%
 
 ---
 
@@ -40,13 +40,13 @@ Du kan även kolla in den här [introduktionsvideon](https://video.tv.adobe.com/
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components"
->title="Om strukturkomponenter"
->abstract="Strukturkomponenter definierar layouten för e-postmeddelandet."
+>title="Om Strukturkomponenter"
+>abstract="Strukturella komponerar som definierar layouten i e-postmeddelandet."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns"
 >title="Definiera e-postkolumner"
->abstract="Med e-post-Designer kan du enkelt definiera layouten för e-postmeddelandet genom att definiera kolumnstrukturen."
+>abstract="Med E-postdesigner kan du enkelt definiera layouten för e-postmeddelandet genom att definiera kolumnstrukturen."
 
 Med e-post-Designer kan du enkelt definiera e-postens struktur. Genom att lägga till och flytta strukturella element med enkla dra-och-släpp-åtgärder kan du designa formen på e-postmeddelandet på några sekunder.
 
@@ -81,11 +81,11 @@ Så här redigerar du strukturen för ett e-postmeddelande:
 
 När strukturen har definierats kan du lägga till innehållsfragment och komponenter i e-postmeddelandet.
 
-## Använda en förrubrik {#preheader}
+## Använda en preheader {#preheader}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="Använda en förrubrik"
+>title="Använda en preheader"
 >abstract="Med preheader kan du konfigurera en kort sammanfattningstext som ger en högre öppningsfrekvens för din e-post."
 
 En förrubrik är en kort sammanfattningstext som följer efter ämnesraden när du visar ett e-postmeddelande från inkorgen. Förhuvudet ger en högre öppningshastighet.
@@ -100,11 +100,11 @@ Du kan lägga till en **[!UICONTROL Content block]**, en **[!UICONTROL Dynamic c
 >
 >Observera att preheader inte är kompatibel med alla e-postprogram. Om det inte stöds visas inte preheader.
 
-## Använda innehållskomponenter {#about-content-components}
+## Använda Innehållskomponenter {#about-content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components"
->title="Om innehållskomponenter"
+>title="Om Innehållskomponenter"
 >abstract="Innehållskomponenterna är tomma platshållare för innehåll som du kan redigera för att skapa ett e-postmeddelande."
 
 Innehållskomponenter är tomma, råa komponenter som du kan redigera när de har placerats i ett e-postmeddelande.
@@ -174,12 +174,12 @@ Infoga bildkomponenten i en strukturkomponent och klicka på Bläddra för att �
 
 Använd den här komponenten för att infoga länkar till sidor för sociala medier i ditt e-postmeddelande. Du kan välja vilka länkar du vill visa och storleken på ikonen för dem i **[!UICONTROL Component Settings]**.
 
-### Carousel {#carousel-settings}
+### Karusell {#carousel-settings}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"
->title="Carousel-inställningar"
->abstract="Lär dig hur du infogar och konfigurerar en Carousel i ditt innehåll.Observera att Carousel inte fungerar på alla e-postklienter och att en reservbild visas om den inte stöds."
+>title="Inställningar för Karusell"
+>abstract="Lär dig hur du infogar och konfigurerar en karusell i ditt innehåll. Observera att karusellen inte fungerar på alla e-postklienter och att en reservbild visas om den inte stöds."
 
 1. Dra och släpp **[!UICONTROL Carousel]**-komponenten inuti en strukturkomponent.
 1. Bläddra för att välja bilder från datorn.

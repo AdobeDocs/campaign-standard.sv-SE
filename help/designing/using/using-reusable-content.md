@@ -11,7 +11,7 @@ exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '1812'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -29,13 +29,13 @@ Lär dig hur du hanterar utgåvor av e-postinnehåll. Med Email Designer kan du 
 
 ### Om innehållsmallar {#content-templates}
 
-Du kan hantera HTML innehåll som erbjuds på fliken **[!UICONTROL Templates]** på hemsidan för [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
+Du kan hantera HTML-innehåll som finns på fliken **[!UICONTROL Templates]** på hemsidan för [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
 
 De färdiga mallarna för e-postinnehåll innehåller 18 mobiloptimerade layouter och fyra förstklassiga responsiva mallar som tagits fram av Behance-artister. De motsvarar bland annat de mest aktuella användningsområdena, som välkomstmeddelanden, nyhetsbrev och e-postmeddelanden om återengagemang. De kan enkelt anpassas med ert varumärkes innehåll för att underlätta processen att utforma e-postmeddelanden från grunden.
 
 ![](assets/template_content.png)
 
-HTML-innehållsmallarna är tillgängliga från skärmen **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** på menyn [Avancerat](../../start/using/interface-description.md#advanced-menu). Därifrån kan du hantera mallar för landningssidans innehåll, mallar för e-postinnehåll och även fragment.
+HTML-innehållsmallar är tillgängliga från skärmen **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** på menyn [Avancerat](../../start/using/interface-description.md#advanced-menu). Därifrån kan du hantera mallar för landningssidans innehåll, mallar för e-postinnehåll och även fragment.
 
 ![](assets/content_templates_list.png)
 
@@ -113,7 +113,7 @@ Nu kan du skapa en e-postmall med e-post-Designer. Använd innehållskomponenter
 
    ![](assets/des_loading_compatible_fragment_5.png)
 
-   Om du känner till HTML-koden rekommenderar Adobe att du använder **[!UICONTROL Html]**-komponenter där du kan kopiera och klistra in de mer komplexa elementen i det ursprungliga e-postmeddelandet. Använd andra komponenter som **[!UICONTROL Button]**, **[!UICONTROL Image]** eller **[!UICONTROL Text]** för resten av innehållet. Mer information finns i [Om innehållskomponenter](../../designing/using/designing-from-scratch.md#about-content-components).
+   Om du känner till HTML-kod rekommenderar Adobe att du använder **[!UICONTROL Html]**-komponenter där du kan kopiera och klistra in de mer komplexa elementen i det ursprungliga e-postmeddelandet. Använd andra komponenter som **[!UICONTROL Button]**, **[!UICONTROL Image]** eller **[!UICONTROL Text]** för resten av innehållet. Mer information finns i [Om innehållskomponenter](../../designing/using/designing-from-scratch.md#about-content-components).
 
    >[!NOTE]
    >
@@ -147,14 +147,14 @@ I dessa videofilmer visas hur du skapar en egen mall.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23106?quality=12)
 
-Ytterligare Campaign Standard om instruktionsvideor finns [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv).
+Ytterligare Campaign Standard instruktionsvideor finns [här](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv).
 
 ## Om fragment {#about-fragments}
 
 >[!CONTEXTUALHELP]
 >id="ac_fragments"
 >title="Om fragment"
->abstract="Ett fragment är ett återanvändbart innehållsblock som kan refereras i ett eller flera e-postmeddelanden."
+>abstract="Ett fragment är ett återanvändbart innehållsblock som kan refereras till i ett eller flera e-postmeddelanden."
 
 Ett fragment är en återanvändbar komponent som kan refereras i ett eller flera e-postmeddelanden.
 De finns i gränssnittet under **Resurser** > **Innehållsfragment och mallar**.
