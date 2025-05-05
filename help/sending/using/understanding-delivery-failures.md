@@ -90,7 +90,7 @@ Om du vill ändra varaktigheten för en leverans går du till de avancerade para
 
 >[!IMPORTANT]
 >
->**Parametern **[!UICONTROL Delivery duration]**i dina Campaign-leveranser används nu bara om den är inställd på 3,5 dagar eller mindre.** Om du anger ett värde som är högre än 3,5 dagar kommer det inte att tas med i beräkningen.
+>**Parametern &#x200B;** [!UICONTROL Delivery duration]&#x200B;**i dina Campaign-leveranser används nu bara om den är inställd på 3,5 dagar eller mindre.** Om du anger ett värde som är högre än 3,5 dagar kommer det inte att tas med i beräkningen.
 
 Om du till exempel vill att återförsök för en leverans ska stoppas efter en dag kan du ange leveransens varaktighet till **1d** och meddelandena i kön för återförsök kommer att tas bort efter en dag.
 

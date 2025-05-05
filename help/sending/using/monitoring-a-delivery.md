@@ -28,7 +28,7 @@ Det finns flera sätt att övervaka en leverans och mäta dess effekt. Som funkt
 
   Om du vill visa meddelandeloggarna klickar du på ikonen längst ned till höger i **[!UICONTROL Deployment]**-sektionen.
 
-  Flera flikar innehåller information (om de finns) gällande **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]** och **[!UICONTROL Tracking logs]****[!UICONTROL Tracked URLs]**.    Se [Leveransloggar](#delivery-logs).
+  Flera flikar innehåller information (om de finns) gällande **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]** och **[!UICONTROL Tracking logs]**&#x200B;**[!UICONTROL Tracked URLs]**.    Se [Leveransloggar](#delivery-logs).
 
   ![](assets/sending_delivery1.png)
 

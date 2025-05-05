@@ -68,13 +68,13 @@ Observera att produktlistor endast är tillgängliga i transaktionsmeddelanden *
 
 ## Varumärke {#permissions-and-branding}
 
-När det gäller [varumärkeshantering](../../administration/using/branding.md) ger transaktionsmeddelanden mindre flexibilitet än standardmeddelanden.    Adobe rekommenderar att alla varumärken som används i transaktionsmeddelanden kopplas till **[!UICONTROL All]** organisationsenheten [](../../administration/using/organizational-units.md).        För mer information, läs den detaljerade förklaringen nedan.
+När det gäller [varumärkeshantering](../../administration/using/branding.md) ger transaktionsmeddelanden mindre flexibilitet än standardmeddelanden.    Adobe rekommenderar att alla varumärken som används i transaktionsmeddelanden kopplas till **[!UICONTROL All]** organisationsenheten [&#128279;](../../administration/using/organizational-units.md).        För mer information, läs den detaljerade förklaringen nedan.
 
 När du redigerar ett transaktionsmeddelande kan du länka det till ett varumärke för att automatiskt tillämpa vissa parametrar som varumärkesnamnet eller märkeslogotypen.    Som standard är **[!UICONTROL Default brand]** alternativet markerat i egenskaperna för transaktionsmeddelanden.
 
 ![](assets/message-center_branding.png)
 
-Alla objekt (inklusive varumärke) som används i ett transaktionsmeddelande måste vara synliga från organisationsenheten, vilket innebär att objekten måste finnas i **[!UICONTROL Message Center]** eller **[!UICONTROL Message Center]****[!UICONTROL All]** organsationsenheterna.
+Alla objekt (inklusive varumärke) som används i ett transaktionsmeddelande måste vara synliga från organisationsenheten, vilket innebär att objekten måste finnas i **[!UICONTROL Message Center]** eller **[!UICONTROL Message Center]**&#x200B;**[!UICONTROL All]** organsationsenheterna.
 
 Om det varumärke som valts i meddelandeegenskaperna däremot är länkat till en organisationsenhet som skiljer sig från **[!UICONTROL Message Center]** eller **[!UICONTROL All]** så orsakar detta ett fel och du kommer inte att kunna skicka transaktionsmeddelandet.
 

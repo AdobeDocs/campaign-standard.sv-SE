@@ -116,7 +116,7 @@ Det maximala antalet försök som ska utföras om statusen **[!UICONTROL Erroneo
 
 >[!IMPORTANT]
 >
-Mottagare med en adress i en **[!UICONTROL Quarantine]**- eller **[!UICONTROL Denylisted]**-status tas aldrig bort, även om de får ett e-postmeddelande.
+>Mottagare med en adress i en **[!UICONTROL Quarantine]**- eller **[!UICONTROL Denylisted]**-status tas aldrig bort, även om de får ett e-postmeddelande.
 
 
 ### Manuella uppdateringar {#unquarantine-manual}
@@ -166,7 +166,7 @@ Om en användare kvalificerar ett e-postmeddelande som en skräppost ([feedbacks
 
 >[!NOTE]
 >
-Karantänen i Adobe Campaign är skiftlägeskänslig.    Se till att importera e-postadresser med små bokstäver så att inte e-postadresserna fortsätter att ta emot meddelanden.
+>Karantänen i Adobe Campaign är skiftlägeskänslig.    Se till att importera e-postadresser med små bokstäver så att inte e-postadresserna fortsätter att ta emot meddelanden.
 
 I listan med adresser i karantän (se [Identifiera adresser i karantän för hela plattformen](#identifying-quarantined-addresses-for-the-entire-platform)) så visar fältet **[!UICONTROL Error reason]** varför den valda adressen placerades i karantän.
 

@@ -149,7 +149,7 @@ Ditt mobilprogram kan nu användas i Campaign för push-meddelanden eller levera
 
 1. I avsnittet **[!UICONTROL Device-specific settings]** på kontrollpanelen för mobilprogram anger du programinformationen för varje enhet.
 
-   * +++ För iOS
+   +++*  För iOS
 
      Ange följande programinformation:
 
@@ -159,9 +159,9 @@ Ditt mobilprogram kan nu användas i Campaign för push-meddelanden eller levera
       * **iOS Team ID**: Mer information om iOS Team ID finns i [Apple-dokumentationen](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"}.
 
         ![](assets/mobile_app_ios_config.png)
-+++
+   +++
 
-   * +++ För Android
+   +++*  För Android
 
      Ange följande programinformation:
 
@@ -169,7 +169,7 @@ Ditt mobilprogram kan nu användas i Campaign för push-meddelanden eller levera
       * **Android Key (Json)-fil**: Dra och släpp .json-filen för privat nyckel. Instruktioner om hur du genererar den privata .json-nyckelfilen finns i [Developer-dokumentationen för Firebase](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}.
 
         ![](assets/mobile_app_android_config.png)
-+++
+   +++
 
 1. När ditt certifikat har överförts visas ett meddelande om att överföringen lyckades och certifikatets förfallodatum visas.
 

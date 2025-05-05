@@ -35,6 +35,7 @@ Migreringen till autentiseringsuppgifter för OAuth Server-till-Server är en en
 4. Den nya autentiseringsuppgiften **OAuth Server-to-Server** läggs till i navigeringen till vänster.
    * Klicka på Avbryt migrering om du vill avbryta migreringen.
    * Klicka inte på knappen Granska och ta bort förrän du verifierar om den nya autentiseringsuppgiften OAuth Server-to-Server fungerar.
+
      ![](assets/JwtToOAuthMigration3.png)
 
 5. Uppdatera inloggningsuppgifterna i Microsoft Dynamics 365 till Adobe Campaign Standard-appen
@@ -43,6 +44,7 @@ Migreringen till autentiseringsuppgifter för OAuth Server-till-Server är en en
    * Eftersom de nya autentiseringsuppgifterna för OAuth Server-till-Server använder samma autentiseringsuppgifter som de gamla JWT-autentiseringsuppgifterna (Service Account) fylls de flesta fälten redan i.
    * Ange klient-ID och klienthemlighet. Dessa finns i Adobe Developer Console projekt.
    * Klicka på Spara för att spara inställningarna.
+
      ![](assets/JwtToOAuthMigration4.png)
 
 6. Kontrollera om de nya autentiseringsuppgifterna fungerar
@@ -56,8 +58,11 @@ Migreringen till autentiseringsuppgifter för OAuth Server-till-Server är en en
    * Klicka på projekten och välj det projekt som du migrerade.
    * Klicka på fliken JWT-autentiseringsuppgifter (Service Account) i navigeringsfönstret till vänster.
    * Klicka på knappen Granska och ta bort.
+
      ![](assets/JwtToOAuthMigration5.png)
    * Granska tidsstämpeln för den senaste åtkomstmenyn eller den senast använda menyn för att verifiera om integreringsappen genererar åtkomsttoken med den nya OAuth-autentiseringen eller fortfarande använder den gamla JWT-autentiseringen.
+
      ![](assets/JwtToOAuthMigration6.png)
    * När det har bekräftats att integreringsappen använder den nya OAuth-autentiseringsuppgiften och inte längre använder JWT-autentiseringsuppgifter fortsätter du med att ta bort den gamla autentiseringsuppgiften genom att klicka på knappen **Bekräfta och fortsätta** och därmed slutföra migreringen.
+
      ![](assets/JwtToOAuthMigration7.png)

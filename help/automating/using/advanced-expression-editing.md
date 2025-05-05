@@ -107,7 +107,7 @@ JavaScript-uttryck består av ett eller flera villkor och de använder följande
 
   >[!NOTE]
   >
-  Typdata för **&lt;context>** och **&lt;value2>** måste vara identiska. Om till exempel **&lt;context>** är ett datum måste även **&lt;value2>** vara ett datum.
+  >Typdata för **&lt;context>** och **&lt;value2>** måste vara identiska. Om till exempel **&lt;context>** är ett datum måste även **&lt;value2>** vara ett datum.
 
 * Om du vill använda flera villkor kan de kombineras med logiska operatörer.
 
