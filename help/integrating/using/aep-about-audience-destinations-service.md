@@ -24,18 +24,18 @@ ht-degree: 2%
 >
 >Målgruppstjänsten är nu föråldrad. Det finns fortfarande funktioner som inte längre används, men de har inte förbättrats eller stöds inte längre. Läs mer [på den här sidan](../../rn/using/deprecated-features.md)
 
-Stärk era kundupplevelser genom att utnyttja [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html) för att skapa målgruppsanpassade målgrupper baserat på stora, komplexa datauppsättningar. Adobe Experience Platform konsoliderar profil-, beteendes- och multientitetsdata över både online- och offlinekällor, inklusive Adobe Analytics, för att hjälpa er att skapa en helhetsbild av era kunder, så att ni effektivt kan hantera era kundupplevelser.
+Stärk era kundupplevelser genom att utnyttja [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=sv-SE) för att skapa målgruppsanpassade målgrupper baserat på stora, komplexa datauppsättningar. Adobe Experience Platform konsoliderar profil-, beteendes- och multientitetsdata över både online- och offlinekällor, inklusive Adobe Analytics, för att hjälpa er att skapa en helhetsbild av era kunder, så att ni effektivt kan hantera era kundupplevelser.
 
 Adobe Campaign Standard använder sedan tjänsten **Målgrupper** för att hämta en samling profiler, så kallade **Målgrupper**, från Adobe Experience Platform för flerstegs- och/eller kanalövergripande kampanjprogram.
 
 **Publiker** skapas genom att först skapa **segment**, som är en uppsättning regler som baseras på praktiskt taget alla variabler (t.ex. profil-, händelse- och multientitetsdata) i en kundprofil från Adobe Experience Platform för att skapa ett flerdimensionellt mål. Det finns referenser till globala koncept för kundprofiler och segmenteringstjänster i realtid i dessa dedikerade dokument:
 
-* [Kundprofil i realtid - översikt](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
-* [Översikt över segmenteringstjänsten](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)
+* [Kundprofil i realtid - översikt](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=sv-SE)
+* [Översikt över segmenteringstjänsten](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=sv-SE)
 
 När ett segment har skapats kan du sedan aktivera det som en målgrupp för en leverans i [Campaign Standard](../../integrating/using/aep-targeting-audiences.md). Dessutom kan du använda kontextdata från Adobe Experience Platform för att [anpassa](../../integrating/using/aep-personalizing-campaigns.md) och lägga till dynamiskt innehåll i dina kampanjer.
 
-![](assets/do-not-localize/how-to-video.png) Instruktionsvideor är också tillgängliga i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html).
+![](assets/do-not-localize/how-to-video.png) Instruktionsvideor är också tillgängliga i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html?lang=sv-SE).
 
 Termer som används i dessa avsnitt:
 

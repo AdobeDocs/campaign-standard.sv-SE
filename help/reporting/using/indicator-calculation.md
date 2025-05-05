@@ -188,7 +188,7 @@ Tabellerna nedan visar en lista över indikatorer som används i de olika rappor
   <tr> 
    <td> Unika klick<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Unika klick beräknas med ThetaSketch-koncept. Mer information finns i <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exemplet</a>.<br /> </td> 
+   <td> Unika klick beräknas med ThetaSketch-koncept. Mer information finns i <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html?lang=sv-SE#unique-open-clicks-no-match">exemplet</a>.<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -268,7 +268,7 @@ Tabellerna nedan visar en lista över indikatorer som används i de olika rappor
   <tr> 
    <td> Unika öppningar<br /> </td> 
    <td> @uniqueopens<br /> </td> 
-   <td> Unika öppningar beräknas med ThetaSketch-koncept för unika RecipientIds. Mer information finns i <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exemplet</a>.<br /> </td> 
+   <td> Unika öppningar beräknas med ThetaSketch-koncept för unika RecipientIds. Mer information finns i <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html?lang=sv-SE#unique-open-clicks-no-match">exemplet</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Impressions<br /> </td> 
@@ -288,7 +288,7 @@ Tabellerna nedan visar en lista över indikatorer som används i de olika rappor
   <tr> 
    <td> Unika klick<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Unika klick beräknas med ThetaSketch-koncept. Mer information finns i <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exemplet</a>.<br /> </td> 
+   <td> Unika klick beräknas med ThetaSketch-koncept. Mer information finns i <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html?lang=sv-SE#unique-open-clicks-no-match">exemplet</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Klicka igenom frekvensen <br /> </td> 

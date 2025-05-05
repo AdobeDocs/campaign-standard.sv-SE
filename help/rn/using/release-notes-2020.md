@@ -36,7 +36,7 @@ ht-degree: 97%
 <tr> 
   <td> <p>Nu kan du använda <strong>kontrollgrupper</strong> för att mäta effekten av dina kampanjer genom att utesluta en del av deras målgrupp. Sedan kan du jämföra beteendet hos målpopulationen som fick meddelandet med beteendet hos kontakter som inte var med i målgrupperna. Baserat på de skickade loggarna kan du även inrikta dig på en kontrollgrupp i framtida kampanjer.
 </p>
-<p>Mer information finns i den <a href="../../sending/using/control-group.md">detaljerade dokumentationen</a> och <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html">instruktionsvideon</a>.
+<p>Mer information finns i den <a href="../../sending/using/control-group.md">detaljerade dokumentationen</a> och <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=sv-SE">instruktionsvideon</a>.
 </p>
 </td> 
 </tr> 
@@ -72,8 +72,8 @@ ht-degree: 97%
   <p>Journey AI använder sig av avancerat maskininlärningsprogram (ML) för att företag ska kunna optimera utformningen och leveransen av kundresor genom att förutsäga varje individs engagemang.</p>
   <P>Journey AI består av två ML-funktioner:</p>
 <ul> 
-     <li> <strong>Förutsägande engagemangsbedömning</strong> – identifierar på ett intelligent sätt kundernas preferenser för att bättre målinrikta och personalisera meddelanden vilket i sig ökar konverteringar och kvarhållning. Titta på <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">instruktionsvideon</a>.</li> 
-     <li> <strong>Förutsägande optimering av sändningstid</strong> – förutsäger bästa tiden att skicka e-postmeddelande till varje individ i en kampanj för att maximera engagemangsnivåer och förbättra e-postkampanjens avkastning. Titta på <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html">instruktionsvideon</a>.</li>
+     <li> <strong>Förutsägande engagemangsbedömning</strong> – identifierar på ett intelligent sätt kundernas preferenser för att bättre målinrikta och personalisera meddelanden vilket i sig ökar konverteringar och kvarhållning. Titta på <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html?lang=sv-SE">instruktionsvideon</a>.</li> 
+     <li> <strong>Förutsägande optimering av sändningstid</strong> – förutsäger bästa tiden att skicka e-postmeddelande till varje individ i en kampanj för att maximera engagemangsnivåer och förbättra e-postkampanjens avkastning. Titta på <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html?lang=sv-SE">instruktionsvideon</a>.</li>
     </ul>
   <p>Se den <a href="../../sending/using/predictive.md">detaljerade dokumentationen</a> och kontakta din kontoansvarige för mer information om hur du kommer igång med Journey AI. Observera att även om Journey AI är tillgängligt kostnadsfritt för befintliga Campaign-kunder ingår en 50 timmars implementeringskostnad.</p>
     </td> 
@@ -206,7 +206,7 @@ ht-degree: 97%
 <li>Rätt till åtkomst och rätt att ta bort: vi använder de funktioner som tillkommit för GDPR och CCPA.  <a href="https://helpx.adobe.com/se/campaign/kb/acs-privacy.html#righttoaccess">Lär dig mer</a> </li>
 <li><p>När en sekretessförfrågan har skapats har PDPA-föreskrifterna lagts till i Privacy Core-tjänsten.  Det är den här metoden du bör använda för alla förfrågningar gällande åtkomst och borttagning.  Användningen av Campaign-API:n och gränssnittet för förfrågan gällande åtkomst och borttagning är föråldrad.    Se <a href="../../rn/using/deprecated-features.md">artikeln Föråldrade och borttagna funktioner</a>.</p></li>
 </ul>
-<p>Se <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">instruktionsvideon</a>.</p>
+<p>Se <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html?lang=sv-SE">instruktionsvideon</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -227,7 +227,7 @@ ht-degree: 97%
 <li>markera och använda ett array från ett JSON-objekt utan att behöva namnge objektets "data" eller ha det på den översta nivån.</li>
 </ul>
 <p><strong>Varning:</strong> Kunderna måste <strong>ersätta alla externa API-betaaktiviteter</strong> med externa API-aktiviteter för GA i sina arbetsflöden.    Arbetsflöden som använder betaversionen av det externa API:n slutar fungera i 20.3.</p>
-<p>Mer information hittar du i den <a href="../../automating/using/external-api.md">detaljerade dokumentationen</a> och <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">instruktionsvideon</a>.</p>
+<p>Mer information hittar du i den <a href="../../automating/using/external-api.md">detaljerade dokumentationen</a> och <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=sv-SE">instruktionsvideon</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -320,7 +320,7 @@ ht-degree: 97%
  <tbody> 
   <tr> 
    <td> <p>Förutom att testa profiler kan du nu testa dina e-postmeddelanden med riktiga målprofiler. På så sätt kan du få en exakt representation av meddelandet som profilen får: Anpassade fält, dynamisk och anpassad information, inklusive ytterligare data från arbetsflöden, o.s.v. </p>
-    <p>Mer information finns i den <a href="../../sending/using/testing-messages-using-target.md">detaljerade dokumentationen</a> och <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">självstudievideon</a>. </p>
+    <p>Mer information finns i den <a href="../../sending/using/testing-messages-using-target.md">detaljerade dokumentationen</a> och <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html?lang=sv-SE">självstudievideon</a>. </p>
    </td> 
   </tr> 
  </tbody> 

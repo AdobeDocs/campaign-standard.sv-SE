@@ -88,7 +88,7 @@ Stegen för att skapa ett fristående meddelande i appen med Adobe Campaign är 
 
    * **[!UICONTROL Places]**: Följande tre kategorier utnyttjar platsdata i realtid för att leverera innehållsmässigt relevanta mobilupplevelser: Placerar kontextdata, Placerar anpassade metadata eller Placerar händelsetyp.
 
-     Mer information om Adobe Platser finns i [Platsdokumentationen](https://experienceleague.adobe.com/docs/places/using/home.html).
+     Mer information om Adobe Platser finns i [Platsdokumentationen](https://experienceleague.adobe.com/docs/places/using/home.html?lang=sv-SE).
 
    ![](assets/inapp_creating_4.png)
 

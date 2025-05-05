@@ -81,7 +81,7 @@ Adobe rekommenderar att du följer god praxis nedan för att undvika sådana pro
 
 Observera också att de offentliga IP-adresserna som du försöker initiera SFTP-anslutningen från måste läggas till i tillåtelselista i Campaign-instansen. Du kan begära att få lägga till IP-adresser till tillåtelselista via en [supportbiljett](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html), tillsammans med den offentliga nyckeln som ska användas för autentisering.
 
-SFTP-servrar kan hanteras från kontrollpanelen. Mer information finns i dokumentationen för [Kontrollpanelen](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html).
+SFTP-servrar kan hanteras från kontrollpanelen. Mer information finns i dokumentationen för [Kontrollpanelen](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=sv-SE).
 
 >[!NOTE]
 >

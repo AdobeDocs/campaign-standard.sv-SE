@@ -46,7 +46,7 @@ Kunder uppmanas att se över om de använder funktionen i den aktuella driftsät
  <tbody> 
   <tr> 
    <td> <p>Stödet för Adobe Experience Platform Mobile version 4 SDK upphör den 31 augusti 2021. Om du fortfarande använder den här äldre versionen av SDK i Adobe Campaign Standard måste du uppdatera din implementering med Adobe Experience Platform SDK <strong>före slutet av juni 2024</strong>. </p></br>
-   <p>Läs <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">den här artikeln</a> om du vill veta hur du kan anpassa implementeringen och gå över till den senaste Experience Platform SDK-versionen.</p></br>
+   <p>Läs <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html?lang=sv-SE">den här artikeln</a> om du vill veta hur du kan anpassa implementeringen och gå över till den senaste Experience Platform SDK-versionen.</p></br>
    <p><strong>Varning</strong>: SDK V4 stöds inte längre i Campaign Standarden från juni 2024.</p>
   </td> 
   </tr> 
@@ -64,8 +64,8 @@ Kunder uppmanas att se över om de använder funktionen i den aktuella driftsät
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Från och med Campaign 19.0 är den gamla e-postredigeraren inaktuell. Använd <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campaign Email Designer</a> för att skapa och anpassa ditt e-postinnehåll. </p></br>
-   <p>Läs <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">det här avsnittet</a> för att lära dig hur du anpassar e-postmallarna till den nya redigeraren.</p></br>
+   <td> <p>Från och med Campaign 19.0 är den gamla e-postredigeraren inaktuell. Använd <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html?lang=sv-SE">Campaign Email Designer</a> för att skapa och anpassa ditt e-postinnehåll. </p></br>
+   <p>Läs <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html?lang=sv-SE">det här avsnittet</a> för att lära dig hur du anpassar e-postmallarna till den nya redigeraren.</p></br>
   </td> 
   </tr> 
  </tbody> 
@@ -98,7 +98,7 @@ Det här avsnittet visar funktioner som har tagits bort från Campaign Standard.
  <tbody> 
   <tr> 
    <td> <p> Från och med Campaign Standard 21.3 är integreringen med tjänsten Målgruppsanpassningar föråldrad.  Den har nu tagits bort.</p>
-   <p>För ny implementering kan du inte längre integrera målgruppsanpassningen med Adobe Campaign Standard. Ni kan dock integrera Campaign och Adobe Experience Platform via Källor och Destinationer. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">Läs mer</a>.</p>
+   <p>För ny implementering kan du inte längre integrera målgruppsanpassningen med Adobe Campaign Standard. Ni kan dock integrera Campaign och Adobe Experience Platform via Källor och Destinationer. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=sv-SE">Läs mer</a>.</p>
      </td> 
   </tr> 
  </tbody> 
@@ -113,7 +113,7 @@ Det här avsnittet visar funktioner som har tagits bort från Campaign Standard.
  <tbody> 
   <tr> 
    <td> <p> Från och med Campaign Standard 21.3 är integreringen med Adobe Experience Platform Data Connector föråldrad.  Den har nu tagits bort.</p>
-   <p>För ny implementering kan du inte längre integrera Adobe Experience Platform Data Connector med Adobe Campaign Standard. Ni kan dock integrera Campaign och Adobe Experience Platform via Källor och Destinationer. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">Läs mer</a>.</p>
+   <p>För ny implementering kan du inte längre integrera Adobe Experience Platform Data Connector med Adobe Campaign Standard. Ni kan dock integrera Campaign och Adobe Experience Platform via Källor och Destinationer. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=sv-SE">Läs mer</a>.</p>
      </td> 
   </tr> 
  </tbody> 
@@ -130,7 +130,7 @@ Det här avsnittet visar funktioner som har tagits bort från Campaign Standard.
    <td> <p> Från och med Campaign 20.1 är SDK v4 föråldrat. Den har nu tagits bort. <a href="https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.htmlhtml?lang=sv">Läs mer</a>.</p><br/>
    <p><a href="https://developer.adobe.com/client-sdks/documentation/">Adobe Experience Platform Mobile SDK</a> (tidigare kallat v5) stöder nu endast kommande funktioner och funktioner i Adobe Experience Cloud.</p>
    <p>Efter den 31 augusti 2021 kan kunder fortsätta att hämta och använda version 4 SDK:er, men det finns ingen kundtjänst eller tillgång till forum.</p>
-   <p>Lär dig hur du migrerar från SDK v4 till Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">på den här sidan</a>.</p></br>
+   <p>Lär dig hur du migrerar från SDK v4 till Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html?lang=sv-SE">på den här sidan</a>.</p></br>
      </td> 
   </tr> 
  </tbody> 
@@ -145,7 +145,7 @@ Det här avsnittet visar funktioner som har tagits bort från Campaign Standard.
  <tbody> 
   <tr> 
    <td> <p>Från och med Campaign version 21.2 är användningen av API och gränssnitt i Campaign för åtkomst och borttagning inaktuell. Borttagningen av en profil i två steg är inte längre tillgänglig. Använd <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">Adobe sekretessbastjänst</a>.</p></br>
-   <p>Se även <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html">Hantera förfrågan om användarens information</a>.</p>
+   <p>Se även <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=sv-SE">Hantera förfrågan om användarens information</a>.</p>
   </td> 
   </tr> 
  </tbody> 
@@ -160,7 +160,7 @@ Det här avsnittet visar funktioner som har tagits bort från Campaign Standard.
  <tbody> 
   <tr> 
    <td> <p> Från och med april 2021 är funktionen Predictive Subject Line avvecklad.</p><br/>
-   <p>Vi föreslår att ni använder AI-baserade e-postfunktioner för att analysera och förutse öppningsfrekvenser, optimala sändningstider och sannolika bortfall baserat på historiska interaktionsvärden. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">Läs mer</a></p></br>
+   <p>Vi föreslår att ni använder AI-baserade e-postfunktioner för att analysera och förutse öppningsfrekvenser, optimala sändningstider och sannolika bortfall baserat på historiska interaktionsvärden. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html?lang=sv-SE">Läs mer</a></p></br>
      </td> 
   </tr> 
   </tbody> 
@@ -174,7 +174,7 @@ Det här avsnittet visar funktioner som har tagits bort från Campaign Standard.
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p><b>Benägenhetspoängen</b> har tagits bort från utlösare i Adobe Experience Cloud. Detta alternativ har därför tagits bort från Adobe Campaign Standard. För att undvika föråldrade värden på benägenhetspoängen i berikande scheman rekommenderar vi att du uppdaterar dem för att hämta de senaste ändringarna och publicera om befintliga utlösare. Mer information finns i <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html">Publicera en utlösare i Campaign</a>.
+   <td> <p><b>Benägenhetspoängen</b> har tagits bort från utlösare i Adobe Experience Cloud. Detta alternativ har därför tagits bort från Adobe Campaign Standard. För att undvika föråldrade värden på benägenhetspoängen i berikande scheman rekommenderar vi att du uppdaterar dem för att hämta de senaste ändringarna och publicera om befintliga utlösare. Mer information finns i <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=sv-SE">Publicera en utlösare i Campaign</a>.
 </p></br>
    </td> 
   </tr> 
@@ -205,7 +205,7 @@ Det här avsnittet visar funktioner som har tagits bort från Campaign Standard.
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Campaign och Adobe Experience Cloud har inte längre stöd för Microsoft Internet Explorer 11 från och med våren 2019 och Campaign version 19.2. Byt till Microsoft Edge eller en annan webbläsare som stöds. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/about-configuration-guidelines.html">Läs mer</a>.</p>
+   <td> <p>Adobe Campaign och Adobe Experience Cloud har inte längre stöd för Microsoft Internet Explorer 11 från och med våren 2019 och Campaign version 19.2. Byt till Microsoft Edge eller en annan webbläsare som stöds. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/about-configuration-guidelines.html?lang=sv-SE">Läs mer</a>.</p>
    </td> 
   </tr> 
  </tbody> 

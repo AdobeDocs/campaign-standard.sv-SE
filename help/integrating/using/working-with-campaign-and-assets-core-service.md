@@ -35,5 +35,5 @@ Bilden infogas sedan. Leveransen kan nu anpassas efter behov och skickas.
 
 **Relaterade ämnen:**
 
-* [Assets och delning](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html)
+* [Assets och delning](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html?lang=sv-SE)
 * [Innehållsredigerare](../../designing/using/personalization.md#example-email-personalization)

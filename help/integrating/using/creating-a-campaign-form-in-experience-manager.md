@@ -38,4 +38,4 @@ Så här skapar du ett Adobe Campaign-formulär på din AEM webbplats:
 1. Redigera innehållet i formuläret genom att lägga till olika fält och komponenter som du kan mappa till databasfälten i Adobe Campaign.
 1. Testa och publicera formuläret så att det blir tillgängligt på din AEM webbplats.
 
-Mer information finns i den [detaljerade dokumentationen](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html).
+Mer information finns i den [detaljerade dokumentationen](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html?lang=sv-SE).

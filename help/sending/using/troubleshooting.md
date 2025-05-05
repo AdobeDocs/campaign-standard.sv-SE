@@ -36,7 +36,7 @@ Om problemet kvarstår kontaktar du den kommersiella tjänsten, leveransprogramm
 
 * **Vad är skillnaden mellan en e-postadress på blockeringslista och en e-postadress i karantän?**
 
-   * Statusen **[!UICONTROL On denylist]** är ett resultat av en [feedbackslinga](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops) (när en person rapporterar ett meddelande som skräppost).
+   * Statusen **[!UICONTROL On denylist]** är ett resultat av en [feedbackslinga](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=sv-SE#feedback-loops) (när en person rapporterar ett meddelande som skräppost).
 
    * Statusen **[!UICONTROL Quarantined]** är ett resultat av ett mjukt eller hårt studsande.
 

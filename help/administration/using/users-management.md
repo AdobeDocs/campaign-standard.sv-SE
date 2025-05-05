@@ -19,7 +19,7 @@ ht-degree: 81%
 
 Med Adobe Campaign kan ni tilldela en uppsättning roller till era användare för att definiera vilken del av gränssnittet de kan komma åt.
 
-De specifika rollerna och de motsvarande behörigheterna beskrivs i följande avsnitt: [förstå roller](../../administration/using/list-of-roles.md) och [behörigheter](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf).
+De specifika rollerna och de motsvarande behörigheterna beskrivs i följande avsnitt: [förstå roller](../../administration/using/list-of-roles.md) och [behörigheter](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=sv-SE).
 
 Administratörer kan hantera användare från Admin Console. Användarna synkroniseras sedan automatiskt med Adobe Campaign.  Mer information finns i dokumentationen för [Admin Console](https://helpx.adobe.com/se/enterprise/using/users.html).
 
@@ -33,9 +33,9 @@ Om du vill komma åt gränssnittet för användarhantering från Adobe Campaign 
 
 **Relaterade ämnen:**
 
-* [Video om hantering av användarbehörigheter](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html)
+* [Video om hantering av användarbehörigheter](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html?lang=sv-SE)
 * [Lista över roller](../../administration/using/list-of-roles.md)
-* [Lista med tillstånd](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
+* [Lista med tillstånd](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=sv-SE)
 
 ## Typ av användare {#type-of-users}
 

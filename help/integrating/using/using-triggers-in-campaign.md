@@ -23,7 +23,7 @@ ht-degree: 74%
 >
 >Om du vill skapa utlösare måste du ha rollen **[!UICONTROL Administration]** eller vara i säkerhetsgruppen **[!UICONTROL Administrators]**. Mer information finns på [sidan](../../administration/using/list-of-roles.md).
 
-Du måste definiera de beteenden som du vill övervaka i förväg i Adobe Experience Cloud (**[!UICONTROL Triggers]** bastjänst). Mer information finns i dokumentationen för [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html). Observera att när du definierar utlösaren måste du aktivera aliasen. För varje beteende (surfning/formulärborttagning, tillägg/borttagning av produkter, session har gått ut, o.s.v.) måste en ny utlösare läggas till i Adobe Experience Cloud.
+Du måste definiera de beteenden som du vill övervaka i förväg i Adobe Experience Cloud (**[!UICONTROL Triggers]** bastjänst). Mer information finns i dokumentationen för [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=sv-SE). Observera att när du definierar utlösaren måste du aktivera aliasen. För varje beteende (surfning/formulärborttagning, tillägg/borttagning av produkter, session har gått ut, o.s.v.) måste en ny utlösare läggas till i Adobe Experience Cloud.
 
 Nu måste du skapa en utlösande händelse i Adobe Campaign baserat på en befintlig Adobe Experience Cloud-utlösare.
 

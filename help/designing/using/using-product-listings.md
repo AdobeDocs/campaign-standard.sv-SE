@@ -26,7 +26,7 @@ När du redigerar innehållet i ett transaktionsmejl kan du skapa produktlistor 
 
 Följ stegen nedan om du vill lägga till en lista över övergivna produkter i ett transaktionsmeddelande.
 
-Du kan också titta på [den här uppsättningen videoklipp](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html#configure-product-listings-in-transactional-emails) som förklarar de steg som krävs för att konfigurera produktlistor i ett transaktionsmejl.
+Du kan också titta på [den här uppsättningen videoklipp](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=sv-SE#configure-product-listings-in-transactional-emails) som förklarar de steg som krävs för att konfigurera produktlistor i ett transaktionsmejl.
 
 >[!NOTE]
 >

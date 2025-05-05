@@ -24,9 +24,9 @@ ht-degree: 3%
 >
 >Målgruppstjänsten är för närvarande i betaversion, som kan uppdateras ofta utan föregående meddelande. Kunderna måste vara värdbaserade på Azure (för närvarande endast betaversioner för Nordamerika) för att få tillgång till dessa funktioner. Kontakta Adobe kundtjänst om du vill ha tillgång till tjänsten.
 
-Med segmentbyggaren kan du skapa målgrupper genom att definiera regler som baseras på data från [kundprofilen i realtid](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
+Med segmentbyggaren kan du skapa målgrupper genom att definiera regler som baseras på data från [kundprofilen i realtid](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=sv-SE).
 
-I det här avsnittet beskrivs globala koncept när du skapar ett segment. Mer information om själva segmentbyggaren finns i användarhandboken för [Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+I det här avsnittet beskrivs globala koncept när du skapar ett segment. Mer information om själva segmentbyggaren finns i användarhandboken för [Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=sv-SE).
 
 Segment Builder-gränssnittet består av följande:
 
@@ -48,7 +48,7 @@ Segmentverktyget bör nu visas på arbetsytan. Det gör att ni kan skapa ett seg
 
 1. Se till att den sammanfogningsprincip du vill använda är markerad i inställningspanelen.
 
-   Mer information om sammanfogningsprinciper finns i det dedikerade avsnittet i användarhandboken för [Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   Mer information om sammanfogningsprinciper finns i det dedikerade avsnittet i användarhandboken för [Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=sv-SE).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -66,7 +66,7 @@ Segmentverktyget bör nu visas på arbetsytan. Det gör att ni kan skapa ett seg
 
 I den vänstra rutan visas alla attribut, händelser och målgrupper som är tillgängliga för att skapa regler.
 
-Fälten i listan är attribut som hämtats av ditt företag och har gjorts tillgängliga via [Experience Data Model (XDM) System](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
+Fälten i listan är attribut som hämtats av ditt företag och har gjorts tillgängliga via [Experience Data Model (XDM) System](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=sv-SE).
 
 Fälten är ordnade i flikar:
 
@@ -82,7 +82,7 @@ Fälten är ordnade i flikar:
 >
 >**Segmentering för flera enheter** gör att du kan utöka profildata med ytterligare data baserat på produkter, butiker eller andra klasser som inte är profiler. När de är anslutna blir data från ytterligare klasser tillgängliga som om de vore inbyggda i profilschemat.
 >
->Mer information om detta hittar du i den [dedikerade dokumentationen](https://experienceleague.adobe.com/docs/experience-platform/segmentation/multi-entity-segmentation.html).
+>Mer information om detta hittar du i den [dedikerade dokumentationen](https://experienceleague.adobe.com/docs/experience-platform/segmentation/multi-entity-segmentation.html?lang=sv-SE).
 
 Som standard visar Segment Builder fält där data redan finns. Om du vill visa det fullständiga schemat, inklusive fält för vilka data inte finns, aktiverar du alternativet **[!UICONTROL Show full XDM schema]** från inställningarna.
 
@@ -96,7 +96,7 @@ Symbolen i slutet av varje fält innehåller ytterligare information om attribut
 
 >[!NOTE]
 >
->Avsnittet nedan innehåller global information om regeldefinition. Mer information finns i användarhandboken för [Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+>Avsnittet nedan innehåller global information om regeldefinition. Mer information finns i användarhandboken för [Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=sv-SE).
 
 Så här skapar du en regel:
 

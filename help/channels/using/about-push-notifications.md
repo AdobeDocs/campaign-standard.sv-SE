@@ -80,7 +80,7 @@ Innan du skickar ett push-meddelanden bör du:
 
 Läs resurserna nedan:
 
-* [Tutorials Video](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
+* [Tutorials Video](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html?lang=sv-SE)
 * [Produktdokumentation](../../channels/using/about-push-notifications.md)
 * Konfigurera med AEP SDK [dokumentation](../../administration/using/configuring-a-mobile-application.md)
 * [Community-sida](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)

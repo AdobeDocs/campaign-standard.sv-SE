@@ -55,7 +55,7 @@ Om du redan använder Adobe Campaign Standard för att skicka push-meddelanden m
 
 * Om du fortfarande använder den här äldre versionen av SDK måste du uppdatera implementeringen med Adobe Experience Platform SDK. Lär dig hur du migrerar till Adobe Experience Platform SDK i [den här artikeln](sdkv4-migration.md).
 
-* Kontrollera att du har behörighet **Mobile App Configuration** i Adobe Experience Platform Data Collection Mobile innan du utför stegen nedan. [Läs mer](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=en#adobe-experience-platform-data-collection-permissions){target="_blank"}.
+* Kontrollera att du har behörighet **Mobile App Configuration** i Adobe Experience Platform Data Collection Mobile innan du utför stegen nedan. [Läs mer](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=sv-SE#adobe-experience-platform-data-collection-permissions){target="_blank"}.
 
 
 #### Övergångsförfarande {#fcm-transition-steps}

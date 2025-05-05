@@ -24,4 +24,4 @@ ht-degree: 0%
 
 Med slutpunkten **geoUnitBase** kan du interagera med geografiska enheter, så att du till exempel kan uppdatera deras attribut eller uppdatera en profils enhet.
 
-Fältet **Geografisk enhet** läggs till i en profil när profilresursen utökas. Kom därför ihåg att alltid använda slutpunkten **profileAndServicesExt** för att interagera med geografiska enheter. Mer information om profilens resurstillägg finns i [Kampanjdokumentationen](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles).
+Fältet **Geografisk enhet** läggs till i en profil när profilresursen utökas. Kom därför ihåg att alltid använda slutpunkten **profileAndServicesExt** för att interagera med geografiska enheter. Mer information om profilens resurstillägg finns i [Kampanjdokumentationen](https://helpx.adobe.com/se/campaign/standard/administration/using/organizational-units.html#partitioning-profiles).

@@ -162,7 +162,7 @@ Följande skyddsförslag bör beaktas när du planerar att använda integreringe
 
   När du beräknar den totala samtalsvolymen för Campaign-motorn är det viktigt att du tar hänsyn till andra källor för motoranrop, som landningssidor, WebApps, JSSP, API:er, mobilappsregistreringar osv.
 
-  Visa Adobe Campaign Standard-paketinformation här: [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/se/legal/product-descriptions/campaign-standard.html)
+  Visa Adobe Campaign Standard-paketinformation här: [https://helpx.adobe.com/se/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/se/legal/product-descriptions/campaign-standard.html)
 
 * Integreringen stöder maximalt 15 miljoner poster totalt för den första synkroniseringen med resurser i Campaign. Inkrementell synkronisering begränsas av Adobe Campaign Standard-paketet.
 

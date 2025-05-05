@@ -25,7 +25,7 @@ Säkerhetsgrupper är uppsättningar av användare som delar samma roller och r�
 
 Användare måste alltid vara länkade till en säkerhetsgrupp.  På så sätt kan du tilldela dem specifika roller och organisationsenheter. Om du vill begränsa en användares åtkomst ska du inte lägga till användaren i gruppen Campaign **[!UICONTROL Standard Users]** eftersom den är länkad till organisationsenheten **[!UICONTROL All]**.
 
-Om du vill ha mer information om roller visar tabellen på följande sida möjliga åtgärder som är tillgängliga enligt en användares roll(er): [Adobe Campaign Standard-auktoriseringar](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf).
+Om du vill ha mer information om roller visar tabellen på följande sida möjliga åtgärder som är tillgängliga enligt en användares roll(er): [Adobe Campaign Standard-auktoriseringar](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=sv-SE).
 
 De säkerhetsgrupper som finns som standard är:
 

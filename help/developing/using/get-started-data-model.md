@@ -63,5 +63,5 @@ Med Campaign Standard-API:er kan du skapa integreringar för Adobe Campaign Stan
 
 ## Ytterligare resurser
 
-* [Exporterar/importerar anpassade resurser](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)
+* [Exporterar/importerar anpassade resurser](https://helpx.adobe.com/se/campaign/kb/acs-get-started-with-cusres.html)
 * [Exportera data från Campaign till Adobe Experience Platform](../../integrating/using/export-campaign-data.md)

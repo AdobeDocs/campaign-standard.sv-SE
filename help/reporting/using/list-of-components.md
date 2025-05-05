@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Mer information om kompatibilitet mellan dimensioner och mått finns i den här [tabellen](/help/reporting/using/assets/dynamic_report_compatibility.pdf). Om två komponenter inte är kompatibla visas värdet **Ingen** i cellen.
 
-[![bild](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
+[![bild](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=sv-SE)
 
 ## Dimensioner {#dimensions}
 

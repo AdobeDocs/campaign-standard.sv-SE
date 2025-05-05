@@ -168,4 +168,4 @@ I den här videon visas en översikt över e-post-Designer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
-Titta på den här [uppsättningen videor](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) som förklarar de allmänna funktionerna i e-postprogrammet för Designer och hur du utformar ett e-postmeddelande från grunden eller använder mallar för att komma igång med e-postprogrammet
+Titta på den här [uppsättningen videor](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=sv-SE#GettingStarted) som förklarar de allmänna funktionerna i e-postprogrammet för Designer och hur du utformar ett e-postmeddelande från grunden eller använder mallar för att komma igång med e-postprogrammet

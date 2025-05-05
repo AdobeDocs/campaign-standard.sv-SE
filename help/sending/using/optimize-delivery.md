@@ -52,7 +52,7 @@ Om du vill nå mottagarnas inkorg utan att studsa eller markeras som skräppost 
 
    * När du kontrollerar om e-postmeddelandet kan levereras vill du fokusera på fyra huvudkategorier: datakvalitet, meddelande och innehåll, avsändarinfrastruktur och anseende. Mer information om det här avsnittet finns i [det här avsnittet](../../sending/using/about-deliverability.md).
 
-* När du startar en ny plattform ska du tillämpa de rekommendationer som anges på [den här sidan](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process).
+* När du startar en ny plattform ska du tillämpa de rekommendationer som anges på [den här sidan](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html?lang=sv-SE#transition-process).
 
 * Kontakta din Adobe-representant om du behöver hjälp.
 

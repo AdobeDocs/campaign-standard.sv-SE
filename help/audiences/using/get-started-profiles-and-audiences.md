@@ -89,4 +89,4 @@ Sekretess och samtycke i Campaign och hur du hanterar dem visas i [det här avsn
 * [Arbeta med Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
 * [Delade målgrupper i Adobe](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [Använda arbetsflöden för att importera profiler](../../automating/using/creating-import-workflow-templates.md)
-* [Profiler och målgrupper - videor](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
+* [Profiler och målgrupper - videor](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html?lang=sv-SE)

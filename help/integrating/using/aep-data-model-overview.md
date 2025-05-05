@@ -33,7 +33,7 @@ XDM Workspace ger möjlighet att visa, skapa och utöka datarotor.
 
 Öppna Adobe Experience Platform för att få åtkomst till XDM-användargränssnittet. Navigera till datamodellfönstret för att skapa eller utöka ett XDM-schema.
 
-Läs den fullständiga [XDM Workspace-dokumentationen](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
+Läs den fullständiga [XDM Workspace-dokumentationen](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=sv-SE).
 
 ![](assets/aep_xdmworkspace.png)
 
@@ -48,4 +48,4 @@ Du kan utföra följande åtgärder via XDM Schema API:
 * Visa schemabeskrivningar
 * Skapa, uppdatera och ta bort schemabeskrivningar
 
-All information om hur du hanterar API-anrop finns i [Utvecklarhandbok](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
+All information om hur du hanterar API-anrop finns i [Utvecklarhandbok](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=sv-SE).

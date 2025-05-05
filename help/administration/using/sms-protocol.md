@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->**SMS-anslutningsprotokollet och inställningarna** för Adobe Campaign Classic finns på den här [sidan](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html).
+>**SMS-anslutningsprotokollet och inställningarna** för Adobe Campaign Classic finns på den här [sidan](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html?lang=sv-SE).
 >
 >I det här dokumentet refererar alla referenser till detaljer om protokollet, fältnamnen och värdena till specifikationen [SMPP 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 

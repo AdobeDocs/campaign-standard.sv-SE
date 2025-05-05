@@ -117,7 +117,7 @@ ht-degree: 3%
 
 **Förbättringar**
 
-* Tack vare integreringen med Adobe Campaign och Adobe Target kan du nu utnyttja Target [Permissions](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html) -funktion. När du inkluderar en dynamisk bild från Adobe Target i ett e-postmeddelande kan du nu ange en målegenskap (at_property-kod).
+* Tack vare integreringen med Adobe Campaign och Adobe Target kan du nu utnyttja Target [Permissions](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=sv-SE) -funktion. När du inkluderar en dynamisk bild från Adobe Target i ett e-postmeddelande kan du nu ange en målegenskap (at_property-kod).
 * Anpassade resurser som har en egen kopieringslänk till profilresursen beaktas nu av förfrågningar om åtkomst/borttagning av sekretess i GDPR. För 1 enkel kardinalitetslänkar och N kardinalitetssamlingslänkar måste du välja&quot;Att ta bort/duplicera målposten innebär att de poster som länken refererar till tas bort/dupliceras&quot; i den anpassade resursen. För enkla länkar med 0 eller 1 kardinalitet väljer du&quot;Om du tar bort/duplicerar posten innebär det att målposten som länken refererar till tas bort/dupliceras&quot;.
 
 **Andra ändringar**
@@ -195,7 +195,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td> GDPR: Integrering av bastjänst <br /> </td> 
-   <td> Integritet Core Service Integration gör att ni kan automatisera era GDPR-förfrågningar i ett flerlösningssammanhang via ett enda JSON API-anrop. <br /> GDPR-begäranden som puffas från sekretesskärntjänsten till alla Experience Cloud-lösningar hanteras nu automatiskt av Campaign. <br /> Mer information finns i <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">detaljerad dokumentation</a>.<br /> </td> 
+   <td> Integritet Core Service Integration gör att ni kan automatisera era GDPR-förfrågningar i ett flerlösningssammanhang via ett enda JSON API-anrop. <br /> GDPR-begäranden som puffas från sekretesskärntjänsten till alla Experience Cloud-lösningar hanteras nu automatiskt av Campaign. <br /> Mer information finns i <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=sv-SE">detaljerad dokumentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Push-förbättringar - detaljerad leveransfeedback<br /> </td> 
@@ -297,7 +297,7 @@ _Anpassade resurser_
     <ul> 
      <li> Åtkomst: ger den registrerade möjlighet att få en kopia av sina personuppgifter som samlats in av personuppgiftsansvariga, inklusive uppgifter som lagrats i Adobe Campaign. </li> 
      <li> Rätt att radera: ger den registrerade rätt att radera sina personuppgifter som registrerats av personuppgiftsansvariga, inklusive uppgifter som lagrats i Adobe Campaign. </li> 
-    </ul> Mer information finns i <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">detaljerad dokumentation</a>.<br /> </td> 
+    </ul> Mer information finns i <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=sv-SE">detaljerad dokumentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer for Email (Beta)<br /> </td> 
@@ -461,7 +461,7 @@ Vissa problem kan uppstå när sammanhangsberoende hjälplänkar från gränssni
      <li> hämta bilder eller andra mediefiler och lägga till dem som bilagor i ett meddelande </li> 
      <li> ändra brödtexten eller rubriktexten i ett meddelande </li> 
      <li> lägga till en trådidentifierare i ett meddelande </li> 
-    </ul> Mer information om innehåll finns i <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">detaljerad dokumentation</a>.<br /> <strong>Varning!</strong> Dessa uppdateringar för push-meddelanden kräver att kunderna uppgraderar sina mobilprogram. Mer information finns i <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html">den här tekniken</a>.<br /> </td> 
+    </ul> Mer information om innehåll finns i <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">detaljerad dokumentation</a>.<br /> <strong>Varning!</strong> Dessa uppdateringar för push-meddelanden kräver att kunderna uppgraderar sina mobilprogram. Mer information finns i <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html?lang=sv-SE">den här tekniken</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Tidszonsoptimerade leveranser<br /> </td> 
