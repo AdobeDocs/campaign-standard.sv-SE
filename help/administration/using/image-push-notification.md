@@ -52,7 +52,7 @@ När du har anpassat ditt push-meddelande i Adobe Campaign måste du konfigurera
 
 >[!NOTE]
 >
->Om ditt program är i mål-C, se följande [dokumentation](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html).
+>Om ditt program är i mål-C, se följande [dokumentation](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html?lang=sv-SE).
 
 Om din app finns i [!DNL Swift] följer du stegen nedan:
 

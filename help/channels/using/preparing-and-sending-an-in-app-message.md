@@ -80,7 +80,7 @@ Stegen för att skapa ett fristående meddelande i appen med Adobe Campaign är 
 
    * **[!UICONTROL Life Cycle events]**: Körklara livscykelhändelser som stöds av Adobe Mobile SDK.
 
-     Mer information om livscykelhändelser finns på den här [sidan](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html).
+     Mer information om livscykelhändelser finns på den här [sidan](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=sv-SE).
 
    * **[!UICONTROL Analytics Events]**: Följande tre kategorier stöds beroende på vad som finns i din mobilapp: Adobe Analytics, Kontextdata eller Vytillstånd.
 
