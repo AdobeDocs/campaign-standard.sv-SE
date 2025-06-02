@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 8da7d90905745b99f52841483a2d540e9781104e
+source-git-commit: c2c732bc3dff7ee1a140af5a102e388f394ade52
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ Uppgraderingar distribueras i två faser. För det första uppgraderas stadieins
 
 Alla versionsdatum kan ändras: besök den här sidan regelbundet för att se om det finns några uppdateringar. Miljöuppdateringar sker stegvis under de angivna tidsramarna nedan. Exakta datum meddelas till varje kund via e-post.
 
-## Version 25.1 – vinterversion 2025 {#release-25-1-release}
+## Version 25.2 – Sommarversion 2025 {#release-25-2-release}
 
 Detaljerad information om denna version finns i [versionsinformationen](release-notes.md) när uppgraderingarna av stadiemiljön startar.
 
@@ -40,12 +40,12 @@ Detaljerad information om denna version finns i [versionsinformationen](release-
  <tbody>
   <tr>
    <td>Stadie </td>
-   <td>7 jan till 4 feb 2025 </td>
+   <td>8 juli - 19 aug 2025 </td>
    <!--td>2025 - Dates to be confirmed</td-->
   </tr>
   <tr>
    <td>Produktion </td>
-   <td>13 jan till 25 feb 2025 </td>
+   <td>15 juli - 27 augusti 2025 </td>
    <!--td>2025 - Dates to be confirmed</td-->
   </tr>
  </tbody>
