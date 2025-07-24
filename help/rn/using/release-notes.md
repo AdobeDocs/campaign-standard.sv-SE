@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 48cb3341c9f987bd275414c91dc8141f4fae719d
-workflow-type: ht
-source-wordcount: '201'
-ht-degree: 100%
+source-git-commit: c1f64589578c144a9b8eb879684f27834efaf8d8
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 77%
 
 ---
 
@@ -26,6 +26,21 @@ This section lists improvements and changes included in the next Campaign Standa
 >This content is subject to changes without prior notice until the stage environments upgrade date. Learn more in the [Release planning page](../../rn/using/release-planning.md).
 
 -->
+
+## Version 25.2 – Sommarversion 2025 {#summer-25}
+
+### Säkerhetskorrigeringar {#summer-25-security}
+
+* Den här versionen innehåller säkerhetskorrigeringar.
+* Den här versionen innehåller följande säkerhetsuppgradering: PostgreSQL 14.18, migrering från CentOS till Rocky för Azure-instanser.
+
+### Andra korrigeringar {#summer-25-fixes}
+
+* Förbättrad hantering av sekvenstömning för att öka systemets tillförlitlighet. (CAMP-57281)
+* Allmänna produktstabiliseringsuppdateringar. (CAMP-57339)
+* Förbättrad dynamisk rapportering för bättre tillförlitlighet och färre datamatchningsfel. (CAMP-58157)
+* Korrigerade ett problem där nedrullningsbara menyer inte figursatte text korrekt. (CAMP-57360)
+* Uppdaterad rapporteringsfunktion som förhindrar användare att fråga data som är äldre än två år. (CAMP-59262)
 
 ## Version 25.1.2 {#25.1.2}
 
