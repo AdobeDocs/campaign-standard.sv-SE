@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: c1f64589578c144a9b8eb879684f27834efaf8d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ This section lists improvements and changes included in the next Campaign Standa
 ### Andra korrigeringar {#summer-25-fixes}
 
 * Förbättrad hantering av sekvenstömning för att öka systemets tillförlitlighet. (CAMP-57281)
-* Allmänna produktstabiliseringsuppdateringar. (CAMP-57339)
+* Allmänna uppdateringar om produktstabilisering. (CAMP-57339)
 * Förbättrad dynamisk rapportering för bättre tillförlitlighet och färre datamatchningsfel. (CAMP-58157)
 * Korrigerade ett problem där nedrullningsbara menyer inte figursatte text korrekt. (CAMP-57360)
 * Uppdaterad rapporteringsfunktion som förhindrar användare att fråga data som är äldre än två år. (CAMP-59262)
