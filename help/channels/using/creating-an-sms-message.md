@@ -29,7 +29,7 @@ Om du vill skapa och skicka SMS-meddelanden till en mobiltelefon behöver du:
 * Ett externt **[!UICONTROL Routing]**-konto som har konfigurerats i kanalen **[!UICONTROL Mobile (SMS)]** med läge **[!UICONTROL Bulk delivery]**. Mer information om detta hittar du i avsnittet [Dirigering](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) .
 * En leveransmall som är korrekt länkad till det här externa kontot.
 
-1. Skapa en SMS-leverans. Du kan göra det på Adobe Campaigns [hemsida](../../start/using/interface-description.md#home-page), i en [kampanj](../../start/using/marketing-activities.md#creating-a-marketing-activity) eller i [ listan med marknadsföringsaktiviter](../../start/using/programs-and-campaigns.md#creating-a-campaign).
+1. Skapa en SMS-leverans. Du kan göra det på Adobe Campaigns [hemsida](../../start/using/interface-description.md#home-page), i en [kampanj](../../start/using/marketing-activities.md#creating-a-marketing-activity) eller i [&#x200B; listan med marknadsföringsaktiviter](../../start/using/programs-and-campaigns.md#creating-a-campaign).
 
    Du kan också lägga till en SMS-aktivitet i ett arbetsflöde. Mer information om detta hittar du i handboken [Arbetsflöden](../../automating/using/sms-delivery.md).
 

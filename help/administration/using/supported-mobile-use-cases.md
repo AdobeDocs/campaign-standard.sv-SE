@@ -276,7 +276,7 @@ if (deliveryId != nil && broadlogId != nil) {
 I Android krävs följande [!DNL Experience Platform SDK]:
 
 * **[!UICONTROL trackAction]**
-Mer information finns i [Spåra programåtgärder ](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) .
+Mer information finns i [Spåra programåtgärder &#x200B;](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) .
 
 Här följer ett exempel på implementering för det här användningsexemplet med Android:
 
@@ -306,7 +306,7 @@ ACPCore.trackAction(mobileEventName, data: [:] )
 I Android krävs följande [!DNL Experience Platform SDK]:
 
 * **[!UICONTROL trackAction]**
-Mer information finns i [Spåra programåtgärder ](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) .
+Mer information finns i [Spåra programåtgärder &#x200B;](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) .
 
 Här följer ett exempel på implementering för det här användningsexemplet med Android:
 

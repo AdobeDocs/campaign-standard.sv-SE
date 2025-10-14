@@ -75,7 +75,7 @@ Personaliserade meddelanden är avgörande för att skicka relevant innehåll, e
 * Infoga [fördefinierade personaliseringsblock](../../designing/using/personalization.md#adding-a-content-block)
 * [Anpassa avsändaren](../../designing/using/subject-line.md) för ett e-postmeddelande eller ett SMS
 * [Anpassa ämnesraden](../../designing/using/subject-line.md) i ett e-postmeddelande
-* Skapa [villkorligt innehåll i ett e-postmeddelande](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) eller [ på en landningssida](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
+* Skapa [villkorligt innehåll i ett e-postmeddelande](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) eller [&#x200B; på en landningssida](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
 * Infoga [dynamisk text](../../channels/using/defining-dynamic-text.md) i ett SMS eller ett push-meddelande
 
 ![](assets/delivery_content_43.png)

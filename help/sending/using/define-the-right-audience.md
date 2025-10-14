@@ -32,7 +32,7 @@ För att leveransen ska bli framgångsrik vill ni skicka det mest relevanta pers
 
 Som standard är leveransmallar avsedda för **profiler**. Adobe Campaign erbjuder andra målmappningar för leveranser som du kan ändra efter behov.
 
-Dessa mappningar presenteras [ i det här avsnittet](../../automating/using/query.md#targeting-dimensions-and-resources).
+Dessa mappningar presenteras [&#x200B; i det här avsnittet](../../automating/using/query.md#targeting-dimensions-and-resources).
 
 Du kan också skapa och använda en anpassad målmappning. Mer information om detta finns i [det här avsnittet](../../administration/using/target-mappings-in-campaign.md).
 

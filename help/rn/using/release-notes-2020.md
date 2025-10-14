@@ -113,7 +113,7 @@ ht-degree: 97%
 * När du publicerar en anpassad resurs visas nu ett bekräftelsemeddelande efter att den har förberetts.
 * Popup-meddelandet som visas när en anpassad resurs misslyckas har förbättrats för att bli tydligare.
 * Uttrycksredigeraren i arbetsflöden har förbättrats för att förhindra körningsfel. [Nya funktioner](../../automating/using/customizing-workflow-external-parameters.md) är tillgängliga: de kan användas i alla aktiviteter som låter dig använda händelsevariabler efter att ha anropat ett arbetsflöde med externa parametrar. Dessutom visas nu ett verktygstips i uttrycksredigeraren med funktionsbeskrivningen.
-* [Nya filter har lagts till i listan över transaktionshändelser. ](../../channels/using/configuring-transactional-event.md#searching-transactional-events) Du kan nu filtrera händelsekonfigurationerna enligt deras status samt den senaste gången en händelse togs emot.
+* [Nya filter har lagts till i listan över transaktionshändelser. &#x200B;](../../channels/using/configuring-transactional-event.md#searching-transactional-events) Du kan nu filtrera händelsekonfigurationerna enligt deras status samt den senaste gången en händelse togs emot.
 * Loggfilerna som visas när du exporterar paket har gjorts mer specifika och detaljerade om de fel som eventuellt påträffades.
 * När du har skickat ett meddelande kan du nu söka efter, filtrera och exportera listan med [spårade webbadresser](../../sending/using/tracking-messages.md).
 * Automatisk [synkronisering mellan Launch och Campaign](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) är nu GA och aktiverat som standard.

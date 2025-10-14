@@ -132,7 +132,7 @@ Om du vill skapa och konfigurera den här landningssidan måste du:
 
    och ange värdet till **true**.
 
-   Detta är obligatoriskt för att tvinga besökare som inte bekräftat sitt avtal att lägga till i blockeringslista och undvika att skicka meddelanden till dem. Valideringen av landningssidan för BEKRÄFTELSE anger att fältet ska vara **false** efter bekräftelsen. Mer information finns i [Steg 1: Skapa landningssidan för bekräftelse ](#step-1--create-the-confirmation-landing-page).
+   Detta är obligatoriskt för att tvinga besökare som inte bekräftat sitt avtal att lägga till i blockeringslista och undvika att skicka meddelanden till dem. Valideringen av landningssidan för BEKRÄFTELSE anger att fältet ska vara **false** efter bekräftelsen. Mer information finns i [Steg 1: Skapa landningssidan för bekräftelse &#x200B;](#step-1--create-the-confirmation-landing-page).
 
 1. Välj alternativet **[!UICONTROL Start sending messages]** i avsnittet **[!UICONTROL Job]** > **[!UICONTROL Specific actions]**.
 1. I den associerade listrutan väljer du mallen **BEKRÄFTA** för transaktionsmeddelanden som du har skapat.

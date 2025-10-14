@@ -320,11 +320,11 @@ Om du **INTE** kör den senaste versionen av Campaign gäller fortfarande de par
 
 ### Försök igen {#legacy-retries}
 
-Inställningarna **[!UICONTROL Retries]** på [Konfigurationsmenyn](#email-channel-parameters) och i [ Skicka-parametrar](#retries-parameters) för e-postegenskaperna anger hur många försök som ska utföras dagen efter att sändningen har startats (**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**) och den minsta fördröjningen mellan försök (**[!UICONTROL Retry period]**).
+Inställningarna **[!UICONTROL Retries]** på [Konfigurationsmenyn](#email-channel-parameters) och i [&#x200B; Skicka-parametrar](#retries-parameters) för e-postegenskaperna anger hur många försök som ska utföras dagen efter att sändningen har startats (**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**) och den minsta fördröjningen mellan försök (**[!UICONTROL Retry period]**).
 
 Antalet försök kan ändras globalt (kontakta den tekniska administratören för Adobe) eller för varje leverans- eller leveransmall.
 
-Som standard schemaläggs fem återförsök till den första dagen med ett minsta intervall på en timme, som sprids ut över dygnets 24 timmar. Ett nytt försök per dag programmeras efter detta och fram till leveransdatumet, som definieras globalt i avsnittet **[!UICONTROL Delivery parameters]** på **[!UICONTROL Configuration]**-menyn, eller i avsnittet **[!UICONTROL Validity period]** på leveransnivån (se avsnittet [ Leveranstid ](#legacy-delivery-duration) nedan).
+Som standard schemaläggs fem återförsök till den första dagen med ett minsta intervall på en timme, som sprids ut över dygnets 24 timmar. Ett nytt försök per dag programmeras efter detta och fram till leveransdatumet, som definieras globalt i avsnittet **[!UICONTROL Delivery parameters]** på **[!UICONTROL Configuration]**-menyn, eller i avsnittet **[!UICONTROL Validity period]** på leveransnivån (se avsnittet [&#x200B; Leveranstid &#x200B;](#legacy-delivery-duration) nedan).
 
 ### Leveransens varaktighet {#legacy-delivery-duration}
 

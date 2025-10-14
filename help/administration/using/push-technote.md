@@ -118,7 +118,7 @@ Om den aktuella implementeringen är beroende av certifikatbaserade begäranden 
 
 #### Förhandskrav {#ios-transition-prerequisites}
 
-* Stöd för **tokenbaserad autentisering** har lagts till i [ 24.1-versionen](../../rn/using/release-notes.md). Om din miljö körs på en äldre version är en förutsättning för den här ändringen att du uppgraderar miljön till den [senaste Campaign Standarden](../../rn/using/release-notes.md).
+* Stöd för **tokenbaserad autentisering** har lagts till i [&#x200B; 24.1-versionen](../../rn/using/release-notes.md). Om din miljö körs på en äldre version är en förutsättning för den här ändringen att du uppgraderar miljön till den [senaste Campaign Standarden](../../rn/using/release-notes.md).
 
 * Du behöver en signeringsnyckel för APN:s autentiseringstoken för att generera de tokens som servern använder. Du begär den här nyckeln från ditt Apple-utvecklarkonto, vilket förklaras i [Apple Developer-dokumentationen](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
 

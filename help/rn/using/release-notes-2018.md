@@ -147,7 +147,7 @@ ht-degree: 3%
 
 **Förbättringar**
 
-* API:t **[!UICONTROL History]** har lagts till i Adobe.IO. Det gör att du kan komma åt information som rör en profils marknadsföringshistorik: antal kontaktytor, skickade leveranser, URL för spegelsida osv. Mer information finns i [användningsexemplet ](../../api/using/interacting-with-marketing-history.md) .
+* API:t **[!UICONTROL History]** har lagts till i Adobe.IO. Det gör att du kan komma åt information som rör en profils marknadsföringshistorik: antal kontaktytor, skickade leveranser, URL för spegelsida osv. Mer information finns i [användningsexemplet &#x200B;](../../api/using/interacting-with-marketing-history.md) .
 * Det tekniska arbetsflödet för **[!UICONTROL Database cleanup]** har optimerats för att ge bättre prestanda vid säkerhetskopiering av databaser.
 * Creative Designer for Email finns nu även på franska och tyska.
 
@@ -307,7 +307,7 @@ _Anpassade resurser_
      <li> Skapa och spara en mall för e-postinnehåll och utnyttja sparade mallar för att skalförändra e-postgenereringen </li> 
      <li> Skapa och spara innehållsfragment (t.ex. sidhuvud, sidfot, artikel) effektivisera framtagning av innehåll och säkerställa varumärkets enhetlighet </li> 
      <li> Växla smidigt mellan att skapa i dra-och-släpp-gränssnittet och redigera direkt HTML i ett mejl med en enkel musklickning </li> 
-    </ul> Creative Designer for Email finns endast på engelska.<br /> Mer information finns i <a href="../../designing/using/designing-content-in-adobe-campaign.md">detaljerad dokumentation</a> och i <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">videon</a>.<br /> </td> 
+    </ul> Creative Designer for Email finns endast på engelska.<br /> Mer information finns i <a href="../../designing/using/designing-content-in-adobe-campaign.md">detaljerad dokumentation</a> och i <a href="https://www.youtube.com/watch?time_continue=1&v=5S_6A4fsfms">videon</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Flerspråkiga push-leveranser<br /> </td> 

@@ -720,7 +720,7 @@ Alla poster i tabellen bearbetas i den angivna ordningen tills en regel matchar.
 
 ### Valfria parametrar för automatiskt svar (TLV) {#automatic-reply-tlv}
 
-Från och med version 21.1 kan du lägga till valfria parametrar till MT för automatiskt svar. De läggs till som valfria TLV-parametrar till `SUBMIT_SM PDU` i svaret, enligt beskrivningen i avsnitt 5.3 i [ SMPP-specifikationen ](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) (sidan 131).
+Från och med version 21.1 kan du lägga till valfria parametrar till MT för automatiskt svar. De läggs till som valfria TLV-parametrar till `SUBMIT_SM PDU` i svaret, enligt beskrivningen i avsnitt 5.3 i [&#x200B; SMPP-specifikationen &#x200B;](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) (sidan 131).
 
 Mer information om valfria parametrar finns i [avsnittet](../../administration/using/sms-protocol.md#smpp-optional-parameters).
 
