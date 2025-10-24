@@ -8,10 +8,10 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
-source-git-commit: 3e6afc55581a24f1fc2b26ac35b801ce38cce905
+source-git-commit: c14a52f5425972899f51af7ee6ea2d5796c46765
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '223'
+ht-degree: 100%
 
 ---
 
@@ -21,18 +21,19 @@ Med API:er i Campaign Standard kan du **skapa integreringar** i Adobe Campaign S
 
 Med API:er i Campaign Standard får du tillgång till följande funktioner:
 
-<table style="table-layout:auto"><tr style="border: 0;">
- <td valign="top"><a href="../../api/using/retrieving-profiles.md"><img width="50px" alt="villkor" src="assets/icon_profile.svg"/></a><p><a href="../../api/using/retrieving-profiles.md">Profiler</a></p></td>
+<table style="table-layout:fixed; margin-top: 0px; margin-bottom: 0px;">
+<tbody><tr style="border: 0;background-color: #FFFFFF;">
+<td valign="top"><a href="../../api/using/retrieving-profiles.md"><img width="50px" alt="villkor" src="assets/icon_profile.svg"/></a><p><a href="../../api/using/retrieving-profiles.md">Profiler</a></p></td>
 <td valign="top"><a href="../../api/using/creating-a-service.md"><img width="50px" alt="villkor" src="assets/icon_services.svg"/></a><p><a href="../../api/using/creating-a-service.md">Tjänster och prenumerationer</a></p></td>
 <td valign="top"><a href="../../api/using/interacting-with-custom-resources.md"><img width="50px" alt="villkor" src="assets/icon_customresources.svg"/></a><p><a href="../../api/using/interacting-with-custom-resources.md">Anpassade resurser</a></p></td>
 <td valign="top"><a href="../../api/using/interacting-with-marketing-history.md"><img width="50px" alt="villkor" src="assets/icon_marketinghistory.svg"/></a><p><a href="../../api/using/interacting-with-marketing-history.md">Marknadsföringshistorik</a></p></td>
 </tr>
-<tr style="border: 0;">
+<tr style="border: 0;background-color: #FFFFFF;">
 <td valign="top"><a href="../../api/using/creating-a-privacy-request.md"><img width="50px" alt="villkor" src="assets/icon_privacy.svg"/></a><p><a href="../../api/using/creating-a-privacy-request.md">Integritetshantering</a></p></td>
 <td valign="top"><a href="../../api/using/managing-transactional-messages.md"><img width="50px" alt="villkor" src="assets/icon_transactionalmessage.svg"/></a><p><a href="../../api/using/managing-transactional-messages.md">Transaktionsmeddelanden</a></p></td>
 <td valign="top"><a href="../../api/using/controlling-a-workflow.md"><img width="50px" alt="villkor" src="assets/icon_workflows.svg"/></a><p><a href="../../api/using/controlling-a-workflow.md">Arbetsflöden</a></p></td>
 <td valign="top"><a href="../../api/using/retrieving-an-organizational-unit.md"><img width="50px" alt="villkor" src="assets/icon_units.svg"/></a><p><a href="../../api/using/retrieving-an-organizational-unit.md">Organisationsenheter</a></p></td>
-</tr></table>
+</tr></tbody></table>
 
 >[!NOTE]
 >
