@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation för Adobe Campaign Standard.
 title: Användarhandbok för Campaign Standard
 breadcrumb-title: Dokumentation om Campaign Standard
 source-git-commit: c70e3058f75ba2b11a8311628198e5c02d489964
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1753'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
    + [Senaste dokumentationsuppdateringarna](rn/using/documentation-updates.md)
 + Komma igång {#getting-started}
    + [Om Adobe Campaign Standard](start/using/about-campaign-standard.md)
-   + Upptäcka gränssnittet {#discovering-the-interface}
+   + Lära känna gränssnittet {#discovering-the-interface}
       + [Om gränssnittet](start/using/about-the-interface.md)
       + [Beskrivning av gränssnittet](start/using/interface-description.md)
       + [Anpassa listor](start/using/customizing-lists.md)
@@ -74,7 +74,7 @@ ht-degree: 100%
       + [Identifiera avanmälningsprofiler för en leverans](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
 + Kommunikationskanaler {#communication-channels}
    + [Kom igång med kommunikationskanaler](channels/using/get-started-communication-channels.md)
-   + Om kommunikationskanaler {#about-communication-channels}
+   + Kommunikationskanaler {#about-communication-channels}
       + [Huvudstegen för att skicka ett meddelande](channels/using/key-steps-to-send-a-message.md)
       + [Åtkomst till meddelanden](channels/using/accessing-messages.md)
       + [Kontrollpanel för meddelanden](channels/using/message-dashboard.md)
@@ -93,7 +93,7 @@ ht-degree: 100%
       + [Skapa ett e-postmeddelande](channels/using/creating-an-email.md)
       + [Designa ett A/B-testmeddelande](channels/using/designing-an-a-b-test-email.md)
       + [Skapa ett flerspråkigt e-postmeddelande](channels/using/creating-a-multilingual-email.md)
-   + SMS-meddelanden {#sms-messages}
+   + SMS {#sms-messages}
       + [Om SMS-meddelanden](channels/using/about-sms-messages.md)
       + [Skapa ett SMS-meddelande](channels/using/creating-an-sms-message.md)
       + [Personalisera SMS-meddelanden](channels/using/personalizing-sms-messages.md)
@@ -113,7 +113,7 @@ ht-degree: 100%
       + [Förbereda och skicka ett meddelande i appen](channels/using/preparing-and-sending-an-in-app-message.md)
       + [Anpassa ett meddelande i appen](channels/using/customizing-an-in-app-message.md)
       + [Vanliga frågor i appen](channels/using/in-app-faq.md)
-   + Direktutskick {#direct-mail}
+   + Direktmeddelande {#direct-mail}
       + [Om direktutskick](channels/using/about-direct-mail.md)
       + [Skicka tillbaka till avsändaren](channels/using/return-to-sender.md)
       + [Skapa direktutskicket](channels/using/creating-the-direct-mail.md)
@@ -126,7 +126,7 @@ ht-degree: 100%
       + Händelsekonfiguration {#event-configuration}
          + [Konfigurera en transaktionshändelse](channels/using/configuring-transactional-event.md)
          + [Publicera en transaktionshändelse](channels/using/publishing-transactional-event.md)
-      + Version på transaktionsmeddelande {#transactional-message-edition}
+      + Transactional message edition {#transactional-message-edition}
          + [Redigera ett transaktionsmeddelande](channels/using/editing-transactional-message.md)
          + [Testa ett transaktionsmeddelande](channels/using/testing-transactional-message.md)
          + [Livscykeln för ett transaktionsmeddelande](channels/using/publishing-transactional-message.md)
@@ -170,7 +170,7 @@ ht-degree: 100%
       + [Lägga till en kontrollgrupp](sending/using/control-group.md)
       + [Använda spam-samlare](sending/using/using-traps.md)
       + [Förbereda utskickningen](sending/using/preparing-the-send.md)
-   + Schemalägga meddelanden {#scheduling-messages}
+   + Schemaläggningsmeddelanden {#scheduling-messages}
       + [Om att schemalägga meddelanden](sending/using/about-scheduling-messages.md)
       + [Optimera utskickstiden](sending/using/optimizing-the-sending-time.md)
       + [Skicka meddelanden i mottagarens tidszon](sending/using/sending-messages-at-the-recipient-s-time-zone.md)
@@ -184,7 +184,7 @@ ht-degree: 100%
       + [Få aviseringar när fel uppstår](sending/using/receiving-alerts-when-failures-happen.md)
       + [Förstå leveransfel](sending/using/understanding-delivery-failures.md)
       + [Förstå karantänshantering](sending/using/understanding-quarantine-management.md)
-   + Hantera levererbarhet {#managing-deliverability}
+   + Hantera leveranser {#managing-deliverability}
       + [Om levererbarhet](sending/using/about-deliverability.md)
       + [Kontrollera e-postinnehåll](sending/using/control-email-content.md)
       + [Övervaka levererbarhet](sending/using/monitor-deliverability.md)
@@ -239,21 +239,21 @@ ht-degree: 100%
       + [Om integrering av Campaign och Target](integrating/using/about-campaign-target-integration.md)
       + [Konfigurera integrering av Campaign och Target](integrating/using/configuring-the-campaign-target-integration.md)
       + [Lägga till dynamiskt innehåll från Target](integrating/using/adding-target-dynamic-content.md)
-   + Campaign och Analytics {#working-with-campaign-and-analytics}
+   + Kampanj och analys {#working-with-campaign-and-analytics}
       + [Om integrering av Campaign och Analytics](integrating/using/about-campaign-analytics-integration.md)
       + [Konfigurera integrering av Campaign och Analytics](integrating/using/configure-campaign-analytics-integration.md)
       + [Dimensioner och nyckeltal från Campaign i Analytics](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
-   + Campaign och Audience Manager eller kärntjänsten People {#working-with-campaign-and-audience-manager-or-people-core-service}
+   + Huvudtjänsten Campaign och Audience Manager eller People {#working-with-campaign-and-audience-manager-or-people-core-service}
       + [Om integrering av Campaign och Audience Manager eller kärntjänsten People](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
       + [Etablering och konfigurering av integration med Audience Manager eller kärntjänsten People](integrating/using/integration-with-audience-manager-or-people-core-service.md)
       + [Felsöka](integrating/using/troubleshooting.md)
       + [Dela målgrupper med Audience Manager eller kärntjänsten People](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
       + [Arbeta med Campaign och kärntjänsten Assets](integrating/using/working-with-campaign-and-assets-core-service.md)
-   + Campaign och Analytics för mobilen {#working-with-campaign-and-analytics-for-mobile}
+   + Kampanj och analys för mobilen {#working-with-campaign-and-analytics-for-mobile}
       + [Om integrering av Campaign och Points of Interest-data](integrating/using/about-campaign-points-of-interest-data-integration.md)
       + [Konfigurera integrering av Campaign och Points of Interest-data](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
       + [Personalisera Campaign-meddelanden med Point of Interest-data](integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)
-   + Campaign och utlösare {#working-with-campaign-and-triggers}
+   + Kampanj och utlösare {#working-with-campaign-and-triggers}
       + [Om Adobe Experience Cloud-utlösare](integrating/using/about-adobe-experience-cloud-triggers.md)
       + [Konfigurera utlösare i Experience Cloud](integrating/using/configuring-triggers-in-experience-cloud.md)
       + [Använda utlösare i Campaign](integrating/using/using-triggers-in-campaign.md)
@@ -278,7 +278,7 @@ ht-degree: 100%
       + [Exportera data från Campaign till Adobe Experience Platform](integrating/using/export-campaign-data.md)
 + Hantera processer och data {#managing-processes-and-data}
    + [Kom igång med data- och processhantering](automating/using/get-started-workflows.md)
-   + Allmänt om arbetsflöden {#workflow-general-operation}
+   + Allmänt om arbetsflöde {#workflow-general-operation}
       + [Arbetsflödesgränssnitt](automating/using/workflow-interface.md)
       + [Skapa ett arbetsflöde](automating/using/building-a-workflow.md)
       + [God praxis för arbetsflöden](automating/using/best-practices-workflows.md)
@@ -309,7 +309,7 @@ ht-degree: 100%
       + [Spara målgrupp](automating/using/save-audience.md)
       + [Deduplicering](automating/using/deduplication.md)
       + [Berikning](automating/using/enrichment.md)
-   + Körningsaktiviteter {#execution-activities}
+   + Verksamhet {#execution-activities}
       + [Om körningsaktiviteter](automating/using/about-execution-activities.md)
       + [Start och slut](automating/using/start-and-end.md)
       + [Förgrening](automating/using/fork.md)
@@ -381,7 +381,7 @@ ht-degree: 100%
          + [Exportera profiler i en extern fil](automating/using/exporting-profiles-in-file.md)
          + [Uppdatera flera prenumerationsstatusar från en fil](automating/using/updating-subscriptions-from-file.md)
          + [Prenumerera profiler från en fil till en viss tjänst](automating/using/subscribing-profiles-from-file.md)
-+ Utveckla {#developing}
++ Utvecklar {#developing}
    + [Kom igång med datamodellen i Campaign Standard](developing/using/get-started-data-model.md)
    + Om anpassade resurser {#about-custom-resources}
       + [Datamodellskoncept](developing/using/data-model-concepts.md)
@@ -397,12 +397,12 @@ ht-degree: 100%
       + [Uppdatera databasstrukturen](developing/using/updating-the-database-structure.md)
       + [Ta bort en resurs](developing/using/deleting-a-resource.md)
       + [Anropa en resurs med en sammansatt identifieringsnyckel](developing/using/uc-calling-resource-id-key.md)
-   + Användningsfall: utöka API:et {#use-case-extending-the-api}
+   + Användningsfall: Utöka API {#use-case-extending-the-api}
       + [Om att utöka API:et](developing/using/about-extending-the-api.md)
       + [Steg 1: lägg till tilläggsfält i profilresursen](developing/using/step-1-add-extension-fields-to-the-profile-resource.md)
       + [Steg 2: publicera tillägget](developing/using/step-2-publish-the-extension.md)
       + [Steg 3: verifiera tillägget](developing/using/step-3-verify-the-extension.md)
-   + Användningsfall: utöka resurser {#use-cases-extending-resources}
+   + Användningsexempel: Utöka resurser {#use-cases-extending-resources}
       + [Utöka profilresursen med ett nytt fält](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [Utöka prenumerationerna till en applikationsresurs](developing/using/extending-the-subscriptions-to-an-application-resource.md)
    + Datamodell {#datamodel}
@@ -420,7 +420,7 @@ ht-degree: 100%
       + [Spårningsloggar](developing/using/datamodel-tracking.md)
       + [Avprenumerationshändelse](developing/using/datamodel-unsubscription.md)
       + [Besökare](developing/using/datamodel-visitor.md)
-+ Administrera {#administrating}
++ Administrerar {#administrating}
    + [Kom igång med administration av Campaign Standard](administration/using/get-started-campaign-administration.md)
    + [Riktlinjer för övervakning](administration/using/monitoring-guidelines.md)
    + [Granskningsspår](administration/using/audit.md)
@@ -438,7 +438,7 @@ ht-degree: 100%
       + [Konfigurera e-postkanal](administration/using/configuring-email-channel.md)
       + [Uppdatera studskvalificering efter ett avbrott hos en internetleverantör](administration/using/update-bounce-qualification.md)
       + [Konfigurera en mobilapplikation](administration/using/configuring-a-mobile-application.md)
-   + Konfigurera mobila kanaler {#configuring-mobile}
+   + Konfigurera mobilkanaler {#configuring-mobile}
       + [Implementera push-spårning](administration/using/push-tracking.md)
       + [Lägga till bilder och videor i iOS](administration/using/image-push-notification.md)
       + [Förstå nyttolaststrukturen för push-meddelanden](administration/using/push-payload.md)
@@ -453,7 +453,7 @@ ht-degree: 100%
       + [Implementera SMS-kanalen](administration/using/configuring-sms-channel.md)
       + [Protokoll och inställningar för SMS-koppling](administration/using/sms-protocol.md)
       + [Felsöka SMS](administration/using/troubleshooting-sms.md)
-   + Applikationsinställningar {#application-settings}
+   + Programinställningar {#application-settings}
       + [Om inställningar i Campaign Standard](administration/using/about-campaign-standard-settings.md)
       + [Externa konton](administration/using/external-accounts.md)
       + [Målmappningar i Campaign](administration/using/target-mappings-in-campaign.md)
@@ -464,7 +464,7 @@ ht-degree: 100%
       + [Uppdateringar och underhållsåtgärder](administration/using/updates-and-maintenance-operations.md)
 + Arbeta med API:er {#working-with-apis}
    + [Kom igång med API:er i Campaign Standard](api/using/get-started-apis.md)
-   + Om API:er i Campaign Standard {#about-campaign-standard-apis}
+   + Om Campaign Standard API:er {#about-campaign-standard-apis}
       + [Därför använder man API:er i Campaign Standard](api/using/why-using-campaign-standard-apis.md)
       + [Konfigurera API-åtkomst](api/using/setting-up-api-access.md)
    + Globala begrepp {#global-concepts}
