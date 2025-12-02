@@ -20,7 +20,7 @@ ht-degree: 6%
 
 Förutom att spåra kundernas närvaro online kan du också utnyttja deras fysiska platser. Genom integrationen med Adobe Analytics for Mobile kan ni använda Adobe Campaign för att skicka platsbaserade marknadsföringsmeddelanden till era mobilappsprenumeranter.
 
-Intressepunkter består av en latitud, en longitud och en radie som är kopplad till en etikett. De definieras i gränssnittet för [Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html).
+Intressepunkter består av en latitud, en longitud och en radie som är kopplad till en etikett. De definieras i gränssnittet för [Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=sv-SE).
 
 När en prenumerant öppnar ditt mobilprogram hämtar Adobe Campaign data via Experience Cloud Mobile SDK om platsen matchar en punkt of Interest. Du kan använda den här informationen för att skicka personliga meddelanden baserat på användarens plats (till exempel e-post, push-meddelanden, SMS-meddelanden).
 

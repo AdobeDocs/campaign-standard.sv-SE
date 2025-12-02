@@ -25,12 +25,12 @@ Tillgängliga slutpunkter för Adobe Campaign REST API:
 * **/&lt;transactionalAPI>**: interagerar med API:t för transaktionsmeddelanden (namnet på API-slutpunkten för transaktionsmeddelanden beror på instanskonfigurationen). Mer information om detta finns i [det här avsnittet](../../api/using/managing-transactional-messages.md).
 * **/workflow/execution**: interagerar med arbetsflöden. Mer information om detta finns i [det här avsnittet](../../api/using/controlling-a-workflow.md).
 * **/privacy/privacyTool**: interagerar med sekretess-API:t för att tillåta automatisk process för sekretessförfrågningar. Mer information om detta finns i [det här avsnittet](../../api/using/creating-a-privacy-request.md).
-* **/history**: Hämta profilernas marknadsföringshistorik. Mer information om integrerade kundprofiler i Campaign finns i [Campaign-dokumentationen](https://helpx.adobe.com/campaign/standard/audiences/using/integrated-customer-profile.html).
+* **/history**: Hämta profilernas marknadsföringshistorik. Mer information om integrerade kundprofiler i Campaign finns i [Campaign-dokumentationen](https://helpx.adobe.com/se/campaign/standard/audiences/using/integrated-customer-profile.html).
 
 Som standard är huvudresurserna som är tillgängliga för API:erna **profileAndServices** och **profileAndServicesExt**:
 
-* **/profile**: interagerar med profiler från Campaign-databasen. Använd slutpunkten **/service** om du vill lägga till profiler i en tjänst. Mer information om profiler i Campaign finns i [Campaign-dokumentationen](https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles.html).
-* **/service**: hantera prenumerationstjänster. Mer information om tjänster i Campaign finns i [Campaign-dokumentationen](https://helpx.adobe.com/campaign/standard/audiences/using/creating-a-service.html).
+* **/profile**: interagerar med profiler från Campaign-databasen. Använd slutpunkten **/service** om du vill lägga till profiler i en tjänst. Mer information om profiler i Campaign finns i [Campaign-dokumentationen](https://helpx.adobe.com/se/campaign/standard/audiences/using/about-profiles.html).
+* **/service**: hantera prenumerationstjänster. Mer information om tjänster i Campaign finns i [Campaign-dokumentationen](https://helpx.adobe.com/se/campaign/standard/audiences/using/creating-a-service.html).
 
 >[!NOTE]
 >

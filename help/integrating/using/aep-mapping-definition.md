@@ -44,7 +44,7 @@ För att kunna utföra den här uppgiften måste du:
 
 >[!NOTE]
 >
->För att en batch ska kunna hämtas till kundprofil eller identitetstjänst i realtid måste datamängden vara [aktiverad för kundprofil i realtid](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html).
+>För att en batch ska kunna hämtas till kundprofil eller identitetstjänst i realtid måste datamängden vara [aktiverad för kundprofil i realtid](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html?lang=sv-SE).
 >
 >Om den datauppsättning du väljer redan används i en befintlig datamappning visas en varning om att dina data kan skrivas över på Adobe Experience Platform. Detta kan inträffa när det finns vissa vanliga mottagare i datamappningar som använder samma datamängd.
 
@@ -64,7 +64,7 @@ De utökade resurserna som definieras i Campaign Standard mappas som alla inbygg
 
 Du kan anpassa XDM-tillägget via API:t och definiera ett eget tillägg så att du får bättre kontroll över mappningen.
 
-Mer information om XDM API finns i [API-självstudiekursen för schemaregistret](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
+Mer information om XDM API finns i [API-självstudiekursen för schemaregistret](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=sv-SE).
 
 Om du vill mappa ett uppräkningsfält måste du använda uttrycksredigeraren för att definiera varje uppräkningsvärde som motsvarar XDM-värdet. Postaladressfältet måste till exempel definieras som:
 

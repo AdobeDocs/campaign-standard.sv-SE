@@ -28,4 +28,4 @@ Adobe Target kan använda flera typer av data:
 * Segment som är länkade till besökar-ID i Adobe Target, om de data som används inte omfattas av juridiska begränsningar
 * Adobe Target data: användaragent, IP-adress, data för geolokalisering
 
-Mer information om integrationen mellan Adobe Campaign och Adobe Target finns i [Adobe Target-portalen](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html).
+Mer information om integrationen mellan Adobe Campaign och Adobe Target finns i [Adobe Target-portalen](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=sv-SE).

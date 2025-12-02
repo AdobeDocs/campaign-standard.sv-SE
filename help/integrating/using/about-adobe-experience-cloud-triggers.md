@@ -31,7 +31,7 @@ Följande diagram visar hur den här integreringen fungerar.
 
 **Relaterade ämnen:**
 
-* Lär dig mer om de olika typerna av utlösare: [Adobe Experience Cloud-dokumentation](https://experienceleague.adobe.com/docs/core-services/interface/triggers.html).
+* Lär dig mer om de olika typerna av utlösare: [Adobe Experience Cloud-dokumentation](https://experienceleague.adobe.com/docs/core-services/interface/triggers.html?lang=sv-SE).
 * Titta på videon [Trigger Remarketing Messages som baseras på hemsideaktivitet](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two)
 * Upptäck våra två [utlösare vid övergiven kundkorg](../../integrating/using/abandonment-triggers-use-cases.md).
 

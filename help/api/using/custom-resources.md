@@ -77,4 +77,4 @@ Mer information om datamodelltillägg finns i dokumentationen för Campaign:
 
 * [Datamodellskoncept](../../developing/using/data-model-concepts.md)
 * [Utöka API](../../developing/using/about-extending-the-api.md)
-* [Definiera länkar med andra resurser](https://helpx.adobe.com/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)
+* [Definiera länkar med andra resurser](https://helpx.adobe.com/se/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)

@@ -96,7 +96,7 @@ En Adobe Experience Cloud-utlösare måste skapas så att du kan använda den i 
 
 Skapa en ny utlösare i Experience Cloud och se till att du väljer den rapportsvit som används på webbplatsen. Se till att du väljer rätt dimension så att utlösaren aktiveras.
 
-Mer information finns i [Adobe Experience Cloud-dokumentationen](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html).
+Mer information finns i [Adobe Experience Cloud-dokumentationen](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=sv-SE).
 
 ## Utlöser bästa praxis och begränsningar {#triggers-best-practices-and-limitations}
 

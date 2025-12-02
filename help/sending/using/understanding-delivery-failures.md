@@ -35,7 +35,7 @@ Meddelanden kan också uteslutas under färdigställandet av leveransen om en ad
 
 * [Förstå karantänshantering](../../sending/using/understanding-quarantine-management.md)
 * [Om anmälan och avanmälan i Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-* [studsar](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
+* [studsar](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=sv-SE#metrics-for-deliverability)
 
 ## Identifiera leveransfel för ett meddelande {#identifying-delivery-failures-for-a-message}
 
@@ -75,8 +75,8 @@ Möjliga orsaker till leveransfel är:
 
 
 **Relaterade ämnen:**
-* [Hårda studsar](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
-* [Mjuka studsar](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
+* [Hårda studsar](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=sv-SE#hard-bounces)
+* [Mjuka studsar](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=sv-SE#soft-bounces)
 
 ## Försök igen efter ett tillfälligt leveransfel {#retries-after-a-delivery-temporary-failure}
 
@@ -118,7 +118,7 @@ För synkrona felmeddelanden vid leveransfel avgör Adobe Campaign Enhanced MTA 
 
 Asynkrona studsningar är fortfarande kvalificerade inMail-processen enligt **[!UICONTROL Inbound email]**-reglerna. Om du vill komma åt de här reglerna klickar du på logotypen **Adobe** längst upp till vänster, väljer **[!UICONTROL Administration > Channels > Email > Email processing rules]** och sedan **[!UICONTROL Bounce mails]**. Mer information om den här regeln finns i [det här avsnittet](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
-Mer information om studsar och olika typer av studsar finns i [det här avsnittet](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
+Mer information om studsar och olika typer av studsar finns i [det här avsnittet](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=sv-SE#metrics-for-deliverability).
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 

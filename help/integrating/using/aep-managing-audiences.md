@@ -53,7 +53,7 @@ Så här skapar du en Adobe Experience Platform-publik direkt i Campaign Standar
 
 1. För att kunna skapa ett segment måste du välja en **sammanfogningsprincip** som matchar ditt marknadsföringssyfte för det här segmentet.
 
-   I inställningsfönstret är en standardprincip för sammanfogning av plattform vald. Mer information om sammanfogningsprinciper finns i det dedikerade avsnittet i användarhandboken för [Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   I inställningsfönstret är en standardprincip för sammanfogning av plattform vald. Mer information om sammanfogningsprinciper finns i det dedikerade avsnittet i användarhandboken för [Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=sv-SE).
 
    ![](assets/aep_audiences_mergepolicy.png)
 

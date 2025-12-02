@@ -67,8 +67,8 @@ Nu måste du konfigurera integreringen i Adobe Experience Manager.
 
 Om du vill konfigurera Adobe Experience Manager med Adobe Campaign Standard måste du följa dessa steg:
 
-1. Du måste först konfigurera replikeringen mellan Adobe Experience Manager redigerings- och publiceringsinstanser. Se det här [avsnittet](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#configuring-adobe-experience-manager).
+1. Du måste först konfigurera replikeringen mellan Adobe Experience Manager redigerings- och publiceringsinstanser. Se det här [avsnittet](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=sv-SE#configuring-adobe-experience-manager).
 
-1. Anslut sedan Adobe Experience Manager till Adobe Campaign genom att konfigurera en dedikerad **[!UICONTROL Cloud Service]**. Se det här [avsnittet](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#connecting-aem-to-adobe-campaign).
+1. Anslut sedan Adobe Experience Manager till Adobe Campaign genom att konfigurera en dedikerad **[!UICONTROL Cloud Service]**. Se det här [avsnittet](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=sv-SE#connecting-aem-to-adobe-campaign).
 
-1. Nu måste du konfigurera externaliseraren i Adobe Experience Manager på din författarinstans. Se det här [avsnittet](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#configuring-the-externalizer).
+1. Nu måste du konfigurera externaliseraren i Adobe Experience Manager på din författarinstans. Se det här [avsnittet](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=sv-SE#configuring-the-externalizer).

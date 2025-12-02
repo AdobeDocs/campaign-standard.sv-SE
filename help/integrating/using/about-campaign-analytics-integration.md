@@ -33,6 +33,6 @@ Det finns även en integrering mellan Adobe Analytics bastjänst **Triggers** oc
 
 **Relaterade ämnen:**
 
-* [Översikt över integrering mellan Campaign Standard och Analytics](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html)
-* [Konfigurera Campaign Standard-integreringen](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
+* [Översikt över integrering mellan Campaign Standard och Analytics](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html?lang=sv-SE)
+* [Konfigurera Campaign Standard-integreringen](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html?lang=sv-SE)
 * [Dimensioner och nyckeltal från Campaign i Analytics](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
