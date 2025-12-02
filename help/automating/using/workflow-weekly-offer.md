@@ -27,7 +27,7 @@ Du kan skicka ett e-postmeddelande med specialerbjudanden varje tisdag till alla
 
 ## Skapa en schemaläggningsaktivitet{#creating-a-scheduler-activity}
 
-1. Dra och släpp en **[!UICONTROL Activities]** Schemaläggaren **[!UICONTROL Execution]**-aktivitet i [ > ](../../automating/using/scheduler.md).
+1. Dra och släpp en **[!UICONTROL Activities]** Schemaläggaren **[!UICONTROL Execution]**-aktivitet i [&#x200B; > &#x200B;](../../automating/using/scheduler.md).
 1. Dubbelklicka på aktiviteten.
 1. Konfigurera leveransen.
 1. I **[!UICONTROL Execution frequency]** väljer du **[!UICONTROL Weekly]**.
@@ -54,7 +54,7 @@ Du kan skicka ett e-postmeddelande med specialerbjudanden varje tisdag till alla
 
 ## Skapa en e-postleverans{#creating-an-email-delivery}
 
-1. Dra och släpp en **[!UICONTROL Activities]** e-postleveransaktivitet **[!UICONTROL Channels]** i [ > ](../../automating/using/email-delivery.md).
+1. Dra och släpp en **[!UICONTROL Activities]** e-postleveransaktivitet **[!UICONTROL Channels]** i [&#x200B; > &#x200B;](../../automating/using/email-delivery.md).
 1. Klicka på aktiviteten och välj ![](assets/edit_darkgrey-24px.png) för att redigera.
 1. Markera **[!UICONTROL Recurring email]** och klicka på **[!UICONTROL Next]**.
 1. Välj en e-postmall och klicka på **[!UICONTROL Next]**.

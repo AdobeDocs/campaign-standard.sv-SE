@@ -59,7 +59,7 @@ När du utformar ett schemalagt arbetsflöde som innehåller flera aktiviteter m
 
    >[!NOTE]
    >
-   >Fältet **[!UICONTROL Repetition frequency]** som är tillgängligt för körningsfrekvenserna Dagligen och Månadsvis gör att du kan ta bort de tidpunkter då arbetsflödet aktiveras. Om du exempelvis väljer en daglig körningsperiod och repetitionsfrekvensen är inställd på **2** dagar så kommer arbetsflödet att aktiveras varannan dag.  Det får inte vara under 10 minuter.  Om repetitionsfrekvensen anges till **** (även standardvärdet), beaktas inte det här alternativet och arbetsflödet körs enligt den angivna körningsfrekvensen.
+   >Fältet **[!UICONTROL Repetition frequency]** som är tillgängligt för körningsfrekvenserna Dagligen och Månadsvis gör att du kan ta bort de tidpunkter då arbetsflödet aktiveras. Om du exempelvis väljer en daglig körningsperiod och repetitionsfrekvensen är inställd på **2** dagar så kommer arbetsflödet att aktiveras varannan dag.  Det får inte vara under 10 minuter.  Om repetitionsfrekvensen anges till **&#x200B;**&#x200B;(även standardvärdet), beaktas inte det här alternativet och arbetsflödet körs enligt den angivna körningsfrekvensen.
 
    När du anger körningsfrekvensen till **[!UICONTROL Several times a day]** kan du välja mellan att köra arbetsflödet vid specifika tidpunkter på dagen eller regelbundet under dagen.
 

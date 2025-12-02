@@ -90,7 +90,7 @@ Aktiviteter grupperas efter kategori i de olika avsnitten på paletten.
 * Det första avsnittet innehåller [målinriktningsaktiviteter](../../automating/using/about-targeting-activities.md)
 * Det andra avsnittet innehåller [körningsåtgärderna](../../automating/using/about-execution-activities.md), som främst används för att samordna andra aktiviteter.
 * Det tredje avsnittet innehåller aktiviteter som kan användas för att skicka meddelanden i olika [kanaler](../../automating/using/about-channel-activities.md). Aktiviteterna i det här avsnittet kan variera beroende på vilka kanaler som är aktiverade på din instans.
-* Det fjärde avsnittet innehåller filhanterings-[ och datahanteringsaktiviteter](../../automating/using/about-data-management-activities.md).
+* Det fjärde avsnittet innehåller filhanterings-[&#x200B; och datahanteringsaktiviteter](../../automating/using/about-data-management-activities.md).
 
 Så här skapar du diagrammet:
 

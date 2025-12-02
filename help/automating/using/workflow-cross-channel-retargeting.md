@@ -51,7 +51,7 @@ Du kan skicka ett e-postmeddelande till kunder och sedan ett sms till dem som in
 
 ## Rikta in icke-öppnare i en frågeaktivitet{#targeting-non-openers-in-a-query-activity}
 
-1. Dra och släpp en **[!UICONTROL Activities]** Wait **[!UICONTROL Execution]**-aktivitet i [ > ](../../automating/using/wait.md).
+1. Dra och släpp en **[!UICONTROL Activities]** Wait **[!UICONTROL Execution]**-aktivitet i [&#x200B; > &#x200B;](../../automating/using/wait.md).
 1. I **[!UICONTROL Duration]** klickar du på ![](assets/duration-icon.png) och väljer en dag.
 1. Dra och släpp en **[!UICONTROL Query activity]** i **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**.
 1. Dubbelklicka på aktiviteten.

@@ -106,7 +106,7 @@ Mer information finns i det här användningsexemplet: [Använder andra resurser
 
 ## Förbättra data {#enriching-data}
 
-På fliken **[!UICONTROL Additional data]** i **[!UICONTROL Query]** och **[!UICONTROL Incremental query]****[!UICONTROL Enrichment]**­aktiviteterna kan du utöka måldata och överföra denna data till följande arbetsflödesaktiviteter där de kan användas.  Du kan mer specifikt lägga till:
+På fliken **[!UICONTROL Additional data]** i **[!UICONTROL Query]** och **[!UICONTROL Incremental query]**&#x200B;**[!UICONTROL Enrichment]**­aktiviteterna kan du utöka måldata och överföra denna data till följande arbetsflödesaktiviteter där de kan användas.  Du kan mer specifikt lägga till:
 
 * Enkel data
 * Sammanställningar

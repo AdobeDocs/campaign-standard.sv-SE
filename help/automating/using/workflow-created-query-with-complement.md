@@ -54,7 +54,7 @@ Du kan skicka ett e-postmeddelande till kunder: ett för kunder som skapats för
 
 ## Skapa en e-postleverans {#create-an-email-delivery}
 
-1. Dra och släpp en **[!UICONTROL Activities]** e-postleveransaktivitet **[!UICONTROL Channels]** efter varje segment i [ > ](../../automating/using/email-delivery.md).
+1. Dra och släpp en **[!UICONTROL Activities]** e-postleveransaktivitet **[!UICONTROL Channels]** efter varje segment i [&#x200B; > &#x200B;](../../automating/using/email-delivery.md).
 1. Klicka på aktiviteten och välj ![](assets/edit_darkgrey-24px.png) för att redigera.
 1. Markera **[!UICONTROL Single send email]** och klicka på **[!UICONTROL Next]**.
 1. Välj en e-postmall och klicka på **[!UICONTROL Next]**.

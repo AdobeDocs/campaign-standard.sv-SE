@@ -27,7 +27,7 @@ Du kan skicka ett erbjudande via e-post samma dag som kundens profil skapas.
 
 ## Skapa en schemaläggningsaktivitet {#creating-a-scheduler-activity}
 
-1. Dra och släpp en **[!UICONTROL Activities]** Schemaläggaren **[!UICONTROL Execution]**-aktivitet i [ > ](../../automating/using/scheduler.md).
+1. Dra och släpp en **[!UICONTROL Activities]** Schemaläggaren **[!UICONTROL Execution]**-aktivitet i [&#x200B; > &#x200B;](../../automating/using/scheduler.md).
 1. Dubbelklicka på aktiviteten.
 1. Konfigurera leveransen.
 1. I **[!UICONTROL Execution frequency]** väljer du **[!UICONTROL Daily]**.
