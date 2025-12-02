@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,segmentation,delivery
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: feedc2f5-63da-44a5-b8f0-15afdfd47daa
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 79%
@@ -26,7 +27,7 @@ Du kan skicka riktade e-postmeddelanden till kunderna med erbjudanden i deras lo
 
 ## Välja mottagare som kan kontaktas via e-post{#selecting-recipients-contactable-via-email}
 
-1. Dra och släpp en [Query](../../automating/using/query.md)-aktivitet ![](assets/query.png) i **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**.
+1. Dra och släpp en **[!UICONTROL Activities]** Query **[!UICONTROL Targeting]**-aktivitet [ i ](../../automating/using/query.md) > ![](assets/query.png).
 1. Dubbelklicka på aktiviteten.
 1. I **[!UICONTROL Shortcuts]** drar och släpper du **[!UICONTROL Profiles]** och markerar fältet **[!UICONTROL email]** med operatorn **[!UICONTROL is not empty]**.
 1. I **[!UICONTROL Shortcuts]** drar och släpper du **[!UICONTROL Profiles]** och markerar fältet **[!UICONTROL no longer contact by email]** med värdet **[!UICONTROL no]**.
@@ -48,7 +49,7 @@ Obs! Om du vill nå alla personer som angav boston avmarkerar du alternativet Sk
 
 ## Skapa en e-postleverans{#creating-an-email-delivery}
 
-1. Dra och släpp en [e-postleveransaktivitet](../../automating/using/email-delivery.md) efter varje segment i **[!UICONTROL Activities]** > **[!UICONTROL Channels]**.
+1. Dra och släpp en **[!UICONTROL Activities]** e-postleveransaktivitet **[!UICONTROL Channels]** efter varje segment i [ > ](../../automating/using/email-delivery.md).
 1. Klicka på aktiviteten och välj ![](assets/edit_darkgrey-24px.png) för att redigera.
 1. Markera **[!UICONTROL Simple email]** och klicka på **[!UICONTROL Next]**.
 1. Välj en e-postmall och klicka på **[!UICONTROL Next]**.

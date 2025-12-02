@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 69e8d034-6bdd-4b82-bcd7-1ef4be0a59b3
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
@@ -21,15 +22,15 @@ Profiler skapas med en **POST**-begäran på profilresursen.
 
 >[!CAUTION]
 >
->Om du vill associera en <b>orgUnit</b> med den skapade profilen måste du utöka profilresursen med det här fältet och, efter att tillägget har publicerats, utföra en POST på slutpunkten <b>ProfileAndServicesExt</b> .
+>Om du vill associera en <b>orgUnit</b> med den skapade profilen måste du utöka profilresursen med det här fältet och, efter att tillägget har publicerats, utföra en POST-begäran på slutpunkten <b>ProfileAndServicesExt</b> .
 >
->Mer information om profilens resurstillägg finns i <a href="https://helpx.adobe.com/se/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Kampanjdokumentationen</a>.
+>Mer information om profilens resurstillägg finns i <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Kampanjdokumentationen</a>.
 
 <br/>
 
 ***Exempelbegäran***
 
-Exempelbegäran om POST för att skapa en profil med e-postmeddelandet&quot;john.doe@mail.com&quot;.
+Exempelbegäran POST om att skapa en profil med e-postmeddelandet&quot;john.doe@mail.com&quot;.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \

@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 37048884-bd03-46ea-8e2e-a73ad568153b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 12%
@@ -18,7 +19,7 @@ ht-degree: 12%
 # Hämta en profils organisationsenhet {#retrieving-organizational-units}
 
 1. Utför en GET-begäran på PKey-profilen för att hämta URL:en **orgUnit**.
-1. Gör en GET-förfrågan på URL:en för att få mer information om organisationsenheten.
+1. Utför en GET-begäran på URL:en för att få mer information om organisationsenheten.
 
 <br/>
 
@@ -48,7 +49,7 @@ Den returnerar URL:en för orgUnit för profilen.
 }
 ```
 
-Utför en GET-förfrågan på URL:en för att få mer information.
+Utför en GET-begäran på URL:en för att få mer information.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \

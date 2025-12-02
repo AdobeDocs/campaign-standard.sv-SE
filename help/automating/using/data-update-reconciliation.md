@@ -6,13 +6,14 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: reconciliation,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: cfca6202-791d-4baf-b5ed-677d2480cf06
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '128'
-ht-degree: 52%
+ht-degree: 33%
 
 ---
 
@@ -37,7 +38,7 @@ I följande exempel visas ett arbetsflöde som skapar en publik med profiler dir
   tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
   ```
 
-* En [avstämningsaktivitet](../../automating/using/reconciliation.md) som länkar varje kolumn i den inlästa filen till en profildimensionskolumn. Filposterna som inte kan identifieras (data saknas, inkompatibel datatyp etc.)  ignoreras för att bevara integriteten i den slutliga målgruppsinformationen.
+* En [avstämningsaktivitet](../../automating/using/reconciliation.md) som länkar varje kolumn i den inlästa filen till en profildimensionskolumn. De filposter som inte kan identifieras (saknade data, inkompatibla datatyper osv.) ignoreras för att bevara integriteten hos de slutliga målgruppsdata.
 
   ![](assets/identification_example1.png)
 

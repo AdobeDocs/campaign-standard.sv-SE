@@ -6,10 +6,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 66623c76-96aa-45cd-9637-19d8a9732c04
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1839'
 ht-degree: 0%
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 # Synkronisera data
 
-Du kan synkronisera tabeller från Microsoft Dynamics 365 till marknadsföringsstatistik för Campaign och Campaign till Microsoft Dynamics 365. Synkroniseringen utförs via tre dedikerade tekniska arbetsflöden: **[!UICONTROL Microsoft Dynamics 365 to Campaign]**, **[!UICONTROL Campaign to Microsoft Dynamics 365]**, **[!UICONTROL Opt-In/Out]**. Se det här avsnittet för att [lära dig mer](../../integrating/using/d365-acs-self-service-app-workflows.md).
+Ni kan synkronisera tabeller från Microsoft Dynamics 365 till marknadsföringsstatistik för Campaign och Campaign till Microsoft Dynamics 365. Synkroniseringen utförs via tre dedikerade tekniska arbetsflöden: **[!UICONTROL Microsoft Dynamics 365 to Campaign]**, **[!UICONTROL Campaign to Microsoft Dynamics 365]**, **[!UICONTROL Opt-In/Out]**. Se det här avsnittet för att [lära dig mer](../../integrating/using/d365-acs-self-service-app-workflows.md).
 
 >[!IMPORTANT]
 >Du måste stoppa/starta arbetsflödet **[!UICONTROL Microsoft Dynamics 365 to Campaign]** för att dina ändringar ska beaktas. [Läs mer](../../integrating/using/d365-acs-self-service-app-workflows.md)
@@ -32,7 +33,7 @@ På sidan **[!UICONTROL Microsoft Dynamics 365 to Campaign]** visas en lista med
 
 Här följer en beskrivning av varje kolumn i tabellen:
 
-* **[!UICONTROL MICROSOFT DYNAMICS 365 TABLE]**: Den här kolumnen identifierar vilken entitet i Microsoft Dynamics 365 som ska vara datakälla för mappningen.
+* **[!UICONTROL MICROSOFT DYNAMICS 365 TABLE]**: den här kolumnen identifierar vilken entitet i Microsoft Dynamics 365 som ska vara datakälla för mappningen.
 
 * **[!UICONTROL CAMPAIGN TABLE]**: den här kolumnen identifierar vilken resurs i Adobe Campaign som ska vara målet för mappningen.
 
@@ -49,13 +50,13 @@ Här följer en beskrivning av varje kolumn i tabellen:
      Du kan inte välja att spela upp data när följande är sant:
 
       * Om det finns 2 000 000 objekt (eller fler) i det eftersläpningsmått som är kopplat till arbetsflödet **[!UICONTROL Microsoft Dynamics 365 to Campaign]** (visas på sidan **[!UICONTROL Workflows]**)
-      * Om det finns 2 000 000 eller fler poster i tabellen för Microsoft Dynamics 365
+      * Om det finns 2 000 000 eller fler poster i Microsoft Dynamics 365-tabellen
 
      Antalet poster som behöver synkroniseras på nytt varierar. Om du har ett stort antal poster kan det ta lite tid att slutföra synkroniseringsprocessen. Se **[!UICONTROL Backlog]**-måttet på sidan **[!UICONTROL Workflows]** när integrationsprogrammet fungerar för att slutföra synkroniseringsprocessen.
 
      >[!IMPORTANT]
      >
-     > Vi rekommenderar starkt att du avbryter integreringsarbetsflödet när du publicerar ändringar i antingen Adobe Campaign Standard eller Microsoft Dynamics 365. Tillämpliga ändringar är bland annat: uppdateringar av resurser/entiteter (och tillhörande fält), länkar, identifierarkolumner osv. som för närvarande används av integreringen.
+     > Vi rekommenderar att du avbryter integreringsarbetsflödet när du publicerar ändringar i antingen Adobe Campaign Standard eller Microsoft Dynamics 365. Tillämpliga ändringar är bland annat: uppdateringar av resurser/entiteter (och tillhörande fält), länkar, identifierarkolumner osv. som för närvarande används av integreringen.
      >
 
 ## Skapa en ny mappning {#add-a-new-mapping}
@@ -104,11 +105,11 @@ Du kan definiera följande inställningar:
 
 #### Primära nycklar
 
-När du lägger till en ny Microsoft Dynamics 365 i mappningen av kampanjregistret måste du identifiera ID-fältet.
+När du lägger till en ny Microsoft Dynamics 365-fil i Campaign-tabellmappningen måste du identifiera ID-fältet.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-mappings-first-key.png)
 
-Primärnyckeln för Microsoft Dynamics 365 är skrivskyddad eftersom den identifieras av programmet.
+Den primära nyckeln för Microsoft Dynamics 365 är skrivskyddad eftersom programmet identifierar den.
 
 För Campaign måste du välja vilket fält som ska vara den unika nyckeln. Den måste konfigureras som en anpassad [CRM ID-resurs](../../developing/using/uc-calling-resource-id-key.md) och får inte innehålla några dubbletter.
 
@@ -131,7 +132,7 @@ Markera fälten Microsoft Dynamics 365 och Campaign i listorna:
 De här listorna innehåller de fältnamn som är kopplade till de Microsoft Dynamics 365- och Campaign-tabeller som du har valt överst på sidan.
 
 Med väljaren **[!UICONTROL Apply updates]** kan du styra om uppdateringar av det här fältet ska spridas från Microsoft Dynamics 365 till Campaign:
-* Om den är aktiverad ![](assets/do-not-localize/d365-to-acs-icon-switch-on.png) kommer uppdateringar av värdena i Microsoft Dynamics 365 att spridas till Adobe Campaign när uppdateringarna utförs.
+* Om den är aktiverad ![](assets/do-not-localize/d365-to-acs-icon-switch-on.png) kommer uppdateringar av värdet/värdena i Microsoft Dynamics 365 att spridas till Adobe Campaign när uppdateringarna utförs.
 
 * Om du inaktiverade ![](assets/do-not-localize/d365-to-acs-icon-switch-off.png) kommer värdet att spridas när data först läses in (eller spelas upp), men inkrementella uppdateringar av fältet i Microsoft Dynamics 365 kommer inte att spridas.
 
@@ -146,7 +147,7 @@ När du väljer fältvärden visas datatypen nedanför de nedrullningsbara menye
 
 >[!NOTE]
 >
-> Du kan inte mappa flera Microsoft Dynamics 365-fält till ett enskilt Campaign-fält.
+> Du kan inte mappa flera Microsoft Dynamics 365-fält till ett enda Campaign-fält.
 
 ### Fältersättning {#field-replacements}
 
@@ -186,11 +187,11 @@ Du kan ange följande alternativ när du konfigurerar en mappning:
 
 * Ställ in alternativet **[!UICONTROL Apply deletes in Microsoft Dynamics 365 to Campaign?]** på **Yes** om du vill sprida borttagningar som inträffar i Microsoft Dynamics 365 till motsvarande fält i Adobe Campaign (baserat på fältnamnsmappningen). Välj **Nej** om du vill ignorera borttagningar i Microsoft Dynamics 365.
 
-* Ange alternativet **[!UICONTROL Use technical values in Microsoft Dynamics 365 picklists?]** till **Nej** om du vill sprida visningsvärdet som är associerat med en Microsoft Dynamics 365-väljarlista till Campaign. Välj **Ja** om du vill sprida det tekniska värdet.
+* Ange alternativet **[!UICONTROL Use technical values in Microsoft Dynamics 365 picklists?]** till **Nej** om du vill sprida visningsvärdet som är associerat med en Microsoft Dynamics 365-lista till Campaign. Välj **Ja** om du vill sprida det tekniska värdet.
 
-## Synkronisera kampanjmarknadsföringshändelser till Microsoft Dynamics 365
+## Synkronisera Campaign-marknadsföringshändelser till Microsoft Dynamics 365
 
-På sidan **[!UICONTROL Campaign to Microsoft Dynamics 365]** kan du identifiera vilka e-postmarknadsföringshändelser som ska mappas från Adobe Campaign till Microsoft Dynamics 365.
+På sidan **[!UICONTROL Campaign to Microsoft Dynamics 365]** kan du identifiera vilka e-postmarknadsföringshändelser som mappas från Adobe Campaign till Microsoft Dynamics 365.
 
 De fyra mätvärden som du kan kontrollera är: **Sends**, **Clicks**, **Open** och **Bounces**.
 
@@ -202,7 +203,7 @@ Klicka [här](../../integrating/using/d365-acs-self-service-app-workflows.md) om
 
 ## Anmäl dig till/från arbetsflöde {#opt-in-out-wf}
 
-Med arbetsflödet **Anmäl dig till/från** kan du identifiera flödet för avanmälningsinformation mellan Microsoft Dynamics 365 och Adobe Campaign. Detta förutsätter att data är associerade med Microsoft Dynamics 365-entiteten &quot;contact&quot; och Adobe Campaign-resursens &quot;profile&quot;.
+Med arbetsflödet **Anmäl dig till/från** kan du identifiera flödet för avanmälningsinformation mellan Microsoft Dynamics 365 och Adobe Campaign. Detta förutsätter att data är kopplade till Microsoft Dynamics 365-entiteten &quot;contact&quot; och Adobe Campaign-resursens &quot;profile&quot;.
 
 Läs mer om hantering av avanmälan i [det här avsnittet](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out).
 
@@ -216,7 +217,7 @@ Nedan visas en lista med tillgängliga alternativ för att synkronisera data:
 
 * **[!UICONTROL Disabled]**: När det här alternativet är markerat flyttas ingen information om anmälan/utanmälan mellan Adobe Campaign och Microsoft Dynamics 365.
 
-* **[!UICONTROL Unidirectional (Microsoft Dynamics 365 to Campaign)]**: Det här alternativet används endast för att flöda anmäl/avanmäl från Microsoft Dynamics 365 till Adobe Campaign. Integreringsprogrammet låter dig inte konfigurera flödet på den här skärmen. Klicka i stället på **[!UICONTROL Save button]** och navigera till arbetsflödet för **[!UICONTROL Microsoft Dynamics 365 to Campaign]**. I det här arbetsflödet kan du redigera kontakter-/profiltabellmappningen för att identifiera hur du vill att dina in-/utanmälningsfält ska mappas.
+* **[!UICONTROL Unidirectional (Microsoft Dynamics 365 to Campaign)]**: Det här alternativet används endast för att flöda anmälan/utanmälan från Microsoft Dynamics 365 till Adobe Campaign. Integreringsprogrammet låter dig inte konfigurera flödet på den här skärmen. Klicka i stället på **[!UICONTROL Save button]** och navigera till arbetsflödet för **[!UICONTROL Microsoft Dynamics 365 to Campaign]**. I det här arbetsflödet kan du redigera kontakter-/profiltabellmappningen för att identifiera hur du vill att dina in-/utanmälningsfält ska mappas.
 
 * **[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]**: Det här alternativet gör avsnittet **Mappningar** synligt. Dessa indata gör att du kan definiera vilka Adobe Campaign-fält som ska mappa data till vilka fält i Microsoft Dynamics 365. Det innebär att om du uppdaterar ett värde i Microsoft Dynamics 365 manuellt skrivs dess värde över med Adobe Campaign-värdet om det ändras.
 
@@ -226,6 +227,6 @@ Nedan visas en lista med tillgängliga alternativ för att synkronisera data:
 
 Det här avsnittet gäller bara när fältet för synkroniseringsriktning för avanmälan/utskrivning är inställt på **[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]** eller **[!UICONTROL Bidirectional]**. Du kan definiera vilka fält i Microsoft Dynamics 365 som ska mappas till vilka indata i Adobe Campaign.
 
-Fältnamnen för Microsoft Dynamics 365 innehåller alla de som är av typen **boolesk**.
+Fältnamnen i Microsoft Dynamics 365 innehåller alla som är av typen **boolesk**.
 
 Fältnamnen i Adobe Campaign är en fast uppsättning värden som är specifika för att välja bort/ta bort. Fältnamnen i Adobe Campaign är en fast uppsättning värden som är specifika för att välja bort/ta bort. **Värdeuppsättningen i den här listan kan inte ändras**.

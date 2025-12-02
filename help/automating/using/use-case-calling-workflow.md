@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 7a21f4f6-316f-4f3d-9d53-37d406a46aae
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 1%
@@ -35,7 +36,7 @@ Innan du konfigurerar arbetsflödena måste du skapa arbetsflödet 1 och 2 med e
 
 ## Steg 1: Konfigurera API-anropet {#step-1--configuring-the-api-call}
 
-Gör ett API-anrop för att utlösa arbetsflöde 1 med parametrar. Mer information om API-anropssyntaxen finns i [Campaign Standardens REST API:er-dokumentation](../../api/using/triggering-a-signal-activity.md).
+Gör ett API-anrop för att utlösa arbetsflöde 1 med parametrar. Mer information om API-anropssyntaxen finns i [dokumentationen för Campaign Standard REST API:er](../../api/using/triggering-a-signal-activity.md).
 
 I det här fallet vill vi anropa arbetsflödet med följande parametrar:
 

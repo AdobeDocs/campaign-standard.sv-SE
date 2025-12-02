@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 0c26a0f9-9d71-4692-ae86-d47e2df53bb7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1765'
 ht-degree: 90%
@@ -105,7 +106,7 @@ Mer information finns i det här användningsexemplet: [Använder andra resurser
 
 ## Förbättra data {#enriching-data}
 
-På fliken **[!UICONTROL Additional data]** i **[!UICONTROL Query]** och **[!UICONTROL Incremental query]**&#x200B;**[!UICONTROL Enrichment]**­aktiviteterna kan du utöka måldata och överföra denna data till följande arbetsflödesaktiviteter där de kan användas.  Du kan mer specifikt lägga till:
+På fliken **[!UICONTROL Additional data]** i **[!UICONTROL Query]** och **[!UICONTROL Incremental query]****[!UICONTROL Enrichment]**­aktiviteterna kan du utöka måldata och överföra denna data till följande arbetsflödesaktiviteter där de kan användas.  Du kan mer specifikt lägga till:
 
 * Enkel data
 * Sammanställningar

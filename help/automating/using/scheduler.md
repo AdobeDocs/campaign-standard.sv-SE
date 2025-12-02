@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: schedule,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 39f7b216-b3cd-4aa6-b5df-23e6805076df
-source-git-commit: 6107f5e43b25037f7f5a7f130922a3a22d0047af
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 52%
@@ -58,11 +59,11 @@ När du utformar ett schemalagt arbetsflöde som innehåller flera aktiviteter m
 
    >[!NOTE]
    >
-   >Fältet **[!UICONTROL Repetition frequency]** som är tillgängligt för körningsfrekvenserna Dagligen och Månadsvis gör att du kan ta bort de tidpunkter då arbetsflödet aktiveras. Om du exempelvis väljer en daglig körningsperiod och repetitionsfrekvensen är inställd på **2** dagar så kommer arbetsflödet att aktiveras varannan dag.  Det får inte vara under 10 minuter.  Om repetitionsfrekvensen anges till **&#x200B;**&#x200B;(även standardvärdet), beaktas inte det här alternativet och arbetsflödet körs enligt den angivna körningsfrekvensen.
+   >Fältet **[!UICONTROL Repetition frequency]** som är tillgängligt för körningsfrekvenserna Dagligen och Månadsvis gör att du kan ta bort de tidpunkter då arbetsflödet aktiveras. Om du exempelvis väljer en daglig körningsperiod och repetitionsfrekvensen är inställd på **2** dagar så kommer arbetsflödet att aktiveras varannan dag.  Det får inte vara under 10 minuter.  Om repetitionsfrekvensen anges till **** (även standardvärdet), beaktas inte det här alternativet och arbetsflödet körs enligt den angivna körningsfrekvensen.
 
    När du anger körningsfrekvensen till **[!UICONTROL Several times a day]** kan du välja mellan att köra arbetsflödet vid specifika tidpunkter på dagen eller regelbundet under dagen.
 
-+++ Lär dig hur du konfigurerar en **[!UICONTROL "Several times a day"]**-körningsfrekvens
+   +++ Lär dig hur du konfigurerar en **[!UICONTROL "Several times a day"]**-körningsfrekvens
 
    * Om du vill köra arbetsflödet flera gånger under en viss tid på dagen aktiverar du alternativet **[!UICONTROL Specific times]** och klickar sedan på **[!UICONTROL Add an element]** för att ange önskad körningstid. Lägg till så många gånger som behövs för att anpassa er efter era behov.
 
@@ -86,7 +87,7 @@ När du utformar ett schemalagt arbetsflöde som innehåller flera aktiviteter m
 
    ![](assets/wkf_scheduler_day.png)
 
-+++
+   +++
 
 1. Ange när körningen ska upphöra:
 

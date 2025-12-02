@@ -6,13 +6,14 @@ content-type: reference
 topic-tags: channel-activities
 context-tags: sms,main;delivery,smsContent,back
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 65d3f3d8-039d-4188-a6a4-0065724aa82b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '785'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -61,7 +62,7 @@ Förberedelsen av meddelande utlöses enligt arbetsflödets körningsparametrar.
 1. Som standard innehåller aktiviteten **[!UICONTROL SMS delivery]** inga utgående övergångar. Om du vill lägga till en utgående övergång till din **[!UICONTROL SMS delivery]**-aktivitet går du till fliken **[!UICONTROL General]** med de avancerade aktivitetsalternativen (knappen ![](assets/dlv_activity_params-24px.png) i aktivitetens snabbåtgärder) och markerar något av följande alternativ:
 
    * **[!UICONTROL Add outbound transition without the population]**: Detta gör att du kan generera en utgående övergång som innehåller exakt samma population som den inkommande övergången.
-   * **[!UICONTROL Add outbound transition with the population]**: Detta gör att du kan generera en utgående övergång som innehåller den population som SMS-meddelandet skickades till. Målmedlemmar som uteslöts under leveransförberedelsen (karantän, ogiltigt nummer, o.s.v.) är undantagna från denna övergång.
+   * **[!UICONTROL Add outbound transition with the population]**: Detta gör att du kan generera en utgående övergång som innehåller den population som SMS-meddelandet skickades till. De målmedlemmar som uteslöts under leveransberedningen (karantän, ogiltigt antal osv.) undantas från övergången.
 
 1. Bekräfta aktivitetens konfiguration och spara arbetsflödet.
 

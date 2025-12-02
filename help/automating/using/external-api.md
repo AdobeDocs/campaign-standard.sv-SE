@@ -1,15 +1,16 @@
 ---
 title: Externt API
-description: Den externa API-aktiviteten hämtar data till arbetsflödet för Campaign Standard från ett externt system via ett HTTP API-anrop.
+description: Den externa API-aktiviteten hämtar data till Campaign Standard-arbetsflödet från ett externt system via ett HTTP API-anrop.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '2208'
 ht-degree: 93%
@@ -38,7 +39,7 @@ De viktigaste egenskaperna för denna aktivitet är:
 
 ### Bakåtkompatibilitetsmeddelanden {#from-beta-to-ga}
 
-I Campaign Standard 20.4 har http-svarets datastorleksgräns och timeout-skydd sänkts för att anpassas till bästa praxis - se [Begränsningar och skyddsutkast](#guardrails). Dessa skyddsändringar träder ej i kraft för befintliga externa API-aktiviteter. Vi rekommenderar därför att du ersätter befintliga externa API-aktiviteter med nya versioner i alla arbetsflöden.
+I Campaign Standard 20.4 har http-svarsdatastorleksgränsen och tidsgränsskyddet för svar sänkts så att de överensstämmer med bästa praxis - se [Begränsningar och skyddsutkast](#guardrails). Dessa skyddsändringar träder ej i kraft för befintliga externa API-aktiviteter. Vi rekommenderar därför att du ersätter befintliga externa API-aktiviteter med nya versioner i alla arbetsflöden.
 
 När du ersätter Extern API-aktiviteter lägger du till den nya Extern API-aktiviteten i arbetsflödet, kopierar manuellt över konfigurationsinformationen och tar sedan bort den gamla aktiviteten.
 
@@ -114,7 +115,7 @@ Om **tolkningen valideras** visas ett meddelande som uppmanar dig att anpassa da
 
 ### Körning
 
-Med den här fliken kan du definiera anslutningens slutpunkt. I fältet **[!UICONTROL URL]** kan du definiera den **HTTPS-slutpunkt** som Campaign Standarden ska kommunicera med.
+Med den här fliken kan du definiera anslutningens slutpunkt. I fältet **[!UICONTROL URL]** kan du definiera den **HTTPS-slutpunkt** som Campaign Standard ska kommunicera med.
 
 Om slutpunkten kräver det finns det två typer av autentiseringsmetoder:
 

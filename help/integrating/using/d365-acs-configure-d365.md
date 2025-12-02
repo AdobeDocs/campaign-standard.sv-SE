@@ -1,23 +1,24 @@
 ---
-title: Konfigurera integrering av Microsoft Dynamics 365 för Campaign
-description: Lär dig hur du konfigurerar integrering av Microsoft Dynamics 365 för Campaign.
+title: Konfigurera Microsoft Dynamics 365 för kampanjintegrering
+description: Lär dig hur du konfigurerar Microsoft Dynamics 365 för Campaign-integrering.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
-source-git-commit: 6947d163119dd6fc5966fdc723530b02bdd4a469
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
 
 # Konfigurera Microsoft Dynamics 365 för integrering med Adobe Campaign Standard
 
-Lär dig hur du konfigurerar integreringen av Microsoft Dynamics 365 och aktiverar dina CRM-data för kommunikation över flera kanaler med Adobe Campaign Standard.
+Lär dig hur du konfigurerar Microsoft Dynamics 365-integrering och aktiverar dina CRM-data för kanalövergripande kommunikation med Adobe Campaign Standard.
 
 ## Översikt
 
@@ -33,7 +34,7 @@ Om du konfigurerar integreringen för både testnings- och produktionsmiljöer m
 
 ## Konfigurera program och behörigheter
 
-Med en OAuth-åtkomsttoken kan integreringsverktyget autentisera med din Microsoft Dynamics 365-instans via webb-API:er för att publicera Campaign Standardens upplevelsehändelser i tidslinjevyn i Microsoft Dynamics 365-gränssnittet.
+Med en OAuth-åtkomsttoken kan integreringsverktyget autentisera med din Microsoft Dynamics 365-instans via webb-API:er för att publicera Campaign Standard Experience Events i tidslinjevyn i Microsoft Dynamics 365-gränssnittet.
 
 De viktigaste stegen beskrivs i följande video:
 
@@ -83,7 +84,7 @@ Mer information om behörighetsinställningar finns i [det här avsnittet](https
 
 ### Skapa appanvändaren
 
-Den nya användaren är en allmän användare. Den används av programmet: alla ändringar i Microsoft Dynamics 365 som använder API görs av den här användaren. Så här skapar du den:
+Den nya användaren är en allmän användare. Den kommer att användas av programmet: alla ändringar i Microsoft Dynamics 365 som använder API görs av den här användaren. Så här skapar du den:
 
 1. Navigera till din Dynamics 365-instans och logga in som administratör.
 
@@ -91,7 +92,7 @@ Den nya användaren är en allmän användare. Den används av programmet: alla 
 
 1. Klicka på listrutan för att gå till **[!UICONTROL Application Users]**. Klicka på **[!UICONTROL New]**.
 
-1. Se till att listrutan bredvid användarikonen säger **[!UICONTROL USER:APPLICATION USER]**.
+1. Se till att listrutan bredvid användarikonen visar **[!UICONTROL USER:APPLICATIONUSER]**.
 
    Fyll i skärmen för den nya användaren.  Parameterförslag:
 
@@ -125,7 +126,7 @@ Du kan även navigera till den här [länken](https://appsource.microsoft.com/en
 1. Navigera till din Dynamics 365-instans och logga in som administratör när du har installerat den.
 1. Klicka på kugghjulsikonen i det övre högra hörnet och klicka på **[!UICONTROL Advanced Settings]**. Klicka på listrutan bredvid **[!UICONTROL Settings]** i den översta banderollen och klicka på **[!UICONTROL Processes]** under **[!UICONTROL Process Center]**.
 1. Sök efter uppgiften **[!UICONTROL Adobe Campaign Email Bounce]** och klicka på den.
-1. På fliken **[!UICONTROL Administration]** ändrar du ägaren till Adobe till API-programanvändaren som skapades tidigare genom att klicka på **[!UICONTROL Actions]** i det övre menyfliksområdet, sedan väljer du alternativet **[!UICONTROL Assign to another User]** och sedan **[!UICONTROL Adobe API application user]** i listrutan som du vill tilldela.
+1. På fliken **[!UICONTROL Administration]** ändrar du ägaren till Adobe API-programanvändaren som skapades tidigare genom att klicka på **[!UICONTROL Actions]** i det övre menyfliksområdet, sedan väljer du alternativet **[!UICONTROL Assign to another User]** och sedan **[!UICONTROL Adobe API application user]** i listrutan som du vill tilldela.
 1. Återaktivera processen.
 1. Gör samma sak för aktiviteten **[!UICONTROL Adobe Campaign Email Click]**.
 
@@ -135,5 +136,5 @@ Du kan även navigera till den här [länken](https://appsource.microsoft.com/en
 
 **Relaterade ämnen**
 
-* [Konfigurera integrering med Adobe Developer för Microsoft Dynamics 365](../../integrating/using/d365-acs-configure-adobe-io.md) är nästa steg i konfigurationen av integreringen
+* [Konfigurera Adobe Developer för Microsoft Dynamics 365-integrering](../../integrating/using/d365-acs-configure-adobe-io.md) är nästa steg i konfigurationen av integreringen
 * [Kom igång med självbetjäningsintegreringsappen](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) innehåller en komplett lista över steg som krävs för att få integreringen igång.

@@ -1,17 +1,18 @@
 ---
 title: Hantera Adobe Experience Platform-målgrupper
-description: Lär dig hantera Adobe Experience Platform inom Campaign Standard.
+description: Lär dig hantera Adobe Experience Platform i Campaign Standard.
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 2f6c5cc6-0634-4418-a2ee-e1c133d9cbd2
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 2%
@@ -26,7 +27,7 @@ ht-degree: 2%
 
 ## Åtkomst till Adobe Experience Platform-målgrupper
 
-Om du vill komma åt Adobe Experience Platform segmentbyggare går du till startsidan för **[!UICONTROL Audiences]**-kortet på Campaign Standarden (eller till **[!UICONTROL Audiences]**-länken i sidhuvudet) och väljer sedan **[!UICONTROL Adobe Experience Platform]**-miljön.
+Om du vill komma åt Adobe Experience Platform segmentbyggare går du till **[!UICONTROL Audiences]**-kortet på Campaign Standard hemsida (eller till **[!UICONTROL Audiences]**-länken i sidhuvudet) och väljer sedan **[!UICONTROL Adobe Experience Platform]**-miljön.
 
 ![](assets/aep_audiences_access.png)
 
@@ -38,7 +39,7 @@ Det finns ett sökfält och filter som hjälper dig att hitta det önskade Adobe
 
 ## Skapa Adobe Experience Platform-målgrupper
 
-Så här skapar du en Adobe Experience Platform-publik direkt i Campaign Standarden:
+Så här skapar du en Adobe Experience Platform-publik direkt i Campaign Standard:
 
 1. Klicka på knappen **[!UICONTROL New audience]** i det högra hörnet på listsidan för Adobe Experience Platform-segment.
 
@@ -52,7 +53,7 @@ Så här skapar du en Adobe Experience Platform-publik direkt i Campaign Standar
 
 1. För att kunna skapa ett segment måste du välja en **sammanfogningsprincip** som matchar ditt marknadsföringssyfte för det här segmentet.
 
-   I inställningsfönstret är en standardprincip för sammanfogning av plattform vald. Mer information om sammanfogningsprinciper finns i det dedikerade avsnittet i användarhandboken för [Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=sv-SE).
+   I inställningsfönstret är en standardprincip för sammanfogning av plattform vald. Mer information om sammanfogningsprinciper finns i det dedikerade avsnittet i användarhandboken för [Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 

@@ -6,13 +6,14 @@ content-type: reference
 topic-tags: channel-activities
 context-tags: delivery,workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: e38ff3dd-8fb0-419b-9090-a3165852bf83
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '858'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 
@@ -74,7 +75,7 @@ Förberedelsen av meddelande utlöses enligt arbetsflödets körningsparametrar.
 1. Som standard innehåller aktiviteten **[!UICONTROL Email delivery]** inga utgående övergångar. Om du vill lägga till en utgående övergång till din **[!UICONTROL Email delivery]**-aktivitet går du till fliken **[!UICONTROL General]** med de avancerade aktivitetsalternativen (knappen ![](assets/dlv_activity_params-24px.png) i aktivitetens snabbåtgärder) och markerar något av följande alternativ:
 
    * **[!UICONTROL Add outbound transition without the population]**: Detta gör att du kan generera en utgående övergång som innehåller exakt samma population som den inkommande övergången.
-   * **[!UICONTROL Add outbound transition with the population]**: Detta gör att du kan generera en utgående övergång som innehåller den population som e-postmeddelandet skickades till. Målmedlemmar som uteslöts under leveransförberedelsen (karantän, ogiltig e-post, o.s.v.) är undantagna från denna övergång.
+   * **[!UICONTROL Add outbound transition with the population]**: Detta gör att du kan generera en utgående övergång som innehåller den population som e-postmeddelandet skickades till. Målmedlemmarna som uteslöts under leveransförberedelsen (karantän, ogiltig e-post osv.) undantas från övergången.
 
 1. Bekräfta aktivitetens konfiguration och spara arbetsflödet.
 

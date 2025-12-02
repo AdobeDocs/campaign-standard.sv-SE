@@ -3,10 +3,11 @@ title: Exportera data från Campaign till Adobe Experience Platform
 description: Lär dig exportera data från Campaign Standard till Adobe Experience Platform.
 audience: integrating
 content-type: reference
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: eccd2922-0e75-4525-9b60-b48f628deeae
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 4%
@@ -15,13 +16,13 @@ ht-degree: 4%
 
 # Exportera data från Campaign till Adobe Experience Platform {#sources}
 
-Om du vill exportera Campaign Standard data till Adobe Real-time Customer Data Platform (RTCDP) måste du först skapa ett arbetsflöde i Campaign Standard för att kunna exportera de data du vill dela till din Amazon-lagringstjänst (S3) eller Azure Blob-lagringsplats.
+Om du vill exportera Campaign Standard-data till Adobe Customer Data Platform (RTCDP) i realtid måste du först skapa ett arbetsflöde i Campaign Standard för att exportera de data du vill dela till din Amazon Storage Service (S3) eller Azure Blob-lagringsplats.
 
 När arbetsflödet har konfigurerats och data har skickats till din lagringsplats måste du ansluta din S3- eller Azure-blobblagringsplats som en **Source** i Adobe Experience Platform.
 
 >[!NOTE]
 >
->Observera att vi rekommenderar att du bara exporterar kampanjgenererade data (t.ex. för att skicka, öppna, klicka osv.) till Adobe Experience Platform. Data som hämtas från en tredje parts källa (som din CRM) ska importeras direkt till Adobe Experience Platform.
+>Observera att vi rekommenderar att du bara exporterar data som genererats av Campaign (t.ex. för att skicka, öppna, klicka osv.) till Adobe Experience Platform. Data som hämtas från en tredje parts källa (som din CRM) ska importeras direkt till Adobe Experience Platform.
 
 ## Skapa ett exportarbetsflöde i Campaign Standard
 
@@ -53,10 +54,10 @@ Relaterade ämnen:
 
 De viktigaste stegen för att ansluta din Amazon Storage Service (S3) eller Azure Blob-lagringsplats som **Source** i Adobe Experience Platform anges nedan. Detaljerad information om de här stegen finns i [Source Connectors-dokumentationen](https://experienceleague.adobe.com/docs/experience-platform/sources/home.htmll?lang=sv).
 
-1. Skapa en anslutning till din lagringsplats på Adobe Experience-plattformen **[!UICONTROL Sources]**:
+1. Skapa en anslutning till din lagringsplats på Adobe Experience-plattformens **[!UICONTROL Sources]**-meny:
 
-   * [Skapa en Amazon S3-källanslutning](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html?lang=sv-SE)
-   * [Azure Blob-koppling](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob.html?lang=sv-SE)
+   * [Skapa en Amazon S3-källanslutning](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html)
+   * [Azure Blob-koppling](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob.html)
 
    >[!NOTE]
    >
@@ -66,7 +67,7 @@ De viktigaste stegen för att ansluta din Amazon Storage Service (S3) eller Azur
 
 1. Konfigurera ett dataflöde för en batchanslutning till molnlagring. Ett dataflöde är en schemalagd aktivitet som hämtar och importerar data från lagringsplatsen till en Adobe Experience Platform-datauppsättning. Med det här steget kan du konfigurera datainmatningen från lagringsplatsen, inklusive dataval och mappning av CSV-fälten till ett XDM-schema.
 
-   Detaljerad information finns på [den här sidan](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/cloud-storage.html?lang=sv-SE).
+   Detaljerad information finns på [den här sidan](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/cloud-storage.html).
 
    ![](assets/rtcdp-map-xdm.png)
 

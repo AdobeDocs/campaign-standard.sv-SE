@@ -5,17 +5,18 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 51f07f08-5d57-4c4c-aff2-d03e5956ec6f
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 0%
 
 ---
 
-# Campaign - Integreringsarbetsflöden för Microsoft Dynamics 365
+# Campaign - Microsoft Dynamics 365, arbetsflöden för integrering
 
 På sidan **[!UICONTROL Workflows]** visas de tekniska arbetsflödena och deras status.
 
@@ -26,7 +27,7 @@ Integreringsprogrammet har tre arbetsflöden:
 **Microsoft Dynamics 365 till Campaign**
 * Skicka *kontakter* från Microsoft Dynamics 365 till Adobe Campaign
 * *Anpassade entiteter*: Hämta anpassade tabeller från Microsoft Dynamics 365 till Adobe Campaign. [Läs mer](../../integrating/using/d365-acs-using-the-integration.md#data-flows)
-* Detta kallas även **Inledning** (som refererar till inmatning av data från Microsoft Dynamics 365 till Adobe Campaign)
+* Detta kallas även **Inledning** (som hänvisar till inmatning av data från Microsoft Dynamics 365 till Adobe Campaign)
 
 **Kampanj för Microsoft Dynamics 365**
 * E-postmarknadsföringsevenemang från Adobe Campaign Standard skickas till Dynamics 365 (skicka via e-post, öppna, klicka, studsa). [Läs mer](../../integrating/using/d365-acs-using-the-integration.md#email-marketing-event-flow)
@@ -38,7 +39,7 @@ Opt-out-status (t.ex. blocklist) kan synkroniseras från Microsoft Dynamics 365 
 
 >[!IMPORTANT]
 >
->Vi rekommenderar att du avbryter arbetsflödet för **Microsoft Dynamics 365 till Campaign** innan du publicerar ändringar i antingen Adobe Campaign Standard eller Microsoft Dynamics 365. Dessa ändringar omfattar uppdateringar av resurser/entiteter (och deras associerade fält), länkar, identifierarkolumner osv. som för närvarande används av integreringen. Om du inte gör det kan det leda till dataförlust och/eller att arbetsflödet oväntat stoppas.
+>Vi rekommenderar att du avbryter arbetsflödet **Microsoft Dynamics 365 till Campaign** innan du publicerar ändringar i antingen Adobe Campaign Standard eller Microsoft Dynamics 365. Dessa ändringar omfattar uppdateringar av resurser/entiteter (och deras associerade fält), länkar, identifierarkolumner osv. som för närvarande används av integreringen. Om du inte gör det kan det leda till dataförlust och/eller att arbetsflödet oväntat stoppas.
 
 ## Arbetsflödets eftersläpning
 

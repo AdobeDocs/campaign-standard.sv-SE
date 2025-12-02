@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 5974a52c-8721-4575-b452-2982d6497235
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1176'
 ht-degree: 1%
@@ -46,7 +47,7 @@ I det här exemplet visas hur du anger ett förinställt arbetsflöde som kan å
      Smith;Hayden;23/05/1989;hayden.smith@mailtest.com;123456
      ```
 
-   * Välj **[!UICONTROL Upload a new file from the local machine]** i avsnittet **[!UICONTROL File to load]** och lämna fältet tomt. Varje gång ett nytt arbetsflöde skapas från den här mallen kan du här ange vilken fil du vill ha, så länge den motsvarar den definierade strukturen.
+   * Välj **[!UICONTROL File to load]** i avsnittet **[!UICONTROL Upload a new file from the local machine]** och lämna fältet tomt. Varje gång ett nytt arbetsflöde skapas från den här mallen kan du här ange vilken fil du vill ha, så länge den motsvarar den definierade strukturen.
 
      Du kan använda något av alternativen, men du måste ändra mallen därefter. Om du till exempel väljer **[!UICONTROL Use the file specified in the inbound transition]** kan du lägga till en **[!UICONTROL Transfer file]**-aktivitet innan för att hämta filen som ska importeras från en FTP-/SFTP-server.
 
@@ -57,7 +58,7 @@ I det här exemplet visas hur du anger ett förinställt arbetsflöde som kan å
 1. Konfigurera aktiviteten **[!UICONTROL Reconciliation]**. Syftet med den här aktiviteten i det här sammanhanget är att identifiera inkommande data.
 
    * På fliken **[!UICONTROL Relations]** väljer du **[!UICONTROL Create element]** och definierar en länk mellan importerade data och måldimensionen för mottagarna (se [Måldimensioner och resurser](../../automating/using/query.md#targeting-dimensions-and-resources)). I det här exemplet används det anpassade fältet **CRM ID** för att skapa kopplingsvillkoret. Använd fältet eller kombinationen av fält som du behöver så länge det går att identifiera unika poster.
-   * Lämna alternativet **[!UICONTROL Identify the document from the working data]** omarkerat på fliken **[!UICONTROL Identification]**.
+   * Lämna alternativet **[!UICONTROL Identification]** omarkerat på fliken **[!UICONTROL Identify the document from the working data]**.
 
    ![](assets/import_template_example2.png)
 
@@ -68,7 +69,7 @@ I det här exemplet visas hur du anger ett förinställt arbetsflöde som kan å
    Mottagare som inte kan förenas och som inte har tillräckligt med data markeras i en komplementövergång och kan exporteras i en separat fil eller helt enkelt ignoreras.
 
    * På fliken **[!UICONTROL General]** i aktiviteten anger du **[!UICONTROL Resource type]** till **[!UICONTROL Temporary resource]** och väljer **[!UICONTROL Reconciliation]** som måluppsättning.
-   * Markera alternativet **[!UICONTROL Generate complement]** på fliken **[!UICONTROL Advanced options]** för att se om det inte går att infoga någon post i databasen. Om du behöver kan du använda ytterligare bearbetning för komplementdata: filexport, listuppdatering osv.
+   * Markera alternativet **[!UICONTROL Advanced options]** på fliken **[!UICONTROL Generate complement]** för att se om det inte går att infoga någon post i databasen. Om du behöver kan du använda ytterligare bearbetning för komplementdata: filexport, listuppdatering osv.
    * I det första segmentet på fliken **[!UICONTROL Segments]** lägger du till ett filtreringsvillkor i den inkommande populationen för att endast markera poster där profilens CRM-ID inte är lika med 0. På så sätt markeras data från filen som är avstämda med profiler från databasen i den delmängden.
 
      ![](assets/import_template_example3.png)

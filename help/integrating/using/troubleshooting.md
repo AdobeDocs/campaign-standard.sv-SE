@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 5882ada6-dff4-4fd1-a433-0eb31570f73c
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 0%
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # Felsökning{#troubleshooting}
 
-Fel kan påträffas vid användning av integreringen med huvudtjänsten Audience Manager eller People.
+Fel kan påträffas vid användning av integreringen med Audience Manager eller People-bastjänsten.
 
 I så fall måste du kontrollera att följande element är korrekt konfigurerade:
 
@@ -46,6 +47,6 @@ I så fall måste du kontrollera att följande element är korrekt konfigurerade
    * **Kryptering IV** (initieringsvektor) för AES
    * **Kanal** (E-post/SMS/Annat): Det här fältet tillåter att e-postadresser och SMS-nummer dekrypteras direkt. Kontrollera att avstämningsnyckeln matchar inställningen för fältet **Kanal**. Om du väljer Annat kommer denna specifika dekryptering inte att ske och avstämningsnyckeln används för att stämma av data.
 
-  Experience Cloud målgrupper kanske inte delas eftersom det tekniska arbetsflödet har stoppats eller pausats. Få åtkomst till arbetsflödet **[!UICONTROL Import shared audience]** genom att klicka direkt på alternativet **[!UICONTROL Show ImportShared Audience workflow]** i datakällan.
+  Experience Cloud-målgrupper kanske inte delas eftersom det tekniska arbetsflödet har stoppats eller pausats. Få åtkomst till arbetsflödet **[!UICONTROL Import shared audience]** genom att klicka direkt på alternativet **[!UICONTROL Show ImportShared Audience workflow]** i datakällan.
 
 Det kan inträffa att vissa data saknas när en målgrupp delas via personbastjänsten eller när en målgrupp importeras. Det är bara poster som ID:t (&#39;besökar-ID&#39; eller &#39;Deklarerat ID&#39;) kunde förenas med profildimensionen som överförs. ID:n från People core service segments som inte känns igen av Adobe Campaign importeras inte.

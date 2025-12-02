@@ -1,14 +1,15 @@
 ---
 title: Om integrering av Campaign och Audience Manager eller kärntjänsten People
-description: Med integreringen av bastjänsterna Audience Manager/Människor kan ni dela målgrupper eller segment inom olika Adobe Experience Cloud-lösningar.
+description: Med integreringen av bastjänsterna Audience Manager/People kan ni dela målgrupper eller segment inom olika Adobe Experience Cloud-lösningar.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: e8b96c66-82f7-4adb-88b2-b7e0f7c4a96f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 3%
@@ -42,7 +43,7 @@ Integrationen stöder två typer av Adobe Experience Cloud ID:
   >
   >Deklarerad ID-datakälla kan nu även användas med integreringen av huvudtjänsten People.
   >
-  >Om du använder integreringen med huvudtjänsten Kontakter och vill lägga till integreringen med Audience Manager måste du få hjälp av en Adobe Audience Manager-konsults för att undvika att förlora alla ID-synkroniseringar som samlas in när du går över till att använda den här deklarerade ID-datakällan i ett Adobe Audience Manager-sammanhang.
+  >Om du använder integreringen med bastjänsterna för människor och vill lägga till integreringen med Audience Manager behöver du hjälp av en Adobe Audience Manager-konsults för att undvika att förlora alla ID-synkroniseringar som samlas in när du går över till att använda den här deklarerade ID-datakällan i ett Adobe Audience Manager-sammanhang.
 
 
   Med kryptering kan du dela krypterade data i datakällor (till exempel PII) med det deklarerade ID:t genom att ange krypteringsalgoritmen.

@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: bfc52511-f66f-4948-a939-d0d77e8ef03c
-source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 6%
@@ -32,7 +33,7 @@ En profils CCPA-avanmälningsstatus kan övervakas och hanteras med profilattrib
 
 ***Exempelbegäranden***
 
-* Exempel på GET-begäran för att hämta en profils CCPA-avanmälningsstatus.
+* Exempel på GET-begäran om att hämta en profils CCPA-avanmälningsstatus.
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
@@ -42,7 +43,7 @@ En profils CCPA-avanmälningsstatus kan övervakas och hanteras med profilattrib
   -H 'Content-Type: application/json;charset=utf-8'
   ```
 
-  Svar på begäran om GET.
+  Svar på begäran från GET.
 
   ```
   {
@@ -54,7 +55,7 @@ En profils CCPA-avanmälningsstatus kan övervakas och hanteras med profilattrib
   }
   ```
 
-* Exempelbegäran om att markera en POST för CCPA-avanmälan.
+* Exempelbegäran om POST för att markera en profil för CCPA-avanmälan.
 
   ```
   -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/ \
@@ -71,7 +72,7 @@ En profils CCPA-avanmälningsstatus kan övervakas och hanteras med profilattrib
   -d }'
   ```
 
-  Svar på begäran om GET.
+  Svar på begäran från GET.
 
   ```
   {
@@ -84,7 +85,7 @@ En profils CCPA-avanmälningsstatus kan övervakas och hanteras med profilattrib
   }
   ```
 
-* Exempelbegäran från PATCH om att uppdatera en profil för CCPA-avanmälan.
+* Exempel på PATCH-begäran om att uppdatera en profil för CCPA-avanmälan.
 
   ```
   -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
@@ -98,7 +99,7 @@ En profils CCPA-avanmälningsstatus kan övervakas och hanteras med profilattrib
   -d }'
   ```
 
-  Svar på begäran om GET.
+  Svar på begäran från GET.
 
   ```
   {

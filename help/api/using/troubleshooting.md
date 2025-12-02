@@ -1,28 +1,29 @@
 ---
 title: API-felsökning
-description: Läs mer om vanliga problem med Campaign Standard-API:er
+description: Läs mer om vanliga problem med Campaign Standard API:er
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
-source-git-commit: b65bf28565c25072c6a95cebdb999ce38a2e2e1a
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
 
 # API-felsökning {#troubleshooting}
 
-* **När du går till konsolen Adobe.io visas följande fel:&quot;Konsolen Adobe I/O är bara tillgänglig för att välja medlemmar i företagskonton. Kontakta systemadministratören om du anser att du bör ha åtkomst.**
+* **När du går till Adobe.io Console visas följande fel:&quot;Adobe I/O-konsolen är bara tillgänglig för att välja medlemmar i företagskonton. Kontakta systemadministratören om du anser att du bör ha åtkomst.**
 
 Du kan bara skapa API-nycklar för de organisationer som du är administratör för. Om det här meddelandet visas och du vill skapa API-nycklar och du vill fråga en administratör i organisationen.
 
-* **När du gör en begäran till Adobe.io får du {&quot;error_code&quot;:&quot;403023&quot;,&quot;message&quot;:&quot;Profilen är inte giltig&quot;}**
+* **När du skickar en begäran till Adobe.io får du {&quot;error_code&quot;:&quot;403023&quot;,&quot;message&quot;:&quot;Profilen är inte giltig&quot;}**
 
 Det innebär att det är ett problem med IMS-etableringen för din specifika Campaign-produkt: IMS-teamet måste åtgärda det.
 
-Om du vill ha mer information kan du anropa IMS API med din token för att se hur din IMS-profil ser ut: Du måste ha en prodCtx där organisation_id är samma som den du angav i URL:en för Adobe.io för att kunna dirigera din begäran.
+Om du vill ha mer information kan du anropa IMS API med din token för att se hur din IMS-profil ser ut: Du måste ha en prodCtx där organisation_id är samma som den du angav i din URL för Adobe.io för att kunna dirigera din begäran.
 Om IMS-etableringen saknas måste den korrigeras.
 
 ```
@@ -76,9 +77,9 @@ I svaret måste värdet för ORGANIZATION_ID vara detsamma i din första GET-beg
 
 * **När du skickar en begäran till Adobe.io får du {&quot;code&quot;:500, &quot;message&quot;:&quot;Oops. Något gick fel. Kontrollera din URI och försök igen.&quot;}**
 
-Adobe.io deklarerar din ogiltiga URI: troligtvis är den URI du begär inte giltig. När du väljer Campaign-tjänsten i Adobe.io får du en väljare med en lista över möjliga organisations_ids. Du måste kontrollera att den du väljer är den som du anger i URL:en.
+Adobe.io deklarerar din ogiltiga URI: troligtvis är den URI du begär inte giltig. När du väljer tjänsten Campaign i Adobe.io får du en väljare med en lista över möjliga organisations_ids. Du måste kontrollera att den du väljer är den som du anger i URL:en.
 
-* **När du gör en begäran till Adobe.io får du {&quot;error_code&quot;:&quot;401013&quot;,&quot;message&quot;:&quot;Oauth-token är inte giltig&quot;}**
+* **När du skickar en begäran till Adobe.io får du {&quot;error_code&quot;:&quot;401013&quot;,&quot;message&quot;:&quot;Oauth-token är inte giltig&quot;}**
 
 Antingen är din token ogiltig (felaktigt IMS-anrop som används för att generera en token) eller så har din token gått ut.
 

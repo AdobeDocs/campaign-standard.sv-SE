@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 77%
@@ -27,7 +28,7 @@ Med de olika integrationerna som presenteras kan du kombinera leveranser och de 
 
 Beroende på din miljö kan andra lösningar även länkas till Adobe Experience Cloud. De är länkade som organisationer (kallas även för klienter).
 
-En organisation är den enhet som gör det möjligt för en administratör att konfigurera grupper och användare samt att styra enkel inloggning i Experience Cloud. Organisationen fungerar som ett inloggningsföretag som omfattar alla produkter och lösningar i Experience Cloud. Oftast är en organisation ditt företagsnamn. Ett företag kan dock ha många organisationer. Användarhantering och organisationshantering beskrivs närmare i [hjälpportalen för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=sv-SE).
+En organisation är den enhet som gör det möjligt för en administratör att konfigurera grupper och användare samt att styra enkel inloggning i Experience Cloud. Organisationen fungerar som ett inloggningsföretag som omfattar alla produkter och lösningar i Experience Cloud. Oftast är en organisation ditt företagsnamn. Ett företag kan dock ha många organisationer. Användarhantering och organisationshantering beskrivs närmare i [hjälpportalen för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html).
 
 Om du vill integrera dataflöden från andra system med Adobe Campaign kan du ta en titt på vår [API-dokumentation](../../api/using/get-started-apis.md).
 
@@ -49,14 +50,14 @@ Om du vill integrera dataflöden från andra system med Adobe Campaign kan du ta
    <td> Adobe Experience Manager<br /> </td> 
    <td> Du kan skapa e-postinnehåll eller -formulär som kopplas till databasen i Adobe Campaign direkt i Adobe Experience Manager.<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">Arbeta med Campaign och Experience Manager</a>, <a href="https://helpx.adobe.com/se/experience-manager/6-4/sites/administering/using/campaignstandard.html">Integrera Experience Manager och Campaign Standard</a>, <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=sv-SE">Skapa ett e-postmeddelande med Experience Manager och Campaign</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">Arbeta med Campaign och Experience Manager</a>, <a href="https://helpx.adobe.com/se/experience-manager/6-4/sites/administering/using/campaignstandard.html">Integrera Experience Manager och Campaign Standard</a>, <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">Skapa ett e-postmeddelande med Experience Manager och Campaign</a> 
     </td> 
   </tr> 
   <tr> 
    <td> Adobe Target<br /> </td> 
    <td> Du kan infoga bilder som behandlas dynamiskt av Adobe Target när användaren öppnar ett e-postmeddelande som har skapats och skickats av Adobe Campaign.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">Arbeta med Campaign och Target</a>, <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=sv-SE">Integrera Campaign och Target</a>, <a href="https://helpx.adobe.com/se/marketing-cloud/how-to/email-marketing.html">Anpassa e-postbilder i realtidsvideo</a> (steg 3)
+    <a href="../../integrating/using/about-campaign-target-integration.md">Arbeta med Campaign och Target</a>, <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html">Integrera Campaign och Target</a>, <a href="https://helpx.adobe.com/se/marketing-cloud/how-to/email-marketing.html">Anpassa e-postbilder i realtidsvideo</a> (steg 3)
     </td> 
   </tr> 
   <tr> 
@@ -72,12 +73,12 @@ Om du vill integrera dataflöden från andra system med Adobe Campaign kan du ta
    <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">People core service (profiler och målgrupper)</a><br /> </td> 
   </tr> 
    <tr> 
-   <td> Adobe Real-time Customer Data Platform (RTCDP)<br /> </td> 
+   <td> Adobe Customer Data Platform (RTCDP)<br /> i realtid </td> 
    <td> Tack vare integreringen mellan Adobe Campaign och Adobe Real-time Customer Data Platform (RTCDP) kan ni dela segmentdata och importera målgrupper till Adobe Campaign.</td>
    <td><a href="../../integrating/using/get-started-sources-destinations.md">Kom igång med källor och destinationer</a></td>
   </tr> 
   <tr> 
-   <td> Adobe Asset Core-tjänsten och Assets On Demand <br /> </td> 
+   <td> Adobe Asset Core-tjänsten och Assets On Demand<br /> </td> 
    <td> Du kan infoga resurser från ditt bibliotek i Adobe Experience Cloud i e-postmeddelanden och landningssidor som har skapats i Adobe Campaign.<br /> </td> 
    <td> <a href="../../integrating/using/working-with-campaign-and-assets-core-service.md">Assets Core Service</a> eller Assets On Demand<br /> </td> 
   </tr> 
@@ -87,7 +88,7 @@ Om du vill integrera dataflöden från andra system med Adobe Campaign kan du ta
    <td> <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">Skicka platsbaserade marknadsföringsmeddelanden med data i Campaign och data från intressepunkter</a> (Analytics for Mobile)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Adobe Experience Cloud Triggers<br /> </td> 
+   <td> Adobe Experience Cloud-utlösare<br /> </td> 
    <td> Du kan skicka personaliserade e-postmeddelanden till dina kunder i Adobe Campaign som en reaktion på specifika beteenden som spåras på din webbplats med hjälp av Adobe Analytics.<br /> </td> 
    <td> 
     Video om hur du <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">använder Experience Cloud-utlösare i Campaign Standard</a>, <a href="../../integrating/using/abandonment-triggers-use-cases.md">användningsfall med övergivande utlösare i Campaign</a> och <a href="https://helpx.adobe.com/se/marketing-cloud/how-to/email-marketing.html">utlösare för meddelanden med återmarknadsföring baserat på webbplatsaktivitet</a> (steg 2)
@@ -95,8 +96,8 @@ Om du vill integrera dataflöden från andra system med Adobe Campaign kan du ta
   </tr> 
     <tr> 
    <td> Adobe Journey Orchestration<br /> </td> 
-   <td> Gör att du kan skicka e-postmeddelanden, push-meddelanden och SMS med Adobe Campaign Standard Transactional Messaging-funktioner i Adobe Journey Orchestration, via en körklar åtgärd.<br /> </td> 
-   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html?lang=sv-SE">Arbeta med Adobe Journey Orchestration och Adobe Campaign Standard</a><br /> </td> 
+   <td> Tillåter att skicka e-post, push-meddelanden och SMS med Adobe Campaign Standard Transactional Messaging-funktioner i Adobe Journey Orchestration via en körklar åtgärd.<br /> </td> 
+   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html">Arbeta med Adobe Journey Orchestration och Adobe Campaign Standard</a><br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Dreamweaver<br /> </td> 

@@ -6,13 +6,14 @@ content-type: reference
 topic-tags: channel-activities
 context-tags: directMail,workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: c7854b7b-f955-47ce-99d6-86b3186fd297
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '915'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -70,7 +71,7 @@ Förberedelsen av meddelande utlöses enligt arbetsflödets körningsparametrar.
 1. Som standard innehåller aktiviteten **[!UICONTROL Direct mail delivery]** inga utgående övergångar. Om du vill lägga till en utgående övergång till din **[!UICONTROL Direct mail delivery]**-aktivitet går du till fliken **[!UICONTROL General]** med de avancerade aktivitetsalternativen (knappen ![](assets/dlv_activity_params-24px.png) i aktivitetens snabbåtgärder) och markerar något av följande alternativ:
 
    * **[!UICONTROL Add outbound transition without the population]**: Detta gör att du kan generera en utgående övergång som innehåller exakt samma population som den inkommande övergången. Övergången innehåller den fil som genereras av aktiviteten för direktmeddelanden och råpopulationen som togs emot av aktiviteten för direktmeddelanden.
-   * **[!UICONTROL Add outbound transition with the population]**: Detta gör att du kan generera en utgående övergång som innehåller den population som direktmeddelandet ska skickas till. Målmedlemmarna uteslöts under förberedelse av direktmeddelande (karantän, ogiltig adress, o.s.v.) är undantagna från denna övergång. Övergången innehåller även filen som genereras av direktmeddelandet.
+   * **[!UICONTROL Add outbound transition with the population]**: Detta gör att du kan generera en utgående övergång som innehåller den population som direktmeddelandet ska skickas till. De målmedlemmar som uteslöts under beredningen av direktreklam (karantän, ogiltig adress osv.) undantas från övergången. Övergången innehåller även filen som genereras av direktmeddelandet.
 
 1. Bekräfta aktivitetens konfiguration och spara arbetsflödet.
 

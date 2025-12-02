@@ -2,10 +2,11 @@
 title: Uppdatera profiler
 description: Läs mer om hur du uppdaterar profiler med API:er
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: fa3796ee-a00c-4d70-bf3d-e8d2099f1116
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 2%
@@ -20,15 +21,15 @@ Uppdatering av profiler utförs med en **PATCH**-begäran.
 
 1. Det första steget är att **hämta profilen**.
 
-1. I en andra begäran utför du en **PATCH-begäran** på profilen med den fullständiga informationen i nyttolasten.
+1. Utför en **PATCH-begäran** på profilen i en andra begäran med den slutförda informationen i nyttolasten.
 
-1. För att kontrollera om PATCH har uppdaterat profilen kan vi utföra en slutgiltig begäran om GET.
+1. För att kontrollera om PATCH-begäran har uppdaterat profilen kan vi utföra en slutgiltig GET-förfrågan.
 
 <br/>
 
 ***Exempelbegäran***
 
-Exempelbegäran om GET för att hämta en profil.
+Exempelbegäran från GET om att hämta en profil.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>\

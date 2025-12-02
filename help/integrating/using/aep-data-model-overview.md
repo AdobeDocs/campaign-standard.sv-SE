@@ -5,12 +5,13 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: cc1aa669-30cd-4ea4-9fab-4d1b6c373744
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
@@ -33,7 +34,7 @@ XDM Workspace ger möjlighet att visa, skapa och utöka datarotor.
 
 Öppna Adobe Experience Platform för att få åtkomst till XDM-användargränssnittet. Navigera till datamodellfönstret för att skapa eller utöka ett XDM-schema.
 
-Läs den fullständiga [XDM Workspace-dokumentationen](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=sv-SE).
+Läs den fullständiga [XDM Workspace-dokumentationen](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
 
 ![](assets/aep_xdmworkspace.png)
 
@@ -48,4 +49,4 @@ Du kan utföra följande åtgärder via XDM Schema API:
 * Visa schemabeskrivningar
 * Skapa, uppdatera och ta bort schemabeskrivningar
 
-All information om hur du hanterar API-anrop finns i [Utvecklarhandbok](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=sv-SE).
+All information om hur du hanterar API-anrop finns i [Utvecklarhandbok](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).

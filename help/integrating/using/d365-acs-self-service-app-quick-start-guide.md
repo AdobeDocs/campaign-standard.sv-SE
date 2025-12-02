@@ -6,10 +6,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: e73e2069-e86d-4be2-bf73-22e6dc164340
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 1%
@@ -33,13 +34,13 @@ Läs mer i följande avsnitt:
 
 ## Förhandskrav {#self-service-app-prerequisites}
 
-Du måste konfigurera Microsoft Dynamics 365 och Adobe Campaign Standard så att integrationsappen har åtkomst till dina data. Detta tar en stund att konfigurera i Dynamics 365, Adobe Campaign Standard och Adobe I/O. När de har konfigurerats kan du dock styra integreringen via självbetjäningsprogrammets användargränssnitt.
+Du måste konfigurera Microsoft Dynamics 365 och Adobe Campaign Standard så att integreringsappen har tillgång till dina data. Detta tar en stund att konfigurera i Dynamics 365, Adobe Campaign Standard och Adobe I/O, men när de har konfigurerats kan du styra integreringen via självbetjäningsprogrammets användargränssnitt.
 
 Läs mer i följande avsnitt:
 
-* [Konfigurera integrering av Microsoft Dynamics 365 för Campaign](../../integrating/using/d365-acs-configure-d365.md)
+* [Konfigurera Microsoft Dynamics 365 för kampanjintegrering](../../integrating/using/d365-acs-configure-d365.md)
 * [Konfigurera Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md)
-* [Mappa anpassade resurser för Campaign och anpassade enheter för Microsoft Dynamics 365](../../integrating/using/d365-acs-notices-and-recommendations.md)
+* [Mappa anpassade resurser för Campaign och anpassade Microsoft Dynamics 365-entiteter](../../integrating/using/d365-acs-notices-and-recommendations.md)
 
 ## Viktiga steg för att konfigurera självbetjäningsappen {#self-service-app-configuration-steps}
 
@@ -60,7 +61,7 @@ Sedan kan du börja med integreringsverktyget. Följ stegen nedan:
 
 ## Bekräftelse av begäran om sekretess {#self-service-app-acknowledgement}
 
-När du bläddrar till självbetjäningsgränssnittet för första gången visas sekretessbekräftelsen. Du måste bekräfta att du förstår din roll när det gäller att utföra sekretessförfrågningar i Campaign och Microsoft Dynamics 365 separat innan du kan fortsätta.
+När du bläddrar till självbetjäningsgränssnittet för första gången visas sekretessbekräftelsen. Ni måste bekräfta att ni förstår er roll när det gäller att utföra sekretessförfrågningar i Campaign och Microsoft Dynamics 365 separat innan ni kan fortsätta.
 Läs mer om ditt sekretessansvar och om hur du hanterar sekretessförfrågningar i [det här avsnittet](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy).
 
 ## Konfigurera dina autentiseringsuppgifter {#self-service-app-credentials}
@@ -71,7 +72,7 @@ När du bläddrar till användargränssnittet för första gången bör du se en
 
 >[!NOTE]
 >
-> Det är normalt att få aviseringar som anger att det inte går att ansluta till Adobe Campaign Standard eller Microsoft Dynamics 365 om appinställningarna ännu inte har konfigurerats.
+> Det är normalt att få meddelanden som anger att det inte går att ansluta till Adobe Campaign Standard eller Microsoft Dynamics 365 om appinställningarna inte har konfigurerats ännu.
 
 Kontrollera att det är de alternativ för ORG och INSTANCE som du tänker konfigurera.  Om inte, klicka på listrutan och välj rätt organisation och instans.
 
@@ -102,7 +103,7 @@ På sidan **[!UICONTROL Microsoft Dynamics 365 to Campaign]** kan du komma åt l
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top-pointers.png)
 
-På sidan **[!UICONTROL Edit Table Mapping]** kontrollerar du avsnittet **[!UICONTROL Mappings]** för att se till att fält från Microsoft Dynamics 365 mappas till rätt fält i Campaign. Om du behöver lägga till andra mappningar gör du det nu, liksom eventuella ersättningar eller filter. [Läs mer](../../integrating/using/d365-acs-self-service-app-data-sync.md).
+Kontrollera avsnittet **[!UICONTROL Edit Table Mapping]** på sidan **[!UICONTROL Mappings]** för att se till att fält från Microsoft Dynamics 365 mappas till rätt fält i Campaign. Om du behöver lägga till andra mappningar gör du det nu, liksom eventuella ersättningar eller filter. [Läs mer](../../integrating/using/d365-acs-self-service-app-data-sync.md).
 
 Om du vill lägga till nya mappningar finns mer information i [det här avsnittet](../../integrating/using/d365-acs-self-service-app-data-sync.md#add-a-new-mapping).
 
@@ -115,7 +116,7 @@ När konfigurationen är korrekt klickar du på knappen **[!UICONTROL Play]** br
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
 
-När du är igång bör du kunna testa genom att lägga till eller ändra poster i Microsoft Dynamics 365 och observera dessa ändringar i Adobe Campaign inom några minuter. Om du vill avbryta den här processen trycker du bara på samma knapp för att stoppa den. [Läs mer](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
+När du är igång bör du kunna testa genom att lägga till eller ändra tävlingsbidrag i Microsoft Dynamics 365 och observera dessa ändringar i Adobe Campaign inom några minuter. Om du vill avbryta den här processen trycker du bara på samma knapp för att stoppa den. [Läs mer](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
 
 
 ## Integreringsappens arbetsyta {#self-service-app-workspace}

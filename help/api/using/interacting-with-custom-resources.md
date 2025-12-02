@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 19bfeecb-da60-479c-a929-0cfb72ef59e3
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 0%
@@ -37,7 +38,7 @@ Här följer ett exempel på hur du hämtar metadata från en anpassad resurs:
 GET /customResources/resourceType/<customResourceName>
 ```
 
-GET, POST, PATCH och DELETE används för att skapa, uppdatera eller ta bort objekt.
+När du skapar, uppdaterar eller tar bort en fil används GET, POST, PATCH och DELETE.
 
 ```
 POST /customResources/<customResourceName>

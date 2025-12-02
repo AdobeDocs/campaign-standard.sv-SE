@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
 feature: Audiences
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: fcc79829-902d-4547-87c5-8a213e1257b7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 9%
@@ -32,7 +33,7 @@ I så fall bestämmer du dig för att skicka ett e-postmeddelande till alla pren
 
    Hantera målgrupper beskrivs i avsnittet [Definiera målgrupper](../../audiences/using/creating-audiences.md).
 
-1. Dra och släpp **[!UICONTROL POI Location Subscription]**-elementet på arbetsytan i fönstret **[!UICONTROL Add a rule - Profile/Subscriptions to an application]**.
+1. Dra och släpp **[!UICONTROL Add a rule - Profile/Subscriptions to an application]**-elementet på arbetsytan i fönstret **[!UICONTROL POI Location Subscription]**.
 
    ![](assets/poi_add_rule_profile_subscription.png)
 

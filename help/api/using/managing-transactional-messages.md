@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '675'
 ht-degree: 3%
@@ -25,8 +26,8 @@ När du har skapat och publicerat en transaktionshändelse måste du integrera d
 
 Du vill t.ex. att en händelse om att kunden överger en varukorg ska utlösas så fort någon av dina kunder lämnar webbplatsen innan de köper produkterna i kundvagnen. För att kunna göra detta måste du som webbutvecklare använda API:t REST Transactional Messages.
 
-1. Skicka en begäran enligt metoden POST, som utlöser [sändning av transaktionshändelsen](#sending-a-transactional-event).
-1. Svaret på begäran om POST innehåller en primärnyckel, som gör att du kan skicka en eller flera begäranden via en GET-begäran. Du kan sedan hämta [händelsestatusen](#transactional-event-status).
+1. Skicka en begäran enligt POST-metoden, som utlöser [sändning av transaktionshändelsen](#sending-a-transactional-event).
+1. Svaret på POST-begäran innehåller en primärnyckel som gör att du kan skicka en eller flera begäranden via en GET-begäran. Du kan sedan hämta [händelsestatusen](#transactional-event-status).
 
 ## Skicka en transaktionshändelse {#sending-a-transactional-event}
 
@@ -40,7 +41,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 * **&lt;transactionalAPI>**: API:t endPoints för transaktionsmeddelanden.
 
-  Namnet på API-slutpunkten för transaktionsmeddelanden beror på instanskonfigurationen. Det motsvarar värdet &quot;mc&quot; följt av ditt personliga organisations-ID. Låt oss ta Geometrixx exempel med&quot;geometrixx&quot; som företags-ID. I så fall skulle begäran om POST vara följande:
+  Namnet på API-slutpunkten för transaktionsmeddelanden beror på instanskonfigurationen. Det motsvarar värdet &quot;mc&quot; följt av ditt personliga organisations-ID. Låt oss ta Geometrixx-företagets exempel med&quot;geometrixx&quot; som företags-ID. I så fall skulle POST-begäran vara följande:
 
   `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
@@ -48,7 +49,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 * **&lt;eventID>**: den typ av händelse som du vill skicka. Detta ID genereras när händelsekonfigurationen skapas (se [det här avsnittet](../../channels/using/configuring-transactional-event.md#creating-an-event)).
 
-### Rubrik för begäran om POST
+### POST-begärandehuvud
 
 Begäran måste innehålla rubriken&quot;Content-Type: application/json&quot;.
 
@@ -63,9 +64,9 @@ Du måste lägga till en teckenuppsättning, till exempel **utf-8**. Observera a
 -H 'Content-Length:79' \
 ```
 
-### Brödtext för begäran om POST
+### POST-begärandeinnehåll
 
-Händelsedata finns inuti JSON-POSTEN. Händelsestrukturen beror på dess definition. Knappen för förhandsgranskning av API på resursdefinitionsskärmen innehåller ett exempel på en begäran. Se [det här avsnittet](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
+Händelsedata finns inuti JSON POST-brödtexten. Händelsestrukturen beror på dess definition. Knappen för förhandsgranskning av API på resursdefinitionsskärmen innehåller ett exempel på en begäran. Se [det här avsnittet](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
 Följande valfria parametrar kan läggas till i händelseinnehållet för att hantera sändning av transaktionsmeddelanden som är länkade till händelsen:
 
@@ -76,9 +77,9 @@ Följande valfria parametrar kan läggas till i händelseinnehållet för att ha
 >
 >Värdena för parametrarna &quot;expiration&quot; och &quot;schedule&quot; följer ISO 8601-formatet. ISO 8601 specificerar användningen av versalen &quot;T&quot; för att separera datum och tid. Den kan dock tas bort från indata eller utdata för bättre läsbarhet.
 
-### Svar på begäran om POST
+### Svar på POST-begäran
 
-POSTEN returnerar transaktionshändelsens status när den skapades. Om du vill hämta den aktuella statusen (händelsedata, händelsestatus..) använder du den primärnyckel som returneras av POSTENS svar i en GET-begäran:
+POST-svaret returnerar transaktionshändelsens status när det skapades. Om du vill hämta den aktuella statusen (händelsedata, händelsestatus..) använder du den primärnyckel som returneras av POST-svaret i en GET-begäran:
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>/`
 
@@ -86,7 +87,7 @@ POSTEN returnerar transaktionshändelsens status när den skapades. Om du vill h
 
 ***Exempelbegäran***
 
-POST begär att få skicka händelsen.
+POST-begäran om att skicka händelsen.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/mcAdobe/EVTcartAbandonment \
@@ -109,7 +110,7 @@ POST begär att få skicka händelsen.
 }
 ```
 
-Svar på begäran om POST.
+Svar på POST-begäran.
 
 ```
 {
@@ -142,4 +143,4 @@ I svaret kan du i statusfältet se om händelsen har bearbetats eller inte:
 * **deliveryFailed**: Ett leveransfel uppstod när händelsen bearbetades.
 * **routingFailed**: routningsfasen misslyckades - detta kan till exempel inträffa när den angivna händelsetypen inte kan hittas.
 * **tooOld**: Händelsen gick ut innan den kunde bearbetas. Detta kan inträffa av olika orsaker, till exempel om en sändning misslyckas flera gånger (detta leder till att händelsen inte längre är uppdaterad) eller när servern inte längre kan bearbeta händelser efter att den har överlagrats.
-* **targetingFailed**: Campaign Standarden kunde inte utöka en länk som används för meddelandemål.
+* **targetingFailed**: Campaign Standard kunde inte utöka en länk som används för meddelandemål.

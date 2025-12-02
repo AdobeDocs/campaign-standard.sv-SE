@@ -6,19 +6,20 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 44b59f56-99be-41ae-af8d-76272bb94d18
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
-# Få tillgång till Adobe Campaign Standard-integreringen med självbetjäningsappen för Microsoft Dynamics 365
+# Få tillgång till Adobe Campaign Standard-integreringen med självbetjäningsappen Microsoft Dynamics 365
 
-Den här konfigurationen kräver att du arbetar med en Experience Cloud-administratör (EC) för din organisation. Detta är de första steg som krävs för att du ska få tillgång till gränssnittet för självbetjäningsintegreringsprogrammet. När du har tillgång till verktyget skapar du anslutningar till dina data och konfigurerar dataflödet mellan Adobe Campaign och Microsoft Dynamics 365.
+Den här konfigurationen kräver att du arbetar med en Experience Cloud-administratör (EC) för din organisation. Detta är de första steg som krävs för att du ska få tillgång till gränssnittet för självbetjäningsintegreringsprogrammet. När du har tillgång till verktyget konfigurerar du dataanslutningar och konfigurerar dataflödet mellan Adobe Campaign och Microsoft Dynamics 365.
 
 >[!NOTE]
 >
@@ -30,7 +31,7 @@ I det här avsnittet får du lära dig att ge åtkomst till Adobe Campaign Stand
 
 >[!IMPORTANT]
 >
-> Dessa steg kräver **administratörsrollen** i Experience Cloud för din organisation.
+> För dessa steg krävs **administratörsrollen** i Experience Cloud för din organisation.
 >
 
 1. Gå till https://experience.adobe.com/ och logga in på Adobe Experience Cloud.

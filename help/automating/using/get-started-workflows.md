@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: 69621657e1d367043200f741d93972664e6eb8fb
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 9%
@@ -42,7 +43,7 @@ Det finns olika aktiviteter som du kan använda för att utforma arbetsflöden.
 
 [Målaktiviteter](../../automating/using/about-targeting-activities.md) gör att du kan skapa ett eller flera mål genom att definiera uppsättningar och dela eller kombinera dessa uppsättningar med hjälp av korsnings-, union- eller exkluderingsåtgärder.
 
-Med [Körningsaktiviteter](../../automating/using/about-execution-activities.md) kan du samordna ditt arbetsflöde och dess aktiviteter, medan du med [Kanalaktiviteter](../../automating/using/about-channel-activities.md) kan kombinera Campaign Standardens kommunikationskanaler för att skapa arbetsflöden mellan kanaler.
+Med [Körningsaktiviteter](../../automating/using/about-execution-activities.md) kan du samordna ditt arbetsflöde och dess aktiviteter, medan du med [Kanalaktiviteter](../../automating/using/about-channel-activities.md) kan kombinera Campaign Standard kommunikationskanaler för att skapa flerkanalsarbetsflöden.
 
 Slutligen kan du med [datahanteringsaktiviteter](../../automating/using/about-data-management-activities.md) hantera data från din databas.
 
@@ -54,7 +55,7 @@ Läs mer:
 
 ## Filtrera data {#filter-data}
 
-Använd **frågeredigeraren** för att filtrera data från databasen och skapa en population som bättre riktar sig till mottagarna. Frågeredigeraren är tillgänglig för att utföra flera åtgärder i Campaign Standarden: skapa frågetypsmålgrupper, definiera leveransmål eller populationer i arbetsflödesaktiviteter.
+Använd **frågeredigeraren** för att filtrera data från databasen och skapa en population som bättre riktar sig till mottagarna. Frågeredigeraren är tillgänglig för att utföra flera åtgärder i Campaign Standard: skapa frågetypsmålgrupper, definiera leveransmål eller populationer i arbetsflödesaktiviteter.
 
 Frågeredigeraren innehåller **fördefinierade filter och regler** för snabb och enkel filtrering. Du kan dock även använda **avancerade redigeringsfunktioner för uttryck**. På så sätt kan du manuellt ange villkor och använda funktioner för att skapa egna regler.
 
@@ -66,7 +67,7 @@ Läs mer:
 
 ## Importera/exportera data {#import-export-data}
 
-Campaign Standarden innehåller flera **datahanteringsfunktioner** för import och export av data.
+Campaign Standard har flera **datahanteringsfunktioner** för import och export av data.
 
 [Med datahanteringsaktiviteter i arbetsflöden](../../automating/using/about-data-management-activities.md) kan du importera data, utföra massuppdateringar i fält, ta emot eller skicka filer eller länka oidentifierade data till befintliga resurser.
 
@@ -76,7 +77,7 @@ Med [Exportera loggar](../../automating/using/exporting-logs.md) kan du exporter
 
 Utnyttja [Paket](../../automating/using/managing-packages.md) för att utbyta resurser mellan olika kampanjinstanser, till exempel för att replikera konfigurationen för en instans eller för att överföra data från en server till en annan, inklusive anpassade resurser.
 
-Slutligen kan du med [Export av listor](../../automating/using/exporting-lists.md) exportera alla listor från Campaign Standarder, till exempel en lista med testprofiler, en lista med karantänadresser, e-postadresser etc.
+Slutligen kan du med [Export av listor](../../automating/using/exporting-lists.md) exportera alla listor från Campaign Standard, till exempel en lista med testprofiler, en lista med e-postadresser i karantän, till exempel.
 
 Läs mer:
 

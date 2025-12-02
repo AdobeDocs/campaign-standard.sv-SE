@@ -2,10 +2,11 @@
 title: Hämta prenumerationer
 description: Lär dig hur du hämtar prenumerationer med API:er
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 6d935074-3196-45c5-97cd-ccb7c80bbba8
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 1%
@@ -19,7 +20,7 @@ ht-degree: 1%
 Detta är en tvåstegsprocedur.
 
 1. Hämta prenumerations-URL:en för den önskade tjänsten.
-1. Utför en GET-förfrågan på prenumerations-URL:en. Den returnerar en lista över prenumerationer för tjänsten, med varje associerad profil.
+1. Utför en GET-begäran på prenumerations-URL:en. Den returnerar en lista över prenumerationer för tjänsten, med varje associerad profil.
 
 >[!CAUTION]
 >
@@ -29,7 +30,7 @@ Detta är en tvåstegsprocedur.
 
 ***Exempelbegäran***
 
-Utför en GET-förfrågan för att hämta tjänsten.
+Utför en GET-begäran om att hämta tjänsten.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -53,7 +54,7 @@ Den returnerar prenumerations-URL:en för tjänsten.
   },
 ```
 
-Utför en GET-förfrågan på prenumerations-URL:en.
+Utför en GET-begäran på prenumerations-URL:en.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
@@ -91,7 +92,7 @@ Detta är en tvåstegsprocedur.
 
 ***Exempelbegäran***
 
-Utför en GET-förfrågan för att hämta profilen.
+Utför en GET-begäran om att hämta profilen.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -115,7 +116,7 @@ Den returnerar prenumerations-URL:en för profilen.
   }
 ```
 
-Utför en GET-förfrågan på prenumerations-URL:en.
+Utför en GET-begäran på prenumerations-URL:en.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \

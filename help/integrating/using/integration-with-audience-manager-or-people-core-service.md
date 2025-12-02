@@ -1,14 +1,15 @@
 ---
 title: Etablering och konfigurering av integration med Audience Manager eller kärntjänsten People
-description: Lär dig hur du konfigurerar integreringen av bastjänsterna mellan Audience Manager och människor för att börja dela målgrupper eller segment med olika Adobe Experience Cloud-lösningar.
+description: Lär dig hur du konfigurerar integreringen av bastjänsterna Audience Manager/People så att du kan börja dela målgrupper eller segment med olika Adobe Experience Cloud-lösningar.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 feature: People Core Service Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
-source-git-commit: 60386a9e6e424d76b1de0f2ecbeab48dd06fb354
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 4%
@@ -17,11 +18,11 @@ ht-degree: 4%
 
 # Etablering och konfigurering av integration med Audience Manager eller kärntjänsten People{#integration-with-audience-manager-or-people-core-service}
 
-Etableringen och konfigureringen av kärnan Audience Manager och Personer i Adobe Campaign utförs i två steg: [Skicka begäran till Adobe](#submitting-request-to-adobe) och sedan [Konfigurera integreringen i Adobe Campaign](#configuring-the-integration-in-adobe-campaign).
+Etablering och konfigurering av Audience Manager- och People-kärnan i Adobe Campaign utförs i två steg: [Skicka begäran till Adobe](#submitting-request-to-adobe) och sedan [Konfigurera integreringen i Adobe Campaign](#configuring-the-integration-in-adobe-campaign).
 
 ## Skicka begäran till Adobe {#submitting-request-to-adobe}
 
-Med integreringen av bastjänsterna Audience Manager (AAM) och People Core kan du importera och exportera målgrupper eller segment i Adobe Campaign.
+Tack vare integreringen av bastjänsterna Audience Manager (AAM) och People kan du importera och exportera målgrupper eller segment i Adobe Campaign.
 
 Den här integreringen måste först konfigureras. Om du vill begära etablering av den här integreringen kontaktar du Adobe Support med följande information:
 
@@ -29,7 +30,7 @@ Den här integreringen måste först konfigureras. Om du vill begära etablering
  <tbody> 
   <tr> 
    <td> <strong>Typ av begäran:</strong><br /> </td> 
-   <td> Konfigurera AAM/kundtjänst - kampanjintegrering </td> 
+   <td> Konfigurera AAM/People core service-Campaign Integration </td> 
   </tr> 
   <tr> 
    <td> <strong>Organisationsnamn:</strong><br /> </td> 
@@ -45,7 +46,7 @@ Den här integreringen måste först konfigureras. Om du vill begära etablering
   </tr> 
   <tr> 
    <td> <strong>AAM eller persontjänst</strong><br /> </td> 
-   <td> Exempel: Adobe Audience Manager. Var noga med att tala om för provisioneringsteamet om du äger Audience Manager-licens eller inte.</td> 
+   <td> Exempel: Adobe Audience Manager. Se till att tala om för provisioneringsteamet om du äger en Audience Manager-licens eller inte.</td> 
   </tr> 
   <tr> 
    <td> <strong>Deklarerat ID eller besökar-ID</strong><br /> </td> 
@@ -60,7 +61,7 @@ Den här integreringen måste först konfigureras. Om du vill begära etablering
 
 ## Konfigurera integreringen i Adobe Campaign {#configuring-the-integration-in-adobe-campaign}
 
-När du har skickat in den här begäran fortsätter Adobe till att tillhandahålla integreringen åt dig och kontaktar dig för att ange information och information som du måste slutföra konfigurationen:
+När du har skickat in den här begäran fortsätter Adobe att distribuera integreringen åt dig och kontaktar dig för att ange information och information som du måste ange för att slutföra konfigurationen:
 
 * [Steg 1: Konfigurera eller kontrollera externa konton i Adobe Campaign](#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)
 * [Steg 2: Konfigurera datakällorna](#step-2--configure-the-data-sources)
@@ -69,7 +70,7 @@ När du har skickat in den här begäran fortsätter Adobe till att tillhandahå
 
 ### Steg 1: Konfigurera eller kontrollera externa konton i Adobe Campaign {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
 
-Först måste vi konfigurera eller kontrollera externa konton i Adobe Campaign. Dessa konton borde ha konfigurerats av Adobe och ni borde ha fått den information som behövs.
+Först måste vi konfigurera eller kontrollera externa konton i Adobe Campaign. Dessa konton borde ha konfigurerats av Adobe och den information som behövs borde ha lämnats till dig.
 
 För att göra detta:
 
@@ -109,7 +110,7 @@ Så här konfigurerar du datakällan **[!UICONTROL Recipient - Visitor ID (Defau
 
 Skapa datakällan **[!UICONTROL Declared ID]**:
 
-1. Klicka på knappen **[!UICONTROL Create]** i **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**.
+1. Klicka på knappen **[!UICONTROL Administration]** i **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]** > **[!UICONTROL Create]**.
 1. Redigera **[!UICONTROL Label]** för datakällan.
 1. I listrutan **[!UICONTROL Data Source/ Alias]** väljer du den Data-Source som motsvarar datakällan **[!UICONTROL DeclaredID]** från Audience Manager.
 1. Konfigurera datakällan genom att ange **[!UICONTROL Data Source / Alias]** och **[!UICONTROL AAM Destination ID]** från Adobe.
@@ -132,7 +133,7 @@ Om du vill att delade målgrupper ska kunna fungera med besökar-ID, måste spå
 
 ### Steg 4: Konfigurera besökar-ID-tjänsten {#step-4--configure-the-visitor-id-service}
 
-Om din besökar-ID-tjänst aldrig har konfigurerats på dina webbegenskaper eller webbplatser kan du läsa följande [dokument](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html?lang=sv-SE) om du vill veta mer om hur du konfigurerar tjänsten eller följande [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
+Om din besökar-ID-tjänst aldrig har konfigurerats på dina webbegenskaper eller webbplatser kan du läsa följande [dokument](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html) om du vill veta mer om hur du konfigurerar tjänsten eller följande [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
 
 Synkronisera kundidentifierare med deklarerat ID med funktionen `setCustomerID` i Experience Cloud ID-tjänsten med integreringskoden: `AdobeCampaignID`. `AdobeCampaignID` ska matcha värdet för avstämningsnyckeln som angetts i Source-konfigurationen för mottagardata som konfigurerats i [Steg 2: Konfigurera datakällorna](#step-2--configure-the-data-sources).
 

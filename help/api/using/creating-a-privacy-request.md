@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 06ad2e13-922b-4f35-8726-007427125c63
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 4%
@@ -28,7 +29,7 @@ Innan du skapar begäranden måste du definiera det namnutrymme som du ska anvä
 Nyttolasten måste innehålla följande parametrar:
 
 * **namn**: ett unikt internt namn
-* **namespace**: namnområdesnamnet som konfigurerats i Campaign Standardens gränssnitt
+* **namespace**: namnområdesnamnet som konfigurerats i Campaign Standard-gränssnittet
 * **Avstämningsvärde**: avstämningsvärdet baserat på avstämningsnyckeln som definierats i namnutrymmet
 * **label**: etiketten för begäran
 * **typ**: begärandetypen. Godkända värden är &quot;access&quot; eller &quot;delete&quot;.
@@ -57,7 +58,7 @@ Denna POST-begäran skapar en sekretessbegäran baserad på en e-postavstämning
 }
 ```
 
-Svar på begäran om POST.
+Svar på POST-begäran.
 
 ```
 {

@@ -2,10 +2,11 @@
 title: Interaktion med marknadsföringshistorik
 description: Lär dig interagera med profilernas marknadsföringshistorik
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 67282d21-b4ed-4af5-b751-848a6d705118
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
@@ -18,7 +19,7 @@ Med slutpunkten **history** kan du interagera med en profils marknadsföringshis
 På så sätt kan du till exempel enkelt hämta spegelsidan för en leverans som skickades till en profil. Gör så här:
 
 1. Utför en GET med slutpunkten **history** och profilens primärnyckel.
-1. Utför en GET-begäran på den href som returnerades för **events**.
+1. Utför en GET-begäran på den href för **events** som returnerades.
 1. Den returnerar listan med händelser för profilen med länkar till spegelsidor i noden **mirrorPage** .
 
 <br/>
@@ -50,7 +51,7 @@ Noden &quot;events&quot; returnerar den URL som ger dig åtkomst till händelser
 }
 ```
 
-Utför en GET-begäran för de returnerade händelserna href.
+Utför en GET-begäran på de href-händelser som returneras.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/history/<PKEY>/events \

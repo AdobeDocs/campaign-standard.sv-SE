@@ -5,12 +5,13 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 4d4e7e58-e161-4e5a-898a-b5c29ffb20e0
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 6%
@@ -29,7 +30,7 @@ När arbetsflödet har konfigurerats med en [Adobe Experience Platform-målgrupp
 
 Du måste lägga till följande attribut i aktiviteten **[!UICONTROL Read audience]** om du vill göra det:
 
-1. Öppna aktiviteten **[!UICONTROL Read audience]**. Klicka på knappen **[!UICONTROL Create element]** på fliken **[!UICONTROL Additional data]**.
+1. Öppna aktiviteten **[!UICONTROL Read audience]**. Klicka på knappen **[!UICONTROL Additional data]** på fliken **[!UICONTROL Create element]**.
 
    Observera att fliken **[!UICONTROL Additional data]** bara är tillgänglig när en Adobe Experience Platform-målgrupp har valts.
 
@@ -55,7 +56,7 @@ Du måste lägga till följande attribut i aktiviteten **[!UICONTROL Read audien
 
 1. När alla fält har lagts till klickar du på knappen **[!UICONTROL Confirm]** för att spara ändringarna. De kommer nu att vara tillgängliga för att personalisera era leveranser.
 
-Mer information om hur du skapar och anpassar leveranser finns i Campaign Standardens dokumentation:
+Mer information om hur du skapar och anpassar leveranser finns i Campaign Standard-dokumentationen:
 
 * [Identifiera kommunikationskanaler](../../channels/using/get-started-communication-channels.md)
 * [Om kanalaktiviteter](../../automating/using/about-channel-activities.md)

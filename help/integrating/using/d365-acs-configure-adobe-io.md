@@ -1,14 +1,15 @@
 ---
-title: Konfigurera integrering av Adobe Developer för Microsoft Dynamics 365
-description: Lär dig konfigurera integrering av Adobe Developer för Microsoft Dynamics 365
+title: Konfigurera integrering med Adobe Developer för Microsoft Dynamics 365
+description: Lär dig konfigurera Adobe Developer för integrering med Microsoft Dynamics 365
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
-source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 0%
@@ -31,11 +32,11 @@ Aktivera profiltillägg i Adobe Campaign Standard.   Detta behövs för att anpa
 
 ## Konfigurera Adobe I/O {#adobe-io}
 
-Med Adobe I/O kan du aktivera API-åtkomst till Adobe Campaign Standard och andra Adobe-produkter.   I den här artikeln beskrivs hur du konfigurerar Adobe I/O för att ge Adobe Campaign Standard-integreringen med Microsoft Dynamics 365 åtkomst att synkronisera data.
+Med Adobe I/O kan du aktivera API-åtkomst till Adobe Campaign Standard och andra Adobe-produkter.   I den här artikeln beskrivs hur du konfigurerar Adobe I/O för att ge Adobe Campaign Standard-integreringen med Microsoft Dynamics 365 tillgång till synkronisering av data.
 
 ### Översikt
 
-Innan du utför förintegreringsinställningarna i den här artikeln förutsätts det att du redan har etablerats och har administratörsåtkomst till Campaign Standarden i din organisation.  Om detta inte har hänt måste du kontakta Adobe kundtjänst för att slutföra kampanjetableringen.
+Innan du utför förintegreringsinställningarna i den här artikeln förutsätts det att du redan har etablerats och har administratörsåtkomst till din organisations Campaign Standard-instans.  Om detta inte har hänt måste du kontakta Adobe kundtjänst för att slutföra etableringen av kampanjer.
 
 >[!CAUTION]
 >
@@ -49,13 +50,13 @@ Du måste skapa ett nytt Adobe Developer-projekt och konfigurera det för integr
 
 Följ nedanstående procedur för att uppnå detta:
 
-1. Navigera till [Adobe Developer Console](https://console.adobe.io/home#) och välj ditt Adobe organisation-ID i listrutan längst upp till höger på skärmen.
+1. Navigera till [Adobe Developer Console](https://console.adobe.io/home#) och välj ditt Adobe Organization ID i listrutan längst upp till höger på skärmen.
 
 1. Klicka sedan på **[!UICONTROL Create new project]** under **[!UICONTROL Quick Start]**.
 
    ![](assets/adobeIO1.png)
 
-1. Klicka på **[!UICONTROL Add API]** under **[!UICONTROL Get started with your new project]**.
+1. Klicka på **[!UICONTROL Get started with your new project]** under **[!UICONTROL Add API]**.
 
    ![](assets/adobeIO2.png)
 
@@ -69,7 +70,7 @@ Följ nedanstående procedur för att uppnå detta:
 
 1. På nästa skärm väljer du produktprofiler som ska associeras med projektet. Välj den produktprofil som innehåller titeln: Klient-ID för Campaign-instansen - [!UICONTROL Administrators]
 
-   Exempel: Campaign Standard - ditt kampanjklient-ID - Administratörer
+   Exempel: Campaign Standard - your-campaign-tenantID - Administratörer
 
 1. Klicka på **[!UICONTROL Save configured API]**.
 
@@ -93,9 +94,9 @@ Inställningen av förintegrering i Campaign är nu klar.
 
 **Relaterade ämnen**
 
-* [Konfigurera integrering med Adobe Developer för Microsoft Dynamics 365](../../integrating/using/d365-acs-configure-adobe-io.md) är nästa steg i konfigurationen av integreringen
+* [Konfigurera Adobe Developer för Microsoft Dynamics 365-integrering](../../integrating/using/d365-acs-configure-adobe-io.md) är nästa steg i konfigurationen av integreringen
 * [Översikt över självbetjäningsprogrammet för integrering](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) innehåller en fullständig lista över steg som krävs för att få integreringen att fungera.
 * [Adobe Developer - Integrering med tjänstkonto](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
-* [Campaign Standard - API-åtkomstinställningar](../../api/using/setting-up-api-access.md)
+* [Campaign Standard - API Access Setup](../../api/using/setting-up-api-access.md)
 * [Campaign Standard - Dynamics 365-integrering](../../integrating/using/d365-acs-configure-d365.md)
 * [Migrera autentiseringsuppgifter från JWT till OAuth Server-till-server](../../integrating/using/d365-acs-self-service-app-migrate-credentials.md) innehåller stegen för att migrera autentiseringsuppgifter från JWT till OAuth Server-till-server.

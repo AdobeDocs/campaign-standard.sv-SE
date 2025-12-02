@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: f611e023-f74c-476e-83b9-aff451f68c81
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 32%
@@ -26,7 +27,7 @@ Du kan skicka ett erbjudande via e-post samma dag som kundens profil skapas.
 
 ## Skapa en schemaläggningsaktivitet {#creating-a-scheduler-activity}
 
-1. Dra och släpp en [Schemaläggaren](../../automating/using/scheduler.md)-aktivitet i **[!UICONTROL Activities]** > **[!UICONTROL Execution]**.
+1. Dra och släpp en **[!UICONTROL Activities]** Schemaläggaren **[!UICONTROL Execution]**-aktivitet i [ > ](../../automating/using/scheduler.md).
 1. Dubbelklicka på aktiviteten.
 1. Konfigurera leveransen.
 1. I **[!UICONTROL Execution frequency]** väljer du **[!UICONTROL Daily]**.
@@ -36,7 +37,7 @@ Du kan skicka ett erbjudande via e-post samma dag som kundens profil skapas.
 
 >[!NOTE]
 >
->Om du vill starta arbetsflödet vid en viss tidszon ställer du in tidszonen för schemaläggaren i fältet **[!UICONTROL Time zone]** på fliken **[!UICONTROL Execution options]**. Som standard är den markerade tidszonen den som definieras i arbetsflödesegenskaperna (se [Skapa ett arbetsflöde](../../automating/using/building-a-workflow.md)).
+>Om du vill starta arbetsflödet vid en viss tidszon ställer du in tidszonen för schemaläggaren i fältet **[!UICONTROL Execution options]** på fliken **[!UICONTROL Time zone]**. Som standard är den markerade tidszonen den som definieras i arbetsflödesegenskaperna (se [Skapa ett arbetsflöde](../../automating/using/building-a-workflow.md)).
 
 ![](assets/time_zone.png)
 
@@ -47,9 +48,9 @@ Du kan skicka ett erbjudande via e-post samma dag som kundens profil skapas.
 
 ### Hämtar profiler som skapats samma dag som körningen {#retrieving-profiles-created-on-the-same-day}
 
-1. Dra och släpp fältet **[!UICONTROL Created]** i **[!UICONTROL Profile]**. och klicka på **[!UICONTROL Advanced Mode]**.
+1. Dra och släpp fältet **[!UICONTROL Profile]** i **[!UICONTROL Created]**. och klicka på **[!UICONTROL Advanced Mode]**.
    ![](assets/advanced_mode.png)
-1. Dubbelklicka på **[!UICONTROL Day]** från noden **[!UICONTROL Date]** i **[!UICONTROL list of functions]**.
+1. Dubbelklicka på **[!UICONTROL list of functions]** från noden **[!UICONTROL Day]** i **[!UICONTROL Date]**.
 1. Infoga sedan fältet **[!UICONTROL Created]** som argument.
 1. Välj **[!UICONTROL equals to (=)]** som operator.
 1. För Värde väljer du **[!UICONTROL Day]** från noden **[!UICONTROL Date]** i **[!UICONTROL List of functions]**.

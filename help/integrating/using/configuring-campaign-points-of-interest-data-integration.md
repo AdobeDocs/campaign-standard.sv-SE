@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
 feature: Audiences
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1252'
 ht-degree: 1%
@@ -25,7 +26,7 @@ ht-degree: 1%
 
 Mobilprogrammen som används för att samla in platsdata måste konfigureras av en **administratör** i Adobe Campaign-gränssnittet.
 
-För att kunna använda Adobe Experience Platform Location Services med mobilprogram som konfigurerats med Adobe Experience Platform SDK måste du:
+För att kunna använda Adobe Experience Platform Location Services med mobilappar som är konfigurerade med Adobe Experience Platform SDK måste du:
 
 1. Lägg till tillägget **[!UICONTROL Places]** i din mobilappskonfiguration i användargränssnittet för datainsamling. Konfigurera mobilappen i Adobe Campaign. Se [Installera tillägget Platser](https://developer.adobe.com/client-sdks/solution/places).
 
@@ -34,7 +35,7 @@ För att kunna använda Adobe Experience Platform Location Services med mobilpro
 1. I användargränssnittet för datainsamling måste du sedan skapa regler som stöder mobilanvändning mellan Point of Intresses och Adobe Campaign.\
    Den här regeln utlöses när en användare går in i ett geofenat **[!UICONTROL Point of Interest]**. Se den här [sidan](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback) för att skapa regeln.
 
-1. Definiera **[!UICONTROL Points of Interest]** på platser. Se [Skapa en intressepunkt](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/create-a-poi-ui.html?lang=sv-SE).
+1. Definiera **[!UICONTROL Points of Interest]** på platser. Se [Skapa en intressepunkt](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/create-a-poi-ui.html).
 
 1. Se till att du har tillgång till mobilprogrammet och insamlade platsdata i Adobe Campaign. Se [Åtkomst till mobilappar som används för att samla in platsdata](#accessing-mobile-apps-used-to-collect-location-data) och [Åtkomst till insamlade platsdata](#accessing-collected-location-data).
 
@@ -44,15 +45,15 @@ Mobilprogrammen som används för att samla in platsdata måste konfigureras av 
 
 Om du vill använda datapunkten Point of Interest med mobilprogram som konfigurerats med SDK V4 måste du:
 
-1. Få tillgång till Adobe Analytics för mobilen. Läs licensavtalet eller kontakta din kontoansvarige på Adobe för mer information.
+1. Få tillgång till Adobe Analytics för mobilen. Se licensavtalet eller kontakta er kontoansvarige på Adobe för mer information.
 1. Konfigurera mobilappen i Adobe Campaign. Se [Konfigurera en mobilapp i Campaign](#setting-up-a-mobile-app-in-campaign).
-1. Konfigurera ditt mobilprogram i gränssnittet för Adobe Mobile Services. På så sätt kan du säkerställa att data som samlas in av Adobe Mobile Services skickas till Adobe Campaign. Se [Konfigurera en mobilapp i Adobe Mobile Services](#configuring-a-mobile-app-in-adobe-mobile-services).
+1. Konfigurera mobilappen i Adobe Mobile Services-gränssnittet. På så sätt kan du säkerställa att data som samlas in av Adobe Mobile Services skickas till Adobe Campaign. Se [Konfigurera en mobilapp i Adobe Mobile Services](#configuring-a-mobile-app-in-adobe-mobile-services).
 1. Utför den specifika konfigurationen för mobilprogrammet:
 
    * Paketera konfigurationsfilen som hämtas från Adobe Mobile Services-gränssnittet med mobilprogrammet.
-   * Integrera Experience Cloud Mobile SDK i mobilappen. Se [Integrera SDK i ett mobilprogram](#integrating-the-sdk-into-a-mobile-application).
+   * Integrera Experience Cloud Mobile SDK i mobilapplikationerna. Se [Integrera SDK i ett mobilprogram](#integrating-the-sdk-into-a-mobile-application).
 
-1. Definiera intressepunkter i gränssnittet för Adobe Mobile Services. Se [Definiera intressepunkter i Adobe Mobile Services](#defining-points-of-interest-in-adobe-mobile-services).
+1. Definiera intressepunkter i Adobe Mobile Services-gränssnittet. Se [Definiera intressepunkter i Adobe mobiltjänster](#defining-points-of-interest-in-adobe-mobile-services).
 1. Definiera de data som du vill samla in från mobilprogrammets prenumeranter. Se [Samla in prenumerantens intressedata](#collecting-subscribers--points-of-interest-data).
 1. Se till att du har tillgång till mobilprogrammet och insamlade platsdata i Adobe Campaign. Se [Åtkomst till mobilappar som används för att samla in platsdata](#accessing-mobile-apps-used-to-collect-location-data) och [Åtkomst till insamlade platsdata](#accessing-collected-location-data).
 
@@ -66,7 +67,7 @@ För att kunna samla in data om intressepunkter med Adobe Campaign måste du kon
 
    Fyll inte i avsnittet **[!UICONTROL Device-specific settings]**. Detta gäller endast för konfigurering av program som tar emot push-meddelanden.
 
-I avsnittet **[!UICONTROL Mobile application properties]** visas två URL:er: **[!UICONTROL Collect PII endpoint]** och **[!UICONTROL Location Services endpoint]**. De kommer att användas i gränssnittet för Adobe Mobile Services. Se [Konfigurera en mobilapp i Adobe Mobile Services](#configuring-a-mobile-app-in-adobe-mobile-services).
+I avsnittet **[!UICONTROL Mobile application properties]** visas två URL:er: **[!UICONTROL Collect PII endpoint]** och **[!UICONTROL Location Services endpoint]**. De kommer att användas i Adobe Mobile Services-gränssnittet. Se [Konfigurera en mobilapp i Adobe Mobile Services](#configuring-a-mobile-app-in-adobe-mobile-services).
 
 * URL:en **[!UICONTROL Collect PII endpoint]** används för att samla in användarens Experience Cloud ID:n och registreringstoken från mobilprogrammet när det startas. När en användare loggar in i programmet med hjälp av autentiseringsuppgifter som e-post, förnamn, efternamn osv., samlas dessa data in och används för att stämma av användarens registreringstoken med en Adobe Campaign-profil.
 * URL:en **[!UICONTROL Location Services endpoint]** används för att samla in platsdata, t.ex. en användares latitud, longitud och radie från en punkt i intresse.
@@ -162,26 +163,26 @@ Du måste ha tillgång till Adobe Analytics för att kunna göra följande konfi
 
 >[!NOTE]
 >
->Mer information om hur du konfigurerar återanslående finns i [dokumentationen för Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html?lang=sv-SE).
+>Mer information om hur du konfigurerar återanslående finns i [dokumentationen för Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html).
 
 ### Integrera SDK i en mobilapplikation {#integrating-the-sdk-into-a-mobile-application}
 
-Mobilbastjänstens SDK (Software Development Kit) underlättar integreringen av mobilapplikationer i Adobe Campaign.
+Mobilbastjänstens programutvecklingspaket (SDK) underlättar integrationen av mobilappar i Adobe Campaign.
 
 Det här steget beskrivs på [sidan](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html?lang=sv).
 
-### Definiera intressepunkter för Adobe Mobile Services {#defining-points-of-interest-in-adobe-mobile-services}
+### Definiera intressepunkter för Adobe mobiltjänster {#defining-points-of-interest-in-adobe-mobile-services}
 
 Så här definierar du de intressepunkter som används för att samla in platsdata:
 
-1. Gå till gränssnittet Adobe Mobile Services.
+1. Gå till gränssnittet för Adobe Mobile Services.
 1. Lägg till programmet.
 
-   Mer information om hur du hanterar program i mobiltjänster finns i [Adobe Mobile Services-dokumentationen](https://experienceleague.adobe.com/docs/mobile-services/using/manage-apps-ug/t-new-app.html?lang=sv-SE).
+   Mer information om hur du hanterar program i mobiltjänster finns i [Adobe Mobile Services-dokumentationen](https://experienceleague.adobe.com/docs/mobile-services/using/manage-apps-ug/t-new-app.html).
 
 1. Definiera intressepunkterna.
 
-   Mer information om hur du hanterar intressepunkter finns i [Adobe Mobile Services-dokumentationen](https://experienceleague.adobe.com/docs/mobile-services/using/location-ug/t-manage-points.html?lang=sv-SE).
+   Mer information om hur du hanterar intressepunkter finns i [Adobe Mobile Services-dokumentationen](https://experienceleague.adobe.com/docs/mobile-services/using/location-ug/t-manage-points.html).
 
 ### Samla in information om abonnenternas intressepunkter {#collecting-subscribers--points-of-interest-data}
 

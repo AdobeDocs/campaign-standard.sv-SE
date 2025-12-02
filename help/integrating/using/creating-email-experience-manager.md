@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 72b99864-d9d9-4cf4-be06-dc5719a2e4f2
-source-git-commit: 579404ddc128e25cc7f8f93dfec30663c7cf754e
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 0%
@@ -21,9 +22,9 @@ Med det här dokumentet får du lära dig att skapa och hantera e-postinnehåll 
 
 Förutsättningarna är:
 
-* Åtkomst till en AEM som konfigurerats för integreringen.
+* Åtkomst till en AEM-instans som konfigurerats för integreringen.
 * Åtkomst till en Adobe Campaign-instans som konfigurerats för integreringen.
-* En e-postmall från Adobe Campaign har konfigurerats för att ta emot AEM.
+* En e-postmall från Adobe Campaign har konfigurerats för att ta emot AEM-innehåll.
 
 ## Åtkomst till e-postmeddelanden i Adobe Experience Manager {#email-content-aem}
 
@@ -68,13 +69,13 @@ Så här skapar du ett e-postinnehåll i Adobe Experience Manager:
 
    >[!VIDEO](https://video.tv.adobe.com/v/29998)
 
-1. Välj valideringsarbetsflödet **[!UICONTROL Approve for Adobe Campaign]** på fliken **[!UICONTROL Workflow]**. Du kan inte skicka e-postmeddelanden i Adobe Campaign om det innehåller ett innehåll som inte har godkänts.
+1. Välj valideringsarbetsflödet **[!UICONTROL Workflow]** på fliken **[!UICONTROL Approve for Adobe Campaign]**. Du kan inte skicka e-postmeddelanden i Adobe Campaign om det innehåller ett innehåll som inte har godkänts.
 
 Så här skickar du e-post till Adobe Campaign Standard:
 
-1. När parametrarna för innehåll och sändning har definierats skapar du ett e-postmeddelande baserat på en AEM specifik e-postmall i Adobe Campaign Standard.
+1. När parametrarna för innehåll och sändning har definierats skapar du ett e-postmeddelande baserat på en AEM-specifik e-postmall i Adobe Campaign Standard.
 
-+++ Läs mer om AEM.
+   +++ Läs mer om AEM-specifik mall.
 
    1. Gå till **[!UICONTROL Resources]** `>` **[!UICONTROL Templates]** `>` **[!UICONTROL Delivery templates]** från den avancerade menyn.
 
@@ -82,21 +83,21 @@ Så här skickar du e-post till Adobe Campaign Standard:
 
    1. Duplicera eller välj en av leveransmallarna.
 
-   1. I listrutan **[!UICONTROL Content]** i **[!UICONTROL Properties]** väljer du **[!UICONTROL Adobe Experience Manager as Content mode]** och sedan ditt Adobe Experience Manager-konto.
+   1. I listrutan **[!UICONTROL Properties]** i **[!UICONTROL Content]** väljer du **[!UICONTROL Adobe Experience Manager as Content mode]** och sedan ditt Adobe Experience Manager-konto.
 
       ![](assets/aem_templates_2.png)
 
-+++
+   +++
 
    ![](assets/aem_send_1.png)
 
-1. Fyll i egenskaperna för ditt e-postmeddelande och klicka på **[!UICONTROL Create]** för att kunna välja AEM.
+1. Fyll i egenskaperna för ditt e-postmeddelande och klicka på **[!UICONTROL Create]** för att kunna välja ditt AEM-innehåll.
 
 1. Åtkomst till blocket **[!UICONTROL Content]**.
 
    ![](assets/aem_send_2.png)
 
-1. Klicka på **[!UICONTROL Link AEM content]** på menyn **[!UICONTROL Use Adobe Experience Manager content]**.
+1. Klicka på **[!UICONTROL Use Adobe Experience Manager content]** på menyn **[!UICONTROL Link AEM content]**.
 
    Markera sedan det innehåll som du vill använda i e-postmeddelandet.
 

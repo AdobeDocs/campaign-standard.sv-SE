@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: d74e2a2c-3ce1-44d6-a058-67b0600360ca
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 14%
@@ -34,7 +35,7 @@ Exportloggsåtgärden kan utföras av standardanvändare. Privata resurser som: 
 
 1. Lägg till en **[!UICONTROL Incremental query]**-aktivitet och konfigurera den så att den väljer de loggar du behöver. Om du till exempel vill välja alla nya eller uppdaterade utsändningsloggar (profilleveransloggar):
 
-   * Ändra målresursen till **Leveransloggar** (broadLogRcp) på fliken **[!UICONTROL Properties]**.
+   * Ändra målresursen till **[!UICONTROL Properties]** Leveransloggar **(broadLogRcp) på fliken**.
 
      ![](assets/export_logs_query_properties.png)
 
@@ -42,7 +43,7 @@ Exportloggsåtgärden kan utföras av standardanvändare. Privata resurser som: 
 
      ![](assets/export_logs_query_target.png)
 
-   * Markera **[!UICONTROL Use a date field]** på fliken **[!UICONTROL Processed data]** och välj fältet **lastModified**. Vid nästa körning av arbetsflödet kommer endast loggar som har ändrats eller skapats efter den senaste körningen att hämtas.
+   * Markera **[!UICONTROL Processed data]** på fliken **[!UICONTROL Use a date field]** och välj fältet **lastModified**. Vid nästa körning av arbetsflödet kommer endast loggar som har ändrats eller skapats efter den senaste körningen att hämtas.
 
      ![](assets/export_logs_query_processeddata.png)
 

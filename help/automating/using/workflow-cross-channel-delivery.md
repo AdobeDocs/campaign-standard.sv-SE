@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,wait,delivery
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 9cee2005-a99b-47cb-b573-a25812614409
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 84%
@@ -133,7 +134,7 @@ Så här skapar du en e-postleverans:
 1. Ange e-postegenskaperna och klicka på **[!UICONTROL Next]**.
 1. Om du vill skapa layouten för e-postmeddelandet väljer du **[!UICONTROL Use the Email Designer]**.
 1. Redigera och spara innehållet.
-1. Avmarkera alternativet **[!UICONTROL Request confirmation before sending messages]** i avsnittet **[!UICONTROL Schedule]** på meddelandekontrollpanelen.
+1. Avmarkera alternativet **[!UICONTROL Schedule]** i avsnittet **[!UICONTROL Request confirmation before sending messages]** på meddelandekontrollpanelen.
 
 Så här skapar du en SMS-leverans:
 

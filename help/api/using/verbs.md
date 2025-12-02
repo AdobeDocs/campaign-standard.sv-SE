@@ -1,14 +1,15 @@
 ---
 title: GET / POST / PATCH / DELETE verb
-description: Läs mer om verberna som används i Campaign Standard-API:er.
+description: Läs mer om verberna som används i Campaign Standard API:er.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: de97a194-d497-4665-906e-53178fd3b119
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -30,7 +31,7 @@ Följande verb kan användas för åtgärder på resurserna:
 
 ***Exempelbegäranden***
 
-* Exempel på GET-förfrågan i profilsamlingen.
+* Exempel på GET-begäran i profilsamlingen.
 
 
   ```
@@ -66,7 +67,7 @@ Följande verb kan användas för åtgärder på resurserna:
   }
   ```
 
-* Exempel på GET-förfrågan för en viss profil.
+* Exempel på GET-begäran för en viss profil.
 
 
   ```
@@ -92,7 +93,7 @@ Följande verb kan användas för åtgärder på resurserna:
   }
   ```
 
-* Exempelbegäran om POST för att skapa en profil.
+* Exempelbegäran POST för att skapa en profil.
 
 
   ```
@@ -116,7 +117,7 @@ Följande verb kan användas för åtgärder på resurserna:
   }
   ```
 
-* Exempelbegäran från PATCH om att uppdatera en profil.
+* Exempel på PATCH-begäran om att uppdatera en profil.
 
   ```
   -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \

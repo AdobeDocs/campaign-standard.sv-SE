@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 0f66fe2b-22b1-49d7-a080-29b00941a2cc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 3%
@@ -21,9 +22,9 @@ I det här dokumentet får du lära dig hur du skapar flerspråkiga e-postmeddel
 
 Förutsättningarna är:
 
-* Åtkomst till en AEM som konfigurerats för integreringen.
+* Åtkomst till en AEM-instans som konfigurerats för integreringen.
 * Åtkomst till en Adobe Campaign-instans som konfigurerats för integreringen.
-* En flerspråkig e-postmall från Adobe Campaign har konfigurerats för att ta emot AEM.
+* En flerspråkig e-postmall från Adobe Campaign har konfigurerats för att ta emot AEM-innehåll.
 
 ## Skapa nytt e-postinnehåll i Adobe Experience Manager {#creating-email-content-aem}
 
@@ -45,7 +46,7 @@ Förutsättningarna är:
 
    ![](assets/aem_acs_4.png)
 
-1. Välj valideringsarbetsflödet **[!UICONTROL Approve for Adobe Campaign]** på fliken **[!UICONTROL Workflow]**. Du kan inte skicka e-postmeddelanden i Adobe Campaign om det innehåller ett innehåll som inte har godkänts.
+1. Välj valideringsarbetsflödet **[!UICONTROL Workflow]** på fliken **[!UICONTROL Approve for Adobe Campaign]**. Du kan inte skicka e-postmeddelanden i Adobe Campaign om det innehåller ett innehåll som inte har godkänts.
 
    ![](assets/aem_acs_7.png)
 
@@ -97,7 +98,7 @@ Dina språkkopior har skapats. Nu kan du redigera innehållet beroende på vilke
 
 1. Fyll i **[!UICONTROL Properties]** och **[!UICONTROL Audience]** i e-postmeddelandet och klicka på **[!UICONTROL Create]**.
 
-1. Kontrollera att ditt Adobe Experience Manager-konto är korrekt inställt i listrutan **[!UICONTROL Content]** i **[!UICONTROL Edit properties]**.
+1. Kontrollera att ditt Adobe Experience Manager-konto är korrekt inställt i listrutan **[!UICONTROL Edit properties]** i **[!UICONTROL Content]**.
 
    ![](assets/aem_acs_20.png)
 
@@ -127,6 +128,6 @@ Dina språkkopior har skapats. Nu kan du redigera innehållet beroende på vilke
 
    >[!NOTE]
    >
-   >Du kan inte skicka e-postmeddelanden i Adobe Campaign om det innehåller ett AEM som inte har godkänts.
+   >Du kan inte skicka e-postmeddelanden i Adobe Campaign om det använder ett AEM-innehåll som inte har godkänts.
 
 Din målgrupp får ditt e-postmeddelande beroende på **[!UICONTROL Preferred languages]**-uppsättningen i deras **[!UICONTROL Profiles]**. Mer information om hur du redigerar profiler och önskade språk finns på [sidan](../../audiences/using/editing-profiles.md).

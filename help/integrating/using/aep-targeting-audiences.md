@@ -1,16 +1,17 @@
 ---
-title: Målinrikta Adobe Experience Platform-målgrupper
+title: 'Målinrikta Adobe Experience Platform-målgrupper '
 description: Lär dig att rikta sig till Adobe Experience Platform målgrupper i arbetsflöden.
 audience: automating
 content-type: reference
 topic-tags: channel-activities
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 11e2cd7e-99b7-45cc-a0c2-41049128fe49
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 3%

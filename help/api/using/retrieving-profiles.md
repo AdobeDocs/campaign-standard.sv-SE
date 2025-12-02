@@ -2,10 +2,11 @@
 title: Hämta profiler
 description: Läs mer om hur du hämtar profiler med API:er
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 4%
@@ -18,13 +19,13 @@ Hämtning av profiler utförs med en **GET**-begäran.
 
 Du kan sedan förfina sökningen med filter, ordning och sidnumrering. Mer information finns i avsnittet [Ytterligare åtgärder](../../api/using/sorting.md).
 
-Med Campaign Standard-API:er kan du dessutom söka efter profiler som baseras på något av dessa fält: e-post, förnamn, efternamn eller andra anpassade fält. Mer information om detta finns i [det här avsnittet](#searching-field).
+Med Campaign Standard API:er kan du dessutom söka efter profiler som baseras på något av dessa fält: e-post, förnamn, efternamn eller andra anpassade fält. Mer information om detta finns i [det här avsnittet](#searching-field).
 
 <br/>
 
 ***Exempelbegäranden***
 
-* Exempelbegäran om GET för att hämta alla profiler.
+* Exempelbegäran från GET om att hämta alla profiler.
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -50,7 +51,7 @@ Med Campaign Standard-API:er kan du dessutom söka efter profiler som baseras p�
   }
   ```
 
-* Exempelbegäran om GET för att hämta de första 10 e-postvärdena.
+* Exempel på GET-begäran om att hämta de första 10 e-postvärdena.
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10 \

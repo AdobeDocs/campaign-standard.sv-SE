@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
-source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 1%
@@ -25,17 +26,17 @@ Om du vill kontrollera om integreringen av utlösare - kampanj är aktiverad kli
 
 Om du ser det går du vidare till nästa steg.
 
-Om inte, kontakta er kontoansvarige eller er partner inom sektorn för Adobe. Se [Aktivera funktionen](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality).
+Om du inte gör det kontaktar du din kontoansvarige eller er partner inom professionella tjänster på Adobe. Se [Aktivera funktionen](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality).
 
 **Försök skapa en utlösare**
 
 Följ stegen som beskrivs i [Skapa en mappad utlösare i Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) för att skapa en utlösare.
 
-Om utlösaren skapas går du vidare till nästa steg. Annars innebär det att slutpunktsanslutningen för utlösaren misslyckades. Kontrollera om utlösare har etablerats i Experience Cloud (aktiveringstjänster). Om så inte är fallet kontaktar du din kontoansvarige eller partner för professionella tjänster på Adobe. Följande information krävs:
+Om utlösaren skapas går du vidare till nästa steg. Annars innebär det att slutpunktsanslutningen för utlösaren misslyckades. Kontrollera om utlösare har etablerats i Experience Cloud (aktiveringstjänster). Om så inte är fallet kontaktar du er kontoansvarige eller er partner inom sektorn för professionella tjänster på Adobe. Följande information krävs:
 
 * Marketing Cloud företagsnamn
 * Organisations-ID
-* Analysinloggningsföretag (kan vara samma som Marketing Cloud företagsnamn)
+* Analytics-inloggningsföretag (kan vara samma som Marketing Cloud företagsnamn)
 
 **Försök publicera utlösaren**
 
@@ -64,7 +65,7 @@ Om så är fallet, följ dessa riktlinjer:
 * Kontrollera avstämnings-ID-typen i Campaign-datakällan.
 * CustomerId-datakällan skapas via kundattribut.
 * Kontrollera datakällans ID.
-* Be Adobe att starta om Campaign-instansen efter datakällkonfigurationen.
+* Be Adobe att starta om Campaign-instansen efter datakällans konfiguration.
 * Kontrollera problem med tolkning av utlösare i utlösarrapporten.
 
 **Är utlösaren i väntande status?**

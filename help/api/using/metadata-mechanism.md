@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 58ec0999-b28a-4198-8d57-729b074c6a6d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 1%
@@ -27,7 +28,7 @@ Svaret returnerar huvudmetadata från resursen (alla andra fält är beskrivande
 
    * &quot;apiName&quot;: namnet på attributet som används i API:erna.
    * &quot;type&quot;: det här är definitionen på högnivåtyp (sträng, tal, länk, samling, uppräkning...).
-   * &quot;dataPolicy&quot;: fältets värde måste följa givna policyregler. Om regeln dataPolicy till exempel har värdet &quot;email&quot; måste värdet vara en giltig e-postadress. Under en PATCH eller POST kan dataPolicy kontrollera värdet eller ändra värdet till transform (till exempel smartCase).
+   * &quot;dataPolicy&quot;: fältets värde måste följa givna policyregler. Om regeln dataPolicy till exempel har värdet &quot;email&quot; måste värdet vara en giltig e-postadress. Under en PATCH eller en POST kan dataPolicy kontrollera värdet eller ändra värdet som ska omformas (till exempel smartCase).
    * &quot;category&quot;: anger fältets kategori i frågeredigeraren.
    * &quot;resType&quot;: Detta är den tekniska typen.
 
@@ -45,7 +46,7 @@ si on prend l'exemple de l'org unit, on aura un bon exemple lien -->
 
 ***Exempelbegäran***
 
-Utför en GET-förfrågan för resursen.
+Utför en GET-begäran på resursen.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \

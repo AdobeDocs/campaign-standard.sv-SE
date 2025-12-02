@@ -1,14 +1,15 @@
 ---
 title: Konfigurera API-åtkomst
-description: Lär dig hur du ställer in åtkomst till Campaign Standards-API:er.
+description: Lär dig hur du ställer in åtkomst till Campaign Standard API:er.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-source-git-commit: 3450c549f4910a6c5f6be7bf82fbc93ac06625e8
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 5%
@@ -21,7 +22,7 @@ Adobe Campaign Standard API-åtkomst konfigureras enligt stegen nedan. Var och e
 
 >[!IMPORTANT]
 >
->Om du vill hantera certifikat i [Adobe Developer](https://developer.adobe.com/) måste du ha **systemadministratörsbehörighet** i organisationen eller ett [utvecklarkonto](https://helpx.adobe.com/se/enterprise/using/manage-developers.html) i Admin Console.
+>Om du vill hantera certifikat i [Adobe Developer](https://developer.adobe.com/) måste du ha **systemadministratörsbehörighet** för organisationen eller ett [utvecklarkonto](https://helpx.adobe.com/enterprise/using/manage-developers.html) i Admin Console.
 
 1. **Kontrollera att du har ett digitalt certifikat** eller skapa ett om det behövs. De offentliga och privata nycklarna som tillhandahålls med certifikatet behövs i följande steg.
 1. **Skapa en ny integrering av Adobe Campaign-tjänsten** i [Adobe Developer](https://developer.adobe.com/) och konfigurera den. Dina autentiseringsuppgifter genereras sedan (API-nyckel, klienthemlighet...).
@@ -34,9 +35,9 @@ Adobe Campaign Standard API-åtkomst konfigureras enligt stegen nedan. Var och e
    >* [Implementering](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
    >* [Vanliga frågor om JWT-borttagning](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)
 
-1. **Byt ut din JWT mot en åtkomsttoken** via en POST. Denna Access Token måste användas i varje rubrik för dina API-begäranden.
+1. **Byt ut din JWT mot en åtkomsttoken** via en POST-begäran. Denna Access Token måste användas i varje rubrik för dina API-begäranden.
 
-Om du vill skapa en säker Adobe I/O-till-tjänst-API-session måste alla förfrågningar till en Adobe-tjänst innehålla informationen nedan i auktoriseringshuvudet.
+Om du vill skapa en säker tjänst-till-tjänst-API-session för Adobe I/O måste alla förfrågningar till en Adobe-tjänst innehålla informationen nedan i auktoriseringshuvudet.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -51,9 +52,9 @@ Om du vill skapa en säker Adobe I/O-till-tjänst-API-session måste alla förfr
    * &lt;ORGANIZATION> : din produktionsinstans,
    * &lt;ORGANIZATION-mkt-stage>: din sceninstans.
 
-  Kontakta din administratör eller din Adobe tekniska kontakt för att få ditt organisations-ID-värde. Du kan även hämta den till Adobe I/O när du skapar en ny integrering i licenslistan (se <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Adobe Developer-dokumentationen</a>).
+  Kontakta din administratör eller Adobe tekniska kontakt för att få ditt organisations-ID-värde. Du kan även hämta den till Adobe I/O när du skapar en ny integrering i licenslistan (se <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Adobe Developer-dokumentationen</a>).
 
-* **&lt;ACCESS_TOKEN>**: Din personliga åtkomsttoken, som hämtades när du bytte din JSON-webbtoken via en POST.
+* **&lt;ACCESS_TOKEN>**: Din personliga åtkomsttoken, som hämtades när du bytte din JSON-webbtoken via en POST-begäran.
 
 * **&lt;API_KEY>**: din personliga API-nyckel. Det tillhandahålls i Adobe I/O efter att en ny integrering med Adobe Campaign Service har skapats.
 
@@ -71,4 +72,4 @@ Om följande fel uppstår under AdobeIO-integreringen:
 ```
 
 
-Kontakta administratören eller den tekniska kontaktpersonen på Adobe för att kontrollera om CNAME-parametern har skapats på rätt sätt.
+Kontakta din administratör eller Adobe tekniska kontakt för att kontrollera om CNAME-parametern har skapats på rätt sätt.

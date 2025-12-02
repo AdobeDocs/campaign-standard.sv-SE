@@ -1,14 +1,15 @@
 ---
 title: Konfigurera utlösare i Experience Cloud
-description: Lär dig hur du konfigurerar Adobe Experience Cloud Triggers-integreringen så att du kan börja skicka personaliserade leveranser till dina kunder baserat på deras tidigare beteenden.
+description: Lär dig hur du konfigurerar integreringen av Adobe Experience Cloud Triggers för att börja skicka personaliserade leveranser till dina kunder baserat på deras tidigare beteenden.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: cf2ded703e53d6db27e62712734f7ea846da9a21
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 6%
@@ -19,13 +20,13 @@ ht-degree: 6%
 
 ## Aktivera funktionen {#activating-the-functionality}
 
-Funktionen måste aktiveras i Adobe Campaign av Adobe. Kontakta er kontoansvarige eller er partner inom sektorn för Adobe.
+Funktionen måste aktiveras i Adobe Campaign av Adobe. Kontakta er kontoansvarige på Adobe eller er partner inom professionella tjänster.
 
 Adobe-teamet behöver följande information för att aktivera utlösare:
 
 * Marketing Cloud företagsnamn
 * Organisations-ID
-* Analysinloggningsföretag (kan vara samma som Marketing Cloud företagsnamn)
+* Analytics-inloggningsföretag (kan vara samma som Marketing Cloud företagsnamn)
 
 ## Konfigurera lösningar och tjänster {#configuring-solutions-and-services}
 
@@ -57,7 +58,7 @@ Du måste konfigurera [Experience Cloud DTM Core Service](#configuring-experienc
 
 ### Konfigurerar Experience Cloud DTM Core Service {#configuring-experience-cloud-dtm-core-service}
 
-1. I Experience Cloud DTM Core Service (Dynamic Tag Management) aktiverar du Experience Cloud ID och Adobe Analytics för dina webbplatssidor.
+1. I Experience Cloud DTM Core Service (Dynamic Tag Management) aktiverar du Experience Cloud ID och Adobe Analytics för webbplatssidorna.
 
    ![](assets/trigger_uc_conf_1.png)
 
@@ -67,7 +68,7 @@ Du måste konfigurera [Experience Cloud DTM Core Service](#configuring-experienc
 
 ### Konfigurerar Experience Cloud People Core Service {#configuring-experience-cloud-people-core-service}
 
-Aliaset som tidigare refererats i DTM måste skapas i Experience Cloud People Core Service via ett kundattribut. Se till att du skapar ett nytt och refererar till samma DTM-alias i integreringskoden (till exempel&quot;visitorid&quot;).
+Det alias som tidigare refererats i DTM måste skapas i Experience Cloud People Core Service via ett kundattribut. Se till att du skapar ett nytt och refererar till samma DTM-alias i integreringskoden (till exempel&quot;visitorid&quot;).
 
 ![](assets/trigger_uc_conf_3.png)
 
@@ -81,7 +82,7 @@ Aliaset som tidigare refererats i DTM måste skapas i Experience Cloud People Co
 
    ![](assets/remarketing_1.png)
 
-1. Med alias kan en kontakt i Analytics förenas med en profil i Campaign. Du måste matcha de alias som definieras i Experience Cloud ID-tjänsten med en delad data-Source i Campaign. Du måste konfigurera aliasupplösningen i Adobe Campaign via en datakälla ( **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]** ). Se till att du väljer rätt datakälla på den nedrullningsbara menyn **[!UICONTROL Data Source/Alias]**, som är mappad med samma datakälla för kundattribut som skapades i föregående steg.
+1. Med alias kan en kontakt i Analytics förenas med en profil i Campaign. Du måste matcha de alias som definieras i Experience Cloud ID-tjänsten med ett delat data-Source i Campaign. Du måste konfigurera aliasupplösningen i Adobe Campaign via en datakälla ( **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]** ). Se till att du väljer rätt datakälla på den nedrullningsbara menyn **[!UICONTROL Data Source/Alias]**, som är mappad med samma datakälla för kundattribut som skapades i föregående steg.
 
    ![](assets/trigger_uc_conf_5.png)
 
@@ -95,7 +96,7 @@ En Adobe Experience Cloud-utlösare måste skapas så att du kan använda den i 
 
 Skapa en ny utlösare i Experience Cloud och se till att du väljer den rapportsvit som används på webbplatsen. Se till att du väljer rätt dimension så att utlösaren aktiveras.
 
-Mer information finns i [Adobe Experience Cloud-dokumentationen](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=sv-SE).
+Mer information finns i [Adobe Experience Cloud-dokumentationen](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html).
 
 ## Utlöser bästa praxis och begränsningar {#triggers-best-practices-and-limitations}
 

@@ -8,7 +8,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 59%
@@ -35,7 +35,7 @@ Meddelanden kan också uteslutas under färdigställandet av leveransen om en ad
 
 * [Förstå karantänshantering](../../sending/using/understanding-quarantine-management.md)
 * [Om anmälan och avanmälan i Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-* [studsar](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=sv-SE#metrics-for-deliverability)
+* [studsar](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
 ## Identifiera leveransfel för ett meddelande {#identifying-delivery-failures-for-a-message}
 
@@ -64,7 +64,7 @@ Möjliga orsaker till leveransfel är:
 | **[!UICONTROL Mailbox full]** | Mjuk | Den här användarens postlåda är full och kan inte ta emot fler meddelanden. Den här adressen kan tas bort från karantänlistan för att göra ett nytt försök. Den tas bort automatiskt efter 30 dagar. För att adressen automatiskt ska tas bort från listan över adresser i karantän måste det tekniska arbetsflödet **[!UICONTROL Database cleanup]** startas. |
 | **[!UICONTROL Refused]** | Mjuk/Hård | Adressen har placerats i karantän på grund av säkerhetsfeedback som en skräppostrapport. Enligt det fel som returnerats av leverantören skickas adressen direkt till karantänen eller så utförs leveransen igen tills Campaign får ett fel som motiverar karantänstatusen eller tills antalet fel når 5. |
 | **[!UICONTROL Duplicate]** | Ignorerad | Adressen har redan identifierats i segmenteringen. |
-| **[!UICONTROL Not defined]** | Mjuk | adressen är i kvalificeringsläge eftersom fel inte har ökat. | ännu. Den här typen av fel inträffar när ett nytt felmeddelande skickas av servern: Det kan vara ett isolerat fel, men om det inträffar igen ökar felräknaren, som varnar de tekniska teamen. |
+| **[!UICONTROL Not defined]** | Mjuk | adressen är i kvalificeringsläge eftersom fel ännu inte har ökats. Den här typen av fel inträffar när ett nytt felmeddelande skickas av servern: Det kan vara ett isolerat fel, men om det inträffar igen ökar felräknaren, som varnar de tekniska teamen. |
 | **[!UICONTROL Error ignored]** | Ignorerad | Adressen är på tillåtelselista och ett e-postmeddelande kommer att skickas till den i alla fall. |
 | **[!UICONTROL Address on denylist]** | Hård | Adressen lades till i blockeringslista vid tidpunkten för sändningen. |
 | **[!UICONTROL Account disabled]** | Mjuk/Hård | När IAP (Internet Access Provider) upptäcker en lång inaktivitetsperiod kan den stänga användarens konto: det går då inte att skicka till användarens adress. Den mjuka eller hårda typen beror på vilken typ av fel som tas emot: Om kontot tillfälligt inaktiveras på grund av sex månaders inaktivitet och fortfarande kan aktiveras, tilldelas statusen **[!UICONTROL Erroneous]** och leveransen provas igen. Om felet får signaler om att kontot är permanent inaktiverat skickas det direkt till karantän. |
@@ -75,8 +75,8 @@ Möjliga orsaker till leveransfel är:
 
 
 **Relaterade ämnen:**
-* [Hårda studsar](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=sv-SE#hard-bounces)
-* [Mjuka studsar](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=sv-SE#soft-bounces)
+* [Hårda studsar](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
+* [Mjuka studsar](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
 
 ## Försök igen efter ett tillfälligt leveransfel {#retries-after-a-delivery-temporary-failure}
 
@@ -90,7 +90,7 @@ Om du vill ändra varaktigheten för en leverans går du till de avancerade para
 
 >[!IMPORTANT]
 >
->**Parametern &#x200B;** [!UICONTROL Delivery duration]&#x200B;**i dina Campaign-leveranser används nu bara om den är inställd på 3,5 dagar eller mindre.** Om du anger ett värde som är högre än 3,5 dagar kommer det inte att tas med i beräkningen.
+>**Parametern **[!UICONTROL Delivery duration]**i dina Campaign-leveranser används nu bara om den är inställd på 3,5 dagar eller mindre.** Om du anger ett värde som är högre än 3,5 dagar kommer det inte att tas med i beräkningen.
 
 Om du till exempel vill att återförsök för en leverans ska stoppas efter en dag kan du ange leveransens varaktighet till **1d** och meddelandena i kön för återförsök kommer att tas bort efter en dag.
 
@@ -116,9 +116,9 @@ För synkrona felmeddelanden vid leveransfel avgör Adobe Campaign Enhanced MTA 
 >
 >Studskvalifikationer i Campaign **[!UICONTROL Message qualification]**-tabellen används inte längre.
 
-Asynkrona studsningar är fortfarande kvalificerade inMail-processen enligt **[!UICONTROL Inbound email]**-reglerna. Om du vill komma åt de här reglerna klickar du på logotypen **Adobe** längst upp till vänster, markerar **[!UICONTROL Administration > Channels > Email > Email processing rules]** och väljer **[!UICONTROL Bounce mails]**. Mer information om den här regeln finns i [det här avsnittet](../../administration/using/configuring-email-channel.md#email-processing-rules).
+Asynkrona studsningar är fortfarande kvalificerade inMail-processen enligt **[!UICONTROL Inbound email]**-reglerna. Om du vill komma åt de här reglerna klickar du på logotypen **Adobe** längst upp till vänster, väljer **[!UICONTROL Administration > Channels > Email > Email processing rules]** och sedan **[!UICONTROL Bounce mails]**. Mer information om den här regeln finns i [det här avsnittet](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
-Mer information om studsar och olika typer av studsar finns i [det här avsnittet](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=sv-SE#metrics-for-deliverability).
+Mer information om studsar och olika typer av studsar finns i [det här avsnittet](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 

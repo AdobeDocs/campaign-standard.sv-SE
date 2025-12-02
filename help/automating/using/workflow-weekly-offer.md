@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,delivery,scheduler
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 32d9d174-8438-48d7-b876-33a0c35d9549
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 76%
@@ -26,7 +27,7 @@ Du kan skicka ett e-postmeddelande med specialerbjudanden varje tisdag till alla
 
 ## Skapa en schemaläggningsaktivitet{#creating-a-scheduler-activity}
 
-1. Dra och släpp en [Schemaläggaren](../../automating/using/scheduler.md)-aktivitet i **[!UICONTROL Activities]** > **[!UICONTROL Execution]**.
+1. Dra och släpp en **[!UICONTROL Activities]** Schemaläggaren **[!UICONTROL Execution]**-aktivitet i [ > ](../../automating/using/scheduler.md).
 1. Dubbelklicka på aktiviteten.
 1. Konfigurera leveransen.
 1. I **[!UICONTROL Execution frequency]** väljer du **[!UICONTROL Weekly]**.
@@ -53,7 +54,7 @@ Du kan skicka ett e-postmeddelande med specialerbjudanden varje tisdag till alla
 
 ## Skapa en e-postleverans{#creating-an-email-delivery}
 
-1. Dra och släpp en [e-postleveransaktivitet](../../automating/using/email-delivery.md) i **[!UICONTROL Activities]** > **[!UICONTROL Channels]**.
+1. Dra och släpp en **[!UICONTROL Activities]** e-postleveransaktivitet **[!UICONTROL Channels]** i [ > ](../../automating/using/email-delivery.md).
 1. Klicka på aktiviteten och välj ![](assets/edit_darkgrey-24px.png) för att redigera.
 1. Markera **[!UICONTROL Recurring email]** och klicka på **[!UICONTROL Next]**.
 1. Välj en e-postmall och klicka på **[!UICONTROL Next]**.

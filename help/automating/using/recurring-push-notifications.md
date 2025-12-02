@@ -2,10 +2,11 @@
 title: Skicka ett återkommande push-meddelande med ett arbetsflöde
 description: I det här exemplet skickas ett personligt push-meddelande varje dag i månaden kl. 20.00 till prenumeranterna av ditt mobilprogram beroende på deras tidszoner
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: d5e6034c-3673-4069-ac0b-49c7ad07259d
-source-git-commit: 0ab950d4124bf459ba889e2f1c2954210dd350e0
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 4%
@@ -34,9 +35,9 @@ Så här skapar du arbetsflödet:
 
    ![](assets/wkf_push_example_5.png)
 
-1. Med aktiviteten [Fråga](../../automating/using/query.md) kan du rikta dig till VIP mellan 20 och 30 år, som har prenumererat på ditt mobilprogram och som inte har öppnat det e-postmeddelande du skickade:
+1. Med aktiviteten [Fråga](../../automating/using/query.md) kan du rikta dig till VIP-kunder mellan 20 och 30 år som har prenumererat på ditt mobilprogram och som inte har öppnat det e-postmeddelande du skickade:
 
-   * Välj en målgrupp (era VIP kunder) och filtrera utifrån deras ålder.
+   * Välj en målgrupp (era VIP-kunder) och filtrera utifrån deras ålder.
    * Dra och släpp **Prenumerationerna till ett application** -element på arbetsytan. Välj **Exists** och välj det mobilprogram som du vill använda.
    * Välj det e-postmeddelande som du skickade till dina kunder.
    * Dra och släpp elementet **Leveransloggar (loggar)** på arbetsytan och välj **Exists** för att ange alla kunder som tog emot e-postmeddelandet som mål.
@@ -48,7 +49,7 @@ Så här skapar du arbetsflödet:
 
    * Välj alternativet **[!UICONTROL Recurring notification]**.
    * Definiera innehållet i push-meddelanden. Mer information om innehåll för push-meddelanden finns i det här [avsnittet](../../channels/using/preparing-and-sending-a-push-notification.md).
-   * Välj **[!UICONTROL Messages to be sent automatically on the time zone specified below]** i blocket **[!UICONTROL Schedule]**. Här valde vi **[!UICONTROL Time zone of the contact date]** Stilla havet som i arbetsflödet **[!UICONTROL Scheduler]**.
+   * Välj **[!UICONTROL Schedule]** i blocket **[!UICONTROL Messages to be sent automatically on the time zone specified below]**. Här valde vi **[!UICONTROL Time zone of the contact date]** Stilla havet som i arbetsflödet **[!UICONTROL Scheduler]**.
    * Markera **[!UICONTROL Optimize the sending time per recipient]** i fältet **[!UICONTROL Send at the recipient's time zone]**.
 
      ![](assets/wkf_push_example_4.png)

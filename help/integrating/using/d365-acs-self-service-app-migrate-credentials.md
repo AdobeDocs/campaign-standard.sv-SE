@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: e0fb289a-6b6e-473d-80af-50f6d0d72af1
-source-git-commit: abdcd3f9f7f709818dee794b4c830e486fefa290
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 1%
@@ -35,34 +36,29 @@ Migreringen till autentiseringsuppgifter för OAuth Server-till-Server är en en
 4. Den nya autentiseringsuppgiften **OAuth Server-to-Server** läggs till i navigeringen till vänster.
    * Klicka på Avbryt migrering om du vill avbryta migreringen.
    * Klicka inte på knappen Granska och ta bort förrän du verifierar om den nya autentiseringsuppgiften OAuth Server-to-Server fungerar.
-
      ![](assets/JwtToOAuthMigration3.png)
 
-5. Uppdatera inloggningsuppgifterna i Microsoft Dynamics 365 till Adobe Campaign Standard-appen
+5. Uppdatera inloggningsuppgifterna i appen Microsoft Dynamics 365 till Adobe Campaign Standard
    * Logga in på integrationsappen och navigera till sidan Inställningar.
    * Välj OAuth som autentiseringstyp.
    * Eftersom de nya autentiseringsuppgifterna för OAuth Server-till-Server använder samma autentiseringsuppgifter som de gamla JWT-autentiseringsuppgifterna (Service Account) fylls de flesta fälten redan i.
    * Ange klient-ID och klienthemlighet. Dessa finns i Adobe Developer Console projekt.
    * Klicka på Spara för att spara inställningarna.
-
      ![](assets/JwtToOAuthMigration4.png)
 
 6. Kontrollera om de nya autentiseringsuppgifterna fungerar
    * Logga in på integrationsappen och navigera till sidan Arbetsflöden.
    * Stoppa aktiva arbetsflöden. Vänta tills arbetsflödena har stoppats.
    * Starta arbetsflödena. Vänta tills arbetsflödena körs.
-   * Övervaka arbetsflödena under några minuter för att säkerställa att arbetsflödena fungerar som de ska. Du kan också kontrollera data i Adobe Campaign Standard och Microsoft Dynamics 365 för att se till att data synkroniseras korrekt.
+   * Övervaka arbetsflödena under några minuter för att säkerställa att arbetsflödena fungerar som de ska. Du kan också kontrollera data i Adobe Campaign Standard och Microsoft Dynamics 365 för att säkerställa att data synkroniseras korrekt.
 
 7. Ta bort JWT-autentiseringsuppgifterna för att slutföra migreringen
    * Logga in på [Adobe Developer Console](https://developer.adobe.com/console)
    * Klicka på projekten och välj det projekt som du migrerade.
    * Klicka på fliken JWT-autentiseringsuppgifter (Service Account) i navigeringsfönstret till vänster.
    * Klicka på knappen Granska och ta bort.
-
      ![](assets/JwtToOAuthMigration5.png)
    * Granska tidsstämpeln för den senaste åtkomstmenyn eller den senast använda menyn för att verifiera om integreringsappen genererar åtkomsttoken med den nya OAuth-autentiseringen eller fortfarande använder den gamla JWT-autentiseringen.
-
      ![](assets/JwtToOAuthMigration6.png)
    * När det har bekräftats att integreringsappen använder den nya OAuth-autentiseringsuppgiften och inte längre använder JWT-autentiseringsuppgifter fortsätter du med att ta bort den gamla autentiseringsuppgiften genom att klicka på knappen **Bekräfta och fortsätta** och därmed slutföra migreringen.
-
      ![](assets/JwtToOAuthMigration7.png)

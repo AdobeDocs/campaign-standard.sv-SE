@@ -6,13 +6,14 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: segmentation,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 3761ee4a-1ce5-4f9e-b2a5-84388b6b9db8
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '885'
-ht-degree: 82%
+ht-degree: 79%
 
 ---
 
@@ -34,7 +35,7 @@ Med aktiviteten **[!UICONTROL Segmentation]** kan du skapa ett eller flera segme
 
 ## Kontext för användning {#context-of-use}
 
-Aktiviteten **[!UICONTROL Segmentation]** placeras vanligtvis efter målaktiviteter (förfrågan, skärningspunkt, koppling, uteslutning etc.) för att definiera den standardpopulation som ska ligga till grund för segmenten.
+Aktiviteten **[!UICONTROL Segmentation]** placeras vanligtvis efter målaktiviteter (fråga, skärning, union, exkludering, osv.) för att definiera den standardpopulation som segmenten baseras på.
 
 **Relaterade ämnen**
 

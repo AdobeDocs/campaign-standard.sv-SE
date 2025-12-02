@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,segmentation
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 5cd71e07-f955-4c15-bdfb-14b0daccec1a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 39%
@@ -53,7 +54,7 @@ Du kan skicka ett e-postmeddelande till kunder: ett för kunder som skapats för
 
 ## Skapa en e-postleverans {#create-an-email-delivery}
 
-1. Dra och släpp en [e-postleveransaktivitet](../../automating/using/email-delivery.md) efter varje segment i **[!UICONTROL Activities]** > **[!UICONTROL Channels]**.
+1. Dra och släpp en **[!UICONTROL Activities]** e-postleveransaktivitet **[!UICONTROL Channels]** efter varje segment i [ > ](../../automating/using/email-delivery.md).
 1. Klicka på aktiviteten och välj ![](assets/edit_darkgrey-24px.png) för att redigera.
 1. Markera **[!UICONTROL Single send email]** och klicka på **[!UICONTROL Next]**.
 1. Välj en e-postmall och klicka på **[!UICONTROL Next]**.

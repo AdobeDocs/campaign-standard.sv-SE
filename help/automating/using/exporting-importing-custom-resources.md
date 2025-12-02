@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: f8e7eb96-9541-4d28-9d8d-f06af822debd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 95%
@@ -114,7 +115,7 @@ Paketet som skapas finns i mappen Nedladdningar. Namnet på zip-filen genereras 
 
    ![](assets/cusresources_import3.png)
 
-### Publish {#publish-structure}
+### Publicera {#publish-structure}
 
 1. Gå till menyn **[!UICONTROL Administration]**/**[!UICONTROL Development]**/**[!UICONTROL Publication]**.
 1. Klicka på **[!UICONTROL Prepare publication]** och sedan **[!UICONTROL Publish]** för att uppdatera instansen med data från de nya anpassade resurserna.
@@ -137,7 +138,7 @@ På samma sätt som i föregående steg delas den upp i två delar: Importera pa
 
    ![](assets/cusresources_importdata.png)
 
-### Publish {#publish-data}
+### Publicera {#publish-data}
 
 1. Gå till menyn **[!UICONTROL Administration]**/**[!UICONTROL Development]**/**[!UICONTROL Publication]**.
 1. Klicka på **[!UICONTROL Prepare publication]** och sedan **[!UICONTROL Publish]** för att uppdatera instansen med data från de anpassade resurserna.
