@@ -51,4 +51,4 @@ De API:er vi tillhandahåller använder **standardkoncept** med ett REST-gränss
 
 Alla slutpunkter beskrivs ingående i den här dokumentationen med de allmänna begrepp du bör känna till när du hanterar API:et samt den fullständiga API-referensen, kodexempel och snabbstartguider.
 
-Om något saknas eller verkar vara felaktigt kan du fråga vår [community](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community).
+Om något saknas eller verkar vara felaktigt kan du fråga vår [community](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=sv).

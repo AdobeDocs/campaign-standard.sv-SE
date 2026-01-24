@@ -119,7 +119,7 @@ Det nya biljettsystemet har varit genom [Adobe Admin Console](https://adminconso
 
 ### Fråga experterna!
 
-Gå med i Campaign-communityn: sök efter svar i befintliga frågor eller ställ din fråga till communityn. [Delta i konversationen](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+Gå med i Campaign-communityn: sök efter svar i befintliga frågor eller ställ din fråga till communityn. [Delta i konversationen](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=sv)
 
 ### Skapa en biljett eller starta en chatt
 
