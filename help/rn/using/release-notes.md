@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: c1f64589578c144a9b8eb879684f27834efaf8d8
+source-git-commit: 4df02bb5bbac105057a33d61a7158482bbc48a53
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 100%
+source-wordcount: '133'
+ht-degree: 49%
 
 ---
 
@@ -27,48 +27,22 @@ This section lists improvements and changes included in the next Campaign Standa
 
 -->
 
-## Version 25.2 – Sommarversion 2025 {#summer-25}
+## Version 26.1 (LA) {#26.1}
 
-### Säkerhetskorrigeringar {#summer-25-security}
+>[!AVAILABILITY]
+>
+>Den här versionen är endast tillgänglig för en uppsättning organisationer (begränsad tillgänglighet). Kontakta din Adobe-representant om du vill veta mer.
 
-* Den här versionen innehåller säkerhetskorrigeringar.
-* Den här versionen innehåller följande säkerhetsuppgradering: PostgreSQL 14.18, migrering från CentOS till Rocky för Azure-instanser.
-
-### Andra korrigeringar {#summer-25-fixes}
-
-* Förbättrad hantering av sekvenstömning för att öka systemets tillförlitlighet. (CAMP-57281)
-* Allmänna uppdateringar om produktstabilisering. (CAMP-57339)
-* Förbättrad dynamisk rapportering för bättre tillförlitlighet och färre datamatchningsfel. (CAMP-58157)
-* Korrigerade ett problem där nedrullningsbara menyer inte figursatte text korrekt. (CAMP-57360)
-* Uppdaterad rapporteringsfunktion som förhindrar användare att fråga data som är äldre än två år. (CAMP-59262)
-
-## Version 25.1.2 {#25.1.2}
-
-### Säkerhetskorrigeringar {#25.1.2-security}
+### Säkerhetskorrigeringar {#winter-26-security}
 
 * Den här versionen innehåller säkerhetskorrigeringar.
-* Den här versionen innehåller följande säkerhetsuppgradering: Apache Tomcat har uppgraderats till v10.1.36.
+* Den här versionen innehåller följande säkerhetsuppgraderingar: Debian 12 och PostgreSQL 17.
 
-### Andra korrigeringar {#25.1.2-fixes}
+### Andra korrigeringar {#winter-26-fixes}
 
-* Ett problem med tokenparsning som kunde förhindra användare från att logga in via IMS har åtgärdats. (CAMP-57337)
-* Den automatiska sekvens-ID-genereringsmekanismen har förbättrats för att förbättra systemets tillförlitlighet. (CAMP-57281)
-
-## Version 25.1 – vinterversion 2025 {#winter-25}
-
-### Säkerhetskorrigeringar {#winter-25-security}
-
-* Den här versionen innehåller säkerhetskorrigeringar.
-* Den här versionen innehåller följande säkerhetsuppgradering: Apache Tomcat har uppgraderats till v10.1.33.
-
-### Andra korrigeringar {#winter-25-fixes}
-
-
-* Åtgärdade URL:en för ”dataschema” i prenumerationssammanfattningsfönstret (CAMP-56168, CAMP-56296)
-* Korrigerade ett problem med att kringgå trötthetsreglerna när alternativet **Meddelande som ska skickas omedelbart** används (CAMP-56866, CAMP-57033)
-* Korrigerade ett dupliceringsproblem i mallar (CAMP-56340)
-* Åtgärdade en spårningsregression när dynamiska webbadresser användes i Adobe Experience Manager-mallar (CAMP-51932)
-* Korrigerade ett prestandaproblem i faktureringsprocessen (CAMP-56796)
-* Korrigerade ett kodningsfel för HTML med tecknet `>` på JSSP-webbsidor (CAMP-56497)
-* Korrigerade ett problem i dynamisk rapportering när alternativet **Visning på valda rader** användes (CAMP-55895)
-
+* Förbättrad dynamisk rapportering för bättre tillförlitlighet och färre datamatchningsfel. (CAMP-58964)
+* Förbättrad IMS-inloggningsfunktion för bättre tillförlitlighet. (CAMP-59418)
+* Förbättrad integrering av AEM-innehåll med bättre URL-hantering för sidnumrerade begäranden. (CAMP-59540)
+* Inmatningsstöd av lösenordstyp har lagts till på skärmen Alternativ med automatisk hashning. (CAMP-60206)
+* Ett problem där tillfälliga arbetsflöden använde felaktiga sekvens-ID:n har korrigerats. (CAMP-59824)
+* Korrigerade ett problem som kunde orsaka fel när kampanjinnehåll för AEM hämtades. (CAMP-59926)
