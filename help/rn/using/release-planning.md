@@ -59,7 +59,7 @@ S: Ändringar visas i [versionsinformationen](../../rn/using/release-notes.md), 
 
 **F: Vad är valideringsprocessen?**
 
-S: När mellanlagringsinstansen uppgraderas rekommenderar Adobe att du validerar dina processer och användningsfall fungerar korrekt med den nya versionen och rapporterar eventuella problem till [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
+S: När mellanlagringsinstansen uppgraderas rekommenderar Adobe att du validerar dina processer och användningsfall fungerar korrekt med den nya versionen och rapporterar eventuella problem till [Adobe Client Care](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html).
 
 **F: Kommer det att finnas åtkomst till instansen under uppgraderingsprocessen?**
 
@@ -81,4 +81,4 @@ S: Ja, de kommer att arbeta. Det går inte att skicka nya e-postmeddelanden unde
 
 S: När du loggar in på Campaign visas ett popup-fönster med ett meddelande om lansering med den senaste versionen.
 
-Kontakta [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om du har frågor.
+Kontakta [Adobe Client Care](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) om du har frågor.
