@@ -1,19 +1,19 @@
 ---
-title: Information om den senaste versionen
-description: På denna sida beskrivs innehållet i den senaste versionen av Campaign Standard
+title: Senaste versionsinformation
+description: This page details content of the latest Campaign Standard release
 feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 4df02bb5bbac105057a33d61a7158482bbc48a53
+source-git-commit: f0d21b5eaac74eb27790eb342e56c334e0a04990
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 49%
+source-wordcount: '230'
+ht-degree: 0%
 
 ---
 
 
-# Information om den senaste versionen {#latest-release}
+# Senaste versionsinformation {#latest-release}
 
 <!--
 ## Release notes {#e-new-release}
@@ -31,14 +31,30 @@ This section lists improvements and changes included in the next Campaign Standa
 
 >[!AVAILABILITY]
 >
->Den här versionen är endast tillgänglig för en uppsättning organisationer (begränsad tillgänglighet). Kontakta din Adobe-representant om du vill veta mer.
+>Den här versionen är endast tillgänglig för en uppsättning organisationer (begränsad tillgänglighet). Kontakta Adobe om du vill ha mer information.
 
-### Säkerhetskorrigeringar {#winter-26-security}
+### Säkerhetskorrigeringar {#26-1-security}
 
 * Den här versionen innehåller säkerhetskorrigeringar.
 * Den här versionen innehåller följande säkerhetsuppgraderingar: Debian 12 och PostgreSQL 17.
 
-### Andra korrigeringar {#winter-26-fixes}
+### Andra korrigeringar {#26-1-fixes}
+
+* Förbättrad dynamisk rapportering för bättre tillförlitlighet och färre datamatchningsfel. (CAMP-58964)
+* Förbättrad IMS-inloggningsfunktion för bättre tillförlitlighet. (CAMP-59418)
+* Förbättrad integrering av AEM-innehåll med bättre URL-hantering för sidnumrerade begäranden. (CAMP-59540)
+* Inmatningsstöd av lösenordstyp har lagts till på skärmen Alternativ med automatisk hashning. (CAMP-60206)
+* Ett problem där tillfälliga arbetsflöden använde felaktiga sekvens-ID:n har korrigerats. (CAMP-59824)
+* Korrigerade ett problem som kunde orsaka fel när kampanjinnehåll för AEM hämtades. (CAMP-59926)
+
+## Version 26.2 {#26.2}
+
+### Säkerhetskorrigeringar {#26-2-security}
+
+* Den här versionen innehåller säkerhetskorrigeringar.
+* Den här versionen innehåller följande säkerhetsuppgraderingar: Debian 13 och PostgreSQL 17.
+
+### Andra korrigeringar {#26-2-fixes}
 
 * Förbättrad dynamisk rapportering för bättre tillförlitlighet och färre datamatchningsfel. (CAMP-58964)
 * Förbättrad IMS-inloggningsfunktion för bättre tillförlitlighet. (CAMP-59418)
