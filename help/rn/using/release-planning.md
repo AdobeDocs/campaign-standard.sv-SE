@@ -8,7 +8,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: f0d21b5eaac74eb27790eb342e56c334e0a04990
+source-git-commit: 035fa1ab4703d5511bdd1bbdbf2585f893b9d787
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Uppgraderingar distribueras i två faser. För det första uppgraderas Stage-ins
 
 Alla releasedatum kan ändras: gå till den här sidan regelbundet för att kontrollera om det finns uppdateringar. Miljöuppdateringar sker i vågor under de angivna tidsramarna nedan. Exakta datum meddelas varje kund via e-post.
 
-## Version 26.3 {#release-26-2-release}
+## Version 26.3 {#release-26-3-release}
 
 Detaljerad information om den här versionen finns i [versionsinformationen](release-notes.md) när scenmiljöuppgraderingarna startar.
 
@@ -59,7 +59,7 @@ S: Ändringar visas i [versionsinformationen](../../rn/using/release-notes.md), 
 
 **F: Vad är valideringsprocessen?**
 
-S: När mellanlagringsinstansen uppgraderas rekommenderar Adobe att du validerar dina processer och användningsfall fungerar korrekt med den nya versionen och rapporterar eventuella problem till [Adobe Client Care](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html).
+S: När mellanlagringsinstansen uppgraderas rekommenderar Adobe att du validerar dina processer och användningsfall fungerar korrekt med den nya versionen och rapporterar eventuella problem till [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
 
 **F: Kommer det att finnas åtkomst till instansen under uppgraderingsprocessen?**
 
@@ -81,4 +81,4 @@ S: Ja, de kommer att arbeta. Det går inte att skicka nya e-postmeddelanden unde
 
 S: När du loggar in på Campaign visas ett popup-fönster med ett meddelande om lansering med den senaste versionen.
 
-Kontakta [Adobe Client Care](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) om du har frågor.
+Kontakta [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om du har frågor.
